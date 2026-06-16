@@ -1,5 +1,6 @@
 {
   "date": "2026-06-16",
+  "timezone": "America/Toronto",
   "zhTitle": "AI 入口正在从 App 重新分配到设备与系统层",
   "enTitle": "AI entry points are moving from apps into systems and devices",
   "zhSummary": "Apple、Google、Microsoft 把 agent 推进 OS、AI PC、智能眼镜与 agent-first device。野生信号与研究信号显示，用户真正关心的是电池、隐私、反馈和控制权。",
@@ -19,8 +20,251 @@
     "Product Hunt",
     "Kickstarter",
     "Reddit",
-    "research"
+    "research",
+    "patent watch"
+  ],
+  "coverStory": {
+    "topicId": "googlebook-ai-pc",
+    "zhTitle": "Googlebook 把 AI PC 从功能清单推成一个新入口类别",
+    "enTitle": "Googlebook pushes the AI PC from feature bundle into new entry-point category",
+    "zhSummary": [
+      "最强信号不是又多了一个模型能力，而是电脑形态被重新定义为 Gemini Intelligence 的容器。",
+      "这类入口会把用户的输入、上下文和反馈从 App 内部迁移到系统层。",
+      "如果成立，AI PC 的竞争重点会从芯片跑分转向日常任务闭环、权限透明和可恢复控制。"
+    ],
+    "enSummary": [
+      "The strongest signal is not another model feature, but a laptop category reframed as a Gemini Intelligence container.",
+      "That moves input, context, and feedback from individual apps into the system layer.",
+      "If it holds, AI PC competition shifts from chip benchmarks toward everyday task closure, permission clarity, and recoverable control."
+    ],
+    "imagePath": "assets/googlebook-hero.png",
+    "imageWidth": 1300,
+    "imageHeight": 731,
+    "imageSourceUrl": "https://blog.google/products-and-platforms/platforms/android/meet-googlebook/",
+    "primarySourceUrl": "https://blog.google/products-and-platforms/platforms/android/meet-googlebook/",
+    "evidenceStrength": "official product blog",
+    "whyCover": "It changes the product interface boundary: the laptop becomes an AI system surface, not just a host for AI apps."
+  },
+  "topics": [
+    {
+      "id": "apple-os-agent",
+      "section": "official",
+      "zhHeadline": "Apple：Siri AI 把屏幕、个人上下文和 App actions 变成系统级入口",
+      "enHeadline": "Apple: Siri AI turns screen state, personal context, and app actions into an OS-level entry point",
+      "visual": {
+        "path": "assets/apple-siri-onscreen.jpg",
+        "width": 653,
+        "height": 915,
+        "altZh": "Apple Siri AI onscreen awareness official image",
+        "altEn": "Apple Siri AI onscreen awareness official image",
+        "captionZh": "官方视觉：Siri AI 与屏幕上下文",
+        "captionEn": "Official visual: Siri AI and screen context",
+        "sourceUrl": "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/"
+      },
+      "sources": [
+        {
+          "label": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/",
+          "type": "official"
+        }
+      ],
+      "evidenceStrength": "high / official announcement"
+    },
+    {
+      "id": "googlebook-ai-pc",
+      "section": "official",
+      "zhHeadline": "Googlebook：Gemini Intelligence 试图重写 AI PC 的默认交互",
+      "enHeadline": "Googlebook: Gemini Intelligence tries to rewrite default AI PC interaction",
+      "visual": {
+        "path": "assets/googlebook-hero.png",
+        "width": 1300,
+        "height": 731,
+        "altZh": "Googlebook official hero visual",
+        "altEn": "Googlebook official hero visual",
+        "captionZh": "官方视觉：Googlebook / AI PC 类别",
+        "captionEn": "Official visual: Googlebook / AI PC category",
+        "sourceUrl": "https://blog.google/products-and-platforms/platforms/android/meet-googlebook/"
+      },
+      "sources": [
+        {
+          "label": "Google Blog",
+          "url": "https://blog.google/products-and-platforms/platforms/android/meet-googlebook/",
+          "type": "official"
+        }
+      ],
+      "evidenceStrength": "high / official product blog"
+    },
+    {
+      "id": "android-xr-eyewear",
+      "section": "official",
+      "zhHeadline": "Android XR：智能眼镜开始从回答问题转向执行真实任务",
+      "enHeadline": "Android XR: smart glasses move from answering questions toward executing tasks",
+      "visual": {
+        "path": "assets/google-xr-hero.webp",
+        "width": 200,
+        "height": 112,
+        "altZh": "Google Android XR eyewear official visual",
+        "altEn": "Google Android XR eyewear official visual",
+        "captionZh": "官方视觉：Android XR eyewear",
+        "captionEn": "Official visual: Android XR eyewear",
+        "sourceUrl": "https://blog.google/products-and-platforms/platforms/android/android-xr-io-2026/"
+      },
+      "sources": [
+        {
+          "label": "Google Android XR",
+          "url": "https://blog.google/products-and-platforms/platforms/android/android-xr-io-2026/",
+          "type": "official"
+        }
+      ],
+      "evidenceStrength": "high / official product blog"
+    },
+    {
+      "id": "microsoft-solara",
+      "section": "official",
+      "zhHeadline": "Microsoft Solara：agent-first device 需要新的 shell、身份和管理栈",
+      "enHeadline": "Microsoft Solara: agent-first devices need a new shell, identity, and management stack",
+      "visual": {
+        "path": "assets/diagram-solara-agent-shell.svg",
+        "width": 1200,
+        "height": 760,
+        "altZh": "Project Solara source-based mechanism diagram",
+        "altEn": "Project Solara source-based mechanism diagram",
+        "captionZh": "自绘机制图：基于 Microsoft 官方文章，非产品渲染",
+        "captionEn": "Self-drawn mechanism diagram based on Microsoft article; not a product render",
+        "sourceUrl": "https://commandline.microsoft.com/project-solara-build-2026/"
+      },
+      "sources": [
+        {
+          "label": "Microsoft Command Line",
+          "url": "https://commandline.microsoft.com/project-solara-build-2026/",
+          "type": "official"
+        }
+      ],
+      "evidenceStrength": "high / official platform article"
+    },
+    {
+      "id": "wild-smart-glasses",
+      "section": "wild",
+      "zhHeadline": "野生信号：AI 眼镜和 coding HUD 正在用众筹/社区方式试错",
+      "enHeadline": "Wild signal: AI glasses and coding HUDs are being tested through crowdfunding and communities",
+      "visual": {
+        "path": "assets/diagram-wild-signal-map.svg",
+        "width": 1200,
+        "height": 760,
+        "altZh": "Wild AI wearable signal map",
+        "altEn": "Wild AI wearable signal map",
+        "captionZh": "自绘信号图：基于 Product Hunt / Kickstarter / Reddit，非产品渲染",
+        "captionEn": "Self-drawn signal map based on Product Hunt / Kickstarter / Reddit; not a product render",
+        "sourceUrl": "https://www.producthunt.com/products/monako-glass/alternatives"
+      },
+      "sources": [
+        {
+          "label": "Product Hunt / Monako Glass",
+          "url": "https://www.producthunt.com/products/monako-glass/alternatives",
+          "type": "weak startup signal"
+        },
+        {
+          "label": "Kickstarter / Maverick AI",
+          "url": "https://www.kickstarter.com/projects/everysight/maverick-full-color-ai-ar-glasses",
+          "type": "crowdfunding signal"
+        },
+        {
+          "label": "Reddit r/HealthTech",
+          "url": "https://www.reddit.com/r/HealthTech/comments/1q8bit3/ai_wearables_at_ces_2026_feel_like_a_new/",
+          "type": "community signal"
+        }
+      ],
+      "evidenceStrength": "weak / community and crowdfunding signal"
+    },
+    {
+      "id": "research-agency-wearables",
+      "section": "research",
+      "zhHeadline": "研究信号：agentic AI 的核心问题正在从界面效率转向人的控制权",
+      "enHeadline": "Research signal: agentic AI is shifting the problem from interface efficiency to human control",
+      "visual": {
+        "path": "assets/diagram-research-agency-ring.svg",
+        "width": 1200,
+        "height": 760,
+        "altZh": "Agency and wearable ring research mechanism diagram",
+        "altEn": "Agency and wearable ring research mechanism diagram",
+        "captionZh": "自绘研究机制图：基于 CUI / CHI EA 论文，非产品渲染",
+        "captionEn": "Self-drawn research diagram based on CUI / CHI EA papers; not a product render",
+        "sourceUrl": "https://arxiv.org/html/2605.15064v1"
+      },
+      "sources": [
+        {
+          "label": "arXiv / CUI 2026",
+          "url": "https://arxiv.org/html/2605.15064v1",
+          "type": "research"
+        },
+        {
+          "label": "Microsoft Research / CHI EA 2026",
+          "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/03/chi26d-sub1595-cam-i61.pdf",
+          "type": "research prototype"
+        }
+      ],
+      "evidenceStrength": "medium / peer-reviewed or research prototype signal"
+    },
+    {
+      "id": "patent-watch-protocol",
+      "section": "patent",
+      "zhHeadline": "专利雷达：今天不把搜索结果写成已确认产品事实",
+      "enHeadline": "Patent radar: today's search path is not presented as confirmed product fact",
+      "visual": {
+        "path": "assets/diagram-patent-watch.svg",
+        "width": 1200,
+        "height": 760,
+        "altZh": "Patent watch protocol diagram",
+        "altEn": "Patent watch protocol diagram",
+        "captionZh": "自绘流程图：专利信号如何进入日报，不代表产品渲染",
+        "captionEn": "Self-drawn flow diagram for patent-signal handling; not a product render",
+        "sourceUrl": "https://patents.google.com/"
+      },
+      "sources": [
+        {
+          "label": "Google Patents",
+          "url": "https://patents.google.com/",
+          "type": "patent search"
+        },
+        {
+          "label": "CNIPA",
+          "url": "https://english.cnipa.gov.cn/",
+          "type": "patent authority"
+        }
+      ],
+      "evidenceStrength": "weak / patent search protocol"
+    },
+    {
+      "id": "china-global-compare",
+      "section": "china",
+      "zhHeadline": "中国/海外对比：眼镜和 AI PC 都在抢“默认入口”，但证据强度不同",
+      "enHeadline": "China / global compare: glasses and AI PCs compete for default entry, but evidence strength differs",
+      "visual": {
+        "path": "assets/diagram-china-global-compare.svg",
+        "width": 1200,
+        "height": 760,
+        "altZh": "China and global signal comparison diagram",
+        "altEn": "China and global signal comparison diagram",
+        "captionZh": "自绘对比图：官方平台信号 vs 野生市场信号",
+        "captionEn": "Self-drawn comparison diagram: official platform signals vs wild market signals",
+        "sourceUrl": "https://www.kickstarter.com/projects/everysight/maverick-full-color-ai-ar-glasses"
+      },
+      "sources": [
+        {
+          "label": "Google Android XR",
+          "url": "https://blog.google/products-and-platforms/platforms/android/android-xr-io-2026/",
+          "type": "official"
+        },
+        {
+          "label": "Kickstarter smart-glasses scan",
+          "url": "https://www.kickstarter.com/projects/everysight/maverick-full-color-ai-ar-glasses",
+          "type": "crowdfunding signal"
+        }
+      ],
+      "evidenceStrength": "medium for comparison / weak for China-specific market proof"
+    }
   ],
   "zhPath": "./zh/",
-  "enPath": "./en/"
+  "enPath": "./en/",
+  "sourcesPath": "./sources.md"
 }

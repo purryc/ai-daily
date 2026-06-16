@@ -20,10 +20,33 @@
       "Product Hunt",
       "Kickstarter",
       "Reddit",
-      "research"
+      "research",
+      "patent watch"
     ],
-    "zhPath": "./2026-06-16/zh/",
-    "enPath": "./2026-06-16/en/",
-    "sourcesPath": "./2026-06-16/sources.md"
+    "coverStory": {
+      "topicId": "googlebook-ai-pc",
+      "zhTitle": "Googlebook 把 AI PC 从功能清单推成一个新入口类别",
+      "enTitle": "Googlebook pushes the AI PC from feature bundle into new entry-point category",
+      "zhSummary": [
+        "最强信号不是又多了一个模型能力，而是电脑形态被重新定义为 Gemini Intelligence 的容器。",
+        "这类入口会把用户的输入、上下文和反馈从 App 内部迁移到系统层。",
+        "如果成立，AI PC 的竞争重点会从芯片跑分转向日常任务闭环、权限透明和可恢复控制。"
+      ],
+      "enSummary": [
+        "The strongest signal is not another model feature, but a laptop category reframed as a Gemini Intelligence container.",
+        "That moves input, context, and feedback from individual apps into the system layer.",
+        "If it holds, AI PC competition shifts from chip benchmarks toward everyday task closure, permission clarity, and recoverable control."
+      ],
+      "imagePath": "assets/googlebook-hero.png",
+      "imageWidth": 1300,
+      "imageHeight": 731,
+      "imageSourceUrl": "https://blog.google/products-and-platforms/platforms/android/meet-googlebook/",
+      "primarySourceUrl": "https://blog.google/products-and-platforms/platforms/android/meet-googlebook/",
+      "evidenceStrength": "official product blog",
+      "whyCover": "It changes the product interface boundary: the laptop becomes an AI system surface, not just a host for AI apps."
+    },
+    "zhPath": "/ai-daily/2026-06-16/zh/",
+    "enPath": "/ai-daily/2026-06-16/en/",
+    "sourcesPath": "/ai-daily/2026-06-16/sources.md"
   }
 ]

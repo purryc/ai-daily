@@ -1,29 +1,305 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AI Product Morning Brief 2026-06-16 - Slidev</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Microsoft+YaHei:wght@200;400;600&family=IBM+Plex+Mono:wght@200;400;600&display=swap" type="text/css">
-<link rel="preload" as="image" href="./assets/googlebook-hero-BYnehekE.png">
-<link rel="preload" as="image" href="./assets/apple-wwdc-cover-C8_947JN.jpg">
-<link rel="preload" as="image" href="./assets/apple-siri-onscreen-BwviVZMb.jpg">
-<link rel="preload" as="image" href="data:image/webp;base64,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">
-<link rel="icon" href="https://cdn.jsdelivr.net/gh/slidevjs/slidev/assets/favicon.png">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta property="slidev:version" content="52.16.0">
-<meta name="description" content="&quot;Daily morning brief for HCI, AI hardware, AI software products, and agentic device ecosystems.\n&quot;">
-<meta property="og:title" content="AI Product Morning Brief 2026-06-16 - Slidev">
-<meta property="og:description" content="&quot;Daily morning brief for HCI, AI hardware, AI software products, and agentic device ecosystems.\n&quot;">  <script type="module" crossorigin src="./assets/index-Dv8clitt.js"></script>
-  <link rel="modulepreload" crossorigin href="./assets/rolldown-runtime-QTnfLwEv.js">
-  <link rel="modulepreload" crossorigin href="./assets/modules/shiki-C9o-BCZt.js">
-  <link rel="modulepreload" crossorigin href="./assets/modules/vue-Ar4Y_3NW.js">
-  <link rel="stylesheet" crossorigin href="./assets/modules/shiki-BrmBd2_v.css">
-  <link rel="stylesheet" crossorigin href="./assets/index-uCb3iWX-.css">
-</head>
-<body>
-  <div id="app"></div>
-  <div id="mermaid-rendering-container"></div>
-  
-</body>
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI 入口正在从 App 重新分配到设备与系统层 · AI Daily</title>
+    <meta name="description" content="Apple、Google、Microsoft 把 agent 推进 OS、AI PC、智能眼镜与 agent-first device。野生信号与研究信号显示，用户真正关心的是电池、隐私、反馈和控制权。" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2216%22%20fill%3D%22%232f2234%22%2F%3E%3Ctext%20x%3D%2213%22%20y%3D%2242%22%20font-family%3D%22Arial%22%20font-size%3D%2226%22%20font-weight%3D%22900%22%20fill%3D%22%23fff%22%3EAI%3C%2Ftext%3E%3C%2Fsvg%3E" />
+    <link rel="stylesheet" href="../../assets/site.css" />
+  </head>
+  <body>
+
+    <main class="issue-shell">
+      <nav class="issue-nav" aria-label="Issue navigation">
+        <a class="brand" href="/ai-daily/">AI Daily</a>
+        <div>
+          <a class="active" href="/ai-daily/2026-06-16/zh/">中文</a>
+          <a class="" href="/ai-daily/2026-06-16/en/">English</a>
+          <a href="/ai-daily/2026-06-16/sources.md">来源总表</a>
+        </div>
+      </nav>
+
+      <header class="issue-hero">
+        <div class="issue-hero-copy">
+          <p class="eyebrow">2026-06-16 · America/Toronto</p>
+          <h1>AI 入口正在从 App 重新分配到设备与系统层</h1>
+          <div class="hero-lines">
+            <p>最强信号不是又多了一个模型能力，而是电脑形态被重新定义为 Gemini Intelligence 的容器。</p><p>这类入口会把用户的输入、上下文和反馈从 App 内部迁移到系统层。</p><p>如果成立，AI PC 的竞争重点会从芯片跑分转向日常任务闭环、权限透明和可恢复控制。</p>
+          </div>
+          <div class="chip-row"><span>HCI</span><span>AI hardware</span><span>AI software</span><span>smart glasses</span><span>AI PC</span><span>agentic devices</span><span>on-device AI</span></div>
+          <p class="source-row"><strong>来源：</strong> <a href="https://blog.google/products-and-platforms/platforms/android/meet-googlebook/" target="_blank" rel="noreferrer">封面原文</a></p>
+        </div>
+        <figure class="issue-cover-image">
+          <img src="../assets/googlebook-hero.png" alt="Googlebook 把 AI PC 从功能清单推成一个新入口类别" width="1300" height="731" decoding="async" />
+          <figcaption>official product blog · It changes the product interface boundary: the laptop becomes an AI system surface, not just a host for AI apps.</figcaption>
+        </figure>
+      </header>
+
+      <section class="section-jump" aria-label="Sections">
+        <a href="#official">大厂官方</a><a href="#wild">野生信号</a><a href="#research">论文</a><a href="#patent">专利</a><a href="#china">中国</a>
+      </section>
+
+
+        <section class="desk-section" id="official">
+          <div class="section-heading">
+            <p>大厂官方</p>
+            <h2>Official Desk / 大厂官方</h2>
+          </div>
+          <div class="topic-list">
+
+    <article class="topic-card" id="apple-os-agent" data-sections="official">
+
+    <figure class="evidence-figure">
+      <a href="https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/" target="_blank" rel="noreferrer" aria-label="官方视觉：Siri AI 与屏幕上下文">
+        <img src="../assets/apple-siri-onscreen.jpg" alt="Apple Siri AI onscreen awareness official image" width="653" height="915" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>官方视觉：Siri AI 与屏幕上下文</figcaption>
+    </figure>
+      <div class="topic-main">
+        <div class="topic-topline">
+          <span class="section-chip">大厂官方</span>
+          <span>high / official announcement</span>
+          <span>2026-06-08</span>
+        </div>
+        <h3>Apple：Siri AI 把屏幕、个人上下文和 App actions 变成系统级入口</h3>
+        <p><strong>事实：</strong> Apple Newsroom 描述了更强的 Siri AI、屏幕内容理解、个人上下文搜索和跨 App actions。</p>
+        <p><strong>价值：</strong> 价值不在“聊天更聪明”，而在用户不用先决定打开哪个 App；系统可以从当前屏幕和历史上下文接手。</p>
+        <div class="lens-grid">
+          <span>Input: voice + onscreen reference</span><span>Context: personal data across apps</span><span>Feedback: system-level action confirmation</span><span>Agentic: app action closure</span>
+        </div>
+        <p><strong>产品影响：</strong> OS 级 AI 必须设计可见权限、可撤销动作、失败恢复和“我为什么这样做”的解释层。</p>
+        <p class="source-row"><strong>来源：</strong> <a href="https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/" target="_blank" rel="noreferrer">Apple Newsroom</a></p>
+      </div>
+    </article>
+    <article class="topic-card" id="googlebook-ai-pc" data-sections="official">
+
+    <figure class="evidence-figure">
+      <a href="https://blog.google/products-and-platforms/platforms/android/meet-googlebook/" target="_blank" rel="noreferrer" aria-label="官方视觉：Googlebook / AI PC 类别">
+        <img src="../assets/googlebook-hero.png" alt="Googlebook official hero visual" width="1300" height="731" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>官方视觉：Googlebook / AI PC 类别</figcaption>
+    </figure>
+      <div class="topic-main">
+        <div class="topic-topline">
+          <span class="section-chip">大厂官方</span>
+          <span>high / official product blog</span>
+          <span>2026-05-12</span>
+        </div>
+        <h3>Googlebook：Gemini Intelligence 试图重写 AI PC 的默认交互</h3>
+        <p><strong>事实：</strong> Google Blog 把 Googlebook 定义为为 Gemini Intelligence 设计的新 laptop 类别，并强调 Magic Pointer、Create your Widget 等系统层能力。</p>
+        <p><strong>价值：</strong> 这不是把聊天框塞进电脑，而是把光标、桌面和 widget 变成 agent 的输入/反馈界面。</p>
+        <div class="lens-grid">
+          <span>Input: pointer + text + desktop state</span><span>Context: Android + ChromeOS + Gemini</span><span>Feedback: widgets and surfaced actions</span><span>Agentic: task-level assistance</span>
+        </div>
+        <p><strong>产品影响：</strong> AI PC 的 UI 重点会从“模型在哪里”转向“系统如何把上下文交给模型，并把结果放回用户工作流”。</p>
+        <p class="source-row"><strong>来源：</strong> <a href="https://blog.google/products-and-platforms/platforms/android/meet-googlebook/" target="_blank" rel="noreferrer">Google Blog</a></p>
+      </div>
+    </article>
+    <article class="topic-card" id="android-xr-eyewear" data-sections="official">
+
+    <figure class="evidence-figure">
+      <a href="https://blog.google/products-and-platforms/platforms/android/android-xr-io-2026/" target="_blank" rel="noreferrer" aria-label="官方视觉：Android XR eyewear">
+        <img src="../assets/google-xr-hero.webp" alt="Google Android XR eyewear official visual" width="200" height="112" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>官方视觉：Android XR eyewear</figcaption>
+    </figure>
+      <div class="topic-main">
+        <div class="topic-topline">
+          <span class="section-chip">大厂官方</span>
+          <span>high / official product blog</span>
+          <span>2026-05-19</span>
+        </div>
+        <h3>Android XR：智能眼镜开始从回答问题转向执行真实任务</h3>
+        <p><strong>事实：</strong> Google Blog 描述了搭载 Gemini 的音频/显示眼镜，覆盖导航、消息、通话、翻译和 partner app action。</p>
+        <p><strong>价值：</strong> 眼镜的关键不是“戴着问 AI”，而是输入更低摩擦、上下文更连续、反馈更贴近当下环境。</p>
+        <div class="lens-grid">
+          <span>Input: voice + gaze-adjacent context</span><span>Context: location + phone + apps</span><span>Feedback: audio/display glance</span><span>Agentic: navigation and communication actions</span>
+        </div>
+        <p><strong>产品影响：</strong> 智能眼镜产品要优先解决录制提示、旁人可见性、低打扰反馈和失败时的手动接管。</p>
+        <p class="source-row"><strong>来源：</strong> <a href="https://blog.google/products-and-platforms/platforms/android/android-xr-io-2026/" target="_blank" rel="noreferrer">Google Android XR</a></p>
+      </div>
+    </article>
+    <article class="topic-card" id="microsoft-solara" data-sections="official">
+
+    <figure class="evidence-figure">
+      <a href="https://commandline.microsoft.com/project-solara-build-2026/" target="_blank" rel="noreferrer" aria-label="自绘机制图：基于 Microsoft 官方文章，非产品渲染">
+        <img src="../assets/diagram-solara-agent-shell.svg" alt="Project Solara source-based mechanism diagram" width="1200" height="760" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>自绘机制图：基于 Microsoft 官方文章，非产品渲染</figcaption>
+    </figure>
+      <div class="topic-main">
+        <div class="topic-topline">
+          <span class="section-chip">大厂官方</span>
+          <span>high / official platform article</span>
+          <span>Build 2026 / accessed 2026-06-16</span>
+        </div>
+        <h3>Microsoft Solara：agent-first device 需要新的 shell、身份和管理栈</h3>
+        <p><strong>事实：</strong> Microsoft Command Line 将 Project Solara 描述为面向 agent-first devices 的平台组合，包含 MDEP、Agent Shell、Intune、Entra ID 和 just-in-time UI。</p>
+        <p><strong>价值：</strong> 它提示企业级 AI 设备不会只是一个 app；它需要设备管理、身份、隐私指示和临时 UI 共同工作。</p>
+        <div class="lens-grid">
+          <span>Input: shell-mediated commands</span><span>Context: enterprise identity and policy</span><span>Feedback: just-in-time UI + indicators</span><span>Agentic: managed task execution</span>
+        </div>
+        <p><strong>产品影响：</strong> agentic device 的 UX 底座是 trust infrastructure：物理麦克风状态、权限边界、审计轨迹和 IT 可控性。</p>
+        <p class="source-row"><strong>来源：</strong> <a href="https://commandline.microsoft.com/project-solara-build-2026/" target="_blank" rel="noreferrer">Microsoft Command Line</a></p>
+      </div>
+    </article>
+          </div>
+        </section>
+        <section class="desk-section" id="wild">
+          <div class="section-heading">
+            <p>野生信号</p>
+            <h2>Wild Desk / 野生信号</h2>
+          </div>
+          <div class="topic-list">
+
+    <article class="topic-card" id="wild-smart-glasses" data-sections="wild">
+
+    <figure class="evidence-figure">
+      <a href="https://www.producthunt.com/products/monako-glass/alternatives" target="_blank" rel="noreferrer" aria-label="自绘信号图：基于 Product Hunt / Kickstarter / Reddit，非产品渲染">
+        <img src="../assets/diagram-wild-signal-map.svg" alt="Wild AI wearable signal map" width="1200" height="760" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>自绘信号图：基于 Product Hunt / Kickstarter / Reddit，非产品渲染</figcaption>
+    </figure>
+      <div class="topic-main">
+        <div class="topic-topline">
+          <span class="section-chip">野生信号</span>
+          <span>weak / community and crowdfunding signal</span>
+          <span>accessed 2026-06-16</span>
+        </div>
+        <h3>野生信号：AI 眼镜和 coding HUD 正在用众筹/社区方式试错</h3>
+        <p><strong>事实：</strong> Product Hunt、Kickstarter 和 Reddit 信号显示，创业产品在 HUD、录制总结、翻译、tap-to-AI 和全天佩戴之间快速试错。</p>
+        <p><strong>价值：</strong> 这些不是强商业事实，但很适合观察用户愿不愿意把 AI 入口戴在脸上，以及他们最先抱怨什么。</p>
+        <div class="lens-grid">
+          <span>Input: gesture + tap + voice</span><span>Context: camera/audio capture</span><span>Feedback: HUD/audio summaries</span><span>Agentic: weak / fragmented</span>
+        </div>
+        <p><strong>产品影响：</strong> 野生产品最先暴露真实阻力：电池、隐私、佩戴羞耻、录制边界和“AI slop”感。</p>
+        <p class="source-row"><strong>来源：</strong> <a href="https://www.producthunt.com/products/monako-glass/alternatives" target="_blank" rel="noreferrer">Product Hunt / Monako Glass</a> · <a href="https://www.kickstarter.com/projects/everysight/maverick-full-color-ai-ar-glasses" target="_blank" rel="noreferrer">Kickstarter / Maverick AI</a> · <a href="https://www.reddit.com/r/HealthTech/comments/1q8bit3/ai_wearables_at_ces_2026_feel_like_a_new/" target="_blank" rel="noreferrer">Reddit r/HealthTech</a></p>
+      </div>
+    </article>
+          </div>
+        </section>
+        <section class="desk-section" id="research">
+          <div class="section-heading">
+            <p>论文</p>
+            <h2>Research Watch / 论文</h2>
+          </div>
+          <div class="topic-list">
+
+    <article class="topic-card" id="research-agency-wearables" data-sections="research">
+
+    <figure class="evidence-figure">
+      <a href="https://arxiv.org/html/2605.15064v1" target="_blank" rel="noreferrer" aria-label="自绘研究机制图：基于 CUI / CHI EA 论文，非产品渲染">
+        <img src="../assets/diagram-research-agency-ring.svg" alt="Agency and wearable ring research mechanism diagram" width="1200" height="760" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>自绘研究机制图：基于 CUI / CHI EA 论文，非产品渲染</figcaption>
+    </figure>
+      <div class="topic-main">
+        <div class="topic-topline">
+          <span class="section-chip">论文</span>
+          <span>medium / peer-reviewed or research prototype signal</span>
+          <span>2026</span>
+        </div>
+        <h3>研究信号：agentic AI 的核心问题正在从界面效率转向人的控制权</h3>
+        <p><strong>事实：</strong> CUI/arXiv 论文讨论 conversational AI 时代 agency 的迁移；Microsoft Research CHI EA 原型把 wearable ring 作为低摩擦 agent 输入。</p>
+        <p><strong>价值：</strong> 论文提醒产品团队：越少显性界面，越要认真设计过程控制、反馈和退出路径。</p>
+        <div class="lens-grid">
+          <span>Input: low-friction wearable signal</span><span>Context: task and social setting</span><span>Feedback: confidence gap without clear cues</span><span>Agentic: process control vs outcome control</span>
+        </div>
+        <p><strong>产品影响：</strong> 未来 AI OS / 眼镜 / ring 不应只追求“无界面”，而要把确认、纠错、暂停和解释做成轻量但可见的控制层。</p>
+        <p class="source-row"><strong>来源：</strong> <a href="https://arxiv.org/html/2605.15064v1" target="_blank" rel="noreferrer">arXiv / CUI 2026</a> · <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2026/03/chi26d-sub1595-cam-i61.pdf" target="_blank" rel="noreferrer">Microsoft Research / CHI EA 2026</a></p>
+      </div>
+    </article>
+          </div>
+        </section>
+        <section class="desk-section" id="patent">
+          <div class="section-heading">
+            <p>专利</p>
+            <h2>Patent Watch / 专利</h2>
+          </div>
+          <div class="topic-list">
+
+    <article class="topic-card" id="patent-watch-protocol" data-sections="patent">
+
+    <figure class="evidence-figure">
+      <a href="https://patents.google.com/" target="_blank" rel="noreferrer" aria-label="自绘流程图：专利信号如何进入日报，不代表产品渲染">
+        <img src="../assets/diagram-patent-watch.svg" alt="Patent watch protocol diagram" width="1200" height="760" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>自绘流程图：专利信号如何进入日报，不代表产品渲染</figcaption>
+    </figure>
+      <div class="topic-main">
+        <div class="topic-topline">
+          <span class="section-chip">专利</span>
+          <span>weak / patent search protocol</span>
+          <span>accessed 2026-06-16</span>
+        </div>
+        <h3>专利雷达：今天不把搜索结果写成已确认产品事实</h3>
+        <p><strong>事实：</strong> 本期保留 patent watch 入口，但没有把单个专利包装成已发布产品。后续自动化应同时扫 Google Patents 与 CNIPA，并标注 patent signal。</p>
+        <p><strong>价值：</strong> 专利对软硬件产品很有用，但它是方向信号，不等于上市计划、可用功能或发布日期。</p>
+        <div class="lens-grid">
+          <span>Input: sensor and gesture claims</span><span>Context: device-side inference</span><span>Feedback: display/audio/haptics claims</span><span>Agentic: speculative</span>
+        </div>
+        <p><strong>产品影响：</strong> 日报正文必须把 patent signal 和 product fact 分开，避免把“申请过”误读为“要发布”。</p>
+        <p class="source-row"><strong>来源：</strong> <a href="https://patents.google.com/" target="_blank" rel="noreferrer">Google Patents</a> · <a href="https://english.cnipa.gov.cn/" target="_blank" rel="noreferrer">CNIPA</a></p>
+      </div>
+    </article>
+          </div>
+        </section>
+        <section class="desk-section" id="china">
+          <div class="section-heading">
+            <p>中国</p>
+            <h2>China / Global Compare</h2>
+          </div>
+          <div class="topic-list">
+
+    <article class="topic-card" id="china-global-compare" data-sections="china">
+
+    <figure class="evidence-figure">
+      <a href="https://www.kickstarter.com/projects/everysight/maverick-full-color-ai-ar-glasses" target="_blank" rel="noreferrer" aria-label="自绘对比图：官方平台信号 vs 野生市场信号">
+        <img src="../assets/diagram-china-global-compare.svg" alt="China and global signal comparison diagram" width="1200" height="760" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>自绘对比图：官方平台信号 vs 野生市场信号</figcaption>
+    </figure>
+      <div class="topic-main">
+        <div class="topic-topline">
+          <span class="section-chip">中国</span>
+          <span>medium for comparison / weak for China-specific market proof</span>
+          <span>accessed 2026-06-16</span>
+        </div>
+        <h3>中国/海外对比：眼镜和 AI PC 都在抢“默认入口”，但证据强度不同</h3>
+        <p><strong>事实：</strong> 海外大厂信号来自官方 OS、AI PC、XR 和 agent shell；中国相关信号在本期主要出现在 Kickstarter/Rokid 等创业与众筹链路中。</p>
+        <p><strong>价值：</strong> 这说明同一产品方向上，官方平台事实和野生市场试错必须分开读。</p>
+        <div class="lens-grid">
+          <span>Input: glasses vs PC</span><span>Context: platform ecosystem maturity</span><span>Feedback: display/audio/shell</span><span>Agentic: platform-led vs startup-led</span>
+        </div>
+        <p><strong>产品影响：</strong> 主页和正文需要用 evidence strength 标签把官方事实、社区信号、众筹信号、专利信号分层显示。</p>
+        <p class="source-row"><strong>来源：</strong> <a href="https://blog.google/products-and-platforms/platforms/android/android-xr-io-2026/" target="_blank" rel="noreferrer">Google Android XR</a> · <a href="https://www.kickstarter.com/projects/everysight/maverick-full-color-ai-ar-glasses" target="_blank" rel="noreferrer">Kickstarter smart-glasses scan</a></p>
+      </div>
+    </article>
+          </div>
+        </section>
+
+      <section class="watchlist">
+        <div class="section-heading">
+          <p>Next scan</p>
+          <h2>Watchlist</h2>
+        </div>
+        <ul>
+          <li>AI OS / shell 的权限与撤销设计是否会成为平台差异点。</li><li>智能眼镜能否从 demo 走向可长期佩戴的输入/反馈系统。</li><li>野生产品信号需要继续扫 Reddit、Product Hunt、Kickstarter、独立评测和中国创业产品。</li><li>专利信号只作为方向雷达，不能当成发布事实。</li>
+        </ul>
+      </section>
+    </main>
+    <script>
+      document.querySelectorAll("[data-filter]").forEach((button) => {
+        button.addEventListener("click", () => {
+          const filter = button.dataset.filter;
+          document.querySelectorAll("[data-filter]").forEach((item) => item.classList.toggle("active", item === button));
+          document.querySelectorAll("[data-sections]").forEach((card) => {
+            const sections = card.dataset.sections.split(" ");
+            card.hidden = filter !== "all" && !sections.includes(filter);
+          });
+        });
+      });
+    </script>
+  </body>
 </html>

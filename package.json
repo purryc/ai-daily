@@ -1,0 +1,10 @@
+{
+  "name": "ai-daily",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/render-site.mjs",
+    "check": "node scripts/check-site.mjs"
+  }
+}
