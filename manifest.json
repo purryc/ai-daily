@@ -1,0 +1,29 @@
+[
+  {
+    "date": "2026-06-16",
+    "zhTitle": "AI 入口正在从 App 重新分配到设备与系统层",
+    "enTitle": "AI entry points are moving from apps into systems and devices",
+    "zhSummary": "Apple、Google、Microsoft 把 agent 推进 OS、AI PC、智能眼镜与 agent-first device。野生信号与研究信号显示，用户真正关心的是电池、隐私、反馈和控制权。",
+    "enSummary": "Apple, Google, and Microsoft are pushing agents into operating systems, AI PCs, smart glasses, and agent-first devices. Wild and research signals show that battery, privacy, feedback, and control are becoming the real UX battleground.",
+    "tags": [
+      "HCI",
+      "AI hardware",
+      "AI software",
+      "smart glasses",
+      "AI PC",
+      "agentic devices",
+      "on-device AI"
+    ],
+    "sourceTypes": [
+      "official",
+      "developer docs",
+      "Product Hunt",
+      "Kickstarter",
+      "Reddit",
+      "research"
+    ],
+    "zhPath": "./2026-06-16/zh/",
+    "enPath": "./2026-06-16/en/",
+    "sourcesPath": "./2026-06-16/sources.md"
+  }
+]

@@ -1,0 +1,1 @@
+var e=``+new URL(`apple-siri-onscreen-BwviVZMb.jpg`,import.meta.url).href;export{e as t};

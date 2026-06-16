@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Daily</title>
+    <meta name="description" content="AI Daily: AI soft/hardware product morning briefs by date." />
+    <style>
+      :root {
+        --red: #c7000b;
+        --text: #1d1d1b;
+        --muted: #626262;
+        --line: #d7dce2;
+        --panel: #f5f7fa;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: #ffffff;
+        color: var(--text);
+        font-family: Arial, "Microsoft YaHei", sans-serif;
+      }
+
+      a {
+        color: var(--red);
+        text-decoration: none;
+      }
+
+      .page {
+        width: min(1120px, calc(100% - 40px));
+        margin: 0 auto;
+        padding: 44px 0 64px;
+      }
+
+      header {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 24px;
+        border-bottom: 1px solid var(--line);
+        padding-bottom: 28px;
+      }
+
+      h1 {
+        color: var(--red);
+        font-size: 46px;
+        line-height: 1;
+        margin: 0 0 12px;
+      }
+
+      .lede {
+        color: var(--muted);
+        font-size: 17px;
+        line-height: 1.6;
+        max-width: 740px;
+        margin: 0;
+      }
+
+      .lang {
+        display: flex;
+        gap: 10px;
+        white-space: nowrap;
+      }
+
+      .lang a {
+        border: 1px solid var(--line);
+        padding: 9px 13px;
+        font-size: 14px;
+        color: var(--text);
+      }
+
+      .lang a.active {
+        background: var(--red);
+        border-color: var(--red);
+        color: #ffffff;
+      }
+
+      .daily-list {
+        display: grid;
+        gap: 18px;
+        margin-top: 28px;
+      }
+
+      article {
+        display: grid;
+        grid-template-columns: 170px 1fr;
+        gap: 22px;
+        background: var(--panel);
+        border-left: 8px solid var(--red);
+        padding: 22px;
+      }
+
+      .date {
+        color: var(--red);
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 1.05;
+      }
+
+      h2 {
+        font-size: 24px;
+        line-height: 1.2;
+        margin: 0 0 10px;
+      }
+
+      .summary {
+        color: #333333;
+        font-size: 15px;
+        line-height: 1.6;
+        margin: 0 0 16px;
+      }
+
+      .meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-bottom: 18px;
+      }
+
+      .meta span {
+        background: #ffffff;
+        border: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 12px;
+        padding: 5px 8px;
+      }
+
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .actions a {
+        background: #ffffff;
+        border: 1px solid var(--line);
+        color: var(--red);
+        font-weight: 800;
+        padding: 10px 13px;
+      }
+
+      .actions a.primary {
+        background: var(--red);
+        border-color: var(--red);
+        color: #ffffff;
+      }
+
+      footer {
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 12px;
+        margin-top: 34px;
+        padding-top: 16px;
+      }
+
+      @media (max-width: 720px) {
+        header,
+        article {
+          grid-template-columns: 1fr;
+        }
+
+        header {
+          display: grid;
+        }
+
+        h1 {
+          font-size: 38px;
+        }
+
+        .date {
+          font-size: 22px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <header>
+        <div>
+          <h1>AI Daily</h1>
+          <p class="lede">A dated archive of daily product briefs covering HCI, AI hardware, AI software, smart glasses, AI PCs, on-device AI, robotics, and soft/hardware systems.</p>
+        </div>
+        <nav class="lang" aria-label="Language">
+          <a href="../">中文</a>
+          <a class="active" href="./">English</a>
+        </nav>
+      </header>
+
+      <section class="daily-list" aria-label="Daily briefs">
+        <article>
+          <div class="date">2026<br />06-16</div>
+          <div>
+            <h2>AI entry points are moving from apps into systems and devices</h2>
+            <p class="summary">Apple, Google, and Microsoft are pushing agents into operating systems, AI PCs, smart glasses, and agent-first devices. Wild and research signals show that battery, privacy, feedback, and control are becoming the real UX battleground.</p>
+            <div class="meta">
+              <span>Official sources</span>
+              <span>Product Hunt</span>
+              <span>Kickstarter</span>
+              <span>Reddit</span>
+              <span>Research</span>
+              <span>AI hardware</span>
+            </div>
+            <div class="actions">
+              <a href="../2026-06-16/zh/">中文版</a>
+              <a class="primary" href="../2026-06-16/en/">English</a>
+              <a href="../2026-06-16/sources.md">Sources</a>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <footer>Updated 2026-06-16. Published as static GitHub Pages content.</footer>
+    </main>
+  </body>
+</html>
