@@ -73,6 +73,64 @@
           });
         });
       });
+
+      const deck = document.querySelector("[data-deck]");
+      if (deck) {
+        const slides = Array.from(deck.querySelectorAll("[data-slide]"));
+        const counter = document.querySelector("[data-deck-counter]");
+        const progress = document.querySelector("[data-deck-progress]");
+        const dots = document.querySelector("[data-deck-dots]");
+        let current = 0;
+
+        function showSlide(nextIndex, updateHash = true) {
+          current = Math.max(0, Math.min(slides.length - 1, nextIndex));
+          slides.forEach((slide, index) => {
+            const active = index === current;
+            slide.classList.toggle("is-active", active);
+            slide.setAttribute("aria-hidden", active ? "false" : "true");
+          });
+          if (counter) counter.textContent = String(current + 1).padStart(2, "0") + " / " + String(slides.length).padStart(2, "0");
+          if (progress) progress.style.width = ((current + 1) / slides.length * 100).toFixed(2) + "%";
+          if (dots) {
+            dots.querySelectorAll("button").forEach((button, index) => {
+              button.classList.toggle("active", index === current);
+            });
+          }
+          if (updateHash && slides[current]?.id) history.replaceState(null, "", "#" + slides[current].id);
+        }
+
+        if (dots) {
+          dots.innerHTML = slides.map((slide, index) => '<button type="button" aria-label="Slide ' + (index + 1) + '"></button>').join("");
+          dots.querySelectorAll("button").forEach((button, index) => button.addEventListener("click", () => showSlide(index)));
+        }
+
+        document.querySelectorAll("[data-next-slide]").forEach((button) => button.addEventListener("click", () => showSlide(current + 1)));
+        document.querySelectorAll("[data-prev-slide]").forEach((button) => button.addEventListener("click", () => showSlide(current - 1)));
+        document.querySelectorAll("[data-go-slide]").forEach((link) => {
+          link.addEventListener("click", (event) => {
+            event.preventDefault();
+            const target = slides.findIndex((slide) => slide.id === link.dataset.goSlide);
+            if (target >= 0) showSlide(target);
+          });
+        });
+
+        window.addEventListener("keydown", (event) => {
+          if (event.altKey || event.ctrlKey || event.metaKey) return;
+          if (["ArrowRight", "PageDown", " "].includes(event.key)) {
+            event.preventDefault();
+            showSlide(current + 1);
+          }
+          if (["ArrowLeft", "PageUp"].includes(event.key)) {
+            event.preventDefault();
+            showSlide(current - 1);
+          }
+          if (event.key === "Home") showSlide(0);
+          if (event.key === "End") showSlide(slides.length - 1);
+        });
+
+        const initial = slides.findIndex((slide) => "#" + slide.id === window.location.hash);
+        showSlide(initial >= 0 ? initial : 0, false);
+      }
     </script>
   </body>
 </html>

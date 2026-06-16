@@ -8,6 +8,8 @@ const requiredFiles = [
   "en/index.html",
   "2026-06-16/zh/index.html",
   "2026-06-16/en/index.html",
+  "2026-06-16/ai-daily-2026-06-16-zh.pdf",
+  "2026-06-16/ai-daily-2026-06-16-en.pdf",
   "2026-06-16/sources.md",
   "2026-06-16/manifest.json",
   "assets/site.css"
@@ -40,8 +42,17 @@ for (const file of ["2026-06-16/zh/index.html", "2026-06-16/en/index.html"]) {
   const text = await read(file);
   const hasSources = text.includes("来源：") || text.includes("Sources:");
   const hasImages = text.includes("<img ");
+  const isDeck = text.includes("data-deck") && text.includes("data-slide") && text.includes("deck-controls");
   if (!hasSources) throw new Error(`${file} is missing inline source links`);
   if (!hasImages) throw new Error(`${file} is missing evidence images`);
+  if (!isDeck) throw new Error(`${file} is not rendered as a slide deck`);
+  if (text.includes("magazine-spread")) throw new Error(`${file} still contains the long-scroll magazine layout`);
+  if (!text.includes(".pdf")) throw new Error(`${file} is missing a PDF download link`);
+}
+
+for (const file of requiredFiles.filter((item) => item.endsWith(".pdf"))) {
+  const stats = await fs.stat(path.join(root, file));
+  if (stats.size < 10_000) throw new Error(`${file} looks too small to be a valid PDF`);
 }
 
 const manifest = JSON.parse(await read("manifest.json"));

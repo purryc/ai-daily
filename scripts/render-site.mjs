@@ -296,6 +296,64 @@ ${body}
           });
         });
       });
+
+      const deck = document.querySelector("[data-deck]");
+      if (deck) {
+        const slides = Array.from(deck.querySelectorAll("[data-slide]"));
+        const counter = document.querySelector("[data-deck-counter]");
+        const progress = document.querySelector("[data-deck-progress]");
+        const dots = document.querySelector("[data-deck-dots]");
+        let current = 0;
+
+        function showSlide(nextIndex, updateHash = true) {
+          current = Math.max(0, Math.min(slides.length - 1, nextIndex));
+          slides.forEach((slide, index) => {
+            const active = index === current;
+            slide.classList.toggle("is-active", active);
+            slide.setAttribute("aria-hidden", active ? "false" : "true");
+          });
+          if (counter) counter.textContent = String(current + 1).padStart(2, "0") + " / " + String(slides.length).padStart(2, "0");
+          if (progress) progress.style.width = ((current + 1) / slides.length * 100).toFixed(2) + "%";
+          if (dots) {
+            dots.querySelectorAll("button").forEach((button, index) => {
+              button.classList.toggle("active", index === current);
+            });
+          }
+          if (updateHash && slides[current]?.id) history.replaceState(null, "", "#" + slides[current].id);
+        }
+
+        if (dots) {
+          dots.innerHTML = slides.map((slide, index) => '<button type="button" aria-label="Slide ' + (index + 1) + '"></button>').join("");
+          dots.querySelectorAll("button").forEach((button, index) => button.addEventListener("click", () => showSlide(index)));
+        }
+
+        document.querySelectorAll("[data-next-slide]").forEach((button) => button.addEventListener("click", () => showSlide(current + 1)));
+        document.querySelectorAll("[data-prev-slide]").forEach((button) => button.addEventListener("click", () => showSlide(current - 1)));
+        document.querySelectorAll("[data-go-slide]").forEach((link) => {
+          link.addEventListener("click", (event) => {
+            event.preventDefault();
+            const target = slides.findIndex((slide) => slide.id === link.dataset.goSlide);
+            if (target >= 0) showSlide(target);
+          });
+        });
+
+        window.addEventListener("keydown", (event) => {
+          if (event.altKey || event.ctrlKey || event.metaKey) return;
+          if (["ArrowRight", "PageDown", " "].includes(event.key)) {
+            event.preventDefault();
+            showSlide(current + 1);
+          }
+          if (["ArrowLeft", "PageUp"].includes(event.key)) {
+            event.preventDefault();
+            showSlide(current - 1);
+          }
+          if (event.key === "Home") showSlide(0);
+          if (event.key === "End") showSlide(slides.length - 1);
+        });
+
+        const initial = slides.findIndex((slide) => "#" + slide.id === window.location.hash);
+        showSlide(initial >= 0 ? initial : 0, false);
+      }
     </script>
   </body>
 </html>
@@ -561,6 +619,254 @@ function issuePage(issue, locale) {
   return layout({ locale, title, description, body, rootPrefix });
 }
 
+function deckSlideId(pageNumber) {
+  return `slide-${String(pageNumber).padStart(2, "0")}`;
+}
+
+function deckSlideTopline(pageNumber, label) {
+  return `
+    <div class="slide-chrome">
+      <span>${String(pageNumber).padStart(2, "0")}</span>
+      <span>${html(label)}</span>
+    </div>`;
+}
+
+function deckCoverSlide(issue, locale, pageNumber) {
+  const isZh = locale === "zh";
+  const cover = issue.coverStory;
+  return `
+    <section class="deck-slide cover-slide is-active" id="${deckSlideId(pageNumber)}" data-slide>
+      ${deckSlideTopline(pageNumber, `${issue.date} · ${issue.timezone}`)}
+      <div class="cover-copy">
+        <p class="eyebrow">AI Daily</p>
+        <h1>${html(isZh ? issue.zhTitle : issue.enTitle)}</h1>
+        <div class="hero-lines">
+          ${(isZh ? cover.zhSummary : cover.enSummary).map((line) => `<p>${html(line)}</p>`).join("")}
+        </div>
+        <div class="chip-row">${chips(issue.tags)}</div>
+        ${sourceLinks([{ label: isZh ? "封面原文" : "Cover source", url: cover.primarySourceUrl }], locale)}
+      </div>
+      <figure class="cover-visual">
+        <img ${attrs({
+          src: relAssetUrl(cover.imagePath),
+          alt: isZh ? cover.zhTitle : cover.enTitle,
+          width: cover.imageWidth,
+          height: cover.imageHeight,
+          decoding: "async"
+        })} />
+        <figcaption>${html(cover.evidenceStrength)} · ${html(cover.whyCover)}</figcaption>
+      </figure>
+    </section>`;
+}
+
+function deckAgendaSlide(issue, locale, pageNumber, navSections) {
+  const isZh = locale === "zh";
+  let offset = 3;
+  const cards = navSections
+    .map((section) => {
+      const sectionTopics = issue.topics.filter((topic) => topic.section === section);
+      const targetSlide = deckSlideId(offset);
+      offset += 1 + sectionTopics.length * 2;
+      return `
+        <a class="agenda-card" href="#${targetSlide}" data-go-slide="${targetSlide}">
+          <span>${html(sectionLabels[locale][section] ?? section)}</span>
+          <strong>${html(sectionNames[locale][section] ?? section)}</strong>
+          <em>${sectionTopics.length} ${isZh ? "条" : "item(s)"}</em>
+        </a>`;
+    })
+    .join("");
+
+  return `
+    <section class="deck-slide agenda-slide" id="${deckSlideId(pageNumber)}" data-slide>
+      ${deckSlideTopline(pageNumber, isZh ? "今日导航" : "Issue map")}
+      <div class="agenda-copy">
+        <p class="eyebrow">${isZh ? "先看结构，再看证据" : "Structure before evidence"}</p>
+        <h2>${isZh ? "今天按四条线读：大厂入口、野生阻力、研究/专利、中国与海外对照。" : "Read today through four lanes: platform entry points, wild friction, research/patents, and China/global comparison."}</h2>
+      </div>
+      <div class="agenda-grid">${cards}</div>
+    </section>`;
+}
+
+function deckSectionSlide(section, locale, pageNumber, topics) {
+  const isZh = locale === "zh";
+  return `
+    <section class="deck-slide section-slide" id="${deckSlideId(pageNumber)}" data-slide data-section="${html(section)}">
+      ${deckSlideTopline(pageNumber, sectionLabels[locale][section] ?? section)}
+      <p class="eyebrow">${html(sectionLabels[locale][section] ?? section)}</p>
+      <h2>${html(sectionNames[locale][section] ?? section)}</h2>
+      <div class="section-topic-list">
+        ${topics
+          .map(
+            (topic) => `
+              <div>
+                <span>${html(topic.evidenceStrength)}</span>
+                <strong>${html(isZh ? topic.zhHeadline : topic.enHeadline)}</strong>
+              </div>`
+          )
+          .join("")}
+      </div>
+    </section>`;
+}
+
+function deckTopicEvidenceSlide(issue, topic, locale, pageNumber) {
+  const isZh = locale === "zh";
+  const headline = isZh ? topic.zhHeadline : topic.enHeadline;
+  const fact = isZh ? topic.zhFact : topic.enFact;
+  const value = isZh ? topic.zhValue : topic.enValue;
+  const implication = isZh ? topic.zhImplication : topic.enImplication;
+  const lens = isZh ? topic.zhHciLens : topic.enHciLens;
+
+  return `
+    <section class="deck-slide evidence-slide" id="${deckSlideId(pageNumber)}" data-slide data-section="${html(topic.section)}">
+      ${deckSlideTopline(pageNumber, sectionNames[locale][topic.section] ?? topic.section)}
+      <div class="slide-grid">
+        <div class="slide-copy">
+          <div class="topic-topline">
+            <span class="section-chip">${html(sectionLabels[locale][topic.section] ?? topic.section)}</span>
+            <span>${html(topic.evidenceStrength)}</span>
+            <span>${html(topic.sourceDate)}</span>
+          </div>
+          <h2>${html(headline)}</h2>
+          <p class="lead"><strong>${isZh ? "事实：" : "Fact:"}</strong> ${html(fact)}</p>
+          <p><strong>${isZh ? "为什么重要：" : "Why it matters:"}</strong> ${html(value)}</p>
+          <div class="lens-grid">
+            ${lens.map((item) => `<span>${html(item)}</span>`).join("")}
+          </div>
+          <p><strong>${isZh ? "产品影响：" : "Product implication:"}</strong> ${html(implication)}</p>
+          ${sourceLinks(topic.sources, locale)}
+        </div>
+        <div class="slide-visual">
+          ${figure(issue, topic.visual, locale, false)}
+        </div>
+      </div>
+    </section>`;
+}
+
+function deckTopicAnalysisSlide(topic, locale, pageNumber) {
+  const isZh = locale === "zh";
+  const narrative = topicNarrative(topic, locale);
+  const headline = isZh ? topic.zhHeadline : topic.enHeadline;
+  const lens = isZh ? topic.zhHciLens : topic.enHciLens;
+
+  return `
+    <section class="deck-slide analysis-slide" id="${deckSlideId(pageNumber)}" data-slide data-section="${html(topic.section)}">
+      ${deckSlideTopline(pageNumber, isZh ? "深读" : "Deep read")}
+      <div class="analysis-main">
+        <div>
+          <p class="eyebrow">${html(sectionLabels[locale][topic.section] ?? topic.section)} · ${html(topic.id)}</p>
+          <h2>${html(headline)}</h2>
+          <div class="analysis-columns">
+            ${narrative.analysis.map((paragraph) => `<p>${html(paragraph)}</p>`).join("")}
+          </div>
+          ${sourceLinks(topic.sources, locale)}
+        </div>
+        <aside class="analysis-rail">
+          <h3>${isZh ? "HCI Lens" : "HCI Lens"}</h3>
+          <div class="lens-grid">
+            ${lens.map((item) => `<span>${html(item)}</span>`).join("")}
+          </div>
+          <h3>${isZh ? "Readout" : "Readout"}</h3>
+          <ul>${narrative.readout.map((item) => `<li>${html(item)}</li>`).join("")}</ul>
+          <h3>${isZh ? "Open Questions" : "Open Questions"}</h3>
+          <ul>${narrative.questions.map((item) => `<li>${html(item)}</li>`).join("")}</ul>
+        </aside>
+      </div>
+    </section>`;
+}
+
+function deckWatchlistSlide(issue, locale, pageNumber) {
+  const isZh = locale === "zh";
+  const items = isZh ? issue.watchlistZh : issue.watchlistEn;
+  return `
+    <section class="deck-slide watch-slide" id="${deckSlideId(pageNumber)}" data-slide>
+      ${deckSlideTopline(pageNumber, isZh ? "Watchlist" : "Watchlist")}
+      <p class="eyebrow">${isZh ? "下一轮扫描" : "Next scan"}</p>
+      <h2>${isZh ? "明天继续盯这些入口变化" : "What to watch next"}</h2>
+      <div class="watch-grid">
+        ${items.map((item, index) => `<div><span>${String(index + 1).padStart(2, "0")}</span><p>${html(item)}</p></div>`).join("")}
+      </div>
+    </section>`;
+}
+
+function deckSourcesSlide(issue, locale, pageNumber) {
+  const isZh = locale === "zh";
+  const seen = new Set();
+  const sources = issue.topics.flatMap((topic) => topic.sources).filter((source) => {
+    if (seen.has(source.url)) return false;
+    seen.add(source.url);
+    return true;
+  });
+
+  return `
+    <section class="deck-slide source-slide" id="${deckSlideId(pageNumber)}" data-slide>
+      ${deckSlideTopline(pageNumber, isZh ? "来源索引" : "Source index")}
+      <p class="eyebrow">${isZh ? "可追溯证据" : "Traceable evidence"}</p>
+      <h2>${isZh ? "正文每个话题都有来源；这里是快速跳转。" : "Every topic has inline sources; this is the quick ledger."}</h2>
+      <div class="source-grid">
+        ${sources
+          .map((source) => `<a href="${html(source.url)}" target="_blank" rel="noreferrer"><span>${html(source.type ?? "source")}</span><strong>${html(source.label)}</strong></a>`)
+          .join("")}
+      </div>
+      <p class="source-row"><strong>${isZh ? "完整总表：" : "Full ledger:"}</strong> <a href="${siteBase}/${issue.date}/sources.md">sources.md</a></p>
+    </section>`;
+}
+
+function deckIssuePage(issue, locale) {
+  const isZh = locale === "zh";
+  const rootPrefix = "../../";
+  const title = isZh ? `${issue.zhTitle} · AI Daily` : `${issue.enTitle} · AI Daily`;
+  const description = isZh ? issue.zhSummary : issue.enSummary;
+  const grouped = issue.topics.reduce((acc, topic) => {
+    acc[topic.section] ??= [];
+    acc[topic.section].push(topic);
+    return acc;
+  }, {});
+  const sectionOrder = ["official", "wild", "research", "patent", "china", "global"];
+  const navSections = sectionOrder.filter((section) => grouped[section]?.length);
+  const pdfName = `ai-daily-${issue.date}-${locale}.pdf`;
+  const slideParts = [];
+  let pageNumber = 1;
+
+  slideParts.push(deckCoverSlide(issue, locale, pageNumber++));
+  slideParts.push(deckAgendaSlide(issue, locale, pageNumber++, navSections));
+  for (const section of navSections) {
+    slideParts.push(deckSectionSlide(section, locale, pageNumber++, grouped[section]));
+    for (const topic of grouped[section]) {
+      slideParts.push(deckTopicEvidenceSlide(issue, topic, locale, pageNumber++));
+      slideParts.push(deckTopicAnalysisSlide(topic, locale, pageNumber++));
+    }
+  }
+  slideParts.push(deckWatchlistSlide(issue, locale, pageNumber++));
+  slideParts.push(deckSourcesSlide(issue, locale, pageNumber++));
+
+  const body = `
+    <main class="deck-page">
+      <nav class="deck-nav" aria-label="Issue navigation">
+        <a class="brand" href="${siteBase}/">AI Daily</a>
+        <div class="deck-nav-actions">
+          <a class="${isZh ? "active" : ""}" href="${siteBase}/${issue.date}/zh/">中文</a>
+          <a class="${isZh ? "" : "active"}" href="${siteBase}/${issue.date}/en/">English</a>
+          <a href="${siteBase}/${issue.date}/sources.md">${isZh ? "来源总表" : "Source ledger"}</a>
+          <a class="primary" href="../${pdfName}" download>${isZh ? "下载 PDF" : "Download PDF"}</a>
+        </div>
+      </nav>
+
+      <section class="deck-stage" data-deck aria-label="${html(title)}">
+        ${slideParts.join("")}
+      </section>
+
+      <footer class="deck-controls" aria-label="Slide controls">
+        <button type="button" data-prev-slide>${isZh ? "上一页" : "Previous"}</button>
+        <div class="deck-progress-shell"><span data-deck-progress></span></div>
+        <span class="deck-counter" data-deck-counter>01 / ${String(slideParts.length).padStart(2, "0")}</span>
+        <button type="button" data-next-slide>${isZh ? "下一页" : "Next"}</button>
+      </footer>
+      <div class="deck-dots" data-deck-dots aria-hidden="true"></div>
+    </main>`;
+
+  return layout({ locale, title, description, body, rootPrefix });
+}
+
 function rootManifest() {
   return JSON.stringify(
     issues.map((issue) => ({
@@ -660,7 +966,7 @@ ${visualRows.map((row) => `| ${row.asset} | \`${row.local}\` | ${row.source} | $
 - Product Hunt, Kickstarter, Reddit, startup, and review signals are labeled as weak, community, startup, or crowdfunding signals unless corroborated.
 - Research claims link to arXiv, conference pages, Microsoft Research, ACM-style publication pages, or PDFs.
 - Patent material is treated as a patent signal only, not a confirmed product launch, availability, or roadmap.
-- Every topic spread in the published Chinese and English issue pages includes inline source links; this file is the audit ledger, not the only source surface.
+- Every topic deck slide in the published Chinese and English issue pages includes inline source links; this file is the audit ledger, not the only source surface.
 - Evidence visuals use source-traceable product images, source-based screenshots, or clearly labeled self-drawn mechanism diagrams. No generic stock or decorative images are used.
 - Public HTML/CSS must not use cropped image-fit rules for evidence visuals.
 `;
@@ -1118,7 +1424,7 @@ figcaption {
   gap: 34px;
 }
 
-.magazine-spread {
+.legacy-spread {
   position: relative;
   display: grid;
   grid-template-columns: minmax(300px, 0.72fr) minmax(0, 1.1fr) minmax(260px, 0.52fr);
@@ -1151,7 +1457,7 @@ figcaption {
   top: 24px;
 }
 
-.magazine-spread .evidence-figure {
+.legacy-spread .evidence-figure {
   border-radius: 24px;
 }
 
@@ -1243,6 +1549,367 @@ figcaption {
   line-height: 1.7;
 }
 
+html:has(.deck-page),
+body:has(.deck-page) {
+  height: 100%;
+  overflow: hidden;
+}
+
+body:has(.deck-page) {
+  background:
+    radial-gradient(circle at 8% -8%, #fff0c8 0, transparent 30rem),
+    linear-gradient(145deg, #fff8e2 0%, #f8f5ef 48%, #eef3f8 100%);
+}
+
+.deck-page {
+  width: min(1720px, calc(100vw - 32px));
+  height: 100vh;
+  margin: 0 auto;
+  padding: 16px 0 78px;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  gap: 14px;
+}
+
+.deck-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 0 4px;
+}
+
+.deck-nav .brand {
+  color: var(--red);
+  font-size: 22px;
+  font-weight: 950;
+  letter-spacing: -0.05em;
+}
+
+.deck-nav-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.deck-nav-actions a,
+.deck-controls button {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.88);
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 820;
+  padding: 9px 14px;
+  box-shadow: 0 10px 28px rgba(38, 25, 13, 0.06);
+}
+
+.deck-nav-actions a.active,
+.deck-nav-actions a.primary {
+  background: #2f2234;
+  border-color: #2f2234;
+  color: #fff;
+}
+
+.deck-stage {
+  position: relative;
+  align-self: center;
+  justify-self: center;
+  width: min(100%, calc((100vh - 152px) * 16 / 9));
+  max-height: calc(100vh - 152px);
+  aspect-ratio: 16 / 9;
+  min-height: 0;
+}
+
+.deck-slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(22px) scale(0.985);
+  transition: opacity 180ms ease, transform 220ms ease;
+  overflow: hidden;
+  border: 1px solid rgba(232, 227, 220, 0.95);
+  border-radius: 30px;
+  background:
+    linear-gradient(90deg, rgba(199, 0, 11, 0.045), transparent 23%),
+    #fffdfa;
+  box-shadow: 0 28px 70px rgba(35, 25, 16, 0.12);
+  padding: clamp(26px, 3vw, 54px);
+}
+
+.deck-slide.is-active {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateX(0) scale(1);
+}
+
+.slide-chrome {
+  position: absolute;
+  top: 22px;
+  left: clamp(26px, 3vw, 54px);
+  right: clamp(26px, 3vw, 54px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgba(111, 106, 102, 0.82);
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.cover-slide {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(360px, 0.85fr);
+  gap: clamp(24px, 4vw, 64px);
+  align-items: center;
+}
+
+.cover-copy h1 {
+  font-size: clamp(46px, 5.6vw, 88px);
+  max-width: 1040px;
+}
+
+.cover-visual,
+.slide-visual .evidence-figure {
+  min-height: 0;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--line);
+  border-radius: 26px;
+  background: #fff;
+  overflow: hidden;
+}
+
+.cover-visual img,
+.slide-visual .evidence-figure img {
+  flex: 1 1 auto;
+  width: 100%;
+  min-height: 0;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  background: #fff;
+  padding: 12px;
+}
+
+.cover-visual figcaption,
+.slide-visual .evidence-figure figcaption {
+  flex: 0 0 auto;
+}
+
+.agenda-slide,
+.section-slide,
+.watch-slide,
+.source-slide {
+  display: grid;
+  align-content: center;
+  gap: 28px;
+}
+
+.agenda-copy h2,
+.section-slide h2,
+.watch-slide h2,
+.source-slide h2 {
+  font-size: clamp(42px, 5.2vw, 86px);
+  line-height: 0.98;
+  letter-spacing: -0.065em;
+  max-width: 1180px;
+  margin-bottom: 0;
+}
+
+.agenda-grid,
+.section-topic-list,
+.watch-grid,
+.source-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.agenda-card,
+.section-topic-list div,
+.watch-grid div,
+.source-grid a {
+  min-height: 132px;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.86);
+  padding: 20px;
+  display: grid;
+  align-content: space-between;
+  gap: 14px;
+}
+
+.agenda-card span,
+.section-topic-list span,
+.watch-grid span,
+.source-grid span {
+  color: var(--red);
+  font-size: 12px;
+  font-weight: 950;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.agenda-card strong,
+.section-topic-list strong,
+.source-grid strong {
+  font-size: 22px;
+  line-height: 1.12;
+  letter-spacing: -0.035em;
+}
+
+.agenda-card em {
+  color: var(--muted);
+  font-style: normal;
+  font-weight: 780;
+}
+
+.slide-grid {
+  height: 100%;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(360px, 0.78fr);
+  gap: clamp(24px, 4vw, 58px);
+  align-items: center;
+}
+
+.slide-copy {
+  min-width: 0;
+}
+
+.slide-copy h2,
+.analysis-main h2 {
+  font-size: clamp(34px, 4.4vw, 72px);
+  line-height: 0.98;
+  letter-spacing: -0.065em;
+  margin: 14px 0 22px;
+  max-width: 980px;
+}
+
+.slide-copy p,
+.analysis-columns p,
+.watch-grid p {
+  color: #332e2a;
+  font-size: clamp(15px, 1.12vw, 19px);
+  line-height: 1.62;
+  margin-bottom: 12px;
+}
+
+.slide-copy .lead {
+  font-size: clamp(18px, 1.5vw, 25px);
+  line-height: 1.42;
+  font-weight: 760;
+}
+
+.analysis-main {
+  height: 100%;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 0.42fr);
+  gap: clamp(24px, 3vw, 46px);
+  align-items: center;
+}
+
+.analysis-columns {
+  column-count: 2;
+  column-gap: 30px;
+  max-width: 980px;
+}
+
+.analysis-columns p {
+  break-inside: avoid;
+}
+
+.analysis-rail {
+  border-left: 1px solid var(--line);
+  padding-left: 24px;
+}
+
+.analysis-rail h3 {
+  color: var(--red);
+  font-size: 12px;
+  font-weight: 950;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+}
+
+.analysis-rail ul {
+  margin: 0 0 22px;
+  padding-left: 18px;
+  color: #413b36;
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.deck-controls {
+  position: fixed;
+  left: 50%;
+  bottom: 18px;
+  transform: translateX(-50%);
+  width: min(760px, calc(100vw - 36px));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  z-index: 10;
+}
+
+.deck-controls button {
+  cursor: pointer;
+}
+
+.deck-progress-shell {
+  flex: 1 1 auto;
+  height: 10px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.78);
+  overflow: hidden;
+}
+
+.deck-progress-shell span {
+  display: block;
+  width: 0;
+  height: 100%;
+  background: var(--red);
+  transition: width 180ms ease;
+}
+
+.deck-counter {
+  min-width: 72px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.deck-dots {
+  position: fixed;
+  top: 50%;
+  right: 18px;
+  transform: translateY(-50%);
+  display: grid;
+  gap: 6px;
+  z-index: 10;
+}
+
+.deck-dots button {
+  width: 7px;
+  height: 7px;
+  border-radius: 999px;
+  background: rgba(47, 34, 52, 0.22);
+}
+
+.deck-dots button.active {
+  height: 20px;
+  background: var(--red);
+}
+
 [hidden] { display: none !important; }
 
 @media (max-width: 1040px) {
@@ -1261,7 +1928,7 @@ figcaption {
   .issue-card,
   .issue-hero,
   .topic-card,
-  .magazine-spread {
+  .legacy-spread {
     grid-template-columns: 1fr;
   }
 
@@ -1311,14 +1978,121 @@ figcaption {
 
   .issue-card,
   .topic-card,
-  .magazine-spread {
+  .legacy-spread {
     padding: 12px;
     gap: 16px;
   }
 
   .magazine-cover,
-  .magazine-spread {
+  .legacy-spread {
     min-height: auto;
+  }
+}
+
+@media (max-width: 980px) {
+  html:has(.deck-page),
+  body:has(.deck-page) {
+    overflow: auto;
+  }
+
+  .deck-page {
+    width: min(100% - 20px, 760px);
+    height: auto;
+    min-height: 100vh;
+    padding-bottom: 92px;
+  }
+
+  .deck-stage {
+    width: 100%;
+    max-height: none;
+    aspect-ratio: auto;
+    min-height: 720px;
+  }
+
+  .deck-slide {
+    min-height: 720px;
+  }
+
+  .cover-slide,
+  .slide-grid,
+  .analysis-main,
+  .agenda-grid,
+  .section-topic-list,
+  .watch-grid,
+  .source-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .analysis-columns {
+    column-count: 1;
+  }
+
+  .analysis-rail {
+    border-left: 0;
+    border-top: 1px solid var(--line);
+    padding-left: 0;
+    padding-top: 18px;
+  }
+
+  .deck-dots {
+    display: none;
+  }
+}
+
+@media print {
+  @page {
+    size: 16in 9in;
+    margin: 0;
+  }
+
+  html,
+  body,
+  html:has(.deck-page),
+  body:has(.deck-page) {
+    width: 16in;
+    height: auto;
+    overflow: visible;
+    background: #fff;
+  }
+
+  .deck-nav,
+  .deck-controls,
+  .deck-dots {
+    display: none !important;
+  }
+
+  .deck-page,
+  .deck-stage {
+    display: block;
+    width: 16in;
+    height: auto;
+    max-height: none;
+    aspect-ratio: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  .deck-slide {
+    position: relative;
+    inset: auto;
+    display: block;
+    width: 16in;
+    height: 9in;
+    opacity: 1 !important;
+    pointer-events: auto;
+    transform: none !important;
+    transition: none;
+    page-break-after: always;
+    break-after: page;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .cover-slide,
+  .slide-grid,
+  .analysis-main {
+    display: grid;
   }
 }
 `;
@@ -1414,8 +2188,8 @@ await writeFile(path.join(root, "manifest.json"), `${rootManifest()}\n`);
 
 for (const issue of issues) {
   await copyAssets(issue);
-  await writeFile(path.join(root, issue.date, "zh", "index.html"), issuePage(issue, "zh"));
-  await writeFile(path.join(root, issue.date, "en", "index.html"), issuePage(issue, "en"));
+  await writeFile(path.join(root, issue.date, "zh", "index.html"), deckIssuePage(issue, "zh"));
+  await writeFile(path.join(root, issue.date, "en", "index.html"), deckIssuePage(issue, "en"));
   await writeFile(path.join(root, issue.date, "manifest.json"), `${issueManifest(issue)}\n`);
   await writeFile(path.join(root, issue.date, "sources.md"), sourcesMarkdown(issue));
 }
