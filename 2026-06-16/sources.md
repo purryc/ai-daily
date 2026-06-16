@@ -40,6 +40,6 @@ Scope: HCI, AI hardware, AI software products, agentic devices, on-device AI, AI
 - Product Hunt, Kickstarter, Reddit, startup, and review signals are labeled as weak, community, startup, or crowdfunding signals unless corroborated.
 - Research claims link to arXiv, conference pages, Microsoft Research, ACM-style publication pages, or PDFs.
 - Patent material is treated as a patent signal only, not a confirmed product launch, availability, or roadmap.
-- Every topic card in the published Chinese and English issue pages includes inline source links; this file is the audit ledger, not the only source surface.
+- Every topic spread in the published Chinese and English issue pages includes inline source links; this file is the audit ledger, not the only source surface.
 - Evidence visuals use source-traceable product images, source-based screenshots, or clearly labeled self-drawn mechanism diagrams. No generic stock or decorative images are used.
 - Public HTML/CSS must not use cropped image-fit rules for evidence visuals.

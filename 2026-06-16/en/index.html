@@ -20,7 +20,8 @@
         </div>
       </nav>
 
-      <header class="issue-hero">
+      <header class="issue-hero magazine-cover">
+        <div class="spread-number">01</div>
         <div class="issue-hero-copy">
           <p class="eyebrow">2026-06-16 · America/Toronto</p>
           <h1>AI entry points are moving from apps into systems and devices</h1>
@@ -46,9 +47,11 @@
             <p>Official</p>
             <h2>Official Desk</h2>
           </div>
-          <div class="topic-list">
+          <div class="spread-list">
 
-    <article class="topic-card" id="apple-os-agent" data-sections="official">
+    <article class="magazine-spread" id="apple-os-agent">
+      <div class="spread-number">02</div>
+      <div class="spread-visual">
 
     <figure class="evidence-figure">
       <a href="https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/" target="_blank" rel="noreferrer" aria-label="Official visual: Siri AI and screen context">
@@ -56,23 +59,40 @@
       </a>
       <figcaption>Official visual: Siri AI and screen context</figcaption>
     </figure>
-      <div class="topic-main">
+      </div>
+      <div class="spread-copy">
         <div class="topic-topline">
           <span class="section-chip">Official</span>
           <span>high / official announcement</span>
           <span>2026-06-08</span>
         </div>
         <h3>Apple: Siri AI turns screen state, personal context, and app actions into an OS-level entry point</h3>
-        <p><strong>Fact:</strong> Apple Newsroom describes stronger Siri AI, onscreen awareness, personal-context search, and broader app actions.</p>
-        <p><strong>Value:</strong> The value is not smarter chat; it is removing the need to choose an app before the system can act on screen and personal context.</p>
+        <div class="deck-copy">
+          <p><strong>Fact:</strong> Apple Newsroom describes stronger Siri AI, onscreen awareness, personal-context search, and broader app actions.</p>
+          <p><strong>Why it matters:</strong> The value is not smarter chat; it is removing the need to choose an app before the system can act on screen and personal context.</p>
+          <p>The product meaning is not that Siri becomes a better chatbot. Apple is moving AI back into the default OS path. When a user sees text, a photo, a calendar item, or an email, the entry point no longer has to be an app launch; it can be the current screen plus personal context.</p><p>That shifts the HCI boundary. Apps used to own input, state, and feedback locally. A system agent can now read intent across apps, invoke actions, and return results. The benefit is less switching; the risk is that users lose track of what context the system used.</p><p>The real product contest becomes control: explaining boundaries before action, offering undo after action, and recovering from failure in a way users understand. For product teams, that matters more than adding another AI button.</p>
+          <p><strong>Product implication:</strong> OS-level AI needs visible permission, undo, failure recovery, and a clear explanation layer for why it acted.</p>
+        </div>
+        <p class="source-row"><strong>Sources:</strong> <a href="https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/" target="_blank" rel="noreferrer">Apple Newsroom</a></p>
+      </div>
+      <aside class="spread-sidebar">
+        <h4>HCI Lens</h4>
         <div class="lens-grid">
           <span>Input: voice + onscreen reference</span><span>Context: personal data across apps</span><span>Feedback: system-level action confirmation</span><span>Agentic: app action closure</span>
         </div>
-        <p><strong>Product implication:</strong> OS-level AI needs visible permission, undo, failure recovery, and a clear explanation layer for why it acted.</p>
-        <p class="source-row"><strong>Sources:</strong> <a href="https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/" target="_blank" rel="noreferrer">Apple Newsroom</a></p>
-      </div>
+        <h4>Readout</h4>
+        <ul>
+          <li>OS entry point becomes stronger</li><li>Personal context becomes a core asset</li><li>Undo and explanation become trust infrastructure</li>
+        </ul>
+        <h4>Open Questions</h4>
+        <ul>
+          <li>Can cross-app permissions stay short and legible?</li><li>Can users see which context was used?</li><li>Does failure return to a clear previous state?</li>
+        </ul>
+      </aside>
     </article>
-    <article class="topic-card" id="googlebook-ai-pc" data-sections="official">
+    <article class="magazine-spread" id="googlebook-ai-pc">
+      <div class="spread-number">03</div>
+      <div class="spread-visual">
 
     <figure class="evidence-figure">
       <a href="https://blog.google/products-and-platforms/platforms/android/meet-googlebook/" target="_blank" rel="noreferrer" aria-label="Official visual: Googlebook / AI PC category">
@@ -80,23 +100,40 @@
       </a>
       <figcaption>Official visual: Googlebook / AI PC category</figcaption>
     </figure>
-      <div class="topic-main">
+      </div>
+      <div class="spread-copy">
         <div class="topic-topline">
           <span class="section-chip">Official</span>
           <span>high / official product blog</span>
           <span>2026-05-12</span>
         </div>
         <h3>Googlebook: Gemini Intelligence tries to rewrite default AI PC interaction</h3>
-        <p><strong>Fact:</strong> Google Blog frames Googlebook as a new laptop category designed for Gemini Intelligence, with system capabilities such as Magic Pointer and Create your Widget.</p>
-        <p><strong>Value:</strong> This is not just a chat box on a laptop; it turns pointer, desktop, and widgets into agent input and feedback surfaces.</p>
+        <div class="deck-copy">
+          <p><strong>Fact:</strong> Google Blog frames Googlebook as a new laptop category designed for Gemini Intelligence, with system capabilities such as Magic Pointer and Create your Widget.</p>
+          <p><strong>Why it matters:</strong> This is not just a chat box on a laptop; it turns pointer, desktop, and widgets into agent input and feedback surfaces.</p>
+          <p>The signal is that Googlebook reframes the AI PC from a spec sheet plus Gemini features into a system entry-point category. The computer is not just a machine that runs AI; pointer, desktop, widgets, and Gemini become one workflow layer.</p><p>If this category holds, AI PC evaluation changes. Chips, battery, and model capability still matter, but the daily user experience is whether the system reduces copy-paste, window switching, context explanation, and returns output to the current task.</p><p>For HCI, the key is the feedback surface. AI output cannot stay trapped in a chat pane; it needs to return to desktop objects, files, widgets, and pointer-adjacent moments as a lightweight but traceable loop.</p>
+          <p><strong>Product implication:</strong> AI PC UI shifts from where the model lives to how the system hands context to it and returns results into the workflow.</p>
+        </div>
+        <p class="source-row"><strong>Sources:</strong> <a href="https://blog.google/products-and-platforms/platforms/android/meet-googlebook/" target="_blank" rel="noreferrer">Google Blog</a></p>
+      </div>
+      <aside class="spread-sidebar">
+        <h4>HCI Lens</h4>
         <div class="lens-grid">
           <span>Input: pointer + text + desktop state</span><span>Context: Android + ChromeOS + Gemini</span><span>Feedback: widgets and surfaced actions</span><span>Agentic: task-level assistance</span>
         </div>
-        <p><strong>Product implication:</strong> AI PC UI shifts from where the model lives to how the system hands context to it and returns results into the workflow.</p>
-        <p class="source-row"><strong>Sources:</strong> <a href="https://blog.google/products-and-platforms/platforms/android/meet-googlebook/" target="_blank" rel="noreferrer">Google Blog</a></p>
-      </div>
+        <h4>Readout</h4>
+        <ul>
+          <li>AI PC becomes an entry category</li><li>Pointer, desktop, and widgets become agent UI</li><li>System feedback matters more than a chat box</li>
+        </ul>
+        <h4>Open Questions</h4>
+        <ul>
+          <li>Does Magic Pointer reduce context explanation?</li><li>Are widget results traceable and undoable?</li><li>Is the differentiator model, chip, or workflow closure?</li>
+        </ul>
+      </aside>
     </article>
-    <article class="topic-card" id="android-xr-eyewear" data-sections="official">
+    <article class="magazine-spread" id="android-xr-eyewear">
+      <div class="spread-number">04</div>
+      <div class="spread-visual">
 
     <figure class="evidence-figure">
       <a href="https://blog.google/products-and-platforms/platforms/android/android-xr-io-2026/" target="_blank" rel="noreferrer" aria-label="Official visual: Android XR eyewear">
@@ -104,23 +141,40 @@
       </a>
       <figcaption>Official visual: Android XR eyewear</figcaption>
     </figure>
-      <div class="topic-main">
+      </div>
+      <div class="spread-copy">
         <div class="topic-topline">
           <span class="section-chip">Official</span>
           <span>high / official product blog</span>
           <span>2026-05-19</span>
         </div>
         <h3>Android XR: smart glasses move from answering questions toward executing tasks</h3>
-        <p><strong>Fact:</strong> Google Blog describes Gemini-powered audio and display glasses covering navigation, messages, calls, translation, and partner app actions.</p>
-        <p><strong>Value:</strong> The key is not asking AI while wearing glasses; it is lower-friction input, more continuous context, and feedback closer to the user's environment.</p>
+        <div class="deck-copy">
+          <p><strong>Fact:</strong> Google Blog describes Gemini-powered audio and display glasses covering navigation, messages, calls, translation, and partner app actions.</p>
+          <p><strong>Why it matters:</strong> The key is not asking AI while wearing glasses; it is lower-friction input, more continuous context, and feedback closer to the user's environment.</p>
+          <p>The product meaning of Android XR glasses is not moving phone notifications onto the face. It puts the AI entry point into a more continuous bodily position. Voice, location, camera, translation, and message actions start to resemble a wearable agent shell.</p><p>Glasses are also one of the most sensitive HCI surfaces. They compress attention, bystander privacy, environmental context, and real-time feedback into one object. Recording, recognition, navigation, and translation all need to answer who knows, who controls, and what happens when the system is wrong.</p><p>So smart glasses should not only chase fewer screens. They need a low-interruption feedback language: heard, processing, uncertain, failed, or handed off to the phone.</p>
+          <p><strong>Product implication:</strong> Smart-glasses products must solve recording indicators, bystander visibility, low-interruption feedback, and manual takeover when actions fail.</p>
+        </div>
+        <p class="source-row"><strong>Sources:</strong> <a href="https://blog.google/products-and-platforms/platforms/android/android-xr-io-2026/" target="_blank" rel="noreferrer">Google Android XR</a></p>
+      </div>
+      <aside class="spread-sidebar">
+        <h4>HCI Lens</h4>
         <div class="lens-grid">
           <span>Input: voice + gaze-adjacent context</span><span>Context: location + phone + apps</span><span>Feedback: audio/display glance</span><span>Agentic: navigation and communication actions</span>
         </div>
-        <p><strong>Product implication:</strong> Smart-glasses products must solve recording indicators, bystander visibility, low-interruption feedback, and manual takeover when actions fail.</p>
-        <p class="source-row"><strong>Sources:</strong> <a href="https://blog.google/products-and-platforms/platforms/android/android-xr-io-2026/" target="_blank" rel="noreferrer">Google Android XR</a></p>
-      </div>
+        <h4>Readout</h4>
+        <ul>
+          <li>Glasses become continuous-context entry points</li><li>Bystander privacy becomes interface design</li><li>Low-interruption feedback beats flashy display</li>
+        </ul>
+        <h4>Open Questions</h4>
+        <ul>
+          <li>Is recording status visible to bystanders?</li><li>How are navigation or translation errors corrected?</li><li>How does feedback avoid interruption?</li>
+        </ul>
+      </aside>
     </article>
-    <article class="topic-card" id="microsoft-solara" data-sections="official">
+    <article class="magazine-spread" id="microsoft-solara">
+      <div class="spread-number">05</div>
+      <div class="spread-visual">
 
     <figure class="evidence-figure">
       <a href="https://commandline.microsoft.com/project-solara-build-2026/" target="_blank" rel="noreferrer" aria-label="Self-drawn mechanism diagram based on Microsoft article; not a product render">
@@ -128,21 +182,36 @@
       </a>
       <figcaption>Self-drawn mechanism diagram based on Microsoft article; not a product render</figcaption>
     </figure>
-      <div class="topic-main">
+      </div>
+      <div class="spread-copy">
         <div class="topic-topline">
           <span class="section-chip">Official</span>
           <span>high / official platform article</span>
           <span>Build 2026 / accessed 2026-06-16</span>
         </div>
         <h3>Microsoft Solara: agent-first devices need a new shell, identity, and management stack</h3>
-        <p><strong>Fact:</strong> Microsoft Command Line describes Project Solara as a platform composition for agent-first devices, including MDEP, Agent Shell, Intune, Entra ID, and just-in-time UI.</p>
-        <p><strong>Value:</strong> It signals that enterprise AI devices are not just apps; they need device management, identity, privacy indicators, and temporary UI working together.</p>
+        <div class="deck-copy">
+          <p><strong>Fact:</strong> Microsoft Command Line describes Project Solara as a platform composition for agent-first devices, including MDEP, Agent Shell, Intune, Entra ID, and just-in-time UI.</p>
+          <p><strong>Why it matters:</strong> It signals that enterprise AI devices are not just apps; they need device management, identity, privacy indicators, and temporary UI working together.</p>
+          <p>Solara matters because it treats the agent-first device as a system-stack problem, not a standalone device demo. Agent Shell, MDEP, identity, management, privacy indicators, and just-in-time UI sit in one story, which signals that enterprise AI hardware must be governable.</p><p>This is very different from consumer AI gadgets. Enterprise buyers do not only ask what it can do. They ask who authorized it, who audits it, what happens if it is lost, whether recording is physically off, and which identity boundary owns the data.</p><p>The most interesting HCI pattern is not the shell's visual style. It is just-in-time UI: the agent can stay invisible most of the time, but must become visible when status, choice, or consequence matters.</p>
+          <p><strong>Product implication:</strong> The UX base for agentic devices is trust infrastructure: mic state, permission boundaries, audit trail, and IT control.</p>
+        </div>
+        <p class="source-row"><strong>Sources:</strong> <a href="https://commandline.microsoft.com/project-solara-build-2026/" target="_blank" rel="noreferrer">Microsoft Command Line</a></p>
+      </div>
+      <aside class="spread-sidebar">
+        <h4>HCI Lens</h4>
         <div class="lens-grid">
           <span>Input: shell-mediated commands</span><span>Context: enterprise identity and policy</span><span>Feedback: just-in-time UI + indicators</span><span>Agentic: managed task execution</span>
         </div>
-        <p><strong>Product implication:</strong> The UX base for agentic devices is trust infrastructure: mic state, permission boundaries, audit trail, and IT control.</p>
-        <p class="source-row"><strong>Sources:</strong> <a href="https://commandline.microsoft.com/project-solara-build-2026/" target="_blank" rel="noreferrer">Microsoft Command Line</a></p>
-      </div>
+        <h4>Readout</h4>
+        <ul>
+          <li>Agent devices are system stacks, not apps</li><li>Enterprise trust depends on identity and audit</li><li>Temporary UI balances invisibility with control</li>
+        </ul>
+        <h4>Open Questions</h4>
+        <ul>
+          <li>When does Agent Shell appear or disappear?</li><li>How does physical mic state become software feedback?</li><li>Is the audit trail understandable to end users?</li>
+        </ul>
+      </aside>
     </article>
           </div>
         </section>
@@ -151,9 +220,11 @@
             <p>Wild</p>
             <h2>Wild Desk</h2>
           </div>
-          <div class="topic-list">
+          <div class="spread-list">
 
-    <article class="topic-card" id="wild-smart-glasses" data-sections="wild">
+    <article class="magazine-spread" id="wild-smart-glasses">
+      <div class="spread-number">06</div>
+      <div class="spread-visual">
 
     <figure class="evidence-figure">
       <a href="https://www.producthunt.com/products/monako-glass/alternatives" target="_blank" rel="noreferrer" aria-label="Self-drawn signal map based on Product Hunt / Kickstarter / Reddit; not a product render">
@@ -161,21 +232,36 @@
       </a>
       <figcaption>Self-drawn signal map based on Product Hunt / Kickstarter / Reddit; not a product render</figcaption>
     </figure>
-      <div class="topic-main">
+      </div>
+      <div class="spread-copy">
         <div class="topic-topline">
           <span class="section-chip">Wild</span>
           <span>weak / community and crowdfunding signal</span>
           <span>accessed 2026-06-16</span>
         </div>
         <h3>Wild signal: AI glasses and coding HUDs are being tested through crowdfunding and communities</h3>
-        <p><strong>Fact:</strong> Product Hunt, Kickstarter, and Reddit signals show startups testing HUDs, recording summaries, translation, tap-to-AI, and all-day wearability.</p>
-        <p><strong>Value:</strong> These are not strong market facts, but they are useful for watching whether users accept AI entry points on the face and what they complain about first.</p>
+        <div class="deck-copy">
+          <p><strong>Fact:</strong> Product Hunt, Kickstarter, and Reddit signals show startups testing HUDs, recording summaries, translation, tap-to-AI, and all-day wearability.</p>
+          <p><strong>Why it matters:</strong> These are not strong market facts, but they are useful for watching whether users accept AI entry points on the face and what they complain about first.</p>
+          <p>The value of wild signals is not proving the market. It is exposing the edges of product assumptions. HUDs, recording summaries, translation, and tap-to-AI on Product Hunt, Kickstarter, and Reddit test whether users will put an AI entry point on their face.</p><p>These signals must be read weakly. Crowdfunding pages can overclaim, community feedback can be extreme, and Product Hunt heat is not retention. But they reveal friction outside polished big-company demos.</p><p>The dense friction areas are battery, privacy, wearing psychology, recording boundaries, and output quality. Early PMF for smart glasses is not more AI features; it is whether users want to wear the object all day.</p>
+          <p><strong>Product implication:</strong> Wild products expose the real friction first: battery, privacy, wearability embarrassment, recording boundaries, and AI-slop perception.</p>
+        </div>
+        <p class="source-row"><strong>Sources:</strong> <a href="https://www.producthunt.com/products/monako-glass/alternatives" target="_blank" rel="noreferrer">Product Hunt / Monako Glass</a> · <a href="https://www.kickstarter.com/projects/everysight/maverick-full-color-ai-ar-glasses" target="_blank" rel="noreferrer">Kickstarter / Maverick AI</a> · <a href="https://www.reddit.com/r/HealthTech/comments/1q8bit3/ai_wearables_at_ces_2026_feel_like_a_new/" target="_blank" rel="noreferrer">Reddit r/HealthTech</a></p>
+      </div>
+      <aside class="spread-sidebar">
+        <h4>HCI Lens</h4>
         <div class="lens-grid">
           <span>Input: gesture + tap + voice</span><span>Context: camera/audio capture</span><span>Feedback: HUD/audio summaries</span><span>Agentic: weak / fragmented</span>
         </div>
-        <p><strong>Product implication:</strong> Wild products expose the real friction first: battery, privacy, wearability embarrassment, recording boundaries, and AI-slop perception.</p>
-        <p class="source-row"><strong>Sources:</strong> <a href="https://www.producthunt.com/products/monako-glass/alternatives" target="_blank" rel="noreferrer">Product Hunt / Monako Glass</a> · <a href="https://www.kickstarter.com/projects/everysight/maverick-full-color-ai-ar-glasses" target="_blank" rel="noreferrer">Kickstarter / Maverick AI</a> · <a href="https://www.reddit.com/r/HealthTech/comments/1q8bit3/ai_wearables_at_ces_2026_feel_like_a_new/" target="_blank" rel="noreferrer">Reddit r/HealthTech</a></p>
-      </div>
+        <h4>Readout</h4>
+        <ul>
+          <li>Weak signals reveal friction, not scale</li><li>Wearing psychology is a product problem</li><li>Feature stacking is not PMF</li>
+        </ul>
+        <h4>Open Questions</h4>
+        <ul>
+          <li>Are complaints about device, privacy, or AI quality?</li><li>Do crowdfunding claims have independent review support?</li><li>Which scenes make daily wear acceptable?</li>
+        </ul>
+      </aside>
     </article>
           </div>
         </section>
@@ -184,9 +270,11 @@
             <p>Research</p>
             <h2>Research Watch</h2>
           </div>
-          <div class="topic-list">
+          <div class="spread-list">
 
-    <article class="topic-card" id="research-agency-wearables" data-sections="research">
+    <article class="magazine-spread" id="research-agency-wearables">
+      <div class="spread-number">07</div>
+      <div class="spread-visual">
 
     <figure class="evidence-figure">
       <a href="https://arxiv.org/html/2605.15064v1" target="_blank" rel="noreferrer" aria-label="Self-drawn research diagram based on CUI / CHI EA papers; not a product render">
@@ -194,21 +282,36 @@
       </a>
       <figcaption>Self-drawn research diagram based on CUI / CHI EA papers; not a product render</figcaption>
     </figure>
-      <div class="topic-main">
+      </div>
+      <div class="spread-copy">
         <div class="topic-topline">
           <span class="section-chip">Research</span>
           <span>medium / peer-reviewed or research prototype signal</span>
           <span>2026</span>
         </div>
         <h3>Research signal: agentic AI is shifting the problem from interface efficiency to human control</h3>
-        <p><strong>Fact:</strong> A CUI/arXiv paper discusses agency relocation in conversational AI, while a Microsoft Research CHI EA prototype uses a wearable ring as low-friction agent input.</p>
-        <p><strong>Value:</strong> The papers remind product teams that the less explicit the interface, the more important process control, feedback, and exit paths become.</p>
+        <div class="deck-copy">
+          <p><strong>Fact:</strong> A CUI/arXiv paper discusses agency relocation in conversational AI, while a Microsoft Research CHI EA prototype uses a wearable ring as low-friction agent input.</p>
+          <p><strong>Why it matters:</strong> The papers remind product teams that the less explicit the interface, the more important process control, feedback, and exit paths become.</p>
+          <p>The research signal moves the question from interface efficiency to human agency. Conversational AI and wearable input lower the cost of action, but can also remove process control.</p><p>A wearable ring is attractive because it bypasses phone and screen friction. But the lower the input friction, the more feedback compensation is needed. Without audio, visual, or haptic confirmation, users cannot tell whether the agent understood, started, or needs correction.</p><p>This is a clear warning for AI OS and AI hardware: no-interface is not the destination. A mature agentic interface is low-friction input plus visible state plus pause, undo, and correction.</p>
+          <p><strong>Product implication:</strong> Future AI OS, glasses, and rings should not just chase no-interface; they need lightweight but visible confirmation, correction, pause, and explanation controls.</p>
+        </div>
+        <p class="source-row"><strong>Sources:</strong> <a href="https://arxiv.org/html/2605.15064v1" target="_blank" rel="noreferrer">arXiv / CUI 2026</a> · <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2026/03/chi26d-sub1595-cam-i61.pdf" target="_blank" rel="noreferrer">Microsoft Research / CHI EA 2026</a></p>
+      </div>
+      <aside class="spread-sidebar">
+        <h4>HCI Lens</h4>
         <div class="lens-grid">
           <span>Input: low-friction wearable signal</span><span>Context: task and social setting</span><span>Feedback: confidence gap without clear cues</span><span>Agentic: process control vs outcome control</span>
         </div>
-        <p><strong>Product implication:</strong> Future AI OS, glasses, and rings should not just chase no-interface; they need lightweight but visible confirmation, correction, pause, and explanation controls.</p>
-        <p class="source-row"><strong>Sources:</strong> <a href="https://arxiv.org/html/2605.15064v1" target="_blank" rel="noreferrer">arXiv / CUI 2026</a> · <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2026/03/chi26d-sub1595-cam-i61.pdf" target="_blank" rel="noreferrer">Microsoft Research / CHI EA 2026</a></p>
-      </div>
+        <h4>Readout</h4>
+        <ul>
+          <li>Agency is the core HCI variable</li><li>Low-friction input needs high-quality feedback</li><li>No-interface still needs a control layer</li>
+        </ul>
+        <h4>Open Questions</h4>
+        <ul>
+          <li>Where does the user lose process control?</li><li>Does feedback confirm action or explain cause?</li><li>Are pause and undo close enough?</li>
+        </ul>
+      </aside>
     </article>
           </div>
         </section>
@@ -217,9 +320,11 @@
             <p>Patent</p>
             <h2>Patent Watch</h2>
           </div>
-          <div class="topic-list">
+          <div class="spread-list">
 
-    <article class="topic-card" id="patent-watch-protocol" data-sections="patent">
+    <article class="magazine-spread" id="patent-watch-protocol">
+      <div class="spread-number">08</div>
+      <div class="spread-visual">
 
     <figure class="evidence-figure">
       <a href="https://patents.google.com/" target="_blank" rel="noreferrer" aria-label="Self-drawn flow diagram for patent-signal handling; not a product render">
@@ -227,21 +332,36 @@
       </a>
       <figcaption>Self-drawn flow diagram for patent-signal handling; not a product render</figcaption>
     </figure>
-      <div class="topic-main">
+      </div>
+      <div class="spread-copy">
         <div class="topic-topline">
           <span class="section-chip">Patent</span>
           <span>weak / patent search protocol</span>
           <span>accessed 2026-06-16</span>
         </div>
         <h3>Patent radar: today's search path is not presented as confirmed product fact</h3>
-        <p><strong>Fact:</strong> This issue keeps a patent-watch lane but does not repackage any single patent as a shipped product. Future automation should scan Google Patents and CNIPA and label patent signals.</p>
-        <p><strong>Value:</strong> Patents are useful for soft/hardware direction, but they are signals, not launch plans, available features, or release dates.</p>
+        <div class="deck-copy">
+          <p><strong>Fact:</strong> This issue keeps a patent-watch lane but does not repackage any single patent as a shipped product. Future automation should scan Google Patents and CNIPA and label patent signals.</p>
+          <p><strong>Why it matters:</strong> Patents are useful for soft/hardware direction, but they are signals, not launch plans, available features, or release dates.</p>
+          <p>Patents are useful as direction radar, but not as product facts. In AI hardware and sensing peripherals, patents often cover sensor combinations, gesture recognition, display feedback, and on-device inference, but they do not indicate launch, date, or final form.</p><p>That means the patent lane needs a visible downgrade label. It can show which interaction space a company is defending, but it cannot replace product pages, developer docs, reviews, or user feedback.</p><p>The stronger pattern is cross-evidence: a patent direction becomes more useful when it also appears in SDKs, hardware announcements, developer recruitment, or community trials.</p>
+          <p><strong>Product implication:</strong> The brief must separate patent signals from product facts to avoid reading 'filed' as 'shipping'.</p>
+        </div>
+        <p class="source-row"><strong>Sources:</strong> <a href="https://patents.google.com/" target="_blank" rel="noreferrer">Google Patents</a> · <a href="https://english.cnipa.gov.cn/" target="_blank" rel="noreferrer">CNIPA</a></p>
+      </div>
+      <aside class="spread-sidebar">
+        <h4>HCI Lens</h4>
         <div class="lens-grid">
           <span>Input: sensor and gesture claims</span><span>Context: device-side inference</span><span>Feedback: display/audio/haptics claims</span><span>Agentic: speculative</span>
         </div>
-        <p><strong>Product implication:</strong> The brief must separate patent signals from product facts to avoid reading 'filed' as 'shipping'.</p>
-        <p class="source-row"><strong>Sources:</strong> <a href="https://patents.google.com/" target="_blank" rel="noreferrer">Google Patents</a> · <a href="https://english.cnipa.gov.cn/" target="_blank" rel="noreferrer">CNIPA</a></p>
-      </div>
+        <h4>Readout</h4>
+        <ul>
+          <li>Patent means direction, not launch</li><li>Cross it with product and community evidence</li><li>Label patent signal visibly</li>
+        </ul>
+        <h4>Open Questions</h4>
+        <ul>
+          <li>Which input or feedback does the claim map to?</li><li>Is there SDK or hardware evidence?</li><li>Could it be misread as roadmap?</li>
+        </ul>
+      </aside>
     </article>
           </div>
         </section>
@@ -250,9 +370,11 @@
             <p>China</p>
             <h2>China / Global Compare</h2>
           </div>
-          <div class="topic-list">
+          <div class="spread-list">
 
-    <article class="topic-card" id="china-global-compare" data-sections="china">
+    <article class="magazine-spread" id="china-global-compare">
+      <div class="spread-number">09</div>
+      <div class="spread-visual">
 
     <figure class="evidence-figure">
       <a href="https://www.kickstarter.com/projects/everysight/maverick-full-color-ai-ar-glasses" target="_blank" rel="noreferrer" aria-label="Self-drawn comparison diagram: official platform signals vs wild market signals">
@@ -260,21 +382,36 @@
       </a>
       <figcaption>Self-drawn comparison diagram: official platform signals vs wild market signals</figcaption>
     </figure>
-      <div class="topic-main">
+      </div>
+      <div class="spread-copy">
         <div class="topic-topline">
           <span class="section-chip">China</span>
           <span>medium for comparison / weak for China-specific market proof</span>
           <span>accessed 2026-06-16</span>
         </div>
         <h3>China / global compare: glasses and AI PCs compete for default entry, but evidence strength differs</h3>
-        <p><strong>Fact:</strong> Global big-tech signals come from official OS, AI PC, XR, and agent-shell announcements; China-related signals in this issue mainly appear through startup and crowdfunding routes such as Rokid.</p>
-        <p><strong>Value:</strong> The same product direction needs two reading modes: confirmed platform facts and wild-market experimentation.</p>
+        <div class="deck-copy">
+          <p><strong>Fact:</strong> Global big-tech signals come from official OS, AI PC, XR, and agent-shell announcements; China-related signals in this issue mainly appear through startup and crowdfunding routes such as Rokid.</p>
+          <p><strong>Why it matters:</strong> The same product direction needs two reading modes: confirmed platform facts and wild-market experimentation.</p>
+          <p>China/global comparison needs two layers. Global big-tech signals are more platform-led: OS, AI PC, XR, enterprise shell. China-linked and startup signals often show up through devices, crowdfunding, glasses ecosystems, and faster form-factor experiments.</p><p>This is not a simple ranking of who is ahead. The evidence types differ. Platform signals emphasize APIs, identity, ecosystem, and system entry points; wild-market signals emphasize price, form, wearability, scenes, and user complaints.</p><p>For product judgment, the useful move is to layer them: platforms decide long-term entry-point position, while wild products expose short-term user resistance. The brief needs both densities.</p>
+          <p><strong>Product implication:</strong> Homepage and issue pages should visibly separate official facts, community signals, crowdfunding signals, and patent signals through evidence-strength labels.</p>
+        </div>
+        <p class="source-row"><strong>Sources:</strong> <a href="https://blog.google/products-and-platforms/platforms/android/android-xr-io-2026/" target="_blank" rel="noreferrer">Google Android XR</a> · <a href="https://www.kickstarter.com/projects/everysight/maverick-full-color-ai-ar-glasses" target="_blank" rel="noreferrer">Kickstarter smart-glasses scan</a></p>
+      </div>
+      <aside class="spread-sidebar">
+        <h4>HCI Lens</h4>
         <div class="lens-grid">
           <span>Input: glasses vs PC</span><span>Context: platform ecosystem maturity</span><span>Feedback: display/audio/shell</span><span>Agentic: platform-led vs startup-led</span>
         </div>
-        <p><strong>Product implication:</strong> Homepage and issue pages should visibly separate official facts, community signals, crowdfunding signals, and patent signals through evidence-strength labels.</p>
-        <p class="source-row"><strong>Sources:</strong> <a href="https://blog.google/products-and-platforms/platforms/android/android-xr-io-2026/" target="_blank" rel="noreferrer">Google Android XR</a> · <a href="https://www.kickstarter.com/projects/everysight/maverick-full-color-ai-ar-glasses" target="_blank" rel="noreferrer">Kickstarter smart-glasses scan</a></p>
-      </div>
+        <h4>Readout</h4>
+        <ul>
+          <li>Do not mix platform and wild signals</li><li>China/global difference is often evidence-type difference</li><li>Track long-term entry and short-term friction together</li>
+        </ul>
+        <h4>Open Questions</h4>
+        <ul>
+          <li>Is the China-linked signal official or community/crowdfunding?</li><li>Does the global platform signal have a developer entry?</li><li>Which default entry point do both sides point toward?</li>
+        </ul>
+      </aside>
     </article>
           </div>
         </section>
@@ -290,13 +427,13 @@
       </section>
     </main>
     <script>
-      document.querySelectorAll("[data-filter]").forEach((button) => {
+      document.querySelectorAll("[data-time-filter]").forEach((button) => {
         button.addEventListener("click", () => {
-          const filter = button.dataset.filter;
-          document.querySelectorAll("[data-filter]").forEach((item) => item.classList.toggle("active", item === button));
-          document.querySelectorAll("[data-sections]").forEach((card) => {
-            const sections = card.dataset.sections.split(" ");
-            card.hidden = filter !== "all" && !sections.includes(filter);
+          const filter = button.dataset.timeFilter;
+          document.querySelectorAll("[data-time-filter]").forEach((item) => item.classList.toggle("active", item === button));
+          document.querySelectorAll("[data-time]").forEach((card) => {
+            const tokens = card.dataset.time.split(" ");
+            card.hidden = filter !== "all" && !tokens.includes(filter);
           });
         });
       });

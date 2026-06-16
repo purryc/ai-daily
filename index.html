@@ -10,7 +10,7 @@
   </head>
   <body>
 
-    <main class="app-shell">
+    <main class="app-shell archive-shell">
       <aside class="rail" aria-label="AI Daily">
         <a class="mark" href="/ai-daily/">AI</a>
         <a class="rail-icon active" href="/ai-daily/" aria-label="Home">⌂</a>
@@ -18,10 +18,10 @@
       </aside>
       <section class="workspace">
         <nav class="topbar" aria-label="Primary">
-          <div class="search-pill">Search the product surface, not model hype</div>
+          <div class="search-pill">按日期翻日报</div>
           <div class="nav-links">
             <a href="#archive">日报</a>
-            <a href="#filters">筛选</a>
+            <a href="#filters">时间筛选</a>
             <a href="/ai-daily/2026-06-16/sources.md">来源</a>
           </div>
           <div class="lang-switch">
@@ -30,32 +30,19 @@
           </div>
         </nav>
 
-        <section class="hero-card">
-          <div class="hero-copy">
-            <p class="eyebrow">2026-06-16 · AI Daily</p>
-            <h1>Googlebook 把 AI PC 从功能清单推成一个新入口类别</h1>
-            <div class="hero-lines">
-              <p>最强信号不是又多了一个模型能力，而是电脑形态被重新定义为 Gemini Intelligence 的容器。</p><p>这类入口会把用户的输入、上下文和反馈从 App 内部迁移到系统层。</p><p>如果成立，AI PC 的竞争重点会从芯片跑分转向日常任务闭环、权限透明和可恢复控制。</p>
-            </div>
-            <div class="hero-actions">
-              <a class="primary" href="/ai-daily/2026-06-16/zh/">阅读全文</a>
-              <a href="https://blog.google/products-and-platforms/platforms/android/meet-googlebook/" target="_blank" rel="noreferrer">原文来源</a>
-            </div>
-          </div>
-          <figure class="hero-media">
-            <img src="/ai-daily/2026-06-16/assets/googlebook-hero.png" alt="Googlebook 把 AI PC 从功能清单推成一个新入口类别" width="1300" height="731" decoding="async" />
-            <figcaption>official product blog · It changes the product interface boundary: the laptop becomes an AI system surface, not just a host for AI apps.</figcaption>
-          </figure>
-        </section>
+        <header class="archive-head">
+          <p class="eyebrow">AI Daily</p>
+          <h1>每日 AI 产品报纸</h1>
+          <p>只保留日期列表：点开每一期进入杂志式长读页面，来源和图片都在正文里。</p>
+        </header>
 
         <section class="filter-bar" id="filters" aria-label="Filters">
-          <button class="active" data-filter="all">All</button>
-          <button data-filter="official">大厂官方</button><button data-filter="wild">野生信号</button><button data-filter="research">论文</button><button data-filter="patent">专利</button><button data-filter="china">中国</button><button data-filter="global">海外</button>
+          <button class="active" data-time-filter="all">全部时间</button><button class="" data-time-filter="latest">最新</button><button class="" data-time-filter="y-2026">2026</button><button class="" data-time-filter="m-2026-06">2026-06</button>
         </section>
 
         <section class="issue-list" id="archive" aria-label="Daily issues">
 
-        <article class="issue-card" data-sections="official wild research patent china">
+        <article class="issue-card" data-time="latest y-2026 m-2026-06 d-2026-06-16">
           <figure class="issue-thumb">
             <img src="/ai-daily/2026-06-16/assets/googlebook-hero.png" alt="Googlebook 把 AI PC 从功能清单推成一个新入口类别" width="1300" height="731" loading="lazy" decoding="async" />
           </figure>
@@ -76,13 +63,13 @@
       </section>
     </main>
     <script>
-      document.querySelectorAll("[data-filter]").forEach((button) => {
+      document.querySelectorAll("[data-time-filter]").forEach((button) => {
         button.addEventListener("click", () => {
-          const filter = button.dataset.filter;
-          document.querySelectorAll("[data-filter]").forEach((item) => item.classList.toggle("active", item === button));
-          document.querySelectorAll("[data-sections]").forEach((card) => {
-            const sections = card.dataset.sections.split(" ");
-            card.hidden = filter !== "all" && !sections.includes(filter);
+          const filter = button.dataset.timeFilter;
+          document.querySelectorAll("[data-time-filter]").forEach((item) => item.classList.toggle("active", item === button));
+          document.querySelectorAll("[data-time]").forEach((card) => {
+            const tokens = card.dataset.time.split(" ");
+            card.hidden = filter !== "all" && !tokens.includes(filter);
           });
         });
       });

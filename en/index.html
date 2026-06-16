@@ -10,7 +10,7 @@
   </head>
   <body>
 
-    <main class="app-shell">
+    <main class="app-shell archive-shell">
       <aside class="rail" aria-label="AI Daily">
         <a class="mark" href="/ai-daily/">AI</a>
         <a class="rail-icon active" href="/ai-daily/en/" aria-label="Home">⌂</a>
@@ -18,10 +18,10 @@
       </aside>
       <section class="workspace">
         <nav class="topbar" aria-label="Primary">
-          <div class="search-pill">Search the product surface, not model hype</div>
+          <div class="search-pill">Browse issues by date</div>
           <div class="nav-links">
             <a href="#archive">Archive</a>
-            <a href="#filters">Filters</a>
+            <a href="#filters">Time filter</a>
             <a href="/ai-daily/2026-06-16/sources.md">Sources</a>
           </div>
           <div class="lang-switch">
@@ -30,32 +30,19 @@
           </div>
         </nav>
 
-        <section class="hero-card">
-          <div class="hero-copy">
-            <p class="eyebrow">2026-06-16 · AI Daily</p>
-            <h1>Googlebook pushes the AI PC from feature bundle into new entry-point category</h1>
-            <div class="hero-lines">
-              <p>The strongest signal is not another model feature, but a laptop category reframed as a Gemini Intelligence container.</p><p>That moves input, context, and feedback from individual apps into the system layer.</p><p>If it holds, AI PC competition shifts from chip benchmarks toward everyday task closure, permission clarity, and recoverable control.</p>
-            </div>
-            <div class="hero-actions">
-              <a class="primary" href="/ai-daily/2026-06-16/en/">Read issue</a>
-              <a href="https://blog.google/products-and-platforms/platforms/android/meet-googlebook/" target="_blank" rel="noreferrer">Original source</a>
-            </div>
-          </div>
-          <figure class="hero-media">
-            <img src="/ai-daily/2026-06-16/assets/googlebook-hero.png" alt="Googlebook pushes the AI PC from feature bundle into new entry-point category" width="1300" height="731" decoding="async" />
-            <figcaption>official product blog · It changes the product interface boundary: the laptop becomes an AI system surface, not just a host for AI apps.</figcaption>
-          </figure>
-        </section>
+        <header class="archive-head">
+          <p class="eyebrow">AI Daily</p>
+          <h1>Daily AI Product Newspaper</h1>
+          <p>A date-first archive: open any issue to read the magazine-style longform page with inline images and sources.</p>
+        </header>
 
         <section class="filter-bar" id="filters" aria-label="Filters">
-          <button class="active" data-filter="all">All</button>
-          <button data-filter="official">Official</button><button data-filter="wild">Wild</button><button data-filter="research">Research</button><button data-filter="patent">Patent</button><button data-filter="china">China</button><button data-filter="global">Global</button>
+          <button class="active" data-time-filter="all">All dates</button><button class="" data-time-filter="latest">Latest</button><button class="" data-time-filter="y-2026">2026</button><button class="" data-time-filter="m-2026-06">2026-06</button>
         </section>
 
         <section class="issue-list" id="archive" aria-label="Daily issues">
 
-        <article class="issue-card" data-sections="official wild research patent china">
+        <article class="issue-card" data-time="latest y-2026 m-2026-06 d-2026-06-16">
           <figure class="issue-thumb">
             <img src="/ai-daily/2026-06-16/assets/googlebook-hero.png" alt="Googlebook pushes the AI PC from feature bundle into new entry-point category" width="1300" height="731" loading="lazy" decoding="async" />
           </figure>
@@ -76,13 +63,13 @@
       </section>
     </main>
     <script>
-      document.querySelectorAll("[data-filter]").forEach((button) => {
+      document.querySelectorAll("[data-time-filter]").forEach((button) => {
         button.addEventListener("click", () => {
-          const filter = button.dataset.filter;
-          document.querySelectorAll("[data-filter]").forEach((item) => item.classList.toggle("active", item === button));
-          document.querySelectorAll("[data-sections]").forEach((card) => {
-            const sections = card.dataset.sections.split(" ");
-            card.hidden = filter !== "all" && !sections.includes(filter);
+          const filter = button.dataset.timeFilter;
+          document.querySelectorAll("[data-time-filter]").forEach((item) => item.classList.toggle("active", item === button));
+          document.querySelectorAll("[data-time]").forEach((card) => {
+            const tokens = card.dataset.time.split(" ");
+            card.hidden = filter !== "all" && !tokens.includes(filter);
           });
         });
       });
