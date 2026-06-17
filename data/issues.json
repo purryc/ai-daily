@@ -373,7 +373,14 @@
       "official",
       "developer docs",
       "platform",
-      "research watch"
+      "reviews",
+      "community friction",
+      "Product Hunt",
+      "Kickstarter",
+      "Indiegogo",
+      "research watch",
+      "patent watch",
+      "China/global"
     ],
     "zhPath": "/ai-daily/2026-06-17/zh/",
     "enPath": "/ai-daily/2026-06-17/en/",
@@ -415,6 +422,7 @@
         "zhImplication": "OS 级 AI 的成败会越来越取决于权限提示、可撤销动作、失败恢复和“为什么这样做”的解释层。",
         "enImplication": "OS-level AI will increasingly succeed or fail on permission visibility, undo, failure recovery, and a clear explanation layer for why it acted.",
         "sourceDate": "2026-06-08",
+        "evidenceLabel": "confirmed product",
         "evidenceStrength": "high / official announcement",
         "visual": {
           "path": "assets/apple-siri-spotlight.jpg",
@@ -448,6 +456,7 @@
         "zhImplication": "移动端 agent 的关键不再只是回答快，而是能否在不打扰用户的前提下，把建议、执行和确认放回原任务流里。",
         "enImplication": "The key for mobile agents is no longer just fast answers, but whether suggestion, execution, and confirmation return to the original task flow without becoming intrusive.",
         "sourceDate": "2026-05-12",
+        "evidenceLabel": "confirmed product",
         "evidenceStrength": "high / official product blog",
         "visual": {
           "path": "assets/google-gemini-intelligence.png",
@@ -481,6 +490,7 @@
         "zhImplication": "AI PC 的竞争重点会从芯片参数进一步转向：系统如何把上下文交给模型，并把结果放回用户当前工作流。",
         "enImplication": "AI PC competition will move further from chip specs toward how the system hands context to the model and returns output into the user's current workflow.",
         "sourceDate": "2026-05-12",
+        "evidenceLabel": "confirmed product",
         "evidenceStrength": "high / official product blog",
         "visual": {
           "path": "assets/googlebook-hero.png",
@@ -514,6 +524,7 @@
         "zhImplication": "眼镜产品接下来要解决的不是“能不能显示”，而是如何用极少量可视反馈表达状态、确认、失败和静默待机。",
         "enImplication": "The next problem for glasses products is not whether they can display, but how to express state, confirmation, failure, and quiet standby with extremely limited visual feedback.",
         "sourceDate": "2026-05-14",
+        "evidenceLabel": "developer surface",
         "evidenceStrength": "high / official developer preview",
         "visual": {
           "path": "assets/meta-display-glasses.png",
@@ -547,6 +558,7 @@
         "zhImplication": "如果 agent 要长期存在于环境中，UI 不一定要一直可见，但关键状态必须在关键时刻强可见。",
         "enImplication": "If an agent is meant to stay ambient over time, the UI does not need to stay visible constantly, but critical state must become strongly visible at the right moment.",
         "sourceDate": "2026-06-02",
+        "evidenceLabel": "developer surface",
         "evidenceStrength": "high / official platform article",
         "visual": {
           "path": "assets/microsoft-solara-title.png",
@@ -567,6 +579,295 @@
         ]
       },
       {
+        "id": "review-lane-scan",
+        "section": "reviews",
+        "zhHeadline": "媒体/评测栏：只把改变产品界面或用户工作流的报道升入主线",
+        "enHeadline": "Review lane: only coverage that changes product interfaces or workflows gets promoted",
+        "zhFact": "本期把 WIRED、The Verge、Ars Technica、TechCrunch 等媒体/评测源作为单独扫描栏；没有把只谈模型、融资或泛观点的报道升级为确认产品事实。",
+        "enFact": "This issue treats WIRED, The Verge, Ars Technica, and TechCrunch as a separate media/review scan lane; model-only, funding-only, or opinion-only pieces are not promoted into confirmed product facts.",
+        "zhValue": "媒体和评测的价值在于补足官方发布不会讲的摩擦：佩戴、续航、设置失败、隐私担忧、真实任务完成率。",
+        "enValue": "Media and reviews matter because they surface friction official posts rarely emphasize: wearability, battery, setup failure, privacy worry, and real task completion.",
+        "zhHciLens": ["Input: hands-on signals", "Context: daily-use review conditions", "Feedback: friction and failure reports", "Agentic: validated only when workflow changes"],
+        "enHciLens": ["Input: hands-on signals", "Context: daily-use review conditions", "Feedback: friction and failure reports", "Agentic: validated only when workflow changes"],
+        "zhImplication": "后续日报需要把媒体/评测与官方消息分栏读：官方确认能力，评测确认是否能被普通用户持续使用。",
+        "enImplication": "Future issues should read reviews separately from official news: official sources confirm capabilities, while reviews test whether normal users can keep using them.",
+        "sourceDate": "scanned 2026-06-17",
+        "evidenceLabel": "review/community friction",
+        "evidenceStrength": "medium / source-lane scan",
+        "visual": {
+          "path": "assets/diagram-review-scan.svg",
+          "width": 1200,
+          "height": 760,
+          "altZh": "Review lane source scan diagram",
+          "altEn": "Review lane source scan diagram",
+          "captionZh": "自绘扫描图：媒体/评测信号如何进入日报，非产品渲染",
+          "captionEn": "Self-drawn scan diagram: how media/review signals enter the issue; not a product render",
+          "sourceUrl": "https://www.wired.com/tag/artificial-intelligence/"
+        },
+        "sources": [
+          {
+            "label": "WIRED / Artificial Intelligence",
+            "url": "https://www.wired.com/tag/artificial-intelligence/",
+            "type": "review/media scan"
+          },
+          {
+            "label": "The Verge / AI",
+            "url": "https://www.theverge.com/ai-artificial-intelligence",
+            "type": "review/media scan"
+          },
+          {
+            "label": "Ars Technica / AI",
+            "url": "https://arstechnica.com/tag/ai/",
+            "type": "review/media scan"
+          },
+          {
+            "label": "TechCrunch / Artificial Intelligence",
+            "url": "https://techcrunch.com/category/artificial-intelligence/",
+            "type": "review/media scan"
+          }
+        ]
+      },
+      {
+        "id": "community-friction-scan",
+        "section": "community",
+        "zhHeadline": "社区摩擦栏：Reddit / Hacker News 用来捕捉反感、质疑和真实使用阻力",
+        "enHeadline": "Community friction lane: Reddit and Hacker News catch resistance, skepticism, and real-use friction",
+        "zhFact": "本期把 Reddit 与 Hacker News 作为社区摩擦扫描面，而不是确认事实来源；社区材料只用于识别用户担忧、失败路径和产品叙事的反作用力。",
+        "enFact": "This issue treats Reddit and Hacker News as community-friction scan surfaces, not confirmation sources; community material is used to identify worries, failure paths, and resistance to product narratives.",
+        "zhValue": "AI 软硬件产品越贴近身体和系统权限，社区反感越早暴露真正风险：被监听、耗电、没用、打扰、结果不可信。",
+        "enValue": "The closer AI soft/hardware gets to the body and system permissions, the earlier communities expose real risks: listening, battery drain, low utility, interruption, and untrusted output.",
+        "zhHciLens": ["Input: complaints and skepticism", "Context: privacy/social setting", "Feedback: failure anecdotes", "Agentic: downgrade unless corroborated"],
+        "enHciLens": ["Input: complaints and skepticism", "Context: privacy/social setting", "Feedback: failure anecdotes", "Agentic: downgraded unless corroborated"],
+        "zhImplication": "日报里的社区信号应该影响风险判断和 watchlist，不应被写成已确认规格、销量或产品事实。",
+        "enImplication": "Community signals should shape risk assessment and watchlists, not be written as confirmed specs, sales, or product facts.",
+        "sourceDate": "scanned 2026-06-17",
+        "evidenceLabel": "review/community friction",
+        "evidenceStrength": "weak / community scan",
+        "visual": {
+          "path": "assets/diagram-community-friction.svg",
+          "width": 1200,
+          "height": 760,
+          "altZh": "Community friction source scan diagram",
+          "altEn": "Community friction source scan diagram",
+          "captionZh": "自绘扫描图：社区摩擦信号如何影响日报风险判断，非产品渲染",
+          "captionEn": "Self-drawn scan diagram: how community friction shapes risk judgment; not a product render",
+          "sourceUrl": "https://www.reddit.com/search/?q=AI%20hardware"
+        },
+        "sources": [
+          {
+            "label": "Reddit search / AI hardware",
+            "url": "https://www.reddit.com/search/?q=AI%20hardware",
+            "type": "community scan"
+          },
+          {
+            "label": "Hacker News search / AI hardware",
+            "url": "https://hn.algolia.com/?q=AI%20hardware",
+            "type": "community scan"
+          }
+        ]
+      },
+      {
+        "id": "wild-startup-scan",
+        "section": "wild",
+        "zhHeadline": "野生产品栏：Product Hunt / Kickstarter / Indiegogo 用来发现形态试错",
+        "enHeadline": "Wild product lane: Product Hunt, Kickstarter, and Indiegogo reveal form-factor experiments",
+        "zhFact": "本期把 Product Hunt、Kickstarter、Indiegogo 作为创业和众筹扫描面；这些信号只代表市场试错和创业者押注，不能直接等同于可交付产品事实。",
+        "enFact": "This issue treats Product Hunt, Kickstarter, and Indiegogo as startup and crowdfunding scan surfaces; these signals show market experiments and founder bets, not automatically deliverable product facts.",
+        "zhValue": "野生产品最适合提前暴露新形态：AI 眼镜、随身录音、coding HUD、机器人外设、AI camera/sensing peripheral。",
+        "enValue": "Wild products are useful for spotting emerging forms early: AI glasses, wearable recording, coding HUDs, robotic peripherals, and AI camera/sensing devices.",
+        "zhHciLens": ["Input: new device gestures", "Context: startup/crowdfunding claims", "Feedback: prototype UI and campaign demos", "Agentic: weak until shipped/reviewed"],
+        "enHciLens": ["Input: new device gestures", "Context: startup/crowdfunding claims", "Feedback: prototype UI and campaign demos", "Agentic: weak until shipped/reviewed"],
+        "zhImplication": "日报应把野生产品放进趋势雷达，但必须标注 startup/crowdfunding signal，避免把众筹叙事写成已验证体验。",
+        "enImplication": "The brief should put wild products into the trend radar, while labeling them as startup or crowdfunding signals to avoid presenting campaign narratives as verified experience.",
+        "sourceDate": "scanned 2026-06-17",
+        "evidenceLabel": "startup signal",
+        "evidenceStrength": "weak / startup and crowdfunding scan",
+        "visual": {
+          "path": "assets/diagram-wild-signal-map.svg",
+          "width": 1200,
+          "height": 760,
+          "altZh": "Wild product signal map",
+          "altEn": "Wild product signal map",
+          "captionZh": "自绘信号图：野生产品和众筹如何进入趋势雷达，非产品渲染",
+          "captionEn": "Self-drawn signal map: how wild products and crowdfunding enter the trend radar; not a product render",
+          "sourceUrl": "https://www.producthunt.com/"
+        },
+        "sources": [
+          {
+            "label": "Product Hunt",
+            "url": "https://www.producthunt.com/",
+            "type": "startup signal"
+          },
+          {
+            "label": "Kickstarter / Technology",
+            "url": "https://www.kickstarter.com/discover/categories/technology",
+            "type": "crowdfunding signal"
+          },
+          {
+            "label": "Indiegogo / Tech",
+            "url": "https://www.indiegogo.com/explore/tech-innovation",
+            "type": "crowdfunding signal"
+          }
+        ]
+      },
+      {
+        "id": "research-watch-scan",
+        "section": "research",
+        "zhHeadline": "研究栏：论文只在改变交互模型、身体输入或 agent 控制权时进入日报",
+        "enHeadline": "Research lane: papers enter the issue when they change interaction models, body input, or agent control",
+        "zhFact": "本期把 arXiv、ACM/CHI/CUI、Microsoft Research、Google Research、Meta Research 作为研究扫描面；研究信号只代表方向和原型，不代表商业发布。",
+        "enFact": "This issue treats arXiv, ACM/CHI/CUI, Microsoft Research, Google Research, and Meta Research as research scan surfaces; research signals represent directions and prototypes, not commercial launches.",
+        "zhValue": "HCI 论文经常比产品发布更早暴露核心问题：低摩擦输入会不会削弱人的控制权，agent 如何解释状态，穿戴反馈如何不打扰。",
+        "enValue": "HCI papers often expose the core problem earlier than launches: whether low-friction input weakens control, how agents explain state, and how wearable feedback avoids interruption.",
+        "zhHciLens": ["Input: body/voice/screenless signals", "Context: lab and field study limits", "Feedback: prototype cues", "Agentic: direction signal only"],
+        "enHciLens": ["Input: body/voice/screenless signals", "Context: lab and field study limits", "Feedback: prototype cues", "Agentic: direction signal only"],
+        "zhImplication": "研究栏要服务产品判断，不做论文摘要；只提炼会影响用户界面、权限、反馈、控制权的设计信号。",
+        "enImplication": "The research lane should support product judgment, not summarize papers; it should extract design signals that affect interface, permission, feedback, and control.",
+        "sourceDate": "scanned 2026-06-17",
+        "evidenceLabel": "research signal",
+        "evidenceStrength": "medium / research scan",
+        "visual": {
+          "path": "assets/diagram-research-agency-ring.svg",
+          "width": 1200,
+          "height": 760,
+          "altZh": "Research signal mechanism diagram",
+          "altEn": "Research signal mechanism diagram",
+          "captionZh": "自绘研究机制图：研究信号如何进入产品判断，非产品渲染",
+          "captionEn": "Self-drawn research diagram: how research signals enter product judgment; not a product render",
+          "sourceUrl": "https://arxiv.org/list/cs.HC/recent"
+        },
+        "sources": [
+          {
+            "label": "arXiv / Human-Computer Interaction",
+            "url": "https://arxiv.org/list/cs.HC/recent",
+            "type": "research signal"
+          },
+          {
+            "label": "ACM CHI",
+            "url": "https://chi.acm.org/",
+            "type": "research signal"
+          },
+          {
+            "label": "Microsoft Research",
+            "url": "https://www.microsoft.com/en-us/research/",
+            "type": "research signal"
+          },
+          {
+            "label": "Google Research",
+            "url": "https://research.google/",
+            "type": "research signal"
+          },
+          {
+            "label": "Meta AI Research",
+            "url": "https://ai.meta.com/research/",
+            "type": "research signal"
+          }
+        ]
+      },
+      {
+        "id": "patent-watch-scan",
+        "section": "patent",
+        "zhHeadline": "专利栏：专利只作为方向雷达，不写成产品路线图",
+        "enHeadline": "Patent lane: patents are direction radar, not product roadmap",
+        "zhFact": "本期把 Google Patents、USPTO、WIPO、EPO、CNIPA 作为专利/产业扫描面；专利只说明可能的传感、显示、手势或端侧推理方向，不说明产品会发布。",
+        "enFact": "This issue treats Google Patents, USPTO, WIPO, EPO, and CNIPA as patent and industry scan surfaces; patents can indicate sensing, display, gesture, or on-device inference directions, not launch plans.",
+        "zhValue": "专利对 AI 硬件很有用，因为新形态往往先出现在传感器组合、镜片显示、手势输入、低功耗推理和隐私机制里。",
+        "enValue": "Patents are useful for AI hardware because new forms often first appear in sensor combinations, lens displays, gesture input, low-power inference, and privacy mechanisms.",
+        "zhHciLens": ["Input: sensor/gesture claims", "Context: device-side inference", "Feedback: display/audio/haptic claims", "Agentic: speculative until product evidence"],
+        "enHciLens": ["Input: sensor/gesture claims", "Context: device-side inference", "Feedback: display/audio/haptic claims", "Agentic: speculative until product evidence"],
+        "zhImplication": "日报必须把 patent signal 和 product fact 分开，并优先寻找产品页、SDK、招聘、开发者文档或评测来交叉验证。",
+        "enImplication": "The brief must separate patent signals from product facts and look for product pages, SDKs, hiring, developer docs, or reviews for corroboration.",
+        "sourceDate": "scanned 2026-06-17",
+        "evidenceLabel": "patent signal",
+        "evidenceStrength": "weak / patent scan",
+        "visual": {
+          "path": "assets/diagram-patent-watch.svg",
+          "width": 1200,
+          "height": 760,
+          "altZh": "Patent signal handling diagram",
+          "altEn": "Patent signal handling diagram",
+          "captionZh": "自绘流程图：专利信号如何降权进入日报，非产品渲染",
+          "captionEn": "Self-drawn flow diagram: how patent signals enter the issue with downgraded confidence; not a product render",
+          "sourceUrl": "https://patents.google.com/"
+        },
+        "sources": [
+          {
+            "label": "Google Patents",
+            "url": "https://patents.google.com/",
+            "type": "patent signal"
+          },
+          {
+            "label": "USPTO",
+            "url": "https://www.uspto.gov/",
+            "type": "patent signal"
+          },
+          {
+            "label": "WIPO Patentscope",
+            "url": "https://patentscope.wipo.int/",
+            "type": "patent signal"
+          },
+          {
+            "label": "European Patent Office",
+            "url": "https://www.epo.org/",
+            "type": "patent signal"
+          },
+          {
+            "label": "CNIPA",
+            "url": "https://english.cnipa.gov.cn/",
+            "type": "patent signal"
+          }
+        ]
+      },
+      {
+        "id": "china-signal-scan",
+        "section": "china",
+        "zhHeadline": "中国信号栏：把 36Kr、少数派、机器之心、量子位作为本地产品雷达",
+        "enHeadline": "China signal lane: 36Kr, SSPAI, Synced, and QbitAI form the local product radar",
+        "zhFact": "本期把 36Kr、少数派、机器之心、量子位作为中国/中文产品信号扫描面，重点看 AI 眼镜、机器人、AI PC、软件 agent、硬件创业和本地评测反馈。",
+        "enFact": "This issue treats 36Kr, SSPAI, Synced, and QbitAI as Chinese-language product signal surfaces, with attention to AI glasses, robotics, AI PCs, software agents, hardware startups, and local review feedback.",
+        "zhValue": "中国信号的价值不是替代官方事实，而是补足海外英文源容易漏掉的产品速度、渠道试错、价格压力和本地用户反馈。",
+        "enValue": "China signals do not replace official facts; they fill gaps around product velocity, channel experiments, price pressure, and local user feedback that English-language sources often miss.",
+        "zhHciLens": ["Input: local product reporting", "Context: China startup/channel ecosystem", "Feedback: review and user comments", "Agentic: weak until corroborated"],
+        "enHciLens": ["Input: local product reporting", "Context: China startup/channel ecosystem", "Feedback: review and user comments", "Agentic: weak until corroborated"],
+        "zhImplication": "日报要把中国/海外信号同屏比较，但必须标明证据类型：官方、媒体、社区、众筹、专利不能混成同一强度。",
+        "enImplication": "The issue should compare China and global signals on the same page, while clearly labeling evidence type: official, media, community, crowdfunding, and patent signals are not equal.",
+        "sourceDate": "scanned 2026-06-17",
+        "evidenceLabel": "weak/unverified",
+        "evidenceStrength": "medium / China signal scan",
+        "visual": {
+          "path": "assets/diagram-china-global-compare.svg",
+          "width": 1200,
+          "height": 760,
+          "altZh": "China and global signal comparison diagram",
+          "altEn": "China and global signal comparison diagram",
+          "captionZh": "自绘对比图：中国/海外信号如何分层读取，非产品渲染",
+          "captionEn": "Self-drawn comparison diagram: how China and global signals are layered; not a product render",
+          "sourceUrl": "https://36kr.com/"
+        },
+        "sources": [
+          {
+            "label": "36Kr",
+            "url": "https://36kr.com/",
+            "type": "China signal"
+          },
+          {
+            "label": "少数派",
+            "url": "https://sspai.com/",
+            "type": "China signal"
+          },
+          {
+            "label": "机器之心",
+            "url": "https://www.jiqizhixin.com/",
+            "type": "China signal"
+          },
+          {
+            "label": "量子位",
+            "url": "https://www.qbitai.com/",
+            "type": "China signal"
+          }
+        ]
+      },
+      {
         "id": "nxp-agentic-ai-edge",
         "section": "global",
         "zhHeadline": "NXP：eIQ Agentic AI 说明边缘代理开始从概念走向真实设备控制",
@@ -580,6 +881,7 @@
         "zhImplication": "物理世界里的 agent 体验设计核心不是“回复像不像人”，而是系统是否可预测、可解释、可安全接管。",
         "enImplication": "For agents in the physical world, the core experience question is not whether the response feels human, but whether the system stays predictable, explainable, and safe to override.",
         "sourceDate": "2026-01-06",
+        "evidenceLabel": "confirmed product",
         "evidenceStrength": "high / official company newsroom",
         "visual": {
           "path": "assets/nxp-agentic-ai.jpg",

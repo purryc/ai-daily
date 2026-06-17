@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-label="Wild wearable signals">
+  <rect width="1200" height="760" fill="#fffdfa"/>
+  <rect x="40" y="40" width="1120" height="680" rx="44" fill="#ffffff" stroke="#e8e3dc"/>
+  <text x="82" y="118" font-family="Aptos, Arial, sans-serif" font-size="54" font-weight="950" letter-spacing="-2" fill="#171413">Wild wearable signals</text>
+  <text x="86" y="160" font-family="Aptos, Arial, sans-serif" font-size="22" font-weight="700" fill="#6f6a66">Startup, crowdfunding, and community evidence lanes</text>
+  
+        <rect x="96" y="210" width="305" height="410" rx="32" fill="#f7f3ed" stroke="#e3d9ce"/>
+        <text x="120" y="260" font-size="25" font-weight="900" fill="#c7000b">Product Hunt</text>
+        
+            <rect x="118" y="300" width="261" height="52" rx="16" fill="#fffdfa" stroke="#e5ddd4"/>
+            <text x="140" y="333" font-size="20" font-weight="700" fill="#3b332d">coding HUD</text>
+            <rect x="118" y="378" width="261" height="52" rx="16" fill="#fffdfa" stroke="#e5ddd4"/>
+            <text x="140" y="411" font-size="20" font-weight="700" fill="#3b332d">gesture input</text>
+            <rect x="118" y="456" width="261" height="52" rx="16" fill="#fffdfa" stroke="#e5ddd4"/>
+            <text x="140" y="489" font-size="20" font-weight="700" fill="#3b332d">reservation signal</text>
+        <rect x="446" y="210" width="305" height="410" rx="32" fill="#f7f3ed" stroke="#e3d9ce"/>
+        <text x="470" y="260" font-size="25" font-weight="900" fill="#c7000b">Kickstarter</text>
+        
+            <rect x="468" y="300" width="261" height="52" rx="16" fill="#fffdfa" stroke="#e5ddd4"/>
+            <text x="490" y="333" font-size="20" font-weight="700" fill="#3b332d">AR display</text>
+            <rect x="468" y="378" width="261" height="52" rx="16" fill="#fffdfa" stroke="#e5ddd4"/>
+            <text x="490" y="411" font-size="20" font-weight="700" fill="#3b332d">tap-to-AI</text>
+            <rect x="468" y="456" width="261" height="52" rx="16" fill="#fffdfa" stroke="#e5ddd4"/>
+            <text x="490" y="489" font-size="20" font-weight="700" fill="#3b332d">translation</text>
+        <rect x="796" y="210" width="305" height="410" rx="32" fill="#f7f3ed" stroke="#e3d9ce"/>
+        <text x="820" y="260" font-size="25" font-weight="900" fill="#c7000b">Reddit</text>
+        
+            <rect x="818" y="300" width="261" height="52" rx="16" fill="#fffdfa" stroke="#e5ddd4"/>
+            <text x="840" y="333" font-size="20" font-weight="700" fill="#3b332d">battery worry</text>
+            <rect x="818" y="378" width="261" height="52" rx="16" fill="#fffdfa" stroke="#e5ddd4"/>
+            <text x="840" y="411" font-size="20" font-weight="700" fill="#3b332d">privacy worry</text>
+            <rect x="818" y="456" width="261" height="52" rx="16" fill="#fffdfa" stroke="#e5ddd4"/>
+            <text x="840" y="489" font-size="20" font-weight="700" fill="#3b332d">AI slop worry</text>
+  <text x="84" y="682" font-family="Aptos, Arial, sans-serif" font-size="18" font-weight="700" fill="#8c837a">Source-based diagram · not a product render</text>
+</svg>

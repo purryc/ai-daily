@@ -4,6 +4,19 @@ Date: 2026-06-16
 Timezone: America/Toronto
 Scope: HCI, AI hardware, AI software products, agentic devices, on-device AI, AI OS/shells, smart glasses, AI PCs, robotics, cameras/sensing peripherals, wearables, soft/hardware systems, community/startup signals, research papers, and patent watch.
 
+## Source Lane Coverage
+
+| Lane | Status | Topic IDs |
+| --- | --- | --- |
+| official | covered | apple-os-agent, googlebook-ai-pc, android-xr-eyewear, microsoft-solara |
+| reviews | missing | no topic |
+| community | missing | no topic |
+| wild | covered | wild-smart-glasses |
+| research | covered | research-agency-wearables |
+| patent | covered | patent-watch-protocol |
+| china | covered | china-global-compare |
+| global | missing | no topic |
+
 ## Source Index
 
 | ID | Source | Date | Evidence strength | Used for |

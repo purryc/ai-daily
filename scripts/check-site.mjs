@@ -9,6 +9,17 @@ if (!latest?.date) {
 }
 const latestDate = latest.date;
 const forbidden = ["TODO", "PLACEHOLDER", "待补", "undefined"];
+const requiredSections = ["official", "reviews", "community", "wild", "research", "patent", "china", "global"];
+const allowedEvidenceLabels = new Set([
+  "confirmed product",
+  "developer surface",
+  "review/community friction",
+  "startup signal",
+  "crowdfunding signal",
+  "research signal",
+  "patent signal",
+  "weak/unverified"
+]);
 const requiredFiles = [
   "index.html",
   "en/index.html",
@@ -27,6 +38,42 @@ async function read(relativePath) {
 
 for (const file of requiredFiles) {
   await fs.access(path.join(root, file));
+}
+
+const issues = JSON.parse(await read("data/issues.json"));
+const latestIssue = issues.find((issue) => issue.date === latestDate);
+if (!latestIssue) {
+  throw new Error(`data/issues.json missing latest issue ${latestDate}`);
+}
+
+const latestSections = new Set(latestIssue.topics.map((topic) => topic.section));
+for (const section of requiredSections) {
+  if (!latestSections.has(section)) {
+    throw new Error(`latest issue missing required source lane: ${section}`);
+  }
+}
+
+if (!latestIssue.watchlistZh?.length || !latestIssue.watchlistEn?.length) {
+  throw new Error("latest issue missing watchlist entries");
+}
+
+const sourceUrls = new Set(latestIssue.topics.flatMap((topic) => topic.sources.map((source) => source.url)));
+if (sourceUrls.size < 12) {
+  throw new Error(`latest issue has ${sourceUrls.size} unique sources; expected at least 12`);
+}
+
+const visualAssets = new Set([
+  latestIssue.coverStory.imagePath,
+  ...latestIssue.topics.map((topic) => topic.visual.path)
+]);
+if (visualAssets.size < 6) {
+  throw new Error(`latest issue has ${visualAssets.size} unique visuals; expected at least 6`);
+}
+
+for (const topic of latestIssue.topics) {
+  if (!allowedEvidenceLabels.has(topic.evidenceLabel)) {
+    throw new Error(`${topic.id} has invalid or missing evidenceLabel: ${topic.evidenceLabel}`);
+  }
 }
 
 const htmlFiles = requiredFiles.filter((file) => file.endsWith(".html"));
@@ -54,6 +101,9 @@ for (const file of [`${latestDate}/zh/index.html`, `${latestDate}/en/index.html`
   if (!isDeck) throw new Error(`${file} is not rendered as a slide deck`);
   if (text.includes("magazine-spread")) throw new Error(`${file} still contains the long-scroll magazine layout`);
   if (!text.includes(".pdf")) throw new Error(`${file} is missing a PDF download link`);
+  for (const section of requiredSections) {
+    if (!text.includes(section)) throw new Error(`${file} is missing source lane marker: ${section}`);
+  }
 }
 
 for (const file of requiredFiles.filter((item) => item.endsWith(".pdf"))) {
@@ -63,6 +113,21 @@ for (const file of requiredFiles.filter((item) => item.endsWith(".pdf"))) {
 
 if (!manifest[0]?.coverStory?.imagePath) {
   throw new Error("manifest.json missing coverStory.imagePath");
+}
+
+const latestManifest = JSON.parse(await read(`${latestDate}/manifest.json`));
+const manifestSections = new Set(latestManifest.topics.map((topic) => topic.section));
+for (const section of requiredSections) {
+  if (!manifestSections.has(section)) {
+    throw new Error(`${latestDate}/manifest.json missing source lane: ${section}`);
+  }
+}
+
+const sourceLedger = await read(`${latestDate}/sources.md`);
+for (const section of requiredSections) {
+  if (!sourceLedger.includes(`| ${section} | covered |`)) {
+    throw new Error(`${latestDate}/sources.md missing covered lane: ${section}`);
+  }
 }
 
 console.log("AI Daily static site checks passed.");

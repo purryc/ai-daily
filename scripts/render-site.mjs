@@ -6,11 +6,14 @@ const dataPath = path.join(root, "data", "issues.json");
 const siteBase = "/ai-daily";
 
 const issues = JSON.parse(await fs.readFile(dataPath, "utf8")).sort((a, b) => b.date.localeCompare(a.date));
+const sectionOrder = ["official", "reviews", "community", "wild", "research", "patent", "china", "global"];
 
 const sectionLabels = {
   zh: {
     all: "All",
     official: "大厂官方",
+    reviews: "媒体/评测",
+    community: "社区摩擦",
     wild: "野生信号",
     research: "论文",
     patent: "专利",
@@ -21,6 +24,8 @@ const sectionLabels = {
   en: {
     all: "All",
     official: "Official",
+    reviews: "Reviews",
+    community: "Community",
     wild: "Wild",
     research: "Research",
     patent: "Patent",
@@ -33,6 +38,8 @@ const sectionLabels = {
 const sectionNames = {
   zh: {
     official: "Official Desk / 大厂官方",
+    reviews: "Review Desk / 媒体与评测",
+    community: "Community Friction / 社区摩擦",
     wild: "Wild Desk / 野生信号",
     research: "Research Watch / 论文",
     patent: "Patent Watch / 专利",
@@ -41,6 +48,8 @@ const sectionNames = {
   },
   en: {
     official: "Official Desk",
+    reviews: "Review Desk",
+    community: "Community Friction",
     wild: "Wild Desk",
     research: "Research Watch",
     patent: "Patent Watch",
@@ -95,6 +104,10 @@ function figure(issue, visual, locale, rootRelative = true) {
 
 function chips(items) {
   return items.map((item) => `<span>${html(item)}</span>`).join("");
+}
+
+function evidenceBadge(topic) {
+  return topic.evidenceLabel ? `${topic.evidenceLabel} · ${topic.evidenceStrength}` : topic.evidenceStrength;
 }
 
 function topicNarrative(topic, locale) {
@@ -441,8 +454,8 @@ function homepage(locale) {
 
         <header class="archive-head">
           <p class="eyebrow">AI Daily</p>
-          <h1>${isZh ? "每日 AI 产品报纸" : "Daily AI Product Newspaper"}</h1>
-          <p>${isZh ? "只保留日期列表：点开每一期进入杂志式长读页面，来源和图片都在正文里。" : "A date-first archive: open any issue to read the magazine-style longform page with inline images and sources."}</p>
+          <h1>${isZh ? "AI Daily 产品杂志" : "AI Daily Product Magazine"}</h1>
+          <p>${isZh ? "每天一版：大厂官方、媒体评测、社区摩擦、野生产品、论文、专利、中国与海外信号放在同一张版面里读。" : "One issue per day: official launches, reviews, community friction, wild products, research, patents, China, and global signals in one magazine-style edition."}</p>
         </header>
 
         <section class="filter-bar" id="filters" aria-label="Filters">
@@ -471,7 +484,7 @@ function topicCard(issue, topic, locale) {
       <div class="topic-main">
         <div class="topic-topline">
           <span class="section-chip">${html(sectionLabels[locale][topic.section] ?? topic.section)}</span>
-          <span>${html(topic.evidenceStrength)}</span>
+          <span>${html(evidenceBadge(topic))}</span>
           <span>${html(topic.sourceDate)}</span>
         </div>
         <h3>${html(headline)}</h3>
@@ -505,7 +518,7 @@ function topicSpread(issue, topic, locale, pageNumber) {
       <div class="spread-copy">
         <div class="topic-topline">
           <span class="section-chip">${html(sectionLabels[locale][topic.section] ?? topic.section)}</span>
-          <span>${html(topic.evidenceStrength)}</span>
+          <span>${html(evidenceBadge(topic))}</span>
           <span>${html(topic.sourceDate)}</span>
         </div>
         <h3>${html(headline)}</h3>
@@ -545,7 +558,6 @@ function issuePage(issue, locale) {
     acc[topic.section].push(topic);
     return acc;
   }, {});
-  const sectionOrder = ["official", "wild", "research", "patent", "china", "global"];
   const navSections = sectionOrder.filter((section) => grouped[section]?.length);
 
   let pageNumber = 2;
@@ -681,7 +693,7 @@ function deckAgendaSlide(issue, locale, pageNumber, navSections) {
       ${deckSlideTopline(pageNumber, isZh ? "今日导航" : "Issue map")}
       <div class="agenda-copy">
         <p class="eyebrow">${isZh ? "先看结构，再看证据" : "Structure before evidence"}</p>
-        <h2>${isZh ? "今天按四条线读：大厂入口、野生阻力、研究/专利、中国与海外对照。" : "Read today through four lanes: platform entry points, wild friction, research/patents, and China/global comparison."}</h2>
+        <h2>${isZh ? "今天按八条线读：官方产品、媒体评测、社区摩擦、野生产品、研究、专利、中国与海外。" : "Read today through eight lanes: official products, reviews, community friction, wild products, research, patents, China, and global signals."}</h2>
       </div>
       <div class="agenda-grid">${cards}</div>
     </section>`;
@@ -699,7 +711,7 @@ function deckSectionSlide(section, locale, pageNumber, topics) {
           .map(
             (topic) => `
               <div>
-                <span>${html(topic.evidenceStrength)}</span>
+                <span>${html(evidenceBadge(topic))}</span>
                 <strong>${html(isZh ? topic.zhHeadline : topic.enHeadline)}</strong>
               </div>`
           )
@@ -723,7 +735,7 @@ function deckTopicEvidenceSlide(issue, topic, locale, pageNumber) {
         <div class="slide-copy">
           <div class="topic-topline">
             <span class="section-chip">${html(sectionLabels[locale][topic.section] ?? topic.section)}</span>
-            <span>${html(topic.evidenceStrength)}</span>
+            <span>${html(evidenceBadge(topic))}</span>
             <span>${html(topic.sourceDate)}</span>
           </div>
           <h2>${html(headline)}</h2>
@@ -821,7 +833,6 @@ function deckIssuePage(issue, locale) {
     acc[topic.section].push(topic);
     return acc;
   }, {});
-  const sectionOrder = ["official", "wild", "research", "patent", "china", "global"];
   const navSections = sectionOrder.filter((section) => grouped[section]?.length);
   const pdfName = `ai-daily-${issue.date}-${locale}.pdf`;
   const slideParts = [];
@@ -906,6 +917,7 @@ function issueManifest(issue) {
         enHeadline: topic.enHeadline,
         visual: topic.visual,
         sources: topic.sources,
+        evidenceLabel: topic.evidenceLabel,
         evidenceStrength: topic.evidenceStrength
       })),
       zhPath: "./zh/",
@@ -935,12 +947,26 @@ function sourcesMarkdown(issue) {
     source: topic.visual.sourceUrl,
     role: `${topic.id} / ${topic.evidenceStrength}`
   }));
+  const laneRows = sectionOrder.map((section) => {
+    const topics = issue.topics.filter((topic) => topic.section === section);
+    return {
+      section,
+      status: topics.length ? "covered" : "missing",
+      topics: topics.map((topic) => topic.id).join(", ") || "no topic"
+    };
+  });
 
   return `# AI Daily Sources
 
 Date: ${issue.date}
 Timezone: ${issue.timezone}
 Scope: HCI, AI hardware, AI software products, agentic devices, on-device AI, AI OS/shells, smart glasses, AI PCs, robotics, cameras/sensing peripherals, wearables, soft/hardware systems, community/startup signals, research papers, and patent watch.
+
+## Source Lane Coverage
+
+| Lane | Status | Topic IDs |
+| --- | --- | --- |
+${laneRows.map((row) => `| ${row.section} | ${row.status} | ${row.topics} |`).join("\n")}
 
 ## Source Index
 
@@ -2134,6 +2160,16 @@ function diagramAssets() {
       { title: "Device", items: ["MDEP base", "physical mic state", "sensor policy"] },
       { title: "Shell", items: ["Agent Shell", "temporary UI", "privacy indicator"] },
       { title: "Enterprise", items: ["Intune", "Entra ID", "audit trail"] }
+    ]),
+    "diagram-review-scan.svg": svgDiagram("Review desk scan", "Media and hands-on sources catch real product friction", [
+      { title: "Media", items: ["WIRED", "The Verge", "Ars"] },
+      { title: "Review", items: ["hands-on", "battery", "comfort"] },
+      { title: "Use", items: ["workflow impact", "failure mode", "trust cue"] }
+    ]),
+    "diagram-community-friction.svg": svgDiagram("Community friction", "Reddit, HN, and support threads reveal daily-use resistance", [
+      { title: "Reddit", items: ["privacy worry", "battery worry", "value doubt"] },
+      { title: "HN", items: ["developer skepticism", "workflow critique", "security concern"] },
+      { title: "Support", items: ["bug report", "setup failure", "refund signal"] }
     ]),
     "diagram-wild-signal-map.svg": svgDiagram("Wild wearable signals", "Startup, crowdfunding, and community evidence lanes", [
       { title: "Product Hunt", items: ["coding HUD", "gesture input", "reservation signal"] },
