@@ -1,5 +1,7 @@
 import fs from "node:fs/promises";
+import http from "node:http";
 import path from "node:path";
+import { chromium } from "playwright";
 
 const root = path.resolve(new URL("..", import.meta.url).pathname);
 const manifest = JSON.parse(await fs.readFile(path.join(root, "manifest.json"), "utf8"));
@@ -31,9 +33,107 @@ const requiredFiles = [
   `${latestDate}/manifest.json`,
   "assets/site.css"
 ];
+const deckViewports = [
+  { name: "2048x1152", width: 2048, height: 1152 },
+  { name: "1920x1080", width: 1920, height: 1080 },
+  { name: "1440x810", width: 1440, height: 810 }
+];
+const mimeTypes = new Map([
+  [".css", "text/css; charset=utf-8"],
+  [".html", "text/html; charset=utf-8"],
+  [".jpg", "image/jpeg"],
+  [".jpeg", "image/jpeg"],
+  [".json", "application/json; charset=utf-8"],
+  [".md", "text/markdown; charset=utf-8"],
+  [".pdf", "application/pdf"],
+  [".png", "image/png"],
+  [".svg", "image/svg+xml; charset=utf-8"],
+  [".webp", "image/webp"]
+]);
 
 async function read(relativePath) {
   return fs.readFile(path.join(root, relativePath), "utf8");
+}
+
+function createStaticServer() {
+  const server = http.createServer(async (request, response) => {
+    try {
+      const requestUrl = new URL(request.url, "http://127.0.0.1");
+      let pathname = decodeURIComponent(requestUrl.pathname);
+      if (pathname.endsWith("/")) pathname += "index.html";
+      const filePath = path.normalize(path.join(root, pathname));
+      if (!filePath.startsWith(root)) {
+        response.writeHead(403);
+        response.end("Forbidden");
+        return;
+      }
+      const contents = await fs.readFile(filePath);
+      response.writeHead(200, { "content-type": mimeTypes.get(path.extname(filePath)) ?? "application/octet-stream" });
+      response.end(contents);
+    } catch {
+      response.writeHead(404);
+      response.end("Not found");
+    }
+  });
+
+  return new Promise((resolve) => {
+    server.listen(0, "127.0.0.1", () => {
+      const address = server.address();
+      resolve({ server, origin: `http://127.0.0.1:${address.port}` });
+    });
+  });
+}
+
+async function checkDeckOverflow(origin, relativePath) {
+  const browser = await chromium.launch({ headless: true });
+  try {
+    for (const viewport of deckViewports) {
+      const page = await browser.newPage({
+        viewport: { width: viewport.width, height: viewport.height },
+        deviceScaleFactor: 1
+      });
+      await page.goto(`${origin}/${relativePath}`, { waitUntil: "networkidle", timeout: 30_000 });
+      await page.evaluate(() => document.fonts?.ready);
+      const result = await page.evaluate(() => {
+        const stage = document.querySelector(".deck-stage");
+        const stageRect = stage?.getBoundingClientRect();
+        const ratio = stageRect ? stageRect.width / stageRect.height : null;
+        const slides = Array.from(document.querySelectorAll(".deck-slide"));
+        const overflows = slides
+          .map((slide) => {
+            const overflowX = slide.scrollWidth - slide.clientWidth;
+            const overflowY = slide.scrollHeight - slide.clientHeight;
+            const title = slide.querySelector("h1, h2, h3")?.textContent?.trim().replace(/\s+/g, " ").slice(0, 96) ?? "";
+            return {
+              id: slide.id,
+              title,
+              className: slide.className,
+              overflowX,
+              overflowY,
+              clientWidth: slide.clientWidth,
+              clientHeight: slide.clientHeight,
+              scrollWidth: slide.scrollWidth,
+              scrollHeight: slide.scrollHeight
+            };
+          })
+          .filter((slide) => slide.overflowX > 4 || slide.overflowY > 4);
+        return { ratio, slideCount: slides.length, overflows };
+      });
+      await page.close();
+
+      if (Math.abs((result.ratio ?? 0) - 16 / 9) > 0.015) {
+        throw new Error(`${relativePath} deck stage is not 16:9 at ${viewport.name}`);
+      }
+      if (result.overflows.length) {
+        const details = result.overflows
+          .map((slide) => `${slide.id} ${slide.title} overflow ${slide.overflowX}x${slide.overflowY}`)
+          .join("; ");
+        throw new Error(`${relativePath} has clipped slide content at ${viewport.name}: ${details}`);
+      }
+    }
+  } finally {
+    await browser.close();
+  }
 }
 
 for (const file of requiredFiles) {
@@ -99,6 +199,7 @@ for (const file of [`${latestDate}/zh/index.html`, `${latestDate}/en/index.html`
   if (!hasSources) throw new Error(`${file} is missing inline source links`);
   if (!hasImages) throw new Error(`${file} is missing evidence images`);
   if (!isDeck) throw new Error(`${file} is not rendered as a slide deck`);
+  if (!text.includes("mag-topic-slide")) throw new Error(`${file} is missing magazine-style topic slides`);
   if (text.includes("magazine-spread")) throw new Error(`${file} still contains the long-scroll magazine layout`);
   if (!text.includes(".pdf")) throw new Error(`${file} is missing a PDF download link`);
   for (const section of requiredSections) {
@@ -128,6 +229,14 @@ for (const section of requiredSections) {
   if (!sourceLedger.includes(`| ${section} | covered |`)) {
     throw new Error(`${latestDate}/sources.md missing covered lane: ${section}`);
   }
+}
+
+const { server, origin } = await createStaticServer();
+try {
+  await checkDeckOverflow(origin, `${latestDate}/zh/`);
+  await checkDeckOverflow(origin, `${latestDate}/en/`);
+} finally {
+  server.close();
 }
 
 console.log("AI Daily static site checks passed.");

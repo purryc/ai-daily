@@ -89,6 +89,15 @@ function sourceLinks(sources, locale) {
     .join(" · ")}</p>`;
 }
 
+function deckSourceLinks(sources, locale) {
+  const prefix = locale === "zh" ? "Sources" : "Sources";
+  return `
+    <p class="source-row mag-source-list">
+      <strong>${prefix}</strong>
+      ${sources.map((source) => `<a href="${html(source.url)}" target="_blank" rel="noreferrer">${html(source.label)}</a>`).join("")}
+    </p>`;
+}
+
 function figure(issue, visual, locale, rootRelative = true) {
   const imageUrl = rootRelative ? assetUrl(issue, visual.path) : relAssetUrl(visual.path);
   const alt = locale === "zh" ? visual.altZh : visual.altEn;
@@ -678,7 +687,7 @@ function deckAgendaSlide(issue, locale, pageNumber, navSections) {
     .map((section) => {
       const sectionTopics = issue.topics.filter((topic) => topic.section === section);
       const targetSlide = deckSlideId(offset);
-      offset += 1 + sectionTopics.length * 2;
+      offset += 1 + sectionTopics.length;
       return `
         <a class="agenda-card" href="#${targetSlide}" data-go-slide="${targetSlide}">
           <span>${html(sectionLabels[locale][section] ?? section)}</span>
@@ -727,29 +736,59 @@ function deckTopicEvidenceSlide(issue, topic, locale, pageNumber) {
   const value = isZh ? topic.zhValue : topic.enValue;
   const implication = isZh ? topic.zhImplication : topic.enImplication;
   const lens = isZh ? topic.zhHciLens : topic.enHciLens;
+  const narrative = topicNarrative(topic, locale);
+  const readout = narrative.readout.slice(0, 3);
+  const questions = narrative.questions.slice(0, 2);
+  const analysisPreview = narrative.analysis[0] && narrative.analysis[0] !== value ? narrative.analysis[0] : "";
 
   return `
-    <section class="deck-slide evidence-slide" id="${deckSlideId(pageNumber)}" data-slide data-section="${html(topic.section)}">
+    <section class="deck-slide mag-topic-slide evidence-slide" id="${deckSlideId(pageNumber)}" data-slide data-section="${html(topic.section)}">
       ${deckSlideTopline(pageNumber, sectionNames[locale][topic.section] ?? topic.section)}
-      <div class="slide-grid">
-        <div class="slide-copy">
+      <div class="mag-topic-grid">
+        <header class="mag-topic-head">
           <div class="topic-topline">
             <span class="section-chip">${html(sectionLabels[locale][topic.section] ?? topic.section)}</span>
             <span>${html(evidenceBadge(topic))}</span>
             <span>${html(topic.sourceDate)}</span>
           </div>
-          <h2>${html(headline)}</h2>
-          <p class="lead"><strong>${isZh ? "事实：" : "Fact:"}</strong> ${html(fact)}</p>
-          <p><strong>${isZh ? "为什么重要：" : "Why it matters:"}</strong> ${html(value)}</p>
-          <div class="lens-grid">
-            ${lens.map((item) => `<span>${html(item)}</span>`).join("")}
-          </div>
-          <p><strong>${isZh ? "产品影响：" : "Product implication:"}</strong> ${html(implication)}</p>
-          ${sourceLinks(topic.sources, locale)}
-        </div>
-        <div class="slide-visual">
+          <h2 class="mag-topic-title">${html(headline)}</h2>
+          <p class="mag-lead"><strong>${isZh ? "事实：" : "Fact:"}</strong> ${html(fact)}</p>
+        </header>
+        <div class="mag-topic-visual slide-visual">
           ${figure(issue, topic.visual, locale, false)}
         </div>
+        <div class="mag-topic-body">
+          <article class="mag-card mag-card-wide">
+            <span>${isZh ? "为什么重要" : "Why it matters"}</span>
+            <p>${html(value)}</p>
+            ${analysisPreview ? `<p class="mag-note">${html(analysisPreview)}</p>` : ""}
+          </article>
+          <article class="mag-card">
+            <span>${isZh ? "产品影响" : "Product implication"}</span>
+            <p>${html(implication)}</p>
+          </article>
+          <article class="mag-card">
+            <span>${isZh ? "HCI Lens" : "HCI Lens"}</span>
+            <div class="lens-grid">
+              ${lens.map((item) => `<span>${html(item)}</span>`).join("")}
+            </div>
+          </article>
+          <article class="mag-card">
+            <span>${isZh ? "Readout" : "Readout"}</span>
+            <ul>
+              ${readout.map((item) => `<li>${html(item)}</li>`).join("")}
+            </ul>
+          </article>
+          <article class="mag-card">
+            <span>${isZh ? "Watch" : "Watch"}</span>
+            <ul>
+              ${(questions.length ? questions : readout.slice(0, 2)).map((item) => `<li>${html(item)}</li>`).join("")}
+            </ul>
+          </article>
+        </div>
+        <footer class="mag-topic-footer">
+          ${deckSourceLinks(topic.sources, locale)}
+        </footer>
       </div>
     </section>`;
 }
@@ -844,7 +883,6 @@ function deckIssuePage(issue, locale) {
     slideParts.push(deckSectionSlide(section, locale, pageNumber++, grouped[section]));
     for (const topic of grouped[section]) {
       slideParts.push(deckTopicEvidenceSlide(issue, topic, locale, pageNumber++));
-      slideParts.push(deckTopicAnalysisSlide(topic, locale, pageNumber++));
     }
   }
   slideParts.push(deckWatchlistSlide(issue, locale, pageNumber++));
@@ -1588,13 +1626,13 @@ body:has(.deck-page) {
 }
 
 .deck-page {
-  width: min(1720px, calc(100vw - 32px));
+  width: min(1840px, calc(100vw - 28px));
   height: 100vh;
   margin: 0 auto;
-  padding: 16px 0 78px;
+  padding: 14px 0 74px;
   display: grid;
   grid-template-rows: auto minmax(0, 1fr);
-  gap: 14px;
+  gap: 10px;
 }
 
 .deck-nav {
@@ -1642,8 +1680,8 @@ body:has(.deck-page) {
   position: relative;
   align-self: center;
   justify-self: center;
-  width: min(100%, calc((100vh - 152px) * 16 / 9));
-  max-height: calc(100vh - 152px);
+  width: min(100%, calc((100vh - 140px) * 16 / 9));
+  max-height: calc(100vh - 140px);
   aspect-ratio: 16 / 9;
   min-height: 0;
 }
@@ -1662,7 +1700,7 @@ body:has(.deck-page) {
     linear-gradient(90deg, rgba(199, 0, 11, 0.045), transparent 23%),
     #fffdfa;
   box-shadow: 0 28px 70px rgba(35, 25, 16, 0.12);
-  padding: clamp(26px, 3vw, 54px);
+  padding: clamp(22px, 2.25vw, 38px);
 }
 
 .deck-slide.is-active {
@@ -1674,8 +1712,8 @@ body:has(.deck-page) {
 .slide-chrome {
   position: absolute;
   top: 22px;
-  left: clamp(26px, 3vw, 54px);
-  right: clamp(26px, 3vw, 54px);
+  left: clamp(22px, 2.25vw, 38px);
+  right: clamp(22px, 2.25vw, 38px);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1688,14 +1726,37 @@ body:has(.deck-page) {
 
 .cover-slide {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(360px, 0.85fr);
-  gap: clamp(24px, 4vw, 64px);
+  grid-template-columns: minmax(0, 1fr) minmax(330px, 0.72fr);
+  gap: clamp(18px, 3vw, 48px);
   align-items: center;
 }
 
 .cover-copy h1 {
-  font-size: clamp(46px, 5.6vw, 88px);
+  font-size: clamp(34px, 4vw, 64px);
   max-width: 1040px;
+}
+
+.cover-slide .hero-lines {
+  gap: 6px;
+  font-size: clamp(13px, 1.05vw, 17px);
+  line-height: 1.36;
+  max-width: 760px;
+}
+
+.cover-slide .chip-row {
+  gap: 6px;
+}
+
+.cover-slide .chip-row span {
+  border-radius: 8px;
+  font-size: 10px;
+  padding: 5px 7px;
+}
+
+.cover-slide .source-row {
+  font-size: 10.5px;
+  line-height: 1.28;
+  margin-top: 10px;
 }
 
 .cover-visual,
@@ -1741,11 +1802,16 @@ body:has(.deck-page) {
 .section-slide h2,
 .watch-slide h2,
 .source-slide h2 {
-  font-size: clamp(42px, 5.2vw, 86px);
+  font-size: clamp(34px, 4.3vw, 72px);
   line-height: 0.98;
   letter-spacing: -0.065em;
   max-width: 1180px;
   margin-bottom: 0;
+}
+
+.agenda-copy h2,
+.source-slide h2 {
+  font-size: clamp(26px, 3.2vw, 52px);
 }
 
 .agenda-grid,
@@ -1761,14 +1827,14 @@ body:has(.deck-page) {
 .section-topic-list div,
 .watch-grid div,
 .source-grid a {
-  min-height: 132px;
+  min-height: 108px;
   border: 1px solid var(--line);
   border-radius: 22px;
   background: rgba(255, 255, 255, 0.86);
-  padding: 20px;
+  padding: 16px;
   display: grid;
   align-content: space-between;
-  gap: 14px;
+  gap: 10px;
 }
 
 .agenda-card span,
@@ -1785,7 +1851,7 @@ body:has(.deck-page) {
 .agenda-card strong,
 .section-topic-list strong,
 .source-grid strong {
-  font-size: 22px;
+  font-size: clamp(16px, 1.35vw, 21px);
   line-height: 1.12;
   letter-spacing: -0.035em;
 }
@@ -1794,6 +1860,40 @@ body:has(.deck-page) {
   color: var(--muted);
   font-style: normal;
   font-weight: 780;
+}
+
+.source-slide {
+  align-content: stretch;
+  gap: 12px;
+}
+
+.source-slide .source-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 6px;
+  align-content: start;
+}
+
+.source-slide .source-grid a {
+  min-height: 0;
+  border-radius: 12px;
+  padding: 7px 8px;
+  gap: 4px;
+}
+
+.source-slide .source-grid span {
+  font-size: 8px;
+  letter-spacing: 0.1em;
+}
+
+.source-slide .source-grid strong {
+  font-size: clamp(9.5px, 0.72vw, 12.5px);
+  line-height: 1.16;
+  letter-spacing: -0.018em;
+}
+
+.source-slide .source-row {
+  font-size: 10px;
+  margin-top: 4px;
 }
 
 .slide-grid {
@@ -1810,7 +1910,7 @@ body:has(.deck-page) {
 
 .slide-copy h2,
 .analysis-main h2 {
-  font-size: clamp(34px, 4.4vw, 72px);
+  font-size: clamp(30px, 3.4vw, 54px);
   line-height: 0.98;
   letter-spacing: -0.065em;
   margin: 14px 0 22px;
@@ -1830,6 +1930,174 @@ body:has(.deck-page) {
   font-size: clamp(18px, 1.5vw, 25px);
   line-height: 1.42;
   font-weight: 760;
+}
+
+.mag-topic-slide {
+  background:
+    linear-gradient(90deg, rgba(199, 0, 11, 0.038), transparent 18%),
+    linear-gradient(#fffdfa, #fffdfa);
+}
+
+.mag-topic-grid {
+  height: 100%;
+  min-height: 0;
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(330px, 0.72fr);
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  gap: clamp(10px, 1.15vw, 18px) clamp(18px, 2vw, 30px);
+}
+
+.mag-topic-head {
+  min-width: 0;
+}
+
+.mag-topic-title {
+  font-size: clamp(30px, 2.62vw, 46px);
+  line-height: 1.02;
+  letter-spacing: -0.058em;
+  text-wrap: balance;
+  margin: 10px 0 10px;
+  max-width: 100%;
+}
+
+html[lang="en"] .mag-topic-title {
+  font-size: clamp(25px, 2.22vw, 39px);
+  line-height: 1.04;
+  letter-spacing: -0.052em;
+}
+
+.mag-lead {
+  color: #2f2a26;
+  font-size: clamp(13px, 0.98vw, 17px);
+  line-height: 1.42;
+  font-weight: 720;
+  margin: 0;
+}
+
+.mag-topic-visual {
+  grid-column: 2;
+  grid-row: 1 / 3;
+  min-height: 0;
+  display: grid;
+  align-content: start;
+}
+
+.mag-topic-visual .evidence-figure {
+  height: auto;
+}
+
+.mag-topic-visual .evidence-figure img {
+  flex: 0 0 auto;
+  height: auto;
+  min-height: 0;
+}
+
+.mag-topic-body {
+  min-height: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-auto-rows: minmax(0, 1fr);
+  gap: 10px;
+  align-content: stretch;
+}
+
+.mag-card {
+  min-width: 0;
+  min-height: 0;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.78);
+  padding: clamp(9px, 1vw, 14px);
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.mag-card-wide {
+  grid-column: 1 / -1;
+}
+
+.mag-card > span {
+  color: var(--red);
+  font-size: 10px;
+  font-weight: 950;
+  letter-spacing: 0.13em;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.mag-card p,
+.mag-card li {
+  color: #332e2a;
+  font-size: clamp(11.5px, 0.8vw, 14.5px);
+  line-height: 1.38;
+}
+
+.mag-card p {
+  margin: 0;
+}
+
+.mag-card .mag-note {
+  color: #5c554f;
+  font-size: clamp(11px, 0.76vw, 13.5px);
+  line-height: 1.36;
+}
+
+.mag-card ul {
+  margin: 0;
+  padding-left: 16px;
+}
+
+.mag-card li {
+  margin-bottom: 4px;
+}
+
+.mag-card .lens-grid {
+  margin: 0;
+  gap: 5px;
+}
+
+.mag-card .lens-grid span {
+  border-radius: 8px;
+  font-size: clamp(9.5px, 0.72vw, 11px);
+  line-height: 1.1;
+  padding: 5px 7px;
+}
+
+.mag-topic-footer {
+  grid-column: 1 / -1;
+  min-width: 0;
+}
+
+.mag-source-list {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  color: var(--muted);
+  font-size: clamp(9.5px, 0.72vw, 11px);
+  line-height: 1.18;
+}
+
+.mag-source-list strong {
+  color: #7b746d;
+  font-weight: 950;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-right: 3px;
+}
+
+.mag-source-list a {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.82);
+  color: var(--red);
+  font-weight: 820;
+  padding: 3px 7px;
 }
 
 .analysis-main {
