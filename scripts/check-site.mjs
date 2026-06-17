@@ -2,16 +2,22 @@ import fs from "node:fs/promises";
 import path from "node:path";
 
 const root = path.resolve(new URL("..", import.meta.url).pathname);
+const manifest = JSON.parse(await fs.readFile(path.join(root, "manifest.json"), "utf8"));
+const latest = manifest[0];
+if (!latest?.date) {
+  throw new Error("manifest.json missing latest issue date");
+}
+const latestDate = latest.date;
 const forbidden = ["TODO", "PLACEHOLDER", "待补", "undefined"];
 const requiredFiles = [
   "index.html",
   "en/index.html",
-  "2026-06-16/zh/index.html",
-  "2026-06-16/en/index.html",
-  "2026-06-16/ai-daily-2026-06-16-zh.pdf",
-  "2026-06-16/ai-daily-2026-06-16-en.pdf",
-  "2026-06-16/sources.md",
-  "2026-06-16/manifest.json",
+  `${latestDate}/zh/index.html`,
+  `${latestDate}/en/index.html`,
+  `${latestDate}/ai-daily-${latestDate}-zh.pdf`,
+  `${latestDate}/ai-daily-${latestDate}-en.pdf`,
+  `${latestDate}/sources.md`,
+  `${latestDate}/manifest.json`,
   "assets/site.css"
 ];
 
@@ -29,7 +35,7 @@ if (css.includes("object-fit: cover")) {
   throw new Error("Evidence CSS must not use object-fit: cover");
 }
 
-for (const file of [...htmlFiles, "2026-06-16/sources.md"]) {
+for (const file of [...htmlFiles, `${latestDate}/sources.md`]) {
   const text = await read(file);
   for (const token of forbidden) {
     if (text.includes(token)) {
@@ -38,7 +44,7 @@ for (const file of [...htmlFiles, "2026-06-16/sources.md"]) {
   }
 }
 
-for (const file of ["2026-06-16/zh/index.html", "2026-06-16/en/index.html"]) {
+for (const file of [`${latestDate}/zh/index.html`, `${latestDate}/en/index.html`]) {
   const text = await read(file);
   const hasSources = text.includes("来源：") || text.includes("Sources:");
   const hasImages = text.includes("<img ");
@@ -55,7 +61,6 @@ for (const file of requiredFiles.filter((item) => item.endsWith(".pdf"))) {
   if (stats.size < 10_000) throw new Error(`${file} looks too small to be a valid PDF`);
 }
 
-const manifest = JSON.parse(await read("manifest.json"));
 if (!manifest[0]?.coverStory?.imagePath) {
   throw new Error("manifest.json missing coverStory.imagePath");
 }

@@ -352,5 +352,265 @@
       "Wild signals should keep scanning Reddit, Product Hunt, Kickstarter, independent reviews, and Chinese startup products.",
       "Patent signals stay directional and must not be treated as launch facts."
     ]
+  },
+  {
+    "date": "2026-06-17",
+    "timezone": "America/Toronto",
+    "zhTitle": "默认入口正在从 App 转回系统、桌面与穿戴层",
+    "enTitle": "Default AI entry points are moving back into systems, desktops, and wearables",
+    "zhSummary": "Apple、Google、Meta 都在把 agent 做成系统层或显示层能力，而不是独立聊天框。真正的 UX 竞争点正在变成上下文接入、反馈位置、权限提示和可撤销控制。",
+    "enSummary": "Apple, Google, and Meta are turning agents into system-layer and display-layer capabilities instead of standalone chat boxes. The real UX battleground is shifting toward context access, feedback placement, permission visibility, and recoverable control.",
+    "tags": [
+      "HCI",
+      "AI hardware",
+      "AI software",
+      "AI PC",
+      "smart glasses",
+      "agentic devices",
+      "on-device AI"
+    ],
+    "sourceTypes": [
+      "official",
+      "developer docs",
+      "platform",
+      "research watch"
+    ],
+    "zhPath": "/ai-daily/2026-06-17/zh/",
+    "enPath": "/ai-daily/2026-06-17/en/",
+    "sourcesPath": "/ai-daily/2026-06-17/sources.md",
+    "coverStory": {
+      "topicId": "googlebook-ai-pc",
+      "zhTitle": "Googlebook 试图把笔记本重写成 Gemini Intelligence 的默认工作表面",
+      "enTitle": "Googlebook tries to rewrite the laptop as Gemini Intelligence's default work surface",
+      "zhSummary": [
+        "今天最强的系统级信号不是又多了一个 AI 功能，而是默认入口被重新分配给桌面、系统和穿戴层。",
+        "Googlebook 把 AI PC 从“带 AI 功能的电脑”推进成一个新的系统交互类别。",
+        "如果这条路成立，竞争重点会从模型跑分转向工作流闭环、权限透明和低打扰反馈。"
+      ],
+      "enSummary": [
+        "The strongest system-level signal today is not another AI feature, but a redistribution of default entry points into desktop, system, and wearable layers.",
+        "Googlebook pushes the AI PC from 'a laptop with AI features' into a new system interaction category.",
+        "If this direction holds, competition shifts from model benchmarks toward workflow closure, permission clarity, and low-interruption feedback."
+      ],
+      "imagePath": "assets/googlebook-hero.png",
+      "imageWidth": 1300,
+      "imageHeight": 731,
+      "imageSourceUrl": "https://blog.google/products-and-platforms/platforms/android/meet-googlebook/",
+      "primarySourceUrl": "https://blog.google/products-and-platforms/platforms/android/meet-googlebook/",
+      "evidenceStrength": "official product blog",
+      "whyCover": "It reframes the laptop as a default AI work surface rather than a host for separate AI apps."
+    },
+    "topics": [
+      {
+        "id": "apple-os-agent",
+        "section": "official",
+        "zhHeadline": "Apple：Siri AI 把个人上下文、视觉理解和 app actions 收回系统层",
+        "enHeadline": "Apple: Siri AI pulls personal context, visual understanding, and app actions back into the system layer",
+        "zhFact": "Apple 在 2026-06-08 的官方新闻稿中发布 Siri AI，强调 personal context understanding、onscreen awareness、Visual Intelligence、Writing Tools 和更广的跨 app actions。",
+        "enFact": "Apple's June 8, 2026 newsroom post introduces Siri AI with personal context understanding, onscreen awareness, Visual Intelligence, Writing Tools, and broader cross-app actions.",
+        "zhValue": "价值不在“更会聊天”，而在用户不必先决定打开哪个 App；系统可以从当前屏幕和个人历史直接接手任务。",
+        "enValue": "The value is not smarter chat. It is removing the need to choose an app first; the system can act from the current screen and personal history.",
+        "zhHciLens": ["Input: voice + screen + camera", "Context: messages, mail, photos, history", "Feedback: Spotlight, Siri app, context menu", "Agentic: cross-app action closure"],
+        "enHciLens": ["Input: voice + screen + camera", "Context: messages, mail, photos, history", "Feedback: Spotlight, Siri app, context menu", "Agentic: cross-app action closure"],
+        "zhImplication": "OS 级 AI 的成败会越来越取决于权限提示、可撤销动作、失败恢复和“为什么这样做”的解释层。",
+        "enImplication": "OS-level AI will increasingly succeed or fail on permission visibility, undo, failure recovery, and a clear explanation layer for why it acted.",
+        "sourceDate": "2026-06-08",
+        "evidenceStrength": "high / official announcement",
+        "visual": {
+          "path": "assets/apple-siri-spotlight.jpg",
+          "width": 980,
+          "height": 653,
+          "altZh": "Apple Siri AI Spotlight integration official image",
+          "altEn": "Apple Siri AI Spotlight integration official image",
+          "captionZh": "官方视觉：Siri AI 与 Spotlight / 系统层整合",
+          "captionEn": "Official visual: Siri AI integrated with Spotlight and the system layer",
+          "sourceUrl": "https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/"
+        },
+        "sources": [
+          {
+            "label": "Apple Newsroom",
+            "url": "https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/",
+            "type": "official"
+          }
+        ]
+      },
+      {
+        "id": "google-android-gemini-intelligence",
+        "section": "official",
+        "zhHeadline": "Google Android：Gemini Intelligence 把主动任务执行推进手机系统层",
+        "enHeadline": "Google Android: Gemini Intelligence pushes proactive task execution into the phone's system layer",
+        "zhFact": "Google 在 2026-05-12 的官方文章中介绍 Gemini Intelligence，把多步自动化、Rambler、Create My Widget 和基于屏幕/图像上下文的任务执行带到 Android。",
+        "enFact": "Google's May 12, 2026 post on Gemini Intelligence brings multi-step automation, Rambler, Create My Widget, and screen/image-context task execution into Android.",
+        "zhValue": "手机不再只是打开 AI 的容器，而是在系统层开始主动组织任务、上下文和反馈。",
+        "enValue": "The phone stops being only a container for AI and starts actively organizing tasks, context, and feedback at the system layer.",
+        "zhHciLens": ["Input: long-press power, voice, screen, image", "Context: app state + web state + Android system", "Feedback: surfaced actions + widget + confirmation", "Agentic: multi-step assistance"],
+        "enHciLens": ["Input: long-press power, voice, screen, image", "Context: app state + web state + Android system", "Feedback: surfaced actions + widget + confirmation", "Agentic: multi-step assistance"],
+        "zhImplication": "移动端 agent 的关键不再只是回答快，而是能否在不打扰用户的前提下，把建议、执行和确认放回原任务流里。",
+        "enImplication": "The key for mobile agents is no longer just fast answers, but whether suggestion, execution, and confirmation return to the original task flow without becoming intrusive.",
+        "sourceDate": "2026-05-12",
+        "evidenceStrength": "high / official product blog",
+        "visual": {
+          "path": "assets/google-gemini-intelligence.png",
+          "width": 1300,
+          "height": 733,
+          "altZh": "Google Gemini Intelligence official header image",
+          "altEn": "Google Gemini Intelligence official header image",
+          "captionZh": "官方视觉：Gemini Intelligence on Android",
+          "captionEn": "Official visual: Gemini Intelligence on Android",
+          "sourceUrl": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence/"
+        },
+        "sources": [
+          {
+            "label": "Google Blog / Gemini Intelligence",
+            "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence/",
+            "type": "official"
+          }
+        ]
+      },
+      {
+        "id": "googlebook-ai-pc",
+        "section": "official",
+        "zhHeadline": "Googlebook：AI PC 开始从功能清单转向默认工作表面",
+        "enHeadline": "Googlebook: the AI PC starts moving from feature bundle toward default work surface",
+        "zhFact": "Google 把 Googlebook 定义为为 Gemini Intelligence 设计的新 laptop 类别，重点是 Magic Pointer 和 prompt-built widgets 这类桌面层交互能力。",
+        "enFact": "Google frames Googlebook as a new laptop category designed for Gemini Intelligence, centered on desktop-layer interaction such as Magic Pointer and prompt-built widgets.",
+        "zhValue": "这不是把聊天框塞进电脑，而是把光标、桌面和 widget 变成 agent 的输入/反馈界面。",
+        "enValue": "This is not a chat box on a laptop. It turns pointer, desktop, and widgets into the agent's input and feedback surfaces.",
+        "zhHciLens": ["Input: pointer + text + selected objects", "Context: desktop + Gmail + Calendar + Android sync", "Feedback: widgets and surfaced actions", "Agentic: task-level assistance"],
+        "enHciLens": ["Input: pointer + text + selected objects", "Context: desktop + Gmail + Calendar + Android sync", "Feedback: widgets and surfaced actions", "Agentic: task-level assistance"],
+        "zhImplication": "AI PC 的竞争重点会从芯片参数进一步转向：系统如何把上下文交给模型，并把结果放回用户当前工作流。",
+        "enImplication": "AI PC competition will move further from chip specs toward how the system hands context to the model and returns output into the user's current workflow.",
+        "sourceDate": "2026-05-12",
+        "evidenceStrength": "high / official product blog",
+        "visual": {
+          "path": "assets/googlebook-hero.png",
+          "width": 1300,
+          "height": 731,
+          "altZh": "Googlebook official hero visual",
+          "altEn": "Googlebook official hero visual",
+          "captionZh": "官方视觉：Googlebook / AI PC 类别",
+          "captionEn": "Official visual: Googlebook / AI PC category",
+          "sourceUrl": "https://blog.google/products-and-platforms/platforms/android/meet-googlebook/"
+        },
+        "sources": [
+          {
+            "label": "Google Blog / Googlebook",
+            "url": "https://blog.google/products-and-platforms/platforms/android/meet-googlebook/",
+            "type": "official"
+          }
+        ]
+      },
+      {
+        "id": "meta-display-glasses",
+        "section": "official",
+        "zhHeadline": "Meta：Display Glasses developer preview 让眼镜第一次成为可编程 UI 终端",
+        "enHeadline": "Meta: the Display Glasses developer preview turns glasses into a programmable UI endpoint",
+        "zhFact": "Meta 在 2026-05-14 开放 display glasses developer preview，允许开发者通过原生 SDK 或 Web App 把 text、images、lists、buttons 和 video 放上眼镜显示层，并接入 motion、orientation、phone GPS 和 neural-band input。",
+        "enFact": "On May 14, 2026, Meta opened its display glasses developer preview, letting developers place text, images, lists, buttons, and video onto the glasses display through native SDKs or web apps, while accessing motion, orientation, phone GPS, and neural-band input.",
+        "zhValue": "这意味着眼镜不再只是 voice/camera accessory，而是出现了真正的 glanceable UI surface。",
+        "enValue": "That means glasses stop being only a voice or camera accessory and become a real glanceable UI surface.",
+        "zhHciLens": ["Input: voice + gesture + neural-band + camera", "Context: local storage + phone GPS + motion", "Feedback: text/list/button/video on-glasses", "Agentic: multi-step task handoff"],
+        "enHciLens": ["Input: voice + gesture + neural-band + camera", "Context: local storage + phone GPS + motion", "Feedback: text/list/button/video on-glasses", "Agentic: multi-step task handoff"],
+        "zhImplication": "眼镜产品接下来要解决的不是“能不能显示”，而是如何用极少量可视反馈表达状态、确认、失败和静默待机。",
+        "enImplication": "The next problem for glasses products is not whether they can display, but how to express state, confirmation, failure, and quiet standby with extremely limited visual feedback.",
+        "sourceDate": "2026-05-14",
+        "evidenceStrength": "high / official developer preview",
+        "visual": {
+          "path": "assets/meta-display-glasses.png",
+          "width": 1200,
+          "height": 630,
+          "altZh": "Meta display glasses developer preview official hero",
+          "altEn": "Meta display glasses developer preview official hero",
+          "captionZh": "官方视觉：Meta display glasses developer preview",
+          "captionEn": "Official visual: Meta display glasses developer preview",
+          "sourceUrl": "https://developers.meta.com/blog/build-for-display-glasses/"
+        },
+        "sources": [
+          {
+            "label": "Meta Developers Blog",
+            "url": "https://developers.meta.com/blog/build-for-display-glasses/",
+            "type": "official"
+          }
+        ]
+      },
+      {
+        "id": "microsoft-solara",
+        "section": "official",
+        "zhHeadline": "Microsoft Solara：agent-first device 的关键不是设备外形，而是可信任的系统栈",
+        "enHeadline": "Microsoft Solara: the key to agent-first devices is not form factor, but a trustworthy system stack",
+        "zhFact": "Microsoft 在 2026-06-02 的官方文章中把 Project Solara 定义为面向 agent-first devices 的平台，强调 enterprise-readiness、just-in-time UI、Agent Shell、MDEP、Entra ID、Intune 和物理麦克风状态指示。",
+        "enFact": "Microsoft's June 2, 2026 article defines Project Solara as a platform for agent-first devices, emphasizing enterprise-readiness, just-in-time UI, Agent Shell, MDEP, Entra ID, Intune, and physical microphone-state indicators.",
+        "zhValue": "这说明企业级 agent 设备不是“多一个 AI gadget”，而是需要身份、管理、审计和反馈一起工作的软硬件底座。",
+        "enValue": "This shows that enterprise agent devices are not just another AI gadget; they need a soft/hardware foundation where identity, management, audit, and feedback work together.",
+        "zhHciLens": ["Input: shell-mediated commands and multimodal capture", "Context: enterprise identity and policy", "Feedback: just-in-time UI + indicators", "Agentic: managed task execution"],
+        "enHciLens": ["Input: shell-mediated commands and multimodal capture", "Context: enterprise identity and policy", "Feedback: just-in-time UI + indicators", "Agentic: managed task execution"],
+        "zhImplication": "如果 agent 要长期存在于环境中，UI 不一定要一直可见，但关键状态必须在关键时刻强可见。",
+        "enImplication": "If an agent is meant to stay ambient over time, the UI does not need to stay visible constantly, but critical state must become strongly visible at the right moment.",
+        "sourceDate": "2026-06-02",
+        "evidenceStrength": "high / official platform article",
+        "visual": {
+          "path": "assets/microsoft-solara-title.png",
+          "width": 2560,
+          "height": 1440,
+          "altZh": "Microsoft Project Solara official visual",
+          "altEn": "Microsoft Project Solara official visual",
+          "captionZh": "官方视觉：Microsoft Project Solara",
+          "captionEn": "Official visual: Microsoft Project Solara",
+          "sourceUrl": "https://commandline.microsoft.com/project-solara-build-2026/"
+        },
+        "sources": [
+          {
+            "label": "Microsoft Command Line",
+            "url": "https://commandline.microsoft.com/project-solara-build-2026/",
+            "type": "official"
+          }
+        ]
+      },
+      {
+        "id": "nxp-agentic-ai-edge",
+        "section": "global",
+        "zhHeadline": "NXP：eIQ Agentic AI 说明边缘代理开始从概念走向真实设备控制",
+        "enHeadline": "NXP: eIQ Agentic AI shows edge agents moving from concept toward real device control",
+        "zhFact": "NXP 在 2026-01-06 发布 eIQ Agentic AI Framework，强调 secure, real-time edge AI、deterministic real-time decision making 和多模型协同，目标是把 agent 放到机器人、医疗、工业和物联网控制场景里。",
+        "enFact": "NXP's January 6, 2026 release of the eIQ Agentic AI Framework emphasizes secure real-time edge AI, deterministic real-time decision making, and multi-model coordination, targeting robotics, healthcare, industrial, and IoT control scenarios.",
+        "zhValue": "它把 agent 从屏幕工作流进一步拉向物理世界，重点从内容生成转到延迟、安全、传感和执行闭环。",
+        "enValue": "It pulls the agent further from screen workflows into the physical world, shifting the focus from content generation to latency, safety, sensing, and execution closure.",
+        "zhHciLens": ["Input: sensors + machine signals", "Context: physical environment + device state", "Feedback: autonomous edge action", "Agentic: deterministic local control"],
+        "enHciLens": ["Input: sensors + machine signals", "Context: physical environment + device state", "Feedback: autonomous edge action", "Agentic: deterministic local control"],
+        "zhImplication": "物理世界里的 agent 体验设计核心不是“回复像不像人”，而是系统是否可预测、可解释、可安全接管。",
+        "enImplication": "For agents in the physical world, the core experience question is not whether the response feels human, but whether the system stays predictable, explainable, and safe to override.",
+        "sourceDate": "2026-01-06",
+        "evidenceStrength": "high / official company newsroom",
+        "visual": {
+          "path": "assets/nxp-agentic-ai.jpg",
+          "width": 720,
+          "height": 405,
+          "altZh": "NXP eIQ Agentic AI official visual",
+          "altEn": "NXP eIQ Agentic AI official visual",
+          "captionZh": "官方视觉：NXP eIQ Agentic AI",
+          "captionEn": "Official visual: NXP eIQ Agentic AI",
+          "sourceUrl": "https://www.nxp.com/company/about-nxp/newsroom/NW-NXP-ADVANCES-EDGE-AI-LEADERSHIP-EIQ"
+        },
+        "sources": [
+          {
+            "label": "NXP Newsroom",
+            "url": "https://www.nxp.com/company/about-nxp/newsroom/NW-NXP-ADVANCES-EDGE-AI-LEADERSHIP-EIQ",
+            "type": "official"
+          }
+        ]
+      }
+    ],
+    "watchlistZh": [
+      "Google Android XR 和 Meta display glasses 谁先把低打扰反馈做成可长期使用的规范。",
+      "Apple 的 App Intents / Spotlight 接口会不会真正把第三方 app 执行能力接入系统代理。",
+      "AI PC 的差异点会继续从模型性能转向工作流闭环、权限透明和桌面反馈层。",
+      "边缘 agent 进入真实设备控制后，延迟、安全和人工接管将比对话体验更重要。"
+    ],
+    "watchlistEn": [
+      "Whether Google Android XR or Meta display glasses defines the first durable low-interruption feedback pattern.",
+      "Whether Apple's App Intents and Spotlight hooks truly connect third-party execution into the system agent.",
+      "Whether AI PC differentiation keeps shifting from model performance toward workflow closure, permission clarity, and desktop feedback surfaces.",
+      "As edge agents move into real device control, latency, safety, and human override may matter more than conversational polish."
+    ]
   }
 ]

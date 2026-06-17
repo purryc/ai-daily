@@ -1,5 +1,52 @@
 [
   {
+    "date": "2026-06-17",
+    "zhTitle": "默认入口正在从 App 转回系统、桌面与穿戴层",
+    "enTitle": "Default AI entry points are moving back into systems, desktops, and wearables",
+    "zhSummary": "Apple、Google、Meta 都在把 agent 做成系统层或显示层能力，而不是独立聊天框。真正的 UX 竞争点正在变成上下文接入、反馈位置、权限提示和可撤销控制。",
+    "enSummary": "Apple, Google, and Meta are turning agents into system-layer and display-layer capabilities instead of standalone chat boxes. The real UX battleground is shifting toward context access, feedback placement, permission visibility, and recoverable control.",
+    "tags": [
+      "HCI",
+      "AI hardware",
+      "AI software",
+      "AI PC",
+      "smart glasses",
+      "agentic devices",
+      "on-device AI"
+    ],
+    "sourceTypes": [
+      "official",
+      "developer docs",
+      "platform",
+      "research watch"
+    ],
+    "coverStory": {
+      "topicId": "googlebook-ai-pc",
+      "zhTitle": "Googlebook 试图把笔记本重写成 Gemini Intelligence 的默认工作表面",
+      "enTitle": "Googlebook tries to rewrite the laptop as Gemini Intelligence's default work surface",
+      "zhSummary": [
+        "今天最强的系统级信号不是又多了一个 AI 功能，而是默认入口被重新分配给桌面、系统和穿戴层。",
+        "Googlebook 把 AI PC 从“带 AI 功能的电脑”推进成一个新的系统交互类别。",
+        "如果这条路成立，竞争重点会从模型跑分转向工作流闭环、权限透明和低打扰反馈。"
+      ],
+      "enSummary": [
+        "The strongest system-level signal today is not another AI feature, but a redistribution of default entry points into desktop, system, and wearable layers.",
+        "Googlebook pushes the AI PC from 'a laptop with AI features' into a new system interaction category.",
+        "If this direction holds, competition shifts from model benchmarks toward workflow closure, permission clarity, and low-interruption feedback."
+      ],
+      "imagePath": "assets/googlebook-hero.png",
+      "imageWidth": 1300,
+      "imageHeight": 731,
+      "imageSourceUrl": "https://blog.google/products-and-platforms/platforms/android/meet-googlebook/",
+      "primarySourceUrl": "https://blog.google/products-and-platforms/platforms/android/meet-googlebook/",
+      "evidenceStrength": "official product blog",
+      "whyCover": "It reframes the laptop as a default AI work surface rather than a host for separate AI apps."
+    },
+    "zhPath": "/ai-daily/2026-06-17/zh/",
+    "enPath": "/ai-daily/2026-06-17/en/",
+    "sourcesPath": "/ai-daily/2026-06-17/sources.md"
+  },
+  {
     "date": "2026-06-16",
     "zhTitle": "AI 入口正在从 App 重新分配到设备与系统层",
     "enTitle": "AI entry points are moving from apps into systems and devices",

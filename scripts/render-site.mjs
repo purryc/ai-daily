@@ -2168,16 +2168,18 @@ async function copyAssets(issue) {
   await fs.rm(outputDir, { recursive: true, force: true });
   await fs.mkdir(outputDir, { recursive: true });
   const sourceDir = path.resolve(root, "..", "Survey", "output", "slidev", `ai-product-morning-brief-${issue.date}`, "public", "assets");
-  const officialAssets = [
-    "apple-siri-onscreen.jpg",
-    "google-xr-hero.webp",
-    "googlebook-hero.png"
-  ];
-  for (const asset of officialAssets) {
+  const allAssets = new Set([
+    issue.coverStory.imagePath.replace(/^assets\//, ""),
+    ...issue.topics.map((topic) => topic.visual.path.replace(/^assets\//, ""))
+  ]);
+  const generatedDiagrams = diagramAssets();
+
+  for (const asset of allAssets) {
+    if (generatedDiagrams[asset]) {
+      await fs.writeFile(path.join(outputDir, asset), generatedDiagrams[asset]);
+      continue;
+    }
     await fs.copyFile(path.join(sourceDir, asset), path.join(outputDir, asset));
-  }
-  for (const [filename, svg] of Object.entries(diagramAssets())) {
-    await fs.writeFile(path.join(outputDir, filename), svg);
   }
 }
 

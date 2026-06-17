@@ -1,0 +1,194 @@
+{
+  "date": "2026-06-17",
+  "timezone": "America/Toronto",
+  "zhTitle": "默认入口正在从 App 转回系统、桌面与穿戴层",
+  "enTitle": "Default AI entry points are moving back into systems, desktops, and wearables",
+  "zhSummary": "Apple、Google、Meta 都在把 agent 做成系统层或显示层能力，而不是独立聊天框。真正的 UX 竞争点正在变成上下文接入、反馈位置、权限提示和可撤销控制。",
+  "enSummary": "Apple, Google, and Meta are turning agents into system-layer and display-layer capabilities instead of standalone chat boxes. The real UX battleground is shifting toward context access, feedback placement, permission visibility, and recoverable control.",
+  "tags": [
+    "HCI",
+    "AI hardware",
+    "AI software",
+    "AI PC",
+    "smart glasses",
+    "agentic devices",
+    "on-device AI"
+  ],
+  "sourceTypes": [
+    "official",
+    "developer docs",
+    "platform",
+    "research watch"
+  ],
+  "coverStory": {
+    "topicId": "googlebook-ai-pc",
+    "zhTitle": "Googlebook 试图把笔记本重写成 Gemini Intelligence 的默认工作表面",
+    "enTitle": "Googlebook tries to rewrite the laptop as Gemini Intelligence's default work surface",
+    "zhSummary": [
+      "今天最强的系统级信号不是又多了一个 AI 功能，而是默认入口被重新分配给桌面、系统和穿戴层。",
+      "Googlebook 把 AI PC 从“带 AI 功能的电脑”推进成一个新的系统交互类别。",
+      "如果这条路成立，竞争重点会从模型跑分转向工作流闭环、权限透明和低打扰反馈。"
+    ],
+    "enSummary": [
+      "The strongest system-level signal today is not another AI feature, but a redistribution of default entry points into desktop, system, and wearable layers.",
+      "Googlebook pushes the AI PC from 'a laptop with AI features' into a new system interaction category.",
+      "If this direction holds, competition shifts from model benchmarks toward workflow closure, permission clarity, and low-interruption feedback."
+    ],
+    "imagePath": "assets/googlebook-hero.png",
+    "imageWidth": 1300,
+    "imageHeight": 731,
+    "imageSourceUrl": "https://blog.google/products-and-platforms/platforms/android/meet-googlebook/",
+    "primarySourceUrl": "https://blog.google/products-and-platforms/platforms/android/meet-googlebook/",
+    "evidenceStrength": "official product blog",
+    "whyCover": "It reframes the laptop as a default AI work surface rather than a host for separate AI apps."
+  },
+  "topics": [
+    {
+      "id": "apple-os-agent",
+      "section": "official",
+      "zhHeadline": "Apple：Siri AI 把个人上下文、视觉理解和 app actions 收回系统层",
+      "enHeadline": "Apple: Siri AI pulls personal context, visual understanding, and app actions back into the system layer",
+      "visual": {
+        "path": "assets/apple-siri-spotlight.jpg",
+        "width": 980,
+        "height": 653,
+        "altZh": "Apple Siri AI Spotlight integration official image",
+        "altEn": "Apple Siri AI Spotlight integration official image",
+        "captionZh": "官方视觉：Siri AI 与 Spotlight / 系统层整合",
+        "captionEn": "Official visual: Siri AI integrated with Spotlight and the system layer",
+        "sourceUrl": "https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/"
+      },
+      "sources": [
+        {
+          "label": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/",
+          "type": "official"
+        }
+      ],
+      "evidenceStrength": "high / official announcement"
+    },
+    {
+      "id": "google-android-gemini-intelligence",
+      "section": "official",
+      "zhHeadline": "Google Android：Gemini Intelligence 把主动任务执行推进手机系统层",
+      "enHeadline": "Google Android: Gemini Intelligence pushes proactive task execution into the phone's system layer",
+      "visual": {
+        "path": "assets/google-gemini-intelligence.png",
+        "width": 1300,
+        "height": 733,
+        "altZh": "Google Gemini Intelligence official header image",
+        "altEn": "Google Gemini Intelligence official header image",
+        "captionZh": "官方视觉：Gemini Intelligence on Android",
+        "captionEn": "Official visual: Gemini Intelligence on Android",
+        "sourceUrl": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence/"
+      },
+      "sources": [
+        {
+          "label": "Google Blog / Gemini Intelligence",
+          "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence/",
+          "type": "official"
+        }
+      ],
+      "evidenceStrength": "high / official product blog"
+    },
+    {
+      "id": "googlebook-ai-pc",
+      "section": "official",
+      "zhHeadline": "Googlebook：AI PC 开始从功能清单转向默认工作表面",
+      "enHeadline": "Googlebook: the AI PC starts moving from feature bundle toward default work surface",
+      "visual": {
+        "path": "assets/googlebook-hero.png",
+        "width": 1300,
+        "height": 731,
+        "altZh": "Googlebook official hero visual",
+        "altEn": "Googlebook official hero visual",
+        "captionZh": "官方视觉：Googlebook / AI PC 类别",
+        "captionEn": "Official visual: Googlebook / AI PC category",
+        "sourceUrl": "https://blog.google/products-and-platforms/platforms/android/meet-googlebook/"
+      },
+      "sources": [
+        {
+          "label": "Google Blog / Googlebook",
+          "url": "https://blog.google/products-and-platforms/platforms/android/meet-googlebook/",
+          "type": "official"
+        }
+      ],
+      "evidenceStrength": "high / official product blog"
+    },
+    {
+      "id": "meta-display-glasses",
+      "section": "official",
+      "zhHeadline": "Meta：Display Glasses developer preview 让眼镜第一次成为可编程 UI 终端",
+      "enHeadline": "Meta: the Display Glasses developer preview turns glasses into a programmable UI endpoint",
+      "visual": {
+        "path": "assets/meta-display-glasses.png",
+        "width": 1200,
+        "height": 630,
+        "altZh": "Meta display glasses developer preview official hero",
+        "altEn": "Meta display glasses developer preview official hero",
+        "captionZh": "官方视觉：Meta display glasses developer preview",
+        "captionEn": "Official visual: Meta display glasses developer preview",
+        "sourceUrl": "https://developers.meta.com/blog/build-for-display-glasses/"
+      },
+      "sources": [
+        {
+          "label": "Meta Developers Blog",
+          "url": "https://developers.meta.com/blog/build-for-display-glasses/",
+          "type": "official"
+        }
+      ],
+      "evidenceStrength": "high / official developer preview"
+    },
+    {
+      "id": "microsoft-solara",
+      "section": "official",
+      "zhHeadline": "Microsoft Solara：agent-first device 的关键不是设备外形，而是可信任的系统栈",
+      "enHeadline": "Microsoft Solara: the key to agent-first devices is not form factor, but a trustworthy system stack",
+      "visual": {
+        "path": "assets/microsoft-solara-title.png",
+        "width": 2560,
+        "height": 1440,
+        "altZh": "Microsoft Project Solara official visual",
+        "altEn": "Microsoft Project Solara official visual",
+        "captionZh": "官方视觉：Microsoft Project Solara",
+        "captionEn": "Official visual: Microsoft Project Solara",
+        "sourceUrl": "https://commandline.microsoft.com/project-solara-build-2026/"
+      },
+      "sources": [
+        {
+          "label": "Microsoft Command Line",
+          "url": "https://commandline.microsoft.com/project-solara-build-2026/",
+          "type": "official"
+        }
+      ],
+      "evidenceStrength": "high / official platform article"
+    },
+    {
+      "id": "nxp-agentic-ai-edge",
+      "section": "global",
+      "zhHeadline": "NXP：eIQ Agentic AI 说明边缘代理开始从概念走向真实设备控制",
+      "enHeadline": "NXP: eIQ Agentic AI shows edge agents moving from concept toward real device control",
+      "visual": {
+        "path": "assets/nxp-agentic-ai.jpg",
+        "width": 720,
+        "height": 405,
+        "altZh": "NXP eIQ Agentic AI official visual",
+        "altEn": "NXP eIQ Agentic AI official visual",
+        "captionZh": "官方视觉：NXP eIQ Agentic AI",
+        "captionEn": "Official visual: NXP eIQ Agentic AI",
+        "sourceUrl": "https://www.nxp.com/company/about-nxp/newsroom/NW-NXP-ADVANCES-EDGE-AI-LEADERSHIP-EIQ"
+      },
+      "sources": [
+        {
+          "label": "NXP Newsroom",
+          "url": "https://www.nxp.com/company/about-nxp/newsroom/NW-NXP-ADVANCES-EDGE-AI-LEADERSHIP-EIQ",
+          "type": "official"
+        }
+      ],
+      "evidenceStrength": "high / official company newsroom"
+    }
+  ],
+  "zhPath": "./zh/",
+  "enPath": "./en/",
+  "sourcesPath": "./sources.md"
+}
