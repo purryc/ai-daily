@@ -119,6 +119,69 @@ function evidenceBadge(topic) {
   return topic.evidenceLabel ? `${topic.evidenceLabel} · ${topic.evidenceStrength}` : topic.evidenceStrength;
 }
 
+const dossierFieldOrder = [
+  "productType",
+  "interactionFlow",
+  "specsOrStack",
+  "useCases",
+  "painPointsSolved",
+  "newTech",
+  "availability",
+  "limitsOrUnknowns",
+  "productVerdict"
+];
+
+const dossierPartFields = {
+  product: [
+    ["productType", "interactionFlow", "specsOrStack", "useCases", "painPointsSolved"],
+    ["newTech", "availability", "limitsOrUnknowns", "productVerdict"]
+  ],
+  scan: [
+    ["productType", "interactionFlow", "useCases", "painPointsSolved", "newTech", "availability", "limitsOrUnknowns", "productVerdict"]
+  ]
+};
+
+const dossierLabels = {
+  zh: {
+    productName: "产品",
+    productType: "产品是什么",
+    interactionFlow: "怎么用",
+    specsOrStack: "规格 / 系统栈",
+    useCases: "使用场景",
+    painPointsSolved: "解决痛点",
+    newTech: "新技术",
+    availability: "可用性",
+    limitsOrUnknowns: "限制 / 未知",
+    productVerdict: "产品判断"
+  },
+  en: {
+    productName: "Product",
+    productType: "What it is",
+    interactionFlow: "How it works",
+    specsOrStack: "Specs / stack",
+    useCases: "Use cases",
+    painPointsSolved: "Pain points",
+    newTech: "New tech",
+    availability: "Availability",
+    limitsOrUnknowns: "Limits / unknowns",
+    productVerdict: "Product read"
+  }
+};
+
+function localizedDossier(topic, locale) {
+  return topic.dossier?.[locale] ?? null;
+}
+
+function dossierKind(topic) {
+  return topic.dossierKind === "scan" ? "scan" : topic.dossier ? "product" : "legacy";
+}
+
+function topicSlideCount(topic) {
+  const kind = dossierKind(topic);
+  if (kind === "legacy") return 1;
+  return dossierPartFields[kind].length;
+}
+
 function topicNarrative(topic, locale) {
   const narratives = {
     "apple-os-agent": {
@@ -687,7 +750,7 @@ function deckAgendaSlide(issue, locale, pageNumber, navSections) {
     .map((section) => {
       const sectionTopics = issue.topics.filter((topic) => topic.section === section);
       const targetSlide = deckSlideId(offset);
-      offset += 1 + sectionTopics.length;
+      offset += 1 + sectionTopics.reduce((sum, topic) => sum + topicSlideCount(topic), 0);
       return `
         <a class="agenda-card" href="#${targetSlide}" data-go-slide="${targetSlide}">
           <span>${html(sectionLabels[locale][section] ?? section)}</span>
@@ -729,7 +792,7 @@ function deckSectionSlide(section, locale, pageNumber, topics) {
     </section>`;
 }
 
-function deckTopicEvidenceSlide(issue, topic, locale, pageNumber) {
+function deckLegacyTopicSlide(issue, topic, locale, pageNumber) {
   const isZh = locale === "zh";
   const headline = isZh ? topic.zhHeadline : topic.enHeadline;
   const fact = isZh ? topic.zhFact : topic.enFact;
@@ -791,6 +854,61 @@ function deckTopicEvidenceSlide(issue, topic, locale, pageNumber) {
         </footer>
       </div>
     </section>`;
+}
+
+function deckTopicDossierSlide(issue, topic, locale, pageNumber, partIndex, partTotal) {
+  const isZh = locale === "zh";
+  const headline = isZh ? topic.zhHeadline : topic.enHeadline;
+  const fact = isZh ? topic.zhFact : topic.enFact;
+  const dossier = localizedDossier(topic, locale);
+  const labels = dossierLabels[locale];
+  const kind = dossierKind(topic);
+  const fields = dossierPartFields[kind][partIndex];
+  const lead = dossier?.productName
+    ? `${labels.productName}: ${dossier.productName}. ${fact}`
+    : fact;
+
+  return `
+    <section class="deck-slide dossier-slide mag-topic-slide" id="${deckSlideId(pageNumber)}" data-slide data-section="${html(topic.section)}" data-dossier-kind="${html(kind)}">
+      ${deckSlideTopline(pageNumber, `${sectionNames[locale][topic.section] ?? topic.section} · ${partIndex + 1}/${partTotal}`)}
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">${html(sectionLabels[locale][topic.section] ?? topic.section)}</span>
+            <span>${html(evidenceBadge(topic))}</span>
+            <span>${html(topic.sourceDate)}</span>
+          </div>
+          <h2 class="dossier-title">${html(headline)}</h2>
+          <p class="dossier-lead">${html(lead)}</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+          ${figure(issue, topic.visual, locale, false)}
+        </div>
+        <div class="dossier-body">
+          ${fields
+            .map(
+              (field) => `
+                <article class="dossier-card">
+                  <span>${html(labels[field] ?? field)}</span>
+                  <p>${html(dossier?.[field] ?? (isZh ? "来源未披露。" : "Source not stated."))}</p>
+                </article>`
+            )
+            .join("")}
+        </div>
+        <footer class="dossier-footer">
+          ${deckSourceLinks(topic.sources, locale)}
+        </footer>
+      </div>
+    </section>`;
+}
+
+function deckTopicSlides(issue, topic, locale, pageNumber) {
+  const kind = dossierKind(topic);
+  if (kind === "legacy") {
+    return [deckLegacyTopicSlide(issue, topic, locale, pageNumber)];
+  }
+  const count = topicSlideCount(topic);
+  return Array.from({ length: count }, (_, index) => deckTopicDossierSlide(issue, topic, locale, pageNumber + index, index, count));
 }
 
 function deckTopicAnalysisSlide(topic, locale, pageNumber) {
@@ -882,7 +1000,9 @@ function deckIssuePage(issue, locale) {
   for (const section of navSections) {
     slideParts.push(deckSectionSlide(section, locale, pageNumber++, grouped[section]));
     for (const topic of grouped[section]) {
-      slideParts.push(deckTopicEvidenceSlide(issue, topic, locale, pageNumber++));
+      const topicSlides = deckTopicSlides(issue, topic, locale, pageNumber);
+      slideParts.push(...topicSlides);
+      pageNumber += topicSlides.length;
     }
   }
   slideParts.push(deckWatchlistSlide(issue, locale, pageNumber++));
@@ -956,7 +1076,9 @@ function issueManifest(issue) {
         visual: topic.visual,
         sources: topic.sources,
         evidenceLabel: topic.evidenceLabel,
-        evidenceStrength: topic.evidenceStrength
+        evidenceStrength: topic.evidenceStrength,
+        dossierKind: topic.dossierKind,
+        dossier: topic.dossier
       })),
       zhPath: "./zh/",
       enPath: "./en/",
@@ -1033,6 +1155,8 @@ ${visualRows.map((row) => `| ${row.asset} | \`${row.local}\` | ${row.source} | $
 - Every topic deck slide in the published Chinese and English issue pages includes inline source links; this file is the audit ledger, not the only source surface.
 - Evidence visuals use source-traceable product images, source-based screenshots, or clearly labeled self-drawn mechanism diagrams. No generic stock or decorative images are used.
 - Public HTML/CSS must not use cropped image-fit rules for evidence visuals.
+- Product dossiers must use source-backed interaction flows, specs/API/hardware stack, scenarios, pain points, new technology, availability, and limits. If a source does not state a spec or availability detail, the dossier must say it is not stated rather than infer it.
+- Chinese and English issues carry the same information units; the English version is not a compressed summary.
 `;
 }
 
@@ -2098,6 +2222,116 @@ html[lang="en"] .mag-topic-title {
   color: var(--red);
   font-weight: 820;
   padding: 3px 7px;
+}
+
+.dossier-slide {
+  background:
+    linear-gradient(90deg, rgba(199, 0, 11, 0.032), transparent 16%),
+    #fffdfa;
+}
+
+.dossier-grid {
+  height: 100%;
+  min-height: 0;
+  padding-top: 28px;
+  display: grid;
+  grid-template-columns: minmax(0, 0.66fr) minmax(0, 1fr);
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  gap: clamp(9px, 1vw, 15px) clamp(16px, 1.75vw, 28px);
+}
+
+.dossier-head {
+  min-width: 0;
+}
+
+.dossier-title {
+  font-size: clamp(24px, 2vw, 35px);
+  line-height: 1.03;
+  letter-spacing: -0.054em;
+  text-wrap: balance;
+  margin: 8px 0 8px;
+}
+
+html[lang="en"] .dossier-title {
+  font-size: clamp(21px, 1.72vw, 30px);
+  line-height: 1.04;
+  letter-spacing: -0.048em;
+}
+
+.dossier-lead {
+  color: #2f2a26;
+  font-size: clamp(11.5px, 0.78vw, 14px);
+  line-height: 1.34;
+  font-weight: 700;
+  margin: 0;
+}
+
+.dossier-visual {
+  grid-column: 1;
+  grid-row: 2;
+  min-height: 0;
+  display: grid;
+  align-content: start;
+}
+
+.dossier-visual .evidence-figure {
+  height: auto;
+  max-height: 100%;
+}
+
+.dossier-visual .evidence-figure img {
+  flex: 0 0 auto;
+  height: auto;
+  max-height: min(34vh, 310px);
+  min-height: 0;
+}
+
+.dossier-body {
+  grid-column: 2;
+  grid-row: 1 / 3;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-auto-rows: auto;
+  gap: 8px;
+  align-content: start;
+}
+
+.dossier-card {
+  min-width: 0;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: clamp(8px, 0.78vw, 12px);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.dossier-card > span {
+  color: var(--red);
+  font-size: clamp(8.5px, 0.58vw, 10px);
+  font-weight: 950;
+  letter-spacing: 0.12em;
+  line-height: 1.05;
+  text-transform: uppercase;
+}
+
+.dossier-card p {
+  color: #332e2a;
+  font-size: clamp(11.4px, 0.72vw, 13.4px);
+  line-height: 1.36;
+  margin: 0;
+}
+
+html[lang="en"] .dossier-card p {
+  font-size: clamp(10.4px, 0.66vw, 12.4px);
+  line-height: 1.32;
+}
+
+.dossier-footer {
+  grid-column: 1 / -1;
+  min-width: 0;
 }
 
 .analysis-main {

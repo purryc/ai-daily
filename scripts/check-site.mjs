@@ -12,6 +12,19 @@ if (!latest?.date) {
 const latestDate = latest.date;
 const forbidden = ["TODO", "PLACEHOLDER", "待补", "undefined"];
 const requiredSections = ["official", "reviews", "community", "wild", "research", "patent", "china", "global"];
+const requiredDossierFields = [
+  "productName",
+  "productType",
+  "interactionFlow",
+  "specsOrStack",
+  "useCases",
+  "painPointsSolved",
+  "newTech",
+  "availability",
+  "limitsOrUnknowns",
+  "productVerdict"
+];
+const abstractColumnLabels = ["为什么重要", "Readout", "Why it matters", "为什么放这个材料"];
 const allowedEvidenceLabels = new Set([
   "confirmed product",
   "developer surface",
@@ -82,6 +95,20 @@ function createStaticServer() {
       resolve({ server, origin: `http://127.0.0.1:${address.port}` });
     });
   });
+}
+
+function zhDenseLength(text) {
+  return String(text ?? "").replace(/\s/g, "").length;
+}
+
+function enWordCount(text) {
+  return String(text ?? "").match(/[A-Za-z0-9]+(?:[-'][A-Za-z0-9]+)*/g)?.length ?? 0;
+}
+
+function dossierText(topic, locale) {
+  const dossier = topic.dossier?.[locale];
+  if (!dossier) return "";
+  return requiredDossierFields.map((field) => dossier[field] ?? "").join(" ");
 }
 
 async function checkDeckOverflow(origin, relativePath) {
@@ -174,6 +201,33 @@ for (const topic of latestIssue.topics) {
   if (!allowedEvidenceLabels.has(topic.evidenceLabel)) {
     throw new Error(`${topic.id} has invalid or missing evidenceLabel: ${topic.evidenceLabel}`);
   }
+  if (!["product", "scan"].includes(topic.dossierKind)) {
+    throw new Error(`${topic.id} missing dossierKind product|scan`);
+  }
+  for (const locale of ["zh", "en"]) {
+    const dossier = topic.dossier?.[locale];
+    if (!dossier) throw new Error(`${topic.id} missing ${locale} dossier`);
+    for (const field of requiredDossierFields) {
+      if (!String(dossier[field] ?? "").trim()) {
+        throw new Error(`${topic.id} missing ${locale} dossier field: ${field}`);
+      }
+    }
+  }
+  const zhLength = zhDenseLength(dossierText(topic, "zh"));
+  const enWords = enWordCount(dossierText(topic, "en"));
+  const minZh = topic.dossierKind === "scan" ? 180 : 520;
+  const minEn = topic.dossierKind === "scan" ? 140 : 380;
+  if (zhLength < minZh) throw new Error(`${topic.id} zh dossier too short: ${zhLength}; expected at least ${minZh}`);
+  if (enWords < minEn) throw new Error(`${topic.id} en dossier too short: ${enWords}; expected at least ${minEn}`);
+}
+
+const zhIssueLength = latestIssue.topics.reduce((sum, topic) => sum + zhDenseLength(dossierText(topic, "zh")), 0);
+const enIssueWords = latestIssue.topics.reduce((sum, topic) => sum + enWordCount(dossierText(topic, "en")), 0);
+if (zhIssueLength < 6000) {
+  throw new Error(`latest issue zh dossier density too low: ${zhIssueLength}; expected at least 6000`);
+}
+if (enIssueWords < 4500) {
+  throw new Error(`latest issue en dossier density too low: ${enIssueWords}; expected at least 4500`);
 }
 
 const htmlFiles = requiredFiles.filter((file) => file.endsWith(".html"));
@@ -200,7 +254,11 @@ for (const file of [`${latestDate}/zh/index.html`, `${latestDate}/en/index.html`
   if (!hasImages) throw new Error(`${file} is missing evidence images`);
   if (!isDeck) throw new Error(`${file} is not rendered as a slide deck`);
   if (!text.includes("mag-topic-slide")) throw new Error(`${file} is missing magazine-style topic slides`);
+  if (!text.includes("dossier-slide")) throw new Error(`${file} is missing dense dossier slides`);
   if (text.includes("magazine-spread")) throw new Error(`${file} still contains the long-scroll magazine layout`);
+  for (const label of abstractColumnLabels) {
+    if (text.includes(label)) throw new Error(`${file} still contains abstract editorial label: ${label}`);
+  }
   if (!text.includes(".pdf")) throw new Error(`${file} is missing a PDF download link`);
   for (const section of requiredSections) {
     if (!text.includes(section)) throw new Error(`${file} is missing source lane marker: ${section}`);

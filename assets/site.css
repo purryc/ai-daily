@@ -1061,6 +1061,116 @@ html[lang="en"] .mag-topic-title {
   padding: 3px 7px;
 }
 
+.dossier-slide {
+  background:
+    linear-gradient(90deg, rgba(199, 0, 11, 0.032), transparent 16%),
+    #fffdfa;
+}
+
+.dossier-grid {
+  height: 100%;
+  min-height: 0;
+  padding-top: 28px;
+  display: grid;
+  grid-template-columns: minmax(0, 0.66fr) minmax(0, 1fr);
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  gap: clamp(9px, 1vw, 15px) clamp(16px, 1.75vw, 28px);
+}
+
+.dossier-head {
+  min-width: 0;
+}
+
+.dossier-title {
+  font-size: clamp(24px, 2vw, 35px);
+  line-height: 1.03;
+  letter-spacing: -0.054em;
+  text-wrap: balance;
+  margin: 8px 0 8px;
+}
+
+html[lang="en"] .dossier-title {
+  font-size: clamp(21px, 1.72vw, 30px);
+  line-height: 1.04;
+  letter-spacing: -0.048em;
+}
+
+.dossier-lead {
+  color: #2f2a26;
+  font-size: clamp(11.5px, 0.78vw, 14px);
+  line-height: 1.34;
+  font-weight: 700;
+  margin: 0;
+}
+
+.dossier-visual {
+  grid-column: 1;
+  grid-row: 2;
+  min-height: 0;
+  display: grid;
+  align-content: start;
+}
+
+.dossier-visual .evidence-figure {
+  height: auto;
+  max-height: 100%;
+}
+
+.dossier-visual .evidence-figure img {
+  flex: 0 0 auto;
+  height: auto;
+  max-height: min(34vh, 310px);
+  min-height: 0;
+}
+
+.dossier-body {
+  grid-column: 2;
+  grid-row: 1 / 3;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-auto-rows: auto;
+  gap: 8px;
+  align-content: start;
+}
+
+.dossier-card {
+  min-width: 0;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: clamp(8px, 0.78vw, 12px);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.dossier-card > span {
+  color: var(--red);
+  font-size: clamp(8.5px, 0.58vw, 10px);
+  font-weight: 950;
+  letter-spacing: 0.12em;
+  line-height: 1.05;
+  text-transform: uppercase;
+}
+
+.dossier-card p {
+  color: #332e2a;
+  font-size: clamp(11.4px, 0.72vw, 13.4px);
+  line-height: 1.36;
+  margin: 0;
+}
+
+html[lang="en"] .dossier-card p {
+  font-size: clamp(10.4px, 0.66vw, 12.4px);
+  line-height: 1.32;
+}
+
+.dossier-footer {
+  grid-column: 1 / -1;
+  min-width: 0;
+}
+
 .analysis-main {
   height: 100%;
   display: grid;

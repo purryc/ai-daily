@@ -78,3 +78,5 @@ Scope: HCI, AI hardware, AI software products, agentic devices, on-device AI, AI
 - Every topic deck slide in the published Chinese and English issue pages includes inline source links; this file is the audit ledger, not the only source surface.
 - Evidence visuals use source-traceable product images, source-based screenshots, or clearly labeled self-drawn mechanism diagrams. No generic stock or decorative images are used.
 - Public HTML/CSS must not use cropped image-fit rules for evidence visuals.
+- Product dossiers must use source-backed interaction flows, specs/API/hardware stack, scenarios, pain points, new technology, availability, and limits. If a source does not state a spec or availability detail, the dossier must say it is not stated rather than infer it.
+- Chinese and English issues carry the same information units; the English version is not a compressed summary.
