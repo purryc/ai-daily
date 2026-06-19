@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" rx="46" fill="#fffdfa"/>
+  <rect x="38" y="38" width="1124" height="684" rx="36" fill="#f6f4ef" stroke="#e5ded6"/>
+  <circle cx="1010" cy="156" r="86" fill="#c7000b" opacity="0.12"/>
+  <circle cx="960" cy="218" r="42" fill="#c7000b" opacity="0.16"/>
+  <text x="70" y="140" font-family="Aptos, Arial, sans-serif" font-size="58" font-weight="900" fill="#171413">china ai glasses scan</text>
+  <text x="70" y="202" font-family="Aptos, Arial, sans-serif" font-size="27" font-weight="650" fill="#5f5851">36Kr · 少数派 · comparison lane</text>
+  <rect x="70" y="268" width="330" height="90" rx="28" fill="#2f2234"/>
+  <text x="100" y="324" font-family="Aptos, Arial, sans-serif" font-size="30" font-weight="850" fill="#fff">AI Daily Evidence</text>
+  <path d="M430 312 C560 245 670 380 800 310 S1030 300 1110 230" fill="none" stroke="#c7000b" stroke-width="10" stroke-linecap="round"/>
+  <path d="M430 350 C600 440 720 300 880 390 S1030 450 1110 392" fill="none" stroke="#2f2234" stroke-width="7" stroke-linecap="round" opacity="0.72"/>
+  <rect x="70" y="430" width="450" height="58" rx="18" fill="#fff" stroke="#d8d2ca"/><text x="94" y="467" font-size="23" font-weight="700" fill="#2f2a26">Evidence gap</text><rect x="590" y="430" width="450" height="58" rx="18" fill="#fff" stroke="#d8d2ca"/><text x="614" y="467" font-size="23" font-weight="700" fill="#2f2a26">Downgraded signal</text><rect x="70" y="526" width="450" height="58" rx="18" fill="#fff" stroke="#d8d2ca"/><text x="94" y="563" font-size="23" font-weight="700" fill="#2f2a26">Next watch</text><rect x="590" y="526" width="450" height="58" rx="18" fill="#fff" stroke="#d8d2ca"/><text x="614" y="563" font-size="23" font-weight="700" fill="#2f2a26">Do not infer specs</text>
+</svg>

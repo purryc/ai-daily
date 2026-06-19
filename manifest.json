@@ -1,5 +1,56 @@
 [
   {
+    "date": "2026-06-19",
+    "zhTitle": "AI 入口今天集中转向眼镜、消息线程与可授权交易",
+    "enTitle": "AI entry points shift into glasses, messaging threads, and authorized transactions",
+    "zhSummary": "今天的强信号来自 Snap Specs、XREAL Aura、Qualcomm XR developer stack、Meta Business AI Agent 和 Google agentic checkout。共同变化不是模型更大，而是 AI 正进入可佩戴显示、商家消息、支付协议和 XR 平台。",
+    "enSummary": "Today's strongest signals come from Snap Specs, XREAL Aura, Qualcomm's XR developer stack, Meta Business AI Agent, and Google's agentic checkout work. The common change is not a larger model; AI is entering wearable displays, merchant messaging, payment protocols, and XR platforms.",
+    "tags": [
+      "HCI",
+      "AI hardware",
+      "smart glasses",
+      "agentic commerce",
+      "Android XR",
+      "developer surface",
+      "wearable AI"
+    ],
+    "sourceTypes": [
+      "official",
+      "developer docs",
+      "reviews",
+      "community",
+      "startup",
+      "research",
+      "patent",
+      "China"
+    ],
+    "coverStory": {
+      "topicId": "snap-specs-standalone-ar",
+      "zhTitle": "Snap Specs 把今天的 AI hardware 焦点拉回“可戴多久、能做什么、谁来开发”",
+      "enTitle": "Snap Specs pulls today's AI hardware question back to wear time, task closure, and developer supply",
+      "zhSummary": [
+        "今天不是又一个聊天框日，而是 AI 入口进入眼镜、消息、支付和 XR developer stack 的日子。",
+        "Snap Specs 是封面，因为它把 AR 显示、相机、语音、空间输入和开发者生态放进一个独立设备。",
+        "产品判断要看可佩戴性、权限反馈、开发者闭环和弱证据 lane，而不是只看发布话术。"
+      ],
+      "enSummary": [
+        "Today is not another chat-box day; AI entry points are moving into glasses, messaging, payments, and XR developer stacks.",
+        "Snap Specs is the cover because it puts AR display, camera, voice, spatial input, and developer ecosystem into one standalone device.",
+        "The product read depends on wearability, permission feedback, developer closure, and downgraded weak-signal lanes, not launch language alone."
+      ],
+      "imagePath": "assets/snap-specs-ar.svg",
+      "imageWidth": 1200,
+      "imageHeight": 760,
+      "imageSourceUrl": "https://www.spectacles.com/spectacles/",
+      "primarySourceUrl": "https://www.spectacles.com/spectacles/",
+      "evidenceStrength": "confirmed product · official/developer surface",
+      "whyCover": "It changes the interface boundary: glasses become a wearable AI app platform, not only a camera accessory."
+    },
+    "zhPath": "/ai-daily/2026-06-19/zh/",
+    "enPath": "/ai-daily/2026-06-19/en/",
+    "sourcesPath": "/ai-daily/2026-06-19/sources.md"
+  },
+  {
     "date": "2026-06-17",
     "zhTitle": "默认入口正在从 App 转回系统、桌面与穿戴层",
     "enTitle": "Default AI entry points are moving back into systems, desktops, and wearables",
