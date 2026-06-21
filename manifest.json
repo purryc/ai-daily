@@ -1,5 +1,56 @@
 [
   {
+    "date": "2026-06-21",
+    "zhTitle": "周日版：AI 入口继续向眼镜、开发者工具、消息 agent 与可授权软件层聚合",
+    "enTitle": "Sunday issue: AI entry points keep moving into glasses, developer stacks, messaging agents, and authorized software layers",
+    "zhSummary": "今天的产品面继续集中在可佩戴显示、XR 开发者栈、商家消息 agent、可授权浏览器/电脑操作与野生眼镜市场。强信号不是模型参数，而是用户如何触发、授权、撤销、接管和审计 AI 动作。",
+    "enSummary": "Today's product surface remains concentrated in wearable displays, XR developer stacks, business messaging agents, authorized browser/computer operation, and the wild glasses market. The strong signal is not model size; it is how users trigger, authorize, undo, take over, and audit AI actions.",
+    "tags": [
+      "HCI",
+      "AI hardware",
+      "smart glasses",
+      "agentic commerce",
+      "Android XR",
+      "developer surface",
+      "wearable AI"
+    ],
+    "sourceTypes": [
+      "official",
+      "developer docs",
+      "reviews",
+      "community",
+      "startup",
+      "research",
+      "patent",
+      "China"
+    ],
+    "coverStory": {
+      "topicId": "snap-specs-standalone-ar",
+      "zhTitle": "Snap Specs 仍是周日版封面：AI 眼镜要证明自己能关闭日常任务环",
+      "enTitle": "Snap Specs remains the Sunday cover: AI glasses must prove they can close daily task loops",
+      "zhSummary": [
+        "周日 source sweep 没有把未经证实的新硬件传闻提升为产品事实；封面保留最强的确认产品与开发者 surface。",
+        "Snap Specs 的意义是把 AR display、相机、语音、空间输入和 Lens developer surface 放进同一个 wearable loop。",
+        "今天的判断标准是用户控制权：能否看见系统在做什么、能否撤销、能否在人类接管时保持上下文。"
+      ],
+      "enSummary": [
+        "The Sunday source sweep did not promote unverified hardware rumors into product fact; the cover keeps the strongest confirmed product and developer surface.",
+        "The meaning of Snap Specs is that AR display, camera, voice, spatial input, and the Lens developer surface sit inside one wearable loop.",
+        "Today's evaluation standard is user control: whether the system shows what it is doing, allows undo, and preserves context when a human takes over."
+      ],
+      "imagePath": "assets/snap-specs-ar.svg",
+      "imageWidth": 1200,
+      "imageHeight": 760,
+      "imageSourceUrl": "https://www.spectacles.com/",
+      "primarySourceUrl": "https://www.spectacles.com/",
+      "evidenceStrength": "confirmed product · official/developer surface",
+      "whyCover": "It changes the interface boundary: glasses become a wearable AI app platform, not only a camera accessory."
+    },
+    "zhPath": "/ai-daily/2026-06-21/zh/",
+    "enPath": "/ai-daily/2026-06-21/en/",
+    "sourcesPath": "/ai-daily/2026-06-21/sources.md"
+  },
+  {
     "date": "2026-06-20",
     "zhTitle": "周末版：AI 入口继续向眼镜、开发者工具和可执行软件层聚合",
     "enTitle": "Weekend edition: AI entry keeps clustering around glasses, developer tools, and operable software layers",
