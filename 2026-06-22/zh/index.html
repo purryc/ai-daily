@@ -1,0 +1,1654 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>周一版：AI 眼镜进入平台压力测试，桌面与消息 agent 开始接管真实流程 · AI Daily</title>
+    <meta name="description" content="今天的产品信号集中在三条线：眼镜硬件从拍摄/显示配件变成 AI 入口；桌面 agent 开始真实操作 Windows 应用；消息 agent 进入 WhatsApp、Apple Messages 等高频线程。" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2216%22%20fill%3D%22%232f2234%22%2F%3E%3Ctext%20x%3D%2213%22%20y%3D%2242%22%20font-family%3D%22Arial%22%20font-size%3D%2226%22%20font-weight%3D%22900%22%20fill%3D%22%23fff%22%3EAI%3C%2Ftext%3E%3C%2Fsvg%3E" />
+    <link rel="stylesheet" href="../../assets/site.css" />
+  </head>
+  <body>
+
+    <main class="deck-page">
+      <nav class="deck-nav" aria-label="Issue navigation">
+        <a class="brand" href="/ai-daily/">AI Daily</a>
+        <div class="deck-nav-actions">
+          <a class="active" href="/ai-daily/2026-06-22/zh/">中文</a>
+          <a class="" href="/ai-daily/2026-06-22/en/">English</a>
+          <a href="/ai-daily/2026-06-22/sources.md">来源总表</a>
+          <a class="primary" href="../ai-daily-2026-06-22-zh.pdf" download>下载 PDF</a>
+        </div>
+      </nav>
+
+      <section class="deck-stage" data-deck aria-label="周一版：AI 眼镜进入平台压力测试，桌面与消息 agent 开始接管真实流程 · AI Daily">
+
+    <section class="deck-slide cover-slide is-active" id="slide-01" data-slide>
+
+    <div class="slide-chrome">
+      <span>01</span>
+      <span>2026-06-22 · America/Toronto</span>
+    </div>
+      <div class="cover-copy">
+        <p class="eyebrow">AI Daily</p>
+        <h1>周一版：AI 眼镜进入平台压力测试，桌面与消息 agent 开始接管真实流程</h1>
+        <div class="hero-lines">
+          <p>今天最强信号来自眼镜：Snap Specs、XREAL Aura、讯飞 AI 眼镜和 VisionClaw 研究共同指向同一个问题：AI 的默认入口是否要移到脸上。</p><p>这不是“多一个屏幕”，而是权限、旁人隐私、佩戴时长、热/电、开发者供给和失败接管同时上桌。</p><p>本期把 confirmed product、startup signal、research signal、patent signal 分开，避免把愿景、论文或社区热度写成发布事实。</p>
+        </div>
+        <div class="chip-row"><span>HCI</span><span>AI hardware</span><span>smart glasses</span><span>agentic desktop</span><span>business messaging</span><span>Android XR</span><span>wearable AI</span></div>
+        <p class="source-row"><strong>来源：</strong> <a href="https://www.spectacles.com/" target="_blank" rel="noreferrer">封面原文</a></p>
+      </div>
+      <figure class="cover-visual">
+        <img src="../assets/snap-specs-consumer-ar.svg" alt="封面故事：AI 眼镜从“拍摄配件”变成“眼前操作系统”的第一轮压力测试" width="1200" height="760" decoding="async" />
+        <figcaption>confirmed product · official/developer/review sources · AI glasses concentrate today’s product-interface questions into one visible, wearable boundary.</figcaption>
+      </figure>
+    </section>
+    <section class="deck-slide agenda-slide" id="slide-02" data-slide>
+
+    <div class="slide-chrome">
+      <span>02</span>
+      <span>今日导航</span>
+    </div>
+      <div class="agenda-copy">
+        <p class="eyebrow">先看结构，再看证据</p>
+        <h2>今天按八条线读：官方产品、媒体评测、社区摩擦、野生产品、研究、专利、中国与海外。</h2>
+      </div>
+      <div class="agenda-grid">
+        <a class="agenda-card" href="#slide-03" data-go-slide="slide-03">
+          <span>大厂官方</span>
+          <strong>Official Desk / 大厂官方</strong>
+          <em>3 条</em>
+        </a>
+        <a class="agenda-card" href="#slide-13" data-go-slide="slide-13">
+          <span>媒体/评测</span>
+          <strong>Review Desk / 媒体与评测</strong>
+          <em>1 条</em>
+        </a>
+        <a class="agenda-card" href="#slide-17" data-go-slide="slide-17">
+          <span>社区摩擦</span>
+          <strong>Community Friction / 社区摩擦</strong>
+          <em>1 条</em>
+        </a>
+        <a class="agenda-card" href="#slide-19" data-go-slide="slide-19">
+          <span>野生信号</span>
+          <strong>Wild Desk / 野生信号</strong>
+          <em>1 条</em>
+        </a>
+        <a class="agenda-card" href="#slide-23" data-go-slide="slide-23">
+          <span>论文</span>
+          <strong>Research Watch / 论文</strong>
+          <em>1 条</em>
+        </a>
+        <a class="agenda-card" href="#slide-27" data-go-slide="slide-27">
+          <span>专利</span>
+          <strong>Patent Watch / 专利</strong>
+          <em>1 条</em>
+        </a>
+        <a class="agenda-card" href="#slide-29" data-go-slide="slide-29">
+          <span>中国</span>
+          <strong>China / Global Compare</strong>
+          <em>1 条</em>
+        </a>
+        <a class="agenda-card" href="#slide-33" data-go-slide="slide-33">
+          <span>海外</span>
+          <strong>Global Signals</strong>
+          <em>1 条</em>
+        </a></div>
+    </section>
+    <section class="deck-slide section-slide" id="slide-03" data-slide data-section="official">
+
+    <div class="slide-chrome">
+      <span>03</span>
+      <span>大厂官方</span>
+    </div>
+      <p class="eyebrow">大厂官方</p>
+      <h2>Official Desk / 大厂官方</h2>
+      <div class="section-topic-list">
+
+              <div>
+                <span>confirmed product · high / official product plus media launch details</span>
+                <strong>Snap Specs：消费级 AR 眼镜把 AI 入口推到“眼前的操作系统”</strong>
+              </div>
+              <div>
+                <span>developer surface · high / official silicon platform and developer program signal</span>
+                <strong>Snapdragon Reality Elite：XR 眼镜竞争转向端侧 AI 与热/电约束</strong>
+              </div>
+              <div>
+                <span>developer surface · high / official release notes and product page</span>
+                <strong>Codex Windows computer use：软件 agent 从代码沙盒走向真实桌面动作</strong>
+              </div>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-04" data-slide data-section="official" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>04</span>
+      <span>Official Desk / 大厂官方 · 1/3</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">大厂官方</span>
+            <span>confirmed product · high / official product plus media launch details</span>
+            <span>accessed 2026-06-22</span>
+          </div>
+          <h2 class="dossier-title">Snap Specs：消费级 AR 眼镜把 AI 入口推到“眼前的操作系统”</h2>
+          <p class="dossier-lead">产品: Snap Specs. Snap 把 Specs 定位为 see-through AR glasses 中的 wearable computer，来源显示有预订、秋季发货窗口、Snap OS / Lens developer surface，以及录制提示和独立 AR 使用场景。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://www.spectacles.com/" target="_blank" rel="noreferrer" aria-label="自绘机制图：Snap Specs · AR display · camera/recording cue · Lens developer surface；不是产品渲染">
+        <img src="../assets/snap-specs-consumer-ar.svg" alt="Snap Specs 机制图" width="1200" height="760" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>自绘机制图：Snap Specs · AR display · camera/recording cue · Lens developer surface；不是产品渲染</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>产品是什么</span>
+                  <p>确认产品：see-through AR 眼镜/可穿戴电脑。来源显示预订、fall 2026 发货窗口、Snap OS / Lens developer surface、相机、显示和录制提示；可靠报道给出 2,195 美元、200 美元押金、美国/英国/法国等信息。来源未写明的价格、重量、电池、芯片、地区、发货、API 版本或用户评价均标 source not stated。产品判断只看当前可操作 surface，不把愿景当事实。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>怎么用</span>
+                  <p>用户戴上眼镜后，通过语音、空间输入、相机和 Lens 应用做导航、翻译、空间测量、第一视角记录或轻量任务；手机退到次要位置，眼前显示负责反馈，旁人通过机身提示理解录制状态。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>规格 / 系统栈</span>
+                  <p>栈包括 Snap Specs product page、Spectacles developer docs、Snap OS / Lens ecosystem、see-through display、camera/spatial input。两颗 Snapdragon、约四小时电池等数字按媒体报道标注；最终规格以官方页面为准。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://www.spectacles.com/" target="_blank" rel="noreferrer">Snap Specs official page</a><a href="https://developers.snap.com/spectacles" target="_blank" rel="noreferrer">Snap Spectacles developers</a><a href="https://www.theverge.com/tech/950492/snap-specs-ar-glasses-launch-date-preorder" target="_blank" rel="noreferrer">The Verge: Snap Specs launch details</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-05" data-slide data-section="official" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>05</span>
+      <span>Official Desk / 大厂官方 · 2/3</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">大厂官方</span>
+            <span>confirmed product · high / official product plus media launch details</span>
+            <span>accessed 2026-06-22</span>
+          </div>
+          <h2 class="dossier-title">Snap Specs：消费级 AR 眼镜把 AI 入口推到“眼前的操作系统”</h2>
+          <p class="dossier-lead">产品: Snap Specs. Snap 把 Specs 定位为 see-through AR glasses 中的 wearable computer，来源显示有预订、秋季发货窗口、Snap OS / Lens developer surface，以及录制提示和独立 AR 使用场景。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://www.spectacles.com/" target="_blank" rel="noreferrer" aria-label="自绘机制图：Snap Specs · AR display · camera/recording cue · Lens developer surface；不是产品渲染">
+        <img src="../assets/snap-specs-consumer-ar.svg" alt="Snap Specs 机制图" width="1200" height="760" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>自绘机制图：Snap Specs · AR display · camera/recording cue · Lens developer surface；不是产品渲染</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>使用场景</span>
+                  <p>适合步行导航、实时翻译、空间测量、开发者 Lens 原型、短视频/记录和把手机上的短任务移到眼前。关键用例不是炫技，而是用户是否愿意在真实一天里重复使用。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>解决痛点</span>
+                  <p>解决手机 AR 的启动摩擦：拿手机、解锁、打开 App、对准现实、再描述环境。眼镜把输入和环境绑在一起，但如果佩戴、隐私或电池成本太高，痛点会反向增加。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>新技术</span>
+                  <p>新技术信号是消费级 AR display、AI/视觉、OS shell、developer Lens runtime 与隐私提示合在一个 wearable platform。它从 camera accessory 向 wearable OS 候选移动。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://www.spectacles.com/" target="_blank" rel="noreferrer">Snap Specs official page</a><a href="https://developers.snap.com/spectacles" target="_blank" rel="noreferrer">Snap Spectacles developers</a><a href="https://www.theverge.com/tech/950492/snap-specs-ar-glasses-launch-date-preorder" target="_blank" rel="noreferrer">The Verge: Snap Specs launch details</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-06" data-slide data-section="official" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>06</span>
+      <span>Official Desk / 大厂官方 · 3/3</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">大厂官方</span>
+            <span>confirmed product · high / official product plus media launch details</span>
+            <span>accessed 2026-06-22</span>
+          </div>
+          <h2 class="dossier-title">Snap Specs：消费级 AR 眼镜把 AI 入口推到“眼前的操作系统”</h2>
+          <p class="dossier-lead">产品: Snap Specs. Snap 把 Specs 定位为 see-through AR glasses 中的 wearable computer，来源显示有预订、秋季发货窗口、Snap OS / Lens developer surface，以及录制提示和独立 AR 使用场景。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://www.spectacles.com/" target="_blank" rel="noreferrer" aria-label="自绘机制图：Snap Specs · AR display · camera/recording cue · Lens developer surface；不是产品渲染">
+        <img src="../assets/snap-specs-consumer-ar.svg" alt="Snap Specs 机制图" width="1200" height="760" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>自绘机制图：Snap Specs · AR display · camera/recording cue · Lens developer surface；不是产品渲染</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>可用性</span>
+                  <p>来源显示已开放预订并指向 fall 2026；地区、价格和押金按可靠报道记录。售后、量产批次、开发者资格和长期 app 供给 source not stated。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>限制 / 未知</span>
+                  <p>未知是高价、外观、全天电池、热量、旁人隐私、开发者供给和失败反馈。评测要看真实佩戴时间、录制提示可见性、显示可读性和是否真的少用手机。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>产品判断</span>
+                  <p>Verdict：今天的封面产品。Specs 把 AI 眼镜推进可购买/可开发阶段，但成败取决于日常闭环和社会可接受性，而不是发布视频里的 AR 效果。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://www.spectacles.com/" target="_blank" rel="noreferrer">Snap Specs official page</a><a href="https://developers.snap.com/spectacles" target="_blank" rel="noreferrer">Snap Spectacles developers</a><a href="https://www.theverge.com/tech/950492/snap-specs-ar-glasses-launch-date-preorder" target="_blank" rel="noreferrer">The Verge: Snap Specs launch details</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-07" data-slide data-section="official" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>07</span>
+      <span>Official Desk / 大厂官方 · 1/3</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">大厂官方</span>
+            <span>developer surface · high / official silicon platform and developer program signal</span>
+            <span>accessed 2026-06-22</span>
+          </div>
+          <h2 class="dossier-title">Snapdragon Reality Elite：XR 眼镜竞争转向端侧 AI 与热/电约束</h2>
+          <p class="dossier-lead">产品: Snapdragon Reality Elite. Qualcomm 发布 Reality Elite XR platform，并把 XREAL Aura 列为首批设备信号；官方材料强调性能、NPU、显示、效率和 START developer acceleration。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://www.qualcomm.com/news/releases/2026/06/qualcomm-takes-spatial-computing-into-the-ai-era-with-snapdragon" target="_blank" rel="noreferrer" aria-label="自绘平台图：NPU · GPU/CPU · display pipeline · START developer tools；基于 Qualcomm 来源">
+        <img src="../assets/qualcomm-reality-elite-2026.svg" alt="Reality Elite 平台图" width="1200" height="760" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>自绘平台图：NPU · GPU/CPU · display pipeline · START developer tools；基于 Qualcomm 来源</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>产品是什么</span>
+                  <p>开发者/硬件平台 surface：面向 XR、AI wearable 与空间计算设备的芯片平台。官方发布与 AWE 来源把 XREAL Aura 列为首批设备信号；媒体记录 GPU/CPU/NPU、48 TOPS、4.4K-per-eye 等指标。来源未写明的价格、重量、电池、芯片、地区、发货、API 版本或用户评价均标 source not stated。产品判断只看当前可操作 surface，不把愿景当事实。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>怎么用</span>
+                  <p>用户不会直接操作芯片，但会感受到启动速度、空间追踪、手势反馈、翻译延迟、显示稳定性和热降频。它是眼镜交互是否顺滑的底层约束。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>规格 / 系统栈</span>
+                  <p>栈包括 Snapdragon Reality Elite、XR display pipeline、AI/NPU、本地传感处理、低功耗和 Snapdragon START developer acceleration。OEM 调校、成本和量产形态 source not stated。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://www.qualcomm.com/news/releases/2026/06/qualcomm-takes-spatial-computing-into-the-ai-era-with-snapdragon" target="_blank" rel="noreferrer">Qualcomm Snapdragon Reality Elite release</a><a href="https://www.qualcomm.com/snapdragon/news/snapdragon-reality-elite-takes-center-stage-at-awe-2026" target="_blank" rel="noreferrer">Qualcomm AWE 2026 Reality Elite recap</a><a href="https://www.androidcentral.com/gaming/virtual-reality/get-it-reserved-xreals-aura-smart-glasses-refresh-the-game-with-powerful-android-xr-and-ai" target="_blank" rel="noreferrer">Android Central hands-on/report: XREAL Aura</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-08" data-slide data-section="official" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>08</span>
+      <span>Official Desk / 大厂官方 · 2/3</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">大厂官方</span>
+            <span>developer surface · high / official silicon platform and developer program signal</span>
+            <span>accessed 2026-06-22</span>
+          </div>
+          <h2 class="dossier-title">Snapdragon Reality Elite：XR 眼镜竞争转向端侧 AI 与热/电约束</h2>
+          <p class="dossier-lead">产品: Snapdragon Reality Elite. Qualcomm 发布 Reality Elite XR platform，并把 XREAL Aura 列为首批设备信号；官方材料强调性能、NPU、显示、效率和 START developer acceleration。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://www.qualcomm.com/news/releases/2026/06/qualcomm-takes-spatial-computing-into-the-ai-era-with-snapdragon" target="_blank" rel="noreferrer" aria-label="自绘平台图：NPU · GPU/CPU · display pipeline · START developer tools；基于 Qualcomm 来源">
+        <img src="../assets/qualcomm-reality-elite-2026.svg" alt="Reality Elite 平台图" width="1200" height="760" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>自绘平台图：NPU · GPU/CPU · display pipeline · START developer tools；基于 Qualcomm 来源</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>使用场景</span>
+                  <p>场景包括光学透视眼镜、混合现实头显、AI avatar、live translation、对象生成、空间协作和开发者 reference designs。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>解决痛点</span>
+                  <p>它解决 XR 长期卡在延迟、发热、重量、电池和端侧模型能力不足的问题。HCI 再好，如果热和电失败，用户不会全天佩戴。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>新技术</span>
+                  <p>新技术信号是 XR silicon 把 AI acceleration 与显示/传感/低功耗协同，而不是只追移动 SoC 峰值。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://www.qualcomm.com/news/releases/2026/06/qualcomm-takes-spatial-computing-into-the-ai-era-with-snapdragon" target="_blank" rel="noreferrer">Qualcomm Snapdragon Reality Elite release</a><a href="https://www.qualcomm.com/snapdragon/news/snapdragon-reality-elite-takes-center-stage-at-awe-2026" target="_blank" rel="noreferrer">Qualcomm AWE 2026 Reality Elite recap</a><a href="https://www.androidcentral.com/gaming/virtual-reality/get-it-reserved-xreals-aura-smart-glasses-refresh-the-game-with-powerful-android-xr-and-ai" target="_blank" rel="noreferrer">Android Central hands-on/report: XREAL Aura</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-09" data-slide data-section="official" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>09</span>
+      <span>Official Desk / 大厂官方 · 3/3</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">大厂官方</span>
+            <span>developer surface · high / official silicon platform and developer program signal</span>
+            <span>accessed 2026-06-22</span>
+          </div>
+          <h2 class="dossier-title">Snapdragon Reality Elite：XR 眼镜竞争转向端侧 AI 与热/电约束</h2>
+          <p class="dossier-lead">产品: Snapdragon Reality Elite. Qualcomm 发布 Reality Elite XR platform，并把 XREAL Aura 列为首批设备信号；官方材料强调性能、NPU、显示、效率和 START developer acceleration。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://www.qualcomm.com/news/releases/2026/06/qualcomm-takes-spatial-computing-into-the-ai-era-with-snapdragon" target="_blank" rel="noreferrer" aria-label="自绘平台图：NPU · GPU/CPU · display pipeline · START developer tools；基于 Qualcomm 来源">
+        <img src="../assets/qualcomm-reality-elite-2026.svg" alt="Reality Elite 平台图" width="1200" height="760" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>自绘平台图：NPU · GPU/CPU · display pipeline · START developer tools；基于 Qualcomm 来源</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>可用性</span>
+                  <p>平台已发布并绑定 AWE 2026 设备信号；消费者可用性取决于 XREAL 等 OEM 上市，不能从芯片发布直接推断整机表现。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>限制 / 未知</span>
+                  <p>未知是实机热设计、OEM 成本、开发者工具成熟度、长期佩戴表现和小体积眼镜能否保持标称性能。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>产品判断</span>
+                  <p>Verdict：Reality Elite 是底层产品信号。AI 眼镜的 HCI 上限正在被芯片热、电、延迟和开发者工具共同定义。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://www.qualcomm.com/news/releases/2026/06/qualcomm-takes-spatial-computing-into-the-ai-era-with-snapdragon" target="_blank" rel="noreferrer">Qualcomm Snapdragon Reality Elite release</a><a href="https://www.qualcomm.com/snapdragon/news/snapdragon-reality-elite-takes-center-stage-at-awe-2026" target="_blank" rel="noreferrer">Qualcomm AWE 2026 Reality Elite recap</a><a href="https://www.androidcentral.com/gaming/virtual-reality/get-it-reserved-xreals-aura-smart-glasses-refresh-the-game-with-powerful-android-xr-and-ai" target="_blank" rel="noreferrer">Android Central hands-on/report: XREAL Aura</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-10" data-slide data-section="official" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>10</span>
+      <span>Official Desk / 大厂官方 · 1/3</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">大厂官方</span>
+            <span>developer surface · high / official release notes and product page</span>
+            <span>accessed 2026-06-22</span>
+          </div>
+          <h2 class="dossier-title">Codex Windows computer use：软件 agent 从代码沙盒走向真实桌面动作</h2>
+          <p class="dossier-lead">产品: Codex Windows computer use. OpenAI release notes 写到 Codex app 支持 Windows computer use / remote control，用户可让 Codex 看、点击、输入 Windows 应用，并从移动端或 Mac 继续操控线程。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes" target="_blank" rel="noreferrer" aria-label="自绘流程图：Windows host · Codex sees/clicks/types · mobile/Mac steering；基于 OpenAI release notes">
+        <img src="../assets/openai-codex-windows-computer-use.svg" alt="Codex Windows computer use 流程图" width="1200" height="760" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>自绘流程图：Windows host · Codex sees/clicks/types · mobile/Mac steering；基于 OpenAI release notes</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>产品是什么</span>
+                  <p>确认产品/开发者 surface：OpenAI release notes 写到 Codex app 支持 Windows computer use 与 remote control，eligible users 可让 Codex 看、点击、输入 Windows 应用，并跨设备继续线程。来源未写明的价格、重量、电池、芯片、地区、发货、API 版本或用户评价均标 source not stated。产品判断只看当前可操作 surface，不把愿景当事实。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>怎么用</span>
+                  <p>用户在 Windows 主机上运行项目、应用和本地服务，Codex 负责看屏幕、点击、输入；用户可从 ChatGPT mobile 或 Mac 查看进度、回复提示和调整方向。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>规格 / 系统栈</span>
+                  <p>栈包括 Codex app、Windows host、computer use、remote control、本地文件/terminal/app server context。企业默认开关、账号资格和 Windows 细节以 release notes 为准。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes" target="_blank" rel="noreferrer">OpenAI ChatGPT release notes: Codex computer use on Windows</a><a href="https://openai.com/index/introducing-the-codex-app/" target="_blank" rel="noreferrer">OpenAI Codex app overview</a><a href="https://developers.openai.com/api/docs/deprecations" target="_blank" rel="noreferrer">OpenAI API deprecations: Agent Builder and ChatKit migration</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-11" data-slide data-section="official" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>11</span>
+      <span>Official Desk / 大厂官方 · 2/3</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">大厂官方</span>
+            <span>developer surface · high / official release notes and product page</span>
+            <span>accessed 2026-06-22</span>
+          </div>
+          <h2 class="dossier-title">Codex Windows computer use：软件 agent 从代码沙盒走向真实桌面动作</h2>
+          <p class="dossier-lead">产品: Codex Windows computer use. OpenAI release notes 写到 Codex app 支持 Windows computer use / remote control，用户可让 Codex 看、点击、输入 Windows 应用，并从移动端或 Mac 继续操控线程。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes" target="_blank" rel="noreferrer" aria-label="自绘流程图：Windows host · Codex sees/clicks/types · mobile/Mac steering；基于 OpenAI release notes">
+        <img src="../assets/openai-codex-windows-computer-use.svg" alt="Codex Windows computer use 流程图" width="1200" height="760" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>自绘流程图：Windows host · Codex sees/clicks/types · mobile/Mac steering；基于 OpenAI release notes</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>使用场景</span>
+                  <p>场景包括 UI 调试、Windows-only app 测试、浏览器检查、安装器验证、远程确认长任务和离开主机后的 steering。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>解决痛点</span>
+                  <p>它解决 agent 只能在代码沙盒工作、无法触达真实应用状态的问题，也减少用户必须守在机器前等待的问题。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>新技术</span>
+                  <p>新技术信号是 agent harness 与真实 GUI 操作合流：see/click/type 进入工程工作流，而不只是生成补丁。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes" target="_blank" rel="noreferrer">OpenAI ChatGPT release notes: Codex computer use on Windows</a><a href="https://openai.com/index/introducing-the-codex-app/" target="_blank" rel="noreferrer">OpenAI Codex app overview</a><a href="https://developers.openai.com/api/docs/deprecations" target="_blank" rel="noreferrer">OpenAI API deprecations: Agent Builder and ChatKit migration</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-12" data-slide data-section="official" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>12</span>
+      <span>Official Desk / 大厂官方 · 3/3</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">大厂官方</span>
+            <span>developer surface · high / official release notes and product page</span>
+            <span>accessed 2026-06-22</span>
+          </div>
+          <h2 class="dossier-title">Codex Windows computer use：软件 agent 从代码沙盒走向真实桌面动作</h2>
+          <p class="dossier-lead">产品: Codex Windows computer use. OpenAI release notes 写到 Codex app 支持 Windows computer use / remote control，用户可让 Codex 看、点击、输入 Windows 应用，并从移动端或 Mac 继续操控线程。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes" target="_blank" rel="noreferrer" aria-label="自绘流程图：Windows host · Codex sees/clicks/types · mobile/Mac steering；基于 OpenAI release notes">
+        <img src="../assets/openai-codex-windows-computer-use.svg" alt="Codex Windows computer use 流程图" width="1200" height="760" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>自绘流程图：Windows host · Codex sees/clicks/types · mobile/Mac steering；基于 OpenAI release notes</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>可用性</span>
+                  <p>OpenAI release notes 说明 eligible users 可用；企业开关、地区、账户等级和具体 Windows 版本 source not stated 或以官方说明为准。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>限制 / 未知</span>
+                  <p>限制是权限、安全、误点击、长任务审计、远程接管延迟、敏感数据可见性和 GUI 操作后的复盘。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>产品判断</span>
+                  <p>Verdict：这是桌面 agent 从代码助手向真实电脑协作者转移的强信号；授权、反馈和撤销必须成为默认体验。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes" target="_blank" rel="noreferrer">OpenAI ChatGPT release notes: Codex computer use on Windows</a><a href="https://openai.com/index/introducing-the-codex-app/" target="_blank" rel="noreferrer">OpenAI Codex app overview</a><a href="https://developers.openai.com/api/docs/deprecations" target="_blank" rel="noreferrer">OpenAI API deprecations: Agent Builder and ChatKit migration</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide section-slide" id="slide-13" data-slide data-section="reviews">
+
+    <div class="slide-chrome">
+      <span>13</span>
+      <span>媒体/评测</span>
+    </div>
+      <p class="eyebrow">媒体/评测</p>
+      <h2>Review Desk / 媒体与评测</h2>
+      <div class="section-topic-list">
+
+              <div>
+                <span>confirmed product · high / official rollout plus media coverage</span>
+                <strong>Meta Business Agent：WhatsApp 把商家客服 agent 变成默认消息入口</strong>
+              </div>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-14" data-slide data-section="reviews" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>14</span>
+      <span>Review Desk / 媒体与评测 · 1/3</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">媒体/评测</span>
+            <span>confirmed product · high / official rollout plus media coverage</span>
+            <span>accessed 2026-06-22</span>
+          </div>
+          <h2 class="dossier-title">Meta Business Agent：WhatsApp 把商家客服 agent 变成默认消息入口</h2>
+          <p class="dossier-lead">产品: Meta Business Agent. Meta 与 WhatsApp Business 来源写到 Business Agent 可回答问题、推荐产品、预约、qualify leads、close sales，并可让团队成员接管。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://whatsappbusiness.com/blog/introducing-meta-business-agent-ai/" target="_blank" rel="noreferrer" aria-label="自绘消息流：customer chat · catalog recommendation · booking · human handoff；基于 Meta/WhatsApp 来源">
+        <img src="../assets/meta-business-agent-whatsapp-2026.svg" alt="Meta Business Agent 消息流" width="1200" height="760" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>自绘消息流：customer chat · catalog recommendation · booking · human handoff；基于 Meta/WhatsApp 来源</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>产品是什么</span>
+                  <p>确认产品：Meta/WhatsApp Business 来源写到 Business Agent 全球扩展，可回答问题、推荐产品、预约、qualify leads、close sales，并让团队成员接管。来源未写明的价格、重量、电池、芯片、地区、发货、API 版本或用户评价均标 source not stated。产品判断只看当前可操作 surface，不把愿景当事实。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>怎么用</span>
+                  <p>顾客在 WhatsApp 搜索或聊天里触达商家，agent 读取商家知识和目录，推荐商品或预约服务；复杂问题切给人工，商家侧可看夜间 briefings/insights。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>规格 / 系统栈</span>
+                  <p>栈包括 WhatsApp Business、Messenger/Instagram、Meta Business Agent、商家目录、企业基础设施接入和未来 paid subscription 语言；具体 token/价格以来源为准。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://about.fb.com/news/2026/06/meta-business-agent/" target="_blank" rel="noreferrer">Meta: Be There for Every Customer With Meta Business Agent</a><a href="https://whatsappbusiness.com/blog/introducing-meta-business-agent-ai/" target="_blank" rel="noreferrer">WhatsApp Business: Introducing Meta Business Agent</a><a href="https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/" target="_blank" rel="noreferrer">TechCrunch: Meta AI agent for WhatsApp Business globally available</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-15" data-slide data-section="reviews" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>15</span>
+      <span>Review Desk / 媒体与评测 · 2/3</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">媒体/评测</span>
+            <span>confirmed product · high / official rollout plus media coverage</span>
+            <span>accessed 2026-06-22</span>
+          </div>
+          <h2 class="dossier-title">Meta Business Agent：WhatsApp 把商家客服 agent 变成默认消息入口</h2>
+          <p class="dossier-lead">产品: Meta Business Agent. Meta 与 WhatsApp Business 来源写到 Business Agent 可回答问题、推荐产品、预约、qualify leads、close sales，并可让团队成员接管。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://whatsappbusiness.com/blog/introducing-meta-business-agent-ai/" target="_blank" rel="noreferrer" aria-label="自绘消息流：customer chat · catalog recommendation · booking · human handoff；基于 Meta/WhatsApp 来源">
+        <img src="../assets/meta-business-agent-whatsapp-2026.svg" alt="Meta Business Agent 消息流" width="1200" height="760" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>自绘消息流：customer chat · catalog recommendation · booking · human handoff；基于 Meta/WhatsApp 来源</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>使用场景</span>
+                  <p>场景包括售前问答、尺码/库存咨询、预约、本地服务、lead qualification、夜间客服和跨渠道 follow-up。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>解决痛点</span>
+                  <p>它解决小商家无法 24/7 回复、客服培训慢、目录信息分散和销售线索漏接的问题。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>新技术</span>
+                  <p>新技术是 agent 进入高频消息 app 的交易流程，连接目录、语气、知识、接管和商业发现，而不是独立 chatbot。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://about.fb.com/news/2026/06/meta-business-agent/" target="_blank" rel="noreferrer">Meta: Be There for Every Customer With Meta Business Agent</a><a href="https://whatsappbusiness.com/blog/introducing-meta-business-agent-ai/" target="_blank" rel="noreferrer">WhatsApp Business: Introducing Meta Business Agent</a><a href="https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/" target="_blank" rel="noreferrer">TechCrunch: Meta AI agent for WhatsApp Business globally available</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-16" data-slide data-section="reviews" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>16</span>
+      <span>Review Desk / 媒体与评测 · 3/3</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">媒体/评测</span>
+            <span>confirmed product · high / official rollout plus media coverage</span>
+            <span>accessed 2026-06-22</span>
+          </div>
+          <h2 class="dossier-title">Meta Business Agent：WhatsApp 把商家客服 agent 变成默认消息入口</h2>
+          <p class="dossier-lead">产品: Meta Business Agent. Meta 与 WhatsApp Business 来源写到 Business Agent 可回答问题、推荐产品、预约、qualify leads、close sales，并可让团队成员接管。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://whatsappbusiness.com/blog/introducing-meta-business-agent-ai/" target="_blank" rel="noreferrer" aria-label="自绘消息流：customer chat · catalog recommendation · booking · human handoff；基于 Meta/WhatsApp 来源">
+        <img src="../assets/meta-business-agent-whatsapp-2026.svg" alt="Meta Business Agent 消息流" width="1200" height="760" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>自绘消息流：customer chat · catalog recommendation · booking · human handoff；基于 Meta/WhatsApp 来源</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>可用性</span>
+                  <p>官方写到全球扩展与 free getting started，未来进入 paid subscription offerings；具体国家、收费和企业集成门槛 source not stated。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>限制 / 未知</span>
+                  <p>未知是误推荐、退款责任、合规审计、AI/人工身份披露、商家知识更新、跨语言质量和顾客是否信任机器销售。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>产品判断</span>
+                  <p>Verdict：这是最实际的 agent commerce surface，不需要新硬件，直接在每天使用的消息线程里改变购买和客服。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://about.fb.com/news/2026/06/meta-business-agent/" target="_blank" rel="noreferrer">Meta: Be There for Every Customer With Meta Business Agent</a><a href="https://whatsappbusiness.com/blog/introducing-meta-business-agent-ai/" target="_blank" rel="noreferrer">WhatsApp Business: Introducing Meta Business Agent</a><a href="https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/" target="_blank" rel="noreferrer">TechCrunch: Meta AI agent for WhatsApp Business globally available</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide section-slide" id="slide-17" data-slide data-section="community">
+
+    <div class="slide-chrome">
+      <span>17</span>
+      <span>社区摩擦</span>
+    </div>
+      <p class="eyebrow">社区摩擦</p>
+      <h2>Community Friction / 社区摩擦</h2>
+      <div class="section-topic-list">
+
+              <div>
+                <span>review/community friction · low-medium / community discussion only</span>
+                <strong>社区摩擦扫描：智能眼镜热度高，但用户仍在问电池、隐私、兼容和是否真会戴</strong>
+              </div>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-18" data-slide data-section="community" data-dossier-kind="scan">
+
+    <div class="slide-chrome">
+      <span>18</span>
+      <span>Community Friction / 社区摩擦 · 1/1</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">社区摩擦</span>
+            <span>review/community friction · low-medium / community discussion only</span>
+            <span>accessed 2026-06-22</span>
+          </div>
+          <h2 class="dossier-title">社区摩擦扫描：智能眼镜热度高，但用户仍在问电池、隐私、兼容和是否真会戴</h2>
+          <p class="dossier-lead">产品: Smart glasses community friction. Reddit r/SmartGlasses 和 r/Xreal 讨论显示，用户关注 Q4 2026 可用性、Android XR、iOS/PC 支持、真实佩戴与兼容性；这只能作为 friction signal。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://www.reddit.com/r/SmartGlasses/comments/1pxrb2f/upcoming_arai_smart_glasses_in_2026/" target="_blank" rel="noreferrer" aria-label="自绘 friction radar：battery · privacy · compatibility · wearability；基于 Reddit 扫描">
+        <img src="../assets/community-smart-glasses-friction-2026.svg" alt="智能眼镜社区摩擦图" width="1200" height="760" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>自绘 friction radar：battery · privacy · compatibility · wearability；基于 Reddit 扫描</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>产品是什么</span>
+                  <p>Source-lane scan，不是确认产品。今天扫描 Reddit r/SmartGlasses 与 r/Xreal，看到用户主要追问 Aura / AR+AI 眼镜的上市窗口、Android XR、iOS/PC 支持、真实佩戴、隐私和电池；这些只能作为 friction signal，不能当规格事实。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>怎么用</span>
+                  <p>社区路径是用户先看发布与预订信息，再去论坛确认兼容、发热、电池、App 供给和是否值得每天戴。这里的交互信号是购买前犹豫，而不是已验证的产品体验。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>使用场景</span>
+                  <p>观察用例是通勤、翻译、导航、视频观看、开发者试用和轻量通知；社区仍在问这些场景是否足以抵消佩戴负担。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>解决痛点</span>
+                  <p>暴露的痛点是用户担心买到一个不能全天戴、不能稳定连接、旁人不舒服或功能很快闲置的设备。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>新技术</span>
+                  <p>技术方向包括眼镜端 AI、空间显示和移动生态连接；今天没有新的社区证据能把任何讨论升级为 confirmed product。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>可用性</span>
+                  <p>source not stated；社区帖子不证明销售地区、库存、正式发货或售后政策。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>限制 / 未知</span>
+                  <p>缺独立长测、退货原因、佩戴时长统计、隐私投诉和跨平台兼容验证。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>产品判断</span>
+                  <p>继续作为 community friction 观察。若后续出现长测、用户实拍、售后数据或官方兼容矩阵，再升级权重。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://www.reddit.com/r/SmartGlasses/comments/1pxrb2f/upcoming_arai_smart_glasses_in_2026/" target="_blank" rel="noreferrer">Reddit r/SmartGlasses: upcoming AR+AI glasses thread</a><a href="https://www.reddit.com/r/Xreal/comments/1trllqj/project_aura_picking_ralphs_brain_for_all_the/" target="_blank" rel="noreferrer">Reddit r/Xreal: Project Aura discussion</a><a href="https://www.theverge.com/tech/950492/snap-specs-ar-glasses-launch-date-preorder" target="_blank" rel="noreferrer">The Verge: Snap Specs launch details</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide section-slide" id="slide-19" data-slide data-section="wild">
+
+    <div class="slide-chrome">
+      <span>19</span>
+      <span>野生信号</span>
+    </div>
+      <p class="eyebrow">野生信号</p>
+      <h2>Wild Desk / 野生信号</h2>
+      <div class="section-topic-list">
+
+              <div>
+                <span>startup signal · medium / startup page plus media reports</span>
+                <strong>Poke：把个人 agent 塞进 Apple Messages，而不是另做一个 App</strong>
+              </div>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-20" data-slide data-section="wild" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>20</span>
+      <span>Wild Desk / 野生信号 · 1/3</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">野生信号</span>
+            <span>startup signal · medium / startup page plus media reports</span>
+            <span>accessed 2026-06-22</span>
+          </div>
+          <h2 class="dossier-title">Poke：把个人 agent 塞进 Apple Messages，而不是另做一个 App</h2>
+          <p class="dossier-lead">产品: Poke. Poke 官方页称其在 Apple Messages、WhatsApp、Telegram 等消息入口中工作；媒体报道称其获得 Apple Messages for Business 路径批准。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://poke.com/" target="_blank" rel="noreferrer" aria-label="自绘入口图：Apple Messages · WhatsApp/Telegram · integrations · rich actions；基于 Poke/媒体来源">
+        <img src="../assets/poke-messages-agent-2026.svg" alt="Poke 消息 agent 入口图" width="1200" height="760" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>自绘入口图：Apple Messages · WhatsApp/Telegram · integrations · rich actions；基于 Poke/媒体来源</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>产品是什么</span>
+                  <p>创业产品信号：Poke 官方页称其在 Apple Messages、WhatsApp、Telegram 等消息入口中工作；媒体报道称它获得 Apple Messages for Business 路径批准。来源未写明的价格、重量、电池、芯片、地区、发货、API 版本或用户评价均标 source not stated。产品判断只看当前可操作 surface，不把愿景当事实。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>怎么用</span>
+                  <p>用户像发消息一样向 Poke 发请求，agent 通过集成处理日程、健康/健身、智能家居、照片编辑和日常计划，并在消息线程里返回 rich actions。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>规格 / 系统栈</span>
+                  <p>栈包括消息平台、Poke 账号/集成、Apple Messages for Business 路径、WhatsApp/Telegram 入口；具体 API、权限粒度、费用和区域 source not stated。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://poke.com/" target="_blank" rel="noreferrer">Poke official product page</a><a href="https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/" target="_blank" rel="noreferrer">TechCrunch: Poke approved on Apple Messages for Business</a><a href="https://9to5mac.com/2026/06/04/apples-messages-app-on-iphone-now-has-a-third-party-ai-agent/" target="_blank" rel="noreferrer">9to5Mac: Poke in Apple Messages</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-21" data-slide data-section="wild" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>21</span>
+      <span>Wild Desk / 野生信号 · 2/3</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">野生信号</span>
+            <span>startup signal · medium / startup page plus media reports</span>
+            <span>accessed 2026-06-22</span>
+          </div>
+          <h2 class="dossier-title">Poke：把个人 agent 塞进 Apple Messages，而不是另做一个 App</h2>
+          <p class="dossier-lead">产品: Poke. Poke 官方页称其在 Apple Messages、WhatsApp、Telegram 等消息入口中工作；媒体报道称其获得 Apple Messages for Business 路径批准。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://poke.com/" target="_blank" rel="noreferrer" aria-label="自绘入口图：Apple Messages · WhatsApp/Telegram · integrations · rich actions；基于 Poke/媒体来源">
+        <img src="../assets/poke-messages-agent-2026.svg" alt="Poke 消息 agent 入口图" width="1200" height="760" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>自绘入口图：Apple Messages · WhatsApp/Telegram · integrations · rich actions；基于 Poke/媒体来源</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>使用场景</span>
+                  <p>场景包括安排一天、改照片、控制家居、查询健康记录、设置提醒和把多 App 任务压成一条消息。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>解决痛点</span>
+                  <p>它解决普通用户不愿使用复杂 agent 工具、不会配置命令行或不想学习新 App 的入口摩擦。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>新技术</span>
+                  <p>新技术不是单个模型，而是 agent distribution layer：认证消息、rich actions、个人集成和持续人格包装成消息体验。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://poke.com/" target="_blank" rel="noreferrer">Poke official product page</a><a href="https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/" target="_blank" rel="noreferrer">TechCrunch: Poke approved on Apple Messages for Business</a><a href="https://9to5mac.com/2026/06/04/apples-messages-app-on-iphone-now-has-a-third-party-ai-agent/" target="_blank" rel="noreferrer">9to5Mac: Poke in Apple Messages</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-22" data-slide data-section="wild" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>22</span>
+      <span>Wild Desk / 野生信号 · 3/3</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">野生信号</span>
+            <span>startup signal · medium / startup page plus media reports</span>
+            <span>accessed 2026-06-22</span>
+          </div>
+          <h2 class="dossier-title">Poke：把个人 agent 塞进 Apple Messages，而不是另做一个 App</h2>
+          <p class="dossier-lead">产品: Poke. Poke 官方页称其在 Apple Messages、WhatsApp、Telegram 等消息入口中工作；媒体报道称其获得 Apple Messages for Business 路径批准。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://poke.com/" target="_blank" rel="noreferrer" aria-label="自绘入口图：Apple Messages · WhatsApp/Telegram · integrations · rich actions；基于 Poke/媒体来源">
+        <img src="../assets/poke-messages-agent-2026.svg" alt="Poke 消息 agent 入口图" width="1200" height="760" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>自绘入口图：Apple Messages · WhatsApp/Telegram · integrations · rich actions；基于 Poke/媒体来源</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>可用性</span>
+                  <p>官方页可访问并提供消息入口；Apple 批准、使用量和平台关系来自媒体报道。国家、订阅、等待名单和审核条件 source not stated。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>限制 / 未知</span>
+                  <p>限制是消息线程可解释性、长期记忆隐私、第三方集成权限、误操作撤销、Apple 政策变化和用户是否愿意把生活上下文交给一个联系人。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>产品判断</span>
+                  <p>Verdict：Poke 是 consumer agent 分发实验，本期标 startup signal；证据等级低于官方平台产品。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://poke.com/" target="_blank" rel="noreferrer">Poke official product page</a><a href="https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/" target="_blank" rel="noreferrer">TechCrunch: Poke approved on Apple Messages for Business</a><a href="https://9to5mac.com/2026/06/04/apples-messages-app-on-iphone-now-has-a-third-party-ai-agent/" target="_blank" rel="noreferrer">9to5Mac: Poke in Apple Messages</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide section-slide" id="slide-23" data-slide data-section="research">
+
+    <div class="slide-chrome">
+      <span>23</span>
+      <span>论文</span>
+    </div>
+      <p class="eyebrow">论文</p>
+      <h2>Research Watch / 论文</h2>
+      <div class="section-topic-list">
+
+              <div>
+                <span>research signal · medium / arXiv prototype and study, not shipping product</span>
+                <strong>VisionClaw：研究原型把“看见现实”与 agent 执行合成一个眼镜工作流</strong>
+              </div>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-24" data-slide data-section="research" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>24</span>
+      <span>Research Watch / 论文 · 1/3</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">论文</span>
+            <span>research signal · medium / arXiv prototype and study, not shipping product</span>
+            <span>accessed 2026-06-22</span>
+          </div>
+          <h2 class="dossier-title">VisionClaw：研究原型把“看见现实”与 agent 执行合成一个眼镜工作流</h2>
+          <p class="dossier-lead">产品: VisionClaw. arXiv 论文介绍 VisionClaw：运行在 Meta Ray-Ban smart glasses 上，结合 egocentric perception、Gemini Live 与 OpenClaw agent，并报告实验室和部署研究。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://arxiv.org/abs/2604.03486" target="_blank" rel="noreferrer" aria-label="自绘研究机制图：egocentric perception · speech delegation · OpenClaw execution · control feedback；基于 arXiv">
+        <img src="../assets/visionclaw-wearable-agent-2026.svg" alt="VisionClaw 研究机制图" width="1200" height="760" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>自绘研究机制图：egocentric perception · speech delegation · OpenClaw execution · control feedback；基于 arXiv</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>产品是什么</span>
+                  <p>研究原型，不是 confirmed product。arXiv 论文称其运行在 Meta Ray-Ban smart glasses 上，结合第一视角感知、Gemini Live 与 OpenClaw agents，并报告实验室和部署研究。来源未写明的价格、重量、电池、芯片、地区、发货、API 版本或用户评价均标 source not stated。产品判断只看当前可操作 surface，不把愿景当事实。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>怎么用</span>
+                  <p>用户在现实场景中通过语音把任务交给眼镜 agent；系统感知物体、文件、海报或环境上下文，并委派加购物车、生成笔记、建日程或控制 IoT 等动作。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>规格 / 系统栈</span>
+                  <p>论文写到 Meta Ray-Ban smart glasses、egocentric perception、Gemini Live、OpenClaw agents、实验室 N=12 与纵向部署；商品化、隐私策略和商业可用性 source not stated。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://arxiv.org/abs/2604.03486" target="_blank" rel="noreferrer">arXiv: VisionClaw always-on AI agents through smart glasses</a><a href="https://dl.acm.org/doi/10.1145/3772363.3798736" target="_blank" rel="noreferrer">ACM: Wearable ring as low-friction interface for agentic AI</a><a href="https://www.reddit.com/r/SmartGlasses/comments/1pxrb2f/upcoming_arai_smart_glasses_in_2026/" target="_blank" rel="noreferrer">Reddit r/SmartGlasses: upcoming AR+AI glasses thread</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-25" data-slide data-section="research" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>25</span>
+      <span>Research Watch / 论文 · 2/3</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">论文</span>
+            <span>research signal · medium / arXiv prototype and study, not shipping product</span>
+            <span>accessed 2026-06-22</span>
+          </div>
+          <h2 class="dossier-title">VisionClaw：研究原型把“看见现实”与 agent 执行合成一个眼镜工作流</h2>
+          <p class="dossier-lead">产品: VisionClaw. arXiv 论文介绍 VisionClaw：运行在 Meta Ray-Ban smart glasses 上，结合 egocentric perception、Gemini Live 与 OpenClaw agent，并报告实验室和部署研究。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://arxiv.org/abs/2604.03486" target="_blank" rel="noreferrer" aria-label="自绘研究机制图：egocentric perception · speech delegation · OpenClaw execution · control feedback；基于 arXiv">
+        <img src="../assets/visionclaw-wearable-agent-2026.svg" alt="VisionClaw 研究机制图" width="1200" height="760" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>自绘研究机制图：egocentric perception · speech delegation · OpenClaw execution · control feedback；基于 arXiv</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>使用场景</span>
+                  <p>研究场景包括看到真实物体加入 Amazon cart、从纸质文件生成 notes、路上获得 meeting briefings、从 poster 建 event、控制 IoT。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>解决痛点</span>
+                  <p>它解决现实任务需要先拍照、描述、转到手机或电脑再执行的多步摩擦。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>新技术</span>
+                  <p>新技术信号是 always-on perception 和 agentic task execution 合流，任务从 opportunistic noticing 直接进入 delegation。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://arxiv.org/abs/2604.03486" target="_blank" rel="noreferrer">arXiv: VisionClaw always-on AI agents through smart glasses</a><a href="https://dl.acm.org/doi/10.1145/3772363.3798736" target="_blank" rel="noreferrer">ACM: Wearable ring as low-friction interface for agentic AI</a><a href="https://www.reddit.com/r/SmartGlasses/comments/1pxrb2f/upcoming_arai_smart_glasses_in_2026/" target="_blank" rel="noreferrer">Reddit r/SmartGlasses: upcoming AR+AI glasses thread</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-26" data-slide data-section="research" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>26</span>
+      <span>Research Watch / 论文 · 3/3</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">论文</span>
+            <span>research signal · medium / arXiv prototype and study, not shipping product</span>
+            <span>accessed 2026-06-22</span>
+          </div>
+          <h2 class="dossier-title">VisionClaw：研究原型把“看见现实”与 agent 执行合成一个眼镜工作流</h2>
+          <p class="dossier-lead">产品: VisionClaw. arXiv 论文介绍 VisionClaw：运行在 Meta Ray-Ban smart glasses 上，结合 egocentric perception、Gemini Live 与 OpenClaw agent，并报告实验室和部署研究。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://arxiv.org/abs/2604.03486" target="_blank" rel="noreferrer" aria-label="自绘研究机制图：egocentric perception · speech delegation · OpenClaw execution · control feedback；基于 arXiv">
+        <img src="../assets/visionclaw-wearable-agent-2026.svg" alt="VisionClaw 研究机制图" width="1200" height="760" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>自绘研究机制图：egocentric perception · speech delegation · OpenClaw execution · control feedback；基于 arXiv</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>可用性</span>
+                  <p>仅研究原型；没有消费者发布、价格、地区或商店路径。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>限制 / 未知</span>
+                  <p>限制包括旁人隐私、持续感知 consent、误识别后自动执行、用户 agency、数据保留、眼镜平台权限和从研究到商品的落差。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>产品判断</span>
+                  <p>Verdict：VisionClaw 是研究雷达，不是产品事实；它提示 AI 眼镜必须把暂停、撤销和可解释状态做进核心交互。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://arxiv.org/abs/2604.03486" target="_blank" rel="noreferrer">arXiv: VisionClaw always-on AI agents through smart glasses</a><a href="https://dl.acm.org/doi/10.1145/3772363.3798736" target="_blank" rel="noreferrer">ACM: Wearable ring as low-friction interface for agentic AI</a><a href="https://www.reddit.com/r/SmartGlasses/comments/1pxrb2f/upcoming_arai_smart_glasses_in_2026/" target="_blank" rel="noreferrer">Reddit r/SmartGlasses: upcoming AR+AI glasses thread</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide section-slide" id="slide-27" data-slide data-section="patent">
+
+    <div class="slide-chrome">
+      <span>27</span>
+      <span>专利</span>
+    </div>
+      <p class="eyebrow">专利</p>
+      <h2>Patent Watch / 专利</h2>
+      <div class="section-topic-list">
+
+              <div>
+                <span>patent signal · low / patent direction only</span>
+                <strong>专利雷达：XR 内容伴侣与智能眼镜 AI claim 只能说明方向，不能说明产品</strong>
+              </div>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-28" data-slide data-section="patent" data-dossier-kind="scan">
+
+    <div class="slide-chrome">
+      <span>28</span>
+      <span>Patent Watch / 专利 · 1/1</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">专利</span>
+            <span>patent signal · low / patent direction only</span>
+            <span>accessed 2026-06-22</span>
+          </div>
+          <h2 class="dossier-title">专利雷达：XR 内容伴侣与智能眼镜 AI claim 只能说明方向，不能说明产品</h2>
+          <p class="dossier-lead">产品: XR AI companion patent watch. Google Patents 与专利媒体扫描显示 AI/AR 眼镜、XR 内容理解、观看内容问答等方向，但专利不能证明产品发布。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://patents.google.com/patent/US10908419B2/en" target="_blank" rel="noreferrer" aria-label="自绘专利雷达：XR content context · AI answer · privacy boundary；专利信号，不是产品确认">
+        <img src="../assets/patent-xr-ai-companion-2026.svg" alt="XR AI companion 专利雷达" width="1200" height="760" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>自绘专利雷达：XR content context · AI answer · privacy boundary；专利信号，不是产品确认</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>产品是什么</span>
+                  <p>Patent lane scan，不是产品发布。Google Patents 与专利媒体显示 XR 内容理解、智能眼镜和观看内容问答方向，但专利只说明 claim 与防守空间，不说明设备名称、上市时间或商业计划。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>怎么用</span>
+                  <p>可想象流程是用户在 XR/眼镜中观看内容或现实对象时提问，系统结合当前内容回答；但今天没有官方产品页、SDK 或硬件路径证明这一流程已进入产品。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>使用场景</span>
+                  <p>观察用例是内容伴随问答、AR 场景解释、视频/空间内容理解和低打扰提示。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>解决痛点</span>
+                  <p>潜在痛点是用户在 XR 中不想摘下设备再搜索背景信息；但专利不能证明该痛点已被解决。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>新技术</span>
+                  <p>技术方向是 XR 内容上下文 + AI companion；证据等级低，必须和 Android XR、Gemini glasses、SDK 或硬件发布交叉。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>可用性</span>
+                  <p>无 confirmed availability；专利不代表产品可买、可试用或会发布。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>限制 / 未知</span>
+                  <p>缺产品页、开发者文档、发货、价格、用户设置、隐私说明和第三方测试。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>产品判断</span>
+                  <p>保留为 patent signal。只有当 claim 与官方平台、开发者工具、设备发布或评测交叉时，才提高证据等级。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://patents.google.com/patent/US10908419B2/en" target="_blank" rel="noreferrer">Google Patents: smartglasses AI/AR patent family</a><a href="https://patentlyze.com/patent/google-ai-content-companion-xr-devices/" target="_blank" rel="noreferrer">Patentlyze: Google AI content companion for XR devices</a><a href="https://blog.google/products-and-platforms/platforms/android/android-xr/" target="_blank" rel="noreferrer">Google Android XR overview</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide section-slide" id="slide-29" data-slide data-section="china">
+
+    <div class="slide-chrome">
+      <span>29</span>
+      <span>中国</span>
+    </div>
+      <p class="eyebrow">中国</p>
+      <h2>China / Global Compare</h2>
+      <div class="section-topic-list">
+
+              <div>
+                <span>confirmed product · medium-high / China media and preorder reports</span>
+                <strong>讯飞 AI 眼镜：中国 AI 眼镜把翻译、提词、会议纪要打包成商务入口</strong>
+              </div>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-30" data-slide data-section="china" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>30</span>
+      <span>China / Global Compare · 1/3</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">中国</span>
+            <span>confirmed product · medium-high / China media and preorder reports</span>
+            <span>accessed 2026-06-22</span>
+          </div>
+          <h2 class="dossier-title">讯飞 AI 眼镜：中国 AI 眼镜把翻译、提词、会议纪要打包成商务入口</h2>
+          <p class="dossier-lead">产品: iFLYTEK AI Glasses. 36Kr、IT之家/新浪、21财经等来源写到讯飞 AI 眼镜：40g、4299/4699 元、6 月 15 日预售、122 种语言翻译、唇动识别降噪、GlassClaw、智能提词和线下门店体验。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://m.36kr.com/p/3830205689357954" target="_blank" rel="noreferrer" aria-label="自绘场景图：122-language translation · GlassClaw · teleprompter · store fitting；基于中文媒体来源">
+        <img src="../assets/iflytek-ai-glasses-china-2026.svg" alt="讯飞 AI 眼镜业务场景图" width="1200" height="760" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>自绘场景图：122-language translation · GlassClaw · teleprompter · store fitting；基于中文媒体来源</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>产品是什么</span>
+                  <p>确认产品/中国硬件信号：36Kr、IT之家/新浪、21财经写到讯飞 AI 眼镜，标准款 4299 元、续航款 4699 元、40g、122 种语言翻译、6 月 15 日预售、千店体验。来源未写明的价格、重量、电池、芯片、地区、发货、API 版本或用户评价均标 source not stated。产品判断只看当前可操作 surface，不把愿景当事实。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>怎么用</span>
+                  <p>用户佩戴眼镜进行面对面、线上或通话翻译，字幕投射到镜片并播放译文；会议中可记录、生成纪要、整理出差方案或邮件，演讲中使用提词和实体遥控。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>规格 / 系统栈</span>
+                  <p>来源写到端到端语音同传大模型、视觉智能、唇动识别降噪、多麦克风/算法协同、GlassClaw agent、近视镜片和门店配镜；芯片/OS/续航细节 source not stated。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://m.36kr.com/p/3830205689357954" target="_blank" rel="noreferrer">36Kr: iFLYTEK AI glasses BEYOND Expo report</a><a href="https://finance.sina.com.cn/tech/digi/2026-06-16/doc-inicmsvc8425043.shtml" target="_blank" rel="noreferrer">Sina/ITHome: iFLYTEK AI glasses preorder</a><a href="https://www.21jingji.com/article/20260528/herald/688f954684e2abe70365931439f0b871.html" target="_blank" rel="noreferrer">21jingji: iFLYTEK AI glasses interview/report</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-31" data-slide data-section="china" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>31</span>
+      <span>China / Global Compare · 2/3</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">中国</span>
+            <span>confirmed product · medium-high / China media and preorder reports</span>
+            <span>accessed 2026-06-22</span>
+          </div>
+          <h2 class="dossier-title">讯飞 AI 眼镜：中国 AI 眼镜把翻译、提词、会议纪要打包成商务入口</h2>
+          <p class="dossier-lead">产品: iFLYTEK AI Glasses. 36Kr、IT之家/新浪、21财经等来源写到讯飞 AI 眼镜：40g、4299/4699 元、6 月 15 日预售、122 种语言翻译、唇动识别降噪、GlassClaw、智能提词和线下门店体验。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://m.36kr.com/p/3830205689357954" target="_blank" rel="noreferrer" aria-label="自绘场景图：122-language translation · GlassClaw · teleprompter · store fitting；基于中文媒体来源">
+        <img src="../assets/iflytek-ai-glasses-china-2026.svg" alt="讯飞 AI 眼镜业务场景图" width="1200" height="760" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>自绘场景图：122-language translation · GlassClaw · teleprompter · store fitting；基于中文媒体来源</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>使用场景</span>
+                  <p>场景包括跨语种会议、展会商圈嘈杂沟通、商务出差信息采集、会议纪要、采访、演讲提词和涉外客户拜访。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>解决痛点</span>
+                  <p>它解决商务人士跨语言沟通、会议整理、提词和移动办公碎片化问题，比泛娱乐 AR 更接近高频刚需。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>新技术</span>
+                  <p>新技术信号是语音翻译、视觉降噪、唇动识别和 agent 任务执行被放进 40g 眼镜形态。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://m.36kr.com/p/3830205689357954" target="_blank" rel="noreferrer">36Kr: iFLYTEK AI glasses BEYOND Expo report</a><a href="https://finance.sina.com.cn/tech/digi/2026-06-16/doc-inicmsvc8425043.shtml" target="_blank" rel="noreferrer">Sina/ITHome: iFLYTEK AI glasses preorder</a><a href="https://www.21jingji.com/article/20260528/herald/688f954684e2abe70365931439f0b871.html" target="_blank" rel="noreferrer">21jingji: iFLYTEK AI glasses interview/report</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-32" data-slide data-section="china" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>32</span>
+      <span>China / Global Compare · 3/3</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">中国</span>
+            <span>confirmed product · medium-high / China media and preorder reports</span>
+            <span>accessed 2026-06-22</span>
+          </div>
+          <h2 class="dossier-title">讯飞 AI 眼镜：中国 AI 眼镜把翻译、提词、会议纪要打包成商务入口</h2>
+          <p class="dossier-lead">产品: iFLYTEK AI Glasses. 36Kr、IT之家/新浪、21财经等来源写到讯飞 AI 眼镜：40g、4299/4699 元、6 月 15 日预售、122 种语言翻译、唇动识别降噪、GlassClaw、智能提词和线下门店体验。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://m.36kr.com/p/3830205689357954" target="_blank" rel="noreferrer" aria-label="自绘场景图：122-language translation · GlassClaw · teleprompter · store fitting；基于中文媒体来源">
+        <img src="../assets/iflytek-ai-glasses-china-2026.svg" alt="讯飞 AI 眼镜业务场景图" width="1200" height="760" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>自绘场景图：122-language translation · GlassClaw · teleprompter · store fitting；基于中文媒体来源</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>可用性</span>
+                  <p>来源写到 6 月 15 日开启 618 首发全款预售和线下门店体验；海外可用性、发货批次、App 生态和售后政策 source not stated。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>限制 / 未知</span>
+                  <p>限制是翻译准确率、嘈杂环境拾音、隐私提示、会议数据安全、近视配镜体验、重量续航平衡和 GlassClaw 是否真能独立完成复杂任务。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>产品判断</span>
+                  <p>Verdict：中国 AI 眼镜先押注商务效率和线下配镜渠道，比“通用 AI companion”更具体，也更容易被真实场景检验。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://m.36kr.com/p/3830205689357954" target="_blank" rel="noreferrer">36Kr: iFLYTEK AI glasses BEYOND Expo report</a><a href="https://finance.sina.com.cn/tech/digi/2026-06-16/doc-inicmsvc8425043.shtml" target="_blank" rel="noreferrer">Sina/ITHome: iFLYTEK AI glasses preorder</a><a href="https://www.21jingji.com/article/20260528/herald/688f954684e2abe70365931439f0b871.html" target="_blank" rel="noreferrer">21jingji: iFLYTEK AI glasses interview/report</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide section-slide" id="slide-33" data-slide data-section="global">
+
+    <div class="slide-chrome">
+      <span>33</span>
+      <span>海外</span>
+    </div>
+      <p class="eyebrow">海外</p>
+      <h2>Global Signals</h2>
+      <div class="section-topic-list">
+
+              <div>
+                <span>confirmed product · high / official product and platform pages</span>
+                <strong>XREAL Aura：Android XR 从头显平台走向轻量眼镜硬件</strong>
+              </div>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-34" data-slide data-section="global" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>34</span>
+      <span>Global Signals · 1/3</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">海外</span>
+            <span>confirmed product · high / official product and platform pages</span>
+            <span>accessed 2026-06-22</span>
+          </div>
+          <h2 class="dossier-title">XREAL Aura：Android XR 从头显平台走向轻量眼镜硬件</h2>
+          <p class="dossier-lead">产品: XREAL Aura. XREAL Aura 官方页与 Google/Qualcomm 来源把它放在 Android XR、Gemini、Snapdragon Reality Elite 与 X1S spatial coprocessor 的组合里。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://www.xreal.com/us/aura" target="_blank" rel="noreferrer" aria-label="自绘栈图：Android XR · Gemini · Snapdragon Reality Elite · XREAL X1S；基于官方来源">
+        <img src="../assets/xreal-aura-android-xr-2026.svg" alt="XREAL Aura Android XR 栈图" width="1200" height="760" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>自绘栈图：Android XR · Gemini · Snapdragon Reality Elite · XREAL X1S；基于官方来源</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>产品是什么</span>
+                  <p>确认产品：Android XR optical see-through glasses。官方页写到 Android XR、Gemini、Snapdragon Reality Elite、XREAL X1S Spatial Coprocessor；媒体补充 under 95g、70-degree FOV、6DoF/hand tracking 和预订信息。来源未写明的价格、重量、电池、芯片、地区、发货、API 版本或用户评价均标 source not stated。产品判断只看当前可操作 surface，不把愿景当事实。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>怎么用</span>
+                  <p>用户戴上 Aura 后进入 Android XR 空间应用，Gemini 作为上下文助手，Play/开发者生态提供内容；眼镜把显示、传感、手势和空间输入放进一个可穿戴 flow。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>规格 / 系统栈</span>
+                  <p>栈包括 Android XR、Gemini on Android XR、Snapdragon Reality Elite、XREAL X1S、optical see-through。其他传感器、续航、亮度、镜片和热设计按官方后续披露。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://www.xreal.com/us/aura" target="_blank" rel="noreferrer">XREAL Aura product page</a><a href="https://blog.google/products-and-platforms/platforms/android/android-xr/" target="_blank" rel="noreferrer">Google Android XR overview</a><a href="https://developer.android.com/blog/posts/build-for-the-future-with-the-android-xr-developer-catalyst-program-apply-now" target="_blank" rel="noreferrer">Android XR Developer Catalyst Program</a><a href="https://www.androidcentral.com/gaming/virtual-reality/get-it-reserved-xreals-aura-smart-glasses-refresh-the-game-with-powerful-android-xr-and-ai" target="_blank" rel="noreferrer">Android Central hands-on/report: XREAL Aura</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-35" data-slide data-section="global" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>35</span>
+      <span>Global Signals · 2/3</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">海外</span>
+            <span>confirmed product · high / official product and platform pages</span>
+            <span>accessed 2026-06-22</span>
+          </div>
+          <h2 class="dossier-title">XREAL Aura：Android XR 从头显平台走向轻量眼镜硬件</h2>
+          <p class="dossier-lead">产品: XREAL Aura. XREAL Aura 官方页与 Google/Qualcomm 来源把它放在 Android XR、Gemini、Snapdragon Reality Elite 与 X1S spatial coprocessor 的组合里。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://www.xreal.com/us/aura" target="_blank" rel="noreferrer" aria-label="自绘栈图：Android XR · Gemini · Snapdragon Reality Elite · XREAL X1S；基于官方来源">
+        <img src="../assets/xreal-aura-android-xr-2026.svg" alt="XREAL Aura Android XR 栈图" width="1200" height="760" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>自绘栈图：Android XR · Gemini · Snapdragon Reality Elite · XREAL X1S；基于官方来源</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>使用场景</span>
+                  <p>场景包括 XR 游戏、体育/视频空间观看、协作原型、学习应用、空间设计和随身 Gemini 帮助。关键是 Android XR app 是否足够多、足够像日常工具。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>解决痛点</span>
+                  <p>它试图解决传统头显笨重与手机小屏之间的断层，让 XR 内容进入更轻眼镜。若应用少、发热强或连接复杂，平台价值会被硬件摩擦吞掉。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>新技术</span>
+                  <p>新技术是 Android XR 平台、光学透视、端侧 AI 芯片和协处理器组合，而不是单独显示器。它让 Android 生态第一次更具体地进入眼镜形态。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://www.xreal.com/us/aura" target="_blank" rel="noreferrer">XREAL Aura product page</a><a href="https://blog.google/products-and-platforms/platforms/android/android-xr/" target="_blank" rel="noreferrer">Google Android XR overview</a><a href="https://developer.android.com/blog/posts/build-for-the-future-with-the-android-xr-developer-catalyst-program-apply-now" target="_blank" rel="noreferrer">Android XR Developer Catalyst Program</a><a href="https://www.androidcentral.com/gaming/virtual-reality/get-it-reserved-xreals-aura-smart-glasses-refresh-the-game-with-powerful-android-xr-and-ai" target="_blank" rel="noreferrer">Android Central hands-on/report: XREAL Aura</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-36" data-slide data-section="global" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>36</span>
+      <span>Global Signals · 3/3</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">海外</span>
+            <span>confirmed product · high / official product and platform pages</span>
+            <span>accessed 2026-06-22</span>
+          </div>
+          <h2 class="dossier-title">XREAL Aura：Android XR 从头显平台走向轻量眼镜硬件</h2>
+          <p class="dossier-lead">产品: XREAL Aura. XREAL Aura 官方页与 Google/Qualcomm 来源把它放在 Android XR、Gemini、Snapdragon Reality Elite 与 X1S spatial coprocessor 的组合里。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://www.xreal.com/us/aura" target="_blank" rel="noreferrer" aria-label="自绘栈图：Android XR · Gemini · Snapdragon Reality Elite · XREAL X1S；基于官方来源">
+        <img src="../assets/xreal-aura-android-xr-2026.svg" alt="XREAL Aura Android XR 栈图" width="1200" height="760" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>自绘栈图：Android XR · Gemini · Snapdragon Reality Elite · XREAL X1S；基于官方来源</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>可用性</span>
+                  <p>来源显示 reservation / fall launch 语言，并提到美国、英国、日本等预订线索。最终零售价、发货批次、App 覆盖和地区扩展以官方页面为准。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>限制 / 未知</span>
+                  <p>未知是长期佩戴、电池、发热、户外可读性、iOS/PC 互通、应用供给、手势误触和开发者是否愿意单独优化眼镜体验。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>产品判断</span>
+                  <p>Verdict：Aura 把 Android XR 从平台愿景变成可预订硬件。下一步要看独立评测是否证明它能完成日常任务，而不只是展示空间 demo。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://www.xreal.com/us/aura" target="_blank" rel="noreferrer">XREAL Aura product page</a><a href="https://blog.google/products-and-platforms/platforms/android/android-xr/" target="_blank" rel="noreferrer">Google Android XR overview</a><a href="https://developer.android.com/blog/posts/build-for-the-future-with-the-android-xr-developer-catalyst-program-apply-now" target="_blank" rel="noreferrer">Android XR Developer Catalyst Program</a><a href="https://www.androidcentral.com/gaming/virtual-reality/get-it-reserved-xreals-aura-smart-glasses-refresh-the-game-with-powerful-android-xr-and-ai" target="_blank" rel="noreferrer">Android Central hands-on/report: XREAL Aura</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide watch-slide" id="slide-37" data-slide>
+
+    <div class="slide-chrome">
+      <span>37</span>
+      <span>Watchlist</span>
+    </div>
+      <p class="eyebrow">下一轮扫描</p>
+      <h2>明天继续盯这些入口变化</h2>
+      <div class="watch-grid">
+        <div><span>01</span><p>Snap Specs：等待独立评测确认四小时电池、散热、显示可读性、旁人隐私提示和 Lens 供给是否支撑日常佩戴。</p></div><div><span>02</span><p>XREAL Aura / Android XR：继续看 reservation 到 shipping 的落地、Best Buy/地区渠道、iOS/PC 互通和 Android XR 应用数量。</p></div><div><span>03</span><p>Codex Windows computer use：重点看企业默认开关、审计日志、敏感数据边界、误点击恢复和跨设备 steering 的延迟。</p></div><div><span>04</span><p>Meta Business Agent / Poke：看消息线程里的 AI 身份披露、human handoff、退款责任、订阅价格和平台审核政策。</p></div><div><span>05</span><p>研究/专利：VisionClaw 和 XR patent 只作为机制雷达，等到 SDK、硬件或第三方测试交叉后再升级证据等级。</p></div>
+      </div>
+    </section>
+    <section class="deck-slide source-slide" id="slide-38" data-slide>
+
+    <div class="slide-chrome">
+      <span>38</span>
+      <span>来源索引</span>
+    </div>
+      <p class="eyebrow">可追溯证据</p>
+      <h2>正文每个话题都有来源；这里是快速跳转。</h2>
+      <div class="source-grid">
+        <a href="https://www.spectacles.com/" target="_blank" rel="noreferrer"><span>official</span><strong>Snap Specs official page</strong></a><a href="https://developers.snap.com/spectacles" target="_blank" rel="noreferrer"><span>developer docs</span><strong>Snap Spectacles developers</strong></a><a href="https://www.theverge.com/tech/950492/snap-specs-ar-glasses-launch-date-preorder" target="_blank" rel="noreferrer"><span>review/media</span><strong>The Verge: Snap Specs launch details</strong></a><a href="https://www.xreal.com/us/aura" target="_blank" rel="noreferrer"><span>official</span><strong>XREAL Aura product page</strong></a><a href="https://blog.google/products-and-platforms/platforms/android/android-xr/" target="_blank" rel="noreferrer"><span>official</span><strong>Google Android XR overview</strong></a><a href="https://developer.android.com/blog/posts/build-for-the-future-with-the-android-xr-developer-catalyst-program-apply-now" target="_blank" rel="noreferrer"><span>developer docs</span><strong>Android XR Developer Catalyst Program</strong></a><a href="https://www.androidcentral.com/gaming/virtual-reality/get-it-reserved-xreals-aura-smart-glasses-refresh-the-game-with-powerful-android-xr-and-ai" target="_blank" rel="noreferrer"><span>review/media</span><strong>Android Central hands-on/report: XREAL Aura</strong></a><a href="https://www.qualcomm.com/news/releases/2026/06/qualcomm-takes-spatial-computing-into-the-ai-era-with-snapdragon" target="_blank" rel="noreferrer"><span>official</span><strong>Qualcomm Snapdragon Reality Elite release</strong></a><a href="https://www.qualcomm.com/snapdragon/news/snapdragon-reality-elite-takes-center-stage-at-awe-2026" target="_blank" rel="noreferrer"><span>official</span><strong>Qualcomm AWE 2026 Reality Elite recap</strong></a><a href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes" target="_blank" rel="noreferrer"><span>official support docs</span><strong>OpenAI ChatGPT release notes: Codex computer use on Windows</strong></a><a href="https://openai.com/index/introducing-the-codex-app/" target="_blank" rel="noreferrer"><span>official</span><strong>OpenAI Codex app overview</strong></a><a href="https://developers.openai.com/api/docs/deprecations" target="_blank" rel="noreferrer"><span>developer docs</span><strong>OpenAI API deprecations: Agent Builder and ChatKit migration</strong></a><a href="https://about.fb.com/news/2026/06/meta-business-agent/" target="_blank" rel="noreferrer"><span>official</span><strong>Meta: Be There for Every Customer With Meta Business Agent</strong></a><a href="https://whatsappbusiness.com/blog/introducing-meta-business-agent-ai/" target="_blank" rel="noreferrer"><span>official/product docs</span><strong>WhatsApp Business: Introducing Meta Business Agent</strong></a><a href="https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/" target="_blank" rel="noreferrer"><span>media</span><strong>TechCrunch: Meta AI agent for WhatsApp Business globally available</strong></a><a href="https://poke.com/" target="_blank" rel="noreferrer"><span>startup/product</span><strong>Poke official product page</strong></a><a href="https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/" target="_blank" rel="noreferrer"><span>media</span><strong>TechCrunch: Poke approved on Apple Messages for Business</strong></a><a href="https://9to5mac.com/2026/06/04/apples-messages-app-on-iphone-now-has-a-third-party-ai-agent/" target="_blank" rel="noreferrer"><span>media</span><strong>9to5Mac: Poke in Apple Messages</strong></a><a href="https://m.36kr.com/p/3830205689357954" target="_blank" rel="noreferrer"><span>China media</span><strong>36Kr: iFLYTEK AI glasses BEYOND Expo report</strong></a><a href="https://finance.sina.com.cn/tech/digi/2026-06-16/doc-inicmsvc8425043.shtml" target="_blank" rel="noreferrer"><span>China media</span><strong>Sina/ITHome: iFLYTEK AI glasses preorder</strong></a><a href="https://www.21jingji.com/article/20260528/herald/688f954684e2abe70365931439f0b871.html" target="_blank" rel="noreferrer"><span>China media</span><strong>21jingji: iFLYTEK AI glasses interview/report</strong></a><a href="https://arxiv.org/abs/2604.03486" target="_blank" rel="noreferrer"><span>research</span><strong>arXiv: VisionClaw always-on AI agents through smart glasses</strong></a><a href="https://dl.acm.org/doi/10.1145/3772363.3798736" target="_blank" rel="noreferrer"><span>research</span><strong>ACM: Wearable ring as low-friction interface for agentic AI</strong></a><a href="https://www.reddit.com/r/SmartGlasses/comments/1pxrb2f/upcoming_arai_smart_glasses_in_2026/" target="_blank" rel="noreferrer"><span>community</span><strong>Reddit r/SmartGlasses: upcoming AR+AI glasses thread</strong></a><a href="https://www.reddit.com/r/Xreal/comments/1trllqj/project_aura_picking_ralphs_brain_for_all_the/" target="_blank" rel="noreferrer"><span>community</span><strong>Reddit r/Xreal: Project Aura discussion</strong></a><a href="https://patents.google.com/patent/US10908419B2/en" target="_blank" rel="noreferrer"><span>patent</span><strong>Google Patents: smartglasses AI/AR patent family</strong></a><a href="https://patentlyze.com/patent/google-ai-content-companion-xr-devices/" target="_blank" rel="noreferrer"><span>patent/media scan</span><strong>Patentlyze: Google AI content companion for XR devices</strong></a>
+      </div>
+      <p class="source-row"><strong>完整总表：</strong> <a href="/ai-daily/2026-06-22/sources.md">sources.md</a></p>
+    </section>
+      </section>
+
+      <footer class="deck-controls" aria-label="Slide controls">
+        <button type="button" data-prev-slide>上一页</button>
+        <div class="deck-progress-shell"><span data-deck-progress></span></div>
+        <span class="deck-counter" data-deck-counter>01 / 38</span>
+        <button type="button" data-next-slide>下一页</button>
+      </footer>
+      <div class="deck-dots" data-deck-dots aria-hidden="true"></div>
+    </main>
+    <script>
+      document.querySelectorAll("[data-time-filter]").forEach((button) => {
+        button.addEventListener("click", () => {
+          const filter = button.dataset.timeFilter;
+          document.querySelectorAll("[data-time-filter]").forEach((item) => item.classList.toggle("active", item === button));
+          document.querySelectorAll("[data-time]").forEach((card) => {
+            const tokens = card.dataset.time.split(" ");
+            card.hidden = filter !== "all" && !tokens.includes(filter);
+          });
+        });
+      });
+
+      const deck = document.querySelector("[data-deck]");
+      if (deck) {
+        const slides = Array.from(deck.querySelectorAll("[data-slide]"));
+        const counter = document.querySelector("[data-deck-counter]");
+        const progress = document.querySelector("[data-deck-progress]");
+        const dots = document.querySelector("[data-deck-dots]");
+        let current = 0;
+
+        function showSlide(nextIndex, updateHash = true) {
+          current = Math.max(0, Math.min(slides.length - 1, nextIndex));
+          slides.forEach((slide, index) => {
+            const active = index === current;
+            slide.classList.toggle("is-active", active);
+            slide.setAttribute("aria-hidden", active ? "false" : "true");
+          });
+          if (counter) counter.textContent = String(current + 1).padStart(2, "0") + " / " + String(slides.length).padStart(2, "0");
+          if (progress) progress.style.width = ((current + 1) / slides.length * 100).toFixed(2) + "%";
+          if (dots) {
+            dots.querySelectorAll("button").forEach((button, index) => {
+              button.classList.toggle("active", index === current);
+            });
+          }
+          if (updateHash && slides[current]?.id) history.replaceState(null, "", "#" + slides[current].id);
+        }
+
+        if (dots) {
+          dots.innerHTML = slides.map((slide, index) => '<button type="button" aria-label="Slide ' + (index + 1) + '"></button>').join("");
+          dots.querySelectorAll("button").forEach((button, index) => button.addEventListener("click", () => showSlide(index)));
+        }
+
+        document.querySelectorAll("[data-next-slide]").forEach((button) => button.addEventListener("click", () => showSlide(current + 1)));
+        document.querySelectorAll("[data-prev-slide]").forEach((button) => button.addEventListener("click", () => showSlide(current - 1)));
+        document.querySelectorAll("[data-go-slide]").forEach((link) => {
+          link.addEventListener("click", (event) => {
+            event.preventDefault();
+            const target = slides.findIndex((slide) => slide.id === link.dataset.goSlide);
+            if (target >= 0) showSlide(target);
+          });
+        });
+
+        window.addEventListener("keydown", (event) => {
+          if (event.altKey || event.ctrlKey || event.metaKey) return;
+          if (["ArrowRight", "PageDown", " "].includes(event.key)) {
+            event.preventDefault();
+            showSlide(current + 1);
+          }
+          if (["ArrowLeft", "PageUp"].includes(event.key)) {
+            event.preventDefault();
+            showSlide(current - 1);
+          }
+          if (event.key === "Home") showSlide(0);
+          if (event.key === "End") showSlide(slides.length - 1);
+        });
+
+        const initial = slides.findIndex((slide) => "#" + slide.id === window.location.hash);
+        showSlide(initial >= 0 ? initial : 0, false);
+      }
+    </script>
+  </body>
+</html>

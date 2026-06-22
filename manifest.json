@@ -1,5 +1,57 @@
 [
   {
+    "date": "2026-06-22",
+    "zhTitle": "周一版：AI 眼镜进入平台压力测试，桌面与消息 agent 开始接管真实流程",
+    "enTitle": "Monday issue: AI glasses enter platform pressure tests as desktop and messaging agents take over real workflows",
+    "zhSummary": "今天的产品信号集中在三条线：眼镜硬件从拍摄/显示配件变成 AI 入口；桌面 agent 开始真实操作 Windows 应用；消息 agent 进入 WhatsApp、Apple Messages 等高频线程。",
+    "enSummary": "Today’s product signal clusters into three lines: glasses hardware moving from capture/display accessory to AI entry point; desktop agents beginning to operate real Windows applications; and messaging agents entering high-frequency WhatsApp and Apple Messages threads.",
+    "tags": [
+      "HCI",
+      "AI hardware",
+      "smart glasses",
+      "agentic desktop",
+      "business messaging",
+      "Android XR",
+      "wearable AI"
+    ],
+    "sourceTypes": [
+      "official",
+      "developer docs",
+      "reviews",
+      "community",
+      "wild",
+      "research",
+      "patent",
+      "China",
+      "global"
+    ],
+    "coverStory": {
+      "topicId": "snap-specs-consumer-ar",
+      "zhTitle": "封面故事：AI 眼镜从“拍摄配件”变成“眼前操作系统”的第一轮压力测试",
+      "enTitle": "Cover story: AI glasses begin the first pressure test as near-eye operating systems, not camera accessories",
+      "zhSummary": [
+        "今天最强信号来自眼镜：Snap Specs、XREAL Aura、讯飞 AI 眼镜和 VisionClaw 研究共同指向同一个问题：AI 的默认入口是否要移到脸上。",
+        "这不是“多一个屏幕”，而是权限、旁人隐私、佩戴时长、热/电、开发者供给和失败接管同时上桌。",
+        "本期把 confirmed product、startup signal、research signal、patent signal 分开，避免把愿景、论文或社区热度写成发布事实。"
+      ],
+      "enSummary": [
+        "The strongest signal today comes from glasses: Snap Specs, XREAL Aura, iFLYTEK AI Glasses, and VisionClaw research all point to the same question: should the default AI entry point move onto the face?",
+        "This is not merely another display; it brings permission, bystander privacy, wear time, heat/power, developer supply, and failure takeover into one product object.",
+        "This issue separates confirmed products, startup signals, research signals, and patent signals so that vision, papers, and community heat do not become false launch facts."
+      ],
+      "imagePath": "assets/snap-specs-consumer-ar.svg",
+      "imageWidth": 1200,
+      "imageHeight": 760,
+      "imageSourceUrl": "https://www.spectacles.com/",
+      "primarySourceUrl": "https://www.spectacles.com/",
+      "evidenceStrength": "confirmed product · official/developer/review sources",
+      "whyCover": "AI glasses concentrate today’s product-interface questions into one visible, wearable boundary."
+    },
+    "zhPath": "/ai-daily/2026-06-22/zh/",
+    "enPath": "/ai-daily/2026-06-22/en/",
+    "sourcesPath": "/ai-daily/2026-06-22/sources.md"
+  },
+  {
     "date": "2026-06-21",
     "zhTitle": "周日版：AI 入口继续向眼镜、开发者工具、消息 agent 与可授权软件层聚合",
     "enTitle": "Sunday issue: AI entry points keep moving into glasses, developer stacks, messaging agents, and authorized software layers",

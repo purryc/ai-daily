@@ -133,8 +133,9 @@ const dossierFieldOrder = [
 
 const dossierPartFields = {
   product: [
-    ["productType", "interactionFlow", "specsOrStack", "useCases", "painPointsSolved"],
-    ["newTech", "availability", "limitsOrUnknowns", "productVerdict"]
+    ["productType", "interactionFlow", "specsOrStack"],
+    ["useCases", "painPointsSolved", "newTech"],
+    ["availability", "limitsOrUnknowns", "productVerdict"]
   ],
   scan: [
     ["productType", "interactionFlow", "useCases", "painPointsSolved", "newTech", "availability", "limitsOrUnknowns", "productVerdict"]
