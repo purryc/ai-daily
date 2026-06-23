@@ -5039,5 +5039,958 @@
       "Meta Business Agent / Poke: watch AI identity disclosure in message threads, human handoff, refund responsibility, subscription pricing, and platform-review policy.",
       "Research / patents: keep VisionClaw and XR patents as mechanism radar until SDK, hardware, or third-party tests cross-validate them."
     ]
+  },
+  {
+    "date": "2026-06-23",
+    "timezone": "America/Toronto",
+    "zhTitle": "周二版：AI 眼镜进入社会压力测试，语音与桌面 agent 补齐真实输入层",
+    "enTitle": "Tuesday issue: AI glasses enter social stress tests while voice and desktop agents repair real input layers",
+    "zhSummary": "今天的主线不是模型参数，而是入口迁移：眼镜把 AI 放到脸上，语音 agent 先解决听清楚，桌面 agent 开始操作真实 Windows 应用。",
+    "enSummary": "Today’s main line is not model size but entry-point migration: glasses put AI on the face, voice agents first solve hearing, and desktop agents begin operating real Windows applications.",
+    "tags": [
+      "HCI",
+      "AI hardware",
+      "smart glasses",
+      "voice agents",
+      "computer use",
+      "on-device AI",
+      "XR"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "wild",
+      "research",
+      "patent",
+      "china",
+      "global"
+    ],
+    "zhPath": "/ai-daily/2026-06-23/zh/",
+    "enPath": "/ai-daily/2026-06-23/en/",
+    "sourcesPath": "/ai-daily/2026-06-23/sources.md",
+    "coverStory": {
+      "topicId": "snap-specs-near-eye-os",
+      "zhTitle": "封面故事：AI 眼镜不再只是拍摄配件，而是眼前的操作系统候选",
+      "enTitle": "Cover story: AI glasses are no longer camera accessories; they are candidates for a near-eye operating system",
+      "zhSummary": [
+        "Snap Specs、VITURE Helix、Qualcomm Reality Elite 和中国 AI 眼镜信号共同指向同一件事：AI 的默认入口正在从手机屏幕移向眼镜。",
+        "这会同时带来更低摩擦的上下文输入和更高风险的社会界面：旁人隐私、录制提示、价格、佩戴时长、热量和失败接管。",
+        "本期把 confirmed product、developer surface、startup signal、research signal、patent signal 分开，避免把论文、社区热度或专利写成产品事实。"
+      ],
+      "enSummary": [
+        "Snap Specs, VITURE Helix, Qualcomm Reality Elite, and China AI-glasses signals point to one shift: the default AI entry point is moving from phone screen to eyewear.",
+        "That brings lower-friction context input and a higher-risk social interface at the same time: bystander privacy, recording cues, price, wear time, heat, and failure takeover.",
+        "This issue separates confirmed products, developer surfaces, startup signals, research signals, and patent signals so papers, community heat, and patents do not become false product facts."
+      ],
+      "imagePath": "assets/snap-specs-near-eye-os.svg",
+      "imageWidth": 1200,
+      "imageHeight": 760,
+      "imageSourceUrl": "https://newsroom.snap.com/introducing-specs-augmented-reality-glasses",
+      "primarySourceUrl": "https://newsroom.snap.com/introducing-specs-augmented-reality-glasses",
+      "evidenceStrength": "confirmed product · official/developer/media sources",
+      "whyCover": "AI glasses concentrate today’s interface questions into one visible wearable boundary."
+    },
+    "topics": [
+      {
+        "id": "snap-specs-near-eye-os",
+        "section": "official",
+        "zhHeadline": "Snap Specs：AR 眼镜从拍摄配件变成眼前操作系统",
+        "enHeadline": "Snap Specs: AR glasses move from capture accessory toward near-eye operating system",
+        "zhFact": "确认产品：see-through AR glasses / wearable computer，官方称在 AWE 2026 推出并开放预订，开发者 surface 指向 Spectacles/Lens 生态。",
+        "enFact": "Confirmed product: see-through AR glasses / wearable computer, introduced at AWE 2026 with preorder language and a Spectacles/Lens developer surface.",
+        "zhValue": "它解决手机 AR 启动摩擦和社交场景里的屏幕隔离，但高价、可见摄像头和佩戴外观也会制造新的社会阻力。",
+        "enValue": "It addresses phone-AR startup friction and screen separation in social settings, but high price, visible cameras, and the wearer's appearance create new social resistance.",
+        "zhHciLens": [
+          "输入",
+          "上下文",
+          "反馈",
+          "接管"
+        ],
+        "enHciLens": [
+          "Input",
+          "Context",
+          "Feedback",
+          "Takeover"
+        ],
+        "zhImplication": "Verdict：今天的封面产品，强在把 AI 眼镜推进可购买/可开发阶段，风险在社会可接受性和日常闭环。",
+        "enImplication": "Verdict: today’s cover product, strong because it moves AI glasses into a buyable and developable phase, risky because social acceptance and daily closure remain unproven.",
+        "sourceDate": "2026-06-16 / accessed 2026-06-23",
+        "evidenceLabel": "confirmed product",
+        "evidenceStrength": "high / official launch plus developer and media details",
+        "visual": {
+          "path": "assets/snap-specs-near-eye-os.svg",
+          "width": 1200,
+          "height": 760,
+          "altZh": "Snap Specs source-based diagram",
+          "altEn": "Snap Specs source-based diagram",
+          "captionZh": "自绘机制图：Specs、Snap OS、Lens、相机、录制提示与近眼显示；基于官方与媒体来源",
+          "captionEn": "Self-drawn mechanism diagram: Specs, Snap OS, Lens, cameras, recording cue, and near-eye display; source-based",
+          "sourceUrl": "https://newsroom.snap.com/introducing-specs-augmented-reality-glasses"
+        },
+        "sources": [
+          {
+            "label": "Snap Newsroom: Introducing Specs",
+            "url": "https://newsroom.snap.com/introducing-specs-augmented-reality-glasses",
+            "type": "official"
+          },
+          {
+            "label": "Snap Spectacles developer surface",
+            "url": "https://developers.snap.com/spectacles",
+            "type": "developer docs"
+          },
+          {
+            "label": "The Verge: Snap Specs launch details",
+            "url": "https://www.theverge.com/tech/950492/snap-specs-ar-glasses-launch-date-preorder",
+            "type": "review/media"
+          },
+          {
+            "label": "Axios: Snap CEO on Specs strategy",
+            "url": "https://www.axios.com/2026/06/23/snap-specs-ceo-evan-spiegel",
+            "type": "media"
+          }
+        ],
+        "dossierKind": "product",
+        "dossier": {
+          "zh": {
+            "productName": "Snap Specs",
+            "productType": "确认产品：see-through AR glasses / wearable computer，官方称在 AWE 2026 推出并开放预订，开发者 surface 指向 Spectacles/Lens 生态。 本条只采用来源明示信息；未披露的价格、地区、重量、续航、传感器、芯片、API 版本、发货节奏和用户原话均写 source not stated。产品评估以用户能否完成连续任务为准：启动、授权、感知、确认、执行、反馈、撤销和失败恢复必须形成闭环。若来源只给愿景或演示，本期把它当作产品方向，不把演示效果写成量产体验。",
+            "interactionFlow": "用户戴上 Specs 后通过语音、空间输入、相机感知和 Lens 应用完成导航、学习、协作、娱乐和第一视角任务；眼前显示提供反馈，LED/机身提示承担旁人隐私信号。 用户触点必须把设备状态讲清楚：什么时候在听、什么时候在看、什么时候只是本地处理、什么时候把数据交给云端或第三方服务。",
+            "specsOrStack": "来源写明 Snap Specs、Snap OS / Spectacles developer ecosystem、相机、显示与 Lens 开发链路；价格、押金、发货地区、电池和芯片等细节按媒体来源标注。 规格只记录来源明确写出的层级；其余写 source not stated，避免把芯片平台、参考设计或媒体推测混成最终 SKU。",
+            "useCases": "核心场景是把手机 AR 的拿起、解锁、打开 app、对准现实、再解释上下文，压缩成眼前直接发生的动作。 真正的场景价值来自减少切换和解释，不是把同一件事搬到更贵、更贴脸或更自动的表面。",
+            "painPointsSolved": "它解决手机 AR 启动摩擦和社交场景里的屏幕隔离，但高价、可见摄像头和佩戴外观也会制造新的社会阻力。 如果新硬件引入佩戴压力、隐私焦虑、误触、热量或售后不确定，原本被解决的痛点会以新形式回来。",
+            "newTech": "新技术信号是 AR display、AI/视觉感知、Snap OS、Lens runtime 和隐私提示被装进同一副消费级眼镜。 新技术只有改变控制权才算产品进步：用户必须知道系统知道什么、正在做什么、何时需要确认、以及怎样撤销。",
+            "availability": "官方与媒体显示已开放预订，媒体报道 fall 2026、美国/英国/法国、2195 美元和 200 美元押金；最终交付以官方订单为准。 上线、预订、试点和地区信息按来源记录；未披露的售后、开发者资格、长期生态和企业采购条件为 source not stated。",
+            "limitsOrUnknowns": "未知包括全天佩戴、热、电池、显示户外可读性、开发者供给、旁人接受度和失败时的接管方式。 需要后续评测验证日常耐久、错误恢复、隐私提示、边缘场景和多设备连续性。",
+            "productVerdict": "Verdict：今天的封面产品，强在把 AI 眼镜推进可购买/可开发阶段，风险在社会可接受性和日常闭环。 对设计团队的影响是把“AI 能力”翻译为状态语法、权限语法和恢复语法，而不是只做一个入口按钮。"
+          },
+          "en": {
+            "productName": "Snap Specs",
+            "productType": "Confirmed product: see-through AR glasses / wearable computer, introduced at AWE 2026 with preorder language and a Spectacles/Lens developer surface. This dossier uses only source-stated facts. Any price, region, weight, battery, sensor, chipset, API version, shipment timing, or user quote not stated by the cited sources remains source not stated. The product read is based on task closure: invocation, permission, sensing, confirmation, execution, feedback, undo, and failure recovery must form a usable loop. If a source shows vision or demo language only, this issue treats it as product direction rather than confirmed shipped experience.",
+            "interactionFlow": "The wearer uses voice, spatial input, camera perception, and Lens apps for navigation, learning, collaboration, entertainment, and first-person tasks; near-eye display gives feedback while body LEDs or cues carry bystander privacy signals. The touchpoints must make device state legible: when it is listening, seeing, processing locally, sending data to cloud services, asking for confirmation, or handing control back to the user.",
+            "specsOrStack": "Sources state Snap Specs, Snap OS / Spectacles developer ecosystem, cameras, display, and Lens development path; price, deposit, shipping regions, battery, and chipset details are attributed to media reporting. The stack section records only layers stated by sources; everything else remains source not stated so that silicon platforms, reference designs, launch demos, and media inference do not collapse into a fake final SKU.",
+            "useCases": "The core scenario compresses phone AR friction: pick up phone, unlock, open app, aim at reality, and explain context, into a face-worn action loop. The real scenario value is reducing switching, explanation, waiting, and cleanup after failure, not moving the same task onto a more expensive, more wearable, or more automated surface.",
+            "painPointsSolved": "It addresses phone-AR startup friction and screen separation in social settings, but high price, visible cameras, and the wearer's appearance create new social resistance. If the new surface adds wear pressure, privacy anxiety, false triggers, heat, setup work, or unclear support policy, the original pain point returns in another form.",
+            "newTech": "The new technology signal is AR display, AI/vision perception, Snap OS, Lens runtime, and privacy cues packaged into one consumer glasses platform. The technology matters only if it changes the control model: what the system knows, what it is doing, when it asks, how it can be revised, and how a failed action can be undone.",
+            "availability": "Official and media sources show preorder availability; media reports fall 2026, US/UK/France, $2,195, and $200 deposit; final fulfillment remains official-order bound. Launch, preorder, pilot, and region details follow the cited sources; support policy, developer eligibility, long-term ecosystem supply, and enterprise procurement terms remain source not stated unless explicitly disclosed.",
+            "limitsOrUnknowns": "Unknowns include all-day wear, heat, battery, outdoor display legibility, developer supply, bystander acceptance, and takeover behavior after failure. Follow-up reviews must validate daily endurance, error recovery, privacy cues, edge cases, latency under load, and whether workflows survive outside curated demos.",
+            "productVerdict": "Verdict: today’s cover product, strong because it moves AI glasses into a buyable and developable phase, risky because social acceptance and daily closure remain unproven. For product and HCI teams, the design implication is to translate AI capability into state grammar, permission grammar, and recovery grammar rather than another generic AI entry button."
+          }
+        }
+      },
+      {
+        "id": "viture-helix-work-ai-glasses",
+        "section": "reviews",
+        "zhHeadline": "VITURE Helix：AI safety glasses 把眼镜定位成工位上的协作传感器",
+        "enHeadline": "VITURE Helix: AI safety glasses position eyewear as a collaborative workplace sensor",
+        "zhFact": "确认产品/企业试点信号：面向工业、科研、临床等场景的 AI safety glasses，来源描述为基于 NVIDIA XR AI solution。",
+        "enFact": "Confirmed product / enterprise-pilot signal: AI safety glasses for industrial, scientific, and clinical settings, described by sources as built on NVIDIA's XR AI solution.",
+        "zhValue": "它解决工作现场双手被占用、流程复杂、培训依赖专家和错误成本高的问题，但也把隐私、责任归属和网络稳定性推到前台。",
+        "enValue": "It addresses occupied hands, complex procedures, expert-dependent training, and high error cost, while bringing privacy, accountability, and network reliability to the foreground.",
+        "zhHciLens": [
+          "输入",
+          "上下文",
+          "反馈",
+          "接管"
+        ],
+        "enHciLens": [
+          "Input",
+          "Context",
+          "Feedback",
+          "Takeover"
+        ],
+        "zhImplication": "Verdict：比消费 AR 更务实，因为它锚定高价值工作流；但必须证明 AI 建议可靠且可审计。",
+        "enImplication": "Verdict: more pragmatic than consumer AR because it anchors high-value workflows, but it must prove that AI guidance is reliable and auditable.",
+        "sourceDate": "2026-06-16 / accessed 2026-06-23",
+        "evidenceLabel": "confirmed product",
+        "evidenceStrength": "medium-high / company PR plus hands-on media report",
+        "visual": {
+          "path": "assets/viture-helix-work-ai-glasses.svg",
+          "width": 1200,
+          "height": 760,
+          "altZh": "VITURE Helix source-based diagram",
+          "altEn": "VITURE Helix source-based diagram",
+          "captionZh": "自绘产品栈图：12MP camera、4 microphones、NVIDIA XR AI、industrial/clinical workflow；基于来源",
+          "captionEn": "Self-drawn product stack: 12MP camera, four microphones, NVIDIA XR AI, industrial/clinical workflow; source-based",
+          "sourceUrl": "https://www.viture.com/"
+        },
+        "sources": [
+          {
+            "label": "VITURE newsroom",
+            "url": "https://www.viture.com/",
+            "type": "official"
+          },
+          {
+            "label": "PR Newswire / Morningstar: VITURE Helix",
+            "url": "https://www.morningstar.com/news/pr-newswire/20260616cn82418/viture-unveils-helix-the-first-ai-safety-glasses-built-on-nvidias-xr-ai-solution-at-awe-2026",
+            "type": "official/press"
+          },
+          {
+            "label": "Android Central: VITURE Helix report",
+            "url": "https://www.androidcentral.com/gaming/virtual-reality/viture-nvidia-xr-ai-partner-for-smart-safety-glasses-in-the-workforce-that-make-it-easy",
+            "type": "review/media"
+          }
+        ],
+        "dossierKind": "product",
+        "dossier": {
+          "zh": {
+            "productName": "VITURE Helix",
+            "productType": "确认产品/企业试点信号：面向工业、科研、临床等场景的 AI safety glasses，来源描述为基于 NVIDIA XR AI solution。 本条只采用来源明示信息；未披露的价格、地区、重量、续航、传感器、芯片、API 版本、发货节奏和用户原话均写 source not stated。产品评估以用户能否完成连续任务为准：启动、授权、感知、确认、执行、反馈、撤销和失败恢复必须形成闭环。若来源只给愿景或演示，本期把它当作产品方向，不把演示效果写成量产体验。",
+            "interactionFlow": "佩戴者在实验室、工厂或临床流程中通过第一视角相机和麦克风把现场交给多模态 AI，AI 给出 coaching、workflow assistance 或安全提示。 用户触点必须把设备状态讲清楚：什么时候在听、什么时候在看、什么时候只是本地处理、什么时候把数据交给云端或第三方服务。",
+            "specsOrStack": "媒体来源写到 12MP front-facing camera、four microphones、standalone operation、Wi-Fi、Bluetooth 5.3、60+ minutes battery 和 Q1 2027 / 600 美元预期；以正式销售页为准。 规格只记录来源明确写出的层级；其余写 source not stated，避免把芯片平台、参考设计或媒体推测混成最终 SKU。",
+            "useCases": "用例包括湿实验流程提醒、设备操作指导、临床训练、现场检查、危险步骤提示和专家远程监督。 真正的场景价值来自减少切换和解释，不是把同一件事搬到更贵、更贴脸或更自动的表面。",
+            "painPointsSolved": "它解决工作现场双手被占用、流程复杂、培训依赖专家和错误成本高的问题，但也把隐私、责任归属和网络稳定性推到前台。 如果新硬件引入佩戴压力、隐私焦虑、误触、热量或售后不确定，原本被解决的痛点会以新形式回来。",
+            "newTech": "新技术是 XR AI library 与 workplace wearable 的结合：眼镜不只是显示器，而是把第一视角、声音和现场任务绑定到模型。 新技术只有改变控制权才算产品进步：用户必须知道系统知道什么、正在做什么、何时需要确认、以及怎样撤销。",
+            "availability": "AWE 2026 展示和企业试点信号明确；公开零售、认证、采购、售后、医疗合规和批量交付 source not stated。 上线、预订、试点和地区信息按来源记录；未披露的售后、开发者资格、长期生态和企业采购条件为 source not stated。",
+            "limitsOrUnknowns": "最大未知是它在真实班次中的续航、清洁、佩戴、防护等级、延迟、误报和责任边界。 需要后续评测验证日常耐久、错误恢复、隐私提示、边缘场景和多设备连续性。",
+            "productVerdict": "Verdict：比消费 AR 更务实，因为它锚定高价值工作流；但必须证明 AI 建议可靠且可审计。 对设计团队的影响是把“AI 能力”翻译为状态语法、权限语法和恢复语法，而不是只做一个入口按钮。"
+          },
+          "en": {
+            "productName": "VITURE Helix",
+            "productType": "Confirmed product / enterprise-pilot signal: AI safety glasses for industrial, scientific, and clinical settings, described by sources as built on NVIDIA's XR AI solution. This dossier uses only source-stated facts. Any price, region, weight, battery, sensor, chipset, API version, shipment timing, or user quote not stated by the cited sources remains source not stated. The product read is based on task closure: invocation, permission, sensing, confirmation, execution, feedback, undo, and failure recovery must form a usable loop. If a source shows vision or demo language only, this issue treats it as product direction rather than confirmed shipped experience.",
+            "interactionFlow": "A worker in lab, industrial, or clinical workflows gives a multimodal AI the scene through first-person camera and microphones; the AI returns coaching, workflow assistance, or safety guidance. The touchpoints must make device state legible: when it is listening, seeing, processing locally, sending data to cloud services, asking for confirmation, or handing control back to the user.",
+            "specsOrStack": "Media sources state a 12MP front-facing camera, four microphones, standalone operation, Wi-Fi, Bluetooth 5.3, more than 60 minutes of battery, and expected Q1 2027 / $600; final sales page controls. The stack section records only layers stated by sources; everything else remains source not stated so that silicon platforms, reference designs, launch demos, and media inference do not collapse into a fake final SKU.",
+            "useCases": "Use cases include wet-lab workflow reminders, equipment operation guidance, clinical training, field inspection, hazardous-step alerts, and remote expert supervision. The real scenario value is reducing switching, explanation, waiting, and cleanup after failure, not moving the same task onto a more expensive, more wearable, or more automated surface.",
+            "painPointsSolved": "It addresses occupied hands, complex procedures, expert-dependent training, and high error cost, while bringing privacy, accountability, and network reliability to the foreground. If the new surface adds wear pressure, privacy anxiety, false triggers, heat, setup work, or unclear support policy, the original pain point returns in another form.",
+            "newTech": "The new technology is the coupling of XR AI library and workplace wearable: the glasses are not only a display but a way to bind first-person view, audio, and live task context to a model. The technology matters only if it changes the control model: what the system knows, what it is doing, when it asks, how it can be revised, and how a failed action can be undone.",
+            "availability": "AWE 2026 demos and enterprise-pilot signals are clear; public retail, certification, procurement, support, medical compliance, and volume fulfillment are source not stated. Launch, preorder, pilot, and region details follow the cited sources; support policy, developer eligibility, long-term ecosystem supply, and enterprise procurement terms remain source not stated unless explicitly disclosed.",
+            "limitsOrUnknowns": "The largest unknowns are shift-length battery, sanitation, comfort, protective rating, latency, false alerts, and accountability boundaries. Follow-up reviews must validate daily endurance, error recovery, privacy cues, edge cases, latency under load, and whether workflows survive outside curated demos.",
+            "productVerdict": "Verdict: more pragmatic than consumer AR because it anchors high-value workflows, but it must prove that AI guidance is reliable and auditable. For product and HCI teams, the design implication is to translate AI capability into state grammar, permission grammar, and recovery grammar rather than another generic AI entry button."
+          }
+        }
+      },
+      {
+        "id": "qualcomm-reality-elite-start",
+        "section": "official",
+        "zhHeadline": "Qualcomm Reality Elite / START：AI 眼镜底座转向端侧模型、热设计和参考工具链",
+        "enHeadline": "Qualcomm Reality Elite / START: the AI-glasses base shifts to on-device models, thermals, and reference toolchains",
+        "zhFact": "开发者/硬件平台 surface：XR 与 AI wearable 的芯片平台和 reference toolkit，不是终端消费产品。",
+        "enFact": "Developer / hardware platform surface: a chipset platform and reference toolkit for XR and AI wearables, not an end-consumer device.",
+        "zhValue": "它解决 XR 眼镜长期受制于云端、带宽、热、电池和开发碎片化的问题，但平台能力需要 OEM 产品证明。",
+        "enValue": "It addresses XR glasses being constrained by cloud dependence, bandwidth, heat, battery, and development fragmentation, but platform claims need OEM products to prove them.",
+        "zhHciLens": [
+          "输入",
+          "上下文",
+          "反馈",
+          "接管"
+        ],
+        "enHciLens": [
+          "Input",
+          "Context",
+          "Feedback",
+          "Takeover"
+        ],
+        "zhImplication": "Verdict：这是今天所有眼镜产品的底层变量；它决定 AI eyewear 是否能从 demo 走向稳定日用。",
+        "enImplication": "Verdict: this is the underlying variable for today’s glasses products; it determines whether AI eyewear can move from demo to stable daily use.",
+        "sourceDate": "2026-06-16 / accessed 2026-06-23",
+        "evidenceLabel": "developer surface",
+        "evidenceStrength": "high / official silicon and developer-program announcements",
+        "visual": {
+          "path": "assets/qualcomm-reality-elite-start.svg",
+          "width": 1200,
+          "height": 760,
+          "altZh": "Snapdragon Reality Elite / Snapdragon START source-based diagram",
+          "altEn": "Snapdragon Reality Elite / Snapdragon START source-based diagram",
+          "captionZh": "自绘平台图：Reality Elite、48 TOPS、display pipeline、START reference tools；基于 Qualcomm 来源",
+          "captionEn": "Self-drawn platform diagram: Reality Elite, 48 TOPS, display pipeline, START reference tools; Qualcomm-source-based",
+          "sourceUrl": "https://www.qualcomm.com/news/releases/2026/06/qualcomm-takes-spatial-computing-into-the-ai-era-with-snapdragon"
+        },
+        "sources": [
+          {
+            "label": "Qualcomm Reality Elite release",
+            "url": "https://www.qualcomm.com/news/releases/2026/06/qualcomm-takes-spatial-computing-into-the-ai-era-with-snapdragon",
+            "type": "official"
+          },
+          {
+            "label": "Qualcomm Snapdragon START release",
+            "url": "https://www.qualcomm.com/news/releases/2026/06/qualcomm-launches-snapdragon-start-to-enable-the-next-phase-of-p",
+            "type": "official"
+          },
+          {
+            "label": "9to5Google: Snapdragon Reality Elite",
+            "url": "https://9to5google.com/2026/06/16/snapdragon-reality-elite/",
+            "type": "media"
+          }
+        ],
+        "dossierKind": "product",
+        "dossier": {
+          "zh": {
+            "productName": "Snapdragon Reality Elite / Snapdragon START",
+            "productType": "开发者/硬件平台 surface：XR 与 AI wearable 的芯片平台和 reference toolkit，不是终端消费产品。 本条只采用来源明示信息；未披露的价格、地区、重量、续航、传感器、芯片、API 版本、发货节奏和用户原话均写 source not stated。产品评估以用户能否完成连续任务为准：启动、授权、感知、确认、执行、反馈、撤销和失败恢复必须形成闭环。若来源只给愿景或演示，本期把它当作产品方向，不把演示效果写成量产体验。",
+            "interactionFlow": "终端用户不会直接操作芯片，但会通过更低延迟的手势、空间显示、live translation、agent feedback 和本地视觉模型感受到它。 用户触点必须把设备状态讲清楚：什么时候在听、什么时候在看、什么时候只是本地处理、什么时候把数据交给云端或第三方服务。",
+            "specsOrStack": "官方写到 advanced on-device AI、up to 48 TOPS、LLM/LVM 支持、XR display pipeline 和 START 工具；媒体补充 CPU/GPU/NPU 与热效率提升。 规格只记录来源明确写出的层级；其余写 source not stated，避免把芯片平台、参考设计或媒体推测混成最终 SKU。",
+            "useCases": "用例包括 photoreal avatars、spatial computing、AI agents、live translation、智能眼镜参考设计和 OEM 快速开发。 真正的场景价值来自减少切换和解释，不是把同一件事搬到更贵、更贴脸或更自动的表面。",
+            "painPointsSolved": "它解决 XR 眼镜长期受制于云端、带宽、热、电池和开发碎片化的问题，但平台能力需要 OEM 产品证明。 如果新硬件引入佩戴压力、隐私焦虑、误触、热量或售后不确定，原本被解决的痛点会以新形式回来。",
+            "newTech": "新技术是端侧 LLM/LVM、XR display pipeline、低功耗空间计算和 START reference design 被打包成一条设备制造路径。 新技术只有改变控制权才算产品进步：用户必须知道系统知道什么、正在做什么、何时需要确认、以及怎样撤销。",
+            "availability": "平台已发布；具体终端、价格、地区、固件、SDK 版本和量产计划按各 OEM 后续官方发布。 上线、预订、试点和地区信息按来源记录；未披露的售后、开发者资格、长期生态和企业采购条件为 source not stated。",
+            "limitsOrUnknowns": "未知是实际终端能否在轻量眼镜中同时满足性能、热、电池、重量和成本。 需要后续评测验证日常耐久、错误恢复、隐私提示、边缘场景和多设备连续性。",
+            "productVerdict": "Verdict：这是今天所有眼镜产品的底层变量；它决定 AI eyewear 是否能从 demo 走向稳定日用。 对设计团队的影响是把“AI 能力”翻译为状态语法、权限语法和恢复语法，而不是只做一个入口按钮。"
+          },
+          "en": {
+            "productName": "Snapdragon Reality Elite / Snapdragon START",
+            "productType": "Developer / hardware platform surface: a chipset platform and reference toolkit for XR and AI wearables, not an end-consumer device. This dossier uses only source-stated facts. Any price, region, weight, battery, sensor, chipset, API version, shipment timing, or user quote not stated by the cited sources remains source not stated. The product read is based on task closure: invocation, permission, sensing, confirmation, execution, feedback, undo, and failure recovery must form a usable loop. If a source shows vision or demo language only, this issue treats it as product direction rather than confirmed shipped experience.",
+            "interactionFlow": "End users do not operate the chip directly, but they feel it through lower-latency gesture, spatial display, live translation, agent feedback, and local vision models. The touchpoints must make device state legible: when it is listening, seeing, processing locally, sending data to cloud services, asking for confirmation, or handing control back to the user.",
+            "specsOrStack": "Official sources state advanced on-device AI, up to 48 TOPS, LLM/LVM support, XR display pipeline, and START tools; media adds CPU/GPU/NPU and thermal-efficiency discussion. The stack section records only layers stated by sources; everything else remains source not stated so that silicon platforms, reference designs, launch demos, and media inference do not collapse into a fake final SKU.",
+            "useCases": "Use cases include photoreal avatars, spatial computing, AI agents, live translation, smart-glasses reference design, and faster OEM development. The real scenario value is reducing switching, explanation, waiting, and cleanup after failure, not moving the same task onto a more expensive, more wearable, or more automated surface.",
+            "painPointsSolved": "It addresses XR glasses being constrained by cloud dependence, bandwidth, heat, battery, and development fragmentation, but platform claims need OEM products to prove them. If the new surface adds wear pressure, privacy anxiety, false triggers, heat, setup work, or unclear support policy, the original pain point returns in another form.",
+            "newTech": "The new technology is packaging on-device LLM/LVM, XR display pipeline, low-power spatial computing, and START reference design into one device-making path. The technology matters only if it changes the control model: what the system knows, what it is doing, when it asks, how it can be revised, and how a failed action can be undone.",
+            "availability": "The platform is announced; device SKUs, price, region, firmware, SDK version, and production plans depend on later OEM official announcements. Launch, preorder, pilot, and region details follow the cited sources; support policy, developer eligibility, long-term ecosystem supply, and enterprise procurement terms remain source not stated unless explicitly disclosed.",
+            "limitsOrUnknowns": "The unknown is whether real devices can satisfy performance, heat, battery, weight, and cost at the same time in lightweight glasses. Follow-up reviews must validate daily endurance, error recovery, privacy cues, edge cases, latency under load, and whether workflows survive outside curated demos.",
+            "productVerdict": "Verdict: this is the underlying variable for today’s glasses products; it determines whether AI eyewear can move from demo to stable daily use. For product and HCI teams, the design implication is to translate AI capability into state grammar, permission grammar, and recovery grammar rather than another generic AI entry button."
+          }
+        }
+      },
+      {
+        "id": "hush-voice-agent-noise",
+        "section": "wild",
+        "zhHeadline": "Hush：voice AI agent 的体验瓶颈从模型回答转到“听清谁在说话”",
+        "enHeadline": "Hush: voice-agent UX shifts from answer quality to hearing the right speaker",
+        "zhFact": "开源 startup/developer 产品：面向 voice AI agents 的 speech enhancement / background speaker suppression 模型。",
+        "enFact": "Open-source startup / developer product: a speech-enhancement and background-speaker-suppression model for voice AI agents.",
+        "zhValue": "它解决 voice agent 最基础但最容易被忽视的痛点：不是模型不会答，而是前端音频让模型听错人、漏听或把背景当指令。",
+        "enValue": "It addresses the most basic but often under-discussed voice-agent pain: the model may answer well, but the audio frontend makes it hear the wrong person, miss speech, or treat background talk as instruction.",
+        "zhHciLens": [
+          "输入",
+          "上下文",
+          "反馈",
+          "接管"
+        ],
+        "enHciLens": [
+          "Input",
+          "Context",
+          "Feedback",
+          "Takeover"
+        ],
+        "zhImplication": "Verdict：小而关键。AI voice 产品要先把“听见正确的人”做成可靠基础设施。",
+        "enImplication": "Verdict: small but critical. Voice AI products must first make hearing the right speaker into reliable infrastructure.",
+        "sourceDate": "2026-06-23",
+        "evidenceLabel": "startup signal",
+        "evidenceStrength": "medium / Product Hunt plus GitHub and model pages",
+        "visual": {
+          "path": "assets/hush-voice-agent-noise.svg",
+          "width": 1200,
+          "height": 760,
+          "altZh": "Hush source-based diagram",
+          "altEn": "Hush source-based diagram",
+          "captionZh": "自绘音频管线图：speech enhancement、speaker suppression、CPU real-time、voice agent input；基于来源",
+          "captionEn": "Self-drawn audio pipeline: speech enhancement, speaker suppression, CPU real-time, voice-agent input; source-based",
+          "sourceUrl": "https://www.producthunt.com/products/hush-df34eafa-13f7-4d91-856f-162c2a9d81ee"
+        },
+        "sources": [
+          {
+            "label": "Product Hunt: Hush",
+            "url": "https://www.producthunt.com/products/hush-df34eafa-13f7-4d91-856f-162c2a9d81ee",
+            "type": "wild/startup"
+          },
+          {
+            "label": "GitHub: pulp-vision/Hush",
+            "url": "https://github.com/pulp-vision/Hush",
+            "type": "developer"
+          },
+          {
+            "label": "Hugging Face: weya-ai/hush",
+            "url": "https://huggingface.co/weya-ai/hush",
+            "type": "developer/model"
+          }
+        ],
+        "dossierKind": "product",
+        "dossier": {
+          "zh": {
+            "productName": "Hush",
+            "productType": "开源 startup/developer 产品：面向 voice AI agents 的 speech enhancement / background speaker suppression 模型。 本条只采用来源明示信息；未披露的价格、地区、重量、续航、传感器、芯片、API 版本、发货节奏和用户原话均写 source not stated。产品评估以用户能否完成连续任务为准：启动、授权、感知、确认、执行、反馈、撤销和失败恢复必须形成闭环。若来源只给愿景或演示，本期把它当作产品方向，不把演示效果写成量产体验。",
+            "interactionFlow": "开发者把 Hush 放在实时通话或语音代理的音频输入前，先过滤背景说话人、环境噪声和干扰，再把更干净的语音交给 ASR/agent。 用户触点必须把设备状态讲清楚：什么时候在听、什么时候在看、什么时候只是本地处理、什么时候把数据交给云端或第三方服务。",
+            "specsOrStack": "来源写到 8 MB model、CPU real-time、10,000+ hours mixed audio、under 1 ms per 10 ms audio；部署细节和许可按仓库。 规格只记录来源明确写出的层级；其余写 source not stated，避免把芯片平台、参考设计或媒体推测混成最终 SKU。",
+            "useCases": "场景是客服、销售电话、医疗问诊、车内语音、会议代理、直播助手和任何多说话人/嘈杂环境里的 voice AI。 真正的场景价值来自减少切换和解释，不是把同一件事搬到更贵、更贴脸或更自动的表面。",
+            "painPointsSolved": "它解决 voice agent 最基础但最容易被忽视的痛点：不是模型不会答，而是前端音频让模型听错人、漏听或把背景当指令。 如果新硬件引入佩戴压力、隐私焦虑、误触、热量或售后不确定，原本被解决的痛点会以新形式回来。",
+            "newTech": "新技术信号是为 agent 输入而非普通降噪优化的小模型，把 cocktail-party problem 放进实时产品管线。 新技术只有改变控制权才算产品进步：用户必须知道系统知道什么、正在做什么、何时需要确认、以及怎样撤销。",
+            "availability": "Product Hunt 今日发布；GitHub 和 Hugging Face 页面可访问。生产 SLA、企业支持、移动端 SDK、隐私合规 source not stated。 上线、预订、试点和地区信息按来源记录；未披露的售后、开发者资格、长期生态和企业采购条件为 source not stated。",
+            "limitsOrUnknowns": "未知是不同口音、重叠说话、电话压缩、远场麦克风、回声、端侧功耗和真实 agent 错误率。 需要后续评测验证日常耐久、错误恢复、隐私提示、边缘场景和多设备连续性。",
+            "productVerdict": "Verdict：小而关键。AI voice 产品要先把“听见正确的人”做成可靠基础设施。 对设计团队的影响是把“AI 能力”翻译为状态语法、权限语法和恢复语法，而不是只做一个入口按钮。"
+          },
+          "en": {
+            "productName": "Hush",
+            "productType": "Open-source startup / developer product: a speech-enhancement and background-speaker-suppression model for voice AI agents. This dossier uses only source-stated facts. Any price, region, weight, battery, sensor, chipset, API version, shipment timing, or user quote not stated by the cited sources remains source not stated. The product read is based on task closure: invocation, permission, sensing, confirmation, execution, feedback, undo, and failure recovery must form a usable loop. If a source shows vision or demo language only, this issue treats it as product direction rather than confirmed shipped experience.",
+            "interactionFlow": "A developer places Hush before the audio input of a realtime call or voice agent, suppressing background speakers, environmental noise, and interference before ASR or agent processing. The touchpoints must make device state legible: when it is listening, seeing, processing locally, sending data to cloud services, asking for confirmation, or handing control back to the user.",
+            "specsOrStack": "Sources state an 8 MB model, CPU realtime operation, 10,000+ hours of mixed audio, and under 1 ms processing per 10 ms audio; deployment and license details follow the repository. The stack section records only layers stated by sources; everything else remains source not stated so that silicon platforms, reference designs, launch demos, and media inference do not collapse into a fake final SKU.",
+            "useCases": "Scenes include customer support, sales calls, healthcare intake, in-car voice, meeting agents, live assistants, and any multi-speaker or noisy voice-AI environment. The real scenario value is reducing switching, explanation, waiting, and cleanup after failure, not moving the same task onto a more expensive, more wearable, or more automated surface.",
+            "painPointsSolved": "It addresses the most basic but often under-discussed voice-agent pain: the model may answer well, but the audio frontend makes it hear the wrong person, miss speech, or treat background talk as instruction. If the new surface adds wear pressure, privacy anxiety, false triggers, heat, setup work, or unclear support policy, the original pain point returns in another form.",
+            "newTech": "The technology signal is a small model optimized for agent input rather than generic noise cancellation, bringing the cocktail-party problem into realtime product pipelines. The technology matters only if it changes the control model: what the system knows, what it is doing, when it asks, how it can be revised, and how a failed action can be undone.",
+            "availability": "Launched on Product Hunt today; GitHub and Hugging Face pages are accessible. Production SLA, enterprise support, mobile SDKs, and privacy compliance are source not stated. Launch, preorder, pilot, and region details follow the cited sources; support policy, developer eligibility, long-term ecosystem supply, and enterprise procurement terms remain source not stated unless explicitly disclosed.",
+            "limitsOrUnknowns": "Unknowns include accents, overlapped speech, telephony compression, far-field microphones, echo, edge power consumption, and real agent error rates. Follow-up reviews must validate daily endurance, error recovery, privacy cues, edge cases, latency under load, and whether workflows survive outside curated demos.",
+            "productVerdict": "Verdict: small but critical. Voice AI products must first make hearing the right speaker into reliable infrastructure. For product and HCI teams, the design implication is to translate AI capability into state grammar, permission grammar, and recovery grammar rather than another generic AI entry button."
+          }
+        }
+      },
+      {
+        "id": "openai-codex-windows-computer-use",
+        "section": "global",
+        "zhHeadline": "Codex Windows computer use：agent 从代码仓库走进真实桌面应用",
+        "enHeadline": "Codex Windows computer use: agents move from repositories into real desktop applications",
+        "zhFact": "开发者 surface：Codex app 在 Windows 上可看、点、输入并操作前台桌面应用，同时支持从移动端或 Mac 远程启动/查看进度。",
+        "enFact": "Developer surface: the Codex app can see, click, and type in foreground Windows desktop apps, with remote start and progress checking from mobile or Mac.",
+        "zhValue": "它解决开发者自动化无法触达真实桌面 UI 的问题，但把安全边界、前台占用和误操作恢复变得更重要。",
+        "enValue": "It solves the problem that developer automation cannot reach real desktop UI, while making security boundaries, foreground occupation, and recovery from wrong actions more important.",
+        "zhHciLens": [
+          "输入",
+          "上下文",
+          "反馈",
+          "接管"
+        ],
+        "enHciLens": [
+          "Input",
+          "Context",
+          "Feedback",
+          "Takeover"
+        ],
+        "zhImplication": "Verdict：这是软件产品里最接近 agentic OS 的真实进展；UX 关键是让用户知道 agent 正在哪里动手。",
+        "enImplication": "Verdict: one of the clearest software moves toward an agentic OS; the UX key is letting the user know exactly where the agent is acting.",
+        "sourceDate": "2026-05-29 / accessed 2026-06-23",
+        "evidenceLabel": "developer surface",
+        "evidenceStrength": "high / official changelog",
+        "visual": {
+          "path": "assets/openai-codex-windows-computer-use.svg",
+          "width": 1200,
+          "height": 760,
+          "altZh": "Codex computer use on Windows source-based diagram",
+          "altEn": "Codex computer use on Windows source-based diagram",
+          "captionZh": "自绘流程图：Codex sees/clicks/types、Windows app、mobile/Mac remote steering；基于官方 changelog",
+          "captionEn": "Self-drawn flow: Codex sees/clicks/types, Windows app, mobile/Mac remote steering; official-changelog-based",
+          "sourceUrl": "https://developers.openai.com/codex/changelog"
+        },
+        "sources": [
+          {
+            "label": "OpenAI Developers: Codex changelog",
+            "url": "https://developers.openai.com/codex/changelog",
+            "type": "official/developer"
+          },
+          {
+            "label": "OpenAI: Codex for almost everything",
+            "url": "https://openai.com/index/codex-for-almost-everything/",
+            "type": "official"
+          },
+          {
+            "label": "Reddit r/codex: Windows update discussion",
+            "url": "https://www.reddit.com/r/codex/comments/1tras7t/codex_update_on_windows_seems_like_remote_and/",
+            "type": "community"
+          }
+        ],
+        "dossierKind": "product",
+        "dossier": {
+          "zh": {
+            "productName": "Codex computer use on Windows",
+            "productType": "开发者 surface：Codex app 在 Windows 上可看、点、输入并操作前台桌面应用，同时支持从移动端或 Mac 远程启动/查看进度。 本条只采用来源明示信息；未披露的价格、地区、重量、续航、传感器、芯片、API 版本、发货节奏和用户原话均写 source not stated。产品评估以用户能否完成连续任务为准：启动、授权、感知、确认、执行、反馈、撤销和失败恢复必须形成闭环。若来源只给愿景或演示，本期把它当作产品方向，不把演示效果写成量产体验。",
+            "interactionFlow": "用户给出任务，Codex 进入 Windows 前台应用，观察界面、点击控件、输入内容、运行验证，再把进度回传给移动端或 Mac 端。 用户触点必须把设备状态讲清楚：什么时候在听、什么时候在看、什么时候只是本地处理、什么时候把数据交给云端或第三方服务。",
+            "specsOrStack": "官方 changelog 写到 Windows 26.527、computer use、mobile remote control、profile usage stats；具体权限、隔离、日志保留和企业策略按产品文档。 规格只记录来源明确写出的层级；其余写 source not stated，避免把芯片平台、参考设计或媒体推测混成最终 SKU。",
+            "useCases": "场景包括测试 Windows 桌面应用、调试没有 API 的 GUI、复现用户路径、跨设备启动任务和把前台操作交给 agent。 真正的场景价值来自减少切换和解释，不是把同一件事搬到更贵、更贴脸或更自动的表面。",
+            "painPointsSolved": "它解决开发者自动化无法触达真实桌面 UI 的问题，但把安全边界、前台占用和误操作恢复变得更重要。 如果新硬件引入佩戴压力、隐私焦虑、误触、热量或售后不确定，原本被解决的痛点会以新形式回来。",
+            "newTech": "新技术是视觉驱动 computer use 与 coding agent 工作流结合：agent 不只改文件，也能操作真实软件表面。 新技术只有改变控制权才算产品进步：用户必须知道系统知道什么、正在做什么、何时需要确认、以及怎样撤销。",
+            "availability": "官方 changelog 表示该功能已在 Windows Codex app 版本中上线；账号资格、地区和企业开关 source not stated。 上线、预订、试点和地区信息按来源记录；未披露的售后、开发者资格、长期生态和企业采购条件为 source not stated。",
+            "limitsOrUnknowns": "未知是多窗口稳定性、权限提示、敏感数据处理、长任务恢复、错误点击撤销和用户同时操作冲突。 需要后续评测验证日常耐久、错误恢复、隐私提示、边缘场景和多设备连续性。",
+            "productVerdict": "Verdict：这是软件产品里最接近 agentic OS 的真实进展；UX 关键是让用户知道 agent 正在哪里动手。 对设计团队的影响是把“AI 能力”翻译为状态语法、权限语法和恢复语法，而不是只做一个入口按钮。"
+          },
+          "en": {
+            "productName": "Codex computer use on Windows",
+            "productType": "Developer surface: the Codex app can see, click, and type in foreground Windows desktop apps, with remote start and progress checking from mobile or Mac. This dossier uses only source-stated facts. Any price, region, weight, battery, sensor, chipset, API version, shipment timing, or user quote not stated by the cited sources remains source not stated. The product read is based on task closure: invocation, permission, sensing, confirmation, execution, feedback, undo, and failure recovery must form a usable loop. If a source shows vision or demo language only, this issue treats it as product direction rather than confirmed shipped experience.",
+            "interactionFlow": "The user gives a task; Codex enters foreground Windows apps, observes UI, clicks controls, types, runs verification, and reports progress back to mobile or Mac surfaces. The touchpoints must make device state legible: when it is listening, seeing, processing locally, sending data to cloud services, asking for confirmation, or handing control back to the user.",
+            "specsOrStack": "The official changelog states Windows 26.527, computer use, mobile remote control, and profile usage stats; permission model, isolation, log retention, and enterprise policy depend on product docs. The stack section records only layers stated by sources; everything else remains source not stated so that silicon platforms, reference designs, launch demos, and media inference do not collapse into a fake final SKU.",
+            "useCases": "Scenes include testing Windows desktop apps, debugging GUIs without APIs, reproducing user flows, starting work across devices, and delegating foreground operations to an agent. The real scenario value is reducing switching, explanation, waiting, and cleanup after failure, not moving the same task onto a more expensive, more wearable, or more automated surface.",
+            "painPointsSolved": "It solves the problem that developer automation cannot reach real desktop UI, while making security boundaries, foreground occupation, and recovery from wrong actions more important. If the new surface adds wear pressure, privacy anxiety, false triggers, heat, setup work, or unclear support policy, the original pain point returns in another form.",
+            "newTech": "The technology is visual computer use combined with coding-agent workflow: the agent no longer only edits files, it can operate real software surfaces. The technology matters only if it changes the control model: what the system knows, what it is doing, when it asks, how it can be revised, and how a failed action can be undone.",
+            "availability": "The official changelog states availability in a Windows Codex app release; account eligibility, regions, and enterprise toggles are source not stated. Launch, preorder, pilot, and region details follow the cited sources; support policy, developer eligibility, long-term ecosystem supply, and enterprise procurement terms remain source not stated unless explicitly disclosed.",
+            "limitsOrUnknowns": "Unknowns include multi-window stability, permission prompts, sensitive-data handling, long-task recovery, undo after wrong clicks, and conflict with simultaneous human operation. Follow-up reviews must validate daily endurance, error recovery, privacy cues, edge cases, latency under load, and whether workflows survive outside curated demos.",
+            "productVerdict": "Verdict: one of the clearest software moves toward an agentic OS; the UX key is letting the user know exactly where the agent is acting. For product and HCI teams, the design implication is to translate AI capability into state grammar, permission grammar, and recovery grammar rather than another generic AI entry button."
+          }
+        }
+      },
+      {
+        "id": "poke-messages-agent",
+        "section": "wild",
+        "zhHeadline": "Poke：AI agent 进入 Apple Messages for Business，把 agent 变成一条可验证的聊天线程",
+        "enHeadline": "Poke: AI agents enter Apple Messages for Business and become verifiable chat threads",
+        "zhFact": "startup 产品：通过短信、Telegram、部分市场 WhatsApp 和 Apple Messages for Business 提供 AI agent 对话入口。",
+        "enFact": "Startup product: an AI-agent conversational entry point over SMS, Telegram, selected-market WhatsApp, and Apple Messages for Business.",
+        "zhValue": "它解决 app fatigue 和 agent 入口分散的问题，但会遇到平台政策、验证身份、支付确认和人工转接。",
+        "enValue": "It addresses app fatigue and fragmented agent entry points, but faces platform policy, identity verification, payment confirmation, and human handoff issues.",
+        "zhHciLens": [
+          "输入",
+          "上下文",
+          "反馈",
+          "接管"
+        ],
+        "enHciLens": [
+          "Input",
+          "Context",
+          "Feedback",
+          "Takeover"
+        ],
+        "zhImplication": "Verdict：Poke 把 agent 放到用户已经每天打开的 thread 里，比独立 app 更接近真实分发。",
+        "enImplication": "Verdict: Poke puts agents inside threads users already open every day, making distribution more plausible than a standalone app.",
+        "sourceDate": "2026-06-04 / accessed 2026-06-23",
+        "evidenceLabel": "startup signal",
+        "evidenceStrength": "medium / startup page plus media report",
+        "visual": {
+          "path": "assets/poke-messages-agent.svg",
+          "width": 1200,
+          "height": 760,
+          "altZh": "Poke source-based diagram",
+          "altEn": "Poke source-based diagram",
+          "captionZh": "自绘消息流：Apple Messages、SMS、Telegram、WhatsApp markets、rich actions；基于来源",
+          "captionEn": "Self-drawn message flow: Apple Messages, SMS, Telegram, WhatsApp markets, rich actions; source-based",
+          "sourceUrl": "https://poke.com/"
+        },
+        "sources": [
+          {
+            "label": "Poke product page",
+            "url": "https://poke.com/",
+            "type": "startup/product"
+          },
+          {
+            "label": "TechCrunch: Poke approved for Apple Messages",
+            "url": "https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/",
+            "type": "media"
+          },
+          {
+            "label": "TechCrunch: Poke agent over messages",
+            "url": "https://techcrunch.com/2026/04/08/poke-makes-ai-agents-as-easy-as-sending-a-text/",
+            "type": "media"
+          }
+        ],
+        "dossierKind": "product",
+        "dossier": {
+          "zh": {
+            "productName": "Poke",
+            "productType": "startup 产品：通过短信、Telegram、部分市场 WhatsApp 和 Apple Messages for Business 提供 AI agent 对话入口。 本条只采用来源明示信息；未披露的价格、地区、重量、续航、传感器、芯片、API 版本、发货节奏和用户原话均写 source not stated。产品评估以用户能否完成连续任务为准：启动、授权、感知、确认、执行、反馈、撤销和失败恢复必须形成闭环。若来源只给愿景或演示，本期把它当作产品方向，不把演示效果写成量产体验。",
+            "interactionFlow": "用户像发消息一样请求订餐、预约、购买、查询或执行小任务；agent 在同一线程里澄清、调用服务、给出选择和确认结果。 用户触点必须把设备状态讲清楚：什么时候在听、什么时候在看、什么时候只是本地处理、什么时候把数据交给云端或第三方服务。",
+            "specsOrStack": "来源写到 Apple Messages for Business approval、SMS/Telegram、Linq 方案和部分 WhatsApp 受限市场；具体 API、支付、身份和数据保留 source not stated。 规格只记录来源明确写出的层级；其余写 source not stated，避免把芯片平台、参考设计或媒体推测混成最终 SKU。",
+            "useCases": "场景是用户不想下载 app 或打开网页时，把低频但高摩擦任务放进已经信任的消息渠道。 真正的场景价值来自减少切换和解释，不是把同一件事搬到更贵、更贴脸或更自动的表面。",
+            "painPointsSolved": "它解决 app fatigue 和 agent 入口分散的问题，但会遇到平台政策、验证身份、支付确认和人工转接。 如果新硬件引入佩戴压力、隐私焦虑、误触、热量或售后不确定，原本被解决的痛点会以新形式回来。",
+            "newTech": "新技术不是模型本身，而是把 agent 绑定到 verified business messaging surface，让交互天然有历史记录和通知机制。 新技术只有改变控制权才算产品进步：用户必须知道系统知道什么、正在做什么、何时需要确认、以及怎样撤销。",
+            "availability": "来源显示 Apple Messages for Business 入口已获批；具体国家、企业接入、费用和失败 SLA source not stated。 上线、预订、试点和地区信息按来源记录；未披露的售后、开发者资格、长期生态和企业采购条件为 source not stated。",
+            "limitsOrUnknowns": "未知是平台政策变化、跨渠道状态同步、付款安全、agent 越权和用户如何把任务交回真人。 需要后续评测验证日常耐久、错误恢复、隐私提示、边缘场景和多设备连续性。",
+            "productVerdict": "Verdict：Poke 把 agent 放到用户已经每天打开的 thread 里，比独立 app 更接近真实分发。 对设计团队的影响是把“AI 能力”翻译为状态语法、权限语法和恢复语法，而不是只做一个入口按钮。"
+          },
+          "en": {
+            "productName": "Poke",
+            "productType": "Startup product: an AI-agent conversational entry point over SMS, Telegram, selected-market WhatsApp, and Apple Messages for Business. This dossier uses only source-stated facts. Any price, region, weight, battery, sensor, chipset, API version, shipment timing, or user quote not stated by the cited sources remains source not stated. The product read is based on task closure: invocation, permission, sensing, confirmation, execution, feedback, undo, and failure recovery must form a usable loop. If a source shows vision or demo language only, this issue treats it as product direction rather than confirmed shipped experience.",
+            "interactionFlow": "The user requests ordering, booking, purchasing, lookup, or small tasks as a message; the agent clarifies, calls services, presents options, and confirms outcome inside the same thread. The touchpoints must make device state legible: when it is listening, seeing, processing locally, sending data to cloud services, asking for confirmation, or handing control back to the user.",
+            "specsOrStack": "Sources state Apple Messages for Business approval, SMS/Telegram, Linq, and limited-market WhatsApp support; API, payments, identity, and data retention are source not stated. The stack section records only layers stated by sources; everything else remains source not stated so that silicon platforms, reference designs, launch demos, and media inference do not collapse into a fake final SKU.",
+            "useCases": "The scene is when a user does not want another app or webpage and wants low-frequency but high-friction tasks inside an already trusted messaging channel. The real scenario value is reducing switching, explanation, waiting, and cleanup after failure, not moving the same task onto a more expensive, more wearable, or more automated surface.",
+            "painPointsSolved": "It addresses app fatigue and fragmented agent entry points, but faces platform policy, identity verification, payment confirmation, and human handoff issues. If the new surface adds wear pressure, privacy anxiety, false triggers, heat, setup work, or unclear support policy, the original pain point returns in another form.",
+            "newTech": "The new technology is less the model than binding the agent to a verified business messaging surface, where interaction naturally has history and notification mechanics. The technology matters only if it changes the control model: what the system knows, what it is doing, when it asks, how it can be revised, and how a failed action can be undone.",
+            "availability": "Sources show the Apple Messages for Business entry is approved; countries, merchant onboarding, pricing, and failure SLA are source not stated. Launch, preorder, pilot, and region details follow the cited sources; support policy, developer eligibility, long-term ecosystem supply, and enterprise procurement terms remain source not stated unless explicitly disclosed.",
+            "limitsOrUnknowns": "Unknowns include platform-policy changes, cross-channel state sync, payment safety, agent overreach, and handoff back to humans. Follow-up reviews must validate daily endurance, error recovery, privacy cues, edge cases, latency under load, and whether workflows survive outside curated demos.",
+            "productVerdict": "Verdict: Poke puts agents inside threads users already open every day, making distribution more plausible than a standalone app. For product and HCI teams, the design implication is to translate AI capability into state grammar, permission grammar, and recovery grammar rather than another generic AI entry button."
+          }
+        }
+      },
+      {
+        "id": "china-ai-glasses-privacy-market",
+        "section": "china",
+        "zhHeadline": "中国 AI 眼镜：显示、翻译、支付和隐私摩擦同时进入大众市场",
+        "enHeadline": "China AI glasses: display, translation, payment, and privacy friction enter the mass market together",
+        "zhFact": "中国市场产品 dossier：不是单一新品，而是讯飞、千问、Rokid、雷鸟等 AI 眼镜在显示、翻译、办公、生活服务和隐私上的集中信号。",
+        "enFact": "China-market product dossier: not one new SKU, but a cluster of iFLYTEK, Qianwen, Rokid, Thunderbird and other AI glasses signals around display, translation, office work, local services, and privacy.",
+        "zhValue": "它解决手机翻译、会议记录和生活服务入口的切换问题，但也把偷拍、考试作弊、录制提示遮挡和公众不信任放大。",
+        "enValue": "It addresses switching across phone translation, meeting notes, and local-service entry points, but amplifies stealth recording, exam cheating, capture-light blocking, and public distrust.",
+        "zhHciLens": [
+          "输入",
+          "上下文",
+          "反馈",
+          "接管"
+        ],
+        "enHciLens": [
+          "Input",
+          "Context",
+          "Feedback",
+          "Takeover"
+        ],
+        "zhImplication": "Verdict：中国 lane 说明 AI 眼镜已经从科技尝鲜进入社会摩擦测试，隐私 UX 变成购买理由的一部分。",
+        "enImplication": "Verdict: the China lane shows AI glasses moving from tech novelty into social-friction testing, where privacy UX becomes part of the purchase reason.",
+        "sourceDate": "2026-06-23",
+        "evidenceLabel": "review/community friction",
+        "evidenceStrength": "medium / China media scan with product examples",
+        "visual": {
+          "path": "assets/china-ai-glasses-privacy-market.svg",
+          "width": 1200,
+          "height": 760,
+          "altZh": "China AI glasses lane source-based diagram",
+          "altEn": "China AI glasses lane source-based diagram",
+          "captionZh": "自绘市场图：讯飞、千问、Rokid、雷鸟、隐私/考场/遮光贴摩擦；基于中文媒体来源",
+          "captionEn": "Self-drawn market map: iFLYTEK, Qianwen, Rokid, Thunderbird, privacy/exam/sticker friction; China-media-based",
+          "sourceUrl": "https://m.36kr.com/p/3848908181043845"
+        },
+        "sources": [
+          {
+            "label": "36Kr: 智能眼镜 618 期中考",
+            "url": "https://m.36kr.com/p/3848908181043845",
+            "type": "china/media"
+          },
+          {
+            "label": "36Kr: AI眼镜赛道全面起势",
+            "url": "https://m.36kr.com/p/3855201250507656",
+            "type": "china/media"
+          },
+          {
+            "label": "36Kr: 智能眼镜隐私摩擦",
+            "url": "https://www.36kr.com/p/3854356284134406",
+            "type": "china/media/community friction"
+          }
+        ],
+        "dossierKind": "product",
+        "dossier": {
+          "zh": {
+            "productName": "China AI glasses lane",
+            "productType": "中国市场产品 dossier：不是单一新品，而是讯飞、千问、Rokid、雷鸟等 AI 眼镜在显示、翻译、办公、生活服务和隐私上的集中信号。 本条只采用来源明示信息；未披露的价格、地区、重量、续航、传感器、芯片、API 版本、发货节奏和用户原话均写 source not stated。产品评估以用户能否完成连续任务为准：启动、授权、感知、确认、执行、反馈、撤销和失败恢复必须形成闭环。若来源只给愿景或演示，本期把它当作产品方向，不把演示效果写成量产体验。",
+            "interactionFlow": "用户戴上眼镜后通过语音、近眼字幕、拍摄、翻译、导航、提词、扫码支付或生活服务完成碎片任务；部分产品强调商务会议、跨语言沟通和生态闭环。 用户触点必须把设备状态讲清楚：什么时候在听、什么时候在看、什么时候只是本地处理、什么时候把数据交给云端或第三方服务。",
+            "specsOrStack": "中文媒体写到双目单色显示、视觉唇动识别降噪、122 种语言互译、行业词库、生态服务接入等；具体单品规格须回到各厂商官方页。 规格只记录来源明确写出的层级；其余写 source not stated，避免把芯片平台、参考设计或媒体推测混成最终 SKU。",
+            "useCases": "用例包括展会、采访、会议、跨语言商务、导航、外卖/快递/支付、内容记录和高频生活任务。 真正的场景价值来自减少切换和解释，不是把同一件事搬到更贵、更贴脸或更自动的表面。",
+            "painPointsSolved": "它解决手机翻译、会议记录和生活服务入口的切换问题，但也把偷拍、考试作弊、录制提示遮挡和公众不信任放大。 如果新硬件引入佩戴压力、隐私焦虑、误触、热量或售后不确定，原本被解决的痛点会以新形式回来。",
+            "newTech": "新技术在于光波导显示、多模态 AI、语音/视觉降噪与本地生活生态结合，而不是单纯堆硬件参数。 新技术只有改变控制权才算产品进步：用户必须知道系统知道什么、正在做什么、何时需要确认、以及怎样撤销。",
+            "availability": "来源显示多品牌已进入线上销售和 618 节点；每个 SKU 的价格、库存、售后和地区以厂商/电商页面为准。 上线、预订、试点和地区信息按来源记录；未披露的售后、开发者资格、长期生态和企业采购条件为 source not stated。",
+            "limitsOrUnknowns": "未知是长期复购、真实留存、隐私监管、学校/公共场景限制和生态服务是否足够高频。 需要后续评测验证日常耐久、错误恢复、隐私提示、边缘场景和多设备连续性。",
+            "productVerdict": "Verdict：中国 lane 说明 AI 眼镜已经从科技尝鲜进入社会摩擦测试，隐私 UX 变成购买理由的一部分。 对设计团队的影响是把“AI 能力”翻译为状态语法、权限语法和恢复语法，而不是只做一个入口按钮。"
+          },
+          "en": {
+            "productName": "China AI glasses lane",
+            "productType": "China-market product dossier: not one new SKU, but a cluster of iFLYTEK, Qianwen, Rokid, Thunderbird and other AI glasses signals around display, translation, office work, local services, and privacy. This dossier uses only source-stated facts. Any price, region, weight, battery, sensor, chipset, API version, shipment timing, or user quote not stated by the cited sources remains source not stated. The product read is based on task closure: invocation, permission, sensing, confirmation, execution, feedback, undo, and failure recovery must form a usable loop. If a source shows vision or demo language only, this issue treats it as product direction rather than confirmed shipped experience.",
+            "interactionFlow": "A wearer uses voice, near-eye subtitles, capture, translation, navigation, teleprompter, QR payment, or local services to complete fragmented tasks; some products emphasize business meetings, cross-language communication, and ecosystem closure. The touchpoints must make device state legible: when it is listening, seeing, processing locally, sending data to cloud services, asking for confirmation, or handing control back to the user.",
+            "specsOrStack": "Chinese media mentions binocular monochrome display, visual lip-movement noise reduction, translation across 122 languages, industry dictionaries, and ecosystem-service access; exact SKU specs must return to each maker's official pages. The stack section records only layers stated by sources; everything else remains source not stated so that silicon platforms, reference designs, launch demos, and media inference do not collapse into a fake final SKU.",
+            "useCases": "Use cases include exhibitions, interviews, meetings, cross-language business, navigation, food delivery, parcel lookup, payment, content capture, and frequent local-life tasks. The real scenario value is reducing switching, explanation, waiting, and cleanup after failure, not moving the same task onto a more expensive, more wearable, or more automated surface.",
+            "painPointsSolved": "It addresses switching across phone translation, meeting notes, and local-service entry points, but amplifies stealth recording, exam cheating, capture-light blocking, and public distrust. If the new surface adds wear pressure, privacy anxiety, false triggers, heat, setup work, or unclear support policy, the original pain point returns in another form.",
+            "newTech": "The technology is waveguide display, multimodal AI, audio/visual noise reduction, and local-life ecosystem integration, not hardware spec stacking alone. The technology matters only if it changes the control model: what the system knows, what it is doing, when it asks, how it can be revised, and how a failed action can be undone.",
+            "availability": "Sources indicate multiple brands are already in online sales and the 618 shopping-cycle context; each SKU's price, inventory, support, and region depend on maker or retailer pages. Launch, preorder, pilot, and region details follow the cited sources; support policy, developer eligibility, long-term ecosystem supply, and enterprise procurement terms remain source not stated unless explicitly disclosed.",
+            "limitsOrUnknowns": "Unknowns include repeat purchase, retention, privacy regulation, school/public-space restrictions, and whether ecosystem services are frequent enough. Follow-up reviews must validate daily endurance, error recovery, privacy cues, edge cases, latency under load, and whether workflows survive outside curated demos.",
+            "productVerdict": "Verdict: the China lane shows AI glasses moving from tech novelty into social-friction testing, where privacy UX becomes part of the purchase reason. For product and HCI teams, the design implication is to translate AI capability into state grammar, permission grammar, and recovery grammar rather than another generic AI entry button."
+          }
+        }
+      },
+      {
+        "id": "lorika-ontop-smart-glasses-fashion",
+        "section": "reviews",
+        "zhHeadline": "Lorika Ontop：智能眼镜开始出现“手机壳式”外观与保护配件",
+        "enHeadline": "Lorika Ontop: smart glasses get phone-case-like customization and protection",
+        "zhFact": "startup 配件产品：给 Ray-Ban Meta Wayfarer 智能眼镜使用的彩色 clip-on frame cover，定位类似手机壳。",
+        "enFact": "Startup accessory product: colorful clip-on frame covers for Ray-Ban Meta Wayfarer smart glasses, positioned like phone cases for eyewear.",
+        "zhValue": "它解决智能眼镜外观单一、损坏焦虑和社交可接受性问题；这说明 wearable AI 的 UX 不只在屏幕和模型，也在物件审美。",
+        "enValue": "It addresses limited style choice, damage anxiety, and social acceptability; it shows wearable-AI UX is not only screens and models, but object aesthetics.",
+        "zhHciLens": [
+          "输入",
+          "上下文",
+          "反馈",
+          "接管"
+        ],
+        "enHciLens": [
+          "Input",
+          "Context",
+          "Feedback",
+          "Takeover"
+        ],
+        "zhImplication": "Verdict：小配件释放大信号：AI 眼镜要大众化，必须进入时尚、保护和可替换外观生态。",
+        "enImplication": "Verdict: a small accessory with a large signal: AI glasses need fashion, protection, and swappable appearance ecosystems to mainstream.",
+        "sourceDate": "2026-06-23",
+        "evidenceLabel": "startup signal",
+        "evidenceStrength": "medium / WIRED product report",
+        "visual": {
+          "path": "assets/lorika-ontop-smart-glasses-fashion.svg",
+          "width": 1200,
+          "height": 760,
+          "altZh": "Lorika Ontop source-based diagram",
+          "altEn": "Lorika Ontop source-based diagram",
+          "captionZh": "自绘配件图：Ray-Ban Meta Wayfarer cover、camera/speaker clearance、style/protection layer；基于 WIRED",
+          "captionEn": "Self-drawn accessory diagram: Ray-Ban Meta Wayfarer cover, camera/speaker clearance, style/protection layer; WIRED-based",
+          "sourceUrl": "https://www.wired.com/story/lorika-ontop-cases-for-smart-glasses-now/"
+        },
+        "sources": [
+          {
+            "label": "WIRED: Lorika Ontop cases",
+            "url": "https://www.wired.com/story/lorika-ontop-cases-for-smart-glasses-now/",
+            "type": "review/media"
+          },
+          {
+            "label": "Meta AI glasses product page",
+            "url": "https://www.meta.com/ai-glasses/ray-ban-meta/",
+            "type": "official/product"
+          },
+          {
+            "label": "Ray-Ban Meta product page",
+            "url": "https://www.ray-ban.com/usa/ray-ban-meta-ai-glasses",
+            "type": "official/product"
+          }
+        ],
+        "dossierKind": "product",
+        "dossier": {
+          "zh": {
+            "productName": "Lorika Ontop",
+            "productType": "startup 配件产品：给 Ray-Ban Meta Wayfarer 智能眼镜使用的彩色 clip-on frame cover，定位类似手机壳。 本条只采用来源明示信息；未披露的价格、地区、重量、续航、传感器、芯片、API 版本、发货节奏和用户原话均写 source not stated。产品评估以用户能否完成连续任务为准：启动、授权、感知、确认、执行、反馈、撤销和失败恢复必须形成闭环。若来源只给愿景或演示，本期把它当作产品方向，不把演示效果写成量产体验。",
+            "interactionFlow": "用户把 cover 卡到智能眼镜外框，改变颜色和保护外观，同时不遮挡相机和扬声器；本体 AI 功能仍由 Ray-Ban Meta/Meta AI glasses 提供。 用户触点必须把设备状态讲清楚：什么时候在听、什么时候在看、什么时候只是本地处理、什么时候把数据交给云端或第三方服务。",
+            "specsOrStack": "WIRED 写到 polycarbonate、elastic polymer、1mm thickness、35-40 美元、适配一二代 Wayfarer Ray-Ban Meta；其他型号计划 source not stated。 规格只记录来源明确写出的层级；其余写 source not stated，避免把芯片平台、参考设计或媒体推测混成最终 SKU。",
+            "useCases": "场景是把智能眼镜从黑色科技外观带入日常穿搭、保护和个性化，尤其面向已经把眼镜当每天配饰的人。 真正的场景价值来自减少切换和解释，不是把同一件事搬到更贵、更贴脸或更自动的表面。",
+            "painPointsSolved": "它解决智能眼镜外观单一、损坏焦虑和社交可接受性问题；这说明 wearable AI 的 UX 不只在屏幕和模型，也在物件审美。 如果新硬件引入佩戴压力、隐私焦虑、误触、热量或售后不确定，原本被解决的痛点会以新形式回来。",
+            "newTech": "新技术不在 AI，而在配件生态：相机、扬声器和传感器不能被遮挡，保护层必须服从智能硬件的感知边界。 新技术只有改变控制权才算产品进步：用户必须知道系统知道什么、正在做什么、何时需要确认、以及怎样撤销。",
+            "availability": "WIRED 今日报道上线；官网直销、库存、颜色、国际配送和售后 source not stated。 上线、预订、试点和地区信息按来源记录；未披露的售后、开发者资格、长期生态和企业采购条件为 source not stated。",
+            "limitsOrUnknowns": "未知是 fit 公差、长期刮擦、散热、麦克风影响、充电盒兼容和是否会遮挡隐私提示。 需要后续评测验证日常耐久、错误恢复、隐私提示、边缘场景和多设备连续性。",
+            "productVerdict": "Verdict：小配件释放大信号：AI 眼镜要大众化，必须进入时尚、保护和可替换外观生态。 对设计团队的影响是把“AI 能力”翻译为状态语法、权限语法和恢复语法，而不是只做一个入口按钮。"
+          },
+          "en": {
+            "productName": "Lorika Ontop",
+            "productType": "Startup accessory product: colorful clip-on frame covers for Ray-Ban Meta Wayfarer smart glasses, positioned like phone cases for eyewear. This dossier uses only source-stated facts. Any price, region, weight, battery, sensor, chipset, API version, shipment timing, or user quote not stated by the cited sources remains source not stated. The product read is based on task closure: invocation, permission, sensing, confirmation, execution, feedback, undo, and failure recovery must form a usable loop. If a source shows vision or demo language only, this issue treats it as product direction rather than confirmed shipped experience.",
+            "interactionFlow": "The user clips the cover onto the smart-glasses frame to change color and protect the exterior while leaving cameras and speakers unobstructed; AI functions remain provided by Ray-Ban Meta / Meta AI glasses. The touchpoints must make device state legible: when it is listening, seeing, processing locally, sending data to cloud services, asking for confirmation, or handing control back to the user.",
+            "specsOrStack": "WIRED states polycarbonate, elastic polymer, one-millimeter thickness, $35-$40 pricing, and fit for first- and second-generation Wayfarer Ray-Ban Meta; other-model plans are source not stated. The stack section records only layers stated by sources; everything else remains source not stated so that silicon platforms, reference designs, launch demos, and media inference do not collapse into a fake final SKU.",
+            "useCases": "The scene is moving smart glasses from black-tech look into everyday styling, protection, and personalization, especially for people who already treat eyewear as daily fashion. The real scenario value is reducing switching, explanation, waiting, and cleanup after failure, not moving the same task onto a more expensive, more wearable, or more automated surface.",
+            "painPointsSolved": "It addresses limited style choice, damage anxiety, and social acceptability; it shows wearable-AI UX is not only screens and models, but object aesthetics. If the new surface adds wear pressure, privacy anxiety, false triggers, heat, setup work, or unclear support policy, the original pain point returns in another form.",
+            "newTech": "The new technology is not AI but accessory ecology: cameras, speakers, and sensors cannot be blocked, so the protective layer must respect sensing boundaries. The technology matters only if it changes the control model: what the system knows, what it is doing, when it asks, how it can be revised, and how a failed action can be undone.",
+            "availability": "WIRED reports the launch today; direct-store availability, stock, colors, international shipping, and support are source not stated. Launch, preorder, pilot, and region details follow the cited sources; support policy, developer eligibility, long-term ecosystem supply, and enterprise procurement terms remain source not stated unless explicitly disclosed.",
+            "limitsOrUnknowns": "Unknowns include fit tolerance, long-term scratches, heat, microphone impact, charging-case compatibility, and whether privacy cues can be obscured. Follow-up reviews must validate daily endurance, error recovery, privacy cues, edge cases, latency under load, and whether workflows survive outside curated demos.",
+            "productVerdict": "Verdict: a small accessory with a large signal: AI glasses need fashion, protection, and swappable appearance ecosystems to mainstream. For product and HCI teams, the design implication is to translate AI capability into state grammar, permission grammar, and recovery grammar rather than another generic AI entry button."
+          }
+        }
+      },
+      {
+        "id": "visionclaw-research-agent-glasses",
+        "section": "research",
+        "zhHeadline": "VisionClaw：论文把 always-on 眼镜 agent 的“感知 + 执行”链路做成可研究原型",
+        "enHeadline": "VisionClaw: research prototypes the perception-plus-execution loop for always-on glasses agents",
+        "zhFact": "研究原型：运行在 Meta Ray-Ban smart glasses 上的 always-on wearable AI agent，不是商业产品。",
+        "enFact": "Research prototype: an always-on wearable AI agent running on Meta Ray-Ban smart glasses, not a commercial product.",
+        "zhValue": "它解决可穿戴 AI 只能回答问题、不能执行任务的断层，但也暴露持续感知、误触发、隐私和用户控制权问题。",
+        "enValue": "It addresses the gap where wearable AI can answer questions but not execute tasks, while exposing continuous sensing, false triggers, privacy, and user-control issues.",
+        "zhHciLens": [
+          "输入",
+          "上下文",
+          "反馈",
+          "接管"
+        ],
+        "enHciLens": [
+          "Input",
+          "Context",
+          "Feedback",
+          "Takeover"
+        ],
+        "zhImplication": "Verdict：不能写成产品发布，但它给 Snap、Meta、Google、XREAL 这类硬件提供了明确 HCI 压力测试。",
+        "enImplication": "Verdict: not a product launch, but a clear HCI stress test for Snap, Meta, Google, XREAL and similar hardware.",
+        "sourceDate": "2026-04 / accessed 2026-06-23",
+        "evidenceLabel": "research signal",
+        "evidenceStrength": "medium / arXiv and ACM-adjacent HCI research",
+        "visual": {
+          "path": "assets/visionclaw-research-agent-glasses.svg",
+          "width": 1200,
+          "height": 760,
+          "altZh": "VisionClaw source-based diagram",
+          "altEn": "VisionClaw source-based diagram",
+          "captionZh": "自绘研究机制图：egocentric perception、Gemini Live、OpenClaw、speech delegation、task execution；基于 arXiv",
+          "captionEn": "Self-drawn research mechanism: egocentric perception, Gemini Live, OpenClaw, speech delegation, task execution; arXiv-based",
+          "sourceUrl": "https://arxiv.org/abs/2604.03486"
+        },
+        "sources": [
+          {
+            "label": "arXiv: VisionClaw",
+            "url": "https://arxiv.org/abs/2604.03486",
+            "type": "research"
+          },
+          {
+            "label": "arXiv HTML: VisionClaw",
+            "url": "https://arxiv.org/html/2604.03486v2",
+            "type": "research"
+          },
+          {
+            "label": "ACM: Conversational breakdowns in smart glasses",
+            "url": "https://dl.acm.org/doi/10.1145/3772363.3798378",
+            "type": "research"
+          }
+        ],
+        "dossierKind": "product",
+        "dossier": {
+          "zh": {
+            "productName": "VisionClaw",
+            "productType": "研究原型：运行在 Meta Ray-Ban smart glasses 上的 always-on wearable AI agent，不是商业产品。 本条只采用来源明示信息；未披露的价格、地区、重量、续航、传感器、芯片、API 版本、发货节奏和用户原话均写 source not stated。产品评估以用户能否完成连续任务为准：启动、授权、感知、确认、执行、反馈、撤销和失败恢复必须形成闭环。若来源只给愿景或演示，本期把它当作产品方向，不把演示效果写成量产体验。",
+            "interactionFlow": "眼镜持续感知第一视角上下文，用户用语音发起任务，系统通过 Gemini Live / OpenClaw 把物体加入购物车、从纸质文档生成笔记、从海报创建日程或控制 IoT。 用户触点必须把设备状态讲清楚：什么时候在听、什么时候在看、什么时候只是本地处理、什么时候把数据交给云端或第三方服务。",
+            "specsOrStack": "论文写到 Meta Ray-Ban smart glasses、live egocentric perception、Gemini Live、OpenClaw、controlled lab study 和 deployment study；研究样本和实现边界按论文。 规格只记录来源明确写出的层级；其余写 source not stated，避免把芯片平台、参考设计或媒体推测混成最终 SKU。",
+            "useCases": "场景是 hands-free、situated、opportunistic task delegation：用户不必停下当前活动就能把现实中的对象和任务交给 agent。 真正的场景价值来自减少切换和解释，不是把同一件事搬到更贵、更贴脸或更自动的表面。",
+            "painPointsSolved": "它解决可穿戴 AI 只能回答问题、不能执行任务的断层，但也暴露持续感知、误触发、隐私和用户控制权问题。 如果新硬件引入佩戴压力、隐私焦虑、误触、热量或售后不确定，原本被解决的痛点会以新形式回来。",
+            "newTech": "新技术是连续第一视角感知与通用 agentic execution 的耦合，使任务在现实上下文中被 opportunistically initiated。 新技术只有改变控制权才算产品进步：用户必须知道系统知道什么、正在做什么、何时需要确认、以及怎样撤销。",
+            "availability": "研究论文可访问；代码、商业化、数据集许可、硬件兼容和长期部署 source not stated 或以论文为准。 上线、预订、试点和地区信息按来源记录；未披露的售后、开发者资格、长期生态和企业采购条件为 source not stated。",
+            "limitsOrUnknowns": "未知是规模化、隐私合规、模型错误责任、能耗、长时间佩戴和用户是否愿意让眼镜 always-on。 需要后续评测验证日常耐久、错误恢复、隐私提示、边缘场景和多设备连续性。",
+            "productVerdict": "Verdict：不能写成产品发布，但它给 Snap、Meta、Google、XREAL 这类硬件提供了明确 HCI 压力测试。 对设计团队的影响是把“AI 能力”翻译为状态语法、权限语法和恢复语法，而不是只做一个入口按钮。"
+          },
+          "en": {
+            "productName": "VisionClaw",
+            "productType": "Research prototype: an always-on wearable AI agent running on Meta Ray-Ban smart glasses, not a commercial product. This dossier uses only source-stated facts. Any price, region, weight, battery, sensor, chipset, API version, shipment timing, or user quote not stated by the cited sources remains source not stated. The product read is based on task closure: invocation, permission, sensing, confirmation, execution, feedback, undo, and failure recovery must form a usable loop. If a source shows vision or demo language only, this issue treats it as product direction rather than confirmed shipped experience.",
+            "interactionFlow": "The glasses continuously perceive egocentric context; the user starts tasks by speech; Gemini Live / OpenClaw can add objects to a cart, create notes from paper documents, create events from posters, or control IoT. The touchpoints must make device state legible: when it is listening, seeing, processing locally, sending data to cloud services, asking for confirmation, or handing control back to the user.",
+            "specsOrStack": "The paper states Meta Ray-Ban smart glasses, live egocentric perception, Gemini Live, OpenClaw, controlled lab study, and deployment study; sample and implementation limits follow the paper. The stack section records only layers stated by sources; everything else remains source not stated so that silicon platforms, reference designs, launch demos, and media inference do not collapse into a fake final SKU.",
+            "useCases": "The scenario is hands-free, situated, opportunistic task delegation: the user does not stop the current activity to hand real-world objects and tasks to an agent. The real scenario value is reducing switching, explanation, waiting, and cleanup after failure, not moving the same task onto a more expensive, more wearable, or more automated surface.",
+            "painPointsSolved": "It addresses the gap where wearable AI can answer questions but not execute tasks, while exposing continuous sensing, false triggers, privacy, and user-control issues. If the new surface adds wear pressure, privacy anxiety, false triggers, heat, setup work, or unclear support policy, the original pain point returns in another form.",
+            "newTech": "The new technology is coupling continuous egocentric perception with general-purpose agentic execution so tasks can be opportunistically initiated in real-world context. The technology matters only if it changes the control model: what the system knows, what it is doing, when it asks, how it can be revised, and how a failed action can be undone.",
+            "availability": "The research paper is accessible; code, commercialization, dataset license, hardware compatibility, and long-term deployment are source not stated or paper-bound. Launch, preorder, pilot, and region details follow the cited sources; support policy, developer eligibility, long-term ecosystem supply, and enterprise procurement terms remain source not stated unless explicitly disclosed.",
+            "limitsOrUnknowns": "Unknowns include scale, privacy compliance, model-error accountability, energy use, long wear, and whether users accept always-on glasses. Follow-up reviews must validate daily endurance, error recovery, privacy cues, edge cases, latency under load, and whether workflows survive outside curated demos.",
+            "productVerdict": "Verdict: not a product launch, but a clear HCI stress test for Snap, Meta, Google, XREAL and similar hardware. For product and HCI teams, the design implication is to translate AI capability into state grammar, permission grammar, and recovery grammar rather than another generic AI entry button."
+          }
+        }
+      },
+      {
+        "id": "community-smart-glasses-friction-scan",
+        "section": "community",
+        "zhHeadline": "社区摩擦 scan：今天没有提升为确认产品的新硬件，但隐私、价格和佩戴焦虑继续升温",
+        "enHeadline": "Community friction scan: no new hardware promoted today, but privacy, price, and wear anxiety keep rising",
+        "zhFact": "扫描 Reddit/社区后，没有把任何社区帖提升为确认产品事实；社区价值是摩擦提示：价格是否过高、录制提示是否可信、佩戴是否尴尬、生态是否足够、以及 coding/agent workflow 放到眼镜是否真的减少负担。",
+        "enFact": "After scanning Reddit and community threads, no community post is promoted as confirmed product fact. The value is friction evidence: whether price is too high, recording cues are trustworthy, wearing the device is socially awkward, the ecosystem is sufficient, and glasses-based coding or agent workflow reduces burden.",
+        "zhValue": "扫描 Reddit/社区后，没有把任何社区帖提升为确认产品事实；社区价值是摩擦提示：价格是否过高、录制提示是否可信、佩戴是否尴尬、生态是否足够、以及 coding/agent workflow 放到眼镜是否真的减少负担。",
+        "enValue": "After scanning Reddit and community threads, no community post is promoted as confirmed product fact. The value is friction evidence: whether price is too high, recording cues are trustworthy, wearing the device is socially awkward, the ecosystem is sufficient, and glasses-based coding or agent workflow reduces burden.",
+        "zhHciLens": [
+          "证据缺口",
+          "摩擦",
+          "下一步"
+        ],
+        "enHciLens": [
+          "Evidence gap",
+          "Friction",
+          "Next watch"
+        ],
+        "zhImplication": "扫描 Reddit/社区后，没有把任何社区帖提升为确认产品事实；社区价值是摩擦提示：价格是否过高、录制提示是否可信、佩戴是否尴尬、生态是否足够、以及 coding/agent workflow 放到眼镜是否真的减少负担。",
+        "enImplication": "After scanning Reddit and community threads, no community post is promoted as confirmed product fact. The value is friction evidence: whether price is too high, recording cues are trustworthy, wearing the device is socially awkward, the ecosystem is sufficient, and glasses-based coding or agent workflow reduces burden.",
+        "sourceDate": "accessed 2026-06-23",
+        "evidenceLabel": "review/community friction",
+        "evidenceStrength": "low-medium / community only",
+        "visual": {
+          "path": "assets/community-smart-glasses-friction-scan.svg",
+          "width": 1200,
+          "height": 760,
+          "altZh": "Community smart-glasses friction scan diagram",
+          "altEn": "Community smart-glasses friction scan diagram",
+          "captionZh": "自绘摩擦雷达：privacy、price、battery、compatibility、recording cue；基于 Reddit/社区扫描",
+          "captionEn": "Self-drawn friction radar: privacy, price, battery, compatibility, recording cue; based on Reddit/community scan",
+          "sourceUrl": "https://www.reddit.com/r/augmentedreality/comments/1ttq6jb/snap_specs_coming_soon/"
+        },
+        "sources": [
+          {
+            "label": "Reddit: Snap Specs coming soon",
+            "url": "https://www.reddit.com/r/augmentedreality/comments/1ttq6jb/snap_specs_coming_soon/",
+            "type": "community"
+          },
+          {
+            "label": "Reddit: VITURE Helix discussion",
+            "url": "https://www.reddit.com/r/VITURE/comments/1u7m246/ai_safety_glasses_viture_helix/",
+            "type": "community"
+          },
+          {
+            "label": "Reddit: AI smart glasses wearable computers",
+            "url": "https://www.reddit.com/r/AIGuild/comments/1tztznn/smart_glasses_are_turning_into_wearable_ai/",
+            "type": "community"
+          }
+        ],
+        "dossierKind": "scan",
+        "dossier": {
+          "zh": {
+            "productName": "Community smart-glasses friction",
+            "productType": "扫描 Reddit/社区后，没有把任何社区帖提升为确认产品事实；社区价值是摩擦提示：价格是否过高、录制提示是否可信、佩戴是否尴尬、生态是否足够、以及 coding/agent workflow 放到眼镜是否真的减少负担。 这是 source-lane scan，不是确认产品。",
+            "interactionFlow": "本 lane 扫描公开页面、媒体报道、社区讨论和研究/专利索引，未发现足够强的新增可操作 product-interface 发布可以提升为产品 dossier。",
+            "specsOrStack": "规格、价格、SKU、API 或硬件栈没有形成独立可验证更新；相关数字若出现于社区或二级报道，均不写成 confirmed fact。",
+            "useCases": "用途只作为观察方向：看哪些用户任务被反复提到、哪些摩擦阻止日常使用、哪些生态缺口需要官方或评测补证。",
+            "painPointsSolved": "当前未证明解决了新的用户痛点；最多说明市场正在围绕隐私、佩戴、噪声、带宽、开发者工具或售后问题聚集。",
+            "newTech": "新技术未被提升为量产事实；若来自论文或专利，本期仅标为 research signal 或 patent signal。",
+            "availability": "source not stated。没有可靠来源证明新增地区、发货、试点或采购入口。",
+            "limitsOrUnknowns": "主要未知是证据不足：缺少官方页、可复测评测、真实用户长期体验、明确规格或可下载开发者接口。",
+            "productVerdict": "Verdict：保持观察，不上升为确认产品事实。下一步看官方发布、独立评测、开发者文档或稳定社区复现。"
+          },
+          "en": {
+            "productName": "Community smart-glasses friction",
+            "productType": "After scanning Reddit and community threads, no community post is promoted as confirmed product fact. The value is friction evidence: whether price is too high, recording cues are trustworthy, wearing the device is socially awkward, the ecosystem is sufficient, and glasses-based coding or agent workflow reduces burden. This is a source-lane scan, not a confirmed product dossier.",
+            "interactionFlow": "This lane scanned public pages, media reports, community discussion, and research or patent indexes. It did not produce a strong enough new operable product-interface update to promote as a confirmed product item.",
+            "specsOrStack": "Specs, price, SKU, API, or hardware stack did not form an independently verifiable update. Numbers appearing only in community posts or secondary summaries are not written as confirmed facts.",
+            "useCases": "Use cases remain watch directions: which user tasks recur, which frictions block daily use, and which ecosystem gaps need official or review evidence.",
+            "painPointsSolved": "The lane does not yet prove a newly solved user pain point. It mainly shows market attention clustering around privacy, wearability, noise, bandwidth, developer tools, or support friction.",
+            "newTech": "No new technology is promoted as shipped fact. Paper and patent material is labeled research signal or patent signal only.",
+            "availability": "source not stated. No reliable source proves a new region, shipment, pilot, procurement path, or end-user availability.",
+            "limitsOrUnknowns": "The main unknown is evidence quality: missing official pages, repeatable reviews, long-term user experience, clear specs, or downloadable developer surface.",
+            "productVerdict": "Verdict: watch, do not promote. The next trigger is an official launch, independent hands-on review, developer documentation, or stable community reproduction."
+          }
+        }
+      },
+      {
+        "id": "patent-xr-ai-companion-watch",
+        "section": "patent",
+        "zhHeadline": "专利 watch：XR AI companion 仍是方向信号，不是发布事实",
+        "enHeadline": "Patent watch: XR AI companions remain direction signals, not launch facts",
+        "zhFact": "专利 lane 扫描到 smartglasses、watch、phone 与 AI/AR context 的组合，以及 XR 内容 companion 的二级专利报道；这些只能说明公司在探索感知、解释和问答的保护范围，不能说明产品、价格、发布日期、地区或规格。",
+        "enFact": "The patent lane found smartglasses, watch, phone, and AI/AR-context combinations, plus secondary reporting on XR content companions. These signals show exploration of sensing, interpretation, and question-answering claim scope; they do not prove product, price, launch date, region, or specs.",
+        "zhValue": "专利 lane 扫描到 smartglasses、watch、phone 与 AI/AR context 的组合，以及 XR 内容 companion 的二级专利报道；这些只能说明公司在探索感知、解释和问答的保护范围，不能说明产品、价格、发布日期、地区或规格。",
+        "enValue": "The patent lane found smartglasses, watch, phone, and AI/AR-context combinations, plus secondary reporting on XR content companions. These signals show exploration of sensing, interpretation, and question-answering claim scope; they do not prove product, price, launch date, region, or specs.",
+        "zhHciLens": [
+          "证据缺口",
+          "摩擦",
+          "下一步"
+        ],
+        "enHciLens": [
+          "Evidence gap",
+          "Friction",
+          "Next watch"
+        ],
+        "zhImplication": "专利 lane 扫描到 smartglasses、watch、phone 与 AI/AR context 的组合，以及 XR 内容 companion 的二级专利报道；这些只能说明公司在探索感知、解释和问答的保护范围，不能说明产品、价格、发布日期、地区或规格。",
+        "enImplication": "The patent lane found smartglasses, watch, phone, and AI/AR-context combinations, plus secondary reporting on XR content companions. These signals show exploration of sensing, interpretation, and question-answering claim scope; they do not prove product, price, launch date, region, or specs.",
+        "sourceDate": "accessed 2026-06-23",
+        "evidenceLabel": "patent signal",
+        "evidenceStrength": "low / patent only",
+        "visual": {
+          "path": "assets/patent-xr-ai-companion-watch.svg",
+          "width": 1200,
+          "height": 760,
+          "altZh": "XR AI companion patent lane scan diagram",
+          "altEn": "XR AI companion patent lane scan diagram",
+          "captionZh": "自绘专利雷达：smartglasses、watch、phone、AI answer、XR content context；专利信号非产品确认",
+          "captionEn": "Self-drawn patent radar: smartglasses, watch, phone, AI answer, XR content context; patent signal only",
+          "sourceUrl": "https://patents.google.com/patent/US10908419B2/en"
+        },
+        "sources": [
+          {
+            "label": "Google Patents: smartglasses AI/AR",
+            "url": "https://patents.google.com/patent/US10908419B2/en",
+            "type": "patent"
+          },
+          {
+            "label": "Patentlyze: Google AI content companion for XR",
+            "url": "https://patentlyze.com/patent/google-ai-content-companion-xr-devices/",
+            "type": "patent/media"
+          }
+        ],
+        "dossierKind": "scan",
+        "dossier": {
+          "zh": {
+            "productName": "XR AI companion patent lane",
+            "productType": "专利 lane 扫描到 smartglasses、watch、phone 与 AI/AR context 的组合，以及 XR 内容 companion 的二级专利报道；这些只能说明公司在探索感知、解释和问答的保护范围，不能说明产品、价格、发布日期、地区或规格。 这是 source-lane scan，不是确认产品。",
+            "interactionFlow": "本 lane 扫描公开页面、媒体报道、社区讨论和研究/专利索引，未发现足够强的新增可操作 product-interface 发布可以提升为产品 dossier。",
+            "specsOrStack": "规格、价格、SKU、API 或硬件栈没有形成独立可验证更新；相关数字若出现于社区或二级报道，均不写成 confirmed fact。",
+            "useCases": "用途只作为观察方向：看哪些用户任务被反复提到、哪些摩擦阻止日常使用、哪些生态缺口需要官方或评测补证。",
+            "painPointsSolved": "当前未证明解决了新的用户痛点；最多说明市场正在围绕隐私、佩戴、噪声、带宽、开发者工具或售后问题聚集。",
+            "newTech": "新技术未被提升为量产事实；若来自论文或专利，本期仅标为 research signal 或 patent signal。",
+            "availability": "source not stated。没有可靠来源证明新增地区、发货、试点或采购入口。",
+            "limitsOrUnknowns": "主要未知是证据不足：缺少官方页、可复测评测、真实用户长期体验、明确规格或可下载开发者接口。",
+            "productVerdict": "Verdict：保持观察，不上升为确认产品事实。下一步看官方发布、独立评测、开发者文档或稳定社区复现。"
+          },
+          "en": {
+            "productName": "XR AI companion patent lane",
+            "productType": "The patent lane found smartglasses, watch, phone, and AI/AR-context combinations, plus secondary reporting on XR content companions. These signals show exploration of sensing, interpretation, and question-answering claim scope; they do not prove product, price, launch date, region, or specs. This is a source-lane scan, not a confirmed product dossier.",
+            "interactionFlow": "This lane scanned public pages, media reports, community discussion, and research or patent indexes. It did not produce a strong enough new operable product-interface update to promote as a confirmed product item.",
+            "specsOrStack": "Specs, price, SKU, API, or hardware stack did not form an independently verifiable update. Numbers appearing only in community posts or secondary summaries are not written as confirmed facts.",
+            "useCases": "Use cases remain watch directions: which user tasks recur, which frictions block daily use, and which ecosystem gaps need official or review evidence.",
+            "painPointsSolved": "The lane does not yet prove a newly solved user pain point. It mainly shows market attention clustering around privacy, wearability, noise, bandwidth, developer tools, or support friction.",
+            "newTech": "No new technology is promoted as shipped fact. Paper and patent material is labeled research signal or patent signal only.",
+            "availability": "source not stated. No reliable source proves a new region, shipment, pilot, procurement path, or end-user availability.",
+            "limitsOrUnknowns": "The main unknown is evidence quality: missing official pages, repeatable reviews, long-term user experience, clear specs, or downloadable developer surface.",
+            "productVerdict": "Verdict: watch, do not promote. The next trigger is an official launch, independent hands-on review, developer documentation, or stable community reproduction."
+          }
+        }
+      }
+    ],
+    "watchlistZh": [
+      "Snap Specs：等待 fall 2026 真机评测验证重量、续航、热量、旁人隐私提示和 Lens 生态。",
+      "VITURE Helix：观察企业试点是否公开流程指标、合规边界和错误责任设计。",
+      "Hush：跟踪 GitHub/Hugging Face 后续 release，重点看真实通话中的误听率和端侧部署。",
+      "中国 AI 眼镜：继续区分销量/618 热度、隐私摩擦和确认产品规格。"
+    ],
+    "watchlistEn": [
+      "Snap Specs: wait for fall 2026 hands-on validation of weight, battery, heat, bystander cues, and Lens ecosystem.",
+      "VITURE Helix: watch whether enterprise pilots publish workflow metrics, compliance boundaries, and error-accountability design.",
+      "Hush: track GitHub/Hugging Face releases, especially real-call mishearing rates and edge deployment.",
+      "China AI glasses: keep sales/618 heat, privacy friction, and confirmed SKU specs separate."
+    ]
   }
 ]

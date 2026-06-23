@@ -1,9 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
-<rect width="1200" height="760" fill="#f7f8f6"/><rect x="54" y="54" width="1092" height="652" rx="24" fill="#ffffff" stroke="#cfd7dd"/>
-<circle cx="190" cy="210" r="70" fill="#2d5e4f" opacity="0.15"/><rect x="128" y="176" width="124" height="68" rx="34" fill="none" stroke="#2d5e4f" stroke-width="14"/><circle cx="164" cy="210" r="15" fill="#2d5e4f"/><circle cx="216" cy="210" r="15" fill="#2d5e4f"/>
-<text x="330" y="168" font-family="Inter,Arial,sans-serif" font-size="42" font-weight="900" fill="#16202a">Codex computer use</text>
-<text x="330" y="220" font-family="Inter,Arial,sans-serif" font-size="25" fill="#4a5967">Windows host operated by an agent under user steering</text>
-<path d="M150 300 H1050" stroke="#d7dde2" stroke-width="2"/>
-<rect x="90" y="350" width="260" height="54" rx="12" fill="#fff" stroke="#d6dde4"/><text x="220" y="384" text-anchor="middle" font-size="24" font-weight="700" fill="#1d2730">see screen</text><rect x="410" y="350" width="260" height="54" rx="12" fill="#fff" stroke="#d6dde4"/><text x="540" y="384" text-anchor="middle" font-size="24" font-weight="700" fill="#1d2730">click / type</text><rect x="730" y="350" width="260" height="54" rx="12" fill="#fff" stroke="#d6dde4"/><text x="860" y="384" text-anchor="middle" font-size="24" font-weight="700" fill="#1d2730">remote steering</text><rect x="90" y="436" width="260" height="54" rx="12" fill="#fff" stroke="#d6dde4"/><text x="220" y="470" text-anchor="middle" font-size="24" font-weight="700" fill="#1d2730">local context</text><rect x="410" y="436" width="260" height="54" rx="12" fill="#fff" stroke="#d6dde4"/><text x="540" y="470" text-anchor="middle" font-size="24" font-weight="700" fill="#1d2730">audit need</text><rect x="730" y="436" width="260" height="54" rx="12" fill="#fff" stroke="#d6dde4"/><text x="860" y="470" text-anchor="middle" font-size="24" font-weight="700" fill="#1d2730">takeover</text>
-<rect x="90" y="610" width="1020" height="54" rx="12" fill="#f0f4f7"/><text x="110" y="645" font-family="Inter,Arial,sans-serif" font-size="22" fill="#394957">Evidence visual: self-drawn from cited source · OpenAI release notes</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-label="Codex Windows">
+  <rect width="1200" height="760" fill="#fffdfa"/>
+  <rect x="40" y="40" width="1120" height="680" rx="44" fill="#ffffff" stroke="#e8e3dc"/>
+  <text x="82" y="118" font-family="Aptos, Arial, sans-serif" font-size="54" font-weight="950" letter-spacing="-2" fill="#171413">Codex Windows</text>
+  <text x="86" y="160" font-family="Aptos, Arial, sans-serif" font-size="22" font-weight="700" fill="#6f6a66">Computer use extends agents into desktop apps</text>
+  
+        <rect x="96" y="210" width="305" height="410" rx="32" fill="#f7f3ed" stroke="#e3d9ce"/>
+        <text x="120" y="260" font-size="25" font-weight="900" fill="#c7000b">Input</text>
+        
+            <rect x="118" y="300" width="261" height="52" rx="16" fill="#fffdfa" stroke="#e5ddd4"/>
+            <text x="140" y="333" font-size="20" font-weight="700" fill="#3b332d">see</text>
+            <rect x="118" y="378" width="261" height="52" rx="16" fill="#fffdfa" stroke="#e5ddd4"/>
+            <text x="140" y="411" font-size="20" font-weight="700" fill="#3b332d">click</text>
+            <rect x="118" y="456" width="261" height="52" rx="16" fill="#fffdfa" stroke="#e5ddd4"/>
+            <text x="140" y="489" font-size="20" font-weight="700" fill="#3b332d">type</text>
+        <rect x="446" y="210" width="305" height="410" rx="32" fill="#f7f3ed" stroke="#e3d9ce"/>
+        <text x="470" y="260" font-size="25" font-weight="900" fill="#c7000b">Surface</text>
+        
+            <rect x="468" y="300" width="261" height="52" rx="16" fill="#fffdfa" stroke="#e5ddd4"/>
+            <text x="490" y="333" font-size="20" font-weight="700" fill="#3b332d">Windows apps</text>
+            <rect x="468" y="378" width="261" height="52" rx="16" fill="#fffdfa" stroke="#e5ddd4"/>
+            <text x="490" y="411" font-size="20" font-weight="700" fill="#3b332d">tests</text>
+            <rect x="468" y="456" width="261" height="52" rx="16" fill="#fffdfa" stroke="#e5ddd4"/>
+            <text x="490" y="489" font-size="20" font-weight="700" fill="#3b332d">debug flows</text>
+        <rect x="796" y="210" width="305" height="410" rx="32" fill="#f7f3ed" stroke="#e3d9ce"/>
+        <text x="820" y="260" font-size="25" font-weight="900" fill="#c7000b">Control</text>
+        
+            <rect x="818" y="300" width="261" height="52" rx="16" fill="#fffdfa" stroke="#e5ddd4"/>
+            <text x="840" y="333" font-size="20" font-weight="700" fill="#3b332d">mobile start</text>
+            <rect x="818" y="378" width="261" height="52" rx="16" fill="#fffdfa" stroke="#e5ddd4"/>
+            <text x="840" y="411" font-size="20" font-weight="700" fill="#3b332d">Mac remote</text>
+            <rect x="818" y="456" width="261" height="52" rx="16" fill="#fffdfa" stroke="#e5ddd4"/>
+            <text x="840" y="489" font-size="20" font-weight="700" fill="#3b332d">progress</text>
+  <text x="84" y="682" font-family="Aptos, Arial, sans-serif" font-size="18" font-weight="700" fill="#8c837a">Source-based diagram · not a product render</text>
 </svg>

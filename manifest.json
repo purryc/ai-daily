@@ -1,5 +1,56 @@
 [
   {
+    "date": "2026-06-23",
+    "zhTitle": "周二版：AI 眼镜进入社会压力测试，语音与桌面 agent 补齐真实输入层",
+    "enTitle": "Tuesday issue: AI glasses enter social stress tests while voice and desktop agents repair real input layers",
+    "zhSummary": "今天的主线不是模型参数，而是入口迁移：眼镜把 AI 放到脸上，语音 agent 先解决听清楚，桌面 agent 开始操作真实 Windows 应用。",
+    "enSummary": "Today’s main line is not model size but entry-point migration: glasses put AI on the face, voice agents first solve hearing, and desktop agents begin operating real Windows applications.",
+    "tags": [
+      "HCI",
+      "AI hardware",
+      "smart glasses",
+      "voice agents",
+      "computer use",
+      "on-device AI",
+      "XR"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "wild",
+      "research",
+      "patent",
+      "china",
+      "global"
+    ],
+    "coverStory": {
+      "topicId": "snap-specs-near-eye-os",
+      "zhTitle": "封面故事：AI 眼镜不再只是拍摄配件，而是眼前的操作系统候选",
+      "enTitle": "Cover story: AI glasses are no longer camera accessories; they are candidates for a near-eye operating system",
+      "zhSummary": [
+        "Snap Specs、VITURE Helix、Qualcomm Reality Elite 和中国 AI 眼镜信号共同指向同一件事：AI 的默认入口正在从手机屏幕移向眼镜。",
+        "这会同时带来更低摩擦的上下文输入和更高风险的社会界面：旁人隐私、录制提示、价格、佩戴时长、热量和失败接管。",
+        "本期把 confirmed product、developer surface、startup signal、research signal、patent signal 分开，避免把论文、社区热度或专利写成产品事实。"
+      ],
+      "enSummary": [
+        "Snap Specs, VITURE Helix, Qualcomm Reality Elite, and China AI-glasses signals point to one shift: the default AI entry point is moving from phone screen to eyewear.",
+        "That brings lower-friction context input and a higher-risk social interface at the same time: bystander privacy, recording cues, price, wear time, heat, and failure takeover.",
+        "This issue separates confirmed products, developer surfaces, startup signals, research signals, and patent signals so papers, community heat, and patents do not become false product facts."
+      ],
+      "imagePath": "assets/snap-specs-near-eye-os.svg",
+      "imageWidth": 1200,
+      "imageHeight": 760,
+      "imageSourceUrl": "https://newsroom.snap.com/introducing-specs-augmented-reality-glasses",
+      "primarySourceUrl": "https://newsroom.snap.com/introducing-specs-augmented-reality-glasses",
+      "evidenceStrength": "confirmed product · official/developer/media sources",
+      "whyCover": "AI glasses concentrate today’s interface questions into one visible wearable boundary."
+    },
+    "zhPath": "/ai-daily/2026-06-23/zh/",
+    "enPath": "/ai-daily/2026-06-23/en/",
+    "sourcesPath": "/ai-daily/2026-06-23/sources.md"
+  },
+  {
     "date": "2026-06-22",
     "zhTitle": "周一版：AI 眼镜进入平台压力测试，桌面与消息 agent 开始接管真实流程",
     "enTitle": "Monday issue: AI glasses enter platform pressure tests as desktop and messaging agents take over real workflows",

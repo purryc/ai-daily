@@ -1,9 +1,12 @@
 import fs from "node:fs/promises";
 import path from "node:path";
+import { execFile } from "node:child_process";
+import { promisify } from "node:util";
 
 const root = path.resolve(new URL("..", import.meta.url).pathname);
 const dataPath = path.join(root, "data", "issues.json");
 const siteBase = "/ai-daily";
+const execFileAsync = promisify(execFile);
 
 const issues = JSON.parse(await fs.readFile(dataPath, "utf8")).sort((a, b) => b.date.localeCompare(a.date));
 const sectionOrder = ["official", "reviews", "community", "wild", "research", "patent", "china", "global"];
@@ -2659,6 +2662,56 @@ function svgDiagram(title, subtitle, columns) {
 
 function diagramAssets() {
   return {
+    "snap-specs-consumer-ar.svg": svgDiagram("Snap Specs", "AR display + camera cue + Lens developer surface", [
+      { title: "Device", items: ["see-through AR", "camera input", "recording cue"] },
+      { title: "Platform", items: ["Snap OS", "Lens runtime", "AI assistance"] },
+      { title: "UX", items: ["near-eye feedback", "bystander trust", "task closure"] }
+    ]),
+    "xreal-aura-android-xr-2026.svg": svgDiagram("XREAL Aura", "Android XR + Gemini + Snapdragon Reality Elite", [
+      { title: "Glasses", items: ["optical see-through", "6DoF signal", "hand tracking"] },
+      { title: "Platform", items: ["Android XR", "Gemini", "Play ecosystem"] },
+      { title: "Silicon", items: ["Reality Elite", "X1S coprocessor", "low latency"] }
+    ]),
+    "qualcomm-reality-elite-2026.svg": svgDiagram("Reality Elite", "On-device AI platform for XR and smart glasses", [
+      { title: "Compute", items: ["48 TOPS", "LLM/LVM", "CPU/GPU/NPU"] },
+      { title: "XR", items: ["display pipeline", "translation", "spatial agents"] },
+      { title: "Developer", items: ["START", "reference tools", "OEM path"] }
+    ]),
+    "openai-codex-windows-computer-use.svg": svgDiagram("Codex Windows", "Computer use extends agents into desktop apps", [
+      { title: "Input", items: ["see", "click", "type"] },
+      { title: "Surface", items: ["Windows apps", "tests", "debug flows"] },
+      { title: "Control", items: ["mobile start", "Mac remote", "progress"] }
+    ]),
+    "meta-business-agent-whatsapp-2026.svg": svgDiagram("Meta Business Agent", "Customer thread to catalog, booking, and handoff", [
+      { title: "Thread", items: ["WhatsApp", "customer intent", "conversation"] },
+      { title: "Agent", items: ["catalog help", "booking", "recommendation"] },
+      { title: "Ops", items: ["handoff", "commerce", "support"] }
+    ]),
+    "poke-messages-agent-2026.svg": svgDiagram("Poke", "AI agents inside business messaging surfaces", [
+      { title: "Entry", items: ["Apple Messages", "SMS", "Telegram"] },
+      { title: "Actions", items: ["order", "book", "confirm"] },
+      { title: "Trust", items: ["verified account", "thread history", "handoff"] }
+    ]),
+    "iflytek-ai-glasses-china-2026.svg": svgDiagram("iFLYTEK AI Glasses", "China AI-glasses lane for translation and office work", [
+      { title: "Input", items: ["voice", "vision", "lip movement"] },
+      { title: "Display", items: ["subtitles", "teleprompter", "navigation"] },
+      { title: "Scene", items: ["meetings", "expo", "interview"] }
+    ]),
+    "visionclaw-wearable-agent-2026.svg": svgDiagram("VisionClaw", "Always-on wearable agent research prototype", [
+      { title: "Perception", items: ["egocentric view", "continuous context", "speech"] },
+      { title: "Agent", items: ["Gemini Live", "OpenClaw", "delegation"] },
+      { title: "Tasks", items: ["shopping", "notes", "IoT"] }
+    ]),
+    "community-smart-glasses-friction-2026.svg": svgDiagram("Smart-glasses friction", "Community concerns around daily wearable AI", [
+      { title: "Social", items: ["privacy", "recording", "appearance"] },
+      { title: "Hardware", items: ["battery", "heat", "comfort"] },
+      { title: "Value", items: ["price", "apps", "workflow"] }
+    ]),
+    "patent-xr-ai-companion-2026.svg": svgDiagram("XR patent watch", "Patent claims are direction signals, not product facts", [
+      { title: "Device", items: ["smartglasses", "watch", "phone"] },
+      { title: "AI", items: ["content context", "question", "answer"] },
+      { title: "Boundary", items: ["no launch", "no price", "no SKU"] }
+    ]),
     "diagram-solara-agent-shell.svg": svgDiagram("Agent-first device stack", "MDEP + Agent Shell + identity + just-in-time UI", [
       { title: "Device", items: ["MDEP base", "physical mic state", "sensor policy"] },
       { title: "Shell", items: ["Agent Shell", "temporary UI", "privacy indicator"] },
@@ -2718,7 +2771,39 @@ async function copyAssets(issue) {
       await fs.writeFile(path.join(outputDir, asset), generatedDiagrams[asset]);
       continue;
     }
-    await fs.copyFile(path.join(sourceDir, asset), path.join(outputDir, asset));
+    const sourceAssetPath = path.join(sourceDir, asset);
+    try {
+      await fs.copyFile(sourceAssetPath, path.join(outputDir, asset));
+    } catch (error) {
+      if (error?.code === "ENOENT") {
+        try {
+          const { stdout } = await execFileAsync("git", ["-C", root, "show", `HEAD:${issue.date}/assets/${asset}`], {
+            encoding: "buffer",
+            maxBuffer: 20 * 1024 * 1024
+          });
+          await fs.writeFile(path.join(outputDir, asset), stdout);
+          continue;
+        } catch {
+          // Fall through to the SVG-only generated fallback below.
+        }
+      }
+      if (error?.code === "ENOENT" && path.extname(asset) === ".svg") {
+        const title = asset
+          .replace(/\.svg$/, "")
+          .replace(/[-_]+/g, " ")
+          .replace(/\b\w/g, (char) => char.toUpperCase());
+        await fs.writeFile(
+          path.join(outputDir, asset),
+          svgDiagram(title, "Regenerated source-based historical diagram", [
+            { title: "Evidence", items: ["source ledger", "topic dossier", "visual trace"] },
+            { title: "Product", items: ["interface", "stack", "availability"] },
+            { title: "Boundary", items: ["no stock art", "no crop", "no inferred specs"] }
+          ])
+        );
+        continue;
+      }
+      throw error;
+    }
   }
 }
 
