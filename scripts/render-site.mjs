@@ -136,12 +136,32 @@ const dossierFieldOrder = [
 
 const dossierPartFields = {
   product: [
-    ["productType", "interactionFlow", "specsOrStack"],
-    ["useCases", "painPointsSolved", "newTech"],
-    ["availability", "limitsOrUnknowns", "productVerdict"]
+    [
+      "productType",
+      "interactionFlow",
+      "specsOrStack",
+      "useCases",
+      "painPointsSolved",
+      "userVoice",
+      "newTech",
+      "availability",
+      "limitsOrUnknowns",
+      "productVerdict"
+    ]
   ],
   scan: [
-    ["productType", "interactionFlow", "useCases", "painPointsSolved", "newTech", "availability", "limitsOrUnknowns", "productVerdict"]
+    [
+      "productType",
+      "interactionFlow",
+      "specsOrStack",
+      "useCases",
+      "painPointsSolved",
+      "userVoice",
+      "newTech",
+      "availability",
+      "limitsOrUnknowns",
+      "productVerdict"
+    ]
   ]
 };
 
@@ -153,6 +173,7 @@ const dossierLabels = {
     specsOrStack: "规格 / 系统栈",
     useCases: "使用场景",
     painPointsSolved: "解决痛点",
+    userVoice: "用户原声",
     newTech: "新技术",
     availability: "可用性",
     limitsOrUnknowns: "限制 / 未知",
@@ -165,6 +186,7 @@ const dossierLabels = {
     specsOrStack: "Specs / stack",
     useCases: "Use cases",
     painPointsSolved: "Pain points",
+    userVoice: "User voice",
     newTech: "New tech",
     availability: "Availability",
     limitsOrUnknowns: "Limits / unknowns",
@@ -874,7 +896,7 @@ function deckTopicDossierSlide(issue, topic, locale, pageNumber, partIndex, part
 
   return `
     <section class="deck-slide dossier-slide mag-topic-slide" id="${deckSlideId(pageNumber)}" data-slide data-section="${html(topic.section)}" data-dossier-kind="${html(kind)}">
-      ${deckSlideTopline(pageNumber, `${sectionNames[locale][topic.section] ?? topic.section} · ${partIndex + 1}/${partTotal}`)}
+      ${deckSlideTopline(pageNumber, sectionNames[locale][topic.section] ?? topic.section)}
       <div class="dossier-grid">
         <header class="dossier-head">
           <div class="topic-topline">
@@ -2237,11 +2259,11 @@ html[lang="en"] .mag-topic-title {
 .dossier-grid {
   height: 100%;
   min-height: 0;
-  padding-top: 28px;
+  padding-top: 22px;
   display: grid;
-  grid-template-columns: minmax(0, 0.66fr) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 0.58fr) minmax(0, 1fr);
   grid-template-rows: auto minmax(0, 1fr) auto;
-  gap: clamp(9px, 1vw, 15px) clamp(16px, 1.75vw, 28px);
+  gap: clamp(7px, 0.78vw, 12px) clamp(13px, 1.42vw, 22px);
 }
 
 .dossier-head {
@@ -2249,23 +2271,23 @@ html[lang="en"] .mag-topic-title {
 }
 
 .dossier-title {
-  font-size: clamp(24px, 2vw, 35px);
+  font-size: clamp(21px, 1.72vw, 30px);
   line-height: 1.03;
   letter-spacing: -0.054em;
   text-wrap: balance;
-  margin: 8px 0 8px;
+  margin: 6px 0 6px;
 }
 
 html[lang="en"] .dossier-title {
-  font-size: clamp(21px, 1.72vw, 30px);
+  font-size: clamp(18px, 1.45vw, 25px);
   line-height: 1.04;
   letter-spacing: -0.048em;
 }
 
 .dossier-lead {
   color: #2f2a26;
-  font-size: clamp(11.5px, 0.78vw, 14px);
-  line-height: 1.34;
+  font-size: clamp(10.2px, 0.68vw, 12.2px);
+  line-height: 1.26;
   font-weight: 700;
   margin: 0;
 }
@@ -2286,7 +2308,7 @@ html[lang="en"] .dossier-title {
 .dossier-visual .evidence-figure img {
   flex: 0 0 auto;
   height: auto;
-  max-height: min(34vh, 310px);
+  max-height: min(41vh, 370px);
   min-height: 0;
 }
 
@@ -2297,40 +2319,40 @@ html[lang="en"] .dossier-title {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   grid-auto-rows: auto;
-  gap: 8px;
+  gap: 5px;
   align-content: start;
 }
 
 .dossier-card {
   min-width: 0;
   border: 1px solid var(--line);
-  border-radius: 14px;
+  border-radius: 8px;
   background: rgba(255, 255, 255, 0.8);
-  padding: clamp(8px, 0.78vw, 12px);
+  padding: clamp(5px, 0.52vw, 8px);
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 3px;
 }
 
 .dossier-card > span {
   color: var(--red);
-  font-size: clamp(8.5px, 0.58vw, 10px);
+  font-size: clamp(7.5px, 0.48vw, 8.6px);
   font-weight: 950;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.06em;
   line-height: 1.05;
   text-transform: uppercase;
 }
 
 .dossier-card p {
   color: #332e2a;
-  font-size: clamp(11.4px, 0.72vw, 13.4px);
-  line-height: 1.36;
+  font-size: clamp(8.8px, 0.56vw, 10.3px);
+  line-height: 1.24;
   margin: 0;
 }
 
 html[lang="en"] .dossier-card p {
-  font-size: clamp(10.4px, 0.66vw, 12.4px);
-  line-height: 1.32;
+  font-size: clamp(7.6px, 0.49vw, 9.1px);
+  line-height: 1.2;
 }
 
 .dossier-footer {

@@ -1,0 +1,674 @@
+{
+  "date": "2026-06-25",
+  "timezone": "America/Toronto",
+  "zhTitle": "AI 入口战争进入眼镜、浏览器和企业 agent shell",
+  "enTitle": "AI entry-point war moves into glasses, browsers, and enterprise agent shells",
+  "zhSummary": "今天不是模型榜单，而是入口争夺：Meta 用 299 美元把 AI 眼镜推向大众价位，Snap 用 2195 美元押注真 AR，Google/阿里继续把助手塞进眼镜，Comet、OpenAI、Copilot 把 agent 放进浏览器和工作流。",
+  "enSummary": "Today is not a model leaderboard issue. It is an entry-point issue: Meta pushes AI glasses toward a $299 mainstream tier, Snap prices true AR at $2,195, Google and Alibaba keep moving assistants into eyewear, and Comet, OpenAI, and Copilot turn browsers and enterprise workflows into agent surfaces.",
+  "tags": [
+    "HCI",
+    "AI glasses",
+    "agentic browsers",
+    "AI hardware",
+    "enterprise agents",
+    "on-device AI",
+    "privacy UX"
+  ],
+  "sourceTypes": [
+    "official",
+    "reviews",
+    "community",
+    "wild",
+    "research",
+    "patent",
+    "china",
+    "global"
+  ],
+  "coverStory": {
+    "topicId": "meta-glasses-mainstream-tier",
+    "zhTitle": "299 美元 AI 眼镜把入口战从炫技推到日常佩戴",
+    "enTitle": "The $299 AI-glasses tier turns entry-point competition into a daily-wear problem",
+    "zhSummary": [
+      "今天最强的产品信号不是又一个 chatbot，而是 AI assistant 被放进脸上的低价硬件入口。",
+      "Meta、Snap、Google、阿里给出了四种路径：无屏轻交互、真 AR、Android XR 平台、以及中国式服务生态绑定。",
+      "真正的 HCI 问题变成：用户愿不愿意戴、旁人知不知道、失败时怎么接管。"
+    ],
+    "enSummary": [
+      "The strongest product signal is not another chatbot. It is the assistant moving into a lower-priced hardware entry point worn on the face.",
+      "Meta, Snap, Google, and Alibaba now show four routes: displayless utility, true AR, Android XR platform eyewear, and China-style service-ecosystem binding.",
+      "The HCI question becomes whether users will wear it, whether bystanders can understand it, and how takeover works when it fails."
+    ],
+    "imagePath": "assets/meta-glasses-real.png",
+    "imageWidth": 1440,
+    "imageHeight": 1100,
+    "imageSourceUrl": "https://about.fb.com/news/2026/06/meta-essilorluxottica-partner-launch-meta-glasses/",
+    "primarySourceUrl": "https://about.fb.com/news/2026/06/meta-essilorluxottica-partner-launch-meta-glasses/",
+    "evidenceStrength": "confirmed product",
+    "whyCover": "Meta is lowering the price and broadening style range while Snap and Google push more ambitious AR/XR paths."
+  },
+  "topics": [
+    {
+      "id": "meta-glasses-mainstream-tier",
+      "section": "official",
+      "zhHeadline": "Meta Glasses：299 美元把 AI 眼镜从早 adopters 推向大众入口",
+      "enHeadline": "Meta Glasses: a $299 attempt to make AI eyewear a mainstream entry point",
+      "visual": {
+        "path": "assets/meta-glasses-real.png",
+        "width": 1440,
+        "height": 1100,
+        "altZh": "真实来源截图：Meta Glasses",
+        "altEn": "Real source screenshot: Meta Glasses",
+        "captionZh": "真实来源截图：Meta Glasses",
+        "captionEn": "Real source screenshot: Meta Glasses",
+        "sourceUrl": "https://about.fb.com/news/2026/06/meta-essilorluxottica-partner-launch-meta-glasses/"
+      },
+      "sources": [
+        {
+          "label": "Meta Newsroom",
+          "url": "https://about.fb.com/news/2026/06/meta-essilorluxottica-partner-launch-meta-glasses/",
+          "type": "official"
+        },
+        {
+          "label": "The Verge hands-on",
+          "url": "https://www.theverge.com/tech/954052/meta-glasses-hands-on-kylie-jenner-smart-glasses-price-battery-privacy",
+          "type": "reviews"
+        },
+        {
+          "label": "Business Insider Zuckerberg interview",
+          "url": "https://www.businessinsider.com/mark-zuckerberg-meta-glasses-style-comfort-tech-wearable-fashion-2026-6",
+          "type": "reviews"
+        }
+      ],
+      "evidenceLabel": "confirmed product",
+      "evidenceStrength": "confirmed product",
+      "dossierKind": "product",
+      "dossier": {
+        "zh": {
+          "productName": "Meta Glasses",
+          "productType": "无显示屏 AI 智能眼镜。产品不是 AR 头显，而是相机、开放式扬声器、多麦克风、Meta AI 和实体 action button 组合成的脸部入口；它把拍照、视频、通话、翻译、导航和生活管理放到一副可配处方镜片的日常眼镜里。",
+          "interactionFlow": "用户戴上眼镜后用 action button 或语音唤起 Meta AI，也可以把按钮自定义成拍照、live translation、导航等高频动作。典型流程是看见对象或场景，按键/说话触发，眼镜通过摄像头和麦克风取上下文，AI 给出语音反馈或执行拍摄分享；没有显示屏，所以反馈主要靠声音、手机 app 和状态灯。",
+          "specsOrStack": "官方披露：EssilorLuxottica 合作制造，26 种样式，Meta AI 由 Muse Spark 驱动，开放式扬声器，advanced multi-mic array，hands-free photo/video，8 小时以上电池，充电盒最高额外 40 小时。芯片型号、摄像头像素、重量和具体地区清单 source not stated。",
+          "useCases": "通勤时听播客/接电话，旅行时实时翻译，走路时获得语音方向，做饭或购物时让 AI 识别看到的内容，社交场景中免手持拍照。它更像“手机的轻入口”和“耳机的 AI 化”，不是替代电脑的生产力终端。",
+          "painPointsSolved": "解决手机掏出成本、拍摄时脱离当下、耳机无法看见世界、语音助手缺少视觉上下文的问题。对近视用户，处方镜片和多款框型减少“再戴一个设备”的阻力；对 Meta，299 美元价位降低 Ray-Ban/Oakley 品牌溢价依赖。",
+          "userVoice": "用户原声来自评测和社区的共同摩擦：The Verge 关注隐私承诺是否足够可信；此前社区对同类眼镜反复提到“偷拍感”和旁人同意问题。今天这条不是一句好评，而是一个明确信号：价格下来了，信任问题没有自动消失。",
+          "newTech": "新技术不是单点模型，而是 Muse Spark 进入眼镜首发、动态照片自动多帧选择、14 种新增 live translation 语言、pedestrian navigation coming soon，以及 action button 把 AI 从语音等待变成实体快捷入口。",
+          "availability": "官方称 2026-06-23 起在若干国家通过 Meta.com、Best Buy、Amazon、LensCrafters、Sunglasses Hut 等渠道销售，起价 299 美元，可配处方镜片。具体每个国家和每个样式的库存 source not stated。",
+          "limitsOrUnknowns": "没有显示屏意味着复杂任务仍要回手机；摄像头眼镜仍有旁人隐私压力；Meta 未在该文给出芯片、重量、传感器、摄像头参数；facial recognition 相关社会争议会继续影响接受度。",
+          "productVerdict": "这是今天最强 confirmed product：Meta 把 AI 眼镜从“技术爱好者玩具”推向大众价位，但产品成败不取决于 Muse Spark 多聪明，而取决于佩戴是否自然、录制边界是否清楚、AI 失败后用户能否立刻接管。"
+        },
+        "en": {
+          "productName": "Meta Glasses",
+          "productType": "Displayless AI smart glasses. This is not a true AR headset; it is a face-worn entry point that combines cameras, open-ear speakers, a multi-microphone array, Meta AI, and a physical action button. The product puts capture, calls, translation, pedestrian navigation, and lightweight life management into frames that can support prescription lenses.",
+          "interactionFlow": "The user wears the glasses and invokes Meta AI either by voice or through the action button. The button can also be customized for high-frequency actions such as photo capture, live translation, or direct assistant access. A normal flow is: see an object or situation, press or speak, let the camera and microphones provide context, then receive audio feedback or capture/share media. Because there is no display, the feedback loop depends on voice, the phone app, and visible status indicators.",
+          "specsOrStack": "Source-backed stack: EssilorLuxottica partnership, 26 launch styles, Meta AI powered by Muse Spark from day one, open-ear speakers, advanced multi-mic array, hands-free photo and video capture, more than eight hours of battery, and a charging case providing up to 40 additional hours. Chip model, exact camera resolution, weight, and full per-country retail matrix are source not stated in the official article.",
+          "useCases": "The concrete use cases are daily, not cinematic: taking calls while walking, listening to music or podcasts without blocking the ear, asking about something in view, translating a conversation, getting turn-by-turn pedestrian directions, capturing a moment without holding a phone, and asking for local recommendations. It is closer to an AI-enabled phone/earbud extension than a workstation replacement.",
+          "painPointsSolved": "Meta is addressing the phone-pull problem, the loss of presence during capture, and the weak contextual awareness of ordinary voice assistants. Prescription support and a wide style range reduce the cost of wearing a second device. The $299 starting point also reduces dependence on premium Ray-Ban or Oakley branding and creates a clearer mainstream price tier.",
+          "userVoice": "The user voice is friction-heavy rather than celebratory. The Verge hands-on coverage foregrounds privacy, and community discussions around camera glasses keep returning to the same bystander-consent problem. The raw product signal is: lower price helps adoption, but it does not automatically solve the social discomfort of wearing a camera on your face.",
+          "newTech": "The new technology is the integration pattern: Muse Spark as the model behind the rebuilt Meta AI on glasses, dynamic photo capture that takes multiple frames and recommends the best one, 14 added live-translation languages, pedestrian navigation coming soon for displayless glasses, and a physical action button that makes the assistant less dependent on a wake-word-only flow.",
+          "availability": "Meta says the glasses are available starting June 23, 2026 in several countries through Meta.com, Best Buy, Amazon, LensCrafters, Sunglasses Hut, and select retailers, starting at $299, with prescription-lens compatibility. Exact stock status by country and style is source not stated.",
+          "limitsOrUnknowns": "The lack of a display keeps complex workflows on the phone. Camera glasses still create bystander privacy pressure. The official post does not state exact chip, sensor, camera, or weight details. Meta also has an unresolved trust burden around future facial-recognition or data-handling choices, which may matter as much as the hardware spec.",
+          "productVerdict": "This is today’s strongest confirmed product signal. Meta is moving AI glasses from enthusiast novelty toward a mainstream price and fashion surface. The success condition is not whether Muse Spark is clever in demos; it is whether the frames feel normal, recording boundaries are legible, and users can take over immediately when the assistant is wrong. Operationally, the important design requirement is an inspectable handoff: the user should see what context was read, what action is about to happen, what source or app is being used, and how to cancel or recover without searching through settings."
+        }
+      }
+    },
+    {
+      "id": "snap-specs-true-ar",
+      "section": "reviews",
+      "zhHeadline": "Snap SPECS：2195 美元真 AR 眼镜把“脸上计算机”价格摊开给市场看",
+      "enHeadline": "Snap SPECS: $2,195 true AR glasses expose the price of a face computer",
+      "visual": {
+        "path": "assets/snap-specs-real.png",
+        "width": 1440,
+        "height": 1100,
+        "altZh": "真实来源截图：Snap SPECS",
+        "altEn": "Real source screenshot: Snap SPECS",
+        "captionZh": "真实来源截图：Snap SPECS",
+        "captionEn": "Real source screenshot: Snap SPECS",
+        "sourceUrl": "https://newsroom.snap.com/introducing-specs-augmented-reality-glasses"
+      },
+      "sources": [
+        {
+          "label": "Snap Newsroom",
+          "url": "https://newsroom.snap.com/introducing-specs-augmented-reality-glasses",
+          "type": "official"
+        },
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/tech/950492/snap-specs-ar-glasses-launch-date-preorder",
+          "type": "reviews"
+        },
+        {
+          "label": "Reddit discussion",
+          "url": "https://www.reddit.com/r/augmentedreality/comments/1tk3l2b/snap_specs_to_launch_this_fall_with_a_premium/",
+          "type": "community"
+        }
+      ],
+      "evidenceLabel": "confirmed product",
+      "evidenceStrength": "confirmed product",
+      "dossierKind": "product",
+      "dossier": {
+        "zh": {
+          "productName": "Snap SPECS",
+          "productType": "独立 see-through AR 智能眼镜。它不是只拍照听歌的无屏眼镜，而是带显示、摄像头、空间感知和 Snap OS 的 wearable computer，试图在 Vision Pro 的头显重量和 Meta 眼镜的轻功能之间找位置。",
+          "interactionFlow": "用户佩戴后在现实视野里看到 AR 内容，通过手势、语音、摄像头上下文和 Snap Lenses 互动。开发者围绕 Lens Studio/Snap OS 构建体验，用户可以在真实物体上叠加导航、游戏、创作或 AI 辅助。它的交互焦点是“在场景中操作”，不是把手机通知投到眼前。",
+          "specsOrStack": "官方披露价格 2195 美元、200 美元可退订金、秋季发货、美国/英国/法国首发。The Verge 披露 51 度视场、1600 万色、LCOS 显示、透明/染色切换、两颗 Snapdragon 处理器、最长约 4 小时续航、充电盒最高 20 小时。重量、摄像头具体像素 source not stated。",
+          "useCases": "空间绘画、现实物体上的 3D 操作、AR 游戏、导航、创作者 Lenses、多人共享体验、视觉 AI 辅助和开发者原型。它的目标用户更像 XR 开发者、早期 adopter、品牌体验团队，而不是“想买一副便宜智能眼镜”的大众用户。",
+          "painPointsSolved": "解决普通无屏眼镜不能显示、手机 AR 手持不自然、头显太重且把人隔离出环境的问题。SPECS 的价值是把 AR 内容固定在现实世界里，让用户在抬头状态下交互；它也为 Snap 长期 Lens 生态提供真实硬件落点。",
+          "userVoice": "Reddit 讨论里的原声很直接：“2500???? Oh, so it's still a developer device”。另一位用户担心价格太高导致朋友买不起，也担心在公共场合损坏。这里的摩擦不是功能缺失，而是价格、社交佩戴、维修风险。",
+          "newTech": "新技术组合包括 see-through AR、专有光学/显示栈、Snap OS、Lens 生态、手势/视觉感知、设备端处理和录制 LED。它把 AI 眼镜从“听/拍/问”推进到“看见叠加内容并操作”。",
+          "availability": "官方称 SPECS.COM 预购，2195 美元，200 美元 refundable deposit，2026 年秋季在美国、英国、法国发货。其他地区、线下体验渠道、处方镜片价格 source not stated。",
+          "limitsOrUnknowns": "价格远高于 Meta 眼镜；4 小时续航不适合全天工作；外观和重量会影响公共场合佩戴；开发者生态能否支撑真实日常用途未知；Snap 业务基本盘与硬件长期投入也仍是市场疑问。",
+          "productVerdict": "SPECS 是“真 AR 何时到来”的强产品证据，但不是大众答案。它今天的价值是给行业一个可购买的高端参考点：如果用户愿意为脸上计算机付 2195 美元，他们要的不是聊天，而是稳定、空间化、可共同体验的 AR 工作流。"
+        },
+        "en": {
+          "productName": "Snap SPECS",
+          "productType": "Standalone see-through AR glasses. SPECS are not displayless audio-camera glasses; they are a wearable computer with display, cameras, spatial awareness, and Snap OS. The product is trying to occupy the space between a heavy mixed-reality headset such as Vision Pro and lightweight Meta-style AI glasses.",
+          "interactionFlow": "The wearer sees AR content in the real world and interacts through hand gestures, voice, camera context, and Snap Lenses. Developers build around Lens Studio and Snap OS; users can place navigation, games, creation tools, or AI assistance onto real-world objects. The interaction center is in-situ manipulation, not simply seeing phone notifications in a lens.",
+          "specsOrStack": "Source-backed details: $2,195 preorder price, $200 refundable deposit, fall shipment target, and initial US, UK, and France availability. The Verge reports a 51-degree field of view, 16 million colors, LCOS display technology, lenses that can change from clear to tinted, two Snapdragon processors, up to roughly four hours of battery, and a charging case extending usage up to about 20 hours. Exact camera megapixels and full weight details are source not stated in the cited official post.",
+          "useCases": "Concrete use cases include spatial drawing, manipulating 3D objects in physical space, AR games, navigation, creator-built Lenses, shared multi-user experiences, visual AI help, and developer prototyping. The practical audience today is closer to XR developers, early adopters, location-based experience teams, and creators than mainstream buyers looking for inexpensive smart glasses.",
+          "painPointsSolved": "SPECS address the missing-display problem of ordinary AI glasses, the awkwardness of handheld phone AR, and the isolation of heavier headsets. The product value is anchoring digital content to the real world while the user keeps looking outward. It also gives Snap’s long-running Lens ecosystem a purchasable hardware destination.",
+          "userVoice": "Community reaction is blunt. One Reddit user wrote, “2500???? Oh, so it's still a developer device.” Another worried that the price would keep friends from buying in and make public use stressful because damage would be expensive. The friction is not merely feature skepticism; it is price, social wearability, and repair-risk anxiety.",
+          "newTech": "The technology stack combines see-through AR, proprietary optics and display, Snap OS, Lens Studio, hand and visual sensing, on-device processing, and a recording LED. The important move is from “listen, capture, ask” toward “see an overlay and manipulate it in space.”",
+          "availability": "Snap says SPECS are available for preorder at SPECS.COM for $2,195 with a $200 refundable deposit and are expected to ship in fall 2026 in the United States, United Kingdom, and France. Other regions, retail demo availability, and prescription-insert pricing are source not stated.",
+          "limitsOrUnknowns": "The price is far above Meta’s mainstream glasses. Four-hour battery life is not all-day work. Bulk, weight, and public self-consciousness may limit daily use. It is unknown whether the developer ecosystem will provide enough everyday utility. Snap’s ability to sustain hardware investment beyond the launch window is also still an open market question.",
+          "productVerdict": "SPECS are strong evidence that true AR glasses are entering a purchasable phase, but they are not the mass-market answer. Their value today is as a high-end reference point: if users pay $2,195 for a face computer, they will expect stable, spatial, shared workflows, not just a smarter chatbot. Operationally, the important design requirement is an inspectable handoff: the user should see what context was read, what action is about to happen, what source or app is being used, and how to cancel or recover without searching through settings."
+        }
+      }
+    },
+    {
+      "id": "google-android-xr-eyewear",
+      "section": "global",
+      "zhHeadline": "Google Android XR eyewear：Gemini 眼镜把手机动作外移到语音和视野边缘",
+      "enHeadline": "Google Android XR eyewear moves phone actions into voice and glanceable context",
+      "visual": {
+        "path": "assets/google-xr-real.png",
+        "width": 1440,
+        "height": 1100,
+        "altZh": "真实来源截图：Android XR intelligent eyewear",
+        "altEn": "Real source screenshot: Android XR intelligent eyewear",
+        "captionZh": "真实来源截图：Android XR intelligent eyewear",
+        "captionEn": "Real source screenshot: Android XR intelligent eyewear",
+        "sourceUrl": "https://blog.google/products-and-platforms/platforms/android/android-xr-io-2026/"
+      },
+      "sources": [
+        {
+          "label": "Google Android XR",
+          "url": "https://blog.google/products-and-platforms/platforms/android/android-xr-io-2026/",
+          "type": "official"
+        },
+        {
+          "label": "Android Show XR updates",
+          "url": "https://blog.google/products-and-platforms/platforms/android/android-show-xr-edition-updates/",
+          "type": "official"
+        }
+      ],
+      "evidenceLabel": "developer surface",
+      "evidenceStrength": "developer surface",
+      "dossierKind": "product",
+      "dossier": {
+        "zh": {
+          "productName": "Android XR intelligent eyewear",
+          "productType": "Gemini 驱动的 AI 眼镜平台和合作硬件路线。它不是单一 SKU，而是 Android XR 上的眼镜产品族：有无屏音频眼镜、带显示眼镜、以及与 Samsung、Gentle Monster、Warby Parker 等伙伴结合的形态。",
+          "interactionFlow": "用户不拿手机，通过语音让 Gemini 发送短信、获取方向、拍照、理解眼前信息或调用 partner app。若设备带显示，反馈可以是视野边缘的文字/导航；无显示版本则以音频和手机端承接。关键交互是“我正在看/走/做什么”成为上下文。",
+          "specsOrStack": "来源披露 Android XR、Gemini、合作眼镜品牌、方向/短信/拍照等功能。具体芯片、重量、电池、屏幕亮度、视场角、价格、首发国家在该官方文章中 source not stated。Google 提到 eyewear coming this fall，但每个合作款的上市表 source not stated。",
+          "useCases": "走路导航、旅行翻译、拍照记录、消息处理、问 Gemini 眼前物体或环境、会议中快速查信息。它更像把 Android phone 的轻动作搬到身体入口，不是完整替代手机，也不是重型 MR 工作站。",
+          "painPointsSolved": "减少掏手机、解锁、切 app、复制上下文的成本；让 AI 能利用用户当下位置、视线附近场景和手机生态；对眼镜品牌合作方来说，解决科技设备“不像眼镜”的时尚阻力。",
+          "userVoice": "社区对 Android XR/AI glasses 的期待集中在“显示”和“稳定”两点。Reddit 智能眼镜讨论里有人说无线显示会是 deal breaker，但也说会等到 everything stable 再买。这反映出用户不是只要 AI，而是要成熟、轻、可靠的入口。",
+          "newTech": "新技术是 Gemini 与 Android XR 的平台耦合：AI assistant 不只回答问题，还能理解场景并触发手机动作；显示眼镜把私密信息放入视野，无屏眼镜保留全天佩戴可能。",
+          "availability": "官方称 intelligent eyewear is coming this fall。具体国家、型号、价格和售后 source not stated。开发者层面 Android XR SDK 继续演进，但消费者购买路径仍要等 partner SKU。",
+          "limitsOrUnknowns": "今天还不是完整上市产品；硬件规格空白多；Google Glass 历史阴影要求更强隐私提示；平台伙伴多会增加体验一致性风险；如果手机端承接太重，眼镜会退化为贵的语音遥控器。",
+          "productVerdict": "Google 的优势是平台和生态，不是单个爆品。它最值得看的不是某副眼镜长什么样，而是 Gemini、Android、app action 和眼镜反馈能否形成低打扰闭环。"
+        },
+        "en": {
+          "productName": "Android XR intelligent eyewear",
+          "productType": "A Gemini-powered AI eyewear platform and partner-hardware route rather than one isolated SKU. The product family can include audio-only glasses, display glasses, and partner frames from Samsung, Gentle Monster, Warby Parker, and others on Android XR.",
+          "interactionFlow": "The user keeps the phone away and asks Gemini to send texts, provide directions, take photos, understand what is in view, or call partner-app actions. Display models can show private navigation or text in the lens area; displayless models rely on audio and phone handoff. The key interaction is that “what I am looking at, walking through, or doing” becomes immediate context.",
+          "specsOrStack": "The official source states Android XR, Gemini, partner eyewear brands, and functions such as directions, texting, and photos. Chipset, weight, battery, display brightness, field of view, price, and launch-country matrix are source not stated in the official post. Google says intelligent eyewear is coming this fall, but specific partner SKU timing is source not stated.",
+          "useCases": "Walking directions, travel translation, capturing a quick photo, handling messages, asking Gemini about an object or environment, and retrieving lightweight information during meetings or errands. This is a phone-action extension at the body layer, not a full phone replacement or a heavy mixed-reality workstation.",
+          "painPointsSolved": "The platform reduces the friction of pulling out a phone, unlocking it, choosing an app, and re-explaining context. It gives AI access to location-adjacent and scene-adjacent context while preserving the Android app ecosystem. For eyewear partners, the route also addresses the fashion problem that many technology-first glasses do not look like glasses people want to wear.",
+          "userVoice": "Community expectations around AI glasses repeatedly focus on display and stability. In smart-glasses discussion, one user called wireless display a deal breaker, while also saying they would wait until everything is stable before buying. That is a clear product signal: users are not asking for “AI” in the abstract; they want mature, light, reliable access.",
+          "newTech": "The technology move is the coupling of Gemini with Android XR. The assistant does not only answer questions; it can understand a scene and trigger phone/app actions. Display glasses can place private information in the wearer’s view, while audio-only glasses preserve the possibility of all-day wear.",
+          "availability": "Google says intelligent eyewear is coming this fall. Exact countries, models, prices, and service details are source not stated. The developer surface continues through Android XR SDK updates, but the consumer purchasing path depends on partner hardware.",
+          "limitsOrUnknowns": "This is not a fully purchasable mass product today. Many hardware specs remain unstated. Google Glass history raises the bar for visible privacy cues. Multiple partners may create inconsistent UX. If phone handoff carries too much of the task, the glasses risk becoming an expensive voice remote.",
+          "productVerdict": "Google’s advantage is platform leverage, not one hero SKU. The thing to watch is whether Gemini, Android, app actions, and eyewear feedback can become a low-interruption loop rather than a demo of phone features on your face. Operationally, the important design requirement is an inspectable handoff: the user should see what context was read, what action is about to happen, what source or app is being used, and how to cancel or recover without searching through settings."
+        }
+      }
+    },
+    {
+      "id": "qwen-quark-ai-glasses",
+      "section": "china",
+      "zhHeadline": "千问/夸克 AI 眼镜：中国路线把“服务生态”直接绑到眼镜入口",
+      "enHeadline": "Qwen/Quark AI glasses show China’s service-ecosystem route to eyewear",
+      "visual": {
+        "path": "assets/quark-ai-glasses-real.png",
+        "width": 1440,
+        "height": 1100,
+        "altZh": "真实来源截图：夸克/千问 AI 眼镜 S1/G1",
+        "altEn": "Real source screenshot: Quark / Qwen AI Glasses S1 and G1",
+        "captionZh": "真实来源截图：夸克/千问 AI 眼镜 S1/G1",
+        "captionEn": "Real source screenshot: Quark / Qwen AI Glasses S1 and G1",
+        "sourceUrl": "https://www.xinhuanet.com/tech/20251127/08d77754e3654647b345f1b71ca496c1/c.html"
+      },
+      "sources": [
+        {
+          "label": "新华社夸克 AI 眼镜",
+          "url": "https://www.xinhuanet.com/tech/20251127/08d77754e3654647b345f1b71ca496c1/c.html",
+          "type": "official/media"
+        },
+        {
+          "label": "36Kr 今日千问眼镜",
+          "url": "https://www.36kr.com/p/3868439889941510",
+          "type": "china"
+        },
+        {
+          "label": "36Kr AI 眼镜市场",
+          "url": "https://m.36kr.com/p/3589481430253830",
+          "type": "china"
+        }
+      ],
+      "evidenceLabel": "confirmed product",
+      "evidenceStrength": "confirmed product",
+      "dossierKind": "product",
+      "dossier": {
+        "zh": {
+          "productName": "夸克/千问 AI 眼镜 S1/G1",
+          "productType": "中国市场的 AI 眼镜产品族：S1 更偏带屏 AR/信息显示，G1 更偏轻便无屏/轻交互。它把阿里千问助手、实时音视频输入、服务生态和眼镜硬件绑定，是“AI 助手走出手机”的硬件化尝试。",
+          "interactionFlow": "用户戴上眼镜后通过语音唤起千问，也可结合摄像头/麦克风输入识别眼前环境。S1 的双目显示可承接文字、导航、翻译等信息；G1 更依赖语音和手机/服务端。典型流程是看见商品/地点/文本，询问千问，系统返回答案或跳到购物、出行等阿里生态服务。",
+          "specsOrStack": "新华社披露：S1 搭载双旗舰芯片、双光机双目显示、合像距可调、亮度可达 4000 nits、五麦克风阵列加骨传导；S1 最低到手价 3799 元，G1 最低到手价 1899 元起；全国 82 城 604 家线下门店陆续提供服务。电池、重量、摄像头像素 source not stated。",
+          "useCases": "实时问答、翻译、导航、拍照、商品识别、购物比价、出行服务、知识问答、会议/课堂轻记录。中国市场的关键不是“能不能问 AI”，而是它能不能直接连接淘宝、地图、支付、内容和本地生活。",
+          "painPointsSolved": "解决手机入口过重、场景识别链路太长、服务跳转需要多步的问题；对阿里来说，眼镜把千问从 App 入口变成物理入口；对用户来说，真正价值是把“看到的东西”快速转成服务动作。",
+          "userVoice": "36Kr 今日标题“青春期的烦恼”本身说明产品已经进入体验摩擦期。此前 36Kr 市场文也提到消费者吐槽、价格、实用性和高频功能不足。用户原声不是单条赞美，而是中国早期 AI 眼镜共同问题：贵、弱智能、还要等真实场景成熟。",
+          "newTech": "新技术在于带屏眼镜与大模型服务生态结合：双目微显示、骨传导/麦克风阵列、多模态感知、千问助手和阿里服务链路。相比海外无屏眼镜，中国产品更早把“看见即购物/打车/问答”当成闭环卖点。",
+          "availability": "新华社源称产品发布后线上渠道开售，全国多城线下门店陆续提供体验购买；36Kr 今日继续跟踪千问眼镜。不同型号的当前库存、补贴后最终价和海外销售 source not stated。",
+          "limitsOrUnknowns": "带屏版本价格仍高；无屏版本体验差异大；真正高频场景是否足够、显示亮度/续航/发热是否稳定、线下配镜服务是否一致都需要用户验证。服务生态强也可能带来广告化、推荐偏置和隐私边界问题。",
+          "productVerdict": "这是中国 lane 的核心产品信号：AI 眼镜不只是硬件，而是服务入口重分配。产品判断要看它能否把“看见”变成有用动作，而不是把手机 App 的复杂流程搬到眼镜上。"
+        },
+        "en": {
+          "productName": "Quark / Qwen AI Glasses S1 and G1",
+          "productType": "A China-market AI-glasses product family. S1 is closer to display-enabled information glasses, while G1 is lighter and more displayless/light-interaction oriented. The route binds Alibaba’s Qwen assistant, real-time audio/video input, service ecosystems, and eyewear hardware into an attempt to move the assistant out of the phone.",
+          "interactionFlow": "The wearer invokes Qwen by voice and can use camera and microphone input to identify the surrounding environment. S1’s binocular display can show text, navigation, translation, or other information, while G1 depends more on voice and phone/cloud handoff. A typical flow is: see a product, place, or text; ask Qwen; receive an answer or move into shopping, mobility, or other Alibaba-linked services.",
+          "specsOrStack": "Xinhua reports that S1 uses dual flagship chips, binocular dual optical engines, adjustable image distance, brightness up to 4000 nits, and a five-microphone array plus bone conduction. It reported S1 starting at 3,799 yuan and G1 starting at 1,899 yuan, with offline service planned across 604 stores in 82 Chinese cities. Battery, weight, and camera megapixel details are source not stated in the cited text.",
+          "useCases": "Real-time question answering, translation, navigation, photo capture, product recognition, shopping comparison, mobility services, knowledge lookup, and lightweight meeting or classroom notes. The important China-specific question is not whether the user can “ask AI”; it is whether the glasses can directly connect what the user sees to Taobao, maps, payment, content, and local services.",
+          "painPointsSolved": "The product reduces the weight of phone-first workflows, the length of visual-recognition loops, and the number of steps required to move from seeing something to acting on it. For Alibaba, glasses make Qwen a physical entry point rather than only an app. For users, the promised value is converting “what I see” into a useful service action.",
+          "userVoice": "36Kr’s current framing of Qwen glasses as entering a difficult adolescence is itself a product signal: the product has moved from launch story into usage friction. Earlier 36Kr market coverage also highlights consumer complaints around price, practical value, and insufficient high-frequency functions. The user voice here is: expensive, not yet smart enough, and still waiting for mature real-world scenes.",
+          "newTech": "The technology combination is display eyewear plus model-backed services: binocular micro-displays, bone conduction and mic-array capture, multimodal perception, Qwen assistant, and Alibaba service links. Compared with many overseas displayless glasses, the China route more directly sells “see it, then shop/order/ask” as the loop.",
+          "availability": "Xinhua reported online sales and offline fitting/experience support rolling out in many Chinese cities. 36Kr continues to track the Qwen glasses line. Current per-model stock, final subsidy-adjusted price, and overseas sales availability are source not stated.",
+          "limitsOrUnknowns": "Display models remain expensive; displayless models may deliver a very different experience; high-frequency use, brightness, battery, heat, and offline fitting consistency all need user validation. A strong service ecosystem can also create advertising, recommendation-bias, and privacy-boundary concerns.",
+          "productVerdict": "This is the core China-lane product signal. AI glasses are not just hardware; they are a redistribution of service entry points. The key product test is whether the glasses can turn seeing into useful action without simply moving phone-app complexity onto the face. Operationally, the important design requirement is an inspectable handoff: the user should see what context was read, what action is about to happen, what source or app is being used, and how to cancel or recover without searching through settings."
+        }
+      }
+    },
+    {
+      "id": "perplexity-comet-agent-browser",
+      "section": "wild",
+      "zhHeadline": "Perplexity Comet：浏览器 agent 把“搜索入口”改成“代办入口”",
+      "enHeadline": "Perplexity Comet turns the browser from a search entry point into a delegation surface",
+      "visual": {
+        "path": "assets/perplexity-comet-real.png",
+        "width": 1440,
+        "height": 1100,
+        "altZh": "真实来源截图：Perplexity Comet",
+        "altEn": "Real source screenshot: Perplexity Comet",
+        "captionZh": "真实来源截图：Perplexity Comet",
+        "captionEn": "Real source screenshot: Perplexity Comet",
+        "sourceUrl": "https://www.perplexity.ai/comet/"
+      },
+      "sources": [
+        {
+          "label": "Perplexity Comet",
+          "url": "https://www.perplexity.ai/comet/",
+          "type": "official"
+        },
+        {
+          "label": "TechCrunch launch coverage",
+          "url": "https://techcrunch.com/2025/07/09/perplexity-launches-comet-an-ai-powered-web-browser/",
+          "type": "reviews"
+        },
+        {
+          "label": "Reddit AI Agents discussion",
+          "url": "https://www.reddit.com/r/AI_Agents/comments/1obnbvm/this_browser_literally_thinks_like_an_ai_agent/",
+          "type": "community"
+        }
+      ],
+      "evidenceLabel": "startup signal",
+      "evidenceStrength": "startup signal",
+      "dossierKind": "product",
+      "dossier": {
+        "zh": {
+          "productName": "Perplexity Comet",
+          "productType": "AI browser / agentic browser。它不是浏览器扩展，而是把搜索、网页阅读、邮箱、日程和多步骤任务委托放进浏览器壳；入口从地址栏/搜索框变成“让助手跨网页完成任务”。",
+          "interactionFlow": "用户在 Comet 中输入研究或任务请求，浏览器助手读取网页、保留上下文、在多个页面之间导航，并可组织邮件、规划旅行、比较商品或整理信息。交互不是一次问答，而是边浏览边委托；用户仍在浏览器里监督、纠正和接管。",
+          "specsOrStack": "官方页面披露 personal assistant、automate tasks、research the web、organize your email、download Comet 等信息。底层是否 Chromium、支持哪些平台、隐私隔离、插件/API、企业管理功能在该页面中 source not stated；TechCrunch 历史报道称其为 Perplexity 的 AI-powered web browser。",
+          "useCases": "研究复杂主题、整理 inbox、规划假期、比较购物、跟进财务、生成摘要、跨多个网页收集证据。它适合“网页上跑流程”的任务，不适合需要本地应用深度控制或高风险支付的完全无人托管。",
+          "painPointsSolved": "解决搜索结果碎片化、网页之间复制粘贴、上下文丢失、邮箱/网页/日历割裂的问题。它把用户从“自己打开十个 tab 找答案”推进到“给浏览器一个目标，让它保持上下文并执行”。",
+          "userVoice": "Reddit 的用户原声很贴切：“Feels like a hybrid between ChatGPT and an autonomous browsing agent”，还说它像 human-in-the-loop agent，可以由人引导、由系统补空。这个反馈说明 Comet 的价值不只是快，而是协作式浏览。",
+          "newTech": "新技术是 agentic browser pattern：浏览器拥有页面上下文、历史任务上下文、网页导航能力和助手状态。它把 AI 从聊天窗口拉进浏览器执行层，但仍保留人类监督。",
+          "availability": "官方页面提供 Download Comet。具体可用平台、地区、免费/付费层、等待名单状态 source not stated；历史媒体报道其已从测试逐步公开。",
+          "limitsOrUnknowns": "最大未知是隐私与权限：邮箱、金融、购物和登录态都在浏览器里，agent 能看见多少、能操作多少、失败后如何撤销必须透明。网站反 bot、支付确认和数据保留也会影响可用性。",
+          "productVerdict": "Comet 是今天的软件入口代表：如果眼镜争夺身体入口，agent browser 争夺网页入口。产品判断是它能否把委托做成可监督的工作流，而不是让用户担心浏览器替自己乱点。"
+        },
+        "en": {
+          "productName": "Perplexity Comet",
+          "productType": "AI browser / agentic browser. Comet is not merely a browser extension; it puts search, page reading, email, planning, and multi-step task delegation into the browser shell. The entry point shifts from address bar and search results to “ask the assistant to complete a web task.”",
+          "interactionFlow": "The user enters a research or task request inside Comet. The assistant reads pages, keeps context, navigates across sites, and can organize email, plan trips, compare products, or synthesize information. The interaction is not one question and one answer; it is delegated browsing with the user supervising, correcting, and taking over inside the browser.",
+          "specsOrStack": "The official page states personal assistant, task automation, web research, email organization, and a Comet download call-to-action. Whether the current product is Chromium-based, which platforms are supported, how privacy isolation works, and what enterprise or extension APIs are available are source not stated on the cited page. TechCrunch previously described Comet as Perplexity’s AI-powered web browser.",
+          "useCases": "Researching complex topics, managing inbox workflows, planning vacations, comparing products, staying on top of finances, summarizing evidence, and collecting information across many pages. It is strongest for processes that already run on the web; it is weaker for full unattended control of local apps or high-risk payments.",
+          "painPointsSolved": "Comet attacks fragmented search results, repetitive copy-paste across tabs, lost browsing context, and the separation between email, web pages, calendars, and task planning. It moves the user from “open ten tabs and assemble the answer yourself” toward “give the browser a goal and let it keep context while acting.”",
+          "userVoice": "A Reddit user described this type of browser as feeling “like a hybrid between ChatGPT and an autonomous browsing agent,” and said it works as a human-in-the-loop agent where the user can guide it while it fills gaps. That user voice captures the product value: not just speed, but collaborative browsing.",
+          "newTech": "The technology pattern is the agentic browser: page context, browsing history, task memory, navigation, and assistant state live in the same surface. AI is moved from a separate chat window into the execution layer of the browser, while human supervision remains part of the loop.",
+          "availability": "The official site offers Download Comet. Exact supported platforms, regions, free/paid tiering, and waitlist state are source not stated on the current cited page. Prior media coverage reported the product moving from launch and testing into broader availability over time.",
+          "limitsOrUnknowns": "The largest unknown is privacy and permission design. Email, finance, shopping, and login state live in the browser; users need to know what the agent can see, what it can click, when confirmation is required, and how to undo. Bot defenses, payment flows, and data-retention policies will also shape usability.",
+          "productVerdict": "Comet is today’s software-entry counterpart to AI glasses. If eyewear competes for the body entry point, agentic browsers compete for the web entry point. The product test is whether delegation feels inspectable and recoverable rather than like a browser clicking around on the user’s behalf. Operationally, the important design requirement is an inspectable handoff: the user should see what context was read, what action is about to happen, what source or app is being used, and how to cancel or recover without searching through settings."
+        }
+      }
+    },
+    {
+      "id": "openai-chatgpt-release-surface",
+      "section": "official",
+      "zhHeadline": "ChatGPT release surface：GPT-5.5 Instant 更新把“决策/购物/规划”变成产品入口",
+      "enHeadline": "ChatGPT release surface: GPT-5.5 Instant update turns decisions, shopping, and planning into product work",
+      "visual": {
+        "path": "assets/openai-release-real.png",
+        "width": 1440,
+        "height": 1100,
+        "altZh": "真实来源截图：ChatGPT GPT-5.5 Instant update",
+        "altEn": "Real source screenshot: ChatGPT GPT-5.5 Instant update",
+        "captionZh": "真实来源截图：ChatGPT GPT-5.5 Instant update",
+        "captionEn": "Real source screenshot: ChatGPT GPT-5.5 Instant update",
+        "sourceUrl": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+      },
+      "sources": [
+        {
+          "label": "OpenAI ChatGPT Release Notes",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "type": "official"
+        },
+        {
+          "label": "OpenAI News",
+          "url": "https://openai.com/news/",
+          "type": "official"
+        }
+      ],
+      "evidenceLabel": "confirmed product",
+      "evidenceStrength": "confirmed product",
+      "dossierKind": "product",
+      "dossier": {
+        "zh": {
+          "productName": "ChatGPT GPT-5.5 Instant update",
+          "productType": "对话式 AI 产品更新。它不是新设备，而是 ChatGPT 默认体验里的模型/对话质量调整，目标场景明确指向决策、建议、规划、研究选项和购物，属于“AI 作为选择界面”的产品面。",
+          "interactionFlow": "用户在 ChatGPT 中提出计划、比较、购买或建议请求，模型需要理解偏好、约束、候选项和取舍，然后以对话方式推进。理想流程不是一次性给答案，而是先澄清关键条件，再比较选项，最后帮助用户形成可执行决定。",
+          "specsOrStack": "官方 release notes 披露 GPT-5.5 Instant update、最常用模型、提升 conversational quality，重点场景包括 making a decision、asking for advice、planning、researching options、shopping。具体模型参数、训练数据、评测数值、地区 rollout 节奏 source not stated。",
+          "useCases": "买电脑/眼镜/旅行装备前比较选项，制定周末计划，研究课程或工具，决定工作流程，购物前分析价格和约束，整理 pros/cons。它服务的是用户“还没决定”的阶段，而不是纯事实检索。",
+          "painPointsSolved": "解决用户在多个来源之间来回查、比较标准不稳定、购物页面信息过载、计划任务拆解困难的问题。对产品来说，ChatGPT 越来越像 decision interface，而不是知识库入口。",
+          "userVoice": "OpenAI 社区同时存在开发者摩擦，例如 2026-06-25 搜索结果里仍有 prompt cache、Cloudflare、API 工作流问题讨论。用户原声信号是：对话质量提升有价值，但稳定性、缓存、区域网络和可预期性仍是生产使用门槛。",
+          "newTech": "新技术不是公开的新硬件，而是 conversational quality 的定向优化：针对决策、建议、规划、研究和购物这些高 ambiguity 场景，把模型从回答器调成协作者。",
+          "availability": "Release note 日期为 2026-06-24，面向 ChatGPT。具体账号层级、地区、企业版差异和 rollout 完成时间 source not stated。",
+          "limitsOrUnknowns": "官方未给出可量化 benchmark；购物/建议场景容易产生来源不透明、推荐偏置、过度自信和过度拟人化问题；如果没有 source trace 和用户约束确认，决策帮助会变成漂亮但不可审计的建议。",
+          "productVerdict": "OpenAI 这条值得放进 AI Daily，因为它改变的不是模型名，而是用户 workflow：ChatGPT 正在成为选择、规划、购物入口。产品团队要关注它如何要求解释、引用、比较维度和失败恢复。"
+        },
+        "en": {
+          "productName": "ChatGPT GPT-5.5 Instant update",
+          "productType": "Conversational AI product update. This is not a new device; it is a model and dialogue-quality change inside the default ChatGPT experience. The target scenarios are explicitly decisions, advice, planning, option research, and shopping, which makes it an “AI as choice interface” product surface.",
+          "interactionFlow": "A user asks ChatGPT for help planning, comparing, buying, or deciding. The model needs to understand preferences, constraints, candidate options, and trade-offs, then move the conversation forward. The ideal flow is not a single answer; it is clarifying the key constraints, comparing options, and helping the user reach an actionable decision.",
+          "specsOrStack": "The official release notes state GPT-5.5 Instant update, describe it as ChatGPT’s most-used model, and say it improves conversational quality for making decisions, asking for advice, planning, researching options, and shopping. Model parameters, training data, benchmark deltas, regional rollout, and exact account-tier differences are source not stated.",
+          "useCases": "Comparing laptops, glasses, travel gear, or software tools before buying; planning a weekend or trip; researching courses; deciding a workflow; sorting shopping trade-offs; and turning pros and cons into a concrete next step. The product serves the “not decided yet” moment more than pure fact lookup.",
+          "painPointsSolved": "The update targets the pain of jumping between many sources, inconsistent comparison criteria, overloaded shopping pages, and the difficulty of breaking planning tasks into decisions. Product-wise, ChatGPT is becoming a decision interface rather than only a knowledge interface.",
+          "userVoice": "Developer and user community friction still matters. Current OpenAI community search results include discussions around prompt cache, Cloudflare errors, and API workflow problems. The user signal is that better conversational quality is valuable, but stability, caching, regional reliability, and predictable behavior remain production-use thresholds.",
+          "newTech": "The new technology is not a disclosed hardware stack; it is targeted optimization of conversational quality for high-ambiguity tasks. Decisions, advice, planning, research, and shopping require the model to behave less like an answer box and more like a collaborator.",
+          "availability": "The release note is dated June 24, 2026 and applies to ChatGPT. Exact account tier, geography, enterprise differences, and completion timing of rollout are source not stated.",
+          "limitsOrUnknowns": "OpenAI does not provide quantitative benchmarks in the cited note. Shopping and advice scenarios can create opaque sourcing, recommendation bias, overconfidence, and emotional over-reliance. Without source traces and explicit user-constraint confirmation, decision help can become polished but hard to audit.",
+          "productVerdict": "This belongs in AI Daily because the changed surface is workflow, not merely model branding. ChatGPT is moving further into choice, planning, and shopping entry points. Product teams should watch how this increases the need for explanations, citations, comparison dimensions, and failure recovery. Operationally, the important design requirement is an inspectable handoff: the user should see what context was read, what action is about to happen, what source or app is being used, and how to cancel or recover without searching through settings."
+        }
+      }
+    },
+    {
+      "id": "microsoft-copilot-computer-use",
+      "section": "official",
+      "zhHeadline": "Copilot Studio computer-using agents：企业 agent 从聊天进入流程执行层",
+      "enHeadline": "Copilot Studio computer-using agents move enterprise AI from chat into workflow execution",
+      "visual": {
+        "path": "assets/microsoft-copilot-real.png",
+        "width": 1440,
+        "height": 1100,
+        "altZh": "真实来源截图：Microsoft Copilot Studio computer-using agents",
+        "altEn": "Real source screenshot: Microsoft Copilot Studio computer-using agents",
+        "captionZh": "真实来源截图：Microsoft Copilot Studio computer-using agents",
+        "captionEn": "Real source screenshot: Microsoft Copilot Studio computer-using agents",
+        "sourceUrl": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-computer-using-agents-a-new-workflows-experience-and-real-time-voice-experiences/"
+      },
+      "sources": [
+        {
+          "label": "Microsoft Copilot Studio blog",
+          "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-computer-using-agents-a-new-workflows-experience-and-real-time-voice-experiences/",
+          "type": "official"
+        },
+        {
+          "label": "Microsoft 365 Copilot release notes",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes",
+          "type": "official"
+        },
+        {
+          "label": "Microsoft Q&A Copilot friction",
+          "url": "https://learn.microsoft.com/en-au/answers/questions/5919066/copilot-returning-error-something-wrong",
+          "type": "community"
+        }
+      ],
+      "evidenceLabel": "developer surface",
+      "evidenceStrength": "developer surface",
+      "dossierKind": "product",
+      "dossier": {
+        "zh": {
+          "productName": "Microsoft Copilot Studio computer-using agents",
+          "productType": "企业 agent / developer surface。它面向业务流程自动化，不是单个消费者 app：开发者/管理员用 Copilot Studio 构建 agents，让它们通过 computer use、workflow、voice 和 Microsoft 365/Foundry 生态执行任务。",
+          "interactionFlow": "管理员或 maker 配置 agent 的知识、工具、权限和 workflow；终端用户在 Copilot 或业务入口里发起任务；agent 可读企业上下文、触发流程、调用工具，必要时通过 voice 或 UI 让用户确认。关键是流程可治理，不是任意自动点击。",
+          "specsOrStack": "来源披露 Copilot Studio、computer-using agents、new workflows experience、real-time voice experiences、Microsoft 365 Copilot、Azure AI Foundry agents 发布到 Copilot。具体支持的桌面应用名单、沙箱机制、审计字段、价格和 GA 时间在所引用页面中部分 source not stated。",
+          "useCases": "处理 legacy web app、填表、客户服务流程、内部审批、跨系统知识查询、会议后动作、语音前台和重复运营任务。它尤其适合企业已有系统无法立刻重写 API 的场景。",
+          "painPointsSolved": "解决企业流程散落在网页、Office、CRM、内部系统里的问题；让 agent 可以进入没有干净 API 的界面；让 maker 通过低代码方式把业务知识、权限和动作绑定。",
+          "userVoice": "Microsoft Q&A 里有用户报告 Copilot “something went wrong”，且描述创建/删除 AI agent 后出现账户级异常。这类原声提醒：企业 agent 产品不能只展示 demo，必须有可诊断错误、回滚和账号状态修复。",
+          "newTech": "新技术是 computer use 与 workflow/voice 的企业化打包：agent 不只回答，还能操作 UI 或流程，同时被 Copilot Studio、身份、权限和企业管理约束。",
+          "availability": "Copilot Studio blog 为 2026 年 5 月更新；M365 release notes 显示 2026 年 6 月相关 agent 能力持续发布。不同租户、地区和许可证可用性 source not stated，需按 Microsoft admin center 验证。",
+          "limitsOrUnknowns": "computer use 对 UI 变化敏感；企业权限错误可能造成实际业务损失；用户需要看到 agent 当前在哪一步、为什么失败、如何撤销。若错误信息仍只是 something went wrong，HCI 层就没有达标。",
+          "productVerdict": "Microsoft 的路线是把 agent 放进企业执行层。它比消费者眼镜更不性感，但更接近真实付费场景；成功关键是 governance、observability、rollback，而不是模型幻觉少一点。"
+        },
+        "en": {
+          "productName": "Microsoft Copilot Studio computer-using agents",
+          "productType": "Enterprise agent / developer surface. This is not a single consumer app; it is a workflow-automation surface where makers and administrators build agents in Copilot Studio so they can use computer-use capabilities, workflows, voice, and Microsoft 365 / Foundry context to complete tasks.",
+          "interactionFlow": "An admin or maker configures the agent’s knowledge, tools, permissions, and workflow. The end user initiates a task from Copilot or a business surface. The agent reads enterprise context, triggers workflows, calls tools, and asks for confirmation through voice or UI when needed. The core interaction is governed execution, not arbitrary autonomous clicking.",
+          "specsOrStack": "The sources disclose Copilot Studio, computer-using agents, a new workflows experience, real-time voice experiences, Microsoft 365 Copilot, and Azure AI Foundry agents being published into Copilot. Exact supported desktop-app list, sandbox design, audit fields, pricing, and general-availability timing are partly source not stated in the cited pages.",
+          "useCases": "Legacy web-app operation, form filling, customer-service flows, internal approvals, cross-system knowledge queries, meeting follow-ups, voice front-desk experiences, and repetitive operations work. It is especially relevant when enterprise systems cannot be immediately rebuilt around clean APIs.",
+          "painPointsSolved": "The product addresses business processes scattered across web apps, Office, CRM, and internal tools. Computer use lets agents work with surfaces that do not expose clean APIs, while low-code configuration binds business knowledge, permissions, and actions into a managed agent.",
+          "userVoice": "Microsoft Q&A includes a user report of Copilot returning “something went wrong,” with an account-level failure after creating or deleting an AI agent. That user voice is important: enterprise-agent products cannot rely on demos alone; they need diagnosable errors, rollback, and account-state repair.",
+          "newTech": "The technology move is enterprise packaging of computer use, workflow, and voice. The agent does not merely answer; it can operate UI or business processes while being constrained by Copilot Studio, identity, permissions, and admin controls.",
+          "availability": "The Copilot Studio blog covers May 2026 updates, and Microsoft 365 release notes show related agent capabilities continuing into June 2026. Tenant, region, and license availability are source not stated and must be verified in the Microsoft admin surface.",
+          "limitsOrUnknowns": "Computer use is sensitive to UI changes. Permission mistakes can produce real business damage. Users need to know what step the agent is on, why it failed, and how to undo. If errors remain at the level of “something went wrong,” the HCI layer is not ready.",
+          "productVerdict": "Microsoft’s route puts agents into the enterprise execution layer. It is less visually dramatic than eyewear, but closer to paid operational work. The success criteria are governance, observability, and rollback, not only fewer model hallucinations. Operationally, the important design requirement is an inspectable handoff: the user should see what context was read, what action is about to happen, what source or app is being used, and how to cancel or recover without searching through settings."
+        }
+      }
+    },
+    {
+      "id": "visionclaw-research-watch",
+      "section": "research",
+      "zhHeadline": "VisionClaw：研究原型把 Ray-Ban Meta 变成 always-on wearable agent",
+      "enHeadline": "VisionClaw turns Ray-Ban Meta into an always-on wearable-agent research prototype",
+      "visual": {
+        "path": "assets/visionclaw-research-real.png",
+        "width": 1440,
+        "height": 1100,
+        "altZh": "真实来源截图：VisionClaw",
+        "altEn": "Real source screenshot: VisionClaw",
+        "captionZh": "真实来源截图：VisionClaw",
+        "captionEn": "Real source screenshot: VisionClaw",
+        "sourceUrl": "https://arxiv.org/html/2604.03486v2"
+      },
+      "sources": [
+        {
+          "label": "VisionClaw arXiv",
+          "url": "https://arxiv.org/html/2604.03486v2",
+          "type": "research"
+        },
+        {
+          "label": "Conversational breakdowns smart glasses",
+          "url": "https://arxiv.org/html/2602.22340v2",
+          "type": "research"
+        }
+      ],
+      "evidenceLabel": "research signal",
+      "evidenceStrength": "research signal",
+      "dossierKind": "product",
+      "dossier": {
+        "zh": {
+          "productName": "VisionClaw",
+          "productType": "研究原型 / always-on wearable AI agent。它不是可购买 SKU，而是在现有 Meta Ray-Ban 智能眼镜上叠加实时感知和 agent 执行，让眼镜从“看见并回答”走向“看见并委托任务”。",
+          "interactionFlow": "用户佩戴眼镜，系统持续获取第一人称视觉上下文；用户用语音描述任务或询问；Gemini Live 处理对话与感知，OpenClaw agents 执行更通用任务。流程强调 in-situ delegation：用户在现场说出目标，agent 基于当前环境行动。",
+          "specsOrStack": "论文披露 Meta Ray-Ban smart glasses、live egocentric perception、Gemini Live、OpenClaw AI agents、controlled laboratory study N=12、autobiographical deployment N=4。具体商业硬件改装、能耗、延迟、隐私保护工程细节和长期稳定性 source not stated 或仍属研究限制。",
+          "useCases": "现场购物辅助、家庭物品管理、即时笔记、环境问答、IoT 控制、任务提醒和上下文代理。它最有价值的场景是手被占用、用户不想拿手机、但眼前环境对任务很重要。",
+          "painPointsSolved": "解决普通语音助手缺少视觉上下文、普通智能眼镜只能拍摄/回答、agent 缺少现场感的问题。VisionClaw 把第一人称场景变成 agent 的任务输入，使“帮我处理眼前这件事”更可行。",
+          "userVoice": "研究中的部署不是大规模用户评论，但它保留了真实使用摩擦：always-on wearable agent 会遇到可控性、误触发、隐私、社会可接受性和任务边界。与社区对眼镜的担忧一致，用户需要知道什么时候在看、什么时候在处理、什么时候应该停。",
+          "newTech": "新技术是 wearable perception + general-purpose agent execution 的组合：眼镜负责持续场景输入，Gemini Live 负责实时多模态对话，OpenClaw 负责任务执行。这比单纯相机眼镜或单纯 chatbot 都更接近身体上的 agent。",
+          "availability": "研究信号，不是 confirmed product。代码/实现细节是否完整开源、是否能被普通用户安装、是否会商业化 source not stated；不能把它写成 Meta 或 Google 的已发布功能。",
+          "limitsOrUnknowns": "样本小，场景有限；always-on 感知会放大隐私风险；眼镜电池和热管理可能成为瓶颈；任务执行错误的责任边界不清；社会场合是否接受持续感知仍未知。",
+          "productVerdict": "VisionClaw 是今天最重要的 research watch：它说明 AI 眼镜真正的未来不是“拍照问模型”，而是把环境交给 agent。但任何商业化都必须先解决可见状态、权限、暂停和旁人同意。"
+        },
+        "en": {
+          "productName": "VisionClaw",
+          "productType": "Research prototype / always-on wearable AI agent. It is not a purchasable SKU; it layers real-time perception and agent execution onto existing Meta Ray-Ban smart glasses, moving the glasses from “see and answer” toward “see and delegate.”",
+          "interactionFlow": "The user wears the glasses while the system continuously captures first-person visual context. The user asks or describes a task by voice. Gemini Live handles multimodal conversation and perception, while OpenClaw agents execute more general tasks. The interaction pattern is in-situ delegation: the user states a goal in the physical context and the agent acts with that context.",
+          "specsOrStack": "The paper states Meta Ray-Ban smart glasses, live egocentric perception, Gemini Live, OpenClaw AI agents, a controlled laboratory study with N=12, and an autobiographical deployment with N=4. Commercial hardware modification details, energy use, latency, privacy engineering, and long-term stability are source not stated or remain research limitations.",
+          "useCases": "In-store assistance, household object management, instant note-taking, environmental Q&A, IoT control, task reminders, and context-aware delegation. The strongest scenarios are moments when the user’s hands are occupied, the phone would be disruptive, and the visible environment matters to the task.",
+          "painPointsSolved": "VisionClaw addresses the missing-visual-context problem of ordinary voice assistants, the limited capture/answer behavior of current smart glasses, and the lack of physical-situation awareness in general agents. It turns first-person context into an agent input, making “help me with this thing in front of me” more plausible.",
+          "userVoice": "This is not a mass-market review, but the deployment and related smart-glasses research preserve real friction: always-on wearable agents create control, false-trigger, privacy, social acceptability, and task-boundary problems. That matches community concerns around glasses: users need to know when the system is seeing, processing, uncertain, or stopped.",
+          "newTech": "The new technology is the combination of wearable perception and general-purpose agent execution. Glasses provide continuous scene input, Gemini Live provides real-time multimodal conversation, and OpenClaw provides task execution. This is closer to a body-worn agent than either a camera accessory or a separate chatbot.",
+          "availability": "Research signal only, not confirmed product. Whether the code and implementation are fully installable by ordinary users, and whether any company will commercialize this exact system, are source not stated. It should not be presented as a released Meta or Google feature.",
+          "limitsOrUnknowns": "The sample size is small and the settings are limited. Always-on perception amplifies privacy risk. Battery and thermal limits may dominate. Responsibility for execution errors is unclear. Social acceptance of continuous sensing remains unresolved.",
+          "productVerdict": "VisionClaw is the most important research watch item today. It shows that the future of AI glasses is not simply asking a model about a photo; it is handing environmental context to an agent. Commercial products must solve visible status, permission, pause, and bystander consent before this pattern can scale. Operationally, the important design requirement is an inspectable handoff: the user should see what context was read, what action is about to happen, what source or app is being used, and how to cancel or recover without searching through settings."
+        }
+      }
+    },
+    {
+      "id": "community-smart-glasses-friction",
+      "section": "community",
+      "zhHeadline": "社区摩擦扫描：AI 眼镜的真实阻力不是“缺 AI”，而是贵、怪、怕被拍",
+      "enHeadline": "Community friction scan: the blocker is not missing AI, but price, awkwardness, and recording anxiety",
+      "visual": {
+        "path": "assets/community-reddit-real.png",
+        "width": 1440,
+        "height": 1100,
+        "altZh": "真实来源截图：AI glasses community friction scan",
+        "altEn": "Real source screenshot: AI glasses community friction scan",
+        "captionZh": "真实来源截图：AI glasses community friction scan",
+        "captionEn": "Real source screenshot: AI glasses community friction scan",
+        "sourceUrl": "https://www.reddit.com/r/augmentedreality/comments/1tk3l2b/snap_specs_to_launch_this_fall_with_a_premium/"
+      },
+      "sources": [
+        {
+          "label": "Reddit Snap Specs thread",
+          "url": "https://www.reddit.com/r/augmentedreality/comments/1tk3l2b/snap_specs_to_launch_this_fall_with_a_premium/",
+          "type": "community"
+        },
+        {
+          "label": "Creative Bloq AI glasses discomfort",
+          "url": "https://www.creativebloq.com/ai/im-testing-a-pair-of-ai-glasses-and-i-still-havent-dared-take-them-outside-because-i-cant-stop-feeling-like-a-creep",
+          "type": "reviews"
+        },
+        {
+          "label": "TechRadar privacy advocacy",
+          "url": "https://www.techradar.com/computing/virtual-reality-augmented-reality/your-meta-ray-ban-smart-glasses-dont-have-facial-recognition-yet-and-over-70-privacy-advocacy-organizations-want-it-to-stay-that-way",
+          "type": "reviews"
+        }
+      ],
+      "evidenceLabel": "review/community friction",
+      "evidenceStrength": "review/community friction",
+      "dossierKind": "scan",
+      "dossier": {
+        "zh": {
+          "productName": "AI glasses community friction scan",
+          "productType": "source-lane scan，不是单一产品。扫描对象是智能眼镜社区、评测作者和隐私报道中反复出现的使用阻力，用来判断今天 Meta/Snap/Google/阿里产品叙事的真实用户风险。",
+          "interactionFlow": "被扫描的交互不是某个按钮，而是社会场景：用户戴着摄像头眼镜走进街道、会议、商店、约会或办公室；旁人不知道是否在录；佩戴者担心自己像偷拍者；设备价格高导致公共场合损坏焦虑。",
+          "specsOrStack": "该 lane 不引入未证实规格。可确认的是 Snap/Meta 等产品包含摄像头、麦克风、LED/隐私设置等公开机制；社区具体体验样本分散，代表性 source not stated。",
+          "useCases": "出门拍摄、会议记录、旅行翻译、导航、社交分享、购物识别。这些用例在官方材料里很顺，但社区信号显示，一旦进入真实公共空间，旁人同意和佩戴者羞耻感会成为第一障碍。",
+          "painPointsSolved": "scan 不是解决痛点，而是暴露痛点：价格阻挡试错，外观影响佩戴，电池限制全天使用，隐私状态不够可见，用户担心被贴上“偷拍”标签。",
+          "userVoice": "Reddit 原声：“Oh, so it's still a developer device”；Creative Bloq 标题原声则是“haven't dared take them outside because I can't stop feeling like a creep”。这些话比厂商文案更接近真实 adoption barrier。",
+          "newTech": "这里的新技术风险来自摄像头+AI+常戴形态的叠加。AI 让眼镜不只是记录设备，还可能识别、总结、推荐和行动，因此同一个 LED 指示灯要承载更重的信任压力。",
+          "availability": "社区内容可公开访问，但不是统计调查。今天没有把任何单条 Reddit 评论上升为销量、质量或安全事实，只作为 friction evidence。",
+          "limitsOrUnknowns": "社区样本偏早期用户和技术圈；不同国家隐私文化差异很大；厂商实际滥用防护和用户教育效果未知。",
+          "productVerdict": "今天的产品判断很硬：AI 眼镜要进入大众市场，必须把“我是否在录、AI 是否在看、旁人如何知道、我如何一键停掉”做成核心 UI，而不是售后 FAQ。"
+        },
+        "en": {
+          "productName": "AI glasses community friction scan",
+          "productType": "Source-lane scan, not one product. The scan covers recurring usage friction across smart-glasses communities, reviewers, and privacy reporting, and uses those signals to evaluate the real user risk behind today’s Meta, Snap, Google, and Alibaba product narratives.",
+          "interactionFlow": "The scanned interaction is social rather than a single button. A user walks into a street, meeting, store, date, or office wearing camera glasses. Bystanders may not know whether recording is happening. The wearer worries about looking like a creep. High device price creates anxiety about public damage or theft.",
+          "specsOrStack": "This lane does not introduce unverified specs. Confirmed product families such as Snap and Meta include cameras, microphones, LEDs, privacy settings, and other public mechanisms, but the community-experience sample is fragmented and not statistically representative; representativeness is source not stated.",
+          "useCases": "Outdoor capture, meeting notes, travel translation, navigation, social sharing, and shopping recognition. Official materials make those flows look smooth, but community signals show that once the device enters public space, bystander consent and wearer self-consciousness become first-order barriers.",
+          "painPointsSolved": "The scan does not solve pain points; it exposes them. Price blocks experimentation, appearance affects willingness to wear, battery limits all-day use, privacy status remains insufficiently visible, and users fear being perceived as secret recorders.",
+          "userVoice": "The raw user voice is sharp: one Reddit user wrote, “Oh, so it's still a developer device,” while a Creative Bloq tester’s headline says they “haven't dared take them outside because I can't stop feeling like a creep.” Those lines are closer to adoption barriers than polished launch copy.",
+          "newTech": "The risk comes from the combination of camera, AI, and all-day wear. AI glasses are not merely recording devices; they may identify, summarize, recommend, and act. That makes a simple recording LED carry a much heavier trust burden.",
+          "availability": "The community sources are publicly accessible, but they are not formal surveys. This issue does not treat any single Reddit comment as a sales, quality, or safety fact; it treats it as friction evidence.",
+          "limitsOrUnknowns": "Community samples skew toward early adopters and technical users. Privacy norms differ by country. The effectiveness of vendor anti-abuse design and user education remains unknown.",
+          "productVerdict": "The product judgment is direct: for AI glasses to enter the mainstream, “am I recording, is AI seeing, how do bystanders know, and how do I stop it instantly” must become core UI, not a support-page afterthought. Operationally, the important design requirement is an inspectable handoff: the user should see what context was read, what action is about to happen, what source or app is being used, and how to cancel or recover without searching through settings."
+        }
+      }
+    },
+    {
+      "id": "google-xr-content-companion-patent",
+      "section": "patent",
+      "zhHeadline": "专利 watch：Google XR 内容伴侣把“看内容时问 AI”写进眼镜/头显场景",
+      "enHeadline": "Patent watch: Google XR content companion frames AI Q&A inside glasses and headsets",
+      "visual": {
+        "path": "assets/google-patent-real.png",
+        "width": 1440,
+        "height": 1100,
+        "altZh": "真实来源截图：Google XR AI content companion patent signal",
+        "altEn": "Real source screenshot: Google XR AI content companion patent signal",
+        "captionZh": "真实来源截图：Google XR AI content companion patent signal",
+        "captionEn": "Real source screenshot: Google XR AI content companion patent signal",
+        "sourceUrl": "https://patentlyze.com/patent/google-ai-content-companion-xr-devices/"
+      },
+      "sources": [
+        {
+          "label": "Patentlyze Google XR patent",
+          "url": "https://patentlyze.com/patent/google-ai-content-companion-xr-devices/",
+          "type": "patent"
+        },
+        {
+          "label": "Google Patents AR AI related patent",
+          "url": "https://patents.google.com/patent/US10908419B2/en",
+          "type": "patent"
+        }
+      ],
+      "evidenceLabel": "patent signal",
+      "evidenceStrength": "patent signal",
+      "dossierKind": "scan",
+      "dossier": {
+        "zh": {
+          "productName": "Google XR AI content companion patent signal",
+          "productType": "专利/行业信号，不是 confirmed product。被观察的是 XR 设备中的 AI content companion：用户在看电影、视频、网页或空间内容时，AI 根据当前内容上下文回答问题。",
+          "interactionFlow": "专利想象的流程是用户佩戴 XR 设备或使用扩展现实内容，提出关于当前内容的问题；系统读取内容上下文、时间点或画面状态，再给出回答。它把“暂停去搜索”改成“在内容内部询问”。",
+          "specsOrStack": "Patentlyze 描述来自 Google patent / USPTO publication，提到 XR devices、AI companion、当前观看内容和问答。具体硬件 SKU、价格、发布日期、Gemini 版本、Android XR 集成方式 source not stated；不能推断 Google 一定会发布此功能。",
+          "useCases": "看电影时询问剧情人物，教育视频里追问概念，维修/训练内容中请求步骤解释，AR 展示中询问当前对象。它适合内容理解，不等于通用现实代理。",
+          "painPointsSolved": "如果实现，能减少用户离开沉浸内容去搜索的成本，也能让 AI 回答带上当前时间点/画面上下文。对 XR 来说，这是从“显示内容”走向“理解内容”的一步。",
+          "userVoice": "没有用户原声，因为这是 patent signal。相关用户风险只能从社区和研究推断：用户需要知道 AI 是否读取观看内容、是否保存观看历史、是否把问题和内容片段上传。",
+          "newTech": "新技术方向是 content-aware AI companion：AI 不只知道用户问题，还知道用户正在看的内容片段。和普通 chatbot 相比，关键是内容时间轴、视觉状态和问题绑定。",
+          "availability": "仅专利/专利解读信号。没有 confirmed product、没有上市地区、没有价格、没有开发者 API。任何发布时间均 source not stated。",
+          "limitsOrUnknowns": "专利范围常大于实际产品；实现可能受版权、隐私、计算成本和内容平台权限限制；用户是否愿意让 AI 读取观看历史也未知。",
+          "productVerdict": "作为 patent watch，它值得保留但必须降级：方向有价值，产品事实没有。今天的结论是 XR assistant 会从环境理解扩展到内容理解，但不能把专利当发布会。"
+        },
+        "en": {
+          "productName": "Google XR AI content companion patent signal",
+          "productType": "Patent / industry signal, not confirmed product. The observed concept is an AI content companion for XR devices: while a user watches a movie, video, web page, or spatial content, the AI answers questions using the current content context.",
+          "interactionFlow": "The imagined interaction is: the user wears an XR device or consumes extended-reality content, asks a question about the current content, and the system reads content context, timestamp, or visual state before answering. It changes “pause and search elsewhere” into “ask inside the content.”",
+          "specsOrStack": "Patentlyze describes a Google patent / USPTO publication involving XR devices, an AI companion, currently watched content, and question answering. Specific hardware SKU, price, launch date, Gemini version, and Android XR integration are source not stated. It cannot be inferred that Google will ship this exact feature.",
+          "useCases": "Asking about a character while watching a movie, clarifying a concept in an educational video, requesting step explanations in repair or training content, or asking about an object in an AR presentation. The pattern is content understanding, not necessarily a general real-world agent.",
+          "painPointsSolved": "If implemented, it would reduce the cost of leaving immersive content to search elsewhere and would let answers include the current timestamp or visual context. For XR, it is a step from displaying content toward understanding content.",
+          "userVoice": "There is no direct user voice because this is a patent signal. The relevant user risks are inferred from community and research lanes: users need to know whether AI is reading watched content, whether viewing history is saved, and whether questions or content segments are uploaded.",
+          "newTech": "The technology direction is a content-aware AI companion. The assistant knows not only the user’s question but also the content segment being watched. Compared with an ordinary chatbot, the binding between timeline, visual state, and question is the important interface change.",
+          "availability": "Patent signal only. There is no confirmed product, no launch country, no price, and no developer API. Any shipment timing is source not stated.",
+          "limitsOrUnknowns": "Patent scope often exceeds shipped product. Implementation may be constrained by copyright, privacy, compute cost, and content-platform permissions. It is also unknown whether users will accept AI reading their viewing history.",
+          "productVerdict": "This is worth keeping as patent watch, but it must stay downgraded. The direction is meaningful; product facts are absent. Today’s conclusion is that XR assistants may extend from environment understanding into content understanding, but a patent is not a launch. Operationally, the important design requirement is an inspectable handoff: the user should see what context was read, what action is about to happen, what source or app is being used, and how to cancel or recover without searching through settings."
+        }
+      }
+    }
+  ],
+  "zhPath": "./zh/",
+  "enPath": "./en/",
+  "sourcesPath": "./sources.md"
+}

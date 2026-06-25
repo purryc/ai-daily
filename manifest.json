@@ -1,5 +1,56 @@
 [
   {
+    "date": "2026-06-25",
+    "zhTitle": "AI 入口战争进入眼镜、浏览器和企业 agent shell",
+    "enTitle": "AI entry-point war moves into glasses, browsers, and enterprise agent shells",
+    "zhSummary": "今天不是模型榜单，而是入口争夺：Meta 用 299 美元把 AI 眼镜推向大众价位，Snap 用 2195 美元押注真 AR，Google/阿里继续把助手塞进眼镜，Comet、OpenAI、Copilot 把 agent 放进浏览器和工作流。",
+    "enSummary": "Today is not a model leaderboard issue. It is an entry-point issue: Meta pushes AI glasses toward a $299 mainstream tier, Snap prices true AR at $2,195, Google and Alibaba keep moving assistants into eyewear, and Comet, OpenAI, and Copilot turn browsers and enterprise workflows into agent surfaces.",
+    "tags": [
+      "HCI",
+      "AI glasses",
+      "agentic browsers",
+      "AI hardware",
+      "enterprise agents",
+      "on-device AI",
+      "privacy UX"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "wild",
+      "research",
+      "patent",
+      "china",
+      "global"
+    ],
+    "coverStory": {
+      "topicId": "meta-glasses-mainstream-tier",
+      "zhTitle": "299 美元 AI 眼镜把入口战从炫技推到日常佩戴",
+      "enTitle": "The $299 AI-glasses tier turns entry-point competition into a daily-wear problem",
+      "zhSummary": [
+        "今天最强的产品信号不是又一个 chatbot，而是 AI assistant 被放进脸上的低价硬件入口。",
+        "Meta、Snap、Google、阿里给出了四种路径：无屏轻交互、真 AR、Android XR 平台、以及中国式服务生态绑定。",
+        "真正的 HCI 问题变成：用户愿不愿意戴、旁人知不知道、失败时怎么接管。"
+      ],
+      "enSummary": [
+        "The strongest product signal is not another chatbot. It is the assistant moving into a lower-priced hardware entry point worn on the face.",
+        "Meta, Snap, Google, and Alibaba now show four routes: displayless utility, true AR, Android XR platform eyewear, and China-style service-ecosystem binding.",
+        "The HCI question becomes whether users will wear it, whether bystanders can understand it, and how takeover works when it fails."
+      ],
+      "imagePath": "assets/meta-glasses-real.png",
+      "imageWidth": 1440,
+      "imageHeight": 1100,
+      "imageSourceUrl": "https://about.fb.com/news/2026/06/meta-essilorluxottica-partner-launch-meta-glasses/",
+      "primarySourceUrl": "https://about.fb.com/news/2026/06/meta-essilorluxottica-partner-launch-meta-glasses/",
+      "evidenceStrength": "confirmed product",
+      "whyCover": "Meta is lowering the price and broadening style range while Snap and Google push more ambitious AR/XR paths."
+    },
+    "zhPath": "/ai-daily/2026-06-25/zh/",
+    "enPath": "/ai-daily/2026-06-25/en/",
+    "sourcesPath": "/ai-daily/2026-06-25/sources.md"
+  },
+  {
     "date": "2026-06-23",
     "zhTitle": "周二版：AI 眼镜进入社会压力测试，语音与桌面 agent 补齐真实输入层",
     "enTitle": "Tuesday issue: AI glasses enter social stress tests while voice and desktop agents repair real input layers",
