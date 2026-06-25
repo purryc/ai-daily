@@ -134,7 +134,18 @@ const dossierFieldOrder = [
   "productVerdict"
 ];
 
-const dossierPartFields = {
+const legacyDossierPartFields = {
+  product: [
+    ["productType", "interactionFlow", "specsOrStack"],
+    ["useCases", "painPointsSolved", "newTech"],
+    ["availability", "limitsOrUnknowns", "productVerdict"]
+  ],
+  scan: [
+    ["productType", "interactionFlow", "useCases", "painPointsSolved", "newTech", "availability", "limitsOrUnknowns", "productVerdict"]
+  ]
+};
+
+const singlePageDossierPartFields = {
   product: [
     [
       "productType",
@@ -164,6 +175,10 @@ const dossierPartFields = {
     ]
   ]
 };
+
+function dossierPartFieldsForIssue(issue) {
+  return issue.date >= "2026-06-25" ? singlePageDossierPartFields : legacyDossierPartFields;
+}
 
 const dossierLabels = {
   zh: {
@@ -202,10 +217,10 @@ function dossierKind(topic) {
   return topic.dossierKind === "scan" ? "scan" : topic.dossier ? "product" : "legacy";
 }
 
-function topicSlideCount(topic) {
+function topicSlideCount(issue, topic) {
   const kind = dossierKind(topic);
   if (kind === "legacy") return 1;
-  return dossierPartFields[kind].length;
+  return dossierPartFieldsForIssue(issue)[kind].length;
 }
 
 function topicNarrative(topic, locale) {
@@ -776,7 +791,7 @@ function deckAgendaSlide(issue, locale, pageNumber, navSections) {
     .map((section) => {
       const sectionTopics = issue.topics.filter((topic) => topic.section === section);
       const targetSlide = deckSlideId(offset);
-      offset += 1 + sectionTopics.reduce((sum, topic) => sum + topicSlideCount(topic), 0);
+      offset += 1 + sectionTopics.reduce((sum, topic) => sum + topicSlideCount(issue, topic), 0);
       return `
         <a class="agenda-card" href="#${targetSlide}" data-go-slide="${targetSlide}">
           <span>${html(sectionLabels[locale][section] ?? section)}</span>
@@ -889,14 +904,14 @@ function deckTopicDossierSlide(issue, topic, locale, pageNumber, partIndex, part
   const dossier = localizedDossier(topic, locale);
   const labels = dossierLabels[locale];
   const kind = dossierKind(topic);
-  const fields = dossierPartFields[kind][partIndex];
+  const fields = dossierPartFieldsForIssue(issue)[kind][partIndex];
   const lead = dossier?.productName
     ? `${labels.productName}: ${dossier.productName}. ${fact}`
     : fact;
 
   return `
     <section class="deck-slide dossier-slide mag-topic-slide" id="${deckSlideId(pageNumber)}" data-slide data-section="${html(topic.section)}" data-dossier-kind="${html(kind)}">
-      ${deckSlideTopline(pageNumber, sectionNames[locale][topic.section] ?? topic.section)}
+      ${deckSlideTopline(pageNumber, partTotal > 1 ? `${sectionNames[locale][topic.section] ?? topic.section} · ${partIndex + 1}/${partTotal}` : sectionNames[locale][topic.section] ?? topic.section)}
       <div class="dossier-grid">
         <header class="dossier-head">
           <div class="topic-topline">
@@ -933,7 +948,7 @@ function deckTopicSlides(issue, topic, locale, pageNumber) {
   if (kind === "legacy") {
     return [deckLegacyTopicSlide(issue, topic, locale, pageNumber)];
   }
-  const count = topicSlideCount(topic);
+  const count = topicSlideCount(issue, topic);
   return Array.from({ length: count }, (_, index) => deckTopicDossierSlide(issue, topic, locale, pageNumber + index, index, count));
 }
 

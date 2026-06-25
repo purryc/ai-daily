@@ -3,8 +3,8 @@
     "date": "2026-06-25",
     "zhTitle": "AI 入口战争进入眼镜、浏览器和企业 agent shell",
     "enTitle": "AI entry-point war moves into glasses, browsers, and enterprise agent shells",
-    "zhSummary": "今天不是模型榜单，而是入口争夺：Meta 用 299 美元把 AI 眼镜推向大众价位，Snap 用 2195 美元押注真 AR，Google/阿里继续把助手塞进眼镜，Comet、OpenAI、Copilot 把 agent 放进浏览器和工作流。",
-    "enSummary": "Today is not a model leaderboard issue. It is an entry-point issue: Meta pushes AI glasses toward a $299 mainstream tier, Snap prices true AR at $2,195, Google and Alibaba keep moving assistants into eyewear, and Comet, OpenAI, and Copilot turn browsers and enterprise workflows into agent surfaces.",
+    "zhSummary": "今天不是模型榜单，而是入口争夺：Meta 用 299 美元把 AI 眼镜推向大众价位，Google/阿里继续把助手塞进眼镜，Comet、OpenAI、Copilot 把 agent 放进浏览器和工作流；已在 6/23 报过且今天无新事实的 Snap SPECS、VisionClaw 不再重复成主文。",
+    "enSummary": "Today is not a model leaderboard issue. It is an entry-point issue: Meta pushes AI glasses toward a $299 mainstream tier, Google and Alibaba keep assistants in eyewear, and Comet, OpenAI, and Copilot move agents into browsers and enterprise workflows. Snap SPECS and VisionClaw were already covered on June 23 and are not repeated as main dossiers without new product facts.",
     "tags": [
       "HCI",
       "AI glasses",
@@ -30,12 +30,12 @@
       "enTitle": "The $299 AI-glasses tier turns entry-point competition into a daily-wear problem",
       "zhSummary": [
         "今天最强的产品信号不是又一个 chatbot，而是 AI assistant 被放进脸上的低价硬件入口。",
-        "Meta、Snap、Google、阿里给出了四种路径：无屏轻交互、真 AR、Android XR 平台、以及中国式服务生态绑定。",
+        "Meta、Google、阿里给出了三种路径：无屏轻交互、Android XR 平台、以及中国式服务生态绑定；Snap 已在 6/23 报道，今天只放 watchlist。",
         "真正的 HCI 问题变成：用户愿不愿意戴、旁人知不知道、失败时怎么接管。"
       ],
       "enSummary": [
         "The strongest product signal is not another chatbot. It is the assistant moving into a lower-priced hardware entry point worn on the face.",
-        "Meta, Snap, Google, and Alibaba now show four routes: displayless utility, true AR, Android XR platform eyewear, and China-style service-ecosystem binding.",
+        "Meta, Google, and Alibaba show three routes: displayless utility, Android XR platform eyewear, and China-style service-ecosystem binding; Snap was covered on June 23 and stays in the watchlist today.",
         "The HCI question becomes whether users will wear it, whether bystanders can understand it, and how takeover works when it fails."
       ],
       "imagePath": "assets/meta-glasses-real.png",
@@ -44,7 +44,7 @@
       "imageSourceUrl": "https://about.fb.com/news/2026/06/meta-essilorluxottica-partner-launch-meta-glasses/",
       "primarySourceUrl": "https://about.fb.com/news/2026/06/meta-essilorluxottica-partner-launch-meta-glasses/",
       "evidenceStrength": "confirmed product",
-      "whyCover": "Meta is lowering the price and broadening style range while Snap and Google push more ambitious AR/XR paths."
+      "whyCover": "Meta is lowering the price and broadening style range while Google and Alibaba keep pushing platform and service-ecosystem eyewear paths."
     },
     "zhPath": "/ai-daily/2026-06-25/zh/",
     "enPath": "/ai-daily/2026-06-25/en/",

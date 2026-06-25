@@ -9,10 +9,10 @@ Scope: HCI, AI hardware, AI software products, agentic devices, on-device AI, AI
 | Lane | Status | Topic IDs |
 | --- | --- | --- |
 | official | covered | meta-glasses-mainstream-tier, openai-chatgpt-release-surface, microsoft-copilot-computer-use |
-| reviews | covered | snap-specs-true-ar |
+| reviews | covered | review-ai-glasses-social-friction |
 | community | covered | community-smart-glasses-friction |
 | wild | covered | perplexity-comet-agent-browser |
-| research | covered | visionclaw-research-watch |
+| research | covered | research-smartglasses-breakdowns |
 | patent | covered | google-xr-content-companion-patent |
 | china | covered | qwen-quark-ai-glasses |
 | global | covered | google-android-xr-eyewear |
@@ -24,28 +24,26 @@ Scope: HCI, AI hardware, AI software products, agentic devices, on-device AI, AI
 | S1 | Meta Newsroom: https://about.fb.com/news/2026/06/meta-essilorluxottica-partner-launch-meta-glasses/ | 2026-06-23 | confirmed product; official | meta-glasses-mainstream-tier |
 | S2 | The Verge hands-on: https://www.theverge.com/tech/954052/meta-glasses-hands-on-kylie-jenner-smart-glasses-price-battery-privacy | 2026-06-23 | confirmed product; reviews | meta-glasses-mainstream-tier |
 | S3 | Business Insider Zuckerberg interview: https://www.businessinsider.com/mark-zuckerberg-meta-glasses-style-comfort-tech-wearable-fashion-2026-6 | 2026-06-23 | confirmed product; reviews | meta-glasses-mainstream-tier |
-| S4 | Snap Newsroom: https://newsroom.snap.com/introducing-specs-augmented-reality-glasses | 2026-06-16 | confirmed product; official | snap-specs-true-ar |
-| S5 | The Verge: https://www.theverge.com/tech/950492/snap-specs-ar-glasses-launch-date-preorder | 2026-06-16 | confirmed product; reviews | snap-specs-true-ar |
-| S6 | Reddit discussion: https://www.reddit.com/r/augmentedreality/comments/1tk3l2b/snap_specs_to_launch_this_fall_with_a_premium/ | 2026-06-16 | confirmed product; community | snap-specs-true-ar |
-| S7 | Google Android XR: https://blog.google/products-and-platforms/platforms/android/android-xr-io-2026/ | 2026-05-19 | developer surface; official | google-android-xr-eyewear |
-| S8 | Android Show XR updates: https://blog.google/products-and-platforms/platforms/android/android-show-xr-edition-updates/ | 2026-05-19 | developer surface; official | google-android-xr-eyewear |
-| S9 | 新华社夸克 AI 眼镜: https://www.xinhuanet.com/tech/20251127/08d77754e3654647b345f1b71ca496c1/c.html | 2026-06-25 scan / product sources 2025-2026 | confirmed product; official/media | qwen-quark-ai-glasses |
-| S10 | 36Kr 今日千问眼镜: https://www.36kr.com/p/3868439889941510 | 2026-06-25 scan / product sources 2025-2026 | confirmed product; china | qwen-quark-ai-glasses |
-| S11 | 36Kr AI 眼镜市场: https://m.36kr.com/p/3589481430253830 | 2026-06-25 scan / product sources 2025-2026 | confirmed product; china | qwen-quark-ai-glasses |
-| S12 | Perplexity Comet: https://www.perplexity.ai/comet/ | accessed 2026-06-25 | startup signal; official | perplexity-comet-agent-browser |
-| S13 | TechCrunch launch coverage: https://techcrunch.com/2025/07/09/perplexity-launches-comet-an-ai-powered-web-browser/ | accessed 2026-06-25 | startup signal; reviews | perplexity-comet-agent-browser |
-| S14 | Reddit AI Agents discussion: https://www.reddit.com/r/AI_Agents/comments/1obnbvm/this_browser_literally_thinks_like_an_ai_agent/ | accessed 2026-06-25 | startup signal; community | perplexity-comet-agent-browser |
-| S15 | OpenAI ChatGPT Release Notes: https://help.openai.com/en/articles/6825453-chatgpt-release-notes | 2026-06-24 | confirmed product; official | openai-chatgpt-release-surface |
-| S16 | OpenAI News: https://openai.com/news/ | 2026-06-24 | confirmed product; official | openai-chatgpt-release-surface |
-| S17 | Microsoft Copilot Studio blog: https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-computer-using-agents-a-new-workflows-experience-and-real-time-voice-experiences/ | 2026-05 / June release notes scanned 2026-06-25 | developer surface; official | microsoft-copilot-computer-use |
-| S18 | Microsoft 365 Copilot release notes: https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes | 2026-05 / June release notes scanned 2026-06-25 | developer surface; official | microsoft-copilot-computer-use |
-| S19 | Microsoft Q&A Copilot friction: https://learn.microsoft.com/en-au/answers/questions/5919066/copilot-returning-error-something-wrong | 2026-05 / June release notes scanned 2026-06-25 | developer surface; community | microsoft-copilot-computer-use |
-| S20 | VisionClaw arXiv: https://arxiv.org/html/2604.03486v2 | 2026-04 / v2 accessed 2026-06-25 | research signal; research | visionclaw-research-watch |
-| S21 | Conversational breakdowns smart glasses: https://arxiv.org/html/2602.22340v2 | 2026-04 / v2 accessed 2026-06-25 | research signal; research | visionclaw-research-watch |
-| S22 | Creative Bloq AI glasses discomfort: https://www.creativebloq.com/ai/im-testing-a-pair-of-ai-glasses-and-i-still-havent-dared-take-them-outside-because-i-cant-stop-feeling-like-a-creep | scanned 2026-06-25 | review/community friction; reviews | community-smart-glasses-friction |
-| S23 | TechRadar privacy advocacy: https://www.techradar.com/computing/virtual-reality-augmented-reality/your-meta-ray-ban-smart-glasses-dont-have-facial-recognition-yet-and-over-70-privacy-advocacy-organizations-want-it-to-stay-that-way | scanned 2026-06-25 | review/community friction; reviews | community-smart-glasses-friction |
-| S24 | Patentlyze Google XR patent: https://patentlyze.com/patent/google-ai-content-companion-xr-devices/ | 2026-06-05 patent scan | patent signal; patent | google-xr-content-companion-patent |
-| S25 | Google Patents AR AI related patent: https://patents.google.com/patent/US10908419B2/en | 2026-06-05 patent scan | patent signal; patent | google-xr-content-companion-patent |
+| S4 | Creative Bloq AI glasses review friction: https://www.creativebloq.com/ai/im-testing-a-pair-of-ai-glasses-and-i-still-havent-dared-take-them-outside-because-i-cant-stop-feeling-like-a-creep | review scan 2026-06-25 | review/community friction; reviews | review-ai-glasses-social-friction |
+| S5 | TechRadar privacy groups on Meta glasses: https://www.techradar.com/computing/virtual-reality-augmented-reality/your-meta-ray-ban-smart-glasses-dont-have-facial-recognition-yet-and-over-70-privacy-advocacy-organizations-want-it-to-stay-that-way | review scan 2026-06-25 | review/community friction; reviews | review-ai-glasses-social-friction |
+| S6 | Google Android XR: https://blog.google/products-and-platforms/platforms/android/android-xr-io-2026/ | 2026-05-19 | developer surface; official | google-android-xr-eyewear |
+| S7 | Android Show XR updates: https://blog.google/products-and-platforms/platforms/android/android-show-xr-edition-updates/ | 2026-05-19 | developer surface; official | google-android-xr-eyewear |
+| S8 | 新华社夸克 AI 眼镜: https://www.xinhuanet.com/tech/20251127/08d77754e3654647b345f1b71ca496c1/c.html | 2026-06-25 scan / product sources 2025-2026 | confirmed product; official/media | qwen-quark-ai-glasses |
+| S9 | 36Kr 今日千问眼镜: https://www.36kr.com/p/3868439889941510 | 2026-06-25 scan / product sources 2025-2026 | confirmed product; china | qwen-quark-ai-glasses |
+| S10 | 36Kr AI 眼镜市场: https://m.36kr.com/p/3589481430253830 | 2026-06-25 scan / product sources 2025-2026 | confirmed product; china | qwen-quark-ai-glasses |
+| S11 | Perplexity Comet: https://www.perplexity.ai/comet/ | accessed 2026-06-25 | startup signal; official | perplexity-comet-agent-browser |
+| S12 | TechCrunch launch coverage: https://techcrunch.com/2025/07/09/perplexity-launches-comet-an-ai-powered-web-browser/ | accessed 2026-06-25 | startup signal; reviews | perplexity-comet-agent-browser |
+| S13 | Reddit AI Agents discussion: https://www.reddit.com/r/AI_Agents/comments/1obnbvm/this_browser_literally_thinks_like_an_ai_agent/ | accessed 2026-06-25 | startup signal; community | perplexity-comet-agent-browser |
+| S14 | OpenAI ChatGPT Release Notes: https://help.openai.com/en/articles/6825453-chatgpt-release-notes | 2026-06-24 | confirmed product; official | openai-chatgpt-release-surface |
+| S15 | OpenAI News: https://openai.com/news/ | 2026-06-24 | confirmed product; official | openai-chatgpt-release-surface |
+| S16 | Microsoft Copilot Studio blog: https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-computer-using-agents-a-new-workflows-experience-and-real-time-voice-experiences/ | 2026-05 / June release notes scanned 2026-06-25 | developer surface; official | microsoft-copilot-computer-use |
+| S17 | Microsoft 365 Copilot release notes: https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes | 2026-05 / June release notes scanned 2026-06-25 | developer surface; official | microsoft-copilot-computer-use |
+| S18 | Microsoft Q&A Copilot friction: https://learn.microsoft.com/en-au/answers/questions/5919066/copilot-returning-error-something-wrong | 2026-05 / June release notes scanned 2026-06-25 | developer surface; community | microsoft-copilot-computer-use |
+| S19 | Reddit Snap Specs thread: https://www.reddit.com/r/augmentedreality/comments/1tk3l2b/snap_specs_to_launch_this_fall_with_a_premium/ | scanned 2026-06-25 | review/community friction; community | community-smart-glasses-friction |
+| S20 | Conversational breakdowns in smart glasses: https://arxiv.org/html/2602.22340v2 | 2026-02 / accessed 2026-06-25 | research signal; research | research-smartglasses-breakdowns |
+| S21 | VisionClaw reference only: https://arxiv.org/html/2604.03486v2 | 2026-02 / accessed 2026-06-25 | research signal; research | research-smartglasses-breakdowns |
+| S22 | Patentlyze Google XR patent: https://patentlyze.com/patent/google-ai-content-companion-xr-devices/ | 2026-06-05 patent scan | patent signal; patent | google-xr-content-companion-patent |
+| S23 | Google Patents AR AI related patent: https://patents.google.com/patent/US10908419B2/en | 2026-06-05 patent scan | patent signal; patent | google-xr-content-companion-patent |
 
 ## Visual Asset Index
 
@@ -53,14 +51,14 @@ Scope: HCI, AI hardware, AI software products, agentic devices, on-device AI, AI
 | --- | --- | --- | --- |
 | The $299 AI-glasses tier turns entry-point competition into a daily-wear problem | `assets/meta-glasses-real.png` | https://about.fb.com/news/2026/06/meta-essilorluxottica-partner-launch-meta-glasses/ | Homepage and issue cover visual |
 | Real source screenshot: Meta Glasses | `assets/meta-glasses-real.png` | https://about.fb.com/news/2026/06/meta-essilorluxottica-partner-launch-meta-glasses/ | meta-glasses-mainstream-tier / confirmed product |
-| Real source screenshot: Snap SPECS | `assets/snap-specs-real.png` | https://newsroom.snap.com/introducing-specs-augmented-reality-glasses | snap-specs-true-ar / confirmed product |
+| Real source screenshot: AI glasses real-world review friction | `assets/review-friction-real.png` | https://www.creativebloq.com/ai/im-testing-a-pair-of-ai-glasses-and-i-still-havent-dared-take-them-outside-because-i-cant-stop-feeling-like-a-creep | review-ai-glasses-social-friction / review/community friction |
 | Real source screenshot: Android XR intelligent eyewear | `assets/google-xr-real.png` | https://blog.google/products-and-platforms/platforms/android/android-xr-io-2026/ | google-android-xr-eyewear / developer surface |
 | Real source screenshot: Quark / Qwen AI Glasses S1 and G1 | `assets/quark-ai-glasses-real.png` | https://www.xinhuanet.com/tech/20251127/08d77754e3654647b345f1b71ca496c1/c.html | qwen-quark-ai-glasses / confirmed product |
 | Real source screenshot: Perplexity Comet | `assets/perplexity-comet-real.png` | https://www.perplexity.ai/comet/ | perplexity-comet-agent-browser / startup signal |
 | Real source screenshot: ChatGPT GPT-5.5 Instant update | `assets/openai-release-real.png` | https://help.openai.com/en/articles/6825453-chatgpt-release-notes | openai-chatgpt-release-surface / confirmed product |
 | Real source screenshot: Microsoft Copilot Studio computer-using agents | `assets/microsoft-copilot-real.png` | https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-computer-using-agents-a-new-workflows-experience-and-real-time-voice-experiences/ | microsoft-copilot-computer-use / developer surface |
-| Real source screenshot: VisionClaw | `assets/visionclaw-research-real.png` | https://arxiv.org/html/2604.03486v2 | visionclaw-research-watch / research signal |
 | Real source screenshot: AI glasses community friction scan | `assets/community-reddit-real.png` | https://www.reddit.com/r/augmentedreality/comments/1tk3l2b/snap_specs_to_launch_this_fall_with_a_premium/ | community-smart-glasses-friction / review/community friction |
+| Real source screenshot: Smart-glasses conversational breakdown research | `assets/research-breakdown-real.png` | https://arxiv.org/html/2602.22340v2 | research-smartglasses-breakdowns / research signal |
 | Real source screenshot: Google XR AI content companion patent signal | `assets/google-patent-real.png` | https://patentlyze.com/patent/google-ai-content-companion-xr-devices/ | google-xr-content-companion-patent / patent signal |
 
 ## Evidence Rules
