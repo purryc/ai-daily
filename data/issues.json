@@ -6870,5 +6870,967 @@
       "Google Android XR partner SKUs still need price, weight, battery, and privacy-indicator details.",
       "Qwen/Quark glasses are entering the friction phase; watch whether high-frequency use shifts from Q&A into service actions."
     ]
+  },
+  {
+    "date": "2026-06-26",
+    "timezone": "America/Toronto",
+    "zhTitle": "AI 正在离开聊天框，进入手机、记忆、连接器和长任务执行",
+    "enTitle": "AI leaves the chat box for phones, memory, connectors, and long-running work",
+    "zhSummary": "今天最具体的产品变化不是又一个大模型，而是 AI 进入 Pixel 系统创作、ChatGPT 记忆边界、Claude 连接器、Copilot 长任务和浏览器代理。智能眼镜仍是封面级硬件背景，但今天只把未确认和社区信号降级处理。",
+    "enSummary": "Today's concrete product shift is not another model announcement. AI is moving into Pixel system creation, ChatGPT memory boundaries, Claude connectors, Copilot long-running work, and browser agents. Smart glasses remain the hardware backdrop, but weak and community signals are explicitly downgraded.",
+    "tags": [
+      "HCI",
+      "AI software products",
+      "AI hardware",
+      "agentic devices",
+      "on-device AI",
+      "enterprise agents",
+      "smart glasses"
+    ],
+    "sourceTypes": [
+      "official",
+      "developer docs",
+      "reviews",
+      "community",
+      "wild",
+      "research",
+      "patent",
+      "china",
+      "global"
+    ],
+    "zhPath": "/ai-daily/2026-06-26/zh/",
+    "enPath": "/ai-daily/2026-06-26/en/",
+    "sourcesPath": "/ai-daily/2026-06-26/sources.md",
+    "coverStory": {
+      "topicId": "pixel-drop-gemini-creator-flow",
+      "zhTitle": "Pixel Drop：Gemini 从聊天入口下沉到录屏、音乐和手机创作流",
+      "enTitle": "Pixel Drop: Gemini moves from chat into screen recording, music, and phone creation flows",
+      "zhSummary": [
+        "Google 把 Gemini 创作入口塞进 Pixel 的录屏、音乐、照片和通话流程。",
+        "OpenAI、Anthropic、Microsoft 正把长期上下文、外部工具和长任务做成可控产品面。",
+        "今天的核心 HCI 问题是边界：AI 何时读取上下文、何时执行动作、用户如何撤销。"
+      ],
+      "enSummary": [
+        "Google is putting Gemini creation into Pixel screen recording, music, photos, and calls.",
+        "OpenAI, Anthropic, and Microsoft are turning long-term context, external tools, and long tasks into controlled product surfaces.",
+        "The HCI question is boundary: when AI reads context, when it acts, and how users undo it."
+      ],
+      "imagePath": "assets/pixel-drop-gemini-creator-flow.svg",
+      "imageWidth": 1200,
+      "imageHeight": 760,
+      "imageSourceUrl": "https://blog.google/products-and-platforms/devices/pixel/june-2026-pixel-drop/",
+      "primarySourceUrl": "https://blog.google/products-and-platforms/devices/pixel/june-2026-pixel-drop/",
+      "evidenceStrength": "confirmed product",
+      "whyCover": "Pixel Drop shows AI moving into everyday phone workflows, which is the clearest interface shift in today's sweep."
+    },
+    "topics": [
+      {
+        "id": "pixel-drop-gemini-creator-flow",
+        "section": "official",
+        "zhHeadline": "Pixel Drop：Gemini 从聊天入口下沉到录屏、音乐和手机创作流",
+        "enHeadline": "Pixel Drop: Gemini moves from chat into screen recording, music, and phone creation flows",
+        "zhFact": "Google 的 2026 年 6 月 Pixel Drop 把 Gemini Omni、音乐生成、录屏反应、Ask Photos 编辑、分屏多任务和安全/通话功能放进 Pixel 更新。",
+        "enFact": "Google's June 2026 Pixel Drop adds Gemini Omni creation, music generation, screen-recording reactions, Ask Photos editing, multitasking, safety, and call features to Pixel devices.",
+        "zhValue": "这是今天最实际的 confirmed product：AI 不再只在 Gemini App 里等待提问，而是进入手机录屏、照片、通话、音乐和多任务。产品团队要重点看它怎样处理权限、可撤销编辑、生成结果标注和地区差异。",
+        "enValue": "This is the most concrete confirmed product update today. AI is no longer waiting only inside the Gemini app; it is entering screen recording, photos, calls, music, and multitasking. Product teams should watch permission prompts, undo behavior, generated-content labeling, and regional fragmentation.",
+        "zhHciLens": [
+          "Input: user intent + context",
+          "System: identity / app data / device state",
+          "Feedback: visible action result",
+          "Control: permission, undo, scope"
+        ],
+        "enHciLens": [
+          "Input: user intent + context",
+          "System: identity / app data / device state",
+          "Feedback: visible action result",
+          "Control: permission, undo, scope"
+        ],
+        "zhImplication": "这是今天最实际的 confirmed product：AI 不再只在 Gemini App 里等待提问，而是进入手机录屏、照片、通话、音乐和多任务。产品团队要重点看它怎样处理权限、可撤销编辑、生成结果标注和地区差异。",
+        "enImplication": "This is the most concrete confirmed product update today. AI is no longer waiting only inside the Gemini app; it is entering screen recording, photos, calls, music, and multitasking. Product teams should watch permission prompts, undo behavior, generated-content labeling, and regional fragmentation.",
+        "sourceDate": "2026-06-18 / accessed 2026-06-26",
+        "evidenceLabel": "confirmed product",
+        "evidenceStrength": "confirmed product",
+        "visual": {
+          "path": "assets/pixel-drop-gemini-creator-flow.svg",
+          "width": 1200,
+          "height": 760,
+          "altZh": "自绘证据图：Pixel Drop creator loop",
+          "altEn": "Self-drawn evidence diagram: Pixel Drop creator loop",
+          "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
+          "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
+          "sourceUrl": "https://blog.google/products-and-platforms/devices/pixel/june-2026-pixel-drop/"
+        },
+        "sources": [
+          {
+            "label": "Google Pixel Drop",
+            "url": "https://blog.google/products-and-platforms/devices/pixel/june-2026-pixel-drop/",
+            "type": "official"
+          },
+          {
+            "label": "Google India Pixel Drop",
+            "url": "https://blog.google/intl/en-in/products/hardware/june-pixel-drop-new-features-for-creators-gemini-upgrades-and-more/",
+            "type": "official"
+          },
+          {
+            "label": "Deccan Herald Pixel Drop coverage",
+            "url": "https://www.deccanherald.com/technology/pixel-drop-june-2026-update-adds-gemini-omni-manual-call-screen-and-more-4047186",
+            "type": "reviews"
+          }
+        ],
+        "dossierKind": "product",
+        "dossier": {
+          "zh": {
+            "productName": "June 2026 Pixel Drop",
+            "productType": "面向 Pixel 手机和平板的系统级功能更新。它不是单独 App，而是把 Gemini 创作、录屏、照片编辑、通话筛选、多任务和安全能力分散到系统入口里，让 AI 出现在用户已经在做的手机任务中。",
+            "interactionFlow": "用户在 Pixel 上开始录屏时可以同时录入自己的反应；想创作音乐时打开 Gemini 工具菜单并选择 Create music，描述风格、声线、节奏或上传照片生成带歌词的音轨；处理照片时用 Ask Photos 提出自然语言编辑请求；需要通话筛选时在受支持区域使用 Call Screen 或 Voice Translate。流程特点是从当前手机任务直接进入 AI，而不是复制内容到聊天框。",
+            "specsOrStack": "来源披露的系统栈是 Pixel 设备、Gemini、Gemini Omni、Google Photos/Ask Photos、系统录屏、Call Screen 与 Voice Translate。可用设备清单、端侧/云端推理比例、模型参数、音频生成版权边界、各地区完整功能矩阵 source not stated；印度官方页确认部分功能面向当地 Pixel 用户推出。",
+            "useCases": "创作者可以把灵感图片变成音乐、把屏幕操作和本人反应录成教程、用 Gemini 做视频或音乐素材；普通用户可以在手机上更快完成照片编辑、多任务窗口调整、来电处理和翻译。它服务的是手机上的轻量创作和沟通，而不是专业 DAW 或剪辑工作站。",
+            "painPointsSolved": "它解决的是 AI 创作工具分散、手机创作流程割裂、录屏缺少人声/反应层、照片编辑需要学习工具栏、跨语言通话切换成本高的问题。对用户体验的核心影响是减少 App 间搬运，让 AI 成为系统级操作路径的一部分。",
+            "userVoice": "媒体报道把焦点放在 Gemini Omni、Call Screen in India、Voice Translate、Screen Reactions 和 AI music creation，说明外部观察者也把它看成“手机工作流更新”而不是纯模型新闻。社区规模化反馈尚未稳定，source not stated。",
+            "newTech": "新技术是 Gemini Omni 和 Gemini 3 相关创作入口进入移动系统：文本/图片到音乐、手机录屏反应层、Ask Photos 的自然语言编辑、通话翻译与筛选。新意不在每个功能单点，而在系统把输入、媒体、通话和照片状态交给 AI 处理。",
+            "availability": "Google 称更新 starting today rolling out to Pixel devices；不同国家、设备和功能的可得性会分批推出。印度页面列出本地可用功能；完整全球地区表 source not stated。",
+            "limitsOrUnknowns": "没有公开说明哪些生成步骤在端侧执行、哪些走云端；没有说明音乐生成的版权和商业使用边界；不同 Pixel 型号是否全量支持 source not stated；AI 编辑失败后的版本恢复和用户控制细节仍需实测。",
+            "productVerdict": "这是今天最实际的 confirmed product：AI 不再只在 Gemini App 里等待提问，而是进入手机录屏、照片、通话、音乐和多任务。产品团队要重点看它怎样处理权限、可撤销编辑、生成结果标注和地区差异。"
+          },
+          "en": {
+            "productName": "June 2026 Pixel Drop",
+            "productType": "A system update for Pixel phones and tablets, not a standalone AI app. The product surface distributes Gemini creation, screen recording, photo editing, call screening, multitasking, and safety features across the phone so AI appears inside tasks users are already performing.",
+            "interactionFlow": "The user starts from a normal phone task. During screen recording, they can capture their own reaction. For music creation, they open Gemini, use the tools menu, choose Create music, and describe style, vocals, tempo, or upload a photo to generate a track with lyrics. In Photos, they can use Ask Photos to request edits in natural language. In supported regions, phone workflows add Call Screen and Voice Translate. The key interaction pattern is moving from the current phone state into AI, rather than copying material into a separate chat box.",
+            "specsOrStack": "The source-backed stack includes Pixel devices, Gemini, Gemini Omni, Google Photos and Ask Photos, system screen recording, Call Screen, and Voice Translate. The public sources do not state the full device matrix, the exact on-device versus cloud execution split, model parameter details, copyright boundaries for generated music, or every supported country and language combination.",
+            "useCases": "Creators can turn an image or prompt into a soundtrack, record a software walkthrough with their own reaction, produce lightweight video or music material, and ask for photo edits without learning a dense toolbar. Everyday users get faster phone-based photo editing, split-screen or multitasking help, safer calling, and translation assistance. The product is aimed at phone-native creation and communication, not at replacing a professional audio or video workstation.",
+            "painPointsSolved": "The update reduces tool fragmentation, the cost of moving content between apps, the weakness of silent screen recordings, the difficulty of command-based photo editing, and the friction of cross-language calls. The product impact is that AI becomes part of the operating path of the phone rather than a destination the user must visit.",
+            "userVoice": "Press coverage has focused on Gemini Omni, Call Screen in India, Voice Translate, Screen Reactions, and AI music generation, which confirms that outside observers read the update as a phone workflow release rather than a model-only announcement. Broad community sentiment is not yet stable in the cited sources, so it is marked source not stated.",
+            "newTech": "The new technology is the integration of Gemini Omni and Gemini creation tools into mobile system contexts: text or image to music, reaction-aware screen recording, natural-language photo editing through Ask Photos, call translation, and call screening. The novelty is not a single algorithmic claim; it is the system handoff between media state, user intent, and AI generation.",
+            "availability": "Google says the update is rolling out to Pixel devices starting today. The India post confirms a local version of the update. Exact availability by Pixel model, feature, and country is source not stated and should be checked before promising a feature to a user.",
+            "limitsOrUnknowns": "The sources do not explain which steps run on device, which run in the cloud, or how generated music rights are handled. They also do not fully specify recovery behavior after a failed AI edit, or whether all Pixel devices receive every feature. Those details matter because the update touches private media and communication workflows.",
+            "productVerdict": "This is the most concrete confirmed product update today. AI is no longer waiting only inside the Gemini app; it is entering screen recording, photos, calls, music, and multitasking. Product teams should watch permission prompts, undo behavior, generated-content labeling, and regional fragmentation. Product verification should stay concrete: confirm the entry point the user touches first, list the exact context the system reads, name the permission or account boundary that constrains the action, show where the result lands, and test the recovery path after a wrong generation, failed connector call, or mistaken delegated action. If any of those surfaces are missing from the cited source, the issue treats the gap as an unknown rather than filling it with market logic."
+          }
+        }
+      },
+      {
+        "id": "chatgpt-enterprise-memory-boundary",
+        "section": "official",
+        "zhHeadline": "ChatGPT Enterprise/Edu：memory summary 和 project-only memory 把 AI 个性化做成可审计设置",
+        "enHeadline": "ChatGPT Enterprise/Edu: memory summary and project-only memory make personalization auditable",
+        "zhFact": "OpenAI Help Center 的 2026-06-25 Enterprise/Edu release notes 披露 improved memory，用户可查看 memory summary，管理员可在 Workspace settings 开早期访问；ChatGPT release notes 还列出 project-only memory。",
+        "enFact": "OpenAI's June 25, 2026 Enterprise/Edu release notes describe improved memory, user-visible memory summaries, admin early access controls, and project-only memory in ChatGPT release notes.",
+        "zhValue": "这是一个高价值 enterprise UX 更新：AI 的长期上下文能力只有在边界可见、可隔离、可回退时才适合真实组织。产品判断是正向，但必须继续验证摘要准确性、项目隔离和管理员默认策略。",
+        "enValue": "This is a high-value enterprise UX update. Long-term AI context is only suitable for real organizations when it is visible, scoped, reversible, and administratively controllable. The product read is positive, but rollout should be judged on summary accuracy, project isolation, and admin defaults.",
+        "zhHciLens": [
+          "Input: user intent + context",
+          "System: identity / app data / device state",
+          "Feedback: visible action result",
+          "Control: permission, undo, scope"
+        ],
+        "enHciLens": [
+          "Input: user intent + context",
+          "System: identity / app data / device state",
+          "Feedback: visible action result",
+          "Control: permission, undo, scope"
+        ],
+        "zhImplication": "这是一个高价值 enterprise UX 更新：AI 的长期上下文能力只有在边界可见、可隔离、可回退时才适合真实组织。产品判断是正向，但必须继续验证摘要准确性、项目隔离和管理员默认策略。",
+        "enImplication": "This is a high-value enterprise UX update. Long-term AI context is only suitable for real organizations when it is visible, scoped, reversible, and administratively controllable. The product read is positive, but rollout should be judged on summary accuracy, project isolation, and admin defaults.",
+        "sourceDate": "2026-06-25 / accessed 2026-06-26",
+        "evidenceLabel": "confirmed product",
+        "evidenceStrength": "confirmed product",
+        "visual": {
+          "path": "assets/chatgpt-enterprise-memory-boundary.svg",
+          "width": 1200,
+          "height": 760,
+          "altZh": "自绘证据图：ChatGPT memory control boundary",
+          "altEn": "Self-drawn evidence diagram: ChatGPT memory control boundary",
+          "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
+          "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
+          "sourceUrl": "https://help.openai.com/en/articles/10128477-chatgpt-enterprise-edu-release-notes"
+        },
+        "sources": [
+          {
+            "label": "OpenAI Enterprise/Edu release notes",
+            "url": "https://help.openai.com/en/articles/10128477-chatgpt-enterprise-edu-release-notes",
+            "type": "official"
+          },
+          {
+            "label": "ChatGPT release notes",
+            "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+            "type": "official"
+          },
+          {
+            "label": "OpenAI API changelog",
+            "url": "https://developers.openai.com/api/docs/changelog",
+            "type": "developer docs"
+          }
+        ],
+        "dossierKind": "product",
+        "dossier": {
+          "zh": {
+            "productName": "ChatGPT improved memory for Enterprise/Edu and project-only memory",
+            "productType": "企业/教育 ChatGPT 的个性化与上下文控制功能。它不是新模型，而是把“AI 记住什么、在哪个工作区可用、用户能否看到摘要、管理员能否切换”做成产品设置和交互边界。",
+            "interactionFlow": "管理员先在 Workspace settings 中启用 Use improved memory，早期访问约两周；符合条件的工作区之后默认开启，管理员可选择退出。用户使用 ChatGPT 时，系统可参考过去聊天形成动态上下文；用户可查看 memory summary。项目里还可启用 project-only memory，让 ChatGPT 只使用项目内其他对话作为上下文，不使用项目外 saved memories，也不把项目上下文带到外部未来聊天。",
+            "specsOrStack": "来源披露的栈包括 ChatGPT Enterprise、ChatGPT Edu、workspace admin setting、improved memory、memory summary、legacy Saved memories fallback、project-only memory。底层模型、摘要更新频率、存储期限、管理员审计日志字段、所有国家/计划 rollout 时间 source not stated。",
+            "useCases": "企业研究、课程项目、客户支持、产品规划和长期知识工作可以让 ChatGPT 记住团队上下文；项目型工作可以把一个客户、课程或研究主题隔离在 project-only memory 内。用户不必每次重述背景，但可以通过摘要看到系统可能引用的记忆。",
+            "painPointsSolved": "它解决两个痛点：长期 AI 工作缺少连续上下文，以及连续上下文又容易越界。memory summary 让“AI 记得什么”变成可见对象；project-only memory 让不同项目之间的隐私和语境分隔更清楚。",
+            "userVoice": "这类功能的用户原声通常是担心误记、越界引用和企业合规。官方文档没有给出用户 quote，source not stated；但产品本身把用户可见摘要、管理员开关、legacy fallback 放进流程，说明 OpenAI 把信任控制当成上线条件。",
+            "newTech": "新技术是 memory 不再只是手工 saved facts，而是可更新、可摘要、可项目隔离的上下文层。对 HCI 来说，它把不可见的 personalization 变成用户和管理员可操作的对象。",
+            "availability": "Enterprise 早期访问约两周；之后对 eligible workspaces 默认开启，管理员可 opt out。Edu 同步滚动；project-only memory 在 ChatGPT release notes 中描述为项目创建时可选。精确国家和计划可用性 source not stated。",
+            "limitsOrUnknowns": "文档没有公开 memory summary 生成规则、冲突处理、保留期、审计导出格式或错误记忆恢复细节。用户仍需要能快速关闭、清理和理解上下文范围，否则个性化会变成隐性风险。",
+            "productVerdict": "这是一个高价值 enterprise UX 更新：AI 的长期上下文能力只有在边界可见、可隔离、可回退时才适合真实组织。产品判断是正向，但必须继续验证摘要准确性、项目隔离和管理员默认策略。"
+          },
+          "en": {
+            "productName": "ChatGPT improved memory for Enterprise/Edu and project-only memory",
+            "productType": "A personalization and context-control surface for ChatGPT Enterprise and Edu. This is not a new model launch; it is a product layer that defines what the assistant can remember, where that memory applies, whether users can review a summary, and how workspace administrators can enable or disable the experience.",
+            "interactionFlow": "An admin enables Use improved memory in Workspace settings during an early-access period of about two weeks. After early access, eligible workspaces will have the improved experience turned on by default unless the admin opts out. During use, ChatGPT can draw on relevant context from past chats so responses stay current as work changes. Users can review a memory summary showing information ChatGPT may use. Separately, project-only memory can be enabled when creating a project, allowing ChatGPT to use conversations inside that project while excluding saved memories from outside the project and avoiding carryover from the project into future external chats.",
+            "specsOrStack": "The source-backed stack includes ChatGPT Enterprise, ChatGPT Edu, workspace admin settings, improved memory, memory summary, a legacy Saved memories fallback, and project-only memory. The documents do not state the underlying model, summary refresh cadence, retention period, admin audit-log fields, or every country and plan rollout detail.",
+            "useCases": "The feature supports long-running enterprise research, classroom work, customer-support knowledge, product planning, and team-specific operating context. Project-only memory is especially important for client work, courses, legal matters, and research themes where the assistant should be context-rich inside one boundary and context-blind outside it. Users no longer need to restate the same background every session, but they get a visible summary of what the system may use.",
+            "painPointsSolved": "The product addresses two opposing pains: AI work needs continuity, but continuity can leak context across boundaries. A user-visible memory summary turns an invisible personalization layer into something inspectable. Project-only memory makes separation between workstreams clearer. Admin controls and the fallback to legacy Saved memories create an operational escape path.",
+            "userVoice": "The cited official sources do not include user quotes, so direct user sentiment is source not stated. The product design itself responds to predictable enterprise objections: wrong memories, cross-project leakage, compliance review, and default-on behavior. Those objections should be tested in deployment rather than treated as solved by documentation.",
+            "newTech": "The new technology is an evolving context layer that can be summarized, reviewed, scoped to projects, and controlled by administrators. For HCI, the important move is that personalization becomes an editable system object instead of a mysterious assistant habit.",
+            "availability": "The Enterprise improved-memory experience begins with early access for roughly two weeks and then turns on by default for eligible workspaces unless admins opt out. Edu is covered in the same release-note family. Project-only memory is described in ChatGPT release notes as an option when creating a project. Exact country, plan, and tenant availability is source not stated.",
+            "limitsOrUnknowns": "The documentation does not disclose summary-generation rules, conflict handling, retention periods, export formats, or precise error-recovery behavior for incorrect memories. The product will need fast user controls for review, deletion, and scoping; otherwise personalization becomes an invisible risk.",
+            "productVerdict": "This is a high-value enterprise UX update. Long-term AI context is only suitable for real organizations when it is visible, scoped, reversible, and administratively controllable. The product read is positive, but rollout should be judged on summary accuracy, project isolation, and admin defaults. Product verification should stay concrete: confirm the entry point the user touches first, list the exact context the system reads, name the permission or account boundary that constrains the action, show where the result lands, and test the recovery path after a wrong generation, failed connector call, or mistaken delegated action. If any of those surfaces are missing from the cited source, the issue treats the gap as an unknown rather than filling it with market logic."
+          }
+        }
+      },
+      {
+        "id": "microsoft-copilot-cowork-long-running",
+        "section": "official",
+        "zhHeadline": "Microsoft 365 Copilot Cowork：企业 agent 从问答界面转向长任务执行",
+        "enHeadline": "Microsoft 365 Copilot Cowork: enterprise agents move from Q&A into long-running execution",
+        "zhFact": "Microsoft 365 Roadmap 将 Copilot Cowork 描述为 GA，面向 long-running multi-step work，跨工作数据、业务系统和 connected apps 自动化任务，并继承安全治理。",
+        "enFact": "Microsoft 365 Roadmap describes Copilot Cowork as generally available for long-running, multi-step work across work data, business systems, connected apps, and existing security governance.",
+        "zhValue": "这是企业 agent 的关键产品形态：真正的价值不是“回答更聪明”，而是替用户维护跨系统任务。但用户体验成败取决于任务可见性、权限边界、失败恢复和可审计结果。",
+        "enValue": "This is a key enterprise-agent shape. The value is not smarter answers; it is maintaining cross-system work on behalf of users. The experience will stand or fail on task visibility, permission boundaries, failure recovery, and auditable outputs.",
+        "zhHciLens": [
+          "Input: user intent + context",
+          "System: identity / app data / device state",
+          "Feedback: visible action result",
+          "Control: permission, undo, scope"
+        ],
+        "enHciLens": [
+          "Input: user intent + context",
+          "System: identity / app data / device state",
+          "Feedback: visible action result",
+          "Control: permission, undo, scope"
+        ],
+        "zhImplication": "这是企业 agent 的关键产品形态：真正的价值不是“回答更聪明”，而是替用户维护跨系统任务。但用户体验成败取决于任务可见性、权限边界、失败恢复和可审计结果。",
+        "enImplication": "This is a key enterprise-agent shape. The value is not smarter answers; it is maintaining cross-system work on behalf of users. The experience will stand or fail on task visibility, permission boundaries, failure recovery, and auditable outputs.",
+        "sourceDate": "2026-06-16 / accessed 2026-06-26",
+        "evidenceLabel": "developer surface",
+        "evidenceStrength": "developer surface",
+        "visual": {
+          "path": "assets/microsoft-copilot-cowork-long-running.svg",
+          "width": 1200,
+          "height": 760,
+          "altZh": "自绘证据图：Copilot Cowork execution surface",
+          "altEn": "Self-drawn evidence diagram: Copilot Cowork execution surface",
+          "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
+          "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
+          "sourceUrl": "https://www.microsoft.com/en-us/microsoft-365/roadmap"
+        },
+        "sources": [
+          {
+            "label": "Microsoft 365 Roadmap",
+            "url": "https://www.microsoft.com/en-us/microsoft-365/roadmap",
+            "type": "official"
+          },
+          {
+            "label": "Microsoft 365 Copilot release notes",
+            "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes",
+            "type": "official"
+          },
+          {
+            "label": "Windows Recall developer docs",
+            "url": "https://learn.microsoft.com/en-us/windows/apps/develop/windows-integration/recall/",
+            "type": "developer docs"
+          }
+        ],
+        "dossierKind": "product",
+        "dossier": {
+          "zh": {
+            "productName": "Microsoft 365 Copilot Cowork",
+            "productType": "企业级长任务 agent surface。它不是单次 prompt 的回答框，而是把多步骤任务、组织数据、业务系统、插件、安全治理和模板放进 Microsoft 365 Copilot 的工作执行层。",
+            "interactionFlow": "用户或团队从 Microsoft 365 Copilot 中选择或配置一个需要长期运行的任务，例如整理销售资料、跨系统跟进项目、生成报告、调度业务流程。Copilot Cowork 使用工作数据、连接应用和插件执行多步骤流程，过程中受租户权限、安全策略和治理控制约束。用户的交互重点从“问一个问题”变成“设定任务、检查进度、接收结果、必要时介入”。",
+            "specsOrStack": "来源披露：Microsoft 365 Copilot、Copilot Cowork、work data、business systems、connected apps、partner plugins、integrated security and governance controls、branded templates、image generation。具体执行沙箱、任务队列、失败重试、审计字段和支持的全部插件 source not stated。",
+            "useCases": "销售运营可以让 agent 跨 CRM、邮件和文档准备客户更新；项目管理可以让 agent 跟踪多个系统中的状态；市场团队可用模板生成活动材料；管理者可让 agent 汇总工作数据并形成初稿。它服务的是跨应用、多小时或多天的知识工作，而不是即时聊天。",
+            "painPointsSolved": "传统 Copilot 帮用户回答问题，但企业工作真正耗时的是跨系统搬运、重复跟进、格式化输出和权限内检索。Cowork 试图把这些步骤合并成可治理的 agent 执行流，减少用户在邮件、表格、CRM、文档和聊天之间来回切换。",
+            "userVoice": "官方 roadmap 没有给出用户 quote，source not stated。社区和企业部署最可能关注的是 agent 是否越权、是否乱改共享文档、失败时谁负责、任务进度是否透明。这些是 HCI 验证重点。",
+            "newTech": "新技术是企业 agent 从 prompt/response 变成 long-running work orchestration：多模型智能、插件、组织权限、模板和治理合在一起。它把 agent 的 UI 从输入框扩展到任务状态、权限解释、结果验收和审计轨迹。",
+            "availability": "Microsoft 365 Roadmap 标为 Copilot Cowork generally available，并提到 as of June 16 的功能。具体租户、许可证、地区、插件可用性和默认开关 source not stated。",
+            "limitsOrUnknowns": "公开页面没有说明执行失败恢复、人工审批节点、任务暂停/撤销、审计导出和跨应用权限提示细节。没有这些交互，长任务 agent 会变成黑箱自动化。",
+            "productVerdict": "这是企业 agent 的关键产品形态：真正的价值不是“回答更聪明”，而是替用户维护跨系统任务。但用户体验成败取决于任务可见性、权限边界、失败恢复和可审计结果。"
+          },
+          "en": {
+            "productName": "Microsoft 365 Copilot Cowork",
+            "productType": "An enterprise long-running agent surface. It is not a single prompt-answer panel; it packages multi-step tasks, work data, business systems, partner plugins, templates, image generation, and security governance into Microsoft 365 Copilot's execution layer.",
+            "interactionFlow": "A user or team starts from Microsoft 365 Copilot and selects or configures a task that may run over time: preparing account updates, following up across project systems, generating a report, or coordinating a business workflow. Copilot Cowork operates across work data, connected apps, and plugins while inheriting tenant permissions and security controls. The interaction shifts from asking a question to defining a job, monitoring progress, reviewing outputs, and intervening when the agent needs approval or correction.",
+            "specsOrStack": "The source-backed stack includes Microsoft 365 Copilot, Copilot Cowork, work data, business systems, connected apps, partner plugins, integrated security and governance controls, branded templates, and image generation. The public page does not state the execution sandbox, task queue design, retry behavior, complete audit fields, or full plugin list.",
+            "useCases": "Sales operations can ask an agent to prepare account updates across CRM, email, and documents. Project teams can track status across multiple systems. Marketing can generate campaign materials from branded templates. Managers can ask for grounded summaries of work data. The product serves cross-application, multi-hour or multi-day knowledge work rather than instant chat.",
+            "painPointsSolved": "Ordinary Copilot answers help, but enterprise drag comes from moving information between systems, following up repeatedly, formatting output, and searching within permissions. Cowork attempts to consolidate these steps into a governed agentic workflow, reducing constant switching between mail, spreadsheets, CRM, documents, and chat.",
+            "userVoice": "The cited roadmap does not include direct customer quotes, so user voice is source not stated. The predictable deployment questions are whether the agent oversteps permission boundaries, changes shared documents without enough confirmation, hides progress, or leaves ownership unclear after failure. Those are the experience checks that matter.",
+            "newTech": "The new technology is not one model feature; it is long-running work orchestration inside an enterprise shell. Multi-model intelligence, plugins, organizational permissions, templates, and governance are combined into a task surface. The user interface expands from the text box to job state, permission explanation, result acceptance, and audit trail.",
+            "availability": "Microsoft 365 Roadmap marks Copilot Cowork as generally available and describes capabilities available as of June 16. Exact tenant eligibility, license requirements, countries, plugin availability, and default enablement are source not stated.",
+            "limitsOrUnknowns": "The public material does not explain failure recovery, human approval steps, pause or undo, audit export, or cross-app permission prompts in detail. Without those surfaces, a long-running agent becomes opaque automation.",
+            "productVerdict": "This is a key enterprise-agent shape. The value is not smarter answers; it is maintaining cross-system work on behalf of users. The experience will stand or fail on task visibility, permission boundaries, failure recovery, and auditable outputs. Product verification should stay concrete: confirm the entry point the user touches first, list the exact context the system reads, name the permission or account boundary that constrains the action, show where the result lands, and test the recovery path after a wrong generation, failed connector call, or mistaken delegated action. If any of those surfaces are missing from the cited source, the issue treats the gap as an unknown rather than filling it with market logic."
+          }
+        }
+      },
+      {
+        "id": "claude-connectors-remote-mcp",
+        "section": "official",
+        "zhHeadline": "Claude Connectors：remote MCP 把聊天助手接进真实 SaaS 权限边界",
+        "enHeadline": "Claude Connectors: remote MCP connects the assistant to real SaaS permission boundaries",
+        "zhFact": "Anthropic 支持文档说明 Claude connectors 可访问应用和服务、检索数据并执行动作，继承每个用户在连接服务中的权限；custom connectors 可连接 remote MCP servers。",
+        "enFact": "Anthropic support docs state that Claude connectors can access apps and services, retrieve data, and take actions while inheriting each user's permissions; custom connectors can use remote MCP servers.",
+        "zhValue": "这是 Claude 产品化 agent 的关键入口：真正有用的助手必须连接工作数据，但连接越深越需要权限继承、引用透明、动作确认和快速撤销。",
+        "enValue": "This is a critical agent-product surface for Claude. Useful assistants need work data, but deep connection requires inherited permissions, transparent citations, action confirmation, and fast revocation.",
+        "zhHciLens": [
+          "Input: user intent + context",
+          "System: identity / app data / device state",
+          "Feedback: visible action result",
+          "Control: permission, undo, scope"
+        ],
+        "enHciLens": [
+          "Input: user intent + context",
+          "System: identity / app data / device state",
+          "Feedback: visible action result",
+          "Control: permission, undo, scope"
+        ],
+        "zhImplication": "这是 Claude 产品化 agent 的关键入口：真正有用的助手必须连接工作数据，但连接越深越需要权限继承、引用透明、动作确认和快速撤销。",
+        "enImplication": "This is a critical agent-product surface for Claude. Useful assistants need work data, but deep connection requires inherited permissions, transparent citations, action confirmation, and fast revocation.",
+        "sourceDate": "2026-06-19 / accessed 2026-06-26",
+        "evidenceLabel": "developer surface",
+        "evidenceStrength": "developer surface",
+        "visual": {
+          "path": "assets/claude-connectors-remote-mcp.svg",
+          "width": 1200,
+          "height": 760,
+          "altZh": "自绘证据图：Claude remote MCP connector boundary",
+          "altEn": "Self-drawn evidence diagram: Claude remote MCP connector boundary",
+          "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
+          "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
+          "sourceUrl": "https://support.anthropic.com/en/articles/11176164-pre-built-web-connectors-using-remote-mcp"
+        },
+        "sources": [
+          {
+            "label": "Anthropic pre-built connectors",
+            "url": "https://support.anthropic.com/en/articles/11176164-pre-built-web-connectors-using-remote-mcp",
+            "type": "official"
+          },
+          {
+            "label": "Anthropic custom connectors",
+            "url": "https://support.anthropic.com/en/articles/11175166-getting-started-with-custom-connectors-using-remote-mcp",
+            "type": "developer docs"
+          }
+        ],
+        "dossierKind": "product",
+        "dossier": {
+          "zh": {
+            "productName": "Claude Connectors with remote MCP",
+            "productType": "面向 Claude 的外部应用连接层。它不是新的聊天能力，而是把 Claude 接入 Google Drive、项目管理、CRM 或自定义远程 MCP 服务这类数据/动作系统，并用用户原有权限约束访问范围。",
+            "interactionFlow": "用户或管理员连接一个预置 connector，或开发者搭建 remote MCP server 作为 custom connector。用户在 Claude 中提问或要求执行任务时，Claude 通过 connector 检索外部数据、读取上下文或触发动作；如果用户在源系统没有某个文件、频道或记录的权限，connector 也不能访问。交互重点是授权、范围确认、数据引用和动作确认。",
+            "specsOrStack": "来源披露：pre-built web connectors、remote MCP、custom connectors、user permission inheritance、external apps/services、retrieve data、take actions。具体支持应用清单会变动；OAuth scopes、审计日志、rate limits、每个企业计划可用性和 action approval UI source not stated。",
+            "useCases": "知识工作者可以让 Claude 汇总项目文件、检索客户记录、比对政策文档、从 ticket 系统提取事实；企业开发者可以把内部工具以 remote MCP 形式接入，让 Claude 在保留权限模型的前提下操作业务系统。",
+            "painPointsSolved": "LLM 单独聊天时最大痛点是上下文不在对话里，用户要复制粘贴资料且容易泄露边界。Connectors 把数据入口变成授权连接，减少手工搬运，同时让访问权限回到源系统。",
+            "userVoice": "文档没有用户 quote，source not stated。实际摩擦会集中在授权是否过宽、Claude 是否解释引用来源、动作执行前是否确认、错误连接是否容易撤销。",
+            "newTech": "remote MCP 的产品意义是把 agent 能力标准化为可远程连接的工具/数据边界；它让 Claude 不只是回答，而是进入用户已有工作系统，并继承系统权限。",
+            "availability": "支持文档说明 connectors 可用，custom connectors 为 beta/security privacy 注意事项。不同计划、地区和连接器的正式可用性 source not stated。",
+            "limitsOrUnknowns": "连接器越多，错误授权、跨系统误动作、数据 stale 和引用不可追踪风险越高。文档没有完整说明每个动作的审批体验、撤销路径和管理员审计字段。",
+            "productVerdict": "这是 Claude 产品化 agent 的关键入口：真正有用的助手必须连接工作数据，但连接越深越需要权限继承、引用透明、动作确认和快速撤销。"
+          },
+          "en": {
+            "productName": "Claude Connectors with remote MCP",
+            "productType": "An external-app connection layer for Claude. This is not a new chat trick; it connects Claude to data and action systems such as file stores, project tools, CRMs, and custom remote MCP servers while constraining access through the user's permissions in the source service.",
+            "interactionFlow": "A user or admin connects a pre-built connector, or a developer exposes an internal system through a remote MCP server as a custom connector. When the user asks Claude to answer a knowledge-heavy question or perform a task, Claude can retrieve external data, read context, or take actions through the connector. If the user cannot access a file, channel, or record in the source system, the connector cannot access it either. The experience must therefore focus on authorization, scope confirmation, source citation, and action confirmation.",
+            "specsOrStack": "The source-backed stack includes pre-built web connectors, custom connectors, remote MCP servers, inherited user permissions, external app and service access, data retrieval, and action execution. The exact connector catalog can change. OAuth scopes, audit-log details, rate limits, plan availability, and the full action-approval UI are source not stated.",
+            "useCases": "Knowledge workers can ask Claude to summarize project files, retrieve customer context, compare policy documents, or extract facts from ticket systems. Enterprise developers can expose internal tools through remote MCP so Claude can operate inside business systems without bypassing the existing permission model.",
+            "painPointsSolved": "A standalone chatbot lacks the user's real work context. Users resort to copying and pasting material, which is slow, stale, and risky. Connectors turn data access into an authorized product surface, reducing manual transfer and moving access control back to the source system.",
+            "userVoice": "The cited support pages do not include user quotes, so user voice is source not stated. The likely friction points are over-broad authorization, whether Claude clearly cites the connected source, whether it asks before taking action, and whether a bad connection can be revoked quickly.",
+            "newTech": "Remote MCP matters because it standardizes agent capability as a remote tool and data boundary. It lets Claude move from conversational answer generation into existing work systems while inheriting permissions rather than inventing a parallel access model.",
+            "availability": "The support documentation describes connectors as available and custom connectors with security and privacy caveats. Exact plan, regional, and connector-by-connector availability is source not stated.",
+            "limitsOrUnknowns": "More connectors increase risk: wrong authorization, cross-system mis-actions, stale data, and untraceable citations. The public documentation does not fully specify approval UI, undo paths, audit fields, or enterprise monitoring for every action type.",
+            "productVerdict": "This is a critical agent-product surface for Claude. Useful assistants need work data, but deep connection requires inherited permissions, transparent citations, action confirmation, and fast revocation. Product verification should stay concrete: confirm the entry point the user touches first, list the exact context the system reads, name the permission or account boundary that constrains the action, show where the result lands, and test the recovery path after a wrong generation, failed connector call, or mistaken delegated action. If any of those surfaces are missing from the cited source, the issue treats the gap as an unknown rather than filling it with market logic."
+          }
+        }
+      },
+      {
+        "id": "perplexity-comet-agent-browser",
+        "section": "wild",
+        "zhHeadline": "Comet：AI browser 把搜索、标签页、邮箱和网页任务交给同一个代理入口",
+        "enHeadline": "Comet: the AI browser delegates search, tabs, email, and web tasks to one assistant surface",
+        "zhFact": "Perplexity Comet 页面把产品描述为 AI browser/personal assistant，可研究网页、整理邮箱、管理标签、购物、规划旅行；TechCrunch 早期报道确认其以 Perplexity search 为默认体验。",
+        "enFact": "Perplexity's Comet page frames it as an AI browser and personal assistant for web research, email, tabs, shopping, and travel planning; TechCrunch reported its Perplexity search default at launch.",
+        "zhValue": "Comet 是浏览器从信息检索工具变成代理执行外壳的强 startup signal。产品价值取决于它能否把每一步自动化都做成可看见、可暂停、可恢复。",
+        "enValue": "Comet is a strong startup signal for the browser becoming an execution shell rather than an information retrieval tool. Its value depends on making every automated step visible, pausable, and recoverable.",
+        "zhHciLens": [
+          "Input: user intent + context",
+          "System: identity / app data / device state",
+          "Feedback: visible action result",
+          "Control: permission, undo, scope"
+        ],
+        "enHciLens": [
+          "Input: user intent + context",
+          "System: identity / app data / device state",
+          "Feedback: visible action result",
+          "Control: permission, undo, scope"
+        ],
+        "zhImplication": "Comet 是浏览器从信息检索工具变成代理执行外壳的强 startup signal。产品价值取决于它能否把每一步自动化都做成可看见、可暂停、可恢复。",
+        "enImplication": "Comet is a strong startup signal for the browser becoming an execution shell rather than an information retrieval tool. Its value depends on making every automated step visible, pausable, and recoverable.",
+        "sourceDate": "2025-07-09 / accessed 2026-06-26",
+        "evidenceLabel": "startup signal",
+        "evidenceStrength": "startup signal",
+        "visual": {
+          "path": "assets/perplexity-comet-agent-browser.svg",
+          "width": 1200,
+          "height": 760,
+          "altZh": "自绘证据图：Comet agent browser flow",
+          "altEn": "Self-drawn evidence diagram: Comet agent browser flow",
+          "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
+          "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
+          "sourceUrl": "https://www.perplexity.ai/comet/"
+        },
+        "sources": [
+          {
+            "label": "Perplexity Comet",
+            "url": "https://www.perplexity.ai/comet/",
+            "type": "official"
+          },
+          {
+            "label": "TechCrunch Comet launch",
+            "url": "https://techcrunch.com/2025/07/09/perplexity-launches-comet-an-ai-powered-web-browser/",
+            "type": "reviews"
+          },
+          {
+            "label": "Human Security Comet explainer",
+            "url": "https://www.humansecurity.com/ai-agent/perplexity-comet/",
+            "type": "reviews"
+          }
+        ],
+        "dossierKind": "product",
+        "dossier": {
+          "zh": {
+            "productName": "Perplexity Comet",
+            "productType": "AI-first browser / personal assistant。它把浏览器的新标签页、搜索、网页阅读、邮箱、购物和旅行规划变成 agent 的工作面，而不是在传统浏览器旁边放一个聊天侧栏。",
+            "interactionFlow": "用户把 Comet 当默认浏览器打开网页、搜索或登录服务；在浏览过程中向助手请求总结、比较、安排标签页、整理邮箱、下单或规划行程。系统把网页 DOM、搜索结果、用户账号状态和浏览器上下文交给 assistant，再把结果回写到当前网页或浏览会话。",
+            "specsOrStack": "来源披露：Comet browser、Perplexity AI search default、assistant for web tasks、email organization、shopping、travel planning、privacy/safe browsing FAQ。Chromium 架构、扩展兼容性、每个站点的权限模型、后台任务限制和企业管理能力 source not stated。",
+            "useCases": "研究员可让浏览器归纳多个网页；购物者可比较商品和下单；出行者可规划行程；办公用户可整理邮箱和标签页；开发/测试人员可观察 agent 如何操作真实网页流程。",
+            "painPointsSolved": "传统浏览器要求用户自己拆解任务：搜索、打开标签、复制信息、填表、比价、切邮箱。Comet 把这些步骤合成一个 agentic browsing loop，减少重复导航和上下文搬运。",
+            "userVoice": "早期社区关注点集中在 waitlist、是否只是 Chromium、隐私和网站自动化边界。引用源没有稳定大规模用户满意度数据，source not stated；因此此项标为 startup signal。",
+            "newTech": "新技术是浏览器上下文成为 agent 的默认操作场：搜索引擎、页面内容、tab state、账号会话和任务指令在同一外壳内组合。",
+            "availability": "官方页面提供 Download Comet；TechCrunch 早期报道提到首发给 Max 订阅者和 waitlist invitees。当前精确免费/付费、地区、平台矩阵 source not stated，应按下载页实时确认。",
+            "limitsOrUnknowns": "agent 浏览器天然涉及账号权限、购买确认、网站 ToS、bot 检测和误操作风险。没有清楚的审批、撤销和 site-level scope，用户会难以信任它执行真实交易。",
+            "productVerdict": "Comet 是浏览器从信息检索工具变成代理执行外壳的强 startup signal。产品价值取决于它能否把每一步自动化都做成可看见、可暂停、可恢复。"
+          },
+          "en": {
+            "productName": "Perplexity Comet",
+            "productType": "An AI-first browser and personal assistant. It turns the new tab page, search, web reading, email, shopping, and travel planning into an agent workspace rather than placing a chat sidebar next to a conventional browser.",
+            "interactionFlow": "The user opens Comet as a browser, searches, visits pages, and signs into services. During browsing, they ask the assistant to summarize, compare, organize tabs, clean up email, shop, or plan travel. The system uses browser context, page content, search results, account state, and the user's instruction, then returns output into the current browsing session or page workflow.",
+            "specsOrStack": "The source-backed stack includes the Comet browser, Perplexity AI search as a default experience at launch, an assistant for web tasks, email organization, shopping, travel planning, and privacy or safe-browsing FAQ surfaces. Chromium architecture, extension compatibility, per-site permission models, background-task limits, and enterprise management are source not stated.",
+            "useCases": "Researchers can ask the browser to synthesize multiple pages. Shoppers can compare products and potentially complete ordering workflows. Travelers can plan itineraries. Office users can organize inboxes and tabs. Product testers can observe how agents behave inside real web interfaces rather than controlled demos.",
+            "painPointsSolved": "Traditional browsing forces users to decompose tasks manually: search, open tabs, copy information, fill forms, compare options, and switch to email. Comet attempts to merge these steps into an agentic browsing loop, reducing repetitive navigation and context transfer.",
+            "userVoice": "Early community discussion has focused on waitlists, whether the product is essentially Chromium with an assistant, privacy, and the boundary of website automation. The cited sources do not provide stable large-scale satisfaction data, so user voice is source not stated and the item remains a startup signal.",
+            "newTech": "The new technology is the browser context as the default agent operating surface. Search engine, page content, tab state, account session, and user task are combined inside one shell instead of being scattered across browser, chatbot, and automation tools.",
+            "availability": "The official page offers a Comet download. TechCrunch reported that initial launch access went first to Max subscribers and a small group of waitlist invitees. Current exact free versus paid status, region support, and platform matrix are source not stated and should be verified on the download page.",
+            "limitsOrUnknowns": "Agent browsers inherit account permissions, purchase confirmation risk, website terms, bot detection, and mis-click risk. Without clear approval, undo, and site-level scoping, users will not trust the browser to execute real transactions.",
+            "productVerdict": "Comet is a strong startup signal for the browser becoming an execution shell rather than an information retrieval tool. Its value depends on making every automated step visible, pausable, and recoverable. Product verification should stay concrete: confirm the entry point the user touches first, list the exact context the system reads, name the permission or account boundary that constrains the action, show where the result lands, and test the recovery path after a wrong generation, failed connector call, or mistaken delegated action. If any of those surfaces are missing from the cited source, the issue treats the gap as an unknown rather than filling it with market logic."
+          }
+        }
+      },
+      {
+        "id": "smart-glasses-review-friction",
+        "section": "reviews",
+        "zhHeadline": "Review scan：智能眼镜价格下探，但隐私、全天佩戴和场景定位仍是主摩擦",
+        "enHeadline": "Review scan: smart glasses get cheaper, but privacy, wearability, and use-case fit remain the friction",
+        "zhFact": "WSJ、The Verge 和 Meta 官方信号共同显示 AI 眼镜正在扩展价位和款式，但媒体焦点仍落在谁会用、何时适合戴、隐私是否可信。",
+        "enFact": "WSJ, The Verge, and Meta's own launch material show AI glasses expanding in price and style, while review attention stays on user fit, wearability, and privacy trust.",
+        "zhValue": "这条 lane 的结论是：AI 眼镜从极客设备进入大众价位，但主问题变成社会可接受性和任务匹配。产品团队应把状态灯、录制提示、旁人可见反馈和快速关闭放到核心流程。",
+        "enValue": "The lane read is that AI eyewear has moved into mainstream price territory, but the primary design problem is now social acceptability and task fit. Status lights, recording prompts, bystander-visible feedback, and fast disable controls belong in the core flow.",
+        "zhHciLens": [
+          "Input: user intent + context",
+          "System: identity / app data / device state",
+          "Feedback: visible action result",
+          "Control: permission, undo, scope"
+        ],
+        "enHciLens": [
+          "Input: user intent + context",
+          "System: identity / app data / device state",
+          "Feedback: visible action result",
+          "Control: permission, undo, scope"
+        ],
+        "zhImplication": "这条 lane 的结论是：AI 眼镜从极客设备进入大众价位，但主问题变成社会可接受性和任务匹配。产品团队应把状态灯、录制提示、旁人可见反馈和快速关闭放到核心流程。",
+        "enImplication": "The lane read is that AI eyewear has moved into mainstream price territory, but the primary design problem is now social acceptability and task fit. Status lights, recording prompts, bystander-visible feedback, and fast disable controls belong in the core flow.",
+        "sourceDate": "2026-06-23 to 2026-06-26",
+        "evidenceLabel": "review/community friction",
+        "evidenceStrength": "review/community friction",
+        "visual": {
+          "path": "assets/smart-glasses-review-friction.svg",
+          "width": 1200,
+          "height": 760,
+          "altZh": "自绘证据图：Smart glasses friction map",
+          "altEn": "Self-drawn evidence diagram: Smart glasses friction map",
+          "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
+          "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
+          "sourceUrl": "https://www.wsj.com/tech/ai/smart-glasses-market-meta-ai-8e6510b8"
+        },
+        "sources": [
+          {
+            "label": "WSJ smart glasses market",
+            "url": "https://www.wsj.com/tech/ai/smart-glasses-market-meta-ai-8e6510b8",
+            "type": "reviews"
+          },
+          {
+            "label": "The Verge Meta glasses hands-on",
+            "url": "https://www.theverge.com/tech/954052/meta-glasses-hands-on-kylie-jenner-smart-glasses-price-battery-privacy",
+            "type": "reviews"
+          },
+          {
+            "label": "Meta Newsroom",
+            "url": "https://about.fb.com/news/2026/06/meta-essilorluxottica-partner-launch-meta-glasses/",
+            "type": "official"
+          }
+        ],
+        "dossierKind": "scan",
+        "dossier": {
+          "zh": {
+            "productName": "Smart glasses review lane scan",
+            "productType": "媒体评测/市场扫描，不是单一新产品确认。被扫描对象包括 Meta Glasses、Ray-Ban/Oakley Meta、Snap Specs、Google/Samsung/Warby Parker/Gentle Monster 方向和更低价显示/无显示眼镜。",
+            "interactionFlow": "用户把眼镜戴在脸上，用语音、按键、触控或未来显示层完成拍照、视频、翻译、通话、AI 识别和导航。评测关注的不是功能表，而是用户会不会愿意在办公室、街上、餐厅、家庭空间一直戴。",
+            "specsOrStack": "已公开的 Meta 新品起价 299 美元；WSJ 报道提到市场从入门款到高端款价格跨度大，并讨论相机、AI assistant、in-lens display、音频等形态。不同品牌具体传感器、芯片和续航不能跨源推断，未披露处写 source not stated。",
+            "useCases": "便利音频、免手持拍摄、AI 视觉识别、无障碍辅助、field technician、创作者第一视角内容和通勤翻译都是被讨论场景。但不同场景对隐私、显示亮度、重量、续航和社交接受度的要求完全不同。",
+            "painPointsSolved": "智能眼镜试图解决手机掏出成本、耳机无法看见世界、AR 头显太重太贵的问题；但评测摩擦说明它又引入新的旁人同意、偷拍疑虑、尴尬佩戴和全天续航问题。",
+            "userVoice": "媒体报道把问题明确问成“smartglasses are inevitable, but who are they for?”；The Verge hands-on 继续把 privacy 作为核心段落。这里没有把媒体疑问当产品事实，而作为 review friction。",
+            "newTech": "新技术不是某个模型，而是脸部设备把摄像头、AI、开放式音频、翻译、导航和未来显示放进同一佩戴物。HCI 难点是让旁人也能理解设备状态。",
+            "availability": "Meta Glasses 已发布；其他产品和地区各不相同。WSJ 市场扫描不是单一销售页，具体库存 source not stated。",
+            "limitsOrUnknowns": "缺少长期佩戴数据、真实隐私滥用率、不同国家监管约束和处方镜片售后体验。今天没有足够证据把任何一个非官方传闻写成 confirmed product。",
+            "productVerdict": "这条 lane 的结论是：AI 眼镜从极客设备进入大众价位，但主问题变成社会可接受性和任务匹配。产品团队应把状态灯、录制提示、旁人可见反馈和快速关闭放到核心流程。"
+          },
+          "en": {
+            "productName": "Smart glasses review-lane scan",
+            "productType": "A media review and market scan, not confirmation of one new product. The scanned set includes Meta Glasses, Ray-Ban/Oakley Meta, Snap Specs, Google/Samsung/Warby Parker/Gentle Monster directions, and lower-cost displayless or display eyewear.",
+            "interactionFlow": "The user wears the device on the face and uses voice, button, touch, or future display layers for photo capture, video, translation, calls, AI recognition, navigation, and lightweight assistance. Review attention is less about the feature checklist and more about whether people will actually wear the device at work, on the street, in restaurants, or around family.",
+            "specsOrStack": "Meta's new glasses start at $299. WSJ describes a broader market spanning entry-level products and high-end devices, with camera, AI assistant, in-lens display, and audio variations. Exact sensors, chips, and battery claims cannot be transferred across brands; where a specific source does not state a detail, the dossier marks it source not stated.",
+            "useCases": "Convenient audio, hands-free capture, AI visual recognition, accessibility, field technician work, creator first-person content, and commuting translation are all discussed. Each use case has different requirements for privacy, display brightness, weight, battery life, and social acceptability.",
+            "painPointsSolved": "Smart glasses attempt to reduce the phone-pull problem, give assistants visual context that earbuds lack, and avoid the weight and cost of full AR headsets. The review friction shows the category also creates new bystander-consent, covert-recording, awkward-wearability, and all-day battery problems.",
+            "userVoice": "The review framing asks who smart glasses are actually for, and The Verge hands-on coverage continues to foreground privacy. This issue does not treat those questions as product facts; it treats them as review friction that product teams must design around.",
+            "newTech": "The new technology is not a single model. It is the face-worn bundle of camera, AI, open-ear audio, translation, navigation, and possible future display. The hard HCI work is making device state understandable to people around the wearer as well as to the wearer.",
+            "availability": "Meta Glasses are announced and available through cited channels. Other products and regions vary. WSJ is a market scan rather than a single purchase page, so inventory and availability are source not stated.",
+            "limitsOrUnknowns": "There is not enough long-term wear data, abuse-rate evidence, country-by-country regulatory evidence, or prescription-lens support evidence in the scanned material. No rumor-only eyewear item is promoted as a confirmed product today.",
+            "productVerdict": "The lane read is that AI eyewear has moved into mainstream price territory, but the primary design problem is now social acceptability and task fit. Status lights, recording prompts, bystander-visible feedback, and fast disable controls belong in the core flow. Product verification should stay concrete: confirm the entry point the user touches first, list the exact context the system reads, name the permission or account boundary that constrains the action, show where the result lands, and test the recovery path after a wrong generation, failed connector call, or mistaken delegated action. If any of those surfaces are missing from the cited source, the issue treats the gap as an unknown rather than filling it with market logic."
+          }
+        }
+      },
+      {
+        "id": "smart-glasses-community-daily-use",
+        "section": "community",
+        "zhHeadline": "Community scan：日用眼镜用户反复提到正常外观、隐私、全天电池和显示可读性",
+        "enHeadline": "Community scan: daily eyewear users keep asking for normal looks, privacy, all-day battery, and readable displays",
+        "zhFact": "Reddit SmartGlasses/RayBanStories 讨论把真正日用条件集中到 normal look、privacy、full-day battery、readable text、easy use 和 battery anxiety。",
+        "enFact": "Reddit SmartGlasses and RayBanStories discussions cluster daily-use requirements around normal looks, privacy, all-day battery, readable text, easy use, and battery anxiety.",
+        "zhValue": "这条 lane 给产品设计的价值很直接：智能眼镜想从 novelty 变成 daily tool，先过外观、隐私、续航、可读性和操作复杂度五道门。",
+        "enValue": "The design takeaway is direct: for smart glasses to move from novelty to daily tool, they must first pass five gates: normal appearance, privacy, battery, readable feedback, and low operational complexity.",
+        "zhHciLens": [
+          "Input: user intent + context",
+          "System: identity / app data / device state",
+          "Feedback: visible action result",
+          "Control: permission, undo, scope"
+        ],
+        "enHciLens": [
+          "Input: user intent + context",
+          "System: identity / app data / device state",
+          "Feedback: visible action result",
+          "Control: permission, undo, scope"
+        ],
+        "zhImplication": "这条 lane 给产品设计的价值很直接：智能眼镜想从 novelty 变成 daily tool，先过外观、隐私、续航、可读性和操作复杂度五道门。",
+        "enImplication": "The design takeaway is direct: for smart glasses to move from novelty to daily tool, they must first pass five gates: normal appearance, privacy, battery, readable feedback, and low operational complexity.",
+        "sourceDate": "community threads accessed 2026-06-26",
+        "evidenceLabel": "review/community friction",
+        "evidenceStrength": "review/community friction",
+        "visual": {
+          "path": "assets/smart-glasses-community-daily-use.svg",
+          "width": 1200,
+          "height": 760,
+          "altZh": "自绘证据图：Community daily-use requirements",
+          "altEn": "Self-drawn evidence diagram: Community daily-use requirements",
+          "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
+          "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
+          "sourceUrl": "https://www.reddit.com/r/SmartGlasses/"
+        },
+        "sources": [
+          {
+            "label": "Reddit r/SmartGlasses",
+            "url": "https://www.reddit.com/r/SmartGlasses/",
+            "type": "community"
+          },
+          {
+            "label": "Reddit r/RayBanStories Meta Glasses thread",
+            "url": "https://www.reddit.com/r/RayBanStories/comments/1ue1c4j/meta_launches_cheaper_smart_glasses_without_rayban/",
+            "type": "community"
+          }
+        ],
+        "dossierKind": "scan",
+        "dossier": {
+          "zh": {
+            "productName": "Smart glasses community friction scan",
+            "productType": "社区信号扫描，不是销售事实。它聚合用户对智能眼镜日常佩戴的真实摩擦，适合做风险输入，不适合替代官方规格或销量数据。",
+            "interactionFlow": "用户不是在发布会场景里试戴，而是在旅行、通勤、工作、处方镜使用和日常社交里决定是否继续戴。社区讨论围绕是否像普通眼镜、是否有摄像头、是否全天不断电、显示是否在不同光线下可读、操作是否足够简单。",
+            "specsOrStack": "社区提到 MemoMind、Halliday、Meta/Ray-Ban 等多个产品名，但帖子不是官方规格源。电池、重量、价格、传感器和显示亮度都不能从社区帖跨产品归纳为事实；所有未由官方确认的数字 source not stated。",
+            "useCases": "旅行翻译、步行导航、看通知、听音频、快速拍摄、处方镜全天佩戴、会议/学习记录、无障碍辅助。社区最重视的是设备能否自然混入生活，而不是 demo 中能否回答复杂问题。",
+            "painPointsSolved": "好用的智能眼镜应减少手机拿取、耳机遮挡、临时拍照和环境查询成本；但社区显示最先阻碍的是“我敢不敢戴出门”和“它会不会下午就没电”。",
+            "userVoice": "可引用的社区表达集中在：look normal, privacy mine and people around me, full day battery, bright and sharp enough to read text, easy to use；也有人抱怨 Ray-Ban Meta daily use 电池不够一整天但快充可缓解。这里作为 friction signal 使用。",
+            "newTech": "社区真正要求的新技术是低功耗显示、隐私友好传感、快速充电、处方镜适配和更安静的输入反馈，而不是更多 AI 口号。",
+            "availability": "社区讨论覆盖多款产品和待上市产品，不能作为库存或地区可用性证据。具体可用性 source not stated。",
+            "limitsOrUnknowns": "Reddit 样本偏早期用户，不代表大众；帖子真实性和购买状态不总是可验证；不能从单条帖子推断市场需求规模。",
+            "productVerdict": "这条 lane 给产品设计的价值很直接：智能眼镜想从 novelty 变成 daily tool，先过外观、隐私、续航、可读性和操作复杂度五道门。"
+          },
+          "en": {
+            "productName": "Smart glasses community friction scan",
+            "productType": "A community-signal scan, not a source of confirmed sales or specifications. It aggregates user friction around everyday smart-glasses wear and should be used as risk input, not as a substitute for official specs or shipment data.",
+            "interactionFlow": "Users are not testing launch-stage demos; they are deciding whether to keep wearing glasses during travel, commuting, work, prescription use, and ordinary social life. Discussions cluster around whether the frames look normal, whether the device has a camera, whether it lasts all day, whether text remains readable in different lighting, and whether operation is simple.",
+            "specsOrStack": "The community mentions products such as MemoMind, Halliday, Meta, and Ray-Ban, but the posts are not official specification sources. Battery, weight, price, sensor, and brightness claims cannot be generalized across products from comments. Any number not confirmed by official or review sources is source not stated.",
+            "useCases": "Travel translation, walking navigation, notification viewing, audio listening, quick capture, prescription all-day wear, meeting or learning notes, and accessibility support all appear as real use cases. The community cares less about whether the assistant can answer a complex demo prompt and more about whether the device fits into life without embarrassment or interruption.",
+            "painPointsSolved": "Good smart glasses reduce phone retrieval, earbud isolation, temporary photo capture friction, and environmental query friction. The community signal shows the first blockers are whether the user dares to wear the device outside and whether the battery survives the day.",
+            "userVoice": "Representative community phrases include wanting normal looks, privacy for the wearer and people around them, full-day battery life, bright and sharp text in different conditions, and easy use. Other users describe Ray-Ban Meta as usable but battery-limited. These are treated only as friction signals.",
+            "newTech": "The community's implied technology request is low-power display, privacy-friendly sensing, fast charging, prescription compatibility, and quieter input feedback. More AI slogans do not address the daily-use bottleneck.",
+            "availability": "The community discussions span several products and future products. They cannot verify inventory, launch regions, or retail availability. Availability remains source not stated unless linked to official pages.",
+            "limitsOrUnknowns": "Reddit samples skew toward early adopters. Purchase status is not always verifiable. A single comment cannot establish market-wide demand. The lane is useful because it points to failure modes, not because it proves adoption.",
+            "productVerdict": "The design takeaway is direct: for smart glasses to move from novelty to daily tool, they must first pass five gates: normal appearance, privacy, battery, readable feedback, and low operational complexity. Product verification should stay concrete: confirm the entry point the user touches first, list the exact context the system reads, name the permission or account boundary that constrains the action, show where the result lands, and test the recovery path after a wrong generation, failed connector call, or mistaken delegated action. If any of those surfaces are missing from the cited source, the issue treats the gap as an unknown rather than filling it with market logic."
+          }
+        }
+      },
+      {
+        "id": "global-eyewear-platform-scan",
+        "section": "global",
+        "zhHeadline": "Global scan：海外眼镜平台正在分成 Meta 日用相机、Google Android XR 和 Rokid 场景化部署三条线",
+        "enHeadline": "Global scan: overseas eyewear platforms split into Meta daily cameras, Google Android XR, and Rokid scenario deployment",
+        "zhFact": "Meta、Google Android XR 与 WIPO Rokid profile 显示，海外/全球智能眼镜不再只有一种形态：无显示日用相机眼镜、Gemini/XR 平台眼镜、博物馆/工业/消费场景部署并行。",
+        "enFact": "Meta, Google Android XR, and WIPO's Rokid profile show that global smart eyewear is splitting into displayless daily camera glasses, Gemini/XR platform glasses, and museum/industrial/consumer deployments.",
+        "zhValue": "global lane 的判断是：智能眼镜不是单一品类，而是三种入口路线同时试错。产品团队应先选任务场景，再决定是否需要显示、相机、OS 平台或行业部署，而不是反过来堆功能。",
+        "enValue": "The global lane read is that smart glasses are not one category; they are three competing entry-point strategies. Product teams should choose the task scenario first, then decide whether display, camera, OS platform, or industry deployment is necessary.",
+        "zhHciLens": [
+          "Input: user intent + context",
+          "System: identity / app data / device state",
+          "Feedback: visible action result",
+          "Control: permission, undo, scope"
+        ],
+        "enHciLens": [
+          "Input: user intent + context",
+          "System: identity / app data / device state",
+          "Feedback: visible action result",
+          "Control: permission, undo, scope"
+        ],
+        "zhImplication": "global lane 的判断是：智能眼镜不是单一品类，而是三种入口路线同时试错。产品团队应先选任务场景，再决定是否需要显示、相机、OS 平台或行业部署，而不是反过来堆功能。",
+        "enImplication": "The global lane read is that smart glasses are not one category; they are three competing entry-point strategies. Product teams should choose the task scenario first, then decide whether display, camera, OS platform, or industry deployment is necessary.",
+        "sourceDate": "2026-05 to 2026-06 / accessed 2026-06-26",
+        "evidenceLabel": "weak/unverified",
+        "evidenceStrength": "weak/unverified",
+        "visual": {
+          "path": "assets/global-eyewear-platform-scan.svg",
+          "width": 1200,
+          "height": 760,
+          "altZh": "自绘证据图：Global smart eyewear platform split",
+          "altEn": "Self-drawn evidence diagram: Global smart eyewear platform split",
+          "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
+          "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
+          "sourceUrl": "https://blog.google/products-and-platforms/platforms/android/android-xr-io-2026/"
+        },
+        "sources": [
+          {
+            "label": "Google Android XR eyewear",
+            "url": "https://blog.google/products-and-platforms/platforms/android/android-xr-io-2026/",
+            "type": "official"
+          },
+          {
+            "label": "Meta Glasses official",
+            "url": "https://about.fb.com/news/2026/06/meta-essilorluxottica-partner-launch-meta-glasses/",
+            "type": "official"
+          },
+          {
+            "label": "WIPO Rokid Global Awards profile",
+            "url": "https://www.wipo.int/en/web/awards/global/2026",
+            "type": "industry"
+          }
+        ],
+        "dossierKind": "product",
+        "dossier": {
+          "zh": {
+            "productName": "Global smart eyewear platform scan",
+            "productType": "海外/全球 source-lane scan，不是单一 confirmed product。它把今日可见的智能眼镜方向拆成三种产品系统：Meta 的日用无显示 AI 相机眼镜、Google/Samsung/眼镜伙伴的 Android XR/Gemini 平台、以及 Rokid 在博物馆、工业和消费市场的场景化部署。",
+            "interactionFlow": "Meta 路径让用户用语音、按键、摄像头和开放式音频完成拍摄、翻译、通话和 AI 问答；Google Android XR 路径把 Gemini、Android XR、合作眼镜品牌和手机生态连起来，目标是导航、消息、翻译和上下文辅助；Rokid/WIPO 信号强调特定场景中的轻量眼镜部署。三者都把手机之外的脸部入口当作下一层交互面。",
+            "specsOrStack": "来源披露的栈包括 Meta AI/Muse Spark、Meta Glasses、Android XR、Gemini、合作伙伴 Samsung/Warby Parker/Gentle Monster，以及 WIPO profile 中 Rokid AI glasses 的 49g、博物馆/工业/消费部署和 300,000+ units shipped 表述。跨源不能推断统一芯片、传感器、续航、显示参数。",
+            "useCases": "日常使用包括免手持拍摄、通话、音乐、翻译、导航和 AI 识别；平台使用包括 Android/XR app action、手机生态协同和开发者扩展；场景部署包括博物馆导览、工业辅助、培训和消费出行。",
+            "painPointsSolved": "这些路线共同解决手机拿取成本、低头看屏、现场双手被占用和跨语言沟通问题；差异在于 Meta 先抢日用可佩戴，Google 抢系统/开发者平台，Rokid 类路线强调场景交付。",
+            "userVoice": "此 lane 没有足够统一用户原声；WIPO 是 industry profile，Google/Meta 是官方源。用户接受度、退货率、隐私投诉和长期舒适度 source not stated，因此标为 weak/unverified global scan。",
+            "newTech": "新技术是 eyewear platform split：同一“AI 眼镜”名词下出现不同交互堆栈，无显示相机眼镜、XR OS、场景化轻量眼镜各自优化不同任务。",
+            "availability": "Meta Glasses 有官方销售入口；Google Android XR 合作眼镜有发布/平台信号；Rokid profile 讲全球部署。具体国家、库存、开发者 SDK 开放程度和售后服务 source not stated。",
+            "limitsOrUnknowns": "跨市场报道容易把官方愿景、产业奖项和已售产品混在一起。本 issue 不把 WIPO/平台信号写成今天新发售产品，也不把合作伙伴路线推断成具体规格。",
+            "productVerdict": "global lane 的判断是：智能眼镜不是单一品类，而是三种入口路线同时试错。产品团队应先选任务场景，再决定是否需要显示、相机、OS 平台或行业部署，而不是反过来堆功能。"
+          },
+          "en": {
+            "productName": "Global smart eyewear platform scan",
+            "productType": "A global source-lane scan, not one confirmed product. It separates today's visible smart-eyewear direction into three product systems: Meta's displayless daily AI camera glasses, Google's Android XR and Gemini platform glasses with partners, and Rokid-style deployment in museums, industrial settings, and consumer markets.",
+            "interactionFlow": "The Meta route lets users rely on voice, a button, camera capture, and open-ear audio for photos, translation, calls, and AI questions. The Google Android XR route ties Gemini, Android XR, eyewear partners, and the phone ecosystem together for navigation, messages, translation, and contextual assistance. The Rokid/WIPO signal emphasizes lightweight glasses deployed inside specific scenarios. All three treat the face as an interaction surface beyond the phone.",
+            "specsOrStack": "The source-backed stack includes Meta AI and Muse Spark, Meta Glasses, Android XR, Gemini, partners such as Samsung, Warby Parker, and Gentle Monster, and WIPO's statement that Rokid AI glasses weigh 49 grams and are deployed across museums, industrial sites, and consumer markets with more than 300,000 units shipped. These sources cannot be merged into one universal spec; chip, sensor, battery, and display details are product-specific or source not stated.",
+            "useCases": "Daily use includes hands-free capture, calls, music, translation, navigation, and AI recognition. Platform use includes Android/XR app actions, phone ecosystem coordination, and developer extension. Scenario deployment includes museum guidance, industrial assistance, training, and consumer travel.",
+            "painPointsSolved": "All routes address phone retrieval, looking down at screens, hands-busy work, and cross-language communication. They differ in strategy: Meta prioritizes daily wearability, Google pursues system and developer platform control, and Rokid-like deployments emphasize delivered scenarios.",
+            "userVoice": "This lane does not have a unified user voice. WIPO is an industry profile, while Google and Meta are official sources. Adoption, return rates, privacy complaints, and long-term comfort are source not stated, so this remains a weak/unverified global scan.",
+            "newTech": "The new technology signal is category splitting. Under the same label of AI glasses, the market now contains displayless camera glasses, XR operating-system eyewear, and scenario-specific lightweight glasses, each optimized for different tasks.",
+            "availability": "Meta Glasses have official retail channels. Google Android XR eyewear has platform and partner signals. WIPO describes Rokid global deployment. Exact country coverage, inventory, SDK openness, and service support are source not stated.",
+            "limitsOrUnknowns": "Global coverage can easily mix official vision, industry awards, and shipping products. This issue does not treat WIPO or platform signals as proof of a new product launch today, and it does not infer hardware specs from partner announcements.",
+            "productVerdict": "The global lane read is that smart glasses are not one category; they are three competing entry-point strategies. Product teams should choose the task scenario first, then decide whether display, camera, OS platform, or industry deployment is necessary. Product verification should stay concrete: confirm the entry point the user touches first, list the exact context the system reads, name the permission or account boundary that constrains the action, show where the result lands, and test the recovery path after a wrong generation, failed connector call, or mistaken delegated action. If any of those surfaces are missing from the cited source, the issue treats the gap as an unknown rather than filling it with market logic."
+          }
+        }
+      },
+      {
+        "id": "china-edge-ai-hardware-scan",
+        "section": "china",
+        "zhHeadline": "China scan：端侧 AI 战事从模型压缩转到芯片、系统和具体硬件场景协同",
+        "enHeadline": "China scan: edge AI shifts from model compression toward chips, systems, and concrete device scenarios",
+        "zhFact": "36Kr 近期扫描端侧 AI 和智能体一体机，强调软硬协同、AI PC/本地算力、垂直行业方案和眼镜等硬件入口正在同时推进。",
+        "enFact": "Recent 36Kr scans of edge AI and agent appliances emphasize co-design across models, chips, systems, AI PCs, local compute, vertical solutions, and eyewear devices.",
+        "zhValue": "中国 lane 今天没有足够新的单一爆款确认，但有清楚方向：端侧 AI 产品竞争会从“模型能跑”转向“设备场景是否真降低延迟、成本和隐私风险”。",
+        "enValue": "The China lane does not produce one new confirmed breakout product today, but it shows a clear direction: edge-AI competition is shifting from whether a model can run to whether a device scenario truly reduces latency, cost, and privacy risk.",
+        "zhHciLens": [
+          "Input: user intent + context",
+          "System: identity / app data / device state",
+          "Feedback: visible action result",
+          "Control: permission, undo, scope"
+        ],
+        "enHciLens": [
+          "Input: user intent + context",
+          "System: identity / app data / device state",
+          "Feedback: visible action result",
+          "Control: permission, undo, scope"
+        ],
+        "zhImplication": "中国 lane 今天没有足够新的单一爆款确认，但有清楚方向：端侧 AI 产品竞争会从“模型能跑”转向“设备场景是否真降低延迟、成本和隐私风险”。",
+        "enImplication": "The China lane does not produce one new confirmed breakout product today, but it shows a clear direction: edge-AI competition is shifting from whether a model can run to whether a device scenario truly reduces latency, cost, and privacy risk.",
+        "sourceDate": "2026-06-03 to 2026-06-22",
+        "evidenceLabel": "weak/unverified",
+        "evidenceStrength": "weak/unverified",
+        "visual": {
+          "path": "assets/china-edge-ai-hardware-scan.svg",
+          "width": 1200,
+          "height": 760,
+          "altZh": "自绘证据图：China edge AI hardware map",
+          "altEn": "Self-drawn evidence diagram: China edge AI hardware map",
+          "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
+          "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
+          "sourceUrl": "https://www.36kr.com/p/3864280705520640"
+        },
+        "sources": [
+          {
+            "label": "36Kr edge AI battle",
+            "url": "https://www.36kr.com/p/3864280705520640",
+            "type": "china"
+          },
+          {
+            "label": "36Kr agent appliance players",
+            "url": "https://m.36kr.com/p/3836735436191106",
+            "type": "china"
+          },
+          {
+            "label": "少数派 Qianwen G1 review",
+            "url": "https://sspai.com/post/108103",
+            "type": "china"
+          }
+        ],
+        "dossierKind": "product",
+        "dossier": {
+          "zh": {
+            "productName": "China edge-AI hardware lane scan",
+            "productType": "中国端侧 AI 与硬件生态扫描，不是单一 confirmed product。对象包括端侧大模型、AI PC、本地推理盒子、行业智能体一体机、AI 眼镜和本土生态穿戴设备。",
+            "interactionFlow": "用户层面的入口不再只是手机 App：AI 可能在电脑本地运行、在行业一体机上处理业务、在眼镜里听见/看见/翻译、在办公设备里形成低延迟回答。交互从云端聊天变成“设备先感知、局部推理、必要时上云”。",
+            "specsOrStack": "36Kr 提到苹果 AFM3 端侧方向、端侧算力、AI PC、RTX Spark、本地运行大模型、行业玩家等产业信号；少数派长测提到千问 G1 的本土生态、语音交互、拍摄和回答体验。具体芯片/模型/重量/电池只能按各产品源引用，未披露处 source not stated。",
+            "useCases": "行业场景包括本地知识库、会议设备、边缘终端、AI PC、教育/办公一体机；消费场景包括眼镜翻译、拍摄、导航、语音问答。核心不是“端侧为了端侧”，而是低延迟、隐私、成本和离线/弱网体验。",
+            "painPointsSolved": "中国硬件厂商试图解决云端 token 成本高、隐私数据不宜上传、网络延迟、通用大模型不贴合垂直场景、海外服务不可用等问题。",
+            "userVoice": "少数派长测给出更贴近日常的信号：本土生态和基础语音需求有价值，但回答篇幅、实用性、拍摄画质和功能必要性仍需打磨。这里作为 review signal，不当作全市场结论。",
+            "newTech": "新技术路线是模型压缩/蒸馏、端云协同、设备芯片协同、多模态感知和本地执行。真正产品化要把这些能力压进可购买、可维护、可解释的硬件系统。",
+            "availability": "多项为产业扫描或单品长测；不同设备上市、库存、地区差异大，不能统一描述。具体可用性 source not stated。",
+            "limitsOrUnknowns": "产业报道可能混合供应链愿景、厂商说法和投资逻辑；如果没有官方产品页和实测，不应把算力、销量或性能写成确认事实。",
+            "productVerdict": "中国 lane 今天没有足够新的单一爆款确认，但有清楚方向：端侧 AI 产品竞争会从“模型能跑”转向“设备场景是否真降低延迟、成本和隐私风险”。"
+          },
+          "en": {
+            "productName": "China edge-AI hardware lane scan",
+            "productType": "A China edge-AI and hardware ecosystem scan, not one confirmed product. The scanned surface includes on-device models, AI PCs, local inference boxes, vertical agent appliances, AI glasses, and domestic wearable ecosystems.",
+            "interactionFlow": "At the user level, the entry point is no longer only a phone app. AI may run locally on a PC, handle business work on an industry appliance, listen or translate through glasses, or answer through office equipment with lower latency. The interaction pattern becomes device-first sensing, partial local inference, and cloud escalation only when useful.",
+            "specsOrStack": "36Kr discusses Apple's AFM3 on-device direction, local compute, AI PCs, RTX Spark, large models running locally, and several categories of industry players. The SSPAI long-term review discusses Qianwen G1's domestic ecosystem fit, voice interaction, capture, and response experience. Specific chips, models, weight, battery, and prices must be cited product by product; otherwise they are source not stated.",
+            "useCases": "Industry use cases include local knowledge bases, meeting devices, edge terminals, AI PCs, education or office appliances. Consumer use cases include glasses-based translation, capture, navigation, and voice Q&A. The point is not on-device AI for its own sake; it is lower latency, privacy, cost control, and weak-network resilience.",
+            "painPointsSolved": "Chinese hardware vendors are trying to address high cloud-token cost, privacy-sensitive data, network latency, generic models that do not fit vertical scenarios, and limited availability of some overseas AI services.",
+            "userVoice": "The SSPAI review provides a more grounded daily-use signal: domestic ecosystem fit and basic voice needs are valuable, but response length, practical usefulness, camera quality expectations, and feature necessity still require refinement. This is treated as a review signal, not a market-wide conclusion.",
+            "newTech": "The technology path is model compression and distillation, edge-cloud cooperation, chip and device co-design, multimodal sensing, and local execution. Productization requires pushing these capabilities into hardware systems that can be bought, maintained, and understood.",
+            "availability": "Many items are industry scans or single-product reviews. Device launch status, inventory, and regional availability vary widely and cannot be unified. Exact availability is source not stated unless a product source confirms it.",
+            "limitsOrUnknowns": "Industry articles often mix supply-chain direction, vendor claims, and investment logic. Without official product pages and hands-on testing, compute, shipment, or performance numbers should not be treated as confirmed facts.",
+            "productVerdict": "The China lane does not produce one new confirmed breakout product today, but it shows a clear direction: edge-AI competition is shifting from whether a model can run to whether a device scenario truly reduces latency, cost, and privacy risk. Product verification should stay concrete: confirm the entry point the user touches first, list the exact context the system reads, name the permission or account boundary that constrains the action, show where the result lands, and test the recovery path after a wrong generation, failed connector call, or mistaken delegated action. If any of those surfaces are missing from the cited source, the issue treats the gap as an unknown rather than filling it with market logic."
+          }
+        }
+      },
+      {
+        "id": "computer-use-agent-research",
+        "section": "research",
+        "zhHeadline": "Research watch：computer-use agents 的 UX 设计空间正在被系统化",
+        "enHeadline": "Research watch: the UX design space for computer-use agents is becoming systematic",
+        "zhFact": "arXiv 论文 Mapping the Design Space of UX for Computer Use Agents 通过现有系统分析、8 名 practitioner 访谈和 20 人 Wizard-of-Oz study 总结 computer-use agent 的 UX 考量。",
+        "enFact": "The arXiv paper Mapping the Design Space of UX for Computer Use Agents studies existing systems, interviews eight practitioners, and runs a 20-participant Wizard-of-Oz study to map UX considerations.",
+        "zhValue": "这条研究给今天所有 agent 产品一个硬约束：只会执行不够，用户还要能看懂执行路径、在关键点授权、在错误时恢复。",
+        "enValue": "The research sets a hard constraint for every agent product today: execution is not enough. Users must be able to understand the path, authorize critical steps, and recover from errors.",
+        "zhHciLens": [
+          "Input: user intent + context",
+          "System: identity / app data / device state",
+          "Feedback: visible action result",
+          "Control: permission, undo, scope"
+        ],
+        "enHciLens": [
+          "Input: user intent + context",
+          "System: identity / app data / device state",
+          "Feedback: visible action result",
+          "Control: permission, undo, scope"
+        ],
+        "zhImplication": "这条研究给今天所有 agent 产品一个硬约束：只会执行不够，用户还要能看懂执行路径、在关键点授权、在错误时恢复。",
+        "enImplication": "The research sets a hard constraint for every agent product today: execution is not enough. Users must be able to understand the path, authorize critical steps, and recover from errors.",
+        "sourceDate": "2026-02 / accessed 2026-06-26",
+        "evidenceLabel": "research signal",
+        "evidenceStrength": "research signal",
+        "visual": {
+          "path": "assets/computer-use-agent-research.svg",
+          "width": 1200,
+          "height": 760,
+          "altZh": "自绘证据图：Computer-use agent UX research map",
+          "altEn": "Self-drawn evidence diagram: Computer-use agent UX research map",
+          "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
+          "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
+          "sourceUrl": "https://arxiv.org/html/2602.07283v1"
+        },
+        "sources": [
+          {
+            "label": "Computer-use agents UX paper",
+            "url": "https://arxiv.org/html/2602.07283v1",
+            "type": "research"
+          },
+          {
+            "label": "In-browser agents for search assistance",
+            "url": "https://dl.acm.org/doi/10.1145/3786304.3787913",
+            "type": "research"
+          }
+        ],
+        "dossierKind": "scan",
+        "dossier": {
+          "zh": {
+            "productName": "Computer-use agent UX research scan",
+            "productType": "研究信号，不是产品发布。它把 LLM-based computer use agents 作为一个交互类别研究：agent 通过 UI 元素执行用户命令，用户需要理解它正在做什么、为什么做、何时接管。",
+            "interactionFlow": "研究对象中的典型流程是用户给出目标，agent 观察屏幕或 UI 层，规划动作，点击/输入/导航，再把结果反馈给用户。Wizard-of-Oz study 用模拟方式观察用户希望如何监督、纠正和信任这种 agent。",
+            "specsOrStack": "论文披露方法：Phase 1 review 9 个 2024/2025 发布的 computer-use agents，访谈 8 名 UX/AI practitioners；Phase 2 Wizard-of-Oz study 20 名参与者。具体商业产品性能、模型名称和可用性不由论文证明。",
+            "useCases": "适用于浏览器 agent、企业流程自动化、桌面助手、测试自动化、表单填写和跨应用任务。它对今天的 Comet、Copilot Cowork、Claude connectors 都是设计镜片，而不是直接产品证据。",
+            "painPointsSolved": "研究试图解决 product teams 缺少 agent UX 设计语言的问题：何时显示计划、怎样获得授权、如何表达不确定性、如何让用户纠错、怎样避免黑箱点击。",
+            "userVoice": "研究中的用户反馈来自受控参与者和 practitioner，而非公开消费者评论。它可用来指导设计假设，但不能证明市场需求。",
+            "newTech": "新技术是 computer-use agents 把自然语言目标转成 GUI 行为。HCI 新问题是传统直接操控被 agent 代操打断，系统必须设计观察、批准、纠正和回滚。",
+            "availability": "论文和预印本可访问；它不是商业产品。任何上市时间、价格、客户和地区都不适用。",
+            "limitsOrUnknowns": "研究样本有限，Wizard-of-Oz 不等于真实模型可靠性；结果应降级为 research signal，不应写成产品已解决。",
+            "productVerdict": "这条研究给今天所有 agent 产品一个硬约束：只会执行不够，用户还要能看懂执行路径、在关键点授权、在错误时恢复。"
+          },
+          "en": {
+            "productName": "Computer-use agent UX research scan",
+            "productType": "A research signal, not a product launch. It studies LLM-based computer-use agents as an interaction category: agents execute user commands by interacting with UI elements, while users need to understand what the agent is doing, why it is doing it, and when they should take over.",
+            "interactionFlow": "The typical flow is that a user states a goal, the agent observes the screen or UI layer, plans actions, clicks, types, navigates, and reports results. The Wizard-of-Oz study simulates agent behavior to observe how users want to supervise, correct, and trust these systems.",
+            "specsOrStack": "The paper states a two-phase method: Phase 1 reviews nine computer-use agents announced in 2024 and 2025, then refines themes through interviews with eight UX and AI practitioners. Phase 2 uses a Wizard-of-Oz study with 20 participants. The paper does not prove commercial product performance, model identity, or availability.",
+            "useCases": "The research is relevant to browser agents, enterprise workflow automation, desktop assistants, test automation, form filling, and cross-application tasks. It acts as a design lens for today's Comet, Copilot Cowork, and Claude connectors, not as direct evidence for any one product.",
+            "painPointsSolved": "The research addresses a gap for product teams: there is not yet a stable interaction vocabulary for agents that operate software. Designers need patterns for when to show plans, how to request authorization, how to express uncertainty, how users correct the agent, and how systems avoid opaque clicking.",
+            "userVoice": "User evidence comes from study participants and practitioners, not public consumer reviews. It is useful for design hypotheses and risk framing, but it does not establish market demand or product success.",
+            "newTech": "The new technical category is agents turning natural-language goals into GUI behavior. The HCI problem is that direct manipulation is being partially replaced by delegated manipulation, so systems need observation, approval, correction, and rollback surfaces.",
+            "availability": "The paper and preprint are accessible. It is not a commercial product. Launch date, price, customers, and regions do not apply.",
+            "limitsOrUnknowns": "The sample is limited, and Wizard-of-Oz behavior does not equal deployed model reliability. Findings should be downgraded as a research signal and never presented as proof that products have solved these issues.",
+            "productVerdict": "The research sets a hard constraint for every agent product today: execution is not enough. Users must be able to understand the path, authorize critical steps, and recover from errors. Product verification should stay concrete: confirm the entry point the user touches first, list the exact context the system reads, name the permission or account boundary that constrains the action, show where the result lands, and test the recovery path after a wrong generation, failed connector call, or mistaken delegated action. If any of those surfaces are missing from the cited source, the issue treats the gap as an unknown rather than filling it with market logic."
+          }
+        }
+      },
+      {
+        "id": "smartglasses-ai-control-patent",
+        "section": "patent",
+        "zhHeadline": "Patent watch：AI 控制移动任务的 smartglasses 专利显示“眼镜控制手机”的长期界面想象",
+        "enHeadline": "Patent watch: smartglasses patents imagine eyewear controlling mobile tasks with AI",
+        "zhFact": "Google Patents 条目描述 smartglasses、smartwatch、smartphone 之间的连接管理、控制面板和使用 AI 控制移动设备任务/应用显示信息的系统。",
+        "enFact": "A Google Patents entry describes smartglasses, smartwatch, and smartphone connection management, control panels, and AI-assisted control of mobile device tasks and application information.",
+        "zhValue": "这条专利 lane 的价值是提醒产品团队：智能眼镜的下一步可能不是独立替代手机，而是成为手机任务的 AI 控制层。但今天没有确认产品事实。",
+        "enValue": "The patent lane is useful because it shows a plausible next interface: smart glasses as an AI control layer for phone tasks rather than a standalone phone replacement. It contributes no confirmed product fact today.",
+        "zhHciLens": [
+          "Input: user intent + context",
+          "System: identity / app data / device state",
+          "Feedback: visible action result",
+          "Control: permission, undo, scope"
+        ],
+        "enHciLens": [
+          "Input: user intent + context",
+          "System: identity / app data / device state",
+          "Feedback: visible action result",
+          "Control: permission, undo, scope"
+        ],
+        "zhImplication": "这条专利 lane 的价值是提醒产品团队：智能眼镜的下一步可能不是独立替代手机，而是成为手机任务的 AI 控制层。但今天没有确认产品事实。",
+        "enImplication": "The patent lane is useful because it shows a plausible next interface: smart glasses as an AI control layer for phone tasks rather than a standalone phone replacement. It contributes no confirmed product fact today.",
+        "sourceDate": "patent accessed 2026-06-26",
+        "evidenceLabel": "patent signal",
+        "evidenceStrength": "patent signal",
+        "visual": {
+          "path": "assets/smartglasses-ai-control-patent.svg",
+          "width": 1200,
+          "height": 760,
+          "altZh": "自绘证据图：Smartglasses mobile-task control patent",
+          "altEn": "Self-drawn evidence diagram: Smartglasses mobile-task control patent",
+          "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
+          "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
+          "sourceUrl": "https://patents.google.com/patent/US10908419B2/en"
+        },
+        "sources": [
+          {
+            "label": "Google Patents smartglasses control",
+            "url": "https://patents.google.com/patent/US10908419B2/en",
+            "type": "patent"
+          },
+          {
+            "label": "WIPO Rokid Global Awards profile",
+            "url": "https://www.wipo.int/en/web/awards/global/2026",
+            "type": "industry"
+          }
+        ],
+        "dossierKind": "scan",
+        "dossier": {
+          "zh": {
+            "productName": "Smartglasses AI control patent signal",
+            "productType": "专利观察，不是确认产品。它描述眼镜、手机、手表等设备配对后，利用 AI 控制移动设备任务和应用信息展示，同时维持视觉清晰度的系统。",
+            "interactionFlow": "专利图示包括 smartglasses、smartwatch、smartphone、连接管理屏幕和控制面板。想象流程是用户通过眼镜或配对设备触发任务，系统在移动设备和眼镜之间管理输入/输出数据，把任务信息或 AR 信息呈现给用户。",
+            "specsOrStack": "专利文本涉及 smartglasses、smartwatch、smartphone、connection manager、control panel、AI control、mobile device tasks、applications、augmented reality information。它不等于当前产品规格；芯片、重量、电池、价格、上市日期全部 source not stated。",
+            "useCases": "可能对应未来的手机-眼镜协同：从眼镜查看手机任务、用 AI 选择显示哪些信息、在眼镜上接收应用状态、用手表/手机辅助输入。WIPO 对 Rokid 的行业资料显示轻量眼镜已进入博物馆、工业和消费场景，但这和专利不是同一事实链。",
+            "painPointsSolved": "核心问题是手机信息太多且拿取成本高，眼镜显示又容易遮挡视野。专利想象的解决方向是 AI 帮助选择和控制任务呈现，减少视觉负担。",
+            "userVoice": "专利没有用户原声。WIPO industry profile 也不是消费者评测。任何用户接受度、可用性和舒适度都不能从专利推断。",
+            "newTech": "信号点是 multi-device control：眼镜不是孤立显示器，而是与手机/手表共同组成一个 AI 控制面。AI 的角色可能是筛选、控制和适配信息展示。",
+            "availability": "无产品可用性。专利授权/公开不代表产品上市、路线图或公司承诺。",
+            "limitsOrUnknowns": "专利范围宽，可能是防御性或历史申请；不能证明 Google、Rokid 或任何厂商会按此实现。此项必须严格降级为 patent signal。",
+            "productVerdict": "这条专利 lane 的价值是提醒产品团队：智能眼镜的下一步可能不是独立替代手机，而是成为手机任务的 AI 控制层。但今天没有确认产品事实。"
+          },
+          "en": {
+            "productName": "Smartglasses AI control patent signal",
+            "productType": "A patent watch item, not a confirmed product. It describes systems in which smartglasses, smartphones, and smartwatches pair and use AI to control mobile device tasks and application information while preserving visual acuity.",
+            "interactionFlow": "The patent figures include smartglasses, smartwatch, smartphone, a connection manager screen, and a control panel. The imagined flow is that the user triggers a task through glasses or a paired device, while the system manages input and output data between mobile devices and glasses and presents task or augmented-reality information to the user.",
+            "specsOrStack": "The patent text covers smartglasses, smartwatch, smartphone, connection manager, control panel, AI control, mobile device tasks, applications, and augmented-reality information. It is not a current product spec. Chip, weight, battery, price, and launch date are all source not stated.",
+            "useCases": "The signal points toward future phone-glasses coordination: viewing phone tasks through glasses, using AI to decide what information appears, receiving app state through eyewear, and using a watch or phone for auxiliary input. WIPO's Rokid industry profile shows lightweight glasses in museum, industrial, and consumer settings, but that is a separate evidence chain from the patent.",
+            "painPointsSolved": "The underlying problem is that phone information is abundant and phone retrieval is costly, while eyewear displays can obstruct vision. The patent's direction is to use AI to select and control task presentation so the visual burden is lower.",
+            "userVoice": "Patents do not include user voice. The WIPO industry profile is not a consumer review. Adoption, usability, and comfort cannot be inferred from the patent.",
+            "newTech": "The signal is multi-device control. Glasses are not imagined as an isolated display; they become one part of an AI control surface with phone and watch. AI may filter, control, and adapt information presentation.",
+            "availability": "There is no product availability. A patent publication or grant does not equal a launch, roadmap, or company commitment.",
+            "limitsOrUnknowns": "The patent is broad and may be defensive or historical. It does not prove that Google, Rokid, or any vendor will implement the system. This item must remain explicitly downgraded as a patent signal.",
+            "productVerdict": "The patent lane is useful because it shows a plausible next interface: smart glasses as an AI control layer for phone tasks rather than a standalone phone replacement. It contributes no confirmed product fact today. Product verification should stay concrete: confirm the entry point the user touches first, list the exact context the system reads, name the permission or account boundary that constrains the action, show where the result lands, and test the recovery path after a wrong generation, failed connector call, or mistaken delegated action. If any of those surfaces are missing from the cited source, the issue treats the gap as an unknown rather than filling it with market logic."
+          }
+        }
+      }
+    ],
+    "watchlistZh": [
+      "Pixel Drop 后续：核查不同 Pixel 型号、地区和 Gemini Omni 功能是否一致。",
+      "ChatGPT memory：观察 Enterprise 默认开启后的管理员反馈、误记修正和 project-only memory 隔离表现。",
+      "Claude connectors：关注 remote MCP action approval、审计日志和撤销路径。",
+      "Copilot Cowork：跟踪 GA 后真实客户案例中 long-running task 的失败恢复。",
+      "AI 眼镜：继续等官方硬件规格、长期评测和社区隐私/续航反馈。"
+    ],
+    "watchlistEn": [
+      "Pixel Drop: verify feature availability by Pixel model, country, and Gemini Omni capability.",
+      "ChatGPT memory: watch admin feedback, correction flows, and project-only isolation after default rollout.",
+      "Claude connectors: track remote MCP action approval, audit logs, and revocation paths.",
+      "Copilot Cowork: look for real customer evidence around long-running task failure recovery.",
+      "AI glasses: wait for official hardware specs, long-term reviews, and community privacy or battery feedback."
+    ]
   }
 ]
