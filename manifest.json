@@ -1,5 +1,57 @@
 [
   {
+    "date": "2026-06-29",
+    "zhTitle": "AI 入口从聊天框分裂到眼镜、手机、记忆和长任务执行",
+    "enTitle": "AI entry points split across glasses, phones, memory, connectors, and long-running work",
+    "zhSummary": "今天最强的产品信号是 AI 入口正在分裂：手机系统继续吸收 Gemini 创作流，企业助手把记忆、连接器和长任务变成可治理界面，智能眼镜与 agent browser 提供硬件和野生入口的对照。",
+    "enSummary": "Today's strongest product signal is entry-point fragmentation: phone systems absorb Gemini creation flows, enterprise assistants turn memory, connectors, and long-running work into governed interfaces, and smart glasses plus agent browsers provide the hardware and wild-entry contrast.",
+    "tags": [
+      "HCI",
+      "AI software products",
+      "AI hardware",
+      "agentic devices",
+      "on-device AI",
+      "enterprise agents",
+      "smart glasses"
+    ],
+    "sourceTypes": [
+      "official",
+      "developer docs",
+      "reviews",
+      "community",
+      "wild",
+      "research",
+      "patent",
+      "china",
+      "global"
+    ],
+    "coverStory": {
+      "topicId": "pixel-drop-gemini-creator-flow",
+      "zhTitle": "Pixel Drop：Gemini 从聊天入口下沉到录屏、音乐和手机创作流",
+      "enTitle": "Pixel Drop: Gemini moves from chat into screen recording, music, and phone creation flows",
+      "zhSummary": [
+        "Google 把 Gemini 创作入口塞进 Pixel 的录屏、音乐、照片和通话流程。",
+        "OpenAI、Anthropic、Microsoft 正把长期上下文、外部工具和长任务做成可控产品面。",
+        "今天的核心 HCI 问题是边界：AI 何时读取上下文、何时执行动作、用户如何撤销。"
+      ],
+      "enSummary": [
+        "Google is putting Gemini creation into Pixel screen recording, music, photos, and calls.",
+        "OpenAI, Anthropic, and Microsoft are turning long-term context, external tools, and long tasks into controlled product surfaces.",
+        "The HCI question is boundary: when AI reads context, when it acts, and how users undo it."
+      ],
+      "imagePath": "assets/pixel-drop-gemini-creator-flow.svg",
+      "imageWidth": 1200,
+      "imageHeight": 760,
+      "imageSourceUrl": "https://blog.google/products-and-platforms/devices/pixel/june-2026-pixel-drop/",
+      "primarySourceUrl": "https://blog.google/products-and-platforms/devices/pixel/june-2026-pixel-drop/",
+      "evidenceStrength": "confirmed product",
+      "whyCover": "Pixel Drop shows AI moving into everyday phone workflows, which is the clearest interface shift in today's sweep."
+    },
+    "zhPath": "/ai-daily/2026-06-29/zh/",
+    "enPath": "/ai-daily/2026-06-29/en/",
+    "sourcesPath": "/ai-daily/2026-06-29/sources.md"
+  },
+  {
     "date": "2026-06-28",
     "zhTitle": "AI 正在离开聊天框，进入手机、记忆、连接器和长任务执行",
     "enTitle": "AI leaves the chat box for phones, memory, connectors, and long-running work",
