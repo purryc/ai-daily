@@ -1,0 +1,638 @@
+{
+  "date": "2026-07-01",
+  "timezone": "America/Toronto",
+  "zhTitle": "桌面 Agent、科研 Workbench 与 AI 眼镜的边界测试",
+  "enTitle": "Desktop agents, science workbenches, and AI glasses test delegated work boundaries",
+  "zhSummary": "今天最强信号是 AI 代办进入真实系统：Gemini Spark 进入 Mac 文件和 connected apps，Claude Science 把科研流程变成可审计 workbench，Meta 眼镜暴露硬件功能订阅摩擦，NVIDIA XR AI 把 agent 推向 AR/XR 工作现场。",
+  "enSummary": "Today’s strongest signal is delegated work entering real systems: Gemini Spark moves into Mac files and connected apps, Claude Science turns scientific workflows into an auditable workbench, Meta glasses expose hardware subscription friction, and NVIDIA XR AI pushes agents into AR/XR work sites.",
+  "tags": [
+    "HCI",
+    "AI software products",
+    "AI hardware",
+    "agentic devices",
+    "on-device AI",
+    "smart glasses"
+  ],
+  "sourceTypes": [
+    "official",
+    "reviews",
+    "community",
+    "wild",
+    "research",
+    "patent",
+    "china",
+    "global"
+  ],
+  "coverStory": {
+    "topicId": "google-gemini-spark-mac",
+    "zhTitle": "Gemini Spark for macOS：边界比能力更重要",
+    "enTitle": "Gemini Spark for macOS: boundary matters more than raw capability",
+    "zhSummary": [
+      "Gemini Spark 进入 Mac、本地文件、Workspace 和第三方 connected apps。",
+      "Claude Science 与 NVIDIA XR AI 显示 agent 正走向垂直工作台与空间现场。",
+      "Meta 眼镜提醒：硬件 AI 的订阅边界同样是产品体验。"
+    ],
+    "enSummary": [
+      "Gemini Spark enters the Mac, local files, Workspace, and third-party connected apps.",
+      "Claude Science and NVIDIA XR AI show agents moving into vertical workbenches and spatial work sites.",
+      "Meta glasses show that hardware AI subscription boundaries are product experience too."
+    ],
+    "imagePath": "assets/google-gemini-spark-mac.svg",
+    "imageWidth": 1200,
+    "imageHeight": 760,
+    "imageSourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-june-2026/",
+    "primarySourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-june-2026/",
+    "evidenceStrength": "confirmed product",
+    "whyCover": "It is the clearest interface shift today: a consumer AI agent crossing from chat into desktop files, apps, and remote execution."
+  },
+  "topics": [
+    {
+      "id": "google-gemini-spark-mac",
+      "section": "official",
+      "zhHeadline": "Gemini Spark for macOS：边界比能力更重要",
+      "enHeadline": "Gemini Spark for macOS: boundary matters more than raw capability",
+      "visual": {
+        "path": "assets/google-gemini-spark-mac.svg",
+        "width": 1200,
+        "height": 760,
+        "altZh": "自绘证据图：Gemini Spark for macOS",
+        "altEn": "Self-drawn evidence diagram: Gemini Spark for macOS",
+        "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
+        "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
+        "sourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-june-2026/"
+      },
+      "sources": [
+        {
+          "label": "Google Gemini Spark update",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-june-2026/",
+          "type": "official"
+        },
+        {
+          "label": "Gemini macOS app",
+          "url": "https://gemini.google/mac",
+          "type": "official"
+        }
+      ],
+      "evidenceLabel": "confirmed product",
+      "evidenceStrength": "confirmed product",
+      "dossierKind": "product",
+      "dossier": {
+        "zh": {
+          "productName": "Gemini Spark for macOS",
+          "productType": "Gemini Spark for macOS 是本期按「confirmed product」处理的具体产品或信号面，产品类型是 桌面 agent / connected-app assistant。本期只记录来源支持的事实，不把模型能力、产业愿景或社区热度包装成已上市功能；规格、价格、地区、传感器、电池、芯片、OS/API 版本、用户 quote 若来源没有说明，一律写为 source not stated。",
+          "interactionFlow": "交互流程：用户可让 Spark 整理 Mac Downloads 里的 PDF、用本地 invoice 建预算表、从手机远程让 Mac 找销售报告并邮件回传，还可接入 Keep、Tasks、Canva、Dropbox、Instacart、OpenTable、Zillow Rentals 与 custom MCP。 这说明用户第一触点正在从独立聊天框移到桌面、科研环境、眼镜、键盘、浏览器或多设备控制面。UX 核心是用户是否知道系统正在读取什么、准备做什么、做到哪一步、何时需要确认，以及错误后能否回退。",
+          "specsOrStack": "硬件/API/系统栈：Gemini macOS app、Google Workspace、本地文件权限、connected apps、custom MCP、real-time topic tracking。 本期不补写未披露参数；真正需要比较的是 stack 是否把模型、权限、文件/传感/数据库、外部工具和结果 UI 接成可检查闭环。若来源只写 beta、public beta、connected app、subscription 或 patent，本期也只按该强度处理。",
+          "useCases": "具体用例围绕跨上下文代办：文件整理、预算表、科研文献和代码、眼镜翻译/拍摄/导航、AR 工厂/实验室/手术辅助、移动键盘命令、浏览器/桌面 agent、手机-眼镜任务控制和中国本地生活服务。高风险场景必须有确认、审计和撤销。",
+          "painPointsSolved": "解决痛点是减少用户在文件、网页、科学数据库、HPC、手机、眼镜、企业 app、第三方服务和本地生活生态之间搬运上下文的成本。系统承担复杂性，但不能隐藏边界；否则代办能力越强，用户越难信任。",
+          "userVoice": "评测/社区/用户信号按来源降级读取。The Verge 和 TechCrunch 用来识别摩擦与 workflow 价值，Product Hunt 只代表早期 launch 兴趣，论文参与者不是消费者市场，中文媒体提供中国生态观察。没有直接用户 quote 的项目写 source not stated。",
+          "newTech": "新技术在于 agentic execution、connected apps、custom MCP、auditable artifacts、reviewer agent、AR/XR multimodal sensing、on-device feature monetization、camera-free display、keyboard-as-entry、computer-use UX、smartglasses patent control 和 Qwen glasses ecosystem。",
+          "availability": "可用性按来源记录；英文可用性摘要：Beta for Google AI Ultra subscribers aged 18+ starting in the US; connected apps roll out first on web/mobile and later on macOS. 未披露地区、库存、长期支持、生产客户、下载范围、许可和企业默认策略均 source not stated。",
+          "limitsOrUnknowns": "限制/未知包括端侧/云端比例、隐私保留期、文件权限 UI、远程任务失败恢复、审计日志、撤销路径、长期佩戴舒适度、订阅边界是否扩大、研究样本外推、专利是否产品化和中国生态的海外适配。",
+          "productVerdict": "产品判断：Gemini Spark for macOS 的价值不在“又有 AI”，而在是否把用户目标转成可控行动。下一步要验证入口、权限、上下文、执行、反馈、停止和恢复七个触点。缺一个，产品就会从 assistant 退化成黑箱自动化。"
+        },
+        "en": {
+          "productName": "Gemini Spark for macOS",
+          "productType": "Gemini Spark for macOS is treated as a concrete confirmed product item. Its product type is desktop agent and connected-app assistant. The dossier records source-backed facts only. It does not turn model capability, platform ambition, or launch-page excitement into shipped functionality. If a source does not state a specification, price, region, sensor, battery number, chipset, OS or API version, availability detail, or user quote, the issue marks it source not stated rather than inferring it.",
+          "interactionFlow": "Interaction flow: A user can ask Spark to sort PDFs in Mac Downloads, create a budget spreadsheet from local invoices, remotely make the Mac find a sales report and email a revenue number back, and connect Keep, Tasks, Canva, Dropbox, Instacart, OpenTable, Zillow Rentals, and custom MCP. This shows the first user touchpoint moving away from a separate chat box and into the desktop, scientific workspace, eyewear, keyboard, browser, or multi-device control surface. The UX question is whether the user can tell what the system is reading, what it plans to do, where the task stands, when confirmation is required, and how to recover after an error.",
+          "specsOrStack": "Hardware, API, and system stack: Gemini macOS app, Google Workspace, local file permission, connected apps, custom MCP, and real-time topic tracking. The issue does not add unstated parameters. The useful comparison is whether the stack connects model capability, permission boundaries, files, sensors, databases, external tools, and result UI into an inspectable loop. If the cited source says beta, public beta, connected app, subscription, research, or patent, the item stays at that evidence level.",
+          "useCases": "The concrete use cases cluster around delegated work across context: file sorting, budget spreadsheets, scientific literature and code, glasses-based translation and capture, AR factory/lab/surgery assistance, mobile keyboard commands, browser or desktop agents, phone-glasses task control, and China local-service flows. High-trust scenarios require confirmation, audit, and undo.",
+          "painPointsSolved": "The pain point is the cost of moving context between files, web pages, scientific databases, HPC systems, phones, glasses, enterprise apps, third-party services, and local-service ecosystems. The system should absorb complexity, but it cannot hide the boundary. The stronger the delegation, the more visible the control layer must become.",
+          "userVoice": "Review, community, and user evidence is downgraded according to source type. The Verge and TechCrunch identify friction and workflow value; Product Hunt shows early launch interest only; study participants are not consumer-market proof; Chinese media provides China-ecosystem context. Projects without direct quotes are marked source not stated for user voice.",
+          "newTech": "The technology signal includes agentic execution, connected apps, custom MCP, auditable artifacts, reviewer agents, AR/XR multimodal sensing, on-device feature monetization, camera-free displays, keyboard-as-entry, computer-use UX research, smartglasses patent control, and Qwen glasses ecosystem integration.",
+          "availability": "Availability: Beta for Google AI Ultra subscribers aged 18+ starting in the US; connected apps roll out first on web/mobile and later on macOS. Unsupported region lists, inventory, support commitments, production customers, download scope, licensing, and enterprise default settings remain source not stated.",
+          "limitsOrUnknowns": "Limits and unknowns include on-device versus cloud execution, privacy retention, file-permission UI, remote-task failure recovery, audit logs, undo, long-term wearability, whether subscription boundaries expand, whether research samples generalize, whether patents ship, and whether China-local ecosystems translate overseas.",
+          "productVerdict": "Product read: Gemini Spark for macOS matters only if it turns user goals into controllable action. The next verification is seven touchpoints: entry point, permission, context, execution, feedback, stop, and recovery. If one is missing, the product slides from assistant into opaque automation."
+        }
+      }
+    },
+    {
+      "id": "anthropic-claude-science-workbench",
+      "section": "official",
+      "zhHeadline": "Claude Science：边界比能力更重要",
+      "enHeadline": "Claude Science: boundary matters more than raw capability",
+      "visual": {
+        "path": "assets/anthropic-claude-science-workbench.svg",
+        "width": 1200,
+        "height": 760,
+        "altZh": "自绘证据图：Claude Science",
+        "altEn": "Self-drawn evidence diagram: Claude Science",
+        "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
+        "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
+        "sourceUrl": "https://www.anthropic.com/news/claude-science-ai-workbench"
+      },
+      "sources": [
+        {
+          "label": "Anthropic Claude Science",
+          "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
+          "type": "official"
+        },
+        {
+          "label": "TechCrunch Claude Science",
+          "url": "https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/",
+          "type": "reviews"
+        }
+      ],
+      "evidenceLabel": "confirmed product",
+      "evidenceStrength": "confirmed product",
+      "dossierKind": "product",
+      "dossier": {
+        "zh": {
+          "productName": "Claude Science",
+          "productType": "Claude Science 是本期按「confirmed product」处理的具体产品或信号面，产品类型是 科学家 AI workbench。本期只记录来源支持的事实，不把模型能力、产业愿景或社区热度包装成已上市功能；规格、价格、地区、传感器、电池、芯片、OS/API 版本、用户 quote 若来源没有说明，一律写为 source not stated。",
+          "interactionFlow": "交互流程：研究者在 macOS/Linux、本地机器、SSH 或 HPC login node 上工作；generalist coordinating agent 调用 60+ skills/connectors，生成蛋白结构、genome tracks、chemical structures、代码和 manuscript，并由 reviewer agent 检查 citation、calculation 和 figure-code 一致性。 这说明用户第一触点正在从独立聊天框移到桌面、科研环境、眼镜、键盘、浏览器或多设备控制面。UX 核心是用户是否知道系统正在读取什么、准备做什么、做到哪一步、何时需要确认，以及错误后能否回退。",
+          "specsOrStack": "硬件/API/系统栈：Claude Pro/Max/Team/Enterprise beta、macOS/Linux、本地/HPC/Modal compute、NVIDIA BioNeMo Agent Toolkit、UniProt/PDB/Ensembl/Reactome/ClinVar/ChEMBL/GEO。 本期不补写未披露参数；真正需要比较的是 stack 是否把模型、权限、文件/传感/数据库、外部工具和结果 UI 接成可检查闭环。若来源只写 beta、public beta、connected app、subscription 或 patent，本期也只按该强度处理。",
+          "useCases": "具体用例围绕跨上下文代办：文件整理、预算表、科研文献和代码、眼镜翻译/拍摄/导航、AR 工厂/实验室/手术辅助、移动键盘命令、浏览器/桌面 agent、手机-眼镜任务控制和中国本地生活服务。高风险场景必须有确认、审计和撤销。",
+          "painPointsSolved": "解决痛点是减少用户在文件、网页、科学数据库、HPC、手机、眼镜、企业 app、第三方服务和本地生活生态之间搬运上下文的成本。系统承担复杂性，但不能隐藏边界；否则代办能力越强，用户越难信任。",
+          "userVoice": "评测/社区/用户信号按来源降级读取。The Verge 和 TechCrunch 用来识别摩擦与 workflow 价值，Product Hunt 只代表早期 launch 兴趣，论文参与者不是消费者市场，中文媒体提供中国生态观察。没有直接用户 quote 的项目写 source not stated。",
+          "newTech": "新技术在于 agentic execution、connected apps、custom MCP、auditable artifacts、reviewer agent、AR/XR multimodal sensing、on-device feature monetization、camera-free display、keyboard-as-entry、computer-use UX、smartglasses patent control 和 Qwen glasses ecosystem。",
+          "availability": "可用性按来源记录；英文可用性摘要：Beta for Pro, Max, Team, and Enterprise; Team and Enterprise need admin enablement; project applications open until July 15, 2026. 未披露地区、库存、长期支持、生产客户、下载范围、许可和企业默认策略均 source not stated。",
+          "limitsOrUnknowns": "限制/未知包括端侧/云端比例、隐私保留期、文件权限 UI、远程任务失败恢复、审计日志、撤销路径、长期佩戴舒适度、订阅边界是否扩大、研究样本外推、专利是否产品化和中国生态的海外适配。",
+          "productVerdict": "产品判断：Claude Science 的价值不在“又有 AI”，而在是否把用户目标转成可控行动。下一步要验证入口、权限、上下文、执行、反馈、停止和恢复七个触点。缺一个，产品就会从 assistant 退化成黑箱自动化。"
+        },
+        "en": {
+          "productName": "Claude Science",
+          "productType": "Claude Science is treated as a concrete confirmed product item. Its product type is AI workbench for scientists. The dossier records source-backed facts only. It does not turn model capability, platform ambition, or launch-page excitement into shipped functionality. If a source does not state a specification, price, region, sensor, battery number, chipset, OS or API version, availability detail, or user quote, the issue marks it source not stated rather than inferring it.",
+          "interactionFlow": "Interaction flow: A researcher works on macOS or Linux locally, over SSH, or on an HPC login node; a coordinating agent uses more than 60 skills and connectors, creates protein structures, genome tracks, chemical structures, code, and manuscripts, and a reviewer agent checks citations, calculations, and figure-code consistency. This shows the first user touchpoint moving away from a separate chat box and into the desktop, scientific workspace, eyewear, keyboard, browser, or multi-device control surface. The UX question is whether the user can tell what the system is reading, what it plans to do, where the task stands, when confirmation is required, and how to recover after an error.",
+          "specsOrStack": "Hardware, API, and system stack: Claude Pro, Max, Team, and Enterprise beta; macOS/Linux; local/HPC/Modal compute; NVIDIA BioNeMo Agent Toolkit; UniProt, PDB, Ensembl, Reactome, ClinVar, ChEMBL, and GEO. The issue does not add unstated parameters. The useful comparison is whether the stack connects model capability, permission boundaries, files, sensors, databases, external tools, and result UI into an inspectable loop. If the cited source says beta, public beta, connected app, subscription, research, or patent, the item stays at that evidence level.",
+          "useCases": "The concrete use cases cluster around delegated work across context: file sorting, budget spreadsheets, scientific literature and code, glasses-based translation and capture, AR factory/lab/surgery assistance, mobile keyboard commands, browser or desktop agents, phone-glasses task control, and China local-service flows. High-trust scenarios require confirmation, audit, and undo.",
+          "painPointsSolved": "The pain point is the cost of moving context between files, web pages, scientific databases, HPC systems, phones, glasses, enterprise apps, third-party services, and local-service ecosystems. The system should absorb complexity, but it cannot hide the boundary. The stronger the delegation, the more visible the control layer must become.",
+          "userVoice": "Review, community, and user evidence is downgraded according to source type. The Verge and TechCrunch identify friction and workflow value; Product Hunt shows early launch interest only; study participants are not consumer-market proof; Chinese media provides China-ecosystem context. Projects without direct quotes are marked source not stated for user voice.",
+          "newTech": "The technology signal includes agentic execution, connected apps, custom MCP, auditable artifacts, reviewer agents, AR/XR multimodal sensing, on-device feature monetization, camera-free displays, keyboard-as-entry, computer-use UX research, smartglasses patent control, and Qwen glasses ecosystem integration.",
+          "availability": "Availability: Beta for Pro, Max, Team, and Enterprise; Team and Enterprise need admin enablement; project applications open until July 15, 2026. Unsupported region lists, inventory, support commitments, production customers, download scope, licensing, and enterprise default settings remain source not stated.",
+          "limitsOrUnknowns": "Limits and unknowns include on-device versus cloud execution, privacy retention, file-permission UI, remote-task failure recovery, audit logs, undo, long-term wearability, whether subscription boundaries expand, whether research samples generalize, whether patents ship, and whether China-local ecosystems translate overseas.",
+          "productVerdict": "Product read: Claude Science matters only if it turns user goals into controllable action. The next verification is seven touchpoints: entry point, permission, context, execution, feedback, stop, and recovery. If one is missing, the product slides from assistant into opaque automation."
+        }
+      }
+    },
+    {
+      "id": "meta-glasses-rate-limit-friction",
+      "section": "community",
+      "zhHeadline": "Meta Glasses / Conversation Focus：边界比能力更重要",
+      "enHeadline": "Meta Glasses / Conversation Focus: boundary matters more than raw capability",
+      "visual": {
+        "path": "assets/meta-glasses-rate-limit-friction.svg",
+        "width": 1200,
+        "height": 760,
+        "altZh": "自绘证据图：Meta Glasses / Conversation Focus",
+        "altEn": "Self-drawn evidence diagram: Meta Glasses / Conversation Focus",
+        "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
+        "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
+        "sourceUrl": "https://about.fb.com/news/2026/06/meta-essilorluxottica-partner-launch-meta-glasses/"
+      },
+      "sources": [
+        {
+          "label": "Meta Glasses official",
+          "url": "https://about.fb.com/news/2026/06/meta-essilorluxottica-partner-launch-meta-glasses/",
+          "type": "official"
+        },
+        {
+          "label": "The Verge Meta rate limits",
+          "url": "https://www.theverge.com/gadgets/959899/meta-ai-glasses-paywall-rate-limit",
+          "type": "reviews"
+        }
+      ],
+      "evidenceLabel": "review/community friction",
+      "evidenceStrength": "review/community friction",
+      "dossierKind": "scan",
+      "dossier": {
+        "zh": {
+          "productName": "Meta Glasses / Conversation Focus",
+          "productType": "Meta Glasses / Conversation Focus 是本期按「review/community friction」处理的具体产品或信号面，产品类型是 AI 眼镜硬件与订阅摩擦。本期只记录来源支持的事实，不把模型能力、产业愿景或社区热度包装成已上市功能；规格、价格、地区、传感器、电池、芯片、OS/API 版本、用户 quote 若来源没有说明，一律写为 source not stated。",
+          "interactionFlow": "交互流程：用户佩戴 Meta Glasses，通过 action button 调用 Meta AI、拍摄、开放式音频、翻译和导航；The Verge 报道 Conversation Focus 将有免费月度时长限制，Premium 订阅提供更高时长。 这说明用户第一触点正在从独立聊天框移到桌面、科研环境、眼镜、键盘、浏览器或多设备控制面。UX 核心是用户是否知道系统正在读取什么、准备做什么、做到哪一步、何时需要确认，以及错误后能否回退。",
+          "specsOrStack": "硬件/API/系统栈：Meta Glasses、Muse Spark、26 styles、prescription lenses、open-ear speakers、multi-mic array、over 8 hours battery、40 hours charging case；Conversation Focus 使用 beamforming/spatial processing。 本期不补写未披露参数；真正需要比较的是 stack 是否把模型、权限、文件/传感/数据库、外部工具和结果 UI 接成可检查闭环。若来源只写 beta、public beta、connected app、subscription 或 patent，本期也只按该强度处理。",
+          "useCases": "具体用例围绕跨上下文代办：文件整理、预算表、科研文献和代码、眼镜翻译/拍摄/导航、AR 工厂/实验室/手术辅助、移动键盘命令、浏览器/桌面 agent、手机-眼镜任务控制和中国本地生活服务。高风险场景必须有确认、审计和撤销。",
+          "painPointsSolved": "解决痛点是减少用户在文件、网页、科学数据库、HPC、手机、眼镜、企业 app、第三方服务和本地生活生态之间搬运上下文的成本。系统承担复杂性，但不能隐藏边界；否则代办能力越强，用户越难信任。",
+          "userVoice": "评测/社区/用户信号按来源降级读取。The Verge 和 TechCrunch 用来识别摩擦与 workflow 价值，Product Hunt 只代表早期 launch 兴趣，论文参与者不是消费者市场，中文媒体提供中国生态观察。没有直接用户 quote 的项目写 source not stated。",
+          "newTech": "新技术在于 agentic execution、connected apps、custom MCP、auditable artifacts、reviewer agent、AR/XR multimodal sensing、on-device feature monetization、camera-free display、keyboard-as-entry、computer-use UX、smartglasses patent control 和 Qwen glasses ecosystem。",
+          "availability": "可用性按来源记录；英文可用性摘要：Meta Glasses are available in several countries from Meta.com and retailers; complete country table and stock are source not stated. 未披露地区、库存、长期支持、生产客户、下载范围、许可和企业默认策略均 source not stated。",
+          "limitsOrUnknowns": "限制/未知包括端侧/云端比例、隐私保留期、文件权限 UI、远程任务失败恢复、审计日志、撤销路径、长期佩戴舒适度、订阅边界是否扩大、研究样本外推、专利是否产品化和中国生态的海外适配。",
+          "productVerdict": "产品判断：Meta Glasses / Conversation Focus 的价值不在“又有 AI”，而在是否把用户目标转成可控行动。下一步要验证入口、权限、上下文、执行、反馈、停止和恢复七个触点。缺一个，产品就会从 assistant 退化成黑箱自动化。"
+        },
+        "en": {
+          "productName": "Meta Glasses / Conversation Focus",
+          "productType": "Meta Glasses / Conversation Focus is treated as a concrete review/community friction item. Its product type is AI-glasses hardware and subscription-friction signal. The dossier records source-backed facts only. It does not turn model capability, platform ambition, or launch-page excitement into shipped functionality. If a source does not state a specification, price, region, sensor, battery number, chipset, OS or API version, availability detail, or user quote, the issue marks it source not stated rather than inferring it.",
+          "interactionFlow": "Interaction flow: A wearer uses Meta Glasses through an action button for Meta AI, capture, open-ear audio, translation, and navigation; The Verge reports monthly free-hour limits for Conversation Focus with higher access through Premium subscription. This shows the first user touchpoint moving away from a separate chat box and into the desktop, scientific workspace, eyewear, keyboard, browser, or multi-device control surface. The UX question is whether the user can tell what the system is reading, what it plans to do, where the task stands, when confirmation is required, and how to recover after an error.",
+          "specsOrStack": "Hardware, API, and system stack: Meta Glasses, Muse Spark, 26 styles, prescription lenses, open-ear speakers, multi-mic array, over 8 hours battery, 40 hours charging case; Conversation Focus uses beamforming and spatial processing. The issue does not add unstated parameters. The useful comparison is whether the stack connects model capability, permission boundaries, files, sensors, databases, external tools, and result UI into an inspectable loop. If the cited source says beta, public beta, connected app, subscription, research, or patent, the item stays at that evidence level.",
+          "useCases": "The concrete use cases cluster around delegated work across context: file sorting, budget spreadsheets, scientific literature and code, glasses-based translation and capture, AR factory/lab/surgery assistance, mobile keyboard commands, browser or desktop agents, phone-glasses task control, and China local-service flows. High-trust scenarios require confirmation, audit, and undo.",
+          "painPointsSolved": "The pain point is the cost of moving context between files, web pages, scientific databases, HPC systems, phones, glasses, enterprise apps, third-party services, and local-service ecosystems. The system should absorb complexity, but it cannot hide the boundary. The stronger the delegation, the more visible the control layer must become.",
+          "userVoice": "Review, community, and user evidence is downgraded according to source type. The Verge and TechCrunch identify friction and workflow value; Product Hunt shows early launch interest only; study participants are not consumer-market proof; Chinese media provides China-ecosystem context. Projects without direct quotes are marked source not stated for user voice.",
+          "newTech": "The technology signal includes agentic execution, connected apps, custom MCP, auditable artifacts, reviewer agents, AR/XR multimodal sensing, on-device feature monetization, camera-free displays, keyboard-as-entry, computer-use UX research, smartglasses patent control, and Qwen glasses ecosystem integration.",
+          "availability": "Availability: Meta Glasses are available in several countries from Meta.com and retailers; complete country table and stock are source not stated. Unsupported region lists, inventory, support commitments, production customers, download scope, licensing, and enterprise default settings remain source not stated.",
+          "limitsOrUnknowns": "Limits and unknowns include on-device versus cloud execution, privacy retention, file-permission UI, remote-task failure recovery, audit logs, undo, long-term wearability, whether subscription boundaries expand, whether research samples generalize, whether patents ship, and whether China-local ecosystems translate overseas.",
+          "productVerdict": "Product read: Meta Glasses / Conversation Focus matters only if it turns user goals into controllable action. The next verification is seven touchpoints: entry point, permission, context, execution, feedback, stop, and recovery. If one is missing, the product slides from assistant into opaque automation."
+        }
+      }
+    },
+    {
+      "id": "nvidia-xr-ai-developer-surface",
+      "section": "global",
+      "zhHeadline": "NVIDIA XR AI：边界比能力更重要",
+      "enHeadline": "NVIDIA XR AI: boundary matters more than raw capability",
+      "visual": {
+        "path": "assets/nvidia-xr-ai-developer-surface.svg",
+        "width": 1200,
+        "height": 760,
+        "altZh": "自绘证据图：NVIDIA XR AI",
+        "altEn": "Self-drawn evidence diagram: NVIDIA XR AI",
+        "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
+        "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
+        "sourceUrl": "https://blogs.nvidia.com/blog/nvidia-xr-ai/"
+      },
+      "sources": [
+        {
+          "label": "NVIDIA XR AI blog",
+          "url": "https://blogs.nvidia.com/blog/nvidia-xr-ai/",
+          "type": "official"
+        },
+        {
+          "label": "NVIDIA developer resources",
+          "url": "https://blogs.nvidia.com/blog/nvidia-xr-ai/",
+          "type": "developer docs"
+        }
+      ],
+      "evidenceLabel": "developer surface",
+      "evidenceStrength": "developer surface",
+      "dossierKind": "product",
+      "dossier": {
+        "zh": {
+          "productName": "NVIDIA XR AI",
+          "productType": "NVIDIA XR AI 是本期按「developer surface」处理的具体产品或信号面，产品类型是 AR/XR multimodal agent developer library。本期只记录来源支持的事实，不把模型能力、产业愿景或社区热度包装成已上市功能；规格、价格、地区、传感器、电池、芯片、OS/API 版本、用户 quote 若来源没有说明，一律写为 source not stated。",
+          "interactionFlow": "交互流程：开发者把 AR/XR 设备的视频、音频、深度、pose 和 sensor data 接入 agent，再连接企业知识、工具、NVIDIA Metropolis/VSS、NeMo Retriever、Nemotron/Cosmos Reason、NeMo Agent Toolkit 和 DGX/RTX runtime。 这说明用户第一触点正在从独立聊天框移到桌面、科研环境、眼镜、键盘、浏览器或多设备控制面。UX 核心是用户是否知道系统正在读取什么、准备做什么、做到哪一步、何时需要确认，以及错误后能否回退。",
+          "specsOrStack": "硬件/API/系统栈：NVIDIA XR AI、Metropolis、Metropolis VSS、NeMo Retriever、Nemotron、Cosmos Reason、NeMo Agent Toolkit、DGX Spark、DGX Station、RTX PRO systems。 本期不补写未披露参数；真正需要比较的是 stack 是否把模型、权限、文件/传感/数据库、外部工具和结果 UI 接成可检查闭环。若来源只写 beta、public beta、connected app、subscription 或 patent，本期也只按该强度处理。",
+          "useCases": "具体用例围绕跨上下文代办：文件整理、预算表、科研文献和代码、眼镜翻译/拍摄/导航、AR 工厂/实验室/手术辅助、移动键盘命令、浏览器/桌面 agent、手机-眼镜任务控制和中国本地生活服务。高风险场景必须有确认、审计和撤销。",
+          "painPointsSolved": "解决痛点是减少用户在文件、网页、科学数据库、HPC、手机、眼镜、企业 app、第三方服务和本地生活生态之间搬运上下文的成本。系统承担复杂性，但不能隐藏边界；否则代办能力越强，用户越难信任。",
+          "userVoice": "评测/社区/用户信号按来源降级读取。The Verge 和 TechCrunch 用来识别摩擦与 workflow 价值，Product Hunt 只代表早期 launch 兴趣，论文参与者不是消费者市场，中文媒体提供中国生态观察。没有直接用户 quote 的项目写 source not stated。",
+          "newTech": "新技术在于 agentic execution、connected apps、custom MCP、auditable artifacts、reviewer agent、AR/XR multimodal sensing、on-device feature monetization、camera-free display、keyboard-as-entry、computer-use UX、smartglasses patent control 和 Qwen glasses ecosystem。",
+          "availability": "可用性按来源记录；英文可用性摘要：Public beta; developer resources are available; production licensing, certification, and customer deployment details are source not stated. 未披露地区、库存、长期支持、生产客户、下载范围、许可和企业默认策略均 source not stated。",
+          "limitsOrUnknowns": "限制/未知包括端侧/云端比例、隐私保留期、文件权限 UI、远程任务失败恢复、审计日志、撤销路径、长期佩戴舒适度、订阅边界是否扩大、研究样本外推、专利是否产品化和中国生态的海外适配。",
+          "productVerdict": "产品判断：NVIDIA XR AI 的价值不在“又有 AI”，而在是否把用户目标转成可控行动。下一步要验证入口、权限、上下文、执行、反馈、停止和恢复七个触点。缺一个，产品就会从 assistant 退化成黑箱自动化。"
+        },
+        "en": {
+          "productName": "NVIDIA XR AI",
+          "productType": "NVIDIA XR AI is treated as a concrete developer surface item. Its product type is AR/XR multimodal agent developer library. The dossier records source-backed facts only. It does not turn model capability, platform ambition, or launch-page excitement into shipped functionality. If a source does not state a specification, price, region, sensor, battery number, chipset, OS or API version, availability detail, or user quote, the issue marks it source not stated rather than inferring it.",
+          "interactionFlow": "Interaction flow: Developers connect video, audio, depth, pose, and sensor data from AR/XR devices to an agent, then connect enterprise knowledge, tools, NVIDIA Metropolis/VSS, NeMo Retriever, Nemotron/Cosmos Reason, NeMo Agent Toolkit, and DGX/RTX runtime. This shows the first user touchpoint moving away from a separate chat box and into the desktop, scientific workspace, eyewear, keyboard, browser, or multi-device control surface. The UX question is whether the user can tell what the system is reading, what it plans to do, where the task stands, when confirmation is required, and how to recover after an error.",
+          "specsOrStack": "Hardware, API, and system stack: NVIDIA XR AI, Metropolis, Metropolis VSS, NeMo Retriever, Nemotron, Cosmos Reason, NeMo Agent Toolkit, DGX Spark, DGX Station, and RTX PRO systems. The issue does not add unstated parameters. The useful comparison is whether the stack connects model capability, permission boundaries, files, sensors, databases, external tools, and result UI into an inspectable loop. If the cited source says beta, public beta, connected app, subscription, research, or patent, the item stays at that evidence level.",
+          "useCases": "The concrete use cases cluster around delegated work across context: file sorting, budget spreadsheets, scientific literature and code, glasses-based translation and capture, AR factory/lab/surgery assistance, mobile keyboard commands, browser or desktop agents, phone-glasses task control, and China local-service flows. High-trust scenarios require confirmation, audit, and undo.",
+          "painPointsSolved": "The pain point is the cost of moving context between files, web pages, scientific databases, HPC systems, phones, glasses, enterprise apps, third-party services, and local-service ecosystems. The system should absorb complexity, but it cannot hide the boundary. The stronger the delegation, the more visible the control layer must become.",
+          "userVoice": "Review, community, and user evidence is downgraded according to source type. The Verge and TechCrunch identify friction and workflow value; Product Hunt shows early launch interest only; study participants are not consumer-market proof; Chinese media provides China-ecosystem context. Projects without direct quotes are marked source not stated for user voice.",
+          "newTech": "The technology signal includes agentic execution, connected apps, custom MCP, auditable artifacts, reviewer agents, AR/XR multimodal sensing, on-device feature monetization, camera-free displays, keyboard-as-entry, computer-use UX research, smartglasses patent control, and Qwen glasses ecosystem integration.",
+          "availability": "Availability: Public beta; developer resources are available; production licensing, certification, and customer deployment details are source not stated. Unsupported region lists, inventory, support commitments, production customers, download scope, licensing, and enterprise default settings remain source not stated.",
+          "limitsOrUnknowns": "Limits and unknowns include on-device versus cloud execution, privacy retention, file-permission UI, remote-task failure recovery, audit logs, undo, long-term wearability, whether subscription boundaries expand, whether research samples generalize, whether patents ship, and whether China-local ecosystems translate overseas.",
+          "productVerdict": "Product read: NVIDIA XR AI matters only if it turns user goals into controllable action. The next verification is seven touchpoints: entry point, permission, context, execution, feedback, stop, and recovery. If one is missing, the product slides from assistant into opaque automation."
+        }
+      }
+    },
+    {
+      "id": "claude-sonnet-5-agentic-surface",
+      "section": "official",
+      "zhHeadline": "Claude Sonnet 5：边界比能力更重要",
+      "enHeadline": "Claude Sonnet 5: boundary matters more than raw capability",
+      "visual": {
+        "path": "assets/claude-sonnet-5-agentic-surface.svg",
+        "width": 1200,
+        "height": 760,
+        "altZh": "自绘证据图：Claude Sonnet 5",
+        "altEn": "Self-drawn evidence diagram: Claude Sonnet 5",
+        "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
+        "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
+        "sourceUrl": "https://www.anthropic.com/news/claude-sonnet-5"
+      },
+      "sources": [
+        {
+          "label": "Anthropic Claude Sonnet 5",
+          "url": "https://www.anthropic.com/news/claude-sonnet-5",
+          "type": "official"
+        }
+      ],
+      "evidenceLabel": "developer surface",
+      "evidenceStrength": "developer surface",
+      "dossierKind": "product",
+      "dossier": {
+        "zh": {
+          "productName": "Claude Sonnet 5",
+          "productType": "Claude Sonnet 5 是本期按「developer surface」处理的具体产品或信号面，产品类型是 agentic model/API/Claude Code surface。本期只记录来源支持的事实，不把模型能力、产业愿景或社区热度包装成已上市功能；规格、价格、地区、传感器、电池、芯片、OS/API 版本、用户 quote 若来源没有说明，一律写为 source not stated。",
+          "interactionFlow": "交互流程：用户或开发者在 Claude、Claude Code 或 API 中选择 Sonnet 5，按 effort level 在成本与性能间调节，模型可规划、调用 browser/terminal/tools、执行多步 coding、search 和 computer-use 任务。 这说明用户第一触点正在从独立聊天框移到桌面、科研环境、眼镜、键盘、浏览器或多设备控制面。UX 核心是用户是否知道系统正在读取什么、准备做什么、做到哪一步、何时需要确认，以及错误后能否回退。",
+          "specsOrStack": "硬件/API/系统栈：Free/Pro default、Max/Team/Enterprise、Claude Code、Claude Platform、claude-sonnet-5 API、intro pricing $2/$10 per MTok until August 31 then $3/$15 per MTok。 本期不补写未披露参数；真正需要比较的是 stack 是否把模型、权限、文件/传感/数据库、外部工具和结果 UI 接成可检查闭环。若来源只写 beta、public beta、connected app、subscription 或 patent，本期也只按该强度处理。",
+          "useCases": "具体用例围绕跨上下文代办：文件整理、预算表、科研文献和代码、眼镜翻译/拍摄/导航、AR 工厂/实验室/手术辅助、移动键盘命令、浏览器/桌面 agent、手机-眼镜任务控制和中国本地生活服务。高风险场景必须有确认、审计和撤销。",
+          "painPointsSolved": "解决痛点是减少用户在文件、网页、科学数据库、HPC、手机、眼镜、企业 app、第三方服务和本地生活生态之间搬运上下文的成本。系统承担复杂性，但不能隐藏边界；否则代办能力越强，用户越难信任。",
+          "userVoice": "评测/社区/用户信号按来源降级读取。The Verge 和 TechCrunch 用来识别摩擦与 workflow 价值，Product Hunt 只代表早期 launch 兴趣，论文参与者不是消费者市场，中文媒体提供中国生态观察。没有直接用户 quote 的项目写 source not stated。",
+          "newTech": "新技术在于 agentic execution、connected apps、custom MCP、auditable artifacts、reviewer agent、AR/XR multimodal sensing、on-device feature monetization、camera-free display、keyboard-as-entry、computer-use UX、smartglasses patent control 和 Qwen glasses ecosystem。",
+          "availability": "可用性按来源记录；英文可用性摘要：Available across plans from June 30, 2026; API name claude-sonnet-5; regional limitations are source not stated. 未披露地区、库存、长期支持、生产客户、下载范围、许可和企业默认策略均 source not stated。",
+          "limitsOrUnknowns": "限制/未知包括端侧/云端比例、隐私保留期、文件权限 UI、远程任务失败恢复、审计日志、撤销路径、长期佩戴舒适度、订阅边界是否扩大、研究样本外推、专利是否产品化和中国生态的海外适配。",
+          "productVerdict": "产品判断：Claude Sonnet 5 的价值不在“又有 AI”，而在是否把用户目标转成可控行动。下一步要验证入口、权限、上下文、执行、反馈、停止和恢复七个触点。缺一个，产品就会从 assistant 退化成黑箱自动化。"
+        },
+        "en": {
+          "productName": "Claude Sonnet 5",
+          "productType": "Claude Sonnet 5 is treated as a concrete developer surface item. Its product type is agentic model, API, and Claude Code surface. The dossier records source-backed facts only. It does not turn model capability, platform ambition, or launch-page excitement into shipped functionality. If a source does not state a specification, price, region, sensor, battery number, chipset, OS or API version, availability detail, or user quote, the issue marks it source not stated rather than inferring it.",
+          "interactionFlow": "Interaction flow: A user or developer selects Sonnet 5 in Claude, Claude Code, or the API, adjusts effort level for cost-performance tradeoff, and uses it to plan, call browsers, terminals, and tools, and execute multi-step coding, search, and computer-use tasks. This shows the first user touchpoint moving away from a separate chat box and into the desktop, scientific workspace, eyewear, keyboard, browser, or multi-device control surface. The UX question is whether the user can tell what the system is reading, what it plans to do, where the task stands, when confirmation is required, and how to recover after an error.",
+          "specsOrStack": "Hardware, API, and system stack: Free and Pro default, Max/Team/Enterprise, Claude Code, Claude Platform, claude-sonnet-5 API, introductory pricing $2/$10 per MTok until August 31 then $3/$15 per MTok. The issue does not add unstated parameters. The useful comparison is whether the stack connects model capability, permission boundaries, files, sensors, databases, external tools, and result UI into an inspectable loop. If the cited source says beta, public beta, connected app, subscription, research, or patent, the item stays at that evidence level.",
+          "useCases": "The concrete use cases cluster around delegated work across context: file sorting, budget spreadsheets, scientific literature and code, glasses-based translation and capture, AR factory/lab/surgery assistance, mobile keyboard commands, browser or desktop agents, phone-glasses task control, and China local-service flows. High-trust scenarios require confirmation, audit, and undo.",
+          "painPointsSolved": "The pain point is the cost of moving context between files, web pages, scientific databases, HPC systems, phones, glasses, enterprise apps, third-party services, and local-service ecosystems. The system should absorb complexity, but it cannot hide the boundary. The stronger the delegation, the more visible the control layer must become.",
+          "userVoice": "Review, community, and user evidence is downgraded according to source type. The Verge and TechCrunch identify friction and workflow value; Product Hunt shows early launch interest only; study participants are not consumer-market proof; Chinese media provides China-ecosystem context. Projects without direct quotes are marked source not stated for user voice.",
+          "newTech": "The technology signal includes agentic execution, connected apps, custom MCP, auditable artifacts, reviewer agents, AR/XR multimodal sensing, on-device feature monetization, camera-free displays, keyboard-as-entry, computer-use UX research, smartglasses patent control, and Qwen glasses ecosystem integration.",
+          "availability": "Availability: Available across plans from June 30, 2026; API name claude-sonnet-5; regional limitations are source not stated. Unsupported region lists, inventory, support commitments, production customers, download scope, licensing, and enterprise default settings remain source not stated.",
+          "limitsOrUnknowns": "Limits and unknowns include on-device versus cloud execution, privacy retention, file-permission UI, remote-task failure recovery, audit logs, undo, long-term wearability, whether subscription boundaries expand, whether research samples generalize, whether patents ship, and whether China-local ecosystems translate overseas.",
+          "productVerdict": "Product read: Claude Sonnet 5 matters only if it turns user goals into controllable action. The next verification is seven touchpoints: entry point, permission, context, execution, feedback, stop, and recovery. If one is missing, the product slides from assistant into opaque automation."
+        }
+      }
+    },
+    {
+      "id": "xgimi-memomind-one-review",
+      "section": "reviews",
+      "zhHeadline": "Xgimi MemoMind One：边界比能力更重要",
+      "enHeadline": "Xgimi MemoMind One: boundary matters more than raw capability",
+      "visual": {
+        "path": "assets/xgimi-memomind-one-review.svg",
+        "width": 1200,
+        "height": 760,
+        "altZh": "自绘证据图：Xgimi MemoMind One",
+        "altEn": "Self-drawn evidence diagram: Xgimi MemoMind One",
+        "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
+        "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
+        "sourceUrl": "https://www.theverge.com/tech/957933/xgimi-memomind-one-ai-smart-glasses-kickstarter-hands-on"
+      },
+      "sources": [
+        {
+          "label": "The Verge Xgimi MemoMind One hands-on",
+          "url": "https://www.theverge.com/tech/957933/xgimi-memomind-one-ai-smart-glasses-kickstarter-hands-on",
+          "type": "reviews"
+        }
+      ],
+      "evidenceLabel": "review/community friction",
+      "evidenceStrength": "review/community friction",
+      "dossierKind": "scan",
+      "dossier": {
+        "zh": {
+          "productName": "Xgimi MemoMind One",
+          "productType": "Xgimi MemoMind One 是本期按「review/community friction」处理的具体产品或信号面，产品类型是 camera-free AI smart glasses review signal。本期只记录来源支持的事实，不把模型能力、产业愿景或社区热度包装成已上市功能；规格、价格、地区、传感器、电池、芯片、OS/API 版本、用户 quote 若来源没有说明，一律写为 source not stated。",
+          "interactionFlow": "交互流程：佩戴者看到仅自己可见的绿色 micro-LED floating display，使用天气、日历、新闻、basic AI assistant、录音转写、teleprompter、captioning 和 live translation；部分翻译/导航需要从手机 app 开始。 这说明用户第一触点正在从独立聊天框移到桌面、科研环境、眼镜、键盘、浏览器或多设备控制面。UX 核心是用户是否知道系统正在读取什么、准备做什么、做到哪一步、何时需要确认，以及错误后能否回退。",
+          "specsOrStack": "硬件/API/系统栈：camera-free frame、micro-LED display、mobile app、voice recording/transcription、Listen-in mode、up to 16 hours use、$599 retail / $879 prescription lenses according to The Verge。 本期不补写未披露参数；真正需要比较的是 stack 是否把模型、权限、文件/传感/数据库、外部工具和结果 UI 接成可检查闭环。若来源只写 beta、public beta、connected app、subscription 或 patent，本期也只按该强度处理。",
+          "useCases": "具体用例围绕跨上下文代办：文件整理、预算表、科研文献和代码、眼镜翻译/拍摄/导航、AR 工厂/实验室/手术辅助、移动键盘命令、浏览器/桌面 agent、手机-眼镜任务控制和中国本地生活服务。高风险场景必须有确认、审计和撤销。",
+          "painPointsSolved": "解决痛点是减少用户在文件、网页、科学数据库、HPC、手机、眼镜、企业 app、第三方服务和本地生活生态之间搬运上下文的成本。系统承担复杂性，但不能隐藏边界；否则代办能力越强，用户越难信任。",
+          "userVoice": "评测/社区/用户信号按来源降级读取。The Verge 和 TechCrunch 用来识别摩擦与 workflow 价值，Product Hunt 只代表早期 launch 兴趣，论文参与者不是消费者市场，中文媒体提供中国生态观察。没有直接用户 quote 的项目写 source not stated。",
+          "newTech": "新技术在于 agentic execution、connected apps、custom MCP、auditable artifacts、reviewer agent、AR/XR multimodal sensing、on-device feature monetization、camera-free display、keyboard-as-entry、computer-use UX、smartglasses patent control 和 Qwen glasses ecosystem。",
+          "availability": "可用性按来源记录；英文可用性摘要：CES 2026 reveal and Kickstarter launch signal; final delivery, support, and production quality are source not stated. 未披露地区、库存、长期支持、生产客户、下载范围、许可和企业默认策略均 source not stated。",
+          "limitsOrUnknowns": "限制/未知包括端侧/云端比例、隐私保留期、文件权限 UI、远程任务失败恢复、审计日志、撤销路径、长期佩戴舒适度、订阅边界是否扩大、研究样本外推、专利是否产品化和中国生态的海外适配。",
+          "productVerdict": "产品判断：Xgimi MemoMind One 的价值不在“又有 AI”，而在是否把用户目标转成可控行动。下一步要验证入口、权限、上下文、执行、反馈、停止和恢复七个触点。缺一个，产品就会从 assistant 退化成黑箱自动化。"
+        },
+        "en": {
+          "productName": "Xgimi MemoMind One",
+          "productType": "Xgimi MemoMind One is treated as a concrete review/community friction item. Its product type is camera-free AI smart-glasses review signal. The dossier records source-backed facts only. It does not turn model capability, platform ambition, or launch-page excitement into shipped functionality. If a source does not state a specification, price, region, sensor, battery number, chipset, OS or API version, availability detail, or user quote, the issue marks it source not stated rather than inferring it.",
+          "interactionFlow": "Interaction flow: The wearer sees a private green micro-LED floating display and uses weather, calendar, news, a basic AI assistant, voice recording with transcription, teleprompter, captioning, and live translation; some translation and navigation flows begin in the phone app. This shows the first user touchpoint moving away from a separate chat box and into the desktop, scientific workspace, eyewear, keyboard, browser, or multi-device control surface. The UX question is whether the user can tell what the system is reading, what it plans to do, where the task stands, when confirmation is required, and how to recover after an error.",
+          "specsOrStack": "Hardware, API, and system stack: camera-free frame, micro-LED display, mobile app, voice recording/transcription, Listen-in mode, up to 16 hours use, $599 retail / $879 prescription lenses according to The Verge. The issue does not add unstated parameters. The useful comparison is whether the stack connects model capability, permission boundaries, files, sensors, databases, external tools, and result UI into an inspectable loop. If the cited source says beta, public beta, connected app, subscription, research, or patent, the item stays at that evidence level.",
+          "useCases": "The concrete use cases cluster around delegated work across context: file sorting, budget spreadsheets, scientific literature and code, glasses-based translation and capture, AR factory/lab/surgery assistance, mobile keyboard commands, browser or desktop agents, phone-glasses task control, and China local-service flows. High-trust scenarios require confirmation, audit, and undo.",
+          "painPointsSolved": "The pain point is the cost of moving context between files, web pages, scientific databases, HPC systems, phones, glasses, enterprise apps, third-party services, and local-service ecosystems. The system should absorb complexity, but it cannot hide the boundary. The stronger the delegation, the more visible the control layer must become.",
+          "userVoice": "Review, community, and user evidence is downgraded according to source type. The Verge and TechCrunch identify friction and workflow value; Product Hunt shows early launch interest only; study participants are not consumer-market proof; Chinese media provides China-ecosystem context. Projects without direct quotes are marked source not stated for user voice.",
+          "newTech": "The technology signal includes agentic execution, connected apps, custom MCP, auditable artifacts, reviewer agents, AR/XR multimodal sensing, on-device feature monetization, camera-free displays, keyboard-as-entry, computer-use UX research, smartglasses patent control, and Qwen glasses ecosystem integration.",
+          "availability": "Availability: CES 2026 reveal and Kickstarter launch signal; final delivery, support, and production quality are source not stated. Unsupported region lists, inventory, support commitments, production customers, download scope, licensing, and enterprise default settings remain source not stated.",
+          "limitsOrUnknowns": "Limits and unknowns include on-device versus cloud execution, privacy retention, file-permission UI, remote-task failure recovery, audit logs, undo, long-term wearability, whether subscription boundaries expand, whether research samples generalize, whether patents ship, and whether China-local ecosystems translate overseas.",
+          "productVerdict": "Product read: Xgimi MemoMind One matters only if it turns user goals into controllable action. The next verification is seven touchpoints: entry point, permission, context, execution, feedback, stop, and recovery. If one is missing, the product slides from assistant into opaque automation."
+        }
+      }
+    },
+    {
+      "id": "product-hunt-agent-keyboard-scan",
+      "section": "wild",
+      "zhHeadline": "Acti / Product Hunt AI launch scan：边界比能力更重要",
+      "enHeadline": "Acti / Product Hunt AI launch scan: boundary matters more than raw capability",
+      "visual": {
+        "path": "assets/product-hunt-agent-keyboard-scan.svg",
+        "width": 1200,
+        "height": 760,
+        "altZh": "自绘证据图：Acti / Product Hunt AI launch scan",
+        "altEn": "Self-drawn evidence diagram: Acti / Product Hunt AI launch scan",
+        "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
+        "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
+        "sourceUrl": "https://www.producthunt.com/"
+      },
+      "sources": [
+        {
+          "label": "Product Hunt homepage",
+          "url": "https://www.producthunt.com/",
+          "type": "wild"
+        },
+        {
+          "label": "Product Hunt products July 2026",
+          "url": "https://www.producthunt.com/products",
+          "type": "wild"
+        }
+      ],
+      "evidenceLabel": "startup signal",
+      "evidenceStrength": "startup signal",
+      "dossierKind": "scan",
+      "dossier": {
+        "zh": {
+          "productName": "Acti / Product Hunt AI launch scan",
+          "productType": "Acti / Product Hunt AI launch scan 是本期按「startup signal」处理的具体产品或信号面，产品类型是 Product Hunt wild signal scan。本期只记录来源支持的事实，不把模型能力、产业愿景或社区热度包装成已上市功能；规格、价格、地区、传感器、电池、芯片、OS/API 版本、用户 quote 若来源没有说明，一律写为 source not stated。",
+          "interactionFlow": "交互流程：用户在移动键盘里触发 command/search；开发者或 agent builder 通过 Humalike 类型 API 增加 social intelligence；这些是 launch-page signals，不是经过长期验证的产品事实。 这说明用户第一触点正在从独立聊天框移到桌面、科研环境、眼镜、键盘、浏览器或多设备控制面。UX 核心是用户是否知道系统正在读取什么、准备做什么、做到哪一步、何时需要确认，以及错误后能否回退。",
+          "specsOrStack": "硬件/API/系统栈：Product Hunt 首页列出 Acti、Humalike、Adam CAD Copilot 等今日产品；官方技术栈、隐私、价格、平台、用户规模 source not stated。 本期不补写未披露参数；真正需要比较的是 stack 是否把模型、权限、文件/传感/数据库、外部工具和结果 UI 接成可检查闭环。若来源只写 beta、public beta、connected app、subscription 或 patent，本期也只按该强度处理。",
+          "useCases": "具体用例围绕跨上下文代办：文件整理、预算表、科研文献和代码、眼镜翻译/拍摄/导航、AR 工厂/实验室/手术辅助、移动键盘命令、浏览器/桌面 agent、手机-眼镜任务控制和中国本地生活服务。高风险场景必须有确认、审计和撤销。",
+          "painPointsSolved": "解决痛点是减少用户在文件、网页、科学数据库、HPC、手机、眼镜、企业 app、第三方服务和本地生活生态之间搬运上下文的成本。系统承担复杂性，但不能隐藏边界；否则代办能力越强，用户越难信任。",
+          "userVoice": "评测/社区/用户信号按来源降级读取。The Verge 和 TechCrunch 用来识别摩擦与 workflow 价值，Product Hunt 只代表早期 launch 兴趣，论文参与者不是消费者市场，中文媒体提供中国生态观察。没有直接用户 quote 的项目写 source not stated。",
+          "newTech": "新技术在于 agentic execution、connected apps、custom MCP、auditable artifacts、reviewer agent、AR/XR multimodal sensing、on-device feature monetization、camera-free display、keyboard-as-entry、computer-use UX、smartglasses patent control 和 Qwen glasses ecosystem。",
+          "availability": "可用性按来源记录；英文可用性摘要：Visible on Product Hunt today; actual download regions, review status, and maintenance are source not stated. 未披露地区、库存、长期支持、生产客户、下载范围、许可和企业默认策略均 source not stated。",
+          "limitsOrUnknowns": "限制/未知包括端侧/云端比例、隐私保留期、文件权限 UI、远程任务失败恢复、审计日志、撤销路径、长期佩戴舒适度、订阅边界是否扩大、研究样本外推、专利是否产品化和中国生态的海外适配。",
+          "productVerdict": "产品判断：Acti / Product Hunt AI launch scan 的价值不在“又有 AI”，而在是否把用户目标转成可控行动。下一步要验证入口、权限、上下文、执行、反馈、停止和恢复七个触点。缺一个，产品就会从 assistant 退化成黑箱自动化。"
+        },
+        "en": {
+          "productName": "Acti / Product Hunt AI launch scan",
+          "productType": "Acti / Product Hunt AI launch scan is treated as a concrete startup signal item. Its product type is Product Hunt wild-signal scan. The dossier records source-backed facts only. It does not turn model capability, platform ambition, or launch-page excitement into shipped functionality. If a source does not state a specification, price, region, sensor, battery number, chipset, OS or API version, availability detail, or user quote, the issue marks it source not stated rather than inferring it.",
+          "interactionFlow": "Interaction flow: A user triggers command and search from a mobile keyboard, while developers or agent builders use Humalike-style APIs for social intelligence; these are launch-page signals, not long-term verified product facts. This shows the first user touchpoint moving away from a separate chat box and into the desktop, scientific workspace, eyewear, keyboard, browser, or multi-device control surface. The UX question is whether the user can tell what the system is reading, what it plans to do, where the task stands, when confirmation is required, and how to recover after an error.",
+          "specsOrStack": "Hardware, API, and system stack: Product Hunt lists Acti, Humalike, Adam CAD Copilot, and other products today; official stack, privacy, pricing, platform support, and user scale are source not stated. The issue does not add unstated parameters. The useful comparison is whether the stack connects model capability, permission boundaries, files, sensors, databases, external tools, and result UI into an inspectable loop. If the cited source says beta, public beta, connected app, subscription, research, or patent, the item stays at that evidence level.",
+          "useCases": "The concrete use cases cluster around delegated work across context: file sorting, budget spreadsheets, scientific literature and code, glasses-based translation and capture, AR factory/lab/surgery assistance, mobile keyboard commands, browser or desktop agents, phone-glasses task control, and China local-service flows. High-trust scenarios require confirmation, audit, and undo.",
+          "painPointsSolved": "The pain point is the cost of moving context between files, web pages, scientific databases, HPC systems, phones, glasses, enterprise apps, third-party services, and local-service ecosystems. The system should absorb complexity, but it cannot hide the boundary. The stronger the delegation, the more visible the control layer must become.",
+          "userVoice": "Review, community, and user evidence is downgraded according to source type. The Verge and TechCrunch identify friction and workflow value; Product Hunt shows early launch interest only; study participants are not consumer-market proof; Chinese media provides China-ecosystem context. Projects without direct quotes are marked source not stated for user voice.",
+          "newTech": "The technology signal includes agentic execution, connected apps, custom MCP, auditable artifacts, reviewer agents, AR/XR multimodal sensing, on-device feature monetization, camera-free displays, keyboard-as-entry, computer-use UX research, smartglasses patent control, and Qwen glasses ecosystem integration.",
+          "availability": "Availability: Visible on Product Hunt today; actual download regions, review status, and maintenance are source not stated. Unsupported region lists, inventory, support commitments, production customers, download scope, licensing, and enterprise default settings remain source not stated.",
+          "limitsOrUnknowns": "Limits and unknowns include on-device versus cloud execution, privacy retention, file-permission UI, remote-task failure recovery, audit logs, undo, long-term wearability, whether subscription boundaries expand, whether research samples generalize, whether patents ship, and whether China-local ecosystems translate overseas.",
+          "productVerdict": "Product read: Acti / Product Hunt AI launch scan matters only if it turns user goals into controllable action. The next verification is seven touchpoints: entry point, permission, context, execution, feedback, stop, and recovery. If one is missing, the product slides from assistant into opaque automation."
+        }
+      }
+    },
+    {
+      "id": "computer-use-agent-ux-research",
+      "section": "research",
+      "zhHeadline": "Computer-use agent UX research：边界比能力更重要",
+      "enHeadline": "Computer-use agent UX research: boundary matters more than raw capability",
+      "visual": {
+        "path": "assets/computer-use-agent-ux-research.svg",
+        "width": 1200,
+        "height": 760,
+        "altZh": "自绘证据图：Computer-use agent UX research",
+        "altEn": "Self-drawn evidence diagram: Computer-use agent UX research",
+        "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
+        "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
+        "sourceUrl": "https://arxiv.org/html/2602.07283v1"
+      },
+      "sources": [
+        {
+          "label": "arXiv computer-use agent UX",
+          "url": "https://arxiv.org/html/2602.07283v1",
+          "type": "research"
+        },
+        {
+          "label": "ACM in-browser agents",
+          "url": "https://dl.acm.org/doi/10.1145/3786304.3787913",
+          "type": "research"
+        }
+      ],
+      "evidenceLabel": "research signal",
+      "evidenceStrength": "research signal",
+      "dossierKind": "scan",
+      "dossier": {
+        "zh": {
+          "productName": "Computer-use agent UX research",
+          "productType": "Computer-use agent UX research 是本期按「research signal」处理的具体产品或信号面，产品类型是 computer-use agents 交互研究。本期只记录来源支持的事实，不把模型能力、产业愿景或社区热度包装成已上市功能；规格、价格、地区、传感器、电池、芯片、OS/API 版本、用户 quote 若来源没有说明，一律写为 source not stated。",
+          "interactionFlow": "交互流程：用户给出目标，agent 观察屏幕/UI、计划、点击、输入和导航，研究通过系统分析、practitioner interviews 和 Wizard-of-Oz study 观察用户如何监督/纠正 agent。 这说明用户第一触点正在从独立聊天框移到桌面、科研环境、眼镜、键盘、浏览器或多设备控制面。UX 核心是用户是否知道系统正在读取什么、准备做什么、做到哪一步、何时需要确认，以及错误后能否回退。",
+          "specsOrStack": "硬件/API/系统栈：论文扫描 9 个 2024/2025 computer-use agents，访谈 8 名 UX/AI practitioners，20 名参与者 Wizard-of-Oz study；ACM browser-agent 论文作为相关研究面。 本期不补写未披露参数；真正需要比较的是 stack 是否把模型、权限、文件/传感/数据库、外部工具和结果 UI 接成可检查闭环。若来源只写 beta、public beta、connected app、subscription 或 patent，本期也只按该强度处理。",
+          "useCases": "具体用例围绕跨上下文代办：文件整理、预算表、科研文献和代码、眼镜翻译/拍摄/导航、AR 工厂/实验室/手术辅助、移动键盘命令、浏览器/桌面 agent、手机-眼镜任务控制和中国本地生活服务。高风险场景必须有确认、审计和撤销。",
+          "painPointsSolved": "解决痛点是减少用户在文件、网页、科学数据库、HPC、手机、眼镜、企业 app、第三方服务和本地生活生态之间搬运上下文的成本。系统承担复杂性，但不能隐藏边界；否则代办能力越强，用户越难信任。",
+          "userVoice": "评测/社区/用户信号按来源降级读取。The Verge 和 TechCrunch 用来识别摩擦与 workflow 价值，Product Hunt 只代表早期 launch 兴趣，论文参与者不是消费者市场，中文媒体提供中国生态观察。没有直接用户 quote 的项目写 source not stated。",
+          "newTech": "新技术在于 agentic execution、connected apps、custom MCP、auditable artifacts、reviewer agent、AR/XR multimodal sensing、on-device feature monetization、camera-free display、keyboard-as-entry、computer-use UX、smartglasses patent control 和 Qwen glasses ecosystem。",
+          "availability": "可用性按来源记录；英文可用性摘要：Paper/preprint available; no commercial product availability applies. 未披露地区、库存、长期支持、生产客户、下载范围、许可和企业默认策略均 source not stated。",
+          "limitsOrUnknowns": "限制/未知包括端侧/云端比例、隐私保留期、文件权限 UI、远程任务失败恢复、审计日志、撤销路径、长期佩戴舒适度、订阅边界是否扩大、研究样本外推、专利是否产品化和中国生态的海外适配。",
+          "productVerdict": "产品判断：Computer-use agent UX research 的价值不在“又有 AI”，而在是否把用户目标转成可控行动。下一步要验证入口、权限、上下文、执行、反馈、停止和恢复七个触点。缺一个，产品就会从 assistant 退化成黑箱自动化。"
+        },
+        "en": {
+          "productName": "Computer-use agent UX research",
+          "productType": "Computer-use agent UX research is treated as a concrete research signal item. Its product type is computer-use-agent interaction research. The dossier records source-backed facts only. It does not turn model capability, platform ambition, or launch-page excitement into shipped functionality. If a source does not state a specification, price, region, sensor, battery number, chipset, OS or API version, availability detail, or user quote, the issue marks it source not stated rather than inferring it.",
+          "interactionFlow": "Interaction flow: A user states a goal; the agent observes screen or UI state, plans, clicks, types, and navigates; the research uses system analysis, practitioner interviews, and a Wizard-of-Oz study to observe supervision and correction needs. This shows the first user touchpoint moving away from a separate chat box and into the desktop, scientific workspace, eyewear, keyboard, browser, or multi-device control surface. The UX question is whether the user can tell what the system is reading, what it plans to do, where the task stands, when confirmation is required, and how to recover after an error.",
+          "specsOrStack": "Hardware, API, and system stack: The paper reviews nine 2024/2025 computer-use agents, interviews eight UX/AI practitioners, and runs a 20-participant Wizard-of-Oz study; an ACM browser-agent paper provides a related research surface. The issue does not add unstated parameters. The useful comparison is whether the stack connects model capability, permission boundaries, files, sensors, databases, external tools, and result UI into an inspectable loop. If the cited source says beta, public beta, connected app, subscription, research, or patent, the item stays at that evidence level.",
+          "useCases": "The concrete use cases cluster around delegated work across context: file sorting, budget spreadsheets, scientific literature and code, glasses-based translation and capture, AR factory/lab/surgery assistance, mobile keyboard commands, browser or desktop agents, phone-glasses task control, and China local-service flows. High-trust scenarios require confirmation, audit, and undo.",
+          "painPointsSolved": "The pain point is the cost of moving context between files, web pages, scientific databases, HPC systems, phones, glasses, enterprise apps, third-party services, and local-service ecosystems. The system should absorb complexity, but it cannot hide the boundary. The stronger the delegation, the more visible the control layer must become.",
+          "userVoice": "Review, community, and user evidence is downgraded according to source type. The Verge and TechCrunch identify friction and workflow value; Product Hunt shows early launch interest only; study participants are not consumer-market proof; Chinese media provides China-ecosystem context. Projects without direct quotes are marked source not stated for user voice.",
+          "newTech": "The technology signal includes agentic execution, connected apps, custom MCP, auditable artifacts, reviewer agents, AR/XR multimodal sensing, on-device feature monetization, camera-free displays, keyboard-as-entry, computer-use UX research, smartglasses patent control, and Qwen glasses ecosystem integration.",
+          "availability": "Availability: Paper/preprint available; no commercial product availability applies. Unsupported region lists, inventory, support commitments, production customers, download scope, licensing, and enterprise default settings remain source not stated.",
+          "limitsOrUnknowns": "Limits and unknowns include on-device versus cloud execution, privacy retention, file-permission UI, remote-task failure recovery, audit logs, undo, long-term wearability, whether subscription boundaries expand, whether research samples generalize, whether patents ship, and whether China-local ecosystems translate overseas.",
+          "productVerdict": "Product read: Computer-use agent UX research matters only if it turns user goals into controllable action. The next verification is seven touchpoints: entry point, permission, context, execution, feedback, stop, and recovery. If one is missing, the product slides from assistant into opaque automation."
+        }
+      }
+    },
+    {
+      "id": "smartglasses-mobile-control-patent",
+      "section": "patent",
+      "zhHeadline": "Smartglasses mobile-task control patent：边界比能力更重要",
+      "enHeadline": "Smartglasses mobile-task control patent: boundary matters more than raw capability",
+      "visual": {
+        "path": "assets/smartglasses-mobile-control-patent.svg",
+        "width": 1200,
+        "height": 760,
+        "altZh": "自绘证据图：Smartglasses mobile-task control patent",
+        "altEn": "Self-drawn evidence diagram: Smartglasses mobile-task control patent",
+        "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
+        "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
+        "sourceUrl": "https://patents.google.com/patent/US10908419B2/en"
+      },
+      "sources": [
+        {
+          "label": "Google Patents smartglasses control",
+          "url": "https://patents.google.com/patent/US10908419B2/en",
+          "type": "patent"
+        },
+        {
+          "label": "WIPO Rokid profile",
+          "url": "https://www.wipo.int/en/web/awards/global/2026",
+          "type": "industry"
+        }
+      ],
+      "evidenceLabel": "patent signal",
+      "evidenceStrength": "patent signal",
+      "dossierKind": "scan",
+      "dossier": {
+        "zh": {
+          "productName": "Smartglasses mobile-task control patent",
+          "productType": "Smartglasses mobile-task control patent 是本期按「patent signal」处理的具体产品或信号面，产品类型是 智能眼镜/手机/手表协同专利信号。本期只记录来源支持的事实，不把模型能力、产业愿景或社区热度包装成已上市功能；规格、价格、地区、传感器、电池、芯片、OS/API 版本、用户 quote 若来源没有说明，一律写为 source not stated。",
+          "interactionFlow": "交互流程：眼镜、手机和手表配对后，系统通过 connection manager/control panel 管理任务、应用和 AR information；AI 可能帮助选择或控制要显示的信息。 这说明用户第一触点正在从独立聊天框移到桌面、科研环境、眼镜、键盘、浏览器或多设备控制面。UX 核心是用户是否知道系统正在读取什么、准备做什么、做到哪一步、何时需要确认，以及错误后能否回退。",
+          "specsOrStack": "硬件/API/系统栈：smartglasses、smartwatch、smartphone、connection manager、control panel、AI control、mobile device tasks、applications、AR information。 本期不补写未披露参数；真正需要比较的是 stack 是否把模型、权限、文件/传感/数据库、外部工具和结果 UI 接成可检查闭环。若来源只写 beta、public beta、connected app、subscription 或 patent，本期也只按该强度处理。",
+          "useCases": "具体用例围绕跨上下文代办：文件整理、预算表、科研文献和代码、眼镜翻译/拍摄/导航、AR 工厂/实验室/手术辅助、移动键盘命令、浏览器/桌面 agent、手机-眼镜任务控制和中国本地生活服务。高风险场景必须有确认、审计和撤销。",
+          "painPointsSolved": "解决痛点是减少用户在文件、网页、科学数据库、HPC、手机、眼镜、企业 app、第三方服务和本地生活生态之间搬运上下文的成本。系统承担复杂性，但不能隐藏边界；否则代办能力越强，用户越难信任。",
+          "userVoice": "评测/社区/用户信号按来源降级读取。The Verge 和 TechCrunch 用来识别摩擦与 workflow 价值，Product Hunt 只代表早期 launch 兴趣，论文参与者不是消费者市场，中文媒体提供中国生态观察。没有直接用户 quote 的项目写 source not stated。",
+          "newTech": "新技术在于 agentic execution、connected apps、custom MCP、auditable artifacts、reviewer agent、AR/XR multimodal sensing、on-device feature monetization、camera-free display、keyboard-as-entry、computer-use UX、smartglasses patent control 和 Qwen glasses ecosystem。",
+          "availability": "可用性按来源记录；英文可用性摘要：No product availability; patent publication or grant is not a launch. 未披露地区、库存、长期支持、生产客户、下载范围、许可和企业默认策略均 source not stated。",
+          "limitsOrUnknowns": "限制/未知包括端侧/云端比例、隐私保留期、文件权限 UI、远程任务失败恢复、审计日志、撤销路径、长期佩戴舒适度、订阅边界是否扩大、研究样本外推、专利是否产品化和中国生态的海外适配。",
+          "productVerdict": "产品判断：Smartglasses mobile-task control patent 的价值不在“又有 AI”，而在是否把用户目标转成可控行动。下一步要验证入口、权限、上下文、执行、反馈、停止和恢复七个触点。缺一个，产品就会从 assistant 退化成黑箱自动化。"
+        },
+        "en": {
+          "productName": "Smartglasses mobile-task control patent",
+          "productType": "Smartglasses mobile-task control patent is treated as a concrete patent signal item. Its product type is smartglasses, phone, and watch coordination patent signal. The dossier records source-backed facts only. It does not turn model capability, platform ambition, or launch-page excitement into shipped functionality. If a source does not state a specification, price, region, sensor, battery number, chipset, OS or API version, availability detail, or user quote, the issue marks it source not stated rather than inferring it.",
+          "interactionFlow": "Interaction flow: Glasses, phone, and watch pair together; a connection manager or control panel manages tasks, applications, and AR information, while AI may help select or control what appears. This shows the first user touchpoint moving away from a separate chat box and into the desktop, scientific workspace, eyewear, keyboard, browser, or multi-device control surface. The UX question is whether the user can tell what the system is reading, what it plans to do, where the task stands, when confirmation is required, and how to recover after an error.",
+          "specsOrStack": "Hardware, API, and system stack: smartglasses, smartwatch, smartphone, connection manager, control panel, AI control, mobile device tasks, applications, and AR information. The issue does not add unstated parameters. The useful comparison is whether the stack connects model capability, permission boundaries, files, sensors, databases, external tools, and result UI into an inspectable loop. If the cited source says beta, public beta, connected app, subscription, research, or patent, the item stays at that evidence level.",
+          "useCases": "The concrete use cases cluster around delegated work across context: file sorting, budget spreadsheets, scientific literature and code, glasses-based translation and capture, AR factory/lab/surgery assistance, mobile keyboard commands, browser or desktop agents, phone-glasses task control, and China local-service flows. High-trust scenarios require confirmation, audit, and undo.",
+          "painPointsSolved": "The pain point is the cost of moving context between files, web pages, scientific databases, HPC systems, phones, glasses, enterprise apps, third-party services, and local-service ecosystems. The system should absorb complexity, but it cannot hide the boundary. The stronger the delegation, the more visible the control layer must become.",
+          "userVoice": "Review, community, and user evidence is downgraded according to source type. The Verge and TechCrunch identify friction and workflow value; Product Hunt shows early launch interest only; study participants are not consumer-market proof; Chinese media provides China-ecosystem context. Projects without direct quotes are marked source not stated for user voice.",
+          "newTech": "The technology signal includes agentic execution, connected apps, custom MCP, auditable artifacts, reviewer agents, AR/XR multimodal sensing, on-device feature monetization, camera-free displays, keyboard-as-entry, computer-use UX research, smartglasses patent control, and Qwen glasses ecosystem integration.",
+          "availability": "Availability: No product availability; patent publication or grant is not a launch. Unsupported region lists, inventory, support commitments, production customers, download scope, licensing, and enterprise default settings remain source not stated.",
+          "limitsOrUnknowns": "Limits and unknowns include on-device versus cloud execution, privacy retention, file-permission UI, remote-task failure recovery, audit logs, undo, long-term wearability, whether subscription boundaries expand, whether research samples generalize, whether patents ship, and whether China-local ecosystems translate overseas.",
+          "productVerdict": "Product read: Smartglasses mobile-task control patent matters only if it turns user goals into controllable action. The next verification is seven touchpoints: entry point, permission, context, execution, feedback, stop, and recovery. If one is missing, the product slides from assistant into opaque automation."
+        }
+      }
+    },
+    {
+      "id": "china-quark-ai-glasses-scan",
+      "section": "china",
+      "zhHeadline": "Quark/Qwen AI glasses China scan：边界比能力更重要",
+      "enHeadline": "Quark/Qwen AI glasses China scan: boundary matters more than raw capability",
+      "visual": {
+        "path": "assets/china-quark-ai-glasses-scan.svg",
+        "width": 1200,
+        "height": 760,
+        "altZh": "自绘证据图：Quark/Qwen AI glasses China scan",
+        "altEn": "Self-drawn evidence diagram: Quark/Qwen AI glasses China scan",
+        "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
+        "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
+        "sourceUrl": "https://www.xinhuanet.com/tech/20251127/08d77754e3654647b345f1b71ca496c1/c.html"
+      },
+      "sources": [
+        {
+          "label": "Xinhua Quark AI glasses",
+          "url": "https://www.xinhuanet.com/tech/20251127/08d77754e3654647b345f1b71ca496c1/c.html",
+          "type": "china"
+        },
+        {
+          "label": "QbitAI Quark glasses",
+          "url": "https://www.qbitai.com/2025/11/357209.html",
+          "type": "china"
+        },
+        {
+          "label": "The Gadgeteer Quark S1 update",
+          "url": "https://the-gadgeteer.com/2026/05/12/quark-ai-glasses-s1-proactive-ai-qwen-update-may-2026/",
+          "type": "reviews"
+        }
+      ],
+      "evidenceLabel": "weak/unverified",
+      "evidenceStrength": "weak/unverified",
+      "dossierKind": "scan",
+      "dossier": {
+        "zh": {
+          "productName": "Quark/Qwen AI glasses China scan",
+          "productType": "Quark/Qwen AI glasses China scan 是本期按「weak/unverified」处理的具体产品或信号面，产品类型是 中国 AI 眼镜生态 scan。本期只记录来源支持的事实，不把模型能力、产业愿景或社区热度包装成已上市功能；规格、价格、地区、传感器、电池、芯片、OS/API 版本、用户 quote 若来源没有说明，一律写为 source not stated。",
+          "interactionFlow": "交互流程：用户通过夸克/千问眼镜唤起语音助手、看显示、拍摄、翻译、提词、导航，生态连接支付宝、高德、淘宝、飞猪和阿里商旅；后续 OTA 增加 proactive AI 和更多本地服务。 这说明用户第一触点正在从独立聊天框移到桌面、科研环境、眼镜、键盘、浏览器或多设备控制面。UX 核心是用户是否知道系统正在读取什么、准备做什么、做到哪一步、何时需要确认，以及错误后能否回退。",
+          "specsOrStack": "硬件/API/系统栈：S1/G1 两系列、S1 起价 3799 元、G1 起价 1899 元、双目显示/双旗舰芯片/4000 nits/五麦阵列等细节来自新华社/量子位等来源；海外可买性 source not stated。 本期不补写未披露参数；真正需要比较的是 stack 是否把模型、权限、文件/传感/数据库、外部工具和结果 UI 接成可检查闭环。若来源只写 beta、public beta、connected app、subscription 或 patent，本期也只按该强度处理。",
+          "useCases": "具体用例围绕跨上下文代办：文件整理、预算表、科研文献和代码、眼镜翻译/拍摄/导航、AR 工厂/实验室/手术辅助、移动键盘命令、浏览器/桌面 agent、手机-眼镜任务控制和中国本地生活服务。高风险场景必须有确认、审计和撤销。",
+          "painPointsSolved": "解决痛点是减少用户在文件、网页、科学数据库、HPC、手机、眼镜、企业 app、第三方服务和本地生活生态之间搬运上下文的成本。系统承担复杂性，但不能隐藏边界；否则代办能力越强，用户越难信任。",
+          "userVoice": "评测/社区/用户信号按来源降级读取。The Verge 和 TechCrunch 用来识别摩擦与 workflow 价值，Product Hunt 只代表早期 launch 兴趣，论文参与者不是消费者市场，中文媒体提供中国生态观察。没有直接用户 quote 的项目写 source not stated。",
+          "newTech": "新技术在于 agentic execution、connected apps、custom MCP、auditable artifacts、reviewer agent、AR/XR multimodal sensing、on-device feature monetization、camera-free display、keyboard-as-entry、computer-use UX、smartglasses patent control 和 Qwen glasses ecosystem。",
+          "availability": "可用性按来源记录；英文可用性摘要：China launch and sales channels are historically sourced; no new July 1 official product launch, so this remains a China scan. 未披露地区、库存、长期支持、生产客户、下载范围、许可和企业默认策略均 source not stated。",
+          "limitsOrUnknowns": "限制/未知包括端侧/云端比例、隐私保留期、文件权限 UI、远程任务失败恢复、审计日志、撤销路径、长期佩戴舒适度、订阅边界是否扩大、研究样本外推、专利是否产品化和中国生态的海外适配。",
+          "productVerdict": "产品判断：Quark/Qwen AI glasses China scan 的价值不在“又有 AI”，而在是否把用户目标转成可控行动。下一步要验证入口、权限、上下文、执行、反馈、停止和恢复七个触点。缺一个，产品就会从 assistant 退化成黑箱自动化。"
+        },
+        "en": {
+          "productName": "Quark/Qwen AI glasses China scan",
+          "productType": "Quark/Qwen AI glasses China scan is treated as a concrete weak/unverified item. Its product type is China AI-glasses ecosystem scan. The dossier records source-backed facts only. It does not turn model capability, platform ambition, or launch-page excitement into shipped functionality. If a source does not state a specification, price, region, sensor, battery number, chipset, OS or API version, availability detail, or user quote, the issue marks it source not stated rather than inferring it.",
+          "interactionFlow": "Interaction flow: A user invokes the Quark/Qwen glasses assistant, uses display, capture, translation, teleprompter, and navigation, with ecosystem links to Alipay, Amap, Taobao, Fliggy, and Alibaba travel services; later OTA signals add proactive AI and more local services. This shows the first user touchpoint moving away from a separate chat box and into the desktop, scientific workspace, eyewear, keyboard, browser, or multi-device control surface. The UX question is whether the user can tell what the system is reading, what it plans to do, where the task stands, when confirmation is required, and how to recover after an error.",
+          "specsOrStack": "Hardware, API, and system stack: S1/G1 series, S1 from RMB 3,799, G1 from RMB 1,899, binocular display, dual flagship chips, 4000 nits, and five-mic array are reported by Xinhua and QbitAI; overseas availability is source not stated. The issue does not add unstated parameters. The useful comparison is whether the stack connects model capability, permission boundaries, files, sensors, databases, external tools, and result UI into an inspectable loop. If the cited source says beta, public beta, connected app, subscription, research, or patent, the item stays at that evidence level.",
+          "useCases": "The concrete use cases cluster around delegated work across context: file sorting, budget spreadsheets, scientific literature and code, glasses-based translation and capture, AR factory/lab/surgery assistance, mobile keyboard commands, browser or desktop agents, phone-glasses task control, and China local-service flows. High-trust scenarios require confirmation, audit, and undo.",
+          "painPointsSolved": "The pain point is the cost of moving context between files, web pages, scientific databases, HPC systems, phones, glasses, enterprise apps, third-party services, and local-service ecosystems. The system should absorb complexity, but it cannot hide the boundary. The stronger the delegation, the more visible the control layer must become.",
+          "userVoice": "Review, community, and user evidence is downgraded according to source type. The Verge and TechCrunch identify friction and workflow value; Product Hunt shows early launch interest only; study participants are not consumer-market proof; Chinese media provides China-ecosystem context. Projects without direct quotes are marked source not stated for user voice.",
+          "newTech": "The technology signal includes agentic execution, connected apps, custom MCP, auditable artifacts, reviewer agents, AR/XR multimodal sensing, on-device feature monetization, camera-free displays, keyboard-as-entry, computer-use UX research, smartglasses patent control, and Qwen glasses ecosystem integration.",
+          "availability": "Availability: China launch and sales channels are historically sourced; no new July 1 official product launch, so this remains a China scan. Unsupported region lists, inventory, support commitments, production customers, download scope, licensing, and enterprise default settings remain source not stated.",
+          "limitsOrUnknowns": "Limits and unknowns include on-device versus cloud execution, privacy retention, file-permission UI, remote-task failure recovery, audit logs, undo, long-term wearability, whether subscription boundaries expand, whether research samples generalize, whether patents ship, and whether China-local ecosystems translate overseas.",
+          "productVerdict": "Product read: Quark/Qwen AI glasses China scan matters only if it turns user goals into controllable action. The next verification is seven touchpoints: entry point, permission, context, execution, feedback, stop, and recovery. If one is missing, the product slides from assistant into opaque automation."
+        }
+      }
+    }
+  ],
+  "zhPath": "./zh/",
+  "enPath": "./en/",
+  "sourcesPath": "./sources.md"
+}

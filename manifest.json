@@ -1,5 +1,55 @@
 [
   {
+    "date": "2026-07-01",
+    "zhTitle": "桌面 Agent、科研 Workbench 与 AI 眼镜的边界测试",
+    "enTitle": "Desktop agents, science workbenches, and AI glasses test delegated work boundaries",
+    "zhSummary": "今天最强信号是 AI 代办进入真实系统：Gemini Spark 进入 Mac 文件和 connected apps，Claude Science 把科研流程变成可审计 workbench，Meta 眼镜暴露硬件功能订阅摩擦，NVIDIA XR AI 把 agent 推向 AR/XR 工作现场。",
+    "enSummary": "Today’s strongest signal is delegated work entering real systems: Gemini Spark moves into Mac files and connected apps, Claude Science turns scientific workflows into an auditable workbench, Meta glasses expose hardware subscription friction, and NVIDIA XR AI pushes agents into AR/XR work sites.",
+    "tags": [
+      "HCI",
+      "AI software products",
+      "AI hardware",
+      "agentic devices",
+      "on-device AI",
+      "smart glasses"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "wild",
+      "research",
+      "patent",
+      "china",
+      "global"
+    ],
+    "coverStory": {
+      "topicId": "google-gemini-spark-mac",
+      "zhTitle": "Gemini Spark for macOS：边界比能力更重要",
+      "enTitle": "Gemini Spark for macOS: boundary matters more than raw capability",
+      "zhSummary": [
+        "Gemini Spark 进入 Mac、本地文件、Workspace 和第三方 connected apps。",
+        "Claude Science 与 NVIDIA XR AI 显示 agent 正走向垂直工作台与空间现场。",
+        "Meta 眼镜提醒：硬件 AI 的订阅边界同样是产品体验。"
+      ],
+      "enSummary": [
+        "Gemini Spark enters the Mac, local files, Workspace, and third-party connected apps.",
+        "Claude Science and NVIDIA XR AI show agents moving into vertical workbenches and spatial work sites.",
+        "Meta glasses show that hardware AI subscription boundaries are product experience too."
+      ],
+      "imagePath": "assets/google-gemini-spark-mac.svg",
+      "imageWidth": 1200,
+      "imageHeight": 760,
+      "imageSourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-june-2026/",
+      "primarySourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-june-2026/",
+      "evidenceStrength": "confirmed product",
+      "whyCover": "It is the clearest interface shift today: a consumer AI agent crossing from chat into desktop files, apps, and remote execution."
+    },
+    "zhPath": "/ai-daily/2026-07-01/zh/",
+    "enPath": "/ai-daily/2026-07-01/en/",
+    "sourcesPath": "/ai-daily/2026-07-01/sources.md"
+  },
+  {
     "date": "2026-06-30",
     "zhTitle": "AI 入口从聊天框分裂到眼镜、手机、记忆和长任务执行",
     "enTitle": "AI entry points split across glasses, phones, memory, connectors, and long-running work",
