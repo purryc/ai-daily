@@ -1,0 +1,584 @@
+{
+  "date": "2026-07-02",
+  "timezone": "America/Toronto",
+  "zhTitle": "AI Daily 2026-07-02：当眼镜功能开始计时收费",
+  "enTitle": "AI Daily 2026-07-02: When Glasses Features Start Billing by the Hour",
+  "zhSummary": "Meta One 把端侧听觉增强推向订阅用量；Google 把生成媒体和 agent API 做成开发者工作台；Xgimi 与千问继续验证眼镜入口的真实摩擦。",
+  "enSummary": "Meta One pushes on-device hearing enhancement into metered subscription territory; Google turns media generation and agent calls into developer workflows; Xgimi and Qwen expose the practical friction of eyewear as an AI entry point.",
+  "tags": [
+    "AI hardware",
+    "smart glasses",
+    "agent UX",
+    "developer surface",
+    "China scan",
+    "patent watch",
+    "research scan",
+    "community friction"
+  ],
+  "sourceTypes": [
+    "official",
+    "reviews",
+    "community",
+    "wild",
+    "research",
+    "patent",
+    "china",
+    "global"
+  ],
+  "coverStory": {
+    "topicId": "meta",
+    "zhTitle": "当你买下眼镜，却还要为端侧能力买时间",
+    "enTitle": "When owning the glasses no longer means owning every feature",
+    "imagePath": "assets/meta-one-conversation-focus.svg",
+    "imageWidth": 1200,
+    "imageHeight": 760,
+    "primarySourceUrl": "https://www.meta.com/help/ai-glasses/1384571770097740/",
+    "evidenceStrength": "confirmed product + review/community friction",
+    "whyCover": "Meta One turns an on-device wearable feature into a metered subscription experience.",
+    "zhSummary": [
+      "Conversation Focus 成为端侧 AI 功能商业化的清晰样本。",
+      "本期把用量、订阅、设备所有权和可穿戴 HCI 放在同一张版面。",
+      "Google 的生成媒体/API 与中国眼镜生态作为对照。"
+    ],
+    "enSummary": [
+      "Conversation Focus becomes a clear sample of on-device AI feature monetization.",
+      "The issue reads usage, subscription, device ownership and wearable HCI on one surface.",
+      "Google media/API releases and China glasses ecosystems act as the comparison set."
+    ],
+    "imageSourceUrl": "https://www.meta.com/help/ai-glasses/1384571770097740/"
+  },
+  "topics": [
+    {
+      "id": "meta",
+      "section": "official",
+      "zhHeadline": "Meta One 把 Conversation Focus 变成用量化眼镜功能",
+      "enHeadline": "Meta One turns Conversation Focus into a metered glasses feature",
+      "visual": {
+        "path": "assets/meta-one-conversation-focus.svg",
+        "width": 1200,
+        "height": 760,
+        "altZh": "自绘证据图：Meta One turns Conversation Focus into a metered glasses feature",
+        "altEn": "Self-drawn evidence diagram: Meta One turns Conversation Focus into a metered glasses feature",
+        "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
+        "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
+        "sourceUrl": "https://purryc.github.io/ai-daily/2026-07-02/sources.md"
+      },
+      "sources": [
+        {
+          "label": "Meta Help: Meta One subscription for AI glasses",
+          "url": "https://www.meta.com/help/ai-glasses/1384571770097740/"
+        },
+        {
+          "label": "WIRED: Meta subscription for smart glasses features",
+          "url": "https://www.wired.com/story/why-meta-is-charging-a-subscription-for-on-device-smart-glasses-features/"
+        },
+        {
+          "label": "The Verge: Meta AI glasses paywall rate limit",
+          "url": "https://www.theverge.com/gadgets/959899/meta-ai-glasses-paywall-rate-limit"
+        },
+        {
+          "label": "Reddit r/RaybanMeta: Conversation Focus use case friction",
+          "url": "https://www.reddit.com/r/RaybanMeta/comments/1txx5z1/ive_been_using_meta_rayban_smart_glasses_for_a/"
+        }
+      ],
+      "evidenceLabel": "confirmed product",
+      "evidenceStrength": "confirmed product",
+      "dossierKind": "product",
+      "dossier": {
+        "zh": {
+          "productName": "Meta One / Conversation Focus",
+          "productType": "Meta One / Conversation Focus 在本期被归类为AI smart-glasses subscription and audio-assist feature。证据强度是 confirmed product；只有来源明确写到的规格、价格、区域、传感器、芯片、OS/API 版本、可用性和用户原声才进入事实层。没有写出的部分统一标为 source not stated。本期关注它作为用户界面的真实触点：用户从哪里进入、怎样发起任务、系统读取什么、何时收费或确认、失败后怎样恢复。",
+          "interactionFlow": "交互流程：A wearer opens the Meta AI app, enters Accounts Center, checks Subscriptions, and sees Meta One. Conversation Focus can be used without a subscription until the monthly allowance is reached; Meta Help states 3 free hours per month and 15 hours per month for Meta One Premium. Remaining balance is not currently shown and unused hours do not roll over. The product moment is unusually sharp because the user is not asking a cloud model to generate text; they are using an already-owned wearable to make voices clearer in noisy space. 对产品设计最关键的不是“有 AI”，而是用户是否能在 16:9 的实际页面和真实设备里看懂状态。入口、权限、上下文、执行、反馈、停止、撤销是同一条链路；任何一环被隐藏，用户都会把自动化当成不可控黑箱。",
+          "specsOrStack": "硬件/API/系统栈：Ray-Ban Meta and Oakley Meta glasses; Meta AI app; Meta Accounts Center; on-device Conversation Focus processing; Meta One Premium usage allowance; source not stated for chipset, battery, storage, microphones, exact DSP pipeline, OS version and regional expansion. 这部分不补写营销稿没有披露的参数；如果来源只给了 API、beta、public preview、订阅、众筹或专利，本期也只按对应证据强度处理。",
+          "useCases": "具体用例集中在可穿戴听觉增强、眼镜端翻译/导航/字幕、创意视频多轮编辑、终端/浏览器里的工程 agent、服务生态闭环和研究/专利中的下一代输入控制。用户价值来自少搬运上下文、少切换设备、少手动整理，但高信任场景必须保留确认、审计和退路。",
+          "painPointsSolved": "解决痛点：把手机、网页、终端、相册、视频、会议、地图、本地生活服务与眼镜/桌面 agent 之间的上下文搬运交给系统承担。对用户的影响是操作步骤减少，但代价可能是订阅边界、权限边界和错误边界变得更难看见，所以界面必须主动解释系统正在做什么。",
+          "userVoice": "用户/评测信号：本期把 WIRED、The Verge、Reddit、36Kr 和 Kickstarter 类来源降级读取。评测可以证明摩擦真实存在，社区可以提示痛点但不能单独证明事实，媒体市场份额和众筹承诺不能当成最终发货事实。没有直接用户 quote 的地方写 source not stated。",
+          "newTech": "新技术：端侧音频增强的订阅化、可穿戴 AI 入口、多模态生成媒体、会话式 video editing、Interaction resource API、终端 agent 审计日志、眼镜中的服务闭环、contextual voice command、gaze UI 和研究中的 computer-use 可解释性。",
+          "availability": "可用性：Limited testing; options vary by location and account type. Meta Help says no subscription is required for AI glasses, but extended usage of Conversation Focus is tied to Meta One Premium. WIRED and The Verge frame the change as a paid cap on an existing on-device feature. Price is reported by media as about $19.99 or $20 per month; exact local price is source-dependent. 不确定项包括地区、企业策略、长期支持、库存、退订/退款、具体硬件 BOM、隐私保留期、模型/端云比例、生产版本是否保持 beta 行为。",
+          "limitsOrUnknowns": "限制/未知：source not stated 的地方不推断。当前最需要继续追踪的是端侧功能被订阅化后用户是否仍认为自己“拥有”硬件功能；生成媒体 API 的多轮编辑是否足够稳定；眼镜显示在户外、噪音、隐私、消息回复和导航启动上的摩擦；专利和研究是否真正落成可用产品。",
+          "productVerdict": "产品判断：Meta One / Conversation Focus 的价值取决于能否把用户目标变成可控行动，而不是把模型能力堆到功能列表。对 HCI 来说，胜负点是状态透明、边界明确、视觉/听觉反馈不过载、出错可恢复。今天最强信号是：AI 产品的商业模式正在进入设备层，界面设计必须把“能力、用量、价格、权限和退路”放在同一个可理解的画面里。"
+        },
+        "en": {
+          "productName": "Meta One / Conversation Focus",
+          "productType": "Meta One / Conversation Focus is treated in this issue as AI smart-glasses subscription and audio-assist feature. Evidence strength is confirmed product. The dossier only promotes source-backed facts. If a source does not state a specification, price, supported region, sensor, chipset, operating-system version, API version, availability detail, or direct user quote, the field says source not stated rather than inventing a value. The product question is not whether the company used the word AI; it is where the user enters the flow, what the system reads, what it is allowed to do, how the user sees progress, when money or permission gates appear, and how the user recovers when the system gets a task wrong.",
+          "interactionFlow": "Interaction flow: A wearer opens the Meta AI app, enters Accounts Center, checks Subscriptions, and sees Meta One. Conversation Focus can be used without a subscription until the monthly allowance is reached; Meta Help states 3 free hours per month and 15 hours per month for Meta One Premium. Remaining balance is not currently shown and unused hours do not roll over. The product moment is unusually sharp because the user is not asking a cloud model to generate text; they are using an already-owned wearable to make voices clearer in noisy space. The user-facing design problem is the same across glasses, media APIs, terminal agents and research surfaces: entry point, permission, context, execution, feedback, stop and undo are one chain. If one link is hidden, delegation stops feeling helpful and starts feeling opaque. A magazine page can summarize the chain, but the actual product has to show it at runtime through usage meters, mode labels, captions, progress states, confirmation moments and recoverable errors.",
+          "specsOrStack": "Hardware, API and system stack: Ray-Ban Meta and Oakley Meta glasses; Meta AI app; Meta Accounts Center; on-device Conversation Focus processing; Meta One Premium usage allowance; source not stated for chipset, battery, storage, microphones, exact DSP pipeline, OS version and regional expansion. This issue does not fill in marketing blanks. A beta remains a beta, a patent remains a patent signal, a crowdfunding promise remains weak until delivery evidence exists, and a developer API remains a developer surface until a consumer product exposes the workflow. That distinction matters because users experience the product through affordances, limits and support paths, not through a model family name.",
+          "useCases": "Concrete use cases include wearable speech enhancement in noisy environments, smart-glasses translation and navigation, captioning and teleprompter overlays, conversational video editing, rapid image ideation feeding video generation, terminal-based coding agents, API-managed multi-turn tasks, phone-to-glasses local-service execution, and future gaze or contextual voice controls. The common pain is context transfer: moving from phone to glasses, from prompt to media timeline, from terminal to repository, or from service intent to completed transaction.",
+          "painPointsSolved": "The pain point solved is the manual work of carrying context between hardware, software, services and sensory input. A good implementation removes steps without removing user agency. A poor implementation hides the cost, the permission boundary, or the failure state. For product teams, the practical implication is that agentic interfaces need usage surfaces, audit surfaces and action surfaces together. A user should not need a help article to learn that a device feature has a monthly cap, or a log file to discover that sensitive request payloads were written into traces.",
+          "userVoice": "User, review and community signals are deliberately downgraded. WIRED and The Verge can identify ownership friction and hands-on failures; Reddit can show what people expected to use daily; 36Kr can show China ecosystem framing; Kickstarter can show launch intent; patent filings can show design directions. None of these alone proves broad adoption, final hardware quality, shipment reliability or future roadmap. When no direct user quote is present in a cited source, this dossier marks user voice as source not stated.",
+          "newTech": "New technology in the issue includes on-device audio enhancement being metered as a subscription feature, multimodal image-to-video creation with conversational editing, an Interactions API that represents work as a persistent resource, terminal agents with trace and privacy responsibilities, private micro-LED glasses displays, camera-free wearable designs, China service-ecosystem glasses, contextual voice-command patents, gaze-based UI patents and research questions around computer-use transparency. The newness is less the model and more the control surface around the model.",
+          "availability": "Availability: Limited testing; options vary by location and account type. Meta Help says no subscription is required for AI glasses, but extended usage of Conversation Focus is tied to Meta One Premium. WIRED and The Verge frame the change as a paid cap on an existing on-device feature. Price is reported by media as about $19.99 or $20 per month; exact local price is source-dependent. Unstated items remain source not stated. The missing items are often the most consequential for users: region locks, exact local prices, enterprise defaults, refund paths, support commitments, chipsets, storage, battery, microphone array, model routing, privacy retention, and whether the beta flow is the same flow a paying customer will receive.",
+          "limitsOrUnknowns": "Limits and unknowns: source not stated details are not inferred. The main risks to track are whether subscription-gated on-device features damage hardware ownership expectations; whether generative-media session APIs can preserve edit intent over multiple turns; whether terminal agents expose enough privacy state for trust; whether smart glasses work outdoors, in noisy rooms, with private audio, and without constant phone fallback; and whether patent or research patterns become shipping interactions rather than legal or academic artifacts.",
+          "productVerdict": "Product read: Meta One / Conversation Focus matters only if it converts a user goal into controllable action. The strongest July 2 signal is that AI capability is moving out of the chat box and into device ownership, developer APIs, logs, payments and wearables. That raises the design bar. The user impact is direct: people need to see what capability they have, how much they can use, what it costs, what data is touched, and how to stop or reverse it. A product that does that can feel like assistance. A product that hides it becomes automation debt."
+        }
+      }
+    },
+    {
+      "id": "omni",
+      "section": "global",
+      "zhHeadline": "Gemini Omni Flash 与 Nano Banana 2 Lite 形成生成媒体工作流",
+      "enHeadline": "Gemini Omni Flash and Nano Banana 2 Lite become a media workflow",
+      "visual": {
+        "path": "assets/gemini-omni-media-stack.svg",
+        "width": 1200,
+        "height": 760,
+        "altZh": "自绘证据图：Gemini Omni Flash and Nano Banana 2 Lite become a media workflow",
+        "altEn": "Self-drawn evidence diagram: Gemini Omni Flash and Nano Banana 2 Lite become a media workflow",
+        "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
+        "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
+        "sourceUrl": "https://purryc.github.io/ai-daily/2026-07-02/sources.md"
+      },
+      "sources": [
+        {
+          "label": "Google: Nano Banana 2 Lite and Gemini Omni Flash",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/"
+        },
+        {
+          "label": "Google AI: Gemini Interactions API reference",
+          "url": "https://ai.google.dev/api/interactions-api"
+        }
+      ],
+      "evidenceLabel": "developer surface",
+      "evidenceStrength": "developer surface",
+      "dossierKind": "product",
+      "dossier": {
+        "zh": {
+          "productName": "Gemini Omni Flash + Nano Banana 2 Lite",
+          "productType": "Gemini Omni Flash + Nano Banana 2 Lite 在本期被归类为developer generative-media workflow for image drafting and conversational video editing。证据强度是 developer surface；只有来源明确写到的规格、价格、区域、传感器、芯片、OS/API 版本、可用性和用户原声才进入事实层。没有写出的部分统一标为 source not stated。本期关注它作为用户界面的真实触点：用户从哪里进入、怎样发起任务、系统读取什么、何时收费或确认、失败后怎样恢复。",
+          "interactionFlow": "交互流程：A builder drafts images with Nano Banana 2 Lite, passes a selected image into Gemini Omni Flash, then edits or generates video through natural-language turns that can combine text, image and video inputs. Google describes demo apps such as Anywhere, Space Lift and Omni product studio where image selection becomes video generation. The interaction design shift is from one-shot prompt output to a session where a user iterates, selects, and revises audiovisual state. 对产品设计最关键的不是“有 AI”，而是用户是否能在 16:9 的实际页面和真实设备里看懂状态。入口、权限、上下文、执行、反馈、停止、撤销是同一条链路；任何一环被隐藏，用户都会把自动化当成不可控黑箱。",
+          "specsOrStack": "硬件/API/系统栈：Nano Banana 2 Lite in Google AI Studio, Gemini API and Gemini Enterprise Agent Platform; Gemini Omni Flash preview in AI Studio, Gemini API, Gemini app and Google Flow; Interactions API for multi-turn sessions; SynthID watermarking and verification surfaces. 这部分不补写营销稿没有披露的参数；如果来源只给了 API、beta、public preview、订阅、众筹或专利，本期也只按对应证据强度处理。",
+          "useCases": "具体用例集中在可穿戴听觉增强、眼镜端翻译/导航/字幕、创意视频多轮编辑、终端/浏览器里的工程 agent、服务生态闭环和研究/专利中的下一代输入控制。用户价值来自少搬运上下文、少切换设备、少手动整理，但高信任场景必须保留确认、审计和退路。",
+          "painPointsSolved": "解决痛点：把手机、网页、终端、相册、视频、会议、地图、本地生活服务与眼镜/桌面 agent 之间的上下文搬运交给系统承担。对用户的影响是操作步骤减少，但代价可能是订阅边界、权限边界和错误边界变得更难看见，所以界面必须主动解释系统正在做什么。",
+          "userVoice": "用户/评测信号：本期把 WIRED、The Verge、Reddit、36Kr 和 Kickstarter 类来源降级读取。评测可以证明摩擦真实存在，社区可以提示痛点但不能单独证明事实，媒体市场份额和众筹承诺不能当成最终发货事实。没有直接用户 quote 的地方写 source not stated。",
+          "newTech": "新技术：端侧音频增强的订阅化、可穿戴 AI 入口、多模态生成媒体、会话式 video editing、Interaction resource API、终端 agent 审计日志、眼镜中的服务闭环、contextual voice command、gaze UI 和研究中的 computer-use 可解释性。",
+          "availability": "可用性：Google says Nano Banana 2 Lite is available in AI Studio, Gemini API and Gemini Enterprise Agent Platform, and rolling into consumer surfaces. Gemini Omni Flash is in public preview in Google AI Studio and Gemini API. Source-backed numbers: Nano Banana 2 Lite text-to-image outputs in 4 seconds; cost $0.034 per 1K image. Gemini Omni Flash video output is priced at $0.10 per second; current generations are 10 seconds; API audio reference upload and scene extension are not yet supported. 不确定项包括地区、企业策略、长期支持、库存、退订/退款、具体硬件 BOM、隐私保留期、模型/端云比例、生产版本是否保持 beta 行为。",
+          "limitsOrUnknowns": "限制/未知：source not stated 的地方不推断。当前最需要继续追踪的是端侧功能被订阅化后用户是否仍认为自己“拥有”硬件功能；生成媒体 API 的多轮编辑是否足够稳定；眼镜显示在户外、噪音、隐私、消息回复和导航启动上的摩擦；专利和研究是否真正落成可用产品。",
+          "productVerdict": "产品判断：Gemini Omni Flash + Nano Banana 2 Lite 的价值取决于能否把用户目标变成可控行动，而不是把模型能力堆到功能列表。对 HCI 来说，胜负点是状态透明、边界明确、视觉/听觉反馈不过载、出错可恢复。今天最强信号是：AI 产品的商业模式正在进入设备层，界面设计必须把“能力、用量、价格、权限和退路”放在同一个可理解的画面里。"
+        },
+        "en": {
+          "productName": "Gemini Omni Flash + Nano Banana 2 Lite",
+          "productType": "Gemini Omni Flash + Nano Banana 2 Lite is treated in this issue as developer generative-media workflow for image drafting and conversational video editing. Evidence strength is developer surface. The dossier only promotes source-backed facts. If a source does not state a specification, price, supported region, sensor, chipset, operating-system version, API version, availability detail, or direct user quote, the field says source not stated rather than inventing a value. The product question is not whether the company used the word AI; it is where the user enters the flow, what the system reads, what it is allowed to do, how the user sees progress, when money or permission gates appear, and how the user recovers when the system gets a task wrong.",
+          "interactionFlow": "Interaction flow: A builder drafts images with Nano Banana 2 Lite, passes a selected image into Gemini Omni Flash, then edits or generates video through natural-language turns that can combine text, image and video inputs. Google describes demo apps such as Anywhere, Space Lift and Omni product studio where image selection becomes video generation. The interaction design shift is from one-shot prompt output to a session where a user iterates, selects, and revises audiovisual state. The user-facing design problem is the same across glasses, media APIs, terminal agents and research surfaces: entry point, permission, context, execution, feedback, stop and undo are one chain. If one link is hidden, delegation stops feeling helpful and starts feeling opaque. A magazine page can summarize the chain, but the actual product has to show it at runtime through usage meters, mode labels, captions, progress states, confirmation moments and recoverable errors.",
+          "specsOrStack": "Hardware, API and system stack: Nano Banana 2 Lite in Google AI Studio, Gemini API and Gemini Enterprise Agent Platform; Gemini Omni Flash preview in AI Studio, Gemini API, Gemini app and Google Flow; Interactions API for multi-turn sessions; SynthID watermarking and verification surfaces. This issue does not fill in marketing blanks. A beta remains a beta, a patent remains a patent signal, a crowdfunding promise remains weak until delivery evidence exists, and a developer API remains a developer surface until a consumer product exposes the workflow. That distinction matters because users experience the product through affordances, limits and support paths, not through a model family name.",
+          "useCases": "Concrete use cases include wearable speech enhancement in noisy environments, smart-glasses translation and navigation, captioning and teleprompter overlays, conversational video editing, rapid image ideation feeding video generation, terminal-based coding agents, API-managed multi-turn tasks, phone-to-glasses local-service execution, and future gaze or contextual voice controls. The common pain is context transfer: moving from phone to glasses, from prompt to media timeline, from terminal to repository, or from service intent to completed transaction.",
+          "painPointsSolved": "The pain point solved is the manual work of carrying context between hardware, software, services and sensory input. A good implementation removes steps without removing user agency. A poor implementation hides the cost, the permission boundary, or the failure state. For product teams, the practical implication is that agentic interfaces need usage surfaces, audit surfaces and action surfaces together. A user should not need a help article to learn that a device feature has a monthly cap, or a log file to discover that sensitive request payloads were written into traces.",
+          "userVoice": "User, review and community signals are deliberately downgraded. WIRED and The Verge can identify ownership friction and hands-on failures; Reddit can show what people expected to use daily; 36Kr can show China ecosystem framing; Kickstarter can show launch intent; patent filings can show design directions. None of these alone proves broad adoption, final hardware quality, shipment reliability or future roadmap. When no direct user quote is present in a cited source, this dossier marks user voice as source not stated.",
+          "newTech": "New technology in the issue includes on-device audio enhancement being metered as a subscription feature, multimodal image-to-video creation with conversational editing, an Interactions API that represents work as a persistent resource, terminal agents with trace and privacy responsibilities, private micro-LED glasses displays, camera-free wearable designs, China service-ecosystem glasses, contextual voice-command patents, gaze-based UI patents and research questions around computer-use transparency. The newness is less the model and more the control surface around the model.",
+          "availability": "Availability: Google says Nano Banana 2 Lite is available in AI Studio, Gemini API and Gemini Enterprise Agent Platform, and rolling into consumer surfaces. Gemini Omni Flash is in public preview in Google AI Studio and Gemini API. Source-backed numbers: Nano Banana 2 Lite text-to-image outputs in 4 seconds; cost $0.034 per 1K image. Gemini Omni Flash video output is priced at $0.10 per second; current generations are 10 seconds; API audio reference upload and scene extension are not yet supported. Unstated items remain source not stated. The missing items are often the most consequential for users: region locks, exact local prices, enterprise defaults, refund paths, support commitments, chipsets, storage, battery, microphone array, model routing, privacy retention, and whether the beta flow is the same flow a paying customer will receive.",
+          "limitsOrUnknowns": "Limits and unknowns: source not stated details are not inferred. The main risks to track are whether subscription-gated on-device features damage hardware ownership expectations; whether generative-media session APIs can preserve edit intent over multiple turns; whether terminal agents expose enough privacy state for trust; whether smart glasses work outdoors, in noisy rooms, with private audio, and without constant phone fallback; and whether patent or research patterns become shipping interactions rather than legal or academic artifacts.",
+          "productVerdict": "Product read: Gemini Omni Flash + Nano Banana 2 Lite matters only if it converts a user goal into controllable action. The strongest July 2 signal is that AI capability is moving out of the chat box and into device ownership, developer APIs, logs, payments and wearables. That raises the design bar. The user impact is direct: people need to see what capability they have, how much they can use, what it costs, what data is touched, and how to stop or reverse it. A product that does that can feel like assistance. A product that hides it becomes automation debt."
+        }
+      }
+    },
+    {
+      "id": "codex",
+      "section": "community",
+      "zhHeadline": "Codex CLI 0.142.5 把 trace 隐私变成 agent 产品面",
+      "enHeadline": "Codex CLI 0.142.5 makes trace privacy a product surface",
+      "visual": {
+        "path": "assets/codex-cli-security-surface.svg",
+        "width": 1200,
+        "height": 760,
+        "altZh": "自绘证据图：Codex CLI 0.142.5 makes trace privacy a product surface",
+        "altEn": "Self-drawn evidence diagram: Codex CLI 0.142.5 makes trace privacy a product surface",
+        "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
+        "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
+        "sourceUrl": "https://purryc.github.io/ai-daily/2026-07-02/sources.md"
+      },
+      "sources": [
+        {
+          "label": "OpenAI Developers: Codex changelog",
+          "url": "https://developers.openai.com/codex/changelog"
+        },
+        {
+          "label": "OpenAI: Codex product page",
+          "url": "https://openai.com/codex/"
+        }
+      ],
+      "evidenceLabel": "developer surface",
+      "evidenceStrength": "developer surface",
+      "dossierKind": "product",
+      "dossier": {
+        "zh": {
+          "productName": "OpenAI Codex CLI 0.142.5",
+          "productType": "OpenAI Codex CLI 0.142.5 在本期被归类为developer agent release with privacy/security interface change。证据强度是 developer surface；只有来源明确写到的规格、价格、区域、传感器、芯片、OS/API 版本、可用性和用户原声才进入事实层。没有写出的部分统一标为 source not stated。本期关注它作为用户界面的真实触点：用户从哪里进入、怎样发起任务、系统读取什么、何时收费或确认、失败后怎样恢复。",
+          "interactionFlow": "交互流程：A developer updates with npm install -g @openai/codex@0.142.5. The user-facing action is small, but the product surface is important: traces are part of the debugging and audit interface for an agentic coding tool. The release prevents full Responses WebSocket request payloads from being written to trace logs, converting a low-level logging bug into a trust and data-minimization affordance. 对产品设计最关键的不是“有 AI”，而是用户是否能在 16:9 的实际页面和真实设备里看懂状态。入口、权限、上下文、执行、反馈、停止、撤销是同一条链路；任何一环被隐藏，用户都会把自动化当成不可控黑箱。",
+          "specsOrStack": "硬件/API/系统栈：@openai/codex npm package, Codex CLI, Responses WebSocket tracing, GitHub release notes, local terminal workflow. Source not stated for model routing, enterprise rollout, or whether all desktop app traces were affected. 这部分不补写营销稿没有披露的参数；如果来源只给了 API、beta、public preview、订阅、众筹或专利，本期也只按对应证据强度处理。",
+          "useCases": "具体用例集中在可穿戴听觉增强、眼镜端翻译/导航/字幕、创意视频多轮编辑、终端/浏览器里的工程 agent、服务生态闭环和研究/专利中的下一代输入控制。用户价值来自少搬运上下文、少切换设备、少手动整理，但高信任场景必须保留确认、审计和退路。",
+          "painPointsSolved": "解决痛点：把手机、网页、终端、相册、视频、会议、地图、本地生活服务与眼镜/桌面 agent 之间的上下文搬运交给系统承担。对用户的影响是操作步骤减少，但代价可能是订阅边界、权限边界和错误边界变得更难看见，所以界面必须主动解释系统正在做什么。",
+          "userVoice": "用户/评测信号：本期把 WIRED、The Verge、Reddit、36Kr 和 Kickstarter 类来源降级读取。评测可以证明摩擦真实存在，社区可以提示痛点但不能单独证明事实，媒体市场份额和众筹承诺不能当成最终发货事实。没有直接用户 quote 的地方写 source not stated。",
+          "newTech": "新技术：端侧音频增强的订阅化、可穿戴 AI 入口、多模态生成媒体、会话式 video editing、Interaction resource API、终端 agent 审计日志、眼镜中的服务闭环、contextual voice command、gaze UI 和研究中的 computer-use 可解释性。",
+          "availability": "可用性：OpenAI Developers changelog lists the July 1, 2026 Codex CLI 0.142.5 release and the bug fix. The product page positions Codex as an AI coding partner across local and remote work. No new hardware, subscription, or UI redesign is stated in this release; it is a confirmed developer-product patch, not a broad consumer feature launch. 不确定项包括地区、企业策略、长期支持、库存、退订/退款、具体硬件 BOM、隐私保留期、模型/端云比例、生产版本是否保持 beta 行为。",
+          "limitsOrUnknowns": "限制/未知：source not stated 的地方不推断。当前最需要继续追踪的是端侧功能被订阅化后用户是否仍认为自己“拥有”硬件功能；生成媒体 API 的多轮编辑是否足够稳定；眼镜显示在户外、噪音、隐私、消息回复和导航启动上的摩擦；专利和研究是否真正落成可用产品。",
+          "productVerdict": "产品判断：OpenAI Codex CLI 0.142.5 的价值取决于能否把用户目标变成可控行动，而不是把模型能力堆到功能列表。对 HCI 来说，胜负点是状态透明、边界明确、视觉/听觉反馈不过载、出错可恢复。今天最强信号是：AI 产品的商业模式正在进入设备层，界面设计必须把“能力、用量、价格、权限和退路”放在同一个可理解的画面里。"
+        },
+        "en": {
+          "productName": "OpenAI Codex CLI 0.142.5",
+          "productType": "OpenAI Codex CLI 0.142.5 is treated in this issue as developer agent release with privacy/security interface change. Evidence strength is developer surface. The dossier only promotes source-backed facts. If a source does not state a specification, price, supported region, sensor, chipset, operating-system version, API version, availability detail, or direct user quote, the field says source not stated rather than inventing a value. The product question is not whether the company used the word AI; it is where the user enters the flow, what the system reads, what it is allowed to do, how the user sees progress, when money or permission gates appear, and how the user recovers when the system gets a task wrong.",
+          "interactionFlow": "Interaction flow: A developer updates with npm install -g @openai/codex@0.142.5. The user-facing action is small, but the product surface is important: traces are part of the debugging and audit interface for an agentic coding tool. The release prevents full Responses WebSocket request payloads from being written to trace logs, converting a low-level logging bug into a trust and data-minimization affordance. The user-facing design problem is the same across glasses, media APIs, terminal agents and research surfaces: entry point, permission, context, execution, feedback, stop and undo are one chain. If one link is hidden, delegation stops feeling helpful and starts feeling opaque. A magazine page can summarize the chain, but the actual product has to show it at runtime through usage meters, mode labels, captions, progress states, confirmation moments and recoverable errors.",
+          "specsOrStack": "Hardware, API and system stack: @openai/codex npm package, Codex CLI, Responses WebSocket tracing, GitHub release notes, local terminal workflow. Source not stated for model routing, enterprise rollout, or whether all desktop app traces were affected. This issue does not fill in marketing blanks. A beta remains a beta, a patent remains a patent signal, a crowdfunding promise remains weak until delivery evidence exists, and a developer API remains a developer surface until a consumer product exposes the workflow. That distinction matters because users experience the product through affordances, limits and support paths, not through a model family name.",
+          "useCases": "Concrete use cases include wearable speech enhancement in noisy environments, smart-glasses translation and navigation, captioning and teleprompter overlays, conversational video editing, rapid image ideation feeding video generation, terminal-based coding agents, API-managed multi-turn tasks, phone-to-glasses local-service execution, and future gaze or contextual voice controls. The common pain is context transfer: moving from phone to glasses, from prompt to media timeline, from terminal to repository, or from service intent to completed transaction.",
+          "painPointsSolved": "The pain point solved is the manual work of carrying context between hardware, software, services and sensory input. A good implementation removes steps without removing user agency. A poor implementation hides the cost, the permission boundary, or the failure state. For product teams, the practical implication is that agentic interfaces need usage surfaces, audit surfaces and action surfaces together. A user should not need a help article to learn that a device feature has a monthly cap, or a log file to discover that sensitive request payloads were written into traces.",
+          "userVoice": "User, review and community signals are deliberately downgraded. WIRED and The Verge can identify ownership friction and hands-on failures; Reddit can show what people expected to use daily; 36Kr can show China ecosystem framing; Kickstarter can show launch intent; patent filings can show design directions. None of these alone proves broad adoption, final hardware quality, shipment reliability or future roadmap. When no direct user quote is present in a cited source, this dossier marks user voice as source not stated.",
+          "newTech": "New technology in the issue includes on-device audio enhancement being metered as a subscription feature, multimodal image-to-video creation with conversational editing, an Interactions API that represents work as a persistent resource, terminal agents with trace and privacy responsibilities, private micro-LED glasses displays, camera-free wearable designs, China service-ecosystem glasses, contextual voice-command patents, gaze-based UI patents and research questions around computer-use transparency. The newness is less the model and more the control surface around the model.",
+          "availability": "Availability: OpenAI Developers changelog lists the July 1, 2026 Codex CLI 0.142.5 release and the bug fix. The product page positions Codex as an AI coding partner across local and remote work. No new hardware, subscription, or UI redesign is stated in this release; it is a confirmed developer-product patch, not a broad consumer feature launch. Unstated items remain source not stated. The missing items are often the most consequential for users: region locks, exact local prices, enterprise defaults, refund paths, support commitments, chipsets, storage, battery, microphone array, model routing, privacy retention, and whether the beta flow is the same flow a paying customer will receive.",
+          "limitsOrUnknowns": "Limits and unknowns: source not stated details are not inferred. The main risks to track are whether subscription-gated on-device features damage hardware ownership expectations; whether generative-media session APIs can preserve edit intent over multiple turns; whether terminal agents expose enough privacy state for trust; whether smart glasses work outdoors, in noisy rooms, with private audio, and without constant phone fallback; and whether patent or research patterns become shipping interactions rather than legal or academic artifacts.",
+          "productVerdict": "Product read: OpenAI Codex CLI 0.142.5 matters only if it converts a user goal into controllable action. The strongest July 2 signal is that AI capability is moving out of the chat box and into device ownership, developer APIs, logs, payments and wearables. That raises the design bar. The user impact is direct: people need to see what capability they have, how much they can use, what it costs, what data is touched, and how to stop or reverse it. A product that does that can feel like assistance. A product that hides it becomes automation debt."
+        }
+      }
+    },
+    {
+      "id": "interactions",
+      "section": "official",
+      "zhHeadline": "Gemini Interactions API 把 agent 调用包装成可追踪资源",
+      "enHeadline": "Gemini Interactions API packages agent calls as trackable resources",
+      "visual": {
+        "path": "assets/interactions-api-agent-surface.svg",
+        "width": 1200,
+        "height": 760,
+        "altZh": "自绘证据图：Gemini Interactions API packages agent calls as trackable resources",
+        "altEn": "Self-drawn evidence diagram: Gemini Interactions API packages agent calls as trackable resources",
+        "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
+        "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
+        "sourceUrl": "https://purryc.github.io/ai-daily/2026-07-02/sources.md"
+      },
+      "sources": [
+        {
+          "label": "Google AI: Gemini Interactions API reference",
+          "url": "https://ai.google.dev/api/interactions-api"
+        },
+        {
+          "label": "Google: Nano Banana 2 Lite and Gemini Omni Flash",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/"
+        }
+      ],
+      "evidenceLabel": "developer surface",
+      "evidenceStrength": "developer surface",
+      "dossierKind": "product",
+      "dossier": {
+        "zh": {
+          "productName": "Gemini Interactions API",
+          "productType": "Gemini Interactions API 在本期被归类为agent/model API surface for persistent interaction resources。证据强度是 developer surface；只有来源明确写到的规格、价格、区域、传感器、芯片、OS/API 版本、可用性和用户原声才进入事实层。没有写出的部分统一标为 source not stated。本期关注它作为用户界面的真实触点：用户从哪里进入、怎样发起任务、系统读取什么、何时收费或确认、失败后怎样恢复。",
+          "interactionFlow": "交互流程：The developer creates an interaction resource rather than firing a bare prompt. A request can specify a Gemini model or a managed agent, include tools and configuration, stream or run in background, preserve prior interaction context, and return steps plus usage accounting. The UX implication is that product teams can expose inspectable progress, retries, webhooks and modal outputs instead of hiding agent work behind a single chat completion. 对产品设计最关键的不是“有 AI”，而是用户是否能在 16:9 的实际页面和真实设备里看懂状态。入口、权限、上下文、执行、反馈、停止、撤销是同一条链路；任何一环被隐藏，用户都会把自动化当成不可控黑箱。",
+          "specsOrStack": "硬件/API/系统栈：POST /v1beta/interactions; stable v1 also available; model or agent selection; tools, response format, streaming, storage, background execution, webhook config, service tiers, previous_interaction_id, and response modalities including text, image, audio, video, and document. 这部分不补写营销稿没有披露的参数；如果来源只给了 API、beta、public preview、订阅、众筹或专利，本期也只按对应证据强度处理。",
+          "useCases": "具体用例集中在可穿戴听觉增强、眼镜端翻译/导航/字幕、创意视频多轮编辑、终端/浏览器里的工程 agent、服务生态闭环和研究/专利中的下一代输入控制。用户价值来自少搬运上下文、少切换设备、少手动整理，但高信任场景必须保留确认、审计和退路。",
+          "painPointsSolved": "解决痛点：把手机、网页、终端、相册、视频、会议、地图、本地生活服务与眼镜/桌面 agent 之间的上下文搬运交给系统承担。对用户的影响是操作步骤减少，但代价可能是订阅边界、权限边界和错误边界变得更难看见，所以界面必须主动解释系统正在做什么。",
+          "userVoice": "用户/评测信号：本期把 WIRED、The Verge、Reddit、36Kr 和 Kickstarter 类来源降级读取。评测可以证明摩擦真实存在，社区可以提示痛点但不能单独证明事实，媒体市场份额和众筹承诺不能当成最终发货事实。没有直接用户 quote 的地方写 source not stated。",
+          "newTech": "新技术：端侧音频增强的订阅化、可穿戴 AI 入口、多模态生成媒体、会话式 video editing、Interaction resource API、终端 agent 审计日志、眼镜中的服务闭环、contextual voice command、gaze UI 和研究中的 computer-use 可解释性。",
+          "availability": "可用性：The documentation says the Interactions API is recommended for the latest features and models, shows beta /v1beta endpoints, and notes a stable v1 version is also available. It lists many models and managed agent options. Source not stated for regional quotas, exact pricing for every model, enterprise SLA, or app-level consent UI. 不确定项包括地区、企业策略、长期支持、库存、退订/退款、具体硬件 BOM、隐私保留期、模型/端云比例、生产版本是否保持 beta 行为。",
+          "limitsOrUnknowns": "限制/未知：source not stated 的地方不推断。当前最需要继续追踪的是端侧功能被订阅化后用户是否仍认为自己“拥有”硬件功能；生成媒体 API 的多轮编辑是否足够稳定；眼镜显示在户外、噪音、隐私、消息回复和导航启动上的摩擦；专利和研究是否真正落成可用产品。",
+          "productVerdict": "产品判断：Gemini Interactions API 的价值取决于能否把用户目标变成可控行动，而不是把模型能力堆到功能列表。对 HCI 来说，胜负点是状态透明、边界明确、视觉/听觉反馈不过载、出错可恢复。今天最强信号是：AI 产品的商业模式正在进入设备层，界面设计必须把“能力、用量、价格、权限和退路”放在同一个可理解的画面里。"
+        },
+        "en": {
+          "productName": "Gemini Interactions API",
+          "productType": "Gemini Interactions API is treated in this issue as agent/model API surface for persistent interaction resources. Evidence strength is developer surface. The dossier only promotes source-backed facts. If a source does not state a specification, price, supported region, sensor, chipset, operating-system version, API version, availability detail, or direct user quote, the field says source not stated rather than inventing a value. The product question is not whether the company used the word AI; it is where the user enters the flow, what the system reads, what it is allowed to do, how the user sees progress, when money or permission gates appear, and how the user recovers when the system gets a task wrong.",
+          "interactionFlow": "Interaction flow: The developer creates an interaction resource rather than firing a bare prompt. A request can specify a Gemini model or a managed agent, include tools and configuration, stream or run in background, preserve prior interaction context, and return steps plus usage accounting. The UX implication is that product teams can expose inspectable progress, retries, webhooks and modal outputs instead of hiding agent work behind a single chat completion. The user-facing design problem is the same across glasses, media APIs, terminal agents and research surfaces: entry point, permission, context, execution, feedback, stop and undo are one chain. If one link is hidden, delegation stops feeling helpful and starts feeling opaque. A magazine page can summarize the chain, but the actual product has to show it at runtime through usage meters, mode labels, captions, progress states, confirmation moments and recoverable errors.",
+          "specsOrStack": "Hardware, API and system stack: POST /v1beta/interactions; stable v1 also available; model or agent selection; tools, response format, streaming, storage, background execution, webhook config, service tiers, previous_interaction_id, and response modalities including text, image, audio, video, and document. This issue does not fill in marketing blanks. A beta remains a beta, a patent remains a patent signal, a crowdfunding promise remains weak until delivery evidence exists, and a developer API remains a developer surface until a consumer product exposes the workflow. That distinction matters because users experience the product through affordances, limits and support paths, not through a model family name.",
+          "useCases": "Concrete use cases include wearable speech enhancement in noisy environments, smart-glasses translation and navigation, captioning and teleprompter overlays, conversational video editing, rapid image ideation feeding video generation, terminal-based coding agents, API-managed multi-turn tasks, phone-to-glasses local-service execution, and future gaze or contextual voice controls. The common pain is context transfer: moving from phone to glasses, from prompt to media timeline, from terminal to repository, or from service intent to completed transaction.",
+          "painPointsSolved": "The pain point solved is the manual work of carrying context between hardware, software, services and sensory input. A good implementation removes steps without removing user agency. A poor implementation hides the cost, the permission boundary, or the failure state. For product teams, the practical implication is that agentic interfaces need usage surfaces, audit surfaces and action surfaces together. A user should not need a help article to learn that a device feature has a monthly cap, or a log file to discover that sensitive request payloads were written into traces.",
+          "userVoice": "User, review and community signals are deliberately downgraded. WIRED and The Verge can identify ownership friction and hands-on failures; Reddit can show what people expected to use daily; 36Kr can show China ecosystem framing; Kickstarter can show launch intent; patent filings can show design directions. None of these alone proves broad adoption, final hardware quality, shipment reliability or future roadmap. When no direct user quote is present in a cited source, this dossier marks user voice as source not stated.",
+          "newTech": "New technology in the issue includes on-device audio enhancement being metered as a subscription feature, multimodal image-to-video creation with conversational editing, an Interactions API that represents work as a persistent resource, terminal agents with trace and privacy responsibilities, private micro-LED glasses displays, camera-free wearable designs, China service-ecosystem glasses, contextual voice-command patents, gaze-based UI patents and research questions around computer-use transparency. The newness is less the model and more the control surface around the model.",
+          "availability": "Availability: The documentation says the Interactions API is recommended for the latest features and models, shows beta /v1beta endpoints, and notes a stable v1 version is also available. It lists many models and managed agent options. Source not stated for regional quotas, exact pricing for every model, enterprise SLA, or app-level consent UI. Unstated items remain source not stated. The missing items are often the most consequential for users: region locks, exact local prices, enterprise defaults, refund paths, support commitments, chipsets, storage, battery, microphone array, model routing, privacy retention, and whether the beta flow is the same flow a paying customer will receive.",
+          "limitsOrUnknowns": "Limits and unknowns: source not stated details are not inferred. The main risks to track are whether subscription-gated on-device features damage hardware ownership expectations; whether generative-media session APIs can preserve edit intent over multiple turns; whether terminal agents expose enough privacy state for trust; whether smart glasses work outdoors, in noisy rooms, with private audio, and without constant phone fallback; and whether patent or research patterns become shipping interactions rather than legal or academic artifacts.",
+          "productVerdict": "Product read: Gemini Interactions API matters only if it converts a user goal into controllable action. The strongest July 2 signal is that AI capability is moving out of the chat box and into device ownership, developer APIs, logs, payments and wearables. That raises the design bar. The user impact is direct: people need to see what capability they have, how much they can use, what it costs, what data is touched, and how to stop or reverse it. A product that does that can feel like assistance. A product that hides it becomes automation debt."
+        }
+      }
+    },
+    {
+      "id": "xgimi",
+      "section": "reviews",
+      "zhHeadline": "Xgimi MemoMind One 证明无摄像头眼镜仍会卡在手机依赖",
+      "enHeadline": "Xgimi MemoMind One shows camera-free glasses still depend on the phone",
+      "visual": {
+        "path": "assets/xgimi-memomind-one.svg",
+        "width": 1200,
+        "height": 760,
+        "altZh": "自绘证据图：Xgimi MemoMind One shows camera-free glasses still depend on the phone",
+        "altEn": "Self-drawn evidence diagram: Xgimi MemoMind One shows camera-free glasses still depend on the phone",
+        "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
+        "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
+        "sourceUrl": "https://purryc.github.io/ai-daily/2026-07-02/sources.md"
+      },
+      "sources": [
+        {
+          "label": "The Verge: Xgimi MemoMind One hands-on",
+          "url": "https://www.theverge.com/tech/957933/xgimi-memomind-one-ai-smart-glasses-kickstarter-hands-on"
+        },
+        {
+          "label": "Kickstarter: Xgimi MemoMind One campaign",
+          "url": "https://www.kickstarter.com/projects/xgimi/memomind-one-ai-smart-glasses"
+        }
+      ],
+      "evidenceLabel": "review/community friction",
+      "evidenceStrength": "review/community friction",
+      "dossierKind": "product",
+      "dossier": {
+        "zh": {
+          "productName": "Xgimi MemoMind One",
+          "productType": "Xgimi MemoMind One 在本期被归类为camera-free smart glasses with private green display and AI assistant。证据强度是 review/community friction；只有来源明确写到的规格、价格、区域、传感器、芯片、OS/API 版本、可用性和用户原声才进入事实层。没有写出的部分统一标为 source not stated。本期关注它作为用户界面的真实触点：用户从哪里进入、怎样发起任务、系统读取什么、何时收费或确认、失败后怎样恢复。",
+          "interactionFlow": "交互流程：A wearer raises their head or presses the single button to view time, battery, weather and customizable widgets. Press-and-hold or voice invokes the assistant; double-press opens Quick Launch. Translation, navigation and language choice still require phone-app setup in the tested beta, so the promised hands-free assistant loop breaks whenever the wearer must pull out the phone. 对产品设计最关键的不是“有 AI”，而是用户是否能在 16:9 的实际页面和真实设备里看懂状态。入口、权限、上下文、执行、反馈、停止、撤销是同一条链路；任何一环被隐藏，用户都会把自动化当成不可控黑箱。",
+          "specsOrStack": "硬件/API/系统栈：dual micro-LED projectors, transparent waveguide prisms, Harman Kardon speakers, single right-hinge button, mobile app, AI assistant, teleprompter, captioning, recorder/transcription, translation and maps. Source not stated for processor, OS, RAM/storage and exact model provider routing in the Verge hands-on. 这部分不补写营销稿没有披露的参数；如果来源只给了 API、beta、public preview、订阅、众筹或专利，本期也只按对应证据强度处理。",
+          "useCases": "具体用例集中在可穿戴听觉增强、眼镜端翻译/导航/字幕、创意视频多轮编辑、终端/浏览器里的工程 agent、服务生态闭环和研究/专利中的下一代输入控制。用户价值来自少搬运上下文、少切换设备、少手动整理，但高信任场景必须保留确认、审计和退路。",
+          "painPointsSolved": "解决痛点：把手机、网页、终端、相册、视频、会议、地图、本地生活服务与眼镜/桌面 agent 之间的上下文搬运交给系统承担。对用户的影响是操作步骤减少，但代价可能是订阅边界、权限边界和错误边界变得更难看见，所以界面必须主动解释系统正在做什么。",
+          "userVoice": "用户/评测信号：本期把 WIRED、The Verge、Reddit、36Kr 和 Kickstarter 类来源降级读取。评测可以证明摩擦真实存在，社区可以提示痛点但不能单独证明事实，媒体市场份额和众筹承诺不能当成最终发货事实。没有直接用户 quote 的地方写 source not stated。",
+          "newTech": "新技术：端侧音频增强的订阅化、可穿戴 AI 入口、多模态生成媒体、会话式 video editing、Interaction resource API、终端 agent 审计日志、眼镜中的服务闭环、contextual voice command、gaze UI 和研究中的 computer-use 可解释性。",
+          "availability": "可用性：The Verge says Kickstarter launched June 29, 2026, planned shipping late July, full price $599 or $879 with prescription lenses, and Kickstarter discounts of $399/$499 with some style options. Review unit was beta hardware/software. The article reports about 47 grams and up to 16 hours of use, but also outdoor visibility, audio leakage, buggy app, no message replies, and proprietary charging limitations. 不确定项包括地区、企业策略、长期支持、库存、退订/退款、具体硬件 BOM、隐私保留期、模型/端云比例、生产版本是否保持 beta 行为。",
+          "limitsOrUnknowns": "限制/未知：source not stated 的地方不推断。当前最需要继续追踪的是端侧功能被订阅化后用户是否仍认为自己“拥有”硬件功能；生成媒体 API 的多轮编辑是否足够稳定；眼镜显示在户外、噪音、隐私、消息回复和导航启动上的摩擦；专利和研究是否真正落成可用产品。",
+          "productVerdict": "产品判断：Xgimi MemoMind One 的价值取决于能否把用户目标变成可控行动，而不是把模型能力堆到功能列表。对 HCI 来说，胜负点是状态透明、边界明确、视觉/听觉反馈不过载、出错可恢复。今天最强信号是：AI 产品的商业模式正在进入设备层，界面设计必须把“能力、用量、价格、权限和退路”放在同一个可理解的画面里。"
+        },
+        "en": {
+          "productName": "Xgimi MemoMind One",
+          "productType": "Xgimi MemoMind One is treated in this issue as camera-free smart glasses with private green display and AI assistant. Evidence strength is review/community friction. The dossier only promotes source-backed facts. If a source does not state a specification, price, supported region, sensor, chipset, operating-system version, API version, availability detail, or direct user quote, the field says source not stated rather than inventing a value. The product question is not whether the company used the word AI; it is where the user enters the flow, what the system reads, what it is allowed to do, how the user sees progress, when money or permission gates appear, and how the user recovers when the system gets a task wrong.",
+          "interactionFlow": "Interaction flow: A wearer raises their head or presses the single button to view time, battery, weather and customizable widgets. Press-and-hold or voice invokes the assistant; double-press opens Quick Launch. Translation, navigation and language choice still require phone-app setup in the tested beta, so the promised hands-free assistant loop breaks whenever the wearer must pull out the phone. The user-facing design problem is the same across glasses, media APIs, terminal agents and research surfaces: entry point, permission, context, execution, feedback, stop and undo are one chain. If one link is hidden, delegation stops feeling helpful and starts feeling opaque. A magazine page can summarize the chain, but the actual product has to show it at runtime through usage meters, mode labels, captions, progress states, confirmation moments and recoverable errors.",
+          "specsOrStack": "Hardware, API and system stack: dual micro-LED projectors, transparent waveguide prisms, Harman Kardon speakers, single right-hinge button, mobile app, AI assistant, teleprompter, captioning, recorder/transcription, translation and maps. Source not stated for processor, OS, RAM/storage and exact model provider routing in the Verge hands-on. This issue does not fill in marketing blanks. A beta remains a beta, a patent remains a patent signal, a crowdfunding promise remains weak until delivery evidence exists, and a developer API remains a developer surface until a consumer product exposes the workflow. That distinction matters because users experience the product through affordances, limits and support paths, not through a model family name.",
+          "useCases": "Concrete use cases include wearable speech enhancement in noisy environments, smart-glasses translation and navigation, captioning and teleprompter overlays, conversational video editing, rapid image ideation feeding video generation, terminal-based coding agents, API-managed multi-turn tasks, phone-to-glasses local-service execution, and future gaze or contextual voice controls. The common pain is context transfer: moving from phone to glasses, from prompt to media timeline, from terminal to repository, or from service intent to completed transaction.",
+          "painPointsSolved": "The pain point solved is the manual work of carrying context between hardware, software, services and sensory input. A good implementation removes steps without removing user agency. A poor implementation hides the cost, the permission boundary, or the failure state. For product teams, the practical implication is that agentic interfaces need usage surfaces, audit surfaces and action surfaces together. A user should not need a help article to learn that a device feature has a monthly cap, or a log file to discover that sensitive request payloads were written into traces.",
+          "userVoice": "User, review and community signals are deliberately downgraded. WIRED and The Verge can identify ownership friction and hands-on failures; Reddit can show what people expected to use daily; 36Kr can show China ecosystem framing; Kickstarter can show launch intent; patent filings can show design directions. None of these alone proves broad adoption, final hardware quality, shipment reliability or future roadmap. When no direct user quote is present in a cited source, this dossier marks user voice as source not stated.",
+          "newTech": "New technology in the issue includes on-device audio enhancement being metered as a subscription feature, multimodal image-to-video creation with conversational editing, an Interactions API that represents work as a persistent resource, terminal agents with trace and privacy responsibilities, private micro-LED glasses displays, camera-free wearable designs, China service-ecosystem glasses, contextual voice-command patents, gaze-based UI patents and research questions around computer-use transparency. The newness is less the model and more the control surface around the model.",
+          "availability": "Availability: The Verge says Kickstarter launched June 29, 2026, planned shipping late July, full price $599 or $879 with prescription lenses, and Kickstarter discounts of $399/$499 with some style options. Review unit was beta hardware/software. The article reports about 47 grams and up to 16 hours of use, but also outdoor visibility, audio leakage, buggy app, no message replies, and proprietary charging limitations. Unstated items remain source not stated. The missing items are often the most consequential for users: region locks, exact local prices, enterprise defaults, refund paths, support commitments, chipsets, storage, battery, microphone array, model routing, privacy retention, and whether the beta flow is the same flow a paying customer will receive.",
+          "limitsOrUnknowns": "Limits and unknowns: source not stated details are not inferred. The main risks to track are whether subscription-gated on-device features damage hardware ownership expectations; whether generative-media session APIs can preserve edit intent over multiple turns; whether terminal agents expose enough privacy state for trust; whether smart glasses work outdoors, in noisy rooms, with private audio, and without constant phone fallback; and whether patent or research patterns become shipping interactions rather than legal or academic artifacts.",
+          "productVerdict": "Product read: Xgimi MemoMind One matters only if it converts a user goal into controllable action. The strongest July 2 signal is that AI capability is moving out of the chat box and into device ownership, developer APIs, logs, payments and wearables. That raises the design bar. The user impact is direct: people need to see what capability they have, how much they can use, what it costs, what data is touched, and how to stop or reverse it. A product that does that can feel like assistance. A product that hides it becomes automation debt."
+        }
+      }
+    },
+    {
+      "id": "qwen",
+      "section": "china",
+      "zhHeadline": "千问 AI 眼镜把中国本地服务闭环搬到眼镜入口",
+      "enHeadline": "Qwen AI glasses move China local-service loops into eyewear",
+      "visual": {
+        "path": "assets/qwen-glasses-china-ecosystem.svg",
+        "width": 1200,
+        "height": 760,
+        "altZh": "自绘证据图：Qwen AI glasses move China local-service loops into eyewear",
+        "altEn": "Self-drawn evidence diagram: Qwen AI glasses move China local-service loops into eyewear",
+        "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
+        "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
+        "sourceUrl": "https://purryc.github.io/ai-daily/2026-07-02/sources.md"
+      },
+      "sources": [
+        {
+          "label": "Alibaba Cloud: Qwen Glasses at MWC Barcelona",
+          "url": "https://www.alibabacloud.com/blog/alibaba-unveils-qwen-glasses-at-mwc-barcelona-accelerating-ai-hardware-ambitions_602920"
+        },
+        {
+          "label": "36Kr: AI眼镜赛道全面崛起",
+          "url": "https://eu.36kr.com/zh/p/3855201250507656"
+        }
+      ],
+      "evidenceLabel": "confirmed product",
+      "evidenceStrength": "confirmed product",
+      "dossierKind": "product",
+      "dossier": {
+        "zh": {
+          "productName": "Qwen Glasses / 千问AI眼镜",
+          "productType": "Qwen Glasses / 千问AI眼镜 在本期被归类为China ecosystem smart-glasses product line and market scan。证据强度是 confirmed product；只有来源明确写到的规格、价格、区域、传感器、芯片、OS/API 版本、可用性和用户原声才进入事实层。没有写出的部分统一标为 source not stated。本期关注它作为用户界面的真实触点：用户从哪里进入、怎样发起任务、系统读取什么、何时收费或确认、失败后怎样恢复。",
+          "interactionFlow": "交互流程：The intended Chinese interaction loop is not only asking a glasses assistant a question; it is voice-first service execution: order food, book hotels, hail rides, check packages, scan/pay, translate, navigate, and capture meetings while staying hands-free. This is a different product grammar from western camera/audio glasses because local-service closure is part of the interface. 对产品设计最关键的不是“有 AI”，而是用户是否能在 16:9 的实际页面和真实设备里看懂状态。入口、权限、上下文、执行、反馈、停止、撤销是同一条链路；任何一环被隐藏，用户都会把自动化当成不可控黑箱。",
+          "specsOrStack": "硬件/API/系统栈：Qwen AI model/app, smart eyewear, real-time translation, HD capture, meeting transcription, visual recognition, and Alibaba service ecosystem. 36Kr describes G1 screenless and S1 display product lines and deep integration with Taobao, Amap, Alipay and Quark. Source not stated in this issue for battery, exact sensors, chipsets and international SKU availability. 这部分不补写营销稿没有披露的参数；如果来源只给了 API、beta、public preview、订阅、众筹或专利，本期也只按对应证据强度处理。",
+          "useCases": "具体用例集中在可穿戴听觉增强、眼镜端翻译/导航/字幕、创意视频多轮编辑、终端/浏览器里的工程 agent、服务生态闭环和研究/专利中的下一代输入控制。用户价值来自少搬运上下文、少切换设备、少手动整理，但高信任场景必须保留确认、审计和退路。",
+          "painPointsSolved": "解决痛点：把手机、网页、终端、相册、视频、会议、地图、本地生活服务与眼镜/桌面 agent 之间的上下文搬运交给系统承担。对用户的影响是操作步骤减少，但代价可能是订阅边界、权限边界和错误边界变得更难看见，所以界面必须主动解释系统正在做什么。",
+          "userVoice": "用户/评测信号：本期把 WIRED、The Verge、Reddit、36Kr 和 Kickstarter 类来源降级读取。评测可以证明摩擦真实存在，社区可以提示痛点但不能单独证明事实，媒体市场份额和众筹承诺不能当成最终发货事实。没有直接用户 quote 的地方写 source not stated。",
+          "newTech": "新技术：端侧音频增强的订阅化、可穿戴 AI 入口、多模态生成媒体、会话式 video editing、Interaction resource API、终端 agent 审计日志、眼镜中的服务闭环、contextual voice command、gaze UI 和研究中的 computer-use 可解释性。",
+          "availability": "可用性：Alibaba Cloud described Qwen Glasses at MWC Barcelona with agentic features rolling out in phases from late March. 36Kr reports a March 8 on-sale timing and cites AVC online retail monitoring for March-April share; those market numbers are kept as media/industry signal, not independently verified shipment fact. Overseas availability remains source not stated. 不确定项包括地区、企业策略、长期支持、库存、退订/退款、具体硬件 BOM、隐私保留期、模型/端云比例、生产版本是否保持 beta 行为。",
+          "limitsOrUnknowns": "限制/未知：source not stated 的地方不推断。当前最需要继续追踪的是端侧功能被订阅化后用户是否仍认为自己“拥有”硬件功能；生成媒体 API 的多轮编辑是否足够稳定；眼镜显示在户外、噪音、隐私、消息回复和导航启动上的摩擦；专利和研究是否真正落成可用产品。",
+          "productVerdict": "产品判断：Qwen Glasses / 千问AI眼镜 的价值取决于能否把用户目标变成可控行动，而不是把模型能力堆到功能列表。对 HCI 来说，胜负点是状态透明、边界明确、视觉/听觉反馈不过载、出错可恢复。今天最强信号是：AI 产品的商业模式正在进入设备层，界面设计必须把“能力、用量、价格、权限和退路”放在同一个可理解的画面里。"
+        },
+        "en": {
+          "productName": "Qwen Glasses / 千问AI眼镜",
+          "productType": "Qwen Glasses / 千问AI眼镜 is treated in this issue as China ecosystem smart-glasses product line and market scan. Evidence strength is confirmed product. The dossier only promotes source-backed facts. If a source does not state a specification, price, supported region, sensor, chipset, operating-system version, API version, availability detail, or direct user quote, the field says source not stated rather than inventing a value. The product question is not whether the company used the word AI; it is where the user enters the flow, what the system reads, what it is allowed to do, how the user sees progress, when money or permission gates appear, and how the user recovers when the system gets a task wrong.",
+          "interactionFlow": "Interaction flow: The intended Chinese interaction loop is not only asking a glasses assistant a question; it is voice-first service execution: order food, book hotels, hail rides, check packages, scan/pay, translate, navigate, and capture meetings while staying hands-free. This is a different product grammar from western camera/audio glasses because local-service closure is part of the interface. The user-facing design problem is the same across glasses, media APIs, terminal agents and research surfaces: entry point, permission, context, execution, feedback, stop and undo are one chain. If one link is hidden, delegation stops feeling helpful and starts feeling opaque. A magazine page can summarize the chain, but the actual product has to show it at runtime through usage meters, mode labels, captions, progress states, confirmation moments and recoverable errors.",
+          "specsOrStack": "Hardware, API and system stack: Qwen AI model/app, smart eyewear, real-time translation, HD capture, meeting transcription, visual recognition, and Alibaba service ecosystem. 36Kr describes G1 screenless and S1 display product lines and deep integration with Taobao, Amap, Alipay and Quark. Source not stated in this issue for battery, exact sensors, chipsets and international SKU availability. This issue does not fill in marketing blanks. A beta remains a beta, a patent remains a patent signal, a crowdfunding promise remains weak until delivery evidence exists, and a developer API remains a developer surface until a consumer product exposes the workflow. That distinction matters because users experience the product through affordances, limits and support paths, not through a model family name.",
+          "useCases": "Concrete use cases include wearable speech enhancement in noisy environments, smart-glasses translation and navigation, captioning and teleprompter overlays, conversational video editing, rapid image ideation feeding video generation, terminal-based coding agents, API-managed multi-turn tasks, phone-to-glasses local-service execution, and future gaze or contextual voice controls. The common pain is context transfer: moving from phone to glasses, from prompt to media timeline, from terminal to repository, or from service intent to completed transaction.",
+          "painPointsSolved": "The pain point solved is the manual work of carrying context between hardware, software, services and sensory input. A good implementation removes steps without removing user agency. A poor implementation hides the cost, the permission boundary, or the failure state. For product teams, the practical implication is that agentic interfaces need usage surfaces, audit surfaces and action surfaces together. A user should not need a help article to learn that a device feature has a monthly cap, or a log file to discover that sensitive request payloads were written into traces.",
+          "userVoice": "User, review and community signals are deliberately downgraded. WIRED and The Verge can identify ownership friction and hands-on failures; Reddit can show what people expected to use daily; 36Kr can show China ecosystem framing; Kickstarter can show launch intent; patent filings can show design directions. None of these alone proves broad adoption, final hardware quality, shipment reliability or future roadmap. When no direct user quote is present in a cited source, this dossier marks user voice as source not stated.",
+          "newTech": "New technology in the issue includes on-device audio enhancement being metered as a subscription feature, multimodal image-to-video creation with conversational editing, an Interactions API that represents work as a persistent resource, terminal agents with trace and privacy responsibilities, private micro-LED glasses displays, camera-free wearable designs, China service-ecosystem glasses, contextual voice-command patents, gaze-based UI patents and research questions around computer-use transparency. The newness is less the model and more the control surface around the model.",
+          "availability": "Availability: Alibaba Cloud described Qwen Glasses at MWC Barcelona with agentic features rolling out in phases from late March. 36Kr reports a March 8 on-sale timing and cites AVC online retail monitoring for March-April share; those market numbers are kept as media/industry signal, not independently verified shipment fact. Overseas availability remains source not stated. Unstated items remain source not stated. The missing items are often the most consequential for users: region locks, exact local prices, enterprise defaults, refund paths, support commitments, chipsets, storage, battery, microphone array, model routing, privacy retention, and whether the beta flow is the same flow a paying customer will receive.",
+          "limitsOrUnknowns": "Limits and unknowns: source not stated details are not inferred. The main risks to track are whether subscription-gated on-device features damage hardware ownership expectations; whether generative-media session APIs can preserve edit intent over multiple turns; whether terminal agents expose enough privacy state for trust; whether smart glasses work outdoors, in noisy rooms, with private audio, and without constant phone fallback; and whether patent or research patterns become shipping interactions rather than legal or academic artifacts.",
+          "productVerdict": "Product read: Qwen Glasses / 千问AI眼镜 matters only if it converts a user goal into controllable action. The strongest July 2 signal is that AI capability is moving out of the chat box and into device ownership, developer APIs, logs, payments and wearables. That raises the design bar. The user impact is direct: people need to see what capability they have, how much they can use, what it costs, what data is touched, and how to stop or reverse it. A product that does that can feel like assistance. A product that hides it becomes automation debt."
+        }
+      }
+    },
+    {
+      "id": "patent",
+      "section": "patent",
+      "zhHeadline": "专利信号：眼镜 assistant 的控制权仍在 voice/gaze/context 之间摇摆",
+      "enHeadline": "Patent signal: glasses assistants still arbitrate voice, gaze and context",
+      "visual": {
+        "path": "assets/smartglasses-patent-watch.svg",
+        "width": 1200,
+        "height": 760,
+        "altZh": "自绘证据图：Patent signal: glasses assistants still arbitrate voice, gaze and context",
+        "altEn": "Self-drawn evidence diagram: Patent signal: glasses assistants still arbitrate voice, gaze and context",
+        "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
+        "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
+        "sourceUrl": "https://purryc.github.io/ai-daily/2026-07-02/sources.md"
+      },
+      "sources": [
+        {
+          "label": "Google Patents: LLM-based virtual assistant examples",
+          "url": "https://patents.google.com/patent/US20250053430A1/en"
+        },
+        {
+          "label": "Google Patents: Contextual voice commands",
+          "url": "https://patents.google.com/patent/US10540976B2/en"
+        },
+        {
+          "label": "Google Patents: Gaze-based smart glass UI",
+          "url": "https://patents.google.com/patent/WO2023091403A2/en"
+        }
+      ],
+      "evidenceLabel": "patent signal",
+      "evidenceStrength": "patent signal",
+      "dossierKind": "scan",
+      "dossier": {
+        "zh": {
+          "productName": "Smart-glasses assistant patent lane",
+          "productType": "Smart-glasses assistant patent lane 在本期被归类为patent signal scan for wearable assistant control。证据强度是 patent signal；只有来源明确写到的规格、价格、区域、传感器、芯片、OS/API 版本、可用性和用户原声才进入事实层。没有写出的部分统一标为 source not stated。本期关注它作为用户界面的真实触点：用户从哪里进入、怎样发起任务、系统读取什么、何时收费或确认、失败后怎样恢复。",
+          "interactionFlow": "交互流程：The user control pattern across patents is consistent: the system infers context, listens for a wake/control signal, selects an app or command mode, and may use gaze or physical input to disambiguate intent. That is useful for product watch because glasses need low-friction command arbitration, but patent language does not prove product roadmap or release timing. 对产品设计最关键的不是“有 AI”，而是用户是否能在 16:9 的实际页面和真实设备里看懂状态。入口、权限、上下文、执行、反馈、停止、撤销是同一条链路；任何一环被隐藏，用户都会把自动化当成不可控黑箱。",
+          "specsOrStack": "硬件/API/系统栈：Patent examples mention Meta AI in Ray-Ban glasses or apps, contextual voice commands, smart-glass eye gesture activation, APIs, application plugins, voice/physical input and UI focus changes. These documents describe possible methods, not confirmed shipping implementations. 这部分不补写营销稿没有披露的参数；如果来源只给了 API、beta、public preview、订阅、众筹或专利，本期也只按对应证据强度处理。",
+          "useCases": "具体用例集中在可穿戴听觉增强、眼镜端翻译/导航/字幕、创意视频多轮编辑、终端/浏览器里的工程 agent、服务生态闭环和研究/专利中的下一代输入控制。用户价值来自少搬运上下文、少切换设备、少手动整理，但高信任场景必须保留确认、审计和退路。",
+          "painPointsSolved": "解决痛点：把手机、网页、终端、相册、视频、会议、地图、本地生活服务与眼镜/桌面 agent 之间的上下文搬运交给系统承担。对用户的影响是操作步骤减少，但代价可能是订阅边界、权限边界和错误边界变得更难看见，所以界面必须主动解释系统正在做什么。",
+          "userVoice": "用户/评测信号：本期把 WIRED、The Verge、Reddit、36Kr 和 Kickstarter 类来源降级读取。评测可以证明摩擦真实存在，社区可以提示痛点但不能单独证明事实，媒体市场份额和众筹承诺不能当成最终发货事实。没有直接用户 quote 的地方写 source not stated。",
+          "newTech": "新技术：端侧音频增强的订阅化、可穿戴 AI 入口、多模态生成媒体、会话式 video editing、Interaction resource API、终端 agent 审计日志、眼镜中的服务闭环、contextual voice command、gaze UI 和研究中的 computer-use 可解释性。",
+          "availability": "可用性：Patent documents are public filings/grants. They do not state consumer availability, price, SKU, supported countries, or whether the exact claims are implemented in current Meta, Google, Alibaba or Xgimi products. This item is intentionally downgraded and should only shape watch questions for future product launches. 不确定项包括地区、企业策略、长期支持、库存、退订/退款、具体硬件 BOM、隐私保留期、模型/端云比例、生产版本是否保持 beta 行为。",
+          "limitsOrUnknowns": "限制/未知：source not stated 的地方不推断。当前最需要继续追踪的是端侧功能被订阅化后用户是否仍认为自己“拥有”硬件功能；生成媒体 API 的多轮编辑是否足够稳定；眼镜显示在户外、噪音、隐私、消息回复和导航启动上的摩擦；专利和研究是否真正落成可用产品。",
+          "productVerdict": "产品判断：Smart-glasses assistant patent lane 的价值取决于能否把用户目标变成可控行动，而不是把模型能力堆到功能列表。对 HCI 来说，胜负点是状态透明、边界明确、视觉/听觉反馈不过载、出错可恢复。今天最强信号是：AI 产品的商业模式正在进入设备层，界面设计必须把“能力、用量、价格、权限和退路”放在同一个可理解的画面里。"
+        },
+        "en": {
+          "productName": "Smart-glasses assistant patent lane",
+          "productType": "Smart-glasses assistant patent lane is treated in this issue as patent signal scan for wearable assistant control. Evidence strength is patent signal. The dossier only promotes source-backed facts. If a source does not state a specification, price, supported region, sensor, chipset, operating-system version, API version, availability detail, or direct user quote, the field says source not stated rather than inventing a value. The product question is not whether the company used the word AI; it is where the user enters the flow, what the system reads, what it is allowed to do, how the user sees progress, when money or permission gates appear, and how the user recovers when the system gets a task wrong.",
+          "interactionFlow": "Interaction flow: The user control pattern across patents is consistent: the system infers context, listens for a wake/control signal, selects an app or command mode, and may use gaze or physical input to disambiguate intent. That is useful for product watch because glasses need low-friction command arbitration, but patent language does not prove product roadmap or release timing. The user-facing design problem is the same across glasses, media APIs, terminal agents and research surfaces: entry point, permission, context, execution, feedback, stop and undo are one chain. If one link is hidden, delegation stops feeling helpful and starts feeling opaque. A magazine page can summarize the chain, but the actual product has to show it at runtime through usage meters, mode labels, captions, progress states, confirmation moments and recoverable errors.",
+          "specsOrStack": "Hardware, API and system stack: Patent examples mention Meta AI in Ray-Ban glasses or apps, contextual voice commands, smart-glass eye gesture activation, APIs, application plugins, voice/physical input and UI focus changes. These documents describe possible methods, not confirmed shipping implementations. This issue does not fill in marketing blanks. A beta remains a beta, a patent remains a patent signal, a crowdfunding promise remains weak until delivery evidence exists, and a developer API remains a developer surface until a consumer product exposes the workflow. That distinction matters because users experience the product through affordances, limits and support paths, not through a model family name.",
+          "useCases": "Concrete use cases include wearable speech enhancement in noisy environments, smart-glasses translation and navigation, captioning and teleprompter overlays, conversational video editing, rapid image ideation feeding video generation, terminal-based coding agents, API-managed multi-turn tasks, phone-to-glasses local-service execution, and future gaze or contextual voice controls. The common pain is context transfer: moving from phone to glasses, from prompt to media timeline, from terminal to repository, or from service intent to completed transaction.",
+          "painPointsSolved": "The pain point solved is the manual work of carrying context between hardware, software, services and sensory input. A good implementation removes steps without removing user agency. A poor implementation hides the cost, the permission boundary, or the failure state. For product teams, the practical implication is that agentic interfaces need usage surfaces, audit surfaces and action surfaces together. A user should not need a help article to learn that a device feature has a monthly cap, or a log file to discover that sensitive request payloads were written into traces.",
+          "userVoice": "User, review and community signals are deliberately downgraded. WIRED and The Verge can identify ownership friction and hands-on failures; Reddit can show what people expected to use daily; 36Kr can show China ecosystem framing; Kickstarter can show launch intent; patent filings can show design directions. None of these alone proves broad adoption, final hardware quality, shipment reliability or future roadmap. When no direct user quote is present in a cited source, this dossier marks user voice as source not stated.",
+          "newTech": "New technology in the issue includes on-device audio enhancement being metered as a subscription feature, multimodal image-to-video creation with conversational editing, an Interactions API that represents work as a persistent resource, terminal agents with trace and privacy responsibilities, private micro-LED glasses displays, camera-free wearable designs, China service-ecosystem glasses, contextual voice-command patents, gaze-based UI patents and research questions around computer-use transparency. The newness is less the model and more the control surface around the model.",
+          "availability": "Availability: Patent documents are public filings/grants. They do not state consumer availability, price, SKU, supported countries, or whether the exact claims are implemented in current Meta, Google, Alibaba or Xgimi products. This item is intentionally downgraded and should only shape watch questions for future product launches. Unstated items remain source not stated. The missing items are often the most consequential for users: region locks, exact local prices, enterprise defaults, refund paths, support commitments, chipsets, storage, battery, microphone array, model routing, privacy retention, and whether the beta flow is the same flow a paying customer will receive.",
+          "limitsOrUnknowns": "Limits and unknowns: source not stated details are not inferred. The main risks to track are whether subscription-gated on-device features damage hardware ownership expectations; whether generative-media session APIs can preserve edit intent over multiple turns; whether terminal agents expose enough privacy state for trust; whether smart glasses work outdoors, in noisy rooms, with private audio, and without constant phone fallback; and whether patent or research patterns become shipping interactions rather than legal or academic artifacts.",
+          "productVerdict": "Product read: Smart-glasses assistant patent lane matters only if it converts a user goal into controllable action. The strongest July 2 signal is that AI capability is moving out of the chat box and into device ownership, developer APIs, logs, payments and wearables. That raises the design bar. The user impact is direct: people need to see what capability they have, how much they can use, what it costs, what data is touched, and how to stop or reverse it. A product that does that can feel like assistance. A product that hides it becomes automation debt."
+        }
+      }
+    },
+    {
+      "id": "research",
+      "section": "research",
+      "zhHeadline": "研究扫描：今天没有足够强的 HCI 产品化论文信号",
+      "enHeadline": "Research scan: no strong productized HCI paper signal promoted today",
+      "visual": {
+        "path": "assets/agent-ui-research-scan.svg",
+        "width": 1200,
+        "height": 760,
+        "altZh": "自绘证据图：Research scan: no strong productized HCI paper signal promoted today",
+        "altEn": "Self-drawn evidence diagram: Research scan: no strong productized HCI paper signal promoted today",
+        "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
+        "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
+        "sourceUrl": "https://purryc.github.io/ai-daily/2026-07-02/sources.md"
+      },
+      "sources": [
+        {
+          "label": "arXiv search: HCI AI agent interface computer use",
+          "url": "https://arxiv.org/search/?query=HCI+AI+agent+interface+computer+use&searchtype=all"
+        },
+        {
+          "label": "Hacker News search: AI agents UI friction",
+          "url": "https://hn.algolia.com/?q=AI%20agent%20interface"
+        }
+      ],
+      "evidenceLabel": "research signal",
+      "evidenceStrength": "research signal",
+      "dossierKind": "scan",
+      "dossier": {
+        "zh": {
+          "productName": "Research scan: agent and wearable HCI",
+          "productType": "Research scan: agent and wearable HCI 在本期被归类为research/source lane scan, not a product launch。证据强度是 research signal；只有来源明确写到的规格、价格、区域、传感器、芯片、OS/API 版本、可用性和用户原声才进入事实层。没有写出的部分统一标为 source not stated。本期关注它作为用户界面的真实触点：用户从哪里进入、怎样发起任务、系统读取什么、何时收费或确认、失败后怎样恢复。",
+          "interactionFlow": "交互流程：The scan asked whether new research added a concrete interface pattern for autonomous UI agents, smart-glasses captions, translation, or computer-use control that should change today’s product dossiers. The answer is no strong promoted product item today; the useful output is a checklist: make agent actions visible, show permission boundaries, support stop/undo, expose confidence in sensory recognition, and test whether glanceable text reduces or increases cognitive load. 对产品设计最关键的不是“有 AI”，而是用户是否能在 16:9 的实际页面和真实设备里看懂状态。入口、权限、上下文、执行、反馈、停止、撤销是同一条链路；任何一环被隐藏，用户都会把自动化当成不可控黑箱。",
+          "specsOrStack": "硬件/API/系统栈：arXiv/academic HCI search lane, computer-use interface studies, wearable translation/captioning workloads, and community discussion surfaces. Source not stated for any single deployed product because no strong peer-reviewed product-interface result was promoted today. 这部分不补写营销稿没有披露的参数；如果来源只给了 API、beta、public preview、订阅、众筹或专利，本期也只按对应证据强度处理。",
+          "useCases": "具体用例集中在可穿戴听觉增强、眼镜端翻译/导航/字幕、创意视频多轮编辑、终端/浏览器里的工程 agent、服务生态闭环和研究/专利中的下一代输入控制。用户价值来自少搬运上下文、少切换设备、少手动整理，但高信任场景必须保留确认、审计和退路。",
+          "painPointsSolved": "解决痛点：把手机、网页、终端、相册、视频、会议、地图、本地生活服务与眼镜/桌面 agent 之间的上下文搬运交给系统承担。对用户的影响是操作步骤减少，但代价可能是订阅边界、权限边界和错误边界变得更难看见，所以界面必须主动解释系统正在做什么。",
+          "userVoice": "用户/评测信号：本期把 WIRED、The Verge、Reddit、36Kr 和 Kickstarter 类来源降级读取。评测可以证明摩擦真实存在，社区可以提示痛点但不能单独证明事实，媒体市场份额和众筹承诺不能当成最终发货事实。没有直接用户 quote 的地方写 source not stated。",
+          "newTech": "新技术：端侧音频增强的订阅化、可穿戴 AI 入口、多模态生成媒体、会话式 video editing、Interaction resource API、终端 agent 审计日志、眼镜中的服务闭环、contextual voice command、gaze UI 和研究中的 computer-use 可解释性。",
+          "availability": "可用性：Research lane remains open watch. No new confirmed commercial launch, SDK release, or hardware spec is claimed from this scan. Academic results should not be extrapolated to mass-market adoption without longitudinal use, accessibility testing, outdoor/noise testing and failure recovery data. 不确定项包括地区、企业策略、长期支持、库存、退订/退款、具体硬件 BOM、隐私保留期、模型/端云比例、生产版本是否保持 beta 行为。",
+          "limitsOrUnknowns": "限制/未知：source not stated 的地方不推断。当前最需要继续追踪的是端侧功能被订阅化后用户是否仍认为自己“拥有”硬件功能；生成媒体 API 的多轮编辑是否足够稳定；眼镜显示在户外、噪音、隐私、消息回复和导航启动上的摩擦；专利和研究是否真正落成可用产品。",
+          "productVerdict": "产品判断：Research scan: agent and wearable HCI 的价值取决于能否把用户目标变成可控行动，而不是把模型能力堆到功能列表。对 HCI 来说，胜负点是状态透明、边界明确、视觉/听觉反馈不过载、出错可恢复。今天最强信号是：AI 产品的商业模式正在进入设备层，界面设计必须把“能力、用量、价格、权限和退路”放在同一个可理解的画面里。"
+        },
+        "en": {
+          "productName": "Research scan: agent and wearable HCI",
+          "productType": "Research scan: agent and wearable HCI is treated in this issue as research/source lane scan, not a product launch. Evidence strength is research signal. The dossier only promotes source-backed facts. If a source does not state a specification, price, supported region, sensor, chipset, operating-system version, API version, availability detail, or direct user quote, the field says source not stated rather than inventing a value. The product question is not whether the company used the word AI; it is where the user enters the flow, what the system reads, what it is allowed to do, how the user sees progress, when money or permission gates appear, and how the user recovers when the system gets a task wrong.",
+          "interactionFlow": "Interaction flow: The scan asked whether new research added a concrete interface pattern for autonomous UI agents, smart-glasses captions, translation, or computer-use control that should change today’s product dossiers. The answer is no strong promoted product item today; the useful output is a checklist: make agent actions visible, show permission boundaries, support stop/undo, expose confidence in sensory recognition, and test whether glanceable text reduces or increases cognitive load. The user-facing design problem is the same across glasses, media APIs, terminal agents and research surfaces: entry point, permission, context, execution, feedback, stop and undo are one chain. If one link is hidden, delegation stops feeling helpful and starts feeling opaque. A magazine page can summarize the chain, but the actual product has to show it at runtime through usage meters, mode labels, captions, progress states, confirmation moments and recoverable errors.",
+          "specsOrStack": "Hardware, API and system stack: arXiv/academic HCI search lane, computer-use interface studies, wearable translation/captioning workloads, and community discussion surfaces. Source not stated for any single deployed product because no strong peer-reviewed product-interface result was promoted today. This issue does not fill in marketing blanks. A beta remains a beta, a patent remains a patent signal, a crowdfunding promise remains weak until delivery evidence exists, and a developer API remains a developer surface until a consumer product exposes the workflow. That distinction matters because users experience the product through affordances, limits and support paths, not through a model family name.",
+          "useCases": "Concrete use cases include wearable speech enhancement in noisy environments, smart-glasses translation and navigation, captioning and teleprompter overlays, conversational video editing, rapid image ideation feeding video generation, terminal-based coding agents, API-managed multi-turn tasks, phone-to-glasses local-service execution, and future gaze or contextual voice controls. The common pain is context transfer: moving from phone to glasses, from prompt to media timeline, from terminal to repository, or from service intent to completed transaction.",
+          "painPointsSolved": "The pain point solved is the manual work of carrying context between hardware, software, services and sensory input. A good implementation removes steps without removing user agency. A poor implementation hides the cost, the permission boundary, or the failure state. For product teams, the practical implication is that agentic interfaces need usage surfaces, audit surfaces and action surfaces together. A user should not need a help article to learn that a device feature has a monthly cap, or a log file to discover that sensitive request payloads were written into traces.",
+          "userVoice": "User, review and community signals are deliberately downgraded. WIRED and The Verge can identify ownership friction and hands-on failures; Reddit can show what people expected to use daily; 36Kr can show China ecosystem framing; Kickstarter can show launch intent; patent filings can show design directions. None of these alone proves broad adoption, final hardware quality, shipment reliability or future roadmap. When no direct user quote is present in a cited source, this dossier marks user voice as source not stated.",
+          "newTech": "New technology in the issue includes on-device audio enhancement being metered as a subscription feature, multimodal image-to-video creation with conversational editing, an Interactions API that represents work as a persistent resource, terminal agents with trace and privacy responsibilities, private micro-LED glasses displays, camera-free wearable designs, China service-ecosystem glasses, contextual voice-command patents, gaze-based UI patents and research questions around computer-use transparency. The newness is less the model and more the control surface around the model.",
+          "availability": "Availability: Research lane remains open watch. No new confirmed commercial launch, SDK release, or hardware spec is claimed from this scan. Academic results should not be extrapolated to mass-market adoption without longitudinal use, accessibility testing, outdoor/noise testing and failure recovery data. Unstated items remain source not stated. The missing items are often the most consequential for users: region locks, exact local prices, enterprise defaults, refund paths, support commitments, chipsets, storage, battery, microphone array, model routing, privacy retention, and whether the beta flow is the same flow a paying customer will receive.",
+          "limitsOrUnknowns": "Limits and unknowns: source not stated details are not inferred. The main risks to track are whether subscription-gated on-device features damage hardware ownership expectations; whether generative-media session APIs can preserve edit intent over multiple turns; whether terminal agents expose enough privacy state for trust; whether smart glasses work outdoors, in noisy rooms, with private audio, and without constant phone fallback; and whether patent or research patterns become shipping interactions rather than legal or academic artifacts.",
+          "productVerdict": "Product read: Research scan: agent and wearable HCI matters only if it converts a user goal into controllable action. The strongest July 2 signal is that AI capability is moving out of the chat box and into device ownership, developer APIs, logs, payments and wearables. That raises the design bar. The user impact is direct: people need to see what capability they have, how much they can use, what it costs, what data is touched, and how to stop or reverse it. A product that does that can feel like assistance. A product that hides it becomes automation debt."
+        }
+      }
+    },
+    {
+      "id": "wild",
+      "section": "wild",
+      "zhHeadline": "野生/众筹扫描：只提升有真实交互证据的硬件信号",
+      "enHeadline": "Wild and crowdfunding scan promotes only interaction-visible hardware",
+      "visual": {
+        "path": "assets/source-radar-2026-07-02.svg",
+        "width": 1200,
+        "height": 760,
+        "altZh": "自绘证据图：Wild and crowdfunding scan promotes only interaction-visible hardware",
+        "altEn": "Self-drawn evidence diagram: Wild and crowdfunding scan promotes only interaction-visible hardware",
+        "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
+        "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
+        "sourceUrl": "https://purryc.github.io/ai-daily/2026-07-02/sources.md"
+      },
+      "sources": [
+        {
+          "label": "The Verge: Xgimi MemoMind One hands-on",
+          "url": "https://www.theverge.com/tech/957933/xgimi-memomind-one-ai-smart-glasses-kickstarter-hands-on"
+        },
+        {
+          "label": "Kickstarter: Xgimi MemoMind One campaign",
+          "url": "https://www.kickstarter.com/projects/xgimi/memomind-one-ai-smart-glasses"
+        },
+        {
+          "label": "GitHub: google-gemini/gemini-cli",
+          "url": "https://github.com/google-gemini/gemini-cli"
+        }
+      ],
+      "evidenceLabel": "startup signal",
+      "evidenceStrength": "startup signal",
+      "dossierKind": "scan",
+      "dossier": {
+        "zh": {
+          "productName": "Startup/crowdfunding lane scan",
+          "productType": "Startup/crowdfunding lane scan 在本期被归类为wild product scan across Product Hunt, Kickstarter and GitHub style launches。证据强度是 startup signal；只有来源明确写到的规格、价格、区域、传感器、芯片、OS/API 版本、可用性和用户原声才进入事实层。没有写出的部分统一标为 source not stated。本期关注它作为用户界面的真实触点：用户从哪里进入、怎样发起任务、系统读取什么、何时收费或确认、失败后怎样恢复。",
+          "interactionFlow": "交互流程：The scan looked for new agentic devices or AI software with visible interaction flows. Many launches were model wrappers, waitlists or demo videos without source-backed availability, hardware stack or failure-state detail. The product rule for this issue is to promote only launches where a user can see how the object is operated and what constraints exist. 对产品设计最关键的不是“有 AI”，而是用户是否能在 16:9 的实际页面和真实设备里看懂状态。入口、权限、上下文、执行、反馈、停止、撤销是同一条链路；任何一环被隐藏，用户都会把自动化当成不可控黑箱。",
+          "specsOrStack": "硬件/API/系统栈：Kickstarter campaign pages, product launch boards, GitHub launch surfaces, startup demos and waitlists. Today’s concrete promoted wild item is MemoMind One because it has hands-on evidence; the rest of the lane produced watch signals rather than stronger product dossiers. 这部分不补写营销稿没有披露的参数；如果来源只给了 API、beta、public preview、订阅、众筹或专利，本期也只按对应证据强度处理。",
+          "useCases": "具体用例集中在可穿戴听觉增强、眼镜端翻译/导航/字幕、创意视频多轮编辑、终端/浏览器里的工程 agent、服务生态闭环和研究/专利中的下一代输入控制。用户价值来自少搬运上下文、少切换设备、少手动整理，但高信任场景必须保留确认、审计和退路。",
+          "painPointsSolved": "解决痛点：把手机、网页、终端、相册、视频、会议、地图、本地生活服务与眼镜/桌面 agent 之间的上下文搬运交给系统承担。对用户的影响是操作步骤减少，但代价可能是订阅边界、权限边界和错误边界变得更难看见，所以界面必须主动解释系统正在做什么。",
+          "userVoice": "用户/评测信号：本期把 WIRED、The Verge、Reddit、36Kr 和 Kickstarter 类来源降级读取。评测可以证明摩擦真实存在，社区可以提示痛点但不能单独证明事实，媒体市场份额和众筹承诺不能当成最终发货事实。没有直接用户 quote 的地方写 source not stated。",
+          "newTech": "新技术：端侧音频增强的订阅化、可穿戴 AI 入口、多模态生成媒体、会话式 video editing、Interaction resource API、终端 agent 审计日志、眼镜中的服务闭环、contextual voice command、gaze UI 和研究中的 computer-use 可解释性。",
+          "availability": "可用性：Crowdfunding and launch-board availability should be treated as weak until manufacturing, shipping, support and refund paths are verified. MemoMind One remains a review/crowdfunding signal; other startup items were not promoted because source evidence was too thin or lacked concrete HCI surface. 不确定项包括地区、企业策略、长期支持、库存、退订/退款、具体硬件 BOM、隐私保留期、模型/端云比例、生产版本是否保持 beta 行为。",
+          "limitsOrUnknowns": "限制/未知：source not stated 的地方不推断。当前最需要继续追踪的是端侧功能被订阅化后用户是否仍认为自己“拥有”硬件功能；生成媒体 API 的多轮编辑是否足够稳定；眼镜显示在户外、噪音、隐私、消息回复和导航启动上的摩擦；专利和研究是否真正落成可用产品。",
+          "productVerdict": "产品判断：Startup/crowdfunding lane scan 的价值取决于能否把用户目标变成可控行动，而不是把模型能力堆到功能列表。对 HCI 来说，胜负点是状态透明、边界明确、视觉/听觉反馈不过载、出错可恢复。今天最强信号是：AI 产品的商业模式正在进入设备层，界面设计必须把“能力、用量、价格、权限和退路”放在同一个可理解的画面里。"
+        },
+        "en": {
+          "productName": "Startup/crowdfunding lane scan",
+          "productType": "Startup/crowdfunding lane scan is treated in this issue as wild product scan across Product Hunt, Kickstarter and GitHub style launches. Evidence strength is startup signal. The dossier only promotes source-backed facts. If a source does not state a specification, price, supported region, sensor, chipset, operating-system version, API version, availability detail, or direct user quote, the field says source not stated rather than inventing a value. The product question is not whether the company used the word AI; it is where the user enters the flow, what the system reads, what it is allowed to do, how the user sees progress, when money or permission gates appear, and how the user recovers when the system gets a task wrong.",
+          "interactionFlow": "Interaction flow: The scan looked for new agentic devices or AI software with visible interaction flows. Many launches were model wrappers, waitlists or demo videos without source-backed availability, hardware stack or failure-state detail. The product rule for this issue is to promote only launches where a user can see how the object is operated and what constraints exist. The user-facing design problem is the same across glasses, media APIs, terminal agents and research surfaces: entry point, permission, context, execution, feedback, stop and undo are one chain. If one link is hidden, delegation stops feeling helpful and starts feeling opaque. A magazine page can summarize the chain, but the actual product has to show it at runtime through usage meters, mode labels, captions, progress states, confirmation moments and recoverable errors.",
+          "specsOrStack": "Hardware, API and system stack: Kickstarter campaign pages, product launch boards, GitHub launch surfaces, startup demos and waitlists. Today’s concrete promoted wild item is MemoMind One because it has hands-on evidence; the rest of the lane produced watch signals rather than stronger product dossiers. This issue does not fill in marketing blanks. A beta remains a beta, a patent remains a patent signal, a crowdfunding promise remains weak until delivery evidence exists, and a developer API remains a developer surface until a consumer product exposes the workflow. That distinction matters because users experience the product through affordances, limits and support paths, not through a model family name.",
+          "useCases": "Concrete use cases include wearable speech enhancement in noisy environments, smart-glasses translation and navigation, captioning and teleprompter overlays, conversational video editing, rapid image ideation feeding video generation, terminal-based coding agents, API-managed multi-turn tasks, phone-to-glasses local-service execution, and future gaze or contextual voice controls. The common pain is context transfer: moving from phone to glasses, from prompt to media timeline, from terminal to repository, or from service intent to completed transaction.",
+          "painPointsSolved": "The pain point solved is the manual work of carrying context between hardware, software, services and sensory input. A good implementation removes steps without removing user agency. A poor implementation hides the cost, the permission boundary, or the failure state. For product teams, the practical implication is that agentic interfaces need usage surfaces, audit surfaces and action surfaces together. A user should not need a help article to learn that a device feature has a monthly cap, or a log file to discover that sensitive request payloads were written into traces.",
+          "userVoice": "User, review and community signals are deliberately downgraded. WIRED and The Verge can identify ownership friction and hands-on failures; Reddit can show what people expected to use daily; 36Kr can show China ecosystem framing; Kickstarter can show launch intent; patent filings can show design directions. None of these alone proves broad adoption, final hardware quality, shipment reliability or future roadmap. When no direct user quote is present in a cited source, this dossier marks user voice as source not stated.",
+          "newTech": "New technology in the issue includes on-device audio enhancement being metered as a subscription feature, multimodal image-to-video creation with conversational editing, an Interactions API that represents work as a persistent resource, terminal agents with trace and privacy responsibilities, private micro-LED glasses displays, camera-free wearable designs, China service-ecosystem glasses, contextual voice-command patents, gaze-based UI patents and research questions around computer-use transparency. The newness is less the model and more the control surface around the model.",
+          "availability": "Availability: Crowdfunding and launch-board availability should be treated as weak until manufacturing, shipping, support and refund paths are verified. MemoMind One remains a review/crowdfunding signal; other startup items were not promoted because source evidence was too thin or lacked concrete HCI surface. Unstated items remain source not stated. The missing items are often the most consequential for users: region locks, exact local prices, enterprise defaults, refund paths, support commitments, chipsets, storage, battery, microphone array, model routing, privacy retention, and whether the beta flow is the same flow a paying customer will receive.",
+          "limitsOrUnknowns": "Limits and unknowns: source not stated details are not inferred. The main risks to track are whether subscription-gated on-device features damage hardware ownership expectations; whether generative-media session APIs can preserve edit intent over multiple turns; whether terminal agents expose enough privacy state for trust; whether smart glasses work outdoors, in noisy rooms, with private audio, and without constant phone fallback; and whether patent or research patterns become shipping interactions rather than legal or academic artifacts.",
+          "productVerdict": "Product read: Startup/crowdfunding lane scan matters only if it converts a user goal into controllable action. The strongest July 2 signal is that AI capability is moving out of the chat box and into device ownership, developer APIs, logs, payments and wearables. That raises the design bar. The user impact is direct: people need to see what capability they have, how much they can use, what it costs, what data is touched, and how to stop or reverse it. A product that does that can feel like assistance. A product that hides it becomes automation debt."
+        }
+      }
+    }
+  ],
+  "zhPath": "./zh/",
+  "enPath": "./en/",
+  "sourcesPath": "./sources.md"
+}
