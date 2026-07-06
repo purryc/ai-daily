@@ -1,5 +1,57 @@
 [
   {
+    "date": "2026-07-06",
+    "zhTitle": "AI Daily 2026-07-06：周末后 Agent 入口战进入基础设施层",
+    "enTitle": "AI Daily 2026-07-06: After the Weekend, Agent Entry Points Become Infrastructure",
+    "zhSummary": "Cloudflare 把 AI crawler 拆成 Search、Agent、Training；Acti 把 agent 放进键盘；MemoMind One、ZCode 与中国 AI 眼镜 OS 信号共同说明入口之争正在从 App 转向系统层。",
+    "enSummary": "Cloudflare separates AI crawler intent into Search, Agent, and Training; Acti puts agents into the keyboard; MemoMind One, ZCode, and China AI-glasses OS signals show the entry-point fight moving from apps into system layers.",
+    "tags": [
+      "AI hardware",
+      "agent UX",
+      "smart glasses",
+      "AI keyboard",
+      "developer surface",
+      "crawler policy",
+      "China scan",
+      "patent watch"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "wild",
+      "research",
+      "patent",
+      "china",
+      "global"
+    ],
+    "coverStory": {
+      "topicId": "cloudflare-agent-crawler-controls",
+      "zhTitle": "Agent 不是一个按钮，而是一套新的访问关系",
+      "enTitle": "An agent is not a button; it is a new access relationship",
+      "imagePath": "assets/cloudflare-agent-crawler-controls-2026-07-06.svg",
+      "imageWidth": 1200,
+      "imageHeight": 760,
+      "primarySourceUrl": "https://blog.cloudflare.com/content-independence-day-ai-options/",
+      "evidenceStrength": "developer surface · official product control",
+      "whyCover": "Cloudflare's Search/Agent/Training split turns AI access intent into product infrastructure.",
+      "zhSummary": [
+        "周末后的主线不是模型，而是入口：crawler、键盘、开发者 IDE、眼镜显示和 AIOS。",
+        "Cloudflare 把 agent 访问从训练抓取里拆出来，迫使 AI 产品解释自己在替用户做什么。",
+        "Acti、Cursor、ZCode 和 MemoMind One 显示 agent 正在进入键盘、手机、桌面和眼前屏幕。"
+      ],
+      "enSummary": [
+        "The post-weekend main line is entry point, not model size: crawlers, keyboards, developer IDEs, eyewear displays, and AIOS.",
+        "Cloudflare separates agent access from training crawls, forcing AI products to explain what they are doing for users.",
+        "Acti, Cursor, ZCode, and MemoMind One show agents moving into keyboards, phones, desktops, and screens in front of the eyes."
+      ],
+      "imageSourceUrl": "https://blog.cloudflare.com/content-independence-day-ai-options/"
+    },
+    "zhPath": "./2026-07-06/zh/",
+    "enPath": "./2026-07-06/en/",
+    "sourcesPath": "./2026-07-06/sources.md"
+  },
+  {
     "date": "2026-07-05",
     "zhTitle": "AI Daily 2026-07-05：Agent 开始争夺入口、权限和眼前屏幕",
     "enTitle": "AI Daily 2026-07-05: Agents Fight for Entry Points, Permissions, and Screens in Front of Your Eyes",
