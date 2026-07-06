@@ -1,5 +1,57 @@
 [
   {
+    "date": "2026-07-04",
+    "zhTitle": "AI Daily 2026-07-04：Agent 工作台开始接受治理测试",
+    "enTitle": "AI Daily 2026-07-04: Agent Workbenches Meet the Governance Test",
+    "zhSummary": "Claude Science 和 Claude Tag 把 agent 推进科研与团队工作台；Google Workspace 广告和 Claude Code 企业禁用报道显示公众与组织都在追问 AI 参与边界；Product Hunt、研究、专利与中国 lane 全部降级标注。",
+    "enSummary": "Claude Science and Claude Tag push agents into scientific and team workbenches; the Google Workspace ad and reported Claude Code enterprise ban show the public and organizations asking where AI participation should stop; Product Hunt, research, patent, and China lanes are explicitly downgraded.",
+    "tags": [
+      "AI workbench",
+      "agent UX",
+      "Claude Science",
+      "Claude Tag",
+      "enterprise governance",
+      "Google Workspace",
+      "smart glasses",
+      "China scan"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "wild",
+      "research",
+      "patent",
+      "china",
+      "global"
+    ],
+    "coverStory": {
+      "topicId": "claude-science-workbench",
+      "zhTitle": "Agent 进入真实工作台后，第一产品问题变成可审计",
+      "enTitle": "When agents enter real workbenches, auditability becomes the first product problem",
+      "imagePath": "assets/claude-science-workbench-2026-07-04.svg",
+      "imageWidth": 1200,
+      "imageHeight": 760,
+      "primarySourceUrl": "https://www.anthropic.com/news/claude-science-ai-workbench",
+      "evidenceStrength": "confirmed product · official beta",
+      "whyCover": "Claude Science makes agent work visible as code, compute, figures, manuscripts, reviewer checks, and history.",
+      "zhSummary": [
+        "今天主线是治理型工作台：科研、Slack、Workspace、coding agent 和眼镜都在争入口。",
+        "Claude Science 的价值不只是能回答科学问题，而是能留下 code、environment、history 和 reviewer 检查。",
+        "Google 广告与 Alibaba/Claude Code 报道说明：AI 进入真实组织后，边界和信任比功能数量更快变成核心体验。"
+      ],
+      "enSummary": [
+        "Today's line is governed workbench: science, Slack, Workspace, coding agents, and eyewear are all fighting for entry points.",
+        "Claude Science matters because it keeps code, environment, history, and reviewer checks, not merely scientific answers.",
+        "The Google ad and Alibaba/Claude Code report show that once AI enters real organizations, boundaries and trust become core UX faster than feature count."
+      ],
+      "imageSourceUrl": "https://www.anthropic.com/news/claude-science-ai-workbench"
+    },
+    "zhPath": "./2026-07-04/zh/",
+    "enPath": "./2026-07-04/en/",
+    "sourcesPath": "./2026-07-04/sources.md"
+  },
+  {
     "date": "2026-07-03",
     "zhTitle": "AI Daily 2026-07-03：Agent 开始争夺入口、权限和眼前屏幕",
     "enTitle": "AI Daily 2026-07-03: Agents Fight for Entry Points, Permissions, and Screens in Front of Your Eyes",

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" fill="#fffdfa"/>
+  <rect x="42" y="42" width="1116" height="676" rx="30" fill="#ffffff" stroke="#e8e3dc" stroke-width="2"/>
+  <text x="82" y="112" font-family="Aptos, Arial, sans-serif" font-size="42" font-weight="900" fill="#171413">Claude Tag in Slack</text>
+  <text x="84" y="154" font-family="Aptos, Arial, sans-serif" font-size="21" font-weight="700" fill="#6f6a66">official · developer surface · team agent</text>
+  <g transform="translate(84 202)">
+    <g transform="translate(0 0)">
+          <rect x="0" y="0" width="1032" height="58" rx="17" fill="#f8f5ef" stroke="#e7ded2"/>
+          <circle cx="32" cy="29" r="13" fill="#9f1239"/>
+          <text x="62" y="24" font-family="Aptos, Arial, sans-serif" font-size="22" font-weight="850" fill="#171413">Entry</text>
+          <text x="62" y="47" font-family="Aptos, Arial, sans-serif" font-size="16" font-weight="650" fill="#6f6a66">tag @Claude inside a Slack channel</text>
+        </g><g transform="translate(0 78)">
+          <rect x="0" y="0" width="1032" height="58" rx="17" fill="#f8f5ef" stroke="#e7ded2"/>
+          <circle cx="32" cy="29" r="13" fill="#0f766e"/>
+          <text x="62" y="24" font-family="Aptos, Arial, sans-serif" font-size="22" font-weight="850" fill="#171413">Scope</text>
+          <text x="62" y="47" font-family="Aptos, Arial, sans-serif" font-size="16" font-weight="650" fill="#6f6a66">channel memory, tools, spend limits and logs</text>
+        </g><g transform="translate(0 156)">
+          <rect x="0" y="0" width="1032" height="58" rx="17" fill="#f8f5ef" stroke="#e7ded2"/>
+          <circle cx="32" cy="29" r="13" fill="#1d4ed8"/>
+          <text x="62" y="24" font-family="Aptos, Arial, sans-serif" font-size="22" font-weight="850" fill="#171413">Mode</text>
+          <text x="62" y="47" font-family="Aptos, Arial, sans-serif" font-size="16" font-weight="650" fill="#6f6a66">multiplayer, asynchronous, proactive when enabled</text>
+        </g><g transform="translate(0 234)">
+          <rect x="0" y="0" width="1032" height="58" rx="17" fill="#f8f5ef" stroke="#e7ded2"/>
+          <circle cx="32" cy="29" r="13" fill="#7c2d12"/>
+          <text x="62" y="24" font-family="Aptos, Arial, sans-serif" font-size="22" font-weight="850" fill="#171413">Risk</text>
+          <text x="62" y="47" font-family="Aptos, Arial, sans-serif" font-size="16" font-weight="650" fill="#6f6a66">permission design and ambient behavior clarity</text>
+        </g>
+  </g>
+  <text x="84" y="686" font-family="Aptos, Arial, sans-serif" font-size="17" font-weight="700" fill="#8c837a">AI Daily source-based diagram · not a product render · facts stay in the source ledger</text>
+</svg>

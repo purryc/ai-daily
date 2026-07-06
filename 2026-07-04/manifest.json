@@ -1,0 +1,567 @@
+{
+  "date": "2026-07-04",
+  "timezone": "America/Toronto",
+  "zhTitle": "AI Daily 2026-07-04：Agent 工作台开始接受治理测试",
+  "enTitle": "AI Daily 2026-07-04: Agent Workbenches Meet the Governance Test",
+  "zhSummary": "Claude Science 和 Claude Tag 把 agent 推进科研与团队工作台；Google Workspace 广告和 Claude Code 企业禁用报道显示公众与组织都在追问 AI 参与边界；Product Hunt、研究、专利与中国 lane 全部降级标注。",
+  "enSummary": "Claude Science and Claude Tag push agents into scientific and team workbenches; the Google Workspace ad and reported Claude Code enterprise ban show the public and organizations asking where AI participation should stop; Product Hunt, research, patent, and China lanes are explicitly downgraded.",
+  "tags": [
+    "AI workbench",
+    "agent UX",
+    "Claude Science",
+    "Claude Tag",
+    "enterprise governance",
+    "Google Workspace",
+    "smart glasses",
+    "China scan"
+  ],
+  "sourceTypes": [
+    "official",
+    "reviews",
+    "community",
+    "wild",
+    "research",
+    "patent",
+    "china",
+    "global"
+  ],
+  "coverStory": {
+    "topicId": "claude-science-workbench",
+    "zhTitle": "Agent 进入真实工作台后，第一产品问题变成可审计",
+    "enTitle": "When agents enter real workbenches, auditability becomes the first product problem",
+    "imagePath": "assets/claude-science-workbench-2026-07-04.svg",
+    "imageWidth": 1200,
+    "imageHeight": 760,
+    "primarySourceUrl": "https://www.anthropic.com/news/claude-science-ai-workbench",
+    "evidenceStrength": "confirmed product · official beta",
+    "whyCover": "Claude Science makes agent work visible as code, compute, figures, manuscripts, reviewer checks, and history.",
+    "zhSummary": [
+      "今天主线是治理型工作台：科研、Slack、Workspace、coding agent 和眼镜都在争入口。",
+      "Claude Science 的价值不只是能回答科学问题，而是能留下 code、environment、history 和 reviewer 检查。",
+      "Google 广告与 Alibaba/Claude Code 报道说明：AI 进入真实组织后，边界和信任比功能数量更快变成核心体验。"
+    ],
+    "enSummary": [
+      "Today's line is governed workbench: science, Slack, Workspace, coding agents, and eyewear are all fighting for entry points.",
+      "Claude Science matters because it keeps code, environment, history, and reviewer checks, not merely scientific answers.",
+      "The Google ad and Alibaba/Claude Code report show that once AI enters real organizations, boundaries and trust become core UX faster than feature count."
+    ],
+    "imageSourceUrl": "https://www.anthropic.com/news/claude-science-ai-workbench"
+  },
+  "topics": [
+    {
+      "id": "claude-science-workbench",
+      "section": "official",
+      "zhHeadline": "Claude Science 把科学家的 agent 从聊天框推进可审计工作台",
+      "enHeadline": "Claude Science moves scientific agents from chat into an auditable workbench",
+      "visual": {
+        "path": "assets/claude-science-workbench-2026-07-04.svg",
+        "width": 1200,
+        "height": 760,
+        "altZh": "自绘证据图：Claude Science workbench",
+        "altEn": "Self-drawn evidence diagram: Claude Science workbench",
+        "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
+        "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
+        "sourceUrl": "https://www.anthropic.com/news/claude-science-ai-workbench"
+      },
+      "sources": [
+        {
+          "label": "Anthropic: Claude Science workbench",
+          "url": "https://www.anthropic.com/news/claude-science-ai-workbench"
+        },
+        {
+          "label": "Claude product page: Claude Science",
+          "url": "https://claude.com/product/claude-science"
+        },
+        {
+          "label": "The Verge: Anthropic wants to develop its own drugs",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development"
+        },
+        {
+          "label": "NVIDIA BioNeMo Agent Toolkit",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-launches-bionemo-agent-toolkit-giving-ai-agents-the-tools-to-accelerate-scientific-discovery"
+        }
+      ],
+      "evidenceLabel": "confirmed product",
+      "evidenceStrength": "confirmed product · official beta · review coverage",
+      "dossierKind": "product",
+      "dossier": {
+        "zh": {
+          "productName": "Claude Science",
+          "productType": "Claude Science 是面向科研人员的 AI workbench beta，不是普通聊天机器人。本期只采用来源明确披露的产品面：Claude app、macOS/Linux、本机或远程 SSH/HPC、Modal compute、60+ 科学 skills/connectors、genomics/single-cell/proteomics/structural biology/cheminformatics 工具、NVIDIA BioNeMo Agent Toolkit、reviewer agent。价格、地区、版本、硬件规格或 API 细节凡未出现在来源中，均写作 source not stated。它进入本期的原因是用户真实触碰到的入口发生变化：科研人员可以在同一环境里查文献、运行分析、生成图表、管理 compute，并保留可复现历史。",
+          "interactionFlow": "用户流程是：研究者在 macOS、Linux、本机、SSH、HPC login node 或 Modal 计算环境中打开 Claude Science，向协调 agent 描述任务，agent 调用 60+ curated skills/connectors、专业 agent 和 reviewer agent，生成代码、图、manuscript 与可追踪 history。这个流程的 HCI 重点不在“多一个 AI 按钮”，而在系统如何把上下文、权限、执行状态和结果回写到用户正在工作的地方。若任务失败，产品需要把失败原因、可重试路径、人工接管或撤销动作留在同一个界面。",
+          "specsOrStack": "来源支持的系统栈包括：Claude app、macOS/Linux、本机或远程 SSH/HPC、Modal compute、60+ 科学 skills/connectors、genomics/single-cell/proteomics/structural biology/cheminformatics 工具、NVIDIA BioNeMo Agent Toolkit、reviewer agent。官方披露 beta 面向 Claude Pro、Max、Team、Enterprise；可生成 3D protein structures、genome browser tracks、chemical structures、figures 和 manuscripts；可 fork session；申请项目最高 $30,000 credits 与 Modal 最高 $2,000 compute 的细节来自官方说明。未披露的模型路由、企业审计字段、完整权限矩阵、数据保存周期、区域上线、价格稳定性和 SLA 为 source not stated。本期不从营销页推断任何未写明的性能数字。",
+          "useCases": "具体使用场景包括：single-cell RNA sequencing analysis、CRISPR screen design、protein structure prediction、cheminformatics、long-form computational review、glioma molecular epidemiology、figure/manuscript iteration。这些场景都要求产品把 agent 的工作拆成可检查的中间状态，而不是只给一个最后答案。对用户来说，关键体验是少切换、少解释、少复制粘贴，同时保留审计、改写、暂停和重做的控制。",
+          "painPointsSolved": "它解决的痛点是：科研工作流被 PubMed、Jupyter、R、cluster terminal、不同数据库 schema、文件格式和可视化工具切碎，结果难复现、难审计、难在数月后解释来源。过去用户往往要在聊天框、文档、终端、浏览器、数据库和团队沟通工具之间来回搬运上下文；现在产品试图把上下文拉到一个工作台或协作入口里。但这也提高了错误成本，因为 agent 拿到的权限越多，越需要清楚说明它能读什么、能写什么、是否会调用外部系统。",
+          "userVoice": "The Verge 将它放在 Anthropic 进入 drug-development/AI-for-science 的语境里；官方引用 Manifold Bio、Allen Institute 与 UCSF Brain Tumor Center 使用案例。普通研究者长期反馈仍不足，source not stated。这部分按 confirmed product 处理，不能当作全量用户满意度。没有直接用户 quote 的地方写 source not stated；媒体或社区摩擦只用于风险判断。",
+          "newTech": "新技术/新界面在于：generalist coordinating agent + specialist agents + reviewer agent + reproducible artifacts + compute orchestration，把科研 agent 从回答问题变成可审计生产环境。它把 AI 从单轮回答推向“可追踪工作流”：有计划、有工具、有可复现 artifact、有状态反馈，也有权限边界。产品团队需要把这些技术能力翻译成用户看得懂的状态，而不是把复杂度塞进后台。",
+          "availability": "可用性：官方称 beta 面向 Claude Pro、Max、Team、Enterprise；Team/Enterprise 需要 admin enable；研究项目申请截止 July 15, 2026，通知 July 31，项目运行 September 1 to December 1, 2026。若来源没有明确说明国家、计划层级、下载入口、管理员开关、硬件平台或 beta 资格，本期不补猜。对读者的实际建议是先看官方入口和管理员配置要求，再看是否有独立评测或社区故障反馈。",
+          "limitsOrUnknowns": "限制和未知：科学正确性仍需要独立验证；敏感数据只发送必要 context 的说法需要组织内部安全审查；医疗/药物发现结果不能直接当临床证据；Windows、价格、区域和完整合规细节 source not stated。此外，跨工具 agent 的共性风险包括权限过宽、错误执行、上下文污染、结果不可复现、审计不足和用户不知道系统何时在行动。本期把这些风险放进产品判断，而非作为抽象趋势评论。",
+          "productVerdict": "产品判断：这是今天最强 product dossier：它把 agent 的价值放在可复现 artifact 和计算流程里，而不是聊天体验里。科研软件团队应关注 audit trail、session fork、reviewer agent 和 compute permission，而不是只问模型分数。它值得关注的标准不是发布声量，而是是否让用户用更少步骤完成具体任务，同时让权限、状态、证据和撤销保持可见。若后续来源无法证明真实工作流稳定，它应继续降级为 watch signal。"
+        },
+        "en": {
+          "productName": "Claude Science",
+          "productType": "Claude Science is a beta AI workbench for scientists rather than a general chatbot. This dossier only uses product surfaces explicitly supported by the cited sources: the Claude app, macOS/Linux, local or SSH/HPC environments, Modal compute, 60+ scientific skills/connectors, genomics, single-cell, proteomics, structural biology, cheminformatics tooling, NVIDIA BioNeMo Agent Toolkit, and a reviewer agent. Prices, regions, versions, hardware specifications, API details, or performance numbers that do not appear in those sources remain source not stated. The reason it enters today's issue is an interface change users can actually touch: scientists can search literature, run analyses, generate figures, manage compute, and keep reproducible history in one environment.",
+          "interactionFlow": "The user flow is: a researcher opens Claude Science on macOS, Linux, a local machine, SSH, an HPC login node, or Modal compute, gives a task to a coordinating agent, and the agent uses 60+ curated skills and connectors, specialist agents, and a reviewer agent to produce code, figures, manuscripts, and traceable history. The HCI question is not whether the product adds another AI button. It is whether the system can keep context, permission, execution state, and returned output inside the place where the user is already working. If the task fails, the same interface needs to show why it failed, how to retry, when to hand off to a person, and how to undo or fork the work.",
+          "specsOrStack": "The source-backed stack includes: the Claude app, macOS/Linux, local or SSH/HPC environments, Modal compute, 60+ scientific skills/connectors, genomics, single-cell, proteomics, structural biology, cheminformatics tooling, NVIDIA BioNeMo Agent Toolkit, and a reviewer agent. Anthropic states the beta is for Claude Pro, Max, Team, and Enterprise; it can generate 3D protein structures, genome browser tracks, chemical structures, figures, and manuscripts; it supports session forking; the official page also names up to $30,000 in credits and up to $2,000 in Modal compute for selected projects. Model routing, full enterprise audit fields, exact permission matrix, data retention, regional availability, price stability, and SLA are source not stated unless a cited source names them directly. This issue does not infer performance numbers from marketing language.",
+          "useCases": "Concrete use cases include: single-cell RNA sequencing analysis, CRISPR screen design, protein structure prediction, cheminformatics, long-form computational review, glioma molecular epidemiology, and figure/manuscript iteration. These are not abstract productivity claims; they require the product to expose intermediate agent state instead of returning only a final answer. The user benefit is fewer switches, less context re-entry, less copy-paste, and more direct return into the active workflow while retaining audit, editing, pause, and redo controls.",
+          "painPointsSolved": "The pain point is: scientific workflows are fragmented across PubMed, Jupyter, R, cluster terminals, database schemas, file formats, and visualization tools, making results hard to reproduce, audit, or explain months later. Users previously had to move context across chat, documents, terminals, browsers, databases, and team channels. This product tries to bring context into a workbench or collaboration surface. That also raises the cost of mistakes because the more authority an agent receives, the more clearly it must explain what it can read, what it can write, and whether it will call external systems.",
+          "userVoice": "The Verge frames it as Anthropic moving into drug development and AI for science; Anthropic cites Manifold Bio, the Allen Institute, and the UCSF Brain Tumor Center. Long-term ordinary researcher feedback remains source not stated. This is treated as confirmed product, not as a complete satisfaction study. When there is no direct user quote, this issue says source not stated. Media and community friction are used only as risk signals unless corroborated by official or hands-on sources.",
+          "newTech": "The new interface or technical idea is: a generalist coordinating agent plus specialist agents, a reviewer agent, reproducible artifacts, and compute orchestration, moving scientific AI from question answering into an auditable production environment. AI moves from single-turn response into traceable workflow: planning, tools, reproducible artifacts, state feedback, and permission boundaries. Product teams have to translate those technical capabilities into states users can understand, rather than hiding complexity in the backend.",
+          "availability": "Availability: Anthropic says the beta is available for Claude Pro, Max, Team, and Enterprise; Team/Enterprise users need an admin to enable it; project applications close July 15, 2026, notifications are July 31, and projects run September 1 to December 1, 2026. If the sources do not specify country, plan tier, download path, administrator switch, hardware platform, or beta qualification, this issue does not guess. The practical reading is to check the official entry point and admin requirements first, then look for independent reviews or community failure reports.",
+          "limitsOrUnknowns": "Limits and unknowns: scientific correctness still requires independent validation; the claim that only needed context is sent needs internal security review; medical or drug-discovery output is not clinical evidence; Windows support, price, region, and full compliance details are source not stated. Cross-tool agents share recurring risks: broad permissions, erroneous execution, context pollution, irreproducible outputs, insufficient audit, and users not knowing when the system is acting. Those risks are part of the product read, not generic trend commentary.",
+          "productVerdict": "Product verdict: this is the strongest product dossier today because it places agent value in reproducible artifacts and compute workflow rather than chat. Scientific software teams should study audit trails, session forks, reviewer agents, and compute permission rather than only model scores. The standard is not launch volume. The standard is whether users complete a concrete job in fewer steps while permission, state, evidence, and undo remain visible. If later sources do not prove stable real-world workflow, this should stay downgraded as a watch signal."
+        }
+      }
+    },
+    {
+      "id": "claude-tag-slack-agent",
+      "section": "global",
+      "zhHeadline": "Claude Tag 把团队 agent 放进 Slack 频道，并把身份、记忆和成本做成管理面",
+      "enHeadline": "Claude Tag puts a team agent in Slack and turns identity, memory, and spend into admin surfaces",
+      "visual": {
+        "path": "assets/claude-tag-slack-agent-2026-07-04.svg",
+        "width": 1200,
+        "height": 760,
+        "altZh": "自绘证据图：Claude Tag in Slack",
+        "altEn": "Self-drawn evidence diagram: Claude Tag in Slack",
+        "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
+        "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
+        "sourceUrl": "https://www.anthropic.com/news/introducing-claude-tag"
+      },
+      "sources": [
+        {
+          "label": "Anthropic: Introducing Claude Tag",
+          "url": "https://www.anthropic.com/news/introducing-claude-tag"
+        },
+        {
+          "label": "Claude product page: @Claude",
+          "url": "https://www.claude.com/product/tag"
+        },
+        {
+          "label": "Claude Tag docs overview",
+          "url": "https://www.claude.com/docs/claude-tag/overview"
+        }
+      ],
+      "evidenceLabel": "developer surface",
+      "evidenceStrength": "developer surface · official beta · team collaboration agent",
+      "dossierKind": "product",
+      "dossier": {
+        "zh": {
+          "productName": "Claude Tag",
+          "productType": "Claude Tag 是面向团队的 Slack 内 agent beta。本期只采用来源明确披露的产品面：Slack app、Claude Enterprise/Team beta、channel-scoped memory、tools/connectors/codebases、token spend limit、administrator logs、ambient behavior switch、Opus 4.8。价格、地区、版本、硬件规格或 API 细节凡未出现在来源中，均写作 source not stated。它进入本期的原因是用户真实触碰到的入口发生变化：任何人在授权频道里 tag @Claude，把代码、指标、支持工单或跨工具任务委派给一个共享 channel identity。",
+          "interactionFlow": "用户流程是：管理员把 Claude Tag 与 Slack workspace 配对，授予特定 channel、tool、data 和 codebase 访问权限，设置月度 token spend 与日志；用户在 thread 里 @Claude，下达自然语言任务，Claude 分阶段执行并在 thread 中回复产物。这个流程的 HCI 重点不在“多一个 AI 按钮”，而在系统如何把上下文、权限、执行状态和结果回写到用户正在工作的地方。若任务失败，产品需要把失败原因、可重试路径、人工接管或撤销动作留在同一个界面。",
+          "specsOrStack": "来源支持的系统栈包括：Slack app、Claude Enterprise/Team beta、channel-scoped memory、tools/connectors/codebases、token spend limit、administrator logs、ambient behavior switch、Opus 4.8。官方披露 Claude Tag replaces existing Claude in Slack app；可设置 organization/channel spend limit；可查看 @Claude 做了什么和谁请求；不同 use case 的 Claude identity 与 memory 可分离。未披露的模型路由、企业审计字段、完整权限矩阵、数据保存周期、区域上线、价格稳定性和 SLA 为 source not stated。本期不从营销页推断任何未写明的性能数字。",
+          "useCases": "具体使用场景包括：代码任务、产品指标查询、支持 ticket、bug root cause、异步 follow-up、跨 channel 信息提示、团队多人接续同一 agent 工作。这些场景都要求产品把 agent 的工作拆成可检查的中间状态，而不是只给一个最后答案。对用户来说，关键体验是少切换、少解释、少复制粘贴，同时保留审计、改写、暂停和重做的控制。",
+          "painPointsSolved": "它解决的痛点是：团队 AI 助手过去常被困在个人 chat 或单次任务里，缺少频道上下文、共享历史、管理员授权和组织成本控制。过去用户往往要在聊天框、文档、终端、浏览器、数据库和团队沟通工具之间来回搬运上下文；现在产品试图把上下文拉到一个工作台或协作入口里。但这也提高了错误成本，因为 agent 拿到的权限越多，越需要清楚说明它能读什么、能写什么、是否会调用外部系统。",
+          "userVoice": "官方称 Anthropic 内部 product team 65% code 由 internal Claude Tag 创建；这是供应商自述，应按官方产品证据处理，不当作独立 benchmark。这部分按 developer surface 处理，不能当作全量用户满意度。没有直接用户 quote 的地方写 source not stated；媒体或社区摩擦只用于风险判断。",
+          "newTech": "新技术/新界面在于：channel-scoped agent identity、ambient update、multi-user memory 和 admin spend/log 控制共同形成团队 agent 的交互模型。它把 AI 从单轮回答推向“可追踪工作流”：有计划、有工具、有可复现 artifact、有状态反馈，也有权限边界。产品团队需要把这些技术能力翻译成用户看得懂的状态，而不是把复杂度塞进后台。",
+          "availability": "可用性：Claude Enterprise 和 Team customers beta；从 Slack 开始，未来更广泛可用目标未给具体时间；migration credit 和 30-day opt-in 来源于官方说明。若来源没有明确说明国家、计划层级、下载入口、管理员开关、硬件平台或 beta 资格，本期不补猜。对读者的实际建议是先看官方入口和管理员配置要求，再看是否有独立评测或社区故障反馈。",
+          "limitsOrUnknowns": "限制和未知：ambient agent 很容易被用户误读成“总在监听”；频道记忆可能带来 context bleed；工具权限和 private channel 边界需要管理员持续校准。此外，跨工具 agent 的共性风险包括权限过宽、错误执行、上下文污染、结果不可复现、审计不足和用户不知道系统何时在行动。本期把这些风险放进产品判断，而非作为抽象趋势评论。",
+          "productVerdict": "产品判断：Claude Tag 的产品意义是把 agent 从个人效率工具改造成团队成员。成败取决于管理员是否能把身份、记忆、花费和日志解释给非技术用户。它值得关注的标准不是发布声量，而是是否让用户用更少步骤完成具体任务，同时让权限、状态、证据和撤销保持可见。若后续来源无法证明真实工作流稳定，它应继续降级为 watch signal。"
+        },
+        "en": {
+          "productName": "Claude Tag",
+          "productType": "Claude Tag is a team agent beta that runs inside Slack. This dossier only uses product surfaces explicitly supported by the cited sources: Slack app, Claude Enterprise/Team beta, channel-scoped memory, tools/connectors/codebases, token-spend limits, administrator logs, ambient behavior switch, and Opus 4.8. Prices, regions, versions, hardware specifications, API details, or performance numbers that do not appear in those sources remain source not stated. The reason it enters today's issue is an interface change users can actually touch: anyone in an authorized Slack channel can tag @Claude and delegate code, metrics, support-ticket, or cross-tool tasks to a shared channel identity.",
+          "interactionFlow": "The user flow is: an administrator pairs Claude Tag with a Slack workspace, grants access to specific channels, tools, data, and codebases, sets monthly token-spend limits and logs; a user tags @Claude in a thread, gives a natural-language task, and Claude works through stages before replying with output. The HCI question is not whether the product adds another AI button. It is whether the system can keep context, permission, execution state, and returned output inside the place where the user is already working. If the task fails, the same interface needs to show why it failed, how to retry, when to hand off to a person, and how to undo or fork the work.",
+          "specsOrStack": "The source-backed stack includes: Slack app, Claude Enterprise/Team beta, channel-scoped memory, tools/connectors/codebases, token-spend limits, administrator logs, ambient behavior switch, and Opus 4.8. Anthropic says Claude Tag replaces the existing Claude in Slack app; administrators can set organization and channel spend limits; logs show what @Claude did and who requested it; separate Claude identities and memories can be scoped to different uses. Model routing, full enterprise audit fields, exact permission matrix, data retention, regional availability, price stability, and SLA are source not stated unless a cited source names them directly. This issue does not infer performance numbers from marketing language.",
+          "useCases": "Concrete use cases include: coding tasks, product-metric queries, support tickets, bug root-cause work, asynchronous follow-up, cross-channel information alerts, and multiplayer continuation of the same agent work. These are not abstract productivity claims; they require the product to expose intermediate agent state instead of returning only a final answer. The user benefit is fewer switches, less context re-entry, less copy-paste, and more direct return into the active workflow while retaining audit, editing, pause, and redo controls.",
+          "painPointsSolved": "The pain point is: team AI assistants were often trapped in individual chats or one-off tasks without channel context, shared history, administrator authorization, or organization-level cost control. Users previously had to move context across chat, documents, terminals, browsers, databases, and team channels. This product tries to bring context into a workbench or collaboration surface. That also raises the cost of mistakes because the more authority an agent receives, the more clearly it must explain what it can read, what it can write, and whether it will call external systems.",
+          "userVoice": "Anthropic says 65% of its product team's code is created by an internal version of Claude Tag; that is vendor-stated product evidence, not an independent benchmark. This is treated as developer surface, not as a complete satisfaction study. When there is no direct user quote, this issue says source not stated. Media and community friction are used only as risk signals unless corroborated by official or hands-on sources.",
+          "newTech": "The new interface or technical idea is: channel-scoped agent identity, ambient updates, multi-user memory, and admin spend/log controls together form the interaction model for a team agent. AI moves from single-turn response into traceable workflow: planning, tools, reproducible artifacts, state feedback, and permission boundaries. Product teams have to translate those technical capabilities into states users can understand, rather than hiding complexity in the backend.",
+          "availability": "Availability: beta for Claude Enterprise and Team customers; starts with Slack; broader availability has no source-stated date; migration credit and a 30-day opt-in are from Anthropic's announcement. If the sources do not specify country, plan tier, download path, administrator switch, hardware platform, or beta qualification, this issue does not guess. The practical reading is to check the official entry point and admin requirements first, then look for independent reviews or community failure reports.",
+          "limitsOrUnknowns": "Limits and unknowns: an ambient agent can be misread as always watching; channel memory can create context bleed; tool access and private-channel boundaries require continuous administrator tuning. Cross-tool agents share recurring risks: broad permissions, erroneous execution, context pollution, irreproducible outputs, insufficient audit, and users not knowing when the system is acting. Those risks are part of the product read, not generic trend commentary.",
+          "productVerdict": "Product verdict: Claude Tag matters because it moves the agent from personal productivity tool toward team member. Success depends on whether administrators can explain identity, memory, spend, and logs to non-technical users. The standard is not launch volume. The standard is whether users complete a concrete job in fewer steps while permission, state, evidence, and undo remain visible. If later sources do not prove stable real-world workflow, this should stay downgraded as a watch signal."
+        }
+      }
+    },
+    {
+      "id": "google-workspace-ai-ad-friction",
+      "section": "reviews",
+      "zhHeadline": "Google Workspace 独立日广告不是新产品，但暴露了协作 AI 的信任摩擦",
+      "enHeadline": "Google Workspace's Independence Day ad is not a new product, but it exposes collaboration-AI trust friction",
+      "visual": {
+        "path": "assets/google-workspace-ai-ad-friction-2026-07-04.svg",
+        "width": 1200,
+        "height": 760,
+        "altZh": "自绘证据图：Google Workspace AI collaboration surface",
+        "altEn": "Self-drawn evidence diagram: Google Workspace AI collaboration surface",
+        "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
+        "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
+        "sourceUrl": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/"
+      },
+      "sources": [
+        {
+          "label": "TechCrunch: Google Workspace AI commercial",
+          "url": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/"
+        },
+        {
+          "label": "The Verge: Google AI commercial response",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/961468/google-ai-commercial-founding-fathers-declaration-of-independence"
+        },
+        {
+          "label": "Google Workspace AI",
+          "url": "https://workspace.google.com/solutions/ai/"
+        },
+        {
+          "label": "Google Workspace YouTube commercial",
+          "url": "https://www.youtube.com/watch?v=Q3RjZY-rSsc"
+        }
+      ],
+      "evidenceLabel": "review/community friction",
+      "evidenceStrength": "review/community friction · product-message scan",
+      "dossierKind": "product",
+      "dossier": {
+        "zh": {
+          "productName": "Google Workspace AI collaboration surface",
+          "productType": "Google Workspace AI collaboration surface 是Google Workspace 内 AI 协作功能的广告/产品叙事扫描，不是新 SKU。本期只采用来源明确披露的产品面：Google Workspace、Docs、Calendar、Meet、e-signatures、Gemini、Help me visualize/AI media feature语境、YouTube/Instagram/Bluesky 反应。价格、地区、版本、硬件规格或 API 细节凡未出现在来源中，均写作 source not stated。它进入本期的原因是用户真实触碰到的入口发生变化：TechCrunch 描述广告中的 Docs、Calendar、Meet、e-signatures、Gemini note-taking 与 help me visualize 等功能如何被包装成协作流程。",
+          "interactionFlow": "用户流程是：广告里的用户通过 text messages 催稿，文档中 suggest edits，Calendar 安排 meeting，Meet 开会，e-signature 完成签署，Gemini 做会议笔记和 chatbot 建议，AI visualization 生成 seal 概念。这个流程的 HCI 重点不在“多一个 AI 按钮”，而在系统如何把上下文、权限、执行状态和结果回写到用户正在工作的地方。若任务失败，产品需要把失败原因、可重试路径、人工接管或撤销动作留在同一个界面。",
+          "specsOrStack": "来源支持的系统栈包括：Google Workspace、Docs、Calendar、Meet、e-signatures、Gemini、Help me visualize/AI media feature语境、YouTube/Instagram/Bluesky 反应。本期不把广告画面当作新功能说明；Workspace AI 的具体 plan、regions、功能 gating、企业数据边界和模型版本需要回到 Google 官方文档逐项确认。未披露的模型路由、企业审计字段、完整权限矩阵、数据保存周期、区域上线、价格稳定性和 SLA 为 source not stated。本期不从营销页推断任何未写明的性能数字。",
+          "useCases": "具体使用场景包括：协作文档起草、会议安排、会议记录、图像概念生成、文档权限请求、签署流程和团队异步推进。这些场景都要求产品把 agent 的工作拆成可检查的中间状态，而不是只给一个最后答案。对用户来说，关键体验是少切换、少解释、少复制粘贴，同时保留审计、改写、暂停和重做的控制。",
+          "painPointsSolved": "它解决的痛点是：协作软件真正的痛点不是“能不能写”，而是多人版本、权限请求、会议转写、谁负责下一步、AI 建议是否侵入人类判断。过去用户往往要在聊天框、文档、终端、浏览器、数据库和团队沟通工具之间来回搬运上下文；现在产品试图把上下文拉到一个工作台或协作入口里。但这也提高了错误成本，因为 agent 拿到的权限越多，越需要清楚说明它能读什么、能写什么、是否会调用外部系统。",
+          "userVoice": "TechCrunch 记录 YouTube/Instagram response mostly positive，而 Bluesky 更批评；The Verge 也强调 public discomfort。具体可量化 sentiment 分布 source not stated。这部分按 review/community friction 处理，不能当作全量用户满意度。没有直接用户 quote 的地方写 source not stated；媒体或社区摩擦只用于风险判断。",
+          "newTech": "新技术/新界面在于：产品信号不是新模型，而是 AI collaboration 的社会接受度测试：用户愿不愿意让 AI 进入历史、政治、写作和会议协作这种高语境场景。它把 AI 从单轮回答推向“可追踪工作流”：有计划、有工具、有可复现 artifact、有状态反馈，也有权限边界。产品团队需要把这些技术能力翻译成用户看得懂的状态，而不是把复杂度塞进后台。",
+          "availability": "可用性：Google Workspace AI 功能可用性以 Google 官方 Workspace 页面和管理员文档为准；广告发布日期为 2026-07-04 报道语境。若来源没有明确说明国家、计划层级、下载入口、管理员开关、硬件平台或 beta 资格，本期不补猜。对读者的实际建议是先看官方入口和管理员配置要求，再看是否有独立评测或社区故障反馈。",
+          "limitsOrUnknowns": "限制和未知：广告不能证明真实团队流程更好；用户对 AI 参与创作/政治叙事的反感可能污染原本合理的协作功能；功能是否在企业域默认启用 source not stated。此外，跨工具 agent 的共性风险包括权限过宽、错误执行、上下文污染、结果不可复现、审计不足和用户不知道系统何时在行动。本期把这些风险放进产品判断，而非作为抽象趋势评论。",
+          "productVerdict": "产品判断：这是 review lane 的好材料：它显示 AI 协作产品的失败不一定来自功能缺失，也可能来自叙事不可信。产品团队应把 AI 的参与边界写进流程，而不是只把 AI 功能剪进广告。它值得关注的标准不是发布声量，而是是否让用户用更少步骤完成具体任务，同时让权限、状态、证据和撤销保持可见。若后续来源无法证明真实工作流稳定，它应继续降级为 watch signal。"
+        },
+        "en": {
+          "productName": "Google Workspace AI collaboration surface",
+          "productType": "Google Workspace AI collaboration surface is an advertising and product-narrative scan of AI collaboration features inside Google Workspace, not a new SKU. This dossier only uses product surfaces explicitly supported by the cited sources: Google Workspace, Docs, Calendar, Meet, e-signatures, Gemini, help-me-visualize or AI media-feature context, and YouTube/Instagram/Bluesky reaction surfaces. Prices, regions, versions, hardware specifications, API details, or performance numbers that do not appear in those sources remain source not stated. The reason it enters today's issue is an interface change users can actually touch: TechCrunch describes Docs, Calendar, Meet, e-signatures, Gemini note-taking, and help-me-visualize style features being packaged as a collaboration workflow.",
+          "interactionFlow": "The user flow is: the ad flow uses text messages to chase a draft, suggested edits in Docs, Calendar scheduling, a Meet call, e-signatures, Gemini meeting notes and chatbot advice, and AI visualization for a seal concept. The HCI question is not whether the product adds another AI button. It is whether the system can keep context, permission, execution state, and returned output inside the place where the user is already working. If the task fails, the same interface needs to show why it failed, how to retry, when to hand off to a person, and how to undo or fork the work.",
+          "specsOrStack": "The source-backed stack includes: Google Workspace, Docs, Calendar, Meet, e-signatures, Gemini, help-me-visualize or AI media-feature context, and YouTube/Instagram/Bluesky reaction surfaces. this issue does not treat an ad scene as a new feature specification; specific Workspace AI plans, regions, feature gating, enterprise data boundaries, and model versions need direct Google documentation. Model routing, full enterprise audit fields, exact permission matrix, data retention, regional availability, price stability, and SLA are source not stated unless a cited source names them directly. This issue does not infer performance numbers from marketing language.",
+          "useCases": "Concrete use cases include: collaborative drafting, meeting scheduling, meeting notes, image concept generation, document access requests, signing flow, and asynchronous team coordination. These are not abstract productivity claims; they require the product to expose intermediate agent state instead of returning only a final answer. The user benefit is fewer switches, less context re-entry, less copy-paste, and more direct return into the active workflow while retaining audit, editing, pause, and redo controls.",
+          "painPointsSolved": "The pain point is: the real pain in collaboration software is not whether AI can write, but multi-person versions, permission requests, meeting capture, ownership of next steps, and whether AI suggestions intrude on human judgment. Users previously had to move context across chat, documents, terminals, browsers, databases, and team channels. This product tries to bring context into a workbench or collaboration surface. That also raises the cost of mistakes because the more authority an agent receives, the more clearly it must explain what it can read, what it can write, and whether it will call external systems.",
+          "userVoice": "TechCrunch reports YouTube and Instagram reaction appearing mostly positive while Bluesky was more critical; The Verge also foregrounds public discomfort. A quantified sentiment distribution is source not stated. This is treated as review/community friction, not as a complete satisfaction study. When there is no direct user quote, this issue says source not stated. Media and community friction are used only as risk signals unless corroborated by official or hands-on sources.",
+          "newTech": "The new interface or technical idea is: the product signal is not a new model but a public acceptance test for AI collaboration inside high-context work such as history, politics, writing, and meetings. AI moves from single-turn response into traceable workflow: planning, tools, reproducible artifacts, state feedback, and permission boundaries. Product teams have to translate those technical capabilities into states users can understand, rather than hiding complexity in the backend.",
+          "availability": "Availability: availability of Google Workspace AI features should be checked against Google's Workspace pages and admin docs; the ad coverage is dated July 4, 2026. If the sources do not specify country, plan tier, download path, administrator switch, hardware platform, or beta qualification, this issue does not guess. The practical reading is to check the official entry point and admin requirements first, then look for independent reviews or community failure reports.",
+          "limitsOrUnknowns": "Limits and unknowns: an ad cannot prove the real team workflow is better; discomfort with AI in authorship or political narrative can contaminate otherwise useful collaboration features; whether functions are default-on in enterprise domains is source not stated. Cross-tool agents share recurring risks: broad permissions, erroneous execution, context pollution, irreproducible outputs, insufficient audit, and users not knowing when the system is acting. Those risks are part of the product read, not generic trend commentary.",
+          "productVerdict": "Product verdict: this is useful review-lane evidence because AI collaboration can fail through credibility, not only missing features. Product teams should design AI participation boundaries into the workflow rather than merely placing AI features in advertising. The standard is not launch volume. The standard is whether users complete a concrete job in fewer steps while permission, state, evidence, and undo remain visible. If later sources do not prove stable real-world workflow, this should stay downgraded as a watch signal."
+        }
+      }
+    },
+    {
+      "id": "claude-code-enterprise-risk",
+      "section": "community",
+      "zhHeadline": "Alibaba 禁用 Claude Code 报道提示：coding agent 的企业摩擦正在从能力转向治理",
+      "enHeadline": "Alibaba's reported Claude Code ban shows coding-agent friction moving from capability to governance",
+      "visual": {
+        "path": "assets/claude-code-enterprise-risk-2026-07-04.svg",
+        "width": 1200,
+        "height": 760,
+        "altZh": "自绘证据图：Claude Code enterprise friction",
+        "altEn": "Self-drawn evidence diagram: Claude Code enterprise friction",
+        "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
+        "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
+        "sourceUrl": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/"
+      },
+      "sources": [
+        {
+          "label": "TechCrunch: Alibaba reportedly bans Claude Code",
+          "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/"
+        },
+        {
+          "label": "Claude Code product page",
+          "url": "https://claude.com/product/claude-code"
+        },
+        {
+          "label": "Claude Code docs",
+          "url": "https://docs.anthropic.com/en/docs/claude-code/overview"
+        }
+      ],
+      "evidenceLabel": "review/community friction",
+      "evidenceStrength": "review/community friction · China enterprise security signal",
+      "dossierKind": "product",
+      "dossier": {
+        "zh": {
+          "productName": "Claude Code enterprise risk surface",
+          "productType": "Claude Code enterprise risk surface 是coding agent 的企业治理摩擦扫描。本期只采用来源明确披露的产品面：Claude Code 产品、docs、repo/file/terminal 操作语境、企业 allow/ban policy、source-code governance、China enterprise/security environment。价格、地区、版本、硬件规格或 API 细节凡未出现在来源中，均写作 source not stated。它进入本期的原因是用户真实触碰到的入口发生变化：TechCrunch 报道 Alibaba reportedly classified Claude Code as high-risk software；这不是 Claude Code 新功能发布，但直接影响 coding agent 在企业中的默认可用性。",
+          "interactionFlow": "用户流程是：开发者通常在 repo/terminal/IDE 或 CLI 中委派 coding task，agent 读取项目、修改文件、运行命令、生成 diff；企业安全团队则评估源代码、凭证、数据出境、日志、模型供应商和工具调用风险。这个流程的 HCI 重点不在“多一个 AI 按钮”，而在系统如何把上下文、权限、执行状态和结果回写到用户正在工作的地方。若任务失败，产品需要把失败原因、可重试路径、人工接管或撤销动作留在同一个界面。",
+          "specsOrStack": "来源支持的系统栈包括：Claude Code 产品、docs、repo/file/terminal 操作语境、企业 allow/ban policy、source-code governance、China enterprise/security environment。本期不推断 Alibaba 内部 policy 文档全文、禁用范围、执行技术手段、是否涉及所有团队或所有 Anthropic 产品；这些为 source not stated。未披露的模型路由、企业审计字段、完整权限矩阵、数据保存周期、区域上线、价格稳定性和 SLA 为 source not stated。本期不从营销页推断任何未写明的性能数字。",
+          "useCases": "具体使用场景包括：企业代码生成、bug 修复、测试运行、代码审查、迁移、重构、文档生成、数据查询脚本和安全修复。这些场景都要求产品把 agent 的工作拆成可检查的中间状态，而不是只给一个最后答案。对用户来说，关键体验是少切换、少解释、少复制粘贴，同时保留审计、改写、暂停和重做的控制。",
+          "painPointsSolved": "它解决的痛点是：coding agent 能力越强，越容易碰到企业风控红线：私有代码能否外发、secret 是否会被读到、自动命令能否破坏环境、日志是否可审计。过去用户往往要在聊天框、文档、终端、浏览器、数据库和团队沟通工具之间来回搬运上下文；现在产品试图把上下文拉到一个工作台或协作入口里。但这也提高了错误成本，因为 agent 拿到的权限越多，越需要清楚说明它能读什么、能写什么、是否会调用外部系统。",
+          "userVoice": "该信号来自 TechCrunch in brief 报道和媒体/社区传播；没有 Alibaba 官方英文公告或完整内部通知可验证，source not stated。这部分按 review/community friction 处理，不能当作全量用户满意度。没有直接用户 quote 的地方写 source not stated；媒体或社区摩擦只用于风险判断。",
+          "newTech": "新技术/新界面在于：新界面问题是 governance UX：coding agent 需要向管理员和开发者同时展示 repo 权限、工具权限、命令执行、模型边界和数据流向。它把 AI 从单轮回答推向“可追踪工作流”：有计划、有工具、有可复现 artifact、有状态反馈，也有权限边界。产品团队需要把这些技术能力翻译成用户看得懂的状态，而不是把复杂度塞进后台。",
+          "availability": "可用性：Claude Code 产品页面和 docs 可访问；Alibaba 端禁用范围、时间线、地区和替代工具 source not stated。若来源没有明确说明国家、计划层级、下载入口、管理员开关、硬件平台或 beta 资格，本期不补猜。对读者的实际建议是先看官方入口和管理员配置要求，再看是否有独立评测或社区故障反馈。",
+          "limitsOrUnknowns": "限制和未知：单个企业禁用不能代表全市场，但它足以提示 governance 已成为 coding agent 的购买门槛；没有更完整社区样本前，不应扩大成行业结论。此外，跨工具 agent 的共性风险包括权限过宽、错误执行、上下文污染、结果不可复现、审计不足和用户不知道系统何时在行动。本期把这些风险放进产品判断，而非作为抽象趋势评论。",
+          "productVerdict": "产品判断：这条应作为 community friction，而非产品失败。真实问题是 coding agent 需要企业级权限设计、secret 防护、审计、私有部署/区域承诺和清楚的停用路径。它值得关注的标准不是发布声量，而是是否让用户用更少步骤完成具体任务，同时让权限、状态、证据和撤销保持可见。若后续来源无法证明真实工作流稳定，它应继续降级为 watch signal。"
+        },
+        "en": {
+          "productName": "Claude Code enterprise risk surface",
+          "productType": "Claude Code enterprise risk surface is a governance-friction scan for a coding agent. This dossier only uses product surfaces explicitly supported by the cited sources: Claude Code product and docs, repository/file/terminal operation context, enterprise allow/ban policy, source-code governance, and a China enterprise/security environment. Prices, regions, versions, hardware specifications, API details, or performance numbers that do not appear in those sources remain source not stated. The reason it enters today's issue is an interface change users can actually touch: TechCrunch reports that Alibaba reportedly classified Claude Code as high-risk software; this is not a new Claude Code feature launch, but it directly affects default availability of coding agents inside enterprises.",
+          "interactionFlow": "The user flow is: a developer delegates a coding task from a repo, terminal, IDE, or CLI; the agent reads the project, edits files, runs commands, and produces diffs, while enterprise security evaluates source code, credentials, data movement, logs, model vendor, and tool-call risk. The HCI question is not whether the product adds another AI button. It is whether the system can keep context, permission, execution state, and returned output inside the place where the user is already working. If the task fails, the same interface needs to show why it failed, how to retry, when to hand off to a person, and how to undo or fork the work.",
+          "specsOrStack": "The source-backed stack includes: Claude Code product and docs, repository/file/terminal operation context, enterprise allow/ban policy, source-code governance, and a China enterprise/security environment. this issue does not infer Alibaba's full internal policy text, ban scope, enforcement mechanism, whether all teams are affected, or whether all Anthropic products are affected; those remain source not stated. Model routing, full enterprise audit fields, exact permission matrix, data retention, regional availability, price stability, and SLA are source not stated unless a cited source names them directly. This issue does not infer performance numbers from marketing language.",
+          "useCases": "Concrete use cases include: enterprise code generation, bug fixing, test execution, code review, migration, refactoring, documentation, data-query scripts, and security fixes. These are not abstract productivity claims; they require the product to expose intermediate agent state instead of returning only a final answer. The user benefit is fewer switches, less context re-entry, less copy-paste, and more direct return into the active workflow while retaining audit, editing, pause, and redo controls.",
+          "painPointsSolved": "The pain point is: the stronger a coding agent becomes, the more it touches enterprise risk boundaries: whether private code can leave, whether secrets may be read, whether automatic commands can damage environments, and whether logs are auditable. Users previously had to move context across chat, documents, terminals, browsers, databases, and team channels. This product tries to bring context into a workbench or collaboration surface. That also raises the cost of mistakes because the more authority an agent receives, the more clearly it must explain what it can read, what it can write, and whether it will call external systems.",
+          "userVoice": "the signal comes from a TechCrunch in-brief report and media/community circulation; no Alibaba official English announcement or complete internal memo was verified here, so source not stated. This is treated as review/community friction, not as a complete satisfaction study. When there is no direct user quote, this issue says source not stated. Media and community friction are used only as risk signals unless corroborated by official or hands-on sources.",
+          "newTech": "The new interface or technical idea is: the new interface problem is governance UX: a coding agent needs to show repository permissions, tool permissions, command execution, model boundaries, and data flow to both administrators and developers. AI moves from single-turn response into traceable workflow: planning, tools, reproducible artifacts, state feedback, and permission boundaries. Product teams have to translate those technical capabilities into states users can understand, rather than hiding complexity in the backend.",
+          "availability": "Availability: Claude Code product and docs are accessible; Alibaba-side scope, timeline, region, and replacement tools are source not stated. If the sources do not specify country, plan tier, download path, administrator switch, hardware platform, or beta qualification, this issue does not guess. The practical reading is to check the official entry point and admin requirements first, then look for independent reviews or community failure reports.",
+          "limitsOrUnknowns": "Limits and unknowns: one reported enterprise ban does not represent the whole market, but it is enough to show governance becoming a purchase gate for coding agents; without broader community samples, it should not be generalized into an industry conclusion. Cross-tool agents share recurring risks: broad permissions, erroneous execution, context pollution, irreproducible outputs, insufficient audit, and users not knowing when the system is acting. Those risks are part of the product read, not generic trend commentary.",
+          "productVerdict": "Product verdict: this should be read as community friction, not as product failure. The real issue is that coding agents need enterprise-grade permission design, secret protection, audit, private deployment or regional commitments, and clear disable paths. The standard is not launch volume. The standard is whether users complete a concrete job in fewer steps while permission, state, evidence, and undo remain visible. If later sources do not prove stable real-world workflow, this should stay downgraded as a watch signal."
+        }
+      }
+    },
+    {
+      "id": "product-hunt-agent-browser-wild-scan",
+      "section": "wild",
+      "zhHeadline": "Product Hunt wild lane：AI Browser、Klariqo、Raydian 显示 agent 产品正在收窄到具体工作",
+      "enHeadline": "Product Hunt wild lane: AI Browser, Klariqo, and Raydian show agents narrowing into concrete jobs",
+      "visual": {
+        "path": "assets/product-hunt-agent-browser-2026-07-04.svg",
+        "width": 1200,
+        "height": 760,
+        "altZh": "自绘证据图：Product Hunt agent browser scan",
+        "altEn": "Self-drawn evidence diagram: Product Hunt agent browser scan",
+        "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
+        "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
+        "sourceUrl": "https://www.producthunt.com/topics/artificial-intelligence"
+      },
+      "sources": [
+        {
+          "label": "Product Hunt: Artificial Intelligence topic",
+          "url": "https://www.producthunt.com/topics/artificial-intelligence"
+        },
+        {
+          "label": "Product Hunt: AI Agents category",
+          "url": "https://www.producthunt.com/categories/ai-agents"
+        },
+        {
+          "label": "Product Hunt: AI Browser",
+          "url": "https://www.producthunt.com/products/ai-browser"
+        },
+        {
+          "label": "Product Hunt: Klariqo",
+          "url": "https://www.producthunt.com/products/klariqo"
+        },
+        {
+          "label": "Product Hunt: Raydian",
+          "url": "https://www.producthunt.com/products/raydian"
+        }
+      ],
+      "evidenceLabel": "startup signal",
+      "evidenceStrength": "startup signal · wild source-lane scan",
+      "dossierKind": "scan",
+      "dossier": {
+        "zh": {
+          "productName": "Product Hunt agent wild scan",
+          "productType": "Product Hunt agent wild scan 是 source-lane scan，不是确认单品发布。扫描对象：Product Hunt AI topic、AI Agents category、AI Browser、Klariqo、Raydian 等近期 AI agent/product-builder 条目。本期把它标成 startup signal，因为证据更多来自媒体、社区、论文、专利或行业页面。",
+          "interactionFlow": "可观察的交互信号是：AI Browser 把 prompt 转成 web automation/cloud session，Klariqo 把 voice/chat agent 放进 SMB booking 和 phone flow，Raydian 把 chat-to-build、visual editing 和 hosting 连成产品创建入口。没有足够来源支持的产品流程不做推断；缺失的规格、价格、地区、用户 quote 和上线日期均为 source not stated。",
+          "specsOrStack": "来源支持的材料包括：Product Hunt 页面支持 AI agent、AI coding agents、AI browser automation、voice/chat agents、product builders、reviews/ratings/use-by graph 等市场信号。这只能说明方向或摩擦存在，不能证明完整产品体验已经成熟。",
+          "useCases": "可能影响的使用场景：增长运营、网页自动化、服务业预约、电话接线、AI 建站、全栈 app 原型和非工程用户的 prompt-to-workflow。这些场景需要继续观察是否有官方文档、真实评测、社区反馈或可购买入口支撑。",
+          "painPointsSolved": "扫描到的痛点：“通用 agent”卖点开始变弱，用户更关心能否替自己完成某个固定场景并减少配置。本期关注的是用户界面、权限、反馈和工作流的实际阻力，而不是公司叙事。",
+          "userVoice": "Product Hunt 热度、rating 和 launch wording 是 startup/community signal，不是留存或收入证据；缺少独立长期评测。",
+          "newTech": "新技术/新信号：agent 产品从“我能做任何事”转向“浏览器自动化、电话预约、chat-to-build”等窄入口。",
+          "availability": "可用性：各产品可访问性、价格、地区、数据政策和集成清单需逐项看官方页；Product Hunt 本身只证明公开展示和社区互动。",
+          "limitsOrUnknowns": "限制和未知：launch 页面可能过度承诺，AI browser automation 涉及 CAPTCHA、账号安全和网站 ToS，voice agent 涉及电话合规和误接单，chat-to-build 涉及生成代码可维护性。",
+          "productVerdict": "产品判断：wild lane 可提升为产品 dossier 的条件是：有官方文档、稳定价格、真实 case、社区故障样本和可复现 demo。今天保留为 startup signal。"
+        },
+        "en": {
+          "productName": "Product Hunt agent wild scan",
+          "productType": "Product Hunt agent wild scan is a source-lane scan, not a confirmed single-product launch. The scan covers: Product Hunt AI topic, AI Agents category, AI Browser, Klariqo, Raydian, and adjacent AI-agent/product-builder listings. It is labeled startup signal because the evidence comes mostly from media, community, research, patent, or industry pages.",
+          "interactionFlow": "The observable interaction signal is: AI Browser turns prompts into web automation and cloud sessions, Klariqo puts voice/chat agents into SMB booking and phone flows, and Raydian links chat-to-build, visual editing, and hosting into a product-creation entry point. Product flows that are not source-backed are not inferred. Missing specifications, prices, regions, user quotes, and launch dates remain source not stated.",
+          "specsOrStack": "The source-backed material includes: Product Hunt pages support market signals around AI agents, AI coding agents, AI browser automation, voice/chat agents, product builders, ratings/reviews, and used-by graphs. This can show direction or friction, but it does not prove the full product experience is mature.",
+          "useCases": "Potentially affected use cases: growth operations, web automation, service booking, phone handling, AI site building, full-stack app prototyping, and prompt-to-workflow for non-engineers. These need further official docs, hands-on reviews, community reports, or purchasable entry points before they can be upgraded.",
+          "painPointsSolved": "The scanned pain point is: the generic agent pitch is weakening; users care more about whether a product completes a fixed job with less configuration. This issue focuses on interface, permission, feedback, and workflow resistance rather than company narrative.",
+          "userVoice": "Product Hunt heat, ratings, and launch wording are startup/community signals, not retention or revenue evidence; independent long-term reviews are missing.",
+          "newTech": "New technical or product signal: agent products are shifting from 'I can do anything' toward narrower entries such as browser automation, phone booking, and chat-to-build.",
+          "availability": "Availability: each product's access, price, region, data policy, and integration list must be checked on its own official page; Product Hunt only proves public listing and community interaction.",
+          "limitsOrUnknowns": "Limits and unknowns: launch pages may overclaim; AI browser automation touches CAPTCHA, account security, and website terms; voice agents touch phone compliance and mistaken bookings; chat-to-build touches maintainability of generated code.",
+          "productVerdict": "Product verdict: the condition for upgrading this wild lane into full product dossiers is official docs, stable pricing, real cases, community failure samples, and reproducible demos. Today it stays a startup signal."
+        }
+      }
+    },
+    {
+      "id": "wearable-agent-research-scan",
+      "section": "research",
+      "zhHeadline": "研究 lane：连续感知眼镜 agent 仍是实验室信号，不能升级成产品事实",
+      "enHeadline": "Research lane: continuous-perception eyewear agents remain lab signals, not product facts",
+      "visual": {
+        "path": "assets/wearable-agent-research-scan-2026-07-04.svg",
+        "width": 1200,
+        "height": 760,
+        "altZh": "自绘证据图：Wearable agent research scan",
+        "altEn": "Self-drawn evidence diagram: Wearable agent research scan",
+        "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
+        "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
+        "sourceUrl": "https://arxiv.org/html/2604.03486v2"
+      },
+      "sources": [
+        {
+          "label": "arXiv: VisionClaw always-on AI agents through smart glasses",
+          "url": "https://arxiv.org/html/2604.03486v2"
+        },
+        {
+          "label": "arXiv: Conversational successes and breakdowns in smart glasses",
+          "url": "https://arxiv.org/html/2602.22340v1"
+        },
+        {
+          "label": "ACM CHI 2026",
+          "url": "https://chi2026.acm.org/"
+        }
+      ],
+      "evidenceLabel": "research signal",
+      "evidenceStrength": "research signal · downgraded HCI watch",
+      "dossierKind": "scan",
+      "dossier": {
+        "zh": {
+          "productName": "Wearable agent research scan",
+          "productType": "Wearable agent research scan 是 source-lane scan，不是确认单品发布。扫描对象：VisionClaw always-on smart-glasses agent 论文、smart-glasses conversational breakdown 论文与 CHI/HCI 研究语境。本期把它标成 research signal，因为证据更多来自媒体、社区、论文、专利或行业页面。",
+          "interactionFlow": "可观察的交互信号是：研究原型通过眼镜获得第一人称环境，用户语音委派任务，agent 将环境理解、工具调用和后续动作连接起来；breakdown 研究提醒无屏/少屏交互会在时机、误解和反馈不足上失败。没有足够来源支持的产品流程不做推断；缺失的规格、价格、地区、用户 quote 和上线日期均为 source not stated。",
+          "specsOrStack": "来源支持的材料包括：Meta Ray-Ban smart glasses、Gemini Live、OpenClaw、controlled lab study/autobiographical deployment、voice-only/non-display smart-glasses interaction analysis。这只能说明方向或摩擦存在，不能证明完整产品体验已经成熟。",
+          "useCases": "可能影响的使用场景：维修、购物、烹饪、会议、生活记录、无障碍、工业现场和实时翻译等潜在任务。这些场景需要继续观察是否有官方文档、真实评测、社区反馈或可购买入口支撑。",
+          "painPointsSolved": "扫描到的痛点：手机/桌面 AI 需要用户解释环境，眼镜 agent 试图让系统直接看见；但 continuous perception 会引发旁观者同意、录制状态和错误执行问题。本期关注的是用户界面、权限、反馈和工作流的实际阻力，而不是公司叙事。",
+          "userVoice": "研究样本不是市场反馈；论文样本量、实验设置和自传式部署不能代表普通消费者长期佩戴意愿。",
+          "newTech": "新技术/新信号：egocentric perception + general-purpose agent execution，把环境上下文变成任务上下文。",
+          "availability": "可用性：研究论文可读；没有对应商业可购买产品、价格或上线地区。",
+          "limitsOrUnknowns": "限制和未知：续航、热量、网络依赖、隐私提示、旁观者同意、失败恢复和误执行成本仍未被消费级产品证明。",
+          "productVerdict": "产品判断：作为 research watch 保留。产品团队现在能学到的是 state indicator、context preview、pause、undo 和 consent 设计，而不是马上复制原型。"
+        },
+        "en": {
+          "productName": "Wearable agent research scan",
+          "productType": "Wearable agent research scan is a source-lane scan, not a confirmed single-product launch. The scan covers: the VisionClaw always-on smart-glasses agent paper, smart-glasses conversational breakdown research, and CHI/HCI context. It is labeled research signal because the evidence comes mostly from media, community, research, patent, or industry pages.",
+          "interactionFlow": "The observable interaction signal is: the research prototype uses glasses for first-person context, the user delegates tasks by voice, and the agent connects environmental understanding, tool use, and follow-up actions; breakdown research warns that no-screen or low-screen interaction fails around timing, misunderstanding, and insufficient feedback. Product flows that are not source-backed are not inferred. Missing specifications, prices, regions, user quotes, and launch dates remain source not stated.",
+          "specsOrStack": "The source-backed material includes: Meta Ray-Ban smart glasses, Gemini Live, OpenClaw, controlled lab and autobiographical deployment context, and voice-only/non-display smart-glasses interaction analysis. This can show direction or friction, but it does not prove the full product experience is mature.",
+          "useCases": "Potentially affected use cases: repair, shopping, cooking, meetings, life logging, accessibility, industrial field work, and real-time translation as potential tasks. These need further official docs, hands-on reviews, community reports, or purchasable entry points before they can be upgraded.",
+          "painPointsSolved": "The scanned pain point is: phone and desktop AI require users to describe the environment, while eyewear agents try to let systems see directly; continuous perception raises bystander consent, recording-state, and erroneous-execution problems. This issue focuses on interface, permission, feedback, and workflow resistance rather than company narrative.",
+          "userVoice": "research samples are not market feedback; sample sizes, lab settings, and autobiographical deployments cannot represent long-term ordinary-consumer willingness to wear the device.",
+          "newTech": "New technical or product signal: egocentric perception plus general-purpose agent execution, turning environmental context into task context.",
+          "availability": "Availability: the papers are readable; there is no corresponding commercial purchasable product, price, or launch region.",
+          "limitsOrUnknowns": "Limits and unknowns: battery, heat, network dependence, privacy indicators, bystander consent, recovery, and erroneous-execution cost remain unproven in consumer products.",
+          "productVerdict": "Product verdict: keep it as a research watch. Product teams can learn state indicators, context preview, pause, undo, and consent design now, but should not treat the prototype as a launchable product."
+        }
+      }
+    },
+    {
+      "id": "smart-glasses-patent-lane-scan",
+      "section": "patent",
+      "zhHeadline": "专利 lane：智能眼镜 IP 活跃，但今天没有可升级的上市事实",
+      "enHeadline": "Patent lane: smart-glasses IP is active, but no patent becomes a launch fact today",
+      "visual": {
+        "path": "assets/smart-glasses-patent-lane-2026-07-04.svg",
+        "width": 1200,
+        "height": 760,
+        "altZh": "自绘证据图：Smart-glasses patent lane",
+        "altEn": "Self-drawn evidence diagram: Smart-glasses patent lane",
+        "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
+        "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
+        "sourceUrl": "https://patents.google.com/patent/WO2024129004A1/en"
+      },
+      "sources": [
+        {
+          "label": "Google Patents: AI-supported smart glasses",
+          "url": "https://patents.google.com/patent/WO2024129004A1/en"
+        },
+        {
+          "label": "Google Patents: AI Smart Glasses GS1 design",
+          "url": "https://patents.google.com/patent/CN309755008S/en"
+        },
+        {
+          "label": "WIPO Global Awards 2026: Rokid",
+          "url": "https://www.wipo.int/en/web/awards/global/2026"
+        },
+        {
+          "label": "Android Central: Solos smart-glasses patent lawsuit",
+          "url": "https://www.androidcentral.com/wearables/solos-is-taking-aim-at-meta-essilorluxottica-for-alleged-smart-glasses-patent-infringement-in-pivotal-case"
+        }
+      ],
+      "evidenceLabel": "patent signal",
+      "evidenceStrength": "patent signal · explicitly speculative",
+      "dossierKind": "scan",
+      "dossier": {
+        "zh": {
+          "productName": "Smart-glasses patent lane scan",
+          "productType": "Smart-glasses patent lane scan 是 source-lane scan，不是确认单品发布。扫描对象：AI-supported smart glasses 专利、AI Smart Glasses GS1 外观设计、Rokid WIPO profile、Solos 与 Meta/EssilorLuxottica 专利诉讼报道。本期把它标成 patent signal，因为证据更多来自媒体、社区、论文、专利或行业页面。",
+          "interactionFlow": "可观察的交互信号是：专利没有真实用户流程，只能提示医疗/工业/外观/传感/显示方向；诉讼可能影响授权、渠道、功能或成本，但不能证明某项功能已上线。没有足够来源支持的产品流程不做推断；缺失的规格、价格、地区、用户 quote 和上线日期均为 source not stated。",
+          "specsOrStack": "来源支持的材料包括：patent publication pages、design patent、WIPO company/IP profile、smart-glasses litigation coverage。这只能说明方向或摩擦存在，不能证明完整产品体验已经成熟。",
+          "useCases": "可能影响的使用场景：产品研究、竞品风险、硬件路线图、光学/音频/传感/外观设计边界判断。这些场景需要继续观察是否有官方文档、真实评测、社区反馈或可购买入口支撑。",
+          "painPointsSolved": "扫描到的痛点：硬件团队如果只看发布会，很容易忽略一个品类在上市前已被 IP 和诉讼塑形。本期关注的是用户界面、权限、反馈和工作流的实际阻力，而不是公司叙事。",
+          "userVoice": "专利没有用户原声；诉讼报道也不等于消费者反馈。",
+          "newTech": "新技术/新信号：专利聚集在 AI-supported eyewear、医疗/工业辅助、设计形态和 smart-glasses platform claim 周围。",
+          "availability": "可用性：专利公开不等于上市；WIPO profile 不等于所有地区可购买；诉讼不等于判决。",
+          "limitsOrUnknowns": "限制和未知：权利要求有效性、实施状态、法院结果、授权费用、用户影响和终端规格均 source not stated。",
+          "productVerdict": "产品判断：只作为 patent watch。它提醒产品团队做 IP 风险扫描，但不能替代官方产品页、评测和用户证据。"
+        },
+        "en": {
+          "productName": "Smart-glasses patent lane scan",
+          "productType": "Smart-glasses patent lane scan is a source-lane scan, not a confirmed single-product launch. The scan covers: AI-supported smart-glasses patent documents, AI Smart Glasses GS1 design, Rokid WIPO profile, and Solos versus Meta/EssilorLuxottica patent-litigation coverage. It is labeled patent signal because the evidence comes mostly from media, community, research, patent, or industry pages.",
+          "interactionFlow": "The observable interaction signal is: patents have no real user flow; they only indicate medical, industrial, exterior-design, sensing, or display directions; litigation may influence licensing, channel, function, or cost but cannot prove a feature shipped. Product flows that are not source-backed are not inferred. Missing specifications, prices, regions, user quotes, and launch dates remain source not stated.",
+          "specsOrStack": "The source-backed material includes: patent publication pages, a design patent, WIPO company/IP profile, and smart-glasses litigation coverage. This can show direction or friction, but it does not prove the full product experience is mature.",
+          "useCases": "Potentially affected use cases: product research, competitive-risk tracking, hardware roadmapping, and boundary checks around optics, audio, sensing, and exterior design. These need further official docs, hands-on reviews, community reports, or purchasable entry points before they can be upgraded.",
+          "painPointsSolved": "The scanned pain point is: hardware teams that track only launches can miss how a category is shaped by IP and litigation before products reach users. This issue focuses on interface, permission, feedback, and workflow resistance rather than company narrative.",
+          "userVoice": "patents provide no user voice; litigation coverage is not consumer feedback.",
+          "newTech": "New technical or product signal: the patent cluster sits around AI-supported eyewear, medical/industrial assistance, design form, and smart-glasses platform claims.",
+          "availability": "Availability: patent publication is not launch; a WIPO profile is not availability in every region; a lawsuit is not a court decision.",
+          "limitsOrUnknowns": "Limits and unknowns: claim validity, implementation status, court outcome, licensing cost, user impact, and final device specs are source not stated.",
+          "productVerdict": "Product verdict: keep this as patent watch only. It reminds product teams to scan IP risk, but it cannot replace official product pages, reviews, and user evidence."
+        }
+      }
+    },
+    {
+      "id": "china-ai-glasses-enterprise-agent-scan",
+      "section": "china",
+      "zhHeadline": "中国 lane：AI 眼镜市场升温与 Claude Code 企业禁用共同指向治理型入口",
+      "enHeadline": "China lane: AI glasses market heat and the reported Claude Code ban both point to governed entry points",
+      "visual": {
+        "path": "assets/china-ai-glasses-enterprise-agent-scan-2026-07-04.svg",
+        "width": 1200,
+        "height": 760,
+        "altZh": "自绘证据图：China AI glasses and enterprise agent scan",
+        "altEn": "Self-drawn evidence diagram: China AI glasses and enterprise agent scan",
+        "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
+        "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
+        "sourceUrl": "https://m.36kr.com/p/3855201250507656"
+      },
+      "sources": [
+        {
+          "label": "36氪：AI眼镜赛道全面起势",
+          "url": "https://m.36kr.com/p/3855201250507656"
+        },
+        {
+          "label": "WIPO Global Awards 2026: Rokid",
+          "url": "https://www.wipo.int/en/web/awards/global/2026"
+        },
+        {
+          "label": "Google Patents: AI Smart Glasses GS1 design",
+          "url": "https://patents.google.com/patent/CN309755008S/en"
+        },
+        {
+          "label": "TechCrunch: Alibaba reportedly bans Claude Code",
+          "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/"
+        }
+      ],
+      "evidenceLabel": "weak/unverified",
+      "evidenceStrength": "weak/unverified · China source-lane scan",
+      "dossierKind": "scan",
+      "dossier": {
+        "zh": {
+          "productName": "China AI glasses and enterprise agent scan",
+          "productType": "China AI glasses and enterprise agent scan 是 source-lane scan，不是确认单品发布。扫描对象：36氪 AI 眼镜报道、WIPO Rokid profile、AI Smart Glasses GS1 外观设计专利、Alibaba reportedly bans Claude Code 的企业治理信号。本期把它标成 weak/unverified，因为证据更多来自媒体、社区、论文、专利或行业页面。",
+          "interactionFlow": "可观察的交互信号是：眼镜 lane 描述语音、显示、翻译、导航、会议和本地服务闭环；企业 agent lane 描述 coding agent 进入私有代码和工具权限后的风控阻力。没有足够来源支持的产品流程不做推断；缺失的规格、价格、地区、用户 quote 和上线日期均为 source not stated。",
+          "specsOrStack": "来源支持的材料包括：36氪中国 AI 眼镜市场报道、WIPO Rokid 专利/商标/出货与部署资料、AI Smart Glasses 设计专利、Claude Code 企业风控报道。这只能说明方向或摩擦存在，不能证明完整产品体验已经成熟。",
+          "useCases": "可能影响的使用场景：翻译字幕、会议记录、导览、工业提示、本地生活服务、地图/支付/办公连接、企业代码生成和安全策略。这些场景需要继续观察是否有官方文档、真实评测、社区反馈或可购买入口支撑。",
+          "painPointsSolved": "扫描到的痛点：中国市场的 AI 硬件和企业 agent 都在争入口，但入口不是越靠前越好；用户和组织需要知道谁在感知、谁在执行、权限归谁。本期关注的是用户界面、权限、反馈和工作流的实际阻力，而不是公司叙事。",
+          "userVoice": "今天材料更多是媒体/行业和单条企业禁用报道，缺少足够长期用户佩戴、企业管理员访谈和售后数据。",
+          "newTech": "新技术/新信号：AIOS-native glasses 和 governed coding agent 都把 AI 产品从 app 功能推向系统入口与权限治理。",
+          "availability": "可用性：各眼镜型号、系统/API、地区、价格和售后需回官方页逐项确认；Claude Code 在 Alibaba 的禁用范围 source not stated。",
+          "limitsOrUnknowns": "限制和未知：AIOS 叙事容易大于 hands-on 证据；补贴和销量不是满意度；单个企业禁用不是行业结论。",
+          "productVerdict": "产品判断：中国 lane 今天应降级但不能忽略。它说明 AI 入口竞争的下一步是治理：眼镜要治理感知与外观信任，coding agent 要治理代码和工具权限。"
+        },
+        "en": {
+          "productName": "China AI glasses and enterprise agent scan",
+          "productType": "China AI glasses and enterprise agent scan is a source-lane scan, not a confirmed single-product launch. The scan covers: 36Kr smart-glasses coverage, the WIPO Rokid profile, AI Smart Glasses GS1 design patent, and the reported Alibaba Claude Code ban as an enterprise-governance signal. It is labeled weak/unverified because the evidence comes mostly from media, community, research, patent, or industry pages.",
+          "interactionFlow": "The observable interaction signal is: the eyewear lane describes voice, display, translation, navigation, meetings, and local-service closure; the enterprise-agent lane describes risk resistance when a coding agent enters private code and tool permissions. Product flows that are not source-backed are not inferred. Missing specifications, prices, regions, user quotes, and launch dates remain source not stated.",
+          "specsOrStack": "The source-backed material includes: 36Kr China AI-glasses market coverage, WIPO material on Rokid patents/trademarks/shipments/deployments, an AI Smart Glasses design patent, and Claude Code enterprise risk reporting. This can show direction or friction, but it does not prove the full product experience is mature.",
+          "useCases": "Potentially affected use cases: translation subtitles, meeting notes, guidance, industrial prompts, local-life services, maps/payments/workplace links, enterprise coding, and security policy. These need further official docs, hands-on reviews, community reports, or purchasable entry points before they can be upgraded.",
+          "painPointsSolved": "The scanned pain point is: China's AI hardware and enterprise agents are both competing for entry points, but earlier entry is not automatically better; users and organizations need to know who senses, who executes, and who owns permission. This issue focuses on interface, permission, feedback, and workflow resistance rather than company narrative.",
+          "userVoice": "today's material is mostly media/industry coverage and one reported enterprise ban, with limited long-term wearer feedback, enterprise-admin interviews, or after-sales data.",
+          "newTech": "New technical or product signal: AIOS-native glasses and governed coding agents both move AI products from app features into system entry points and permission governance.",
+          "availability": "Availability: specific eyewear models, systems/APIs, regions, prices, and support require product-by-product official verification; the Claude Code ban scope inside Alibaba is source not stated.",
+          "limitsOrUnknowns": "Limits and unknowns: AIOS narrative can exceed hands-on evidence; subsidies and sales are not satisfaction; one enterprise ban is not an industry-wide conclusion.",
+          "productVerdict": "Product verdict: the China lane should be downgraded but not ignored. It shows the next stage of AI entry-point competition is governance: glasses must govern perception and form-factor trust, and coding agents must govern code and tool authority."
+        }
+      }
+    }
+  ],
+  "zhPath": "./zh/",
+  "enPath": "./en/",
+  "sourcesPath": "./sources.md"
+}
