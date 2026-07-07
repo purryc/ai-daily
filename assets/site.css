@@ -825,20 +825,26 @@ body:has(.deck-page) {
 
 .source-slide {
   align-content: stretch;
-  gap: 12px;
+  gap: 8px;
+}
+
+.source-slide h2 {
+  font-size: clamp(22px, 2.6vw, 40px);
+  line-height: 1.02;
+  margin-bottom: 0;
 }
 
 .source-slide .source-grid {
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 6px;
+  gap: 5px;
   align-content: start;
 }
 
 .source-slide .source-grid a {
   min-height: 0;
   border-radius: 12px;
-  padding: 7px 8px;
-  gap: 4px;
+  padding: 6px 7px;
+  gap: 3px;
 }
 
 .source-slide .source-grid span {
@@ -854,7 +860,7 @@ body:has(.deck-page) {
 
 .source-slide .source-row {
   font-size: 10px;
-  margin-top: 4px;
+  margin-top: 0;
 }
 
 .slide-grid {

@@ -1,5 +1,57 @@
 [
   {
+    "date": "2026-07-07",
+    "zhTitle": "AI Daily 2026-07-07：AI 眼镜隐私战进入产品化层",
+    "enTitle": "AI Daily 2026-07-07: AI Glasses Privacy Moves Into Product Form",
+    "zhSummary": "Solos AirGo A6 用无摄像头和隐私配件把 AI 眼镜的信任问题做成产品形态；Acti、Cloudflare、MemoMind、ZCode 和中国 AIOS 扫描继续显示 agent 入口战正在进入系统层。",
+    "enSummary": "Solos AirGo A6 turns AI-eyewear trust into product form through a camera-free design and privacy accessories; Acti, Cloudflare, MemoMind, ZCode, and China AIOS scans continue to show agent entry points moving into system layers.",
+    "tags": [
+      "AI hardware",
+      "agent UX",
+      "smart glasses",
+      "AI keyboard",
+      "developer surface",
+      "crawler policy",
+      "China scan",
+      "patent watch"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "wild",
+      "research",
+      "patent",
+      "china",
+      "global"
+    ],
+    "coverStory": {
+      "topicId": "solos-airgo-a6-privacy-eyewear",
+      "zhTitle": "AI 眼镜的隐私边界开始长成硬件",
+      "enTitle": "AI-eyewear privacy starts becoming hardware",
+      "imagePath": "assets/solos-airgo-a6-privacy-eyewear-2026-07-07.svg",
+      "imageWidth": 1200,
+      "imageHeight": 760,
+      "primarySourceUrl": "https://www.theverge.com/tech/961711/solos-airgo-a6-smart-glasses-ai-assistant-privacy",
+      "evidenceStrength": "confirmed product · camera-free AI eyewear",
+      "whyCover": "Solos AirGo A6 turns privacy, sensor state and daily wearability into product-form decisions.",
+      "zhSummary": [
+        "今天的封面是 Solos AirGo A6：它用无摄像头机身和 V2 隐私遮挡配件回答 AI 眼镜的信任问题。",
+        "19g 级轻量、处方镜片兼容、语音 AI 和翻译说明眼镜入口先要像普通眼镜一样可长期佩戴。",
+        "Cloudflare、Acti、MemoMind、ZCode 与中国 AIOS 扫描继续补齐 agent 入口从 Web、键盘、IDE 到眼前屏幕的迁移。"
+      ],
+      "enSummary": [
+        "Today's cover is Solos AirGo A6: a camera-free frame plus V2 privacy accessories turn AI-eyewear trust into product form.",
+        "The 19g-class signal, prescription compatibility, voice AI, and translation show that eyewear agents first have to work as everyday glasses.",
+        "Cloudflare, Acti, MemoMind, ZCode, and China AIOS scans complete the map of agent entry points moving from web, keyboard, IDE, and phone into eyewear."
+      ],
+      "imageSourceUrl": "https://www.theverge.com/tech/961711/solos-airgo-a6-smart-glasses-ai-assistant-privacy"
+    },
+    "zhPath": "./2026-07-07/zh/",
+    "enPath": "./2026-07-07/en/",
+    "sourcesPath": "./2026-07-07/sources.md"
+  },
+  {
     "date": "2026-07-06",
     "zhTitle": "AI Daily 2026-07-06：周末后 Agent 入口战进入基础设施层",
     "enTitle": "AI Daily 2026-07-06: After the Weekend, Agent Entry Points Become Infrastructure",
