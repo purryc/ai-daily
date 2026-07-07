@@ -27,6 +27,20 @@ function visual(name, title, lanesText, bullets) {
   };
 }
 
+function sourceVisual(file, title, sourceUrl, captionZh, captionEn) {
+  return {
+    path: `assets/${file}`,
+    width: 1440,
+    height: 900,
+    kind: "source-backed screenshot",
+    altZh: `真实来源截图：${title}`,
+    altEn: `Source-backed screenshot: ${title}`,
+    captionZh,
+    captionEn,
+    sourceUrl
+  };
+}
+
 function diagramSvg(title, lanesText, bullets) {
   const safe = (value) => String(value).replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;");
   const palette = ["#0f766e", "#1d4ed8", "#7c3aed", "#be123c", "#a16207"];
@@ -81,60 +95,76 @@ function topic({ id, section, zhHeadline, enHeadline, sourceDate, evidenceLabel,
 }
 
 const visuals = {
-  solos: visual("solos-airgo-a6-privacy-eyewear-2026-07-07", "Solos AirGo A6 privacy-first AI eyewear", "official · reviews · global", [
-    ["Camera-free A6", "The new frame removes the camera and leans on voice AI, translation and calls."],
-    ["19g class signal", "Coverage reports about 19 grams, much lighter than prior A5 and Meta glasses."],
-    ["V2 privacy accessories", "Clip-on camera shield and transparent temples make recording state visible."],
-    ["Unknowns", "A6 price, launch timing, battery and exact model stack are source not stated."]
-  ]),
-  cloudflare: visual("cloudflare-agent-crawler-controls-2026-07-07", "Cloudflare AI traffic controls", "official · global · developer surface", [
-    ["Three traffic intents", "Search, Agent and Training crawlers become separate controls."],
-    ["Publisher-facing switchboard", "Free-tier site owners can tune crawler access instead of using one block."],
-    ["Agent UX consequence", "AI products must explain whether they browse, act, train or summarize."],
-    ["Unknowns", "Downstream agent compliance and economic settlement remain unsettled."]
-  ]),
-  acti: visual("acti-agentic-keyboard-2026-07-07", "Acti agentic keyboard", "wild · official · community", [
-    ["Keyboard as command layer", "Intent starts inside any text field instead of a separate AI app."],
-    ["Acti Bar and Skill Keys", "Hold gestures trigger actions, custom skills and dictation flows."],
-    ["Cross-app promise", "Messaging, email, social and productivity apps become execution surfaces."],
-    ["Risk", "Permissions and full-access keyboard trust must be legible."]
-  ]),
-  memomind: visual("memomind-one-friction-2026-07-07", "MemoMind One glasses friction", "reviews · community · crowdfunding signal", [
-    ["Camera-free display glasses", "Floating green micro-LED information panel, phone-connected assistant."],
-    ["Review friction", "Outdoor visibility, app dependence, audio privacy and slow AI are repeated concerns."],
-    ["Useful jobs", "Teleprompter, captioning, translation and voice notes are concrete workflows."],
-    ["Unknowns", "Crowdfunding delivery and final retail experience remain unproven."]
-  ]),
-  anthropic: visual("claude-sonnet-5-agent-surface-2026-07-07", "Claude Sonnet 5 agent surface", "developer surface · official · global", [
-    ["Agentic model floor", "Planning, browser, terminal and tool use move into a cheaper default tier."],
-    ["Developer surface", "Claude Code and API workflows become less model-showcase, more task handoff."],
-    ["Product burden", "Autonomy needs progress, checkpointing, permission and rollback UI."],
-    ["Unknowns", "Exact enterprise adoption and long-run reliability are source not stated."]
-  ]),
-  cursor: visual("cursor-mobile-agent-control-2026-07-07", "Cursor web and mobile agents", "global · developer surface", [
-    ["Remote agent control", "Coding agents can be started or monitored away from the desktop IDE."],
-    ["Mission-control pattern", "Developer work shifts from typing code to supervising parallel tasks."],
-    ["Friction", "Mobile review must show diffs, tests, risk and stop controls in a compact surface."],
-    ["Unknowns", "Detailed mobile platform availability is source not stated unless shown by source."]
-  ]),
-  zcode: visual("zai-zcode-glm-coding-harness-2026-07-07", "Z.ai ZCode and GLM coding plan", "china · global · developer surface", [
-    ["Agentic Development Environment", "ZCode packages GLM-5.2 into planning, coding, review and iteration."],
-    ["China/global price signal", "Lower plan pricing pressures Cursor, Copilot and Claude Code comparison."],
-    ["Remote control", "Docs mention WeChat, Feishu and Telegram bot control as workflow channels."],
-    ["Unknowns", "Quality, clone accusations and production reliability need independent review."]
-  ]),
-  chinaScan: visual("china-ai-glasses-os-scan-2026-07-07", "China AI glasses OS scan", "china · source-lane scan", [
-    ["Rokid/YodaOS signal", "Chinese coverage frames glasses as AIOS-native rather than phone accessory."],
-    ["RayNeo/Rokid market context", "Domestic sales, subsidies and channel momentum lower trial cost."],
-    ["Missing evidence", "Hands-on latency, privacy controls and battery behavior are not fully shown."],
-    ["Watch next", "Whether AIUI standards survive outside demo and retail bundles."]
-  ]),
-  researchPatent: visual("wearable-agent-research-patent-watch-2026-07-07", "Wearable agent research and patent watch", "research · patent · weak/unverified", [
-    ["VisionClaw research", "Always-on egocentric perception plus speech-driven agent delegation."],
-    ["Smart-glasses patents", "IP filings show medical, display and assistant directions, not shipping facts."],
-    ["HCI question", "When the camera watches continuously, feedback and bystander consent become UI."],
-    ["Downgrade", "Use as watch item only until a product team ships and documents behavior."]
-  ])
+  solos: sourceVisual(
+    "solos-airgo-a6-source-2026-07-07.png",
+    "Solos AirGo A6 privacy-first AI eyewear",
+    "https://www.theverge.com/tech/961711/solos-airgo-a6-smart-glasses-ai-assistant-privacy",
+    "真实来源截图：The Verge 对 Solos AirGo A6 的产品报道，展示无摄像头智能眼镜实物图；完整来源见 ledger。",
+    "Source-backed screenshot from The Verge's Solos AirGo A6 product coverage, showing the camera-free smart-glasses product image."
+  ),
+  cloudflare: sourceVisual(
+    "cloudflare-ai-controls-source-2026-07-07.png",
+    "Cloudflare AI traffic controls",
+    "https://blog.cloudflare.com/content-independence-day-ai-options/",
+    "真实来源截图：Cloudflare 官方博客页面，记录 AI traffic options 的官方发布上下文。",
+    "Source-backed screenshot from Cloudflare's official AI traffic options announcement."
+  ),
+  acti: sourceVisual(
+    "acti-keyboard-appstore-source-2026-07-07.png",
+    "Acti Agentic Keyboard App Store UI",
+    "https://apps.apple.com/us/app/acti-agentic-keyboard/id6745523677",
+    "真实来源截图：Apple App Store 页面，展示 Acti Agentic Keyboard 的应用截图与产品页信息。",
+    "Source-backed App Store screenshot showing Acti Agentic Keyboard UI and product-page evidence."
+  ),
+  memomind: sourceVisual(
+    "memomind-one-source-2026-07-07.png",
+    "MemoMind One product page",
+    "https://www.memo-mind.com/",
+    "真实来源截图：MemoMind 官方产品页，展示 camera-free AI glasses 的产品照片与页面文案。",
+    "Source-backed screenshot from MemoMind's official product page, showing the camera-free AI glasses."
+  ),
+  anthropic: sourceVisual(
+    "claude-sonnet5-source-2026-07-07.png",
+    "Claude Sonnet 5 official release page",
+    "https://www.anthropic.com/news/claude-sonnet-5",
+    "真实来源截图：Anthropic 官方发布页，用于证明 Claude Sonnet 5 的产品/开发者表面来源。",
+    "Source-backed screenshot from Anthropic's official Claude Sonnet 5 release page."
+  ),
+  cursor: sourceVisual(
+    "cursor-agent-web-source-2026-07-07.png",
+    "Cursor web and mobile agents",
+    "https://cursor.com/blog/agent-web",
+    "真实来源截图：Cursor 官方博客，展示 web/mobile agent 与远程监督工作流的发布页面。",
+    "Source-backed screenshot from Cursor's official web/mobile agents announcement."
+  ),
+  zcode: sourceVisual(
+    "zcode-docs-source-2026-07-07.png",
+    "ZCode developer docs UI",
+    "https://zcode.z.ai/en/docs",
+    "真实来源截图：ZCode 官方文档页面，展示 GLM-5.2 Agentic Development Environment 的开发者入口。",
+    "Source-backed screenshot from ZCode's official docs, showing the developer product surface."
+  ),
+  chinaScan: sourceVisual(
+    "china-ai-glasses-source-2026-07-07.png",
+    "36Kr China AI glasses source scan",
+    "https://m.36kr.com/p/3855201250507656",
+    "真实来源截图：36氪 AI 眼镜赛道报道页面，用于中国 lane 的产品/市场信号。",
+    "Source-backed screenshot from 36Kr's China AI glasses market/product-signal coverage."
+  ),
+  researchPatent: sourceVisual(
+    "visionclaw-research-source-2026-07-07.png",
+    "VisionClaw research paper",
+    "https://arxiv.org/html/2604.03486v2",
+    "真实来源截图：arXiv VisionClaw 论文页面，按 research signal 降级处理。",
+    "Source-backed screenshot from the arXiv VisionClaw paper page, explicitly treated as research signal."
+  ),
+  patent: sourceVisual(
+    "smart-glasses-patent-source-2026-07-07.png",
+    "AI Smart Glasses GS1 patent page",
+    "https://patents.google.com/patent/CN309755008S/en",
+    "真实来源截图：Google Patents 外观设计页面，按 patent signal 降级处理。",
+    "Source-backed screenshot from Google Patents, explicitly treated as patent signal rather than product evidence."
+  )
 };
 
 const topics = [
@@ -542,7 +572,7 @@ const topics = [
     sourceDate: "2026 patent/source scan",
     evidenceLabel: "patent signal",
     evidenceStrength: "patent signal · explicitly speculative",
-    visual: visuals.researchPatent,
+    visual: visuals.patent,
     sources: [
       source("WIPO Global Awards 2026: Rokid", "https://www.wipo.int/en/web/awards/global/2026"),
       source("Google Patents: AI-supported smart glasses", "https://patents.google.com/patent/WO2024129004A1/en"),
@@ -615,6 +645,64 @@ const issue = {
     imageSourceUrl: "https://www.theverge.com/tech/961711/solos-airgo-a6-smart-glasses-ai-assistant-privacy"
   },
   topics,
+  designDesk: {
+    zhTitle: "Design Desk：今天真正的设计问题是传感器状态能不能被看懂",
+    enTitle: "Design Desk: Today's real design problem is whether sensor state is legible",
+    zhIntro: "这一页不是趋势总结，而是从今天的产品证据里抽出的交互设计笔记：AI 入口越靠近身体、键盘、网页访问和开发工作流，用户越需要看到状态、权限、边界和恢复路径。",
+    enIntro: "This page is not a trend summary. It extracts interaction-design notes from today's product evidence: as AI entry points move closer to the body, keyboard, web access, and developer workflows, users need visible state, permission boundaries, and recovery paths.",
+    zhItems: [
+      {
+        label: "传感器边界要物理可读",
+        body: "Solos A6 的无摄像头路线和 AirGo V2 privacy shield 说明，AI wearable 的隐私提示不能只藏在 App 设置里。旁观者需要一眼看懂摄像头是否存在、是否被遮挡、是否可能录制。硬件形态本身就是界面。"
+      },
+      {
+        label: "入口层产品要解释自己正在代表谁行动",
+        body: "Cloudflare 把 Search、Agent、Training 拆开后，agent browser、搜索助手和自动化工具不能只说“访问失败”。它们要告诉用户：我是以用户代理身份访问、被站点策略阻挡、需要授权，还是训练用途被拒绝。"
+      },
+      {
+        label: "低摩擦触发必须配高摩擦确认",
+        body: "Acti 把 agent 放进键盘，优势是任何文本框都能触发行动；风险是误触、越权和结果回填。越容易触发的入口，越要把确认、撤销、权限解释和草稿恢复做短。"
+      },
+      {
+        label: "移动监督不是移动写代码",
+        body: "Cursor web/mobile 的关键设计不是把 IDE 缩小，而是把 agent 状态压成手机上可判断的任务卡：改了哪些文件、测试是否通过、风险是什么、什么时候必须回桌面。"
+      },
+      {
+        label: "眼前屏幕的信息层级要比手机更克制",
+        body: "MemoMind One 和中国 AIOS 眼镜 scan 都指向同一件事：眼镜不是小手机。翻译、提醒、字幕、导航和会议记录都要在极小显示面里取舍；失败状态和隐私提示要优先于炫技。"
+      },
+      {
+        label: "论文和专利只能生成设计假设",
+        body: "VisionClaw 与智能眼镜专利能提示未来交互变量：连续感知、旁观者同意、context preview、undo、audit trail。但它们不能替代可购买产品、真实 UI 和用户反馈。"
+      }
+    ],
+    enItems: [
+      {
+        label: "Sensor boundaries need to be physically legible",
+        body: "Solos A6's camera-free route and the AirGo V2 privacy shield show that AI-wearable privacy cannot live only inside app settings. Nearby people need to understand whether a camera exists, whether it is blocked, and whether recording is possible. Hardware form is interface."
+      },
+      {
+        label: "Entry-layer products must explain who they act for",
+        body: "After Cloudflare separates Search, Agent, and Training, agent browsers, search assistants, and automation tools cannot simply show a generic access failure. They need to say whether access is user-delegated, blocked by policy, waiting for authorization, or rejected as training use."
+      },
+      {
+        label: "Low-friction triggers need high-clarity confirmation",
+        body: "Acti moves agents into the keyboard, which means any text field can become an action surface. That is powerful and dangerous. The easier the trigger, the shorter and clearer confirmation, undo, permission explanation, and draft recovery must be."
+      },
+      {
+        label: "Mobile supervision is not mobile coding",
+        body: "Cursor web and mobile should not be judged as a tiny IDE. The design job is compressing agent state into a phone-sized task card: changed files, tests, risk, stop controls, and when the user must return to the desktop."
+      },
+      {
+        label: "Screens in front of the eye need stricter hierarchy",
+        body: "MemoMind One and China AIOS eyewear scans point to the same constraint: glasses are not small phones. Translation, reminders, captions, navigation, and meeting notes all compete in a tiny field. Failure states and privacy cues deserve priority over spectacle."
+      },
+      {
+        label: "Research and patents create design hypotheses only",
+        body: "VisionClaw and smart-glasses patents can generate future interaction variables: continuous perception, bystander consent, context preview, undo, and audit trails. They cannot replace purchasable products, real UI, or user feedback."
+      }
+    ]
+  },
   watchlistZh: [
     "Cloudflare 的 Search/Agent/Training 分类是否被主要 AI 公司稳定采用，尤其是用户代理访问被阻挡时的错误解释。",
     "Acti 是否能把第三方键盘权限、API skill、长按触发和结果回填做成普通用户敢用的低摩擦流程。",
@@ -634,7 +722,9 @@ const issue = {
 await fs.mkdir(assetDir, { recursive: true });
 await fs.mkdir(issueDir, { recursive: true });
 for (const item of Object.values(visuals)) {
-  await fs.writeFile(path.join(root, item.path), item.svg, "utf8");
+  if (item.svg) {
+    await fs.writeFile(path.join(root, item.path), item.svg, "utf8");
+  }
 }
 
 const dataPath = path.join(root, "data", "issues.json");

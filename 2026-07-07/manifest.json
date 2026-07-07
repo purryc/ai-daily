@@ -29,9 +29,9 @@
     "topicId": "solos-airgo-a6-privacy-eyewear",
     "zhTitle": "AI 眼镜的隐私边界开始长成硬件",
     "enTitle": "AI-eyewear privacy starts becoming hardware",
-    "imagePath": "assets/solos-airgo-a6-privacy-eyewear-2026-07-07.svg",
-    "imageWidth": 1200,
-    "imageHeight": 760,
+    "imagePath": "assets/solos-airgo-a6-source-2026-07-07.png",
+    "imageWidth": 1440,
+    "imageHeight": 900,
     "primarySourceUrl": "https://www.theverge.com/tech/961711/solos-airgo-a6-smart-glasses-ai-assistant-privacy",
     "evidenceStrength": "confirmed product · camera-free AI eyewear",
     "whyCover": "Solos AirGo A6 turns privacy, sensor state and daily wearability into product-form decisions.",
@@ -47,6 +47,64 @@
     ],
     "imageSourceUrl": "https://www.theverge.com/tech/961711/solos-airgo-a6-smart-glasses-ai-assistant-privacy"
   },
+  "designDesk": {
+    "zhTitle": "Design Desk：今天真正的设计问题是传感器状态能不能被看懂",
+    "enTitle": "Design Desk: Today's real design problem is whether sensor state is legible",
+    "zhIntro": "这一页不是趋势总结，而是从今天的产品证据里抽出的交互设计笔记：AI 入口越靠近身体、键盘、网页访问和开发工作流，用户越需要看到状态、权限、边界和恢复路径。",
+    "enIntro": "This page is not a trend summary. It extracts interaction-design notes from today's product evidence: as AI entry points move closer to the body, keyboard, web access, and developer workflows, users need visible state, permission boundaries, and recovery paths.",
+    "zhItems": [
+      {
+        "label": "传感器边界要物理可读",
+        "body": "Solos A6 的无摄像头路线和 AirGo V2 privacy shield 说明，AI wearable 的隐私提示不能只藏在 App 设置里。旁观者需要一眼看懂摄像头是否存在、是否被遮挡、是否可能录制。硬件形态本身就是界面。"
+      },
+      {
+        "label": "入口层产品要解释自己正在代表谁行动",
+        "body": "Cloudflare 把 Search、Agent、Training 拆开后，agent browser、搜索助手和自动化工具不能只说“访问失败”。它们要告诉用户：我是以用户代理身份访问、被站点策略阻挡、需要授权，还是训练用途被拒绝。"
+      },
+      {
+        "label": "低摩擦触发必须配高摩擦确认",
+        "body": "Acti 把 agent 放进键盘，优势是任何文本框都能触发行动；风险是误触、越权和结果回填。越容易触发的入口，越要把确认、撤销、权限解释和草稿恢复做短。"
+      },
+      {
+        "label": "移动监督不是移动写代码",
+        "body": "Cursor web/mobile 的关键设计不是把 IDE 缩小，而是把 agent 状态压成手机上可判断的任务卡：改了哪些文件、测试是否通过、风险是什么、什么时候必须回桌面。"
+      },
+      {
+        "label": "眼前屏幕的信息层级要比手机更克制",
+        "body": "MemoMind One 和中国 AIOS 眼镜 scan 都指向同一件事：眼镜不是小手机。翻译、提醒、字幕、导航和会议记录都要在极小显示面里取舍；失败状态和隐私提示要优先于炫技。"
+      },
+      {
+        "label": "论文和专利只能生成设计假设",
+        "body": "VisionClaw 与智能眼镜专利能提示未来交互变量：连续感知、旁观者同意、context preview、undo、audit trail。但它们不能替代可购买产品、真实 UI 和用户反馈。"
+      }
+    ],
+    "enItems": [
+      {
+        "label": "Sensor boundaries need to be physically legible",
+        "body": "Solos A6's camera-free route and the AirGo V2 privacy shield show that AI-wearable privacy cannot live only inside app settings. Nearby people need to understand whether a camera exists, whether it is blocked, and whether recording is possible. Hardware form is interface."
+      },
+      {
+        "label": "Entry-layer products must explain who they act for",
+        "body": "After Cloudflare separates Search, Agent, and Training, agent browsers, search assistants, and automation tools cannot simply show a generic access failure. They need to say whether access is user-delegated, blocked by policy, waiting for authorization, or rejected as training use."
+      },
+      {
+        "label": "Low-friction triggers need high-clarity confirmation",
+        "body": "Acti moves agents into the keyboard, which means any text field can become an action surface. That is powerful and dangerous. The easier the trigger, the shorter and clearer confirmation, undo, permission explanation, and draft recovery must be."
+      },
+      {
+        "label": "Mobile supervision is not mobile coding",
+        "body": "Cursor web and mobile should not be judged as a tiny IDE. The design job is compressing agent state into a phone-sized task card: changed files, tests, risk, stop controls, and when the user must return to the desktop."
+      },
+      {
+        "label": "Screens in front of the eye need stricter hierarchy",
+        "body": "MemoMind One and China AIOS eyewear scans point to the same constraint: glasses are not small phones. Translation, reminders, captions, navigation, and meeting notes all compete in a tiny field. Failure states and privacy cues deserve priority over spectacle."
+      },
+      {
+        "label": "Research and patents create design hypotheses only",
+        "body": "VisionClaw and smart-glasses patents can generate future interaction variables: continuous perception, bystander consent, context preview, undo, and audit trails. They cannot replace purchasable products, real UI, or user feedback."
+      }
+    ]
+  },
   "topics": [
     {
       "id": "solos-airgo-a6-privacy-eyewear",
@@ -54,14 +112,15 @@
       "zhHeadline": "Solos AirGo A6 把 AI 眼镜的隐私问题做成可见产品形态",
       "enHeadline": "Solos AirGo A6 turns AI-eyewear privacy into visible product form",
       "visual": {
-        "path": "assets/solos-airgo-a6-privacy-eyewear-2026-07-07.svg",
-        "width": 1200,
-        "height": 760,
-        "altZh": "自绘证据图：Solos AirGo A6 privacy-first AI eyewear",
-        "altEn": "Self-drawn evidence diagram: Solos AirGo A6 privacy-first AI eyewear",
-        "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
-        "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
-        "sourceUrl": "https://purryc.github.io/ai-daily/2026-07-07/sources.md"
+        "path": "assets/solos-airgo-a6-source-2026-07-07.png",
+        "width": 1440,
+        "height": 900,
+        "kind": "source-backed screenshot",
+        "altZh": "真实来源截图：Solos AirGo A6 privacy-first AI eyewear",
+        "altEn": "Source-backed screenshot: Solos AirGo A6 privacy-first AI eyewear",
+        "captionZh": "真实来源截图：The Verge 对 Solos AirGo A6 的产品报道，展示无摄像头智能眼镜实物图；完整来源见 ledger。",
+        "captionEn": "Source-backed screenshot from The Verge's Solos AirGo A6 product coverage, showing the camera-free smart-glasses product image.",
+        "sourceUrl": "https://www.theverge.com/tech/961711/solos-airgo-a6-smart-glasses-ai-assistant-privacy"
       },
       "sources": [
         {
@@ -119,14 +178,15 @@
       "zhHeadline": "Cloudflare 把 AI 爬虫拆成 Search、Agent、Training 三种入口",
       "enHeadline": "Cloudflare splits AI crawlers into Search, Agent, and Training controls",
       "visual": {
-        "path": "assets/cloudflare-agent-crawler-controls-2026-07-07.svg",
-        "width": 1200,
-        "height": 760,
-        "altZh": "自绘证据图：Cloudflare AI traffic controls",
-        "altEn": "Self-drawn evidence diagram: Cloudflare AI traffic controls",
-        "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
-        "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
-        "sourceUrl": "https://purryc.github.io/ai-daily/2026-07-07/sources.md"
+        "path": "assets/cloudflare-ai-controls-source-2026-07-07.png",
+        "width": 1440,
+        "height": 900,
+        "kind": "source-backed screenshot",
+        "altZh": "真实来源截图：Cloudflare AI traffic controls",
+        "altEn": "Source-backed screenshot: Cloudflare AI traffic controls",
+        "captionZh": "真实来源截图：Cloudflare 官方博客页面，记录 AI traffic options 的官方发布上下文。",
+        "captionEn": "Source-backed screenshot from Cloudflare's official AI traffic options announcement.",
+        "sourceUrl": "https://blog.cloudflare.com/content-independence-day-ai-options/"
       },
       "sources": [
         {
@@ -184,14 +244,15 @@
       "zhHeadline": "Acti 把 agent 放进手机键盘，而不是另开一个 AI App",
       "enHeadline": "Acti puts agents inside the smartphone keyboard instead of another AI app",
       "visual": {
-        "path": "assets/acti-agentic-keyboard-2026-07-07.svg",
-        "width": 1200,
-        "height": 760,
-        "altZh": "自绘证据图：Acti agentic keyboard",
-        "altEn": "Self-drawn evidence diagram: Acti agentic keyboard",
-        "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
-        "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
-        "sourceUrl": "https://purryc.github.io/ai-daily/2026-07-07/sources.md"
+        "path": "assets/acti-keyboard-appstore-source-2026-07-07.png",
+        "width": 1440,
+        "height": 900,
+        "kind": "source-backed screenshot",
+        "altZh": "真实来源截图：Acti Agentic Keyboard App Store UI",
+        "altEn": "Source-backed screenshot: Acti Agentic Keyboard App Store UI",
+        "captionZh": "真实来源截图：Apple App Store 页面，展示 Acti Agentic Keyboard 的应用截图与产品页信息。",
+        "captionEn": "Source-backed App Store screenshot showing Acti Agentic Keyboard UI and product-page evidence.",
+        "sourceUrl": "https://apps.apple.com/us/app/acti-agentic-keyboard/id6745523677"
       },
       "sources": [
         {
@@ -249,14 +310,15 @@
       "zhHeadline": "MemoMind One 证明无摄像头眼镜有位置，也暴露了 AI 眼镜的日常摩擦",
       "enHeadline": "MemoMind One shows a place for camera-free glasses and the friction of daily AI eyewear",
       "visual": {
-        "path": "assets/memomind-one-friction-2026-07-07.svg",
-        "width": 1200,
-        "height": 760,
-        "altZh": "自绘证据图：MemoMind One glasses friction",
-        "altEn": "Self-drawn evidence diagram: MemoMind One glasses friction",
-        "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
-        "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
-        "sourceUrl": "https://purryc.github.io/ai-daily/2026-07-07/sources.md"
+        "path": "assets/memomind-one-source-2026-07-07.png",
+        "width": 1440,
+        "height": 900,
+        "kind": "source-backed screenshot",
+        "altZh": "真实来源截图：MemoMind One product page",
+        "altEn": "Source-backed screenshot: MemoMind One product page",
+        "captionZh": "真实来源截图：MemoMind 官方产品页，展示 camera-free AI glasses 的产品照片与页面文案。",
+        "captionEn": "Source-backed screenshot from MemoMind's official product page, showing the camera-free AI glasses.",
+        "sourceUrl": "https://www.memo-mind.com/"
       },
       "sources": [
         {
@@ -314,14 +376,15 @@
       "zhHeadline": "Claude Sonnet 5 把 agentic work 从旗舰模型下放到日常开发入口",
       "enHeadline": "Claude Sonnet 5 moves agentic work from flagship demos into everyday developer entry points",
       "visual": {
-        "path": "assets/claude-sonnet-5-agent-surface-2026-07-07.svg",
-        "width": 1200,
-        "height": 760,
-        "altZh": "自绘证据图：Claude Sonnet 5 agent surface",
-        "altEn": "Self-drawn evidence diagram: Claude Sonnet 5 agent surface",
-        "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
-        "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
-        "sourceUrl": "https://purryc.github.io/ai-daily/2026-07-07/sources.md"
+        "path": "assets/claude-sonnet5-source-2026-07-07.png",
+        "width": 1440,
+        "height": 900,
+        "kind": "source-backed screenshot",
+        "altZh": "真实来源截图：Claude Sonnet 5 official release page",
+        "altEn": "Source-backed screenshot: Claude Sonnet 5 official release page",
+        "captionZh": "真实来源截图：Anthropic 官方发布页，用于证明 Claude Sonnet 5 的产品/开发者表面来源。",
+        "captionEn": "Source-backed screenshot from Anthropic's official Claude Sonnet 5 release page.",
+        "sourceUrl": "https://www.anthropic.com/news/claude-sonnet-5"
       },
       "sources": [
         {
@@ -379,14 +442,15 @@
       "zhHeadline": "Cursor Web/Mobile 把 coding agent 变成可远程监督的工作对象",
       "enHeadline": "Cursor web and mobile make coding agents something developers supervise remotely",
       "visual": {
-        "path": "assets/cursor-mobile-agent-control-2026-07-07.svg",
-        "width": 1200,
-        "height": 760,
-        "altZh": "自绘证据图：Cursor web and mobile agents",
-        "altEn": "Self-drawn evidence diagram: Cursor web and mobile agents",
-        "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
-        "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
-        "sourceUrl": "https://purryc.github.io/ai-daily/2026-07-07/sources.md"
+        "path": "assets/cursor-agent-web-source-2026-07-07.png",
+        "width": 1440,
+        "height": 900,
+        "kind": "source-backed screenshot",
+        "altZh": "真实来源截图：Cursor web and mobile agents",
+        "altEn": "Source-backed screenshot: Cursor web and mobile agents",
+        "captionZh": "真实来源截图：Cursor 官方博客，展示 web/mobile agent 与远程监督工作流的发布页面。",
+        "captionEn": "Source-backed screenshot from Cursor's official web/mobile agents announcement.",
+        "sourceUrl": "https://cursor.com/blog/agent-web"
       },
       "sources": [
         {
@@ -444,14 +508,15 @@
       "zhHeadline": "Z.ai ZCode 把 GLM-5.2 包装成中国/全球开发者工具竞争信号",
       "enHeadline": "Z.ai ZCode packages GLM-5.2 as a China/global developer-tool signal",
       "visual": {
-        "path": "assets/zai-zcode-glm-coding-harness-2026-07-07.svg",
-        "width": 1200,
-        "height": 760,
-        "altZh": "自绘证据图：Z.ai ZCode and GLM coding plan",
-        "altEn": "Self-drawn evidence diagram: Z.ai ZCode and GLM coding plan",
-        "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
-        "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
-        "sourceUrl": "https://purryc.github.io/ai-daily/2026-07-07/sources.md"
+        "path": "assets/zcode-docs-source-2026-07-07.png",
+        "width": 1440,
+        "height": 900,
+        "kind": "source-backed screenshot",
+        "altZh": "真实来源截图：ZCode developer docs UI",
+        "altEn": "Source-backed screenshot: ZCode developer docs UI",
+        "captionZh": "真实来源截图：ZCode 官方文档页面，展示 GLM-5.2 Agentic Development Environment 的开发者入口。",
+        "captionEn": "Source-backed screenshot from ZCode's official docs, showing the developer product surface.",
+        "sourceUrl": "https://zcode.z.ai/en/docs"
       },
       "sources": [
         {
@@ -509,14 +574,15 @@
       "zhHeadline": "中国 AI 眼镜扫描：从手机配件走向 AIOS 原生眼镜的说法正在升温",
       "enHeadline": "China AI glasses scan: the narrative is moving from phone accessory to AIOS-native eyewear",
       "visual": {
-        "path": "assets/china-ai-glasses-os-scan-2026-07-07.svg",
-        "width": 1200,
-        "height": 760,
-        "altZh": "自绘证据图：China AI glasses OS scan",
-        "altEn": "Self-drawn evidence diagram: China AI glasses OS scan",
-        "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
-        "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
-        "sourceUrl": "https://purryc.github.io/ai-daily/2026-07-07/sources.md"
+        "path": "assets/china-ai-glasses-source-2026-07-07.png",
+        "width": 1440,
+        "height": 900,
+        "kind": "source-backed screenshot",
+        "altZh": "真实来源截图：36Kr China AI glasses source scan",
+        "altEn": "Source-backed screenshot: 36Kr China AI glasses source scan",
+        "captionZh": "真实来源截图：36氪 AI 眼镜赛道报道页面，用于中国 lane 的产品/市场信号。",
+        "captionEn": "Source-backed screenshot from 36Kr's China AI glasses market/product-signal coverage.",
+        "sourceUrl": "https://m.36kr.com/p/3855201250507656"
       },
       "sources": [
         {
@@ -574,14 +640,15 @@
       "zhHeadline": "VisionClaw 与智能眼镜专利提醒：连续感知 agent 还只是研究/专利信号",
       "enHeadline": "VisionClaw and smart-glasses patents: continuous-perception agents remain research and patent signals",
       "visual": {
-        "path": "assets/wearable-agent-research-patent-watch-2026-07-07.svg",
-        "width": 1200,
-        "height": 760,
-        "altZh": "自绘证据图：Wearable agent research and patent watch",
-        "altEn": "Self-drawn evidence diagram: Wearable agent research and patent watch",
-        "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
-        "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
-        "sourceUrl": "https://purryc.github.io/ai-daily/2026-07-07/sources.md"
+        "path": "assets/visionclaw-research-source-2026-07-07.png",
+        "width": 1440,
+        "height": 900,
+        "kind": "source-backed screenshot",
+        "altZh": "真实来源截图：VisionClaw research paper",
+        "altEn": "Source-backed screenshot: VisionClaw research paper",
+        "captionZh": "真实来源截图：arXiv VisionClaw 论文页面，按 research signal 降级处理。",
+        "captionEn": "Source-backed screenshot from the arXiv VisionClaw paper page, explicitly treated as research signal.",
+        "sourceUrl": "https://arxiv.org/html/2604.03486v2"
       },
       "sources": [
         {
@@ -639,14 +706,15 @@
       "zhHeadline": "专利 lane：智能眼镜 IP 很热，但只能提示方向，不能替代产品证据",
       "enHeadline": "Patent lane: smart-glasses IP is active, but it signals direction rather than product evidence",
       "visual": {
-        "path": "assets/wearable-agent-research-patent-watch-2026-07-07.svg",
-        "width": 1200,
-        "height": 760,
-        "altZh": "自绘证据图：Wearable agent research and patent watch",
-        "altEn": "Self-drawn evidence diagram: Wearable agent research and patent watch",
-        "captionZh": "自绘机制图：依据来源页面整理，非产品渲染；完整来源见 source ledger。",
-        "captionEn": "Self-drawn mechanism diagram based on cited sources; not a product render. Full source ledger included.",
-        "sourceUrl": "https://purryc.github.io/ai-daily/2026-07-07/sources.md"
+        "path": "assets/smart-glasses-patent-source-2026-07-07.png",
+        "width": 1440,
+        "height": 900,
+        "kind": "source-backed screenshot",
+        "altZh": "真实来源截图：AI Smart Glasses GS1 patent page",
+        "altEn": "Source-backed screenshot: AI Smart Glasses GS1 patent page",
+        "captionZh": "真实来源截图：Google Patents 外观设计页面，按 patent signal 降级处理。",
+        "captionEn": "Source-backed screenshot from Google Patents, explicitly treated as patent signal rather than product evidence.",
+        "sourceUrl": "https://patents.google.com/patent/CN309755008S/en"
       },
       "sources": [
         {

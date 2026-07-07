@@ -752,6 +752,7 @@ body:has(.deck-page) {
 
 .agenda-slide,
 .section-slide,
+.design-slide,
 .watch-slide,
 .source-slide {
   display: grid;
@@ -761,6 +762,7 @@ body:has(.deck-page) {
 
 .agenda-copy h2,
 .section-slide h2,
+.design-slide h2,
 .watch-slide h2,
 .source-slide h2 {
   font-size: clamp(34px, 4.3vw, 72px);
@@ -782,6 +784,63 @@ body:has(.deck-page) {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
+}
+
+.design-slide {
+  align-content: start;
+  gap: 14px;
+  padding-top: clamp(42px, 4.2vw, 68px);
+}
+
+.design-slide h2 {
+  max-width: 1320px;
+  font-size: clamp(30px, 3.4vw, 56px);
+  letter-spacing: -0.035em;
+}
+
+.design-intro {
+  max-width: 1180px;
+  font-size: clamp(15px, 1.2vw, 20px);
+  line-height: 1.45;
+  color: #4d4843;
+  margin: 0;
+}
+
+.design-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  min-height: 0;
+}
+
+.design-grid article {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 14px;
+  min-height: 0;
+}
+
+.design-grid span {
+  color: var(--red);
+  display: block;
+  font-size: 12px;
+  font-weight: 860;
+  margin-bottom: 8px;
+}
+
+.design-grid strong {
+  display: block;
+  font-size: clamp(15px, 1.2vw, 20px);
+  line-height: 1.1;
+  margin-bottom: 8px;
+}
+
+.design-grid p {
+  color: #514b45;
+  font-size: clamp(12px, 0.85vw, 15px);
+  line-height: 1.38;
+  margin: 0;
 }
 
 .agenda-card,

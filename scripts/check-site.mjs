@@ -184,6 +184,15 @@ if (!latestIssue.watchlistZh?.length || !latestIssue.watchlistEn?.length) {
   throw new Error("latest issue missing watchlist entries");
 }
 
+if (
+  !latestIssue.designDesk?.zhTitle ||
+  !latestIssue.designDesk?.enTitle ||
+  latestIssue.designDesk.zhItems?.length < 5 ||
+  latestIssue.designDesk.enItems?.length < 5
+) {
+  throw new Error("latest issue missing required Design Desk / 设计洞察 section");
+}
+
 const sourceUrls = new Set(latestIssue.topics.flatMap((topic) => topic.sources.map((source) => source.url)));
 if (sourceUrls.size < 12) {
   throw new Error(`latest issue has ${sourceUrls.size} unique sources; expected at least 12`);
@@ -203,6 +212,14 @@ for (const topic of latestIssue.topics) {
   }
   if (!["product", "scan"].includes(topic.dossierKind)) {
     throw new Error(`${topic.id} missing dossierKind product|scan`);
+  }
+  if (topic.dossierKind === "product") {
+    if (!topic.visual?.kind?.includes("source-backed")) {
+      throw new Error(`${topic.id} product item must use a real/source-backed main visual, not a default self-drawn diagram`);
+    }
+    if (/\.svg$/i.test(topic.visual.path)) {
+      throw new Error(`${topic.id} product item main visual is SVG; use product photo, UI screenshot, developer screenshot, or source-backed page screenshot`);
+    }
   }
   for (const locale of ["zh", "en"]) {
     const dossier = topic.dossier?.[locale];
@@ -255,6 +272,7 @@ for (const file of [`${latestDate}/zh/index.html`, `${latestDate}/en/index.html`
   if (!isDeck) throw new Error(`${file} is not rendered as a slide deck`);
   if (!text.includes("mag-topic-slide")) throw new Error(`${file} is missing magazine-style topic slides`);
   if (!text.includes("dossier-slide")) throw new Error(`${file} is missing dense dossier slides`);
+  if (!text.includes("Design Desk") && !text.includes("设计洞察")) throw new Error(`${file} missing Design Desk / 设计洞察 slide`);
   if (text.includes("magazine-spread")) throw new Error(`${file} still contains the long-scroll magazine layout`);
   for (const label of abstractColumnLabels) {
     if (text.includes(label)) throw new Error(`${file} still contains abstract editorial label: ${label}`);
@@ -275,6 +293,9 @@ if (!manifest[0]?.coverStory?.imagePath) {
 }
 
 const latestManifest = JSON.parse(await read(`${latestDate}/manifest.json`));
+if (!latestManifest.designDesk?.zhTitle || !latestManifest.designDesk?.enTitle) {
+  throw new Error(`${latestDate}/manifest.json missing Design Desk`);
+}
 const manifestSections = new Set(latestManifest.topics.map((topic) => topic.section));
 for (const section of requiredSections) {
   if (!manifestSections.has(section)) {
@@ -283,6 +304,9 @@ for (const section of requiredSections) {
 }
 
 const sourceLedger = await read(`${latestDate}/sources.md`);
+if (!sourceLedger.includes("Design Desk")) {
+  throw new Error(`${latestDate}/sources.md missing Design Desk evidence rule`);
+}
 for (const section of requiredSections) {
   if (!sourceLedger.includes(`| ${section} | covered |`)) {
     throw new Error(`${latestDate}/sources.md missing covered lane: ${section}`);

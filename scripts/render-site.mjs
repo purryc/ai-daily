@@ -998,6 +998,32 @@ function deckWatchlistSlide(issue, locale, pageNumber) {
     </section>`;
 }
 
+function deckDesignDeskSlide(issue, locale, pageNumber) {
+  const isZh = locale === "zh";
+  const desk = issue.designDesk;
+  if (!desk) return "";
+  const items = isZh ? desk.zhItems : desk.enItems;
+  return `
+    <section class="deck-slide design-slide" id="${deckSlideId(pageNumber)}" data-slide data-section="design">
+      ${deckSlideTopline(pageNumber, isZh ? "设计洞察" : "Design Desk")}
+      <p class="eyebrow">${isZh ? "Design Desk / 设计洞察" : "Design Desk"}</p>
+      <h2>${html(isZh ? desk.zhTitle : desk.enTitle)}</h2>
+      <p class="design-intro">${html(isZh ? desk.zhIntro : desk.enIntro)}</p>
+      <div class="design-grid">
+        ${items
+          .map(
+            (item, index) => `
+              <article>
+                <span>${String(index + 1).padStart(2, "0")}</span>
+                <strong>${html(item.label)}</strong>
+                <p>${html(item.body)}</p>
+              </article>`
+          )
+          .join("")}
+      </div>
+    </section>`;
+}
+
 function deckSourcesSlide(issue, locale, pageNumber) {
   const isZh = locale === "zh";
   const seen = new Set();
@@ -1046,6 +1072,9 @@ function deckIssuePage(issue, locale) {
       pageNumber += topicSlides.length;
     }
   }
+  if (issue.designDesk) {
+    slideParts.push(deckDesignDeskSlide(issue, locale, pageNumber++));
+  }
   slideParts.push(deckWatchlistSlide(issue, locale, pageNumber++));
   slideParts.push(deckSourcesSlide(issue, locale, pageNumber++));
 
@@ -1088,6 +1117,7 @@ function rootManifest() {
       tags: issue.tags,
       sourceTypes: issue.sourceTypes,
       coverStory: issue.coverStory,
+      designDesk: issue.designDesk,
       zhPath: issue.zhPath,
       enPath: issue.enPath,
       sourcesPath: issue.sourcesPath
@@ -1109,6 +1139,7 @@ function issueManifest(issue) {
       tags: issue.tags,
       sourceTypes: issue.sourceTypes,
       coverStory: issue.coverStory,
+      designDesk: issue.designDesk,
       topics: issue.topics.map((topic) => ({
         id: topic.id,
         section: topic.section,
@@ -1157,6 +1188,15 @@ function sourcesMarkdown(issue) {
     };
   });
 
+  const usesNewVisualRules = issue.date >= "2026-07-07";
+  const visualEvidenceRules = usesNewVisualRules
+    ? `- Reported product items should use real/source-backed product photos, UI screenshots, developer-console screenshots, official press images, review hands-on screenshots, or product-page screenshots whenever available. Self-drawn mechanism diagrams are supplementary only, not the default visual evidence.
+- Evidence visuals use source-traceable product images, source-based screenshots, or clearly labeled supplementary mechanism diagrams. No generic stock or decorative images are used.`
+    : `- Evidence visuals use source-traceable product images, source-based screenshots, or clearly labeled self-drawn mechanism diagrams. No generic stock or decorative images are used.`;
+  const designDeskRule = issue.designDesk
+    ? "\n- Design Desk / 设计洞察 is a required editorial layer that extracts interaction-design implications from the issue evidence instead of burying them only in product verdicts."
+    : "";
+
   return `# AI Daily Sources
 
 Date: ${issue.date}
@@ -1194,10 +1234,10 @@ ${visualRows.map((row) => `| ${row.asset} | \`${row.local}\` | ${row.source} | $
 - Research claims link to arXiv, conference pages, Microsoft Research, ACM-style publication pages, or PDFs.
 - Patent material is treated as a patent signal only, not a confirmed product launch, availability, or roadmap.
 - Every topic deck slide in the published Chinese and English issue pages includes inline source links; this file is the audit ledger, not the only source surface.
-- Evidence visuals use source-traceable product images, source-based screenshots, or clearly labeled self-drawn mechanism diagrams. No generic stock or decorative images are used.
+${visualEvidenceRules}
 - Public HTML/CSS must not use cropped image-fit rules for evidence visuals.
 - Product dossiers must use source-backed interaction flows, specs/API/hardware stack, scenarios, pain points, new technology, availability, and limits. If a source does not state a spec or availability detail, the dossier must say it is not stated rather than infer it.
-- Chinese and English issues carry the same information units; the English version is not a compressed summary.
+- Chinese and English issues carry the same information units; the English version is not a compressed summary.${designDeskRule}
 `;
 }
 
@@ -1956,6 +1996,7 @@ body:has(.deck-page) {
 
 .agenda-slide,
 .section-slide,
+.design-slide,
 .watch-slide,
 .source-slide {
   display: grid;
@@ -1965,6 +2006,7 @@ body:has(.deck-page) {
 
 .agenda-copy h2,
 .section-slide h2,
+.design-slide h2,
 .watch-slide h2,
 .source-slide h2 {
   font-size: clamp(34px, 4.3vw, 72px);
@@ -1986,6 +2028,63 @@ body:has(.deck-page) {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
+}
+
+.design-slide {
+  align-content: start;
+  gap: 14px;
+  padding-top: clamp(42px, 4.2vw, 68px);
+}
+
+.design-slide h2 {
+  max-width: 1320px;
+  font-size: clamp(30px, 3.4vw, 56px);
+  letter-spacing: -0.035em;
+}
+
+.design-intro {
+  max-width: 1180px;
+  font-size: clamp(15px, 1.2vw, 20px);
+  line-height: 1.45;
+  color: #4d4843;
+  margin: 0;
+}
+
+.design-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  min-height: 0;
+}
+
+.design-grid article {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 14px;
+  min-height: 0;
+}
+
+.design-grid span {
+  color: var(--red);
+  display: block;
+  font-size: 12px;
+  font-weight: 860;
+  margin-bottom: 8px;
+}
+
+.design-grid strong {
+  display: block;
+  font-size: clamp(15px, 1.2vw, 20px);
+  line-height: 1.1;
+  margin-bottom: 8px;
+}
+
+.design-grid p {
+  color: #514b45;
+  font-size: clamp(12px, 0.85vw, 15px);
+  line-height: 1.38;
+  margin: 0;
 }
 
 .agenda-card,
