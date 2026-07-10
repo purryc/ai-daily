@@ -1,5 +1,115 @@
 [
   {
+    "date": "2026-07-10",
+    "zhTitle": "AI Daily 2026-07-10：语音 agent 进入连续界面",
+    "enTitle": "AI Daily 2026-07-10: Voice Agents Enter Continuous Interfaces",
+    "zhSummary": "GPT-Live 把 ChatGPT Voice 推向连续语音、后台委派和低打断状态反馈；Solos、MemoMind、Acti、ZCode、中国 AI 眼镜、研究与专利 lane 继续补齐 agent 入口从声音、键盘、Web、IDE 到眼前屏幕的迁移。",
+    "enSummary": "GPT-Live moves ChatGPT Voice toward continuous speech, background delegation, and low-interruption status feedback; Solos, MemoMind, Acti, ZCode, China AI eyewear, research, and patent lanes continue mapping agent entry points from voice, keyboard, web, IDE, and eyewear.",
+    "tags": [
+      "voice agent",
+      "GPT-Live",
+      "ChatGPT Voice",
+      "AI hardware",
+      "agent UX",
+      "smart glasses",
+      "AI keyboard",
+      "patent watch"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "wild",
+      "research",
+      "patent",
+      "china",
+      "global"
+    ],
+    "coverStory": {
+      "topicId": "openai-gpt-live-voice-interface",
+      "zhTitle": "语音 agent 的界面从“回答”变成“陪着做”",
+      "enTitle": "Voice-agent UI shifts from answering to staying with the work",
+      "imagePath": "assets/openai-gpt-live-source-2026-07-10.png",
+      "imageWidth": 1440,
+      "imageHeight": 900,
+      "primarySourceUrl": "https://openai.com/index/introducing-gpt-live/",
+      "evidenceStrength": "confirmed product · ChatGPT Voice · continuous voice interface",
+      "whyCover": "GPT-Live changes the front-stage behavior of ChatGPT Voice while other lanes show agent entry points moving across devices and workflows.",
+      "zhSummary": [
+        "今天的封面是 GPT-Live：它把 ChatGPT Voice 推向连续语音、后台委派和低打断状态反馈。",
+        "语音入口的竞争点从“回答准确”扩大到话轮、等待、纠错和隐私提示。",
+        "Solos、MemoMind、Acti、ZCode、中国 AI 眼镜、研究与专利 lane 继续显示 agent 入口正在扩散到身体、键盘、IDE 和 Web。"
+      ],
+      "enSummary": [
+        "Today’s cover is GPT-Live: it moves ChatGPT Voice toward continuous speech, background delegation, and low-interruption status feedback.",
+        "Voice-agent competition expands from answer quality to turn-taking, waiting, correction, and privacy cues.",
+        "Solos, MemoMind, Acti, ZCode, China AI eyewear, research, and patent lanes show agent entry points spreading across body, keyboard, IDE, and web surfaces."
+      ],
+      "imageSourceUrl": "https://openai.com/index/introducing-gpt-live/"
+    },
+    "designDesk": {
+      "zhTitle": "Design Desk：连续 agent 需要可见状态，不只需要更强模型",
+      "enTitle": "Design Desk: Continuous agents need visible state, not only stronger models",
+      "zhIntro": "今天的设计问题很具体：当 AI 从聊天框进入语音、眼镜、键盘和开发工作流，用户需要随时知道系统听到了什么、正在做什么、用了哪些来源、能否停下或撤销。",
+      "enIntro": "Today’s design problem is concrete: as AI moves from chat boxes into voice, glasses, keyboards, and developer workflows, users need to know what the system heard, what it is doing, which evidence it used, and whether they can stop or undo it.",
+      "zhItems": [
+        {
+          "label": "传感器边界要物理可读",
+          "body": "Solos A6 的无摄像头路线和 AirGo V2 privacy shield 说明，AI wearable 的隐私提示不能只藏在 App 设置里。旁观者需要一眼看懂摄像头是否存在、是否被遮挡、是否可能录制。硬件形态本身就是界面。"
+        },
+        {
+          "label": "入口层产品要解释自己正在代表谁行动",
+          "body": "Cloudflare 把 Search、Agent、Training 拆开后，agent browser、搜索助手和自动化工具不能只说“访问失败”。它们要告诉用户：我是以用户代理身份访问、被站点策略阻挡、需要授权，还是训练用途被拒绝。"
+        },
+        {
+          "label": "低摩擦触发必须配高摩擦确认",
+          "body": "Acti 把 agent 放进键盘，优势是任何文本框都能触发行动；风险是误触、越权和结果回填。越容易触发的入口，越要把确认、撤销、权限解释和草稿恢复做短。"
+        },
+        {
+          "label": "移动监督不是移动写代码",
+          "body": "Cursor web/mobile 的关键设计不是把 IDE 缩小，而是把 agent 状态压成手机上可判断的任务卡：改了哪些文件、测试是否通过、风险是什么、什么时候必须回桌面。"
+        },
+        {
+          "label": "眼前屏幕的信息层级要比手机更克制",
+          "body": "MemoMind One 和中国 AIOS 眼镜 scan 都指向同一件事：眼镜不是小手机。翻译、提醒、字幕、导航和会议记录都要在极小显示面里取舍；失败状态和隐私提示要优先于炫技。"
+        },
+        {
+          "label": "论文和专利只能生成设计假设",
+          "body": "VisionClaw 与智能眼镜专利能提示未来交互变量：连续感知、旁观者同意、context preview、undo、audit trail。但它们不能替代可购买产品、真实 UI 和用户反馈。"
+        }
+      ],
+      "enItems": [
+        {
+          "label": "Sensor boundaries need to be physically legible",
+          "body": "Solos A6's camera-free route and the AirGo V2 privacy shield show that AI-wearable privacy cannot live only inside app settings. Nearby people need to understand whether a camera exists, whether it is blocked, and whether recording is possible. Hardware form is interface."
+        },
+        {
+          "label": "Entry-layer products must explain who they act for",
+          "body": "After Cloudflare separates Search, Agent, and Training, agent browsers, search assistants, and automation tools cannot simply show a generic access failure. They need to say whether access is user-delegated, blocked by policy, waiting for authorization, or rejected as training use."
+        },
+        {
+          "label": "Low-friction triggers need high-clarity confirmation",
+          "body": "Acti moves agents into the keyboard, which means any text field can become an action surface. That is powerful and dangerous. The easier the trigger, the shorter and clearer confirmation, undo, permission explanation, and draft recovery must be."
+        },
+        {
+          "label": "Mobile supervision is not mobile coding",
+          "body": "Cursor web and mobile should not be judged as a tiny IDE. The design job is compressing agent state into a phone-sized task card: changed files, tests, risk, stop controls, and when the user must return to the desktop."
+        },
+        {
+          "label": "Screens in front of the eye need stricter hierarchy",
+          "body": "MemoMind One and China AIOS eyewear scans point to the same constraint: glasses are not small phones. Translation, reminders, captions, navigation, and meeting notes all compete in a tiny field. Failure states and privacy cues deserve priority over spectacle."
+        },
+        {
+          "label": "Research and patents create design hypotheses only",
+          "body": "VisionClaw and smart-glasses patents can generate future interaction variables: continuous perception, bystander consent, context preview, undo, and audit trails. They cannot replace purchasable products, real UI, or user feedback."
+        }
+      ]
+    },
+    "zhPath": "./2026-07-10/zh/",
+    "enPath": "./2026-07-10/en/",
+    "sourcesPath": "./2026-07-10/sources.md"
+  },
+  {
     "date": "2026-07-07",
     "zhTitle": "AI Daily 2026-07-07：AI 眼镜隐私战进入产品化层",
     "enTitle": "AI Daily 2026-07-07: AI Glasses Privacy Moves Into Product Form",
