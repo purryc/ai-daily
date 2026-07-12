@@ -2128,7 +2128,7 @@ body:has(.deck-page) {
 
 .source-slide {
   align-content: stretch;
-  gap: 8px;
+  gap: 5px;
 }
 
 .source-slide h2 {
@@ -2139,15 +2139,15 @@ body:has(.deck-page) {
 
 .source-slide .source-grid {
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 5px;
+  gap: 4px;
   align-content: start;
 }
 
 .source-slide .source-grid a {
   min-height: 0;
   border-radius: 12px;
-  padding: 6px 7px;
-  gap: 3px;
+  padding: 5px 6px;
+  gap: 2px;
 }
 
 .source-slide .source-grid span {
@@ -2157,7 +2157,7 @@ body:has(.deck-page) {
 
 .source-slide .source-grid strong {
   font-size: clamp(9.5px, 0.72vw, 12.5px);
-  line-height: 1.16;
+  line-height: 1.12;
   letter-spacing: -0.018em;
 }
 

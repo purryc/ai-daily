@@ -1,5 +1,115 @@
 [
   {
+    "date": "2026-07-11",
+    "zhTitle": "AI Daily 2026-07-11：Agent 开始占据你的工作现场",
+    "enTitle": "AI Daily 2026-07-11: Agents Move Into the Worksite",
+    "zhSummary": "Gemini Spark 把 Mac 变成可远程委派的执行现场；Meta、NVIDIA、VITURE、MemoMind 与 Solos 把眼镜的持续感知、隐私和专业指导放到同一条产品链上，Cloudflare、Acti、ZCode 与研究/专利 lane 补齐 agent 从本地电脑、键盘、Web 到现场设备的入口迁移。",
+    "enSummary": "Gemini Spark turns the Mac into a remotely delegated execution site; Meta, NVIDIA, VITURE, MemoMind, and Solos place continuous perception, privacy, and field guidance on one product chain, while Cloudflare, Acti, ZCode, and research/patent lanes map agent entry points from local computers and keyboards to the open web and physical worksite.",
+    "tags": [
+      "Gemini Spark",
+      "AI glasses",
+      "NVIDIA XR AI",
+      "agent worksite",
+      "privacy UX",
+      "local computer",
+      "agent access",
+      "HCI"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "wild",
+      "research",
+      "patent",
+      "china",
+      "global"
+    ],
+    "coverStory": {
+      "topicId": "google-gemini-spark-mac-agent",
+      "zhTitle": "个人电脑正在变成 agent 的执行现场",
+      "enTitle": "The personal computer is becoming an agent execution site",
+      "imagePath": "assets/gemini-spark-mac-source-2026-07-01.jpg",
+      "imageWidth": 1600,
+      "imageHeight": 814,
+      "primarySourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-june-2026/",
+      "imageSourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-june-2026/",
+      "evidenceStrength": "confirmed product · Gemini Spark Mac · local-file automation",
+      "whyCover": "Gemini Spark connects remote delegation with local Mac context; the other lanes show the same agent shift spreading into glasses, field work, keyboards, and web permissions.",
+      "zhSummary": [
+        "Gemini Spark 把手机或 Web 变成委派入口，把 Mac 文件和应用变成 agent 真正工作的地方。",
+        "AI 产品的关键问题从“会不会回答”变成“谁能访问什么、正在做什么、如何停止”。",
+        "眼镜、现场指导、键盘、Web crawler、研究和专利 lane 共同显示 agent 正在从聊天框迁移到环境。"
+      ],
+      "enSummary": [
+        "Gemini Spark makes phone or web a delegation surface and the Mac the place where the agent actually works.",
+        "The product question shifts from whether an AI can answer to who it can access, what it is doing, and how it stops.",
+        "Glasses, field guidance, keyboards, web crawlers, research, and patent lanes show agents moving from chat into environments."
+      ]
+    },
+    "designDesk": {
+      "zhTitle": "Design Desk：Agent 进入环境后，控制权就是界面",
+      "enTitle": "Design Desk: Once agents enter environments, control becomes the interface",
+      "zhIntro": "今天的设计问题不在于再加一个 AI 入口，而在于 agent 一旦拿到本地文件、相机、麦克风、键盘或现场设备，用户如何持续看见边界、证据、进度和停止方式。",
+      "enIntro": "Today’s design problem is not adding another AI entry point. Once an agent can reach local files, cameras, microphones, keyboards, or field equipment, users need continuous visibility into boundaries, evidence, progress, and stop controls.",
+      "zhItems": [
+        {
+          "label": "委派入口必须显示执行现场",
+          "body": "Gemini Spark 把手机委派和 Mac 执行分开；用户需要知道任务在哪台机器上运行、访问了哪个文件、是否仍在后台继续。"
+        },
+        {
+          "label": "传感器状态要同时对佩戴者和旁观者可读",
+          "body": "Meta、Solos 和 MemoMind 的差异说明，AI 眼镜的相机、麦克风、显示和隐私边界不能只藏在 App 设置里。"
+        },
+        {
+          "label": "现场指导要把建议和授权分开",
+          "body": "NVIDIA XR AI / Helix 可以给下一步提示，但专业场景必须区分“建议做什么”和“系统允许你执行什么”，并保留人工接管。"
+        },
+        {
+          "label": "低摩擦入口需要短确认与可撤销",
+          "body": "Acti 把 action 放进键盘；Cloudflare 把访问目的拆成 Search、Agent、Training。两者都要求产品把权限、失败原因和撤销路径讲清楚。"
+        },
+        {
+          "label": "社区摩擦是主流程的一部分",
+          "body": "配对、网络、助手锁定和退货不是售后尾巴；它们决定用户能否完成第一次有价值的交互。"
+        },
+        {
+          "label": "研究和专利只能提出下一轮假设",
+          "body": "VisionClaw 与专利 lane 可以提示持续感知、context preview、audit trail 和旁观者同意，但不能替代可用产品证据。"
+        }
+      ],
+      "enItems": [
+        {
+          "label": "Delegation must show the execution site",
+          "body": "Gemini Spark separates phone delegation from Mac execution. Users need to know which computer is acting, which file was accessed, and whether work is still running."
+        },
+        {
+          "label": "Sensor state must be legible to wearer and bystander",
+          "body": "Meta, Solos, and MemoMind show that camera, microphone, display, and privacy boundaries cannot live only inside app settings."
+        },
+        {
+          "label": "Field guidance must separate advice from authorization",
+          "body": "NVIDIA XR AI and Helix can suggest the next step, but professional systems must distinguish what the agent recommends from what the worker is allowed to execute."
+        },
+        {
+          "label": "Low-friction entry needs short confirmation and undo",
+          "body": "Acti places actions inside the keyboard; Cloudflare separates Search, Agent, and Training access. Both require clear permissions, failure reasons, and recovery."
+        },
+        {
+          "label": "Community friction is part of the main flow",
+          "body": "Pairing, connectivity, assistant lock-in, and returns are not support tail work. They determine whether a user reaches a first valuable interaction."
+        },
+        {
+          "label": "Research and patents create the next hypothesis",
+          "body": "VisionClaw and patent signals suggest continuous perception, context preview, audit trails, and bystander consent, but cannot replace usable product evidence."
+        }
+      ]
+    },
+    "zhPath": "./2026-07-11/zh/",
+    "enPath": "./2026-07-11/en/",
+    "sourcesPath": "./2026-07-11/sources.md"
+  },
+  {
     "date": "2026-07-10",
     "zhTitle": "AI Daily 2026-07-10：语音 agent 进入连续界面",
     "enTitle": "AI Daily 2026-07-10: Voice Agents Enter Continuous Interfaces",
