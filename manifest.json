@@ -1,5 +1,115 @@
 [
   {
+    "date": "2026-07-13",
+    "zhTitle": "AI Daily 2026-07-13：Agent-first 硬件开始争夺空间软件层",
+    "enTitle": "AI Daily 2026-07-13: Agent-First Hardware Starts Fighting for the Spatial Software Layer",
+    "zhSummary": "Snap SPECS 把独立 AR、空间显示和 agent 开发推向同一产品；Even G2 用无相机路线换取社交可接受性；Qualcomm 与 Microsoft 分别从芯片和企业底座补齐 agent-first 设备基础设施。核心问题从 AI 能不能回答转成谁控制设备、空间和执行状态。",
+    "enSummary": "Snap SPECS puts standalone AR, spatial display, and agent development on one product surface; Even G2 trades cameras for social acceptability; Qualcomm and Microsoft fill in the silicon and enterprise foundations. The question moves from whether AI can answer to who controls the device, the space, and the execution state.",
+    "tags": [
+      "Snap SPECS",
+      "Even G2",
+      "spatial AI",
+      "on-device AI",
+      "Project Solara",
+      "AI glasses",
+      "agent UX",
+      "HCI"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "wild",
+      "research",
+      "patent",
+      "china",
+      "global"
+    ],
+    "coverStory": {
+      "topicId": "snap-specs-agent-first-ar-glasses",
+      "zhTitle": "Agent-first 硬件开始争夺空间软件层",
+      "enTitle": "Agent-first hardware starts fighting for the spatial software layer",
+      "imagePath": "assets/snap-specs-source-2026-06.jpg",
+      "imageWidth": 1920,
+      "imageHeight": 1080,
+      "primarySourceUrl": "https://investor.snap.com/news/news-details/2026/Snap-Inc--Debuts-SPECS-Augmented-Reality-Glasses-to-Make-Computing-More-Human/default.aspx",
+      "imageSourceUrl": "https://investor.snap.com/news/news-details/2026/Snap-Inc--Debuts-SPECS-Augmented-Reality-Glasses-to-Make-Computing-More-Human/default.aspx",
+      "evidenceStrength": "confirmed product · Snap SPECS · standalone AR · developer surface",
+      "whyCover": "SPECS is the clearest current product surface where spatial display, standalone compute, AI assistance, and agentic developer tooling arrive together; Even, Qualcomm, and MDEP reveal the competing social, silicon, and enterprise constraints.",
+      "zhSummary": [
+        "Snap SPECS 把 AI、空间显示、手部追踪、独立计算和 Lens 开发工具放进同一件可穿戴设备。",
+        "Even G2 证明另一条路线：删掉相机和扬声器，换取更容易被旁观者接受的生产力 HUD。",
+        "Qualcomm 与 Microsoft 说明，空间 agent 的竞争最终会下沉到端侧算力、设备管理和责任链。"
+      ],
+      "enSummary": [
+        "Snap SPECS puts AI, spatial display, hand tracking, standalone computing, and Lens development in one wearable.",
+        "Even G2 shows the opposite bet: remove cameras and speakers to make a productivity HUD easier for bystanders to accept.",
+        "Qualcomm and Microsoft show that spatial-agent competition reaches silicon, device management, and accountability."
+      ]
+    },
+    "designDesk": {
+      "zhTitle": "Design Desk：硬件一旦成为 agent 的身体，状态就必须可见",
+      "enTitle": "Design Desk: Once hardware becomes an agent’s body, state must be visible",
+      "zhIntro": "今天的产品事实共同指向一项界面任务：用户必须知道设备看到了什么、agent 在哪台设备上运行、哪些内容在端侧、谁能停止，以及失败后如何回到原任务。",
+      "enIntro": "Today’s product facts point to one interface task: users need to know what the device sees, where the agent is running, what stays on-device, who can stop it, and how to return after failure.",
+      "zhItems": [
+        {
+          "label": "空间显示不能只追求更大",
+          "body": "SPECS 把 51° 视场和私密屏幕带到现场；真正的问题是如何在方向、工作、娱乐和 agent 提示之间管理注意力。"
+        },
+        {
+          "label": "无相机是社交设计选择",
+          "body": "Even G2 把隐私边界前置到硬件，但无相机也意味着更多手机依赖和更少环境理解。"
+        },
+        {
+          "label": "端侧与云端要被用户理解",
+          "body": "Reality Elite 的端侧能力会改变延迟和隐私，最终设备必须解释哪些操作离线完成、哪些等待云端。"
+        },
+        {
+          "label": "企业 agent 需要管理面可见性",
+          "body": "MDEP/Project Solara 把 Entra、Intune、Defender 与执行连接；管理员需要看到 agent 做了什么、代表谁、在哪台设备上做。"
+        },
+        {
+          "label": "低摩擦触发要配高质量恢复",
+          "body": "GPT-Live、Acti 和眼镜都让入口更近；越容易触发，越要给出确认、状态、停止、撤销和原始上下文恢复。"
+        },
+        {
+          "label": "研究、专利和中国 scan 继续降级",
+          "body": "VisionClaw、专利与中国 AIOS 线索可以提出设计问题，但没有运行和长期用户证据时保持降级标签。"
+        }
+      ],
+      "enItems": [
+        {
+          "label": "A spatial display is not just a bigger screen",
+          "body": "SPECS brings a 51-degree view into the environment. The product challenge is attention allocation across directions, work, entertainment, and agent prompts."
+        },
+        {
+          "label": "Camera-free is a social design choice",
+          "body": "Even G2 makes privacy legible in hardware, but the absence of a camera also means more phone dependence and less environmental understanding."
+        },
+        {
+          "label": "Edge and cloud boundaries need explanation",
+          "body": "Reality Elite changes latency and privacy. The finished device must explain what runs offline, what waits for the cloud, and whether data leaves the glasses."
+        },
+        {
+          "label": "Enterprise agents need a management view",
+          "body": "MDEP and Project Solara connect Entra, Intune, Defender, and execution. Managers need to see what the agent did, for whom, and on which device."
+        },
+        {
+          "label": "Low-friction triggers need recovery",
+          "body": "GPT-Live, Acti, and glasses bring the entry point closer. Short confirmation, live state, stop, undo, and context recovery become more important."
+        },
+        {
+          "label": "Research, patent, and China scans stay downgraded",
+          "body": "VisionClaw, patent, and China AIOS signals frame the next question, but remain downgraded without runtime and long-term user evidence."
+        }
+      ]
+    },
+    "zhPath": "./2026-07-13/zh/",
+    "enPath": "./2026-07-13/en/",
+    "sourcesPath": "./2026-07-13/sources.md"
+  },
+  {
     "date": "2026-07-12",
     "zhTitle": "AI Daily 2026-07-12：连续语音开始成为 AI 的工作界面",
     "enTitle": "AI Daily 2026-07-12: Voice Starts Becoming the AI Work Interface",
