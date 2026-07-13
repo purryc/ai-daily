@@ -1,5 +1,115 @@
 [
   {
+    "date": "2026-07-12",
+    "zhTitle": "AI Daily 2026-07-12：连续语音开始成为 AI 的工作界面",
+    "enTitle": "AI Daily 2026-07-12: Voice Starts Becoming the AI Work Interface",
+    "zhSummary": "GPT-Live 把 ChatGPT Voice 推向连续对话；Gemini Spark 把 Mac 变成可远程委派的执行现场；Meta AI Glasses、NVIDIA XR AI / VITURE Helix、Cloudflare、Acti 与中国/研究/专利 lane 共同显示，agent 正从回答文本进入语音、设备和工作环境。",
+    "enSummary": "GPT-Live pushes ChatGPT Voice toward continuous conversation; Gemini Spark turns the Mac into a remotely delegated execution site; Meta AI Glasses, NVIDIA XR AI / VITURE Helix, Cloudflare, Acti, and China, research, and patent lanes show agents moving from answer text into voice, devices, and work environments.",
+    "tags": [
+      "GPT-Live",
+      "voice agents",
+      "Gemini Spark",
+      "AI glasses",
+      "agent worksite",
+      "privacy UX",
+      "HCI",
+      "continuous interface"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "wild",
+      "research",
+      "patent",
+      "china",
+      "global"
+    ],
+    "coverStory": {
+      "topicId": "openai-gpt-live-voice-interface",
+      "zhTitle": "连续语音正在成为 AI 的工作界面",
+      "enTitle": "Continuous voice is becoming the AI work interface",
+      "imagePath": "assets/openai-gpt-live-source-2026-07-10.png",
+      "imageWidth": 1600,
+      "imageHeight": 900,
+      "primarySourceUrl": "https://openai.com/index/introducing-gpt-live/",
+      "imageSourceUrl": "https://openai.com/index/introducing-gpt-live/",
+      "evidenceStrength": "confirmed product · GPT-Live · ChatGPT Voice",
+      "whyCover": "GPT-Live makes turn-taking, interruption, waiting, and escalation part of the product surface; Gemini Spark and the device lanes show the same agent moving from chat into environments.",
+      "zhSummary": [
+        "GPT-Live 把语音 agent 的核心从一次问答推进到连续、可打断、可升级的对话循环。",
+        "Gemini Spark、眼镜和现场指导继续把 agent 从聊天框推进到文件、相机、麦克风和工作设备。",
+        "今天真正要设计的是状态：谁在听、谁在做、何时等待、怎样纠错、如何停止。"
+      ],
+      "enSummary": [
+        "GPT-Live moves the voice agent from a single answer toward a continuous, interruptible, escalatable conversation loop.",
+        "Gemini Spark, glasses, and field guidance extend the same agent from chat into files, cameras, microphones, and work equipment.",
+        "The interface problem is state: who is listening, who is acting, when it is waiting, how it corrects, and how it stops."
+      ]
+    },
+    "designDesk": {
+      "zhTitle": "Design Desk：Agent 进入环境后，控制权就是界面",
+      "enTitle": "Design Desk: Once agents enter environments, control becomes the interface",
+      "zhIntro": "今天的设计问题不在于再加一个 AI 入口，而在于 agent 一旦拿到本地文件、相机、麦克风、键盘或现场设备，用户如何持续看见边界、证据、进度和停止方式。",
+      "enIntro": "Today’s design problem is not adding another AI entry point. Once an agent can reach local files, cameras, microphones, keyboards, or field equipment, users need continuous visibility into boundaries, evidence, progress, and stop controls.",
+      "zhItems": [
+        {
+          "label": "委派入口必须显示执行现场",
+          "body": "Gemini Spark 把手机委派和 Mac 执行分开；用户需要知道任务在哪台机器上运行、访问了哪个文件、是否仍在后台继续。"
+        },
+        {
+          "label": "传感器状态要同时对佩戴者和旁观者可读",
+          "body": "Meta、Solos 和 MemoMind 的差异说明，AI 眼镜的相机、麦克风、显示和隐私边界不能只藏在 App 设置里。"
+        },
+        {
+          "label": "现场指导要把建议和授权分开",
+          "body": "NVIDIA XR AI / Helix 可以给下一步提示，但专业场景必须区分“建议做什么”和“系统允许你执行什么”，并保留人工接管。"
+        },
+        {
+          "label": "低摩擦入口需要短确认与可撤销",
+          "body": "Acti 把 action 放进键盘；Cloudflare 把访问目的拆成 Search、Agent、Training。两者都要求产品把权限、失败原因和撤销路径讲清楚。"
+        },
+        {
+          "label": "社区摩擦是主流程的一部分",
+          "body": "配对、网络、助手锁定和退货不是售后尾巴；它们决定用户能否完成第一次有价值的交互。"
+        },
+        {
+          "label": "研究和专利只能提出下一轮假设",
+          "body": "VisionClaw 与专利 lane 可以提示持续感知、context preview、audit trail 和旁观者同意，但不能替代可用产品证据。"
+        }
+      ],
+      "enItems": [
+        {
+          "label": "Delegation must show the execution site",
+          "body": "Gemini Spark separates phone delegation from Mac execution. Users need to know which computer is acting, which file was accessed, and whether work is still running."
+        },
+        {
+          "label": "Sensor state must be legible to wearer and bystander",
+          "body": "Meta, Solos, and MemoMind show that camera, microphone, display, and privacy boundaries cannot live only inside app settings."
+        },
+        {
+          "label": "Field guidance must separate advice from authorization",
+          "body": "NVIDIA XR AI and Helix can suggest the next step, but professional systems must distinguish what the agent recommends from what the worker is allowed to execute."
+        },
+        {
+          "label": "Low-friction entry needs short confirmation and undo",
+          "body": "Acti places actions inside the keyboard; Cloudflare separates Search, Agent, and Training access. Both require clear permissions, failure reasons, and recovery."
+        },
+        {
+          "label": "Community friction is part of the main flow",
+          "body": "Pairing, connectivity, assistant lock-in, and returns are not support tail work. They determine whether a user reaches a first valuable interaction."
+        },
+        {
+          "label": "Research and patents create the next hypothesis",
+          "body": "VisionClaw and patent signals suggest continuous perception, context preview, audit trails, and bystander consent, but cannot replace usable product evidence."
+        }
+      ]
+    },
+    "zhPath": "./2026-07-12/zh/",
+    "enPath": "./2026-07-12/en/",
+    "sourcesPath": "./2026-07-12/sources.md"
+  },
+  {
     "date": "2026-07-11",
     "zhTitle": "AI Daily 2026-07-11：Agent 开始占据你的工作现场",
     "enTitle": "AI Daily 2026-07-11: Agents Move Into the Worksite",
