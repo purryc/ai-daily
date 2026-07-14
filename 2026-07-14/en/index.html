@@ -1,0 +1,1558 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Daily 2026-07-14: Privacy Boundaries Become a Hardware API for AI Glasses · AI Daily</title>
+    <meta name="description" content="Meta turns capture-LED tamper detection into camera disabling; HTC VIVE Eagle puts camera, translation, third-party models, and local storage into lifestyle eyewear; Brilliant Labs Halo targets developers with open hardware, an edge NPU, and a memory agent. The product question moves from what AI can see to who can see it, when capture stops, and how data recovers." />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2216%22%20fill%3D%22%232f2234%22%2F%3E%3Ctext%20x%3D%2213%22%20y%3D%2242%22%20font-family%3D%22Arial%22%20font-size%3D%2226%22%20font-weight%3D%22900%22%20fill%3D%22%23fff%22%3EAI%3C%2Ftext%3E%3C%2Fsvg%3E" />
+    <link rel="stylesheet" href="../../assets/site.css" />
+  </head>
+  <body>
+
+    <main class="deck-page">
+      <nav class="deck-nav" aria-label="Issue navigation">
+        <a class="brand" href="/ai-daily/">AI Daily</a>
+        <div class="deck-nav-actions">
+          <a class="" href="/ai-daily/2026-07-14/zh/">中文</a>
+          <a class="active" href="/ai-daily/2026-07-14/en/">English</a>
+          <a href="/ai-daily/2026-07-14/sources.md">Source ledger</a>
+          <a class="primary" href="../ai-daily-2026-07-14-en.pdf" download>Download PDF</a>
+        </div>
+      </nav>
+
+      <section class="deck-stage" data-deck aria-label="AI Daily 2026-07-14: Privacy Boundaries Become a Hardware API for AI Glasses · AI Daily">
+
+    <section class="deck-slide cover-slide is-active" id="slide-01" data-slide>
+
+    <div class="slide-chrome">
+      <span>01</span>
+      <span>2026-07-14 · America/Toronto</span>
+    </div>
+      <div class="cover-copy">
+        <p class="eyebrow">AI Daily</p>
+        <h1>AI Daily 2026-07-14: Privacy Boundaries Become a Hardware API for AI Glasses</h1>
+        <div class="hero-lines">
+          <p>Meta binds a covered or damaged capture LED to camera disabling, moving privacy into a hardware state machine.</p><p>HTC VIVE Eagle brings camera, translation, open-ear audio, and third-party models into one everyday flow.</p><p>Brilliant Labs Halo lowers the development barrier with open design and an edge NPU, while making memory control a product responsibility.</p>
+        </div>
+        <div class="chip-row"><span>AI glasses</span><span>privacy hardware</span><span>on-device AI</span><span>Brilliant Labs Halo</span><span>HTC VIVE Eagle</span><span>Meta AI Glasses</span><span>agent UX</span><span>HCI</span></div>
+        <p class="source-row"><strong>Sources:</strong> <a href="https://about.fb.com/news/2026/07/metas-ai-glasses-your-questions-answered/" target="_blank" rel="noreferrer">Cover source</a></p>
+      </div>
+      <figure class="cover-visual">
+        <img src="../assets/meta-ai-glasses-privacy-source-2026-07.png" alt="Privacy boundaries become a hardware API for AI glasses" width="1600" height="1000" decoding="async" />
+        <figcaption>confirmed product · Meta capture LED · hardware privacy control · Meta’s capture LED couples visible recording state to camera permission; HTC makes local storage and model routing part of a camera glasses product; Halo opens the stack to developers. Together they expose privacy as a physical, runtime, and developer-surface problem.</figcaption>
+      </figure>
+    </section>
+    <section class="deck-slide agenda-slide" id="slide-02" data-slide>
+
+    <div class="slide-chrome">
+      <span>02</span>
+      <span>Issue map</span>
+    </div>
+      <div class="agenda-copy">
+        <p class="eyebrow">Structure before evidence</p>
+        <h2>Read today through eight lanes: official products, reviews, community friction, wild products, research, patents, China, and global signals.</h2>
+      </div>
+      <div class="agenda-grid">
+        <a class="agenda-card" href="#slide-03" data-go-slide="slide-03">
+          <span>Official</span>
+          <strong>Official Desk</strong>
+          <em>4 item(s)</em>
+        </a>
+        <a class="agenda-card" href="#slide-08" data-go-slide="slide-08">
+          <span>Reviews</span>
+          <strong>Review Desk</strong>
+          <em>2 item(s)</em>
+        </a>
+        <a class="agenda-card" href="#slide-11" data-go-slide="slide-11">
+          <span>Community</span>
+          <strong>Community Friction</strong>
+          <em>1 item(s)</em>
+        </a>
+        <a class="agenda-card" href="#slide-13" data-go-slide="slide-13">
+          <span>Wild</span>
+          <strong>Wild Desk</strong>
+          <em>2 item(s)</em>
+        </a>
+        <a class="agenda-card" href="#slide-16" data-go-slide="slide-16">
+          <span>Research</span>
+          <strong>Research Watch</strong>
+          <em>1 item(s)</em>
+        </a>
+        <a class="agenda-card" href="#slide-18" data-go-slide="slide-18">
+          <span>Patent</span>
+          <strong>Patent Watch</strong>
+          <em>1 item(s)</em>
+        </a>
+        <a class="agenda-card" href="#slide-20" data-go-slide="slide-20">
+          <span>China</span>
+          <strong>China / Global Compare</strong>
+          <em>2 item(s)</em>
+        </a>
+        <a class="agenda-card" href="#slide-23" data-go-slide="slide-23">
+          <span>Global</span>
+          <strong>Global Signals</strong>
+          <em>2 item(s)</em>
+        </a></div>
+    </section>
+    <section class="deck-slide section-slide" id="slide-03" data-slide data-section="official">
+
+    <div class="slide-chrome">
+      <span>03</span>
+      <span>Official</span>
+    </div>
+      <p class="eyebrow">Official</p>
+      <h2>Official Desk</h2>
+      <div class="section-topic-list">
+
+              <div>
+                <span>confirmed product · confirmed product · official privacy control · review/community friction</span>
+                <strong>Meta turns capture-LED tamper detection into a camera-level hardware constraint</strong>
+              </div>
+              <div>
+                <span>confirmed product · confirmed product · official launch · developer surface</span>
+                <strong>Snap SPECS puts AI, spatial display, and agent development into standalone glasses</strong>
+              </div>
+              <div>
+                <span>developer surface · developer surface · enterprise platform · not a shipped consumer device</span>
+                <strong>Project Solara and MDEP turn agent-first devices into an enterprise-management problem</strong>
+              </div>
+              <div>
+                <span>confirmed product · confirmed product · voice interface · ChatGPT Voice rollout</span>
+                <strong>GPT-Live moves ChatGPT Voice from Q&amp;A entry point toward continuous conversation</strong>
+              </div>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-04" data-slide data-section="official" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>04</span>
+      <span>Official Desk</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">Official</span>
+            <span>confirmed product · confirmed product · official privacy control · review/community friction</span>
+            <span>2026-07-08 official FAQ · 2026-07-12 regional update</span>
+          </div>
+          <h2 class="dossier-title">Meta turns capture-LED tamper detection into a camera-level hardware constraint</h2>
+          <p class="dossier-lead">Product: Meta AI Glasses. Meta AI Glasses: Meta AI Glasses are everyday glasses with cameras, microphones, speakers, and Meta AI. The product change worth recording today comes from Meta’s July FAQ: the capture LED becomes an external signal of camera activity, and from the second generation onward the camera is disabled when the system detects that the LED has been covered, disabled, physically modified, or destroyed. The product question moves from whether privacy is promised to what bystanders can see and what the device will allow. This item is handled as confirmed product; missing details remain source not stated.</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://about.fb.com/news/2026/07/metas-ai-glasses-your-questions-answered/" target="_blank" rel="noreferrer" aria-label="Meta official FAQ screenshot; capture LED, camera disabling, device-side import, and bystander privacy follow the source.">
+        <img src="../assets/meta-ai-glasses-privacy-source-2026-07.png" alt="Source-backed visual: Meta AI Glasses privacy FAQ" width="1600" height="1000" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>Meta official FAQ screenshot; capture LED, camera disabling, device-side import, and bystander privacy follow the source.</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>What it is</span>
+                  <p>Meta AI Glasses are everyday glasses with cameras, microphones, speakers, and Meta AI. The product change worth recording today comes from Meta’s July FAQ: the capture LED becomes an external signal of camera activity, and from the second generation onward the camera is disabled when the system detects that the LED has been covered, disabled, physically modified, or destroyed. The product question moves from whether privacy is promised to what bystanders can see and what the device will allow.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>How it works</span>
+                  <p>The wearer uses voice, temple controls, or the companion app to take photos and video, listen to audio, ask Meta AI questions, and decide when to import captures to the phone gallery. The LED blinks briefly for a photo and continuously during video; the wearer hears a shutter sound. Meta says gallery captures are stored on the glasses until the user imports them to the phone. If the LED is blocked or tampering is detected, the capture path is blocked; recovery requires the LED to be unblocked and no longer in a tampered state.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Specs / stack</span>
+                  <p>The source confirms a capture LED, camera, microphones, speakers, local glasses storage, phone import, Meta AI, and a companion app. The FAQ does not state processor, RAM, camera model, recording bitrate, edge/cloud model split, or LED brightness and detection thresholds, so those details remain source not stated. Second-generation camera disabling and the tamper-detection behavior are public constraints; they should not be expanded into an absolute privacy guarantee.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Use cases</span>
+                  <p>Documented uses include hands-free photos and video, music and podcasts, questions to the assistant, asking about a live scene, and importing selected captures for sharing. The wearer gets a lower-friction camera and assistant entry point; people nearby get a visible recording cue. Real settings include gatherings, public transit, retail, and workplaces, where acceptance depends on whether bystanders understand the LED and whether the wearer can explain the recording behavior.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Pain points</span>
+                  <p>The system addresses two problems: the wearer wants an always-available camera and assistant, while bystanders do not want invisible recording. Binding the LED to camera permission reduces the ambiguous state in which a user covers the light yet keeps recording. Local capture storage and deliberate import reduce the intuitive risk of everything going to the cloud automatically. The cost is that hardware and software must judge tampering, and false positives can remove camera access.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>User voice</span>
+                  <p>Source not stated.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>New tech</span>
+                  <p>The product move is to encode a social norm in a hardware state machine: the capture LED is part of camera permission, not merely an indicator. Meta also says it is improving detection of physical modification and acting against services that sell LED-tampering methods. The design pattern is visible state, capability coupling, and recovery. Privacy moves out of a settings page into a physical feedback layer shared by wearer and bystanders.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Availability</span>
+                  <p>Meta’s FAQ is public and the AI Glasses product family remains on sale, with details varying by region and generation. The FAQ does not provide a new universal price, shipping date, firmware version, model-by-model coverage, or every regional control path; those remain source not stated. Android Central reports an early-July software update that disables the camera when LED tampering is detected, while this dossier prioritizes Meta’s own behavior description.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Limits / unknowns</span>
+                  <p>The sources do not state false-positive rate, detection latency, recovery after natural obstruction, whether an AI query can run without camera access, or whether all sensors and cloud processing stop when the camera is disabled. Independent testing has not established that bystanders can see the LED in daylight, crowds, or at distance. A camera constraint is not the same thing as a complete data-processing boundary.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Product read</span>
+                  <p>Meta turns a privacy dispute into a testable product action: if the light is covered or damaged, the camera stops. That is closer to real interaction than a policy statement, while independent testing, clear status feedback, and local rules are still needed. The next contest for AI glasses includes whether wearer and bystander can share the same recording state, rather than leaving the boundary visible only inside an app.</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://about.fb.com/news/2026/07/metas-ai-glasses-your-questions-answered/" target="_blank" rel="noreferrer">Meta AI Glasses privacy FAQ</a><a href="https://www.meta.com/help/smart-glasses/articles/health-safety-and-privacy/privacy-glasses/" target="_blank" rel="noreferrer">Meta glasses privacy approach</a><a href="https://www.androidcentral.com/wearables/meta-glasses-hands-on-review" target="_blank" rel="noreferrer">Android Central hands-on</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-05" data-slide data-section="official" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>05</span>
+      <span>Official Desk</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">Official</span>
+            <span>confirmed product · confirmed product · official launch · developer surface</span>
+            <span>2026-06-16 official launch · 2026-07 current pre-order watch · 2026-07-14 follow-up</span>
+          </div>
+          <h2 class="dossier-title">Snap SPECS puts AI, spatial display, and agent development into standalone glasses</h2>
+          <p class="dossier-lead">Product: Snap SPECS. Snap SPECS: Snap SPECS is a standalone see-through AR glasses computer positioned between conventional AI glasses and an enclosed headset. Snap describes it as a wearable computer bringing AI assistance, work tools, entertainment, and shared experiences into the physical world without a puck or tether. The preorder announcement, specifications, and developer tools confirm the product surface; ecosystem scale and daily retention remain open. This item is handled as confirmed product; missing details remain source not stated.</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://investor.snap.com/news/news-details/2026/Snap-Inc--Debuts-SPECS-Augmented-Reality-Glasses-to-Make-Computing-More-Human/default.aspx" target="_blank" rel="noreferrer" aria-label="Snap official SPECS launch visual; price, weight, display, battery, and APIs follow the release.">
+        <img src="../assets/snap-specs-source-2026-06.jpg" alt="Source-backed visual: Snap SPECS" width="1920" height="1080" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>Snap official SPECS launch visual; price, weight, display, battery, and APIs follow the release.</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>What it is</span>
+                  <p>Snap SPECS is a standalone see-through AR glasses computer positioned between conventional AI glasses and an enclosed headset. Snap describes it as a wearable computer bringing AI assistance, work tools, entertainment, and shared experiences into the physical world without a puck or tether. The preorder announcement, specifications, and developer tools confirm the product surface; ecosystem scale and daily retention remain open.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>How it works</span>
+                  <p>A wearer uses spatial display, hand tracking, voice, and Snap Lenses. Official examples include directions, spatial measurement, contextual AI, screen casting, whiteboards, and educational overlays on real objects. Developers build, debug, and publish Lenses in Lens Studio. A Migration Agent, Spatial Benchmark, Native Development Kit, and agentic-development preview extend the entry point from filters to spatial agents.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Specs / stack</span>
+                  <p>Snap lists a 132-gram 47 mm model, a 136-gram 52 mm model, a 51-degree field of view, 16 million colors, two Snapdragon processors, 7 ms motion-to-photon latency, and up to four hours of mixed-use battery. The case supplies four additional charges, for up to 20 mixed-use hours. The system includes display, waveguide, electrochromic lenses, hand tracking, Snap OS, Lens Studio, and AI assistance. Processor model, RAM, camera details, networking, and edge/cloud split are source not stated.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Use cases</span>
+                  <p>Confirmed use cases include directions and spatial measurement, bringing a screen or whiteboard into a work setting, educational and creative Lenses, contextual AI prompts, and migrating projects to SPECS. For workers, the value is keeping body and environment connected; for creators, it is spatial software rather than a phone filter. Weight, battery, and developer content will determine whether it becomes daily wear.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Pain points</span>
+                  <p>SPECS targets the conflict between phones that make people look down, headsets that isolate them, and AI glasses with limited displays. A larger private display and standalone compute reduce phone and tether dependence; Snap OS and tooling reduce the hardware-to-app gap. New costs include visual-attention competition, gesture fatigue, public capture boundaries, and explaining when an AI system sees, processes, or stores information.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>User voice</span>
+                  <p>Source not stated.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>New tech</span>
+                  <p>The increment is a combination of optics and waveguide, dual Snapdragon processors, hand tracking, Snap OS, a Spatial Benchmark, a Migration Agent, and agentic development in Lens Studio. Snap also says the glasses ask before sensitive access, show an LED during recording, prioritize on-device processing, and give users control over storage, sync, sharing, and deletion. The shift is a buildable and evaluable spatial-agent surface, not simply a chatbot inside glasses.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Availability</span>
+                  <p>Snap says SPECS is available for preorder at $2,195 with a refundable $200 deposit and is expected to ship in fall 2026 in the United States, United Kingdom, and France. Developer previews are rolling out in Claude Code, Codex, and Cursor. Consumer feature scope, prescription options, regional expansion, subscription, and third-party agent permissions are source not stated.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Limits / unknowns</span>
+                  <p>Open questions include whether four hours of mixed use survives real spatial-AI workloads, whether 132–136 grams is comfortable for long wear, which complete input path the 7 ms metric covers, and how Lenses obtain consent, explain data use, and recover from errors. The price places SPECS in an early-adopter bracket. A launch demo is not long-term usability evidence.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Product read</span>
+                  <p>SPECS is the clearest agent-first hardware proposition in this issue because spatial display, standalone computing, and developer tooling arrive together. Snap must prove that people will wear a $2,195, four-hour computer and that developers can build agents that are legible, stoppable, and shareable. If the ecosystem forms, AI glasses move from ‘does it have a camera?’ to ‘who controls the spatial software layer?’</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://investor.snap.com/news/news-details/2026/Snap-Inc--Debuts-SPECS-Augmented-Reality-Glasses-to-Make-Computing-More-Human/default.aspx" target="_blank" rel="noreferrer">Snap official SPECS launch</a><a href="https://www.spectacles.com/" target="_blank" rel="noreferrer">Snap SPECS product page</a><a href="https://techcrunch.com/2026/06/16/snap-finally-debuts-its-long-awaited-ar-glasses-specs-and-oof-they-arent-cheap/" target="_blank" rel="noreferrer">TechCrunch SPECS launch report</a><a href="https://developers.snap.com/lens-studio/" target="_blank" rel="noreferrer">Snap Lens Studio developer tools</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-06" data-slide data-section="official" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>06</span>
+      <span>Official Desk</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">Official</span>
+            <span>developer surface · developer surface · enterprise platform · not a shipped consumer device</span>
+            <span>2026-06-02 official Microsoft Build post · 2026-07 platform watch · 2026-07-14 follow-up</span>
+          </div>
+          <h2 class="dossier-title">Project Solara and MDEP turn agent-first devices into an enterprise-management problem</h2>
+          <p class="dossier-lead">Product: Microsoft Project Solara / MDEP. Microsoft Project Solara / MDEP: Project Solara is Microsoft’s Build 2026 chip-to-cloud platform for agent-first enterprise devices; MDEP is the operating and management foundation around it. Microsoft places it across meeting-room systems, enterprise phones, digital signage, industrial and IoT endpoints, and AI-enabled edge devices. It is not a shipped terminal. It moves the question of how devices host agents from individual apps into identity, management, and security infrastructure. This item is handled as developer surface; missing details remain source not stated.</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://techcommunity.microsoft.com/blog/microsoftdeviceecosystemplatformblog/powering-new-devices-and-agent-first-experiences-with-mdep/4524525" target="_blank" rel="noreferrer" aria-label="Microsoft MDEP post screenshot; Project Solara, Entra, Intune, Defender, and fleet management follow the post.">
+        <img src="../assets/mdep-project-solara-source-2026-06.png" alt="Source-backed visual: Microsoft Project Solara and MDEP" width="1600" height="900" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>Microsoft MDEP post screenshot; Project Solara, Entra, Intune, Defender, and fleet management follow the post.</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>What it is</span>
+                  <p>Project Solara is Microsoft’s Build 2026 chip-to-cloud platform for agent-first enterprise devices; MDEP is the operating and management foundation around it. Microsoft places it across meeting-room systems, enterprise phones, digital signage, industrial and IoT endpoints, and AI-enabled edge devices. It is not a shipped terminal. It moves the question of how devices host agents from individual apps into identity, management, and security infrastructure.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>How it works</span>
+                  <p>An end user works in a meeting room, factory, clinic, or front desk through an agent-driven device. The agent is dispatched according to task and context, so the user experiences a work goal, prompt, or device action instead of launching a traditional app. Administrators define scope, policy, and lifecycle through Entra, Intune, and Defender for Endpoint. The promise is that agents inherit those guarantees rather than rebuilding identity, device management, and threat protection in every application.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Specs / stack</span>
+                  <p>Microsoft confirms an enterprise-grade OS, Entra identity, Intune management, Defender for Endpoint protection, a common fleet foundation, and Project Solara’s chip-to-cloud direction. Media coverage adds a lightweight edge OS, Azure agent services, persistent cloud state, an agent dispatcher, and a task manager, reportedly based on AOSP; those details need later official documentation. Chip, AOSP branch, API, SDK, device models, price, shipping, and public developer eligibility are source not stated.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Use cases</span>
+                  <p>The enterprise scope covers meeting-room systems, industrial endpoints, clinics, front desks, digital signage, enterprise phones, and other edge devices. A task can be routed to an agent while the platform activates the appropriate agent according to context and administrators manage identity, policy, and security centrally. This addresses the need to avoid rebuilding accounts, deployment, updates, and audit controls for every new form factor; partner hardware and pilots still have to validate the experience.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Pain points</span>
+                  <p>Traditional enterprise devices split work by app and model; agent-first devices will send tasks across terminals, services, and agents. MDEP tries to pull identity, management, threat protection, lifecycle, and trust into one platform. Users may get fewer sign-ins and clearer boundaries. The risk is that when an agent acts for an organization, responsibility, permissions, logs, and human takeover must be more explicit than in the app era.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>User voice</span>
+                  <p>Source not stated.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>New tech</span>
+                  <p>The pattern combines an agent dispatcher, task manager, cloud state, and enterprise OS controls, letting devices inherit Entra, Intune, and Defender. If the AOSP edge-OS and Azure-agent route holds, a device becomes an embodied endpoint rather than a container for Office or Android apps. The key test is cross-device state and administrator visibility: can managers see what the agent did, not merely that a device is online?</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Availability</span>
+                  <p>The MDEP post was published on June 2, 2026 and describes Project Solara as an announced platform, with no consumer purchase path or end-device release date. Enterprise partners, SDK access, developer enrollment, Azure regions, license pricing, and public pilots are source not stated. This remains a developer-surface and enterprise-platform watch, not a confirmed shipped product.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Limits / unknowns</span>
+                  <p>Open questions include what OS and API MDEP exposes, which Solara components are available, whether the task manager is visible to administrators, how errors roll back, how cross-device identity is least-privileged, and how AOSP coexists with Windows and Android. Enterprise buyers also need residency, audit, compliance, offline behavior, and an exit path; current sources provide no empirical details.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Product read</span>
+                  <p>Project Solara and MDEP place agent UX back in the system foundation. A device becomes an execution node constrained by identity, policy, lifecycle, and security. Microsoft has not delivered a normal-user product to test, so the claim should remain measured. For enterprise HCI, the signal is clear: design must connect what the agent did, for whom, on which device, and who can stop it to the management plane.</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://techcommunity.microsoft.com/blog/microsoftdeviceecosystemplatformblog/powering-new-devices-and-agent-first-experiences-with-mdep/4524525" target="_blank" rel="noreferrer">Microsoft MDEP: Project Solara</a><a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-unveils-project-solara-ai-a-chip-to-cloud-platform-built-to-power-a-new-generation-of-agent-first-enterprise-devices-hardware-designed-to-run-ai-agents-instead-of-traditional-apps" target="_blank" rel="noreferrer">Project Solara coverage</a><a href="https://www.microsoft.com/en-us/security/business/microsoft-entra" target="_blank" rel="noreferrer">Microsoft Entra</a><a href="https://www.microsoft.com/en-us/security/business/microsoft-intune" target="_blank" rel="noreferrer">Microsoft Intune</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-07" data-slide data-section="official" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>07</span>
+      <span>Official Desk</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">Official</span>
+            <span>confirmed product · confirmed product · voice interface · ChatGPT Voice rollout</span>
+            <span>2026-07-08 official release · 2026-07-11 follow-up · 2026-07-12 follow-up · 2026-07-13 follow-up · 2026-07-14 follow-up</span>
+          </div>
+          <h2 class="dossier-title">GPT-Live moves ChatGPT Voice from Q&amp;A entry point toward continuous conversation</h2>
+          <p class="dossier-lead">Product: OpenAI GPT-Live. OpenAI GPT-Live: GPT-Live is OpenAI’s new generation of voice models released on July 8, 2026, positioned as the model powering ChatGPT Voice. This is a product-interface release, not merely a text-model announcement. The user-facing change is that voice interaction is meant to feel more like a continuous conversation: the assistant can maintain conversational flow while heavier work is delegated to a frontier model in the background. OpenAI says that at launch GPT-Live uses GPT-5.5 in the background and will be updated as new frontier models are released.. This item is handled as confirmed product; specs, price, regions and dates use cited source claims only, and missing details remain source not stated.</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://openai.com/index/introducing-gpt-live/" target="_blank" rel="noreferrer" aria-label="Source-backed screenshot from OpenAI GPT-Live official release page for the new ChatGPT Voice model.">
+        <img src="../assets/openai-gpt-live-source-2026-07-10.png" alt="Source-backed screenshot: OpenAI GPT-Live voice product release" width="1440" height="900" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>Source-backed screenshot from OpenAI GPT-Live official release page for the new ChatGPT Voice model.</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>What it is</span>
+                  <p>GPT-Live is OpenAI’s new generation of voice models released on July 8, 2026, positioned as the model powering ChatGPT Voice. This is a product-interface release, not merely a text-model announcement. The user-facing change is that voice interaction is meant to feel more like a continuous conversation: the assistant can maintain conversational flow while heavier work is delegated to a frontier model in the background. OpenAI says that at launch GPT-Live uses GPT-5.5 in the background and will be updated as new frontier models are released.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>How it works</span>
+                  <p>The user enters ChatGPT Voice and speaks naturally instead of treating the system as a strict record-one-turn, wait-one-turn interface. GPT-Live is meant to handle pauses, follow-up thoughts, and conversational flow. When a question requires web search, deeper reasoning, or more complex work, it can acknowledge the work with a short conversational cue, delegate the hard part to the background model, and return the result into the ongoing voice exchange. Media coverage also describes live translation, fewer interruptions, and instructions such as asking the assistant to stay quiet until addressed, but availability and account rules should be checked against official product behavior.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Specs / stack</span>
+                  <p>The cited official sources support GPT-Live as a new voice model for ChatGPT Voice, delegation of web search, deeper reasoning, and complex work to a frontier model, launch-time use of GPT-5.5 in the background, and a July 8, 2026 OpenAI livestream replay. Media reports add GPT-Live-1, Mini, paid and free access tiers, global rollout, and live translation, but this issue treats those as supplements unless directly visible in OpenAI’s product page. Audio sampling, latency numbers, full language list, pricing, API naming, enterprise controls, and retention settings are source not stated.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Use cases</span>
+                  <p>The concrete jobs are hands-free Q&amp;A while walking or driving, translation, long-task planning, meeting preparation, spoken brainstorming, language learning, and information lookup when a screen is inconvenient. The stronger product move is from answering one spoken question to accompanying a user through work. A user can speak through a goal while the system keeps conversational presence and sends heavier retrieval or generation into the background. In HCI terms, voice becomes both input and status feedback, not only dictation.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Pain points</span>
+                  <p>GPT-Live attacks two voice-AI frictions. First, older assistants often interrupt at pauses, forcing users to speak in machine-shaped rhythms. Second, complex work creates silent waiting, leaving the user unsure whether the system understood or is still working. GPT-Live combines turn-taking, background delegation, and short status cues so waiting becomes a legible conversational state. The risk is also clear: if delegation is slow, explanations are vague, or translation is wrong, voice users have less review and rollback space than text users.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>User voice</span>
+                  <p>The evidence today is official release material plus media and developer commentary, not long-term retention data. TechRadar and MacRumors focus on naturalness, fewer interruptions, real-time translation, and replacement of the existing ChatGPT Voice experience. Ordinary-user evidence about accents, noisy spaces, privacy prompts, correction loops, multilingual accuracy, and enterprise controls still needs observation; source not stated.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>New tech</span>
+                  <p>The product novelty is orchestration inside the voice interface. A foreground voice model handles natural turn-taking and presence, while a background frontier model handles heavier reasoning, search, or complex work. That split matters for future voice agents: the system needs to both stay with the user and complete tasks, while expressing background state in short, natural, low-interruption cues.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Availability</span>
+                  <p>OpenAI’s official page says GPT-Live has launched and powers ChatGPT Voice. Specific account tiers, countries, client versions, workspace policy controls, API availability, and rollout timing are source not stated unless explicitly provided by the cited sources.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Limits / unknowns</span>
+                  <p>Open questions include real latency, weak-network behavior, noisy-room recognition, multi-speaker handling, privacy and audio retention, live-translation quality, developer API support, admin controls, and whether users can see when the background model changes. Voice also lacks the review buffer of text, so correction and undo need to be much closer to the interaction.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Product read</span>
+                  <p>GPT-Live is the cover story because it pushes AI product entry points from the chat box toward continuous spoken collaboration. The practical product judgment is that voice agents win on turn-taking, waiting feedback, correction, and privacy cues as much as model intelligence. If those states are clear, voice becomes a natural shell for an AI operating environment. If not, it remains a compelling demo wrapped around a fragile Q&amp;A loop.</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://openai.com/index/introducing-gpt-live/" target="_blank" rel="noreferrer">OpenAI: Introducing GPT-Live</a><a href="https://openai.com/live/" target="_blank" rel="noreferrer">OpenAI live replay</a><a href="https://www.macrumors.com/2026/07/08/openai-gpt-live-voice/" target="_blank" rel="noreferrer">MacRumors: GPT-Live voice coverage</a><a href="https://www.techradar.com/ai-platforms-assistants/chatgpt/breaking-chatgpts-new-gpt-live-voice-model-is-here-and-it-can-speak-and-listen-at-the-same-time" target="_blank" rel="noreferrer">TechRadar: GPT-Live rollout</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide section-slide" id="slide-08" data-slide data-section="reviews">
+
+    <div class="slide-chrome">
+      <span>08</span>
+      <span>Reviews</span>
+    </div>
+      <p class="eyebrow">Reviews</p>
+      <h2>Review Desk</h2>
+      <div class="section-topic-list">
+
+              <div>
+                <span>confirmed product · confirmed product · official product · review/community friction</span>
+                <strong>HTC VIVE Eagle puts camera, translation, and local data into lifestyle eyewear</strong>
+              </div>
+              <div>
+                <span>confirmed product · confirmed product · review/community friction</span>
+                <strong>Even G2 trades cameras and speakers for productivity and social acceptability</strong>
+              </div>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-09" data-slide data-section="reviews" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>09</span>
+      <span>Review Desk</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">Reviews</span>
+            <span>confirmed product · confirmed product · official product · review/community friction</span>
+            <span>2025-08-14 official launch · 2026-07-01 HardwareZone review</span>
+          </div>
+          <h2 class="dossier-title">HTC VIVE Eagle puts camera, translation, and local data into lifestyle eyewear</h2>
+          <p class="dossier-lead">Product: HTC VIVE Eagle. HTC VIVE Eagle: VIVE Eagle is HTC’s camera-based AI glasses system, paired with the VIVE Connect mobile app and a VIVE AI cloud service. It puts voice assistance, hands-free photos, music, reminders, notes, restaurant recommendations, and photo translation into an everyday frame. The form factor is closer to audio glasses with visual input than to an immersive display product, aimed at travel and fast capture. This item is handled as confirmed product; missing details remain source not stated.</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://www.vive.com/us/newsroom/2025-08-14/" target="_blank" rel="noreferrer" aria-label="HTC VIVE official product-page screenshot; 12MP camera, VIVE AI, 13-language translation, battery, and privacy follow the source.">
+        <img src="../assets/htc-vive-eagle-source-2026-07.png" alt="Source-backed visual: HTC VIVE Eagle" width="1600" height="1000" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>HTC VIVE official product-page screenshot; 12MP camera, VIVE AI, 13-language translation, battery, and privacy follow the source.</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>What it is</span>
+                  <p>VIVE Eagle is HTC’s camera-based AI glasses system, paired with the VIVE Connect mobile app and a VIVE AI cloud service. It puts voice assistance, hands-free photos, music, reminders, notes, restaurant recommendations, and photo translation into an everyday frame. The form factor is closer to audio glasses with visual input than to an immersive display product, aimed at travel and fast capture.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>How it works</span>
+                  <p>The wearer uses a phrase such as ‘Hey VIVE’ or a shortcut to take a photo, record, create a reminder, write a note, ask for a recommendation, play music, or translate. The camera capture is sent to VIVE AI and translation comes back through open-ear audio; the phone app manages content and settings. HTC supports third-party model platforms including OpenAI GPT and Google Gemini, so model availability, network access, and response quality are part of the real interaction flow.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Specs / stack</span>
+                  <p>HTC lists a 12MP ultra-wide camera, a frame under 49 grams, a 235mAh battery, up to 36 hours of standby, about 4.5 hours of continuous music playback, roughly 50% charge after ten minutes, open-ear audio, ZEISS sun lenses, a recording LED, AES-256 encryption, and translation across 13 languages. The system consists of the glasses, VIVE Connect, and a cloud AI service platform. Chip, RAM, recording resolution, connectivity method, and the edge/cloud split are source not stated.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Use cases</span>
+                  <p>Documented jobs include photographing a street scene and translating a menu while traveling, recording reminders by voice, listening to music and taking calls outdoors, finding a restaurant, translating what the camera sees into speech, and creating first-person records. The product targets users who want free hands, environmental awareness, and fewer phone pulls. Open-ear audio preserves ambient sound while the camera makes translation and visual understanding more concrete than an audio-only device.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Pain points</span>
+                  <p>VIVE Eagle targets the action of seeing something and then reaching for a phone by putting camera, voice, and translation behind one entry point. Local storage and anonymization claims address concern about photos and voice being used for training. The review evidence shows that pairing, app setup, network conditions, and answer quality still shape the experience. The flow is shorter, while third-party models, cloud services, and data boundaries become part of the glasses product.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>User voice</span>
+                  <p>Source not stated.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>New tech</span>
+                  <p>The combination is a 12MP ultra-wide camera, open-ear audio, multi-model VIVE AI access, 13-language photo translation, local glasses storage, and AES-256. HTC also makes recording stop when the LED is obstructed or the glasses are removed. The design value depends on feedback: users need to know whether a photo was captured, whether translation started, which model supplied the answer, and what happens after a network failure.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Availability</span>
+                  <p>HTC announced an initial Taiwan launch at NT$15,600 in Berry, Coffee, Grey, and Black. The US product page is public, while actual retail regions and delivery should be checked locally. Launch material mentions two years of VIVE AI Plus, but subscription coverage and regional eligibility are source not stated. HardwareZone’s July 2026 review supplies hands-on friction and does not replace HTC’s specification pages.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Limits / unknowns</span>
+                  <p>Claims about local storage, no training use, and anonymization still need technical audit and independent testing; third-party model requests change the data path. Public sources do not state capture upload latency, translation accuracy, measured audio leakage, continuous AI runtime, prescription availability by region, or a phone-disconnected fallback mode. Review evidence remains cautious about accuracy, connectivity, and everyday value.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Product read</span>
+                  <p>VIVE Eagle is a complete, purchasable camera-AI glasses route: voice triggers, the camera sees, open-ear audio returns the answer, and phone plus cloud services fill the gaps. Its strength is concrete use cases; its risk is dependence on connectivity, third-party models, and clear data explanations. The key product interaction remains: what is being captured, who is processing it, and when does it stop?</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://www.vive.com/us/newsroom/2025-08-14/" target="_blank" rel="noreferrer">HTC VIVE Eagle official launch</a><a href="https://www.vive.com/us/product/vive-eagle/overview/" target="_blank" rel="noreferrer">HTC VIVE Eagle product page</a><a href="https://www.hardwarezone.com.sg/mobile/wearables/htc-vive-eagle-ai-smart-glasses-review" target="_blank" rel="noreferrer">HardwareZone hands-on review</a><a href="https://dl.htc.com/report_materials/htc_security_and_privacy_whitepaper.pdf" target="_blank" rel="noreferrer">HTC security and privacy whitepaper</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-10" data-slide data-section="reviews" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>10</span>
+      <span>Review Desk</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">Reviews</span>
+            <span>confirmed product · confirmed product · review/community friction</span>
+            <span>2026-07-11 review · 2026-07 official product page · 2026-07-14 follow-up</span>
+          </div>
+          <h2 class="dossier-title">Even G2 trades cameras and speakers for productivity and social acceptability</h2>
+          <p class="dossier-lead">Product: Even Realities G2. Even Realities G2: Even G2 is a camera-free smart-glasses product with a green monochrome heads-up display. Even emphasizes camera-free, lightweight everyday wear; TechCrunch’s July 11 hands-on notes that it has neither cameras nor speakers and remains heavily dependent on a phone connection. It chooses a different balance among social acceptability, display productivity, and intelligence rather than simply omitting a sensor. This item is handled as confirmed product; missing details remain source not stated.</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://techcrunch.com/2026/07/11/smart-glasses-without-a-camera-even-realities-bets-productivity-beats-recording-everyone/" target="_blank" rel="noreferrer" aria-label="TechCrunch July 11 hands-on; Even's official G2 page supplies display, weight, IP65, app, and Conversate details.">
+        <img src="../assets/even-g2-source-2026-07.jpg" alt="Source-backed visual: Even Realities G2" width="1600" height="1600" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>TechCrunch July 11 hands-on; Even's official G2 page supplies display, weight, IP65, app, and Conversate details.</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>What it is</span>
+                  <p>Even G2 is a camera-free smart-glasses product with a green monochrome heads-up display. Even emphasizes camera-free, lightweight everyday wear; TechCrunch’s July 11 hands-on notes that it has neither cameras nor speakers and remains heavily dependent on a phone connection. It chooses a different balance among social acceptability, display productivity, and intelligence rather than simply omitting a sensor.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>How it works</span>
+                  <p>The user configures the glasses in the Even app, then invokes Even AI, notifications, calendar, QuickList, navigation, translation, Teleprompt, and Conversate through a wake word, temple controls, or Even R1. Even breaks Conversate into Prep Notes, AI Cues, and AI Summary: prepare material before a meeting, receive short context prompts during it, and review a recap afterward. The review observed that long answers stream across the display without a way to skip and that outdoor noise can cause activation and recognition failures.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Specs / stack</span>
+                  <p>Even lists a 36-gram magnesium-and-titanium frame, 640×350 resolution, 27.5-degree field of view, 60 Hz, 1,200 nits, Micro LED, four microphones, BLE 5.4, IP65, Android and iOS apps, up to two days of battery, and a case with seven full charges. It also lists 35-language translation, 98% passthrough, and prescription support from -12 to +12. TechCrunch reports a $599 price, no cameras, and no speakers. Chip, model, edge/cloud split, and measured continuous runtime are source not stated.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Use cases</span>
+                  <p>Supported jobs include loading figures and references into Prep Notes, receiving a definition when a term appears, generating a post-conversation summary, translating speech, reading a teleprompter, checking notifications and calendar, navigating without a phone, and adding tasks. The product fits users who need eye contact, presenters, travelers, and people who do not want to record nearby. The review also says that without meetings, translation, or teleprompting, many users may lack a daily reason to wear it.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Pain points</span>
+                  <p>G2 reduces bystander anxiety associated with camera glasses and moves notifications, captions, and prompts into the line of sight. No speaker avoids open-audio leakage but increases dependence on phone, touch, and display. As the display can carry more content, the product must control long text, notification noise, false activation, and recovery after disconnect; otherwise intelligence becomes an attention burden.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>User voice</span>
+                  <p>Source not stated.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>New tech</span>
+                  <p>The increment is a camera-free wearable stack: Micro LED HUD, four microphones, Conversate pre-meeting context and post-meeting summary, 35-language translation, Even Hub, and an optional ring. Even frames no camera, no recording, and lower social friction as design principles and says cloud storage requires explicit consent. R1 combines health tracking with glasses control, creating cross-device input while adding another hardware purchase decision.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Availability</span>
+                  <p>Even’s G2 page, support surface, and Even Hub are public. TechCrunch reports a $599 price and current availability; the R1 is listed at $249 in the review. Prescription and app information is available, but complete countries, delivery, support, third-party scope, subscription, and enterprise offering are source not stated.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Limits / unknowns</span>
+                  <p>The review exposes unstable phone connectivity, recognition failures in outdoor noise, answers too long to interrupt, manual brightness adjustment in bright rooms, and an R1 price that does not always match its utility. The two-day battery claim depends on display, Conversate, navigation, and notification load; test conditions are not stated. Independent evidence that third-party apps create daily motivation is also missing.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Product read</span>
+                  <p>Even G2 makes a coherent bet: remove cameras and speakers to create a text interface that is easier to accept socially. Its hardware and privacy boundary are restrained, but phone connectivity, reading rhythm, and first-party software depth limit usage frequency. It is a thoughtful productivity-glasses product, not yet a universal AI entry point people will wear every day.</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://www.evenrealities.com/smart-glasses" target="_blank" rel="noreferrer">Even G2 official product page</a><a href="https://techcrunch.com/2026/07/11/smart-glasses-without-a-camera-even-realities-bets-productivity-beats-recording-everyone/" target="_blank" rel="noreferrer">TechCrunch Even G2 hands-on</a><a href="https://hub.evenrealities.com/" target="_blank" rel="noreferrer">Even Hub developer surface</a><a href="https://support.evenrealities.com/" target="_blank" rel="noreferrer">Even support surface</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide section-slide" id="slide-11" data-slide data-section="community">
+
+    <div class="slide-chrome">
+      <span>11</span>
+      <span>Community</span>
+    </div>
+      <p class="eyebrow">Community</p>
+      <h2>Community Friction</h2>
+      <div class="section-topic-list">
+
+              <div>
+                <span>review/community friction · community signal · not independent benchmark</span>
+                <strong>Community scan: pairing, connectivity, and assistant lock-in remain front-stage friction</strong>
+              </div>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-12" data-slide data-section="community" data-dossier-kind="scan">
+
+    <div class="slide-chrome">
+      <span>12</span>
+      <span>Community Friction</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">Community</span>
+            <span>review/community friction · community signal · not independent benchmark</span>
+            <span>2026-06-20 to 2026-07-10 community signals · 2026-07-13 follow-up · 2026-07-14 follow-up</span>
+          </div>
+          <h2 class="dossier-title">Community scan: pairing, connectivity, and assistant lock-in remain front-stage friction</h2>
+          <p class="dossier-lead">Product: AI-glasses community friction scan. AI-glasses community friction scan: This is a source-lane scan of public Reddit discussion, hands-on coverage, and support friction. It is not a new product, and individual posts are not treated as a population-level conclusion. The concrete issues visible today are pairing, store connectivity, returns and support, camera privacy cues, regional feature differences, and whether a user is locked to one assistant.. This is a review/community friction used to record a concrete signal and its evidence gap, not a confirmed product fact.</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://about.fb.com/news/2026/07/metas-ai-glasses-your-questions-answered/amp/" target="_blank" rel="noreferrer" aria-label="Source-backed screenshot from Meta's official AI glasses Q&amp;A covering 2026 product behavior and privacy.">
+        <img src="../assets/meta-ai-glasses-privacy-source-2026-07.png" alt="Source-backed screenshot: Meta AI Glasses 2026" width="1200" height="675" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>Source-backed screenshot from Meta's official AI glasses Q&amp;A covering 2026 product behavior and privacy.</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>What it is</span>
+                  <p>This is a source-lane scan of public Reddit discussion, hands-on coverage, and support friction. It is not a new product, and individual posts are not treated as a population-level conclusion. The concrete issues visible today are pairing, store connectivity, returns and support, camera privacy cues, regional feature differences, and whether a user is locked to one assistant.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>How it works</span>
+                  <p>After buying glasses, a user must connect a phone, sign into an account, complete Bluetooth or Wi-Fi and app setup, and then invoke voice, camera, or AI features in a real environment. If a store cannot provide usable connectivity, initialization fails, or the expected third-party assistant is unavailable, the product loses value before the first useful interaction. The community posts describe breakpoints, not prevalence.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Specs / stack</span>
+                  <p>The scan does not provide reliable new hardware specifications, API versions, chips, or battery data. The confirmed stack remains camera eyewear, a companion phone app, wireless connectivity, account services, and cloud AI. Failure rates, regional distribution, support SLAs, and retention rules are source not stated.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Use cases</span>
+                  <p>The scan serves one concrete job: checking whether AI glasses can move from purchase and pairing to the first useful question and then into daily use. The next pass should track offline behavior, pairing recovery, household sharing, enterprise accounts, third-party assistant choice, and what happens when the recording LED is obstructed.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Pain points</span>
+                  <p>The friction says product teams cannot ship only a feature roadmap. They also need initialization without store connectivity, a clear return path, an explanation when assistant choice is limited, and a bystander-readable camera state. Without those recovery paths, more hardware capability can make a first failure harder to recover from.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>User voice</span>
+                  <p>Source not stated.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>New tech</span>
+                  <p>This scan confirms no new technology. Its product value is treating pairing, connectivity, and control as system-level interactions for agent wearables rather than support afterthoughts.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Availability</span>
+                  <p>The community pages and review coverage are accessible. They are public friction signals, not guarantees of product availability or performance.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Limits / unknowns</span>
+                  <p>There is no sample size, user profile, reproducible step sequence, version number, or independent statistic. Individual posts must not be upgraded into a universal conclusion.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Product read</span>
+                  <p>No new confirmed product is promoted from the community lane today. The scan stays because first setup, connectivity, and trust explanation remain where AI glasses can lose users fastest. The next pass needs reports with versions, steps, and reproducible outcomes.</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://www.reddit.com/r/MetaGlasses/comments/1ua72yc/my_experience_with_rayban_meta/" target="_blank" rel="noreferrer">Reddit: Meta glasses customer support friction</a><a href="https://www.reddit.com/r/HearingAids/comments/1tykkjo/beware_meta_ai_glasses/" target="_blank" rel="noreferrer">Reddit: Meta glasses privacy and setup friction</a><a href="https://www.androidcentral.com/wearables/meta-glasses-hands-on-review" target="_blank" rel="noreferrer">Android Central Meta glasses hands-on</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide section-slide" id="slide-13" data-slide data-section="wild">
+
+    <div class="slide-chrome">
+      <span>13</span>
+      <span>Wild</span>
+    </div>
+      <p class="eyebrow">Wild</p>
+      <h2>Wild Desk</h2>
+      <div class="section-topic-list">
+
+              <div>
+                <span>startup signal · startup signal · developer surface · source-backed product page</span>
+                <strong>Brilliant Labs Halo puts open hardware, an edge NPU, and a memory agent behind a developer entry point</strong>
+              </div>
+              <div>
+                <span>startup signal · startup signal · app-store surface · community claim</span>
+                <strong>Acti puts agents inside the smartphone keyboard instead of another AI app</strong>
+              </div>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-14" data-slide data-section="wild" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>14</span>
+      <span>Wild Desk</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">Wild</span>
+            <span>startup signal · startup signal · developer surface · source-backed product page</span>
+            <span>2026-03 Alif partnership · 2026-07 official product/developer pages</span>
+          </div>
+          <h2 class="dossier-title">Brilliant Labs Halo puts open hardware, an edge NPU, and a memory agent behind a developer entry point</h2>
+          <p class="dossier-lead">Product: Brilliant Labs Halo. Brilliant Labs Halo: Halo is Brilliant Labs’ open AI glasses for creators and developers. The official page lists a $349 price and combines Noa, a private conversational agent with long-term memory, Vibe Mode, a color display, open hardware, and open software. The bet is that glasses become a programmable embodied interface rather than a closed assistant that users merely consume. This item is handled as startup signal; missing details remain source not stated.</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://brilliant.xyz/products/halo" target="_blank" rel="noreferrer" aria-label="Brilliant Labs Halo official product-page screenshot; open source, Noa, Vibe Mode, price, and specifications follow the source.">
+        <img src="../assets/brilliant-labs-halo-source-2026-07.png" alt="Source-backed visual: Brilliant Labs Halo" width="1600" height="1000" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>Brilliant Labs Halo official product-page screenshot; open source, Noa, Vibe Mode, price, and specifications follow the source.</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>What it is</span>
+                  <p>Halo is Brilliant Labs’ open AI glasses for creators and developers. The official page lists a $349 price and combines Noa, a private conversational agent with long-term memory, Vibe Mode, a color display, open hardware, and open software. The bet is that glasses become a programmable embodied interface rather than a closed assistant that users merely consume.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>How it works</span>
+                  <p>A user can wake Noa by voice or touch and talk about what they see, hear, or imagine; Vibe Mode lets a person describe an experience in natural language. Developers use the Brilliant SDK, Flutter SDK, and documentation to build applications, while open hardware and software repositories provide deeper modification paths. The product page describes memory enhancement, visual and audio dialogue, and translation, while exact gestures, display feedback, third-party agent permissions, and distribution remain to be confirmed in developer material.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Specs / stack</span>
+                  <p>Brilliant lists a little over 40 grams, a Micro Color OLED, two bone-conduction speakers, an Alif Balletto B1 low-power AI processor with a Cortex-M55 CPU and Ethos-U55 NPU, a low-power optical sensor, dual microphones, a six-axis IMU, tap detection, Bluetooth 5.3, ZephyrOS with a Lua interface, a cross-platform mobile app, a cloud AI agent, and a 14-hour all-day battery claim on its specifications page. The Alif partnership supports the edge-AI direction; RAM, camera details, model parameters, and edge/cloud split are source not stated.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Use cases</span>
+                  <p>Halo is positioned for connecting objects seen, speech heard, and personal memory, as well as translation, hands-free questions, small HUD applications, creative prototypes, and experimental agents. A developer can combine the optical sensor, microphones, IMU, display, and bone-conduction audio into a custom feedback loop. For users, the promise is remembering what they encountered; for creators, the value is a shared experimental surface for hardware, SDKs, Lua/Flutter, and community projects.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Pain points</span>
+                  <p>An open platform lowers the barrier created by closed glasses that cannot be modified, connected to a preferred model, or used for sensor research. The edge-NPU route tries to reduce dependence on the cloud for continuous visual and audio tasks. Long-term memory reduces the need to restate context. The cost is that users take on privacy, model choice, app quality, and hardware maintenance, while memory agents create stronger requirements to explain and delete what the device remembers.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>User voice</span>
+                  <p>Source not stated.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>New tech</span>
+                  <p>The combination is an Alif B1 Cortex-M55 plus NPU, low-power optical sensing, a color Micro OLED, open hardware and software, and the Noa memory agent. Vibe Mode turns natural language into a development entry point, while the SDK turns glasses from one app into a platform. The hard interaction questions are how edge inference is signaled, how cloud-agent involvement is disclosed, and how consent is obtained before long-term memory is written.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Availability</span>
+                  <p>Halo’s product page lists $349 and says shipping starts in Q1 2026. The developer page, documentation, and product page are public; prescription and sunglass options are offered through a partner, with the display optic listed as adjustable from +2 to -6 diopters. The current page does not state inventory and delivery for every country, Noa+ coverage, a complete app store, or general SDK eligibility. Community discussion still questions actual shipping and wait times, so this remains a startup signal.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Limits / unknowns</span>
+                  <p>There is an evidence gap between the published specification and a mass-produced experience. Independent testing has not established that 14 hours survives mixed display, microphone, memory, and cloud-request load. Public sources do not state the NPU models, camera capability, false-wake rate, measured data retention, or a developer marketplace. Brilliant’s terms say it does not currently operate a public developer marketplace, and community posts report shipping uncertainty.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Product read</span>
+                  <p>Halo represents a developer-first AI-glasses route that hands the energy budget, source access, sensors, and agent memory to experimenters. The $349 price lowers the cost of trying the form factor, while open design and an edge NPU make it valuable for research. Production, shipping, distribution, and memory governance decide whether it is a usable platform or an attractive kit. Keep the verdict at startup signal rather than mature consumer ecosystem.</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://brilliant.xyz/products/halo" target="_blank" rel="noreferrer">Brilliant Labs Halo product page</a><a href="https://brilliant.xyz/pages/developers" target="_blank" rel="noreferrer">Brilliant Labs developer page</a><a href="https://docs.brilliant.xyz/halo/halo/" target="_blank" rel="noreferrer">Halo developer documentation</a><a href="https://www.businesswire.com/news/home/20260311666274/en/Brilliant-Labs-and-Alif-Semiconductor-Partner-on-Development-of-New-Technologies-for-Next-Generation-AI-Powered-Smart-Glasses" target="_blank" rel="noreferrer">Brilliant Labs and Alif partnership</a><a href="https://www.reddit.com/r/SmartGlasses/comments/1spf1l6/are_brilliant_labs_halo_glasses_shipping_now/" target="_blank" rel="noreferrer">Brilliant community shipping discussion</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-15" data-slide data-section="wild" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>15</span>
+      <span>Wild Desk</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">Wild</span>
+            <span>startup signal · startup signal · app-store surface · community claim</span>
+            <span>2026-06-30 launch coverage · 2026-07-11 follow-up · 2026-07-12 follow-up · 2026-07-13 follow-up · 2026-07-14 follow-up</span>
+          </div>
+          <h2 class="dossier-title">Acti puts agents inside the smartphone keyboard instead of another AI app</h2>
+          <p class="dossier-lead">Product: Acti Agentic Keyboard. Acti Agentic Keyboard: An agentic keyboard for iOS and Android. Instead of treating the keyboard as a typing and rewriting utility, Acti positions it as a command layer. The user stays in any text field and triggers actions through the Acti Bar, Skill Keys, AI Dictation, and natural-language skills. The official site describes a unified command layer for apps and APIs, while the App Store listing emphasizes a rebuilt keyboard-native AI action layer, 'press to type,' 'hold to act,' custom Skills, AI dictation, and a redesigned keyboard experience.. This item is handled as startup signal; specs, price, regions and dates use cited source claims only, and missing details remain source not stated.</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://apps.apple.com/us/app/acti-agentic-keyboard/id6745523677" target="_blank" rel="noreferrer" aria-label="Source-backed App Store screenshot showing Acti Agentic Keyboard UI and product-page evidence.">
+        <img src="../assets/acti-keyboard-appstore-source-2026-07-07.png" alt="Source-backed screenshot: Acti Agentic Keyboard App Store UI" width="1440" height="900" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>Source-backed App Store screenshot showing Acti Agentic Keyboard UI and product-page evidence.</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>What it is</span>
+                  <p>An agentic keyboard for iOS and Android. Instead of treating the keyboard as a typing and rewriting utility, Acti positions it as a command layer. The user stays in any text field and triggers actions through the Acti Bar, Skill Keys, AI Dictation, and natural-language skills. The official site describes a unified command layer for apps and APIs, while the App Store listing emphasizes a rebuilt keyboard-native AI action layer, 'press to type,' 'hold to act,' custom Skills, AI dictation, and a redesigned keyboard experience.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>How it works</span>
+                  <p>The intended flow begins inside the current app, not inside a separate assistant. A user is in a messaging thread, email composer, social app, note, or work tool. They type an intent, hold the Acti Bar or a Skill Key, and the keyboard interprets the instruction in the current writing context. It can generate a reply, insert location or live information, create a meeting, fetch content from a connected tool such as Notion, or run a custom skill. The result is returned to the text field or prepared as sendable text. The creator's Reddit description summarizes the flow as typing what you want, long-pressing the spacebar, and letting the keyboard act.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Specs / stack</span>
+                  <p>The cited sources support the iOS App Store surface, an iOS and Android direction, Acti Bar, Skill Keys, AI Dictation, custom skills, natural-language skill creation, operation across text fields, and the idea that apps and APIs can be commanded. The model providers, complete Android distribution, API connector catalog, keyboard permission screens, on-device versus cloud boundary, data retention, pricing, enterprise administration, and country availability are source not stated in the sources used here.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Use cases</span>
+                  <p>The concrete jobs are mobile-first: inserting location or live information in a chat, drafting or rewriting email, turning rough intent into a social post, creating a meeting from a message, fetching data from a workspace tool, and turning repeated mobile actions into reusable Skill Keys. The product is not merely a better autocomplete layer. Its claim is that 'I want to do this now' can be expressed where the user is already typing, then executed without copying context into a separate AI app.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Pain points</span>
+                  <p>Acti attacks the switching cost of mobile AI. Many mobile assistants still require selecting text, copying it, opening a chatbot, explaining context, waiting for output, copying the answer, and returning to the original app. The keyboard sits beneath nearly every mobile writing workflow, so it is a natural but sensitive place to put an agent. The UX benefit is fewer app switches and less context reconstruction. The cost is trust: users need a clear understanding of what the keyboard can read, transmit, store, and execute.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>User voice</span>
+                  <p>The Reddit creator post frames the pain as being tired of constantly switching between apps and contrasts Acti with AI keyboards that only rewrite text. That is useful community and founder signal, not an independent quality review. Ordinary-user retention, error rates, privacy complaints, keyboard latency, and App Store review patterns still need to be watched.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>New tech</span>
+                  <p>The new product idea is a keyboard-native agent layer. Long-press gestures, keys, text context, and natural-language skills become a lightweight automation surface. That is different from a chatbot and different from OS-level shortcuts because it appears at the exact moment of expression. In HCI terms, the keyboard becomes a programmable command layer rather than a passive input device.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Availability</span>
+                  <p>The App Store page is live, and TechCrunch reports an iOS and Android launch direction. The exact Android store path, country restrictions, paid tiers, enterprise controls, background permissions, and API partner list are source not stated where the current sources do not specify them.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Limits / unknowns</span>
+                  <p>The main limit is trust. Third-party keyboards often need broad access, and users may worry about sensitive messages, passwords, verification codes, workplace content, or private drafts. The second limit is recovery. If a skill calls the wrong API, fails inside the current app, inserts the wrong text, or is triggered accidentally, the interface needs confirmation, undo, permission explanation, and a short path back to the user's original draft. The current sources do not yet provide enough independent hands-on evidence.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Product read</span>
+                  <p>Acti is a strong wild signal because it chooses one of the most durable mobile entry points: the keyboard. The product will be judged on whether cross-app execution is reliable and whether permission explanations are short, credible, and reversible. If both hold, agentic mobile workflows do not have to wait for a full OS assistant redesign; they can start at the input layer users already touch hundreds of times per day.</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://openacti.com/" target="_blank" rel="noreferrer">Acti official site</a><a href="https://apps.apple.com/us/app/acti-agentic-keyboard/id6745523677" target="_blank" rel="noreferrer">Apple App Store: Acti Agentic Keyboard</a><a href="https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard/" target="_blank" rel="noreferrer">TechCrunch: Acti agentic keyboard</a><a href="https://www.reddit.com/r/SideProject/comments/1ukorbc/i_got_tired_of_constantly_switching_between_apps/" target="_blank" rel="noreferrer">Reddit r/SideProject: Acti creator post</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide section-slide" id="slide-16" data-slide data-section="research">
+
+    <div class="slide-chrome">
+      <span>16</span>
+      <span>Research</span>
+    </div>
+      <p class="eyebrow">Research</p>
+      <h2>Research Watch</h2>
+      <div class="section-topic-list">
+
+              <div>
+                <span>research signal · research signal · patent signal downgraded</span>
+                <strong>VisionClaw and smart-glasses patents: continuous-perception agents remain research and patent signals</strong>
+              </div>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-17" data-slide data-section="research" data-dossier-kind="scan">
+
+    <div class="slide-chrome">
+      <span>17</span>
+      <span>Research Watch</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">Research</span>
+            <span>research signal · research signal · patent signal downgraded</span>
+            <span>2026 research/patent watch · 2026-07-11 follow-up · 2026-07-12 follow-up · 2026-07-13 follow-up · 2026-07-14 follow-up</span>
+          </div>
+          <h2 class="dossier-title">VisionClaw and smart-glasses patents: continuous-perception agents remain research and patent signals</h2>
+          <p class="dossier-lead">Product: Wearable agent research and patent watch. Wearable agent research and patent watch: A research and patent watch item, not a confirmed shipping product. The VisionClaw paper describes an always-on wearable AI agent that combines egocentric perception from Meta Ray-Ban smart glasses with Gemini Live and OpenClaw AI agents for speech-driven in-situ action delegation. Related research on conversational breakdowns in smart glasses and patent documents for AI-supported or designed smart glasses provide directional signals. This item is explicitly downgraded: papers and patents are not product facts.. This item is handled as research signal; specs, price, regions and dates use cited source claims only, and missing details remain source not stated.</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://arxiv.org/html/2604.03486v2" target="_blank" rel="noreferrer" aria-label="Source-backed screenshot from the arXiv VisionClaw paper page, explicitly treated as research signal.">
+        <img src="../assets/visionclaw-research-source-2026-07-07.png" alt="Source-backed screenshot: VisionClaw research paper" width="1440" height="900" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>Source-backed screenshot from the arXiv VisionClaw paper page, explicitly treated as research signal.</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>What it is</span>
+                  <p>A research and patent watch item, not a confirmed shipping product. The VisionClaw paper describes an always-on wearable AI agent that combines egocentric perception from Meta Ray-Ban smart glasses with Gemini Live and OpenClaw AI agents for speech-driven in-situ action delegation. Related research on conversational breakdowns in smart glasses and patent documents for AI-supported or designed smart glasses provide directional signals. This item is explicitly downgraded: papers and patents are not product facts.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>How it works</span>
+                  <p>The research prototype flow is continuous first-person perception through glasses, followed by spoken task delegation. The system connects what the wearer sees with agent execution: recognizing context, recording information, invoking tools, and taking follow-up action. Research on voice-only or non-display smart glasses warns that everyday use involves misunderstanding, timing problems, social awkwardness, and insufficient feedback. Patent documents mostly describe possible hardware, medical, or design directions rather than purchasable workflows.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Specs / stack</span>
+                  <p>VisionClaw sources support Meta Ray-Ban smart glasses, Gemini Live, OpenClaw, always-on perception, a controlled laboratory study with N=12, and an autobiographical deployment study with N=4. Patent sources support AI-supported smart glasses in a medical diagnosis or treatment context and a CN design patent for AI smart glasses. Commercial specs, production hardware, price, launch date, privacy design, regulatory clearance, medical validity, and market user scale are source not stated.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Use cases</span>
+                  <p>Potential jobs include in-situ assistance during repair, shopping, cooking, meetings, life logging, accessibility support, medical context prompts, industrial work, and real-time translation. These are research- and patent-inspired watchlist scenarios, not promises about products available today. Product teams should treat them as future interaction requirements: seeing, understanding, delegating, confirming, executing, and undoing.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Pain points</span>
+                  <p>Continuous-perception agents address a real limitation of current assistants: they often lack environmental context. A phone or desktop chatbot requires the user to describe the world. Glasses can observe part of the world directly, reducing explanation cost. The same capability creates privacy and social cost. Bystanders may not consent. Users need to know when recording happens, when analysis happens, what environmental context was used, and how to correct a wrong interpretation.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>User voice</span>
+                  <p>The N=12 and N=4 results are research samples, not market-user evidence. Patents do not provide user voice. The current public evidence does not prove that ordinary consumers will accept always-on perception glasses for long-term daily use; source not stated.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>New tech</span>
+                  <p>The technical signal is the connection between egocentric perception and general-purpose agent execution. The glasses are not just recording video and not just displaying captions; they turn first-person environment into task context for an agent. The HCI requirement is that perception state itself becomes visible. Wearers and bystanders need indicators for camera, microphone, model analysis, decision state, and auditability.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Availability</span>
+                  <p>VisionClaw is a research prototype and paper. The patents are public legal documents. Neither equals a commercial launch. Whether any company productizes the techniques, where, when, and under what regulatory and privacy reviews is source not stated.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Limits / unknowns</span>
+                  <p>Limits include small research samples, laboratory bias, battery, heat, network dependence, latency, erroneous execution, bystander privacy, medical regulation, and uncertain patent scope. A patent may never be implemented. Research code may be far from a consumer-grade experience.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Product read</span>
+                  <p>This is a necessary downgraded watch item. Continuous-perception eyewear agents may become a key AI hardware form, but today's evidence should not be written as product launch. The practical product lesson is to design consent, recording indicators, context preview, permission boundaries, undo, and audit trails early. Without those, always-on agents will fail on trust before they win on capability.</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://arxiv.org/html/2604.03486v2" target="_blank" rel="noreferrer">arXiv: VisionClaw always-on AI agents through smart glasses</a><a href="https://arxiv.org/html/2602.22340v1" target="_blank" rel="noreferrer">arXiv: conversational successes and breakdowns in smart glasses</a><a href="https://patents.google.com/patent/WO2024129004A1/en" target="_blank" rel="noreferrer">Google Patents: AI-supported smart glasses</a><a href="https://patents.google.com/patent/CN309755008S/en" target="_blank" rel="noreferrer">Google Patents: AI Smart Glasses GS1 design</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide section-slide" id="slide-18" data-slide data-section="patent">
+
+    <div class="slide-chrome">
+      <span>18</span>
+      <span>Patent</span>
+    </div>
+      <p class="eyebrow">Patent</p>
+      <h2>Patent Watch</h2>
+      <div class="section-topic-list">
+
+              <div>
+                <span>patent signal · patent signal · explicitly speculative</span>
+                <strong>Patent lane: smart-glasses IP is active, but it signals direction rather than product evidence</strong>
+              </div>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-19" data-slide data-section="patent" data-dossier-kind="scan">
+
+    <div class="slide-chrome">
+      <span>19</span>
+      <span>Patent Watch</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">Patent</span>
+            <span>patent signal · patent signal · explicitly speculative</span>
+            <span>2026 patent/source scan · 2026-07-11 follow-up · 2026-07-12 follow-up · 2026-07-13 follow-up · 2026-07-14 follow-up</span>
+          </div>
+          <h2 class="dossier-title">Patent lane: smart-glasses IP is active, but it signals direction rather than product evidence</h2>
+          <p class="dossier-lead">Product: Smart-glasses patent lane scan. Smart-glasses patent lane scan: A patent-signal scan. WIPO's Rokid material shows how smart-glasses companies use patents, trademarks, shipments, and deployments to build global credibility. Google Patents documents around AI-supported smart glasses and a GS1 design patent show possible medical and form-factor directions. Android Central's coverage of the Solos lawsuit against Meta and EssilorLuxottica shows that IP friction may affect the smart-glasses market. None of this is treated as a shipped feature.. This item is handled as patent signal; specs, price, regions and dates use cited source claims only, and missing details remain source not stated.</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://patents.google.com/patent/CN309755008S/en" target="_blank" rel="noreferrer" aria-label="Source-backed screenshot from Google Patents, explicitly treated as patent signal rather than product evidence.">
+        <img src="../assets/smart-glasses-patent-source-2026-07-07.png" alt="Source-backed screenshot: AI Smart Glasses GS1 patent page" width="1440" height="900" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>Source-backed screenshot from Google Patents, explicitly treated as patent signal rather than product evidence.</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>What it is</span>
+                  <p>A patent-signal scan. WIPO's Rokid material shows how smart-glasses companies use patents, trademarks, shipments, and deployments to build global credibility. Google Patents documents around AI-supported smart glasses and a GS1 design patent show possible medical and form-factor directions. Android Central's coverage of the Solos lawsuit against Meta and EssilorLuxottica shows that IP friction may affect the smart-glasses market. None of this is treated as a shipped feature.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>How it works</span>
+                  <p>A patent has no user workflow. It can only indicate components and directions future products might emphasize: medical assistance, industrial use, form factor, sensing, audio, display, waveguides, environmental understanding, or multimodal input. Lawsuit coverage suggests possible indirect user impact such as sales risk, brand partnership changes, licensing costs, or feature constraints. These are external signals and cannot replace official product pages or hands-on testing.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Specs / stack</span>
+                  <p>The sources support WIPO's statements about Rokid's weight, patent count, trademarks, countries, and deployment examples; Google Patents supports document titles, intended use, abstracts, and publication records; Android Central supports the reporting context for Solos suing Meta and EssilorLuxottica. Claim validity, court outcomes, actual infringement, product injunction risk, licensing fees, whether a patent is implemented, and final device specs are source not stated.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Use cases</span>
+                  <p>The role of the patent lane in a product magazine is directional and risk-oriented. It helps identify which interaction capabilities are being fenced, which hardware forms might become competitive barriers, and which lawsuits could influence channel, price, or availability. For product teams, it is a reminder that launch coverage is not enough. IP, standards, supply chain, and legal risk can shape the roadmap before users see a device.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Pain points</span>
+                  <p>Patent scanning addresses a blind spot in product research. Teams often track announcements and reviews but miss the way a hardware category is shaped by patents and litigation before launch. Smart glasses are especially exposed because optics, audio, sensing, exterior design, and privacy indicators may all be constrained. Reading IP signals early prevents teams from treating a legally or technically constrained component as a low-risk design foundation.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>User voice</span>
+                  <p>Patent documents do not contain user voice. The user impact of lawsuits is also speculative at this stage. The cited sources do not show consumers changing purchase behavior directly because of these patent documents; source not stated.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>New tech</span>
+                  <p>The signal is not one confirmed feature. It is the clustering of protected directions: lighter glasses, medical and industrial assistance, AI-supported diagnosis, exterior design, audio/sensing architecture, and display paths. Smart-glasses competition is expanding from device specs into IP portfolios and ecosystem licensing.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Availability</span>
+                  <p>Patent publication does not equal product launch. A filed lawsuit does not equal a court decision. WIPO profile material does not mean the same product is purchasable in every region. Availability must be verified through specific brand stores, official developer docs, or regulatory notices.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Limits / unknowns</span>
+                  <p>Patent language is broad, translations can be rough, claims are complex, and implementation status is often unknown. Many patents are defensive and never appear in products. Lawsuit reporting also changes as courts move. This issue treats the lane as watchlist only, not confirmed product evidence.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Product read</span>
+                  <p>The patent-lane read is deliberately conservative: smart-glasses IP is dense enough that product managers should include patents and litigation in competitive scanning, but user value still has to be proven through purchasable products, real interactions, and source-backed claims. No patent in today's issue is presented as a launch fact.</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://www.wipo.int/en/web/awards/global/2026" target="_blank" rel="noreferrer">WIPO Global Awards 2026: Rokid</a><a href="https://patents.google.com/patent/WO2024129004A1/en" target="_blank" rel="noreferrer">Google Patents: AI-supported smart glasses</a><a href="https://patents.google.com/patent/CN309755008S/en" target="_blank" rel="noreferrer">Google Patents: AI Smart Glasses GS1 design</a><a href="https://www.androidcentral.com/wearables/solos-is-taking-aim-at-meta-essilorluxottica-for-alleged-smart-glasses-patent-infringement-in-pivotal-case" target="_blank" rel="noreferrer">Android Central: Solos smart-glasses patent lawsuit</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide section-slide" id="slide-20" data-slide data-section="china">
+
+    <div class="slide-chrome">
+      <span>20</span>
+      <span>China</span>
+    </div>
+      <p class="eyebrow">China</p>
+      <h2>China / Global Compare</h2>
+      <div class="section-topic-list">
+
+              <div>
+                <span>developer surface · developer surface · China/global product signal</span>
+                <strong>Z.ai ZCode packages GLM-5.2 as a China/global developer-tool signal</strong>
+              </div>
+              <div>
+                <span>weak/unverified · weak/unverified · source-lane scan</span>
+                <strong>China AI glasses scan: the narrative is moving from phone accessory to AIOS-native eyewear</strong>
+              </div>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-21" data-slide data-section="china" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>21</span>
+      <span>China / Global Compare</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">China</span>
+            <span>developer surface · developer surface · China/global product signal</span>
+            <span>2026-07-02 to 2026-07-07 scan · 2026-07-11 follow-up · 2026-07-12 follow-up · 2026-07-13 follow-up · 2026-07-14 follow-up</span>
+          </div>
+          <h2 class="dossier-title">Z.ai ZCode packages GLM-5.2 as a China/global developer-tool signal</h2>
+          <p class="dossier-lead">Product: Z.ai ZCode. Z.ai ZCode: An Agentic Development Environment for GLM-5.2. ZCode documentation says it brings GLM-5.2's long-context, long-horizon, and agentic coding capabilities into a stable desktop experience for planning, coding, reviewing, and iterating across complex development tasks. Media coverage positions it against Cursor, GitHub Copilot, and Claude Code, with lower plan pricing reported. Prices, versions, and promotions should be checked against current Z.ai or ZCode official pages.. This item is handled as developer surface; specs, price, regions and dates use cited source claims only, and missing details remain source not stated.</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://zcode.z.ai/en/docs" target="_blank" rel="noreferrer" aria-label="Source-backed screenshot from ZCode's official docs, showing the developer product surface.">
+        <img src="../assets/zcode-docs-source-2026-07-07.png" alt="Source-backed screenshot: ZCode developer docs UI" width="1440" height="900" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>Source-backed screenshot from ZCode's official docs, showing the developer product surface.</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>What it is</span>
+                  <p>An Agentic Development Environment for GLM-5.2. ZCode documentation says it brings GLM-5.2's long-context, long-horizon, and agentic coding capabilities into a stable desktop experience for planning, coding, reviewing, and iterating across complex development tasks. Media coverage positions it against Cursor, GitHub Copilot, and Claude Code, with lower plan pricing reported. Prices, versions, and promotions should be checked against current Z.ai or ZCode official pages.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>How it works</span>
+                  <p>A developer installs ZCode, connects a Z.ai or BigModel account and an active GLM Coding Plan, then starts a coding goal inside a project. The tool plans, edits code, reviews changes, and iterates across longer development tasks. Documentation and coverage also mention remote bot control through channels such as WeChat, Feishu, and Telegram, suggesting that a developer can trigger or supervise work from familiar communication tools instead of staying only inside an IDE.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Specs / stack</span>
+                  <p>The sources support ZCode, GLM-5.2, Agentic Development Environment positioning, macOS/Windows/Linux beta context, GLM Coding Plan, long-context and long-horizon work, planning/coding/reviewing/iterating, and account-plan quota metering. The IDE core, plugin protocol, repository permission model, full multi-agent architecture, enterprise SSO, code-privacy guarantees, regional restrictions, price stability, benchmark details, and safety evaluations are source not stated or require live official verification.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Use cases</span>
+                  <p>The practical jobs are understanding large codebases with GLM-5.2, producing implementation plans, editing multiple files, reviewing changes, iterating on failures, remotely controlling agents from messaging tools, and trying a Chinese-model coding workflow at a lower reported price. For Chinese developers, it may reduce friction around local accounts, model access, payment, and communication channels. For global developers, it becomes a comparison point against Cursor, Claude Code, and Copilot.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Pain points</span>
+                  <p>ZCode addresses the gap between a capable coding model and an actual development workflow. A strong model is hard to use in real engineering if users must manually connect file context, permissions, long-running tasks, review steps, and quotas. ZCode packages those pieces into a desktop tool, so users do not have to assemble scripts around GLM-5.2 themselves. It also makes pricing, remote control, and multi-agent collaboration product-level choices.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>User voice</span>
+                  <p>Media coverage notes online debate about low-cost competition and cloning accusations, but the cited sources do not establish representative user sentiment. Independent evidence on output quality, code safety, UI originality, long-term maintenance, and international experience is still thin; source not stated.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>New tech</span>
+                  <p>The product idea is an ADE rather than a small editor plugin. Model access, planning, execution, review, quota, remote bot control, and multi-agent coordination are combined into a development environment. It signals that Chinese AI companies are not only releasing models; they are competing for the developer workbench.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Availability</span>
+                  <p>ZCode documentation is available, and media reports describe a desktop application with Windows availability and macOS/Linux beta context. Actual downloads, pricing, promotions, platform support, account regions, and enterprise features should be verified through current Z.ai/ZCode documentation.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Limits / unknowns</span>
+                  <p>Open risks include large private-repository reliability, permission and secret handling, whether every change is explainable, support for local tests and rollback, whether UI similarity controversy affects trust, and whether GLM-5.2 performs consistently across English, Chinese, and mixed-language codebases.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Product read</span>
+                  <p>ZCode is the most concrete China-lane developer-product signal today. It is not abstract model news; it is a model company entering the agentic IDE/ADE doorway. The user impact could be better pricing and better local ecosystem fit, but it must be validated on real repositories, test pass rates, permission design, and long-task recovery rather than launch-page claims.</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://zcode.z.ai/en/docs" target="_blank" rel="noreferrer">ZCode docs: welcome</a><a href="https://zcode.z.ai/en/docs/configuration" target="_blank" rel="noreferrer">ZCode docs: configuration</a><a href="https://www.businessinsider.com/z-ai-zcode-ai-coding-tool-chinese-startup-lower-cost-2026-7" target="_blank" rel="noreferrer">Business Insider: Z.ai ZCode launch</a><a href="https://devops.com/z-ai-debuts-zcode-to-compete-with-github-copilot-cursor-and-anthropic/" target="_blank" rel="noreferrer">DevOps.com: Z.ai debuts ZCode</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-22" data-slide data-section="china" data-dossier-kind="scan">
+
+    <div class="slide-chrome">
+      <span>22</span>
+      <span>China / Global Compare</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">China</span>
+            <span>weak/unverified · weak/unverified · source-lane scan</span>
+            <span>2026-06 to 2026-07 source-lane scan · 2026-07-11 follow-up · 2026-07-12 follow-up · 2026-07-13 follow-up · 2026-07-14 follow-up</span>
+          </div>
+          <h2 class="dossier-title">China AI glasses scan: the narrative is moving from phone accessory to AIOS-native eyewear</h2>
+          <p class="dossier-lead">Product: China AI glasses OS lane scan. China AI glasses OS lane scan: A source-lane scan rather than a single confirmed product dossier. The strongest China-interface signal today is the shift in narrative from smart glasses as phone accessories or camera glasses toward AIOS-native eyewear. QbitAI coverage frames Rokid/YodaOS around active intent management and AIUI standards beyond traditional GUI logic. 36Kr and QbitAI provide market, subsidy, and RayNeo/Rokid momentum context. WIPO's Rokid material adds an international IP, shipment, and deployment signal.. This item is handled as weak/unverified; specs, price, regions and dates use cited source claims only, and missing details remain source not stated.</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://m.36kr.com/p/3855201250507656" target="_blank" rel="noreferrer" aria-label="Source-backed screenshot from 36Kr's China AI glasses market/product-signal coverage.">
+        <img src="../assets/china-ai-glasses-source-2026-07-07.png" alt="Source-backed screenshot: 36Kr China AI glasses source scan" width="1440" height="900" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>Source-backed screenshot from 36Kr's China AI glasses market/product-signal coverage.</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>What it is</span>
+                  <p>A source-lane scan rather than a single confirmed product dossier. The strongest China-interface signal today is the shift in narrative from smart glasses as phone accessories or camera glasses toward AIOS-native eyewear. QbitAI coverage frames Rokid/YodaOS around active intent management and AIUI standards beyond traditional GUI logic. 36Kr and QbitAI provide market, subsidy, and RayNeo/Rokid momentum context. WIPO's Rokid material adds an international IP, shipment, and deployment signal.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>How it works</span>
+                  <p>The claimed interaction flow is that users do not treat glasses merely as Bluetooth audio, a camera, or a notification mirror. They speak intent directly into the glasses and receive display, translation, navigation, meeting, guide, or service feedback. The system layer is supposed to manage intent, decide when to prompt, when to display, and when to call a phone or cloud service. Because much of the material is industry reporting or company-context coverage, hands-on evidence for failure states, permissions, battery life, latency, and everyday recovery is still limited.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Specs / stack</span>
+                  <p>The cited sources support a warming Chinese AI/AR glasses market, consumer subsidies that may lower trial cost, vendor language around AIOS, AIUI, and YodaOS, RayNeo sales and certification reporting, and WIPO's statements about Rokid's weight, IP portfolio, shipments, and deployments. Chipsets, sensors, OS APIs, models, prices, launch regions, battery, weight, display specs, and privacy mechanisms must be checked product by product through official sources. This scan does not merge those claims into one inferred product.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Use cases</span>
+                  <p>The visible jobs include translation subtitles, meeting capture, museum or industrial guidance, walking or cycling navigation, camera sharing, notifications, and voice assistance. The China-specific product opportunity is service closure: local life, payments, maps, workplace messaging, ecommerce, and office tools can potentially be connected faster inside domestic ecosystems. If glasses call those services directly, users may take out phones less often. The available evidence does not yet prove stable retail-user closure.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Pain points</span>
+                  <p>The narrative addresses phone dependence. If glasses still require phone confirmation, phone authorization, phone typing, and phone correction, they are expensive notification screens. AIOS language tries to move intent recognition, task management, and service invocation into the eyewear layer. But without mature permission design, display hierarchy, and recovery states, AIOS will simply move phone complexity into a smaller visual field.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>User voice</span>
+                  <p>The scanned public material is mostly media narrative, vendor performance reporting, and IP context. It does not provide enough long-term ordinary-user feedback. Queues, sales momentum, and subsidies do not equal satisfaction; source not stated for durable user sentiment.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>New tech</span>
+                  <p>The signal is that AIOS and AIUI are becoming interface language vendors want to own. Whoever defines intent, state, notification density, translation placement, camera and microphone permissions, and cross-service calls on glasses gets closer to owning a lightweight AI terminal.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Availability</span>
+                  <p>Availability varies by brand and model. Rokid, RayNeo, and other vendors have product and market materials, but YodaOS/AIOS versions, API openness, upgrade paths, regions, and support terms must be checked against official pages. This scan does not treat an industry trend as a directly purchasable product fact.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Limits / unknowns</span>
+                  <p>Missing evidence includes independent brightness, battery, latency, noisy-environment recognition, privacy indicators, long-wear comfort, prescription support, app crash rate, service failure rate, and after-sales data. The China smart-glasses lane is hot, but heat is not product completion.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Product read</span>
+                  <p>The China lane is directionally important but must be downgraded. If AIOS-native glasses become real, eyewear moves from accessory to task entry point. Until there is stronger hands-on and official API evidence, it remains a watch signal. The next checks are Rokid/YodaOS, RayNeo, Quark/Tongyi, and whether any of them show stable, reproducible, purchasable user flows.</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://www.qbitai.com/2026/07/441491.html" target="_blank" rel="noreferrer">量子位：AI眼镜不再依赖手机</a><a href="https://m.36kr.com/p/3855201250507656" target="_blank" rel="noreferrer">36氪：AI眼镜赛道全面起势</a><a href="https://www.qbitai.com/2026/06/437489.html" target="_blank" rel="noreferrer">量子位：雷鸟创新 2026 上半年成绩单</a><a href="https://www.wipo.int/en/web/awards/global/2026" target="_blank" rel="noreferrer">WIPO Global Awards 2026: Rokid</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide section-slide" id="slide-23" data-slide data-section="global">
+
+    <div class="slide-chrome">
+      <span>23</span>
+      <span>Global</span>
+    </div>
+      <p class="eyebrow">Global</p>
+      <h2>Global Signals</h2>
+      <div class="section-topic-list">
+
+              <div>
+                <span>developer surface · developer surface · platform fact · partner roadmap</span>
+                <strong>Snapdragon Reality Elite pushes large-model capability into the XR platform</strong>
+              </div>
+              <div>
+                <span>developer surface · developer surface · confirmed partner product</span>
+                <strong>NVIDIA XR AI moves glasses from consumer entry point to field guidance</strong>
+              </div>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-24" data-slide data-section="global" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>24</span>
+      <span>Global Signals</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">Global</span>
+            <span>developer surface · developer surface · platform fact · partner roadmap</span>
+            <span>2026-06-16 official platform release · 2026-07 developer watch · 2026-07-14 follow-up</span>
+          </div>
+          <h2 class="dossier-title">Snapdragon Reality Elite pushes large-model capability into the XR platform</h2>
+          <p class="dossier-lead">Product: Qualcomm Snapdragon Reality Elite. Qualcomm Snapdragon Reality Elite: Reality Elite is an XR platform for OEMs and developers, not a consumer glasses product sold on its own. Qualcomm’s June 16 release positions it for all-in-one video-see-through headsets and lightweight tethered optical-see-through glasses, with language models, vision models, and spatial generative AI. It shows that low-latency agents on glasses are first a system problem of compute, graphics, tracking, and power. This item is handled as developer surface; missing details remain source not stated.</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://www.qualcomm.com/xr-vr-ar/products/snapdragon-reality-elite" target="_blank" rel="noreferrer" aria-label="Qualcomm official Reality Elite page screenshot; edge AI, display, and efficiency figures follow the official page.">
+        <img src="../assets/qualcomm-reality-elite-source-2026-06.png" alt="Source-backed visual: Qualcomm Snapdragon Reality Elite" width="1600" height="900" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>Qualcomm official Reality Elite page screenshot; edge AI, display, and efficiency figures follow the official page.</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>What it is</span>
+                  <p>Reality Elite is an XR platform for OEMs and developers, not a consumer glasses product sold on its own. Qualcomm’s June 16 release positions it for all-in-one video-see-through headsets and lightweight tethered optical-see-through glasses, with language models, vision models, and spatial generative AI. It shows that low-latency agents on glasses are first a system problem of compute, graphics, tracking, and power.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>How it works</span>
+                  <p>The platform supplies real-time vision, head and hand tracking, see-through processing, and on-device AI rather than one consumer interface. OEMs can send voice, gesture, gaze, and environmental vision into LLM or LVM services and return object recognition, spatial content, or an agent response through lens and audio layers. Qualcomm cites object generation and real-time spatial awareness; wake, permission, error, and stop behavior remain OEM choices.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Specs / stack</span>
+                  <p>Qualcomm lists up to 48 TOPS AI, up to 60% higher GPU, 30% higher CPU, and 160% higher NPU performance, with up to 4.4K per eye at 90 FPS. It claims up to 20% longer battery life at the same workload and a chipset up to 12°C cooler under load, compared with XR2+ Gen 2. The platform supports LLM/LVM, EVA vision acceleration, VST and OST, and comes first to XREAL Project Aura with a future Play for Dream device. Chip model, model size, SDK, price, and release date are source not stated.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Use cases</span>
+                  <p>The platform supports visual generation, spatial measurement, object recognition, tracking, immersive content, and agent guidance. Potential jobs include understanding nearby objects, generating content in space, receiving environmental cues, and connecting field data to a digital twin in industrial or training work. Public sources confirm the platform and partner roadmap; they do not prove a consumer product has delivered a stable all-day agent at 48 TOPS.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Pain points</span>
+                  <p>Reality Elite attacks XR’s system constraint: rich vision and spatial computing need power while glasses require low latency, low heat, low weight, and longer battery. Sending all visual understanding to the cloud adds network delay and privacy cost. A common NPU, GPU, CPU, display, and tracking platform gives OEMs headroom; the platform numbers still need a real device to prove model quality, heat, and battery can coexist.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>User voice</span>
+                  <p>Source not stated.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>New tech</span>
+                  <p>The stack combines LLM and LVM support, Gaussian Splatting, EVA vision acceleration, head and hand tracking, and a see-through pipeline in scalable XR silicon. It is not a complete on-device agent, but it makes local perception and inference more practical. The HCI consequence is that teams must decide which feedback can arrive within interaction time, which waits for the cloud, and how users understand that difference.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Availability</span>
+                  <p>Qualcomm’s official product and release pages are public. Qualcomm says Reality Elite will first underpin XREAL Project Aura and a future Play for Dream device. Developer resources, partner hardware, SDK access, retail launch, regions, and end-product price are not fully disclosed. The platform must not be described as a consumer product already available for purchase.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Limits / unknowns</span>
+                  <p>Open questions include sustained power at 48 TOPS, thermal behavior in glasses, model memory use, offline behavior, camera and microphone data boundaries, and whether OEMs turn platform capability into legible permissions and state. Project Aura’s final specifications, price, timing, and consumer experience remain roadmap or partner signals and cannot be inferred from the chip release.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Product read</span>
+                  <p>Reality Elite is infrastructure evidence for agent-first XR, not evidence that a finished product exists. It turns ‘can glasses understand, respond, and remain wearable?’ into a joint problem of silicon, power, optics, and tracking. Edge AI will determine latency, privacy, and failure modes; the proof must come from partner devices, not a TOPS number.</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://www.qualcomm.com/news/releases/2026/06/qualcomm-takes-spatial-computing-into-the-ai-era-with-snapdragon" target="_blank" rel="noreferrer">Qualcomm Reality Elite release</a><a href="https://www.qualcomm.com/xr-vr-ar/products/snapdragon-reality-elite" target="_blank" rel="noreferrer">Qualcomm Reality Elite product page</a><a href="https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/snapdragon-reality-elite-platform-product-brief.pdf" target="_blank" rel="noreferrer">Qualcomm product brief</a><a href="https://www.xreal.com/project-aura" target="_blank" rel="noreferrer">XREAL Project Aura</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-25" data-slide data-section="global" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>25</span>
+      <span>Global Signals</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">Global</span>
+            <span>developer surface · developer surface · confirmed partner product</span>
+            <span>2026-06-16 developer release · 2026-06 Helix product reveal · 2026-07-13 follow-up · 2026-07-14 follow-up</span>
+          </div>
+          <h2 class="dossier-title">NVIDIA XR AI moves glasses from consumer entry point to field guidance</h2>
+          <p class="dossier-lead">Product: NVIDIA XR AI / VITURE Helix. NVIDIA XR AI / VITURE Helix: NVIDIA XR AI is a developer library and platform for connecting real-time vision, voice interaction, and agent guidance to AR glasses. VITURE Helix is an AI safety-glasses product built with that solution. NVIDIA’s examples include an engineer asking an agent about a programmable-logic-controller issue through glasses while connecting industrial systems, digital twins, and automation workflows. The developer page also shows laboratory and gene-editing scenarios. Unlike a consumer glasses pitch, the value is not only capture or Q&amp;A; it is putting the next step, procedure, and equipment context into the worker’s view and voice loop.. This item is handled as developer surface; specs, price, regions and dates use cited source claims only, and missing details remain source not stated.</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://developer.nvidia.com/xr/xr-ai" target="_blank" rel="noreferrer" aria-label="Source-backed screenshot from the NVIDIA XR AI developer page showing the developer surface for real-time, hands-free agent guidance.">
+        <img src="../assets/nvidia-xr-ai-source-2026-06.png" alt="Source-backed screenshot: NVIDIA XR AI and VITURE Helix" width="2048" height="1152" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>Source-backed screenshot from the NVIDIA XR AI developer page showing the developer surface for real-time, hands-free agent guidance.</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>What it is</span>
+                  <p>NVIDIA XR AI is a developer library and platform for connecting real-time vision, voice interaction, and agent guidance to AR glasses. VITURE Helix is an AI safety-glasses product built with that solution. NVIDIA’s examples include an engineer asking an agent about a programmable-logic-controller issue through glasses while connecting industrial systems, digital twins, and automation workflows. The developer page also shows laboratory and gene-editing scenarios. Unlike a consumer glasses pitch, the value is not only capture or Q&amp;A; it is putting the next step, procedure, and equipment context into the worker’s view and voice loop.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>How it works</span>
+                  <p>A worker wears compatible glasses in the field. The glasses or companion compute captures first-person visual context and the user’s spoken question. XR AI components help an agent interpret equipment, work steps, or experiment context, then return an explanation, reminder, next-step instruction, or remote-collaboration signal through audio or an in-view display. VITURE positions Helix as an eyes-on, hands-free AI co-pilot; LabOS examples connect perception to digital twins, automation, or experiment workflows. A high-risk action still requires professional SOP and human authorization; a guidance demo is not automatic control permission.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Specs / stack</span>
+                  <p>The cited sources support the NVIDIA XR AI developer library, LabOS, compatibility with Meta, Rokid, and VITURE glasses, and VITURE Helix’s partnership with NVIDIA XR AI. The developer page emphasizes real-time, hands-free guidance and examples involving industrial PLCs, laboratories, and gene editing. VITURE supplies the smart hardware and edge software. The sources do not specify Helix’s chip, camera parameters, display specifications, weight, battery, network protocol, model name, edge/cloud split, SDK version, price, or purchase regions; those details are source not stated.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Use cases</span>
+                  <p>Concrete jobs include maintenance workers receiving procedure prompts while looking at equipment, engineers diagnosing PLC or automation systems, lab staff retrieving context at the bench, trainers guiding a new operator remotely, quality inspection, and any field task where both hands need to stay on the work. For enterprises, glasses do not need to replace a computer. They can place computer vision, a knowledge base, digital twins, and agent recommendations where the work actually occurs. The product should be judged by time saved on manuals, workstation switching, and repeated confirmation without creating a larger safety risk.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Pain points</span>
+                  <p>The product attacks the friction of knowing what to do while being unable to leave the task. A field worker traditionally stops, picks up a phone or tablet, searches documentation, confirms the model, and returns attention to the machine. XR AI attempts to compress that loop into look, ask, hear, and act. The cost is higher consequence for wrong guidance. The visual agent must handle occlusion, lighting, equipment variation, and step state. A professional product needs citations, confidence, human takeover, and stop controls rather than only a smooth demo.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>User voice</span>
+                  <p>Current evidence is NVIDIA and VITURE product material plus demonstration context, not enough independent long-term evidence from factories or labs. Early VITURE community discussion raises questions about Android support, product positioning, and whether real-time SOP guidance works outside the demo. Those are early friction signals, not validated performance data; source not stated.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>New tech</span>
+                  <p>The new technology pattern treats XR hardware as an agent’s first-person sensor and feedback endpoint, not merely as a remote display. NVIDIA provides an XR AI library; LabOS connects visual input, domain tools, and agent orchestration; VITURE brings the pattern into safety-glasses hardware. The HCI challenge moves from 'where should the UI sit?' to 'how does field context enter the model, and how does the model produce an executable but auditable next step?'</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Availability</span>
+                  <p>The NVIDIA XR AI developer page and blog are public. VITURE’s Helix product page and launch article are live and identify the product as an AWE 2026 collaboration. Compatible glasses, developer access, purchase channels, customer industries, delivery timing, service pricing, and regional supply are not fully disclosed by the current sources; source not stated.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Limits / unknowns</span>
+                  <p>Open questions include field connectivity, edge latency, occlusion and lighting robustness, knowledge integration for different factories, hallucination, compliance logging, operator privacy, multi-user coordination, wear fatigue, and responsibility after an error. If safety glasses provide advice, the product must separate advice from permission to execute. If they later control automation, permissions and two-person confirmation become hard requirements.</p>
+                </article>
+                <article class="dossier-card">
+                  <span>Product read</span>
+                  <p>NVIDIA XR AI and Helix are the strongest field-agent signal in this issue because they move glasses from a lightweight consumer entry point into a professional work system. The opportunity is real only if the system produces sourced, pausable, handoff-ready next steps in the field. For HCI teams, display area is the surface problem; context, responsibility, confidence, and human takeover are the system problem.</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://developer.nvidia.com/xr/xr-ai" target="_blank" rel="noreferrer">NVIDIA Developer: XR AI Platform</a><a href="https://blogs.nvidia.com/blog/nvidia-xr-ai/" target="_blank" rel="noreferrer">NVIDIA Blog: XR AI brings agents to AR glasses</a><a href="https://www.viture.com/en-US/blog/viture-unveils-helix-the-first-ai-safety-glasses-built-on-nvidia-s-xr-ai-solution-at-awe-2026" target="_blank" rel="noreferrer">VITURE: Helix with NVIDIA XR AI</a><a href="https://www.viture.com/en-US/helix" target="_blank" rel="noreferrer">VITURE Helix product page</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide design-slide" id="slide-26" data-slide data-section="design">
+
+    <div class="slide-chrome">
+      <span>26</span>
+      <span>Design Desk</span>
+    </div>
+      <p class="eyebrow">Design Desk</p>
+      <h2>Design Desk: Make privacy a chain of state, capability, and recovery</h2>
+      <p class="design-intro">Today’s product evidence points to an actionable HCI requirement: wearers and bystanders need to know whether capture is active, which model is processing, whether data leaves the device, when capability stops, and how to recover from a false positive.</p>
+      <div class="design-grid">
+
+              <article>
+                <span>01</span>
+                <strong>The LED is not decoration</strong>
+                <p>Meta couples the capture LED to camera permission. Recording state must be visible, explainable, and recoverable in hardware feedback.</p>
+              </article>
+              <article>
+                <span>02</span>
+                <strong>Model routing needs a surface</strong>
+                <p>VIVE Eagle supports third-party models. The glasses need to show whether a request leaves the device, who processes it, and whether the answer is traceable.</p>
+              </article>
+              <article>
+                <span>03</span>
+                <strong>Memory needs a gate</strong>
+                <p>Halo’s Noa extends value into the future while pushing consent, deletion, export, and wrong-memory recovery into the primary interaction.</p>
+              </article>
+              <article>
+                <span>04</span>
+                <strong>Low-friction triggers need cheap reversal</strong>
+                <p>Voice, temple touch, and displays make triggering fast. Stop, cancel, retry, and return to context must be just as close.</p>
+              </article>
+              <article>
+                <span>05</span>
+                <strong>Camera-free still has boundaries</strong>
+                <p>Even G2 trades the camera for social acceptability, but microphones, phone connectivity, and display content still need clear state.</p>
+              </article>
+              <article>
+                <span>06</span>
+                <strong>Research, patents, and China stay downgraded</strong>
+                <p>VisionClaw, patent, and China AIOS signals frame questions, while runtime and long-term user evidence are missing.</p>
+              </article>
+      </div>
+    </section>
+    <section class="deck-slide watch-slide" id="slide-27" data-slide>
+
+    <div class="slide-chrome">
+      <span>27</span>
+      <span>Watchlist</span>
+    </div>
+      <p class="eyebrow">Next scan</p>
+      <h2>What to watch next</h2>
+      <div class="watch-grid">
+        <div><span>01</span><p>Meta AI Glasses: model-by-model coverage, false-positive recovery, and bystander visibility for LED tamper updates.</p></div><div><span>02</span><p>HTC VIVE Eagle: regional shipping, AI Plus subscription, third-party model data paths, and continuous AI runtime.</p></div><div><span>03</span><p>Brilliant Labs Halo: Q1 2026 shipping, mixed-load battery, B1/NPU development surface, and Noa memory controls.</p></div><div><span>04</span><p>Snap SPECS and Even G2: fall shipping, display pacing, phone dependence, daily wear, and privacy state.</p></div><div><span>05</span><p>Qualcomm, Project Solara, and Android XR: partner hardware, public APIs, edge models, and enterprise management.</p></div><div><span>06</span><p>China, VisionClaw, and patents: keep scan, research, and patent downgrades until reproducible product evidence appears.</p></div>
+      </div>
+    </section>
+    <section class="deck-slide source-slide" id="slide-28" data-slide>
+
+    <div class="slide-chrome">
+      <span>28</span>
+      <span>Source index</span>
+    </div>
+      <p class="eyebrow">Traceable evidence</p>
+      <h2>Every topic has inline sources; this is the quick ledger.</h2>
+      <div class="source-grid">
+        <a href="https://about.fb.com/news/2026/07/metas-ai-glasses-your-questions-answered/" target="_blank" rel="noreferrer"><span>source</span><strong>Meta AI Glasses privacy FAQ</strong></a><a href="https://www.meta.com/help/smart-glasses/articles/health-safety-and-privacy/privacy-glasses/" target="_blank" rel="noreferrer"><span>source</span><strong>Meta glasses privacy approach</strong></a><a href="https://www.androidcentral.com/wearables/meta-glasses-hands-on-review" target="_blank" rel="noreferrer"><span>source</span><strong>Android Central hands-on</strong></a><a href="https://www.vive.com/us/newsroom/2025-08-14/" target="_blank" rel="noreferrer"><span>source</span><strong>HTC VIVE Eagle official launch</strong></a><a href="https://www.vive.com/us/product/vive-eagle/overview/" target="_blank" rel="noreferrer"><span>source</span><strong>HTC VIVE Eagle product page</strong></a><a href="https://www.hardwarezone.com.sg/mobile/wearables/htc-vive-eagle-ai-smart-glasses-review" target="_blank" rel="noreferrer"><span>source</span><strong>HardwareZone hands-on review</strong></a><a href="https://dl.htc.com/report_materials/htc_security_and_privacy_whitepaper.pdf" target="_blank" rel="noreferrer"><span>source</span><strong>HTC security and privacy whitepaper</strong></a><a href="https://brilliant.xyz/products/halo" target="_blank" rel="noreferrer"><span>source</span><strong>Brilliant Labs Halo product page</strong></a><a href="https://brilliant.xyz/pages/developers" target="_blank" rel="noreferrer"><span>source</span><strong>Brilliant Labs developer page</strong></a><a href="https://docs.brilliant.xyz/halo/halo/" target="_blank" rel="noreferrer"><span>source</span><strong>Halo developer documentation</strong></a><a href="https://www.businesswire.com/news/home/20260311666274/en/Brilliant-Labs-and-Alif-Semiconductor-Partner-on-Development-of-New-Technologies-for-Next-Generation-AI-Powered-Smart-Glasses" target="_blank" rel="noreferrer"><span>source</span><strong>Brilliant Labs and Alif partnership</strong></a><a href="https://www.reddit.com/r/SmartGlasses/comments/1spf1l6/are_brilliant_labs_halo_glasses_shipping_now/" target="_blank" rel="noreferrer"><span>source</span><strong>Brilliant community shipping discussion</strong></a><a href="https://investor.snap.com/news/news-details/2026/Snap-Inc--Debuts-SPECS-Augmented-Reality-Glasses-to-Make-Computing-More-Human/default.aspx" target="_blank" rel="noreferrer"><span>source</span><strong>Snap official SPECS launch</strong></a><a href="https://www.spectacles.com/" target="_blank" rel="noreferrer"><span>source</span><strong>Snap SPECS product page</strong></a><a href="https://techcrunch.com/2026/06/16/snap-finally-debuts-its-long-awaited-ar-glasses-specs-and-oof-they-arent-cheap/" target="_blank" rel="noreferrer"><span>source</span><strong>TechCrunch SPECS launch report</strong></a><a href="https://developers.snap.com/lens-studio/" target="_blank" rel="noreferrer"><span>source</span><strong>Snap Lens Studio developer tools</strong></a><a href="https://www.evenrealities.com/smart-glasses" target="_blank" rel="noreferrer"><span>source</span><strong>Even G2 official product page</strong></a><a href="https://techcrunch.com/2026/07/11/smart-glasses-without-a-camera-even-realities-bets-productivity-beats-recording-everyone/" target="_blank" rel="noreferrer"><span>source</span><strong>TechCrunch Even G2 hands-on</strong></a><a href="https://hub.evenrealities.com/" target="_blank" rel="noreferrer"><span>source</span><strong>Even Hub developer surface</strong></a><a href="https://support.evenrealities.com/" target="_blank" rel="noreferrer"><span>source</span><strong>Even support surface</strong></a><a href="https://www.qualcomm.com/news/releases/2026/06/qualcomm-takes-spatial-computing-into-the-ai-era-with-snapdragon" target="_blank" rel="noreferrer"><span>source</span><strong>Qualcomm Reality Elite release</strong></a><a href="https://www.qualcomm.com/xr-vr-ar/products/snapdragon-reality-elite" target="_blank" rel="noreferrer"><span>source</span><strong>Qualcomm Reality Elite product page</strong></a><a href="https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/snapdragon-reality-elite-platform-product-brief.pdf" target="_blank" rel="noreferrer"><span>source</span><strong>Qualcomm product brief</strong></a><a href="https://www.xreal.com/project-aura" target="_blank" rel="noreferrer"><span>source</span><strong>XREAL Project Aura</strong></a><a href="https://techcommunity.microsoft.com/blog/microsoftdeviceecosystemplatformblog/powering-new-devices-and-agent-first-experiences-with-mdep/4524525" target="_blank" rel="noreferrer"><span>source</span><strong>Microsoft MDEP: Project Solara</strong></a><a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-unveils-project-solara-ai-a-chip-to-cloud-platform-built-to-power-a-new-generation-of-agent-first-enterprise-devices-hardware-designed-to-run-ai-agents-instead-of-traditional-apps" target="_blank" rel="noreferrer"><span>source</span><strong>Project Solara coverage</strong></a><a href="https://www.microsoft.com/en-us/security/business/microsoft-entra" target="_blank" rel="noreferrer"><span>source</span><strong>Microsoft Entra</strong></a><a href="https://www.microsoft.com/en-us/security/business/microsoft-intune" target="_blank" rel="noreferrer"><span>source</span><strong>Microsoft Intune</strong></a><a href="https://www.reddit.com/r/MetaGlasses/comments/1ua72yc/my_experience_with_rayban_meta/" target="_blank" rel="noreferrer"><span>source</span><strong>Reddit: Meta glasses customer support friction</strong></a><a href="https://www.reddit.com/r/HearingAids/comments/1tykkjo/beware_meta_ai_glasses/" target="_blank" rel="noreferrer"><span>source</span><strong>Reddit: Meta glasses privacy and setup friction</strong></a><a href="https://openai.com/index/introducing-gpt-live/" target="_blank" rel="noreferrer"><span>source</span><strong>OpenAI: Introducing GPT-Live</strong></a><a href="https://openai.com/live/" target="_blank" rel="noreferrer"><span>source</span><strong>OpenAI live replay</strong></a><a href="https://www.macrumors.com/2026/07/08/openai-gpt-live-voice/" target="_blank" rel="noreferrer"><span>source</span><strong>MacRumors: GPT-Live voice coverage</strong></a><a href="https://www.techradar.com/ai-platforms-assistants/chatgpt/breaking-chatgpts-new-gpt-live-voice-model-is-here-and-it-can-speak-and-listen-at-the-same-time" target="_blank" rel="noreferrer"><span>source</span><strong>TechRadar: GPT-Live rollout</strong></a><a href="https://openacti.com/" target="_blank" rel="noreferrer"><span>source</span><strong>Acti official site</strong></a><a href="https://apps.apple.com/us/app/acti-agentic-keyboard/id6745523677" target="_blank" rel="noreferrer"><span>source</span><strong>Apple App Store: Acti Agentic Keyboard</strong></a><a href="https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard/" target="_blank" rel="noreferrer"><span>source</span><strong>TechCrunch: Acti agentic keyboard</strong></a><a href="https://www.reddit.com/r/SideProject/comments/1ukorbc/i_got_tired_of_constantly_switching_between_apps/" target="_blank" rel="noreferrer"><span>source</span><strong>Reddit r/SideProject: Acti creator post</strong></a><a href="https://developer.nvidia.com/xr/xr-ai" target="_blank" rel="noreferrer"><span>source</span><strong>NVIDIA Developer: XR AI Platform</strong></a><a href="https://blogs.nvidia.com/blog/nvidia-xr-ai/" target="_blank" rel="noreferrer"><span>source</span><strong>NVIDIA Blog: XR AI brings agents to AR glasses</strong></a><a href="https://www.viture.com/en-US/blog/viture-unveils-helix-the-first-ai-safety-glasses-built-on-nvidia-s-xr-ai-solution-at-awe-2026" target="_blank" rel="noreferrer"><span>source</span><strong>VITURE: Helix with NVIDIA XR AI</strong></a><a href="https://www.viture.com/en-US/helix" target="_blank" rel="noreferrer"><span>source</span><strong>VITURE Helix product page</strong></a><a href="https://zcode.z.ai/en/docs" target="_blank" rel="noreferrer"><span>source</span><strong>ZCode docs: welcome</strong></a><a href="https://zcode.z.ai/en/docs/configuration" target="_blank" rel="noreferrer"><span>source</span><strong>ZCode docs: configuration</strong></a><a href="https://www.businessinsider.com/z-ai-zcode-ai-coding-tool-chinese-startup-lower-cost-2026-7" target="_blank" rel="noreferrer"><span>source</span><strong>Business Insider: Z.ai ZCode launch</strong></a><a href="https://devops.com/z-ai-debuts-zcode-to-compete-with-github-copilot-cursor-and-anthropic/" target="_blank" rel="noreferrer"><span>source</span><strong>DevOps.com: Z.ai debuts ZCode</strong></a><a href="https://www.qbitai.com/2026/07/441491.html" target="_blank" rel="noreferrer"><span>source</span><strong>量子位：AI眼镜不再依赖手机</strong></a><a href="https://m.36kr.com/p/3855201250507656" target="_blank" rel="noreferrer"><span>source</span><strong>36氪：AI眼镜赛道全面起势</strong></a><a href="https://www.qbitai.com/2026/06/437489.html" target="_blank" rel="noreferrer"><span>source</span><strong>量子位：雷鸟创新 2026 上半年成绩单</strong></a><a href="https://www.wipo.int/en/web/awards/global/2026" target="_blank" rel="noreferrer"><span>source</span><strong>WIPO Global Awards 2026: Rokid</strong></a><a href="https://arxiv.org/html/2604.03486v2" target="_blank" rel="noreferrer"><span>source</span><strong>arXiv: VisionClaw always-on AI agents through smart glasses</strong></a><a href="https://arxiv.org/html/2602.22340v1" target="_blank" rel="noreferrer"><span>source</span><strong>arXiv: conversational successes and breakdowns in smart glasses</strong></a><a href="https://patents.google.com/patent/WO2024129004A1/en" target="_blank" rel="noreferrer"><span>source</span><strong>Google Patents: AI-supported smart glasses</strong></a><a href="https://patents.google.com/patent/CN309755008S/en" target="_blank" rel="noreferrer"><span>source</span><strong>Google Patents: AI Smart Glasses GS1 design</strong></a><a href="https://www.androidcentral.com/wearables/solos-is-taking-aim-at-meta-essilorluxottica-for-alleged-smart-glasses-patent-infringement-in-pivotal-case" target="_blank" rel="noreferrer"><span>source</span><strong>Android Central: Solos smart-glasses patent lawsuit</strong></a>
+      </div>
+      <p class="source-row"><strong>Full ledger:</strong> <a href="/ai-daily/2026-07-14/sources.md">sources.md</a></p>
+    </section>
+      </section>
+
+      <footer class="deck-controls" aria-label="Slide controls">
+        <button type="button" data-prev-slide>Previous</button>
+        <div class="deck-progress-shell"><span data-deck-progress></span></div>
+        <span class="deck-counter" data-deck-counter>01 / 28</span>
+        <button type="button" data-next-slide>Next</button>
+      </footer>
+      <div class="deck-dots" data-deck-dots aria-hidden="true"></div>
+    </main>
+    <script>
+      document.querySelectorAll("[data-time-filter]").forEach((button) => {
+        button.addEventListener("click", () => {
+          const filter = button.dataset.timeFilter;
+          document.querySelectorAll("[data-time-filter]").forEach((item) => item.classList.toggle("active", item === button));
+          document.querySelectorAll("[data-time]").forEach((card) => {
+            const tokens = card.dataset.time.split(" ");
+            card.hidden = filter !== "all" && !tokens.includes(filter);
+          });
+        });
+      });
+
+      const deck = document.querySelector("[data-deck]");
+      if (deck) {
+        const slides = Array.from(deck.querySelectorAll("[data-slide]"));
+        const counter = document.querySelector("[data-deck-counter]");
+        const progress = document.querySelector("[data-deck-progress]");
+        const dots = document.querySelector("[data-deck-dots]");
+        let current = 0;
+
+        function showSlide(nextIndex, updateHash = true) {
+          current = Math.max(0, Math.min(slides.length - 1, nextIndex));
+          slides.forEach((slide, index) => {
+            const active = index === current;
+            slide.classList.toggle("is-active", active);
+            slide.setAttribute("aria-hidden", active ? "false" : "true");
+          });
+          if (counter) counter.textContent = String(current + 1).padStart(2, "0") + " / " + String(slides.length).padStart(2, "0");
+          if (progress) progress.style.width = ((current + 1) / slides.length * 100).toFixed(2) + "%";
+          if (dots) {
+            dots.querySelectorAll("button").forEach((button, index) => {
+              button.classList.toggle("active", index === current);
+            });
+          }
+          if (updateHash && slides[current]?.id) history.replaceState(null, "", "#" + slides[current].id);
+        }
+
+        if (dots) {
+          dots.innerHTML = slides.map((slide, index) => '<button type="button" aria-label="Slide ' + (index + 1) + '"></button>').join("");
+          dots.querySelectorAll("button").forEach((button, index) => button.addEventListener("click", () => showSlide(index)));
+        }
+
+        document.querySelectorAll("[data-next-slide]").forEach((button) => button.addEventListener("click", () => showSlide(current + 1)));
+        document.querySelectorAll("[data-prev-slide]").forEach((button) => button.addEventListener("click", () => showSlide(current - 1)));
+        document.querySelectorAll("[data-go-slide]").forEach((link) => {
+          link.addEventListener("click", (event) => {
+            event.preventDefault();
+            const target = slides.findIndex((slide) => slide.id === link.dataset.goSlide);
+            if (target >= 0) showSlide(target);
+          });
+        });
+
+        window.addEventListener("keydown", (event) => {
+          if (event.altKey || event.ctrlKey || event.metaKey) return;
+          if (["ArrowRight", "PageDown", " "].includes(event.key)) {
+            event.preventDefault();
+            showSlide(current + 1);
+          }
+          if (["ArrowLeft", "PageUp"].includes(event.key)) {
+            event.preventDefault();
+            showSlide(current - 1);
+          }
+          if (event.key === "Home") showSlide(0);
+          if (event.key === "End") showSlide(slides.length - 1);
+        });
+
+        const initial = slides.findIndex((slide) => "#" + slide.id === window.location.hash);
+        showSlide(initial >= 0 ? initial : 0, false);
+      }
+    </script>
+  </body>
+</html>

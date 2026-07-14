@@ -1,5 +1,115 @@
 [
   {
+    "date": "2026-07-14",
+    "zhTitle": "AI Daily 2026-07-14：隐私边界开始成为 AI 眼镜的硬件 API",
+    "enTitle": "AI Daily 2026-07-14: Privacy Boundaries Become a Hardware API for AI Glasses",
+    "zhSummary": "Meta 把 capture LED 防篡改做成相机禁用机制；HTC VIVE Eagle 把相机、翻译、第三方模型和本地存储落到生活化产品；Brilliant Labs Halo 用开源、端侧 NPU 与长期记忆 agent 抢开发者入口。今天的产品问题从“AI 能看见什么”推进到“谁能看见、何时停止、数据如何恢复”。",
+    "enSummary": "Meta turns capture-LED tamper detection into camera disabling; HTC VIVE Eagle puts camera, translation, third-party models, and local storage into lifestyle eyewear; Brilliant Labs Halo targets developers with open hardware, an edge NPU, and a memory agent. The product question moves from what AI can see to who can see it, when capture stops, and how data recovers.",
+    "tags": [
+      "AI glasses",
+      "privacy hardware",
+      "on-device AI",
+      "Brilliant Labs Halo",
+      "HTC VIVE Eagle",
+      "Meta AI Glasses",
+      "agent UX",
+      "HCI"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "wild",
+      "research",
+      "patent",
+      "china",
+      "global"
+    ],
+    "coverStory": {
+      "topicId": "meta-ai-glasses-capture-led-privacy-update",
+      "zhTitle": "隐私边界开始成为 AI 眼镜的硬件 API",
+      "enTitle": "Privacy boundaries become a hardware API for AI glasses",
+      "imagePath": "assets/meta-ai-glasses-privacy-source-2026-07.png",
+      "imageWidth": 1600,
+      "imageHeight": 1000,
+      "primarySourceUrl": "https://about.fb.com/news/2026/07/metas-ai-glasses-your-questions-answered/",
+      "imageSourceUrl": "https://about.fb.com/news/2026/07/metas-ai-glasses-your-questions-answered/",
+      "evidenceStrength": "confirmed product · Meta capture LED · hardware privacy control",
+      "whyCover": "Meta’s capture LED couples visible recording state to camera permission; HTC makes local storage and model routing part of a camera glasses product; Halo opens the stack to developers. Together they expose privacy as a physical, runtime, and developer-surface problem.",
+      "zhSummary": [
+        "Meta 把遮挡或破坏 capture LED 与相机禁用绑定，隐私状态进入硬件状态机。",
+        "HTC VIVE Eagle 让相机、翻译、开放式音频和第三方模型在同一日常眼镜流程中相遇。",
+        "Brilliant Labs Halo 用开源与端侧 NPU 降低开发门槛，同时把长期记忆的控制责任交给产品。"
+      ],
+      "enSummary": [
+        "Meta binds a covered or damaged capture LED to camera disabling, moving privacy into a hardware state machine.",
+        "HTC VIVE Eagle brings camera, translation, open-ear audio, and third-party models into one everyday flow.",
+        "Brilliant Labs Halo lowers the development barrier with open design and an edge NPU, while making memory control a product responsibility."
+      ]
+    },
+    "designDesk": {
+      "zhTitle": "Design Desk：把隐私做成状态、能力与恢复链路",
+      "enTitle": "Design Desk: Make privacy a chain of state, capability, and recovery",
+      "zhIntro": "今天的产品资料共同指向一个可执行的 HCI 要求：用户和旁观者都要知道设备是否在采集、哪个模型在处理、数据是否离开设备、能力何时停止，以及误判后怎样恢复。",
+      "enIntro": "Today’s product evidence points to an actionable HCI requirement: wearers and bystanders need to know whether capture is active, which model is processing, whether data leaves the device, when capability stops, and how to recover from a false positive.",
+      "zhItems": [
+        {
+          "label": "LED 不是装饰",
+          "body": "Meta 把 capture LED 绑定到相机许可；产品需要把录制状态做成可见、可解释、可恢复的硬件反馈。"
+        },
+        {
+          "label": "模型路由要可见",
+          "body": "VIVE Eagle 支持第三方模型，眼镜必须告诉用户请求是否上云、由谁处理、结果是否可追溯。"
+        },
+        {
+          "label": "记忆写入前要有门",
+          "body": "Halo 的 Noa 记忆把价值延长到未来，也把同意、删除、导出和错误记忆恢复推到交互前台。"
+        },
+        {
+          "label": "低摩擦入口需要低成本撤销",
+          "body": "语音、镜腿触控和显示都让触发更快；停止、取消、重试和回到原上下文必须同样近。"
+        },
+        {
+          "label": "无相机仍然有边界",
+          "body": "Even G2 用无相机换取社交接受度，但麦克风、手机连接和显示内容仍需要清晰的状态说明。"
+        },
+        {
+          "label": "研究、专利和中国线索继续降级",
+          "body": "VisionClaw、专利与中国 AIOS 线索提出问题，却缺少运行与长期用户证据，保留 research/patent/scan 标签。"
+        }
+      ],
+      "enItems": [
+        {
+          "label": "The LED is not decoration",
+          "body": "Meta couples the capture LED to camera permission. Recording state must be visible, explainable, and recoverable in hardware feedback."
+        },
+        {
+          "label": "Model routing needs a surface",
+          "body": "VIVE Eagle supports third-party models. The glasses need to show whether a request leaves the device, who processes it, and whether the answer is traceable."
+        },
+        {
+          "label": "Memory needs a gate",
+          "body": "Halo’s Noa extends value into the future while pushing consent, deletion, export, and wrong-memory recovery into the primary interaction."
+        },
+        {
+          "label": "Low-friction triggers need cheap reversal",
+          "body": "Voice, temple touch, and displays make triggering fast. Stop, cancel, retry, and return to context must be just as close."
+        },
+        {
+          "label": "Camera-free still has boundaries",
+          "body": "Even G2 trades the camera for social acceptability, but microphones, phone connectivity, and display content still need clear state."
+        },
+        {
+          "label": "Research, patents, and China stay downgraded",
+          "body": "VisionClaw, patent, and China AIOS signals frame questions, while runtime and long-term user evidence are missing."
+        }
+      ]
+    },
+    "zhPath": "./2026-07-14/zh/",
+    "enPath": "./2026-07-14/en/",
+    "sourcesPath": "./2026-07-14/sources.md"
+  },
+  {
     "date": "2026-07-13",
     "zhTitle": "AI Daily 2026-07-13：Agent-first 硬件开始争夺空间软件层",
     "enTitle": "AI Daily 2026-07-13: Agent-First Hardware Starts Fighting for the Spatial Software Layer",
