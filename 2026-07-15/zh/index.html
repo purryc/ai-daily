@@ -1,0 +1,1720 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Daily 2026-07-15：AI 眼镜开始争夺 spatial software layer · AI Daily</title>
+    <meta name="description" content="Google/Samsung 把 intelligent eyewear 的音频与显示路线接到 Gemini；Android XR Developer Preview 4 给出 Projected、Compose Glimmer 和 Device Availability API；Rokid 的 YodaOS 与日本上市把中国线推进到 AIOS 和 agent store。今天的产品问题从“眼镜能做什么”推进到“谁控制眼前的界面、模型与分发”。" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2216%22%20fill%3D%22%232f2234%22%2F%3E%3Ctext%20x%3D%2213%22%20y%3D%2242%22%20font-family%3D%22Arial%22%20font-size%3D%2226%22%20font-weight%3D%22900%22%20fill%3D%22%23fff%22%3EAI%3C%2Ftext%3E%3C%2Fsvg%3E" />
+    <link rel="stylesheet" href="../../assets/site.css" />
+  </head>
+  <body>
+
+    <main class="deck-page">
+      <nav class="deck-nav" aria-label="Issue navigation">
+        <a class="brand" href="/ai-daily/">AI Daily</a>
+        <div class="deck-nav-actions">
+          <a class="active" href="/ai-daily/2026-07-15/zh/">中文</a>
+          <a class="" href="/ai-daily/2026-07-15/en/">English</a>
+          <a href="/ai-daily/2026-07-15/sources.md">来源总表</a>
+          <a class="primary" href="../ai-daily-2026-07-15-zh.pdf" download>下载 PDF</a>
+        </div>
+      </nav>
+
+      <section class="deck-stage" data-deck aria-label="AI Daily 2026-07-15：AI 眼镜开始争夺 spatial software layer · AI Daily">
+
+    <section class="deck-slide cover-slide is-active" id="slide-01" data-slide>
+
+    <div class="slide-chrome">
+      <span>01</span>
+      <span>2026-07-15 · America/Toronto</span>
+    </div>
+      <div class="cover-copy">
+        <p class="eyebrow">AI Daily</p>
+        <h1>AI Daily 2026-07-15：AI 眼镜开始争夺 spatial software layer</h1>
+        <div class="hero-lines">
+          <p>Google/Samsung 公开 audio glasses 与 display glasses 两条路线，Gemini 负责语音、翻译、通知和动作入口。</p><p>Android XR Developer Preview 4 把 Projected、Compose Glimmer、emulator 和 Device Availability API 交给开发者。</p><p>Rokid 用 YodaOS、模型切换和 agent store 把中国 AI 眼镜竞争推进到 OS、服务与分发层。</p>
+        </div>
+        <div class="chip-row"><span>AI glasses</span><span>Android XR</span><span>YodaOS</span><span>spatial software</span><span>on-device AI</span><span>Gemini</span><span>agent UX</span><span>HCI</span></div>
+        <p class="source-row"><strong>来源：</strong> <a href="https://blog.google/products-and-platforms/platforms/android/android-xr-io-2026/" target="_blank" rel="noreferrer">封面原文</a></p>
+      </div>
+      <figure class="cover-visual">
+        <img src="../assets/android-xr-intelligent-eyewear-source-2026-05.png" alt="AI 眼镜开始争夺 spatial software layer" width="1600" height="1000" decoding="async" />
+        <figcaption>developer surface · official Android XR · pre-launch eyewear · Google/Samsung define audio and display eyewear around Gemini; Android XR gives developers Projected, Glimmer, emulator, and device-availability state; Rokid pushes a parallel AIOS and agent-store route. The contest is becoming the software layer that decides what appears, which model acts, and how the user recovers.</figcaption>
+      </figure>
+    </section>
+    <section class="deck-slide agenda-slide" id="slide-02" data-slide>
+
+    <div class="slide-chrome">
+      <span>02</span>
+      <span>今日导航</span>
+    </div>
+      <div class="agenda-copy">
+        <p class="eyebrow">先看结构，再看证据</p>
+        <h2>今天按八条线读：官方产品、媒体评测、社区摩擦、野生产品、研究、专利、中国与海外。</h2>
+      </div>
+      <div class="agenda-grid">
+        <a class="agenda-card" href="#slide-03" data-go-slide="slide-03">
+          <span>大厂官方</span>
+          <strong>Official Desk / 大厂官方</strong>
+          <em>5 条</em>
+        </a>
+        <a class="agenda-card" href="#slide-09" data-go-slide="slide-09">
+          <span>媒体/评测</span>
+          <strong>Review Desk / 媒体与评测</strong>
+          <em>2 条</em>
+        </a>
+        <a class="agenda-card" href="#slide-12" data-go-slide="slide-12">
+          <span>社区摩擦</span>
+          <strong>Community Friction / 社区摩擦</strong>
+          <em>1 条</em>
+        </a>
+        <a class="agenda-card" href="#slide-14" data-go-slide="slide-14">
+          <span>野生信号</span>
+          <strong>Wild Desk / 野生信号</strong>
+          <em>2 条</em>
+        </a>
+        <a class="agenda-card" href="#slide-17" data-go-slide="slide-17">
+          <span>论文</span>
+          <strong>Research Watch / 论文</strong>
+          <em>1 条</em>
+        </a>
+        <a class="agenda-card" href="#slide-19" data-go-slide="slide-19">
+          <span>专利</span>
+          <strong>Patent Watch / 专利</strong>
+          <em>1 条</em>
+        </a>
+        <a class="agenda-card" href="#slide-21" data-go-slide="slide-21">
+          <span>中国</span>
+          <strong>China / Global Compare</strong>
+          <em>3 条</em>
+        </a>
+        <a class="agenda-card" href="#slide-25" data-go-slide="slide-25">
+          <span>海外</span>
+          <strong>Global Signals</strong>
+          <em>2 条</em>
+        </a></div>
+    </section>
+    <section class="deck-slide section-slide" id="slide-03" data-slide data-section="official">
+
+    <div class="slide-chrome">
+      <span>03</span>
+      <span>大厂官方</span>
+    </div>
+      <p class="eyebrow">大厂官方</p>
+      <h2>Official Desk / 大厂官方</h2>
+      <div class="section-topic-list">
+
+              <div>
+                <span>developer surface · developer surface · official Android XR docs · pre-launch hardware</span>
+                <strong>Android XR 把眼镜从产品预告推进成可测试的开发者表面</strong>
+              </div>
+              <div>
+                <span>confirmed product · confirmed product · official privacy control · review/community friction</span>
+                <strong>Meta 把 capture LED 防篡改写成相机级硬件约束</strong>
+              </div>
+              <div>
+                <span>confirmed product · confirmed product · official launch · developer surface</span>
+                <strong>Snap SPECS 把 AI、空间显示和 agent 开发一起装进独立眼镜</strong>
+              </div>
+              <div>
+                <span>developer surface · developer surface · enterprise platform · not a shipped consumer device</span>
+                <strong>Project Solara/MDEP 把 agent-first 设备变成企业管理面的问题</strong>
+              </div>
+              <div>
+                <span>confirmed product · confirmed product · voice interface · ChatGPT Voice rollout</span>
+                <strong>GPT-Live 把 ChatGPT Voice 从问答入口推向连续对话界面</strong>
+              </div>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-04" data-slide data-section="official" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>04</span>
+      <span>Official Desk / 大厂官方</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">大厂官方</span>
+            <span>developer surface · developer surface · official Android XR docs · pre-launch hardware</span>
+            <span>2026-05-19 intelligent-eyewear preview · 2026-06-15 Developer Preview 4</span>
+          </div>
+          <h2 class="dossier-title">Android XR 把眼镜从产品预告推进成可测试的开发者表面</h2>
+          <p class="dossier-lead">产品: Android XR intelligent-eyewear developer surface. Android XR intelligent-eyewear developer surface：Google 在 I/O 2026 把 Android XR 眼镜路线拆成 audio glasses 与 display glasses，并与 Samsung、Gentle Monster、Warby Parker 和 Qualcomm 合作展示方向。更具体的产品事实来自 Developer Preview 4：开发者可以用 Android Studio emulator、Jetpack Projected、Compose Glimmer 和 Gemini API 为眼镜扩展移动 app。硬件仍是秋季 select markets 的预告，开发者栈已经先公开。 本条按 developer surface 处理；未披露处写 source not stated。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://developer.android.com/blog/posts/what-s-new-in-android-xr-tooling-engine-support-and-ecosystem-updates?hl=en" target="_blank" rel="noreferrer" aria-label="Android Developers 的 Developer Preview 4 页面截图；Projected、Compose Glimmer、Device Availability API 与多引擎支持以官方文档为准。">
+        <img src="../assets/android-xr-developer-preview-4-source-2026-06.png" alt="真实来源视觉：Android XR Developer Preview 4" width="1600" height="1000" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>Android Developers 的 Developer Preview 4 页面截图；Projected、Compose Glimmer、Device Availability API 与多引擎支持以官方文档为准。</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>产品是什么</span>
+                  <p>Google 在 I/O 2026 把 Android XR 眼镜路线拆成 audio glasses 与 display glasses，并与 Samsung、Gentle Monster、Warby Parker 和 Qualcomm 合作展示方向。更具体的产品事实来自 Developer Preview 4：开发者可以用 Android Studio emulator、Jetpack Projected、Compose Glimmer 和 Gemini API 为眼镜扩展移动 app。硬件仍是秋季 select markets 的预告，开发者栈已经先公开。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>怎么用</span>
+                  <p>用户可以用语音向 Gemini 请求导航、附近咖啡店、取餐、通知摘要、日历事件、照片和实时翻译；display glasses 还可以把菜单或路牌翻译显示在视野里，audio glasses 则以语音回传。开发者从现有 Android app 出发，用 Jetpack Projected 把手机体验投射到眼镜，用 Device Availability API 根据眼镜是否佩戴调整生命周期，再用 Compose Glimmer 处理透明显示上的文字与 touchpad 组件。Gemini Live API 与 function calling 提供实时语音和动作入口。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>规格 / 系统栈</span>
+                  <p>官方公开的栈包括 Android XR SDK Developer Preview 4、Android Studio emulator、Jetpack Projected、Jetpack Compose Glimmer、Device Availability API、Gemini Live API、Firebase AI Logic、Kotlin、Unity、Unreal、Godot、ARCore Geospatial API 与 OpenXR。Google 将硬件分为 headset、wired XR glasses、audio glasses 和 display glasses；Samsung/Google intelligent eyewear 预计 2026 年秋季在 select markets 发布。镜片参数、相机、处理器、重量、电池、价格、具体 Android 版本和端云模型分工均为 source not stated。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>使用场景</span>
+                  <p>官方示例覆盖边走边问路、在路线中找咖啡店并下单、读重要消息摘要、添加日历事件、实时翻译对话、翻译视线中的菜单与路牌，以及不掏手机拍照。对开发者，关键场景是把已有移动 app 变成 glanceable companion：眼镜未佩戴时回到手机，走路时把复杂操作压缩为语音、按钮组或短文本。Android Studio emulator 让团队先测试流程与状态。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>解决痛点</span>
+                  <p>这套开发面处理三个早期摩擦：团队不知道从什么 API 开始、手机 app 与眼镜状态脱节、透明显示无法直接复用手机布局。Projected 把跨设备投影变成库，Device Availability API 让“眼镜是否在身上”进入生命周期，Compose Glimmer 为可读性和 touchpad 输入提供组件。对终端用户，目标是少掏手机；对开发者，目标是降低从 demo 到可维护 app 的迁移成本。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>用户原声</span>
+                  <p>来源未披露。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>新技术</span>
+                  <p>新意不在 Gemini 能回答问题，而在系统把 agent、输入和设备状态交给 app。App 可以通过 Gemini Live API 与 function calling 处理实时语音，也可以用 Android Intelligence 和 AppFunctions 暴露可被 agent 发现、执行的服务、数据与动作。Projected 与 Compose Glimmer 共同定义面向视线的 UI 约束：短、可扫读、可在 touchpad 或语音下完成。Device Availability API 把 wearable context 变成开发者必须处理的状态。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>可用性</span>
+                  <p>Developer Preview 4、Android XR 文档、Gemini API 指南和 emulator 已公开；Catalyst Program 为入选开发者提供 pre-release hardware、support forums 与 launch guidance。Google/Samsung intelligent eyewear 公开为 2026 年秋季 select markets，具体产品、地区、价格、预购、处方镜片和发货日 source not stated。当前可以开发和模拟，不能写成消费者产品已经上市。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>限制 / 未知</span>
+                  <p>官方没有给出眼镜硬件统一规格、显示可读性实测、嘈杂环境语音错误率、Gemini 延迟与成本、手机断连时的降级逻辑，也没有说明 AppFunction 授权确认如何呈现。透明显示的通知密度、走路时的注意力分配、旁观者对音频与显示的理解仍需要真实硬件评测。Developer Preview 能证明 API 存在，不能证明日常佩戴体验。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>产品判断</span>
+                  <p>Android XR 最值得跟踪的产物不是一副尚未定价的眼镜，而是一组可让手机 app 迁移到眼前、耳边和 agent loop 的系统接口。Projected、Glimmer 和 Device Availability API 把硬件约束变成开发者契约；生态能否形成，取决于秋季硬件是否稳定、权限是否可解释，以及开发者能否把复杂 app 压成可读、可停、可恢复的微型流程。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://blog.google/products-and-platforms/platforms/android/android-xr-io-2026/" target="_blank" rel="noreferrer">Google intelligent eyewear preview</a><a href="https://developer.android.com/blog/posts/what-s-new-in-android-xr-tooling-engine-support-and-ecosystem-updates?hl=en" target="_blank" rel="noreferrer">Android XR Developer Preview 4</a><a href="https://developer.android.com/develop/xr/gemini?hl=en" target="_blank" rel="noreferrer">Android XR Gemini API guide</a><a href="https://developer.android.com/xr" target="_blank" rel="noreferrer">Android XR platform</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-05" data-slide data-section="official" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>05</span>
+      <span>Official Desk / 大厂官方</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">大厂官方</span>
+            <span>confirmed product · confirmed product · official privacy control · review/community friction</span>
+            <span>2026-07-08 official FAQ · 2026-07-12 regional update</span>
+          </div>
+          <h2 class="dossier-title">Meta 把 capture LED 防篡改写成相机级硬件约束</h2>
+          <p class="dossier-lead">产品: Meta AI Glasses. Meta AI Glasses：Meta AI Glasses 是带摄像头、麦克风、扬声器和 Meta AI 的日常眼镜产品。今天值得记录的产品变化来自 Meta 7 月 FAQ：capture LED 变成相机工作状态的外部信号，第二代起，系统检测到 LED 被遮挡、关闭、物理改造或破坏时会禁用相机。产品焦点因此从“有没有隐私承诺”落到旁观者能看见什么、设备会允许什么。 本条按 confirmed product 处理；未披露处写 source not stated。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://about.fb.com/news/2026/07/metas-ai-glasses-your-questions-answered/" target="_blank" rel="noreferrer" aria-label="Meta 官方 FAQ 页面截图；capture LED、相机禁用、设备端导入和旁观者隐私说明以原文为准。">
+        <img src="../assets/meta-ai-glasses-privacy-source-2026-07.png" alt="真实来源视觉：Meta AI Glasses privacy FAQ" width="1600" height="1000" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>Meta 官方 FAQ 页面截图；capture LED、相机禁用、设备端导入和旁观者隐私说明以原文为准。</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>产品是什么</span>
+                  <p>Meta AI Glasses 是带摄像头、麦克风、扬声器和 Meta AI 的日常眼镜产品。今天值得记录的产品变化来自 Meta 7 月 FAQ：capture LED 变成相机工作状态的外部信号，第二代起，系统检测到 LED 被遮挡、关闭、物理改造或破坏时会禁用相机。产品焦点因此从“有没有隐私承诺”落到旁观者能看见什么、设备会允许什么。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>怎么用</span>
+                  <p>用户通过语音、镜腿控制或手机 companion app 拍照、录视频、听音频、调用 Meta AI，再选择何时把内容导入手机图库。照片录制时 LED 短暂闪烁，视频录制时持续闪烁；用户佩戴者会听到快门声。Meta 说明设备上的图库内容先存于眼镜，导入手机后才进入手机图库；当 LED 被遮挡或检测到篡改，拍摄路径被系统阻断，恢复条件是 LED 未被遮挡且未处于篡改状态。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>规格 / 系统栈</span>
+                  <p>官方确认的栈包括 capture LED、相机、麦克风、扬声器、眼镜本地存储、手机导入、Meta AI 和 companion app。Meta 没有在这份 FAQ 中披露处理器、RAM、相机具体型号、录制码率、端云模型分工或 LED 的亮度与检测阈值，因此这些细节写 source not stated。第二代相机禁用、防篡改检测和数据导入路径是公开的行为约束，不应扩写成隐私绝对保证。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>使用场景</span>
+                  <p>已公开使用包括免手持拍照和视频、听音乐与播客、向 AI 提问、把所见场景交给 AI、再把选择的内容导入手机分享。对佩戴者，拍摄入口减少拿手机的动作；对周围人，LED 提供一个可见的录制提示。真实产品场景还包括多人聚会、公共交通、零售空间和工作现场，这些地方的可接受性取决于旁观者是否理解 LED、佩戴者是否能解释拍摄行为。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>解决痛点</span>
+                  <p>系统处理两类痛点：佩戴者想要持续可用的相机/助手入口，旁观者不想面对不可见的录制。把 LED 和 camera permission 绑定，减少用户用胶带遮灯后仍能拍摄的灰色状态；设备端存储与用户主动导入减少“所有内容自动上云”的直觉风险。代价是硬件和系统需要识别篡改，用户在 LED 故障或误判时会失去相机能力。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>用户原声</span>
+                  <p>来源未披露。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>新技术</span>
+                  <p>新意是把社会规范编码进硬件状态机：capture LED 不只是提示灯，也成为相机许可的一部分。Meta 还说明持续改进对物理改造的检测，并会处理售卖 LED 篡改服务的内容。产品设计上，这是一条“状态可见—能力联动—异常恢复”的链路；它把隐私从设置页移到佩戴者和旁观者共同能观察的物理反馈层。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>可用性</span>
+                  <p>Meta FAQ 已公开，相关 AI Glasses 产品持续销售；具体地区、代际和功能随产品而变。FAQ 没有给出新的统一售价、发货日、固件版本、LED 检测功能的逐型号覆盖或所有地区的开关路径，均为 source not stated。Android Central 报道早期 7 月软件更新会在检测到 LED 被篡改时禁用相机，但本文以 Meta 官方 FAQ 的行为描述为主。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>限制 / 未知</span>
+                  <p>公开资料没有说明误判率、检测延迟、LED 被自然遮挡时的恢复体验、是否存在无相机的 AI 请求路径，也没有独立测试证明旁观者确实能在日光、拥挤环境和远距离看到 LED。Meta 说相机禁用的是对录制能力的约束，不等于所有传感器、语音或云端数据处理都停止。用户仍需要理解每个功能的采集边界。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>产品判断</span>
+                  <p>Meta 把隐私争议转成一个可测试的产品动作：灯被遮或被破坏，相机停。它比一条隐私声明更接近真实交互，却仍需要独立评测、清晰的状态反馈和地区化规则来证明可信度。AI 眼镜接下来的竞争点，会包括能否让旁观者和佩戴者共享同一套录制状态，而非只让拥有者在 App 里看设置。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://about.fb.com/news/2026/07/metas-ai-glasses-your-questions-answered/" target="_blank" rel="noreferrer">Meta AI Glasses privacy FAQ</a><a href="https://www.meta.com/help/smart-glasses/articles/health-safety-and-privacy/privacy-glasses/" target="_blank" rel="noreferrer">Meta glasses privacy approach</a><a href="https://www.androidcentral.com/wearables/meta-glasses-hands-on-review" target="_blank" rel="noreferrer">Android Central hands-on</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-06" data-slide data-section="official" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>06</span>
+      <span>Official Desk / 大厂官方</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">大厂官方</span>
+            <span>confirmed product · confirmed product · official launch · developer surface</span>
+            <span>2026-06-16 official launch · 2026-07 current pre-order watch · 2026-07-14 follow-up · 2026-07-14 follow-up</span>
+          </div>
+          <h2 class="dossier-title">Snap SPECS 把 AI、空间显示和 agent 开发一起装进独立眼镜</h2>
+          <p class="dossier-lead">产品: Snap SPECS. Snap SPECS：Snap SPECS 是独立运行的 see-through AR 眼镜，位于传统 AI 眼镜和封闭式头显之间。Snap 官方把它定义为把 AI assistance、工作工具、娱乐和共享体验放进现实环境的 wearable computer，不需要 puck 或 tether。预订页、规格和开发者工具确认了产品表面，生态规模与日常留存仍需观察。 本条按 confirmed product 处理；未披露处写 source not stated。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://investor.snap.com/news/news-details/2026/Snap-Inc--Debuts-SPECS-Augmented-Reality-Glasses-to-Make-Computing-More-Human/default.aspx" target="_blank" rel="noreferrer" aria-label="Snap 官方 SPECS 发布图；价格、重量、显示、续航和开发者 API 回到官方发布页核对。">
+        <img src="../assets/snap-specs-source-2026-06.jpg" alt="真实来源视觉：Snap SPECS" width="1920" height="1080" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>Snap 官方 SPECS 发布图；价格、重量、显示、续航和开发者 API 回到官方发布页核对。</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>产品是什么</span>
+                  <p>Snap SPECS 是独立运行的 see-through AR 眼镜，位于传统 AI 眼镜和封闭式头显之间。Snap 官方把它定义为把 AI assistance、工作工具、娱乐和共享体验放进现实环境的 wearable computer，不需要 puck 或 tether。预订页、规格和开发者工具确认了产品表面，生态规模与日常留存仍需观察。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>怎么用</span>
+                  <p>用户佩戴 SPECS，通过视野里的空间显示、手部追踪、语音和 Snap Lenses 互动。官方场景包括方向、空间测量、上下文 AI、屏幕投射、白板和把教育内容叠加到真实物体上。开发者在 Lens Studio 中构建、调试和发布 Lenses；Migration Agent、Spatial Benchmark、Native Development Kit 和 agentic development preview 让入口从滤镜扩大到空间 agent。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>规格 / 系统栈</span>
+                  <p>官方列出 47 mm 版本 132 g、52 mm 版本 136 g、51° 视场角、1600 万色、双 Snapdragon 处理器、7 ms motion-to-photon latency、最高 4 小时 mixed-use battery，充电盒再提供四次充电，最多 20 小时 mixed use。系统还包括 display、waveguide、电致变色镜片、手部追踪、Snap OS、Lens Studio 和 AI assistance。处理器型号、RAM、摄像头参数、网络制式和端云分工为 source not stated。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>使用场景</span>
+                  <p>可验证场景包括现场方向和空间测量、把屏幕或白板带到工作现场、教育和创作 Lens、上下文 AI 提示以及把已有项目迁移到 SPECS。对工作者，价值是保持身体和环境连接；对创作者，价值是空间软件而非手机滤镜。设备重量、续航和开发者内容决定它能否从发布会 demo 进入日常佩戴。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>解决痛点</span>
+                  <p>SPECS 试图解决手机让人低头、头显隔离环境、普通 AI 眼镜显示能力有限的冲突。更大的私密显示和独立计算减少手机或 tether 依赖；Snap OS 和工具减少硬件到应用的断层。新成本是视觉注意力竞争、手势疲劳、公共空间的采集边界，以及用户能否理解 AI 在何时看见、处理和保存信息。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>用户原声</span>
+                  <p>来源未披露。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>新技术</span>
+                  <p>增量是自研光学与 waveguide、双 Snapdragon、手部追踪、Snap OS、Spatial Benchmark、Migration Agent 和 Lens Studio 的 agentic development 组合。Snap 还强调访问敏感信息前询问、录制时 LED、优先端侧处理，以及用户对存储、同步、分享和删除的控制。重点不是眼镜里加 chatbot，而是让空间软件拥有可开发、可评估的 agent 表面。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>可用性</span>
+                  <p>Snap 称 SPECS 已开启预订，价格 2,195 美元，另有 200 美元可退订金，预计 2026 年秋季在美国、英国和法国发货。开发者 preview 正向 Claude Code、Codex 和 Cursor 推出。具体消费者功能、处方镜片、地区扩展、订阅和第三方 agent 权限为 source not stated。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>限制 / 未知</span>
+                  <p>关键未知包括 4 小时 mixed-use 在真实空间 AI 负载下是否成立、132–136 g 是否适合长时间佩戴、7 ms 指标覆盖哪一段完整输入链路，以及 Lens 如何获得授权、解释数据采集并恢复错误。2,195 美元也把它放在早期采用者区间。没有长期独立评测，不能把发布会体验视为普遍可用性。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>产品判断</span>
+                  <p>SPECS 是目前最完整的 agent-first hardware 叙事：空间显示、独立计算和开发者工具同时进入产品前台。Snap 要证明的是用户是否愿意长期佩戴一台 2,195 美元、四小时续航的电脑，以及开发者能否做出可理解、可退出、可共享的 agent。若生态成形，AI 眼镜竞争会从“有没有相机”推进到“谁控制空间软件层”。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://investor.snap.com/news/news-details/2026/Snap-Inc--Debuts-SPECS-Augmented-Reality-Glasses-to-Make-Computing-More-Human/default.aspx" target="_blank" rel="noreferrer">Snap official SPECS launch</a><a href="https://www.spectacles.com/" target="_blank" rel="noreferrer">Snap SPECS product page</a><a href="https://techcrunch.com/2026/06/16/snap-finally-debuts-its-long-awaited-ar-glasses-specs-and-oof-they-arent-cheap/" target="_blank" rel="noreferrer">TechCrunch SPECS launch report</a><a href="https://developers.snap.com/lens-studio/" target="_blank" rel="noreferrer">Snap Lens Studio developer tools</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-07" data-slide data-section="official" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>07</span>
+      <span>Official Desk / 大厂官方</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">大厂官方</span>
+            <span>developer surface · developer surface · enterprise platform · not a shipped consumer device</span>
+            <span>2026-06-02 official Microsoft Build post · 2026-07 platform watch · 2026-07-14 follow-up · 2026-07-14 follow-up</span>
+          </div>
+          <h2 class="dossier-title">Project Solara/MDEP 把 agent-first 设备变成企业管理面的问题</h2>
+          <p class="dossier-lead">产品: Microsoft Project Solara / MDEP. Microsoft Project Solara / MDEP：Project Solara 是 Microsoft 在 Build 2026 介绍的 chip-to-cloud platform，目标是支持 agent-first enterprise devices；MDEP 是企业设备的 OS 与管理基础。官方把它放在会议室设备、企业手机、数字标牌、工业/IoT endpoint 和 AI-enabled edge device 的共同底座上。它不是已上市终端，而是把设备如何让 agent 工作从单个 App 提升到身份、管理和安全平台。 本条按 developer surface 处理；未披露处写 source not stated。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://techcommunity.microsoft.com/blog/microsoftdeviceecosystemplatformblog/powering-new-devices-and-agent-first-experiences-with-mdep/4524525" target="_blank" rel="noreferrer" aria-label="Microsoft MDEP 官方社区文章截图；Project Solara、Entra、Intune、Defender 和跨设备管理以原文为准。">
+        <img src="../assets/mdep-project-solara-source-2026-06.png" alt="真实来源视觉：Microsoft Project Solara and MDEP" width="1600" height="900" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>Microsoft MDEP 官方社区文章截图；Project Solara、Entra、Intune、Defender 和跨设备管理以原文为准。</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>产品是什么</span>
+                  <p>Project Solara 是 Microsoft 在 Build 2026 介绍的 chip-to-cloud platform，目标是支持 agent-first enterprise devices；MDEP 是企业设备的 OS 与管理基础。官方把它放在会议室设备、企业手机、数字标牌、工业/IoT endpoint 和 AI-enabled edge device 的共同底座上。它不是已上市终端，而是把设备如何让 agent 工作从单个 App 提升到身份、管理和安全平台。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>怎么用</span>
+                  <p>终端用户在会议室、工厂、诊所或前台使用 agent 驱动的设备；agent 根据任务和环境被调度，用户看到的是工作目标、提示或设备动作，而非先打开传统 App。管理员通过 Entra 身份、Intune 管理和 Defender for Endpoint 防护设定范围、策略和生命周期。官方承诺是 agent 继承平台保证，不让每个应用重新拼装身份、设备管理和威胁防护。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>规格 / 系统栈</span>
+                  <p>官方确认 enterprise-grade OS、Entra identity、Intune management、Defender for Endpoint、跨设备 fleet foundation 与 Project Solara chip-to-cloud 方向。媒体报道进一步提到轻量 edge OS、Azure agent services、持久化 cloud state、agent dispatcher 和 task manager，并称基于 AOSP；这些细节需后续官方文档核对。芯片、AOSP 分支、API、SDK、设备型号、价格、发货和公开开发者资格为 source not stated。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>使用场景</span>
+                  <p>企业场景覆盖会议室系统、工业 endpoint、诊所、前台、数字标牌、企业手机和其他边缘设备。设备可以把任务交给 agent，由系统按上下文激活适合的 agent，管理员统一管理身份、策略与安全。它解决企业不想为每种新形态重新建立账户、部署、更新和审计体系的问题；真实 partner hardware 和 pilot 仍需验证体验。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>解决痛点</span>
+                  <p>传统企业设备按 App 和型号分裂，agent-first 设备会让一个任务跨越终端、服务和代理。MDEP 试图把复杂性收回平台：身份、管理、威胁防护、生命周期和信任模型统一。用户收益是少登录和更清楚的边界；风险是 agent 代表组织行动时，责任、权限、日志和人工接管必须比 App 时代更细。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>用户原声</span>
+                  <p>来源未披露。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>新技术</span>
+                  <p>新组合是 agent dispatcher、task manager、cloud state 与企业 OS 管理面，并让 agent-first device 继承 Entra、Intune、Defender。若 AOSP edge OS 与 Azure agent 服务路线成立，设备会成为 agent 的具身化端点，而不是运行 Office 或 Android App 的容器。最值得验证的是跨设备状态如何同步，以及管理员能否看到 agent 做了什么。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>可用性</span>
+                  <p>MDEP 官方文章发表于 2026-06-02，Project Solara 被描述为 announced platform，没有给消费者购买路径或终端发布日期。企业合作伙伴、SDK、开发者申请、Azure 服务区域、许可价格和公开试点为 source not stated。本条保持 developer surface/enterprise platform watch，不写成 confirmed shipped product。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>限制 / 未知</span>
+                  <p>未知包括 MDEP 暴露的 OS/API、Solara 哪些部分可用、task manager 是否对管理员开放、错误如何回滚、跨设备身份如何最小授权、AOSP 如何与 Windows/Android 共存。企业还需要数据驻留、审计、合规、离线和供应商退出机制，当前来源没有实证细节。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>产品判断</span>
+                  <p>Project Solara/MDEP 把 agent UX 的难题放回系统底座：设备是受身份、策略、生命周期和安全约束的执行节点。Microsoft 尚未交付普通用户可试用的产品，因此判断应保持克制；对企业 HCI 的信号很清楚：设计必须连接 agent 做了什么、代表谁、在哪台设备上做、谁能停止到管理平面。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://techcommunity.microsoft.com/blog/microsoftdeviceecosystemplatformblog/powering-new-devices-and-agent-first-experiences-with-mdep/4524525" target="_blank" rel="noreferrer">Microsoft MDEP: Project Solara</a><a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-unveils-project-solara-ai-a-chip-to-cloud-platform-built-to-power-a-new-generation-of-agent-first-enterprise-devices-hardware-designed-to-run-ai-agents-instead-of-traditional-apps" target="_blank" rel="noreferrer">Project Solara coverage</a><a href="https://www.microsoft.com/en-us/security/business/microsoft-entra" target="_blank" rel="noreferrer">Microsoft Entra</a><a href="https://www.microsoft.com/en-us/security/business/microsoft-intune" target="_blank" rel="noreferrer">Microsoft Intune</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-08" data-slide data-section="official" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>08</span>
+      <span>Official Desk / 大厂官方</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">大厂官方</span>
+            <span>confirmed product · confirmed product · voice interface · ChatGPT Voice rollout</span>
+            <span>2026-07-08 official release · 2026-07-11 follow-up · 2026-07-12 follow-up · 2026-07-13 follow-up · 2026-07-14 follow-up · 2026-07-14 follow-up</span>
+          </div>
+          <h2 class="dossier-title">GPT-Live 把 ChatGPT Voice 从问答入口推向连续对话界面</h2>
+          <p class="dossier-lead">产品: OpenAI GPT-Live. OpenAI GPT-Live：GPT-Live 是 OpenAI 在 2026-07-08 发布的新一代语音模型，官方定位为 powering ChatGPT Voice 的自然人机对话模型。它面向 ChatGPT 的语音入口，用户感知到的产品变化是对话更自然、可在复杂问题处理中保持话轮连续，并在需要搜索、深度推理或更复杂工作时把任务委派给后台 frontier model。官方说明 launch 时 GPT-Live 会在后台使用 GPT-5.5，后续会随 frontier models 更新。本期把它作为 confirmed product 处理，所有未由来源明确披露的延迟、语言、地区、价格和 API 细节写 source not stated。。本条按 confirmed product 处理；规格、价格、地区、日期只采用来源明示信息，未披露处写 source not stated。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://openai.com/index/introducing-gpt-live/" target="_blank" rel="noreferrer" aria-label="真实来源截图：OpenAI GPT-Live 官方发布页，作为 ChatGPT Voice 新语音模型的产品证据。">
+        <img src="../assets/openai-gpt-live-source-2026-07-10.png" alt="真实来源截图：OpenAI GPT-Live voice product release" width="1440" height="900" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>真实来源截图：OpenAI GPT-Live 官方发布页，作为 ChatGPT Voice 新语音模型的产品证据。</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>产品是什么</span>
+                  <p>GPT-Live 是 OpenAI 在 2026-07-08 发布的新一代语音模型，官方定位为 powering ChatGPT Voice 的自然人机对话模型。它面向 ChatGPT 的语音入口，用户感知到的产品变化是对话更自然、可在复杂问题处理中保持话轮连续，并在需要搜索、深度推理或更复杂工作时把任务委派给后台 frontier model。官方说明 launch 时 GPT-Live 会在后台使用 GPT-5.5，后续会随 frontier models 更新。本期把它作为 confirmed product 处理，所有未由来源明确披露的延迟、语言、地区、价格和 API 细节写 source not stated。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>怎么用</span>
+                  <p>用户进入 ChatGPT Voice 后直接说话，不再把语音当作录一句、等一句的严格轮流流程。GPT-Live 可以在用户停顿、补充或改变语气时维持会话流；当问题需要更重的检索或推理，它先用短反馈维持在场感，再把复杂部分交给后台模型处理，结果准备好后带回当前语音对话。媒体报道还提到实时翻译、减少抢话、可要求助手保持安静直到被点名等交互方向；具体地区和账户层级以官方为准。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>规格 / 系统栈</span>
+                  <p>来源支持的信息包括：GPT-Live 是 ChatGPT Voice 的新语音模型；它能把需要 web search、deeper reasoning 或 complex work 的问题委派给后台 frontier model；launch 时后台使用 GPT-5.5；OpenAI live 页面有 2026-07-08 replay。媒体报道补充 GPT-Live-1、Mini、付费/免费层级、全球 rollout 与 live translation，但本期只把这些当作媒体补充，需要以官方产品页最终可见规则为准。音频采样率、延迟数值、支持语言清单、价格、API 名称、企业管理策略为 source not stated。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>使用场景</span>
+                  <p>最直接场景是开车或步行时问答、语言翻译、陪用户做长任务拆解、会议前快速准备、口头 brainstorming、语音学习和无屏场景的信息查询。它也适合从回答一句进入陪着做事：例如用户一边整理材料一边说需求，系统先保持对话，再把复杂检索或生成交给后台。对 HCI 来说，关键是语音不再只是输入法，它同时承担状态反馈、等待解释和任务恢复。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>解决痛点</span>
+                  <p>它解决的是语音 AI 的两类摩擦：第一，传统语音助手常在停顿处抢话，用户被迫用机器节奏说话；第二，复杂任务等待时界面沉默，用户不知道系统是否听懂、是否还在工作。GPT-Live 把 turn-taking、后台委派和短反馈合在一起，让等待变成可感知状态。风险也同步增加：如果后台委派慢、解释不清或翻译出错，用户在语音场景里比文本场景更难审阅和撤回。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>用户原声</span>
+                  <p>今天可用用户证据主要是媒体报道和开发者/评论者观察，尚无大规模长期用户留存数据。TechRadar 和 MacRumors 报道集中在更自然、更少打断、实时翻译和 ChatGPT Voice 替换体验。普通用户对口音、嘈杂环境、隐私录音提示、错误恢复和多语言准确率的反馈仍需观察；source not stated。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>新技术</span>
+                  <p>产品新意不在单个 benchmark，而在语音界面的任务编排：前台语音模型负责自然话轮和在场反馈，后台 frontier model 负责更重的推理、搜索和复杂工作。这个拆分会影响未来语音 agent 设计：系统要能同时陪用户和完成任务，还要把后台状态用短、自然、低打断的方式反馈给用户。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>可用性</span>
+                  <p>OpenAI 官方页面显示 GPT-Live 已发布并 powering ChatGPT Voice。具体哪些账户、国家、客户端版本、企业工作区策略、API 可用性和 rollout 节奏，除来源明确处外均为 source not stated。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>限制 / 未知</span>
+                  <p>未知项包括真实延迟、弱网表现、嘈杂环境识别、多说话人场景、隐私和音频保存规则、实时翻译语言质量、是否支持开发者 API、管理员是否能关闭、以及后台模型切换时用户能否看见。语音界面还天然缺少文本审阅缓冲，错误输出的纠正成本更高。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>产品判断</span>
+                  <p>今天封面选 GPT-Live，因为它把 AI 产品入口从聊天框继续推向连续语音协作。对产品团队的判断很实际：语音 agent 成败取决于 turn-taking、等待反馈、纠错和隐私提示，而不只取决于模型是否更聪明。若这些状态做清楚，语音会成为 AI OS 的自然 shell；若做不清楚，它会停留在演示感很强的问答模式。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://openai.com/index/introducing-gpt-live/" target="_blank" rel="noreferrer">OpenAI: Introducing GPT-Live</a><a href="https://openai.com/live/" target="_blank" rel="noreferrer">OpenAI live replay</a><a href="https://www.macrumors.com/2026/07/08/openai-gpt-live-voice/" target="_blank" rel="noreferrer">MacRumors: GPT-Live voice coverage</a><a href="https://www.techradar.com/ai-platforms-assistants/chatgpt/breaking-chatgpts-new-gpt-live-voice-model-is-here-and-it-can-speak-and-listen-at-the-same-time" target="_blank" rel="noreferrer">TechRadar: GPT-Live rollout</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide section-slide" id="slide-09" data-slide data-section="reviews">
+
+    <div class="slide-chrome">
+      <span>09</span>
+      <span>媒体/评测</span>
+    </div>
+      <p class="eyebrow">媒体/评测</p>
+      <h2>Review Desk / 媒体与评测</h2>
+      <div class="section-topic-list">
+
+              <div>
+                <span>confirmed product · confirmed product · official product · review/community friction</span>
+                <strong>HTC VIVE Eagle 把相机、翻译和本地数据放进一副生活化眼镜</strong>
+              </div>
+              <div>
+                <span>confirmed product · confirmed product · review/community friction</span>
+                <strong>Even G2 用无相机、无扬声器换取生产力与社交可接受性</strong>
+              </div>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-10" data-slide data-section="reviews" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>10</span>
+      <span>Review Desk / 媒体与评测</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">媒体/评测</span>
+            <span>confirmed product · confirmed product · official product · review/community friction</span>
+            <span>2025-08-14 official launch · 2026-07-01 HardwareZone review</span>
+          </div>
+          <h2 class="dossier-title">HTC VIVE Eagle 把相机、翻译和本地数据放进一副生活化眼镜</h2>
+          <p class="dossier-lead">产品: HTC VIVE Eagle. HTC VIVE Eagle：VIVE Eagle 是 HTC 的相机型 AI 眼镜系统，配套 VIVE Connect 手机应用和 VIVE AI 云服务。它把语音助手、免手拍照、音乐、提醒、笔记、餐厅推荐和拍照翻译放进日常镜框，产品形态更接近音频眼镜加视觉输入，适合旅行和快速记录。 本条按 confirmed product 处理；未披露处写 source not stated。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://www.vive.com/us/newsroom/2025-08-14/" target="_blank" rel="noreferrer" aria-label="HTC VIVE 官方产品页截图；12MP 相机、VIVE AI、13 语言翻译、电池与隐私说明以官方资料为准。">
+        <img src="../assets/htc-vive-eagle-source-2026-07.png" alt="真实来源视觉：HTC VIVE Eagle" width="1600" height="1000" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>HTC VIVE 官方产品页截图；12MP 相机、VIVE AI、13 语言翻译、电池与隐私说明以官方资料为准。</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>产品是什么</span>
+                  <p>VIVE Eagle 是 HTC 的相机型 AI 眼镜系统，配套 VIVE Connect 手机应用和 VIVE AI 云服务。它把语音助手、免手拍照、音乐、提醒、笔记、餐厅推荐和拍照翻译放进日常镜框，产品形态更接近音频眼镜加视觉输入，适合旅行和快速记录。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>怎么用</span>
+                  <p>用户佩戴眼镜，通过“Hey VIVE”等语音指令或快捷键拍照、录制、记提醒、做笔记、询问推荐、播放音乐和调用翻译。相机捕获的内容交给 VIVE AI，翻译结果通过开放式音频播放；用户也可以在手机应用中管理内容和设置。官方支持 OpenAI GPT 与 Google Gemini 等第三方模型，模型切换、网络可用性和结果质量成为实际流程的一部分。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>规格 / 系统栈</span>
+                  <p>HTC 官方列出 12MP ultra-wide camera、低于 49 g 的镜框、235mAh 电池、最高 36 小时待机、约 4.5 小时连续音乐播放、10 分钟充至约 50%、开放式音频、ZEISS sun lenses、LED 录制指示、AES-256 加密和 13 种翻译语言。系统由眼镜、VIVE Connect 和 cloud AI service platform 构成。芯片、RAM、录制分辨率、Wi-Fi/蜂窝方式与 VIVE AI 的端云分工为 source not stated。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>使用场景</span>
+                  <p>已公开场景包括旅行时拍摄街景和翻译菜单、用语音记录提醒、在路上听音乐和接听电话、寻找餐厅、给眼前内容做语音翻译，以及第一人称记录。它面向需要保留双手、保持环境感知和减少掏手机次数的人。开放式音频保留环境声，视觉捕获则让翻译和内容理解比纯音频眼镜更具体。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>解决痛点</span>
+                  <p>VIVE Eagle 试图消除“看到之后还要掏手机”的动作，把相机、语音和翻译放在同一入口；本地存储和匿名化声明处理用户对照片和语音被训练的担心。评测指出，AI 眼镜仍受手机配对、应用设置、网络与回答准确度影响。产品把流程变短，却把第三方模型、云服务和数据边界带到眼镜体验里。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>用户原声</span>
+                  <p>来源未披露。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>新技术</span>
+                  <p>主要组合是 12MP ultra-wide camera、开放式音频、VIVE AI 多模型接入、13 语言拍照翻译、眼镜端本地数据存储与 AES-256。HTC 还把 LED 遮挡和移除时的自动停录写入隐私设计。新技术的产品价值取决于反馈：用户必须知道照片是否拍到、翻译是否开始、结果来自哪个模型，以及网络中断后如何恢复。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>可用性</span>
+                  <p>HTC 官方宣布 VIVE Eagle 首发台湾，官方价格 NT$15,600，提供 Berry、Coffee、Grey、Black 四色；美国页面公开了产品信息，实际零售地区和交付仍需按当地页面核对。发布资料还提到两年 VIVE AI Plus，订阅覆盖和地区资格为 source not stated。2026 年 7 月的 HardwareZone 评测提供了真实使用摩擦，但不是 HTC 的规格替代品。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>限制 / 未知</span>
+                  <p>官方的“本地存储”“不用于训练”和“匿名化”仍需要技术审计与独立测试；第三方模型请求会改变数据路径。公开资料没有给出拍照上传延迟、翻译准确率、开放式音频漏音测量、连续 AI 续航、处方镜片区域或手机断连时的降级模式。评测对 AI 眼镜的准确性、连接和日常价值保持保留。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>产品判断</span>
+                  <p>VIVE Eagle 是一条完整可购买的相机型 AI 眼镜路线：语音负责触发，相机负责看见，开放式音频负责回传，手机和云负责补齐能力。它的优势是场景具体，风险是体验高度依赖连接、第三方模型和清晰的数据说明。对产品设计而言，最重要的交互仍是“正在拍什么、谁在处理、何时结束”。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://www.vive.com/us/newsroom/2025-08-14/" target="_blank" rel="noreferrer">HTC VIVE Eagle official launch</a><a href="https://www.vive.com/us/product/vive-eagle/overview/" target="_blank" rel="noreferrer">HTC VIVE Eagle product page</a><a href="https://www.hardwarezone.com.sg/mobile/wearables/htc-vive-eagle-ai-smart-glasses-review" target="_blank" rel="noreferrer">HardwareZone hands-on review</a><a href="https://dl.htc.com/report_materials/htc_security_and_privacy_whitepaper.pdf" target="_blank" rel="noreferrer">HTC security and privacy whitepaper</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-11" data-slide data-section="reviews" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>11</span>
+      <span>Review Desk / 媒体与评测</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">媒体/评测</span>
+            <span>confirmed product · confirmed product · review/community friction</span>
+            <span>2026-07-11 review · 2026-07 official product page · 2026-07-14 follow-up · 2026-07-14 follow-up</span>
+          </div>
+          <h2 class="dossier-title">Even G2 用无相机、无扬声器换取生产力与社交可接受性</h2>
+          <p class="dossier-lead">产品: Even Realities G2. Even Realities G2：Even G2 是带绿色单色 HUD 的无相机智能眼镜，官方强调 camera-free、轻量和日常佩戴；TechCrunch 7 月 11 日 hands-on 指出它没有摄像头和扬声器，功能严重依赖手机连接。它是在社交可接受性、显示生产力和智能程度之间做选择，而不只是少了一个传感器。 本条按 confirmed product 处理；未披露处写 source not stated。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://techcrunch.com/2026/07/11/smart-glasses-without-a-camera-even-realities-bets-productivity-beats-recording-everyone/" target="_blank" rel="noreferrer" aria-label="TechCrunch 2026-07-11 hands-on；官方 G2 页面补充显示、重量、IP65、App 和 Conversate 信息。">
+        <img src="../assets/even-g2-source-2026-07.jpg" alt="真实来源视觉：Even Realities G2" width="1600" height="1600" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>TechCrunch 2026-07-11 hands-on；官方 G2 页面补充显示、重量、IP65、App 和 Conversate 信息。</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>产品是什么</span>
+                  <p>Even G2 是带绿色单色 HUD 的无相机智能眼镜，官方强调 camera-free、轻量和日常佩戴；TechCrunch 7 月 11 日 hands-on 指出它没有摄像头和扬声器，功能严重依赖手机连接。它是在社交可接受性、显示生产力和智能程度之间做选择，而不只是少了一个传感器。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>怎么用</span>
+                  <p>用户用 Even App 配置眼镜，再通过唤醒词、镜腿触控或 Even R1 调用 Even AI、通知、日历、QuickList、导航、翻译、Teleprompt 和 Conversate。官方把 Conversate 拆成 Prep Notes、AI Cues 和 AI Summary：会前准备资料，交谈中获得简短提示，会后在 App 查看摘要。评测指出长段回答会流过视野且难以跳过，户外噪声也会导致唤醒和识别失败。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>规格 / 系统栈</span>
+                  <p>官方列出 36 g、magnesium/titanium、640×350、27.5° FoV、60 Hz、1,200 nits、Micro LED、四麦克风、BLE 5.4、IP65、Android/iOS App、最多两天电池和充电盒七次完整充电；还有 35 种翻译语言、98% passthrough 与 −12 到 +12 处方范围。TechCrunch 报道价格 599 美元、无摄像头和无扬声器。芯片、模型、端云边界和实际连续使用时长为 source not stated。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>使用场景</span>
+                  <p>场景包括把数字和参考资料放入会前 Prep Notes、交谈时获得名词解释、会后摘要、跨语言翻译、演讲提词、通知/日历、无手机导航和快速待办。它适合需要保持眼神接触的沟通者、演讲者、旅行者以及不希望公共拍摄的人。评测也指出，没有会议、翻译或提词需求的普通用户未必有每天佩戴的理由。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>解决痛点</span>
+                  <p>G2 减少相机眼镜带来的旁观者不安，把通知、字幕和提示移到视线里，降低沟通中的低头频率。无扬声器避免开放音频泄露，却让手机、触控和显示变得更重要。显示能承载的内容越多，越需要控制长段文字、通知噪声、误唤醒和断连恢复，否则智能会变成注意力负担。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>用户原声</span>
+                  <p>来源未披露。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>新技术</span>
+                  <p>增量是 camera-free wearable stack：Micro LED HUD、四麦克风、Conversate 会前资料和会后摘要、35 语言翻译、Even Hub 与可选控制环。官方把无相机、无录制和低社交摩擦作为设计原则，并说明云端存储需要明确同意。R1 把健康追踪和眼镜控制放在一起，形成跨设备输入，也增加一个硬件购买决策。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>可用性</span>
+                  <p>Even G2 官方页、支持页和 Even Hub 可访问；TechCrunch 报道 G2 售价 599 美元并已可购买，R1 另售 249 美元。处方镜片和 App 信息可查，但完整国家、交付、售后、第三方开发范围、订阅和企业支持为 source not stated。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>限制 / 未知</span>
+                  <p>评测暴露手机连接不稳定、户外噪声识别失败、回答过长无法中断、亮室需要手动调亮，以及 R1 价格和用途不总匹配。官方“两天电池”取决于显示、Conversate、导航和通知负载，测试条件未披露。第三方 App 是否能带来日常动机，也缺少独立长期证据。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>产品判断</span>
+                  <p>Even G2 的路线很清晰：去掉相机和扬声器，换一层更容易被社会接受的文字界面。它的硬件和隐私边界更克制，但手机连接、显示节奏和 first-party software 仍限制使用频率。它是一副有明确设计判断的生产力眼镜，暂时还不是多数人每天都会戴的 AI 入口。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://www.evenrealities.com/smart-glasses" target="_blank" rel="noreferrer">Even G2 official product page</a><a href="https://techcrunch.com/2026/07/11/smart-glasses-without-a-camera-even-realities-bets-productivity-beats-recording-everyone/" target="_blank" rel="noreferrer">TechCrunch Even G2 hands-on</a><a href="https://hub.evenrealities.com/" target="_blank" rel="noreferrer">Even Hub developer surface</a><a href="https://support.evenrealities.com/" target="_blank" rel="noreferrer">Even support surface</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide section-slide" id="slide-12" data-slide data-section="community">
+
+    <div class="slide-chrome">
+      <span>12</span>
+      <span>社区摩擦</span>
+    </div>
+      <p class="eyebrow">社区摩擦</p>
+      <h2>Community Friction / 社区摩擦</h2>
+      <div class="section-topic-list">
+
+              <div>
+                <span>review/community friction · community signal · not independent benchmark</span>
+                <strong>社区摩擦扫描：AI 眼镜的配对、网络与唯一助手限制仍在前台</strong>
+              </div>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-13" data-slide data-section="community" data-dossier-kind="scan">
+
+    <div class="slide-chrome">
+      <span>13</span>
+      <span>Community Friction / 社区摩擦</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">社区摩擦</span>
+            <span>review/community friction · community signal · not independent benchmark</span>
+            <span>2026-06-20 to 2026-07-10 community signals · 2026-07-13 follow-up · 2026-07-14 follow-up · 2026-07-14 follow-up</span>
+          </div>
+          <h2 class="dossier-title">社区摩擦扫描：AI 眼镜的配对、网络与唯一助手限制仍在前台</h2>
+          <p class="dossier-lead">产品: AI glasses community friction scan. AI glasses community friction scan：这是对 Reddit 公开讨论、媒体 hands-on 和支持摩擦的 source-lane scan，不代表一款新产品，也不把个别帖子当作总体用户结论。今天扫描到的具体问题集中在配对、门店网络、售后/退货、相机隐私灯、地区功能差异，以及眼镜是否只能锁定一个 AI 助手。。这是 review/community friction，用于记录具体信号与证据缺口，不作为已上市产品事实。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://about.fb.com/news/2026/07/metas-ai-glasses-your-questions-answered/amp/" target="_blank" rel="noreferrer" aria-label="真实来源截图：Meta 官方 AI glasses 问答页，记录 2026 年产品功能、隐私和使用方式。">
+        <img src="../assets/meta-ai-glasses-privacy-source-2026-07.png" alt="真实来源截图：Meta AI Glasses 2026" width="1200" height="675" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>真实来源截图：Meta 官方 AI glasses 问答页，记录 2026 年产品功能、隐私和使用方式。</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>产品是什么</span>
+                  <p>这是对 Reddit 公开讨论、媒体 hands-on 和支持摩擦的 source-lane scan，不代表一款新产品，也不把个别帖子当作总体用户结论。今天扫描到的具体问题集中在配对、门店网络、售后/退货、相机隐私灯、地区功能差异，以及眼镜是否只能锁定一个 AI 助手。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>怎么用</span>
+                  <p>用户购买眼镜后需要连接手机、登录账户、完成蓝牙/Wi-Fi 或 App 设置，再在真实场景里调用语音、相机和 AI。如果门店不能提供可用网络、设备无法完成初始化，或用户期待的第三方助手不可用，产品价值会在第一次佩戴前就被削弱。社区讨论描述的是体验断点，尚不足以证明某个问题的发生率。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>规格 / 系统栈</span>
+                  <p>扫描材料没有可靠地给出新的硬件规格、API 版本、芯片或电池数据；可确认的堆栈仍是相机眼镜、手机 App、无线连接、账户服务和云端 AI。所有具体故障比例、地区分布、售后 SLA 和数据保存规则均为 source not stated。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>使用场景</span>
+                  <p>该扫描只服务一个具体任务：判断 AI 眼镜是否能从购买、配对、第一次问答一路进入日常使用。下一轮应继续看离线行为、配对失败恢复、家庭成员共享、企业账户、第三方助手选择和 LED 被遮挡时的提示。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>解决痛点</span>
+                  <p>社区摩擦说明，产品团队解决的不能只是一条功能路线图，还包括网络不可用时如何初始化、用户想退货时如何处理、助手受限时如何解释、以及旁观者如何理解相机状态。缺少这些反馈路径，硬件能力越多，首次失败越难恢复。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>用户原声</span>
+                  <p>来源未披露。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>新技术</span>
+                  <p>本条没有确认新技术；它的价值在于把配对、连接和控制权视为 agent wearable 的系统级交互，而不是售后细节。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>可用性</span>
+                  <p>社区页面和媒体评测可访问；它们是公开摩擦信号，不构成产品可用性或性能保证。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>限制 / 未知</span>
+                  <p>缺少样本量、用户画像、复现步骤、版本号和独立统计，不能把个别帖子升级为普遍结论。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>产品判断</span>
+                  <p>今天没有从社区 lane 晋级新的确认产品；保留这张 scan，是因为 AI 眼镜最容易失去用户的地方仍是首次设置、连接和信任解释。下一步要找带版本、步骤和结果的可复现报告。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://www.reddit.com/r/MetaGlasses/comments/1ua72yc/my_experience_with_rayban_meta/" target="_blank" rel="noreferrer">Reddit: Meta glasses customer support friction</a><a href="https://www.reddit.com/r/HearingAids/comments/1tykkjo/beware_meta_ai_glasses/" target="_blank" rel="noreferrer">Reddit: Meta glasses privacy and setup friction</a><a href="https://www.androidcentral.com/wearables/meta-glasses-hands-on-review" target="_blank" rel="noreferrer">Android Central Meta glasses hands-on</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide section-slide" id="slide-14" data-slide data-section="wild">
+
+    <div class="slide-chrome">
+      <span>14</span>
+      <span>野生信号</span>
+    </div>
+      <p class="eyebrow">野生信号</p>
+      <h2>Wild Desk / 野生信号</h2>
+      <div class="section-topic-list">
+
+              <div>
+                <span>startup signal · startup signal · developer surface · source-backed product page</span>
+                <strong>Brilliant Labs Halo 把开源硬件、端侧 NPU 和长期记忆 agent 放在开发者入口</strong>
+              </div>
+              <div>
+                <span>startup signal · startup signal · app-store surface · community claim</span>
+                <strong>Acti 把 agent 放进手机键盘，而不是另开一个 AI App</strong>
+              </div>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-15" data-slide data-section="wild" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>15</span>
+      <span>Wild Desk / 野生信号</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">野生信号</span>
+            <span>startup signal · startup signal · developer surface · source-backed product page</span>
+            <span>2026-03 Alif partnership · 2026-07 official product/developer pages</span>
+          </div>
+          <h2 class="dossier-title">Brilliant Labs Halo 把开源硬件、端侧 NPU 和长期记忆 agent 放在开发者入口</h2>
+          <p class="dossier-lead">产品: Brilliant Labs Halo. Brilliant Labs Halo：Halo 是 Brilliant Labs 面向创作者和开发者的开放式 AI 眼镜。官方售价 349 美元，产品页把 Noa 私人对话 agent、长期记忆、Vibe Mode、彩色显示、开源硬件和软件放在一起。它选择“可拆解、可开发”的路径，目标是让眼镜成为可编程的 embodied interface，而不是只消费一个封闭助手。 本条按 startup signal 处理；未披露处写 source not stated。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://brilliant.xyz/products/halo" target="_blank" rel="noreferrer" aria-label="Brilliant Labs Halo 官方产品页截图；开源、Noa、Vibe Mode、价格和规格以官方页为准。">
+        <img src="../assets/brilliant-labs-halo-source-2026-07.png" alt="真实来源视觉：Brilliant Labs Halo" width="1600" height="1000" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>Brilliant Labs Halo 官方产品页截图；开源、Noa、Vibe Mode、价格和规格以官方页为准。</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>产品是什么</span>
+                  <p>Halo 是 Brilliant Labs 面向创作者和开发者的开放式 AI 眼镜。官方售价 349 美元，产品页把 Noa 私人对话 agent、长期记忆、Vibe Mode、彩色显示、开源硬件和软件放在一起。它选择“可拆解、可开发”的路径，目标是让眼镜成为可编程的 embodied interface，而不是只消费一个封闭助手。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>怎么用</span>
+                  <p>用户可以通过语音或触控唤醒 Noa，围绕所见、所听和想法进行对话；Vibe Mode 允许用自然语言描述想做的体验。开发者使用 Brilliant SDK、Flutter SDK 和官方文档构建应用，硬件与软件仓库提供更深层改造入口。产品页还描述记忆增强、视觉/音频对话和翻译，具体触发手势、显示反馈、第三方 agent 权限和应用分发路径需要开发者资料继续确认。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>规格 / 系统栈</span>
+                  <p>官方资料列出略高于 40g、Micro Color OLED、2 个骨传导扬声器、Alif Balletto B1 低功耗 AI 处理器、Cortex-M55 CPU 与 Ethos-U55 NPU、低功耗光学传感器、双麦克风、6-axis IMU、tap detection、Bluetooth 5.3、ZephyrOS with Lua interface、跨平台移动 App、cloud-based AI agent，以及官网规格页标出的 14 小时 all-day battery。Alif 合作资料支持 B1/NPU 的端侧 AI 方向；RAM、摄像头规格、模型参数和端云切分为 source not stated。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>使用场景</span>
+                  <p>Halo 适用于把看到的物体、听到的语句和个人记忆连接起来，做翻译、免手问答、创意原型、HUD 小应用和实验性 agent。开发者可以利用光学传感器、麦克风、IMU、显示和骨传导音频创建自己的反馈回路。对用户，它把“记得我见过什么”作为持续价值；对创作者，它把硬件、SDK、Lua/Flutter 和社区项目放在同一试验场。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>解决痛点</span>
+                  <p>开放平台降低了封闭眼镜无法改造、无法接入自有模型、无法研究传感器反馈的门槛；端侧 NPU 路线则试图降低持续视觉/语音任务对云端的依赖。长期记忆解决的是用户反复解释背景的痛点。代价是用户要承担隐私、模型选择、应用质量和硬件维护，记忆 agent 还会扩大“设备记住了什么”的解释与删除需求。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>用户原声</span>
+                  <p>来源未披露。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>新技术</span>
+                  <p>组合亮点是 Alif B1 的 Cortex-M55 加 NPU、低功耗 optical sensor、彩色 Micro OLED、开源硬件/软件和 Noa memory agent。Vibe Mode 把自然语言变成开发入口，SDK 把眼镜从单一 App 变成可编程平台。真正的新交互问题是端侧推理完成时如何反馈、云端 agent 介入时如何提示、长期记忆写入前如何获得同意。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>可用性</span>
+                  <p>Halo 产品页公开 349 美元价格，并写明 shipping starts Q1 2026；开发者页、文档和产品页可访问，处方/太阳镜镜片通过合作伙伴提供，显示 optic 调节范围写为 +2 到 -6 diopters。当前页面没有给出所有国家的库存、交付状态、Noa+ 覆盖、完整应用商店和 SDK 开放资格；这些保持 source not stated。社区仍在讨论实际发货与等待时间，因此本条保留 startup signal。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>限制 / 未知</span>
+                  <p>官方规格与实际量产体验之间仍有证据空缺：没有独立评测证明 14 小时在显示、麦克风、记忆和云请求混合负载下成立，也没有公开的 NPU 模型、摄像头能力、误唤醒率、数据保留实测或开发者 marketplace。官方条款还说明目前没有公开 developer marketplace，社区存在等待发货的讨论。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>产品判断</span>
+                  <p>Halo 代表开发者优先的 AI 眼镜路线：它把能量预算、开放源码、传感器和 agent 记忆同时交给实验者。349 美元降低试错门槛，开源与端侧 NPU提高了研究价值；量产、发货、应用分发和记忆治理仍决定它是可用平台还是有吸引力的开发套件。产品判断应保持 startup signal，不提前升级为成熟消费生态。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://brilliant.xyz/products/halo" target="_blank" rel="noreferrer">Brilliant Labs Halo product page</a><a href="https://brilliant.xyz/pages/developers" target="_blank" rel="noreferrer">Brilliant Labs developer page</a><a href="https://docs.brilliant.xyz/halo/halo/" target="_blank" rel="noreferrer">Halo developer documentation</a><a href="https://www.businesswire.com/news/home/20260311666274/en/Brilliant-Labs-and-Alif-Semiconductor-Partner-on-Development-of-New-Technologies-for-Next-Generation-AI-Powered-Smart-Glasses" target="_blank" rel="noreferrer">Brilliant Labs and Alif partnership</a><a href="https://www.reddit.com/r/SmartGlasses/comments/1spf1l6/are_brilliant_labs_halo_glasses_shipping_now/" target="_blank" rel="noreferrer">Brilliant community shipping discussion</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-16" data-slide data-section="wild" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>16</span>
+      <span>Wild Desk / 野生信号</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">野生信号</span>
+            <span>startup signal · startup signal · app-store surface · community claim</span>
+            <span>2026-06-30 launch coverage · 2026-07-11 follow-up · 2026-07-12 follow-up · 2026-07-13 follow-up · 2026-07-14 follow-up · 2026-07-14 follow-up</span>
+          </div>
+          <h2 class="dossier-title">Acti 把 agent 放进手机键盘，而不是另开一个 AI App</h2>
+          <p class="dossier-lead">产品: Acti Agentic Keyboard. Acti Agentic Keyboard：面向 iOS 和 Android 的 agentic keyboard。它把传统输入法从“打字/改写”扩展成“命令层”：用户在任意文本输入场景里调出键盘，通过 Acti Bar、Skill Keys、AI Dictation 或自然语言技能触发行动。官方称它是 Unified Command Layer commanding Apps &amp; APIs；App Store 文案显示 2.0.x 版本强调 new keyboard-native AI action layer、Press to type、Hold to act、自定义 Skills 和 Liquid Glass Design。。本条按 startup signal 处理；规格、价格、地区、日期只采用来源明示信息，未披露处写 source not stated。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://apps.apple.com/us/app/acti-agentic-keyboard/id6745523677" target="_blank" rel="noreferrer" aria-label="真实来源截图：Apple App Store 页面，展示 Acti Agentic Keyboard 的应用截图与产品页信息。">
+        <img src="../assets/acti-keyboard-appstore-source-2026-07-07.png" alt="真实来源截图：Acti Agentic Keyboard App Store UI" width="1440" height="900" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>真实来源截图：Apple App Store 页面，展示 Acti Agentic Keyboard 的应用截图与产品页信息。</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>产品是什么</span>
+                  <p>面向 iOS 和 Android 的 agentic keyboard。它把传统输入法从“打字/改写”扩展成“命令层”：用户在任意文本输入场景里调出键盘，通过 Acti Bar、Skill Keys、AI Dictation 或自然语言技能触发行动。官方称它是 Unified Command Layer commanding Apps &amp; APIs；App Store 文案显示 2.0.x 版本强调 new keyboard-native AI action layer、Press to type、Hold to act、自定义 Skills 和 Liquid Glass Design。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>怎么用</span>
+                  <p>典型流程是用户留在当前 App，比如聊天、邮件、社交或任务工具，不切到独立 AI App。用户输入意图或长按 Acti Bar，让键盘读取当前文字环境并执行动作：生成回复、分享位置、调用外部服务、创建日程、从 Notion 等工具取信息、运行用户自定义 Skill。执行后结果回填到当前文本框或以可发送内容呈现。社区帖描述的交互是 type what you want, long-press the spacebar, then the keyboard acts。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>规格 / 系统栈</span>
+                  <p>来源明确的是 iOS App Store 页面、官方站点、iOS/Android 方向、Acti Bar、Skill Keys、AI Dictation、自定义 Skills、自然语言创建技能、跨文本框使用，以及它把 Apps &amp; APIs 作为可命令对象。具体模型供应商、Android 商店链接、每个 API connector 清单、权限弹窗细节、端侧/云侧边界、数据保存周期、价格、企业版管理能力和地区可用性为 source not stated。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>使用场景</span>
+                  <p>具体场景包括在聊天里直接插入位置或实时信息，在邮件里生成或改写回复，在社交 App 中把想法转成可发布内容，在工作流里创建会议、查询 Notion、调用小工具，或把常用重复动作保存成 Skill Keys。它的关键不是更聪明的自动补全，而是把“我现在想做什么”变成不用离开当前 App 的动作入口。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>解决痛点</span>
+                  <p>它解决的是移动端 AI 的切换成本。今天很多 AI 助手要求用户复制文本、打开独立 App、解释上下文、复制结果、回到原 App。键盘天然处在每个输入场景的最低层，Acti 借这个位置把 agent 放在用户已经准备表达意图的地方。对 UX 来说，少一次 App 切换就少一次上下文丢失，但代价是键盘权限非常敏感，用户必须理解它能读什么、传什么、执行什么。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>用户原声</span>
+                  <p>Reddit 创作者帖把痛点描述为 tired of constantly switching between apps，并强调 unlike most AI keyboards that only rewrite text, Acti turns the keyboard into an active agent。该帖属于社区/创作者信号，不能替代独立评测。实际普通用户留存、错误率、隐私投诉和 App Store 评论分布需要继续观察。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>新技术</span>
+                  <p>新技术点是 keyboard-native agent layer：用长按、键位、文本场景和自然语言 Skill 编排代替 app-to-app automation。它把手机系统里最稳定的输入入口变成 programmable command layer，比单独的 chatbot 更接近“软硬件入口”的产品形态。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>可用性</span>
+                  <p>App Store 页面可访问，TechCrunch 报道称产品面向 iOS 和 Android。具体 Android 下载渠道、地区限制、收费层级、企业部署、后台权限和 API partner 清单未由当前来源完整披露；source not stated。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>限制 / 未知</span>
+                  <p>最大限制是信任。第三方键盘常常需要 Full Access 或类似权限，用户会担心敏感输入、验证码、密码、企业聊天内容被处理。其次是执行失败：如果 Skill 调用外部 API 失败、当前 App 不支持回填、或用户误触长按，界面必须有确认、撤销、权限解释和错误恢复。当前来源未给出足够独立评测。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>产品判断</span>
+                  <p>Acti 是典型的野生但值得跟的产品信号。它抓住了手机上最强入口之一：键盘。产品判断取决于两件事：一是执行能力是否真的跨 App 稳定，二是权限解释是否足够短、可信、可撤销。若这两点成立，agent 不必等 OS 级 Siri/Gemini 改造，也能在输入层获得日常使用频率。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://openacti.com/" target="_blank" rel="noreferrer">Acti official site</a><a href="https://apps.apple.com/us/app/acti-agentic-keyboard/id6745523677" target="_blank" rel="noreferrer">Apple App Store: Acti Agentic Keyboard</a><a href="https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard/" target="_blank" rel="noreferrer">TechCrunch: Acti agentic keyboard</a><a href="https://www.reddit.com/r/SideProject/comments/1ukorbc/i_got_tired_of_constantly_switching_between_apps/" target="_blank" rel="noreferrer">Reddit r/SideProject: Acti creator post</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide section-slide" id="slide-17" data-slide data-section="research">
+
+    <div class="slide-chrome">
+      <span>17</span>
+      <span>论文</span>
+    </div>
+      <p class="eyebrow">论文</p>
+      <h2>Research Watch / 论文</h2>
+      <div class="section-topic-list">
+
+              <div>
+                <span>research signal · research signal · patent signal downgraded</span>
+                <strong>VisionClaw 与智能眼镜专利提醒：连续感知 agent 还只是研究/专利信号</strong>
+              </div>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-18" data-slide data-section="research" data-dossier-kind="scan">
+
+    <div class="slide-chrome">
+      <span>18</span>
+      <span>Research Watch / 论文</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">论文</span>
+            <span>research signal · research signal · patent signal downgraded</span>
+            <span>2026 research/patent watch · 2026-07-11 follow-up · 2026-07-12 follow-up · 2026-07-13 follow-up · 2026-07-14 follow-up · 2026-07-14 follow-up</span>
+          </div>
+          <h2 class="dossier-title">VisionClaw 与智能眼镜专利提醒：连续感知 agent 还只是研究/专利信号</h2>
+          <p class="dossier-lead">产品: Wearable agent research and patent watch. Wearable agent research and patent watch：这是 research/patent watch，不是确认上市产品。VisionClaw 论文描述 always-on wearable AI agent，把 Meta Ray-Ban smart glasses 的 egocentric perception 与 Gemini Live、OpenClaw AI agents 结合，支持语音驱动的 in-situ action delegation。另有智能眼镜对话 breakdown 研究和 AI-supported smart glasses、AI Smart Glasses 外观专利作为方向信号。本期明确降级：论文/专利不能当作产品事实。。本条按 research signal 处理；规格、价格、地区、日期只采用来源明示信息，未披露处写 source not stated。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://arxiv.org/html/2604.03486v2" target="_blank" rel="noreferrer" aria-label="真实来源截图：arXiv VisionClaw 论文页面，按 research signal 降级处理。">
+        <img src="../assets/visionclaw-research-source-2026-07-07.png" alt="真实来源截图：VisionClaw research paper" width="1440" height="900" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>真实来源截图：arXiv VisionClaw 论文页面，按 research signal 降级处理。</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>产品是什么</span>
+                  <p>这是 research/patent watch，不是确认上市产品。VisionClaw 论文描述 always-on wearable AI agent，把 Meta Ray-Ban smart glasses 的 egocentric perception 与 Gemini Live、OpenClaw AI agents 结合，支持语音驱动的 in-situ action delegation。另有智能眼镜对话 breakdown 研究和 AI-supported smart glasses、AI Smart Glasses 外观专利作为方向信号。本期明确降级：论文/专利不能当作产品事实。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>怎么用</span>
+                  <p>研究原型的交互是眼镜持续感知第一人称环境，用户用语音委派任务，系统把看到的上下文与 agent 执行能力连接起来，例如识别环境、记录信息、调用工具、执行后续动作。对话 breakdown 研究提醒，voice-only 或 non-display glasses 在日常环境中会遇到误解、时机、社会尴尬和反馈不足。专利材料则更多描述可能的硬件/医疗/外观方向，不提供可购买流程。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>规格 / 系统栈</span>
+                  <p>VisionClaw 来源支持 Meta Ray-Ban smart glasses、Gemini Live、OpenClaw、always-on perception、controlled lab study N=12、自传式 deployment N=4 等研究信息。专利来源支持 AI-supported smart glasses 在医疗诊断/治疗流程语境的权利要求，以及 CN 外观设计名称和用途。商业产品规格、量产硬件、售价、上市日期、隐私方案、监管许可、医疗有效性和真实用户规模均为 source not stated。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>使用场景</span>
+                  <p>潜在场景包括现场任务辅助、购物/维修/烹饪时的手眼协作、会议与生活记录、无障碍支持、医疗现场信息提示、工业作业和实时翻译。但这些是研究和专利启发的 watchlist，不是今天可购买产品的承诺。产品团队只能把它们当作未来交互需求：看见、理解、委派、确认、执行和撤销。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>解决痛点</span>
+                  <p>连续感知 agent 试图解决今天 AI 助手缺少环境上下文的问题。手机/桌面 chatbot 需要用户描述世界，眼镜 agent 可以直接看到一部分世界，从而减少解释成本。但这同时制造更重的隐私和社会成本：旁观者是否同意、何时录制、何时分析、错误识别如何纠正、用户如何知道 agent 正在用哪段环境信息。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>用户原声</span>
+                  <p>论文中的 N=12 与 N=4 是研究样本，不代表市场用户。专利没有用户原声。当前公开证据不能证明普通消费者愿意长期佩戴 always-on 感知眼镜；source not stated。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>新技术</span>
+                  <p>新技术点是把 egocentric perception 与 general-purpose agent execution 接上。它不只是记录视频，也不是只做字幕，而是让 agent 用第一人称环境作为任务上下文。HCI 的新问题是感知状态本身要可见：用户和旁观者都需要知道摄像头/麦克风/模型何时在工作、做了什么判断、能否撤销。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>可用性</span>
+                  <p>VisionClaw 是研究原型/论文。专利是公开法律文件。两者都不等于商业上市。任何公司是否将这些方案产品化、何时上市、在哪些地区、经过哪些监管和隐私审查，均 source not stated。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>限制 / 未知</span>
+                  <p>限制包括小样本研究、实验环境偏差、硬件续航、热量、网络依赖、模型延迟、错误执行、旁观者隐私、医疗监管和专利覆盖范围不确定。专利还可能从未实施；研究代码也可能与消费级体验差距很大。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>产品判断</span>
+                  <p>这条是必要的降级 watch。连续感知眼镜 agent 可能是未来 AI hardware 的关键形态，但今天不能把论文和专利写成产品发布。对产品团队的实用结论是提前设计 consent、recording indicator、context preview、permission boundary、undo 和 audit trail，否则 always-on agent 会先输给信任问题。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://arxiv.org/html/2604.03486v2" target="_blank" rel="noreferrer">arXiv: VisionClaw always-on AI agents through smart glasses</a><a href="https://arxiv.org/html/2602.22340v1" target="_blank" rel="noreferrer">arXiv: conversational successes and breakdowns in smart glasses</a><a href="https://patents.google.com/patent/WO2024129004A1/en" target="_blank" rel="noreferrer">Google Patents: AI-supported smart glasses</a><a href="https://patents.google.com/patent/CN309755008S/en" target="_blank" rel="noreferrer">Google Patents: AI Smart Glasses GS1 design</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide section-slide" id="slide-19" data-slide data-section="patent">
+
+    <div class="slide-chrome">
+      <span>19</span>
+      <span>专利</span>
+    </div>
+      <p class="eyebrow">专利</p>
+      <h2>Patent Watch / 专利</h2>
+      <div class="section-topic-list">
+
+              <div>
+                <span>patent signal · patent signal · explicitly speculative</span>
+                <strong>专利 lane：智能眼镜 IP 很热，但只能提示方向，不能替代产品证据</strong>
+              </div>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-20" data-slide data-section="patent" data-dossier-kind="scan">
+
+    <div class="slide-chrome">
+      <span>20</span>
+      <span>Patent Watch / 专利</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">专利</span>
+            <span>patent signal · patent signal · explicitly speculative</span>
+            <span>2026 patent/source scan · 2026-07-11 follow-up · 2026-07-12 follow-up · 2026-07-13 follow-up · 2026-07-14 follow-up · 2026-07-14 follow-up</span>
+          </div>
+          <h2 class="dossier-title">专利 lane：智能眼镜 IP 很热，但只能提示方向，不能替代产品证据</h2>
+          <p class="dossier-lead">产品: Smart-glasses patent lane scan. Smart-glasses patent lane scan：这是 patent signal scan。WIPO 对 Rokid 的资料显示智能眼镜企业正在用专利、商标、出货和行业应用建立全球可信度；Google Patents 中的医疗 AI 智能眼镜和 GS1 外观设计显示形态/IP 方向；Android Central 报道 Solos 与 Meta/EssilorLuxottica 的专利纠纷，说明眼镜赛道的 IP 摩擦会影响产品路线。所有专利/诉讼信息都不能当作功能上市事实。。本条按 patent signal 处理；规格、价格、地区、日期只采用来源明示信息，未披露处写 source not stated。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://patents.google.com/patent/CN309755008S/en" target="_blank" rel="noreferrer" aria-label="真实来源截图：Google Patents 外观设计页面，按 patent signal 降级处理。">
+        <img src="../assets/smart-glasses-patent-source-2026-07-07.png" alt="真实来源截图：AI Smart Glasses GS1 patent page" width="1440" height="900" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>真实来源截图：Google Patents 外观设计页面，按 patent signal 降级处理。</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>产品是什么</span>
+                  <p>这是 patent signal scan。WIPO 对 Rokid 的资料显示智能眼镜企业正在用专利、商标、出货和行业应用建立全球可信度；Google Patents 中的医疗 AI 智能眼镜和 GS1 外观设计显示形态/IP 方向；Android Central 报道 Solos 与 Meta/EssilorLuxottica 的专利纠纷，说明眼镜赛道的 IP 摩擦会影响产品路线。所有专利/诉讼信息都不能当作功能上市事实。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>怎么用</span>
+                  <p>专利本身没有用户流程。它能提示未来产品可能重视的组件：医疗诊断辅助、外观形态、传感/音频/显示、波导、环境理解或多模态输入。诉讼报道则提示用户可能遇到的间接影响：产品停售风险、品牌合作变化、授权成本上升或某些功能受限。但这些都属于外部信号，不能替代官方产品页或 hands-on 测试。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>规格 / 系统栈</span>
+                  <p>来源支持 WIPO 对 Rokid 重量、专利数量、商标、国家/地区和部署场景的陈述；Google Patents 支持专利/外观设计文档名称、用途和摘要；Android Central 支持 Solos 起诉 Meta/EssilorLuxottica 的报道语境。具体权利要求有效性、法院结果、实际侵权判断、产品停售可能性、授权费用、每项专利是否实施、以及终端规格均为 source not stated。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>使用场景</span>
+                  <p>作为 product magazine 的专利 lane，它服务于风险和方向判断：哪些交互能力正在被圈地，哪些硬件形态可能成为竞争壁垒，哪些诉讼可能改变智能眼镜渠道和定价。对产品团队，它提醒不要只看发布会，还要看 IP、标准、供应链和法律风险对路线图的影响。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>解决痛点</span>
+                  <p>专利扫描解决的是产品研究里的盲区。很多团队只追踪新闻发布，忽略一个硬件品类在上市前会被专利和诉讼塑形。智能眼镜尤其如此，因为光学、音频、传感、外观和隐私提示都可能有专利约束。提前看 IP 信号可以避免把不可控组件当作低风险设计基础。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>用户原声</span>
+                  <p>专利文件没有用户原声。诉讼报道中的用户影响也多为推测，当前没有证据说明消费者已因这些专利文件直接改变购买行为；source not stated。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>新技术</span>
+                  <p>新技术信号不是某个确定功能，而是多条方向同时被保护：更轻眼镜、医疗/工业场景、AI 辅助诊断、外观设计、音频/传感架构和显示路径。这说明 smart glasses 竞争会从单品参数扩展到 IP portfolio 与生态授权。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>可用性</span>
+                  <p>专利公开不代表产品上市；诉讼提起不代表法院判决；WIPO 案例资料不代表所有地区都可购买同款产品。任何可用性都必须回到具体品牌官方商店、开发者文档或监管公告。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>限制 / 未知</span>
+                  <p>限制是专利语言宽泛、翻译可能粗糙、权利要求复杂、实施状态不明。许多专利会防御性持有而不进入产品。诉讼报道也会随法院进展变化。今天只能作为 watchlist，不能写成 confirmed product。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>产品判断</span>
+                  <p>专利 lane 的结论很克制：智能眼镜 IP 已经足够密集，产品经理需要把专利/诉讼风险纳入竞品扫描；但用户价值仍要靠可购买产品、真实交互和来源背书证明。今天没有把任何专利当作发布事实。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://www.wipo.int/en/web/awards/global/2026" target="_blank" rel="noreferrer">WIPO Global Awards 2026: Rokid</a><a href="https://patents.google.com/patent/WO2024129004A1/en" target="_blank" rel="noreferrer">Google Patents: AI-supported smart glasses</a><a href="https://patents.google.com/patent/CN309755008S/en" target="_blank" rel="noreferrer">Google Patents: AI Smart Glasses GS1 design</a><a href="https://www.androidcentral.com/wearables/solos-is-taking-aim-at-meta-essilorluxottica-for-alleged-smart-glasses-patent-infringement-in-pivotal-case" target="_blank" rel="noreferrer">Android Central: Solos smart-glasses patent lawsuit</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide section-slide" id="slide-21" data-slide data-section="china">
+
+    <div class="slide-chrome">
+      <span>21</span>
+      <span>中国</span>
+    </div>
+      <p class="eyebrow">中国</p>
+      <h2>China / Global Compare</h2>
+      <div class="section-topic-list">
+
+              <div>
+                <span>confirmed product · confirmed product · China product signal · overseas retail evidence</span>
+                <strong>Rokid 用 YodaOS 把 AI 眼镜从手机配件推向 AIOS 入口</strong>
+              </div>
+              <div>
+                <span>developer surface · developer surface · China/global product signal</span>
+                <strong>Z.ai ZCode 把 GLM-5.2 包装成中国/全球开发者工具竞争信号</strong>
+              </div>
+              <div>
+                <span>weak/unverified · weak/unverified · source-lane scan</span>
+                <strong>中国 AI 眼镜扫描：从手机配件走向 AIOS 原生眼镜的说法正在升温</strong>
+              </div>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-22" data-slide data-section="china" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>22</span>
+      <span>China / Global Compare</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">中国</span>
+            <span>confirmed product · confirmed product · China product signal · overseas retail evidence</span>
+            <span>2026-06-29 YodaOS announcement · 2026-07-10 Japan general sale</span>
+          </div>
+          <h2 class="dossier-title">Rokid 用 YodaOS 把 AI 眼镜从手机配件推向 AIOS 入口</h2>
+          <p class="dossier-lead">产品: Rokid Smart AI Glasses + YodaOS. Rokid Smart AI Glasses + YodaOS：Rokid Smart AI Glasses 是带相机、麦克风、扬声器和双眼显示的 AI/AR 眼镜，YodaOS 是 Rokid 在 2026 年 6 月公开的 AI-native smart-glasses OS。中国线的产品信号已经从单副眼镜推进到 OS、模型切换、第三方服务与 agent store：Rokid 允许用户在 ChatGPT、Gemini、DeepSeek 和通义千问之间选择，试图把眼镜从手机配件变成 AI 入口。 本条按 confirmed product 处理；未披露处写 source not stated。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://www.rokid.com/zh-CN" target="_blank" rel="noreferrer" aria-label="Rokid 官方页面截图，展示带显示 AI 眼镜、开发者服务与 YodaOS-Master；规格和日本上市信息以产品与评测来源为准。">
+        <img src="../assets/rokid-yodaos-source-2026-07.png" alt="真实来源视觉：Rokid YodaOS and Smart AI Glasses" width="1600" height="1000" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>Rokid 官方页面截图，展示带显示 AI 眼镜、开发者服务与 YodaOS-Master；规格和日本上市信息以产品与评测来源为准。</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>产品是什么</span>
+                  <p>Rokid Smart AI Glasses 是带相机、麦克风、扬声器和双眼显示的 AI/AR 眼镜，YodaOS 是 Rokid 在 2026 年 6 月公开的 AI-native smart-glasses OS。中国线的产品信号已经从单副眼镜推进到 OS、模型切换、第三方服务与 agent store：Rokid 允许用户在 ChatGPT、Gemini、DeepSeek 和通义千问之间选择，试图把眼镜从手机配件变成 AI 入口。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>怎么用</span>
+                  <p>用户用语音、镜腿触控、眼动或身体动作触发拍照、翻译、AR 导航、看见即问和任务处理。资料描述了相机捕捉、语音识别、模型处理、显示或音频反馈链路；YodaOS 设计目标是把多模态输入连接到 AI agent 与外部服务，例如读外语路牌时翻译、旅行时给出路线、工作时调用流程。海外 agent platform 已发布，agent store 被安排在 7 月开放，具体上线范围需继续核对。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>规格 / 系统栈</span>
+                  <p>Mogura VR 对日本上市 Smart AI Glasses 列出约 49g、Sony IMX681 12MP、109° 广角、F2.25、HDR、降噪与防抖、双眼 Micro LED、1500 nits、30° FOV、Snapdragon AR1 Gen 1、Wi-Fi 6、Bluetooth 5.3、2GB RAM 和 32GB ROM。系统还包含 YodaOS、手机 app、AI 服务、显示与语音输出。Rokid 官方主页列出 YodaOS-Master 与开发者服务，但没有在同一页给出所有型号价格、续航、数据保留和端云分工；缺失处写 source not stated。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>使用场景</span>
+                  <p>场景包括面对面和旅行翻译、读取路牌和菜单、AR 导航、拍照记录、免手持问答、工作流程提示，以及通过模型和服务完成付款、直播或云服务任务。日本报道将产品定位为 camera、translation、AR navigation 的 all-in-one device，2026 年 7 月 10 日在官方店、Amazon、Rakuten 与日本 75 家实体店开卖。最大差异不是有没有 AI，而是模型选择、服务接入和本地可购买性。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>解决痛点</span>
+                  <p>Rokid 要解决 AI 眼镜依赖手机和单一模型的问题：用户不用先打开某个 App，可以直接用意图触发功能；合作方可以把 agent 放进平台，而不是为每个硬件重复造功能；海外用户可以按地区选择模型与渠道。多模态输入也面向走路、旅行和工作中不适合盯手机的场景。代价是更多模型、服务和权限需要统一解释，结果一致性和责任归属更难。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>用户原声</span>
+                  <p>来源未披露。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>新技术</span>
+                  <p>YodaOS 的新意是把 AI-native OS 落实为意图管理和 agent 生态叙事，而不是只加 chatbot。Rokid 强调多模型切换、与 WeChat、Douyin、Alipay、JD.com、Alibaba Cloud、Google Cloud、AWS 等服务接入，以及海外 agent store。产品层把显示、相机、语音、动作和 AI 服务串成多模态入口。真正壁垒仍取决于模型路由、上下文保持、权限确认、离线降级和开发者工具是否可复现。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>可用性</span>
+                  <p>Rokid 中国官网展示带显示 AI 眼镜、开发者服务和 YodaOS-Master；日本报道确认 Smart AI Glasses 于 2026 年 7 月 10 日以 109,990 日元含税价格在官方店、Amazon、Rakuten 等渠道及 75 家线下店销售。中国各型号售价、海外 agent store 正式目录、地区模型可用性、处方镜片、交付与售后为 source not stated。众筹金额与支持者数量属于平台/公司报道，不等于长期活跃用户。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>限制 / 未知</span>
+                  <p>YodaOS 的公开叙述很强，但完整 SDK、agent 权限模型、应用审核、token 分成、网络中断策略、隐私提示和第三方服务数据路径仍未全部公开。规格来自日本媒体采访报告，不能自动外推到所有 Rokid 型号。用户留存、日常使用率、翻译准确率、显示户外可读性与续航需要独立测量。把“首款 AI-native OS”写成行业事实会越过证据边界，本文保留公司定位与媒体报道标签。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>产品判断</span>
+                  <p>Rokid 是今天中国/全球线最完整的 AIOS 产品信号：硬件已在日本进入一般销售，OS、模型切换与 agent store 试图把生态从设备售卖推进到服务入口。机会在开放和本地化，风险在 OS 是否真的给开发者可用的权限、调试、分发和收益机制。下一步要看 agent store 是否按期开放，以及用户能否在真实旅行、工作和噪声场景里持续完成任务。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://www.rokid.com/zh-CN" target="_blank" rel="noreferrer">Rokid official website</a><a href="https://www.yicaiglobal.com/news/top-waveguide-ar-glasses-maker-rokid-launches-ai-native-operating-system" target="_blank" rel="noreferrer">Yicai Global YodaOS report</a><a href="https://www.moguravr.com/styly-hmd-app-service-end-en/" target="_blank" rel="noreferrer">Mogura VR Japan launch report</a><a href="https://global.rokid.com/en-jp/blogs/news/rokid-s-new-ai-glasses-are-a-lighter-longer-recording-answer-to-meta-ray-bans" target="_blank" rel="noreferrer">Rokid global product post</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-23" data-slide data-section="china" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>23</span>
+      <span>China / Global Compare</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">中国</span>
+            <span>developer surface · developer surface · China/global product signal</span>
+            <span>2026-07-02 to 2026-07-07 scan · 2026-07-11 follow-up · 2026-07-12 follow-up · 2026-07-13 follow-up · 2026-07-14 follow-up · 2026-07-14 follow-up</span>
+          </div>
+          <h2 class="dossier-title">Z.ai ZCode 把 GLM-5.2 包装成中国/全球开发者工具竞争信号</h2>
+          <p class="dossier-lead">产品: Z.ai ZCode. Z.ai ZCode：面向 GLM-5.2 的 Agentic Development Environment。ZCode 文档称它把 GLM-5.2 的 long-context、long-horizon、agentic coding 能力带进稳定桌面体验，覆盖 planning、coding、reviewing、iterating across complex development tasks。媒体将其放在 Cursor、GitHub Copilot、Claude Code 竞争语境中，并提到较低订阅价格。价格、版本和优惠需以 Z.ai/ZCode 当前官方页为准。。本条按 developer surface 处理；规格、价格、地区、日期只采用来源明示信息，未披露处写 source not stated。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://zcode.z.ai/en/docs" target="_blank" rel="noreferrer" aria-label="真实来源截图：ZCode 官方文档页面，展示 GLM-5.2 Agentic Development Environment 的开发者入口。">
+        <img src="../assets/zcode-docs-source-2026-07-07.png" alt="真实来源截图：ZCode developer docs UI" width="1440" height="900" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>真实来源截图：ZCode 官方文档页面，展示 GLM-5.2 Agentic Development Environment 的开发者入口。</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>产品是什么</span>
+                  <p>面向 GLM-5.2 的 Agentic Development Environment。ZCode 文档称它把 GLM-5.2 的 long-context、long-horizon、agentic coding 能力带进稳定桌面体验，覆盖 planning、coding、reviewing、iterating across complex development tasks。媒体将其放在 Cursor、GitHub Copilot、Claude Code 竞争语境中，并提到较低订阅价格。价格、版本和优惠需以 Z.ai/ZCode 当前官方页为准。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>怎么用</span>
+                  <p>用户安装 ZCode 桌面应用，连接 Z.ai 或 BigModel 账号与 GLM Coding Plan，然后在项目中发起 coding goal。工具负责规划、修改代码、审查、迭代，并通过长期任务或多 agent 协作处理复杂开发工作。文档/报道还提到远程 bot control，例如 WeChat、Feishu、Telegram 等通道，意味着开发者可以从常用通讯工具触发或监督任务，而不只在 IDE 内操作。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>规格 / 系统栈</span>
+                  <p>来源支持 ZCode、GLM-5.2、Agentic Development Environment、macOS/Windows/Linux beta 语境、GLM Coding Plan、长上下文/长任务、planning/coding/reviewing/iterating，以及通过账号计划计量的 quota 说明。具体 IDE 内核、插件协议、repo 权限模型、完整多 agent 架构、企业 SSO、代码隐私、地区限制、价格稳定性、模型 benchmark 与安全评估细节为 source not stated 或需官方实时确认。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>使用场景</span>
+                  <p>具体使用场景包括用 GLM-5.2 做大型代码库理解、生成实现计划、自动修改多文件、审查改动、迭代修复、通过通讯工具远程控制 agent，以及以较低价格尝试中国大模型驱动的 coding workflow。对中国开发者，它可能降低本地模型/账号/支付/沟通工具接入成本；对全球开发者，它是 Cursor/Claude Code 之外的价格和模型路线对照。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>解决痛点</span>
+                  <p>它解决的是 GLM 模型从 API/聊天框到实际开发环境的落地问题。强模型如果没有稳定编辑器、权限、文件上下文、长期任务和审查流程，很难进入真实工程。ZCode 把模型能力包装成开发者可操作的桌面工具，也把价格、计划、远程控制和 agent 协作放进产品层，让用户不必自己拼接脚本。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>用户原声</span>
+                  <p>媒体报道提到在线讨论中有低价竞争和 cloning 争议，但当前来源不能验证这些评价的代表性。独立开发者对输出质量、代码安全、UI 相似度、长期维护和国际化体验的实测还不足；source not stated。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>新技术</span>
+                  <p>新技术点是 ADE 而非插件：把模型、计划、执行、审查、quota、远程 bot 控制和多 agent 协作打包成一个开发环境。它反映中国 AI 工具不只发布模型，也开始争夺开发者工作台入口。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>可用性</span>
+                  <p>ZCode 文档页面可访问，媒体报道称桌面应用可用于 Windows 等并有 macOS/Linux beta 语境。实际下载、价格、优惠、平台支持、地区账号和企业能力以 Z.ai/ZCode 当前官方文档为准。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>限制 / 未知</span>
+                  <p>未知和风险包括：是否稳定处理大型私有仓库，是否有清楚权限/secret 防护，是否能解释每一步改动，是否支持本地测试和回滚，是否会被 UI/工作流相似性争议拖累，以及 GLM-5.2 在英文、中文、跨语言代码库中的真实表现是否稳定。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>产品判断</span>
+                  <p>ZCode 是今天中国 lane 最具体的开发者产品信号。它不是抽象模型新闻，而是模型公司开始做 agentic IDE/ADE 的入口战。对用户的影响是价格和本地生态可能更友好，但必须用真实 repo、测试通过率、权限设计和长任务失败恢复来验证，不能只看低价和发布页。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://zcode.z.ai/en/docs" target="_blank" rel="noreferrer">ZCode docs: welcome</a><a href="https://zcode.z.ai/en/docs/configuration" target="_blank" rel="noreferrer">ZCode docs: configuration</a><a href="https://www.businessinsider.com/z-ai-zcode-ai-coding-tool-chinese-startup-lower-cost-2026-7" target="_blank" rel="noreferrer">Business Insider: Z.ai ZCode launch</a><a href="https://devops.com/z-ai-debuts-zcode-to-compete-with-github-copilot-cursor-and-anthropic/" target="_blank" rel="noreferrer">DevOps.com: Z.ai debuts ZCode</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-24" data-slide data-section="china" data-dossier-kind="scan">
+
+    <div class="slide-chrome">
+      <span>24</span>
+      <span>China / Global Compare</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">中国</span>
+            <span>weak/unverified · weak/unverified · source-lane scan</span>
+            <span>2026-06 to 2026-07 source-lane scan · 2026-07-11 follow-up · 2026-07-12 follow-up · 2026-07-13 follow-up · 2026-07-14 follow-up · 2026-07-14 follow-up</span>
+          </div>
+          <h2 class="dossier-title">中国 AI 眼镜扫描：从手机配件走向 AIOS 原生眼镜的说法正在升温</h2>
+          <p class="dossier-lead">产品: China AI glasses OS lane scan. China AI glasses OS lane scan：这是 source-lane scan，不是单一确认产品 dossier。今天中国来源里最强的产品接口信号是 AI 眼镜正在从“手机配件/拍摄眼镜”叙事转向“AIOS 原生终端”。量子位报道提到 Rokid/YodaOS 与主动管理意图能力、跳出传统 GUI 的 AIUI 标准；36氪和量子位提供市场、补贴和雷鸟等厂商增长背景；WIPO 对 Rokid 的资料提供国际 IP/出货和应用场景信号。。本条按 weak/unverified 处理；规格、价格、地区、日期只采用来源明示信息，未披露处写 source not stated。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://m.36kr.com/p/3855201250507656" target="_blank" rel="noreferrer" aria-label="真实来源截图：36氪 AI 眼镜赛道报道页面，用于中国 lane 的产品/市场信号。">
+        <img src="../assets/china-ai-glasses-source-2026-07-07.png" alt="真实来源截图：36Kr China AI glasses source scan" width="1440" height="900" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>真实来源截图：36氪 AI 眼镜赛道报道页面，用于中国 lane 的产品/市场信号。</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>产品是什么</span>
+                  <p>这是 source-lane scan，不是单一确认产品 dossier。今天中国来源里最强的产品接口信号是 AI 眼镜正在从“手机配件/拍摄眼镜”叙事转向“AIOS 原生终端”。量子位报道提到 Rokid/YodaOS 与主动管理意图能力、跳出传统 GUI 的 AIUI 标准；36氪和量子位提供市场、补贴和雷鸟等厂商增长背景；WIPO 对 Rokid 的资料提供国际 IP/出货和应用场景信号。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>怎么用</span>
+                  <p>可见的交互主张是：用户不再把眼镜只当蓝牙耳机、相机或手机通知屏，而是在眼镜上通过语音、显示、传感、翻译、导航、会议、导览等任务直接表达意图。系统层尝试主动管理意图，决定何时提示、何时显示、何时调用手机或云端。由于许多报道是行业/公司材料转述，实际 hands-on 流程、失败反馈、权限弹窗、续航和延迟还没有足够独立验证。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>规格 / 系统栈</span>
+                  <p>来源支持的事实包括中国 AI/AR 眼镜市场升温、部分消费补贴降低试错成本、厂商把 AIOS/AIUI/YodaOS 作为产品语言、雷鸟等品牌的销售/机构认证报道、Rokid 在 WIPO 材料中的重量、专利/商标/出货和行业应用陈述。具体每款眼镜的芯片、传感器、OS API、模型、价格、上市地区、电池、重量、显示规格和隐私机制必须逐款看官方来源；本 scan 不合并推断。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>使用场景</span>
+                  <p>可观察场景集中在翻译字幕、会议记录、景区/博物馆导览、工业现场提示、骑行/步行导航、拍摄分享、通知与语音助手。中国生态的特殊性在于本地生活、支付、地图、办公通讯和电商服务可能更快闭环，眼镜若能接入这些服务，用户就少一次拿手机。但今天可用材料还不足以证明这些闭环在零售用户手中稳定成立。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>解决痛点</span>
+                  <p>它试图解决 AI 眼镜长期依赖手机的问题。手机依赖会让眼镜变成昂贵通知屏，用户仍要掏手机确认、授权、输入和修正。AIOS 叙事想把意图识别、任务管理和服务调用前移到眼镜。但如果没有成熟权限、显示层级和失败恢复，所谓 AIOS 只会把手机上的复杂性搬到更小的视野里。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>用户原声</span>
+                  <p>今天扫描到的公开材料更多是媒体/行业叙事、厂商成绩单和 IP 资料，缺少足够普通用户长期佩戴反馈。排队体验、销量增长和补贴不能直接等于满意度；source not stated。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>新技术</span>
+                  <p>新技术信号是 AIOS/AIUI 从营销词变成厂商开始争夺的接口语言：谁定义眼镜上的意图、状态、通知密度、翻译文本位置、相机/麦克风权限和跨服务调用，谁就更接近下一代轻量 AI 终端入口。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>可用性</span>
+                  <p>各品牌和型号可用性差异很大。Rokid、雷鸟等已有产品/市场资料，YodaOS/AIOS 具体版本、API 开放、升级计划、地区和售后需逐项核对官方页面；本 scan 不把行业趋势当作单品可购买事实。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>限制 / 未知</span>
+                  <p>缺失证据包括独立评测的亮度/续航/延迟、真实噪声环境识别、隐私提示、佩戴舒适度、处方适配、App 崩溃率、服务接入失败率和售后数据。中国眼镜赛道很热，但热度本身不是产品完成度。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>产品判断</span>
+                  <p>今天中国 lane 的判断是：方向值得跟，结论要降级。AIOS 原生眼镜如果成立，会改变眼镜从手机外设到任务入口的地位；但没有足够 hands-on 和官方 API 证据前，只能作为 watch signal。下一步重点看 Rokid/YodaOS、雷鸟、夸克/通义生态是否给出稳定、可复现、可购买的用户流程。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://www.qbitai.com/2026/07/441491.html" target="_blank" rel="noreferrer">量子位：AI眼镜不再依赖手机</a><a href="https://m.36kr.com/p/3855201250507656" target="_blank" rel="noreferrer">36氪：AI眼镜赛道全面起势</a><a href="https://www.qbitai.com/2026/06/437489.html" target="_blank" rel="noreferrer">量子位：雷鸟创新 2026 上半年成绩单</a><a href="https://www.wipo.int/en/web/awards/global/2026" target="_blank" rel="noreferrer">WIPO Global Awards 2026: Rokid</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide section-slide" id="slide-25" data-slide data-section="global">
+
+    <div class="slide-chrome">
+      <span>25</span>
+      <span>海外</span>
+    </div>
+      <p class="eyebrow">海外</p>
+      <h2>Global Signals</h2>
+      <div class="section-topic-list">
+
+              <div>
+                <span>developer surface · developer surface · platform fact · partner roadmap</span>
+                <strong>Snapdragon Reality Elite 把端侧大模型能力下沉到 XR 平台</strong>
+              </div>
+              <div>
+                <span>developer surface · developer surface · confirmed partner product</span>
+                <strong>NVIDIA XR AI 把眼镜从消费入口推到现场作业指导</strong>
+              </div>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-26" data-slide data-section="global" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>26</span>
+      <span>Global Signals</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">海外</span>
+            <span>developer surface · developer surface · platform fact · partner roadmap</span>
+            <span>2026-06-16 official platform release · 2026-07 developer watch · 2026-07-14 follow-up · 2026-07-14 follow-up</span>
+          </div>
+          <h2 class="dossier-title">Snapdragon Reality Elite 把端侧大模型能力下沉到 XR 平台</h2>
+          <p class="dossier-lead">产品: Qualcomm Snapdragon Reality Elite. Qualcomm Snapdragon Reality Elite：Reality Elite 是面向 XR OEM 和开发者的芯片平台，不是消费者单独购买的眼镜。Qualcomm 6 月 16 日发布页把它定位为支持 all-in-one VST 头显和轻量 tethered OST 眼镜的下一代平台，重点是大语言模型、大视觉模型和空间生成式 AI。它说明 agent 能否在眼镜上低延迟运行，先是底层平台的算力、图形、追踪和能耗问题。 本条按 developer surface 处理；未披露处写 source not stated。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://www.qualcomm.com/xr-vr-ar/products/snapdragon-reality-elite" target="_blank" rel="noreferrer" aria-label="Qualcomm 官方 Reality Elite 产品页截图；端侧 AI、XR 显示和能效数字以官方页为准。">
+        <img src="../assets/qualcomm-reality-elite-source-2026-06.png" alt="真实来源视觉：Qualcomm Snapdragon Reality Elite" width="1600" height="900" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>Qualcomm 官方 Reality Elite 产品页截图；端侧 AI、XR 显示和能效数字以官方页为准。</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>产品是什么</span>
+                  <p>Reality Elite 是面向 XR OEM 和开发者的芯片平台，不是消费者单独购买的眼镜。Qualcomm 6 月 16 日发布页把它定位为支持 all-in-one VST 头显和轻量 tethered OST 眼镜的下一代平台，重点是大语言模型、大视觉模型和空间生成式 AI。它说明 agent 能否在眼镜上低延迟运行，先是底层平台的算力、图形、追踪和能耗问题。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>怎么用</span>
+                  <p>平台不定义固定的终端界面，而是提供实时视觉、头手追踪、see-through 和端侧 AI。OEM 可把语音、手势、视线和环境视觉送入 LLM/LVM，再把对象识别、空间内容或 agent response 返回镜片与音频层。官方举例包括视觉模型驱动对象生成和实时空间感知；具体产品的唤醒、权限、错误和停止流程仍由 OEM 决定。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>规格 / 系统栈</span>
+                  <p>官方披露最高 48 TOPS AI、最高 60% GPU、30% CPU、160% NPU，支持每眼最高 4.4K、90 FPS；相同负载下电池时间最高增加 20%，负载下芯片最高低 12°C，基准为 XR2+ Gen 2。平台支持 LLM/LVM、EVA computer-vision acceleration、VST/OST，首先用于 XREAL Project Aura，后续还有 Play for Dream。芯片型号、模型大小、SDK 版本、价格和上市时间为 source not stated。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>使用场景</span>
+                  <p>平台支持视觉生成、空间测量、物体识别、头手追踪、沉浸内容和 agent guidance。潜在场景包括理解周围物体、在空间中生成内容、获取环境提示、在工业或培训中连接现场数据与数字孪生。公开来源确认平台能力和合作路线，不能证明某个消费产品已经用 48 TOPS 实现稳定全天候 agent。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>解决痛点</span>
+                  <p>Reality Elite 解决 XR 的系统约束：强视觉与空间计算需要算力，眼镜又要求低延迟、低发热、低重量和更长续航。若视觉理解全部回云端，网络延迟和隐私边界会破坏交互。把 NPU、GPU、CPU、显示与追踪放在同一平台可以给 OEM 设计余量；平台数字仍需真实设备证明模型、发热和续航能否兼得。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>用户原声</span>
+                  <p>来源未披露。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>新技术</span>
+                  <p>新技术是把 LLM/LVM、Gaussian Splatting、EVA 视觉加速、手部/头部追踪和 see-through pipeline 放进可扩展 XR silicon。它不等于完整 on-device agent，却让部分感知和推理留在设备端更可行。HCI 重点由此转向：哪些反馈能在交互时间内完成，哪些必须等待云端，用户能否理解两者差异。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>可用性</span>
+                  <p>Qualcomm 官方产品页与发布页已公开；官方称 Reality Elite 将首先为 XREAL Project Aura 提供基础，并支持 Play for Dream 后续设备。开发者资源、合作设备、SDK 申请、零售上市、地区和终端价格未完整披露。平台本身不能被描述为已经面向消费者可购买。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>限制 / 未知</span>
+                  <p>未知包括 48 TOPS 的持续功耗、眼镜散热、模型内存占用、离线能力、摄像头/麦克风数据边界，以及 OEM 是否把平台能力转成可解释的权限和状态。Project Aura 最终规格、价格、发布时间和消费体验仍是 roadmap/partner signal，不能由芯片发布直接推断。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>产品判断</span>
+                  <p>Reality Elite 是 agent-first XR 的基础设施证据，不是产品完成证据。它把“眼镜能否理解环境、及时回应、持续佩戴”拆成芯片、功耗、光学和追踪的系统问题。端侧 AI 会决定交互延迟、隐私和失败模式，最终证明必须来自合作设备，而不是单一 TOPS 数字。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://www.qualcomm.com/news/releases/2026/06/qualcomm-takes-spatial-computing-into-the-ai-era-with-snapdragon" target="_blank" rel="noreferrer">Qualcomm Reality Elite release</a><a href="https://www.qualcomm.com/xr-vr-ar/products/snapdragon-reality-elite" target="_blank" rel="noreferrer">Qualcomm Reality Elite product page</a><a href="https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/snapdragon-reality-elite-platform-product-brief.pdf" target="_blank" rel="noreferrer">Qualcomm product brief</a><a href="https://www.xreal.com/project-aura" target="_blank" rel="noreferrer">XREAL Project Aura</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide dossier-slide mag-topic-slide" id="slide-27" data-slide data-section="global" data-dossier-kind="product">
+
+    <div class="slide-chrome">
+      <span>27</span>
+      <span>Global Signals</span>
+    </div>
+      <div class="dossier-grid">
+        <header class="dossier-head">
+          <div class="topic-topline">
+            <span class="section-chip">海外</span>
+            <span>developer surface · developer surface · confirmed partner product</span>
+            <span>2026-06-16 developer release · 2026-06 Helix product reveal · 2026-07-13 follow-up · 2026-07-14 follow-up · 2026-07-14 follow-up</span>
+          </div>
+          <h2 class="dossier-title">NVIDIA XR AI 把眼镜从消费入口推到现场作业指导</h2>
+          <p class="dossier-lead">产品: NVIDIA XR AI / VITURE Helix. NVIDIA XR AI / VITURE Helix：NVIDIA XR AI 是面向开发者的库与平台，用于把实时视觉、语音交互和 agent guidance 连接到 AR 眼镜；VITURE Helix 是采用该方案的 AI safety glasses 产品。NVIDIA 的示例包括工程师通过眼镜询问可编程逻辑控制器问题、连接数字孪生和自动化工作流；开发者页还展示实验室和基因编辑场景。它与消费级眼镜的差异在于，价值不只在拍照或问答，而在工作现场把下一步操作、标准作业程序和设备状态带到视线与语音里。。本条按 developer surface 处理；规格、价格、地区、日期只采用来源明示信息，未披露处写 source not stated。</p>
+        </header>
+        <div class="dossier-visual slide-visual">
+
+    <figure class="evidence-figure">
+      <a href="https://developer.nvidia.com/xr/xr-ai" target="_blank" rel="noreferrer" aria-label="真实来源截图：NVIDIA XR AI developer page，展示眼镜将现场视觉与 agent guidance 连接起来的开发者产品表面。">
+        <img src="../assets/nvidia-xr-ai-source-2026-06.png" alt="真实来源截图：NVIDIA XR AI and VITURE Helix" width="2048" height="1152" loading="lazy" decoding="async" />
+      </a>
+      <figcaption>真实来源截图：NVIDIA XR AI developer page，展示眼镜将现场视觉与 agent guidance 连接起来的开发者产品表面。</figcaption>
+    </figure>
+        </div>
+        <div class="dossier-body">
+
+                <article class="dossier-card">
+                  <span>产品是什么</span>
+                  <p>NVIDIA XR AI 是面向开发者的库与平台，用于把实时视觉、语音交互和 agent guidance 连接到 AR 眼镜；VITURE Helix 是采用该方案的 AI safety glasses 产品。NVIDIA 的示例包括工程师通过眼镜询问可编程逻辑控制器问题、连接数字孪生和自动化工作流；开发者页还展示实验室和基因编辑场景。它与消费级眼镜的差异在于，价值不只在拍照或问答，而在工作现场把下一步操作、标准作业程序和设备状态带到视线与语音里。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>怎么用</span>
+                  <p>佩戴者在现场戴上兼容眼镜，眼镜或配套计算设备获取第一视角画面和语音问题。XR AI 组件帮助 agent 识别眼前设备、工作步骤或实验上下文，系统通过语音或眼前显示给出解释、提醒、下一步指导或远程协作信号。VITURE Helix 被定位为 eyes-on、hands-free 的 AI co-pilot；LabOS 等示例则把现场感知接到数字孪生、自动化或实验流程。真正执行高风险动作时，用户仍需遵循专业 SOP，不能把演示中的 guidance 当成自动控制授权。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>规格 / 系统栈</span>
+                  <p>来源明确的是 NVIDIA XR AI developer library、LabOS、与 Meta/Rokid/VITURE 等眼镜的兼容性，以及 VITURE Helix 采用 NVIDIA XR AI 解决方案的合作关系。开发者页强调实时、免手的 AI guidance，案例覆盖工业 PLC、实验室和基因编辑等场景；VITURE 负责智能硬件与 edge software。来源没有披露 Helix 的芯片、摄像头参数、显示规格、重量、电池、网络协议、模型名称、端云分工、具体 SDK 版本、上市价格或购买地区，均为 source not stated。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>使用场景</span>
+                  <p>使用场景包括维修人员查看设备时获取 SOP 提示、工程师排查 PLC 或自动化系统、实验人员在操作台上读取上下文、培训人员远程指导新手、质量巡检和需要双手保持工作的现场协作。对企业来说，眼镜不必替代电脑，而是把计算机视觉、知识库、数字孪生和 agent 的下一步建议放到实际工作发生的地方。价值判断应看它是否减少查手册、离开工位和反复确认的时间，同时不引入更大的安全风险。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>解决痛点</span>
+                  <p>它解决的是“知道答案但手上不能离开工作”的摩擦。传统现场人员要停下动作、拿手机或平板、搜索文档、确认型号，再把注意力切回设备；XR AI 试图把这一回路压缩成看、问、听、做。代价是错误指导的安全后果更高，且视觉 agent 必须理解遮挡、光线、设备差异和当前步骤。专业场景不能只展示流畅 demo，还要提供引用、置信度、人工接管和停止机制。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>用户原声</span>
+                  <p>当前证据主要是 NVIDIA、VITURE 官方产品页和开发者示例，以及现场演示语境；没有足够独立长期用户评测证明它在真实工厂或实验室的节拍、误报和维护成本。VITURE 社区讨论已出现对 Android 支持、产品定位和是否真的能提供实时 SOP 的疑问，这些属于 early friction signal，source not stated。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>新技术</span>
+                  <p>新技术点是把 XR 设备当作 agent 的第一视角传感器与反馈终端，而不是只做远程显示器。NVIDIA 提供 XR AI library，LabOS 将视觉输入、领域工具和 agent orchestration 连接起来，VITURE 把它落到 safety glasses 形态。这个栈把 HCI 重点从“界面怎么摆”推进到“现场上下文如何进入模型、模型如何给出可执行但可审计的下一步”。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>可用性</span>
+                  <p>NVIDIA XR AI developer page 与博客已公开；VITURE Helix 的产品页和发布文章可访问，且明确为 AWE 2026 的合作产品。兼容眼镜、开发者申请、购买渠道、客户行业、交付时间、服务价格和地区供应情况，当前来源没有完整披露，写 source not stated。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>限制 / 未知</span>
+                  <p>关键未知包括现场网络、端侧延迟、遮挡和光照鲁棒性、不同工厂设备的知识接入、模型幻觉、合规记录、操作员隐私、多人协作、佩戴疲劳以及发生错误时谁负责。安全眼镜如果只给建议，仍需把“建议”和“允许执行”分开；如果未来接入自动化控制，权限和双人确认会成为硬要求。</p>
+                </article>
+                <article class="dossier-card">
+                  <span>产品判断</span>
+                  <p>NVIDIA XR AI / Helix 是今天最值得关注的现场型 agent 信号：它把眼镜从消费电子的轻量入口变成专业工作系统的一部分。产品机会成立的前提不是 demo 看起来像未来，而是系统能在现场给出有来源、可暂停、可交接的下一步指导。对 HCI 团队而言，显示面积只是表层，真正困难的是上下文、责任、置信度和人工接管。</p>
+                </article>
+        </div>
+        <footer class="dossier-footer">
+
+    <p class="source-row mag-source-list">
+      <strong>Sources</strong>
+      <a href="https://developer.nvidia.com/xr/xr-ai" target="_blank" rel="noreferrer">NVIDIA Developer: XR AI Platform</a><a href="https://blogs.nvidia.com/blog/nvidia-xr-ai/" target="_blank" rel="noreferrer">NVIDIA Blog: XR AI brings agents to AR glasses</a><a href="https://www.viture.com/en-US/blog/viture-unveils-helix-the-first-ai-safety-glasses-built-on-nvidia-s-xr-ai-solution-at-awe-2026" target="_blank" rel="noreferrer">VITURE: Helix with NVIDIA XR AI</a><a href="https://www.viture.com/en-US/helix" target="_blank" rel="noreferrer">VITURE Helix product page</a>
+    </p>
+        </footer>
+      </div>
+    </section>
+    <section class="deck-slide design-slide" id="slide-28" data-slide data-section="design">
+
+    <div class="slide-chrome">
+      <span>28</span>
+      <span>设计洞察</span>
+    </div>
+      <p class="eyebrow">Design Desk / 设计洞察</p>
+      <h2>Design Desk：把 spatial software 做成可见、可停、可恢复的界面</h2>
+      <p class="design-intro">今天的产品资料共同指向一个可执行的 HCI 要求：用户要知道眼前的信息从哪里来、哪个模型在处理、设备是否可用、动作代表谁，以及失败后如何回到手机或现实任务。</p>
+      <div class="design-grid">
+
+              <article>
+                <span>01</span>
+                <strong>设备是否可用</strong>
+                <p>Android XR 的 Device Availability API 把佩戴状态带入 app 生命周期；未佩戴、断连和权限拒绝都应有可理解的回退。</p>
+              </article>
+              <article>
+                <span>02</span>
+                <strong>显示层级要可扫读</strong>
+                <p>Compose Glimmer 面向透明显示提供组件；产品不能把手机长页面原样搬到视野里。</p>
+              </article>
+              <article>
+                <span>03</span>
+                <strong>模型路由要可见</strong>
+                <p>Rokid 的多模型和 HTC 的第三方模型都需要告诉用户请求去了哪里、由谁处理、结果如何恢复。</p>
+              </article>
+              <article>
+                <span>04</span>
+                <strong>LED 与麦克风是社会契约</strong>
+                <p>Meta 把 capture LED 绑定相机许可；无相机产品也要让麦克风、连接和显示边界可见。</p>
+              </article>
+              <article>
+                <span>05</span>
+                <strong>低摩擦入口需要低成本撤销</strong>
+                <p>语音、镜腿触控、眼动和 agent action 越快，停止、取消、重试和回到手机就越要近。</p>
+              </article>
+              <article>
+                <span>06</span>
+                <strong>研究、专利和野生线索继续降级</strong>
+                <p>VisionClaw、专利、社区和 wild signals 只能生成设计假设，不能替代可购买硬件与真实用户证据。</p>
+              </article>
+      </div>
+    </section>
+    <section class="deck-slide watch-slide" id="slide-29" data-slide>
+
+    <div class="slide-chrome">
+      <span>29</span>
+      <span>Watchlist</span>
+    </div>
+      <p class="eyebrow">下一轮扫描</p>
+      <h2>明天继续盯这些入口变化</h2>
+      <div class="watch-grid">
+        <div><span>01</span><p>Android XR：秋季硬件的真实型号、显示/音频差异、权限确认和 Device Availability 的断连回退。</p></div><div><span>02</span><p>Meta AI Glasses：capture LED 防篡改更新的逐型号覆盖、误判恢复和旁观者可见性。</p></div><div><span>03</span><p>HTC VIVE Eagle：实际地区发货、AI Plus 订阅、第三方模型数据路径和连续 AI 续航。</p></div><div><span>04</span><p>Brilliant Labs Halo：Q1 2026 发货兑现、14 小时混合负载、B1/NPU 开发面与 Noa 记忆控制。</p></div><div><span>05</span><p>Snap SPECS / Even G2：秋季发货、显示节奏、手机依赖、日常佩戴与隐私状态。</p></div><div><span>06</span><p>Qualcomm、Project Solara、Android XR：合作设备、公开 API、端侧模型和企业管理面。</p></div><div><span>07</span><p>Rokid YodaOS agent store、VisionClaw、专利：保持产品/研究/专利标签，等待可复现生态和运行证据。</p></div>
+      </div>
+    </section>
+    <section class="deck-slide source-slide" id="slide-30" data-slide>
+
+    <div class="slide-chrome">
+      <span>30</span>
+      <span>来源索引</span>
+    </div>
+      <p class="eyebrow">可追溯证据</p>
+      <h2>正文每个话题都有来源；这里是快速跳转。</h2>
+      <div class="source-grid">
+        <a href="https://blog.google/products-and-platforms/platforms/android/android-xr-io-2026/" target="_blank" rel="noreferrer"><span>source</span><strong>Google intelligent eyewear preview</strong></a><a href="https://developer.android.com/blog/posts/what-s-new-in-android-xr-tooling-engine-support-and-ecosystem-updates?hl=en" target="_blank" rel="noreferrer"><span>source</span><strong>Android XR Developer Preview 4</strong></a><a href="https://developer.android.com/develop/xr/gemini?hl=en" target="_blank" rel="noreferrer"><span>source</span><strong>Android XR Gemini API guide</strong></a><a href="https://developer.android.com/xr" target="_blank" rel="noreferrer"><span>source</span><strong>Android XR platform</strong></a><a href="https://about.fb.com/news/2026/07/metas-ai-glasses-your-questions-answered/" target="_blank" rel="noreferrer"><span>source</span><strong>Meta AI Glasses privacy FAQ</strong></a><a href="https://www.meta.com/help/smart-glasses/articles/health-safety-and-privacy/privacy-glasses/" target="_blank" rel="noreferrer"><span>source</span><strong>Meta glasses privacy approach</strong></a><a href="https://www.androidcentral.com/wearables/meta-glasses-hands-on-review" target="_blank" rel="noreferrer"><span>source</span><strong>Android Central hands-on</strong></a><a href="https://www.rokid.com/zh-CN" target="_blank" rel="noreferrer"><span>source</span><strong>Rokid official website</strong></a><a href="https://www.yicaiglobal.com/news/top-waveguide-ar-glasses-maker-rokid-launches-ai-native-operating-system" target="_blank" rel="noreferrer"><span>source</span><strong>Yicai Global YodaOS report</strong></a><a href="https://www.moguravr.com/styly-hmd-app-service-end-en/" target="_blank" rel="noreferrer"><span>source</span><strong>Mogura VR Japan launch report</strong></a><a href="https://global.rokid.com/en-jp/blogs/news/rokid-s-new-ai-glasses-are-a-lighter-longer-recording-answer-to-meta-ray-bans" target="_blank" rel="noreferrer"><span>source</span><strong>Rokid global product post</strong></a><a href="https://www.vive.com/us/newsroom/2025-08-14/" target="_blank" rel="noreferrer"><span>source</span><strong>HTC VIVE Eagle official launch</strong></a><a href="https://www.vive.com/us/product/vive-eagle/overview/" target="_blank" rel="noreferrer"><span>source</span><strong>HTC VIVE Eagle product page</strong></a><a href="https://www.hardwarezone.com.sg/mobile/wearables/htc-vive-eagle-ai-smart-glasses-review" target="_blank" rel="noreferrer"><span>source</span><strong>HardwareZone hands-on review</strong></a><a href="https://dl.htc.com/report_materials/htc_security_and_privacy_whitepaper.pdf" target="_blank" rel="noreferrer"><span>source</span><strong>HTC security and privacy whitepaper</strong></a><a href="https://brilliant.xyz/products/halo" target="_blank" rel="noreferrer"><span>source</span><strong>Brilliant Labs Halo product page</strong></a><a href="https://brilliant.xyz/pages/developers" target="_blank" rel="noreferrer"><span>source</span><strong>Brilliant Labs developer page</strong></a><a href="https://docs.brilliant.xyz/halo/halo/" target="_blank" rel="noreferrer"><span>source</span><strong>Halo developer documentation</strong></a><a href="https://www.businesswire.com/news/home/20260311666274/en/Brilliant-Labs-and-Alif-Semiconductor-Partner-on-Development-of-New-Technologies-for-Next-Generation-AI-Powered-Smart-Glasses" target="_blank" rel="noreferrer"><span>source</span><strong>Brilliant Labs and Alif partnership</strong></a><a href="https://www.reddit.com/r/SmartGlasses/comments/1spf1l6/are_brilliant_labs_halo_glasses_shipping_now/" target="_blank" rel="noreferrer"><span>source</span><strong>Brilliant community shipping discussion</strong></a><a href="https://investor.snap.com/news/news-details/2026/Snap-Inc--Debuts-SPECS-Augmented-Reality-Glasses-to-Make-Computing-More-Human/default.aspx" target="_blank" rel="noreferrer"><span>source</span><strong>Snap official SPECS launch</strong></a><a href="https://www.spectacles.com/" target="_blank" rel="noreferrer"><span>source</span><strong>Snap SPECS product page</strong></a><a href="https://techcrunch.com/2026/06/16/snap-finally-debuts-its-long-awaited-ar-glasses-specs-and-oof-they-arent-cheap/" target="_blank" rel="noreferrer"><span>source</span><strong>TechCrunch SPECS launch report</strong></a><a href="https://developers.snap.com/lens-studio/" target="_blank" rel="noreferrer"><span>source</span><strong>Snap Lens Studio developer tools</strong></a><a href="https://www.evenrealities.com/smart-glasses" target="_blank" rel="noreferrer"><span>source</span><strong>Even G2 official product page</strong></a><a href="https://techcrunch.com/2026/07/11/smart-glasses-without-a-camera-even-realities-bets-productivity-beats-recording-everyone/" target="_blank" rel="noreferrer"><span>source</span><strong>TechCrunch Even G2 hands-on</strong></a><a href="https://hub.evenrealities.com/" target="_blank" rel="noreferrer"><span>source</span><strong>Even Hub developer surface</strong></a><a href="https://support.evenrealities.com/" target="_blank" rel="noreferrer"><span>source</span><strong>Even support surface</strong></a><a href="https://www.qualcomm.com/news/releases/2026/06/qualcomm-takes-spatial-computing-into-the-ai-era-with-snapdragon" target="_blank" rel="noreferrer"><span>source</span><strong>Qualcomm Reality Elite release</strong></a><a href="https://www.qualcomm.com/xr-vr-ar/products/snapdragon-reality-elite" target="_blank" rel="noreferrer"><span>source</span><strong>Qualcomm Reality Elite product page</strong></a><a href="https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/snapdragon-reality-elite-platform-product-brief.pdf" target="_blank" rel="noreferrer"><span>source</span><strong>Qualcomm product brief</strong></a><a href="https://www.xreal.com/project-aura" target="_blank" rel="noreferrer"><span>source</span><strong>XREAL Project Aura</strong></a><a href="https://techcommunity.microsoft.com/blog/microsoftdeviceecosystemplatformblog/powering-new-devices-and-agent-first-experiences-with-mdep/4524525" target="_blank" rel="noreferrer"><span>source</span><strong>Microsoft MDEP: Project Solara</strong></a><a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-unveils-project-solara-ai-a-chip-to-cloud-platform-built-to-power-a-new-generation-of-agent-first-enterprise-devices-hardware-designed-to-run-ai-agents-instead-of-traditional-apps" target="_blank" rel="noreferrer"><span>source</span><strong>Project Solara coverage</strong></a><a href="https://www.microsoft.com/en-us/security/business/microsoft-entra" target="_blank" rel="noreferrer"><span>source</span><strong>Microsoft Entra</strong></a><a href="https://www.microsoft.com/en-us/security/business/microsoft-intune" target="_blank" rel="noreferrer"><span>source</span><strong>Microsoft Intune</strong></a><a href="https://www.reddit.com/r/MetaGlasses/comments/1ua72yc/my_experience_with_rayban_meta/" target="_blank" rel="noreferrer"><span>source</span><strong>Reddit: Meta glasses customer support friction</strong></a><a href="https://www.reddit.com/r/HearingAids/comments/1tykkjo/beware_meta_ai_glasses/" target="_blank" rel="noreferrer"><span>source</span><strong>Reddit: Meta glasses privacy and setup friction</strong></a><a href="https://openai.com/index/introducing-gpt-live/" target="_blank" rel="noreferrer"><span>source</span><strong>OpenAI: Introducing GPT-Live</strong></a><a href="https://openai.com/live/" target="_blank" rel="noreferrer"><span>source</span><strong>OpenAI live replay</strong></a><a href="https://www.macrumors.com/2026/07/08/openai-gpt-live-voice/" target="_blank" rel="noreferrer"><span>source</span><strong>MacRumors: GPT-Live voice coverage</strong></a><a href="https://www.techradar.com/ai-platforms-assistants/chatgpt/breaking-chatgpts-new-gpt-live-voice-model-is-here-and-it-can-speak-and-listen-at-the-same-time" target="_blank" rel="noreferrer"><span>source</span><strong>TechRadar: GPT-Live rollout</strong></a><a href="https://openacti.com/" target="_blank" rel="noreferrer"><span>source</span><strong>Acti official site</strong></a><a href="https://apps.apple.com/us/app/acti-agentic-keyboard/id6745523677" target="_blank" rel="noreferrer"><span>source</span><strong>Apple App Store: Acti Agentic Keyboard</strong></a><a href="https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard/" target="_blank" rel="noreferrer"><span>source</span><strong>TechCrunch: Acti agentic keyboard</strong></a><a href="https://www.reddit.com/r/SideProject/comments/1ukorbc/i_got_tired_of_constantly_switching_between_apps/" target="_blank" rel="noreferrer"><span>source</span><strong>Reddit r/SideProject: Acti creator post</strong></a><a href="https://developer.nvidia.com/xr/xr-ai" target="_blank" rel="noreferrer"><span>source</span><strong>NVIDIA Developer: XR AI Platform</strong></a><a href="https://blogs.nvidia.com/blog/nvidia-xr-ai/" target="_blank" rel="noreferrer"><span>source</span><strong>NVIDIA Blog: XR AI brings agents to AR glasses</strong></a><a href="https://www.viture.com/en-US/blog/viture-unveils-helix-the-first-ai-safety-glasses-built-on-nvidia-s-xr-ai-solution-at-awe-2026" target="_blank" rel="noreferrer"><span>source</span><strong>VITURE: Helix with NVIDIA XR AI</strong></a><a href="https://www.viture.com/en-US/helix" target="_blank" rel="noreferrer"><span>source</span><strong>VITURE Helix product page</strong></a><a href="https://zcode.z.ai/en/docs" target="_blank" rel="noreferrer"><span>source</span><strong>ZCode docs: welcome</strong></a><a href="https://zcode.z.ai/en/docs/configuration" target="_blank" rel="noreferrer"><span>source</span><strong>ZCode docs: configuration</strong></a><a href="https://www.businessinsider.com/z-ai-zcode-ai-coding-tool-chinese-startup-lower-cost-2026-7" target="_blank" rel="noreferrer"><span>source</span><strong>Business Insider: Z.ai ZCode launch</strong></a><a href="https://devops.com/z-ai-debuts-zcode-to-compete-with-github-copilot-cursor-and-anthropic/" target="_blank" rel="noreferrer"><span>source</span><strong>DevOps.com: Z.ai debuts ZCode</strong></a><a href="https://www.qbitai.com/2026/07/441491.html" target="_blank" rel="noreferrer"><span>source</span><strong>量子位：AI眼镜不再依赖手机</strong></a><a href="https://m.36kr.com/p/3855201250507656" target="_blank" rel="noreferrer"><span>source</span><strong>36氪：AI眼镜赛道全面起势</strong></a><a href="https://www.qbitai.com/2026/06/437489.html" target="_blank" rel="noreferrer"><span>source</span><strong>量子位：雷鸟创新 2026 上半年成绩单</strong></a><a href="https://www.wipo.int/en/web/awards/global/2026" target="_blank" rel="noreferrer"><span>source</span><strong>WIPO Global Awards 2026: Rokid</strong></a><a href="https://arxiv.org/html/2604.03486v2" target="_blank" rel="noreferrer"><span>source</span><strong>arXiv: VisionClaw always-on AI agents through smart glasses</strong></a><a href="https://arxiv.org/html/2602.22340v1" target="_blank" rel="noreferrer"><span>source</span><strong>arXiv: conversational successes and breakdowns in smart glasses</strong></a><a href="https://patents.google.com/patent/WO2024129004A1/en" target="_blank" rel="noreferrer"><span>source</span><strong>Google Patents: AI-supported smart glasses</strong></a><a href="https://patents.google.com/patent/CN309755008S/en" target="_blank" rel="noreferrer"><span>source</span><strong>Google Patents: AI Smart Glasses GS1 design</strong></a><a href="https://www.androidcentral.com/wearables/solos-is-taking-aim-at-meta-essilorluxottica-for-alleged-smart-glasses-patent-infringement-in-pivotal-case" target="_blank" rel="noreferrer"><span>source</span><strong>Android Central: Solos smart-glasses patent lawsuit</strong></a>
+      </div>
+      <p class="source-row"><strong>完整总表：</strong> <a href="/ai-daily/2026-07-15/sources.md">sources.md</a></p>
+    </section>
+      </section>
+
+      <footer class="deck-controls" aria-label="Slide controls">
+        <button type="button" data-prev-slide>上一页</button>
+        <div class="deck-progress-shell"><span data-deck-progress></span></div>
+        <span class="deck-counter" data-deck-counter>01 / 30</span>
+        <button type="button" data-next-slide>下一页</button>
+      </footer>
+      <div class="deck-dots" data-deck-dots aria-hidden="true"></div>
+    </main>
+    <script>
+      document.querySelectorAll("[data-time-filter]").forEach((button) => {
+        button.addEventListener("click", () => {
+          const filter = button.dataset.timeFilter;
+          document.querySelectorAll("[data-time-filter]").forEach((item) => item.classList.toggle("active", item === button));
+          document.querySelectorAll("[data-time]").forEach((card) => {
+            const tokens = card.dataset.time.split(" ");
+            card.hidden = filter !== "all" && !tokens.includes(filter);
+          });
+        });
+      });
+
+      const deck = document.querySelector("[data-deck]");
+      if (deck) {
+        const slides = Array.from(deck.querySelectorAll("[data-slide]"));
+        const counter = document.querySelector("[data-deck-counter]");
+        const progress = document.querySelector("[data-deck-progress]");
+        const dots = document.querySelector("[data-deck-dots]");
+        let current = 0;
+
+        function showSlide(nextIndex, updateHash = true) {
+          current = Math.max(0, Math.min(slides.length - 1, nextIndex));
+          slides.forEach((slide, index) => {
+            const active = index === current;
+            slide.classList.toggle("is-active", active);
+            slide.setAttribute("aria-hidden", active ? "false" : "true");
+          });
+          if (counter) counter.textContent = String(current + 1).padStart(2, "0") + " / " + String(slides.length).padStart(2, "0");
+          if (progress) progress.style.width = ((current + 1) / slides.length * 100).toFixed(2) + "%";
+          if (dots) {
+            dots.querySelectorAll("button").forEach((button, index) => {
+              button.classList.toggle("active", index === current);
+            });
+          }
+          if (updateHash && slides[current]?.id) history.replaceState(null, "", "#" + slides[current].id);
+        }
+
+        if (dots) {
+          dots.innerHTML = slides.map((slide, index) => '<button type="button" aria-label="Slide ' + (index + 1) + '"></button>').join("");
+          dots.querySelectorAll("button").forEach((button, index) => button.addEventListener("click", () => showSlide(index)));
+        }
+
+        document.querySelectorAll("[data-next-slide]").forEach((button) => button.addEventListener("click", () => showSlide(current + 1)));
+        document.querySelectorAll("[data-prev-slide]").forEach((button) => button.addEventListener("click", () => showSlide(current - 1)));
+        document.querySelectorAll("[data-go-slide]").forEach((link) => {
+          link.addEventListener("click", (event) => {
+            event.preventDefault();
+            const target = slides.findIndex((slide) => slide.id === link.dataset.goSlide);
+            if (target >= 0) showSlide(target);
+          });
+        });
+
+        window.addEventListener("keydown", (event) => {
+          if (event.altKey || event.ctrlKey || event.metaKey) return;
+          if (["ArrowRight", "PageDown", " "].includes(event.key)) {
+            event.preventDefault();
+            showSlide(current + 1);
+          }
+          if (["ArrowLeft", "PageUp"].includes(event.key)) {
+            event.preventDefault();
+            showSlide(current - 1);
+          }
+          if (event.key === "Home") showSlide(0);
+          if (event.key === "End") showSlide(slides.length - 1);
+        });
+
+        const initial = slides.findIndex((slide) => "#" + slide.id === window.location.hash);
+        showSlide(initial >= 0 ? initial : 0, false);
+      }
+    </script>
+  </body>
+</html>

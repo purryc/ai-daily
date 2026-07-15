@@ -1,5 +1,115 @@
 [
   {
+    "date": "2026-07-15",
+    "zhTitle": "AI Daily 2026-07-15：AI 眼镜开始争夺 spatial software layer",
+    "enTitle": "AI Daily 2026-07-15: AI Glasses Start Fighting for the Spatial Software Layer",
+    "zhSummary": "Google/Samsung 把 intelligent eyewear 的音频与显示路线接到 Gemini；Android XR Developer Preview 4 给出 Projected、Compose Glimmer 和 Device Availability API；Rokid 的 YodaOS 与日本上市把中国线推进到 AIOS 和 agent store。今天的产品问题从“眼镜能做什么”推进到“谁控制眼前的界面、模型与分发”。",
+    "enSummary": "Google and Samsung connect audio and display intelligent eyewear to Gemini; Android XR Developer Preview 4 exposes Projected, Compose Glimmer, and Device Availability APIs; Rokid’s YodaOS and Japanese sale push the China signal toward an AIOS and agent store. The product question moves from what glasses can do to who controls the interface, models, and distribution in front of the user.",
+    "tags": [
+      "AI glasses",
+      "Android XR",
+      "YodaOS",
+      "spatial software",
+      "on-device AI",
+      "Gemini",
+      "agent UX",
+      "HCI"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "wild",
+      "research",
+      "patent",
+      "china",
+      "global"
+    ],
+    "coverStory": {
+      "topicId": "android-xr-intelligent-eyewear-developer-surface",
+      "zhTitle": "AI 眼镜开始争夺 spatial software layer",
+      "enTitle": "AI glasses start fighting for the spatial software layer",
+      "imagePath": "assets/android-xr-intelligent-eyewear-source-2026-05.png",
+      "imageWidth": 1600,
+      "imageHeight": 1000,
+      "primarySourceUrl": "https://blog.google/products-and-platforms/platforms/android/android-xr-io-2026/",
+      "imageSourceUrl": "https://blog.google/products-and-platforms/platforms/android/android-xr-io-2026/",
+      "evidenceStrength": "developer surface · official Android XR · pre-launch eyewear",
+      "whyCover": "Google/Samsung define audio and display eyewear around Gemini; Android XR gives developers Projected, Glimmer, emulator, and device-availability state; Rokid pushes a parallel AIOS and agent-store route. The contest is becoming the software layer that decides what appears, which model acts, and how the user recovers.",
+      "zhSummary": [
+        "Google/Samsung 公开 audio glasses 与 display glasses 两条路线，Gemini 负责语音、翻译、通知和动作入口。",
+        "Android XR Developer Preview 4 把 Projected、Compose Glimmer、emulator 和 Device Availability API 交给开发者。",
+        "Rokid 用 YodaOS、模型切换和 agent store 把中国 AI 眼镜竞争推进到 OS、服务与分发层。"
+      ],
+      "enSummary": [
+        "Google and Samsung show audio and display eyewear with Gemini for voice, translation, notifications, and actions.",
+        "Android XR Developer Preview 4 gives developers Projected, Compose Glimmer, an emulator, and device-availability state.",
+        "Rokid uses YodaOS, model switching, and an agent store to move the China signal into OS, service, and distribution layers."
+      ]
+    },
+    "designDesk": {
+      "zhTitle": "Design Desk：把 spatial software 做成可见、可停、可恢复的界面",
+      "enTitle": "Design Desk: Make spatial software visible, stoppable, and recoverable",
+      "zhIntro": "今天的产品资料共同指向一个可执行的 HCI 要求：用户要知道眼前的信息从哪里来、哪个模型在处理、设备是否可用、动作代表谁，以及失败后如何回到手机或现实任务。",
+      "enIntro": "Today’s product evidence points to an actionable HCI requirement: users need to know where field-of-view information came from, which model is processing it, whether the device is available, who an action represents, and how to return to the phone or physical task after failure.",
+      "zhItems": [
+        {
+          "label": "设备是否可用",
+          "body": "Android XR 的 Device Availability API 把佩戴状态带入 app 生命周期；未佩戴、断连和权限拒绝都应有可理解的回退。"
+        },
+        {
+          "label": "显示层级要可扫读",
+          "body": "Compose Glimmer 面向透明显示提供组件；产品不能把手机长页面原样搬到视野里。"
+        },
+        {
+          "label": "模型路由要可见",
+          "body": "Rokid 的多模型和 HTC 的第三方模型都需要告诉用户请求去了哪里、由谁处理、结果如何恢复。"
+        },
+        {
+          "label": "LED 与麦克风是社会契约",
+          "body": "Meta 把 capture LED 绑定相机许可；无相机产品也要让麦克风、连接和显示边界可见。"
+        },
+        {
+          "label": "低摩擦入口需要低成本撤销",
+          "body": "语音、镜腿触控、眼动和 agent action 越快，停止、取消、重试和回到手机就越要近。"
+        },
+        {
+          "label": "研究、专利和野生线索继续降级",
+          "body": "VisionClaw、专利、社区和 wild signals 只能生成设计假设，不能替代可购买硬件与真实用户证据。"
+        }
+      ],
+      "enItems": [
+        {
+          "label": "Is the device available?",
+          "body": "Android XR’s Device Availability API brings worn state into app lifecycle. Unworn, disconnected, and denied states need understandable fallbacks."
+        },
+        {
+          "label": "Display hierarchy must scan",
+          "body": "Compose Glimmer targets optical displays; a phone-length page cannot be moved into the field of view unchanged."
+        },
+        {
+          "label": "Model routing needs a surface",
+          "body": "Rokid’s multi-model route and HTC’s third-party access need to show where a request went, who processed it, and how to recover."
+        },
+        {
+          "label": "LEDs and microphones are social contracts",
+          "body": "Meta couples the capture LED to camera permission. Camera-free products still need legible microphone, connection, and display boundaries."
+        },
+        {
+          "label": "Low-friction triggers need cheap reversal",
+          "body": "The faster voice, touch, gaze, and agent actions become, the closer stop, cancel, retry, and return-to-phone controls must be."
+        },
+        {
+          "label": "Research, patent, and wild signals stay downgraded",
+          "body": "VisionClaw, patents, community posts, and wild signals generate design hypotheses, not shipping hardware or user evidence."
+        }
+      ]
+    },
+    "zhPath": "./2026-07-15/zh/",
+    "enPath": "./2026-07-15/en/",
+    "sourcesPath": "./2026-07-15/sources.md"
+  },
+  {
     "date": "2026-07-14",
     "zhTitle": "AI Daily 2026-07-14：隐私边界开始成为 AI 眼镜的硬件 API",
     "enTitle": "AI Daily 2026-07-14: Privacy Boundaries Become a Hardware API for AI Glasses",

@@ -2189,6 +2189,22 @@ body:has(.deck-page) {
 
 .slide-copy p,
 .analysis-columns p,
+.watch-slide .watch-grid {
+  gap: 12px;
+}
+
+.watch-slide .watch-grid div {
+  min-height: 96px;
+  padding: 12px;
+  gap: 6px;
+}
+
+.watch-slide .watch-grid p {
+  font-size: clamp(13px, 1vw, 17px);
+  line-height: 1.45;
+  margin: 0;
+}
+
 .watch-grid p {
   color: #332e2a;
   font-size: clamp(15px, 1.12vw, 19px);
