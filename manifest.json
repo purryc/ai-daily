@@ -1,5 +1,115 @@
 [
   {
+    "date": "2026-07-16",
+    "zhTitle": "AI Daily 2026-07-16：AI 眼镜进入真实佩戴审判",
+    "enTitle": "AI Daily 2026-07-16: AI Glasses Enter the Wearability Trial",
+    "zhSummary": "RayNeo X3 Pro 的最新实测把双目 MicroLED、户外亮度和空间定位的技术优势，与 76g、1–5 小时电池和生态摩擦放在同一张产品账单上；MemoMind One 用无相机显示换取更清楚的社会边界；讯飞、Meta、Android XR 和 OpenGlass 则把翻译、隐私、开发面和端侧功耗的不同路线拉到一起。",
+    "enSummary": "RayNeo X3 Pro’s latest hands-on review puts binocular MicroLED, outdoor brightness, and spatial positioning on the same product bill as 76 grams, one-to-five-hour runtime, and ecosystem friction. MemoMind One trades the camera for a clearer social boundary; iFlytek, Meta, Android XR, and OpenGlass expose different routes through translation, privacy, developer surfaces, and edge power.",
+    "tags": [
+      "AI glasses",
+      "RayNeo X3 Pro",
+      "MemoMind One",
+      "iFlytek",
+      "wearability",
+      "display AR",
+      "privacy UX",
+      "on-device AI"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "wild",
+      "research",
+      "patent",
+      "china",
+      "global"
+    ],
+    "coverStory": {
+      "topicId": "rayneo-x3-pro-display-ar-glasses",
+      "zhTitle": "AI 眼镜进入真实佩戴审判",
+      "enTitle": "AI glasses enter the wearability trial",
+      "imagePath": "assets/rayneo-x3-pro-review-source-2026-07.png",
+      "imageWidth": 1600,
+      "imageHeight": 1000,
+      "primarySourceUrl": "https://www.techradar.com/pro/rayneo-x3-pro-ai-ar-smart-glasses-review",
+      "imageSourceUrl": "https://www.techradar.com/pro/rayneo-x3-pro-ai-ar-smart-glasses-review",
+      "evidenceStrength": "confirmed product · TechRadar hands-on review · source-backed specs",
+      "whyCover": "RayNeo X3 Pro is a buyable display AI glasses product whose review exposes the complete trade: better field-of-view computing against weight, battery, price, ecosystem, and daily wear. MemoMind, iFlytek, Meta, Android XR, community, and OpenGlass show the routes competing around that trade.",
+      "zhSummary": [
+        "RayNeo X3 Pro 把双目 MicroLED、6,000 nits、空间定位和 Gemini Live 变成可购买硬件。",
+        "TechRadar 实测同时记录 76g、约 1–5 小时电池、3/5 第一代评价和 app 生态摩擦。",
+        "MemoMind、讯飞、Meta、Android XR 与 OpenGlass 分别从相机边界、翻译工作流、隐私状态、开发者契约和端侧功耗回应日常佩戴问题。"
+      ],
+      "enSummary": [
+        "RayNeo X3 Pro makes binocular MicroLED, 6,000 nits, spatial positioning, and Gemini Live a purchasable device.",
+        "TechRadar records 76 grams, roughly one-to-five-hour runtime, a 3/5 first-generation verdict, and app-ecosystem friction.",
+        "MemoMind, iFlytek, Meta, Android XR, and OpenGlass answer daily-wear constraints through camera boundaries, translation workflows, privacy state, developer contracts, and edge power."
+      ]
+    },
+    "designDesk": {
+      "zhTitle": "Design Desk：把佩戴成本做成第一等产品状态",
+      "enTitle": "Design Desk: Make the cost of wearing the product a first-class state",
+      "zhIntro": "今天的新证据把眼镜产品问题压缩成一条可执行的交互链：用户为什么戴、何时看、谁能看见、设备撑多久、失败时怎么停，以及任务结束后如何回到手机或现实环境。",
+      "enIntro": "Today’s new evidence compresses the glasses problem into an actionable interaction chain: why the user wears it, when they look, who can see the state, how long the device lasts, how it stops on failure, and how the user returns to the phone or physical environment.",
+      "zhItems": [
+        {
+          "label": "佩戴收益要抵过重量",
+          "body": "RayNeo 的显示价值很强，但 76g 和电池把每天佩戴变成产品变量；信息必须足够短、足够高频、足够值得抬眼。"
+        },
+        {
+          "label": "相机边界要可解释",
+          "body": "Meta 用 capture LED 和检测到篡改后禁用相机，MemoMind 直接去掉相机；社会信任是硬件架构与状态反馈的共同产物。"
+        },
+        {
+          "label": "显示不是手机页面缩小",
+          "body": "双目 MicroLED、透明显示与 Compose Glimmer 都要求 glanceable hierarchy；每一条内容都要能停、退回、恢复。"
+        },
+        {
+          "label": "翻译是持续选择，不是一键能力",
+          "body": "讯飞的“看谁、听谁、翻谁”说明多说话人声场需要目标选择、置信度和纠错，而不是只展示语言数量。"
+        },
+        {
+          "label": "端侧推理要补偿等待",
+          "body": "OpenGlass 的事件唤醒路线提示功耗预算；产品需要让用户知道何时在本地运行、何时上传、何时降级。"
+        },
+        {
+          "label": "众筹与研究继续降级",
+          "body": "MemoMind 的交付、OpenGlass 的量产、WAIC 社区讨论和专利材料都只能生成下一轮验证问题。"
+        }
+      ],
+      "enItems": [
+        {
+          "label": "Wearability must earn the weight",
+          "body": "RayNeo’s display is compelling, but 76 grams and battery turn daily wear into a product variable; content must be short, frequent, and worth a glance."
+        },
+        {
+          "label": "Camera boundaries must be explainable",
+          "body": "Meta couples a capture LED to camera disablement on tamper; MemoMind removes the camera. Trust is jointly produced by architecture and feedback."
+        },
+        {
+          "label": "A display is not a shrunken phone",
+          "body": "Binocular MicroLED, optical see-through, and Compose Glimmer demand glanceable hierarchy; every cue needs a stop, return, and recovery path."
+        },
+        {
+          "label": "Translation is continuous selection",
+          "body": "iFlytek’s ‘who to look at, who to listen to, who to translate’ shows that noisy rooms need target selection, confidence, and correction, not just language counts."
+        },
+        {
+          "label": "Edge inference must explain waiting",
+          "body": "OpenGlass points to event-driven power budgets; products need to show when work stays local, when data leaves, and when the system degrades."
+        },
+        {
+          "label": "Crowdfunding and research stay downgraded",
+          "body": "MemoMind delivery, OpenGlass production, WAIC discussion, and patent material generate validation questions, not confirmed consumer evidence."
+        }
+      ]
+    },
+    "zhPath": "./2026-07-16/zh/",
+    "enPath": "./2026-07-16/en/",
+    "sourcesPath": "./2026-07-16/sources.md"
+  },
+  {
     "date": "2026-07-15",
     "zhTitle": "AI Daily 2026-07-15：AI 眼镜开始争夺 spatial software layer",
     "enTitle": "AI Daily 2026-07-15: AI Glasses Start Fighting for the Spatial Software Layer",
