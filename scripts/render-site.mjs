@@ -2138,16 +2138,16 @@ body:has(.deck-page) {
 }
 
 .source-slide .source-grid {
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  gap: 3px;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 2px;
   align-content: start;
 }
 
 .source-slide .source-grid a {
   min-height: 0;
   border-radius: 12px;
-  padding: 4px 5px;
-  gap: 2px;
+  padding: 3px 4px;
+  gap: 1px;
 }
 
 .source-slide .source-grid span {
@@ -2156,8 +2156,8 @@ body:has(.deck-page) {
 }
 
 .source-slide .source-grid strong {
-  font-size: clamp(8.6px, 0.66vw, 11px);
-  line-height: 1.12;
+  font-size: clamp(8.2px, 0.62vw, 10px);
+  line-height: 1.06;
   letter-spacing: -0.018em;
 }
 

@@ -1,5 +1,115 @@
 [
   {
+    "date": "2026-07-20",
+    "zhTitle": "AI Daily 2026-07-20：AI 眼镜先赢信任，才有资格争夺视野",
+    "enTitle": "AI Daily 2026-07-20: AI Glasses Must Win Trust Before They Own the View",
+    "zhSummary": "Meta 最新 FAQ 和 Google/Android XR 的反篡改路线把 AI 眼镜的首要产品问题从“能不能看见”改成“旁观者能否相信你正在看”；Rokid 在 WAIC 发布 YodaOS，社区则开始讨论 agent 在眼镜上直接创建 app、导航和计时器。RayNeo、MemoMind、讯飞、OpenGlass 与专利信号继续把显示、无相机、翻译、端侧功耗和可撤销执行拉到同一张产品账单上。",
+    "enSummary": "Meta’s latest FAQ and Google/Android XR’s anti-tampering direction move the first product question from whether glasses can see to whether bystanders can trust what they are doing. Rokid launched YodaOS at WAIC; community discussion is already asking whether an agent can create an app, navigate, and run a timer from glasses. RayNeo, MemoMind, iFlytek, OpenGlass, and patent signals keep display, camera removal, translation, edge power, and undoable execution on one product bill.",
+    "tags": [
+      "AI glasses",
+      "privacy UX",
+      "Android XR",
+      "Meta",
+      "Rokid YodaOS",
+      "wearability",
+      "agent execution",
+      "on-device AI"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "wild",
+      "research",
+      "patent",
+      "china",
+      "global"
+    ],
+    "coverStory": {
+      "topicId": "meta-ai-glasses-capture-led-privacy-update",
+      "zhTitle": "AI 眼镜先赢信任，才有资格争夺视野",
+      "enTitle": "AI glasses must win trust before they own the view",
+      "imagePath": "assets/meta-ai-glasses-privacy-source-2026-07.png",
+      "imageWidth": 1600,
+      "imageHeight": 1000,
+      "primarySourceUrl": "https://about.fb.com/news/2026/07/metas-ai-glasses-your-questions-answered/",
+      "imageSourceUrl": "https://about.fb.com/news/2026/07/metas-ai-glasses-your-questions-answered/",
+      "evidenceStrength": "confirmed product · official Meta FAQ · Google/Android XR trust signal · community friction",
+      "whyCover": "The current product fight is no longer only about cameras, displays, or assistants. Meta’s capture LED and anti-tamper behavior, Google’s Android XR trust framing, and the public backlash make the social state of the device part of the hardware contract. RayNeo, MemoMind, iFlytek, Rokid, and agent research show what happens after trust is granted.",
+      "zhSummary": [
+        "Meta FAQ 明确 capture LED 被遮挡或禁用会自动关闭相机；隐私状态成为硬件约束。",
+        "Google 把 Android XR 的反篡改和公共佩戴信任放进产品设计前置条件。",
+        "RayNeo、MemoMind、讯飞、Rokid、社区 agent 与 VisionClaw 说明信任之后还要解决显示、翻译、执行、续航和撤销。"
+      ],
+      "enSummary": [
+        "Meta’s FAQ states that covering or disabling the capture LED automatically disables the camera; privacy state is a hardware constraint.",
+        "Google puts anti-tampering and public-wear trust into Android XR’s product framing before launch.",
+        "RayNeo, MemoMind, iFlytek, Rokid, community agent use, and VisionClaw show that trust still has to be followed by display, translation, execution, battery, and undo design."
+      ]
+    },
+    "designDesk": {
+      "zhTitle": "Design Desk：把‘我正在看’做成可验证的公共状态",
+      "enTitle": "Design Desk: Make ‘I am looking’ a verifiable public state",
+      "zhIntro": "今天的新证据把眼镜产品问题压缩成一条可验证的交互链：用户为什么戴、相机是否在工作、旁观者能否理解状态、agent 改了什么、设备撑多久、失败时怎么停，以及任务结束后如何回到手机或现实环境。",
+      "enIntro": "Today’s evidence compresses the glasses problem into a testable interaction chain: why the user wears them, whether the camera is active, whether bystanders can understand the state, what an agent changed, how long the device lasts, how it stops on failure, and how the user returns to the phone or physical environment.",
+      "zhItems": [
+        {
+          "label": "佩戴收益要抵过重量",
+          "body": "RayNeo 的显示价值很强，但 76g 和电池把每天佩戴变成产品变量；信息必须足够短、足够高频、足够值得抬眼。"
+        },
+        {
+          "label": "相机边界要可验证",
+          "body": "Meta 用 capture LED 和检测到篡改后禁用相机，MemoMind 直接去掉相机；公共信任需要旁观者可见、用户可验证、系统可强制执行。"
+        },
+        {
+          "label": "显示不是手机页面缩小",
+          "body": "双目 MicroLED、透明显示与 Compose Glimmer 都要求 glanceable hierarchy；每一条内容都要能停、退回、恢复。"
+        },
+        {
+          "label": "Agent 执行必须可撤销",
+          "body": "社区开始讨论眼镜 agent 创建 app、导航和计时器；任务执行必须显示权限、工具调用、状态变化和撤销入口。"
+        },
+        {
+          "label": "端侧推理要补偿等待",
+          "body": "OpenGlass 的事件唤醒路线提示功耗预算；产品需要让用户知道何时在本地运行、何时上传、何时降级。"
+        },
+        {
+          "label": "众筹、研究与专利继续降级",
+          "body": "MemoMind 的交付、OpenGlass/VisionClaw 的量产、社区叙述和专利材料都只能生成下一轮验证问题。"
+        }
+      ],
+      "enItems": [
+        {
+          "label": "Wearability must earn the weight",
+          "body": "RayNeo’s display is compelling, but 76 grams and battery turn daily wear into a product variable; content must be short, frequent, and worth a glance."
+        },
+        {
+          "label": "Camera boundaries must be verifiable",
+          "body": "Meta couples a capture LED to camera disablement on tamper; MemoMind removes the camera. Public trust needs visible state, user verification, and enforced behavior."
+        },
+        {
+          "label": "A display is not a shrunken phone",
+          "body": "Binocular MicroLED, optical see-through, and Compose Glimmer demand glanceable hierarchy; every cue needs a stop, return, and recovery path."
+        },
+        {
+          "label": "Agent actions must be undoable",
+          "body": "Community discussion now asks glasses agents to create apps, navigate, and run timers; execution needs permissions, tool visibility, state change, and undo."
+        },
+        {
+          "label": "Edge inference must explain waiting",
+          "body": "OpenGlass points to event-driven power budgets; products need to show when work stays local, when data leaves, and when the system degrades."
+        },
+        {
+          "label": "Crowdfunding, research, and patents stay downgraded",
+          "body": "MemoMind delivery, OpenGlass/VisionClaw production, community accounts, and patent material generate validation questions, not confirmed consumer evidence."
+        }
+      ]
+    },
+    "zhPath": "./2026-07-20/zh/",
+    "enPath": "./2026-07-20/en/",
+    "sourcesPath": "./2026-07-20/sources.md"
+  },
+  {
     "date": "2026-07-16",
     "zhTitle": "AI Daily 2026-07-16：AI 眼镜进入真实佩戴审判",
     "enTitle": "AI Daily 2026-07-16: AI Glasses Enter the Wearability Trial",
