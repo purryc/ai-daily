@@ -1,5 +1,115 @@
 [
   {
+    "date": "2026-07-21",
+    "zhTitle": "AI Daily 2026-07-21：AI 眼镜开始做减法",
+    "enTitle": "AI Daily 2026-07-21: AI Glasses Start Subtracting",
+    "zhSummary": "今天的产品信号不再只比谁把更多模型塞进镜框：MOONIX 用 14.9g、无相机标准版和 AI 记录/总结押注全天佩戴；Monako Glass 用 48g Linux、waveguide HUD 和 Lua app layer 把 coding agent 的等待状态带离桌面。Meta/Android XR 继续补隐私硬件约束，RayNeo、讯飞、Rokid、OpenGlass 和社区材料把显示、翻译、端侧功耗与可撤销执行放进同一张验证表。",
+    "enSummary": "Today’s product signals are no longer only about which model fits into a frame. MOONIX bets on all-day wear with 14.9 grams, a camera-free standard model, and AI capture plus summary. Monako Glass bets on a 48-gram Linux computer, waveguide HUD, and Lua application layer to carry coding-agent waiting states away from the desk. Meta and Android XR keep adding hard privacy constraints, while RayNeo, iFlytek, Rokid, OpenGlass, and community evidence keep display, translation, edge power, and undo on one validation sheet.",
+    "tags": [
+      "AI glasses",
+      "wearability",
+      "camera-free",
+      "MOONIX",
+      "coding agents",
+      "Android XR",
+      "privacy UX",
+      "on-device AI"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "wild",
+      "research",
+      "patent",
+      "china",
+      "global"
+    ],
+    "coverStory": {
+      "topicId": "moonix-ai-glasses-ultralight-memory",
+      "zhTitle": "AI 眼镜开始做减法：先让人愿意一直戴",
+      "enTitle": "AI glasses start subtracting: make people willing to keep wearing them",
+      "imagePath": "assets/moonix-official-source-2026-07.png",
+      "imageWidth": 1600,
+      "imageHeight": 1000,
+      "primarySourceUrl": "https://moonix.cn/",
+      "imageSourceUrl": "https://moonix.cn/",
+      "evidenceStrength": "confirmed product · official MOONIX page · China launch report · comparison with camera/display routes",
+      "whyCover": "The strongest product question today is not how many capabilities can fit into smart glasses. It is which capability earns the right to stay on the face. MOONIX removes display from the standard product, keeps audio, six microphones, capture, summary, and a 14.9-gram frame. Monako makes the opposite bet by putting a Linux coding-agent HUD on the face. Meta’s anti-tamper work shows that even after weight and utility, social trust remains a hardware state.",
+      "zhSummary": [
+        "MOONIX 官网把约 14.9g、约 16h、6 麦克风、AI 记录/总结和主动式 AI 放进日常佩戴闭环。",
+        "标准版偏音频记录与 AI 问答，Pro 才扩展高清摄像头和音视频记录；能力边界被产品分层显式化。",
+        "Monako、RayNeo、Meta 和 Android XR 分别代表 agent HUD、显示、相机隐私与平台信任的相反取舍。"
+      ],
+      "enSummary": [
+        "MOONIX puts approximately 14.9 grams, about 16 hours, six microphones, AI capture and summary, and proactive AI into an everyday-wear loop.",
+        "The standard model emphasizes audio capture and AI questions while Pro adds a high-definition camera and audio-video recording; capability boundaries become an explicit product split.",
+        "Monako, RayNeo, Meta, and Android XR represent contrasting choices around agent HUDs, display, camera privacy, and platform trust."
+      ]
+    },
+    "designDesk": {
+      "zhTitle": "Design Desk：先设计‘值得一直戴’的状态",
+      "enTitle": "Design Desk: Design the state that earns continuous wear",
+      "zhIntro": "今天的证据把眼镜产品压缩成一条更具体的链：重量是否让人愿意戴、记录是否让人愿意反复说、显示是否值得占用视野、相机是否能被旁观者验证、agent 是否能在移动中反馈、任务失败时如何停，以及数据如何删除。",
+      "enIntro": "Today’s evidence compresses the glasses product into a more concrete chain: whether weight earns wear, whether capture earns repeated use, whether display deserves the field of view, whether camera state is verifiable to bystanders, whether an agent can report while the user moves, how failure stops, and how data is deleted.",
+      "zhItems": [
+        {
+          "label": "重量要先变成习惯",
+          "body": "MOONIX 把标准款压到约 14.9g，RayNeo 则用 76g 换双目显示；两条路线都要求信息足够短、足够高频、足够值得把设备留在脸上。"
+        },
+        {
+          "label": "相机边界要可验证",
+          "body": "Meta 用 capture LED 和检测到篡改后禁用相机，MemoMind 直接去掉相机；公共信任需要旁观者可见、用户可验证、系统可强制执行。"
+        },
+        {
+          "label": "显示不是手机页面缩小",
+          "body": "双目 MicroLED、透明显示与 Compose Glimmer 都要求 glanceable hierarchy；每一条内容都要能停、退回、恢复。"
+        },
+        {
+          "label": "Agent 状态要能离桌面读懂",
+          "body": "Monako 把 coding agent 的等待、错误和确认想象成 HUD 状态；社区则讨论眼镜 agent 创建 app、导航和计时器，执行必须显示权限、工具调用、状态变化和撤销入口。"
+        },
+        {
+          "label": "端侧推理要补偿等待",
+          "body": "OpenGlass 的事件唤醒路线提示功耗预算；产品需要让用户知道何时在本地运行、何时上传、何时降级。"
+        },
+        {
+          "label": "记录数据要可删",
+          "body": "MOONIX 的 AI 记录、MemoMind 的语音记录、OpenGlass/VisionClaw 的研究感知和专利材料都只能生成验证问题；上传、保存、导出与清除必须成为可见状态。"
+        }
+      ],
+      "enItems": [
+        {
+          "label": "Weight must become habit",
+          "body": "MOONIX targets approximately 14.9 grams while RayNeo spends 76 grams on binocular display; both routes require content that is short, frequent, and worth keeping on the face."
+        },
+        {
+          "label": "Camera boundaries must be verifiable",
+          "body": "Meta couples a capture LED to camera disablement on tamper; MemoMind removes the camera. Public trust needs visible state, user verification, and enforced behavior."
+        },
+        {
+          "label": "A display is not a shrunken phone",
+          "body": "Binocular MicroLED, optical see-through, and Compose Glimmer demand glanceable hierarchy; every cue needs a stop, return, and recovery path."
+        },
+        {
+          "label": "Agent state must travel off-screen",
+          "body": "Monako imagines coding-agent waiting, error, and confirmation as HUD states; community discussion asks glasses agents to create apps, navigate, and run timers, so execution needs permissions, tool visibility, state change, and undo."
+        },
+        {
+          "label": "Edge inference must explain waiting",
+          "body": "OpenGlass points to event-driven power budgets; products need to show when work stays local, when data leaves, and when the system degrades."
+        },
+        {
+          "label": "Captured data must be deletable",
+          "body": "MOONIX capture, MemoMind voice notes, OpenGlass/VisionClaw sensing, and patent material generate validation questions; upload, retention, export, and deletion must become visible states."
+        }
+      ]
+    },
+    "zhPath": "./2026-07-21/zh/",
+    "enPath": "./2026-07-21/en/",
+    "sourcesPath": "./2026-07-21/sources.md"
+  },
+  {
     "date": "2026-07-20",
     "zhTitle": "AI Daily 2026-07-20：AI 眼镜先赢信任，才有资格争夺视野",
     "enTitle": "AI Daily 2026-07-20: AI Glasses Must Win Trust Before They Own the View",
