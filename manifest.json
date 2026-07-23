@@ -1,5 +1,115 @@
 [
   {
+    "date": "2026-07-23",
+    "zhTitle": "AI Daily 2026-07-23：AI 眼镜进入真机审查",
+    "enTitle": "AI Daily 2026-07-23: Intelligent Eyewear Enters the Hands-On Test",
+    "zhSummary": "Samsung / Google Intelligent Eyewear 在 Unpacked 公开新设计；Android XR、隐私硬件和多设备协同进入真实产品审查。",
+    "enSummary": "Samsung and Google show new Intelligent Eyewear designs; Android XR, hardware privacy, and multi-device orchestration enter the real product test.",
+    "tags": [
+      "Intelligent Eyewear",
+      "Samsung",
+      "Google",
+      "Android XR",
+      "Gemini",
+      "privacy UX",
+      "AI glasses",
+      "wearability"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "wild",
+      "research",
+      "patent",
+      "china",
+      "global"
+    ],
+    "coverStory": {
+      "topicId": "samsung-google-intelligent-eyewear-unpacked-2026",
+      "zhTitle": "AI 眼镜进入真机审查：从平台承诺到公共空间的脸上设备",
+      "enTitle": "Intelligent eyewear enters the hands-on test: from platform promise to a device on the face",
+      "imagePath": "assets/samsung-intelligent-eyewear-official-2026-07.jpg",
+      "imageWidth": 1000,
+      "imageHeight": 280,
+      "primarySourceUrl": "https://news.samsung.com/uk/samsung-brings-galaxy-ecosystem-into-everyday-eyewear",
+      "imageSourceUrl": "https://news.samsung.com/uk/samsung-brings-galaxy-ecosystem-into-everyday-eyewear",
+      "evidenceStrength": "confirmed product · official Unpacked announcement · hands-on preview · fall 2026 availability",
+      "whyCover": "Samsung and Google have moved Intelligent Eyewear from a Google I/O preview into a dated fall product promise. The key product question is now visible: can Android XR, Gemini, a phone, a watch, a camera LED, and a fashionable frame behave as one trustworthy daily system?",
+      "zhSummary": [
+        "Samsung / Google 在 7 月 22 日公开 Gentle Monster 与 Warby Parker 设计路线，首批音频眼镜指向 2026 年秋季。",
+        "Android Central 的现场模型不能运行；约 9 小时混合续航属于媒体估算，价格、重量、传感器和 API 仍未公开。",
+        "相机 LED、摘下检测、遮挡 LED 时禁用相机和 Wear OS 手势，把隐私、输入与多设备协同推到产品核心。"
+      ],
+      "enSummary": [
+        "Samsung and Google showed Gentle Monster and Warby Parker design routes on July 22, with first audio-glasses collections targeting fall 2026.",
+        "Android Central handled non-functioning models; the roughly nine-hour mixed-use figure is a media estimate, while price, weight, sensors, and APIs remain undisclosed.",
+        "Camera LED, wear detection, LED-cover disablement, and Wear OS gestures put privacy, input, and multi-device orchestration at the center of the product."
+      ]
+    },
+    "designDesk": {
+      "zhTitle": "Design Desk：眼镜产品的下一关是跨设备状态可读性",
+      "enTitle": "Design Desk: The next eyewear test is legible cross-device state",
+      "zhIntro": "今天的设计问题集中在一条真实链路：眼镜听见什么、手机处理什么、手表触发什么、相机何时工作、Gemini 是否正在代表用户行动，都必须在任务进行中被理解。",
+      "enIntro": "Today’s design problem is one real chain: what the glasses heard, what the phone processed, what the watch triggered, when the camera is active, and whether Gemini is acting for the user must remain understandable during the task.",
+      "zhItems": [
+        {
+          "label": "脸上设备需要公共可读状态",
+          "body": "Samsung 把 LED、wear detection 和遮挡 LED 时禁用相机放进产品叙事，说明隐私状态必须同时对佩戴者与旁观者可见。"
+        },
+        {
+          "label": "跨设备编排要有责任边界",
+          "body": "眼镜、手机、手表和云端协作时，用户要知道哪一层在听、哪一层在算、哪一层保存数据，以及断连后谁继续工作。"
+        },
+        {
+          "label": "低摩擦手势需要低风险回退",
+          "body": "双捏或手势启动很自然，误触后却要能快速停止、撤销、回到手机或关闭相机，确认不应被藏在第二层设置。"
+        },
+        {
+          "label": "设计合作伙伴也是产品接口",
+          "body": "Gentle Monster 与 Warby Parker 不只是外观供应商；镜框是否像日常眼镜，直接决定用户能否进入公共空间测试。"
+        },
+        {
+          "label": "预发布视觉不能冒充可用性",
+          "body": "现场外观图能证明设计方向，不能证明重量、热量、续航、相机误触、API 或公共空间接受度。"
+        },
+        {
+          "label": "模型输出要适配眼前节奏",
+          "body": "音频型眼镜的答案应短、可打断、可追问；需要长上下文时，系统应把任务转回手机或更大的屏幕。"
+        }
+      ],
+      "enItems": [
+        {
+          "label": "A device on the face needs public state",
+          "body": "Samsung’s LED, wear detection, and LED-cover disablement show that privacy status must be legible to both wearer and bystander."
+        },
+        {
+          "label": "Cross-device orchestration needs ownership",
+          "body": "When glasses, phone, watch, and cloud cooperate, the user needs to know which layer listens, computes, stores, and continues after disconnect."
+        },
+        {
+          "label": "Low-friction gestures need low-risk fallback",
+          "body": "A double pinch or watch gesture can feel natural; after a misfire, stop, undo, return-to-phone, and camera-off must be immediate."
+        },
+        {
+          "label": "Design partners are product interfaces",
+          "body": "Gentle Monster and Warby Parker are not only style suppliers. Whether the frame looks like everyday eyewear determines whether the product can enter public testing."
+        },
+        {
+          "label": "Preview visuals cannot prove usability",
+          "body": "A launch image proves a design direction. It does not prove weight, heat, runtime, accidental capture, API access, or public acceptance."
+        },
+        {
+          "label": "Model output must fit the wearer’s rhythm",
+          "body": "Audio-glasses answers should be short, interruptible, and easy to follow up. Long context should move to the phone or a larger screen."
+        }
+      ]
+    },
+    "zhPath": "./2026-07-21/zh/",
+    "enPath": "./2026-07-21/en/",
+    "sourcesPath": "./2026-07-21/sources.md"
+  },
+  {
     "date": "2026-07-21",
     "zhTitle": "AI Daily 2026-07-21：AI 眼镜开始做减法",
     "enTitle": "AI Daily 2026-07-21: AI Glasses Start Subtracting",
