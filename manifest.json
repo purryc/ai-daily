@@ -1,5 +1,115 @@
 [
   {
+    "date": "2026-07-24",
+    "zhTitle": "AI Daily 2026-07-24：Agent 开始需要实体状态层",
+    "enTitle": "AI Daily 2026-07-24: Agents Start Needing a Physical State Layer",
+    "zhSummary": "Codex Micro 把 agent 状态灯、批准和 reasoning 控制放到桌面；Halliday、MouthPad、低价眼镜和世界模型把同一问题推向脸上、口腔与环境。",
+    "enSummary": "Codex Micro puts agent status, approval, and reasoning controls on the desk; Halliday, MouthPad, low-cost glasses, and world models push the same problem onto the face, mouth, and environment.",
+    "tags": [
+      "agent hardware",
+      "Codex Micro",
+      "Halliday G2",
+      "MouthPad",
+      "AI glasses",
+      "embodied HCI",
+      "state feedback",
+      "on-device AI"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "wild",
+      "research",
+      "patent",
+      "china",
+      "global"
+    ],
+    "coverStory": {
+      "topicId": "openai-codex-micro-agent-control-pad",
+      "zhTitle": "Agent 开始需要实体状态层",
+      "enTitle": "Agents start needing a physical state layer",
+      "imagePath": "assets/codex-micro-openai-official-2026-07.png",
+      "imageWidth": 1600,
+      "imageHeight": 1000,
+      "primarySourceUrl": "https://openai.com/supply/co-lab/work-louder/",
+      "imageSourceUrl": "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/",
+      "evidenceStrength": "confirmed product · official listing · review/community friction",
+      "whyCover": "Codex Micro is a small but concrete shift: agents are no longer only windows to prompt. Their state, approval gates, voice trigger, and reasoning depth can become physical controls. Halliday G2 and MouthPad show the same HCI requirement in other places: live prompts must be legible, low-friction input must remain reversible, and the system must say what it is doing.",
+      "zhSummary": [
+        "OpenAI × Work Louder 的 $230 Codex Micro 用 RGB Agent Keys、摇杆、旋钮和快捷键管理并行 Codex 线程。",
+        "Halliday G2 把会议 AI 从会后摘要推到会中 HUD；MouthPad + VOX 把身体耦合输入带进辅助技术与无声语音方向。",
+        "低价 Nework Insight、WAIC 中国线与 AlayaWorld 说明入口正在扩散，但栈透明度、公共信任、状态反馈和可恢复性仍是硬门槛。"
+      ],
+      "enSummary": [
+        "OpenAI × Work Louder’s $230 Codex Micro uses RGB Agent Keys, joystick, dial, and shortcuts to manage parallel Codex threads.",
+        "Halliday G2 moves meeting AI into a live HUD; MouthPad + VOX bring body-coupled input into assistive technology and silent-speech research.",
+        "Low-cost Nework Insight, the WAIC China scan, and AlayaWorld show the entry points spreading, while stack transparency, public trust, state feedback, and recovery remain hard gates."
+      ]
+    },
+    "designDesk": {
+      "zhTitle": "Design Desk：agent 的下一层 UI 是状态、授权与恢复",
+      "enTitle": "Design Desk: the next agent UI is state, authorization, and recovery",
+      "zhIntro": "今天的产品线索跨过桌面、眼镜、口腔和生成环境，但它们都在解决同一件事：用户如何知道系统正在做什么、什么时候需要自己确认、出错后如何把控制权拿回来。",
+      "enIntro": "Today’s products cross the desk, face, mouth, and generated environment, but they share one HCI problem: how users know what the system is doing, when confirmation is needed, and how to take control back after an error.",
+      "zhItems": [
+        {
+          "label": "状态必须离开窗口",
+          "body": "Codex Micro 用灯光把 agent lifecycle 放到桌面；眼镜和 VOX 也需要在不打断任务的情况下显示听见、生成、等待、失败和完成。"
+        },
+        {
+          "label": "批准是高后果输入",
+          "body": "Approve、send、purchase 和 delete 不能只靠一个顺手按钮；必须有上下文、后果预览、二次确认和快速撤销。"
+        },
+        {
+          "label": "无相机不等于无隐私",
+          "body": "Halliday 去掉摄像头后，录音、转写、云端处理和会议同意仍要被看见；MouthPad/VOX 还增加了口腔和语音数据边界。"
+        },
+        {
+          "label": "低摩擦输入需要高质量反馈",
+          "body": "舌头、吸气、手表手势和旋钮都能降低触发成本，系统必须用灯、声、触觉或 HUD 告诉用户动作是否生效。"
+        },
+        {
+          "label": "研究环境也要可回滚",
+          "body": "世界模型进入 agent tooling 后，生成、记忆、动作和预测必须能区分、重播、回滚和解释，否则沉浸感会放大错误。"
+        },
+        {
+          "label": "价格下降会放大信任问题",
+          "body": "$99.99 眼镜让更多人试戴相机与 AI；低价不会自动消除录制状态、数据路径、续航和售后体验。"
+        }
+      ],
+      "enItems": [
+        {
+          "label": "State must leave the window",
+          "body": "Codex Micro moves the agent lifecycle onto the desk; glasses and VOX also need non-disruptive states for heard, generating, waiting, failed, and done."
+        },
+        {
+          "label": "Approval is consequential input",
+          "body": "Approve, send, purchase, and delete cannot be one convenient button. They need context, consequence preview, second confirmation, and fast undo."
+        },
+        {
+          "label": "Camera-free is not privacy-free",
+          "body": "Halliday removes the camera but still needs legible recording, transcription, cloud-processing, and meeting-consent rules; MouthPad/VOX add oral and voice-data boundaries."
+        },
+        {
+          "label": "Low-friction input needs feedback",
+          "body": "Tongue, sip, watch gesture, and dial controls reduce trigger cost. Light, sound, haptics, or HUD must confirm whether the action took effect."
+        },
+        {
+          "label": "Research environments need rollback",
+          "body": "When world models enter agent tooling, generation, memory, action, and prediction must be distinguishable, replayable, rollbackable, and explainable."
+        },
+        {
+          "label": "Lower price expands trust exposure",
+          "body": "$99.99 glasses invite more people to try cameras and AI; price does not remove capture state, data paths, runtime, or support friction."
+        }
+      ]
+    },
+    "zhPath": "./2026-07-24/zh/",
+    "enPath": "./2026-07-24/en/",
+    "sourcesPath": "./2026-07-24/sources.md"
+  },
+  {
     "date": "2026-07-23",
     "zhTitle": "AI Daily 2026-07-23：AI 眼镜进入真机审查",
     "enTitle": "AI Daily 2026-07-23: Intelligent Eyewear Enters the Hands-On Test",

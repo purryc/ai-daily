@@ -2101,6 +2101,25 @@ body:has(.deck-page) {
   gap: 10px;
 }
 
+.section-slide {
+  gap: 20px;
+}
+
+.section-slide .section-topic-list {
+  gap: 8px;
+}
+
+.section-slide .section-topic-list div {
+  min-height: 86px;
+  padding: 10px;
+  gap: 6px;
+}
+
+.section-slide .section-topic-list strong {
+  font-size: clamp(14px, 1.05vw, 17px);
+  line-height: 1.04;
+}
+
 .agenda-card span,
 .section-topic-list span,
 .watch-grid span,
@@ -2138,31 +2157,31 @@ body:has(.deck-page) {
 }
 
 .source-slide .source-grid {
-  grid-template-columns: repeat(6, minmax(0, 1fr));
-  gap: 2px;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+  gap: 1px;
   align-content: start;
 }
 
 .source-slide .source-grid a {
   min-height: 0;
-  border-radius: 12px;
-  padding: 3px 4px;
+  border-radius: 9px;
+  padding: 2px 3px;
   gap: 1px;
 }
 
 .source-slide .source-grid span {
-  font-size: 8px;
-  letter-spacing: 0.1em;
+  font-size: 7px;
+  letter-spacing: 0.06em;
 }
 
 .source-slide .source-grid strong {
-  font-size: clamp(8.2px, 0.62vw, 10px);
-  line-height: 1.06;
-  letter-spacing: -0.018em;
+  font-size: clamp(7px, 0.52vw, 8.5px);
+  line-height: 1.01;
+  letter-spacing: -0.025em;
 }
 
 .source-slide .source-row {
-  font-size: 10px;
+  font-size: 8px;
   margin-top: 0;
 }
 
