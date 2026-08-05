@@ -1,5 +1,115 @@
 [
   {
+    "date": "2026-08-05",
+    "zhTitle": "AI Daily 2026-08-05：AI 眼镜开始争夺“系统层”",
+    "enTitle": "AI Daily 2026-08-05: AI Glasses Start Fighting for the System Layer",
+    "zhSummary": "XREAL AURA、VITURE Helix、Snapdragon START、Raven Prism 与 LingDevice OS 把 AI 眼镜从单一功能推向 Android XR、企业现场、可信服务和开放计算；ARGO 把端侧功耗账写进研究证据。",
+    "enSummary": "XREAL AURA, VITURE Helix, Snapdragon START, Raven Prism, and LingDevice OS push AI glasses beyond one feature into Android XR, field operations, trusted services, and open computing; ARGO makes the edge-power budget explicit in research evidence.",
+    "tags": [
+      "AI glasses",
+      "Android XR",
+      "on-device AI",
+      "agent hardware",
+      "enterprise HCI",
+      "trusted connection",
+      "open Linux",
+      "edge vision"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "wild",
+      "research",
+      "patent",
+      "china",
+      "global"
+    ],
+    "coverStory": {
+      "topicId": "xreal-aura-android-xr-spatial-glasses",
+      "zhTitle": "AI 眼镜开始争夺系统层",
+      "enTitle": "AI glasses start fighting for the system layer",
+      "imagePath": "assets/xreal-aura-official-2026-08.png",
+      "imageWidth": 1600,
+      "imageHeight": 1000,
+      "primarySourceUrl": "https://www.xreal.com/us/aura",
+      "imageSourceUrl": "https://www.xreal.com/us/aura",
+      "evidenceStrength": "confirmed product · official reservation · developer/platform follow-through",
+      "whyCover": "XREAL AURA is the clearest current product surface: Android XR, Gemini, a 70-degree optical see-through display, split compute, Google Play, and a reservation path. VITURE Helix moves the same system question into enterprise work; Snapdragon START packages production infrastructure; Raven Prism exposes Linux and hardware privacy; LingDevice OS routes trusted services. The competition is becoming a system boundary, not a single feature.",
+      "zhSummary": [
+        "XREAL AURA 把 Android XR、Gemini、70° 光学透视、双芯 split-compute、Google Play 和预约路径装进一副秋季 2026 眼镜。",
+        "VITURE Helix 把第一视角、SOP 指导和工作 provenance 带进工业现场；Raven Prism 押注 Linux、眼动、隐私盖和可换电池。",
+        "Snapdragon START 与 LingDevice OS 说明平台层正在标准化模块、服务和可信连接；ARGO 提醒端侧 AI 仍受电池、内存和传感器预算约束。"
+      ],
+      "enSummary": [
+        "XREAL AURA combines Android XR, Gemini, a 70-degree optical see-through display, split compute, Google Play, and a reservation path in a fall-2026 glasses product.",
+        "VITURE Helix takes first-person capture, SOP guidance, and work provenance into industrial settings; Raven Prism bets on Linux, gaze, a privacy cover, and swappable power.",
+        "Snapdragon START and LingDevice OS show the platform layer standardizing modules, services, and trusted connections, while ARGO makes the edge-AI power, memory, and sensor budget explicit."
+      ]
+    },
+    "designDesk": {
+      "zhTitle": "Design Desk：眼镜的下一场竞争是状态、权限与持续性",
+      "enTitle": "Design Desk: the next eyewear race is state, permission, and continuity",
+      "zhIntro": "今天的产品证据从预订眼镜、企业安全设备、芯片平台、Linux 电脑到中国可信服务和端侧论文，落点都在同一个界面问题：系统如何让用户理解它看到了什么、谁在授权、数据去了哪里、没电或出错后如何继续。",
+      "enIntro": "Today’s evidence spans reservable glasses, enterprise safety eyewear, chip platforms, Linux computers, Chinese trusted services, and edge-AI research. They converge on one interface problem: how the system makes visible what it sees, who authorized the action, where data goes, and how work continues after power or model failure.",
+      "zhItems": [
+        {
+          "label": "空间输出必须有边界",
+          "body": "70° 视场与全 Android 应用扩大了眼镜的输出面，产品必须让用户知道哪些内容只在眼前、哪些动作会触发手机或云端。"
+        },
+        {
+          "label": "第一视角需要组织级同意",
+          "body": "Helix 的工作价值来自 provenance，风险也来自持续记录；同事、病人、场地和组织都需要可见的录制、暂停、删除和审计状态。"
+        },
+        {
+          "label": "可信连接不能隐藏后果",
+          "body": "支付、健康和出行服务需要身份、确认、撤销和失败恢复；声纹、虹膜、眼动和指环输入不能只被包装成自然交互。"
+        },
+        {
+          "label": "开放系统要把安全一起开放",
+          "body": "Raven 的 Linux 与 SSH 对开发者有吸引力，应用权限、更新、密钥、模型来源和旁观者隐私必须拥有同等清晰度。"
+        },
+        {
+          "label": "端侧 AI 的第一产品约束是电池",
+          "body": "ARGO 的 200mAh / 113 分钟与多传感器设计说明全天候体验需要分层采样、事件触发、手机协同和可解释的降级状态。"
+        },
+        {
+          "label": "平台越多，状态协议越重要",
+          "body": "START、Android XR 与 LingDevice OS 都在扩展设备数量；如果没有统一的 heard、thinking、waiting、recording、failed、done 和 revoke 状态，生态只会变得更碎。"
+        }
+      ],
+      "enItems": [
+        {
+          "label": "Spatial output needs boundaries",
+          "body": "A 70-degree view and full Android apps enlarge eyewear output. The product must show which content stays in view and which action reaches a phone or cloud."
+        },
+        {
+          "label": "First-person capture needs organizational consent",
+          "body": "Helix gains value from provenance and risk from continuous recording; coworkers, patients, sites, and organizations need visible record, pause, deletion, and audit states."
+        },
+        {
+          "label": "Trusted connection cannot hide consequences",
+          "body": "Payments, health, and mobility require identity, confirmation, revocation, and failure recovery. Voiceprint, iris, gaze, and ring input cannot be sold only as natural interaction."
+        },
+        {
+          "label": "Open systems must open security too",
+          "body": "Raven’s Linux and SSH attract developers. App permissions, updates, keys, model provenance, and bystander privacy need the same clarity."
+        },
+        {
+          "label": "The first edge-AI constraint is power",
+          "body": "ARGO’s 200mAh / 113-minute result and multisensor design show that all-day behavior needs tiered sensing, event triggers, phone orchestration, and legible degradation states."
+        },
+        {
+          "label": "More platforms make state protocols more important",
+          "body": "START, Android XR, and LingDevice OS expand the device count. Without shared heard, thinking, waiting, recording, failed, done, and revoke states, the ecosystem fragments."
+        }
+      ]
+    },
+    "zhPath": "./2026-08-05/zh/",
+    "enPath": "./2026-08-05/en/",
+    "sourcesPath": "./2026-08-05/sources.md"
+  },
+  {
     "date": "2026-07-24",
     "zhTitle": "AI Daily 2026-07-24：Agent 开始需要实体状态层",
     "enTitle": "AI Daily 2026-07-24: Agents Start Needing a Physical State Layer",
