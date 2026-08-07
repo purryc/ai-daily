@@ -1,5 +1,115 @@
 [
   {
+    "date": "2026-08-07",
+    "zhTitle": "AI Daily 2026-08-07：AI 眼镜开始露出开发者表面",
+    "enTitle": "AI Daily 2026-08-07: AI Glasses Start Showing Their Developer Surface",
+    "zhSummary": "今日主线从产品预告推进到可测试的开发者表面：Android XR Developer Preview 4 把 worn / unavailable / disconnected 写进生命周期 API，Android Halo 让 agent 状态进入系统反馈；Meta AI Glasses 社区开始列出导航、游戏与 Codex Micro Webapp 等体验，同时暴露模型 rollout 和高温停机摩擦。Samsung、Rokid、Meta 隐私、研究、专利、中国与全球线继续保留证据边界。",
+    "enSummary": "Today’s signal moves from product preview to a testable developer surface: Android XR Developer Preview 4 writes worn, unavailable, and disconnected states into lifecycle APIs, while Android Halo brings agent status into system feedback. The Meta AI Glasses community is cataloguing navigation, games, and a Codex Micro Webapp while also reporting model-rollout and thermal-shutdown friction. Samsung, Rokid, Meta privacy, research, patent, China, and global lanes retain their evidence boundaries.",
+    "tags": [
+      "AI glasses",
+      "Android XR",
+      "developer surface",
+      "agent state",
+      "thermal friction",
+      "privacy UX",
+      "on-device AI",
+      "China/global compare"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "wild",
+      "research",
+      "patent",
+      "china",
+      "global"
+    ],
+    "coverStory": {
+      "topicId": "android-xr-intelligent-eyewear-developer-surface",
+      "zhTitle": "AI 眼镜开始露出开发者表面",
+      "enTitle": "AI glasses start showing their developer surface",
+      "imagePath": "assets/android-xr-developer-preview-4-source-2026-06.png",
+      "imageWidth": 1600,
+      "imageHeight": 1000,
+      "primarySourceUrl": "https://developer.android.com/blog/posts/what-s-new-in-android-xr-tooling-engine-support-and-ecosystem-updates?hl=en",
+      "imageSourceUrl": "https://developer.android.com/blog/posts/what-s-new-in-android-xr-tooling-engine-support-and-ecosystem-updates?hl=en",
+      "evidenceStrength": "developer surface · current official API scan · community follow-through",
+      "whyCover": "Android XR Developer Preview 4 turns eyewear into a testable surface: device availability, projected experiences, and state simulation now have named APIs. Android Halo makes task and live-mode status visible across the system. The Meta AI Glasses community shows what happens next: third-party navigation, games, and Codex Micro Webapp experiments appear before a mature store or SDK, while model rollout and thermal shutdown remain visible friction. The product contest is becoming whether a device can expose a state that developers, wearers, and bystanders can all act on.",
+      "zhSummary": [
+        "Android XR Developer Preview 4 把 audio glasses 与 display glasses 进入同一开发面，并用 Device Availability API 描述佩戴、不可用和断连状态。",
+        "Android Halo 将 agent 的 task、live mode 和 message 状态带到系统顶部；它是跨设备反馈的官方预告，不是已上市眼镜功能。",
+        "Meta AI Glasses 社区列出导航、游戏、空间音频与 Codex Micro Webapp，同时报告模型 rollout 不一致与高温停机；这些都保留为社区摩擦。"
+      ],
+      "enSummary": [
+        "Android XR Developer Preview 4 puts audio glasses and display glasses on one developer surface and names worn, unavailable, and disconnected states through Device Availability.",
+        "Android Halo brings task, live-mode, and message status to the system top bar; it is an official preview of cross-device feedback, not a shipping glasses feature.",
+        "The Meta AI Glasses community lists navigation, games, spatial audio, and a Codex Micro Webapp while reporting model-rollout and thermal-shutdown friction; those remain community signals."
+      ]
+    },
+    "designDesk": {
+      "zhTitle": "Design Desk：让佩戴者与旁观者共享同一个状态",
+      "enTitle": "Design Desk: wearer and bystander need the same state",
+      "zhIntro": "今天的证据把同一个问题从三个方向钉死：预发布产品需要让人知道“现在能不能用”，独立评测需要让人看到“为什么失败”，隐私机制需要让旁观者知道“相机是否正在工作”。状态不是装饰，它决定下一步动作和责任边界。",
+      "enIntro": "Today’s evidence pins down one problem from three directions: pre-release products must show whether they are usable now, reviews must expose why a task failed, and privacy mechanisms must let bystanders understand whether the camera is active. State is not decoration; it determines the next action and the boundary of responsibility.",
+      "zhItems": [
+        {
+          "label": "可用性先于想象",
+          "body": "Samsung / Google 的模型不能运行，价格与发售日未定；产品页必须把预告、预约、可购买和可开发拆成不同状态。"
+        },
+        {
+          "label": "失败要能被看见",
+          "body": "Rokid 评测出现 server busy、connection unstable 和 service error；眼镜需要把网络、模型、权限和电量的失败原因分开呈现。"
+        },
+        {
+          "label": "旁观者需要共享录制状态",
+          "body": "Meta 的 capture LED 与防篡改检测把相机能力和可见灯绑定；灯光是否足够明显，必须在真实街景里测试。"
+        },
+        {
+          "label": "多模型不等于可理解",
+          "body": "Rokid 的 ChatGPT + Gemini 路由更灵活，也可能让声音、延迟、结果和责任发生变化；用户需要知道谁在回答。"
+        },
+        {
+          "label": "跨设备反馈必须连续",
+          "body": "Android XR、手机、Wear OS、眼镜和云端共享上下文时，heard、thinking、waiting、recording、failed、done、revoke 不能各自命名。"
+        },
+        {
+          "label": "端侧与云端要有降级动作",
+          "body": "ARGO 的功耗证据与现场评测的连接错误共同说明：离线、低电量、弱网时必须给出可继续的下一步，而非只显示失败。"
+        }
+      ],
+      "enItems": [
+        {
+          "label": "Availability comes before imagination",
+          "body": "Samsung / Google models could not run, and price and release date are open; product pages need separate states for reveal, reservation, purchase, and development."
+        },
+        {
+          "label": "Failure must be legible",
+          "body": "The Rokid review saw server-busy, unstable-connection, and service-error states; glasses should separate network, model, permission, and battery causes."
+        },
+        {
+          "label": "Bystanders need the same recording state",
+          "body": "Meta binds the capture LED and tamper detection to camera capability; LED visibility must be tested in real streets, not assumed from a press image."
+        },
+        {
+          "label": "Multiple models are not automatically understandable",
+          "body": "Rokid’s ChatGPT plus Gemini route adds choice while changing voice, latency, output, and responsibility; users need to know who is answering."
+        },
+        {
+          "label": "Cross-device feedback must continue",
+          "body": "When Android XR, phone, Wear OS, glasses, and cloud share context, heard, thinking, waiting, recording, failed, done, and revoke cannot fragment."
+        },
+        {
+          "label": "Edge and cloud need a degraded path",
+          "body": "ARGO’s power evidence and field-review connection errors point to the same requirement: offline, low-battery, and weak-network states need an actionable next step."
+        }
+      ]
+    },
+    "zhPath": "./2026-08-07/zh/",
+    "enPath": "./2026-08-07/en/",
+    "sourcesPath": "./2026-08-07/sources.md"
+  },
+  {
     "date": "2026-08-06",
     "zhTitle": "AI Daily 2026-08-06：AI 眼镜必须先解释自己的状态",
     "enTitle": "AI Daily 2026-08-06: AI Glasses Must Explain Their State First",
