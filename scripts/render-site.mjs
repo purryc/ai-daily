@@ -1118,6 +1118,8 @@ function rootManifest() {
       sourceTypes: issue.sourceTypes,
       coverStory: issue.coverStory,
       designDesk: issue.designDesk,
+      watchlistZh: issue.watchlistZh,
+      watchlistEn: issue.watchlistEn,
       zhPath: issue.zhPath,
       enPath: issue.enPath,
       sourcesPath: issue.sourcesPath
@@ -1140,6 +1142,8 @@ function issueManifest(issue) {
       sourceTypes: issue.sourceTypes,
       coverStory: issue.coverStory,
       designDesk: issue.designDesk,
+      watchlistZh: issue.watchlistZh,
+      watchlistEn: issue.watchlistEn,
       topics: issue.topics.map((topic) => ({
         id: topic.id,
         section: topic.section,
@@ -1219,6 +1223,16 @@ ${sourceRows
       `| S${index + 1} | ${row.source.label}: ${row.source.url} | ${row.date} | ${row.evidence}; ${row.source.type ?? ""} | ${row.usedFor} |`
   )
   .join("\n")}
+
+## Watchlist / 继续观察
+
+### 中文
+
+${(issue.watchlistZh ?? []).map((item, index) => `${index + 1}. ${item}`).join("\n")}
+
+### English
+
+${(issue.watchlistEn ?? []).map((item, index) => `${index + 1}. ${item}`).join("\n")}
 
 ## Visual Asset Index
 

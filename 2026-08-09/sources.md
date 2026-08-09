@@ -155,6 +155,26 @@ Scope: HCI, AI hardware, AI software products, agentic devices, on-device AI, AI
 | S132 | Android Central: Solos smart-glasses patent lawsuit: https://www.androidcentral.com/wearables/solos-is-taking-aim-at-meta-essilorluxottica-for-alleged-smart-glasses-patent-infringement-in-pivotal-case | 2026 patent/source scan · 2026-07-11 follow-up · 2026-07-12 follow-up · 2026-07-13 follow-up · 2026-07-14 follow-up · 2026-07-14 follow-up · 2026-07-16 follow-up · 2026-07-20 follow-up · 2026-07-21 follow-up · 2026-07-23 follow-up · 2026-07-24 follow-up · 2026-08-05 follow-up | patent signal · explicitly speculative;  | patent-lane-glasses-ip-scan |
 | S133 | Google Patents conversational smart-glasses assistant: https://patents.google.com/patent/US20260086650A1/en | 2026 patent/source scan · 2026-07-11 follow-up · 2026-07-12 follow-up · 2026-07-13 follow-up · 2026-07-14 follow-up · 2026-07-14 follow-up · 2026-07-16 follow-up · 2026-07-20 follow-up · 2026-07-21 follow-up · 2026-07-23 follow-up · 2026-07-24 follow-up · 2026-08-05 follow-up | patent signal · explicitly speculative;  | patent-lane-glasses-ip-scan |
 
+## Watchlist / 继续观察
+
+### 中文
+
+1. Samsung / Google Intelligent Eyewear：可运行零售机、价格、重量、处方渠道、LED 可见距离、相机规格和秋季地区范围。
+2. Rokid AI Glasses Style：连接错误率、AI 失败恢复、录制灯改进、Android app 稳定性、续航与真实日常留存。
+3. Meta AI Glasses：capture LED 防篡改误判、数据分享边界、旁观者理解度与独立隐私测试。
+4. XREAL AURA / Android XR：最终重量、端云分工、相机/麦克风、价格上限、地区和真实发货。
+5. VITURE Helix / Snapdragon START：企业 pilot、ANSI 认证、首批采用者、SDK、provenance API 和隐私状态。
+6. LingDevice OS / ARGO / 专利线：SDK、真实终端、支付授权、端侧代码、可复现实验与状态 API。
+
+### English
+
+1. Samsung / Google Intelligent Eyewear: working retail units, price, weight, prescription channels, LED visibility, camera details, and fall regions.
+2. Rokid AI Glasses Style: connection-error rate, AI failure recovery, recording-light changes, Android-app stability, runtime, and real daily retention.
+3. Meta AI Glasses: capture-LED false positives, capture-sharing boundaries, bystander comprehension, and independent privacy tests.
+4. XREAL AURA / Android XR: final weight, edge-cloud split, camera and microphones, price ceiling, regions, and real shipping.
+5. VITURE Helix / Snapdragon START: enterprise pilots, ANSI certification, first adopters, SDK, provenance API, and privacy state.
+6. LingDevice OS / ARGO / patent lane: SDK, real hardware, payment authorization, edge code, reproducible tests, and state APIs.
+
 ## Visual Asset Index
 
 | Asset | Local path | Source | Evidence role |

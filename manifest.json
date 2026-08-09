@@ -105,6 +105,22 @@
         }
       ]
     },
+    "watchlistZh": [
+      "Samsung / Google Intelligent Eyewear：可运行零售机、价格、重量、处方渠道、LED 可见距离、相机规格和秋季地区范围。",
+      "Rokid AI Glasses Style：连接错误率、AI 失败恢复、录制灯改进、Android app 稳定性、续航与真实日常留存。",
+      "Meta AI Glasses：capture LED 防篡改误判、数据分享边界、旁观者理解度与独立隐私测试。",
+      "XREAL AURA / Android XR：最终重量、端云分工、相机/麦克风、价格上限、地区和真实发货。",
+      "VITURE Helix / Snapdragon START：企业 pilot、ANSI 认证、首批采用者、SDK、provenance API 和隐私状态。",
+      "LingDevice OS / ARGO / 专利线：SDK、真实终端、支付授权、端侧代码、可复现实验与状态 API。"
+    ],
+    "watchlistEn": [
+      "Samsung / Google Intelligent Eyewear: working retail units, price, weight, prescription channels, LED visibility, camera details, and fall regions.",
+      "Rokid AI Glasses Style: connection-error rate, AI failure recovery, recording-light changes, Android-app stability, runtime, and real daily retention.",
+      "Meta AI Glasses: capture-LED false positives, capture-sharing boundaries, bystander comprehension, and independent privacy tests.",
+      "XREAL AURA / Android XR: final weight, edge-cloud split, camera and microphones, price ceiling, regions, and real shipping.",
+      "VITURE Helix / Snapdragon START: enterprise pilots, ANSI certification, first adopters, SDK, provenance API, and privacy state.",
+      "LingDevice OS / ARGO / patent lane: SDK, real hardware, payment authorization, edge code, reproducible tests, and state APIs."
+    ],
     "zhPath": "./2026-08-09/zh/",
     "enPath": "./2026-08-09/en/",
     "sourcesPath": "./2026-08-09/sources.md"
@@ -215,6 +231,22 @@
         }
       ]
     },
+    "watchlistZh": [
+      "Samsung / Google Intelligent Eyewear：可运行零售机、价格、重量、处方渠道、LED 可见距离、相机规格和秋季地区范围。",
+      "Rokid AI Glasses Style：连接错误率、AI 失败恢复、录制灯改进、Android app 稳定性、续航与真实日常留存。",
+      "Meta AI Glasses：capture LED 防篡改误判、数据分享边界、旁观者理解度与独立隐私测试。",
+      "XREAL AURA / Android XR：最终重量、端云分工、相机/麦克风、价格上限、地区和真实发货。",
+      "VITURE Helix / Snapdragon START：企业 pilot、ANSI 认证、首批采用者、SDK、provenance API 和隐私状态。",
+      "LingDevice OS / ARGO / 专利线：SDK、真实终端、支付授权、端侧代码、可复现实验与状态 API。"
+    ],
+    "watchlistEn": [
+      "Samsung / Google Intelligent Eyewear: working retail units, price, weight, prescription channels, LED visibility, camera details, and fall regions.",
+      "Rokid AI Glasses Style: connection-error rate, AI failure recovery, recording-light changes, Android-app stability, runtime, and real daily retention.",
+      "Meta AI Glasses: capture-LED false positives, capture-sharing boundaries, bystander comprehension, and independent privacy tests.",
+      "XREAL AURA / Android XR: final weight, edge-cloud split, camera and microphones, price ceiling, regions, and real shipping.",
+      "VITURE Helix / Snapdragon START: enterprise pilots, ANSI certification, first adopters, SDK, provenance API, and privacy state.",
+      "LingDevice OS / ARGO / patent lane: SDK, real hardware, payment authorization, edge code, reproducible tests, and state APIs."
+    ],
     "zhPath": "./2026-08-07/zh/",
     "enPath": "./2026-08-07/en/",
     "sourcesPath": "./2026-08-07/sources.md"
@@ -325,6 +357,22 @@
         }
       ]
     },
+    "watchlistZh": [
+      "Samsung / Google Intelligent Eyewear：可运行零售机、价格、重量、处方渠道、LED 可见距离、相机规格和秋季地区范围。",
+      "Rokid AI Glasses Style：连接错误率、AI 失败恢复、录制灯改进、Android app 稳定性、续航与真实日常留存。",
+      "Meta AI Glasses：capture LED 防篡改误判、数据分享边界、旁观者理解度与独立隐私测试。",
+      "XREAL AURA / Android XR：最终重量、端云分工、相机/麦克风、价格上限、地区和真实发货。",
+      "VITURE Helix / Snapdragon START：企业 pilot、ANSI 认证、首批采用者、SDK、provenance API 和隐私状态。",
+      "LingDevice OS / ARGO / 专利线：SDK、真实终端、支付授权、端侧代码、可复现实验与状态 API。"
+    ],
+    "watchlistEn": [
+      "Samsung / Google Intelligent Eyewear: working retail units, price, weight, prescription channels, LED visibility, camera details, and fall regions.",
+      "Rokid AI Glasses Style: connection-error rate, AI failure recovery, recording-light changes, Android-app stability, runtime, and real daily retention.",
+      "Meta AI Glasses: capture-LED false positives, capture-sharing boundaries, bystander comprehension, and independent privacy tests.",
+      "XREAL AURA / Android XR: final weight, edge-cloud split, camera and microphones, price ceiling, regions, and real shipping.",
+      "VITURE Helix / Snapdragon START: enterprise pilots, ANSI certification, first adopters, SDK, provenance API, and privacy state.",
+      "LingDevice OS / ARGO / patent lane: SDK, real hardware, payment authorization, edge code, reproducible tests, and state APIs."
+    ],
     "zhPath": "./2026-08-06/zh/",
     "enPath": "./2026-08-06/en/",
     "sourcesPath": "./2026-08-06/sources.md"
@@ -435,6 +483,22 @@
         }
       ]
     },
+    "watchlistZh": [
+      "XREAL AURA：最终重量、相机/麦克风规格、端云分工、Android XR 兼容、续航、地区和真实发货。",
+      "VITURE Helix：企业 pilot、ANSI 认证、60+ 分钟现场表现、录制同意、provenance API 和 Q1 2027 交付。",
+      "Snapdragon START：首批采用品牌、模块 SKU、开发者工具、模型编排和跨设备隐私状态。",
+      "Raven Prism：价格、开发者计划、Linux 安全更新、可换电池实测、眼动误触与旁观者隐私。",
+      "LingDevice OS：SDK、真实终端、支付授权、声纹/虹膜数据撤销和跨品牌服务可用性。",
+      "ARGO / AlayaWorld / 专利线：代码、硬件、可复现实验、状态 API、回滚与独立评测何时出现。"
+    ],
+    "watchlistEn": [
+      "XREAL AURA: final weight, camera/microphone details, edge-cloud split, Android XR compatibility, runtime, regions, and real shipping.",
+      "VITURE Helix: enterprise pilots, ANSI certification, 60-plus-minute field behavior, recording consent, provenance API, and Q1 2027 delivery.",
+      "Snapdragon START: first adopters, module SKUs, developer tools, model orchestration, and cross-device privacy state.",
+      "Raven Prism: price, developer program, Linux security updates, swappable-battery tests, gaze errors, and bystander privacy.",
+      "LingDevice OS: SDK, real partner hardware, payment authorization, voiceprint/iris revocation, and cross-brand service availability.",
+      "ARGO / AlayaWorld / patent lane: code, hardware, reproducible experiments, state APIs, rollback, and independent review."
+    ],
     "zhPath": "./2026-08-05/zh/",
     "enPath": "./2026-08-05/en/",
     "sourcesPath": "./2026-08-05/sources.md"
@@ -545,6 +609,22 @@
         }
       ]
     },
+    "watchlistZh": [
+      "Codex Micro：真实交付、ChatGPT 桌面桥接稳定性、Windows HID 摩擦、状态灯色彩与批准安全。",
+      "Halliday G2：9 月零售机的噪声转写、错误归因、HUD 舒适度、录音暂停和企业会议同意。",
+      "MouthPad + VOX：定制牙科流程、口腔长戴、蓝牙稳定、无声 speech model 和 agent 控制边界。",
+      "Nework Insight：$99.99 设备的相机状态、照片路径、真实续航、AI app 与地区服务可用性。",
+      "Samsung / Google、RayNeo、MemoMind、讯飞、Rokid：跨设备状态与公共空间信任的真实硬件证据。",
+      "AlayaWorld 与 WAIC：研究/展会信号何时出现可复现 demo、SDK、购买页与独立评测。"
+    ],
+    "watchlistEn": [
+      "Codex Micro: real deliveries, ChatGPT desktop-bridge stability, Windows HID friction, color semantics, and approval safety.",
+      "Halliday G2: September retail evidence on noisy-room transcription, wrong-speaker rate, HUD comfort, recording pause, and enterprise consent.",
+      "MouthPad + VOX: dental customization, long-wear comfort, Bluetooth stability, silent-speech models, and agent-control boundaries.",
+      "Nework Insight: capture visibility, photo paths, real runtime, AI app behavior, and regional service availability at $99.99.",
+      "Samsung / Google, RayNeo, MemoMind, iFlytek, and Rokid: real hardware evidence for cross-device state and public-space trust.",
+      "AlayaWorld and WAIC: whether research/event signals turn into reproducible demos, SDKs, purchase pages, and independent reviews."
+    ],
     "zhPath": "./2026-07-24/zh/",
     "enPath": "./2026-07-24/en/",
     "sourcesPath": "./2026-07-24/sources.md"
@@ -655,6 +735,20 @@
         }
       ]
     },
+    "watchlistZh": [
+      "Samsung Intelligent Eyewear：真实零售重量、镜片方案、价格、首发国家、9 小时续航的独立复测。",
+      "Samsung / Google：相机 LED 可见距离、遮挡禁用、摘下检测、多人环境误触与数据留存。",
+      "Android XR：秋季 audio glasses 与 display glasses 的 API、权限模型、断连回退和开发者工具。",
+      "RayNeo、MemoMind、讯飞、Rokid：当音频、显示、相机和 AIOS 路线同时存在时，用户如何选择。",
+      "社区：Meta 账户封禁、AI 质量、摄像头恐惧和购买意愿是否会影响新产品的公共接受度。"
+    ],
+    "watchlistEn": [
+      "Samsung Intelligent Eyewear: independent tests of retail weight, lens options, price, launch markets, and the nine-hour estimate.",
+      "Samsung / Google: LED visibility, LED-cover disablement, wear detection, accidental activation in groups, and retention policy.",
+      "Android XR: fall audio glasses and display-glasses APIs, permissions, disconnect fallback, and developer tooling.",
+      "RayNeo, MemoMind, iFlytek, and Rokid: how users choose when audio, display, camera, and AIOS routes coexist.",
+      "Community: whether account lockout, AI quality, camera anxiety, and purchase intent reshape public acceptance of the new products."
+    ],
     "zhPath": "./2026-07-21/zh/",
     "enPath": "./2026-07-21/en/",
     "sourcesPath": "./2026-07-21/sources.md"
@@ -765,6 +859,26 @@
         }
       ]
     },
+    "watchlistZh": [
+      "MOONIX：14.9g、16h 和 6 麦克风在连续记录混合负载下的实测；标准版记录状态、删除和断连回退。",
+      "Monako Glass：7–8 月交付、Lua app 是否真能无 build step 运行、agent 权限/密钥隔离和 HUD 可读性。",
+      "Meta/Android XR：LED 防篡改逐型号覆盖、误判恢复、旁观者日光可见性和公共场所提示。",
+      "Google/Samsung Intelligent Eyewear：秋季真实硬件、权限确认、相机状态和断连回退。",
+      "Rokid YodaOS：WAIC 发布后的真实设备、生态 API、模型路由和渠道交付。",
+      "RayNeo X3 Pro：混合负载续航、76g 长时间佩戴、Creator Mode 与地区 Gemini 体验。",
+      "MemoMind One 与讯飞 AI 眼镜：众筹交付、无相机隐私、122 语言质量、GlassClaw 发送前确认。",
+      "社区 agent、OpenGlass/VisionClaw、智能眼镜专利：继续保持 community/research/patent 标签，等待可复现产品证据。"
+    ],
+    "watchlistEn": [
+      "MOONIX: hands-on runtime for 14.9g, 16 hours, and six microphones under continuous mixed capture; recording state, deletion, and disconnected fallback on the standard model.",
+      "Monako Glass: July-August delivery, whether Lua apps really run without a build step, agent permission and secret isolation, and HUD legibility.",
+      "Meta/Android XR: model coverage for LED tamper safeguards, false-positive recovery, daylight bystander visibility, and public-space cues.",
+      "Google/Samsung Intelligent Eyewear: actual autumn hardware, permission confirmation, camera state, and disconnect fallback.",
+      "Rokid YodaOS: real devices after the WAIC launch, ecosystem APIs, model routing, and channel delivery.",
+      "RayNeo X3 Pro: mixed-load runtime, long-term comfort at 76 grams, Creator Mode, and regional Gemini behavior.",
+      "MemoMind and iFlytek: delivery, camera-free privacy, language-by-language quality across 122 languages, and GlassClaw send confirmation.",
+      "Community agent use, OpenGlass/VisionClaw, and smart-glasses patents: keep community, research, and patent labels until reproducible product evidence appears."
+    ],
     "zhPath": "./2026-07-21/zh/",
     "enPath": "./2026-07-21/en/",
     "sourcesPath": "./2026-07-21/sources.md"
@@ -875,6 +989,24 @@
         }
       ]
     },
+    "watchlistZh": [
+      "Meta/Android XR：LED 防篡改逐型号覆盖、误判恢复、旁观者日光可见性和公共场所提示。",
+      "Google/Samsung Intelligent Eyewear：秋季真实硬件、权限确认、相机状态和断连回退。",
+      "Rokid YodaOS：WAIC 发布后的真实设备、生态 API、模型路由和渠道交付。",
+      "RayNeo X3 Pro：混合负载续航、76g 长时间佩戴、Creator Mode 与地区 Gemini 体验。",
+      "MemoMind One：Kickstarter 8 月交付、无相机隐私设计、显示漏光、语音记录保存与手机断连。",
+      "讯飞 AI 眼镜：122 语言逐语种质量、多人声场误选率、GlassClaw 发送前确认和续航款差异。",
+      "社区 agent、OpenGlass/VisionClaw、智能眼镜专利：继续保持 community/research/patent 标签，等待可复现产品证据。"
+    ],
+    "watchlistEn": [
+      "Meta/Android XR: model coverage for LED tamper safeguards, false-positive recovery, daylight bystander visibility, and public-space cues.",
+      "Google/Samsung Intelligent Eyewear: actual autumn hardware, permission confirmation, camera state, and disconnect fallback.",
+      "Rokid YodaOS: real devices after the WAIC launch, ecosystem APIs, model routing, and channel delivery.",
+      "RayNeo X3 Pro: mixed-load runtime, long-term comfort at 76 grams, Creator Mode, and regional Gemini behavior.",
+      "MemoMind One: August Kickstarter delivery, camera-free privacy, optical leakage, voice-note retention, and phone-disconnected behavior.",
+      "iFlytek AI Glasses: language-by-language quality across 122 languages, wrong-speaker rate, GlassClaw send confirmation, and battery-model differences.",
+      "Community agent use, OpenGlass/VisionClaw, and smart-glasses patents: keep community, research, and patent labels until reproducible product evidence appears."
+    ],
     "zhPath": "./2026-07-20/zh/",
     "enPath": "./2026-07-20/en/",
     "sourcesPath": "./2026-07-20/sources.md"
@@ -985,6 +1117,24 @@
         }
       ]
     },
+    "watchlistZh": [
+      "RayNeo X3 Pro：混合负载续航、76g 长时间佩戴、Creator Mode 与地区 Gemini 体验。",
+      "MemoMind One：Kickstarter 8 月交付、无相机隐私设计、显示漏光、语音记录保存与手机断连。",
+      "讯飞 AI 眼镜：122 语言逐语种质量、多人声场误选率、GlassClaw 发送前确认和续航款差异。",
+      "Meta AI Glasses：LED 防篡改逐型号覆盖、误判恢复、旁观者日光可见性。",
+      "Android XR：秋季硬件真实型号、Projected/Glimmer 生态、权限确认和断连回退。",
+      "Rokid YodaOS、HTC VIVE Eagle、Even G2：模型路由、渠道交付、日常佩戴和数据路径。",
+      "OpenGlass、社区 WAIC、智能眼镜专利：继续保持 research/community/patent 标签，等待可复现产品证据。"
+    ],
+    "watchlistEn": [
+      "RayNeo X3 Pro: mixed-load runtime, long-term comfort at 76 grams, Creator Mode, and regional Gemini behavior.",
+      "MemoMind One: August Kickstarter delivery, camera-free privacy, optical leakage, voice-note retention, and phone-disconnected behavior.",
+      "iFlytek AI Glasses: language-by-language quality across 122 languages, wrong-speaker rate, GlassClaw send confirmation, and battery-model differences.",
+      "Meta AI Glasses: model coverage for LED tamper safeguards, false-positive recovery, and daylight bystander visibility.",
+      "Android XR: actual autumn hardware, Projected/Glimmer ecosystem, permission confirmation, and disconnect fallback.",
+      "Rokid YodaOS, HTC VIVE Eagle, and Even G2: model routing, delivery, daily wear, and data paths.",
+      "OpenGlass, WAIC community, and smart-glasses patents: keep research, community, and patent labels until reproducible product evidence appears."
+    ],
     "zhPath": "./2026-07-16/zh/",
     "enPath": "./2026-07-16/en/",
     "sourcesPath": "./2026-07-16/sources.md"
@@ -1095,6 +1245,24 @@
         }
       ]
     },
+    "watchlistZh": [
+      "Android XR：秋季硬件的真实型号、显示/音频差异、权限确认和 Device Availability 的断连回退。",
+      "Meta AI Glasses：capture LED 防篡改更新的逐型号覆盖、误判恢复和旁观者可见性。",
+      "HTC VIVE Eagle：实际地区发货、AI Plus 订阅、第三方模型数据路径和连续 AI 续航。",
+      "Brilliant Labs Halo：Q1 2026 发货兑现、14 小时混合负载、B1/NPU 开发面与 Noa 记忆控制。",
+      "Snap SPECS / Even G2：秋季发货、显示节奏、手机依赖、日常佩戴与隐私状态。",
+      "Qualcomm、Project Solara、Android XR：合作设备、公开 API、端侧模型和企业管理面。",
+      "Rokid YodaOS agent store、VisionClaw、专利：保持产品/研究/专利标签，等待可复现生态和运行证据。"
+    ],
+    "watchlistEn": [
+      "Android XR: actual autumn hardware, audio/display differences, permission confirmation, and disconnect fallback around Device Availability.",
+      "Meta AI Glasses: model-by-model coverage, false-positive recovery, and bystander visibility for LED tamper updates.",
+      "HTC VIVE Eagle: regional shipping, AI Plus subscription, third-party model data paths, and continuous AI runtime.",
+      "Brilliant Labs Halo: Q1 2026 shipping, mixed-load battery, B1/NPU development surface, and Noa memory controls.",
+      "Snap SPECS and Even G2: fall shipping, display pacing, phone dependence, daily wear, and privacy state.",
+      "Qualcomm, Project Solara, and Android XR: partner hardware, public APIs, edge models, and enterprise management.",
+      "Rokid’s YodaOS agent store, VisionClaw, and patents: keep product, research, and patent labels until ecosystem evidence is reproducible."
+    ],
     "zhPath": "./2026-07-15/zh/",
     "enPath": "./2026-07-15/en/",
     "sourcesPath": "./2026-07-15/sources.md"
@@ -1205,6 +1373,22 @@
         }
       ]
     },
+    "watchlistZh": [
+      "Meta AI Glasses：capture LED 防篡改更新的逐型号覆盖、误判恢复和旁观者可见性。",
+      "HTC VIVE Eagle：实际地区发货、AI Plus 订阅、第三方模型数据路径和连续 AI 续航。",
+      "Brilliant Labs Halo：Q1 2026 发货兑现、14 小时混合负载、B1/NPU 开发面与 Noa 记忆控制。",
+      "Snap SPECS / Even G2：秋季发货、显示节奏、手机依赖、日常佩戴与隐私状态。",
+      "Qualcomm、Project Solara、Android XR：合作设备、公开 API、端侧模型和企业管理面。",
+      "China、VisionClaw、专利：保持 scan/research/patent 降级，等待可复现产品证据。"
+    ],
+    "watchlistEn": [
+      "Meta AI Glasses: model-by-model coverage, false-positive recovery, and bystander visibility for LED tamper updates.",
+      "HTC VIVE Eagle: regional shipping, AI Plus subscription, third-party model data paths, and continuous AI runtime.",
+      "Brilliant Labs Halo: Q1 2026 shipping, mixed-load battery, B1/NPU development surface, and Noa memory controls.",
+      "Snap SPECS and Even G2: fall shipping, display pacing, phone dependence, daily wear, and privacy state.",
+      "Qualcomm, Project Solara, and Android XR: partner hardware, public APIs, edge models, and enterprise management.",
+      "China, VisionClaw, and patents: keep scan, research, and patent downgrades until reproducible product evidence appears."
+    ],
     "zhPath": "./2026-07-14/zh/",
     "enPath": "./2026-07-14/en/",
     "sourcesPath": "./2026-07-14/sources.md"
@@ -1315,6 +1499,20 @@
         }
       ]
     },
+    "watchlistZh": [
+      "Snap SPECS：秋季发货、4 小时 mixed-use 续航、Lenses 的真实 agent 质量与隐私状态。",
+      "Even G2：手机连接、户外识别、Conversate 节奏、第三方 App 是否带来日常频率。",
+      "Reality Elite / XREAL Project Aura：最终重量、价格、端侧模型、散热和可购买时间。",
+      "Project Solara/MDEP：公开 API、试点设备、dispatcher 管理面与企业审计。",
+      "中国 AI 眼镜、VisionClaw 与专利：保持 source-lane、research、patent 降级，等待可复现证据。"
+    ],
+    "watchlistEn": [
+      "Snap SPECS: fall shipping, four-hour mixed-use battery, real agent quality in Lenses, and privacy state.",
+      "Even G2: phone connectivity, outdoor recognition, Conversate pacing, and whether third-party apps create daily use.",
+      "Reality Elite and XREAL Project Aura: final weight, price, edge models, thermals, and purchase timing.",
+      "Project Solara/MDEP: public APIs, pilot devices, dispatcher administration, and enterprise audit.",
+      "China AI glasses, VisionClaw, and patents: keep downgrades until reproducible product evidence appears."
+    ],
     "zhPath": "./2026-07-13/zh/",
     "enPath": "./2026-07-13/en/",
     "sourcesPath": "./2026-07-13/sources.md"
@@ -1425,6 +1623,20 @@
         }
       ]
     },
+    "watchlistZh": [
+      "Gemini Spark：远程访问本地 Mac 文件的完整 rollout、权限最小化与失败恢复。",
+      "Meta super-sensing：持续拍摄/聆听是否会进入消费产品，以及 LED 防篡改是否形成可验证的社会信号。",
+      "VITURE Helix / NVIDIA XR AI：真实工业部署、端侧延迟、SOP 引用与人工接管。",
+      "中国 AI 眼镜：7 月升级、鸿蒙/夸克/小米生态的可购买体验与地区差异。",
+      "VisionClaw 与专利：持续感知、旁观者同意和 wearable agent 审计链仍保持 research/patent signal 降级。"
+    ],
+    "watchlistEn": [
+      "Gemini Spark: full remote-to-local Mac rollout, least-privilege access, and failure recovery.",
+      "Meta super-sensing: whether continuous capture enters a consumer product, and whether anti-tamper LEDs become a verifiable social cue.",
+      "VITURE Helix / NVIDIA XR AI: real industrial deployments, edge latency, SOP citations, and human takeover.",
+      "China AI glasses: July upgrades, purchasable HarmonyOS/Quark/Xiaomi ecosystem behavior, and regional differences.",
+      "VisionClaw and patents: continuous perception, bystander consent, and wearable-agent audit trails remain research/patent signals."
+    ],
     "zhPath": "./2026-07-12/zh/",
     "enPath": "./2026-07-12/en/",
     "sourcesPath": "./2026-07-12/sources.md"
@@ -1535,6 +1747,20 @@
         }
       ]
     },
+    "watchlistZh": [
+      "Gemini Spark：远程访问本地 Mac 文件的完整 rollout、权限最小化与失败恢复。",
+      "Meta super-sensing：持续拍摄/聆听是否会进入消费产品，以及 LED 防篡改是否形成可验证的社会信号。",
+      "VITURE Helix / NVIDIA XR AI：真实工业部署、端侧延迟、SOP 引用与人工接管。",
+      "中国 AI 眼镜：7 月升级、鸿蒙/夸克/小米生态的可购买体验与地区差异。",
+      "VisionClaw 与专利：持续感知、旁观者同意和 wearable agent 审计链仍保持 research/patent signal 降级。"
+    ],
+    "watchlistEn": [
+      "Gemini Spark: full remote-to-local Mac rollout, least-privilege access, and failure recovery.",
+      "Meta super-sensing: whether continuous capture enters a consumer product, and whether anti-tamper LEDs become a verifiable social cue.",
+      "VITURE Helix / NVIDIA XR AI: real industrial deployments, edge latency, SOP citations, and human takeover.",
+      "China AI glasses: July upgrades, purchasable HarmonyOS/Quark/Xiaomi ecosystem behavior, and regional differences.",
+      "VisionClaw and patents: continuous perception, bystander consent, and wearable-agent audit trails remain research/patent signals."
+    ],
     "zhPath": "./2026-07-11/zh/",
     "enPath": "./2026-07-11/en/",
     "sourcesPath": "./2026-07-11/sources.md"
@@ -1645,6 +1871,20 @@
         }
       ]
     },
+    "watchlistZh": [
+      "GPT-Live 在嘈杂环境、多人对话、实时翻译和长等待场景里是否能保持清楚的状态反馈。",
+      "Acti 是否能把第三方键盘权限、API skill、长按触发和结果回填做成普通用户敢用的低摩擦流程。",
+      "MemoMind One Kickstarter 后续交付、户外显示、App 稳定性和无摄像头路线是否能形成真实日用场景。",
+      "ZCode 是否用真实 repo、测试通过率、权限设计和长任务恢复证明 GLM-5.2 的 agentic coding 不是低价噱头。",
+      "Rokid/YodaOS、雷鸟、夸克/通义等中国 AI 眼镜生态是否发布可复现的 AIOS API、隐私提示和服务闭环。"
+    ],
+    "watchlistEn": [
+      "Whether GPT-Live keeps state feedback clear in noisy spaces, multi-speaker conversations, live translation, and long waits.",
+      "Whether Acti can make third-party keyboard permissions, API skills, hold gestures, and result insertion trustworthy for ordinary users.",
+      "Whether MemoMind One's Kickstarter delivery, outdoor display, app stability, and camera-free positioning become a durable daily workflow.",
+      "Whether ZCode proves GLM-5.2 agentic coding on real repositories through test pass rates, permission design, and long-task recovery.",
+      "Whether Rokid/YodaOS, RayNeo, Quark/Tongyi, and other China AI-glasses ecosystems publish reproducible AIOS APIs, privacy indicators, and service closure."
+    ],
     "zhPath": "./2026-07-10/zh/",
     "enPath": "./2026-07-10/en/",
     "sourcesPath": "./2026-07-10/sources.md"
@@ -1755,6 +1995,20 @@
         }
       ]
     },
+    "watchlistZh": [
+      "Cloudflare 的 Search/Agent/Training 分类是否被主要 AI 公司稳定采用，尤其是用户代理访问被阻挡时的错误解释。",
+      "Acti 是否能把第三方键盘权限、API skill、长按触发和结果回填做成普通用户敢用的低摩擦流程。",
+      "MemoMind One Kickstarter 后续交付、户外显示、App 稳定性和无摄像头路线是否能形成真实日用场景。",
+      "ZCode 是否用真实 repo、测试通过率、权限设计和长任务恢复证明 GLM-5.2 的 agentic coding 不是低价噱头。",
+      "Rokid/YodaOS、雷鸟、夸克/通义等中国 AI 眼镜生态是否发布可复现的 AIOS API、隐私提示和服务闭环。"
+    ],
+    "watchlistEn": [
+      "Whether Cloudflare's Search/Agent/Training categories are adopted consistently by major AI companies, especially when user-delegated access is blocked.",
+      "Whether Acti can make third-party keyboard permissions, API skills, hold gestures, and result insertion trustworthy for ordinary users.",
+      "Whether MemoMind One's Kickstarter delivery, outdoor display, app stability, and camera-free positioning become a durable daily workflow.",
+      "Whether ZCode proves GLM-5.2 agentic coding on real repositories through test pass rates, permission design, and long-task recovery.",
+      "Whether Rokid/YodaOS, RayNeo, Quark/Tongyi, and other China AI-glasses ecosystems publish reproducible AIOS APIs, privacy indicators, and service closure."
+    ],
     "zhPath": "./2026-07-07/zh/",
     "enPath": "./2026-07-07/en/",
     "sourcesPath": "./2026-07-07/sources.md"
@@ -1807,6 +2061,20 @@
       ],
       "imageSourceUrl": "https://blog.cloudflare.com/content-independence-day-ai-options/"
     },
+    "watchlistZh": [
+      "Cloudflare 的 Search/Agent/Training 分类是否被主要 AI 公司稳定采用，尤其是用户代理访问被阻挡时的错误解释。",
+      "Acti 是否能把第三方键盘权限、API skill、长按触发和结果回填做成普通用户敢用的低摩擦流程。",
+      "MemoMind One Kickstarter 后续交付、户外显示、App 稳定性和无摄像头路线是否能形成真实日用场景。",
+      "ZCode 是否用真实 repo、测试通过率、权限设计和长任务恢复证明 GLM-5.2 的 agentic coding 不是低价噱头。",
+      "Rokid/YodaOS、雷鸟、夸克/通义等中国 AI 眼镜生态是否发布可复现的 AIOS API、隐私提示和服务闭环。"
+    ],
+    "watchlistEn": [
+      "Whether Cloudflare's Search/Agent/Training categories are adopted consistently by major AI companies, especially when user-delegated access is blocked.",
+      "Whether Acti can make third-party keyboard permissions, API skills, hold gestures, and result insertion trustworthy for ordinary users.",
+      "Whether MemoMind One's Kickstarter delivery, outdoor display, app stability, and camera-free positioning become a durable daily workflow.",
+      "Whether ZCode proves GLM-5.2 agentic coding on real repositories through test pass rates, permission design, and long-task recovery.",
+      "Whether Rokid/YodaOS, RayNeo, Quark/Tongyi, and other China AI-glasses ecosystems publish reproducible AIOS APIs, privacy indicators, and service closure."
+    ],
     "zhPath": "./2026-07-06/zh/",
     "enPath": "./2026-07-06/en/",
     "sourcesPath": "./2026-07-06/sources.md"
@@ -1859,6 +2127,20 @@
       ],
       "imageSourceUrl": "https://blog.cloudflare.com/content-independence-day-ai-options/"
     },
+    "watchlistZh": [
+      "Cloudflare 的 Search/Agent/Training 分类是否被主要 AI 公司稳定采用，尤其是用户代理访问被阻挡时的错误解释。",
+      "Acti 是否能把第三方键盘权限、API skill、长按触发和结果回填做成普通用户敢用的低摩擦流程。",
+      "MemoMind One Kickstarter 后续交付、户外显示、App 稳定性和无摄像头路线是否能形成真实日用场景。",
+      "ZCode 是否用真实 repo、测试通过率、权限设计和长任务恢复证明 GLM-5.2 的 agentic coding 不是低价噱头。",
+      "Rokid/YodaOS、雷鸟、夸克/通义等中国 AI 眼镜生态是否发布可复现的 AIOS API、隐私提示和服务闭环。"
+    ],
+    "watchlistEn": [
+      "Whether Cloudflare's Search/Agent/Training categories are adopted consistently by major AI companies, especially when user-delegated access is blocked.",
+      "Whether Acti can make third-party keyboard permissions, API skills, hold gestures, and result insertion trustworthy for ordinary users.",
+      "Whether MemoMind One's Kickstarter delivery, outdoor display, app stability, and camera-free positioning become a durable daily workflow.",
+      "Whether ZCode proves GLM-5.2 agentic coding on real repositories through test pass rates, permission design, and long-task recovery.",
+      "Whether Rokid/YodaOS, RayNeo, Quark/Tongyi, and other China AI-glasses ecosystems publish reproducible AIOS APIs, privacy indicators, and service closure."
+    ],
     "zhPath": "./2026-07-05/zh/",
     "enPath": "./2026-07-05/en/",
     "sourcesPath": "./2026-07-05/sources.md"
@@ -1911,6 +2193,22 @@
       ],
       "imageSourceUrl": "https://www.anthropic.com/news/claude-science-ai-workbench"
     },
+    "watchlistZh": [
+      "Claude Science beta 是否能在真实 lab 中稳定保留可复现 artifact，并让 PI/安全团队理解数据边界。",
+      "Claude Tag 的 ambient 行为、频道记忆和 spend log 是否能让非技术团队放心地把 agent 当团队成员。",
+      "Claude Code 企业禁用报道是否扩散成更广泛的 coding-agent governance 采购门槛。",
+      "Google Workspace AI 的广告争议是否促使协作产品更明确地区分 AI 起草、建议、记录和人类决策。",
+      "Product Hunt 的 AI Browser、Klariqo、Raydian 等 narrow-agent 信号是否能拿出独立评测和留存证据。",
+      "中国 AI 眼镜市场信号是否出现可复现 API、隐私提示、真实日用评测和售后数据。"
+    ],
+    "watchlistEn": [
+      "Whether Claude Science beta keeps reproducible artifacts stable in real labs and makes data boundaries understandable to PIs and security teams.",
+      "Whether Claude Tag's ambient behavior, channel memory, and spend logs make non-technical teams comfortable treating an agent as a teammate.",
+      "Whether the reported Claude Code enterprise ban spreads into a broader governance purchasing gate for coding agents.",
+      "Whether Google Workspace AI's ad backlash pushes collaboration products to separate AI drafting, suggestion, recording, and human decision boundaries more clearly.",
+      "Whether Product Hunt's AI Browser, Klariqo, Raydian, and other narrow-agent signals produce independent reviews and retention evidence.",
+      "Whether China's AI-glasses market signals produce reproducible APIs, privacy indicators, real daily-use reviews, and support data."
+    ],
     "zhPath": "./2026-07-04/zh/",
     "enPath": "./2026-07-04/en/",
     "sourcesPath": "./2026-07-04/sources.md"
@@ -1963,6 +2261,20 @@
       ],
       "imageSourceUrl": "https://blog.cloudflare.com/content-independence-day-ai-options/"
     },
+    "watchlistZh": [
+      "Cloudflare 的 Search/Agent/Training 分类是否被主要 AI 公司稳定采用，尤其是用户代理访问被阻挡时的错误解释。",
+      "Acti 是否能把第三方键盘权限、API skill、长按触发和结果回填做成普通用户敢用的低摩擦流程。",
+      "MemoMind One Kickstarter 后续交付、户外显示、App 稳定性和无摄像头路线是否能形成真实日用场景。",
+      "ZCode 是否用真实 repo、测试通过率、权限设计和长任务恢复证明 GLM-5.2 的 agentic coding 不是低价噱头。",
+      "Rokid/YodaOS、雷鸟、夸克/通义等中国 AI 眼镜生态是否发布可复现的 AIOS API、隐私提示和服务闭环。"
+    ],
+    "watchlistEn": [
+      "Whether Cloudflare's Search/Agent/Training categories are adopted consistently by major AI companies, especially when user-delegated access is blocked.",
+      "Whether Acti can make third-party keyboard permissions, API skills, hold gestures, and result insertion trustworthy for ordinary users.",
+      "Whether MemoMind One's Kickstarter delivery, outdoor display, app stability, and camera-free positioning become a durable daily workflow.",
+      "Whether ZCode proves GLM-5.2 agentic coding on real repositories through test pass rates, permission design, and long-task recovery.",
+      "Whether Rokid/YodaOS, RayNeo, Quark/Tongyi, and other China AI-glasses ecosystems publish reproducible AIOS APIs, privacy indicators, and service closure."
+    ],
     "zhPath": "./2026-07-03/zh/",
     "enPath": "./2026-07-03/en/",
     "sourcesPath": "./2026-07-03/sources.md"
@@ -2015,6 +2327,18 @@
       ],
       "imageSourceUrl": "https://www.meta.com/help/ai-glasses/1384571770097740/"
     },
+    "watchlistZh": [
+      "继续跟踪 Meta One 是否扩大到更多端侧眼镜功能。",
+      "验证 Gemini Omni Flash 在真实多轮视频编辑中的失败恢复和成本提示。",
+      "等待 MemoMind One Kickstarter 发货后再判断硬件质量。",
+      "把千问眼镜的服务闭环与海外眼镜的订阅模式持续对照。"
+    ],
+    "watchlistEn": [
+      "Track whether Meta One expands to more on-device glasses features.",
+      "Test Gemini Omni Flash failure recovery and cost signaling in real multi-turn video edits.",
+      "Wait for MemoMind One shipment evidence before treating the hardware as proven.",
+      "Compare Qwen glasses service closure against Western eyewear subscription models."
+    ],
     "zhPath": "./2026-07-02/zh/",
     "enPath": "./2026-07-02/en/",
     "sourcesPath": "./2026-07-02/sources.md"
@@ -2065,6 +2389,18 @@
       "evidenceStrength": "confirmed product",
       "whyCover": "It is the clearest interface shift today: a consumer AI agent crossing from chat into desktop files, apps, and remote execution."
     },
+    "watchlistZh": [
+      "Spark on Mac 的文件权限、远程任务失败恢复和 custom MCP 审计。",
+      "Claude Science 的 reviewer agent 独立性和科研 artifact 可复现性。",
+      "Meta Conversation Focus 限额是否扩展到更多端侧功能。",
+      "NVIDIA XR AI 在工厂、手术和实验室中的低打扰反馈与认证路径。"
+    ],
+    "watchlistEn": [
+      "Spark on Mac file permissions, remote-task failure recovery, and custom MCP auditing.",
+      "Claude Science reviewer-agent independence and scientific artifact reproducibility.",
+      "Whether Meta Conversation Focus limits expand to more on-device features.",
+      "NVIDIA XR AI low-distraction feedback and certification paths in factories, surgery, and labs."
+    ],
     "zhPath": "/ai-daily/2026-07-01/zh/",
     "enPath": "/ai-daily/2026-07-01/en/",
     "sourcesPath": "/ai-daily/2026-07-01/sources.md"
@@ -2117,6 +2453,20 @@
       "evidenceStrength": "confirmed product",
       "whyCover": "Pixel Drop shows AI moving into everyday phone workflows, which is the clearest interface shift in today's sweep."
     },
+    "watchlistZh": [
+      "Pixel Drop 后续：核查不同 Pixel 型号、地区和 Gemini Omni 功能是否一致。",
+      "ChatGPT memory：观察 Enterprise 默认开启后的管理员反馈、误记修正和 project-only memory 隔离表现。",
+      "Claude connectors：关注 remote MCP action approval、审计日志和撤销路径。",
+      "Copilot Cowork：跟踪 GA 后真实客户案例中 long-running task 的失败恢复。",
+      "AI 眼镜：继续等官方硬件规格、长期评测和社区隐私/续航反馈。"
+    ],
+    "watchlistEn": [
+      "Pixel Drop: verify feature availability by Pixel model, country, and Gemini Omni capability.",
+      "ChatGPT memory: watch admin feedback, correction flows, and project-only isolation after default rollout.",
+      "Claude connectors: track remote MCP action approval, audit logs, and revocation paths.",
+      "Copilot Cowork: look for real customer evidence around long-running task failure recovery.",
+      "AI glasses: wait for official hardware specs, long-term reviews, and community privacy or battery feedback."
+    ],
     "zhPath": "/ai-daily/2026-06-30/zh/",
     "enPath": "/ai-daily/2026-06-30/en/",
     "sourcesPath": "/ai-daily/2026-06-30/sources.md"
@@ -2169,6 +2519,20 @@
       "evidenceStrength": "confirmed product",
       "whyCover": "Pixel Drop shows AI moving into everyday phone workflows, which is the clearest interface shift in today's sweep."
     },
+    "watchlistZh": [
+      "Pixel Drop 后续：核查不同 Pixel 型号、地区和 Gemini Omni 功能是否一致。",
+      "ChatGPT memory：观察 Enterprise 默认开启后的管理员反馈、误记修正和 project-only memory 隔离表现。",
+      "Claude connectors：关注 remote MCP action approval、审计日志和撤销路径。",
+      "Copilot Cowork：跟踪 GA 后真实客户案例中 long-running task 的失败恢复。",
+      "AI 眼镜：继续等官方硬件规格、长期评测和社区隐私/续航反馈。"
+    ],
+    "watchlistEn": [
+      "Pixel Drop: verify feature availability by Pixel model, country, and Gemini Omni capability.",
+      "ChatGPT memory: watch admin feedback, correction flows, and project-only isolation after default rollout.",
+      "Claude connectors: track remote MCP action approval, audit logs, and revocation paths.",
+      "Copilot Cowork: look for real customer evidence around long-running task failure recovery.",
+      "AI glasses: wait for official hardware specs, long-term reviews, and community privacy or battery feedback."
+    ],
     "zhPath": "/ai-daily/2026-06-29/zh/",
     "enPath": "/ai-daily/2026-06-29/en/",
     "sourcesPath": "/ai-daily/2026-06-29/sources.md"
@@ -2221,6 +2585,20 @@
       "evidenceStrength": "confirmed product",
       "whyCover": "Pixel Drop shows AI moving into everyday phone workflows, which is the clearest interface shift in today's sweep."
     },
+    "watchlistZh": [
+      "Pixel Drop 后续：核查不同 Pixel 型号、地区和 Gemini Omni 功能是否一致。",
+      "ChatGPT memory：观察 Enterprise 默认开启后的管理员反馈、误记修正和 project-only memory 隔离表现。",
+      "Claude connectors：关注 remote MCP action approval、审计日志和撤销路径。",
+      "Copilot Cowork：跟踪 GA 后真实客户案例中 long-running task 的失败恢复。",
+      "AI 眼镜：继续等官方硬件规格、长期评测和社区隐私/续航反馈。"
+    ],
+    "watchlistEn": [
+      "Pixel Drop: verify feature availability by Pixel model, country, and Gemini Omni capability.",
+      "ChatGPT memory: watch admin feedback, correction flows, and project-only isolation after default rollout.",
+      "Claude connectors: track remote MCP action approval, audit logs, and revocation paths.",
+      "Copilot Cowork: look for real customer evidence around long-running task failure recovery.",
+      "AI glasses: wait for official hardware specs, long-term reviews, and community privacy or battery feedback."
+    ],
     "zhPath": "/ai-daily/2026-06-28/zh/",
     "enPath": "/ai-daily/2026-06-28/en/",
     "sourcesPath": "/ai-daily/2026-06-28/sources.md"
@@ -2273,6 +2651,20 @@
       "evidenceStrength": "confirmed product",
       "whyCover": "Pixel Drop shows AI moving into everyday phone workflows, which is the clearest interface shift in today's sweep."
     },
+    "watchlistZh": [
+      "Pixel Drop 后续：核查不同 Pixel 型号、地区和 Gemini Omni 功能是否一致。",
+      "ChatGPT memory：观察 Enterprise 默认开启后的管理员反馈、误记修正和 project-only memory 隔离表现。",
+      "Claude connectors：关注 remote MCP action approval、审计日志和撤销路径。",
+      "Copilot Cowork：跟踪 GA 后真实客户案例中 long-running task 的失败恢复。",
+      "AI 眼镜：继续等官方硬件规格、长期评测和社区隐私/续航反馈。"
+    ],
+    "watchlistEn": [
+      "Pixel Drop: verify feature availability by Pixel model, country, and Gemini Omni capability.",
+      "ChatGPT memory: watch admin feedback, correction flows, and project-only isolation after default rollout.",
+      "Claude connectors: track remote MCP action approval, audit logs, and revocation paths.",
+      "Copilot Cowork: look for real customer evidence around long-running task failure recovery.",
+      "AI glasses: wait for official hardware specs, long-term reviews, and community privacy or battery feedback."
+    ],
     "zhPath": "/ai-daily/2026-06-27/zh/",
     "enPath": "/ai-daily/2026-06-27/en/",
     "sourcesPath": "/ai-daily/2026-06-27/sources.md"
@@ -2325,6 +2717,20 @@
       "evidenceStrength": "confirmed product",
       "whyCover": "Pixel Drop shows AI moving into everyday phone workflows, which is the clearest interface shift in today's sweep."
     },
+    "watchlistZh": [
+      "Pixel Drop 后续：核查不同 Pixel 型号、地区和 Gemini Omni 功能是否一致。",
+      "ChatGPT memory：观察 Enterprise 默认开启后的管理员反馈、误记修正和 project-only memory 隔离表现。",
+      "Claude connectors：关注 remote MCP action approval、审计日志和撤销路径。",
+      "Copilot Cowork：跟踪 GA 后真实客户案例中 long-running task 的失败恢复。",
+      "AI 眼镜：继续等官方硬件规格、长期评测和社区隐私/续航反馈。"
+    ],
+    "watchlistEn": [
+      "Pixel Drop: verify feature availability by Pixel model, country, and Gemini Omni capability.",
+      "ChatGPT memory: watch admin feedback, correction flows, and project-only isolation after default rollout.",
+      "Claude connectors: track remote MCP action approval, audit logs, and revocation paths.",
+      "Copilot Cowork: look for real customer evidence around long-running task failure recovery.",
+      "AI glasses: wait for official hardware specs, long-term reviews, and community privacy or battery feedback."
+    ],
     "zhPath": "/ai-daily/2026-06-26/zh/",
     "enPath": "/ai-daily/2026-06-26/en/",
     "sourcesPath": "/ai-daily/2026-06-26/sources.md"
@@ -2376,6 +2782,20 @@
       "evidenceStrength": "confirmed product",
       "whyCover": "Meta is lowering the price and broadening style range while Google and Alibaba keep pushing platform and service-ecosystem eyewear paths."
     },
+    "watchlistZh": [
+      "Snap SPECS 已在 6/23 报道；除非出现发货、评测、退货或 SDK 更新，后续只跟 watchlist。",
+      "VisionClaw 已在 6/23 报道；后续只跟代码/部署/后续论文，不重复写主文。",
+      "Meta Glasses 299 美元价位是否引发 Ray-Ban/Oakley 系列降价或分层。",
+      "Google Android XR partner SKU 是否给出价格、重量、续航和隐私灯细节。",
+      "千问/夸克眼镜今天进入体验摩擦期，观察高频场景是否从“问答”变成“服务动作”。"
+    ],
+    "watchlistEn": [
+      "Snap SPECS was covered on June 23; keep it in watchlist unless shipping, reviews, returns, or SDK updates appear.",
+      "VisionClaw was covered on June 23; track code, deployment, or follow-up papers instead of repeating the main dossier.",
+      "Watch whether Meta’s $299 tier forces clearer segmentation or pricing pressure across Ray-Ban and Oakley Meta glasses.",
+      "Google Android XR partner SKUs still need price, weight, battery, and privacy-indicator details.",
+      "Qwen/Quark glasses are entering the friction phase; watch whether high-frequency use shifts from Q&A into service actions."
+    ],
     "zhPath": "/ai-daily/2026-06-25/zh/",
     "enPath": "/ai-daily/2026-06-25/en/",
     "sourcesPath": "/ai-daily/2026-06-25/sources.md"
@@ -2427,6 +2847,18 @@
       "evidenceStrength": "confirmed product · official/developer/media sources",
       "whyCover": "AI glasses concentrate today’s interface questions into one visible wearable boundary."
     },
+    "watchlistZh": [
+      "Snap Specs：等待 fall 2026 真机评测验证重量、续航、热量、旁人隐私提示和 Lens 生态。",
+      "VITURE Helix：观察企业试点是否公开流程指标、合规边界和错误责任设计。",
+      "Hush：跟踪 GitHub/Hugging Face 后续 release，重点看真实通话中的误听率和端侧部署。",
+      "中国 AI 眼镜：继续区分销量/618 热度、隐私摩擦和确认产品规格。"
+    ],
+    "watchlistEn": [
+      "Snap Specs: wait for fall 2026 hands-on validation of weight, battery, heat, bystander cues, and Lens ecosystem.",
+      "VITURE Helix: watch whether enterprise pilots publish workflow metrics, compliance boundaries, and error-accountability design.",
+      "Hush: track GitHub/Hugging Face releases, especially real-call mishearing rates and edge deployment.",
+      "China AI glasses: keep sales/618 heat, privacy friction, and confirmed SKU specs separate."
+    ],
     "zhPath": "/ai-daily/2026-06-23/zh/",
     "enPath": "/ai-daily/2026-06-23/en/",
     "sourcesPath": "/ai-daily/2026-06-23/sources.md"
@@ -2479,6 +2911,20 @@
       "evidenceStrength": "confirmed product · official/developer/review sources",
       "whyCover": "AI glasses concentrate today’s product-interface questions into one visible, wearable boundary."
     },
+    "watchlistZh": [
+      "Snap Specs：等待独立评测确认四小时电池、散热、显示可读性、旁人隐私提示和 Lens 供给是否支撑日常佩戴。",
+      "XREAL Aura / Android XR：继续看 reservation 到 shipping 的落地、Best Buy/地区渠道、iOS/PC 互通和 Android XR 应用数量。",
+      "Codex Windows computer use：重点看企业默认开关、审计日志、敏感数据边界、误点击恢复和跨设备 steering 的延迟。",
+      "Meta Business Agent / Poke：看消息线程里的 AI 身份披露、human handoff、退款责任、订阅价格和平台审核政策。",
+      "研究/专利：VisionClaw 和 XR patent 只作为机制雷达，等到 SDK、硬件或第三方测试交叉后再升级证据等级。"
+    ],
+    "watchlistEn": [
+      "Snap Specs: wait for independent review of four-hour battery claims, heat, display legibility, bystander cues, and whether Lens supply supports daily wear.",
+      "XREAL Aura / Android XR: watch the path from reservation to shipping, Best Buy/regional channels, iOS/PC interoperability, and Android XR app supply.",
+      "Codex Windows computer use: watch enterprise default settings, audit logs, sensitive-data boundaries, misclick recovery, and latency in cross-device steering.",
+      "Meta Business Agent / Poke: watch AI identity disclosure in message threads, human handoff, refund responsibility, subscription pricing, and platform-review policy.",
+      "Research / patents: keep VisionClaw and XR patents as mechanism radar until SDK, hardware, or third-party tests cross-validate them."
+    ],
     "zhPath": "/ai-daily/2026-06-22/zh/",
     "enPath": "/ai-daily/2026-06-22/en/",
     "sourcesPath": "/ai-daily/2026-06-22/sources.md"
@@ -2530,6 +2976,20 @@
       "evidenceStrength": "confirmed product · official/developer surface",
       "whyCover": "It changes the interface boundary: glasses become a wearable AI app platform, not only a camera accessory."
     },
+    "watchlistZh": [
+      "Snap Specs / Android XR / XREAL：继续看独立评测是否给出全天佩戴、电池、亮度、热量、隐私提示与开发者 app 供给的证据。",
+      "OpenAI Agents / computer use：继续看浏览器动作授权、失败恢复、审计日志、human takeover 和区域可用性是否进入更稳定的产品文档。",
+      "Meta Business AI Agent：继续看商家如何配置知识、handoff、退款责任和跨 WhatsApp / Messenger 的交易边界。",
+      "中国 AI 眼镜：如果 36Kr、少数派、厂商页或众筹页出现明确规格、价格、发货区域和第三方长测，再从 scan 升级为 dossier。",
+      "研究/专利：只在交互机制与产品 surface 发生交叉验证时升权，单独论文或专利继续标为 speculative signal。"
+    ],
+    "watchlistEn": [
+      "Snap Specs / Android XR / XREAL: watch for independent evidence on all-day wear, battery, brightness, heat, privacy cues, and developer app supply.",
+      "OpenAI Agents / computer use: watch whether browser-action authorization, failure recovery, audit logs, human takeover, and regional availability stabilize in product docs.",
+      "Meta Business AI Agent: watch how businesses configure knowledge, handoff, refund responsibility, and transaction boundaries across WhatsApp and Messenger.",
+      "China AI glasses: promote the lane from scan to dossier only when 36Kr, SSPAI, vendor pages, or crowdfunding pages show clear specs, pricing, shipping regions, and third-party long tests.",
+      "Research / patents: raise weight only when interaction mechanism and product surface are cross-validated; standalone papers or patents remain speculative signals."
+    ],
     "zhPath": "/ai-daily/2026-06-21/zh/",
     "enPath": "/ai-daily/2026-06-21/en/",
     "sourcesPath": "/ai-daily/2026-06-21/sources.md"
@@ -2581,6 +3041,20 @@
       "evidenceStrength": "confirmed product · official/developer surface",
       "whyCover": "It changes the interface boundary: glasses become a wearable AI app platform, not only a camera accessory."
     },
+    "watchlistZh": [
+      "Snap Specs：继续看价格/资格/开发者供给、全天佩戴、录制提示和第三方长测。",
+      "Android XR / XREAL Aura：继续看是否出现真实 SDK demo、app 移植和消费者发货节奏。",
+      "Google AP2：继续看商家覆盖、支付授权 UI、退款/争议流程和用户可撤销状态。",
+      "Meta Business AI Agent：继续看地区、语言、handoff、错误责任和 WhatsApp Business 落地。",
+      "China lane：继续等待明确新品、众筹、官方规格或长测，不把搜索热度写成产品事实。"
+    ],
+    "watchlistEn": [
+      "Snap Specs: watch price/eligibility, developer supply, all-day wear, recording indicators, and independent long tests.",
+      "Android XR / XREAL Aura: watch real SDK demos, app migration, and consumer shipping cadence.",
+      "Google AP2: watch merchant coverage, payment authorization UI, refund/dispute flow, and reversible user state.",
+      "Meta Business AI Agent: watch regions, languages, handoff, answer liability, and WhatsApp Business deployment.",
+      "China lane: wait for clear launch, crowdfunding page, official specs, or long review; do not treat search heat as product fact."
+    ],
     "zhPath": "/ai-daily/2026-06-20/zh/",
     "enPath": "/ai-daily/2026-06-20/en/",
     "sourcesPath": "/ai-daily/2026-06-20/sources.md"
@@ -2632,6 +3106,20 @@
       "evidenceStrength": "confirmed product · official/developer surface",
       "whyCover": "It changes the interface boundary: glasses become a wearable AI app platform, not only a camera accessory."
     },
+    "watchlistZh": [
+      "Snap Specs：继续看价格/资格/开发者供给、全天佩戴、录制提示和第三方长测。",
+      "Android XR / XREAL Aura：继续看是否出现真实 SDK demo、app 移植和消费者发货节奏。",
+      "Google AP2：继续看商家覆盖、支付授权 UI、退款/争议流程和用户可撤销状态。",
+      "Meta Business AI Agent：继续看地区、语言、handoff、错误责任和 WhatsApp Business 落地。",
+      "China lane：继续等待明确新品、众筹、官方规格或长测，不把搜索热度写成产品事实。"
+    ],
+    "watchlistEn": [
+      "Snap Specs: watch price/eligibility, developer supply, all-day wear, recording indicators, and independent long tests.",
+      "Android XR / XREAL Aura: watch real SDK demos, app migration, and consumer shipping cadence.",
+      "Google AP2: watch merchant coverage, payment authorization UI, refund/dispute flow, and reversible user state.",
+      "Meta Business AI Agent: watch regions, languages, handoff, answer liability, and WhatsApp Business deployment.",
+      "China lane: wait for clear launch, crowdfunding page, official specs, or long review; do not treat search heat as product fact."
+    ],
     "zhPath": "/ai-daily/2026-06-19/zh/",
     "enPath": "/ai-daily/2026-06-19/en/",
     "sourcesPath": "/ai-daily/2026-06-19/sources.md"
@@ -2686,6 +3174,18 @@
       "evidenceStrength": "official product blog",
       "whyCover": "It reframes the laptop as a default AI work surface rather than a host for separate AI apps."
     },
+    "watchlistZh": [
+      "Google Android XR 和 Meta display glasses 谁先把低打扰反馈做成可长期使用的规范。",
+      "Apple 的 App Intents / Spotlight 接口会不会真正把第三方 app 执行能力接入系统代理。",
+      "AI PC 的差异点会继续从模型性能转向工作流闭环、权限透明和桌面反馈层。",
+      "边缘 agent 进入真实设备控制后，延迟、安全和人工接管将比对话体验更重要。"
+    ],
+    "watchlistEn": [
+      "Whether Google Android XR or Meta display glasses defines the first durable low-interruption feedback pattern.",
+      "Whether Apple's App Intents and Spotlight hooks truly connect third-party execution into the system agent.",
+      "Whether AI PC differentiation keeps shifting from model performance toward workflow closure, permission clarity, and desktop feedback surfaces.",
+      "As edge agents move into real device control, latency, safety, and human override may matter more than conversational polish."
+    ],
     "zhPath": "/ai-daily/2026-06-17/zh/",
     "enPath": "/ai-daily/2026-06-17/en/",
     "sourcesPath": "/ai-daily/2026-06-17/sources.md"
@@ -2736,6 +3236,18 @@
       "evidenceStrength": "official product blog",
       "whyCover": "It changes the product interface boundary: the laptop becomes an AI system surface, not just a host for AI apps."
     },
+    "watchlistZh": [
+      "AI OS / shell 的权限与撤销设计是否会成为平台差异点。",
+      "智能眼镜能否从 demo 走向可长期佩戴的输入/反馈系统。",
+      "野生产品信号需要继续扫 Reddit、Product Hunt、Kickstarter、独立评测和中国创业产品。",
+      "专利信号只作为方向雷达，不能当成发布事实。"
+    ],
+    "watchlistEn": [
+      "Whether permission and undo design becomes the differentiator for AI OS and shells.",
+      "Whether smart glasses can move from demos into long-wear input and feedback systems.",
+      "Wild signals should keep scanning Reddit, Product Hunt, Kickstarter, independent reviews, and Chinese startup products.",
+      "Patent signals stay directional and must not be treated as launch facts."
+    ],
     "zhPath": "/ai-daily/2026-06-16/zh/",
     "enPath": "/ai-daily/2026-06-16/en/",
     "sourcesPath": "/ai-daily/2026-06-16/sources.md"

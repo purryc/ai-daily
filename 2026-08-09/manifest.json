@@ -105,6 +105,22 @@
       }
     ]
   },
+  "watchlistZh": [
+    "Samsung / Google Intelligent Eyewear：可运行零售机、价格、重量、处方渠道、LED 可见距离、相机规格和秋季地区范围。",
+    "Rokid AI Glasses Style：连接错误率、AI 失败恢复、录制灯改进、Android app 稳定性、续航与真实日常留存。",
+    "Meta AI Glasses：capture LED 防篡改误判、数据分享边界、旁观者理解度与独立隐私测试。",
+    "XREAL AURA / Android XR：最终重量、端云分工、相机/麦克风、价格上限、地区和真实发货。",
+    "VITURE Helix / Snapdragon START：企业 pilot、ANSI 认证、首批采用者、SDK、provenance API 和隐私状态。",
+    "LingDevice OS / ARGO / 专利线：SDK、真实终端、支付授权、端侧代码、可复现实验与状态 API。"
+  ],
+  "watchlistEn": [
+    "Samsung / Google Intelligent Eyewear: working retail units, price, weight, prescription channels, LED visibility, camera details, and fall regions.",
+    "Rokid AI Glasses Style: connection-error rate, AI failure recovery, recording-light changes, Android-app stability, runtime, and real daily retention.",
+    "Meta AI Glasses: capture-LED false positives, capture-sharing boundaries, bystander comprehension, and independent privacy tests.",
+    "XREAL AURA / Android XR: final weight, edge-cloud split, camera and microphones, price ceiling, regions, and real shipping.",
+    "VITURE Helix / Snapdragon START: enterprise pilots, ANSI certification, first adopters, SDK, provenance API, and privacy state.",
+    "LingDevice OS / ARGO / patent lane: SDK, real hardware, payment authorization, edge code, reproducible tests, and state APIs."
+  ],
   "topics": [
     {
       "id": "xreal-aura-android-xr-spatial-glasses",
