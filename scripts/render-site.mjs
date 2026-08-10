@@ -2189,13 +2189,13 @@ body:has(.deck-page) {
 }
 
 .source-slide .source-grid strong {
-  font-size: clamp(7px, 0.52vw, 8.5px);
-  line-height: 1.01;
+  font-size: clamp(7px, 0.50vw, 8.2px);
+  line-height: 0.94;
   letter-spacing: -0.025em;
 }
 
 .source-slide .source-row {
-  font-size: 8px;
+  font-size: 7.5px;
   margin-top: 0;
 }
 
