@@ -1,5 +1,95 @@
 [
   {
+    "date": "2026-08-10",
+    "zhTitle": "AI Daily 2026-08-10：AI 入口不一定要戴在脸上",
+    "enTitle": "AI Daily 2026-08-10: The AI Entry Point Does Not Have to Be Worn on the Face",
+    "zhSummary": "今天最有产品含量的增量不是一副新眼镜，而是 Insta360 GO Ultra 通过 app/固件获得 Gemini 驱动的语音助手：实时翻译、视觉识别、语音问答和可重新定位的磁吸相机，把 AI 入口从脸上拆到现场。Android XR 的开发者状态、社区对固件可得性和任务闭环的追问，以及中国/全球硬件路线继续作为对照。",
+    "enSummary": "Today’s strongest product increment is not another pair of glasses. Insta360 GO Ultra is reported to gain a Gemini-powered voice assistant through the app and firmware path, adding real-time translation, visual recognition, and voice questions to a movable magnetic camera. Android XR developer state, community questions about firmware access and task closure, and China/global hardware routes remain the comparison layer.",
+    "tags": [
+      "AI camera",
+      "Insta360 GO Ultra",
+      "AI glasses",
+      "ambient input",
+      "Gemini",
+      "developer surface",
+      "community friction",
+      "on-device AI"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "wild",
+      "research",
+      "patent",
+      "china",
+      "global"
+    ],
+    "coverStory": {
+      "topicId": "insta360-go-ultra-ai-voice-assistant",
+      "zhTitle": "AI 入口不一定要戴在脸上",
+      "enTitle": "The AI entry point does not have to be worn on the face",
+      "imagePath": "assets/insta360-go-ultra-ai-assistant-2026-08.png",
+      "imageWidth": 1600,
+      "imageHeight": 900,
+      "primarySourceUrl": "https://store.insta360.com/in/product/%20go-ultra",
+      "imageSourceUrl": "https://store.insta360.com/in/product/%20go-ultra",
+      "evidenceStrength": "confirmed product update · official store/manual · review corroboration",
+      "whyCover": "The strongest August 10 product increment is a software path: T3 reports that Insta360 GO Ultra began receiving an AI Voice Assistant through the Insta360 app on August 7, with Gemini-reported translation, visual recognition, and voice answers. The camera can stay clipped to clothing, be held, or be repositioned. The official store exposes the hardware, price, and a current Coming Soon/out-of-stock state; official support documents the firmware and app relationship. This makes a useful product test: can ambient AI move closer to the scene without forcing the user to wear a computer on the face?",
+      "zhSummary": [
+        "GO Ultra 的新 AI Voice Assistant 由评测报道为 8 月 7 日开始通过 Insta360 app rollout；Gemini、实时翻译、视觉识别和语音问答仍需按来源边界阅读。",
+        "磁吸相机可以夹在衣物、手持或重新定位，把传感器从固定在脸上的设备变成可移动的现场输入节点；官方商店同时显示 US$532、Temporarily out of stock 与 Coming Soon。",
+        "今天的核心问题是 AI 是否能在不增加面部佩戴负担的情况下获得现场上下文；隐私提示、联网、离线能力、权限和 rollout 覆盖仍未被完整公开。"
+      ],
+      "enSummary": [
+        "T3 reports the new AI Voice Assistant began rolling out through the Insta360 app on August 7; Gemini, real-time translation, visual recognition, and voice answers remain bounded by that source. ",
+        "The magnetic camera can be clipped, held, or repositioned, turning the sensor into a movable scene-facing node; the official store simultaneously shows US$532, Temporarily out of stock, and Coming Soon.",
+        "The product question is whether AI can gain scene context without adding a face-worn computer; privacy cues, connectivity, offline behavior, permissions, and rollout coverage remain under-specified."
+      ]
+    },
+    "designDesk": {
+      "zhTitle": "设计洞察：把传感器从脸上拆下来",
+      "enTitle": "Design Desk: take the sensor off the face",
+      "zhIntro": "今天的证据把同一个问题从三个方向钉死：预发布产品需要让人知道“现在能不能用”，独立评测需要让人看到“为什么失败”，隐私机制需要让旁观者知道“相机是否正在工作”。状态不是装饰，它决定下一步动作和责任边界。",
+      "enIntro": "Today’s evidence pins down one problem from three directions: pre-release products must show whether they are usable now, reviews must expose why a task failed, and privacy mechanisms must let bystanders understand whether the camera is active. State is not decoration; it determines the next action and the boundary of responsibility.",
+      "zhItems": [
+        "位置是输入的一部分：夹在衣物、手持、胸前或桌面，系统必须显示当前视角与拥有者。",
+        "可移动不等于无隐私：每次重新定位都要重新表达录制、语音唤醒和分享状态。",
+        "回答与素材要回到一条时间线：问答、翻译、高光和视频不能散落在不同 app 里。",
+        "固件是交互层：更新前的电量、网络、失败重试和回滚都要被设计成可理解状态。",
+        "眼镜仍然是另一条路线：持续佩戴、低打扰反馈和旁观者可见性不能从相机经验直接外推。",
+        "对 Agent PC 的启示是把“相机”当作可授权的空间输入节点，而不是默认常开的环境监听器。"
+      ],
+      "enItems": [
+        "Position is part of input: clipped, handheld, chest-mounted, or placed on a table must expose the current viewpoint and owner.",
+        "Movable does not mean private: every repositioning must restate capture, wake-word, and sharing state.",
+        "Answers and media should return to one timeline: questions, translations, highlights, and footage should not scatter across apps.",
+        "Firmware is an interaction layer: battery, network, failure retry, and rollback need readable states.",
+        "Glasses remain a different route: long wear, low-interruption feedback, and bystander visibility cannot be inferred from a camera.",
+        "For Agent PCs, treat the camera as an authorized spatial input node, not an always-on ambient listener."
+      ]
+    },
+    "watchlistZh": [
+      "GO Ultra AI Voice Assistant：地区、语言、联网、模型路由、权限提示、离线能力、延迟和实际 rollout 覆盖。",
+      "Android XR / Google Made by Google：8 月 12 日是否给出可运行硬件、开发者 SDK、价格、重量、相机和地区，而不是再次只给预告。",
+      "Meta / Samsung / Rokid：录制灯、capture LED、任务完成、失败恢复和旁观者理解是否能被独立复测。",
+      "社区固件摩擦：用户是否必须更新 app、更新是否可回滚、AI 功能是否在真实设备上可见。",
+      "中国/全球硬件：LingDevice OS、Moonix、Rokid、DPVR 等是否披露可购买终端、SDK、权限和交付证据。",
+      "研究与专利：把传感器节点、穿戴代理、视觉理解和专利 claims 保持为方向信号，不写成已发布能力。"
+    ],
+    "watchlistEn": [
+      "GO Ultra AI Voice Assistant: region, language, network, model routing, permission cues, offline behavior, latency, and real rollout coverage.",
+      "Android XR / Made by Google: whether August 12 brings runnable hardware, an SDK, price, weight, cameras, and regions rather than another preview.",
+      "Meta / Samsung / Rokid: whether recording lights, capture LEDs, task completion, recovery, and bystander understanding can be independently retested.",
+      "Firmware friction: whether users must update the app, whether updates can be rolled back, and whether AI features are visible on real devices.",
+      "China/global hardware: whether LingDevice OS, Moonix, Rokid, and DPVR disclose buyable units, SDKs, permissions, and delivery evidence.",
+      "Research and patents: keep sensor nodes, wearable agents, visual understanding, and patent claims as directional signals, not shipped capabilities."
+    ],
+    "zhPath": "./2026-08-10/zh/",
+    "enPath": "./2026-08-10/en/",
+    "sourcesPath": "./2026-08-10/sources.md"
+  },
+  {
     "date": "2026-08-09",
     "zhTitle": "AI Daily 2026-08-09：AI 眼镜从展示进入可编程性考场",
     "enTitle": "AI Daily 2026-08-09: AI Glasses Move From Demo to Programmability Test",
