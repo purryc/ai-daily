@@ -1,5 +1,93 @@
 [
   {
+    "date": "2026-08-12",
+    "zhTitle": "AI Daily 2026-08-12：把识别放进观察链路",
+    "enTitle": "AI Daily 2026-08-12: Put Recognition Inside the Observation Loop",
+    "zhSummary": "今日最具体的新产品证据来自 GoBirding Vision Master：一副智能观鸟镜把长焦观察、自动对焦、光学防抖、4K 影像、端侧/云端鸟种识别和手机记录串成一条现场链路。8 月 9 日的一个月实测给出了清晰的可用性与摩擦，但 Kickstarter 仍预计 8 月 20 日上线，所以本条是 startup signal，不能写成已上市产品。与此同时，8 月 11 日社区仍在追问 AI 眼镜能否同时满足显示、转写、翻译、辅助功能和隐私；8 月 12 日 Made by Google 在本期仍是 event watch。",
+    "enSummary": "The clearest new product evidence today is GoBirding Vision Master: a smart spotting scope that links long-range observation, autofocus, optical stabilization, 4K capture, on-device and cloud bird recognition, and mobile logging into one field loop. A month-long review published on August 9 gives concrete usability and friction evidence, but Kickstarter is still expected around August 20, so this remains a startup signal rather than a shipped retail product. Meanwhile, an August 11 community thread still asks for display, transcription, translation, accessibility, and privacy in one glasses product; Made by Google on August 12 remains an event watch in this issue.",
+    "tags": [
+      "AI hardware",
+      "computer vision",
+      "smart spotting scope",
+      "on-device AI",
+      "crowdfunding",
+      "smart glasses",
+      "accessibility",
+      "privacy UX"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "wild",
+      "research",
+      "patent",
+      "china",
+      "global"
+    ],
+    "coverStory": {
+      "topicId": "gobirding-vision-master-smart-spotting-scope",
+      "zhTitle": "把识别放进观察链路",
+      "enTitle": "Put recognition inside the observation loop",
+      "imagePath": "assets/gobirding-vision-master-review-2026-08.jpg",
+      "imageWidth": 5184,
+      "imageHeight": 2222,
+      "primarySourceUrl": "https://www.digitalcameraworld.com/optics/spotting-scopes/gobirding-vision-master",
+      "imageSourceUrl": "https://www.digitalcameraworld.com/optics/spotting-scopes/gobirding-vision-master",
+      "evidenceStrength": "startup signal · independent hands-on review · crowdfunding pending",
+      "whyCover": "The strongest fresh product evidence is not another glasses render. It is a field instrument that closes a concrete loop: observe, identify, capture, and log. GoBirding Vision Master is still a startup and crowdfunding signal, but the month-long review discloses the actual hardware, software path, local/cloud split, use sequence, and failure points. That makes it a better HCI specimen than a feature list. The issue keeps the claim bounded: Kickstarter is expected around August 20, 2026, so availability, delivery, and long-term reliability remain unconfirmed.",
+      "zhSummary": [
+        "Vision Master 把 30x 光学、OIS、4K、电子取景器和 AI 识鸟放进同一条现场观察链路。",
+        "镜上可直接识别 1,500+ 物种，连接 app 后云端扩展到 10,000+；约 6 小时、932g 和对焦/数码变焦摩擦均来自评测。",
+        "它预计 8 月 20 日上线 Kickstarter，今天应读作 startup signal：产品证据具体，商业交付仍未知。"
+      ],
+      "enSummary": [
+        "Vision Master puts 30x optics, OIS, 4K capture, an electronic viewfinder, and AI bird recognition in one field loop.",
+        "It recognizes more than 1,500 species on the scope and expands to more than 10,000 through the app; the review also reports roughly six hours, 932g, and autofocus/digital-zoom friction.",
+        "Kickstarter is expected around August 20, so today’s bounded read is startup signal: concrete product evidence, unverified commercial delivery."
+      ]
+    },
+    "designDesk": {
+      "zhTitle": "Design Desk：让 AI 成为观察动作中的一层",
+      "enTitle": "Design Desk: Make AI a layer inside the observation action",
+      "zhIntro": "GoBirding 的链路说明，具身 AI 的关键不在于把聊天框塞进每个设备，而在于识别是否出现在正确的动作节点，并在模型、网络或信心不足时让传统操作继续可用。",
+      "enIntro": "GoBirding shows that embodied AI does not need to turn every device into a chat box. Recognition should appear at the right action node, while the conventional control path remains available when the model, network, or confidence is weak.",
+      "zhItems": [
+        "位置是输入的一部分：夹在衣物、手持、胸前或桌面，系统必须显示当前视角与拥有者。",
+        "可移动不等于无隐私：每次重新定位都要重新表达录制、语音唤醒和分享状态。",
+        "回答与素材要回到一条时间线：问答、翻译、高光和视频不能散落在不同 app 里。",
+        "固件是交互层：更新前的电量、网络、失败重试和回滚都要被设计成可理解状态。",
+        "眼镜仍然是另一条路线：持续佩戴、低打扰反馈和旁观者可见性不能从相机经验直接外推。",
+        "对 Agent PC 的启示是把“相机”当作可授权的空间输入节点，而不是默认常开的环境监听器。"
+      ],
+      "enItems": [
+        "Position is part of input: clipped, handheld, chest-mounted, or placed on a table must expose the current viewpoint and owner.",
+        "Movable does not mean private: every repositioning must restate capture, wake-word, and sharing state.",
+        "Answers and media should return to one timeline: questions, translations, highlights, and footage should not scatter across apps.",
+        "Firmware is an interaction layer: battery, network, failure retry, and rollback need readable states.",
+        "Glasses remain a different route: long wear, low-interruption feedback, and bystander visibility cannot be inferred from a camera.",
+        "For Agent PCs, treat the camera as an authorized spatial input node, not an always-on ambient listener."
+      ]
+    },
+    "watchlistZh": [
+      "GoBirding Vision Master：8 月 20 日 Kickstarter 是否按时上线，最终价格、发货、退款和量产质量是否公开。",
+      "Made by Google：活动结束后再核对 Android XR 眼镜是否出现真实硬件、价格、地区、API 和安装路径；本期生成时仍是 event watch。",
+      "社区辅助功能：显示、音频、实时转写、翻译、相机隐私是否会被同一产品真正同时满足。",
+      "Loomos：8 月 18 日发布会与过往 Kickstarter 延迟之间的交付可信度。",
+      "研究/专利：端侧视觉、低功耗传感和旁观者隐私仍只作为方向雷达，不升级为已发布产品事实。"
+    ],
+    "watchlistEn": [
+      "GoBirding Vision Master: whether the August 20 Kickstarter launch happens on time and publishes final price, shipping, refunds, and production evidence.",
+      "Made by Google: after the event, verify real Android XR hardware, price, regions, APIs, and install path; at issue generation it remains an event watch.",
+      "Accessibility demand: whether display, audio, live transcription, translation, and camera privacy can coexist in one shipped product.",
+      "Loomos: delivery credibility around the August 18 event versus the earlier Kickstarter delay history.",
+      "Research and patents: edge vision, low-power sensing, and bystander privacy remain directional radar, not shipped-product facts."
+    ],
+    "zhPath": "./2026-08-12/zh/",
+    "enPath": "./2026-08-12/en/",
+    "sourcesPath": "./2026-08-12/sources.md"
+  },
+  {
     "date": "2026-08-10",
     "zhTitle": "AI Daily 2026-08-10：AI 入口不一定要戴在脸上",
     "enTitle": "AI Daily 2026-08-10: The AI Entry Point Does Not Have to Be Worn on the Face",
