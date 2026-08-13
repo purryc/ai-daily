@@ -1,5 +1,95 @@
 [
   {
+    "date": "2026-08-13",
+    "zhTitle": "AI Daily 2026-08-13：从系统智能到随身线索",
+    "enTitle": "AI Daily 2026-08-13: From system intelligence to everyday clues",
+    "zhSummary": "Pixel 11 把 Gemini Intelligence、相机和系统状态推到默认入口；Pixel Watch 5 把健康趋势与生成式表盘放到腕上；Pixel Tag 则把寻找物品补进 Google 的设备图谱。今天的主线是：AI 设备开始互相接力，但每一层都需要可见的状态、边界和恢复路径。",
+    "enSummary": "Pixel 11 moves Gemini Intelligence, camera context, and system state into the default path; Pixel Watch 5 puts health trends and generative watch faces on the wrist; Pixel Tag fills a missing node in Google's device graph. Today's line is simple: AI devices are beginning to hand work to one another, and every layer needs visible state, boundaries, and recovery.",
+    "tags": [
+      "AI hardware",
+      "computer vision",
+      "smart spotting scope",
+      "on-device AI",
+      "crowdfunding",
+      "smart glasses",
+      "accessibility",
+      "privacy UX"
+    ],
+    "sourceTypes": [
+      "official",
+      "Google Store",
+      "hands-on review",
+      "Reddit",
+      "research",
+      "patent watch",
+      "China",
+      "global"
+    ],
+    "coverStory": {
+      "topicId": "google-pixel-11-gemini-intelligence",
+      "zhTitle": "Pixel 11 把 Gemini Intelligence 推进系统默认路径",
+      "enTitle": "Pixel 11 pushes Gemini Intelligence into the default system path",
+      "zhSummary": [
+        "Google 的最新手机更新把 Gemini、相机整理、跨 App actions、HiLight 和个人上下文放进同一个产品表面。",
+        "Pixel Watch 5 与 Pixel Tag 继续补齐腕上反馈和物品定位，形成一张正在互相接力的设备图谱。",
+        "今天要验证的关键不是“AI 有没有”，而是系统能否在每次接力前后显示状态、权限和恢复路径。"
+      ],
+      "enSummary": [
+        "Google’s new phone family puts Gemini, camera curation, cross-app actions, HiLight, and personal context into one product surface.",
+        "Pixel Watch 5 and Pixel Tag extend the graph with wrist feedback and object finding, creating a device network that can hand work across surfaces.",
+        "The question is not whether AI exists; it is whether the system shows state, permission, and recovery at every handoff."
+      ],
+      "imagePath": "assets/google-pixel-11-official-2026-08.png",
+      "imageWidth": 1600,
+      "imageHeight": 900,
+      "imageSourceUrl": "https://store.google.com/us/category/phones?hl=en-US",
+      "primarySourceUrl": "https://store.google.com/us/category/phones?hl=en-US",
+      "evidenceStrength": "confirmed product · official Store + hands-on review",
+      "whyCover": "It changes the default entry point from an app feature to a coordinated device-and-system surface."
+    },
+    "designDesk": {
+      "zhTitle": "设计台：让设备接力保持可见",
+      "enTitle": "Design Desk: keep the device handoff visible",
+      "zhItems": [
+        "入口：从当前屏幕、相机、手表或物品状态开始，而不是先找 App。",
+        "接力：每次跨 App 或跨设备转交都显示目标、来源和下一步。",
+        "反馈：HiLight、腕上短提示和近场测距各自承担不同注意力强度。",
+        "证据：长期健康趋势、物品位置和 AI 推断要区分已知、估计与未知。",
+        "恢复：高风险动作要能预览、确认、撤销，设备断线后保留传统路径。"
+      ],
+      "enItems": [
+        "Entry: start from current screen, camera, watch, or object state instead of choosing an app first.",
+        "Handoff: show the source, target, and next step whenever work crosses apps or devices.",
+        "Feedback: HiLight, wrist cues, and near-field ranging should carry different attention loads.",
+        "Evidence: distinguish long-term health trends, object locations, AI inferences, and unknowns.",
+        "Recovery: preview, confirm, undo, and preserve a conventional path when a device disconnects."
+      ]
+    },
+    "watchlistZh": [
+      "Pixel 11 Gemini Intelligence：实测跨 App action 的权限、确认、撤销和失败恢复。",
+      "Pixel Watch 5：健康趋势是否需要完整 30 天数据，哪些市场可用。",
+      "Pixel Tag：UWB / Bluetooth Channel Sounding 的室内精度、共享与隐私。",
+      "GoBirding Vision Master：8 月 20 日 Kickstarter 是否按时上线，最终价格、发货、退款和量产质量是否公开。",
+      "Made by Google：活动结束后再核对 Android XR 眼镜是否出现真实硬件、价格、地区、API 和安装路径；本期生成时仍是 event watch。",
+      "社区辅助功能：显示、音频、实时转写、翻译、相机隐私是否会被同一产品真正同时满足。",
+      "Loomos：8 月 18 日发布会与过往 Kickstarter 延迟之间的交付可信度。",
+      "研究/专利：端侧视觉、低功耗传感和旁观者隐私仍只作为方向雷达，不升级为已发布产品事实。"
+    ],
+    "watchlistEn": [
+      "Pixel 11 Gemini Intelligence: test cross-app permission, confirmation, undo, and failure recovery.",
+      "Pixel Watch 5: verify the 30-day trend requirement and market-level health access.",
+      "Pixel Tag: test indoor UWB / Bluetooth Channel Sounding accuracy, sharing, and privacy.",
+      "GoBirding Vision Master: whether the August 20 Kickstarter launch happens on time and publishes final price, shipping, refunds, and production evidence.",
+      "Made by Google: after the event, verify real Android XR hardware, price, regions, APIs, and install path; at issue generation it remains an event watch.",
+      "Accessibility demand: whether display, audio, live transcription, translation, and camera privacy can coexist in one shipped product.",
+      "Loomos: delivery credibility around the August 18 event versus the earlier Kickstarter delay history.",
+      "Research and patents: edge vision, low-power sensing, and bystander privacy remain directional radar, not shipped-product facts."
+    ],
+    "zhPath": "/ai-daily/2026-08-13/zh/",
+    "enPath": "/ai-daily/2026-08-13/en/",
+    "sourcesPath": "/ai-daily/2026-08-13/sources.md"
+  },
+  {
     "date": "2026-08-12",
     "zhTitle": "AI Daily 2026-08-12：把识别放进观察链路",
     "enTitle": "AI Daily 2026-08-12: Put Recognition Inside the Observation Loop",
