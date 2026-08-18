@@ -980,6 +980,23 @@ body:has(.deck-page) {
   margin: 0;
 }
 
+@media (min-width: 1200px) and (max-width: 1500px) {
+  html[lang="en"] .dossier-card p {
+    font-size: 7.25px;
+    line-height: 1.14;
+  }
+
+  .watch-slide .watch-grid div {
+    min-height: 90px;
+    padding: 10px;
+  }
+
+  .watch-slide .watch-grid p {
+    font-size: 12px;
+    line-height: 1.28;
+  }
+}
+
 .watch-grid p {
   color: #332e2a;
   font-size: clamp(15px, 1.12vw, 19px);
