@@ -1,5 +1,139 @@
 [
   {
+    "date": "2026-08-20",
+    "zhTitle": "AI Daily 2026-08-20：视点正在离开眼镜，进入可移动的耳罩与相机",
+    "enTitle": "AI Daily 2026-08-20: The point of view is leaving glasses for movable cameras and earcups",
+    "zhSummary": "Razer Project Motoko 把双第一视角相机、Snapdragon、远近场麦克风和多模型兼容放进耳罩；GO Ultra 继续证明可移动相机如何承担视觉问答。今天的核心验收是：设备换了佩戴位置，视点、录制提示、权限、模型路由和失败恢复是否仍然可见。",
+    "enSummary": "Razer Project Motoko puts dual first-person cameras, Snapdragon, far/near-field microphones, and multi-model compatibility into an over-ear headset; GO Ultra continues to show how a movable camera can carry visual questions. Today’s acceptance test is whether viewpoint, capture cues, permissions, model routing, and failure recovery remain legible when the sensor changes where it is worn.",
+    "tags": [
+      "AI hardware",
+      "computer vision",
+      "smart spotting scope",
+      "on-device AI",
+      "crowdfunding",
+      "smart glasses",
+      "accessibility",
+      "privacy UX"
+    ],
+    "sourceTypes": [
+      "official",
+      "Google Store",
+      "hands-on review",
+      "community",
+      "wild",
+      "research",
+      "patent watch",
+      "China",
+      "global",
+      "weak/unverified",
+      "developer surface",
+      "startup signal"
+    ],
+    "coverStory": {
+      "topicId": "razer-project-motoko-ai-native-headset",
+      "zhTitle": "Motoko：当第一视角相机离开眼镜，耳罩能否成为新的 AI 入口？",
+      "enTitle": "Motoko: can an earcup become the next AI entry point when first-person cameras leave glasses?",
+      "zhSummary": [
+        "Razer 把双第一视角相机、立体视觉、远近场麦克风与 Snapdragon 放进耳罩，官方产品页已开放 Q2 2026 developer kit 登记。",
+        "它把眼镜的视点优势带进耳机，却让旁观者更难判断设备何时在看、录和上传。",
+        "今天的验收点不是模型兼容数量，而是录制可见性、视点对齐、权限边界、环境声音与断网恢复。"
+      ],
+      "enSummary": [
+        "Razer puts dual first-person cameras, stereoscopic vision, far/near-field microphones, and Snapdragon into an earcup headset, with a Q2 2026 developer-kit signup on the official page.",
+        "It imports the glasses viewpoint into headphones while making it harder for bystanders to know when the device is seeing, recording, or uploading.",
+        "The acceptance test is not the model-compatibility list; it is capture visibility, viewpoint alignment, permissions, ambient sound, and offline recovery."
+      ],
+      "imagePath": "assets/razer-project-motoko-official-2026-08.png",
+      "imageWidth": 1600,
+      "imageHeight": 1000,
+      "imageSourceUrl": "https://www.razer.com/concepts/project-motoko",
+      "primarySourceUrl": "https://www.razer.com/concepts/project-motoko",
+      "evidenceStrength": "developer surface · official concept/product page · startup signal",
+      "whyCover": "It is the clearest current product signal that the wearable-AI race is moving the camera, not only the model, into a new body position."
+    },
+    "designDesk": {
+      "zhTitle": "设计台：让观察链路可以移动，也可以停下来",
+      "enTitle": "Design Desk: make the observation loop movable and stoppable",
+      "zhIntro": "把相机、网络、动作、反馈和恢复当成一条可观察的产品链路。",
+      "enIntro": "Treat camera, network, action, feedback, and recovery as one observable product loop.",
+      "zhItems": [
+        {
+          "label": "视点",
+          "body": "相机可以夹在衣物、手持或转交，系统要显示当前谁在看、谁在说。"
+        },
+        {
+          "label": "网络",
+          "body": "端侧与云端不是后台实现差异，而是速度、隐私和能力的用户选择。"
+        },
+        {
+          "label": "动作",
+          "body": "自然拿起商品比对准条码更接近真实流程，识别必须容忍移动和遮挡。"
+        },
+        {
+          "label": "反馈",
+          "body": "翻译、视觉问答、健康趋势和近场定位要区分实时结果、长期推断与历史位置。"
+        },
+        {
+          "label": "恢复",
+          "body": "无网、错听、错认和设备交接时，用户要能回到拍摄、人工搜索或手机路径。"
+        }
+      ],
+      "enItems": [
+        {
+          "label": "Viewpoint",
+          "body": "The camera may be clipped, handheld, or handed over; the system should show who is looking and speaking."
+        },
+        {
+          "label": "Network",
+          "body": "Edge versus cloud is a user-facing choice about speed, privacy, and capability, not just an implementation detail."
+        },
+        {
+          "label": "Action",
+          "body": "Naturally picking up an item is closer to real behavior than aiming at a barcode; recognition must tolerate motion and occlusion."
+        },
+        {
+          "label": "Feedback",
+          "body": "Translation, visual questions, health trends, and near-field finding should separate live results, longitudinal inference, and historical location."
+        },
+        {
+          "label": "Recovery",
+          "body": "When offline, misunderstood, misrecognized, or handed over, the user needs a camera, manual-search, or phone fallback."
+        }
+      ]
+    },
+    "watchlistZh": [
+      "Razer Project Motoko：Q2 developer kit 的真实开放范围、相机录制提示、模型路由、价格与量产时间。",
+      "GO Ultra：AI Voice Assistant 的地区/语言 rollout、端云选择和真实响应延迟。",
+      "摄像头 AirPods 弱信号：是否出现 Apple 官方公告、录制指示、权限与删除路径。",
+      "SLT 2026 SmartGlasses Challenge：多说话人基准是否进入真实眼镜 SDK 与产品测试。",
+      "r/SmartGlasses checkout demo：自然视觉识别能否在移动、遮挡和隐私要求下稳定工作。",
+      "Pixel 11 Gemini Intelligence：实测跨 App action 的权限、确认、撤销和失败恢复。",
+      "Pixel Watch 5：健康趋势是否需要完整 30 天数据，哪些市场可用。",
+      "Pixel Tag：UWB / Bluetooth Channel Sounding 的室内精度、共享与隐私。",
+      "GoBirding Vision Master：8 月 20 日 Kickstarter 是否按时上线，最终价格、发货、退款和量产质量是否公开。",
+      "Made by Google：活动结束后再核对 Android XR 眼镜是否出现真实硬件、价格、地区、API 和安装路径；本期生成时仍是 event watch。",
+      "社区辅助功能：显示、音频、实时转写、翻译、相机隐私是否会被同一产品真正同时满足。",
+      "研究/专利：端侧视觉、低功耗传感和旁观者隐私仍只作为方向雷达，不升级为已发布产品事实。"
+    ],
+    "watchlistEn": [
+      "Razer Project Motoko: real Q2 developer-kit access, capture indicators, model routing, pricing, and production timing.",
+      "GO Ultra: region/language rollout, edge-cloud choice, and real response latency for AI Voice Assistant.",
+      "Camera-equipped AirPods weak signal: whether Apple publishes an official announcement, recording cue, permissions, and deletion path.",
+      "SLT 2026 SmartGlasses Challenge: whether multi-speaker benchmarks enter real glasses SDKs and product tests.",
+      "r/SmartGlasses checkout demo: whether natural vision survives motion, occlusion, and privacy requirements.",
+      "Pixel 11 Gemini Intelligence: test cross-app permission, confirmation, undo, and failure recovery.",
+      "Pixel Watch 5: verify the 30-day trend requirement and market-level health access.",
+      "Pixel Tag: test indoor UWB / Bluetooth Channel Sounding accuracy, sharing, and privacy.",
+      "GoBirding Vision Master: whether the August 20 Kickstarter launch happens on time and publishes final price, shipping, refunds, and production evidence.",
+      "Made by Google: after the event, verify real Android XR hardware, price, regions, APIs, and install path; at issue generation it remains an event watch.",
+      "Accessibility demand: whether display, audio, live transcription, translation, and camera privacy can coexist in one shipped product.",
+      "Research and patents: edge vision, low-power sensing, and bystander privacy remain directional radar, not shipped-product facts."
+    ],
+    "zhPath": "/ai-daily/2026-08-20/zh/",
+    "enPath": "/ai-daily/2026-08-20/en/",
+    "sourcesPath": "/ai-daily/2026-08-20/sources.md"
+  },
+  {
     "date": "2026-08-19",
     "zhTitle": "AI Daily 2026-08-19：让观察链路在移动中保持可见",
     "enTitle": "AI Daily 2026-08-19: Keep the observation loop visible while it moves",
