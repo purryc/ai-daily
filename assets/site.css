@@ -995,6 +995,20 @@ body:has(.deck-page) {
     font-size: 12px;
     line-height: 1.28;
   }
+
+  .watch-slide .watch-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  .source-slide .source-grid {
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+  }
+
+  .source-slide .source-grid strong {
+    font-size: 6.8px;
+    line-height: 0.88;
+  }
 }
 
 .watch-grid p {

@@ -1,5 +1,144 @@
 [
   {
+    "date": "2026-08-21",
+    "zhTitle": "AI Daily 2026-08-21：手机开始移动它的相机，具身 AI 进入拍摄链路",
+    "enTitle": "AI Daily 2026-08-21: The phone starts moving its camera, and embodied AI enters the capture loop",
+    "zhSummary": "HONOR Robot Phone 已在中国进入销售窗口：4-DoF 机械云台、200MP 主摄、YOYO Robot Mode 与 ARRI Image Science 把手机变成可移动的拍摄节点；上手评测证明机械结构可工作，也暴露低光、竖拍和 AI 价值的边界。今天的主线是：当 AI 从屏幕建议走向物理动作，用户能否看见动作意图、控制权、失败回退和耐久成本。",
+    "enSummary": "HONOR Robot Phone has entered a China sales window with a 4-DoF mechanical gimbal, a 200MP main camera, YOYO Robot Mode, and ARRI Image Science, turning the phone into a movable capture node. Hands-on reviews suggest the mechanism works while exposing low-light, vertical-video, and AI-value limits. Today’s test is whether users can see intent, control, recovery, and durability costs when AI moves from screen suggestions into physical motion.",
+    "tags": [
+      "AI hardware",
+      "computer vision",
+      "smart spotting scope",
+      "on-device AI",
+      "crowdfunding",
+      "smart glasses",
+      "accessibility",
+      "privacy UX"
+    ],
+    "sourceTypes": [
+      "official",
+      "Google Store",
+      "hands-on review",
+      "community",
+      "wild",
+      "research",
+      "patent watch",
+      "China",
+      "global",
+      "weak/unverified",
+      "developer surface",
+      "startup signal",
+      "confirmed product",
+      "review/community friction",
+      "china"
+    ],
+    "coverStory": {
+      "topicId": "honor-robot-phone-4dof-gimbal",
+      "zhTitle": "HONOR Robot Phone：当 AI 开始移动相机，手机还是手机吗？",
+      "enTitle": "HONOR Robot Phone: when AI moves the camera, is the phone still a phone?",
+      "zhSummary": [
+        "HONOR Robot Phone 把 4-DoF Titanium Agile Gimbal、YOYO Robot Mode 与 ARRI Image Science 集成进手机，并已在中国进入销售。",
+        "多家独立上手确认云台确实能转动、跟踪和稳定拍摄，同时指出低光、竖拍、AI 价值与长期耐久仍有边界。",
+        "今天的验收点是物理意图、目标锁定、人工接管、停止入口和失败回退，而不是机械动作看起来有多像机器人。"
+      ],
+      "enSummary": [
+        "HONOR integrates a 4-DoF Titanium Agile Gimbal, YOYO Robot Mode, and ARRI Image Science into a phone already on sale in China.",
+        "Independent hands-ons confirm that the gimbal can move, track, and stabilize footage while exposing low-light, vertical-video, AI-value, and durability limits.",
+        "The acceptance test is physical intent, target lock, manual takeover, stop control, and recovery—not how robotic the motion looks."
+      ],
+      "imagePath": "assets/honor-robot-phone-official-2026-08.png",
+      "imageWidth": 1600,
+      "imageHeight": 1000,
+      "imageSourceUrl": "https://www.honor.com/global/phones/honor-robot-phone/",
+      "primarySourceUrl": "https://www.honor.com/global/phones/honor-robot-phone/",
+      "evidenceStrength": "confirmed product · official launch · independent hands-on · China availability",
+      "whyCover": "It is a shipped product that makes physical camera motion part of the phone’s user interface, with both strong hands-on evidence and clear failure costs."
+    },
+    "designDesk": {
+      "zhTitle": "设计台：让物理动作也能被看懂、接管和停止",
+      "enTitle": "Design Desk: make physical action legible, interruptible, and recoverable",
+      "zhIntro": "当设备开始移动镜头、追踪主体或切换传感器时，把意图、权限、目标和回退都放进可见的交互链路。",
+      "enIntro": "When a device moves a camera, tracks a subject, or changes sensors, keep intent, permission, target, and recovery visible in the interaction loop.",
+      "zhItems": [
+        {
+          "label": "视点",
+          "body": "相机可以夹在衣物、手持或转交，系统要显示当前谁在看、谁在说。"
+        },
+        {
+          "label": "网络",
+          "body": "端侧与云端不是后台实现差异，而是速度、隐私和能力的用户选择。"
+        },
+        {
+          "label": "动作",
+          "body": "自然拿起商品比对准条码更接近真实流程，识别必须容忍移动和遮挡。"
+        },
+        {
+          "label": "反馈",
+          "body": "翻译、视觉问答、健康趋势和近场定位要区分实时结果、长期推断与历史位置。"
+        },
+        {
+          "label": "恢复",
+          "body": "无网、错听、错认和设备交接时，用户要能回到拍摄、人工搜索或手机路径。"
+        }
+      ],
+      "enItems": [
+        {
+          "label": "Viewpoint",
+          "body": "The camera may be clipped, handheld, or handed over; the system should show who is looking and speaking."
+        },
+        {
+          "label": "Network",
+          "body": "Edge versus cloud is a user-facing choice about speed, privacy, and capability, not just an implementation detail."
+        },
+        {
+          "label": "Action",
+          "body": "Naturally picking up an item is closer to real behavior than aiming at a barcode; recognition must tolerate motion and occlusion."
+        },
+        {
+          "label": "Feedback",
+          "body": "Translation, visual questions, health trends, and near-field finding should separate live results, longitudinal inference, and historical location."
+        },
+        {
+          "label": "Recovery",
+          "body": "When offline, misunderstood, misrecognized, or handed over, the user needs a camera, manual-search, or phone fallback."
+        }
+      ]
+    },
+    "watchlistZh": [
+      "HONOR Robot Phone：第三方 Camera2/CameraX 接入、海外服务、云台耐久、误跟踪回退与真实续航。",
+      "Razer Project Motoko：Q2 developer kit 的开放范围、录制提示、模型路由、价格与量产时间。",
+      "摄像头 AirPods 弱信号：是否出现 Apple 官方公告、录制指示、权限与删除路径。",
+      "GO Ultra：AI Voice Assistant 的地区/语言 rollout、端云选择和真实响应延迟。",
+      "SLT 2026 SmartGlasses Challenge：多说话人基准是否进入真实眼镜 SDK 与产品测试。",
+      "r/SmartGlasses checkout demo：自然视觉识别能否在移动、遮挡和隐私要求下稳定工作。",
+      "Pixel 11 Gemini Intelligence：实测跨 App action 的权限、确认、撤销和失败恢复。",
+      "Pixel Watch 5：健康趋势是否需要完整 30 天数据，哪些市场可用。",
+      "Pixel Tag：UWB / Bluetooth Channel Sounding 的室内精度、共享与隐私。",
+      "GoBirding Vision Master：8 月 20 日 Kickstarter 是否按时上线，最终价格、发货、退款和量产质量是否公开。",
+      "Made by Google：活动结束后再核对 Android XR 眼镜是否出现真实硬件、价格、地区、API 和安装路径；本期生成时仍是 event watch。",
+      "社区辅助功能：显示、音频、实时转写、翻译、相机隐私是否会被同一产品真正同时满足。",
+      "研究/专利：端侧视觉、低功耗传感和旁观者隐私仍只作为方向雷达，不升级为已发布产品事实。"
+    ],
+    "watchlistEn": [
+      "HONOR Robot Phone: third-party Camera2/CameraX access, overseas services, gimbal durability, wrong-target recovery, and real runtime.",
+      "Razer Project Motoko: real Q2 developer-kit access, capture indicators, model routing, pricing, and production timing.",
+      "Camera-equipped AirPods weak signal: whether Apple publishes an official announcement, recording cue, permissions, and deletion path.",
+      "GO Ultra: region/language rollout, edge-cloud choice, and real response latency for AI Voice Assistant.",
+      "SLT 2026 SmartGlasses Challenge: whether multi-speaker benchmarks enter real glasses SDKs and product tests.",
+      "r/SmartGlasses checkout demo: whether natural vision survives motion, occlusion, and privacy requirements.",
+      "Pixel 11 Gemini Intelligence: test cross-app permission, confirmation, undo, and failure recovery.",
+      "Pixel Watch 5: verify the 30-day trend requirement and market-level health access.",
+      "Pixel Tag: test indoor UWB / Bluetooth Channel Sounding accuracy, sharing, and privacy.",
+      "GoBirding Vision Master: whether the August 20 Kickstarter launch happens on time and publishes final price, shipping, refunds, and production evidence.",
+      "Made by Google: after the event, verify real Android XR hardware, price, regions, APIs, and install path; at issue generation it remains an event watch.",
+      "Accessibility demand: whether display, audio, live transcription, translation, and camera privacy can coexist in one shipped product.",
+      "Research and patents: edge vision, low-power sensing, and bystander privacy remain directional radar, not shipped-product facts."
+    ],
+    "zhPath": "/ai-daily/2026-08-21/zh/",
+    "enPath": "/ai-daily/2026-08-21/en/",
+    "sourcesPath": "/ai-daily/2026-08-21/sources.md"
+  },
+  {
     "date": "2026-08-20",
     "zhTitle": "AI Daily 2026-08-20：视点正在离开眼镜，进入可移动的耳罩与相机",
     "enTitle": "AI Daily 2026-08-20: The point of view is leaving glasses for movable cameras and earcups",
