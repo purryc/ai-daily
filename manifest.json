@@ -1,5 +1,168 @@
 [
   {
+    "date": "2026-08-24",
+    "zhTitle": "AI Daily 2026-08-24：Agentic AI 开始按观察链路重做计算栈",
+    "enTitle": "AI Daily 2026-08-24: Agentic AI starts rebuilding the compute stack around observation loops",
+    "zhSummary": "今日最强的产品硬件信号来自 Intel Hot Chips 2026：Diamond Rapids、Crescent Island、Wildcat Lake 把 agentic AI 从机架推向数据中心推理、客户端和边缘设备。与此同时，雷鸟 iO 用无摄像头显示做日常佩戴，Razer Motoko 把双目视觉放入耳罩，Orbbec 与 51WORLD 把第一视角采集、同步、质检和训练数据做成具身基础设施。今天的产品问题因此变得具体：哪个设备负责观察，哪个芯片负责推理，用户何时能看到系统正在看，数据如何进入下一步动作。",
+    "enSummary": "Today’s strongest hardware signal comes from Intel at Hot Chips 2026: Diamond Rapids, Crescent Island, and Wildcat Lake map agentic AI from the rack to datacenter inference, clients, and edge devices. At the same time, RayNeo iO makes a camera-free display wearable, Razer Motoko puts stereo vision in an earcup, and Orbbec plus 51WORLD package first-person capture, synchronization, QA, and training data as embodied-AI infrastructure. The product question becomes concrete: which device observes, which silicon infers, when can users see that the system is looking, and how does evidence become the next action?",
+    "tags": [
+      "AI hardware",
+      "computer vision",
+      "smart spotting scope",
+      "on-device AI",
+      "crowdfunding",
+      "smart glasses",
+      "accessibility",
+      "privacy UX"
+    ],
+    "sourceTypes": [
+      "official",
+      "Google Store",
+      "hands-on review",
+      "community",
+      "wild",
+      "research",
+      "patent watch",
+      "China",
+      "global",
+      "weak/unverified",
+      "developer surface",
+      "startup signal",
+      "confirmed product",
+      "review/community friction",
+      "china",
+      "research signal",
+      "patent signal"
+    ],
+    "coverStory": {
+      "topicId": "intel-agentic-ai-hot-chips-architectures",
+      "zhTitle": "Intel：Agentic AI 开始按观察链路重做计算栈",
+      "enTitle": "Intel: Agentic AI starts rebuilding the compute stack around observation loops",
+      "zhSummary": [
+        "Intel 在 2026-08-24 公布 Diamond Rapids、Crescent Island 与 Wildcat Lake，把 Agentic AI 从机架延伸到推理卡、客户端与边缘。",
+        "同一条产品链上，雷鸟 iO 用无摄像头显示做日常佩戴，Razer 把双目视觉放进耳罩，Orbbec 与 51WORLD 把观察数据做成具身基础设施。",
+        "下一代 AI 产品的关键不只是哪颗芯片更快，而是设备观察什么、数据在哪里处理、用户如何看见并停止这条链路。"
+      ],
+      "enSummary": [
+        "On August 24, Intel disclosed Diamond Rapids, Crescent Island, and Wildcat Lake, extending Agentic AI from racks to inference cards, clients, and the edge.",
+        "Along the same product chain, RayNeo iO uses a camera-free display for daily wear, Razer puts stereo vision in an earcup, and Orbbec plus 51WORLD package observation data as embodied-AI infrastructure.",
+        "The next product question is not only which chip is faster, but what a device observes, where the data is processed, and how users can see and stop the loop."
+      ],
+      "imagePath": "assets/intel-agentic-ai-hot-chips-2026-08.png",
+      "imageWidth": 1600,
+      "imageHeight": 900,
+      "imageSourceUrl": "https://newsroom.intel.com/client-computing/intel-outlines-architectures-for-agentic-ai-at-hot-chips-2026",
+      "primarySourceUrl": "https://newsroom.intel.com/client-computing/intel-outlines-architectures-for-agentic-ai-at-hot-chips-2026",
+      "evidenceStrength": "confirmed architecture · official product-family disclosure · terminal availability not stated",
+      "whyCover": "It is today’s official hardware disclosure that makes the observation loop a full-stack question, from rack orchestration and inference economics to client and edge response."
+    },
+    "designDesk": {
+      "zhTitle": "设计台：先让观察链路可见，再让 AI 主动行动",
+      "enTitle": "Design Desk: make the observation loop legible before making AI proactive",
+      "zhIntro": "从机架编排、推理卡到无摄像头眼镜、双目耳罩和具身采集平台，今天的产品都在重新定义“设备在哪里观察、在哪里计算”。",
+      "enIntro": "From rack orchestration and inference cards to camera-free glasses, stereo headsets, and embodied capture platforms, today’s products redefine where a device observes and computes.",
+      "zhItems": [
+        {
+          "label": "计算层",
+          "body": "把机架、推理 GPU、客户端 NPU 与边缘设备的任务边界和降级路径画出来。"
+        },
+        {
+          "label": "输入层",
+          "body": "区分用户主动提问、设备主动提示、传感器持续监听和开发者采集模式。"
+        },
+        {
+          "label": "观察层",
+          "body": "把当前摄像头/麦克风/IMU 是否工作、是否上传、由哪个模型处理做成可见状态。"
+        },
+        {
+          "label": "动作层",
+          "body": "所有物理或数据动作都提供开始前意图、进行中反馈、停止入口和失败回退。"
+        },
+        {
+          "label": "记忆层",
+          "body": "记录、摘要、关系推断与 highlight 保存必须可查看、暂停、导出、删除。"
+        },
+        {
+          "label": "现场层",
+          "body": "具身采集设备把丢帧、标定、曝光、姿态完整性前移到采集者能理解的 PASS/WARN/FAIL。"
+        },
+        {
+          "label": "证据层",
+          "body": "把 confirmed product、developer surface、review/community friction、research/patent signal 分开展示。"
+        }
+      ],
+      "enItems": [
+        {
+          "label": "Compute layer",
+          "body": "map task boundaries and fallback paths across rack, inference GPU, client NPU, and edge device."
+        },
+        {
+          "label": "Input layer",
+          "body": "distinguish a user question, proactive prompting, continuous sensing, and developer-capture mode."
+        },
+        {
+          "label": "Observation layer",
+          "body": "expose whether camera, microphone, or IMU is active, whether data leaves the device, and which model processes it."
+        },
+        {
+          "label": "Action layer",
+          "body": "every physical or data action needs pre-action intent, in-action feedback, a stop path, and failure recovery."
+        },
+        {
+          "label": "Memory layer",
+          "body": "recordings, summaries, relationship inferences, and highlights need inspect, pause, export, and delete controls."
+        },
+        {
+          "label": "Field layer",
+          "body": "embodied capture systems should move dropped frames, calibration, exposure, and action completeness into operator-readable PASS/WARN/FAIL."
+        },
+        {
+          "label": "Evidence layer",
+          "body": "keep confirmed product, developer surface, review/community friction, and research/patent signal visibly separate."
+        }
+      ]
+    },
+    "watchlistZh": [
+      "Intel Agentic AI 架构：Wildcat Lake 终端、OEM 设备、开发者工具、端云路由可见性与实际功耗。",
+      "雷鸟 iO：全球发货、真实续航、记忆删除、翻译延迟、订阅与第三方开发者开放程度。",
+      "Razer Project Motoko：Developer Kit 交付、价格、相机隐私灯、模型/数据路径和耳罩长时佩戴。",
+      "Orbbec 与 51WORLD：具体 SKU、数据 schema、ROS/Isaac/SDK、现场质检准确性和跨本体迁移。",
+      "Meta 主动记忆专利：只等待官方产品页、权限/删除路径和实际测试，不把 patent signal 当功能。",
+      "HONOR Robot Phone：第三方 Camera2/CameraX 接入、海外服务、云台耐久、误跟踪回退与真实续航。",
+      "摄像头 AirPods 弱信号：是否出现 Apple 官方公告、录制指示、权限与删除路径。",
+      "GO Ultra：AI Voice Assistant 的地区/语言 rollout、端云选择和真实响应延迟。",
+      "SLT 2026 SmartGlasses Challenge：多说话人基准是否进入真实眼镜 SDK 与产品测试。",
+      "r/SmartGlasses checkout demo：自然视觉识别能否在移动、遮挡和隐私要求下稳定工作。",
+      "Pixel 11 Gemini Intelligence：实测跨 App action 的权限、确认、撤销和失败恢复。",
+      "Pixel Watch 5：健康趋势是否需要完整 30 天数据，哪些市场可用。",
+      "Pixel Tag：UWB / Bluetooth Channel Sounding 的室内精度、共享与隐私。",
+      "GoBirding Vision Master：8 月 20 日 Kickstarter 是否按时上线，最终价格、发货、退款和量产质量是否公开。",
+      "Made by Google：活动结束后再核对 Android XR 眼镜是否出现真实硬件、价格、地区、API 和安装路径；本期生成时仍是 event watch。",
+      "社区辅助功能：显示、音频、实时转写、翻译、相机隐私是否会被同一产品真正同时满足。"
+    ],
+    "watchlistEn": [
+      "Intel Agentic AI architectures: Wildcat Lake terminals, OEM devices, developer tools, routing visibility, and real power behavior.",
+      "RayNeo iO: global shipping, real runtime, memory deletion, translation latency, subscription, and developer openness.",
+      "Razer Project Motoko: Developer Kit delivery, price, camera privacy cues, model/data path, and long-wear comfort.",
+      "Orbbec and 51WORLD: final SKUs, data schema, ROS/Isaac/SDK access, field-QA accuracy, and embodiment transfer.",
+      "Meta proactive-memory patent: wait for an official product surface, permission/deletion path, and real testing; do not treat patent signal as a feature.",
+      "HONOR Robot Phone: third-party Camera2/CameraX access, overseas services, gimbal durability, wrong-target recovery, and real runtime.",
+      "Camera-equipped AirPods weak signal: whether Apple publishes an official announcement, recording cue, permissions, and deletion path.",
+      "GO Ultra: region/language rollout, edge-cloud choice, and real response latency for AI Voice Assistant.",
+      "SLT 2026 SmartGlasses Challenge: whether multi-speaker benchmarks enter real glasses SDKs and product tests.",
+      "r/SmartGlasses checkout demo: whether natural vision survives motion, occlusion, and privacy requirements.",
+      "Pixel 11 Gemini Intelligence: test cross-app permission, confirmation, undo, and failure recovery.",
+      "Pixel Watch 5: verify the 30-day trend requirement and market-level health access.",
+      "Pixel Tag: test indoor UWB / Bluetooth Channel Sounding accuracy, sharing, and privacy.",
+      "GoBirding Vision Master: whether the August 20 Kickstarter launch happens on time and publishes final price, shipping, refunds, and production evidence.",
+      "Made by Google: after the event, verify real Android XR hardware, price, regions, APIs, and install path; at issue generation it remains an event watch.",
+      "Accessibility demand: whether display, audio, live transcription, translation, and camera privacy can coexist in one shipped product."
+    ],
+    "zhPath": "/ai-daily/2026-08-24/zh/",
+    "enPath": "/ai-daily/2026-08-24/en/",
+    "sourcesPath": "/ai-daily/2026-08-24/sources.md"
+  },
+  {
     "date": "2026-08-23",
     "zhTitle": "AI Daily 2026-08-23：眼镜、耳罩与机器人开始共享一条观察链路",
     "enTitle": "AI Daily 2026-08-23: glasses, headsets, and robots share one observation loop",
