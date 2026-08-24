@@ -981,6 +981,25 @@ body:has(.deck-page) {
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
+  .section-slide {
+    gap: 12px;
+  }
+
+  .section-slide .section-topic-list {
+    gap: 5px;
+  }
+
+  .section-slide .section-topic-list div {
+    min-height: 78px;
+    padding: 8px;
+    gap: 4px;
+  }
+
+  .section-slide .section-topic-list strong {
+    font-size: clamp(13px, 0.95vw, 15px);
+    line-height: 1.02;
+  }
+
   html[lang="en"] .dossier-card p {
     font-size: 7.25px;
     line-height: 1.14;
@@ -1008,6 +1027,25 @@ body:has(.deck-page) {
   .source-slide .source-grid strong {
     font-size: 6.8px;
     line-height: 0.88;
+  }
+}
+
+@media (min-width: 1501px) and (max-width: 2200px) {
+  .watch-slide .watch-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .watch-slide .watch-grid div {
+    min-height: 86px;
+    padding: 10px;
+    gap: 5px;
+  }
+
+  .watch-slide .watch-grid p {
+    font-size: 13px;
+    line-height: 1.3;
+    margin-bottom: 0;
   }
 }
 
