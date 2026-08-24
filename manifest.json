@@ -1,10 +1,10 @@
 [
   {
     "date": "2026-08-23",
-    "zhTitle": "AI Daily 2026-08-23：眼前的 HUD 开始替用户整理一天，物理 AI 进入数据基础设施",
-    "enTitle": "AI Daily 2026-08-23: HUDs organize the day while physical AI builds its data layer",
-    "zhSummary": "RayNeo iO 把 33g 无扬声器 HUD、四麦克风、旋钮与头部手势组合成一个面向日常信息的可穿戴入口；官方仍标记 coming soon，9 月 4 日发售与价格来自媒体和 beta 信号，不能写成已交付。另一端，Orbbec 在 WRC 2026 展示 Robot-Free Data Collection Platform 与 Physis 机器人视觉相机，把第一视角、手部、腕部和中心连接拆成可校准的数据采集矩阵；Google Developer Device Platform 则把真实 Android 设备、模拟器、Device Streaming API 与 agent skill 变成开发者产品。今天的主线是：AI 入口越靠近身体与真实设备，用户控制、隐私可见性、同步质量和验证闭环越需要成为产品表面。",
-    "enSummary": "RayNeo iO combines a 33g speakerless HUD, four microphones, a crown dial, and head gestures into a daily information surface; the official page still says coming soon, so September 4 availability and pricing remain bounded by media and beta signals rather than delivered-product proof. At the other end, Orbbec’s WRC 2026 launch shows a Robot-Free Data Collection Platform and Physis robotics cameras that split first-person, hand, wrist, and hub viewpoints into a calibrated data matrix. Google’s Developer Device Platform turns real Android devices, emulators, Device Streaming API, and an agent skill into a developer product. Today’s test is how control, privacy visibility, synchronization, and verification become product surfaces as AI moves closer to bodies and real hardware.",
+    "zhTitle": "AI Daily 2026-08-23：眼镜、耳罩与机器人开始共享一条观察链路",
+    "enTitle": "AI Daily 2026-08-23: glasses, headsets, and robots share one observation loop",
+    "zhSummary": "本周最实在的产品变化发生在观察链路：雷鸟 iO 用无摄像头双目显示和记忆把 AI 眼镜推向日常佩戴；Razer Motoko 让耳罩承担双目视觉与 developer kit 入口；Orbbec、51WORLD 则把第一视角采集、同步、质检与训练数据做成具身基础设施。AI 产品的竞争点正在从“模型能回答什么”移动到“设备看见什么、用户能否知道它正在看、数据如何进入下一步动作”。",
+    "enSummary": "The most concrete product movement this week is in the observation loop. RayNeo iO uses camera-free binocular display and memory to make AI eyewear more daily-wearable; Razer Motoko turns an earcup headset into a dual-camera developer surface; Orbbec and 51WORLD package first-person capture, synchronization, quality control, and training data as embodied-AI infrastructure. The product contest is moving from what a model can answer to what a device can see, whether people can tell it is seeing, and how evidence becomes the next action.",
     "tags": [
       "AI hardware",
       "computer vision",
@@ -30,86 +30,60 @@
       "startup signal",
       "confirmed product",
       "review/community friction",
-      "china"
+      "china",
+      "research signal",
+      "patent signal"
     ],
     "coverStory": {
-      "topicId": "rayneo-io-speakerless-hud",
-      "zhTitle": "RayNeo iO：当 AI 把一天压缩成抬眼可见的状态，眼镜还是眼镜吗？",
-      "enTitle": "RayNeo iO: when AI compresses the day into a glance, is it still eyewear?",
+      "topicId": "rayneo-io-camera-free-ai-glasses",
+      "zhTitle": "雷鸟 iO：AI 眼镜的下一步，可能先是去掉摄像头",
+      "enTitle": "RayNeo iO: the next AI-glasses move may be removing the camera",
       "zhSummary": [
-        "RayNeo iO 把 33g 透明 HUD、四麦克风、Smart Crown、头部手势和硬连线状态灯组合成日常信息入口，官方仍标记 coming soon。",
-        "媒体与 beta 社区把它读作无摄像头、无扬声器的视觉优先产品：减少手机掏取与外放干扰，同时增加视觉疲劳、手机依赖和订阅边界。",
-        "今天的验收点是通知/转写/记忆的状态区分、点头确认、录制可见性和断连回退，而不是 HUD 看起来有多像未来。"
+        "雷鸟 iO 以 34g、双目显示、全天智记、实时翻译和无摄像头边界进入中国销售。",
+        "同一周，Razer 把双摄像头放进耳罩，Orbbec 与 51WORLD 则把第一视角采集、同步和数据质检做成具身基础设施。",
+        "产品差异越来越取决于观察链路是否可见：谁在看、何时录、数据去哪、用户能否停下。"
       ],
       "enSummary": [
-        "RayNeo iO combines a 33g transparent HUD, four microphones, a Smart Crown, head gestures, and a hardwired status light for daily information; the official page still says coming soon.",
-        "Media and beta-community signals describe a camera-less, speakerless, visual-first product that reduces phone reaches and sound leakage while adding visual fatigue, phone dependence, and subscription questions.",
-        "The acceptance test is state separation, nod confirmation, capture visibility, and disconnect recovery—not how futuristic the HUD looks."
+        "RayNeo iO enters China sales with a 34-gram frame, binocular display, all-day memory, live translation, and a camera-free boundary.",
+        "In the same week, Razer puts stereo cameras in an earcup while Orbbec and 51WORLD package first-person capture, synchronization, and data QA for embodied systems.",
+        "The product difference is increasingly whether the observation loop is legible: who is seeing, when it records, where data goes, and how the user stops it."
       ],
       "imagePath": "assets/rayneo-io-official-2026-08.png",
       "imageWidth": 1600,
-      "imageHeight": 5398,
-      "imageSourceUrl": "https://www.rayneo.com/pages/rayneo-io-ai-glasses",
-      "primarySourceUrl": "https://www.rayneo.com/pages/rayneo-io-ai-glasses",
-      "evidenceStrength": "confirmed product · official product page · independent product coverage · beta signal",
-      "whyCover": "It is a concrete near-term product that makes the HUD, the microphone, the confirmation gesture, and the capture light part of one daily control surface, while its coming-soon status keeps the evidence boundary visible."
+      "imageHeight": 900,
+      "imageSourceUrl": "https://rayneo.cn/",
+      "primarySourceUrl": "https://rayneo.cn/",
+      "evidenceStrength": "confirmed product · China availability · official support surface · community friction",
+      "whyCover": "It is an on-sale China product that makes a deliberate camera-free tradeoff while the surrounding ecosystem moves toward more sensors and more autonomous memory."
     },
     "designDesk": {
-      "zhTitle": "设计台：让状态、数据和设备接管都能被审计",
-      "enTitle": "Design Desk: make state, data, and hardware takeover auditable",
-      "zhIntro": "当 AI 进入 HUD、真实设备和物理数据管道时，把状态、权限、时间戳、回放和回退放进可见的交互链路。",
-      "enIntro": "When AI enters HUDs, real devices, and physical-data pipelines, keep state, permission, timestamps, replay, and recovery visible in the interaction loop.",
+      "zhTitle": "设计台：先让观察链路可见，再让 AI 主动行动",
+      "enTitle": "Design Desk: make the observation loop legible before making AI proactive",
+      "zhIntro": "从无摄像头显示眼镜到双目耳罩和具身采集平台，今天的产品都在重新定义“设备看见什么”。",
+      "enIntro": "From camera-free display glasses to stereo headsets and embodied capture platforms, today’s products redefine what a device is allowed to see.",
       "zhItems": [
-        {
-          "label": "视点",
-          "body": "相机可以夹在衣物、手持或转交，系统要显示当前谁在看、谁在说。"
-        },
-        {
-          "label": "网络",
-          "body": "端侧与云端不是后台实现差异，而是速度、隐私和能力的用户选择。"
-        },
-        {
-          "label": "动作",
-          "body": "自然拿起商品比对准条码更接近真实流程，识别必须容忍移动和遮挡。"
-        },
-        {
-          "label": "反馈",
-          "body": "翻译、视觉问答、健康趋势和近场定位要区分实时结果、长期推断与历史位置。"
-        },
-        {
-          "label": "恢复",
-          "body": "无网、错听、错认和设备交接时，用户要能回到拍摄、人工搜索或手机路径。"
-        }
+        "输入层：区分用户主动提问、设备主动提示、传感器持续监听和开发者采集模式。",
+        "观察层：把当前摄像头/麦克风/IMU 是否工作、是否上传、由哪个模型处理做成可见状态。",
+        "动作层：所有物理或数据动作都提供开始前意图、进行中反馈、停止入口和失败回退。",
+        "记忆层：记录、摘要、关系推断与 highlight 保存必须可查看、暂停、导出、删除。",
+        "现场层：具身采集设备把丢帧、标定、曝光、姿态完整性前移到采集者能理解的 PASS/WARN/FAIL。",
+        "证据层：把 confirmed product、developer surface、review/community friction、research/patent signal 分开展示。"
       ],
       "enItems": [
-        {
-          "label": "Viewpoint",
-          "body": "The camera may be clipped, handheld, or handed over; the system should show who is looking and speaking."
-        },
-        {
-          "label": "Network",
-          "body": "Edge versus cloud is a user-facing choice about speed, privacy, and capability, not just an implementation detail."
-        },
-        {
-          "label": "Action",
-          "body": "Naturally picking up an item is closer to real behavior than aiming at a barcode; recognition must tolerate motion and occlusion."
-        },
-        {
-          "label": "Feedback",
-          "body": "Translation, visual questions, health trends, and near-field finding should separate live results, longitudinal inference, and historical location."
-        },
-        {
-          "label": "Recovery",
-          "body": "When offline, misunderstood, misrecognized, or handed over, the user needs a camera, manual-search, or phone fallback."
-        }
+        "Input layer: distinguish a user question, proactive prompting, continuous sensing, and developer-capture mode.",
+        "Observation layer: expose whether camera, microphone, or IMU is active, whether data leaves the device, and which model processes it.",
+        "Action layer: every physical or data action needs pre-action intent, in-action feedback, a stop path, and failure recovery.",
+        "Memory layer: recordings, summaries, relationship inferences, and highlights need inspect, pause, export, and delete controls.",
+        "Field layer: embodied capture systems should move dropped frames, calibration, exposure, and action completeness into operator-readable PASS/WARN/FAIL.",
+        "Evidence layer: keep confirmed product, developer surface, review/community friction, and research/patent signal visibly separate."
       ]
     },
     "watchlistZh": [
-      "RayNeo iO：9 月 4 日最终价格与地区、户外可读性、转写延迟、无扬声器反馈、长期记忆与订阅边界。",
-      "Orbbec physical AI：EGO/UMI/WristCam/Hub 的 SDK、原始时间戳、跨场景同步、隐私授权和客户交付。",
-      "Google Developer Device Platform：真实设备清单、并发/排队、计费、agent 权限、日志保留与 iOS 路线。",
+      "雷鸟 iO：全球发货、真实续航、记忆删除、翻译延迟、订阅与第三方开发者开放程度。",
+      "Razer Project Motoko：Developer Kit 交付、价格、相机隐私灯、模型/数据路径和耳罩长时佩戴。",
+      "Orbbec 与 51WORLD：具体 SKU、数据 schema、ROS/Isaac/SDK、现场质检准确性和跨本体迁移。",
+      "Meta 主动记忆专利：只等待官方产品页、权限/删除路径和实际测试，不把 patent signal 当功能。",
       "HONOR Robot Phone：第三方 Camera2/CameraX 接入、海外服务、云台耐久、误跟踪回退与真实续航。",
-      "Razer Project Motoko：Q2 developer kit 的开放范围、录制提示、模型路由、价格与量产时间。",
       "摄像头 AirPods 弱信号：是否出现 Apple 官方公告、录制指示、权限与删除路径。",
       "GO Ultra：AI Voice Assistant 的地区/语言 rollout、端云选择和真实响应延迟。",
       "SLT 2026 SmartGlasses Challenge：多说话人基准是否进入真实眼镜 SDK 与产品测试。",
@@ -123,11 +97,11 @@
       "研究/专利：端侧视觉、低功耗传感和旁观者隐私仍只作为方向雷达，不升级为已发布产品事实。"
     ],
     "watchlistEn": [
-      "RayNeo iO: final September 4 price and regions, outdoor readability, transcription latency, speakerless feedback, long-term memory, and subscription boundaries.",
-      "Orbbec physical AI: EGO/UMI/WristCam/Hub SDK access, raw timestamps, cross-scene synchronization, privacy consent, and customer delivery.",
-      "Google Developer Device Platform: physical-device inventory, concurrency/queueing, billing, agent permissions, log retention, and the iOS path.",
+      "RayNeo iO: global shipping, real runtime, memory deletion, translation latency, subscription, and developer openness.",
+      "Razer Project Motoko: Developer Kit delivery, price, camera privacy cues, model/data path, and long-wear comfort.",
+      "Orbbec and 51WORLD: final SKUs, data schema, ROS/Isaac/SDK access, field-QA accuracy, and embodiment transfer.",
+      "Meta proactive-memory patent: wait for an official product surface, permission/deletion path, and real testing; do not treat patent signal as a feature.",
       "HONOR Robot Phone: third-party Camera2/CameraX access, overseas services, gimbal durability, wrong-target recovery, and real runtime.",
-      "Razer Project Motoko: real Q2 developer-kit access, capture indicators, model routing, pricing, and production timing.",
       "Camera-equipped AirPods weak signal: whether Apple publishes an official announcement, recording cue, permissions, and deletion path.",
       "GO Ultra: region/language rollout, edge-cloud choice, and real response latency for AI Voice Assistant.",
       "SLT 2026 SmartGlasses Challenge: whether multi-speaker benchmarks enter real glasses SDKs and product tests.",

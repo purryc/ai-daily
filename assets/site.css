@@ -1021,12 +1021,18 @@ body:has(.deck-page) {
   }
 
   .source-slide .source-grid {
-    grid-template-columns: repeat(10, minmax(0, 1fr));
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    gap: 0;
+  }
+
+  .source-slide .source-grid span {
+    font-size: 6.2px;
+    line-height: 0.78;
   }
 
   .source-slide .source-grid strong {
-    font-size: 6.8px;
-    line-height: 0.88;
+    font-size: 6.2px;
+    line-height: 0.78;
   }
 }
 

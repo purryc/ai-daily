@@ -10,323 +10,320 @@ if (!previous) throw new Error("Missing 2026-08-21 source issue");
 const date = "2026-08-23";
 const issue = structuredClone(previous);
 issue.date = date;
-issue.zhTitle = "AI Daily 2026-08-23：眼前的 HUD 开始替用户整理一天，物理 AI 进入数据基础设施";
-issue.enTitle = "AI Daily 2026-08-23: HUDs organize the day while physical AI builds its data layer";
-issue.zhSummary = "RayNeo iO 把 33g 无扬声器 HUD、四麦克风、旋钮与头部手势组合成一个面向日常信息的可穿戴入口；官方仍标记 coming soon，9 月 4 日发售与价格来自媒体和 beta 信号，不能写成已交付。另一端，Orbbec 在 WRC 2026 展示 Robot-Free Data Collection Platform 与 Physis 机器人视觉相机，把第一视角、手部、腕部和中心连接拆成可校准的数据采集矩阵；Google Developer Device Platform 则把真实 Android 设备、模拟器、Device Streaming API 与 agent skill 变成开发者产品。今天的主线是：AI 入口越靠近身体与真实设备，用户控制、隐私可见性、同步质量和验证闭环越需要成为产品表面。";
-issue.enSummary = "RayNeo iO combines a 33g speakerless HUD, four microphones, a crown dial, and head gestures into a daily information surface; the official page still says coming soon, so September 4 availability and pricing remain bounded by media and beta signals rather than delivered-product proof. At the other end, Orbbec’s WRC 2026 launch shows a Robot-Free Data Collection Platform and Physis robotics cameras that split first-person, hand, wrist, and hub viewpoints into a calibrated data matrix. Google’s Developer Device Platform turns real Android devices, emulators, Device Streaming API, and an agent skill into a developer product. Today’s test is how control, privacy visibility, synchronization, and verification become product surfaces as AI moves closer to bodies and real hardware.";
+issue.zhTitle = "AI Daily 2026-08-23：眼镜、耳罩与机器人开始共享一条观察链路";
+issue.enTitle = "AI Daily 2026-08-23: glasses, headsets, and robots share one observation loop";
+issue.zhSummary = "本周最实在的产品变化发生在观察链路：雷鸟 iO 用无摄像头双目显示和记忆把 AI 眼镜推向日常佩戴；Razer Motoko 让耳罩承担双目视觉与 developer kit 入口；Orbbec、51WORLD 则把第一视角采集、同步、质检与训练数据做成具身基础设施。AI 产品的竞争点正在从“模型能回答什么”移动到“设备看见什么、用户能否知道它正在看、数据如何进入下一步动作”。";
+issue.enSummary = "The most concrete product movement this week is in the observation loop. RayNeo iO uses camera-free binocular display and memory to make AI eyewear more daily-wearable; Razer Motoko turns an earcup headset into a dual-camera developer surface; Orbbec and 51WORLD package first-person capture, synchronization, quality control, and training data as embodied-AI infrastructure. The product contest is moving from what a model can answer to what a device can see, whether people can tell it is seeing, and how evidence becomes the next action.";
 issue.zhPath = `/ai-daily/${date}/zh/`;
 issue.enPath = `/ai-daily/${date}/en/`;
 issue.sourcesPath = `/ai-daily/${date}/sources.md`;
-issue.sourceTypes = [...new Set([...(issue.sourceTypes ?? []), "confirmed product", "developer surface", "review/community friction", "china", "global"])] ;
+issue.sourceTypes = [...new Set([...(issue.sourceTypes ?? []), "confirmed product", "developer surface", "review/community friction", "research signal", "patent signal", "china", "global"])] ;
 for (const topic of issue.topics) topic.sourceDate = `${topic.sourceDate} · 2026-08-23 current source sweep`;
 
-const rayneoIo = {
-  id: "rayneo-io-speakerless-hud",
-  section: "global",
-  zhHeadline: "RayNeo iO：把手机提醒搬到视线里，但把声音也拿掉",
-  enHeadline: "RayNeo iO moves phone prompts into view and removes the speaker",
-  zhFact: "RayNeo 官方产品页把 iO 标为 coming soon；Android Authority 与 Android Central 在 8 月 21 日披露 33g、透明 HUD、四麦克风、Smart Crown、头部手势、无扬声器、录制/转写状态灯和 Android/iOS 兼容。媒体给出 9 月 4 日上市、US$479 起或 US$529 含充电盒等信息，beta 社区同时确认佩戴舒适度与功能取舍。价格、地区和最终软件能力仍按来源分开记录。",
-  enFact: "RayNeo’s official product page still labels iO as coming soon. Android Authority and Android Central reported on August 21 that the glasses weigh 33g and combine a transparent HUD, four microphones, a Smart Crown, head gestures, no speakers, a hardwired capture/transcription light, and Android/iOS compatibility. Media reports place launch on September 4 at $479 or a $529 charging-case bundle, while beta-community posts add comfort and feature-tradeoff signals. Price, region, and final software behavior remain source-bounded.",
-  zhValue: "iO 不是把完整手机搬到脸上，而是把日程、提醒、天气、翻译、语音笔记、提词器和会议行动项压缩成可抬眼确认的短决策层。它选择无扬声器，让结果主要进入 HUD，减少公共空间的外放干扰，也让用户必须在视觉反馈、头部点头、旋钮和手机之间建立新的确认习惯。产品价值集中在减少掏手机次数，而不在替代手机或耳机。",
-  enValue: "iO does not put the whole phone on the face. It compresses schedules, notifications, weather, translation, voice notes, teleprompting, and meeting action items into a glance-and-confirm layer. The deliberate speakerless design keeps responses in the HUD and avoids open-air sound, but it also forces a new confirmation habit across visual feedback, nods, the crown, and the companion phone. The defensible value is fewer phone reaches, not phone or earbud replacement.",
-  zhHciLens: ["抬眼确认", "无声反馈", "录制可见"],
-  enHciLens: ["glance confirmation", "silent feedback", "visible capture"],
-  zhImplication: "HUD 的低摩擦入口必须有同样清楚的状态反馈。用户要知道屏幕显示的是即时通知、语音转写、长期记忆还是模型建议；点头是在确认保存、继续滚动还是选择某个行动；录制灯要让佩戴者与旁观者都能理解。没有扬声器以后，系统不能把视觉当作装饰，而要把它当作主反馈通道。",
-  enImplication: "A low-friction HUD needs equally clear state feedback. Users must know whether they are seeing a live notification, transcription, long-term memory, or model suggestion. A nod must mean save, continue, or select—not an ambiguous gesture. The capture light has to be legible to both wearer and bystander. Once the speaker is removed, the visual channel is not decoration; it becomes the primary feedback surface.",
-  sourceDate: "2026-08-21 official page and media · 2026-08-22 beta/community signal · 2026-08-23 current source sweep",
-  evidenceLabel: "confirmed product",
-  evidenceStrength: "confirmed product · official product page · independent product coverage · beta signal",
-  visual: {
-    path: "assets/rayneo-io-official-2026-08.png",
-    width: 1600,
-    height: 5398,
-    kind: "source-backed page screenshot",
-    altZh: "RayNeo iO 官方产品页截图",
-    altEn: "RayNeo iO official product page",
-    captionZh: "来源追踪视觉：RayNeo iO 官方产品页；可见产品形态、HUD 视觉示例与 coming soon 状态。完整参数与上市条件继续按官方、媒体和社区来源拆分。",
-    captionEn: "Source-traceable visual: RayNeo iO official product page showing the product form, HUD example, and coming-soon status. Final specifications and availability remain separated by official, media, and community evidence.",
-    sourceUrl: "https://www.rayneo.com/pages/rayneo-io-ai-glasses"
-  },
-  sources: [
-    { label: "RayNeo iO official product page", url: "https://www.rayneo.com/pages/rayneo-io-ai-glasses" },
-    { label: "Android Authority product report", url: "https://www.androidauthority.com/rayneo-glasses-reduce-smartphone-use-3700718/" },
-    { label: "Android Central launch coverage", url: "https://www.androidcentral.com/gaming/virtual-reality/rayneo-holds-nothing-back-with-io-smart-glasses-hud-and-the-pure-cinema-gt-max" },
-    { label: "RayNeo beta tester review", url: "https://www.reddit.com/r/RayNeo/comments/1vut8cp/io_smart_glass_review_from_a_beta_tester/" },
-    { label: "RayNeo product manager AMA and community specs", url: "https://www.reddit.com/r/augmentedreality/comments/1vudxhh/rayneo-33g-display-smart-glasses-ama-with-product/" }
-  ],
-  dossierKind: "product",
-  dossier: {
-    zh: {
-      productName: "RayNeo iO 是一副面向日常信息处理的显示型 AI 智能眼镜。它以普通眼镜般的外观、透明 HUD 和低摩擦抬眼动作承载提醒、转写、翻译与 AI 助手，官方页还提供邮件订阅入口而非已完成的公开购买流程。它把 AI 入口放在视线内，同时把摄像头缺席、扬声器缺席和录制状态灯变成产品边界。",
-      productType: "产品类型是 HUD 显示眼镜、四麦克风语音输入设备、手机配套应用和云端/模型服务的组合。它不是视频 AR 眼镜，也不是带摄像头的第一视角记录器；Android Central 明确描述其无扬声器、以 HUD 为主，Android Authority 列出透明 MicroLED、Smart Crown、加速度计与陀螺仪。最终光学引擎、视场、存储、手机依赖与订阅策略以官方最终资料为准。",
-      interactionFlow: "用户佩戴眼镜后抬眼查看个人 dashboard，使用 Smart Crown 浏览菜单，用头部手势确认或选择，向四麦克风阵列说话以进行转写、翻译、语音笔记或调用 AI。会议上下文可以被整理为行动项，用户再用点头确认是否保存到日程；提词器沿着 HUD 滚动，翻译文字直接出现在视线中。录制和转写由硬连线状态灯提示。公开资料没有完整展示通知优先级、误触回退、失焦时的静默策略、手机断连后的降级路径或所有确认手势。",
-      specsOrStack: "Android Authority 报道 33g、0.1cc 级绿色单色 MicroLED、0.6mm 光学结构、最高 1,300 nits、240mAh 电池、四麦克风、骨传导传感器、加速度计和陀螺仪；Android Central 补充 97% optical transparency、Smart Crown、Android/iOS 兼容和录制/转写状态灯。Android Authority 还写到 IP54、典型使用最长 48 小时、待机最长 96 小时。没有公开的芯片、RAM、模型版本、端云路由、隐私保留时长、SDK、完整视场或订阅条款均为 source not stated。",
-      useCases: "具体场景包括快速看日程和天气、会议转写与行动项确认、40 种语言的文字翻译、演讲提词、语音笔记和少量环境信息查询。对需要频繁从电脑/手机抬头回到现实的人，HUD 可以把短消息放在视线中；对不希望脸上有摄像头的人，无摄像头路线降低了旁观者对持续拍摄的担忧。室外强光、长时间阅读、处方镜片、独立使用和音频需求需要分别验证。",
-      painPointsSolved: "iO 试图解决用户为了看一条提醒、翻译一行文字或确认一个会议事项而反复掏手机的问题，也解决部分佩戴式设备把声音直接播给周围人的社交摩擦。无摄像头减少了第一视角记录的隐私争议，无扬声器减少了漏音，但转而提高了视觉疲劳、信息遮挡和手机配套依赖的风险。它压缩的是短决策，不会自动消除完整任务的输入、编辑和长内容阅读成本。",
-      userVoice: "beta 用户在 Reddit 说 33g 机身平衡、鼻托和镜腿套让日常佩戴很轻，并偏好其外观与室内使用；同一讨论也承认当前功能较少，室外太阳镜能力、音频输出和 AI 订阅仍是疑问。另一个社区规格帖把无扬声器与骨传导输入的误读暴露出来，说明硬件表述需要非常明确。这些是早期 beta/社区信号，不能当作大规模满意度结论。",
-      newTech: "新技术组合是超薄透明 MicroLED HUD、低功耗背景上下文记录、四麦克风转写、旋钮和头部手势，以及将确认结果写回日程或个人工作流。关键设计点是把 AI 结果从聊天答案变成视线内的短状态，再用点头、旋钮和硬连线指示灯完成确认与社会可见性。产品没有摄像头和扬声器的取舍，把隐私与反馈从后台参数变成了交互结构。",
-      availability: "RayNeo 官方页在当前 source sweep 中仍写 RayNeo iO Smart Glasses are coming soon，并提供订阅更新入口。Android Central 写 9 月 4 日开始零售，Android Authority 报道 US$479 起、约 US$529 含充电盒的 bundle；beta 社区同样提到 9 月 4 日。最终销售地区、价格、库存、保修、处方镜片、应用上线状态和订阅规则不能仅凭媒体预告确认。",
-      limitsOrUnknowns: "需要重点验证的未知包括真实户外可读性、持续转写的电池表现、HUD 信息密度、误触与头部手势误判、断网/断手机后的降级、长期上下文记忆是否可关闭、录制灯是否不可绕过、AI 结果是否收费，以及无扬声器用户如何处理需要听觉反馈的场景。官方产品页未披露开发者 API、完整数据删除路径和模型供应商组合；相关内容保持 source not stated。",
-      productVerdict: "RayNeo iO 是本期最强的可穿戴 confirmed product，但它的价值应精确表述为“可抬眼确认的日常 HUD”，而非完整 AI 电脑。无摄像头、无扬声器、33g 和状态灯形成清晰的隐私/社交取舍，代价是视觉反馈压力和手机依赖。产品判断：9 月 4 日发布后优先测试户外可读性、转写延迟、长期记忆控制、手势确认和订阅边界，再判断它是否能减少手机使用。"
-    },
-    en: {
-      productName: "RayNeo iO is a display-first AI smart-glasses product for everyday information handling. It uses regular-looking frames, a transparent HUD, and glance-based interaction for notifications, transcription, translation, and assistant tasks. The official page still exposes an update form rather than a completed retail purchase flow. The absence of a camera and speaker, plus a visible capture/transcription indicator, are part of the product boundary rather than incidental omissions.",
-      productType: "The product combines a HUD display, four-microphone voice input, a companion phone application, and cloud/model services. It is not positioned as full video AR eyewear or a first-person recorder. Android Central describes a speakerless design centered on the HUD, while Android Authority lists a transparent MicroLED display, Smart Crown, accelerometer, and gyroscope. Final optical engine, field of view, storage, phone dependency, and subscription terms remain subject to official confirmation.",
-      interactionFlow: "The wearer looks up to view a personal dashboard, turns the Smart Crown to move through menus, and uses head gestures to confirm or select. Speech is captured through the four-microphone array for transcription, translation, notes, or assistant queries. In meetings, the system can surface action items that the user confirms with a nod before saving them to a calendar; a teleprompter scrolls in the HUD. A hardwired indicator communicates recording or transcription. Public material does not fully show notification priority, false-gesture undo, focus-loss quieting, phone-disconnect fallback, or every confirmation state.",
-      specsOrStack: "Android Authority reports 33g, a roughly 0.1cc monochrome green MicroLED, a 0.6mm optical structure, up to 1,300 nits, a 240mAh battery, four microphones, a bone-conduction sensor, an accelerometer, and a gyroscope. Android Central adds 97% optical transparency, the Smart Crown, Android/iOS compatibility, and a hardwired recording/transcription light. Android Authority also reports IP54, up to 48 hours of typical use, and up to 96 hours of standby. Chipset, RAM, model version, edge/cloud routing, retention, SDK, complete field of view, and subscription terms are source not stated.",
-      useCases: "Concrete use cases include checking schedule and weather, confirming meeting transcription and action items, translating text in 40 languages, presenting with a teleprompter, saving voice notes, and asking short context questions. For users who move between a computer and the physical world, a glanceable line can reduce phone retrieval. For people uncomfortable with a camera on the face, the camera-less route reduces the social assumption of continuous capture. Outdoor readability, long reading sessions, prescription lenses, standalone operation, and audio needs need separate testing.",
-      painPointsSolved: "iO targets the repeated-phone-retrieval problem for a notification, translated phrase, or meeting detail, and it reduces the social leakage of playing assistant responses through an open speaker. No camera lowers first-person recording anxiety; no speaker reduces sound leakage. The tradeoff is more visual fatigue, possible information obstruction, and stronger companion-phone dependence. The product compresses short decisions. It does not remove the input, editing, and long-form reading costs of a complete task.",
-      userVoice: "A beta tester on Reddit says the 33g frames feel exceptionally light and balanced, with nose pads and temple sleeves helping them stay put, and prefers the appearance for indoor use. The same post acknowledges that the current feature set is light and raises outdoor-shade, audio-output, and subscription questions. A separate community specification thread shows people misreading the bone-conduction input description as audio output. These are early beta and community signals, not population-level satisfaction data.",
-      newTech: "The new combination is a thin transparent MicroLED HUD, low-power background context capture, four-microphone transcription, a rotary control, head gestures, and calendar or workflow confirmation. The product turns an assistant result into a short visual state that can be acknowledged through a nod or crown, while the hardwired light makes capture socially legible. Camera and speaker removal make privacy and feedback choices part of the interaction architecture instead of hidden implementation settings.",
-      availability: "The official RayNeo page still says RayNeo iO Smart Glasses are coming soon and offers an update subscription. Android Central reports retail availability beginning September 4; Android Authority reports a $479 starting price and a roughly $529 charging-case bundle, while beta-community posts also point to September 4. Final regions, pricing, inventory, warranty, prescription options, app availability, and subscription rules cannot be confirmed from the preview alone.",
-      limitsOrUnknowns: "Key unknowns include real outdoor readability, battery under continuous transcription, HUD information density, false head-gesture activation, offline and phone-disconnected behavior, whether long-term context memory can be disabled, whether the recording light is bypass-resistant, AI charges, and how users receive alerts that require audio. The official page does not expose a developer API, complete deletion path, or model-provider arrangement. Those details remain source not stated.",
-      productVerdict: "RayNeo iO is the issue’s strongest wearable confirmed product, but its defensible promise is a glanceable daily HUD rather than a complete AI computer. Camera removal, speaker removal, 33g weight, and a visible status light create a clear privacy and social tradeoff, at the cost of visual feedback pressure and phone dependence. Verdict: after September 4, test outdoor readability, transcription latency, memory controls, gesture confirmation, and subscription boundaries before claiming that it reduces phone use."
-    }
-  }
-};
-
-const orbbecPhysicalAi = {
-  id: "orbbec-robot-free-data-collection-physis",
+const rayneo = {
+  id: "rayneo-io-camera-free-ai-glasses",
   section: "china",
-  zhHeadline: "Orbbec：把具身 AI 的“看见”拆成可采集、可校准的数据层",
-  enHeadline: "Orbbec turns physical AI perception into a calibrated data layer",
-  zhFact: "Orbbec 在 8 月 19 日 WRC 2026 发布 Robot-Free Data Collection Hardware Platform，并正式展示 Physis 系列机器人视觉相机。官方把 EGO 第一视角、UMI 手部操作、WristCam 腕部近场和 Hub 中心连接组成采集矩阵；披露 1600×1200@30fps 连续 37 小时、RGB/IMU 零丢帧、相机同步误差低于 1ms、工厂标定误差低于 0.3 像素。WRC 持续至 8 月 23 日，产品价格与开发者 API 未公开。",
-  enFact: "On August 19, Orbbec launched its Robot-Free Data Collection Hardware Platform at WRC 2026 and formally introduced the Physis robotics-vision series. The official lineup combines EGO first-person capture, UMI handheld manipulation capture, WristCam near-field wrist capture, and a central Hub. Orbbec reports more than 37 hours at 1600x1200@30fps, zero dropped RGB/IMU frames, under-1ms multi-camera synchronization error, and under-0.3-pixel factory calibration error. WRC runs through August 23; price and developer API details are not stated.",
-  zhValue: "这条产品线的用户不是普通消费者，而是机器人厂商、基础模型团队、数据采集服务商和需要验证真实操作的研究/工业团队。它把“给机器人装一只更像人的眼睛”转成多视角采集与同步工程：头部看到什么、手正在操作什么、腕部接近什么、中心节点如何汇总，都能进入同一份训练或验证数据。价值不在发布一个会自主行动的机器人，而在补足从现实任务到可用训练样本之间的基础设施。",
-  enValue: "The buyers are robot manufacturers, foundation-model teams, data-collection providers, and research or industrial groups that must validate real manipulation. The platform turns “give a robot more human-like eyes” into a multi-view synchronization problem: what the head sees, what the hand manipulates, what the wrist approaches, and how the hub aggregates signals can enter one training or validation record. Its value is infrastructure between real tasks and usable data, not a claim that Orbbec has launched an autonomous robot.",
-  zhHciLens: ["多视角采集", "时间对齐", "部署验证"],
-  enHciLens: ["multi-view capture", "temporal alignment", "deployment validation"],
-  zhImplication: "具身产品的体验质量会被数据采集链路反向决定。若视觉、触觉、音频与动作时间戳不一致，模型学到的就不是用户与物体的真实关系。面向产品团队，传感器同步、标定误差、丢帧率和采集授权都应进入验收面板；“模型更聪明”不能遮住数据管道的失真。",
-  enImplication: "Embodied-product quality is determined upstream by the data pipeline. If vision, touch, audio, and action timestamps drift, the model learns a false relationship between user and object. Product teams should expose synchronization, calibration error, dropped-frame rate, and capture authorization in acceptance dashboards. A smarter model cannot compensate for a distorted capture pipeline.",
-  sourceDate: "2026-08-19 official WRC launch · 2026-08-23 WRC event window",
+  zhHeadline: "雷鸟 iO：先把 AI 眼镜做成愿意一直戴的眼镜",
+  enHeadline: "RayNeo iO makes camera-free display glasses the daily-wear bet",
+  zhFact: "雷鸟在 2026 年 8 月 21 日发布 iO AI 眼镜。新华网报道其整机 34g、双目显示、蓝湖光波导、0–1000 度配镜、55 种语言与 109 种口音翻译、会议记录、实时提词和全天智记；官方售价 RMB 2,499，首发到手价 RMB 1,996 起，已在中国线上和线下渠道开售。雷鸟支持页说明配套 App 需要 Android 11.0 或 iOS 15.0 以上。",
+  enFact: "RayNeo introduced the iO AI Glasses on August 21, 2026. Xinhua reports a 34-gram frame, binocular display, Lanhu waveguide optics, prescription support from 0 to 1,000 degrees, translation across 55 languages and 109 accents, meeting notes, live prompting, and all-day memory. The listed price is RMB 2,499, with launch pricing from RMB 1,996, and the product is on sale through Chinese online and optical channels. RayNeo support says the companion app requires Android 11.0 or iOS 15.0 or later.",
+  zhValue: "iO 的产品选择很明确：它去掉摄像头，把重量、社交阻力和持续记录风险让位给双目显示、骨传导/麦克风输入、智能旋钮与头部姿态操作。用户可以在镜片里看日程、待办和消息，开启实时翻译或提词，在会议中记录并回看摘要，再通过记忆引擎检索当天信息。无摄像头意味着它无法像相机眼镜那样直接理解眼前物体，用户仍要依赖语音、手机或显示内容来提供上下文；这让“主动式 AI”更像一个持续监听与显示的个人界面，而不是视觉助手。",
+  enValue: "The product choice is explicit: iO removes the camera and spends the saved weight, social friction, and continuous-capture risk on binocular display, bone-conduction interaction, microphones, a smart crown, and head-gesture control. Users can see schedules, tasks, and notifications in the lens, turn on live translation or prompting, record meetings, review summaries, and retrieve the day through a memory engine. Without a camera, iO cannot directly understand objects in front of the wearer; context still comes from speech, the phone, or displayed information. Its “active AI” is therefore a persistent personal interface, not a visual assistant.",
+  zhHciLens: ["输入：旋钮、头势、语音", "输出：镜片文字与低打扰音频", "边界：无摄像头、记忆可删除"],
+  enHciLens: ["Input: crown, head gesture, voice", "Output: lens text and low-disruption audio", "Boundary: camera-free, deletable memory"],
+  zhImplication: "雷鸟 iO 把“隐私可见性”提前到硬件选择：没有摄像头降低了旁观者对拍摄的担心，但也把主动理解能力限制在语音、显示与手机上下文。产品设计需要把录音指示灯、记忆开始/暂停、原始对话脱敏、本地记录删除、翻译延迟和多人大声对话分离做成用户看得懂的状态，而不能只写全天候 AI。",
+  enImplication: "RayNeo moves privacy legibility into the hardware decision. Removing the camera lowers bystander anxiety, but it also constrains proactive understanding to speech, display, and phone context. The product therefore needs visible recording cues, memory start and pause, raw-dialogue redaction, local deletion, translation-latency feedback, and multi-speaker separation. “All-day AI” is not a sufficient state model.",
+  sourceDate: "2026-08-21 official launch and China availability · 2026-08-22 Xinhua/IT之家 · 2026-08-22 community discussion · 2026-08-23 current source sweep",
   evidenceLabel: "confirmed product",
-  evidenceStrength: "confirmed product · official China launch · robotics infrastructure · source-backed performance claims",
-  visual: {
-    path: "assets/orbbec-physis-wrc-official-2026-08.png",
-    width: 1600,
-    height: 10737,
-    kind: "source-backed page screenshot",
-    altZh: "Orbbec WRC 2026 物理 AI 数据采集与 Physis 视觉产品官方页面",
-    altEn: "Orbbec official WRC 2026 physical-AI data and Physis vision page",
-    captionZh: "来源追踪视觉：Orbbec WRC 2026 官方发布页；展示 Robot-Free Data Collection Platform 与 Physis 视觉产品线，并标注采集矩阵、连续采集与同步/标定指标。",
-    captionEn: "Source-traceable visual: Orbbec’s official WRC 2026 launch page showing the Robot-Free Data Collection Platform, Physis vision line, capture matrix, and synchronization/calibration claims.",
-    sourceUrl: "https://www.orbbec.com/news/orbbec-unveils-two-new-product-lines-at-wrc-2026-advancing-scalable-physical-ai-data-collection-and-human-like-robotics-vision/"
-  },
+  evidenceStrength: "confirmed product · China availability · official support surface · community friction",
+  visual: { path: "assets/rayneo-io-official-2026-08.png", width: 1600, height: 900, kind: "source-backed page screenshot", altZh: "雷鸟 iO 官方产品与支持入口截图", altEn: "RayNeo iO official product and support surface", captionZh: "来源追踪视觉：雷鸟官方站点展示 iO 产品线与支持入口；具体价格、规格和 AI 能力按新华社、IT之家与官方支持页分开核对。", captionEn: "Source-traceable visual: RayNeo's official site shows the iO product line and support surface; price, specifications, and AI capabilities are cross-checked separately against Xinhua, IT Home, and official support pages.", sourceUrl: "https://rayneo.cn/" },
   sources: [
-    { label: "Orbbec official WRC 2026 launch", url: "https://www.orbbec.com/news/orbbec-unveils-two-new-product-lines-at-wrc-2026-advancing-scalable-physical-ai-data-collection-and-human-like-robotics-vision/" },
-    { label: "Orbbec Robot-Free Data Collection platform", url: "https://www.orbbec.com/products/robot-free-data-collection/" },
-    { label: "Orbbec documentation and SDK resources", url: "https://www.orbbec.com/developers/" }
+    { label: "RayNeo official site", url: "https://rayneo.cn/", type: "official" },
+    { label: "RayNeo support and app compatibility", url: "https://rayneo.cn/support.html", type: "official" },
+    { label: "Xinhua iO launch report", url: "https://www3.xinhuanet.com/tech/20260821/1329d3f89e064ea1a60ee2a9c0aed9c3/c.html", type: "china" },
+    { label: "IT之家 iO product report", url: "https://m.ithome.com/html/992653.htm", type: "reviews" },
+    { label: "r/SmartGlasses iO discussion", url: "https://www.reddit.com/r/SmartGlasses/comments/1vuf3no/rayneo_io_announced_33g_display_smart_glasses/", type: "community" }
   ],
   dossierKind: "product",
-  dossier: {
-    zh: {
-      productName: "Orbbec Robot-Free Data Collection Hardware Platform 与 Physis 系列，是 Orbbec 面向物理 AI 的两组基础设施产品。前者收集真实人类操作和环境交互数据，后者为机器人提供宽视场、高质量影像和空间感知。它们在 WRC 2026 公开展示，面向模型训练、机器人验证、数据服务和部署级视觉，而非面向家庭用户的完整机器人。",
-      productType: "产品类型是可穿戴/手持/腕部多视角采集设备、中心连接 Hub、机器人视觉相机、标定与同步软件以及 SDK/定制服务的软硬件系统。官方将 EGO、UMI、WristCam、Hub 组成采集矩阵，并将 Physis 作为感知侧产品线。数据采集和机器人视觉是不同组件，公开资料没有把它们描述为一个单一终端或一个可自主运行的 agent。",
-      interactionFlow: "数据采集者佩戴 EGO 获取第一视角，使用 UMI 记录手部操作，WristCam 捕捉腕部近场交互，Hub 汇总多路数据；视觉、IMU、触觉、音频与视频在空间和时间上对齐后，进入模型训练或机器人验证。部署者则把 Physis 相机放到机器人系统中，利用宽视场和空间感知观察材料、遮挡、灯光与长尾动作。公开资料没有完整说明校准 UI、数据授权提示、实时监看、重采策略、SDK API 结构和采集者隐私控制。",
-      specsOrStack: "Orbbec 官方披露在生产线测试中连续采集超过 37 小时，分辨率 1600×1200@30fps，使用 H.264，RGB 与 IMU 零丢帧，累计超过 1 亿帧；相机到 IMU 的帧间隔变化控制在 30 微秒内，多相机硬件同步误差低于 1ms，工厂标定误差低于 0.3 像素。官方还描述视觉、触觉、音频与视频的多传感器对齐，以及 SDK、定制、CM/JDM 服务。具体芯片、接口带宽、存储介质、价格、功耗条件和模型栈均为 source not stated。",
-      useCases: "具体场景包括机器人抓取和装配的示教数据、家庭/仓储中的长尾物体操作、不同材料与光照下的感知验证、模型训练、仿真到现实的差异排查和工厂部署前的视觉测试。EGO 适合记录操作者视角，UMI 适合手部与物体关系，WristCam 适合近场动作，Hub 适合多源汇总。Physis 适合机器人端的宽视场与空间感知。它服务的是数据与验证团队，不直接替用户执行任务。",
-      painPointsSolved: "传统具身 AI 数据采集往往依赖零散相机、手工同步、一次性标定和无法复用的定制脚本，导致现实材料、遮挡、光照和失败动作覆盖不足。Orbbec 试图用标准化的视角产品、时间同步、工厂标定和持续采集能力降低数据生产成本，让同一套设备能更快进入训练、回放和验证。它没有解决语义标注成本、采集者同意、数据安全、跨机器人迁移或模型泛化问题；这些仍在系统边界之外。",
-      userVoice: "当前公开证据主要来自 Orbbec 官方 WRC 发布和现场展示，尚没有足够的独立长期评测或社区反馈来判断佩戴舒适度、安装难度、SDK 学习成本、数据标注效率和售后体验。官方给出的 37 小时、零丢帧、同步和标定数字是厂商测试声明，应保留测试条件并等待第三方复现。产品团队不能把发布会性能数字直接等同于跨场景可靠性。",
-      newTech: "新技术重点在多视角、跨模态、微秒级对齐和部署级稳定性的联动。它把视觉采集从“拍一段视频”推进为带有姿态、IMU、触觉/音频和统一时间基准的数据产品；再通过 Physis 将宽视场、影像质量、空间感知与可靠性放到机器人相机选择中。这样的系统为 physical AI 提供了数据闭环入口，但官方没有公开具体模型、标注协议或端侧推理能力。",
-      availability: "Orbbec 在中国北京 WRC 2026 于 8 月 19 日发布并展示这些产品，WRC 活动持续到 8 月 23 日，官方称平台已服务中国与国际市场的行业客户。今天可以确认公开展示、产品线与厂商披露的应用方向；价格、标准零售 SKU、全球交付、订购门槛、具体 SDK 权限和开发板方案未在发布页公开，均为 source not stated。",
-      limitsOrUnknowns: "需要验证的关键问题包括多设备长期佩戴与热量、真实场景下同步漂移、遮挡与强光下的视觉质量、数据采集者的隐私提示和撤回、跨设备标定复用、SDK 是否能导出原始时间戳、数据是否带硬件序列号，以及 37 小时测试能否在不同分辨率和压缩条件下复现。官方发布页没有给出完整价格、接口、模型和安全文档。",
-      productVerdict: "Orbbec 的 WRC 2026 信号是一个 confirmed product 基础设施层：它把具身 AI 从机器人本体叙事拉回真实数据、同步和标定。产品判断：对做机器人、数据服务和研究验证的团队，EGO/UMI/WristCam/Hub 加 Physis 提供了可拆分的采集入口；对普通用户没有直接可用价值。下一步应验证 SDK、原始数据访问、跨场景稳定性和采集治理，再评估是否能成为长期数据管道。"
-    },
-    en: {
-      productName: "Orbbec’s Robot-Free Data Collection Hardware Platform and Physis series are two infrastructure product families for physical AI. The first captures real human manipulation and environmental interaction; the second supplies robotics systems with wide-field imaging, high-quality output, and spatial perception. They were shown at WRC 2026 for model training, robot validation, data services, and deployment-grade vision, not as a complete household robot.",
-      productType: "The system combines wearable, handheld, and wrist-level multi-view capture devices, a central Hub, robotics cameras, calibration and synchronization software, SDK resources, and customization services. Orbbec groups EGO, UMI, WristCam, and Hub into a capture matrix, while Physis is the perception-side line. The public announcement treats data collection and robot vision as related components, not one autonomous agent endpoint.",
-      interactionFlow: "A collector wears EGO for first-person vision, uses UMI to record hand manipulation, adds WristCam for near-field wrist interaction, and sends streams through the Hub. Vision, IMU, touch, audio, and video are aligned in space and time before entering training or robot validation. A deployment team places Physis cameras in a robot system to observe materials, occlusion, lighting, and long-tail actions across a workspace. Public material does not fully show calibration UI, consent prompts, live monitoring, resampling, SDK APIs, or collector privacy controls.",
-      specsOrStack: "Orbbec reports more than 37 hours of continuous production-line capture at 1600x1200@30fps using H.264, zero dropped RGB/IMU frames, and more than 100 million frames. Camera-to-IMU interval variation was kept within 30 microseconds; hardware multi-camera synchronization error was below 1ms; factory calibration error was below 0.3 pixels. The company describes multi-sensor alignment and SDK, customization, CM, and JDM services. Chipset, interface bandwidth, storage, price, power conditions, and model stack are source not stated.",
-      useCases: "Concrete uses include demonstration data for grasping and assembly, long-tail household or warehouse manipulation, perception validation across material and lighting changes, model training, sim-to-real diagnosis, and pre-deployment factory vision testing. EGO records the operator viewpoint, UMI focuses on hand-object relation, WristCam captures near-field action, and Hub aggregates sources. Physis targets wide-field and spatial perception on the robot side. The system serves data and validation teams; it does not directly execute a user task.",
-      painPointsSolved: "Physical-AI teams often depend on scattered cameras, manual synchronization, one-off calibration, and scripts that cannot be reused, leaving real materials, occlusions, lighting, and failed actions underrepresented. Orbbec’s standardized viewpoints, timing, factory calibration, and sustained-capture claims aim to reduce data-production cost and move the same hardware more quickly into training, replay, and validation. It does not solve semantic labeling cost, consent, security, cross-robot transfer, or model generalization.",
-      userVoice: "Public evidence is currently dominated by Orbbec’s official WRC announcement and live demonstration. There is not enough independent long-term testing or community feedback to judge wear comfort, installation, SDK learning cost, labeling efficiency, or support. The 37-hour, zero-drop, synchronization, and calibration figures are vendor test claims and should retain their conditions until independently reproduced. A launch number is not automatically cross-scenario reliability.",
-      newTech: "The important technology is the combination of multi-view capture, cross-modal alignment, microsecond-scale timing, and deployment stability. Capture becomes more than a video file: it can carry pose, IMU, touch or audio signals, and a shared time base into a training record. Physis then connects wide-field imaging, image quality, spatial perception, and reliability to the robot camera choice. The public announcement does not disclose a specific model, annotation protocol, or edge-inference runtime.",
-      availability: "Orbbec launched and demonstrated the lines in Beijing at WRC 2026 on August 19; the conference runs through August 23, and the company says the platform is already serving industrial clients in China and international markets. The confirmed surface is the public launch, product families, and stated application direction. Pricing, standard retail SKUs, global delivery, purchase thresholds, SDK permissions, and developer-board packages are source not stated.",
-      limitsOrUnknowns: "Acceptance questions include long-term wear and heat, synchronization drift in real environments, vision quality under occlusion and strong light, consent and withdrawal for collectors, calibration reuse across devices, raw timestamp export, hardware identifiers in data, and whether the 37-hour test reproduces at other resolutions or compression levels. The launch page does not provide full pricing, interfaces, model details, or security documentation.",
-      productVerdict: "Orbbec’s WRC signal is a confirmed infrastructure product that pulls physical AI back to data, timing, and calibration. Verdict: for robotics, data-service, and validation teams, EGO/UMI/WristCam/Hub plus Physis offer separable capture and perception entry points; they have no direct consumer value. The next test is SDK access, raw-data control, cross-scenario stability, and capture governance before treating the stack as a durable data pipeline."
-    }
-  }
+  dossier: { zh: {
+    productName: "雷鸟 iO AI 眼镜是雷鸟创新在中国发布的显示型、无摄像头 AI 眼镜。它把双目近眼显示、主动式 AI、全天智记、实时翻译、提词和通知放进接近日常眼镜的镜框，产品核心是“持续佩戴的输入输出界面”，而非第一视角相机。",
+    productType: "产品类型是消费级显示眼镜、语音/头势输入设备与个人记忆助手的组合。镜片负责显示内容，麦克风和骨传导/相关传感器负责语音交互，右侧智能旋钮提供精确控制，手机 App 负责配对、账户、固件与部分服务。它与无显示 AI 相机眼镜、带摄像头的 AR 眼镜和手机提词 App 形成直接竞争。",
+    interactionFlow: "用户佩戴并通过 Android 11 或 iOS 15 以上手机完成配对，旋转智能旋钮、说出问题或使用头部姿态触发功能；系统可以在镜片显示日程、待办、通知、实时翻译和提词，也可以进入会议记录与全天智记。需要特别验证的是录音指示灯何时亮起、记忆何时开始、实时提示是否会抢占视线、多人对话如何选择发言人，以及用户如何在眼镜上暂停、删除或导出记录。官方公开了能力方向，没有公开完整的交互状态图、离线策略和第三方 API。",
+    specsOrStack: "新华社披露整机 34g、镁铝合金前框与钛合金镜腿、蓝湖光波导、双目显示、0–1000 度配镜、55 种语言和 109 种口音翻译；IT之家补充 0.085cc 光机、约 1800 尼特入眼亮度、240mAh 电池与两天常规续航等发布会信息。官方支持页确认配套 App 的 Android 11.0/iOS 15.0 门槛。不同报道对重量、亮度、续航和音频结构的表述存在差异，型号、SoC、RAM、端云路由、订阅、API、数据中心区域与精确延迟若未由官方明确说明，均记为 source not stated。",
+    useCases: "具体场景包括会议实时提词、跨语言对话、日程与待办提醒、通勤时查看消息、演讲时跟随稿件、需要双手工作的任务提示，以及通过全天智记回顾当天谈话和事项。无摄像头设计适合办公室、校园、公共交通和对录制敏感的社交场景；双目显示则给文字信息提供比手机更低摩擦的输出。对于需要识别商品、路标、维修对象或环境障碍的用户，iO 的视觉能力会受到硬件选择限制，仍需手机或另一台相机设备。",
+    painPointsSolved: "它试图解决手机频繁掏出、会议提词设备笨重、翻译时需要盯着屏幕、通知与日程被桌面 App 打断，以及相机眼镜在公共场景中造成的社会不适。34g 与近视适配降低了全天佩戴成本，显示把短文本放进视野，智能旋钮为语音之外提供确定性。它没有解决全天记录的认知负担、翻译错误、镜片可读性、户外强光、视线干扰、隐私权限与云端依赖。社区还在询问定价、订阅、音频结构、开发者开放程度和全球发货，这些都不能用发布会宣传替代。",
+    newTech: "新技术组合包括蓝湖光波导、0.085cc 光机、双目 HUD、骨传导相关交互、头部姿态操作、主动式 AI 与记忆引擎。真正的产品创新不在单个模型，而在把输入、显示和记忆串成一个低打扰回路：眼镜需要判断何时主动提示、把答案放在视野哪里、如何在对话中不打断用户，以及如何让记录从“默认存在”变成用户可见、可暂停、可删除的状态。无摄像头也形成一种硬件级隐私边界，但牺牲了视觉问答与环境识别。",
+    availability: "新华网报道雷鸟 iO 官方售价 RMB 2,499，首发到手价 RMB 1,996 起，已在中国线上平台和线下眼镜渠道开售；IT之家报道的优惠口径包含国补价格，具体活动可能随渠道变化。官方支持页说明配套 App 支持 Android 11.0 和 iOS 15.0 以上。海外正式销售、全球发货、保修、订阅、完整语言可用性与开发者 SDK 未在本次公开材料中完整说明，均为 source not stated。",
+    limitsOrUnknowns: "核心未知包括两天续航的实际负载、18 小时连续记录和 6.2 小时连续翻译是否来自同一测试条件、显示在户外和近视镜片上的可读性、骨传导漏音、多人大声对话分离、翻译延迟、模型联网、记忆原始数据保存位置、账户删除后的清理范围、第三方 App 与 API、以及无摄像头对环境理解的上限。社区 beta 讨论提供体验和疑问，不能代替正式评测；任何未声明的型号、芯片、准确率、服务地区和价格活动都保持 source not stated。",
+    productVerdict: "雷鸟 iO 是本期中国 lane 的 confirmed product：它用轻量化、显示与无摄像头策略，明确回答“如何让用户愿意一直戴”。它的价值集中在会议、提词、翻译、通知和记忆，不应被写成能看懂世界的视觉助手。产品判断：硬件边界与隐私状态设计值得关注；下一步应验证真实续航、记忆删除、翻译延迟、多说话人、户外显示、订阅和开发者开放程度。"
+  }, en: {
+    productName: "RayNeo iO AI Glasses are China-launched display glasses without a camera. They combine binocular near-eye display, proactive AI, all-day memory, live translation, prompting, and notifications in a frame designed to look and feel like daily eyewear. The core proposition is a persistent input-output interface, not a first-person camera.",
+    productType: "The product combines consumer display glasses, voice and head-gesture input, and a personal memory assistant. The lens presents information; microphones and bone-conduction-related sensing handle speech interaction; a smart crown adds precise control; and a phone companion handles pairing, accounts, firmware, and some services. It competes with displayless camera glasses, camera-equipped AR glasses, and phone-based prompting apps.",
+    interactionFlow: "The wearer pairs the glasses through an Android 11 or iOS 15-and-later phone, turns the smart crown, speaks a request, or uses head posture to trigger a function. The lens can show schedules, tasks, notifications, live translation, and prompts, while meeting recording and all-day memory create a review path. Acceptance testing still needs to establish when the recording indicator turns on, when memory starts, whether live prompts steal attention, how a multi-person conversation is separated, and how the wearer pauses, deletes, or exports records from the glasses. Public material states capabilities but does not expose a complete state diagram, offline strategy, or third-party API.",
+    specsOrStack: "Xinhua reports a 34-gram frame, magnesium-aluminum front, titanium temples, Lanhu waveguide optics, binocular display, 0-to-1,000-degree prescription support, and translation across 55 languages and 109 accents. IT Home adds launch-event details including a 0.085cc optical engine, about 1,800 nits in-eye brightness, a 240mAh battery, and two days of typical use. RayNeo support confirms an Android 11.0/iOS 15.0 companion-app threshold. Outlets use different wording for weight, brightness, runtime, and audio structure. Model, SoC, RAM, edge-cloud routing, subscription, API, data-center region, and exact latency remain source not stated unless the official material says otherwise.",
+    useCases: "Concrete use cases include live meeting prompts, cross-language conversations, schedule and task reminders, commuter notifications, speech practice, hands-busy task guidance, and reviewing the day through all-day memory. The camera-free design fits offices, schools, transit, and social settings where recording creates discomfort; the binocular display puts short text closer to the current task than a phone. Users who need object, sign, repair-part, or obstacle recognition will meet a hard limit because iO has no camera and must rely on a phone or another sensor device.",
+    painPointsSolved: "iO targets repeated phone retrieval, bulky teleprompter setups, screen fixation during translation, desktop notification interruption, and the social unease created by camera glasses in public. A 34-gram frame and prescription support lower the cost of wearing it all day, while the display and crown give voice interaction a visible and deterministic path. It does not solve the cognitive burden of all-day capture, translation mistakes, optical readability, outdoor brightness, gaze interruption, privacy permissions, or cloud dependency. Community discussion is already asking about price, subscription, audio, developer access, and global shipping; those questions cannot be answered by launch marketing.",
+    newTech: "The new combination is Lanhu waveguide optics, a 0.085cc optical engine, binocular HUD, bone-conduction-related interaction, head gestures, proactive AI, and a memory engine. The product innovation is the low-disruption loop between input, display, and recall: the glasses must decide when to proactively prompt, where to place an answer, how not to interrupt a conversation, and how to turn a recording from an invisible default into a visible, pausable, deletable state. The camera-free choice is a hardware privacy boundary, but it also removes visual question answering and environmental perception.",
+    availability: "Xinhua reports an official price of RMB 2,499 and launch pricing from RMB 1,996, with sales through Chinese online platforms and optical channels. IT Home describes additional subsidy and channel pricing that may change by promotion. RayNeo support says the companion app supports Android 11.0 and iOS 15.0 or later. Formal overseas sales, global shipping, warranty, subscription, complete language coverage, and an SDK are not fully established by the public material reviewed today and remain source not stated.",
+    limitsOrUnknowns: "Key unknowns include real runtime under mixed use, whether 18 hours of continuous recording and 6.2 hours of continuous translation share the same test conditions, outdoor and prescription-lens readability, bone-conduction leakage, multi-speaker separation, translation latency, network routing, raw-memory storage, deletion scope after account removal, third-party apps and APIs, and the ceiling created by having no camera. Community beta posts provide experience and questions, not formal review evidence. Any unstated model, chip, accuracy, region, or promotional price remains source not stated.",
+    productVerdict: "RayNeo iO is this issue’s clearest China-lane confirmed product. It uses light weight, display, and a camera-free boundary to answer how a user might be willing to wear AI eyewear every day. Its defensible value is meetings, prompting, translation, notifications, and memory; it should not be described as a visual assistant that understands the world. Verdict: the hardware boundary and privacy-state design deserve attention; next, verify runtime, memory deletion, translation delay, speaker separation, outdoor display, subscription, and developer openness."
+  } }
 };
 
-const googleDdp = {
-  id: "google-developer-device-platform",
+const orbbec = {
+  id: "orbbec-physical-ai-data-physis-vision",
   section: "official",
-  zhHeadline: "Google Developer Device Platform：让 agent 直接碰真实手机",
-  enHeadline: "Google Developer Device Platform lets agents touch real phones",
-  zhFact: "Google Cloud 在 8 月 11 日宣布 Developer Device Platform public preview，8 月 12 日开始向 Google Cloud 用户开放；release notes 列出 Device Catalog、Device Run、Find Logs、Device Streaming API 和 agent skill。它可以按需提供真实 Android 设备与高并发模拟器，让 agent 远程滚动、点击、跑测试、看日志、分析芯片性能和验证硬件特定 bug。iOS 支持仍是计划，价格按测试分钟计费。",
-  enFact: "Google Cloud announced Developer Device Platform public preview on August 11 and made it available to Google Cloud users from August 12. Release notes list Device Catalog, Device Run, Find Logs, Device Streaming API, and an agent skill. The platform provides on-demand physical Android devices and high-concurrency emulators so agents can scroll, click, run tests, inspect logs, analyze chip performance, and validate hardware-specific bugs. iOS support remains planned; preview pricing is per active testing minute.",
-  zhValue: "DDP 的产品变化是把“agent 写完代码后自己在设备上验证”变成一个有 API、有设备目录、有日志和有计费边界的云产品。对折叠屏、不同芯片、摄像头、传感器和端侧 AI 来说，模拟器无法覆盖真实发热、性能、权限和系统行为；DDP 让开发团队把设备差异纳入 agent 的迭代回路，减少只在个人手机上试一遍的盲区。",
-  enValue: "DDP turns “let an agent verify its code on a device” into a cloud product with an inventory, APIs, logs, and billing boundaries. Foldables, different chips, cameras, sensors, and on-device AI expose heat, performance, permission, and system behavior that emulators cannot fully represent. DDP lets teams put device variance inside the agent iteration loop instead of hoping one personal phone represents the market.",
-  zhHciLens: ["设备在环", "可追踪测试", "硬件差异"],
-  enHciLens: ["hardware-in-the-loop", "traceable tests", "device variance"],
-  zhImplication: "当 agent 直接操作真实设备，开发者体验的核心就从“生成代码”转成“证据闭环”：它连接了哪台设备、看到了什么、改了什么、为什么重试、最终是否覆盖了硬件差异。界面应把设备、权限、会话、日志和失败回放放在同一条时间线上，否则 agent 的自动化只会把不可见的不确定性放大。",
-  enImplication: "When an agent operates real devices, developer experience shifts from code generation to an evidence loop: which device was reserved, what was observed, what changed, why a retry happened, and whether hardware variance was covered. The interface should keep device, permission, session, logs, and failure replay on one timeline. Otherwise automation only amplifies invisible uncertainty.",
-  sourceDate: "2026-08-11 official preview · 2026-08-17 release notes update · 2026-08-23 current source sweep",
-  evidenceLabel: "developer surface",
-  evidenceStrength: "developer surface · official Google Cloud preview · API/release-note evidence",
-  visual: {
-    path: "assets/google-ddp-official-2026-08.png",
-    width: 1600,
-    height: 4204,
-    kind: "source-backed page screenshot",
-    altZh: "Google Cloud Developer Device Platform 官方公告页面",
-    altEn: "Google Cloud Developer Device Platform official announcement",
-    captionZh: "来源追踪视觉：Google Cloud DDP 官方公告；可见 Device Streaming、Device Run、agent skill 与 public preview 的产品边界。",
-    captionEn: "Source-traceable visual: Google Cloud’s DDP announcement showing Device Streaming, Device Run, the agent skill, and the public-preview boundary.",
-    sourceUrl: "https://cloud.google.com/blog/topics/developers-practitioners/announcing-developer-device-platform-on-google-cloud"
-  },
-  sources: [
-    { label: "Google Cloud DDP announcement", url: "https://cloud.google.com/blog/topics/developers-practitioners/announcing-developer-device-platform-on-google-cloud" },
-    { label: "DDP release notes", url: "https://docs.cloud.google.com/developer-device-platform/release-notes" },
-    { label: "Google Cloud Developer Device Platform documentation", url: "https://docs.cloud.google.com/developer-device-platform/" }
-  ],
-  dossierKind: "product",
-  dossier: {
-    zh: {
-      productName: "Google Developer Device Platform 是 Google Cloud 面向 agentic mobile app development 的设备云产品。它从 Firebase Test Lab 的测试传统延伸出来，提供真实 Android 设备、高并发模拟器、设备目录、远程流式交互、并行测试、日志和 agent skill。它的用户是移动开发者、QA、企业工程团队和需要验证端侧 AI/硬件差异的 agent。",
-      productType: "产品类型是云端设备农场、设备编排 API、远程交互界面、CI/CD 测试服务和 coding-agent 工具接口。Google 将 Device Catalog 用于描述设备类型，Device Streaming API 用于远程连接真实设备或模拟器，Device Run API 用于在大量设备上并行执行测试，Find Logs 用于定位结果。它属于 developer surface，不是面向终端消费者的 AI 应用。",
-      interactionFlow: "开发者或 agent 先查询设备目录，选择真实 Android 设备或模拟器，预留并连接 Device Streaming，远程滚动、点击、安装或运行应用，再读取性能与日志。对于可重复的用户旅程，团队把测试接入 Device Run 和 CI/CD，在数百设备上并行执行，使用 smart sharding 与自动重试定位问题。agent skill 允许 agent 找设备、预留设备、执行多步旅程、观察视觉瑕疵、分析芯片性能并验证修复。",
-      specsOrStack: "官方公告列出 Device Streaming API、Device Run API、Device Catalog、Find Logs、agent skill、真实物理设备、高并发虚拟模拟器、智能分片和自动重试。Google 还说 DDP 将与 Android Studio 和 Android CLI 集成。public preview 从 8 月 12 日向 Google Cloud 用户开放，按实际 active testing minutes 计费，物理设备与模拟器费率不同。设备型号覆盖、并发上限、网络条件、录屏保留、数据隔离、完整 API 额度和模型调用成本均为 source not stated。",
-      useCases: "具体场景包括折叠屏 UI 回归、端侧 AI 推理性能、相机/传感器路径、跨芯片行为、真实权限弹窗、不同屏幕尺寸和硬件特定 bug 的验证。agent 可以在生成代码后启动应用、走完多步用户旅程、发现视觉错位、查看日志、测量芯片性能并验证修复；人类工程师则可以通过实时 Device Streaming 重现失败。它把真实设备差异放进开发循环，而非仅在发布前做一次人工验收。",
-      painPointsSolved: "DDP 解决企业需要购买、维护和并行接入大量测试手机的问题，也减少只在开发者自己的手机上测试而误判兼容性的风险。远程设备、日志和 API 让失败更容易复现，智能分片和重试减少整批测试的等待时间。它没有自动保证测试覆盖、agent 判断质量或真实用户网络代表性；如果设备目录不透明、会话权限不清或日志不能回放，自动化仍会把失败变成难以审计的黑箱。",
-      userVoice: "公开材料当前以 Google Cloud 官方 preview 和 release notes 为主，尚无足够独立用户评测来判断设备排队、远程延迟、录像/日志体验、计费可预测性或 agent 误操作的真实摩擦。官方 release notes 明确将其标为 Preview / Pre-GA，说明支持和稳定性可能有限。今天可以确认产品表面与 API 方向，不能把 public preview 写成成熟的全球设备覆盖。",
-      newTech: "新技术在于把 coding agent 的行动能力连接到真实物理设备。过去 agent 多在模拟器或代码仓库里循环；DDP 把设备预留、实时操作、视觉检查、性能分析和日志查找组合成可调用的工具链。它也把“设备差异”变成 agent 的观察变量：芯片、折叠状态、屏幕尺寸和系统权限都能进入测试证据。Google 尚未公开 agent skill 的完整权限模型和安全隔离细节。",
-      availability: "Google Cloud 官方公告称 DDP 从 2026 年 8 月 12 日开始 public preview，面向 Google Cloud 用户，按 active testing minutes 计费。release notes 说明当前 offering 以 Android command line 为主，计划加入 Google Cloud console 集成和 iOS 支持。今天可确认 public preview、Android 方向和列出的 API；具体地区、设备清单、配额、价格表、SLA、企业数据处理条款和 iOS 时间表均需以账户与官方文档为准。",
-      limitsOrUnknowns: "关键未知包括真实设备库存与地域覆盖、并发和排队、交互延迟、摄像头/麦克风/定位权限、录像与日志保留、设备重置隔离、agent 是否可执行高风险操作、测试失败后的复现完整度、端侧 AI 的芯片遥测粒度以及 physical device 与 emulator 的差异说明。Preview/Pre-GA 意味着产品行为可能变化，不能把当前 API 视为稳定长期承诺。",
-      productVerdict: "DDP 是本期最清晰的 developer surface：它把 agent 从“写代码”推进到“在真实设备上验证行为”，并给出设备目录、流式交互、并行测试和日志证据。产品判断：它对 AI 移动产品的价值取决于硬件覆盖、权限审计和失败回放，不取决于 agent 能否点击按钮。下一步应实测设备矩阵、延迟、计费、日志与安全边界，再决定是否把它纳入日常 CI。"
-    },
-    en: {
-      productName: "Google Developer Device Platform is a Google Cloud device service for agentic mobile-app development. Extending the Firebase Test Lab tradition, it offers physical Android devices, high-concurrency emulators, device catalogs, remote streaming, parallel runs, logs, and an agent skill. Its users are mobile developers, QA teams, enterprise engineering groups, and agents that must validate edge-AI or hardware variance.",
-      productType: "The product combines a cloud device farm, orchestration APIs, a remote interaction surface, CI/CD test services, and coding-agent tooling. Device Catalog describes device types; Device Streaming API connects to a physical device or emulator; Device Run executes tests in parallel; Find Logs supports result diagnosis. It is a developer surface, not a consumer AI application.",
-      interactionFlow: "A developer or agent queries the catalog, selects a physical Android device or emulator, reserves it, connects through Device Streaming, and scrolls or clicks through the app while inspecting performance and logs. Repeatable journeys move into Device Run and CI/CD, where smart sharding and automatic retries run across hundreds of devices. The agent skill can find and reserve devices, execute multi-step journeys, spot visual artifacts, analyze on-device chip performance, and validate a hardware-specific fix.",
-      specsOrStack: "Google lists Device Streaming API, Device Run API, Device Catalog, Find Logs, an agent skill, physical devices, high-concurrency virtual emulators, smart sharding, and automatic retries. The announcement also says DDP will integrate with Android Studio and Android CLI. Public preview opened to Google Cloud users on August 12 and charges by active testing minute, with different emulator and physical-device rates. Device coverage, concurrency limits, network conditions, recording retention, isolation, quotas, and model-call costs are source not stated.",
-      useCases: "Concrete uses include foldable UI regression, on-device AI performance, camera and sensor paths, cross-chip behavior, real permission prompts, screen-size differences, and hardware-specific bug validation. After generating code, an agent can launch the app, complete a multi-step journey, detect visual artifacts, inspect logs, measure chip performance, and validate a fix; an engineer can reproduce a failure through live streaming. Hardware variance becomes part of the development loop instead of a final manual check.",
-      painPointsSolved: "DDP addresses the cost of purchasing, maintaining, and parallelizing large fleets of test phones, and it reduces the risk of treating one developer’s handset as the market. Remote devices, logs, and APIs make failures more reproducible; sharding and retries reduce batch wait time. It does not guarantee test coverage, agent judgment, or representative real-world networks. Opaque inventory, unclear session permission, or non-replayable logs would still make the automation difficult to audit.",
-      userVoice: "Public evidence is currently Google’s preview announcement and release notes, with insufficient independent user reporting to judge queueing, remote latency, recording and log ergonomics, billing predictability, or agent misoperation. The release notes explicitly label the service Preview / Pre-GA, which implies limited support and possible behavior change. The confirmed surface is the product and API direction, not mature global device coverage.",
-      newTech: "The new capability is connecting a coding agent to physical devices as an observable action loop. Instead of cycling only through a simulator or repository, the agent can reserve hardware, interact in real time, check visuals, analyze performance, and find logs. Device variance becomes an observation variable: chip, fold state, screen size, and system permissions can enter the evidence. Google has not published the complete permission and isolation model for the agent skill.",
-      availability: "Google says DDP entered public preview for Google Cloud users on August 12, 2026, with billing based on active testing minutes. Release notes describe the current offering as Android command-line oriented and say console integration and iOS support are planned. The confirmed availability is public preview and its Android API direction; regions, device inventory, quotas, price tables, SLA, enterprise data terms, and iOS timing require account-level or official-document verification.",
-      limitsOrUnknowns: "Key unknowns include regional inventory, concurrency and queueing, interaction latency, camera/microphone/location permissions, recording and log retention, device-reset isolation, whether an agent can perform risky operations, failure-replay completeness, edge-AI telemetry granularity, and emulator-versus-physical differences. Preview/Pre-GA means behavior may change; the current API should not be treated as a durable long-term contract.",
-      productVerdict: "DDP is the issue’s clearest developer surface because it moves an agent from writing code to validating behavior on real devices, with a catalog, streaming interaction, parallel runs, and logs. Verdict: its value for AI mobile products depends on hardware coverage, permission audit, and failure replay—not on whether an agent can click a button. Test the device matrix, latency, billing, logs, and security boundary before putting it into daily CI."
-    }
-  }
-};
-
-const robotPhone = {
-  id: "honor-robot-phone-4dof-gimbal",
-  section: "china",
-  zhHeadline: "HONOR Robot Phone：让手机的相机真的开始移动",
-  enHeadline: "HONOR Robot Phone makes the phone camera physically move",
-  zhFact: "HONOR 官方宣布 Robot Phone 在中国上市，提供 12GB+512GB 与 16GB+1TB 两种配置，定价分别为 RMB 9,999 与 RMB 12,999；官方页披露 Titanium Agile Gimbal、YOYO Robot Mode 和 ARRI Image Science。T3、PetaPixel、Tom’s Guide、WIRED 与 Android Authority 的上手报道均把 4-DoF/机械云台作为核心体验。美国可得性、Google 服务、长期耐久与第三方应用控制接口仍需区分已知与未知。",
-  enFact: "HONOR announced that the Robot Phone entered sales in China in two configurations: 12GB+512GB at RMB 9,999 and 16GB+1TB at RMB 12,999. The official product page names the Titanium Agile Gimbal, YOYO Robot Mode, and ARRI Image Science. Hands-on reports from T3, PetaPixel, Tom’s Guide, WIRED, and Android Authority treat the 4-DoF mechanical gimbal as the central experience. Availability outside China, Google services, long-term durability, and third-party camera control remain separate questions.",
-  zhValue: "它不是把一个 AI 聊天入口塞进手机，而是把相机从固定模块变成可以转动、抬头、跟踪和改变取景的物理执行器。创作者可以把手机放在桌面上，让云台跟随人物；旅行者可以用手机完成比普通手机更稳定的移动拍摄；YOYO Robot Mode 则让机械结构用点头、转向或舞动表达状态。这个形态把计算摄影、机械控制、被摄主体识别与声音方向重新放进同一个产品回路，也让耐久、夹伤、遮挡、误跟踪和电量成为可见成本。",
-  enValue: "This is not only a chat entry point placed inside a phone. It turns the camera from a fixed module into a physical actuator that can rotate, tilt, track, and change framing. A creator can place the phone on a table and let the gimbal follow a person; a traveler can get more stable moving footage without carrying a separate pocket gimbal; YOYO Robot Mode uses nods, turns, and motion as a playful state expression. The form reconnects computational photography, mechanical control, subject recognition, and audio direction in one product loop, while making durability, obstruction, mis-tracking, pinch risk, and battery cost visible.",
-  zhHciLens: ["物理意图", "动作可见性", "单人拍摄"],
-  enHciLens: ["physical intent", "motion legibility", "solo capture"],
-  zhImplication: "具身 AI 的关键反馈不只在屏幕上。云台开始移动前，用户需要知道它将跟踪谁、转向哪里、是否会越过安全边界；移动中要看到目标锁定、人工接管和停止入口；失败时要回到固定镜头或手动取景。Robot Phone 把“动作”变成了系统输出，产品必须像展示按钮状态一样展示运动意图。",
-  enImplication: "Embodied AI needs feedback beyond the screen. Before the gimbal moves, the user needs to know whom it will track, where it will turn, and whether it may cross a safety boundary. During motion, the target lock, manual takeover, and stop control need to remain legible. When tracking fails, the system should return to a fixed camera or manual framing. Robot Phone makes motion a system output, so the product must expose physical intent as clearly as it exposes a button state.",
-  sourceDate: "2026-08-12 official launch · 2026-08-17 PetaPixel hands-on · 2026-08-19 T3 hands-on · 2026-08-21 current source sweep",
+  zhHeadline: "Orbbec：把具身 AI 的“看见”拆成采集平台与机器人视觉相机",
+  enHeadline: "Orbbec splits physical-AI seeing into data capture and robot vision",
+  zhFact: "Orbbec 在 8 月 19 日 WRC 2026 发布无本体数据采集硬件平台与 Physis 机器人视觉相机系列。官方称平台覆盖 EGO 第一视角、UMI 手持、WristCam 腕部近场和 Hub 同步中枢；多相机硬件同步误差低于 1ms、出厂标定误差低于 0.3 像素。具体 SKU 价格、交付、SDK 与完整数据格式尚未在该发布页公开。",
+  enFact: "At WRC 2026 on August 19, Orbbec announced a Robot-Free Data Collection Hardware Platform and the Physis robotics-vision camera series. The official release describes EGO first-person, UMI handheld, WristCam near-field, and Hub synchronization forms; it claims hardware multi-camera synchronization error below 1 ms and factory-calibration error below 0.3 pixels. The release does not provide SKU pricing, delivery, SDK details, or a complete data schema.",
+  zhValue: "Orbbec 处理的是机器人训练和验证中最容易被忽略的采集层：人如何戴着设备完成真实操作，多个相机、IMU 和动作轨迹如何同步，数据如何在进入模型前被检查。它把具身数据从一次性演示素材变成可重复的硬件矩阵，也让机器人视觉相机从单个传感器升格为可部署的空间感知组件。对产品团队来说，价值在于减少“模型失败但不知道是数据、同步还是视觉”的黑箱。",
+  enValue: "Orbbec is addressing the often invisible capture layer of robot training and validation: how a person performs a real task while wearing equipment, how cameras, IMUs, and action trajectories stay synchronized, and how data is checked before it reaches a model. The company is turning embodied data from one-off demo footage into a repeatable hardware matrix, while positioning Physis cameras as deployable spatial-perception components. The product value is less a new end-user interface than a way to reduce the black box where a robot failure could come from data, synchronization, or vision.",
+  zhHciLens: ["采集：第一视角、手部、腕部", "反馈：同步/标定/质量状态", "系统：训练数据生产线"],
+  enHciLens: ["Capture: first-person, hand, wrist", "Feedback: sync, calibration, quality state", "System: training-data production line"],
+  zhImplication: "具身产品的交互设计不只发生在机器人执行时，也发生在数据采集者按下记录键、重做失败动作、查看同步状态的时刻。采集设备必须把丢帧、曝光、标定、动作完整性和传感器时钟变成现场可读反馈，否则训练团队会把“坏数据”误当成“坏模型”。",
+  enImplication: "Embodied-product interaction design also happens when a data operator starts a capture, repeats a failed action, or checks synchronization. Capture hardware needs legible feedback for dropped frames, exposure, calibration, action completeness, and sensor clocks; otherwise a training team will treat bad data as a bad model.",
+  sourceDate: "2026-08-19 official WRC release · 2026-08-19 China official release · 2026-08-23 current source sweep",
   evidenceLabel: "confirmed product",
-  evidenceStrength: "confirmed product · official launch · independent hands-on · China availability",
-  visual: {
-    path: "assets/honor-robot-phone-official-2026-08.png",
-    width: 1600,
-    height: 1000,
-    kind: "source-backed page screenshot",
-    altZh: "HONOR Robot Phone 官方产品页截图",
-    altEn: "HONOR Robot Phone official product page",
-    captionZh: "来源追踪视觉：HONOR Robot Phone 官方产品页；页面展示 Titanium Agile Gimbal、YOYO Robot Mode、ARRI Image Science 与 Buy 入口。中国销售和海外可得性需分开记录。",
-    captionEn: "Source-traceable visual: HONOR Robot Phone official product page. The page shows the Titanium Agile Gimbal, YOYO Robot Mode, ARRI Image Science, and a Buy entry; China sales and overseas availability are tracked separately.",
-    sourceUrl: "https://www.honor.com/global/phones/honor-robot-phone/"
-  },
+  evidenceStrength: "confirmed product · official robotics infrastructure launch",
+  visual: { path: "assets/orbbec-wrc-physical-ai-official-2026-08.png", width: 1600, height: 900, kind: "source-backed page screenshot", altZh: "Orbbec WRC 2026 具身视觉发布页截图", altEn: "Orbbec WRC 2026 embodied-vision launch page", captionZh: "来源追踪视觉：Orbbec 官方 WRC 2026 发布页，覆盖 Robot-Free Data Collection Hardware Platform 与 Physis 机器人视觉相机。", captionEn: "Source-traceable visual: Orbbec's official WRC 2026 release covering the Robot-Free Data Collection Hardware Platform and Physis robotics cameras.", sourceUrl: "https://www.orbbec.com/news/orbbec-unveils-two-new-product-lines-at-wrc-2026-advancing-scalable-physical-ai-data-collection-and-human-like-robotics-vision/" },
   sources: [
-    { label: "HONOR official launch announcement", url: "https://www.honor.com/global/news/honor-robot-phone-launch/" },
-    { label: "HONOR Robot Phone official product page", url: "https://www.honor.com/global/phones/honor-robot-phone/" },
-    { label: "HONOR China launch announcement", url: "https://www.honor.com/cn/news/honor-robot-phone-launch/" },
-    { label: "PetaPixel hands-on review", url: "https://petapixel.com/2026/08/17/honor-robot-phone-hands-on-this-isnt-a-gimmick/" },
-    { label: "T3 hands-on review", url: "https://www.t3.com/tech/android-phones/after-using-the-honor-robot-phones-basically-peerless-gimbal-camera-i-cant-work-out-if-its-the-future-or-not" },
-    { label: "Tom's Guide hands-on", url: "https://www.tomsguide.com/phones/i-tried-the-honor-robot-phone-and-its-the-coolest-phone-in-years-thats-not-coming-to-the-us" },
-    { label: "WIRED product report", url: "https://www.wired.com/story/honor-robot-phone/" },
-    { label: "Android Authority hands-on", url: "https://www.androidauthority.com/honor-robot-phone-hands-on-3697387/" },
-    { label: "HONOR Robot Phone community discussion", url: "https://www.reddit.com/r/Honor/comments/1vn7kot/honors_new_flagship_takes_smartphone_photography/" }
+    { label: "Orbbec official WRC release", url: "https://www.orbbec.com/news/orbbec-unveils-two-new-product-lines-at-wrc-2026-advancing-scalable-physical-ai-data-collection-and-human-like-robotics-vision/", type: "official" },
+    { label: "Orbbec China release", url: "https://orbbec.com.cn/index.php/index/News/info.html?cate=31&id=380", type: "china" },
+    { label: "Reuters WRC robotics report", url: "https://ca.investing.com/news/stock-market-news/china-robot-makers-seek-to-turn-humanoid-hype-into-useful-work-4808527", type: "global" }
   ],
   dossierKind: "product",
-  dossier: {
-    zh: {
-      productName: "HONOR Robot Phone 是荣耀面向中国市场推出的具身摄影型智能手机。它用可伸缩、可转动的 Titanium Agile Gimbal 取代固定主摄模块，把手机从被动记录工具变成能够改变镜头方向、跟踪主体和表达状态的物理系统。官方在 2026 年 8 月 12 日发布，官方销售从 8 月 18 日开始；媒体在中国进行了现场上手。",
-      productType: "产品类型是 Android 智能手机、机械云台相机和 AI 拍摄系统的组合。手机主体仍然承担通讯、计算和显示，顶部的主摄则拥有独立的机械运动。官方称它采用 4-DoF mechanical gimbal，并把 ARRI Image Science、YOYO Robot Mode 和 AI-powered motion control 作为产品卖点。它的竞争边界同时触及传统旗舰手机、DJI Osmo Pocket 一类的口袋云台相机，以及需要自己架设三脚架或请人跟拍的内容创作工具。",
-      interactionFlow: "用户可以像使用普通手机一样打开相机，也可以让机械云台弹出并通过屏幕方向控制、语音或 AI subject tracking 改变镜头姿态。拍摄者把手机放在桌面、支架或手中，选择人物、宠物或运动对象，系统再让相机持续跟随或保持构图。媒体上手还描述了云台的转动、滚转、追踪和 YOYO Robot Mode 的动作表达。公开证据没有完整展示第三方应用如何调用云台、动作开始前的确认、目标误锁时的接管、物理停止键、夹伤保护或断电收回流程；这些都属于使用前必须验证的控制面。",
-      specsOrStack: "HONOR 官方发布信息列出 12GB+512GB 和 16GB+1TB 两个配置，价格为 RMB 9,999 与 RMB 12,999；官方称其拥有完全集成的 4-DoF mechanical gimbal、HONOR Titanium Agile Gimbal、AI-powered motion control 和 ARRI Image Science。PetaPixel、T3、Tom’s Guide 和 HardwareZone 的报道补充了 200MP、f/1.6 主摄与 Snapdragon 8 Elite Gen 5 等信息，但不同媒体对传感器尺寸、DoF 表述和完整相机组合的写法不完全一致，因此规格需按各自来源保留。官方与评测没有完整公开云台电机型号、运动范围、关节寿命、RAM 之外的存储策略、Camera2/CameraX API、第三方 app 支持、端云模型路由、续航与维修成本；未声明部分均为 source not stated。",
-      useCases: "具体场景包括单人 vlog、桌面直播、旅行记录、家庭活动、宠物跟拍、运动拍摄、动态合影和需要稳定移动镜头的短视频生产。创作者可以把手机放在远处，让相机追踪自己，减少一只手拿手机或另带 pocket gimbal 的负担；旅行者可以在同一台设备上完成拍摄、剪辑、通讯和发布；普通用户可以把机械动作作为拍照反馈或陪伴式表情。手机形态还保留了传统手持拍摄路径，用户可以关闭跟踪并手动构图。中国限定、系统服务差异和大型机身的口袋携带成本，会直接影响这些场景是否成立。",
-      painPointsSolved: "Robot Phone 试图解决单人拍摄需要额外三脚架、云台或第二个人操作的问题，也试图把稳定、跟踪和主体构图从拍摄者的手部操作中释放出来。机械云台让相机可以主动保持人物在画面里，减少走动时的抖动和反复回看；手机与云台合体则减少一个设备、一个电池和一次文件转移。它没有消除手机拍摄的光线、收音、取景和社交摩擦。T3 的上手判断对画面稳定和移动跟踪较积极，但 Tom’s Guide 指出低光表现和真正竖屏录制存在问题；WIRED 认为 YOYO 与机械动作的 AI 结合更像 gimmick。痛点解决程度因此集中在镜头控制，而非泛化的 AI 助手能力。",
-      userVoice: "PetaPixel 认为这是一款已经完成、并且机械云台确实工作的产品，但也指出体验是在发布会和共享设备条件下完成，长期耐久仍待验证。Tom’s Guide 的早期判断肯定顺滑、无抖动的视频和 AI 主体跟踪，同时列出低光与竖拍局限。T3 的上手文章认为云台相机很有说服力，却对它是否代表未来保持犹豫。WIRED 对 YOYO Robot Mode 的评价更保守。Reddit 讨论则集中在中国限定、是否支持 Google 服务、价格与第三方相机 API；这些是社区摩擦信号，不能替代官方规格。",
-      newTech: "新技术是把机械运动直接纳入手机相机的默认交互。4-DoF 云台让镜头可以做超出传统 OIS 的姿态变化，AI subject tracking 负责把运动目标转成控制命令，ARRI Image Science 负责向专业影像工作流靠拢，YOYO Robot Mode 则把机械动作变成可理解的角色反馈。真正的产品难点在控制闭环：视觉模型要识别目标，规划器要决定跟随速度和角度，电机要在热量与电量限制内执行，系统还要在遮挡、丢失、用户触碰和旁观者环境变化时及时停止。官方没有公开模型、控制频率或安全阈值。",
-      availability: "HONOR 官方称中国预订从 2026 年 8 月 12 日开始，正式销售从 8 月 18 日开始；官方给出的配置和价格是 RMB 9,999 与 RMB 12,999。官方全球产品页存在 Buy 入口，但公开材料没有确认中国以外的正式销售地区、库存、发货、保修和 Google 移动服务。WIRED 报道它目前为 China-exclusive，并指出 HONOR 在美国没有销售存在。今天可以确认中国市场产品与独立上手，不应把全球可买或开发者 API 写成已确认事实。",
-      limitsOrUnknowns: "长期使用的核心未知是云台机构的跌落、灰尘、进液、口袋挤压和反复伸缩寿命；单人拍摄的关键未知是误跟踪、遮挡、多人场景目标切换、低光和竖屏构图；系统层的关键未知是第三方相机 app 是否能调用云台、YOYO 是否依赖网络、Google 服务是否存在、数据是否上传以及用户能否导出或删除训练相关记录。大体积、价格、机械噪声、发热和电池消耗也可能抵消少带一个设备的收益。所有未被官方或独立评测明确说明的数字、地区、接口和寿命，均应保持 source not stated。",
-      productVerdict: "HONOR Robot Phone 是本期最强的 confirmed product：它把具身 AI 的承诺落到可见的机械动作，并且已经有中国销售、官方规格与多家独立上手。它的真实价值集中在单人拍摄和移动构图，YOYO 的人格化动作目前更像加分项，不能替代稳定的控制、停止和恢复。产品判断：机械云台与拍摄链路值得关注，AI 助手叙事需要降权；下一步优先验证第三方应用接入、长周期耐久、低光/竖屏、误跟踪恢复与全球服务边界。"
-    },
-    en: {
-      productName: "HONOR Robot Phone is a China-launched smartphone built around embodied photography. Its retractable, movable Titanium Agile Gimbal replaces the idea of a fixed main-camera module with a physical system that can change lens direction, track a subject, and express state through motion. HONOR announced it on August 12, 2026, and official sales began on August 18; independent outlets have handled the device in China.",
-      productType: "The product combines an Android smartphone, a mechanical gimbal camera, and an AI-assisted capture system. The handset still provides communication, computation, and display, while the top-mounted main camera has its own mechanical movement. HONOR describes a fully integrated 4-DoF mechanical gimbal and positions ARRI Image Science, YOYO Robot Mode, and AI-powered motion control as product pillars. Its competitive boundary touches flagship phones, pocket gimbals such as DJI Osmo Pocket, and the tripod-or-second-person workflow used by solo creators.",
-      interactionFlow: "A user can open the camera like a normal phone, then let the mechanical gimbal extend and change its pose through on-screen directional control, voice, or AI subject tracking. The creator places the phone on a table, stand, or in a hand, selects a person, pet, or moving object, and lets the camera maintain a target or composition. Hands-on reports describe the gimbal rolling, turning, tracking, and using YOYO Robot Mode for expressive movement. Public evidence does not expose the complete third-party app path, pre-motion confirmation, takeover after a wrong lock, physical stop control, pinch protection, or power-loss retraction. Those control surfaces need acceptance testing before the motion is treated as trustworthy.",
-      specsOrStack: "HONOR’s launch information lists 12GB+512GB and 16GB+1TB configurations priced at RMB 9,999 and RMB 12,999, and names a fully integrated 4-DoF mechanical gimbal, HONOR Titanium Agile Gimbal, AI-powered motion control, and ARRI Image Science. PetaPixel, T3, Tom’s Guide, and HardwareZone add details including a 200MP f/1.6 main camera and Snapdragon 8 Elite Gen 5, but outlets do not describe every sensor size, DoF definition, or camera combination identically, so each specification stays tied to its source. HONOR and reviewers have not fully disclosed motor model, motion range, joint life, Camera2/CameraX access, third-party application support, edge-cloud model routing, runtime, or repair cost. Unstated details remain source not stated.",
-      useCases: "Concrete use cases include solo vlogging, desk livestreams, travel capture, family activities, pet tracking, sports footage, dynamic group photos, and short-form video that needs a stable moving viewpoint. A creator can place the phone at a distance and let the camera follow, reducing the need to hold a phone or carry a second pocket gimbal. A traveler can capture, edit, communicate, and publish from the same device. A casual user can treat mechanical movement as a photo cue or companion-like expression. The conventional handheld path remains available when tracking is disabled. China-only availability, service differences, and pocket bulk directly affect whether these scenarios persist beyond a demo.",
-      painPointsSolved: "Robot Phone targets the solo-creation problem of needing a tripod, gimbal, or second operator for stable tracking and framing. The mechanical head can keep a person in shot and reduce shake or repeated reframing; integrating phone and gimbal also removes one device, one battery, and one file-transfer step. It does not remove lighting, audio, framing, or social friction from mobile capture. T3 is positive about stability and subject tracking while remaining uncertain about the category’s future. Tom’s Guide highlights smooth video and tracking but lists weak low-light performance and the lack of true vertical video. WIRED treats the YOYO-plus-motion layer as more gimmicky. The strongest value is camera control, not a general-purpose AI assistant.",
-      userVoice: "PetaPixel calls the product finished and says the mechanical gimbal genuinely works, while noting that the experience was a launch event with shared devices rather than long-term ownership. Tom’s Guide’s early verdict praises smooth, shake-free video and AI subject tracking, while listing low-light and vertical-video limits. T3 describes a compelling gimbal camera but remains unsure whether it represents the future. WIRED is more skeptical of YOYO’s robotic-AI presentation. Reddit discussions focus on China-only availability, Google-service questions, price, and third-party camera APIs. Those are community-friction signals and do not replace official specifications.",
-      newTech: "The new technology is the inclusion of mechanical motion inside the default phone-camera interaction. A 4-DoF gimbal can change pose beyond traditional optical stabilization; AI subject tracking converts a visual target into control commands; ARRI Image Science connects the device to a professional-imaging narrative; and YOYO Robot Mode turns movement into legible character feedback. The real product challenge is the control loop: vision must identify the target, a planner must choose speed and angle, motors must execute within heat and power limits, and the system must stop when occlusion, loss, touch, or bystander conditions change. HONOR has not published the model, control frequency, or safety thresholds.",
-      availability: "HONOR says China pre-orders began on August 12, 2026, with official sales beginning on August 18; the company lists 12GB+512GB at RMB 9,999 and 16GB+1TB at RMB 12,999. A global product page contains a Buy entry, but public material does not confirm formal sales regions outside China, inventory, shipping, warranty, or Google Mobile Services. WIRED describes the phone as China-exclusive and notes that HONOR has no US presence. The confirmed surface today is a China-market product with independent hands-on evidence, not global availability or a public developer API.",
-      limitsOrUnknowns: "The main long-term unknown is the gimbal mechanism’s resistance to drops, dust, liquid, pocket pressure, and repeated extension. Solo-capture questions include wrong tracking, occlusion, multi-person target switching, low light, and vertical framing. System questions include third-party camera access, YOYO’s network dependency, Google services, upload behavior, and export or deletion of training-related records. Bulk, price, mechanical noise, heat, and battery drain can also erase the benefit of carrying one fewer device. Any number, region, interface, or lifetime not explicitly stated by the official or independent sources remains source not stated.",
-      productVerdict: "HONOR Robot Phone is the issue’s strongest confirmed product because it puts embodied-AI claims into visible mechanical action, with China sales, official product facts, and multiple independent hands-on reports. Its defensible value is solo capture and moving composition; YOYO’s personality layer is an accessory to reliable control, stop, and recovery rather than a substitute for them. Verdict: the gimbal and capture loop deserve serious attention, while the AI-assistant story should be discounted until third-party access, long-cycle durability, low-light and vertical capture, wrong-target recovery, and global service boundaries are verified."
-    }
-  }
+  dossier: { zh: {
+    productName: "Orbbec 在 WRC 2026 发布的两条产品线，分别是无本体具身数据采集硬件平台与 Physis 机器人视觉相机系列。它面向机器人公司、具身模型团队、数据采集团队和工业部署方，提供从第一视角/手部数据到空间视觉传感的基础模块。",
+    productType: "产品类型是 B2B 具身数据采集系统与机器人视觉硬件，不是面向普通消费者的机器人。采集平台由 EGO、UMI、WristCam 和 Hub 组成矩阵，Physis 则承担宽视野成像、空间感知和部署可靠性。公开资料没有把具体相机型号、配套软件版本和商业交付 SKU 完整列出。",
+    interactionFlow: "采集者穿戴或手持设备执行真实任务，系统同时记录第一视角、手部/腕部近场、运动与其他模态数据，再由同步中枢组织成可用于训练与验证的记录。机器人部署方使用 Physis 获取环境和空间信息。当前公开页面说明了形态和同步目标，但没有展示完整的录制、重采、质检、暂停、数据删除、权限和 SDK 调用流程；这些是落地采购前的验收项。",
+    specsOrStack: "Orbbec 官方称硬件级多相机同步误差低于 1ms，出厂标定误差低于 0.3 像素；中国官方发布还明确 EGO 第一视角、UMI 手持操作、WristCam 腕部近场与 Hub 同步中枢四类形态。官方发布没有说明每个 SKU 的分辨率、帧率、IMU 型号、接口、传输协议、存储、SDK 版本、价格和交付周期，均为 source not stated。",
+    useCases: "具体场景包括采集人类操作示范、训练人形机器人和灵巧手、验证 VLA/世界模型、重建工厂或仓储空间、采集腕部近场装配动作，以及为机器人视觉部署提供宽视野与空间深度。对于需要大规模复现同一任务的团队，硬件矩阵可减少临时拼装相机和后期对时。对于普通用户，公开材料没有消费级购买路径或直接使用场景。",
+    painPointsSolved: "它试图解决具身 AI 数据稀缺、第一视角与手部视角缺失、跨传感器不同步、标定误差难以追踪、现场录制质量不稳定的问题。把采集设备拆成可组合矩阵，有助于把“数据从哪里来”变成产品化流程。它没有自动保证动作语义正确、隐私合规、训练标签质量或机器人迁移成功；同步指标也不能单独证明最终模型更强。",
+    newTech: "新技术重点是无本体数据采集与面向人类视觉的 Physis 感知组合。其产品化难点不在单个相机，而在硬件时钟、空间标定、第一视角和手部近场的统一坐标、现场质量反馈、数据封装与下游训练接口。如果采集者看不见丢帧或标定状态，系统再高精度也会变成不可解释的数据管道。",
+    availability: "Orbbec 官方确认新品在 WRC 2026 发布并展示；公开材料确认产品线与平台形态，没有确认所有 SKU 的量产库存、价格、交付、地区销售、SDK 开放程度或采购门槛。Reuters 报道 WRC 正从演示转向工业场景，但行业展会展示不等于每一款硬件已可购买。",
+    limitsOrUnknowns: "未知包括具体型号和量产计划、端侧/云端处理、数据格式、隐私与脱敏、标定维护、户外和复杂光照、相机遮挡、动作重做、长期佩戴、SDK/ROS/Isaac 集成以及最终训练收益。官方同步与标定数字属于来源声明，不应外推为所有部署场景的实际效果。",
+    productVerdict: "Orbbec 的新产品线是 confirmed product，重要性在于它把具身 AI 的观察链路做成可交付基础设施。判断：值得跟踪其 EGO/UMI/WristCam/Hub 的 SKU、数据 schema、现场质检和开发者接口；在这些信息公开前，应把它当作已发布的基础设施方向，而不是已验证的全栈训练结果。"
+  }, en: {
+    productName: "Orbbec’s two WRC 2026 product lines are a robot-free embodied-data collection hardware platform and the Physis family of robotics-vision cameras. They target robot builders, embodied-model teams, data-collection operators, and industrial integrators with modules for first-person and hand data as well as spatial perception.",
+    productType: "This is B2B embodied-data and robotics-vision infrastructure, not a consumer robot. The collection platform is described as an EGO, UMI, WristCam, and Hub matrix; Physis provides wide-field imaging, spatial perception, and deployment-oriented reliability. The public release does not enumerate every camera SKU, software version, or commercial delivery package.",
+    interactionFlow: "An operator wears or holds the collection hardware while performing a real task. The system records first-person, hand or wrist close-up, motion, and other modalities, then uses a synchronization hub to organize a training and validation record. A robot integrator uses Physis to perceive an environment and spatial structure. Public material describes forms and synchronization goals but does not show the complete start, re-capture, quality-control, pause, deletion, permission, or SDK flow; those are procurement acceptance items.",
+    specsOrStack: "Orbbec says hardware-level multi-camera synchronization error is below 1 ms and factory-calibration error below 0.3 pixels. The China release names four forms: EGO first-person, UMI handheld operation, WristCam near-field wrist, and Hub synchronization. The release does not specify resolution, frame rate, IMU model, connectors, transport protocol, storage, SDK version, price, or delivery schedule for each SKU. Those details remain source not stated.",
+    useCases: "Concrete use cases include collecting human demonstrations, training humanoids and dexterous hands, validating VLA and world models, reconstructing factory or warehouse space, recording wrist-level assembly actions, and supplying wide-field and depth perception for deployed robots. For teams repeating a task at scale, a hardware matrix can reduce ad hoc camera assembly and post-hoc time alignment. The public evidence gives no consumer purchase route or direct everyday-user scenario.",
+    painPointsSolved: "The products target embodied-AI data scarcity, missing first-person and hand views, cross-sensor timing drift, hard-to-trace calibration error, and inconsistent field recording quality. A composable collection matrix can turn where data comes from into a productized workflow. It does not guarantee correct action semantics, privacy compliance, label quality, or successful robot transfer; synchronization metrics alone do not prove a better final model.",
+    newTech: "The new technology is the combination of robot-free data collection and a Physis perception family tuned toward human-like spatial sensing. The product challenge is not one camera; it is a common clock, spatial calibration, first-person and hand coordinate alignment, field quality feedback, data packaging, and downstream training interfaces. If the operator cannot see dropped frames or calibration state, a high-precision sensor becomes an opaque data pipeline.",
+    availability: "Orbbec has confirmed the product lines and public demonstration at WRC 2026. The reviewed material does not confirm mass inventory, price, delivery, regional sales, SDK access, or purchasing requirements for every SKU. Reuters describes WRC as a move from demos toward industrial use, but an exhibition presence is not proof that every shown hardware item is orderable.",
+    limitsOrUnknowns: "Unknowns include final SKUs and production plans, edge-versus-cloud processing, data schema, privacy and redaction, calibration maintenance, outdoor and difficult-light behavior, occlusion, action re-capture, long-term wear, SDK/ROS/Isaac integration, and measurable training benefit. The synchronization and calibration numbers are source-stated claims; they should not be generalized to every deployment condition.",
+    productVerdict: "Orbbec’s new lines are a confirmed product direction whose importance is making the embodied-AI observation loop deliverable infrastructure. Verdict: track the EGO/UMI/WristCam/Hub SKUs, data schema, field QA, and developer interfaces. Until those are public, treat it as a released infrastructure product family, not a verified full-stack training result."
+  } }
 };
 
-issue.topics.unshift(rayneoIo, orbbecPhysicalAi, googleDdp, robotPhone);
+const aperdata = {
+  id: "51world-aperdata-aper-ego-aperos",
+  section: "china",
+  zhHeadline: "51WORLD AperData：把“人怎么做”变成可训练的机器人数据资产",
+  enHeadline: "51WORLD AperData turns human action into a trainable robot-data asset",
+  zhFact: "51WORLD 在 8 月 18 日发布 AperData 与 AperOne；AperData 首发产品为 AperEgo 头戴采集设备与 AperOS 软件平台，官方页面显示首发价 RMB 5,100/套，支持四路 RGB、两路 IR 与 IMU 的统一接入、现场清晰度/曝光/丢帧/同步质检，并提供云端或私有化部署。",
+  enFact: "On August 18, 51WORLD introduced AperData and AperOne. The first AperData package combines the AperEgo head-mounted collector with AperOS software; the official page lists an introductory price of RMB 5,100 per set, unified access for four RGB streams, two IR streams, and IMU, plus on-site checks for clarity, exposure, dropped frames, and synchronization. It supports cloud or private deployment.",
+  zhValue: "AperData 把具身 AI 的瓶颈从“机器人不够聪明”转成“训练数据不够标准化”。采集者戴着 AperEgo 做任务，AperOS 负责任务分配、上传、预处理、对时、质检、标注、解算和数据集导出；现场直接给 PASS/WARN/FAIL，减少坏数据进入训练。它把一个本来由数据工人、脚本和工程师拼出来的链路包装为基础设施产品，也把操作者的每个动作变成可追溯的数据生产事件。",
+  enValue: "AperData reframes the embodied-AI bottleneck from robots being insufficiently intelligent to training data being insufficiently standardized. An operator wears AperEgo to perform a task; AperOS handles assignment, upload, preprocessing, time alignment, quality control, annotation, solving, and dataset export, with PASS/WARN/FAIL feedback at the site so bad captures can be repeated. It packages a workflow usually assembled from data workers, scripts, and engineers as infrastructure, and makes each operator action a traceable data-production event.",
+  zhHciLens: ["现场：任务驱动采集", "反馈：PASS/WARN/FAIL", "后端：数据治理与训练闭环"],
+  enHciLens: ["Field: task-driven capture", "Feedback: PASS/WARN/FAIL", "Backend: data governance and training loop"],
+  zhImplication: "具身系统的“可用性”要延伸到数据工人的现场：系统应让采集者知道任务、目标姿态、是否入镜、是否丢帧、是否需要重做，而不是把所有质量判断留给训练工程师。AperOS 的价值在于把这些状态前移，但公开材料仍需验证误报率、重采成本和不同本体之间的迁移。",
+  enImplication: "Embodied-system usability extends to the data operator in the field. The system should expose the task, target pose, whether the body is in frame, whether frames were dropped, and whether a re-take is needed instead of leaving every judgment to training engineers. AperOS moves these states forward; false-positive rates, re-capture cost, and transfer across embodiments still need verification.",
+  sourceDate: "2026-08-18 official product launch · 2026-08-19 official AperData page · 2026-08-19 SCMP · 2026-08-23 current source sweep",
+  evidenceLabel: "confirmed product",
+  evidenceStrength: "confirmed product · official availability and price · enterprise infrastructure",
+  visual: { path: "assets/aperdata-official-2026-08.png", width: 1600, height: 900, kind: "source-backed page screenshot", altZh: "51WORLD AperData 官方产品页截图", altEn: "51WORLD AperData official product page", captionZh: "来源追踪视觉：51WORLD 官方 AperData 页面展示 AperEgo、AperOS、5100 元首发价与 L1–L6 数据生产线。", captionEn: "Source-traceable visual: 51WORLD's official AperData page shows AperEgo, AperOS, the RMB 5,100 introductory price, and the L1–L6 data-production line.", sourceUrl: "https://www.51world.com.cn/aperdata" },
+  sources: [
+    { label: "51WORLD AperData official page", url: "https://www.51world.com.cn/aperdata", type: "official" },
+    { label: "51WORLD launch release", url: "https://www.prnewswire.com/news-releases/51world-unveils-two-embodied-ai-products-and-reveals-aerospace-strategy-from-low-altitude-to-deep-space-302855142.html", type: "official" },
+    { label: "SCMP data-capture report", url: "https://www-scmp-com.libproxy1.nus.edu.sg/tech/article/3364587/making-better-robots-depends-on-better-data-capture-chinese-firm-51world-says?module=top_story&pgtype=section", type: "reviews" },
+    { label: "51WORLD AperOne product page", url: "https://www.51aes.com/products/aperone?lang=en", type: "developer docs" }
+  ],
+  dossierKind: "product",
+  dossier: { zh: {
+    productName: "51WORLD AperData 是面向具身 AI 的软硬件一体数据底座，首发组合为 AperEgo 头戴采集设备与 AperOS 软件平台，另有 AperWristCAM 腕部相机和 AperFinger 夹爪采集手柄。它服务数采公司、本体机器人公司、VLA/世界模型团队和灵巧手研发团队。",
+    productType: "产品类型是企业级具身数据生产线，覆盖 L1–L6 的采集接入、数据治理、增广合成、标准数据集导出、训练评测闭环与私有化部署。AperEgo 负责现场多模态捕捉，AperOS 负责项目、任务、上传、预处理、质检、标注、解算和评测。AperOne 是相邻的数字孪生/部署平台，不应与 AperData 的采集硬件混写。",
+    interactionFlow: "团队创建项目和任务，服务器给采集端分配指定工作，采集者佩戴 AperEgo 执行动作；本地实时检查清晰度、曝光、丢帧率和多通道同步，并显示人体/手部姿态骨骼，给出 PASS/WARN/FAIL，必要时现场重录。数据上传后，AperOS 自动解包、时间对齐、标准化和高精度解算，再由专业人员进行质检、标注和评测，最后导出训练数据集。权限、原始数据删除、离线采集、人员隐私和跨组织数据隔离还需要采购验证。",
+    specsOrStack: "官方页面显示首发价 RMB 5,100/套，AperOS 支持四路 RGB、两路 IR 和 IMU 等多路传感器统一连接，通过统一会话时钟同步；AperEgo、AperWristCAM、AperFinger 覆盖头戴、腕部和夹爪采集。官方称相较传统真机遥操作成本效率可提升超过 10 倍，但明确这是内部测试预估，量产实测为准。镜头分辨率、帧率、IMU 规格、通信、存储、操作系统、SDK、原始数据格式与售后服务若未公开，均为 source not stated。",
+    useCases: "具体场景包括采集人类操作用于人形机器人训练、灵巧手抓取/旋拧/装配、工业产线 SOP 数字化、世界模型和 VLA 数据集生产、机器人任务验收，以及把现场动作转换为可复用训练资产。AperOne 还覆盖数字孪生重建、模拟训练、机器人选型与运营管理。对于企业，价值在于从一次演示转成可批量重复的任务数据；对于普通用户，没有直接消费级使用路径。",
+    painPointsSolved: "它解决的痛点是遥操作昂贵、采集设备碎片化、数据缺少质量门槛、坏数据上传后才发现、时间轴对不齐、标注和解算链路断裂。现场 PASS/WARN/FAIL 和姿态预览把质量判断前移，任务分发减少采集者误操作，私有化部署适配企业数据边界。它没有证明 10 倍效率在所有任务成立，也没有自动解决数据偏差、操作者疲劳、动作语义、跨本体迁移与隐私合规。",
+    newTech: "新技术是把头戴第一视角、腕部/夹爪近场、RGB/IR/IMU 同步、现场质量控制和数据治理平台组合为一条可交付流水线。对 HCI 的关键是“采集反馈”本身：采集者不应只按开始/停止，而应理解任务目标、动作是否完整、传感器是否正常、数据是否可用。AperOS 把模型训练前的不可见工程工作变成可见状态，也使“数据生产”成为产品界面。",
+    availability: "51WORLD 官方 AperData 页面显示首发价 RMB 5,100/套并提供立即预定/Book a Demo 路径；官方新闻稿称第一代产品立即可用。这里的立即可用是企业采购/预约口径，不等于普通零售库存；全球销售、交付周期、安装服务、SDK 许可和硬件保修未完整公开。",
+    limitsOrUnknowns: "未知包括量产交付规模、长时间佩戴、摄像头与 IMU 实际精度、网络断开、离线缓存、失败重采代价、PASS/WARN/FAIL 的判定准确性、原始数据保存和删除、私有化部署成本、SDK/ROS/Isaac 接入、不同机器人本体的轨迹映射以及 10 倍效率的可复现性。官方页面还把 99% 物理一致性与效率数字限定为内部测试/预估，不应写成独立验证结果。",
+    productVerdict: "AperData 是本期具身基础设施中最具体的 confirmed product：有官方产品页、价格、硬件组合、现场质检与数据闭环。判断：它比“机器人更聪明”的叙事更接近可采购的生产工具；下一步优先验证交付、真实采集质量、隐私/删除、开发者接口和跨本体迁移。"
+  }, en: {
+    productName: "51WORLD AperData is a software-and-hardware embodied-AI data foundation. Its first package combines the AperEgo head-mounted collector with AperOS, with AperWristCAM and AperFinger extending capture to the wrist and gripper. It targets data factories, robot builders, VLA/world-model teams, and dexterous-hand developers.",
+    productType: "The product is an enterprise data-production line spanning L1-L6: capture access, data governance, augmentation, standardized dataset export, training and evaluation, and private deployment. AperEgo captures multimodal field data; AperOS handles projects, tasks, upload, preprocessing, QA, annotation, solving, and evaluation. AperOne is a related digital-twin and deployment platform and should not be conflated with AperData’s capture hardware.",
+    interactionFlow: "A team creates a project and task, the server assigns work to a capture terminal, and an operator wears AperEgo while performing the action. Local checks inspect clarity, exposure, dropped-frame rate, and multichannel synchronization, while body and hand skeletons show whether the action is in frame; PASS, WARN, or FAIL determines whether a re-take is needed. After upload, AperOS unpacks, aligns time, standardizes, and solves the data before specialists handle QA, annotation, and evaluation, then export a training set. Permissions, raw-data deletion, offline capture, worker privacy, and cross-organization isolation still need procurement verification.",
+    specsOrStack: "The official page lists an introductory price of RMB 5,100 per set. AperOS supports unified connection for four RGB streams, two IR streams, and IMU through a common session clock; AperEgo, AperWristCAM, and AperFinger cover head, wrist, and gripper capture. 51WORLD says cost efficiency can improve by more than 10x versus traditional real-robot teleoperation, but qualifies that as an internal estimate subject to mass-production measurement. Resolution, frame rate, IMU details, transport, storage, operating system, SDK, raw-data format, and service terms remain source not stated unless separately published.",
+    useCases: "Concrete use cases include human-action capture for humanoid training, dexterous grasping, twisting and assembly, industrial SOP digitization, world-model and VLA dataset production, robot-task acceptance, and conversion of field actions into reusable training assets. AperOne adds digital-twin reconstruction, simulation training, robot selection, and operations management. For an enterprise, the value is turning a demo into a repeatable task-data pipeline; there is no direct consumer path in the reviewed evidence.",
+    painPointsSolved: "AperData targets expensive teleoperation, fragmented capture equipment, missing data-quality gates, late discovery of bad recordings, unsynchronized timelines, and broken annotation or solving workflows. Field PASS/WARN/FAIL and posture previews move quality decisions forward; task dispatch reduces operator error; private deployment supports enterprise data boundaries. It does not prove a 10x gain across every task and does not automatically solve bias, operator fatigue, action semantics, embodiment transfer, or privacy compliance.",
+    newTech: "The new combination is head-mounted first-person capture, wrist and gripper near-field views, RGB/IR/IMU synchronization, field quality control, and a governed data platform in one deliverable line. The HCI point is that capture feedback becomes a product surface: an operator should understand the task target, action completeness, sensor health, and data usability rather than only press start and stop. AperOS makes invisible pre-training engineering visible and turns data production into an interface.",
+    availability: "The official AperData page lists RMB 5,100 per set and an immediate reservation or demo path; the launch release says the first-generation product is available immediately. “Available” here is an enterprise procurement and reservation claim, not proof of ordinary retail inventory. Global sales, delivery schedule, installation, SDK licensing, and warranty are not fully disclosed.",
+    limitsOrUnknowns: "Unknowns include production scale, long-duration wear, real camera and IMU accuracy, network loss, offline buffering, re-capture cost, PASS/WARN/FAIL accuracy, raw-data retention and deletion, private-deployment cost, SDK/ROS/Isaac integration, trajectory mapping across robot bodies, and reproducibility of the 10x efficiency claim. The official page qualifies its 99% physical-consistency and efficiency figures as internal tests or estimates; they are not independent validation.",
+    productVerdict: "AperData is this issue’s most concrete embodied-infrastructure confirmed product, with an official page, price, hardware matrix, field QA, and a data loop. Verdict: it is closer to a purchasable production tool than the claim that robots are simply becoming smarter. Next, verify delivery, real capture quality, privacy and deletion, developer interfaces, and transfer across embodiments."
+  } }
+};
+
+const motoko = {
+  id: "razer-motoko-developer-surface",
+  section: "global",
+  zhHeadline: "Razer Motoko：耳罩把双目视觉带到眼睛高度，但仍是 developer surface",
+  enHeadline: "Razer Motoko brings eye-level stereo vision to an earcup, still as a developer surface",
+  zhFact: "Razer 的官方产品页写明 Motoko 采用 Snapdragon、双眼高度 FPV 摄像头、立体视觉、远近场麦克风，并支持 Grok、OpenAI、Gemini 等 AI 平台；页面继续招募 Q2 2026 Developer Kit。8 月 19 日 CEO 公开称产品 coming soon，8 月 22 日媒体据此报道它从 CES 概念走向真实产品，但价格、续航、上市日与隐私控制仍未公开。",
+  enFact: "Razer’s official page describes Motoko as a Snapdragon-powered headset with dual eye-line FPV cameras, stereoscopic vision, far- and near-field microphones, and compatibility with Grok, OpenAI, Gemini, and other AI platforms. The page still solicits the Q2 2026 Developer Kit. On August 19 the CEO said the product was coming soon; August 22 coverage treated that as movement beyond a CES concept, while price, runtime, launch date, and privacy controls remain undisclosed.",
+  zhValue: "Motoko 的形态把相机放进耳罩而不是镜框：用户仍能保留耳机的音频、麦克风和游戏入口，却通过眼睛高度的双摄像头获得第一视角视觉。对游戏、健身、维修、翻译和文档理解来说，耳罩可能比眼镜更容易被现有用户接受；但相机离开眼睛本体后，头部方向、视线和摄像机视野是否一致，需要新的提示和校准。它同时把“为用户服务的视觉数据”与“为机器人训练采集 POV 数据”放在同一个产品叙事里，隐私边界更不能含糊。",
+  enValue: "Motoko puts the cameras in the earcups rather than the frame. The wearer keeps the audio, microphone, and gaming entry point of a headset while gaining eye-level first-person vision. Gaming, exercise, repair, translation, and document understanding could feel more acceptable in an existing headset category than in camera glasses. But once cameras are detached from the eyes, head direction, gaze, and camera field of view need new cues and calibration. Razer also places user assistance and human-POV data for robot training in the same story, making the privacy boundary impossible to leave vague.",
+  zhHciLens: ["输入：双目 FPV + 远近场麦克风", "输出：实时音频反馈", "状态：developer kit / coming soon"],
+  enHciLens: ["Input: stereo FPV plus far/near mics", "Output: real-time audio", "State: developer kit / coming soon"],
+  zhImplication: "耳戴摄像头的关键不是“能看见”，而是用户和旁观者能否知道摄像头何时看、录制、上传或用于训练。Motoko 需要物理遮挡/指示、当前模型与数据路径提示、用户可停止的快捷入口，以及从日常助手切换到开发者采集模式时的明确边界。",
+  enImplication: "The challenge for camera-equipped headsets is not merely seeing; it is whether the wearer and bystanders can tell when the cameras see, record, upload, or contribute to training. Motoko needs a physical block or indicator, model and data-path visibility, a stop shortcut, and a clear boundary when switching from daily assistance to developer capture mode.",
+  sourceDate: "2026-01-06 official concept · 2026-08-19 CEO update · 2026-08-22 media follow-up · 2026-08-23 current source sweep",
+  evidenceLabel: "developer surface",
+  evidenceStrength: "developer surface · startup signal · not retail-confirmed",
+  visual: { path: "assets/razer-motoko-official-2026-08.png", width: 1600, height: 900, kind: "source-backed page screenshot", altZh: "Razer Project Motoko 官方产品页截图", altEn: "Razer Project Motoko official product page", captionZh: "来源追踪视觉：Razer 官方页展示双 FPV 摄像头、立体视觉、远近场麦克风与 Q2 2026 Developer Kit 招募；仍按 developer surface 记录。", captionEn: "Source-traceable visual: Razer's official page shows dual FPV cameras, stereo vision, far/near microphones, and the Q2 2026 Developer Kit signup; it remains a developer surface.", sourceUrl: "https://www.razer.com/concepts/project-motoko" },
+  sources: [
+    { label: "Razer Motoko official product page", url: "https://www.razer.com/concepts/project-motoko", type: "official" },
+    { label: "Razer CES concept release", url: "https://www.razer.com/newsroom/product-news/project-motoko", type: "official" },
+    { label: "Windows Central coming-soon report", url: "https://www.windowscentral.com/hardware/razer/razer-motoko-airpods-ultra-leak-concept", type: "reviews" },
+    { label: "Digital Citizen August 22 follow-up", url: "https://www.digitalcitizen.life/razer-project-motoko-is-becoming-a-real-ai-headset-with-dual-cameras-and-snapdragon-hardware/", type: "global" },
+    { label: "Razer community discussion", url: "https://www.reddit.com/r/tech_news_and_gadgets/comments/1u8j6wo/this_ai_headset_sees_the_world_with_you/", type: "community" }
+  ],
+  dossierKind: "product",
+  dossier: { zh: {
+    productName: "Razer Project Motoko 是一款仍处于开发者/概念到产品过渡期的无线 AI 头戴设备。它把双摄像头放在耳罩、接近眼睛高度，以耳机音频、麦克风与 Snapdragon 计算为基础，尝试成为游戏、日常任务和机器人训练数据的视觉入口。",
+    productType: "产品类型是带视觉传感的无线游戏耳机、可穿戴 AI developer surface 和第一视角数据采集设备。它与相机眼镜的区别在于摄像头不在镜框上，音频输出和既有游戏设备形态更成熟；与普通耳机的差异是它能够理解文字、物体、环境音和视野。当前应按 developer surface 与 startup signal 记录，不能写成已量产零售产品。",
+    interactionFlow: "用户戴上耳机，通过语音和环境声与 AI 交互，双 FPV 摄像头捕获眼睛高度附近的视野，系统再用实时音频反馈回答问题或执行任务。官方举例包括翻译街牌、计数健身动作、总结文档、游戏和生产力。开发者可能通过 Developer Kit 研究视觉数据与机器人训练，但公开页没有给出 SDK、权限、录制提示、摄像头遮挡、停止入口、校准或切换模型流程。",
+    specsOrStack: "Razer 官方披露 Snapdragon 平台、双 eye-line FPV 摄像头、立体视觉、宽视野关注、远场/近场麦克风、实时音频反馈，并称可连接 Grok、OpenAI、Gemini 等平台；官方页还说摄像头可捕获深度、焦点和注意模式，用于机器人训练数据。未公开摄像头分辨率、帧率、SoC 型号、RAM、存储、无线标准、续航、重量、IP 等级、模型路由、端云分工和 SDK 细节，均为 source not stated。",
+    useCases: "具体场景包括游戏中的视觉辅助、健身动作计数、街牌翻译、文档摘要、旅行中的免手操作、家庭维修和机器人团队的人类 POV 数据采集。耳罩形态可能让用户在需要音频沉浸的场景接受双摄像头；开发者可研究深度、注意模式与多模态 agent。但如果用户只是需要语音助手，摄像头会增加隐私、重量、热量、电量和社交解释成本。",
+    painPointsSolved: "Motoko 试图解决眼镜形态过于显眼、音频设备没有视觉上下文、用户在游戏/维修/运动中无法拿手机取景，以及机器人训练缺少自然第一视角数据的问题。双摄像头和立体视觉让 AI 可以从耳机位置理解环境，远近场麦克风提高语音与环境声的分离机会。它尚未解决镜头方向与用户视线不一致、旁观者不知情、云端处理、误识别、续航和开发者权限。",
+    newTech: "新技术组合是 eye-level stereo FPV、双距离麦克风、可切换模型平台与人类 POV 训练数据。产品难点是把相机视野与用户注意力对齐：耳罩可以知道头朝哪，却不一定知道用户看哪；系统需要在音频反馈前解释它引用了哪一帧、是否上传了环境、哪个模型在处理，以及如何让用户立刻暂停。这个状态链路比“支持多个模型”更决定产品是否可信。",
+    availability: "Razer 官方页继续提供 Q2 2026 Developer Kit 的登记入口；Razer CEO 在 8 月 19 日称产品 coming soon，媒体在 8 月 22 日据此判断它正从 CES 概念走向真实产品。价格、正式上市日期、开发者 kit 交付、地区、续航和消费者购买入口尚未被官方完整确认。",
+    limitsOrUnknowns: "核心未知包括相机硬件、镜头遮挡和隐私灯、录制与上传状态、模型与数据控制、开发者 SDK、耳罩重量与长时间佩戴、游戏系统兼容、噪声环境识别、音频延迟、网络依赖和电池寿命。Razer 的“sub-millimeter accuracy”“wide field of attention”一类叙述应保留为官方产品描述，不应当作独立测量。",
+    productVerdict: "Motoko 是本期最值得跟踪的 global developer surface：它把 AI 视觉从眼镜转到耳罩，形态有差异化，也把用户助手和机器人数据采集放进同一条链路。判断：可作为开发者/交互原型观察项；在价格、SDK、隐私控制、续航和实物交付确认前，不升级为 confirmed retail product。"
+  }, en: {
+    productName: "Razer Project Motoko is a wireless AI headset moving from concept toward a developer and product surface. Its dual cameras sit in the earcups near eye level, using headset audio, microphones, and Snapdragon compute as a visual entry point for games, daily tasks, and robotics data.",
+    productType: "It is a wireless gaming headset with visual sensing, a wearable-AI developer surface, and a first-person data-capture device. Unlike camera glasses, its cameras are in the earcups and its audio output builds on a familiar gaming category; unlike ordinary headphones, it can interpret text, objects, environmental sound, and a camera view. Today it should be labeled a developer surface and startup signal, not a mass-market retail product.",
+    interactionFlow: "The wearer speaks to the AI while the dual FPV cameras capture an eye-level view and the headset returns real-time audio. Razer lists street-sign translation, gym-rep tracking, document summarization, gaming, and productivity as examples. A developer may use the kit to study visual data and robot training, but the public page does not define SDK calls, permissions, capture indicators, camera blocking, stop controls, calibration, or model-switching states.",
+    specsOrStack: "Razer discloses a Snapdragon platform, dual eye-line FPV cameras, stereoscopic vision, a wide attention field, far- and near-field microphones, real-time audio feedback, and connections to platforms including Grok, OpenAI, and Gemini. It also says the cameras can capture depth, focus, and attention patterns for robotics training. Resolution, frame rate, SoC model, RAM, storage, wireless standards, runtime, weight, IP rating, model routing, edge-cloud split, and SDK details remain source not stated.",
+    useCases: "Concrete use cases include game assistance, exercise-rep counting, street-sign translation, document summaries, hands-free travel, home repair, and human-POV collection for robotics teams. An earcup form may be more acceptable where users already want immersive audio; developers can study depth, attention patterns, and multimodal agents. For someone who only wants a voice assistant, the cameras add privacy, weight, heat, battery, and social-explanation costs.",
+    painPointsSolved: "Motoko targets the social visibility of glasses, the lack of visual context in ordinary audio devices, phone retrieval during games, repair, and exercise, and the scarcity of natural human-POV training data. Stereo cameras and far/near microphones could let an AI use environmental vision and sound from the headset position. It does not yet solve camera-to-gaze mismatch, bystander awareness, cloud processing, wrong recognition, runtime, or developer permissions.",
+    newTech: "The new combination is eye-level stereo FPV, dual-distance microphones, multi-model platform compatibility, and human-POV training data. The design problem is aligning the camera view with user attention: an earcup can know where the head points without knowing what the wearer is looking at. Before an audio response, the system should show which frame it used, whether the environment was uploaded, which model processed it, and how to stop immediately. This state chain matters more than multi-model branding.",
+    availability: "Razer’s official page still offers a Q2 2026 Developer Kit signup. The CEO said the product was coming soon on August 19, and August 22 coverage interpreted that as movement beyond the CES concept. Price, formal launch date, kit delivery, region, runtime, and a consumer purchase path are not fully confirmed by Razer.",
+    limitsOrUnknowns: "Open questions include camera hardware, physical blocking and privacy lights, recording and upload state, model and data control, SDK, headset weight and comfort, gaming compatibility, noisy-environment recognition, audio latency, network dependency, and battery life. Phrases such as sub-millimeter accuracy and a wide field of attention remain official product descriptions, not independent measurements.",
+    productVerdict: "Motoko is the issue’s most interesting global developer surface. It moves AI vision from glasses to an earcup, offers a distinct form factor, and combines personal assistance with robotics data capture. Verdict: track it as a developer and interaction prototype; do not promote it to a confirmed retail product until price, SDK, privacy controls, runtime, and physical delivery are verified."
+  } }
+};
+
+const patent = {
+  id: "meta-smart-camera-highlight-patent-watch",
+  section: "patent",
+  zhHeadline: "专利观察：Meta 把“值得记录的瞬间”交给眼镜判断",
+  enHeadline: "Patent watch: Meta lets glasses decide which moments are worth keeping",
+  zhFact: "8 月公开的 Meta 专利申请描述摄像头眼镜结合人脸识别、表情分析、关系信息与感兴趣点，自动判断人物和事件并生成片段或 highlights。媒体指出它可能把“用户按下记录”推进到“系统主动选择记录”；这只是 patent signal，不能当作已发布功能、已确认产品策略或可用 API。",
+  enFact: "A Meta patent application published in August describes camera glasses combining facial recognition, expression analysis, relationship information, and points of interest to decide which people and events to capture into clips or highlights. Coverage frames this as a move from user-triggered recording toward system-selected memories. It is a patent signal, not a released feature, confirmed product strategy, or usable API.",
+  zhValue: "这个信号具体指向记忆产品的控制权：相机眼镜不再只等待口令，而可能主动把人、动作和关系组织成回顾素材。它也把隐私风险从“我有没有按下录制”推到“系统如何判断谁值得被记录”。产品团队需要把专利里的自动选择当作未来风险测试，而不是当作 Meta 当前产品能力。",
+  enValue: "The signal is about control in memory products. Camera glasses would no longer only wait for a command; they could organize people, actions, and relationships into retrospective media. The privacy risk moves from whether the user pressed record to how the system decides who is worth recording. Product teams should treat the filing as a future-risk test, not as current Meta capability.",
+  zhHciLens: ["信号：自动选取 highlights", "风险：旁观者与生物识别", "证据：专利申请，非产品"],
+  enHciLens: ["Signal: automatic highlight selection", "Risk: bystanders and biometrics", "Evidence: patent application, not product"],
+  zhImplication: "任何“主动记忆”都需要可见的录制状态、目标/人脸处理解释、旁观者边界、撤销与删除路径，以及从未发布功能到真实产品的证据门槛。",
+  enImplication: "Any proactive memory system needs visible recording state, explanations for person and face processing, bystander boundaries, undo and deletion, and a strict evidence gate between a filing and a real product.",
+  sourceDate: "2026-08-13 patent publication · 2026-08-17/21 media coverage · 2026-08-23 patent watch",
+  evidenceLabel: "patent signal",
+  evidenceStrength: "patent signal · speculative · not a product fact",
+  visual: { path: "assets/meta-patent-watch-2026-08.png", width: 1600, height: 900, kind: "source-backed page screenshot", altZh: "Meta 智能眼镜专利媒体报道截图", altEn: "Media report on Meta smart-glasses patent", captionZh: "专利信号视觉：媒体报道 Meta 的自动 highlights/人脸识别专利申请；此图不证明功能已发布。", captionEn: "Patent-signal visual: media coverage of Meta's automatic-highlights and face-analysis filing; the image does not prove a released feature.", sourceUrl: "https://www.tomsguide.com/ai/meta-files-patent-for-ai-camera-glasses-that-use-facial-recognition-expression-analysis-and-information-about-your-relationships-to-identify-people-around-you-and-create-highlights" },
+  sources: [
+    { label: "Tom's Guide patent report", url: "https://www.tomsguide.com/ai/meta-files-patent-for-ai-camera-glasses-that-use-facial-recognition-expression-analysis-and-information-about-your-relationships-to-identify-people-around-you-and-create-highlights", type: "reviews" },
+    { label: "Biometric Update patent analysis", url: "https://www.biometricupdate.com/202608/meta-smart-glasses-patent-reignites-facial-recognition-debate", type: "patent" },
+    { label: "Google Patents privacy-preserving wearable reference", url: "https://patents.google.com/patent/US10523639B2/en", type: "patent" }
+  ],
+  dossierKind: "scan",
+  dossier: { zh: {
+    productName: "Meta smart-camera highlight patent watch 是专利信号扫描，不是已发布产品。关注点是摄像头眼镜可能自动识别人、表情、关系和事件，并选择值得保存的片段。",
+    productType: "这是 patent lane 的 source-lane scan，证据等级为 patent signal。专利申请描述的是一种可能的系统设计，不等于 Meta 已经在销售的眼镜、已经上线的 Meta AI 功能或开发者可调用的接口。",
+    interactionFlow: "申请设想系统从摄像头和传感器获得场景，识别人和兴趣点，结合用户关系或事件判断生成片段/回顾。公开报道没有提供可操作产品、权限页、录制灯行为、删除流程、误识别回退或实际用户测试，因此只能把它转化为设计审计问题。",
+    specsOrStack: "公开资料涉及摄像头、面部/表情分析、关系信息、事件判断和 highlights 生成，但没有确认硬件型号、模型、端云架构、识别准确率、保存时长、API、地区或上市时间，均为 source not stated。",
+    useCases: "潜在 use case 是自动生成聚会、家庭、运动或社交事件的回顾片段；当前没有证据证明这些场景已经被产品实现、用户启用或可被第三方开发者接入。",
+    painPointsSolved: "它试图减少用户持续按录制键、整理长视频和手动找回忆片段的负担，但把选择权交给系统会增加旁观者同意、误识别人脸、关系推断、生物识别和自动上传的风险。",
+    newTech: "信号指向“主动记忆”与摄像头/关系图谱结合的系统设计。技术上值得观察兴趣点检测、事件切片、身份/关系推断和可解释的保存决策；这些都只是专利描述，不能当作已完成技术。",
+    availability: "专利申请已公开，申请公开不代表产品可购买、功能已上线、地区已开放或 API 已提供。Meta 当前产品的真实录制、存储和隐私行为需要另找官方文档与独立验证。",
+    limitsOrUnknowns: "最大未知是系统是否会真的上线，以及用户和旁观者是否能看到/阻止它的判断。识别准确率、数据保留、删除范围、关系图谱来源、误识别恢复、法规边界和硬件指示均未确认。",
+    productVerdict: "降级为 patent signal。它适合放入 watchlist 和隐私验收清单，不适合写成 Meta 已发布的人脸识别或自动记录功能。下一步只等待官方产品页、实际测试、权限/删除路径和监管文件。"
+  }, en: {
+    productName: "The Meta smart-camera highlight patent watch is a patent signal, not a released product. It concerns a possible camera-glasses system that identifies people, expressions, relationships, and events, then selects moments worth preserving.",
+    productType: "This is a patent-lane source scan labeled patent signal. A patent application describes a possible system design; it does not establish a glasses product for sale, a live Meta AI capability, or a developer-callable API.",
+    interactionFlow: "The filing imagines cameras and sensors providing a scene, the system identifying people and points of interest, and relationship or event context guiding clip or highlight selection. Public coverage gives no operable product, permission page, recording-light behavior, deletion flow, wrong-identification recovery, or user study, so the responsible output is a design-audit question.",
+    specsOrStack: "The public material mentions cameras, facial and expression analysis, relationship information, event judgment, and highlight generation. It does not confirm hardware, model, edge-cloud architecture, recognition accuracy, retention period, API, region, or launch date; those details remain source not stated.",
+    useCases: "A potential use case is automatically producing retrospective clips from parties, family events, sports, or social moments. There is no evidence that these scenarios are implemented in a shipping product, enabled for users, or available to third-party developers.",
+    painPointsSolved: "The idea could reduce the burden of pressing record, sorting long videos, and finding memorable moments. It also shifts selection power to the system, increasing risks around bystander consent, wrong face identification, relationship inference, biometrics, and automatic upload.",
+    newTech: "The signal points toward proactive memory connected to camera perception and a relationship graph. Interesting technical questions include point-of-interest detection, event segmentation, identity and relationship inference, and explainable save decisions. They remain patent descriptions, not completed technology.",
+    availability: "The patent application is public. Publication does not mean a product is purchasable, a feature is live, a region is enabled, or an API exists. Meta’s actual recording, storage, and privacy behavior needs separate official documentation and independent verification.",
+    limitsOrUnknowns: "The main unknown is whether the system will ship and whether wearers and bystanders can see or block its decisions. Accuracy, retention, deletion scope, relationship-graph provenance, wrong-identification recovery, regulatory boundaries, and hardware indicators are unconfirmed.",
+    productVerdict: "Downgrade this to a patent signal. It belongs in a watchlist and privacy-acceptance checklist, not as a claim that Meta has released face recognition or automatic recording. The next evidence must be an official product surface, real testing, permission and deletion paths, or regulatory documentation."
+  } }
+};
+
+issue.topics.unshift(patent, motoko, aperdata, orbbec, rayneo);
 issue.coverStory = {
-  topicId: rayneoIo.id,
-  zhTitle: "RayNeo iO：当 AI 把一天压缩成抬眼可见的状态，眼镜还是眼镜吗？",
-  enTitle: "RayNeo iO: when AI compresses the day into a glance, is it still eyewear?",
+  topicId: rayneo.id,
+  zhTitle: "雷鸟 iO：AI 眼镜的下一步，可能先是去掉摄像头",
+  enTitle: "RayNeo iO: the next AI-glasses move may be removing the camera",
   zhSummary: [
-    "RayNeo iO 把 33g 透明 HUD、四麦克风、Smart Crown、头部手势和硬连线状态灯组合成日常信息入口，官方仍标记 coming soon。",
-    "媒体与 beta 社区把它读作无摄像头、无扬声器的视觉优先产品：减少手机掏取与外放干扰，同时增加视觉疲劳、手机依赖和订阅边界。",
-    "今天的验收点是通知/转写/记忆的状态区分、点头确认、录制可见性和断连回退，而不是 HUD 看起来有多像未来。"
+    "雷鸟 iO 以 34g、双目显示、全天智记、实时翻译和无摄像头边界进入中国销售。",
+    "同一周，Razer 把双摄像头放进耳罩，Orbbec 与 51WORLD 则把第一视角采集、同步和数据质检做成具身基础设施。",
+    "产品差异越来越取决于观察链路是否可见：谁在看、何时录、数据去哪、用户能否停下。"
   ],
   enSummary: [
-    "RayNeo iO combines a 33g transparent HUD, four microphones, a Smart Crown, head gestures, and a hardwired status light for daily information; the official page still says coming soon.",
-    "Media and beta-community signals describe a camera-less, speakerless, visual-first product that reduces phone reaches and sound leakage while adding visual fatigue, phone dependence, and subscription questions.",
-    "The acceptance test is state separation, nod confirmation, capture visibility, and disconnect recovery—not how futuristic the HUD looks."
+    "RayNeo iO enters China sales with a 34-gram frame, binocular display, all-day memory, live translation, and a camera-free boundary.",
+    "In the same week, Razer puts stereo cameras in an earcup while Orbbec and 51WORLD package first-person capture, synchronization, and data QA for embodied systems.",
+    "The product difference is increasingly whether the observation loop is legible: who is seeing, when it records, where data goes, and how the user stops it."
   ],
-  imagePath: rayneoIo.visual.path,
-  imageWidth: rayneoIo.visual.width,
-  imageHeight: rayneoIo.visual.height,
-  imageSourceUrl: rayneoIo.visual.sourceUrl,
-  primarySourceUrl: rayneoIo.visual.sourceUrl,
-  evidenceStrength: rayneoIo.evidenceStrength,
-  whyCover: "It is a concrete near-term product that makes the HUD, the microphone, the confirmation gesture, and the capture light part of one daily control surface, while its coming-soon status keeps the evidence boundary visible."
+  imagePath: rayneo.visual.path,
+  imageWidth: rayneo.visual.width,
+  imageHeight: rayneo.visual.height,
+  imageSourceUrl: rayneo.visual.sourceUrl,
+  primarySourceUrl: rayneo.visual.sourceUrl,
+  evidenceStrength: rayneo.evidenceStrength,
+  whyCover: "It is an on-sale China product that makes a deliberate camera-free tradeoff while the surrounding ecosystem moves toward more sensors and more autonomous memory."
 };
 issue.watchlistZh = [
-  "RayNeo iO：9 月 4 日最终价格与地区、户外可读性、转写延迟、无扬声器反馈、长期记忆与订阅边界。",
-  "Orbbec physical AI：EGO/UMI/WristCam/Hub 的 SDK、原始时间戳、跨场景同步、隐私授权和客户交付。",
-  "Google Developer Device Platform：真实设备清单、并发/排队、计费、agent 权限、日志保留与 iOS 路线。",
-  "HONOR Robot Phone：第三方 Camera2/CameraX 接入、海外服务、云台耐久、误跟踪回退与真实续航。",
-  "Razer Project Motoko：Q2 developer kit 的开放范围、录制提示、模型路由、价格与量产时间。",
-  "摄像头 AirPods 弱信号：是否出现 Apple 官方公告、录制指示、权限与删除路径。",
-  ...issue.watchlistZh.filter((item) => !item.includes("HONOR") && !item.includes("Razer Project Motoko") && !item.includes("AirPods") && !item.includes("RayNeo") && !item.includes("Orbbec") && !item.includes("Google Developer Device Platform"))
+  "雷鸟 iO：全球发货、真实续航、记忆删除、翻译延迟、订阅与第三方开发者开放程度。",
+  "Razer Project Motoko：Developer Kit 交付、价格、相机隐私灯、模型/数据路径和耳罩长时佩戴。",
+  "Orbbec 与 51WORLD：具体 SKU、数据 schema、ROS/Isaac/SDK、现场质检准确性和跨本体迁移。",
+  "Meta 主动记忆专利：只等待官方产品页、权限/删除路径和实际测试，不把 patent signal 当功能。",
+  ...issue.watchlistZh.filter((item) => !item.includes("雷鸟 iO") && !item.includes("Razer Project Motoko") && !item.includes("Orbbec") && !item.includes("51WORLD") && !item.includes("Meta 主动记忆"))
 ];
 issue.watchlistEn = [
-  "RayNeo iO: final September 4 price and regions, outdoor readability, transcription latency, speakerless feedback, long-term memory, and subscription boundaries.",
-  "Orbbec physical AI: EGO/UMI/WristCam/Hub SDK access, raw timestamps, cross-scene synchronization, privacy consent, and customer delivery.",
-  "Google Developer Device Platform: physical-device inventory, concurrency/queueing, billing, agent permissions, log retention, and the iOS path.",
-  "HONOR Robot Phone: third-party Camera2/CameraX access, overseas services, gimbal durability, wrong-target recovery, and real runtime.",
-  "Razer Project Motoko: real Q2 developer-kit access, capture indicators, model routing, pricing, and production timing.",
-  "Camera-equipped AirPods weak signal: whether Apple publishes an official announcement, recording cue, permissions, and deletion path.",
-  ...issue.watchlistEn.filter((item) => !item.includes("HONOR") && !item.includes("Razer Project Motoko") && !item.includes("AirPods") && !item.includes("RayNeo") && !item.includes("Orbbec") && !item.includes("Google Developer Device Platform"))
+  "RayNeo iO: global shipping, real runtime, memory deletion, translation latency, subscription, and developer openness.",
+  "Razer Project Motoko: Developer Kit delivery, price, camera privacy cues, model/data path, and long-wear comfort.",
+  "Orbbec and 51WORLD: final SKUs, data schema, ROS/Isaac/SDK access, field-QA accuracy, and embodiment transfer.",
+  "Meta proactive-memory patent: wait for an official product surface, permission/deletion path, and real testing; do not treat patent signal as a feature.",
+  ...issue.watchlistEn.filter((item) => !item.includes("RayNeo iO") && !item.includes("Razer Project Motoko") && !item.includes("Orbbec") && !item.includes("51WORLD") && !item.includes("Meta proactive-memory"))
 ];
 issue.designDesk = {
   ...issue.designDesk,
-  zhTitle: "设计台：让状态、数据和设备接管都能被审计",
-  enTitle: "Design Desk: make state, data, and hardware takeover auditable",
-  zhIntro: "当 AI 进入 HUD、真实设备和物理数据管道时，把状态、权限、时间戳、回放和回退放进可见的交互链路。",
-  enIntro: "When AI enters HUDs, real devices, and physical-data pipelines, keep state, permission, timestamps, replay, and recovery visible in the interaction loop."
+  zhTitle: "设计台：先让观察链路可见，再让 AI 主动行动",
+  enTitle: "Design Desk: make the observation loop legible before making AI proactive",
+  zhIntro: "从无摄像头显示眼镜到双目耳罩和具身采集平台，今天的产品都在重新定义“设备看见什么”。",
+  enIntro: "From camera-free display glasses to stereo headsets and embodied capture platforms, today’s products redefine what a device is allowed to see.",
+  zhItems: [
+    "输入层：区分用户主动提问、设备主动提示、传感器持续监听和开发者采集模式。",
+    "观察层：把当前摄像头/麦克风/IMU 是否工作、是否上传、由哪个模型处理做成可见状态。",
+    "动作层：所有物理或数据动作都提供开始前意图、进行中反馈、停止入口和失败回退。",
+    "记忆层：记录、摘要、关系推断与 highlight 保存必须可查看、暂停、导出、删除。",
+    "现场层：具身采集设备把丢帧、标定、曝光、姿态完整性前移到采集者能理解的 PASS/WARN/FAIL。",
+    "证据层：把 confirmed product、developer surface、review/community friction、research/patent signal 分开展示。"
+  ],
+  enItems: [
+    "Input layer: distinguish a user question, proactive prompting, continuous sensing, and developer-capture mode.",
+    "Observation layer: expose whether camera, microphone, or IMU is active, whether data leaves the device, and which model processes it.",
+    "Action layer: every physical or data action needs pre-action intent, in-action feedback, a stop path, and failure recovery.",
+    "Memory layer: recordings, summaries, relationship inferences, and highlights need inspect, pause, export, and delete controls.",
+    "Field layer: embodied capture systems should move dropped frames, calibration, exposure, and action completeness into operator-readable PASS/WARN/FAIL.",
+    "Evidence layer: keep confirmed product, developer surface, review/community friction, and research/patent signal visibly separate."
+  ]
 };
 
 const nextIssues = [issue, ...issues.filter((entry) => entry.date !== date)];
