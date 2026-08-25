@@ -2253,26 +2253,33 @@ body:has(.deck-page) {
   }
 
   html[lang="en"] .section-slide .section-topic-list div {
-    min-height: 64px;
-    padding: 6px;
+    min-height: 58px;
+    padding: 5px;
   }
 
   html[lang="en"] .section-slide .section-topic-list {
     gap: 3px;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
   }
 
   .section-slide {
-    gap: 12px;
+    gap: 7px;
+    padding-top: 22px;
+    padding-bottom: 22px;
   }
 
   .section-slide .section-topic-list {
-    gap: 5px;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .section-slide .section-topic-list {
+    gap: 1px;
   }
 
   .section-slide .section-topic-list div {
-    min-height: 78px;
-    padding: 8px;
-    gap: 4px;
+    min-height: 58px;
+    padding: 5px;
+    gap: 3px;
   }
 
   .section-slide .section-topic-list strong {

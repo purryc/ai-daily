@@ -1,5 +1,170 @@
 [
   {
+    "date": "2026-08-25",
+    "zhTitle": "AI Daily 2026-08-25：AI 设备开始把传感器、显示与数据权力写成产品契约",
+    "enTitle": "AI Daily 2026-08-25: AI devices turn sensors, displays, and data control into product contracts",
+    "zhSummary": "今天的产品线索集中在同一个可验证问题：设备看见什么、何时显示、哪些数据留在本地、谁能停止它。Snap SPECS 把独立空间显示、agent 工具和录制提示放进一副高价眼镜；ARGO 研究把 RGB、ToF、麦克风、NPU、帧率与续航放进同一张功耗账；WIRED、TechRadar 与社区反馈则提醒我们，真正的门槛仍是长时佩戴、失败反馈、旁观者隐私和开发者权限。中国与全球线继续补齐具身采集、无摄像头显示和端侧推理的采购与交付证据。",
+    "enSummary": "Today’s product signal converges on a testable question: what does a device see, when does it show something, which data stays local, and who can stop it? Snap SPECS puts standalone spatial display, agent tooling, and recording cues into a high-priced pair of glasses; the ARGO research platform puts RGB, ToF, microphones, an NPU, frame rate, and runtime into one power budget; WIRED, TechRadar, and community reports keep long-wear comfort, failure feedback, bystander privacy, and developer permissions in view. China and global lanes add procurement and delivery evidence for embodied capture, camera-free displays, and edge inference.",
+    "tags": [
+      "AI hardware",
+      "computer vision",
+      "smart spotting scope",
+      "on-device AI",
+      "crowdfunding",
+      "smart glasses",
+      "accessibility",
+      "privacy UX"
+    ],
+    "sourceTypes": [
+      "official",
+      "Google Store",
+      "hands-on review",
+      "community",
+      "wild",
+      "research",
+      "patent watch",
+      "China",
+      "global",
+      "weak/unverified",
+      "developer surface",
+      "startup signal",
+      "confirmed product",
+      "review/community friction",
+      "china",
+      "research signal",
+      "patent signal"
+    ],
+    "coverStory": {
+      "topicId": "snap-specs-agent-first-ar-glasses",
+      "zhTitle": "Snap SPECS：AI 眼镜的下一场竞争是“谁控制空间软件层”",
+      "enTitle": "Snap SPECS: the next AI-glasses fight is who controls the spatial software layer",
+      "zhSummary": [
+        "Snap SPECS 把独立空间显示、Snap OS、Lens Studio 的 agentic development 和录制/数据控制放进同一条产品路径；官方售价为 2,195 美元，预购需 200 美元可退订金，预计 2026 年秋季在美国、英国和法国发货。",
+        "它让“AI 眼镜”从相机和语音助手扩展到可运行应用、共享空间体验和开发者权限，但 132–136g、最多 4 小时混合使用与高价仍把它留在早期采用者区间。",
+        "今天的验证重点是：Spatial Benchmark 是否进入真实开发流程，录制提示和敏感权限是否可见，agent 是否可暂停/撤销，以及显示是否让人持续佩戴。"
+      ],
+      "enSummary": [
+        "Snap SPECS combines standalone spatial display, Snap OS, agentic development in Lens Studio, and recording/data controls in one product path. Snap lists a $2,195 preorder price with a refundable $200 deposit and expected fall 2026 shipping in the United States, United Kingdom, and France.",
+        "That moves AI glasses beyond cameras and voice assistants toward runnable apps, shared spatial experiences, and developer permissions, while 132–136 grams, up to four hours of mixed use, and the price keep it in an early-adopter bracket.",
+        "The current test is concrete: do Spatial Benchmark workflows reach real developers, are recording and sensitive-permission cues legible, can agents be paused or undone, and does the display earn long wear?"
+      ],
+      "imagePath": "assets/snap-specs-source-2026-06.jpg",
+      "imageWidth": 1920,
+      "imageHeight": 1080,
+      "imageSourceUrl": "https://investor.snap.com/news/news-details/2026/Snap-Inc--Debuts-SPECS-Augmented-Reality-Glasses-to-Make-Computing-More-Human/default.aspx",
+      "primarySourceUrl": "https://investor.snap.com/news/news-details/2026/Snap-Inc--Debuts-SPECS-Augmented-Reality-Glasses-to-Make-Computing-More-Human/default.aspx",
+      "evidenceStrength": "confirmed product · official preorder · review context updated 2026-08-25",
+      "whyCover": "SPECS is the clearest current product surface where spatial display, standalone compute, agent tooling, and privacy cues are presented together; the remaining work is proving daily wear and controllable agency."
+    },
+    "designDesk": {
+      "zhTitle": "设计台：先让观察链路可见，再让 AI 主动行动",
+      "enTitle": "Design Desk: make the observation loop legible before making AI proactive",
+      "zhIntro": "从机架编排、推理卡到无摄像头眼镜、双目耳罩和具身采集平台，今天的产品都在重新定义“设备在哪里观察、在哪里计算”。",
+      "enIntro": "From rack orchestration and inference cards to camera-free glasses, stereo headsets, and embodied capture platforms, today’s products redefine where a device observes and computes.",
+      "zhItems": [
+        {
+          "label": "计算层",
+          "body": "把机架、推理 GPU、客户端 NPU 与边缘设备的任务边界和降级路径画出来。"
+        },
+        {
+          "label": "输入层",
+          "body": "区分用户主动提问、设备主动提示、传感器持续监听和开发者采集模式。"
+        },
+        {
+          "label": "观察层",
+          "body": "把当前摄像头/麦克风/IMU 是否工作、是否上传、由哪个模型处理做成可见状态。"
+        },
+        {
+          "label": "动作层",
+          "body": "所有物理或数据动作都提供开始前意图、进行中反馈、停止入口和失败回退。"
+        },
+        {
+          "label": "记忆层",
+          "body": "记录、摘要、关系推断与 highlight 保存必须可查看、暂停、导出、删除。"
+        },
+        {
+          "label": "现场层",
+          "body": "具身采集设备把丢帧、标定、曝光、姿态完整性前移到采集者能理解的 PASS/WARN/FAIL。"
+        },
+        {
+          "label": "证据层",
+          "body": "把 confirmed product、developer surface、review/community friction、research/patent signal 分开展示。"
+        }
+      ],
+      "enItems": [
+        {
+          "label": "Compute layer",
+          "body": "map task boundaries and fallback paths across rack, inference GPU, client NPU, and edge device."
+        },
+        {
+          "label": "Input layer",
+          "body": "distinguish a user question, proactive prompting, continuous sensing, and developer-capture mode."
+        },
+        {
+          "label": "Observation layer",
+          "body": "expose whether camera, microphone, or IMU is active, whether data leaves the device, and which model processes it."
+        },
+        {
+          "label": "Action layer",
+          "body": "every physical or data action needs pre-action intent, in-action feedback, a stop path, and failure recovery."
+        },
+        {
+          "label": "Memory layer",
+          "body": "recordings, summaries, relationship inferences, and highlights need inspect, pause, export, and delete controls."
+        },
+        {
+          "label": "Field layer",
+          "body": "embodied capture systems should move dropped frames, calibration, exposure, and action completeness into operator-readable PASS/WARN/FAIL."
+        },
+        {
+          "label": "Evidence layer",
+          "body": "keep confirmed product, developer surface, review/community friction, and research/patent signal visibly separate."
+        }
+      ]
+    },
+    "watchlistZh": [
+      "Intel Agentic AI 架构：Wildcat Lake 终端、OEM 设备、开发者工具、端云路由可见性与实际功耗。",
+      "雷鸟 iO：全球发货、真实续航、记忆删除、翻译延迟、订阅与第三方开发者开放程度。",
+      "Razer Project Motoko：Developer Kit 交付、价格、相机隐私灯、模型/数据路径和耳罩长时佩戴。",
+      "Orbbec 与 51WORLD：具体 SKU、数据 schema、ROS/Isaac/SDK、现场质检准确性和跨本体迁移。",
+      "Meta 主动记忆专利：只等待官方产品页、权限/删除路径和实际测试，不把 patent signal 当功能。",
+      "Intel Agentic AI 架构：Wildcat Lake 终端、OEM 设备、开发者工具、端云路由可见性与实际功耗。",
+      "HONOR Robot Phone：第三方 Camera2/CameraX 接入、海外服务、云台耐久、误跟踪回退与真实续航。",
+      "摄像头 AirPods 弱信号：是否出现 Apple 官方公告、录制指示、权限与删除路径。",
+      "GO Ultra：AI Voice Assistant 的地区/语言 rollout、端云选择和真实响应延迟。",
+      "SLT 2026 SmartGlasses Challenge：多说话人基准是否进入真实眼镜 SDK 与产品测试。",
+      "r/SmartGlasses checkout demo：自然视觉识别能否在移动、遮挡和隐私要求下稳定工作。",
+      "Pixel 11 Gemini Intelligence：实测跨 App action 的权限、确认、撤销和失败恢复。",
+      "Pixel Watch 5：健康趋势是否需要完整 30 天数据，哪些市场可用。",
+      "Pixel Tag：UWB / Bluetooth Channel Sounding 的室内精度、共享与隐私。",
+      "GoBirding Vision Master：8 月 20 日 Kickstarter 是否按时上线，最终价格、发货、退款和量产质量是否公开。",
+      "Made by Google：活动结束后再核对 Android XR 眼镜是否出现真实硬件、价格、地区、API 和安装路径；本期生成时仍是 event watch。",
+      "社区辅助功能：显示、音频、实时转写、翻译、相机隐私是否会被同一产品真正同时满足。"
+    ],
+    "watchlistEn": [
+      "Intel Agentic AI architectures: Wildcat Lake terminals, OEM devices, developer tools, routing visibility, and real power behavior.",
+      "RayNeo iO: global shipping, real runtime, memory deletion, translation latency, subscription, and developer openness.",
+      "Razer Project Motoko: Developer Kit delivery, price, camera privacy cues, model/data path, and long-wear comfort.",
+      "Orbbec and 51WORLD: final SKUs, data schema, ROS/Isaac/SDK access, field-QA accuracy, and embodiment transfer.",
+      "Meta proactive-memory patent: wait for an official product surface, permission/deletion path, and real testing; do not treat patent signal as a feature.",
+      "Intel Agentic AI architectures: Wildcat Lake terminals, OEM devices, developer tools, routing visibility, and real power behavior.",
+      "HONOR Robot Phone: third-party Camera2/CameraX access, overseas services, gimbal durability, wrong-target recovery, and real runtime.",
+      "Camera-equipped AirPods weak signal: whether Apple publishes an official announcement, recording cue, permissions, and deletion path.",
+      "GO Ultra: region/language rollout, edge-cloud choice, and real response latency for AI Voice Assistant.",
+      "SLT 2026 SmartGlasses Challenge: whether multi-speaker benchmarks enter real glasses SDKs and product tests.",
+      "r/SmartGlasses checkout demo: whether natural vision survives motion, occlusion, and privacy requirements.",
+      "Pixel 11 Gemini Intelligence: test cross-app permission, confirmation, undo, and failure recovery.",
+      "Pixel Watch 5: verify the 30-day trend requirement and market-level health access.",
+      "Pixel Tag: test indoor UWB / Bluetooth Channel Sounding accuracy, sharing, and privacy.",
+      "GoBirding Vision Master: whether the August 20 Kickstarter launch happens on time and publishes final price, shipping, refunds, and production evidence.",
+      "Made by Google: after the event, verify real Android XR hardware, price, regions, APIs, and install path; at issue generation it remains an event watch.",
+      "Accessibility demand: whether display, audio, live transcription, translation, and camera privacy can coexist in one shipped product."
+    ],
+    "zhPath": "/ai-daily/2026-08-25/zh/",
+    "enPath": "/ai-daily/2026-08-25/en/",
+    "sourcesPath": "/ai-daily/2026-08-25/sources.md"
+  },
+  {
     "date": "2026-08-24",
     "zhTitle": "AI Daily 2026-08-24：Agentic AI 开始按观察链路重做计算栈",
     "enTitle": "AI Daily 2026-08-24: Agentic AI starts rebuilding the compute stack around observation loops",
