@@ -2253,8 +2253,9 @@ body:has(.deck-page) {
   }
 
   html[lang="en"] .section-slide .section-topic-list div {
-    min-height: 58px;
-    padding: 5px;
+    min-height: 32px;
+    padding: 2px;
+    gap: 1px;
   }
 
   html[lang="en"] .section-slide .section-topic-list {
@@ -2263,9 +2264,9 @@ body:has(.deck-page) {
   }
 
   .section-slide {
-    gap: 7px;
-    padding-top: 22px;
-    padding-bottom: 22px;
+    gap: 5px;
+    padding-top: 14px;
+    padding-bottom: 14px;
   }
 
   .section-slide .section-topic-list {
@@ -2277,14 +2278,19 @@ body:has(.deck-page) {
   }
 
   .section-slide .section-topic-list div {
-    min-height: 58px;
-    padding: 5px;
-    gap: 3px;
+    min-height: 32px;
+    padding: 2px;
+    gap: 1px;
   }
 
   .section-slide .section-topic-list strong {
-    font-size: clamp(13px, 0.95vw, 15px);
-    line-height: 1.02;
+    font-size: clamp(9px, 0.66vw, 11px);
+    line-height: 0.92;
+  }
+
+  html[lang="zh"] .section-slide .section-topic-list strong {
+    font-size: clamp(12px, 0.88vw, 14px);
+    line-height: 1;
   }
 
   html[lang="en"] .dossier-card p {
@@ -2293,13 +2299,13 @@ body:has(.deck-page) {
   }
 
   .watch-slide .watch-grid div {
-    min-height: 78px;
-    padding: 8px;
+    min-height: 72px;
+    padding: 7px;
   }
 
   .watch-slide .watch-grid p {
-    font-size: 11.2px;
-    line-height: 1.2;
+    font-size: 10.5px;
+    line-height: 1.16;
   }
 
   .watch-slide .watch-grid {
