@@ -2303,9 +2303,37 @@ body:has(.deck-page) {
     padding: 7px;
   }
 
+  html[lang^="zh"] .watch-slide .watch-grid div {
+    min-height: 68px;
+    padding: 6px;
+  }
+
   .watch-slide .watch-grid p {
     font-size: 10.5px;
     line-height: 1.16;
+  }
+
+  html[lang^="zh"] .watch-slide .watch-grid p {
+    font-size: 10px;
+    line-height: 1.13;
+  }
+
+  html[lang="en"] .watch-slide {
+    gap: 16px;
+  }
+
+  html[lang="en"] .watch-slide .watch-grid {
+    gap: 4px;
+  }
+
+  html[lang="en"] .watch-slide .watch-grid div {
+    min-height: 66px;
+    padding: 5px;
+  }
+
+  html[lang="en"] .watch-slide .watch-grid p {
+    font-size: 9.5px;
+    line-height: 1.1;
   }
 
   .watch-slide .watch-grid {
