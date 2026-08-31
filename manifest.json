@@ -1,5 +1,149 @@
 [
   {
+    "date": "2026-08-31",
+    "zhTitle": "AI Daily 2026-08-31：眼镜开始进入零售，agent 开始进入视野",
+    "enTitle": "AI Daily 2026-08-31: Glasses enter retail while agents enter the field of view",
+    "zhSummary": "Meta Glasses 进入日本，Phantom Beast 把 XR 视图做成可切换状态；Jorjin、Loomos、Monako、RayNeo 与一篇 first-person 研究共同暴露同一个产品问题：眼镜如何在相机、显示、AI、续航、隐私与开放性之间保持可恢复的观察链路。",
+    "enSummary": "Meta Glasses enter Japan and Phantom Beast turns XR views into switchable states. Jorjin, Loomos, Monako, RayNeo, and a first-person research framework expose the same product problem: how glasses keep camera, display, AI, power, privacy, and openness inside a recoverable observation loop.",
+    "tags": [
+      "AI inference",
+      "agent latency",
+      "AI hardware",
+      "AI glasses",
+      "physical AI",
+      "on-device AI",
+      "HCI",
+      "privacy UX"
+    ],
+    "sourceTypes": [
+      "official",
+      "Google Store",
+      "hands-on review",
+      "community",
+      "wild",
+      "research",
+      "patent watch",
+      "China",
+      "global",
+      "weak/unverified",
+      "developer surface",
+      "startup signal",
+      "confirmed product",
+      "review/community friction",
+      "china",
+      "research signal",
+      "patent signal",
+      "crowdfunding signal",
+      "crowdfunding",
+      "Product Hunt",
+      "arXiv",
+      "regional product pages"
+    ],
+    "coverStory": {
+      "topicId": "meta-glasses-japan-launch",
+      "zhTitle": "Meta Glasses 进入日本，AI 眼镜开始接受真实的配镜与零售检验",
+      "enTitle": "Meta Glasses enter Japan, putting AI glasses through a real eyewear and retail test",
+      "zhSummary": [
+        "Meta Glasses 已从产品公告进入日本的销售、配镜和售后流程。",
+        "26 种框型与镜片、开放式音频、相机和 8 小时以上电池把“全天候 AI 眼镜”变成具体交付问题。",
+        "今天的其他信号把边界拉开：显示 XR、眼动平台、众筹相机、agent HUD、评测续航与 research evidence。"
+      ],
+      "enSummary": [
+        "Meta Glasses have moved from product announcement into Japan’s sales, fitting, and service workflow.",
+        "Twenty-six frame and lens combinations, open-ear audio, a camera, and more than eight hours of claimed battery life turn “all-day AI glasses” into a concrete delivery problem.",
+        "Today’s other signals stretch the boundary across display XR, eye-tracking platforms, crowdfunded cameras, agent HUDs, review friction, and research evidence."
+      ],
+      "imagePath": "assets/meta-glasses-japan-official-2026-08.png",
+      "imageWidth": 1600,
+      "imageHeight": 1000,
+      "imageSourceUrl": "https://about.fb.com/ja/news/2026/08/meta-glasses-launch-in-japan/",
+      "primarySourceUrl": "https://about.fb.com/ja/news/2026/08/meta-glasses-launch-in-japan/",
+      "evidenceStrength": "confirmed product · Meta Japan official launch · 2026-08-26",
+      "whyCover": "Japan turns AI glasses from a promise into a fitting, retail, service, and regional-feature test."
+    },
+    "designDesk": {
+      "zhTitle": "Design Desk：把观察链路做成可见、可断开、可恢复的状态机",
+      "enTitle": "Design Desk: make the observation loop visible, interruptible, and recoverable",
+      "zhIntro": "今天的产品信号覆盖销售、显示、眼动、众筹、agent HUD、评测和论文；设计判断要落在具体状态，而非抽象趋势。",
+      "enIntro": "Today’s signals span retail, display, gaze, crowdfunding, agent HUDs, review friction, and research; the design read belongs in concrete states, not abstract trend language.",
+      "zhItems": [
+        {
+          "label": "Retail state",
+          "body": "把配镜、配对、授权、录制灯、镜片更换和售后入口视为同一个 onboarding 状态机。"
+        },
+        {
+          "label": "View state",
+          "body": "XR 眼镜必须明确 Anchor、Wide、3D、Side、透明度和回到现实的动作，沉浸不能隐藏退出。"
+        },
+        {
+          "label": "Gaze state",
+          "body": "眼动选择需要校准质量、目标预览、确认门槛和误触回退；眼睛数据不能成为隐形遥控器。"
+        },
+        {
+          "label": "Power state",
+          "body": "把 standby、capture、AI thinking、upload、low battery、neckband 和 degraded mode 分开标注。"
+        },
+        {
+          "label": "Agent state",
+          "body": "HUD 最少要呈现 queued、running、waiting、approval、failed、done 和 undo，不要把终端日志整面搬到脸上。"
+        },
+        {
+          "label": "Ownership state",
+          "body": "离线、导出、删除、换模型、维修、更新期限和停止服务后的最低可用状态要进入产品规格。"
+        }
+      ],
+      "enItems": [
+        {
+          "label": "Retail state",
+          "body": "Treat fitting, pairing, permission, capture light, lens swap, and service entry as one onboarding state machine."
+        },
+        {
+          "label": "View state",
+          "body": "XR glasses must expose Anchor, Wide, 3D, Side, transparency, and return-to-world actions; immersion cannot hide exit."
+        },
+        {
+          "label": "Gaze state",
+          "body": "Gaze selection needs calibration quality, target preview, confirmation thresholds, and accidental-trigger fallback; eye data cannot become an invisible remote."
+        },
+        {
+          "label": "Power state",
+          "body": "Separate standby, capture, AI thinking, upload, low battery, neckband, and degraded mode in the interface."
+        },
+        {
+          "label": "Agent state",
+          "body": "A HUD should at minimum show queued, running, waiting, approval, failed, done, and undo; do not paste the terminal onto the face."
+        },
+        {
+          "label": "Ownership state",
+          "body": "Offline use, export, deletion, model replacement, repair, update horizon, and minimum post-shutdown behaviour belong in the product spec."
+        }
+      ]
+    },
+    "watchlistZh": [
+      "Meta Glasses 日本：首批真实评测、区域功能、镜片更换、相机状态灯和 8 小时以上续航的独立验证。",
+      "Phantom Beast：10 月 29 日发售、实际视图模式、120Hz 发热、Side Mode 和主机 Dock 兼容。",
+      "Jorjin J9：眼动校准、SDK 权限、量产/销售条款、处方镜片和无显示配置。",
+      "Loomos：众筹交付、实际混合续航、GPT‑4o 数据路径、记忆删除和 app 生命周期。",
+      "Monako Glass：US$399 预订是否交付、MonoOS 开放程度、agent 状态反馈和代码/密钥安全。",
+      "RayNeo X3 Pro：245mAh 主动使用时长、侧载恢复、语言覆盖和公共佩戴摩擦。",
+      "First-person research：L0–L5 是否得到独立复现，失败样本和隐私 benchmark 是否公开。",
+      "社区开放性：离线、导出、换模型、维修和停止服务后的最低可用状态是否进入厂商规格。"
+    ],
+    "watchlistEn": [
+      "Meta Glasses Japan: independent testing of first reviews, regional features, lens swaps, capture light, and the more-than-eight-hour claim.",
+      "Phantom Beast: October 29 delivery, real view modes, 120Hz heat, Side Mode, and console-dock compatibility.",
+      "Jorjin J9: gaze calibration, SDK permissions, production and sales terms, prescription fit, and displayless configurations.",
+      "Loomos: crowdfunding fulfilment, mixed-use endurance, GPT-4o data path, memory deletion, and app longevity.",
+      "Monako Glass: whether the US$399 reservation ships, MonoOS openness, agent-state feedback, and code or secret protection.",
+      "RayNeo X3 Pro: active runtime from the 245mAh cell, sideload recovery, language coverage, and public-wear friction.",
+      "First-person research: independent replication of L0–L5, public failure samples, and privacy benchmarks.",
+      "Community openness: whether offline, export, model replacement, repair, and post-shutdown minimum capability enter vendor specs."
+    ],
+    "zhPath": "/ai-daily/2026-08-31/zh/",
+    "enPath": "/ai-daily/2026-08-31/en/",
+    "sourcesPath": "/ai-daily/2026-08-31/sources.md"
+  },
+  {
     "date": "2026-08-29",
     "zhTitle": "AI Daily 2026-08-29：隐私灯开始成为相机的实时安全门",
     "enTitle": "AI Daily 2026-08-29: The privacy LED becomes a live safety gate for cameras",
