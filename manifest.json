@@ -1,5 +1,150 @@
 [
   {
+    "date": "2026-09-01",
+    "zhTitle": "AI Daily 2026-09-01：眼镜开始打开协议，显示与 agent 争夺入口",
+    "enTitle": "AI Daily 2026-09-01: Glasses open the protocol while displays and agents compete for the entry point",
+    "zhSummary": "MemoMind One 打开 Developer Access，首阶段公开 Bluetooth communication protocol；Meta、Phantom Beast、Jorjin、Loomos、Monako、RayNeo 与 first-person 研究把同一个产品问题推到台前：眼镜如何在显示、AI、续航、隐私与开放性之间保持可恢复的观察链路。",
+    "enSummary": "MemoMind One opens Developer Access with a first Bluetooth communication protocol; Meta, Phantom Beast, Jorjin, Loomos, Monako, RayNeo, and first-person research push the same product question forward: how glasses keep display, AI, power, privacy, and openness inside a recoverable observation loop.",
+    "tags": [
+      "AI inference",
+      "agent latency",
+      "AI hardware",
+      "AI glasses",
+      "physical AI",
+      "on-device AI",
+      "HCI",
+      "privacy UX"
+    ],
+    "sourceTypes": [
+      "official",
+      "Google Store",
+      "hands-on review",
+      "community",
+      "wild",
+      "research",
+      "patent watch",
+      "China",
+      "global",
+      "weak/unverified",
+      "developer surface",
+      "startup signal",
+      "confirmed product",
+      "review/community friction",
+      "china",
+      "research signal",
+      "patent signal",
+      "crowdfunding signal",
+      "crowdfunding",
+      "Product Hunt",
+      "arXiv",
+      "regional product pages",
+      "developer access"
+    ],
+    "coverStory": {
+      "topicId": "memomind-one-developer-access",
+      "zhTitle": "MemoMind One 打开 Developer Access，AI 眼镜开始接受协议与权限检验",
+      "enTitle": "MemoMind One opens Developer Access, putting AI glasses through a protocol and permissions test",
+      "zhSummary": [
+        "MemoMind 今日宣布开放 Developer Access，并公布 KiWear 为首个 SDK partner。",
+        "首阶段公开 Bluetooth communication protocol，官方博客还给出 2026 年 9 月的 open-source reference library 与 demo code 路线。",
+        "其他产品信号把边界拉开：Meta 的零售、XR 显示、眼动、相机-free HUD、评测摩擦与 first-person research。"
+      ],
+      "enSummary": [
+        "MemoMind announced Developer Access today and named KiWear as its first SDK partner.",
+        "Phase One publishes a Bluetooth communication protocol, while the product blog gives a September 2026 path for an open-source reference library and demo code.",
+        "The other signals stretch the boundary across Meta retail, XR display, gaze, camera-free HUDs, review friction, and first-person research."
+      ],
+      "imagePath": "assets/memomind-one-developer-access-2026-09.jpg",
+      "imageWidth": 1600,
+      "imageHeight": 1000,
+      "imageSourceUrl": "https://www.prnewswire.com/news-releases/memomind-one-opens-developer-access-announces-kiwear-as-first-sdk-partner-302865894.html",
+      "primarySourceUrl": "https://www.prnewswire.com/news-releases/memomind-one-opens-developer-access-announces-kiwear-as-first-sdk-partner-302865894.html",
+      "evidenceStrength": "developer surface · MemoMind official announcement · 2026-09-01",
+      "whyCover": "An announced protocol turns AI-glasses openness into a concrete test of code, permissions, and user control."
+    },
+    "designDesk": {
+      "zhTitle": "Design Desk：把观察链路做成可见、可断开、可恢复的状态机",
+      "enTitle": "Design Desk: make the observation loop visible, interruptible, and recoverable",
+      "zhIntro": "今天的产品信号覆盖销售、显示、眼动、众筹、agent HUD、评测和论文；设计判断要落在具体状态，而非抽象趋势。",
+      "enIntro": "Today’s signals span retail, display, gaze, crowdfunding, agent HUDs, review friction, and research; the design read belongs in concrete states, not abstract trend language.",
+      "zhItems": [
+        {
+          "label": "Retail state",
+          "body": "把配镜、配对、授权、录制灯、镜片更换和售后入口视为同一个 onboarding 状态机。"
+        },
+        {
+          "label": "View state",
+          "body": "XR 眼镜必须明确 Anchor、Wide、3D、Side、透明度和回到现实的动作，沉浸不能隐藏退出。"
+        },
+        {
+          "label": "Gaze state",
+          "body": "眼动选择需要校准质量、目标预览、确认门槛和误触回退；眼睛数据不能成为隐形遥控器。"
+        },
+        {
+          "label": "Power state",
+          "body": "把 standby、capture、AI thinking、upload、low battery、neckband 和 degraded mode 分开标注。"
+        },
+        {
+          "label": "Agent state",
+          "body": "HUD 最少要呈现 queued、running、waiting、approval、failed、done 和 undo，不要把终端日志整面搬到脸上。"
+        },
+        {
+          "label": "Ownership state",
+          "body": "离线、导出、删除、换模型、维修、更新期限和停止服务后的最低可用状态要进入产品规格。"
+        }
+      ],
+      "enItems": [
+        {
+          "label": "Retail state",
+          "body": "Treat fitting, pairing, permission, capture light, lens swap, and service entry as one onboarding state machine."
+        },
+        {
+          "label": "View state",
+          "body": "XR glasses must expose Anchor, Wide, 3D, Side, transparency, and return-to-world actions; immersion cannot hide exit."
+        },
+        {
+          "label": "Gaze state",
+          "body": "Gaze selection needs calibration quality, target preview, confirmation thresholds, and accidental-trigger fallback; eye data cannot become an invisible remote."
+        },
+        {
+          "label": "Power state",
+          "body": "Separate standby, capture, AI thinking, upload, low battery, neckband, and degraded mode in the interface."
+        },
+        {
+          "label": "Agent state",
+          "body": "A HUD should at minimum show queued, running, waiting, approval, failed, done, and undo; do not paste the terminal onto the face."
+        },
+        {
+          "label": "Ownership state",
+          "body": "Offline use, export, deletion, model replacement, repair, update horizon, and minimum post-shutdown behaviour belong in the product spec."
+        }
+      ]
+    },
+    "watchlistZh": [
+      "MemoMind Developer Access：Bluetooth protocol、reference library、demo code、权限模型和首批第三方体验是否按路线公开。",
+      "Meta Glasses 日本：首批真实评测、区域功能、镜片更换、相机状态灯和 8 小时以上续航的独立验证。",
+      "Phantom Beast：10 月 29 日发售、实际视图模式、120Hz 发热、Side Mode 和主机 Dock 兼容。",
+      "Jorjin J9：眼动校准、SDK 权限、量产/销售条款、处方镜片和无显示配置。",
+      "Loomos：众筹交付、实际混合续航、GPT‑4o 数据路径、记忆删除和 app 生命周期。",
+      "Monako Glass：US$399 预订是否交付、MonoOS 开放程度、agent 状态反馈和代码/密钥安全。",
+      "RayNeo X3 Pro：245mAh 主动使用时长、侧载恢复、语言覆盖和公共佩戴摩擦。",
+      "First-person research 与社区开放性：L0–L5 复现、离线、导出、换模型、维修和停止服务后的最低可用状态。"
+    ],
+    "watchlistEn": [
+      "MemoMind Developer Access: whether the Bluetooth protocol, reference library, demo code, permissions, and first third-party experiences arrive on schedule.",
+      "Meta Glasses Japan: independent testing of first reviews, regional features, lens swaps, capture light, and the more-than-eight-hour claim.",
+      "Phantom Beast: October 29 delivery, real view modes, 120Hz heat, Side Mode, and console-dock compatibility.",
+      "Jorjin J9: gaze calibration, SDK permissions, production and sales terms, prescription fit, and displayless configurations.",
+      "Loomos: crowdfunding fulfilment, mixed-use endurance, GPT-4o data path, memory deletion, and app longevity.",
+      "Monako Glass: whether the US$399 reservation ships, MonoOS openness, agent-state feedback, and code or secret protection.",
+      "RayNeo X3 Pro: active runtime from the 245mAh cell, sideload recovery, language coverage, and public-wear friction.",
+      "First-person research and community openness: L0–L5 replication, offline use, export, model replacement, repair, and post-shutdown minimum capability."
+    ],
+    "zhPath": "/ai-daily/2026-09-01/zh/",
+    "enPath": "/ai-daily/2026-09-01/en/",
+    "sourcesPath": "/ai-daily/2026-09-01/sources.md"
+  },
+  {
     "date": "2026-08-31",
     "zhTitle": "AI Daily 2026-08-31：眼镜开始进入零售，agent 开始进入视野",
     "enTitle": "AI Daily 2026-08-31: Glasses enter retail while agents enter the field of view",
