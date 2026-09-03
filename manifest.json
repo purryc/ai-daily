@@ -1,5 +1,151 @@
 [
   {
+    "date": "2026-09-03",
+    "zhTitle": "AI Daily 2026-09-03：显示型眼镜开始进入日常，连接与数据成本浮出水面",
+    "enTitle": "AI Daily 2026-09-03: Display glasses enter daily life, and the connectivity and data tax surfaces",
+    "zhSummary": "Rokid Glasses 的月度实测把双眼显示、翻译、导航与相机取景推进到日常工作流，也把低光、iOS 后台、价格和语音/位置数据留存摆上台面；MemoMind、Meta、Phantom Beast、Jorjin、Loomos、Monako、RayNeo 与 first-person 研究继续追问眼镜如何保持可恢复的观察链路。",
+    "enSummary": "Rokid Glasses’ month-long test moves dual-eye display, translation, navigation, and camera framing into daily workflows while exposing low-light, iOS background, price, and voice/location-retention friction; MemoMind, Meta, Phantom Beast, Jorjin, Loomos, Monako, RayNeo, and first-person research keep testing whether glasses can maintain a recoverable observation loop.",
+    "tags": [
+      "AI inference",
+      "agent latency",
+      "AI hardware",
+      "AI glasses",
+      "physical AI",
+      "on-device AI",
+      "HCI",
+      "privacy UX"
+    ],
+    "sourceTypes": [
+      "official",
+      "Google Store",
+      "hands-on review",
+      "community",
+      "wild",
+      "research",
+      "patent watch",
+      "China",
+      "global",
+      "weak/unverified",
+      "developer surface",
+      "startup signal",
+      "confirmed product",
+      "review/community friction",
+      "china",
+      "research signal",
+      "patent signal",
+      "crowdfunding signal",
+      "crowdfunding",
+      "Product Hunt",
+      "arXiv",
+      "regional product pages",
+      "developer access",
+      "Rokid Glasses"
+    ],
+    "coverStory": {
+      "topicId": "rokid-glasses-september-review",
+      "zhTitle": "Rokid Glasses 把显示放进日常，随后暴露连接与数据成本",
+      "enTitle": "Rokid Glasses put display into daily life, then expose the connectivity and data tax",
+      "zhSummary": [
+        "Rokid 官方页列出 49g、双眼 Micro-LED、12MP POV、89 语言翻译、Snapdragon AR1、210mAh 与 SDK supported。",
+        "Tom’s Guide 9 月 2 日月测验证显示、翻译、相机和轻量佩戴的实际价值，也记录语音/位置数据、隐私政策、价格、低光和 app 依赖。",
+        "今日封面判断：显示已形成日常反馈闭环，产品能否长期成立取决于手机依赖、权限、低光失败、数据删除和真实重度续航。"
+      ],
+      "enSummary": [
+        "Rokid’s official page lists 49g, dual-eye Micro-LED, a 12MP POV camera, translation for up to 89 languages, Snapdragon AR1, 210mAh, and SDK support.",
+        "Tom’s Guide’s September 2 month-long test finds real value in display, translation, camera, and light wear, while recording data, privacy, price, low-light, and app friction.",
+        "Cover judgment: display now forms a daily feedback loop; long-term viability depends on phone dependency, permissions, low-light recovery, deletion, and heavy-use endurance."
+      ],
+      "imagePath": "assets/rokid-glasses-official-2026-09.png",
+      "imageWidth": 1600,
+      "imageHeight": 1000,
+      "imageSourceUrl": "https://global.rokid.com/products/rokid-glasses",
+      "primarySourceUrl": "https://www.tomsguide.com/computing/smart-glasses/i-tried-rokids-ai-ar-glasses-for-a-month-and-the-general-bad-vibes-i-have-around-wearables-are-slowly-subsiding-but-i-cant-stop-worrying-about-my-personal-data",
+      "evidenceStrength": "confirmed product · review/community friction · 2026-09-02",
+      "whyCover": "A month-long review turns display glasses from a feature list into a test of daily feedback, app dependence, privacy, and recovery."
+    },
+    "designDesk": {
+      "zhTitle": "Design Desk：把显示、连接与数据链路做成可见、可断开、可恢复的状态机",
+      "enTitle": "Design Desk: make display, connectivity, and data loops visible, interruptible, and recoverable",
+      "zhIntro": "今天的主线从显示型眼镜的月度实测出发，覆盖销售、协议、眼动、众筹、agent HUD、评测和论文；设计判断落在具体状态。",
+      "enIntro": "Today starts with a month-long display-glasses test and spans retail, protocols, gaze, crowdfunding, agent HUDs, review friction, and research; the design read belongs in concrete states.",
+      "zhItems": [
+        {
+          "label": "Retail state",
+          "body": "把配镜、配对、授权、录制灯、镜片更换和售后入口视为同一个 onboarding 状态机。"
+        },
+        {
+          "label": "View state",
+          "body": "XR 眼镜必须明确 Anchor、Wide、3D、Side、透明度和回到现实的动作，沉浸不能隐藏退出。"
+        },
+        {
+          "label": "Gaze state",
+          "body": "眼动选择需要校准质量、目标预览、确认门槛和误触回退；眼睛数据不能成为隐形遥控器。"
+        },
+        {
+          "label": "Power state",
+          "body": "把 standby、capture、AI thinking、upload、low battery、neckband 和 degraded mode 分开标注。"
+        },
+        {
+          "label": "Agent state",
+          "body": "HUD 最少要呈现 queued、running、waiting、approval、failed、done 和 undo，不要把终端日志整面搬到脸上。"
+        },
+        {
+          "label": "Ownership state",
+          "body": "离线、导出、删除、换模型、维修、更新期限和停止服务后的最低可用状态要进入产品规格。"
+        }
+      ],
+      "enItems": [
+        {
+          "label": "Retail state",
+          "body": "Treat fitting, pairing, permission, capture light, lens swap, and service entry as one onboarding state machine."
+        },
+        {
+          "label": "View state",
+          "body": "XR glasses must expose Anchor, Wide, 3D, Side, transparency, and return-to-world actions; immersion cannot hide exit."
+        },
+        {
+          "label": "Gaze state",
+          "body": "Gaze selection needs calibration quality, target preview, confirmation thresholds, and accidental-trigger fallback; eye data cannot become an invisible remote."
+        },
+        {
+          "label": "Power state",
+          "body": "Separate standby, capture, AI thinking, upload, low battery, neckband, and degraded mode in the interface."
+        },
+        {
+          "label": "Agent state",
+          "body": "A HUD should at minimum show queued, running, waiting, approval, failed, done, and undo; do not paste the terminal onto the face."
+        },
+        {
+          "label": "Ownership state",
+          "body": "Offline use, export, deletion, model replacement, repair, update horizon, and minimum post-shutdown behaviour belong in the product spec."
+        }
+      ]
+    },
+    "watchlistZh": [
+      "Rokid Glasses：低光、iOS 后台、210mAh 重度续航、语音/位置数据删除和 SDK 控制范围。",
+      "MemoMind Developer Access：Bluetooth protocol、reference library、demo code、权限模型和首批第三方体验是否按路线公开。",
+      "Meta Glasses 日本：首批真实评测、区域功能、镜片更换、相机状态灯和 8 小时以上续航的独立验证。",
+      "Phantom Beast：10 月 29 日发售、实际视图模式、120Hz 发热、Side Mode 和主机 Dock 兼容。",
+      "Jorjin J9：眼动校准、SDK 权限、量产/销售条款、处方镜片和无显示配置。",
+      "Loomos：众筹交付、实际混合续航、GPT‑4o 数据路径、记忆删除和 app 生命周期。",
+      "Monako Glass：US$399 预订是否交付、MonoOS 开放程度、agent 状态反馈和代码/密钥安全。",
+      "RayNeo X3 Pro 与 first-person research：245mAh 主动使用、侧载恢复、L0–L5 复现和停止服务后的最低可用状态。"
+    ],
+    "watchlistEn": [
+      "Rokid Glasses: low-light performance, iOS background behaviour, heavy-use endurance from 210mAh, voice/location deletion, and SDK control scope.",
+      "MemoMind Developer Access: whether the Bluetooth protocol, reference library, demo code, permissions, and first third-party experiences arrive on schedule.",
+      "Meta Glasses Japan: independent testing of first reviews, regional features, lens swaps, capture light, and the more-than-eight-hour claim.",
+      "Phantom Beast: October 29 delivery, real view modes, 120Hz heat, Side Mode, and console-dock compatibility.",
+      "Jorjin J9: gaze calibration, SDK permissions, production and sales terms, prescription fit, and displayless configurations.",
+      "Loomos: crowdfunding fulfilment, mixed-use endurance, GPT-4o data path, memory deletion, and app longevity.",
+      "Monako Glass: whether the US$399 reservation ships, MonoOS openness, agent-state feedback, and code or secret protection.",
+      "RayNeo X3 Pro and first-person research: active runtime from 245mAh, sideload recovery, L0–L5 replication, and post-shutdown minimum capability."
+    ],
+    "zhPath": "/ai-daily/2026-09-03/zh/",
+    "enPath": "/ai-daily/2026-09-03/en/",
+    "sourcesPath": "/ai-daily/2026-09-03/sources.md"
+  },
+  {
     "date": "2026-09-01",
     "zhTitle": "AI Daily 2026-09-01：眼镜开始打开协议，显示与 agent 争夺入口",
     "enTitle": "AI Daily 2026-09-01: Glasses open the protocol while displays and agents compete for the entry point",

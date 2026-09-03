@@ -2409,6 +2409,15 @@ body:has(.deck-page) {
 }
 
 @media (min-width: 1501px) and (max-width: 2200px) {
+  .source-slide {
+    gap: 1px;
+  }
+
+  .source-slide .source-grid strong {
+    font-size: 7.5px;
+    line-height: 0.88;
+  }
+
   .section-slide {
     gap: 12px;
     padding-top: 20px;
