@@ -1,5 +1,154 @@
 [
   {
+    "date": "2026-09-04",
+    "zhTitle": "AI Daily 2026-09-04：全彩 AR、联网耳机与跨设备 agent 把入口推向现场",
+    "enTitle": "AI Daily 2026-09-04: Full-color AR, connected earbuds, and cross-device agents push the entry point into the field",
+    "zhSummary": "GOSIGHT P1 把双目全彩 AR、第一人称取景、热插拔供电和隐私硬件放进同一条产品合同，但最终规格与交付仍未公开；Lenovo Qira 把个人 AI 接到 PC、手机、手表和 Workato/MCP 应用层；Plaud One 用 4G eSIM 让会议 agent 脱离手机，Ultrahuman 则把戒指推向指针、控制器和 AI 输入。社区升级摩擦与中国渠道扫描继续压低未经验证的结论。",
+    "enSummary": "GOSIGHT P1 puts binocular full-color AR, first-person framing, hot-swappable power, and privacy hardware into one product contract, while final specifications and delivery remain unpublished. Lenovo Qira connects personal AI across PCs, phones, watches, and Workato/MCP applications; Plaud One uses 4G eSIM to move a meeting Agent away from the phone; Ultrahuman pushes the ring toward pointing, control, and AI input. Community upgrade friction and the China channel scan keep unverified conclusions downgraded.",
+    "tags": [
+      "AI inference",
+      "agent latency",
+      "AI hardware",
+      "AI glasses",
+      "physical AI",
+      "on-device AI",
+      "HCI",
+      "privacy UX"
+    ],
+    "sourceTypes": [
+      "official",
+      "Google Store",
+      "hands-on review",
+      "community",
+      "wild",
+      "research",
+      "patent watch",
+      "China",
+      "global",
+      "weak/unverified",
+      "developer surface",
+      "startup signal",
+      "confirmed product",
+      "review/community friction",
+      "china",
+      "research signal",
+      "patent signal",
+      "crowdfunding signal",
+      "crowdfunding",
+      "Product Hunt",
+      "arXiv",
+      "regional product pages",
+      "developer access",
+      "Rokid Glasses",
+      "MCP",
+      "eSIM",
+      "IFA 2026"
+    ],
+    "coverStory": {
+      "topicId": "gosight-p1-full-color-ar",
+      "zhTitle": "GOSIGHT P1：全彩 AR 必须从“能显示”走向“能持续工作”",
+      "enTitle": "GOSIGHT P1: full-color AR has to move from showing pixels to staying at work",
+      "zhSummary": [
+        "GOSIGHT 公开 P1：双目全彩 Micro-OLED、约 105 英寸等效视野、约 69g 目标、12MP 相机、1080p、开放式音频和热插拔电源。",
+        "取景器让佩戴者在拍摄前看见画面，硬件关联隐私灯与可选物理盖试图把旁人可理解的安全规则写进相机状态机。",
+        "最终规格、价格、市场、交付和真实续航尚未公开；本期将它标为 startup signal，不升级为已上市产品。"
+      ],
+      "enSummary": [
+        "GOSIGHT published P1 with binocular full-color Micro-OLEDs, a roughly 105-inch-equivalent view, a target near 69g, a 12MP camera, 1080p video, open-ear audio, and hot-swappable power.",
+        "A live viewfinder lets the wearer see the frame before capture, while a hardware-linked privacy light and optional physical cover try to put a bystander-readable safety rule into the camera state machine.",
+        "Final specifications, price, markets, delivery, and real endurance remain unpublished; this issue labels P1 a startup signal rather than a retail product."
+      ],
+      "imagePath": "assets/gosight-p1-ifa-official-2026-09.png",
+      "imageWidth": 1280,
+      "imageHeight": 720,
+      "imageSourceUrl": "https://www.globenewswire.com/news-release/2026/09/04/3356376/0/en/gosight-p1-moves-full-color-ar-into-continuous-use-with-binocular-display-and-seamless-battery-swapping.html",
+      "primarySourceUrl": "https://www.globenewswire.com/news-release/2026/09/04/3356376/0/en/gosight-p1-moves-full-color-ar-into-continuous-use-with-binocular-display-and-seamless-battery-swapping.html",
+      "evidenceStrength": "startup signal · 2026-09-04 · final specs and delivery unverified",
+      "whyCover": "Full-color AR now has to prove a continuous loop of framing, feedback, power, privacy, and delivery—not only a display demo."
+    },
+    "designDesk": {
+      "zhTitle": "Design Desk：把 agent 入口做成可见、可恢复的现场状态",
+      "enTitle": "Design Desk: make the Agent entry a visible, recoverable field state",
+      "zhIntro": "今天的产品更新把入口从屏幕推向眼前、耳边、手指和跨设备上下文；设计判断落在取景、联网、权限、回滚和停止这些可观察状态。",
+      "enIntro": "Today’s product updates push the entry point into the view, ear, finger, and cross-device context; the design read belongs in observable states for framing, connectivity, permission, rollback, and stopping.",
+      "zhItems": [
+        {
+          "label": "Framing state",
+          "body": "相机型眼镜先让用户确认画面，再开始录制；取景、录制、停止和恢复都要有旁人可理解的反馈。"
+        },
+        {
+          "label": "Power state",
+          "body": "把 charging、capture、AI thinking、upload、hot-swap、low battery 和 degraded mode 分开显示。"
+        },
+        {
+          "label": "Connectivity state",
+          "body": "eSIM 或 MCP 连接器必须告诉用户当前网络、账户、数据去向和动作是否需要手机。"
+        },
+        {
+          "label": "Permission state",
+          "body": "跨设备 agent 把查询、编辑、发送、删除和解锁分级，危险动作提供确认、撤销和审计。"
+        },
+        {
+          "label": "Recovery state",
+          "body": "系统升级和 wearable 失败都要提供进度、回滚、数据完整性、错误码与人工支持入口。"
+        },
+        {
+          "label": "Input state",
+          "body": "戒指、耳机、手表、相机和语音的主动输入要区分手势、唤醒、持续监听和健康上下文。"
+        }
+      ],
+      "enItems": [
+        {
+          "label": "Framing state",
+          "body": "Camera glasses should let the user confirm the frame before capture; framing, recording, stopping, and recovery need bystander-readable feedback."
+        },
+        {
+          "label": "Power state",
+          "body": "Separate charging, capture, AI thinking, upload, hot-swap, low battery, and degraded mode in the interface."
+        },
+        {
+          "label": "Connectivity state",
+          "body": "An eSIM or MCP connector must expose network, account, data destination, and whether the phone is still required."
+        },
+        {
+          "label": "Permission state",
+          "body": "A cross-device Agent should tier query, edit, send, delete, and unlock actions with confirmation, undo, and audit."
+        },
+        {
+          "label": "Recovery state",
+          "body": "System updates and wearable failures need progress, rollback, data integrity, error codes, and a human-support path."
+        },
+        {
+          "label": "Input state",
+          "body": "Separate deliberate gesture, wake word, continuous listening, and health context across ring, earbuds, watch, camera, and voice."
+        }
+      ]
+    },
+    "watchlistZh": [
+      "GOSIGHT P1：IFA 真机、最终重量/亮度/视野、热插拔续接、价格、众筹与交付。",
+      "Lenovo Qira：Android 17 rollout、moto watch ultra、Workato/MCP 权限、动作确认与撤销。",
+      "Plaud One：Explorer Edition 发货、4G 覆盖、credits 用完后的费用、中文体验与数据删除。",
+      "Ultrahuman Ring：Ring Air/Pro 的游戏与 AI 更新、SDK、手势误触和 Qualcomm silicon 戒指。",
+      "Qira 社区摩擦：按机型、build、BIOS 与 Windows 版本复现安装、回滚和维修问题。",
+      "Plaud 中国 lane：大陆订单、运营商、中文/方言、数据合规、发票与售后。",
+      "RayNeo iO 与 GT：9 月 4 日真实零售、价格、续航、隐私灯和显示/无显示两条路径。",
+      "First-person intelligence research：L0–L5 评估是否进入真实眼镜 SDK 与产品 QA。"
+    ],
+    "watchlistEn": [
+      "GOSIGHT P1: IFA hardware, final weight/brightness/view, hot-swap continuity, price, crowdfunding, and delivery.",
+      "Lenovo Qira: Android 17 rollout, moto watch ultra, Workato/MCP permissions, confirmation, and undo.",
+      "Plaud One: Explorer Edition shipping, 4G coverage, post-credit cost, Chinese experience, and deletion.",
+      "Ultrahuman Ring: Ring Air/Pro game and AI update, SDK, gesture false triggers, and Qualcomm-silicon ring.",
+      "Qira community friction: reproduce install, rollback, and repair issues by model, build, BIOS, and Windows version.",
+      "Plaud China lane: mainland order, carrier, Chinese/dialect support, compliance, invoice, and service.",
+      "RayNeo iO and GT: September 4 retail, price, endurance, privacy light, and display/displayless paths.",
+      "First-person intelligence research: whether L0-L5 evaluation reaches real glasses SDKs and product QA."
+    ],
+    "zhPath": "/2026-09-04/zh/",
+    "enPath": "/2026-09-04/en/",
+    "sourcesPath": "/2026-09-04/sources.md"
+  },
+  {
     "date": "2026-09-03",
     "zhTitle": "AI Daily 2026-09-03：显示型眼镜开始进入日常，连接与数据成本浮出水面",
     "enTitle": "AI Daily 2026-09-03: Display glasses enter daily life, and the connectivity and data tax surfaces",
