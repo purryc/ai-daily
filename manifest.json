@@ -1,5 +1,165 @@
 [
   {
+    "date": "2026-09-05",
+    "zhTitle": "AI Daily 2026-09-05：眼镜走向区域零售，家庭 agent 开始移动",
+    "enTitle": "AI Daily 2026-09-05: Glasses enter regional retail while the home Agent starts moving",
+    "zhSummary": "HTC VIVE Eagle 把相机、翻译、Notes、开放式音频与遮挡即停的隐私规则带到可购买市场，但订阅与手机依赖仍明显；Tuya Doova 把独居老人安全响应、陪伴和智能家居控制放进移动机器人；Sonos 27 用 MCP、Fabric 和 Ace Ultra 让声音在家庭设备之间迁移；海信 JUOS/Vidda G11 继续作为中国 lane 的弱信号扫描。",
+    "enSummary": "HTC VIVE Eagle brings camera capture, translation, Notes, open-ear audio, and indicator-linked privacy into purchasable regional markets, while subscription and phone dependence remain visible; Tuya Doova puts senior safety response, companionship, and smart-home control into a mobile robot; Sonos 27 uses MCP, Fabric, and Ace Ultra to move sound across the home; Hisense JUOS/Vidda G11 remains a weak China-lane scan.",
+    "tags": [
+      "AI inference",
+      "agent latency",
+      "AI hardware",
+      "AI glasses",
+      "physical AI",
+      "on-device AI",
+      "HCI",
+      "privacy UX"
+    ],
+    "sourceTypes": [
+      "official",
+      "Google Store",
+      "hands-on review",
+      "community",
+      "wild",
+      "research",
+      "patent watch",
+      "China",
+      "global",
+      "weak/unverified",
+      "developer surface",
+      "startup signal",
+      "confirmed product",
+      "review/community friction",
+      "china",
+      "research signal",
+      "patent signal",
+      "crowdfunding signal",
+      "crowdfunding",
+      "Product Hunt",
+      "arXiv",
+      "regional product pages",
+      "developer access",
+      "Rokid Glasses",
+      "MCP",
+      "eSIM",
+      "IFA 2026",
+      "Sonos 27",
+      "VIVE Eagle",
+      "Doova"
+    ],
+    "coverStory": {
+      "topicId": "htc-vive-eagle-regional-launch",
+      "zhTitle": "HTC VIVE Eagle：AI 眼镜开始接受零售、订阅与隐私状态的现实检验",
+      "enTitle": "HTC VIVE Eagle: AI glasses meet the real test of retail, subscriptions, and privacy state",
+      "zhSummary": [
+        "VIVE Eagle 已有台湾官方销售面、区域价格与上市节奏：美国 US$499、欧盟 €469、英国 £429。",
+        "1200 万像素、最高 3K、实时/图像翻译、AI Notes、开放式音频与镜头灯遮挡即停，把 AI 入口写进硬件状态。",
+        "AI 额度、手机/网络、地区语言和长期续航仍需逐市场验证；本期将它标为 confirmed product，不把宣传当成普遍可用。"
+      ],
+      "enSummary": [
+        "VIVE Eagle now has an official Taiwan sales surface plus regional pricing and rollout: US$499 in the US, €469 in the EU, and £429 in the UK.",
+        "A 12MP camera, up to 3K, live and image translation, AI Notes, open-ear audio, and indicator-linked camera disable put the Agent entry into hardware state.",
+        "Quotas, phone/network dependence, languages, and long-session endurance still need market-by-market testing; this issue calls it a confirmed product without treating marketing as universal availability."
+      ],
+      "imagePath": "assets/vive-eagle-official-2026-09.png",
+      "imageWidth": 1280,
+      "imageHeight": 720,
+      "imageSourceUrl": "https://www.t3.com/tech/vr/htcs-smart-glasses-are-coming-to-the-uk-and-now-we-know-their-price-at-last",
+      "primarySourceUrl": "https://www.vive.com/tw/product/vive-eagle/overview/",
+      "evidenceStrength": "confirmed product · 2026-09-03 · regional availability and service limits remain",
+      "whyCover": "The category is moving from prototype theatre to the harder contract of retail price, subscription, phone dependence, and a privacy state users can see."
+    },
+    "designDesk": {
+      "zhTitle": "Design Desk：把 agent 入口做成可见、可恢复的现场状态",
+      "enTitle": "Design Desk: make the Agent entry a visible, recoverable field state",
+      "zhIntro": "今天的产品更新把入口从屏幕推向眼前、耳边、手指和跨设备上下文；设计判断落在取景、联网、权限、回滚和停止这些可观察状态。",
+      "enIntro": "Today’s product updates push the entry point into the view, ear, finger, and cross-device context; the design read belongs in observable states for framing, connectivity, permission, rollback, and stopping.",
+      "zhItems": [
+        {
+          "label": "Framing state",
+          "body": "相机型眼镜先让用户确认画面，再开始录制；取景、录制、停止和恢复都要有旁人可理解的反馈。"
+        },
+        {
+          "label": "Power state",
+          "body": "把 charging、capture、AI thinking、upload、hot-swap、low battery 和 degraded mode 分开显示。"
+        },
+        {
+          "label": "Connectivity state",
+          "body": "eSIM 或 MCP 连接器必须告诉用户当前网络、账户、数据去向和动作是否需要手机。"
+        },
+        {
+          "label": "Permission state",
+          "body": "跨设备 agent 把查询、编辑、发送、删除和解锁分级，危险动作提供确认、撤销和审计。"
+        },
+        {
+          "label": "Recovery state",
+          "body": "系统升级和 wearable 失败都要提供进度、回滚、数据完整性、错误码与人工支持入口。"
+        },
+        {
+          "label": "Input state",
+          "body": "戒指、耳机、手表、相机和语音的主动输入要区分手势、唤醒、持续监听和健康上下文。"
+        }
+      ],
+      "enItems": [
+        {
+          "label": "Framing state",
+          "body": "Camera glasses should let the user confirm the frame before capture; framing, recording, stopping, and recovery need bystander-readable feedback."
+        },
+        {
+          "label": "Power state",
+          "body": "Separate charging, capture, AI thinking, upload, hot-swap, low battery, and degraded mode in the interface."
+        },
+        {
+          "label": "Connectivity state",
+          "body": "An eSIM or MCP connector must expose network, account, data destination, and whether the phone is still required."
+        },
+        {
+          "label": "Permission state",
+          "body": "A cross-device Agent should tier query, edit, send, delete, and unlock actions with confirmation, undo, and audit."
+        },
+        {
+          "label": "Recovery state",
+          "body": "System updates and wearable failures need progress, rollback, data integrity, error codes, and a human-support path."
+        },
+        {
+          "label": "Input state",
+          "body": "Separate deliberate gesture, wake word, continuous listening, and health context across ring, earbuds, watch, camera, and voice."
+        }
+      ]
+    },
+    "watchlistZh": [
+      "VIVE Eagle：不同地区的订阅、翻译准确率、遮挡停机、长时间录像和处方镜片服务。",
+      "Tuya Doova：跌倒/误报测试、家人接管、断网断电回退、数据删除与老人接受度。",
+      "Sonos 27：9 月 8 日 MCP rollout、外部 agent 权限、撤销、旧设备兼容与 Ace Ultra 发货。",
+      "海信 JUOS / Vidda G11：IFA 真机、API、海外订单、语言、跨设备确认与售后。",
+      "GOSIGHT P1：IFA 真机、最终重量/亮度/视野、热插拔续接、价格、众筹与交付。",
+      "Lenovo Qira：Android 17 rollout、moto watch ultra、Workato/MCP 权限、动作确认与撤销。",
+      "Plaud One：Explorer Edition 发货、4G 覆盖、credits 用完后的费用、中文体验与数据删除。",
+      "Ultrahuman Ring：Ring Air/Pro 的游戏与 AI 更新、SDK、手势误触和 Qualcomm silicon 戒指。",
+      "Qira 社区摩擦：按机型、build、BIOS 与 Windows 版本复现安装、回滚和维修问题。",
+      "Plaud 中国 lane：大陆订单、运营商、中文/方言、数据合规、发票与售后。",
+      "RayNeo iO 与 GT：9 月 4 日真实零售、价格、续航、隐私灯和显示/无显示两条路径。",
+      "First-person intelligence research：L0–L5 评估是否进入真实眼镜 SDK 与产品 QA。"
+    ],
+    "watchlistEn": [
+      "VIVE Eagle: regional subscription, translation accuracy, indicator shutdown, long capture, and prescription service.",
+      "Tuya Doova: fall and false-alarm tests, family takeover, offline/power recovery, deletion, and senior acceptance.",
+      "Sonos 27: September 8 MCP rollout, external-Agent permissions, undo, legacy compatibility, and Ace Ultra shipping.",
+      "Hisense JUOS / Vidda G11: IFA hardware, API, overseas order, language, cross-device confirmation, and service.",
+      "GOSIGHT P1: IFA hardware, final weight/brightness/view, hot-swap continuity, price, crowdfunding, and delivery.",
+      "Lenovo Qira: Android 17 rollout, moto watch ultra, Workato/MCP permissions, confirmation, and undo.",
+      "Plaud One: Explorer Edition shipping, 4G coverage, post-credit cost, Chinese experience, and deletion.",
+      "Ultrahuman Ring: Ring Air/Pro game and AI update, SDK, gesture false triggers, and Qualcomm-silicon ring.",
+      "Qira community friction: reproduce install, rollback, and repair issues by model, build, BIOS, and Windows version.",
+      "Plaud China lane: mainland order, carrier, Chinese/dialect support, compliance, invoice, and service.",
+      "RayNeo iO and GT: September 4 retail, price, endurance, privacy light, and display/displayless paths.",
+      "First-person intelligence research: whether L0-L5 evaluation reaches real glasses SDKs and product QA."
+    ],
+    "zhPath": "/2026-09-05/zh/",
+    "enPath": "/2026-09-05/en/",
+    "sourcesPath": "/2026-09-05/sources.md"
+  },
+  {
     "date": "2026-09-04",
     "zhTitle": "AI Daily 2026-09-04：全彩 AR、联网耳机与跨设备 agent 把入口推向现场",
     "enTitle": "AI Daily 2026-09-04: Full-color AR, connected earbuds, and cross-device agents push the entry point into the field",
