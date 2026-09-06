@@ -1155,6 +1155,10 @@ body:has(.deck-page) {
     gap: 1px;
   }
 
+  .source-slide .source-grid {
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+  }
+
   .source-slide .source-grid strong {
     font-size: 7.5px;
     line-height: 0.88;

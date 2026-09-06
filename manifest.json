@@ -1,5 +1,174 @@
 [
   {
+    "date": "2026-09-06",
+    "zhTitle": "AI Daily 2026-09-06：录音入口开始长在设备上，agent 进入现场状态",
+    "enTitle": "AI Daily 2026-09-06: Recording entries move into the device while Agents enter field state",
+    "zhSummary": "今天的新增把 IFA 的现场信号压缩成两条可验证产品路径：SwitchBot AI MindClip 已经把录音、Qwen 转写、任务、日历和 AI Memory Search 接到可购买的夹式设备；viaim Rise 则把智能充电盒做成录音入口，但要到 9 月 8 日才进入 Indiegogo，仍是 crowdfunding signal。VIVE Eagle、Doova、Sonos 27、RayNeo iO 和中国 lane 继续追踪零售、家庭安全、音频 OS、显示眼镜和社区摩擦。",
+    "enSummary": "Today’s additions reduce IFA’s field signal to two verifiable product paths: SwitchBot AI MindClip connects recording, Qwen transcription, tasks, calendar, and AI Memory Search in a purchasable clip-on device; viaim Rise turns its smart case into a recording entry but does not reach Indiegogo until September 8, so it remains a crowdfunding signal. VIVE Eagle, Doova, Sonos 27, RayNeo iO, and the China lane continue to track retail, home safety, audio OS, display glasses, and community friction.",
+    "tags": [
+      "wearable memory",
+      "AI earbuds",
+      "AI hardware",
+      "agentic devices",
+      "HCI",
+      "AI inference",
+      "agent latency",
+      "AI glasses",
+      "physical AI",
+      "on-device AI",
+      "privacy UX"
+    ],
+    "sourceTypes": [
+      "official",
+      "Google Store",
+      "hands-on review",
+      "community",
+      "wild",
+      "research",
+      "patent watch",
+      "China",
+      "global",
+      "weak/unverified",
+      "developer surface",
+      "startup signal",
+      "confirmed product",
+      "review/community friction",
+      "china",
+      "research signal",
+      "patent signal",
+      "crowdfunding signal",
+      "crowdfunding",
+      "Product Hunt",
+      "arXiv",
+      "regional product pages",
+      "developer access",
+      "Rokid Glasses",
+      "MCP",
+      "eSIM",
+      "IFA 2026",
+      "Sonos 27",
+      "VIVE Eagle",
+      "Doova",
+      "wearable memory",
+      "AI Agent Earbuds"
+    ],
+    "coverStory": {
+      "topicId": "switchbot-ai-mindclip-wearable-memory",
+      "zhTitle": "MindClip 把‘记住’写成设备状态：录音、暂停、检索与下一步",
+      "enTitle": "MindClip writes remembering into device state: record, pause, retrieve, act",
+      "zhSummary": [
+        "SwitchBot AI MindClip 已公开售价、容量、录音时长、免费转写与 Memory Search。",
+        "录音状态可由设备闪灯和 App 控制，摘要结果继续流入任务与日历。",
+        "免费额度、数据去向、多人同意和错误回放仍需真实使用验证。"
+      ],
+      "enSummary": [
+        "SwitchBot AI MindClip publishes price, capacity, recording duration, free transcription, and Memory Search.",
+        "The device light and app expose recording state while summaries flow into tasks and calendar.",
+        "Quota cost, data destination, multi-party consent, and source-audio recovery still need real-use testing."
+      ],
+      "imagePath": "assets/switchbot-ai-mindclip-official-2026-09.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 1200,
+      "imageSourceUrl": "https://us.switch-bot.com/products/switchbot-ai-mindclip",
+      "primarySourceUrl": "https://us.switch-bot.com/products/switchbot-ai-mindclip",
+      "evidenceStrength": "confirmed product · official product page and IFA launch release · 2026-09-03",
+      "whyCover": "The wearable-memory category is moving from a passive recorder to a device state that must show capture, pause, search, cost, and recovery."
+    },
+    "designDesk": {
+      "zhTitle": "Design Desk：把‘记忆’与‘录音’做成可审计的现场状态",
+      "enTitle": "Design Desk: make memory and recording auditable field states",
+      "zhIntro": "MindClip 与 Rise 把一个很小的入口问题放大：系统何时在听、何时在整理、何时在执行，以及用户如何停止、纠错和删除。",
+      "enIntro": "MindClip and Rise enlarge a small entry problem: when the system is listening, organising, or acting, and how the user stops, corrects, and deletes it.",
+      "zhItems": [
+        {
+          "label": "Record state",
+          "body": "录制、暂停、停止、上传、转写与搜索分开显示；闪灯不能替代可见的历史记录与删除入口。"
+        },
+        {
+          "label": "Quota state",
+          "body": "每次录音都要告诉用户免费分钟、付费触发、自动续订和组织账户限制。"
+        },
+        {
+          "label": "Consent state",
+          "body": "多人对话、电话、课堂和工作会议提供旁人知情与停止机制，不能只依赖设备外壳。"
+        },
+        {
+          "label": "Agent state",
+          "body": "摘要、待办、日历动作和外部工具调用分级确认，错误结果回到原始音频。"
+        },
+        {
+          "label": "Crowdfunding state",
+          "body": "众筹产品把目标、样机、批次、退款、延迟与软件服务分开写清楚。"
+        },
+        {
+          "label": "Memory state",
+          "body": "搜索、关系推断、导出和删除都留下审计；用户能暂停长期记忆，不必停用全部设备。"
+        }
+      ],
+      "enItems": [
+        {
+          "label": "Record state",
+          "body": "Separate record, pause, stop, upload, transcription, and search; a light cannot replace visible history and deletion."
+        },
+        {
+          "label": "Quota state",
+          "body": "Every capture should expose free minutes, paid triggers, auto-renewal, and organisational-account limits."
+        },
+        {
+          "label": "Consent state",
+          "body": "Multi-party conversations, calls, classes, and meetings need bystander awareness and a stop path beyond the device shell."
+        },
+        {
+          "label": "Agent state",
+          "body": "Tier summaries, tasks, calendar actions, and external tools with confirmation; let wrong output return to source audio."
+        },
+        {
+          "label": "Crowdfunding state",
+          "body": "Crowdfunded products should separate targets, samples, batches, refunds, delays, and software service commitments."
+        },
+        {
+          "label": "Memory state",
+          "body": "Search, inference, export, and deletion need audit; users should pause long-term memory without disabling every device."
+        }
+      ]
+    },
+    "watchlistZh": [
+      "SwitchBot MindClip：免费额度、自动续订、数据处理地区、多人同意、20 小时条件与删除审计。",
+      "viaim Rise：9 月 8 日 Indiegogo 条款、最终价格、样机、退款、发货和 Agent 撤销。",
+      "VIVE Eagle：不同地区的订阅、翻译准确率、遮挡停机、长时间录像和处方镜片服务。",
+      "Tuya Doova：跌倒/误报测试、家人接管、断网断电回退、数据删除与老人接受度。",
+      "Sonos 27：9 月 8 日 MCP rollout、外部 agent 权限、撤销、旧设备兼容与 Ace Ultra 发货。",
+      "海信 JUOS / Vidda G11：IFA 真机、API、海外订单、语言、跨设备确认与售后。",
+      "GOSIGHT P1：IFA 真机、最终重量/亮度/视野、热插拔续接、价格、众筹与交付。",
+      "Lenovo Qira：Android 17 rollout、moto watch ultra、Workato/MCP 权限、动作确认与撤销。",
+      "Plaud One：Explorer Edition 发货、4G 覆盖、credits 用完后的费用、中文体验与数据删除。",
+      "Ultrahuman Ring：Ring Air/Pro 的游戏与 AI 更新、SDK、手势误触和 Qualcomm silicon 戒指。",
+      "Qira 社区摩擦：按机型、build、BIOS 与 Windows 版本复现安装、回滚和维修问题。",
+      "Plaud 中国 lane：大陆订单、运营商、中文/方言、数据合规、发票与售后。",
+      "RayNeo iO 与 GT：9 月 4 日真实零售、价格、续航、隐私灯和显示/无显示两条路径。",
+      "First-person intelligence research：L0–L5 评估是否进入真实眼镜 SDK 与产品 QA。"
+    ],
+    "watchlistEn": [
+      "SwitchBot MindClip: free quota, auto-renewal, processing region, multi-party consent, 20-hour conditions, and deletion audit.",
+      "viaim Rise: September 8 Indiegogo terms, final price, sample, refunds, shipping, and Agent undo.",
+      "VIVE Eagle: regional subscription, translation accuracy, indicator shutdown, long capture, and prescription service.",
+      "Tuya Doova: fall and false-alarm tests, family takeover, offline/power recovery, deletion, and senior acceptance.",
+      "Sonos 27: September 8 MCP rollout, external-Agent permissions, undo, legacy compatibility, and Ace Ultra shipping.",
+      "Hisense JUOS / Vidda G11: IFA hardware, API, overseas order, language, cross-device confirmation, and service.",
+      "GOSIGHT P1: IFA hardware, final weight/brightness/view, hot-swap continuity, price, crowdfunding, and delivery.",
+      "Lenovo Qira: Android 17 rollout, moto watch ultra, Workato/MCP permissions, confirmation, and undo.",
+      "Plaud One: Explorer Edition shipping, 4G coverage, post-credit cost, Chinese experience, and deletion.",
+      "Ultrahuman Ring: Ring Air/Pro game and AI update, SDK, gesture false triggers, and Qualcomm-silicon ring.",
+      "Qira community friction: reproduce install, rollback, and repair issues by model, build, BIOS, and Windows version.",
+      "Plaud China lane: mainland order, carrier, Chinese/dialect support, compliance, invoice, and service.",
+      "RayNeo iO and GT: September 4 retail, price, endurance, privacy light, and display/displayless paths.",
+      "First-person intelligence research: whether L0-L5 evaluation reaches real glasses SDKs and product QA."
+    ],
+    "zhPath": "./2026-09-06/zh/",
+    "enPath": "./2026-09-06/en/",
+    "sourcesPath": "./2026-09-06/sources.md"
+  },
+  {
     "date": "2026-09-05",
     "zhTitle": "AI Daily 2026-09-05：眼镜走向区域零售，家庭 agent 开始移动",
     "enTitle": "AI Daily 2026-09-05: Glasses enter regional retail while the home Agent starts moving",
