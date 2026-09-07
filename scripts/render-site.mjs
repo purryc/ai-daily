@@ -2393,7 +2393,7 @@ body:has(.deck-page) {
   }
 
   .source-slide .source-grid {
-    grid-template-columns: repeat(12, minmax(0, 1fr));
+    grid-template-columns: repeat(14, minmax(0, 1fr));
     gap: 0;
   }
 
