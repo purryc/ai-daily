@@ -1,5 +1,415 @@
 [
   {
+    "date": "2026-09-09",
+    "zhTitle": "AI Daily 2026-09-09：个人 agent 进入 Secure VM，端侧算力成为产品层",
+    "enTitle": "AI Daily 2026-09-09: Personal Agents enter Secure VMs as edge compute becomes a product layer",
+    "zhSummary": "Meta Muse 把个人 agent 放进专用 Secure VM，用 Sentinel、连接权限、敏感动作批准和审计轨迹控制外发；LattePanda Mu Ultra 把 115 TOPS 端侧 AI 做成可嵌入 x86 模块；Nubia NaviX Ultra 将系统级 agent 推向中国手机，HP ZGX Fury 则把本地推理接到企业 edge 运维。社区安全问题保留为 review/community friction，不升级为漏洞结论。",
+    "enSummary": "Meta Muse places a personal Agent in a dedicated Secure VM with Sentinel, per-service access, sensitive-action approval, and audit trails; LattePanda Mu Ultra turns 115 TOPS of edge AI into an embeddable x86 module; Nubia NaviX Ultra pushes a system Agent into a China phone, while HP ZGX Fury connects local inference to enterprise edge operations. Community security questions remain review/community friction, not confirmed vulnerabilities.",
+    "tags": [
+      "Meta Muse",
+      "Secure VM",
+      "Sentinel",
+      "edge AI",
+      "LattePanda Mu Ultra",
+      "Nubia NaviX Ultra",
+      "HP ZGX Fury",
+      "Arm AI Portal",
+      "developer surface",
+      "MCP",
+      "hardware-aware model selection",
+      "agentic AI",
+      "hardware-gated agents",
+      "screen-aware AI",
+      "local inference",
+      "AI NAS",
+      "IFA 2026",
+      "HCI",
+      "wearable memory",
+      "AI earbuds",
+      "AI hardware",
+      "agentic devices",
+      "AI inference",
+      "agent latency",
+      "AI glasses",
+      "physical AI",
+      "on-device AI",
+      "privacy UX"
+    ],
+    "sourceTypes": [
+      "personal agent",
+      "Secure VM",
+      "edge AI module",
+      "AI agent phone",
+      "enterprise edge AI",
+      "community friction",
+      "Arm AI Portal",
+      "developer surface",
+      "MCP",
+      "official",
+      "Google Store",
+      "hands-on review",
+      "community",
+      "wild",
+      "research",
+      "patent watch",
+      "China",
+      "global",
+      "weak/unverified",
+      "startup signal",
+      "confirmed product",
+      "review/community friction",
+      "china",
+      "research signal",
+      "patent signal",
+      "crowdfunding signal",
+      "crowdfunding",
+      "Product Hunt",
+      "arXiv",
+      "regional product pages",
+      "developer access",
+      "Rokid Glasses",
+      "eSIM",
+      "IFA 2026",
+      "Sonos 27",
+      "VIVE Eagle",
+      "Doova",
+      "wearable memory",
+      "AI Agent Earbuds",
+      "hardware-gated agent",
+      "local inference",
+      "AI NAS",
+      "china scan"
+    ],
+    "coverStory": {
+      "topicId": "meta-muse-personal-agent-secure-vm",
+      "zhTitle": "Meta Muse 把个人 agent 放进 Secure VM，再用 Sentinel 管住外发动作",
+      "enTitle": "Meta Muse puts a personal Agent in a Secure VM, then gates outbound actions with Sentinel",
+      "zhSummary": [
+        "Muse 在 app 或 WhatsApp 中接收目标，能打开浏览器、跨 app 工作并在用户退出后继续运行。",
+        "官方将 agent、浏览器、数据和凭据放入专用 Secure VM，Sentinel 在系统层审核网络外发。",
+        " rollout、Confidential VM、批准 payload 绑定与独立安全验证仍是关键边界。"
+      ],
+      "enSummary": [
+        "Muse accepts goals in the app or WhatsApp, opens a browser, works across apps, and continues after the user leaves.",
+        "Meta places the Agent, browser, data, and credentials in a dedicated Secure VM while Sentinel reviews outbound activity at the system level.",
+        "Rollout scope, Confidential VM, approval-payload binding, and independent security validation remain the key boundaries."
+      ],
+      "imagePath": "assets/meta-muse-official-2026-09.jpg",
+      "imageWidth": 1600,
+      "imageHeight": 900,
+      "imageSourceUrl": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+      "primarySourceUrl": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+      "evidenceStrength": "confirmed product · Meta official launch + security/design claims + community test questions · 2026-09-09",
+      "whyCover": "The new product boundary is a personal Agent that works after the user leaves, so the runtime, approval, audit, and memory surfaces become the interface."
+    },
+    "designDesk": {
+      "zhTitle": "Design Desk：安全边界必须跟着 agent 的动作一起显示",
+      "enTitle": "Design Desk: the safety boundary must travel with the Agent action",
+      "zhIntro": "Muse、Mu Ultra、NaviX Ultra 与 ZGX Fury 把 agent 推入云端 VM、嵌入式模块、系统手机和企业 edge；产品需要让用户看见谁在看、谁在算、谁在批准、谁能撤销、谁能证明结果。",
+      "enIntro": "Muse, Mu Ultra, NaviX Ultra, and ZGX Fury move Agents into cloud VMs, embedded modules, system phones, and enterprise edge; products must show who sees, computes, approves, revokes, and proves the result.",
+      "zhItems": [
+        {
+          "label": "Approval binding",
+          "body": "批准必须绑定目的地、金额、收件人和 payload；执行前变化就硬失败。"
+        },
+        {
+          "label": "Refusal evidence",
+          "body": "用户要区分 Sentinel、硬权限、凭据、模型和网络分别在哪一层拒绝。"
+        },
+        {
+          "label": "Local hardware",
+          "body": "端侧模块把散热、SSD、pinout、驱动和 I/O 变成真实体验，而不是规格脚注。"
+        },
+        {
+          "label": "Task queue",
+          "body": "系统手机的并发任务要有排队、取消、重试、失败和跨 app 权限状态。"
+        },
+        {
+          "label": "Edge operations",
+          "body": "sandbox 到 production 要保留模型、资源、日志、权限和回滚语义。"
+        },
+        {
+          "label": "Memory deletion",
+          "body": "长期 agent 必须让用户查看、删除、导出并验证记忆是否真的停止使用。"
+        }
+      ],
+      "enItems": [
+        {
+          "label": "Approval binding",
+          "body": "Bind approval to destination, amount, recipient, and payload; hard-fail if execution changes."
+        },
+        {
+          "label": "Refusal evidence",
+          "body": "Distinguish whether Sentinel, hard permission, credentials, the model, or network stopped the action."
+        },
+        {
+          "label": "Local hardware",
+          "body": "Cooling, SSD, pinout, drivers, and I/O become the experience, not footnotes to a TOPS claim."
+        },
+        {
+          "label": "Task queue",
+          "body": "System-phone concurrency needs queue, cancel, retry, failure, and cross-app permission states."
+        },
+        {
+          "label": "Edge operations",
+          "body": "Sandbox-to-production migration must preserve model, resource, log, permission, and rollback semantics."
+        },
+        {
+          "label": "Memory deletion",
+          "body": "A long-lived Agent must let users inspect, delete, export, and verify that memory is no longer used."
+        }
+      ]
+    },
+    "watchlistZh": [
+      "Meta Muse：Sentinel 独立性、批准 payload 绑定、撤销时序、审计导出、Confidential VM 与真实跨 app 测试。",
+      "LattePanda Mu Ultra：套件价格与库存、37W 持续功耗、噪音、Ubuntu 驱动、模型/runtime、量产供货。",
+      "Nubia NaviX Ultra：9 月 16 日发布后的最终规格、价格、应用适配、支付与权限、队列取消、记忆删除。",
+      "HP ZGX Fury：完整 AI Factory sandbox 时间、SKU、迁移到 production、模型治理、断网恢复和现场运维。",
+      "Arm AI Portal：完整目录 schema、MCP 权限、BYOM 工具、可复现 benchmark、模型许可与跨设备功耗/质量曲线。",
+      "Violoop：Kickstarter 条款、独立供电、屏幕数据边界、跨应用成功率、撤销与实际发货。",
+      "MS-S1 / N5：完整 SKU、价格、噪音功耗、模型部署、数据恢复与长期支持。",
+      "NVIDIA PAIR：节点撤销、日志、异构 GPU、局域网断线、prompt 数据是否跨节点。",
+      "深圳 AI 终端 scan：展品名称、真机、产品页、API、价格和实际交付。",
+      "SwitchBot MindClip：免费额度、自动续订、数据处理地区、多人同意、20 小时条件与删除审计。",
+      "viaim Rise：9 月 8 日 Indiegogo 条款、最终价格、样机、退款、发货和 Agent 撤销。",
+      "VIVE Eagle：不同地区的订阅、翻译准确率、遮挡停机、长时间录像和处方镜片服务。",
+      "Tuya Doova：跌倒/误报测试、家人接管、断网断电回退、数据删除与老人接受度。",
+      "Sonos 27：9 月 8 日 MCP rollout、外部 agent 权限、撤销、旧设备兼容与 Ace Ultra 发货。",
+      "海信 JUOS / Vidda G11：IFA 真机、API、海外订单、语言、跨设备确认与售后。",
+      "GOSIGHT P1：IFA 真机、最终重量/亮度/视野、热插拔续接、价格、众筹与交付。",
+      "Lenovo Qira：Android 17 rollout、moto watch ultra、Workato/MCP 权限、动作确认与撤销。",
+      "Plaud One：Explorer Edition 发货、4G 覆盖、credits 用完后的费用、中文体验与数据删除。",
+      "Ultrahuman Ring：Ring Air/Pro 的游戏与 AI 更新、SDK、手势误触和 Qualcomm silicon 戒指。",
+      "Qira 社区摩擦：按机型、build、BIOS 与 Windows 版本复现安装、回滚和维修问题。",
+      "Plaud 中国 lane：大陆订单、运营商、中文/方言、数据合规、发票与售后。",
+      "RayNeo iO 与 GT：9 月 4 日真实零售、价格、续航、隐私灯和显示/无显示两条路径。",
+      "First-person intelligence research：L0–L5 评估是否进入真实眼镜 SDK 与产品 QA。"
+    ],
+    "watchlistEn": [
+      "Meta Muse: Sentinel independence, approval-payload binding, revocation timing, audit export, Confidential VM, and real cross-app tests.",
+      "LattePanda Mu Ultra: kit price and stock, sustained 37W power, noise, Ubuntu drivers, model/runtime coverage, and production supply.",
+      "Nubia NaviX Ultra: final specifications and price after September 16, app coverage, payment and permissions, queue cancellation, and memory deletion.",
+      "HP ZGX Fury: complete AI Factory sandbox timing, SKUs, production migration, model governance, offline recovery, and field operations.",
+      "Arm AI Portal: complete catalogue schema, MCP permissions, BYOM tooling, reproducible benchmarks, model licensing, and cross-device power/quality curves.",
+      "Violoop: Kickstarter terms, separate power, screen-data boundary, cross-app success, undo, and shipping.",
+      "MS-S1 / N5: complete SKUs, price, noise and power, model deployment, data recovery, and long-term support.",
+      "NVIDIA PAIR: node revocation, logs, heterogeneous GPUs, LAN disconnects, and whether prompts cross nodes.",
+      "Shenzhen AI-terminal scan: exhibit names, hardware, product pages, APIs, prices, and actual delivery.",
+      "SwitchBot MindClip: free quota, auto-renewal, processing region, multi-party consent, 20-hour conditions, and deletion audit.",
+      "viaim Rise: September 8 Indiegogo terms, final price, sample, refunds, shipping, and Agent undo.",
+      "VIVE Eagle: regional subscription, translation accuracy, indicator shutdown, long capture, and prescription service.",
+      "Tuya Doova: fall and false-alarm tests, family takeover, offline/power recovery, deletion, and senior acceptance.",
+      "Sonos 27: September 8 MCP rollout, external-Agent permissions, undo, legacy compatibility, and Ace Ultra shipping.",
+      "Hisense JUOS / Vidda G11: IFA hardware, API, overseas order, language, cross-device confirmation, and service.",
+      "GOSIGHT P1: IFA hardware, final weight/brightness/view, hot-swap continuity, price, crowdfunding, and delivery.",
+      "Lenovo Qira: Android 17 rollout, moto watch ultra, Workato/MCP permissions, confirmation, and undo.",
+      "Plaud One: Explorer Edition shipping, 4G coverage, post-credit cost, Chinese experience, and deletion.",
+      "Ultrahuman Ring: Ring Air/Pro game and AI update, SDK, gesture false triggers, and Qualcomm-silicon ring.",
+      "Qira community friction: reproduce install, rollback, and repair issues by model, build, BIOS, and Windows version.",
+      "Plaud China lane: mainland order, carrier, Chinese/dialect support, compliance, invoice, and service.",
+      "RayNeo iO and GT: September 4 retail, price, endurance, privacy light, and display/displayless paths.",
+      "First-person intelligence research: whether L0-L5 evaluation reaches real glasses SDKs and product QA."
+    ],
+    "zhPath": "./2026-09-09/zh/",
+    "enPath": "./2026-09-09/en/",
+    "sourcesPath": "./2026-09-09/sources.md"
+  },
+  {
+    "date": "2026-09-08",
+    "zhTitle": "AI Daily 2026-09-08：Arm 把模型选择变成 agent 能读懂的硬件入口",
+    "enTitle": "AI Daily 2026-09-08: Arm makes model choice a hardware-aware entry for Agents",
+    "zhSummary": "Arm AI Portal 把预优化模型、性能数据、代码示例与 MCP 入口放进同一开发者表面；它连接 cloud、edge 与 physical AI，但 agent-ready 仍处于 early access。Violoop、MS-S1/N5 与 PAIR 继续作为执行、存储和局域网推理的产品对照，深圳展会扫描保持 weak/unverified。",
+    "enSummary": "Arm AI Portal brings pre-optimized models, performance data, code examples, and an MCP entry into one developer surface across cloud, edge, and physical AI; agent-ready access is still early access. Violoop, MS-S1/N5, and PAIR remain concrete contrasts for execution, storage, and local inference, while the Shenzhen showcase stays weak/unverified.",
+    "tags": [
+      "Arm AI Portal",
+      "developer surface",
+      "MCP",
+      "hardware-aware model selection",
+      "agentic AI",
+      "hardware-gated agents",
+      "screen-aware AI",
+      "local inference",
+      "AI NAS",
+      "IFA 2026",
+      "HCI",
+      "wearable memory",
+      "AI earbuds",
+      "AI hardware",
+      "agentic devices",
+      "AI inference",
+      "agent latency",
+      "AI glasses",
+      "physical AI",
+      "on-device AI",
+      "privacy UX"
+    ],
+    "sourceTypes": [
+      "Arm AI Portal",
+      "developer surface",
+      "MCP",
+      "community friction",
+      "official",
+      "Google Store",
+      "hands-on review",
+      "community",
+      "wild",
+      "research",
+      "patent watch",
+      "China",
+      "global",
+      "weak/unverified",
+      "startup signal",
+      "confirmed product",
+      "review/community friction",
+      "china",
+      "research signal",
+      "patent signal",
+      "crowdfunding signal",
+      "crowdfunding",
+      "Product Hunt",
+      "arXiv",
+      "regional product pages",
+      "developer access",
+      "Rokid Glasses",
+      "eSIM",
+      "IFA 2026",
+      "Sonos 27",
+      "VIVE Eagle",
+      "Doova",
+      "wearable memory",
+      "AI Agent Earbuds",
+      "hardware-gated agent",
+      "local inference",
+      "AI NAS",
+      "china scan"
+    ],
+    "coverStory": {
+      "topicId": "arm-ai-portal-developer-surface",
+      "zhTitle": "Arm AI Portal 把模型选择变成 agent 能读懂的硬件入口",
+      "enTitle": "Arm AI Portal makes model choice a hardware-aware entry for Agents",
+      "zhSummary": [
+        "Arm 把预优化模型、性能数据、代码示例和部署流程放在一个入口。",
+        "Qwen、Gemma、YOLO、ExecuTorch、LiteRT、ONNX Runtime 与 MCP 都出现在官方首发范围。",
+        "BYOM 工具写的是 soon，agent-ready 资源是 early access；独立 benchmark 与权限边界仍需验证。"
+      ],
+      "enSummary": [
+        "Arm puts pre-optimized models, performance data, code examples, and deployment workflows in one entry point.",
+        "Qwen, Gemma, YOLO, ExecuTorch, LiteRT, ONNX Runtime, and MCP appear in the public launch surface.",
+        "BYOM tooling is described as coming soon and agent-ready resources are early access; independent benchmarks and permission boundaries remain open."
+      ],
+      "imagePath": "assets/arm-ai-portal-mechanism-2026-09.svg",
+      "imageWidth": 1600,
+      "imageHeight": 900,
+      "imageSourceUrl": "https://newsroom.arm.com/news/arm-unveils-arm-ai-portal",
+      "primarySourceUrl": "https://newsroom.arm.com/news/arm-unveils-arm-ai-portal",
+      "evidenceStrength": "developer surface · Arm official launch + learning paths + community reproducibility friction · 2026-09-08",
+      "whyCover": "The new product surface is a hardware-aware model catalogue that an Agent can discover, but not yet a proven autonomous deployment control plane."
+    },
+    "designDesk": {
+      "zhTitle": "Design Desk：当 agent 开始替你选模型，记录必须跟着选择走",
+      "enTitle": "Design Desk: when an Agent chooses the model, the record must follow the choice",
+      "zhIntro": "Arm AI Portal、Violoop、MS-S1/N5 与 PAIR 把 agent 推进模型目录、桌面外设、家庭机柜和局域网节点；产品必须显示谁在看、谁在算、谁选择、谁批准、谁能撤销。",
+      "enIntro": "Arm AI Portal, Violoop, MS-S1/N5, and PAIR move Agents into model catalogues, peripherals, home racks, and local nodes; products must show who sees, computes, chooses, approves, and can undo.",
+      "zhItems": [
+        {
+          "label": "Reproducible choice",
+          "body": "模型选择要连同 runtime、量化、目标设备、输入、质量与功耗条件一起保存。"
+        },
+        {
+          "label": "Prepare / execute",
+          "body": "把观察、计划、等待批准、执行与结果分成可见状态；实体键要与撤销和日志同时存在。"
+        },
+        {
+          "label": "Local boundary",
+          "body": "明确屏幕、prompt、模型、embedding 与日志哪些只留在设备，哪些会跨节点或进入云端。"
+        },
+        {
+          "label": "Node trust",
+          "body": "局域网配对要有设备身份、撤销、断线、共享网络警告和多用户隔离。"
+        },
+        {
+          "label": "Approval fatigue",
+          "body": "高风险动作要求确认，低风险重复动作要能批量授权，否则批准会变成无意义点击。"
+        },
+        {
+          "label": "Show scan",
+          "body": "展会的 AR、空间相机、翻译耳机和机器人先作为 radar，等产品名、真机、API 与价格再升级。"
+        }
+      ],
+      "enItems": [
+        {
+          "label": "Reproducible choice",
+          "body": "Save runtime, quantization, target device, input, quality, and power conditions with the model choice."
+        },
+        {
+          "label": "Prepare / execute",
+          "body": "Expose observation, planning, waiting for approval, execution, and result; pair the key with undo and logs."
+        },
+        {
+          "label": "Local boundary",
+          "body": "Show which screen data, prompts, models, embeddings, and logs stay local and which cross nodes or reach cloud."
+        },
+        {
+          "label": "Node trust",
+          "body": "Local pairing needs device identity, revocation, disconnect handling, shared-network warnings, and multi-user isolation."
+        },
+        {
+          "label": "Approval fatigue",
+          "body": "Require confirmation for high-risk actions and batch low-risk repetition, or approval becomes meaningless clicking."
+        },
+        {
+          "label": "Show scan",
+          "body": "Keep AR, spatial cameras, translation earbuds, and robots as radar until names, hardware, APIs, and prices resolve."
+        }
+      ]
+    },
+    "watchlistZh": [
+      "Arm AI Portal：完整目录 schema、MCP 权限、BYOM 工具、可复现 benchmark、模型许可与跨设备功耗/质量曲线。",
+      "Violoop：Kickstarter 条款、独立供电、屏幕数据边界、跨应用成功率、撤销与实际发货。",
+      "MS-S1 / N5：完整 SKU、价格、噪音功耗、模型部署、数据恢复与长期支持。",
+      "NVIDIA PAIR：节点撤销、日志、异构 GPU、局域网断线、prompt 数据是否跨节点。",
+      "深圳 AI 终端 scan：展品名称、真机、产品页、API、价格和实际交付。",
+      "SwitchBot MindClip：免费额度、自动续订、数据处理地区、多人同意、20 小时条件与删除审计。",
+      "viaim Rise：9 月 8 日 Indiegogo 条款、最终价格、样机、退款、发货和 Agent 撤销。",
+      "VIVE Eagle：不同地区的订阅、翻译准确率、遮挡停机、长时间录像和处方镜片服务。",
+      "Tuya Doova：跌倒/误报测试、家人接管、断网断电回退、数据删除与老人接受度。",
+      "Sonos 27：9 月 8 日 MCP rollout、外部 agent 权限、撤销、旧设备兼容与 Ace Ultra 发货。",
+      "海信 JUOS / Vidda G11：IFA 真机、API、海外订单、语言、跨设备确认与售后。",
+      "GOSIGHT P1：IFA 真机、最终重量/亮度/视野、热插拔续接、价格、众筹与交付。",
+      "Lenovo Qira：Android 17 rollout、moto watch ultra、Workato/MCP 权限、动作确认与撤销。",
+      "Plaud One：Explorer Edition 发货、4G 覆盖、credits 用完后的费用、中文体验与数据删除。",
+      "Ultrahuman Ring：Ring Air/Pro 的游戏与 AI 更新、SDK、手势误触和 Qualcomm silicon 戒指。",
+      "Qira 社区摩擦：按机型、build、BIOS 与 Windows 版本复现安装、回滚和维修问题。",
+      "Plaud 中国 lane：大陆订单、运营商、中文/方言、数据合规、发票与售后。",
+      "RayNeo iO 与 GT：9 月 4 日真实零售、价格、续航、隐私灯和显示/无显示两条路径。",
+      "First-person intelligence research：L0–L5 评估是否进入真实眼镜 SDK 与产品 QA。"
+    ],
+    "watchlistEn": [
+      "Arm AI Portal: complete catalogue schema, MCP permissions, BYOM tooling, reproducible benchmarks, model licensing, and cross-device power/quality curves.",
+      "Violoop: Kickstarter terms, separate power, screen-data boundary, cross-app success, undo, and shipping.",
+      "MS-S1 / N5: complete SKUs, price, noise and power, model deployment, data recovery, and long-term support.",
+      "NVIDIA PAIR: node revocation, logs, heterogeneous GPUs, LAN disconnects, and whether prompts cross nodes.",
+      "Shenzhen AI-terminal scan: exhibit names, hardware, product pages, APIs, prices, and actual delivery.",
+      "SwitchBot MindClip: free quota, auto-renewal, processing region, multi-party consent, 20-hour conditions, and deletion audit.",
+      "viaim Rise: September 8 Indiegogo terms, final price, sample, refunds, shipping, and Agent undo.",
+      "VIVE Eagle: regional subscription, translation accuracy, indicator shutdown, long capture, and prescription service.",
+      "Tuya Doova: fall and false-alarm tests, family takeover, offline/power recovery, deletion, and senior acceptance.",
+      "Sonos 27: September 8 MCP rollout, external-Agent permissions, undo, legacy compatibility, and Ace Ultra shipping.",
+      "Hisense JUOS / Vidda G11: IFA hardware, API, overseas order, language, cross-device confirmation, and service.",
+      "GOSIGHT P1: IFA hardware, final weight/brightness/view, hot-swap continuity, price, crowdfunding, and delivery.",
+      "Lenovo Qira: Android 17 rollout, moto watch ultra, Workato/MCP permissions, confirmation, and undo.",
+      "Plaud One: Explorer Edition shipping, 4G coverage, post-credit cost, Chinese experience, and deletion.",
+      "Ultrahuman Ring: Ring Air/Pro game and AI update, SDK, gesture false triggers, and Qualcomm-silicon ring.",
+      "Qira community friction: reproduce install, rollback, and repair issues by model, build, BIOS, and Windows version.",
+      "Plaud China lane: mainland order, carrier, Chinese/dialect support, compliance, invoice, and service.",
+      "RayNeo iO and GT: September 4 retail, price, endurance, privacy light, and display/displayless paths.",
+      "First-person intelligence research: whether L0-L5 evaluation reaches real glasses SDKs and product QA."
+    ],
+    "zhPath": "./2026-09-07/zh/",
+    "enPath": "./2026-09-07/en/",
+    "sourcesPath": "./2026-09-07/sources.md"
+  },
+  {
     "date": "2026-09-07",
     "zhTitle": "AI Daily 2026-09-07：Agent 开始拥有实体批准键，本地算力组成网络",
     "enTitle": "AI Daily 2026-09-07: Agents gain physical approval while local compute becomes a network",

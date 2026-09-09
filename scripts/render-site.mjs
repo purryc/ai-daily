@@ -2393,7 +2393,7 @@ body:has(.deck-page) {
   }
 
   .source-slide .source-grid {
-    grid-template-columns: repeat(14, minmax(0, 1fr));
+    grid-template-columns: repeat(16, minmax(0, 1fr));
     gap: 0;
   }
 
@@ -2420,6 +2420,11 @@ body:has(.deck-page) {
   .source-slide .source-grid strong {
     font-size: 7.5px;
     line-height: 0.88;
+  }
+
+  .source-slide .source-row {
+    font-size: 7px;
+    line-height: 1;
   }
 
   .section-slide {
