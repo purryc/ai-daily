@@ -1,5 +1,234 @@
 [
   {
+    "date": "2026-09-11",
+    "zhTitle": "AI Daily 2026-09-11：Agent 的运行时、眼镜和企业控制面开始合流",
+    "enTitle": "AI Daily 2026-09-11: Agent runtimes, glasses, and enterprise control planes converge",
+    "zhSummary": "OpenAI Agents API 把 Codex 的长任务 harness 暴露给开发者；Rokid AIUI Studio 把眼镜 agent 的创作、模拟与上传放进浏览器；Salesforce 用 Enterprise AI Harness 与 AI Control Plane 组织企业 agent。中国记忆眼镜、生产审核摩擦与 VisionClaw 研究都保留证据降级，等待购买面、真机、独立测试或更大样本。",
+    "enSummary": "OpenAI exposes the Codex long-running harness through the Agents API; Rokid moves glasses-Agent creation, simulation, and upload into the browser; Salesforce organises enterprise Agents through an Enterprise AI Harness and AI Control Plane. China memory-glasses, production-review friction, and VisionClaw research remain explicitly downgraded pending purchase surfaces, hardware, independent testing, or larger samples.",
+    "tags": [
+      "Agents API",
+      "Rokid AIUI Studio",
+      "Enterprise AI Harness",
+      "AI glasses",
+      "agent runtime",
+      "Meta Muse",
+      "Secure VM",
+      "Sentinel",
+      "edge AI",
+      "LattePanda Mu Ultra",
+      "Nubia NaviX Ultra",
+      "HP ZGX Fury",
+      "Arm AI Portal",
+      "developer surface",
+      "MCP",
+      "hardware-aware model selection",
+      "agentic AI",
+      "hardware-gated agents",
+      "screen-aware AI",
+      "local inference",
+      "AI NAS",
+      "IFA 2026",
+      "HCI",
+      "wearable memory",
+      "AI earbuds",
+      "AI hardware",
+      "agentic devices",
+      "AI inference",
+      "agent latency",
+      "physical AI",
+      "on-device AI",
+      "privacy UX"
+    ],
+    "sourceTypes": [
+      "developer surface",
+      "agent runtime",
+      "spatial AI",
+      "enterprise control plane",
+      "China signal",
+      "research signal",
+      "personal agent",
+      "Secure VM",
+      "edge AI module",
+      "AI agent phone",
+      "enterprise edge AI",
+      "community friction",
+      "Arm AI Portal",
+      "MCP",
+      "official",
+      "Google Store",
+      "hands-on review",
+      "community",
+      "wild",
+      "research",
+      "patent watch",
+      "China",
+      "global",
+      "weak/unverified",
+      "startup signal",
+      "confirmed product",
+      "review/community friction",
+      "china",
+      "patent signal",
+      "crowdfunding signal",
+      "crowdfunding",
+      "Product Hunt",
+      "arXiv",
+      "regional product pages",
+      "developer access",
+      "Rokid Glasses",
+      "eSIM",
+      "IFA 2026",
+      "Sonos 27",
+      "VIVE Eagle",
+      "Doova",
+      "wearable memory",
+      "AI Agent Earbuds",
+      "hardware-gated agent",
+      "local inference",
+      "AI NAS",
+      "china scan"
+    ],
+    "coverStory": {
+      "topicId": "openai-agents-api-codex-harness",
+      "zhTitle": "OpenAI Agents API 把 Codex 的长任务 harness 变成开发者入口",
+      "enTitle": "OpenAI turns the Codex long-running harness into a developer-facing Agents API",
+      "zhSummary": [
+        "Agents API public beta 让开发者用一次 API 调用创建 cloud agent。",
+        "环境可以是 OpenAI 托管 sandbox、自有基础设施或 partner sandbox。",
+        "长会话、工具、文件、代码和 subagents 进入同一运行时，权限、成本和恢复仍要由产品补齐。"
+      ],
+      "enSummary": [
+        "Agents API public beta lets developers create a cloud Agent with one API call.",
+        "The environment can be an OpenAI-hosted sandbox, customer infrastructure, or a partner sandbox.",
+        "Long sessions, tools, files, code, and subagents share one runtime; permissions, cost, and recovery still need product work."
+      ],
+      "imagePath": "assets/openai-agents-api-official-2026-09.png",
+      "imageWidth": 1600,
+      "imageHeight": 900,
+      "imageSourceUrl": "https://developers.openai.com/",
+      "primarySourceUrl": "https://openai.com/index/introducing-the-agents-api/",
+      "evidenceStrength": "developer surface · OpenAI official public beta · 2026-09-10",
+      "whyCover": "The new product boundary is the Agent runtime itself: environment, tools, delegation, and recovery become part of the developer-facing interface."
+    },
+    "designDesk": {
+      "zhTitle": "Design Desk：把 agent 的运行时和控制面做成可读的产品界面",
+      "enTitle": "Design Desk: make the Agent runtime and control plane legible",
+      "zhIntro": "Agents API、AIUI Studio 与 Enterprise AI Harness 分别把运行环境、硬件模拟和企业控制面产品化；下一层体验是让人知道 agent 在哪里算、看到了什么、为何停下、谁能批准和如何恢复。",
+      "enIntro": "Agents API, AIUI Studio, and Enterprise AI Harness productise runtime, hardware simulation, and enterprise control; the next UX layer is showing where an Agent computes, what it saw, why it stopped, who can approve, and how it recovers.",
+      "zhItems": [
+        {
+          "label": "Runtime boundary",
+          "body": "显示托管、自有或 partner sandbox，绑定网络、文件、凭据与数据驻留。"
+        },
+        {
+          "label": "Checkpoint",
+          "body": "长任务要有计划版本、预算、暂停、取消、恢复和人工接管。"
+        },
+        {
+          "label": "Simulator truth",
+          "body": "眼镜模拟器必须标出未覆盖的亮度、噪声、姿态、功耗和真机差异。"
+        },
+        {
+          "label": "Control plane",
+          "body": "管理员要看到 agent、模型、工具、权限、成本、策略和生命周期。"
+        },
+        {
+          "label": "Action ledger",
+          "body": "每次外部写入都保留来源、目的地、payload、批准者与结果。"
+        },
+        {
+          "label": "Evidence tiers",
+          "body": "公司声明、评测摩擦、社区问题、研究样本和弱信号不能混成一个结论。"
+        }
+      ],
+      "enItems": [
+        {
+          "label": "Runtime boundary",
+          "body": "Show hosted, customer, or partner sandbox and bind network, files, credentials, and residency."
+        },
+        {
+          "label": "Checkpoint",
+          "body": "Long tasks need plan versions, budget, pause, cancel, resume, and takeover."
+        },
+        {
+          "label": "Simulator truth",
+          "body": "Glasses simulation must flag uncovered brightness, noise, pose, power, and hardware gaps."
+        },
+        {
+          "label": "Control plane",
+          "body": "Administrators need Agents, models, tools, permissions, cost, policy, and lifecycle."
+        },
+        {
+          "label": "Action ledger",
+          "body": "Every external write needs source, destination, payload, approver, and result."
+        },
+        {
+          "label": "Evidence tiers",
+          "body": "Company claims, review friction, community questions, research samples, and weak signals must stay separate."
+        }
+      ]
+    },
+    "watchlistZh": [
+      "OpenAI Agents API：完整 schema、价格、长任务恢复、权限继承、网络边界、停止语义与数据留存。",
+      "Rokid AIUI Studio：模拟器与量产眼镜差异、真机返工率、Agent Store 审核、权限和设备覆盖。",
+      "Salesforce AI Harness：FY28 rollout、包装价格、control plane 实际界面、第三方 MCP、策略冲突和回滚。",
+      "Meta Muse：Sentinel 独立性、批准 payload 绑定、撤销时序、审计导出、Confidential VM 与真实跨 app 测试。",
+      "LattePanda Mu Ultra：套件价格与库存、37W 持续功耗、噪音、Ubuntu 驱动、模型/runtime、量产供货。",
+      "Nubia NaviX Ultra：9 月 16 日发布后的最终规格、价格、应用适配、支付与权限、队列取消、记忆删除。",
+      "HP ZGX Fury：完整 AI Factory sandbox 时间、SKU、迁移到 production、模型治理、断网恢复和现场运维。",
+      "Arm AI Portal：完整目录 schema、MCP 权限、BYOM 工具、可复现 benchmark、模型许可与跨设备功耗/质量曲线。",
+      "Violoop：Kickstarter 条款、独立供电、屏幕数据边界、跨应用成功率、撤销与实际发货。",
+      "MS-S1 / N5：完整 SKU、价格、噪音功耗、模型部署、数据恢复与长期支持。",
+      "NVIDIA PAIR：节点撤销、日志、异构 GPU、局域网断线、prompt 数据是否跨节点。",
+      "深圳 AI 终端 scan：展品名称、真机、产品页、API、价格和实际交付。",
+      "SwitchBot MindClip：免费额度、自动续订、数据处理地区、多人同意、20 小时条件与删除审计。",
+      "viaim Rise：9 月 8 日 Indiegogo 条款、最终价格、样机、退款、发货和 Agent 撤销。",
+      "VIVE Eagle：不同地区的订阅、翻译准确率、遮挡停机、长时间录像和处方镜片服务。",
+      "Tuya Doova：跌倒/误报测试、家人接管、断网断电回退、数据删除与老人接受度。",
+      "Sonos 27：9 月 8 日 MCP rollout、外部 agent 权限、撤销、旧设备兼容与 Ace Ultra 发货。",
+      "海信 JUOS / Vidda G11：IFA 真机、API、海外订单、语言、跨设备确认与售后。",
+      "GOSIGHT P1：IFA 真机、最终重量/亮度/视野、热插拔续接、价格、众筹与交付。",
+      "Lenovo Qira：Android 17 rollout、moto watch ultra、Workato/MCP 权限、动作确认与撤销。",
+      "Plaud One：Explorer Edition 发货、4G 覆盖、credits 用完后的费用、中文体验与数据删除。",
+      "Ultrahuman Ring：Ring Air/Pro 的游戏与 AI 更新、SDK、手势误触和 Qualcomm silicon 戒指。",
+      "Qira 社区摩擦：按机型、build、BIOS 与 Windows 版本复现安装、回滚和维修问题。",
+      "Plaud 中国 lane：大陆订单、运营商、中文/方言、数据合规、发票与售后。",
+      "RayNeo iO 与 GT：9 月 4 日真实零售、价格、续航、隐私灯和显示/无显示两条路径。",
+      "First-person intelligence research：L0–L5 评估是否进入真实眼镜 SDK 与产品 QA。"
+    ],
+    "watchlistEn": [
+      "OpenAI Agents API: full schema, pricing, long-task recovery, permission inheritance, network boundaries, stop semantics, and retention.",
+      "Rokid AIUI Studio: simulator-to-production gaps, real-device rework, Agent Store review, permissions, and device coverage.",
+      "Salesforce AI Harness: FY28 rollout, packaging, Control Plane UI, third-party MCP, policy conflict, and rollback.",
+      "Meta Muse: Sentinel independence, approval-payload binding, revocation timing, audit export, Confidential VM, and real cross-app tests.",
+      "LattePanda Mu Ultra: kit price and stock, sustained 37W power, noise, Ubuntu drivers, model/runtime coverage, and production supply.",
+      "Nubia NaviX Ultra: final specifications and price after September 16, app coverage, payment and permissions, queue cancellation, and memory deletion.",
+      "HP ZGX Fury: complete AI Factory sandbox timing, SKUs, production migration, model governance, offline recovery, and field operations.",
+      "Arm AI Portal: complete catalogue schema, MCP permissions, BYOM tooling, reproducible benchmarks, model licensing, and cross-device power/quality curves.",
+      "Violoop: Kickstarter terms, separate power, screen-data boundary, cross-app success, undo, and shipping.",
+      "MS-S1 / N5: complete SKUs, price, noise and power, model deployment, data recovery, and long-term support.",
+      "NVIDIA PAIR: node revocation, logs, heterogeneous GPUs, LAN disconnects, and whether prompts cross nodes.",
+      "Shenzhen AI-terminal scan: exhibit names, hardware, product pages, APIs, prices, and actual delivery.",
+      "SwitchBot MindClip: free quota, auto-renewal, processing region, multi-party consent, 20-hour conditions, and deletion audit.",
+      "viaim Rise: September 8 Indiegogo terms, final price, sample, refunds, shipping, and Agent undo.",
+      "VIVE Eagle: regional subscription, translation accuracy, indicator shutdown, long capture, and prescription service.",
+      "Tuya Doova: fall and false-alarm tests, family takeover, offline/power recovery, deletion, and senior acceptance.",
+      "Sonos 27: September 8 MCP rollout, external-Agent permissions, undo, legacy compatibility, and Ace Ultra shipping.",
+      "Hisense JUOS / Vidda G11: IFA hardware, API, overseas order, language, cross-device confirmation, and service.",
+      "GOSIGHT P1: IFA hardware, final weight/brightness/view, hot-swap continuity, price, crowdfunding, and delivery.",
+      "Lenovo Qira: Android 17 rollout, moto watch ultra, Workato/MCP permissions, confirmation, and undo.",
+      "Plaud One: Explorer Edition shipping, 4G coverage, post-credit cost, Chinese experience, and deletion.",
+      "Ultrahuman Ring: Ring Air/Pro game and AI update, SDK, gesture false triggers, and Qualcomm-silicon ring.",
+      "Qira community friction: reproduce install, rollback, and repair issues by model, build, BIOS, and Windows version.",
+      "Plaud China lane: mainland order, carrier, Chinese/dialect support, compliance, invoice, and service.",
+      "RayNeo iO and GT: September 4 retail, price, endurance, privacy light, and display/displayless paths.",
+      "First-person intelligence research: whether L0-L5 evaluation reaches real glasses SDKs and product QA."
+    ],
+    "zhPath": "./2026-09-11/zh/",
+    "enPath": "./2026-09-11/en/",
+    "sourcesPath": "./2026-09-11/sources.md"
+  },
+  {
     "date": "2026-09-09",
     "zhTitle": "AI Daily 2026-09-09：个人 agent 进入 Secure VM，端侧算力成为产品层",
     "enTitle": "AI Daily 2026-09-09: Personal Agents enter Secure VMs as edge compute becomes a product layer",
