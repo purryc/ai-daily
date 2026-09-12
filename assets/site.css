@@ -1129,6 +1129,25 @@ body:has(.deck-page) {
     line-height: 1.1;
   }
 
+  html[lang="en"] .watch-slide {
+    gap: 9px;
+  }
+
+  html[lang="en"] .watch-slide .watch-grid {
+    gap: 3px;
+  }
+
+  html[lang="en"] .watch-slide .watch-grid div {
+    min-height: 58px;
+    padding: 4px;
+    gap: 2px;
+  }
+
+  html[lang="en"] .watch-slide .watch-grid p {
+    font-size: 8.5px;
+    line-height: 1.03;
+  }
+
   .watch-slide .watch-grid {
     grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 8px;
@@ -1211,6 +1230,36 @@ body:has(.deck-page) {
     font-size: 13px;
     line-height: 1.3;
     margin-bottom: 0;
+  }
+
+  html[lang^="zh"] .watch-slide .watch-grid {
+    gap: 8px;
+  }
+
+  html[lang^="zh"] .watch-slide .watch-grid div {
+    min-height: 74px;
+    padding: 7px;
+    gap: 3px;
+  }
+
+  html[lang^="zh"] .watch-slide .watch-grid p {
+    font-size: 11.5px;
+    line-height: 1.18;
+  }
+
+  html[lang="en"] .watch-slide .watch-grid {
+    gap: 8px;
+  }
+
+  html[lang="en"] .watch-slide .watch-grid div {
+    min-height: 74px;
+    padding: 7px;
+    gap: 3px;
+  }
+
+  html[lang="en"] .watch-slide .watch-grid p {
+    font-size: 11.5px;
+    line-height: 1.18;
   }
 }
 
