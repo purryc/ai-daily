@@ -2239,6 +2239,16 @@ body:has(.deck-page) {
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
+  html[lang="zh"] .cover-copy h1 {
+    font-size: clamp(28px, 3.1vw, 48px);
+    line-height: 0.94;
+  }
+
+  html[lang="zh"] .cover-slide .hero-lines {
+    font-size: 11.5px;
+    line-height: 1.18;
+  }
+
   html[lang="en"] .cover-copy h1 {
     font-size: clamp(31px, 3.35vw, 54px);
   }
@@ -2412,7 +2422,7 @@ body:has(.deck-page) {
   }
 
   .source-slide .source-grid {
-    grid-template-columns: repeat(16, minmax(0, 1fr));
+    grid-template-columns: repeat(24, minmax(0, 1fr));
     gap: 0;
   }
 
@@ -2447,19 +2457,19 @@ body:has(.deck-page) {
   }
 
   .section-slide {
-    gap: 12px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    gap: 8px;
+    padding-top: 16px;
+    padding-bottom: 16px;
   }
 
   .section-slide .section-topic-list {
-    gap: 4px;
+    gap: 3px;
   }
 
   .section-slide .section-topic-list div {
-    min-height: 64px;
-    padding: 6px;
-    gap: 4px;
+    min-height: 56px;
+    padding: 5px;
+    gap: 3px;
   }
 
   .section-slide .section-topic-list span {
@@ -2470,7 +2480,7 @@ body:has(.deck-page) {
 
   .section-slide .section-topic-list strong {
     font-size: 12px;
-    line-height: 1;
+    line-height: 0.96;
   }
 
   .watch-slide .watch-grid {

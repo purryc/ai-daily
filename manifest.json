@@ -1,5 +1,214 @@
 [
   {
+    "date": "2026-09-14",
+    "zhTitle": "AI Daily 2026-09-14：Physical AI 开始进入制造、训练与验收系统",
+    "enTitle": "AI Daily 2026-09-14: Physical AI enters manufacturing, training, and acceptance systems",
+    "zhSummary": "XPENG IRON 把人形机器人从研发原型推向产线与 2027 交付边界；Skild S1 用一段视频示范适配陌生长时任务；SOMA 把遥操作、数据采集、训练和部署打成研究平台；Arm 试图给机器人建立 RL0–RL5 的共同语言。iKairos 的多形态记忆核心与 Ultrahuman 的 AI 戒指路线图继续按 startup/review 信号处理，真实硬件、权限与持续运行仍待验证。",
+    "enSummary": "XPENG IRON moves a humanoid robot from prototype toward a production line and a 2027 delivery boundary; Skild S1 adapts unfamiliar long-horizon tasks from one video demonstration; SOMA packages teleoperation, data collection, training, and deployment as a research platform; Arm proposes a shared RL0–RL5 vocabulary for robotics. iKairos's multi-form memory core and Ultrahuman's AI-ring roadmap remain startup and review signals pending real hardware, permissions, and continuous operation.",
+    "tags": [
+      "Physical AI",
+      "humanoid robots",
+      "robot foundation models",
+      "robotics research",
+      "AI wearables",
+      "on-device AI",
+      "HCI",
+      "manufacturing",
+      "Meta Wearables DAT",
+      "AI glasses platform",
+      "iFLYTEK AI Glasses",
+      "Lingying AOS",
+      "Codex auto-review",
+      "memory glasses",
+      "developer surface",
+      "community friction",
+      "patent signal",
+      "Agents API",
+      "Rokid AIUI Studio",
+      "Enterprise AI Harness",
+      "AI glasses",
+      "agent runtime",
+      "Meta Muse",
+      "Secure VM"
+    ],
+    "sourceTypes": [
+      "confirmed product",
+      "developer surface",
+      "review/community friction",
+      "startup signal",
+      "research",
+      "patent signal",
+      "china",
+      "global",
+      "official",
+      "community",
+      "wild",
+      "agent runtime",
+      "spatial AI",
+      "enterprise control plane",
+      "China signal",
+      "research signal",
+      "personal agent",
+      "Secure VM",
+      "edge AI module",
+      "AI agent phone",
+      "enterprise edge AI",
+      "community friction",
+      "Arm AI Portal",
+      "MCP",
+      "Google Store",
+      "hands-on review",
+      "patent watch",
+      "China",
+      "weak/unverified",
+      "crowdfunding signal",
+      "crowdfunding",
+      "Product Hunt",
+      "arXiv",
+      "regional product pages",
+      "developer access",
+      "Rokid Glasses",
+      "eSIM",
+      "IFA 2026",
+      "Sonos 27",
+      "VIVE Eagle",
+      "Doova",
+      "wearable memory",
+      "AI Agent Earbuds",
+      "hardware-gated agent",
+      "local inference",
+      "AI NAS",
+      "china scan"
+    ],
+    "coverStory": {
+      "topicId": "xpeng-iron-production-line-physical-ai",
+      "zhTitle": "Physical AI 的下一关：从会动的 demo 到可制造、可训练、可验收的系统",
+      "enTitle": "The next Physical AI test: move from moving demos to manufacturable, trainable, acceptable systems",
+      "zhSummary": [
+        "XPENG IRON 把自由度、端侧算力和汽车级产线放进同一个产品叙事。",
+        "Skild、SOMA 与 Arm 分别重写训练入口、研究工具链和能力描述语言。",
+        "真正的产品指标将是任务成功、失败接管、数据权限、维护成本和可重复交付。"
+      ],
+      "enSummary": [
+        "XPENG IRON puts degrees of freedom, on-robot compute, and automotive-grade production into one product story.",
+        "Skild, SOMA, and Arm respectively reshape the teaching loop, research toolchain, and capability vocabulary.",
+        "The real product metrics will be task success, takeover, data permission, maintenance cost, and repeatable delivery."
+      ],
+      "imagePath": "assets/xpeng-iron-production-line-2026-09.png",
+      "imageWidth": 1600,
+      "imageHeight": 900,
+      "imageSourceUrl": "https://www.xpeng.com/news/01a080371029a057bc8e8a02a2c6012b",
+      "primarySourceUrl": "https://www.xpeng.com/news/01a080371029a057bc8e8a02a2c6012b",
+      "evidenceStrength": "confirmed product · XPENG official · 2026-09-08",
+      "whyCover": "Physical AI becomes a product category only when its body, training loop, software stack, and delivery system can be accepted together."
+    },
+    "designDesk": {
+      "zhTitle": "Design Desk：把机器人从‘能力叙事’拆成可接管的任务链",
+      "enTitle": "Design Desk: turn robot capability stories into takeover-ready task chains",
+      "zhIntro": "今天的产品证据集中在 Physical AI 的四个缺口：制造复制、示范训练、能力比较和长期记忆。共同的 UX 任务是让系统知道自己在做什么、凭什么这样做、何时需要人接管，以及失败后数据如何回到下一次训练。",
+      "enIntro": "Today's product evidence clusters around four Physical AI gaps: repeatable manufacturing, demonstration-based training, capability comparison, and long-term memory. The shared UX task is making it clear what the system is doing, why, when a human must take over, and how failure data returns to the next training cycle.",
+      "zhItems": [
+        {
+          "label": "Manufacture",
+          "body": "把出厂一致性、维护、急停和交付节奏当作用户体验的一部分。"
+        },
+        {
+          "label": "Demonstrate",
+          "body": "示范后展示模型提取的对象、步骤、不确定性和危险动作。"
+        },
+        {
+          "label": "Compare",
+          "body": "用场景、延迟、算力、电源、确定性和安全描述能力，不只看跑分。"
+        },
+        {
+          "label": "Recover",
+          "body": "失败、暂停、接管、回滚和重新训练要共享同一条记录。"
+        },
+        {
+          "label": "Permission",
+          "body": "记忆、心率、环境观察与第三方 AI app 必须逐项授权和删除。"
+        },
+        {
+          "label": "Deliver",
+          "body": "把 prototype、early access、roadmap 和 confirmed product 分开发布。"
+        }
+      ],
+      "enItems": [
+        {
+          "label": "Manufacture",
+          "body": "Treat unit consistency, service, emergency stop, and delivery cadence as UX."
+        },
+        {
+          "label": "Demonstrate",
+          "body": "After a demo, show extracted objects, steps, uncertainty, and dangerous actions."
+        },
+        {
+          "label": "Compare",
+          "body": "Describe capability with scenario, latency, compute, power, determinism, and safety."
+        },
+        {
+          "label": "Recover",
+          "body": "Failure, pause, takeover, rollback, and retraining should share one record."
+        },
+        {
+          "label": "Permission",
+          "body": "Memory, heart rate, environmental observation, and AI apps need item-level consent."
+        },
+        {
+          "label": "Deliver",
+          "body": "Keep prototype, early access, roadmap, and confirmed product states separate."
+        }
+      ]
+    },
+    "watchlistZh": [
+      "XPENG IRON：首批门店/园区任务、任务成功率、急停与远程接管、产线一致性、2027 交付与售后。",
+      "Skild S1：66% 测试口径、不同 embodiment、视频到动作的中间状态、错误恢复、工厂安全与 API。",
+      "SOMA Robotics：9 月 22 日价格/规格、soda OS SDK、云端依赖、500 Hz 长时稳定性与首批发货。",
+      "Arm Robotics Capability Framework：RL0–RL5 测量方法、机器可读 schema、认证与真实项目采用。",
+      "iKairos LifeOS：观察状态、快照频率、旁观者提示、事件删除、跨身体同步和量产入口。",
+      "Ultrahuman Ring：现有 Ring Air/Pro 更新是否上线、无屏反馈、AI app 权限和生理数据访问。",
+      "Meta DAT：0.9/后续 SDK、display 与 camera 的型号矩阵、v128 后视频流、生产发布资格、断连恢复与隐私状态。",
+      "讯飞 × 灵影：停车/支付/点单实际开放城市、确认/撤销/赔付、账户绑定、端云边界与数据删除。",
+      "Codex auto-review：动作预览、payload 绑定、阻断解释、审批链、回滚、误阻率与硬件密钥恢复。",
+      "MemoMind One：Bluetooth 协议文档、full SDK、事件模型、旁观者同意、删除 API、数据驻留与发货。",
+      "Meta conversational-glasses patent：权利要求、审查事件、是否授权、产品采用证据与真实设备行为。",
+      "OpenAI Agents API：完整 schema、价格、长任务恢复、权限继承、网络边界、停止语义与数据留存。",
+      "Rokid AIUI Studio：模拟器与量产眼镜差异、真机返工率、Agent Store 审核、权限和设备覆盖。",
+      "Salesforce AI Harness：FY28 rollout、包装价格、control plane 实际界面、第三方 MCP、策略冲突和回滚。",
+      "Meta Muse：Sentinel 独立性、批准 payload 绑定、撤销时序、审计导出、Confidential VM 与真实跨 app 测试。",
+      "LattePanda Mu Ultra：套件价格与库存、37W 持续功耗、噪音、Ubuntu 驱动、模型/runtime、量产供货。",
+      "Nubia NaviX Ultra：9 月 16 日发布后的最终规格、价格、应用适配、支付与权限、队列取消、记忆删除。",
+      "HP ZGX Fury：完整 AI Factory sandbox 时间、SKU、迁移到 production、模型治理、断网恢复和现场运维。",
+      "Arm AI Portal：完整目录 schema、MCP 权限、BYOM 工具、可复现 benchmark、模型许可与跨设备功耗/质量曲线。",
+      "Violoop：Kickstarter 条款、独立供电、屏幕数据边界、跨应用成功率、撤销与实际发货。"
+    ],
+    "watchlistEn": [
+      "XPENG IRON: first store/campus tasks, task success, emergency stop and remote takeover, unit consistency, 2027 delivery, and service.",
+      "Skild S1: definition of the 66% test, different embodiments, video-to-action state, recovery, factory safety, and API.",
+      "SOMA Robotics: September 22 price/specification reveal, soda OS SDK, cloud dependence, long-run 500 Hz stability, and first shipments.",
+      "Arm Robotics Capability Framework: RL0–RL5 measurement, machine-readable schema, certification, and real-project adoption.",
+      "iKairos LifeOS: observation state, snapshot frequency, bystander cues, event deletion, cross-body sync, and production access.",
+      "Ultrahuman Ring: whether the Ring Air/Pro update ships, screenless feedback, AI-app permissions, and physiological-data access.",
+      "Meta DAT: later SDKs, display/camera capability matrix, v128 video streaming, production eligibility, disconnect recovery, and privacy state.",
+      "iFLYTEK x Lingying: live cities for payment and ordering, confirmation/undo/compensation, account binding, edge-cloud split, and deletion.",
+      "Codex auto-review: action preview, payload binding, block explanation, approval chain, rollback, false-block rate, and key recovery.",
+      "MemoMind One: Bluetooth documentation, full SDK, event model, bystander consent, deletion API, residency, and shipping.",
+      "Meta conversational-glasses patent: claims, prosecution, grant status, product adoption, and real-device behaviour.",
+      "OpenAI Agents API: full schema, pricing, long-task recovery, permission inheritance, network boundaries, stop semantics, and retention.",
+      "Rokid AIUI Studio: simulator-to-production gaps, real-device rework, Agent Store review, permissions, and device coverage.",
+      "Salesforce AI Harness: FY28 rollout, packaging, Control Plane UI, third-party MCP, policy conflict, and rollback.",
+      "Meta Muse: Sentinel independence, approval-payload binding, revocation timing, audit export, Confidential VM, and real cross-app tests.",
+      "LattePanda Mu Ultra: kit price and stock, sustained 37W power, noise, Ubuntu drivers, model/runtime coverage, and production supply.",
+      "Nubia NaviX Ultra: final specifications and price after September 16, app coverage, payment and permissions, queue cancellation, and memory deletion.",
+      "HP ZGX Fury: complete AI Factory sandbox timing, SKUs, production migration, model governance, offline recovery, and field operations.",
+      "Arm AI Portal: complete catalogue schema, MCP permissions, BYOM tooling, reproducible benchmarks, model licensing, and cross-device power/quality curves.",
+      "Violoop: Kickstarter terms, separate power, screen-data boundary, cross-app success, undo, and shipping."
+    ],
+    "zhPath": "./2026-09-14/zh/",
+    "enPath": "./2026-09-14/en/",
+    "sourcesPath": "./2026-09-14/sources.md"
+  },
+  {
     "date": "2026-09-12",
     "zhTitle": "AI Daily 2026-09-12：AI 眼镜的下一关，是把输入做成平台",
     "enTitle": "AI Daily 2026-09-12: The next AI-glasses test is making input a platform",
