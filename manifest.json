@@ -1,5 +1,220 @@
 [
   {
+    "date": "2026-09-15",
+    "zhTitle": "AI Daily 2026-09-15：Agent 进入垂直工作流，设备开始把控制权显性化",
+    "enTitle": "AI Daily 2026-09-15: Agents enter vertical workflows while devices make control visible",
+    "zhSummary": "Claude for Financial Advisors 与 OpenAI Data agent 把 agent 连接到真实业务系统，任务从提问推进到调查、草稿、仪表盘与获批行动；AirPods 5 和 Even G2 则把语音、头部动作与眼前显示做成轻量控制层。Axiado 的基础设施 agent 与 Snap SPECS 发布前信号继续标注开发者面和弱确认，权限、回滚、规格与连续运行仍是下一关。",
+    "enSummary": "Claude for Financial Advisors and OpenAI Data agent connect agents to real business systems, moving from questions to investigation, drafts, dashboards, and approved actions; AirPods 5 and Even G2 make voice, head gestures, and in-view display into lightweight control layers. Axiado's infrastructure agent and the pre-launch Snap SPECS signal remain bounded as a developer surface and weak signal, with permissions, rollback, specifications, and continuous operation still the next gate.",
+    "tags": [
+      "vertical agents",
+      "enterprise AI",
+      "AI wearables",
+      "smart glasses",
+      "audio interfaces",
+      "HCI",
+      "permissions",
+      "agent control",
+      "Physical AI",
+      "humanoid robots",
+      "robot foundation models",
+      "robotics research",
+      "on-device AI",
+      "manufacturing",
+      "Meta Wearables DAT",
+      "AI glasses platform",
+      "iFLYTEK AI Glasses",
+      "Lingying AOS",
+      "Codex auto-review",
+      "memory glasses",
+      "developer surface",
+      "community friction",
+      "patent signal",
+      "Agents API",
+      "Rokid AIUI Studio",
+      "Enterprise AI Harness",
+      "AI glasses",
+      "agent runtime"
+    ],
+    "sourceTypes": [
+      "confirmed product",
+      "developer surface",
+      "review/community friction",
+      "weak/unverified",
+      "official",
+      "reviews",
+      "community",
+      "wild",
+      "research",
+      "patent",
+      "china",
+      "global",
+      "startup signal",
+      "patent signal",
+      "agent runtime",
+      "spatial AI",
+      "enterprise control plane",
+      "China signal",
+      "research signal",
+      "personal agent",
+      "Secure VM",
+      "edge AI module",
+      "AI agent phone",
+      "enterprise edge AI",
+      "community friction",
+      "Arm AI Portal",
+      "MCP",
+      "Google Store",
+      "hands-on review",
+      "patent watch",
+      "China",
+      "crowdfunding signal",
+      "crowdfunding",
+      "Product Hunt",
+      "arXiv",
+      "regional product pages",
+      "developer access",
+      "Rokid Glasses",
+      "eSIM",
+      "IFA 2026",
+      "Sonos 27",
+      "VIVE Eagle",
+      "Doova",
+      "wearable memory",
+      "AI Agent Earbuds",
+      "hardware-gated agent",
+      "local inference",
+      "AI NAS",
+      "china scan"
+    ],
+    "coverStory": {
+      "topicId": "claude-financial-advisors-connectors-skills",
+      "zhTitle": "Agent 的下一步不是更会聊天，而是进入一整套有责任边界的工作流",
+      "enTitle": "The next agent step is not better chat, but a workflow with an accountable boundary",
+      "zhSummary": [
+        "Claude 与 OpenAI 都把连接器、业务语义和真实产物放进任务链。",
+        "AirPods 与 Even G2 说明设备入口必须同时处理反馈、权限与缺失的感知。",
+        "今天最重要的验收点是：谁授权、谁接管、能否撤销、结果能否回到源头。"
+      ],
+      "enSummary": [
+        "Claude and OpenAI put connectors, business semantics, and real artefacts inside one task chain.",
+        "AirPods and Even G2 show that device entry points must handle feedback, permission, and missing perception together.",
+        "The acceptance test is who authorises, who takes over, whether the action can be undone, and whether the result traces back to its source."
+      ],
+      "imagePath": "assets/claude-financial-advisors-2026-09.jpg",
+      "imageWidth": 1600,
+      "imageHeight": 900,
+      "imageSourceUrl": "https://claude.com/blog/claude-for-financial-advisors",
+      "primarySourceUrl": "https://claude.com/blog/claude-for-financial-advisors",
+      "evidenceStrength": "confirmed product · Anthropic official · 2026-09-14",
+      "whyCover": "Vertical agents become products when connectors, permissions, human judgment, and concrete outputs share one recoverable workflow."
+    },
+    "designDesk": {
+      "zhTitle": "Design Desk：把委托变成可看见、可接管、可追溯的动作链",
+      "enTitle": "Design Desk: make delegation visible, take-overable, and traceable",
+      "zhIntro": "今天的产品证据都在收紧 agent 的责任边界：金融顾问与数据 agent 连接真实系统，耳机与眼镜把确认移到身体和视线，基础设施 agent 直接进入物理控制回路。共同的 UX 任务是把授权、过程、证据、动作、回滚和退出做成同一条记录。",
+      "enIntro": "Today's product evidence tightens the boundary of agent responsibility: financial and data agents connect to real systems, earbuds and glasses move confirmation into body and gaze, and an infrastructure agent enters a physical control loop. The shared UX task is one record for permission, process, evidence, action, rollback, and exit.",
+      "zhItems": [
+        {
+          "label": "Authorize",
+          "body": "先显示连接了什么、读取什么、能写什么，再开始委托。"
+        },
+        {
+          "label": "Trace",
+          "body": "每个数字、提示、客户字段和控制动作都能回到来源与遥测。"
+        },
+        {
+          "label": "Preview",
+          "body": "发送、购买、调参、发布前给出对象、payload、影响和风险。"
+        },
+        {
+          "label": "Take over",
+          "body": "把顾问、分析师、运维和佩戴者的接管点设计成明确状态。"
+        },
+        {
+          "label": "Recover",
+          "body": "撤销、回滚、断连、低电量和错误结论都要有可理解的下一步。"
+        },
+        {
+          "label": "Declare limits",
+          "body": "没有摄像头、没有规格、没有独立评测时，界面要直接说清楚。"
+        }
+      ],
+      "enItems": [
+        {
+          "label": "Authorize",
+          "body": "Show what is connected, read, and writable before delegation starts."
+        },
+        {
+          "label": "Trace",
+          "body": "Every number, cue, client field, and control action should trace to source or telemetry."
+        },
+        {
+          "label": "Preview",
+          "body": "Before send, purchase, tuning, or publish, show target, payload, impact, and risk."
+        },
+        {
+          "label": "Take over",
+          "body": "Make the advisor, analyst, operator, and wearer takeover points explicit states."
+        },
+        {
+          "label": "Recover",
+          "body": "Undo, rollback, disconnect, low battery, and bad conclusions need a legible next step."
+        },
+        {
+          "label": "Declare limits",
+          "body": "When cameras, specifications, or independent evaluation are absent, say so directly."
+        }
+      ]
+    },
+    "watchlistZh": [
+      "Claude for Financial Advisors：连接器字段来源、合规阻断、审计导出、撤销与对客动作确认。",
+      "OpenAI Data agent：数字到源表的引用、查询路径、dashboard 版本、Slack/email payload 与 undo。",
+      "AirPods 5：Siri AI 地区/语言矩阵、头部动作误触、翻译延迟、断连与复杂 action 撤销。",
+      "Even G2：持续任务中的摄像头缺席边界、AI Cues 来源、四麦克风、R1、手机依赖和开发者权限。",
+      "Axiado：50%/30% 指标基线、telemetry 丢失安全模式、人工 override、回滚与持续运行。",
+      "Snap SPECS：9 月 16 日最终规格、入口、显示/相机隐私、SDK、价格、地区与发货。",
+      "XPENG IRON：首批门店/园区任务、任务成功率、急停与远程接管、产线一致性、2027 交付与售后。",
+      "Skild S1：66% 测试口径、不同 embodiment、视频到动作的中间状态、错误恢复、工厂安全与 API。",
+      "SOMA Robotics：9 月 22 日价格/规格、soda OS SDK、云端依赖、500 Hz 长时稳定性与首批发货。",
+      "Arm Robotics Capability Framework：RL0–RL5 测量方法、机器可读 schema、认证与真实项目采用。",
+      "iKairos LifeOS：观察状态、快照频率、旁观者提示、事件删除、跨身体同步和量产入口。",
+      "Ultrahuman Ring：现有 Ring Air/Pro 更新是否上线、无屏反馈、AI app 权限和生理数据访问。",
+      "Meta DAT：0.9/后续 SDK、display 与 camera 的型号矩阵、v128 后视频流、生产发布资格、断连恢复与隐私状态。",
+      "讯飞 × 灵影：停车/支付/点单实际开放城市、确认/撤销/赔付、账户绑定、端云边界与数据删除。",
+      "Codex auto-review：动作预览、payload 绑定、阻断解释、审批链、回滚、误阻率与硬件密钥恢复。",
+      "MemoMind One：Bluetooth 协议文档、full SDK、事件模型、旁观者同意、删除 API、数据驻留与发货。",
+      "Meta conversational-glasses patent：权利要求、审查事件、是否授权、产品采用证据与真实设备行为。",
+      "OpenAI Agents API：完整 schema、价格、长任务恢复、权限继承、网络边界、停止语义与数据留存。",
+      "Rokid AIUI Studio：模拟器与量产眼镜差异、真机返工率、Agent Store 审核、权限和设备覆盖。",
+      "Salesforce AI Harness：FY28 rollout、包装价格、control plane 实际界面、第三方 MCP、策略冲突和回滚。"
+    ],
+    "watchlistEn": [
+      "Claude for Financial Advisors: connector provenance, compliance blocking, audit export, revocation, and client-action confirmation.",
+      "OpenAI Data agent: number-to-source citations, query path, dashboard versioning, Slack/email payload, and undo.",
+      "AirPods 5: Siri AI territory/language matrix, head-gesture false activation, translation latency, disconnect, and complex-action undo.",
+      "Even G2: camera-free boundary in continuous tasks, AI Cue provenance, microphones, R1, phone dependence, and developer permissions.",
+      "Axiado: baselines behind 50%/30%, telemetry-loss safe mode, human override, rollback, and continuous operation.",
+      "Snap SPECS: final September 16 specifications, entry, display/camera privacy, SDK, price, territory, and shipping.",
+      "XPENG IRON: first store/campus tasks, task success, emergency stop and remote takeover, unit consistency, 2027 delivery, and service.",
+      "Skild S1: definition of the 66% test, different embodiments, video-to-action state, recovery, factory safety, and API.",
+      "SOMA Robotics: September 22 price/specification reveal, soda OS SDK, cloud dependence, long-run 500 Hz stability, and first shipments.",
+      "Arm Robotics Capability Framework: RL0–RL5 measurement, machine-readable schema, certification, and real-project adoption.",
+      "iKairos LifeOS: observation state, snapshot frequency, bystander cues, event deletion, cross-body sync, and production access.",
+      "Ultrahuman Ring: whether the Ring Air/Pro update ships, screenless feedback, AI-app permissions, and physiological-data access.",
+      "Meta DAT: later SDKs, display/camera capability matrix, v128 video streaming, production eligibility, disconnect recovery, and privacy state.",
+      "iFLYTEK x Lingying: live cities for payment and ordering, confirmation/undo/compensation, account binding, edge-cloud split, and deletion.",
+      "Codex auto-review: action preview, payload binding, block explanation, approval chain, rollback, false-block rate, and key recovery.",
+      "MemoMind One: Bluetooth documentation, full SDK, event model, bystander consent, deletion API, residency, and shipping.",
+      "Meta conversational-glasses patent: claims, prosecution, grant status, product adoption, and real-device behaviour.",
+      "OpenAI Agents API: full schema, pricing, long-task recovery, permission inheritance, network boundaries, stop semantics, and retention.",
+      "Rokid AIUI Studio: simulator-to-production gaps, real-device rework, Agent Store review, permissions, and device coverage.",
+      "Salesforce AI Harness: FY28 rollout, packaging, Control Plane UI, third-party MCP, policy conflict, and rollback."
+    ],
+    "zhPath": "./2026-09-15/zh/",
+    "enPath": "./2026-09-15/en/",
+    "sourcesPath": "./2026-09-15/sources.md"
+  },
+  {
     "date": "2026-09-14",
     "zhTitle": "AI Daily 2026-09-14：Physical AI 开始进入制造、训练与验收系统",
     "enTitle": "AI Daily 2026-09-14: Physical AI enters manufacturing, training, and acceptance systems",

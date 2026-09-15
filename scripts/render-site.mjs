@@ -2422,7 +2422,7 @@ body:has(.deck-page) {
   }
 
   .source-slide .source-grid {
-    grid-template-columns: repeat(24, minmax(0, 1fr));
+    grid-template-columns: repeat(30, minmax(0, 1fr));
     gap: 0;
   }
 
