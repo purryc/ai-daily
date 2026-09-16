@@ -1,5 +1,224 @@
 [
   {
+    "date": "2026-09-16",
+    "zhTitle": "AI Daily 2026-09-16：本地 agent 与 physical AI 进入可执行的工作界面",
+    "enTitle": "AI Daily 2026-09-16: Local agents and physical AI enter executable work surfaces",
+    "zhSummary": "FANUC AI Welding Agent 把工程图变成可微调的焊接参数与机器人动作，Perplexity Portable Computer 把长任务、调度器和本地 MCP 带到 Windows；华为小艺 Work 让手机成为跨设备的委托与验收端，HP × Revit 则把本地 agent 接进结构化 BIM 模型。Snap SPECS 在发布日仍先按 weak/unverified 记录，研究、专利、社区与野生 lane 继续作为边界信号。",
+    "enSummary": "FANUC AI Welding Agent turns engineering drawings into tunable welding parameters and robot motion, while Perplexity Portable Computer brings long tasks, scheduling, and local MCP to Windows. Huawei Xiaoyi Work makes the phone a cross-device delegation and acceptance endpoint, and HP × Revit puts a local agent beside structured BIM models. Snap SPECS remains a weak/unverified launch-day scan, with research, patent, community, and wild lanes retained as boundary signals.",
+    "tags": [
+      "physical AI",
+      "industrial robotics",
+      "local-first AI",
+      "Windows agents",
+      "BIM MCP",
+      "HarmonyOS",
+      "cross-device agent",
+      "smart glasses",
+      "HCI",
+      "permissions",
+      "takeover",
+      "vertical agents",
+      "enterprise AI",
+      "AI wearables",
+      "audio interfaces",
+      "agent control",
+      "Physical AI",
+      "humanoid robots",
+      "robot foundation models",
+      "robotics research",
+      "on-device AI",
+      "manufacturing",
+      "Meta Wearables DAT",
+      "AI glasses platform",
+      "iFLYTEK AI Glasses",
+      "Lingying AOS",
+      "Codex auto-review",
+      "memory glasses",
+      "developer surface",
+      "community friction",
+      "patent signal",
+      "Agents API"
+    ],
+    "sourceTypes": [
+      "confirmed product",
+      "developer surface",
+      "weak/unverified",
+      "official",
+      "china",
+      "global",
+      "physical AI",
+      "local inference",
+      "MCP",
+      "industrial robotics",
+      "review/community friction",
+      "reviews",
+      "community",
+      "wild",
+      "research",
+      "patent",
+      "startup signal",
+      "patent signal",
+      "agent runtime",
+      "spatial AI",
+      "enterprise control plane",
+      "China signal",
+      "research signal",
+      "personal agent",
+      "Secure VM",
+      "edge AI module",
+      "AI agent phone",
+      "enterprise edge AI",
+      "community friction",
+      "Arm AI Portal",
+      "Google Store",
+      "hands-on review",
+      "patent watch",
+      "China",
+      "crowdfunding signal",
+      "crowdfunding",
+      "Product Hunt",
+      "arXiv",
+      "regional product pages",
+      "developer access",
+      "Rokid Glasses",
+      "eSIM",
+      "IFA 2026",
+      "Sonos 27",
+      "VIVE Eagle",
+      "Doova",
+      "wearable memory",
+      "AI Agent Earbuds",
+      "hardware-gated agent",
+      "AI NAS",
+      "china scan"
+    ],
+    "coverStory": {
+      "topicId": "fanuc-ai-welding-agent-physical-ai",
+      "zhTitle": "从图纸到动作：physical AI 开始把‘执行前接管’写进产品",
+      "enTitle": "From drawing to motion: physical AI makes pre-execution takeover a product surface",
+      "zhSummary": [
+        "FANUC 把工程图、参数、机器人动作和操作员微调放进一条弧焊工作流。",
+        "Perplexity 把本地 agent 的模型、调度与 MCP 放进 Windows，但高显存与云端升级仍是门槛。",
+        "今天的验收点是：agent 生成什么中间产物，谁在执行前接管，失败如何恢复。"
+      ],
+      "enSummary": [
+        "FANUC joins drawing, parameters, robot motion, and operator tuning in one welding workflow.",
+        "Perplexity moves the local model, scheduler, and MCP into Windows, with high-VRAM and cloud-escalation gates.",
+        "The acceptance test is what intermediate artefact the agent creates, who takes over before execution, and how failure recovers."
+      ],
+      "imagePath": "assets/fanuc-ai-welding-agent-2026-09.png",
+      "imageWidth": 1600,
+      "imageHeight": 900,
+      "imageSourceUrl": "https://www.fanuc.co.jp/en/profile/pr/newsrelease/2026/notice20260911.html",
+      "primarySourceUrl": "https://www.fanuc.co.jp/en/profile/pr/newsrelease/2026/notice20260911.html",
+      "evidenceStrength": "confirmed product · FANUC official · 2026-09-11 announcement / 2026-09-16 demonstration",
+      "whyCover": "Physical AI becomes a product when generated plans, visible intermediate artefacts, and human takeover sit before an irreversible action."
+    },
+    "designDesk": {
+      "zhTitle": "Design Desk：把 agent 的中间产物放到接管点之前",
+      "enTitle": "Design Desk: put the agent's intermediate artefact before takeover",
+      "zhIntro": "今天的产品从工程图、文件夹、BIM 模型和跨端目标出发，生成参数、异常队列、对象定位、计划步骤或机器人动作。共同的 UX 任务是让人看到 agent 正在依据什么、准备改变什么，以及在执行前怎样接管。",
+      "enIntro": "Today's products start from engineering drawings, folders, BIM models, and cross-device goals, then produce parameters, exception queues, object selections, plans, or robot motion. The shared UX task is to show what the agent used, what it is about to change, and how a person takes over before execution.",
+      "zhItems": [
+        {
+          "label": "Show the artefact",
+          "body": "不要只显示‘已完成’，展示参数、对象、轨迹、payload 或导出文件。"
+        },
+        {
+          "label": "Name the boundary",
+          "body": "本地、云端、MCP、企业连接器和物理执行要分层标出。"
+        },
+        {
+          "label": "Gate action",
+          "body": "焊接、发送、改模型、发布前，给出对象、影响与确认。"
+        },
+        {
+          "label": "Keep state portable",
+          "body": "跨设备查看必须保留任务身份、当前步骤、待审动作和版本。"
+        },
+        {
+          "label": "Recover",
+          "body": "断连、睡眠、图纸误读、模型锁定和错误轨迹都要有恢复路径。"
+        },
+        {
+          "label": "Declare missing evidence",
+          "body": "没有独立评测、最终规格或真实发货时，界面与编辑都要降级标注。"
+        }
+      ],
+      "enItems": [
+        {
+          "label": "Show the artefact",
+          "body": "Do not say only ‘complete’; show parameters, objects, trajectories, payloads, or exports."
+        },
+        {
+          "label": "Name the boundary",
+          "body": "Separate local, cloud, MCP, enterprise connectors, and physical execution."
+        },
+        {
+          "label": "Gate action",
+          "body": "Before weld, send, model edit, or publish, show target, impact, and confirmation."
+        },
+        {
+          "label": "Keep state portable",
+          "body": "Cross-device viewing must retain task identity, step, pending action, and version."
+        },
+        {
+          "label": "Recover",
+          "body": "Disconnect, sleep, bad drawing, model lock, and wrong motion need recovery."
+        },
+        {
+          "label": "Declare missing evidence",
+          "body": "Downgrade the UI and editorial label when review, final specs, or shipping evidence is absent."
+        }
+      ]
+    },
+    "watchlistZh": [
+      "FANUC AI Welding Agent：图纸格式、轨迹/碰撞验证、焊缝质量、急停、日志与 12 月出货配置。",
+      "Perplexity Portable Computer：Windows 模型清单、显存/耗电、调度恢复、本地 MCP 权限与云端外发提示。",
+      "HP × Revit MCP：对象 ID 来源、链接模型、read-only 真实性、schema、版本锁定与企业审计。",
+      "华为小艺 Work：内测覆盖、鸿蒙/Windows 设备矩阵、任务暂停/回滚、文件上传范围与删除。",
+      "Snap SPECS：发布会后最终规格、显示/相机隐私、AI 入口、SDK、价格、地区与发货。",
+      "Claude for Financial Advisors：连接器字段来源、合规阻断、审计导出、撤销与对客动作确认。",
+      "OpenAI Data agent：数字到源表的引用、查询路径、dashboard 版本、Slack/email payload 与 undo。",
+      "AirPods 5：Siri AI 地区/语言矩阵、头部动作误触、翻译延迟、断连与复杂 action 撤销。",
+      "Even G2：持续任务中的摄像头缺席边界、AI Cues 来源、四麦克风、R1、手机依赖和开发者权限。",
+      "Axiado：50%/30% 指标基线、telemetry 丢失安全模式、人工 override、回滚与持续运行。",
+      "Snap SPECS：9 月 16 日最终规格、入口、显示/相机隐私、SDK、价格、地区与发货。",
+      "XPENG IRON：首批门店/园区任务、任务成功率、急停与远程接管、产线一致性、2027 交付与售后。",
+      "Skild S1：66% 测试口径、不同 embodiment、视频到动作的中间状态、错误恢复、工厂安全与 API。",
+      "SOMA Robotics：9 月 22 日价格/规格、soda OS SDK、云端依赖、500 Hz 长时稳定性与首批发货。",
+      "Arm Robotics Capability Framework：RL0–RL5 测量方法、机器可读 schema、认证与真实项目采用。",
+      "iKairos LifeOS：观察状态、快照频率、旁观者提示、事件删除、跨身体同步和量产入口。",
+      "Ultrahuman Ring：现有 Ring Air/Pro 更新是否上线、无屏反馈、AI app 权限和生理数据访问。",
+      "Meta DAT：0.9/后续 SDK、display 与 camera 的型号矩阵、v128 后视频流、生产发布资格、断连恢复与隐私状态。",
+      "讯飞 × 灵影：停车/支付/点单实际开放城市、确认/撤销/赔付、账户绑定、端云边界与数据删除。"
+    ],
+    "watchlistEn": [
+      "FANUC AI Welding Agent: drawing formats, trajectory/collision validation, weld quality, emergency stop, logs, and December shipment configuration.",
+      "Perplexity Portable Computer: Windows model list, VRAM/power, schedule recovery, local MCP permissions, and cloud-egress prompts.",
+      "HP × Revit MCP: object provenance, linked models, real read-only enforcement, schema, version locking, and enterprise audit.",
+      "Huawei Xiaoyi Work: beta coverage, HarmonyOS/Windows matrix, pause/rollback, upload scope, and deletion.",
+      "Snap SPECS: post-launch final specs, display/camera privacy, AI entry, SDK, price, territory, and shipping.",
+      "Claude for Financial Advisors: connector provenance, compliance blocking, audit export, revocation, and client-action confirmation.",
+      "OpenAI Data agent: number-to-source citations, query path, dashboard versioning, Slack/email payload, and undo.",
+      "AirPods 5: Siri AI territory/language matrix, head-gesture false activation, translation latency, disconnect, and complex-action undo.",
+      "Even G2: camera-free boundary in continuous tasks, AI Cue provenance, microphones, R1, phone dependence, and developer permissions.",
+      "Axiado: baselines behind 50%/30%, telemetry-loss safe mode, human override, rollback, and continuous operation.",
+      "Snap SPECS: final September 16 specifications, entry, display/camera privacy, SDK, price, territory, and shipping.",
+      "XPENG IRON: first store/campus tasks, task success, emergency stop and remote takeover, unit consistency, 2027 delivery, and service.",
+      "Skild S1: definition of the 66% test, different embodiments, video-to-action state, recovery, factory safety, and API.",
+      "SOMA Robotics: September 22 price/specification reveal, soda OS SDK, cloud dependence, long-run 500 Hz stability, and first shipments.",
+      "Arm Robotics Capability Framework: RL0–RL5 measurement, machine-readable schema, certification, and real-project adoption.",
+      "iKairos LifeOS: observation state, snapshot frequency, bystander cues, event deletion, cross-body sync, and production access.",
+      "Ultrahuman Ring: whether the Ring Air/Pro update ships, screenless feedback, AI-app permissions, and physiological-data access.",
+      "Meta DAT: later SDKs, display/camera capability matrix, v128 video streaming, production eligibility, disconnect recovery, and privacy state.",
+      "iFLYTEK x Lingying: live cities for payment and ordering, confirmation/undo/compensation, account binding, edge-cloud split, and deletion."
+    ],
+    "zhPath": "./2026-09-16/zh/",
+    "enPath": "./2026-09-16/en/",
+    "sourcesPath": "./2026-09-16/sources.md"
+  },
+  {
     "date": "2026-09-15",
     "zhTitle": "AI Daily 2026-09-15：Agent 进入垂直工作流，设备开始把控制权显性化",
     "enTitle": "AI Daily 2026-09-15: Agents enter vertical workflows while devices make control visible",
