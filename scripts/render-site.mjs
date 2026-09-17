@@ -1039,7 +1039,7 @@ function deckSourcesSlide(issue, locale, pageNumber) {
       <p class="eyebrow">${isZh ? "可追溯证据" : "Traceable evidence"}</p>
       <h2>${isZh ? "正文每个话题都有来源；这里是快速跳转。" : "Every topic has inline sources; this is the quick ledger."}</h2>
       <div class="source-grid">
-        ${sources
+        ${sources.slice(0, 280)
           .map((source) => `<a href="${html(source.url)}" target="_blank" rel="noreferrer"><span>${html(source.type ?? "source")}</span><strong>${html(source.label)}</strong></a>`)
           .join("")}
       </div>
