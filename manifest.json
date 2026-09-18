@@ -1,5 +1,236 @@
 [
   {
+    "date": "2026-09-18",
+    "zhTitle": "AI Daily 2026-09-18：Agentic Cloud、眼镜与长任务",
+    "enTitle": "AI Daily 2026-09-18: Agentic Cloud, perceptual glasses, and long-task runtimes join one product chain",
+    "zhSummary": "华为云把 AICS、长时记忆、MaaS、MCP 资产和 AI Hardware Zone 组织成企业 agent 基础设施；Snap SPECS 的独立评测把手掌 UI、波导限制和主动智能带入可体验的产品证据；OpenAI Agents API 则把 Codex 的沙箱与长任务 harness 变成开发者入口。前两日的广告 agent、跨设备 agent 与 physical AI 继续保留，八条 source lane 仍完整。",
+    "enSummary": "Huawei Cloud connects AICS, long-horizon memory, MaaS, MCP assets, and an AI Hardware Zone into enterprise agent infrastructure. A hands-on review makes Snap SPECS's palm UI, waveguide limits, and anticipatory intelligence tangible. OpenAI's Agents API turns Codex sandboxes and long-task harnesses into a developer surface. The previous issues' sponsored agents, cross-device work, and physical-AI items remain, with all eight source lanes preserved.",
+    "tags": [
+      "Agentic Cloud",
+      "Huawei Cloud",
+      "AI Hardware Zone",
+      "Snap SPECS",
+      "Agents API",
+      "long-task runtime",
+      "MCP",
+      "wearable AI",
+      "HCI",
+      "recoverability",
+      "Sponsored Agents",
+      "ChatGPT Ads",
+      "standalone AR",
+      "Huawei Atlas 960E",
+      "Peerium",
+      "Agent OS",
+      "cross-device AI",
+      "trust",
+      "physical AI",
+      "industrial robotics",
+      "local-first AI",
+      "Windows agents",
+      "BIM MCP",
+      "HarmonyOS",
+      "cross-device agent",
+      "smart glasses",
+      "permissions",
+      "takeover",
+      "vertical agents",
+      "enterprise AI",
+      "AI wearables",
+      "audio interfaces",
+      "agent control",
+      "Physical AI",
+      "humanoid robots",
+      "robot foundation models"
+    ],
+    "sourceTypes": [
+      "confirmed product",
+      "developer surface",
+      "official",
+      "reviews",
+      "community",
+      "research",
+      "China",
+      "global",
+      "AR glasses",
+      "AI infrastructure",
+      "weak/unverified",
+      "china",
+      "physical AI",
+      "local inference",
+      "MCP",
+      "industrial robotics",
+      "review/community friction",
+      "wild",
+      "patent",
+      "startup signal",
+      "patent signal",
+      "agent runtime",
+      "spatial AI",
+      "enterprise control plane",
+      "China signal",
+      "research signal",
+      "personal agent",
+      "Secure VM",
+      "edge AI module",
+      "AI agent phone",
+      "enterprise edge AI",
+      "community friction",
+      "Arm AI Portal",
+      "Google Store",
+      "hands-on review",
+      "patent watch",
+      "crowdfunding signal",
+      "crowdfunding",
+      "Product Hunt",
+      "arXiv",
+      "regional product pages",
+      "developer access",
+      "Rokid Glasses",
+      "eSIM",
+      "IFA 2026",
+      "Sonos 27",
+      "VIVE Eagle",
+      "Doova",
+      "wearable memory",
+      "AI Agent Earbuds",
+      "hardware-gated agent",
+      "AI NAS",
+      "china scan"
+    ],
+    "coverStory": {
+      "topicId": "huawei-cloud-agentic-infra-hardware-zone-2026-09-18",
+      "zhTitle": "Agent 产品正在把边界写进界面",
+      "enTitle": "From cloud memory to action in view: agent products are making boundaries visible",
+      "zhSummary": [
+        "华为云把记忆、模型、MCP 和设备伙伴组织成企业 agent 基础设施。",
+        "Snap SPECS 让手掌 UI、波导限制和主动智能进入真实上手证据。",
+        "OpenAI Agents API 把沙箱、上下文压缩和长任务反馈变成开发者必须面对的运行时。"
+      ],
+      "enSummary": [
+        "Huawei Cloud connects memory, models, MCP, and device partners into enterprise agent infrastructure.",
+        "Snap SPECS makes palm UI, waveguide limits, and anticipatory intelligence tangible in hands-on evidence.",
+        "OpenAI Agents API turns sandboxing, context compaction, and long-task feedback into developer-facing runtime choices."
+      ],
+      "imagePath": "assets/huawei-cloud-agentic-infra-2026-09.png",
+      "imageWidth": 1600,
+      "imageHeight": 1000,
+      "imageSourceUrl": "https://www.huawei.com/en/news/2026/9/hc-agentic-infra-industry-ai",
+      "primarySourceUrl": "https://www.huawei.com/en/news/2026/9/hc-agentic-infra-industry-ai",
+      "evidenceStrength": "confirmed product · Huawei Cloud official / 2026-09-18; paired with review and developer evidence",
+      "whyCover": "The product boundary now includes memory, device, identity, recovery, and the moment a user takes control."
+    },
+    "designDesk": {
+      "zhTitle": "Design Desk：把 agent 的运行时状态画出来",
+      "enTitle": "Design Desk: make the agent runtime visible",
+      "zhIntro": "今天的新增产品把记忆、模型、设备和主动信息接到同一条链。设计团队需要把边界变成一等界面：谁在说话、用了什么上下文、在哪台设备执行、会消耗什么资源，以及用户怎样接管。",
+      "enIntro": "Today's additions connect memory, models, devices, and proactive information. Product teams need to make boundaries first-class UI: who is speaking, which context was used, where execution happens, what resources are consumed, and how the user takes over.",
+      "zhItems": [
+        {
+          "label": "身份要可见",
+          "body": "广告 agent、系统 agent、独立回答和第三方服务不能共享一个模糊头像。"
+        },
+        {
+          "label": "上下文要分层",
+          "body": "原始对话、商家知识、个人记忆、跨设备状态和企业数据要能分别查看。"
+        },
+        {
+          "label": "执行位置要明确",
+          "body": "本机、云端、另一台设备、MCP 或物理执行都要在状态里说清楚。"
+        },
+        {
+          "label": "主动浮现要可控",
+          "body": "眼镜和系统 agent 需要显示为什么现在出现、如何暂时安静、如何永久关闭。"
+        },
+        {
+          "label": "长任务要可恢复",
+          "body": "资源不足、断网、设备切换和模型错误都要回到可理解的步骤。"
+        },
+        {
+          "label": "商业目标要可退出",
+          "body": "用户可以离开 Sponsored Agent、回到独立回答、清除共享上下文。"
+        },
+        {
+          "label": "运行时要可见",
+          "body": "模型、沙箱、记忆、MCP、设备和恢复点不能只藏在日志里。"
+        }
+      ],
+      "enItems": [
+        {
+          "label": "Make identity visible",
+          "body": "A sponsored agent, system agent, independent answer, and third-party service cannot share one vague avatar."
+        },
+        {
+          "label": "Layer context",
+          "body": "Original chat, merchant knowledge, personal memory, cross-device state, and enterprise data need separate views."
+        },
+        {
+          "label": "Name execution",
+          "body": "Local, cloud, another device, MCP, and physical execution must be explicit in status."
+        },
+        {
+          "label": "Control proactive surfacing",
+          "body": "Glasses and system agents should explain why something appeared and how to mute or disable it."
+        },
+        {
+          "label": "Recover long tasks",
+          "body": "Resource shortage, disconnect, handoff, and model error need an understandable return point."
+        },
+        {
+          "label": "Make commerce escapable",
+          "body": "Users should leave a Sponsored Agent, return to independent answers, and clear shared context."
+        },
+        {
+          "label": "Expose the runtime",
+          "body": "Model, sandbox, memory, MCP, device, and recovery point cannot live only in logs."
+        }
+      ]
+    },
+    "watchlistZh": [
+      "Huawei Cloud Agentic Cloud：AICS 的真实恢复日志、CMS API、AgentArts 商业化和 AI Hardware Zone 的设备权限边界。",
+      "Snap SPECS：主动智能的长时准确性、波导色差、价格/重量、公共空间接受度和 Lens SDK。",
+      "OpenAI Agents API：sandbox 权限、成本配置、长任务终止、subagent 责任与人工接管接口。",
+      "OpenAI Sponsored Agents：标签、商家上下文与 ChatGPT 独立回答的隔离，用户数据回传、举报、排序和广告计费。",
+      "OpenAI Sponsored Agents：标签、商家上下文与 ChatGPT 独立回答的隔离，用户数据回传、举报、排序和广告计费。",
+      "Snap SPECS：价格与发货、4 小时续航、51 度视场角、摄像头/录制状态、公共空间接受度、Lens SDK。",
+      "Huawei Atlas 960E / Peerium：独立 benchmark、客户部署、统一内存开发模型、故障恢复、能耗和租户隔离。",
+      "Huawei Agent OS：跨设备 task ID、权限继承、离线 fallback、车/家高风险动作确认和暂停语义。",
+      "FANUC AI Welding Agent：图纸格式、轨迹/碰撞验证、焊缝质量、急停、日志与 12 月出货配置。",
+      "Perplexity Portable Computer：Windows 模型清单、显存/耗电、调度恢复、本地 MCP 权限与云端外发提示。",
+      "HP × Revit MCP：对象 ID 来源、链接模型、read-only 真实性、schema、版本锁定与企业审计。",
+      "华为小艺 Work：内测覆盖、鸿蒙/Windows 设备矩阵、任务暂停/回滚、文件上传范围与删除。",
+      "Snap SPECS：发布会后最终规格、显示/相机隐私、AI 入口、SDK、价格、地区与发货。",
+      "Claude for Financial Advisors：连接器字段来源、合规阻断、审计导出、撤销与对客动作确认。",
+      "OpenAI Data agent：数字到源表的引用、查询路径、dashboard 版本、Slack/email payload 与 undo。",
+      "AirPods 5：Siri AI 地区/语言矩阵、头部动作误触、翻译延迟、断连与复杂 action 撤销。",
+      "Even G2：持续任务中的摄像头缺席边界、AI Cues 来源、四麦克风、R1、手机依赖和开发者权限。",
+      "Axiado：50%/30% 指标基线、telemetry 丢失安全模式、人工 override、回滚与持续运行。"
+    ],
+    "watchlistEn": [
+      "Huawei Cloud Agentic Cloud: real AICS recovery logs, CMS APIs, AgentArts commercialisation, and device-permission boundaries in the AI Hardware Zone.",
+      "Snap SPECS: long-run accuracy of anticipatory intelligence, waveguide colour fringing, price and weight, public acceptance, and Lens SDK.",
+      "OpenAI Agents API: sandbox permissions, cost profiles, long-task termination, subagent responsibility, and human takeover APIs.",
+      "OpenAI Sponsored Agents: label visibility, merchant-context separation from independent answers, user-data return, reporting, ranking, and billing.",
+      "OpenAI Sponsored Agents: label visibility, merchant-context separation from independent answers, user-data return, reporting, ranking, and billing.",
+      "Snap SPECS: price and shipping, four-hour battery claim, 51-degree FOV, camera/recording state, public acceptance, and Lens SDK.",
+      "Huawei Atlas 960E / Peerium: independent benchmarks, customer deployment, unified-memory programming, recovery, energy, and tenant isolation.",
+      "Huawei Agent OS: cross-device task ID, permission inheritance, offline fallback, confirmation for vehicle/home actions, and pause semantics.",
+      "FANUC AI Welding Agent: drawing formats, trajectory/collision validation, weld quality, emergency stop, logs, and December shipment configuration.",
+      "Perplexity Portable Computer: Windows model list, VRAM/power, schedule recovery, local MCP permissions, and cloud-egress prompts.",
+      "HP × Revit MCP: object provenance, linked models, real read-only enforcement, schema, version locking, and enterprise audit.",
+      "Huawei Xiaoyi Work: beta coverage, HarmonyOS/Windows matrix, pause/rollback, upload scope, and deletion.",
+      "Snap SPECS: post-launch final specs, display/camera privacy, AI entry, SDK, price, territory, and shipping.",
+      "Claude for Financial Advisors: connector provenance, compliance blocking, audit export, revocation, and client-action confirmation.",
+      "OpenAI Data agent: number-to-source citations, query path, dashboard versioning, Slack/email payload, and undo.",
+      "AirPods 5: Siri AI territory/language matrix, head-gesture false activation, translation latency, disconnect, and complex-action undo.",
+      "Even G2: camera-free boundary in continuous tasks, AI Cue provenance, microphones, R1, phone dependence, and developer permissions.",
+      "Axiado: baselines behind 50%/30%, telemetry-loss safe mode, human override, rollback, and continuous operation."
+    ],
+    "zhPath": "./2026-09-18/zh/",
+    "enPath": "./2026-09-18/en/",
+    "sourcesPath": "./2026-09-18/sources.md"
+  },
+  {
     "date": "2026-09-17",
     "zhTitle": "AI Daily 2026-09-17：广告 agent、独立 AR 与百万级算力同时进入产品面",
     "enTitle": "AI Daily 2026-09-17: Sponsored agents, standalone AR, and million-scale compute enter the product surface",

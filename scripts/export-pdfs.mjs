@@ -6,6 +6,8 @@ import { chromium } from "playwright";
 const root = path.resolve(new URL("..", import.meta.url).pathname);
 const dataPath = path.join(root, "data", "issues.json");
 const issues = JSON.parse(await fs.readFile(dataPath, "utf8"));
+const requestedDates = process.env.AI_DAILY_DATES?.split(",").map((value) => value.trim()).filter(Boolean);
+const exportIssues = requestedDates?.length ? issues.filter((issue) => requestedDates.includes(issue.date)) : issues;
 
 const mimeTypes = new Map([
   [".css", "text/css; charset=utf-8"],
@@ -56,7 +58,7 @@ await fs.mkdir(tmpRoot, { recursive: true });
 const browser = await chromium.launch({ headless: true });
 
 try {
-  for (const issue of issues) {
+  for (const issue of exportIssues) {
     for (const locale of ["zh", "en"]) {
       const output = path.join(root, issue.date, `ai-daily-${issue.date}-${locale}.pdf`);
       await fs.rm(output, { force: true });
