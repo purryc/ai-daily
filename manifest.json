@@ -1,5 +1,240 @@
 [
   {
+    "date": "2026-09-21",
+    "zhTitle": "AI Daily 2026-09-21：端侧 PC、企业 agent 与 AI 眼镜发布前夜",
+    "enTitle": "AI Daily 2026-09-21: on-device PCs, enterprise agents, and the next glasses launch",
+    "zhSummary": "Horizon Ultra 把端侧 AI 写进企业 PC 的 CPU/GPU/NPU 架构；Trip.Biz Agent ONE 把差旅规划、预订、审批与洞察拆成可追责的 agent 链；Rokid 新眼镜与 AI glasses 研究则把中国预发布和第一视角智能的下一站留在观察区。历史 issue 继续保留完整产品、社区、研究、专利与全球 source lanes。",
+    "enSummary": "Horizon Ultra makes on-device AI part of an enterprise PC's CPU/GPU/NPU architecture. Trip.Biz Agent ONE splits planning, booking, approval, and insight into a more accountable agent chain. Rokid's pre-launch notice and a new AI-glasses survey keep China's next wearable release and first-person intelligence in the watch zone, while the archive retains full product, community, research, patent, and global lanes.",
+    "tags": [
+      "Horizon Ultra",
+      "Snapdragon X2 Elite",
+      "on-device AI",
+      "enterprise PC",
+      "Trip.Biz Agent ONE",
+      "business travel",
+      "Rokid",
+      "AI glasses",
+      "first-person intelligence",
+      "Agentic Cloud",
+      "Huawei Cloud",
+      "AI Hardware Zone",
+      "Snap SPECS",
+      "Agents API",
+      "long-task runtime",
+      "MCP",
+      "wearable AI",
+      "HCI",
+      "recoverability",
+      "Sponsored Agents",
+      "ChatGPT Ads",
+      "standalone AR",
+      "Huawei Atlas 960E",
+      "Peerium",
+      "Agent OS",
+      "cross-device AI",
+      "trust",
+      "physical AI",
+      "industrial robotics",
+      "local-first AI",
+      "Windows agents",
+      "BIM MCP",
+      "HarmonyOS",
+      "cross-device agent",
+      "smart glasses",
+      "permissions",
+      "takeover",
+      "vertical agents",
+      "enterprise AI",
+      "AI wearables",
+      "audio interfaces",
+      "agent control"
+    ],
+    "sourceTypes": [
+      "confirmed product",
+      "weak/unverified",
+      "research signal",
+      "official",
+      "china",
+      "global",
+      "enterprise AI",
+      "on-device AI",
+      "developer surface",
+      "reviews",
+      "community",
+      "research",
+      "China",
+      "AR glasses",
+      "AI infrastructure",
+      "physical AI",
+      "local inference",
+      "MCP",
+      "industrial robotics",
+      "review/community friction",
+      "wild",
+      "patent",
+      "startup signal",
+      "patent signal",
+      "agent runtime",
+      "spatial AI",
+      "enterprise control plane",
+      "China signal",
+      "personal agent",
+      "Secure VM",
+      "edge AI module",
+      "AI agent phone",
+      "enterprise edge AI",
+      "community friction",
+      "Arm AI Portal",
+      "Google Store",
+      "hands-on review",
+      "patent watch",
+      "crowdfunding signal",
+      "crowdfunding",
+      "Product Hunt",
+      "arXiv",
+      "regional product pages",
+      "developer access",
+      "Rokid Glasses",
+      "eSIM",
+      "IFA 2026",
+      "Sonos 27",
+      "VIVE Eagle",
+      "Doova",
+      "wearable memory",
+      "AI Agent Earbuds",
+      "hardware-gated agent",
+      "AI NAS",
+      "china scan"
+    ],
+    "coverStory": {
+      "topicId": "qualcomm-humain-horizon-ultra-ai-pc",
+      "zhTitle": "当 agent 住进设备与事务流程，边界必须变成产品",
+      "enTitle": "When agents move into devices and transactions, the boundary becomes the product",
+      "zhSummary": [
+        "Horizon Ultra 把本机与云端的执行位置写进企业 PC。",
+        "Trip.Biz Agent ONE 把员工、审批与财务放进同一条差旅事务链。",
+        "Rokid 与研究 scan 提醒我们：眼镜的下一步仍要靠入口、反馈和可退出性验证。"
+      ],
+      "enSummary": [
+        "Horizon Ultra puts local-versus-cloud execution into the enterprise PC.",
+        "Trip.Biz Agent ONE joins traveller, approval, and finance state in one travel transaction.",
+        "Rokid and the research scan remind us that glasses still need validation through entry, feedback, and exit."
+      ],
+      "imagePath": "assets/horizon-ultra-official-2026-09-21.png",
+      "imageWidth": 1600,
+      "imageHeight": 900,
+      "imageSourceUrl": "https://www.qualcomm.com/news/releases/2026/08/qualcomm-and-humain-unveil-horizon-ultra-ai-pc-at-leap-2026--bri",
+      "primarySourceUrl": "https://www.qualcomm.com/news/releases/2026/08/qualcomm-and-humain-unveil-horizon-ultra-ai-pc-at-leap-2026--bri",
+      "evidenceStrength": "confirmed product · Qualcomm official / 2026-09-20 purchase window; paired with China pre-launch and research scans",
+      "whyCover": "The product boundary now appears where local compute, enterprise responsibility, and wearable perception meet."
+    },
+    "designDesk": {
+      "zhTitle": "Design Desk：把执行位置与责任链画出来",
+      "enTitle": "Design Desk: draw the execution location and responsibility chain",
+      "zhIntro": "今天的新增产品把端侧计算、企业事务和可穿戴入口放到同一张图上。用户需要看到任务在哪里执行、谁批准下一步、结果如何回到工作流，以及设备或 agent 失败后怎样接管。",
+      "enIntro": "Today's additions put endpoint compute, enterprise transactions, and wearable entry points on one map. Users need to see where a task runs, who approves the next step, how the result returns to the workflow, and how to take over after device or agent failure.",
+      "zhItems": [
+        {
+          "label": "执行地点可见",
+          "body": "本机、云端、企业连接器与物理设备要在任务状态中分开显示。"
+        },
+        {
+          "label": "责任角色分开",
+          "body": "员工、审批人、财务和 agent 不能共享一个无主的完成状态。"
+        },
+        {
+          "label": "策略先于动作",
+          "body": "端侧/云端路由、差旅政策、相机录制与主动提示都应在动作前可解释。"
+        },
+        {
+          "label": "结果回到原任务",
+          "body": "摘要、预订、导出与眼镜提示不能漂浮在另一个聊天窗口。"
+        },
+        {
+          "label": "错误可以接管",
+          "body": "拒批、断网、错误识别、库存变化和模型失败都要保留人工入口。"
+        },
+        {
+          "label": "证据等级分层",
+          "body": "正式产品、开发者面、评测摩擦、预发布和研究 signal 不共用一个徽章。"
+        }
+      ],
+      "enItems": [
+        {
+          "label": "Show execution location",
+          "body": "Local, cloud, enterprise connectors, and physical devices need distinct task states."
+        },
+        {
+          "label": "Separate responsibility",
+          "body": "Traveller, approver, finance, and agent cannot share one ownerless completion state."
+        },
+        {
+          "label": "Explain policy before action",
+          "body": "Local/cloud routing, travel policy, camera capture, and proactive prompts should be legible before execution."
+        },
+        {
+          "label": "Return results to the task",
+          "body": "Summaries, bookings, exports, and glasses prompts cannot float in a second invisible chat."
+        },
+        {
+          "label": "Keep human takeover",
+          "body": "Rejection, disconnection, recognition error, inventory change, and model failure need a human entry point."
+        },
+        {
+          "label": "Layer evidence",
+          "body": "Shipping products, developer surfaces, review friction, pre-launch signals, and research should not share one badge."
+        }
+      ]
+    },
+    "watchlistZh": [
+      "Horizon Ultra：企业采购后的真实 SKU、价格、端云路由、功耗、Windows 管理策略与 HUMAIN OS 迁移。",
+      "Trip.Biz Agent ONE：四个 agent 的权限、供应商排序、付款前确认、拒批/改签恢复和客户实测。",
+      "Rokid 新一代 AI 眼镜：9 月 24 日发布会的显示、相机、重量、价格、SDK、隐私提示与发货。",
+      "AI glasses research：第一视角连续感知、lifelong memory、主动智能、能耗和社会场景评估。",
+      "Huawei Cloud Agentic Cloud：AICS 的真实恢复日志、CMS API、AgentArts 商业化和 AI Hardware Zone 的设备权限边界。",
+      "Snap SPECS：主动智能的长时准确性、波导色差、价格/重量、公共空间接受度和 Lens SDK。",
+      "OpenAI Agents API：sandbox 权限、成本配置、长任务终止、subagent 责任与人工接管接口。",
+      "OpenAI Sponsored Agents：标签、商家上下文与 ChatGPT 独立回答的隔离，用户数据回传、举报、排序和广告计费。",
+      "Snap SPECS：价格与发货、4 小时续航、51 度视场角、摄像头/录制状态、公共空间接受度、Lens SDK。",
+      "Huawei Atlas 960E / Peerium：独立 benchmark、客户部署、统一内存开发模型、故障恢复、能耗和租户隔离。",
+      "Huawei Agent OS：跨设备 task ID、权限继承、离线 fallback、车/家高风险动作确认和暂停语义。",
+      "FANUC AI Welding Agent：图纸格式、轨迹/碰撞验证、焊缝质量、急停、日志与 12 月出货配置。",
+      "Perplexity Portable Computer：Windows 模型清单、显存/耗电、调度恢复、本地 MCP 权限与云端外发提示。",
+      "HP × Revit MCP：对象 ID 来源、链接模型、read-only 真实性、schema、版本锁定与企业审计。",
+      "华为小艺 Work：内测覆盖、鸿蒙/Windows 设备矩阵、任务暂停/回滚、文件上传范围与删除。",
+      "Snap SPECS：发布会后最终规格、显示/相机隐私、AI 入口、SDK、价格、地区与发货。",
+      "Claude for Financial Advisors：连接器字段来源、合规阻断、审计导出、撤销与对客动作确认。",
+      "OpenAI Data agent：数字到源表的引用、查询路径、dashboard 版本、Slack/email payload 与 undo。",
+      "AirPods 5：Siri AI 地区/语言矩阵、头部动作误触、翻译延迟、断连与复杂 action 撤销。",
+      "Even G2：持续任务中的摄像头缺席边界、AI Cues 来源、四麦克风、R1、手机依赖和开发者权限。"
+    ],
+    "watchlistEn": [
+      "Horizon Ultra: post-purchase SKUs, price, local/cloud routing, power, Windows management, and HUMAIN OS migration.",
+      "Trip.Biz Agent ONE: permissions across four agents, supplier ranking, payment confirmation, rejected-approval and change recovery, and customer measurement.",
+      "Rokid next AI glasses: September 24 display, cameras, weight, price, SDK, privacy cues, and shipping.",
+      "AI-glasses research: continuous egocentric sensing, lifelong memory, proactive intelligence, energy, and social-situation evaluation.",
+      "Huawei Cloud Agentic Cloud: real AICS recovery logs, CMS APIs, AgentArts commercialisation, and device-permission boundaries in the AI Hardware Zone.",
+      "Snap SPECS: long-run accuracy of anticipatory intelligence, waveguide colour fringing, price and weight, public acceptance, and Lens SDK.",
+      "OpenAI Agents API: sandbox permissions, cost profiles, long-task termination, subagent responsibility, and human takeover APIs.",
+      "OpenAI Sponsored Agents: label visibility, merchant-context separation from independent answers, user-data return, reporting, ranking, and billing.",
+      "Snap SPECS: price and shipping, four-hour battery claim, 51-degree FOV, camera/recording state, public acceptance, and Lens SDK.",
+      "Huawei Atlas 960E / Peerium: independent benchmarks, customer deployment, unified-memory programming, recovery, energy, and tenant isolation.",
+      "Huawei Agent OS: cross-device task ID, permission inheritance, offline fallback, confirmation for vehicle/home actions, and pause semantics.",
+      "FANUC AI Welding Agent: drawing formats, trajectory/collision validation, weld quality, emergency stop, logs, and December shipment configuration.",
+      "Perplexity Portable Computer: Windows model list, VRAM/power, schedule recovery, local MCP permissions, and cloud-egress prompts.",
+      "HP × Revit MCP: object provenance, linked models, real read-only enforcement, schema, version locking, and enterprise audit.",
+      "Huawei Xiaoyi Work: beta coverage, HarmonyOS/Windows matrix, pause/rollback, upload scope, and deletion.",
+      "Snap SPECS: post-launch final specs, display/camera privacy, AI entry, SDK, price, territory, and shipping.",
+      "Claude for Financial Advisors: connector provenance, compliance blocking, audit export, revocation, and client-action confirmation.",
+      "OpenAI Data agent: number-to-source citations, query path, dashboard versioning, Slack/email payload, and undo.",
+      "AirPods 5: Siri AI territory/language matrix, head-gesture false activation, translation latency, disconnect, and complex-action undo.",
+      "Even G2: camera-free boundary in continuous tasks, AI Cue provenance, microphones, R1, phone dependence, and developer permissions."
+    ],
+    "zhPath": "./2026-09-21/zh/",
+    "enPath": "./2026-09-21/en/",
+    "sourcesPath": "./2026-09-21/sources.md"
+  },
+  {
     "date": "2026-09-18",
     "zhTitle": "AI Daily 2026-09-18：Agentic Cloud、眼镜与长任务",
     "enTitle": "AI Daily 2026-09-18: Agentic Cloud, perceptual glasses, and long-task runtimes join one product chain",
