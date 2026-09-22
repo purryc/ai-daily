@@ -2464,6 +2464,7 @@ body:has(.deck-page) {
 
   .section-slide .section-topic-list {
     gap: 3px;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
   }
 
   .section-slide .section-topic-list div {
