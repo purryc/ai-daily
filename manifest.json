@@ -1,5 +1,246 @@
 [
   {
+    "date": "2026-09-23",
+    "zhTitle": "AI Daily 2026-09-23：Agent 开始争夺执行层",
+    "enTitle": "AI Daily 2026-09-23: agents move from entry points to execution layers",
+    "zhSummary": "rabbit OS3 把 skill、文件和多台设备编排到一个执行层；Meta Muse 用 Secure VM、Sentinel 和审计轨迹定义个人 Agent 的信任边界；VONDER、openJiuwen 与千问平台则分别从隐私眼镜、开源资产和企业 Agent 服务推进入口。",
+    "enSummary": "rabbit OS3 turns skills, files, and devices into one execution layer. Meta Muse defines a trust boundary with Secure VM, Sentinel, and audit trails. VONDER, openJiuwen, and Qwen push the entry from privacy-first eyewear to open agent assets and enterprise services.",
+    "tags": [
+      "rabbit OS3",
+      "direct computer control",
+      "universal skills",
+      "Meta Muse",
+      "Secure VM",
+      "Sentinel",
+      "VONDER",
+      "privacy-first eyewear",
+      "Personal Memory Graph",
+      "openJiuwen",
+      "WorkSwarm",
+      "Agent Studio",
+      "Qwen platform",
+      "Agentic PC",
+      "Meta Connect",
+      "Qwen N1",
+      "Qwen N1 Pro",
+      "eye tracking",
+      "iris payment",
+      "Googlebook",
+      "Gemini Intelligence",
+      "Magic Pointer",
+      "Android 17",
+      "Snapdragon Summit",
+      "camera-free glasses",
+      "privacy",
+      "Horizon Ultra",
+      "Snapdragon X2 Elite",
+      "on-device AI",
+      "enterprise PC",
+      "Trip.Biz Agent ONE",
+      "business travel",
+      "Rokid",
+      "AI glasses",
+      "first-person intelligence",
+      "Agentic Cloud",
+      "Huawei Cloud",
+      "AI Hardware Zone",
+      "Snap SPECS",
+      "Agents API",
+      "long-task runtime",
+      "MCP",
+      "wearable AI",
+      "HCI",
+      "recoverability",
+      "Sponsored Agents",
+      "ChatGPT Ads",
+      "standalone AR"
+    ],
+    "sourceTypes": [
+      "confirmed product",
+      "developer surface",
+      "startup signal",
+      "official",
+      "reviews",
+      "wild",
+      "china",
+      "global",
+      "weak/unverified",
+      "community",
+      "research signal",
+      "enterprise AI",
+      "on-device AI",
+      "research",
+      "China",
+      "AR glasses",
+      "AI infrastructure",
+      "physical AI",
+      "local inference",
+      "MCP",
+      "industrial robotics",
+      "review/community friction",
+      "patent",
+      "patent signal",
+      "agent runtime",
+      "spatial AI",
+      "enterprise control plane",
+      "China signal",
+      "personal agent",
+      "Secure VM",
+      "edge AI module",
+      "AI agent phone",
+      "enterprise edge AI",
+      "community friction",
+      "Arm AI Portal",
+      "Google Store",
+      "hands-on review",
+      "patent watch",
+      "crowdfunding signal",
+      "crowdfunding",
+      "Product Hunt",
+      "arXiv",
+      "regional product pages",
+      "developer access",
+      "Rokid Glasses",
+      "eSIM",
+      "IFA 2026",
+      "Sonos 27",
+      "VIVE Eagle",
+      "Doova",
+      "wearable memory",
+      "AI Agent Earbuds",
+      "hardware-gated agent",
+      "AI NAS",
+      "china scan"
+    ],
+    "coverStory": {
+      "topicId": "rabbit-os3-agentic-operating-system-2026-09-23",
+      "zhTitle": "Agent 不再只回答：它开始决定在哪台设备上动手",
+      "enTitle": "Agents are no longer only answering; they are choosing where to act",
+      "zhSummary": [
+        "rabbit OS3 把设备、文件和 skill 组合成跨机器执行层。",
+        "Meta Muse 把个人记忆、凭据和审计写进 Secure VM。",
+        "今天的产品分水岭是：用户能否看懂并停止一个正在行动的 Agent。"
+      ],
+      "enSummary": [
+        "rabbit OS3 combines devices, files, and skills into a cross-machine execution layer.",
+        "Meta Muse puts memory, credentials, and audit into a Secure VM.",
+        "The product boundary today is whether a user can understand and stop an agent in motion."
+      ],
+      "imagePath": "assets/rabbit-os3-official-2026-09-23.png",
+      "imageWidth": 1600,
+      "imageHeight": 900,
+      "imageSourceUrl": "https://www.rabbit.tech/newsroom/rabbitos-3-launch",
+      "primarySourceUrl": "https://www.rabbit.tech/newsroom/rabbitos-3-launch",
+      "evidenceStrength": "confirmed product · rabbit official release / 2026-09-22; paired with Meta, China, startup, and downgraded event signals",
+      "whyCover": "The next agent interface is not a chat box. It is a visible execution layer with devices, files, skills, permissions, and an undo path."
+    },
+    "designDesk": {
+      "zhTitle": "Design Desk：执行层必须把状态还给用户",
+      "enTitle": "Design Desk: the execution layer must return state to the user",
+      "zhIntro": "今天的产品把 Agent 从回答入口推进到设备、文件、凭据、记忆和业务系统的执行层。交互验收要看状态是否可见、权限是否可分级、错误是否能撤回、人类是否能接管。",
+      "enIntro": "Today's products move agents from answer entry points into execution layers for devices, files, credentials, memory, and business systems. Acceptance must inspect visible state, granular permission, recoverable errors, and human takeover.",
+      "zhItems": [
+        {
+          "label": "先标设备",
+          "body": "跨设备任务要明确显示当前执行节点、文件去向和下一步会改变什么。"
+        },
+        {
+          "label": "凭据不等于权限",
+          "body": "Agent 能使用密码不代表能自由发送、购买或修改；服务级授权必须可读。"
+        },
+        {
+          "label": "记忆要能撤回",
+          "body": "Personal Memory Graph、persistent context 和主动建议都要有查看、忘记与静默入口。"
+        },
+        {
+          "label": "技能要有版本",
+          "body": "可安装 skill 和开源 Agent 资产要显示来源、版本、依赖、权限和回滚。"
+        },
+        {
+          "label": "无屏设备更要反馈",
+          "body": "没有显示的眼镜必须用音频、手机和实体操作补足监听、执行和取消状态。"
+        },
+        {
+          "label": "议程仍然是 scan",
+          "body": "发布会主题、媒体预告、论文与专利都不能替代硬件页、SDK 和实机证据。"
+        }
+      ],
+      "enItems": [
+        {
+          "label": "Label the device first",
+          "body": "Cross-device work must show the active node, file destination, and the next state change."
+        },
+        {
+          "label": "Credentials are not permission",
+          "body": "Using a password does not mean sending, buying, or editing freely; service-level access must be legible."
+        },
+        {
+          "label": "Make memory reversible",
+          "body": "Personal Memory Graph, persistent context, and proactive suggestions need inspect, forget, and quiet controls."
+        },
+        {
+          "label": "Give skills a version",
+          "body": "Installable skills and open agent assets need source, version, dependency, permission, and rollback."
+        },
+        {
+          "label": "No display means more feedback",
+          "body": "Displayless glasses need audio, phone, and physical controls to expose listening, execution, and cancel state."
+        },
+        {
+          "label": "An agenda is still a scan",
+          "body": "Event themes, previews, papers, and patents cannot replace hardware pages, SDKs, and device evidence."
+        }
+      ]
+    },
+    "watchlistZh": [
+      "rabbit OS3：skill 安装信任提示、跨设备文件审计、direct computer control 的确认/回滚、订阅与企业管理。",
+      "Meta Muse：Secure VM 的真实权限粒度、审计可读性、主动建议节奏、Confidential VM 密钥和 AI 眼镜接入。",
+      "VONDER：9 月 28 日价格、麦克风/续航/记忆删除、无显示反馈与 11 月实机评测。",
+      "openJiuwen 与千问平台：Agent 资产版本、RAG 来源、API/计费、权限、企业部署和可观测性。",
+      "Meta Connect / Snapdragon Summit：新硬件、SDK、统一计算层、Agentic PC 真实演示与跨设备 handoff。",
+      "千问 N1/N1 Pro：正式价格、重量、续航、眼动校准、虹膜支付授权、隐私提示、SDK 与 10 月 13 日真实发货。",
+      "Googlebook：Magic Pointer 对第三方 app 的边界、Gemini Spark 合盖任务、Android 17 协同、地区价格与独立续航测试。",
+      "Snapdragon Summit：Agentic PC 的硬件 SKU、统一计算层 SDK、端云路由、开发者下载与可复现 demo。",
+      "Meta Connect：是否发布无相机眼镜、语音/音频替代路径、隐私指示、Wearables API 与真实佩戴证据。",
+      "Horizon Ultra：企业采购后的真实 SKU、价格、端云路由、功耗、Windows 管理策略与 HUMAIN OS 迁移。",
+      "Trip.Biz Agent ONE：四个 agent 的权限、供应商排序、付款前确认、拒批/改签恢复和客户实测。",
+      "Rokid 新一代 AI 眼镜：9 月 24 日发布会的显示、相机、重量、价格、SDK、隐私提示与发货。",
+      "AI glasses research：第一视角连续感知、lifelong memory、主动智能、能耗和社会场景评估。",
+      "Huawei Cloud Agentic Cloud：AICS 的真实恢复日志、CMS API、AgentArts 商业化和 AI Hardware Zone 的设备权限边界。",
+      "Snap SPECS：主动智能的长时准确性、波导色差、价格/重量、公共空间接受度和 Lens SDK。",
+      "OpenAI Agents API：sandbox 权限、成本配置、长任务终止、subagent 责任与人工接管接口。",
+      "OpenAI Sponsored Agents：标签、商家上下文与 ChatGPT 独立回答的隔离，用户数据回传、举报、排序和广告计费。",
+      "Snap SPECS：价格与发货、4 小时续航、51 度视场角、摄像头/录制状态、公共空间接受度、Lens SDK。",
+      "Huawei Atlas 960E / Peerium：独立 benchmark、客户部署、统一内存开发模型、故障恢复、能耗和租户隔离。",
+      "Huawei Agent OS：跨设备 task ID、权限继承、离线 fallback、车/家高风险动作确认和暂停语义。"
+    ],
+    "watchlistEn": [
+      "rabbit OS3: skill-install trust prompts, cross-device file audit, direct-computer-control confirmation/rollback, pricing, and enterprise administration.",
+      "Meta Muse: Secure VM permission granularity, audit readability, proactive timing, Confidential VM keys, and AI-glasses access.",
+      "VONDER: September 28 price, microphone/runtime/memory deletion, displayless feedback, and November hands-on review.",
+      "openJiuwen and Qwen platform: agent-asset versions, RAG provenance, API/billing, permissions, enterprise deployment, and observability.",
+      "Meta Connect / Snapdragon Summit: new hardware, SDKs, unified compute, real Agentic PC demos, and cross-device handoff.",
+      "Qwen N1/N1 Pro: formal price, weight, battery, eye-tracking calibration, iris-payment controls, privacy cues, SDK, and October 13 shipping.",
+      "Googlebook: Magic Pointer's third-party-app boundary, Gemini Spark closed-lid tasks, Android 17 pairing, regional price, and independent battery tests.",
+      "Snapdragon Summit: Agentic PC hardware SKUs, unified-compute SDK, local/cloud routing, developer downloads, and a reproducible demo.",
+      "Meta Connect: whether camera-free glasses launch, voice/audio fallback, privacy cues, Wearables API, and real-wear evidence.",
+      "Horizon Ultra: post-purchase SKUs, price, local/cloud routing, power, Windows management, and HUMAIN OS migration.",
+      "Trip.Biz Agent ONE: permissions across four agents, supplier ranking, payment confirmation, rejected-approval and change recovery, and customer measurement.",
+      "Rokid next AI glasses: September 24 display, cameras, weight, price, SDK, privacy cues, and shipping.",
+      "AI-glasses research: continuous egocentric sensing, lifelong memory, proactive intelligence, energy, and social-situation evaluation.",
+      "Huawei Cloud Agentic Cloud: real AICS recovery logs, CMS APIs, AgentArts commercialisation, and device-permission boundaries in the AI Hardware Zone.",
+      "Snap SPECS: long-run accuracy of anticipatory intelligence, waveguide colour fringing, price and weight, public acceptance, and Lens SDK.",
+      "OpenAI Agents API: sandbox permissions, cost profiles, long-task termination, subagent responsibility, and human takeover APIs.",
+      "OpenAI Sponsored Agents: label visibility, merchant-context separation from independent answers, user-data return, reporting, ranking, and billing.",
+      "Snap SPECS: price and shipping, four-hour battery claim, 51-degree FOV, camera/recording state, public acceptance, and Lens SDK.",
+      "Huawei Atlas 960E / Peerium: independent benchmarks, customer deployment, unified-memory programming, recovery, energy, and tenant isolation.",
+      "Huawei Agent OS: cross-device task ID, permission inheritance, offline fallback, confirmation for vehicle/home actions, and pause semantics."
+    ],
+    "zhPath": "./2026-09-23/zh/",
+    "enPath": "./2026-09-23/en/",
+    "sourcesPath": "./2026-09-23/sources.md"
+  },
+  {
     "date": "2026-09-22",
     "zhTitle": "AI Daily 2026-09-22：从视线到桌面，Agent 正在争夺入口",
     "enTitle": "AI Daily 2026-09-22: agents compete for the gaze and the desktop",
