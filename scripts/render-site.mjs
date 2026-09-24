@@ -768,7 +768,7 @@ function deckCoverSlide(issue, locale, pageNumber) {
         <div class="hero-lines">
           ${(isZh ? cover.zhSummary : cover.enSummary).map((line) => `<p>${html(line)}</p>`).join("")}
         </div>
-        <div class="chip-row">${chips(issue.tags)}</div>
+        <div class="chip-row">${chips(issue.tags.slice(0, 10))}</div>
         ${sourceLinks([{ label: isZh ? "封面原文" : "Cover source", url: cover.primarySourceUrl }], locale)}
       </div>
       <figure class="cover-visual">

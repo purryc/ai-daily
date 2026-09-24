@@ -1,5 +1,246 @@
 [
   {
+    "date": "2026-09-24",
+    "zhTitle": "AI Daily 2026-09-24：眼镜与手机开始共享同一个 Agent 层",
+    "enTitle": "AI Daily 2026-09-24: glasses and phones begin to share an agent layer",
+    "zhSummary": "Meta Connect 把 Muse、Ray-Ban Meta Audio 与 Meta VR Glasses 推到同一条个人 AI 设备路线；Snapdragon 8 Elite Gen 6 则把端侧模型、Sensing Hub 与音频平台写进下一代终端底座。今天的产品问题从“有没有 AI”转向：设备是否能让人看懂它正在听什么、记住什么、在哪里执行。",
+    "enSummary": "Meta Connect puts Muse, Ray-Ban Meta Audio, and Meta VR Glasses on one personal-AI device path, while Snapdragon 8 Elite Gen 6 turns local models, Sensing Hub, and audio into the next endpoint layer. The product question shifts from whether a device has AI to whether people can see what it hears, remembers, and does.",
+    "tags": [
+      "Meta Connect",
+      "Ray-Ban Meta Audio",
+      "Muse",
+      "Private Processing",
+      "Meta VR Glasses",
+      "spatial computing",
+      "Snapdragon 8 Elite Gen 6",
+      "on-device AI",
+      "Sensing Hub",
+      "agentic wearables",
+      "rabbit OS3",
+      "direct computer control",
+      "universal skills",
+      "Meta Muse",
+      "Secure VM",
+      "Sentinel",
+      "VONDER",
+      "privacy-first eyewear",
+      "Personal Memory Graph",
+      "openJiuwen",
+      "WorkSwarm",
+      "Agent Studio",
+      "Qwen platform",
+      "Agentic PC",
+      "Qwen N1",
+      "Qwen N1 Pro",
+      "eye tracking",
+      "iris payment",
+      "Googlebook",
+      "Gemini Intelligence",
+      "Magic Pointer",
+      "Android 17",
+      "Snapdragon Summit",
+      "camera-free glasses",
+      "privacy",
+      "Horizon Ultra",
+      "Snapdragon X2 Elite",
+      "enterprise PC",
+      "Trip.Biz Agent ONE",
+      "business travel",
+      "Rokid",
+      "AI glasses",
+      "first-person intelligence",
+      "Agentic Cloud",
+      "Huawei Cloud",
+      "AI Hardware Zone",
+      "Snap SPECS",
+      "Agents API"
+    ],
+    "sourceTypes": [
+      "confirmed product",
+      "developer surface",
+      "startup signal",
+      "official",
+      "reviews",
+      "wild",
+      "china",
+      "global",
+      "weak/unverified",
+      "community",
+      "research signal",
+      "enterprise AI",
+      "on-device AI",
+      "research",
+      "China",
+      "AR glasses",
+      "AI infrastructure",
+      "physical AI",
+      "local inference",
+      "MCP",
+      "industrial robotics",
+      "review/community friction",
+      "patent",
+      "patent signal",
+      "agent runtime",
+      "spatial AI",
+      "enterprise control plane",
+      "China signal",
+      "personal agent",
+      "Secure VM",
+      "edge AI module",
+      "AI agent phone",
+      "enterprise edge AI",
+      "community friction",
+      "Arm AI Portal",
+      "Google Store",
+      "hands-on review",
+      "patent watch",
+      "crowdfunding signal",
+      "crowdfunding",
+      "Product Hunt",
+      "arXiv",
+      "regional product pages",
+      "developer access",
+      "Rokid Glasses",
+      "eSIM",
+      "IFA 2026",
+      "Sonos 27",
+      "VIVE Eagle",
+      "Doova",
+      "wearable memory",
+      "AI Agent Earbuds",
+      "hardware-gated agent",
+      "AI NAS",
+      "china scan"
+    ],
+    "coverStory": {
+      "topicId": "meta-ray-ban-audio-muse-private-processing-2026-09-24",
+      "zhTitle": "眼镜开始成为个人 Agent 的常驻执行层",
+      "enTitle": "Glasses are becoming the always-on execution layer for personal agents",
+      "zhSummary": [
+        "Ray-Ban Meta Audio 让 Muse 通过无显示音频眼镜进入日常佩戴。",
+        "Meta VR Glasses 用 puck、5K 显示和空间输入重做 VR 形态。",
+        "Snapdragon 把本地模型与 Sensing Hub 下沉到手机和耳机底座。"
+      ],
+      "enSummary": [
+        "Ray-Ban Meta Audio brings Muse into daily wear through displayless audio glasses.",
+        "Meta VR Glasses recast VR around a puck, 5K display, and spatial input.",
+        "Snapdragon moves local models and Sensing Hub capability into phone and earbud foundations."
+      ],
+      "imagePath": "assets/meta-ray-ban-audio-official-2026-09-24.png",
+      "imageWidth": 1600,
+      "imageHeight": 900,
+      "imageSourceUrl": "https://about.fb.com/news/2026/09/introducing-ray-ban-meta-audio-glasses-new-styles-plus-muse/",
+      "primarySourceUrl": "https://about.fb.com/news/2026/09/introducing-ray-ban-meta-audio-glasses-new-styles-plus-muse/",
+      "evidenceStrength": "confirmed product · Meta Connect and Snapdragon Summit / 2026-09-23–24; paired with review, China, research, patent, and community lanes",
+      "whyCover": "The next personal-AI interface is becoming a device layer that can listen, remember, display, and act across the body."
+    },
+    "designDesk": {
+      "zhTitle": "Design Desk：无屏与端侧 Agent 必须把状态还给用户",
+      "enTitle": "Design Desk: displayless and on-device agents must return state to the user",
+      "zhIntro": "今天的产品把 Agent 放进眼镜、耳机、手机芯片、空间窗口和云端保密执行环境。交互验收要看设备是否知道自己在听什么、记住什么、把任务交给哪里，以及用户能否暂停、删除和接管。",
+      "enIntro": "Today's products put agents in glasses, earbuds, phone silicon, spatial windows, and confidential cloud runtimes. Acceptance must inspect what the device hears, remembers, and hands off, plus whether the user can pause, delete, and take over.",
+      "zhItems": [
+        {
+          "label": "先标设备",
+          "body": "跨设备任务要明确显示当前执行节点、文件去向和下一步会改变什么。"
+        },
+        {
+          "label": "凭据不等于权限",
+          "body": "Agent 能使用密码不代表能自由发送、购买或修改；服务级授权必须可读。"
+        },
+        {
+          "label": "记忆要能撤回",
+          "body": "Personal Memory Graph、persistent context 和主动建议都要有查看、忘记与静默入口。"
+        },
+        {
+          "label": "技能要有版本",
+          "body": "可安装 skill 和开源 Agent 资产要显示来源、版本、依赖、权限和回滚。"
+        },
+        {
+          "label": "无屏设备更要反馈",
+          "body": "没有显示的眼镜必须用音频、手机和实体操作补足监听、执行和取消状态。"
+        },
+        {
+          "label": "议程仍然是 scan",
+          "body": "发布会主题、媒体预告、论文与专利都不能替代硬件页、SDK 和实机证据。"
+        }
+      ],
+      "enItems": [
+        {
+          "label": "Label the device first",
+          "body": "Cross-device work must show the active node, file destination, and the next state change."
+        },
+        {
+          "label": "Credentials are not permission",
+          "body": "Using a password does not mean sending, buying, or editing freely; service-level access must be legible."
+        },
+        {
+          "label": "Make memory reversible",
+          "body": "Personal Memory Graph, persistent context, and proactive suggestions need inspect, forget, and quiet controls."
+        },
+        {
+          "label": "Give skills a version",
+          "body": "Installable skills and open agent assets need source, version, dependency, permission, and rollback."
+        },
+        {
+          "label": "No display means more feedback",
+          "body": "Displayless glasses need audio, phone, and physical controls to expose listening, execution, and cancel state."
+        },
+        {
+          "label": "An agenda is still a scan",
+          "body": "Event themes, previews, papers, and patents cannot replace hardware pages, SDKs, and device evidence."
+        }
+      ]
+    },
+    "watchlistZh": [
+      "Ray-Ban Meta Audio / Muse：无显示动作确认、记忆删除、安静时段、Private Processing 独立验证与 10 月发货后的真实续航。",
+      "Meta VR Glasses：puck 与线缆、真实视场角、3 小时媒体续航、眼动隐私、处方适配与 2027 年春季上市。",
+      "Snapdragon 8 Elite Gen 6：首批终端、本地 30B MoE 的真实功耗、Sensing Hub 记忆控制、公开运行时与 OEM 权限。",
+      "rabbit OS3：skill 安装信任提示、跨设备文件审计、direct computer control 的确认/回滚、订阅与企业管理。",
+      "Meta Muse：Secure VM 的真实权限粒度、审计可读性、主动建议节奏、Confidential VM 密钥和 AI 眼镜接入。",
+      "VONDER：9 月 28 日价格、麦克风/续航/记忆删除、无显示反馈与 11 月实机评测。",
+      "openJiuwen 与千问平台：Agent 资产版本、RAG 来源、API/计费、权限、企业部署和可观测性。",
+      "Meta Connect / Snapdragon Summit：新硬件、SDK、统一计算层、Agentic PC 真实演示与跨设备 handoff。",
+      "千问 N1/N1 Pro：正式价格、重量、续航、眼动校准、虹膜支付授权、隐私提示、SDK 与 10 月 13 日真实发货。",
+      "Googlebook：Magic Pointer 对第三方 app 的边界、Gemini Spark 合盖任务、Android 17 协同、地区价格与独立续航测试。",
+      "Snapdragon Summit：Agentic PC 的硬件 SKU、统一计算层 SDK、端云路由、开发者下载与可复现 demo。",
+      "Meta Connect：是否发布无相机眼镜、语音/音频替代路径、隐私指示、Wearables API 与真实佩戴证据。",
+      "Horizon Ultra：企业采购后的真实 SKU、价格、端云路由、功耗、Windows 管理策略与 HUMAIN OS 迁移。",
+      "Trip.Biz Agent ONE：四个 agent 的权限、供应商排序、付款前确认、拒批/改签恢复和客户实测。",
+      "Rokid 新一代 AI 眼镜：9 月 24 日发布会的显示、相机、重量、价格、SDK、隐私提示与发货。",
+      "AI glasses research：第一视角连续感知、lifelong memory、主动智能、能耗和社会场景评估。",
+      "Huawei Cloud Agentic Cloud：AICS 的真实恢复日志、CMS API、AgentArts 商业化和 AI Hardware Zone 的设备权限边界。",
+      "Snap SPECS：主动智能的长时准确性、波导色差、价格/重量、公共空间接受度和 Lens SDK。",
+      "OpenAI Agents API：sandbox 权限、成本配置、长任务终止、subagent 责任与人工接管接口。",
+      "OpenAI Sponsored Agents：标签、商家上下文与 ChatGPT 独立回答的隔离，用户数据回传、举报、排序和广告计费。"
+    ],
+    "watchlistEn": [
+      "Ray-Ban Meta Audio / Muse: displayless action confirmation, memory deletion, quiet hours, independent Private Processing verification, and real runtime after October shipping.",
+      "Meta VR Glasses: puck and tether, real field of view, three-hour media runtime, gaze privacy, prescription fit, and spring 2027 launch.",
+      "Snapdragon 8 Elite Gen 6: first devices, real power use for local 30B MoE, Sensing Hub memory controls, public runtimes, and OEM permissions.",
+      "rabbit OS3: skill-install trust prompts, cross-device file audit, direct-computer-control confirmation/rollback, pricing, and enterprise administration.",
+      "Meta Muse: Secure VM permission granularity, audit readability, proactive timing, Confidential VM keys, and AI-glasses access.",
+      "VONDER: September 28 price, microphone/runtime/memory deletion, displayless feedback, and November hands-on review.",
+      "openJiuwen and Qwen platform: agent-asset versions, RAG provenance, API/billing, permissions, enterprise deployment, and observability.",
+      "Meta Connect / Snapdragon Summit: new hardware, SDKs, unified compute, real Agentic PC demos, and cross-device handoff.",
+      "Qwen N1/N1 Pro: formal price, weight, battery, eye-tracking calibration, iris-payment controls, privacy cues, SDK, and October 13 shipping.",
+      "Googlebook: Magic Pointer's third-party-app boundary, Gemini Spark closed-lid tasks, Android 17 pairing, regional price, and independent battery tests.",
+      "Snapdragon Summit: Agentic PC hardware SKUs, unified-compute SDK, local/cloud routing, developer downloads, and a reproducible demo.",
+      "Meta Connect: whether camera-free glasses launch, voice/audio fallback, privacy cues, Wearables API, and real-wear evidence.",
+      "Horizon Ultra: post-purchase SKUs, price, local/cloud routing, power, Windows management, and HUMAIN OS migration.",
+      "Trip.Biz Agent ONE: permissions across four agents, supplier ranking, payment confirmation, rejected-approval and change recovery, and customer measurement.",
+      "Rokid next AI glasses: September 24 display, cameras, weight, price, SDK, privacy cues, and shipping.",
+      "AI-glasses research: continuous egocentric sensing, lifelong memory, proactive intelligence, energy, and social-situation evaluation.",
+      "Huawei Cloud Agentic Cloud: real AICS recovery logs, CMS APIs, AgentArts commercialisation, and device-permission boundaries in the AI Hardware Zone.",
+      "Snap SPECS: long-run accuracy of anticipatory intelligence, waveguide colour fringing, price and weight, public acceptance, and Lens SDK.",
+      "OpenAI Agents API: sandbox permissions, cost profiles, long-task termination, subagent responsibility, and human takeover APIs.",
+      "OpenAI Sponsored Agents: label visibility, merchant-context separation from independent answers, user-data return, reporting, ranking, and billing."
+    ],
+    "zhPath": "./2026-09-24/zh/",
+    "enPath": "./2026-09-24/en/",
+    "sourcesPath": "./2026-09-24/sources.md"
+  },
+  {
     "date": "2026-09-23",
     "zhTitle": "AI Daily 2026-09-23：Agent 开始争夺执行层",
     "enTitle": "AI Daily 2026-09-23: agents move from entry points to execution layers",
