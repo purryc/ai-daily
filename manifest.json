@@ -1,5 +1,206 @@
 [
   {
+    "date": "2026-09-25",
+    "zhTitle": "个人 Agent 开始寻找自己的身体：口袋、眼镜与支付链",
+    "enTitle": "Personal agents are looking for bodies: pockets, glasses, and payment rails",
+    "zhSummary": "Meta 把 Muse 延伸到口袋设备与 AI 眼镜，Meta DAT 1.0 把眼镜变成移动 App 前端，Awear 试图让 Agent 跨品牌迁移，Qualcomm 与 Mastercard 则把 Agent 推到商业执行。今天的产品问题集中在状态可见、权限可撤销、记忆可迁移和付款可恢复。",
+    "enSummary": "Meta is extending Muse into a pocket device and AI glasses, Meta DAT 1.0 turns glasses into a mobile-app front end, Awear proposes cross-brand agent portability, and Qualcomm with Mastercard moves agents toward commerce execution. Today's product test is state visibility, revocable permission, portable memory, and recoverable payment.",
+    "tags": [
+      "HCI",
+      "personal AI agents",
+      "AI hardware",
+      "smart glasses",
+      "agentic commerce",
+      "developer surface",
+      "Meta Connect",
+      "Ray-Ban Meta Audio",
+      "Muse",
+      "Private Processing",
+      "Meta VR Glasses",
+      "spatial computing",
+      "Snapdragon 8 Elite Gen 6",
+      "on-device AI",
+      "Sensing Hub",
+      "agentic wearables",
+      "rabbit OS3",
+      "direct computer control",
+      "universal skills",
+      "Meta Muse",
+      "Secure VM",
+      "Sentinel",
+      "VONDER",
+      "privacy-first eyewear",
+      "Personal Memory Graph",
+      "openJiuwen",
+      "WorkSwarm",
+      "Agent Studio",
+      "Qwen platform",
+      "Agentic PC",
+      "Qwen N1",
+      "Qwen N1 Pro",
+      "eye tracking",
+      "iris payment",
+      "Googlebook",
+      "Gemini Intelligence",
+      "Magic Pointer",
+      "Android 17",
+      "Snapdragon Summit",
+      "camera-free glasses",
+      "privacy",
+      "Horizon Ultra",
+      "Snapdragon X2 Elite",
+      "enterprise PC",
+      "Trip.Biz Agent ONE",
+      "business travel",
+      "Rokid",
+      "AI glasses",
+      "first-person intelligence",
+      "Agentic Cloud",
+      "Huawei Cloud",
+      "AI Hardware Zone",
+      "Snap SPECS",
+      "Agents API"
+    ],
+    "sourceTypes": [
+      "official",
+      "developer docs",
+      "reviews",
+      "community",
+      "wild",
+      "research",
+      "patent",
+      "china",
+      "global"
+    ],
+    "coverStory": {
+      "topicId": "meta-muse-charm-pocket-agent-device-2026-09-25",
+      "zhTitle": "个人 Agent 需要一个身体，但身体也带来新的信任成本",
+      "enTitle": "A personal agent needs a body—and the body adds new trust costs",
+      "zhSummary": [
+        "Muse Charm 把 Agent 放进口袋，Meta DAT 1.0 把眼镜变成服务前端，Awear 试图让 Agent 跨品牌移动。",
+        "产品竞争正在从模型回答转向入口、记忆、权限、支付和跨设备 handoff。",
+        "今天最需要验证的不是 Agent 会不会说话，而是用户能否看见它在听什么、记住什么、准备做什么，并在出错后接管。"
+      ],
+      "enSummary": [
+        "Muse Charm puts an agent in a pocket, Meta DAT 1.0 makes glasses a service front end, and Awear proposes moving the agent across brands.",
+        "The product battle is shifting from model answers toward entry points, memory, permission, payment, and cross-device handoff.",
+        "The urgent test is not whether an agent can speak, but whether people can see what it hears, remembers, and plans—and take over after failure."
+      ],
+      "imagePath": "assets/meta-muse-charm-official-2026-09-25.png",
+      "imageWidth": 1600,
+      "imageHeight": 900,
+      "imageSourceUrl": "https://about.fb.com/de/news/2026/09/meta-connect-2026/",
+      "primarySourceUrl": "https://about.fb.com/de/news/2026/09/meta-connect-2026/",
+      "evidenceStrength": "Meta official Connect recap · product preview",
+      "whyCover": "The strongest new product signal changes the physical entry point of a personal agent while exposing the trust cost of screen-light, always-carried interaction."
+    },
+    "designDesk": {
+      "zhTitle": "Design Desk：无屏与端侧 Agent 必须把状态还给用户",
+      "enTitle": "Design Desk: displayless and on-device agents must return state to the user",
+      "zhIntro": "今天的产品把 Agent 放进眼镜、耳机、手机芯片、空间窗口和云端保密执行环境。交互验收要看设备是否知道自己在听什么、记住什么、把任务交给哪里，以及用户能否暂停、删除和接管。",
+      "enIntro": "Today's products put agents in glasses, earbuds, phone silicon, spatial windows, and confidential cloud runtimes. Acceptance must inspect what the device hears, remembers, and hands off, plus whether the user can pause, delete, and take over.",
+      "zhItems": [
+        {
+          "label": "先标设备",
+          "body": "跨设备任务要明确显示当前执行节点、文件去向和下一步会改变什么。"
+        },
+        {
+          "label": "凭据不等于权限",
+          "body": "Agent 能使用密码不代表能自由发送、购买或修改；服务级授权必须可读。"
+        },
+        {
+          "label": "记忆要能撤回",
+          "body": "Personal Memory Graph、persistent context 和主动建议都要有查看、忘记与静默入口。"
+        },
+        {
+          "label": "技能要有版本",
+          "body": "可安装 skill 和开源 Agent 资产要显示来源、版本、依赖、权限和回滚。"
+        },
+        {
+          "label": "无屏设备更要反馈",
+          "body": "没有显示的眼镜必须用音频、手机和实体操作补足监听、执行和取消状态。"
+        },
+        {
+          "label": "议程仍然是 scan",
+          "body": "发布会主题、媒体预告、论文与专利都不能替代硬件页、SDK 和实机证据。"
+        }
+      ],
+      "enItems": [
+        {
+          "label": "Label the device first",
+          "body": "Cross-device work must show the active node, file destination, and the next state change."
+        },
+        {
+          "label": "Credentials are not permission",
+          "body": "Using a password does not mean sending, buying, or editing freely; service-level access must be legible."
+        },
+        {
+          "label": "Make memory reversible",
+          "body": "Personal Memory Graph, persistent context, and proactive suggestions need inspect, forget, and quiet controls."
+        },
+        {
+          "label": "Give skills a version",
+          "body": "Installable skills and open agent assets need source, version, dependency, permission, and rollback."
+        },
+        {
+          "label": "No display means more feedback",
+          "body": "Displayless glasses need audio, phone, and physical controls to expose listening, execution, and cancel state."
+        },
+        {
+          "label": "An agenda is still a scan",
+          "body": "Event themes, previews, papers, and patents cannot replace hardware pages, SDKs, and device evidence."
+        }
+      ]
+    },
+    "watchlistZh": [
+      "Muse Charm：最终形态、价格、麦克风/录音灯、手机依赖、续航、12 月发货与无屏 Agent 的取消/忘记路径。",
+      "Meta Wearables DAT 1.0：9 月 30 日 rollout、兼容眼镜、iOS/Android parity、权限粒度、发现入口与真实开发者迁移成本。",
+      "Awear：合作设备、可迁移记忆、Agent 身份归属、SDK/API、跨品牌 handoff 与首个可购买硬件。",
+      "Qualcomm × Mastercard：订单状态、付款确认、退款/拒付、商户透明、跨设备接管和真实支付可用性。",
+      "Ray-Ban Meta Audio / Muse：无显示动作确认、记忆删除、安静时段、Private Processing 独立验证与 10 月发货后的真实续航。",
+      "Meta VR Glasses：puck 与线缆、真实视场角、3 小时媒体续航、眼动隐私、处方适配与 2027 年春季上市。",
+      "Snapdragon 8 Elite Gen 6：首批终端、本地 30B MoE 的真实功耗、Sensing Hub 记忆控制、公开运行时与 OEM 权限。",
+      "rabbit OS3：skill 安装信任提示、跨设备文件审计、direct computer control 的确认/回滚、订阅与企业管理。",
+      "Meta Muse：Secure VM 的真实权限粒度、审计可读性、主动建议节奏、Confidential VM 密钥和 AI 眼镜接入。",
+      "VONDER：9 月 28 日价格、麦克风/续航/记忆删除、无显示反馈与 11 月实机评测。",
+      "openJiuwen 与千问平台：Agent 资产版本、RAG 来源、API/计费、权限、企业部署和可观测性。",
+      "Meta Connect / Snapdragon Summit：新硬件、SDK、统一计算层、Agentic PC 真实演示与跨设备 handoff。",
+      "千问 N1/N1 Pro：正式价格、重量、续航、眼动校准、虹膜支付授权、隐私提示、SDK 与 10 月 13 日真实发货。",
+      "Googlebook：Magic Pointer 对第三方 app 的边界、Gemini Spark 合盖任务、Android 17 协同、地区价格与独立续航测试。",
+      "Snapdragon Summit：Agentic PC 的硬件 SKU、统一计算层 SDK、端云路由、开发者下载与可复现 demo。",
+      "Meta Connect：是否发布无相机眼镜、语音/音频替代路径、隐私指示、Wearables API 与真实佩戴证据。",
+      "Horizon Ultra：企业采购后的真实 SKU、价格、端云路由、功耗、Windows 管理策略与 HUMAIN OS 迁移。",
+      "Trip.Biz Agent ONE：四个 agent 的权限、供应商排序、付款前确认、拒批/改签恢复和客户实测。",
+      "Rokid 新一代 AI 眼镜：9 月 24 日发布会的显示、相机、重量、价格、SDK、隐私提示与发货。",
+      "AI glasses research：第一视角连续感知、lifelong memory、主动智能、能耗和社会场景评估。"
+    ],
+    "watchlistEn": [
+      "Muse Charm: final form, price, microphones and recording light, phone dependency, battery, December shipping, and screen-light cancel/forget flows.",
+      "Meta Wearables DAT 1.0: September 30 rollout, compatible glasses, iOS/Android parity, permission granularity, discovery, and real migration cost.",
+      "Awear: partner devices, portable memory, agent ownership, SDK/API, cross-brand handoff, and the first shippable hardware.",
+      "Qualcomm and Mastercard: order state, payment approval, refunds and chargebacks, merchant transparency, cross-device takeover, and real availability.",
+      "Ray-Ban Meta Audio / Muse: displayless action confirmation, memory deletion, quiet hours, independent Private Processing verification, and real runtime after October shipping.",
+      "Meta VR Glasses: puck and tether, real field of view, three-hour media runtime, gaze privacy, prescription fit, and spring 2027 launch.",
+      "Snapdragon 8 Elite Gen 6: first devices, real power use for local 30B MoE, Sensing Hub memory controls, public runtimes, and OEM permissions.",
+      "rabbit OS3: skill-install trust prompts, cross-device file audit, direct-computer-control confirmation/rollback, pricing, and enterprise administration.",
+      "Meta Muse: Secure VM permission granularity, audit readability, proactive timing, Confidential VM keys, and AI-glasses access.",
+      "VONDER: September 28 price, microphone/runtime/memory deletion, displayless feedback, and November hands-on review.",
+      "openJiuwen and Qwen platform: agent-asset versions, RAG provenance, API/billing, permissions, enterprise deployment, and observability.",
+      "Meta Connect / Snapdragon Summit: new hardware, SDKs, unified compute, real Agentic PC demos, and cross-device handoff.",
+      "Qwen N1/N1 Pro: formal price, weight, battery, eye-tracking calibration, iris-payment controls, privacy cues, SDK, and October 13 shipping.",
+      "Googlebook: Magic Pointer's third-party-app boundary, Gemini Spark closed-lid tasks, Android 17 pairing, regional price, and independent battery tests.",
+      "Snapdragon Summit: Agentic PC hardware SKUs, unified-compute SDK, local/cloud routing, developer downloads, and a reproducible demo.",
+      "Meta Connect: whether camera-free glasses launch, voice/audio fallback, privacy cues, Wearables API, and real-wear evidence.",
+      "Horizon Ultra: post-purchase SKUs, price, local/cloud routing, power, Windows management, and HUMAIN OS migration.",
+      "Trip.Biz Agent ONE: permissions across four agents, supplier ranking, payment confirmation, rejected-approval and change recovery, and customer measurement.",
+      "Rokid next AI glasses: September 24 display, cameras, weight, price, SDK, privacy cues, and shipping.",
+      "AI-glasses research: continuous egocentric sensing, lifelong memory, proactive intelligence, energy, and social-situation evaluation."
+    ],
+    "zhPath": "./2026-09-25/zh/",
+    "enPath": "./2026-09-25/en/",
+    "sourcesPath": "./2026-09-25/sources.md"
+  },
+  {
     "date": "2026-09-24",
     "zhTitle": "AI Daily 2026-09-24：眼镜与手机开始共享同一个 Agent 层",
     "enTitle": "AI Daily 2026-09-24: glasses and phones begin to share an agent layer",
