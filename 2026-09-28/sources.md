@@ -449,11 +449,11 @@ Scope: HCI, AI hardware, AI software products, agentic devices, on-device AI, AI
 
 ### 中文
 
-1. Magic9 / Qwen Intelligence：跨 App 权限、GUI fallback 审计、任务回滚、支付确认、非中文与弱网成功率。
-2. Qwen Book：零售硬件、文件 diff、第三方应用、离线与企业私有部署、手机审批是否可恢复。
-3. QwenNote A2：录音灯、旁人同意、文本级联删除、组织后台权限、多语言和多人噪声。
-4. OASYS Edge：真实客户硬件、端云切换、模型尺寸、离线准确率、晚 2026 部署与 CES 2027 演示。
-5. Engram：原始 Kickstarter 页、样机音频、接口、延迟、版权、退款和发货条件。
+1. OASYS Edge：真实客户硬件、端云切换、模型尺寸、离线准确率、晚 2026 部署与 CES 2027 演示。
+2. Engram：原始 Kickstarter 页、样机音频、接口、延迟、版权、退款和发货条件。
+3. Magic9 / Qwen Intelligence：跨 App 权限、GUI fallback 审计、任务回滚、支付确认、非中文与弱网成功率。
+4. Qwen Book：零售硬件、文件 diff、第三方应用、离线与企业私有部署、手机审批是否可恢复。
+5. QwenNote A2：录音灯、旁人同意、文本级联删除、组织后台权限、多语言和多人噪声。
 6. Muse Charm：最终形态、价格、麦克风/录音灯、手机依赖、续航、12 月发货与无屏 Agent 的取消/忘记路径。
 7. Meta Wearables DAT 1.0：9 月 30 日 rollout、兼容眼镜、iOS/Android parity、权限粒度、发现入口与真实开发者迁移成本。
 8. Awear：合作设备、可迁移记忆、Agent 身份归属、SDK/API、跨品牌 handoff 与首个可购买硬件。
@@ -472,11 +472,11 @@ Scope: HCI, AI hardware, AI software products, agentic devices, on-device AI, AI
 
 ### English
 
-1. Magic9 / Qwen Intelligence: cross-app authority, GUI-fallback audit, rollback, payment approval, non-Chinese and weak-network success.
-2. Qwen Book: retail hardware, file diffs, third-party apps, offline and private deployment, and recoverable phone approval.
-3. QwenNote A2: recording light, bystander consent, cascading text deletion, organisation access, multilingual and noisy-room accuracy.
-4. OASYS Edge: customer hardware, cloud-edge handoff, model size, offline accuracy, late-2026 deployment, and CES 2027 demo.
-5. Engram: original Kickstarter page, prototype audio, I/O, latency, copyright, refunds, and delivery.
+1. OASYS Edge: customer hardware, cloud-edge handoff, model size, offline accuracy, late-2026 deployment, and CES 2027 demo.
+2. Engram: original Kickstarter page, prototype audio, I/O, latency, copyright, refunds, and delivery.
+3. Magic9 / Qwen Intelligence: cross-app authority, GUI-fallback audit, rollback, payment approval, non-Chinese and weak-network success.
+4. Qwen Book: retail hardware, file diffs, third-party apps, offline and private deployment, and recoverable phone approval.
+5. QwenNote A2: recording light, bystander consent, cascading text deletion, organisation access, multilingual and noisy-room accuracy.
 6. Muse Charm: final form, price, microphones and recording light, phone dependency, battery, December shipping, and screen-light cancel/forget flows.
 7. Meta Wearables DAT 1.0: September 30 rollout, compatible glasses, iOS/Android parity, permission granularity, discovery, and real migration cost.
 8. Awear: partner devices, portable memory, agent ownership, SDK/API, cross-brand handoff, and the first shippable hardware.
