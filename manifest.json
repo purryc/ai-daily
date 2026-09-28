@@ -1,5 +1,146 @@
 [
   {
+    "date": "2026-09-28",
+    "zhTitle": "AI Daily · Agent 进入系统层",
+    "enTitle": "AI Daily · Agents move into the system layer",
+    "zhSummary": "本期的新主线从云栖大会延伸到手机和桌面：Qwen Book 把 Agent 写进 OS harness，QwenNote A2 把会议录音变成可执行上下文，Qwen Intelligence 与 HONOR Magic9 把跨 App 执行推向系统入口，PrismML 则把端侧小模型放回眼镜的功耗与隐私约束里。所有新增产品都保留发布、合作、实测和未知之间的边界。",
+    "enSummary": "This issue follows the Apsara Conference signal into the desktop and phone: Qwen Book makes the operating system an agent harness, QwenNote A2 turns meeting capture into executable context, Qwen Intelligence and HONOR Magic9 push cross-app execution toward the system entry point, and PrismML brings compact local models back to the power and privacy limits of glasses. The new dossiers keep announcements, partnerships, demos, and unknowns separate.",
+    "tags": [
+      "AI hardware",
+      "agentic computer",
+      "AI phone",
+      "wearable intelligence",
+      "on-device AI",
+      "HCI"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "wild",
+      "research",
+      "patent",
+      "china",
+      "global"
+    ],
+    "coverStory": {
+      "zhTitle": "Agent 不再只是 App：它开始占据系统、手机与随身设备的执行层",
+      "enTitle": "The agent is no longer just an app—it is taking the execution layer",
+      "zhSummary": [
+        "Qwen Book 把 OS 当作 Agent harness，QwenNote A2 把声音变成工作流，Magic9 把跨 App 任务放进手机系统。",
+        "产品竞争点转向对象定位、权限、批准、撤销和端云路由。",
+        "今天真正要验证的是用户能否看见 Agent 的每一步，并在不可逆动作前接管。"
+      ],
+      "enSummary": [
+        "Qwen Book treats the OS as an agent harness, QwenNote A2 turns sound into workflow, and Magic9 puts cross-app tasks inside the phone system.",
+        "The competitive surface is shifting toward object selection, permission, approval, undo, and device-cloud routing.",
+        "The critical test is whether users can see every step and take over before an irreversible action."
+      ],
+      "imagePath": "assets/alibaba-qwen-book-wearables-a2-official-2026-09-28.png",
+      "imageWidth": 1600,
+      "imageHeight": 900,
+      "imageSourceUrl": "https://www.alibabacloud.com/blog/alibaba-unveils-agentic-computer-ai-wearables-and-more-at-2026-apsara-conference_603599",
+      "primarySourceUrl": "https://www.alibabacloud.com/blog/alibaba-unveils-agentic-computer-ai-wearables-and-more-at-2026-apsara-conference_603599",
+      "evidenceStrength": "Alibaba official product announcement · launch-day HONOR surface · developer and review signals",
+      "whyCover": "The strongest current product movement is not another assistant window; it is the attempt to make an agent the operating layer between intention and action."
+    },
+    "designDesk": {
+      "zhTitle": "设计洞察：把 Agent 变成可监督的执行链",
+      "enTitle": "Design Desk: make the agent an inspectable execution chain",
+      "zhItems": [
+        {
+          "label": "对象先于动作",
+          "body": "Qwen Book 与手机 Agent 都先要找对文件、页面、账户和应用；产品应在执行前显示对象证据，而不是只显示自然语言计划。"
+        },
+        {
+          "label": "建议、草稿、已执行",
+          "body": "QwenNote A2 说明录音摘要很容易直接变成消息、日程和待办；每个动作必须有明确状态，发送前要能逐项批准。"
+        },
+        {
+          "label": "本地与云端要可见",
+          "body": "PrismML 的端侧模型把路由问题推到界面：用户要知道哪些内容留在设备、哪些内容离开设备，以及模型不确定时发生什么。"
+        },
+        {
+          "label": "撤销不是设置页功能",
+          "body": "系统级 Agent 需要在任务链中给出暂停、回退和恢复，而不是完成后让用户去设置里寻找权限。"
+        },
+        {
+          "label": "网络是交互状态",
+          "body": "Magic9/Qwen Intelligence 的长流程如果遇到弱网、登录态或第三方拒绝，界面要把下一步变成可操作选择。"
+        }
+      ],
+      "enItems": [
+        {
+          "label": "Object before action",
+          "body": "Qwen Book and phone agents must select the right file, slide, account, and app; show object evidence before execution instead of only a natural-language plan."
+        },
+        {
+          "label": "Suggested, drafted, executed",
+          "body": "QwenNote A2 shows how a summary can become a message, calendar event, or to-do; every action needs a visible state and item-level approval before sending."
+        },
+        {
+          "label": "Expose local versus cloud",
+          "body": "PrismML turns routing into an interface problem: people need to know what stays on the device, what leaves it, and what happens when the local model is uncertain."
+        },
+        {
+          "label": "Undo belongs in the task",
+          "body": "A system agent needs pause, rollback, and recovery inside the task chain rather than hiding control in a settings page after completion."
+        },
+        {
+          "label": "Network is an interaction state",
+          "body": "When a long Magic9/Qwen flow meets weak connectivity, login state, or third-party refusal, the interface must turn the failure into an actionable choice."
+        }
+      ]
+    },
+    "watchlistZh": [
+      "Qwen Book：零售价、硬件规格、兼容应用、OS harness 权限、对象级 diff、手机批准是否阻断后台执行。",
+      "QwenNote A2：多人会议准确率、旁人同意、音频删除后的文字/摘要保留、4G 套餐、自动发送前审阅。",
+      "Qwen Intelligence × Magic9：MagicOS 版本、实际 Agent 列表、91.8% 准确率条件、支付/验证码、暂停与回滚。",
+      "PrismML Bonsai：公开 SDK、真实 AR1 设备、端侧功耗/延迟、模型路由、云端升级和隐私提示。",
+      "Muse Charm：最终形态、价格、麦克风/录音灯、手机依赖、续航、12 月发货与无屏 Agent 的取消/忘记路径。",
+      "Meta Wearables DAT 1.0：9 月 30 日 rollout、兼容眼镜、iOS/Android parity、权限粒度、发现入口与真实开发者迁移成本。",
+      "Awear：合作设备、可迁移记忆、Agent 身份归属、SDK/API、跨品牌 handoff 与首个可购买硬件。",
+      "Qualcomm × Mastercard：订单状态、付款确认、退款/拒付、商户透明、跨设备接管和真实支付可用性。",
+      "Ray-Ban Meta Audio / Muse：无显示动作确认、记忆删除、安静时段、Private Processing 独立验证与 10 月发货后的真实续航。",
+      "Meta VR Glasses：puck 与线缆、真实视场角、3 小时媒体续航、眼动隐私、处方适配与 2027 年春季上市。",
+      "Snapdragon 8 Elite Gen 6：首批终端、本地 30B MoE 的真实功耗、Sensing Hub 记忆控制、公开运行时与 OEM 权限。",
+      "rabbit OS3：skill 安装信任提示、跨设备文件审计、direct computer control 的确认/回滚、订阅与企业管理。",
+      "Meta Muse：Secure VM 的真实权限粒度、审计可读性、主动建议节奏、Confidential VM 密钥和 AI 眼镜接入。",
+      "VONDER：9 月 28 日价格、麦克风/续航/记忆删除、无显示反馈与 11 月实机评测。",
+      "openJiuwen 与千问平台：Agent 资产版本、RAG 来源、API/计费、权限、企业部署和可观测性。",
+      "Meta Connect / Snapdragon Summit：新硬件、SDK、统一计算层、Agentic PC 真实演示与跨设备 handoff。",
+      "千问 N1/N1 Pro：正式价格、重量、续航、眼动校准、虹膜支付授权、隐私提示、SDK 与 10 月 13 日真实发货。",
+      "Googlebook：Magic Pointer 对第三方 app 的边界、Gemini Spark 合盖任务、Android 17 协同、地区价格与独立续航测试。",
+      "Snapdragon Summit：Agentic PC 的硬件 SKU、统一计算层 SDK、端云路由、开发者下载与可复现 demo。",
+      "Meta Connect：是否发布无相机眼镜、语音/音频替代路径、隐私指示、Wearables API 与真实佩戴证据。"
+    ],
+    "watchlistEn": [
+      "Qwen Book: retail price, hardware, compatible apps, OS-harness authority, object-level diffs, and whether phone approval blocks background work.",
+      "QwenNote A2: multi-speaker accuracy, bystander consent, text/summary retention after audio deletion, 4G plans, and review before automatic sending.",
+      "Qwen Intelligence and Magic9: MagicOS version, actual agent list, conditions behind 91.8%, payment and verification, pause, and rollback.",
+      "PrismML Bonsai: public SDK, real AR1 hardware, local power/latency, routing, cloud escalation, and privacy cues.",
+      "Muse Charm: final form, price, microphones and recording light, phone dependency, battery, December shipping, and screen-light cancel/forget flows.",
+      "Meta Wearables DAT 1.0: September 30 rollout, compatible glasses, iOS/Android parity, permission granularity, discovery, and real migration cost.",
+      "Awear: partner devices, portable memory, agent ownership, SDK/API, cross-brand handoff, and the first shippable hardware.",
+      "Qualcomm and Mastercard: order state, payment approval, refunds and chargebacks, merchant transparency, cross-device takeover, and real availability.",
+      "Ray-Ban Meta Audio / Muse: displayless action confirmation, memory deletion, quiet hours, independent Private Processing verification, and real runtime after October shipping.",
+      "Meta VR Glasses: puck and tether, real field of view, three-hour media runtime, gaze privacy, prescription fit, and spring 2027 launch.",
+      "Snapdragon 8 Elite Gen 6: first devices, real power use for local 30B MoE, Sensing Hub memory controls, public runtimes, and OEM permissions.",
+      "rabbit OS3: skill-install trust prompts, cross-device file audit, direct-computer-control confirmation/rollback, pricing, and enterprise administration.",
+      "Meta Muse: Secure VM permission granularity, audit readability, proactive timing, Confidential VM keys, and AI-glasses access.",
+      "VONDER: September 28 price, microphone/runtime/memory deletion, displayless feedback, and November hands-on review.",
+      "openJiuwen and Qwen platform: agent-asset versions, RAG provenance, API/billing, permissions, enterprise deployment, and observability.",
+      "Meta Connect / Snapdragon Summit: new hardware, SDKs, unified compute, real Agentic PC demos, and cross-device handoff.",
+      "Qwen N1/N1 Pro: formal price, weight, battery, eye-tracking calibration, iris-payment controls, privacy cues, SDK, and October 13 shipping.",
+      "Googlebook: Magic Pointer's third-party-app boundary, Gemini Spark closed-lid tasks, Android 17 pairing, regional price, and independent battery tests.",
+      "Snapdragon Summit: Agentic PC hardware SKUs, unified-compute SDK, local/cloud routing, developer downloads, and a reproducible demo.",
+      "Meta Connect: whether camera-free glasses launch, voice/audio fallback, privacy cues, Wearables API, and real-wear evidence."
+    ],
+    "zhPath": "./2026-09-28/zh/",
+    "enPath": "./2026-09-28/en/",
+    "sourcesPath": "./2026-09-28/sources.md"
+  },
+  {
     "date": "2026-09-25",
     "zhTitle": "个人 Agent 开始寻找自己的身体：口袋、眼镜与支付链",
     "enTitle": "Personal agents are looking for bodies: pockets, glasses, and payment rails",
