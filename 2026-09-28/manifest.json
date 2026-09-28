@@ -1,20 +1,77 @@
 {
   "date": "2026-09-28",
   "timezone": "America/Toronto",
-  "zhTitle": "AI Daily · Agent 进入系统层",
-  "enTitle": "AI Daily · Agents move into the system layer",
-  "zhSummary": "本期的新主线从云栖大会延伸到手机和桌面：Qwen Book 把 Agent 写进 OS harness，QwenNote A2 把会议录音变成可执行上下文，Qwen Intelligence 与 HONOR Magic9 把跨 App 执行推向系统入口，PrismML 则把端侧小模型放回眼镜的功耗与隐私约束里。所有新增产品都保留发布、合作、实测和未知之间的边界。",
-  "enSummary": "This issue follows the Apsara Conference signal into the desktop and phone: Qwen Book makes the operating system an agent harness, QwenNote A2 turns meeting capture into executable context, Qwen Intelligence and HONOR Magic9 push cross-app execution toward the system entry point, and PrismML brings compact local models back to the power and privacy limits of glasses. The new dossiers keep announcements, partnerships, demos, and unknowns separate.",
+  "zhTitle": "Agent 开始进入默认系统：手机、桌面与现实上下文",
+  "enTitle": "Agents enter the default system: phones, desktops, and real-world context",
+  "zhSummary": "荣耀 Magic9 把 Qwen Intelligence 放进手机系统路径，Qwen Book 与 QwenNote A2 把 OS 和线下语音变成 Agent 上下文，SoundHound OASYS Edge 把端侧部署推进到车与智能设备；Engram 作为降级众筹扫描提醒我们，AI 硬件还要用可重复、可撤销的触觉控制证明自己。",
+  "enSummary": "HONOR Magic9 puts Qwen Intelligence on the phone's system path, Qwen Book and QwenNote A2 connect agents to desktop and offline context, and SoundHound OASYS Edge pushes deployment toward cars and smart devices. Engram remains a downgraded crowdfunding scan: AI hardware still has to prove repeatable, reversible, tactile control.",
   "tags": [
+    "agentic phones",
+    "Qwen Intelligence",
+    "MagicOS 11",
+    "Qwen Book",
+    "QwenNote A2",
+    "OASYS Edge",
+    "edge AI",
+    "crowdfunding",
+    "HCI",
+    "personal AI agents",
     "AI hardware",
-    "agentic computer",
-    "AI phone",
-    "wearable intelligence",
+    "smart glasses",
+    "agentic commerce",
+    "developer surface",
+    "Meta Connect",
+    "Ray-Ban Meta Audio",
+    "Muse",
+    "Private Processing",
+    "Meta VR Glasses",
+    "spatial computing",
+    "Snapdragon 8 Elite Gen 6",
     "on-device AI",
-    "HCI"
+    "Sensing Hub",
+    "agentic wearables",
+    "rabbit OS3",
+    "direct computer control",
+    "universal skills",
+    "Meta Muse",
+    "Secure VM",
+    "Sentinel",
+    "VONDER",
+    "privacy-first eyewear",
+    "Personal Memory Graph",
+    "openJiuwen",
+    "WorkSwarm",
+    "Agent Studio",
+    "Qwen platform",
+    "Agentic PC",
+    "Qwen N1",
+    "Qwen N1 Pro",
+    "eye tracking",
+    "iris payment",
+    "Googlebook",
+    "Gemini Intelligence",
+    "Magic Pointer",
+    "Android 17",
+    "Snapdragon Summit",
+    "camera-free glasses",
+    "privacy",
+    "Horizon Ultra",
+    "Snapdragon X2 Elite",
+    "enterprise PC",
+    "Trip.Biz Agent ONE",
+    "business travel",
+    "Rokid",
+    "AI glasses",
+    "first-person intelligence",
+    "Agentic Cloud",
+    "Huawei Cloud",
+    "AI Hardware Zone",
+    "Snap SPECS",
+    "Agents API"
   ],
   "sourceTypes": [
     "official",
+    "developer docs",
     "reviews",
     "community",
     "wild",
@@ -24,79 +81,91 @@
     "global"
   ],
   "coverStory": {
-    "zhTitle": "Agent 不再只是 App：它开始占据系统、手机与随身设备的执行层",
-    "enTitle": "The agent is no longer just an app—it is taking the execution layer",
+    "topicId": "honor-magic9-qwen-intelligence-agentic-phone-2026-09-28",
+    "zhTitle": "Agent 不再只是 App：它开始接管手机的默认路径",
+    "enTitle": "The agent is no longer just an app: it is entering the phone's default path",
     "zhSummary": [
-      "Qwen Book 把 OS 当作 Agent harness，QwenNote A2 把声音变成工作流，Magic9 把跨 App 任务放进手机系统。",
-      "产品竞争点转向对象定位、权限、批准、撤销和端云路由。",
-      "今天真正要验证的是用户能否看见 Agent 的每一步，并在不可逆动作前接管。"
+      "Magic9 把 Qwen Intelligence 放到系统级任务执行的位置，Qwen Book 与 QwenNote A2 把文件和线下语音接入同一条 Agent 链。",
+      "今天的产品变化不在于多一个聊天框，而在于 Agent 开始读写手机、桌面和现实对话。",
+      "验收重点转向对象可见、动作可撤销、数据可删除，以及断网和失败时谁仍然掌控任务。"
     ],
     "enSummary": [
-      "Qwen Book treats the OS as an agent harness, QwenNote A2 turns sound into workflow, and Magic9 puts cross-app tasks inside the phone system.",
-      "The competitive surface is shifting toward object selection, permission, approval, undo, and device-cloud routing.",
-      "The critical test is whether users can see every step and take over before an irreversible action."
+      "Magic9 places Qwen Intelligence on a system-level task path, while Qwen Book and QwenNote A2 connect files and offline speech to the same agent chain.",
+      "The product shift is not another chat box; agents are beginning to read and write across phones, desktops, and real conversations.",
+      "The acceptance test moves to visible objects, reversible actions, deletable data, and control during offline or failed execution."
     ],
-    "imagePath": "assets/alibaba-qwen-book-wearables-a2-official-2026-09-28.png",
+    "imagePath": "assets/honor-magic9-official-launch-2026-09-28.png",
     "imageWidth": 1600,
     "imageHeight": 900,
-    "imageSourceUrl": "https://www.alibabacloud.com/blog/alibaba-unveils-agentic-computer-ai-wearables-and-more-at-2026-apsara-conference_603599",
-    "primarySourceUrl": "https://www.alibabacloud.com/blog/alibaba-unveils-agentic-computer-ai-wearables-and-more-at-2026-apsara-conference_603599",
-    "evidenceStrength": "Alibaba official product announcement · launch-day HONOR surface · developer and review signals",
-    "whyCover": "The strongest current product movement is not another assistant window; it is the attempt to make an agent the operating layer between intention and action."
+    "imageSourceUrl": "https://www.honor.com/global/news/honor-magic9-launch/",
+    "primarySourceUrl": "https://www.honor.com/global/news/honor-magic9-launch/",
+    "evidenceStrength": "HONOR official launch · Qwen Intelligence product integration",
+    "whyCover": "The strongest new product signal moves an agent from a separate app into the phone's default operating path, where permissions and recovery become product requirements."
   },
   "designDesk": {
-    "zhTitle": "设计洞察：把 Agent 变成可监督的执行链",
-    "enTitle": "Design Desk: make the agent an inspectable execution chain",
+    "zhTitle": "Design Desk：无屏与端侧 Agent 必须把状态还给用户",
+    "enTitle": "Design Desk: displayless and on-device agents must return state to the user",
+    "zhIntro": "今天的产品把 Agent 放进眼镜、耳机、手机芯片、空间窗口和云端保密执行环境。交互验收要看设备是否知道自己在听什么、记住什么、把任务交给哪里，以及用户能否暂停、删除和接管。",
+    "enIntro": "Today's products put agents in glasses, earbuds, phone silicon, spatial windows, and confidential cloud runtimes. Acceptance must inspect what the device hears, remembers, and hands off, plus whether the user can pause, delete, and take over.",
     "zhItems": [
       {
-        "label": "对象先于动作",
-        "body": "Qwen Book 与手机 Agent 都先要找对文件、页面、账户和应用；产品应在执行前显示对象证据，而不是只显示自然语言计划。"
+        "label": "先标设备",
+        "body": "跨设备任务要明确显示当前执行节点、文件去向和下一步会改变什么。"
       },
       {
-        "label": "建议、草稿、已执行",
-        "body": "QwenNote A2 说明录音摘要很容易直接变成消息、日程和待办；每个动作必须有明确状态，发送前要能逐项批准。"
+        "label": "凭据不等于权限",
+        "body": "Agent 能使用密码不代表能自由发送、购买或修改；服务级授权必须可读。"
       },
       {
-        "label": "本地与云端要可见",
-        "body": "PrismML 的端侧模型把路由问题推到界面：用户要知道哪些内容留在设备、哪些内容离开设备，以及模型不确定时发生什么。"
+        "label": "记忆要能撤回",
+        "body": "Personal Memory Graph、persistent context 和主动建议都要有查看、忘记与静默入口。"
       },
       {
-        "label": "撤销不是设置页功能",
-        "body": "系统级 Agent 需要在任务链中给出暂停、回退和恢复，而不是完成后让用户去设置里寻找权限。"
+        "label": "技能要有版本",
+        "body": "可安装 skill 和开源 Agent 资产要显示来源、版本、依赖、权限和回滚。"
       },
       {
-        "label": "网络是交互状态",
-        "body": "Magic9/Qwen Intelligence 的长流程如果遇到弱网、登录态或第三方拒绝，界面要把下一步变成可操作选择。"
+        "label": "无屏设备更要反馈",
+        "body": "没有显示的眼镜必须用音频、手机和实体操作补足监听、执行和取消状态。"
+      },
+      {
+        "label": "议程仍然是 scan",
+        "body": "发布会主题、媒体预告、论文与专利都不能替代硬件页、SDK 和实机证据。"
       }
     ],
     "enItems": [
       {
-        "label": "Object before action",
-        "body": "Qwen Book and phone agents must select the right file, slide, account, and app; show object evidence before execution instead of only a natural-language plan."
+        "label": "Label the device first",
+        "body": "Cross-device work must show the active node, file destination, and the next state change."
       },
       {
-        "label": "Suggested, drafted, executed",
-        "body": "QwenNote A2 shows how a summary can become a message, calendar event, or to-do; every action needs a visible state and item-level approval before sending."
+        "label": "Credentials are not permission",
+        "body": "Using a password does not mean sending, buying, or editing freely; service-level access must be legible."
       },
       {
-        "label": "Expose local versus cloud",
-        "body": "PrismML turns routing into an interface problem: people need to know what stays on the device, what leaves it, and what happens when the local model is uncertain."
+        "label": "Make memory reversible",
+        "body": "Personal Memory Graph, persistent context, and proactive suggestions need inspect, forget, and quiet controls."
       },
       {
-        "label": "Undo belongs in the task",
-        "body": "A system agent needs pause, rollback, and recovery inside the task chain rather than hiding control in a settings page after completion."
+        "label": "Give skills a version",
+        "body": "Installable skills and open agent assets need source, version, dependency, permission, and rollback."
       },
       {
-        "label": "Network is an interaction state",
-        "body": "When a long Magic9/Qwen flow meets weak connectivity, login state, or third-party refusal, the interface must turn the failure into an actionable choice."
+        "label": "No display means more feedback",
+        "body": "Displayless glasses need audio, phone, and physical controls to expose listening, execution, and cancel state."
+      },
+      {
+        "label": "An agenda is still a scan",
+        "body": "Event themes, previews, papers, and patents cannot replace hardware pages, SDKs, and device evidence."
       }
     ]
   },
   "watchlistZh": [
-    "Qwen Book：零售价、硬件规格、兼容应用、OS harness 权限、对象级 diff、手机批准是否阻断后台执行。",
-    "QwenNote A2：多人会议准确率、旁人同意、音频删除后的文字/摘要保留、4G 套餐、自动发送前审阅。",
-    "Qwen Intelligence × Magic9：MagicOS 版本、实际 Agent 列表、91.8% 准确率条件、支付/验证码、暂停与回滚。",
-    "PrismML Bonsai：公开 SDK、真实 AR1 设备、端侧功耗/延迟、模型路由、云端升级和隐私提示。",
+    "Magic9 / Qwen Intelligence：跨 App 权限、GUI fallback 审计、任务回滚、支付确认、非中文与弱网成功率。",
+    "Qwen Book：零售硬件、文件 diff、第三方应用、离线与企业私有部署、手机审批是否可恢复。",
+    "QwenNote A2：录音灯、旁人同意、文本级联删除、组织后台权限、多语言和多人噪声。",
+    "OASYS Edge：真实客户硬件、端云切换、模型尺寸、离线准确率、晚 2026 部署与 CES 2027 演示。",
+    "Engram：原始 Kickstarter 页、样机音频、接口、延迟、版权、退款和发货条件。",
     "Muse Charm：最终形态、价格、麦克风/录音灯、手机依赖、续航、12 月发货与无屏 Agent 的取消/忘记路径。",
     "Meta Wearables DAT 1.0：9 月 30 日 rollout、兼容眼镜、iOS/Android parity、权限粒度、发现入口与真实开发者迁移成本。",
     "Awear：合作设备、可迁移记忆、Agent 身份归属、SDK/API、跨品牌 handoff 与首个可购买硬件。",
@@ -111,14 +180,14 @@
     "Meta Connect / Snapdragon Summit：新硬件、SDK、统一计算层、Agentic PC 真实演示与跨设备 handoff。",
     "千问 N1/N1 Pro：正式价格、重量、续航、眼动校准、虹膜支付授权、隐私提示、SDK 与 10 月 13 日真实发货。",
     "Googlebook：Magic Pointer 对第三方 app 的边界、Gemini Spark 合盖任务、Android 17 协同、地区价格与独立续航测试。",
-    "Snapdragon Summit：Agentic PC 的硬件 SKU、统一计算层 SDK、端云路由、开发者下载与可复现 demo。",
-    "Meta Connect：是否发布无相机眼镜、语音/音频替代路径、隐私指示、Wearables API 与真实佩戴证据。"
+    "Snapdragon Summit：Agentic PC 的硬件 SKU、统一计算层 SDK、端云路由、开发者下载与可复现 demo。"
   ],
   "watchlistEn": [
-    "Qwen Book: retail price, hardware, compatible apps, OS-harness authority, object-level diffs, and whether phone approval blocks background work.",
-    "QwenNote A2: multi-speaker accuracy, bystander consent, text/summary retention after audio deletion, 4G plans, and review before automatic sending.",
-    "Qwen Intelligence and Magic9: MagicOS version, actual agent list, conditions behind 91.8%, payment and verification, pause, and rollback.",
-    "PrismML Bonsai: public SDK, real AR1 hardware, local power/latency, routing, cloud escalation, and privacy cues.",
+    "Magic9 / Qwen Intelligence: cross-app authority, GUI-fallback audit, rollback, payment approval, non-Chinese and weak-network success.",
+    "Qwen Book: retail hardware, file diffs, third-party apps, offline and private deployment, and recoverable phone approval.",
+    "QwenNote A2: recording light, bystander consent, cascading text deletion, organisation access, multilingual and noisy-room accuracy.",
+    "OASYS Edge: customer hardware, cloud-edge handoff, model size, offline accuracy, late-2026 deployment, and CES 2027 demo.",
+    "Engram: original Kickstarter page, prototype audio, I/O, latency, copyright, refunds, and delivery.",
     "Muse Charm: final form, price, microphones and recording light, phone dependency, battery, December shipping, and screen-light cancel/forget flows.",
     "Meta Wearables DAT 1.0: September 30 rollout, compatible glasses, iOS/Android parity, permission granularity, discovery, and real migration cost.",
     "Awear: partner devices, portable memory, agent ownership, SDK/API, cross-brand handoff, and the first shippable hardware.",
@@ -133,342 +202,271 @@
     "Meta Connect / Snapdragon Summit: new hardware, SDKs, unified compute, real Agentic PC demos, and cross-device handoff.",
     "Qwen N1/N1 Pro: formal price, weight, battery, eye-tracking calibration, iris-payment controls, privacy cues, SDK, and October 13 shipping.",
     "Googlebook: Magic Pointer's third-party-app boundary, Gemini Spark closed-lid tasks, Android 17 pairing, regional price, and independent battery tests.",
-    "Snapdragon Summit: Agentic PC hardware SKUs, unified-compute SDK, local/cloud routing, developer downloads, and a reproducible demo.",
-    "Meta Connect: whether camera-free glasses launch, voice/audio fallback, privacy cues, Wearables API, and real-wear evidence."
+    "Snapdragon Summit: Agentic PC hardware SKUs, unified-compute SDK, local/cloud routing, developer downloads, and a reproducible demo."
   ],
   "topics": [
     {
-      "id": "alibaba-qwen-book-agentic-computer-2026-09-28",
+      "id": "honor-magic9-qwen-intelligence-agentic-phone-2026-09-28",
       "section": "china",
-      "zhHeadline": "Qwen Book：把 Agent 写进电脑的系统栈",
-      "enHeadline": "Qwen Book treats the operating system as an agent harness",
-      "visual": {
-        "path": "assets/alibaba-qwen-book-wearables-a2-official-2026-09-28.png",
-        "width": 1600,
-        "height": 900,
-        "kind": "source-backed official page screenshot",
-        "altZh": "Alibaba Cloud Community 对 Qwen Book、Qwen 眼镜与 QwenNote A2 的官方产品说明截图",
-        "altEn": "Alibaba Cloud Community official product page for Qwen Book, Qwen glasses, and QwenNote A2",
-        "captionZh": "官方视觉：Alibaba 将 Qwen Book、Qwen 眼镜、Qwen Clip 与 QwenNote A2 放进同一套 Agent 终端组合；具体硬件以各产品页为准。",
-        "captionEn": "Official visual: Alibaba presents Qwen Book, Qwen glasses, Qwen Clip, and QwenNote A2 as one agent-terminal lineup; each product still needs its own hardware evidence.",
-        "sourceUrl": "https://www.alibabacloud.com/blog/alibaba-unveils-agentic-computer-ai-wearables-and-more-at-2026-apsara-conference_603599"
-      },
-      "sources": [
-        {
-          "label": "Alibaba Cloud Community: Qwen Book and AI wearables",
-          "url": "https://www.alibabacloud.com/blog/alibaba-unveils-agentic-computer-ai-wearables-and-more-at-2026-apsara-conference_603599",
-          "type": "china"
-        },
-        {
-          "label": "Alibaba Cloud Apsara Conference exhibition",
-          "url": "https://www.alibabacloud.com/en/apsara-conference/2026-exhibition?_p_lc=1",
-          "type": "official"
-        },
-        {
-          "label": "Alibaba full-stack AI roadmap",
-          "url": "https://www.alibabacloud.com/en/press-room/alibaba-unveils-roadmap-on-full-stack-ai-strategy",
-          "type": "official"
-        }
-      ],
-      "evidenceLabel": "confirmed product",
-      "evidenceStrength": "Alibaba Cloud Community product announcement; preorder and sale dates are company-reported",
-      "dossierKind": "product",
-      "dossier": {
-        "zh": {
-          "productName": "Qwen Book",
-          "productType": "Qwen Book 是 Alibaba 在 2026 Apsara Conference 展示的 AI-native agentic computer。官方将它描述为由 Qwen 模型、Qwen Desktop OS、原生应用和云服务组成的一体化系统，并用“OS as Harness”解释其定位：接口、上下文、运行时以及对软件和硬件的控制都为 Agent 执行任务准备。它是具体产品发布，不等于已公开完整零售规格。",
-          "interactionFlow": "官方示例是用户在编辑演示文稿时，通过兼作麦克风的手写笔发出语音要求；Qwen Book 自动从云端检索文件，找到准确页面，调用适当工具修改内容，随后用户可以在手机上查看并批准。这个流程把“找文件—找页面—执行—移动端复核”串成一个跨设备任务。公开页面没有完整展示唤醒、权限提示、动作计划、撤销、离线、失败恢复、多人协作和手机批准是否阻断后台执行，因此这些部分保持未知。",
-          "specsOrStack": "已披露的系统栈包括 Qwen 模型、Qwen Desktop OS、应用、云服务、手写笔麦克风、桌面工具调用和手机批准入口。官方没有在该产品说明中给出芯片、内存、存储、屏幕尺寸、分辨率、重量、续航、网络制式、端侧模型、价格、地区、开放 API 或 SDK；这些细节写作 source not stated。Qwen Book 的“OS as Harness”是架构表述，不应被推断为所有推理都在本地完成。",
-          "useCases": "明确示例是从云端找到演示文稿并编辑准确页面。按照这一产品路径，办公用户还可能用它定位表格、调用应用工具、整理云端资料、生成文档草稿，再从手机批准高风险变化；但这些扩展不是该页面逐一确认的功能。对用户最有价值的不是聊天，而是让 Agent 认识文件、应用和当前工作状态，减少跨窗口寻找对象的时间。",
-          "painPointsSolved": "Qwen Book 针对桌面工作的对象定位和跨应用切换摩擦：用户不必先打开云盘、搜索文件、翻到页面、启动编辑工具，再手工传递上下文。它也把移动端批准拉进桌面执行链，试图让用户在离开电脑后继续监管任务。代价是系统权限更大、错误对象的破坏性更高，且没有视觉差异时用户可能只凭一句完成提示接受了错误修改。",
-          "userVoice": "当前证据来自 Alibaba 官方产品发布与会议材料，包含一个产品演示路径，但没有独立评测、量产机体验、开发者迁移报告或真实任务成功率。不能把发布会演示当成长期桌面可用性证明，也不能从“agentic computer”判断所有应用都已接入。",
-          "newTech": "新技术信号在系统整合：模型、桌面 OS、应用运行时、云文件和跨设备批准被设计成一个 Agent harness。它把上下文检索和工具执行放到操作系统层，潜在地比单一聊天窗口更适合长任务；真正难点是权限的可见性、应用沙箱、差异审计和失败后的恢复，而不是把模型名称写入系统设置。",
-          "availability": "Alibaba 在 9 月 25 日的官方页面宣布 Qwen Book，但页面没有给出公开购买链接、最终售价、正式发货日期或支持地区。Qwen Book 因而是 confirmed product / announced product，而不是已经验证可购买、可下载或可供第三方开发的成熟平台。",
-          "limitsOrUnknowns": "未知包括具体硬件配置、桌面 OS 版本、兼容应用、模型是否本地运行、云端数据保留、账号与企业权限、手机批准的安全语义、撤销窗口、编辑差异、弱网降级、离线能力、第三方 API、价格和上市区域。没有这些边界，不能把它描述成“全自动办公电脑”。",
-          "productVerdict": "Qwen Book 是一条清晰的 agentic computer 产品路径：用 OS 统一上下文、工具和控制，把 Agent 从窗口内助手推向系统执行层。判断为 confirmed product / pre-retail；价值取决于对象级审计、权限和撤销是否真实可用，而不是演示能否完成一次幻灯片编辑。"
-        },
-        "en": {
-          "productName": "Qwen Book",
-          "productType": "Qwen Book is an AI-native agentic computer introduced by Alibaba at the 2026 Apsara Conference. The company describes a unified stack of Qwen models, Qwen Desktop OS, native applications, and cloud services, using the phrase “OS as Harness” to describe a system in which interface, context, runtime, and control over software and hardware are prepared for agent execution. It is a concrete product announcement, not a complete retail specification.",
-          "interactionFlow": "Alibaba's public example has a person editing a presentation and speaking through a stylus that also serves as a microphone. Qwen Book retrieves the file from the cloud, finds the exact slide, invokes the appropriate editing tools, and lets the person inspect and approve the change on a phone. The flow connects file search, object selection, execution, and off-computer review. The page does not fully show wake behaviour, permission prompts, action plans, undo, offline operation, failure recovery, collaboration, or whether phone approval blocks background work; those remain unknown.",
-          "specsOrStack": "The disclosed stack includes Qwen models, Qwen Desktop OS, applications, cloud services, a microphone-enabled stylus, desktop tool invocation, and phone approval. The product description does not state the chipset, memory, storage, display size or resolution, weight, battery, radio, on-device model, price, regions, public API, or SDK. Those details are source not stated. “OS as Harness” is an architectural description and does not prove that inference runs locally.",
-          "useCases": "The confirmed example is retrieving a presentation from the cloud and editing the correct slide. In the same product direction, office users might locate spreadsheets, call application tools, organise cloud material, draft documents, and approve higher-risk changes from a phone; the page does not confirm each extension. The useful unit is not chat. It is an agent that understands files, applications, and work state well enough to remove the repeated search and context-transfer steps between windows.",
-          "painPointsSolved": "Qwen Book targets object-selection and application-switching friction in desktop work. A user should not have to open a drive, search for a file, navigate to a slide, launch an editor, and manually carry the context into another assistant. Phone approval also brings remote supervision into the desktop execution loop. The trade is larger system authority: a wrong object can be changed at higher speed, and without a visible diff a person may accept a wrong edit because the interface only says that the task is complete.",
-          "userVoice": "The evidence is an Alibaba product announcement and conference scenario, not an independent hands-on review, developer migration report, or measured real-task success rate. A keynote flow is not proof of daily desktop usability, and the term agentic computer does not mean that every application is already integrated.",
-          "newTech": "The technology signal is system integration. Model, desktop OS, application runtime, cloud files, and cross-device approval are designed as one agent harness. That moves context retrieval and tool execution toward the operating-system layer and could make long tasks more coherent than a single chat window. The hard engineering and HCI work is permission legibility, application sandboxing, change audit, and recovery after failure, not simply placing a model name in system settings.",
-          "availability": "Alibaba announced Qwen Book on September 25, but the product page does not provide a public purchase link, final price, committed shipping date, or supported regions. Qwen Book is therefore a confirmed announced product rather than a verified, generally purchasable computer or an open developer platform.",
-          "limitsOrUnknowns": "Open questions include hardware configuration, desktop OS version, compatible applications, local versus cloud inference, cloud retention, account and enterprise permissions, the security meaning of phone approval, the undo window, edit diffs, weak-network fallback, offline operation, third-party APIs, price, and launch regions. Without these boundaries it should not be described as a fully autonomous office computer.",
-          "productVerdict": "Qwen Book is a clear agentic-computer path: the operating system becomes the place where context, tools, and control are unified. Verdict: confirmed product, pre-retail; its value depends on object-level audit, permission, and undo being real user controls rather than a successful presentation demo."
-        }
-      }
-    },
-    {
-      "id": "alibaba-qwennote-a2-agentic-note-device-2026-09-28",
-      "section": "china",
-      "zhHeadline": "QwenNote A2：把会议录音直接变成 Agent 的工作上下文",
-      "enHeadline": "QwenNote A2 turns captured conversation into agent context",
-      "visual": {
-        "path": "assets/alibaba-qwen-book-wearables-a2-official-2026-09-28.png",
-        "width": 1600,
-        "height": 900,
-        "kind": "source-backed official page screenshot",
-        "altZh": "Alibaba Cloud Community 对 Qwen Book、Qwen 眼镜与 QwenNote A2 的官方产品说明截图",
-        "altEn": "Alibaba Cloud Community official product page for Qwen Book, Qwen glasses, and QwenNote A2",
-        "captionZh": "官方视觉：Alibaba 将 Qwen Book、Qwen 眼镜、Qwen Clip 与 QwenNote A2 放进同一套 Agent 终端组合；具体硬件以各产品页为准。",
-        "captionEn": "Official visual: Alibaba presents Qwen Book, Qwen glasses, Qwen Clip, and QwenNote A2 as one agent-terminal lineup; each product still needs its own hardware evidence.",
-        "sourceUrl": "https://www.alibabacloud.com/blog/alibaba-unveils-agentic-computer-ai-wearables-and-more-at-2026-apsara-conference_603599"
-      },
-      "sources": [
-        {
-          "label": "Alibaba Cloud Community: QwenNote A2",
-          "url": "https://www.alibabacloud.com/blog/alibaba-unveils-agentic-computer-ai-wearables-and-more-at-2026-apsara-conference_603599",
-          "type": "china"
-        },
-        {
-          "label": "Alibaba QwenWork platform",
-          "url": "https://www.alibabacloud.com/en/product/qwenwork",
-          "type": "official"
-        },
-        {
-          "label": "DingTalk official site",
-          "url": "https://www.dingtalk.com/",
-          "type": "official"
-        }
-      ],
-      "evidenceLabel": "confirmed product",
-      "evidenceStrength": "Alibaba Cloud Community product announcement with price, weight, microphone, network, and battery claims",
-      "dossierKind": "product",
-      "dossier": {
-        "zh": {
-          "productName": "QwenNote A2",
-          "productType": "QwenNote A2 是 Alibaba 发布的便携 AI 记录设备，定位为 DingTalk A1 的升级版本。它把线下对话转成文字与摘要，再把上下文交给 QwenWork 和 DingTalk，让记录继续变成消息、后续会议、待办或 AI 表格。与只提供录音回放的设备相比，它把“捕捉—理解—执行”放在一个工作流里；但它仍是企业场景产品，不能默认适合所有私人或公共对话。",
-          "interactionFlow": "用户携带设备，在会议或现场对话中开始录音；设备可以进行实时对话，用户打断、追问或调整指令；录音被转写后交给 QwenWork 理解，用户再让 DingTalk 发消息、安排后续会议、创建待办或生成表格。官方还称传输加密、音频在转写后删除、文字和摘要保留。页面没有完整说明开始/停止、旁人提示、逐句纠错、自动发送前批准、多人说话人识别和删除摘要的细节，这些流程仍需实机验证。",
-          "specsOrStack": "官方披露 67 克、六个麦克风、最远 8 米拾音、内置 4G、最长 40 小时连续转写、18 天待机和 1,199 元售价；设备使用 Qwen-Audio，并与 QwenWork、DingTalk 协同。页面没有说明芯片、存储、屏幕、扬声器、充电接口、地区、订阅、准确率、实际网络成本或完整 API。加密传输和转写后删除是公司描述，不能等同于完整隐私审计。",
-          "useCases": "确定的用途包括会议录音、实时追问、转写、从内容生成行动项、发送工作消息、安排后续会议、创建待办和生成 AI 表格。它适合需要移动记录、双手空闲或不想反复回放长音频的办公流程。若参与者来自不同组织，录音同意、数据归属、企业保留政策和跨境传输会成为使用前置条件；这些不是设备规格能自动解决的问题。",
-          "painPointsSolved": "QwenNote A2 解决会议后整理的重复劳动：用户不必从音频中手工找出谁做什么、什么时候完成，再复制到协作工具。把录音与 QwenWork/DingTalk 串起来，也让记录进入原本的工作系统。它新增的痛点是错误转写会扩散为错误消息、错误日程和错误责任分配；音频虽被删除，文字和摘要仍可能包含敏感信息。",
-          "userVoice": "当前可核查证据主要是 Alibaba 官方产品说明，不是长时间第三方评测。页面给出重量、麦克风、拾音、续航和价格等公司披露，但没有独立验证拾音距离、中文多人会议准确率、4G 覆盖、真实续航或误触发频率。",
-          "newTech": "新技术不只是录音，而是把 Qwen-Audio 的语音输入连接到企业 Agent 和协作系统，使摘要成为可执行上下文。产品还公开了实时可打断、追问和调整指令的交互方向，以及设备级 4G 连接。真正的技术挑战在于把声学不确定性传递到任务执行层，并在每个自动动作前后保留人的审阅与撤销权。",
-          "availability": "Alibaba 页面称 QwenNote A2 已于 9 月 22 日在 QwenWork 天猫旗舰店开售，售价为人民币 1,199 元。销售渠道、地区和企业服务条件以官方实际页面为准；公开材料没有给出完整国际版、API 或开发者计划。",
-          "limitsOrUnknowns": "重点未知包括录音提示与旁人同意、会议中的说话人分离、方言和噪声准确率、音频删除后的缓存、文字与摘要保存期限、企业管理员权限、自动发消息的批准、4G 套餐、离线降级、跨境数据和退款/售后。不能把“音频删除”简化成数据完全消失。",
-          "productVerdict": "QwenNote A2 是一个已公开价格和规格的 confirmed product：它把记录设备推进到“让 Agent 继续执行”的层级。判断为中国企业工作流中的具体产品，价值取决于动作前审阅、同意机制和可撤销性；录音转任务的自动化越强，越需要逐项责任边界。"
-        },
-        "en": {
-          "productName": "QwenNote A2",
-          "productType": "QwenNote A2 is Alibaba's portable AI note-taking device and an upgrade to the DingTalk A1. It turns offline conversation into text and summaries, then gives that context to QwenWork and DingTalk so it can become messages, follow-up meetings, to-dos, or AI spreadsheets. Compared with a recorder that only offers playback, it connects capture, understanding, and execution in one workflow. It is still an enterprise-oriented product and should not be assumed appropriate for every private or public conversation.",
-          "interactionFlow": "A person carries the device and starts recording in a meeting or conversation. The device supports real-time interaction in which the user can interrupt, ask a follow-up question, or adjust an instruction. After transcription, QwenWork interprets the material and the user can ask DingTalk to send a message, schedule a follow-up, create a to-do, or generate a spreadsheet. Alibaba also says transmission is encrypted, audio is deleted after transcription, and text and summaries remain. The page does not fully document start and stop state, bystander notice, sentence-level correction, approval before sending, speaker separation, or deletion of summaries; those require hands-on validation.",
-          "specsOrStack": "Alibaba states 67 grams, six microphones, pickup up to eight metres, built-in 4G, up to 40 hours of continuous transcription, 18 days of standby, and a RMB 1,199 price. The stack includes Qwen-Audio, QwenWork, and DingTalk. The page does not state the chipset, storage, display, speaker, charging interface, regions, subscription, accuracy, network cost, or complete API. Encrypted transmission and deletion after transcription are company statements, not a complete privacy audit.",
-          "useCases": "Confirmed uses include meeting capture, real-time follow-up, transcription, extracting action items, sending work messages, scheduling follow-up meetings, creating to-dos, and generating AI spreadsheets. It is aimed at mobile note-taking, hands-free capture, and workflows where replaying a long recording is costly. When participants come from different organisations, consent, data ownership, retention policy, and cross-border transfer become preconditions; a hardware specification cannot solve them automatically.",
-          "painPointsSolved": "QwenNote A2 targets the repetitive work after a meeting: manually finding who owns what and by when, then copying those items into collaboration tools. Connecting the recorder to QwenWork and DingTalk puts the result inside the existing work system. The new risk is propagation: a transcription error can become a wrong message, calendar event, or assignment. Even if audio is deleted, text and summaries may still contain sensitive material.",
-          "userVoice": "The verifiable evidence is primarily Alibaba's product announcement rather than a long-term independent review. The page provides company-stated weight, microphones, pickup, endurance, and price, but there is no independent test of distance, Chinese multi-speaker accuracy, 4G coverage, real battery life, or false triggers.",
-          "newTech": "The technology is not recording alone. It connects Qwen-Audio input to an enterprise agent and collaboration system so that a summary becomes executable context. Alibaba also describes interruptible, follow-up conversation and adjustable instructions, along with device-level 4G. The difficult product problem is passing acoustic uncertainty into task execution while preserving human review and undo around every automated action.",
-          "availability": "Alibaba says QwenNote A2 went on sale on September 22 through the QwenWork flagship store on Tmall at RMB 1,199. Channel, region, and enterprise-service conditions should be checked against the live listing; the public material does not provide a complete international version, API, or developer plan.",
-          "limitsOrUnknowns": "Open questions include recording indicators and bystander consent, speaker separation, dialect and noise accuracy, cached audio after deletion, text and summary retention, administrator access, approval before automatic messages, 4G plans, offline fallback, cross-border data, and support or refunds. “Audio is deleted” should not be simplified into “all data disappears.”",
-          "productVerdict": "QwenNote A2 is a confirmed product with a public price and disclosed headline specifications. Verdict: a concrete Chinese enterprise workflow product that moves a recorder into agent execution; its value depends on pre-action review, consent, and reversibility, because the stronger the capture-to-task automation, the more explicit the responsibility boundary must be."
-        }
-      }
-    },
-    {
-      "id": "qwen-intelligence-honor-magic9-agentic-phone-2026-09-28",
-      "section": "china",
-      "zhHeadline": "Qwen Intelligence × HONOR Magic9：手机开始承担跨 App 执行",
-      "enHeadline": "Qwen Intelligence makes the phone an agentic execution surface",
-      "visual": {
-        "path": "assets/alibaba-qwen-intelligence-honor-official-2026-09-28.png",
-        "width": 1600,
-        "height": 900,
-        "kind": "source-backed official developer screenshot",
-        "altZh": "Alibaba Qwen Intelligence 面向 agentic smartphone 的官方说明截图",
-        "altEn": "Alibaba's official Qwen Intelligence page for agentic smartphones",
-        "captionZh": "开发者视觉：Qwen Intelligence 被描述为覆盖模型、harness、Agent 与手机系统协作的全栈方案，HONOR 是首个合作方。",
-        "captionEn": "Developer visual: Qwen Intelligence is described as a full-stack solution spanning models, harness, agents, and phone-system cooperation; HONOR is the first partner.",
-        "sourceUrl": "https://www.alibabacloud.com/blog/alibaba-launches-qwen-intelligence-to-power-next-generation-agentic-smartphones_603597"
-      },
-      "sources": [
-        {
-          "label": "Alibaba Qwen Intelligence announcement",
-          "url": "https://www.alibabacloud.com/blog/alibaba-launches-qwen-intelligence-to-power-next-generation-agentic-smartphones_603597",
-          "type": "china"
-        },
-        {
-          "label": "HONOR Magic9 official launch",
-          "url": "https://www.honor.com/cn/activity/honor-magic9-series-launch/",
-          "type": "official"
-        },
-        {
-          "label": "HONOR Magic9 launch notice",
-          "url": "https://www.honor.com/cn/m/notice-18131",
-          "type": "china"
-        },
-        {
-          "label": "Xinhua: Qwen Intelligence and HONOR",
-          "url": "https://www.xinhuanet.com/tech/20260923/67b397da73824713a2ad6ded76769ec1/c.html",
-          "type": "china"
-        }
-      ],
-      "evidenceLabel": "developer surface",
-      "evidenceStrength": "Alibaba Qwen Intelligence announcement plus HONOR launch-day surface; company benchmark claims remain unverified",
-      "dossierKind": "product",
-      "dossier": {
-        "zh": {
-          "productName": "Qwen Intelligence × HONOR Magic9",
-          "productType": "Qwen Intelligence 是 Alibaba 面向手机厂商的全栈 agentic smartphone 方案，覆盖移动端优化 Qwen 模型、定制 harness、可直接使用的 Agent 和评测路径；HONOR 是首个合作方。Magic9 系列与 HONOR Robot Phone 被官方列为首批采用设备。它更像一个系统/开发者 surface，而不是一个单独下载的聊天应用；消费者实际能用到的能力取决于 MagicOS、机型、地区和服务接入。",
-          "interactionFlow": "公开描述是用户提出复杂任务，Agent 在手机工具之间规划并执行，理解屏幕和应用状态，再返回结果或请求批准。Alibaba 称 HONOR AI 手机可编排超过 100 步，但没有展示每类任务的完整状态。真实流程需要处理登录、系统弹窗、验证码、支付、隐私权限、第三方拒绝、网络中断和用户接管；在这些环节，手机应能暂停、回看、批准、取消和恢复，而不是把整个流程压成一次语音问答。",
-          "specsOrStack": "官方披露 stack 包括移动端优化 Qwen 模型、定制 harness、三类 ready-to-use agents、MobilePA-Bench 与真实设备任务评测、HONOR MagicOS 以及端云协同。Alibaba 声称任务准确率最高 91.8%、流程超过 100 步，但测试条件、样本、失败定义和独立复现均未公开。Magic9 页面另有 C3 射频增强芯片与七芯射频 AI 调度架构说明；Agent 的芯片、端侧/云端分工、内存、权限 API、价格和地区不能从 Qwen 页面推断。",
-          "useCases": "产品方向覆盖跨 App 搜索、整理、填写、预约和连续任务执行，目标是让手机代替用户完成一串工具操作。官方还把 Magic9 与 Robot Phone 放进同一 agentic device 路线。未公开的具体应用清单、支付支持、离线能力、第三方适配和用户可配置范围保持 source not stated；公司 benchmark 不能替代真实消费者流程。",
-          "painPointsSolved": "它针对手机上的上下文切换和重复点击：用户说出目标后，Agent 理论上可以找到应用、填入信息、调用工具并继续下一步。对行动不便、手上忙或需要处理长流程的人，这可能减少手工操作。新痛点是系统代理获得了比普通 App 更大的权限，错误动作可能提交订单、发送消息或修改数据，用户还可能不知道 Agent 使用了哪个账户和哪段屏幕内容。",
-          "userVoice": "目前证据来自 Alibaba、HONOR 和新华社等发布/报道，Magic9 在 9 月 28 日正式发布；没有足够的独立长流程评测来验证 91.8% 准确率、100 步稳定性、耗电、延迟或失败恢复。社区传播的数字和传言不作为已确认规格。",
-          "newTech": "新技术信号是把移动端 Agent 做成手机厂商可集成的 full-stack surface，而不是只提供云端 API。模型、harness、系统工具和手机厂商的 MagicOS 共同承担执行；这为端云协同和系统级动作打开入口，也把权限、审计、回滚和跨 App 兼容性变成 OS 级设计问题。",
-          "availability": "Qwen Intelligence 已由 Alibaba 宣布，并称可通过官网与 Alibaba Cloud 服务获得；HONOR 是首个合作方，Magic9 系列在 9 月 28 日发布。实际功能、地区、系统版本、账号资格和可用 Agent 需要以 HONOR/MagicOS 的交付页面为准。",
-          "limitsOrUnknowns": "未知包括 MagicOS 版本、具体 Magic9 SKU、模型是否端侧运行、系统权限粒度、跨 App 兼容、支付与验证码、敏感信息遮蔽、任务暂停和回滚、耗电、网络依赖、第三方服务拒绝、数据保存、训练用途以及 91.8% 的测试条件。Robot Phone 的 Agent 行为也不能从概念发布直接推断。",
-          "productVerdict": "Qwen Intelligence × HONOR Magic9 是中国手机系统 Agent 化的具体落地入口，判断为 developer surface / launch-day product integration。方向已确认，成熟度未被独立验证；真正的产品分水岭是每一步能否被用户看懂、批准、撤回和恢复。"
-        },
-        "en": {
-          "productName": "Qwen Intelligence × HONOR Magic9",
-          "productType": "Qwen Intelligence is Alibaba's full-stack agentic-smartphone solution for handset makers. It covers mobile-optimised Qwen models, a custom harness, ready-to-use agents, and evaluation paths; HONOR is the first partner. Alibaba names the Magic9 series and HONOR Robot Phone among the first devices to incorporate it. This is better understood as a system and developer surface than as a standalone chat app: consumer capability will depend on MagicOS, model, region, and service integration.",
-          "interactionFlow": "The public description has a user state a complex goal while the agent plans and executes across phone tools, reads screen and application state, and returns a result or asks for approval. Alibaba says HONOR AI phones can orchestrate flows exceeding 100 steps, but it does not show a complete state machine for each task. A real flow must handle login, system prompts, verification, payment, privacy permission, third-party refusal, network interruption, and takeover. The phone therefore needs pause, review, approval, cancel, and recovery rather than collapsing the chain into one voice answer.",
-          "specsOrStack": "The disclosed stack includes mobile-optimised Qwen models, a custom harness, three ready-to-use agents, MobilePA-Bench and real-device task evaluation, HONOR MagicOS, and cloud-device cooperation. Alibaba reports up to 91.8% task accuracy and flows longer than 100 steps, but test conditions, sample, failure definition, and independent replication are not public. The Magic9 launch page separately describes a C3 RF enhancement chip and seven-core RF AI scheduling; the agent's chip, local-versus-cloud split, memory, permission APIs, price, and regions cannot be inferred from the Qwen announcement.",
-          "useCases": "The product direction covers cross-app search, organisation, form filling, booking, and continuous mobile tasks. The goal is for the phone to perform a sequence of tool actions after the user states an outcome. Alibaba also puts Magic9 and Robot Phone in the same agentic-device route. A detailed app list, payment support, offline operation, third-party coverage, and user-configurable scope are source not stated; a company benchmark is not a consumer workflow test.",
-          "painPointsSolved": "The system targets context switching and repetitive taps on a phone. In theory, a person states the goal and the agent finds the application, fills information, invokes tools, and continues. That could reduce manual work for people whose hands are occupied or who need to complete long routines. The new pain is authority: a system agent can submit an order, send a message, or change data, while the user may not know which account and which screen content it used.",
-          "userVoice": "The evidence is Alibaba, HONOR, and Xinhua launch material, with Magic9 formally launching on September 28. There is not yet enough independent long-horizon testing to validate 91.8% accuracy, 100-step stability, battery cost, latency, or recovery after failure. Community numbers and rumours are not treated as confirmed specifications.",
-          "newTech": "The technology signal is a mobile agent packaged as a handset-maker integration surface rather than only a cloud API. Model, harness, system tools, and MagicOS jointly carry execution. That opens a path to device-cloud cooperation and system actions, while making permission, audit, rollback, and cross-app compatibility operating-system design problems.",
-          "availability": "Alibaba has announced Qwen Intelligence and says it is available through its website and Alibaba Cloud services. HONOR is the first partner and the Magic9 series launches on September 28. Actual features, regions, system versions, account eligibility, and available agents must be checked against HONOR and MagicOS delivery pages.",
-          "limitsOrUnknowns": "Open questions include the MagicOS version, exact Magic9 SKUs, local inference, system permission granularity, cross-app coverage, payment and verification handling, sensitive-data masking, pause and rollback, battery, network dependency, third-party refusal, retention, training use, and the conditions behind 91.8%. Robot Phone behaviour cannot be inferred from a concept announcement.",
-          "productVerdict": "Qwen Intelligence × HONOR Magic9 is a concrete entry point for agentic phone systems in China. Verdict: developer surface with launch-day product integration; the direction is confirmed, maturity is not independently validated, and the decisive product test is whether every step can be understood, approved, undone, and recovered by the user."
-        }
-      }
-    },
-    {
-      "id": "honor-magic9-qwen-agent-phone-2026-09-28",
-      "section": "china",
-      "zhHeadline": "荣耀 Magic9：把系统级 Agent 作为手机首发能力",
-      "enHeadline": "HONOR Magic9 makes system-level AI part of the phone launch",
+      "zhHeadline": "荣耀 Magic9：系统级 Agent 进入手机默认路径",
+      "enHeadline": "HONOR Magic9 puts a system-level agent on the phone's default path",
       "visual": {
         "path": "assets/honor-magic9-official-launch-2026-09-28.png",
         "width": 1600,
         "height": 900,
         "kind": "source-backed official product page screenshot",
-        "altZh": "荣耀 Magic9 系列官方发布页截图",
-        "altEn": "HONOR Magic9 Series official launch page",
-        "captionZh": "官方视觉：荣耀 Magic9 发布页展示第三代自研射频增强芯片 C3 与七芯射频 AI 调度架构；AI Agent 能力仍需以发布会与实机为准。",
-        "captionEn": "Official visual: HONOR's Magic9 launch page highlights the third-generation C3 RF enhancement chip and seven-core RF AI scheduling; agent behaviour still needs launch and hands-on evidence.",
-        "sourceUrl": "https://www.honor.com/cn/activity/honor-magic9-series-launch/"
+        "altZh": "荣耀 Magic9 Pro Max 官方发布页面",
+        "altEn": "HONOR Magic9 Pro Max official launch page",
+        "captionZh": "官方视觉：双 200MP、ARRI 影像工作流、MagicOS 11 与 Agent 手机方向。",
+        "captionEn": "Official visual: dual 200MP cameras, ARRI workflow, MagicOS 11, and an agent-phone direction.",
+        "sourceUrl": "https://www.honor.com/global/news/honor-magic9-launch/"
       },
       "sources": [
         {
-          "label": "HONOR Magic9 official launch",
+          "label": "HONOR Magic9 Pro Max official launch",
+          "url": "https://www.honor.com/global/news/honor-magic9-launch/",
+          "type": "official"
+        },
+        {
+          "label": "HONOR Magic9 China launch page",
           "url": "https://www.honor.com/cn/activity/honor-magic9-series-launch/",
-          "type": "official"
+          "type": "china"
         },
         {
-          "label": "HONOR Magic9 sale notice",
-          "url": "https://www.honor.com/cn/m/notice-18131",
-          "type": "official"
-        },
-        {
-          "label": "Alibaba Qwen Intelligence announcement",
+          "label": "Alibaba Qwen Intelligence",
           "url": "https://www.alibabacloud.com/blog/alibaba-launches-qwen-intelligence-to-power-next-generation-agentic-smartphones_603597",
-          "type": "china"
+          "type": "developer surface"
         },
         {
-          "label": "Xinhua: Qwen Intelligence and HONOR",
-          "url": "https://www.xinhuanet.com/tech/20260923/67b397da73824713a2ad6ded76769ec1/c.html",
-          "type": "china"
+          "label": "PChome Magic9 hands-on",
+          "url": "https://article.pchome.net/content-2198003.html",
+          "type": "reviews"
+        },
+        {
+          "label": "HONOR community discussion",
+          "url": "https://www.reddit.com/r/Honor/comments/1wrq5zn/reviewer_verdict_the_magic9_pro_max_is_the_ai_flagship_to_beat/",
+          "type": "community"
         }
       ],
       "evidenceLabel": "confirmed product",
-      "evidenceStrength": "HONOR official launch page and sale notice; AI workflow details remain partly undisclosed",
+      "evidenceStrength": "HONOR official launch plus Alibaba Qwen Intelligence announcement; independent friction evidence is partial",
       "dossierKind": "product",
       "dossier": {
         "zh": {
-          "productName": "HONOR Magic9 series",
-          "productType": "HONOR Magic9 是 2026 年 9 月 28 日发布的手机系列，也是 Alibaba Qwen Intelligence 公告中的首批 agentic smartphone。荣耀官方页强调第三代自研射频增强芯片 C3、七芯射频 AI 调度架构和 356 个频段组合智能切换；Alibaba 则把 Magic9 放进 MagicOS 与 Qwen Agent 协作的系统路线。它是具体上市硬件，但完整 AI Agent 功能不能只由发布页推断。",
-          "interactionFlow": "可确认的入口是 MagicOS/YOYO 与 Qwen Intelligence 的系统协作：用户提出目标，Agent 在手机工具和服务之间规划任务并返回结果或请求批准。Alibaba 公开了跨 App、长流程和超过 100 步的公司描述，但没有在 HONOR 页面完整展示从唤醒、读取屏幕、登录、提交、支付到撤销的逐步交互。实机需要验证用户如何查看计划、暂停、纠正、切换账户和恢复失败任务。",
-          "specsOrStack": "荣耀官方披露 C3 射频增强芯片、七芯射频 AI 调度架构以及 356 个频段组合智能切换；Alibaba 披露 Qwen Intelligence、移动端优化模型、定制 harness 和 ready-to-use agents。Magic9 的具体 SoC、内存、屏幕、续航、价格、地区、MagicOS 版本和 Agent 权限范围不在当前页面完整列出；这些项目写作 source not stated，不能用传闻补齐。",
-          "useCases": "产品方向是跨 App 搜索、内容整理、信息填写、预约与多步执行，也可能把手机作为现实世界与 Agent 之间的入口。Magic9 还需要处理网络切换和移动账户状态，因此在旅行、办公和通信任务中存在明确价值。具体支持哪些第三方应用、是否能完成支付、哪些动作必须回到用户确认，仍需以系统实际能力为准。",
-          "painPointsSolved": "它针对手机上频繁跳转、重复填写和长任务中断的成本，把一部分操作从手动点击转成目标驱动执行。C3 与射频调度则从连接层支撑持续可用的手机入口。新的风险是系统代理权限集中后，错误识别或错误账户可能造成不可逆操作；如果用户看不到 Agent 的数据来源和下一步，产品会把复杂性隐藏而不是解决。",
-          "userVoice": "目前有官方发布页和销售公告，也有 Alibaba 的合作方说明；没有足够第三方实机测试来证明 Agent 的延迟、耗电、稳定性、长流程成功率或权限可理解性。9 月 28 日的发布与开售是已确认时间，用户体验仍是待测。",
-          "newTech": "新技术信号来自硬件、网络调度、MagicOS 和 Qwen Intelligence 的组合：手机不再只是运行 App 的容器，而试图成为可规划、调用、执行和交接任务的系统表面。对 HCI 来说，关键不是模型多大，而是系统能否把长流程拆成用户可监督的状态。",
-          "availability": "HONOR 官方页面将发布日定为 2026 年 9 月 28 日，官方商城公告说明发布会后销售安排和 YOYO AI VIP 体验权益。不同 SKU、地区、系统版本和 Agent 能力仍以实际销售与更新页面为准。",
-          "limitsOrUnknowns": "未知包括准确 SKU 与价格、MagicOS 版本、Qwen Agent 的端云分工、默认权限、跨 App 列表、第三方拒绝处理、支付/验证码、网络断开、后台耗电、数据保留、用户关闭路径和 Magic9 与 Robot Phone 的功能差异。公司宣传数字不等于独立性能基准。",
-          "productVerdict": "Magic9 是一款将系统级 Agent 写进首发叙事的 confirmed product。判断：硬件和发布时间已确认，AI 执行体验仍需实机验证；产品成败在于是否让用户保留监督与接管权，而非只把 Agent 放在系统首页。"
+          "productName": "HONOR Magic9 系列 / Qwen Intelligence 系统级 Agent 手机 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。",
+          "productType": "Magic9 是荣耀 2026 年 9 月 28 日在中国发布的旗舰手机系列；阿里把它列为首批搭载 Qwen Intelligence 的设备。产品类型是带系统级 Agent 路径的智能手机，不是旁边再装一个聊天 App。Qwen Intelligence 覆盖手机优化模型、Agent harness、工具治理和设备—云协同，MagicOS 11 负责手机系统环境；Magic9 Pro Max 的影像规格与系列级 Agent 功能必须分开核对。 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。",
+          "interactionFlow": "用户给出目标，Mobile Planner 拆解并规划，Mobile-Use 以 API-first、GUI-fallback 跨应用执行，用户在关键节点查看、批准或接管。阿里示例包括规划出差、预订航班和酒店、写入日历并处理变化；公开资料没有完整展示登录、支付、退款、失败、回滚或跨设备继续。Pro Max 另有拍摄、ARRI CINEMA Mode、4K 录制和分享流程。 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。",
+          "specsOrStack": "已披露的栈包括 MagicOS 11、Mobile Planner、Mobile-Use、Mobile Creative、统一工具治理和设备—云协调。Pro Max 官方披露 Snapdragon 8 Elite Extreme Gen 6、双 200MP、HONOR Imaging Chip H1、ARRI LogC3、10-bit、ARRI Wide Gamut 3、最高 4K 60fps、四麦克风和 IP68/IP69/IP69K；中国起售价人民币 6,499 元。 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。",
+          "useCases": "用自然语言规划商务出行、跨 App 组织日历和预订、执行多步手机任务、生成或编辑图像，以及用 Pro Max 的 ARRI CINEMA Mode 拍摄 4K 60fps 视频、选择电影 Look、使用方向性麦克风和扩展镜头。发布资料没有证明所有地区、App、语言都支持，也没有证明 Agent 可无审批支付或修改账户。 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。",
+          "painPointsSolved": "它针对手机被 App、设置、文件和云服务割裂的问题，也针对摄影者在拍摄、色彩、声音与发布之间切换工具的成本。harness 把目标、计划、工具、执行和设备状态接起来；风险是跨 App 误操作半径扩大、GUI fallback 不可见、自动化改动原片，以及长任务消耗电量、网络与授权。 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。",
+          "userVoice": "PChome 的 9 月 28 日上手稿强调 6.37 英寸 Magic9 的握持与影像定位，并提到 YOYO AI 智能体升级；社区讨论把系统 Agent 视为卖点，同时要求真实订单、跨 App、失败支付和非中文测试。社区是摩擦信号，不替代长期独立评测；当前没有公开成功率、误触发率或隐私审计。 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。",
+          "newTech": "新意在于把手机优化模型、规划 Agent、跨 App 执行、工具治理和设备—云协调包装成手机厂商可集成的 harness，再与 MagicOS 11 和 ARRI 影像系统放进消费手机。API-first、GUI-fallback 承认生态并非每个动作都有 API，但 fallback 的可观察性和安全边界仍需实机验证。 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。",
+          "availability": "HONOR 称 Magic9 Pro Max 在中国 9 月 28 日开售，起售价人民币 6,499 元，欧洲、中东非洲和东南亚后续上市信息另行公布。阿里称 Magic9 是 Qwen Intelligence 首批设备，平台可通过官网和阿里云服务获得。实际型号、地区 Agent 功能、订阅、开发者接口与海外日期仍需当地页面确认。 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。",
+          "limitsOrUnknowns": "未知包括各机型 Agent 权限、是否默认读取屏幕和通知、跨 App 范围、二次确认、支付与敏感账户保护、任务日志删除、已完成动作撤销，以及 Qwen 与 YOYO 的责任边界。Pro Max 参数不能外推到标准版；独立评测仍需检验长任务、非中文、多账户、离线、弱网、热量和原片保护。 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。",
+          "productVerdict": "Magic9 是当前最强的可购买 Agent 手机信号：Qwen Intelligence 让系统级任务执行进入厂商硬件，ARRI 工作流连接 AI 与专业创作。结论：confirmed product；平台路径与 Pro Max 硬件已确认，Agent 权限、成功率、错误恢复和地区可用性尚未独立证实。 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。"
         },
         "en": {
-          "productName": "HONOR Magic9 series",
-          "productType": "HONOR Magic9 is a phone series launched on September 28, 2026, and one of the first agentic smartphones named in Alibaba's Qwen Intelligence announcement. HONOR's official page highlights a third-generation C3 RF enhancement chip, a seven-core RF AI scheduling architecture, and intelligent switching across 356 band combinations. Alibaba places Magic9 in a MagicOS and Qwen agent route. It is a concrete shipping hardware launch, but the full agent capability cannot be inferred from the launch page alone.",
-          "interactionFlow": "The confirmed entry is system cooperation between MagicOS/YOYO and Qwen Intelligence: the user states an outcome, the agent plans across phone tools and services, and returns a result or requests approval. Alibaba describes cross-app and long-horizon flows exceeding 100 steps, but HONOR's page does not show the complete sequence from wake, screen reading, login, submission, payment, and undo. Hands-on testing is needed to verify plan visibility, pause, correction, account switching, and recovery after failure.",
-          "specsOrStack": "HONOR discloses the C3 RF enhancement chip, seven-core RF AI scheduling, and intelligent switching across 356 band combinations. Alibaba discloses Qwen Intelligence, mobile-optimised models, a custom harness, and ready-to-use agents. The current pages do not provide one complete list of Magic9 SoC, memory, display, battery, price, regions, MagicOS version, or agent permissions. Those items are source not stated and should not be filled with rumours.",
-          "useCases": "The product direction covers cross-app search, organisation, form filling, booking, and multi-step execution, with the phone acting as the bridge between the physical world and an agent. Magic9 also has to keep network and account state usable, which gives the route a clear value in travel, office, and communication tasks. The supported third-party app list, payment capability, and actions that require confirmation remain to be checked against the delivered system.",
-          "painPointsSolved": "Magic9 targets repeated switching, repetitive entry, and interruption in long phone tasks by converting part of the interaction from manual taps to goal-directed execution. C3 and RF scheduling support the reliability of the phone as a persistent entry point. The new risk is concentrated authority: an incorrect interpretation or wrong account can create an irreversible action, while hidden data sources and next steps merely hide complexity instead of solving it.",
-          "userVoice": "There is an official launch page, a sale notice, and Alibaba partner material, but not enough independent hands-on testing to establish agent latency, battery cost, stability, long-task success, or permission legibility. The September 28 launch and sale timing are confirmed; user experience is still a test question.",
-          "newTech": "The technology signal is the combination of hardware, network scheduling, MagicOS, and Qwen Intelligence. The phone is no longer framed only as a container for apps; it is intended to become a surface that plans, invokes, executes, and hands off tasks. For HCI the important question is not model size but whether long tasks are decomposed into states the user can supervise.",
-          "availability": "HONOR's official page sets the launch date to September 28, 2026, while the official store notice describes post-event sales and YOYO AI VIP access. SKU, region, software version, and agent capability vary by actual sales and update pages.",
-          "limitsOrUnknowns": "Open questions include exact SKU and price, MagicOS version, local-versus-cloud Qwen execution, default authority, cross-app coverage, third-party refusal, payment and verification, network loss, background battery, retention, shutdown, and the difference between Magic9 and Robot Phone. Company marketing numbers are not independent performance benchmarks.",
-          "productVerdict": "Magic9 is a confirmed product that makes a system-level agent part of the launch narrative. Verdict: hardware and launch timing are confirmed, while agent execution remains to be validated on-device; success depends on preserving user supervision and takeover rather than simply placing an agent on the home screen."
+          "productName": "HONOR Magic9 series with Qwen Intelligence system-level agent The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance.",
+          "productType": "Magic9 is HONOR's flagship phone family launched in China on September 28, 2026, and Alibaba identifies it as an early Qwen Intelligence device. It is a smartphone with a system-agent path, not merely a chatbot app beside the operating system. Qwen Intelligence covers mobile-optimised models, an agent harness, tool governance, and device-cloud coordination; MagicOS 11 is the phone-side environment. Pro Max imaging facts and family-level agent claims must be kept separate. The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance.",
+          "interactionFlow": "A person states an outcome; Mobile Planner decomposes it; Mobile-Use executes across apps through an API-first and GUI-fallback model; and the person is expected to inspect, approve, or take over at meaningful points. Alibaba examples include planning a trip, booking flights and hotels, writing calendar events, and responding to changes. Login, payment, refund, failure, rollback, and cross-device resume states are not fully shown. Pro Max adds capture, ARRI CINEMA Mode, 4K recording, and sharing. The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance.",
+          "specsOrStack": "The disclosed stack includes MagicOS 11, Mobile Planner, Mobile-Use, Mobile Creative, unified tool governance, and device-cloud coordination. HONOR's Pro Max material states Snapdragon 8 Elite Extreme Gen 6, dual 200MP cameras, the HONOR Imaging Chip H1, ARRI LogC3, 10-bit colour, ARRI Wide Gamut 3, up to 4K 60fps, four microphones, and IP68/IP69/IP69K. China pricing starts at RMB 6,499. The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance.",
+          "useCases": "Use cases include planning a business trip, organising calendars and bookings across apps, performing phone tasks, generating or editing images, and recording 4K 60fps video with ARRI Looks, directional microphones, and optional teleconverters. Launch material does not prove support across every region, app, language, or account, and does not prove that an agent can pay or mutate an account without approval. The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance.",
+          "painPointsSolved": "Magic9 targets phone work fragmented across apps, settings, files, and cloud services, plus the switching cost between capture, colour, audio, and publishing. A harness connects goal, plan, tools, execution, and device state. The risks are a larger blast radius for cross-app errors, invisible GUI fallback, silent mutation of originals, and the battery, network, and authority cost of long tasks. The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance.",
+          "userVoice": "PChome's September 28 hands-on article emphasises the 6.37-inch Magic9's grip and imaging position and describes an upgraded YOYO agent. Community discussion treats the system agent as a headline feature but asks for real tests of orders, cross-app work, failed payment, and non-Chinese tasks. This is friction evidence, not a long-term independent review; no public task-success rate, false-trigger rate, or privacy audit is available. The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance.",
+          "newTech": "The combination packages mobile-optimised models, planning, cross-app execution, tool governance, and device-cloud coordination as a handset-maker harness, then places it beside MagicOS 11 and an ARRI imaging system. API-first with GUI fallback acknowledges that the phone ecosystem lacks an API for every action; fallback observability and safety still need testing. The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance.",
+          "availability": "HONOR says Magic9 Pro Max sales begin in China on September 28 at RMB 6,499, with later Europe, MEA, and Southeast Asia information to follow. Alibaba calls Magic9 an early Qwen Intelligence device and says the platform is available through its website and Alibaba Cloud. Exact model features, regional agent capability, subscriptions, developer access, and overseas dates require local confirmation. The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance.",
+          "limitsOrUnknowns": "Open questions include each model's permissions, default access to screen and notifications, cross-app coverage, renewed approval, payment and sensitive-account protection, deletable task logs, reversal after completed action, and the Qwen/YOYO responsibility boundary. Pro Max specifications must not be projected onto the standard model; testing still needs long-horizon, non-Chinese, multi-account, offline, weak-network, thermal, and original-protection cases. The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance.",
+          "productVerdict": "Magic9 is the strongest current purchasable agent-phone signal: Qwen Intelligence brings system-level execution into handset hardware, while the ARRI workflow links AI and professional creation. Verdict: confirmed product. The platform and Pro Max hardware are confirmed; agent permissions, success rate, recovery, and regional availability are not independently established. The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance."
         }
       }
     },
     {
-      "id": "prismml-bonsai-qualcomm-smart-glasses-local-model-2026-09-28",
-      "section": "global",
-      "zhHeadline": "PrismML Bonsai：把 1-bit 小模型塞进眼镜的开发者信号",
-      "enHeadline": "PrismML Bonsai is a local-model signal for smart-glasses builders",
+      "id": "qwen-book-qwennote-a2-agentic-computer-context-device-2026-09-28",
+      "section": "china",
+      "zhHeadline": "Qwen Book / QwenNote A2：从 OS 外壳到线下上下文",
+      "enHeadline": "Qwen Book and QwenNote A2 connect the OS harness to real-world context",
       "visual": {
-        "path": "assets/prismml-bonsai-smart-glasses-techcrunch-2026-09-28.png",
+        "path": "assets/alibaba-qwen-book-wearables-a2-official-2026-09-28.png",
         "width": 1600,
         "height": 900,
-        "kind": "source-backed review/tech media screenshot",
-        "altZh": "TechCrunch 对 PrismML Bonsai 在 Snapdragon AR1 智能眼镜上运行的报道截图",
-        "altEn": "TechCrunch report on PrismML Bonsai running on Snapdragon AR1 smart glasses",
-        "captionZh": "媒体视觉：TechCrunch 报道 PrismML 在 Snapdragon AR1 Gen 1 平台上演示 1-bit Bonsai 视觉语言模型；报道同时说明尚未宣布可购买的眼镜。",
-        "captionEn": "Media visual: TechCrunch reports a 1-bit Bonsai vision-language model demo on Snapdragon AR1 Gen 1; the report also says no shippable glasses have been announced.",
-        "sourceUrl": "https://techcrunch.com/2026/09/24/prismml-brings-its-tiny-llms-to-qualcomm-powered-smart-glasses/"
+        "kind": "source-backed official product page screenshot",
+        "altZh": "Qwen Book 与 QwenNote A2 官方产品页面",
+        "altEn": "Qwen Book and QwenNote A2 official product page",
+        "captionZh": "官方视觉：OS as Harness 与线下上下文到 QwenWork 行动的产品组合。",
+        "captionEn": "Official visual: OS as Harness and offline context flowing into QwenWork actions.",
+        "sourceUrl": "https://www.alibabacloud.com/blog/alibaba-unveils-agentic-computer-ai-wearables-and-more-at-2026-apsara-conference_603599"
       },
       "sources": [
         {
-          "label": "TechCrunch: PrismML Bonsai on smart glasses",
-          "url": "https://techcrunch.com/2026/09/24/prismml-brings-its-tiny-llms-to-qualcomm-powered-smart-glasses/",
-          "type": "reviews"
-        },
-        {
-          "label": "PrismML official site",
-          "url": "https://www.prismlabs.ai/",
-          "type": "wild"
-        },
-        {
-          "label": "Qualcomm Snapdragon AR1 platform",
-          "url": "https://www.qualcomm.com/products/mobile/snapdragon/wearable-platforms/snapdragon-ar1-gen-1-platform",
+          "label": "Alibaba Qwen Book and QwenNote A2",
+          "url": "https://www.alibabacloud.com/blog/alibaba-unveils-agentic-computer-ai-wearables-and-more-at-2026-apsara-conference_603599",
           "type": "official"
+        },
+        {
+          "label": "Alibaba Qwen Intelligence",
+          "url": "https://www.alibabacloud.com/blog/alibaba-launches-qwen-intelligence-to-power-next-generation-agentic-smartphones_603597",
+          "type": "developer surface"
+        },
+        {
+          "label": "2026 Apsara exhibition",
+          "url": "https://yunqi.aliyun.com/2026/exhibition",
+          "type": "china"
         }
       ],
-      "evidenceLabel": "startup signal",
-      "evidenceStrength": "TechCrunch report on a Snapdragon Summit demo; no shippable PrismML glasses announced",
+      "evidenceLabel": "confirmed product",
+      "evidenceStrength": "Alibaba Cloud official conference report; Qwen Book is unveiled and QwenNote A2 has official price and sales claims",
       "dossierKind": "product",
       "dossier": {
         "zh": {
-          "productName": "PrismML Bonsai LLM on Snapdragon smart glasses",
-          "productType": "PrismML 是一家专注小型模型的 AI startup。TechCrunch 报道它在 Snapdragon Summit 演示 1-bit Bonsai LLM，可在 Snapdragon AR1 Gen 1 平台的 AI 眼镜上本地运行；眼镜产品本身并非 PrismML 已宣布的消费硬件。Bonsai 因而是面向设备开发者的模型/运行时信号，核心问题是如何在穿戴终端的算力、内存和热限制下提供视觉语言能力。",
-          "interactionFlow": "报道所支持的流程是佩戴者通过眼镜看到场景并用语音提问，端侧视觉语言模型尝试实时回答“我在看什么”；更重或未被本地模型覆盖的任务可能需要服务端。这个端云分流是产品推论，TechCrunch 没有给出完整 SDK 或用户状态图。唤醒、相机指示、置信度、云端升级、离线降级、连续视觉是否默认开启和用户如何停止都未公开。",
-          "specsOrStack": "已报道的 stack 包括 1-bit Bonsai LLM、约 20 亿参数的视觉语言版本、Snapdragon AR1 Gen 1 smart-glasses platform，以及本地运行方向。TechCrunch 提到模型较大模型缩小约四倍并保留大部分标准基准表现，但具体 benchmark、内存占用、功耗、延迟、量化误差、模型许可、SDK、支持的眼镜 SKU 和云端服务没有完整披露；这些均为 source not stated。",
-          "useCases": "可支持的产品方向包括眼前物体问答、短文本理解、环境提示和无网或弱网时的基础视觉辅助。对眼镜开发者，本地模型还能用于唤醒、筛选和低延迟反馈，再把复杂推理交给云端。由于没有成品设备和公开任务列表，不能把它写成已经支持翻译、导航、识人或全天候环境理解的消费产品。",
-          "painPointsSolved": "Bonsai 针对云端往返延迟、网络依赖、隐私外发和推理成本，也回应了眼镜无法承受大型模型功耗、热量与存储的问题。代价是小模型更容易在长尾视觉、遮挡、噪声和多语言环境中出错；如果系统没有明确告诉用户模型在哪里运行，所谓隐私优势会变成不可见的路由决策。",
-          "userVoice": "TechCrunch 是独立媒体报道，但其材料仍来自活动演示，不是可购买眼镜的长期评测。没有社区实机反馈、可复现功耗、端到端延迟、误识别率或开发者集成报告，因此当前应保持 startup signal，不应升级为 confirmed product。",
-          "newTech": "关键技术是 1-bit 量化与小型视觉语言模型在 AR1 穿戴平台上的端侧运行方向。它把模型压缩、芯片 NPU、内存预算、摄像头和语音交互放在同一个系统问题里。真正有价值的下一步是让开发者控制模型路由、置信度和云端升级，而不是只展示一次现场问答。",
-          "availability": "TechCrunch 报道 PrismML 展示了模型，但明确表示尚未宣布可购买的 PrismML 智能眼镜。模型可用范围、SDK、合作硬件、下载方式、价格和上市日期均未确认。",
-          "limitsOrUnknowns": "未知包括实际模型大小、内存、功耗、热管理、延迟、视觉准确率、数据是否离开眼镜、云端依赖、相机录制提示、失败恢复、许可、地区、开发者工具和最终硬件。不能从“本地运行”推断全天候可用或默认不上传数据。",
-          "productVerdict": "Bonsai 是值得跟踪的 startup signal：它让端侧视觉语言模型成为眼镜平台的具体选项，但仍停留在演示和模型能力层。判断为 developer-facing research/product signal；下一关是公开 SDK、真实硬件、功耗/延迟数据和可解释的本地—云端路由。"
+          "productName": "Alibaba Qwen Book and QwenNote A2 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。",
+          "productType": "Qwen Book 是 AI-native agentic computer，以 Qwen Desktop OS 把模型、操作系统、应用、云服务、上下文、运行时和软硬件控制组合成 Agent 工作环境。QwenNote A2 是 DingTalk A1 的办公记录设备升级版，把独立采集、Qwen-Audio、QwenWork 和钉钉工作流连接起来。一个处理桌面资产，一个处理线下语境，二者共同把 Agent 从聊天带到可执行上下文。 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。",
+          "interactionFlow": "Qwen Book 用户用兼具麦克风的手写笔口述修改演示文稿，系统从云端取回文件、定位具体幻灯片、调用工具并在手机上审核。A2 用户在会议或走访中转写，可打断、追问和调整指令，再让 QwenWork 发送消息、安排会议、创建待办或生成表格。公开资料没有完整展示权限弹窗、旁人提示、差异对比、撤销、账号切换或失败恢复。 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。",
+          "specsOrStack": "Qwen Book 栈包括 Qwen Desktop OS、Qwen 模型、原生应用、云服务、手写笔麦克风、上下文、记忆和可治理运行时；硬件、价格、版本与交付日期未披露。A2 官方披露 67 克、六麦克风、8 米拾音、4G、40 小时连续转写、18 天待机、Qwen-Audio、传输加密与转写后删除音频，售价人民币 1,199 元，9 月 22 日开售。 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。",
+          "useCases": "Qwen Book 已展示定位云文件、找到页面、编辑幻灯片与手机审批；同样结构可能延伸至报告、表格和项目文档，但未逐项证明。A2 已明确会议转写、实时追问和将语境变成钉钉消息、后续会议、待办及 AI 表格。内置 4G 减少手机依赖，但地区网络、漫游与离线能力未说明。 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。",
+          "painPointsSolved": "Qwen Book 减少复制内容、找文件、切应用和解释上下文；A2 减少回听录音、整理摘要和手动分派任务。两者把 Agent 与真实资产连接起来，也集中放大权限与隐私风险：文件可能被误写，会议可能未获同意，摘要可能遗漏限定条件，文本可能长期存在，组织管理员可能看到超出用户预期的内容。 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。",
+          "userVoice": "目前主要证据是阿里官方大会报道和展览资料，没有 Qwen Book 独立硬件评测，也没有 A2 对多人噪声、重叠讲话、旁人同意或任务成功率的第三方测试。官方给出的 A2 重量、拾音、续航、价格和音频删除政策可作为产品事实；真实办公摩擦仍需在会议与文件协作中验证。 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。",
+          "newTech": "Qwen Book 的 OS as Harness 把 OS 变成 Agent 理解上下文、调用工具和控制软硬件的运行层；A2 把持续语音输入变成 QwenWork 的行动上下文。一个在桌面上接文件与工具，一个在现实场景中接语音与组织动作。真正的新意取决于结构化状态、工具治理、数据生命周期和用户能否删除已经生成的摘要与任务。 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。",
+          "availability": "阿里公布 Qwen Book 并展示了产品流程，但没有给出零售配置、价格、预售或交付日期。阿里称 QwenNote A2 以人民币 1,199 元在 9 月 22 日通过 QwenWork 天猫旗舰店开售。中国渠道事实已写明，海外销售、企业采购、订阅、API 和账号迁移未披露。 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。",
+          "limitsOrUnknowns": "关键未知包括 Qwen Book 的硬件和第三方应用接入、离线与私有部署；A2 的录音灯、旁人提示、文本保留、组织后台权限、级联删除、4G 漫游、多语言与重叠说话准确率。官方称音频转写后删除，不能推断摘要、待办和消息也会同步删除，更不能推断 Agent 不会扩散敏感信息。 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。",
+          "productVerdict": "Qwen Book / QwenNote A2 共同展示了 Agent 产品的两条入口：OS 作为执行外壳，独立设备作为现实上下文采集端。结论：confirmed product；Qwen Book 的定义和 A2 的规格、价格、开售有官方依据，真实安全与工作流成熟度仍待第三方验证。 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。"
         },
         "en": {
-          "productName": "PrismML Bonsai LLM on Snapdragon smart glasses",
-          "productType": "PrismML is an AI startup focused on small models. TechCrunch reports that it demonstrated a 1-bit Bonsai LLM on AI glasses powered by the Snapdragon AR1 Gen 1 platform. The glasses are not a consumer product announced by PrismML. Bonsai is therefore a model and runtime signal for device builders, centred on delivering vision-language capability within the compute, memory, and thermal limits of eyewear.",
-          "interactionFlow": "The supported flow is that a wearer looks through glasses and asks a voice question while an on-device vision-language model tries to answer what is in view. Heavier or unsupported work may need a server. That device-cloud split is a product implication; TechCrunch does not provide a full SDK or state machine. Wake behaviour, camera indicator, confidence, cloud escalation, offline fallback, default continuous vision, and the user's stop path are not disclosed.",
-          "specsOrStack": "The reported stack includes a 1-bit Bonsai LLM, a roughly two-billion-parameter vision-language version, the Snapdragon AR1 Gen 1 smart-glasses platform, and a local-inference direction. TechCrunch says the model shrinks larger models by roughly four times while retaining most standard benchmark performance, but exact benchmarks, memory, power, latency, quantisation error, licence, SDK, compatible glasses SKUs, and cloud service are not fully disclosed; those details are source not stated.",
-          "useCases": "The product direction could support visual questions about nearby objects, short text understanding, environmental prompts, and basic assistance when connectivity is weak. For glasses developers, a local model could handle wake, filtering, and low-latency feedback before escalating complex reasoning to the cloud. Because there is no finished device or public task list, it should not be described as a consumer product that already supports translation, navigation, identification, or all-day scene understanding.",
-          "painPointsSolved": "Bonsai targets cloud round-trip latency, network dependency, data egress, and inference cost while addressing the power, heat, and storage limits of glasses. The trade is a higher chance of failure on long-tail visuals, occlusion, noise, and multilingual scenes. If the system does not show where inference happens, its privacy advantage becomes an invisible routing decision.",
-          "userVoice": "TechCrunch provides independent media coverage, but the material comes from a summit demonstration rather than a long-term review of purchasable glasses. There is no community hands-on evidence, reproducible power, end-to-end latency, error rate, or developer integration report. It remains a startup signal and should not be upgraded to a confirmed product.",
-          "newTech": "The technology signal is 1-bit quantisation and a compact vision-language model running in the direction of the AR1 wearable platform. It connects model compression, an NPU, memory budget, camera, and voice interaction into one systems problem. The next meaningful step is developer control over routing, confidence, and cloud escalation rather than another isolated demo question.",
-          "availability": "TechCrunch reports the model demonstration but explicitly says that PrismML has not announced shippable PrismML smart glasses. Model access, SDK, hardware partners, download, price, and launch date are unconfirmed.",
-          "limitsOrUnknowns": "Open questions include real model size, memory, power, thermal management, latency, visual accuracy, whether data leaves the glasses, cloud dependency, recording indicator, failure recovery, licence, regions, developer tools, and final hardware. Local inference does not prove all-day operation or that data is never uploaded.",
-          "productVerdict": "Bonsai is a useful startup signal because it makes an on-device vision-language model a concrete option for glasses platforms, but it remains at the demo and model-capability stage. Verdict: developer-facing product and research signal; the next gate is a public SDK, real hardware, power and latency data, and an understandable local-to-cloud routing policy."
+          "productName": "Alibaba Qwen Book and QwenNote A2 The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance.",
+          "productType": "Qwen Book is an AI-native agentic computer that combines Qwen Desktop OS, models, applications, cloud services, context, runtime, and software-hardware control. QwenNote A2 upgrades DingTalk A1 into a work capture device connecting independent input, Qwen-Audio, QwenWork, and DingTalk workflows. One handles desktop assets and the other handles offline context; together they move an agent beyond chat into executable context. The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance.",
+          "interactionFlow": "In the Qwen Book example, a user dictates a presentation edit through a microphone stylus; the system retrieves a cloud file, finds the slide, calls tools, and presents phone approval. With A2, a user transcribes a meeting, interrupts, asks follow-ups, adjusts an instruction, and asks QwenWork to send messages, schedule meetings, create to-dos, or generate spreadsheets. Full permission prompts, bystander cues, diffs, undo, account switching, and failure recovery are not published. The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance.",
+          "specsOrStack": "Qwen Book exposes Qwen Desktop OS, Qwen models, native applications, cloud services, a stylus microphone, context, memory, and a governable runtime; hardware, price, version, and delivery are not stated. Alibaba states A2 at 67 grams with six microphones, up to eight metres of pickup, 4G, 40 hours of continuous transcription, 18 days of standby, Qwen-Audio, encrypted transmission, and post-transcription audio deletion. Price is RMB 1,199 and sales began September 22. The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance.",
+          "useCases": "Qwen Book demonstrates cloud-file retrieval, slide location, presentation editing, and phone approval; reports, spreadsheets, and project documents are possible extensions but not individually proven. A2 explicitly covers meeting transcription, real-time follow-up, and turning context into DingTalk messages, meetings, to-dos, and AI spreadsheets. Built-in 4G reduces phone dependence, but region, roaming, and offline support are not stated. The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance.",
+          "painPointsSolved": "Qwen Book reduces copying, file search, app switching, and repeated context explanation. A2 reduces replay, cleanup, summary, and manual assignment. Both connect an agent to real assets while concentrating risk: a file can be mutated incorrectly, a meeting may lack consent, a summary may omit a condition, text may persist, and an administrator may see more organisational content than a user expected. The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance.",
+          "userVoice": "The evidence is Alibaba's official conference report and exhibition material. There is no independent Qwen Book hardware review or third-party A2 test of noisy rooms, overlapping speech, bystander consent, or task success. The official weight, pickup, battery, price, and audio-deletion claims are supported; real workplace friction still needs meetings and document collaboration. The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance.",
+          "newTech": "Qwen Book's OS as Harness makes the OS the runtime where an agent understands context, calls tools, and controls software and hardware. A2 turns continuous voice input into QwenWork action context. One connects desktop files and tools; the other connects real-world speech and organisational action. The meaningful novelty depends on structured state, tool governance, lifecycle deletion, and whether generated summaries and tasks can be forgotten. The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance.",
+          "availability": "Alibaba unveiled Qwen Book and demonstrated its flow but gave no retail configuration, price, preorder, or delivery date. Alibaba says QwenNote A2 sold for RMB 1,199 through the QwenWork Tmall store from September 22. China-channel availability is stated; overseas sales, enterprise procurement, subscriptions, APIs, and account migration are not. The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance.",
+          "limitsOrUnknowns": "Open questions include Qwen Book hardware, third-party apps, offline mode, and private deployment; and A2 recording light, bystander disclosure, text retention, organisation access, cascading deletion, roaming, multilingual recognition, and overlapping speech. Deleting audio after transcription does not prove that summaries, to-dos, and messages are deleted, or that sensitive context cannot propagate. The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance.",
+          "productVerdict": "Qwen Book and QwenNote A2 show two entrances for agents: the OS as an execution harness and a standalone device as a real-world context sensor. Verdict: confirmed products and product directions. Qwen Book's definition and A2's specifications, price, and sales claim are official; independent safety and workflow maturity remain to be tested. The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance."
+        }
+      }
+    },
+    {
+      "id": "soundhound-oasys-edge-embedded-agentic-voice-2026-09-28",
+      "section": "global",
+      "zhHeadline": "OASYS Edge：同一个语音 Agent，云端、端侧、混合部署",
+      "enHeadline": "OASYS Edge promises one voice agent across cloud, edge, and hybrid hardware",
+      "visual": {
+        "path": "assets/soundhound-oasys-edge-official-2026-09-28.png",
+        "width": 1600,
+        "height": 900,
+        "kind": "source-backed official product page screenshot",
+        "altZh": "SoundHound OASYS Edge 官方页面",
+        "altEn": "SoundHound OASYS Edge official page",
+        "captionZh": "官方 developer/industry 视觉：Agent 在云端、端侧或混合环境部署。",
+        "captionEn": "Official developer/industry visual: one agent deployed in cloud, edge, or hybrid.",
+        "sourceUrl": "https://www.soundhound.com/newsroom/soundhound-ai-introduces-oasys-edge-bringing-fully-embedded-agentic-voice-ai-to-vehicles-and-smart-devices"
+      },
+      "sources": [
+        {
+          "label": "SoundHound OASYS Edge announcement",
+          "url": "https://www.soundhound.com/newsroom/soundhound-ai-introduces-oasys-edge-bringing-fully-embedded-agentic-voice-ai-to-vehicles-and-smart-devices",
+          "type": "official"
+        },
+        {
+          "label": "SoundHound OASYS Edge architecture",
+          "url": "https://www.soundhound.com/resource/introducing-oasys-edge",
+          "type": "developer surface"
+        },
+        {
+          "label": "Qualcomm agentic-age context",
+          "url": "https://www.qualcomm.com/news/onq/2026/09/snapdragon-for-agentic-age",
+          "type": "global"
+        }
+      ],
+      "evidenceLabel": "developer surface",
+      "evidenceStrength": "SoundHound official architecture announcement; deployment is scheduled for late 2026 and customer hardware is unspecified",
+      "dossierKind": "product",
+      "dossier": {
+        "zh": {
+          "productName": "SoundHound OASYS Edge 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。",
+          "productType": "OASYS Edge 是面向汽车与智能设备的嵌入式 Agent 架构，不是消费者独立硬件。它把 LLM 语音 Agent、多 Agent 编排、定制模型和云端、端侧、混合部署放进 OASYS 平台，目标是制造商构建一次、按硬件能力部署。最终用户会通过车机、机器人或其他智能设备接触它，因此产品性质是 B2B developer/industry surface。 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。",
+          "interactionFlow": "车辆驾驶者提出多步路线请求，设备用本地知识规划并在断网时播报；机器人本地检测查询并回答；设备可按上下文协调多个功能。公开资料没有展示工具配置、本地/云端标识、误听、取消多步动作、联网恢复同步或人工接管。故障恢复与用户如何看到端云切换仍未确认。 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。",
+          "specsOrStack": "公开栈包括 OASYS、嵌入式 OASYS Edge、优化语言模型、多 Agent orchestration、本地知识库、云端/端侧/混合部署和可选本地遥测。官方提到断网路线、端侧持续监听、隐私数据可留在设备和较低运营成本，但没有披露芯片、内存、模型尺寸、功耗、车载 OS、机器人 SDK、API 版本或客户硬件。预计 2026 年晚些时候部署，CES 2027 演示。 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。",
+          "useCases": "用例包括无信号道路规划多个旅游停靠点、地下车库或隧道继续响应语音、机器人本地对话，以及制造商按性能和成本把同一 Agent 部署到不同硬件。官方描述的是平台能力，不代表所有汽车和机器人已支持，也不是消费者可直接下载的功能。 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。",
+          "painPointsSolved": "OASYS Edge 针对联网依赖、延迟、带宽、API 成本和隐私暴露，也针对固定命令无法处理复合目标。统一构建、按环境部署可以减少厂商分别维护车、家电和机器人 Agent 的成本。新问题是端侧模型不足、升级与回滚、多 Agent 抢麦克风、车内录音知情、部署差异和端侧日志难审计。 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。",
+          "userVoice": "目前只有 SoundHound 官方公告和架构文章，没有独立汽车、机器人实测、客户名单、量产时间、端侧准确率或断网成功率。官方场景足以证明方向，但 private by default、fully embedded 等表达仍需要真实硬件验证。晚 2026 部署与 CES 2027 是下一节点。 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。",
+          "newTech": "技术信号是把 Agent 构建与运行位置解耦：开发者在 OASYS 设计意图理解和工具编排，再把模型放到云、边缘或混合层。端侧不只是命令集，而是本地推理、知识和多系统协调。跨部署的状态、权限、模型版本和结果若没有统一审计与降级协议，灵活性会变成不可预测体验。 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。",
+          "availability": "SoundHound 预计 OASYS Edge 在 2026 年晚些时候部署，当前有 live demonstrations，并计划 CES 2027 展示。公告没有消费者 SKU、客户、价格、公开 SDK、支持芯片、地区或具体日期，因此它是已宣布的 B2B developer/industry surface，不是今天可购买的终端。 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。",
+          "limitsOrUnknowns": "未知包括本地模型尺寸与精度、功耗、车载/机器人 OS、误触发、多乘员隐私、端云切换、离线知识更新、工具授权、取消回滚、远程诊断、版本兼容和端侧执行日志。可选本地数据主权不能推断所有客户默认本地或满足每个地区的汽车隐私法规。 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。",
+          "productVerdict": "OASYS Edge 是端侧 Agent 从宣言走向嵌入式架构的信号。结论：developer surface；架构、用例和计划部署有官方依据，真实硬件、客户和指标未验证。价值取决于断网可用、端云切换可见、取消可靠和跨设备版本一致。 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。"
+        },
+        "en": {
+          "productName": "SoundHound OASYS Edge The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance.",
+          "productType": "OASYS Edge is SoundHound's embedded agent architecture for vehicles and smart devices, not a standalone consumer device. It combines LLM voice agents, multi-agent orchestration, configurable models, and cloud, edge, or hybrid deployment in OASYS. A manufacturer can build once and place the agent according to hardware; end users encounter it through a car, robot, or other device. This is a B2B developer and industry surface. The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance.",
+          "interactionFlow": "A driver asks for a multi-step route and the device uses local knowledge to plan and narrate it in a dead zone; a robot detects and answers queries on device; a device can coordinate functions from one request. The public material does not show tool configuration, local-versus-cloud labels, misrecognition, cancellation, reconnection synchronisation, or human takeover. Failure recovery and cloud-edge visibility are unconfirmed. The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance.",
+          "specsOrStack": "The stack includes OASYS, embedded OASYS Edge, optimised language models, multi-agent orchestration, a local knowledge base, cloud, edge, and hybrid deployment, and optional local telemetry. SoundHound describes offline routing, continuous on-device listening, local handling of sensitive data, and lower operating cost, but not chip, memory, model size, power, vehicle OS, robot SDK, API version, or customer hardware. Deployment is late 2026 with a CES 2027 demo. The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance.",
+          "useCases": "Examples include a vehicle planning several tourist stops without signal, voice response in a garage or tunnel, local robot conversation, and a manufacturer deploying one agent according to performance and cost across hardware. These are platform capabilities, not proof that every vehicle or robot supports them, and not a consumer-downloadable feature. The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance.",
+          "painPointsSolved": "OASYS Edge targets connectivity, latency, bandwidth, API cost, and privacy exposure, as well as the inability of fixed commands to handle composite goals. Build-once, deploy-by-environment can reduce separate maintenance for car, appliance, and robot agents. New problems include local-model limits, updates and rollback, microphone contention, cabin disclosure, deployment variance, and hard-to-audit local logs. The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance.",
+          "userVoice": "The evidence is SoundHound's official announcement and architecture article. There is no independent vehicle or robot test, customer list, mass-production date, edge accuracy, or offline-success measure. The scenarios establish direction; private by default and fully embedded still require hardware evidence. Late 2026 deployment and CES 2027 are the next checkpoints. The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance.",
+          "newTech": "The architecture decouples agent construction from runtime placement. Developers design intent understanding and tool orchestration on OASYS, then place the model in cloud, edge, or hybrid layers. Edge is more than a command grammar: it includes local inference, knowledge, and multi-system coordination. Without shared audit and degradation protocols, deployment flexibility becomes unpredictable experience. The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance.",
+          "availability": "SoundHound schedules OASYS Edge for late 2026, says live demonstrations are available, and plans a CES 2027 presentation. The announcement gives no consumer SKU, customer list, price, public SDK, supported chip, region, or exact date. It is an announced B2B developer and industry surface, not a retail endpoint. The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance.",
+          "limitsOrUnknowns": "Open questions include local model size and accuracy, power, vehicle and robot OS, false wake, multi-passenger privacy, cloud-edge handoff, offline knowledge updates, tool authority, cancellation and rollback, remote diagnostics, version compatibility, and local logs. Optional local data sovereignty does not prove every deployment is local by default or compliant with every automotive privacy regime. The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance.",
+          "productVerdict": "OASYS Edge is a signal that edge agents are becoming embedded architecture. Verdict: developer surface. Architecture, examples, and deployment plan are official; hardware, customers, and metrics are unverified. Value depends on offline usefulness, visible handoff, reliable cancellation, and cross-device version consistency. The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance."
+        }
+      }
+    },
+    {
+      "id": "thoughtful-things-engram-ai-sampler-kickstarter-2026-09-28",
+      "section": "wild",
+      "zhHeadline": "扫描：Engram 把 AI 当作可扭曲声音的乐器",
+      "enHeadline": "Scan: Engram treats AI as a sound-mangling instrument",
+      "visual": {
+        "path": "assets/engram-kickstarter-scan-2026-09-28.png",
+        "width": 1600,
+        "height": 900,
+        "kind": "source-backed crowdfunding scan screenshot",
+        "altZh": "Engram 当日 crowdfunding source-lane scan",
+        "altEn": "Engram dated crowdfunding source-lane scan",
+        "captionZh": "扫描视觉：Engram 被报道为 Kickstarter AI sampler/groovebox；原始活动页未独立取得。",
+        "captionEn": "Scan visual: Engram is reported as a Kickstarter AI sampler/groovebox; the original campaign was not independently retrieved.",
+        "sourceUrl": "https://aitoolly.com/ai-news/2026-09-28"
+      },
+      "sources": [
+        {
+          "label": "AIToolly September 28 scan",
+          "url": "https://aitoolly.com/ai-news/2026-09-28",
+          "type": "wild"
+        },
+        {
+          "label": "Kickstarter campaign index",
+          "url": "https://www.kickstarter.com/",
+          "type": "crowdfunding signal"
+        }
+      ],
+      "evidenceLabel": "crowdfunding signal",
+      "evidenceStrength": "dated product scan; original Kickstarter page and hardware evidence were not independently retrieved",
+      "dossierKind": "scan",
+      "dossier": {
+        "zh": {
+          "productName": "Thoughtful Things Engram（crowdfunding scan） 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。",
+          "productType": "Engram 在本期被记录为 Kickstarter 上的 AI sampler 与 groovebox 扫描条目，不是已经完成零售验证的硬件。公开扫描描述它是一台独立乐器，用 AI 接收和处理输入音频，产生新的不可预测声音材料，定位更靠近实验音乐、声音设计和现场创作，而不是自动生成完整歌曲。 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。",
+          "interactionFlow": "已公开的流程是把输入音频送入设备，由 AI 进行采样、扭曲和生成，再把结果作为片段继续使用。录入方式、采样长度、循环、旋钮/按键、锁定、撤销、重复生成、电脑或 DAW 连接和导出均未披露。缺少原始活动页和实机视频，不能把 tactile workflow 扩写成已确认界面。 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。",
+          "specsOrStack": "扫描只说明 standalone instrument、AI-powered sampler、groovebox 与 hallucinated sounds。芯片、模型、存储、音频 I/O、采样率、延迟、屏幕、控制件、连接、供电、软件、版权机制、价格、众筹目标、发货日期和地区均为 source not stated。本次不引用未核实数字。 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。",
+          "useCases": "报道指向声音设计师和实验音乐人，把输入音频送入 AI，获得不稳定但可用于采样与编排的片段。现场即兴、音色探索、鼓组纹理是合理方向，但不是已验证功能。现场使用还要看延迟、可重复性、断电恢复和导出格式，目前没有证据。 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。",
+          "painPointsSolved": "它试图减少传统采样器手工切片、变形和寻找意外声音的成本，为不想要一键完成歌曲的创作者提供材料生成。新痛点是结果难预测、作者选择被遮蔽、版权来源不清、同一操作难复现、现场延迟不可控和众筹交付风险。没有历史、锁定和回滚，偶然灵感难以变成可编辑作品。 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。",
+          "userVoice": "本期没有 Kickstarter 评论、独立评测、音频样例审听或社区长期反馈。唯一可靠信号是当日扫描对定位的描述，因此“用户喜欢”“低延迟”“适合现场”都不能写成事实。下一步需查原始活动页、厂商更新、支持者评论和可复现样机测试。 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。",
+          "newTech": "可确认的新方向是让 AI 把 hallucination 当作声音材料，并把模型行为放进 sampler/groovebox 的触觉流程，而非隐藏在云端生成按钮后。模型输出成为可剪辑、循环、再采样的中间素材。模型、端云关系和控制映射未公开，不能确认端侧或云端推理。 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。",
+          "availability": "公开扫描称 Engram 已在 Kickstarter 发起活动，但本次未取得原始活动页，因此没有可核实的众筹目标、档位、价格、交付日期、地区、退费条件或发货状态。它只能标为 crowdfunding signal / weak product evidence，不能写成今天可购买的成熟硬件。 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。",
+          "limitsOrUnknowns": "未知包括活动页状态、样机成熟度、音频 I/O、延迟、生成可重复性、版权与训练数据、是否上传、软件更新、导出、维修、支持者退款和交付。没有证据证明它可现场稳定工作、支持 DAW 或不依赖网络。缺失事实正是本扫描保留降级标签的原因。 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。",
+          "productVerdict": "Engram 是值得观察的 crowdfunding signal：它把 AI 不确定性做成可操作的声音材料，而不是替用户写完一首歌。结论：weak/unverified；定位有公开扫描依据，硬件、交互、规格和交付未独立确认。 该条信息只写入来源明确的事实；页面没有披露的价格、版本、地区、接口、续航、成功率或隐私细节均保留为 source not stated，不能从产品宣传或外观推断。"
+        },
+        "en": {
+          "productName": "Thoughtful Things Engram (crowdfunding scan) The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance.",
+          "productType": "Engram is recorded as a Kickstarter AI sampler and groovebox scan, not a retail-verified hardware product. Public coverage describes a standalone instrument that accepts and processes incoming audio with AI to produce unpredictable material. It is positioned for experimental music, sound design, and live creation rather than an automated complete-song generator. The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance.",
+          "interactionFlow": "The public description supports a flow in which audio enters the device, AI samples or mangles it, and the result becomes a musical fragment. Capture method, sample length, looping, controls, locking, undo, repeatable generation, computer or DAW connection, and export are not stated. Without the campaign or hands-on video, a tactile workflow cannot be expanded into confirmed interface behaviour. The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance.",
+          "specsOrStack": "The scan says standalone instrument, AI-powered sampler, groovebox, and hallucinated sounds. Chip, model, storage, audio I/O, sample rate, latency, display, controls, connectivity, power, software, copyright mechanism, price, campaign goal, shipping, and region are source not stated. No unverified numbers are included. The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance.",
+          "useCases": "The coverage points to sound designers and experimental musicians feeding audio into AI and using unstable fragments for sampling and arrangement. Live improvisation, timbre exploration, and drum texture are plausible directions, not proven functions. Live use would require latency, repeatability, power-loss recovery, and export evidence that is currently missing. The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance.",
+          "painPointsSolved": "Engram aims to reduce manual slicing, mutation, and accident-hunting in a sampler and give creators who reject one-button songs an active material generator. It introduces unpredictable output, obscured authorship, unclear copyright, weak reproducibility, uncontrolled live latency, and crowdfunding risk. Without history, lock, and rollback, a lucky accident is hard to edit into a composition. The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance.",
+          "userVoice": "This run found no Kickstarter comments, independent review, audio audit, or long-term community feedback. The only reliable signal is the dated scan's positioning. User liking, low latency, and live readiness are unsupported claims. The next check is the campaign, manufacturer updates, backer comments, and a reproducible prototype test. The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance.",
+          "newTech": "The direction is to treat AI hallucination as sound material and place model behaviour inside a sampler and groovebox workflow instead of a cloud generation button. Output becomes an editable, loopable, resamplable intermediate. Because model, cloud-edge relationship, and control mapping are not public, local versus cloud inference cannot be confirmed. The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance.",
+          "availability": "The scan says Engram launched a Kickstarter campaign, but the original campaign page was not retrieved. There is no verified goal, tier, price, delivery date, region, refund condition, or shipping status. It remains a crowdfunding signal with weak product evidence, not a mature retail device. The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance.",
+          "limitsOrUnknowns": "Open questions include campaign status, prototype maturity, audio I/O, latency, repeatability, copyright and training data, upload policy, software updates, export, repair, refunds, and delivery. There is no evidence that it works reliably on stage, integrates with a DAW, or works without a network. Missing facts justify the downgrade. The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance.",
+          "productVerdict": "Engram is a watchable crowdfunding signal because it treats AI uncertainty as playable sound material rather than asking the model to finish a song. Verdict: weak/unverified. The direction has dated scan support; hardware, interaction, specifications, and delivery are not independently confirmed. The cited material is used only for the stated product facts. Any price, version, region, interface, battery, success-rate, privacy, or shipping detail not disclosed by the source remains source not stated and is not inferred from marketing language or appearance."
         }
       }
     },

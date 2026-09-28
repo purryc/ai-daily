@@ -26,6 +26,14 @@ const targets = [
   [
     "ai-smart-glasses-wearable-intelligence-arxiv-2026-09-28.png",
     "https://arxiv.org/abs/2609.19793"
+  ],
+  [
+    "soundhound-oasys-edge-official-2026-09-28.png",
+    "https://www.soundhound.com/newsroom/soundhound-ai-introduces-oasys-edge-bringing-fully-embedded-agentic-voice-ai-to-vehicles-and-smart-devices"
+  ],
+  [
+    "engram-kickstarter-scan-2026-09-28.png",
+    "https://aitoolly.com/ai-news/2026-09-28"
   ]
 ];
 
