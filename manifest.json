@@ -1,5 +1,218 @@
 [
   {
+    "date": "2026-09-29",
+    "zhTitle": "AI 进入边缘、房间与开发者运行时：今天的产品边界在哪里",
+    "enTitle": "AI moves into edge hardware, rooms, and developer runtimes: where is the boundary?",
+    "zhSummary": "Advantech ASR-D501 把感知、定位与任务推理压进无人机边缘计算；Sonos 27 用 Beam Ultra 与 Ace Ultra 让声音在房间和耳边接力；OpenAI DevDay 只确认 API 与工具入口，现场新品保持扫描。今天的共同问题是：当 AI 获得更多物理或系统权限，用户能否看见状态、撤销动作并在失败时接管。",
+    "enSummary": "Advantech's ASR-D501 moves perception, localisation, and mission reasoning onto drone edge hardware; Sonos 27 uses Beam Ultra and Ace Ultra to hand sound between room and person; OpenAI DevDay confirms the API and tools surface while its live product list remains a scan. The shared question is whether users can see state, undo actions, and take over when AI gains more physical or system authority.",
+    "tags": [
+      "edge AI",
+      "autonomous UAV",
+      "Sonos 27",
+      "agentic audio",
+      "OpenAI DevDay",
+      "developer surface",
+      "agentic phones",
+      "Qwen Intelligence",
+      "MagicOS 11",
+      "Qwen Book",
+      "QwenNote A2",
+      "OASYS Edge",
+      "crowdfunding",
+      "HCI",
+      "personal AI agents",
+      "AI hardware",
+      "smart glasses",
+      "agentic commerce",
+      "Meta Connect",
+      "Ray-Ban Meta Audio",
+      "Muse",
+      "Private Processing",
+      "Meta VR Glasses",
+      "spatial computing",
+      "Snapdragon 8 Elite Gen 6",
+      "on-device AI",
+      "Sensing Hub",
+      "agentic wearables",
+      "rabbit OS3",
+      "direct computer control",
+      "universal skills",
+      "Meta Muse",
+      "Secure VM",
+      "Sentinel",
+      "VONDER",
+      "privacy-first eyewear",
+      "Personal Memory Graph",
+      "openJiuwen",
+      "WorkSwarm",
+      "Agent Studio",
+      "Qwen platform",
+      "Agentic PC",
+      "Qwen N1",
+      "Qwen N1 Pro",
+      "eye tracking",
+      "iris payment",
+      "Googlebook",
+      "Gemini Intelligence",
+      "Magic Pointer",
+      "Android 17",
+      "Snapdragon Summit",
+      "camera-free glasses",
+      "privacy",
+      "Horizon Ultra",
+      "Snapdragon X2 Elite",
+      "enterprise PC",
+      "Trip.Biz Agent ONE",
+      "business travel",
+      "Rokid",
+      "AI glasses",
+      "first-person intelligence",
+      "Agentic Cloud",
+      "Huawei Cloud",
+      "AI Hardware Zone",
+      "Snap SPECS",
+      "Agents API"
+    ],
+    "sourceTypes": [
+      "official",
+      "developer docs",
+      "reviews",
+      "community",
+      "wild",
+      "research",
+      "patent",
+      "china",
+      "global"
+    ],
+    "coverStory": {
+      "topicId": "advantech-asr-d501-autonomous-drone-edge-computer-2026-09-29",
+      "zhTitle": "边缘 AI 不再是模型演示：它开始接管飞行、房间与系统运行时",
+      "enTitle": "Edge AI is no longer a model demo: it is entering flight, rooms, and runtimes",
+      "zhSummary": [
+        "ASR-D501 把无人机的感知与任务推理放到机载边缘计算层，飞控仍保留实时稳定与执行器控制。",
+        "Sonos 27 把家庭音频和个人耳机连成可切换的系统，开发者平台则把长任务 Agent 的 sandbox、tools 与上下文管理产品化。",
+        "三条路线的验收共同指向状态可见、权限可审计、失败可恢复，而不是只看 TOPS、音质或 keynote。"
+      ],
+      "enSummary": [
+        "ASR-D501 puts drone perception and mission reasoning on airborne edge compute while leaving real-time stabilisation and actuators to the flight controller.",
+        "Sonos 27 connects home audio and personal headphones into a handoff system, while developer platforms productise sandboxes, tools, and context management for long-running agents.",
+        "All three routes share an acceptance test: visible state, auditable authority, and recoverable failure, not just TOPS, sound quality, or keynote language."
+      ],
+      "imagePath": "assets/advantech-asr-d501-official-2026-09-29.png",
+      "imageWidth": 1600,
+      "imageHeight": 900,
+      "imageSourceUrl": "https://adv-www-jp.azurewebsites.net/en-us/resources/news/asr-d501-grand-launch",
+      "primarySourceUrl": "https://adv-www-jp.azurewebsites.net/en-us/resources/news/asr-d501-grand-launch",
+      "evidenceStrength": "Advantech official launch · edge AI infrastructure for autonomous UAVs",
+      "whyCover": "The clearest new product boundary is where AI inference meets physical authority: a drone can perceive locally, but the system must still show who controls motion and how failure is recovered."
+    },
+    "designDesk": {
+      "zhTitle": "Design Desk：无屏与端侧 Agent 必须把状态还给用户",
+      "enTitle": "Design Desk: displayless and on-device agents must return state to the user",
+      "zhIntro": "今天的产品把 Agent 放进眼镜、耳机、手机芯片、空间窗口和云端保密执行环境。交互验收要看设备是否知道自己在听什么、记住什么、把任务交给哪里，以及用户能否暂停、删除和接管。",
+      "enIntro": "Today's products put agents in glasses, earbuds, phone silicon, spatial windows, and confidential cloud runtimes. Acceptance must inspect what the device hears, remembers, and hands off, plus whether the user can pause, delete, and take over.",
+      "zhItems": [
+        {
+          "label": "先标设备",
+          "body": "跨设备任务要明确显示当前执行节点、文件去向和下一步会改变什么。"
+        },
+        {
+          "label": "凭据不等于权限",
+          "body": "Agent 能使用密码不代表能自由发送、购买或修改；服务级授权必须可读。"
+        },
+        {
+          "label": "记忆要能撤回",
+          "body": "Personal Memory Graph、persistent context 和主动建议都要有查看、忘记与静默入口。"
+        },
+        {
+          "label": "技能要有版本",
+          "body": "可安装 skill 和开源 Agent 资产要显示来源、版本、依赖、权限和回滚。"
+        },
+        {
+          "label": "无屏设备更要反馈",
+          "body": "没有显示的眼镜必须用音频、手机和实体操作补足监听、执行和取消状态。"
+        },
+        {
+          "label": "议程仍然是 scan",
+          "body": "发布会主题、媒体预告、论文与专利都不能替代硬件页、SDK 和实机证据。"
+        }
+      ],
+      "enItems": [
+        {
+          "label": "Label the device first",
+          "body": "Cross-device work must show the active node, file destination, and the next state change."
+        },
+        {
+          "label": "Credentials are not permission",
+          "body": "Using a password does not mean sending, buying, or editing freely; service-level access must be legible."
+        },
+        {
+          "label": "Make memory reversible",
+          "body": "Personal Memory Graph, persistent context, and proactive suggestions need inspect, forget, and quiet controls."
+        },
+        {
+          "label": "Give skills a version",
+          "body": "Installable skills and open agent assets need source, version, dependency, permission, and rollback."
+        },
+        {
+          "label": "No display means more feedback",
+          "body": "Displayless glasses need audio, phone, and physical controls to expose listening, execution, and cancel state."
+        },
+        {
+          "label": "An agenda is still a scan",
+          "body": "Event themes, previews, papers, and patents cannot replace hardware pages, SDKs, and device evidence."
+        }
+      ]
+    },
+    "watchlistZh": [
+      "ASR-D501：真实机型、模型/框架、功耗与续航、GNSS-denied 成功率、飞控接管、认证和客户部署。",
+      "Sonos 27：27voice / 27mcp 权限、跨房间目标反馈、多人账号、离线能力、Ace Ultra Early Access 退出时间。",
+      "OpenAI DevDay：官方 release notes、API/SDK 版本、sandbox 清理、成本、权限、回滚和 keynote 后新增产品。",
+      "OASYS Edge：真实客户硬件、端云切换、模型尺寸、离线准确率、晚 2026 部署与 CES 2027 演示。",
+      "Engram：原始 Kickstarter 页、样机音频、接口、延迟、版权、退款和发货条件。",
+      "Magic9 / Qwen Intelligence：跨 App 权限、GUI fallback 审计、任务回滚、支付确认、非中文与弱网成功率。",
+      "Qwen Book：零售硬件、文件 diff、第三方应用、离线与企业私有部署、手机审批是否可恢复。",
+      "QwenNote A2：录音灯、旁人同意、文本级联删除、组织后台权限、多语言和多人噪声。",
+      "Muse Charm：最终形态、价格、麦克风/录音灯、手机依赖、续航、12 月发货与无屏 Agent 的取消/忘记路径。",
+      "Meta Wearables DAT 1.0：9 月 30 日 rollout、兼容眼镜、iOS/Android parity、权限粒度、发现入口与真实开发者迁移成本。",
+      "Awear：合作设备、可迁移记忆、Agent 身份归属、SDK/API、跨品牌 handoff 与首个可购买硬件。",
+      "Qualcomm × Mastercard：订单状态、付款确认、退款/拒付、商户透明、跨设备接管和真实支付可用性。",
+      "Ray-Ban Meta Audio / Muse：无显示动作确认、记忆删除、安静时段、Private Processing 独立验证与 10 月发货后的真实续航。",
+      "Meta VR Glasses：puck 与线缆、真实视场角、3 小时媒体续航、眼动隐私、处方适配与 2027 年春季上市。",
+      "Snapdragon 8 Elite Gen 6：首批终端、本地 30B MoE 的真实功耗、Sensing Hub 记忆控制、公开运行时与 OEM 权限。",
+      "rabbit OS3：skill 安装信任提示、跨设备文件审计、direct computer control 的确认/回滚、订阅与企业管理。",
+      "Meta Muse：Secure VM 的真实权限粒度、审计可读性、主动建议节奏、Confidential VM 密钥和 AI 眼镜接入。",
+      "VONDER：9 月 28 日价格、麦克风/续航/记忆删除、无显示反馈与 11 月实机评测。",
+      "openJiuwen 与千问平台：Agent 资产版本、RAG 来源、API/计费、权限、企业部署和可观测性。",
+      "Meta Connect / Snapdragon Summit：新硬件、SDK、统一计算层、Agentic PC 真实演示与跨设备 handoff。"
+    ],
+    "watchlistEn": [
+      "ASR-D501: real airframes, models/frameworks, power and endurance, GNSS-denied success, flight-control takeover, certification, customers.",
+      "Sonos 27: 27voice/27mcp authority, cross-room target feedback, multi-account, offline behaviour, and Ace Ultra Early Access exit.",
+      "OpenAI DevDay: official release notes, API/SDK versions, sandbox cleanup, cost, authority, rollback, and post-keynote products.",
+      "OASYS Edge: customer hardware, cloud-edge handoff, model size, offline accuracy, late-2026 deployment, and CES 2027 demo.",
+      "Engram: original Kickstarter page, prototype audio, I/O, latency, copyright, refunds, and delivery.",
+      "Magic9 / Qwen Intelligence: cross-app authority, GUI-fallback audit, rollback, payment approval, non-Chinese and weak-network success.",
+      "Qwen Book: retail hardware, file diffs, third-party apps, offline and private deployment, and recoverable phone approval.",
+      "QwenNote A2: recording light, bystander consent, cascading text deletion, organisation access, multilingual and noisy-room accuracy.",
+      "Muse Charm: final form, price, microphones and recording light, phone dependency, battery, December shipping, and screen-light cancel/forget flows.",
+      "Meta Wearables DAT 1.0: September 30 rollout, compatible glasses, iOS/Android parity, permission granularity, discovery, and real migration cost.",
+      "Awear: partner devices, portable memory, agent ownership, SDK/API, cross-brand handoff, and the first shippable hardware.",
+      "Qualcomm and Mastercard: order state, payment approval, refunds and chargebacks, merchant transparency, cross-device takeover, and real availability.",
+      "Ray-Ban Meta Audio / Muse: displayless action confirmation, memory deletion, quiet hours, independent Private Processing verification, and real runtime after October shipping.",
+      "Meta VR Glasses: puck and tether, real field of view, three-hour media runtime, gaze privacy, prescription fit, and spring 2027 launch.",
+      "Snapdragon 8 Elite Gen 6: first devices, real power use for local 30B MoE, Sensing Hub memory controls, public runtimes, and OEM permissions.",
+      "rabbit OS3: skill-install trust prompts, cross-device file audit, direct-computer-control confirmation/rollback, pricing, and enterprise administration.",
+      "Meta Muse: Secure VM permission granularity, audit readability, proactive timing, Confidential VM keys, and AI-glasses access.",
+      "VONDER: September 28 price, microphone/runtime/memory deletion, displayless feedback, and November hands-on review.",
+      "openJiuwen and Qwen platform: agent-asset versions, RAG provenance, API/billing, permissions, enterprise deployment, and observability.",
+      "Meta Connect / Snapdragon Summit: new hardware, SDKs, unified compute, real Agentic PC demos, and cross-device handoff."
+    ],
+    "zhPath": "./2026-09-29/zh/",
+    "enPath": "./2026-09-29/en/",
+    "sourcesPath": "./2026-09-29/sources.md"
+  },
+  {
     "date": "2026-09-28",
     "zhTitle": "Agent 开始进入默认系统：手机、桌面与现实上下文",
     "enTitle": "Agents enter the default system: phones, desktops, and real-world context",
