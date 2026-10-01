@@ -1,5 +1,230 @@
 [
   {
+    "date": "2026-10-01",
+    "zhTitle": "AI 眼镜开始进入体验与开发者入口：今天看谁把 Agent 放到眼前",
+    "enTitle": "AI glasses move into hands-on and developer surfaces: who puts the Agent in view?",
+    "zhSummary": "Snap SPECS 在 10 月 1 日进入线下 First Look；MemoMind One 开放第二阶段开发者访问；Meta Toolkit 1.0 把移动、Web、API/MCP connector 拉进眼镜生态；Hojo 与 WQ7036/Hawk-Dolphin 分别代表 startup middleware 与中国供应链参考设计。今天的验收重点是主动性、权限、端侧数据路径和可退出性。",
+    "enSummary": "Snap SPECS reaches an October 1 First Look; MemoMind One opens a second developer-access phase; Meta Toolkit 1.0 brings mobile, web, and API/MCP connectors into the glasses ecosystem; Hojo and WQ7036/Hawk-Dolphin represent startup middleware and a China supply-chain reference design. Today's acceptance test is anticipation, authority, edge data paths, and exit.",
+    "tags": [
+      "AI glasses",
+      "SPECS",
+      "MemoMind One",
+      "Meta Wearables Toolkit",
+      "AgenticOS",
+      "edge AI",
+      "developer surface",
+      "persistent agents",
+      "OpenAI Dots",
+      "agent safety",
+      "OpenShell",
+      "Atlas Agent Engine",
+      "Microsoft Copilot",
+      "authority",
+      "memory",
+      "autonomous UAV",
+      "Sonos 27",
+      "agentic audio",
+      "OpenAI DevDay",
+      "agentic phones",
+      "Qwen Intelligence",
+      "MagicOS 11",
+      "Qwen Book",
+      "QwenNote A2",
+      "OASYS Edge",
+      "crowdfunding",
+      "HCI",
+      "personal AI agents",
+      "AI hardware",
+      "smart glasses",
+      "agentic commerce",
+      "Meta Connect",
+      "Ray-Ban Meta Audio",
+      "Muse",
+      "Private Processing",
+      "Meta VR Glasses",
+      "spatial computing",
+      "Snapdragon 8 Elite Gen 6",
+      "on-device AI",
+      "Sensing Hub",
+      "agentic wearables",
+      "rabbit OS3",
+      "direct computer control",
+      "universal skills",
+      "Meta Muse",
+      "Secure VM",
+      "Sentinel",
+      "VONDER",
+      "privacy-first eyewear",
+      "Personal Memory Graph",
+      "openJiuwen",
+      "WorkSwarm",
+      "Agent Studio",
+      "Qwen platform",
+      "Agentic PC",
+      "Qwen N1",
+      "Qwen N1 Pro",
+      "eye tracking",
+      "iris payment",
+      "Googlebook",
+      "Gemini Intelligence",
+      "Magic Pointer",
+      "Android 17",
+      "Snapdragon Summit",
+      "camera-free glasses",
+      "privacy",
+      "Horizon Ultra",
+      "Snapdragon X2 Elite",
+      "enterprise PC",
+      "Trip.Biz Agent ONE",
+      "business travel",
+      "Rokid",
+      "first-person intelligence",
+      "Agentic Cloud",
+      "Huawei Cloud",
+      "AI Hardware Zone",
+      "Snap SPECS",
+      "Agents API"
+    ],
+    "sourceTypes": [
+      "official",
+      "developer docs",
+      "reviews",
+      "community",
+      "wild",
+      "research",
+      "patent",
+      "china",
+      "global"
+    ],
+    "coverStory": {
+      "topicId": "snap-specs-intelligence-first-look-2026-10-01",
+      "zhTitle": "从发布会到佩戴现场：AI 眼镜开始争夺 Agent 的第一视图",
+      "enTitle": "From announcement to the wearer: AI glasses compete to become the Agent's first view",
+      "zhSummary": [
+        "Snap SPECS 在 10 月 1 日打开线下体验，开始验证眼镜是否能成为跨设备 Agent 的第一视图。",
+        "MemoMind One 和 Meta 把开发者入口向 SDK、Web、API 与 MCP 扩展，平台能力正在比单个 demo 更重要。",
+        "Hojo 的 middleware 与 WQ7036 的参考设计仍处于不同证据等级，必须把可交付产品、developer surface、startup signal 分开。"
+      ],
+      "enSummary": [
+        "Snap SPECS opens a hands-on experience on October 1, testing whether glasses can become the first view for a cross-device Agent.",
+        "MemoMind One and Meta widen the builder surface through SDK, web, API, and MCP paths, making platform capability more important than a single demo.",
+        "Hojo middleware and the WQ7036 reference design sit at different evidence levels; shipped product, developer surface, and startup signal must remain distinct."
+      ],
+      "imagePath": "assets/snap-specs-first-look-official-2026-10-01.png",
+      "imageWidth": 1600,
+      "imageHeight": 900,
+      "imageSourceUrl": "https://www.tomsguide.com/computing/smart-glasses/snap-specs-hands-on-review",
+      "primarySourceUrl": "https://www.tomsguide.com/computing/smart-glasses/snap-specs-hands-on-review",
+      "evidenceStrength": "Snap official announcement; October 1 First Look is a public hands-on event, while full retail and regional details remain incomplete",
+      "whyCover": "AI glasses are moving from a visual promise to a testable surface: hands-on access, developer access, and visible system boundaries now matter together."
+    },
+    "designDesk": {
+      "zhTitle": "Design Desk：眼镜的主动性必须可解释、可暂停、可退出",
+      "enTitle": "Design Desk: eyewear anticipation must be explainable, pausable, and reversible",
+      "zhIntro": "今天的产品把 Agent 放进眼前视野、眼镜 SDK、Web connector 和端侧芯片；设计验收要同时看主动触发、摄录状态、端云边界、开发者权限、热与电量反馈，以及用户是否能删除记忆、撤回动作和离开平台。",
+      "enIntro": "Today's products put Agents into the field of view, eyewear SDKs, web connectors, and edge silicon; design acceptance must inspect anticipation, capture state, edge/cloud boundaries, developer authority, thermal and battery feedback, and whether users can delete memory, undo actions, and leave the platform.",
+      "zhItems": [
+        {
+          "label": "主动性解释",
+          "body": "每次主动出现都显示触发的目标、连接、习惯与下一步，不能把预测伪装成用户指令。"
+        },
+        {
+          "label": "摄录可见",
+          "body": "摄像头、麦克风、屏幕、云端与旁人提示要在眼镜、手机和服务层保持一致。"
+        },
+        {
+          "label": "端侧边界",
+          "body": "把原始音视频、特征、prompt、模型、embedding 与日志分别标注在哪一层处理。"
+        },
+        {
+          "label": "Connector 权限",
+          "body": "API/MCP action 需要参数预览、批准、写入对象、回滚与审计，而非只显示成功。"
+        },
+        {
+          "label": "开发者失败",
+          "body": "SDK 要让开发者测试断连、无网、低电、过热、权限拒绝和设备差异，不能只给 happy path。"
+        },
+        {
+          "label": "离开平台",
+          "body": "长期记忆、账号连接、设备历史和已授权动作要可导出、删除、撤销和迁移。"
+        }
+      ],
+      "enItems": [
+        {
+          "label": "Explain anticipation",
+          "body": "Show the goal, connection, routine, and next step behind every proactive appearance; prediction is not a user command."
+        },
+        {
+          "label": "Visible capture",
+          "body": "Camera, mic, display, cloud, and bystander signals must stay consistent across glasses, phone, and service."
+        },
+        {
+          "label": "Edge boundary",
+          "body": "Label where raw audio/video, features, prompts, models, embeddings, and logs are processed."
+        },
+        {
+          "label": "Connector authority",
+          "body": "API/MCP actions need parameter preview, approval, write target, rollback, and audit, not only success."
+        },
+        {
+          "label": "Developer failure",
+          "body": "SDKs must test disconnect, offline, low battery, heat, denied permission, and device variance beyond the happy path."
+        },
+        {
+          "label": "Leave the platform",
+          "body": "Long-term memory, account links, device history, and authorised actions must be exportable, deletable, revocable, and portable."
+        }
+      ]
+    },
+    "watchlistZh": [
+      "Snap SPECS：First Look 实机反馈、普通购买路径、摄录提示、视野/续航、SPECS Intelligence 的主动性控制。",
+      "MemoMind One：One Glass SDK 文档、App Workspace beta 审核、BLE 安全、53 语言质量与真实设备失败状态。",
+      "Meta Toolkit 1.0：Web app、API/MCP connector 的权限预览、发现入口、费用、日志、设备矩阵和 rollout 范围。",
+      "Hojo AgenticOS：公开 SDK/API、命名客户、记忆导出、品牌责任、动作撤销和可退出性。",
+      "WQ7036/Hawk/Dolphin：下游型号、端侧功耗/热、数据路径、量产与可替换供应商。",
+      "OpenAI Dots：官方产品页、套餐/价格、云端权限、后台通知、记忆删除、停止与审计。",
+      "NVIDIA OpenShell / Sentry：非 NVIDIA 平台等价性、真实策略案例、自动批准、误报与隔离评测。",
+      "MongoDB Atlas Agent Engine：正式 API、模型/框架矩阵、数据驻留、记忆删除、成本与客户实测。",
+      "Microsoft Autopilot：触发机制、运行频率、Office 变更历史、代码隔离、企业管理员控制。",
+      "ASR-D501：真实机型、模型/框架、功耗与续航、GNSS-denied 成功率、飞控接管、认证和客户部署。",
+      "Sonos 27：27voice / 27mcp 权限、跨房间目标反馈、多人账号、离线能力、Ace Ultra Early Access 退出时间。",
+      "OpenAI DevDay：官方 release notes、API/SDK 版本、sandbox 清理、成本、权限、回滚和 keynote 后新增产品。",
+      "OASYS Edge：真实客户硬件、端云切换、模型尺寸、离线准确率、晚 2026 部署与 CES 2027 演示。",
+      "Engram：原始 Kickstarter 页、样机音频、接口、延迟、版权、退款和发货条件。",
+      "Magic9 / Qwen Intelligence：跨 App 权限、GUI fallback 审计、任务回滚、支付确认、非中文与弱网成功率。",
+      "Qwen Book：零售硬件、文件 diff、第三方应用、离线与企业私有部署、手机审批是否可恢复。",
+      "QwenNote A2：录音灯、旁人同意、文本级联删除、组织后台权限、多语言和多人噪声。",
+      "Muse Charm：最终形态、价格、麦克风/录音灯、手机依赖、续航、12 月发货与无屏 Agent 的取消/忘记路径。",
+      "Meta Wearables DAT 1.0：9 月 30 日 rollout、兼容眼镜、iOS/Android parity、权限粒度、发现入口与真实开发者迁移成本。",
+      "Awear：合作设备、可迁移记忆、Agent 身份归属、SDK/API、跨品牌 handoff 与首个可购买硬件。"
+    ],
+    "watchlistEn": [
+      "Snap SPECS: First Look hands-on feedback, ordinary purchase path, capture indicators, field of view/battery, and SPECS Intelligence controls.",
+      "MemoMind One: One Glass SDK docs, App Workspace review, BLE security, 53-language quality, and real-device failure states.",
+      "Meta Toolkit 1.0: web app and API/MCP authority preview, discovery, cost, logs, device matrix, and rollout scope.",
+      "Hojo AgenticOS: public SDK/API, named customers, memory export, brand responsibility, action undo, and exit.",
+      "WQ7036/Hawk/Dolphin: downstream models, edge power/thermal, data paths, production, and supplier replaceability.",
+      "OpenAI Dots: official product page, plans/pricing, cloud authority, background notices, memory deletion, stop, and audit.",
+      "NVIDIA OpenShell / Sentry: non-NVIDIA equivalence, real policy cases, auto-approval, false positives, and quarantine tests.",
+      "MongoDB Atlas Agent Engine: formal API, model/framework matrix, data residency, memory deletion, cost, and customer evidence.",
+      "Microsoft Autopilot: triggers, run frequency, Office history, code isolation, and enterprise-admin controls.",
+      "ASR-D501: real airframes, models/frameworks, power and endurance, GNSS-denied success, flight-control takeover, certification, customers.",
+      "Sonos 27: 27voice/27mcp authority, cross-room target feedback, multi-account, offline behaviour, and Ace Ultra Early Access exit.",
+      "OpenAI DevDay: official release notes, API/SDK versions, sandbox cleanup, cost, authority, rollback, and post-keynote products.",
+      "OASYS Edge: customer hardware, cloud-edge handoff, model size, offline accuracy, late-2026 deployment, and CES 2027 demo.",
+      "Engram: original Kickstarter page, prototype audio, I/O, latency, copyright, refunds, and delivery.",
+      "Magic9 / Qwen Intelligence: cross-app authority, GUI-fallback audit, rollback, payment approval, non-Chinese and weak-network success.",
+      "Qwen Book: retail hardware, file diffs, third-party apps, offline and private deployment, and recoverable phone approval.",
+      "QwenNote A2: recording light, bystander consent, cascading text deletion, organisation access, multilingual and noisy-room accuracy.",
+      "Muse Charm: final form, price, microphones and recording light, phone dependency, battery, December shipping, and screen-light cancel/forget flows.",
+      "Meta Wearables DAT 1.0: September 30 rollout, compatible glasses, iOS/Android parity, permission granularity, discovery, and real migration cost.",
+      "Awear: partner devices, portable memory, agent ownership, SDK/API, cross-brand handoff, and the first shippable hardware."
+    ],
+    "zhPath": "./2026-10-01/zh/",
+    "enPath": "./2026-10-01/en/",
+    "sourcesPath": "./2026-10-01/sources.md"
+  },
+  {
     "date": "2026-09-30",
     "zhTitle": "Agent 开始长期运行：今天的产品把权限、记忆与执行放在哪里？",
     "enTitle": "Agents start running for longer: where do products put authority, memory, and execution?",
