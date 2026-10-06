@@ -7,9 +7,11 @@ import {
   validateIssue,
   validatePageCount,
   selectIssueDates,
+  validateIllustratedIssue,
 } from "./lib/issue-policy.mjs";
 import { checkPdfPages, validatePdfExportMetadata } from "./lib/pdf-check.mjs";
 import { allIssueTopics } from "./lib/topic-content.mjs";
+import { buildVisualSlides } from "./lib/issue-visuals.mjs";
 import { createStaticServer } from "./lib/static-server.mjs";
 const root = path.resolve(fileURLToPath(new URL("..", import.meta.url)));
 const issues = await readIssues(root);
@@ -32,6 +34,7 @@ try {
   for (const date of dates) {
     const issue = issues.find((issue) => issue.date === date);
     validateIssue(issue, issues);
+    if (issue.requireProductVisuals) validateIllustratedIssue(issue);
     const dailyManifest = JSON.parse(await read(`${date}/manifest.json`));
     if (
       dailyManifest.cutoff !== issue.cutoff ||
@@ -110,7 +113,8 @@ try {
             let sourceBytes;
             try { sourceBytes = await fs.readFile(path.join(root, `data/editions/${date}.json`)); }
             catch (error) { if (error.code !== "ENOENT") throw error; sourceBytes = Buffer.from(JSON.stringify(issue)); }
-            validatePdfExportMetadata({ metadata, date, locale, sourceBytes, pdfPages, htmlPages: result.pages });
+            const editorialPagePlan = buildVisualSlides(issue, locale).map(({id,type,topicIds})=>({id,type,topicIds}));
+            validatePdfExportMetadata({ metadata, date, locale, sourceBytes, pdfPages, htmlPages: result.pages, editorialPagePlan });
           }
           // Inspect every active page; hidden slides have zero geometry on screen.
           const next = page.locator("[data-next-slide]");

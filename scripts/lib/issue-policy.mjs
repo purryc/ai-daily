@@ -15,6 +15,12 @@ export const SOURCE_LANES = [
   "china",
   "global",
 ];
+export function validateIllustratedIssue(issue) {
+  for (const topic of allIssueTopics(issue))
+    if (!allTopicVisuals(topic).length)
+      throw new Error(`Verified factual visual required for featured story ${topic.id}; obtain evidence imagery or withhold the story, never invent it`);
+  return true;
+}
 const labels = new Set([
   "confirmed product",
   "developer surface",
@@ -195,7 +201,7 @@ export function selectEvents(
     .filter((i) => i.date < date)
     .sort((a, b) => b.date.localeCompare(a.date))
     .flatMap((i) =>
-      allIssueTopics(i).map((topic) => ({ topic, date: i.date })),
+      [...allIssueTopics(i),...(i.coveredTopics??[])].map((topic) => ({ topic, date: i.date })),
     );
   for (const input of candidates) {
     const topic = structuredClone(input);
@@ -293,7 +299,10 @@ export function selectEvents(
         normalized(i.topic.event.productKey) ===
           normalized(topic.event?.productKey),
     );
-    if (previous) topic.event.previousIssue = previous.date;
+    if (previous) {
+      topic.event.previousIssue = previous.date;
+      if(previous.topic.publicationCommit)topic.event.previousPublicationCommit=previous.topic.publicationCommit;
+    }
     topics.push(topic);
   }
   return { topics, excluded };

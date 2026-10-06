@@ -9,8 +9,9 @@ https://purryc.github.io/ai-daily/
 - Deduplicate by product, event/version, normalized source URL and source date, within an issue and against the archive
 - A same-product follow-up needs a substantive Chinese/English delta and new evidence. Link its previous issue
 - Legacy records lack structured event dates. A new event on an already-used stable legacy URL is conservatively quarantined until its old coverage can be reviewed and migrated; a newly dated secondary recap cannot override that protection
-- Use four clear introduction units in both languages: what it is, what changed, how to use it, and limits. Add sourced detail pages for important hardware, models, interactions, papers, patents and startup signals. Aim for about 15 minutes of useful reading and viewing; there are no artificial word/story quotas
+- Use four clear introduction units in both languages: what it is, what changed, how to use it, and limits. Integrate essential sourced explanations, figures and demo controls on one readable page per story. Aim for about 15 minutes of useful reading and viewing; there are no artificial word/story quotas
 - Prefer several informative factual product, UI and interaction figures, each with source, caption, alt text and role. Explain unavailable imagery explicitly. Never manufacture a product visual
+- One contents page, normally one substantial illustrated page per story, and one references page with all provenance links. The full source ledger stays outside the main reading route
 - Maximum 50 printed pages per language, checked against both HTML and the actual PDF. An honest no-news issue is valid
 - Research, build and verify in the cloud. Do not write daily copies into a Mac folder
 - Preserve the historical archive and assets. Update only this existing Pages site
@@ -38,8 +39,8 @@ Each candidate needs:
 - `sources[]`: `label`, `url`, `type`, `publishedAt`, `verifiedAt`, `isPrimary`
 - `brief.zh` and `brief.en`: `what`, `change`, `use`, `limits`
 - `visuals[]`: `path` such as `assets/product.webp`, `kind` containing `source-backed`, `sourceUrl`, `capturedAt`, `altZh`, `altEn`, `captionZh`, `captionEn`, `role`
-- Or `visualMissing: { zh, en }` explaining why no factual visual could be obtained
-- Optional `detailPages[]`: `id`, `zhTitle`, `enTitle`, bilingual `points[]` with retained `sourceUrls`, and additional factual `visuals[]`
+- Research drafts may use `visualMissing: { zh, en }`; final inputs with `requireProductVisuals: true` must have a verified meaningful figure for every featured fresh/background story
+- Optional `detailPages[]`: `id`, `zhTitle`, `enTitle`, bilingual `points[]` with retained `sourceUrls`, and additional factual `visuals[]`, integrated into the same story page rather than automatically producing continuation pages
 - Optional `media[]` on a topic or detail page: `kind` video/gif/official-link, official `url`, `sourceUrl`, full factual `poster` object, bilingual captions/what-to-observe and `verifiedAt`. Click-to-play only; the PDF uses the verified static frame and source. Large demos are not rehosted
 - Optional small `contextCandidates[]` pool uses `coverageKind: first-inclusion-context`, the actual older event/publication date, and a separate background-learning section. It is still deduplicated against history and is never labeled new today
 - Optional `editorialPlan` and `readingEstimate` describe the approximately 15-minute reading route and transparent speed/figure assumptions, not guaranteed completion time
@@ -62,7 +63,7 @@ npm run test:all
 
 `npm test` runs the complete suite, including real Chromium PDF rendering. `npm run test:unit` covers policy, archive preservation, server paths and actual PDF page-count boundaries without launching a browser. `npm run test:browser` runs the browser stage alone. A blocked browser stage must be reported as not run; passing unit tests alone does not authorize a completion claim.
 
-The standard browser PDF export remains available on build machines that support Chromium. When browser printing is unavailable, install the pinned Python dependencies with `python3 -m pip install -r requirements-pdf.txt`, provide an installed Noto Sans CJK font, and run `AI_DAILY_DATES=2026-10-06 npm run pdf:static`. This invokes a separate data-driven ReportLab layout; inspect its actual page count, text completeness and rendered images before delivery. Do not claim that it is an exact browser-print rendering. `pdf-export.json` records the renderer, actual bilingual page counts and the SHA256 of the exact edition input. Validation rejects stale sidecars; only Chromium exports require HTML/PDF page-count equality.
+The standard browser PDF export remains available on build machines that support Chromium. When browser printing is unavailable, install the pinned Python dependencies with `python3 -m pip install -r requirements-pdf.txt`, provide an installed Noto Sans CJK font, and run `AI_DAILY_DATES=2026-10-06 npm run pdf:static`. This invokes a separate data-driven ReportLab layout; inspect its actual page count, text completeness and rendered images before delivery. Do not claim that it is an exact browser-print rendering. `pdf-export.json` records the renderer, actual bilingual page counts and the SHA256 of the exact edition input. Validation rejects stale sidecars; shared editorial exports require matching story-page plans and page counts; only their physical layout differs from browser printing.
 
 Build and PDF commands default to the latest issue only. `AI_DAILY_DATES` may explicitly select comma-separated dates, but never silently regenerates the archive. Missing evidence assets fail clearly and are not replaced with generated diagrams. PDFs are written atomically only after page-count validation.
 

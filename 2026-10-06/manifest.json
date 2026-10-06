@@ -2,8 +2,8 @@
   "date": "2026-10-06",
   "timezone": "America/Toronto",
   "editorialVersion": 2,
-  "cutoff": "2026-10-06T12:42:00-04:00",
-  "lookbackDays": 2,
+  "cutoff": "2026-10-06T16:17:28-04:00",
+  "lookbackDays": 3,
   "laneScans": [
     {
       "lane": "official",
@@ -82,6 +82,325 @@
   ],
   "excludedCandidates": [],
   "contextTopics": [
+    {
+      "id": "surface-physical-ai-inputs-announced-2026-09-24",
+      "section": "official",
+      "evidenceLabel": "confirmed product",
+      "zhHeadline": "Surface：笔画成上下文，鼠标把点击结果变成触感",
+      "enHeadline": "Surface adds pen-first AI context and haptic mouse feedback",
+      "event": {
+        "productKey": "microsoft-surface-physical-input-2026",
+        "kind": "announcement",
+        "key": "surface-physical-ai-inputs-announced-2026-09-24",
+        "occurredAt": "2026-09-24",
+        "summaryZh": "Surface：笔画成上下文，鼠标把点击结果变成触感",
+        "summaryEn": "Surface adds pen-first AI context and haptic mouse feedback",
+        "deltaZh": "首次收录9月24日公告：Surface Pro 12-inch (2nd edition)配Ink Canvas；新Surface Mouse有Copilot动作键及触觉反馈。10月13日在指定市场开售，不是10月6日发布",
+        "deltaEn": "First inclusion of the September 24 announcement: Surface Pro 12-inch (2nd edition) adds Ink Canvas; the new Surface Mouse adds a Copilot action button and haptics. Selected-market availability is October 13, not an October 6 launch"
+      },
+      "eventSourceUrl": "https://news.microsoft.com/source/latam/company-news-es/surface-pro-12-surface-laptop-13-snapdragon-x2-plus",
+      "sources": [
+        {
+          "label": "Microsoft official Surface and Mouse announcement",
+          "url": "https://news.microsoft.com/source/latam/company-news-es/surface-pro-12-surface-laptop-13-snapdragon-x2-plus",
+          "type": "official",
+          "publishedAt": "2026-09-24",
+          "verifiedAt": "2026-10-06T19:41:52Z",
+          "isPrimary": true,
+          "dateEvidence": {
+            "kind": "publication-date",
+            "date": "2026-09-24",
+            "quote": "Article date: septiembre 24, 2026"
+          }
+        },
+        {
+          "label": "Microsoft Germany: regional dates and prices",
+          "url": "https://news.microsoft.com/source/emea/2026/09/neue-surface-geraete-mit-snapdragon-x2-plus-prozessor?lang=de",
+          "type": "official",
+          "publishedAt": "2026-09-24",
+          "verifiedAt": "2026-10-06T19:41:52Z",
+          "isPrimary": true
+        }
+      ],
+      "brief": {
+        "zh": {
+          "what": "实体输入产品：Surface Pro 12-inch平板＋Slim Pen的AI画布，以及新的双手通用Surface Mouse",
+          "change": "9月24日宣布、10月13日指定市场供应。鼠标79.99美元起；电脑、笔和AI计划是不同购买项",
+          "use": "用笔在Ink Canvas画、写、标注→生成图像或总结文字；鼠标动作键可设为Copilot或快捷操作，支持的点击、吸附窗口、对象对齐有触觉回馈",
+          "limits": "Slim Pen和键盘另售；画布AI需合适Microsoft 365订阅并受额度约束。鼠标自定义需Windows Surface App，功能随OS变化；普通UI触感不能写成Agent动作已验收"
+        },
+        "en": {
+          "what": "Physical input products pair a Surface Pro 12-inch tablet and Slim Pen AI canvas with a new ambidextrous Surface Mouse",
+          "change": "Announced September 24, with selected-market availability October 13. Mouse starts at US$79.99; computer, pen and AI plan are separate costs",
+          "use": "Draw, write and annotate on Ink Canvas before generating imagery or summarizing text. Customize the mouse action button for Copilot or shortcuts; supported clicks, window snapping and alignment give haptic feedback",
+          "limits": "Pen and keyboard are separate. Canvas AI requires an eligible Microsoft 365 plan and has usage limits. Mouse customization needs the Windows Surface app; haptics are ordinary UI feedback, not proof an agent task succeeded"
+        }
+      },
+      "visuals": [
+        {
+          "path": "assets/surface-hero.jpg",
+          "kind": "source-backed official product image",
+          "sourceUrl": "https://news.microsoft.com/source/latam/company-news-es/surface-pro-12-surface-laptop-13-snapdragon-x2-plus/",
+          "imageUrl": "https://news.microsoft.com/source/latam/wp-content/uploads/2026/09/SURFACE-FY27-CONS-C-Hero-Image-160.jpg",
+          "capturedAt": "2026-10-06T19:41:52Z",
+          "altZh": "微软官方产品图：新Surface Pro、磁吸笔与Surface Mouse",
+          "altEn": "Microsoft official product image: new Surface Pro, magnetic pen and Surface Mouse",
+          "captionZh": "微软官方产品图：新Surface Pro、磁吸笔与Surface Mouse",
+          "captionEn": "Microsoft official product image: new Surface Pro, magnetic pen and Surface Mouse",
+          "role": "product"
+        },
+        {
+          "path": "assets/surface-ink.png",
+          "kind": "source-backed official screenshot",
+          "sourceUrl": "https://news.microsoft.com/source/latam/company-news-es/surface-pro-12-surface-laptop-13-snapdragon-x2-plus/",
+          "imageUrl": "https://news.microsoft.com/source/latam/wp-content/uploads/2026/09/Microsoft-Ink-Canvas.png",
+          "capturedAt": "2026-10-06T19:41:52Z",
+          "altZh": "微软官方Ink Canvas界面：手写想法与图片生成共处同一画布",
+          "altEn": "Microsoft official Ink Canvas screen: handwriting and image generation on one canvas",
+          "captionZh": "微软官方Ink Canvas界面：手写想法与图片生成共处同一画布",
+          "captionEn": "Microsoft official Ink Canvas screen: handwriting and image generation on one canvas",
+          "role": "workflow"
+        },
+        {
+          "path": "assets/surface-mouse.jpg",
+          "kind": "source-backed official product image",
+          "sourceUrl": "https://news.microsoft.com/source/latam/company-news-es/surface-pro-12-surface-laptop-13-snapdragon-x2-plus/",
+          "imageUrl": "https://news.microsoft.com/source/latam/wp-content/uploads/2026/09/SURFACE-FY27-Mouse-1024x576-1.jpg",
+          "capturedAt": "2026-10-06T19:41:52Z",
+          "altZh": "微软官方Surface Mouse产品图；动作键与触觉反馈是本次输入变化",
+          "altEn": "Microsoft official Surface Mouse image; action-button and haptic feedback are the input changes",
+          "captionZh": "微软官方Surface Mouse产品图；动作键与触觉反馈是本次输入变化",
+          "captionEn": "Microsoft official Surface Mouse image; action-button and haptic feedback are the input changes",
+          "role": "product"
+        }
+      ],
+      "firstIncludedOn": "2026-10-06",
+      "isNewToday": false,
+      "archiveDedup": {
+        "issuesChecked": 77,
+        "method": "Product name, event title, identifiers and capabilities searched across all complete issue objects",
+        "status": "No matching event found"
+      },
+      "coverageKind": "first-inclusion-context"
+    },
+    {
+      "id": "starkey-omega-ai-plus-hearing-family-2026-10-01",
+      "section": "official",
+      "evidenceLabel": "confirmed product",
+      "zhHeadline": "Omega AI+：把AI声音处理、听音控制与公共广播放在耳边",
+      "enHeadline": "Omega AI+ puts adaptive sound and broadcast controls at the ear",
+      "event": {
+        "productKey": "starkey-omega-ai-plus",
+        "kind": "announcement",
+        "key": "omega-ai-plus-2026-family-launch",
+        "occurredAt": "2026-10-01",
+        "summaryZh": "新助听器产品家族以自动处理＋手机控制形成耳边AI交互",
+        "summaryEn": "A new hearing-aid family pairs automatic processing with phone controls",
+        "deltaZh": "首次收录10月1日厂商发布：新增DNN Dual Compressor、可持续启用的增强Edge Mode，扩展定制式产品的AI能力及睡眠追踪；10月5日官网介绍不是新的发售日",
+        "deltaEn": "First inclusion of the October 1 manufacturer launch: DNN Dual Compressor, continuous enhanced Edge Mode, broader AI in custom styles and sleep tracking. October 5 product coverage is not a second launch"
+      },
+      "eventSourceUrl": "https://prnewswire.com/news-releases/starkey-takes-intelligent-hearing-to-the-next-level-with-introduction-of-omega-ai-302896366.html",
+      "sources": [
+        {
+          "label": "Starkey manufacturer-provided launch release",
+          "url": "https://prnewswire.com/news-releases/starkey-takes-intelligent-hearing-to-the-next-level-with-introduction-of-omega-ai-302896366.html",
+          "type": "official",
+          "publishedAt": "2026-10-01",
+          "verifiedAt": "2026-10-06T19:46:10Z",
+          "isPrimary": true,
+          "dateEvidence": {
+            "kind": "publication-date",
+            "date": "2026-10-01",
+            "quote": "News provided by Starkey Laboratories, Inc.; Oct 01, 2026, 13:38 ET"
+          }
+        },
+        {
+          "label": "Starkey October 5 product and interaction explanation",
+          "url": "https://starkey.com/blog/articles/2026/10/Be-There-For-It-All-With-Omega-AI-Plus",
+          "type": "official",
+          "publishedAt": "2026-10-05",
+          "verifiedAt": "2026-10-06T19:46:10Z",
+          "isPrimary": true,
+          "dateEvidence": {
+            "kind": "publication-date",
+            "date": "2026-10-05",
+            "quote": "By Starkey Hearing on Oct 5, 2026"
+          }
+        },
+        {
+          "label": "Official Omega AI+ product page",
+          "url": "https://starkey.com/hearing-aids/omega-artificial-intelligence-plus-hearing-aids",
+          "type": "official",
+          "publishedAt": null,
+          "verifiedAt": "2026-10-06T19:46:10Z",
+          "isPrimary": true
+        }
+      ],
+      "brief": {
+        "zh": {
+          "what": "新款助听器产品家族。耳边芯片实时处理语音与噪音，手机App负责用户可见的调整与连接",
+          "change": "10月1日发布，10月5日官方解释使用方法；不是今天首发，也不能把上一代Omega AI的历史成绩算给AI+",
+          "use": "佩戴并按个人需要完成专业设置→设备自动适应听音环境→在My Starkey中切换程序、音量或Edge Mode→支持的型号可选择Auracast公共广播；离开设备时可收到新提醒",
+          "limits": "语言清晰度、速度与健康功能为厂商陈述，本轮没有独立临床验证。无线/定制款功能不同，睡眠功能因地区而异；没有统一售价和所有市场交付表。购买与验配由专业人员评估，不做个体疗效建议"
+        },
+        "en": {
+          "what": "A new hearing-aid family runs speech/noise processing at the ear, with visible phone controls for adjustments and connections",
+          "change": "Launched October 1; the October 5 official explainer adds workflow detail. Earlier Omega AI performance is not AI+ evidence",
+          "use": "After individualized fitting, automatic adaptation handles changing sound. My Starkey lets wearers change programs, volume or Edge Mode, select compatible Auracast broadcasts, and receive the new left-behind reminder",
+          "limits": "Benefits are manufacturer claims, with no independent clinical verification here. Wireless/custom styles differ; sleep features vary by location. No universal price or market-delivery table is given; fitting and suitability need professional evaluation"
+        }
+      },
+      "visuals": [
+        {
+          "path": "assets/starkey-omega-plus.jpg",
+          "kind": "source-backed official product image",
+          "sourceUrl": "https://www.prnewswire.com/news-releases/starkey-takes-intelligent-hearing-to-the-next-level-with-introduction-of-omega-ai-302896366.html",
+          "imageUrl": "https://mmx.prnewswire.com/media/MS2000193/SOCM3936-01-EN-XX-Eagan-Social-Media-EAGAN26.jpg?id=OA2980947&p=original",
+          "capturedAt": "2026-10-06T19:46:10Z",
+          "altZh": "厂商发布图：Omega AI+实体助听器及充电盒；不作为临床效果证明",
+          "altEn": "Manufacturer launch image: Omega AI+ hearing aids and charger; not evidence of clinical benefit",
+          "captionZh": "厂商发布图：Omega AI+实体助听器及充电盒；不作为临床效果证明",
+          "captionEn": "Manufacturer launch image: Omega AI+ hearing aids and charger; not evidence of clinical benefit",
+          "role": "product"
+        },
+        {
+          "path": "assets/starkey-app-use.jpg",
+          "kind": "source-backed official product image",
+          "sourceUrl": "https://www.starkey.com/blog/articles/2026/10/Be-There-For-It-All-With-Omega-AI-Plus",
+          "imageUrl": "https://www.starkey.com/-/media/International/US/Images/blog/2025/Omega AI Plus Launch Blog_INLINE-3.jpg?la=en&hash=8679F5D589F046420EED3C9F7F3087B60FEDC84B",
+          "capturedAt": "2026-10-06T19:46:10Z",
+          "altZh": "官方使用示意：用户查看My Starkey听音控制界面；宣传场景而非独立用户测评",
+          "altEn": "Official usage illustration: wearer views My Starkey hearing controls; promotional scene, not an independent review",
+          "captionZh": "官方使用示意：用户查看My Starkey听音控制界面；宣传场景而非独立用户测评",
+          "captionEn": "Official usage illustration: wearer views My Starkey hearing controls; promotional scene, not an independent review",
+          "role": "workflow"
+        }
+      ],
+      "firstIncludedOn": "2026-10-06",
+      "isNewToday": false,
+      "optional": true,
+      "archiveDedup": {
+        "issuesChecked": 77,
+        "method": "Omega AI, Omega AI+, Starkey names/events searched through the full archive",
+        "status": "No matching product or launch event found"
+      },
+      "editorialNote": "Optional recent first-inclusion wearable context. Can replace one robotics paper for device diversity. October5 official explainer is supporting evidence, not the launch event. Keep medical benefits explicitly manufacturer-reported; no advice or clinical-superiority claims.",
+      "assetVerification": {
+        "pixelChecked": true,
+        "images": 2,
+        "notes": "Product with charger and promotional My Starkey control screen inspected; no clinical-performance claim inferred from imagery"
+      },
+      "coverageKind": "first-inclusion-context"
+    },
+    {
+      "id": "digit5-fort-offboard-safety-announced-2026-10-01",
+      "section": "official",
+      "evidenceLabel": "confirmed product",
+      "zhHeadline": "Digit 5：工人靠近时，独立安全系统也能叫停机器人",
+      "enHeadline": "Digit 5 extends safety from the robot to the surrounding facility",
+      "event": {
+        "productKey": "agility-digit-5",
+        "kind": "partnership-announcement",
+        "key": "digit5-fort-offboard-safety-announced-2026-10-01",
+        "occurredAt": "2026-10-01",
+        "summaryZh": "Digit 5：工人靠近时，独立安全系统也能叫停机器人",
+        "summaryEn": "Digit 5 extends safety from the robot to the surrounding facility",
+        "deltaZh": "首次收录10月1日Agility/FORT备忘录：计划把安全手持终端、机上通信与机外安全接口连成三层架构；Digit5本身9月15日已公布",
+        "deltaEn": "First inclusion of the October 1 Agility/FORT memorandum: planned safety pendant, onboard communications and offboard safety interfaces; Digit 5 itself was announced September 15"
+      },
+      "eventSourceUrl": "https://agilityrobotics.com/content/agility-and-fort-robotics-announce-strategic-partnership-to-advance-humanoid-robot-safety",
+      "sources": [
+        {
+          "label": "Agility/FORT official October 1 memorandum",
+          "url": "https://agilityrobotics.com/content/agility-and-fort-robotics-announce-strategic-partnership-to-advance-humanoid-robot-safety",
+          "type": "official",
+          "publishedAt": "2026-10-01",
+          "verifiedAt": "2026-10-06T19:41:52Z",
+          "isPrimary": true,
+          "dateEvidence": {
+            "kind": "publication-date",
+            "date": "2026-10-01",
+            "quote": "SALEM, Ore. and PHILADELPHIA, Pa., October 1, 2026"
+          }
+        },
+        {
+          "label": "Digit 5 original announcement",
+          "url": "https://agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale",
+          "type": "official",
+          "publishedAt": "2026-09-15",
+          "verifiedAt": "2026-10-06T19:41:52Z",
+          "isPrimary": true
+        },
+        {
+          "label": "Digit 5 official product and workflow page",
+          "url": "https://agilityrobotics.com/solutions/digit-5",
+          "type": "official",
+          "publishedAt": null,
+          "verifiedAt": "2026-10-06T19:41:52Z",
+          "isPrimary": true
+        }
+      ],
+      "brief": {
+        "zh": {
+          "what": "面向仓库和工厂的人形机器人产品；新进展是部署安全层，非面向家庭零售",
+          "change": "机外安全桥让环境侧输入也能触发安全响应；10月1日还是合作备忘录与计划，不能写成完整桥已全部部署",
+          "use": "正常任务自主执行→独立系统检测人靠近→按风险避让、停下或坐下→操作员通过带急停/使能器的平板手持终端监看和接管，维护时也保留人工安全路径",
+          "limits": "Digit4的65000小时和客户里程碑不能冒充Digit5实绩。公开页面没列通用交付日或售价；安全与产能数值是厂商陈述，具体认证和现场条件仍要核对"
+        },
+        "en": {
+          "what": "A warehouse/factory humanoid product; the current development is its deployment safety layer, not home retail",
+          "change": "The planned offboard bridge lets surrounding safety systems participate. October 1 is a memorandum and planned architecture, not proof every component is deployed",
+          "use": "Normal work runs autonomously; independent human detection can trigger avoiding, stopping or sitting, while operators monitor and override through a tablet pendant with emergency stop and enabling-device functions",
+          "limits": "Digit 4’s 65,000 hours are not Digit 5 performance. No universal delivery date or retail price is supplied; vendor safety/productivity claims need certification and site-specific checks"
+        }
+      },
+      "visuals": [
+        {
+          "path": "assets/digit5-0.avif",
+          "kind": "source-backed official product image",
+          "sourceUrl": "https://www.agilityrobotics.com/solutions/digit-5",
+          "imageUrl": "https://cdn.prod.website-files.com/68d6ca150ffa11fdc25d7575/6aa6b70027f3ee081dff46df_card-industrial.avif",
+          "capturedAt": "2026-10-06T19:41:52Z",
+          "altZh": "Agility官方Digit5场景图：料箱与工位；厂商产品配图，不是本次现场实测",
+          "altEn": "Agility official Digit 5 scene: tote and workstation; vendor product imagery, not a new field test",
+          "captionZh": "Agility官方Digit5场景图：料箱与工位；厂商产品配图，不是本次现场实测",
+          "captionEn": "Agility official Digit 5 scene: tote and workstation; vendor product imagery, not a new field test",
+          "role": "product"
+        },
+        {
+          "path": "assets/digit5-1.avif",
+          "kind": "source-backed official workflow illustration",
+          "sourceUrl": "https://www.agilityrobotics.com/solutions/digit-5",
+          "imageUrl": "https://cdn.prod.website-files.com/68d6ca150ffa11fdc25d7575/6aa6b70047d62244c9d853af_card-integrated.avif",
+          "capturedAt": "2026-10-06T19:41:52Z",
+          "altZh": "Agility官方机群界面示意：机器人编号、电量、回充与Auto状态",
+          "altEn": "Agility official fleet-interface illustration: robot ID, battery, docking and Auto state",
+          "captionZh": "Agility官方机群界面示意：机器人编号、电量、回充与Auto状态",
+          "captionEn": "Agility official fleet-interface illustration: robot ID, battery, docking and Auto state",
+          "role": "workflow"
+        },
+        {
+          "path": "assets/digit5-2.avif",
+          "kind": "source-backed official product image",
+          "sourceUrl": "https://www.agilityrobotics.com/solutions/digit-5",
+          "imageUrl": "https://cdn.prod.website-files.com/68d6ca150ffa11fdc25d7575/6aa6b7013da4674c75830739_data-security.avif",
+          "capturedAt": "2026-10-06T19:41:52Z",
+          "altZh": "Agility官方产品场景：机器人坐下、工人在附近；图示不构成独立安全验证",
+          "altEn": "Agility official scene: robot seated with a worker nearby; imagery is not independent safety validation",
+          "captionZh": "Agility官方产品场景：机器人坐下、工人在附近；图示不构成独立安全验证",
+          "captionEn": "Agility official scene: robot seated with a worker nearby; imagery is not independent safety validation",
+          "role": "product"
+        }
+      ],
+      "firstIncludedOn": "2026-10-06",
+      "isNewToday": false,
+      "archiveDedup": {
+        "issuesChecked": 77,
+        "method": "Product name, event title, identifiers and capabilities searched across all complete issue objects",
+        "status": "No matching event found"
+      },
+      "coverageKind": "first-inclusion-context"
+    },
     {
       "id": "meta-emg-remapping-patent-context-2026-10-01",
       "section": "patent",
@@ -245,25 +564,23 @@
     ],
     "quickBriefMinutes": 6,
     "openingAndLaneNotesMinutes": 2,
-    "selectionNoteZh": "14条为研究候选池，不是数量配额；最终可将企业条目压成短报。专利独立标为10月1日首次收录背景",
-    "selectionNoteEn": "The 14-item combined pool is not a quota. Enterprise items can be shortened; the October 1 patent must remain explicitly first-inclusion context",
-    "quickBriefIds": [
-      "cua-driver-motion-0-34-0-2026-10-05",
-      "clockwork-torchpass-snapshots-2026-10-06",
-      "tiktok-ads-mcp-connector-expansion-2026-10-05",
-      "sap-joule-work-customer-rollout-2026-10-06"
-    ]
+    "selectionNoteZh": "替换四条较低优先级的软件短报；耳戴设备、笔与触觉鼠标、工厂机器人安全层按原日期作为背景，不能算今日新品",
+    "selectionNoteEn": "Four lower-priority software briefs are replaced; hearing wearables, pen/haptic inputs and factory-robot safety are dated background, not launches today",
+    "quickBriefIds": [],
+    "pagination": "one-contents-one-story-one-references"
   },
   "zhTitle": "AI Daily｜从新产品到新问题，约15分钟",
   "enTitle": "AI Daily | New products and useful questions, about 15 minutes",
-  "zhSummary": "13条10月5–6日已核验新进展，另附10月1日首次收录的专利背景；重点读硬件、交易安全与新交互，其余为短报",
-  "enSummary": "13 verified October5–6 advances plus separately dated October1 patent context. Focus on hardware, marketplace safety and interaction; other items are quick briefs",
+  "zhSummary": "12条有明确日期的近期进展，另有4条标注原发布日期的首次收录背景；增强真实AI硬件、交互流程与演示，每个故事图文合页",
+  "enSummary": "12 dated recent advances and 4 first-inclusion background stories with original publication dates; more physical AI hardware, real workflows and demonstrations on integrated story pages",
   "tags": [],
   "sourceTypes": [
     "official",
     "reviews",
-    "research",
-    "developer docs"
+    "developer docs",
+    "paper",
+    "official research",
+    "research"
   ],
   "coverStory": {
     "topicId": "ghost-core-preorder-2026-10-05",
@@ -426,6 +743,362 @@
         }
       ],
       "evidenceLabel": "startup signal"
+    },
+    {
+      "id": "coco-deliveroo-uk-rollout-announced-2026-10-05",
+      "section": "global",
+      "event": {
+        "productKey": "coco-sidewalk-delivery",
+        "kind": "availability-announcement",
+        "key": "coco-deliveroo-uk-rollout-announced-2026-10-05",
+        "occurredAt": "2026-10-05",
+        "summaryZh": "Coco：配送机器人进入英国，顺路为盲人导航更新障碍信息",
+        "summaryEn": "Coco announces UK robot delivery and pavement-hazard sharing",
+        "deltaZh": "10月5日公布英国首次多城部署：Canary Wharf 10月开始，四个后续城市在未来数周或数月上线；不是新机器人型号发布",
+        "deltaEn": "October 5 announcement of the first UK multi-city deployment: Canary Wharf this October, four further cities in coming weeks or months; not a new robot model"
+      },
+      "eventSourceUrl": "https://cocodelivery.com/blog/coco-robotics-deliveroo-uk-partnership",
+      "brief": {
+        "zh": {
+          "what": "装着订单沿人行道行走的电动配送机器人，不是聊天硬件",
+          "change": "英国上线计划从Canary Wharf扩展到Milton Keynes、Leeds、Stockton on Tees、Nottingham；当地商户和充电站一起接入",
+          "use": "用户从适用商户下单→机器人以步行速度运送→用户收货；机载相机、传感器和边缘AI持续看路。BlindSquare将收到它识别的施工或被丢弃电滑板车等障碍信息",
+          "limits": "分区、分阶段服务，未给英国精确首日；多数订单仍由骑手完成，现场规则和监督操作员仍重要。导航无需云连接不等于完整配送流程离线"
+        },
+        "en": {
+          "what": "Electric sidewalk robots carry orders to customers",
+          "change": "A UK deployment plan starts in Canary Wharf in October, followed by four cities; local merchants and charging depots form part of the rollout",
+          "use": "Eligible customers order food and receive robot-carried deliveries. Onboard cameras, sensors and edge AI perceive the route; hazard observations will also feed BlindSquare’s spoken navigation",
+          "limits": "Phased service zones, no exact UK opening day, and most orders still use riders. Local speed/routing rules and supervising operators remain important; edge navigation is not a claim that the whole service runs offline"
+        }
+      },
+      "visuals": [
+        {
+          "path": "assets/coco-uk-announcement.png",
+          "kind": "source-backed official product image",
+          "sourceUrl": "https://www.cocodelivery.com/blog/coco-robotics-deliveroo-uk-partnership",
+          "imageUrl": "https://framerusercontent.com/images/0Nzj0pG70jtv4Zs6j2ChzR3k2Q.webp?width=1410&height=1497",
+          "capturedAt": "2026-10-06T19:41:52Z",
+          "altZh": "官方英国合作页面配图；不作为已全面运营的现场证明",
+          "altEn": "Official UK partnership-page image; not evidence of nationwide operation",
+          "captionZh": "官方英国合作页面配图；不作为已全面运营的现场证明",
+          "captionEn": "Official UK partnership-page image; not evidence of nationwide operation",
+          "role": "product"
+        },
+        {
+          "path": "assets/coco-robot.jpg",
+          "kind": "source-backed official product image",
+          "sourceUrl": "https://www.cocodelivery.com/",
+          "imageUrl": "https://framerusercontent.com/images/q8arQEfMwNLZGoifX64q1GlEx8.jpg?width=5383&height=3142",
+          "capturedAt": "2026-10-06T19:41:52Z",
+          "altZh": "Coco官方产品照片：雪地里的配送机器人；不是英国全面上线现场证明",
+          "altEn": "Coco official photograph: delivery robot on snow; not proof of nationwide UK availability",
+          "captionZh": "Coco官方产品照片：雪地里的配送机器人；不是英国全面上线现场证明",
+          "captionEn": "Coco official photograph: delivery robot on snow; not proof of nationwide UK availability",
+          "role": "product"
+        }
+      ],
+      "learning": {
+        "zh": "实体AI的体验还包括路人：配送完成率之外，要看让路、服务区、接管和障碍数据是否真的帮助邻近行人",
+        "en": "Embodied-AI experience includes bystanders: yielding, service zones, takeover and useful hazard data matter alongside delivery completion"
+      },
+      "zhHeadline": "Coco：配送机器人进入英国，顺路为盲人导航更新障碍信息",
+      "enHeadline": "Coco announces UK robot delivery and pavement-hazard sharing",
+      "sources": [
+        {
+          "label": "Coco official UK partnership release",
+          "url": "https://cocodelivery.com/blog/coco-robotics-deliveroo-uk-partnership",
+          "type": "official",
+          "publishedAt": "2026-10-05",
+          "verifiedAt": "2026-10-06T19:41:52Z",
+          "isPrimary": true,
+          "dateEvidence": {
+            "kind": "publication-date",
+            "date": "2026-10-05",
+            "quote": "Posted Date: Oct 5, 2026; LOS ANGELES, October 5, 2026"
+          }
+        },
+        {
+          "label": "Deliveroo official launch release",
+          "url": "https://deliveroo.co.uk/more/news-articles/autonomous-robot-launch",
+          "type": "official",
+          "publishedAt": "2026-10-05",
+          "verifiedAt": "2026-10-06T19:41:52Z",
+          "isPrimary": true,
+          "dateEvidence": {
+            "kind": "publication-date",
+            "date": "2026-10-05",
+            "quote": "London, 5th October 2026"
+          }
+        }
+      ],
+      "evidenceLabel": "confirmed product"
+    },
+    {
+      "id": "openvision-keychain-speech-fallback-2026-10-04",
+      "section": "wild",
+      "event": {
+        "productKey": "openvision-ray-ban-meta-ios",
+        "kind": "source-update",
+        "key": "openvision-keychain-speech-fallback-2026-10-04",
+        "occurredAt": "2026-10-04",
+        "summaryZh": "OpenVision：给Ray-Ban换模型前，先修复凭据与语音失败路径",
+        "summaryEn": "OpenVision hardens credentials and failed speech on Ray-Ban glasses",
+        "deltaZh": "10月4日19:19 UTC合入8项凭据迁移到Keychain；同日合入云语音失败时的Apple语音回退。10月2日v2.14的订阅登录另标背景，旧tag不包含这两个修复",
+        "deltaEn": "October 4 merges move eight credentials to Keychain and add Apple-voice fallback for failed cloud speech. October 2 subscription sign-in is background; the old v2.14 tag does not contain these fixes",
+        "occurredAtTime": "2026-10-04T19:19:40Z"
+      },
+      "eventSourceUrl": "https://github.com/rayl15/OpenVision/pull/66",
+      "brief": {
+        "zh": {
+          "what": "第三方开源iPhone应用：眼镜提供第一视角画面，模型在手机或用户选定的云端运行",
+          "change": "最新主分支修复凭据存储和云语音漏句问题；不是Meta官方固件、App Store上架或新眼镜",
+          "use": "自编译并注册Meta开发者应用→连接眼镜→选择本地或云模型→提问所见内容并听回答。10月2日开始可走ChatGPT Plus/Pro或SuperGrok登录；不同后端仍有不同视觉、工具、语音能力",
+          "limits": "需Mac/Xcode、iPhone和开发者设置。订阅登录使用未文档化CLI接入面，可能失效或影响同账户CLI会话；实时视频仍需API key或其他后端。Keychain写失败会暂留文件，未证明所有密钥已迁移"
+        },
+        "en": {
+          "what": "A third-party open-source iPhone app makes glasses a first-person interface to chosen local or cloud models",
+          "change": "Current main-branch fixes improve credential persistence and failed-speech recovery; this is neither Meta firmware nor an App Store launch",
+          "use": "Build and register the app, connect glasses, choose a backend, then ask about what you see and hear its reply. October 2 added subscription sign-in, with capability differences across backends",
+          "limits": "Source-build and developer setup required. Subscription sign-in uses an undocumented CLI surface and may disrupt another session; live video still needs an API key or another backend. Failed Keychain writes can retain a secret in the old file"
+        }
+      },
+      "visuals": [
+        {
+          "path": "assets/openvision-screens.png",
+          "kind": "source-backed developer screenshot",
+          "sourceUrl": "https://github.com/rayl15/OpenVision",
+          "imageUrl": "https://raw.githubusercontent.com/rayl15/OpenVision/main/docs/images/screenshots.png",
+          "capturedAt": "2026-10-06T19:41:52Z",
+          "altZh": "开发者官方界面拼图：语音、设置、后端与本地模型；并非此次安装实测",
+          "altEn": "Developer-provided screen montage: voice, settings, backends and local models; not a new hands-on test",
+          "captionZh": "开发者既有界面拼图（图中版本2.6.0）：语音、设置、后端与本地模型；不是10月4日修复效果验证",
+          "captionEn": "Existing developer montage (version 2.6.0 in the image): voice, settings, backends and local models; not evidence of the October 4 fix",
+          "role": "workflow"
+        },
+        {
+          "path": "assets/openvision-demo-poster.jpg",
+          "kind": "source-backed developer demo frame",
+          "sourceUrl": "https://github.com/rayl15/OpenVision",
+          "imageUrl": "https://raw.githubusercontent.com/rayl15/OpenVision/main/docs/images/vision-coca-cola.gif",
+          "capturedAt": "2026-10-06T19:41:52Z",
+          "altZh": "开发者旧演示截帧：佩戴眼镜展示可乐罐，并联动浏览器搜索；不证明10月修复效果",
+          "altEn": "Frame of the developer’s earlier demo: glasses, a Coke can and a browser search; not evidence of October-fix performance",
+          "captionZh": "开发者旧演示截帧：佩戴眼镜展示可乐罐，并联动浏览器搜索；不证明10月修复效果",
+          "captionEn": "Frame of the developer’s earlier demo: glasses, a Coke can and a browser search; not evidence of October-fix performance",
+          "role": "workflow"
+        }
+      ],
+      "media": [
+        {
+          "kind": "gif",
+          "url": "https://raw.githubusercontent.com/rayl15/OpenVision/main/docs/images/vision-coca-cola.gif",
+          "sourceUrl": "https://github.com/rayl15/OpenVision",
+          "poster": {
+            "path": "assets/openvision-demo-poster.jpg",
+            "kind": "source-backed developer demo frame",
+            "sourceUrl": "https://github.com/rayl15/OpenVision",
+            "imageUrl": "https://raw.githubusercontent.com/rayl15/OpenVision/main/docs/images/vision-coca-cola.gif",
+            "capturedAt": "2026-10-06T19:41:52Z",
+            "altZh": "开发者旧演示截帧：佩戴眼镜展示可乐罐，并联动浏览器搜索；不证明10月修复效果",
+            "altEn": "Frame of the developer’s earlier demo: glasses, a Coke can and a browser search; not evidence of October-fix performance",
+            "captionZh": "开发者旧演示截帧：佩戴眼镜展示可乐罐，并联动浏览器搜索；不证明10月修复效果",
+            "captionEn": "Frame of the developer’s earlier demo: glasses, a Coke can and a browser search; not evidence of October-fix performance",
+            "role": "workflow"
+          },
+          "captionZh": "开发者旧演示：从所见物体联动浏览器搜索",
+          "captionEn": "Earlier developer demo: a seen object leads to browser search",
+          "whatToSeeZh": "观察可乐罐与浏览器商品搜索的对应；演示不是当前修复测试",
+          "whatToSeeEn": "Observe the Coke can and browser product search; this is not a test of current fixes",
+          "verifiedAt": "2026-10-06T19:41:52Z"
+        }
+      ],
+      "zhHeadline": "OpenVision：给Ray-Ban换模型前，先修复凭据与语音失败路径",
+      "enHeadline": "OpenVision hardens credentials and failed speech on Ray-Ban glasses",
+      "sources": [
+        {
+          "label": "OpenVision merged credential-storage PR",
+          "url": "https://github.com/rayl15/OpenVision/pull/66",
+          "type": "developer docs",
+          "publishedAt": null,
+          "verifiedAt": "2026-10-06T20:17:28+00:00",
+          "isPrimary": true,
+          "dateEvidence": {
+            "kind": "effective-date",
+            "date": "2026-10-04",
+            "quote": "\"merged_at\":\"2026-10-04T19:19:40Z\""
+          },
+          "apiEvidenceUrl": "https://api.github.com/repos/rayl15/OpenVision/pulls/66"
+        },
+        {
+          "label": "Exact credential fix merge commit",
+          "url": "https://github.com/rayl15/OpenVision/commit/2bcc2effbd96506ea2765c63091d6877cd81a2af",
+          "type": "developer docs",
+          "publishedAt": "2026-10-04",
+          "verifiedAt": "2026-10-06T19:41:52Z",
+          "isPrimary": true
+        },
+        {
+          "label": "Merged cloud-speech fallback PR",
+          "url": "https://github.com/rayl15/OpenVision/pull/64",
+          "type": "developer docs",
+          "publishedAt": "2026-10-04",
+          "verifiedAt": "2026-10-06T19:41:52Z",
+          "isPrimary": true,
+          "dateEvidence": {
+            "kind": "publication-date",
+            "date": "2026-10-04",
+            "quote": "Commit 0215b1f6732a3938aef666582a0c19e870b08570 at 2026-10-04T19:04:24Z"
+          }
+        },
+        {
+          "label": "Prior v2.14 release: subscription sign-in",
+          "url": "https://github.com/rayl15/OpenVision/releases/tag/v2.14.0",
+          "type": "developer docs",
+          "publishedAt": "2026-10-02",
+          "verifiedAt": "2026-10-06T19:41:52Z",
+          "isPrimary": true,
+          "dateEvidence": {
+            "kind": "publication-date",
+            "date": "2026-10-02",
+            "quote": "Published 2026-10-02T20:29:26Z"
+          }
+        },
+        {
+          "label": "Official source-build requirements",
+          "url": "https://github.com/rayl15/OpenVision/blob/main/SETUP.md",
+          "type": "developer docs",
+          "publishedAt": null,
+          "verifiedAt": "2026-10-06T19:41:52Z",
+          "isPrimary": true
+        }
+      ],
+      "evidenceLabel": "developer surface"
+    },
+    {
+      "id": "mulligan-real-robot-supervised-learning-2026-10-05",
+      "section": "research",
+      "event": {
+        "productKey": "mulligan-on-robot-learning",
+        "kind": "preprint",
+        "key": "mulligan-real-robot-supervised-learning-2026-10-05",
+        "occurredAt": "2026-10-05",
+        "summaryZh": "Mulligan：让人把机器人练习时间花在失败位置上",
+        "summaryEn": "Mulligan targets human-supervised robot practice at observed failures",
+        "deltaZh": "10月5日预印本发布：不只增加示范，而是按上一轮失败与未试状态安排下一轮真实机器人练习",
+        "deltaEn": "October 5 preprint makes observed failures and untried starts the targets of subsequent real-robot practice"
+      },
+      "eventSourceUrl": "https://arxiv.org/abs/2610.05882",
+      "brief": {
+        "zh": {
+          "what": "Stanford在Franka Panda/DROID机械臂上做的人机协作学习系统；研究原型，非新量产机器人",
+          "change": "3种真实任务、2550次留出盲测。新意是把物体初始摆位也变成学习决策，而不是均匀重复已经会做的位置",
+          "use": "操作员照重置提示放好笔、螺母或线缆→机械臂试抓取/插入→失败时人用SpaceMouse接管或重录整段→轮次间训练，再试难点",
+          "limits": "有人的采集回合98%完成，不能写成98%无人自治；论文报告真实任务提升10–34个百分点，属于指定精密任务，不代表家庭通用操作能力"
+        },
+        "en": {
+          "what": "A Stanford human-in-the-loop research system runs on a Franka Panda/DROID arm, not a new retail robot",
+          "change": "Three physical tasks and 2,550 held-out blinded episodes test a method that selects where objects should start, rather than repeating easy placements",
+          "use": "An operator follows reset guidance, watches insertion or cable routing, takes over via SpaceMouse when needed, and retrains between rounds",
+          "limits": "The 98% collection-completion figure includes human interventions. Reported 10–34-point gains concern selected precision tasks, not general household autonomy"
+        }
+      },
+      "visuals": [
+        {
+          "path": "assets/mulligan-demo12.jpg",
+          "kind": "source-backed official demo frame",
+          "sourceUrl": "https://mulligan.page/",
+          "imageUrl": "https://ankile-sir-trackers.s3.us-west-2.amazonaws.com/data-artifacts/mulligan-loop-story-videos-2026-09-30/mulligan-loop-story-v17.mp4",
+          "capturedAt": "2026-10-06T19:41:52Z",
+          "altZh": "作者演示12秒：同一策略面对两个初始摆位，一次成功、一次抓取失败",
+          "altEn": "Author demo at 12 seconds: one policy, two initial states; one succeeds and one fails to grasp",
+          "captionZh": "作者演示12秒：同一策略面对两个初始摆位，一次成功、一次抓取失败",
+          "captionEn": "Author demo at 12 seconds: one policy, two initial states; one succeeds and one fails to grasp",
+          "role": "workflow"
+        },
+        {
+          "path": "assets/mulligan-demo24.jpg",
+          "kind": "source-backed official demo frame",
+          "sourceUrl": "https://mulligan.page/",
+          "imageUrl": "https://ankile-sir-trackers.s3.us-west-2.amazonaws.com/data-artifacts/mulligan-loop-story-videos-2026-09-30/mulligan-loop-story-v17.mp4",
+          "capturedAt": "2026-10-06T19:41:52Z",
+          "altZh": "作者演示24秒：在完整初始状态范围上均匀评估，而不是只试难点",
+          "altEn": "Author demo at 24 seconds: evaluate evenly across the full initial-state range",
+          "captionZh": "作者演示24秒：在完整初始状态范围上均匀评估，而不是只试难点",
+          "captionEn": "Author demo at 24 seconds: evaluate evenly across the full initial-state range",
+          "role": "workflow"
+        },
+        {
+          "path": "assets/mulligan-demo40.jpg",
+          "kind": "source-backed official demo frame",
+          "sourceUrl": "https://mulligan.page/",
+          "imageUrl": "https://ankile-sir-trackers.s3.us-west-2.amazonaws.com/data-artifacts/mulligan-loop-story-videos-2026-09-30/mulligan-loop-story-v17.mp4",
+          "capturedAt": "2026-10-06T19:41:52Z",
+          "altZh": "作者演示40秒：下一轮重试9个失败摆位，并加入未充分探索的位置",
+          "altEn": "Author demo at 40 seconds: retry nine failed starts and add underexplored placements",
+          "captionZh": "作者演示40秒：下一轮重试9个失败摆位，并加入未充分探索的位置",
+          "captionEn": "Author demo at 40 seconds: retry nine failed starts and add underexplored placements",
+          "role": "workflow"
+        }
+      ],
+      "media": [
+        {
+          "kind": "video",
+          "url": "https://ankile-sir-trackers.s3.us-west-2.amazonaws.com/data-artifacts/mulligan-loop-story-videos-2026-09-30/mulligan-loop-story-v17.mp4",
+          "sourceUrl": "https://mulligan.page/",
+          "poster": {
+            "path": "assets/mulligan-demo12.jpg",
+            "kind": "source-backed official demo frame",
+            "sourceUrl": "https://mulligan.page/",
+            "imageUrl": "https://ankile-sir-trackers.s3.us-west-2.amazonaws.com/data-artifacts/mulligan-loop-story-videos-2026-09-30/mulligan-loop-story-v17.mp4",
+            "capturedAt": "2026-10-06T19:41:52Z",
+            "altZh": "作者演示12秒：同一策略面对两个初始摆位，一次成功、一次抓取失败",
+            "altEn": "Author demo at 12 seconds: one policy, two initial states; one succeeds and one fails to grasp",
+            "captionZh": "作者演示12秒：同一策略面对两个初始摆位，一次成功、一次抓取失败",
+            "captionEn": "Author demo at 12 seconds: one policy, two initial states; one succeeds and one fails to grasp",
+            "role": "workflow"
+          },
+          "captionZh": "作者演示：一轮Thread nut任务的采集与改进",
+          "captionEn": "Author walkthrough of a Thread nut collection and improvement round",
+          "whatToSeeZh": "看失败位置如何进入下一轮；人的重置、接管不能藏在自治数字后面",
+          "whatToSeeEn": "See failed placements feed the next round, with human resets and interventions kept explicit",
+          "verifiedAt": "2026-10-06T19:41:52Z"
+        }
+      ],
+      "zhHeadline": "Mulligan：让人把机器人练习时间花在失败位置上",
+      "enHeadline": "Mulligan targets human-supervised robot practice at observed failures",
+      "sources": [
+        {
+          "label": "Mulligan dated preprint",
+          "url": "https://arxiv.org/abs/2610.05882",
+          "type": "paper",
+          "publishedAt": "2026-10-05",
+          "verifiedAt": "2026-10-06T19:41:52Z",
+          "isPrimary": true,
+          "dateEvidence": {
+            "kind": "publication-date",
+            "date": "2026-10-05",
+            "quote": "v1 Mon, 5 Oct 2026 06:56:13 UTC"
+          }
+        },
+        {
+          "label": "Author demo, code and data page",
+          "url": "https://mulligan.page",
+          "type": "official research",
+          "publishedAt": null,
+          "verifiedAt": "2026-10-06T19:41:52Z",
+          "isPrimary": true
+        },
+        {
+          "label": "Hardware and human supervision protocol",
+          "url": "https://arxiv.org/html/2610.05882v1",
+          "type": "paper",
+          "publishedAt": null,
+          "verifiedAt": "2026-10-06T19:41:52Z",
+          "isPrimary": true
+        }
+      ],
+      "evidenceLabel": "research signal"
     },
     {
       "id": "reflection-beam-announcement-2026-10-05",
@@ -750,10 +1423,26 @@
           "limits": "A visual aid, not an authorization credential. Reduced-motion settings override effects; improved task accuracy wasn't independently established"
         }
       },
-      "visualMissing": {
-        "zh": "未取得可核验的功能图，保留来源与能力边界",
-        "en": "No verified feature image was obtained; sources and capability boundaries are preserved"
-      },
+      "visuals": [
+        {
+          "path": "assets/cua-session-badges.png",
+          "kind": "source-backed official interaction example",
+          "sourceUrl": "https://cua.ai/docs/cua-driver/guides/operate",
+          "imageUrl": "https://github.com/user-attachments/assets/071dbfd0-b0d4-442f-9654-994c84db3029",
+          "capturedAt": "2026-10-06T20:03:28.442236+00:00",
+          "altZh": "官方会话光标与标记示例：展示目标和前后台状态，静态图不展示六种运动轨迹",
+          "altEn": "Official session-cursor and badge examples show targets and delivery state; this still image does not demonstrate the six motion trajectories",
+          "captionZh": "官方会话光标与标记示例：展示目标和前后台状态，静态图不展示六种运动轨迹",
+          "captionEn": "Official session-cursor and badge examples show targets and delivery state; this still image does not demonstrate the six motion trajectories",
+          "role": "interaction",
+          "pixelInspected": true,
+          "dimensions": [
+            1600,
+            817
+          ],
+          "sha256": "3f1e4496cfd8b5116f8a1b4d948eb841f57af92080f408cfc39337b8942d2e36"
+        }
+      ],
       "learning": {
         "zh": "让行为可见与允许行为执行，是两层不同的产品责任",
         "en": "Making actions legible and authorizing them are separate product responsibilities"
@@ -808,10 +1497,26 @@
           "limits": "Not a production deployment guarantee; a simpler window policy matches value in evaluated warm-recovery cases"
         }
       },
-      "visualMissing": {
-        "zh": "未取得可核验的功能图，保留来源与能力边界",
-        "en": "No verified feature image was obtained; sources and capability boundaries are preserved"
-      },
+      "visuals": [
+        {
+          "path": "assets/learnsched-figure1.png",
+          "kind": "source-backed original paper figure",
+          "sourceUrl": "https://arxiv.org/abs/2610.06212",
+          "imageUrl": "https://arxiv.org/html/2610.06212v1/figures/intro1.png",
+          "capturedAt": "2026-10-06T20:03:21.229829+00:00",
+          "altZh": "LearnSched 预印本图1：共享 GPU 在当前服务与未来能力改进之间取舍，并支付恢复成本",
+          "altEn": "LearnSched preprint Figure 1: a shared GPU trades current service against future improvement and pays a recovery cost",
+          "captionZh": "LearnSched 预印本图1：共享 GPU 在当前服务与未来能力改进之间取舍，并支付恢复成本",
+          "captionEn": "LearnSched preprint Figure 1: a shared GPU trades current service against future improvement and pays a recovery cost",
+          "role": "research",
+          "pixelInspected": true,
+          "dimensions": [
+            1484,
+            1060
+          ],
+          "sha256": "524f8c77f8bd20c0993938e336bc1ef0fd2696b7dc6b02199bb47dafe100551e"
+        }
+      ],
       "learning": {
         "zh": "机器空着不等于工作免费：暂停后的内存释放与服务恢复也消耗时间",
         "en": "Idle capacity isn't free work: memory release and service recovery also consume time"
@@ -829,64 +1534,6 @@
         }
       ],
       "evidenceLabel": "research signal"
-    },
-    {
-      "id": "clockwork-torchpass-snapshots-2026-10-06",
-      "section": "global",
-      "event": {
-        "productKey": "clockwork-torchpass",
-        "kind": "feature-release",
-        "key": "multi-node-platform-snapshots-async-checkpoints",
-        "occurredAt": "2026-10-06",
-        "summaryZh": "Clockwork：保护的是整项 AI 工作的进度",
-        "summaryEn": "Clockwork protects a running AI job's progress",
-        "deltaZh": "10月6日公司发布多节点平台快照与异步应用检查点，并宣布 US$31M 新融资",
-        "deltaEn": "The October 6 company release introduces multi-node platform snapshots and asynchronous application checkpoints, alongside US$31M funding"
-      },
-      "eventSourceUrl": "https://hpcwire.com/off-the-wire/clockwork-io-announces-31m-in-funding-and-deployments-at-linkedin-and-together-ai",
-      "brief": {
-        "zh": {
-          "what": "在硬件与 AI 工作之间提供故障容错的软件层",
-          "change": "新快照捕获分布式工作各节点状态；异步检查点在工作继续时保存进度",
-          "use": "大型训练、推理和 RL 工作遇到 GPU/网络故障时，减少重跑；公司披露 LinkedIn、Together AI 部署",
-          "limits": "US$31M 轮次名称未披露；不同故障与工作栈仍需验证，不把厂商收益当作普遍保证"
-        },
-        "en": {
-          "what": "A software fault-tolerance layer between AI jobs and hardware",
-          "change": "New snapshots capture distributed node state; asynchronous checkpoints preserve progress while work continues",
-          "use": "Reduce repeated computation after GPU/network failures; LinkedIn and Together AI deployments are company-reported",
-          "limits": "The US$31M round's stage isn't specified. Results depend on failure mode and workload; vendor gains aren't universal guarantees"
-        }
-      },
-      "visualMissing": {
-        "zh": "未取得可核验的功能图，保留来源与能力边界",
-        "en": "No verified feature image was obtained; sources and capability boundaries are preserved"
-      },
-      "learning": {
-        "zh": "比 GPU 利用率更有意义的是 goodput：最终保留下来的有效计算",
-        "en": "Goodput measures useful computation retained, rather than activity alone"
-      },
-      "zhHeadline": "Clockwork：保护的是整项 AI 工作的进度",
-      "enHeadline": "Clockwork protects a running AI job's progress",
-      "sources": [
-        {
-          "label": "Clockwork company-issued release",
-          "url": "https://hpcwire.com/off-the-wire/clockwork-io-announces-31m-in-funding-and-deployments-at-linkedin-and-together-ai",
-          "type": "official",
-          "publishedAt": "2026-10-06",
-          "verifiedAt": "2026-10-06T16:42:00Z",
-          "isPrimary": true
-        },
-        {
-          "label": "Clockwork TorchPass official product",
-          "url": "https://clockwork.io/workload-failover",
-          "type": "official",
-          "publishedAt": null,
-          "verifiedAt": "2026-10-06T16:42:00Z",
-          "isPrimary": true
-        }
-      ],
-      "evidenceLabel": "confirmed product"
     },
     {
       "id": "safeworld-seed-platform-2026-10-05",
@@ -916,10 +1563,26 @@
           "limits": "The company describes early pilots and request-access availability; simulation coverage is not certification or a guarantee of zero physical incidents"
         }
       },
-      "visualMissing": {
-        "zh": "未取得可核验的功能图，保留来源与能力边界",
-        "en": "No verified feature image was obtained; sources and capability boundaries are preserved"
-      },
+      "visuals": [
+        {
+          "path": "assets/safeworld-official-simulation.png",
+          "kind": "source-backed official simulation illustration",
+          "sourceUrl": "https://www.safeworld.ai/",
+          "imageUrl": "https://framerusercontent.com/assets/idO8ytsOYhXOabpHmsOFeYxFGnY.png",
+          "capturedAt": "2026-10-06T20:03:21.357130+00:00",
+          "altZh": "SafeWorld 官方仓库人机共处仿真示意；不是测试结果、认证或真实事故率证据",
+          "altEn": "SafeWorld’s official warehouse human–robot simulation illustration; not a test result, certification or real-world incident-rate evidence",
+          "captionZh": "SafeWorld 官方仓库人机共处仿真示意；不是测试结果、认证或真实事故率证据",
+          "captionEn": "SafeWorld’s official warehouse human–robot simulation illustration; not a test result, certification or real-world incident-rate evidence",
+          "role": "interaction",
+          "pixelInspected": true,
+          "dimensions": [
+            1731,
+            909
+          ],
+          "sha256": "d550b3fc451540f44c7146cd671367da24678ebb38ddbc269aa6e517d191b0b6"
+        }
+      ],
       "learning": {
         "zh": "机器人产业的新机会不只在机器人本体，也在持续验证每次软件更新",
         "en": "The product opportunity includes continuously testing robot software updates, not only building robots"
@@ -945,52 +1608,6 @@
         }
       ],
       "evidenceLabel": "startup signal"
-    },
-    {
-      "id": "reka-rho-1-research-preview-2026-10-05",
-      "section": "research",
-      "event": {
-        "productKey": "reka-rho",
-        "kind": "research-preview",
-        "version": "1",
-        "occurredAt": "2026-10-05",
-        "summaryZh": "Reka 公开可实时引导的视觉/动作研究原型",
-        "summaryEn": "Reka unveils a steerable visual/action research prototype",
-        "deltaZh": "10月5日研究预览把连续视频生成、指令理解与机器人动作通道放进同一模型；示例为模拟环境",
-        "deltaEn": "The October 5 preview combines continuous video generation, instructions and robot action channels in one model; shown robotics examples are simulated"
-      },
-      "eventSourceUrl": "https://reka.ai/labs/research/rho-1-collapsing-the-multimodal-stack",
-      "brief": {
-        "zh": {
-          "what": "Reka 的 19B 多模态研究原型，演示理解、生成视频与动作的闭环",
-          "change": "可在持续生成的视频中插入指令；机器人示例展示 LIBERO 模拟中的观察、预测腕部视图与动作通道",
-          "use": "作为交互模拟环境和视觉—动作研究的方向；官方通过联系团队讨论合作",
-          "limits": "不是成品机器人或验证过的实地部署；长序列会结构漂移，视频定位与编辑仍脆弱，原生视频上限672×384"
-        },
-        "en": {
-          "what": "Reka's 19B research prototype demonstrates a shared loop for understanding, video generation and actions",
-          "change": "Instructions can steer a continuous generated scene; robotics examples expose observations, predicted wrist views and action channels in LIBERO simulation",
-          "use": "A direction for interactive simulation and vision-action research, with access/collaboration through the team's contact route",
-          "limits": "Not a finished robot or proven physical deployment. Long rollouts drift structurally, temporal grounding/editing remain brittle, and native video is capped at 672×384"
-        }
-      },
-      "visualMissing": {
-        "zh": "官方演示包含模拟视频，但本轮未取得可核验的图像文件；不可冒充实物机器人照片",
-        "en": "Official demonstrations contain simulated video, but no verifiable image file was obtained; they must not be presented as physical robot photographs"
-      },
-      "zhHeadline": "Rho-1 研究预览：边看、边生成、边接收动作指令",
-      "enHeadline": "Rho-1 research preview connects live visual generation and action",
-      "sources": [
-        {
-          "label": "Reka Labs: Rho-1 preview",
-          "url": "https://reka.ai/labs/research/rho-1-collapsing-the-multimodal-stack",
-          "type": "research",
-          "publishedAt": "2026-10-05",
-          "verifiedAt": "2026-10-06T15:41:30Z",
-          "isPrimary": true
-        }
-      ],
-      "evidenceLabel": "research signal"
     },
     {
       "id": "cohere-north-2-platform-release-2026-10-05",
@@ -1100,10 +1717,37 @@
           "limits": "Local files still require an open desktop app and connected folders. Local projects and schedules don't transfer directly to Claude Code"
         }
       },
-      "visualMissing": {
-        "zh": "该官方变更说明没有可确认的新界面截图，保留文字证据与生效日期",
-        "en": "The official change notice provides no confirmed new-interface screenshot; the explicit effective date is preserved"
-      },
+      "visuals": [
+        {
+          "path": "assets/cowork-official-browser-task.png",
+          "kind": "source-backed official product demonstration screenshot crop",
+          "sourceUrl": "https://claude.com/product/cowork",
+          "imageUrl": "https://assets.claude.com/e0035a095d8888c9739f8acb305f517b25d469eb.jpg",
+          "capturedAt": "2026-10-06T20:05:44.108266+00:00",
+          "altZh": "Claude 官方 Cowork 浏览器任务示例；图示既有操作界面，不证明10月6日云端切换已在此画面生效",
+          "altEn": "Claude’s official Cowork browser-task demonstration; existing workflow UI, not visual proof of the October 6 cloud change",
+          "captionZh": "官方产品演示：任务与内置浏览器并排。非10月6日切换后的实测截图，云端变更以官方帮助文档为准",
+          "captionEn": "Official product demo: task beside a built-in browser. Not a post-change hands-on capture; the October 6 cloud change is evidenced by the Help Center",
+          "role": "interaction",
+          "pixelInspected": true,
+          "dimensions": [
+            1090,
+            620
+          ],
+          "sha256": "bb37d4f388650531d33f7cefce33776ee8e268f266e9935ce79ed1142553cf6a",
+          "crop": {
+            "originalPath": "/workspace/shared/daily-missing-visuals/cowork-official-page.png",
+            "box": [
+              175,
+              2575,
+              1265,
+              3195
+            ],
+            "method": "unaltered crop from official product page screenshot",
+            "captureMethod": "Firecrawl full-page cloud browser screenshot; direct asset HTTP403"
+          }
+        }
+      ],
       "zhHeadline": "Claude Cowork：Pro/Max 新任务今天改为云端执行",
       "enHeadline": "Claude Cowork moves new Pro/Max tasks to the cloud today",
       "sources": [
@@ -1120,109 +1764,13 @@
             "quote": "On October 6, 2026, new Cowork tasks on Pro and Max plans run in the cloud."
           },
           "publicationDateNote": "Absolute publication date is not stated; page says Updated this week. Effective date is explicit."
-        }
-      ],
-      "evidenceLabel": "confirmed product"
-    },
-    {
-      "id": "tiktok-ads-mcp-connector-expansion-2026-10-05",
-      "section": "global",
-      "event": {
-        "productKey": "tiktok-for-business-mcp",
-        "kind": "availability-change",
-        "key": "claude-kimi-manus-perplexity-replit-snowflake-workbuddy-iab-connectors-2026-10-05",
-        "occurredAt": "2026-10-05",
-        "summaryZh": "TikTok 扩展广告 MCP 的平台连接入口",
-        "summaryEn": "TikTok expands platform connector entry points for its advertising MCP",
-        "deltaZh": "10月5日官方明确 MCP 现可作为连接器进入 Claude、Kimi、Manus、Perplexity、Replit、Snowflake、腾讯 WorkBuddy 与 IAB Agent Registry",
-        "deltaEn": "The October 5 source explicitly makes TikTok MCP available as a connector through Claude, Kimi, Manus, Perplexity, Replit, Snowflake, Tencent WorkBuddy and the IAB Agent Registry"
-      },
-      "eventSourceUrl": "https://newsroom.tiktok.com/tiktok-unveils-ai-powered-updates-for-advertisers-driving-discovery-action-and-measurable-business-outcomes?lang=en",
-      "brief": {
-        "zh": {
-          "what": "TikTok for Business MCP 把广告生态操作开放给 agent 工具",
-          "change": "10月5日新闻稿明确扩展 Claude、Kimi、Manus、Perplexity、Replit、Snowflake、腾讯 WorkBuddy 与 IAB 注册表连接入口",
-          "use": "开发者与广告团队可在已有 agent 工作流中规划、创建和管理 TikTok 广告",
-          "limits": "这不是广告 MCP 首发；各平台账号权限、地区与功能差异未详列。购物助手先前9月29日已有介绍，不当作今日新增功能"
-        },
-        "en": {
-          "what": "TikTok for Business MCP exposes advertising workflows to agent tools",
-          "change": "The October 5 announcement explicitly lists connector availability in Claude, Kimi, Manus, Perplexity, Replit, Snowflake, Tencent WorkBuddy and the IAB registry",
-          "use": "Developers and ad teams can plan, launch and manage TikTok campaigns from existing agent workspaces",
-          "limits": "This is connector expansion, not MCP’s original launch. Platform permissions, geographic coverage and feature differences aren't detailed. Shopping Assistant was already described September 29 and is background"
-        }
-      },
-      "visualMissing": {
-        "zh": "已核验官方连接器名单，未取得新增连接入口的可确认 UI 文件",
-        "en": "The official connector list is verified, but no confirmed UI file of the expanded entry points was obtained"
-      },
-      "zhHeadline": "TikTok Ads MCP：广告操作进入更多 agent 工作台",
-      "enHeadline": "TikTok Ads MCP expands into more agent workspaces",
-      "sources": [
-        {
-          "label": "TikTok Newsroom: October 5 advertiser updates",
-          "url": "https://newsroom.tiktok.com/tiktok-unveils-ai-powered-updates-for-advertisers-driving-discovery-action-and-measurable-business-outcomes?lang=en",
-          "type": "official",
-          "publishedAt": "2026-10-05",
-          "verifiedAt": "2026-10-06T15:41:30Z",
-          "isPrimary": true
         },
         {
-          "label": "TikTok Japan Sept29: earlier shopping-assistant description",
-          "url": "https://newsroom.tiktok.com/tiktok-ad-awards-2026-japan5?lang=ja-JP",
+          "label": "Claude official Cowork product demonstration",
+          "url": "https://claude.com/product/cowork",
           "type": "official",
-          "publishedAt": "2026-09-29",
-          "verifiedAt": "2026-10-06T15:36:24Z",
-          "isPrimary": true
-        }
-      ],
-      "evidenceLabel": "developer surface"
-    },
-    {
-      "id": "sap-joule-work-customer-rollout-2026-10-06",
-      "section": "official",
-      "event": {
-        "productKey": "sap-joule-work",
-        "kind": "availability-change",
-        "key": "customer-rollout-sap-connect-2026",
-        "occurredAt": "2026-10-06",
-        "summaryZh": "Joule Work：从已宣布的界面走向客户 rollout",
-        "summaryEn": "Joule Work begins customer rollout of its outcome interface",
-        "deltaZh": "10月6日 SAP 明确 Joule Work 开始客户 rollout；不是5月概念发布的重复",
-        "deltaEn": "SAP explicitly begins Joule Work customer rollout October 6, rather than re-announcing the May concept"
-      },
-      "eventSourceUrl": "https://news.sap.com/2026/10/sap-connect-sap-puts-autonomous-enterprise-to-work",
-      "brief": {
-        "zh": {
-          "what": "用自然语言跨 SAP 与第三方数据执行工作的企业界面",
-          "change": "客户 rollout 开始；官方说明选定客户已使用，仍要区分试点与普遍开放",
-          "use": "Joule Assistants 使用既有授权和审计轨迹执行业务流程，客户控制自治程度",
-          "limits": "厂商生产率数字是自身披露；新闻稿未列出所有客户的可用日期"
-        },
-        "en": {
-          "what": "An enterprise interface for natural-language work across SAP and third-party data",
-          "change": "Customer rollout begins; selected customers already use it, distinct from universal availability",
-          "use": "Joule Assistants execute workflows under existing permissions and audit trails, with customer-controlled autonomy",
-          "limits": "Productivity figures are vendor-reported; all customers' activation dates aren't listed"
-        }
-      },
-      "visualMissing": {
-        "zh": "未取得可核验的功能图，保留来源与能力边界",
-        "en": "No verified feature image was obtained; sources and capability boundaries are preserved"
-      },
-      "learning": {
-        "zh": "企业 agent 的新入口要同时承接数据上下文、权限与可审计的动作",
-        "en": "Enterprise agent interfaces must carry data context, permissions and auditable actions together"
-      },
-      "zhHeadline": "Joule Work：从已宣布的界面走向客户 rollout",
-      "enHeadline": "Joule Work begins customer rollout of its outcome interface",
-      "sources": [
-        {
-          "label": "SAP Connect October6 official announcement",
-          "url": "https://news.sap.com/2026/10/sap-connect-sap-puts-autonomous-enterprise-to-work",
-          "type": "official",
-          "publishedAt": "2026-10-06",
-          "verifiedAt": "2026-10-06T16:42:00Z",
+          "publishedAt": null,
+          "verifiedAt": "2026-10-06T20:06:24.563887+00:00",
           "isPrimary": true
         }
       ],

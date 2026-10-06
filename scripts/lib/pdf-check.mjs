@@ -3,7 +3,7 @@ import { promisify } from "node:util";
 import { createHash } from "node:crypto";
 import { validatePageCount } from "./issue-policy.mjs";
 const exec = promisify(execFile);
-export function validatePdfExportMetadata({ metadata, date, locale, sourceBytes, pdfPages, htmlPages }) {
+export function validatePdfExportMetadata({ metadata, date, locale, sourceBytes, pdfPages, htmlPages, editorialPagePlan }) {
   validatePageCount(pdfPages);
   validatePageCount(htmlPages);
   const renderer = metadata?.renderer ?? "chromium";
@@ -13,6 +13,12 @@ export function validatePdfExportMetadata({ metadata, date, locale, sourceBytes,
     if (metadata.sourceDataSha256 !== createHash("sha256").update(sourceBytes).digest("hex"))
       throw new Error("PDF export source hash mismatch");
     if (metadata.pages?.[locale] !== pdfPages) throw new Error("PDF export actual page count mismatch");
+    if (metadata.editorialPagePlan) {
+      if (metadata.editorialPagePlan.length !== pdfPages || htmlPages !== pdfPages)
+        throw new Error("Shared editorial HTML/PDF page count mismatch");
+      if (editorialPagePlan && JSON.stringify(metadata.editorialPagePlan) !== JSON.stringify(editorialPagePlan))
+        throw new Error("Shared editorial story plan mismatch");
+    }
   }
   if (renderer === "chromium" && pdfPages !== htmlPages) throw new Error("PDF/HTML page mismatch");
   return renderer;

@@ -99,35 +99,6 @@ test("digest figure sizes override the full product gallery without cropping", a
   assert.match(css, /\.digest-images \.product-figure figcaption\s*\{[^}]*font-size:\s*11px/);
 });
 
-test("important topics get substantive sourced detail pages after their core page", async () => {
-  const { buildVisualSlides, renderVisualIssue } = await import(modulePath);
-  const rich = structuredClone(fixture);
-  rich.topics[0].detailPages = [{ id: "workflow", zhTitle: "从提问到周期流程", enTitle: "From a question to a recurring workflow", points: [{ zh: "在原有工作台中配置周期流程", en: "Configure a recurring flow in the workspace", sourceUrls: ["https://example.com/north"] }], visuals: [rich.topics[0].visuals[2]] }];
-  const slides = buildVisualSlides(rich, "zh");
-  const core = slides.findIndex(s => s.id === "event-1");
-  assert.equal(slides[core + 1].type, "detail");
-  const output = renderVisualIssue(rich, "zh");
-  assert.match(output, /从提问到周期流程/);
-  assert.match(output, /在原有工作台中配置周期流程/);
-  assert.match(output, /data-detail-id="workflow"/);
-  assert.equal((output.match(/data-event-id="north"/g) ?? []).length, 1);
-  assert.equal((output.match(/data-event-id="cloud"/g) ?? []).length, 1);
-  assert.ok(slides[core + 1].html.includes("https://example.com/north"));
-});
-
-test("more than three real figures continue on a new page without dropping or copying brief text", async () => {
-  const { buildVisualSlides } = await import(modulePath);
-  const rich = structuredClone(fixture);
-  rich.topics[0].visuals.push({ ...rich.topics[0].visuals[0], path: "assets/extra.png", captionZh: "额外关键细节" });
-  const slides = buildVisualSlides(rich, "zh");
-  const core = slides.find(s => s.id === "event-1");
-  const continuation = slides.find(s => s.type === "visual-detail");
-  assert.ok(continuation);
-  assert.ok(continuation.html.includes("assets/extra.png"));
-  assert.ok(!core.html.includes("assets/extra.png"));
-  assert.ok(!continuation.html.includes(rich.topics[0].brief.zh.change));
-});
-
 test("official video starts muted with no autoplay or preload and keeps a factual PDF poster", async () => {
   const { renderVisualIssue } = await import(modulePath);
   const rich = structuredClone(fixture);
@@ -171,7 +142,7 @@ test("first-inclusion context is dated separately and never mixed into fresh ove
   background.sources=[{label:"Dated background source",url:"https://example.com/background",publishedAt:"2026-09-30",isPrimary:true}];
   expanded.contextTopics=[background];expanded.editorialPlan={targetMinutes:15};
   const slides=buildVisualSlides(expanded,"zh");
-  const overview=slides.filter(s=>s.type==="digest").map(s=>s.html).join("");
+  const overview=slides.filter(s=>s.type==="contents").map(s=>s.html.split('class="contents-context"')[0]).join("");
   assert.ok(!overview.includes("背景设备"));
   const context=slides.find(s=>s.type==="context");assert.ok(context);assert.match(context.html,/非今日新增/);
   const output=renderVisualIssue(expanded,"zh");
@@ -189,19 +160,6 @@ test("a no-news issue can include explicitly labeled older first-inclusion conte
   assert.match(output,/data-context-id="older-context"/);
 });
 
-test("explicit small image-free briefs share a page while keeping every field and event anchor",async()=>{
-  const {buildVisualSlides,renderVisualIssue}=await import(modulePath);
-  const a=structuredClone(fixture.topics[1]);const b=structuredClone(a);b.id="other-brief";b.zhHeadline="另一条短报";b.enHeadline="Another short brief";
-  const input={...fixture,topics:[a,b],editorialPlan:{quickBriefIds:[a.id,b.id]}};
-  const pages=buildVisualSlides(input,"zh");const pair=pages.find(p=>p.type==="quick-pair");
-  assert.ok(pair);assert.deepEqual(pair.topicIds,[a.id,b.id]);
-  assert.match(pair.html,/id="event-1"/);assert.match(pair.html,/id="event-2"/);
-  const output=renderVisualIssue(input,"zh");
-  assert.equal((output.match(/data-event-id="cloud"/g)||[]).length,1);
-  assert.equal((output.match(/data-event-id="other-brief"/g)||[]).length,1);
-  for(const topic of input.topics)for(const text of Object.values(topic.brief.zh))assert.ok(pair.html.includes(text));
-});
-
 test("desktop pages are fixed16:9 with no internal scrolling; narrow screens use natural vertical flow",async()=>{
   const {visualIssueCss}=await import(modulePath);const css=visualIssueCss();
   assert.match(css,/\.js-deck \.report-stage\s*\{[^}]*overflow:hidden[^}]*container-type:size/);
@@ -215,18 +173,67 @@ test("dense desktop media and dated context reserve sufficient visible space",as
   assert.match(css,/\.js-deck \.report-slide \.context-section-heading\s*\{[^}]*font-size:18px/);
 });
 
-test("context details separate real figures from sourced explanation instead of clipping",async()=>{
-  const {buildVisualSlides}=await import(modulePath); const context=structuredClone(fixture.topics[0]);
-  context.id='old-context';context.coverageKind='first-inclusion-context';context.isNewToday=false;
-  context.detailPages=[{id:'claims',zhTitle:'解释',enTitle:'Explanation',points:[{zh:'事实细节',en:'Factual details',sourceUrls:['https://example.com/proof']}],visuals:context.visuals.slice(0,2)}];
-  const slides=buildVisualSlides({...fixture,contextTopics:[context]},'en');
-  const detail=slides.find(s=>s.id==='event-3-detail-1');
-  assert.ok(detail.html.includes('Factual details')); assert.ok(!detail.html.includes('<img'));
-  assert.ok(slides.find(s=>s.id==='event-3-detail-1-figures-1'));
+
+
+test("one contents and one reference page surround exactly one complete story per product",async()=>{
+ const {buildVisualSlides}=await import(modulePath); const rich=structuredClone(fixture);
+ rich.topics[0].detailPages=[{id:'workflow',zhTitle:'深入理解',enTitle:'Understand the flow',points:[{zh:'流程的真实细节',en:'Factual flow detail',sourceUrls:['https://example.com/detail']}],visuals:[{...rich.topics[0].visuals[0],path:'assets/extra.png'}]}];
+ rich.topics[0].media=[{kind:'official-link',url:'https://example.com/demo',sourceUrl:'https://example.com/north',poster:rich.topics[0].visuals[0],captionZh:'官方演示',captionEn:'Official demo'}];
+ rich.editorialPlan={quickBriefIds:['north','cloud']};
+ const pages=buildVisualSlides(rich,'en');assert.equal(pages.length,4);assert.deepEqual(pages.map(p=>p.type),['contents','product','product','references']);
+ const story=pages.find(p=>p.topicIds?.includes('north')&&p.type==='product');
+ assert.ok(story.html.includes('Factual flow detail'));assert.ok(story.html.includes('assets/extra.png'));assert.ok(story.html.includes('Official demo'));
+ for(const v of Object.values(rich.topics[0].brief.en))assert.ok(story.html.includes(v));
+ assert.deepEqual(story.topicIds,['north']);assert.equal((story.html.match(/assets\/north-0.png/g)||[]).length,1);
 });
 
-test("a longer quick brief is not forced into a narrow paired desktop column",async()=>{
-  const {buildVisualSlides}=await import(modulePath);const a=structuredClone(fixture.topics[1]);const b=structuredClone(a);b.id='long-brief';b.brief.en.change='x'.repeat(500);
-  const slides=buildVisualSlides({...fixture,topics:[a,b],editorialPlan:{quickBriefIds:[a.id,b.id]}},'en');
-  assert.ok(!slides.some(s=>s.type==='quick-pair'));assert.ok(slides.find(s=>s.id==='event-2'));
+test("reference index remains one page and retains every source plus full ledger link",async()=>{
+ const {buildVisualSlides}=await import(modulePath); const rich=structuredClone(fixture);
+ rich.topics[0].sources=Array.from({length:28},(_,i)=>({label:'Source '+i,url:'https://example.com/source/'+i,publishedAt:'2026-10-05',isPrimary:true}));
+ const references=buildVisualSlides(rich,'en').filter(p=>p.type==='references');assert.equal(references.length,1);
+ for(const source of rich.topics[0].sources)assert.ok(references[0].html.includes(source.url));
+ assert.match(references[0].html,/sources.md/);
+});
+
+test("context stays a complete dated story while contents separates it from fresh entries",async()=>{
+ const {buildVisualSlides}=await import(modulePath);const rich=structuredClone(fixture); const context=structuredClone(rich.topics[0]);
+ context.id='patent-context';context.zhHeadline='旧专利背景';context.enHeadline='Older patent background';context.coverageKind='first-inclusion-context';context.isNewToday=false;context.event.occurredAt='2026-10-01';
+ rich.contextTopics=[context];const pages=buildVisualSlides(rich,'en');assert.equal(pages.length,5);
+ const story=pages.find(p=>p.type==='context');assert.match(story.html,/Not new today/);assert.match(story.html,/2026-10-01/);assert.deepEqual(story.topicIds,['patent-context']);
+ const contents=pages.find(p=>p.type==='contents');assert.match(contents.html,/contents-context/);
+});
+
+test("all figure and media provenance is indexed once on the final reference page",async()=>{
+ const {buildVisualSlides,buildReferenceIndex}=await import(modulePath);const rich=structuredClone(fixture);
+ rich.topics[0].visuals[0].sourceUrl='https://example.com/figure-proof';
+ rich.topics[0].media=[{kind:'official-link',url:'https://example.com/watch',sourceUrl:'https://example.com/clip-proof',poster:rich.topics[0].visuals[0],captionZh:'演示',captionEn:'Demo'}];
+ const rows=buildReferenceIndex(rich);for(const url of ['https://example.com/figure-proof','https://example.com/watch','https://example.com/clip-proof'])assert.ok(rows.some(r=>r.url===url));
+ const pages=buildVisualSlides(rich,'en'),story=pages.find(p=>p.type==='product'),refs=pages.at(-1);
+ assert.equal(refs.type,'references');for(const row of rows)assert.ok(refs.html.includes(row.url));
+ assert.ok(!story.html.includes('Official release'));assert.ok(!story.html.includes('Original source'));
+ assert.match(story.html,/class="reference-marker"/);assert.match(story.html,/href="#evidence-1"/);
+});
+
+test("reference aliases share a number while dated event anchors remain in final links",async()=>{
+ const {buildReferenceIndex,renderVisualIssue}=await import(modulePath);const rich=structuredClone(fixture);
+ rich.topics[0].sources[0].url='https://example.com/proof/#october-5';rich.topics[0].visuals[0].sourceUrl='https://www.example.com/proof?utm_source=demo';
+ const rows=buildReferenceIndex(rich);assert.equal(rows.filter(r=>r.url.includes('/proof')).length,1);assert.equal(rows.find(r=>r.url.includes('/proof')).url,'https://example.com/proof/#october-5');
+ const html=renderVisualIssue(rich,'en');assert.ok(!html.split('</header>')[0].includes('sources.md'));assert.match(html,/class="reference-marker"/);
+});
+
+test("compact reference labels keep full provenance and clear effective dates",async()=>{
+ const {buildReferenceIndex,renderVisualIssue}=await import(modulePath);const rich=structuredClone(fixture);
+ rich.topics[0].sources[0].label='An unusually long precise original document title that must remain available';
+ rich.topics[0].sources[0].url='https://github.com/example/project/releases/tag/v1.2.3';
+ rich.topics[1].sources[0].dateEvidence={kind:'effective-date',date:'2026-10-06'};
+ const rows=buildReferenceIndex(rich);assert.ok(rows.every(r=>r.compactLabel.length<=32));assert.ok(rows[0].label.includes('unusually long'));
+ assert.equal(rows[0].dateLabel,'2026-10-05');assert.match(rows[1].dateLabel,/Effective date: 2026-10-06/);
+ assert.ok(renderVisualIssue(rich,'en').includes('title="An unusually long precise original document title'));
+});
+
+test("contents uses compact product names while retaining full titles for accessible links",async()=>{
+ const {buildVisualSlides,topicContentsLabel}=await import(modulePath);const rich=structuredClone(fixture);
+ rich.topics[0].zhHeadline='North 2：这是一段完整的变化标题';rich.topics[0].enHeadline='North 2 adds a fully explained change to its workflow';
+ assert.equal(topicContentsLabel(rich.topics[0],'en'),'North 2');const contents=buildVisualSlides(rich,'en')[0];
+ assert.match(contents.html,/>North 2<\/strong>/);assert.ok(contents.html.includes('title="North 2 adds a fully explained change to its workflow"'));
 });

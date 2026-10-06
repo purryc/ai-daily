@@ -1,3 +1,4 @@
+import { normalizeUrl } from "./issue-policy.mjs";
 const esc = (value) => String(value ?? "").replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;");
 const local = (object, locale, zh, en) => object?.[locale === "zh" ? zh : en] ?? "";
 const external = (url) => /^https?:\/\//i.test(String(url ?? "")) ? String(url) : "#";
@@ -9,6 +10,46 @@ const words = {
   en: { overview: "Changes worth seeing", next: "Next", prev: "Previous", contents: "Contents", sources: "Source ledger", pdf: "Download PDF", what: "What it is", change: "What changed", use: "When to use it", limits: "Limits & availability", history: "Previous coverage", original: "View full image", official: "Original source", evidence: "Sources & evidence", empty: "No new advances met the evidence bar today", missing: "No verified product figure yet", date: "Event date", cutoff: "As of", more: "More changes", reading: "New advances first, then pictures and details" }
 };
 
+function compactReferenceLabel(entry) {
+  const parsed = new URL(entry.url);
+  const host = parsed.hostname.replace(/^www\./, "");
+  const providers = { "ghost.ai":"Ghost", "techcrunch.com":"TechCrunch", "cocodelivery.com":"Coco", "deliveroo.co.uk":"Deliveroo", "arxiv.org":"arXiv", "mulligan.page":"Mulligan", "reflection.ai":"Reflection", "hyperframes.heygen.com":"HyperFrames", "cua.ai":"Cua", "webwire.com":"WebWire", "safeworld.ai":"SafeWorld", "cohere.com":"Cohere", "support.claude.com":"Claude", "news.microsoft.com":"Microsoft", "prnewswire.com":"PRNewswire", "starkey.com":"Starkey", "agilityrobotics.com":"Agility", "image-ppubs.uspto.gov":"USPTO", "patentlyze.com":"Patentlyze", "x.com":"X", "cdn.sanity.io":"Sanity" };
+  let provider = providers[host] || (host.endsWith("amazonaws.com") ? "Amazon S3" : host.length <= 18 ? host : "Source");
+  if (host === "github.com") provider = /hyperframes/i.test(entry.url) ? "HyperFrames" : /cua/i.test(entry.url) ? "Cua" : "GitHub";
+  const arxivId = host === "arxiv.org" ? parsed.pathname.match(/(\d{4}\.\d{4,5}(?:v\d+)?)/)?.[1] : null;
+  if (arxivId) return `arXiv · ${arxivId}`;
+  const version = parsed.pathname.match(/(?:tag\/)([^/]+)$/)?.[1];
+  if (version && version.length <= 16) return `${provider} · ${version}`;
+  const clue = `${entry.label} ${parsed.pathname}`;
+  const kind = /\.gif(?:$|\?)/i.test(entry.url) ? "GIF" : /\.mp4(?:$|\?)/i.test(entry.url) ? "video" : /patent|uspto|downloadPdf/i.test(clue) ? "patent" : /release|announcement|ViewPressRel|news-releases/i.test(clue) ? "release" : /guide|docs|workflow/i.test(clue) ? "guide" : /demo|walkthrough|launch-video/i.test(clue) ? "demo" : /drawing|figure|illustration|photograph/i.test(clue) ? "figure" : /product|platform/i.test(clue) ? "product" : "article";
+  return `${provider} · ${kind}`;
+}
+
+export function buildReferenceIndex(issue) {
+  const entries = new Map();
+  const add = (url, data) => { if (/^https?:\/\//i.test(String(url ?? ""))) { const key=normalizeUrl(url); if (!entries.has(key)) entries.set(key, { ...data, url }); } };
+  const topics = [...(issue.topics ?? []), ...(issue.contextTopics ?? [])];
+  for (const topic of topics) for (const source of topic.sources ?? []) add(source.url, source);
+  for (const topic of topics) {
+    const detail = topic.detailPages ?? [];
+    const allMedia = [...(topic.media ?? []), ...detail.flatMap(page => page.media ?? [])];
+    for (const visual of [...figures(topic), ...detail.flatMap(figures), ...allMedia.map(media => media.poster)]) add(visual.sourceUrl, { label: `${topic.event?.productKey} · ${visual.captionEn || visual.altEn || visual.kind}`, publishedAt: null });
+    for (const page of detail) for (const point of page.points ?? []) for (const url of point.sourceUrls ?? []) add(url, { label: `${topic.event?.productKey} · ${page.enTitle}`, publishedAt: null });
+    if (topic.comparison?.sourceUrl) add(topic.comparison.sourceUrl, { label: `${topic.event?.productKey} · verified baseline`, publishedAt: null });
+    for (const media of allMedia) {
+      add(media.sourceUrl, { label: `${topic.event?.productKey} · ${media.captionEn}`, publishedAt: null });
+      add(media.url, { label: `${topic.event?.productKey} · ${media.captionEn}`, publishedAt: null });
+    }
+  }
+  return [...entries.values()].map((entry, index) => ({ ...entry, number: index + 1, compactLabel: compactReferenceLabel(entry), dateLabel: entry.publishedAt || (entry.dateEvidence?.kind === "effective-date" ? `Effective date: ${entry.dateEvidence.date}` : "n.d.") }));
+}
+
+function referenceMarker(issue, url) {
+  if (!/^https?:\/\//i.test(String(url ?? ""))) return "";
+  const entry = buildReferenceIndex(issue).find(source => normalizeUrl(source.url) === normalizeUrl(url));
+  return entry ? `<a class="reference-marker" href="#evidence-1" data-go-slide="evidence-1" aria-label="Reference ${entry.number}">[${entry.number}]</a>` : "";
+}
+
 function imageFigure(issue, visual, locale, className = "") {
   if (!/^assets\/[^/]+$/.test(String(visual.path ?? ""))) throw new Error(`Invalid factual image path: ${visual.path}`);
   const image = `../${visual.path}`;
@@ -16,7 +57,7 @@ function imageFigure(issue, visual, locale, className = "") {
   const alt = local(visual, locale, "altZh", "altEn");
   return `<figure class="product-figure ${className}">
     <a class="image-link" href="${esc(image)}" target="_blank" rel="noreferrer" aria-label="${esc(words[locale].original + ": " + alt)}"><img src="${esc(image)}" alt="${esc(alt)}"${visual.width ? ` width="${esc(visual.width)}"` : ""}${visual.height ? ` height="${esc(visual.height)}"` : ""} decoding="async"></a>
-    <figcaption>${esc(caption)} <a class="figure-source" href="${esc(external(visual.sourceUrl))}" target="_blank" rel="noreferrer">${esc(words[locale].official)}</a></figcaption>
+    <figcaption>${esc(caption)} ${referenceMarker(issue, visual.sourceUrl)}</figcaption>
   </figure>`;
 }
 
@@ -28,11 +69,10 @@ function eventMeta(topic, locale) {
   return `<p class="event-meta"><span>${esc(topic.event?.productKey)}</span><time datetime="${esc(topic.event?.occurredAt)}">${esc(words[locale].date)} ${esc(topic.event?.occurredAt)}</time>${topic.event?.version ? `<span>v${esc(topic.event.version)}</span>` : ""}<span>${esc(topic.evidenceLabel ?? topic.event?.kind)}</span></p>`;
 }
 
-function sourceRow(topic, locale) {
-  const sources = (topic.sources ?? []).filter((source) => source.isPrimary).slice(0, 2);
-  const selected = sources.length ? sources : (topic.sources ?? []).slice(0, 2);
+function sourceRow(issue, topic, locale) {
   const history = topic.event?.previousIssue;
-  return `<div class="event-source-row">${selected.map((source) => `<a href="${esc(external(source.url))}" target="_blank" rel="noreferrer">${esc(source.label)}</a>`).join("")}${/^\d{4}-\d{2}-\d{2}$/.test(history ?? "") ? `<a href="../../${esc(history)}/${locale}/">${esc(words[locale].history)} · ${esc(history)}</a>` : ""}<a href="../sources.md">${esc(words[locale].sources)}</a></div>`;
+  const markers = [...new Set((topic.sources ?? []).map(source => source.url))].map(url => referenceMarker(issue, url)).join(" ");
+  return `<div class="event-source-row">${markers}${/^\d{4}-\d{2}-\d{2}$/.test(history ?? "") ? `<a href="../../${esc(history)}/${locale}/">${esc(words[locale].history)} · ${esc(history)}</a>` : ""}</div>`;
 }
 
 function briefUnit(label, text, className = "") {
@@ -48,52 +88,32 @@ function visualGallery(issue, topic, locale) {
 function topicSlide(issue, topic, locale, index) {
   const copy = topic.brief?.[locale] ?? {};
   const w = words[locale];
+  const context = topic.coverageKind === "first-inclusion-context";
   const changeFirst = Boolean(topic.event?.previousIssue) || topic.event?.kind === "availability-change";
+  const details = topic.detailPages ?? [];
+  const media = [...(topic.media ?? []), ...details.flatMap(page => page.media ?? [])];
+  const mediaByPoster = new Map(media.map(item => [item.poster.path, item]));
+  const uniqueFigures = new Map([...figures(topic), ...details.flatMap(figures), ...media.map(item => item.poster)].map(visual => [visual.path, visual]));
+  const visualItems = [...uniqueFigures.values()].map(visual => mediaByPoster.has(visual.path) ? mediaFigure(mediaByPoster.get(visual.path), locale, issue) : imageFigure(issue, visual, locale));
   const verifiedBaseline = topic.comparison?.sourceUrl && topic.comparison?.[locale]?.before;
   const baseline = verifiedBaseline ? topic.comparison[locale].before : copy.what;
   const baselineHeading = verifiedBaseline ? (locale === "zh" ? "此前 · 已核实背景" : "Before · verified baseline") : w.what;
   return {
-    id: `event-${index + 1}`, type: changeFirst ? "change-first" : "illustrated", topicIds: [topic.id],
-    html: `<section class="report-slide product-slide ${changeFirst ? "comparison-slide" : "illustrated-slide"}" id="event-${index + 1}" data-slide data-template="${changeFirst ? "change-first" : "illustrated"}" data-event-id="${esc(topic.id)}">
+    id: `event-${index + 1}`, type: context ? "context" : "product", topicIds: [topic.id],
+    html: `<section class="report-slide product-slide magazine-slide ${changeFirst ? "comparison-slide" : "illustrated-slide"} ${visualItems.length ? "with-visuals" : "text-story"}" id="event-${index + 1}" data-slide data-template="${changeFirst ? "change-first" : "illustrated"}" ${context ? `data-coverage-kind="first-inclusion-context" data-is-new-today="false" data-context-id="${esc(topic.id)}"` : `data-event-id="${esc(topic.id)}"`}>
+      ${context ? `<p class="context-label">${locale === "zh" ? "补充背景 · 首次收录 · 非今日新增" : "Background · first inclusion · Not new today"} · ${esc(topic.event?.occurredAt)}</p>` : ""}
       ${eventMeta(topic, locale)}<h2>${esc(title(topic, locale))}</h2>
-      ${changeFirst ? `<div class="change-columns">${briefUnit(baselineHeading, baseline, "baseline-unit")}${briefUnit(w.change, copy.change, "delta-unit")}</div>${visualGallery(issue, { ...topic, visuals: figures(topic).slice(0, 3) }, locale)}<div class="use-limit-grid">${briefUnit(w.use, copy.use)}${briefUnit(w.limits, copy.limits)}</div>` : `${visualGallery(issue, { ...topic, visuals: figures(topic).slice(0, 3) }, locale)}<div class="brief-grid">${briefUnit(w.what, copy.what)}${briefUnit(w.change, copy.change, "delta-unit")}${briefUnit(w.use, copy.use)}${briefUnit(w.limits, copy.limits)}</div>`}
-      ${verifiedBaseline ? `<p class="baseline-source"><a href="${esc(external(topic.comparison.sourceUrl))}" target="_blank" rel="noreferrer">${locale === "zh" ? "历史证据" : "Baseline evidence"}</a></p>` : ""}
-      ${sourceRow(topic, locale)}
+      <div class="story-body">${visualItems.length ? `<div class="story-visuals count-${visualItems.length}">${visualItems.join("")}</div>` : ""}
+      <div class="story-copy"><div class="story-brief ${changeFirst ? "change-columns" : "brief-grid"}">${briefUnit(baselineHeading, baseline, "baseline-unit")}${briefUnit(w.change, copy.change, "delta-unit")}${briefUnit(w.use, copy.use)}${briefUnit(w.limits, copy.limits)}</div>
+      ${details.map(page => `<section class="story-detail" data-detail-id="${esc(page.id)}"><h3>${esc(local(page, locale, "zhTitle", "enTitle"))}</h3><ul>${(page.points ?? []).map(point => `<li>${esc(point[locale])} ${(point.sourceUrls ?? []).map(url => referenceMarker(issue,url)).join(" ")}</li>`).join("")}</ul></section>`).join("")}
+      ${!visualItems.length ? missingFigure(topic, locale) : ""}
+      ${verifiedBaseline ? `<p class="baseline-source">${referenceMarker(issue,topic.comparison.sourceUrl)}</p>` : ""}</div></div>
+      ${sourceRow(issue, topic, locale)}
     </section>`
   };
 }
 
-function quickPairSlide(issue, pair, locale, topics) {
-  const indexes = pair.map(topic => topics.indexOf(topic));
-  const id = `quick-${indexes.map(index => index + 1).join("-")}`;
-  const w = words[locale];
-  return { id, type: "quick-pair", topicIds: pair.map(topic => topic.id), html: `<section class="report-slide quick-pair-slide" id="${id}" data-slide data-template="quick-pair"><p class="slide-kicker">${locale === "zh" ? "其他快报" : "Quick briefs"}</p><div class="quick-pair">${pair.map((topic, i) => {
-    const copy = topic.brief?.[locale] ?? {};
-    return `<article class="quick-event" id="event-${indexes[i] + 1}" data-event-id="${esc(topic.id)}">${eventMeta(topic, locale)}<h2>${esc(title(topic, locale))}</h2><div class="quick-brief">${briefUnit(w.what, copy.what)}${briefUnit(w.change, copy.change, "delta-unit")}${briefUnit(w.use, copy.use)}${briefUnit(w.limits, copy.limits)}</div><p class="quick-visual-status">${esc(topic.visualMissing?.[locale] ?? w.missing)}</p>${sourceRow(topic, locale)}</article>`;
-  }).join("")}</div></section>` };
-}
-
-function visualDetailSlides(issue, topic, locale, topicIndex, images, idPrefix = "figures") {
-  return chunks(images, 3).map((group, index) => ({
-    id: `event-${topicIndex + 1}-${idPrefix}-${index + 1}`, type: "visual-detail",
-    html: `<section class="report-slide visual-detail-slide" id="event-${topicIndex + 1}-${idPrefix}-${index + 1}" data-slide data-template="illustrated" data-topic-ref="${esc(topic.id)}">${eventMeta(topic, locale)}<h2>${esc(title(topic, locale))} · ${locale === "zh" ? "图像与细节" : "Figures & details"}</h2>${visualGallery(issue, { visuals: group }, locale)}${sourceRow(topic, locale)}</section>`
-  }));
-}
-
-function topicDetailSlides(issue, topic, locale, topicIndex) {
-  return (topic.detailPages ?? []).flatMap((page, index) => {
-    const id = `event-${topicIndex + 1}-detail-${index + 1}`;
-    const images = figures(page);
-    const separateFigures = topic.coverageKind === "first-inclusion-context" && images.length && page.points?.length;
-    const core = {
-      id, type: "detail",
-      html: `<section class="report-slide detail-slide" id="${id}" data-slide data-template="detail" data-detail-id="${esc(page.id)}" data-topic-ref="${esc(topic.id)}">${eventMeta(topic, locale)}<h2>${esc(local(page, locale, "zhTitle", "enTitle"))}</h2>${images.length && !separateFigures ? visualGallery(issue, { visuals: images.slice(0, 3) }, locale) : ""}<div class="detail-points">${(page.points ?? []).map((point, pointIndex) => `<div class="detail-point"><span class="point-index">${String(pointIndex + 1).padStart(2, "0")}</span><p>${esc(point[locale])}</p><div class="point-sources">${(point.sourceUrls ?? []).map((url, i) => `<a href="${esc(external(url))}" target="_blank" rel="noreferrer">${locale === "zh" ? "依据" : "Evidence"}${i + 1}</a>`).join("")}</div></div>`).join("")}</div>${sourceRow(topic, locale)}</section>`
-    };
-    return [core, ...visualDetailSlides(issue, topic, locale, topicIndex, separateFigures ? images : images.slice(3), `detail-${index + 1}-figures`), ...mediaSlides(issue, topic, locale, topicIndex, page.media ?? [], `detail-${index + 1}-media`)];
-  });
-}
-
-function mediaFigure(media, locale) {
+function mediaFigure(media, locale, issue) {
   const poster = media.poster;
   if (!poster || !/^assets\/[^/]+$/.test(String(poster.path ?? ""))) throw new Error("Media needs a verified factual poster");
   const imageUrl = `../${poster.path}`;
@@ -109,33 +129,25 @@ function mediaFigure(media, locale) {
   } else if (media.kind === "official-link") {
     player = `<a class="official-media-link" href="${esc(external(media.url))}" target="_blank" rel="noreferrer"><img class="media-poster" src="${esc(imageUrl)}" alt="${esc(alt)}"><span class="media-play">${play}</span></a>`;
   } else throw new Error(`Unsupported verified media kind: ${media.kind}`);
-  return `<figure class="media-figure">${player}<figcaption><strong>${esc(caption)}</strong>${guidance ? `<span>${esc(guidance)}</span>` : ""}<a href="${esc(external(media.sourceUrl))}" target="_blank" rel="noreferrer">${esc(words[locale].official)}</a><a class="media-original" href="${esc(external(media.url))}" target="_blank" rel="noreferrer">${locale === "zh" ? "官方演示" : "Official demo"}</a></figcaption></figure>`;
+  return `<figure class="media-figure">${player}<figcaption><strong>${esc(caption)}</strong>${guidance ? `<span>${esc(guidance)}</span>` : ""}${referenceMarker(issue, media.sourceUrl)} ${referenceMarker(issue, media.url)}</figcaption></figure>`;
 }
 
-function mediaSlides(issue, topic, locale, topicIndex, media, prefix = "media") {
-  return chunks(media, 2).map((group, index) => ({
-    id: `event-${topicIndex + 1}-${prefix}-${index + 1}`, type: "media",
-    html: `<section class="report-slide media-slide" id="event-${topicIndex + 1}-${prefix}-${index + 1}" data-slide data-template="media" data-topic-ref="${esc(topic.id)}">${eventMeta(topic, locale)}<h2>${esc(title(topic, locale))} · ${locale === "zh" ? "演示" : "Demo"}</h2><div class="media-gallery count-${group.length}">${group.map(item => mediaFigure(item, locale)).join("")}</div>${sourceRow(topic, locale)}</section>`
-  }));
+export function topicContentsLabel(topic, locale) {
+  if (topic.contentsLabel?.[locale]) return topic.contentsLabel[locale];
+  const zhPrefix = String(topic.zhHeadline ?? "").split("：")[0];
+  if (locale === "zh") return zhPrefix || title(topic,locale);
+  if (/^[\x00-\x7F]+$/.test(zhPrefix)) return zhPrefix;
+  return String(topic.enHeadline ?? "").split(":")[0];
 }
 
-function overviewSlide(issue, locale, topics, startIndex, pageIndex) {
-  const w = words[locale];
-  return {
-    id: pageIndex ? `overview-${pageIndex + 1}` : "overview", type: "digest",
-    html: `<section class="report-slide digest-slide" id="${pageIndex ? `overview-${pageIndex + 1}` : "overview"}" data-slide data-template="digest">
-      <p class="slide-kicker">${esc(issue.date)} · ${esc(issue.timezone)}</p>
-      <div class="overview-heading"><h1>${esc(pageIndex ? w.more : w.overview)}</h1><p>${esc(w.reading)}</p></div>
-      ${pageIndex ? "" : `<p class="issue-intro">${esc(local(issue, locale, "zhSummary", "enSummary"))}</p>`}
-      <div class="digest-rows">${topics.map((topic, i) => {
-        const images = figures(topic);
-        return `<article class="digest-row ${images.length ? "has-visual" : "text-led"}">
-          ${images.length ? `<div class="digest-images">${images.slice(0, 3).map((visual) => imageFigure(issue, visual, locale)).join("")}</div>` : `<div class="digest-text-visual"><span class="digest-index">${String(startIndex + i + 1).padStart(2, "0")}</span><time datetime="${esc(topic.event.occurredAt)}">${esc(topic.event.occurredAt)}</time><span>${esc(topic.evidenceLabel ?? topic.event.kind)}</span></div>`}
-          <div class="digest-copy"><a class="digest-title" href="#event-${startIndex + i + 1}" data-go-slide="event-${startIndex + i + 1}"><h2>${esc(title(topic, locale))}</h2></a><p>${esc(local(topic.event, locale, "summaryZh", "summaryEn"))}</p><a class="read-event" href="#event-${startIndex + i + 1}" data-go-slide="event-${startIndex + i + 1}">${locale === "zh" ? "看变化与细节" : "See the change & details"}</a></div>
-        </article>`;
-      }).join("")}</div>
-    </section>`
-  };
+export const contentsLabel = topicContentsLabel;
+
+function overviewSlide(issue, locale) {
+  const main = issue.topics ?? [];
+  const context = issue.contextTopics ?? [];
+  const entry = (topic, index) => `<li><a href="#event-${index + 1}" data-go-slide="event-${index + 1}" title="${esc(title(topic,locale))}" aria-label="${esc(title(topic,locale))}"><span class="contents-number">${String(index + 1).padStart(2, "0")}</span><span><strong>${esc(topicContentsLabel(topic, locale))}</strong><small>${esc(topic.event?.occurredAt)} · ${esc(topic.evidenceLabel ?? topic.event?.kind)}</small></span></a></li>`;
+  return { id: "overview", type: "contents", topicIds: [...main, ...context].map(topic => topic.id),
+    html: `<section class="report-slide contents-slide" id="overview" data-slide data-template="contents"><p class="slide-kicker">${esc(issue.date)} · ${esc(issue.timezone)}</p><h1>${locale === "zh" ? "今天读什么" : "In this issue"}</h1><p class="issue-intro">${esc(local(issue, locale, "zhSummary", "enSummary"))}</p><ol class="contents-list">${main.map(entry).join("")}</ol>${context.length ? `<aside class="contents-context"><h3>${locale === "zh" ? "补充背景 · 非今日新增" : "Background · not new today"}</h3><ol>${context.map((topic,index) => entry(topic, main.length + index)).join("")}</ol></aside>` : ""}</section>` };
 }
 
 function sourceDateLabel(source, locale) {
@@ -145,36 +157,18 @@ function sourceDateLabel(source, locale) {
 }
 
 function evidenceSlides(issue, locale) {
-  const entries = new Map();
-  for (const topic of [...(issue.topics ?? []), ...(issue.contextTopics ?? [])]) for (const source of topic.sources ?? []) if (!entries.has(source.url)) entries.set(source.url, source);
-  const rows = [...entries.values()];
-  return chunks(rows, 12).map((group, pageIndex) => ({
-    id: `evidence-${pageIndex + 1}`, type: "sources",
-    html: `<section class="report-slide evidence-slide" id="evidence-${pageIndex + 1}" data-slide data-template="sources"><p class="slide-kicker">${esc(issue.date)}</p><h2>${esc(words[locale].evidence)}</h2>${pageIndex ? "" : `<p class="evidence-policy">${locale === "zh" ? "只把有明确日期、来源和实质变化的进展列为新增。旧背景链接回原报道；研究、演示与可用范围分别标明。图像来自原始来源，缺图如实说明。" : "Only advances with explicit dates, sources and a substantive change are promoted. Previous coverage is linked. Research, demos and availability are distinguished. Figures come from their sources; missing imagery is disclosed."}</p>`}<ol class="evidence-list" start="${pageIndex * 12 + 1}">${group.map((source) => `<li><a href="${esc(external(source.url))}" target="_blank" rel="noreferrer">${esc(source.label)}</a><span>${esc(sourceDateLabel(source, locale))}</span></li>`).join("")}</ol><p class="source-ledger-link"><a href="../sources.md">${esc(words[locale].sources)} · ${locale === "zh" ? "日期、图源与筛选记录" : "dates, image provenance & selection notes"}</a></p></section>`
-  }));
+  const topics = [...(issue.topics ?? []), ...(issue.contextTopics ?? [])];
+  const rows = buildReferenceIndex(issue);
+  return [{ id: "evidence-1", type: "references", topicIds: topics.map(topic => topic.id),
+    html: `<section class="report-slide evidence-slide compact-reference-slide" id="evidence-1" data-slide data-template="sources"><p class="slide-kicker">${esc(issue.date)}</p><h2>${esc(words[locale].evidence)}</h2><p class="evidence-policy">${locale === "zh" ? "明确日期与实质变化才列为新增；背景单独标明。研究、厂商演示与可用范围分别说明。完整日期、图源与筛选记录见来源总表；n.d.表示日期未标注。" : "Fresh entries require dated, substantive changes. Background, research, vendor demos and availability are labeled. Full dates, image provenance and selection notes remain in the source ledger; n.d. means date unstated."}</p><ol class="evidence-list">${rows.map(source => `<li><a href="${esc(external(source.url))}" target="_blank" rel="noreferrer" title="${esc(source.label)}" aria-label="${esc(source.label)}">${esc(source.compactLabel)}</a> <span>· ${esc(source.dateLabel)}</span></li>`).join("")}</ol><p class="source-ledger-link"><a href="../sources.md">${esc(words[locale].sources)} · ${locale === "zh" ? "完整来源与图像记录" : "full sources & image records"}</a></p></section>` }];
 }
 
 export function buildVisualSlides(issue, locale = "zh") {
   if (!words[locale]) throw new Error(`Unsupported locale: ${locale}`);
   const mainTopics = issue.topics ?? [];
-  const overview = mainTopics.length ? chunks(mainTopics, 3).map((group, index) => overviewSlide(issue, locale, group, index * 3, index)) : [{ id: "overview", type: "empty", html: `<section class="report-slide no-news-slide" id="overview" data-slide data-template="empty"><p class="slide-kicker">${esc(issue.date)} · ${esc(issue.timezone)}</p><h1>${esc(words[locale].empty)}</h1><p class="issue-intro">${esc(local(issue, locale, "zhSummary", "enSummary"))}</p><p class="empty-explanation">${locale === "zh" ? "已有进展留在归档。没有新证据时不重复旧内容，也不为凑页数补图。" : "Earlier advances remain in the archive. Without new evidence, old stories aren't repeated and no visuals are added to fill pages."}</p><a href="../../">${locale === "zh" ? "查看历史日报" : "Browse earlier editions"}</a><a href="../sources.md">${esc(words[locale].sources)}</a></section>` }];
-  const storyPages = (topic, index) => [topicSlide(issue, topic, locale, index), ...visualDetailSlides(issue, topic, locale, index, figures(topic).slice(3)), ...topicDetailSlides(issue, topic, locale, index), ...mediaSlides(issue, topic, locale, index, topic.media ?? [])];
-  const quickIds = new Set(issue.editorialPlan?.quickBriefIds ?? []);
-  const quick = mainTopics.filter(topic => quickIds.has(topic.id) && !figures(topic).length && !topic.detailPages?.length && !topic.media?.length && ["zh", "en"].every(language => Object.values(topic.brief?.[language] ?? {}).join(" ").length <= 450));
-  const pairs = chunks(quick, 2).filter(pair => pair.length === 2);
-  const paired = new Map(pairs.flatMap(pair => pair.map(topic => [topic.id, pair])));
-  const renderedPairs = new Set();
-  const product = mainTopics.flatMap((topic, index) => {
-    const pair = paired.get(topic.id);
-    if (!pair) return storyPages(topic, index);
-    if (renderedPairs.has(pair)) return [];
-    renderedPairs.add(pair); return [quickPairSlide(issue, pair, locale, mainTopics)];
-  });
-  const context = (issue.contextTopics ?? []).flatMap((topic, index) => storyPages(topic, mainTopics.length + index).map((slide, pageIndex) => ({
-    ...slide, type: pageIndex ? "context-detail" : "context",
-    html: slide.html.replace("data-slide", 'data-slide data-coverage-kind="first-inclusion-context" data-is-new-today="false"').replace("data-event-id=", "data-context-id=").replace(/(data-topic-ref="[^"]*"|data-context-id="[^"]*")>/, `$1><h2 class="context-section-heading">${locale === "zh" ? "补充背景 · 首次收录" : "Background · first inclusion"}</h2><p class="context-label">${locale === "zh" ? "非今日新增" : "Not new today"} · ${esc(topic.event?.occurredAt)}</p>`)
-  })));
-  return [...overview, ...product, ...context, ...evidenceSlides(issue, locale)];
+  const context = issue.contextTopics ?? [];
+  const overview = mainTopics.length ? overviewSlide(issue, locale) : { id: "overview", type: "contents", topicIds: [], html: `<section class="report-slide no-news-slide" id="overview" data-slide data-template="empty"><p class="slide-kicker">${esc(issue.date)} · ${esc(issue.timezone)}</p><h1>${esc(words[locale].empty)}</h1><p class="issue-intro">${esc(local(issue, locale, "zhSummary", "enSummary"))}</p><a href="../../">${locale === "zh" ? "查看历史日报" : "Browse earlier editions"}</a></section>` };
+  return [overview, ...mainTopics.map((topic,index)=>topicSlide(issue,topic,locale,index)), ...context.map((topic,index)=>topicSlide(issue,topic,locale,mainTopics.length+index)), ...evidenceSlides(issue,locale)];
 }
 
 export function renderVisualIssue(issue, locale = "zh") {
@@ -186,7 +180,7 @@ export function renderVisualIssue(issue, locale = "zh") {
   return `<!doctype html>
 <html lang="${locale === "zh" ? "zh-CN" : "en"}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${esc(pageTitle)} · AI Daily</title><meta name="description" content="${esc(local(issue, locale, "zhSummary", "enSummary"))}"><link rel="stylesheet" href="../../assets/issue-v2.css"></head>
 <body class="visual-issue"><main class="visual-reader">
-  <header class="report-header"><a class="brand" href="../../">AI Daily</a><span class="header-date">${esc(issue.date)} · ${esc(issue.timezone)}</span>${readingTarget}<nav class="header-actions" aria-label="${locale === "zh" ? "语言与来源" : "Language & sources"}"><a href="../zh/"${locale === "zh" ? ' aria-current="page"' : ""}>中文</a><a href="../en/"${locale === "en" ? ' aria-current="page"' : ""}>English</a><a href="../sources.md">${esc(w.sources)}</a><a class="primary" href="../ai-daily-${esc(issue.date)}-${locale}.pdf" download>${esc(w.pdf)}</a></nav></header>
+  <header class="report-header"><a class="brand" href="../../">AI Daily</a><span class="header-date">${esc(issue.date)} · ${esc(issue.timezone)}</span>${readingTarget}<nav class="header-actions" aria-label="${locale === "zh" ? "语言与来源" : "Language & sources"}"><a href="../zh/"${locale === "zh" ? ' aria-current="page"' : ""}>中文</a><a href="../en/"${locale === "en" ? ' aria-current="page"' : ""}>English</a><a class="primary" href="../ai-daily-${esc(issue.date)}-${locale}.pdf" download>${esc(w.pdf)}</a></nav></header>
   <div class="report-stage" data-deck aria-label="${esc(pageTitle)}">${slides.map((slide) => slide.html).join("\n")}</div>
   <footer class="report-controls" aria-label="${locale === "zh" ? "日报翻页" : "Issue navigation"}"><button type="button" class="contents-button" data-go-slide="overview">${esc(w.contents)}</button><button type="button" data-prev-slide>${esc(w.prev)}</button><div class="progress-track" aria-hidden="true"><span data-deck-progress></span></div><output data-deck-counter aria-live="polite">1 / ${slides.length}</output><button type="button" class="primary" data-next-slide>${esc(w.next)}</button></footer>
 </main>
@@ -212,6 +206,7 @@ export function renderVisualIssue(issue, locale = "zh") {
    progress.style.width = ((current + 1) / slides.length * 100) + '%';
    previous.disabled = current === 0; next.disabled = current === slides.length - 1;
    deck.scrollTop = 0;
+   slides[current].scrollTop = 0;
    const target = targetId || slides[current].id;
    if (push && location.hash !== '#' + target) history.pushState(null, '', '#' + target);
    if (window.matchMedia('(max-width:900px)').matches) { window.scrollTo(0,0); const nested = Array.from(slides[current].querySelectorAll('[id]')).find(element => element.id === target); if(nested) nested.scrollIntoView({block:'start'}); }
@@ -374,6 +369,75 @@ a:focus-visible,button:focus-visible { outline:3px solid #3464c8; outline-offset
 @media (max-width:900px) { .js-deck .visual-reader { height:auto; min-height:100dvh; } .js-deck .report-stage { overflow:visible; container-type:normal; display:block; flex:none; } .js-deck .report-slide { width:100%; height:auto; aspect-ratio:auto; overflow:visible; padding:8px 0 20px; } .js-deck .report-controls { position:sticky; bottom:0; background:var(--paper); z-index:2; margin-top:16px; padding-bottom:8px; } .quick-pair { grid-template-columns:1fr; } .quick-event+.quick-event { border-left:0; border-top:1px solid var(--line); padding:20px 0 0; } }
 @media (max-width:600px) { .detail-points,.media-gallery { grid-template-columns:1fr; } .detail-slide>h2,.visual-detail-slide>h2,.media-slide>h2 { font-size:28px; } .media-figure video,.media-figure img { max-height:300px; } }
 @media print { .detail-slide>h2,.visual-detail-slide>h2,.media-slide>h2 { font-size:34px; } .detail-point p { font-size:14px; } .media-figure video,.gif-frame,.media-play { display:none!important; } .media-figure .print-poster,.gif-player.is-playing .media-poster { display:block!important; } .media-figure img { max-height:380px; background:transparent; } .media-gallery { margin-top:24px; } }
+
+/* Condensed editorial spreads: contents + one complete story per product + references. */
+.contents-list { list-style:none; padding:0; margin:16px 0 0; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:6px 26px; }
+.contents-list li,.contents-context li { min-width:0; }
+.contents-list a,.contents-context a { display:flex; gap:12px; text-decoration:none; border-top:1px solid var(--line); padding-top:7px; }
+.contents-number { color:var(--red); font-size:19px; font-weight:750; flex:0 0 28px; }
+.contents-list strong,.contents-context strong { display:block; font-size:14.5px; line-height:1.25; }
+.contents-list small,.contents-context small { display:block; font-size:11px; line-height:1.35; margin-top:3px; color:var(--muted); }
+.contents-context { margin-top:14px; }
+.contents-context h3 { margin:0 0 5px; font-size:13px; color:var(--muted); }
+.contents-context ol { list-style:none; margin:0; padding:0; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:6px 26px; }
+.story-body { display:grid; grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr); gap:24px; margin-bottom:12px; align-items:start; }
+.story-visuals { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+.story-visuals.count-1,.story-visuals.count-2 { grid-template-columns:1fr; }
+.story-visuals.count-3>:first-child { grid-column:1 / -1; }
+.story-visuals .product-figure img,.story-visuals .media-figure img,.story-visuals .media-figure video { width:100%; height:auto; max-height:190px; object-fit:contain; }
+.story-visuals.count-1 .product-figure img { max-height:330px; }
+.story-visuals .product-figure figcaption,.story-visuals .media-figure figcaption { font-size:12px; line-height:1.35; margin-top:5px; }
+.story-visuals .media-figure figcaption strong { font-weight:500; }
+.story-visuals .media-play { padding:5px 13px; font-size:12px; margin-top:5px; }
+.story-copy .story-brief { display:block; margin:0; }
+.story-copy .brief-unit { margin:0 0 10px; padding:0; border:0; }
+.story-copy .brief-unit h3 { display:inline; font-size:14px; line-height:1.5; margin:0; }
+.story-copy .brief-unit h3:after { content: " · "; }
+.story-copy .brief-unit p { display:inline; font-size:15px; line-height:1.5; }
+.story-detail { border-top:1px solid var(--line); padding-top:10px; margin-top:12px; }
+.story-detail h3 { font-size:15px; margin:0 0 8px; }
+.story-detail ul { margin:0; padding-left:18px; }
+.story-detail li { font-size:14.5px; line-height:1.45; margin:0 0 7px; }
+.event-source-row .reference-marker:last-child { margin-left:0; }
+.reference-marker { color:var(--muted); font-size:11px; white-space:nowrap; text-decoration:none; }
+.point-source { font-size:11px; color:var(--muted); white-space:nowrap; }
+.text-story .story-body { display:block; max-width:1050px; }
+.text-story .story-brief { display:grid; grid-template-columns:1fr 1fr; gap:20px 30px; }
+.text-story .brief-unit h3 { display:block; font-size:18px; margin-bottom:6px; }
+.text-story .brief-unit h3:after { content:none; }
+.text-story .brief-unit p { font-size:18px; line-height:1.55; }
+.text-story .visual-unavailable { margin:14px 0 0; padding:8px 0; font-size:12px; }
+.compact-reference-slide .evidence-list { grid-template-columns:repeat(3,minmax(0,1fr)); gap:5px 26px; margin:12px 0; }
+.compact-reference-slide .evidence-list li { font-size:13px; line-height:1.3; padding-right:0; }
+.compact-reference-slide .evidence-list span { font-size:11px; display:inline; margin:0; }
+.compact-reference-slide .evidence-policy { font-size:13px; line-height:1.45; margin:0; }
+@media screen and (min-width:901px) {
+ .js-deck .magazine-slide>h2 { font-size:27px; margin-bottom:12px; }
+ .js-deck .story-copy .brief-unit p { font-size:14.5px; line-height:1.45; }
+ .js-deck .story-copy .brief-unit h3 { font-size:13px; line-height:1.45; }
+ .js-deck .story-copy .brief-unit { margin-bottom:8px; }
+ .js-deck .story-detail { margin-top:9px; padding-top:8px; }
+ .js-deck .story-detail h3 { font-size:14px; margin-bottom:6px; }
+ .js-deck .story-detail li { font-size:14px; line-height:1.4; margin-bottom:6px; }
+ .js-deck .story-visuals .product-figure img,.js-deck .story-visuals .media-figure img,.js-deck .story-visuals .media-figure video { max-height:175px; }
+ .js-deck .story-visuals.count-3>:first-child img { max-height:195px; }
+ .js-deck .story-visuals.count-1 .product-figure img { max-height:350px; }
+ .js-deck .story-visuals .product-figure figcaption,.js-deck .story-visuals .media-figure figcaption { font-size:11px; }
+ .js-deck .text-story .brief-unit p { font-size:18px; line-height:1.55; }
+ .js-deck .text-story .brief-unit h3 { font-size:18px; }
+ .js-deck .context-label { font-size:12px; margin-bottom:5px; }
+}
+@media (max-width:900px) {
+ .contents-list,.contents-context ol { grid-template-columns:1fr; }
+ .story-body { grid-template-columns:1fr; }
+ .story-visuals .product-figure img,.story-visuals .media-figure img,.story-visuals .media-figure video { max-height:280px; }
+ .story-visuals.count-3>:first-child img { max-height:320px; }
+ .text-story .story-brief { grid-template-columns:1fr; gap:12px; }
+ .story-copy .brief-unit p { font-size:16px; }
+ .story-detail li { font-size:15px; }
+ .compact-reference-slide .evidence-list { grid-template-columns:1fr; }
+}
+
 @page { size:16in 9in; margin:0; }
 @media print { body.visual-issue { background:#fffdf8; font-size:14px; } .visual-reader,.js-deck .visual-reader { display:block; height:auto; width:16in; max-width:none; padding:0; } .report-header,.report-controls,.js-deck .report-controls { display:none; } .report-stage,.js-deck .report-stage { display:block; overflow:visible; } .report-slide,.js-deck .report-slide[hidden] { display:block!important; width:16in; height:9in; padding:30px 40px; break-after:page; page-break-after:always; overflow:hidden; } .report-slide:last-child { break-after:auto; page-break-after:auto; } .report-slide h1 { font-size:42px; } .product-slide>h2 { font-size:34px; margin-bottom:18px; } .event-meta { font-size:12px; } .visual-gallery { margin-bottom:18px; gap:16px; } .product-figure img { max-height:260px; } .visual-gallery.count-1 img { max-height:250px; } .brief-unit p { font-size:14px; line-height:1.55; } .brief-grid,.use-limit-grid { gap:14px 30px; } .change-columns h3 { font-size:22px; } .digest-row { padding:16px 0; } .digest-images img { max-height:145px; } .digest-copy h2 { font-size:26px; } .digest-copy>p { font-size:14px; } .issue-intro { font-size:14px; } .read-event,.figure-source { font-size:11px; } .event-source-row { font-size:11px; } .no-news-slide { padding:80px 60px; } a { text-decoration:none; } }`;
 }

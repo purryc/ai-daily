@@ -8,6 +8,7 @@ import {
   selectEvents,
   selectContextEvents,
   validateIssue,
+  validateIllustratedIssue,
 } from "./lib/issue-policy.mjs";
 
 export async function generateIssue({ root, input }) {
@@ -84,6 +85,7 @@ export async function generateIssue({ root, input }) {
         imagePath: null,
       };
   validateIssue(issue, archive);
+  if (issue.requireProductVisuals) validateIllustratedIssue(issue);
   for (const topic of allIssueTopics(issue))
     for (const visual of allTopicVisuals(topic)) {
       const asset = assertCloudOutput(

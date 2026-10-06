@@ -3,14 +3,16 @@
     "date": "2026-10-06",
     "zhTitle": "AI Daily｜从新产品到新问题，约15分钟",
     "enTitle": "AI Daily | New products and useful questions, about 15 minutes",
-    "zhSummary": "13条10月5–6日已核验新进展，另附10月1日首次收录的专利背景；重点读硬件、交易安全与新交互，其余为短报",
-    "enSummary": "13 verified October5–6 advances plus separately dated October1 patent context. Focus on hardware, marketplace safety and interaction; other items are quick briefs",
+    "zhSummary": "12条有明确日期的近期进展，另有4条标注原发布日期的首次收录背景；增强真实AI硬件、交互流程与演示，每个故事图文合页",
+    "enSummary": "12 dated recent advances and 4 first-inclusion background stories with original publication dates; more physical AI hardware, real workflows and demonstrations on integrated story pages",
     "tags": [],
     "sourceTypes": [
       "official",
       "reviews",
-      "research",
-      "developer docs"
+      "developer docs",
+      "paper",
+      "official research",
+      "research"
     ],
     "coverStory": {
       "topicId": "ghost-core-preorder-2026-10-05",

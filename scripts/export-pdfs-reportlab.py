@@ -11,6 +11,7 @@ import json
 import re
 import sys
 import tempfile
+from io import BytesIO
 from pathlib import Path
 from xml.sax.saxutils import escape
 
@@ -23,6 +24,9 @@ from reportlab.lib.styles import ParagraphStyle
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont as RLTTFont
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Image, PageBreak, KeepTogether, Table, TableStyle
+from reportlab.pdfgen import canvas as pdfcanvas
+from types import SimpleNamespace
+from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
 
 PAGE = landscape(A4)
 MARGIN = 42
@@ -169,8 +173,16 @@ class Exporter:
             raise ValueError(f'Missing factual image: {path}')
         with PILImage.open(path) as image:
             iw, ih = image.size
+            embedded=image.copy()
+        # Preserve the complete factual frame, embedding at ample print resolution
+        # rather than retaining multi-megapixel originals in every PDF.
+        embedded.thumbnail((1400,1400),PILImage.Resampling.LANCZOS)
+        buffer=BytesIO()
+        if 'A' in embedded.getbands():embedded.save(buffer,format='PNG',optimize=True)
+        else:embedded.convert('RGB').save(buffer,format='JPEG',quality=92,subsampling=0,optimize=True)
+        buffer.seek(0)
         scale = min(width / iw, height / ih)
-        flow = Image(str(path), width=iw*scale, height=ih*scale, hAlign='LEFT')
+        flow = Image(buffer, width=iw*scale, height=ih*scale, hAlign='LEFT')
         caption = suffix(visual,self.locale,'caption') or suffix(visual,self.locale,'alt')
         items = [flow, Spacer(1,5), self.p(caption,'caption')]
         url = visual.get('sourceUrl')
@@ -178,13 +190,6 @@ class Exporter:
             items.append(self.link(self.w['original'],url))
             self.remember(url)
         return items
-
-    def gallery(self, visuals, height=215):
-        # One-column figures preserve readable screenshots. Content is never
-        # discarded to fit a page; Platypus paginates image-caption groups.
-        for visual in visuals:
-            self.story.append(KeepTogether(self.image(visual, height=height)))
-            self.story.append(Spacer(1,5))
 
     def source_row(self, topic):
         for source in topic.get('sources',[]):
@@ -204,115 +209,6 @@ class Exporter:
         if history:
             self.add(('上次报道' if self.locale=='zh' else 'Previous coverage') + ' · ' + history,'meta')
 
-    def media(self, topic, items):
-        for item in items:
-            if item.get('kind') not in ('video','gif','official-link') or not item.get('poster'):
-                raise ValueError('Media needs a verified factual poster and supported kind')
-            self.story.append(PageBreak())
-            self.meta(topic)
-            self.add(local(topic,self.locale,'Headline') + ' · ' + self.w['demo'],'title')
-            self.gallery([item['poster']])
-            self.add(suffix(item,self.locale,'caption'))
-            self.add(suffix(item,self.locale,'whatToSee'))
-            self.add('PDF 使用已核验的静态海报；点击链接观看原始演示' if self.locale=='zh' else 'PDF uses a verified static poster; follow the link for the original demo','caption')
-            for label, url in [(self.w['original'],item.get('sourceUrl')),('官方演示' if self.locale=='zh' else 'Official demo',item.get('url'))]:
-                if url:
-                    self.story.append(self.link(label,url)); self.remember(url)
-            self.source_row(topic)
-
-    def overview_summary(self, topic):
-        summary = suffix(topic.get('event',{}),self.locale,'summary')
-        headline = local(topic,self.locale,'Headline')
-        # The headline is already visible above. Omit identical body copy;
-        # full brief units remain in the corresponding story section.
-        return '' if norm(summary) == norm(headline) else summary
-
-    def build(self):
-        fresh_topics = self.issue.get('topics',[])
-        context_topics = self.issue.get('contextTopics',[])
-        topics = fresh_topics + context_topics
-        for start in range(0,max(1,len(fresh_topics)),3):
-            if start: self.story.append(PageBreak())
-            self.add(self.issue['date'] + ' · ' + self.issue.get('timezone','') + ' · ' + self.issue.get('cutoff',''),'meta')
-            self.add(local(self.issue,self.locale,'Title') if not start else self.w['overview'],'title')
-            if not start:
-                self.add(local(self.issue,self.locale,'Summary'))
-                self.add('约15分钟（编辑估算）· 插图短报与变化优先比较' if self.locale=='zh' else 'About 15 minutes (editorial estimate) · Illustrated digest & change-first comparisons','caption')
-                self.add('PDF 为独立排版，静态海报链接到原始媒体' if self.locale=='zh' else 'PDF has a separate layout; static posters link to original media','caption')
-            for i, topic in enumerate(fresh_topics[start:start+3], start+1):
-                visuals = topic.get('visuals',[]) or ([topic['visual']] if topic.get('visual') else [])
-                copy = [self.p(f"{i:02d}  {local(topic,self.locale,'Headline')}",'heading')]
-                summary = self.overview_summary(topic)
-                if summary:
-                    copy.append(self.p(summary))
-                copy.append(self.p(self.w['event']+' '+topic.get('event',{}).get('occurredAt',''),'meta'))
-                if visuals:
-                    image = self.image(visuals[0],width=180,height=75)[0]
-                    row = Table([[image,copy]],colWidths=[195,WIDTH-195],hAlign='LEFT')
-                    row.setStyle(TableStyle([('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),0),('RIGHTPADDING',(0,0),(-1,-1),8),('BOTTOMPADDING',(0,0),(-1,-1),8)]))
-                    self.story.append(row)
-                else:
-                    self.story.extend(copy)
-        if not fresh_topics:
-            self.add('今天没有符合标准的新增进展' if self.locale=='zh' else 'No new advances met the evidence bar today')
-        if context_topics:
-            self.story.append(PageBreak())
-            self.add('非今日新增 · 首次收录背景' if self.locale == 'zh' else 'Background · first inclusion', 'title')
-            self.add('以下为较早公开、今天首次纳入的背景，未计入今日新增。' if self.locale == 'zh' else 'These earlier publications are newly included as background, and are not counted as fresh advances today.')
-            for topic in context_topics:
-                self.meta(topic)
-                self.add(local(topic,self.locale,'Headline'),'heading')
-                self.add(self.overview_summary(topic))
-        for topic in topics:
-            self.story.append(PageBreak())
-            self.meta(topic)
-            self.add(local(topic,self.locale,'Headline'),'title')
-            copy = topic.get('brief',{}).get(self.locale,{})
-            comparison = topic.get('comparison',{})
-            baseline = comparison.get(self.locale,{}).get('before')
-            change_first = topic.get('event',{}).get('previousIssue') or topic.get('event',{}).get('kind') == 'availability-change'
-            # Preserve all four brief units even when a verified comparison exists.
-            if change_first and baseline and comparison.get('sourceUrl'):
-                self.add(self.w['before'],'label'); self.add(baseline)
-                self.story.append(self.link('历史证据' if self.locale=='zh' else 'Baseline evidence', comparison['sourceUrl']))
-                self.remember(comparison['sourceUrl'])
-            if change_first:
-                order = ['change','what','use','limits']
-            else:
-                order = ['what','change','use','limits']
-            visuals = topic.get('visuals',[]) or ([topic['visual']] if topic.get('visual') else [])
-            if visuals:
-                # Hero figure plus complete brief units; additional figures receive
-                # their own logical continuation and remain at useful image sizes.
-                self.gallery(visuals[:1],height=115)
-            else:
-                self.add(topic.get('visualMissing',{}).get(self.locale) or self.w['missing'],'caption')
-            for key in order:
-                self.add(self.w[key],'label'); self.add(copy.get(key,''))
-            self.source_row(topic)
-            if len(visuals)>1:
-                self.story.append(PageBreak()); self.meta(topic)
-                self.add(local(topic,self.locale,'Headline')+' · '+self.w['details'],'title')
-                self.gallery(visuals[1:])
-            for page in topic.get('detailPages',[]):
-                self.story.append(PageBreak()); self.meta(topic)
-                self.add(local(page,self.locale,'Title'),'title')
-                self.gallery(page.get('visuals',[]) or ([page['visual']] if page.get('visual') else []))
-                for index, point in enumerate(page.get('points',[]),1):
-                    self.add(f'{index:02d}','label'); self.add(point.get(self.locale,''))
-                    for i,url in enumerate(point.get('sourceUrls',[]),1):
-                        self.story.append(self.link(('依据' if self.locale=='zh' else 'Evidence')+f' {i}',url))
-                        self.remember(url)
-                self.source_row(topic)
-                self.media(topic,page.get('media',[]))
-            self.media(topic,topic.get('media',[]))
-        if self.ledger:
-            self.story.append(PageBreak());self.add(self.w['sources'],'title')
-            self.add('只将有明确日期、来源和实质变化的进展列为新增；旧背景单独标明。研究、演示、融资与可售产品不等同。图像来自核验来源，静态海报不声称复现视频帧。' if self.locale=='zh' else 'Only dated, sourced substantive advances count as new. Older context is labeled separately. Research, demos, funding and shipping products are distinct. Figures come from verified sources; static posters do not claim to reproduce video frames.')
-            for i,source in enumerate(self.ledger.values(),1):
-                self.story.append(KeepTogether([self.link(f"{i:02d}  {source['label']}",source['url'],'caption'), self.p(self.source_date_label(source),'caption'), self.link(source['url'],source['url'],'caption')]))
-        return self.story
-
     def source_date_label(self, source):
         label = self.w['published'] + ': ' + str(source.get('publishedAt') or ('未标注' if self.locale == 'zh' else 'not stated'))
         if source.get('effectiveDate'):
@@ -331,6 +227,199 @@ class Exporter:
 def norm(text):
     return re.sub(r'\s+','',text)
 
+def canonical_url(value):
+    u=urlsplit(str(value or ''))
+    host=re.sub(r'^www\.','',u.netloc.lower())
+    query=urlencode(sorted((k,v) for k,v in parse_qsl(u.query,keep_blank_values=True) if not re.match(r'^(utm_|fbclid$|gclid$|mc_|ref$|ref_src$)',k,re.I)))
+    return urlunsplit((u.scheme,host,u.path.rstrip('/'),query,''))
+
+def editorial_plan(issue, supplied=None):
+    topics=issue.get('topics',[])+issue.get('contextTopics',[])
+    ids=[t['id'] for t in topics]
+    if len(ids)!=len(set(ids)):
+        raise ValueError('Editorial page plan has duplicate story IDs')
+    contexts={t['id'] for t in issue.get('contextTopics',[])}
+    plan=supplied or ([{'id':'overview','type':'contents','topicIds':ids}]+[
+        {'id':f'event-{i+1}','type':'context' if t['id'] in contexts else 'product','topicIds':[t['id']]} for i,t in enumerate(topics)
+    ]+[{'id':'evidence-1','type':'references','topicIds':ids}])
+    if len(plan)!=len(ids)+2 or plan[0].get('type')!='contents' or plan[-1].get('type')!='references':
+        raise ValueError('Editorial page plan needs one contents page, one references page and one page per story')
+    stories=plan[1:-1]
+    actual=[p.get('topicIds',[None])[0] if len(p.get('topicIds',[]))==1 else None for p in stories]
+    if sorted(actual,key=str)!=sorted(ids) or len(set(actual))!=len(ids) or any(p.get('type') not in ('product','context') for p in stories):
+        raise ValueError('Editorial page plan repeats, omits or combines a story')
+    if len({p.get('id') for p in plan})!=len(plan):
+        raise ValueError('Editorial page plan has duplicate page IDs')
+    return plan
+
+class DenseExporter(Exporter):
+    """One editorial page per plan entry, without hidden flow/spill or tiny type."""
+    def __init__(self, issue, locale, root, font, plan, reference_index=None, contents_labels=None):
+        super().__init__(issue,locale,root,font)
+        self.plan=plan
+        self.contents_labels=contents_labels or {}
+        self.topics={t['id']:t for t in issue.get('topics',[])+issue.get('contextTopics',[])}
+        self.context_ids={t['id'] for t in issue.get('contextTopics',[])}
+        self.styles['title'].fontSize=21;self.styles['title'].leading=26;self.styles['title'].spaceAfter=8
+        self.styles['body'].fontSize=11.5;self.styles['body'].leading=16;self.styles['body'].spaceAfter=5
+        self.styles['label'].spaceAfter=2
+        self.styles['caption'].leading=12.5;self.styles['caption'].spaceAfter=4
+        self.styles['heading'].fontSize=14;self.styles['heading'].leading=18;self.styles['heading'].spaceAfter=5
+        self.ledger_url=f"https://purryc.github.io/ai-daily/{issue['date']}/sources.md"
+        for topic in self.topics.values():
+            self.source_row(topic);self.story=[]
+            for page in topic.get('detailPages',[]):
+                for point in page.get('points',[]):
+                    for url in point.get('sourceUrls',[]):self.remember(url)
+            for media in self.topic_media(topic):
+                for url in [media.get('sourceUrl'),media.get('url')]:
+                    self.remember(url,local(topic,locale,'Headline')+' · '+self.w['demo'])
+            for visual in self.topic_figures(topic):self.remember(visual.get('sourceUrl'))
+            if topic.get('comparison',{}).get('sourceUrl'):self.remember(topic['comparison']['sourceUrl'])
+        if reference_index is not None:
+            expected={canonical_url(url) for url in self.ledger}
+            provided={canonical_url(s['url']) for s in reference_index}
+            if expected!=provided:raise ValueError('Shared reference index omits or invents a provenance URL')
+            original={canonical_url(url):s for url,s in self.ledger.items()}
+            self.ledger={s['url']:{**original.get(canonical_url(s['url']),{}),**s} for s in reference_index}
+        else:
+            grouped={}
+            for url,s in self.ledger.items():
+                key=canonical_url(url)
+                if key not in grouped:grouped[key]=s
+            self.ledger={s['url']:s for s in grouped.values()}
+        self.source_numbers={canonical_url(url):i+1 for i,url in enumerate(self.ledger)}
+
+    def topic_media(self,topic):
+        return topic.get('media',[])+[m for p in topic.get('detailPages',[]) for m in p.get('media',[])]
+
+    def remember(self,url,label='',published=None,effective_date=None):
+        if hasattr(self,'source_numbers'):
+            if url and canonical_url(url) not in self.source_numbers:
+                raise ValueError('Shared reference index omits an image/media provenance URL')
+            return
+        super().remember(url,label,published,effective_date)
+
+    def topic_figures(self,topic):
+        items=(topic.get('visuals',[]) or ([topic['visual']] if topic.get('visual') else []))+[v for p in topic.get('detailPages',[]) for v in p.get('visuals',[])]+[m['poster'] for m in self.topic_media(topic) if m.get('poster')]
+        by_path={}
+        for v in items:
+            if v.get('path') not in by_path:by_path[v['path']]={**v,'_captions':[]}
+            caption=suffix(v,self.locale,'caption') or suffix(v,self.locale,'alt')
+            if caption and caption not in by_path[v['path']]['_captions']:by_path[v['path']]['_captions'].append(caption)
+        return list(by_path.values())
+
+    def block(self,c,flows,x,top,width,bottom,page_id):
+        y=top
+        for flow in flows:
+            _,height=flow.wrap(width, max(1,y-bottom))
+            gap=flow.getSpaceAfter() if hasattr(flow,'getSpaceAfter') else 4
+            if height>y-bottom+0.1:
+                raise ValueError(f'Editorial page fit error on {page_id} ({self.locale}): revise this story/grid; do not spill, truncate or shrink body type')
+            flow.drawOn(c,x,y-height);y-=height+gap
+        return y
+
+    def linked_paragraph(self,text,urls=(),style='body'):
+        text=str(text or '')
+        if text:self.required.append(text)
+        refs=' '.join(f'<link href="#evidence-1" color="#087e83">[{self.source_numbers[canonical_url(url)]}]</link>' for url in dict.fromkeys(urls) if canonical_url(url) in self.source_numbers)
+        return Paragraph(escape(text)+((' '+refs) if refs else ''),self.styles[style])
+
+    def is_context(self,t):
+        return t['id'] in self.context_ids or t.get('isNewToday') is False or t.get('event',{}).get('kind') in ('first-inclusion-context','context')
+
+    def meta_text(self,t):
+        event=t.get('event',{})
+        label=f"{event.get('productKey','')} · {self.w['event']} {event.get('occurredAt','')} · {t.get('evidenceLabel','')}"
+        if self.is_context(t):label=('非今日新增 · 首次收录背景' if self.locale=='zh' else 'Not new today · First-inclusion context')+' · '+label+' · '+self.w['included']+' '+t.get('firstIncludedOn',self.issue['date'])
+        return label
+
+    def contents(self,c,p):
+        top=PAGE[1]-36
+        header=[self.p(local(self.issue,self.locale,'Title'),'title'),self.p(self.issue['date']+' · '+self.issue.get('timezone','')+' · '+self.issue.get('cutoff',''),'meta'),self.p('目录' if self.locale=='zh' else 'Contents','heading'),self.p(local(self.issue,self.locale,'Summary'),'caption')]
+        top=self.block(c,header,MARGIN,top,WIDTH,48,p['id'])-10
+        ids=[q['topicIds'][0] for q in self.plan[1:-1]]
+        if not ids:self.block(c,[self.p('今天没有可核实的新进展' if self.locale=='zh' else 'No verified new advances today')],MARGIN,top,WIDTH,48,p['id']);return
+        columns=2;rows=(len(ids)+1)//2;col_width=(WIDTH-24)/2;row_height=(top-52)/rows
+        if row_height<38:raise ValueError('Editorial contents page fit error: select a readable 15-minute route')
+        for i,ident in enumerate(ids):
+            topic=self.topics[ident];col=i//rows;row=i%rows;x=MARGIN+col*(col_width+24);y=top-row*row_height
+            contents_style=ParagraphStyle('contents',parent=self.styles['body'],fontSize=10.5,leading=13.5,spaceAfter=3)
+            label=self.contents_labels.get(ident,{}).get(self.locale) or topic.get('contentsLabel',{}).get(self.locale) or local(topic,self.locale,'Headline')
+            text=f'{i+1:02d}  '+label;self.required.append(text);title=Paragraph(escape(text),contents_style)
+            state=('背景 · 非今日新增 · ' if self.locale=='zh' else 'Background · not new today · ') if self.is_context(topic) else ''
+            date=self.p(state+topic.get('event',{}).get('occurredAt',''),'meta')
+            self.block(c,[title,date],x,y,col_width,y-row_height+4,p['id'])
+            c.linkAbsolute('',ident,(x,y-row_height+3,x+col_width,y),thickness=0)
+
+    def figure_grid(self,c,figures,x,top,width,bottom,page_id):
+        n=len(figures)
+        if n>4:raise ValueError(f'Editorial figure fit error on {page_id}: select informative figures or explicitly revise the spread')
+        if n==1:slots=[(x,top,width,top-bottom)]
+        elif n==2:
+            h=(top-bottom-12)/2;slots=[(x,top-i*(h+12),width,h) for i in range(2)]
+        else:
+            h=(top-bottom-14)/2;w=(width-12)/2
+            slots=[(x+(i%2)*(w+12),top-(i//2)*(h+14),width if n==3 and i==2 else w,h) for i in range(n)]
+        for visual,(sx,sy,sw,sh) in zip(figures,slots):
+            caption='；'.join(visual['_captions']) if self.locale=='zh' else '; '.join(visual['_captions'])
+            cap=self.linked_paragraph(caption,[visual.get('sourceUrl')],'caption');_,ch=cap.wrap(sw,sh)
+            image_height=sh-ch-8
+            if image_height<60:raise ValueError(f'Editorial figure/caption fit error on {page_id}')
+            image=self.image(visual,width=sw,height=image_height)[0]
+            iw,ih=image.drawWidth,image.drawHeight
+            image.drawOn(c,sx+(sw-iw)/2,sy-ih)
+            cap.drawOn(c,sx,sy-ih-5-ch)
+
+    def product(self,c,p):
+        topic=self.topics[p['topicIds'][0]]
+        top=self.block(c,[self.p(self.meta_text(topic),'meta'),self.p(local(topic,self.locale,'Headline'),'title')],MARGIN,PAGE[1]-36,WIDTH,48,p['id'])-8
+        figures=self.topic_figures(topic);left_width=WIDTH*.40;gap=25;x=MARGIN+left_width+gap;width=WIDTH-left_width-gap
+        if figures:self.figure_grid(c,figures,MARGIN,top,left_width,66,p['id'])
+        else:x=MARGIN;width=WIDTH
+        flows=[];copy=topic.get('brief',{}).get(self.locale,{})
+        comparison=topic.get('comparison',{});before=comparison.get(self.locale,{}).get('before')
+        if before and comparison.get('sourceUrl'):flows += [self.p(self.w['before'],'label'),self.linked_paragraph(before,[comparison['sourceUrl']])]
+        order=['change','what','use','limits'] if topic.get('event',{}).get('previousIssue') or topic.get('event',{}).get('kind')=='availability-change' else ['what','change','use','limits']
+        for key in order:
+            paragraph=self.linked_paragraph(copy.get(key,''),[topic.get('eventSourceUrl')]) if key=='change' else self.p(copy.get(key,''))
+            flows += [self.p(self.w[key],'label'),paragraph]
+        for detail in topic.get('detailPages',[]):
+            flows.append(self.p(local(detail,self.locale,'Title'),'heading'))
+            for point in detail.get('points',[]):flows.append(self.linked_paragraph(point.get(self.locale,''),point.get('sourceUrls',[])))
+        for media in self.topic_media(topic):
+            if media.get('kind') not in ('video','gif','official-link') or not media.get('poster'):raise ValueError('Media needs a verified factual poster and supported kind')
+            flows += [self.linked_paragraph(('播放原始演示 · ' if self.locale=='zh' else 'Play original demo · ')+suffix(media,self.locale,'caption'),[media.get('url'),media.get('sourceUrl')]),self.p(suffix(media,self.locale,'whatToSee'),'caption')]
+        if not figures:flows.append(self.p(topic.get('visualMissing',{}).get(self.locale) or self.w['missing'],'caption'))
+        self.block(c,flows,x,top,width,66,p['id'])
+
+    def references(self,c,p):
+        header=[self.p('参考与证据索引' if self.locale=='zh' else 'References & evidence index','title'),self.link('完整日期、图源、筛选记录 → sources.md' if self.locale=='zh' else 'Full dates, figure provenance & selection notes → sources.md',self.ledger_url,'body'),self.p('n.d.：来源未标注发布日期；生效日期单独标明' if self.locale=='zh' else 'n.d. = publication date not stated; effective dates are labeled separately','caption')]
+        top=self.block(c,header,MARGIN,PAGE[1]-36,WIDTH,48,p['id'])-10
+        entries=list(self.ledger.values());cols=2 if len(entries)<=32 else 3;rows=(len(entries)+cols-1)//cols;width=(WIDTH-(cols-1)*20)/cols
+        if not entries:self.block(c,[self.p('没有新增引用' if self.locale=='zh' else 'No new citations')],MARGIN,top,WIDTH,48,p['id']);return
+        cells=[]
+        for i,s in enumerate(entries):
+            date=s.get('dateLabel') or (('生效 ' if self.locale=='zh' else 'Effective ')+s['effectiveDate'] if s.get('effectiveDate') else str(s.get('publishedAt') or ('未标注' if self.locale=='zh' else 'Not stated')))
+            label=f'{i+1:02d} '+s.get('compactLabel',s['label'])+' · '+date
+            cell=self.link(label,s['url'],'caption');_,h=cell.wrap(width,top-48);cells.append((cell,h+8))
+        col_heights=[sum(h for _,h in cells[i*rows:(i+1)*rows]) for i in range(cols)]
+        if max(col_heights)>top-48:raise ValueError('Editorial references page fit error: compact source labels without dropping URLs; full ledger stays external')
+        for col in range(cols):
+            self.block(c,[f for f,_ in cells[col*rows:(col+1)*rows]],MARGIN+col*(width+20),top,width,48,p['id'])
+
+    def render(self,dest):
+        c=pdfcanvas.Canvas(str(dest),pagesize=PAGE,pageCompression=1)
+        c.setTitle(local(self.issue,self.locale,'Title'));c.setAuthor('AI Daily')
+        for i,p in enumerate(self.plan):
+            c.bookmarkPage(p['id'])
+            if p['type'] in ('product','context'):c.bookmarkPage(p['topicIds'][0])
+            if p['type']=='contents':self.contents(c,p)
+            elif p['type']=='references':self.references(c,p)
+            else:self.product(c,p)
+            self.footer(c,SimpleNamespace(page=i+1));c.showPage()
+        c.save()
+
 def export(args):
     args.root = args.root.resolve()
     output = (args.output_dir or args.root / 'pending').resolve()
@@ -340,6 +429,8 @@ def export(args):
         raise ValueError('PDF output must stay inside the specified cloud root')
     issue_bytes = args.issue.read_bytes()
     issue = json.loads(issue_bytes)
+    plan=editorial_plan(issue,json.loads(args.page_plan.read_text()) if args.page_plan else None)
+    if len(plan)>args.max_pages:raise ValueError(f'PDF exceeds hard page limit: {len(plan)} > {args.max_pages}')
     if not re.fullmatch(r'\d{4}-\d{2}-\d{2}',issue.get('date','')):
         raise ValueError('Issue requires an ISO date')
     locales = args.locales.split(',')
@@ -358,12 +449,12 @@ def export(args):
         font = register_font(issue,temp)
         ready = []
         for locale in locales:
-            renderer = Exporter(issue,locale,args.root,font)
+            renderer = DenseExporter(issue,locale,args.root,font,plan,json.loads(args.reference_index.read_text()) if args.reference_index else None,json.loads(args.contents_labels.read_text()) if args.contents_labels else None)
             dest = temp / f"ai-daily-{issue['date']}-{locale}.pdf"
-            doc = SimpleDocTemplate(str(dest),pagesize=PAGE,rightMargin=MARGIN,leftMargin=MARGIN,topMargin=36,bottomMargin=48,title=local(issue,locale,'Title'),author='AI Daily',pageCompression=1)
-            doc.build(renderer.build(),onFirstPage=renderer.footer,onLaterPages=renderer.footer)
+            renderer.render(dest)
             reader = PdfReader(dest)
             count = len(reader.pages)
+            if count!=len(plan):raise ValueError('PDF editorial page plan mismatch')
             if count>args.max_pages:
                 raise ValueError(f'{locale} PDF exceeds hard page limit: {count} > {args.max_pages}; revise the editorial plan, never silently truncate')
             parts = []
@@ -379,7 +470,7 @@ def export(args):
         for dest in ready:
             target=output/dest.name
             target.write_bytes(dest.read_bytes())
-        sidecar = {'renderer':'reportlab', 'date':issue['date'], 'pages':{s['locale']:s['pages'] for s in summaries}, 'sourceDataSha256':hashlib.sha256(issue_bytes).hexdigest(), 'note':'Independent static ReportLab layout; not browser-print parity. Verified media posters link to originals.'}
+        sidecar = {'renderer':'reportlab', 'date':issue['date'], 'pages':{s['locale']:s['pages'] for s in summaries}, 'sourceDataSha256':hashlib.sha256(issue_bytes).hexdigest(), 'editorialPagePlan':plan, 'note':'Independent static ReportLab layout with shared editorial pagination; not browser-print pixel parity. Verified media posters link to originals.'}
         (output/'pdf-export.json').write_text(json.dumps(sidecar,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps(summaries,ensure_ascii=False))
 
@@ -390,6 +481,9 @@ if __name__ == '__main__':
     parser.add_argument('--output-dir',type=Path)
     parser.add_argument('--locales',default='zh,en')
     parser.add_argument('--max-pages',type=int,default=50)
+    parser.add_argument('--page-plan',type=Path)
+    parser.add_argument('--reference-index',type=Path)
+    parser.add_argument('--contents-labels',type=Path)
     args=parser.parse_args()
     if not 1<=args.max_pages<=50:
         parser.error('--max-pages must be between 1 and 50')

@@ -16,3 +16,10 @@ test('Browser PDFs and exports without a sidecar still require HTML page parity 
   assert.throws(()=>validatePdfExportMetadata({date:'2026-10-06',locale:'en',sourceBytes:bytes,pdfPages:33,htmlPages:24}));
   assert.throws(()=>validatePdfExportMetadata({metadata:{...sidecar,pages:{zh:51}},date:'2026-10-06',locale:'zh',sourceBytes:bytes,pdfPages:51,htmlPages:24}));
 });
+test('Shared editorial pagination requires identical HTML/PDF counts and the expected story plan',()=>{
+  const plan=[{id:'overview',type:'contents',topicIds:[]},{id:'evidence-1',type:'references',topicIds:[]}];
+  const metadata={...sidecar,pages:{zh:2,en:2},editorialPagePlan:plan};
+  assert.equal(validatePdfExportMetadata({metadata,date:'2026-10-06',locale:'zh',sourceBytes:bytes,pdfPages:2,htmlPages:2,editorialPagePlan:plan}),'reportlab');
+  assert.throws(()=>validatePdfExportMetadata({metadata,date:'2026-10-06',locale:'zh',sourceBytes:bytes,pdfPages:2,htmlPages:3,editorialPagePlan:plan}));
+  assert.throws(()=>validatePdfExportMetadata({metadata,date:'2026-10-06',locale:'zh',sourceBytes:bytes,pdfPages:2,htmlPages:2,editorialPagePlan:[...plan].reverse()}));
+});

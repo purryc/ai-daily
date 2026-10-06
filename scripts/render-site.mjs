@@ -2,7 +2,7 @@ import fs from "node:fs/promises";
 import { readIssues } from "./lib/issue-data.mjs";
 import { allIssueTopics, allTopicVisuals, coverFigureFallback } from "./lib/topic-content.mjs";
 import { renderVisualIssue, visualIssueCss } from "./lib/issue-visuals.mjs";
-import { selectIssueDates, assertCloudOutput, validatePageCount } from "./lib/issue-policy.mjs";
+import { selectIssueDates, assertCloudOutput, validatePageCount, validateIllustratedIssue } from "./lib/issue-policy.mjs";
 import path from "node:path";
 
 const root = path.resolve(new URL("..", import.meta.url).pathname);
@@ -11,6 +11,7 @@ const siteBase = "/ai-daily";
 const issues = await readIssues(root);
 const requestedDates = selectIssueDates(issues, process.env.AI_DAILY_DATES);
 const renderIssues = issues.filter((issue) => requestedDates.includes(issue.date));
+for (const issue of renderIssues) if (issue.requireProductVisuals) validateIllustratedIssue(issue);
 const sectionOrder = ["official", "reviews", "community", "wild", "research", "patent", "china", "global"];
 
 const sectionLabels = {
