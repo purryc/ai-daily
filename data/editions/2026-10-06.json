@@ -300,7 +300,9 @@
       ],
       "eventSourceUrl": "https://techcrunch.com/2026/10/05/at-19-ghost-founder-raises-11-million-to-build-a-3499-computer-for-your-personal-ai",
       "readingPriority": "deep",
-      "verificationNote": "Volatile sold-out/batch-registration statements removed because no retained dated cutoff capture establishes that exact state; launch date remains corroborated by dated reporting."
+      "verificationNote": "Volatile sold-out/batch-registration statements removed because no retained dated cutoff capture establishes that exact state; launch date remains corroborated by dated reporting.",
+      "contentsUpdateZh": "开放预订，把本机模型与记忆装进专用电脑。",
+      "contentsUpdateEn": "Preorders opened for a computer with local models and memory."
     },
     {
       "id": "coco-deliveroo-uk-rollout-announced-2026-10-05",
@@ -397,7 +399,9 @@
       "learning": {
         "zh": "实体AI的体验还包括路人：配送完成率之外，要看让路、服务区、接管和障碍数据是否真的帮助邻近行人",
         "en": "Embodied-AI experience includes bystanders: yielding, service zones, takeover and useful hazard data matter alongside delivery completion"
-      }
+      },
+      "contentsUpdateZh": "宣布英国五城分阶段配送，并共享人行道障碍信息。",
+      "contentsUpdateEn": "UK rollout planned; robots also share pavement-hazard data."
     },
     {
       "id": "openvision-keychain-speech-fallback-2026-10-04",
@@ -545,7 +549,9 @@
           "whatToSeeEn": "Observe the Coke can and browser product search; this is not a test of current fixes",
           "verifiedAt": "2026-10-06T19:41:52Z"
         }
-      ]
+      ],
+      "contentsUpdateZh": "修复凭据保存，并补上云语音失败时的回退。",
+      "contentsUpdateEn": "Fixes credential persistence and failed cloud-speech recovery."
     },
     {
       "id": "mulligan-real-robot-supervised-learning-2026-10-05",
@@ -677,7 +683,9 @@
           "whatToSeeEn": "See failed placements feed the next round, with human resets and interventions kept explicit",
           "verifiedAt": "2026-10-06T19:41:52Z"
         }
-      ]
+      ],
+      "contentsUpdateZh": "按上一轮失败和未试摆位，安排下一轮机械臂练习。",
+      "contentsUpdateEn": "Failed and untried starts guide the next round of practice."
     },
     {
       "id": "reflection-beam-announcement-2026-10-05",
@@ -789,7 +797,9 @@
         }
       ],
       "eventSourceUrl": "https://reflection.ai/blog/introducing-beam",
-      "readingPriority": "brief"
+      "readingPriority": "brief",
+      "contentsUpdateZh": "开放早期访问登记，权重仍是本月后续计划。",
+      "contentsUpdateEn": "Early signup opens; weights are promised later this month."
     },
     {
       "id": "bazaarbench-preprint-2026-10-05",
@@ -914,7 +924,9 @@
         }
       ],
       "eventSourceUrl": "https://arxiv.org/html/2610.06748v1",
-      "readingPriority": "deep"
+      "readingPriority": "deep",
+      "contentsUpdateZh": "五模型在模拟市场都尝试把同一物品许给多个买家。",
+      "contentsUpdateEn": "All five models attempt double commitments in simulations."
     },
     {
       "id": "hyperframes-studio-desktop-v0-8-137-2026-10-06",
@@ -996,7 +1008,9 @@
       ],
       "firstIncludedOn": "2026-10-06",
       "eventSourceUrl": "https://github.com/heygen-com/hyperframes/releases/tag/v0.8.137",
-      "readingPriority": "brief"
+      "readingPriority": "brief",
+      "contentsUpdateZh": "v0.8.137降低预览内存，并提示音频峰值过高。",
+      "contentsUpdateEn": "v0.8.137 cuts preview memory and flags excessive audio peaks."
     },
     {
       "id": "cua-driver-motion-0-34-0-2026-10-05",
@@ -1072,7 +1086,9 @@
           "sha256": "3f1e4496cfd8b5116f8a1b4d948eb841f57af92080f408cfc39337b8942d2e36"
         }
       ],
-      "eventSourceUrl": "https://github.com/trycua/cua/releases/tag/cua-driver-rs-v0.34.0"
+      "eventSourceUrl": "https://github.com/trycua/cua/releases/tag/cua-driver-rs-v0.34.0",
+      "contentsUpdateZh": "0.34.0新增六种光标运动，可按会话选择。",
+      "contentsUpdateEn": "v0.34.0 adds six cursor-motion styles, chosen per session."
     },
     {
       "id": "learnsched-preprint-2026-10-05",
@@ -1158,7 +1174,9 @@
           "sha256": "524f8c77f8bd20c0993938e336bc1ef0fd2696b7dc6b02199bb47dafe100551e"
         }
       ],
-      "eventSourceUrl": "https://arxiv.org/abs/2610.06212"
+      "eventSourceUrl": "https://arxiv.org/abs/2610.06212",
+      "contentsUpdateZh": "把能力收益、检查点与恢复成本一起纳入调度。",
+      "contentsUpdateEn": "Scheduling weighs capability gains, checkpoints and recovery."
     },
     {
       "id": "safeworld-seed-platform-2026-10-05",
@@ -1248,7 +1266,9 @@
           ],
           "sha256": "d550b3fc451540f44c7146cd671367da24678ebb38ddbc269aa6e517d191b0b6"
         }
-      ]
+      ],
+      "contentsUpdateZh": "宣布1220万美元种子轮，开发机器人安全仿真工具。",
+      "contentsUpdateEn": "US$12.2M seed announced for robot-safety simulation tools."
     },
     {
       "id": "cohere-north-2-platform-release-2026-10-05",
@@ -1330,7 +1350,9 @@
         }
       ],
       "eventSourceUrl": "https://cohere.com/blog/introducing-north-2",
-      "readingPriority": "brief"
+      "readingPriority": "brief",
+      "contentsUpdateZh": "新增跨会话记忆、共享agent及管理员花费上限。",
+      "contentsUpdateEn": "Adds shared agents, cross-session memory and spend limits."
     },
     {
       "id": "claude-cowork-pro-max-cloud-effective-2026-10-06",
@@ -1419,7 +1441,9 @@
             "captureMethod": "Firecrawl full-page cloud browser screenshot; direct asset HTTP403"
           }
         }
-      ]
+      ],
+      "contentsUpdateZh": "新任务转云端，本机专属选项移除；旧任务照常。",
+      "contentsUpdateEn": "New tasks move to the cloud; existing local tasks continue."
     }
   ],
   "tags": [],
@@ -1533,7 +1557,9 @@
         "method": "Product name, event title, identifiers and capabilities searched across all complete issue objects",
         "status": "No matching event found"
       },
-      "coverageKind": "first-inclusion-context"
+      "coverageKind": "first-inclusion-context",
+      "contentsUpdateZh": "笔迹成为AI画布的上下文，鼠标增加触觉反馈。",
+      "contentsUpdateEn": "Pen input gives AI context; the mouse adds tactile feedback."
     },
     {
       "id": "starkey-omega-ai-plus-hearing-family-2026-10-01",
@@ -1642,7 +1668,9 @@
         "images": 2,
         "notes": "Product with charger and promotional My Starkey control screen inspected; no clinical-performance claim inferred from imagery"
       },
-      "coverageKind": "first-inclusion-context"
+      "coverageKind": "first-inclusion-context",
+      "contentsUpdateZh": "厂商介绍双压缩器、持续Edge Mode与睡眠追踪。",
+      "contentsUpdateEn": "Maker describes dual compression and continuous Edge Mode."
     },
     {
       "id": "digit5-fort-offboard-safety-announced-2026-10-01",
@@ -1751,7 +1779,9 @@
         "method": "Product name, event title, identifiers and capabilities searched across all complete issue objects",
         "status": "No matching event found"
       },
-      "coverageKind": "first-inclusion-context"
+      "coverageKind": "first-inclusion-context",
+      "contentsUpdateZh": "计划把机外安全输入接入人形机器人的停机响应。",
+      "contentsUpdateEn": "Plans link external safety inputs to robot stopping responses."
     },
     {
       "id": "meta-emg-remapping-patent-context-2026-10-01",
@@ -1895,7 +1925,9 @@
         }
       ],
       "eventSourceUrl": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20260299703",
-      "isNewToday": false
+      "isNewToday": false,
+      "contentsUpdateZh": "申请描述腕带移位后重建肌电手势映射。",
+      "contentsUpdateEn": "Application remaps wrist gestures after the band shifts."
     }
   ],
   "excludedContext": [],

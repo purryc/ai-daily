@@ -237,3 +237,20 @@ test("contents uses compact product names while retaining full titles for access
  assert.equal(topicContentsLabel(rich.topics[0],'en'),'North 2');const contents=buildVisualSlides(rich,'en')[0];
  assert.match(contents.html,/>North 2<\/strong>/);assert.ok(contents.html.includes('title="North 2 adds a fully explained change to its workflow"'));
 });
+
+test("contents subtitles describe the update once using persisted bilingual overrides",async()=>{
+ const {contentsSubtitle,buildVisualSlides}=await import(modulePath);const rich=structuredClone(fixture);
+ rich.topics[0].contentsUpdateZh='新增跨会话记忆与花费控制。';rich.topics[0].contentsUpdateEn='Adds cross-session memory and spending controls.';
+ assert.equal(contentsSubtitle(rich.topics[0],'zh'),rich.topics[0].contentsUpdateZh);
+ assert.equal(contentsSubtitle(rich.topics[0],'en'),rich.topics[0].contentsUpdateEn);
+ const page=buildVisualSlides(rich,'en')[0];assert.ok(page.html.includes('class="contents-update"'));assert.ok(page.html.includes(rich.topics[0].contentsUpdateEn));
+ assert.equal((page.html.match(/Adds cross-session memory/g)||[]).length,1);
+ assert.equal(contentsSubtitle(rich.topics[1],'en'),rich.topics[1].event.deltaEn);
+});
+
+test("the exact editorial cutoff survives in escaped metadata for freshness checks",async()=>{
+ const {renderVisualIssue}=await import(modulePath);
+ assert.ok(renderVisualIssue(fixture,'en').includes(`<meta name="editorial-cutoff" content="${fixture.cutoff}">`));
+ const unsafe={...fixture,cutoff:'2026-10-06T11:00:00-04:00"><script>alert(1)</script>'};
+ const html=renderVisualIssue(unsafe,'en');assert.ok(!html.includes('<script>alert(1)</script>'));assert.match(html,/editorial-cutoff" content="[^>]*&quot;&gt;&lt;script&gt;/);
+});

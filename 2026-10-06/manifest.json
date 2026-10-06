@@ -181,7 +181,9 @@
         "method": "Product name, event title, identifiers and capabilities searched across all complete issue objects",
         "status": "No matching event found"
       },
-      "coverageKind": "first-inclusion-context"
+      "coverageKind": "first-inclusion-context",
+      "contentsUpdateZh": "笔迹成为AI画布的上下文，鼠标增加触觉反馈。",
+      "contentsUpdateEn": "Pen input gives AI context; the mouse adds tactile feedback."
     },
     {
       "id": "starkey-omega-ai-plus-hearing-family-2026-10-01",
@@ -290,7 +292,9 @@
         "images": 2,
         "notes": "Product with charger and promotional My Starkey control screen inspected; no clinical-performance claim inferred from imagery"
       },
-      "coverageKind": "first-inclusion-context"
+      "coverageKind": "first-inclusion-context",
+      "contentsUpdateZh": "厂商介绍双压缩器、持续Edge Mode与睡眠追踪。",
+      "contentsUpdateEn": "Maker describes dual compression and continuous Edge Mode."
     },
     {
       "id": "digit5-fort-offboard-safety-announced-2026-10-01",
@@ -399,7 +403,9 @@
         "method": "Product name, event title, identifiers and capabilities searched across all complete issue objects",
         "status": "No matching event found"
       },
-      "coverageKind": "first-inclusion-context"
+      "coverageKind": "first-inclusion-context",
+      "contentsUpdateZh": "计划把机外安全输入接入人形机器人的停机响应。",
+      "contentsUpdateEn": "Plans link external safety inputs to robot stopping responses."
     },
     {
       "id": "meta-emg-remapping-patent-context-2026-10-01",
@@ -543,7 +549,9 @@
         }
       ],
       "eventSourceUrl": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20260299703",
-      "isNewToday": false
+      "isNewToday": false,
+      "contentsUpdateZh": "申请描述腕带移位后重建肌电手势映射。",
+      "contentsUpdateEn": "Application remaps wrist gestures after the band shifts."
     }
   ],
   "editorialPlan": {

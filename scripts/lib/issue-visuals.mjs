@@ -142,10 +142,18 @@ export function topicContentsLabel(topic, locale) {
 
 export const contentsLabel = topicContentsLabel;
 
+export function contentsSubtitle(topic, locale) {
+  const override = local(topic, locale, "contentsUpdateZh", "contentsUpdateEn");
+  const candidates = [override, local(topic.event,locale,"deltaZh","deltaEn"), topic.brief?.[locale]?.change];
+  const heading = title(topic,locale).trim();
+  return candidates.find(value => typeof value === "string" && value.trim() && value.trim() !== heading) || "";
+}
+export const contentsUpdateLabel = contentsSubtitle;
+
 function overviewSlide(issue, locale) {
   const main = issue.topics ?? [];
   const context = issue.contextTopics ?? [];
-  const entry = (topic, index) => `<li><a href="#event-${index + 1}" data-go-slide="event-${index + 1}" title="${esc(title(topic,locale))}" aria-label="${esc(title(topic,locale))}"><span class="contents-number">${String(index + 1).padStart(2, "0")}</span><span><strong>${esc(topicContentsLabel(topic, locale))}</strong><small>${esc(topic.event?.occurredAt)} · ${esc(topic.evidenceLabel ?? topic.event?.kind)}</small></span></a></li>`;
+  const entry = (topic, index) => `<li><a href="#event-${index + 1}" data-go-slide="event-${index + 1}" title="${esc(title(topic,locale))}" aria-label="${esc(title(topic,locale))}"><span class="contents-number">${String(index + 1).padStart(2, "0")}</span><span><strong>${esc(topicContentsLabel(topic, locale))}</strong><span class="contents-meta">${esc(topic.event?.occurredAt)} · ${esc(topic.evidenceLabel ?? topic.event?.kind)}</span><small class="contents-update">${esc(contentsSubtitle(topic,locale))}</small></span></a></li>`;
   return { id: "overview", type: "contents", topicIds: [...main, ...context].map(topic => topic.id),
     html: `<section class="report-slide contents-slide" id="overview" data-slide data-template="contents"><p class="slide-kicker">${esc(issue.date)} · ${esc(issue.timezone)}</p><h1>${locale === "zh" ? "今天读什么" : "In this issue"}</h1><p class="issue-intro">${esc(local(issue, locale, "zhSummary", "enSummary"))}</p><ol class="contents-list">${main.map(entry).join("")}</ol>${context.length ? `<aside class="contents-context"><h3>${locale === "zh" ? "补充背景 · 非今日新增" : "Background · not new today"}</h3><ol>${context.map((topic,index) => entry(topic, main.length + index)).join("")}</ol></aside>` : ""}</section>` };
 }
@@ -178,7 +186,7 @@ export function renderVisualIssue(issue, locale = "zh") {
   const minutes = Number(issue.editorialPlan?.targetMinutes);
   const readingTarget = Number.isFinite(minutes) && minutes > 0 ? `<span class="reading-target">${locale === "zh" ? `约 ${esc(minutes)} 分钟` : `About ${esc(minutes)} minutes`}</span>` : "";
   return `<!doctype html>
-<html lang="${locale === "zh" ? "zh-CN" : "en"}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${esc(pageTitle)} · AI Daily</title><meta name="description" content="${esc(local(issue, locale, "zhSummary", "enSummary"))}"><link rel="stylesheet" href="../../assets/issue-v2.css"></head>
+<html lang="${locale === "zh" ? "zh-CN" : "en"}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="editorial-cutoff" content="${esc(issue.cutoff)}"><title>${esc(pageTitle)} · AI Daily</title><meta name="description" content="${esc(local(issue, locale, "zhSummary", "enSummary"))}"><link rel="stylesheet" href="../../assets/issue-v2.css"></head>
 <body class="visual-issue"><main class="visual-reader">
   <header class="report-header"><a class="brand" href="../../">AI Daily</a><span class="header-date">${esc(issue.date)} · ${esc(issue.timezone)}</span>${readingTarget}<nav class="header-actions" aria-label="${locale === "zh" ? "语言与来源" : "Language & sources"}"><a href="../zh/"${locale === "zh" ? ' aria-current="page"' : ""}>中文</a><a href="../en/"${locale === "en" ? ' aria-current="page"' : ""}>English</a><a class="primary" href="../ai-daily-${esc(issue.date)}-${locale}.pdf" download>${esc(w.pdf)}</a></nav></header>
   <div class="report-stage" data-deck aria-label="${esc(pageTitle)}">${slides.map((slide) => slide.html).join("\n")}</div>
@@ -375,8 +383,10 @@ a:focus-visible,button:focus-visible { outline:3px solid #3464c8; outline-offset
 .contents-list li,.contents-context li { min-width:0; }
 .contents-list a,.contents-context a { display:flex; gap:12px; text-decoration:none; border-top:1px solid var(--line); padding-top:7px; }
 .contents-number { color:var(--red); font-size:19px; font-weight:750; flex:0 0 28px; }
-.contents-list strong,.contents-context strong { display:block; font-size:14.5px; line-height:1.25; }
+.contents-list strong,.contents-context strong { display:inline; font-size:14.5px; line-height:1.25; }
 .contents-list small,.contents-context small { display:block; font-size:11px; line-height:1.35; margin-top:3px; color:var(--muted); }
+.contents-meta { margin-left:10px; font-size:11px; font-weight:400; color:var(--muted); white-space:nowrap; }
+.contents-list .contents-update,.contents-context .contents-update { font-size:12px; line-height:1.25; margin-top:3px; color:var(--muted); }
 .contents-context { margin-top:14px; }
 .contents-context h3 { margin:0 0 5px; font-size:13px; color:var(--muted); }
 .contents-context ol { list-style:none; margin:0; padding:0; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:6px 26px; }

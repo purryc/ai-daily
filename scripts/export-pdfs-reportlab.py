@@ -254,10 +254,11 @@ def editorial_plan(issue, supplied=None):
 
 class DenseExporter(Exporter):
     """One editorial page per plan entry, without hidden flow/spill or tiny type."""
-    def __init__(self, issue, locale, root, font, plan, reference_index=None, contents_labels=None):
+    def __init__(self, issue, locale, root, font, plan, reference_index=None, contents_labels=None, contents_updates=None):
         super().__init__(issue,locale,root,font)
         self.plan=plan
         self.contents_labels=contents_labels or {}
+        self.contents_updates=contents_updates or {}
         self.topics={t['id']:t for t in issue.get('topics',[])+issue.get('contextTopics',[])}
         self.context_ids={t['id'] for t in issue.get('contextTopics',[])}
         self.styles['title'].fontSize=21;self.styles['title'].leading=26;self.styles['title'].spaceAfter=8
@@ -346,10 +347,15 @@ class DenseExporter(Exporter):
             topic=self.topics[ident];col=i//rows;row=i%rows;x=MARGIN+col*(col_width+24);y=top-row*row_height
             contents_style=ParagraphStyle('contents',parent=self.styles['body'],fontSize=10.5,leading=13.5,spaceAfter=3)
             label=self.contents_labels.get(ident,{}).get(self.locale) or topic.get('contentsLabel',{}).get(self.locale) or local(topic,self.locale,'Headline')
-            text=f'{i+1:02d}  '+label;self.required.append(text);title=Paragraph(escape(text),contents_style)
             state=('背景 · 非今日新增 · ' if self.locale=='zh' else 'Background · not new today · ') if self.is_context(topic) else ''
-            date=self.p(state+topic.get('event',{}).get('occurredAt',''),'meta')
-            self.block(c,[title,date],x,y,col_width,y-row_height+4,p['id'])
+            text=f'{i+1:02d}  '+label+' · '+state+topic.get('event',{}).get('occurredAt','');self.required.append(text)
+            title=Paragraph(escape(text),contents_style)
+            update=self.contents_updates.get(ident,{}).get(self.locale) or topic.get('contentsUpdate'+self.locale.title())
+            flows=[title]
+            if update:
+                self.required.append(update)
+                flows.append(Paragraph(escape(update),contents_style))
+            self.block(c,flows,x,y,col_width,y-row_height+4,p['id'])
             c.linkAbsolute('',ident,(x,y-row_height+3,x+col_width,y),thickness=0)
 
     def figure_grid(self,c,figures,x,top,width,bottom,page_id):
@@ -444,12 +450,15 @@ def export(args):
         if not target.is_relative_to(args.root) or 'Users' in target.parts:
             raise ValueError('PDF output target must stay inside the specified cloud root, outside /Users/')
     summaries = []
+    shared_references=json.loads(args.reference_index.read_text()) if args.reference_index else None
+    shared_labels=json.loads(args.contents_labels.read_text()) if args.contents_labels else None
+    shared_updates=json.loads(args.contents_updates.read_text()) if args.contents_updates else None
     with tempfile.TemporaryDirectory(prefix='ai-daily-reportlab-') as temp:
         temp = Path(temp)
-        font = register_font(issue,temp)
+        font = register_font({'issue':issue,'references':shared_references,'labels':shared_labels,'updates':shared_updates},temp)
         ready = []
         for locale in locales:
-            renderer = DenseExporter(issue,locale,args.root,font,plan,json.loads(args.reference_index.read_text()) if args.reference_index else None,json.loads(args.contents_labels.read_text()) if args.contents_labels else None)
+            renderer = DenseExporter(issue,locale,args.root,font,plan,shared_references,shared_labels,shared_updates)
             dest = temp / f"ai-daily-{issue['date']}-{locale}.pdf"
             renderer.render(dest)
             reader = PdfReader(dest)
@@ -484,6 +493,7 @@ if __name__ == '__main__':
     parser.add_argument('--page-plan',type=Path)
     parser.add_argument('--reference-index',type=Path)
     parser.add_argument('--contents-labels',type=Path)
+    parser.add_argument('--contents-updates',type=Path)
     args=parser.parse_args()
     if not 1<=args.max_pages<=50:
         parser.error('--max-pages must be between 1 and 50')

@@ -4,7 +4,7 @@ import { fileURLToPath } from "node:url";
 import { execFile } from "node:child_process";
 import { promisify } from "node:util";
 import os from "node:os";
-import { buildVisualSlides, buildReferenceIndex, contentsLabel } from "./lib/issue-visuals.mjs";
+import { buildVisualSlides, buildReferenceIndex, contentsLabel, contentsSubtitle } from "./lib/issue-visuals.mjs";
 import { allIssueTopics } from "./lib/topic-content.mjs";
 import { readIssues } from "./lib/issue-data.mjs";
 import { assertCloudOutput, selectIssueDates, validateIssue } from "./lib/issue-policy.mjs";
@@ -26,7 +26,9 @@ for (const date of selectIssueDates(issues, process.env.AI_DAILY_DATES)) {
     await fs.writeFile(referenceFile,JSON.stringify(buildReferenceIndex(issue)));
     const labelsFile=path.join(temp,"contents-labels.json");
     await fs.writeFile(labelsFile,JSON.stringify(Object.fromEntries(allIssueTopics(issue).map(topic=>[topic.id,{zh:contentsLabel(topic,"zh"),en:contentsLabel(topic,"en")}]))));
-    const result = await promisify(execFile)("python3", [path.join(root, "scripts/export-pdfs-reportlab.py"), "--issue", input, "--root", root, "--output-dir", output,"--page-plan",planFile,"--reference-index",referenceFile,"--contents-labels",labelsFile], { timeout: 180000, maxBuffer: 1024 * 1024 });
+    const updatesFile=path.join(temp,"contents-updates.json");
+    await fs.writeFile(updatesFile,JSON.stringify(Object.fromEntries(allIssueTopics(issue).map(topic=>[topic.id,{zh:contentsSubtitle(topic,"zh"),en:contentsSubtitle(topic,"en")}]))));
+    const result = await promisify(execFile)("python3", [path.join(root, "scripts/export-pdfs-reportlab.py"), "--issue", input, "--root", root, "--output-dir", output,"--page-plan",planFile,"--reference-index",referenceFile,"--contents-labels",labelsFile,"--contents-updates",updatesFile], { timeout: 180000, maxBuffer: 1024 * 1024 });
     process.stdout.write(result.stdout);
   } finally { await fs.rm(temp,{recursive:true,force:true}); }
 }

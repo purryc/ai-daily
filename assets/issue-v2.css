@@ -129,8 +129,10 @@ a:focus-visible,button:focus-visible { outline:3px solid #3464c8; outline-offset
 .contents-list li,.contents-context li { min-width:0; }
 .contents-list a,.contents-context a { display:flex; gap:12px; text-decoration:none; border-top:1px solid var(--line); padding-top:7px; }
 .contents-number { color:var(--red); font-size:19px; font-weight:750; flex:0 0 28px; }
-.contents-list strong,.contents-context strong { display:block; font-size:14.5px; line-height:1.25; }
+.contents-list strong,.contents-context strong { display:inline; font-size:14.5px; line-height:1.25; }
 .contents-list small,.contents-context small { display:block; font-size:11px; line-height:1.35; margin-top:3px; color:var(--muted); }
+.contents-meta { margin-left:10px; font-size:11px; font-weight:400; color:var(--muted); white-space:nowrap; }
+.contents-list .contents-update,.contents-context .contents-update { font-size:12px; line-height:1.25; margin-top:3px; color:var(--muted); }
 .contents-context { margin-top:14px; }
 .contents-context h3 { margin:0 0 5px; font-size:13px; color:var(--muted); }
 .contents-context ol { list-style:none; margin:0; padding:0; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:6px 26px; }
