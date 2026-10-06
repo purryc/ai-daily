@@ -1,0 +1,430 @@
+{
+  "date": "2026-10-06",
+  "timezone": "America/Toronto",
+  "editorialVersion": 2,
+  "cutoff": "2026-10-06T11:48:14-04:00",
+  "lookbackDays": 2,
+  "laneScans": [
+    {
+      "lane": "official",
+      "status": "verified-updates-selected",
+      "zh": "核验 Cohere 10月5日公告、Claude 明确10月6日生效的变更。Intel 未证实今天的新版本，旧 NVIDIA 不升级",
+      "en": "Verified Cohere's October 5 announcement and Claude's explicit October 6 effective change. Undated Intel and older NVIDIA items weren't promoted",
+      "sourceUrls": [
+        "https://cohere.com/blog/introducing-north-2",
+        "https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile"
+      ]
+    },
+    {
+      "lane": "wild",
+      "status": "verified-updates-selected",
+      "zh": "核验 HyperFrames 官方文档与10月5–6日 release notes，不把目录收录日期视作产品发布日期",
+      "en": "Checked HyperFrames official docs and October 5–6 release notes; directory inclusion isn't treated as a launch date",
+      "sourceUrls": [
+        "https://github.com/heygen-com/hyperframes/releases/tag/v0.8.137",
+        "https://github.com/heygen-com/hyperframes/releases/tag/v0.8.134",
+        "https://hyperframes.heygen.com/studio-app",
+        "https://hyperframes.heygen.com/studio-app/edit-with-the-agent"
+      ]
+    },
+    {
+      "lane": "research",
+      "status": "verified-updates-selected",
+      "zh": "Rho-1 官方标注10月5日研究预览，并明确模拟与能力限制",
+      "en": "Rho-1 is explicitly dated October 5 and labeled research preview, with simulation and limitations disclosed",
+      "sourceUrls": [
+        "https://reka.ai/labs/research/rho-1-collapsing-the-multimodal-stack"
+      ]
+    },
+    {
+      "lane": "global",
+      "status": "verified-updates-selected",
+      "zh": "核验 TikTok 10月5日新连接器名单；Shopping Assistant 9月29日已有官方介绍，不重复当作新功能",
+      "en": "Verified the October 5 TikTok connector list; Shopping Assistant had an official September 29 description and was not promoted as newly created functionality",
+      "sourceUrls": [
+        "https://newsroom.tiktok.com/tiktok-unveils-ai-powered-updates-for-advertisers-driving-discovery-action-and-measurable-business-outcomes?lang=en"
+      ]
+    },
+    {
+      "lane": "reviews",
+      "status": "scanned-no-strong-update",
+      "zh": "检查近期眼镜评测与10月5日 Ray-Ban 更新报道；旧版导航与发布日期不足以证明今天首发，未补入主文",
+      "en": "Checked recent glasses coverage and October 5 Ray-Ban reporting; older navigation and report dates don't establish a new launch today",
+      "sourceUrls": [
+        "https://9to5google.com/2026/10/05/meta-ray-ban-audio-turn-by-turn-navigation-updates/"
+      ]
+    },
+    {
+      "lane": "community",
+      "status": "scanned-no-strong-update",
+      "zh": "社区10月3–4日已讨论 v129 到达与地区差异，作为首发日期风险证据，不作为新品事实",
+      "en": "October 3–4 owner discussions already mention v129 and regional differences; used as a freshness warning, not verified product specifications",
+      "sourceUrls": [
+        "https://www.reddit.com/r/RaybanMeta/comments/1wwqhxx/my_gen_2_wayfarer_is_still_on_version_128_has/"
+      ]
+    },
+    {
+      "lane": "china",
+      "status": "scanned-no-strong-update",
+      "zh": "检查中国硬件报道：TDK、Legato 等已有旧稿；Wuqi 日期不明且已重复，未发现足够强的新终端进展进入主文",
+      "en": "Checked Chinese hardware coverage: TDK/Legato signals were older; Wuqi is undated and repeated. No sufficiently verified new device advance was promoted",
+      "sourceUrls": [
+        "https://www.93913.com/ai/hardware"
+      ]
+    },
+    {
+      "lane": "patent",
+      "status": "scanned-no-strong-update",
+      "zh": "进行10月6日智能眼镜专利检索，未取得可核实的新产品实现证据；不以旧专利或搜索无结果填充主文",
+      "en": "A focused October 6 smart-glasses patent search yielded no verified product-implementation advance; no old patent was used as filler",
+      "sourceUrls": []
+    }
+  ],
+  "excludedCandidates": [],
+  "zhTitle": "AI Daily｜五条新进展，先看变化",
+  "enTitle": "AI Daily | Five fresh advances, changes first",
+  "zhSummary": "截至多伦多11:48，仅收录10月5–6日已核实、未在归档报道的产品/研究进展。区分发布、生效与研究预览；缺图和可用范围如实标明",
+  "enSummary": "By 11:48 Toronto time, five verified October 5–6 advances not covered in the archive. Release, effective change and research preview are distinct; missing imagery and availability limits are disclosed",
+  "tags": [],
+  "sourceTypes": [
+    "developer docs",
+    "official",
+    "research"
+  ],
+  "coverStory": {
+    "topicId": "hyperframes-studio-desktop-v0-8-137-2026-10-06",
+    "zhTitle": "HyperFrames Studio：人和 agent 共用时间线，今天修复预览内存问题",
+    "enTitle": "HyperFrames Studio shares the timeline; today's patch improves preview memory",
+    "zhSummary": [
+      "HeyGen 的 HyperFrames 桌面编辑器，让编码 agent 与人编辑同一视频工程",
+      "今日 v0.8.137 降低大型内联资源的预览加载内存，增加音频过响提示；10月5日官方文档新增桌面入口"
+    ],
+    "enSummary": [
+      "HeyGen's desktop editor lets a coding agent and a person work on one video project",
+      "Today's v0.8.137 reduces preview-loading memory for large inline assets and flags excessive audio peaks; desktop setup guides arrived October 5"
+    ],
+    "imagePath": "assets/hyperframes-home.png",
+    "imageSourceUrl": "https://hyperframes.heygen.com/studio-app",
+    "primarySourceUrl": "https://github.com/heygen-com/hyperframes/releases/tag/v0.8.137",
+    "evidenceStrength": "developer surface"
+  },
+  "watchlistZh": [],
+  "watchlistEn": [],
+  "topics": [
+    {
+      "id": "hyperframes-studio-desktop-v0-8-137-2026-10-06",
+      "section": "wild",
+      "event": {
+        "productKey": "heygen-hyperframes-studio",
+        "kind": "release",
+        "version": "0.8.137",
+        "occurredAt": "2026-10-06",
+        "summaryZh": "桌面视频编辑器的新版本更新了预览与音频反馈",
+        "summaryEn": "A desktop video editor update improves preview loading and audio feedback",
+        "deltaZh": "10月6日 v0.8.137 减少含大型内联图像或脚本的合成预览加载内存，并标示音频导出峰值过高；桌面入口在10月5日进入官方文档",
+        "deltaEn": "October 6 v0.8.137 reduces preview-loading memory for large inline images/scripts and flags excessive export peaks; desktop setup docs landed October 5"
+      },
+      "eventSourceUrl": "https://github.com/heygen-com/hyperframes/releases/tag/v0.8.137",
+      "brief": {
+        "zh": {
+          "what": "HeyGen 的 HyperFrames 桌面编辑器，让编码 agent 与人编辑同一视频工程",
+          "change": "今日 v0.8.137 降低大型内联资源的预览加载内存，增加音频过响提示；10月5日官方文档新增桌面入口",
+          "use": "描述视频后，可在画面上圈选、绘画、贴评论，或直接调整时间线，再把一组修改交给 agent",
+          "limits": "官方安装指南覆盖 macOS 与 Linux x86_64，需要 HeyGen 登录和自己的 agent；未验证 Windows 下载"
+        },
+        "en": {
+          "what": "HeyGen's desktop editor lets a coding agent and a person work on one video project",
+          "change": "Today's v0.8.137 reduces preview-loading memory for large inline assets and flags excessive audio peaks; desktop setup guides arrived October 5",
+          "use": "Describe a cut, then point, draw, comment on a frame or adjust the timeline before sending grouped edits to the agent",
+          "limits": "Official setup covers macOS and Linux x86_64, with HeyGen sign-in and your own agent; a Windows download wasn't verified"
+        }
+      },
+      "visuals": [
+        {
+          "path": "assets/hyperframes-home.png",
+          "kind": "source-backed official UI screenshot",
+          "sourceUrl": "https://hyperframes.heygen.com/studio-app",
+          "imageUrl": "https://mintcdn.com/hyperframes/_6VyncuVwS2Xkc8Q/public/images/studio-app/home.jpg?fit=max&auto=format&n=_6VyncuVwS2Xkc8Q&q=85&s=2c56b44dd2ac72bfa822533c8e210617",
+          "capturedAt": "2026-10-06T15:39:30Z",
+          "altZh": "HyperFrames Studio 官方 Home 界面，包含提示框与工程列表",
+          "altEn": "Official HyperFrames Studio Home screen with prompt box and project list",
+          "captionZh": "官方 Home 截图：从提示框开始，左侧列出视频工程",
+          "captionEn": "Official Home screenshot: begin with a prompt, with projects listed on the left",
+          "role": "interface"
+        }
+      ],
+      "zhHeadline": "HyperFrames Studio：人和 agent 共用时间线，今天修复预览内存问题",
+      "enHeadline": "HyperFrames Studio shares the timeline; today's patch improves preview memory",
+      "sources": [
+        {
+          "label": "HyperFrames v0.8.137 release notes",
+          "url": "https://github.com/heygen-com/hyperframes/releases/tag/v0.8.137",
+          "type": "developer docs",
+          "publishedAt": "2026-10-06",
+          "verifiedAt": "2026-10-06T15:43:48Z",
+          "isPrimary": true
+        },
+        {
+          "label": "HyperFrames v0.8.134: desktop app documentation",
+          "url": "https://github.com/heygen-com/hyperframes/releases/tag/v0.8.134",
+          "type": "developer docs",
+          "publishedAt": "2026-10-05",
+          "verifiedAt": "2026-10-06T15:43:48Z",
+          "isPrimary": true
+        },
+        {
+          "label": "Official desktop app guide",
+          "url": "https://hyperframes.heygen.com/studio-app",
+          "type": "developer docs",
+          "publishedAt": null,
+          "verifiedAt": "2026-10-06T15:41:30Z",
+          "isPrimary": true
+        },
+        {
+          "label": "Official visual edit workflow",
+          "url": "https://hyperframes.heygen.com/studio-app/edit-with-the-agent",
+          "type": "developer docs",
+          "publishedAt": null,
+          "verifiedAt": "2026-10-06T15:41:30Z",
+          "isPrimary": true
+        }
+      ],
+      "evidenceLabel": "developer surface"
+    },
+    {
+      "id": "cohere-north-2-platform-release-2026-10-05",
+      "section": "official",
+      "event": {
+        "productKey": "cohere-north",
+        "kind": "release",
+        "version": "2",
+        "occurredAt": "2026-10-05",
+        "summaryZh": "Cohere 发布 North 2 企业 agent 平台升级",
+        "summaryEn": "Cohere launches the North 2 enterprise-agent platform upgrade",
+        "deltaZh": "10月5日发布重构的 agent 编排、跨会话记忆和更细的管理员配额/花费限制",
+        "deltaEn": "October 5 adds a rebuilt agent harness, cross-session memory and finer administrator quotas/spending limits"
+      },
+      "eventSourceUrl": "https://cohere.com/blog/introducing-north-2",
+      "brief": {
+        "zh": {
+          "what": "面向企业知识与工具的 Cohere North 2 agent 平台",
+          "change": "重构多步编排，加入可共享 agent、记忆、skills、资料库，以及管理员配额与花费控制",
+          "use": "用自然语言建立自动化，并在可视化工作流中组织步骤；在 chat 中制作文档或轻量应用",
+          "limits": "销售咨询/演示入口，具体价格与各客户启用日期未说明；金融数据连接器有些仍属计划"
+        },
+        "en": {
+          "what": "Cohere's North 2 is an enterprise agent workspace connected to company knowledge and tools",
+          "change": "The October 5 upgrade adds rebuilt orchestration, shareable agents, memory, skills, libraries and finer quotas/spending controls",
+          "use": "Build automations from prompts and visual workflows, or create documents and lightweight apps in chat",
+          "limits": "Access is sales/demo-led; pricing and customer-specific activation dates aren't stated. Some financial-data connectors remain planned"
+        }
+      },
+      "visuals": [
+        {
+          "path": "assets/north-discover.png",
+          "kind": "source-backed official interface illustration",
+          "sourceUrl": "https://cohere.com/north",
+          "imageUrl": "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/411ab61c4837b57b14a6c38dfd98961dd72b5772-620x480.png?auto=format&fit=max&q=80&w=620",
+          "capturedAt": "2026-10-06T15:48:14Z",
+          "altZh": "North 官方 Discover 界面示意图",
+          "altEn": "Official North Discover interface illustration",
+          "captionZh": "官方界面示意：连接资料与工具的 Finance Agent；数值为演示内容",
+          "captionEn": "Official interface illustration: connected knowledge and tools; figures are demo content",
+          "role": "interface"
+        },
+        {
+          "path": "assets/north-create.png",
+          "kind": "source-backed official interface illustration",
+          "sourceUrl": "https://cohere.com/north",
+          "imageUrl": "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/445cc9bf798b266625372e4921357a9bcdb14482-620x480.png?auto=format&fit=max&q=80&w=620",
+          "capturedAt": "2026-10-06T15:48:14Z",
+          "altZh": "North 官方 Create 界面示意图",
+          "altEn": "Official North Create interface illustration",
+          "captionZh": "官方界面示意：创建并导出文档；数值为演示内容",
+          "captionEn": "Official interface illustration: document creation and export; figures are demo content",
+          "role": "interface"
+        },
+        {
+          "path": "assets/north-automate.png",
+          "kind": "source-backed official interface illustration",
+          "sourceUrl": "https://cohere.com/north",
+          "imageUrl": "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/a352f8c83fd1243258c834cf197a0a194d93b18d-620x480.png?auto=format&fit=max&q=80&w=620",
+          "capturedAt": "2026-10-06T15:48:14Z",
+          "altZh": "North 官方 Automate 界面示意图",
+          "altEn": "Official North Automate interface illustration",
+          "captionZh": "官方界面示意：配置周期自动化；数值为演示内容",
+          "captionEn": "Official interface illustration: recurring automation setup; figures are demo content",
+          "role": "interaction"
+        }
+      ],
+      "zhHeadline": "North 2：可复用 agent、可视化流程与花费上限进入同一工作台",
+      "enHeadline": "North 2 brings reusable agents, workflows and spending limits into one workspace",
+      "sources": [
+        {
+          "label": "Cohere: Introducing North 2",
+          "url": "https://cohere.com/blog/introducing-north-2",
+          "type": "official",
+          "publishedAt": "2026-10-05",
+          "verifiedAt": "2026-10-06T15:41:30Z",
+          "isPrimary": true
+        }
+      ],
+      "evidenceLabel": "confirmed product"
+    },
+    {
+      "id": "claude-cowork-pro-max-cloud-effective-2026-10-06",
+      "section": "official",
+      "event": {
+        "productKey": "anthropic-claude-cowork",
+        "kind": "availability-change",
+        "key": "pro-max-new-tasks-cloud-only-effective-2026-10-06",
+        "occurredAt": "2026-10-06",
+        "summaryZh": "Pro/Max 新 Cowork 任务的执行位置改变",
+        "summaryEn": "The execution location changes for new Pro/Max Cowork tasks",
+        "deltaZh": "官方明确10月6日移除 Only on your computer 选项；已有本机任务保持原位",
+        "deltaEn": "The official guide explicitly removes the Only on your computer option on October 6; existing local tasks remain local"
+      },
+      "eventSourceUrl": "https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile",
+      "brief": {
+        "zh": {
+          "what": "Claude 的长任务工作方式，官方指明 Pro/Max 今天切换新任务执行位置",
+          "change": "新任务在云端运行，移除本机专属选项；已启动的本机任务仍可继续",
+          "use": "云端任务可在合上电脑后继续，也能跨桌面、网页和手机查看；不依赖本机文件的定时任务无需设备在线",
+          "limits": "访问本机文件仍需桌面 app 打开，并限已连接文件夹；本机项目和定时任务不能直接迁入 Claude Code"
+        },
+        "en": {
+          "what": "Claude's long-running task workflow changes execution location for Pro/Max today",
+          "change": "New tasks run in the cloud and the local-only option disappears; already-started local tasks can continue",
+          "use": "Cloud work can continue with a closed laptop and be reviewed across desktop, web and mobile; schedules without local dependencies need no online device",
+          "limits": "Local files still require an open desktop app and connected folders. Local projects and schedules don't transfer directly to Claude Code"
+        }
+      },
+      "visualMissing": {
+        "zh": "该官方变更说明没有可确认的新界面截图，保留文字证据与生效日期",
+        "en": "The official change notice provides no confirmed new-interface screenshot; the explicit effective date is preserved"
+      },
+      "zhHeadline": "Claude Cowork：Pro/Max 新任务今天改为云端执行",
+      "enHeadline": "Claude Cowork moves new Pro/Max tasks to the cloud today",
+      "sources": [
+        {
+          "label": "Claude Help: Pro/Max October 6 change",
+          "url": "https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile",
+          "type": "official",
+          "publishedAt": null,
+          "verifiedAt": "2026-10-06T15:41:30Z",
+          "isPrimary": true,
+          "dateEvidence": {
+            "kind": "effective-date",
+            "date": "2026-10-06",
+            "quote": "On October 6, 2026, new Cowork tasks on Pro and Max plans run in the cloud."
+          },
+          "publicationDateNote": "Absolute publication date is not stated; page says Updated this week. Effective date is explicit."
+        }
+      ],
+      "evidenceLabel": "confirmed product"
+    },
+    {
+      "id": "tiktok-ads-mcp-connector-expansion-2026-10-05",
+      "section": "global",
+      "event": {
+        "productKey": "tiktok-for-business-mcp",
+        "kind": "availability-change",
+        "key": "claude-kimi-manus-perplexity-replit-snowflake-workbuddy-iab-connectors-2026-10-05",
+        "occurredAt": "2026-10-05",
+        "summaryZh": "TikTok 扩展广告 MCP 的平台连接入口",
+        "summaryEn": "TikTok expands platform connector entry points for its advertising MCP",
+        "deltaZh": "10月5日官方明确 MCP 现可作为连接器进入 Claude、Kimi、Manus、Perplexity、Replit、Snowflake、腾讯 WorkBuddy 与 IAB Agent Registry",
+        "deltaEn": "The October 5 source explicitly makes TikTok MCP available as a connector through Claude, Kimi, Manus, Perplexity, Replit, Snowflake, Tencent WorkBuddy and the IAB Agent Registry"
+      },
+      "eventSourceUrl": "https://newsroom.tiktok.com/tiktok-unveils-ai-powered-updates-for-advertisers-driving-discovery-action-and-measurable-business-outcomes?lang=en",
+      "brief": {
+        "zh": {
+          "what": "TikTok for Business MCP 把广告生态操作开放给 agent 工具",
+          "change": "10月5日新闻稿明确扩展 Claude、Kimi、Manus、Perplexity、Replit、Snowflake、腾讯 WorkBuddy 与 IAB 注册表连接入口",
+          "use": "开发者与广告团队可在已有 agent 工作流中规划、创建和管理 TikTok 广告",
+          "limits": "这不是广告 MCP 首发；各平台账号权限、地区与功能差异未详列。购物助手先前9月29日已有介绍，不当作今日新增功能"
+        },
+        "en": {
+          "what": "TikTok for Business MCP exposes advertising workflows to agent tools",
+          "change": "The October 5 announcement explicitly lists connector availability in Claude, Kimi, Manus, Perplexity, Replit, Snowflake, Tencent WorkBuddy and the IAB registry",
+          "use": "Developers and ad teams can plan, launch and manage TikTok campaigns from existing agent workspaces",
+          "limits": "This is connector expansion, not MCP’s original launch. Platform permissions, geographic coverage and feature differences aren't detailed. Shopping Assistant was already described September 29 and is background"
+        }
+      },
+      "visualMissing": {
+        "zh": "已核验官方连接器名单，未取得新增连接入口的可确认 UI 文件",
+        "en": "The official connector list is verified, but no confirmed UI file of the expanded entry points was obtained"
+      },
+      "zhHeadline": "TikTok Ads MCP：广告操作进入更多 agent 工作台",
+      "enHeadline": "TikTok Ads MCP expands into more agent workspaces",
+      "sources": [
+        {
+          "label": "TikTok Newsroom: October 5 advertiser updates",
+          "url": "https://newsroom.tiktok.com/tiktok-unveils-ai-powered-updates-for-advertisers-driving-discovery-action-and-measurable-business-outcomes?lang=en",
+          "type": "official",
+          "publishedAt": "2026-10-05",
+          "verifiedAt": "2026-10-06T15:41:30Z",
+          "isPrimary": true
+        },
+        {
+          "label": "TikTok Japan Sept29: earlier shopping-assistant description",
+          "url": "https://newsroom.tiktok.com/tiktok-ad-awards-2026-japan5?lang=ja-JP",
+          "type": "official",
+          "publishedAt": "2026-09-29",
+          "verifiedAt": "2026-10-06T15:36:24Z",
+          "isPrimary": true
+        }
+      ],
+      "evidenceLabel": "developer surface"
+    },
+    {
+      "id": "reka-rho-1-research-preview-2026-10-05",
+      "section": "research",
+      "event": {
+        "productKey": "reka-rho",
+        "kind": "research-preview",
+        "version": "1",
+        "occurredAt": "2026-10-05",
+        "summaryZh": "Reka 公开可实时引导的视觉/动作研究原型",
+        "summaryEn": "Reka unveils a steerable visual/action research prototype",
+        "deltaZh": "10月5日研究预览把连续视频生成、指令理解与机器人动作通道放进同一模型；示例为模拟环境",
+        "deltaEn": "The October 5 preview combines continuous video generation, instructions and robot action channels in one model; shown robotics examples are simulated"
+      },
+      "eventSourceUrl": "https://reka.ai/labs/research/rho-1-collapsing-the-multimodal-stack",
+      "brief": {
+        "zh": {
+          "what": "Reka 的 19B 多模态研究原型，演示理解、生成视频与动作的闭环",
+          "change": "可在持续生成的视频中插入指令；机器人示例展示 LIBERO 模拟中的观察、预测腕部视图与动作通道",
+          "use": "作为交互模拟环境和视觉—动作研究的方向；官方通过联系团队讨论合作",
+          "limits": "不是成品机器人或验证过的实地部署；长序列会结构漂移，视频定位与编辑仍脆弱，原生视频上限672×384"
+        },
+        "en": {
+          "what": "Reka's 19B research prototype demonstrates a shared loop for understanding, video generation and actions",
+          "change": "Instructions can steer a continuous generated scene; robotics examples expose observations, predicted wrist views and action channels in LIBERO simulation",
+          "use": "A direction for interactive simulation and vision-action research, with access/collaboration through the team's contact route",
+          "limits": "Not a finished robot or proven physical deployment. Long rollouts drift structurally, temporal grounding/editing remain brittle, and native video is capped at 672×384"
+        }
+      },
+      "visualMissing": {
+        "zh": "官方演示包含模拟视频，但本轮未取得可核验的图像文件；不可冒充实物机器人照片",
+        "en": "Official demonstrations contain simulated video, but no verifiable image file was obtained; they must not be presented as physical robot photographs"
+      },
+      "zhHeadline": "Rho-1 研究预览：边看、边生成、边接收动作指令",
+      "enHeadline": "Rho-1 research preview connects live visual generation and action",
+      "sources": [
+        {
+          "label": "Reka Labs: Rho-1 preview",
+          "url": "https://reka.ai/labs/research/rho-1-collapsing-the-multimodal-stack",
+          "type": "research",
+          "publishedAt": "2026-10-05",
+          "verifiedAt": "2026-10-06T15:41:30Z",
+          "isPrimary": true
+        }
+      ],
+      "evidenceLabel": "research signal"
+    }
+  ],
+  "zhPath": "./zh/",
+  "enPath": "./en/",
+  "sourcesPath": "./sources.md"
+}
