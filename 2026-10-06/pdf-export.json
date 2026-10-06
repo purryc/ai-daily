@@ -1,0 +1,10 @@
+{
+  "renderer": "reportlab",
+  "date": "2026-10-06",
+  "pages": {
+    "zh": 34,
+    "en": 34
+  },
+  "sourceDataSha256": "33988980ca83059246bde8378c07ac66666a948ac996224dc7cb6cd691a15246",
+  "note": "Independent static ReportLab layout; not browser-print parity. Verified media posters link to originals."
+}

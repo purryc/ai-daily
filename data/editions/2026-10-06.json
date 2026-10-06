@@ -1,9 +1,12 @@
 {
   "date": "2026-10-06",
   "timezone": "America/Toronto",
-  "editorialVersion": 2,
   "cutoff": "2026-10-06T12:42:00-04:00",
   "lookbackDays": 2,
+  "zhTitle": "AI Daily｜从新产品到新问题，约15分钟",
+  "enTitle": "AI Daily | New products and useful questions, about 15 minutes",
+  "zhSummary": "13条10月5–6日已核验新进展，另附10月1日首次收录的专利背景；重点读硬件、交易安全与新交互，其余为短报",
+  "enSummary": "13 verified October5–6 advances plus separately dated October1 patent context. Focus on hardware, marketplace safety and interaction; other items are quick briefs",
   "laneScans": [
     {
       "lane": "official",
@@ -80,7 +83,1116 @@
       "sourceUrls": []
     }
   ],
-  "excludedCandidates": [],
+  "editorialPlan": {
+    "targetMinutes": 15,
+    "deepStories": [
+      {
+        "id": "ghost-core-preorder-2026-10-05",
+        "minutes": 2.5
+      },
+      {
+        "id": "bazaarbench-preprint-2026-10-05",
+        "minutes": 2.5
+      },
+      {
+        "id": "meta-emg-remapping-patent-context-2026-10-01",
+        "minutes": 2
+      }
+    ],
+    "quickBriefMinutes": 6,
+    "openingAndLaneNotesMinutes": 2,
+    "selectionNoteZh": "14条为研究候选池，不是数量配额；最终可将企业条目压成短报。专利独立标为10月1日首次收录背景",
+    "selectionNoteEn": "The 14-item combined pool is not a quota. Enterprise items can be shortened; the October 1 patent must remain explicitly first-inclusion context",
+    "quickBriefIds": [
+      "cua-driver-motion-0-34-0-2026-10-05",
+      "clockwork-torchpass-snapshots-2026-10-06",
+      "tiktok-ads-mcp-connector-expansion-2026-10-05",
+      "sap-joule-work-customer-rollout-2026-10-06"
+    ]
+  },
+  "quarantinedCandidates": [
+    {
+      "id": "intel-openshell-enterprise-agent-governance-2026-10-06",
+      "reason": "source publication date and claimed October5 novelty were not verified; upstream guide already changed September27"
+    },
+    {
+      "id": "asus-rog-zephyrus-g14-2026-virtual-assistant-2026-10-06",
+      "reason": "independent review published October1; no verified October5/6 product delta"
+    },
+    {
+      "id": "meta-ray-ban-display-hands-on-review-2026-10-06",
+      "reason": "review published October3; no evidence for claimed October6 follow-up"
+    },
+    {
+      "id": "nvidia-rtx-spark-pair-local-agent-network-2026-10-06",
+      "reason": "September3 announcement already covered since September7; no new dated availability evidence"
+    },
+    {
+      "id": "wuqi-quectel-hawk-dolphin-ai-xr-reference-design-2026-10-06",
+      "reason": "undated source already covered since October1; reference design is not a new consumer launch"
+    }
+  ],
+  "readingEstimate": {
+    "zhCharacters": 2241,
+    "enWords": 1328,
+    "uniqueFigures": 13,
+    "zhMinutes": [
+      9,
+      14
+    ],
+    "enMinutes": [
+      11,
+      15
+    ],
+    "textScope": "Unique localized titles, brief units, detail points, captions and demo guidance; excludes repeated navigation and the optional source ledger",
+    "methodZh": "正文按约300–450字/分钟，另留4–6分钟看图和演示；不含逐条阅读来源索引，不是保证用时",
+    "methodEn": "Essential text at about160–220words/minute plus4–6minutes for figures and demos; excludes reading every source-index entry and is not a guaranteed duration"
+  },
+  "editorialVersion": 2,
+  "topics": [
+    {
+      "id": "ghost-core-preorder-2026-10-05",
+      "section": "wild",
+      "evidenceLabel": "startup signal",
+      "zhHeadline": "Ghost Core：本机 agent 变成一台专用电脑",
+      "enHeadline": "Ghost Core packages local agents as a dedicated computer",
+      "event": {
+        "productKey": "ghost-core",
+        "kind": "availability-change",
+        "key": "first-preorder-batch-2026-10-05",
+        "occurredAt": "2026-10-05",
+        "summaryZh": "Ghost Core：本机 agent 变成一台专用电脑",
+        "summaryEn": "Ghost Core packages local agents as a dedicated computer",
+        "deltaZh": "10月5日开放预订；具体批次、可订状态与交期以官网当前信息为准，不把动态库存状态写成持续事实",
+        "deltaEn": "Preorders opened October 5; current batches, ordering availability and delivery dates must be checked on the official site"
+      },
+      "sources": [
+        {
+          "label": "Ghost official product presentation",
+          "url": "https://ghost.ai",
+          "type": "official",
+          "publishedAt": null,
+          "verifiedAt": "2026-10-06T16:42:00Z",
+          "isPrimary": true
+        },
+        {
+          "label": "Ghost preorder opening date",
+          "url": "https://techcrunch.com/2026/10/05/at-19-ghost-founder-raises-11-million-to-build-a-3499-computer-for-your-personal-ai",
+          "type": "reviews",
+          "publishedAt": "2026-10-05",
+          "verifiedAt": "2026-10-06T16:42:00Z",
+          "isPrimary": false
+        }
+      ],
+      "brief": {
+        "zh": {
+          "what": "无屏幕的个人 AI 电脑，售价 US$3,499，模型与记忆主打在本机运行",
+          "change": "10月5日开放预订；批次、是否可订和交期以官网当前页面为准。本轮不是已交付机器的独立评测",
+          "use": "24GB RTX PRO 4000 Blackwell GPU、64GB 内存和1TB SSD，预装开放权重模型，连接日常 app 与设备",
+          "limits": "常驻上下文和隐私是厂商主张，未独立验证；模型在本机运行，不代表外部 app 通信不出网"
+        },
+        "en": {
+          "what": "A screenless US$3,499 personal AI computer marketed for local models and memory",
+          "change": "Preorders opened October 5. Check the official page for current ordering availability and delivery dates; this is not an independent delivered-unit review",
+          "use": "It bundles a 24GB RTX PRO 4000 Blackwell GPU, 64GB RAM, 1TB SSD and preinstalled open-weight models",
+          "limits": "Continuous context and privacy are vendor claims, not independent tests. Local inference doesn't establish that external-app communications stay offline"
+        }
+      },
+      "learning": {
+        "zh": "新价值在整套上下文与设备管理；评估时把 VRAM 容量、服务连接和隐私验证分开",
+        "en": "Evaluate VRAM capacity, connected-service behavior and privacy evidence separately"
+      },
+      "firstIncludedOn": "2026-10-06",
+      "visuals": [
+        {
+          "path": "assets/ghost-core-front.png",
+          "kind": "source-backed official product image",
+          "sourceUrl": "https://ghost.ai/",
+          "imageUrl": "https://ghost.ai/video/core-360/poster-front.webp",
+          "capturedAt": "2026-10-06T16:41:10Z",
+          "altZh": "Ghost 官方 Core 正面产品渲染",
+          "altEn": "Ghost's official front product render",
+          "captionZh": "Ghost 官方 Core 正面产品渲染",
+          "captionEn": "Ghost's official front product render",
+          "role": "product"
+        },
+        {
+          "path": "assets/ghost-core-rear.png",
+          "kind": "source-backed official product image",
+          "sourceUrl": "https://ghost.ai/",
+          "imageUrl": "https://ghost.ai/figma/core-v2/gallery-2.webp",
+          "capturedAt": "2026-10-06T16:41:10Z",
+          "altZh": "Ghost 官方机背视图：散热开孔与电源输入",
+          "altEn": "Ghost's official rear view: ventilation and power input",
+          "captionZh": "Ghost 官方机背视图：散热开孔与电源输入",
+          "captionEn": "Ghost's official rear view: ventilation and power input",
+          "role": "product"
+        }
+      ],
+      "detailPages": [
+        {
+          "id": "ghost-hardware-boundaries",
+          "zhTitle": "这台盒子承载什么",
+          "enTitle": "What the box contains",
+          "points": [
+            {
+              "zh": "CPU 为 Ryzen 5 7600；预装名单包含 Qwen 3.8-Next、Qwen 3.8-27B、Gemma 4-31B、Muse-Glimmer-30B",
+              "en": "The CPU is Ryzen 5 7600; the listed models are Qwen 3.8-Next, Qwen 3.8-27B, Gemma 4-31B and Muse-Glimmer-30B",
+              "sourceUrls": [
+                "https://ghost.ai/"
+              ]
+            },
+            {
+              "zh": "官方界面把数字生活、家庭设备和健康上下文分成三组；这展示产品意图，未证明所有连接已成熟",
+              "en": "The page groups context into digital, home and health; these illustrate product intent rather than prove every integration is mature",
+              "sourceUrls": [
+                "https://ghost.ai/"
+              ]
+            }
+          ],
+          "visuals": [
+            {
+              "path": "assets/ghost-core-assembly-frame.png",
+              "kind": "source-backed official product image",
+              "sourceUrl": "https://ghost.ai/",
+              "imageUrl": "https://ghost.ai/video/core-exploded-black/frame-000.webp",
+              "capturedAt": "2026-10-06T16:41:10Z",
+              "altZh": "官方硬件动画首帧：机箱仍处于组装状态",
+              "altEn": "First frame of the official hardware animation: the enclosure is still assembled",
+              "captionZh": "官方硬件动画首帧：机箱仍处于组装状态",
+              "captionEn": "First frame of the official hardware animation: the enclosure is still assembled",
+              "role": "product"
+            }
+          ]
+        }
+      ],
+      "media": [
+        {
+          "kind": "official-link",
+          "url": "https://x.com/zainmfj/status/2107146556176798081",
+          "sourceUrl": "https://ghost.ai/",
+          "poster": {
+            "path": "assets/ghost-core-front.png",
+            "kind": "source-backed official product image",
+            "sourceUrl": "https://ghost.ai/",
+            "imageUrl": "https://ghost.ai/video/core-360/poster-front.webp",
+            "capturedAt": "2026-10-06T16:41:10Z",
+            "altZh": "Ghost 官方 Core 正面产品渲染",
+            "altEn": "Ghost's official front product render",
+            "captionZh": "Ghost 官方 Core 正面产品渲染",
+            "captionEn": "Ghost's official front product render",
+            "role": "product"
+          },
+          "captionZh": "官方发布视频入口",
+          "captionEn": "Official launch-video link",
+          "whatToSeeZh": "产品形态与操作介绍；外链读取受限，不给出未经核验的时间点",
+          "whatToSeeEn": "Product form and interaction presentation; the external video was inaccessible, so no unverified timestamps are supplied",
+          "verifiedAt": "2026-10-06T16:42:00Z",
+          "accessNote": "X returned HTTP403 in web tool; link-only, no embed reliability or reuse permission verified"
+        }
+      ],
+      "eventSourceUrl": "https://techcrunch.com/2026/10/05/at-19-ghost-founder-raises-11-million-to-build-a-3499-computer-for-your-personal-ai",
+      "readingPriority": "deep",
+      "verificationNote": "Volatile sold-out/batch-registration statements removed because no retained dated cutoff capture establishes that exact state; launch date remains corroborated by dated reporting."
+    },
+    {
+      "id": "reflection-beam-announcement-2026-10-05",
+      "section": "official",
+      "evidenceLabel": "developer surface",
+      "zhHeadline": "Beam：开放权重预告，先理解参数与成本的区别",
+      "enHeadline": "Beam preview: distinguish active parameters from deployment cost",
+      "event": {
+        "productKey": "reflection-beam",
+        "kind": "announcement",
+        "key": "first-open-weight-preview",
+        "occurredAt": "2026-10-05",
+        "summaryZh": "Beam：开放权重预告，先理解参数与成本的区别",
+        "summaryEn": "Beam preview: distinguish active parameters from deployment cost",
+        "deltaZh": "Reflection 发布首个模型预告与早期访问入口；权重计划本月稍后公开",
+        "deltaEn": "Reflection announces its first model and early access; weights are planned later this month"
+      },
+      "sources": [
+        {
+          "label": "Reflection: Introducing Beam",
+          "url": "https://reflection.ai/blog/introducing-beam",
+          "type": "official",
+          "publishedAt": "2026-10-05",
+          "verifiedAt": "2026-10-06T16:42:00Z",
+          "isPrimary": true
+        }
+      ],
+      "brief": {
+        "zh": {
+          "what": "501B 总参数、每 token 激活23B 的 MoE，面向 coding 与 agent 任务",
+          "change": "10月5日开放早期访问登记，尚在最终评测；Apache 2.0 权重与报告是后续承诺",
+          "use": "官方展示生成纽约地铁实时地图，并用图表比较不同推理力度的得分与 token 用量",
+          "limits": "效率图是厂商估算，排除 prefill、注意力与服务开销；不能直接换算为用户成本"
+        },
+        "en": {
+          "what": "A 501B-total, 23B-active MoE aimed at coding and agent workloads",
+          "change": "Early-access signup opened October 5; Apache 2.0 weights and the report remain promised for later this month",
+          "use": "An official demo shows a generated NYC subway map; plots compare reasoning effort, scores and token use",
+          "limits": "Vendor compute estimates omit prefill, attention and serving overhead, so they aren't measured user costs"
+        }
+      },
+      "learning": {
+        "zh": "MoE 的激活参数影响每步计算，总参数仍影响存储；更少 token 也不等于按比例降价",
+        "en": "Active parameters affect per-step compute; total weights still affect storage, and fewer tokens don't imply proportional price savings"
+      },
+      "firstIncludedOn": "2026-10-06",
+      "visuals": [
+        {
+          "path": "assets/beam-efficiency.png",
+          "kind": "source-backed official benchmark figure",
+          "sourceUrl": "https://reflection.ai/blog/introducing-beam",
+          "imageUrl": "https://cdn.sanity.io/images/sp40emik/production/421fc4392ddd11099de35443077d3a84506c82d4-1200x675.png",
+          "capturedAt": "2026-10-06T16:41:10Z",
+          "altZh": "官方推理力度图：横轴为平均生成 token，纵轴为任务得分",
+          "altEn": "Official reasoning-effort figure: generated tokens versus task score",
+          "captionZh": "官方推理力度图：横轴为平均生成 token，纵轴为任务得分",
+          "captionEn": "Official reasoning-effort figure: generated tokens versus task score",
+          "role": "comparison"
+        },
+        {
+          "path": "assets/beam-subway-poster.png",
+          "kind": "source-backed official demo frame",
+          "sourceUrl": "https://reflection.ai/blog/introducing-beam",
+          "imageUrl": "https://cdn.sanity.io/images/sp40emik/production/4b6b522c31dda5ecb59f83b9d2ae3f09ebe2d03b-1280x352.gif",
+          "capturedAt": "2026-10-06T16:41:10Z",
+          "altZh": "官方 NYC 地铁地图 demo 的首帧",
+          "altEn": "First frame of the official NYC subway-map demo",
+          "captionZh": "官方 NYC 地铁地图 demo 的首帧",
+          "captionEn": "First frame of the official NYC subway-map demo",
+          "role": "interface"
+        }
+      ],
+      "media": [
+        {
+          "kind": "gif",
+          "url": "https://cdn.sanity.io/images/sp40emik/production/4b6b522c31dda5ecb59f83b9d2ae3f09ebe2d03b-1280x352.gif",
+          "sourceUrl": "https://reflection.ai/blog/introducing-beam",
+          "poster": {
+            "path": "assets/beam-subway-poster.png",
+            "kind": "source-backed official demo frame",
+            "sourceUrl": "https://reflection.ai/blog/introducing-beam",
+            "imageUrl": "https://cdn.sanity.io/images/sp40emik/production/4b6b522c31dda5ecb59f83b9d2ae3f09ebe2d03b-1280x352.gif",
+            "capturedAt": "2026-10-06T16:41:10Z",
+            "altZh": "官方 NYC 地铁地图 demo 的首帧",
+            "altEn": "First frame of the official NYC subway-map demo",
+            "captionZh": "官方 NYC 地铁地图 demo 的首帧",
+            "captionEn": "First frame of the official NYC subway-map demo",
+            "role": "interface"
+          },
+          "captionZh": "官方展示 Beam 制作的纽约地铁地图",
+          "captionEn": "Official demonstration of a subway map created with Beam",
+          "whatToSeeZh": "地图缩放后看列车/线路标记的变化；这是厂商挑选的输出示例",
+          "whatToSeeEn": "Watch the map zoom and line/train markers change; this is a vendor-selected output example",
+          "verifiedAt": "2026-10-06T16:42:00Z",
+          "reuseNote": "Official public asset; embedding/reuse terms not independently confirmed. Use click-to-play and static fallback.",
+          "durationSeconds": 9,
+          "keyframes": [
+            {
+              "path": "assets/beam-subway-poster.png",
+              "frameIndex": 0,
+              "timestampSeconds": 0
+            },
+            {
+              "path": "assets/beam-subway-middle.png",
+              "frameIndex": 67,
+              "timestampSeconds": 4.47
+            }
+          ]
+        }
+      ],
+      "eventSourceUrl": "https://reflection.ai/blog/introducing-beam",
+      "readingPriority": "brief"
+    },
+    {
+      "id": "bazaarbench-preprint-2026-10-05",
+      "section": "research",
+      "evidenceLabel": "research signal",
+      "zhHeadline": "BazaarBench：成交完成，为什么仍可能是失败",
+      "enHeadline": "BazaarBench asks why completed trades can still be unsafe",
+      "event": {
+        "productKey": "bazaarbench",
+        "kind": "paper-publication",
+        "key": "arxiv-2610-06748-v1",
+        "occurredAt": "2026-10-05",
+        "summaryZh": "BazaarBench：成交完成，为什么仍可能是失败",
+        "summaryEn": "BazaarBench asks why completed trades can still be unsafe",
+        "deltaZh": "10月5日预印本发布持续状态的多 agent 二手市场安全基准与代码/数据",
+        "deltaEn": "The October 5 preprint releases a persistent-state marketplace safety benchmark with code and data"
+      },
+      "sources": [
+        {
+          "label": "BazaarBench arXiv record",
+          "url": "https://arxiv.org/abs/2610.06748",
+          "type": "research",
+          "publishedAt": "2026-10-05T17:26:17Z",
+          "verifiedAt": "2026-10-06T16:42:00Z",
+          "isPrimary": true
+        },
+        {
+          "label": "BazaarBench full paper",
+          "url": "https://arxiv.org/html/2610.06748v1",
+          "type": "research",
+          "publishedAt": "2026-10-05",
+          "verifiedAt": "2026-10-06T16:42:00Z",
+          "isPrimary": true
+        }
+      ],
+      "brief": {
+        "zh": {
+          "what": "King’s College London、Oxford 等团队的新预印本，测试 agent 代人交易",
+          "change": "五个模型、45组模拟续跑；普通指令下都尝试把同一物品许给多个买家",
+          "use": "把库存、品质和承诺记录与完成率一起检查，区分‘做成任务’与‘守住约束’",
+          "limits": "模拟市场，不是现实诈骗比例；部分标签依赖 LLM 判定，论文尚未确立长期影响"
+        },
+        "en": {
+          "what": "A new King's College London/Oxford-linked preprint tests agents trading for users",
+          "change": "Across five models and 45 simulated continuations, all attempted double commitments under ordinary instructions",
+          "use": "Check inventory, condition and prior promises alongside task completion",
+          "limits": "A simulated marketplace, not a real-world fraud rate; some labels use an LLM judge. Its long-term influence is not established"
+        }
+      },
+      "learning": {
+        "zh": "交易按钮返回成功，只证明平台接受了动作，不证明商品与承诺真实",
+        "en": "A successful transaction response proves platform acceptance, not truthful goods or commitments"
+      },
+      "firstIncludedOn": "2026-10-06",
+      "paper": {
+        "arxivId": "2610.06748",
+        "version": "v1",
+        "submittedAt": "2026-10-05T17:26:17Z",
+        "authors": [
+          "Ziyan Wang",
+          "Shuqing Shi",
+          "James Oldfield",
+          "Samuele Marro",
+          "Jialin Yu",
+          "Philip Torr",
+          "Yali Du",
+          "Adel Bibi"
+        ],
+        "peerReview": "preprint",
+        "contribution": "Persistent marketplace simulator plus safety labels grounded in ownership, condition and commitments",
+        "codeUrl": "https://github.com/ziyan-wang98/BazaarBench"
+      },
+      "visuals": [
+        {
+          "path": "assets/bazaarbench-overview.png",
+          "kind": "source-backed research paper figure",
+          "sourceUrl": "https://arxiv.org/html/2610.06748v1",
+          "imageUrl": "https://arxiv.org/html/2610.06748v1/fig1_overview.png",
+          "capturedAt": "2026-10-06T16:41:10Z",
+          "altZh": "论文图1：市场、库存记录、agent 动作与安全判定流程",
+          "altEn": "Paper Figure 1: market, inventory records, agent actions and safety checks",
+          "captionZh": "论文图1：市场、库存记录、agent 动作与安全判定流程",
+          "captionEn": "Paper Figure 1: market, inventory records, agent actions and safety checks",
+          "role": "interaction"
+        }
+      ],
+      "detailPages": [
+        {
+          "id": "bazaar-records-before-reward",
+          "zhTitle": "怎样读懂这项实验",
+          "enTitle": "Read the experiment carefully",
+          "points": [
+            {
+              "zh": "每个基础市场有100个 agent；续跑保留历史，只替换同一组20个 agent 的模型与指令",
+              "en": "Each base market has 100 agents; continuations preserve histories while changing the same 20 agents' model and instructions",
+              "sourceUrls": [
+                "https://arxiv.org/html/2610.06748v1"
+              ]
+            },
+            {
+              "zh": "平台没有自动为已接受 offer 锁定库存，因此测试的责任是 agent 自己避免冲突承诺",
+              "en": "Accepting an offer doesn't automatically reserve stock, so avoiding conflicting promises is the agent's responsibility",
+              "sourceUrls": [
+                "https://arxiv.org/html/2610.06748v1"
+              ]
+            }
+          ],
+          "visuals": [
+            {
+              "path": "assets/bazaarbench-overview.png",
+              "kind": "source-backed research paper figure",
+              "sourceUrl": "https://arxiv.org/html/2610.06748v1",
+              "imageUrl": "https://arxiv.org/html/2610.06748v1/fig1_overview.png",
+              "capturedAt": "2026-10-06T16:41:10Z",
+              "altZh": "论文图1：市场、库存记录、agent 动作与安全判定流程",
+              "altEn": "Paper Figure 1: market, inventory records, agent actions and safety checks",
+              "captionZh": "论文图1：市场、库存记录、agent 动作与安全判定流程",
+              "captionEn": "Paper Figure 1: market, inventory records, agent actions and safety checks",
+              "role": "interaction"
+            }
+          ]
+        }
+      ],
+      "eventSourceUrl": "https://arxiv.org/html/2610.06748v1",
+      "readingPriority": "deep"
+    },
+    {
+      "id": "hyperframes-studio-desktop-v0-8-137-2026-10-06",
+      "section": "wild",
+      "evidenceLabel": "developer surface",
+      "zhHeadline": "HyperFrames Studio：人和 agent 共用时间线，今天修复预览内存问题",
+      "enHeadline": "HyperFrames Studio shares the timeline; today's patch improves preview memory",
+      "event": {
+        "productKey": "heygen-hyperframes-studio",
+        "kind": "release",
+        "version": "0.8.137",
+        "occurredAt": "2026-10-06",
+        "summaryZh": "桌面视频编辑器的新版本更新了预览与音频反馈",
+        "summaryEn": "A desktop video editor update improves preview loading and audio feedback",
+        "deltaZh": "10月6日 v0.8.137 减少含大型内联图像或脚本的合成预览加载内存，并标示音频导出峰值过高；桌面入口在10月5日进入官方文档",
+        "deltaEn": "October 6 v0.8.137 reduces preview-loading memory for large inline images/scripts and flags excessive export peaks; desktop setup docs landed October 5"
+      },
+      "sources": [
+        {
+          "label": "HyperFrames v0.8.137 release notes",
+          "url": "https://github.com/heygen-com/hyperframes/releases/tag/v0.8.137",
+          "type": "developer docs",
+          "publishedAt": "2026-10-06",
+          "verifiedAt": "2026-10-06T15:43:48Z",
+          "isPrimary": true
+        },
+        {
+          "label": "HyperFrames v0.8.134: desktop app documentation",
+          "url": "https://github.com/heygen-com/hyperframes/releases/tag/v0.8.134",
+          "type": "developer docs",
+          "publishedAt": "2026-10-05",
+          "verifiedAt": "2026-10-06T15:43:48Z",
+          "isPrimary": true
+        },
+        {
+          "label": "Official desktop app guide",
+          "url": "https://hyperframes.heygen.com/studio-app",
+          "type": "developer docs",
+          "publishedAt": null,
+          "verifiedAt": "2026-10-06T15:41:30Z",
+          "isPrimary": true
+        },
+        {
+          "label": "Official visual edit workflow",
+          "url": "https://hyperframes.heygen.com/studio-app/edit-with-the-agent",
+          "type": "developer docs",
+          "publishedAt": null,
+          "verifiedAt": "2026-10-06T15:41:30Z",
+          "isPrimary": true
+        }
+      ],
+      "brief": {
+        "zh": {
+          "what": "HeyGen 的 HyperFrames 桌面编辑器，让编码 agent 与人编辑同一视频工程",
+          "change": "今日 v0.8.137 降低大型内联资源的预览加载内存，增加音频过响提示；10月5日官方文档新增桌面入口",
+          "use": "描述视频后，可在画面上圈选、绘画、贴评论，或直接调整时间线，再把一组修改交给 agent",
+          "limits": "官方安装指南覆盖 macOS 与 Linux x86_64，需要 HeyGen 登录和自己的 agent；未验证 Windows 下载"
+        },
+        "en": {
+          "what": "HeyGen's desktop editor lets a coding agent and a person work on one video project",
+          "change": "Today's v0.8.137 reduces preview-loading memory for large inline assets and flags excessive audio peaks; desktop setup guides arrived October 5",
+          "use": "Describe a cut, then point, draw, comment on a frame or adjust the timeline before sending grouped edits to the agent",
+          "limits": "Official setup covers macOS and Linux x86_64, with HeyGen sign-in and your own agent; a Windows download wasn't verified"
+        }
+      },
+      "visuals": [
+        {
+          "path": "assets/hyperframes-home.png",
+          "kind": "source-backed official UI screenshot",
+          "sourceUrl": "https://hyperframes.heygen.com/studio-app",
+          "imageUrl": "https://mintcdn.com/hyperframes/_6VyncuVwS2Xkc8Q/public/images/studio-app/home.jpg?fit=max&auto=format&n=_6VyncuVwS2Xkc8Q&q=85&s=2c56b44dd2ac72bfa822533c8e210617",
+          "capturedAt": "2026-10-06T15:39:30Z",
+          "altZh": "HyperFrames Studio 官方 Home 界面，包含提示框与工程列表",
+          "altEn": "Official HyperFrames Studio Home screen with prompt box and project list",
+          "captionZh": "官方 Home 截图：从提示框开始，左侧列出视频工程",
+          "captionEn": "Official Home screenshot: begin with a prompt, with projects listed on the left",
+          "role": "interface"
+        }
+      ],
+      "firstIncludedOn": "2026-10-06",
+      "eventSourceUrl": "https://github.com/heygen-com/hyperframes/releases/tag/v0.8.137",
+      "readingPriority": "brief"
+    },
+    {
+      "id": "cua-driver-motion-0-34-0-2026-10-05",
+      "section": "wild",
+      "evidenceLabel": "developer surface",
+      "zhHeadline": "Cua Driver：让 agent 的光标动作更容易被看懂",
+      "enHeadline": "Cua Driver makes agent cursor motion easier to read",
+      "event": {
+        "productKey": "cua-driver",
+        "kind": "release",
+        "key": "0.34.0",
+        "occurredAt": "2026-10-05",
+        "summaryZh": "Cua Driver：让 agent 的光标动作更容易被看懂",
+        "summaryEn": "Cua Driver makes agent cursor motion easier to read",
+        "deltaZh": "0.34.0 新增六种光标运动样式，可按会话或默认配置选择",
+        "deltaEn": "Version 0.34.0 adds six cursor-motion styles configurable per session or as a default"
+      },
+      "sources": [
+        {
+          "label": "Cua Driver 0.34.0 release",
+          "url": "https://github.com/trycua/cua/releases/tag/cua-driver-rs-v0.34.0",
+          "type": "developer docs",
+          "publishedAt": "2026-10-05T22:30:00Z",
+          "verifiedAt": "2026-10-06T16:42:00Z",
+          "isPrimary": true
+        },
+        {
+          "label": "Official cursor-motion guide",
+          "url": "https://cua.ai/docs/cua-driver/guides/operate",
+          "type": "developer docs",
+          "publishedAt": null,
+          "verifiedAt": "2026-10-06T16:42:00Z",
+          "isPrimary": true
+        }
+      ],
+      "brief": {
+        "zh": {
+          "what": "agent 操作桌面时的可见光标叠层",
+          "change": "新增 signature arc、spring settle、magnetic、comet swoop、adaptive、classic 六种样式",
+          "use": "用轨迹、点击反馈与会话标记，让观察者理解正在操作的目标与阶段",
+          "limits": "它是视觉提示，不是授权凭据；减少动态效果设置会覆盖动画。没有独立证据证明它提升操作准确率"
+        },
+        "en": {
+          "what": "A visible cursor overlay for agents operating desktops",
+          "change": "Six styles include signature arc, spring settle, magnetic, comet swoop, adaptive and classic",
+          "use": "Motion, click feedback and session labels can clarify the action being observed",
+          "limits": "A visual aid, not an authorization credential. Reduced-motion settings override effects; improved task accuracy wasn't independently established"
+        }
+      },
+      "learning": {
+        "zh": "让行为可见与允许行为执行，是两层不同的产品责任",
+        "en": "Making actions legible and authorizing them are separate product responsibilities"
+      },
+      "firstIncludedOn": "2026-10-06",
+      "visualMissing": {
+        "zh": "未取得可核验的功能图，保留来源与能力边界",
+        "en": "No verified feature image was obtained; sources and capability boundaries are preserved"
+      },
+      "readingPriority": "brief",
+      "eventSourceUrl": "https://github.com/trycua/cua/releases/tag/cua-driver-rs-v0.34.0"
+    },
+    {
+      "id": "learnsched-preprint-2026-10-05",
+      "section": "research",
+      "evidenceLabel": "research signal",
+      "zhHeadline": "LearnSched：空闲 GPU 也未必应该立即自我进化",
+      "enHeadline": "LearnSched: idle GPUs need not immediately self-improve",
+      "event": {
+        "productKey": "learnsched",
+        "kind": "paper-publication",
+        "key": "arxiv-2610-06212-v1",
+        "occurredAt": "2026-10-05",
+        "summaryZh": "LearnSched：空闲 GPU 也未必应该立即自我进化",
+        "summaryEn": "LearnSched: idle GPUs need not immediately self-improve",
+        "deltaZh": "10月5日预印本把能力收益、检查点与服务恢复成本纳入同一调度判断",
+        "deltaEn": "The October 5 preprint jointly models capability benefits, checkpoints and service-recovery costs"
+      },
+      "sources": [
+        {
+          "label": "LearnSched arXiv record",
+          "url": "https://arxiv.org/abs/2610.06212",
+          "type": "research",
+          "publishedAt": "2026-10-05T12:22:40Z",
+          "verifiedAt": "2026-10-06T16:42:00Z",
+          "isPrimary": true
+        }
+      ],
+      "brief": {
+        "zh": {
+          "what": "Yangbo Wei 等九位作者研究 agent 服务与能力演化共享 GPU 的调度",
+          "change": "LearnSched 对进度、检查点和恢复状态做选择；评估包含1920组配对有限模型场景",
+          "use": "先计算能力能被复用多久，再决定后台改进何时值得启动或暂停",
+          "limits": "不是部署效果保证；热恢复场景中，较简单的窗口策略已取得同等价值"
+        },
+        "en": {
+          "what": "Yangbo Wei and eight co-authors study GPU sharing between agent service and self-improvement",
+          "change": "LearnSched accounts for progress, checkpoints and recovery across 1,920 paired finite-model scenarios",
+          "use": "Estimate the reuse window before starting or pausing background improvement",
+          "limits": "Not a production deployment guarantee; a simpler window policy matches value in evaluated warm-recovery cases"
+        }
+      },
+      "learning": {
+        "zh": "机器空着不等于工作免费：暂停后的内存释放与服务恢复也消耗时间",
+        "en": "Idle capacity isn't free work: memory release and service recovery also consume time"
+      },
+      "firstIncludedOn": "2026-10-06",
+      "visualMissing": {
+        "zh": "未取得可核验的功能图，保留来源与能力边界",
+        "en": "No verified feature image was obtained; sources and capability boundaries are preserved"
+      },
+      "paper": {
+        "arxivId": "2610.06212",
+        "version": "v1",
+        "submittedAt": "2026-10-05T12:22:40Z",
+        "authors": [
+          "Yangbo Wei",
+          "Junhong Qian",
+          "Zhen Huang",
+          "Zhenyu Su",
+          "Qifan Wang",
+          "Shaoqiang Lu",
+          "Rumin Zhang",
+          "Chen Wu",
+          "Lei He"
+        ],
+        "peerReview": "preprint",
+        "contribution": "A state-aware scheduler connecting reuse windows and capacity-return costs"
+      },
+      "readingPriority": "brief",
+      "eventSourceUrl": "https://arxiv.org/abs/2610.06212"
+    },
+    {
+      "id": "clockwork-torchpass-snapshots-2026-10-06",
+      "section": "global",
+      "evidenceLabel": "confirmed product",
+      "zhHeadline": "Clockwork：保护的是整项 AI 工作的进度",
+      "enHeadline": "Clockwork protects a running AI job's progress",
+      "event": {
+        "productKey": "clockwork-torchpass",
+        "kind": "feature-release",
+        "key": "multi-node-platform-snapshots-async-checkpoints",
+        "occurredAt": "2026-10-06",
+        "summaryZh": "Clockwork：保护的是整项 AI 工作的进度",
+        "summaryEn": "Clockwork protects a running AI job's progress",
+        "deltaZh": "10月6日公司发布多节点平台快照与异步应用检查点，并宣布 US$31M 新融资",
+        "deltaEn": "The October 6 company release introduces multi-node platform snapshots and asynchronous application checkpoints, alongside US$31M funding"
+      },
+      "sources": [
+        {
+          "label": "Clockwork company-issued release",
+          "url": "https://hpcwire.com/off-the-wire/clockwork-io-announces-31m-in-funding-and-deployments-at-linkedin-and-together-ai",
+          "type": "official",
+          "publishedAt": "2026-10-06",
+          "verifiedAt": "2026-10-06T16:42:00Z",
+          "isPrimary": true
+        },
+        {
+          "label": "Clockwork TorchPass official product",
+          "url": "https://clockwork.io/workload-failover",
+          "type": "official",
+          "publishedAt": null,
+          "verifiedAt": "2026-10-06T16:42:00Z",
+          "isPrimary": true
+        }
+      ],
+      "brief": {
+        "zh": {
+          "what": "在硬件与 AI 工作之间提供故障容错的软件层",
+          "change": "新快照捕获分布式工作各节点状态；异步检查点在工作继续时保存进度",
+          "use": "大型训练、推理和 RL 工作遇到 GPU/网络故障时，减少重跑；公司披露 LinkedIn、Together AI 部署",
+          "limits": "US$31M 轮次名称未披露；不同故障与工作栈仍需验证，不把厂商收益当作普遍保证"
+        },
+        "en": {
+          "what": "A software fault-tolerance layer between AI jobs and hardware",
+          "change": "New snapshots capture distributed node state; asynchronous checkpoints preserve progress while work continues",
+          "use": "Reduce repeated computation after GPU/network failures; LinkedIn and Together AI deployments are company-reported",
+          "limits": "The US$31M round's stage isn't specified. Results depend on failure mode and workload; vendor gains aren't universal guarantees"
+        }
+      },
+      "learning": {
+        "zh": "比 GPU 利用率更有意义的是 goodput：最终保留下来的有效计算",
+        "en": "Goodput measures useful computation retained, rather than activity alone"
+      },
+      "firstIncludedOn": "2026-10-06",
+      "visualMissing": {
+        "zh": "未取得可核验的功能图，保留来源与能力边界",
+        "en": "No verified feature image was obtained; sources and capability boundaries are preserved"
+      },
+      "funding": {
+        "amount": 31,
+        "currency": "USD",
+        "unit": "million",
+        "stage": null,
+        "announcedAt": "2026-10-06",
+        "sourceUrl": "https://www.hpcwire.com/off-the-wire/clockwork-io-announces-31m-in-funding-and-deployments-at-linkedin-and-together-ai/",
+        "advice": false
+      },
+      "eventSourceUrl": "https://hpcwire.com/off-the-wire/clockwork-io-announces-31m-in-funding-and-deployments-at-linkedin-and-together-ai",
+      "readingPriority": "brief"
+    },
+    {
+      "id": "safeworld-seed-platform-2026-10-05",
+      "section": "wild",
+      "evidenceLabel": "startup signal",
+      "zhHeadline": "SafeWorld：资金流向机器人上场前的安全测试",
+      "enHeadline": "SafeWorld funds the testing layer before robots meet people",
+      "event": {
+        "productKey": "safeworld",
+        "kind": "funding-announcement",
+        "key": "usd-12-2m-seed-stealth-exit",
+        "occurredAt": "2026-10-05",
+        "summaryZh": "SafeWorld：资金流向机器人上场前的安全测试",
+        "summaryEn": "SafeWorld funds the testing layer before robots meet people",
+        "deltaZh": "公司10月5日宣布退出隐身与 US$12.2M 种子轮，同时描述浏览器安全情景生成平台",
+        "deltaEn": "The October 5 company release announces a US$12.2M seed round and a browser-based safety-scenario platform"
+      },
+      "sources": [
+        {
+          "label": "Company-issued SafeWorld launch release",
+          "url": "https://webwire.com/ViewPressRel.asp?aId=361384",
+          "type": "official",
+          "publishedAt": "2026-10-05",
+          "verifiedAt": "2026-10-06T16:42:00Z",
+          "isPrimary": true
+        },
+        {
+          "label": "SafeWorld official platform",
+          "url": "https://safeworld.ai",
+          "type": "official",
+          "publishedAt": null,
+          "verifiedAt": "2026-10-06T16:42:00Z",
+          "isPrimary": true
+        }
+      ],
+      "brief": {
+        "zh": {
+          "what": "为人机共处环境提供机器人安全仿真工具",
+          "change": "US$12.2M seed，由 Shine Capital 与 a16z Speedrun 共同领投",
+          "use": "从事故、标准与机器人日志在浏览器构建场景，再用不同人类运动轨迹反复测试",
+          "limits": "公司披露早期试点与访问申请；仿真覆盖不是安全认证或现实零事故保证"
+        },
+        "en": {
+          "what": "Robot safety-simulation tools for environments shared with people",
+          "change": "A US$12.2M seed round co-led by Shine Capital and a16z Speedrun was announced October 5",
+          "use": "Build browser scenarios from incidents, standards and robot logs, then repeat them with varied human motion",
+          "limits": "The company describes early pilots and request-access availability; simulation coverage is not certification or a guarantee of zero physical incidents"
+        }
+      },
+      "learning": {
+        "zh": "机器人产业的新机会不只在机器人本体，也在持续验证每次软件更新",
+        "en": "The product opportunity includes continuously testing robot software updates, not only building robots"
+      },
+      "firstIncludedOn": "2026-10-06",
+      "visualMissing": {
+        "zh": "未取得可核验的功能图，保留来源与能力边界",
+        "en": "No verified feature image was obtained; sources and capability boundaries are preserved"
+      },
+      "funding": {
+        "amount": 12.2,
+        "currency": "USD",
+        "unit": "million",
+        "stage": "seed",
+        "announcedAt": "2026-10-05",
+        "coLeads": [
+          "Shine Capital",
+          "a16z Speedrun"
+        ],
+        "sourceUrl": "https://www.webwire.com/ViewPressRel.asp?aId=361384",
+        "valuation": null,
+        "advice": false
+      },
+      "eventSourceUrl": "https://webwire.com/ViewPressRel.asp?aId=361384",
+      "readingPriority": "brief"
+    },
+    {
+      "id": "reka-rho-1-research-preview-2026-10-05",
+      "section": "research",
+      "evidenceLabel": "research signal",
+      "zhHeadline": "Rho-1 研究预览：边看、边生成、边接收动作指令",
+      "enHeadline": "Rho-1 research preview connects live visual generation and action",
+      "event": {
+        "productKey": "reka-rho",
+        "kind": "research-preview",
+        "version": "1",
+        "occurredAt": "2026-10-05",
+        "summaryZh": "Reka 公开可实时引导的视觉/动作研究原型",
+        "summaryEn": "Reka unveils a steerable visual/action research prototype",
+        "deltaZh": "10月5日研究预览把连续视频生成、指令理解与机器人动作通道放进同一模型；示例为模拟环境",
+        "deltaEn": "The October 5 preview combines continuous video generation, instructions and robot action channels in one model; shown robotics examples are simulated"
+      },
+      "sources": [
+        {
+          "label": "Reka Labs: Rho-1 preview",
+          "url": "https://reka.ai/labs/research/rho-1-collapsing-the-multimodal-stack",
+          "type": "research",
+          "publishedAt": "2026-10-05",
+          "verifiedAt": "2026-10-06T15:41:30Z",
+          "isPrimary": true
+        }
+      ],
+      "brief": {
+        "zh": {
+          "what": "Reka 的 19B 多模态研究原型，演示理解、生成视频与动作的闭环",
+          "change": "可在持续生成的视频中插入指令；机器人示例展示 LIBERO 模拟中的观察、预测腕部视图与动作通道",
+          "use": "作为交互模拟环境和视觉—动作研究的方向；官方通过联系团队讨论合作",
+          "limits": "不是成品机器人或验证过的实地部署；长序列会结构漂移，视频定位与编辑仍脆弱，原生视频上限672×384"
+        },
+        "en": {
+          "what": "Reka's 19B research prototype demonstrates a shared loop for understanding, video generation and actions",
+          "change": "Instructions can steer a continuous generated scene; robotics examples expose observations, predicted wrist views and action channels in LIBERO simulation",
+          "use": "A direction for interactive simulation and vision-action research, with access/collaboration through the team's contact route",
+          "limits": "Not a finished robot or proven physical deployment. Long rollouts drift structurally, temporal grounding/editing remain brittle, and native video is capped at 672×384"
+        }
+      },
+      "visualMissing": {
+        "zh": "官方演示包含模拟视频，但本轮未取得可核验的图像文件；不可冒充实物机器人照片",
+        "en": "Official demonstrations contain simulated video, but no verifiable image file was obtained; they must not be presented as physical robot photographs"
+      },
+      "firstIncludedOn": "2026-10-06",
+      "eventSourceUrl": "https://reka.ai/labs/research/rho-1-collapsing-the-multimodal-stack",
+      "readingPriority": "brief"
+    },
+    {
+      "id": "cohere-north-2-platform-release-2026-10-05",
+      "section": "official",
+      "evidenceLabel": "confirmed product",
+      "zhHeadline": "North 2：可复用 agent、可视化流程与花费上限进入同一工作台",
+      "enHeadline": "North 2 brings reusable agents, workflows and spending limits into one workspace",
+      "event": {
+        "productKey": "cohere-north",
+        "kind": "release",
+        "version": "2",
+        "occurredAt": "2026-10-05",
+        "summaryZh": "Cohere 发布 North 2 企业 agent 平台升级",
+        "summaryEn": "Cohere launches the North 2 enterprise-agent platform upgrade",
+        "deltaZh": "10月5日发布重构的 agent 编排、跨会话记忆和更细的管理员配额/花费限制",
+        "deltaEn": "October 5 adds a rebuilt agent harness, cross-session memory and finer administrator quotas/spending limits"
+      },
+      "sources": [
+        {
+          "label": "Cohere: Introducing North 2",
+          "url": "https://cohere.com/blog/introducing-north-2",
+          "type": "official",
+          "publishedAt": "2026-10-05",
+          "verifiedAt": "2026-10-06T15:41:30Z",
+          "isPrimary": true
+        }
+      ],
+      "brief": {
+        "zh": {
+          "what": "面向企业知识与工具的 Cohere North 2 agent 平台",
+          "change": "重构多步编排，加入可共享 agent、记忆、skills、资料库，以及管理员配额与花费控制",
+          "use": "用自然语言建立自动化，并在可视化工作流中组织步骤；在 chat 中制作文档或轻量应用",
+          "limits": "销售咨询/演示入口，具体价格与各客户启用日期未说明；金融数据连接器有些仍属计划"
+        },
+        "en": {
+          "what": "Cohere's North 2 is an enterprise agent workspace connected to company knowledge and tools",
+          "change": "The October 5 upgrade adds rebuilt orchestration, shareable agents, memory, skills, libraries and finer quotas/spending controls",
+          "use": "Build automations from prompts and visual workflows, or create documents and lightweight apps in chat",
+          "limits": "Access is sales/demo-led; pricing and customer-specific activation dates aren't stated. Some financial-data connectors remain planned"
+        }
+      },
+      "firstIncludedOn": "2026-10-06",
+      "visuals": [
+        {
+          "path": "assets/north-discover.png",
+          "kind": "source-backed official interface illustration",
+          "sourceUrl": "https://cohere.com/north",
+          "imageUrl": "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/411ab61c4837b57b14a6c38dfd98961dd72b5772-620x480.png?auto=format&fit=max&q=80&w=620",
+          "capturedAt": "2026-10-06T15:48:14Z",
+          "altZh": "North 官方 Discover 界面示意图",
+          "altEn": "Official North Discover interface illustration",
+          "captionZh": "官方界面示意：连接资料与工具的 Finance Agent；数值为演示内容",
+          "captionEn": "Official interface illustration: connected knowledge and tools; figures are demo content",
+          "role": "interface"
+        },
+        {
+          "path": "assets/north-create.png",
+          "kind": "source-backed official interface illustration",
+          "sourceUrl": "https://cohere.com/north",
+          "imageUrl": "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/445cc9bf798b266625372e4921357a9bcdb14482-620x480.png?auto=format&fit=max&q=80&w=620",
+          "capturedAt": "2026-10-06T15:48:14Z",
+          "altZh": "North 官方 Create 界面示意图",
+          "altEn": "Official North Create interface illustration",
+          "captionZh": "官方界面示意：创建并导出文档；数值为演示内容",
+          "captionEn": "Official interface illustration: document creation and export; figures are demo content",
+          "role": "interface"
+        },
+        {
+          "path": "assets/north-automate.png",
+          "kind": "source-backed official interface illustration",
+          "sourceUrl": "https://cohere.com/north",
+          "imageUrl": "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/a352f8c83fd1243258c834cf197a0a194d93b18d-620x480.png?auto=format&fit=max&q=80&w=620",
+          "capturedAt": "2026-10-06T15:48:14Z",
+          "altZh": "North 官方 Automate 界面示意图",
+          "altEn": "Official North Automate interface illustration",
+          "captionZh": "官方界面示意：配置周期自动化；数值为演示内容",
+          "captionEn": "Official interface illustration: recurring automation setup; figures are demo content",
+          "role": "interaction"
+        }
+      ],
+      "eventSourceUrl": "https://cohere.com/blog/introducing-north-2",
+      "readingPriority": "brief"
+    },
+    {
+      "id": "claude-cowork-pro-max-cloud-effective-2026-10-06",
+      "section": "official",
+      "evidenceLabel": "confirmed product",
+      "zhHeadline": "Claude Cowork：Pro/Max 新任务今天改为云端执行",
+      "enHeadline": "Claude Cowork moves new Pro/Max tasks to the cloud today",
+      "event": {
+        "productKey": "anthropic-claude-cowork",
+        "kind": "availability-change",
+        "key": "pro-max-new-tasks-cloud-only-effective-2026-10-06",
+        "occurredAt": "2026-10-06",
+        "summaryZh": "Pro/Max 新 Cowork 任务的执行位置改变",
+        "summaryEn": "The execution location changes for new Pro/Max Cowork tasks",
+        "deltaZh": "官方明确10月6日移除 Only on your computer 选项；已有本机任务保持原位",
+        "deltaEn": "The official guide explicitly removes the Only on your computer option on October 6; existing local tasks remain local"
+      },
+      "sources": [
+        {
+          "label": "Claude Help: Pro/Max October 6 change",
+          "url": "https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile",
+          "type": "official",
+          "publishedAt": null,
+          "verifiedAt": "2026-10-06T15:41:30Z",
+          "isPrimary": true,
+          "dateEvidence": {
+            "kind": "effective-date",
+            "date": "2026-10-06",
+            "quote": "On October 6, 2026, new Cowork tasks on Pro and Max plans run in the cloud."
+          },
+          "publicationDateNote": "Absolute publication date is not stated; page says Updated this week. Effective date is explicit."
+        }
+      ],
+      "brief": {
+        "zh": {
+          "what": "Claude 的长任务工作方式，官方指明 Pro/Max 今天切换新任务执行位置",
+          "change": "新任务在云端运行，移除本机专属选项；已启动的本机任务仍可继续",
+          "use": "云端任务可在合上电脑后继续，也能跨桌面、网页和手机查看；不依赖本机文件的定时任务无需设备在线",
+          "limits": "访问本机文件仍需桌面 app 打开，并限已连接文件夹；本机项目和定时任务不能直接迁入 Claude Code"
+        },
+        "en": {
+          "what": "Claude's long-running task workflow changes execution location for Pro/Max today",
+          "change": "New tasks run in the cloud and the local-only option disappears; already-started local tasks can continue",
+          "use": "Cloud work can continue with a closed laptop and be reviewed across desktop, web and mobile; schedules without local dependencies need no online device",
+          "limits": "Local files still require an open desktop app and connected folders. Local projects and schedules don't transfer directly to Claude Code"
+        }
+      },
+      "visualMissing": {
+        "zh": "该官方变更说明没有可确认的新界面截图，保留文字证据与生效日期",
+        "en": "The official change notice provides no confirmed new-interface screenshot; the explicit effective date is preserved"
+      },
+      "firstIncludedOn": "2026-10-06",
+      "eventSourceUrl": "https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile",
+      "readingPriority": "brief"
+    },
+    {
+      "id": "tiktok-ads-mcp-connector-expansion-2026-10-05",
+      "section": "global",
+      "evidenceLabel": "developer surface",
+      "zhHeadline": "TikTok Ads MCP：广告操作进入更多 agent 工作台",
+      "enHeadline": "TikTok Ads MCP expands into more agent workspaces",
+      "event": {
+        "productKey": "tiktok-for-business-mcp",
+        "kind": "availability-change",
+        "key": "claude-kimi-manus-perplexity-replit-snowflake-workbuddy-iab-connectors-2026-10-05",
+        "occurredAt": "2026-10-05",
+        "summaryZh": "TikTok 扩展广告 MCP 的平台连接入口",
+        "summaryEn": "TikTok expands platform connector entry points for its advertising MCP",
+        "deltaZh": "10月5日官方明确 MCP 现可作为连接器进入 Claude、Kimi、Manus、Perplexity、Replit、Snowflake、腾讯 WorkBuddy 与 IAB Agent Registry",
+        "deltaEn": "The October 5 source explicitly makes TikTok MCP available as a connector through Claude, Kimi, Manus, Perplexity, Replit, Snowflake, Tencent WorkBuddy and the IAB Agent Registry"
+      },
+      "sources": [
+        {
+          "label": "TikTok Newsroom: October 5 advertiser updates",
+          "url": "https://newsroom.tiktok.com/tiktok-unveils-ai-powered-updates-for-advertisers-driving-discovery-action-and-measurable-business-outcomes?lang=en",
+          "type": "official",
+          "publishedAt": "2026-10-05",
+          "verifiedAt": "2026-10-06T15:41:30Z",
+          "isPrimary": true
+        },
+        {
+          "label": "TikTok Japan Sept29: earlier shopping-assistant description",
+          "url": "https://newsroom.tiktok.com/tiktok-ad-awards-2026-japan5?lang=ja-JP",
+          "type": "official",
+          "publishedAt": "2026-09-29",
+          "verifiedAt": "2026-10-06T15:36:24Z",
+          "isPrimary": true
+        }
+      ],
+      "brief": {
+        "zh": {
+          "what": "TikTok for Business MCP 把广告生态操作开放给 agent 工具",
+          "change": "10月5日新闻稿明确扩展 Claude、Kimi、Manus、Perplexity、Replit、Snowflake、腾讯 WorkBuddy 与 IAB 注册表连接入口",
+          "use": "开发者与广告团队可在已有 agent 工作流中规划、创建和管理 TikTok 广告",
+          "limits": "这不是广告 MCP 首发；各平台账号权限、地区与功能差异未详列。购物助手先前9月29日已有介绍，不当作今日新增功能"
+        },
+        "en": {
+          "what": "TikTok for Business MCP exposes advertising workflows to agent tools",
+          "change": "The October 5 announcement explicitly lists connector availability in Claude, Kimi, Manus, Perplexity, Replit, Snowflake, Tencent WorkBuddy and the IAB registry",
+          "use": "Developers and ad teams can plan, launch and manage TikTok campaigns from existing agent workspaces",
+          "limits": "This is connector expansion, not MCP’s original launch. Platform permissions, geographic coverage and feature differences aren't detailed. Shopping Assistant was already described September 29 and is background"
+        }
+      },
+      "visualMissing": {
+        "zh": "已核验官方连接器名单，未取得新增连接入口的可确认 UI 文件",
+        "en": "The official connector list is verified, but no confirmed UI file of the expanded entry points was obtained"
+      },
+      "firstIncludedOn": "2026-10-06",
+      "freshnessNote": {
+        "zh": "仅把10月5日明确的连接器可用性扩展视作新进展；购物助手9月29日已有官方介绍",
+        "en": "Only the explicitly dated October 5 connector expansion is the fresh delta; Shopping Assistant had an earlier September 29 official description"
+      },
+      "eventSourceUrl": "https://newsroom.tiktok.com/tiktok-unveils-ai-powered-updates-for-advertisers-driving-discovery-action-and-measurable-business-outcomes?lang=en",
+      "readingPriority": "brief"
+    },
+    {
+      "id": "sap-joule-work-customer-rollout-2026-10-06",
+      "section": "official",
+      "evidenceLabel": "confirmed product",
+      "zhHeadline": "Joule Work：从已宣布的界面走向客户 rollout",
+      "enHeadline": "Joule Work begins customer rollout of its outcome interface",
+      "event": {
+        "productKey": "sap-joule-work",
+        "kind": "availability-change",
+        "key": "customer-rollout-sap-connect-2026",
+        "occurredAt": "2026-10-06",
+        "summaryZh": "Joule Work：从已宣布的界面走向客户 rollout",
+        "summaryEn": "Joule Work begins customer rollout of its outcome interface",
+        "deltaZh": "10月6日 SAP 明确 Joule Work 开始客户 rollout；不是5月概念发布的重复",
+        "deltaEn": "SAP explicitly begins Joule Work customer rollout October 6, rather than re-announcing the May concept"
+      },
+      "sources": [
+        {
+          "label": "SAP Connect October6 official announcement",
+          "url": "https://news.sap.com/2026/10/sap-connect-sap-puts-autonomous-enterprise-to-work",
+          "type": "official",
+          "publishedAt": "2026-10-06",
+          "verifiedAt": "2026-10-06T16:42:00Z",
+          "isPrimary": true
+        }
+      ],
+      "brief": {
+        "zh": {
+          "what": "用自然语言跨 SAP 与第三方数据执行工作的企业界面",
+          "change": "客户 rollout 开始；官方说明选定客户已使用，仍要区分试点与普遍开放",
+          "use": "Joule Assistants 使用既有授权和审计轨迹执行业务流程，客户控制自治程度",
+          "limits": "厂商生产率数字是自身披露；新闻稿未列出所有客户的可用日期"
+        },
+        "en": {
+          "what": "An enterprise interface for natural-language work across SAP and third-party data",
+          "change": "Customer rollout begins; selected customers already use it, distinct from universal availability",
+          "use": "Joule Assistants execute workflows under existing permissions and audit trails, with customer-controlled autonomy",
+          "limits": "Productivity figures are vendor-reported; all customers' activation dates aren't listed"
+        }
+      },
+      "learning": {
+        "zh": "企业 agent 的新入口要同时承接数据上下文、权限与可审计的动作",
+        "en": "Enterprise agent interfaces must carry data context, permissions and auditable actions together"
+      },
+      "firstIncludedOn": "2026-10-06",
+      "visualMissing": {
+        "zh": "未取得可核验的功能图，保留来源与能力边界",
+        "en": "No verified feature image was obtained; sources and capability boundaries are preserved"
+      },
+      "eventSourceUrl": "https://news.sap.com/2026/10/sap-connect-sap-puts-autonomous-enterprise-to-work",
+      "readingPriority": "brief"
+    }
+  ],
+  "tags": [],
+  "sourceTypes": [
+    "official",
+    "reviews",
+    "research",
+    "developer docs"
+  ],
+  "watchlistZh": [],
+  "watchlistEn": [],
   "contextTopics": [
     {
       "id": "meta-emg-remapping-patent-context-2026-10-01",
@@ -227,44 +1339,11 @@
       "isNewToday": false
     }
   ],
-  "editorialPlan": {
-    "targetMinutes": 15,
-    "deepStories": [
-      {
-        "id": "ghost-core-preorder-2026-10-05",
-        "minutes": 2.5
-      },
-      {
-        "id": "bazaarbench-preprint-2026-10-05",
-        "minutes": 2.5
-      },
-      {
-        "id": "meta-emg-remapping-patent-context-2026-10-01",
-        "minutes": 2
-      }
-    ],
-    "quickBriefMinutes": 6,
-    "openingAndLaneNotesMinutes": 2,
-    "selectionNoteZh": "14条为研究候选池，不是数量配额；最终可将企业条目压成短报。专利独立标为10月1日首次收录背景",
-    "selectionNoteEn": "The 14-item combined pool is not a quota. Enterprise items can be shortened; the October 1 patent must remain explicitly first-inclusion context",
-    "quickBriefIds": [
-      "cua-driver-motion-0-34-0-2026-10-05",
-      "clockwork-torchpass-snapshots-2026-10-06",
-      "tiktok-ads-mcp-connector-expansion-2026-10-05",
-      "sap-joule-work-customer-rollout-2026-10-06"
-    ]
-  },
-  "zhTitle": "AI Daily｜从新产品到新问题，约15分钟",
-  "enTitle": "AI Daily | New products and useful questions, about 15 minutes",
-  "zhSummary": "13条10月5–6日已核验新进展，另附10月1日首次收录的专利背景；重点读硬件、交易安全与新交互，其余为短报",
-  "enSummary": "13 verified October5–6 advances plus separately dated October1 patent context. Focus on hardware, marketplace safety and interaction; other items are quick briefs",
-  "tags": [],
-  "sourceTypes": [
-    "official",
-    "reviews",
-    "research",
-    "developer docs"
-  ],
+  "excludedContext": [],
+  "excludedCandidates": [],
+  "zhPath": "./2026-10-06/zh/",
+  "enPath": "./2026-10-06/en/",
+  "sourcesPath": "./2026-10-06/sources.md",
   "coverStory": {
     "topicId": "ghost-core-preorder-2026-10-05",
     "zhTitle": "Ghost Core：本机 agent 变成一台专用电脑",
@@ -281,955 +1360,5 @@
     "imageSourceUrl": "https://ghost.ai/",
     "primarySourceUrl": "https://techcrunch.com/2026/10/05/at-19-ghost-founder-raises-11-million-to-build-a-3499-computer-for-your-personal-ai",
     "evidenceStrength": "startup signal"
-  },
-  "watchlistZh": [],
-  "watchlistEn": [],
-  "topics": [
-    {
-      "id": "ghost-core-preorder-2026-10-05",
-      "section": "wild",
-      "event": {
-        "productKey": "ghost-core",
-        "kind": "availability-change",
-        "key": "first-preorder-batch-2026-10-05",
-        "occurredAt": "2026-10-05",
-        "summaryZh": "Ghost Core：本机 agent 变成一台专用电脑",
-        "summaryEn": "Ghost Core packages local agents as a dedicated computer",
-        "deltaZh": "10月5日开放预订；具体批次、可订状态与交期以官网当前信息为准，不把动态库存状态写成持续事实",
-        "deltaEn": "Preorders opened October 5; current batches, ordering availability and delivery dates must be checked on the official site"
-      },
-      "eventSourceUrl": "https://techcrunch.com/2026/10/05/at-19-ghost-founder-raises-11-million-to-build-a-3499-computer-for-your-personal-ai",
-      "brief": {
-        "zh": {
-          "what": "无屏幕的个人 AI 电脑，售价 US$3,499，模型与记忆主打在本机运行",
-          "change": "10月5日开放预订；批次、是否可订和交期以官网当前页面为准。本轮不是已交付机器的独立评测",
-          "use": "24GB RTX PRO 4000 Blackwell GPU、64GB 内存和1TB SSD，预装开放权重模型，连接日常 app 与设备",
-          "limits": "常驻上下文和隐私是厂商主张，未独立验证；模型在本机运行，不代表外部 app 通信不出网"
-        },
-        "en": {
-          "what": "A screenless US$3,499 personal AI computer marketed for local models and memory",
-          "change": "Preorders opened October 5. Check the official page for current ordering availability and delivery dates; this is not an independent delivered-unit review",
-          "use": "It bundles a 24GB RTX PRO 4000 Blackwell GPU, 64GB RAM, 1TB SSD and preinstalled open-weight models",
-          "limits": "Continuous context and privacy are vendor claims, not independent tests. Local inference doesn't establish that external-app communications stay offline"
-        }
-      },
-      "visuals": [
-        {
-          "path": "assets/ghost-core-front.png",
-          "kind": "source-backed official product image",
-          "sourceUrl": "https://ghost.ai/",
-          "imageUrl": "https://ghost.ai/video/core-360/poster-front.webp",
-          "capturedAt": "2026-10-06T16:41:10Z",
-          "altZh": "Ghost 官方 Core 正面产品渲染",
-          "altEn": "Ghost's official front product render",
-          "captionZh": "Ghost 官方 Core 正面产品渲染",
-          "captionEn": "Ghost's official front product render",
-          "role": "product"
-        },
-        {
-          "path": "assets/ghost-core-rear.png",
-          "kind": "source-backed official product image",
-          "sourceUrl": "https://ghost.ai/",
-          "imageUrl": "https://ghost.ai/figma/core-v2/gallery-2.webp",
-          "capturedAt": "2026-10-06T16:41:10Z",
-          "altZh": "Ghost 官方机背视图：散热开孔与电源输入",
-          "altEn": "Ghost's official rear view: ventilation and power input",
-          "captionZh": "Ghost 官方机背视图：散热开孔与电源输入",
-          "captionEn": "Ghost's official rear view: ventilation and power input",
-          "role": "product"
-        }
-      ],
-      "detailPages": [
-        {
-          "id": "ghost-hardware-boundaries",
-          "zhTitle": "这台盒子承载什么",
-          "enTitle": "What the box contains",
-          "points": [
-            {
-              "zh": "CPU 为 Ryzen 5 7600；预装名单包含 Qwen 3.8-Next、Qwen 3.8-27B、Gemma 4-31B、Muse-Glimmer-30B",
-              "en": "The CPU is Ryzen 5 7600; the listed models are Qwen 3.8-Next, Qwen 3.8-27B, Gemma 4-31B and Muse-Glimmer-30B",
-              "sourceUrls": [
-                "https://ghost.ai/"
-              ]
-            },
-            {
-              "zh": "官方界面把数字生活、家庭设备和健康上下文分成三组；这展示产品意图，未证明所有连接已成熟",
-              "en": "The page groups context into digital, home and health; these illustrate product intent rather than prove every integration is mature",
-              "sourceUrls": [
-                "https://ghost.ai/"
-              ]
-            }
-          ],
-          "visuals": [
-            {
-              "path": "assets/ghost-core-assembly-frame.png",
-              "kind": "source-backed official product image",
-              "sourceUrl": "https://ghost.ai/",
-              "imageUrl": "https://ghost.ai/video/core-exploded-black/frame-000.webp",
-              "capturedAt": "2026-10-06T16:41:10Z",
-              "altZh": "官方硬件动画首帧：机箱仍处于组装状态",
-              "altEn": "First frame of the official hardware animation: the enclosure is still assembled",
-              "captionZh": "官方硬件动画首帧：机箱仍处于组装状态",
-              "captionEn": "First frame of the official hardware animation: the enclosure is still assembled",
-              "role": "product"
-            }
-          ]
-        }
-      ],
-      "media": [
-        {
-          "kind": "official-link",
-          "url": "https://x.com/zainmfj/status/2107146556176798081",
-          "sourceUrl": "https://ghost.ai/",
-          "poster": {
-            "path": "assets/ghost-core-front.png",
-            "kind": "source-backed official product image",
-            "sourceUrl": "https://ghost.ai/",
-            "imageUrl": "https://ghost.ai/video/core-360/poster-front.webp",
-            "capturedAt": "2026-10-06T16:41:10Z",
-            "altZh": "Ghost 官方 Core 正面产品渲染",
-            "altEn": "Ghost's official front product render",
-            "captionZh": "Ghost 官方 Core 正面产品渲染",
-            "captionEn": "Ghost's official front product render",
-            "role": "product"
-          },
-          "captionZh": "官方发布视频入口",
-          "captionEn": "Official launch-video link",
-          "whatToSeeZh": "产品形态与操作介绍；外链读取受限，不给出未经核验的时间点",
-          "whatToSeeEn": "Product form and interaction presentation; the external video was inaccessible, so no unverified timestamps are supplied",
-          "verifiedAt": "2026-10-06T16:42:00Z",
-          "accessNote": "X returned HTTP403 in web tool; link-only, no embed reliability or reuse permission verified"
-        }
-      ],
-      "learning": {
-        "zh": "新价值在整套上下文与设备管理；评估时把 VRAM 容量、服务连接和隐私验证分开",
-        "en": "Evaluate VRAM capacity, connected-service behavior and privacy evidence separately"
-      },
-      "zhHeadline": "Ghost Core：本机 agent 变成一台专用电脑",
-      "enHeadline": "Ghost Core packages local agents as a dedicated computer",
-      "sources": [
-        {
-          "label": "Ghost official product presentation",
-          "url": "https://ghost.ai",
-          "type": "official",
-          "publishedAt": null,
-          "verifiedAt": "2026-10-06T16:42:00Z",
-          "isPrimary": true
-        },
-        {
-          "label": "Ghost preorder opening date",
-          "url": "https://techcrunch.com/2026/10/05/at-19-ghost-founder-raises-11-million-to-build-a-3499-computer-for-your-personal-ai",
-          "type": "reviews",
-          "publishedAt": "2026-10-05",
-          "verifiedAt": "2026-10-06T16:42:00Z",
-          "isPrimary": false
-        }
-      ],
-      "evidenceLabel": "startup signal"
-    },
-    {
-      "id": "reflection-beam-announcement-2026-10-05",
-      "section": "official",
-      "event": {
-        "productKey": "reflection-beam",
-        "kind": "announcement",
-        "key": "first-open-weight-preview",
-        "occurredAt": "2026-10-05",
-        "summaryZh": "Beam：开放权重预告，先理解参数与成本的区别",
-        "summaryEn": "Beam preview: distinguish active parameters from deployment cost",
-        "deltaZh": "Reflection 发布首个模型预告与早期访问入口；权重计划本月稍后公开",
-        "deltaEn": "Reflection announces its first model and early access; weights are planned later this month"
-      },
-      "eventSourceUrl": "https://reflection.ai/blog/introducing-beam",
-      "brief": {
-        "zh": {
-          "what": "501B 总参数、每 token 激活23B 的 MoE，面向 coding 与 agent 任务",
-          "change": "10月5日开放早期访问登记，尚在最终评测；Apache 2.0 权重与报告是后续承诺",
-          "use": "官方展示生成纽约地铁实时地图，并用图表比较不同推理力度的得分与 token 用量",
-          "limits": "效率图是厂商估算，排除 prefill、注意力与服务开销；不能直接换算为用户成本"
-        },
-        "en": {
-          "what": "A 501B-total, 23B-active MoE aimed at coding and agent workloads",
-          "change": "Early-access signup opened October 5; Apache 2.0 weights and the report remain promised for later this month",
-          "use": "An official demo shows a generated NYC subway map; plots compare reasoning effort, scores and token use",
-          "limits": "Vendor compute estimates omit prefill, attention and serving overhead, so they aren't measured user costs"
-        }
-      },
-      "visuals": [
-        {
-          "path": "assets/beam-efficiency.png",
-          "kind": "source-backed official benchmark figure",
-          "sourceUrl": "https://reflection.ai/blog/introducing-beam",
-          "imageUrl": "https://cdn.sanity.io/images/sp40emik/production/421fc4392ddd11099de35443077d3a84506c82d4-1200x675.png",
-          "capturedAt": "2026-10-06T16:41:10Z",
-          "altZh": "官方推理力度图：横轴为平均生成 token，纵轴为任务得分",
-          "altEn": "Official reasoning-effort figure: generated tokens versus task score",
-          "captionZh": "官方推理力度图：横轴为平均生成 token，纵轴为任务得分",
-          "captionEn": "Official reasoning-effort figure: generated tokens versus task score",
-          "role": "comparison"
-        },
-        {
-          "path": "assets/beam-subway-poster.png",
-          "kind": "source-backed official demo frame",
-          "sourceUrl": "https://reflection.ai/blog/introducing-beam",
-          "imageUrl": "https://cdn.sanity.io/images/sp40emik/production/4b6b522c31dda5ecb59f83b9d2ae3f09ebe2d03b-1280x352.gif",
-          "capturedAt": "2026-10-06T16:41:10Z",
-          "altZh": "官方 NYC 地铁地图 demo 的首帧",
-          "altEn": "First frame of the official NYC subway-map demo",
-          "captionZh": "官方 NYC 地铁地图 demo 的首帧",
-          "captionEn": "First frame of the official NYC subway-map demo",
-          "role": "interface"
-        }
-      ],
-      "media": [
-        {
-          "kind": "gif",
-          "url": "https://cdn.sanity.io/images/sp40emik/production/4b6b522c31dda5ecb59f83b9d2ae3f09ebe2d03b-1280x352.gif",
-          "sourceUrl": "https://reflection.ai/blog/introducing-beam",
-          "poster": {
-            "path": "assets/beam-subway-poster.png",
-            "kind": "source-backed official demo frame",
-            "sourceUrl": "https://reflection.ai/blog/introducing-beam",
-            "imageUrl": "https://cdn.sanity.io/images/sp40emik/production/4b6b522c31dda5ecb59f83b9d2ae3f09ebe2d03b-1280x352.gif",
-            "capturedAt": "2026-10-06T16:41:10Z",
-            "altZh": "官方 NYC 地铁地图 demo 的首帧",
-            "altEn": "First frame of the official NYC subway-map demo",
-            "captionZh": "官方 NYC 地铁地图 demo 的首帧",
-            "captionEn": "First frame of the official NYC subway-map demo",
-            "role": "interface"
-          },
-          "captionZh": "官方展示 Beam 制作的纽约地铁地图",
-          "captionEn": "Official demonstration of a subway map created with Beam",
-          "whatToSeeZh": "地图缩放后看列车/线路标记的变化；这是厂商挑选的输出示例",
-          "whatToSeeEn": "Watch the map zoom and line/train markers change; this is a vendor-selected output example",
-          "verifiedAt": "2026-10-06T16:42:00Z",
-          "reuseNote": "Official public asset; embedding/reuse terms not independently confirmed. Use click-to-play and static fallback.",
-          "durationSeconds": 9,
-          "keyframes": [
-            {
-              "path": "assets/beam-subway-poster.png",
-              "frameIndex": 0,
-              "timestampSeconds": 0
-            },
-            {
-              "path": "assets/beam-subway-middle.png",
-              "frameIndex": 67,
-              "timestampSeconds": 4.47
-            }
-          ]
-        }
-      ],
-      "learning": {
-        "zh": "MoE 的激活参数影响每步计算，总参数仍影响存储；更少 token 也不等于按比例降价",
-        "en": "Active parameters affect per-step compute; total weights still affect storage, and fewer tokens don't imply proportional price savings"
-      },
-      "zhHeadline": "Beam：开放权重预告，先理解参数与成本的区别",
-      "enHeadline": "Beam preview: distinguish active parameters from deployment cost",
-      "sources": [
-        {
-          "label": "Reflection: Introducing Beam",
-          "url": "https://reflection.ai/blog/introducing-beam",
-          "type": "official",
-          "publishedAt": "2026-10-05",
-          "verifiedAt": "2026-10-06T16:42:00Z",
-          "isPrimary": true
-        }
-      ],
-      "evidenceLabel": "developer surface"
-    },
-    {
-      "id": "bazaarbench-preprint-2026-10-05",
-      "section": "research",
-      "event": {
-        "productKey": "bazaarbench",
-        "kind": "paper-publication",
-        "key": "arxiv-2610-06748-v1",
-        "occurredAt": "2026-10-05",
-        "summaryZh": "BazaarBench：成交完成，为什么仍可能是失败",
-        "summaryEn": "BazaarBench asks why completed trades can still be unsafe",
-        "deltaZh": "10月5日预印本发布持续状态的多 agent 二手市场安全基准与代码/数据",
-        "deltaEn": "The October 5 preprint releases a persistent-state marketplace safety benchmark with code and data"
-      },
-      "eventSourceUrl": "https://arxiv.org/html/2610.06748v1",
-      "brief": {
-        "zh": {
-          "what": "King’s College London、Oxford 等团队的新预印本，测试 agent 代人交易",
-          "change": "五个模型、45组模拟续跑；普通指令下都尝试把同一物品许给多个买家",
-          "use": "把库存、品质和承诺记录与完成率一起检查，区分‘做成任务’与‘守住约束’",
-          "limits": "模拟市场，不是现实诈骗比例；部分标签依赖 LLM 判定，论文尚未确立长期影响"
-        },
-        "en": {
-          "what": "A new King's College London/Oxford-linked preprint tests agents trading for users",
-          "change": "Across five models and 45 simulated continuations, all attempted double commitments under ordinary instructions",
-          "use": "Check inventory, condition and prior promises alongside task completion",
-          "limits": "A simulated marketplace, not a real-world fraud rate; some labels use an LLM judge. Its long-term influence is not established"
-        }
-      },
-      "visuals": [
-        {
-          "path": "assets/bazaarbench-overview.png",
-          "kind": "source-backed research paper figure",
-          "sourceUrl": "https://arxiv.org/html/2610.06748v1",
-          "imageUrl": "https://arxiv.org/html/2610.06748v1/fig1_overview.png",
-          "capturedAt": "2026-10-06T16:41:10Z",
-          "altZh": "论文图1：市场、库存记录、agent 动作与安全判定流程",
-          "altEn": "Paper Figure 1: market, inventory records, agent actions and safety checks",
-          "captionZh": "论文图1：市场、库存记录、agent 动作与安全判定流程",
-          "captionEn": "Paper Figure 1: market, inventory records, agent actions and safety checks",
-          "role": "interaction"
-        }
-      ],
-      "detailPages": [
-        {
-          "id": "bazaar-records-before-reward",
-          "zhTitle": "怎样读懂这项实验",
-          "enTitle": "Read the experiment carefully",
-          "points": [
-            {
-              "zh": "每个基础市场有100个 agent；续跑保留历史，只替换同一组20个 agent 的模型与指令",
-              "en": "Each base market has 100 agents; continuations preserve histories while changing the same 20 agents' model and instructions",
-              "sourceUrls": [
-                "https://arxiv.org/html/2610.06748v1"
-              ]
-            },
-            {
-              "zh": "平台没有自动为已接受 offer 锁定库存，因此测试的责任是 agent 自己避免冲突承诺",
-              "en": "Accepting an offer doesn't automatically reserve stock, so avoiding conflicting promises is the agent's responsibility",
-              "sourceUrls": [
-                "https://arxiv.org/html/2610.06748v1"
-              ]
-            }
-          ],
-          "visuals": [
-            {
-              "path": "assets/bazaarbench-overview.png",
-              "kind": "source-backed research paper figure",
-              "sourceUrl": "https://arxiv.org/html/2610.06748v1",
-              "imageUrl": "https://arxiv.org/html/2610.06748v1/fig1_overview.png",
-              "capturedAt": "2026-10-06T16:41:10Z",
-              "altZh": "论文图1：市场、库存记录、agent 动作与安全判定流程",
-              "altEn": "Paper Figure 1: market, inventory records, agent actions and safety checks",
-              "captionZh": "论文图1：市场、库存记录、agent 动作与安全判定流程",
-              "captionEn": "Paper Figure 1: market, inventory records, agent actions and safety checks",
-              "role": "interaction"
-            }
-          ]
-        }
-      ],
-      "learning": {
-        "zh": "交易按钮返回成功，只证明平台接受了动作，不证明商品与承诺真实",
-        "en": "A successful transaction response proves platform acceptance, not truthful goods or commitments"
-      },
-      "zhHeadline": "BazaarBench：成交完成，为什么仍可能是失败",
-      "enHeadline": "BazaarBench asks why completed trades can still be unsafe",
-      "sources": [
-        {
-          "label": "BazaarBench arXiv record",
-          "url": "https://arxiv.org/abs/2610.06748",
-          "type": "research",
-          "publishedAt": "2026-10-05T17:26:17Z",
-          "verifiedAt": "2026-10-06T16:42:00Z",
-          "isPrimary": true
-        },
-        {
-          "label": "BazaarBench full paper",
-          "url": "https://arxiv.org/html/2610.06748v1",
-          "type": "research",
-          "publishedAt": "2026-10-05",
-          "verifiedAt": "2026-10-06T16:42:00Z",
-          "isPrimary": true
-        }
-      ],
-      "evidenceLabel": "research signal"
-    },
-    {
-      "id": "hyperframes-studio-desktop-v0-8-137-2026-10-06",
-      "section": "wild",
-      "event": {
-        "productKey": "heygen-hyperframes-studio",
-        "kind": "release",
-        "version": "0.8.137",
-        "occurredAt": "2026-10-06",
-        "summaryZh": "桌面视频编辑器的新版本更新了预览与音频反馈",
-        "summaryEn": "A desktop video editor update improves preview loading and audio feedback",
-        "deltaZh": "10月6日 v0.8.137 减少含大型内联图像或脚本的合成预览加载内存，并标示音频导出峰值过高；桌面入口在10月5日进入官方文档",
-        "deltaEn": "October 6 v0.8.137 reduces preview-loading memory for large inline images/scripts and flags excessive export peaks; desktop setup docs landed October 5"
-      },
-      "eventSourceUrl": "https://github.com/heygen-com/hyperframes/releases/tag/v0.8.137",
-      "brief": {
-        "zh": {
-          "what": "HeyGen 的 HyperFrames 桌面编辑器，让编码 agent 与人编辑同一视频工程",
-          "change": "今日 v0.8.137 降低大型内联资源的预览加载内存，增加音频过响提示；10月5日官方文档新增桌面入口",
-          "use": "描述视频后，可在画面上圈选、绘画、贴评论，或直接调整时间线，再把一组修改交给 agent",
-          "limits": "官方安装指南覆盖 macOS 与 Linux x86_64，需要 HeyGen 登录和自己的 agent；未验证 Windows 下载"
-        },
-        "en": {
-          "what": "HeyGen's desktop editor lets a coding agent and a person work on one video project",
-          "change": "Today's v0.8.137 reduces preview-loading memory for large inline assets and flags excessive audio peaks; desktop setup guides arrived October 5",
-          "use": "Describe a cut, then point, draw, comment on a frame or adjust the timeline before sending grouped edits to the agent",
-          "limits": "Official setup covers macOS and Linux x86_64, with HeyGen sign-in and your own agent; a Windows download wasn't verified"
-        }
-      },
-      "visuals": [
-        {
-          "path": "assets/hyperframes-home.png",
-          "kind": "source-backed official UI screenshot",
-          "sourceUrl": "https://hyperframes.heygen.com/studio-app",
-          "imageUrl": "https://mintcdn.com/hyperframes/_6VyncuVwS2Xkc8Q/public/images/studio-app/home.jpg?fit=max&auto=format&n=_6VyncuVwS2Xkc8Q&q=85&s=2c56b44dd2ac72bfa822533c8e210617",
-          "capturedAt": "2026-10-06T15:39:30Z",
-          "altZh": "HyperFrames Studio 官方 Home 界面，包含提示框与工程列表",
-          "altEn": "Official HyperFrames Studio Home screen with prompt box and project list",
-          "captionZh": "官方 Home 截图：从提示框开始，左侧列出视频工程",
-          "captionEn": "Official Home screenshot: begin with a prompt, with projects listed on the left",
-          "role": "interface"
-        }
-      ],
-      "zhHeadline": "HyperFrames Studio：人和 agent 共用时间线，今天修复预览内存问题",
-      "enHeadline": "HyperFrames Studio shares the timeline; today's patch improves preview memory",
-      "sources": [
-        {
-          "label": "HyperFrames v0.8.137 release notes",
-          "url": "https://github.com/heygen-com/hyperframes/releases/tag/v0.8.137",
-          "type": "developer docs",
-          "publishedAt": "2026-10-06",
-          "verifiedAt": "2026-10-06T15:43:48Z",
-          "isPrimary": true
-        },
-        {
-          "label": "HyperFrames v0.8.134: desktop app documentation",
-          "url": "https://github.com/heygen-com/hyperframes/releases/tag/v0.8.134",
-          "type": "developer docs",
-          "publishedAt": "2026-10-05",
-          "verifiedAt": "2026-10-06T15:43:48Z",
-          "isPrimary": true
-        },
-        {
-          "label": "Official desktop app guide",
-          "url": "https://hyperframes.heygen.com/studio-app",
-          "type": "developer docs",
-          "publishedAt": null,
-          "verifiedAt": "2026-10-06T15:41:30Z",
-          "isPrimary": true
-        },
-        {
-          "label": "Official visual edit workflow",
-          "url": "https://hyperframes.heygen.com/studio-app/edit-with-the-agent",
-          "type": "developer docs",
-          "publishedAt": null,
-          "verifiedAt": "2026-10-06T15:41:30Z",
-          "isPrimary": true
-        }
-      ],
-      "evidenceLabel": "developer surface"
-    },
-    {
-      "id": "cua-driver-motion-0-34-0-2026-10-05",
-      "section": "wild",
-      "event": {
-        "productKey": "cua-driver",
-        "kind": "release",
-        "key": "0.34.0",
-        "occurredAt": "2026-10-05",
-        "summaryZh": "Cua Driver：让 agent 的光标动作更容易被看懂",
-        "summaryEn": "Cua Driver makes agent cursor motion easier to read",
-        "deltaZh": "0.34.0 新增六种光标运动样式，可按会话或默认配置选择",
-        "deltaEn": "Version 0.34.0 adds six cursor-motion styles configurable per session or as a default"
-      },
-      "eventSourceUrl": "https://github.com/trycua/cua/releases/tag/cua-driver-rs-v0.34.0",
-      "brief": {
-        "zh": {
-          "what": "agent 操作桌面时的可见光标叠层",
-          "change": "新增 signature arc、spring settle、magnetic、comet swoop、adaptive、classic 六种样式",
-          "use": "用轨迹、点击反馈与会话标记，让观察者理解正在操作的目标与阶段",
-          "limits": "它是视觉提示，不是授权凭据；减少动态效果设置会覆盖动画。没有独立证据证明它提升操作准确率"
-        },
-        "en": {
-          "what": "A visible cursor overlay for agents operating desktops",
-          "change": "Six styles include signature arc, spring settle, magnetic, comet swoop, adaptive and classic",
-          "use": "Motion, click feedback and session labels can clarify the action being observed",
-          "limits": "A visual aid, not an authorization credential. Reduced-motion settings override effects; improved task accuracy wasn't independently established"
-        }
-      },
-      "visualMissing": {
-        "zh": "未取得可核验的功能图，保留来源与能力边界",
-        "en": "No verified feature image was obtained; sources and capability boundaries are preserved"
-      },
-      "learning": {
-        "zh": "让行为可见与允许行为执行，是两层不同的产品责任",
-        "en": "Making actions legible and authorizing them are separate product responsibilities"
-      },
-      "zhHeadline": "Cua Driver：让 agent 的光标动作更容易被看懂",
-      "enHeadline": "Cua Driver makes agent cursor motion easier to read",
-      "sources": [
-        {
-          "label": "Cua Driver 0.34.0 release",
-          "url": "https://github.com/trycua/cua/releases/tag/cua-driver-rs-v0.34.0",
-          "type": "developer docs",
-          "publishedAt": "2026-10-05T22:30:00Z",
-          "verifiedAt": "2026-10-06T16:42:00Z",
-          "isPrimary": true
-        },
-        {
-          "label": "Official cursor-motion guide",
-          "url": "https://cua.ai/docs/cua-driver/guides/operate",
-          "type": "developer docs",
-          "publishedAt": null,
-          "verifiedAt": "2026-10-06T16:42:00Z",
-          "isPrimary": true
-        }
-      ],
-      "evidenceLabel": "developer surface"
-    },
-    {
-      "id": "learnsched-preprint-2026-10-05",
-      "section": "research",
-      "event": {
-        "productKey": "learnsched",
-        "kind": "paper-publication",
-        "key": "arxiv-2610-06212-v1",
-        "occurredAt": "2026-10-05",
-        "summaryZh": "LearnSched：空闲 GPU 也未必应该立即自我进化",
-        "summaryEn": "LearnSched: idle GPUs need not immediately self-improve",
-        "deltaZh": "10月5日预印本把能力收益、检查点与服务恢复成本纳入同一调度判断",
-        "deltaEn": "The October 5 preprint jointly models capability benefits, checkpoints and service-recovery costs"
-      },
-      "eventSourceUrl": "https://arxiv.org/abs/2610.06212",
-      "brief": {
-        "zh": {
-          "what": "Yangbo Wei 等九位作者研究 agent 服务与能力演化共享 GPU 的调度",
-          "change": "LearnSched 对进度、检查点和恢复状态做选择；评估包含1920组配对有限模型场景",
-          "use": "先计算能力能被复用多久，再决定后台改进何时值得启动或暂停",
-          "limits": "不是部署效果保证；热恢复场景中，较简单的窗口策略已取得同等价值"
-        },
-        "en": {
-          "what": "Yangbo Wei and eight co-authors study GPU sharing between agent service and self-improvement",
-          "change": "LearnSched accounts for progress, checkpoints and recovery across 1,920 paired finite-model scenarios",
-          "use": "Estimate the reuse window before starting or pausing background improvement",
-          "limits": "Not a production deployment guarantee; a simpler window policy matches value in evaluated warm-recovery cases"
-        }
-      },
-      "visualMissing": {
-        "zh": "未取得可核验的功能图，保留来源与能力边界",
-        "en": "No verified feature image was obtained; sources and capability boundaries are preserved"
-      },
-      "learning": {
-        "zh": "机器空着不等于工作免费：暂停后的内存释放与服务恢复也消耗时间",
-        "en": "Idle capacity isn't free work: memory release and service recovery also consume time"
-      },
-      "zhHeadline": "LearnSched：空闲 GPU 也未必应该立即自我进化",
-      "enHeadline": "LearnSched: idle GPUs need not immediately self-improve",
-      "sources": [
-        {
-          "label": "LearnSched arXiv record",
-          "url": "https://arxiv.org/abs/2610.06212",
-          "type": "research",
-          "publishedAt": "2026-10-05T12:22:40Z",
-          "verifiedAt": "2026-10-06T16:42:00Z",
-          "isPrimary": true
-        }
-      ],
-      "evidenceLabel": "research signal"
-    },
-    {
-      "id": "clockwork-torchpass-snapshots-2026-10-06",
-      "section": "global",
-      "event": {
-        "productKey": "clockwork-torchpass",
-        "kind": "feature-release",
-        "key": "multi-node-platform-snapshots-async-checkpoints",
-        "occurredAt": "2026-10-06",
-        "summaryZh": "Clockwork：保护的是整项 AI 工作的进度",
-        "summaryEn": "Clockwork protects a running AI job's progress",
-        "deltaZh": "10月6日公司发布多节点平台快照与异步应用检查点，并宣布 US$31M 新融资",
-        "deltaEn": "The October 6 company release introduces multi-node platform snapshots and asynchronous application checkpoints, alongside US$31M funding"
-      },
-      "eventSourceUrl": "https://hpcwire.com/off-the-wire/clockwork-io-announces-31m-in-funding-and-deployments-at-linkedin-and-together-ai",
-      "brief": {
-        "zh": {
-          "what": "在硬件与 AI 工作之间提供故障容错的软件层",
-          "change": "新快照捕获分布式工作各节点状态；异步检查点在工作继续时保存进度",
-          "use": "大型训练、推理和 RL 工作遇到 GPU/网络故障时，减少重跑；公司披露 LinkedIn、Together AI 部署",
-          "limits": "US$31M 轮次名称未披露；不同故障与工作栈仍需验证，不把厂商收益当作普遍保证"
-        },
-        "en": {
-          "what": "A software fault-tolerance layer between AI jobs and hardware",
-          "change": "New snapshots capture distributed node state; asynchronous checkpoints preserve progress while work continues",
-          "use": "Reduce repeated computation after GPU/network failures; LinkedIn and Together AI deployments are company-reported",
-          "limits": "The US$31M round's stage isn't specified. Results depend on failure mode and workload; vendor gains aren't universal guarantees"
-        }
-      },
-      "visualMissing": {
-        "zh": "未取得可核验的功能图，保留来源与能力边界",
-        "en": "No verified feature image was obtained; sources and capability boundaries are preserved"
-      },
-      "learning": {
-        "zh": "比 GPU 利用率更有意义的是 goodput：最终保留下来的有效计算",
-        "en": "Goodput measures useful computation retained, rather than activity alone"
-      },
-      "zhHeadline": "Clockwork：保护的是整项 AI 工作的进度",
-      "enHeadline": "Clockwork protects a running AI job's progress",
-      "sources": [
-        {
-          "label": "Clockwork company-issued release",
-          "url": "https://hpcwire.com/off-the-wire/clockwork-io-announces-31m-in-funding-and-deployments-at-linkedin-and-together-ai",
-          "type": "official",
-          "publishedAt": "2026-10-06",
-          "verifiedAt": "2026-10-06T16:42:00Z",
-          "isPrimary": true
-        },
-        {
-          "label": "Clockwork TorchPass official product",
-          "url": "https://clockwork.io/workload-failover",
-          "type": "official",
-          "publishedAt": null,
-          "verifiedAt": "2026-10-06T16:42:00Z",
-          "isPrimary": true
-        }
-      ],
-      "evidenceLabel": "confirmed product"
-    },
-    {
-      "id": "safeworld-seed-platform-2026-10-05",
-      "section": "wild",
-      "event": {
-        "productKey": "safeworld",
-        "kind": "funding-announcement",
-        "key": "usd-12-2m-seed-stealth-exit",
-        "occurredAt": "2026-10-05",
-        "summaryZh": "SafeWorld：资金流向机器人上场前的安全测试",
-        "summaryEn": "SafeWorld funds the testing layer before robots meet people",
-        "deltaZh": "公司10月5日宣布退出隐身与 US$12.2M 种子轮，同时描述浏览器安全情景生成平台",
-        "deltaEn": "The October 5 company release announces a US$12.2M seed round and a browser-based safety-scenario platform"
-      },
-      "eventSourceUrl": "https://webwire.com/ViewPressRel.asp?aId=361384",
-      "brief": {
-        "zh": {
-          "what": "为人机共处环境提供机器人安全仿真工具",
-          "change": "US$12.2M seed，由 Shine Capital 与 a16z Speedrun 共同领投",
-          "use": "从事故、标准与机器人日志在浏览器构建场景，再用不同人类运动轨迹反复测试",
-          "limits": "公司披露早期试点与访问申请；仿真覆盖不是安全认证或现实零事故保证"
-        },
-        "en": {
-          "what": "Robot safety-simulation tools for environments shared with people",
-          "change": "A US$12.2M seed round co-led by Shine Capital and a16z Speedrun was announced October 5",
-          "use": "Build browser scenarios from incidents, standards and robot logs, then repeat them with varied human motion",
-          "limits": "The company describes early pilots and request-access availability; simulation coverage is not certification or a guarantee of zero physical incidents"
-        }
-      },
-      "visualMissing": {
-        "zh": "未取得可核验的功能图，保留来源与能力边界",
-        "en": "No verified feature image was obtained; sources and capability boundaries are preserved"
-      },
-      "learning": {
-        "zh": "机器人产业的新机会不只在机器人本体，也在持续验证每次软件更新",
-        "en": "The product opportunity includes continuously testing robot software updates, not only building robots"
-      },
-      "zhHeadline": "SafeWorld：资金流向机器人上场前的安全测试",
-      "enHeadline": "SafeWorld funds the testing layer before robots meet people",
-      "sources": [
-        {
-          "label": "Company-issued SafeWorld launch release",
-          "url": "https://webwire.com/ViewPressRel.asp?aId=361384",
-          "type": "official",
-          "publishedAt": "2026-10-05",
-          "verifiedAt": "2026-10-06T16:42:00Z",
-          "isPrimary": true
-        },
-        {
-          "label": "SafeWorld official platform",
-          "url": "https://safeworld.ai",
-          "type": "official",
-          "publishedAt": null,
-          "verifiedAt": "2026-10-06T16:42:00Z",
-          "isPrimary": true
-        }
-      ],
-      "evidenceLabel": "startup signal"
-    },
-    {
-      "id": "reka-rho-1-research-preview-2026-10-05",
-      "section": "research",
-      "event": {
-        "productKey": "reka-rho",
-        "kind": "research-preview",
-        "version": "1",
-        "occurredAt": "2026-10-05",
-        "summaryZh": "Reka 公开可实时引导的视觉/动作研究原型",
-        "summaryEn": "Reka unveils a steerable visual/action research prototype",
-        "deltaZh": "10月5日研究预览把连续视频生成、指令理解与机器人动作通道放进同一模型；示例为模拟环境",
-        "deltaEn": "The October 5 preview combines continuous video generation, instructions and robot action channels in one model; shown robotics examples are simulated"
-      },
-      "eventSourceUrl": "https://reka.ai/labs/research/rho-1-collapsing-the-multimodal-stack",
-      "brief": {
-        "zh": {
-          "what": "Reka 的 19B 多模态研究原型，演示理解、生成视频与动作的闭环",
-          "change": "可在持续生成的视频中插入指令；机器人示例展示 LIBERO 模拟中的观察、预测腕部视图与动作通道",
-          "use": "作为交互模拟环境和视觉—动作研究的方向；官方通过联系团队讨论合作",
-          "limits": "不是成品机器人或验证过的实地部署；长序列会结构漂移，视频定位与编辑仍脆弱，原生视频上限672×384"
-        },
-        "en": {
-          "what": "Reka's 19B research prototype demonstrates a shared loop for understanding, video generation and actions",
-          "change": "Instructions can steer a continuous generated scene; robotics examples expose observations, predicted wrist views and action channels in LIBERO simulation",
-          "use": "A direction for interactive simulation and vision-action research, with access/collaboration through the team's contact route",
-          "limits": "Not a finished robot or proven physical deployment. Long rollouts drift structurally, temporal grounding/editing remain brittle, and native video is capped at 672×384"
-        }
-      },
-      "visualMissing": {
-        "zh": "官方演示包含模拟视频，但本轮未取得可核验的图像文件；不可冒充实物机器人照片",
-        "en": "Official demonstrations contain simulated video, but no verifiable image file was obtained; they must not be presented as physical robot photographs"
-      },
-      "zhHeadline": "Rho-1 研究预览：边看、边生成、边接收动作指令",
-      "enHeadline": "Rho-1 research preview connects live visual generation and action",
-      "sources": [
-        {
-          "label": "Reka Labs: Rho-1 preview",
-          "url": "https://reka.ai/labs/research/rho-1-collapsing-the-multimodal-stack",
-          "type": "research",
-          "publishedAt": "2026-10-05",
-          "verifiedAt": "2026-10-06T15:41:30Z",
-          "isPrimary": true
-        }
-      ],
-      "evidenceLabel": "research signal"
-    },
-    {
-      "id": "cohere-north-2-platform-release-2026-10-05",
-      "section": "official",
-      "event": {
-        "productKey": "cohere-north",
-        "kind": "release",
-        "version": "2",
-        "occurredAt": "2026-10-05",
-        "summaryZh": "Cohere 发布 North 2 企业 agent 平台升级",
-        "summaryEn": "Cohere launches the North 2 enterprise-agent platform upgrade",
-        "deltaZh": "10月5日发布重构的 agent 编排、跨会话记忆和更细的管理员配额/花费限制",
-        "deltaEn": "October 5 adds a rebuilt agent harness, cross-session memory and finer administrator quotas/spending limits"
-      },
-      "eventSourceUrl": "https://cohere.com/blog/introducing-north-2",
-      "brief": {
-        "zh": {
-          "what": "面向企业知识与工具的 Cohere North 2 agent 平台",
-          "change": "重构多步编排，加入可共享 agent、记忆、skills、资料库，以及管理员配额与花费控制",
-          "use": "用自然语言建立自动化，并在可视化工作流中组织步骤；在 chat 中制作文档或轻量应用",
-          "limits": "销售咨询/演示入口，具体价格与各客户启用日期未说明；金融数据连接器有些仍属计划"
-        },
-        "en": {
-          "what": "Cohere's North 2 is an enterprise agent workspace connected to company knowledge and tools",
-          "change": "The October 5 upgrade adds rebuilt orchestration, shareable agents, memory, skills, libraries and finer quotas/spending controls",
-          "use": "Build automations from prompts and visual workflows, or create documents and lightweight apps in chat",
-          "limits": "Access is sales/demo-led; pricing and customer-specific activation dates aren't stated. Some financial-data connectors remain planned"
-        }
-      },
-      "visuals": [
-        {
-          "path": "assets/north-discover.png",
-          "kind": "source-backed official interface illustration",
-          "sourceUrl": "https://cohere.com/north",
-          "imageUrl": "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/411ab61c4837b57b14a6c38dfd98961dd72b5772-620x480.png?auto=format&fit=max&q=80&w=620",
-          "capturedAt": "2026-10-06T15:48:14Z",
-          "altZh": "North 官方 Discover 界面示意图",
-          "altEn": "Official North Discover interface illustration",
-          "captionZh": "官方界面示意：连接资料与工具的 Finance Agent；数值为演示内容",
-          "captionEn": "Official interface illustration: connected knowledge and tools; figures are demo content",
-          "role": "interface"
-        },
-        {
-          "path": "assets/north-create.png",
-          "kind": "source-backed official interface illustration",
-          "sourceUrl": "https://cohere.com/north",
-          "imageUrl": "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/445cc9bf798b266625372e4921357a9bcdb14482-620x480.png?auto=format&fit=max&q=80&w=620",
-          "capturedAt": "2026-10-06T15:48:14Z",
-          "altZh": "North 官方 Create 界面示意图",
-          "altEn": "Official North Create interface illustration",
-          "captionZh": "官方界面示意：创建并导出文档；数值为演示内容",
-          "captionEn": "Official interface illustration: document creation and export; figures are demo content",
-          "role": "interface"
-        },
-        {
-          "path": "assets/north-automate.png",
-          "kind": "source-backed official interface illustration",
-          "sourceUrl": "https://cohere.com/north",
-          "imageUrl": "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/a352f8c83fd1243258c834cf197a0a194d93b18d-620x480.png?auto=format&fit=max&q=80&w=620",
-          "capturedAt": "2026-10-06T15:48:14Z",
-          "altZh": "North 官方 Automate 界面示意图",
-          "altEn": "Official North Automate interface illustration",
-          "captionZh": "官方界面示意：配置周期自动化；数值为演示内容",
-          "captionEn": "Official interface illustration: recurring automation setup; figures are demo content",
-          "role": "interaction"
-        }
-      ],
-      "zhHeadline": "North 2：可复用 agent、可视化流程与花费上限进入同一工作台",
-      "enHeadline": "North 2 brings reusable agents, workflows and spending limits into one workspace",
-      "sources": [
-        {
-          "label": "Cohere: Introducing North 2",
-          "url": "https://cohere.com/blog/introducing-north-2",
-          "type": "official",
-          "publishedAt": "2026-10-05",
-          "verifiedAt": "2026-10-06T15:41:30Z",
-          "isPrimary": true
-        }
-      ],
-      "evidenceLabel": "confirmed product"
-    },
-    {
-      "id": "claude-cowork-pro-max-cloud-effective-2026-10-06",
-      "section": "official",
-      "event": {
-        "productKey": "anthropic-claude-cowork",
-        "kind": "availability-change",
-        "key": "pro-max-new-tasks-cloud-only-effective-2026-10-06",
-        "occurredAt": "2026-10-06",
-        "summaryZh": "Pro/Max 新 Cowork 任务的执行位置改变",
-        "summaryEn": "The execution location changes for new Pro/Max Cowork tasks",
-        "deltaZh": "官方明确10月6日移除 Only on your computer 选项；已有本机任务保持原位",
-        "deltaEn": "The official guide explicitly removes the Only on your computer option on October 6; existing local tasks remain local"
-      },
-      "eventSourceUrl": "https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile",
-      "brief": {
-        "zh": {
-          "what": "Claude 的长任务工作方式，官方指明 Pro/Max 今天切换新任务执行位置",
-          "change": "新任务在云端运行，移除本机专属选项；已启动的本机任务仍可继续",
-          "use": "云端任务可在合上电脑后继续，也能跨桌面、网页和手机查看；不依赖本机文件的定时任务无需设备在线",
-          "limits": "访问本机文件仍需桌面 app 打开，并限已连接文件夹；本机项目和定时任务不能直接迁入 Claude Code"
-        },
-        "en": {
-          "what": "Claude's long-running task workflow changes execution location for Pro/Max today",
-          "change": "New tasks run in the cloud and the local-only option disappears; already-started local tasks can continue",
-          "use": "Cloud work can continue with a closed laptop and be reviewed across desktop, web and mobile; schedules without local dependencies need no online device",
-          "limits": "Local files still require an open desktop app and connected folders. Local projects and schedules don't transfer directly to Claude Code"
-        }
-      },
-      "visualMissing": {
-        "zh": "该官方变更说明没有可确认的新界面截图，保留文字证据与生效日期",
-        "en": "The official change notice provides no confirmed new-interface screenshot; the explicit effective date is preserved"
-      },
-      "zhHeadline": "Claude Cowork：Pro/Max 新任务今天改为云端执行",
-      "enHeadline": "Claude Cowork moves new Pro/Max tasks to the cloud today",
-      "sources": [
-        {
-          "label": "Claude Help: Pro/Max October 6 change",
-          "url": "https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile",
-          "type": "official",
-          "publishedAt": null,
-          "verifiedAt": "2026-10-06T15:41:30Z",
-          "isPrimary": true,
-          "dateEvidence": {
-            "kind": "effective-date",
-            "date": "2026-10-06",
-            "quote": "On October 6, 2026, new Cowork tasks on Pro and Max plans run in the cloud."
-          },
-          "publicationDateNote": "Absolute publication date is not stated; page says Updated this week. Effective date is explicit."
-        }
-      ],
-      "evidenceLabel": "confirmed product"
-    },
-    {
-      "id": "tiktok-ads-mcp-connector-expansion-2026-10-05",
-      "section": "global",
-      "event": {
-        "productKey": "tiktok-for-business-mcp",
-        "kind": "availability-change",
-        "key": "claude-kimi-manus-perplexity-replit-snowflake-workbuddy-iab-connectors-2026-10-05",
-        "occurredAt": "2026-10-05",
-        "summaryZh": "TikTok 扩展广告 MCP 的平台连接入口",
-        "summaryEn": "TikTok expands platform connector entry points for its advertising MCP",
-        "deltaZh": "10月5日官方明确 MCP 现可作为连接器进入 Claude、Kimi、Manus、Perplexity、Replit、Snowflake、腾讯 WorkBuddy 与 IAB Agent Registry",
-        "deltaEn": "The October 5 source explicitly makes TikTok MCP available as a connector through Claude, Kimi, Manus, Perplexity, Replit, Snowflake, Tencent WorkBuddy and the IAB Agent Registry"
-      },
-      "eventSourceUrl": "https://newsroom.tiktok.com/tiktok-unveils-ai-powered-updates-for-advertisers-driving-discovery-action-and-measurable-business-outcomes?lang=en",
-      "brief": {
-        "zh": {
-          "what": "TikTok for Business MCP 把广告生态操作开放给 agent 工具",
-          "change": "10月5日新闻稿明确扩展 Claude、Kimi、Manus、Perplexity、Replit、Snowflake、腾讯 WorkBuddy 与 IAB 注册表连接入口",
-          "use": "开发者与广告团队可在已有 agent 工作流中规划、创建和管理 TikTok 广告",
-          "limits": "这不是广告 MCP 首发；各平台账号权限、地区与功能差异未详列。购物助手先前9月29日已有介绍，不当作今日新增功能"
-        },
-        "en": {
-          "what": "TikTok for Business MCP exposes advertising workflows to agent tools",
-          "change": "The October 5 announcement explicitly lists connector availability in Claude, Kimi, Manus, Perplexity, Replit, Snowflake, Tencent WorkBuddy and the IAB registry",
-          "use": "Developers and ad teams can plan, launch and manage TikTok campaigns from existing agent workspaces",
-          "limits": "This is connector expansion, not MCP’s original launch. Platform permissions, geographic coverage and feature differences aren't detailed. Shopping Assistant was already described September 29 and is background"
-        }
-      },
-      "visualMissing": {
-        "zh": "已核验官方连接器名单，未取得新增连接入口的可确认 UI 文件",
-        "en": "The official connector list is verified, but no confirmed UI file of the expanded entry points was obtained"
-      },
-      "zhHeadline": "TikTok Ads MCP：广告操作进入更多 agent 工作台",
-      "enHeadline": "TikTok Ads MCP expands into more agent workspaces",
-      "sources": [
-        {
-          "label": "TikTok Newsroom: October 5 advertiser updates",
-          "url": "https://newsroom.tiktok.com/tiktok-unveils-ai-powered-updates-for-advertisers-driving-discovery-action-and-measurable-business-outcomes?lang=en",
-          "type": "official",
-          "publishedAt": "2026-10-05",
-          "verifiedAt": "2026-10-06T15:41:30Z",
-          "isPrimary": true
-        },
-        {
-          "label": "TikTok Japan Sept29: earlier shopping-assistant description",
-          "url": "https://newsroom.tiktok.com/tiktok-ad-awards-2026-japan5?lang=ja-JP",
-          "type": "official",
-          "publishedAt": "2026-09-29",
-          "verifiedAt": "2026-10-06T15:36:24Z",
-          "isPrimary": true
-        }
-      ],
-      "evidenceLabel": "developer surface"
-    },
-    {
-      "id": "sap-joule-work-customer-rollout-2026-10-06",
-      "section": "official",
-      "event": {
-        "productKey": "sap-joule-work",
-        "kind": "availability-change",
-        "key": "customer-rollout-sap-connect-2026",
-        "occurredAt": "2026-10-06",
-        "summaryZh": "Joule Work：从已宣布的界面走向客户 rollout",
-        "summaryEn": "Joule Work begins customer rollout of its outcome interface",
-        "deltaZh": "10月6日 SAP 明确 Joule Work 开始客户 rollout；不是5月概念发布的重复",
-        "deltaEn": "SAP explicitly begins Joule Work customer rollout October 6, rather than re-announcing the May concept"
-      },
-      "eventSourceUrl": "https://news.sap.com/2026/10/sap-connect-sap-puts-autonomous-enterprise-to-work",
-      "brief": {
-        "zh": {
-          "what": "用自然语言跨 SAP 与第三方数据执行工作的企业界面",
-          "change": "客户 rollout 开始；官方说明选定客户已使用，仍要区分试点与普遍开放",
-          "use": "Joule Assistants 使用既有授权和审计轨迹执行业务流程，客户控制自治程度",
-          "limits": "厂商生产率数字是自身披露；新闻稿未列出所有客户的可用日期"
-        },
-        "en": {
-          "what": "An enterprise interface for natural-language work across SAP and third-party data",
-          "change": "Customer rollout begins; selected customers already use it, distinct from universal availability",
-          "use": "Joule Assistants execute workflows under existing permissions and audit trails, with customer-controlled autonomy",
-          "limits": "Productivity figures are vendor-reported; all customers' activation dates aren't listed"
-        }
-      },
-      "visualMissing": {
-        "zh": "未取得可核验的功能图，保留来源与能力边界",
-        "en": "No verified feature image was obtained; sources and capability boundaries are preserved"
-      },
-      "learning": {
-        "zh": "企业 agent 的新入口要同时承接数据上下文、权限与可审计的动作",
-        "en": "Enterprise agent interfaces must carry data context, permissions and auditable actions together"
-      },
-      "zhHeadline": "Joule Work：从已宣布的界面走向客户 rollout",
-      "enHeadline": "Joule Work begins customer rollout of its outcome interface",
-      "sources": [
-        {
-          "label": "SAP Connect October6 official announcement",
-          "url": "https://news.sap.com/2026/10/sap-connect-sap-puts-autonomous-enterprise-to-work",
-          "type": "official",
-          "publishedAt": "2026-10-06",
-          "verifiedAt": "2026-10-06T16:42:00Z",
-          "isPrimary": true
-        }
-      ],
-      "evidenceLabel": "confirmed product"
-    }
-  ],
-  "zhPath": "./zh/",
-  "enPath": "./en/",
-  "sourcesPath": "./sources.md"
+  }
 }
