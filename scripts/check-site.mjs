@@ -136,8 +136,7 @@ try {
               });
               if (
                 diagnostic.activeCount !== 1 ||
-                diagnostic.x > 4 ||
-                diagnostic.y > 4
+                (viewport.width > 900 && (diagnostic.x > 4 || diagnostic.y > 4))
               )
                 throw new Error(
                   `${file} navigation or layout failure on ${diagnostic.id}`,

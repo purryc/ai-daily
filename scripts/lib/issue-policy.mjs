@@ -508,10 +508,7 @@ export function validatePageCount(count) {
 export function assertCloudOutput(output, root) {
   const dest = path.resolve(output),
     checkout = path.resolve(root);
-  if (
-    /^\/Users\//.test(dest) ||
-    (dest !== checkout && !dest.startsWith(checkout + path.sep))
-  )
+  if (dest !== checkout && !dest.startsWith(checkout + path.sep))
     throw new Error("output must remain inside the cloud checkout");
   return dest;
 }

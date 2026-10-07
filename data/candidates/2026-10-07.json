@@ -1,0 +1,693 @@
+{
+  "date": "2026-10-07",
+  "timezone": "America/Toronto",
+  "cutoff": "2026-10-07T12:26:00-04:00",
+  "lookbackDays": 3,
+  "zhTitle": "Agent 进入团队与设备：今天验收判断、协作和端侧成本",
+  "enTitle": "Agents enter teams and devices: acceptance moves to judgement, collaboration, and edge cost",
+  "zhSummary": "Atlassian AMP 把 Agent 的身份、上下文、权限和审计接入团队工作流；OpenAI Decisions API 把下一步判断拆成可调用的 predicate、choice 与 score；femtoAI 则开放 SPU 与压缩工具，试图把本地语音和传感推向更小设备。Microsoft 的本地 AI 活动尚未开始，Torch It 仍是全球弱信号。",
+  "enSummary": "Atlassian AMP connects agent identity, context, permissions, and audit to team work; OpenAI Decisions API turns next-step judgement into predicates, choices, and scores; femtoAI opens an SPU and compression toolchain for smaller local voice and sensing systems. Microsoft's local-AI event had not started, while Torch It remains a weak global signal.",
+  "laneScans": [
+    {
+      "lane": "official",
+      "status": "covered",
+      "zh": "Atlassian AMP 与 Microsoft 活动预告",
+      "en": "Atlassian AMP and the Microsoft event preview"
+    },
+    {
+      "lane": "reviews",
+      "status": "scan",
+      "zh": "今天没有新的独立上手被升级",
+      "en": "No new independent hands-on was promoted today"
+    },
+    {
+      "lane": "community",
+      "status": "covered",
+      "zh": "OpenAI Decisions API 开发者讨论",
+      "en": "OpenAI Decisions API developer discussion"
+    },
+    {
+      "lane": "wild",
+      "status": "covered",
+      "zh": "femtoAI startup developer surface",
+      "en": "femtoAI startup developer surface"
+    },
+    {
+      "lane": "research",
+      "status": "scan",
+      "zh": "今天没有新的产品界面研究信号被升级",
+      "en": "No new product-interface research signal was promoted today"
+    },
+    {
+      "lane": "patent",
+      "status": "scan",
+      "zh": "今天没有新的专利交互信号被升级",
+      "en": "No new patent-interface signal was promoted today"
+    },
+    {
+      "lane": "china",
+      "status": "scan",
+      "zh": "今天没有新的中国产品界面信号被升级",
+      "en": "No new China product-interface signal was promoted today"
+    },
+    {
+      "lane": "global",
+      "status": "covered",
+      "zh": "Torch It 全球助视眼镜 scan",
+      "en": "Torch It global assistive-glasses scan"
+    }
+  ],
+  "editorialPlan": {
+    "targetMinutes": 18,
+    "maxPages": 50,
+    "zhDensityTarget": 6000,
+    "enWordTarget": 4500
+  },
+  "quarantinedCandidates": [
+    {
+      "id": "microsoft-windows-surface-local-ai-event-scan-2026-10-07",
+      "reason": "scheduled preview retained as weak/unverified until the event concludes"
+    },
+    {
+      "id": "ericsson-torch-it-ai-glasses-global-scan-2026-10-07",
+      "reason": "single global media report without official product surface"
+    }
+  ],
+  "readingEstimate": {
+    "zhCharacters": 6000,
+    "enWords": 4500,
+    "note": "Fresh dossier source text is retained in the candidate source package; public pages use the fit-tested four-block brief."
+  },
+  "revisionAudit": [
+    {
+      "at": "2026-10-07T12:20:00-04:00",
+      "note": "Rechecked event dates, source chronology, visual capture time, lane status, and downgraded previews."
+    }
+  ],
+  "requireProductVisuals": true,
+  "candidates": [
+    {
+      "dossierKind": "product",
+      "id": "atlassian-amp-agentic-multiplayer-protocol-2026-10-07",
+      "section": "official",
+      "sourceDate": "2026-10-06",
+      "evidenceLabel": "developer surface",
+      "evidenceStrength": "Atlassian official Team ’26 Europe article; AMP rollout is announced, while cross-vendor production coverage remains unverified",
+      "zhHeadline": "Atlassian AMP：把 Agent 变成团队里的可见协作者",
+      "enHeadline": "Atlassian AMP makes agents visible collaborators inside the team workspace",
+      "zhFact": "Atlassian 宣布 AMP（Agentic Multiplayer Protocol）开始 rollout，把 Agent 的身份、上下文、权限、归属和审计接进 Jira、Confluence 与 Teamwork Graph。Agent 可以被 @mention、接收 Loom 视频或文档中的选择作为结构化 brief，在 Jira 中处理分流，并把本地 IDE/终端会话桥接回工作项。它是团队协作与治理开发面，不是一个孤立聊天机器人。",
+      "enFact": "Atlassian announced rollout of AMP, the Agentic Multiplayer Protocol, connecting agent identity, context, permissions, ownership, and audit to Jira, Confluence, and the Teamwork Graph. An agent can be mentioned, receive a Loom video or document selection as a structured brief, handle triage in Jira, and bridge a local IDE or terminal session back to a work item. It is a team-collaboration and governance developer surface, not an isolated chatbot.",
+      "zhValue": "产品价值在于把 Agent 的工作从个人窗口搬回团队共同查看的空间。人类同事可以看到谁触发了 Agent、它访问了什么、改了哪些内容、由谁负责；本地运行的 coding agent 也不再是 Jira 之外的黑盒。对设计、产品和工程团队，交付物、评论、选择和验收条件可以成为 Agent 的上下文，而不是靠复制粘贴重新解释。",
+      "enValue": "The product value is moving agent work from a private window into a space the team can inspect together. Colleagues can see who triggered an agent, what it touched, what it changed, and who owns it; a coding agent running locally is no longer a black box outside Jira. For design, product, and engineering teams, artifacts, comments, selections, and acceptance criteria become agent context instead of material that someone must copy and explain again.",
+      "zhImplication": "验收不该只看 Agent 是否完成 Jira 分流，而要看身份是否清楚、权限是否继承正确、局部选择是否保留语义、Agent 光标和人类光标是否不会互相遮挡，以及 Agent 写回后是否有可读的变更历史。AMP 还把责任链推向界面：服务账号、非人身份、人工 checkpoint 和撤销权限都应该在同一工作面可见。",
+      "enImplication": "Acceptance should test more than whether an agent completes Jira triage. Test whether identity is clear, permissions inherit correctly, a local selection preserves meaning, agent and human presence do not collide, and a write-back creates a readable change history. AMP also moves accountability into the interface: service accounts, non-human identities, human checkpoints, and revocation should be visible in the same work surface.",
+      "visual": {
+        "path": "assets/atlassian-amp-agentic-multiplayer-2026-10-07.png",
+        "width": 1600,
+        "height": 900,
+        "kind": "source-backed official page screenshot",
+        "altZh": "Atlassian AMP Agentic Multiplayer Protocol 官方文章截图",
+        "altEn": "Atlassian official article screenshot for AMP Agentic Multiplayer Protocol",
+        "captionZh": "Atlassian 官方文章截图：AMP 把 Agent 身份、上下文、权限和审计接到团队工作流中。",
+        "captionEn": "Atlassian official article screenshot: AMP connects agent identity, context, permissions, and audit to team workflows.",
+        "sourceUrl": "https://www.atlassian.com/blog/company-news/team26-europe-founder-update"
+      },
+      "sources": [
+        {
+          "label": "Atlassian AMP announcement",
+          "url": "https://www.atlassian.com/blog/company-news/team26-europe-founder-update",
+          "type": "official",
+          "isPrimary": true,
+          "publishedAt": "2026-10-06T00:00:00-04:00",
+          "verifiedAt": "2026-10-07T12:20:00-04:00"
+        },
+        {
+          "label": "Atlassian MCP server documentation",
+          "url": "https://www.atlassian.com/platform/remote-mcp-server",
+          "type": "developer docs",
+          "isPrimary": false,
+          "publishedAt": "2026-10-06T00:00:00-04:00",
+          "verifiedAt": "2026-10-07T12:20:00-04:00"
+        },
+        {
+          "label": "Atlassian Rovo platform",
+          "url": "https://www.atlassian.com/software/rovo",
+          "type": "official",
+          "isPrimary": false,
+          "publishedAt": "2026-10-06T00:00:00-04:00",
+          "verifiedAt": "2026-10-07T12:20:00-04:00"
+        }
+      ],
+      "dossier": {
+        "zh": {
+          "productName": "Atlassian AMP 是 Agentic Multiplayer Protocol，随 Team ’26 Europe 公布 rollout。它把 Agent 当作团队中的非人协作者，连接 Jira、Confluence、Loom、IDE、终端和 Teamwork Graph；公开文章描述的是协议与平台能力，不是一个独立销售的聊天产品。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "productType": "产品类型是 team-agent collaboration and governance developer surface。AMP 提供上下文传递、Agent 身份、归属、实时存在感、权限继承、人工 checkpoint 和活动审计；Rovo、Jira Agent Sessions、MCP server 与 Teamwork Graph 是它可以落地的工作层。普通用户接触到的是评论、@mention、光标、工作项状态和变更历史。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "interactionFlow": "用户可以在 Confluence 文档中 @mention Agent、用 Loom 视频或光标/选区给出结构化 brief，也可以在 Jira 评论和 triage 流程中触发 Agent。Agent 读取被授权的 Teamwork Graph 上下文，在工作项或工具里执行，然后把结果、修改、归属和审计回写到团队空间；本地 IDE 或终端中的 Agent session 也可以桥接回 Jira。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "specsOrStack": "Atlassian 披露的系统栈包括 Teamwork Graph、Atlassian MCP server、Atlassian CLI、Jira Agent Sessions、Rovo、Artifacts、agent accounts 和 non-human identity inventory。文章还提到 7 类上下文、80+ connectors 与 250 billion connected objects，这是公司披露的规模口径；跨厂商协议细节、API version、延迟、SLA、计费和数据保留均为 source not stated。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "useCases": "具体场景包括让 Agent 根据 Jira 评论自动分流、从 Confluence 选区生成验收条件、用 Loom 说明问题、在 Figma 或 IDE 旁边读取上下文、把本地 coding session 关联到对应工作项，以及让 HR 或 helpdesk Agent 使用不同的服务身份。团队可在同一板面看到 Agent 做了什么，而不用追问个人窗口。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "painPointsSolved": "AMP 针对的是 single-player AI 的协作断层：个人 Agent 做完了，却没有清晰归属、团队不可见、上下文无法复用、权限难以审计。把人和 Agent 放进同一工作空间，减少复制粘贴和状态同步；把服务账号和非人身份显式化，减少‘谁改了这份文档’与‘它看到了什么’的追查成本。它不能消除错误理解、权限配置错误和跨工具语义丢失。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "userVoice": "公开证据目前以 Atlassian 官方文章和平台文档为主，本次未找到足够的长期客户实测来证明 Agent 光标、身份面板、人工 checkpoint 和跨工具回写在复杂项目中都顺畅。AMP 的价值是官方产品方向与 rollout 声明，不应升级为跨企业普遍成功率或用户满意度。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "newTech": "新技术点不是单个模型，而是把 Agent identity、shared presence、Teamwork Graph context、permission inheritance、local-session bridging 和 audit 组合成一个多人协作协议。Agent 的输出被当成有归属、有权限、有生命周期的团队成员活动，而不是聊天记录；这让撤销、审计、版本追踪和责任分配成为一等产品对象。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "availability": "Atlassian 官方文章宣布 AMP 开始 rollout，并列出 Jira、Confluence、Rovo、MCP、Artifacts 和 Agent Sessions 等相关平台入口。开放范围、地区、套餐、管理员开关、正式 API 文档、第三方客户端矩阵和完整 GA 时间均未在本次来源中给出；应以用户所在站点和产品版本实际显示为准。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "limitsOrUnknowns": "未知包括 Agent identity 的管理员操作、跨组织协作、离线本地 session 的同步、Figma/IDE 连接权限、敏感文档的摘要边界、撤销后的已生成内容、上下文图谱错误、Agent 之间的冲突与人工 checkpoint 的频率。把‘可见’做成通知洪水，也可能让团队更难判断真正需要接管的动作。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "productVerdict": "AMP 是一个明确的 developer surface，值得作为团队型 Agent 产品的基础设施跟踪。产品判断：它把 Agent 从个人效率外挂移到共享责任空间，补上身份、上下文和审计三块缺口。下一关是证明团队不会被更多状态淹没，并让用户在一个工作面内理解、修改、暂停和撤销 Agent 行为。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。"
+        },
+        "en": {
+          "productName": "Atlassian AMP is the Agentic Multiplayer Protocol announced with the Team ’26 Europe rollout. It treats an agent as a non-human collaborator connecting Jira, Confluence, Loom, IDEs, terminals, and the Teamwork Graph. The public article describes a protocol and platform capability, not a separately sold chatbot. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "productType": "The product is a team-agent collaboration and governance developer surface. AMP covers context transfer, agent identity, ownership, real-time presence, permission inheritance, human checkpoints, and activity audit. Rovo, Jira Agent Sessions, the MCP server, and the Teamwork Graph are the work layers where it can land. Users encounter comments, mentions, cursors, work-item state, and change history. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "interactionFlow": "A user can mention an agent in a Confluence document, give it a Loom video or a cursor selection as a structured brief, or trigger it from Jira comments and triage. The agent reads authorised Teamwork Graph context, acts in the work item or connected tool, and writes back its result, changes, ownership, and audit trail. A local IDE or terminal session can also be bridged into Jira. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "specsOrStack": "Atlassian names the Teamwork Graph, Atlassian MCP server, Atlassian CLI, Jira Agent Sessions, Rovo, Artifacts, agent accounts, and a non-human identity inventory. The article also cites seven context types, more than 80 connectors, and 250 billion connected objects; those are company-disclosed scale figures. Cross-vendor protocol details, API version, latency, SLA, billing, and retention are source not stated. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "useCases": "Concrete cases include an agent routing Jira work from comments, generating acceptance criteria from a Confluence selection, using a Loom explanation, reading context beside Figma or an IDE, linking a local coding session to the right work item, and assigning different service identities to HR or helpdesk agents. The team sees agent activity in the same surface instead of chasing a private window. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "painPointsSolved": "AMP targets the collaboration gap in single-player AI: a personal agent completes work without clear ownership, team visibility, reusable context, or auditable authority. Putting people and agents in one workspace reduces copy-paste and status chasing; making service accounts and non-human identities explicit reduces the cost of answering who changed a document and what it could see. It does not remove misunderstanding, permission errors, or cross-tool semantic loss. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "userVoice": "Public evidence is currently Atlassian's article and platform documentation. This run found no sufficient long-term customer testing to show that agent cursors, identity panels, human checkpoints, and cross-tool write-back remain smooth in complex projects. AMP is an official direction and rollout statement, not a general success rate or satisfaction claim. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "newTech": "The move is not a single model but the combination of agent identity, shared presence, Teamwork Graph context, permission inheritance, local-session bridging, and audit as one multiplayer protocol. Agent output becomes attributable, permissioned, and lifecycle-managed team activity rather than a chat transcript, making revocation, audit, version tracking, and accountability first-class product objects. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "availability": "Atlassian announced that AMP begins rollout and listed Jira, Confluence, Rovo, MCP, Artifacts, and Agent Sessions as related platform entry points. The cited material does not state the full region, plan, admin switches, formal API documentation, third-party client matrix, or GA schedule; the actual account and product version remain the source of truth. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "limitsOrUnknowns": "Open questions include administrator controls for agent identity, cross-organisation work, offline local-session sync, Figma and IDE permissions, sensitive-document summarisation boundaries, generated content after revocation, graph errors, agent conflicts, and checkpoint frequency. Making everything visible can also create notification noise that makes genuine takeover moments harder to spot. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "productVerdict": "AMP is a concrete developer surface worth tracking as infrastructure for team agents. Verdict: it moves agents from personal productivity add-ons into a shared accountability space and fills identity, context, and audit gaps. The next gate is proving that teams are not buried in state and that users can understand, edit, pause, and revoke agent behaviour from one work surface. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language."
+        }
+      },
+      "eventSourceUrl": "https://www.atlassian.com/blog/company-news/team26-europe-founder-update",
+      "event": {
+        "productKey": "atlassian-amp-agentic-multiplayer-protocol",
+        "kind": "announcement",
+        "occurredAt": "2026-10-06",
+        "key": "atlassian-amp-agentic-multiplayer-protocol-2026-10-07",
+        "summaryZh": "Atlassian 宣布 AMP（Agentic Multiplayer Protocol）开始 rollout，把 Agent 的身份、上下文、权限、归属和审计接进 Jira、Confluence 与 Teamwork Graph。Agent 可以被 @mention、接收 Loom 视频或文档中的选择作为结构化 brief，在 Jira 中处理分流，并把本地 IDE/终端会话桥接回工作项。它是团队协作与治理开发面，不是一个孤立聊天机器人。",
+        "summaryEn": "Atlassian announced rollout of AMP, the Agentic Multiplayer Protocol, connecting agent identity, context, permissions, ownership, and audit to Jira, Confluence, and the Teamwork Graph. An agent can be mentioned, receive a Loom video or document selection as a structured brief, handle triage in Jira, and bridge a local IDE or terminal session back to a work item. It is a team-collaboration and governance developer surface, not an isolated chatbot.",
+        "deltaZh": "产品价值在于把 Agent 的工作从个人窗口搬回团队共同查看的空间。人类同事可以看到谁触发了 Agent、它访问了什么、改了哪些内容、由谁负责；本地运行的 coding agent 也不再是 Jira 之外的黑盒。对设计、产品和工程团队，交付物、评论、选择和验收条件可以成为 Agent 的上下文，而不是靠复制粘贴重新解释。",
+        "deltaEn": "The product value is moving agent work from a private window into a space the team can inspect together. Colleagues can see who triggered an agent, what it touched, what it changed, and who owns it; a coding agent running locally is no longer a black box outside Jira. For design, product, and engineering teams, artifacts, comments, selections, and acceptance criteria become agent context instead of material that someone must copy and explain again."
+      },
+      "brief": {
+        "zh": {
+          "what": "Atlassian AMP 是 Agentic Multiplayer Protocol，随 Team ’26 Europe 公布 rollout。它把 Agent 当作团队中的非人协作者，连接 Jira、Confluence、Loom、IDE、终…",
+          "change": "用户可以在 Confluence 文档中 @mention Agent、用 Loom 视频或光标/选区给出结构化 brief，也可以在 Jira 评论和 triage 流程中触发 Agent。Agent 读取被授权的 Teamwork Graph …",
+          "use": "具体场景包括让 Agent 根据 Jira 评论自动分流、从 Confluence 选区生成验收条件、用 Loom 说明问题、在 Figma 或 IDE 旁边读取上下文、把本地 coding session 关联到对应工作项，以及让 HR 或 he…",
+          "limits": "Atlassian 官方文章宣布 AMP 开始 rollout，并列出 Jira、Confluence、Rovo、MCP、Artifacts 和 Agent Sessions 等相关平台入口。开放范围、地区、套餐、管理员开关、正式 API 文档、第…"
+        },
+        "en": {
+          "what": "Atlassian AMP is the Agentic Multiplayer Protocol announced with the Team ’ 26 Europe rollout . It treats an agent as a non-human collaborator connecting Jira , Confluence , Loom , IDEs , terminals , and the Teamwork Graph . The public article describes a protocol and platform capability , not a separately sold chatbot . Any price , version…",
+          "change": "A user can mention an agent in a Confluence document , give it a Loom video or a cursor selection as a structured brief , or trigger it from Jira comments and triage . The agent reads authorised Teamwork Graph context , acts in the work item or connected tool , and writes back its result , changes , ownership…",
+          "use": "Concrete cases include an agent routing Jira work from comments , generating acceptance criteria from a Confluence selection , using a Loom explanation , reading context beside Figma or an IDE , linking a local coding session to the right work item , and assigning different service identities to HR or helpdesk agents . The team sees agent activity in…",
+          "limits": "Atlassian announced that AMP begins rollout and listed Jira , Confluence , Rovo , MCP , Artifacts , and Agent Sessions as related platform entry points . The cited material does not state the full region , plan , admin switches , formal API documentation , third-party client matrix , or GA schedule ; the actual account and product version…"
+        }
+      },
+      "visuals": [
+        {
+          "path": "assets/atlassian-amp-agentic-multiplayer-2026-10-07.png",
+          "width": 1600,
+          "height": 900,
+          "kind": "source-backed official page screenshot",
+          "altZh": "Atlassian AMP Agentic Multiplayer Protocol 官方文章截图",
+          "altEn": "Atlassian official article screenshot for AMP Agentic Multiplayer Protocol",
+          "captionZh": "Atlassian 官方文章截图：AMP 把 Agent 身份、上下文、权限和审计接到团队工作流中。",
+          "captionEn": "Atlassian official article screenshot: AMP connects agent identity, context, permissions, and audit to team workflows.",
+          "sourceUrl": "https://www.atlassian.com/blog/company-news/team26-europe-founder-update",
+          "role": "primary evidence",
+          "capturedAt": "2026-10-07T12:20:00-04:00"
+        }
+      ]
+    },
+    {
+      "dossierKind": "product",
+      "id": "openai-decisions-api-public-beta-2026-10-07",
+      "section": "community",
+      "sourceDate": "2026-10-06",
+      "evidenceLabel": "developer surface",
+      "evidenceStrength": "OpenAI Developer Community public-beta announcement plus developer discussion; API docs, pricing, and production limits remain incomplete in the cited surface",
+      "zhHeadline": "OpenAI Decisions API：把‘让模型判断’拆成可调用的选择器",
+      "enHeadline": "OpenAI Decisions API turns model judgement into a callable selector",
+      "zhFact": "OpenAI Developer Community 公告称 Decisions API 已面向所有开发者公测。它接受文本和图像输入，输出 predicates（真假概率）、choices（固定选项与 confidence）或 scores（按数值区间评估），目标是让应用近实时选择模型、工具或动作。公告声称相对 GPT-6 Luna 经 Responses API 可快至 10 倍；这属于官方公告口径，不能当作所有输入的实测延迟。",
+      "enFact": "An OpenAI Developer Community announcement says the Decisions API is in public beta for all developers. It accepts text and image inputs and returns predicates with probabilities, choices from a fixed set with confidence, or scores against a numeric range, allowing an application to select a model, tool, or action near real time. The announcement claims up to 10x faster decisions than GPT-6 Luna through the Responses API; that is an announcement claim, not a latency result for every input.",
+      "zhValue": "这条 API 把许多产品里的‘分类后决定下一步’从长文本生成链里抽出来：图片审核可以输出是否符合规则，路由器可以从固定工具集合选一个动作，工作流可以把输入打分后决定升级、拒绝或交给人工。对 HCI，重要变化是模型判断成为可观察的系统状态，而不是藏在一段自然语言解释里。",
+      "enValue": "The API extracts a common product step—classify, then decide what happens next—from a long-form generation chain. Image moderation can return whether a rule is met, a router can choose one action from a fixed tool set, and a workflow can score an input before escalating, rejecting, or handing it to a person. For HCI, the important change is that model judgement becomes an observable system state rather than a decision hidden inside prose.",
+      "zhImplication": "验收要看固定选项是否真的限制了动作空间、confidence 低时是否转人工、评分标准是否可解释、图像输入是否保留审计、超时和无缓存时用户能否知道成本与延迟。开发者社区当天讨论了输入 token 缓存和 3D 游戏图像测试的延迟，说明真实摩擦会落在计费、网络与边界条件，而不是 API 名称本身。",
+      "enImplication": "Acceptance should test whether fixed choices really constrain the action space, whether low confidence routes to a human, whether a score rubric is explainable, whether image inputs remain auditable, and whether timeout or no-cache conditions expose cost and latency. Same-day developer discussion raised input-token caching and image latency in a 3D-game test, showing that real friction will sit in billing, network, and edge cases rather than the API name.",
+      "visual": {
+        "path": "assets/openai-decisions-api-beta-2026-10-07.png",
+        "width": 1600,
+        "height": 900,
+        "kind": "source-backed developer-community announcement screenshot",
+        "altZh": "OpenAI Developer Community 的 Decisions API 公测公告截图",
+        "altEn": "OpenAI Developer Community screenshot of the Decisions API public-beta announcement",
+        "captionZh": "开发者社区公告截图：Decisions API 将谓词、固定选项选择和评分拆成可调用的低延迟判断面。",
+        "captionEn": "Developer-community announcement screenshot: Decisions API exposes predicates, fixed-choice selection, and scoring as a low-latency callable surface.",
+        "sourceUrl": "https://community.openai.com/t/decisions-api-is-now-available-in-public-beta/1403877"
+      },
+      "sources": [
+        {
+          "label": "OpenAI Decisions API public-beta announcement",
+          "url": "https://community.openai.com/t/decisions-api-is-now-available-in-public-beta/1403877",
+          "type": "community",
+          "isPrimary": true,
+          "publishedAt": "2026-10-06T00:00:00-04:00",
+          "verifiedAt": "2026-10-07T12:20:00-04:00"
+        },
+        {
+          "label": "OpenAI Developer Community discussion on caching and latency",
+          "url": "https://community.openai.com/t/decisions-api-is-now-available-in-public-beta/1403877/13",
+          "type": "community",
+          "isPrimary": false,
+          "publishedAt": "2026-10-06T00:00:00-04:00",
+          "verifiedAt": "2026-10-07T12:20:00-04:00"
+        },
+        {
+          "label": "OpenAI API documentation",
+          "url": "https://platform.openai.com/docs",
+          "type": "developer docs",
+          "isPrimary": false,
+          "publishedAt": "2026-10-06T00:00:00-04:00",
+          "verifiedAt": "2026-10-07T12:20:00-04:00"
+        }
+      ],
+      "dossier": {
+        "zh": {
+          "productName": "Decisions API 是 OpenAI API 上面向开发者的判断面，公告显示它在 2026 年 10 月进入 public beta。它不是聊天 UI，而是把文本/图像输入转换为 predicate、choice 或 score，供应用决定下一个模型、工具、动作或人工路径。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "productType": "产品类型是 low-latency decision API / developer surface。它把固定选项选择、真假概率估计和数值评分从通用 Responses 流程中抽出，适合放在路由、审核、分流、升级和工具选择节点。模型、地区、价格、配额、SDK 版本和正式 SLA 在本次公告中没有完整展开。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "interactionFlow": "应用提交文字或图片以及要判断的条件、固定选项或评分范围；API 返回 predicate 概率、choice 与 confidence，或 score。业务代码再依据 schema 选择下一步，例如调用一个工具、升级人工、阻止提交、切换模型或继续任务。产品需要把低 confidence、超时、不可判定和人工覆盖当成显式状态，而不是把它们默默改写成普通答案。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "specsOrStack": "公开公告披露文本和图像输入、三类输出，以及相对 GPT-6 Luna 通过 Responses API 可快至 10 倍的官方比较口径。公告没有说明模型版本、最大输入、缓存策略、计费单位、区域、吞吐、结构化 schema 细节、SDK、日志、数据保留和 rate limits；这些均为 source not stated。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "useCases": "具体场景包括根据图片判断内容是否符合站点规则、在固定工具集合中选择正确 action、给工单或文档按 rubric 打分、判断是否进入人工审核、在游戏或机器人视觉循环中快速选择下一动作，以及根据输入把请求路由到便宜模型、强模型或专用工具。固定选项让产品可限制动作空间，但不自动保证判断正确。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "painPointsSolved": "它解决通用生成 API 在路由和分类节点上的冗长、不可控和难审计问题。开发者不必从自然语言中解析‘模型建议用哪个工具’，可以要求一个枚举选择和 confidence；也可以把评分标准结构化后记录下来。代价是把 rubric、选项和 fallback 设计责任前移，错误的分类会更快地推动错误动作。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "userVoice": "公告发布后，开发者讨论了输入 token 是否有缓存、3 Mbps 网络下图像判断约 0.8 秒的个人测试，以及选择题是否适合概率预测。这些是社区摩擦与个人实验，不是官方 SLA；但它们提示产品团队要把缓存、成本、网络波动、confidence 解释和概率校准放进真实验收。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "newTech": "新技术点在于把模型作为一个可组合的判断器，而不是每次都生成长文本。predicates、choices、scores 三种输出分别对应规则判断、动作选择和连续评价，允许开发者把模型插入已有的状态机、工作流、工具路由和人工审批链。它更接近 AI-native control primitive，而不是新的聊天入口。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "availability": "OpenAI Developer Community 公告称 Decisions API 已向所有开发者开放 public beta，并提供了尝试入口；正式文档、价格、地区、企业支持、生产限制与未来兼容承诺在本次来源中没有完整披露。任何将它用于关键动作的产品仍需自行加 schema 校验、重试、人工兜底和审计。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "limitsOrUnknowns": "未知包括概率是否校准、choice confidence 如何解释、视觉输入在复杂场景中的误判、无缓存成本、速率限制、输入数据保留、prompt injection、schema 漂移、模型升级、跨区域延迟和低置信度回退。‘快至 10 倍’不能替代按真实负载、网络和图片尺寸做基准测试。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "productVerdict": "Decisions API 是具体的 developer surface，价值在于把‘判断下一步’变成可测量、可约束、可审计的产品组件。产品判断：它可能减少 Agent 工作流里的自然语言解析层，但只有当 confidence、成本、人工接管和版本变化被清楚呈现时，速度优势才会转化为更可靠的用户体验。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。"
+        },
+        "en": {
+          "productName": "Decisions API is a developer-facing judgement surface on the OpenAI API, shown in a public-beta announcement dated October 2026. It is not a chat UI: it turns text or image inputs into a predicate, choice, or score that an application can use to select the next model, tool, action, or human path. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "productType": "The product is a low-latency decision API and developer surface. It extracts fixed-choice selection, probability estimation, and numeric scoring from a general Responses flow for routing, moderation, escalation, and tool-selection nodes. Model version, region, price, quota, SDK version, and formal SLA are not fully described in the cited announcement. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "interactionFlow": "An application submits text or an image plus a condition, fixed option set, or scoring range. The API returns predicate probabilities, a choice with confidence, or a score. Application code then selects the next step: call a tool, escalate to a person, block a submission, switch models, or continue. Low confidence, timeout, indeterminate output, and human override should be explicit states rather than silently converted into an ordinary answer. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "specsOrStack": "The announcement discloses text and image inputs, three output types, and an official comparison claim of up to 10x faster decisions than GPT-6 Luna through the Responses API. It does not fully state model version, maximum input, caching, billing unit, region, throughput, structured-schema details, SDK, logging, retention, or rate limits; these remain source not stated. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "useCases": "Concrete cases include deciding whether an image meets a site rule, selecting one action from a fixed tool set, scoring a ticket or document against a rubric, deciding whether to escalate for human review, selecting the next action in a game or robotic vision loop, and routing an input to a cheaper model, frontier model, or specialised tool. A fixed option set constrains actions but does not make the judgement correct. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "painPointsSolved": "It addresses the verbosity, unpredictability, and audit cost of using a general generation API at routing or classification nodes. A developer can request an enum-like action and confidence instead of parsing prose about which tool to use, and can store the scoring rubric as structured data. The trade-off is moving rubric, choice, and fallback responsibility into product design; a fast wrong classification can trigger a fast wrong action. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "userVoice": "After the announcement, developers discussed whether input tokens are cached, a personal image test that reported about 0.8 seconds on a 3 Mbps connection, and whether choice questions fit probability prediction. These are community friction and individual experiments, not an official SLA. They still point to caching, cost, network variance, confidence explanation, and calibration as acceptance requirements. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "newTech": "The technical move is treating a model as a composable decision function rather than asking it to generate a long response every time. Predicates, choices, and scores map to rule judgement, action selection, and continuous evaluation, allowing a model to sit inside an existing state machine, workflow, tool router, or approval chain. It is closer to an AI-native control primitive than a new chat surface. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "availability": "The OpenAI Developer Community announcement says the Decisions API is available to all developers in public beta and provides a try-it entry point. Formal documentation, pricing, regions, enterprise support, production limits, and compatibility commitments are not fully disclosed in the cited surface. Products using it for consequential actions still need schema validation, retries, human fallback, and audit. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "limitsOrUnknowns": "Open questions include probability calibration, confidence semantics, visual errors in complex scenes, no-cache cost, rate limits, input retention, prompt injection, schema drift, model upgrades, cross-region latency, and low-confidence fallback. An 'up to 10x' claim does not replace benchmarking on real load, network, and image size. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "productVerdict": "Decisions API is a concrete developer surface whose value is making next-step judgement measurable, constrained, and auditable. Verdict: it may remove a natural-language parsing layer from agent workflows, but speed becomes reliable product value only when confidence, cost, human takeover, and version changes are legible. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language."
+        }
+      },
+      "eventSourceUrl": "https://community.openai.com/t/decisions-api-is-now-available-in-public-beta/1403877",
+      "event": {
+        "productKey": "openai-decisions-api-public-beta",
+        "kind": "announcement",
+        "occurredAt": "2026-10-06",
+        "key": "openai-decisions-api-public-beta-2026-10-07",
+        "summaryZh": "OpenAI Developer Community 公告称 Decisions API 已面向所有开发者公测。它接受文本和图像输入，输出 predicates（真假概率）、choices（固定选项与 confidence）或 scores（按数值区间评估），目标是让应用近实时选择模型、工具或动作。公告声称相对 GPT-6 Luna 经 Responses API 可快至 10 倍；这属于官方公告口径，不能当作所有输入的实测延迟。",
+        "summaryEn": "An OpenAI Developer Community announcement says the Decisions API is in public beta for all developers. It accepts text and image inputs and returns predicates with probabilities, choices from a fixed set with confidence, or scores against a numeric range, allowing an application to select a model, tool, or action near real time. The announcement claims up to 10x faster decisions than GPT-6 Luna through the Responses API; that is an announcement claim, not a latency result for every input.",
+        "deltaZh": "这条 API 把许多产品里的‘分类后决定下一步’从长文本生成链里抽出来：图片审核可以输出是否符合规则，路由器可以从固定工具集合选一个动作，工作流可以把输入打分后决定升级、拒绝或交给人工。对 HCI，重要变化是模型判断成为可观察的系统状态，而不是藏在一段自然语言解释里。",
+        "deltaEn": "The API extracts a common product step—classify, then decide what happens next—from a long-form generation chain. Image moderation can return whether a rule is met, a router can choose one action from a fixed tool set, and a workflow can score an input before escalating, rejecting, or handing it to a person. For HCI, the important change is that model judgement becomes an observable system state rather than a decision hidden inside prose."
+      },
+      "brief": {
+        "zh": {
+          "what": "Decisions API 是 OpenAI API 上面向开发者的判断面，公告显示它在 2026 年 10 月进入 public beta。它不是聊天 UI，而是把文本/图像输入转换为 predicate、choice 或 score，供应用决定…",
+          "change": "应用提交文字或图片以及要判断的条件、固定选项或评分范围；API 返回 predicate 概率、choice 与 confidence，或 score。业务代码再依据 schema 选择下一步，例如调用一个工具、升级人工、阻止提交、切换模型或继续任…",
+          "use": "具体场景包括根据图片判断内容是否符合站点规则、在固定工具集合中选择正确 action、给工单或文档按 rubric 打分、判断是否进入人工审核、在游戏或机器人视觉循环中快速选择下一动作，以及根据输入把请求路由到便宜模型、强模型或专用工具。固定选项让…",
+          "limits": "OpenAI Developer Community 公告称 Decisions API 已向所有开发者开放 public beta，并提供了尝试入口；正式文档、价格、地区、企业支持、生产限制与未来兼容承诺在本次来源中没有完整披露。任何将它用于关键…"
+        },
+        "en": {
+          "what": "Decisions API is a developer-facing judgement surface on the OpenAI API , shown in a public-beta announcement dated October 2026 . It is not a chat UI : it turns text or image inputs into a predicate , choice , or score that an application can use to select the next model , tool , action , or human path…",
+          "change": "An application submits text or an image plus a condition , fixed option set , or scoring range . The API returns predicate probabilities , a choice with confidence , or a score . Application code then selects the next step : call a tool , escalate to a person , block a submission , switch models , or continue…",
+          "use": "Concrete cases include deciding whether an image meets a site rule , selecting one action from a fixed tool set , scoring a ticket or document against a rubric , deciding whether to escalate for human review , selecting the next action in a game or robotic vision loop , and routing an input to a cheaper model , frontier…",
+          "limits": "The OpenAI Developer Community announcement says the Decisions API is available to all developers in public beta and provides a try-it entry point . Formal documentation , pricing , regions , enterprise support , production limits , and compatibility commitments are not fully disclosed in the cited surface . Products using it for consequential actions still need schema validation ,…"
+        }
+      },
+      "visuals": [
+        {
+          "path": "assets/openai-decisions-api-beta-2026-10-07.png",
+          "width": 1600,
+          "height": 900,
+          "kind": "source-backed developer-community announcement screenshot",
+          "altZh": "OpenAI Developer Community 的 Decisions API 公测公告截图",
+          "altEn": "OpenAI Developer Community screenshot of the Decisions API public-beta announcement",
+          "captionZh": "开发者社区公告截图：Decisions API 将谓词、固定选项选择和评分拆成可调用的低延迟判断面。",
+          "captionEn": "Developer-community announcement screenshot: Decisions API exposes predicates, fixed-choice selection, and scoring as a low-latency callable surface.",
+          "sourceUrl": "https://community.openai.com/t/decisions-api-is-now-available-in-public-beta/1403877",
+          "role": "primary evidence",
+          "capturedAt": "2026-10-07T12:20:00-04:00"
+        }
+      ]
+    },
+    {
+      "dossierKind": "product",
+      "id": "femtoai-developer-community-spu-2026-10-07",
+      "section": "wild",
+      "sourceDate": "2026-10-07",
+      "evidenceLabel": "startup signal",
+      "evidenceStrength": "femtoAI PRNewswire announcement and developer portal; silicon, tools, and claimed savings are company disclosures without independent device validation",
+      "zhHeadline": "femtoAI 开放 SPU 开发者社区：把稀疏化推到穿戴与家电端",
+      "enHeadline": "femtoAI opens an SPU developer surface for smaller edge-AI systems",
+      "zhFact": "femtoAI 10 月 7 日宣布开发者社区开放，提供 Sparse Processing Unit（SPU）芯片评估套件、压缩模型、编译器与 Sparsity Studio。公司称其稀疏神经网络和模型压缩可以带来 10 倍更低功耗与 10 倍更小内存占用，并举出 Whisper 压缩、local voice commands、穿戴、家电、智能眼镜与机器人作为方向。该数字仍是公司声明。",
+      "enFact": "On October 7, femtoAI announced open access to its developer community with an SPU chip evaluation kit, compressed models, a compiler, and Sparsity Studio. The company says its sparse neural networks and model compression can deliver 10x lower power draw and a 10x smaller memory footprint, citing compressed Whisper, local voice commands, wearables, appliances, smart glasses, and robotics as directions. The figures remain company claims.",
+      "zhValue": "这条产品信号的重点是把‘端侧 AI 太大、太热、太耗电’转成开发者可以试的工具链。评估套件让产品团队先用目标模型、语音和传感任务评估内存与功耗，再决定是否把 SPU 放进耳机、眼镜、家居或机器人。它不保证产品自动拥有更好的识别率，也不等于一块评估板已经变成可量产的终端。",
+      "enValue": "The product signal is about turning the edge-AI problem—too large, hot, and power-hungry—into a toolchain developers can try. The evaluation kit lets a product team test target models, voice, and sensor tasks against memory and power before deciding whether an SPU belongs in earbuds, glasses, home appliances, or a robot. It does not guarantee better recognition and does not make an evaluation board a mass-produced device.",
+      "zhImplication": "验收要把稀疏化前后的模型输出、唤醒率、误触发、功耗曲线、编译失败、算子覆盖、模型更新和弱网/离线降级一起测。对穿戴产品，省下的内存应转成更长待机或更快反馈，而不是被新的传感器和网络任务吃掉；对用户，最终要能感知为少充电、少等待、少上传，而不是看见一个 SPU 名词。",
+      "enImplication": "Acceptance should measure model output, wake rate, false triggers, power curves, compiler failures, operator coverage, model updates, and weak-network or offline degradation before and after sparsification. In wearables, saved memory should become longer standby or faster feedback rather than being consumed by new sensors and network tasks. The user should feel fewer charges, less waiting, and less uploading—not see an SPU acronym.",
+      "visual": {
+        "path": "assets/femtoai-developer-community-2026-10-07.png",
+        "width": 1600,
+        "height": 900,
+        "kind": "source-backed startup developer-surface screenshot",
+        "altZh": "femtoAI 开发者社区入口截图",
+        "altEn": "femtoAI developer-community landing page screenshot",
+        "captionZh": "开发者入口截图：femtoAI 开放 SPU 评估套件、压缩模型、编译器和 Sparsity Studio。",
+        "captionEn": "Developer landing-page screenshot: femtoAI opens access to the SPU evaluation kit, compressed models, compiler, and Sparsity Studio.",
+        "sourceUrl": "https://developer.femto.ai/"
+      },
+      "sources": [
+        {
+          "label": "femtoAI developer community announcement",
+          "url": "https://www.aap.com.au/aapreleases/cision20261006ae64937/",
+          "type": "startup signal",
+          "isPrimary": true,
+          "publishedAt": "2026-10-07T00:00:00-04:00",
+          "verifiedAt": "2026-10-07T12:20:00-04:00"
+        },
+        {
+          "label": "femtoAI developer portal",
+          "url": "https://developer.femto.ai/",
+          "type": "developer docs",
+          "isPrimary": false,
+          "publishedAt": "2026-10-07T00:00:00-04:00",
+          "verifiedAt": "2026-10-07T12:20:00-04:00"
+        },
+        {
+          "label": "femtoAI company site",
+          "url": "https://femto.ai/",
+          "type": "startup signal",
+          "isPrimary": false,
+          "publishedAt": "2026-10-07T00:00:00-04:00",
+          "verifiedAt": "2026-10-07T12:20:00-04:00"
+        }
+      ],
+      "dossier": {
+        "zh": {
+          "productName": "femtoAI Developer Community 是公司开放的边缘 AI 开发者入口，配套 SPU 芯片评估套件、压缩模型、编译器和 Sparsity Studio。它面向做语音、传感、视觉和机器人终端的工程团队，交付的是开发与评估表面，不是已经公开销售的消费电子产品。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "productType": "产品类型是 edge-AI silicon evaluation and model-compression developer surface。SPU、稀疏模型、编译器和工具工作台共同组成从模型到芯片的试验链；公司把穿戴、家电、智能眼镜和机器人列为方向。公开材料没有给出完整量产 SKU、芯片制程、算力、接口、操作系统、价格或认证。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "interactionFlow": "开发者进入社区，获取或申请 SPU 评估套件与工具，选择模型并用 Sparsity Studio 做压缩、编译和运行测试，再比较原始/压缩模型的准确率、延迟、内存和功耗。通过评估后，终端团队可以把对应模型和算子映射到目标硬件；最终产品还要处理 OTA、唤醒、传感器、连接和用户反馈。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "specsOrStack": "公司披露的栈包括 SPU evaluation kit、compressed models、compiler、Sparsity Studio、neural-network sparsity 和 model compression；公司称可以把 OpenAI Whisper 压到更小内存，并宣称 10 倍功耗/内存收益。公开页面未披露 SPU 的 TOPS、制程、内存、总线、支持算子、模型列表、工具版本、Windows/macOS/Linux 支持和功耗测量条件。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "useCases": "具体方向包括本地语音命令、持续唤醒、穿戴式音频、智能眼镜的视觉/语音、家电的离线控制，以及机器人上的低延迟感知。产品团队可先用评估套件筛掉不能在功耗预算内运行的模型，再将少量数据和关键交互留在设备侧。公开材料没有证明任何一个终端已经用它完成大规模出货。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "painPointsSolved": "它针对端侧 AI 的内存、电池、散热和云依赖问题。稀疏化与压缩有机会让持续监听、传感和短响应留在本地，降低网络往返与隐私暴露；开发者工具链也可能减少每个终端重新手写优化的成本。代价是压缩误差、工具链锁定、算子不覆盖、调试复杂度和新芯片供货风险。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "userVoice": "公开证据目前是 femtoAI 公司公告与开发者入口，没有足够独立评测来验证 10 倍功耗、10 倍内存和不牺牲准确率在真实穿戴/家电模型上的普遍性。这个 startup signal 值得关注，因为它把工具、芯片和模型一起开放；但不能把公司指标当作终端续航或识别率实测。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "newTech": "新技术组合是硬件稀疏处理单元、模型压缩、编译器和可视化工作台的联动。它把模型大小与设备功耗的优化从专家手工调参变成可尝试的开发流程，并强调 Whisper、local voice commands 与多种物联网终端。真正的创新程度取决于压缩后模型的算子覆盖、校准方法和开发者能否无痛回退到通用硬件。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "availability": "femtoAI 宣布开发者社区在 10 月 7 日开放，developer.femto.ai 提供入口；SPU 评估套件、模型和工具的获取条件、地区、价格、发货、支持计划和 NDA 要求需要以申请流程为准。公开材料没有写明任何消费产品的上市日期或零售渠道。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "limitsOrUnknowns": "未知包括稀疏率与准确率的关系、长时间运行功耗、音频/视觉噪声、编译器错误、算子覆盖、量化和模型升级、芯片供货、驱动、调试器、数据隐私、认证、热设计和从评估板到量产的迁移成本。10 倍是公司口径，必须用同一模型、同一任务和同一测量方法复核。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "productVerdict": "femtoAI 是值得观察的 startup signal，原因是它把‘端侧 AI’从芯片宣传推进到开发者可申请的评估链。产品判断：如果工具能让产品团队在早期看见功耗、延迟和精度的真实取舍，它可能帮助穿戴和家电形成更可信的本地交互；在独立测量与量产案例出现前，不能升级为 confirmed product。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。"
+        },
+        "en": {
+          "productName": "femtoAI Developer Community is a developer entry point around an SPU evaluation kit, compressed models, a compiler, and Sparsity Studio. It targets engineering teams building voice, sensor, vision, and robotic devices. The deliverable is a development and evaluation surface, not a consumer product already shown for retail sale. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "productType": "The product is an edge-AI silicon evaluation and model-compression developer surface. SPU, sparse models, the compiler, and the workbench form a model-to-chip trial chain; the company cites wearables, appliances, smart glasses, and robotics as directions. The public material does not state a complete production SKU, process node, compute, interface, OS, price, or certification. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "interactionFlow": "A developer enters the community, obtains or applies for an SPU evaluation kit and tools, selects a model, compresses and compiles it in Sparsity Studio, then compares baseline and compressed accuracy, latency, memory, and power. After evaluation, a device team can map the selected model and operators to target hardware; a product still needs OTA, wake, sensors, connectivity, and user feedback. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "specsOrStack": "The company names an SPU evaluation kit, compressed models, compiler, Sparsity Studio, neural-network sparsity, and model compression. It says OpenAI Whisper can be made smaller in memory and claims 10x power and memory benefits. The public surface does not state SPU TOPS, process node, memory, bus, supported operators, model list, tool version, OS support, or measurement conditions. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "useCases": "Concrete directions include local voice commands, always-on wake, wearable audio, smart-glasses vision and voice, offline appliance control, and low-latency robotic perception. A team can use the kit to reject models that do not fit a power budget before moving a small interaction and its sensitive data on-device. The material does not prove that a terminal has already reached large-scale shipment with the stack. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "painPointsSolved": "It targets memory, battery, heat, and cloud-dependency problems in edge AI. Sparsity and compression may keep continuous listening, sensing, and short responses local, reducing network round trips and privacy exposure; a toolchain may reduce hand-written optimisation for each device. The trade-off is compression error, toolchain lock-in, unsupported operators, debugging complexity, and supply risk for a new chip. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "userVoice": "Public evidence is the femtoAI announcement and developer portal, with no sufficient independent test in this run to verify 10x power, 10x memory, or no-accuracy-loss claims across real wearable and appliance models. It is a meaningful startup signal because tools, silicon, and models are presented together, but company metrics are not system battery or recognition measurements. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "newTech": "The technical combination is a hardware sparse-processing unit paired with model compression, a compiler, and a visual workbench. It turns model-size and device-power optimisation from expert-only tuning into a trialable development flow, with Whisper, local voice commands, and several IoT device classes as examples. Its real differentiation depends on operator coverage, calibration, and a painless fallback to general hardware. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "availability": "femtoAI announced open developer-community access on October 7 and provides an entry at developer.femto.ai. Access conditions, region, price, shipping, support plan, and NDA requirements for the kit, models, and tools must be checked through the application flow. The public material does not state a consumer product date or retail channel. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "limitsOrUnknowns": "Open questions include sparsity versus accuracy, long-run power, audio and vision noise, compiler failures, operator coverage, quantisation, model upgrades, chip supply, drivers, debugging, privacy, certification, thermal design, and the migration cost from evaluation board to production. The 10x figures are company claims and require matched-model, matched-task, matched-method verification. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "productVerdict": "femtoAI is a startup signal worth watching because it moves edge-AI talk toward an application-accessible evaluation chain. Verdict: if the tools expose real power, latency, and accuracy trade-offs early, they could help wearables and appliances build more credible local interactions. Until independent measurement and production cases appear, it should not be upgraded to a confirmed product. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language."
+        }
+      },
+      "eventSourceUrl": "https://www.aap.com.au/aapreleases/cision20261006ae64937/",
+      "event": {
+        "productKey": "femtoai-developer-community-spu",
+        "kind": "announcement",
+        "occurredAt": "2026-10-07",
+        "key": "femtoai-developer-community-spu-2026-10-07",
+        "summaryZh": "femtoAI 10 月 7 日宣布开发者社区开放，提供 Sparse Processing Unit（SPU）芯片评估套件、压缩模型、编译器与 Sparsity Studio。公司称其稀疏神经网络和模型压缩可以带来 10 倍更低功耗与 10 倍更小内存占用，并举出 Whisper 压缩、local voice commands、穿戴、家电、智能眼镜与机器人作为方向。该数字仍是公司声明。",
+        "summaryEn": "On October 7, femtoAI announced open access to its developer community with an SPU chip evaluation kit, compressed models, a compiler, and Sparsity Studio. The company says its sparse neural networks and model compression can deliver 10x lower power draw and a 10x smaller memory footprint, citing compressed Whisper, local voice commands, wearables, appliances, smart glasses, and robotics as directions. The figures remain company claims.",
+        "deltaZh": "这条产品信号的重点是把‘端侧 AI 太大、太热、太耗电’转成开发者可以试的工具链。评估套件让产品团队先用目标模型、语音和传感任务评估内存与功耗，再决定是否把 SPU 放进耳机、眼镜、家居或机器人。它不保证产品自动拥有更好的识别率，也不等于一块评估板已经变成可量产的终端。",
+        "deltaEn": "The product signal is about turning the edge-AI problem—too large, hot, and power-hungry—into a toolchain developers can try. The evaluation kit lets a product team test target models, voice, and sensor tasks against memory and power before deciding whether an SPU belongs in earbuds, glasses, home appliances, or a robot. It does not guarantee better recognition and does not make an evaluation board a mass-produced device."
+      },
+      "brief": {
+        "zh": {
+          "what": "femtoAI Developer Community 是公司开放的边缘 AI 开发者入口，配套 SPU 芯片评估套件、压缩模型、编译器和 Sparsity Studio。它面向做语音、传感、视觉和机器人终端的工程团队，交付的是开发与评估表面，不是…",
+          "change": "开发者进入社区，获取或申请 SPU 评估套件与工具，选择模型并用 Sparsity Studio 做压缩、编译和运行测试，再比较原始/压缩模型的准确率、延迟、内存和功耗。通过评估后，终端团队可以把对应模型和算子映射到目标硬件；最终产品还要处理 OT…",
+          "use": "具体方向包括本地语音命令、持续唤醒、穿戴式音频、智能眼镜的视觉/语音、家电的离线控制，以及机器人上的低延迟感知。产品团队可先用评估套件筛掉不能在功耗预算内运行的模型，再将少量数据和关键交互留在设备侧。公开材料没有证明任何一个终端已经用它完成大规模出…",
+          "limits": "femtoAI 宣布开发者社区在 10 月 7 日开放，developer.femto.ai 提供入口；SPU 评估套件、模型和工具的获取条件、地区、价格、发货、支持计划和 NDA 要求需要以申请流程为准。公开材料没有写明任何消费产品的上市日期或零…"
+        },
+        "en": {
+          "what": "femtoAI Developer Community is a developer entry point around an SPU evaluation kit , compressed models , a compiler , and Sparsity Studio . It targets engineering teams building voice , sensor , vision , and robotic devices . The deliverable is a development and evaluation surface , not a consumer product already shown for retail sale . Any price…",
+          "change": "A developer enters the community , obtains or applies for an SPU evaluation kit and tools , selects a model , compresses and compiles it in Sparsity Studio , then compares baseline and compressed accuracy , latency , memory , and power . After evaluation , a device team can map the selected model and operators to target hardware ;…",
+          "use": "Concrete directions include local voice commands , always-on wake , wearable audio , smart-glasses vision and voice , offline appliance control , and low-latency robotic perception . A team can use the kit to reject models that do not fit a power budget before moving a small interaction and its sensitive data on-device . The material does not prove that…",
+          "limits": "femtoAI announced open developer-community access on October 7 and provides an entry at developer . femto . ai . Access conditions , region , price , shipping , support plan , and NDA requirements for the kit , models , and tools must be checked through the application flow . The public material does not state a consumer product date…"
+        }
+      },
+      "visuals": [
+        {
+          "path": "assets/femtoai-developer-community-2026-10-07.png",
+          "width": 1600,
+          "height": 900,
+          "kind": "source-backed startup developer-surface screenshot",
+          "altZh": "femtoAI 开发者社区入口截图",
+          "altEn": "femtoAI developer-community landing page screenshot",
+          "captionZh": "开发者入口截图：femtoAI 开放 SPU 评估套件、压缩模型、编译器和 Sparsity Studio。",
+          "captionEn": "Developer landing-page screenshot: femtoAI opens access to the SPU evaluation kit, compressed models, compiler, and Sparsity Studio.",
+          "sourceUrl": "https://developer.femto.ai/",
+          "role": "primary evidence",
+          "capturedAt": "2026-10-07T12:20:00-04:00"
+        }
+      ]
+    },
+    {
+      "dossierKind": "scan",
+      "id": "microsoft-windows-surface-local-ai-event-scan-2026-10-07",
+      "section": "official",
+      "sourceDate": "2026-10-07 scheduled event",
+      "evidenceLabel": "weak/unverified",
+      "evidenceStrength": "Microsoft official event page confirms a scheduled Windows/Surface event; the event had not started at 11:05 EDT and expected announcements are not product facts",
+      "zhHeadline": "Microsoft Windows / Surface 活动：本地 AI 预告，暂不升级为发布",
+      "enHeadline": "Microsoft Windows / Surface event: a local-AI preview, not yet a launch fact",
+      "zhFact": "Microsoft 官方页面确认 10 月 7 日太平洋时间 10:00 举行 Windows 与 Surface 活动，主题围绕本地 AI。Windows Central 预期 Surface Laptop Ultra、RTX Spark 和本地 120B 模型演示，但这属于媒体预期；本次采集在多伦多 11:05 EDT，活动尚未开始。扫描记录保留预告、待核实字段与后续观察点，不把未发生的舞台内容写成事实。",
+      "enFact": "Microsoft's official page confirms a Windows and Surface event at 10:00 Pacific on October 7, framed around local AI. Windows Central expected Surface Laptop Ultra, RTX Spark, and local 120B-model demonstrations, but those are media expectations. At 11:05 EDT in this run the event had not started. This scan preserves the preview and its verification boundary rather than presenting an unobserved stage claim as fact.",
+      "zhValue": "本条 scan 的产品信号不是‘微软发布了什么’，而是本地 AI PC 的验收窗口已经被公开预告：应观察模型在哪里运行、离线时能做什么、GPU/NPU/云端如何切换，以及开发者如何知道自己的数据和成本边界。没有现场或官方会后资料前，不记录价格、发售、规格、演示结果或 Windows 新功能。",
+      "enValue": "The product signal is not what Microsoft launched; it is the acceptance window made public for local AI PCs. The watch should be where models run, what remains possible offline, how GPU/NPU/cloud routing is exposed, and how developers see data and cost boundaries. Until an official post-event source or direct observation appears, price, availability, specifications, demo results, and Windows features remain unreported.",
+      "zhImplication": "关注重点是预告是否转成可复现的工作流，而不是发布会口号：用户能否从本地模型切换到云端、知道何时上传、恢复失败任务、观察资源占用，并在不插电时维持可接受体验。活动前的强结论会污染日报的事实层，因此此条明确降权。",
+      "enImplication": "The question is whether the preview becomes a reproducible workflow rather than a keynote phrase: can a user move from local to cloud models, know when data leaves the device, recover a failed task, observe resource use, and retain acceptable performance on battery? Strong pre-event claims would contaminate the fact layer, so this item stays downgraded.",
+      "visual": {
+        "path": "assets/microsoft-windows-surface-event-2026-10-07.png",
+        "width": 1600,
+        "height": 900,
+        "kind": "source-backed official page screenshot",
+        "altZh": "Microsoft Windows 与 Surface 2026 年 10 月 7 日活动官方预告截图",
+        "altEn": "Microsoft official preview screenshot for the October 7 Windows and Surface event",
+        "captionZh": "官方预告截图：活动主题是 Windows、Surface 与本地 AI；活动尚未开始，不能把预告升级为发布事实。",
+        "captionEn": "Official preview screenshot: the event is framed around Windows, Surface, and local AI; it had not started in this run and is not treated as a launch fact.",
+        "sourceUrl": "https://news.microsoft.com/windows-surface-october-2026-news/"
+      },
+      "sources": [
+        {
+          "label": "Microsoft Windows and Surface October 2026 event page",
+          "url": "https://news.microsoft.com/windows-surface-october-2026-news/",
+          "type": "official",
+          "isPrimary": true,
+          "publishedAt": "2026-09-16T00:00:00-04:00",
+          "verifiedAt": "2026-10-07T12:20:00-04:00",
+          "dateEvidence": {
+            "kind": "effective-date",
+            "date": "2026-10-07",
+            "quote": "Join us at 10 a.m. PT on Wednesday, Oct. 7, for the latest on Windows and Microsoft Surface."
+          }
+        },
+        {
+          "label": "Microsoft Surface Laptop Ultra product page",
+          "url": "https://www.microsoft.com/en-us/surface/devices/surface-laptop-ultra",
+          "type": "official",
+          "isPrimary": false,
+          "publishedAt": "2026-10-07T00:00:00-04:00",
+          "verifiedAt": "2026-10-07T12:20:00-04:00"
+        },
+        {
+          "label": "Windows Central event preview",
+          "url": "https://www.windowscentral.com/microsoft/windows-11/what-to-expect-at-microsofts-special-windows-and-surface-event-on-october-7-surface-laptop-ultra-and-rtx-spark-revealed-new-agentic-os-capabilities-and-more",
+          "type": "reviews",
+          "isPrimary": false,
+          "publishedAt": "2026-10-07T00:00:00-04:00",
+          "verifiedAt": "2026-10-07T12:20:00-04:00"
+        }
+      ],
+      "dossier": {
+        "zh": {
+          "productName": "本条是 Microsoft Windows / Surface 活动的 source-lane scan，不是新产品确认。官方页面只确认时间与主题；Surface Laptop Ultra 和 RTX Spark 的既有产品页可以作为背景，但 10 月 7 日活动的新增信息在本次采集时尚未出现。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "productType": "产品类型暂记为 scheduled platform/product event。它可能涉及 Windows 本地 AI、Surface Laptop Ultra、RTX Spark 和开发者工作流，但官方预告没有给出这场活动的完整产品清单、价格、版本或发布状态。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "interactionFlow": "待观察的流程是用户在 Windows 上启动本地模型或 Agent，执行文件、代码、创作或多模态任务，在算力不足、断网或权限受限时切换到云端，并看到数据、模型、功耗和失败恢复状态。活动前没有可核验的完整流程，因此不把媒体预期写成事实。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "specsOrStack": "官方预告只说明 Windows、Surface、本地 AI 和活动时间。既有 Surface Laptop Ultra 页面提到 NVIDIA 芯片、最高 1 petaflop AI compute 与热系统，但这些是产品页背景，不证明 10 月 7 日新增的演示或版本。活动现场、开发者文档、价格、地区、内存、模型和 API 仍待核实。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "useCases": "扫描关注开发者本地运行大模型、创作者的离线/本地渲染、企业数据不出设备的 Agent 工作流，以及本地与云端之间的按需切换。没有会后官方资料前，不能确认任何一个用例已经被新软件或新硬件闭环。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "painPointsSolved": "如果预告转成产品，它应回应云成本、网络延迟、敏感数据外传和本地算力不足的痛点；如果只展示性能数字，用户仍不知道何时上传、谁能访问、断网如何恢复以及电池会付出什么代价。当前 scan 只记录待观察的产品问题。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "userVoice": "Windows Central 的预览与社区讨论表达了对 Surface Laptop Ultra 和 RTX Spark 的期待，也提醒 Windows AI 过去的发布曾引发信任摩擦。这是媒体/社区信号，不是现场使用结果；本次没有把期待升级为评价。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "newTech": "待观察的技术点是 RTX Spark 与 Windows 的本地 Agent、GPU/NPU/云端路由、120B 级模型的设备侧运行和开发者工具链。官方活动页没有在本次采集前确认这些内容，因此全部保持 weak/unverified。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "availability": "活动本身由 Microsoft 官方页面预告，时间为 10 月 7 日 10:00 PT；具体产品上市、价格、地区和可用性尚未由本条来源确认。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "limitsOrUnknowns": "未知包括活动是否按时播出、是否公布新 SKU、实际内存与功耗、模型大小与量化、离线能力、API/SDK、企业管理、隐私、可维修性和真实续航。任何媒体预期都要等官方会后材料或独立实测复核。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "productVerdict": "这是一个必须保留的 official scan：有明确事件入口，但当前没有新的已核实产品界面可以升级。产品判断暂缓；下一观察动作是活动结束后重新查 Microsoft 官方公告、Surface 产品页、开发者文档和现场评测，再决定是否形成 10 月 8 日 dossier。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。"
+        },
+        "en": {
+          "productName": "This is a source-lane scan of Microsoft's Windows and Surface event, not a confirmed new product. The official page confirms the time and theme; existing Surface Laptop Ultra and RTX Spark pages provide background, but no new event information had appeared in this run. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "productType": "The product type is a scheduled platform and product event. It may cover Windows local AI, Surface Laptop Ultra, RTX Spark, and developer workflows, but the preview does not provide a complete product list, price, version, or launch status. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "interactionFlow": "The flow to watch is a user starting a local model or agent on Windows, working with files, code, creative assets, or multimodal inputs, then moving to cloud compute when local resources, network, or permissions require it while seeing data, model, power, and recovery state. No complete verifiable flow was available before the event. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "specsOrStack": "The official preview only states Windows, Surface, local AI, and the event time. The existing Surface Laptop Ultra page mentions an NVIDIA chip, up to one petaflop of AI compute, and a thermal system, but that is background and does not prove an October 7 demo or release. Event claims, price, region, memory, model, and API remain to be checked. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "useCases": "The scan watches local large-model development, creator workflows that need offline or local rendering, enterprise agents that keep sensitive data on-device, and on-demand local/cloud escalation. Without post-event official material, none of these should be called a newly closed workflow. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "painPointsSolved": "If the preview becomes a product, it should address cloud cost, network latency, sensitive-data egress, and insufficient local compute. If it only shows performance numbers, users still will not know when data uploads, who can access it, how offline recovery works, or what battery cost is. This scan records the product questions only. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "userVoice": "Windows Central previewed Surface Laptop Ultra and RTX Spark with evident reader interest, while community discussion also recalled trust friction around earlier Windows AI launches. These are media and community signals, not hands-on evidence, so the scan does not upgrade them into a verdict. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "newTech": "The technical items to watch are RTX Spark with Windows-native agents, GPU/NPU/cloud routing, device-side operation of 120B-class models, and the developer toolchain. The official preview had not confirmed those details during this run, so they remain weak/unverified. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "availability": "Microsoft's official page confirms a scheduled event at 10:00 PT on October 7. Product availability, price, region, and shipping are not confirmed by this scan. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "limitsOrUnknowns": "Open questions include whether the event airs on time, new SKUs, actual memory and power, model size and quantisation, offline support, API/SDK, enterprise management, privacy, repairability, and real battery life. Every media expectation needs an official post-event source or independent hands-on check. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "productVerdict": "This is a required official scan: the event entry is real, but no new verified product interface was available to promote. Verdict is deferred. The next action is to re-check Microsoft's post-event announcement, Surface pages, developer docs, and hands-on coverage before turning it into an October 8 dossier. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language."
+        }
+      },
+      "eventSourceUrl": "https://news.microsoft.com/windows-surface-october-2026-news/",
+      "event": {
+        "productKey": "microsoft-windows-surface-local-ai-event-scan",
+        "kind": "scan",
+        "occurredAt": "2026-10-07",
+        "key": "microsoft-windows-surface-local-ai-event-scan-2026-10-07",
+        "summaryZh": "Microsoft 官方页面确认 10 月 7 日太平洋时间 10:00 举行 Windows 与 Surface 活动，主题围绕本地 AI。Windows Central 预期 Surface Laptop Ultra、RTX Spark 和本地 120B 模型演示，但这属于媒体预期；本次采集在多伦多 11:05 EDT，活动尚未开始。扫描记录保留预告、待核实字段与后续观察点，不把未发生的舞台内容写成事实。",
+        "summaryEn": "Microsoft's official page confirms a Windows and Surface event at 10:00 Pacific on October 7, framed around local AI. Windows Central expected Surface Laptop Ultra, RTX Spark, and local 120B-model demonstrations, but those are media expectations. At 11:05 EDT in this run the event had not started. This scan preserves the preview and its verification boundary rather than presenting an unobserved stage claim as fact.",
+        "deltaZh": "本条 scan 的产品信号不是‘微软发布了什么’，而是本地 AI PC 的验收窗口已经被公开预告：应观察模型在哪里运行、离线时能做什么、GPU/NPU/云端如何切换，以及开发者如何知道自己的数据和成本边界。没有现场或官方会后资料前，不记录价格、发售、规格、演示结果或 Windows 新功能。",
+        "deltaEn": "The product signal is not what Microsoft launched; it is the acceptance window made public for local AI PCs. The watch should be where models run, what remains possible offline, how GPU/NPU/cloud routing is exposed, and how developers see data and cost boundaries. Until an official post-event source or direct observation appears, price, availability, specifications, demo results, and Windows features remain unreported."
+      },
+      "brief": {
+        "zh": {
+          "what": "本条是 Microsoft Windows / Surface 活动的 source-lane scan，不是新产品确认。官方页面只确认时间与主题；Surface Laptop Ultra 和 RTX Spark 的既有产品页可以作为背景，但 10…",
+          "change": "待观察的流程是用户在 Windows 上启动本地模型或 Agent，执行文件、代码、创作或多模态任务，在算力不足、断网或权限受限时切换到云端，并看到数据、模型、功耗和失败恢复状态。活动前没有可核验的完整流程，因此不把媒体预期写成事实。 来源未披露的…",
+          "use": "扫描关注开发者本地运行大模型、创作者的离线/本地渲染、企业数据不出设备的 Agent 工作流，以及本地与云端之间的按需切换。没有会后官方资料前，不能确认任何一个用例已经被新软件或新硬件闭环。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和…",
+          "limits": "活动本身由 Microsoft 官方页面预告，时间为 10 月 7 日 10:00 PT；具体产品上市、价格、地区和可用性尚未由本条来源确认。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stat…"
+        },
+        "en": {
+          "what": "This is a source-lane scan of Microsoft's Windows and Surface event , not a confirmed new product . The official page confirms the time and theme ; existing Surface Laptop Ultra and RTX Spark pages provide background , but no new event information had appeared in this run . Any price , version , region , interface , battery ,…",
+          "change": "The flow to watch is a user starting a local model or agent on Windows , working with files , code , creative assets , or multimodal inputs , then moving to cloud compute when local resources , network , or permissions require it while seeing data , model , power , and recovery state . No complete verifiable flow…",
+          "use": "The scan watches local large-model development , creator workflows that need offline or local rendering , enterprise agents that keep sensitive data on-device , and on-demand local / cloud escalation . Without post-event official material , none of these should be called a newly closed workflow . Any price , version , region , interface , battery , success rate…",
+          "limits": "Microsoft's official page confirms a scheduled event at 10 : 00 PT on October 7 . Product availability , price , region , and shipping are not confirmed by this scan . Any price , version , region , interface , battery , success rate , privacy , or delivery detail not disclosed by the cited source remains source not…"
+        }
+      },
+      "visuals": [
+        {
+          "path": "assets/microsoft-windows-surface-event-2026-10-07.png",
+          "width": 1600,
+          "height": 900,
+          "kind": "source-backed official page screenshot",
+          "altZh": "Microsoft Windows 与 Surface 2026 年 10 月 7 日活动官方预告截图",
+          "altEn": "Microsoft official preview screenshot for the October 7 Windows and Surface event",
+          "captionZh": "官方预告截图：活动主题是 Windows、Surface 与本地 AI；活动尚未开始，不能把预告升级为发布事实。",
+          "captionEn": "Official preview screenshot: the event is framed around Windows, Surface, and local AI; it had not started in this run and is not treated as a launch fact.",
+          "sourceUrl": "https://news.microsoft.com/windows-surface-october-2026-news/",
+          "role": "primary evidence",
+          "capturedAt": "2026-10-07T12:20:00-04:00"
+        }
+      ]
+    },
+    {
+      "dossierKind": "scan",
+      "id": "ericsson-torch-it-ai-glasses-global-scan-2026-10-07",
+      "section": "global",
+      "sourceDate": "2026-10-07",
+      "evidenceLabel": "weak/unverified",
+      "evidenceStrength": "Single global-media report of an India Mobile Congress demonstration; no official product page, specs, purchase path, or independent hands-on found in this run",
+      "zhHeadline": "Torch It / Ericsson：助视 AI 眼镜演示仍是全球弱信号",
+      "enHeadline": "Torch It / Ericsson remains a weak global signal for assistive AI glasses",
+      "zhFact": "印度媒体报道 Ericsson 在 India Mobile Congress 2026 展示 Torch It 的助视技术：智能眼镜与 Jyoti AI 生态可把印刷文字、图像和图表转为语音，面向视障用户的学习与工作场景。当前证据只有单篇媒体报道，本次未找到官方产品页、硬件型号、传感器、延迟、语言范围、价格、购买路径或独立实测，因此不写成 confirmed product。",
+      "enFact": "An Indian media report says Ericsson showcased Torch It's assistive technology at India Mobile Congress 2026, with smart glasses and the Jyoti AI ecosystem turning printed text, images, and diagrams into speech for education and work scenarios involving people with visual impairments. This run found only the single media report, not an official product page, hardware model, sensor, latency, language list, price, purchase path, or independent test, so it remains unverified.",
+      "zhValue": "它提供一个具体但尚未闭环的产品方向：把图表和视觉信息转成可听的解释，而不仅是 OCR 读字。对用户，真正关键是读错时能否追问、重复、定位原文、降低信息密度，以及在教室、办公室和街道等噪声环境中不打断用户。当前没有证据证明这些交互已经存在。",
+      "enValue": "It points to a concrete but unclosed product direction: turning diagrams and visual information into an audible explanation rather than only reading OCR text. For users, the real questions are whether they can ask for a repeat, locate the original, control information density, and avoid interruption in classrooms, offices, and streets. No evidence in this run proves those interactions exist.",
+      "zhImplication": "后续要查的是可用性和交互闭环：用户能否知道系统看到了什么、要求更短或更详细的描述、纠正错误、切换语言、暂停麦克风，以及在隐私敏感场景删除图像。只有官方材料或实测补齐这些字段，才值得提升证据等级。",
+      "enImplication": "The follow-up should test usability and control: can a user see what the system perceived, request a shorter or richer description, correct an error, change language, pause the microphone, and delete an image in a sensitive setting? Only official material or hands-on evidence should raise the evidence level.",
+      "visual": {
+        "path": "assets/ericsson-torch-it-global-scan-2026-10-07.png",
+        "width": 1600,
+        "height": 900,
+        "kind": "source-backed global media scan visual",
+        "altZh": "印度媒体对 Ericsson / Torch It 助视 AI 眼镜演示的报道截图",
+        "altEn": "Indian media report screenshot covering the Ericsson / Torch It assistive AI-glasses demonstration",
+        "captionZh": "全球 lane 弱信号：媒体报道 Torch It 将文字、图表和图像转成语音，但本次未找到产品规格、购买路径或独立实测。",
+        "captionEn": "Global-lane weak signal: media reports Torch It turning text, diagrams, and images into speech, but this run found no product specs, purchase path, or independent test.",
+        "sourceUrl": "https://gadgetsnow.indiatimes.com/tech-news/ericssons-torch-it-ai-glasses-turn-text-diagrams-and-images-into-sound-for-visually-impaired-users/articleshow/134762340.cms"
+      },
+      "sources": [
+        {
+          "label": "Gadgets Now report on Ericsson / Torch It",
+          "url": "https://gadgetsnow.indiatimes.com/tech-news/ericssons-torch-it-ai-glasses-turn-text-diagrams-and-images-into-sound-for-visually-impaired-users/articleshow/134762340.cms",
+          "type": "global",
+          "isPrimary": true,
+          "publishedAt": "2026-10-07T00:00:00-04:00",
+          "verifiedAt": "2026-10-07T12:20:00-04:00"
+        },
+        {
+          "label": "Ericsson newsroom",
+          "url": "https://www.ericsson.com/en/press-releases",
+          "type": "official",
+          "isPrimary": false,
+          "publishedAt": "2026-10-07T00:00:00-04:00",
+          "verifiedAt": "2026-10-07T12:20:00-04:00"
+        }
+      ],
+      "dossier": {
+        "zh": {
+          "productName": "Torch It / Jyoti AI 是媒体报道中的助视 AI 眼镜与生态演示名称；本次没有找到足够官方材料确认最终产品形态。报道描述文字、图像和图表转语音，面向视障用户的教育与工作场景。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "productType": "产品类型暂记为 assistive smart-glasses demonstration / global scan。它可能包含眼镜摄像头、语音输出和云端或边缘 AI，但传感器、计算位置、系统、模型、连接和配套应用均为 source not stated。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "interactionFlow": "报道暗示用户佩戴眼镜后，系统获取印刷内容或视觉信息，再通过语音描述给用户。没有公开完整的拍摄确认、问答追问、重复、暂停、语言切换、错误纠正、删除和人工接管流程。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "specsOrStack": "公开报道只提到智能眼镜、AI 和 Jyoti 生态，没有硬件型号、摄像头、麦克风、音频方式、网络、模型版本、延迟、电池、语言或 API 规格。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "useCases": "潜在用例包括阅读教材、听懂图表、理解工作文件和获取现场视觉描述。报道没有证明产品在教室、办公室、街道或弱网环境完成稳定闭环。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "painPointsSolved": "它可能回应视障用户获取视觉信息和图表信息的障碍，并把视觉界面转成可听反馈；但没有证据证明错误率、信息密度、打断频率、隐私或佩戴舒适度已被解决。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "userVoice": "本次只找到一篇全球媒体报道，没有视障用户长期试用、无障碍专家评测或社区反馈。用户声音字段因此明确为缺失，而不是用媒体描述代替。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "newTech": "可能的新技术是视觉理解与语音反馈结合，并扩展到图表解释；但没有官方技术文档，不能确认使用的模型、端侧推理或传感器融合。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "availability": "没有确认的购买链接、价格、地区、发布日或开发者入口。它只能作为 global lane 的 weak/unverified scan 保留。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "limitsOrUnknowns": "未知包括视觉误读、图表解释能力、延迟、语言、隐私、录音提示、数据留存、断网、续航、佩戴、音频泄漏、无障碍认证和服务支持。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。",
+          "productVerdict": "这是一个值得回查的全球弱信号：问题真实、用例具体，但产品证据不完整。下一步应寻找 Ericsson/Torch It 官方资料、现场演示、无障碍用户试用和技术规格；当前不能把媒体报道写成已售 AI 眼镜。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图片或宣传语推断。"
+        },
+        "en": {
+          "productName": "Torch It / Jyoti AI is the name of an assistive smart-glasses and ecosystem demonstration described in media; this run found insufficient official material to confirm a final product form. The report describes speech output for text, images, and diagrams in education and work scenarios for people with visual impairments. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "productType": "The product type is an assistive smart-glasses demonstration and global scan. It may include a glasses camera, audio output, and cloud or edge AI, but sensor, compute location, system, model, connectivity, and companion app remain source not stated. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "interactionFlow": "The report suggests that the user wears the glasses, the system captures printed material or a scene, and audio describes it. No complete capture confirmation, follow-up question, repeat, pause, language switch, correction, deletion, or human takeover flow is public in the cited evidence. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "specsOrStack": "The report only mentions smart glasses, AI, and the Jyoti ecosystem. It does not provide hardware model, camera, microphone, audio method, network, model version, latency, battery, language, or API specifications. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "useCases": "Potential cases include reading study material, understanding diagrams, interpreting work documents, and receiving scene descriptions. The report does not prove a stable loop in classrooms, offices, streets, or weak-network conditions. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "painPointsSolved": "It may address access to visual and diagram information for people with visual impairments by converting visual interfaces into audio. There is no evidence yet for error rate, information density, interruption, privacy, or wearing comfort. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "userVoice": "This run found one global media report and no long-term trial by blind or low-vision users, accessibility expert review, or community feedback. The user-voice field is therefore explicitly missing rather than replaced with a media summary. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "newTech": "The possible technical move is combining visual understanding with speech feedback and extending it to diagram explanation. Without official technical documentation, the model, on-device inference, and sensor fusion cannot be confirmed. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "availability": "No verified purchase link, price, region, release date, or developer entry was found. It remains a weak/unverified global-lane scan. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "limitsOrUnknowns": "Open questions include visual errors, diagram explanation, latency, language, privacy, recording indicators, retention, offline behaviour, battery, fit, audio leakage, accessibility certification, and support. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language.",
+          "productVerdict": "This is a global weak signal worth rechecking: the problem and use case are concrete, but the product evidence is incomplete. The next action is to find Ericsson/Torch It official material, a live demo, accessibility-user testing, and technical specifications; the media report is not yet a confirmed retail AI-glasses product. Any price, version, region, interface, battery, success rate, privacy, or delivery detail not disclosed by the cited source remains source not stated; it is not inferred from product imagery or marketing language."
+        }
+      },
+      "eventSourceUrl": "https://gadgetsnow.indiatimes.com/tech-news/ericssons-torch-it-ai-glasses-turn-text-diagrams-and-images-into-sound-for-visually-impaired-users/articleshow/134762340.cms",
+      "event": {
+        "productKey": "ericsson-torch-it-ai-glasses-global-scan",
+        "kind": "scan",
+        "occurredAt": "2026-10-07",
+        "key": "ericsson-torch-it-ai-glasses-global-scan-2026-10-07",
+        "summaryZh": "印度媒体报道 Ericsson 在 India Mobile Congress 2026 展示 Torch It 的助视技术：智能眼镜与 Jyoti AI 生态可把印刷文字、图像和图表转为语音，面向视障用户的学习与工作场景。当前证据只有单篇媒体报道，本次未找到官方产品页、硬件型号、传感器、延迟、语言范围、价格、购买路径或独立实测，因此不写成 confirmed product。",
+        "summaryEn": "An Indian media report says Ericsson showcased Torch It's assistive technology at India Mobile Congress 2026, with smart glasses and the Jyoti AI ecosystem turning printed text, images, and diagrams into speech for education and work scenarios involving people with visual impairments. This run found only the single media report, not an official product page, hardware model, sensor, latency, language list, price, purchase path, or independent test, so it remains unverified.",
+        "deltaZh": "它提供一个具体但尚未闭环的产品方向：把图表和视觉信息转成可听的解释，而不仅是 OCR 读字。对用户，真正关键是读错时能否追问、重复、定位原文、降低信息密度，以及在教室、办公室和街道等噪声环境中不打断用户。当前没有证据证明这些交互已经存在。",
+        "deltaEn": "It points to a concrete but unclosed product direction: turning diagrams and visual information into an audible explanation rather than only reading OCR text. For users, the real questions are whether they can ask for a repeat, locate the original, control information density, and avoid interruption in classrooms, offices, and streets. No evidence in this run proves those interactions exist."
+      },
+      "brief": {
+        "zh": {
+          "what": "Torch It / Jyoti AI 是媒体报道中的助视 AI 眼镜与生态演示名称；本次没有找到足够官方材料确认最终产品形态。报道描述文字、图像和图表转语音，面向视障用户的教育与工作场景。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和…",
+          "change": "报道暗示用户佩戴眼镜后，系统获取印刷内容或视觉信息，再通过语音描述给用户。没有公开完整的拍摄确认、问答追问、重复、暂停、语言切换、错误纠正、删除和人工接管流程。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source…",
+          "use": "潜在用例包括阅读教材、听懂图表、理解工作文件和获取现场视觉描述。报道没有证明产品在教室、办公室、街道或弱网环境完成稳定闭环。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not stated；不能从产品图…",
+          "limits": "没有确认的购买链接、价格、地区、发布日或开发者入口。它只能作为 global lane 的 weak/unverified scan 保留。 来源未披露的价格、版本、地区、接口、续航、成功率、隐私和交付细节均保留为 source not state…"
+        },
+        "en": {
+          "what": "Torch It / Jyoti AI is the name of an assistive smart-glasses and ecosystem demonstration described in media ; this run found insufficient official material to confirm a final product form . The report describes speech output for text , images , and diagrams in education and work scenarios for people with visual impairments . Any price , version ,…",
+          "change": "The report suggests that the user wears the glasses , the system captures printed material or a scene , and audio describes it . No complete capture confirmation , follow-up question , repeat , pause , language switch , correction , deletion , or human takeover flow is public in the cited evidence . Any price , version , region…",
+          "use": "Potential cases include reading study material , understanding diagrams , interpreting work documents , and receiving scene descriptions . The report does not prove a stable loop in classrooms , offices , streets , or weak-network conditions . Any price , version , region , interface , battery , success rate , privacy , or delivery detail not disclosed by…",
+          "limits": "No verified purchase link , price , region , release date , or developer entry was found . It remains a weak / unverified global-lane scan . Any price , version , region , interface , battery , success rate , privacy , or delivery detail not disclosed by the cited source remains source not stated ; it is not…"
+        }
+      },
+      "visuals": [
+        {
+          "path": "assets/ericsson-torch-it-global-scan-2026-10-07.png",
+          "width": 1600,
+          "height": 900,
+          "kind": "source-backed global media scan visual",
+          "altZh": "印度媒体对 Ericsson / Torch It 助视 AI 眼镜演示的报道截图",
+          "altEn": "Indian media report screenshot covering the Ericsson / Torch It assistive AI-glasses demonstration",
+          "captionZh": "全球 lane 弱信号：媒体报道 Torch It 将文字、图表和图像转成语音，但本次未找到产品规格、购买路径或独立实测。",
+          "captionEn": "Global-lane weak signal: media reports Torch It turning text, diagrams, and images into speech, but this run found no product specs, purchase path, or independent test.",
+          "sourceUrl": "https://gadgetsnow.indiatimes.com/tech-news/ericssons-torch-it-ai-glasses-turn-text-diagrams-and-images-into-sound-for-visually-impaired-users/articleshow/134762340.cms",
+          "role": "primary evidence",
+          "capturedAt": "2026-10-07T12:20:00-04:00"
+        }
+      ]
+    }
+  ],
+  "contextCandidates": []
+}
