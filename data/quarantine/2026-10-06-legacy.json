@@ -1,0 +1,139 @@
+{
+  "date": "2026-10-06",
+  "status": "withheld-from-current-edition",
+  "originalArchive": "data/issues.json",
+  "originalArchiveGitBlob": "f8ca8f7119720b1887b639f81f14fb33a17dc962",
+  "note": "Original dossiers remain byte-for-byte in the legacy archive. These five additions are not validated latest news; a legacy issue/sourceDate alone does not establish source publication or a new event. Reconsider only after independent dated evidence and archive deduplication.",
+  "topics": [
+    {
+      "id": "intel-openshell-enterprise-agent-governance-2026-10-06",
+      "zhHeadline": "Intel + NVIDIA OpenShell：让 Agent 的每次外联先过策略闸门",
+      "enHeadline": "Intel + NVIDIA OpenShell puts an enforcement gate beside every agent action",
+      "unverifiedLegacyDate": "2026-10-05",
+      "reason": "No retained independently verified publication/update/effective-date evidence for this original Oct6 addition. Do not infer novelty from its issue date.",
+      "sources": [
+        {
+          "label": "Intel OpenShell integration announcement",
+          "url": "https://www.intel.com/content/www/us/en/newsroom/news/data-center/intel-agent-toolkit-adds-nvidia-openshell-for-policy-enforced-sandboxes.html",
+          "type": "official"
+        },
+        {
+          "label": "NVIDIA OpenShell repository and runtime",
+          "url": "https://github.com/NVIDIA/OpenShell",
+          "type": "developer docs"
+        },
+        {
+          "label": "Intel Enterprise Agent Toolkit",
+          "url": "https://github.com/intel/enterprise-agent-toolkit",
+          "type": "developer docs"
+        },
+        {
+          "label": "OpenShell integration guide",
+          "url": "https://github.com/intel/enterprise-agent-toolkit/blob/main/docs/openshell.md",
+          "type": "developer docs"
+        }
+      ]
+    },
+    {
+      "id": "asus-rog-zephyrus-g14-2026-virtual-assistant-2026-10-06",
+      "zhHeadline": "ASUS ROG Zephyrus G14 2026：本地 AI PC 把助手、文档与游戏塞进一台薄机",
+      "enHeadline": "ASUS ROG Zephyrus G14 2026 makes local AI part of a thin gaming PC",
+      "unverifiedLegacyDate": "2026-10-05 current review and official page sweep",
+      "reason": "No retained independently verified publication/update/effective-date evidence for this original Oct6 addition. Do not infer novelty from its issue date.",
+      "sources": [
+        {
+          "label": "ASUS ROG Zephyrus G14 2026 product page",
+          "url": "https://rog.asus.com/us/laptops/rog-zephyrus/rog-zephyrus-g14-2026-gu405/",
+          "type": "official"
+        },
+        {
+          "label": "ASUS Singapore G14 2026 specification page",
+          "url": "https://rog.asus.com/sg/laptops/rog-zephyrus/rog-zephyrus-g14-2026-gu405/spec/",
+          "type": "official"
+        },
+        {
+          "label": "Tom's Guide G14 2026 review",
+          "url": "https://www.tomsguide.com/computing/gaming-laptops/asus-rog-zephyrus-g14-2026-review",
+          "type": "reviews"
+        }
+      ]
+    },
+    {
+      "id": "meta-ray-ban-display-hands-on-review-2026-10-06",
+      "zhHeadline": "Meta Ray-Ban Display 上手：字幕很有说服力，手机配对仍未被证明",
+      "enHeadline": "Meta Ray-Ban Display hands-on: captions convince, full phone pairing remains unproven",
+      "unverifiedLegacyDate": "2026-10-03 review / 2026-10-06 follow-up",
+      "reason": "No retained independently verified publication/update/effective-date evidence for this original Oct6 addition. Do not infer novelty from its issue date.",
+      "sources": [
+        {
+          "label": "Digital Camera World Meta Ray-Ban Display hands-on",
+          "url": "https://www.digitalcameraworld.com/tech/its-both-brilliant-and-profoundly-unsettling-at-the-same-time-i-finally-had-a-hands-on-test-of-the-new-meta-ray-ban-display-glasses",
+          "type": "reviews"
+        },
+        {
+          "label": "Meta Connect 2026 product and availability update",
+          "url": "https://about.fb.com/news/2026/09/the-biggest-news-from-connect-2026/",
+          "type": "official"
+        },
+        {
+          "label": "Meta Ray-Ban Display product page",
+          "url": "https://www.meta.com/smart-glasses/meta-ray-ban-display/",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-rtx-spark-pair-local-agent-network-2026-10-06",
+      "zhHeadline": "NVIDIA RTX Spark + PAIR：把家里的多台机器变成 Agent 的本地路由",
+      "enHeadline": "NVIDIA RTX Spark + PAIR turns a local network into an agent router",
+      "unverifiedLegacyDate": "2026-09-03 announcement / 2026-10-06 availability follow-up",
+      "reason": "No retained independently verified publication/update/effective-date evidence for this original Oct6 addition. Do not infer novelty from its issue date.",
+      "sources": [
+        {
+          "label": "NVIDIA local AI, PAIR, and RTX Spark announcement",
+          "url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
+          "type": "official"
+        },
+        {
+          "label": "NVIDIA RTX AI PC hub",
+          "url": "https://www.nvidia.com/en-us/ai-on-rtx/",
+          "type": "official"
+        },
+        {
+          "label": "Perplexity Portable Computer",
+          "url": "https://www.perplexity.ai/portable-computer",
+          "type": "developer surface"
+        },
+        {
+          "label": "Hermes Agent",
+          "url": "https://github.com/NousResearch/hermes-agent",
+          "type": "developer docs"
+        }
+      ]
+    },
+    {
+      "id": "wuqi-quectel-hawk-dolphin-ai-xr-reference-design-2026-10-06",
+      "zhHeadline": "物奇微 + 移远 Hawk/Dolphin：国产 AI 眼镜开始把续航拆成双芯与 Wi-Fi 问题",
+      "enHeadline": "Wuqi Micro + Quectel Hawk/Dolphin splits AI-glasses endurance into chips and Wi-Fi",
+      "unverifiedLegacyDate": "2026 current XR ecosystem announcement",
+      "reason": "No retained independently verified publication/update/effective-date evidence for this original Oct6 addition. Do not infer novelty from its issue date.",
+      "sources": [
+        {
+          "label": "Wuqi Micro Hawk/Dolphin AI+XR ecosystem report",
+          "url": "https://www.wuqi-micro.com/about-wuqi/news-and-events/newss/85",
+          "type": "china"
+        },
+        {
+          "label": "Quectel XR solutions and ecosystem context",
+          "url": "https://www.quectel.com/news-and-blog/",
+          "type": "official"
+        },
+        {
+          "label": "Wuqi Micro WQ7036 product family",
+          "url": "https://www.wuqi-micro.com/product/audio/wq7036",
+          "type": "developer docs"
+        }
+      ]
+    }
+  ]
+}

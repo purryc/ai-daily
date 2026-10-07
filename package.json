@@ -6,8 +6,14 @@
   "scripts": {
     "build": "node scripts/render-site.mjs",
     "pdf": "node scripts/export-pdfs.mjs",
+    "pdf:static": "node scripts/export-static-pdfs.mjs",
     "build:all": "npm run build && npm run pdf",
-    "check": "node scripts/check-site.mjs"
+    "check": "node scripts/check-site.mjs",
+    "test": "node --test tests/*.test.mjs tests/browser/*.test.mjs",
+    "issue": "node scripts/create-issue.mjs",
+    "test:browser": "node --test tests/browser/*.test.mjs",
+    "test:all": "npm test",
+    "test:unit": "node --test tests/*.test.mjs"
   },
   "devDependencies": {
     "playwright": "^1.61.0"

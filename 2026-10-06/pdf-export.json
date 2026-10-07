@@ -1,0 +1,168 @@
+{
+  "renderer": "reportlab",
+  "date": "2026-10-06",
+  "pages": {
+    "zh": 18,
+    "en": 18
+  },
+  "sourceDataSha256": "d2bbd044fa2d51c6daa7c8fae41b967c91b4f9d5244598ca51bf4b2e9b19928e",
+  "editorialPagePlan": [
+    {
+      "id": "overview",
+      "type": "contents",
+      "topicIds": [
+        "ghost-core-preorder-2026-10-05",
+        "coco-deliveroo-uk-rollout-announced-2026-10-05",
+        "openvision-keychain-speech-fallback-2026-10-04",
+        "mulligan-real-robot-supervised-learning-2026-10-05",
+        "reflection-beam-announcement-2026-10-05",
+        "bazaarbench-preprint-2026-10-05",
+        "hyperframes-studio-desktop-v0-8-137-2026-10-06",
+        "cua-driver-motion-0-34-0-2026-10-05",
+        "learnsched-preprint-2026-10-05",
+        "safeworld-seed-platform-2026-10-05",
+        "cohere-north-2-platform-release-2026-10-05",
+        "claude-cowork-pro-max-cloud-effective-2026-10-06",
+        "surface-physical-ai-inputs-announced-2026-09-24",
+        "starkey-omega-ai-plus-hearing-family-2026-10-01",
+        "digit5-fort-offboard-safety-announced-2026-10-01",
+        "meta-emg-remapping-patent-context-2026-10-01"
+      ]
+    },
+    {
+      "id": "event-1",
+      "type": "product",
+      "topicIds": [
+        "ghost-core-preorder-2026-10-05"
+      ]
+    },
+    {
+      "id": "event-2",
+      "type": "product",
+      "topicIds": [
+        "coco-deliveroo-uk-rollout-announced-2026-10-05"
+      ]
+    },
+    {
+      "id": "event-3",
+      "type": "product",
+      "topicIds": [
+        "openvision-keychain-speech-fallback-2026-10-04"
+      ]
+    },
+    {
+      "id": "event-4",
+      "type": "product",
+      "topicIds": [
+        "mulligan-real-robot-supervised-learning-2026-10-05"
+      ]
+    },
+    {
+      "id": "event-5",
+      "type": "product",
+      "topicIds": [
+        "reflection-beam-announcement-2026-10-05"
+      ]
+    },
+    {
+      "id": "event-6",
+      "type": "product",
+      "topicIds": [
+        "bazaarbench-preprint-2026-10-05"
+      ]
+    },
+    {
+      "id": "event-7",
+      "type": "product",
+      "topicIds": [
+        "hyperframes-studio-desktop-v0-8-137-2026-10-06"
+      ]
+    },
+    {
+      "id": "event-8",
+      "type": "product",
+      "topicIds": [
+        "cua-driver-motion-0-34-0-2026-10-05"
+      ]
+    },
+    {
+      "id": "event-9",
+      "type": "product",
+      "topicIds": [
+        "learnsched-preprint-2026-10-05"
+      ]
+    },
+    {
+      "id": "event-10",
+      "type": "product",
+      "topicIds": [
+        "safeworld-seed-platform-2026-10-05"
+      ]
+    },
+    {
+      "id": "event-11",
+      "type": "product",
+      "topicIds": [
+        "cohere-north-2-platform-release-2026-10-05"
+      ]
+    },
+    {
+      "id": "event-12",
+      "type": "product",
+      "topicIds": [
+        "claude-cowork-pro-max-cloud-effective-2026-10-06"
+      ]
+    },
+    {
+      "id": "event-13",
+      "type": "context",
+      "topicIds": [
+        "surface-physical-ai-inputs-announced-2026-09-24"
+      ]
+    },
+    {
+      "id": "event-14",
+      "type": "context",
+      "topicIds": [
+        "starkey-omega-ai-plus-hearing-family-2026-10-01"
+      ]
+    },
+    {
+      "id": "event-15",
+      "type": "context",
+      "topicIds": [
+        "digit5-fort-offboard-safety-announced-2026-10-01"
+      ]
+    },
+    {
+      "id": "event-16",
+      "type": "context",
+      "topicIds": [
+        "meta-emg-remapping-patent-context-2026-10-01"
+      ]
+    },
+    {
+      "id": "evidence-1",
+      "type": "references",
+      "topicIds": [
+        "ghost-core-preorder-2026-10-05",
+        "coco-deliveroo-uk-rollout-announced-2026-10-05",
+        "openvision-keychain-speech-fallback-2026-10-04",
+        "mulligan-real-robot-supervised-learning-2026-10-05",
+        "reflection-beam-announcement-2026-10-05",
+        "bazaarbench-preprint-2026-10-05",
+        "hyperframes-studio-desktop-v0-8-137-2026-10-06",
+        "cua-driver-motion-0-34-0-2026-10-05",
+        "learnsched-preprint-2026-10-05",
+        "safeworld-seed-platform-2026-10-05",
+        "cohere-north-2-platform-release-2026-10-05",
+        "claude-cowork-pro-max-cloud-effective-2026-10-06",
+        "surface-physical-ai-inputs-announced-2026-09-24",
+        "starkey-omega-ai-plus-hearing-family-2026-10-01",
+        "digit5-fort-offboard-safety-announced-2026-10-01",
+        "meta-emg-remapping-patent-context-2026-10-01"
+      ]
+    }
+  ],
+  "note": "Independent static ReportLab layout with shared editorial pagination; not browser-print pixel parity. Verified media posters link to originals."
+}

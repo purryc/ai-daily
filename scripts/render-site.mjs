@@ -1,14 +1,17 @@
 import fs from "node:fs/promises";
+import { readIssues } from "./lib/issue-data.mjs";
+import { allIssueTopics, allTopicVisuals, coverFigureFallback } from "./lib/topic-content.mjs";
+import { renderVisualIssue, visualIssueCss } from "./lib/issue-visuals.mjs";
+import { selectIssueDates, assertCloudOutput, validatePageCount, validateIllustratedIssue } from "./lib/issue-policy.mjs";
 import path from "node:path";
-import { execFile } from "node:child_process";
-import { promisify } from "node:util";
 
 const root = path.resolve(new URL("..", import.meta.url).pathname);
-const dataPath = path.join(root, "data", "issues.json");
 const siteBase = "/ai-daily";
-const execFileAsync = promisify(execFile);
 
-const issues = JSON.parse(await fs.readFile(dataPath, "utf8")).sort((a, b) => b.date.localeCompare(a.date));
+const issues = await readIssues(root);
+const requestedDates = selectIssueDates(issues, process.env.AI_DAILY_DATES);
+const renderIssues = issues.filter((issue) => requestedDates.includes(issue.date));
+for (const issue of renderIssues) if (issue.requireProductVisuals) validateIllustratedIssue(issue);
 const sectionOrder = ["official", "reviews", "community", "wild", "research", "patent", "china", "global"];
 
 const sectionLabels = {
@@ -518,22 +521,19 @@ function homepage(locale) {
         .join(" ");
       return `
         <article class="issue-card" data-time="${html(timeTokens)}">
-          <figure class="issue-thumb">
+          ${issue.coverStory.imagePath ? `<figure class="issue-thumb">
             <img ${attrs({
-              src: assetUrl(issue, issue.coverStory.imagePath),
-              alt: coverTitle,
-              width: issue.coverStory.imageWidth,
-              height: issue.coverStory.imageHeight,
-              loading: "lazy",
-              decoding: "async"
+              src: assetUrl(issue, issue.coverStory.imagePath), alt: coverTitle,
+              width: issue.coverStory.imageWidth, height: issue.coverStory.imageHeight,
+              loading: "lazy", decoding: "async"
             })} />
-          </figure>
+          </figure>` : `<div class="issue-thumb"><p>${html(coverFigureFallback(issue, locale))}</p></div>`}
           <div class="issue-main">
             <div class="issue-kicker">${html(issue.date)} · ${html(issue.timezone)}</div>
             <h2>${html(issueTitle)}</h2>
             <p>${html(issueSummary)}</p>
             <div class="chip-row">${chips(issue.tags.slice(0, 7))}</div>
-            <div class="mini-source">${html(isZh ? "封面：" : "Cover:")} <a href="${html(issue.coverStory.primarySourceUrl)}" target="_blank" rel="noreferrer">${html(coverTitle)}</a></div>
+            <div class="mini-source">${issue.coverStory.primarySourceUrl ? `${html(isZh ? "封面：" : "Cover:")} <a href="${html(issue.coverStory.primarySourceUrl)}" target="_blank" rel="noreferrer">${html(coverTitle)}</a>` : html(isZh ? "旧报道保留在归档" : "Previous reports remain in the archive")}</div>
           </div>
           <div class="issue-actions">
             <a class="primary" href="${html(issue.zhPath)}">${isZh ? "中文版" : "Chinese"}</a>
@@ -1134,6 +1134,13 @@ function issueManifest(issue) {
     {
       date: issue.date,
       timezone: issue.timezone,
+      editorialVersion: issue.editorialVersion,
+      cutoff: issue.cutoff,
+      lookbackDays: issue.lookbackDays,
+      laneScans: issue.laneScans,
+      excludedCandidates: issue.excludedCandidates,
+      contextTopics: issue.contextTopics,
+      editorialPlan: issue.editorialPlan,
       zhTitle: issue.zhTitle,
       enTitle: issue.enTitle,
       zhSummary: issue.zhSummary,
@@ -1147,6 +1154,16 @@ function issueManifest(issue) {
       topics: issue.topics.map((topic) => ({
         id: topic.id,
         section: topic.section,
+        event: topic.event,
+        eventSourceUrl: topic.eventSourceUrl,
+        sourceDate: topic.sourceDate,
+        brief: topic.brief,
+        visuals: topic.visuals,
+        visualMissing: topic.visualMissing,
+        detailPages: topic.detailPages,
+        media: topic.media,
+        learning: topic.learning,
+        coverageKind: topic.coverageKind,
         zhHeadline: topic.zhHeadline,
         enHeadline: topic.enHeadline,
         visual: topic.visual,
@@ -1166,6 +1183,7 @@ function issueManifest(issue) {
 }
 
 function sourcesMarkdown(issue) {
+  if (issue.editorialVersion === 2) return conciseSourcesMarkdown(issue);
   const sourceRows = [];
   const seenSources = new Set();
   for (const topic of issue.topics) {
@@ -1252,6 +1270,46 @@ ${visualEvidenceRules}
 - Public HTML/CSS must not use cropped image-fit rules for evidence visuals.
 - Product dossiers must use source-backed interaction flows, specs/API/hardware stack, scenarios, pain points, new technology, availability, and limits. If a source does not state a spec or availability detail, the dossier must say it is not stated rather than infer it.
 - Chinese and English issues carry the same information units; the English version is not a compressed summary.${designDeskRule}
+`;
+}
+
+function conciseSourcesMarkdown(issue) {
+  const sources = new Map();
+  for (const topic of allIssueTopics(issue)) for (const source of topic.sources) {
+    if (!sources.has(source.url)) sources.set(source.url, { ...source, topicIds: [] });
+    sources.get(source.url).topicIds.push(topic.id);
+  }
+  const figures = allIssueTopics(issue).flatMap((topic) =>
+    allTopicVisuals(topic).map((visual) => ({ ...visual, topicId: topic.id }))
+  );
+  return `# AI Daily Sources · ${issue.date}
+
+Editorial cutoff: ${issue.cutoff}
+Timezone: ${issue.timezone}
+Only verified new events are promoted. Old background is linked, never reprinted as new.
+
+## Sources
+${[...sources.values()].map((source, index) => `${index + 1}. ${source.label} — ${source.url}\n   Published: ${source.publishedAt ?? "not stated"}; verified: ${source.verifiedAt ?? "not stated"}; topics: ${source.topicIds.join(", ")}`).join("\n")}
+
+## Event changes
+${issue.topics.map((topic) => `- ${topic.id}: ${topic.event.occurredAt}; ${topic.event.deltaEn}${topic.event.previousIssue ? `; previous issue: ../${topic.event.previousIssue}/en/` : ""}`).join("\n")}
+
+## Visual provenance
+${figures.map((visual) => `- ${visual.topicId} / ${visual.role ?? "evidence"}: ${visual.path} — ${visual.sourceUrl}; captured: ${visual.capturedAt}; ${visual.captionEn ?? visual.altEn}`).join("\n")}
+${issue.topics.filter((topic) => !topic.visual && !topic.visuals?.length).map((topic) => `- ${topic.id}: ${topic.visualMissing.en}`).join("\n")}
+
+## Lane scan results
+${(issue.laneScans ?? []).map((scan) => `- ${scan.lane}: ${scan.en}; ${(scan.sourceUrls ?? []).join(" · ")}`).join("\n")}
+
+## Excluded candidates
+${(issue.excludedCandidates ?? []).map((candidate) => `- ${candidate.id}: ${candidate.reason}${candidate.previousIssue ? `; already covered ${candidate.previousIssue}` : ""}`).join("\n")}
+
+## Evidence rules
+- Dates and deltas are explicit; source access time does not establish publication or release time
+- Official statements, independent reviews, community friction, research and patents retain their evidence labels
+- Every factual figure links its source; unavailable visuals are explained, never fabricated
+- Chinese and English have the same information units, without minimum length quotas
+- The printed report must contain no more than 50 pages in each language
 `;
 }
 
@@ -3241,68 +3299,37 @@ async function writeFile(filePath, contents) {
 }
 
 async function copyAssets(issue) {
-  const outputDir = path.join(root, issue.date, "assets");
-  await fs.rm(outputDir, { recursive: true, force: true });
-  await fs.mkdir(outputDir, { recursive: true });
-  const sourceDir = path.resolve(root, "..", "Survey", "output", "slidev", `ai-product-morning-brief-${issue.date}`, "public", "assets");
-  const allAssets = new Set([
-    issue.coverStory.imagePath.replace(/^assets\//, ""),
-    ...issue.topics.map((topic) => topic.visual.path.replace(/^assets\//, ""))
-  ]);
-  const generatedDiagrams = diagramAssets();
-
-  for (const asset of allAssets) {
-    if (generatedDiagrams[asset]) {
-      await fs.writeFile(path.join(outputDir, asset), generatedDiagrams[asset]);
-      continue;
-    }
-    const sourceAssetPath = path.join(sourceDir, asset);
-    try {
-      await fs.copyFile(sourceAssetPath, path.join(outputDir, asset));
-    } catch (error) {
-      if (error?.code === "ENOENT") {
-        try {
-          const { stdout } = await execFileAsync("git", ["-C", root, "show", `HEAD:${issue.date}/assets/${asset}`], {
-            encoding: "buffer",
-            maxBuffer: 20 * 1024 * 1024
-          });
-          await fs.writeFile(path.join(outputDir, asset), stdout);
-          continue;
-        } catch {
-          // Fall through to the SVG-only generated fallback below.
-        }
-      }
-      if (error?.code === "ENOENT" && path.extname(asset) === ".svg") {
-        const title = asset
-          .replace(/\.svg$/, "")
-          .replace(/[-_]+/g, " ")
-          .replace(/\b\w/g, (char) => char.toUpperCase());
-        await fs.writeFile(
-          path.join(outputDir, asset),
-          svgDiagram(title, "Regenerated source-based historical diagram", [
-            { title: "Evidence", items: ["source ledger", "topic dossier", "visual trace"] },
-            { title: "Product", items: ["interface", "stack", "availability"] },
-            { title: "Boundary", items: ["no stock art", "no crop", "no inferred specs"] }
-          ])
-        );
-        continue;
-      }
-      throw error;
-    }
+  const outputDir = assertCloudOutput(path.join(root, issue.date, "assets"), root);
+  const sourceDir = process.env.AI_DAILY_ASSET_DIR
+    ? assertCloudOutput(path.resolve(root, process.env.AI_DAILY_ASSET_DIR), root)
+    : null;
+  const assetPaths = [issue.coverStory?.imagePath, ...allIssueTopics(issue).flatMap((topic) => allTopicVisuals(topic).map((visual) => visual.path))].filter(Boolean);
+  for (const assetPath of new Set(assetPaths)) {
+    if (!/^assets\/[^/]+$/.test(assetPath)) throw new Error(`Invalid asset path: ${assetPath}`);
+    const destination = assertCloudOutput(path.join(root, issue.date, assetPath), root);
+    try { await fs.access(destination); continue; }
+    catch (error) { if (error.code !== "ENOENT") throw error; }
+    if (!sourceDir) throw new Error(`Missing factual visual ${assetPath}; provide the sourced image inside the cloud checkout`);
+    await fs.mkdir(outputDir, { recursive: true });
+    await fs.copyFile(path.join(sourceDir, path.basename(assetPath)), destination);
   }
 }
 
 await writeFile(path.join(root, "assets", "site.css"), siteCss());
+await writeFile(path.join(root, "assets", "issue-v2.css"), visualIssueCss());
 await writeFile(path.join(root, "index.html"), homepage("zh"));
 await writeFile(path.join(root, "en", "index.html"), homepage("en"));
 await writeFile(path.join(root, "manifest.json"), `${rootManifest()}\n`);
 
-for (const issue of issues) {
+for (const issue of renderIssues) {
   await copyAssets(issue);
-  await writeFile(path.join(root, issue.date, "zh", "index.html"), deckIssuePage(issue, "zh"));
-  await writeFile(path.join(root, issue.date, "en", "index.html"), deckIssuePage(issue, "en"));
+  for (const locale of ["zh", "en"]) {
+    const rendered = issue.editorialVersion === 2 ? renderVisualIssue(issue, locale) : deckIssuePage(issue, locale);
+    validatePageCount((rendered.match(/data-slide(?:[\s>])/g) ?? []).length);
+    await writeFile(path.join(root, issue.date, locale, "index.html"), rendered);
+  }
   await writeFile(path.join(root, issue.date, "manifest.json"), `${issueManifest(issue)}\n`);
   await writeFile(path.join(root, issue.date, "sources.md"), sourcesMarkdown(issue));
 }
 
-console.log(`Rendered ${issues.length} AI Daily issue(s).`);
+console.log(`Rendered ${renderIssues.length} targeted AI Daily issue(s); historical output left unchanged.`);
