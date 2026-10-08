@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="editorial-cutoff" content="2026-10-08T12:30:00-04:00"><title>Agent 进入默认工作面：云端同事、本地 PC 与可审计的执行边界 · AI Daily</title><meta name="description" content="Google 把 Gemini agent 放进统一 prompt、Workspace 和企业治理；Microsoft 同日把 RTX Spark 本地算力、Windows 混合智能和 Execution Containers 接成一个 agent-ready PC 栈；GitHub 把 Ollama 本地模型带入 Copilot CLI 的模型选择器；DevAlly 则把无障碍测试从单页扫描推进到可复核的真实用户流程。今天的共同产品信号是：Agent 不再只回答，系统必须同时说明它是谁、看到了什么、在哪里执行，以及人如何接管。"><link rel="stylesheet" href="../../assets/issue-v2.css"></head>
+<body class="visual-issue"><main class="visual-reader">
+  <header class="report-header"><a class="brand" href="../../">AI Daily</a><span class="header-date">2026-10-08 · America/Toronto</span><span class="reading-target">约 20 分钟</span><nav class="header-actions" aria-label="语言与来源"><a href="../zh/" aria-current="page">中文</a><a href="../en/">English</a><a class="primary" href="../ai-daily-2026-10-08-zh.pdf" download>下载 PDF</a></nav></header>
+  <div class="report-stage" data-deck aria-label="Agent 进入默认工作面：云端同事、本地 PC 与可审计的执行边界"><section class="report-slide contents-slide" id="overview" data-slide data-template="contents"><p class="slide-kicker">2026-10-08 · America/Toronto</p><h1>今天读什么</h1><p class="issue-intro">Google 把 Gemini agent 放进统一 prompt、Workspace 和企业治理；Microsoft 同日把 RTX Spark 本地算力、Windows 混合智能和 Execution Containers 接成一个 agent-ready PC 栈；GitHub 把 Ollama 本地模型带入 Copilot CLI 的模型选择器；DevAlly 则把无障碍测试从单页扫描推进到可复核的真实用户流程。今天的共同产品信号是：Agent 不再只回答，系统必须同时说明它是谁、看到了什么、在哪里执行，以及人如何接管。</p><ol class="contents-list"><li><a href="#event-1" data-go-slide="event-1" title="Google Gemini agent：把企业工作交给一个持续运行的工作同事" aria-label="Google Gemini agent：把企业工作交给一个持续运行的工作同事"><span class="contents-number">01</span><span><strong>Google Gemini agent</strong><span class="contents-meta">2026-10-08 · confirmed product</span><small class="contents-update">今日更新把企业 agent 从聊天入口推进到跨设备、跨频道、可持续运行的 coworker agent；工作可以在 Gmail、Docs、Slack、命令行和开发环境之间继续。</small></span></a></li><li><a href="#event-2" data-go-slide="event-2" title="Workspace inline agent：让 Agent 在邮件、文档和评论里留下身份" aria-label="Workspace inline agent：让 Agent 在邮件、文档和评论里留下身份"><span class="contents-number">02</span><span><strong>Workspace inline agent</strong><span class="contents-meta">2026-10-08 · developer surface</span><small class="contents-update">今日新增重点是 inline 与 delegated work：用户可从邮件一键委派，Agent 以自己的身份回写评论、文档和版本历史，而不再把结果困在聊天窗口。</small></span></a></li><li><a href="#event-3" data-go-slide="event-3" title="Surface Laptop Ultra：把本地模型和 Agent 执行搬回桌面硬件" aria-label="Surface Laptop Ultra：把本地模型和 Agent 执行搬回桌面硬件"><span class="contents-number">03</span><span><strong>Surface Laptop Ultra</strong><span class="contents-meta">2026-10-07 · confirmed product</span><small class="contents-update">本次更新把 RTX Spark 从此前的芯片/平台叙述变成了 Surface 的具体硬件入口，同时把 Copilot、MXC 和 Dev Box 作为同一套本地执行体验。</small></span></a></li><li><a href="#event-4" data-go-slide="event-4" title="Microsoft Execution Containers：把 Agent 的文件和网络边界变成运行时政策" aria-label="Microsoft Execution Containers：把 Agent 的文件和网络边界变成运行时政策"><span class="contents-number">04</span><span><strong>Microsoft Execution Containers</strong><span class="contents-meta">2026-10-07 · developer surface</span><small class="contents-update">更新把 Agent 安全从静态 sandbox 选择推进到根据 workload 需求动态创建的政策层，并延伸到 Windows 365 for Agents 与多操作系统集成。</small></span></a></li><li><a href="#event-5" data-go-slide="event-5" title="GitHub Copilot CLI：用 /model 发现 Ollama，本地不等于离线" aria-label="GitHub Copilot CLI：用 /model 发现 Ollama，本地不等于离线"><span class="contents-number">05</span><span><strong>GitHub Copilot CLI</strong><span class="contents-meta">2026-10-07 · developer surface</span><small class="contents-update">本次变化不是增加一个模型下载器，而是把 local provider discovery、显式确认、当前会话切换和连接失败反馈放进既有 CLI 工作流。</small></span></a></li><li><a href="#event-6" data-go-slide="event-6" title="DevAlly Agent：先记录真实用户旅程，再让人复核无障碍结果" aria-label="DevAlly Agent：先记录真实用户旅程，再让人复核无障碍结果"><span class="contents-number">06</span><span><strong>DevAlly Agent</strong><span class="contents-meta">2026-10-08 · startup signal</span><small class="contents-update">它把无障碍从首页/单页扫描推进到 signup、checkout、预约、密码重置等跨页 journey，并把 Agent 的“走错路”保留给人复核，而不是静默当成通过。</small></span></a></li></ol></section>
+<section class="report-slide product-slide magazine-slide illustrated-slide with-visuals" id="event-1" data-slide data-template="illustrated" data-event-id="google-gemini-agent-universal-work-agent-2026-10-08">
+
+      <p class="event-meta"><span>google-gemini-agent</span><time datetime="2026-10-08">进展日期 2026-10-08</time><span>vgemini-at-work-2026</span><span>confirmed product</span></p><h2>Google Gemini agent：把企业工作交给一个持续运行的工作同事</h2>
+      <div class="story-body"><div class="story-visuals count-1"><figure class="product-figure ">
+    <a class="image-link" href="../assets/google-gemini-agent-2026-10-08.png" target="_blank" rel="noreferrer" aria-label="查看原图: Google Cloud Gemini at Work 2026 官方文章截图，介绍统一 Gemini agent"><img src="../assets/google-gemini-agent-2026-10-08.png" alt="Google Cloud Gemini at Work 2026 官方文章截图，介绍统一 Gemini agent" width="1600" height="900" decoding="async"></a>
+    <figcaption>来源可追溯视觉：Google Cloud 官方页面把 Gemini agent 描述为从一个 prompt 规划、调用工具并持续交付工作的统一入口。 <a class="reference-marker" href="#evidence-1" data-go-slide="evidence-1" aria-label="Reference 1">[1]</a></figcaption>
+  </figure></div>
+      <div class="story-copy"><div class="story-brief brief-grid"><div class="brief-unit baseline-unit"><h3>产品是什么</h3><p>Gemini agent 是 Google Cloud 在 Gemini at Work 2026 宣布的统一企业 Agent：它从一个 prompt 接收目标，选择模型、skills 和 tools，连接企业系统，持续执行并把结果放回用户已有的工作面。</p></div><div class="brief-unit delta-unit"><h3>这次变化</h3><p>新公开的组合包括 persistent execution、dynamic sub-agents、coworker identity、skills registry、四类 memory、MCP connectors、Agent Sandbox、Agent Gateway、audit trail、Smart Routing 和实时 spend caps。</p></div><div class="brief-unit "><h3>什么时候用</h3><p>用户可以要求它研究市场、生成 Sheets 模型与 Slides、写并运行代码、响应事件、按角色担任项目经理或金融分析师；团队也可以为它创建独立的公司账号与职责。</p></div><div class="brief-unit "><h3>限制与可用范围</h3><p>这是官方发布与客户案例，不等同于公开可用的完整产品矩阵。价格、地区、具体套餐、延迟、错误率、数据保留和所有 connector 的权限细节 source not stated。</p></div></div>
+
+
+      </div></div>
+      <div class="event-source-row"><a class="reference-marker" href="#evidence-1" data-go-slide="evidence-1" aria-label="Reference 1">[1]</a> <a class="reference-marker" href="#evidence-1" data-go-slide="evidence-1" aria-label="Reference 2">[2]</a> <a class="reference-marker" href="#evidence-1" data-go-slide="evidence-1" aria-label="Reference 3">[3]</a></div>
+    </section>
+<section class="report-slide product-slide magazine-slide illustrated-slide with-visuals" id="event-2" data-slide data-template="illustrated" data-event-id="google-workspace-inline-coworker-agent-2026-10-08">
+
+      <p class="event-meta"><span>google-workspace-inline-agent</span><time datetime="2026-10-08">进展日期 2026-10-08</time><span>vinline-coworker-2026</span><span>developer surface</span></p><h2>Workspace inline agent：让 Agent 在邮件、文档和评论里留下身份</h2>
+      <div class="story-body"><div class="story-visuals count-1"><figure class="product-figure ">
+    <a class="image-link" href="../assets/google-workspace-inline-agent-2026-10-08.png" target="_blank" rel="noreferrer" aria-label="查看原图: Google Cloud 页面截图，描述 Gemini 在 Gmail、Docs、Chat 和其他 Workspace 产品中的 inline 工作方式"><img src="../assets/google-workspace-inline-agent-2026-10-08.png" alt="Google Cloud 页面截图，描述 Gemini 在 Gmail、Docs、Chat 和其他 Workspace 产品中的 inline 工作方式" width="1600" height="900" decoding="async"></a>
+    <figcaption>来源可追溯视觉：同一页面把 Workspace inline、主动委派和 coworker agent 放进邮件、文档、评论和版本历史。 <a class="reference-marker" href="#evidence-1" data-go-slide="evidence-1" aria-label="Reference 1">[1]</a></figcaption>
+  </figure></div>
+      <div class="story-copy"><div class="story-brief brief-grid"><div class="brief-unit baseline-unit"><h3>产品是什么</h3><p>Workspace inline agent 是 Gemini agent 在 Google 工作套件里的具体交互面：同一套记忆、技能和控制进入 Gmail、Drive、Docs、Slides、Sheets、Chat 与 Calendar。</p></div><div class="brief-unit delta-unit"><h3>这次变化</h3><p>Google 公开了 personal assistance、proactive delegation 和 coworker agent 三种形态；系统可以从经理邮件识别可委派任务，也可以创建拥有独立 Workspace 身份的团队 Agent。</p></div><div class="brief-unit "><h3>什么时候用</h3><p>用户可以让它找团队成员并协调会议、跨邮件和文档整理项目、生成报告和 deck、在 Chat 中被 @mention，或在 Docs 评论里提出修改并写入自己的版本历史。</p></div><div class="brief-unit "><h3>限制与可用范围</h3><p>发布稿没有展示真实界面、默认权限、可见日志、回滚交互或不同 Workspace 套餐的完整范围；具体 rollout、价格和地区 source not stated。</p></div></div>
+
+
+      </div></div>
+      <div class="event-source-row"><a class="reference-marker" href="#evidence-1" data-go-slide="evidence-1" aria-label="Reference 1">[1]</a> <a class="reference-marker" href="#evidence-1" data-go-slide="evidence-1" aria-label="Reference 3">[3]</a> <a class="reference-marker" href="#evidence-1" data-go-slide="evidence-1" aria-label="Reference 2">[2]</a></div>
+    </section>
+<section class="report-slide product-slide magazine-slide illustrated-slide with-visuals" id="event-3" data-slide data-template="illustrated" data-event-id="microsoft-surface-laptop-ultra-rtx-spark-2026-10-08">
+
+      <p class="event-meta"><span>surface-laptop-ultra-rtx-spark</span><time datetime="2026-10-07">进展日期 2026-10-07</time><span>vsurface-laptop-ultra-2026</span><span>confirmed product</span></p><h2>Surface Laptop Ultra：把本地模型和 Agent 执行搬回桌面硬件</h2>
+      <div class="story-body"><div class="story-visuals count-1"><figure class="product-figure ">
+    <a class="image-link" href="../assets/microsoft-surface-laptop-ultra-2026-10-08.png" target="_blank" rel="noreferrer" aria-label="查看原图: Microsoft Windows and Surface 页面展示 Surface Laptop Ultra 与 RTX Spark Dev Box"><img src="../assets/microsoft-surface-laptop-ultra-2026-10-08.png" alt="Microsoft Windows and Surface 页面展示 Surface Laptop Ultra 与 RTX Spark Dev Box" width="1600" height="900" decoding="async"></a>
+    <figcaption>来源可追溯视觉：Microsoft 官方页面并列展示 Surface Laptop Ultra、RTX Spark Dev Box 和本地 Copilot 工作流。 <a class="reference-marker" href="#evidence-1" data-go-slide="evidence-1" aria-label="Reference 5">[5]</a></figcaption>
+  </figure></div>
+      <div class="story-copy"><div class="story-brief brief-grid"><div class="brief-unit baseline-unit"><h3>产品是什么</h3><p>Surface Laptop Ultra 是 Microsoft 与 NVIDIA RTX Spark 联合设计的高端 Windows AI PC，旁边还有预装开发工具的 Surface RTX Spark Dev Box。</p></div><div class="brief-unit delta-unit"><h3>这次变化</h3><p>Microsoft 披露最高 6,144 个 Blackwell GPU cores、20-core Grace CPU、128GB unified memory，称设备可本地运行 demanding models、GitHub Copilot tasks 和 agent workflows，并开放预购。</p></div><div class="brief-unit "><h3>什么时候用</h3><p>开发者可以在本地跑推理、评估和编码 Agent，让 cloud 只承接需要它的任务；Dev Box 面向桌面开发，预装 VS Code、Git、GitHub CLI、Copilot、WSL、Python 与 Node。</p></div><div class="brief-unit "><h3>限制与可用范围</h3><p>价格从 $2,599 起，供应从 10 月 16 日开始；电池、实际端侧吞吐、长期散热、独立测评和完整地区矩阵 source not stated。</p></div></div>
+
+
+      </div></div>
+      <div class="event-source-row"><a class="reference-marker" href="#evidence-1" data-go-slide="evidence-1" aria-label="Reference 4">[4]</a> <a class="reference-marker" href="#evidence-1" data-go-slide="evidence-1" aria-label="Reference 5">[5]</a> <a class="reference-marker" href="#evidence-1" data-go-slide="evidence-1" aria-label="Reference 6">[6]</a> <a class="reference-marker" href="#evidence-1" data-go-slide="evidence-1" aria-label="Reference 7">[7]</a></div>
+    </section>
+<section class="report-slide product-slide magazine-slide illustrated-slide with-visuals" id="event-4" data-slide data-template="illustrated" data-event-id="microsoft-execution-containers-mxc-ga-2026-10-08">
+
+      <p class="event-meta"><span>microsoft-execution-containers</span><time datetime="2026-10-07">进展日期 2026-10-07</time><span>vga-2026-10-07</span><span>developer surface</span></p><h2>Microsoft Execution Containers：把 Agent 的文件和网络边界变成运行时政策</h2>
+      <div class="story-body"><div class="story-visuals count-1"><figure class="product-figure ">
+    <a class="image-link" href="../assets/microsoft-execution-containers-2026-10-08.png" target="_blank" rel="noreferrer" aria-label="查看原图: Microsoft Windows Developer Blog 中的 Execution Containers 官方页面截图"><img src="../assets/microsoft-execution-containers-2026-10-08.png" alt="Microsoft Windows Developer Blog 中的 Execution Containers 官方页面截图" width="1600" height="900" decoding="async"></a>
+    <figcaption>来源可追溯视觉：官方页面把 MXC 描述为运行时选择 isolation backend、执行文件与网络政策的 Agent containment layer。 <a class="reference-marker" href="#evidence-1" data-go-slide="evidence-1" aria-label="Reference 8">[8]</a></figcaption>
+  </figure></div>
+      <div class="story-copy"><div class="story-brief brief-grid"><div class="brief-unit baseline-unit"><h3>产品是什么</h3><p>MXC 是 Microsoft 为 Agent 运行提供的 policy-driven containment layer，不是一个单独的聊天应用。</p></div><div class="brief-unit delta-unit"><h3>这次变化</h3><p>它现在宣布 GA；开发者用统一 JSON schema 和 multi-language SDK 声明文件、网络等需求，MXC 在运行时选择 process、session、WSLc、VM 等 containment backend。</p></div><div class="brief-unit "><h3>什么时候用</h3><p>Agent 想读项目目录、调用网络或运行代码时，系统先根据声明和组织政策建立边界；企业可以把它接到 Intune、Agent 365、Entra、Defender 和 Purview。</p></div><div class="brief-unit "><h3>限制与可用范围</h3><p>官方强调边界与治理，但独立安全验证、默认策略、不同 backend 的差异、错误配置恢复和所有平台的 GA 范围 source not stated；GitHub 早期仓库仍提示不要把 early profiles 当最终安全边界。</p></div></div>
+
+
+      </div></div>
+      <div class="event-source-row"><a class="reference-marker" href="#evidence-1" data-go-slide="evidence-1" aria-label="Reference 8">[8]</a> <a class="reference-marker" href="#evidence-1" data-go-slide="evidence-1" aria-label="Reference 9">[9]</a> <a class="reference-marker" href="#evidence-1" data-go-slide="evidence-1" aria-label="Reference 10">[10]</a> <a class="reference-marker" href="#evidence-1" data-go-slide="evidence-1" aria-label="Reference 7">[7]</a></div>
+    </section>
+<section class="report-slide product-slide magazine-slide illustrated-slide with-visuals" id="event-5" data-slide data-template="illustrated" data-event-id="github-copilot-cli-local-model-discovery-2026-10-08">
+
+      <p class="event-meta"><span>github-copilot-cli-local-models</span><time datetime="2026-10-07">进展日期 2026-10-07</time><span>v1.0.94-0</span><span>developer surface</span></p><h2>GitHub Copilot CLI：用 /model 发现 Ollama，本地不等于离线</h2>
+      <div class="story-body"><div class="story-visuals count-1"><figure class="product-figure ">
+    <a class="image-link" href="../assets/github-copilot-local-models-2026-10-08.png" target="_blank" rel="noreferrer" aria-label="查看原图: GitHub Changelog 页面截图，展示 Copilot CLI 通过 /model 发现 Ollama 本地模型"><img src="../assets/github-copilot-local-models-2026-10-08.png" alt="GitHub Changelog 页面截图，展示 Copilot CLI 通过 /model 发现 Ollama 本地模型" width="1600" height="900" decoding="async"></a>
+    <figcaption>来源可追溯视觉：GitHub 明确写出 provider、endpoint、当前 session、连接失败说明，以及 local 不自动等于 offline。 <a class="reference-marker" href="#evidence-1" data-go-slide="evidence-1" aria-label="Reference 11">[11]</a></figcaption>
+  </figure></div>
+      <div class="story-copy"><div class="story-brief brief-grid"><div class="brief-unit baseline-unit"><h3>产品是什么</h3><p>这是 GitHub Copilot CLI 的本地模型 provider 体验：CLI 可以从正在运行的 Ollama 实例中发现支持的模型。</p></div><div class="brief-unit delta-unit"><h3>这次变化</h3><p>从 1.0.94-0 起，/model 同时展示本地、已配置和 GitHub 云端模型；用户可先查看 provider 与 endpoint，再选择只对当前 session 使用或添加而不切换。</p></div><div class="brief-unit "><h3>什么时候用</h3><p>开发者无需离开终端就能选择合适模型；连接失败会在 picker 中解释。模型必须已经安装，支持 tool calling 与 streaming；该流程不会安装 Ollama、下载模型或自动打开 offline mode。</p></div><div class="brief-unit "><h3>限制与可用范围</h3><p>GitHub 明确写明 local model 不等于 offline，也不关闭 telemetry；intelligent routing 仍是 announced / stay tuned，企业权限、VS Code 对应体验和复杂 agent 的质量尚待验证。</p></div></div>
+
+
+      </div></div>
+      <div class="event-source-row"><a class="reference-marker" href="#evidence-1" data-go-slide="evidence-1" aria-label="Reference 11">[11]</a> <a class="reference-marker" href="#evidence-1" data-go-slide="evidence-1" aria-label="Reference 12">[12]</a> <a class="reference-marker" href="#evidence-1" data-go-slide="evidence-1" aria-label="Reference 13">[13]</a> <a class="reference-marker" href="#evidence-1" data-go-slide="evidence-1" aria-label="Reference 14">[14]</a></div>
+    </section>
+<section class="report-slide product-slide magazine-slide illustrated-slide with-visuals" id="event-6" data-slide data-template="illustrated" data-event-id="devally-agent-accessibility-journeys-2026-10-08">
+
+      <p class="event-meta"><span>devally-agent</span><time datetime="2026-10-08">进展日期 2026-10-08</time><span>vagent-journeys-beta-2026</span><span>startup signal</span></p><h2>DevAlly Agent：先记录真实用户旅程，再让人复核无障碍结果</h2>
+      <div class="story-body"><div class="story-visuals count-1"><figure class="product-figure ">
+    <a class="image-link" href="../assets/devally-agent-2026-10-08.png" target="_blank" rel="noreferrer" aria-label="查看原图: DevAlly 官方产品页截图，展示 accessibility compliance workflow 的 Scan、Identify、Remediate 和 Scale"><img src="../assets/devally-agent-2026-10-08.png" alt="DevAlly 官方产品页截图，展示 accessibility compliance workflow 的 Scan、Identify、Remediate 和 Scale" width="1600" height="900" decoding="async"></a>
+    <figcaption>来源可追溯视觉：DevAlly 官方站展示从扫描、定位到修复和持续监测的产品链路；Agent journey beta 仍以 Product Hunt 为发布证据。 <a class="reference-marker" href="#evidence-1" data-go-slide="evidence-1" aria-label="Reference 16">[16]</a></figcaption>
+  </figure></div>
+      <div class="story-copy"><div class="story-brief brief-grid"><div class="brief-unit baseline-unit"><h3>产品是什么</h3><p>DevAlly Agent 是一个 startup accessibility-compliance workflow：用自然语言描述用户旅程，Agent 在真实浏览器中走一遍并记录。</p></div><div class="brief-unit delta-unit"><h3>这次变化</h3><p>发布重点从扫描页面变成扫描完整任务流程；每个 finding 带 WCAG criterion、元素、截图和建议修复，Workflow 可在每次发布后重跑。</p></div><div class="brief-unit "><h3>什么时候用</h3><p>团队可以让 Agent 测试注册、结账、预约、表单和密码重置，人工先确认它确实走了正确路径，再持续监测回归，并通过 DevAlly MCP 推送到编辑器。</p></div><div class="brief-unit "><h3>限制与可用范围</h3><p>它仍是 beta；官方和 maker 明确说不替代人工审计。hover-only menus、drag and drop、iframes 当前不支持，真实屏幕阅读器和复杂认证流程仍需人测。</p></div></div>
+
+
+      </div></div>
+      <div class="event-source-row"><a class="reference-marker" href="#evidence-1" data-go-slide="evidence-1" aria-label="Reference 15">[15]</a> <a class="reference-marker" href="#evidence-1" data-go-slide="evidence-1" aria-label="Reference 16">[16]</a></div>
+    </section>
+<section class="report-slide evidence-slide compact-reference-slide" id="evidence-1" data-slide data-template="sources"><p class="slide-kicker">2026-10-08</p><h2>来源与证据说明</h2><p class="evidence-policy">明确日期与实质变化才列为新增；背景单独标明。研究、厂商演示与可用范围分别说明。完整日期、图源与筛选记录见来源总表；n.d.表示日期未标注。</p><ol class="evidence-list"><li><a href="https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026" target="_blank" rel="noreferrer" title="Google Cloud Gemini at Work 2026 announcement" aria-label="Google Cloud Gemini at Work 2026 announcement">cloud.google.com · release</a> <span>· 2026-10-08T09:00:00-04:00</span></li><li><a href="https://googlecloudevents.com/geminiatwork2026/begin" target="_blank" rel="noreferrer" title="Gemini at Work 2026 event registration" aria-label="Gemini at Work 2026 event registration">Source · article</a> <span>· 2026-10-03T09:00:00-04:00</span></li><li><a href="https://workspace.google.com/blog/product-announcements/less-switching-more-flow-5-new-agentic-capabilities-across-google-workspace-apps?trk=article-ssr-frontend-pulse_little-text-block" target="_blank" rel="noreferrer" title="Google Workspace agentic capabilities context" aria-label="Google Workspace agentic capabilities context">Source · release</a> <span>· 2026-09-09T09:00:00-04:00</span></li><li><a href="https://blogs.windows.com/devices/2026/10/07/pre-order-our-most-powerful-surface-devices-ever" target="_blank" rel="noreferrer" title="Microsoft Surface Laptop Ultra pre-order announcement" aria-label="Microsoft Surface Laptop Ultra pre-order announcement">blogs.windows.com · release</a> <span>· 2026-10-07T09:00:00-04:00</span></li><li><a href="https://news.microsoft.com/windows-surface-october-2026-news" target="_blank" rel="noreferrer" title="Microsoft Windows and Surface October 2026 news page" aria-label="Microsoft Windows and Surface October 2026 news page">Microsoft · article</a> <span>· 2026-10-07T09:00:00-04:00</span></li><li><a href="https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11" target="_blank" rel="noreferrer" title="TechCrunch launch coverage" aria-label="TechCrunch launch coverage">TechCrunch · release</a> <span>· 2026-10-07T13:22:00-04:00</span></li><li><a href="https://arstechnica.com/gadgets/2026/10/microsoft-event-debuts-new-ai-friendly-hardware-and-windows-changes" target="_blank" rel="noreferrer" title="Ars Technica event coverage" aria-label="Ars Technica event coverage">arstechnica.com · article</a> <span>· 2026-10-08T00:00:00-04:00</span></li><li><a href="https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents" target="_blank" rel="noreferrer" title="Microsoft Execution Containers GA announcement" aria-label="Microsoft Execution Containers GA announcement">blogs.windows.com · release</a> <span>· 2026-10-07T08:00:00-04:00</span></li><li><a href="https://developer.microsoft.com/en-us/windows/agentic" target="_blank" rel="noreferrer" title="Microsoft Windows agent platform" aria-label="Microsoft Windows agent platform">Source · product</a> <span>· 2026-10-08T08:00:00-04:00</span></li><li><a href="https://github.com/microsoft/mxc" target="_blank" rel="noreferrer" title="Microsoft MXC GitHub repository" aria-label="Microsoft MXC GitHub repository">GitHub · article</a> <span>· 2026-10-01T09:00:00-04:00</span></li><li><a href="https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli" target="_blank" rel="noreferrer" title="GitHub Copilot CLI local-model changelog" aria-label="GitHub Copilot CLI local-model changelog">github.blog · article</a> <span>· 2026-10-07T09:00:00-04:00</span></li><li><a href="https://blogs.windows.com/windowsexperience/2026/10/07/building-windows-for-hybrid-intelligence" target="_blank" rel="noreferrer" title="Microsoft Windows hybrid intelligence announcement" aria-label="Microsoft Windows hybrid intelligence announcement">blogs.windows.com · release</a> <span>· 2026-10-07T09:00:00-04:00</span></li><li><a href="https://blog.jjannet.com/news/2026-10-08-github-copilot-cli-local-models-sandbox-ga" target="_blank" rel="noreferrer" title="Thai independent Copilot CLI local-model summary" aria-label="Thai independent Copilot CLI local-model summary">blog.jjannet.com · article</a> <span>· 2026-10-08T02:00:00-04:00</span></li><li><a href="https://reddit.com/r/GithubCopilot/comments/1u41noz/githubs_outage_prevents_independent_local_model" target="_blank" rel="noreferrer" title="GitHub community local-model friction thread" aria-label="GitHub community local-model friction thread">reddit.com · article</a> <span>· 2026-08-17T09:00:00-04:00</span></li><li><a href="https://producthunt.com/products/devally" target="_blank" rel="noreferrer" title="Product Hunt DevAlly Agent launch page" aria-label="Product Hunt DevAlly Agent launch page">producthunt.com · product</a> <span>· 2026-10-08T08:00:00-04:00</span></li><li><a href="https://devally.com" target="_blank" rel="noreferrer" title="DevAlly official product site" aria-label="DevAlly official product site">devally.com · product</a> <span>· 2026-10-08T08:00:00-04:00</span></li></ol><p class="source-ledger-link"><a href="../sources.md">来源总表 · 完整来源与图像记录</a></p></section></div>
+  <footer class="report-controls" aria-label="日报翻页"><button type="button" class="contents-button" data-go-slide="overview">目录</button><button type="button" data-prev-slide>上一页</button><div class="progress-track" aria-hidden="true"><span data-deck-progress></span></div><output data-deck-counter aria-live="polite">1 / 8</output><button type="button" class="primary" data-next-slide>下一页</button></footer>
+</main>
+<script>
+(() => {
+ const deck = document.querySelector('[data-deck]');
+ const slides = Array.from(deck.querySelectorAll('[data-slide]'));
+ const previous = document.querySelector('[data-prev-slide]');
+ const next = document.querySelector('[data-next-slide]');
+ const count = document.querySelector('[data-deck-counter]');
+ const progress = document.querySelector('[data-deck-progress]');
+ let current = 0;
+ function checkCurrentFit() {
+   const slide = slides[current]; if (!slide || window.matchMedia('(max-width:900px)').matches) return;
+   slide.dataset.fitOverflow = String(slide.scrollHeight > slide.clientHeight + 2 || slide.scrollWidth > slide.clientWidth + 2);
+ }
+ const indexForTarget = (id) => slides.findIndex(slide => slide.id === id || Array.from(slide.querySelectorAll('[id]')).some(element => element.id === id));
+ const hashIndex = () => indexForTarget(location.hash.slice(1));
+ function show(index, push = true, targetId = null) {
+   current = Math.max(0, Math.min(slides.length - 1, index));
+   slides.forEach((slide, i) => { slide.hidden = i !== current; slide.setAttribute('aria-hidden', i === current ? 'false' : 'true'); });
+   count.textContent = (current + 1) + ' / ' + slides.length;
+   progress.style.width = ((current + 1) / slides.length * 100) + '%';
+   previous.disabled = current === 0; next.disabled = current === slides.length - 1;
+   deck.scrollTop = 0;
+   slides[current].scrollTop = 0;
+   const target = targetId || slides[current].id;
+   if (push && location.hash !== '#' + target) history.pushState(null, '', '#' + target);
+   if (window.matchMedia('(max-width:900px)').matches) { window.scrollTo(0,0); const nested = Array.from(slides[current].querySelectorAll('[id]')).find(element => element.id === target); if(nested) nested.scrollIntoView({block:'start'}); }
+   requestAnimationFrame(checkCurrentFit);
+ }
+ document.body.classList.add('js-deck');
+ window.addEventListener('resize', checkCurrentFit);
+ document.fonts.ready.then(checkCurrentFit);
+ document.querySelectorAll('img').forEach(image => image.addEventListener('load', checkCurrentFit));
+ previous.addEventListener('click', () => show(current - 1));
+ next.addEventListener('click', () => show(current + 1));
+ document.querySelectorAll('[data-go-slide]').forEach((button) => button.addEventListener('click', (event) => { event.preventDefault(); const target=button.dataset.goSlide; const index=indexForTarget(target); if (index >= 0) show(index,true,target); }));
+ document.querySelectorAll('[data-media-toggle]').forEach((button) => button.addEventListener('click', () => {
+   const player = button.closest('.gif-player'); const frame = player.querySelector('[data-gif-frame]');
+   const playing = button.getAttribute('aria-pressed') !== 'true';
+   frame.replaceChildren();
+   if (playing) { const image = new Image(); image.alt = player.querySelector('.media-poster').alt; image.src = player.dataset.mediaUrl; frame.append(image); }
+   player.classList.toggle('is-playing', playing); button.setAttribute('aria-pressed', String(playing)); button.textContent = playing ? button.dataset.pauseLabel : button.dataset.playLabel;
+ }));
+ window.addEventListener('beforeprint', () => {
+   document.querySelectorAll('video').forEach(video => video.pause());
+   document.querySelectorAll('.gif-player.is-playing [data-media-toggle]').forEach(button => button.click());
+ });
+ window.addEventListener('hashchange', () => show(Math.max(0, hashIndex()), false, location.hash.slice(1)));
+ window.addEventListener('popstate', () => show(Math.max(0, hashIndex()), false, location.hash.slice(1)));
+ window.addEventListener('keydown', (event) => {
+   if (event.altKey || event.ctrlKey || event.metaKey || /INPUT|TEXTAREA|SELECT|BUTTON|A/.test(event.target.tagName) || event.target.isContentEditable) return;
+   if (event.key === 'ArrowRight' || event.key === 'PageDown') { event.preventDefault(); show(current + 1); }
+   if (event.key === 'ArrowLeft' || event.key === 'PageUp') { event.preventDefault(); show(current - 1); }
+   if (event.key === 'Home') show(0); if (event.key === 'End') show(slides.length - 1);
+ });
+ show(Math.max(0, hashIndex()), false, location.hash.slice(1));
+})();
+</script></body></html>
