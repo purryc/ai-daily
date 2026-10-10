@@ -9,6 +9,10 @@ const words = {
   zh: { overview: "今天值得看的变化", next: "下一页", prev: "上一页", contents: "目录", sources: "来源总表", pdf: "下载 PDF", what: "产品是什么", change: "这次变化", use: "什么时候用", limits: "限制与可用范围", history: "上次报道", original: "查看原图", official: "原始来源", evidence: "来源与证据说明", empty: "今天没有符合标准的新增进展", missing: "尚无可核实的产品图", date: "进展日期", cutoff: "截至", more: "继续看变化", reading: "先看新增，再看图与细节" },
   en: { overview: "Changes worth seeing", next: "Next", prev: "Previous", contents: "Contents", sources: "Source ledger", pdf: "Download PDF", what: "What it is", change: "What changed", use: "When to use it", limits: "Limits & availability", history: "Previous coverage", original: "View full image", official: "Original source", evidence: "Sources & evidence", empty: "No new advances met the evidence bar today", missing: "No verified product figure yet", date: "Event date", cutoff: "As of", more: "More changes", reading: "New advances first, then pictures and details" }
 };
+const dossierLabels = {
+  zh: { productName: "产品名称", productType: "产品类型", interactionFlow: "交互流程", specsOrStack: "硬件 / API / 系统栈", useCases: "具体使用场景", painPointsSolved: "解决的痛点", userVoice: "用户与现场信号", newTech: "新技术", availability: "可用性", limitsOrUnknowns: "限制与未知", productVerdict: "产品判断" },
+  en: { productName: "Product name", productType: "Product type", interactionFlow: "Interaction flow", specsOrStack: "Hardware / API / system stack", useCases: "Concrete use cases", painPointsSolved: "Pain points solved", userVoice: "User and field signal", newTech: "New technology", availability: "Availability", limitsOrUnknowns: "Limits and unknowns", productVerdict: "Product verdict" }
+};
 
 function compactReferenceLabel(entry) {
   const parsed = new URL(entry.url);
@@ -153,9 +157,58 @@ export const contentsUpdateLabel = contentsSubtitle;
 function overviewSlide(issue, locale) {
   const main = issue.topics ?? [];
   const context = issue.contextTopics ?? [];
-  const entry = (topic, index) => `<li><a href="#event-${index + 1}" data-go-slide="event-${index + 1}" title="${esc(title(topic,locale))}" aria-label="${esc(title(topic,locale))}"><span class="contents-number">${String(index + 1).padStart(2, "0")}</span><span><strong>${esc(topicContentsLabel(topic, locale))}</strong><span class="contents-meta">${esc(topic.event?.occurredAt)} · ${esc(topic.evidenceLabel ?? topic.event?.kind)}</span><small class="contents-update">${esc(contentsSubtitle(topic,locale))}</small></span></a></li>`;
+  const dossierMode = (topic) => Boolean(topic.dossier && issue.date >= "2026-10-09");
+  const entry = (topic, index) => {
+    const target = `event-${index + 1}${dossierMode(topic) ? "-a" : ""}`;
+    return `<li><a href="#${target}" data-go-slide="${target}" title="${esc(title(topic,locale))}" aria-label="${esc(title(topic,locale))}"><span class="contents-number">${String(index + 1).padStart(2, "0")}</span><span><strong>${esc(topicContentsLabel(topic, locale))}</strong><span class="contents-meta">${esc(topic.event?.occurredAt)} · ${esc(topic.evidenceLabel ?? topic.event?.kind)}</span><small class="contents-update">${esc(contentsSubtitle(topic,locale))}</small></span></a></li>`;
+  };
   return { id: "overview", type: "contents", topicIds: [...main, ...context].map(topic => topic.id),
     html: `<section class="report-slide contents-slide" id="overview" data-slide data-template="contents"><p class="slide-kicker">${esc(issue.date)} · ${esc(issue.timezone)}</p><h1>${locale === "zh" ? "今天读什么" : "In this issue"}</h1><p class="issue-intro">${esc(local(issue, locale, "zhSummary", "enSummary"))}</p><ol class="contents-list">${main.map(entry).join("")}</ol>${context.length ? `<aside class="contents-context"><h3>${locale === "zh" ? "补充背景 · 非今日新增" : "Background · not new today"}</h3><ol>${context.map((topic,index) => entry(topic, main.length + index)).join("")}</ol></aside>` : ""}</section>` };
+}
+
+function dossierSlide(issue, topic, locale, index, part, fields) {
+  const w = words[locale];
+  const dossier = topic.dossier?.[locale] ?? {};
+  const labelMap = dossierLabels[locale];
+  const visuals = figures(topic);
+  const visualItems = part === 0
+    ? visuals.map((visual) => imageFigure(issue, visual, locale))
+    : "";
+  const units = fields.map((field) => briefUnit(labelMap[field], dossier[field] ?? "source not stated", "dossier-unit")).join("");
+  const pageTitle = part === 0 ? title(topic, locale) : `${title(topic, locale)} · ${locale === "zh" ? "续页" : "continued"}`;
+  const sourceLinks = (topic.sources ?? []).slice(0, 5).map((source) => referenceMarker(issue, source.url)).join(" ");
+  return {
+    id: `event-${index + 1}-${part === 0 ? "a" : "b"}`,
+    type: "product",
+    topicIds: [topic.id],
+    html: `<section class="report-slide product-slide magazine-slide dossier-slide ${part === 0 ? "dossier-first" : "dossier-second"} ${visualItems.length ? "with-visuals" : "text-story"}" id="event-${index + 1}-${part === 0 ? "a" : "b"}" data-slide data-template="dossier" data-event-id="${esc(topic.id)}" data-dossier-part="${part + 1}">
+      ${eventMeta(topic, locale)}<h2>${esc(pageTitle)}</h2>
+      <div class="dossier-body">${visualItems ? `<div class="story-visuals count-${visuals.length}">${visualItems}</div>` : ""}<div class="dossier-copy"><div class="dossier-grid">${units}</div></div></div>
+      <p class="dossier-source-row">${esc(w.evidence)} · ${esc(topic.evidenceLabel)} · ${esc(topic.event?.occurredAt)} ${sourceLinks}</p>
+    </section>`
+  };
+}
+
+function dossierSlides(issue, topic, locale, index) {
+  const allFields = ["productName", "productType", "interactionFlow", "specsOrStack", "useCases", "painPointsSolved", "userVoice", "newTech", "availability", "limitsOrUnknowns", "productVerdict"];
+  return [
+    dossierSlide(issue, topic, locale, index, 0, allFields.slice(0, 6)),
+    dossierSlide(issue, topic, locale, index, 1, allFields.slice(6))
+  ];
+}
+
+function laneScanSlides(issue, locale) {
+  const scans = issue.laneScans ?? [];
+  const w = words[locale];
+  return [0, 4].map((offset, part) => {
+    const batch = scans.slice(offset, offset + 4);
+    return {
+      id: `lane-scan-${part + 1}`,
+      type: "lane-scan",
+      topicIds: [],
+      html: `<section class="report-slide lane-scan-slide" id="lane-scan-${part + 1}" data-slide data-template="lane-scan"><p class="slide-kicker">${esc(issue.date)} · ${esc(locale === "zh" ? "Source radar" : "Source radar")}</p><h2>${esc(locale === "zh" ? `来源雷达 · ${part + 1}/2` : `Source radar · ${part + 1}/2`)}</h2><p class="evidence-policy">${esc(locale === "zh" ? "每条 lane 都保留扫描对象、具体产品信号、证据缺口和下一步观察；scan 不升级为确认产品事实。" : "Every lane keeps the scanned surface, concrete product signal, evidence gap, and next watch. A scan is not upgraded to a confirmed product fact.")}</p><div class="lane-scan-grid">${batch.map((scan) => `<article class="lane-scan-card"><div class="lane-scan-head"><strong>${esc(scan.lane)}</strong><span>${esc(scan.status)}</span></div><p>${esc(scan[locale])}</p><p class="lane-scan-sources">${scan.sourceUrls?.map((url) => `<a href="${esc(url)}" target="_blank" rel="noreferrer">${esc(new URL(url).hostname.replace(/^www\./, ""))}</a>`).join(" · ") ?? "source not stated"}</p></article>`).join("")}</div><p class="dossier-source-row">${esc(w.evidence)} · ${esc(issue.cutoff)}</p></section>`
+    };
+  });
 }
 
 function sourceDateLabel(source, locale) {
@@ -176,7 +229,9 @@ export function buildVisualSlides(issue, locale = "zh") {
   const mainTopics = issue.topics ?? [];
   const context = issue.contextTopics ?? [];
   const overview = mainTopics.length ? overviewSlide(issue, locale) : { id: "overview", type: "contents", topicIds: [], html: `<section class="report-slide no-news-slide" id="overview" data-slide data-template="empty"><p class="slide-kicker">${esc(issue.date)} · ${esc(issue.timezone)}</p><h1>${esc(words[locale].empty)}</h1><p class="issue-intro">${esc(local(issue, locale, "zhSummary", "enSummary"))}</p><a href="../../">${locale === "zh" ? "查看历史日报" : "Browse earlier editions"}</a></section>` };
-  return [overview, ...mainTopics.map((topic,index)=>topicSlide(issue,topic,locale,index)), ...context.map((topic,index)=>topicSlide(issue,topic,locale,mainTopics.length+index)), ...evidenceSlides(issue,locale)];
+  const main = mainTopics.flatMap((topic, index) => topic.dossier && issue.date >= "2026-10-09" ? dossierSlides(issue, topic, locale, index) : [topicSlide(issue, topic, locale, index)]);
+  const contextSlides = context.map((topic,index)=>topicSlide(issue,topic,locale,mainTopics.length+index));
+  return [overview, ...main, ...laneScanSlides(issue, locale), ...contextSlides, ...evidenceSlides(issue,locale)];
 }
 
 export function renderVisualIssue(issue, locale = "zh") {
@@ -411,6 +466,24 @@ a:focus-visible,button:focus-visible { outline:3px solid #3464c8; outline-offset
 .event-source-row .reference-marker:last-child { margin-left:0; }
 .reference-marker { color:var(--muted); font-size:11px; white-space:nowrap; text-decoration:none; }
 .point-source { font-size:11px; color:var(--muted); white-space:nowrap; }
+.dossier-body { display:grid; grid-template-columns:minmax(0,.82fr) minmax(0,1.18fr); gap:24px; align-items:start; margin-bottom:10px; }
+.dossier-second .dossier-body { display:block; }
+.dossier-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px 24px; }
+.dossier-unit { border-top:1px solid var(--line); padding-top:7px; }
+.dossier-unit h3 { display:block!important; font-size:13px!important; line-height:1.25!important; margin:0 0 4px!important; color:var(--red); }
+.dossier-unit h3:after { content:none!important; }
+.dossier-unit p { display:block!important; font-size:13.5px!important; line-height:1.38!important; max-width:none!important; }
+.dossier-source-row { border-top:1px solid var(--line); padding-top:7px; color:var(--muted); font-size:11px; line-height:1.35; margin:0; }
+.dossier-source-row .reference-marker { margin-left:8px; }
+.lane-scan-slide>h2 { font-size:clamp(28px,2.6vw,42px); margin-bottom:8px; }
+.lane-scan-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px 22px; margin-top:16px; }
+.lane-scan-card { border-top:2px solid var(--red); padding:10px 12px 8px; background:#fff; min-width:0; }
+.lane-scan-head { display:flex; justify-content:space-between; gap:12px; align-items:baseline; margin-bottom:5px; }
+.lane-scan-head strong { font-size:15px; }
+.lane-scan-head span { color:var(--red); font-size:11px; text-transform:uppercase; letter-spacing:.08em; }
+.lane-scan-card p { font-size:13.5px; line-height:1.42; margin:0 0 7px; }
+.lane-scan-card .lane-scan-sources { color:var(--muted); font-size:11px; line-height:1.3; }
+.lane-scan-card .lane-scan-sources a { margin-right:7px; }
 .text-story .story-body { display:block; max-width:1050px; }
 .text-story .story-brief { display:grid; grid-template-columns:1fr 1fr; gap:20px 30px; }
 .text-story .brief-unit h3 { display:block; font-size:18px; margin-bottom:6px; }
@@ -435,11 +508,24 @@ a:focus-visible,button:focus-visible { outline:3px solid #3464c8; outline-offset
  .js-deck .story-visuals .product-figure figcaption,.js-deck .story-visuals .media-figure figcaption { font-size:11px; }
  .js-deck .text-story .brief-unit p { font-size:18px; line-height:1.55; }
  .js-deck .text-story .brief-unit h3 { font-size:18px; }
+ .js-deck .dossier-grid { gap:7px 18px; }
+ .js-deck .dossier-unit { padding-top:5px; }
+ .js-deck .dossier-unit h3 { font-size:12px!important; margin-bottom:3px!important; }
+ .js-deck .dossier-unit p { font-size:11px!important; line-height:1.15!important; }
+ .js-deck .dossier-body { gap:18px; }
+ .js-deck .dossier-source-row { font-size:10px; padding-top:5px; }
+ .js-deck .lane-scan-grid { gap:10px 18px; margin-top:10px; }
+ .js-deck .lane-scan-card { padding:7px 10px 5px; }
+ .js-deck .lane-scan-head strong { font-size:13px; }
+ .js-deck .lane-scan-card p { font-size:12px; line-height:1.3; margin-bottom:4px; }
+ .js-deck .lane-scan-card .lane-scan-sources { font-size:10px; }
  .js-deck .context-label { font-size:12px; margin-bottom:5px; }
 }
 @media (max-width:900px) {
  .contents-list,.contents-context ol { grid-template-columns:1fr; }
  .story-body { grid-template-columns:1fr; }
+ .dossier-body { grid-template-columns:1fr; }
+ .dossier-grid { grid-template-columns:1fr; gap:12px; }
  .story-visuals .product-figure img,.story-visuals .media-figure img,.story-visuals .media-figure video { max-height:280px; }
  .story-visuals.count-3>:first-child img { max-height:320px; }
  .text-story .story-brief { grid-template-columns:1fr; gap:12px; }
@@ -449,5 +535,5 @@ a:focus-visible,button:focus-visible { outline:3px solid #3464c8; outline-offset
 }
 
 @page { size:16in 9in; margin:0; }
-@media print { body.visual-issue { background:#fffdf8; font-size:14px; } .visual-reader,.js-deck .visual-reader { display:block; height:auto; width:16in; max-width:none; padding:0; } .report-header,.report-controls,.js-deck .report-controls { display:none; } .report-stage,.js-deck .report-stage { display:block; overflow:visible; } .report-slide,.js-deck .report-slide[hidden] { display:block!important; width:16in; height:9in; padding:30px 40px; break-after:page; page-break-after:always; overflow:hidden; } .report-slide:last-child { break-after:auto; page-break-after:auto; } .report-slide h1 { font-size:42px; } .product-slide>h2 { font-size:34px; margin-bottom:18px; } .event-meta { font-size:12px; } .visual-gallery { margin-bottom:18px; gap:16px; } .product-figure img { max-height:260px; } .visual-gallery.count-1 img { max-height:250px; } .brief-unit p { font-size:14px; line-height:1.55; } .brief-grid,.use-limit-grid { gap:14px 30px; } .change-columns h3 { font-size:22px; } .digest-row { padding:16px 0; } .digest-images img { max-height:145px; } .digest-copy h2 { font-size:26px; } .digest-copy>p { font-size:14px; } .issue-intro { font-size:14px; } .read-event,.figure-source { font-size:11px; } .event-source-row { font-size:11px; } .no-news-slide { padding:80px 60px; } a { text-decoration:none; } }`;
+@media print { body.visual-issue { background:#fffdf8; font-size:14px; } .visual-reader,.js-deck .visual-reader { display:block; height:auto; width:16in; max-width:none; padding:0; } .report-header,.report-controls,.js-deck .report-controls { display:none; } .report-stage,.js-deck .report-stage { display:block; overflow:visible; } .report-slide,.js-deck .report-slide[hidden] { display:block!important; width:16in; height:9in; padding:30px 40px; break-after:page; page-break-after:always; overflow:hidden; } .report-slide:last-child { break-after:auto; page-break-after:auto; } .report-slide h1 { font-size:42px; } .product-slide>h2 { font-size:34px; margin-bottom:18px; } .event-meta { font-size:12px; } .visual-gallery { margin-bottom:12px; gap:12px; } .product-figure img { max-height:190px; } .visual-gallery.count-1 img { max-height:180px; } .brief-unit p { font-size:14px; line-height:1.55; } .brief-grid,.use-limit-grid { gap:14px 30px; } .dossier-body { grid-template-columns:220px minmax(0,1fr); gap:16px; margin-bottom:6px; } .dossier-second .dossier-body { display:block; } .dossier-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:6px 18px; } .dossier-unit { padding-top:4px; } .dossier-unit h3 { font-size:11px!important; line-height:1.15!important; margin-bottom:2px!important; } .dossier-unit p { font-size:10.5px!important; line-height:1.2!important; } .dossier-source-row { font-size:9px; line-height:1.15; padding-top:4px; } .change-columns h3 { font-size:22px; } .digest-row { padding:16px 0; } .digest-images img { max-height:145px; } .digest-copy h2 { font-size:26px; } .digest-copy>p { font-size:14px; } .issue-intro { font-size:14px; } .read-event,.figure-source { font-size:11px; } .event-source-row { font-size:11px; } .no-news-slide { padding:80px 60px; } a { text-decoration:none; } }`;
 }

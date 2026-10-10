@@ -1,0 +1,10 @@
+{
+  "renderer": "chromium",
+  "date": "2026-10-10",
+  "pages": {
+    "zh": 16,
+    "en": 16
+  },
+  "sourceDataSha256": "af8d76b18eaf1afc05f784d61d9322ffb15acd9a5390b3aa87460fafc563a420",
+  "note": "Browser print layout with verified HTML page parity."
+}

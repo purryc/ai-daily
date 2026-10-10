@@ -1,5 +1,126 @@
 [
   {
+    "date": "2026-10-10",
+    "zhTitle": "屏幕重新长出代理：Alexa 平板、无屏 Core 与会移动的桌面",
+    "enTitle": "When the screen becomes an agent surface: Alexa tablets, a screenless Core, and a moving desk",
+    "zhSummary": "本期的硬件信号集中在一个变化：AI 不再只是叠加在既有设备上的聊天入口，而开始重写设备的默认姿势。Amazon 用 Android 16、Google Play 和 Alexa+ 把平板从 Fire 内容终端改造成可读、可写、可看屏幕的工作面；Ghost 把本地模型、显卡和个人上下文装进无屏 Core；Natura 把按键、麦克风和健康传感器缩进戒指；Goodfire 则把 Agent 的内部激活变成实时安全监控；CyboPal 让显示器追着人的姿势移动。今天最值得追的不是“有没有 AI”，而是每个产品怎样让用户知道系统看到了什么、正在做什么、何时需要接管。",
+    "enSummary": "This issue follows one hardware shift: AI is no longer merely an assistant layered onto an existing device; it is changing the default posture of the device itself. Amazon uses Android 16, Google Play, and Alexa+ to turn its tablet line from Fire content terminals into readable, writable, screen-aware work surfaces. Ghost puts local models, a discrete GPU, and personal context into a screenless Core. Natura compresses the agent entry point into a button, microphone, and health sensors on a ring. Goodfire turns internal model activations into a live safety monitor, while CyboPal makes a display follow the user's posture. The product question is concrete: how does each system show what it saw, what it is doing, and when a person must take over?",
+    "tags": [
+      "AI hardware",
+      "agent interface",
+      "on-device AI",
+      "wearables",
+      "robotics",
+      "HCI"
+    ],
+    "sourceTypes": [
+      "official",
+      "developer surface",
+      "review",
+      "review/interview",
+      "startup official",
+      "media index",
+      "developer/news",
+      "technical analysis",
+      "crowdfunding",
+      "review/news",
+      "review/community friction",
+      "startup report",
+      "specialist media"
+    ],
+    "coverStory": {
+      "topicId": "amazon-alexa-tablets-alexa-plus-2026-10-08",
+      "zhTitle": "Amazon Alexa Tablets：把 Android、Alexa+ 与可看屏幕的助手装进新平板",
+      "enTitle": "Amazon Alexa Tablets make Android, Alexa+, and screen-aware help the default tablet layer",
+      "zhSummary": [
+        "Alexa Tablets 是 Amazon 的新 Android 平板家族，包含 12 Pro、11 和 8 三种尺寸；Alexa+ 不只在独立 App 里回答，而是能在当前屏幕上读取上下文、给建议、控制智能家居并把动作写回日历。",
+        "Amazon 同时放弃 Fire 品牌和旧的受限应用路径，加入完整 Google Play Store、Dynamic Tab、For You feed、On-Screen Intelligence 与无唤醒词 live session；屏幕理解默认关闭，启用时保留视觉指示器。"
+      ],
+      "enSummary": [
+        "Alexa Tablets are Amazon's new Android family in 12 Pro, 11, and 8 sizes. Alexa+ is not confined to a separate app: it can inspect the current screen, offer contextual help, control smart-home devices, and write actions back into a calendar.",
+        "Amazon is retiring the Fire name and its restricted app path while adding full Google Play access, a Dynamic Tab, a For You feed, On-Screen Intelligence, and wake-word-free live sessions. Screen intelligence is off by default and shows a visual indicator when enabled."
+      ],
+      "imagePath": "assets/amazon-alexa-tablets-2026-10-10.png",
+      "imageSourceUrl": "https://www.aboutamazon.com/news/devices/new-amazon-alexa-tablets-alexa-plus",
+      "primarySourceUrl": "https://aboutamazon.com/news/devices/new-amazon-alexa-tablets-alexa-plus",
+      "evidenceStrength": "Amazon official launch and developer specification pages; hands-on details remain first-wave review evidence"
+    },
+    "watchlistZh": [
+      "Alexa Tablet 的 On-Screen Intelligence 在真实多窗口、账户切换和敏感内容中是否保持清晰的可见指示；目前只确认 opt-in 和视觉指示器设计。",
+      "Ghost Core 第二批定价、凭证防火墙、云端依赖和无屏状态反馈；首批售罄只证明稀缺性，不证明日常 Agent 体验。",
+      "Natura Interface 的官方预订页与 TechCrunch 文章对开放时间的表述不同，需追踪真实下单入口、Agent 连接矩阵和月费何时开始。",
+      "Goodfire probes 在更多模型、长上下文和真实 tool-call 阻断中的召回率、误报和审计可解释性；当前数字来自公司测试。",
+      "CyboPal ONE 的量产、运输、碰撞安全和 Pauli agent 在长期桌面使用中的可靠性；Kickstarter 资金不是交付证明。",
+      "中国 AI 硬件下一次有明确日期、可复核交互变化的更新，以及是否真正把上下文和接管反馈放入设备默认路径。"
+    ],
+    "watchlistEn": [
+      "Whether Alexa Tablet On-Screen Intelligence keeps its opt-in indicator legible across multi-window work, account switching, and sensitive content; only the opt-in and visual-indicator design are currently confirmed.",
+      "Ghost Core's second-batch price, credential firewall, cloud dependency, and screenless state feedback; a sold-out first batch proves scarcity, not daily agent quality.",
+      "Natura Interface's real checkout path, agent-connection matrix, and when the monthly fee begins; its official waitlist language and TechCrunch timing do not yet line up cleanly.",
+      "Goodfire probe recall, false positives, and auditability across more models, long contexts, and real tool-call blocking; current numbers are company tests.",
+      "CyboPal ONE's manufacturing, shipping, collision safety, and long-run Pauli-agent reliability; Kickstarter funding is not delivery proof.",
+      "The next dated China AI-hardware update with an inspectable interaction change, and whether it puts context and takeover feedback into the default device path."
+    ],
+    "zhPath": "./2026-10-10/zh/",
+    "enPath": "./2026-10-10/en/",
+    "sourcesPath": "./2026-10-10/sources.md"
+  },
+  {
+    "date": "2026-10-08",
+    "zhTitle": "Agent 进入默认工作面：云端同事、本地 PC 与可审计的执行边界",
+    "enTitle": "Agents move into the default work surface: cloud coworkers, local PCs, and auditable execution",
+    "zhSummary": "Google 把 Gemini agent 放进统一 prompt、Workspace 和企业治理；Microsoft 同日把 RTX Spark 本地算力、Windows 混合智能和 Execution Containers 接成一个 agent-ready PC 栈；GitHub 把 Ollama 本地模型带入 Copilot CLI 的模型选择器；DevAlly 则把无障碍测试从单页扫描推进到可复核的真实用户流程。今天的共同产品信号是：Agent 不再只回答，系统必须同时说明它是谁、看到了什么、在哪里执行，以及人如何接管。",
+    "enSummary": "Google moved Gemini into a universal prompt, Workspace, and enterprise governance. Microsoft connected RTX Spark local compute, Windows hybrid intelligence, and Execution Containers into an agent-ready PC stack. GitHub brought Ollama discovery into the Copilot CLI model picker. DevAlly moved accessibility testing from page scans to reviewable user journeys. The shared product signal is that agents no longer only answer: the system must show who acted, what was visible, where execution happened, and how a person can take over.",
+    "tags": [],
+    "sourceTypes": [
+      "official",
+      "official event",
+      "official product context",
+      "review/news",
+      "developer surface",
+      "developer/community",
+      "official developer surface",
+      "review/community friction",
+      "community",
+      "startup/community",
+      "startup official"
+    ],
+    "coverStory": {
+      "topicId": "google-gemini-agent-universal-work-agent-2026-10-08",
+      "zhTitle": "Google Gemini agent：把企业工作交给一个持续运行的工作同事",
+      "enTitle": "Google Gemini agent turns one prompt into a persistent work coworker",
+      "zhSummary": [
+        "Gemini agent 是 Google Cloud 在 Gemini at Work 2026 宣布的统一企业 Agent：它从一个 prompt 接收目标，选择模型、skills 和 tools，连接企业系统，持续执行并把结果放回用户已有的工作面。",
+        "新公开的组合包括 persistent execution、dynamic sub-agents、coworker identity、skills registry、四类 memory、MCP connectors、Agent Sandbox、Agent Gateway、audit trail、Smart Routing 和实时 spend caps。"
+      ],
+      "enSummary": [
+        "Gemini agent is Google Cloud's newly announced universal enterprise agent. A user gives it an objective in one prompt; it selects models, skills, and tools, connects to business systems, runs persistently, and returns finished work into the surfaces where the team already works.",
+        "The dated announcement combines persistent execution, dynamic sub-agents, coworker identity, a skills registry, four memory types, MCP connectivity, an Agent Sandbox, an Agent Gateway, agent-attributed audit, Smart Routing, and real-time spend caps."
+      ],
+      "imagePath": "assets/google-gemini-agent-2026-10-08.png",
+      "imageSourceUrl": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+      "primarySourceUrl": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+      "evidenceStrength": "Google Cloud official Gemini at Work 2026 announcement; customer and availability claims remain company-reported"
+    },
+    "watchlistZh": [
+      "Google Gemini agent 的真实可用范围、定价、地区和管理员控制面何时从 keynote 叙述进入可操作文档。",
+      "Surface Laptop Ultra 的独立续航、端侧模型吞吐、散热和长时间 agent 运行表现；当前只有发布规格与首轮报道。",
+      "MXC 的安全边界、Intune 管理、不同 isolation backend 与实际越权失败案例；开源仓库仍提醒 early integration 不应当作最终安全边界。",
+      "DevAlly Agent 对 hover-only menus、drag-and-drop、iframes 的覆盖何时扩大，以及真实屏幕阅读器流程的独立审计。",
+      "中国 AI PC、AI 眼镜与智能体手机下一轮有明确日期的系统级交互更新。"
+    ],
+    "watchlistEn": [
+      "When Gemini agent's real access scope, pricing, regions, and admin controls move from keynote language into operational documentation.",
+      "Independent battery, local-model throughput, thermals, and long-running-agent testing for Surface Laptop Ultra; current evidence is launch specification and first-wave coverage.",
+      "MXC's security boundary, Intune controls, isolation backends, and real escape cases; the open-source repository still calls for caution during early integration.",
+      "When DevAlly Agent expands beyond hover-only menus, drag and drop, and iframes, plus independent audits of real screen-reader journeys.",
+      "The next dated system-level interaction update from China's AI PC, AI glasses, or agent-phone products."
+    ],
+    "zhPath": "./2026-10-08/zh/",
+    "enPath": "./2026-10-08/en/",
+    "sourcesPath": "./2026-10-08/sources.md"
+  },
+  {
     "date": "2026-10-07",
     "zhTitle": "Agent 进入团队与设备：今天验收判断、协作和端侧成本",
     "enTitle": "Agents enter teams and devices: acceptance moves to judgement, collaboration, and edge cost",
