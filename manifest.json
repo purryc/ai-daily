@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-10-11",
+    "zhTitle": "AI Daily · 判断开始离开聊天框",
+    "enTitle": "AI Daily · When agents leave the chat box",
+    "zhSummary": "今天的产品线索集中在一个具体转向：Agent 不只生成答案，而是在本地设备、仓库工位、机器人控制链和音视频输入之间做可执行判断。能否看见状态、阈值、权限、失败与人工接管，比再加一个聊天入口更决定产品是否可用。",
+    "enSummary": "Today's product signals share a concrete shift: agents are not only generating answers; they are making executable decisions across local machines, warehouse stations, robot pipelines, and audio-video inputs. Visible state, thresholds, permissions, failure, and human takeover matter more than adding another chat entry point.",
+    "tags": [
+      "local AI",
+      "decision models",
+      "physical AI",
+      "robotics",
+      "agent UX"
+    ],
+    "sourceTypes": [
+      "official",
+      "review",
+      "community",
+      "startup",
+      "developer docs",
+      "developer surface"
+    ],
+    "coverStory": {
+      "topicId": "gmktec-evo-x5-pro-commercial-local-ai-2026-10-09",
+      "zhTitle": "GMKtec EVO-X5 Pro：把离线大模型做成一台可部署的工作站",
+      "enTitle": "GMKtec EVO-X5 Pro turns offline large-model capacity into a deployable workstation",
+      "zhSummary": [
+        "EVO-X5 Pro 是采用 AMD Ryzen AI Max+ PRO 495 的高内存本地 AI mini PC。",
+        "新一轮官方信息把它从单机参数推进到可管理、可离线、可扩展的商业计算节点。"
+      ],
+      "enSummary": [
+        "EVO-X5 Pro is a high-memory local-AI mini PC built around AMD Ryzen AI Max+ PRO 495.",
+        "The latest company update moves it from a specification story toward a manageable, offline, scalable commercial compute node."
+      ],
+      "imagePath": "assets/gmktec-evo-x5-pro-2026-10-11.png",
+      "imageSourceUrl": "https://www.gmktec.com/products/gmktec-evo-x5-pro-amd-ryzen-ai-max-pro-495-ai-mini-pc",
+      "primarySourceUrl": "https://gmktec.com/blogs/news/gmktec-evo-x5-pro-advances-from-desktop-ai-supercomputer-to-commercial-ai-computing",
+      "evidenceStrength": "GMKtec official China event and product page disclose a commercial local-AI workstation, while independent workload testing remains limited"
+    },
+    "watchlistZh": [
+      "Cloudflare Clef-omni 的长音视频边界、价格与误升级率",
+      "GMKtec EVO-X5 Pro 的真实吞吐、噪声、驱动与多用户隔离",
+      "Ultra OP1 与 Maven 的客户工位、人工接管和 WMS/工厂系统接口",
+      "AWS Physical AI Toolchain 是否能在非 NVIDIA 设备和弱网环境中闭环",
+      "Research memory/failure logging 是否进入可回放的 Agent 控制面"
+    ],
+    "watchlistEn": [
+      "Clef-omni long audio/video limits, pricing, and false-escalation rate",
+      "EVO-X5 Pro real throughput, noise, drivers, and multi-user isolation",
+      "Customer stations, takeover, and WMS/factory interfaces for Ultra OP1 and Maven",
+      "Whether AWS Physical AI Toolchain closes the loop on non-NVIDIA hardware and weak networks",
+      "Whether memory and failure logging research becomes a replayable agent control surface"
+    ],
+    "zhPath": "./2026-10-11/zh/",
+    "enPath": "./2026-10-11/en/",
+    "sourcesPath": "./2026-10-11/sources.md"
+  },
+  {
     "date": "2026-10-10",
     "zhTitle": "屏幕重新长出代理：Alexa 平板、无屏 Core 与会移动的桌面",
     "enTitle": "When the screen becomes an agent surface: Alexa tablets, a screenless Core, and a moving desk",
