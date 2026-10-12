@@ -1,0 +1,692 @@
+{
+  "date": "2026-10-12",
+  "timezone": "America/Toronto",
+  "editorialVersion": 2,
+  "cutoff": "2026-10-12T12:30:00-04:00",
+  "lookbackDays": 3,
+  "laneScans": [
+    {
+      "lane": "official",
+      "status": "covered",
+      "zh": "官方线今天由 MorningAI、Ghost、Torchit 和 ZenaTech 的产品页/新闻室组成。强项是能看到产品入口、价格或交互流程；弱项是 Ghost、Torchit 和 Stacklens 的公开材料仍没有完整长测或企业验收，因此没有把厂商演示升级成成功率。",
+      "en": "The official lane is covered by MorningAI, Ghost, Torchit, and ZenaTech product or newsroom pages. The strength is visible product entry points, prices, or flows; the weakness is that Ghost, Torchit, and Stacklens still lack complete long-run or enterprise acceptance evidence, so vendor demonstrations are not promoted into success rates.",
+      "sourceUrls": [
+        "https://www.morningai.com/blog/october-12-2026-product-updates",
+        "https://ghost.ai/",
+        "https://www.torchit.org/products/product-details?id=jyoti-pro",
+        "https://www.zenatech.com/newsroom/"
+      ]
+    },
+    {
+      "lane": "reviews",
+      "status": "covered",
+      "zh": "评测线看了 TechRadar、TelecomTalk 与行业产品页，保留 Ghost 的首批/价格语境、Jyoti 的安全与可负担性提醒，以及 Shape 的端到端任务疑问。没有足够数据支持热、续航、准确率、生产率或规模化部署结论。",
+      "en": "The review lane covered TechRadar, TelecomTalk, and product-focused reporting, retaining Ghost's first-batch and price context, Jyoti's safety and affordability warnings, and questions about Shape's end-to-end tasks. There is not enough evidence for thermal, battery, accuracy, productivity, or scaled-deployment conclusions.",
+      "sourceUrls": [
+        "https://www.techradar.com/ai-platforms-assistants/ai-platforms/teen-founder-reveals-personal-ai-computer-for-running-local-agents-usd-3-499-mac-mini-rival-runs-on-nvidia-rtx-pro-4000-gpu-and-promises-to-be-a-subscription-free-brain-in-a-box",
+        "https://telecomtalk.info/torchit-builds-ai-glasses-for-blind-users/1012697/"
+      ]
+    },
+    {
+      "lane": "community",
+      "status": "covered",
+      "zh": "社区线保留 Shape 的 Reddit 讨论和 Stacklens 的转发帖，用来追问真实完成任务、认证、接口和使用边界。它们是 review/community friction，不是用户规模、满意度或现场安全的代表性样本。",
+      "en": "The community lane keeps Reddit discussion around Shape and a Stacklens repost to ask about real task completion, certification, integrations, and usage boundaries. These are review/community friction signals, not representative evidence of user scale, satisfaction, or field safety.",
+      "sourceUrls": [
+        "https://www.reddit.com/r/SaaS/comments/1x2n06o/i_built_shape_an_ai_agent_for_software_development/",
+        "https://www.reddit.com/r/b2i_digital/comments/1x1wp1e/zenatech_nasdaq_zena_unveils_stacklens_aipowered/"
+      ]
+    },
+    {
+      "lane": "wild",
+      "status": "covered",
+      "zh": "野生线扫描 Founderland、October 和创业产品目录，今天把 Ghost Core 与 Shape 作为具体创业产品信号纳入；它们有可访问产品页，但融资、首批售罄或模型数量都不能替代交付、可靠性和权限证据。",
+      "en": "The wild lane scanned Founderland, October, and startup product directories and promoted Ghost Core and Shape as concrete startup product signals. They have accessible product surfaces, but funding, first-batch demand, and model counts do not replace delivery, reliability, or permission evidence.",
+      "sourceUrls": [
+        "https://founderland.ai/product-launches/saas",
+        "https://www.october.dev/"
+      ]
+    },
+    {
+      "lane": "research",
+      "status": "scan",
+      "zh": "研究线检查近期智能眼镜第一视角智能、持续个性化和具身 Agent 论文。今天没有把论文当作新产品；观察重点是端侧感知、长期记忆、主动性和可治理动作何时进入真实设备接口，所选论文只承担 research signal。",
+      "en": "The research lane checked recent papers on egocentric intelligence, persistent personalization, and embodied agents in smart eyewear. No paper is presented as a new product today. The watch points are when edge perception, long-term memory, proactivity, and governed action reach real device interfaces; the papers remain research signals.",
+      "sourceUrls": [
+        "https://arxiv.org/abs/2609.19793",
+        "https://arxiv.org/abs/2608.24877",
+        "https://arxiv.org/abs/2604.03486"
+      ]
+    },
+    {
+      "lane": "patent",
+      "status": "scan",
+      "zh": "专利线检查眼镜按上下文选择输出模态、分体式 AI 与 Agent 感知增强的公开文本。专利只能说明权利范围和设计方向，不能证明型号、交互、上市、地区或可用性；本期明确降级为 patent signal。",
+      "en": "The patent lane checked public filings about context-dependent output modalities, split AI in glasses, and agent-assisted perception. A patent indicates claim scope and design direction, not a model, interaction, launch, region, or availability; this remains a patent signal.",
+      "sourceUrls": [
+        "https://patents.google.com/patent/US20260065605A1/en",
+        "https://patents.google.com/patent/WO2026164792A1/en",
+        "https://patents.google.com/"
+      ]
+    },
+    {
+      "lane": "china",
+      "status": "scan",
+      "zh": "中国线扫描 36Kr、机器之心、量子位、少数派与云深处产品页，重点看 AI 眼镜、具身机器人、端侧 AI PC 和 Agent 手机。今天没有一条同时具备新日期、清楚交互、规格和可获得性的中国新品证据超过本期已选项，因此不硬塞产品，继续观察量产、售后和实际现场。",
+      "en": "The China lane scanned 36Kr, Machine Intelligence, QbitAI, SSPAI, and DEEP Robotics product pages for AI glasses, embodied robots, edge AI PCs, and agent phones. No Chinese item had a cleaner combination of new date, clear interaction, specifications, and availability than today's selected items, so no product is forced into the issue; watch production, support, and field use.",
+      "sourceUrls": [
+        "https://www.36kr.com/",
+        "https://www.jiqizhixin.com/",
+        "https://www.qbitai.com/",
+        "https://sspai.com/",
+        "https://deeprobotics.cn/robot/index/dr02.html"
+      ]
+    },
+    {
+      "lane": "global",
+      "status": "covered",
+      "zh": "全球线由美国创业硬件、印度无障碍眼镜、加拿大工业眼镜和跨地区营销软件组成。地理覆盖不等于全球可买；每项按来源写清地区、试点或账户入口，没有把单一国家的价格和库存改写成全球上市。",
+      "en": "The global lane is represented by US startup hardware, Indian assistive eyewear, Canadian industrial eyewear, and cross-region marketing software. Geographic coverage is not worldwide availability; each item keeps its source-specific region, pilot status, or account entry instead of turning one country's price or stock into a global launch.",
+      "sourceUrls": [
+        "https://ghost.ai/",
+        "https://www.torchit.org/products/product-details?id=jyoti-pro",
+        "https://www.zenatech.com/newsroom/",
+        "https://www.morningai.com/"
+      ]
+    }
+  ],
+  "excludedCandidates": [],
+  "contextTopics": [],
+  "editorialPlan": {
+    "targetMinutes": 24,
+    "format": "16:9 paged magazine issue",
+    "note": "Every dossier keeps the same bilingual information units; long stories are split into full 16:9 pages by the public renderer."
+  },
+  "zhTitle": "AI Daily · Agent 开始拥有自己的工作台",
+  "enTitle": "AI Daily · Agents get a working surface",
+  "zhSummary": "今天最清楚的产品变化不是又一个聊天入口，而是 Agent 开始拥有可审阅的工作台：网页改动要先预览再发布，本地计算机承载持续上下文，coding agent 公开执行与反方审查，眼镜把视觉任务拆成可听见的日常动作，工业安全眼镜则把 AI 带进真实工位。能否看见状态、权限、失败和人工接管，决定这些产品是工具还是新的隐形负担。",
+  "enSummary": "Today's clearest product change is not another chat entry point but a working surface for agents: website edits go through preview and publish, a local computer carries continuous context, coding agents expose execution and adversarial review, eyewear turns visual tasks into audible actions, and industrial safety glasses aim at the real workstation. Visible state, permission, failure, and human takeover decide whether these products are tools or hidden new burdens.",
+  "tags": [
+    "agent workspace",
+    "local AI",
+    "coding agents",
+    "assistive eyewear",
+    "industrial HCI"
+  ],
+  "sourceTypes": [
+    "official",
+    "developer surface",
+    "wild",
+    "review",
+    "developer docs",
+    "community"
+  ],
+  "coverStory": {
+    "topicId": "morningai-website-agent-publish-preview-2026-10-12",
+    "zhTitle": "MorningAI Website Agent：把网页改版变成可审阅的执行流",
+    "enTitle": "MorningAI Website Agent turns a website change into a reviewable execution flow",
+    "zhSummary": [
+      "MorningAI Website Agent 是面向品牌团队的网页改版 Agent。",
+      "今天的更新新增页面/按钮/布局编辑、GitHub 连接和发布前预览。"
+    ],
+    "enSummary": [
+      "MorningAI Website Agent is a website-change agent for brand and marketing teams.",
+      "Today's update adds page, button, image, and layout edits with GitHub connection and pre-publish preview."
+    ],
+    "imagePath": "assets/morningai-website-agent-2026-10-12.png",
+    "imageSourceUrl": "https://www.morningai.com/blog/october-12-2026-product-updates",
+    "primarySourceUrl": "https://morningai.com/blog/october-12-2026-product-updates",
+    "evidenceStrength": "MorningAI's dated product update documents a live Website Agent flow with a preview and explicit user-controlled Publish step"
+  },
+  "watchlistZh": [
+    "MorningAI 的 GitHub 权限、预览构建链与回滚是否真的可审计",
+    "Ghost Core 首批交付、持续负载、噪声和本地 Agent 权限",
+    "Shape 的命令沙箱、模型计费和 adversarial review 是否抓得到真实 bug",
+    "Jyoti 不同 SKU 的语言、延迟、准确率与低视力用户安全反馈",
+    "Stacklens 的认证型号、2027 pilot、工单接口和现场录像边界"
+  ],
+  "watchlistEn": [
+    "MorningAI GitHub permissions, preview build chain, and rollback auditability",
+    "Ghost Core first-batch delivery, sustained load, acoustics, and local-agent permissions",
+    "Shape command sandboxing, model billing, and whether adversarial review catches real bugs",
+    "Jyoti SKU differences, language coverage, latency, accuracy, and low-vision safety feedback",
+    "Stacklens certified SKU, 2027 pilot, work-order integration, and field-recording boundaries"
+  ],
+  "topics": [
+    {
+      "id": "morningai-website-agent-publish-preview-2026-10-12",
+      "section": "official",
+      "event": {
+        "productKey": "morningai-website-agent",
+        "kind": "release",
+        "occurredAt": "2026-10-12",
+        "key": "website-agent-preview-publish-2026-10-12",
+        "summaryZh": "MorningAI 发布 Website Agent，把自然语言网站改动连接到 GitHub、计划、跨设备预览和人工发布。",
+        "summaryEn": "MorningAI released a Website Agent that connects natural-language website changes to GitHub, a generated plan, cross-device preview, and human publishing.",
+        "deltaZh": "10 月 12 日更新把 Agent 从写内容推进到修改页面、按钮、图片和布局，并明确把 Preview 与 Publish 分开；可执行动作因此有了可见的中间态。",
+        "deltaEn": "The October 12 update moves the agent from writing content to changing pages, buttons, images, and layout, while explicitly separating Preview from Publish so the executable action has a visible intermediate state."
+      },
+      "eventSourceUrl": "https://morningai.com/blog/october-12-2026-product-updates",
+      "brief": {
+        "zh": {
+          "what": "MorningAI Website Agent 是面向品牌团队的网页改版 Agent。",
+          "change": "今天的更新新增页面/按钮/布局编辑、GitHub 连接和发布前预览。",
+          "use": "适合营销人员先用一句话做小范围落地页、门店页或活动页改动，再交给工程师审阅。",
+          "limits": "公开材料没有给出生成成功率、代码审查规则、回滚实现、价格矩阵和平台兼容清单。"
+        },
+        "en": {
+          "what": "MorningAI Website Agent is a website-change agent for brand and marketing teams.",
+          "change": "Today's update adds page, button, image, and layout edits with GitHub connection and pre-publish preview.",
+          "use": "It fits small landing-page, store-page, or campaign changes that a marketer wants to request before an engineer reviews them.",
+          "limits": "The public update does not state success rates, code-review rules, rollback implementation, pricing tiers, or a full platform-compatibility matrix."
+        }
+      },
+      "visuals": [
+        {
+          "path": "assets/morningai-website-agent-2026-10-12.png",
+          "width": 1600,
+          "height": 900,
+          "kind": "source-backed product-page screenshot",
+          "role": "source-backed product evidence",
+          "altZh": "MorningAI Website Agent 官方产品更新页中的 GitHub 连接、自然语言请求与发布前预览",
+          "altEn": "MorningAI Website Agent official update page showing GitHub connection, natural-language request, and pre-publish preview",
+          "captionZh": "官方更新页展示 Website Agent 从一句话请求、生成计划到桌面/平板/手机预览后再 Publish 的流程。",
+          "captionEn": "The official update shows a flow from one-sentence request through a generated plan and desktop/tablet/mobile preview to Publish.",
+          "sourceUrl": "https://www.morningai.com/blog/october-12-2026-product-updates",
+          "capturedAt": "2026-10-12T10:50:00-04:00"
+        }
+      ],
+      "zhHeadline": "MorningAI Website Agent：把网页改版变成可审阅的执行流",
+      "enHeadline": "MorningAI Website Agent turns a website change into a reviewable execution flow",
+      "sources": [
+        {
+          "label": "MorningAI October 12 product update",
+          "url": "https://morningai.com/blog/october-12-2026-product-updates",
+          "type": "official",
+          "publishedAt": "2026-10-12",
+          "verifiedAt": "2026-10-12T10:50:00-04:00",
+          "isPrimary": true
+        },
+        {
+          "label": "MorningAI product site",
+          "url": "https://morningai.com",
+          "type": "official",
+          "publishedAt": null,
+          "verifiedAt": "2026-10-12T10:50:00-04:00",
+          "isPrimary": false
+        },
+        {
+          "label": "MorningAI resource center",
+          "url": "https://morningai.com/resource-center",
+          "type": "developer surface",
+          "publishedAt": null,
+          "verifiedAt": "2026-10-12T10:50:00-04:00",
+          "isPrimary": false
+        }
+      ],
+      "evidenceLabel": "confirmed product",
+      "evidenceStrength": "MorningAI's dated product update documents a live Website Agent flow with a preview and explicit user-controlled Publish step",
+      "dossierKind": "product",
+      "dossier": {
+        "zh": {
+          "productName": "MorningAI Website Agent 是 MorningAI 面向品牌和营销团队推出的网页执行产品。公开更新把它描述为能读懂网站、连接 GitHub、生成改动计划并修改页面的 Agent；它不是单纯帮人写一段 HTML，而是试图把‘提出小改动—看到结果—批准上线’放进一个工作流。确认的对象是产品入口和文档化流程，不能把演示流程写成所有网站都能无误发布。",
+          "productType": "产品类型是 website-editing agent / marketing workspace。它把内容生成、网页结构修改、品牌资料、GitHub 连接和发布审批放在同一系统里，目标用户是能描述业务目标、但不一定愿意直接改代码的营销、品牌和运营人员。HCI 上最重要的变化是，用户不必先理解组件、路由或 CSS；系统承担翻译工作，但必须让用户知道哪些页面、按钮、图片和链接将被改变。",
+          "interactionFlow": "官方给出的流程很具体：先在 Brand DNA 的 Connectors 中连接 GitHub；进入 Agents 并切换到 Website；用一句话提出需求；Agent 读取网站、写出计划并构建页面或按钮；用户在桌面、平板和手机预览；确认后才 Publish，也可以复制 review link 给工程师。这个流程保留了人工发布闸门，降低了‘一句话直接改线上’的风险。公开页面没有说明多文件冲突、分支策略、预览与生产环境的差异、失败后如何恢复。",
+          "specsOrStack": "已披露的栈包括 MorningAI Agent、Brand DNA、GitHub connector、网站内容/布局读取、生成式图像能力和跨设备预览。更新还提到可接收图片、视频、PDF 或 deck 作为输入，并可修改 headline、copy、image、layout、button 和 link。具体框架、GitHub App 权限、提交方式、分支命名、审查规则、部署平台、API 版本、模型名称、上下文上限和运行成本 source not stated；不要从‘连接 GitHub’推断它支持任意仓库或任意 CMS。",
+          "useCases": "具体用例包括要求 Agent 新建 Where to Buy 页面并在主页添加门店按钮、创建客户资源页、制作活动落地页、替换页面文案和图片、调整 CTA 位置，以及把一个营销人员的自然语言请求变成工程师可以审阅的变更。对于小团队，它减少了把简单内容改动排进工程队列的等待；对于设计师，它提供了一个可视化的跨设备检查点。高风险交易页、登录、支付和复杂数据逻辑仍应保留工程师主导。",
+          "painPointsSolved": "它解决的不是‘不会写文案’，而是小规模网页变更跨越业务、设计、工程和发布工具时的等待与上下文切换。用户可以用业务语言描述目标，系统生成计划与预览，工程师也能通过 review link 介入。它没有自动解决品牌一致性、无障碍、SEO、性能、认证、内容合规或误改生产环境的问题；Preview 只是可见反馈，不是完整 QA 或部署安全证明。",
+          "userVoice": "当前公开证据以厂商更新与产品页面为主，未找到足够独立长期评测或社区案例来证明不同 CMS、复杂组件和多人协作下的稳定性。产品更新中给出的是理想的 Peachly 例子，不是代表性用户研究。应把它标成 confirmed product，同时把‘是否真的减少工程返工’保留为待测问题，而不是用页面截图替代真实发布成功率。",
+          "newTech": "新意在于把网页编辑 Agent 做成一个有状态的审批链：自然语言请求、计划、代码/内容变更、桌面/平板/手机预览、Review Link 和 Publish 各自成为可检查节点。它把‘生成’与‘执行’分开，这对 Agent 产品设计比更换模型更关键。真正的技术难点是把品牌上下文、仓库权限、组件语义、响应式布局和生产回滚绑定到同一可追踪任务里；公开材料还没有证明这条链在复杂项目中成立。",
+          "availability": "MorningAI 的 10 月 12 日更新公开说明 Website Agent、Social Agent 和 Channels 功能，入口指向 MorningAI 产品与演示。账户资格、完整地区范围、套餐、GitHub 权限、连接器收费、可用框架和企业支持 SLA source not stated；公开文章也没有承诺所有用户立即获得相同能力。购买或试用前应以当前产品账号和合同页面为准。",
+          "limitsOrUnknowns": "未知包括 GitHub 是只读、提交还是可直接合并；Preview 是否使用真实构建链；图片生成是否有品牌审核；Agent 是否会修改隐藏页面、追踪脚本或 SEO 元数据；多人同时编辑如何解决冲突；发布失败如何回滚；是否保存完整审计日志；对无障碍、Core Web Vitals 和移动端断点的自动检查程度；以及模型幻觉造成错误链接、事实或品牌语气时由谁承担责任。",
+          "productVerdict": "产品判断：MorningAI 把 Agent 的可用性落在一个可理解的动作链上，关键不是‘能不能生成页面’，而是用户能否在上线前看见计划、预览多设备结果、请求工程师复核，并保留发布边界。它适合低风险、可回滚、结构清晰的营销页面；不应被当作通用前端工程师替代品。下一步验收应故意制造错误链接、断开 GitHub、改变移动断点并拒绝发布，观察系统是否让用户安全停下。 验收时必须把输入范围、模型或固件版本、触发条件、用户确认、执行结果、失败状态、撤销、权限和日志放进同一条任务记录；只有能复盘一次完整任务，才能判断产品是否真正减少了工作。"
+        },
+        "en": {
+          "productName": "MorningAI Website Agent is MorningAI's website-execution product for brand and marketing teams. The public update describes an agent that reads a site, connects to GitHub, writes a change plan, and edits pages. It is not merely a copy generator returning HTML; it tries to put request, preview, review, and approval into one workflow. The confirmed evidence is the product entry point and documented flow, not a claim that every website can be published without error.",
+          "productType": "The product is a website-editing agent inside a marketing workspace. It combines content generation, structural page changes, brand context, a GitHub connector, and publishing approval for marketers and operators who can describe a business goal but may not want to edit code directly. The HCI shift is that the user does not need to start with components, routes, or CSS. The system translates intent, but it must show which pages, buttons, images, and links will change.",
+          "interactionFlow": "The published flow is concrete: connect GitHub under Brand DNA → Connectors; open Agents and switch to Website; write a one-sentence request; let the agent read the site, produce a plan, and build the page or button; inspect desktop, tablet, and mobile previews; then Publish, or copy a review link for an engineer. This keeps a human publishing gate. The public page does not explain multi-file conflicts, branch strategy, preview-versus-production differences, or recovery after a failed build.",
+          "specsOrStack": "The disclosed stack includes the MorningAI Agent, Brand DNA, a GitHub connector, site-content and layout reading, generative-image support, and cross-device preview. The update says users can attach photos, videos, PDFs, or decks and edit headlines, copy, images, layouts, buttons, and links. Framework, GitHub App permissions, commit method, branch naming, review rules, deployment platform, API version, model name, context limit, and run cost are source not stated. A GitHub connection should not be treated as proof of support for every repository or CMS.",
+          "useCases": "Concrete cases include asking for a Where to Buy page with a store-by-state list and a homepage button, creating a customer-resource page, building a campaign landing page, replacing page copy and imagery, moving a call to action, and turning a marketer's request into a change an engineer can review. It can reduce the queue for small changes in a small team and give a designer a responsive visual checkpoint. Authentication, payments, complex data logic, and high-consequence commerce pages should remain engineer-led.",
+          "painPointsSolved": "It targets the delay and context switching created when a small website change crosses business, design, engineering, and publishing tools. A user can describe a business goal, the system produces a plan and preview, and an engineer can join through a review link. It does not automatically solve brand consistency, accessibility, SEO, performance, authentication, content compliance, or production safety. A preview is visible feedback, not a full QA or deployment-security proof.",
+          "userVoice": "The current public evidence is the vendor update and product site; there is not enough independent long-term testing to establish stability across different CMSs, complex components, and multi-person teams. The Peachly example is an illustrative workflow, not representative user research. Keep the item as a confirmed product while treating the claim that it truly removes engineering rework as an open measurement question. A screenshot cannot stand in for a release-success rate.",
+          "newTech": "The move is treating a website-editing agent as a stateful approval chain: natural-language request, plan, code or content change, desktop/tablet/mobile preview, review link, and Publish become inspectable states. Separating generation from execution is more important for product design than swapping one model for another. The hard problem is binding brand context, repository permission, component semantics, responsive layout, and production rollback into one traceable task. The public material has not proved that this chain survives complex projects.",
+          "availability": "MorningAI's October 12 update publicly describes Website Agent, Social Agent, and Channels, with entry points to the product and a demo. Account eligibility, regions, plans, connector pricing, GitHub permissions, supported frameworks, and enterprise SLAs are source not stated; the article does not promise identical rollout for every account. Check the live account and contract surface before treating the feature as generally available.",
+          "limitsOrUnknowns": "Open questions include whether GitHub access is read-only, commit-capable, or merge-capable; whether Preview uses the real build chain; how generated images are reviewed; whether hidden pages, analytics scripts, or SEO metadata can change; how simultaneous edits are merged; how a failed publish rolls back; whether the full audit log is retained; how much accessibility, Core Web Vitals, and breakpoint checking is automatic; and who owns a bad link, fact, or brand-voice error.",
+          "productVerdict": "Verdict: MorningAI puts agent usability into an understandable action chain. The important question is not whether it can generate a page, but whether a user can see the plan, inspect responsive output, invite an engineer, and keep a publishing boundary. It fits low-risk, reversible, structurally clear marketing pages, not a universal front-end replacement. Acceptance should intentionally create a bad link, disconnect GitHub, alter a mobile breakpoint, and reject the publish step to see whether the product lets a user stop safely. A serious acceptance pass should put the input boundary, model or firmware version, trigger, user confirmation, result, failure state, undo path, permissions, and audit log into one task record. Replaying a complete task, including a failed attempt and a human takeover, is the minimum evidence that the product removed work rather than moving complexity into operations. The record should also say what happened when a connector failed, the network disappeared, the model changed, a sensor disagreed, or a person rejected the proposed action; those are the product's real operating conditions, not governance afterthoughts."
+        }
+      }
+    },
+    {
+      "id": "ghost-core-local-ai-computer-2026-10-10",
+      "section": "wild",
+      "event": {
+        "productKey": "ghost-core",
+        "kind": "launch",
+        "occurredAt": "2026-10-10",
+        "key": "core-personal-ai-computer-2026-10-10",
+        "summaryZh": "Ghost Core 以无订阅、本地模型和持续上下文为卖点，公开定价并进入首批销售。",
+        "summaryEn": "Ghost Core is presented as a subscription-free personal AI computer with on-device models, continuous context, and a public price entering first-batch sales.",
+        "deltaZh": "10 月 10 日创业产品扫描把 Core 从抽象的本地 AI 设备推进到可订购硬件、明确 GPU/CPU/内存/存储与持续上下文体验的具体对象；是否按期交付仍未独立验证。",
+        "deltaEn": "The October 10 startup scan turns Core from an abstract local-AI idea into an orderable device with disclosed GPU, CPU, memory, storage, and continuous-context behaviour; delivery remains independently unverified.",
+        "previousIssue": "2026-10-06"
+      },
+      "eventSourceUrl": "https://founderland.ai/product-launches/saas",
+      "brief": {
+        "zh": {
+          "what": "Ghost Core 是一台面向个人本地 Agent 的桌面 AI 计算机。",
+          "change": "新近公开材料给出 $3,499 价格、硬件规格、模型列表和持续上下文叙事。",
+          "use": "适合希望把文件、应用和个人记忆留在家中设备上的重度用户或开发者。",
+          "limits": "首批交付、持续性能、风扇噪声、代理权限边界和所有数据是否真的不出设备仍需验证。"
+        },
+        "en": {
+          "what": "Ghost Core is a desktop AI computer for a personal local agent.",
+          "change": "Recent public material gives a $3,499 price, hardware specifications, model list, and continuous-context story.",
+          "use": "It targets power users and developers who want files, applications, and personal context kept on a home device.",
+          "limits": "First-batch delivery, sustained performance, acoustics, agent permissions, and the exact data boundary still need verification."
+        }
+      },
+      "visuals": [
+        {
+          "path": "assets/ghost-core-2026-10-12.png",
+          "width": 1600,
+          "height": 900,
+          "kind": "source-backed product-page screenshot",
+          "role": "source-backed product evidence",
+          "altZh": "Ghost Core 官方页面的本地 AI 计算机与硬件规格",
+          "altEn": "Ghost Core official page with local AI computer and hardware specifications",
+          "captionZh": "Ghost 官方页面把 Core 定义为完全在本地运行模型的 personal AI computer，并列出 Blackwell GPU、64GB 内存与 1TB SSD。",
+          "captionEn": "Ghost's official page describes Core as a personal AI computer running models entirely on device and lists the Blackwell GPU, 64GB memory, and 1TB SSD.",
+          "sourceUrl": "https://ghost.ai/",
+          "capturedAt": "2026-10-12T10:50:00-04:00"
+        }
+      ],
+      "zhHeadline": "Ghost Core：把持续运行的本地 Agent 放进一台“脑盒”",
+      "enHeadline": "Ghost Core packages a continuously running local agent as a personal AI computer",
+      "sources": [
+        {
+          "label": "Founderland Ghost Core launch scan",
+          "url": "https://founderland.ai/product-launches/saas",
+          "type": "wild",
+          "publishedAt": "2026-10-10",
+          "verifiedAt": "2026-10-12T10:50:00-04:00",
+          "isPrimary": true
+        },
+        {
+          "label": "Ghost Core official product page",
+          "url": "https://ghost.ai",
+          "type": "official",
+          "publishedAt": null,
+          "verifiedAt": "2026-10-12T10:50:00-04:00",
+          "isPrimary": false
+        },
+        {
+          "label": "TechRadar Ghost Core report",
+          "url": "https://techradar.com/ai-platforms-assistants/ai-platforms/teen-founder-reveals-personal-ai-computer-for-running-local-agents-usd-3-499-mac-mini-rival-runs-on-nvidia-rtx-pro-4000-gpu-and-promises-to-be-a-subscription-free-brain-in-a-box",
+          "type": "review",
+          "publishedAt": "2026-10-06",
+          "verifiedAt": "2026-10-12T10:50:00-04:00",
+          "isPrimary": false
+        }
+      ],
+      "evidenceLabel": "startup signal",
+      "evidenceStrength": "Ghost's product page discloses a priced local AI computer; the dated startup report adds launch and first-batch context, while delivery and long-run use remain unverified",
+      "dossierKind": "product",
+      "dossier": {
+        "zh": {
+          "productName": "Ghost Core 是一家创业公司推出的 personal AI computer。Ghost 官方页面把它定位为完全在设备上运行模型、连接应用、文件和设备、随着时间建立个人上下文并持续工作的一台桌面计算机。创业产品目录在 10 月 10 日把它列为新产品，公开报道补充了首批销售和售价语境。这里应把它看成 startup signal：硬件与产品页是真实证据，交付和长时间可靠性还没有第三方验收。",
+          "productType": "产品类型是 local-agent workstation / personal AI appliance。它把 GPU、CPU、内存、SSD、模型运行时、个人资料连接与 Agent 权限控制放进一台家用或桌面设备，目标不是偶尔打开一个聊天网页，而是让 Agent 在后台持续读取允许的上下文、提出提醒和执行任务。产品价值依赖于用户是否能看见它正在读什么、何时运行、会做什么以及怎样停下；‘本地’本身不是完整的交互设计。",
+          "interactionFlow": "官方页面呈现的核心流程是把应用、文件和设备接入 Core，让它建立长期上下文，并在时间点上提供例如包裹、运动、购物或通勤变化等个人提示。用户理论上可以让模型连续工作，而不是每次重新输入问题。公开页面没有给出完整的首次设置、连接器授权、记忆查看/删除、Agent 任务审批、失败通知、网络断开和恢复流程，因此不能把页面上的提醒列表当作已验证的个人自动化体验。",
+          "specsOrStack": "Ghost 页面列出 NVIDIA RTX PRO 4000 Blackwell SFF Edition、24GB GDDR7 ECC、432GB/s 带宽、AMD Ryzen 5 7600 六核十二线程、64GB DDR5 和 1TB NVMe SSD，并展示 Qwen 3.8-Next、Qwen 3.8-27B、Gemma 4-31B 和 Muse-Glimmer-30B 等模型。官方称模型与数据在本地运行。操作系统、运行时、模型量化、网络接口、功耗、散热、备份、加密、更新、Agent 沙箱和 API source not stated。",
+          "useCases": "具体用例包括在家庭文件和本地应用上运行私人问答、根据长期上下文做日程或补给提醒、处理不想上传到云端的资料、让开发者测试长时间运行的 Agent、在断网环境中使用本地模型，以及让一个设备作为个人数据的持续计算节点。它对研究者也有价值，因为可以观察真正的持续上下文，而不是一次性聊天。高风险自动下单、发送邮件、改动文件和访问凭据不能仅凭宣传语获得默认授权。",
+          "painPointsSolved": "Core 直接回应云端服务的隐私、订阅、网络依赖和上下文断裂问题。把模型、资料和运行能力放在个人设备上，减少每次任务都重新解释背景的负担，也让用户拥有硬件而非只租用接口。但它把复杂度转移到本地管理：模型更新、磁盘备份、权限、硬件故障、软件供应链、家庭成员隔离和误执行都需要新的控制面。无订阅不等于无维护成本。",
+          "userVoice": "TechRadar 将 Core 描述为售价 $3,499、主打本地 Agent 的‘brain in a box’，并转述首批售罄与后续批次信息；这些属于媒体/创业生态信号，不是交付验收。公开页面的高规格和‘no data ever leaves your home’会形成强预期，但目前缺少独立的噪声、温度、tokens/s、故障恢复、持续后台任务和实际隐私边界测试。用户会先问：高价设备能否在日常一周里稳定工作，而不是能否跑某个模型。",
+          "newTech": "产品上的新意不是单一芯片，而是把本地模型、持续上下文和桌面硬件封装成一个拥有感更强的 Agent 设备。它把‘个人 AI’从登录云服务变成家中一台长期在线的计算节点，同时用硬件边界承诺隐私。真正要解决的技术问题是低噪声持续运行、记忆写入可见性、凭据隔离、工具调用审批、模型升级可回滚和电源/网络中断后的安全恢复；这些才决定它是否是 appliance。",
+          "availability": "Ghost 官方页显示 $3,499、Order Now、30-day returns、No subscription，并写有 First batch open now。Founderland 与 TechRadar 提供了 10 月首批销售语境。公开材料没有独立确认全部交付日期、销售国家、税费、保修、售后、第二批排期、企业采购或本地电源规格；购买条件、库存和实际交付应以 Ghost 当前订单页面为准。",
+          "limitsOrUnknowns": "未知包括实际模型版本与量化、不同任务的速度、长时间满载温度、风扇噪声、功耗、GPU/CPU 共享、系统升级、远程访问、备份与恢复、设备被盗后的密钥处理、应用连接器、写权限、网络调用过滤、用户/家庭成员隔离和数据删除。官方的本地运行声明不能自动证明所有连接的应用、更新和外部请求都留在设备内；需要配置级证据和可复现测试。",
+          "productVerdict": "产品判断：Ghost Core 是本期最直接的‘Agent appliance’尝试，把连续上下文从服务订阅迁移到用户拥有的机器。它的购买理由是数据边界与持续运行，不是宣传页上的模型数量。现阶段更适合作为早期开发者和重度本地 AI 用户的试点对象；没有真实订单、连续负载、故障恢复和权限审计数据，不应把 startup signal 升级成成熟消费产品结论。 验收时必须把输入范围、模型或固件版本、触发条件、用户确认、执行结果、失败状态、撤销、权限和日志放进同一条任务记录；只有能复盘一次完整任务，才能判断产品是否真正减少了工作。"
+        },
+        "en": {
+          "productName": "Ghost Core is a startup's personal AI computer. Ghost's official page positions it as a desktop machine that runs models entirely on device, connects to apps, files, and devices, builds personal context over time, and works continuously. A startup-product directory dated October 10 adds launch and first-batch context, while press coverage adds price and sale framing. This remains a startup signal: the hardware and product page are real evidence, but delivery and long-duration reliability lack independent acceptance.",
+          "productType": "The product is a local-agent workstation or personal AI appliance. It places GPU, CPU, memory, SSD, model runtime, personal-data connections, and agent permissions in a home or desk device. The target is not opening a chat page occasionally; it is letting an agent work in the background over permitted context, surface reminders, and take actions. The product depends on showing what it reads, when it runs, what it will do, and how to stop it. Local execution alone is not a complete interaction design.",
+          "interactionFlow": "The official page's core flow is to connect apps, files, and devices to Core, let it build long-term context, and receive personal prompts about packages, exercise, groceries, or commuting changes. The user is meant to benefit from continuity rather than retyping background. The public page does not show complete first-run setup, connector authorization, memory inspection or deletion, task approval, failure notification, network-loss, or recovery flows. Its reminder list should not be treated as proof of a verified personal automation experience.",
+          "specsOrStack": "Ghost lists an NVIDIA RTX PRO 4000 Blackwell SFF Edition, 24GB GDDR7 ECC, 432GB/s bandwidth, an AMD Ryzen 5 7600 with six cores and twelve threads, 64GB DDR5, and a 1TB NVMe SSD. It shows Qwen 3.8-Next, Qwen 3.8-27B, Gemma 4-31B, and Muse-Glimmer-30B. Ghost says models and data run locally. Operating system, runtime, quantisation, networking, power, cooling, backup, encryption, update path, agent sandbox, and API are source not stated.",
+          "useCases": "Concrete cases include private question answering over household files and local apps, reminders based on long-term context, processing data that a user does not want to upload, long-running agent experiments, local-model use during an outage, and a persistent personal compute node. It can be interesting to researchers because it exposes continuity rather than a one-shot chat. High-consequence ordering, email sending, file mutation, and credential access should not receive default authority from a marketing promise.",
+          "painPointsSolved": "Core addresses cloud privacy, subscriptions, network dependence, and context loss. Keeping models and data on a personally owned device reduces repeated explanation and makes the user own the compute rather than rent only an interface. It also moves complexity into local operations: model updates, disk backup, permissions, hardware failure, software supply chain, household separation, and mistaken actions need a control surface. No subscription does not mean no maintenance cost.",
+          "userVoice": "TechRadar frames Core as a $3,499 local-agent computer and reports first-batch demand and later availability; those are media and startup-ecosystem signals, not delivery acceptance. The official page's high specifications and claim that data never leaves home create a strong expectation, yet independent noise, temperature, tokens-per-second, recovery, background-task, and privacy-boundary tests are missing. A user will ask whether the device works reliably for a week, not merely whether it can run one named model.",
+          "newTech": "The product move is not one chip; it is packaging local models, continuous context, and desktop ownership as an agent device. It turns personal AI from a cloud login into an always-available household compute node while making a hardware privacy promise. The hard technical questions are quiet sustained operation, visible memory writes, credential isolation, tool-call approval, reversible model upgrades, and safe recovery after power or network loss. Those details decide whether Core behaves like an appliance.",
+          "availability": "Ghost's page shows $3,499, Order Now, 30-day returns, No subscription, and First batch open now. Founderland and TechRadar provide dated October sales context. Independent confirmation of all delivery dates, countries, taxes, warranty, support, second-batch timing, enterprise purchasing, and local power requirements is source not stated. The live order page remains the authority for inventory and actual delivery conditions.",
+          "limitsOrUnknowns": "Open questions include actual model versions and quantisation, task speed, sustained thermals, acoustics, power, GPU/CPU sharing, system upgrades, remote access, backup and recovery, stolen-device key handling, connector set, write permissions, network-call filtering, household separation, and data deletion. A local-execution statement does not prove that every connected app, update, and external request stays on the device; configuration-level evidence and reproducible tests are needed.",
+          "productVerdict": "Verdict: Ghost Core is the clearest Agent-appliance attempt in this issue, moving continuous context from a hosted subscription to a machine the user owns. Its purchase case is data boundaries and persistence, not a model-count leaderboard. It is best treated as a pilot for early developers and local-AI power users. Without real order, sustained-load, recovery, and permission-audit evidence, the startup signal should not be upgraded into a mature consumer-product conclusion. A serious acceptance pass should put the input boundary, model or firmware version, trigger, user confirmation, result, failure state, undo path, permissions, and audit log into one task record. Replaying a complete task, including a failed attempt and a human takeover, is the minimum evidence that the product removed work rather than moving complexity into operations. The record should also say what happened when a connector failed, the network disappeared, the model changed, a sensor disagreed, or a person rejected the proposed action; those are the product's real operating conditions, not governance afterthoughts."
+        }
+      }
+    },
+    {
+      "id": "shape-universal-coding-agent-2026-10-10",
+      "section": "wild",
+      "event": {
+        "productKey": "shape-coding-agent",
+        "kind": "release",
+        "occurredAt": "2026-10-10",
+        "key": "shape-universal-coding-agent-2026-10-10",
+        "summaryZh": "Shape 公开一个可切换多模型、连接开发工具并审查自身改动的 coding agent 工作区。",
+        "summaryEn": "Shape publicly presents a coding-agent workspace that switches among models, connects developer tools, and reviews its own changes.",
+        "deltaZh": "10 月 10 日的产品扫描把 Shape 从 IDE 叙事推进到多模型/多工具协作面：用户可以让 Agent 编辑文件、运行代码、查仓库并用另一模型做 adversarial review。",
+        "deltaEn": "The October 10 product scan moves Shape beyond an IDE story toward a multi-model, multi-tool collaboration surface where an agent edits files, runs code, searches repositories, and receives adversarial review from another model."
+      },
+      "eventSourceUrl": "https://founderland.ai/product-launches/saas",
+      "brief": {
+        "zh": {
+          "what": "Shape 是面向软件开发的通用 coding agent 与桌面工作区。",
+          "change": "公开页面强调多模型菜单、文件/终端操作、自我审查和 GitHub/Figma/Linear 等连接。",
+          "use": "适合设计与工程共同处理跨文件改动、验证结果和审查 agent 计划。",
+          "limits": "真实执行权限、沙箱、模型价格、测试覆盖率、企业数据处理和长期协作证据仍有限。"
+        },
+        "en": {
+          "what": "Shape is a universal coding agent and desktop workspace for software development.",
+          "change": "Its public surface emphasizes a multi-model menu, file and terminal work, self-review, and GitHub/Figma/Linear connectors.",
+          "use": "It fits design-engineering work that spans files, verification, and review of an agent plan.",
+          "limits": "Execution permissions, sandboxing, model costs, test coverage, enterprise data handling, and long-term collaboration evidence remain limited."
+        }
+      },
+      "visuals": [
+        {
+          "path": "assets/shape-coding-agent-2026-10-12.png",
+          "width": 1600,
+          "height": 900,
+          "kind": "source-backed product-page screenshot",
+          "role": "source-backed product evidence",
+          "altZh": "Shape 官方页面的 coding agent、模型菜单与外部工具连接",
+          "altEn": "Shape official page showing its coding agent, model menu, and external tool connections",
+          "captionZh": "Shape 官方页展示 agent 编辑文件、运行代码和审查变更，并把 GitHub、Figma、Linear、Slack、Notion 等连接器放进同一工作区。",
+          "captionEn": "Shape's official page shows an agent editing files, running code, and reviewing changes while connecting GitHub, Figma, Linear, Slack, Notion, and more.",
+          "sourceUrl": "https://www.useshape.org/",
+          "capturedAt": "2026-10-12T10:50:00-04:00"
+        }
+      ],
+      "zhHeadline": "Shape：把多模型 coding agent 变成一个共享工作区",
+      "enHeadline": "Shape makes a multi-model coding agent into a shared working surface",
+      "sources": [
+        {
+          "label": "Founderland Shape product-launch scan",
+          "url": "https://founderland.ai/product-launches/saas",
+          "type": "wild",
+          "publishedAt": "2026-10-10",
+          "verifiedAt": "2026-10-12T10:50:00-04:00",
+          "isPrimary": true
+        },
+        {
+          "label": "Shape official product page",
+          "url": "https://useshape.org",
+          "type": "developer docs",
+          "publishedAt": null,
+          "verifiedAt": "2026-10-12T10:50:00-04:00",
+          "isPrimary": false
+        },
+        {
+          "label": "Shape community launch discussion",
+          "url": "https://reddit.com/r/SaaS/comments/1x2n06o/i_built_shape_an_ai_agent_for_software_development",
+          "type": "community",
+          "publishedAt": "2026-10-10",
+          "verifiedAt": "2026-10-12T10:50:00-04:00",
+          "isPrimary": false
+        },
+        {
+          "label": "October agent workspace comparison signal",
+          "url": "https://october.dev",
+          "type": "review",
+          "publishedAt": null,
+          "verifiedAt": "2026-10-12T10:50:00-04:00",
+          "isPrimary": false
+        }
+      ],
+      "evidenceLabel": "developer surface",
+      "evidenceStrength": "Shape's public product surface documents a desktop coding agent, multi-model menu, tools, and connectors; independent workflow evidence is still early",
+      "dossierKind": "product",
+      "dossier": {
+        "zh": {
+          "productName": "Shape 是一个面向软件开发的通用 coding agent。官方页面把它放在代码编辑、仓库导航、终端操作和多模型选择之间：Agent 可以编辑文件、运行代码、理解多文件上下文，并用 adversarial review 检查自己的结论；它还连接 GitHub、Figma、Linear、Slack、Notion、Stripe、Supabase 和 Vercel。10 月 10 日的创业产品扫描把它列为新产品，但独立用户样本仍少，因此这里使用 developer surface，而不是把宣传流程升级成普遍成功率。",
+          "productType": "产品类型是 multi-model coding agent / collaborative developer workspace。它试图把模型、harness、仓库、设计上下文、项目管理和审查动作放在一个桌面入口，目标用户包括工程师、设计工程协作者和需要跨工具推进任务的人。与单一 IDE 插件相比，它把‘选模型—给上下文—执行—验证—争议’做成显式流程。HCI 的关键是让用户知道 Agent 改了哪些文件、跑了哪些命令、哪一条意见被另一个模型推翻，而不是只展示最终 diff。",
+          "interactionFlow": "官方示例显示用户提交任务后，Agent 读取 checkout.tsx 与 totals.ts，编辑文件并报告变更；接着做 adversarial review，指出总额忽略失败折扣查询，再生成最小修复计划。连接器让用户把 GitHub PR、Figma 设计上下文、Linear issue、Slack 讨论、Notion 规格或 Vercel 部署状态带入任务。真实工作流应包括批准命令、查看 patch、运行测试、比较模型意见、人工修改和合并；公开页没有完整说明默认权限与失败恢复。",
+          "specsOrStack": "Shape 公开列出 Auto 和多种模型入口，包括 Claude、GPT、Gemini、Grok、DeepSeek、Qwen、GLM、Mistral、Devstral、Kimi、MiniMax 与 Llama 等，并标示不同模型适合长推理、快速回路或低成本任务。工具层包括文件编辑、代码库导航、终端、GitHub、Figma、Linear、Slack、Notion、Stripe、Supabase 和 Vercel。具体模型版本、路由策略、token 价格、容器/VM 边界、网络权限、密钥托管、企业保留策略与 API source not stated。",
+          "useCases": "具体场景包括跨文件修 bug、把 Figma 设计与代码关联、从 Linear issue 读取验收条件、在 GitHub 上检查 PR、读 Slack 决策和 Notion 规格、调试 Stripe/Supabase 业务逻辑、检查 Vercel 部署、让第二个模型做反方审查，以及用不同模型比较同一任务的速度与质量。它还适合设计师要求 Agent 先解释变更再实施。高风险生产命令、数据库写操作、支付逻辑和权限修改仍需人类明确批准。",
+          "painPointsSolved": "Shape 试图解决 coding agent 的上下文碎片、模型选择成本和自我确认偏差。一个工作区可以减少在 IDE、终端、PR、设计文件、项目管理和聊天之间复制粘贴；多模型菜单让任务可以按难度、价格和速度分配；adversarial review 把‘生成后自己说没问题’变成至少一次结构化质疑。它没有自动解决错误执行、测试缺失、过度授权、模型之间共享错误上下文和团队责任归属。",
+          "userVoice": "Reddit 的早期讨论把 Shape 与 Cursor、Claude Code 等工具比较，关注它到底完成了哪些端到端任务，以及多模型切换是否真的优于已有工具。这是 community friction signal，不是代表性评测。公开页面给出许多连接器和模型名称，但没有足够的长期案例证明复杂仓库、私有网络、并发协作和大规模团队权限都能稳定工作。用户真正关心的是一次失败命令是否可见、可停、可撤销，以及 review 是否能抓住实际 bug。",
+          "newTech": "技术组合的重点是把模型路由与开发动作放在同一个任务面：模型不是独立聊天伙伴，而是可以共享仓库上下文、连接外部工具、执行命令并接受反方模型质询的角色。产品上，这创造了一个‘证据轨迹’机会：每条变更都能显示输入上下文、使用模型、命令、测试、异议和最终人工决定。若只展示漂亮的完成状态，所谓多模型协作会变成更复杂的自动补全。",
+          "availability": "Shape 官方网站提供 Try for free、Contact Sales、下载/开始入口，并列出连接器和模型能力。免费范围、模型调用是否另计费、平台、地区、企业 SSO、数据保留、私有仓库和 API 可用性 source not stated；Founderland 的 10 月 10 日条目属于产品发现信号，不替代 Shape 的当前账户和合同页面。",
+          "limitsOrUnknowns": "未知包括默认是否可运行任意终端命令、是否有逐命令审批、网络和文件沙箱、连接器 OAuth 范围、密钥是否进入模型上下文、模型失败如何回退、不同模型的上下文共享方式、测试是否自动执行、review 是否能看见运行时错误、私有仓库数据是否用于训练、团队成员如何分权以及任务日志是否可导出。多模型列表不等于多模型质量可比。",
+          "productVerdict": "产品判断：Shape 值得观察的是‘审查与执行被放在同一面板’这一交互方向，而不是模型菜单的数量。它可能成为设计—工程协作的共享工作台，但前提是权限、命令、测试和分歧被做成用户能逐项接管的状态。当前最合理的定位是 developer surface：可以试用真实仓库，却不应在没有沙箱、回滚、成本上限和审计证据时让它接管生产。 验收时必须把输入范围、模型或固件版本、触发条件、用户确认、执行结果、失败状态、撤销、权限和日志放进同一条任务记录；只有能复盘一次完整任务，才能判断产品是否真正减少了工作。"
+        },
+        "en": {
+          "productName": "Shape is a general coding agent for software development. Its public page places it between code editing, repository navigation, terminal work, and multi-model selection: the agent edits files, reasons over multi-file context, and uses adversarial review to challenge its own conclusion. It connects GitHub, Figma, Linear, Slack, Notion, Stripe, Supabase, and Vercel. A dated October 10 product scan lists it as a new product, but the independent user sample is small, so this is a developer-surface report rather than a general success-rate claim.",
+          "productType": "The product is a multi-model coding agent and collaborative developer workspace. It puts models, harnesses, repositories, design context, project management, and review actions behind one desktop entry for engineers and design-engineering collaborators. Compared with a single IDE plugin, it makes model choice, context, execution, verification, and disagreement explicit. The HCI test is whether users can see files changed, commands run, and opinions overturned rather than only seeing a final diff.",
+          "interactionFlow": "The official example shows a user submitting a task, the agent reading checkout.tsx and totals.ts, editing files, and reporting the change. It then runs an adversarial review that spots a failed-discount lookup being ignored and proposes a minimal fix. Connectors can bring GitHub PRs, Figma context, Linear issues, Slack discussions, Notion specifications, or Vercel deployment state into the task. A serious workflow adds command approval, patch review, tests, model comparison, human edits, and merge; the public page does not fully state default permissions or recovery.",
+          "specsOrStack": "Shape publicly lists Auto and many model entry points, including Claude, GPT, Gemini, Grok, DeepSeek, Qwen, GLM, Mistral, Devstral, Kimi, MiniMax, and Llama, with different roles for long reasoning, fast loops, or lower cost. The tool layer includes file editing, repository navigation, terminal, GitHub, Figma, Linear, Slack, Notion, Stripe, Supabase, and Vercel. Exact model versions, routing policy, token prices, container or VM boundary, network permissions, secret handling, enterprise retention, and API are source not stated.",
+          "useCases": "Concrete cases include fixing a bug across files, relating a Figma design to code, reading acceptance criteria from Linear, checking a GitHub PR, retrieving decisions from Slack and specifications from Notion, debugging Stripe or Supabase logic, checking a Vercel deployment, asking a second model for adversarial review, and comparing models on the same task. It also gives a designer a way to ask the agent to explain a change before applying it. Production commands, database writes, payment logic, and permission changes still need explicit human approval.",
+          "painPointsSolved": "Shape targets fragmented context, model-selection cost, and self-confirmation bias in coding agents. One workspace can reduce copying between IDE, terminal, PR, design files, project management, and chat. A model menu lets a task be allocated by difficulty, price, and speed, while adversarial review turns 'the agent said it was fine' into at least one structured challenge. It does not automatically solve bad execution, missing tests, over-permission, shared errors between models, or team accountability.",
+          "userVoice": "Early Reddit discussion compares Shape with Cursor and Claude Code and asks which end-to-end tasks it actually completes, and whether multi-model switching is better than existing tools. This is a community-friction signal, not representative evaluation. The public page names many connectors and models but does not provide enough long-term evidence for complex repositories, private networks, concurrent collaboration, or large-team permissions. Users care whether a failed command is visible, stoppable, and reversible, and whether review catches a real bug.",
+          "newTech": "The technical combination is putting model routing and developer actions in one task surface. Models are not separate chat partners; they share repository context, call tools, run commands, and receive challenges from another model. This creates an opportunity for an evidence trail: each change can show input context, model, command, test, objection, and final human decision. If the product only shows a polished completion state, multi-model collaboration becomes more complex autocomplete rather than a controllable workflow.",
+          "availability": "Shape's site offers Try for free and Contact Sales entry points and lists its connector and model surface. Free limits, model-call billing, platforms, regions, enterprise SSO, data retention, private repositories, and API access are source not stated. Founderland's October 10 entry is a discovery signal, not a replacement for Shape's live account and contract surface.",
+          "limitsOrUnknowns": "Open questions include whether arbitrary terminal commands run by default, command-by-command approval, file and network sandboxing, OAuth scope, whether secrets enter model context, fallback after model failure, context sharing across models, automatic test execution, review visibility into runtime errors, private-repository training use, team roles, and exportable task logs. A long model list is not evidence that model quality is comparable.",
+          "productVerdict": "Verdict: Shape is worth watching for the interaction direction of putting execution and review in one panel, not for the number of models. It could become a shared design-engineering workbench if permissions, commands, tests, and disagreements are stateful takeover points. The responsible position today is developer surface: try it on a real repository, but do not hand it production authority without sandbox, rollback, cost caps, and audit evidence. A serious acceptance pass should put the input boundary, model or firmware version, trigger, user confirmation, result, failure state, undo path, permissions, and audit log into one task record. Replaying a complete task, including a failed attempt and a human takeover, is the minimum evidence that the product removed work rather than moving complexity into operations. The record should also say what happened when a connector failed, the network disappeared, the model changed, a sensor disagreed, or a person rejected the proposed action; those are the product's real operating conditions, not governance afterthoughts."
+        }
+      }
+    },
+    {
+      "id": "torchit-jyoti-ai-vision-glasses-wireless-2026-10-10",
+      "section": "global",
+      "event": {
+        "productKey": "torchit-jyoti-ai-glasses",
+        "kind": "reported",
+        "occurredAt": "2026-10-10",
+        "key": "jyoti-wireless-accessibility-report-2026-10-10",
+        "summaryZh": "10 月报道集中介绍 Torchit 的 Jyoti AI 眼镜与无线模型，把文字、物体、颜色、货币和场景理解转成语音反馈。",
+        "summaryEn": "An October report profiles Torchit's Jyoti AI glasses and wireless model, turning text, objects, colours, currency, and scene understanding into audio feedback.",
+        "deltaZh": "新报道补充了无线 Jyoti AI Vision Glasses 的产品差异与无障碍使用边界；官方产品页同时给出 Jyoti AI Pro 的价格、重量、电池和摄像头规格。",
+        "deltaEn": "The new report adds a wireless Jyoti AI Vision Glasses distinction and accessibility boundary, while the official product page supplies price, weight, battery, and camera specifications for Jyoti AI Pro."
+      },
+      "eventSourceUrl": "https://telecomtalk.info/torchit-builds-ai-glasses-for-blind-users/1012697",
+      "brief": {
+        "zh": {
+          "what": "Jyoti 是面向盲人和低视力用户的 AI 辅助眼镜与阅读生态。",
+          "change": "无线 Vision Glasses 与可购买的 Jyoti AI Pro 把摄像头、AI 处理和音频反馈放进日常任务。",
+          "use": "适合读文字、识别物体/颜色/货币、描述场景和获取导航辅助。",
+          "limits": "准确性、延迟、语言、街道安全、舒适度、售后与不同型号差异必须逐项验证。"
+        },
+        "en": {
+          "what": "Jyoti is an AI assistive-eyewear and reading ecosystem for blind and low-vision users.",
+          "change": "Its wireless Vision Glasses and orderable Jyoti AI Pro put camera, AI processing, and audio feedback into everyday tasks.",
+          "use": "It supports reading, object, colour, and currency recognition, scene description, and navigation assistance.",
+          "limits": "Accuracy, latency, language, street safety, comfort, support, and model differences must be tested separately."
+        }
+      },
+      "visuals": [
+        {
+          "path": "assets/torchit-jyoti-ai-pro-2026-10-12.png",
+          "width": 1600,
+          "height": 900,
+          "kind": "source-backed product-page screenshot",
+          "role": "source-backed product evidence",
+          "altZh": "Torchit Jyoti AI Pro 官方产品页与无障碍眼镜规格",
+          "altEn": "Torchit Jyoti AI Pro official product page and assistive-eyewear specifications",
+          "captionZh": "Torchit 产品页列出 Jyoti AI Pro 的 ₹29,900 价格、45 克重量、8 小时连续使用、13MP 摄像头和骨传导扬声器。",
+          "captionEn": "Torchit's product page lists a ₹29,900 price, 45-gram weight, eight hours of continuous use, a 13MP camera, and bone-conduction speakers for Jyoti AI Pro.",
+          "sourceUrl": "https://www.torchit.org/products/product-details?id=jyoti-pro",
+          "capturedAt": "2026-10-12T10:50:00-04:00"
+        }
+      ],
+      "zhHeadline": "Torchit Jyoti：把“看见”拆成一组可听见的日常任务",
+      "enHeadline": "Torchit's Jyoti turns seeing into a set of audible everyday tasks",
+      "sources": [
+        {
+          "label": "TelecomTalk Jyoti wireless report",
+          "url": "https://telecomtalk.info/torchit-builds-ai-glasses-for-blind-users/1012697",
+          "type": "review",
+          "publishedAt": "2026-10-10",
+          "verifiedAt": "2026-10-12T10:50:00-04:00",
+          "isPrimary": true
+        },
+        {
+          "label": "Torchit Jyoti AI Pro product page",
+          "url": "https://torchit.org/products/product-details?id=jyoti-pro",
+          "type": "official",
+          "publishedAt": null,
+          "verifiedAt": "2026-10-12T10:50:00-04:00",
+          "isPrimary": false
+        },
+        {
+          "label": "Jyoti AI products platform",
+          "url": "https://jyoti-ai.com/products",
+          "type": "official",
+          "publishedAt": null,
+          "verifiedAt": "2026-10-12T10:50:00-04:00",
+          "isPrimary": false
+        },
+        {
+          "label": "BIRAC Jyoti AI Glass product profile",
+          "url": "https://birac.nic.in/product-detail.php?product=259",
+          "type": "official",
+          "publishedAt": null,
+          "verifiedAt": "2026-10-12T10:50:00-04:00",
+          "isPrimary": false
+        }
+      ],
+      "evidenceLabel": "confirmed product",
+      "evidenceStrength": "Torchit product pages disclose an orderable assistive eyewear product; October reporting adds a wireless-model and accessibility context while reliability remains open",
+      "dossierKind": "product",
+      "dossier": {
+        "zh": {
+          "productName": "Torchit 的 Jyoti AI 是面向盲人和低视力用户的辅助视觉产品线。公开资料包含有线眼镜、无线 Jyoti AI Vision Glasses、Jyoti AI Pro 模块和 Jyoti AI Reader；10 月 10 日报道把无线版本重新带入产品视野，官方产品页则显示 Jyoti AI Pro 在售。系统把摄像头捕捉到的文字、物体、颜色、货币和场景转成语音或可访问信息。这里确认的是产品与目标任务，不把‘识别’自动等同于安全可靠。",
+          "productType": "产品类型是 AI assistive eyewear / multimodal accessibility system。它不是普通消费级拍照眼镜，而是把视觉输入、OCR、物体/人脸识别、场景描述、语音命令、手机或云端处理和音频输出组合起来，帮助用户在阅读、购物、学习和移动中获得环境线索。Jyoti AI 的产品页还展示同一 AI 模块在眼镜、桌面阅读站和戒指形态之间切换，说明产品边界是一个辅助生态，而非单一 SKU。",
+          "interactionFlow": "用户佩戴或连接眼镜，按语音或设备控制请求读取文字、描述场景、识别物体、颜色或货币；系统用摄像头获得第一视角图像，再通过设备或配套手机/平台处理，最后用扬声器给出语音反馈。官方产品页公开了免手访问与多种任务，但没有完整展示权限提示、拍摄指示、误识别纠正、重听、停止、缓存删除和紧急场景降级。对盲人用户来说，反馈速度、音频优先级和错误时的安全表达比 demo 中识别一次更重要。",
+          "specsOrStack": "Torchit Foundation 的 Jyoti AI Pro 页面列出 ₹29,900 含税价格、45 克重量、8 小时连续使用、13MP 摄像头、骨传导扬声器、Bluetooth 5.0、2 年保修和多语言支持。Jyoti AI 产品页把无线 Vision Glasses 描述为内置摄像头、扬声器、电池和 AI 处理；另一产品页将软件平台分成 Android、iOS 和 Web。具体芯片、系统版本、模型、端云分工、网络依赖、延迟、数据保留和各语言准确率 source not stated。",
+          "useCases": "具体场景包括独立阅读书籍、药盒和课堂材料，识别物体、颜色、熟人和印度货币，在商店判断商品，获取环境描述和导航提醒，把 Jyoti AI Pro 模块夹到普通眼镜、桌灯或戒指上做桌面阅读，以及学校、图书馆和工作场所使用 Jyoti AI Reader。它解决的是信息获取与任务起步，不替代白手杖、导盲犬、定向行走训练或人的确认；药品、剂量、交通和道路判断不能只依赖语音输出。",
+          "painPointsSolved": "它回应低视力用户阅读、识物、学习和处理日常物品时对旁人帮助或专用设备的依赖。把摄像头和语音输出放在脸部附近，可以减少掏手机、对准屏幕和等待他人描述的步骤；无线版本还减少外部硬件牵引。代价是误识别会直接影响行动，持续音频可能遮蔽环境声，摄像头又带来旁观者隐私和场所禁用问题。可负担、可靠、可维修比增加一个识别类别更关键。",
+          "userVoice": "TelecomTalk 的报道提醒 AI 并不完美，尤其是药名、剂量和安全说明不能由眼镜确认，并指出电池、舒适度、速度、准确性、价格和售后是现实门槛。报道还区分了约 ₹20,000–₹25,000 的眼镜信息与官方 Jyoti AI Pro ₹29,900 的页面价格，说明不能把不同型号混写。它是 review/product-friction signal，不是系统化无障碍研究或所有用户的代表性反馈。",
+          "newTech": "产品新意在于把视觉辅助拆成可组合的任务和形态：无线眼镜承担移动中的摄像头、处理和音频；Pro 模块可以夹在普通眼镜、灯或戒指上；Reader 则把同一能力转向桌面学习。这个方向对 HCI 的启示是，用户需要按情境切换输入与输出，而不是被迫购买一种终极眼镜。真正的技术难点是低延迟视觉理解、语言覆盖、低功耗、错误校准、音频可打断和隐私可见性。",
+          "availability": "Torchit Foundation 页面显示 Jyoti AI Pro In Stock、₹29,900 含税、Add to Cart 和 2 年保修；Jyoti AI 产品页同时展示有线、无线、Reader 和平台形态。TelecomTalk 报道了无线模型和不同价格区间，但具体无线 SKU、印度以外库存、配送、配镜、服务地区、订阅和试用政策 source not stated。购买者应确认型号、是否需要 Android 手机、AI 服务是否持续收费和本地售后。",
+          "limitsOrUnknowns": "未知包括每种任务的真实准确率、低光/复杂背景/多人环境表现、端云切换、离线能力、网络中断、摄像头和录音提示、旁观者隐私、误触、音频与交通声的冲突、8 小时测量条件、镜架舒适度、维修和数据删除。‘12+ languages’并不等于每种语言都有相同的 OCR、场景描述和导航质量。安全相关信息必须明确标注不可靠时如何求助和如何停止依赖。",
+          "productVerdict": "产品判断：Jyoti AI 的价值是把无障碍任务做得具体、可购买、可分形态使用，而不是把通用 AI 包装成‘看见世界’。它值得在阅读、识物和教育场景做受控试用，但验收必须由真实低视力用户参与，逐项测量延迟、错误、音频打断、道路风险、数据边界和售后。无线化降低了外部设备负担，却没有自动解决可靠性与安全责任。 验收时必须把输入范围、模型或固件版本、触发条件、用户确认、执行结果、失败状态、撤销、权限和日志放进同一条任务记录；只有能复盘一次完整任务，才能判断产品是否真正减少了工作。"
+        },
+        "en": {
+          "productName": "Torchit's Jyoti AI is an assistive-vision product line for blind and low-vision users. Public material includes wired glasses, wireless Jyoti AI Vision Glasses, the Jyoti AI Pro module, and a Jyoti AI Reader. An October 10 report brings the wireless model back into focus while the official product page shows Jyoti AI Pro for sale. The system turns camera input about text, objects, colours, currency, and scenes into audio or accessible information. The product and task target are confirmed; recognition is not the same as safe reliability.",
+          "productType": "The product is AI assistive eyewear and a multimodal accessibility system. It is not ordinary consumer camera eyewear; it combines visual input, OCR, object and face recognition, scene description, voice commands, phone or cloud processing, and audio output for reading, shopping, learning, and mobility. Jyoti's product page also shows one AI module moving between glasses, a tabletop reader, and a ring form, making this an assistive ecosystem rather than one SKU.",
+          "interactionFlow": "A user wears or connects the glasses and requests reading, scene description, object, colour, or currency recognition through voice or device controls. The camera captures first-person imagery, the device or companion platform processes it, and speakers return audio. The official pages do not show a complete permission prompt, capture indicator, correction, replay, stop, cache deletion, or emergency fallback flow. For a blind user, latency, audio priority, and safe wording after an error matter more than a single successful recognition demo.",
+          "specsOrStack": "Torchit Foundation's Jyoti AI Pro page lists a ₹29,900 tax-inclusive price, 45-gram weight, eight hours of continuous use, a 13MP camera, bone-conduction speakers, Bluetooth 5.0, a two-year warranty, and multi-language support. Jyoti's product page describes the wireless Vision Glasses as having an integrated camera, speaker, battery, and AI processing; its platform spans Android, iOS, and Web. Chip, OS version, model, edge-cloud split, network dependence, latency, retention, and per-language accuracy are source not stated.",
+          "useCases": "Concrete cases include independently reading books, medication packaging, and class material; recognizing objects, colours, familiar people, and Indian currency; identifying products in a shop; receiving scene and navigation assistance; clipping the Jyoti AI Pro module to ordinary glasses, a lamp, or a ring for desk reading; and using Jyoti Reader in schools, libraries, and workplaces. It addresses information access, not a replacement for a cane, guide dog, orientation training, or human confirmation. Medication, dosage, traffic, and road decisions cannot rely only on audio output.",
+          "painPointsSolved": "The product targets dependence on other people or specialised equipment for reading, object identification, learning, and handling daily items. A camera and audio output near the face can remove the steps of pulling out a phone, aiming at a screen, or waiting for a description; the wireless model reduces tethering. Errors can directly affect movement, continuous audio can mask environmental sound, and a camera creates bystander and venue privacy issues. Affordability, reliability, and repairability matter more than adding another recognition category.",
+          "userVoice": "TelecomTalk warns that AI is not perfect and that medicine names, dosage, and safety instructions should not be confirmed by the glasses. It also identifies battery, comfort, speed, accuracy, price, and support as practical barriers. The article separates a reported ₹20,000–₹25,000 range from the official Jyoti AI Pro price of ₹29,900, showing why models must not be conflated. This is a review and product-friction signal, not systematic accessibility research or representative feedback.",
+          "newTech": "The product move is making visual assistance composable across tasks and forms: wireless glasses carry camera, processing, and audio while moving; the Pro module can attach to ordinary glasses, a lamp, or a ring; Reader moves the same capability to desk-based learning. The HCI implication is that users can switch input and output by context instead of buying one ultimate pair of glasses. The hard problems are low-latency vision, language coverage, power, error calibration, interruptible audio, and visible privacy.",
+          "availability": "Torchit's product page shows Jyoti AI Pro in stock, ₹29,900 tax inclusive, Add to Cart, and a two-year warranty. Jyoti's site shows wired, wireless, Reader, and platform forms. The article reports the wireless model and a different price range, but exact wireless SKU, non-India inventory, shipping, prescription fitting, service regions, subscription, and trial policy are source not stated. Buyers should confirm the model, Android-phone requirement, continuing AI charges, and local support.",
+          "limitsOrUnknowns": "Open questions include real accuracy per task, low-light and multi-person performance, edge-cloud switching, offline behaviour, network loss, camera and recording cues, bystander privacy, accidental activation, audio conflict with traffic, the conditions behind the eight-hour figure, frame comfort, repair, and deletion. '12+ languages' does not mean equal OCR, scene-description, and navigation quality for every language. Safety flows must say how a user is warned, supported, and able to stop relying on the device.",
+          "productVerdict": "Verdict: Jyoti AI's value is making accessibility tasks concrete, purchasable, and available in multiple forms, not packaging generic AI as 'seeing the world.' It merits controlled trials for reading, identification, and education with real low-vision participants, measuring latency, errors, audio interruption, road risk, data boundaries, and support. Wireless design removes an external-device burden, but it does not solve reliability or safety responsibility by itself. A serious acceptance pass should put the input boundary, model or firmware version, trigger, user confirmation, result, failure state, undo path, permissions, and audit log into one task record. Replaying a complete task, including a failed attempt and a human takeover, is the minimum evidence that the product removed work rather than moving complexity into operations. The record should also say what happened when a connector failed, the network disappeared, the model changed, a sensor disagreed, or a person rejected the proposed action; those are the product's real operating conditions, not governance afterthoughts."
+        }
+      }
+    },
+    {
+      "id": "zenatech-stacklens-safety-glasses-2026-10-09",
+      "section": "official",
+      "event": {
+        "productKey": "zenatech-stacklens",
+        "kind": "announcement",
+        "occurredAt": "2026-10-10",
+        "key": "stacklens-field-technician-safety-2026-10-10",
+        "summaryZh": "ZenaTech 公布 Stacklens，面向现场技术员、检查员和工业团队，组合免手 AI、实时视频与热成像方向。",
+        "summaryEn": "ZenaTech announced Stacklens for field technicians, inspectors, and industrial crews, combining hands-free AI, live video, and a thermal-imaging direction.",
+        "deltaZh": "10 月 10 日社区转发了 ZenaTech 10 月 9 日的 Stacklens 公告；官方材料把消费级 AI 眼镜能力转译到 certified safety eyewear，强调指导、专家协作和检查记录，但仍写明测试与 2027 pilot 计划。",
+        "deltaEn": "On October 10 a community repost surfaced ZenaTech's October 9 Stacklens announcement. The official material translates consumer smart-glasses capabilities into certified safety eyewear for instructions, expert collaboration, and inspection capture, while still describing testing and pilots planned for 2027."
+      },
+      "eventSourceUrl": "https://reddit.com/r/b2i_digital/comments/1x1wp1e/zenatech_nasdaq_zena_unveils_stacklens_aipowered",
+      "brief": {
+        "zh": {
+          "what": "Stacklens 是面向现场技术员和工业工人的 AI 安全眼镜产品线。",
+          "change": "ZenaTech 将免手 AI 助手、实时视频和热成像放进安全眼镜叙事。",
+          "use": "适合检查、维护、远程专家支持和不便拿手机的作业。",
+          "limits": "它仍是开发/测试中的 startup signal，认证型号、传感器、价格、交付和现场成功率 source not stated。"
+        },
+        "en": {
+          "what": "Stacklens is an AI safety-eyewear line for field technicians and industrial workers.",
+          "change": "ZenaTech frames hands-free AI, live video, and thermal imaging inside certified safety eyewear.",
+          "use": "It targets inspection, maintenance, remote expert support, and work where a phone cannot be held.",
+          "limits": "It remains a development and testing startup signal; certified SKU, sensors, price, delivery, and field success are source not stated."
+        }
+      },
+      "visuals": [
+        {
+          "path": "assets/zenatech-stacklens-2026-10-12.png",
+          "width": 1600,
+          "height": 900,
+          "kind": "source-backed product-page screenshot",
+          "role": "source-backed product evidence",
+          "altZh": "ZenaTech Stacklens 官方新闻稿中的工业安全眼镜产品信号",
+          "altEn": "ZenaTech Stacklens official newsroom signal for industrial safety eyewear",
+          "captionZh": "ZenaTech 新闻室把 Stacklens 定位为面向现场技术员和工业团队的 AI 安全眼镜，强调免手、实时视频与热成像方向。",
+          "captionEn": "ZenaTech's newsroom positions Stacklens as AI safety eyewear for field technicians and industrial crews, highlighting hands-free use, live video, and thermal-imaging direction.",
+          "sourceUrl": "https://www.zenatech.com/newsroom/",
+          "capturedAt": "2026-10-12T10:50:00-04:00"
+        }
+      ],
+      "zhHeadline": "ZenaTech Stacklens：把 AI 眼镜放进工地安全规范里",
+      "enHeadline": "ZenaTech Stacklens places AI glasses inside a jobsite safety frame",
+      "sources": [
+        {
+          "label": "ZenaTech newsroom Stacklens announcement",
+          "url": "https://zenatech.com/newsroom",
+          "type": "official",
+          "publishedAt": null,
+          "verifiedAt": "2026-10-12T10:50:00-04:00",
+          "isPrimary": false
+        },
+        {
+          "label": "Nasdaq Stacklens press release",
+          "url": "https://nasdaq.com/press-release/zenatech-unveils-stacklenstm-ai-powered-smart-safety-glasses-built-field-technicians",
+          "type": "official",
+          "publishedAt": "2026-10-09T10:21:00-04:00",
+          "verifiedAt": "2026-10-12T10:50:00-04:00",
+          "isPrimary": true
+        },
+        {
+          "label": "ZenaTech Stacklens community repost",
+          "url": "https://reddit.com/r/b2i_digital/comments/1x1wp1e/zenatech_nasdaq_zena_unveils_stacklens_aipowered",
+          "type": "community",
+          "publishedAt": "2026-10-10",
+          "verifiedAt": "2026-10-12T10:50:00-04:00",
+          "isPrimary": true
+        }
+      ],
+      "evidenceLabel": "startup signal",
+      "evidenceStrength": "ZenaTech's dated newsroom and press release describe Stacklens as a product line in development with future pilots, not a shipping retail device",
+      "dossierKind": "product",
+      "dossier": {
+        "zh": {
+          "productName": "Stacklens 是 ZenaTech 通过其 Tillerstack 相关业务公布的 AI 智能安全眼镜方向。10 月 9 日公司新闻室与 Nasdaq 新闻稿把它描述为面向现场技术员、检查员和工业团队的安全眼镜，目标是让工作人员在戴手套或手上有工具时获取说明、呼叫专家和记录检查。公开材料同时把它放在 prototype/testing 和 2027 pilot 语境中，因此它是 startup signal，不是已量产可购买产品。",
+          "productType": "产品类型是 industrial smart safety eyewear / field-service agent surface。它试图把消费级眼镜的摄像头、音频和 AI 助手与工业安全眼镜、现场视频支持和热成像方向组合，服务电力、制造、设施、建筑或检查团队。产品的价值不在于让工人多看一个屏幕，而在于减少停工、掏手机、脱手套和离开工位的步骤；同时必须满足视野、安全认证、耐用性、培训和现场网络边界。",
+          "interactionFlow": "公司描述的目标流程是技术员佩戴安全眼镜，免手查看操作说明，通过语音或视觉界面调用 AI 助手，在需要时把现场视频交给远程专家，并捕获检查记录；热成像可以帮助识别设备或环境异常。公开资料没有给出实际设备界面、录制提示、专家接管、网络断开、错误升级、工单回写、确认签名或人工停止方式，所以这些是待验证的产品环节，不能从‘live video support’推断已经完成闭环。",
+          "specsOrStack": "公开新闻稿支持的栈只有 certified safety eyewear、hands-free camera/audio/AI、live video support、thermal imaging direction，以及与 ZenaTech 的无人机、DaaS 和 Zoo Office 生态的关系。没有披露具体镜片/镜架标准、摄像头、热成像传感器、芯片、显示方式、麦克风数量、通信协议、OS/API、续航、重量、IP 等级、AI 模型、边缘/云端分工或数据存储；这些全部是 source not stated，不应借用其他眼镜品牌规格。",
+          "useCases": "具体用例包括现场检修时读取步骤、在高处或危险区域呼叫远程专家、检查电气/机械设备、用热成像辅助发现异常、在工单中留下照片/视频证据、在无人机巡检与地面维修之间共享上下文，以及让没有空手的工人继续获得指导。它可能降低手持设备和纸质手册造成的中断，但真实价值取决于现场光线、噪声、手套、网络、工人培训和安全主管是否允许摄像头工作。",
+          "painPointsSolved": "Stacklens 试图解决工业现场的注意力切换、手持设备不便、远程专家到场成本和检查记录分散问题。把说明、通话、视觉捕捉和热成像靠近视野，理论上可以让工人边操作边获取上下文。它也新增了摄像头拍摄同事/客户、错误指导导致事故、热成像误读、网络延迟和疲劳等风险。安全眼镜的认证与佩戴舒适度必须先于 AI 功能数量。",
+          "userVoice": "目前的社区材料主要是对公司新闻稿的转发，显示市场会追问 Stacklens 是否真的有认证、何时试点、如何与现有 EHS/WMS/CMMS 接口，以及热成像是否属于实际交付。这些是 review/community friction，不是现场用户研究。由于公开材料没有现场人员、工单系统或试点数据，不能把‘让工人不放下工具’写成已验证的生产率提升。",
+          "newTech": "产品方向的新意在于把 AI 眼镜的社会与安全边界从消费场景移到工作场所：眼镜不只提供回答，还要承载安全规范、远程协作、视觉证据和潜在热成像。真正的创新若成立，将是把现场状态、人员身份、工单、设备传感器和 Agent 建议绑定起来，并允许现场人员一键暂停、升级和记录不确定性。单独把 camera/audio/AI 放进护目镜还不是完整工业系统。",
+          "availability": "ZenaTech 新闻室和 Nasdaq 新闻稿确认 Stacklens 已被公布，但公开材料把项目描述为开发、测试和 2027 年 pilot 方向；没有公开零售价、可订购 SKU、具体认证文件、试点客户、销售地区、交付时间或支持合同。它应标成 startup signal，不能写成当前可购买的 confirmed product。",
+          "limitsOrUnknowns": "未知包括安全标准与认证机构、镜片/镜架型号、热成像是否内置、显示与音频形式、摄像头指示、录像保留、旁观者同意、现场 Wi-Fi/蜂窝连接、离线能力、远程专家并发、工单接口、边缘处理、设备清洁和维修、重量/续航、真实试点数量、事故责任和工人是否愿意长期佩戴。2027 pilot 是未来计划，不是当前可用性。",
+          "productVerdict": "产品判断：Stacklens 是一个值得跟踪的工业化转译信号，价值在于把 AI 眼镜嵌入安全与工单流程，而不是再做一副消费级眼镜。现阶段只能进入供应商筛选和试点观察，不应进入生产关键路径。下一步需要看到认证型号、现场工单闭环、断网/误识别处理、远程专家接管、录像边界和真实工人反馈，之后才能判断它是否减少停机，还是把新的合规和安全负担交给现场。 验收时必须把输入范围、模型或固件版本、触发条件、用户确认、执行结果、失败状态、撤销、权限和日志放进同一条任务记录；只有能复盘一次完整任务，才能判断产品是否真正减少了工作。"
+        },
+        "en": {
+          "productName": "Stacklens is an AI smart-safety-eyewear direction announced by ZenaTech through its Tillerstack-related business. On October 9 the company newsroom and Nasdaq release described safety glasses for field technicians, inspectors, and industrial crews, intended to expose instructions, call an expert, and capture an inspection while workers wear gloves or hold tools. Public material keeps the project in prototype/testing and 2027-pilot language, so this is a startup signal rather than a shipping retail product.",
+          "productType": "The product is industrial smart safety eyewear and a field-service agent surface. It combines consumer-style camera, audio, and AI-assistant capabilities with safety eyewear, live video support, and a thermal-imaging direction for utilities, manufacturing, facilities, construction, or inspection teams. The value is not another screen; it is removing the steps of stopping work, pulling out a phone, removing gloves, or leaving a station. It must also satisfy field of view, safety certification, durability, training, and network constraints.",
+          "interactionFlow": "The company describes a target flow in which a technician wears the safety glasses, reads instructions hands-free, invokes an AI assistant by voice or visual interaction, shares live video with a remote expert, and captures an inspection record; thermal imaging may help spot equipment or environmental anomalies. The public material does not show the actual UI, recording cue, expert takeover, offline mode, escalation, work-order write-back, confirmation signature, or stop control. Those are unverified product stages, not details that can be inferred from 'live video support.'",
+          "specsOrStack": "The press material supports only certified safety eyewear, hands-free camera/audio/AI, live video support, a thermal-imaging direction, and a relationship to ZenaTech's drone, DaaS, and Zoo Office ecosystem. It does not state lens or frame standard, camera, thermal sensor, chip, display, microphone count, protocol, OS/API, battery, weight, IP rating, model, edge-cloud split, or data storage. All of those are source not stated; specifications from other glasses brands must not be transferred.",
+          "useCases": "Concrete cases include reading repair steps, calling a remote expert from a high or hazardous area, inspecting electrical or mechanical equipment, using thermal imaging to assist anomaly finding, leaving photo or video evidence in a work order, sharing context between drone inspection and ground maintenance, and guiding a worker whose hands are occupied. It could reduce interruption from handheld devices and paper manuals, but value depends on light, noise, gloves, connectivity, training, and whether a safety manager permits cameras.",
+          "painPointsSolved": "Stacklens targets attention switching, handheld-device friction, the cost of dispatching a remote expert, and fragmented inspection records. Bringing instructions, calls, capture, and thermal sensing near the field of view could let a worker operate while receiving context. It also adds the risk of filming coworkers or customers, wrong guidance causing an incident, thermal misinterpretation, network delay, and fatigue. Safety certification and wearability need to come before an AI-feature count.",
+          "userVoice": "Community material is mostly reposting of the company release, but it raises practical questions: Is Stacklens actually certified? When will pilots start? How will it integrate with existing EHS, WMS, or CMMS tools? Is thermal imaging in the delivered device? These are review and community friction signals, not field research. Since there is no public worker, work-order, or pilot dataset, the claim that it lets workers keep their tools in hand is not validated productivity evidence.",
+          "newTech": "The direction's move is placing the social and safety boundary of AI glasses in a workplace rather than a consumer scene. The glasses would carry safety procedure, remote collaboration, visual evidence, and potentially thermal sensing, not only answers. If the product works, the innovation will be binding worker state, identity, work order, equipment signals, and agent advice while giving the worker a one-step pause, escalation, and uncertainty record. Putting camera, audio, and AI in protective eyewear is not by itself a complete industrial system.",
+          "availability": "ZenaTech's newsroom and the Nasdaq release confirm the public announcement, but the project is described as development, testing, and a 2027 pilot direction. Retail price, orderable SKU, certification documents, pilot customer, regions, delivery, and support contracts are source not stated. Keep this as a startup signal rather than a currently available confirmed product.",
+          "limitsOrUnknowns": "Open questions include safety standard and certification body, frame and lens models, whether thermal imaging is integrated, display and audio form, recording indicator, bystander consent, retention, site Wi-Fi or cellular link, offline behaviour, remote-expert concurrency, work-order APIs, edge processing, cleaning and repair, weight, runtime, pilot count, liability, and whether workers will wear it for a full shift. A 2027 pilot is a future plan, not current availability.",
+          "productVerdict": "Verdict: Stacklens is a useful industrial-translation signal because it tries to place AI glasses inside safety and work-order systems rather than repeat a consumer demo. It belongs in vendor screening and pilot watchlists, not a production-critical path. The next evidence should include a certified SKU, work-order closure, offline and misrecognition handling, expert takeover, recording boundaries, and worker feedback before anyone claims it reduces downtime rather than adding compliance and safety burden. A serious acceptance pass should put the input boundary, model or firmware version, trigger, user confirmation, result, failure state, undo path, permissions, and audit log into one task record. Replaying a complete task, including a failed attempt and a human takeover, is the minimum evidence that the product removed work rather than moving complexity into operations. The record should also say what happened when a connector failed, the network disappeared, the model changed, a sensor disagreed, or a person rejected the proposed action; those are the product's real operating conditions, not governance afterthoughts."
+        }
+      }
+    }
+  ],
+  "zhPath": "./zh/",
+  "enPath": "./en/",
+  "sourcesPath": "./sources.md"
+}

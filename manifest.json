@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-10-12",
+    "zhTitle": "AI Daily · Agent 开始拥有自己的工作台",
+    "enTitle": "AI Daily · Agents get a working surface",
+    "zhSummary": "今天最清楚的产品变化不是又一个聊天入口，而是 Agent 开始拥有可审阅的工作台：网页改动要先预览再发布，本地计算机承载持续上下文，coding agent 公开执行与反方审查，眼镜把视觉任务拆成可听见的日常动作，工业安全眼镜则把 AI 带进真实工位。能否看见状态、权限、失败和人工接管，决定这些产品是工具还是新的隐形负担。",
+    "enSummary": "Today's clearest product change is not another chat entry point but a working surface for agents: website edits go through preview and publish, a local computer carries continuous context, coding agents expose execution and adversarial review, eyewear turns visual tasks into audible actions, and industrial safety glasses aim at the real workstation. Visible state, permission, failure, and human takeover decide whether these products are tools or hidden new burdens.",
+    "tags": [
+      "agent workspace",
+      "local AI",
+      "coding agents",
+      "assistive eyewear",
+      "industrial HCI"
+    ],
+    "sourceTypes": [
+      "official",
+      "developer surface",
+      "wild",
+      "review",
+      "developer docs",
+      "community"
+    ],
+    "coverStory": {
+      "topicId": "morningai-website-agent-publish-preview-2026-10-12",
+      "zhTitle": "MorningAI Website Agent：把网页改版变成可审阅的执行流",
+      "enTitle": "MorningAI Website Agent turns a website change into a reviewable execution flow",
+      "zhSummary": [
+        "MorningAI Website Agent 是面向品牌团队的网页改版 Agent。",
+        "今天的更新新增页面/按钮/布局编辑、GitHub 连接和发布前预览。"
+      ],
+      "enSummary": [
+        "MorningAI Website Agent is a website-change agent for brand and marketing teams.",
+        "Today's update adds page, button, image, and layout edits with GitHub connection and pre-publish preview."
+      ],
+      "imagePath": "assets/morningai-website-agent-2026-10-12.png",
+      "imageSourceUrl": "https://www.morningai.com/blog/october-12-2026-product-updates",
+      "primarySourceUrl": "https://morningai.com/blog/october-12-2026-product-updates",
+      "evidenceStrength": "MorningAI's dated product update documents a live Website Agent flow with a preview and explicit user-controlled Publish step"
+    },
+    "watchlistZh": [
+      "MorningAI 的 GitHub 权限、预览构建链与回滚是否真的可审计",
+      "Ghost Core 首批交付、持续负载、噪声和本地 Agent 权限",
+      "Shape 的命令沙箱、模型计费和 adversarial review 是否抓得到真实 bug",
+      "Jyoti 不同 SKU 的语言、延迟、准确率与低视力用户安全反馈",
+      "Stacklens 的认证型号、2027 pilot、工单接口和现场录像边界"
+    ],
+    "watchlistEn": [
+      "MorningAI GitHub permissions, preview build chain, and rollback auditability",
+      "Ghost Core first-batch delivery, sustained load, acoustics, and local-agent permissions",
+      "Shape command sandboxing, model billing, and whether adversarial review catches real bugs",
+      "Jyoti SKU differences, language coverage, latency, accuracy, and low-vision safety feedback",
+      "Stacklens certified SKU, 2027 pilot, work-order integration, and field-recording boundaries"
+    ],
+    "zhPath": "./2026-10-12/zh/",
+    "enPath": "./2026-10-12/en/",
+    "sourcesPath": "./2026-10-12/sources.md"
+  },
+  {
     "date": "2026-10-11",
     "zhTitle": "AI Daily · 判断开始离开聊天框",
     "enTitle": "AI Daily · When agents leave the chat box",
