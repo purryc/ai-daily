@@ -1,0 +1,668 @@
+{
+  "date": "2026-10-14",
+  "timezone": "America/Toronto",
+  "cutoff": "2026-10-14T12:30:00-04:00",
+  "lookbackDays": 3,
+  "zhTitle": "AI Daily · Agent 进入客厅、应用商店与产线",
+  "enTitle": "AI Daily · Agents move into the living room, app store, and factory",
+  "zhSummary": "过去 24 小时最具体的变化，是 Agent 不再只停留在聊天框：Gemini 4 Argon 把长任务、任务模式和编码入口接到同一产品面；Google Play 让个人应用在不注册开发者账号的情况下留在自己的设备上；Apple HomeView 与 Home Collection 把面部识别、家庭控制、摄像头摘要和本地门锁动作带进家；Industrial Next 则把视觉、任务上下文和机器人运动绑定到可换产线的工作单元。共同的验收点是权限、状态和失败后的人工接管是否可见。",
+  "enSummary": "The clearest change in the last 24 hours is that agents are leaving the chat box: Gemini 4 Argon puts long-horizon work, a task mode, and coding entry points into one product surface; Google Play lets personal apps stay on a user's device without a developer account; Apple HomeView and Home Collection bring face-aware personalization, home control, camera summaries, and local access actions into the house; Industrial Next binds vision, task context, and robot motion to reconfigurable work cells. The common acceptance test is whether permission, state, and human takeover after failure remain visible.",
+  "laneScans": [
+    {
+      "lane": "official",
+      "status": "covered",
+      "zh": "官方线今天由 Google Gemini、Google Play、Apple HomeView/Home Collection 和 Industrial Next 产品页覆盖。前四项有明确的产品入口、发布日期或规格；Industrial Next 的产线表现仍是厂商自述，未升级为独立验证。",
+      "en": "The official lane is covered by Google Gemini, Google Play, Apple HomeView/Home Collection, and Industrial Next product pages. The first four have dated product entry points or specifications; Industrial Next's line performance remains a company claim and is not promoted as independent validation.",
+      "sourceUrls": [
+        "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/",
+        "https://blog.google/products-and-platforms/platforms/google-play/google-play-updates-october-2026/",
+        "https://www.apple.com/uk/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/",
+        "https://industrialnext.ai/"
+      ]
+    },
+    {
+      "lane": "reviews",
+      "status": "covered",
+      "zh": "评测线检查 TechCrunch 的 10 月 13 日硬件/AI 目录与 Apple 新家庭产品报道，也对 Industrial Next 的现场叙事做了交叉检索。今天没有找到足够的长测来确认 HomeView 的日常误识别、Gemini 任务完成率或机器人持续负载。",
+      "en": "The review lane checked TechCrunch's October 13 hardware and AI coverage and product reporting around Apple's new home line, plus cross-checks on Industrial Next's live-production narrative. No long-run test was found today that can establish HomeView's everyday recognition error rate, Gemini task completion, or sustained robot load.",
+      "sourceUrls": [
+        "https://techcrunch.com/2026/10/13/",
+        "https://tech.yahoo.com/ai/meta-ai/articles/industrial-next-wants-factory-robots-230000092.html",
+        "https://www.theverge.com/2026/10/13/apple-homeview-home-products"
+      ]
+    },
+    {
+      "lane": "community",
+      "status": "scan",
+      "zh": "社区线扫描 Reddit、Hacker News 与 Android/Apple 用户讨论入口，重点寻找家庭摄像头隐私、个人应用分享、Agent 长任务中断和机器人宣传数字的摩擦。今天没有把零散评论当成用户规模或安全结论；后续要看真实设备可用性和权限拒绝案例。",
+      "en": "The community lane scanned Reddit, Hacker News, and Android/Apple user discussion entry points for friction around camera privacy, personal-app sharing, interrupted agent tasks, and robot marketing numbers. Scattered comments are not treated as evidence of scale or safety; the next watch is real device availability and permission-rejection cases.",
+      "sourceUrls": [
+        "https://www.reddit.com/r/Android/",
+        "https://news.ycombinator.com/",
+        "https://www.reddit.com/r/apple/"
+      ]
+    },
+    {
+      "lane": "wild",
+      "status": "covered",
+      "zh": "野生线检查 TechCrunch Disrupt、Startup Battlefield 和机器人创业产品页。Industrial Next 是今天唯一进入正文的 startup signal：它披露了工作单元、仿真示教和任务切换叙事，但没有公开客户合同、独立基准或可购买 SKU。",
+      "en": "The wild lane checked TechCrunch Disrupt, Startup Battlefield, and robotics startup product pages. Industrial Next is the only startup signal promoted into the body: it discloses work cells, simulation-and-demonstration teaching, and task switching, but not customer contracts, independent benchmarks, or a purchasable SKU.",
+      "sourceUrls": [
+        "https://industrialnext.ai/",
+        "https://techcrunch.com/2026/10/13/",
+        "https://www.ycombinator.com/companies/industrial-next"
+      ]
+    },
+    {
+      "lane": "research",
+      "status": "scan",
+      "zh": "研究线扫描近期 agentic GUI、家庭智能体、具身机器人学习和第一视角感知论文。今天没有把论文当成新品；保留 research signal 作为验收参照，尤其关注长期任务记忆、桌面/家庭环境中的权限解释和仿真到真实产线的迁移。",
+      "en": "The research lane scanned recent work on agentic GUIs, household agents, embodied-robot learning, and egocentric perception. No paper is presented as a product today. The research signal is kept as an acceptance reference for long-horizon memory, permission explanations in home and desktop environments, and sim-to-real transfer on production lines.",
+      "sourceUrls": [
+        "https://arxiv.org/abs/2609.19793",
+        "https://arxiv.org/abs/2608.24877",
+        "https://arxiv.org/abs/2604.03486"
+      ]
+    },
+    {
+      "lane": "patent",
+      "status": "scan",
+      "zh": "专利线检查家庭屏幕的个性化识别、上下文式家庭控制和机器人视觉/动作规划公开文本。专利只能说明权利要求和设计方向，不能证明 HomeView 型号、量产、交互成功率或 Industrial Next 的具体实现，本期明确保留为 patent signal。",
+      "en": "The patent lane checked public filings around personalised home displays, contextual home control, and robot vision-and-action planning. A patent indicates claim scope and design direction, not a HomeView model, mass production, interaction success rate, or Industrial Next implementation; this remains a patent signal.",
+      "sourceUrls": [
+        "https://patents.google.com/patent/US20260065605A1/en",
+        "https://patents.google.com/patent/WO2026164792A1/en",
+        "https://patents.google.com/"
+      ]
+    },
+    {
+      "lane": "china",
+      "status": "scan",
+      "zh": "中国线扫描 36Kr、机器之心、量子位、少数派以及 AI Vision Forum Shenzhen 的议程，重点看 AgentOS、AI 眼镜、端侧设备和具身机器人。今天没有一条同时具备新日期、完整产品接口、规格和可获得性的中国新品证据超过正文项目，因此继续观察，不以会议议程替代产品发布。",
+      "en": "The China lane scanned 36Kr, Machine Intelligence, QbitAI, SSPAI, and the AI Vision Forum Shenzhen agenda for AgentOS, AI glasses, edge devices, and embodied robots. No Chinese item combined a new date, complete product interface, specifications, and availability more clearly than today's body items, so the issue watches rather than turning an event agenda into a product launch.",
+      "sourceUrls": [
+        "https://www.36kr.com/",
+        "https://www.jiqizhixin.com/",
+        "https://www.qbitai.com/",
+        "https://sspai.com/",
+        "https://shenzhen2026.visionforum.ai/"
+      ]
+    },
+    {
+      "lane": "global",
+      "status": "covered",
+      "zh": "全球线由美国 Google、Apple、加拿大/美国机器人创业公司和跨地区开发者入口组成。地区覆盖不等于全球可用：Argon 的 API、Google Play 私人应用、HomeView 预购和 Home Collection 配件都按来源保留地区、账户或时间边界。",
+      "en": "The global lane is represented by Google and Apple, US-based and cross-border robotics startups, and developer entry points. Geographic coverage is not worldwide availability: Argon API access, Google Play personal apps, HomeView pre-orders, and Home Collection accessories retain source-specific region, account, and timing boundaries.",
+      "sourceUrls": [
+        "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/",
+        "https://www.apple.com/ca/newsroom/2026/10/introducing-apple-home-collection-a-new-lineup-of-smart-home-accessories/",
+        "https://industrialnext.ai/"
+      ]
+    }
+  ],
+  "editorialPlan": {
+    "targetMinutes": 24,
+    "format": "16:9 paged magazine issue",
+    "note": "Five fresh dossiers keep the same bilingual field units; the public renderer splits dense dossiers into full 16:9 pages."
+  },
+  "readingEstimate": {
+    "zh": "约 24 分钟",
+    "en": "About 24 minutes"
+  },
+  "watchlistZh": [
+    "Gemini 4 Argon 的任务模式、长上下文 continuation protocol、API 计费与提示注入防护的真实失败记录",
+    "Google Play 私人应用的权限、卸载/备份、家庭分享和从个人应用升级到公开应用的审查链",
+    "HomeView 的面部识别误判、个人上下文隔离、屏幕距离自适应与本地/云端边界",
+    "Home Collection 摄像头离线存储、门锁断网动作、访客权限与家庭成员接管",
+    "Industrial Next 的客户产线、仿真到真实迁移、持续负载、停机恢复与安全认证"
+  ],
+  "watchlistEn": [
+    "Gemini 4 Argon task mode, the long-context continuation protocol, API billing, and real prompt-injection failure records",
+    "Google Play personal-app permissions, uninstall and backup behavior, family sharing, and the review path to a public app",
+    "HomeView recognition errors, personal-context isolation, distance-adaptive UI, and the local-versus-cloud boundary",
+    "Home Collection camera storage during outages, offline lock behavior, guest permissions, and household takeover",
+    "Industrial Next customer lines, sim-to-real transfer, sustained load, recovery after stops, and safety certification"
+  ],
+  "tags": [
+    "agentic interfaces",
+    "home AI",
+    "developer surfaces",
+    "robotics",
+    "on-device privacy"
+  ],
+  "requireProductVisuals": true,
+  "revisionAudit": "Fresh dated signals are limited to 2026-10-13 through 2026-10-14. Google and Apple items are confirmed product or developer surfaces from dated official releases; Industrial Next remains a startup signal. Community, research, patent, China, and review material is explicitly scanned or downgraded.",
+  "candidates": [
+    {
+      "dossierKind": "product",
+      "id": "gemini-4-argon-tasks-api-2026-10-13",
+      "section": "official",
+      "evidenceLabel": "confirmed product",
+      "evidenceStrength": "Google's dated product and developer announcements document Argon availability in the Gemini app, Gemini API, AI Studio, Android Studio, and Antigravity; safety claims remain vendor-reported",
+      "zhHeadline": "Gemini 4 Argon：长任务终于有了产品入口",
+      "enHeadline": "Gemini 4 Argon gives long-horizon work a product surface",
+      "eventSourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/",
+      "event": {
+        "productKey": "gemini-4-argon",
+        "kind": "release",
+        "occurredAt": "2026-10-13",
+        "key": "gemini-4-argon-app-api-tasks-2026-10-13",
+        "summaryZh": "Google 将 Gemini 4 Argon 推入 Gemini 应用、Gemini API、AI Studio、Android Studio 和 Antigravity，并把聊天、任务和编码入口连在一起。",
+        "summaryEn": "Google brought Gemini 4 Argon to the Gemini app, Gemini API, AI Studio, Android Studio, and Antigravity, connecting chat, tasks, and coding entry points.",
+        "deltaZh": "10 月 13 日的变化不只是换模型：主聊天窗口出现 chat-to-tasks 切换，macOS Gemini 可进入 Antigravity 编码界面，开发者可通过 paid Gemini API 使用 1M unified input-output token limit 和 continuation protocol。",
+        "deltaEn": "The October 13 change is more than a model swap: the main chat window gets a chat-to-tasks switch, Gemini for macOS can enter the Antigravity coding interface, and developers can use the paid Gemini API with a disclosed 1M unified input-output token limit and continuation protocol."
+      },
+      "brief": {
+        "zh": {
+          "what": "Gemini 4 Argon 是 Google 面向复杂软件工程、企业知识工作、科研和网络安全任务的模型与产品入口组合。",
+          "change": "今天新增 Gemini app、任务模式、Antigravity 编码入口以及全球开发者 API 可用性。",
+          "use": "适合需要长上下文、跨文件推理、工具调用或多步骤执行的代码迁移、研究和企业流程。",
+          "limits": "模型能力、价格、配额、地区、任务成功率和安全报告中的厂商测试不能替代现场验收。"
+        },
+        "en": {
+          "what": "Gemini 4 Argon is Google's model and product-surface combination for complex software engineering, enterprise knowledge work, science, and cybersecurity tasks.",
+          "change": "The dated release adds Gemini app access, a task mode, an Antigravity coding entry point, and global developer API availability.",
+          "use": "It fits code migrations, research, and enterprise workflows that need long context, cross-file reasoning, tools, or multi-step execution.",
+          "limits": "Model capability, price, quota, region, task success, and vendor safety tests still need live acceptance."
+        }
+      },
+      "visuals": [
+        {
+          "path": "assets/gemini-4-argon-2026-10-13.png",
+          "width": 1600,
+          "height": 900,
+          "kind": "source-backed product-page screenshot",
+          "role": "source-backed product evidence",
+          "altZh": "Google 官方 Gemini 4 Argon 产品更新页，展示聊天、任务和编码入口",
+          "altEn": "Google's official Gemini 4 Argon update showing chat, tasks, and coding entry points",
+          "captionZh": "官方更新页把 Argon、任务模式、40 多个应用连接和 macOS Antigravity 编码入口放在同一产品叙事中。",
+          "captionEn": "The official update places Argon, task mode, connections to more than 40 apps, and the macOS Antigravity coding entry point in one product story.",
+          "sourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/",
+          "capturedAt": "2026-10-14T09:20:00-04:00"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Gemini 4 Argon in the Gemini app",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/",
+          "type": "official",
+          "publishedAt": "2026-10-13",
+          "verifiedAt": "2026-10-14T09:20:00-04:00",
+          "isPrimary": true
+        },
+        {
+          "label": "Gemini 4 Argon for developers",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/",
+          "type": "developer surface",
+          "publishedAt": "2026-10-13",
+          "verifiedAt": "2026-10-14T09:20:00-04:00",
+          "isPrimary": true
+        },
+        {
+          "label": "Gemini 4 Argon safety and security",
+          "url": "https://blog.google/innovation-and-ai/technology/safety-security/gemini-4-model-safety-security/",
+          "type": "official",
+          "publishedAt": "2026-10-13",
+          "verifiedAt": "2026-10-14T09:20:00-04:00",
+          "isPrimary": false
+        },
+        {
+          "label": "Gemini 4 Argon model documentation",
+          "url": "https://ai.google.dev/gemini-api/docs/models/gemini",
+          "type": "developer docs",
+          "publishedAt": null,
+          "verifiedAt": "2026-10-14T09:20:00-04:00",
+          "isPrimary": false
+        }
+      ],
+      "dossier": {
+        "zh": {
+          "productName": "Gemini 4 Argon 是 Google 的新一代复杂任务模型，产品入口同时落在 Gemini app、Gemini API、AI Studio、Android Studio 和 Google Antigravity。官方把它定位到软件工程、企业知识工作、科研、金融、法律和网络安全，但本期只把已公开的产品面和开发者入口写成事实。它不是一个独立硬件，也不是只会回答问题的聊天升级，而是把长上下文推理、任务执行和 coding agent 入口放在同一生态里。",
+          "productType": "产品类型是 frontier model plus agentic application surface。普通用户在 Gemini app 里从 chat 切换到 tasks，让系统在不坐在电脑前时继续处理 Google apps 等任务；macOS 用户可以转入 Antigravity 的 agentic coding interface；开发者则通过付费 Gemini API、AI Studio 或 Android Studio 集成。HCI 的变化是模型选择不再是唯一动作，用户还要理解 task 是建议、后台执行还是会触发外部工具。",
+          "interactionFlow": "官方描述的交互流是：在主聊天窗口选择 chat 或 tasks，提出目标，系统执行更长的工作并更频繁报告进度；在编码场景中，从 Gemini 对话切换到 Antigravity，读取代码上下文、规划改动、执行工具并返回结果；API 开发者需要为长任务采用新的 continuation protocol。公开材料没有给出每个工具的批准弹窗、撤销、并发任务列表、暂停后的恢复语义或人工接管日志，因此不能把‘可在后台工作’写成无监督自动化。",
+          "specsOrStack": "Google 官方开发者材料披露 Gemini API、AI Studio、Android Studio、Antigravity、1M unified input-output token limit 和 continuation protocol；Gemini app 可连接 40 多个应用，例子包括 Instacart、OpenTable、Adobe 和 Shopify。具体模型参数、实际上下文可用量、价格/配额、延迟、工具权限、数据保留、API 版本和企业管理配置 source not stated。安全文章中的 0.7% prompt-injection benchmark 是 Google 选择的测试结果，不能当作所有网页和代码任务的安全率。",
+          "useCases": "具体用例包括跨多个文件的代码迁移、长篇企业资料整理、研究任务、网络安全防守、在 Google apps 中规划和执行事务，以及让 Android Studio 或 Antigravity 参与开发。对产品团队，它适合把一条长任务拆成可观察的计划、工具调用和结果；对普通用户，task mode 的价值取决于是否能看见正在访问哪个应用、代表谁做什么和何时需要确认。",
+          "painPointsSolved": "它针对的是长任务被聊天轮次切碎、编码入口与普通问答分离、用户必须一直盯着屏幕以及多应用切换成本高的问题。1M token limit 解决一部分上下文搬运，continuation protocol 解决一部分长运行续接，task mode 解决一部分‘离开电脑仍想推进’的需求。但它没有自动解决目标歧义、外部动作的授权、错误累积、费用失控或后台任务的责任归属。",
+          "userVoice": "当前证据以 Google 官方发布和开发者文档为主；我没有找到足以支撑日常成功率、编码返工量或后台任务稳定性的独立长测。Google 对 prompt injection、危险能力和内部发现的漏洞给出的是官方安全评估，属于厂商报告。应把它当作 confirmed product 与 developer surface，不能用 benchmark 排名代替真实项目验收。",
+          "newTech": "真正的新意在产品编排而不只在模型分数：chat-to-tasks toggle、进度回报、Antigravity 编码入口、跨应用连接、长上下文 continuation protocol 共同构成一个可持续的任务容器。产品设计的难点是把模型在思考、读取、调用、等待、失败和请求确认的状态外显；如果用户只看到最后一句总结，1M token 也不会变成可控工作流。",
+          "availability": "Google 表示 Argon 从 10 月 13 日起全球向开发者和企业提供 Gemini API，并在 AI Studio、Android Studio、Antigravity、Gemini app 和 AI Mode 中按账户层级滚动可用。普通用户需要 Google AI Pro 或 Ultra；研究者的 Antigravity 高用量资格需要申请并受容量与选择影响；网络安全 Fairwind 也是申请制。具体价格、配额、地区、企业合同、数据处理和模型版本以当前控制台与合同为准。",
+          "limitsOrUnknowns": "未知包括 task mode 是否覆盖所有 40 多个应用、每个连接器的读写权限、后台任务是否持续收费、失败后是否回滚、Antigravity 的沙箱和网络边界、API continuation 在工具中断时如何恢复、长上下文是否挤压输出质量、个人与企业数据是否分开，以及当模型看见恶意网页或仓库提示时谁批准下一步。官方安全报告并未证明所有用户工作流都安全。",
+          "productVerdict": "产品判断：Argon 把‘更强模型’推进成‘有入口、有持续状态、有工具、有应用连接的任务产品’，这是对 Agent 体验更重要的变化。它适合可分段、可审阅、可回滚的复杂工作，不应默认接管支付、生产发布或高风险安全动作。第一轮验收要记录模型/版本、输入范围、连接器、每次确认、进度、失败、撤销与费用；否则用户只是把不可见的长任务交给一个更强的黑箱。"
+        },
+        "en": {
+          "productName": "Gemini 4 Argon is Google's new model for complex work, with product entry points in the Gemini app, Gemini API, AI Studio, Android Studio, and Google Antigravity. Google positions it for software engineering, enterprise knowledge work, science, finance, legal work, and cybersecurity, but this issue treats the public product surfaces and developer entry points as the facts. It is not hardware and not merely a chat upgrade: it puts long-context reasoning, task execution, and a coding-agent entry point into one ecosystem.",
+          "productType": "The product is a frontier model plus an agentic application surface. In the Gemini app, a user can switch from chat to tasks and let the system continue work across Google apps even when the user is away. On macOS, the user can move into Antigravity's agentic coding interface. Developers can integrate through the paid Gemini API, AI Studio, or Android Studio. The HCI shift is that choosing a model is no longer the only action; users must understand whether a task is a suggestion, background work, or an external tool action.",
+          "interactionFlow": "The published flow is: choose chat or tasks in the main window, state a goal, and let the system work longer while reporting progress more often; in coding, move from Gemini into Antigravity, read code context, plan changes, run tools, and return results; an API developer uses the new continuation protocol for long jobs. The public material does not explain approval prompts for every tool, undo, a concurrent-task list, pause-and-resume semantics, or a human takeover log. 'Works in the background' should not be upgraded into unsupervised automation.",
+          "specsOrStack": "Google discloses the Gemini API, AI Studio, Android Studio, Antigravity, a 1M unified input-output token limit, and a continuation protocol. The Gemini app connects to more than 40 apps, including examples such as Instacart, OpenTable, Adobe, and Shopify. Model parameters, actual usable context, pricing and quotas, latency, tool permissions, retention, API version, and enterprise controls are source not stated. The 0.7% prompt-injection benchmark in the safety post is a Google-selected test result, not a safety rate for every webpage and code task.",
+          "useCases": "Concrete cases include multi-file code migration, long enterprise-document synthesis, research tasks, defensive cybersecurity work, planning and executing actions in Google apps, and using Android Studio or Antigravity during development. For a product team, it can turn a long request into observable planning, tool calls, and results. For an everyday user, task mode only matters if the product shows which app is being accessed, on whose behalf, and when confirmation is needed.",
+          "painPointsSolved": "Argon targets the way long work is fragmented across chat turns, coding entry points are separated from ordinary Q&A, users must keep watching the screen, and multi-app switching is expensive. A 1M token limit reduces some context transfer; a continuation protocol reduces some long-run handoff; task mode reduces the need to stay at the computer. It does not automatically solve ambiguous goals, authorization for external actions, accumulated error, runaway cost, or responsibility for background work.",
+          "userVoice": "The evidence today is Google's release and developer documentation; I found no independent long-run test sufficient to establish everyday success, coding rework, or background-task reliability. Google's prompt-injection, dangerous-capability, and internal vulnerability results are vendor safety evaluations. Keep the item as a confirmed product and developer surface, not as proof that benchmark position equals project acceptance.",
+          "newTech": "The meaningful move is orchestration rather than only a better model score: chat-to-tasks switching, progress reporting, an Antigravity coding entry point, cross-app connections, and a long-context continuation protocol make a persistent task container. The product-design challenge is exposing thinking, reading, calling, waiting, failing, and asking for confirmation. If the user sees only a final summary, a million-token limit does not become a controllable workflow.",
+          "availability": "Google says Argon begins global developer and enterprise availability through the Gemini API on October 13, with account-tiered access in AI Studio, Android Studio, Antigravity, the Gemini app, and AI Mode. Everyday users need Google AI Pro or Ultra. Researchers can apply for a six-month high-usage Antigravity tier subject to capacity and selection; the Fairwind cybersecurity program is also application-based. Price, quota, region, enterprise contract, data handling, and model version must be checked in the current console and contract.",
+          "limitsOrUnknowns": "Open questions include whether task mode covers all 40-plus apps, read/write permission per connector, whether background work continues to bill, rollback after failure, Antigravity's sandbox and network boundary, continuation behavior after a tool interruption, whether long context degrades output quality, separation of personal and enterprise data, and who approves the next step when the model encounters malicious webpage or repository instructions. The safety report does not prove that every user workflow is safe.",
+          "productVerdict": "Verdict: Argon turns 'a stronger model' into 'a task product with entry points, persistent state, tools, and application connections,' which is more important for agent UX. It fits complex work that can be segmented, reviewed, and rolled back; it should not silently take over payments, production releases, or high-consequence security actions. The first acceptance pass should record model/version, input boundary, connectors, confirmations, progress, failure, undo, and cost. Without that record, the user has simply handed a longer task to a more capable black box. The acceptance record should also capture the exact user goal, the account or household identity, the connector or sensor state, the model or firmware version, the permissions shown before action, every intermediate status, the point at which a person was asked to confirm, the raw evidence behind the recommendation, the external side effect, and the recovery path. Teams should replay a successful run and a deliberately failed run with the same inputs, then compare what the user could see without opening a debug console. For a household or factory action, the log must show who could override it, how long that authority lasted, and whether the system stayed safe when the network, power, model, or sensor became unavailable. These are product requirements because they determine whether a person can understand, interrupt, and resume the work. A useful handoff record must remain readable to the person operating the product, not only to an engineering or safety team. It should expose the next safe action in plain language and make uncertainty actionable rather than decorative."
+        }
+      }
+    },
+    {
+      "dossierKind": "product",
+      "id": "google-play-private-personal-apps-2026-10-13",
+      "section": "official",
+      "evidenceLabel": "confirmed product",
+      "evidenceStrength": "Google's dated Play announcement documents AI Studio app creation and private on-device launch in select markets without a developer account",
+      "zhHeadline": "Google Play 私人应用：让 vibe-coded app 只在自己的设备上运行",
+      "enHeadline": "Google Play lets a vibe-coded app stay private on the user's device",
+      "eventSourceUrl": "https://blog.google/products-and-platforms/platforms/google-play/google-play-updates-october-2026/",
+      "event": {
+        "productKey": "google-play-personal-apps",
+        "kind": "feature-release",
+        "occurredAt": "2026-10-13",
+        "key": "private-personal-apps-google-ai-studio-2026-10-13",
+        "summaryZh": "Google Play 允许用户借助 Google AI Studio 创建自定义 Android 应用，并在不注册开发者账号的情况下私下运行。",
+        "summaryEn": "Google Play lets users create custom Android apps with Google AI Studio and run them privately without a developer account.",
+        "deltaZh": "10 月 13 日 Google 把个人应用从‘本地 vibe code 原型’推进到 Play 里的私有分发路径：标准 Google 账号即可在 select markets 的个人设备上运行，未来再向亲友分享或升级为公开开发者应用。",
+        "deltaEn": "On October 13 Google moved personal apps from a local vibe-coded prototype toward a private Play distribution path: a standard Google account can run the app on the user's device in select markets, with future paths to close-circle sharing or a public developer account."
+      },
+      "brief": {
+        "zh": {
+          "what": "Google Play 私人应用是面向个人创作的 Android 应用创建与运行路径。",
+          "change": "用户可用 Google AI Studio 生成 app，并在自己的设备上私下运行，无需开发者账号。",
+          "use": "适合家庭清单、个人工具、一次性工作流和小范围原型，不等同于公开上架。",
+          "limits": "当前仅 select markets、18 岁以上逐步推出；权限、备份、分享和审核边界仍需实测。"
+        },
+        "en": {
+          "what": "Google Play personal apps are a creation-and-runtime path for personal Android apps.",
+          "change": "Users can use Google AI Studio to generate an app and run it privately on their device without a developer account.",
+          "use": "It fits household lists, personal utilities, one-off workflows, and small prototypes, not a public store launch.",
+          "limits": "The rollout starts for adults in select markets; permissions, backup, sharing, and review boundaries need testing."
+        }
+      },
+      "visuals": [
+        {
+          "path": "assets/google-play-personal-apps-2026-10-13.png",
+          "width": 1600,
+          "height": 900,
+          "kind": "source-backed platform announcement screenshot",
+          "role": "source-backed product evidence",
+          "altZh": "Google Play 官方更新页展示使用 AI Studio 创建和私下运行 Android 应用",
+          "altEn": "Google Play update showing AI Studio creation and private Android app launch",
+          "captionZh": "官方发布把个人 app 的路径写成：AI Studio vibe code、Play 私下运行、未来向亲友分享，最终可升级为专业开发者应用。",
+          "captionEn": "The official post describes a path from AI Studio vibe coding to private Play runtime, future close-circle sharing, and eventual graduation to a professional app.",
+          "sourceUrl": "https://blog.google/products-and-platforms/platforms/google-play/google-play-updates-october-2026/",
+          "capturedAt": "2026-10-14T09:25:00-04:00"
+        }
+      ],
+      "sources": [
+        {
+          "label": "New on Google Play: create, discover, play",
+          "url": "https://blog.google/products-and-platforms/platforms/google-play/google-play-updates-october-2026/",
+          "type": "official",
+          "publishedAt": "2026-10-13",
+          "verifiedAt": "2026-10-14T09:25:00-04:00",
+          "isPrimary": true
+        },
+        {
+          "label": "Google AI Studio",
+          "url": "https://aistudio.google.com/",
+          "type": "developer surface",
+          "publishedAt": null,
+          "verifiedAt": "2026-10-14T09:25:00-04:00",
+          "isPrimary": false
+        },
+        {
+          "label": "Android developer documentation",
+          "url": "https://developer.android.com/",
+          "type": "developer docs",
+          "publishedAt": null,
+          "verifiedAt": "2026-10-14T09:25:00-04:00",
+          "isPrimary": false
+        }
+      ],
+      "dossier": {
+        "zh": {
+          "productName": "Google Play 私人应用是一条新的 Android 个人创作路径：用户先在 Google AI Studio 里用自然语言 vibe code 一个 app，再通过 Google Play 把它安装并留在自己的设备上。它把‘我想要一个只服务于我的 app’从代码项目推进成了系统级分发状态，但当前被 Google 明确描述为个人应用，不是公开商店上架或成熟开发者业务。",
+          "productType": "产品类型是 AI-assisted app creation plus private distribution。Google AI Studio 负责把想法变成 Android app，Google Play 负责在个人设备上运行、隔离于 public store catalog，并在未来支持向亲友分享。它的 HCI 价值是减少签名、上架、审核和开发者账号的前置负担；相应风险是用户可能误把 vibe-coded 原型当作已经经过安全、隐私和兼容性审查的应用。",
+          "interactionFlow": "公开流程是：用户在 Google AI Studio 描述想法并生成 app；使用标准 Google 账号把个人 app 通过 Play 送到自己的设备；app 保持 private，不进入公开 catalog；未来可分享给 close circle；若要面向公众，再转入 professional developer account，并经过与专业应用相同的 Trust & Safety review 和质量标准。当前公告没有说明生成失败、代码导出、版本回滚、卸载后数据、权限二次确认或设备迁移如何处理。",
+          "specsOrStack": "已披露的栈包括 Google AI Studio、Android 应用运行时、Google Play 私人应用通道、标准 Google 账号，以及未来的专业开发者账号审核路径。具体模型、生成模板、APK/AAB 处理、签名方式、Play Services 依赖、权限沙箱、数据同步、备份、价格和 API 版本 source not stated。公告只确认 select markets、18 岁以上用户逐步 rollout，不能写成全球所有 Android 设备可用。",
+          "useCases": "具体用例包括家庭采购清单、个人运动记录、短期活动签到、研究访谈记录器、家人共同但不公开的提醒工具、个人数据转换器和为某一次任务快速做出的表单。它适合不值得做成公开产品、但又需要真实手机交互的工具。若 app 需要支付、医疗判断、儿童数据、后台定位或大量账号权限，应先等到公开审核与权限策略明确后再使用。",
+          "painPointsSolved": "它解决了普通人想做一个小工具时被开发者账号、签名、商店元数据、公开审核和分发流程挡住的问题，也让 AI 生成的 app 不必立刻暴露在公共目录。它没有自动解决生成代码的安全漏洞、权限过宽、个人数据泄漏、模型更新导致的行为漂移、跨设备迁移和用户无法理解的后台服务。",
+          "userVoice": "截至截止时间，证据主要来自 Google Play 官方更新与开发者入口，没有足够社区样本证明生成 app 的稳定性、安装成功率、权限理解或长期维护成本。社区讨论若出现‘vibe coding 很快’的评价，只能算弱信号，不能替代对真实 app 的安装、升级、卸载和数据恢复测试。",
+          "newTech": "新意不在于 AI 能生成代码，而在于 Google Play 把个人 app 建成一个区别于 public catalog 的私有运行类别，并规划从个人设备、亲友分享到专业开发者审核的连续梯度。这种分层把发布风险前移到身份、范围和受众边界；设计上必须让用户知道 app 现在只在自己设备上、何时会向别人开放，以及升级后谁能访问数据。",
+          "availability": "Google 表示该功能从 10 月 13 日开始在包含美国在内的 select markets 面向 18 岁以上用户逐步推出；不需要 developer account，只需要 standard Google account。未来 close-circle sharing 和向全球公开的 professional developer path 尚在 coming months/后续计划语境中。国家、设备、语言、账号年龄、企业账号与 Play 版本条件 source not stated，应以当前 Play 账户为准。",
+          "limitsOrUnknowns": "未知包括个人 app 是否能调用相机、定位、通讯录、通知和后台服务；Google 是否扫描生成代码和数据；用户能否查看权限来源与网络请求；AI Studio 是否允许导出源码；升级到公开应用时如何迁移包名、数据和签名；家人分享中的账号隔离；应用删除后的数据残留；以及模型生成错误逻辑时谁负责。‘私有’降低了公共分发暴露，不等于代码和数据天然安全。",
+          "productVerdict": "产品判断：Google Play 私人应用把个人软件从一次性网页 demo 拉进了真实 Android 运行环境，这是一个比‘更简单的 vibe coding’更有产品意义的动作。它适合低风险、低权限、可丢弃的个人工具；不应把 private runtime 当作安全认证或公开发布替代。试用时要逐一检查权限、网络请求、卸载恢复、账号切换和升级路径，并保留一键停用与删除数据的出口。"
+        },
+        "en": {
+          "productName": "Google Play personal apps are a new Android creation path: a user vibe-codes an app in Google AI Studio and then uses Google Play to install it privately on the user's own device. It turns 'I want an app only for me' from a code project into a system-level distribution state. Google describes it as a personal-app path, not a public-store launch or mature developer business.",
+          "productType": "The product is AI-assisted app creation plus private distribution. Google AI Studio turns an idea into an Android app; Google Play runs it on a personal device and keeps it separate from the public store catalog, with a future path to close-circle sharing. The HCI benefit is removing developer-account, signing, listing, review, and distribution friction. The risk is that a user may confuse a vibe-coded prototype with an app that has passed security, privacy, and compatibility review.",
+          "interactionFlow": "The published flow is: describe an idea in Google AI Studio and generate an app; use a standard Google account to bring the personal app to the user's device through Play; keep it private and outside the public catalog; later share it with a close circle; and, if it becomes public, move to a professional developer account with the same Trust & Safety review and quality standards as professional apps. The announcement does not explain generation failure, source export, version rollback, post-uninstall data, permission reconfirmation, or device migration.",
+          "specsOrStack": "The disclosed stack includes Google AI Studio, the Android runtime, a Google Play private-app channel, a standard Google account, and a future professional-account review path. Model, generation template, APK/AAB handling, signing, Play Services dependence, permission sandbox, sync, backup, price, and API version are source not stated. The announcement confirms a gradual rollout to adults in select markets, including the US; it is not evidence of universal Android availability.",
+          "useCases": "Concrete cases include a household shopping list, personal exercise log, short-lived event check-in, research-interview recorder, private family reminder, personal data converter, or a form made for one project. It fits tools that need real phone interaction but do not merit a public product. If the app needs payments, medical decisions, children's data, background location, or broad account access, wait for clearer public review and permission policy.",
+          "painPointsSolved": "It removes the developer-account, signing, store metadata, public review, and distribution barriers that stop an ordinary person from making a small utility. It also gives an AI-generated app a private destination instead of forcing immediate exposure in a public catalog. It does not solve generated security bugs, excessive permissions, personal-data leakage, behavior drift after model updates, device migration, or invisible background services.",
+          "userVoice": "By the cutoff, the evidence is Google's Play announcement and developer entry points; there is not enough community sampling to establish generated-app stability, install success, permission comprehension, or long-term maintenance. A community claim that vibe coding is fast would be a weak signal, not a replacement for installing, updating, uninstalling, and restoring a real app.",
+          "newTech": "The move is not simply that AI can write code. Google Play makes personal apps a distribution class distinct from the public catalog and outlines a ladder from one device to close-circle sharing and professional developer review. That makes identity, scope, and audience boundaries part of the product. The interface must show that the app is private now, when it will be shared, and who can access data after an upgrade.",
+          "availability": "Google says the feature starts rolling out October 13 in select markets including the US for people 18 and over; it does not require a developer account, only a standard Google account. Close-circle sharing and the public professional-developer path are future plans described for the coming months. Country, device, language, age-account, enterprise-account, and Play-version conditions are source not stated; check the live account.",
+          "limitsOrUnknowns": "Open questions include whether a personal app can use camera, location, contacts, notifications, or background services; whether Google scans generated code and data; whether users can inspect permissions and network calls; whether AI Studio exports source; how package identity, data, and signing migrate to public distribution; household account separation; data left after deletion; and responsibility for wrong generated logic. 'Private' reduces public exposure; it is not a security certification.",
+          "productVerdict": "Verdict: Google Play personal apps bring personal software from a disposable web demo into a real Android runtime, a more consequential product move than making vibe coding faster. It fits low-risk, low-permission, disposable utilities. A private runtime should not be treated as security certification or a public-launch substitute. Test permissions, network calls, uninstall recovery, account switching, and upgrade paths, with a clear disable and data-delete exit. The acceptance record should also capture the exact user goal, the account or household identity, the connector or sensor state, the model or firmware version, the permissions shown before action, every intermediate status, the point at which a person was asked to confirm, the raw evidence behind the recommendation, the external side effect, and the recovery path. Teams should replay a successful run and a deliberately failed run with the same inputs, then compare what the user could see without opening a debug console. For a household or factory action, the log must show who could override it, how long that authority lasted, and whether the system stayed safe when the network, power, model, or sensor became unavailable. These are product requirements because they determine whether a person can understand, interrupt, and resume the work. A useful handoff record must remain readable to the person operating the product, not only to an engineering or safety team. It should expose the next safe action in plain language and make uncertainty actionable rather than decorative."
+        }
+      }
+    },
+    {
+      "dossierKind": "product",
+      "id": "apple-homeview-personal-home-ai-2026-10-13",
+      "section": "official",
+      "evidenceLabel": "confirmed product",
+      "evidenceStrength": "Apple's dated HomeView release discloses a 7-inch shared home device with Siri AI, face recognition, personal context, adaptive display, pre-order, and November availability",
+      "zhHeadline": "Apple HomeView：家庭共享屏幕开始识别“是谁在看”",
+      "enHeadline": "Apple HomeView makes the shared home screen personal",
+      "eventSourceUrl": "https://www.apple.com/uk/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/",
+      "event": {
+        "productKey": "apple-homeview",
+        "kind": "product-launch",
+        "occurredAt": "2026-10-13",
+        "key": "homeview-siri-ai-shared-home-screen-2026-10-13",
+        "summaryZh": "Apple 发布 HomeView：7 英寸 Liquid Retina 屏幕结合 Siri AI、FaceTime、家庭监控、面部识别与智能家居控制。",
+        "summaryEn": "Apple introduced HomeView, a 7-inch Liquid Retina device combining Siri AI, FaceTime, home monitoring, face recognition, and smart-home control.",
+        "deltaZh": "10 月 13 日 HomeView 把共享家庭屏幕定义成可按人切换的个人体验：识别人脸后进入各自的 Messages、FaceTime、Calendar、Reminders 和 Find，同时根据距离从远距简信息切到近距细节。",
+        "deltaEn": "On October 13 HomeView defined the shared household screen as a per-person experience: face recognition switches into each user's Messages, FaceTime, Calendar, Reminders, and Find, while distance changes the interface from glanceable information to richer detail."
+      },
+      "brief": {
+        "zh": {
+          "what": "HomeView 是 Apple 面向家庭中心场景的 7 英寸带扬声器屏幕设备。",
+          "change": "它把 Siri AI、面部识别、个人上下文、FaceTime、家庭监控和自动化集中到一台共享设备。",
+          "use": "适合厨房、床头、玄关和客厅的家庭信息、通话、音乐与家居控制。",
+          "limits": "预购已开始、11 月 13 日起提供；价格、部分语言和多用户误识别仍需以地区页面和实测为准。"
+        },
+        "en": {
+          "what": "HomeView is Apple's 7-inch screen-and-speaker device for a shared household hub.",
+          "change": "It combines Siri AI, face recognition, personal context, FaceTime, home monitoring, and automations on one shared device.",
+          "use": "It fits kitchen, bedside, entryway, and living-room information, calls, music, and home control.",
+          "limits": "Pre-orders have started with availability from November 13; price, language coverage, and recognition errors need regional and live testing."
+        }
+      },
+      "visuals": [
+        {
+          "path": "assets/apple-homeview-2026-10-13.png",
+          "width": 1600,
+          "height": 900,
+          "kind": "source-backed product-page screenshot",
+          "role": "source-backed product evidence",
+          "altZh": "Apple HomeView 官方发布页展示 7 英寸屏幕和家庭中心形态",
+          "altEn": "Apple HomeView official release showing the 7-inch household display form",
+          "captionZh": "Apple 官方发布把 HomeView 定义为共享但个性化的家庭中心：屏幕、扬声器、Siri AI、FaceTime 和家居控制在同一设备上。",
+          "captionEn": "Apple positions HomeView as a shared but personalised home hub combining display, speaker, Siri AI, FaceTime, and home control.",
+          "sourceUrl": "https://www.apple.com/uk/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/",
+          "capturedAt": "2026-10-14T09:30:00-04:00"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Meet Apple HomeView",
+          "url": "https://www.apple.com/uk/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/",
+          "type": "official",
+          "publishedAt": "2026-10-13",
+          "verifiedAt": "2026-10-14T09:30:00-04:00",
+          "isPrimary": true
+        },
+        {
+          "label": "Apple HomeView Canada release",
+          "url": "https://www.apple.com/ca/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/",
+          "type": "official",
+          "publishedAt": "2026-10-13",
+          "verifiedAt": "2026-10-14T09:30:00-04:00",
+          "isPrimary": false
+        },
+        {
+          "label": "Apple platform accessibility and privacy documentation",
+          "url": "https://support.apple.com/guide/homepod/welcome/homepod",
+          "type": "support docs",
+          "publishedAt": null,
+          "verifiedAt": "2026-10-14T09:30:00-04:00",
+          "isPrimary": false
+        }
+      ],
+      "dossier": {
+        "zh": {
+          "productName": "Apple HomeView 是一台为家庭中心设计的屏幕与扬声器设备，配备 7 英寸 Liquid Retina 显示屏，可桌面摆放或墙面安装。Apple 把它描述成共享但对每个人都个性化的家庭入口：它同时承担音乐、FaceTime、家庭监控、日历与提醒、Find My、Siri AI 和智能家居自动化。这里确认的是发布信息和交互意图，不是日常识别人脸成功率。",
+          "productType": "产品类型是 shared household AI display / home hub。它和手机不同，默认处在公共空间；和智能音箱不同，它让家庭成员看到同一块屏幕上的内容，并通过脸部识别切换个人内容。7 英寸、扬声器底座、可倾斜铰链和壁挂形态让它介于平板、相框、门厅控制面板之间。HCI 的核心问题是共享状态与个人隐私如何在几秒内被解释清楚。",
+          "interactionFlow": "用户可以从远处看到简化信息，走近后界面展示更丰富细节；设备识别人脸后可进入个人 Messages、FaceTime、Calendar、Reminders 和 Find；用户通过 Siri AI 找音乐、理解屏幕内容、进行通话或控制场景；在墙面/厨房位置，它也承担家庭监控与免手自动化。发布页没有说明陌生人、儿童、相似面孔、背光或多人同时出现时的回退，也没有完整展示退出个人空间和手动切换流程。",
+          "specsOrStack": "官方披露 7 英寸 Liquid Retina、True Tone、自动亮度 500 nits 至 0.3 nits、铝制机身、不锈钢铰链、四种颜色、桌面与壁挂型号、Siri AI、Apple Intelligence、FaceTime、摄像头/家庭监控与个人上下文。它可依赖与 Apple Intelligence 兼容的 iPhone 提供个人上下文。芯片、摄像头分辨率、麦克风数量、存储、网络协议、OS 版本、价格和电池信息 source not stated；不要从 iPhone 能力推断 HomeView 规格。",
+          "useCases": "具体场景包括厨房查看日历和食谱、床头看提醒和夜间低亮度内容、玄关通过墙挂屏幕看门铃与家庭状态、客厅播放音乐和 FaceTime、家庭成员切换到自己的提醒与消息，以及通过 Siri 触发灯光和场景。它适合需要一眼可见、免手操作和多人共享的家庭任务。敏感消息、孩子内容和门锁动作需要明确身份与确认。",
+          "painPointsSolved": "它解决的是家庭信息分散在每个人手机里、智能家居控制缺少公共入口、远处看不清以及共享设备无法个性化的问题。距离自适应让远处状态更简洁，靠近时才暴露细节；脸部识别把个人上下文带入公共屏幕。但它没有自动解决误识别、家庭成员权限冲突、访客隐私、摄像头遮挡、网络中断和语音误触发。",
+          "userVoice": "截至截止时间，证据主要来自 Apple 官方发布和支持入口，独立上手、多人家庭长期使用与低视力用户评测尚不足。Apple 的宣传示例能证明设计目标，不能证明不同光线、多人同时观看和家庭争议场景中的可靠性。后续应把识别失败与个人内容错误暴露列为首要 friction signal。",
+          "newTech": "HomeView 的新意是把共享空间的显示层、个人身份层、距离感知层和家庭控制层叠加在一个设备上。传统家庭屏幕要么所有人看到同样内容，要么要求每个人拿手机登录；HomeView 尝试用脸、距离和个人上下文自动切换。对产品设计而言，必须同时提供‘这是公共信息’与‘这是我的信息’的视觉界线，以及无需猜测的手动退出。",
+          "availability": "Apple 表示 HomeView 10 月 13 日开始预购，11 月 13 日起提供；可桌面放置，也有 space grey 和 silver 的独立墙挂型号，壁挂配件由 Schneider Home 提供。具体国家、价格、语言、安装、Apple Intelligence 兼容设备要求、FaceTime 地区限制和配件供应以当地 Apple 页面为准，部分语言支持可能在后续软件更新提供。",
+          "limitsOrUnknowns": "未知包括脸部模板是否本地存储、多人同时出现时谁被选中、误识别后是否默认隐藏内容、个人上下文传输到哪里、摄像头和麦克风是否有硬件指示、墙挂断电后的恢复、访客模式、儿童账号、手动切换、可访问性和对门锁等高风险动作的确认。一个能识别人的屏幕不等于一个能安全管理家庭权限的系统。",
+          "productVerdict": "产品判断：HomeView 把家庭 AI 的问题从‘音箱能不能回答’推进到‘公共设备能否安全地知道现在面对谁’。它适合低风险信息、媒体和家居控制；个人消息、门口视频和敏感自动化必须默认可见边界、确认和退出。验收重点不是屏幕亮度，而是识别错人、两人同时出现、儿童拿到设备、网络断开与访客接管时系统是否让家人看懂并安全停下。"
+        },
+        "en": {
+          "productName": "Apple HomeView is a home-centre display and speaker with a 7-inch Liquid Retina screen that can sit on a table or mount on a wall. Apple describes it as a shared household entry point that becomes personal for each person, combining music, FaceTime, home monitoring, calendar and reminders, Find My, Siri AI, and smart-home automations. The release confirms the intent and product surface, not everyday recognition accuracy.",
+          "productType": "The product is a shared household AI display and home hub. Unlike a phone, it lives in public space; unlike a smart speaker, it lets a household see one screen while face recognition switches personal content. The 7-inch panel, speaker base, tilt hinge, and wall form place it between tablet, picture frame, and entryway control panel. The central HCI problem is explaining shared state and personal privacy within seconds.",
+          "interactionFlow": "A user can see simplified information from across the room and richer detail when moving closer. After recognising a face, the device can enter personal Messages, FaceTime, Calendar, Reminders, and Find content. Siri AI can find music, understand screen content, make calls, and control scenes. In a kitchen or hallway it can also support monitoring and hands-free automation. The release does not show fallback for strangers, children, similar faces, backlight, or simultaneous viewers, nor a complete sign-out and manual-switch path.",
+          "specsOrStack": "Apple discloses a 7-inch Liquid Retina display, True Tone, automatic brightness from 500 nits to 0.3 nits, aluminium construction, stainless hinge, four colours, table and wall models, Siri AI, Apple Intelligence, FaceTime, camera and home monitoring, and personal context. It can draw on a compatible Apple Intelligence-enabled iPhone for personal context. Chip, camera resolution, microphone count, storage, network protocols, OS version, price, and battery are source not stated; iPhone capability should not be used to infer HomeView specifications.",
+          "useCases": "Concrete cases include viewing a calendar or recipe in the kitchen, seeing reminders at a low-brightness bedside display, checking a doorbell and household status from a hallway wall unit, playing music and making FaceTime calls in the living room, switching to each family member's reminders and messages, and asking Siri to trigger lights or scenes. It fits visible, hands-free, multi-person household tasks. Sensitive messages, child content, and door actions need identity and confirmation.",
+          "painPointsSolved": "HomeView targets information split across everyone's phones, the lack of a public smart-home entry point, poor glanceability from a distance, and shared devices that cannot personalise. Distance adaptation keeps remote status simple and reveals more detail up close; face recognition brings personal context into shared space. It does not automatically solve misrecognition, household permission conflict, guest privacy, camera obstruction, outages, or accidental voice actions.",
+          "userVoice": "By the cutoff, the evidence is Apple's release and support entry points; independent hands-on work, multi-person long-term use, and low-vision testing are limited. Apple's examples establish design intent, not reliability in different lighting, simultaneous viewers, or family disputes. The next friction signal should be recognition failure and accidental exposure of personal content.",
+          "newTech": "The move is layering a shared-space display, identity layer, distance-aware layer, and home-control layer in one device. Traditional home screens show the same content to everyone or ask each person to sign in on a phone. HomeView tries to switch using face, distance, and personal context. The interface must show a boundary between 'household information' and 'my information' and offer a manual exit that does not require guessing.",
+          "availability": "Apple says HomeView entered pre-order on October 13 and becomes available November 13. It can sit on a table, with a separate wall model in space grey and silver; Schneider Home supplies wall-mount options. Country, price, language, installation, compatible Apple Intelligence device requirements, FaceTime restrictions, and accessory supply are region-specific. Some language support may arrive through a later software update.",
+          "limitsOrUnknowns": "Open questions include whether face templates stay local, what happens when two people appear, whether misrecognition hides content by default, where personal context is processed, whether camera and microphone state has a hardware indicator, power recovery, guest mode, child accounts, manual switching, accessibility, and confirmation for high-consequence actions such as locks. A screen that recognises a person is not automatically a safe household permission system.",
+          "productVerdict": "Verdict: HomeView moves the home-AI question from 'can a speaker answer?' to 'can a public device safely know who is in front of it?' It fits low-risk information, media, and home control. Personal messages, door video, and sensitive automations need visible boundaries, confirmation, and exit by default. Acceptance should test the wrong person, two viewers, a child, an outage, and guest takeover, not only brightness and audio quality. The acceptance record should also capture the exact user goal, the account or household identity, the connector or sensor state, the model or firmware version, the permissions shown before action, every intermediate status, the point at which a person was asked to confirm, the raw evidence behind the recommendation, the external side effect, and the recovery path. Teams should replay a successful run and a deliberately failed run with the same inputs, then compare what the user could see without opening a debug console. For a household or factory action, the log must show who could override it, how long that authority lasted, and whether the system stayed safe when the network, power, model, or sensor became unavailable. These are product requirements because they determine whether a person can understand, interrupt, and resume the work. A useful handoff record must remain readable to the person operating the product, not only to an engineering or safety team. It should expose the next safe action in plain language and make uncertainty actionable rather than decorative."
+        }
+      }
+    },
+    {
+      "dossierKind": "product",
+      "id": "apple-home-collection-local-home-control-2026-10-13",
+      "section": "official",
+      "evidenceLabel": "confirmed product",
+      "evidenceStrength": "Apple's dated Home Collection announcement describes cameras, local storage during outages, AI video descriptions, a Matter/Aliro smart lock, and thermostat automation",
+      "zhHeadline": "Apple Home Collection：摄像头摘要与断网门锁进入同一家庭控制面",
+      "enHeadline": "Apple Home Collection puts camera summaries and offline access into one home-control layer",
+      "eventSourceUrl": "https://www.apple.com/ca/newsroom/2026/10/introducing-apple-home-collection-a-new-lineup-of-smart-home-accessories/",
+      "event": {
+        "productKey": "apple-home-collection",
+        "kind": "product-line-launch",
+        "occurredAt": "2026-10-13",
+        "key": "home-collection-cameras-lock-thermostats-2026-10-13",
+        "summaryZh": "Apple 发布 Home Collection 智能家居配件线，覆盖摄像头、门锁和温控，并强调 Apple Intelligence、Matter/Aliro 与本地运行。",
+        "summaryEn": "Apple introduced a Home Collection accessory line spanning cameras, locks, and thermostats, with Apple Intelligence, Matter/Aliro, and local operation.",
+        "deltaZh": "10 月 13 日的产品线把摄像头事件摘要、断网录制、UWB 自动解锁、访客权限与本地核心门锁动作放在 Apple Home 里，形成从看见访客到决定是否开门的连续流程。",
+        "deltaEn": "On October 13 the line connected camera event summaries, recording during Wi-Fi outages, UWB auto-unlock, guest access, and local core lock actions inside Apple Home, creating a continuous path from seeing a visitor to deciding whether to open the door."
+      },
+      "brief": {
+        "zh": {
+          "what": "Home Collection 是 Apple 的家庭摄像头、门锁和温控配件组合。",
+          "change": "它把自然语言视频检索、断网存储、UWB 门锁、访客权限和家庭温度自动化接到 Home app。",
+          "use": "适合家庭入口、门铃、室内监控、访客接待与节能控制。",
+          "limits": "配件由第三方提供且另售；具体型号、价格、地区和 iCloud+ 条件必须按当地页面确认。"
+        },
+        "en": {
+          "what": "Home Collection is Apple's line of home cameras, locks, and thermostats.",
+          "change": "It brings natural-language video search, outage storage, UWB access, guest permissions, and temperature automation into Home.",
+          "use": "It fits front doors, doorbells, indoor monitoring, visitor handling, and energy control.",
+          "limits": "Accessories are sold separately by partners; models, price, region, and iCloud+ requirements are source-specific."
+        }
+      },
+      "visuals": [
+        {
+          "path": "assets/apple-home-collection-2026-10-13.png",
+          "width": 1600,
+          "height": 900,
+          "kind": "source-backed product-page screenshot",
+          "role": "source-backed product evidence",
+          "altZh": "Apple Home Collection 官方页面展示摄像头、门锁和家庭配件",
+          "altEn": "Apple Home Collection official page showing cameras, locks, and home accessories",
+          "captionZh": "Apple 官方家庭配件发布把摄像头摘要、离线录制、门锁访客权限与温控自动化放在同一个 Home 控制面。",
+          "captionEn": "Apple's home-accessory release combines camera summaries, offline recording, guest lock access, and thermostat automation in one Home control surface.",
+          "sourceUrl": "https://www.apple.com/ca/newsroom/2026/10/introducing-apple-home-collection-a-new-lineup-of-smart-home-accessories/",
+          "capturedAt": "2026-10-14T09:35:00-04:00"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Introducing Apple Home Collection",
+          "url": "https://www.apple.com/ca/newsroom/2026/10/introducing-apple-home-collection-a-new-lineup-of-smart-home-accessories/",
+          "type": "official",
+          "publishedAt": "2026-10-13",
+          "verifiedAt": "2026-10-14T09:35:00-04:00",
+          "isPrimary": true
+        },
+        {
+          "label": "Apple Home user guide",
+          "url": "https://support.apple.com/guide/homepod/welcome/homepod",
+          "type": "support docs",
+          "publishedAt": null,
+          "verifiedAt": "2026-10-14T09:35:00-04:00",
+          "isPrimary": false
+        },
+        {
+          "label": "Matter specification",
+          "url": "https://csa-iot.org/all-solutions/matter/",
+          "type": "industry standard",
+          "publishedAt": null,
+          "verifiedAt": "2026-10-14T09:35:00-04:00",
+          "isPrimary": false
+        }
+      ],
+      "dossier": {
+        "zh": {
+          "productName": "Apple Home Collection 是一组接入 Apple Home 的家庭配件，公开材料覆盖摄像头、门锁和温控器。它不是一台单独的 AI 设备，而是一套把看见、理解、授权和执行连接起来的软硬件系统：摄像头产生事件视频，Apple Intelligence 用自然语言描述与检索，门锁在本地完成核心访问动作，温控器根据家庭状态调整。",
+          "productType": "产品类型是 privacy-oriented smart-home accessory system。摄像头与门锁由合作伙伴提供，Home app、Apple Intelligence、iCloud+、iPhone/iPad/Mac/Apple TV/HomeView 共同组成控制面。HCI 重点在于把‘我看见谁’‘我是否相信这条摘要’‘我是否让他进来’拆成不同确认层，而不是用一个全能的 Siri 命令跳过风险。",
+          "interactionFlow": "典型流程是门铃响起，HomeView、HomePod 或 Apple 设备播报并显示访客；用户看实时画面或快速快照，和访客通话，再通过 Home app 或 Siri 解锁。摄像头在符合 iCloud+ 条件时保留 10 天事件历史，可用自然语言检索，并在 Wi-Fi 中断时依靠内置存储继续录制；LG Smart Deadbolt 通过 UWB 识别靠近的 iPhone/Apple Watch，也支持点按、PIN、备用钥匙和共享访客权限。官方没有展示误报、多人授权、断网期间的录像完整性或远程开锁确认链。",
+          "specsOrStack": "已披露的栈包括 Apple Intelligence 视频事件描述、iCloud+ 10 天事件历史、摄像头本地存储、Home app、iPhone/iPad/Mac/Apple TV/HomeView 观看、UWB、Apple Home Key、PIN、备用钥匙、Matter、Aliro、本地核心门锁功能、门铃/锁联动，以及 LG 和 Schneider Electric 温控器。摄像头像素、存储容量、网络加密细节、锁的型号与价格、iCloud+ 套餐、温控器 API 和具体 OS 版本 source not stated。",
+          "useCases": "用例包括自然语言检索‘昨晚谁把包裹放在门口’、断网时继续保留门口录像、家人靠近自动开锁、给遛狗人临时访客权限、在电视或 HomeView 上接听门铃、从远处确认门是否被撬动，以及根据在家/睡眠/离家状态自动调温。高风险用例是远程开锁与访客授权，必须把身份、对象、时间窗和可撤销性显示出来。",
+          "painPointsSolved": "系统针对家庭设备互不兼容、摄像头视频难以检索、网络中断导致监控空窗、访客授权复杂、离家后无法知道门状态以及温控需要手工排程的问题。Matter/Aliro 与本地门锁动作减少一部分云依赖；自然语言摘要减少逐段观看成本。但它没有消除云端账号、第三方配件、iCloud+ 费用、误报和家庭成员权限冲突。",
+          "userVoice": "当前证据主要是 Apple 官方发布、支持资料和 Matter 标准入口；没有足够的独立长测来判断 AI 视频描述准确率、断网录制恢复、UWB 误解锁、门锁耐久或家庭成员争议。社区可提供 review/community friction，但不能把一条‘很好用’或‘不信任摄像头’升级为普遍结论。",
+          "newTech": "组合上的新意在于把 AI 视频语义、本地存储、空间接近感知和家门权限放进同一条事件链。过去摄像头、锁和温控器往往各自有 app；现在用户可以从来访事件进入对话、识别、交流与执行。但越是连续，越需要在 UI 中区分事实画面、模型摘要、用户判断和实际开锁动作，避免一条错误摘要直接变成物理后果。",
+          "availability": "Apple 的发布面向加拿大等地区列出 Home Collection，配件由 LG Electronics、Schneider Electric 等合作方提供并单独销售；摄像头的 10 天历史依赖合资格 iCloud+ 计划，门锁支持 Matter 与 Aliro，具体上市型号和地区由合作方决定。价格、库存、安装、订阅、兼容 iPhone/Apple Watch、法规和本地可用性 source not stated。",
+          "limitsOrUnknowns": "未知包括断网时门锁的全部可用动作、录制存储满后的策略、摘要错误如何标记、自然语言搜索是否把私人访客暴露给家庭其他成员、UWB 与 PIN 的撤销、儿童/访客权限、远程开锁是否需要二次确认、合作方固件更新、Matter 互操作失败、家庭成员离婚/搬家时的账号清理，以及第三方云服务是否能看到原始素材。",
+          "productVerdict": "产品判断：Home Collection 的价值在于把家庭安全和自动化从一堆独立配件拉成事件驱动的控制系统；同时它也把错误摘要与错误授权的后果拉近了。适合低风险监控、访客沟通和节能调节，开锁等动作必须以可见对象、明确确认、短时授权和本地可用为前提。验收要模拟断网、误识别、多人在门口、门锁固件更新和 iCloud+ 过期，并核对用户是否还能手动接管。"
+        },
+        "en": {
+          "productName": "Apple Home Collection is a set of home accessories that join Apple Home, with public material covering cameras, locks, and thermostats. It is not one AI device but a hardware-software system connecting seeing, interpreting, authorising, and acting: cameras produce event video, Apple Intelligence describes and searches it, locks keep core access functions local, and thermostats respond to household state.",
+          "productType": "The product is a privacy-oriented smart-home accessory system. Partner cameras and locks sit behind a control surface made from Home, Apple Intelligence, iCloud+, and iPhone, iPad, Mac, Apple TV, and HomeView. The HCI requirement is to separate 'what did I see?', 'do I trust this summary?', and 'should I let this person in?' into distinct confirmations rather than using one all-purpose Siri command to skip risk.",
+          "interactionFlow": "A typical flow is: a doorbell rings, HomeView, HomePod, or an Apple device alerts the household; a user opens live video or a quick snapshot, speaks to the visitor, and unlocks from Home or Siri. With an eligible iCloud+ plan, cameras keep 10 days of event history, support natural-language search, and use built-in storage to keep recording during a Wi-Fi outage. The LG Smart Deadbolt can use UWB proximity from an iPhone or Apple Watch, plus tap, PIN, backup key, and guest access. The release does not show false alerts, multi-person approval, recording integrity during an outage, or a remote-unlock confirmation chain.",
+          "specsOrStack": "The disclosed stack includes Apple Intelligence video descriptions, 10 days of iCloud+ event history, built-in camera storage, Home viewing on iPhone/iPad/Mac/Apple TV/HomeView, UWB, Apple Home Key, PIN, backup key, guest sharing, Matter, Aliro, local core lock functions, doorbell/lock linkage, and LG and Schneider Electric thermostats. Camera resolution, storage capacity, encryption detail, lock model and price, iCloud+ tier, thermostat API, and exact OS versions are source not stated.",
+          "useCases": "Cases include searching for 'who left a package at the door last night,' retaining door footage during an outage, unlocking as a family member approaches, granting a dog walker temporary access, answering a doorbell on a TV or HomeView, detecting an opened or tampered lock, and adjusting temperature based on home, sleep, or away state. Remote unlocking and guest access are high-consequence cases and must show identity, object, time window, and revocation.",
+          "painPointsSolved": "The system targets incompatible home accessories, difficult video search, monitoring gaps during network outages, complicated guest access, uncertainty about door state when away, and manual thermostat schedules. Matter/Aliro and local lock actions reduce some cloud dependence; natural-language summaries reduce the cost of watching clips. They do not remove account dependencies, partner hardware, iCloud+ cost, false alerts, or household permission conflict.",
+          "userVoice": "The evidence is Apple's announcement, support material, and the Matter standards entry point; there is not enough independent long-run testing for video-description accuracy, outage recovery, UWB false unlocks, lock durability, or family disputes. Community reports can provide review/community friction, not a general conclusion from one 'works well' or 'I do not trust cameras' post.",
+          "newTech": "The product combination binds AI video semantics, local storage, proximity sensing, and front-door permission into one event chain. Cameras, locks, and thermostats have historically lived in separate apps; now a user can move from visitor event to dialogue, recognition, and action. The closer the chain gets, the more the UI must distinguish raw evidence, model summary, user judgement, and actual unlocking to stop a wrong summary becoming a physical consequence.",
+          "availability": "Apple's Canadian release presents Home Collection accessories from partners including LG Electronics and Schneider Electric, sold separately. Camera history depends on an eligible iCloud+ plan; the lock supports Matter and Aliro; exact models and markets are partner-specific. Price, inventory, installation, subscription, iPhone/Apple Watch compatibility, regulation, and local availability are source not stated.",
+          "limitsOrUnknowns": "Open questions include all lock actions available offline, full-storage behavior, how a wrong summary is marked, whether natural-language search exposes private visitors to other household members, revocation for UWB and PIN, child and guest permissions, second confirmation for remote unlock, partner firmware updates, Matter interoperation failure, account cleanup after a household change, and whether third-party clouds can see raw media.",
+          "productVerdict": "Verdict: Home Collection turns home security and automation from separate accessories into an event-driven control system, while bringing wrong summaries and wrong authorisations closer to physical consequences. It fits low-risk monitoring, visitor dialogue, and energy control; locks need visible objects, explicit confirmation, short-lived permissions, and local fallback. Test outages, misrecognition, multiple visitors, firmware updates, and iCloud+ expiry, and verify that a person can still take over manually. The acceptance record should also capture the exact user goal, the account or household identity, the connector or sensor state, the model or firmware version, the permissions shown before action, every intermediate status, the point at which a person was asked to confirm, the raw evidence behind the recommendation, the external side effect, and the recovery path. Teams should replay a successful run and a deliberately failed run with the same inputs, then compare what the user could see without opening a debug console. For a household or factory action, the log must show who could override it, how long that authority lasted, and whether the system stayed safe when the network, power, model, or sensor became unavailable. These are product requirements because they determine whether a person can understand, interrupt, and resume the work. A useful handoff record must remain readable to the person operating the product, not only to an engineering or safety team. It should expose the next safe action in plain language and make uncertainty actionable rather than decorative."
+        }
+      }
+    },
+    {
+      "dossierKind": "product",
+      "id": "industrial-next-ai-defined-factory-cells-2026-10-14",
+      "section": "wild",
+      "evidenceLabel": "startup signal",
+      "evidenceStrength": "Industrial Next's public site and dated event coverage describe AI-defined robotic work cells; production metrics and customer claims remain company-reported",
+      "zhHeadline": "Industrial Next：让机器人换任务从几周缩到几分钟",
+      "enHeadline": "Industrial Next wants factory robots to change tasks in minutes, not weeks",
+      "eventSourceUrl": "https://tech.yahoo.com/ai/meta-ai/articles/industrial-next-wants-factory-robots-230000092.html",
+      "event": {
+        "productKey": "industrial-next-ai-defined-factories",
+        "kind": "startup-product-signal",
+        "occurredAt": "2026-10-13",
+        "key": "ai-defined-robotic-work-cells-2026-10-13",
+        "summaryZh": "Industrial Next 展示以视觉、任务上下文和运动模型驱动的模块化机器人工作单元，主张通过仿真和示教快速切换产线任务。",
+        "summaryEn": "Industrial Next presents modular robotic work cells driven by vision, task context, and motion models, claiming rapid task changes through simulation and demonstration.",
+        "deltaZh": "10 月 13 日的产品页与 Disrupt 现场报道把它从一般机器人愿景推进到 self-contained work cell、few-shot 示教、生产线部署和分钟级 retooling 的具体系统；准确率、节拍和 24/7 运行仍是厂商或二手报道中的数字。",
+        "deltaEn": "The October 13 product surface and Disrupt coverage move it from a general robotics vision to a self-contained work cell with few-shot teaching, production deployment, and minute-scale retooling; accuracy, cycle time, and 24/7 operation remain company or secondary-report figures."
+      },
+      "brief": {
+        "zh": {
+          "what": "Industrial Next 是面向制造业的 AI-defined robotic work cell 创业产品。",
+          "change": "它把视觉、任务上下文、机器人运动、仿真和示教组合成可重配置产线单元。",
+          "use": "适合产品变体多、传统脚本重编程慢的电子、汽车和合同制造环节。",
+          "limits": "目前是 startup signal；客户合同、独立基准、安全认证、价格和可购买配置 source not stated。"
+        },
+        "en": {
+          "what": "Industrial Next is a startup product for AI-defined robotic work cells in manufacturing.",
+          "change": "It combines vision, task context, robot motion, simulation, and demonstration in a reconfigurable production cell.",
+          "use": "It fits electronics, automotive, and contract-manufacturing steps with product variation and slow script-based reprogramming.",
+          "limits": "It remains a startup signal; customer contracts, independent benchmarks, safety certification, price, and purchasable configuration are source not stated."
+        }
+      },
+      "visuals": [
+        {
+          "path": "assets/industrial-next-robotic-cells-2026-10-14.png",
+          "width": 1600,
+          "height": 900,
+          "kind": "source-backed startup product-page screenshot",
+          "role": "source-backed product evidence",
+          "altZh": "Industrial Next 官方页面展示 AI-defined factory 机器人工作单元和视觉-任务-运动模型",
+          "altEn": "Industrial Next official page showing AI-defined robotic work cells and vision-task-motion models",
+          "captionZh": "Industrial Next 官方页将 work cell、foundation models、仿真示教和 retooling 速度放在一起；页面数字按 startup signal 处理。",
+          "captionEn": "Industrial Next's site combines work cells, foundation models, simulation-and-demonstration teaching, and retooling speed; its metrics remain a startup signal.",
+          "sourceUrl": "https://industrialnext.ai/",
+          "capturedAt": "2026-10-14T09:40:00-04:00"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Industrial Next AI-Defined Factories",
+          "url": "https://industrialnext.ai/",
+          "type": "startup signal",
+          "publishedAt": null,
+          "verifiedAt": "2026-10-14T09:40:00-04:00",
+          "isPrimary": true
+        },
+        {
+          "label": "Industrial Next task switching report",
+          "url": "https://tech.yahoo.com/ai/meta-ai/articles/industrial-next-wants-factory-robots-230000092.html",
+          "type": "review",
+          "publishedAt": "2026-10-13",
+          "verifiedAt": "2026-10-14T09:40:00-04:00",
+          "isPrimary": false
+        },
+        {
+          "label": "TechCrunch October 13 coverage",
+          "url": "https://techcrunch.com/2026/10/13/",
+          "type": "review",
+          "publishedAt": "2026-10-13",
+          "verifiedAt": "2026-10-14T09:40:00-04:00",
+          "isPrimary": false
+        },
+        {
+          "label": "Industrial Next company profile",
+          "url": "https://www.ycombinator.com/companies/industrial-next",
+          "type": "startup signal",
+          "publishedAt": null,
+          "verifiedAt": "2026-10-14T09:40:00-04:00",
+          "isPrimary": false
+        }
+      ],
+      "dossier": {
+        "zh": {
+          "productName": "Industrial Next 是一家面向制造业的机器人创业公司，公开产品叙事是 AI-defined factory：用 foundation models 把视觉、任务上下文和机器人运动连接起来，形成可以重新配置的 self-contained work cell。它在 TechCrunch Disrupt 2026 期间被报道为尝试把复杂产线换任务从几周压缩到几分钟。确认的是产品页面、工作单元概念和公开部署叙事；客户规模、交付合同和现场安全仍未独立验证。",
+          "productType": "产品类型是工业机器人工作单元与训练/部署平台，不是消费级人形机器人。它把机械臂、视觉、任务模型、仿真、示教和产线接口封装在一个 station 里，目标是处理产品变体而不为每一个 SKU 重写 brittle scripts。HCI 的使用者不仅是操作员，也包括应用工程师、产线主管和安全负责人；他们需要看到当前任务、模型版本、置信度、异常和暂停原因。",
+          "interactionFlow": "官方页面描述的新任务流程是通过 simulation and demonstration 教机器人新技能，随后让 work cell 在真实生产线上识别产品、理解任务上下文并执行运动。应用工程师先定义目标或示教，系统在仿真中生成策略，再把它部署到模块化 station；操作员需要启动、观察、暂停、清除异常和切换任务。公开材料没有展示精确的示教界面、人工批准点、碰撞保护、换夹具、失败恢复或产线 PLC/工单集成。",
+          "specsOrStack": "Industrial Next 披露 foundation models、vision、task context、robot motion、modular work cells、simulation and demonstration teaching，以及与大型电子代工商和 automotive Tier 1 的 deployed/piloted 叙事。官网自述 99.9%+ match accuracy、<3.3s cycle time、24/7 运行和数小时学会新任务；这些是公司页面数字，需标为 startup signal。机器人型号、相机/力传感器、控制器、网络协议、模型版本、功耗、安全等级、API、生产节拍定义和价格 source not stated。",
+          "useCases": "具体用例包括电子产品线上的多变体拣取、装配或检查、汽车 Tier 1 的重复但需要视觉判断的工位、合同制造的快速换线、在仿真中预演新任务再落地，以及将多个模块化 station 组合到主生产线。它解决的是脚本重编程、SKU 变化与停线时间之间的矛盾；不代表任何柔性任务都可由同一夹具或同一模型完成。",
+          "painPointsSolved": "传统工业自动化常把每个任务写成坐标、顺序和例外规则，产品一变就需要工程师重新调试，导致小批量或高变体生产不划算。Industrial Next 试图把目标、视觉和运动从固定脚本改成可迁移的技能。它没有自动解决抓取失败、物料差异、传感器漂移、网络中断、工人安全、质量追溯和模型更新后的认证。",
+          "userVoice": "独立报道提供了 Disrupt 现场和创业公司说法，但没有公开连续班次数据、第三方精度、真实停机记录、工人反馈或安全事故统计。页面上的 99.9%+ 和 3.3 秒属于 vendor-reported metric，不能和实验室基准或客户验收混用。后续最有价值的 review/community friction 是异常恢复、维护负担和工人是否能理解模型为什么停下。",
+          "newTech": "技术组合的新意是把视觉、任务语义和运动规划放在同一 foundation-model 叙事里，再用仿真和少量示教减少每次换线的人工脚本。对 HCI 来说，真正的新界面不是‘让机器人更聪明’，而是让应用工程师能描述任务、看到仿真差异、批准部署、在生产中暂停并回退到上一技能版本。若没有这些状态，分钟级 retooling 可能只是把调试成本藏在模型训练后台。",
+          "availability": "Industrial Next 官网提供 demo/consultation 入口，并声称产品已在大型电子代工商的生产线运行或试点，另有 automotive Tier 1 叙事。公开页面没有可购买 SKU、价格、交付周期、部署地区、客户名称、SLA、安全认证或软件许可条款；因此本期标为 startup signal，不写成现货产品。",
+          "limitsOrUnknowns": "未知包括客户产线数量、任务类型、连续运行时长、换任务实际分钟数、首件通过率定义、误抓/漏检分布、仿真与真实差异、夹具换型、网络和电源恢复、人工与机器人共线的安全验证、日志/追溯、模型回滚、供应链和维护成本。‘比人快’‘99.9%+’必须拿同一产品、同一工位、同一时间窗的数据复核。",
+          "productVerdict": "产品判断：Industrial Next 把机器人从固定工位自动化推向‘可以被重新教会的产线单元’，这是一个值得跟踪的制造 HCI 方向，但今天还不能替代现场验收。适合高变体、可隔离、可测量的工位试点；不应在没有安全认证、异常接管、可回滚技能和质量追溯前直接扩展。下一步要看真实产线录像、连续班次数据、停机恢复和操作员接管，而不是再看一张宣传页。"
+        },
+        "en": {
+          "productName": "Industrial Next is a robotics startup for manufacturing whose public product story is an AI-defined factory: foundation models connect vision, task context, and robot motion in a reconfigurable self-contained work cell. During TechCrunch Disrupt 2026 it was reported as an attempt to reduce complex production task changes from weeks to minutes. The confirmed evidence is the product page, work-cell concept, and deployment narrative; customer scale, contracts, and safety remain independently unverified.",
+          "productType": "The product is an industrial robotic work cell and training/deployment platform, not a consumer humanoid. It packages robot hardware, vision, task models, simulation, demonstration, and line interfaces so the cell can handle product variation without rewriting brittle scripts for every SKU. The users are application engineers, line supervisors, operators, and safety leads. They need to see the current task, model version, confidence, anomaly, and pause reason.",
+          "interactionFlow": "The public description is that a new skill is taught through simulation and demonstration, then the work cell identifies a product, understands task context, and executes motion on a live line. An applications engineer defines or demonstrates a goal, the system produces a strategy in simulation, and the strategy moves to a modular station. An operator starts, observes, pauses, clears exceptions, and switches tasks. The material does not show the exact teaching UI, approval point, collision protection, gripper changes, recovery, or PLC/work-order integration.",
+          "specsOrStack": "Industrial Next discloses foundation models, vision, task context, robot motion, modular work cells, and simulation-and-demonstration teaching, plus a deployment or pilot narrative with a major electronics contract manufacturer and an automotive Tier 1. Its site claims 99.9%+ match accuracy, a cycle time under 3.3 seconds, 24/7 running, and new skills in hours; these are company metrics and stay a startup signal. Robot model, camera and force sensors, controller, protocols, model version, power, safety level, API, cycle definition, and price are source not stated.",
+          "useCases": "Cases include multi-variant picking, assembly, or inspection in electronics, visually judged stations for an automotive Tier 1, rapid changeover in contract manufacturing, simulation before deployment, and combining modular stations on a main line. It targets the conflict between script-heavy reprogramming, SKU variation, and downtime. It does not mean one gripper or one model can perform every flexible task.",
+          "painPointsSolved": "Traditional automation often encodes each task as coordinates, sequences, and exception rules. A product change then requires engineering rework, making small-batch or high-variation production expensive. Industrial Next tries to make the goal, visual interpretation, and motion a transferable skill instead of a fixed script. It does not automatically solve failed grasps, material variation, sensor drift, network loss, worker safety, quality traceability, or certification after model updates.",
+          "userVoice": "Independent coverage provides a Disrupt setting and company claims but no continuous-shift data, third-party accuracy, real downtime log, worker feedback, or safety incident statistics. The 99.9%+ and 3.3-second figures are vendor-reported metrics and cannot be mixed with a lab benchmark or customer acceptance test. The most useful next friction signal is exception recovery, maintenance burden, and whether workers understand why the model paused.",
+          "newTech": "The combination is a foundation-model story that joins vision, task semantics, and motion planning, using simulation and few-shot demonstration to reduce line-specific scripting. The real HCI surface is not simply a smarter robot; it is a way for an applications engineer to describe a task, inspect simulation differences, approve deployment, pause production, and roll back to a previous skill. Without these states, minute-scale retooling may only hide debugging cost in a training backend.",
+          "availability": "Industrial Next offers a demo and consultation entry point and says the product is deployed or piloted on a major electronics contract manufacturer's line, with an automotive Tier 1 narrative. There is no public purchasable SKU, price, delivery schedule, region, named customer, SLA, safety certification, or licence. This issue therefore labels it a startup signal, not an in-stock product.",
+          "limitsOrUnknowns": "Open questions include number of customer lines, task classes, continuous runtime, actual changeover minutes, first-pass definition, miss and false-grasp distribution, sim-to-real gap, gripper change, outage recovery, collaborative safety validation, logs and traceability, skill rollback, supply chain, and maintenance cost. 'Faster than a human' and '99.9%+' need the same product, station, and time window before they can be compared.",
+          "productVerdict": "Verdict: Industrial Next moves robotics from fixed automation toward a production cell that can be taught again, an important manufacturing-HCI direction that is not yet a substitute for site acceptance. It fits isolated, measurable, high-variation pilots. It should not scale without safety certification, exception takeover, rollbackable skills, and quality traceability. The next evidence is real line video, continuous-shift data, stop recovery, and operator takeover—not another marketing page. The acceptance record should also capture the exact user goal, the account or household identity, the connector or sensor state, the model or firmware version, the permissions shown before action, every intermediate status, the point at which a person was asked to confirm, the raw evidence behind the recommendation, the external side effect, and the recovery path. Teams should replay a successful run and a deliberately failed run with the same inputs, then compare what the user could see without opening a debug console. For a household or factory action, the log must show who could override it, how long that authority lasted, and whether the system stayed safe when the network, power, model, or sensor became unavailable. These are product requirements because they determine whether a person can understand, interrupt, and resume the work. A useful handoff record must remain readable to the person operating the product, not only to an engineering or safety team. It should expose the next safe action in plain language and make uncertainty actionable rather than decorative."
+        }
+      }
+    }
+  ]
+}

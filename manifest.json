@@ -1,5 +1,62 @@
 [
   {
+    "date": "2026-10-14",
+    "zhTitle": "AI Daily · Agent 进入客厅、应用商店与产线",
+    "enTitle": "AI Daily · Agents move into the living room, app store, and factory",
+    "zhSummary": "过去 24 小时最具体的变化，是 Agent 不再只停留在聊天框：Gemini 4 Argon 把长任务、任务模式和编码入口接到同一产品面；Google Play 让个人应用在不注册开发者账号的情况下留在自己的设备上；Apple HomeView 与 Home Collection 把面部识别、家庭控制、摄像头摘要和本地门锁动作带进家；Industrial Next 则把视觉、任务上下文和机器人运动绑定到可换产线的工作单元。共同的验收点是权限、状态和失败后的人工接管是否可见。",
+    "enSummary": "The clearest change in the last 24 hours is that agents are leaving the chat box: Gemini 4 Argon puts long-horizon work, a task mode, and coding entry points into one product surface; Google Play lets personal apps stay on a user's device without a developer account; Apple HomeView and Home Collection bring face-aware personalization, home control, camera summaries, and local access actions into the house; Industrial Next binds vision, task context, and robot motion to reconfigurable work cells. The common acceptance test is whether permission, state, and human takeover after failure remain visible.",
+    "tags": [
+      "agentic interfaces",
+      "home AI",
+      "developer surfaces",
+      "robotics",
+      "on-device privacy"
+    ],
+    "sourceTypes": [
+      "official",
+      "developer surface",
+      "developer docs",
+      "support docs",
+      "industry standard",
+      "startup signal",
+      "review"
+    ],
+    "coverStory": {
+      "topicId": "gemini-4-argon-tasks-api-2026-10-13",
+      "zhTitle": "Gemini 4 Argon：长任务终于有了产品入口",
+      "enTitle": "Gemini 4 Argon gives long-horizon work a product surface",
+      "zhSummary": [
+        "Gemini 4 Argon 是 Google 面向复杂软件工程、企业知识工作、科研和网络安全任务的模型与产品入口组合。",
+        "今天新增 Gemini app、任务模式、Antigravity 编码入口以及全球开发者 API 可用性。"
+      ],
+      "enSummary": [
+        "Gemini 4 Argon is Google's model and product-surface combination for complex software engineering, enterprise knowledge work, science, and cybersecurity tasks.",
+        "The dated release adds Gemini app access, a task mode, an Antigravity coding entry point, and global developer API availability."
+      ],
+      "imagePath": "assets/gemini-4-argon-2026-10-13.png",
+      "imageSourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/",
+      "primarySourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability",
+      "evidenceStrength": "Google's dated product and developer announcements document Argon availability in the Gemini app, Gemini API, AI Studio, Android Studio, and Antigravity; safety claims remain vendor-reported"
+    },
+    "watchlistZh": [
+      "Gemini 4 Argon 的任务模式、长上下文 continuation protocol、API 计费与提示注入防护的真实失败记录",
+      "Google Play 私人应用的权限、卸载/备份、家庭分享和从个人应用升级到公开应用的审查链",
+      "HomeView 的面部识别误判、个人上下文隔离、屏幕距离自适应与本地/云端边界",
+      "Home Collection 摄像头离线存储、门锁断网动作、访客权限与家庭成员接管",
+      "Industrial Next 的客户产线、仿真到真实迁移、持续负载、停机恢复与安全认证"
+    ],
+    "watchlistEn": [
+      "Gemini 4 Argon task mode, the long-context continuation protocol, API billing, and real prompt-injection failure records",
+      "Google Play personal-app permissions, uninstall and backup behavior, family sharing, and the review path to a public app",
+      "HomeView recognition errors, personal-context isolation, distance-adaptive UI, and the local-versus-cloud boundary",
+      "Home Collection camera storage during outages, offline lock behavior, guest permissions, and household takeover",
+      "Industrial Next customer lines, sim-to-real transfer, sustained load, recovery after stops, and safety certification"
+    ],
+    "zhPath": "./2026-10-14/zh/",
+    "enPath": "./2026-10-14/en/",
+    "sourcesPath": "./2026-10-14/sources.md"
+  },
+  {
     "date": "2026-10-12",
     "zhTitle": "AI Daily · Agent 开始拥有自己的工作台",
     "enTitle": "AI Daily · Agents get a working surface",
