@@ -10,15 +10,19 @@ AI_DAILY_PRIVATE_ROOT outside this public repository. Only reviewed citations, e
 assets and edition metadata may be published. Do not deploy the repository's private
 working data by accident. No secrets are required by the renderer; never migrate keys.
 
-Read private rules/daily-method.md, weekly-method.md and collection-handbook.md before
-research. The Library migration snapshots are the current editorial authority. The
+Refresh the designated Notion rule page through the authorized native connector and
+read private rules/notion-rulebook.md before research. Bind reviewed inputs and release
+receipts to its verified snapshot hash. User instructions override stale operational
+status in that document. The separate Library migration bundle remains unmaterialized
+while its supported download is blocked; never reconstruct it through another route. The
 older concise policy remains for historic editions; new cloud daily publication must
 pass the dense editorial gate. Insufficient verified material is a blocked run, never
 padding, copied old text or invented evidence. Weekly has its own evidence contract.
 
 Keep new publisher software on an independent branch and a draft PR until the owner
-merges it. No automatic merge or new schedule. Local AI Product Morning Brief stays
-active until the coordinating thread completes the verified cutover.
+merges it. No automatic merge or recurring schedule. The old local recurring task was
+deleted; there is no active local fallback. For the October 15 one-time backfill, wait
+for the coordinator's confirmation that the local writer stopped before cloud release.
 
 Use explicit dates. Dry runs must output outside this checkout. For verification use
 AI_DAILY_CHROMIUM_PATH=/usr/bin/chromium and npm run test:all. Browser failures cannot

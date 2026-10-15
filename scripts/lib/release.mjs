@@ -155,9 +155,10 @@ async function restoreJournal(journal,folder,repo) {
   }
 }
 export async function prepareRelease({receiptFile,inputFile,repo=REPO,copyFile=fs.copyFile}) {
-  const root=privateRoot();await preflight(root);
+  const root=privateRoot();const rules=await preflight(root,{requireCurrentNotion:true});
   repo=await fs.realpath(repo);
   const receiptBytes=await fs.readFile(receiptFile),receipt=JSON.parse(receiptBytes);
+  if(receipt.ruleSource?.snapshotSha256!==rules.ruleSnapshotSha256)throw new Error('Release rules differ from the current Notion snapshot; rebuild and repeat editorial review');
   const id=sha(Buffer.concat([receiptBytes,Buffer.from(repo)])),folder=path.join(root,'releases',id),journalFile=path.join(folder,'transaction.json');
   const lock=await releaseLock(root);
   try {

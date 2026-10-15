@@ -8,12 +8,13 @@ import {repositoryBaseline,digestTree,digestRelease,releasePlan,prepareRelease} 
 import {privateRoot,REPO,sha} from '../scripts/lib/cloud-state.mjs';
 import {spawn,execFile} from 'node:child_process';
 import {promisify} from 'node:util';
-import {batch,weekly} from './fixtures/cloud-publisher.mjs';
+import {batch,weekly,installRuleFixture} from './fixtures/cloud-publisher.mjs';
 import {ingest} from '../scripts/lib/cloud-state.mjs';
 import {buildWeekly} from '../scripts/lib/weekly.mjs';
 import {hostname} from 'node:os';
 
 async function dailyDraft(root) {
+  const ruleSource=await installRuleFixture(path.join(root,'private'));
   const output=path.join(root,'draft'),repo=path.join(root,'site'),key='2026-10-19';
   const input={date:key,topics:[{visuals:[{path:'assets/photo.png'}]}]},bytes=JSON.stringify(input);
   await fs.mkdir(repo);
@@ -24,17 +25,12 @@ async function dailyDraft(root) {
   for(const rel of names){await fs.mkdir(path.dirname(path.join(output,rel)),{recursive:true});await fs.writeFile(path.join(output,rel),rel.startsWith('data/editions/')?bytes:rel===key+'/manifest.json'?JSON.stringify({date:key}):'TEST PUBLIC FILE '+rel);}
   await fs.writeFile(path.join(output,key,'assets/raw-notes.txt'),'PRIVATE UNREFERENCED NOTES');
   const inputFile=path.join(root,'input.json');await fs.writeFile(inputFile,bytes);
-  const receipt={kind:'daily',key,status:'validated-draft',output,result:{target:path.join(output,key)},inputSha256:(await import('../scripts/lib/cloud-state.mjs')).sha(bytes),
+  const receipt={kind:'daily',key,status:'validated-draft',ruleSource,output,result:{target:path.join(output,key)},inputSha256:(await import('../scripts/lib/cloud-state.mjs')).sha(bytes),
     artifactSha256:await digestTree(path.join(output,key)),releaseSha256:await digestRelease('daily',key,output),repositoryBaseline:await repositoryBaseline(repo)};
   return {receipt,inputFile,repo,output};
 }
 async function fakePrivateRules(root) {
-  const folder=path.join(root,'private/rules');await fs.mkdir(folder,{recursive:true});
-  const bytes=Buffer.from('Synthetic test rules only.'),files=[];
-  for(const file_name of ['daily-method.md','weekly-method.md','collection-handbook.md','execution-prompt.md','HANDOFF.md']) {
-    await fs.writeFile(path.join(folder,file_name),bytes);files.push({file_name,bytes:bytes.length,sha256:sha(bytes)});
-  }
-  await fs.writeFile(path.join(folder,'manifest.json'),JSON.stringify({files}));return path.dirname(folder);
+  return path.join(root,'private');
 }
 async function deadReleaseOwner(root) {
   const child=spawn(process.execPath,['-e',''],{stdio:'ignore'}),pid=child.pid;

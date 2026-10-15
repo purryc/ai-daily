@@ -2,6 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
 import {realpathSync} from 'node:fs';
+import {readNotionRules} from './notion-rules.mjs';
 
 export const LANES = ['official','reviews','community','wild','research','patent','china','global'];
 export const DIMENSIONS = ['attention','friction','feasibility','payment_intent'];
@@ -98,8 +99,14 @@ export async function loadSignals(root, ids) {
     return JSON.parse(await fs.readFile(path.join(root,'signals','observations',id+'.json'),'utf8'));
   }));
 }
-export async function preflight(root) {
+export async function preflight(root,{requireCurrentNotion=false}={}) {
   root=privateRoot(root);
+  try {
+    const source=await readNotionRules(root);
+    return {privateRoot:root,timezone:'America/Toronto',source,ruleSnapshotSha256:source.snapshotSha256};
+  }catch(error) {
+    if(error.code!=='ENOENT'||requireCurrentNotion)throw error;
+  }
   const files={};
   const manifest=JSON.parse(await fs.readFile(path.join(root,'rules','manifest.json'),'utf8'));
   for(const record of manifest.files) {
@@ -108,5 +115,5 @@ export async function preflight(root) {
     files[record.file_name]={bytes:bytes.length,sha256:sha(bytes)};
   }
   for(const name of ['daily-method.md','weekly-method.md','collection-handbook.md','execution-prompt.md','HANDOFF.md'])if(!files[name])throw new Error('Missing required method '+name);
-  return {privateRoot:root,timezone:'America/Toronto',files};
+  return {privateRoot:root,timezone:'America/Toronto',source:{kind:'legacy-library-reference'},files};
 }

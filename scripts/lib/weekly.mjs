@@ -7,6 +7,7 @@ import {timestamp,validateEvidenceTime} from './evidence-time.mjs';
 const esc=v=>String(v??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 const textPair=(o,label)=>{if(!o?.zh?.trim()||!o?.en?.trim())throw new Error('Missing bilingual '+label);};
 const url=u=>{if(!/^https?:\/\//.test(u))throw new Error('Unsafe source URL');return esc(u);};
+const ANALYSIS_FIELDS=['thisWeek','baseline','counterevidence','alternativeExplanation','confidenceReason','hciImpact','experiment','falsifiableWatch'];
 function temporalNote(source,lang) {
   const notes=[];
   if(source.snapshotStatus==='current-page-not-historical')notes.push(lang==='zh'?'截止后回读当前页面；不是历史快照。':'Current page reread after cutoff; not a historical snapshot.');
@@ -81,7 +82,9 @@ export async function validateWeekly(input, privateDir) {
   for(const t of input.trends) {
     if(!t.id||!states.includes(t.state)||!['trend','emerging'].includes(t.classification)||!['low','moderate','high'].includes(t.confidence))throw new Error('Invalid trend identity/state/classification/confidence');
     textPair(t.title,'trend title');validatePages(t.pages,'trend');
-    for(const key of ['thisWeek','baseline','counterevidence','alternativeExplanation','confidenceReason','hciImpact','experiment','falsifiableWatch'])textPair(t[key],key);
+    for(const key of ANALYSIS_FIELDS)textPair(t[key],key);
+    const placed=t.pages.flatMap(p=>p.analysisFields??[]);
+    if(placed.length!==ANALYSIS_FIELDS.length||new Set(placed).size!==placed.length||ANALYSIS_FIELDS.some(k=>!placed.includes(k)))throw new Error('Place each trend analysis field once in the explicitly edited pages');
     for(const d of DIMENSIONS) {
       const cell=t.matrix?.[d];
       if(!cell||!['support','contradiction','unknown'].includes(cell.status)||!Array.isArray(cell.signalIds))throw new Error('Incomplete four-dimension evidence matrix');
@@ -111,19 +114,16 @@ function makeSlides(input, lang) {
   add('cover',input.title[lang],'<p class="lead">'+esc(input.summary[lang])+'</p>'+p(input.coverageLimitations));
   add('contents',lang==='zh'?'本周亮点与趋势调查':'Highlights and trend investigations','<div class="toc-grid">'+[...input.highlights,...input.trends].map(i=>'<a class="toc-item" href="#'+esc(i.id)+'-1">'+esc(i.title[lang])+'</a>').join('')+'</div>');
   for(const [kind,items] of [['Highlights',input.highlights],['Trend investigation',input.trends]])for(const item of items) {
-    item.pages.forEach((page,i)=>add(item.id+'-'+(i+1),page.title[lang],page.paragraphs.map(p).join('')+(page.visuals??[]).map(v=>'<figure><img src="../'+esc(v.path)+'" alt="'+esc(v.alt[lang])+'"><figcaption>'+esc(v.caption[lang])+' · <a href="'+url(v.sourceUrl)+'">'+esc(v.kind)+'</a></figcaption></figure>').join(''),page.sourceIds,kind));
+    item.pages.forEach((page,i)=>add(item.id+'-'+(i+1),page.title[lang],page.paragraphs.map(p).join('')+(page.analysisFields??[]).map(key=>'<div class="analysis-unit"><strong>'+esc(key)+'</strong>'+p(item[key])+'</div>').join('')+(page.visuals??[]).map(v=>'<figure><img src="../'+esc(v.path)+'" alt="'+esc(v.alt[lang])+'"><figcaption>'+esc(v.caption[lang])+' · <a href="'+url(v.sourceUrl)+'">'+esc(v.kind)+'</a></figcaption></figure>').join(''),page.sourceIds,kind));
     if(kind==='Trend investigation') {
       add(item.id+'-matrix',item.title[lang],'<div class="matrix">'+DIMENSIONS.map(d=>'<div class="cell"><strong>'+esc(d)+'</strong><span>'+esc(item.matrix[d].status)+' · '+esc(item.matrix[d].signalIds.join(', '))+'</span><span>'+esc(item.matrix[d].note[lang])+'</span></div>').join('')+'</div>','',item.classification+' · '+item.state);
-      const fields=[['This week','thisWeek'],['Baseline','baseline'],['Counterevidence','counterevidence'],['Alternative explanation','alternativeExplanation'],['Confidence','confidenceReason'],['HCI impact','hciImpact'],['Experiment','experiment'],['Next falsifiable watch','falsifiableWatch']];
-      for(let i=0;i<fields.length;i+=2)add(item.id+'-analysis-'+i,item.title[lang],fields.slice(i,i+2).map(([label,key])=>'<h3>'+esc(label)+'</h3>'+p(item[key])).join(''),[],item.classification+' · '+item.state);
     }
   }
   for(let i=0;i<8;i+=4)add('radar-'+i,lang==='zh'?'八线扫描与覆盖缺口':'Source radar and coverage gaps',input.laneScans.slice(i,i+4).map(s=>'<h3>'+esc(s.lane)+' · '+esc(s.status)+'</h3>'+p(s.note)).join(''));
   add('watchlist',lang==='zh'?'下周可证伪观察':'Next week’s falsifiable watch',p(input.watchlist)+p(input.coverageLimitations));
-  const sourceBatch=input.sources.some(s=>s.temporalNote)?6:12;
-  for(let i=0;i<input.sources.length;i+=sourceBatch)add('sources-'+i,lang==='zh'?'来源索引':'Source index','<div class="source-list">'+input.sources.slice(i,i+sourceBatch).map(s=>'<p><a href="'+url(s.url)+'">'+esc(s.id)+' · '+esc(s.label)+'</a> · '+esc(s.publishedAt??'date not stated')+(temporalNote(s,lang)?'<br>'+esc(temporalNote(s,lang)):'')+'</p>').join('')+'</div>');
+  add('references',lang==='zh'?'参考来源':'References','<div class="source-list compact-references">'+input.sources.map((s,i)=>'<p><a href="'+url(s.url)+'">['+(i+1)+'] '+esc(s.label)+'</a> · '+esc(s.publishedAt??'date not stated')+(temporalNote(s,lang)?'<br>'+esc(temporalNote(s,lang)):'')+'</p>').join('')+'</div>');
   if(slides.length>50)throw new Error('Weekly exceeds 50 pages; edit explicit pages');
-  return slides.map((s,i)=>'<section class="slide'+(i===0?' active':'')+'" id="'+esc(s.id)+'"><p class="eyebrow">'+esc(s.kicker)+'</p><h2>'+esc(s.title)+'</h2><div class="content">'+s.body+'</div><footer class="footer"><div class="source-links">'+(Array.isArray(s.sourceIds)?s.sourceIds:[]).map(id=>'<a href="'+url(sources.get(id).url)+'">'+esc(id)+'</a>').join(' · ')+'</div><span class="page-number">'+(i+1)+' / '+slides.length+'</span></footer></section>').join('');
+  return slides.map((s,i)=>'<section class="slide'+(i===0?' active':'')+'" id="'+esc(s.id)+'"><p class="eyebrow">'+esc(s.kicker)+'</p><h2>'+esc(s.title)+'</h2><div class="content">'+s.body+'</div><footer class="footer"><div class="source-links">'+(Array.isArray(s.sourceIds)?s.sourceIds:[]).map(id=>'<a href="#references" title="'+esc(sources.get(id).label)+'">['+(input.sources.findIndex(r=>r.id===id)+1)+']</a>').join(' · ')+'</div><span class="page-number">'+(i+1)+' / '+slides.length+'</span></footer></section>').join('');
 }
 export async function buildWeekly({input,privateDir,output,assetsDir}) {
   const counts=await validateWeekly(input,privateDir);
@@ -133,8 +133,9 @@ export async function buildWeekly({input,privateDir,output,assetsDir}) {
   const target=path.join(output,'weekly',input.weekStart);
   await fs.mkdir(path.join(target,'assets'),{recursive:true});
   const css=await fs.readFile(path.join(REPO,'weekly/assets/pilot.css'),'utf8');
+  const compactCss='\n.analysis-unit{margin:.7cqw 0}.analysis-unit>strong{font-size:1.05cqw;color:#6f6a66}.compact-references{display:grid;grid-template-columns:1fr 1fr;gap:.35cqw 1.5cqw;align-content:start}.compact-references p{font-size:1cqw;line-height:1.35;margin:0}.compact-references a{font-weight:400}@media(max-width:700px){.analysis-unit>strong{font-size:13px}.compact-references{grid-template-columns:1fr;gap:8px}.compact-references p{font-size:14px}}';
   const js=await fs.readFile(path.join(REPO,'weekly/assets/pilot.js'),'utf8');
-  await fs.writeFile(path.join(target,'assets/weekly.css'),css+'\n.slide figure{display:flex;gap:1cqw;align-items:center;margin:1cqw 0}.slide figure img{max-width:45%;max-height:15cqw;object-fit:contain;background:white}.slide figcaption{font-size:1cqw;line-height:1.5}@media(max-width:700px){.slide figure{display:block}.slide figure img{max-width:100%;max-height:280px}.slide figcaption{font-size:12px}}');
+  await fs.writeFile(path.join(target,'assets/weekly.css'),css+compactCss+'\n.slide figure{display:flex;gap:1cqw;align-items:center;margin:1cqw 0}.slide figure img{max-width:45%;max-height:15cqw;object-fit:contain;background:white}.slide figcaption{font-size:1cqw;line-height:1.5}@media(max-width:700px){.slide figure{display:block}.slide figure img{max-width:100%;max-height:280px}.slide figcaption{font-size:12px}}');
   await fs.writeFile(path.join(target,'assets/weekly.js'),js);
   await copyPublicAssets({assetsDir,target,paths:weeklyAssetPaths(input)});
   for(const lang of ['zh','en']) {

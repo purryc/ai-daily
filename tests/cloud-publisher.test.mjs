@@ -10,7 +10,7 @@ import {validateWeekly,weekWindow,buildWeekly} from '../scripts/lib/weekly.mjs';
 import {checkWeekly} from '../scripts/lib/weekly-qa.mjs';
 import {digestTree,digestRelease,releasePlan,repositoryBaseline} from '../scripts/lib/release.mjs';
 
-import {pair,batch,weekly} from './fixtures/cloud-publisher.mjs';
+import {pair,batch,weekly,installRuleFixture} from './fixtures/cloud-publisher.mjs';
 
 test('Toronto full-week planning handles DST, first run, catch-up, and pilot isolation',async()=>{
  const root=await fs.mkdtemp(path.join(os.tmpdir(),'ai-cloud-plan-'));
@@ -81,14 +81,11 @@ test('weekly evidence requires shared originals and downgrades unsupported trend
 test('failed weekly records its own outcome and releases its lock without touching daily state',async()=>{
  const root=await fs.mkdtemp(path.join(os.tmpdir(),'ai-cloud-run-state-')),prior=process.env.AI_DAILY_PRIVATE_ROOT;
  try{
-  process.env.AI_DAILY_PRIVATE_ROOT=root;await fs.mkdir(path.join(root,'rules'));await fs.mkdir(path.join(root,'runs'));
-  const bytes=Buffer.from('Isolated test rule, not the migration package.');
-  const names=['daily-method.md','weekly-method.md','collection-handbook.md','execution-prompt.md','HANDOFF.md'];
-  for(const name of names)await fs.writeFile(path.join(root,'rules',name),bytes);
-  await fs.writeFile(path.join(root,'rules/manifest.json'),JSON.stringify({files:names.map(file_name=>({file_name,bytes:bytes.length,sha256:sha(bytes)}))}));
+  process.env.AI_DAILY_PRIVATE_ROOT=root;await fs.mkdir(path.join(root,'runs'));
+  const rules=await installRuleFixture(root);
   const daily='{"kind":"daily","status":"failed","error":"Independent test state"}';
   await fs.writeFile(path.join(root,'runs/daily-2026-10-19.json'),daily);
-  const file=path.join(root,'input.json');await fs.writeFile(file,JSON.stringify({...weekly,partialWeek:true}));
+  const file=path.join(root,'input.json');await fs.writeFile(file,JSON.stringify({...weekly,partialWeek:true,ruleSnapshotSha256:rules.snapshotSha256}));
   await assert.rejects(main(['build','--kind','weekly','--input',file,'--output',path.join(root,'dry')]),/partial-week/);
   assert.equal(await fs.readFile(path.join(root,'runs/daily-2026-10-19.json'),'utf8'),daily);
   assert.equal(JSON.parse(await fs.readFile(path.join(root,'runs/weekly-2026-10-12.json'),'utf8')).status,'failed');

@@ -15,6 +15,7 @@
     "test:all": "npm test",
     "test:unit": "node --test tests/*.test.mjs",
     "cloud:preflight": "node scripts/cloud-run.mjs preflight",
+    "cloud:rules": "node scripts/sync-notion-rules.mjs",
     "cloud:plan": "node scripts/cloud-run.mjs plan",
     "cloud:build": "node scripts/cloud-run.mjs build",
     "cloud:prepare-release": "node scripts/prepare-release.mjs",

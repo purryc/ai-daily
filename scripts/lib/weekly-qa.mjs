@@ -24,18 +24,24 @@ export async function checkWeekly({root,weekStart,pdf=false,pilot=false,liveBase
         const problems=[];
         for(let i=0;i<ids.length;i++) {
           await page.evaluate(id=>{location.hash=id;dispatchEvent(new HashChangeEvent('hashchange'));},ids[i]);
+          await page.locator('.slide').nth(i).evaluate(async s=>{await Promise.all([...s.querySelectorAll('img')].map(async image=>{try{await image.decode();}catch{}}));});
           const result=await page.locator('.slide').nth(i).evaluate(s=>{
             const content=s.querySelector('.content');
-            return {id:s.id,vertical:s.scrollHeight-s.clientHeight,horizontal:s.scrollWidth-s.clientWidth,content:content?content.scrollHeight-content.clientHeight:0,ratio:s.getBoundingClientRect().width/s.getBoundingClientRect().height};
+            const box=s.getBoundingClientRect();
+            const outside=[...s.querySelectorAll('.text,.text span,img,p,li,h2,h3,figcaption')].filter(el=>{
+              const r=el.getBoundingClientRect();
+              return r.width&&r.height&&(r.left<box.left-2||r.right>box.right+2||r.top<box.top-2||r.bottom>box.bottom+2||el.scrollWidth>el.clientWidth+2||el.scrollHeight>el.clientHeight+2);
+            }).length;
+            return {id:s.id,outside,vertical:s.scrollHeight-s.clientHeight,horizontal:s.scrollWidth-s.clientWidth,content:content?content.scrollHeight-content.clientHeight:0,ratio:box.width/box.height};
           });
-          if(result.vertical>4||result.horizontal>4||(viewport.width>700&&(result.content>4||Math.abs(result.ratio-16/9)>.01)))problems.push(result);
+          if(result.outside||result.vertical>4||result.horizontal>4||(viewport.width>700&&(result.content>4||Math.abs(result.ratio-16/9)>.01)))problems.push(result);
         }
         const bodyOverflow=await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth);
         const images=await page.locator('img').evaluateAll(images=>images.filter(i=>!i.complete||!i.naturalWidth||getComputedStyle(i).objectFit==='cover').map(i=>i.src));
         if(problems.length||bodyOverflow>4||images.length)throw new Error('Weekly layout/evidence failure: '+JSON.stringify({problems,bodyOverflow,images}));
         // Test real controls and language/source links rather than only switching CSS.
         await page.evaluate(()=>{location.hash='#'+document.querySelector('.slide').id;dispatchEvent(new HashChangeEvent('hashchange'));});
-        if(viewport.width>700&&ids.length>1) {
+        if(await page.locator('[data-next]').isVisible()&&ids.length>1) {
           await page.locator('[data-next]').click();
           if(await page.locator('.slide.active').getAttribute('id')!==ids[1])throw new Error('Next navigation failed');
           await page.locator('[data-prev]').click();

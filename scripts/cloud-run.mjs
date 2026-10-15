@@ -88,12 +88,13 @@ export async function stageDaily({input,output,assetsDir,privateDir}) {
 export async function main(args=process.argv.slice(2)) {
   const command=args[0],arg=k=>{const i=args.indexOf(k);if(i<0||!args[i+1])throw new Error('Missing '+k);return args[i+1];};
   const root=privateRoot();
-  if(command==='preflight') {console.log(JSON.stringify(await preflight(root)));return;}
+  if(command==='preflight') {console.log(JSON.stringify(await preflight(root,{requireCurrentNotion:true})));return;}
   if(command==='plan') {console.log(JSON.stringify(await plan({root,now:args.includes('--now')?new Date(arg('--now')):new Date()})));return;}
   if(command!=='build')throw new Error('Usage: cloud-run preflight | plan | build --kind daily|weekly --input FILE --output NEW_DRY_DIRECTORY [--assets DIR]');
-  await preflight(root);
+  const rules=await preflight(root,{requireCurrentNotion:true});
   const kind=arg('--kind');if(!['daily','weekly'].includes(kind))throw new Error('Invalid run kind');
   const bytes=await fs.readFile(arg('--input')),input=JSON.parse(bytes);
+  if(input.ruleSnapshotSha256!==rules.ruleSnapshotSha256)throw new Error('Reviewed input must reference the current Notion rule snapshot');
   rejectPrivateFields(input);
   const key=kind==='daily'?input.date:monday(input.weekStart);
   if(!/^\d{4}-\d{2}-\d{2}$/.test(key))throw new Error('Invalid run key');
@@ -106,6 +107,7 @@ export async function main(args=process.argv.slice(2)) {
     try {
       const prior=JSON.parse(await fs.readFile(receipt,'utf8'));
       if(prior.status==='validated-draft') {
+        if(prior.ruleSource?.snapshotSha256!==rules.ruleSnapshotSha256)throw new Error('Draft rules changed; rebuild and review against the current Notion source');
         await assertRepositoryBaseline(prior.repositoryBaseline,REPO);
         if(prior.inputSha256!==sha(bytes))throw new Error('Existing reviewed draft has different input; resolve it explicitly before replacing');
         await fs.access(prior.result.target);
@@ -124,7 +126,7 @@ export async function main(args=process.argv.slice(2)) {
     const result=kind==='daily'?await stageDaily(options):await buildWeekly(options);
     if(kind==='weekly')result.qa=await checkWeekly({root:destination,weekStart:key,pdf:true});
     await assertRepositoryBaseline(baseline,REPO);
-    await atomic(receipt,{kind,key,status:'validated-draft',repositoryBaseline:baseline,inputSha256:sha(bytes),artifactSha256:await digestTree(result.target),releaseSha256:await digestRelease(kind,key,destination),output:destination,completedAt:new Date().toISOString(),result,publication:'not pushed or deployed'});
+    await atomic(receipt,{kind,key,status:'validated-draft',ruleSource:rules.source,repositoryBaseline:baseline,inputSha256:sha(bytes),artifactSha256:await digestTree(result.target),releaseSha256:await digestRelease(kind,key,destination),output:destination,completedAt:new Date().toISOString(),result,publication:'not pushed or deployed'});
     console.log(JSON.stringify({kind,key,status:'validated-draft',receipt,...result}));
   }catch(error) {
     let prior;

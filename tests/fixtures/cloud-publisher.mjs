@@ -1,4 +1,8 @@
 import {LANES,DIMENSIONS} from '../../scripts/lib/cloud-state.mjs';
+import {installNotionRules} from '../../scripts/lib/notion-rules.mjs';
+export const RULE_PAGE_ID='11111111111111111111111111111111';
+export const nativeRuleFixture=(editedAt=new Date(Date.now()-60000).toISOString())=>({id:RULE_PAGE_ID,page_last_edited_at:editedAt,url:'https://app.notion.com/p/'+RULE_PAGE_ID,text:'<page><content>v1.4 America/Toronto\n'+Array.from({length:12},(_,i)=>'## '+(i+1)+'. Synthetic rule fixture\nTest only.').join('\n')+'</content></page>'});
+export const installRuleFixture=root=>installNotionRules({root,record:nativeRuleFixture(),pageId:RULE_PAGE_ID});
 export const pair=(zh='测试说明：这是隔离测试资料，不是刊物。',en='TEST FIXTURE: isolated validation material, not a publication.')=>({zh,en});
 export const batch={
  queries:[{query_id:'test-query',source_lane:'official',platform:'fixture',query:'test',region:'CA',window:{start:'2026-10-12',end:'2026-10-19'},observed_at:'2026-10-19T14:00:00Z',access_status:'accessible',panel_type:'fixed',inspected_count:1,sampling_limit:1}],
@@ -10,5 +14,5 @@ export const weekly={
  sources:[{id:'S1',label:'Test fixture',url:'https://example.com/fixture',publishedAt:'2026-10-13',signalId:'test-signal'}],
  laneScans:LANES.map(lane=>({lane,status:'incomplete',note:pair()})),
  highlights:[{id:'H1',title:pair(),signalIds:['test-signal'],pages:[{title:pair(),paragraphs:[pair()],sourceIds:['S1']}]}],
- trends:[{id:'T1',title:pair(),state:'new',classification:'emerging',confidence:'low',claimType:'interface-supply',signalIds:['test-signal'],pages:[{title:pair(),paragraphs:[pair()],sourceIds:['S1']}],...Object.fromEntries(['thisWeek','baseline','counterevidence','alternativeExplanation','confidenceReason','hciImpact','experiment','falsifiableWatch'].map(k=>[k,pair()])),matrix:Object.fromEntries(DIMENSIONS.map(d=>[d,{status:d==='feasibility'?'support':'unknown',signalIds:d==='feasibility'?['test-signal']:[],note:pair()}]))}]
+ trends:[{id:'T1',title:pair(),state:'new',classification:'emerging',confidence:'low',claimType:'interface-supply',signalIds:['test-signal'],pages:[{title:pair(),paragraphs:[pair()],sourceIds:['S1'],analysisFields:['thisWeek','baseline','counterevidence','alternativeExplanation']},{title:pair(),paragraphs:[pair()],sourceIds:['S1'],analysisFields:['confidenceReason','hciImpact','experiment','falsifiableWatch']}],...Object.fromEntries(['thisWeek','baseline','counterevidence','alternativeExplanation','confidenceReason','hciImpact','experiment','falsifiableWatch'].map(k=>[k,pair()])),matrix:Object.fromEntries(DIMENSIONS.map(d=>[d,{status:d==='feasibility'?'support':'unknown',signalIds:d==='feasibility'?['test-signal']:[],note:pair()}]))}]
 };

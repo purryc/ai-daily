@@ -5,8 +5,8 @@ https://purryc.github.io/ai-daily/
 
 ## Editorial contract
 
-New cloud runs follow [CLOUD_RUNBOOK.md](CLOUD_RUNBOOK.md) and the authorized private
-Library methods. The dense daily contract (Chinese >=6,000 characters, English
+New cloud runs follow [CLOUD_RUNBOOK.md](CLOUD_RUNBOOK.md) and the current authorized
+private rule snapshot. The dense daily contract (Chinese >=6,000 characters, English
 >=4,500 words; full bilingual dossiers, provenance and eight-lane scans) supersedes
 the older concise/no-quota guidance below for new cloud publication. Weekly has a
 separate complete-week evidence contract and never replaces daily current.
@@ -74,6 +74,6 @@ The standard browser PDF export remains available on build machines that support
 
 Build and PDF commands default to the latest issue only. `AI_DAILY_DATES` may explicitly select comma-separated dates, but never silently regenerates the archive. Missing evidence assets fail clearly and are not replaced with generated diagrams. PDFs are written atomically only after page-count validation.
 
-The existing dated Oct 6 entrypoint delegates to the new candidate-driven generator for compatibility. The repository has no configured daily generation schedule. The existing external task `AI Product Morning Brief` (`ai-product-morning-brief`) was identified as active at 10:00 America/Toronto; its existing local configuration and cloud migration require a separate verified update. Repository changes alone do not change that recurring task. Do not create an unrequested parallel schedule.
+The existing dated Oct 6 entrypoint delegates to the new candidate-driven generator for compatibility. The repository has no configured daily generation schedule. The old local `ai-product-morning-brief` recurring task was deleted; cloud recurring publishing remains disabled pending a verified parent-to-cloud route and durable private state. See [CLOUD_RUNBOOK.md](CLOUD_RUNBOOK.md). Do not restore the local task or create a duplicate schedule.
 
 Publish only after the source review, chosen design, rendering checks and PDF checks are complete. Use a compare-and-swap GitHub ref update against the verified repository head, then verify the exact Pages deployment and live result.

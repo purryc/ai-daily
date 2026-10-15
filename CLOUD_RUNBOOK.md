@@ -1,6 +1,6 @@
 # Cloud daily and independent weekly publisher
 
-The cloud checkout is /workspace/ai-daily. Read AGENTS.md and the private methods
+The cloud checkout is /workspace/ai-daily. Read AGENTS.md and the private current rules
 before each research run. Research is performed by the executing agent using connected
 search/read tools; this package validates and publishes reviewed inputs. It does not
 claim to be an autonomous crawler or to have already collected a historical panel.
@@ -11,12 +11,9 @@ Set AI_DAILY_PRIVATE_ROOT=/workspace/ai-daily-private and
 AI_DAILY_CHROMIUM_PATH=/usr/bin/chromium. Keep this private root outside the public
 checkout and persist it between executions. Its layout is:
 
-    rules/manifest.json
-    rules/daily-method.md
-    rules/weekly-method.md
-    rules/collection-handbook.md
-    rules/execution-prompt.md
-    rules/HANDOFF.md
+    rules/notion-rulebook.md
+    rules/notion-source.json
+    rules/notion-config.json
     signals/queries/<query_id>.json
     signals/observations/<signal_id>.json
     signals/decisions/<decision_hash>.json
@@ -24,12 +21,23 @@ checkout and persist it between executions. Its layout is:
     runs/daily-<date>.json
     runs/weekly-<covered Monday>.json
 
-Materialize the six Library migration files using the CURRENT Library skill and
-its supported helper into rules/. Do not reconstruct them from a blocked transfer,
-reuse another environment's paths, or migrate keys. cloud:preflight validates the
-five text files against the supplied manifest's exact byte counts and SHA256 hashes.
-An absent or changed rule fails before any formal build. Library materialization is
-an operator prerequisite, not an ability this Node package silently substitutes.
+The editorial authority is a user-designated Notion page. Keep its ID and original
+content in private configuration. Fetch it through the native authorized connector,
+save the complete native JSON privately, then run:
+
+    npm run cloud:rules -- --input /workspace/ai-daily-private/migration/native-notion.json \
+      --page-id "$AI_DAILY_RULE_PAGE_ID"
+
+The importer checks the exact page, v1.4, twelve sections, envelope and edit chronology;
+explicit truncated/unknown blocks fail. The connector currently omits completeness
+flags, so the provenance records structural checks rather than asserting those flags.
+Refresh within 24 hours. Formal builds and release preparation verify content and
+snapshot hashes; every reviewed input needs ruleSnapshotSha256 from cloud:preflight.
+Refreshing identical content preserves the snapshot identity. An editorial rule edit
+requires rebuilding and review. The six separate Library migration files are NOT
+materialized: the unchanged supported helper is blocked by managed proxy CONNECT 403
+to sdmntprnortheu.oaiusercontent.com:443. Do not recreate that bundle, relay its signed
+download, reuse another environment's paths, migrate keys or change network security.
 
 Node >=22.12, npm, Chromium, Poppler/pdfinfo, bilingual fonts and network access to
 the official npm registry are needed. Main dependency installation:
@@ -47,9 +55,20 @@ magazine is still the existing HTML/PDF publisher.
 
 The coordinating thread owns scheduling: daily every day at 10:00 America/Toronto,
 weekly every Monday at 10:00 America/Toronto. This package creates no schedule.
-The local AI Product Morning Brief stays active until the coordinator verifies cloud
-readiness, pauses it through the supported local app, reads back that status, then
-activates a single cloud owner. Never run both publishers in parallel.
+The old local recurring task was deleted during project cleanup. There is no active
+local fallback and it must not be restored. Cloud recurring publishing is not enabled.
+The October 15 one-time local backfill must be confirmed stopped by the coordinator
+before cloud publication, even though cloud preparation is authorized.
+
+The supported routing candidate is timer -> coordinator -> cloud_threads.send_message
+to the designated active task, or cloud_threads.create with the saved ai-daily
+environmentConfigId. Keep task, runtime and configuration IDs in private handoff
+state. Runtime IDs are diagnostic and cannot substitute for configuration IDs.
+Before recurring activation, verify the supported route with a separately authorized
+nonpublishing execution, establish private durable ledger/receipt restoration, and
+prove fresh-instance deduplication. The current private directory alone is not proof
+of cross-instance persistence. GitHub main restores published history and Notion
+restores rules; neither currently persists the private raw collection ledger.
 
 First eligible formal weekly: October 19, 2026, covering October 12 through 18.
 A partial pilot does not satisfy the complete-week key. plan selects the most recent
@@ -130,6 +149,13 @@ Trends have stable id, title, state (new/strengthening/continuing/weakening/conf
 withdrawn), classification (trend/emerging), confidence (low/moderate/high), claimType,
 signalIds, pages, and bilingual thisWeek, baseline, counterevidence,
 alternativeExplanation, confidenceReason, hciImpact, experiment and falsifiableWatch.
+Place those eight analysis fields exactly once using each explicit page's
+analysisFields array. The publisher renders the edited grouping rather than appending
+four generic analysis pages. Facts use numbered citations; each language has one
+compact final references page. Long reference/analysis pages must pass real layout QA.
+Bottom-up opportunity discovery, native competitor coverage, payment classification
+and validation decisions still require explicit agent editorial review against v1.4;
+the generic trend schema alone does not certify that workflow.
 matrix has attention/friction/feasibility/payment_intent; each cell has status
 (support/contradiction/unknown), signalIds and bilingual note. Unknown cells stay empty.
 Each known cell references shared observations tagged with that dimension.
