@@ -35,6 +35,11 @@ test('Toronto full-week planning handles DST, first run, catch-up, and pilot iso
   const missed=await plan({root,repo:root,now:new Date('2026-10-20T14:00:00Z')});assert.equal(missed.weekly.catchUp,true);
   await fs.writeFile(path.join(root,'weekly/2026-10-12/manifest.json'),JSON.stringify({issue_type:'weekly',partial_week:false,week_start:'2026-10-12'}));
   assert.equal((await plan({root,repo:root,now:new Date('2026-10-20T14:00:00Z')})).weekly.due,false);
+  await fs.rm(path.join(root,'weekly/2026-10-12/manifest.json'));
+  await fs.mkdir(path.join(root,'weekly/2026-10-19'),{recursive:true});
+  await fs.writeFile(path.join(root,'weekly/2026-10-19/manifest.json'),JSON.stringify({issue_type:'weekly',partial_week:false,week_start:'2026-10-19'}));
+  const gap=await plan({root,repo:root,now:new Date('2026-10-26T14:00:00Z')});
+  assert.equal(gap.weekly.key,'2026-10-12');assert.equal(gap.weekly.due,true);assert.equal(gap.weekly.catchUp,true);
  }finally{await fs.rm(root,{recursive:true,force:true});}
 });
 test('private ledger is immutable, idempotent, conflicts before writes, and blocks public storage',async()=>{
