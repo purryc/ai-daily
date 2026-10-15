@@ -4,6 +4,7 @@ import {spawn} from 'node:child_process';
 import {fileURLToPath} from 'node:url';
 import {REPO,privateRoot,preflight,localDate,completedWeek,atomic,loadSignals,sha,monday} from './lib/cloud-state.mjs';
 import {generateIssue} from './create-issue.mjs';
+import {normalizeUrl} from './lib/issue-policy.mjs';
 import {validateDenseDaily} from './lib/dense-policy.mjs';
 import {buildWeekly} from './lib/weekly.mjs';
 import {checkWeekly} from './lib/weekly-qa.mjs';
@@ -31,12 +32,21 @@ export async function stageDaily({input,output,assetsDir,privateDir}) {
   if(input.cloudEditorialContract!=='dense-v1')throw new Error('Cloud daily input must explicitly select dense-v1');
   const cutoff=Date.parse(input.cutoff);
   if(!Number.isFinite(cutoff)||input.primaryWindowStart!==new Date(cutoff-86400000).toISOString())throw new Error('Daily primary window must be exactly the preceding 24 hours');
+  for(const scan of input.laneScans??[]) {
+    if(!['scanned','blocked','incomplete'].includes(scan.status)||scan.status!=='incomplete'&&!scan.queryIds?.length)throw new Error('Daily scan needs an actual access status and query references');
+    for(const id of scan.queryIds??[]) {
+      if(!/^[A-Za-z0-9._-]+$/.test(id))throw new Error('Unsafe query ID');
+      const query=JSON.parse(await fs.readFile(path.join(privateDir,'signals/queries',id+'.json'),'utf8'));
+      if(query.source_lane!==scan.lane||scan.status==='blocked'&&query.access_status!=='blocked')throw new Error('Daily scan/query access mismatch');
+    }
+  }
   for(const t of input.candidates??[]) {
     if(!t.signalIds?.length)throw new Error('Daily candidate missing shared signal references');
     const observations=await loadSignals(privateDir,t.signalIds);
     for(const o of observations) {
       if(o.product_key!==t.event.productKey||o.event_at.slice(0,10)!==t.event.occurredAt.slice(0,10)||o.verification_status!=='verified'||o.research_cutoff!==input.cutoff)throw new Error('Daily candidate/shared evidence mismatch');
     }
+    for(const source of t.sources??[])if(!observations.some(o=>[o.source_url,o.canonical_url].some(u=>normalizeUrl(u)===normalizeUrl(source.url))&&(source.publishedAt??null)===o.published_at))throw new Error('Daily citation lacks a matching shared original observation');
     if(!['primary-24h','delayed-72h','weekly-lookback','date-boundary-uncertain'].includes(t.freshnessClass))throw new Error('Daily freshness label missing');
     const event=Date.parse(t.event.occurredAt);
     if(t.event.occurredAt.length===10&&t.freshnessClass!=='date-boundary-uncertain')throw new Error('Date-only event needs explicit boundary uncertainty');
