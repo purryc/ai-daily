@@ -1,5 +1,13 @@
 # AI Daily publisher
 
+Coordinator update, 2026-10-15: new daily and weekly delivery is web-only.
+Do not generate or export PDFs; preserve historical PDFs unchanged. This
+preservation branch still contains older PDF-dependent build/test paths and
+editorial gates. Read CLOUD_RECEIPT_RECOVERY.md before continuing; those older
+paths below are not authorization to run PDF work or enable a schedule. The
+current task only saves migration code, tests and documentation on a separate
+development branch, without changing main or published editions.
+
 Preserve all published daily and weekly artifacts and the bytes of data/issues.json.
 New editions use data/editions; weekly inputs use data/weekly and outputs use weekly/<covered Monday>/.
 The pilot under weekly/2026-10-12/pilot is partial and must not count as a completed week.

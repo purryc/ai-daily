@@ -99,23 +99,42 @@ export async function main(args=process.argv.slice(2)) {
   const key=kind==='daily'?input.date:monday(input.weekStart);
   if(!/^\d{4}-\d{2}-\d{2}$/.test(key))throw new Error('Invalid run key');
   const destination=realDestination(arg('--output'));
+  if(destination===REPO||destination.startsWith(REPO+path.sep))throw new Error('Cloud dry output must be outside public checkout');
   const lock=path.join(root,'runs',kind+'-'+key+'.lock');
   await fs.mkdir(path.dirname(lock),{recursive:true});
   await fs.mkdir(lock).catch(e=>{if(e.code==='EEXIST')throw new Error('Run already active; inspect lock before retry');throw e;});
   const receipt=path.join(root,'runs',kind+'-'+key+'.json');
   try {
-    try {
-      const prior=JSON.parse(await fs.readFile(receipt,'utf8'));
-      if(prior.status==='validated-draft') {
-        if(prior.ruleSource?.snapshotSha256!==rules.ruleSnapshotSha256)throw new Error('Draft rules changed; rebuild and review against the current Notion source');
-        await assertRepositoryBaseline(prior.repositoryBaseline,REPO);
-        if(prior.inputSha256!==sha(bytes))throw new Error('Existing reviewed draft has different input; resolve it explicitly before replacing');
-        await fs.access(prior.result.target);
-        if(await digestTree(prior.result.target)!==prior.artifactSha256)throw new Error('Prior validated artifact changed; inspect it before retry');
-        if(await digestRelease(kind,key,prior.output)!==prior.releaseSha256)throw new Error('Prior navigation/data/styles changed; inspect it before retry');
-        console.log(JSON.stringify({...prior,reused:true}));return;
+    let prior;
+    try {prior=JSON.parse(await fs.readFile(receipt,'utf8'));}
+    catch(e){if(e.code!=='ENOENT')throw e;}
+    if(prior?.status==='validated-draft') {
+      if(prior.ruleSource?.snapshotSha256!==rules.ruleSnapshotSha256)throw new Error('Draft rules changed; rebuild and review against the current Notion source');
+      await assertRepositoryBaseline(prior.repositoryBaseline,REPO);
+      if(prior.inputSha256!==sha(bytes))throw new Error('Existing reviewed draft has different input; resolve it explicitly before replacing');
+      const relativeTarget=kind==='weekly'?'weekly/'+key:key;
+      if(prior.kind!==kind||prior.key!==key||!path.isAbsolute(prior.output??'')||
+        prior.result?.target!==path.join(prior.output,relativeTarget))throw new Error('Validated draft target/output identity mismatch; inspect its receipt before recovery');
+      // The explicit output locates a restored draft; saved absolute paths may
+      // refer to a previous instance. Verify bytes before updating the receipt.
+      const result={...prior.result,target:path.join(destination,relativeTarget)};
+      if(kind==='daily'&&prior.result.slidev) {
+        const relativeSlidev=path.join('output/slidev','ai-product-morning-brief-'+key);
+        if(prior.result.slidev!==path.join(prior.output,relativeSlidev))throw new Error('Validated Slidev source/output identity mismatch; inspect its receipt before recovery');
+        result.slidev=path.join(destination,relativeSlidev);
       }
-    }catch(e){if(e.code!=='ENOENT')throw e;}
+      try {
+        if(await digestTree(result.target)!==prior.artifactSha256)throw new Error('Prior validated artifact changed; inspect it before retry');
+        if(await digestRelease(kind,key,destination)!==prior.releaseSha256)throw new Error('Prior navigation/data/styles changed; inspect it before retry');
+        if(result.slidev)await fs.access(result.slidev);
+      }catch(e){
+        if(e.code==='ENOENT')throw new Error('Validated draft files are missing at requested output; restore the complete draft or inspect and resolve its private receipt before rebuilding',{cause:e});
+        throw e;
+      }
+      const restored={...prior,output:destination,result};
+      if(prior.output!==destination)await atomic(receipt,restored);
+      console.log(JSON.stringify({...restored,reused:true}));return;
+    }
     const manifest=kind==='daily'?path.join(REPO,key,'manifest.json'):path.join(REPO,'weekly',key,'manifest.json');
     try {
       const published=JSON.parse(await fs.readFile(manifest,'utf8'));
