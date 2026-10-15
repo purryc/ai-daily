@@ -1,0 +1,44 @@
+{
+  "issue_type": "weekly-pilot",
+  "week_start": "2026-10-12",
+  "timezone": "America/Toronto",
+  "window_start": "2026-10-12T00:00:00-04:00",
+  "cutoff": "2026-10-15T00:10:00Z",
+  "cutoff_local": "2026-10-14T20:10:00-04:00",
+  "partial_week": true,
+  "baseline_status": "establishing",
+  "title": {
+    "zh": "AI Product Weekly｜从回答到行动，控制面成为焦点",
+    "en": "AI Product Weekly | From answers to actions, control surfaces matter"
+  },
+  "edition_label": {
+    "zh": "周报试刊 · 本周尚未结束",
+    "en": "Weekly pilot · partial week"
+  },
+  "intro": {
+    "zh": "这是周一至周三晚的试刊，不是完整周报。我们从已刊日报候选回到原始来源，再加入开发者讨论、研究和公开调用数据。现阶段最有依据的判断是：执行入口在增加，但可靠性、权限与可观察性仍需单独验收；没有证据证明相应市场需求或收入同步增长。",
+    "en": "This pilot covers Monday through Wednesday evening, not a complete week. We revisited original sources behind daily candidates and added developer discussions, research, and public usage telemetry. The supported conclusion is narrow: execution surfaces are expanding, while reliability, permissions, and observability still need separate acceptance tests. Demand or revenue growth has not been established."
+  },
+  "time_note": {
+    "zh": "截止锁定为Toronto 10月14日20:10；研究回读发生在其后数分钟。只纳入日期落在窗口的材料，10月14日仅有日期的来源保留截点边界不确定性；当前网页不是历史快照。",
+    "en": "Cutoff is October 14, 20:10 Toronto. Verification reads occurred several minutes later. Sources dated October 14 without exact publication times retain cutoff-boundary uncertainty; current pages are not historical snapshots."
+  },
+  "counts": {
+    "highlights": 7,
+    "trend_hypotheses": 3,
+    "source_records": 16,
+    "confirmed_market_trends": 0
+  },
+  "visual_note": "Original editorial diagrams only recommended. Original-page image links are discovery pointers, not reuse authorization.",
+  "sources_path": "sources.md",
+  "zh_path": "zh/",
+  "en_path": "en/",
+  "content_sha256": "397468b41e54d65ad5af0e270720ea7e21e933bd81b4af9bda54bca02b7d15b1",
+  "format": "16:9 paginated HTML; mobile continuous reading",
+  "visuals": "Three original editorial diagrams; no product screenshots",
+  "qa": {
+    "static": "passed: full bilingual content retention, source IDs/links, paths, 34 aligned slides, no placeholders",
+    "browser": "pending live HTTPS verification",
+    "pdf": "not included"
+  }
+}
