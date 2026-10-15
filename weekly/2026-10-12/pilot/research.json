@@ -1,0 +1,1612 @@
+{
+  "products": {
+    "schema_version": "revised-products-v1",
+    "meta": {
+      "issue_type": "weekly-pilot",
+      "week_start": "2026-10-12",
+      "timezone": "America/Toronto",
+      "window_start": "2026-10-12T00:00:00-04:00",
+      "cutoff": "2026-10-15T00:10:00Z",
+      "cutoff_local": "2026-10-14T20:10:00-04:00",
+      "partial_week": true,
+      "baseline_status": "establishing",
+      "title": {
+        "zh": "AI产品周报试刊：具体产品、工作流与机会",
+        "en": "AI Product Weekly Pilot: products, workflows and opportunities"
+      },
+      "edition_label": {
+        "zh": "周报试刊 · 本周尚未结束",
+        "en": "Weekly pilot · partial week"
+      },
+      "intro": {
+        "zh": "这一期从产品实际怎么用开始：改网站、排社媒、交付后台任务、控制家庭、复核技术文档、分析地图。再看开发者的真实接线问题与可运行的研究工具。",
+        "en": "Start with what the products do: edit a site, schedule social posts, delegate background work, control a home, review documents and analyze maps. Then inspect real integration problems and research tools."
+      },
+      "time_note": {
+        "zh": "截止锁定为Toronto 10月14日20:10；研究回读发生在其后数分钟。只纳入日期落在窗口的材料，10月14日仅有日期的来源保留截点边界不确定性；当前网页不是历史快照。",
+        "en": "Cutoff is October 14, 20:10 Toronto. Verification reads occurred several minutes later. Sources dated October 14 without exact publication times retain cutoff-boundary uncertainty; current pages are not historical snapshots."
+      },
+      "counts": {
+        "highlights": 7,
+        "product_groups": 5,
+        "developer_or_research_groups": 2,
+        "source_records": 17
+      },
+      "visual_note": {
+        "zh": "产品视觉来自官方公开演示；开发者结构图明确标为示意。",
+        "en": "Product visuals come from official public demonstrations; developer diagrams are labelled as explanatory."
+      }
+    },
+    "products": [
+      {
+        "id": "H01",
+        "type": "product_update",
+        "title": {
+          "zh": "MorningAI：一场促销，从改站到排期再到看结果",
+          "en": "MorningAI: run a promotion from site edits to scheduling and results"
+        },
+        "dek": {
+          "zh": "面向消费品牌的营销工作台，这次把网站编辑、社媒日历和跨渠道指标接进同一操作链。",
+          "en": "A marketing workspace for consumer brands now connects website edits, social scheduling and cross-channel metrics."
+        },
+        "source_ids": [
+          "S01"
+        ],
+        "sections": [
+          {
+            "heading": {
+              "zh": "实际怎么用",
+              "en": "The actual workflow"
+            },
+            "body": {
+              "zh": "先在 Brand DNA → Connectors 连接 GitHub，再进入 Agents，把 Chat 切到 Website。输入改动要求后，代理读取网站、写计划并搭建页面。官方示例是新增按州列门店的购买地点页，同时在首页加入口按钮；可以改标题、文案、图片、布局和链接，也能上传照片或文档作为素材。Preview 提供桌面、平板、手机视图，可把 review link 发给工程师，最后按 Publish 才上线。",
+              "en": "Connect GitHub in Brand DNA → Connectors, then switch Agents from Chat to Website. The agent reads the site, makes a plan and builds the requested change. Its example adds a store-locator page grouped by state and a homepage button. Editable elements include copy, images, layout and links; users can supply photos or documents. Preview offers desktop, tablet and phone views, with a review link for an engineer. Publish is the explicit go-live action."
+            },
+            "source_ids": [
+              "S01"
+            ]
+          },
+          {
+            "heading": {
+              "zh": "社媒不是只生成文案",
+              "en": "Beyond generating captions"
+            },
+            "body": {
+              "zh": "另一条链从上一周表现最好的帖子开始：代理分析渠道表现，生成 LinkedIn、Instagram、Facebook 的文案和图片，逐条显示平台预览。用户能改时间、图片和文案，再批准排期。相关帖子归入可改名、改色的 campaign；完成后 Calendar 自动按该活动筛选。在 Calendar 内直接打开 Agent sidebar，也能改整组计划，不必回到聊天首页。",
+              "en": "A second workflow starts with last week’s successful posts, then generates captions and images for LinkedIn, Instagram and Facebook with platform previews. Users adjust time, image and copy before approving the schedule. Related posts sit inside a campaign that can be renamed or recoloured; Calendar opens filtered to it. An Agent sidebar on Calendar supports further edits without returning to the main chat."
+            },
+            "source_ids": [
+              "S01"
+            ]
+          },
+          {
+            "heading": {
+              "zh": "结果回到同一个界面",
+              "en": "Results return to the same workspace"
+            },
+            "body": {
+              "zh": "Channels 的 Overview 把社媒、Klaviyo 邮件、Google Analytics 与 Search Console 网站数据放在同一日期范围内。点一个指标就钻到每日走势、最好的一天和相关帖子；Email 还能看 Campaigns/Flows，Web 可看页面、搜索词和来源。与“聊天生成一段文案，再手动搬到排期器”的差别，是活动对象和批准状态留在工作台里。对小团队最直接的价值，是减少内容、网站、日历和复盘间的重复交接；这不是已量化的提效结论。",
+              "en": "Channels Overview aligns social, Klaviyo email, Google Analytics and Search Console metrics to one date range. Clicking a metric opens daily detail and associated posts; email includes Campaigns/Flows, while web includes pages, searches and sources. Unlike copying chat-generated text into a separate scheduler, campaign objects and approval state remain in the workspace. The practical value for a small team is fewer handoffs among content, site, calendar and reporting; no time-saving percentage has been measured here."
+            },
+            "source_ids": [
+              "S01"
+            ]
+          }
+        ],
+        "availability": {
+          "zh": "入口 app.morningai.com；网站编辑需先连接 GitHub。10月12日公告称已可登录使用，未列本次功能的套餐、价格或用量配额。",
+          "en": "Entry: app.morningai.com. Website editing requires a GitHub connection. The October 12 announcement invites users to try it but gives no feature-specific plan, price or quota."
+        },
+        "visuals": [
+          {
+            "url": "https://cdn.sanity.io/images/g6wvqg2r/production/ad1f8c1ddbc79db20f9e57df30bde2d3e7bdad7a-3224x1952.png",
+            "source_url": "https://www.morningai.com/blog/october-12-2026-product-updates",
+            "caption": {
+              "zh": "官方 Website Agent 演示：请求、预览和发布在一条链上。",
+              "en": "Official Website Agent demo: request, preview and publish in one workflow."
+            },
+            "rights_note": {
+              "zh": "官方公开产品演示图，版权归原权利人；本刊仅作具名产品评论，未确认开放再分发许可。",
+              "en": "Public official product-demo image; rights remain with its owner. Attributed editorial commentary, not an open redistribution licence."
+            }
+          },
+          {
+            "url": "https://cdn.sanity.io/images/g6wvqg2r/production/799ccb28e0425ea68a1efa058e4ad41fe36376aa-3224x1952.png",
+            "source_url": "https://www.morningai.com/blog/october-12-2026-product-updates",
+            "caption": {
+              "zh": "官方社媒演示：从表现分析到审批卡和日历。",
+              "en": "Official social demo: performance analysis, approval cards and calendar."
+            },
+            "rights_note": {
+              "zh": "官方公开产品演示图，版权归原权利人；本刊仅作具名产品评论，未确认开放再分发许可。",
+              "en": "Public official product-demo image; rights remain with its owner. Attributed editorial commentary, not an open redistribution licence."
+            }
+          },
+          {
+            "url": "https://cdn.sanity.io/images/g6wvqg2r/production/22389336465021268689b98a2c47b5ef1b55ef9a-3224x1952.png",
+            "source_url": "https://www.morningai.com/blog/october-12-2026-product-updates",
+            "caption": {
+              "zh": "官方 Channels 界面：跨渠道总览与单指标详情。",
+              "en": "Official Channels interface: cross-channel overview and metric detail."
+            },
+            "rights_note": {
+              "zh": "官方公开产品演示图，版权归原权利人；本刊仅作具名产品评论，未确认开放再分发许可。",
+              "en": "Public official product-demo image; rights remain with its owner. Attributed editorial commentary, not an open redistribution licence."
+            }
+          }
+        ],
+        "short_name": "MorningAI",
+        "event_at": "2026-10-12"
+      },
+      {
+        "id": "H02",
+        "type": "product_update",
+        "short_name": "Gemini 4 Argon",
+        "title": {
+          "zh": "Gemini Argon：同一个窗口里，聊天、后台任务与编码分开了",
+          "en": "Gemini Argon puts chat, background tasks, and coding within one app"
+        },
+        "dek": {
+          "zh": "Gemini 4 Argon 是 Google 在10月13日开放的模型与产品入口更新：Gemini 应用加入更强推理、长任务进度汇报和40多个连接应用；macOS 应用内出现 Google Antigravity 的代理式编码界面。开发者另可通过付费 Gemini API、AI Studio、Android Studio 和 Antigravity 使用它。",
+          "en": "Announced on October 13, Gemini 4 Argon combines a model update with new product surfaces: stronger reasoning, progress updates for longer work, more than 40 connected apps, and Google Antigravity’s agentic coding interface inside the Gemini macOS app. Developers receive separate access through the paid Gemini API, AI Studio, Android Studio, and Antigravity."
+        },
+        "source_ids": [
+          "S02",
+          "S03"
+        ],
+        "sections": [
+          {
+            "heading": {
+              "zh": "把一次对话切换成持续任务",
+              "en": "Turn a conversation into ongoing work"
+            },
+            "body": {
+              "zh": "进入 Gemini 应用主聊天窗口，使用 Chat / Tasks 切换，选择 Tasks。 交给它需要跨应用完成的目标；官方列举了买菜、订餐厅、设计与经营业务，对应 Instacart、OpenTable、Adobe、Shopify 等连接应用。 任务可以在用户离开电脑后继续；长任务会更频繁、有效地报告进度。",
+              "en": "Open the main chat window in the Gemini app and switch from Chat to Tasks. Give it a task involving connected apps. Google names grocery ordering, table booking, design, and business-building, with examples including Instacart, OpenTable, Adobe, and Shopify. Work can continue while the user is away from the computer, with more frequent progress reporting during longer tasks."
+            },
+            "source_ids": [
+              "S02"
+            ]
+          },
+          {
+            "heading": {
+              "zh": "在 Mac 上转入编码",
+              "en": "Move into coding on a Mac"
+            },
+            "body": {
+              "zh": "在 Gemini macOS 应用内使用新加入的 Antigravity 代理式编码界面，在聊天与编码之间切换。",
+              "en": "Use the newly embedded Antigravity agentic coding interface inside the Gemini macOS app to move between chat and coding."
+            },
+            "source_ids": [
+              "S02"
+            ]
+          },
+          {
+            "heading": {
+              "zh": "开发者接入",
+              "en": "Developer entry points"
+            },
+            "body": {
+              "zh": "付费 Gemini API 用户从 Google AI Studio 或 Android Studio 开始；Google AI Ultra 订阅者可在 AI Studio 与 Google Antigravity 试用。 官方入口链接指向 Argon Developer Guide、Antigravity 使用说明、Android Studio 文章和机器人开发示例。",
+              "en": "Paid Gemini API access starts in Google AI Studio or Android Studio; Google AI Ultra subscribers can also try the model in AI Studio and Google Antigravity. The announcement links to the Argon Developer Guide, Antigravity instructions, an Android Studio walkthrough, and robotics examples."
+            },
+            "source_ids": [
+              "S03"
+            ]
+          },
+          {
+            "heading": {
+              "zh": "这一变化的使用价值",
+              "en": "Why the interaction matters"
+            },
+            "body": {
+              "zh": "对普通用户，价值最具体的地方是把订餐厅、买菜或设计等目标接到对应服务，并允许离开电脑后继续；对开发者，是把讨论、修改代码与长期迁移任务放在更接近的工作入口。是否真正节省时间仍取决于连接应用覆盖、任务完成情况及订阅配额，公告未提供这些结果数据。",
+              "en": "For consumers, the concrete value is connecting a goal such as dinner planning, grocery ordering, or design to the relevant service and letting the task continue while they are away. For developers, discussion, code changes, and longer migrations gain more closely connected entry points. The announcements provide no measured time savings or task-completion results."
+            },
+            "source_ids": [
+              "S02",
+              "S03"
+            ]
+          }
+        ],
+        "availability": {
+          "zh": "Gemini 应用入口面向 Google AI Pro 与 Ultra 订阅者，从10月13日开始开放；Antigravity 应用内入口明确指向 macOS。开发者公告写明付费 API，并明确 Ultra 的 AI Studio / Antigravity 入口。两篇公告都没有列出订阅金额、token单价、使用配额或完整国家/语言清单，因此不填入推测价格，也不写成免费或全球开放。",
+          "en": "The app rollout began October 13 for Google AI Pro and Ultra subscribers; the embedded Antigravity surface is specifically in the macOS app. Developer access is through the paid API, with Ultra access identified for AI Studio and Antigravity. Neither announcement gives subscription amounts, token prices, quotas, or a complete country/language list."
+        },
+        "visuals": [
+          {
+            "id": "gemini-demo-poster",
+            "source_id": "S02",
+            "source_page": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/",
+            "url": "https://i.ytimg.com/vi_webp/frgCYZ_TEwY/sddefault.webp",
+            "caption": {
+              "zh": "Gemini 4 Argon官方应用演示的封面图",
+              "en": "Poster for the official Gemini 4 Argon app demo"
+            },
+            "kind": "official demo poster",
+            "credit": "Google",
+            "retrieval_status": "Exact embedded image URL found on official page; separate web image fetch unavailable",
+            "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/",
+            "rights_note": {
+              "zh": "原厂公开演示素材，署名原厂；未确认开放再分发许可。",
+              "en": "Public vendor demonstration material; credit the vendor. No open redistribution licence confirmed."
+            }
+          },
+          {
+            "id": "gemini-social-image",
+            "source_id": "S02",
+            "source_page": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/",
+            "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ArgonDemos_social2.max-1440x810.png",
+            "caption": {
+              "zh": "Gemini 4 Argon官方应用发布配图",
+              "en": "Official image accompanying the Gemini 4 Argon app announcement"
+            },
+            "kind": "official article social image",
+            "credit": "Google",
+            "retrieval_status": "Exact official-page og:image URL; separate web image fetch returned cache miss",
+            "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/",
+            "rights_note": {
+              "zh": "原厂公开演示素材，署名原厂；未确认开放再分发许可。",
+              "en": "Public vendor demonstration material; credit the vendor. No open redistribution licence confirmed."
+            }
+          }
+        ],
+        "event_at": "2026-10-13"
+      },
+      {
+        "id": "H03",
+        "type": "announced_hardware",
+        "short_name": "Apple HomeView + Home Collection",
+        "title": {
+          "zh": "Apple家庭产品：共享屏幕、门铃、门锁接成一条操作链",
+          "en": "Apple’s home lineup links the shared screen, doorbell and lock"
+        },
+        "dek": {
+          "zh": "HomeView 是7英寸 Liquid Retina 家庭显示设备，提供桌面音箱底座与壁挂两种型号，内置 A18 与 Siri AI。它把家庭控制、音乐、FaceTime、消息和日程放到共用屏幕上；靠人脸识别区分最多六位家庭成员，并随观看距离改变信息密度。 Home Collection是同期联合设计的配件组。",
+          "en": "HomeView is a 7-inch Liquid Retina home display offered as a tabletop speaker and a wall-mounted model, with an A18 chip and Siri AI. It combines home controls, music, FaceTime, messages, and calendars on a shared screen, recognizes up to six household members, and changes information density with viewing distance. Home Collection is the companion co-designed accessory range."
+        },
+        "source_ids": [
+          "S04",
+          "S05"
+        ],
+        "sections": [
+          {
+            "heading": {
+              "zh": "走近后显示自己的内容",
+              "en": "Approach to reveal a personal view"
+            },
+            "body": {
+              "zh": "使用运行最新软件的兼容 iPhone 或 iPad 完成设置与多用户配置。 远处显示易读的简洁信息；走近后界面增加细节，并在人脸识别成功时切换为该用户的主屏、应用和小组件。 Messages、Calendar 等个人内容还要求配对的 iPhone 或 iPad 在场且最近解锁。",
+              "en": "Set up the device and multiple users with a compatible iPhone or iPad running the latest software. From across the room the screen presents simpler information; approaching adds detail, while face recognition selects that user’s Home Screen, apps, and widgets. Personal content such as Messages and Calendar additionally requires the paired iPhone or iPad to be present and recently unlocked."
+            },
+            "source_ids": [
+              "S04"
+            ]
+          },
+          {
+            "heading": {
+              "zh": "厨房与家庭控制的具体用法",
+              "en": "Kitchen tasks and home controls"
+            },
+            "body": {
+              "zh": "通过 Siri AI 发起对话，或直接触屏；网页菜谱可转换成分步骤指导，过程中用语音操作计时器、跟踪食材。 消息可用语音或屏幕键盘回复；FaceTime 的 Center Stage 会在人在房间移动时调整构图。 在 HomeView 开始的 Siri 对话可经 iCloud 同步到 Siri 应用，在 iPhone、iPad、Mac、Apple Watch 或 Vision Pro 继续。 使用 Home Modular 表盘直接访问常用配件；Home Camera 表盘可同时直播最多九路摄像头。 触屏或用 Siri 调整温控器、灯、门锁及窗帘；有兼容摄像头和支持的 iCloud+ 订阅时，可查看事件识别与视频文字描述。",
+              "en": "Speak to Siri AI or use touch. Web recipes can be converted into step-by-step instructions, with voice-operated timers and ingredient tracking while cooking. Reply to messages by voice or the onscreen keyboard; Center Stage reframes FaceTime calls as participants move around. A Siri conversation started on HomeView can sync through iCloud and continue in the Siri app on iPhone, iPad, Mac, Apple Watch, or Vision Pro. Use the Home Modular face for favorite accessories or the Home Camera face for up to nine simultaneous live camera feeds. Use touch or Siri to adjust thermostats, lights, locks, and blinds. Compatible cameras and a supported iCloud+ plan add event recognition and text descriptions of recorded clips."
+            },
+            "source_ids": [
+              "S04"
+            ]
+          },
+          {
+            "heading": {
+              "zh": "HomeView何时买得到",
+              "en": "HomeView pricing and delivery"
+            },
+            "body": {
+              "zh": "英国桌面与壁挂型号均£299，壁挂安装配件另购；10月13日开放预订，11月13日供货。首批市场含加拿大、美国、英国等，EU不销售。Siri AI首发英语，加拿大法语随后更新；个人上下文需要支持Apple Intelligence的配对设备，部分服务器功能有每日限额。",
+              "en": "The UK release lists tabletop and wall-mounted models at £299 each; wall-mount accessories cost extra. Preorders opened October 13, with delivery announced for November 13. Initial markets include Canada, the US and UK; no EU sale. Siri AI starts in English, with Canadian French later. Personal context needs an Apple Intelligence-enabled paired device; some server features have daily limits."
+            },
+            "source_ids": [
+              "S04"
+            ]
+          },
+          {
+            "heading": {
+              "zh": "一触开始设置",
+              "en": "Start setup with a tap"
+            },
+            "body": {
+              "zh": "用运行最新系统的 iPhone 进行 NFC 配对，原始界面图显示 LG Video Doorbell Wired 卡片和 Set Up 按钮。 配件加入 Apple Home 后，在 Home 应用或 Siri 中控制；无需再安装 LG/Schneider 的应用或创建额外账户。 需要对应高级功能时搭配 HomeView、HomePod、HomePod mini 或 Apple TV 等兼容家庭中枢；摄像头事件记录还需 iCloud+。",
+              "en": "Use an iPhone running the latest system software for NFC pairing. The published screen shows an LG Video Doorbell Wired card with a Set Up button. After adding the accessory to Apple Home, control it through the Home app or Siri without installing LG/Schneider apps or creating extra accounts. Use a compatible hub such as HomeView, HomePod, HomePod mini, or Apple TV for features that require it; camera event history also needs iCloud+."
+            },
+            "source_ids": [
+              "S05"
+            ]
+          },
+          {
+            "heading": {
+              "zh": "门铃、录像和门锁怎样连起来",
+              "en": "How doorbells, recordings and locks work together"
+            },
+            "body": {
+              "zh": "访客按门铃后，HomeView/HomePod响铃，手机收到通知；同一Home视图可看访客、切换地面包裹视角、通话和开门。门铃前摄2.5K、下摄Full HD。兼容iPhone/Watch的home key支持UWB靠近解锁，也保留轻触、PIN和钥匙。iCloud+保存十天事件历史；合资格计划与AI设备增加录像摘要和自然语言检索。室内相机在首位成员回家时物理低头，停止监控状态可以看见。",
+              "en": "When a visitor rings, HomeView/HomePod chimes and the phone receives a notification. One Home view supports seeing the visitor, switching to the package view, talking and unlocking. The doorbell combines a 2.5K front camera with a Full HD lower camera. Compatible iPhone/Watch home keys support UWB approach unlocking, alongside tap, PIN and a key. iCloud+ keeps ten days of event history; eligible plans and AI devices add summaries and natural-language search. The indoor camera physically tilts down when the first household member returns, making its non-monitoring state visible."
+            },
+            "source_ids": [
+              "S05"
+            ]
+          },
+          {
+            "heading": {
+              "zh": "配件售价与整合价值",
+              "en": "Accessory prices and integration value"
+            },
+            "body": {
+              "zh": "从12月开始供应，部分配件延至2027年初。加拿大起价（CAD）：有线门铃349.95、泛光摄像头549.95、室外插电摄像头399.95、室内插电摄像头279.95；门锁479.95；LG与Schneider温控器各279.95，配套温湿度/房间传感器各54.95。摄像头面向美国、加拿大和英国；门锁、温控器与传感器面向美国和加拿大。安装配件另售；美国Apple Retail提供ADT付费安装。 现有Works with Apple Home与Matter已经让不同品牌接入家庭；本次新增的是苹果参与联合设计、从NFC设置到Home控制都一致的一组配件。门铃查看与门锁操作被放入一个视图；摄像头事件检索和按人在/离家调温减少了用户在录像时间线与固定日程表里的手工操作。",
+              "en": "Availability begins in December, with some accessories delayed until early 2027. Canadian starting prices (CAD): wired doorbell 349.95, floodlight camera 549.95, plug-in outdoor camera 399.95, plug-in indoor camera 279.95; lock 479.95; LG and Schneider thermostats 279.95 each, associated temperature/room sensors 54.95 each. Cameras are announced for the US, Canada, and UK; locks, thermostats, and sensors for the US and Canada. Installation accessories cost extra, and US Apple Retail offers paid ADT installation. Existing Works with Apple Home and Matter devices already connected different brands. The new range adds co-designed products with a consistent path from NFC setup to Home controls. Doorbell viewing and unlocking share a view, while event search and occupancy-based temperature adjustment reduce manual work in video timelines and fixed schedules."
+            },
+            "source_ids": [
+              "S05"
+            ]
+          }
+        ],
+        "availability": {
+          "zh": "截至截点均未交付：HomeView11月13日、配件12月起。视频AI功能另需兼容设备/中枢与合资格iCloud+；录像容量不等于AI配额。售价保持英国GBP与加拿大CAD口径，不换算成全球统一价格。",
+          "en": "None had shipped by the cutoff: HomeView is announced for November 13 and accessories from December. Video AI needs compatible devices/hubs and eligible iCloud+; recording capacity is not the AI quota. Prices retain their UK GBP and Canadian CAD basis, not a global price."
+        },
+        "visuals": [
+          {
+            "id": "homeview-identity",
+            "source_id": "S04",
+            "source_page": "https://www.apple.com/uk/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/",
+            "url": "https://www.apple.com/newsroom/images/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/article/Apple-HomeView-user-recognition-261013_inline.jpg.large.jpg",
+            "caption": {
+              "zh": "HomeView以人脸识别最多六位用户，切换个人主屏与小组件",
+              "en": "HomeView recognizes up to six users and changes the personal Home Screen and widgets"
+            },
+            "kind": "official product UI image",
+            "credit": "Apple",
+            "retrieval_status": "Exact image URL found on official page; setup image also resolved by web.open",
+            "source_url": "https://www.apple.com/uk/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/",
+            "rights_note": {
+              "zh": "原厂公开演示素材，署名原厂；未确认开放再分发许可。",
+              "en": "Public vendor demonstration material; credit the vendor. No open redistribution licence confirmed."
+            }
+          },
+          {
+            "id": "homeview-recipe",
+            "source_id": "S04",
+            "source_page": "https://www.apple.com/uk/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/",
+            "url": "https://www.apple.com/newsroom/images/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/article/Apple-HomeView-Cooking-261013_big.jpg.large.jpg",
+            "caption": {
+              "zh": "HomeView将网页菜谱放到厨房的分步操作界面中",
+              "en": "HomeView presents a recipe as an in-kitchen cooking interface"
+            },
+            "kind": "official product UI image",
+            "credit": "Apple",
+            "retrieval_status": "Exact image URL found on official page; setup image also resolved by web.open",
+            "source_url": "https://www.apple.com/uk/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/",
+            "rights_note": {
+              "zh": "原厂公开演示素材，署名原厂；未确认开放再分发许可。",
+              "en": "Public vendor demonstration material; credit the vendor. No open redistribution licence confirmed."
+            }
+          },
+          {
+            "id": "homeview-home-controls",
+            "source_id": "S04",
+            "source_page": "https://www.apple.com/uk/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/",
+            "url": "https://www.apple.com/newsroom/images/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/article/Apple-HomeView-home-touch-261013_big.jpg.large.jpg",
+            "caption": {
+              "zh": "HomeView的触屏家庭配件控制界面",
+              "en": "HomeView’s touch interface for household accessories"
+            },
+            "kind": "official product UI image",
+            "credit": "Apple",
+            "retrieval_status": "Exact image URL found on official page; setup image also resolved by web.open",
+            "source_url": "https://www.apple.com/uk/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/",
+            "rights_note": {
+              "zh": "原厂公开演示素材，署名原厂；未确认开放再分发许可。",
+              "en": "Public vendor demonstration material; credit the vendor. No open redistribution licence confirmed."
+            }
+          },
+          {
+            "id": "collection-setup",
+            "source_id": "S05",
+            "source_page": "https://www.apple.com/ca/newsroom/2026/10/introducing-apple-home-collection-a-new-lineup-of-smart-home-accessories/",
+            "url": "https://www.apple.com/newsroom/images/2026/10/introducing-apple-home-collection-a-new-lineup-of-smart-home-accessories/article/Apple-Home-Collection-setup-261013_inline.jpg.large.jpg",
+            "caption": {
+              "zh": "NFC配对后显示门铃设置卡片和Set Up入口",
+              "en": "A doorbell setup card and Set Up entry after NFC pairing"
+            },
+            "kind": "official phone UI image",
+            "credit": "Apple",
+            "retrieval_status": "Exact image URL found on official page; setup image also resolved by web.open",
+            "source_url": "https://www.apple.com/ca/newsroom/2026/10/introducing-apple-home-collection-a-new-lineup-of-smart-home-accessories/",
+            "rights_note": {
+              "zh": "原厂公开演示素材，署名原厂；未确认开放再分发许可。",
+              "en": "Public vendor demonstration material; credit the vendor. No open redistribution licence confirmed."
+            }
+          },
+          {
+            "id": "collection-dashboard",
+            "source_id": "S05",
+            "source_page": "https://www.apple.com/ca/newsroom/2026/10/introducing-apple-home-collection-a-new-lineup-of-smart-home-accessories/",
+            "url": "https://www.apple.com/newsroom/images/2026/10/introducing-apple-home-collection-a-new-lineup-of-smart-home-accessories/article/Apple-Home-Collection-HomeView-261013_big.jpg.large.jpg",
+            "caption": {
+              "zh": "HomeView整合庭院摄像头画面与家庭状态",
+              "en": "HomeView combines a garden-camera view with household status"
+            },
+            "kind": "official product UI image",
+            "credit": "Apple",
+            "retrieval_status": "Exact image URL found on official page; setup image also resolved by web.open",
+            "source_url": "https://www.apple.com/ca/newsroom/2026/10/introducing-apple-home-collection-a-new-lineup-of-smart-home-accessories/",
+            "rights_note": {
+              "zh": "原厂公开演示素材，署名原厂；未确认开放再分发许可。",
+              "en": "Public vendor demonstration material; credit the vendor. No open redistribution licence confirmed."
+            }
+          },
+          {
+            "id": "collection-indoor-camera",
+            "source_id": "S05",
+            "source_page": "https://www.apple.com/ca/newsroom/2026/10/introducing-apple-home-collection-a-new-lineup-of-smart-home-accessories/",
+            "url": "https://www.apple.com/newsroom/images/2026/10/introducing-apple-home-collection-a-new-lineup-of-smart-home-accessories/article/Apple-Home-Collection-LG-Indoor-Cam-Plug-In-261013_big.jpg.large.jpg",
+            "caption": {
+              "zh": "室内摄像头用抬头与低头显示监控和隐私状态",
+              "en": "The indoor camera uses physical tilt to show monitoring and privacy states"
+            },
+            "kind": "official product image",
+            "credit": "Apple",
+            "retrieval_status": "Exact image URL found on official page; setup image also resolved by web.open",
+            "source_url": "https://www.apple.com/ca/newsroom/2026/10/introducing-apple-home-collection-a-new-lineup-of-smart-home-accessories/",
+            "rights_note": {
+              "zh": "原厂公开演示素材，署名原厂；未确认开放再分发许可。",
+              "en": "Public vendor demonstration material; credit the vendor. No open redistribution licence confirmed."
+            }
+          }
+        ],
+        "event_at": "2026-10-13"
+      },
+      {
+        "id": "H04",
+        "type": "developer_issue",
+        "title": {
+          "zh": "AgentScope Java：两个 researcher，为何挤在同一条时间线上？",
+          "en": "AgentScope Java: why two researchers collapse into one timeline"
+        },
+        "dek": {
+          "zh": "这不是新消费应用，而是多代理产品的真实接线问题：类型名称不能充当任务实例标识。",
+          "en": "A concrete integration problem for multi-agent products: a type name cannot identify a task instance."
+        },
+        "source_ids": [
+          "S06",
+          "S07"
+        ],
+        "sections": [
+          {
+            "heading": {
+              "zh": "出问题的操作链",
+              "en": "The failing interaction"
+            },
+            "body": {
+              "zh": "开发者在同一轮派出两个 agent_spawn(agent_id=\"researcher\")，由 streamEvents() 接回思考、文本和工具事件。2.0.x 的 source 都是同一个 parentSession/researcher，因此前端按 source 分组时，两项任务的片段混在一起。报告者暂时用提示词禁止同名并行，并让界面降级显示“无法拆分”；这等于牺牲并行能力来保住可读性。",
+              "en": "A developer spawns two agents named researcher in one turn and consumes thinking, text and tool events through streamEvents(). On 2.0.x their source label is the same parentSession/researcher path. A UI grouping by source interleaves both tasks. The reported workaround bans same-name parallel dispatch in the prompt and falls back to an unsplittable display, trading concurrency for readability."
+            },
+            "source_ids": [
+              "S06"
+            ]
+          },
+          {
+            "heading": {
+              "zh": "读完讨论才得到的修正",
+              "en": "The correction inside the discussion"
+            },
+            "body": {
+              "zh": "当前 main 已有 execution，其中 sessionId、turnId、runId 能标识子任务；报告者随后复现并确认，并行同名任务也能区分。UI 应按 execution 身份分组，START/END 边界事件则另用 sessionId 与 replyId 配对。2.0.x 没有这个字段，配套维护分支 PR 提议保留 childSessionId；嵌套转发必须保住最内层身份，不能每经过一层就覆盖。",
+              "en": "Current main already has execution identity, including sessionId, turnId and runId. The reporter subsequently confirmed it works for parallel same-name children. Consumers can group forwarded events by execution; START/END wrappers need their sessionId and replyId pairing separately. The 2.0.x line lacks that field. A maintenance-line PR proposes childSessionId, preserving the innermost identity across nested forwarding rather than overwriting it at every hop."
+            },
+            "source_ids": [
+              "S06"
+            ]
+          },
+          {
+            "heading": {
+              "zh": "另一个可落地的排障点",
+              "en": "A second actionable integration detail"
+            },
+            "body": {
+              "zh": "另一条讨论把上下文压缩和长期记忆拆开：main 的 compaction 管本次请求摘要，memory 管会话外的保存与整合。模型不返回窗口大小时，token 触发阈值会回退到160k；若真实窗口更小，摘要就可能来不及。实际接入时先核对模型窗口和 triggerTokens，而不是以为接上长期记忆就解决请求超长。对产品界面，任务实例、版本与预算应是可见状态，而不只是后台日志。",
+              "en": "A separate discussion distinguishes compaction, which summarizes the current request context, from memory, which persists and consolidates information beyond the session. If the model reports no context window, the token trigger falls back to 160k; a smaller real window can overflow first. Check the adapter’s window and triggerTokens rather than treating long-term memory as a fix for oversized requests. For product UI, task identity, version and budget are meaningful visible state, not merely backend logs."
+            },
+            "source_ids": [
+              "S07"
+            ]
+          }
+        ],
+        "availability": {
+          "zh": "Java SDK/开发者集成议题；main 与2.0.x不能混写。130k溢出为用户报告，回复者未复现；维护PR不等于已发布修复。",
+          "en": "Java SDK/integration issue. Keep main distinct from 2.0.x. The reported 130k overflow was not reproduced by the responder; a maintenance PR is not a shipped fix."
+        },
+        "visuals": [],
+        "visual_brief": {
+          "zh": "用本期原创两列事件流图：左栏同source交错，右栏execution.sessionId A/B分开；标“依据issue的事件结构示意，非产品截图”。不伪造SDK没有的GUI。",
+          "en": "Draw an original event-flow comparison: identical source labels interleaved versus execution.sessionId A/B separated. Label it an issue-based event-structure diagram, not a product screenshot; do not invent a GUI for the SDK."
+        },
+        "short_name": "AgentScope Java",
+        "event_at": "2026-10-12/2026-10-13"
+      },
+      {
+        "id": "H05",
+        "type": "research_and_developer_tool",
+        "title": {
+          "zh": "TIPER × agent-risk：用户变难、策略变了，怎么测？",
+          "en": "TIPER × agent-risk: test harder users and changed policies"
+        },
+        "dek": {
+          "zh": "一个改变测试用户的行为；另一个判断旧日志能否回答新策略的风险。两者给开发者不同的入口。",
+          "en": "One changes simulated user behaviour; the other asks what old logs can establish about a new policy."
+        },
+        "source_ids": [
+          "S08",
+          "S09",
+          "R01",
+          "R02"
+        ],
+        "sections": [
+          {
+            "heading": {
+              "zh": "TIPER：难度来自互动，不是把任务改坏",
+              "en": "TIPER: harder interaction without invalidating the task"
+            },
+            "body": {
+              "zh": "TIPER 先让代理与模拟用户完成任务，再从失败轨迹中修改持续性的用户行为，并筛掉破坏原任务事实或可解性的候选。论文报告12个GPT-5.4测试设置的avg@3下降5.8–33.7个百分点。它更适合用于发现客服、订票或协作编码里“信息给得少、节奏不同”暴露的弱点，而不是把一个平均分直接当上线结论。",
+              "en": "TIPER evolves persistent simulated-user behaviour from interaction failures, rejecting candidates that invalidate task facts or solvability. The authors report avg@3 reductions of 5.8–33.7 percentage points across 12 GPT-5.4 settings. Its useful application is diagnosing weaknesses exposed by sparse information or different interaction pacing in support, booking or collaborative coding, rather than turning one average score into a release decision."
+            },
+            "source_ids": [
+              "S08"
+            ]
+          },
+          {
+            "heading": {
+              "zh": "agent-risk：先判断旧记录够不够用",
+              "en": "agent-risk: first decide whether the old record is sufficient"
+            },
+            "body": {
+              "zh": "这个项目提供 Python 包 ai-agent-risk。输入每步分数、是否造成伤害、成本和最终失败标记，replay_stop 将记录分为照旧运行或被新阈值停止；继续走出旧日志的分支则需保存状态后的重跑或风险界限。certify_replay 给出伤害上界。与把全部任务从头再跑一遍相比，它试图只重跑证据不足的分支；但换模型也可能令旧轨迹全部失去可复用性。",
+              "en": "The ai-agent-risk Python package accepts per-step scores, harm flags, costs and final failure status. replay_stop identifies episodes that proceed unchanged or stop under a new threshold; continuations beyond the old record need saved-state reruns or bounds. certify_replay returns a harm bound. Instead of rerunning everything from scratch, this approach targets branches with insufficient evidence, although a model swap can make old trajectories unusable."
+            },
+            "source_ids": [
+              "S09",
+              "R02"
+            ]
+          }
+        ],
+        "availability": {
+          "zh": "TIPER论文公开，所链GitHub仓库本次读到为空，不能称代码已可运行。agent-risk仓库有Python≥3.9快速入门、代码与复现实验入口；本刊未安装或复现。",
+          "en": "TIPER’s paper is public, but its linked GitHub repository read as empty during this review, so runnable code is not confirmed. agent-risk documents Python ≥3.9, a quickstart and reproduction artifacts; we did not install or reproduce it."
+        },
+        "visuals": [
+          {
+            "url": "https://arxiv.org/html/2610.16155v1/method3.png",
+            "source_url": "https://arxiv.org/html/2610.16155v1",
+            "caption": {
+              "zh": "TIPER论文图2：行为变异、任务完整性筛选与选择。",
+              "en": "TIPER Figure 2: behaviour mutation, task-integrity filtering and selection."
+            },
+            "rights_note": {
+              "zh": "论文标CC BY 4.0；署名Yutao Xie等并链接论文与许可。该图URL来自原文链接，抓取图片失败，排版前需验证。",
+              "en": "Paper marked CC BY 4.0; attribute Yutao Xie et al. and link paper/licence. URL is from the paper; image fetch failed, so verify before layout."
+            },
+            "verification_status": "linked_in_original_image_fetch_failed"
+          }
+        ],
+        "short_name": "TIPER + agent-risk",
+        "event_at": "2026-10-12"
+      },
+      {
+        "id": "H06",
+        "type": "product_launch",
+        "title": {
+          "en": "Deep Review: upload a document, add context, receive a technical review",
+          "zh": "Deep Review：上传文档、补充背景，领取技术审阅报告"
+        },
+        "dek": {
+          "en": "Google opened Deep Review publicly, extending its conference-paper reviewer into a dedicated document-review product.",
+          "zh": "Google 将论文审阅工具 Deep Review 向公众开放，扩展为独立的文档审阅产品。"
+        },
+        "sections": [
+          {
+            "heading": {
+              "zh": "实际入口与操作",
+              "en": "Entry and workflow"
+            },
+            "body": {
+              "zh": "入口是 Google Research 的 Deep Review 网页，使用 Google 账号登录。 上传 PDF 或粘贴文本，可补充自定义背景。提交审阅后，在文档列表中查看结果。据 Google，代理先分段、按难度分配算力，再并行验证、汇总并核对依据。",
+              "en": "Open the Google Research portal and sign in with Google. Upload a PDF or paste text; optionally add custom context. Submit for review; results appear in the document list. Google says agents segment the document, allocate effort by section, verify in parallel, then synthesize and ground findings."
+            },
+            "source_ids": [
+              "S10",
+              "S11"
+            ]
+          },
+          {
+            "heading": {
+              "zh": "它解决哪一步工作",
+              "en": "Where it fits in the work"
+            },
+            "body": {
+              "zh": "官方列出的用途包括检查设计文档的架构假设，以及演示图表与结论是否一致。 与在通用聊天里让模型“读一遍并挑错”相比，这里把输入、背景和结果列表做成固定入口，后台再分工验证。使用价值在于把长文档的论点检查变成可重复提交的专门任务，而不是要求作者先写一套审稿提示词。",
+              "en": "Google’s examples include architectural assumptions in design documents and mismatches between presentation charts and conclusions. Compared with asking a general chat model to read and criticize a file, this interface gives submission, context and results a stable home while the backend divides verification work. The useful distinction is a repeatable document-review task, without asking the author to design a reviewing prompt from scratch."
+            },
+            "source_ids": [
+              "S10",
+              "S11"
+            ]
+          },
+          {
+            "heading": {
+              "zh": "价格与可用范围",
+              "en": "Price and access"
+            },
+            "body": {
+              "en": "Public worldwide. Live portal: two free weekly reviews using Gemini 4 Argon Medium; extra runs use the user’s Gemini API key and model-call charges. Its 40-page estimate ranges from about $3 to $20 by configuration.",
+              "zh": "官方称已面向全球公开。现查入口每周提供两次免费审阅，使用 Gemini 4 Argon Medium；超出后接入自己的 Gemini API key，按模型调用计费。页面对 40 页文档给出约 $3–$20 的配置相关估算。"
+            },
+            "source_ids": [
+              "S10",
+              "S11"
+            ]
+          }
+        ],
+        "availability": {
+          "en": "Multi-file input is still forthcoming. The announcement specifies PDF/text; the portal FAQ additionally lists Docs/Slides, without a matching visible import control in the retrieved page. Documents are retained for up to one year.",
+          "zh": "多文件输入仍未推出。公告写明 PDF／文本，入口 FAQ 另列 Docs／Slides，但检索到的页面未显示对应导入控件。文档最长保留一年。"
+        },
+        "source_ids": [
+          "S10",
+          "S11"
+        ],
+        "visuals": [
+          {
+            "url": "https://storage.googleapis.com/gweb-research2023-media/images/DeepReview3_pipeline.width-1250.png",
+            "source_url": "https://research.google/blog/analyzing-technical-documents-with-deep-review/",
+            "kind": "Official explanatory diagram",
+            "caption": {
+              "en": "Google’s four-stage Deep Review pipeline. This is a system diagram, not a product screenshot.",
+              "zh": "Google 官方的 Deep Review 四阶段流程图。此图是系统示意，并非产品截图。"
+            },
+            "original_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/DeepReview3_pipeline.png"
+          },
+          {
+            "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/DeepReview2.jpg",
+            "source_url": "https://research.google/blog/analyzing-technical-documents-with-deep-review/",
+            "kind": "Official article hero illustration",
+            "caption": {
+              "en": "Google’s Deep Review announcement artwork.",
+              "zh": "Google 的 Deep Review 公告配图。"
+            }
+          }
+        ],
+        "short_name": "Deep Review",
+        "event_at": "2026-10-14"
+      },
+      {
+        "id": "H07",
+        "type": "limited_preview",
+        "title": {
+          "en": "Earth AI: ask on a map, inspect the plan, or connect an agent",
+          "zh": "Earth AI：在地图上提问、检查分析计划，或接入自己的代理"
+        },
+        "dek": {
+          "en": "Google expanded limited experimental access through Ask Google Earth and a headless agent-to-agent service.",
+          "zh": "Google 扩大实验性早期访问，提供 Ask Google Earth 与无界面的代理间服务两种入口。"
+        },
+        "sections": [
+          {
+            "heading": {
+              "zh": "实际入口与操作",
+              "en": "Entry and workflow"
+            },
+            "body": {
+              "zh": "需通过官方意向表申请；新增深度分析预览尚未普遍开放。 在 Earth 聊天界面提出空间问题，直接查看地图结果。据 Google，每次回答展示分析计划和数据来源，专家可检查假设或替换数据。定制流程走 API，可传入 CSV、GeoJSON 边界或云端表，再与 Earth AI 数据联合分析。",
+              "en": "Apply through the official interest form; the new deep-analysis preview is not generally available. Ask a spatial question in Earth chat and inspect mapped results. Google says each answer exposes its analytical plan and data sources, letting experts check assumptions or replace datasets. For custom workflows, the API accepts CSV, GeoJSON boundaries and cloud tables, joining them with Earth AI data."
+            },
+            "source_ids": [
+              "S16",
+              "R03",
+              "R04"
+            ]
+          },
+          {
+            "heading": {
+              "zh": "它解决哪一步工作",
+              "en": "Where it fits in the work"
+            },
+            "body": {
+              "zh": "官方案例称，Milken Institute 将 1,500 多栋候选建筑清单与 Solar API、人口普查数据结合，筛选社区韧性中心地点。 与分析师手工把设施表、地图和人口数据在多个工具间搬运相比，这个接口把自然语言问题与地图结果放在一起；能检查分析计划、替换数据的专家，才有机会把模型建议接回选址流程。",
+              "en": "Google reports that Milken Institute screened 1,500+ candidate buildings using its list, Solar API and census data for community resilience hubs. Instead of manually moving facility lists, maps and census data between tools, this interface connects a natural-language question to mapped results. Experts can inspect the plan and replace data before carrying a recommendation into site-selection work."
+            },
+            "source_ids": [
+              "S16",
+              "R03",
+              "R04"
+            ]
+          },
+          {
+            "heading": {
+              "zh": "价格与可用范围",
+              "en": "Price and access"
+            },
+            "body": {
+              "en": "Limited early access; the announcement gives no price for the expanded preview or A2A service.",
+              "zh": "仅限获准的早期用户；公告未给出本次扩展预览或 A2A 服务的价格。"
+            },
+            "source_ids": [
+              "S16",
+              "R03",
+              "R04"
+            ]
+          },
+          {
+            "heading": {
+              "zh": "现有聊天入口的已知边界",
+              "en": "Known limits of the existing chat"
+            },
+            "body": {
+              "en": "Existing Ask Google Earth documentation, updated October 13, describes web/English access including Canada, a 500-feature query cap, a five-minute timeout and no export of queried results. These describe the baseline chat, not separately confirmed new-preview limits.",
+              "zh": "10 月 13 日更新的现有 Ask Google Earth 文档写明：仅网页、英语，地区包括加拿大；每次最多返回 500 个要素，五分钟超时，查询结果不可导出。这些是现有聊天功能限制，不能直接视为新预览的已确认限制。"
+            },
+            "source_ids": [
+              "R04"
+            ]
+          }
+        ],
+        "availability": {
+          "en": "Baseline chat documentation says queries may be human-reviewed and instructs users not to enter confidential information. API data handling must be checked separately.",
+          "zh": "现有聊天文档说明查询可能由人工审阅，并要求不要输入机密信息；API 的数据处理规则需单独核验。"
+        },
+        "source_ids": [
+          "S16",
+          "R03",
+          "R04"
+        ],
+        "visuals": [
+          {
+            "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/EarthAITechReport1_Overview.gif",
+            "source_url": "https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/",
+            "kind": "Official explanatory animation",
+            "caption": {
+              "en": "Google’s workflow from a question to a plan, tool selection, and a text/table/map report.",
+              "zh": "Google 示意：从提问到制定计划、调用工具，再形成文字、表格和地图报告。"
+            }
+          },
+          {
+            "url": "https://storage.googleapis.com/gweb-research2023-media/media/GeospatialReasoningMicrosite_datacard.mp4",
+            "source_url": "https://sites.research.google/gr/geospatial-reasoning/",
+            "kind": "Official product demo video",
+            "caption": {
+              "en": "Google demo: import facility-location data into an urban-planning workflow.",
+              "zh": "Google 官方演示：将设施位置数据导入城市规划流程。"
+            },
+            "verification": "Link and official label verified; video not watched."
+          },
+          {
+            "url": "https://storage.googleapis.com/gweb-research2023-media/media/GeospatialReasoningMicrosite_APIs_30fps.mp4",
+            "source_url": "https://sites.research.google/gr/geospatial-reasoning/",
+            "kind": "Official product demo video",
+            "caption": {
+              "en": "Google demo: combine satellite change detection and routing for site selection.",
+              "zh": "Google 官方演示：结合卫星变化检测与路线数据进行选址。"
+            },
+            "verification": "Link and official label verified; video not watched."
+          },
+          {
+            "url": "https://storage.googleapis.com/gweb-research2023-media/media/GeospatialReasoning8_A2Awindspeed_32mb.mp4",
+            "source_url": "https://sites.research.google/gr/geospatial-reasoning/",
+            "kind": "Official product demo video",
+            "caption": {
+              "en": "Google demo: connect geospatial capabilities to an enterprise workspace over A2A.",
+              "zh": "Google 官方演示：通过 A2A 将地理空间能力接入企业工作区。"
+            },
+            "verification": "Link and official label verified; video not watched."
+          }
+        ],
+        "short_name": "Earth AI",
+        "event_at": "2026-10-14"
+      }
+    ],
+    "sources": [
+      {
+        "id": "S01",
+        "title": "MorningAI Website Agent",
+        "url": "https://www.morningai.com/blog/october-12-2026-product-updates",
+        "published_at": "2026-10-12",
+        "event_at": "2026-10-12",
+        "time_precision": "date",
+        "source_type": "official",
+        "evidence_locator": "Website Agent, social campaigns and Channels sections; original workflow illustrations",
+        "observed_at": "2026-10-15T00:13:00Z",
+        "observation_time_note": "Read during 00:11–00:13 UTC research; timestamp is rounded, not source publication time.",
+        "verification": "Original page read; no hands-on product test",
+        "boundary_status": "Publication date falls within the calendar window; exact time and original timezone are not stated.",
+        "publisher": "MorningAI",
+        "publication_date": "2026-10-12",
+        "publication_precision": "date",
+        "verification_status": "Original page read; no hands-on product test",
+        "claim_type": "source disclosure, not hands-on validation",
+        "origin_group": "S01",
+        "short_title": "MorningAI Website Agent",
+        "rechecked_at": "2026-10-15T01:25:00Z"
+      },
+      {
+        "id": "S02",
+        "title": "Gemini 4 Argon is now available in the Gemini app",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/",
+        "published_at": "2026-10-13T16:00:00+00:00",
+        "event_at": "2026-10-13",
+        "time_precision": "date",
+        "source_type": "official",
+        "evidence_locator": "Chat/tasks toggle; availability paragraph",
+        "observed_at": "2026-10-15T00:13:00Z",
+        "observation_time_note": "Read during 00:11–00:13 UTC research; timestamp is rounded, not source publication time.",
+        "verification": "Original page read; no hands-on product test",
+        "boundary_status": "Publication date falls within the calendar window; exact time and original timezone are not stated.",
+        "publisher": "Google",
+        "publication_date": "2026-10-13",
+        "publication_precision": "timestamp",
+        "verification_status": "Original page read; no hands-on product test",
+        "claim_type": "source disclosure, not hands-on validation",
+        "origin_group": "google-argon-oct13",
+        "short_title": "Gemini 4 Argon app",
+        "rechecked_at": "2026-10-15T01:25:00Z",
+        "read_at": "2026-10-15T01:22:24Z",
+        "retrieval": "Full original-page markdown, including availability and footnotes; cached Firecrawl response",
+        "cached_at": "2026-10-15T01:02:46.210Z",
+        "status_code": 200
+      },
+      {
+        "id": "S03",
+        "title": "Gemini 4 Argon is now available for developers",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/",
+        "published_at": "2026-10-13T16:00:00+00:00",
+        "event_at": "2026-10-13",
+        "time_precision": "date",
+        "source_type": "developer surface",
+        "evidence_locator": "Paid API and development surfaces",
+        "observed_at": "2026-10-15T00:13:00Z",
+        "observation_time_note": "Read during 00:11–00:13 UTC research; timestamp is rounded, not source publication time.",
+        "verification": "Original page read; no hands-on product test",
+        "boundary_status": "Publication date falls within the calendar window; exact time and original timezone are not stated.",
+        "publisher": "Google",
+        "publication_date": "2026-10-13",
+        "publication_precision": "timestamp",
+        "verification_status": "Original page read; no hands-on product test",
+        "claim_type": "source disclosure, not hands-on validation",
+        "origin_group": "google-argon-oct13",
+        "short_title": "Gemini 4 Argon developer access",
+        "rechecked_at": "2026-10-15T01:25:00Z",
+        "read_at": "2026-10-15T01:22:24Z",
+        "retrieval": "Full original-page markdown, including availability and footnotes; cached Firecrawl response",
+        "cached_at": "2026-10-15T01:02:44.800Z",
+        "status_code": 200
+      },
+      {
+        "id": "S04",
+        "title": "Meet Apple HomeView, a new way to enjoy entertainment and manage the home - Apple (UK)",
+        "url": "https://www.apple.com/uk/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/",
+        "published_at": "2026-10-13",
+        "event_at": "2026-10-13",
+        "time_precision": "date",
+        "source_type": "official",
+        "evidence_locator": "Opening; personalised experience; availability",
+        "observed_at": "2026-10-15T00:13:00Z",
+        "observation_time_note": "Read during 00:11–00:13 UTC research; timestamp is rounded, not source publication time.",
+        "verification": "Original page read; no hands-on product test",
+        "boundary_status": "Publication date falls within the calendar window; exact time and original timezone are not stated.",
+        "publisher": "Apple",
+        "publication_date": "2026-10-13",
+        "publication_precision": "date",
+        "verification_status": "Original page read; no hands-on product test",
+        "claim_type": "source disclosure, not hands-on validation",
+        "origin_group": "apple-home-oct13",
+        "short_title": "Apple HomeView",
+        "rechecked_at": "2026-10-15T01:25:00Z",
+        "read_at": "2026-10-15T01:22:24Z",
+        "retrieval": "Full original-page markdown, including availability and footnotes; cached Firecrawl response",
+        "cached_at": "2026-10-14T04:54:57.718Z",
+        "status_code": 200
+      },
+      {
+        "id": "S05",
+        "title": "Introducing Apple Home Collection, a new lineup of smart home accessories - Apple (CA)",
+        "url": "https://www.apple.com/ca/newsroom/2026/10/introducing-apple-home-collection-a-new-lineup-of-smart-home-accessories/",
+        "published_at": "2026-10-13",
+        "event_at": "2026-10-13",
+        "time_precision": "date",
+        "source_type": "official",
+        "evidence_locator": "Opening; availability; footnotes",
+        "observed_at": "2026-10-15T00:13:00Z",
+        "observation_time_note": "Read during 00:11–00:13 UTC research; timestamp is rounded, not source publication time.",
+        "verification": "Original page read; no hands-on product test",
+        "boundary_status": "Publication date falls within the calendar window; exact time and original timezone are not stated.",
+        "publisher": "Apple",
+        "publication_date": "2026-10-13",
+        "publication_precision": "date",
+        "verification_status": "Original page read; no hands-on product test",
+        "claim_type": "source disclosure, not hands-on validation",
+        "origin_group": "apple-home-oct13",
+        "short_title": "Apple Home Collection",
+        "rechecked_at": "2026-10-15T01:25:00Z",
+        "read_at": "2026-10-15T01:22:24Z",
+        "retrieval": "Full original-page markdown, including availability and footnotes; cached Firecrawl response",
+        "cached_at": "2026-10-14T06:15:58.516Z",
+        "status_code": 200
+      },
+      {
+        "id": "S06",
+        "title": "AgentScope event correlation issue #3525",
+        "url": "https://github.com/agentscope-ai/agentscope-java/issues/3525",
+        "published_at": "2026-10-13",
+        "event_at": "2026-10-13",
+        "time_precision": "date",
+        "source_type": "community/developer",
+        "evidence_locator": "Original report plus contributor and author replies",
+        "observed_at": "2026-10-15T00:13:00Z",
+        "observation_time_note": "Read during 00:11–00:13 UTC research; timestamp is rounded, not source publication time.",
+        "verification": "Original page read; no hands-on product test",
+        "boundary_status": "Publication date falls within the calendar window; exact time and original timezone are not stated.",
+        "publisher": "AgentScope GitHub contributors",
+        "publication_date": "2026-10-13",
+        "publication_precision": "date",
+        "verification_status": "Original page read; no hands-on product test",
+        "claim_type": "reported observation, not independently reproduced",
+        "origin_group": "S06",
+        "short_title": "AgentScope event correlation issue #3525",
+        "rechecked_at": "2026-10-15T01:25:00Z"
+      },
+      {
+        "id": "S07",
+        "title": "AgentScope context issue #3515",
+        "url": "https://github.com/agentscope-ai/agentscope-java/issues/3515",
+        "published_at": "2026-10-12",
+        "event_at": "2026-10-12",
+        "time_precision": "date",
+        "source_type": "community/developer",
+        "evidence_locator": "Report and Oct13 contributor response",
+        "observed_at": "2026-10-15T00:13:00Z",
+        "observation_time_note": "Read during 00:11–00:13 UTC research; timestamp is rounded, not source publication time.",
+        "verification": "Original page read; no hands-on product test",
+        "boundary_status": "Publication date falls within the calendar window; exact time and original timezone are not stated.",
+        "publisher": "AgentScope GitHub contributors",
+        "publication_date": "2026-10-12",
+        "publication_precision": "date",
+        "verification_status": "Original page read; no hands-on product test",
+        "claim_type": "reported observation, not independently reproduced",
+        "origin_group": "S07",
+        "short_title": "AgentScope context issue #3515",
+        "rechecked_at": "2026-10-15T01:25:00Z"
+      },
+      {
+        "id": "S08",
+        "title": "TIPER research",
+        "url": "https://arxiv.org/abs/2610.16155",
+        "published_at": "2026-10-12T04:30:20Z",
+        "event_at": "2026-10-12T04:30:20Z",
+        "time_precision": "second",
+        "source_type": "research",
+        "evidence_locator": "Abstract; v1 submission history",
+        "observed_at": "2026-10-15T00:13:00Z",
+        "observation_time_note": "Read during 00:11–00:13 UTC research; timestamp is rounded, not source publication time.",
+        "verification": "Original page read; no hands-on product test",
+        "boundary_status": "Exact UTC submission timestamp falls within the reporting window.",
+        "publisher": "Paper authors / arXiv",
+        "publication_date": "2026-10-12T04:30:20Z",
+        "publication_precision": "second",
+        "verification_status": "Original page read; no hands-on product test",
+        "claim_type": "authors' research claims, abstract-level verification",
+        "origin_group": "S08",
+        "short_title": "TIPER research",
+        "rechecked_at": "2026-10-15T01:25:00Z"
+      },
+      {
+        "id": "S09",
+        "title": "agent-risk research",
+        "url": "https://arxiv.org/abs/2610.16280",
+        "published_at": "2026-10-12T07:05:34Z",
+        "event_at": "2026-10-12T07:05:34Z",
+        "time_precision": "second",
+        "source_type": "research",
+        "evidence_locator": "Abstract; v1 submission history",
+        "observed_at": "2026-10-15T00:13:00Z",
+        "observation_time_note": "Read during 00:11–00:13 UTC research; timestamp is rounded, not source publication time.",
+        "verification": "Original page read; no hands-on product test",
+        "boundary_status": "Exact UTC submission timestamp falls within the reporting window.",
+        "publisher": "Paper authors / arXiv",
+        "publication_date": "2026-10-12T07:05:34Z",
+        "publication_precision": "second",
+        "verification_status": "Original page read; no hands-on product test",
+        "claim_type": "authors' research claims, abstract-level verification",
+        "origin_group": "S09",
+        "short_title": "agent-risk research",
+        "rechecked_at": "2026-10-15T01:25:00Z"
+      },
+      {
+        "id": "S10",
+        "title": "Deep Review announcement",
+        "url": "https://research.google/blog/analyzing-technical-documents-with-deep-review/",
+        "published_at": "2026-10-14",
+        "event_at": "2026-10-14",
+        "time_precision": "date",
+        "source_type": "official/research",
+        "evidence_locator": "Public-release announcement",
+        "observed_at": "2026-10-15T00:13:00Z",
+        "observation_time_note": "Read during 00:11–00:13 UTC research; timestamp is rounded, not source publication time.",
+        "verification": "Original page read; no hands-on product test",
+        "boundary_status": "Announcement corroborated before cutoff by S15; individual page details read live afterward.",
+        "publisher": "Google",
+        "publication_date": "2026-10-14",
+        "publication_precision": "date",
+        "verification_status": "Original page read; no hands-on product test",
+        "claim_type": "source disclosure, not hands-on validation",
+        "origin_group": "google-research-deepreview",
+        "short_title": "Deep Review announcement",
+        "rechecked_at": "2026-10-15T01:25:00Z"
+      },
+      {
+        "id": "S11",
+        "title": "Deep Review product",
+        "url": "https://research.google/deepreview/",
+        "published_at": null,
+        "event_at": null,
+        "time_precision": "date",
+        "source_type": "official",
+        "evidence_locator": "Current product entry; not an archived cutoff snapshot",
+        "observed_at": "2026-10-15T00:13:00Z",
+        "observation_time_note": "Read during 00:11–00:13 UTC research; timestamp is rounded, not source publication time.",
+        "verification": "Original page read; no hands-on product test",
+        "boundary_status": "Announcement corroborated before cutoff by S15; individual page details read live afterward.",
+        "publisher": "Google",
+        "publication_date": null,
+        "publication_precision": "date",
+        "verification_status": "Original page read; no hands-on product test",
+        "claim_type": "source disclosure, not hands-on validation",
+        "origin_group": "google-research-deepreview",
+        "short_title": "Deep Review product",
+        "rechecked_at": "2026-10-15T01:25:00Z"
+      },
+      {
+        "id": "S15",
+        "title": "Research@ 2026 official roundup",
+        "publisher": "Google",
+        "url": "https://blog.google/innovation-and-ai/technology/research/research-capabilities-intelligence-2026/",
+        "published_at": "2026-10-14T16:15:00Z",
+        "event_at": "2026-10-14T16:15:00Z",
+        "time_precision": "second",
+        "observed_at": "2026-10-15T00:13:20Z",
+        "source_type": "official",
+        "evidence_locator": "JSON-LD datePublished; links to Deep Review and Earth AI",
+        "verification": "Live official HTML checked; announcement presence corroborated before cutoff, not a historical snapshot",
+        "publication_date": "2026-10-14T16:15:00Z",
+        "publication_precision": "second",
+        "verification_status": "Live official HTML checked; announcement presence corroborated before cutoff, not a historical snapshot",
+        "claim_type": "source disclosure, not hands-on validation",
+        "origin_group": "S15",
+        "short_title": "Research@ 2026 official roundup"
+      },
+      {
+        "id": "S16",
+        "title": "Earth AI experimental access",
+        "publisher": "Google Research",
+        "url": "https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/",
+        "published_at": "2026-10-14",
+        "event_at": "2026-10-14",
+        "time_precision": "date",
+        "observed_at": "2026-10-15T00:13:20Z",
+        "source_type": "official/research",
+        "evidence_locator": "Early-access announcement; oversight and limitations",
+        "verification": "Original page read, no access requested or product tested",
+        "boundary_status": "S15 corroborates announcement before cutoff",
+        "publication_date": "2026-10-14",
+        "publication_precision": "date",
+        "verification_status": "Original page read, no access requested or product tested",
+        "claim_type": "source disclosure, not hands-on validation",
+        "origin_group": "S16",
+        "short_title": "Earth AI experimental access",
+        "rechecked_at": "2026-10-15T01:25:00Z"
+      },
+      {
+        "id": "R01",
+        "title": "TIPER code repository",
+        "short_title": "TIPER code repository",
+        "url": "https://github.com/UCSB-NLP-Chang/TIPER",
+        "publisher": "UCSB-NLP-Chang",
+        "publication_date": null,
+        "publication_precision": "undated live page",
+        "observed_at": "2026-10-15T01:25:00Z",
+        "verification_status": "Original linked GitHub page response read as empty; response was cached, not proof of current code availability",
+        "boundary_status": "Supplementary live documentation check; not a new event claim"
+      },
+      {
+        "id": "R02",
+        "title": "agent-risk quickstart",
+        "short_title": "agent-risk quickstart",
+        "url": "https://github.com/yzhao062/agent-risk",
+        "publisher": "Yue Zhao et al.",
+        "publication_date": null,
+        "publication_precision": "undated live page",
+        "observed_at": "2026-10-15T01:25:00Z",
+        "verification_status": "Public original page read; not executed",
+        "boundary_status": "Supplementary live documentation check; not a new event claim"
+      },
+      {
+        "id": "R03",
+        "title": "Geospatial reasoning demos",
+        "short_title": "Geospatial reasoning demos",
+        "url": "https://sites.research.google/gr/geospatial-reasoning/",
+        "publisher": "Google Research",
+        "publication_date": null,
+        "publication_precision": "undated live page",
+        "observed_at": "2026-10-15T01:25:00Z",
+        "verification_status": "Public original page read; not executed",
+        "boundary_status": "Supplementary live documentation check; not a new event claim"
+      },
+      {
+        "id": "R04",
+        "title": "Ask Google Earth documentation",
+        "short_title": "Ask Google Earth documentation",
+        "url": "https://developers.google.com/maps/documentation/earth/gemini/overview",
+        "publisher": "Google Maps Platform",
+        "publication_date": "2026-10-13",
+        "publication_precision": "date",
+        "observed_at": "2026-10-15T01:25:00Z",
+        "verification_status": "Public original page read; not executed",
+        "boundary_status": "Supplementary live documentation check; not a new event claim"
+      }
+    ],
+    "editorial_note": {
+      "zh": "本期为10月12日00:00至10月14日20:10（Toronto）的半周试刊。产品步骤据官方公告与公开页面整理，未登录实测；10月15日UTC重读的价格和文档状态是现查值，非截点历史快照。论文与issue分别标明研究和开发者信号，不能当成用户规模或已上市能力。",
+      "en": "This partial-week pilot covers October 12 00:00 to October 14 20:10 Toronto. Workflows come from official announcements and public pages, not authenticated testing. Pricing/documentation rechecked on October 15 UTC reflects the live page, not a historical cutoff snapshot. Papers and issues are labelled research and developer signals, not adoption or shipped capability."
+    },
+    "layout_instruction": "Keep full references compact on one final page per language. Main text uses source IDs. Do not create a slide per paragraph or add abstract methodology pages."
+  },
+  "opportunities": {
+    "title": {
+      "zh": "实体行业的钱，藏在系统交接的异常里",
+      "en": "The opportunity is in operational exceptions"
+    },
+    "type": "background_research",
+    "verified_at": "2026-10-15",
+    "publication_note": {
+      "zh": "背景专题，非本周产品发布；MVP与试价为作者建议。",
+      "en": "Background research, not this week’s launches. MVPs and test prices are editorial proposals."
+    },
+    "cases": [
+      {
+        "id": "receipt-exceptions",
+        "title": {
+          "zh": "材料票据：只接手没有工单号的异常",
+          "en": "Materials receipts: handle the missing job number"
+        },
+        "role": {
+          "zh": "管道/HVAC承包商办公室管理员、外包记账员",
+          "en": "Office managers and outsourced bookkeepers for plumbing/HVAC contractors"
+        },
+        "trigger": {
+          "zh": "供应商发票到达，却不能直接确定归属工单",
+          "en": "A supplier invoice arrives without a reliable job match"
+        },
+        "input": {
+          "zh": "PDF/收据、采购日期、供应商、物料行、工单清单",
+          "en": "Invoice or receipt, purchase date, supplier, line items and job list"
+        },
+        "before": {
+          "zh": "下载票据→录金额→找工单→问技工→拆分费用→记账员确认",
+          "en": "Download → key amounts → locate job → ask technician → allocate costs → approve"
+        },
+        "after": {
+          "zh": "精确号码先匹配→只把无匹配/多候选/疑似重复送审→人确认→输出带原件链接的批准记录",
+          "en": "Match exact IDs → queue unmatched, ambiguous or duplicate items → human approval → export traceable records"
+        },
+        "incumbent": {
+          "zh": "Jobber已支持扫描发票、邮件转发和按工单号匹配，Plus或Bookkeeping可用。无匹配时仍须手选。",
+          "en": "Jobber already scans and forwards invoices and matches job numbers on Plus or Bookkeeping. Unmatched drafts still need a person to choose the job."
+        },
+        "gap": {
+          "zh": "可验证缺口是无工单号的归属；多工单拆分是待验证需求，不能直接声称原生不支持。",
+          "en": "Missing-ID attribution is a documented boundary. Multi-job allocation remains a hypothesis, not a verified missing feature."
+        },
+        "price": {
+          "zh": "Plus含5用户：$499/月无承诺，或年付折合$399/月；非插件愿付价格。",
+          "en": "Plus with five users: $499/month without commitment, or $399/month billed annually. This is existing spend, not willingness to buy an add-on."
+        },
+        "mvp": {
+          "zh": "一个供应商、一个工种、100张授权历史票据；CSV工单清单；只建议不写账。",
+          "en": "One supplier, one trade, 100 authorized historical receipts, a CSV job list and recommendations without ledger writes."
+        },
+        "validation": {
+          "zh": "试价$150整理100张异常；$49–99/月续用仅在省时明确时测试。测复核秒数、错误归属、人工兜底量。",
+          "en": "Test $150 for 100 exceptions and $49–99/month only if time savings are clear. Measure review time, misallocation and manual intervention."
+        },
+        "costs": {
+          "zh": "200张×30秒复核=100分钟；按假设人工$25/小时，已耗$41.67。接口写回须另核实。",
+          "en": "200 items at 30 seconds of review take 100 minutes: $41.67 at an assumed $25/hour. Verify write endpoints separately."
+        },
+        "distribution": {
+          "zh": "Jobber Partner Directory/Marketplace与承包商记账员；草稿应用最多5个付费账号，公开上线须审核。",
+          "en": "Jobber’s partner ecosystem and contractor bookkeepers. Draft apps connect up to five paying accounts; public distribution requires review."
+        },
+        "sources": [
+          "jobber-scan",
+          "jobber-price",
+          "jobber-review"
+        ],
+        "image": "jobber-sync"
+      },
+      {
+        "id": "reconciliation-exceptions",
+        "title": {
+          "zh": "月末对账：卖闭环证据包，不再造同步器",
+          "en": "Month-end: sell a resolved exception pack"
+        },
+        "role": {
+          "zh": "同时服务多家承包商的记账事务所",
+          "en": "Bookkeeping firms serving multiple contractors"
+        },
+        "trigger": {
+          "zh": "日常同步异常或月末关账",
+          "en": "A sync exception or month-end close"
+        },
+        "input": {
+          "zh": "工单发票/收款/退款/费用与QBO记录",
+          "en": "Field-service invoices, payments, refunds, fees and QBO records"
+        },
+        "before": {
+          "zh": "两边找发票→对金额税率→问老板/客服→手动解决→重试",
+          "en": "Find records in both systems → inspect totals and tax → ask owner/support → resolve → retry"
+        },
+        "after": {
+          "zh": "只读比对→列缺失/差额→附原始记录→分派负责人→人工解决→再次读取验证",
+          "en": "Read-only comparison → flag missing records and differences → attach evidence → assign owner → human resolution → verify again"
+        },
+        "incumbent": {
+          "zh": "Jobber已做单向QBO同步。HCP已提供Sync Alerts，包括税率、同名、闭账期、重复发票号问题。",
+          "en": "Jobber already provides one-way QBO sync. HCP already has Sync Alerts for tax mismatches, name collisions, closed periods and duplicate invoice numbers."
+        },
+        "gap": {
+          "zh": "跨公司未闭环事项、责任人与修复后复查是产品假设；‘发现同步错误’本身不是差异。",
+          "en": "Cross-client ownership and post-resolution verification are the product hypothesis. Simply detecting sync errors is not differentiation."
+        },
+        "price": {
+          "zh": "HCP MAX开放API：$329常规月付，或年付$299/月，8用户。先算客户升级费。",
+          "en": "HCP API requires MAX: $329 regular monthly or $299/month billed annually, eight users. Include any upgrade cost."
+        },
+        "mvp": {
+          "zh": "先单一平台＋QBO CSV，只读缺失发票/金额差报告；不改税、不重开账期。",
+          "en": "Start with one platform and QBO CSVs, flag missing invoices and total differences. Do not change tax or reopen periods."
+        },
+        "validation": {
+          "zh": "建议试价$149/公司/月；3家公司跑完整关账周期，复核时间降30%且无错误改账才继续。",
+          "en": "Proposed test: $149/company/month over one complete close for three firms. Continue if review time falls 30% without erroneous ledger changes."
+        },
+        "costs": {
+          "zh": "QBO每realm每分钟500请求、每app/realm每秒10请求；Builder每workspace月含500,000次CorePlus，超限节流。",
+          "en": "QBO: 500 requests/minute/realm and 10/second/app/realm. Builder includes 500,000 CorePlus calls/workspace/month; excess calls are throttled."
+        },
+        "distribution": {
+          "zh": "HCP官方建议雇开发者并列Upwork/Toptal，能证实服务入口，不能证实成交预算。",
+          "en": "HCP explicitly directs users to outside developers including Upwork/Toptal. This establishes a service channel, not proven sales."
+        },
+        "sources": [
+          "jobber-sync",
+          "hcp-alerts",
+          "hcp-api",
+          "hcp-price",
+          "qbo-limits"
+        ],
+        "image": "jobber-sync"
+      },
+      {
+        "id": "hvac-cancellation",
+        "title": {
+          "zh": "HVAC空档：给调度员三个能做的候选",
+          "en": "HVAC gaps: three jobs a dispatcher can actually fit"
+        },
+        "role": {
+          "zh": "住宅HVAC维修与维护调度员",
+          "en": "Residential HVAC dispatchers"
+        },
+        "trigger": {
+          "zh": "非紧急维护单取消，技工空出90分钟",
+          "en": "A non-emergency maintenance cancellation leaves a 90-minute gap"
+        },
+        "input": {
+          "zh": "同意候补客户、时长、区域、技工资质、零件、路线",
+          "en": "Opted-in waitlist, duration, service area, technician qualifications, parts and routes"
+        },
+        "before": {
+          "zh": "翻订单→挨个打电话→问技工→重新排班",
+          "en": "Search jobs → call customers → check with technician → reschedule"
+        },
+        "after": {
+          "zh": "硬规则筛选→估算绕路→给3个候选与原因→调度员选→客户确认→重查时段后写回",
+          "en": "Filter hard constraints → estimate detour → present three explained options → dispatcher chooses → customer confirms → recheck slot before writing"
+        },
+        "incumbent": {
+          "zh": "HCP已有预订、派工、路线；ServiceTitan Scheduling Pro有在线预订与Adaptive Capacity。",
+          "en": "HCP already handles booking, dispatch and routes. ServiceTitan Scheduling Pro offers booking and Adaptive Capacity."
+        },
+        "gap": {
+          "zh": "约束感知候补是待验证优化层；本次没证明竞品缺候补功能。",
+          "en": "Constraint-aware backfilling is a hypothesis. This research did not establish that incumbents lack waitlists."
+        },
+        "price": {
+          "zh": "已有软件预算锚为HCP MAX $329/月；建议试价$99/月或$200一次诊断，非市场成交价。",
+          "en": "HCP MAX at $329/month is an existing spend anchor. Test $99/month or a $200 diagnostic; neither is an observed transaction."
+        },
+        "mvp": {
+          "zh": "CSV排班＋同意候补清单；只出推荐卡，不接电话、不自动承诺到达时间。",
+          "en": "CSV schedule plus opted-in waitlist; recommendation cards only, without calls or automatic arrival promises."
+        },
+        "validation": {
+          "zh": "看10次真实取消能否产生可接受候选；按增量完成工单贡献利润衡量，不按发票总额。",
+          "en": "Test ten actual cancellations for acceptable candidates. Measure contribution from incremental completed jobs, not gross invoice value."
+        },
+        "costs": {
+          "zh": "短信、地图、平台升级和支持另计。100次取消×10候选×4动作=4,000自动化步骤（估算，未含重试）。",
+          "en": "Add messaging, maps, platform upgrades and support. An illustrative 100 cancellations × 10 candidates × 4 actions = 4,000 automation steps before retries."
+        },
+        "distribution": {
+          "zh": "现有实施顾问、HCP社区；展示有资质/车程约束的真实流程演示，渠道转化未验证。",
+          "en": "Implementation partners and HCP’s community. Demonstrate qualification and travel constraints; conversion is untested."
+        },
+        "sources": [
+          "hcp-booking",
+          "hcp-price",
+          "hcp-api",
+          "st-scheduling",
+          "st-capacity",
+          "jobber-zapier",
+          "make-credits"
+        ],
+        "image": "hcp-booking-demo"
+      },
+      {
+        "id": "dental-native-enablement",
+        "title": {
+          "zh": "牙医候补：先卖原生启用与审计",
+          "en": "Dental waitlists: sell native setup and auditing first"
+        },
+        "role": {
+          "zh": "诊所前台、运营负责人",
+          "en": "Dental front desk and operations managers"
+        },
+        "trigger": {
+          "zh": "取消出现，候补名单/短信/预约系统没有顺畅接上",
+          "en": "A cancellation exposes gaps between the waitlist, messaging and scheduling"
+        },
+        "input": {
+          "zh": "患者候补标记、联系偏好、预约时长与医生/诊室设置",
+          "en": "Waitlist flags, contact preferences, duration, provider and operatory settings"
+        },
+        "before": {
+          "zh": "前台逐人打电话；具名Norbo Dental证言描述过该流程",
+          "en": "Staff call patients individually, as described by named Norbo Dental customer testimony"
+        },
+        "after": {
+          "zh": "先配置原生ASAP→选择合适患者→分批邀请→患者确认→同步日历→审计失败发送与实际完成",
+          "en": "Configure native ASAP → select eligible patients → stagger invitations → patient accepts → sync calendar → audit delivery failures and completed visits"
+        },
+        "incumbent": {
+          "zh": "Open Dental已有按时长筛选、分批短信、点击改约；NexHealth已有偏好医生匹配和预约写回。",
+          "en": "Open Dental already provides duration filtering, staggered texts and rescheduling links; NexHealth covers provider preferences and calendar writes."
+        },
+        "gap": {
+          "zh": "先解决配置、候补标记和失败发送；跨地点特殊规则需先找真实未满足需求。",
+          "en": "Start with configuration, waitlist flags and delivery failures. Validate unmet cross-location rules before developing software."
+        },
+        "price": {
+          "zh": "ASAP $20/地点/月，Recall客户免费；美国短信接入$5/月＋$0.04/条。基础软件与支持另收费。",
+          "en": "ASAP: $20/location/month, free with Recall. US texting: $5/month access plus $0.04/outgoing message; base software/support extra."
+        },
+        "mvp": {
+          "zh": "合成数据演示＋原生配置清单＋诊所自己的漏斗报表，不新建医疗消息系统。",
+          "en": "Synthetic-data demo, native configuration checklist and the practice’s own funnel report, without a new clinical messaging stack."
+        },
+        "validation": {
+          "zh": "建议一次性$250–500配置/审计。扣除把未来预约提前造成的新空档，再算新增完成量。",
+          "en": "Proposed $250–500 setup/audit. Subtract newly created future gaps before counting incremental completed appointments."
+        },
+        "costs": {
+          "zh": "适用HIPAA时，维护/处理ePHI通常需BAA及安全措施；加密不自动豁免。",
+          "en": "Where HIPAA applies, maintaining/processing ePHI generally requires a BAA and safeguards; encryption is not an automatic exemption."
+        },
+        "buyer_evidence": {
+          "zh": "NexHealth引用Norbo Dental运营负责人称每周补15个空档、$3,000收入：供应商客户证言，非独立审计，更不是创业净利。",
+          "en": "NexHealth cites Norbo Dental’s operations director on 15 filled slots and $3,000 weekly revenue: vendor testimony, not an independent audit or startup profit."
+        },
+        "sources": [
+          "od-asap",
+          "od-price",
+          "nex-waitlist",
+          "hhs-cloud"
+        ],
+        "image": "nex-waitlist"
+      }
+    ],
+    "sources": [
+      {
+        "id": "jobber-scan",
+        "title": "Jobber Supplier invoice scanning",
+        "url": "https://getjobber.zendesk.com/hc/en-us/articles/41272823874967-Supplier-invoice-scanning",
+        "type": "primary",
+        "checked_at": "2026-10-15"
+      },
+      {
+        "id": "jobber-price",
+        "title": "Jobber pricing",
+        "url": "https://www.getjobber.com/pricing/",
+        "type": "primary",
+        "checked_at": "2026-10-15"
+      },
+      {
+        "id": "jobber-review",
+        "title": "Jobber app review",
+        "url": "https://developer.getjobber.com/docs/publishing_your_app/app_review_process/",
+        "type": "primary",
+        "checked_at": "2026-10-15"
+      },
+      {
+        "id": "jobber-sync",
+        "title": "Jobber QuickBooks integration",
+        "url": "https://www.getjobber.com/features/quickbooks-sync/",
+        "type": "primary",
+        "checked_at": "2026-10-15"
+      },
+      {
+        "id": "hcp-alerts",
+        "title": "Housecall Pro QBO sync alerts",
+        "url": "https://help.housecallpro.com/en/articles/975825-quickbooks-online-sync-alerts",
+        "type": "primary",
+        "checked_at": "2026-10-15"
+      },
+      {
+        "id": "hcp-api",
+        "title": "Housecall Pro API overview",
+        "url": "https://help.housecallpro.com/en/articles/8505035-api-overview",
+        "type": "primary",
+        "checked_at": "2026-10-15"
+      },
+      {
+        "id": "hcp-price",
+        "title": "Housecall Pro pricing",
+        "url": "https://www.housecallpro.com/pricing/",
+        "type": "primary",
+        "checked_at": "2026-10-15"
+      },
+      {
+        "id": "qbo-limits",
+        "title": "Intuit API limits",
+        "url": "https://static.developer.intuit.com/output_html/qbo/docs/learn/limits-and-throttles.html",
+        "type": "primary",
+        "checked_at": "2026-10-15"
+      },
+      {
+        "id": "hcp-booking",
+        "title": "Housecall Pro online booking",
+        "url": "https://help.housecallpro.com/en/articles/7034474-online-booking-overview",
+        "type": "primary",
+        "checked_at": "2026-10-15"
+      },
+      {
+        "id": "st-scheduling",
+        "title": "ServiceTitan Scheduling Pro",
+        "url": "https://help.servicetitan.com/v1/docs/scheduling-pro",
+        "type": "primary",
+        "checked_at": "2026-10-15"
+      },
+      {
+        "id": "st-capacity",
+        "title": "ServiceTitan advanced scheduling settings",
+        "url": "https://help.servicetitan.com/v1/docs/scheduling-pro-onboarding-part-2-set-up-advanced-settings",
+        "type": "primary",
+        "checked_at": "2026-10-15"
+      },
+      {
+        "id": "jobber-zapier",
+        "title": "Jobber Zapier integration",
+        "url": "https://www.getjobber.com/integrations/zapier/",
+        "type": "primary",
+        "checked_at": "2026-10-15"
+      },
+      {
+        "id": "make-credits",
+        "title": "Make credit metering",
+        "url": "https://help.make.com/credits",
+        "type": "primary",
+        "checked_at": "2026-10-15"
+      },
+      {
+        "id": "od-asap",
+        "title": "Open Dental Web Sched ASAP",
+        "url": "https://www.opendental.com/manual/webschedasap.html",
+        "type": "primary",
+        "checked_at": "2026-10-15"
+      },
+      {
+        "id": "od-price",
+        "title": "Open Dental fees",
+        "url": "https://www.opendental.com/site/fees.html",
+        "type": "primary",
+        "checked_at": "2026-10-15"
+      },
+      {
+        "id": "nex-waitlist",
+        "title": "NexHealth Waitlist",
+        "url": "https://www.nexhealth.com/features/waitlist",
+        "type": "primary",
+        "checked_at": "2026-10-15"
+      },
+      {
+        "id": "hhs-cloud",
+        "title": "HHS HIPAA cloud guidance",
+        "url": "https://www.hhs.gov/hipaa/for-professionals/special-topics/health-information-technology/cloud-computing/index.html",
+        "type": "primary",
+        "checked_at": "2026-10-15"
+      }
+    ],
+    "images": [
+      {
+        "id": "jobber-sync",
+        "url": "https://cdn.sanity.io/images/qd8c1awn/production/ae3fedb8e4b468bce896a4b93544e59ab336dd9b-1024x644.webp/jobber-quickbooks-online-sync.webp?auto=format&fit=max&q=75&w=3840",
+        "source": "jobber-sync",
+        "caption": {
+          "zh": "Jobber官方QBO集成界面，已有原生同步。",
+          "en": "Jobber’s official QBO integration screen shows native sync."
+        },
+        "status": "official source URL verified; asset rendering not verified; rights remain with owner"
+      },
+      {
+        "id": "od-asap",
+        "url": "https://www.opendental.com/manual/images/webSchedASAPAlerts.gif",
+        "source": "od-asap",
+        "caption": {
+          "zh": "Open Dental原生候补发送窗口。",
+          "en": "Open Dental’s native ASAP notification window."
+        },
+        "status": "official source URL verified; asset rendering not verified; rights remain with owner"
+      },
+      {
+        "id": "nex-waitlist",
+        "url": "https://cdn.prod.website-files.com/62f7955338a7286dd4b633cc/672e8d6e8183f7e4ff0315f6_waitlist.avif",
+        "source": "nex-waitlist",
+        "caption": {
+          "zh": "NexHealth官方候补产品及患者端界面。",
+          "en": "NexHealth’s official waitlist product and patient interface."
+        },
+        "status": "official source URL verified; asset rendering not verified; rights remain with owner"
+      },
+      {
+        "id": "hcp-booking-demo",
+        "url": "https://fast.wistia.net/embed/iframe/i67xduvavc",
+        "kind": "video",
+        "source": "hcp-booking",
+        "caption": {
+          "zh": "HCP官方在线预订设置演示。",
+          "en": "HCP’s official online booking setup demo."
+        },
+        "status": "official source URL verified; asset rendering not verified; rights remain with owner"
+      }
+    ],
+    "rejected_claims": [
+      "90% of AI wrappers fail: unsupported in supplied article",
+      "70–80% monthly churn: unsupported in supplied article",
+      "95% profit margin: unsupported in supplied article",
+      "Anonymous HVAC 180 customers: not verified",
+      "199 × 230 = $45,770 gross monthly list-price revenue, not net income"
+    ],
+    "ranking": [
+      "reconciliation-exceptions",
+      "receipt-exceptions",
+      "hvac-cancellation",
+      "dental-native-enablement"
+    ]
+  }
+}
