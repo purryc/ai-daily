@@ -1,3 +1,8 @@
 node_modules/
 .tmp-chrome-pdf/
 .DS_Store
+research/
+rules/
+.cloud-state/
+*.transfer.json
+*.ai-release-*.tmp
