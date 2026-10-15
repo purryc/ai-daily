@@ -41,15 +41,6 @@ export async function checkWeekly({root,weekStart,pdf=false,pilot=false,liveBase
           await page.locator('[data-prev]').click();
           if(await page.locator('.slide.active').getAttribute('id')!==ids[0])throw new Error('Previous navigation failed');
         }
-        const localLinks=await page.locator('a[href]').evaluateAll(as=>as.map(a=>a.getAttribute('href')).filter(h=>h&&!h.startsWith('#')&&!/^https?:/.test(h)));
-        if(!liveBase)for(const link of new Set(localLinks)) {
-          const resolved=new URL(link,page.url());
-          // The dry output deliberately has no daily archive; its public URL is preserved.
-          if(['/ai-daily/','/ai-daily/weekly/'].includes(resolved.pathname))continue;
-          const res=await page.request.get(resolved.href);
-          if(res.status()!==200)throw new Error('Broken weekly navigation '+link);
-        }
-        results.push({lang,viewport,pages:ids.length,overflow:0,images:images.length,navigation:'passed'});
         if(pdf&&viewport.width===1920) {
           if(liveBase)throw new Error('PDF export only accepts local reviewed output');
           await page.emulateMedia({media:'print'});
@@ -62,6 +53,16 @@ export async function checkWeekly({root,weekStart,pdf=false,pilot=false,liveBase
             await fs.rename(temporary,file);
           } finally {await fs.rm(temporary,{force:true});}
         }
+        const localLinks=await page.locator('a[href]').evaluateAll(as=>as.map(a=>a.getAttribute('href')).filter(h=>h&&!h.startsWith('#')&&!/^https?:/.test(h)));
+        if(!liveBase)for(const link of new Set(localLinks)) {
+          const resolved=new URL(link,page.url());
+          // The dry output deliberately has no daily archive; its public URL is preserved.
+          if(['/ai-daily/','/ai-daily/weekly/'].includes(resolved.pathname))continue;
+          const res=await page.request.get(resolved.href);
+          if(res.status()!==200)throw new Error('Broken weekly navigation '+link);
+        }
+        results.push({lang,viewport,pages:ids.length,overflow:0,images:images.length,navigation:'passed'});
+
       } finally {await page.close();}
     }
     if(counts.zh!==counts.en)throw new Error('Bilingual weekly page plan differs');

@@ -1,14 +1,22 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
+import {realpathSync} from 'node:fs';
 
 export const LANES = ['official','reviews','community','wild','research','patent','china','global'];
 export const DIMENSIONS = ['attention','friction','feasibility','payment_intent'];
 export const REPO = path.resolve(new URL('../..', import.meta.url).pathname);
 export const sha = bytes => createHash('sha256').update(bytes).digest('hex');
+export function realDestination(value) {
+  let parent=path.resolve(value);const tail=[];
+  for(;;) {
+    try{return path.join(realpathSync(parent),...tail.reverse());}
+    catch(e){if(e.code!=='ENOENT')throw e;tail.push(path.basename(parent));parent=path.dirname(parent);}
+  }
+}
 export function privateRoot(value = process.env.AI_DAILY_PRIVATE_ROOT) {
   if (!value) throw new Error('Set AI_DAILY_PRIVATE_ROOT to persistent private storage outside the public repository');
-  const root = path.resolve(value);
+  const root = realDestination(value);
   if (root === REPO || root.startsWith(REPO + path.sep)) throw new Error('Private storage cannot be inside the public repository');
   return root;
 }

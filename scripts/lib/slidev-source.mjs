@@ -5,6 +5,7 @@ import {buildVisualSlides,visualIssueCss} from './issue-visuals.mjs';
 import {REPO} from './cloud-state.mjs';
 import {chromium} from 'playwright';
 import {createStaticServer} from './static-server.mjs';
+import {copyPublicAssets,dailyAssetPaths,retainPublicAssets} from './public-assets.mjs';
 const run=(args,cwd)=>new Promise((resolve,reject)=>{
   const child=spawn('npm',args,{cwd,stdio:'inherit',env:{...process.env,npm_config_cache:'/tmp/ai-daily-npm-cache'}});
   child.on('error',reject);child.on('exit',code=>code===0?resolve():reject(new Error('Slidev npm command failed with '+code)));
@@ -14,7 +15,8 @@ export async function buildSlidevSource({issue,output,assetsDir,sources}) {
   if(folder.startsWith(REPO+path.sep))throw new Error('Slidev dry source must stay outside public checkout');
   await fs.mkdir(path.join(folder,'public/assets'),{recursive:true});
   await fs.mkdir(path.join(folder,'styles'),{recursive:true});
-  if(assetsDir)await fs.cp(assetsDir,path.join(folder,'public/assets'),{recursive:true,dereference:true});
+  await copyPublicAssets({assetsDir,target:path.join(folder,'public'),paths:dailyAssetPaths(issue)});
+  await retainPublicAssets(path.join(folder,'public'),dailyAssetPaths(issue));
   await fs.writeFile(path.join(folder,'sources.md'),sources);
   await fs.writeFile(path.join(folder,'package.json'),JSON.stringify({name:'ai-product-morning-brief-'+issue.date,private:true,type:'module',scripts:{build:'slidev build slides.md --base ./ --out dist', 'build:en':'slidev build slides-en.md --base ./ --out dist-en'},devDependencies:{'@slidev/cli':'53.0.0','@slidev/theme-default':'0.25.0',vue:'3.5.44'}},null,2)+'\n');
   for(const locale of ['zh','en']) {

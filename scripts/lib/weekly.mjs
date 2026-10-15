@@ -1,17 +1,28 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import {DIMENSIONS,LANES,REPO,monday,localDate,loadSignals,sha} from './cloud-state.mjs';
+import {DIMENSIONS,LANES,REPO,monday,localDate,loadSignals,sha,realDestination} from './cloud-state.mjs';
 import {writeWeeklyIndex} from './weekly-index.mjs';
+import {copyPublicAssets,weeklyAssetPaths} from './public-assets.mjs';
+import {timestamp,validateEvidenceTime} from './evidence-time.mjs';
 const esc=v=>String(v??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 const textPair=(o,label)=>{if(!o?.zh?.trim()||!o?.en?.trim())throw new Error('Missing bilingual '+label);};
 const url=u=>{if(!/^https?:\/\//.test(u))throw new Error('Unsafe source URL');return esc(u);};
+function temporalNote(source,lang) {
+  const notes=[];
+  if(source.snapshotStatus==='current-page-not-historical')notes.push(lang==='zh'?'截止后回读当前页面；不是历史快照。':'Current page reread after cutoff; not a historical snapshot.');
+  if(source.dateBoundaryUncertain)notes.push(lang==='zh'?'日期边界不确定，未编造发布时间。':'Date boundary uncertain; no exact publication time inferred.');
+  if(source.temporalNote)notes.push(source.temporalNote[lang]);
+  return notes.join(' ');
+}
 export function weekWindow(input) {
   monday(input.weekStart);
+  timestamp(input.windowStart,'windowStart');timestamp(input.windowEnd,'windowEnd');
+  const cutoff=timestamp(input.cutoff,'weekly cutoff');
   const end=new Date(input.weekStart+'T12:00:00Z');end.setUTCDate(end.getUTCDate()+7);
   const endDate=end.toISOString().slice(0,10);
   const midnight=t=>new Intl.DateTimeFormat('en-CA',{timeZone:'America/Toronto',hour:'2-digit',minute:'2-digit',second:'2-digit',hourCycle:'h23'}).format(new Date(t))==='00:00:00';
   if(input.timezone!=='America/Toronto'||localDate(new Date(input.windowStart))!==input.weekStart||localDate(new Date(input.windowEnd))!==endDate||!midnight(input.windowStart)||!midnight(input.windowEnd))throw new Error('Weekly window must be the complete Toronto Monday-to-Monday week');
-  if(!/[Zz]|[+-]\d\d:\d\d$/.test(input.cutoff)||Date.parse(input.cutoff)<Date.parse(input.windowEnd))throw new Error('Weekly cutoff precedes completed week');
+  if(cutoff<Date.parse(input.windowEnd))throw new Error('Weekly cutoff precedes completed week');
   if(input.partialWeek!==false)throw new Error('Formal weekly cannot be a partial-week pilot');
 }
 function validatePages(pages, label) {
@@ -52,6 +63,7 @@ export async function validateWeekly(input, privateDir) {
   for(const s of input.sources) {
     const observation=byId.get(s.signalId);
     if(!['verified','reported'].includes(observation.verification_status)||![observation.source_url,observation.canonical_url].includes(s.url)||(s.publishedAt??null)!==observation.published_at)throw new Error('Source does not match reviewed shared evidence: '+s.id);
+    validateEvidenceTime(observation,s,input.cutoff);
   }
   const selectedEvents=new Set();
   for(const item of input.highlights) {
@@ -108,13 +120,14 @@ function makeSlides(input, lang) {
   }
   for(let i=0;i<8;i+=4)add('radar-'+i,lang==='zh'?'八线扫描与覆盖缺口':'Source radar and coverage gaps',input.laneScans.slice(i,i+4).map(s=>'<h3>'+esc(s.lane)+' · '+esc(s.status)+'</h3>'+p(s.note)).join(''));
   add('watchlist',lang==='zh'?'下周可证伪观察':'Next week’s falsifiable watch',p(input.watchlist)+p(input.coverageLimitations));
-  for(let i=0;i<input.sources.length;i+=12)add('sources-'+i,lang==='zh'?'来源索引':'Source index','<div class="source-list">'+input.sources.slice(i,i+12).map(s=>'<p><a href="'+url(s.url)+'">'+esc(s.id)+' · '+esc(s.label)+'</a> · '+esc(s.publishedAt??'date not stated')+'</p>').join('')+'</div>');
+  const sourceBatch=input.sources.some(s=>s.temporalNote)?6:12;
+  for(let i=0;i<input.sources.length;i+=sourceBatch)add('sources-'+i,lang==='zh'?'来源索引':'Source index','<div class="source-list">'+input.sources.slice(i,i+sourceBatch).map(s=>'<p><a href="'+url(s.url)+'">'+esc(s.id)+' · '+esc(s.label)+'</a> · '+esc(s.publishedAt??'date not stated')+(temporalNote(s,lang)?'<br>'+esc(temporalNote(s,lang)):'')+'</p>').join('')+'</div>');
   if(slides.length>50)throw new Error('Weekly exceeds 50 pages; edit explicit pages');
   return slides.map((s,i)=>'<section class="slide'+(i===0?' active':'')+'" id="'+esc(s.id)+'"><p class="eyebrow">'+esc(s.kicker)+'</p><h2>'+esc(s.title)+'</h2><div class="content">'+s.body+'</div><footer class="footer"><div class="source-links">'+(Array.isArray(s.sourceIds)?s.sourceIds:[]).map(id=>'<a href="'+url(sources.get(id).url)+'">'+esc(id)+'</a>').join(' · ')+'</div><span class="page-number">'+(i+1)+' / '+slides.length+'</span></footer></section>').join('');
 }
 export async function buildWeekly({input,privateDir,output,assetsDir}) {
   const counts=await validateWeekly(input,privateDir);
-  output=path.resolve(output);
+  output=realDestination(output);
   if(output===REPO||output.startsWith(REPO+path.sep))throw new Error('Weekly dry output must be outside public checkout');
   await fs.mkdir(output,{recursive:false});
   const target=path.join(output,'weekly',input.weekStart);
@@ -123,19 +136,17 @@ export async function buildWeekly({input,privateDir,output,assetsDir}) {
   const js=await fs.readFile(path.join(REPO,'weekly/assets/pilot.js'),'utf8');
   await fs.writeFile(path.join(target,'assets/weekly.css'),css+'\n.slide figure{display:flex;gap:1cqw;align-items:center;margin:1cqw 0}.slide figure img{max-width:45%;max-height:15cqw;object-fit:contain;background:white}.slide figcaption{font-size:1cqw;line-height:1.5}@media(max-width:700px){.slide figure{display:block}.slide figure img{max-width:100%;max-height:280px}.slide figcaption{font-size:12px}}');
   await fs.writeFile(path.join(target,'assets/weekly.js'),js);
-  for(const page of [...input.highlights,...input.trends].flatMap(i=>i.pages))for(const v of page.visuals??[]) {
-    if(!assetsDir)throw new Error('Missing reviewed asset directory');
-    const dest=path.join(target,v.path);
-    await fs.mkdir(path.dirname(dest),{recursive:true});await fs.copyFile(path.join(assetsDir,v.path.slice(7)),dest);
-  }
+  await copyPublicAssets({assetsDir,target,paths:weeklyAssetPaths(input)});
   for(const lang of ['zh','en']) {
     const title=input.title[lang],other=lang==='zh'?'en':'zh';
-    const html='<!doctype html><html lang="'+(lang==='zh'?'zh-CN':'en')+'"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+esc(title)+'</title><link rel="stylesheet" href="../assets/weekly.css"></head><body><main class="shell"><nav class="topbar"><a class="brand" href="/ai-daily/weekly/">AI PRODUCT WEEKLY</a><span class="badge">'+esc(input.weekStart)+'</span><div class="links"><a href="#contents">Contents</a><a href="../'+other+'/">'+(lang==='zh'?'English':'中文')+'</a><a href="../sources.md">Sources</a><a href="/ai-daily/">Daily</a></div></nav><div class="deck">'+makeSlides(input,lang)+'</div><div class="controls"><button data-prev>Previous</button><output data-counter></output><div class="progress"><i></i></div><button data-next>Next</button></div></main><script src="../assets/weekly.js"></script></body></html>';
+    const html='<!doctype html><html lang="'+(lang==='zh'?'zh-CN':'en')+'"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+esc(title)+'</title><link rel="stylesheet" href="../assets/weekly.css"></head><body><main class="shell"><nav class="topbar"><a class="brand" href="/ai-daily/weekly/">AI PRODUCT WEEKLY</a><span class="badge">'+esc(input.weekStart)+'</span><div class="links"><a href="#contents">Contents</a><a href="../'+other+'/">'+(lang==='zh'?'English':'中文')+'</a><a href="../ai-weekly-'+esc(input.weekStart)+'-'+lang+'.pdf" download>PDF</a><a href="../sources.md">Sources</a><a href="/ai-daily/">Daily</a></div></nav><div class="deck">'+makeSlides(input,lang)+'</div><div class="controls"><button data-prev>Previous</button><output data-counter></output><div class="progress"><i></i></div><button data-next>Next</button></div></main><script src="../assets/weekly.js"></script></body></html>';
     await fs.mkdir(path.join(target,lang));await fs.writeFile(path.join(target,lang,'index.html'),html);
   }
   await fs.writeFile(path.join(target,'index.html'),'<!doctype html><meta charset="utf-8"><a href="zh/">中文</a> · <a href="en/">English</a>');
-  await fs.writeFile(path.join(target,'sources.md'),'# Reviewed weekly sources\n\n'+input.sources.map(s=>'- '+s.id+' ['+s.label+']('+s.url+') · '+s.signalId).join('\n')+'\n');
+  await fs.writeFile(path.join(target,'sources.md'),'# Reviewed weekly sources\n\n'+input.sources.map(s=>'- '+s.id+' ['+s.label+']('+s.url+') · '+s.signalId+(temporalNote(s,'zh')?' · '+temporalNote(s,'zh')+' / '+temporalNote(s,'en'):'')).join('\n')+'\n');
   await fs.writeFile(path.join(target,'manifest.json'),JSON.stringify({issue_type:'weekly',week_start:input.weekStart,window_start:input.windowStart,window_end:input.windowEnd,timezone:input.timezone,cutoff:input.cutoff,partial_week:false,baseline_status:input.baselineStatus,counts,sourceDataSha256:sha(JSON.stringify(input)),zh_path:'zh/',en_path:'en/',sources_path:'sources.md'},null,2)+'\n');
   await writeWeeklyIndex({repo:REPO,output,input});
+  await fs.mkdir(path.join(output,'data/weekly'),{recursive:true});
+  await fs.writeFile(path.join(output,'data/weekly',input.weekStart+'.json'),JSON.stringify(input,null,2)+'\n');
   return {target,counts};
 }

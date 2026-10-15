@@ -2,14 +2,16 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import {spawn} from 'node:child_process';
 import {fileURLToPath} from 'node:url';
-import {REPO,privateRoot,preflight,localDate,completedWeek,atomic,loadSignals,sha,monday} from './lib/cloud-state.mjs';
+import {REPO,privateRoot,preflight,localDate,completedWeek,atomic,loadSignals,sha,monday,realDestination} from './lib/cloud-state.mjs';
 import {generateIssue} from './create-issue.mjs';
 import {normalizeUrl} from './lib/issue-policy.mjs';
 import {validateDenseDaily} from './lib/dense-policy.mjs';
 import {buildWeekly} from './lib/weekly.mjs';
 import {checkWeekly} from './lib/weekly-qa.mjs';
-import {digestTree,digestRelease,rejectPrivateFields} from './lib/release.mjs';
+import {digestTree,digestRelease,rejectPrivateFields,repositoryBaseline,assertRepositoryBaseline} from './lib/release.mjs';
 import {buildSlidevSource} from './lib/slidev-source.mjs';
+import {dailyAssetPaths,copyPublicAssets,retainPublicAssets} from './lib/public-assets.mjs';
+import {timestamp} from './lib/evidence-time.mjs';
 
 export async function plan({root,now=new Date(),repo=REPO}) {
   root=privateRoot(root);
@@ -38,7 +40,7 @@ const child=(file,env)=>new Promise((resolve,reject)=>{
 export async function stageDaily({input,output,assetsDir,privateDir}) {
   validateDenseDaily(input);
   if(input.cloudEditorialContract!=='dense-v1')throw new Error('Cloud daily input must explicitly select dense-v1');
-  const cutoff=Date.parse(input.cutoff);
+  const cutoff=timestamp(input.cutoff,'daily cutoff');
   if(!Number.isFinite(cutoff)||input.primaryWindowStart!==new Date(cutoff-86400000).toISOString())throw new Error('Daily primary window must be exactly the preceding 24 hours');
   for(const scan of input.laneScans??[]) {
     if(!['scanned','blocked','incomplete'].includes(scan.status)||scan.status!=='incomplete'&&!scan.queryIds?.length)throw new Error('Daily scan needs an actual access status and query references');
@@ -62,7 +64,7 @@ export async function stageDaily({input,output,assetsDir,privateDir}) {
     if(t.freshnessClass==='primary-24h'&&event<cutoff-86400000)throw new Error('Backfill mislabeled as 24h news');
     if(t.freshnessClass==='delayed-72h'&&event<cutoff-3*86400000)throw new Error('Weekly lookback mislabeled as 72h news');
   }
-  output=path.resolve(output);
+  output=realDestination(output);
   if(output===REPO||output.startsWith(REPO+path.sep))throw new Error('Daily dry output must be outside public checkout');
   await fs.mkdir(output,{recursive:false});
   await fs.mkdir(path.join(output,'data/editions'),{recursive:true});
@@ -74,12 +76,13 @@ export async function stageDaily({input,output,assetsDir,privateDir}) {
   }
   await fs.cp(path.join(REPO,'assets'),path.join(output,'assets'),{recursive:true});
   await fs.mkdir(path.join(output,input.date),{recursive:true});
-  if(assetsDir)await fs.symlink(path.resolve(assetsDir),path.join(output,input.date,'assets'));
+  await copyPublicAssets({assetsDir,target:path.join(output,input.date),paths:dailyAssetPaths({topics:input.candidates,contextTopics:input.contextCandidates})});
   const result=await generateIssue({root:output,input});
   validateDenseDaily(result.issue);
+  await retainPublicAssets(path.join(output,input.date),dailyAssetPaths(result.issue));
   const env={AI_DAILY_ROOT:output,AI_DAILY_DATES:input.date,AI_DAILY_CHROMIUM_PATH:process.env.AI_DAILY_CHROMIUM_PATH??'/usr/bin/chromium'};
   await child('render-site.mjs',env);await child('export-pdfs.mjs',env);await child('check-site.mjs',env);
-  const slidev=await buildSlidevSource({issue:result.issue,output,assetsDir,sources:await fs.readFile(path.join(output,input.date,'sources.md'),'utf8')});
+  const slidev=await buildSlidevSource({issue:result.issue,output,assetsDir:path.join(output,input.date,'assets'),sources:await fs.readFile(path.join(output,input.date,'sources.md'),'utf8')});
   return {target:path.join(output,input.date),slidev,counts:validateDenseDaily(result.issue),excluded:result.excluded};
 }
 export async function main(args=process.argv.slice(2)) {
@@ -94,7 +97,7 @@ export async function main(args=process.argv.slice(2)) {
   rejectPrivateFields(input);
   const key=kind==='daily'?input.date:monday(input.weekStart);
   if(!/^\d{4}-\d{2}-\d{2}$/.test(key))throw new Error('Invalid run key');
-  const destination=path.resolve(arg('--output'));
+  const destination=realDestination(arg('--output'));
   const lock=path.join(root,'runs',kind+'-'+key+'.lock');
   await fs.mkdir(path.dirname(lock),{recursive:true});
   await fs.mkdir(lock).catch(e=>{if(e.code==='EEXIST')throw new Error('Run already active; inspect lock before retry');throw e;});
@@ -103,6 +106,7 @@ export async function main(args=process.argv.slice(2)) {
     try {
       const prior=JSON.parse(await fs.readFile(receipt,'utf8'));
       if(prior.status==='validated-draft') {
+        await assertRepositoryBaseline(prior.repositoryBaseline,REPO);
         if(prior.inputSha256!==sha(bytes))throw new Error('Existing reviewed draft has different input; resolve it explicitly before replacing');
         await fs.access(prior.result.target);
         if(await digestTree(prior.result.target)!==prior.artifactSha256)throw new Error('Prior validated artifact changed; inspect it before retry');
@@ -116,9 +120,11 @@ export async function main(args=process.argv.slice(2)) {
       if(kind==='daily'||published.issue_type==='weekly'&&published.partial_week===false)throw new Error('Already published; historical edition is immutable');
     }catch(e){if(e.code!=='ENOENT')throw e;}
     const options={input,output:destination,privateDir:root,assetsDir:args.includes('--assets')?arg('--assets'):undefined};
+    const baseline=await repositoryBaseline(REPO);
     const result=kind==='daily'?await stageDaily(options):await buildWeekly(options);
     if(kind==='weekly')result.qa=await checkWeekly({root:destination,weekStart:key,pdf:true});
-    await atomic(receipt,{kind,key,status:'validated-draft',inputSha256:sha(bytes),artifactSha256:await digestTree(result.target),releaseSha256:await digestRelease(kind,key,destination),output:destination,completedAt:new Date().toISOString(),result,publication:'not pushed or deployed'});
+    await assertRepositoryBaseline(baseline,REPO);
+    await atomic(receipt,{kind,key,status:'validated-draft',repositoryBaseline:baseline,inputSha256:sha(bytes),artifactSha256:await digestTree(result.target),releaseSha256:await digestRelease(kind,key,destination),output:destination,completedAt:new Date().toISOString(),result,publication:'not pushed or deployed'});
     console.log(JSON.stringify({kind,key,status:'validated-draft',receipt,...result}));
   }catch(error) {
     let prior;
