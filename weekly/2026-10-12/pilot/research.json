@@ -1168,445 +1168,827 @@
     "layout_instruction": "Keep full references compact on one final page per language. Main text uses source IDs. Do not create a slide per paragraph or add abstract methodology pages."
   },
   "opportunities": {
-    "title": {
-      "zh": "实体行业的钱，藏在系统交接的异常里",
-      "en": "The opportunity is in operational exceptions"
-    },
-    "type": "background_research",
-    "verified_at": "2026-10-15",
-    "publication_note": {
-      "zh": "背景专题，非本周产品发布；MVP与试价为作者建议。",
-      "en": "Background research, not this week’s launches. MVPs and test prices are editorial proposals."
-    },
     "cases": [
       {
-        "id": "receipt-exceptions",
+        "id": "manufacturing-variant-migration",
         "title": {
-          "zh": "材料票据：只接手没有工单号的异常",
-          "en": "Materials receipts: handle the missing job number"
+          "zh": "100个配置手册，先卖一个产品族的迁移验收",
+          "en": "100 manual variants: migrate and validate one product family"
         },
-        "role": {
-          "zh": "管道/HVAC承包商办公室管理员、外包记账员",
-          "en": "Office managers and outsourced bookkeepers for plumbing/HVAC contractors"
-        },
-        "trigger": {
-          "zh": "供应商发票到达，却不能直接确定归属工单",
-          "en": "A supplier invoice arrives without a reliable job match"
-        },
-        "input": {
-          "zh": "PDF/收据、采购日期、供应商、物料行、工单清单",
-          "en": "Invoice or receipt, purchase date, supplier, line items and job list"
-        },
-        "before": {
-          "zh": "下载票据→录金额→找工单→问技工→拆分费用→记账员确认",
-          "en": "Download → key amounts → locate job → ask technician → allocate costs → approve"
-        },
-        "after": {
-          "zh": "精确号码先匹配→只把无匹配/多候选/疑似重复送审→人确认→输出带原件链接的批准记录",
-          "en": "Match exact IDs → queue unmatched, ambiguous or duplicate items → human approval → export traceable records"
-        },
-        "incumbent": {
-          "zh": "Jobber已支持扫描发票、邮件转发和按工单号匹配，Plus或Bookkeeping可用。无匹配时仍须手选。",
-          "en": "Jobber already scans and forwards invoices and matches job numbers on Plus or Bookkeeping. Unmatched drafts still need a person to choose the job."
-        },
-        "gap": {
-          "zh": "可验证缺口是无工单号的归属；多工单拆分是待验证需求，不能直接声称原生不支持。",
-          "en": "Missing-ID attribution is a documented boundary. Multi-job allocation remains a hypothesis, not a verified missing feature."
-        },
-        "price": {
-          "zh": "Plus含5用户：$499/月无承诺，或年付折合$399/月；非插件愿付价格。",
-          "en": "Plus with five users: $499/month without commitment, or $399/month billed annually. This is existing spend, not willingness to buy an add-on."
-        },
-        "mvp": {
-          "zh": "一个供应商、一个工种、100张授权历史票据；CSV工单清单；只建议不写账。",
-          "en": "One supplier, one trade, 100 authorized historical receipts, a CSV job list and recommendations without ledger writes."
-        },
-        "validation": {
-          "zh": "试价$150整理100张异常；$49–99/月续用仅在省时明确时测试。测复核秒数、错误归属、人工兜底量。",
-          "en": "Test $150 for 100 exceptions and $49–99/month only if time savings are clear. Measure review time, misallocation and manual intervention."
-        },
-        "costs": {
-          "zh": "200张×30秒复核=100分钟；按假设人工$25/小时，已耗$41.67。接口写回须另核实。",
-          "en": "200 items at 30 seconds of review take 100 minutes: $41.67 at an assumed $25/hour. Verify write endpoints separately."
-        },
-        "distribution": {
-          "zh": "Jobber Partner Directory/Marketplace与承包商记账员；草稿应用最多5个付费账号，公开上线须审核。",
-          "en": "Jobber’s partner ecosystem and contractor bookkeepers. Draft apps connect up to five paying accounts; public distribution requires review."
+        "label": {
+          "zh": "优先访谈",
+          "en": "PRIORITY INTERVIEWS"
         },
         "sources": [
-          "jobber-scan",
-          "jobber-price",
-          "jobber-review"
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06"
         ],
-        "image": "jobber-sync"
+        "flow": {
+          "zh": "解析现有文档→AI找候选重复段→工程人判定哪些真正可共用→建立条件/变量→回归生成5种输出→逐页对照→批准后交付。",
+          "en": "Parse existing documents → AI proposes repeated blocks → engineering decides what can truly be shared → configure conditions/variables → regenerate five variants → compare every page → approve and hand over."
+        },
+        "pages": [
+          [
+            {
+              "heading": {
+                "zh": "原始求助与时间",
+                "en": "The original request & date"
+              },
+              "body": {
+                "zh": "公开求助作者Kizzbot说自己独自维护Word工位指导书与InDesign软件手册，软件配置超过100种。管理层已增加兼职人手；作者认为约$3,000年软件费容易解释，但顾问实施费令审批更难。该金额为个人预算判断，不是采购承诺。 2026年约8–9月：原页只显示1mo ago，精确发帖日未核实；10月15日复核。",
+                "en": "Kizzbot reports maintaining Word work instructions and InDesign manuals for 100+ software configurations. Management added part-time help. The writer considers about $3,000/year in software easy to justify, while consulting costs complicate approval. This is stated budget sentiment, not a purchase commitment. Approximately Aug–Sep 2026; the page shows only “1mo ago,” so the exact posting date is unverified. Rechecked October 15."
+              }
+            },
+            {
+              "heading": {
+                "zh": "谁使用，现有方案覆盖哪一步",
+                "en": "User & current native coverage"
+              },
+              "body": {
+                "zh": "使用者：唯一技术写手；批准者：制造企业管理层；验收者：产品/工程负责人。 MadCap Flare原生有snippets、变量、条件与多格式输出；现价$3,150/作者/年。其官方也提供迁移顾问服务。Spogen Doc Builder已面向机械产品族做复用、变体与发布前检查。功能不是空白，竞争包括实施顾问。",
+                "en": "User: sole technical writer. Approver: manufacturing management. Acceptance owner: product/engineering. MadCap Flare already has snippets, variables, conditions and multiformat output; its posted price is $3,150/author/year. MadCap offers migration consulting, too. Spogen Doc Builder already targets machinery product families, variants and publication preflight. Both software and implementation competition exist."
+              }
+            },
+            {
+              "heading": {
+                "zh": "还剩什么值得验证",
+                "en": "The residual hypothesis"
+              },
+              "body": {
+                "zh": "实际未被这位用户解决的是把已有100份文档正确拆成可复用内容，并让非技术写手接得住。可试卖差异是小范围、明确验收、保留输出样式、固定上限的迁移交付，而非声称同行做不到。",
+                "en": "This user’s unresolved task is correctly decomposing 100 existing documents into reusable content and making the result manageable for a nontechnical writer. Test a small, fixed-scope migration with explicit acceptance and preserved output styling, not a claim that competitors cannot do it."
+              }
+            }
+          ],
+          [
+            {
+              "heading": {
+                "zh": "最小交付：把什么交到客户手上",
+                "en": "Minimum deliverable"
+              },
+              "body": {
+                "zh": "固定范围迁移包：一个产品族、5份代表手册、20段共用内容。交付共用/差异映射表、可编辑源项目、5份对照输出、遗漏清单与一次写手上手培训。先卖完成的迁移，不卖又一个编辑器。",
+                "en": "A fixed-scope migration package: one product family, five representative manuals and 20 reusable blocks. Deliver a shared/variant map, editable source project, five comparison outputs, an exception list and one writer handover session. Sell completed migration, not another editor."
+              }
+            },
+            {
+              "heading": {
+                "zh": "付费证据与建议试价",
+                "en": "Payment evidence & proposed test"
+              },
+              "body": {
+                "zh": "已有投入：作者自述公司雇了兼职；软件预算态度：约$3,000/年可接受。另一个制造排版招聘的搜索缓存显示$10–15/小时、25–30份文件、1次雇用，但原页现已关闭，不作为当前订单或成交金额证据。 建议试价而非市场事实：先$300做5份文档的复用诊断，可抵$1,000上限的试点实施；许可证另计。客户不愿给样本、批准人或小额诊断预算，就不做免费全量迁移。",
+                "en": "Existing spend: reported part-time headcount. Budget sentiment: around $3,000/year for software. A separate manufacturing-formatting job’s search cache shows $10–15/hour, 25–30 files and one hire, but its live page is closed; it is not a current opportunity or verified contract value. Proposed test, not market pricing: $300 for a five-document reuse audit, creditable toward a capped $1,000 implementation pilot; licenses extra. No full unpaid migration without sample access, an approver and a paid diagnostic."
+              }
+            },
+            {
+              "heading": {
+                "zh": "成本与人工批准",
+                "en": "Costs & human approval"
+              },
+              "body": {
+                "zh": "AI只做匹配与差异候选；成本主要是图像提取、条件建模、分页回归和人工核对。假设试点20小时×$40内部工时=$800，$1,000价格只剩$200支付其他成本，不能包装成95%利润。",
+                "en": "AI suggests matches and differences. Image extraction, condition modeling, pagination regression and review dominate cost. An illustrative 20 hours at $40 internal cost is $800, leaving only $200 of a $1,000 fee for other costs, not a 95% profit margin."
+              }
+            },
+            {
+              "heading": {
+                "zh": "成功条件与退出条件",
+                "en": "Success & stop conditions"
+              },
+              "body": {
+                "zh": "同一条已批准修改在5个正确变体中一次生效；不该改的变体零误改；图片/编号/警告完整；下一次更新写手能独立完成。 两次样本回归仍存在关键技术内容漏改/误改，或每份输出仍要重新排版，就停止扩到100份；转成普通人工迁移报价。",
+                "en": "One approved edit updates all five applicable variants; nonapplicable variants remain unchanged; images, numbering and warnings survive; the writer can perform the next update independently. If two sample regressions still miss or misapply critical changes, or every output needs manual relayout, stop scaling to 100 manuals and quote conventional migration work."
+              }
+            }
+          ]
+        ]
       },
       {
-        "id": "reconciliation-exceptions",
+        "id": "subtitle-office-roundtrip",
         "title": {
-          "zh": "月末对账：卖闭环证据包，不再造同步器",
-          "en": "Month-end: sell a resolved exception pack"
+          "zh": "把客户Word/Excel字幕返修安全带回SRT",
+          "en": "Bring client Word/Excel subtitle revisions safely back into SRT"
         },
-        "role": {
-          "zh": "同时服务多家承包商的记账事务所",
-          "en": "Bookkeeping firms serving multiple contractors"
-        },
-        "trigger": {
-          "zh": "日常同步异常或月末关账",
-          "en": "A sync exception or month-end close"
-        },
-        "input": {
-          "zh": "工单发票/收款/退款/费用与QBO记录",
-          "en": "Field-service invoices, payments, refunds, fees and QBO records"
-        },
-        "before": {
-          "zh": "两边找发票→对金额税率→问老板/客服→手动解决→重试",
-          "en": "Find records in both systems → inspect totals and tax → ask owner/support → resolve → retry"
-        },
-        "after": {
-          "zh": "只读比对→列缺失/差额→附原始记录→分派负责人→人工解决→再次读取验证",
-          "en": "Read-only comparison → flag missing records and differences → attach evidence → assign owner → human resolution → verify again"
-        },
-        "incumbent": {
-          "zh": "Jobber已做单向QBO同步。HCP已提供Sync Alerts，包括税率、同名、闭账期、重复发票号问题。",
-          "en": "Jobber already provides one-way QBO sync. HCP already has Sync Alerts for tax mismatches, name collisions, closed periods and duplicate invoice numbers."
-        },
-        "gap": {
-          "zh": "跨公司未闭环事项、责任人与修复后复查是产品假设；‘发现同步错误’本身不是差异。",
-          "en": "Cross-client ownership and post-resolution verification are the product hypothesis. Simply detecting sync errors is not differentiation."
-        },
-        "price": {
-          "zh": "HCP MAX开放API：$329常规月付，或年付$299/月，8用户。先算客户升级费。",
-          "en": "HCP API requires MAX: $329 regular monthly or $299/month billed annually, eight users. Include any upgrade cost."
-        },
-        "mvp": {
-          "zh": "先单一平台＋QBO CSV，只读缺失发票/金额差报告；不改税、不重开账期。",
-          "en": "Start with one platform and QBO CSVs, flag missing invoices and total differences. Do not change tax or reopen periods."
-        },
-        "validation": {
-          "zh": "建议试价$149/公司/月；3家公司跑完整关账周期，复核时间降30%且无错误改账才继续。",
-          "en": "Proposed test: $149/company/month over one complete close for three firms. Continue if review time falls 30% without erroneous ledger changes."
-        },
-        "costs": {
-          "zh": "QBO每realm每分钟500请求、每app/realm每秒10请求；Builder每workspace月含500,000次CorePlus，超限节流。",
-          "en": "QBO: 500 requests/minute/realm and 10/second/app/realm. Builder includes 500,000 CorePlus calls/workspace/month; excess calls are throttled."
-        },
-        "distribution": {
-          "zh": "HCP官方建议雇开发者并列Upwork/Toptal，能证实服务入口，不能证实成交预算。",
-          "en": "HCP explicitly directs users to outside developers including Upwork/Toptal. This establishes a service channel, not proven sales."
+        "label": {
+          "zh": "小试验证",
+          "en": "SMALL PILOT"
         },
         "sources": [
-          "jobber-sync",
-          "hcp-alerts",
-          "hcp-api",
-          "hcp-price",
-          "qbo-limits"
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16"
         ],
-        "image": "jobber-sync"
+        "flow": {
+          "zh": "原SRT → 稳定cue ID审稿包 → Office返修 → 人工逐条接受 → 确定性时间码/QC → 可回滚SRT",
+          "en": "Original SRT → stable cue-ID review pack → Office edits → human acceptance → deterministic timecode/QC → reversible SRT"
+        },
+        "pages": [
+          [
+            {
+              "heading": {
+                "zh": "有谁真的卡在这里",
+                "en": "A specific blocked workflow"
+              },
+              "body": {
+                "zh": "保留Subtitle Edit/Premiere等既有工具、客户坚持在Office审稿的小型本地化团队或制作公司 字幕比较结果难以变成客户能审批的修订稿；外部改字后需重新对齐字幕事件，处理超长文本、删行和版本冲突。 请求Word修订或带时间码、改前/改后文本的Excel比较导出。2026年回复给自定义文本导出绕法，但说不能导回SE。当前页面为Open。 原帖2025-05-24，相关回复2026-05-08；只有一个作者的具体请求。",
+                "en": "Small localization teams or production shops retaining Subtitle Edit/Premiere while clients insist on Office-based review Subtitle diffs are awkward to share for approval; external edits must be reconciled to cues, with overflow, deleted rows and version conflicts checked. Requests Word tracked-change or timecoded before/after Excel exports. A May 2026 workaround exports custom text but explicitly does not reimport into SE. The issue page remains open. Original request: May 24, 2025; relevant reply: May 8, 2026. This is one author’s specific request."
+              }
+            },
+            {
+              "heading": {
+                "zh": "反证：成熟解法已经存在",
+                "en": "Counterevidence: mature tools exist"
+              },
+              "body": {
+                "zh": "描述客户杂乱修订、超字数和逐条比对负担；也给出EZTitles导出带阅读速度上限RTF并重新导入的成熟解法。 OOONA已提供阅读速度与技术QC；Closed Caption Creator已有QC和Excel报告。",
+                "en": "Describes messy client revisions, overly long edits and line-by-line comparison; also documents an existing EZTitles RTF round-trip with reading-speed limits. OOONA covers reading speed and technical QC; Closed Caption Creator already provides QC and Excel reports."
+              }
+            },
+            {
+              "heading": {
+                "zh": "剩余切口只限于不换工具的团队",
+                "en": "A narrow adapter hypothesis"
+              },
+              "body": {
+                "zh": "为不换主工具的团队交付带稳定cue ID的Office审稿包、选择性接受返修、冲突列表和可回导SRT。是否比现成EZTitles/CCC流程更省钱省事，尚未证明。",
+                "en": "An adapter for teams that will not switch tools: stable cue IDs, Office review packs, selective revision acceptance, conflict lists and reimportable SRT. Advantage over EZTitles/CCC is unproven."
+              }
+            }
+          ],
+          [
+            {
+              "heading": {
+                "zh": "先交付一次返修，再决定插件",
+                "en": "Replay a revision before building a plugin"
+              },
+              "body": {
+                "zh": "先用两家团队各一个已完成项目，人工复演原SRT→客户返修Word/Excel→最终SRT；测返修工时和错配。原型只保cue ID/时间码、逐条接受、超限警告、可回滚diff，不生成翻译。先做固定价交付服务，再决定插件。",
+                "en": "Replay one completed project from each of two teams: original SRT, client-edited Office file, final SRT. Measure reconciliation time and mismatches. Prototype stable IDs/timecodes, selective acceptance, overflow warnings and reversible diffs only. Test a fixed-price service before building a plugin."
+              }
+            },
+            {
+              "heading": {
+                "zh": "$50究竟证明了什么",
+                "en": "What the $50 job actually establishes"
+              },
+              "body": {
+                "zh": "精确此返修接口的付款意愿未知。相邻任务有公开已授标$50项目：55分钟纪录片、现有Excel时间码转SRT并整体平移30秒；证明有人付钱做交接，不证明高客单价或订阅。",
+                "en": "Willingness to pay for this exact revision adapter is unknown. An adjacent awarded $50 job asks for a 55-minute documentary's Excel timings to become SRT with a 30-second shift: evidence of paid handoff labor, not premium pricing or subscription demand.",
+                "url": "https://www.peopleperhour.com/freelance-jobs/documentary-subtitle-file-srt-create-from-transcript-a-3047493",
+                "date": "Page says 5 years ago; exact publication date not verified"
+              }
+            },
+            {
+              "heading": {
+                "zh": "AI做什么，不该替谁决定",
+                "en": "AI assistance and deterministic checks"
+              },
+              "body": {
+                "zh": "AI仅协助理解自由文字批注和提出匹配；cue匹配/时间码必须确定性校验，人决定接受。普通规则脚本若够用就不用AI。",
+                "en": "AI may interpret free-form notes and propose matches; cue/timecode integrity requires deterministic checks and human acceptance. Use ordinary scripts if sufficient."
+              }
+            },
+            {
+              "heading": {
+                "zh": "什么情况下应当停止",
+                "en": "When to stop"
+              },
+              "body": {
+                "zh": "若现成EZTitles/CCC配置半小时即可覆盖；客户愿迁移；每月返修量不足；或两轮试点没有减少至少一半搬运时间且不增加字幕错配，就停。该阈值是建议实验标准，非实测结论。",
+                "en": "Stop if an existing EZTitles/CCC setup solves it in half an hour, clients will migrate, revision volume is low, or two pilots fail to halve reconciliation work without adding cue mismatches. These are proposed test thresholds, not observed results."
+              }
+            }
+          ]
+        ]
       },
       {
-        "id": "hvac-cancellation",
+        "id": "collision-parts-return-closeout",
         "title": {
-          "zh": "HVAC空档：给调度员三个能做的候选",
-          "en": "HVAC gaps: three jobs a dispatcher can actually fit"
+          "zh": "退回去的车身零件，谁确认钱回来了？",
+          "en": "The body part went back. Did the credit arrive?"
         },
-        "role": {
-          "zh": "住宅HVAC维修与维护调度员",
-          "en": "Residential HVAC dispatchers"
-        },
-        "trigger": {
-          "zh": "非紧急维护单取消，技工空出90分钟",
-          "en": "A non-emergency maintenance cancellation leaves a 90-minute gap"
-        },
-        "input": {
-          "zh": "同意候补客户、时长、区域、技工资质、零件、路线",
-          "en": "Opted-in waitlist, duration, service area, technician qualifications, parts and routes"
-        },
-        "before": {
-          "zh": "翻订单→挨个打电话→问技工→重新排班",
-          "en": "Search jobs → call customers → check with technician → reschedule"
-        },
-        "after": {
-          "zh": "硬规则筛选→估算绕路→给3个候选与原因→调度员选→客户确认→重查时段后写回",
-          "en": "Filter hard constraints → estimate detour → present three explained options → dispatcher chooses → customer confirms → recheck slot before writing"
-        },
-        "incumbent": {
-          "zh": "HCP已有预订、派工、路线；ServiceTitan Scheduling Pro有在线预订与Adaptive Capacity。",
-          "en": "HCP already handles booking, dispatch and routes. ServiceTitan Scheduling Pro offers booking and Adaptive Capacity."
-        },
-        "gap": {
-          "zh": "约束感知候补是待验证优化层；本次没证明竞品缺候补功能。",
-          "en": "Constraint-aware backfilling is a hypothesis. This research did not establish that incumbents lack waitlists."
-        },
-        "price": {
-          "zh": "已有软件预算锚为HCP MAX $329/月；建议试价$99/月或$200一次诊断，非市场成交价。",
-          "en": "HCP MAX at $329/month is an existing spend anchor. Test $99/month or a $200 diagnostic; neither is an observed transaction."
-        },
-        "mvp": {
-          "zh": "CSV排班＋同意候补清单；只出推荐卡，不接电话、不自动承诺到达时间。",
-          "en": "CSV schedule plus opted-in waitlist; recommendation cards only, without calls or automatic arrival promises."
-        },
-        "validation": {
-          "zh": "看10次真实取消能否产生可接受候选；按增量完成工单贡献利润衡量，不按发票总额。",
-          "en": "Test ten actual cancellations for acceptable candidates. Measure contribution from incremental completed jobs, not gross invoice value."
-        },
-        "costs": {
-          "zh": "短信、地图、平台升级和支持另计。100次取消×10候选×4动作=4,000自动化步骤（估算，未含重试）。",
-          "en": "Add messaging, maps, platform upgrades and support. An illustrative 100 cancellations × 10 candidates × 4 actions = 4,000 automation steps before retries."
-        },
-        "distribution": {
-          "zh": "现有实施顾问、HCP社区；展示有资质/车程约束的真实流程演示，渠道转化未验证。",
-          "en": "Implementation partners and HCP’s community. Demonstrate qualification and travel constraints; conversion is untested."
+        "label": {
+          "zh": "流程服务观察",
+          "en": "PROCESS-SERVICE WATCH"
         },
         "sources": [
-          "hcp-booking",
-          "hcp-price",
-          "hcp-api",
-          "st-scheduling",
-          "st-capacity",
-          "jobber-zapier",
-          "make-credits"
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11"
         ],
-        "image": "hcp-booking-demo"
-      },
-      {
-        "id": "dental-native-enablement",
-        "title": {
-          "zh": "牙医候补：先卖原生启用与审计",
-          "en": "Dental waitlists: sell native setup and auditing first"
+        "flow": {
+          "zh": "先核对原生未结credit报表→给实物和库位编码→手机留包装/标签照片→人工确认退货窗口→提货签收关联记录→导入credit核对→只把未闭环交给负责人。",
+          "en": "Check native outstanding-credit reports → label physical items and locations → capture packaging/label photos → confirm return window → link pickup proof → reconcile credits → assign only unresolved items."
         },
-        "role": {
-          "zh": "诊所前台、运营负责人",
-          "en": "Dental front desk and operations managers"
-        },
-        "trigger": {
-          "zh": "取消出现，候补名单/短信/预约系统没有顺畅接上",
-          "en": "A cancellation exposes gaps between the waitlist, messaging and scheduling"
-        },
-        "input": {
-          "zh": "患者候补标记、联系偏好、预约时长与医生/诊室设置",
-          "en": "Waitlist flags, contact preferences, duration, provider and operatory settings"
-        },
-        "before": {
-          "zh": "前台逐人打电话；具名Norbo Dental证言描述过该流程",
-          "en": "Staff call patients individually, as described by named Norbo Dental customer testimony"
-        },
-        "after": {
-          "zh": "先配置原生ASAP→选择合适患者→分批邀请→患者确认→同步日历→审计失败发送与实际完成",
-          "en": "Configure native ASAP → select eligible patients → stagger invitations → patient accepts → sync calendar → audit delivery failures and completed visits"
-        },
-        "incumbent": {
-          "zh": "Open Dental已有按时长筛选、分批短信、点击改约；NexHealth已有偏好医生匹配和预约写回。",
-          "en": "Open Dental already provides duration filtering, staggered texts and rescheduling links; NexHealth covers provider preferences and calendar writes."
-        },
-        "gap": {
-          "zh": "先解决配置、候补标记和失败发送；跨地点特殊规则需先找真实未满足需求。",
-          "en": "Start with configuration, waitlist flags and delivery failures. Validate unmet cross-location rules before developing software."
-        },
-        "price": {
-          "zh": "ASAP $20/地点/月，Recall客户免费；美国短信接入$5/月＋$0.04/条。基础软件与支持另收费。",
-          "en": "ASAP: $20/location/month, free with Recall. US texting: $5/month access plus $0.04/outgoing message; base software/support extra."
-        },
-        "mvp": {
-          "zh": "合成数据演示＋原生配置清单＋诊所自己的漏斗报表，不新建医疗消息系统。",
-          "en": "Synthetic-data demo, native configuration checklist and the practice’s own funnel report, without a new clinical messaging stack."
-        },
-        "validation": {
-          "zh": "建议一次性$250–500配置/审计。扣除把未来预约提前造成的新空档，再算新增完成量。",
-          "en": "Proposed $250–500 setup/audit. Subtract newly created future gaps before counting incremental completed appointments."
-        },
-        "costs": {
-          "zh": "适用HIPAA时，维护/处理ePHI通常需BAA及安全措施；加密不自动豁免。",
-          "en": "Where HIPAA applies, maintaining/processing ePHI generally requires a BAA and safeguards; encryption is not an automatic exemption."
-        },
-        "buyer_evidence": {
-          "zh": "NexHealth引用Norbo Dental运营负责人称每周补15个空档、$3,000收入：供应商客户证言，非独立审计，更不是创业净利。",
-          "en": "NexHealth cites Norbo Dental’s operations director on 15 filled slots and $3,000 weekly revenue: vendor testimony, not an independent audit or startup profit."
-        },
-        "sources": [
-          "od-asap",
-          "od-price",
-          "nex-waitlist",
-          "hhs-cloud"
-        ],
-        "image": "nex-waitlist"
+        "pages": [
+          [
+            {
+              "heading": {
+                "zh": "原始求助与时间",
+                "en": "The original request & date"
+              },
+              "body": {
+                "zh": "2024-08-12一位中型钣喷店零件经理说每周退20–30件，司机签收并录入CCC之后，贷项追踪仍会漏掉。回复者描述每周一两次拿签收单核对，未入账就附扫描件追问供应商。 长期痛点：2024-08-12主线；2025-04-27及12-18为同一位另一作者的持续记录，已去重。",
+                "en": "On August 12, 2024, a midsize collision-shop parts manager reported 20–30 returns weekly and losing sight of credits after driver sign-off and CCC entry. A respondent checks signed slips once or twice weekly and sends scanned evidence when credits are missing. Long-running issue: primary thread August 12, 2024. April 27 and December 18, 2025 describe another author’s continuing situation and are deduplicated."
+              }
+            },
+            {
+              "heading": {
+                "zh": "谁使用，现有方案覆盖哪一步",
+                "en": "User & current native coverage"
+              },
+              "body": {
+                "zh": "使用者：零件经理；买方：店主或多店运营负责人；参与者：供应商司机、记账员。 CCC官方已有Parts Returns和Acknowledge Credits培训。BodyshopConnect的2022官方手册已列Outstanding Credit Return、Receive Credits及禁止带未结退货关RO的规则；不是无人解决。",
+                "en": "User: parts manager. Buyer: owner or multi-site operations lead. Participants: supplier driver and bookkeeper. CCC already provides Parts Returns and Acknowledge Credits training. BodyshopConnect’s 2022 manual includes Outstanding Credit Return, Receive Credits and rules preventing RO closure with outstanding returns. The category is established."
+              }
+            },
+            {
+              "heading": {
+                "zh": "还剩什么值得验证",
+                "en": "The residual hypothesis"
+              },
+              "body": {
+                "zh": "2025年库存帖作者后续承认已付费的CCC包含所需功能，实际缺培训和店主流程配合。故最可售的是跨人的盘点、证据整理与执行交付；插件需求尚未证明。",
+                "en": "The 2025 inventory-thread author later acknowledged that paid-for CCC already had the required features; training and owner buy-in were missing. The saleable hypothesis is cross-person inventory, evidence cleanup and execution. A plugin need remains unproven."
+              }
+            }
+          ],
+          [
+            {
+              "heading": {
+                "zh": "最小交付：把什么交到客户手上",
+                "en": "Minimum deliverable"
+              },
+              "body": {
+                "zh": "限定一个店、两个供应商、30个待退/待入贷项：盘清‘在哪里、包装还在吗、何时必须退、谁取走、贷项对应哪件’。输出逾期风险队列、提货证据与未匹配credit清单，并把能用的原生报表配置好。",
+                "en": "Scope one shop, two suppliers and 30 pending returns/credits. Establish location, packaging status, deadline, pickup evidence and credit matching. Deliver an aging-risk queue, pickup evidence and unmatched-credit list, configuring native reports first."
+              }
+            },
+            {
+              "heading": {
+                "zh": "付费证据与建议试价",
+                "en": "Payment evidence & proposed test"
+              },
+              "body": {
+                "zh": "已知：使用者已在付CCC，存在退货/占库问题。未知：损失金额、外包预算、是否愿意额外付费。不能把20–30件/周换算成市场规模或回收收入。 建议试价：$250做30件闭环诊断，店主亲自确认可退与联系人；只在追回/防止损失价值及每周复核省时被证明后，才试$99/月轻量托管。",
+                "en": "Known: the shop pays for CCC and reports return/storage problems. Unknown: loss amounts, outsourcing budget and willingness to pay extra. Do not turn 20–30 weekly returns into market size or recovered revenue. Proposed test: $250 for a 30-item closeout diagnostic with owner-confirmed eligibility and contacts. Test $99/month light managed follow-up only after recovered/avoided loss and review-time savings are demonstrated."
+              }
+            },
+            {
+              "heading": {
+                "zh": "成本与人工批准",
+                "en": "Costs & human approval"
+              },
+              "body": {
+                "zh": "现场盘点、标签、包装保全和员工执行是主成本；AI可读标签/签收单与候选匹配，不能移动保险杠，也不能决定退货资格。财务与供应商外发一律由客户批准。",
+                "en": "Physical counting, labels, packaging retention and staff execution dominate cost. AI can read labels/slips and propose matches; it cannot move bumpers or decide return eligibility. Customer approval governs financial decisions and supplier outreach."
+              }
+            },
+            {
+              "heading": {
+                "zh": "成功条件与退出条件",
+                "en": "Success & stop conditions"
+              },
+              "body": {
+                "zh": "30件均能找到实物或已提货证明、负责人和状态；未匹配贷项有明确下一步；再跑两周新退货不会重新失踪。 若原生培训即可解决，交付培训后结束；若老板拒绝统一收货/标记，或盘点人力超过可追回价值，不卖持续订阅。",
+                "en": "All 30 items have a physical location or pickup proof, an owner and a status. Every unmatched credit has a next action. New returns stay traceable for two further weeks. If native training solves it, finish with training. If the owner rejects consistent intake/labeling or labor exceeds recoverable value, do not sell an ongoing subscription."
+              }
+            }
+          ]
+        ]
       }
     ],
     "sources": [
       {
-        "id": "jobber-scan",
-        "title": "Jobber Supplier invoice scanning",
-        "url": "https://getjobber.zendesk.com/hc/en-us/articles/41272823874967-Supplier-invoice-scanning",
-        "type": "primary",
+        "id": "O01",
+        "title": "Searching for tools to make my job faster",
+        "url": "https://www.reddit.com/r/technicalwriting/comments/1vywdxx/searching_for_tools_to_make_my_job_faster/",
+        "evidence": "public user request; circa Aug–Sep 2026, exact date unverified",
         "checked_at": "2026-10-15"
       },
       {
-        "id": "jobber-price",
-        "title": "Jobber pricing",
-        "url": "https://www.getjobber.com/pricing/",
-        "type": "primary",
+        "id": "O02",
+        "title": "MadCap pricing",
+        "url": "https://www.madcapsoftware.com/pricing/flare/",
+        "evidence": "official current list price; checked 2026-10-15",
         "checked_at": "2026-10-15"
       },
       {
-        "id": "jobber-review",
-        "title": "Jobber app review",
-        "url": "https://developer.getjobber.com/docs/publishing_your_app/app_review_process/",
-        "type": "primary",
+        "id": "O03",
+        "title": "MadCap single sourcing",
+        "url": "https://www.madcapsoftware.com/products/flare/single-sourcing.aspx",
+        "evidence": "official capabilities; checked 2026-10-15",
         "checked_at": "2026-10-15"
       },
       {
-        "id": "jobber-sync",
-        "title": "Jobber QuickBooks integration",
-        "url": "https://www.getjobber.com/features/quickbooks-sync/",
-        "type": "primary",
+        "id": "O04",
+        "title": "MadCap consulting",
+        "url": "https://www.madcapsoftware.com/services/consulting/",
+        "evidence": "official services; checked 2026-10-15",
         "checked_at": "2026-10-15"
       },
       {
-        "id": "hcp-alerts",
-        "title": "Housecall Pro QBO sync alerts",
-        "url": "https://help.housecallpro.com/en/articles/975825-quickbooks-online-sync-alerts",
-        "type": "primary",
+        "id": "O05",
+        "title": "Spogen Doc Builder",
+        "url": "https://spogen.ai/platform/doc-builder",
+        "evidence": "official competing capabilities; checked 2026-10-15",
         "checked_at": "2026-10-15"
       },
       {
-        "id": "hcp-api",
-        "title": "Housecall Pro API overview",
-        "url": "https://help.housecallpro.com/en/articles/8505035-api-overview",
-        "type": "primary",
+        "id": "O06",
+        "title": "Excel Specialist – Manufacturing Work Instructions",
+        "url": "https://www.upwork.com/freelance-jobs/apply/Excel-Specialist-Manufacturing-Work-Instructions_~022093291905415409310/",
+        "evidence": "search cache contains job details; direct page says no longer available on 2026-10-15; not a live lead",
         "checked_at": "2026-10-15"
       },
       {
-        "id": "hcp-price",
-        "title": "Housecall Pro pricing",
-        "url": "https://www.housecallpro.com/pricing/",
-        "type": "primary",
+        "id": "O07",
+        "title": "Parts Returns",
+        "url": "https://www.reddit.com/r/Autobody/comments/1eq3j30/",
+        "evidence": "public request 2024-08-12; replies include 2024-09-12",
         "checked_at": "2026-10-15"
       },
       {
-        "id": "qbo-limits",
-        "title": "Intuit API limits",
-        "url": "https://static.developer.intuit.com/output_html/qbo/docs/learn/limits-and-throttles.html",
-        "type": "primary",
+        "id": "O08",
+        "title": "Autobody parts inventory",
+        "url": "https://www.reddit.com/r/smallbusiness/comments/1k9b8pq/autobody_parts_management_excel_or_software_need/",
+        "evidence": "public request 2025-04-27; important later native-capability correction",
         "checked_at": "2026-10-15"
       },
       {
-        "id": "hcp-booking",
-        "title": "Housecall Pro online booking",
-        "url": "https://help.housecallpro.com/en/articles/7034474-online-booking-overview",
-        "type": "primary",
+        "id": "O09",
+        "title": "Body shop parts management",
+        "url": "https://www.reddit.com/r/partscounter/comments/1ppjng5/long_post_warning_new_9_months_in_to_body_shop/",
+        "evidence": "public request 2025-12-18; same author as inventory-request, not independent sample",
         "checked_at": "2026-10-15"
       },
       {
-        "id": "st-scheduling",
-        "title": "ServiceTitan Scheduling Pro",
-        "url": "https://help.servicetitan.com/v1/docs/scheduling-pro",
-        "type": "primary",
+        "id": "O10",
+        "title": "CCC ONE training catalog",
+        "url": "https://help.cccis.com/STATIC/CCC_ONE/TRAINING/catalog.html",
+        "evidence": "official existing returns/credit training",
         "checked_at": "2026-10-15"
       },
       {
-        "id": "st-capacity",
-        "title": "ServiceTitan advanced scheduling settings",
-        "url": "https://help.servicetitan.com/v1/docs/scheduling-pro-onboarding-part-2-set-up-advanced-settings",
-        "type": "primary",
+        "id": "O11",
+        "title": "BodyshopConnect Parts Management Quick Guide",
+        "url": "https://bodyshopconnect.com/help/wp-content/uploads/Parts-Guide_English.01.22.pdf",
+        "evidence": "official January 2022 guide, especially printed pp.4–5",
         "checked_at": "2026-10-15"
       },
       {
-        "id": "jobber-zapier",
-        "title": "Jobber Zapier integration",
-        "url": "https://www.getjobber.com/integrations/zapier/",
-        "type": "primary",
-        "checked_at": "2026-10-15"
+        "id": "O12",
+        "title": "Subtitle Edit #9685",
+        "url": "https://github.com/SubtitleEdit/subtitleedit/issues/9685"
       },
       {
-        "id": "make-credits",
-        "title": "Make credit metering",
-        "url": "https://help.make.com/credits",
-        "type": "primary",
-        "checked_at": "2026-10-15"
+        "id": "O13",
+        "title": "Practitioner: client review",
+        "url": "https://rjtranslation.co.uk/2025/02/17/exporting-subtitle-files-for-client-review/"
       },
       {
-        "id": "od-asap",
-        "title": "Open Dental Web Sched ASAP",
-        "url": "https://www.opendental.com/manual/webschedasap.html",
-        "type": "primary",
-        "checked_at": "2026-10-15"
+        "id": "O14",
+        "title": "OOONA technical QC",
+        "url": "https://ooona.atlassian.net/wiki/spaces/OHC/pages/590315567"
       },
       {
-        "id": "od-price",
-        "title": "Open Dental fees",
-        "url": "https://www.opendental.com/site/fees.html",
-        "type": "primary",
-        "checked_at": "2026-10-15"
+        "id": "O15",
+        "title": "Closed Caption Creator QC",
+        "url": "https://www.closedcaptioncreator.com/features/qc-and-review.html"
       },
       {
-        "id": "nex-waitlist",
-        "title": "NexHealth Waitlist",
-        "url": "https://www.nexhealth.com/features/waitlist",
-        "type": "primary",
-        "checked_at": "2026-10-15"
-      },
-      {
-        "id": "hhs-cloud",
-        "title": "HHS HIPAA cloud guidance",
-        "url": "https://www.hhs.gov/hipaa/for-professionals/special-topics/health-information-technology/cloud-computing/index.html",
-        "type": "primary",
-        "checked_at": "2026-10-15"
+        "id": "O16",
+        "title": "Awarded $50 subtitle handoff",
+        "url": "https://www.peopleperhour.com/freelance-jobs/documentary-subtitle-file-srt-create-from-transcript-a-3047493"
       }
     ],
-    "images": [
-      {
-        "id": "jobber-sync",
-        "url": "https://cdn.sanity.io/images/qd8c1awn/production/ae3fedb8e4b468bce896a4b93544e59ab336dd9b-1024x644.webp/jobber-quickbooks-online-sync.webp?auto=format&fit=max&q=75&w=3840",
-        "source": "jobber-sync",
-        "caption": {
-          "zh": "Jobber官方QBO集成界面，已有原生同步。",
-          "en": "Jobber’s official QBO integration screen shows native sync."
+    "full_research": {
+      "manufacturing_collision": {
+        "title": {
+          "zh": "从真实求助里筛出来的两项可试卖服务",
+          "en": "Two service offers grounded in actual requests"
         },
-        "status": "official source URL verified; asset rendering not verified; rights remain with owner"
+        "checked_at": "2026-10-15",
+        "type": "background_demand_research",
+        "editorial_note": {
+          "zh": "公开需求样本，不是本周新发布，也不是无人竞争的蓝海。筛选涵盖碰撞维修、制造文档、机加工交接与货运追踪；最终保留两项产品化服务。",
+          "en": "Public demand samples, not new launches or competition-free markets. Screening covered collision repair, manufacturing documentation, machining handoffs and freight tracking; two productized services survived."
+        },
+        "cases": [
+          {
+            "id": "manufacturing-variant-migration",
+            "rank": 1,
+            "title": {
+              "zh": "100个配置手册，先卖一个产品族的迁移验收",
+              "en": "100 manual variants: migrate and validate one product family"
+            },
+            "lede": {
+              "zh": "一位小制造厂技术写手不是在找更会写作的AI：其目标是停止把同一处修改重复做100遍。真正卡住采购的是迁移实施。",
+              "en": "A writer at a small manufacturer is not asking for better AI prose. They want to stop repeating one edit across 100 variants. Implementation is the buying obstacle."
+            },
+            "demand": {
+              "zh": "公开求助作者Kizzbot说自己独自维护Word工位指导书与InDesign软件手册，软件配置超过100种。管理层已增加兼职人手；作者认为约$3,000年软件费容易解释，但顾问实施费令审批更难。该金额为个人预算判断，不是采购承诺。",
+              "en": "Kizzbot reports maintaining Word work instructions and InDesign manuals for 100+ software configurations. Management added part-time help. The writer considers about $3,000/year in software easy to justify, while consulting costs complicate approval. This is stated budget sentiment, not a purchase commitment."
+            },
+            "evidence_date": {
+              "zh": "2026年约8–9月：原页只显示1mo ago，精确发帖日未核实；10月15日复核。",
+              "en": "Approximately Aug–Sep 2026; the page shows only “1mo ago,” so the exact posting date is unverified. Rechecked October 15."
+            },
+            "buyer": {
+              "zh": "使用者：唯一技术写手；批准者：制造企业管理层；验收者：产品/工程负责人。",
+              "en": "User: sole technical writer. Approver: manufacturing management. Acceptance owner: product/engineering."
+            },
+            "current_flow": {
+              "zh": "工程改一个说明→写手查找相似手册→逐份改Word/InDesign→逐个检查图片与配置差异→导出PDF→放网络盘。",
+              "en": "Engineering changes one instruction → writer finds related manuals → edits Word/InDesign files individually → checks images and variant differences → exports PDFs → saves to network drive."
+            },
+            "offer": {
+              "zh": "固定范围迁移包：一个产品族、5份代表手册、20段共用内容。交付共用/差异映射表、可编辑源项目、5份对照输出、遗漏清单与一次写手上手培训。先卖完成的迁移，不卖又一个编辑器。",
+              "en": "A fixed-scope migration package: one product family, five representative manuals and 20 reusable blocks. Deliver a shared/variant map, editable source project, five comparison outputs, an exception list and one writer handover session. Sell completed migration, not another editor."
+            },
+            "proposed_flow": {
+              "zh": "解析现有文档→AI找候选重复段→工程人判定哪些真正可共用→建立条件/变量→回归生成5种输出→逐页对照→批准后交付。",
+              "en": "Parse existing documents → AI proposes repeated blocks → engineering decides what can truly be shared → configure conditions/variables → regenerate five variants → compare every page → approve and hand over."
+            },
+            "incumbents": {
+              "zh": "MadCap Flare原生有snippets、变量、条件与多格式输出；现价$3,150/作者/年。其官方也提供迁移顾问服务。Spogen Doc Builder已面向机械产品族做复用、变体与发布前检查。功能不是空白，竞争包括实施顾问。",
+              "en": "MadCap Flare already has snippets, variables, conditions and multiformat output; its posted price is $3,150/author/year. MadCap offers migration consulting, too. Spogen Doc Builder already targets machinery product families, variants and publication preflight. Both software and implementation competition exist."
+            },
+            "residual_gap": {
+              "zh": "实际未被这位用户解决的是把已有100份文档正确拆成可复用内容，并让非技术写手接得住。可试卖差异是小范围、明确验收、保留输出样式、固定上限的迁移交付，而非声称同行做不到。",
+              "en": "This user’s unresolved task is correctly decomposing 100 existing documents into reusable content and making the result manageable for a nontechnical writer. Test a small, fixed-scope migration with explicit acceptance and preserved output styling, not a claim that competitors cannot do it."
+            },
+            "money": {
+              "zh": "已有投入：作者自述公司雇了兼职；软件预算态度：约$3,000/年可接受。另一个制造排版招聘的搜索缓存显示$10–15/小时、25–30份文件、1次雇用，但原页现已关闭，不作为当前订单或成交金额证据。",
+              "en": "Existing spend: reported part-time headcount. Budget sentiment: around $3,000/year for software. A separate manufacturing-formatting job’s search cache shows $10–15/hour, 25–30 files and one hire, but its live page is closed; it is not a current opportunity or verified contract value."
+            },
+            "test_price": {
+              "zh": "建议试价而非市场事实：先$300做5份文档的复用诊断，可抵$1,000上限的试点实施；许可证另计。客户不愿给样本、批准人或小额诊断预算，就不做免费全量迁移。",
+              "en": "Proposed test, not market pricing: $300 for a five-document reuse audit, creditable toward a capped $1,000 implementation pilot; licenses extra. No full unpaid migration without sample access, an approver and a paid diagnostic."
+            },
+            "costs": {
+              "zh": "AI只做匹配与差异候选；成本主要是图像提取、条件建模、分页回归和人工核对。假设试点20小时×$40内部工时=$800，$1,000价格只剩$200支付其他成本，不能包装成95%利润。",
+              "en": "AI suggests matches and differences. Image extraction, condition modeling, pagination regression and review dominate cost. An illustrative 20 hours at $40 internal cost is $800, leaving only $200 of a $1,000 fee for other costs, not a 95% profit margin."
+            },
+            "success": {
+              "zh": "同一条已批准修改在5个正确变体中一次生效；不该改的变体零误改；图片/编号/警告完整；下一次更新写手能独立完成。",
+              "en": "One approved edit updates all five applicable variants; nonapplicable variants remain unchanged; images, numbering and warnings survive; the writer can perform the next update independently."
+            },
+            "stop": {
+              "zh": "两次样本回归仍存在关键技术内容漏改/误改，或每份输出仍要重新排版，就停止扩到100份；转成普通人工迁移报价。",
+              "en": "If two sample regressions still miss or misapply critical changes, or every output needs manual relayout, stop scaling to 100 manuals and quote conventional migration work."
+            },
+            "acquisition": {
+              "zh": "优先已有迁移需求的技术写作顾问/制造文档团队；官方MadCap顾问目录证明服务类别存在。可用合成的5变体示例展示验收报告，不私信索取企业机密文档。",
+              "en": "Work through technical-writing consultants and manufacturing documentation teams with migration needs. MadCap’s consultancy program establishes the service category. Demonstrate acceptance reports on five synthetic variants, without soliciting confidential manuals in public."
+            },
+            "sources": [
+              "O01",
+              "O02",
+              "O03",
+              "O04",
+              "O05",
+              "O06"
+            ],
+            "visual": {
+              "kind": "diagram",
+              "label": {
+                "zh": "编辑示意，非真实客户界面",
+                "en": "Editorial schematic, not a customer screenshot"
+              },
+              "nodes": [
+                "5 legacy manuals",
+                "AI-assisted similarity map",
+                "Human-approved shared blocks + variant rules",
+                "Flare / existing publishing tool",
+                "5 regression-checked outputs"
+              ]
+            }
+          },
+          {
+            "id": "collision-parts-return-closeout",
+            "rank": 2,
+            "title": {
+              "zh": "退回去的车身零件，谁确认钱回来了？",
+              "en": "The body part went back. Did the credit arrive?"
+            },
+            "lede": {
+              "zh": "零件经理已经有CCC，却仍靠签收纸、拖车货架和每周追查。先卖一轮退货交接整顿，别急着写库存SaaS。",
+              "en": "A parts manager already has CCC but still relies on signed sheets, trailer shelves and weekly checks. Sell a return-workflow reset before building inventory SaaS."
+            },
+            "demand": {
+              "zh": "2024-08-12一位中型钣喷店零件经理说每周退20–30件，司机签收并录入CCC之后，贷项追踪仍会漏掉。回复者描述每周一两次拿签收单核对，未入账就附扫描件追问供应商。",
+              "en": "On August 12, 2024, a midsize collision-shop parts manager reported 20–30 returns weekly and losing sight of credits after driver sign-off and CCC entry. A respondent checks signed slips once or twice weekly and sends scanned evidence when credits are missing."
+            },
+            "evidence_date": {
+              "zh": "长期痛点：2024-08-12主线；2025-04-27及12-18为同一位另一作者的持续记录，已去重。",
+              "en": "Long-running issue: primary thread August 12, 2024. April 27 and December 18, 2025 describe another author’s continuing situation and are deduplicated."
+            },
+            "buyer": {
+              "zh": "使用者：零件经理；买方：店主或多店运营负责人；参与者：供应商司机、记账员。",
+              "en": "User: parts manager. Buyer: owner or multi-site operations lead. Participants: supplier driver and bookkeeper."
+            },
+            "current_flow": {
+              "zh": "估价订货→零件进店/拖车→发现多余或错误→电话约退→司机签收纸→CCC录入→等供应商credit→人工再查。",
+              "en": "Estimate/order → receive into shop/trailer → identify excess/wrong part → arrange return → paper driver sign-off → CCC entry → await supplier credit → check manually."
+            },
+            "offer": {
+              "zh": "限定一个店、两个供应商、30个待退/待入贷项：盘清‘在哪里、包装还在吗、何时必须退、谁取走、贷项对应哪件’。输出逾期风险队列、提货证据与未匹配credit清单，并把能用的原生报表配置好。",
+              "en": "Scope one shop, two suppliers and 30 pending returns/credits. Establish location, packaging status, deadline, pickup evidence and credit matching. Deliver an aging-risk queue, pickup evidence and unmatched-credit list, configuring native reports first."
+            },
+            "proposed_flow": {
+              "zh": "先核对原生未结credit报表→给实物和库位编码→手机留包装/标签照片→人工确认退货窗口→提货签收关联记录→导入credit核对→只把未闭环交给负责人。",
+              "en": "Check native outstanding-credit reports → label physical items and locations → capture packaging/label photos → confirm return window → link pickup proof → reconcile credits → assign only unresolved items."
+            },
+            "incumbents": {
+              "zh": "CCC官方已有Parts Returns和Acknowledge Credits培训。BodyshopConnect的2022官方手册已列Outstanding Credit Return、Receive Credits及禁止带未结退货关RO的规则；不是无人解决。",
+              "en": "CCC already provides Parts Returns and Acknowledge Credits training. BodyshopConnect’s 2022 manual includes Outstanding Credit Return, Receive Credits and rules preventing RO closure with outstanding returns. The category is established."
+            },
+            "residual_gap": {
+              "zh": "2025年库存帖作者后续承认已付费的CCC包含所需功能，实际缺培训和店主流程配合。故最可售的是跨人的盘点、证据整理与执行交付；插件需求尚未证明。",
+              "en": "The 2025 inventory-thread author later acknowledged that paid-for CCC already had the required features; training and owner buy-in were missing. The saleable hypothesis is cross-person inventory, evidence cleanup and execution. A plugin need remains unproven."
+            },
+            "money": {
+              "zh": "已知：使用者已在付CCC，存在退货/占库问题。未知：损失金额、外包预算、是否愿意额外付费。不能把20–30件/周换算成市场规模或回收收入。",
+              "en": "Known: the shop pays for CCC and reports return/storage problems. Unknown: loss amounts, outsourcing budget and willingness to pay extra. Do not turn 20–30 weekly returns into market size or recovered revenue."
+            },
+            "test_price": {
+              "zh": "建议试价：$250做30件闭环诊断，店主亲自确认可退与联系人；只在追回/防止损失价值及每周复核省时被证明后，才试$99/月轻量托管。",
+              "en": "Proposed test: $250 for a 30-item closeout diagnostic with owner-confirmed eligibility and contacts. Test $99/month light managed follow-up only after recovered/avoided loss and review-time savings are demonstrated."
+            },
+            "costs": {
+              "zh": "现场盘点、标签、包装保全和员工执行是主成本；AI可读标签/签收单与候选匹配，不能移动保险杠，也不能决定退货资格。财务与供应商外发一律由客户批准。",
+              "en": "Physical counting, labels, packaging retention and staff execution dominate cost. AI can read labels/slips and propose matches; it cannot move bumpers or decide return eligibility. Customer approval governs financial decisions and supplier outreach."
+            },
+            "success": {
+              "zh": "30件均能找到实物或已提货证明、负责人和状态；未匹配贷项有明确下一步；再跑两周新退货不会重新失踪。",
+              "en": "All 30 items have a physical location or pickup proof, an owner and a status. Every unmatched credit has a next action. New returns stay traceable for two further weeks."
+            },
+            "stop": {
+              "zh": "若原生培训即可解决，交付培训后结束；若老板拒绝统一收货/标记，或盘点人力超过可追回价值，不卖持续订阅。",
+              "en": "If native training solves it, finish with training. If the owner rejects consistent intake/labeling or labor exceeds recoverable value, do not sell an ongoing subscription."
+            },
+            "acquisition": {
+              "zh": "钣喷店运营顾问、零件供应商客户培训、当地多店运营者；当前仅找到真实求助，未取得成交证明，不冷邮件联系原帖作者。",
+              "en": "Collision-shop operations consultants, supplier customer training and local multi-site operators. This research found real requests, not completed sales; no cold outreach to posters."
+            },
+            "sources": [
+              "O07",
+              "O08",
+              "O09",
+              "O10",
+              "O11"
+            ],
+            "visual": {
+              "kind": "official_pdf_screenshot",
+              "url": "https://bodyshopconnect.com/help/wp-content/uploads/Parts-Guide_English.01.22.pdf#page=5",
+              "page": 5,
+              "label": {
+                "zh": "BodyshopConnect官方2022手册：已退待credit与已收credit是两种状态",
+                "en": "BodyshopConnect’s 2022 manual separates returned/waiting-credit from credit received"
+              }
+            }
+          }
+        ],
+        "screening": [
+          {
+            "lead": "collision credit closeout",
+            "decision": "keep as productized implementation, not new SaaS",
+            "source": "O07"
+          },
+          {
+            "lead": "manufacturing manual variants",
+            "decision": "keep: explicit implementation obstacle and budget sentiment",
+            "source": "O01"
+          },
+          {
+            "lead": "Excel work-instruction formatting",
+            "decision": "downgrade: low cached hourly budget; live job closed; narrower paid deliverable evidence only",
+            "source": "O06"
+          },
+          {
+            "lead": "freight tracking/check calls",
+            "decision": "drop from feature: MacroPoint/Trucker Tools/Chaine already compete; driver adoption and TMS integration dominate",
+            "url": "https://www.reddit.com/r/FreightBrokers/comments/1o56ha9/what_tracking_app_are_you_using/",
+            "date": "2025-10-13"
+          },
+          {
+            "lead": "full-time freight status entry",
+            "decision": "hold: public labor demand but no verified unique software gap",
+            "url": "https://www.upwork.com/freelance-jobs/apply/Freight-Broker-Logistics-Data-Entry-Tracking-Tracing-Operations-Assistant-FULL-TIME_~022110134389589862370/",
+            "date": "exact date unverified"
+          },
+          {
+            "lead": "CAD-to-shop revision handoff",
+            "decision": "drop: originating author is promoting own implementation; independent demand not established",
+            "url": "https://www.reddit.com/r/manufacturing/comments/1qxn046/how_do_small_shops_handle_the_gap_between_cad_and/",
+            "date": "2026-02-06"
+          },
+          {
+            "lead": "small repair-shop ticketing",
+            "decision": "drop: mature competitors and respondents for whom Excel is sufficient",
+            "url": "https://www.reddit.com/r/mobilerepair/comments/1rsi0tk/trying_to_understand_how_repair_shops_track/",
+            "date": "2026-03-13"
+          },
+          {
+            "lead": "standardized work sheet formatting",
+            "decision": "hold: real precise request, but different from work instructions and unknown willingness to pay",
+            "url": "https://www.reddit.com/r/LeanManufacturing/comments/1r92iir/standardized_work_looking_for_suggestions_for_an/",
+            "date": "2026-02-19"
+          }
+        ],
+        "sources": [
+          {
+            "id": "O01",
+            "title": "Searching for tools to make my job faster",
+            "url": "https://www.reddit.com/r/technicalwriting/comments/1vywdxx/searching_for_tools_to_make_my_job_faster/",
+            "evidence": "public user request; circa Aug–Sep 2026, exact date unverified",
+            "checked_at": "2026-10-15"
+          },
+          {
+            "id": "O02",
+            "title": "MadCap pricing",
+            "url": "https://www.madcapsoftware.com/pricing/flare/",
+            "evidence": "official current list price; checked 2026-10-15",
+            "checked_at": "2026-10-15"
+          },
+          {
+            "id": "O03",
+            "title": "MadCap single sourcing",
+            "url": "https://www.madcapsoftware.com/products/flare/single-sourcing.aspx",
+            "evidence": "official capabilities; checked 2026-10-15",
+            "checked_at": "2026-10-15"
+          },
+          {
+            "id": "O04",
+            "title": "MadCap consulting",
+            "url": "https://www.madcapsoftware.com/services/consulting/",
+            "evidence": "official services; checked 2026-10-15",
+            "checked_at": "2026-10-15"
+          },
+          {
+            "id": "O05",
+            "title": "Spogen Doc Builder",
+            "url": "https://spogen.ai/platform/doc-builder",
+            "evidence": "official competing capabilities; checked 2026-10-15",
+            "checked_at": "2026-10-15"
+          },
+          {
+            "id": "O06",
+            "title": "Excel Specialist – Manufacturing Work Instructions",
+            "url": "https://www.upwork.com/freelance-jobs/apply/Excel-Specialist-Manufacturing-Work-Instructions_~022093291905415409310/",
+            "evidence": "search cache contains job details; direct page says no longer available on 2026-10-15; not a live lead",
+            "checked_at": "2026-10-15"
+          },
+          {
+            "id": "O07",
+            "title": "Parts Returns",
+            "url": "https://www.reddit.com/r/Autobody/comments/1eq3j30/",
+            "evidence": "public request 2024-08-12; replies include 2024-09-12",
+            "checked_at": "2026-10-15"
+          },
+          {
+            "id": "O08",
+            "title": "Autobody parts inventory",
+            "url": "https://www.reddit.com/r/smallbusiness/comments/1k9b8pq/autobody_parts_management_excel_or_software_need/",
+            "evidence": "public request 2025-04-27; important later native-capability correction",
+            "checked_at": "2026-10-15"
+          },
+          {
+            "id": "O09",
+            "title": "Body shop parts management",
+            "url": "https://www.reddit.com/r/partscounter/comments/1ppjng5/long_post_warning_new_9_months_in_to_body_shop/",
+            "evidence": "public request 2025-12-18; same author as inventory-request, not independent sample",
+            "checked_at": "2026-10-15"
+          },
+          {
+            "id": "O10",
+            "title": "CCC ONE training catalog",
+            "url": "https://help.cccis.com/STATIC/CCC_ONE/TRAINING/catalog.html",
+            "evidence": "official existing returns/credit training",
+            "checked_at": "2026-10-15"
+          },
+          {
+            "id": "O11",
+            "title": "BodyshopConnect Parts Management Quick Guide",
+            "url": "https://bodyshopconnect.com/help/wp-content/uploads/Parts-Guide_English.01.22.pdf",
+            "evidence": "official January 2022 guide, especially printed pp.4–5",
+            "checked_at": "2026-10-15"
+          }
+        ]
       },
-      {
-        "id": "od-asap",
-        "url": "https://www.opendental.com/manual/images/webSchedASAPAlerts.gif",
-        "source": "od-asap",
-        "caption": {
-          "zh": "Open Dental原生候补发送窗口。",
-          "en": "Open Dental’s native ASAP notification window."
+      "subtitle": {
+        "researched_at": "2026-10-15",
+        "temporal_label": {
+          "zh": "长期问题，近期发现；不是本周新闻",
+          "en": "Persistent problem, recently researched; not this week's news"
         },
-        "status": "official source URL verified; asset rendering not verified; rights remain with owner"
-      },
-      {
-        "id": "nex-waitlist",
-        "url": "https://cdn.prod.website-files.com/62f7955338a7286dd4b633cc/672e8d6e8183f7e4ff0315f6_waitlist.avif",
-        "source": "nex-waitlist",
-        "caption": {
-          "zh": "NexHealth官方候补产品及患者端界面。",
-          "en": "NexHealth’s official waitlist product and patient interface."
+        "status": "research_hypothesis_not_validated_business",
+        "title": {
+          "zh": "把客户Word/Excel字幕返修安全带回SRT",
+          "en": "Bring client Word/Excel subtitle revisions safely back into SRT"
         },
-        "status": "official source URL verified; asset rendering not verified; rights remain with owner"
-      },
-      {
-        "id": "hcp-booking-demo",
-        "url": "https://fast.wistia.net/embed/iframe/i67xduvavc",
-        "kind": "video",
-        "source": "hcp-booking",
-        "caption": {
-          "zh": "HCP官方在线预订设置演示。",
-          "en": "HCP’s official online booking setup demo."
+        "buyer": {
+          "zh": "保留Subtitle Edit/Premiere等既有工具、客户坚持在Office审稿的小型本地化团队或制作公司",
+          "en": "Small localization teams or production shops retaining Subtitle Edit/Premiere while clients insist on Office-based review"
         },
-        "status": "official source URL verified; asset rendering not verified; rights remain with owner"
+        "pain": {
+          "zh": "字幕比较结果难以变成客户能审批的修订稿；外部改字后需重新对齐字幕事件，处理超长文本、删行和版本冲突。",
+          "en": "Subtitle diffs are awkward to share for approval; external edits must be reconciled to cues, with overflow, deleted rows and version conflicts checked."
+        },
+        "evidence": [
+          {
+            "url": "https://github.com/SubtitleEdit/subtitleedit/issues/9685",
+            "date": "2025-05-24",
+            "latest_relevant_comment": "2026-05-08",
+            "who": "midiminuit, a frequent subtitle reviewer",
+            "zh": "请求Word修订或带时间码、改前/改后文本的Excel比较导出。2026年回复给自定义文本导出绕法，但说不能导回SE。当前页面为Open。",
+            "en": "Requests Word tracked-change or timecoded before/after Excel exports. A May 2026 workaround exports custom text but explicitly does not reimport into SE. The issue page remains open.",
+            "strength": "specific firsthand feature request; one author, not market size"
+          },
+          {
+            "url": "https://rjtranslation.co.uk/2025/02/17/exporting-subtitle-files-for-client-review/",
+            "date": "2025-02-17",
+            "who": "Rachel Jones, translator and former project manager",
+            "zh": "描述客户杂乱修订、超字数和逐条比对负担；也给出EZTitles导出带阅读速度上限RTF并重新导入的成熟解法。",
+            "en": "Describes messy client revisions, overly long edits and line-by-line comparison; also documents an existing EZTitles RTF round-trip with reading-speed limits.",
+            "strength": "independent practitioner evidence AND counterevidence"
+          }
+        ],
+        "existing_tools": [
+          {
+            "name": "EZTitles",
+            "url": "https://rjtranslation.co.uk/2025/02/17/exporting-subtitle-files-for-client-review/",
+            "coverage_zh": "RTF审稿、时间码/字数上限、回导；不能说此流程无人做。",
+            "coverage_en": "RTF review, timecodes/character budgets and reimport; this workflow is not unserved everywhere."
+          },
+          {
+            "name": "OOONA",
+            "url": "https://ooona.atlassian.net/wiki/spaces/OHC/pages/590315567",
+            "coverage_zh": "自定义技术QC、拼写、阅读速度、共享检查模板。",
+            "coverage_en": "Custom technical QC, spelling, reading speed and shared check templates."
+          },
+          {
+            "name": "Closed Caption Creator",
+            "url": "https://www.closedcaptioncreator.com/features/qc-and-review.html",
+            "coverage_zh": "风格规则、QC和Excel报告；通用QC不是缺口。",
+            "coverage_en": "Style rules, QC and Excel reports; generic QC is not the gap."
+          }
+        ],
+        "gap_hypothesis": {
+          "zh": "为不换主工具的团队交付带稳定cue ID的Office审稿包、选择性接受返修、冲突列表和可回导SRT。是否比现成EZTitles/CCC流程更省钱省事，尚未证明。",
+          "en": "An adapter for teams that will not switch tools: stable cue IDs, Office review packs, selective revision acceptance, conflict lists and reimportable SRT. Advantage over EZTitles/CCC is unproven."
+        },
+        "payment_signal": {
+          "zh": "精确此返修接口的付款意愿未知。相邻任务有公开已授标$50项目：55分钟纪录片、现有Excel时间码转SRT并整体平移30秒；证明有人付钱做交接，不证明高客单价或订阅。",
+          "en": "Willingness to pay for this exact revision adapter is unknown. An adjacent awarded $50 job asks for a 55-minute documentary's Excel timings to become SRT with a 30-second shift: evidence of paid handoff labor, not premium pricing or subscription demand.",
+          "url": "https://www.peopleperhour.com/freelance-jobs/documentary-subtitle-file-srt-create-from-transcript-a-3047493",
+          "date": "Page says 5 years ago; exact publication date not verified"
+        },
+        "minimum_test": {
+          "zh": "先用两家团队各一个已完成项目，人工复演原SRT→客户返修Word/Excel→最终SRT；测返修工时和错配。原型只保cue ID/时间码、逐条接受、超限警告、可回滚diff，不生成翻译。先做固定价交付服务，再决定插件。",
+          "en": "Replay one completed project from each of two teams: original SRT, client-edited Office file, final SRT. Measure reconciliation time and mismatches. Prototype stable IDs/timecodes, selective acceptance, overflow warnings and reversible diffs only. Test a fixed-price service before building a plugin."
+        },
+        "why_investigate_now": {
+          "zh": "2025年的具体需求到2026年仍靠无法回导的绕法；瓶颈位于客户已有Office习惯和字幕软件之间，可用小型适配器验证，而无需再做转写模型。",
+          "en": "A specific 2025 request still has a non-round-trippable workaround in 2026. The seam is between existing Office habits and subtitle tools, testable without building another transcription model."
+        },
+        "stop_conditions": {
+          "zh": "若现成EZTitles/CCC配置半小时即可覆盖；客户愿迁移；每月返修量不足；或两轮试点没有减少至少一半搬运时间且不增加字幕错配，就停。该阈值是建议实验标准，非实测结论。",
+          "en": "Stop if an existing EZTitles/CCC setup solves it in half an hour, clients will migrate, revision volume is low, or two pilots fail to halve reconciliation work without adding cue mismatches. These are proposed test thresholds, not observed results."
+        },
+        "ai_role": {
+          "zh": "AI仅协助理解自由文字批注和提出匹配；cue匹配/时间码必须确定性校验，人决定接受。普通规则脚本若够用就不用AI。",
+          "en": "AI may interpret free-form notes and propose matches; cue/timecode integrity requires deterministic checks and human acceptance. Use ordinary scripts if sufficient."
+        }
       }
-    ],
-    "rejected_claims": [
-      "90% of AI wrappers fail: unsupported in supplied article",
-      "70–80% monthly churn: unsupported in supplied article",
-      "95% profit margin: unsupported in supplied article",
-      "Anonymous HVAC 180 customers: not verified",
-      "199 × 230 = $45,770 gross monthly list-price revenue, not net income"
-    ],
-    "ranking": [
-      "reconciliation-exceptions",
-      "receipt-exceptions",
-      "hvac-cancellation",
-      "dental-native-enablement"
-    ]
+    },
+    "source_id_aliases": {
+      "manual-request": "O01",
+      "flare-price": "O02",
+      "flare-reuse": "O03",
+      "flare-consulting": "O04",
+      "spogen": "O05",
+      "workinstruction-job": "O06",
+      "returns-request": "O07",
+      "inventory-request": "O08",
+      "inventory-followup": "O09",
+      "ccc-training": "O10",
+      "bodyshop-manual": "O11",
+      "subtitle-request": "O12",
+      "subtitle-review": "O13",
+      "ooona-qc": "O14",
+      "ccc-qc": "O15",
+      "subtitle-paid": "O16"
+    }
   }
 }
