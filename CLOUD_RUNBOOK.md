@@ -155,6 +155,23 @@ Each validated draft has input, artifact and release-set hashes in its private
 receipt. Repeated identical validated builds reuse the intact draft; changed
 artifacts/inputs fail visibly. Resolve failed/revised drafts and stale locks explicitly.
 
+Receipt validity also requires the current repository HEAD and publication baseline
+(daily/weekly navigation, styles, legacy archive and edition/coverage/weekly inputs)
+to match their build-time hashes. A later prepared or published issue makes an older
+navigation snapshot stale: rebuild its draft and repeat QA/editorial review instead
+of overwriting the newer index.
+
+All cutoff/window and observation timestamps must be real ISO instants with offsets.
+Source publications and events at/after cutoff cannot enter the weekly or its matrix.
+Known date-only sources on the cutoff date need dateBoundaryUncertain and a bilingual
+temporalNote. Unknown publication dates need temporalStatus:publication-date-unknown.
+Legitimate later verification of an already dated public source is allowed only with
+snapshotStatus:current-page-not-historical, asOfCutoff matching this weekly's cutoff,
+and bilingual temporalNote. Actual observed/research times remain unchanged. The
+public source index displays the late-read/nonhistorical-snapshot caveat. An undated
+later reading cannot prove earlier existence; live metrics need their own dated
+measurement rather than borrowing an old page publication date.
+
 The lower-level weekly:build and weekly:check commands exist for isolated engineering
 tests; formal automation must use cloud:build so rule preflight, locks and receipts
 cannot be omitted.
@@ -180,6 +197,19 @@ branch, and use the authorized GitHub connection with exact-head/lease protectio
 Check the exact Pages deployment and live bilingual desktop/mobile navigation,
 images, overflow and PDF links. Build/commit/deployment/live states are separate.
 The software PR stays draft until the coordinating owner merges it.
+
+Only explicitly referenced image files are copied from the approved assets directory;
+unreferenced siblings and source symlinks are never imported. Release copies individual
+regular files from an exact allowlist, including reviewed assets and bilingual PDF
+links. Private/output roots resolve symlink ancestors before the public-checkout check.
+
+Publication preparation is serialized by a private release lock. Private backup/journal
+state and per-file atomic replacement permit exception rollback and recovery after a
+process crash. A provably dead owner on this host can be recovered; an active, unknown
+or other-host owner requires inspection. Recovery refuses unrelated newer file edits
+or a changed repository HEAD. Repeating an intact already-prepared release is a no-op;
+it never replays old navigation over another issue. Do not commit a partial failed
+preparation or remove recovery state before inspecting it.
 
 For direct checks of a reviewed weekly draft:
 

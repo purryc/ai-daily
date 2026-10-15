@@ -5,3 +5,4 @@ research/
 rules/
 .cloud-state/
 *.transfer.json
+*.ai-release-*.tmp
