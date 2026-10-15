@@ -13,15 +13,23 @@ import {buildSlidevSource} from './lib/slidev-source.mjs';
 
 export async function plan({root,now=new Date(),repo=REPO}) {
   root=privateRoot(root);
-  const daily=localDate(now),completed=completedWeek(now),weekly=completed<'2026-10-12'?'2026-10-12':completed;
+  const daily=localDate(now),completed=completedWeek(now);
+  let weekly=completed<'2026-10-12'?'2026-10-12':completed,weeklyPublished=false;
   const published=async(kind,key)=>{
     const file=kind==='daily'?path.join(repo,key,'manifest.json'):path.join(repo,'weekly',key,'manifest.json');
     try {const m=JSON.parse(await fs.readFile(file,'utf8'));return kind==='daily'?m.date===key:m.issue_type==='weekly'&&m.partial_week===false&&m.week_start===key;}
     catch(e){if(e.code==='ENOENT')return false;throw e;}
   };
-  const dailyPublished=await published('daily',daily),weeklyPublished=await published('weekly',weekly);
+  const dailyPublished=await published('daily',daily);
+  if(completed>='2026-10-12') {
+    for(let key=completed;key>='2026-10-12';) {
+      weekly=key;weeklyPublished=await published('weekly',key);
+      if(!weeklyPublished)break;
+      const day=new Date(key+'T12:00:00Z');day.setUTCDate(day.getUTCDate()-7);key=day.toISOString().slice(0,10);
+    }
+  }
   const isMonday=new Date(daily+'T12:00:00Z').getUTCDay()===1;
-  return {timezone:'America/Toronto',researchCutoff:now.toISOString(),daily:{key:daily,due:!dailyPublished,published:dailyPublished},weekly:{key:weekly,due:completed>='2026-10-12'&&!weeklyPublished,published:weeklyPublished,catchUp:!isMonday,independent:true,firstEligibleRun:'2026-10-19'},schedule:'External owner only: daily and Monday weekly at 10:00 America/Toronto'};
+  return {timezone:'America/Toronto',researchCutoff:now.toISOString(),daily:{key:daily,due:!dailyPublished,published:dailyPublished},weekly:{key:weekly,due:completed>='2026-10-12'&&!weeklyPublished,published:weeklyPublished,catchUp:!isMonday||weekly<completed,independent:true,firstEligibleRun:'2026-10-19'},schedule:'External owner only: daily and Monday weekly at 10:00 America/Toronto'};
 }
 const child=(file,env)=>new Promise((resolve,reject)=>{
   const p=spawn(process.execPath,[path.join(REPO,'scripts',file)],{cwd:REPO,env:{...process.env,...env},stdio:'inherit'});
