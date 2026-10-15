@@ -11,6 +11,7 @@ import {promisify} from 'node:util';
 import {batch,weekly} from './fixtures/cloud-publisher.mjs';
 import {ingest} from '../scripts/lib/cloud-state.mjs';
 import {buildWeekly} from '../scripts/lib/weekly.mjs';
+import {hostname} from 'node:os';
 
 async function dailyDraft(root) {
   const output=path.join(root,'draft'),repo=path.join(root,'site'),key='2026-10-19';
@@ -35,6 +36,13 @@ async function fakePrivateRules(root) {
   }
   await fs.writeFile(path.join(folder,'manifest.json'),JSON.stringify({files}));return path.dirname(folder);
 }
+async function deadReleaseOwner(root) {
+  const child=spawn(process.execPath,['-e',''],{stdio:'ignore'}),pid=child.pid;
+  await new Promise((resolve,reject)=>{child.on('error',reject);child.on('exit',resolve);});
+  const lock=path.join(root,'release.lock');await fs.mkdir(lock);
+  await fs.writeFile(path.join(lock,'owner.json'),JSON.stringify({pid,host:hostname(),instance:'dead-fixture-lock'}));
+}
+function latch() {let resolve;const promise=new Promise(r=>resolve=r);return {promise,resolve};}
 
 test('daily public assets include only retained figures/detail figures/media posters, never raw siblings',async()=>{
   const root=await fs.mkdtemp(path.join(os.tmpdir(),'ai-public-assets-'));
@@ -151,5 +159,84 @@ test('crash recovery never rolls back files after the repository has been commit
     const manifest=await fs.readFile(path.join(f.repo,f.receipt.key,'manifest.json'));
     await assert.rejects(prepareRelease({receiptFile,inputFile:f.inputFile,repo:f.repo}),/HEAD changed/);
     assert.deepEqual(await fs.readFile(path.join(f.repo,f.receipt.key,'manifest.json')),manifest);
+  }finally{if(old===undefined)delete process.env.AI_DAILY_PRIVATE_ROOT;else process.env.AI_DAILY_PRIVATE_ROOT=old;await fs.rm(root,{recursive:true,force:true});}
+});
+test('two same-process reclaimers cannot remove the replacement live lock after reading a dead owner',{timeout:15000},async()=>{
+  const root=await fs.mkdtemp(path.join(os.tmpdir(),'ai-release-reclaim-')),old=process.env.AI_DAILY_PRIVATE_ROOT,readFile=fs.readFile;
+  const ownerRead=latch(),resumeRead=latch(),finish=latch(),firstEntry=latch(),secondOutcome=latch();
+  const attempts=[];let paused=false,active=0,maximum=0;
+  try {
+    const f=await dailyDraft(root),privateDir=await fakePrivateRules(root);process.env.AI_DAILY_PRIVATE_ROOT=privateDir;
+    await deadReleaseOwner(privateDir);
+    const receiptFile=path.join(root,'receipt.json');await fs.writeFile(receiptFile,JSON.stringify(f.receipt));
+    fs.readFile=async(...args)=>{
+      const bytes=await readFile(...args);
+      if(!paused&&String(args[0])===path.join(privateDir,'release.lock/owner.json')){paused=true;ownerRead.resolve();await resumeRead.promise;}
+      return bytes;
+    };
+    function copier(entry) {
+      let first=true;
+      return async(...args)=>{if(first){first=false;active++;maximum=Math.max(maximum,active);entry.resolve('entered');await finish.promise;active--;}return fs.copyFile(...args);};
+    }
+    const first=prepareRelease({receiptFile,inputFile:f.inputFile,repo:f.repo,copyFile:copier(firstEntry)});attempts.push(first);
+    await ownerRead.promise;
+    const second=prepareRelease({receiptFile,inputFile:f.inputFile,repo:f.repo,copyFile:copier(secondOutcome)});attempts.push(second);
+    second.then(()=>secondOutcome.resolve('done'),error=>secondOutcome.resolve(error.message));
+    const outcome=await secondOutcome.promise;
+    resumeRead.resolve();await firstEntry.promise;
+    assert.match(outcome,/busy|acquisition/i);assert.equal(maximum,1);
+    const owner=JSON.parse(await readFile(path.join(privateDir,'release.lock/owner.json'),'utf8'));
+    assert.equal(owner.pid,process.pid);
+    finish.resolve();await first;
+    await assert.rejects(second,/busy|acquisition/i);
+  }finally{
+    resumeRead.resolve();finish.resolve();fs.readFile=readFile;await Promise.allSettled(attempts);
+    if(old===undefined)delete process.env.AI_DAILY_PRIVATE_ROOT;else process.env.AI_DAILY_PRIVATE_ROOT=old;await fs.rm(root,{recursive:true,force:true});
+  }
+});
+test('two process reclaimers serialize takeover and the blocked reclaimer cannot delete a new live owner',{timeout:15000},async()=>{
+  const root=await fs.mkdtemp(path.join(os.tmpdir(),'ai-release-reclaim-processes-'));
+  const children=[];
+  try {
+    const f=await dailyDraft(root),privateDir=await fakePrivateRules(root);await deadReleaseOwner(privateDir);
+    const receiptFile=path.join(root,'receipt.json');await fs.writeFile(receiptFile,JSON.stringify(f.receipt));
+    const code=`import fs from 'node:fs/promises';
+const role=process.argv[5],hold=type=>new Promise(r=>{const fn=m=>{if(m.type===type){process.off('message',fn);r();}};process.on('message',fn);});
+const original=fs.readFile;let paused=false;
+if(role==='first')fs.readFile=async(...args)=>{const bytes=await original(...args);if(!paused&&String(args[0]).endsWith('/release.lock/owner.json')){paused=true;const resume=hold('resume');process.send({stage:'read-owner'});await resume;}return bytes;};
+const {prepareRelease}=await import(process.argv[1]);let first=true;
+try{await prepareRelease({receiptFile:process.argv[2],inputFile:process.argv[3],repo:process.argv[4],copyFile:async(...args)=>{if(first){first=false;const finish=hold('finish');process.send({stage:'entered-copy'});await finish;}await fs.copyFile(...args);}});process.send({stage:'done'});}
+catch(e){process.send({stage:'blocked',error:e.message});}
+process.disconnect();`;
+    function start(role) {
+      const child=spawn(process.execPath,['--input-type=module','-e',code,path.join(REPO,'scripts/lib/release.mjs'),receiptFile,f.inputFile,f.repo,role],{env:{...process.env,AI_DAILY_PRIVATE_ROOT:privateDir},stdio:['ignore','pipe','pipe','ipc']});
+      children.push(child);const queue=[],waiters=[];
+      child.on('message',message=>{const i=waiters.findIndex(w=>w.stages.includes(message.stage));if(i<0)queue.push(message);else waiters.splice(i,1)[0].resolve(message);});
+      return {child,wait:(...stages)=>{const i=queue.findIndex(m=>stages.includes(m.stage));if(i>=0)return Promise.resolve(queue.splice(i,1)[0]);return new Promise(resolve=>waiters.push({stages,resolve}));}};
+    }
+    const first=start('first');await first.wait('read-owner');
+    const second=start('second');const outcome=await second.wait('entered-copy','blocked');
+    first.child.send({type:'resume'});await first.wait('entered-copy','blocked');
+    assert.equal(outcome.stage,'blocked');assert.match(outcome.error,/busy|acquisition/i);
+    const owner=JSON.parse(await fs.readFile(path.join(privateDir,'release.lock/owner.json'),'utf8'));
+    assert.equal(owner.pid,first.child.pid);
+    first.child.send({type:'finish'});assert.equal((await first.wait('done','blocked')).stage,'done');
+  }finally{
+    for(const child of children)if(child.connected){child.send({type:'resume'},()=>{});child.send({type:'finish'},()=>{});}
+    await Promise.all(children.map(child=>child.exitCode!==null?Promise.resolve():new Promise(resolve=>child.once('exit',resolve))));
+    await fs.rm(root,{recursive:true,force:true});
+  }
+});
+test('a leftover acquisition guard is fail-closed and never automatically reclaimed',async()=>{
+  const root=await fs.mkdtemp(path.join(os.tmpdir(),'ai-release-leftover-guard-')),old=process.env.AI_DAILY_PRIVATE_ROOT;
+  try {
+    const f=await dailyDraft(root),privateDir=await fakePrivateRules(root);process.env.AI_DAILY_PRIVATE_ROOT=privateDir;
+    await deadReleaseOwner(privateDir);await fs.mkdir(path.join(privateDir,'release.lock.acquire'));
+    const before=await fs.readFile(path.join(privateDir,'release.lock/owner.json'));
+    const receiptFile=path.join(root,'receipt.json');await fs.writeFile(receiptFile,JSON.stringify(f.receipt));
+    await assert.rejects(prepareRelease({receiptFile,inputFile:f.inputFile,repo:f.repo}),/acquisition.*busy/);
+    assert.deepEqual(await fs.readFile(path.join(privateDir,'release.lock/owner.json')),before);
+    assert.equal((await repositoryBaseline(f.repo)).sha256,f.receipt.repositoryBaseline.sha256);
+    assert.equal((await fs.stat(path.join(privateDir,'release.lock.acquire'))).isDirectory(),true);
   }finally{if(old===undefined)delete process.env.AI_DAILY_PRIVATE_ROOT;else process.env.AI_DAILY_PRIVATE_ROOT=old;await fs.rm(root,{recursive:true,force:true});}
 });

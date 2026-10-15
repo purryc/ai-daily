@@ -211,6 +211,12 @@ or a changed repository HEAD. Repeating an intact already-prepared release is a 
 it never replays old navigation over another issue. Do not commit a partial failed
 preparation or remove recovery state before inspecting it.
 
+Lock creation and dead-owner takeover are serialized by an atomic
+release.lock.acquire directory. Concurrent reclaimers cannot delete a newly registered
+live lock. The lock has a unique instance ID; normal cleanup checks that ID and owner.
+An acquisition guard left by a crash is deliberately fail-closed and never automatically
+reclaimed: confirm no publisher/acquirer is active before operator recovery.
+
 For direct checks of a reviewed weekly draft:
 
     npm run weekly:check -- --root DRY_DIRECTORY --week YYYY-MM-DD --pdf

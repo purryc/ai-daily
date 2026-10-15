@@ -5,6 +5,7 @@ import {dailyAssetPaths,weeklyAssetPaths,regularFile} from './public-assets.mjs'
 import {execFile} from 'node:child_process';
 import {promisify} from 'node:util';
 import {hostname} from 'node:os';
+import {randomUUID} from 'node:crypto';
 export async function digestTree(directory) {
   const rows=[];
   async function walk(dir,prefix='') {
@@ -101,20 +102,38 @@ async function fileHash(file) {
   try{return sha(await fs.readFile(file));}catch(e){if(e.code!=='ENOENT')throw e;return null;}
 }
 async function releaseLock(root) {
-  const lock=path.join(root,'release.lock');
-  try{await fs.mkdir(lock);}
-  catch(error) {
-    if(error.code!=='EEXIST')throw error;
-    const owner=JSON.parse(await fs.readFile(path.join(lock,'owner.json'),'utf8'));
-    let live=true;
-    if(owner.host===hostname()&&Number.isInteger(owner.pid)&&owner.pid>0) {
-      try{process.kill(owner.pid,0);}catch(e){if(e.code==='ESRCH')live=false;else throw e;}
+  const lock=path.join(root,'release.lock'),guard=path.join(root,'release.lock.acquire');
+  // Every creator/reclaimer participates in this atomic namespace guard.
+  // A guard left by a crash is never automatically removed or stolen.
+  try{await fs.mkdir(guard,{mode:0o700});}
+  catch(e){if(e.code==='EEXIST')throw new Error('Publication lock acquisition is busy; inspect a leftover acquisition guard before retry');throw e;}
+  try {
+    try{await fs.mkdir(lock);}
+    catch(error) {
+      if(error.code!=='EEXIST')throw error;
+      const before=await fs.lstat(lock);
+      if(!before.isDirectory()||before.isSymbolicLink())throw new Error('Unknown publication lock; inspect before retry');
+      const owner=JSON.parse(await fs.readFile(await regularFile(lock,'owner.json'),'utf8'));
+      let live=true;
+      if(owner.host===hostname()&&Number.isInteger(owner.pid)&&owner.pid>0) {
+        try{process.kill(owner.pid,0);}catch(e){if(e.code==='ESRCH')live=false;else throw e;}
+      }
+      if(live)throw new Error('Publication release is busy; inspect its owner before retry');
+      const current=await fs.lstat(lock);
+      if(before.dev!==current.dev||before.ino!==current.ino)throw new Error('Publication lock instance changed; inspect before retry');
+      // The guard prevents another acquirer from creating a replacement here.
+      await fs.rm(lock,{recursive:true});await fs.mkdir(lock);
     }
-    if(live)throw new Error('Publication release is busy; inspect its owner before retry');
-    await fs.rm(lock,{recursive:true});await fs.mkdir(lock);
-  }
-  await atomic(path.join(lock,'owner.json'),{pid:process.pid,host:hostname()});
-  return lock;
+    const instance=randomUUID();
+    await atomic(path.join(lock,'owner.json'),{pid:process.pid,host:hostname(),instance});
+    return {path:lock,instance};
+  }finally{await fs.rmdir(guard);}
+}
+async function releaseOwnedLock(lock) {
+  const owner=JSON.parse(await fs.readFile(await regularFile(lock.path,'owner.json'),'utf8'));
+  if(owner.instance!==lock.instance||owner.pid!==process.pid||owner.host!==hostname())
+    throw new Error('Publication lock ownership changed; refusing to remove another instance');
+  await fs.rm(lock.path,{recursive:true});
 }
 async function restoreJournal(journal,folder,repo) {
   // Refuse to undo unrelated edits. Atomic target replacement makes each file
@@ -179,5 +198,5 @@ export async function prepareRelease({receiptFile,inputFile,repo=REPO,copyFile=f
       throw error;
     }
     return {...plan,input:undefined};
-  }finally{await fs.rm(lock,{recursive:true});}
+  }finally{await releaseOwnedLock(lock);}
 }
