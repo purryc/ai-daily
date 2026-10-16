@@ -104,6 +104,17 @@ Start every invocation in this checkout and run:
 Freeze the returned researchCutoff at research start; do not move it while writing.
 For daily research, the main interval is [cutoff-24h, cutoff). Supplementary 72h and
 7-day items need explicit freshness labels; date-only events need boundary uncertainty.
+Keep actual observation, source verification and image capture times even when reading
+after that fixed cutoff. Such current-page reads require snapshotStatus:
+current-page-not-historical, asOfCutoff matching the cutoff, and bilingual temporalNote
+on each late source, visual or media record. The publisher displays the limitation and
+retains the full timestamps in sources.md. Date-only sources read late require
+datePrecision: date; sources dated the local cutoff day also need
+dateBoundaryUncertain: true. An undated late source must retain publishedAt: null,
+temporalStatus: publication-date-unknown and evidenceUse: current-background; it cannot
+anchor the event or claim a capability existed before cutoff. Explicit publication
+and event instants must precede cutoff. Citation verification must match the original
+shared observation, and current metrics cannot be backdated to the research cutoff.
 Use at least eight weeks of available ledger plus historical coverage/event keys for
 deduplication, disclosing insufficient coverage. Archived generated prose is a lead,
 never independent evidence.

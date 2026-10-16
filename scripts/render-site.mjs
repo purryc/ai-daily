@@ -1,7 +1,7 @@
 import {isWebOnly} from './lib/publication-format.mjs';
 import fs from "node:fs/promises";
 import { readIssues } from "./lib/issue-data.mjs";
-import { allIssueTopics, allTopicVisuals, coverFigureFallback } from "./lib/topic-content.mjs";
+import { allIssueTopics, allTopicVisuals, allTopicMedia, coverFigureFallback } from "./lib/topic-content.mjs";
 import { renderVisualIssue, visualIssueCss } from "./lib/issue-visuals.mjs";
 import { selectIssueDates, assertCloudOutput, validatePageCount, validateIllustratedIssue } from "./lib/issue-policy.mjs";
 import path from "node:path";
@@ -1276,11 +1276,21 @@ ${visualEvidenceRules}
 `;
 }
 
+function temporalLedger(record) {
+  if (!record.snapshotStatus && !record.temporalNote && !record.temporalStatus && !record.dateBoundaryUncertain) return "";
+  const fields = ["snapshotStatus", "asOfCutoff", "datePrecision", "dateBoundaryUncertain", "temporalStatus", "evidenceUse"]
+    .filter(key => record[key] !== undefined).map(key => `${key}: ${record[key]}`);
+  if (record.temporalNote?.zh) fields.push(`temporalNote.zh: ${record.temporalNote.zh}`);
+  if (record.temporalNote?.en) fields.push(`temporalNote.en: ${record.temporalNote.en}`);
+  return `; ${fields.join("; ")}`;
+}
+
 function conciseSourcesMarkdown(issue) {
   const sources = new Map();
   for (const topic of allIssueTopics(issue)) for (const source of topic.sources) {
-    if (!sources.has(source.url)) sources.set(source.url, { ...source, topicIds: [] });
-    sources.get(source.url).topicIds.push(topic.id);
+    const key = `${source.url}|${source.verifiedAt}`;
+    if (!sources.has(key)) sources.set(key, { ...source, topicIds: [] });
+    sources.get(key).topicIds.push(topic.id);
   }
   const figures = allIssueTopics(issue).flatMap((topic) =>
     allTopicVisuals(topic).map((visual) => ({ ...visual, topicId: topic.id }))
@@ -1292,14 +1302,16 @@ Timezone: ${issue.timezone}
 Only verified new events are promoted. Old background is linked, never reprinted as new.
 
 ## Sources
-${[...sources.values()].map((source, index) => `${index + 1}. ${source.label} — ${source.url}\n   Published: ${source.publishedAt ?? "not stated"}; verified: ${source.verifiedAt ?? "not stated"}; topics: ${source.topicIds.join(", ")}`).join("\n")}
+${[...sources.values()].map((source, index) => `${index + 1}. ${source.label} — ${source.url}\n   Published: ${source.publishedAt ?? "not stated"}; verified: ${source.verifiedAt ?? "not stated"}; topics: ${source.topicIds.join(", ")}${temporalLedger(source)}`).join("\n")}
 
 ## Event changes
 ${issue.topics.map((topic) => `- ${topic.id}: ${topic.event.occurredAt}; ${topic.event.deltaEn}${topic.event.previousIssue ? `; previous issue: ../${topic.event.previousIssue}/en/` : ""}`).join("\n")}
 
 ## Visual provenance
-${figures.map((visual) => `- ${visual.topicId} / ${visual.role ?? "evidence"}: ${visual.path} — ${visual.sourceUrl}; captured: ${visual.capturedAt}; ${visual.captionEn ?? visual.altEn}`).join("\n")}
+${figures.map((visual) => `- ${visual.topicId} / ${visual.role ?? "evidence"}: ${visual.path} — ${visual.sourceUrl}; captured: ${visual.capturedAt}; ${visual.captionEn ?? visual.altEn}${temporalLedger(visual)}`).join("\n")}
 ${issue.topics.filter((topic) => !topic.visual && !topic.visuals?.length).map((topic) => `- ${topic.id}: ${topic.visualMissing.en}`).join("\n")}
+${allIssueTopics(issue).flatMap(topic => allTopicMedia(topic).filter(media => media.snapshotStatus).map(media => `- ${topic.id} / ${media.kind}: ${media.url} — ${media.sourceUrl}; verified: ${media.verifiedAt}${temporalLedger(media)}`)).join("\n")}
+
 
 ## Lane scan results
 ${(issue.laneScans ?? []).map((scan) => `- ${scan.lane}: ${scan.en}; ${(scan.sourceUrls ?? []).join(" · ")}`).join("\n")}

@@ -37,6 +37,24 @@ const child=(file,env)=>new Promise((resolve,reject)=>{
   const p=spawn(process.execPath,[path.join(REPO,'scripts',file)],{cwd:REPO,env:{...process.env,...env},stdio:'inherit'});
   p.on('error',reject);p.on('exit',code=>code===0?resolve():reject(new Error(file+' failed with exit '+code)));
 });
+export function validateDailyCandidateEvidence(topic, observations, input) {
+  const cutoff = timestamp(input.cutoff, 'daily cutoff');
+  for (const o of observations) {
+    if (o.product_key !== topic.event.productKey || o.event_at.slice(0,10) !== topic.event.occurredAt.slice(0,10) ||
+      o.verification_status !== 'verified' || o.research_cutoff !== input.cutoff) throw new Error('Daily candidate/shared evidence mismatch');
+    const observed = timestamp(o.observed_at, 'observed_at'), firstSeen = timestamp(o.first_seen_at, 'first_seen_at');
+    if (firstSeen > observed || cutoff > observed) throw new Error('Daily observation timestamps are inconsistent');
+    if (observed > cutoff && o.metric != null && (!o.measurement_at || timestamp(o.measurement_at, 'measurement_at') > cutoff))
+      throw new Error('Current daily measurement cannot be backdated to the research cutoff');
+  }
+  for (const source of topic.sources ?? []) {
+    const matches = observations.filter(o => [o.source_url,o.canonical_url].some(url => normalizeUrl(url) === normalizeUrl(source.url)) &&
+      source.publishedAt === o.published_at);
+    if (!matches.length) throw new Error('Daily citation lacks a matching shared original observation');
+    if (!matches.some(o => timestamp(source.verifiedAt, 'source verifiedAt') === timestamp(o.observed_at, 'observed_at')))
+      throw new Error('Daily citation verifiedAt must preserve the actual observation time');
+  }
+}
 export async function stageDaily({input,output,assetsDir,privateDir}) {
   input={...input,publicationFormat:"web-only"};
   validateDenseDaily(input);
@@ -54,10 +72,7 @@ export async function stageDaily({input,output,assetsDir,privateDir}) {
   for(const t of input.candidates??[]) {
     if(!t.signalIds?.length)throw new Error('Daily candidate missing shared signal references');
     const observations=await loadSignals(privateDir,t.signalIds);
-    for(const o of observations) {
-      if(o.product_key!==t.event.productKey||o.event_at.slice(0,10)!==t.event.occurredAt.slice(0,10)||o.verification_status!=='verified'||o.research_cutoff!==input.cutoff)throw new Error('Daily candidate/shared evidence mismatch');
-    }
-    for(const source of t.sources??[])if(!observations.some(o=>[o.source_url,o.canonical_url].some(u=>normalizeUrl(u)===normalizeUrl(source.url))&&(source.publishedAt??null)===o.published_at))throw new Error('Daily citation lacks a matching shared original observation');
+    validateDailyCandidateEvidence(t,observations,input);
     if(!['primary-24h','delayed-72h','weekly-lookback','date-boundary-uncertain'].includes(t.freshnessClass))throw new Error('Daily freshness label missing');
     const event=Date.parse(t.event.occurredAt);
     if(t.event.occurredAt.length===10&&t.freshnessClass!=='date-boundary-uncertain')throw new Error('Date-only event needs explicit boundary uncertainty');

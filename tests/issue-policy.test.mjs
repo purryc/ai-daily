@@ -606,3 +606,50 @@ test("media requires a factual verified poster and bilingual captions", () => {
   delete a.media[0].poster;
   assert.throws(() => validateIssue(issue([a])), /poster/);
 });
+
+const lateTime = '2026-10-06T18:30:00Z';
+const lateDisclosure = () => ({snapshotStatus:'current-page-not-historical',asOfCutoff:cutoff,temporalNote:{zh:'截止后读取当前页，并非历史快照；不证明截止时的全部能力。',en:'Read after cutoff from the current page, not a historical snapshot; current capabilities do not prove past availability.'}});
+const lateCandidate = () => {
+  const a=candidate();Object.assign(a.sources[0],lateDisclosure(),{verifiedAt:lateTime,datePrecision:'date'});
+  Object.assign(a.visual,lateDisclosure(),{capturedAt:lateTime});return a;
+};
+test('disclosed post-cutoff reading and capture preserve actual times while dated evidence anchors the event',()=>{
+  const a=lateCandidate(),before=JSON.stringify(a);
+  assert.equal(selectEvents([a],[],options).topics.length,1);
+  assert.doesNotThrow(()=>validateIssue(issue([a])));assert.equal(JSON.stringify(a),before);
+});
+test('late reading requires every disclosure field and the exact target cutoff',()=>{
+  for(const field of ['snapshotStatus','asOfCutoff','temporalNote']) {
+    const a=lateCandidate();delete a.sources[0][field];assert.throws(()=>validateIssue(issue([a])),/chronology/);
+  }
+  const a=lateCandidate();a.sources[0].asOfCutoff='2026-10-06T13:00:00-04:00';assert.throws(()=>validateIssue(issue([a])),/chronology/);
+  a.sources[0].asOfCutoff=cutoff;a.sources[0].temporalNote.en='';assert.throws(()=>validateIssue(issue([a])),/chronology/);
+});
+test('late visual and media verification require their own disclosure, including nested posters',()=>{
+  const a=lateCandidate();delete a.visual.temporalNote;assert.throws(()=>validateIssue(issue([a])),/capture.*cutoff/);
+  const b=lateCandidate();b.media=[{kind:'official-link',url:'https://acme.example/demo',sourceUrl:b.sources[0].url,poster:{...b.visual,path:'assets/poster.png'},captionZh:'演示',captionEn:'Demo',whatToSeeZh:'离线输入',whatToSeeEn:'Offline input',verifiedAt:lateTime,...lateDisclosure()}];
+  assert.doesNotThrow(()=>validateIssue(issue([b])));delete b.media[0].asOfCutoff;assert.throws(()=>validateIssue(issue([b])),/media verification/);
+  Object.assign(b.media[0],lateDisclosure());delete b.media[0].poster.snapshotStatus;assert.throws(()=>validateIssue(issue([b])),/capture.*cutoff/);
+});
+test('undated late current background is allowed only alongside a separate dated event anchor',()=>{
+  const a=lateCandidate();const background={...a.sources[0],url:'https://acme.example/product',publishedAt:null,temporalStatus:'publication-date-unknown',evidenceUse:'current-background'};
+  a.sources.push(background);assert.doesNotThrow(()=>validateIssue(issue([a])));
+  a.eventSourceUrl=background.url;assert.throws(()=>validateIssue(issue([a])),/event source/);
+  delete a.eventSourceUrl;a.sources=[background];assert.throws(()=>validateIssue(issue([a])),/recency/);
+});
+test('undated late pages cannot manufacture past existence through effective date quotes',()=>{
+  const a=lateCandidate();Object.assign(a.sources[0],{publishedAt:null,temporalStatus:'publication-date-unknown',evidenceUse:'current-background',dateEvidence:{kind:'effective-date',date:a.event.occurredAt,quote:'effective October 5'}});
+  assert.throws(()=>validateIssue(issue([a])),/chronology|recency/);
+  delete a.sources[0].evidenceUse;assert.throws(()=>validateIssue(issue([a])),/chronology/);
+});
+test('late date-only sources preserve date precision and disclose cutoff-date uncertainty',()=>{
+  const a=lateCandidate();delete a.sources[0].datePrecision;assert.throws(()=>validateIssue(issue([a])),/chronology/);
+  a.sources[0].datePrecision='date';a.sources[0].publishedAt='2026-10-06';a.event.occurredAt='2026-10-06';assert.throws(()=>validateIssue(issue([a])),/chronology/);
+  a.sources[0].dateBoundaryUncertain=true;assert.doesNotThrow(()=>validateIssue(issue([a])));
+});
+test('disclosure never admits events or source publications at or after the fixed cutoff',()=>{
+  for(const after of [cutoff,'2026-10-06T19:00:00Z']) {
+    const a=lateCandidate();a.event.occurredAt=after;a.sources[0].publishedAt=after;a.sources[0].datePrecision='timestamp';
+    assert.throws(()=>validateIssue(issue([a])),/chronology|recency/);
+  }
+});

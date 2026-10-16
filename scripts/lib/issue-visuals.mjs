@@ -1,4 +1,5 @@
 import {isWebOnly} from './publication-format.mjs';
+import { allIssueTopics, allTopicVisuals, allTopicMedia } from "./topic-content.mjs";
 import { normalizeUrl } from "./issue-policy.mjs";
 const esc = (value) => String(value ?? "").replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;");
 const local = (object, locale, zh, en) => object?.[locale === "zh" ? zh : en] ?? "";
@@ -47,6 +48,14 @@ export function buildReferenceIndex(issue) {
     }
   }
   return [...entries.values()].map((entry, index) => ({ ...entry, number: index + 1, compactLabel: compactReferenceLabel(entry), dateLabel: entry.publishedAt || (entry.dateEvidence?.kind === "effective-date" ? `Effective date: ${entry.dateEvidence.date}` : "n.d.") }));
+}
+
+function temporalDisclosure(issue, locale) {
+  const records = allIssueTopics(issue).flatMap(topic => [...(topic.sources ?? []), ...allTopicVisuals(topic), ...allTopicMedia(topic)]);
+  if (!records.some(record => record.snapshotStatus === "current-page-not-historical")) return "";
+  return `<p class="evidence-policy temporal-disclosure">${esc(locale === "zh"
+    ? "部分来源与图像在固定截止后读取或获取，来自当前页面，并非历史快照。无日期资料仅作当前背景，不能证明过去的能力或事件；日期精度、边界不确定性与真实核验时间见来源总表。"
+    : "Some sources and images were read or captured after the fixed cutoff from current pages, not historical snapshots. Undated material is current background only and cannot establish past capabilities or events; date precision, boundary uncertainty and actual verification times are in the source ledger.")}</p>`;
 }
 
 function referenceMarker(issue, url) {
@@ -224,7 +233,7 @@ function evidenceSlides(issue, locale) {
   const topics = [...(issue.topics ?? []), ...(issue.contextTopics ?? [])];
   const rows = buildReferenceIndex(issue);
   return [{ id: "evidence-1", type: "references", topicIds: topics.map(topic => topic.id),
-    html: `<section class="report-slide evidence-slide compact-reference-slide" id="evidence-1" data-slide data-template="sources"><p class="slide-kicker">${esc(issue.date)}</p><h2>${esc(words[locale].evidence)}</h2><p class="evidence-policy">${locale === "zh" ? "明确日期与实质变化才列为新增；背景单独标明。研究、厂商演示与可用范围分别说明。完整日期、图源与筛选记录见来源总表；n.d.表示日期未标注。" : "Fresh entries require dated, substantive changes. Background, research, vendor demos and availability are labeled. Full dates, image provenance and selection notes remain in the source ledger; n.d. means date unstated."}</p><ol class="evidence-list">${rows.map(source => `<li><a href="${esc(external(source.url))}" target="_blank" rel="noreferrer" title="${esc(source.label)}" aria-label="${esc(source.label)}">${esc(source.compactLabel)}</a> <span>· ${esc(source.dateLabel)}</span></li>`).join("")}</ol><p class="source-ledger-link"><a href="../sources.md">${esc(words[locale].sources)} · ${locale === "zh" ? "完整来源与图像记录" : "full sources & image records"}</a></p></section>` }];
+    html: `<section class="report-slide evidence-slide compact-reference-slide" id="evidence-1" data-slide data-template="sources"><p class="slide-kicker">${esc(issue.date)}</p><h2>${esc(words[locale].evidence)}</h2><p class="evidence-policy">${locale === "zh" ? "明确日期与实质变化才列为新增；背景单独标明。研究、厂商演示与可用范围分别说明。完整日期、图源与筛选记录见来源总表；n.d.表示日期未标注。" : "Fresh entries require dated, substantive changes. Background, research, vendor demos and availability are labeled. Full dates, image provenance and selection notes remain in the source ledger; n.d. means date unstated."}</p>${temporalDisclosure(issue, locale)}<ol class="evidence-list">${rows.map(source => `<li><a href="${esc(external(source.url))}" target="_blank" rel="noreferrer" title="${esc(source.label)}" aria-label="${esc(source.label)}">${esc(source.compactLabel)}</a> <span>· ${esc(source.dateLabel)}${source.evidenceUse === "current-background" ? esc(locale === "zh" ? " · 当前背景" : " · current background") : ""}${source.dateBoundaryUncertain ? esc(locale === "zh" ? " · 日期边界不确定" : " · date boundary uncertain") : ""}</span></li>`).join("")}</ol><p class="source-ledger-link"><a href="../sources.md">${esc(words[locale].sources)} · ${locale === "zh" ? "完整来源与图像记录" : "full sources & image records"}</a></p></section>` }];
 }
 
 export function buildVisualSlides(issue, locale = "zh") {

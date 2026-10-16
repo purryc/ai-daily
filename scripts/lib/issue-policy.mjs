@@ -105,7 +105,25 @@ function sameEvent(a, b) {
     [...aa].filter((t) => bb.has(t)).length / union.size >= 0.8
   );
 }
+// A late live read is useful evidence only when its temporal limits are public.
+export function hasDailyTemporalDisclosure(record, cutoff) {
+  return record.snapshotStatus === "current-page-not-historical" &&
+    text(record.asOfCutoff) && record.asOfCutoff.length > 10 &&
+    instant(record.asOfCutoff) === instant(cutoff) &&
+    text(record.temporalNote?.zh) && text(record.temporalNote?.en);
+}
+function localCutoffDate(cutoff, timezone = "America/Toronto") {
+  const parts = new Intl.DateTimeFormat("en-CA", {timeZone:timezone,year:"numeric",month:"2-digit",day:"2-digit"}).formatToParts(new Date(cutoff));
+  return ["year","month","day"].map(type=>parts.find(part=>part.type===type).value).join("-");
+}
+function beforeEditorialCutoff(value, cutoff, timezone) {
+  return Number.isFinite(instant(value)) && (value.length === 10
+    ? value <= localCutoffDate(cutoff, timezone)
+    : instant(value) < instant(cutoff));
+}
 function eligibleDate(source, topic) {
+  // Current undated product descriptions never establish a past event or capability.
+  if (source.evidenceUse === "current-background") return null;
   const explicit =
     source.isPrimary === true &&
     source.dateEvidence?.kind === "effective-date" &&
@@ -113,51 +131,47 @@ function eligibleDate(source, topic) {
     source.dateEvidence.date === topic.event.occurredAt;
   return explicit ? source.dateEvidence.date : source.publishedAt;
 }
-function eligibleSource(source, topic, cutoff, lookbackDays = 3) {
+function eligibleSource(source, topic, cutoff, lookbackDays = 3, timezone) {
   const date = instant(eligibleDate(source, topic));
   const verified = instant(source.verifiedAt);
   const end = instant(cutoff);
   return (
-    Number.isFinite(date) &&
-    Number.isFinite(verified) &&
-    date <= end &&
+    Number.isFinite(date) && Number.isFinite(verified) &&
+    beforeEditorialCutoff(eligibleDate(source, topic), cutoff, timezone) &&
     date >= end - lookbackDays * DAY &&
-    verified <= end &&
+    (verified <= end || hasDailyTemporalDisclosure(source, cutoff)) &&
     verified >= date
   );
 }
-function freshEvidence(topic, cutoff, lookbackDays = 3) {
-  const end = instant(cutoff),
-    occurred = instant(topic.event?.occurredAt);
+function freshEvidence(topic, cutoff, lookbackDays = 3, timezone) {
+  const end = instant(cutoff), occurred = instant(topic.event?.occurredAt);
   return (
     Number.isFinite(end) &&
-    Number.isFinite(occurred) &&
-    occurred <= end &&
+    beforeEditorialCutoff(topic.event?.occurredAt, cutoff, timezone) &&
     occurred >= end - lookbackDays * DAY &&
-    Boolean(eventEvidenceSource(topic, cutoff, lookbackDays))
+    Boolean(eventEvidenceSource(topic, cutoff, lookbackDays, timezone))
   );
 }
-function validSourceChronology(topic, cutoff) {
+function validSourceChronology(topic, cutoff, timezone) {
   const end = instant(cutoff);
   return (topic.sources ?? []).every((source) => {
-    const verified = instant(source.verifiedAt);
-    if (!Number.isFinite(verified) || verified > end) return false;
+    const verified = instant(source.verifiedAt), late = verified > end;
+    if (!Number.isFinite(verified) || source.verifiedAt.length <= 10) return false;
+    if ((late || source.snapshotStatus !== undefined) && !hasDailyTemporalDisclosure(source, cutoff)) return false;
+    if (source.dateBoundaryUncertain && (!text(source.temporalNote?.zh) || !text(source.temporalNote?.en))) return false;
     if (source.publishedAt !== undefined && source.publishedAt !== null) {
-      const published = instant(source.publishedAt);
-      if (
-        !Number.isFinite(published) ||
-        published > end ||
-        verified < published
-      )
-        return false;
-    }
+      if (!beforeEditorialCutoff(source.publishedAt, cutoff, timezone) || verified < instant(source.publishedAt)) return false;
+      if (late && source.publishedAt.length === 10 && (source.datePrecision !== "date" ||
+        source.publishedAt === localCutoffDate(cutoff, timezone) && source.dateBoundaryUncertain !== true)) return false;
+    } else if (late && (source.publishedAt !== null || source.temporalStatus !== "publication-date-unknown" ||
+      source.evidenceUse !== "current-background" || source.dateEvidence !== undefined)) return false;
     return true;
   });
 }
-function eventEvidenceSource(topic, cutoff, lookbackDays = 3) {
+function eventEvidenceSource(topic, cutoff, lookbackDays = 3, timezone) {
   const candidates = (topic.sources ?? []).filter(
     (source) =>
-      eligibleSource(source, topic, cutoff, lookbackDays) &&
+      eligibleSource(source, topic, cutoff, lookbackDays, timezone) &&
       eligibleDate(source, topic).slice(0, 10) ===
         topic.event.occurredAt.slice(0, 10),
   );
@@ -193,7 +207,7 @@ function uniqueSources(sources) {
 export function selectEvents(
   candidates,
   archive,
-  { date, cutoff, lookbackDays = 3 },
+  { date, cutoff, lookbackDays = 3, timezone = "America/Toronto" },
 ) {
   const topics = [],
     excluded = [];
@@ -209,7 +223,7 @@ export function selectEvents(
       excluded.push({ id: topic.id, reason: "missing-substantive-delta" });
       continue;
     }
-    if (!validSourceChronology(topic, cutoff)) {
+    if (!validSourceChronology(topic, cutoff, timezone)) {
       excluded.push({ id: topic.id, reason: "invalid-source-chronology" });
       continue;
     }
@@ -224,12 +238,12 @@ export function selectEvents(
     }
     if (
       topic.eventSourceUrl &&
-      !eventEvidenceSource(topic, cutoff, lookbackDays)
+      !eventEvidenceSource(topic, cutoff, lookbackDays, timezone)
     ) {
       excluded.push({ id: topic.id, reason: "unverified-event-source" });
       continue;
     }
-    if (!freshEvidence(topic, cutoff, lookbackDays)) {
+    if (!freshEvidence(topic, cutoff, lookbackDays, timezone)) {
       excluded.push({ id: topic.id, reason: "unverified-recency" });
       continue;
     }
@@ -255,7 +269,7 @@ export function selectEvents(
           (i.topic.sources ?? []).map((s) => normalizeUrl(s.url)),
         ),
     );
-    const evidence = eventEvidenceSource(topic, cutoff, lookbackDays);
+    const evidence = eventEvidenceSource(topic, cutoff, lookbackDays, timezone);
     const newDatedEvidence = evidence && !legacyUrls.has(evidence.url);
     if (evidence) topic.eventSourceUrl = evidence.url;
     const sameProductHistory = history.filter(
@@ -391,14 +405,14 @@ export function validateIssue(issue, archive = []) {
     for (const locale of ["zh", "en"])
       for (const field of ["what", "change", "use", "limits"])
         requireText(topic.brief?.[locale]?.[field], `brief.${locale}.${field}`);
-    if (!validSourceChronology(topic, issue.cutoff))
+    if (!validSourceChronology(topic, issue.cutoff, issue.timezone))
       throw new Error(`invalid source chronology: ${topic.id}`);
     if (
       topic.eventSourceUrl &&
-      !eventEvidenceSource(topic, issue.cutoff, windowDays)
+      !eventEvidenceSource(topic, issue.cutoff, windowDays, issue.timezone)
     )
       throw new Error(`unverified event source: ${topic.id}`);
-    if (!freshEvidence(topic, issue.cutoff, windowDays))
+    if (!freshEvidence(topic, issue.cutoff, windowDays, issue.timezone))
       throw new Error(`unverified recency: ${topic.id}`);
     if (!topic.sources?.length) throw new Error(`missing sources: ${topic.id}`);
     for (const source of topic.sources) {
@@ -447,7 +461,8 @@ export function validateIssue(issue, archive = []) {
         requireText(media[field], `media ${field}`);
       if (
         !Number.isFinite(instant(media.verifiedAt)) ||
-        instant(media.verifiedAt) > instant(issue.cutoff)
+        media.verifiedAt.length <= 10 ||
+        ((instant(media.verifiedAt) > instant(issue.cutoff) || media.snapshotStatus !== undefined) && !hasDailyTemporalDisclosure(media, issue.cutoff))
       )
         throw new Error("invalid media verification time");
     }
@@ -466,9 +481,9 @@ export function validateIssue(issue, archive = []) {
         normalizeUrl(visual.sourceUrl);
         for (const field of ["altZh", "altEn"])
           requireText(visual[field], `visual.${field}`);
-        if (!Number.isFinite(instant(visual.capturedAt)))
+        if (!Number.isFinite(instant(visual.capturedAt)) || visual.capturedAt.length <= 10)
           throw new Error("missing visual capturedAt");
-        if (instant(visual.capturedAt) > instant(issue.cutoff))
+        if ((instant(visual.capturedAt) > instant(issue.cutoff) || visual.snapshotStatus !== undefined) && !hasDailyTemporalDisclosure(visual, issue.cutoff))
           throw new Error("visual capture exceeds editorial cutoff");
       }
     } else

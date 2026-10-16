@@ -29,10 +29,17 @@ test('isolated synthetic daily passes bilingual desktop/mobile web gate without 
       sources:[{label:'TEST FIXTURE source',url:'https://example.com/test-fixture',publishedAt:'2026-10-05',verifiedAt:cutoff,isPrimary:true}],
       brief:Object.fromEntries(['zh','en'].map(l=>[l,Object.fromEntries(['what','change','use','limits'].map(k=>[k,pair[l]]))])),
       visuals:[{path:'assets/fixture.png',role:'overall',kind:'source-backed engineering test fixture ONLY',sourceUrl:'https://example.com/test-fixture',altZh:pair.zh,altEn:pair.en,captionZh:pair.zh,captionEn:pair.en,capturedAt:cutoff}]};
+    const actual='2026-10-06T18:30:41Z';
+    const disclosure={snapshotStatus:'current-page-not-historical',asOfCutoff:cutoff,temporalNote:{zh:'截止后读取当前页面，并非历史快照。',en:'Current page read after cutoff, not a historical snapshot.'}};
+    Object.assign(topic.sources[0],disclosure,{verifiedAt:actual,datePrecision:'date'});
+    Object.assign(topic.visuals[0],disclosure,{capturedAt:actual});
     const {issue}=await generateIssue({root,input:{date,cutoff,timezone:'America/Toronto',publicationFormat:'web-only',zhTitle:pair.zh,enTitle:pair.en,zhSummary:pair.zh,enSummary:pair.en,candidates:[topic],laneScans:[]}});
     const env={...process.env,AI_DAILY_ROOT:root,AI_DAILY_DATES:date,AI_DAILY_CHROMIUM_PATH:process.env.AI_DAILY_CHROMIUM_PATH??'/usr/bin/chromium'};
     await exec(process.execPath,['scripts/render-site.mjs'],{env});
     const checked=await exec(process.execPath,['scripts/check-site.mjs'],{env,timeout:90000});
+    const ledger=await fs.readFile(path.join(root,date,'sources.md'),'utf8');
+    assert.ok(ledger.includes(actual));assert.ok(ledger.includes(disclosure.temporalNote.zh));assert.ok(ledger.includes(disclosure.temporalNote.en));
+    assert.match(ledger,/snapshotStatus: current-page-not-historical/);assert.ok(ledger.includes('asOfCutoff: '+cutoff));assert.match(ledger,/datePrecision: date/);
     assert.match(checked.stdout,/web-only/);console.log(checked.stdout.trim());
     assert.ok(!publicFiles('daily',date,issue).some(f=>f.endsWith('.pdf')||f.endsWith('pdf-export.json')));
     assert.ok(publicFiles('daily',date,{...issue,publicationFormat:undefined}).some(f=>f.endsWith('.pdf')));
@@ -42,6 +49,10 @@ test('isolated synthetic daily passes bilingual desktop/mobile web gate without 
       try {
         await page.goto(started.origin+'/'+date+'/'+lang+'/',{waitUntil:'networkidle'});
         assert.equal(await page.locator('a[href$=".pdf"]').count(),0);
+        assert.equal(await page.locator('.temporal-disclosure').count(),1);
+        await page.locator('[data-next-slide]').click();await page.locator('[data-next-slide]').click();
+        assert.ok(await page.locator('.temporal-disclosure').isVisible());
+        await page.locator('[data-prev-slide]').click();await page.locator('[data-prev-slide]').click();
         for(const link of await page.locator('.header-actions a').evaluateAll(as=>as.map(a=>a.href)))assert.equal((await page.request.get(link)).status(),200);
         if(process.env.AI_DAILY_TEST_EVIDENCE_DIR){
           await page.screenshot({path:path.join(process.env.AI_DAILY_TEST_EVIDENCE_DIR,`TEST-FIXTURE-daily-${lang}-${viewport.width}.png`),fullPage:true});

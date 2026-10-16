@@ -271,3 +271,19 @@ test("the exact editorial cutoff survives in escaped metadata for freshness chec
  const unsafe={...fixture,cutoff:'2026-10-06T11:00:00-04:00"><script>alert(1)</script>'};
  const html=renderVisualIssue(unsafe,'en');assert.ok(!html.includes('<script>alert(1)</script>'));assert.match(html,/editorial-cutoff" content="[^>]*&quot;&gt;&lt;script&gt;/);
 });
+
+test('late current-page sources and images get one visible bilingual temporal disclosure',async()=>{
+ const {buildVisualSlides}=await import(modulePath);const rich=structuredClone(fixture);
+ const disclosure={snapshotStatus:'current-page-not-historical',asOfCutoff:rich.cutoff,temporalNote:{zh:'实际读取晚于截止。',en:'Actually read after cutoff.'}};
+ Object.assign(rich.topics[0].sources[0],disclosure,{verifiedAt:'2026-10-06T19:00:00Z'});
+ Object.assign(rich.topics[0].visuals[0],disclosure,{capturedAt:'2026-10-06T19:01:00Z'});
+ Object.assign(rich.topics[1].sources[0],disclosure,{temporalStatus:'publication-date-unknown',evidenceUse:'current-background'});
+ for(const locale of ['zh','en']) {
+  const pages=buildVisualSlides(rich,locale),refs=pages.at(-1);
+  assert.equal((pages.map(p=>p.html).join('').match(/class="[^"]*\btemporal-disclosure\b/g)||[]).length,1);
+  assert.match(refs.html,locale==='zh'?/当前页面.*历史快照/:/current pages.*historical snapshots/);
+  assert.match(refs.html,locale==='zh'?/当前背景/:/current background/);
+  assert.match(refs.html,/sources.md/);
+ }
+ assert.doesNotMatch(buildVisualSlides(fixture,'en').at(-1).html,/temporal-disclosure/);
+});
