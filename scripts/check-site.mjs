@@ -1,3 +1,4 @@
+import {isWebOnly} from './lib/publication-format.mjs';
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -104,7 +105,7 @@ try {
             );
           if (viewport.width === 1920) {
             counts.push(result.pages);
-            if (issue.publicationFormat !== "web-only") {
+            if (!isWebOnly(issue)) {
               const pdfPages = await checkPdfPages(
                 path.join(root, date, `ai-daily-${date}-${locale}.pdf`),
               );
@@ -160,7 +161,7 @@ try {
             if (visible !== 1)
               throw new Error(`${file} navigation loses the active page`);
           }
-          if (issue.publicationFormat !== "web-only") {
+          if (!isWebOnly(issue)) {
             await page.emulateMedia({ media: "print" });
             const clippedPrint = await page.evaluate(() =>
               [...document.querySelectorAll("[data-slide]")]
@@ -184,7 +185,7 @@ try {
     if (counts[0] !== counts[1])
       throw new Error(`${date} bilingual page count mismatch`);
     console.log(
-      `Checked ${date}: ${counts[0]} pages per locale, dated events, source ledger, images, ${issue.publicationFormat === "web-only" ? "web-only" : "PDFs"} and responsive layouts`,
+      `Checked ${date}: ${counts[0]} pages per locale, dated events, source ledger, images, ${isWebOnly(issue) ? "web-only" : "PDFs"} and responsive layouts`,
     );
   }
 } finally {

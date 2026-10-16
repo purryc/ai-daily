@@ -50,6 +50,14 @@ test('isolated synthetic daily passes bilingual desktop/mobile web gate without 
         }
       }finally{await page.close();}
     }
+    // The already-published October 15 edition uses these older explicit flags.
+    const legacy={...issue,publicationFormat:undefined,formats:['web'],pdfDelivery:false};
+    await fs.writeFile(path.join(root,'data/editions',date+'.json'),JSON.stringify(legacy));
+    await exec(process.execPath,['scripts/render-site.mjs'],{env});
+    const legacyCheck=await exec(process.execPath,['scripts/check-site.mjs'],{env,timeout:90000});
+    assert.match(legacyCheck.stdout,/web-only/);
+    assert.doesNotMatch(await fs.readFile(path.join(root,date,'en/index.html'),'utf8'),/href="[^"]+\.pdf"/);
+    assert.ok(!publicFiles('daily',date,legacy).some(f=>f.endsWith('.pdf')));
     assert.ok(!(await fs.readdir(path.join(root,date))).some(f=>f.endsWith('.pdf')));
   }finally{
     if(browser)await browser.close();if(server)await new Promise(r=>server.close(r));

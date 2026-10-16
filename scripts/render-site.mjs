@@ -1,3 +1,4 @@
+import {isWebOnly} from './lib/publication-format.mjs';
 import fs from "node:fs/promises";
 import { readIssues } from "./lib/issue-data.mjs";
 import { allIssueTopics, allTopicVisuals, coverFigureFallback } from "./lib/topic-content.mjs";
@@ -1087,7 +1088,7 @@ function deckIssuePage(issue, locale) {
           <a class="${isZh ? "active" : ""}" href="${siteBase}/${issue.date}/zh/">中文</a>
           <a class="${isZh ? "" : "active"}" href="${siteBase}/${issue.date}/en/">English</a>
           <a href="${siteBase}/${issue.date}/sources.md">${isZh ? "来源总表" : "Source ledger"}</a>
-          ${issue.publicationFormat === "web-only" ? "" : `<a class="primary" href="../${pdfName}" download>${isZh ? "下载 PDF" : "Download PDF"}</a>`}
+          ${isWebOnly(issue) ? "" : `<a class="primary" href="../${pdfName}" download>${isZh ? "下载 PDF" : "Download PDF"}</a>`}
         </div>
       </nav>
 

@@ -1,3 +1,4 @@
+import {isWebOnly} from './publication-format.mjs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {sha,privateRoot,preflight,REPO,atomic} from './cloud-state.mjs';
@@ -24,7 +25,7 @@ export function rejectPrivateFields(value) {
   const forbidden=new Set(['queries','observations','raw_html','raw_text','credentials','password','access_token','api_key','secret','research']);
   for(const [key,child] of Object.entries(value)){if(forbidden.has(key))throw new Error('Private research/credential field cannot enter public input: '+key);rejectPrivateFields(child);}
 }
-export function publicFiles(kind,key,data,{webOnly=data.publicationFormat==='web-only'}={}) {
+export function publicFiles(kind,key,data,{webOnly=isWebOnly(data)}={}) {
   const prefix=kind==='weekly'?'weekly/'+key:key;
   const local=['zh/index.html','en/index.html','manifest.json','sources.md'];
   const global=kind==='weekly'?['weekly/index.html','weekly/manifest.json','data/weekly/'+key+'.json']:

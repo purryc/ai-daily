@@ -1,5 +1,51 @@
 [
   {
+    "date": "2026-10-15",
+    "zhTitle": "AI Daily · 补发：看清 Agent 下一步要做什么",
+    "enTitle": "AI Daily · Backfill: making the next agent action legible",
+    "zhSummary": "10 月 15 日补发｜固定截止 17:12:57 UTC。5 项产品观察；日期不明时标记 24 小时边界不确定，10/13 明列 72 小时补充。约 15 分钟含图与原文复核，不按字数灌水。 配图均为据文重绘的操作链示意，非产品截图；原图导入受限。",
+    "enSummary": "October 15 backfill | Cutoff 17:12:57 UTC. Five product observations; date-only items carry a 24-hour uncertainty label, with Oct 13 explicitly a 72-hour supplement. About 15 minutes including figures and source checks. Figures are source-based editorial diagrams; original image import was blocked.",
+    "tags": [
+      "HCI",
+      "AI software",
+      "AI hardware",
+      "backfill"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews"
+    ],
+    "coverStory": {
+      "topicId": "openai-educators-ptbr-2026-10-15",
+      "zhTitle": "教育：新增葡语课程，Study Mode 仍以追问引导学习",
+      "enTitle": "Education: Portuguese training, with Study Mode as a teaching tool",
+      "zhSummary": [
+        "OpenAI Academy 的 AI for Educators 是面向中小学和高等教育教师的免费学习课程；10 月 15 日公告的新增是巴西葡萄牙语版本，不是 Study Mode 今天首次上线。"
+      ],
+      "enSummary": [
+        "AI for Educators is a free OpenAI Academy course for primary, secondary and higher-education teachers. The October 15 announcement adds Brazilian Portuguese; it does not launch Study Mode for the first time."
+      ],
+      "imagePath": "assets/openai-educators-ptbr-editorial-flow.png",
+      "imageSourceUrl": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions/",
+      "primarySourceUrl": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions/",
+      "evidenceStrength": "confirmed product"
+    },
+    "watchlistZh": [
+      "核对分阶段可用性、实际权限与失败接管，不以厂商说明冒充实测。",
+      "本期未完整取得近八周私有原始台账；使用现有公开归档做历史去重。"
+    ],
+    "watchlistEn": [
+      "Verify rollout stages, permissions and failure handoff; vendor descriptions are not hands-on results.",
+      "The private eight-week raw ledger was unavailable; deduplication uses the existing published archive."
+    ],
+    "zhPath": "./2026-10-15/zh/",
+    "enPath": "./2026-10-15/en/",
+    "sourcesPath": "./2026-10-15/sources.md",
+    "formats": [
+      "web"
+    ]
+  },
+  {
     "date": "2026-10-14",
     "zhTitle": "AI Daily · Agent 进入客厅、应用商店与产线",
     "enTitle": "AI Daily · Agents move into the living room, app store, and factory",

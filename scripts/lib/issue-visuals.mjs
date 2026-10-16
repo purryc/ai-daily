@@ -1,3 +1,4 @@
+import {isWebOnly} from './publication-format.mjs';
 import { normalizeUrl } from "./issue-policy.mjs";
 const esc = (value) => String(value ?? "").replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;");
 const local = (object, locale, zh, en) => object?.[locale === "zh" ? zh : en] ?? "";
@@ -245,7 +246,7 @@ export function renderVisualIssue(issue, locale = "zh") {
   return `<!doctype html>
 <html lang="${locale === "zh" ? "zh-CN" : "en"}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="editorial-cutoff" content="${esc(issue.cutoff)}"><title>${esc(pageTitle)} · AI Daily</title><meta name="description" content="${esc(local(issue, locale, "zhSummary", "enSummary"))}"><link rel="stylesheet" href="../../assets/issue-v2.css"></head>
 <body class="visual-issue"><main class="visual-reader">
-  <header class="report-header"><a class="brand" href="../../">AI Daily</a><span class="header-date">${esc(issue.date)} · ${esc(issue.timezone)}</span>${readingTarget}<nav class="header-actions" aria-label="${locale === "zh" ? "语言与来源" : "Language & sources"}"><a href="../zh/"${locale === "zh" ? ' aria-current="page"' : ""}>中文</a><a href="../en/"${locale === "en" ? ' aria-current="page"' : ""}>English</a>${issue.publicationFormat === "web-only" ? "" : `<a class="primary" href="../ai-daily-${esc(issue.date)}-${locale}.pdf" download>${esc(w.pdf)}</a>`}</nav></header>
+  <header class="report-header"><a class="brand" href="../../">AI Daily</a><span class="header-date">${esc(issue.date)} · ${esc(issue.timezone)}</span>${readingTarget}<nav class="header-actions" aria-label="${locale === "zh" ? "语言与来源" : "Language & sources"}"><a href="../zh/"${locale === "zh" ? ' aria-current="page"' : ""}>中文</a><a href="../en/"${locale === "en" ? ' aria-current="page"' : ""}>English</a>${isWebOnly(issue) ? "" : `<a class="primary" href="../ai-daily-${esc(issue.date)}-${locale}.pdf" download>${esc(w.pdf)}</a>`}</nav></header>
   <div class="report-stage" data-deck aria-label="${esc(pageTitle)}">${slides.map((slide) => slide.html).join("\n")}</div>
   <footer class="report-controls" aria-label="${locale === "zh" ? "日报翻页" : "Issue navigation"}"><button type="button" class="contents-button" data-go-slide="overview">${esc(w.contents)}</button><button type="button" data-prev-slide>${esc(w.prev)}</button><div class="progress-track" aria-hidden="true"><span data-deck-progress></span></div><output data-deck-counter aria-live="polite">1 / ${slides.length}</output><button type="button" class="primary" data-next-slide>${esc(w.next)}</button></footer>
 </main>
