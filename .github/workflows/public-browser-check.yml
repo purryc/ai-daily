@@ -8,11 +8,12 @@ permissions:
 
 jobs:
   capture:
-    # Preparation pushes do not allocate a runner. The explicit marker is a
-    # separate one-time execution step after visibility, policy and quota checks.
+    # A private or unknown-visibility repository never allocates a runner.
+    # Only a deliberate execution-marker push can start this public-only probe.
     if: >-
       github.repository == 'purryc/ai-daily' &&
       github.event.repository.private == false &&
+      github.event.repository.visibility == 'public' &&
       contains(github.event.head_commit.message, '[run-public-browser-check]')
     runs-on: ubuntu-24.04
     timeout-minutes: 8
@@ -33,28 +34,17 @@ jobs:
           npm ci --ignore-scripts --no-audit --no-fund
       - name: Capture one allowed public product page
         run: node scripts/public-browser-check.mjs --output "$RUNNER_TEMP/public-browser-check"
-      - name: Upload only the public probe artifact
-        id: artifact
+      - name: Export bounded public files to log
         if: ${{ !cancelled() }}
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
-        with:
-          name: public-browser-check-${{ github.run_id }}-${{ github.run_attempt }}
-          path: |
-            ${{ runner.temp }}/public-browser-check/product.png
-            ${{ runner.temp }}/public-browser-check/index.html
-            ${{ runner.temp }}/public-browser-check/receipt.json
-          if-no-files-found: error
-          retention-days: 1
-      - name: Record actual artifact receipt
-        if: ${{ !cancelled() && steps.artifact.outcome == 'success' }}
-        env:
-          ARTIFACT_ID: ${{ steps.artifact.outputs.artifact-id }}
-          ARTIFACT_URL: ${{ steps.artifact.outputs.artifact-url }}
-          ARTIFACT_DIGEST: ${{ steps.artifact.outputs.artifact-digest }}
+        run: node scripts/public-browser-log.mjs emit --input "$RUNNER_TEMP/public-browser-check"
+      - name: Record run receipt without artifact storage
+        if: ${{ !cancelled() }}
         run: |
           node --input-type=module <<'JS'
           import fs from 'node:fs/promises';
-          const receipt=JSON.parse(await fs.readFile(process.env.RUNNER_TEMP+'/public-browser-check/receipt.json','utf8'));
-          const result={run:process.env.GITHUB_SERVER_URL+'/'+process.env.GITHUB_REPOSITORY+'/actions/runs/'+process.env.GITHUB_RUN_ID,commit:process.env.GITHUB_SHA,captureStatus:receipt.captureStatus,visualReviewStatus:'pending-pixel-review',artifactId:process.env.ARTIFACT_ID,artifactUrl:process.env.ARTIFACT_URL,artifactDigest:process.env.ARTIFACT_DIGEST,publication:false};
+          let receipt;
+          try {receipt=JSON.parse(await fs.readFile(process.env.RUNNER_TEMP+'/public-browser-check/receipt.json','utf8'));} catch {}
+          const result={run:'https://github.com/purryc/ai-daily/actions/runs/'+process.env.GITHUB_RUN_ID,commit:process.env.GITHUB_SHA,captureStatus:receipt?.captureStatus??'setup-failed-no-capture-receipt',visualReviewStatus:'pending-pixel-review',outputMode:'bounded-log-no-artifact',logStep:'Export bounded public files to log',publication:false};
+          console.log('PUBLIC_BROWSER_RUN_RECEIPT '+JSON.stringify(result));
           await fs.appendFile(process.env.GITHUB_STEP_SUMMARY,'```json\n'+JSON.stringify(result,null,2)+'\n```\n');
           JS

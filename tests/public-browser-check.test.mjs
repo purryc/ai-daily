@@ -7,6 +7,12 @@ import {createStaticServer} from '../scripts/lib/static-server.mjs';
 
 const api = await import('../scripts/public-browser-check.mjs').catch(() => ({}));
 
+test('browser failures never expose credentials or full launch diagnostics',()=>{
+  assert.equal(typeof api.safeProbeError,'function','safe public error formatter missing');
+  assert.equal(api.safeProbeError(new Error('Launch failed with proxy http://private-user:private-password@example.invalid/')), 'Public browser probe failed; detailed diagnostics omitted');
+  assert.equal(api.safeProbeError(new Error('page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://nodejs.org/en/download')), 'net::ERR_TUNNEL_CONNECTION_FAILED');
+});
+
 test('public browser probe restricts live targets before launching a browser', async () => {
   assert.equal(typeof api.capturePublicProduct, 'function', 'public browser capture implementation is missing');
   await assert.rejects(api.capturePublicProduct({output:'/tmp/unused-public-probe',sourceUrl:'https://example.com/'}), /fixed public product/);

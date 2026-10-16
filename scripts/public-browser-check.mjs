@@ -11,6 +11,17 @@ const REPO=path.resolve(fileURLToPath(new URL('..',import.meta.url)));
 const digest=bytes=>createHash('sha256').update(bytes).digest('hex');
 const escape=value=>String(value).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 
+export function safeProbeError(error) {
+  const message=String(error?.message??'');
+  const network=message.match(/net::ERR_[A-Z_]+/);
+  if(network)return network[0];
+  const http=message.match(/^Source returned HTTP (\d{3}|null)$/);
+  if(http)return http[0];
+  if(/timeout|timed out/i.test(message))return 'Browser operation timed out';
+  const controlled=['Unexpected product-page redirect','Access/error page cannot be admitted as product UI','Expected real product page was not rendered','Product interaction surface is missing','Refused subresource; source host stopped without retry','Saved screenshot is not the expected readable PNG','Saved HTML cannot read the local screenshot','Probe exceeds its 2MiB artifact bound'];
+  return controlled.includes(message)?message:'Public browser probe failed; detailed diagnostics omitted';
+}
+
 // Deliberately separate from daily/weekly publication, private rules and ledgers.
 export async function capturePublicProduct({output,sourceUrl=PUBLIC_PRODUCT_URL,fixture=false}={}) {
   const source=new URL(sourceUrl);
@@ -88,9 +99,9 @@ export async function capturePublicProduct({output,sourceUrl=PUBLIC_PRODUCT_URL,
     if (png.length+htmlBytes.length>2*1024*1024) throw new Error('Probe exceeds its 2MiB artifact bound');
     receipt.captureStatus='captured-and-browser-validated';
   } catch(error) {
-    receipt.captureStatus='failed';receipt.error=error.message;
+    receipt.captureStatus='failed';receipt.error=safeProbeError(error);
     for (const name of ['product.png','index.html']) await fs.rm(path.join(dest,name),{force:true});
-    receipt.files={};throw error;
+    receipt.files={};throw new Error(receipt.error);
   } finally {
     if(browser)await browser.close();
     if(server)await new Promise(resolve=>server.close(resolve));
@@ -106,5 +117,5 @@ if(process.argv[1] && path.resolve(process.argv[1])===fileURLToPath(import.meta.
     if(args.length!==2 || args[0]!=='--output') throw new Error('Usage: node scripts/public-browser-check.mjs --output <isolated-directory>');
     const receipt=await capturePublicProduct({output:args[1]});
     console.log(JSON.stringify(receipt));
-  }catch(error){console.error(error.message);process.exitCode=1;}
+  }catch(error){console.error(safeProbeError(error));process.exitCode=1;}
 }
