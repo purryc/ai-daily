@@ -27,4 +27,10 @@ for the coordinator's confirmation that the local writer stopped before cloud re
 Use explicit dates. Dry runs must output outside this checkout. For verification use
 AI_DAILY_CHROMIUM_PATH=/usr/bin/chromium and npm run test:all. Browser failures cannot
 be replaced by unit-only success. Public release requires source/editorial review,
-bilingual browser/overflow/PDF checks, an exact-head commit and live deployment checks.
+bilingual browser/overflow checks, an exact-head commit and live deployment checks.
+
+New cloud drafts are web-only: never generate new PDFs. Preserve existing published
+PDFs and legacy exporter code. npm test/test:all run web-only verification;
+test:pdf:legacy is a separate historical maintenance suite and must not run during
+web-only migration. Synthetic fixtures are engineering evidence, never restored rules,
+raw research, formal editions or proof of durable cross-instance state.

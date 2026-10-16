@@ -10,7 +10,8 @@ private rule snapshot. The dense daily contract (Chinese >=6,000 characters, Eng
 >=4,500 words; full bilingual dossiers, provenance and eight-lane scans) supersedes
 the older concise/no-quota guidance below for new cloud publication. Weekly has a
 separate complete-week evidence contract and never replaces daily current.
-Historic artifacts and their original concise validator remain preserved.
+Historic artifacts and their original concise validator remain preserved. New cloud
+drafts are web-only; existing published PDFs and legacy exporters are retained.
 
 - Report real, dated product advances. A source's retrieval time is not its publication date
 - Deduplicate by product, event/version, normalized source URL and source date, within an issue and against the archive
@@ -19,7 +20,7 @@ Historic artifacts and their original concise validator remain preserved.
 - Preserve what it is, what changed, how to use it, and limits in both languages, alongside the full product dossier. Split dense content into complete 16:9 pages. New cloud daily runs enforce the formal density/source/visual contract; estimates describe actual reading assumptions
 - Prefer several informative factual product, UI and interaction figures, each with source, caption, alt text and role. Explain unavailable imagery explicitly. Never manufacture a product visual
 - One contents page, complete illustrated product pages (dense dossiers may continue), and references with all provenance links. The full source ledger stays outside the main reading route
-- Maximum 50 printed pages per language, checked against both HTML and the actual PDF. An honest no-news issue is valid
+- Maximum 50 web pages per language for new cloud drafts. Legacy PDF checks are separate. An honest no-news issue is valid
 - Research, build and verify in the cloud. Do not write daily copies into a Mac folder
 - Preserve the historical archive and assets. Update only this existing Pages site
 
@@ -58,7 +59,7 @@ Optional `laneScans[]` record `lane`, `status`, `zh`, `en` and `sourceUrls`. Sca
 
 ## Cloud build and verification
 
-The build machine needs Node, Playwright Chromium, and Poppler's `pdfinfo`. If using a supported already-installed Chromium, set `AI_DAILY_CHROMIUM_PATH` to its executable. Do not weaken browser or system security to make tests run.
+The web build machine needs Node and Playwright Chromium. Poppler's `pdfinfo` is only needed for legacy PDF maintenance. If using a supported already-installed Chromium, set `AI_DAILY_CHROMIUM_PATH` to its executable. Do not weaken browser or system security to make tests run.
 
 ```sh
 npm ci
@@ -68,12 +69,19 @@ AI_DAILY_DATES=2026-10-06 npm run check
 npm run test:all
 ```
 
-`npm test` runs the complete suite, including real Chromium PDF rendering. `npm run test:unit` covers policy, archive preservation, server paths and actual PDF page-count boundaries without launching a browser. `npm run test:browser` runs the browser stage alone. A blocked browser stage must be reported as not run; passing unit tests alone does not authorize a completion claim.
+`npm test`, `npm run test:all` and `npm run test:web` run web-only verification,
+including real Chromium bilingual desktop/mobile daily and weekly checks. They do
+not generate PDFs. `npm run test:browser` selects the dedicated daily browser test;
+cloud integration tests also launch Chromium, so the historical `test:unit` alias
+is not browser-free. The 16 PDF generation tests live in `tests/legacy-pdf` behind
+`npm run test:pdf:legacy`; do not execute that suite for web-only migration.
+Passing engineering fixtures never certifies actual editorial inputs or durable
+private-state restoration. A blocked browser stage must be reported as not run.
 
-The standard browser PDF export remains available on build machines that support Chromium. When browser printing is unavailable, install the pinned Python dependencies with `python3 -m pip install -r requirements-pdf.txt`, provide an installed Noto Sans CJK font, and run `AI_DAILY_DATES=2026-10-06 npm run pdf:static`. This invokes a separate data-driven ReportLab layout; inspect its actual page count, text completeness and rendered images before delivery. Do not claim that it is an exact browser-print rendering. `pdf-export.json` records the renderer, actual bilingual page counts and the SHA256 of the exact edition input. Validation rejects stale sidecars; shared editorial exports require matching story-page plans and page counts; only their physical layout differs from browser printing.
+For historical maintenance only, the standard browser PDF export remains available on build machines that support Chromium. When browser printing is unavailable, install the pinned Python dependencies with `python3 -m pip install -r requirements-pdf.txt`, provide an installed Noto Sans CJK font, and run `AI_DAILY_DATES=2026-10-06 npm run pdf:static`. This invokes a separate data-driven ReportLab layout; inspect its actual page count, text completeness and rendered images before delivery. Do not claim that it is an exact browser-print rendering. `pdf-export.json` records the renderer, actual bilingual page counts and the SHA256 of the exact edition input. Validation rejects stale sidecars; shared editorial exports require matching story-page plans and page counts; only their physical layout differs from browser printing.
 
-Build and PDF commands default to the latest issue only. `AI_DAILY_DATES` may explicitly select comma-separated dates, but never silently regenerates the archive. Missing evidence assets fail clearly and are not replaced with generated diagrams. PDFs are written atomically only after page-count validation.
+`build:all` now builds only HTML. `build:pdf:legacy` preserves the historical HTML/PDF command. Build and legacy PDF commands default to the latest issue only. `AI_DAILY_DATES` may explicitly select comma-separated dates, but never silently regenerates the archive. Missing evidence assets fail clearly and are not replaced with generated diagrams. PDFs are written atomically only after page-count validation.
 
 The existing dated Oct 6 entrypoint delegates to the new candidate-driven generator for compatibility. The repository has no configured daily generation schedule. The old local `ai-product-morning-brief` recurring task was deleted; cloud recurring publishing remains disabled pending a verified parent-to-cloud route and durable private state. See [CLOUD_RUNBOOK.md](CLOUD_RUNBOOK.md). Do not restore the local task or create a duplicate schedule.
 
-Publish only after the source review, chosen design, rendering checks and PDF checks are complete. Use a compare-and-swap GitHub ref update against the verified repository head, then verify the exact Pages deployment and live result.
+Publish only after the source review, chosen design, web rendering checks are complete (legacy PDF checks apply only to historical maintenance). Use a compare-and-swap GitHub ref update against the verified repository head, then verify the exact Pages deployment and live result.

@@ -24,14 +24,14 @@ export function rejectPrivateFields(value) {
   const forbidden=new Set(['queries','observations','raw_html','raw_text','credentials','password','access_token','api_key','secret','research']);
   for(const [key,child] of Object.entries(value)){if(forbidden.has(key))throw new Error('Private research/credential field cannot enter public input: '+key);rejectPrivateFields(child);}
 }
-export function publicFiles(kind,key,data) {
+export function publicFiles(kind,key,data,{webOnly=data.publicationFormat==='web-only'}={}) {
   const prefix=kind==='weekly'?'weekly/'+key:key;
   const local=['zh/index.html','en/index.html','manifest.json','sources.md'];
   const global=kind==='weekly'?['weekly/index.html','weekly/manifest.json','data/weekly/'+key+'.json']:
     ['data/editions/'+key+'.json','index.html','en/index.html','manifest.json','assets/site.css','assets/issue-v2.css'];
   if(kind==='weekly')local.push('index.html','qa.json','assets/weekly.css','assets/weekly.js');
-  else local.push('pdf-export.json');
-  for(const lang of ['zh','en'])local.push((kind==='weekly'?'ai-weekly-':'ai-daily-')+key+'-'+lang+'.pdf');
+  else if(!webOnly)local.push('pdf-export.json');
+  if(!webOnly)for(const lang of ['zh','en'])local.push((kind==='weekly'?'ai-weekly-':'ai-daily-')+key+'-'+lang+'.pdf');
   local.push(...(kind==='weekly'?weeklyAssetPaths(data):dailyAssetPaths(data)));
   return [...new Set([...local.map(rel=>prefix+'/'+rel),...global])].sort();
 }

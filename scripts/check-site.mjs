@@ -104,17 +104,19 @@ try {
             );
           if (viewport.width === 1920) {
             counts.push(result.pages);
-            const pdfPages = await checkPdfPages(
-              path.join(root, date, `ai-daily-${date}-${locale}.pdf`),
-            );
-            let metadata;
-            try { metadata = JSON.parse(await read(`${date}/pdf-export.json`)); }
-            catch (error) { if (error.code !== "ENOENT") throw error; }
-            let sourceBytes;
-            try { sourceBytes = await fs.readFile(path.join(root, `data/editions/${date}.json`)); }
-            catch (error) { if (error.code !== "ENOENT") throw error; sourceBytes = Buffer.from(JSON.stringify(issue)); }
-            const editorialPagePlan = buildVisualSlides(issue, locale).map(({id,type,topicIds})=>({id,type,topicIds}));
-            validatePdfExportMetadata({ metadata, date, locale, sourceBytes, pdfPages, htmlPages: result.pages, editorialPagePlan });
+            if (issue.publicationFormat !== "web-only") {
+              const pdfPages = await checkPdfPages(
+                path.join(root, date, `ai-daily-${date}-${locale}.pdf`),
+              );
+              let metadata;
+              try { metadata = JSON.parse(await read(`${date}/pdf-export.json`)); }
+              catch (error) { if (error.code !== "ENOENT") throw error; }
+              let sourceBytes;
+              try { sourceBytes = await fs.readFile(path.join(root, `data/editions/${date}.json`)); }
+              catch (error) { if (error.code !== "ENOENT") throw error; sourceBytes = Buffer.from(JSON.stringify(issue)); }
+              const editorialPagePlan = buildVisualSlides(issue, locale).map(({id,type,topicIds})=>({id,type,topicIds}));
+              validatePdfExportMetadata({ metadata, date, locale, sourceBytes, pdfPages, htmlPages: result.pages, editorialPagePlan });
+            }
           }
           // Inspect every active page; hidden slides have zero geometry on screen.
           const next = page.locator("[data-next-slide]");
@@ -158,20 +160,22 @@ try {
             if (visible !== 1)
               throw new Error(`${file} navigation loses the active page`);
           }
-          await page.emulateMedia({ media: "print" });
-          const clippedPrint = await page.evaluate(() =>
-            [...document.querySelectorAll("[data-slide]")]
-              .filter(
-                (slide) =>
-                  slide.scrollWidth - slide.clientWidth > 4 ||
-                  slide.scrollHeight - slide.clientHeight > 4,
-              )
-              .map((slide) => slide.id),
-          );
-          if (clippedPrint.length)
-            throw new Error(
-              `${file} clips printed content: ${clippedPrint.join(", ")}`,
+          if (issue.publicationFormat !== "web-only") {
+            await page.emulateMedia({ media: "print" });
+            const clippedPrint = await page.evaluate(() =>
+              [...document.querySelectorAll("[data-slide]")]
+                .filter(
+                  (slide) =>
+                    slide.scrollWidth - slide.clientWidth > 4 ||
+                    slide.scrollHeight - slide.clientHeight > 4,
+                )
+                .map((slide) => slide.id),
             );
+            if (clippedPrint.length)
+              throw new Error(
+                `${file} clips printed content: ${clippedPrint.join(", ")}`,
+              );
+          }
         } finally {
           await page.close();
         }
@@ -180,7 +184,7 @@ try {
     if (counts[0] !== counts[1])
       throw new Error(`${date} bilingual page count mismatch`);
     console.log(
-      `Checked ${date}: ${counts[0]} pages per locale, dated events, source ledger, images, PDFs and responsive layouts`,
+      `Checked ${date}: ${counts[0]} pages per locale, dated events, source ledger, images, ${issue.publicationFormat === "web-only" ? "web-only" : "PDFs"} and responsive layouts`,
     );
   }
 } finally {

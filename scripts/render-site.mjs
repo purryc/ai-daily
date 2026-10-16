@@ -1087,7 +1087,7 @@ function deckIssuePage(issue, locale) {
           <a class="${isZh ? "active" : ""}" href="${siteBase}/${issue.date}/zh/">中文</a>
           <a class="${isZh ? "" : "active"}" href="${siteBase}/${issue.date}/en/">English</a>
           <a href="${siteBase}/${issue.date}/sources.md">${isZh ? "来源总表" : "Source ledger"}</a>
-          <a class="primary" href="../${pdfName}" download>${isZh ? "下载 PDF" : "Download PDF"}</a>
+          ${issue.publicationFormat === "web-only" ? "" : `<a class="primary" href="../${pdfName}" download>${isZh ? "下载 PDF" : "Download PDF"}</a>`}
         </div>
       </nav>
 
@@ -1136,6 +1136,7 @@ function issueManifest(issue) {
       date: issue.date,
       timezone: issue.timezone,
       editorialVersion: issue.editorialVersion,
+      publicationFormat: issue.publicationFormat,
       cutoff: issue.cutoff,
       lookbackDays: issue.lookbackDays,
       laneScans: issue.laneScans,

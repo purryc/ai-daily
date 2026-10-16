@@ -16,11 +16,10 @@ import {hostname} from 'node:os';
 async function dailyDraft(root) {
   const ruleSource=await installRuleFixture(path.join(root,'private'));
   const output=path.join(root,'draft'),repo=path.join(root,'site'),key='2026-10-19';
-  const input={date:key,topics:[{visuals:[{path:'assets/photo.png'}]}]},bytes=JSON.stringify(input);
+  const input={date:key,publicationFormat:'web-only',topics:[{visuals:[{path:'assets/photo.png'}]}]},bytes=JSON.stringify(input);
   await fs.mkdir(repo);
   await fs.writeFile(path.join(repo,'index.html'),'Existing navigation');
-  const names=[key+'/zh/index.html',key+'/en/index.html',key+'/manifest.json',key+'/sources.md',key+'/pdf-export.json',
-    key+'/ai-daily-'+key+'-zh.pdf',key+'/ai-daily-'+key+'-en.pdf',key+'/assets/photo.png',
+  const names=[key+'/zh/index.html',key+'/en/index.html',key+'/manifest.json',key+'/sources.md',key+'/assets/photo.png',
     'index.html','en/index.html','manifest.json','assets/site.css','assets/issue-v2.css','data/editions/'+key+'.json'];
   for(const rel of names){await fs.mkdir(path.dirname(path.join(output,rel)),{recursive:true});await fs.writeFile(path.join(output,rel),rel.startsWith('data/editions/')?bytes:rel===key+'/manifest.json'?JSON.stringify({date:key}):'TEST PUBLIC FILE '+rel);}
   await fs.writeFile(path.join(output,key,'assets/raw-notes.txt'),'PRIVATE UNREFERENCED NOTES');

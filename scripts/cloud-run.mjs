@@ -38,6 +38,7 @@ const child=(file,env)=>new Promise((resolve,reject)=>{
   p.on('error',reject);p.on('exit',code=>code===0?resolve():reject(new Error(file+' failed with exit '+code)));
 });
 export async function stageDaily({input,output,assetsDir,privateDir}) {
+  input={...input,publicationFormat:"web-only"};
   validateDenseDaily(input);
   if(input.cloudEditorialContract!=='dense-v1')throw new Error('Cloud daily input must explicitly select dense-v1');
   const cutoff=timestamp(input.cutoff,'daily cutoff');
@@ -81,7 +82,7 @@ export async function stageDaily({input,output,assetsDir,privateDir}) {
   validateDenseDaily(result.issue);
   await retainPublicAssets(path.join(output,input.date),dailyAssetPaths(result.issue));
   const env={AI_DAILY_ROOT:output,AI_DAILY_DATES:input.date,AI_DAILY_CHROMIUM_PATH:process.env.AI_DAILY_CHROMIUM_PATH??'/usr/bin/chromium'};
-  await child('render-site.mjs',env);await child('export-pdfs.mjs',env);await child('check-site.mjs',env);
+  await child('render-site.mjs',env);await child('check-site.mjs',env);
   const slidev=await buildSlidevSource({issue:result.issue,output,assetsDir:path.join(output,input.date,'assets'),sources:await fs.readFile(path.join(output,input.date,'sources.md'),'utf8')});
   return {target:path.join(output,input.date),slidev,counts:validateDenseDaily(result.issue),excluded:result.excluded};
 }
@@ -107,6 +108,7 @@ export async function main(args=process.argv.slice(2)) {
     try {
       const prior=JSON.parse(await fs.readFile(receipt,'utf8'));
       if(prior.status==='validated-draft') {
+        if(prior.publicationFormat!=='web-only')throw new Error('Draft publication format changed; rebuild and review for web-only');
         if(prior.ruleSource?.snapshotSha256!==rules.ruleSnapshotSha256)throw new Error('Draft rules changed; rebuild and review against the current Notion source');
         await assertRepositoryBaseline(prior.repositoryBaseline,REPO);
         if(prior.inputSha256!==sha(bytes))throw new Error('Existing reviewed draft has different input; resolve it explicitly before replacing');
@@ -124,9 +126,9 @@ export async function main(args=process.argv.slice(2)) {
     const options={input,output:destination,privateDir:root,assetsDir:args.includes('--assets')?arg('--assets'):undefined};
     const baseline=await repositoryBaseline(REPO);
     const result=kind==='daily'?await stageDaily(options):await buildWeekly(options);
-    if(kind==='weekly')result.qa=await checkWeekly({root:destination,weekStart:key,pdf:true});
+    if(kind==='weekly')result.qa=await checkWeekly({root:destination,weekStart:key,pdf:false});
     await assertRepositoryBaseline(baseline,REPO);
-    await atomic(receipt,{kind,key,status:'validated-draft',ruleSource:rules.source,repositoryBaseline:baseline,inputSha256:sha(bytes),artifactSha256:await digestTree(result.target),releaseSha256:await digestRelease(kind,key,destination),output:destination,completedAt:new Date().toISOString(),result,publication:'not pushed or deployed'});
+    await atomic(receipt,{kind,key,status:'validated-draft',publicationFormat:'web-only',ruleSource:rules.source,repositoryBaseline:baseline,inputSha256:sha(bytes),artifactSha256:await digestTree(result.target),releaseSha256:await digestRelease(kind,key,destination),output:destination,completedAt:new Date().toISOString(),result,publication:'not pushed or deployed'});
     console.log(JSON.stringify({kind,key,status:'validated-draft',receipt,...result}));
   }catch(error) {
     let prior;

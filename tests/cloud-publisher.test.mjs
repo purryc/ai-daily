@@ -92,7 +92,7 @@ test('failed weekly records its own outcome and releases its lock without touchi
   await assert.rejects(fs.access(path.join(root,'runs/weekly-2026-10-12.lock')),/ENOENT/);
  }finally{if(prior===undefined)delete process.env.AI_DAILY_PRIVATE_ROOT;else process.env.AI_DAILY_PRIVATE_ROOT=prior;await fs.rm(root,{recursive:true,force:true});}
 });
-test('independent weekly dry build preserves published archive and passes real bilingual PDF/layout/navigation checks',async()=>{
+test('independent weekly dry build preserves published archive and passes real bilingual web-only layout/navigation checks',async()=>{
  const root=await fs.mkdtemp(path.join(os.tmpdir(),'ai-cloud-weekly-browser-'));
  const historical=await fs.readFile(path.join(REPO,'weekly/2026-10-12/pilot/manifest.json'));
  const daily=await fs.readFile(path.join(REPO,'2026-10-14/zh/index.html'));
@@ -101,8 +101,11 @@ test('independent weekly dry build preserves published archive and passes real b
   const result=await buildWeekly({input:weekly,privateDir:root,output});assert.equal(result.counts.events,1);
   const index=JSON.parse(await fs.readFile(path.join(output,'weekly/manifest.json'),'utf8'));
   assert.equal(index.filter(e=>e.type==='weekly').length,1);assert.equal(index.filter(e=>e.type==='weekly-pilot').length,1);
-  const qa=await checkWeekly({root:output,weekStart:weekly.weekStart,pdf:true});assert.equal(qa.counts.zh,qa.counts.en);assert.equal(qa.results.length,6);
-  for(const lang of ['zh','en'])assert.match(await fs.readFile(path.join(result.target,lang,'index.html'),'utf8'),new RegExp('href="../ai-weekly-'+weekly.weekStart+'-'+lang+'\\.pdf"'));
+  const qa=await checkWeekly({root:output,weekStart:weekly.weekStart,pdf:false});assert.equal(qa.counts.zh,qa.counts.en);assert.equal(qa.results.length,6);
+  for(const lang of ['zh','en'])assert.doesNotMatch(await fs.readFile(path.join(result.target,lang,'index.html'),'utf8'), /href="[^"]+\.pdf"/);
+  assert.equal(qa.pdf,'not requested');
+  await assert.rejects(checkWeekly({root:output,weekStart:weekly.weekStart,pdf:true}),/Web-only weekly cannot export PDFs/);
+  assert.ok(!(await fs.readdir(result.target)).some(name=>name.endsWith('.pdf')));
   const inputFile=path.join(root,'reviewed.json'),bytes=JSON.stringify(weekly);await fs.writeFile(inputFile,bytes);
   const receipt={kind:'weekly',key:weekly.weekStart,status:'validated-draft',result,output,inputSha256:sha(bytes),artifactSha256:await digestTree(result.target),releaseSha256:await digestRelease('weekly',weekly.weekStart,output),repositoryBaseline:await repositoryBaseline(path.join(root,'public-site'))};
   const release=await releasePlan(receipt,inputFile,path.join(root,'public-site'));
@@ -114,4 +117,31 @@ test('independent weekly dry build preserves published archive and passes real b
   assert.deepEqual(await fs.readFile(path.join(REPO,'weekly/2026-10-12/pilot/manifest.json')),historical);
   assert.deepEqual(await fs.readFile(path.join(REPO,'2026-10-14/zh/index.html')),daily);
  }finally{await fs.rm(root,{recursive:true,force:true});}
+});
+
+test('synthetic web-only cloud receipt validates and reuses an intact isolated draft without PDFs',async()=>{
+ const root=await fs.mkdtemp(path.join(os.tmpdir(),'TEST-FIXTURE-cloud-receipt-')),prior=process.env.AI_DAILY_PRIVATE_ROOT;
+ try{
+  process.env.AI_DAILY_PRIVATE_ROOT=root;
+  const rules=await installRuleFixture(root);await ingest(root,batch);
+  const inputFile=path.join(root,'TEST-FIXTURE-input.json'),output=path.join(root,'dry-output');
+  await fs.writeFile(inputFile,JSON.stringify({...weekly,ruleSnapshotSha256:rules.snapshotSha256}));
+  const args=['build','--kind','weekly','--input',inputFile,'--output',output];
+  await main(args);
+  const receiptFile=path.join(root,'runs/weekly-2026-10-12.json'),bytes=await fs.readFile(receiptFile);
+  const receipt=JSON.parse(bytes);assert.equal(receipt.status,'validated-draft');assert.equal(receipt.publicationFormat,'web-only');
+  assert.equal(receipt.result.qa.pdf,'not requested');
+  await main(args);assert.deepEqual(await fs.readFile(receiptFile),bytes);
+  await fs.writeFile(receiptFile,JSON.stringify({...receipt,publicationFormat:'html-pdf'}));
+  await assert.rejects(main(args),/publication format changed/);
+  assert.equal(JSON.parse(await fs.readFile(receiptFile,'utf8')).status,'validated-draft');
+  await fs.writeFile(receiptFile,bytes);
+  assert.ok(!(await releasePlan(receipt,inputFile,REPO)).files.some(f=>f.endsWith('.pdf')));
+  assert.ok(!(await fs.readdir(receipt.result.target)).some(f=>f.endsWith('.pdf')));
+  if(process.env.AI_DAILY_TEST_EVIDENCE_DIR){
+   const saved=path.join(process.env.AI_DAILY_TEST_EVIDENCE_DIR,'SYNTHETIC-NOT-RESTORED');
+   await fs.cp(root,saved,{recursive:true});
+   await fs.writeFile(path.join(saved,'README.txt'),'SYNTHETIC TEST FIXTURES ONLY. These rules, ledger and receipt were created in this test. They are not recovered private state. Original temporary paths are deleted after the test. No publication or durable cross-instance restoration was tested.\n');
+  }
+ }finally{if(prior===undefined)delete process.env.AI_DAILY_PRIVATE_ROOT;else process.env.AI_DAILY_PRIVATE_ROOT=prior;await fs.rm(root,{recursive:true,force:true});}
 });

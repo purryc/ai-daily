@@ -125,7 +125,8 @@ function makeSlides(input, lang) {
   if(slides.length>50)throw new Error('Weekly exceeds 50 pages; edit explicit pages');
   return slides.map((s,i)=>'<section class="slide'+(i===0?' active':'')+'" id="'+esc(s.id)+'"><p class="eyebrow">'+esc(s.kicker)+'</p><h2>'+esc(s.title)+'</h2><div class="content">'+s.body+'</div><footer class="footer"><div class="source-links">'+(Array.isArray(s.sourceIds)?s.sourceIds:[]).map(id=>'<a href="#references" title="'+esc(sources.get(id).label)+'">['+(input.sources.findIndex(r=>r.id===id)+1)+']</a>').join(' · ')+'</div><span class="page-number">'+(i+1)+' / '+slides.length+'</span></footer></section>').join('');
 }
-export async function buildWeekly({input,privateDir,output,assetsDir}) {
+export async function buildWeekly({input,privateDir,output,assetsDir,webOnly=true}) {
+  input={...input,publicationFormat:webOnly?"web-only":"html-pdf"};
   const counts=await validateWeekly(input,privateDir);
   output=realDestination(output);
   if(output===REPO||output.startsWith(REPO+path.sep))throw new Error('Weekly dry output must be outside public checkout');
@@ -140,12 +141,12 @@ export async function buildWeekly({input,privateDir,output,assetsDir}) {
   await copyPublicAssets({assetsDir,target,paths:weeklyAssetPaths(input)});
   for(const lang of ['zh','en']) {
     const title=input.title[lang],other=lang==='zh'?'en':'zh';
-    const html='<!doctype html><html lang="'+(lang==='zh'?'zh-CN':'en')+'"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+esc(title)+'</title><link rel="stylesheet" href="../assets/weekly.css"></head><body><main class="shell"><nav class="topbar"><a class="brand" href="/ai-daily/weekly/">AI PRODUCT WEEKLY</a><span class="badge">'+esc(input.weekStart)+'</span><div class="links"><a href="#contents">Contents</a><a href="../'+other+'/">'+(lang==='zh'?'English':'中文')+'</a><a href="../ai-weekly-'+esc(input.weekStart)+'-'+lang+'.pdf" download>PDF</a><a href="../sources.md">Sources</a><a href="/ai-daily/">Daily</a></div></nav><div class="deck">'+makeSlides(input,lang)+'</div><div class="controls"><button data-prev>Previous</button><output data-counter></output><div class="progress"><i></i></div><button data-next>Next</button></div></main><script src="../assets/weekly.js"></script></body></html>';
+    const html='<!doctype html><html lang="'+(lang==='zh'?'zh-CN':'en')+'"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+esc(title)+'</title><link rel="stylesheet" href="../assets/weekly.css"></head><body><main class="shell"><nav class="topbar"><a class="brand" href="/ai-daily/weekly/">AI PRODUCT WEEKLY</a><span class="badge">'+esc(input.weekStart)+'</span><div class="links"><a href="#contents">Contents</a><a href="../'+other+'/">'+(lang==='zh'?'English':'中文')+'</a>'+(webOnly?'':'<a href="../ai-weekly-'+esc(input.weekStart)+'-'+lang+'.pdf" download>PDF</a>')+'<a href="../sources.md">Sources</a><a href="/ai-daily/">Daily</a></div></nav><div class="deck">'+makeSlides(input,lang)+'</div><div class="controls"><button data-prev>Previous</button><output data-counter></output><div class="progress"><i></i></div><button data-next>Next</button></div></main><script src="../assets/weekly.js"></script></body></html>';
     await fs.mkdir(path.join(target,lang));await fs.writeFile(path.join(target,lang,'index.html'),html);
   }
   await fs.writeFile(path.join(target,'index.html'),'<!doctype html><meta charset="utf-8"><a href="zh/">中文</a> · <a href="en/">English</a>');
   await fs.writeFile(path.join(target,'sources.md'),'# Reviewed weekly sources\n\n'+input.sources.map(s=>'- '+s.id+' ['+s.label+']('+s.url+') · '+s.signalId+(temporalNote(s,'zh')?' · '+temporalNote(s,'zh')+' / '+temporalNote(s,'en'):'')).join('\n')+'\n');
-  await fs.writeFile(path.join(target,'manifest.json'),JSON.stringify({issue_type:'weekly',week_start:input.weekStart,window_start:input.windowStart,window_end:input.windowEnd,timezone:input.timezone,cutoff:input.cutoff,partial_week:false,baseline_status:input.baselineStatus,counts,sourceDataSha256:sha(JSON.stringify(input)),zh_path:'zh/',en_path:'en/',sources_path:'sources.md'},null,2)+'\n');
+  await fs.writeFile(path.join(target,'manifest.json'),JSON.stringify({publicationFormat:input.publicationFormat,issue_type:'weekly',week_start:input.weekStart,window_start:input.windowStart,window_end:input.windowEnd,timezone:input.timezone,cutoff:input.cutoff,partial_week:false,baseline_status:input.baselineStatus,counts,sourceDataSha256:sha(JSON.stringify(input)),zh_path:'zh/',en_path:'en/',sources_path:'sources.md'},null,2)+'\n');
   await writeWeeklyIndex({repo:REPO,output,input});
   await fs.mkdir(path.join(output,'data/weekly'),{recursive:true});
   await fs.writeFile(path.join(output,'data/weekly',input.weekStart+'.json'),JSON.stringify(input,null,2)+'\n');

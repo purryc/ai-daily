@@ -1,5 +1,22 @@
 # Cloud daily and independent weekly publisher
 
+## Web-only migration override (2026-10-16)
+
+New cloud daily and weekly drafts use publicationFormat: web-only. cloud:build
+exports no PDF, emits no new PDF download links, and hashes a web-only public
+allowlist. Existing published PDFs and legacy exporters/tests remain intact.
+An existing HTML/PDF receipt is not reused as a web-only receipt: rebuild and review.
+The retained `--pdf` weekly checker refuses web-only manifests.
+
+`npm test`, `test:all` and `test:web` run the web suite, including real Chromium
+daily and weekly checks. `test:pdf:legacy` explicitly selects the 16 retained PDF
+generation tests; do not run it during this migration. `build:all` now builds HTML;
+`build:pdf:legacy` preserves the old build/export command for historical maintenance.
+No private rules, raw ledger or run receipts are supplied by the Git restoration.
+Use labeled isolated fixtures only for engineering checks; formal builds, private
+durability, cross-instance deduplication, scheduling and deployment remain separate.
+
+
 The cloud checkout is /workspace/ai-daily. Read AGENTS.md and the private current rules
 before each research run. Research is performed by the executing agent using connected
 search/read tools; this package validates and publishes reviewed inputs. It does not
@@ -39,7 +56,7 @@ materialized: the unchanged supported helper is blocked by managed proxy CONNECT
 to sdmntprnortheu.oaiusercontent.com:443. Do not recreate that bundle, relay its signed
 download, reuse another environment's paths, migrate keys or change network security.
 
-Node >=22.12, npm, Chromium, Poppler/pdfinfo, bilingual fonts and network access to
+Node >=22.12, npm, Chromium, bilingual fonts and network access to
 the official npm registry are needed. Main dependency installation:
 
     npm ci --cache /tmp/ai-daily-npm-cache
@@ -49,7 +66,7 @@ The independent daily Slidev source has its own exact direct dependency versions
 package-lock.json, bilingual Markdown, sources, reviewed public/assets, dist and
 dist-en. Its lock is generated in the private dry run and retained there for exact
 rebuilds; node_modules never enters the public release set. The final public
-magazine is still the existing HTML/PDF publisher.
+magazine uses the existing HTML publisher. Poppler/pdfinfo is only needed for legacy PDF maintenance.
 
 ## Scheduling ownership and first complete week
 
@@ -173,10 +190,10 @@ use establishing, dated qualitative baselines and explicit unknowns.
       --output /workspace/ai-daily-private/dry/weekly-YYYY-MM-DD
 
 The weekly command independently emits weekly/<Monday>/zh,en,assets,sources,manifest,
-PDFs and qa.json plus its own weekly index. It never changes daily current or the
+qa.json plus its own weekly index (no new PDFs). It never changes daily current or the
 daily body. Typical highlight/trend counts are editorial aims; weak evidence reduces
 counts. Explicit pages are retained bilingually, and all desktop/mobile pages and
-real PDF page counts are checked. Long pages fail rather than auto-shrink.
+web page counts are checked. Long pages fail rather than auto-shrink.
 Each validated draft has input, artifact and release-set hashes in its private
 receipt. Repeated identical validated builds reuse the intact draft; changed
 artifacts/inputs fail visibly. Resolve failed/revised drafts and stale locks explicitly.
@@ -221,13 +238,12 @@ This command prepares a git diff; it does not commit, push, merge or schedule.
 Review the explicit diff, preserve history/unrelated work, commit on an independent
 branch, and use the authorized GitHub connection with exact-head/lease protection.
 Check the exact Pages deployment and live bilingual desktop/mobile navigation,
-images, overflow and PDF links. Build/commit/deployment/live states are separate.
+images and overflow; preserve existing historical PDF links. Build/commit/deployment/live states are separate.
 The software PR stays draft until the coordinating owner merges it.
 
 Only explicitly referenced image files are copied from the approved assets directory;
 unreferenced siblings and source symlinks are never imported. Release copies individual
-regular files from an exact allowlist, including reviewed assets and bilingual PDF
-links. Private/output roots resolve symlink ancestors before the public-checkout check.
+regular files from an exact allowlist, including reviewed assets; web-only releases exclude PDFs and PDF sidecars. Private/output roots resolve symlink ancestors before the public-checkout check.
 
 Publication preparation is serialized by a private release lock. Private backup/journal
 state and per-file atomic replacement permit exception rollback and recovery after a
@@ -245,12 +261,12 @@ reclaimed: confirm no publisher/acquirer is active before operator recovery.
 
 For direct checks of a reviewed weekly draft:
 
-    npm run weekly:check -- --root DRY_DIRECTORY --week YYYY-MM-DD --pdf
+    npm run weekly:check -- --root DRY_DIRECTORY --week YYYY-MM-DD
 
 For read-only checking of the existing pilot (writes no archive file):
 
     npm run weekly:check -- --root /workspace/ai-daily --week 2026-10-12 --pilot
 
-If runtime HTTPS is blocked, report the exact browser/network error and use another
-authorized read-only connector for HTTP availability. HTTP 200 is not visual QA.
+If runtime HTTPS is blocked, report the exact browser/network error and stop that
+step. Never switch connectors, proxies or instances to bypass a denial. HTTP 200 is not visual QA.
 Never claim that a local result is the deployed screenshot.

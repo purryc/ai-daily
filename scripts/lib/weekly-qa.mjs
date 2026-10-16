@@ -7,6 +7,8 @@ import {atomic,sha,REPO} from './cloud-state.mjs';
 
 export async function checkWeekly({root,weekStart,pdf=false,pilot=false,liveBase}) {
   const folder='weekly/'+weekStart+(pilot?'/pilot':'');
+  const manifest=JSON.parse(await fs.readFile(path.join(root,folder,'manifest.json'),'utf8'));
+  if(pdf&&manifest.publicationFormat==='web-only')throw new Error('Web-only weekly cannot export PDFs');
   const {server,origin}=await createStaticServer(root);
   const browser=await chromium.launch({executablePath:process.env.AI_DAILY_CHROMIUM_PATH??'/usr/bin/chromium'});
   const results=[],counts={};
