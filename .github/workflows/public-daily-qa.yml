@@ -29,6 +29,10 @@ jobs:
           test -x "$AI_DAILY_CHROMIUM_PATH"
           npm ci --ignore-scripts --no-audit --no-fund
           npm run check:static
+      - name: Install CJK fonts from the configured Ubuntu repositories
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends fonts-noto-cjk
       - name: Verify sandbox, capture official docs and check both editions
         run: node qa/check.mjs --output "$RUNNER_TEMP/daily-public-qa"
       - name: Export bounded public screenshots and tested candidate to logs

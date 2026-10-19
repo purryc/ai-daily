@@ -41,7 +41,7 @@ export async function staticCheck(base=path.join(root,'public')) {
  const ids=[];
  for(const locale of ['zh','en']) {
   const h=await fs.readFile(path.join(base,issue,locale,'index.html'),'utf8');
-  const slides=[...h.matchAll(/<section\b[^>]*\bid="([^"]+)"[^>]*\bdata-slide\b/g)].map(x=>x[1]);
+   const slides=[...h.matchAll(/<section\b[^>]*\bid="([^"]+)"[^>]*\bdata-slide\b/g)].map(x=>x[1]);
   assert(slides.length===28&&new Set(slides).size===28,'SLIDE_COUNT');ids.push(slides);
   assert((h.match(/class="dossier-source-row"/g)||[]).length>=24,'DOSSIERS_MISSING');
   const references=new Set([...h.matchAll(/\[S(\d{2})\]/g)].map(x=>x[1]));
@@ -86,9 +86,10 @@ async function captureSection(page,id,destination) {
   return {x:Math.max(0,Math.floor(Math.min(a.left,b.left)-8)),y:Math.max(0,Math.floor(a.top-8)),width:Math.ceil(Math.max(a.right,b.right)-Math.min(a.left,b.left)+16),height:Math.ceil(b.bottom-a.top+16)};
  });
  assert(rect&&rect.height>80&&rect.height<2000&&rect.width>300,'DOC_SECTION_BOUNDS');
- assert(rect.y+rect.height<=1200,'DOC_SECTION_EXCEEDS_VIEWPORT');
+ assert(rect.y+rect.height<=1400,'DOC_SECTION_EXCEEDS_VIEWPORT');
  await page.screenshot({path:destination,clip:rect});
  const b=await fs.readFile(destination);
+ assert(b.readUInt32BE(16)===rect.width&&b.readUInt32BE(20)===rect.height,'DOC_CAPTURE_CLIPPED');
  return {anchor:'#'+id,width:b.readUInt32BE(16),height:b.readUInt32BE(20),bytes:b.length,sha256:digest(b)};
 }
 async function browserCheck(output) {
@@ -112,7 +113,7 @@ async function browserCheck(output) {
   const sandbox={seccomp:/Seccomp-BPF sandbox\s+Yes/i.test(status),namespaceOrSuid:/(?:SUID sandbox|PID namespaces)\s+Yes/i.test(status),disabledFlags:false};
   assert(sandbox.seccomp&&sandbox.namespaceOrSuid,'SANDBOX_NOT_VERIFIED');report.sandbox=sandbox;await sandboxPage.close();
   phase='official-document';
-  const docs=await browser.newContext({viewport:{width:1600,height:1200},serviceWorkers:'block'});
+  const docs=await browser.newContext({viewport:{width:2400,height:1400},serviceWorkers:'block'});
   const stopped=new Set();let blocked=0,refused=false;
   await docs.route('**/*',async route=>{
    const request=route.request(),u=new URL(request.url());
@@ -152,6 +153,12 @@ async function browserCheck(output) {
    for(const viewport of [{width:1600,height:900},{width:1920,height:1080}]) {
     await page.setViewportSize(viewport);await page.goto(`${local.url}/${issue}/${locale}/`,{waitUntil:'networkidle'});
     await page.evaluate(()=>document.fonts.ready);
+    if(locale==='zh'&&viewport.width===1600) {
+     const fontSession=await ctx.newCDPSession(page);await fontSession.send('DOM.enable');await fontSession.send('CSS.enable');
+     const {root:dom}=await fontSession.send('DOM.getDocument');const {nodeId}=await fontSession.send('DOM.querySelector',{nodeId:dom.nodeId,selector:'h1'});
+     const {fonts}=await fontSession.send('CSS.getPlatformFontsForNode',{nodeId});
+     check('chinese-glyph-font',fonts.some(f=>/Noto.*CJK/i.test(f.familyName)&&f.glyphCount>0));await fontSession.detach();
+    }
     check(`${locale}-${viewport.width}-slide-count`,await page.locator('[data-slide]').count()===28);
     check(`${locale}-${viewport.width}-previous-boundary`,await page.locator('[data-prev-slide]').isDisabled());
     for(let index=0;index<28;index++) {
