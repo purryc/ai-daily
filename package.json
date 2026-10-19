@@ -1,0 +1,13 @@
+{
+  "name": "ai-daily-public-qa",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check:static": "node qa/check.mjs --static-only",
+    "check:browser": "node qa/check.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.61.0"
+  }
+}

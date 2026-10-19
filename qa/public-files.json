@@ -1,0 +1,82 @@
+[
+  {
+    "path": "2026-10-19/assets/deepseek.webp",
+    "bytes": 14456,
+    "sha256": "6315d5f8f33e93eb02719f32c2b6609b9b484763c5c30f281763b25c16a7b2b4"
+  },
+  {
+    "path": "2026-10-19/assets/harmony.webp",
+    "bytes": 128378,
+    "sha256": "30614a5accf321fd3288b93f1aaf49d5b03419db3d983bb42a5deee46e0a6a63"
+  },
+  {
+    "path": "2026-10-19/assets/junie.webp",
+    "bytes": 100558,
+    "sha256": "0bec6f161026cceaa57bfaf5572e844cb3bc6b5f7f1a2d88fafe3bbe1f777259"
+  },
+  {
+    "path": "2026-10-19/assets/morningai-credits.webp",
+    "bytes": 18768,
+    "sha256": "0a09f2d3e388b25d3a5ec45f092d9e18d0af9cb46694f834926c549876654367"
+  },
+  {
+    "path": "2026-10-19/assets/morningai-workflow.webp",
+    "bytes": 29220,
+    "sha256": "c264ff1978c993fc23c8230dbfc540b9d17873156c3ca47104d33b2ece52d122"
+  },
+  {
+    "path": "2026-10-19/assets/rtx-spark-asus-official.jpg",
+    "bytes": 46674,
+    "sha256": "9147d31c75011e58bf1f46d70eb8a5813677603186a81a5f2dfbaf0f02b4b49a"
+  },
+  {
+    "path": "2026-10-19/assets/voxel51.webp",
+    "bytes": 58398,
+    "sha256": "2167f0b834dd0ba06457f3fb88a47ed07f59a8ebc47f970fd4d8a80f28056144"
+  },
+  {
+    "path": "2026-10-19/en/index.html",
+    "bytes": 116826,
+    "sha256": "84f95339dfc83b2779f6dcc9f4ae8ba151a0a9282c437ce815ca241492b26a30"
+  },
+  {
+    "path": "2026-10-19/manifest.json",
+    "bytes": 1110,
+    "sha256": "5ca7a533e9ce517b8ef139f623ffc3d9cdf3fd222b84eafb50e9af48dce752b2"
+  },
+  {
+    "path": "2026-10-19/sources.html",
+    "bytes": 14447,
+    "sha256": "55d7a45feb894172a406acb894038f07262a5a5d213591732b9a5b1a31d16d45"
+  },
+  {
+    "path": "2026-10-19/zh/index.html",
+    "bytes": 106879,
+    "sha256": "dd762ecb644a2ee2616d0d98d3c2f3532d762d7187444d6dc2f912137b7f4ffc"
+  },
+  {
+    "path": "assets/issue-v2.css",
+    "bytes": 25281,
+    "sha256": "dabe1339ff5acfc3bbfa94cd587f28f6b2a53cf9cee25989698ab9a675aa95f2"
+  },
+  {
+    "path": "assets/site.css",
+    "bytes": 32027,
+    "sha256": "2fb567cbfd0fcbd4d0e12391142dc61baddd77c2087b91ae1036d0b3d905930c"
+  },
+  {
+    "path": "en/index.html",
+    "bytes": 150145,
+    "sha256": "6280f57e0f009c7c9598f4d17bab60be5ee925d45b48df6e7835615e41d66ad8"
+  },
+  {
+    "path": "index.html",
+    "bytes": 144555,
+    "sha256": "f57950f4a427a68678ef45d905eeb36236db52eae91a65ef57cb288cfb8bdedb"
+  },
+  {
+    "path": "manifest.json",
+    "bytes": 725503,
+    "sha256": "4091ef63a4741a0636210ade9b9843e16981f1957774830cfe3fc2a17945adc5"
+  }
+]

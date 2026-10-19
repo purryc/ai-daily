@@ -1,0 +1,36 @@
+name: Public daily browser acceptance
+on:
+  push:
+    branches: [cloud/actions-daily-2026-10-19-public-qa]
+permissions:
+  contents: read
+jobs:
+  acceptance:
+    if: >-
+      github.repository == 'purryc/ai-daily' &&
+      github.event.repository.private == false &&
+      github.event.repository.visibility == 'public' &&
+      contains(github.event.head_commit.message, '[run-ai-daily-public-qa]')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    env:
+      AI_DAILY_CHROMIUM_PATH: /usr/bin/google-chrome
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+          fetch-depth: 1
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: 24.19.0
+          package-manager-cache: false
+      - name: Install pinned dependencies without lifecycle scripts
+        run: |
+          test -x "$AI_DAILY_CHROMIUM_PATH"
+          npm ci --ignore-scripts --no-audit --no-fund
+          npm run check:static
+      - name: Verify sandbox, capture official docs and check both editions
+        run: node qa/check.mjs --output "$RUNNER_TEMP/daily-public-qa"
+      - name: Export bounded public screenshots and tested candidate to logs
+        if: ${{ !cancelled() }}
+        run: node qa/bundle.mjs emit "$RUNNER_TEMP/daily-public-qa"

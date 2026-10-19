@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-19",
+  "timezone": "America/Toronto",
+  "cutoff": "2026-10-19T18:06:25Z",
+  "publicationFormat": "web-only",
+  "sourcesPath": "sources.html",
+  "topics": [
+    {
+      "id": "harmony-2026-10-19",
+      "zhHeadline": "Harmony.ai｜下午补刊待审稿",
+      "enHeadline": "Harmony.ai"
+    },
+    {
+      "id": "morningai-2026-10-19",
+      "zhHeadline": "MorningAI｜下午补刊待审稿",
+      "enHeadline": "MorningAI"
+    },
+    {
+      "id": "deepseek-2026-10-19",
+      "zhHeadline": "DeepSeek Search & Fetch｜下午补刊待审稿",
+      "enHeadline": "DeepSeek Search & Fetch"
+    },
+    {
+      "id": "junie-2026-10-19",
+      "zhHeadline": "Junie Local｜下午补刊待审稿",
+      "enHeadline": "Junie Local"
+    },
+    {
+      "id": "rtx-spark-2026-10-19",
+      "zhHeadline": "NVIDIA RTX Spark｜下午补刊待审稿",
+      "enHeadline": "NVIDIA RTX Spark"
+    },
+    {
+      "id": "voxel51-2026-10-19",
+      "zhHeadline": "Voxel51 3.0｜下午补刊待审稿",
+      "enHeadline": "Voxel51 3.0"
+    }
+  ],
+  "qaStatus": "pending-browser-and-document-screenshot"
+}
