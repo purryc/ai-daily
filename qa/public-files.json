@@ -11,8 +11,8 @@
   },
   {
     "path": "2026-10-19/assets/issue-v2.css",
-    "bytes": 26061,
-    "sha256": "955320ad10b2070a10bfdf95f6a5c5cc0f6ddddc6478fb87be1f42ccdb9230ec"
+    "bytes": 26228,
+    "sha256": "ecc3ffca4f7b70e593e9489c30bfc08c78b8e70daa4e9122f2576cd575937b4a"
   },
   {
     "path": "2026-10-19/assets/junie.webp",
@@ -41,8 +41,8 @@
   },
   {
     "path": "2026-10-19/en/index.html",
-    "bytes": 121387,
-    "sha256": "e26aabf3a9ef5089864b45278e1ea459e3ba30c899fc580971544ec1e28877ef"
+    "bytes": 122102,
+    "sha256": "3b597a0e1c10bbf1085642652dd9589e40ac0eb9abe79e560842f0f9e905180a"
   },
   {
     "path": "2026-10-19/manifest.json",
@@ -56,8 +56,8 @@
   },
   {
     "path": "2026-10-19/zh/index.html",
-    "bytes": 110318,
-    "sha256": "7d0e55fa1bcba785fcd28ad7e36966d93e361349a4972642e787d194b3c7135e"
+    "bytes": 110402,
+    "sha256": "2d4a8b0aad3b27ceaa809aa600d7420dd4666feea75c31e10f8df00809605578"
   },
   {
     "path": "assets/issue-v2.css",
@@ -71,17 +71,17 @@
   },
   {
     "path": "en/index.html",
-    "bytes": 150145,
-    "sha256": "6280f57e0f009c7c9598f4d17bab60be5ee925d45b48df6e7835615e41d66ad8"
+    "bytes": 150281,
+    "sha256": "541ae2a6895e052e5ffb17ab9f79e79d450f99978814801ff82d42e1c81c6dde"
   },
   {
     "path": "index.html",
-    "bytes": 144507,
-    "sha256": "b55f3e7102b5fcd953f85991d8eb270a4425ef4ff0854262c750108690936039"
+    "bytes": 144630,
+    "sha256": "b0eb8bd6fccde64b19200b38c09f9e977db0f19c183350feb456887b303f70b2"
   },
   {
     "path": "manifest.json",
-    "bytes": 725479,
-    "sha256": "30b53bde72aed4cace2d3d8fba6cf3bad40f7d7b5e90015b5bdde10364c63019"
+    "bytes": 725738,
+    "sha256": "01205d8d9caa089cae20634ca6aa024c91f97d8e578e051c0185ac3eab0e4752"
   }
 ]
