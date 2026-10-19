@@ -180,7 +180,12 @@ async function browserCheck(output) {
   check('javascript-errors',pageErrors===0,{count:pageErrors});
   report.status=report.failures.length?'failed':'automated-checks-passed';
   report.scope='Two 28-slide editions at 1600x900 and 1920x1080; 56 slide screenshots and 4 actual official documentation captures. Historical archive targets excluded. Editorial and pixel review remain required.';
- }catch(e){report.status='failed';report.failures.push(phase+':'+(/^[A-Z_]+$/.test(e.message)?e.message:/timeout/i.test(e.message)?'TIMEOUT':'OPERATION_FAILED'));}
+ }catch(e){
+  report.status='failed';report.failures.push(phase+':'+(/^[A-Z_]+$/.test(e.message)?e.message:/timeout/i.test(e.message)?'TIMEOUT':'OPERATION_FAILED'));
+  report.failureKind=String(e.name).replace(/[^A-Za-z]/g,'').slice(0,40);
+  report.failureSummary=String(e.message).split('\n')[0].replace(/https?:\/\/\S+/g,'[URL]').replace(/\/(?:home|tmp|usr|opt|run)\/\S+/g,'[path]').slice(0,200);
+  report.sandboxFailureCodes=[...new Set(String(e.message).match(/No usable sandbox|Operation not permitted|Failed to move to new namespace|SUID sandbox helper binary was found|Target page, context or browser has been closed|ERR_[A-Z_]+/g)||[])];
+ }
  finally {
   if(browser)await browser.close();if(server)await new Promise(r=>server.close(r));
   report.files=[];
