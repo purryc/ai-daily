@@ -1,5 +1,40 @@
 [
   {
+    "date": "2026-10-19",
+    "zhTitle": "AI Daily｜2026年10月19日 · 从电话销售到本地 AI 工作流",
+    "enTitle": "AI Daily | October 19, 2026 · From phone sales to local AI workflows",
+    "zhSummary": "六项产品专题：Harmony.ai、MorningAI、DeepSeek、Junie Local、RTX Spark 与 Voxel51。区分官方功能、独立测评与编辑设计建议，并披露来源和时效限制。",
+    "enSummary": "Six product dossiers: Harmony.ai, MorningAI, DeepSeek, Junie Local, RTX Spark and Voxel51. Official capabilities, independent reviews and editorial design proposals are distinguished, with source and timing limitations disclosed.",
+    "tags": [],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community"
+    ],
+    "coverStory": {
+      "topicId": "harmony-2026-10-19",
+      "zhTitle": "Harmony.ai",
+      "enTitle": "Harmony.ai",
+      "zhSummary": [
+        "### 1. 用户、任务与买方\nHarmony.ai 面向中型及大型企业销售团队推出，解决电话线索的持续跟进。",
+        "### 1. 用户、任务与买方\nHarmony.ai 面向中型及大型企业销售团队推出，解决电话线索的持续跟进。实际操作者可能是销售运营，买方可能是销售负责人；这一角色区分是编辑推断，并非官方披露的客户结构。[S01]"
+      ],
+      "enSummary": [
+        "### 1. Who uses it, who buys it\nHarmony.ai launched for mid-market and enterprise sales teams. The job is following through on phone leads. ",
+        "### 1. Who uses it, who buys it\nHarmony.ai launched for mid-market and enterprise sales teams. The job is following through on phone leads. A likely operator is revenue operations; a likely buyer is sales leadership. That operator/buyer distinction is our inference, not a disclosed customer-role breakdown. [S01]"
+      ],
+      "imagePath": "assets/harmony.webp",
+      "imageSourceUrl": "https://harmony.ai/press",
+      "primarySourceUrl": "https://businesswire.com/news/home/20261019455948/en/Voice-AI-Platform-Harmony-Launches-to-Convert-Customer-Conversations-into-Revenue",
+      "evidenceStrength": "weak/unverified"
+    },
+    "watchlistZh": [],
+    "watchlistEn": [],
+    "zhPath": "./2026-10-19/zh/",
+    "enPath": "./2026-10-19/en/",
+    "sourcesPath": "./2026-10-19/sources.html"
+  },
+  {
     "date": "2026-10-15",
     "zhTitle": "AI Daily · 补发：看清 Agent 下一步要做什么",
     "enTitle": "AI Daily · Backfill: making the next agent action legible",
