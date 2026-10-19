@@ -98,7 +98,7 @@ async function browserCheck(output) {
   await staticCheck();
   const base=path.join(output,'candidate');await fs.cp(path.join(root,'public'),base,{recursive:true});
   const {chromium}=await import('playwright');
-  browser=await chromium.launch({executablePath:process.env.AI_DAILY_CHROMIUM_PATH||'/usr/bin/google-chrome',chromiumSandbox:true,headless:true});
+  browser=await chromium.launch({executablePath:process.env.AI_DAILY_CHROMIUM_PATH||'/usr/bin/google-chrome',chromiumSandbox:true,headless:true,args:['--enable-automation']});
   phase='sandbox';
   const sandboxPage=await browser.newPage();
   const cdp=await sandboxPage.context().newCDPSession(sandboxPage);
