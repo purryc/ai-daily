@@ -75,16 +75,19 @@ async function serve(base) {
 }
 async function captureSection(page,id,destination) {
  const anchor=page.locator('#'+id);await anchor.waitFor({state:'visible'});
+ await anchor.evaluate(el=>window.scrollTo(0,window.scrollY+el.getBoundingClientRect().top-100));
+ await page.evaluate(()=>new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r))));
  const rect=await anchor.evaluate(el=>{
   let next=el.nextElementSibling;
   while(next&&!next.querySelector('pre')&&next.tagName!=='PRE')next=next.nextElementSibling;
   if(!next)return null;
   const pre=next.tagName==='PRE'?next:next.querySelector('pre');
   const a=el.getBoundingClientRect(),b=pre.getBoundingClientRect();
-  return {x:Math.max(0,Math.floor(Math.min(a.left,b.left)-8)),y:Math.max(0,Math.floor(a.top+scrollY-8)),width:Math.ceil(Math.max(a.right,b.right)-Math.min(a.left,b.left)+16),height:Math.ceil(b.bottom-a.top+16)};
+  return {x:Math.max(0,Math.floor(Math.min(a.left,b.left)-8)),y:Math.max(0,Math.floor(a.top-8)),width:Math.ceil(Math.max(a.right,b.right)-Math.min(a.left,b.left)+16),height:Math.ceil(b.bottom-a.top+16)};
  });
  assert(rect&&rect.height>80&&rect.height<2000&&rect.width>300,'DOC_SECTION_BOUNDS');
- await page.screenshot({path:destination,clip:rect,captureBeyondViewport:true});
+ assert(rect.y+rect.height<=1200,'DOC_SECTION_EXCEEDS_VIEWPORT');
+ await page.screenshot({path:destination,clip:rect});
  const b=await fs.readFile(destination);
  return {anchor:'#'+id,width:b.readUInt32BE(16),height:b.readUInt32BE(20),bytes:b.length,sha256:digest(b)};
 }
