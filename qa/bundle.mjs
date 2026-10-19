@@ -6,12 +6,18 @@ const [mode,dir]=process.argv.slice(2);
 if(mode!=='emit'||!dir)throw new Error('Expected emit and isolated output directory');
 const approved=JSON.parse(await fs.readFile(new URL('./public-files.json',import.meta.url),'utf8')).map(f=>'candidate/'+f.path);
 approved.push('candidate/2026-10-19/assets/deepseek-api-docs.png','report.json');
-for(const language of ['zh','en'])for(let i=1;i<=28;i++)approved.push(`screenshots/${language}-${String(i).padStart(2,'0')}.png`);
+for(const language of ['zh','en'])for(let i=1;i<=28;i++)approved.push(`screenshots/${language}-${String(i).padStart(2,'0')}.jpg`);
 for(const name of ['search-request','search-response','fetch-request','fetch-response'])approved.push(`screenshots/deepseek-${name}.png`);
 const names=await filesUnder(dir);let total=0;const entries=[];
 for(const name of names){
  if(!approved.includes(name))throw new Error('Unexpected output file; nothing exported');
- const bytes=await fs.readFile(path.join(dir,name));total+=bytes.length;
+ const bytes=await fs.readFile(path.join(dir,name));
+ if(name.startsWith('candidate/')) {
+  const originals=JSON.parse(await fs.readFile(new URL('./public-files.json',import.meta.url),'utf8'));
+  const original=originals.find(f=>'candidate/'+f.path===name);
+  if(original?.sha256===digest(bytes))continue; // Exact checkout bytes need no second transmission.
+ }
+ total+=bytes.length;
  if(total>limit)throw new Error('Public output exceeds bounded log allowance');
  entries.push({path:name,bytes:bytes.length,sha256:digest(bytes),body:bytes.toString('base64')});
 }

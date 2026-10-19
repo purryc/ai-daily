@@ -165,7 +165,7 @@ async function browserCheck(output) {
      });
      const ok=Math.abs(metrics.width/metrics.height-16/9)<.015&&metrics.overflowX<=2&&metrics.overflowY<=2&&!metrics.outsideViewport&&metrics.textOutside===0&&metrics.images.every(i=>i.loaded&&i.fit!=='cover');
      check(`${locale}-${viewport.width}-${metrics.id}`,ok,metrics);
-     if(viewport.width===1600){const name=`screenshots/${locale}-${String(index+1).padStart(2,'0')}.png`;await page.screenshot({path:path.join(output,name),fullPage:false});report.screenshots.push(name);}
+     if(viewport.width===1600){const name=`screenshots/${locale}-${String(index+1).padStart(2,'0')}.jpg`;await page.screenshot({path:path.join(output,name),type:'jpeg',quality:65,fullPage:false});report.screenshots.push(name);}
      if(index<27)await page.locator('[data-next-slide]').click();
     }
     check(`${locale}-${viewport.width}-next-boundary`,await page.locator('[data-next-slide]').isDisabled());
