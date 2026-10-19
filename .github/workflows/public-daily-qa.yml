@@ -6,6 +6,11 @@ permissions:
   contents: read
 jobs:
   acceptance:
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix:
+        evidence: [zh, en]
     if: >-
       github.repository == 'purryc/ai-daily' &&
       github.event.repository.private == false &&
@@ -15,6 +20,7 @@ jobs:
     timeout-minutes: 10
     env:
       AI_DAILY_CHROMIUM_PATH: /usr/bin/google-chrome
+      QA_EVIDENCE_LOCALE: ${{ matrix.evidence }}
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:

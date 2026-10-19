@@ -11,6 +11,10 @@ for(const name of ['search-request','search-response','fetch-request','fetch-res
 const names=await filesUnder(dir);let total=0;const entries=[];
 for(const name of names){
  if(!approved.includes(name))throw new Error('Unexpected output file; nothing exported');
+ const locale=process.env.QA_EVIDENCE_LOCALE;
+ if(!['zh','en'].includes(locale))throw new Error('A bounded evidence locale is required');
+ if(/^screenshots\/(zh|en)-/.test(name)&&!name.startsWith('screenshots/'+locale+'-'))continue;
+ if(locale==='en'&&(name.startsWith('candidate/')||name.startsWith('screenshots/deepseek-')))continue;
  const bytes=await fs.readFile(path.join(dir,name));
  if(name.startsWith('candidate/')) {
   const originals=JSON.parse(await fs.readFile(new URL('./public-files.json',import.meta.url),'utf8'));
