@@ -2,7 +2,7 @@
 
 This branch holds only candidate public pages, product illustrations and browser acceptance code. It does not deploy a website. Publication requires successful browser checks and subsequent editorial and visual review.
 
-The workflow runs only on this dedicated branch with `[run-ai-daily-public-qa]` in the push commit message, only in the public `purryc/ai-daily` repository. It uses a standard Ubuntu runner, read-only repository permissions and a ten-minute limit. It installs pinned npm dependencies with lifecycle scripts disabled, uses the runner's Chrome with its sandbox enabled, and fails if the sandbox cannot be verified. It does not change host security settings.
+The workflow runs only on this dedicated branch with `[run-ai-daily-public-qa]` in the push commit message, only in the public `purryc/ai-daily` repository. Two standard Ubuntu jobs each run the full acceptance suite and split screenshot-log delivery by language. Each has read-only repository permissions and a ten-minute limit. It installs pinned npm dependencies with lifecycle scripts disabled and CJK fonts from the runner's configured Ubuntu repositories, uses the runner's Chrome with its sandbox enabled, and fails if the sandbox cannot be verified. It does not change host security settings.
 
 The browser captures the actual DeepSeek Search/Fetch API documentation at `https://api-docs.deepseek.com/guides/search/`. This is documentation, not a tested client or executed API call. These captures occur after the edition cutoff and do not establish the historical page state. Only GET requests to that documentation host are permitted in its browser context.
 

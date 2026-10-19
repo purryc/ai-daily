@@ -63,7 +63,8 @@ async function serve(base) {
  const server=http.createServer(async(req,res)=>{
   try {
    assert(['GET','HEAD'].includes(req.method),'METHOD');
-   const pathname=decodeURIComponent(new URL(req.url,'http://127.0.0.1').pathname);
+   let pathname=decodeURIComponent(new URL(req.url,'http://127.0.0.1').pathname);
+   if(pathname.startsWith('/ai-daily/'))pathname=pathname.slice('/ai-daily'.length);
    let file=path.resolve(base,'.'+pathname);
    if(pathname.endsWith('/'))file=path.join(file,'index.html');
    file=await fs.realpath(file);assert(file.startsWith(base+'/'),'PATH_ESCAPE');
@@ -187,6 +188,18 @@ async function browserCheck(output) {
    for(const target of [`/${issue}/sources.html`,`/${issue}/${locale==='zh'?'en':'zh'}/`,'/','/en/']){const r=await page.goto(local.url+target,{waitUntil:'domcontentloaded'});check(`${locale}-link-${target}`,r?.status()===200);}
   }
   check('bilingual-source-parity',JSON.stringify(referenceSets[0])===JSON.stringify(referenceSets[1]));
+  for(const locale of ['zh','en']) {
+   await page.goto(local.url+(locale==='zh'?'/':'/en/'),{waitUntil:'networkidle'});
+   const card=page.locator('.issue-card').first();
+   check(`${locale}-homepage-current-edition`,(await card.innerText()).includes(issue));
+   check(`${locale}-homepage-cover`,await card.locator('img').evaluate(i=>i.complete&&i.naturalWidth>0));
+   const destinations=await card.locator('.issue-actions a').evaluateAll(els=>els.map(e=>e.getAttribute('href')));
+   check(`${locale}-homepage-paths`,['zh/','en/','sources.html'].every(t=>destinations.includes('/ai-daily/'+issue+'/'+t)));
+   for(const dest of destinations){const r=await page.goto(local.url+dest,{waitUntil:'domcontentloaded'});check(`${locale}-homepage-destination-${dest}`,r?.status()===200);}
+   await page.goto(local.url+'/'+issue+'/'+locale+'/',{waitUntil:'domcontentloaded'});
+   const other=locale==='zh'?'en':'zh';await page.locator(`.header-actions a[href="../${other}/"]`).click();
+   check(`${locale}-language-switch`,page.url().endsWith('/'+other+'/')&&await page.locator('[data-slide]').count()===28);
+  }
   check('javascript-errors',pageErrors===0,{count:pageErrors});
   report.status=report.failures.length?'failed':'automated-checks-passed';
   report.scope='Two 28-slide editions at 1600x900 and 1920x1080; 56 slide screenshots and 4 actual official documentation captures. Historical archive targets excluded. Editorial and pixel review remain required.';

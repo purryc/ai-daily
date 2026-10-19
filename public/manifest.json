@@ -75,7 +75,10 @@
     ],
     "zhPath": "./2026-10-15/zh/",
     "enPath": "./2026-10-15/en/",
-    "sourcesPath": "./2026-10-15/sources.md"
+    "sourcesPath": "./2026-10-15/sources.md",
+    "formats": [
+      "web"
+    ]
   },
   {
     "date": "2026-10-14",
