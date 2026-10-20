@@ -1,8 +1,8 @@
 {
-  "phase": "live",
-  "baselineCommit": "9ef1863b41f62e9d1c2c41ca23e1af4db05fa5dc",
-  "publicCommit": "19c3439780fdf5e235da7c77a8b481aefb994e2a",
+  "phase": "candidate",
+  "baselineCommit": "19c3439780fdf5e235da7c77a8b481aefb994e2a",
+  "publicCommit": null,
   "acquireAssets": false,
   "archiveRevision": true,
-  "note": "Live verification of scoped archive year/month/sort revision; daily content and infrastructure unchanged."
+  "note": "Compact populated-month chip revision; existing archive, daily content and infrastructure preserved."
 }

@@ -1126,13 +1126,13 @@
   },
   {
     "path": "assets/archive-filter.css",
-    "bytes": 2847,
-    "sha256": "9aee1515585ca4ebed8de700792eb9cc9cb78ab547e5d829ece71de3a9e43bcd"
+    "bytes": 3385,
+    "sha256": "64f38ffe4c65b2ae77f4237e14180e3316323922455a8f90658f5e8c4f946d0b"
   },
   {
     "path": "assets/archive-filter.mjs",
-    "bytes": 7502,
-    "sha256": "bb38ff11790125ac2dcccb326ab1a0bf38f32997ec50d4c4eb0fbaf7ee389cb9"
+    "bytes": 8806,
+    "sha256": "82019b28ae3e33ca9101e5300c365fd938954759284316e4bece125c1f4aa0bf"
   },
   {
     "path": "assets/augmental-mouthpad-vox-official-2026-07.png",
@@ -1486,13 +1486,13 @@
   },
   {
     "path": "en/index.html",
-    "bytes": 153958,
-    "sha256": "54760a1bd145b5835a3d65fcb2af734c6f7ba802e03b76601d1e3a482e714cd2"
+    "bytes": 153207,
+    "sha256": "ce11098deddd0427f49bcf57f619667a7faa61e76480b6ac7efa888067d07580"
   },
   {
     "path": "index.html",
-    "bytes": 148255,
-    "sha256": "1f6404749e6a357c8999dd727a407c92cb964b0d22769ef91da1cc7fc5d4e927"
+    "bytes": 147534,
+    "sha256": "ace629807f84069f2b1baf96f96a0e1e66401e2fcace443f6ab6522477389c1e"
   },
   {
     "path": "manifest.json",

@@ -18,18 +18,20 @@ export async function checkArchive({browser, url, live, locale, phase, check, sc
   const same=(a,b)=>JSON.stringify(a)===JSON.stringify(b);
   const res=await p.goto(home,{waitUntil:'domcontentloaded'});await ready();
   check('overview',res.status()===200&&same(await visibleDates(),allDates));
-  check('archive-all-months',await p.locator('[data-archive-month]').count()===13);
+  const populated=[...new Set(allDates.map(d=>d.slice(5,7)))].sort();
+  check('archive-populated-months-only',same(await p.locator('[data-archive-month]').evaluateAll(els=>els.map(e=>e.dataset.archiveMonth)),['all',...populated])&&await p.locator('[data-archive-month]:disabled').count()===0);
+  check('archive-reset-hidden-default',!await p.locator('[data-archive-filters] [data-archive-reset]').isVisible());
   const expectedYears=[...new Set(allDates.map(d=>d.slice(0,4)))].sort().reverse();
   check('archive-years',same(await p.locator('[data-archive-year] option').evaluateAll(els=>els.map(e=>e.value)),['all',...expectedYears]));
   await screen(p,`${locale}-archive-after.jpg`);
   for(const viewport of [{width:1600,height:900},{width:390,height:844}]){
     await p.setViewportSize(viewport);await p.goto(home,{waitUntil:'domcontentloaded'});await ready();
     const geometry=await p.locator('[data-archive-filters]').evaluate(root=>{
-      const buttons=[...root.querySelectorAll('button')],labels=[...root.querySelectorAll('select')].map(e=>Boolean(document.querySelector(`label[for="${e.id}"]`)));
-      return {overflow:document.documentElement.scrollWidth>innerWidth+1,buttons:buttons.map(b=>{const r=b.getBoundingClientRect();return {width:r.width,height:r.height,left:r.left,right:r.right}}),labels,
+      const buttons=[...root.querySelectorAll('button')].filter(b=>b.getClientRects().length),labels=[...root.querySelectorAll('select')].map(e=>Boolean(document.querySelector(`label[for="${e.id}"]`)));
+      return {height:root.getBoundingClientRect().height,overflow:document.documentElement.scrollWidth>innerWidth+1,buttons:buttons.map(b=>{const r=b.getBoundingClientRect();return {width:r.width,height:r.height,left:r.left,right:r.right}}),labels,
         status:root.querySelector('[role="status"]')?.getAttribute('aria-live')};
     });
-    check('archive-responsive-controls',!geometry.overflow&&geometry.buttons.every(b=>b.width>=44&&b.height>=44&&b.left>=0&&b.right<=viewport.width+1)&&geometry.labels.every(Boolean)&&geometry.status==='polite',{viewport,...geometry});
+    check('archive-responsive-controls',!geometry.overflow&&geometry.height<=(viewport.width>720?110:220)&&geometry.buttons.every(b=>b.width>=44&&b.height>=44&&b.left>=0&&b.right<=viewport.width+1)&&geometry.labels.every(Boolean)&&geometry.status==='polite',{viewport,...geometry});
     await p.locator('[data-archive-year]').selectOption('2026');
     const counts=await p.locator('[data-archive-month]').evaluateAll(els=>els.map(e=>({value:e.dataset.archiveMonth,label:e.getAttribute('aria-label')})));
     check('archive-real-month-counts',counts.every(x=>x.label.includes(String(x.value==='all'?allDates.filter(d=>d.startsWith('2026')).length:allDates.filter(d=>d.startsWith(`2026-${x.value}`)).length))),{viewport});
@@ -37,7 +39,7 @@ export async function checkArchive({browser, url, live, locale, phase, check, sc
       const button=p.locator(`[data-archive-month="${month}"]`);
       await button.focus();await p.keyboard.press('Enter');
       const expected=allDates.filter(d=>d.startsWith('2026-'+month));
-      check('archive-month-keyboard-filter',same(await visibleDates(),expected)&&await button.getAttribute('aria-pressed')==='true',{viewport,month,count:expected.length});
+      check('archive-month-keyboard-filter',same(await visibleDates(),expected)&&await button.getAttribute('aria-pressed')==='true'&&await button.evaluate(e=>document.activeElement===e),{viewport,month,count:expected.length});
       if(viewport.width===1600)await screen(p,`${locale}-archive-${month}.jpg`);
     }
     await p.locator('[data-archive-order]').selectOption('oldest');
@@ -48,7 +50,7 @@ export async function checkArchive({browser, url, live, locale, phase, check, sc
     check('archive-language-state',new URL(p.url()).pathname===new URL(other).pathname&&await p.locator('[data-archive-year]').inputValue()==='2026'&&await p.locator('[data-archive-order]').inputValue()==='oldest'&&same(await visibleDates(),august),{viewport,target});
     await p.goto(home+'?year=2026&month=08&order=oldest',{waitUntil:'domcontentloaded'});await ready();
     check('archive-reload-state',same(await visibleDates(),august),{viewport});
-    await p.locator('[data-archive-month="01"]').click();
+    await p.goto(home+'?year=2026&month=01&order=oldest',{waitUntil:'domcontentloaded'});await ready();
     check('archive-empty-state',(await visibleDates()).length===0&&await p.locator('[data-archive-empty]').isVisible(),{viewport});
     if(viewport.width===1600){await p.locator('[data-archive-empty]').scrollIntoViewIfNeeded();await screen(p,`${locale}-archive-empty.jpg`);}
     await p.locator('[data-archive-empty] [data-archive-reset]').click();
@@ -56,8 +58,8 @@ export async function checkArchive({browser, url, live, locale, phase, check, sc
     await p.locator('[data-archive-year]').selectOption('2026');
     const future=await p.evaluate(()=>{const d=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Toronto',year:'numeric',month:'2-digit'}).formatToParts(new Date());return {year:d.find(p=>p.type==='year').value,month:d.find(p=>p.type==='month').value}});
     if(future.year==='2026'){
-      const checks=[];for(let month=Number(future.month)+1;month<=12;month++){const value=String(month).padStart(2,'0');if(!allDates.some(d=>d.startsWith(`2026-${value}`)))checks.push(await p.locator(`[data-archive-month="${value}"]`).isDisabled())}
-      check('archive-future-unavailable',checks.every(Boolean),{viewport,checked:checks.length});
+      const checks=[];for(let month=Number(future.month)+1;month<=12;month++){const value=String(month).padStart(2,'0');if(!allDates.some(d=>d.startsWith(`2026-${value}`)))checks.push(await p.locator(`[data-archive-month="${value}"]`).count()===0)}
+      check('archive-empty-future-months-absent',checks.every(Boolean),{viewport,checked:checks.length});
     }
     await p.locator('[data-archive-month="09"]').click();
     await p.locator('[data-archive-filters]').scrollIntoViewIfNeeded();
