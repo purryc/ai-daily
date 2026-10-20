@@ -476,18 +476,18 @@
   },
   {
     "id": "R1",
-    "url": "https://blogs.windows.com/devices/2026/10/07/pre-order-our-most-powerful-surface-devices-ever/",
-    "type": "Official October 7 pre-order announcement; planned October 16 availability",
-    "title": "Official October 7 pre-order announcement; planned October 16 availability",
+    "url": "https://pytorch.org/blog/introducing-torchneuron-native-pytorch-backend-for-aws-trainium/",
+    "type": "Official PyTorch technical announcement; October 19 with October 20 modification label",
+    "title": "Official PyTorch technical announcement; October 19 with October 20 modification label",
     "collectedOn": "2026-10-20",
     "collectionPrecision": "date; revision collection after original cutoff",
     "number": 50
   },
   {
     "id": "R2",
-    "url": "https://www.microsoft.com/en-us/surface/devices/surface-laptop-ultra",
-    "type": "Current official product page; not historical stock evidence",
-    "title": "Current official product page; not historical stock evidence",
+    "url": "https://www.aboutamazon.com/news/innovation-at-amazon/torchneuron-pytorch-aws-trainium-chips-ai",
+    "type": "Official Amazon announcement; future-tense October 20 open-source plan",
+    "title": "Official Amazon announcement; future-tense October 20 open-source plan",
     "collectedOn": "2026-10-20",
     "collectionPrecision": "date; revision collection after original cutoff",
     "number": 51

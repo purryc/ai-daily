@@ -7,8 +7,8 @@
   "sourcesPath": "sources.html",
   "metrics": {
     "body": {
-      "zhDenseChars": 32127,
-      "enWords": 19731
+      "zhDenseChars": 32170,
+      "enWords": 19648
     },
     "perProduct": {
       "speakon": {
@@ -53,11 +53,11 @@
       },
       "promptile": {
         "zh": 864,
-        "en": 456
+        "en": 453
       },
       "openvlharness": {
         "zh": 829,
-        "en": 475
+        "en": 469
       },
       "cling": {
         "zh": 842,
@@ -65,15 +65,15 @@
       },
       "bee-frontier-eclipse": {
         "zh": 758,
-        "en": 472
+        "en": 467
       },
       "unitree-uniuni": {
         "zh": 765,
-        "en": 458
+        "en": 453
       },
       "brera-sensing-art": {
         "zh": 782,
-        "en": 460
+        "en": 453
       },
       "aimoga-mobo": {
         "zh": 741,
@@ -81,19 +81,19 @@
       },
       "dream-labs-dream1": {
         "zh": 739,
-        "en": 448
+        "en": 445
       },
       "standard-bots-ai": {
         "zh": 686,
-        "en": 425
+        "en": 422
       },
       "neura-neuron-ai": {
         "zh": 686,
-        "en": 427
+        "en": 424
       },
-      "surface-laptop-ultra": {
-        "zh": 645,
-        "en": 436
+      "torchneuron": {
+        "zh": 688,
+        "en": 435
       },
       "thought-industries-lens": {
         "zh": 820,
@@ -109,31 +109,31 @@
       },
       "conversemr": {
         "zh": 725,
-        "en": 399
+        "en": 397
       },
       "gazeagent": {
         "zh": 727,
-        "en": 428
+        "en": 426
       },
       "splatxr": {
         "zh": 757,
-        "en": 424
+        "en": 420
       },
       "interactagent": {
         "zh": 777,
-        "en": 442
+        "en": 440
       },
       "krea-3": {
         "zh": 800,
-        "en": 459
+        "en": 454
       },
       "wally-by-willow": {
         "zh": 790,
-        "en": 449
+        "en": 444
       },
       "kai-resolve": {
         "zh": 807,
-        "en": 464
+        "en": 456
       },
       "different": {
         "zh": 669,
@@ -149,23 +149,23 @@
       },
       "pythia-pocket-agent": {
         "zh": 763,
-        "en": 445
+        "en": 442
       },
       "figma-specs": {
         "zh": 738,
-        "en": 438
+        "en": 433
       },
       "spooky-pumpkin": {
         "zh": 732,
-        "en": 414
+        "en": 412
       },
       "robot-data-diff": {
         "zh": 682,
-        "en": 423
+        "en": 418
       },
       "deepinfer": {
         "zh": 767,
-        "en": 444
+        "en": 440
       }
     },
     "primarySummaries": {
@@ -249,9 +249,9 @@
         "zh": 176,
         "en": 104
       },
-      "surface-laptop-ultra": {
-        "zh": 166,
-        "en": 108
+      "torchneuron": {
+        "zh": 162,
+        "en": 107
       },
       "thought-industries-lens": {
         "zh": 162,
@@ -335,11 +335,10 @@
     "attachedProjectDetails": 39
   },
   "eventCounts": {
-    "main-window": 8,
-    "near-three-day": 16,
-    "seven-day-review": 10,
-    "seven-day-report-review": 1,
-    "baselineOtherExplicitLabels": 4
+    "mainWindowEvents": 12,
+    "nearThreeDayReviews": 17,
+    "sevenDayReviews": 10,
+    "interpretation": "Events include announcements, research and code observations; not a count of first product releases."
   },
   "topics": [
     {
@@ -348,7 +347,9 @@
       "enHeadline": "Edit the spoken intent before it becomes an external action",
       "eventAt": "2026-10-20T12:00:00Z",
       "freshness": "announcement-with-earlier-availability",
-      "evidence": "confirmed product · vendor announcement, not hands-on"
+      "evidence": "confirmed product · vendor announcement, not hands-on",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
       "id": "mirrorship-mip",
@@ -356,7 +357,9 @@
       "enHeadline": "Shared semantics need an accountable owner, not just a chat box",
       "eventAt": "2026-10-20",
       "freshness": "24h-new-regional-product-launch",
-      "evidence": "confirmed product / official demonstration"
+      "evidence": "confirmed product / official demonstration",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
       "id": "coralboard",
@@ -364,7 +367,9 @@
       "enHeadline": "For always-on sensing, measure whole-device energy per useful result",
       "eventAt": "2026-10-20",
       "freshness": "dated today; exact publication time not stated; independently surfaced by 05:30 PT media before cutoff",
-      "evidence": "confirmed product + developer surface"
+      "evidence": "confirmed product + developer surface",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
       "id": "litert-tensor",
@@ -372,7 +377,9 @@
       "enHeadline": "Convert the model first; author a graph for a measured handoff bottleneck",
       "eventAt": "2026-10-19",
       "freshness": "near-three-day supplement; date-only publication cannot establish 24h boundary",
-      "evidence": "developer surface; vendor demo; collection-environment failure observation"
+      "evidence": "developer surface; vendor demo; collection-environment failure observation",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
       "id": "hermes-friction",
@@ -380,7 +387,9 @@
       "enHeadline": "A live backend does not mean the user still has usable control",
       "eventAt": "2026-10-19T10:01:40Z",
       "freshness": "near-three-day-supplement",
-      "evidence": "review/community friction"
+      "evidence": "review/community friction",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
       "id": "visagent",
@@ -388,7 +397,9 @@
       "enHeadline": "Routing a call correctly is only the first service handoff",
       "eventAt": "2026-10-19T10:59:45Z",
       "freshness": "near-three-day-supplement",
-      "evidence": "research signal"
+      "evidence": "research signal",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
       "id": "iphone-agent-harness",
@@ -396,7 +407,9 @@
       "enHeadline": "A wireless phone agent must still verify the result on screen",
       "eventAt": "2026-10-20T10:21:22Z",
       "freshness": "original-window code observation added in revision",
-      "evidence": "Author repository at pinned commit; not independently executed"
+      "evidence": "Author repository at pinned commit; not independently executed",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
       "id": "exa-3",
@@ -404,7 +417,9 @@
       "enHeadline": "Cheaper search saves money only after stale answers and retries are counted",
       "eventAt": "2026-10-19",
       "freshness": "near-three-day; date-only, strict 24h boundary unproven",
-      "evidence": "Three-day lookback; date-only evidence, strict 24-hour boundary uncertain"
+      "evidence": "Three-day lookback; date-only evidence, strict 24-hour boundary uncertain",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
       "id": "bill-ai-controls",
@@ -412,7 +427,9 @@
       "enHeadline": "Before an invoice is paid, AI should explain the exception and expose its actions",
       "eventAt": "2026-10-19",
       "freshness": "near-three-day; date-only, strict 24h boundary unproven",
-      "evidence": "Three-day lookback; date-only evidence, strict 24-hour boundary uncertain"
+      "evidence": "Three-day lookback; date-only evidence, strict 24-hour boundary uncertain",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
       "id": "motive-agents",
@@ -420,7 +437,9 @@
       "enHeadline": "From fleet alert to work order, prove closure before promising autonomous operations",
       "eventAt": "2026-10-19",
       "freshness": "near-three-day; date-only, strict 24h boundary unproven",
-      "evidence": "Three-day lookback; date-only evidence, strict 24-hour boundary uncertain"
+      "evidence": "Three-day lookback; date-only evidence, strict 24-hour boundary uncertain",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
       "id": "promptile",
@@ -428,7 +447,9 @@
       "enHeadline": "Less typing is not faster: make prompting preferences editable",
       "eventAt": "2026-10-19T14:27:41Z",
       "freshness": "main-window",
-      "evidence": "Primary24-hour window · HCI research preprint"
+      "evidence": "Primary24-hour window · HCI research preprint",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
       "id": "openvlharness",
@@ -436,7 +457,9 @@
       "enHeadline": "Visual agents need reusable evidence, not just another look",
       "eventAt": "2026-10-19T17:59:58Z",
       "freshness": "main-window",
-      "evidence": "Primary24-hour window · new paper; repository already existed"
+      "evidence": "Primary24-hour window · new paper; repository already existed",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
       "id": "cling",
@@ -444,7 +467,9 @@
       "enHeadline": "Let people choose the next step while automation moves the information",
       "eventAt": "2026-10-19T06:37:54Z",
       "freshness": "near-three-day",
-      "evidence": "Near-three-day review · HCI research prototype"
+      "evidence": "Near-three-day review · HCI research prototype",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
       "id": "bee-frontier-eclipse",
@@ -452,7 +477,9 @@
       "enHeadline": "Wearable memory adds a new enclosure, but correction and consent remain the work",
       "eventAt": "2026-10-15",
       "freshness": "seven-day-review; date-only, strict 24h boundary unproven",
-      "evidence": "Weekly lookback: October15 announcement, not an October20 launch"
+      "evidence": "Weekly lookback: October15 announcement, not an October20 launch",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
       "id": "unitree-uniuni",
@@ -460,7 +487,9 @@
       "enHeadline": "A visual swarm console must connect choreography to recoverable physical execution",
       "eventAt": "2026-10-16",
       "freshness": "seven-day-review; date-only, strict 24h boundary unproven",
-      "evidence": "Weekly lookback: October16 official demonstration, discovered through October19 coverage"
+      "evidence": "Weekly lookback: October16 official demonstration, discovered through October19 coverage",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
       "id": "brera-sensing-art",
@@ -468,7 +497,9 @@
       "enHeadline": "An eight-artwork accessibility pilot separates recognition, interpretation and assistance",
       "eventAt": "2026-10-13",
       "freshness": "seven-day-report-review; date-only, strict 24h boundary unproven",
-      "evidence": "Weekly coverage lookback: Meta posted October14 and modified October15; museum says pilot launched October13, with time unknown at the strict seven-day boundary"
+      "evidence": "Weekly coverage lookback: Meta posted October14 and modified October15; museum says pilot launched October13, with time unknown at the strict seven-day boundary",
+      "qualifyingReportAt": "2026-10-14",
+      "eventDateNote": "Pilot began Oct 13 (boundary time unknown); selected Oct 14 official report, not a new Oct 14 launch."
     },
     {
       "id": "aimoga-mobo",
@@ -476,7 +507,9 @@
       "enHeadline": "Mobo's family-companion announcement leaves task and delivery boundaries to verify",
       "eventAt": "2026-10-17T10:27:00Z",
       "freshness": "seven-day-review",
-      "evidence": "Weekly lookback: October17 at10:27Z announcement, outside72hours; October21 unveiling and preorders remain future events"
+      "evidence": "Weekly lookback: October17 at10:27Z announcement, outside72hours; October21 unveiling and preorders remain future events",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
       "id": "dream-labs-dream1",
@@ -484,7 +517,9 @@
       "enHeadline": "An action response still needs a stable cup",
       "eventAt": "2026-10-19T17:00:00Z",
       "freshness": "main-window",
-      "evidence": "Original 24-hour window: October 19 launch announcement; research beta"
+      "evidence": "Original 24-hour window: October 19 launch announcement; research beta",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
       "id": "standard-bots-ai",
@@ -492,7 +527,9 @@
       "enHeadline": "An iPad routine must leave an intelligible part state",
       "eventAt": "2026-10-15T16:05:00Z",
       "freshness": "seven-day-review",
-      "evidence": "Seven-day expansion: October 15 vendor availability announcement, not a new release today"
+      "evidence": "Seven-day expansion: October 15 vendor availability announcement, not a new release today",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
       "id": "neura-neuron-ai",
@@ -500,15 +537,19 @@
       "enHeadline": "A latch sound should update trustworthy robot state",
       "eventAt": "2026-10-14",
       "freshness": "seven-day-review; date-only, strict 24h boundary unproven",
-      "evidence": "Seven-day expansion: October 14 model introduction; October 20–22 demonstration planned"
+      "evidence": "Seven-day expansion: October 14 model introduction; October 20–22 demonstration planned",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
-      "id": "surface-laptop-ultra",
-      "zhHeadline": "模型装得下之后，还要让修复任务跑得值",
-      "enHeadline": "A fitting model must still deliver useful repairs",
-      "eventAt": "2026-10-16",
-      "freshness": "seven-day-review; date-only, strict 24h boundary unproven",
-      "evidence": "Seven-day planned availability milestone: October 7 announcement names October 16; inventory unverified"
+      "id": "torchneuron",
+      "zhHeadline": "改一个设备入口，仍要验完整实验和账单",
+      "enHeadline": "One device change still needs workload and cost validation",
+      "eventAt": "2026-10-19T13:00:10Z",
+      "freshness": "near-three-day",
+      "evidence": "Three-day expansion: October 19 announcement; October 20 public beta and open-source release planned",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
       "id": "thought-industries-lens",
@@ -526,7 +567,9 @@
           "outcome improvement"
         ],
         "factInferencePolicy": "Vendor claims are identified as such; workflow requirements and evaluation plans are editorial analysis, not observed product behavior."
-      }
+      },
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
       "id": "payani-execution",
@@ -544,7 +587,9 @@
           "image contents"
         ],
         "factInferencePolicy": "Vendor claims are identified as such; workflow requirements and evaluation plans are editorial analysis, not observed product behavior."
-      }
+      },
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
       "id": "cloudflare-clairic",
@@ -563,7 +608,9 @@
           "image pixels"
         ],
         "factInferencePolicy": "Vendor claims are identified as such; workflow requirements and evaluation plans are editorial analysis, not observed product behavior."
-      }
+      },
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
       "id": "conversemr",
@@ -571,7 +618,9 @@
       "enHeadline": "Speak the following rule, then retain precise manual control",
       "eventAt": "2026-10-17T11:30:56Z",
       "freshness": "seven-day-review",
-      "evidence": "Seven-day research context; outside 72 hours"
+      "evidence": "Seven-day research context; outside 72 hours",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
       "id": "gazeagent",
@@ -579,7 +628,9 @@
       "enHeadline": "Use everyday actions to refresh calibration after glasses shift",
       "eventAt": "2026-10-17T01:31:47Z",
       "freshness": "seven-day-review",
-      "evidence": "Seven-day research context; outside 72 hours"
+      "evidence": "Seven-day research context; outside 72 hours",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
       "id": "splatxr",
@@ -587,7 +638,9 @@
       "enHeadline": "Add collision structure to photorealistic assets, then test interaction",
       "eventAt": "2026-10-19T13:08:34Z",
       "freshness": "near-three-day",
-      "evidence": "Three-day research context; outside 24 hours"
+      "evidence": "Three-day research context; outside 24 hours",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
       "id": "interactagent",
@@ -595,7 +648,9 @@
       "enHeadline": "Revise a virtual human plan after observing its motion",
       "eventAt": "2026-10-19T01:51:14Z",
       "freshness": "near-three-day",
-      "evidence": "Three-day research context; outside 24 hours"
+      "evidence": "Three-day research context; outside 24 hours",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
       "id": "krea-3",
@@ -603,7 +658,9 @@
       "enHeadline": "Fast image edits still need preservation checks and batch economics",
       "eventAt": "2026-10-15",
       "freshness": "seven-day-review; date-only, strict 24h boundary unproven",
-      "evidence": "Weekly review: October15 model launch; separately documented October19 API opening, exact time unavailable"
+      "evidence": "Weekly review: October15 model launch; separately documented October19 API opening, exact time unavailable",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
       "id": "wally-by-willow",
@@ -611,7 +668,9 @@
       "enHeadline": "Voice writing becomes a continuing draft conversation",
       "eventAt": "2026-10-19",
       "freshness": "near-three-day; date-only, strict 24h boundary unproven",
-      "evidence": "Near-three-day observation: October19 Wally announcement; Scribe already existed in May"
+      "evidence": "Near-three-day observation: October19 Wally announcement; Scribe already existed in May",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
       "id": "kai-resolve",
@@ -619,7 +678,9 @@
       "enHeadline": "Support escalation gains value when the evidence travels with it",
       "eventAt": "2026-10-19",
       "freshness": "near-three-day; date-only, strict 24h boundary unproven",
-      "evidence": "Near-three-day workflow observation: October19 handoff article and October17 help update; not a verified first release"
+      "evidence": "Near-three-day workflow observation: October19 handoff article and October17 help update; not a verified first release",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
       "id": "different",
@@ -627,7 +688,9 @@
       "enHeadline": "A marketing agent matters when cross-channel failures have an owner",
       "eventAt": "2026-10-20T10:00:00Z",
       "freshness": "main-window",
-      "evidence": "Within original cutoff window: public launch and funding announcement"
+      "evidence": "Within original cutoff window: public launch and funding announcement",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
       "id": "walkai-talkai",
@@ -635,7 +698,9 @@
       "enHeadline": "A walkie-talkie frees the operator from the screen, but delivery is not completion",
       "eventAt": "2026-10-19",
       "freshness": "near-three-day; date-only, strict 24h boundary unproven",
-      "evidence": "Three-day lookback: Product Hunt launch observation, not a proven first product release"
+      "evidence": "Three-day lookback: Product Hunt launch observation, not a proven first product release",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
       "id": "beam-win",
@@ -643,7 +708,9 @@
       "enHeadline": "Persistent agents need remote windows whose source and state remain clear",
       "eventAt": "2026-10-19",
       "freshness": "near-three-day; date-only, strict 24h boundary unproven",
-      "evidence": "Three-day lookback: Product Hunt launch observation, not a proven first product release"
+      "evidence": "Three-day lookback: Product Hunt launch observation, not a proven first product release",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
       "id": "pythia-pocket-agent",
@@ -651,7 +718,9 @@
       "enHeadline": "One button preserves the field note; the sending boundary still needs evidence",
       "eventAt": "2026-10-19",
       "freshness": "near-three-day; date-only, strict 24h boundary unproven",
-      "evidence": "Recent prototype observation: project page created October19, time and timezone unknown; not a shipping or open-source release"
+      "evidence": "Recent prototype observation: project page created October19, time and timezone unknown; not a shipping or open-source release",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
       "id": "figma-specs",
@@ -659,7 +728,9 @@
       "enHeadline": "Specs makes the PRD a canvas object with shared context and collaboration",
       "eventAt": "2026-10-15",
       "freshness": "seven-day-review; date-only, strict 24h boundary unproven",
-      "evidence": "Weekly lookback: official open-beta launch October15; October19 Product Hunt listing is not the original launch"
+      "evidence": "Weekly lookback: official open-beta launch October15; October19 Product Hunt listing is not the original launch",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
       "id": "spooky-pumpkin",
@@ -667,7 +738,9 @@
       "enHeadline": "A seeing, speaking pumpkin needs a trustworthy listening cue",
       "eventAt": "2026-10-19",
       "freshness": "near-three-day; date-only, strict 24h boundary unproven",
-      "evidence": "Maker publication within three days; date only, not a precise 24-hour event"
+      "evidence": "Maker publication within three days; date only, not a precise 24-hour event",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
       "id": "robot-data-diff",
@@ -675,7 +748,9 @@
       "enHeadline": "Find dataset changes, without mistaking matching summaries for identity",
       "eventAt": "2026-10-19T21:38:27Z",
       "freshness": "main-window",
-      "evidence": "Code observed inside the original 24-hour window; October 19 maker introduction, while package 0.1.0 was released October 13"
+      "evidence": "Code observed inside the original 24-hour window; October 19 maker introduction, while package 0.1.0 was released October 13",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
       "id": "deepinfer",
@@ -683,7 +758,9 @@
       "enHeadline": "An inference core still needs cache and service routing",
       "eventAt": "2026-10-20T11:03:13Z",
       "freshness": "main-window",
-      "evidence": "Pinned code and documentation within the original 24 hours; root commit at 04:09:42Z, not a formal tagged release"
+      "evidence": "Pinned code and documentation within the original 24 hours; root commit at 04:09:42Z, not a formal tagged release",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     }
   ],
   "laneScans": [

@@ -227,14 +227,14 @@
     "rights": "Official publisher asset; no reuse license verified. Preserve attribution and confirm publication rights."
   },
   {
-    "product": "surface-laptop-ultra",
-    "path": "assets/surface-laptop-ultra.jpg",
-    "sourcePage": "https://blogs.windows.com/devices/2026/10/07/pre-order-our-most-powerful-surface-devices-ever/",
-    "originalUrl": "https://msftstories.thesourcemediaassets.com/sites/759/2026/10/Surface-Laptop-Ultra-Opened.png",
-    "sha256": "82284cf4a5865c582679bacaa3fc00bf14a1ee0a6bef545ca631a4ce857e6307",
-    "acquiredAt": "2026-10-20T16:07:05.041Z",
-    "captionZh": "微软官方Surface Laptop Ultra开盖产品图原图地址；非实测跑分，非库存证明。",
-    "captionEn": "Official Microsoft open-laptop product image URL; not a benchmark or inventory evidence.",
+    "product": "torchneuron",
+    "path": "assets/torchneuron-architecture.jpg",
+    "sourcePage": "https://pytorch.org/blog/introducing-torchneuron-native-pytorch-backend-for-aws-trainium/",
+    "originalUrl": "https://pytorch.org/wp-content/uploads/2026/10/AWS-TorchNeuron-image-1.png",
+    "sha256": "bde3ce5790c23fd2300ec25eee2e8c842f70d3a71dd9aacedbdf7a3e26fe1838",
+    "acquiredAt": "2026-10-20T16:33:54.215Z",
+    "captionZh": "PyTorch官方TorchNeuron架构图：Dispatcher、编译、运行时与Trainium的连接。SDK架构图例外，不是终端实测或已部署性能证明。",
+    "captionEn": "Official PyTorch TorchNeuron architecture: dispatcher, compiler, runtime and Trainium integration. SDK architecture evidence, not a terminal test or deployed-performance proof.",
     "evidenceKind": "Original product/research visual",
     "rights": "Official publisher asset; no reuse license verified. Preserve attribution and confirm publication rights."
   },
