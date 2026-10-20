@@ -1,85 +1,78 @@
 [
   {
     "kind": "image",
-    "name": "promptile.jpg",
-    "url": "https://arxiv.org/html/2610.26485v1/picture/frontend_ENhighlight2.png",
+    "name": "standard-bots-ai.jpg",
+    "url": "https://cdn.prod.website-files.com/6a79f27a2db19b673bdd1000/6acfa44a054b5940e76aaa09_standard-bots_applications_machining.avif",
     "renderImage": true,
     "locale": "zh"
   },
   {
     "kind": "image",
-    "name": "openvlharness.jpg",
-    "url": "https://arxiv.org/html/2610.26860v1/architecture.png",
+    "name": "neura-neuron-ai.jpg",
+    "url": "https://neura-robotics.com/wp-content/uploads/2026/10/NEURON-AI_Key-Visual-1024x576.webp",
     "renderImage": true,
     "locale": "zh"
   },
   {
     "kind": "image",
-    "name": "cling.jpg",
-    "url": "https://arxiv.org/html/2610.25879v1/assets/teaser.png",
+    "name": "surface-laptop-ultra.jpg",
+    "url": "https://msftstories.thesourcemediaassets.com/sites/759/2026/10/Surface-Laptop-Ultra-Opened.png",
     "renderImage": true,
     "locale": "zh"
   },
   {
     "kind": "image",
-    "name": "mintlify.jpg",
-    "url": "https://www.mintlify.com/images/featured/autopilot-preview.webp",
+    "name": "torchneuron.jpg",
+    "url": "https://assets.aboutamazon.com/8a/19/8a5b8b1542a18aea511b89378867/aws-torchneuron-terminal-inline.gif",
     "renderImage": true,
     "locale": "zh"
   },
   {
     "kind": "image",
-    "name": "exa.jpg",
-    "url": "https://exa.ai/images/blog/exa-3/data-sources.png",
+    "name": "conversemr.jpg",
+    "url": "https://arxiv.org/html/2610.24640v1/images/teaser-figure-v8.png",
     "renderImage": true,
     "locale": "zh"
   },
   {
     "kind": "image",
-    "name": "bill.jpg",
-    "url": "https://cdn.prod.website-files.com/63e56114746188c54e2936e0/6ad29245212da42fce14067b_GIF%20-%20Risk%20Intelligence.gif",
+    "name": "gazeagent.jpg",
+    "url": "https://arxiv.org/html/2610.24364v1/figures/fig1_overview.png",
     "renderImage": true,
     "locale": "zh"
   },
   {
     "kind": "image",
-    "name": "motive.jpg",
-    "url": "https://gomotive.com/wp-content/uploads/2026/10/blog-agents-anticipate-and-resolve-2x.webp",
+    "name": "splatxr.jpg",
+    "url": "https://arxiv.org/html/2610.26338v1/figures/toolkit-features/toolkit_features_v6_multilayerreality_hd_3-03.jpg",
     "renderImage": true,
     "locale": "en"
   },
   {
     "kind": "image",
-    "name": "bee.jpg",
-    "url": "https://assets.aboutamazon.com/20/14/9d6951844795a24f71e544c24dce/bee-frontier-eclipse-hero-amazonnews-ck101426.jpg",
+    "name": "interactagent.jpg",
+    "url": "https://arxiv.org/html/2610.25649v1/figs/main.png",
     "renderImage": true,
     "locale": "en"
   },
   {
     "kind": "image",
-    "name": "uniuni.jpg",
-    "url": "https://roboticaguide.com/wp-content/uploads/2026/10/unitree-uniuni-swarm-control-software-h2-g1-1044x548.jpg",
+    "name": "harmony-genie.jpg",
+    "url": "https://storage.googleapis.com/accesswire/featureimages/1238375.png?v=26c6652a-7cb6-4409-b004-73de107fabc2",
     "renderImage": true,
     "locale": "en"
   },
   {
     "kind": "image",
-    "name": "brera.jpg",
-    "url": "https://about.fb.com/wp-content/uploads/2026/10/Sensing-Art-_-1.jpg",
+    "name": "payani-execution.jpg",
+    "url": "https://storage.googleapis.com/accesswire/featureimages/1238684.png?v=edac5230-716a-4cdf-97a2-0fd49feb0a94",
     "renderImage": true,
     "locale": "en"
   },
   {
     "kind": "image",
-    "name": "mobo.jpg",
-    "url": "https://ml.globenewswire.com/Resource/Download/1be9133a-c36b-4d50-8ba8-f52eae858e11/aimoga.jpg",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "dream.jpg",
-    "url": "https://dreamlabs.ai/research/dream-1/assets/launch-still.webp",
+    "name": "cloudflare-clairic.jpg",
+    "url": "https://blog.cloudflare.com/_emdash/api/media/file/01M5AKCDMY87RYM44AD8D57A3J.png",
     "renderImage": true,
     "locale": "en"
   }
