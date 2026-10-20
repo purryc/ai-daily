@@ -1,8 +1,8 @@
 {
-  "phase": "candidate",
+  "phase": "live",
   "baselineCommit": "19c3439780fdf5e235da7c77a8b481aefb994e2a",
-  "publicCommit": null,
+  "publicCommit": "6715fe994d4d7040b98cc23a06c7a1bf3a6136f1",
   "acquireAssets": false,
   "archiveRevision": true,
-  "note": "Compact populated-month chip revision; existing archive, daily content and infrastructure preserved."
+  "note": "Verify live compact populated-month chips after existing Pages deployment; no infrastructure changes."
 }
