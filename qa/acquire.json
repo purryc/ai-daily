@@ -1,37 +1,8 @@
 [
   {
-    "kind": "image",
-    "name": "wally-interface.jpg",
-    "url": "https://ph-files.imgix.net/8ada5cce-e85c-4c1a-8c6a-1ed1c2fb9513.png",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "wally-alternate.jpg",
-    "url": "https://ph-files.imgix.net/a018ce2c-0d32-4957-9557-44ccbd178a81.jpeg",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "beam-interface.jpg",
-    "url": "https://ph-files.imgix.net/66584171-b146-45e3-b4cb-5eed357cc35e.png",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "beam-alternate.jpg",
-    "url": "https://ph-files.imgix.net/dc9d677b-3c5f-4eee-a76c-03df642f428d.png",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
     "kind": "screenshot",
-    "name": "krea-api.jpg",
+    "name": "krea-api-readable.jpg",
     "url": "https://www.krea.ai/docs/developers/krea-3/overview",
-    "selector": "main",
     "locale": "zh"
   }
 ]
