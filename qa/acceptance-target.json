@@ -1,8 +1,8 @@
 {
-  "phase": "live",
-  "baselineCommit": "6715fe994d4d7040b98cc23a06c7a1bf3a6136f1",
-  "publicCommit": "bc32c8ae81e5c396bdcd5be0374143b5ff8734f8",
+  "phase": "candidate",
+  "baselineCommit": "bc32c8ae81e5c396bdcd5be0374143b5ff8734f8",
+  "publicCommit": null,
   "acquireAssets": false,
   "archiveRevision": true,
-  "note": "Verify deployed daily/weekly/month filter combination, weekly navigation and unchanged issue content."
+  "note": "Remove redundant overview topbar; place language navigation beside the main title. Preserve archive filters, content and release infrastructure."
 }

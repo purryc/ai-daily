@@ -30,6 +30,21 @@ export async function checkArchive({browser, url, live, locale, phase, check, sc
   check('archive-reset-hidden-default',!await p.locator('[data-archive-filters] [data-archive-reset]').isVisible());
   const expectedYears=[...new Set(allDates.map(d=>d.slice(0,4)))].sort().reverse();
   check('archive-years',same(await p.locator('[data-archive-year] option').evaluateAll(els=>els.map(e=>e.value)),['all',...expectedYears]));
+  for(const width of [320,390,768,1600]){
+    await p.setViewportSize({width,height:900});
+    const header=await p.locator('.archive-head').evaluate(root=>{
+      const title=root.querySelector('h1'),languages=root.querySelector('.lang-switch');
+      const t=title.getBoundingClientRect(),l=languages.getBoundingClientRect();
+      return {sameRow:title.parentElement===languages.parentElement,overlap:t.right>l.left-7,
+        titleLeft:t.left,languageRight:l.right,overflow:document.documentElement.scrollWidth>innerWidth+1,
+        fontSize:parseFloat(getComputedStyle(title).fontSize),languageLabel:languages.getAttribute('aria-label'),
+        current:languages.querySelectorAll('[aria-current="page"]').length,
+        targets:[...languages.querySelectorAll('a')].map(a=>{const r=a.getBoundingClientRect();return {width:r.width,height:r.height,href:a.getAttribute('href'),hreflang:a.hreflang}})};
+    });
+    check('archive-unified-title-language-header',header.sameRow&&!header.overlap&&!header.overflow&&header.titleLeft>=0&&header.languageRight<=width&&header.fontSize>=22&&Boolean(header.languageLabel)&&header.current===1&&header.targets.length===2&&header.targets.every(t=>t.width>=44&&t.height>=44&&t.hreflang),{width,...header});
+    check('archive-redundant-topbar-removed',await p.locator('.topbar,.search-pill,.nav-links').count()===0,{width});
+  }
+  await p.setViewportSize({width:1600,height:900});
   await capture(`${locale}-archive-after.jpg`);
   for(const viewport of [{width:1600,height:900},{width:390,height:844}]){
     await p.setViewportSize(viewport);await p.goto(home,{waitUntil:'domcontentloaded'});await ready();

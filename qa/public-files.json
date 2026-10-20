@@ -1126,8 +1126,8 @@
   },
   {
     "path": "assets/archive-filter.css",
-    "bytes": 4004,
-    "sha256": "c160135a3237079c543e04948a79d2f034b7b4df8a2186b1ed303095b756ac99"
+    "bytes": 5153,
+    "sha256": "24e2fc71aea37d20c38837fad03ac25492a0090ede55b5e1259b9e83d41f0710"
   },
   {
     "path": "assets/archive-filter.mjs",
@@ -1486,13 +1486,13 @@
   },
   {
     "path": "en/index.html",
-    "bytes": 154982,
-    "sha256": "2a6937a867e529ce798b69f2a6a318134e577c2503fd1646007bda9eb654dc64"
+    "bytes": 154861,
+    "sha256": "6c127e18ffa5271b162f82396ee95ffaf8b1ba56fe6301cf06a03b70ea717dcf"
   },
   {
     "path": "index.html",
-    "bytes": 149307,
-    "sha256": "98e3ca4ca3b54b189c3d8272a317fa2e67dcf21bcea9e303494ad25e5c47060b"
+    "bytes": 149187,
+    "sha256": "a816918fed477ffe7fdabcaac5cb84c17802928bb49059d62156c3a21373aec4"
   },
   {
     "path": "manifest.json",
