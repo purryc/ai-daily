@@ -671,8 +671,8 @@
   },
   {
     "path": "2026-10-20/en/details/cloudflare-clairic.html",
-    "bytes": 6526,
-    "sha256": "33c82e17ac02a0af8a907944b56bc60bbe8877356b04b54a86458262824bfdde"
+    "bytes": 6521,
+    "sha256": "f4c1c9af11f58244801feda1de9c7c4d56bc187f648e3cc6d32de51020f532a4"
   },
   {
     "path": "2026-10-20/en/details/conversemr.html",
@@ -696,8 +696,8 @@
   },
   {
     "path": "2026-10-20/en/details/dream-labs-dream1.html",
-    "bytes": 5783,
-    "sha256": "75fc1c54de51b40e81f6a69ce052702e15c84048bf5219638508274a7380d6bf"
+    "bytes": 5854,
+    "sha256": "3f282688518d9e83a9c095c47437c6292598961a7567be084773441bf0df3449"
   },
   {
     "path": "2026-10-20/en/details/exa-3.html",
@@ -736,8 +736,8 @@
   },
   {
     "path": "2026-10-20/en/details/krea-3.html",
-    "bytes": 6351,
-    "sha256": "f96bf970280190217a76c32343b94094a9a05794fc14f89dea18b1c062e47df7"
+    "bytes": 6395,
+    "sha256": "9748b57d0dba0773186cc560f58cafd7d59efb5a75237785161f256b61b004dc"
   },
   {
     "path": "2026-10-20/en/details/litert-tensor.html",
@@ -766,8 +766,8 @@
   },
   {
     "path": "2026-10-20/en/details/payani-execution.html",
-    "bytes": 6567,
-    "sha256": "d6cdd17c7e29594e5a154d11431adcf3b42b4ea308b2cf2b5390f0da8711f97e"
+    "bytes": 6628,
+    "sha256": "eba75136e1194d3799a0439c32ffc639f6dc7ec52d86d9045eca60eacc3dd8a2"
   },
   {
     "path": "2026-10-20/en/details/promptile.html",
@@ -811,8 +811,8 @@
   },
   {
     "path": "2026-10-20/en/details/thought-industries-lens.html",
-    "bytes": 6409,
-    "sha256": "2314d890de97fdfb93866826caeba3d565e14dc7cef5d617c8b85d633c30d479"
+    "bytes": 6529,
+    "sha256": "70d647942177f5f78b936a1964a4efd5cb68730a49c731739d20c13aaa46d454"
   },
   {
     "path": "2026-10-20/en/details/unitree-uniuni.html",
@@ -831,8 +831,8 @@
   },
   {
     "path": "2026-10-20/en/details/wally-by-willow.html",
-    "bytes": 6387,
-    "sha256": "6e1f0a8b82f4df3d87d71e40ac0ffd101f84085ce93c132a6573653b4d67aaf9"
+    "bytes": 6444,
+    "sha256": "7537044ad32e605aca734c65d77d41ba5e7b875c395e9effee5e0b203a1c09de"
   },
   {
     "path": "2026-10-20/en/index.html",
@@ -842,7 +842,7 @@
   {
     "path": "2026-10-20/manifest.json",
     "bytes": 47454,
-    "sha256": "ff3344e450dd192c144a87a431919fcb39dd5026c5e3d5e8ebb9518d9f0a8419"
+    "sha256": "86dd968edbddff1e4cae6dad417d50ab2dadbb71123cfc9cb9548492a042d1f0"
   },
   {
     "path": "2026-10-20/sources.html",
@@ -896,8 +896,8 @@
   },
   {
     "path": "2026-10-20/zh/details/cloudflare-clairic.html",
-    "bytes": 5722,
-    "sha256": "0d52cc5918128f86d2920c9c18fa8da57df3bb7a422eb1b60a11fcfeb0ed5d4a"
+    "bytes": 5728,
+    "sha256": "bc92355fb0f6caffff9a819ea225204479ecc710c2880de74613255becab7184"
   },
   {
     "path": "2026-10-20/zh/details/conversemr.html",
@@ -921,8 +921,8 @@
   },
   {
     "path": "2026-10-20/zh/details/dream-labs-dream1.html",
-    "bytes": 5206,
-    "sha256": "648739815633bf409c5d06ca94db204618e305b8cd09004bc3cb3f7047aac8cf"
+    "bytes": 5314,
+    "sha256": "27c0dc1b78cdd62127fda7006f2941e6f8d2973e0fe7efeed69a09fbf8cddf18"
   },
   {
     "path": "2026-10-20/zh/details/exa-3.html",
@@ -961,8 +961,8 @@
   },
   {
     "path": "2026-10-20/zh/details/krea-3.html",
-    "bytes": 5888,
-    "sha256": "c505672b6c145640796c8d519e83410e0ef80a55bef5263090301011c5efa2fc"
+    "bytes": 5924,
+    "sha256": "4305d2782b05f2542524a835755c320e7424d6208a14c28dd603f491307ef044"
   },
   {
     "path": "2026-10-20/zh/details/litert-tensor.html",
@@ -991,8 +991,8 @@
   },
   {
     "path": "2026-10-20/zh/details/payani-execution.html",
-    "bytes": 5808,
-    "sha256": "c6fd0d259b2942545886fcab6f54f1a5b029918a7cf54dd9c69ef300e990e336"
+    "bytes": 5895,
+    "sha256": "ee3836c63df5330797755a38f7766111c08d3fa569a9451bec119ff87be59e2a"
   },
   {
     "path": "2026-10-20/zh/details/promptile.html",
@@ -1036,8 +1036,8 @@
   },
   {
     "path": "2026-10-20/zh/details/thought-industries-lens.html",
-    "bytes": 5582,
-    "sha256": "91d69453dc71321df93a5b3a0060fd7928e6eaeb14d68ccd50f15ec26c632859"
+    "bytes": 5726,
+    "sha256": "73466070f526dd5a9caf7af2ec90aee0410d59c212b6e7316e4eb140aa966e20"
   },
   {
     "path": "2026-10-20/zh/details/unitree-uniuni.html",
@@ -1056,8 +1056,8 @@
   },
   {
     "path": "2026-10-20/zh/details/wally-by-willow.html",
-    "bytes": 5765,
-    "sha256": "71789ab9d440f34467ef0cee5fa77bf9458f4bafc1e973fe358a6e6384dc4269"
+    "bytes": 5813,
+    "sha256": "48433d1974b7a2959f258e94cbd46c5119d5439175f639b7bec4f9f910fec644"
   },
   {
     "path": "2026-10-20/zh/index.html",

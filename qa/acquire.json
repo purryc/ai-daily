@@ -1,8 +1,9 @@
 [
   {
-    "kind": "screenshot",
-    "name": "krea-api-readable.jpg",
-    "url": "https://www.krea.ai/docs/developers/krea-3/overview",
+    "kind": "image",
+    "name": "torchneuron-architecture.jpg",
+    "url": "https://pytorch.org/wp-content/uploads/2026/10/AWS-TorchNeuron-image-1.png",
+    "renderImage": true,
     "locale": "zh"
   }
 ]

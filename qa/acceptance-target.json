@@ -3,5 +3,5 @@
   "baselineCommit": "d33193f665845adac6348185e30bb36d15578154",
   "publicCommit": null,
   "note": "Expanded editorial candidate; existing frozen workflow and publication hold retained.",
-  "acquireAssets": false
+  "acquireAssets": true
 }

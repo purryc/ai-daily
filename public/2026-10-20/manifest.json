@@ -7,8 +7,8 @@
   "sourcesPath": "sources.html",
   "metrics": {
     "body": {
-      "zhDenseChars": 32016,
-      "enWords": 19686
+      "zhDenseChars": 32127,
+      "enWords": 19731
     },
     "perProduct": {
       "speakon": {
@@ -80,8 +80,8 @@
         "en": 422
       },
       "dream-labs-dream1": {
-        "zh": 709,
-        "en": 439
+        "zh": 739,
+        "en": 448
       },
       "standard-bots-ai": {
         "zh": 686,
@@ -96,16 +96,16 @@
         "en": 436
       },
       "thought-industries-lens": {
-        "zh": 790,
-        "en": 474
+        "zh": 820,
+        "en": 489
       },
       "payani-execution": {
-        "zh": 824,
-        "en": 467
+        "zh": 851,
+        "en": 477
       },
       "cloudflare-clairic": {
-        "zh": 779,
-        "en": 484
+        "zh": 782,
+        "en": 483
       },
       "conversemr": {
         "zh": 725,
@@ -124,12 +124,12 @@
         "en": 442
       },
       "krea-3": {
-        "zh": 794,
-        "en": 451
+        "zh": 800,
+        "en": 459
       },
       "wally-by-willow": {
-        "zh": 775,
-        "en": 445
+        "zh": 790,
+        "en": 449
       },
       "kai-resolve": {
         "zh": 807,
