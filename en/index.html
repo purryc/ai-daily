@@ -22,8 +22,6 @@
         <nav class="topbar" aria-label="Primary">
           <div class="search-pill">Browse issues by date</div>
           <div class="nav-links">
-            <a href="#archive">Daily</a>
-            <a href="/ai-daily/weekly/">Weekly</a>
             <a href="#filters">Time filter</a>
             <a href="/ai-daily/2026-10-20/sources.html">Sources</a>
           </div>
@@ -40,19 +38,20 @@
         </header>
 
         <section class="archive-filters" id="filters" data-archive-filters aria-label="Date and sorting">
-          <fieldset class="archive-months"><legend>Month</legend><div class="archive-month-grid"><button type="button" data-archive-month="all" aria-pressed="true" aria-label="All · 86 issues"><span data-month-name>All</span><span data-month-count aria-hidden="true">86</span></button><button type="button" data-archive-month="06" aria-pressed="false" aria-label="Jun · 13 issues"><span data-month-name>Jun</span><span data-month-count aria-hidden="true">13</span></button><button type="button" data-archive-month="07" aria-pressed="false" aria-label="Jul · 18 issues"><span data-month-name>Jul</span><span data-month-count aria-hidden="true">18</span></button><button type="button" data-archive-month="08" aria-pressed="false" aria-label="Aug · 19 issues"><span data-month-name>Aug</span><span data-month-count aria-hidden="true">19</span></button><button type="button" data-archive-month="09" aria-pressed="false" aria-label="Sep · 23 issues"><span data-month-name>Sep</span><span data-month-count aria-hidden="true">23</span></button><button type="button" data-archive-month="10" aria-pressed="false" aria-label="Oct · 13 issues"><span data-month-name>Oct</span><span data-month-count aria-hidden="true">13</span></button></div></fieldset>
+          <fieldset class="archive-types"><legend>Issue type</legend><div class="archive-type-grid"><button type="button" data-archive-type="all" aria-pressed="true" aria-label="All · 87 issues"><span data-type-name>All</span><span data-type-count aria-hidden="true">87</span></button><button type="button" data-archive-type="daily" aria-pressed="false" aria-label="Daily · 86 issues"><span data-type-name>Daily</span><span data-type-count aria-hidden="true">86</span></button><button type="button" data-archive-type="weekly" aria-pressed="false" aria-label="Weekly · 1 issues"><span data-type-name>Weekly</span><span data-type-count aria-hidden="true">1</span></button></div></fieldset>
+          <fieldset class="archive-months"><legend>Month</legend><div class="archive-month-grid"><button type="button" data-archive-month="all" aria-pressed="true" aria-label="All · 87 issues"><span data-month-name>All</span><span data-month-count aria-hidden="true">87</span></button><button type="button" data-archive-month="06" aria-pressed="false" aria-label="Jun · 13 issues"><span data-month-name>Jun</span><span data-month-count aria-hidden="true">13</span></button><button type="button" data-archive-month="07" aria-pressed="false" aria-label="Jul · 18 issues"><span data-month-name>Jul</span><span data-month-count aria-hidden="true">18</span></button><button type="button" data-archive-month="08" aria-pressed="false" aria-label="Aug · 19 issues"><span data-month-name>Aug</span><span data-month-count aria-hidden="true">19</span></button><button type="button" data-archive-month="09" aria-pressed="false" aria-label="Sep · 23 issues"><span data-month-name>Sep</span><span data-month-count aria-hidden="true">23</span></button><button type="button" data-archive-month="10" aria-pressed="false" aria-label="Oct · 14 issues"><span data-month-name>Oct</span><span data-month-count aria-hidden="true">14</span></button></div></fieldset>
           <div class="archive-filter-toolbar">
             <label for="archive-year"><span>Year</span><select id="archive-year" data-archive-year><option value="all">All years</option></select></label>
             <label for="archive-order"><span>Sort</span><select id="archive-order" data-archive-order><option value="newest">Newest first</option><option value="oldest">Oldest first</option></select></label>
-            <button type="button" data-archive-reset hidden>Clear dates</button>
+            <button type="button" data-archive-reset hidden>Clear filters</button>
           </div>
-          <p class="archive-filter-status" role="status" aria-live="polite" aria-atomic="true" data-archive-status>All years · All months · 86 issues</p>
+          <p class="archive-filter-status" role="status" aria-live="polite" aria-atomic="true" data-archive-status>All years · All months · 87 issues</p>
         </section>
         <section class="archive-empty" data-archive-empty hidden aria-labelledby="archive-empty-title">
-          <h2 id="archive-empty-title">No issues for this month</h2><p>Choose another month, or clear the date filters to browse all indexed issues.</p><button type="button" data-archive-reset>Clear date filters</button>
+          <h2 id="archive-empty-title">No issues for this month</h2><p>Choose another month, or clear the date filters to browse all indexed issues.</p><button type="button" data-archive-reset>Clear filters</button>
         </section>
 
-        <section class="issue-list" id="archive" aria-label="Daily issues">
+        <section class="issue-list" id="archive" aria-label="Daily and weekly issues">
         <article class="issue-card" data-time="latest y-2026 m-2026-10 d-2026-10-20">
           <figure class="issue-thumb"><img src="/ai-daily/2026-10-20/assets/speakon-agent.webp" style="object-fit:contain" alt="SpeakON official product image" loading="lazy" decoding="async"></figure>
           <div class="issue-main">
@@ -133,6 +132,12 @@
             <a href="./2026-10-12/sources.md">Sources</a>
           </div>
         </article>
+        <article class="issue-card" data-archive-type="weekly" data-time="y-2026 m-2026-10 d-2026-10-12">
+          <figure class="issue-thumb"><img src="/ai-daily/weekly/assets/revision2/morningai-website-display.webp" alt="MorningAI official product image from the weekly pilot" loading="lazy" decoding="async"></figure>
+          <div class="issue-main"><div class="issue-kicker">WEEKLY PILOT · 2026-10-12–14 · America/Toronto</div><h2>From product screens to real operational work</h2><p>Weekly pilot · October 12–14, Toronto time. Partial week; revised October 15. 7 product deep dives, 3 real-workflow candidates and 33 sources.</p><div class="chip-row"><span>Partial week</span><span>Products and demand</span></div><div class="mini-source">Pilot image · <a href="https://www.morningai.com/blog/october-12-2026-product-updates" target="_blank" rel="noreferrer">MorningAI</a></div></div>
+          <div class="issue-actions"><a class="primary" href="/ai-daily/weekly/2026-10-12/pilot/en/">English</a><a href="/ai-daily/weekly/2026-10-12/pilot/zh/">中文版</a><a href="/ai-daily/weekly/2026-10-12/pilot/sources.md">Sources</a></div>
+        </article>
+
         <article class="issue-card" data-time="y-2026 m-2026-10 d-2026-10-11">
           <figure class="issue-thumb">
             <img src="/ai-daily/2026-10-11/assets/gmktec-evo-x5-pro-2026-10-11.png" alt="GMKtec EVO-X5 Pro turns offline large-model capacity into a deployable workstation" loading="lazy" decoding="async" />
