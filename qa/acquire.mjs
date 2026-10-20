@@ -3,7 +3,7 @@ import {createHash} from 'node:crypto';
 import {chromium} from 'playwright';
 const dir=process.env.RUNNER_TEMP+'/daily-acquisition';
 await fs.mkdir(dir,{recursive:true});
-const plan=JSON.parse(await fs.readFile(new URL('./acquire.json',import.meta.url)));
+const plan=JSON.parse(await fs.readFile(new URL('./acquire.json',import.meta.url))).filter(x=>!x.locale||x.locale===process.env.QA_EVIDENCE_LOCALE);
 const report=[];
 for(const item of plan){
  try {

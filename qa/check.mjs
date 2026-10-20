@@ -50,6 +50,7 @@ async function screen(page,name){await page.screenshot({path:path.join(out,name)
 try{
  report.static=await staticCheck();console.log('STATIC_REPORT '+JSON.stringify(report.static));
  if(!process.argv.includes('--static-only')){
+  if(cfg.acquireAssets) await import('./acquire.mjs');
   await fs.mkdir(out,{recursive:true});const {chromium}=await import('playwright');browser=await chromium.launch({executablePath:process.env.AI_DAILY_CHROMIUM_PATH||'/usr/bin/google-chrome',chromiumSandbox:true,headless:true,args:['--enable-automation']});
   const sp=await browser.newPage(),cdp=await sp.context().newCDPSession(sp);const args=(await cdp.send('Browser.getBrowserCommandLine')).arguments;assert(!args.some(x=>/^--(?:no-sandbox|disable-setuid-sandbox)(?:=|$)/.test(x)),'SANDBOX_DISABLED');await sp.goto('chrome://sandbox');const text=await sp.locator('body').innerText();report.sandbox={seccomp:/Seccomp-BPF sandbox\s+Yes/i.test(text),namespaceOrSuid:/(?:SUID sandbox|PID namespaces)\s+Yes/i.test(text),disabledFlags:false};assert(report.sandbox.seccomp&&report.sandbox.namespaceOrSuid,'SANDBOX_NOT_VERIFIED');await sp.close();
   const live=process.env.QA_LIVE_BASE;assert(live==='https://purryc.github.io/ai-daily/','LIVE_TARGET');

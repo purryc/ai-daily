@@ -1,8 +1,86 @@
 [
   {
     "kind": "image",
-    "name": "coralboard-product.jpg",
-    "url": "https://developer.synaptics.com/coral/Coralboard-sl-box-dev-board.png",
-    "renderImage": true
+    "name": "promptile.jpg",
+    "url": "https://arxiv.org/html/2610.26485v1/picture/frontend_ENhighlight2.png",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "name": "openvlharness.jpg",
+    "url": "https://arxiv.org/html/2610.26860v1/architecture.png",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "name": "cling.jpg",
+    "url": "https://arxiv.org/html/2610.25879v1/assets/teaser.png",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "name": "mintlify.jpg",
+    "url": "https://www.mintlify.com/images/featured/autopilot-preview.webp",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "name": "exa.jpg",
+    "url": "https://exa.ai/images/blog/exa-3/data-sources.png",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "name": "bill.jpg",
+    "url": "https://cdn.prod.website-files.com/63e56114746188c54e2936e0/6ad29245212da42fce14067b_GIF%20-%20Risk%20Intelligence.gif",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "name": "motive.jpg",
+    "url": "https://gomotive.com/wp-content/uploads/2026/10/blog-agents-anticipate-and-resolve-2x.webp",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "name": "bee.jpg",
+    "url": "https://assets.aboutamazon.com/20/14/9d6951844795a24f71e544c24dce/bee-frontier-eclipse-hero-amazonnews-ck101426.jpg",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "name": "uniuni.jpg",
+    "url": "https://roboticaguide.com/wp-content/uploads/2026/10/unitree-uniuni-swarm-control-software-h2-g1-1044x548.jpg",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "name": "brera.jpg",
+    "url": "https://about.fb.com/wp-content/uploads/2026/10/Sensing-Art-_-1.jpg",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "name": "mobo.jpg",
+    "url": "https://ml.globenewswire.com/Resource/Download/1be9133a-c36b-4d50-8ba8-f52eae858e11/aimoga.jpg",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "name": "dream.jpg",
+    "url": "https://dreamlabs.ai/research/dream-1/assets/launch-still.webp",
+    "renderImage": true,
+    "locale": "en"
   }
 ]
