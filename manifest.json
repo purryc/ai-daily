@@ -1,14 +1,14 @@
 [
   {
     "date": "2026-10-20",
-    "zhTitle": "AI Daily｜2026年10月20日 · 从语音意图到可检查的执行",
-    "enTitle": "AI Daily | October 20, 2026 · From spoken intent to inspectable execution",
-    "zhSummary": "SpeakON、镜舟 MIP、Coralboard、LiteRT、Hermes 与 VISAGENT。两项当日产品发布、一项公告复核、三项近三日补充；用真实图证细看操作、状态、失败与采用门槛。",
-    "enSummary": "SpeakON, MirrorShip MIP, Coralboard, LiteRT, Hermes and VISAGENT. Two same-day product announcements, one announcement review and three three-day supplements, with real visuals and detailed workflows, failure states and adoption boundaries.",
+    "zhTitle": "AI Daily｜2026年10月20日 · AI走向行动，控制权必须可见",
+    "enTitle": "AI Daily | October 20, 2026 · Visible control as AI moves into action",
+    "zhSummary": "扩展修订：39项目各一张主阅读页，附完整深读；软件、硬件、软硬结合、DIY、开源与研究。原截止不变，新增和回看逐项标明；103条引用、39份真实图证。",
+    "enSummary": "Expanded revision: 39 project overview pages with full analysis across software, hardware, hybrid systems, DIY, open source and research. Original cutoff retained; event windows labeled. 103 references and 39 real visuals.",
     "tags": [
-      "voice workflows",
-      "edge AI",
-      "agent control",
+      "agent workflows",
+      "hardware / DIY",
+      "open source",
       "research"
     ],
     "sourceTypes": [

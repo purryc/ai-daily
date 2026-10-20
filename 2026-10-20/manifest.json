@@ -6,147 +6,955 @@
   "backfill": false,
   "sourcesPath": "sources.html",
   "metrics": {
-    "date": "2026-10-20",
     "body": {
-      "zhDenseChars": 7042,
-      "enWords": 4774
+      "zhDenseChars": 32170,
+      "enWords": 19648
     },
-    "products": 6,
-    "references": 20,
-    "coreVisuals": 6,
-    "slidesPerLocale": 30,
     "perProduct": {
       "speakon": {
-        "zhDenseChars": 1682,
-        "enWords": 931
+        "zh": 1682,
+        "en": 936
       },
       "mirrorship-mip": {
-        "zhDenseChars": 1084,
-        "enWords": 758
+        "zh": 1084,
+        "en": 758
       },
       "coralboard": {
-        "zhDenseChars": 994,
-        "enWords": 765
+        "zh": 1124,
+        "en": 833
       },
       "litert-tensor": {
-        "zhDenseChars": 1092,
-        "enWords": 764
+        "zh": 1232,
+        "en": 847
       },
       "hermes-friction": {
-        "zhDenseChars": 999,
-        "enWords": 800
+        "zh": 999,
+        "en": 800
       },
       "visagent": {
-        "zhDenseChars": 1191,
-        "enWords": 756
+        "zh": 1191,
+        "en": 756
+      },
+      "iphone-agent-harness": {
+        "zh": 866,
+        "en": 623
+      },
+      "exa-3": {
+        "zh": 641,
+        "en": 430
+      },
+      "bill-ai-controls": {
+        "zh": 706,
+        "en": 424
+      },
+      "motive-agents": {
+        "zh": 706,
+        "en": 424
+      },
+      "promptile": {
+        "zh": 864,
+        "en": 453
+      },
+      "openvlharness": {
+        "zh": 829,
+        "en": 469
+      },
+      "cling": {
+        "zh": 842,
+        "en": 449
+      },
+      "bee-frontier-eclipse": {
+        "zh": 758,
+        "en": 467
+      },
+      "unitree-uniuni": {
+        "zh": 765,
+        "en": 453
+      },
+      "brera-sensing-art": {
+        "zh": 782,
+        "en": 453
+      },
+      "aimoga-mobo": {
+        "zh": 741,
+        "en": 422
+      },
+      "dream-labs-dream1": {
+        "zh": 739,
+        "en": 445
+      },
+      "standard-bots-ai": {
+        "zh": 686,
+        "en": 422
+      },
+      "neura-neuron-ai": {
+        "zh": 686,
+        "en": 424
+      },
+      "torchneuron": {
+        "zh": 688,
+        "en": 435
+      },
+      "thought-industries-lens": {
+        "zh": 820,
+        "en": 489
+      },
+      "payani-execution": {
+        "zh": 851,
+        "en": 477
+      },
+      "cloudflare-clairic": {
+        "zh": 782,
+        "en": 483
+      },
+      "conversemr": {
+        "zh": 725,
+        "en": 397
+      },
+      "gazeagent": {
+        "zh": 727,
+        "en": 426
+      },
+      "splatxr": {
+        "zh": 757,
+        "en": 420
+      },
+      "interactagent": {
+        "zh": 777,
+        "en": 440
+      },
+      "krea-3": {
+        "zh": 800,
+        "en": 454
+      },
+      "wally-by-willow": {
+        "zh": 790,
+        "en": 444
+      },
+      "kai-resolve": {
+        "zh": 807,
+        "en": 456
+      },
+      "different": {
+        "zh": 669,
+        "en": 414
+      },
+      "walkai-talkai": {
+        "zh": 676,
+        "en": 438
+      },
+      "beam-win": {
+        "zh": 696,
+        "en": 442
+      },
+      "pythia-pocket-agent": {
+        "zh": 763,
+        "en": 442
+      },
+      "figma-specs": {
+        "zh": 738,
+        "en": 433
+      },
+      "spooky-pumpkin": {
+        "zh": 732,
+        "en": 412
+      },
+      "robot-data-diff": {
+        "zh": 682,
+        "en": 418
+      },
+      "deepinfer": {
+        "zh": 767,
+        "en": 440
       }
-    }
+    },
+    "primarySummaries": {
+      "speakon": {
+        "zh": 177,
+        "en": 106
+      },
+      "mirrorship-mip": {
+        "zh": 192,
+        "en": 112
+      },
+      "coralboard": {
+        "zh": 179,
+        "en": 124
+      },
+      "litert-tensor": {
+        "zh": 198,
+        "en": 120
+      },
+      "hermes-friction": {
+        "zh": 212,
+        "en": 127
+      },
+      "visagent": {
+        "zh": 227,
+        "en": 120
+      },
+      "iphone-agent-harness": {
+        "zh": 198,
+        "en": 138
+      },
+      "exa-3": {
+        "zh": 163,
+        "en": 106
+      },
+      "bill-ai-controls": {
+        "zh": 177,
+        "en": 112
+      },
+      "motive-agents": {
+        "zh": 187,
+        "en": 110
+      },
+      "promptile": {
+        "zh": 180,
+        "en": 108
+      },
+      "openvlharness": {
+        "zh": 174,
+        "en": 110
+      },
+      "cling": {
+        "zh": 170,
+        "en": 115
+      },
+      "bee-frontier-eclipse": {
+        "zh": 144,
+        "en": 87
+      },
+      "unitree-uniuni": {
+        "zh": 160,
+        "en": 104
+      },
+      "brera-sensing-art": {
+        "zh": 170,
+        "en": 103
+      },
+      "aimoga-mobo": {
+        "zh": 174,
+        "en": 104
+      },
+      "dream-labs-dream1": {
+        "zh": 166,
+        "en": 102
+      },
+      "standard-bots-ai": {
+        "zh": 173,
+        "en": 103
+      },
+      "neura-neuron-ai": {
+        "zh": 176,
+        "en": 104
+      },
+      "torchneuron": {
+        "zh": 162,
+        "en": 107
+      },
+      "thought-industries-lens": {
+        "zh": 162,
+        "en": 115
+      },
+      "payani-execution": {
+        "zh": 156,
+        "en": 115
+      },
+      "cloudflare-clairic": {
+        "zh": 160,
+        "en": 112
+      },
+      "conversemr": {
+        "zh": 174,
+        "en": 114
+      },
+      "gazeagent": {
+        "zh": 170,
+        "en": 116
+      },
+      "splatxr": {
+        "zh": 167,
+        "en": 118
+      },
+      "interactagent": {
+        "zh": 172,
+        "en": 115
+      },
+      "krea-3": {
+        "zh": 175,
+        "en": 114
+      },
+      "wally-by-willow": {
+        "zh": 186,
+        "en": 113
+      },
+      "kai-resolve": {
+        "zh": 178,
+        "en": 119
+      },
+      "different": {
+        "zh": 171,
+        "en": 115
+      },
+      "walkai-talkai": {
+        "zh": 170,
+        "en": 114
+      },
+      "beam-win": {
+        "zh": 178,
+        "en": 119
+      },
+      "pythia-pocket-agent": {
+        "zh": 177,
+        "en": 102
+      },
+      "figma-specs": {
+        "zh": 160,
+        "en": 99
+      },
+      "spooky-pumpkin": {
+        "zh": 165,
+        "en": 119
+      },
+      "robot-data-diff": {
+        "zh": 159,
+        "en": 123
+      },
+      "deepinfer": {
+        "zh": 168,
+        "en": 121
+      }
+    },
+    "counting": "Only unique full-analysis product paragraphs count toward body gates; summaries, captions, coverage and sources excluded.",
+    "products": 39,
+    "references": 103,
+    "coreVisuals": 39,
+    "slidesPerLocale": 44,
+    "primaryProjectPages": 39,
+    "attachedProjectDetails": 39
   },
   "eventCounts": {
-    "sameDayProductAnnouncements": 2,
-    "sameDayAnnouncementObservations": 1,
-    "threeDaySupplements": 3,
-    "uncertain24hBoundaryWithinSupplements": 1,
-    "sevenDayRetrospectives": 0
+    "mainWindowEvents": 12,
+    "nearThreeDayReviews": 17,
+    "sevenDayReviews": 10,
+    "interpretation": "Events include announcements, research and code observations; not a count of first product releases."
   },
   "topics": [
     {
       "id": "speakon",
-      "zhHeadline": "SpeakON Agent",
-      "enHeadline": "SpeakON Agent",
+      "zhHeadline": "语音先变成可修改的笔记，再进入外部动作",
+      "enHeadline": "Edit the spoken intent before it becomes an external action",
       "eventAt": "2026-10-20T12:00:00Z",
       "freshness": "announcement-with-earlier-availability",
-      "evidence": "confirmed product · vendor announcement, not hands-on"
+      "evidence": "confirmed product · vendor announcement, not hands-on",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
       "id": "mirrorship-mip",
-      "zhHeadline": "MirrorShip MIP",
-      "enHeadline": "MirrorShip MIP",
+      "zhHeadline": "把业务口径放进查询链，仍要有人对口径负责",
+      "enHeadline": "Shared semantics need an accountable owner, not just a chat box",
       "eventAt": "2026-10-20",
       "freshness": "24h-new-regional-product-launch",
-      "evidence": "confirmed product / official demonstration"
+      "evidence": "confirmed product / official demonstration",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
       "id": "coralboard",
-      "zhHeadline": "Synaptics Coralboard SL / SR",
-      "enHeadline": "Synaptics Coralboard SL / SR",
+      "zhHeadline": "常开感知应比较整机有效识别能耗，而不只看TOPS",
+      "enHeadline": "For always-on sensing, measure whole-device energy per useful result",
       "eventAt": "2026-10-20",
       "freshness": "dated today; exact publication time not stated; independently surfaced by 05:30 PT media before cutoff",
-      "evidence": "confirmed product + developer surface"
+      "evidence": "confirmed product + developer surface",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
       "id": "litert-tensor",
-      "zhHeadline": "LiteRT Tensor API / SAM 2 Web demo",
-      "enHeadline": "LiteRT Tensor API / SAM 2 Web demo",
+      "zhHeadline": "先转换现成模型，只有搬运瓶颈才值得手写图",
+      "enHeadline": "Convert the model first; author a graph for a measured handoff bottleneck",
       "eventAt": "2026-10-19",
       "freshness": "near-three-day supplement; date-only publication cannot establish 24h boundary",
-      "evidence": "developer surface; vendor demo; collection-environment failure observation"
+      "evidence": "developer surface; vendor demo; collection-environment failure observation",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
       "id": "hermes-friction",
-      "zhHeadline": "Hermes Desktop",
-      "enHeadline": "Hermes Desktop",
+      "zhHeadline": "后台还在运行，不代表用户仍有可用的控制权",
+      "enHeadline": "A live backend does not mean the user still has usable control",
       "eventAt": "2026-10-19T10:01:40Z",
       "freshness": "near-three-day-supplement",
-      "evidence": "review/community friction"
+      "evidence": "review/community friction",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     },
     {
       "id": "visagent",
-      "zhHeadline": "VISAGENT",
-      "enHeadline": "VISAGENT",
+      "zhHeadline": "把电话转给正确代理，只完成了服务交接的第一步",
+      "enHeadline": "Routing a call correctly is only the first service handoff",
       "eventAt": "2026-10-19T10:59:45Z",
       "freshness": "near-three-day-supplement",
-      "evidence": "research signal"
+      "evidence": "research signal",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
+    },
+    {
+      "id": "iphone-agent-harness",
+      "zhHeadline": "手机代理无线化之后，仍要证明看见了正确结果",
+      "enHeadline": "A wireless phone agent must still verify the result on screen",
+      "eventAt": "2026-10-20T10:21:22Z",
+      "freshness": "original-window code observation added in revision",
+      "evidence": "Author repository at pinned commit; not independently executed",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
+    },
+    {
+      "id": "exa-3",
+      "zhHeadline": "低价搜索是否省钱，要把过期答案和升级重试一起计入",
+      "enHeadline": "Cheaper search saves money only after stale answers and retries are counted",
+      "eventAt": "2026-10-19",
+      "freshness": "near-three-day; date-only, strict 24h boundary unproven",
+      "evidence": "Three-day lookback; date-only evidence, strict 24-hour boundary uncertain",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
+    },
+    {
+      "id": "bill-ai-controls",
+      "zhHeadline": "异常发票进入审批前，AI 应先解释风险并留下可检查记录",
+      "enHeadline": "Before an invoice is paid, AI should explain the exception and expose its actions",
+      "eventAt": "2026-10-19",
+      "freshness": "near-three-day; date-only, strict 24h boundary unproven",
+      "evidence": "Three-day lookback; date-only evidence, strict 24-hour boundary uncertain",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
+    },
+    {
+      "id": "motive-agents",
+      "zhHeadline": "从车队告警到维修工单，先证明闭环再承诺自主运营",
+      "enHeadline": "From fleet alert to work order, prove closure before promising autonomous operations",
+      "eventAt": "2026-10-19",
+      "freshness": "near-three-day; date-only, strict 24h boundary unproven",
+      "evidence": "Three-day lookback; date-only evidence, strict 24-hour boundary uncertain",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
+    },
+    {
+      "id": "promptile",
+      "zhHeadline": "少打字不等于更快：把提示偏好做成可编辑积木",
+      "enHeadline": "Less typing is not faster: make prompting preferences editable",
+      "eventAt": "2026-10-19T14:27:41Z",
+      "freshness": "main-window",
+      "evidence": "Primary24-hour window · HCI research preprint",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
+    },
+    {
+      "id": "openvlharness",
+      "zhHeadline": "视觉 Agent 的价值，不只会看图，还能把证据留给下一步计算",
+      "enHeadline": "Visual agents need reusable evidence, not just another look",
+      "eventAt": "2026-10-19T17:59:58Z",
+      "freshness": "main-window",
+      "evidence": "Primary24-hour window · new paper; repository already existed",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
+    },
+    {
+      "id": "cling",
+      "zhHeadline": "跨网页自动化不必全权委托：让人决定下一步，让系统搬运信息",
+      "enHeadline": "Let people choose the next step while automation moves the information",
+      "eventAt": "2026-10-19T06:37:54Z",
+      "freshness": "near-three-day",
+      "evidence": "Near-three-day review · HCI research prototype",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
+    },
+    {
+      "id": "bee-frontier-eclipse",
+      "zhHeadline": "随身记忆的新外壳：真正成本在校对、同意和订阅",
+      "enHeadline": "Wearable memory adds a new enclosure, but correction and consent remain the work",
+      "eventAt": "2026-10-15",
+      "freshness": "seven-day-review; date-only, strict 24h boundary unproven",
+      "evidence": "Weekly lookback: October15 announcement, not an October20 launch",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
+    },
+    {
+      "id": "unitree-uniuni",
+      "zhHeadline": "机器人群舞的可视化控制台，最难的是从路径到急停",
+      "enHeadline": "A visual swarm console must connect choreography to recoverable physical execution",
+      "eventAt": "2026-10-16",
+      "freshness": "seven-day-review; date-only, strict 24h boundary unproven",
+      "evidence": "Weekly lookback: October16 official demonstration, discovered through October19 coverage",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
+    },
+    {
+      "id": "brera-sensing-art",
+      "zhHeadline": "八幅画的无障碍试点：眼镜负责找画，解释仍需分层",
+      "enHeadline": "An eight-artwork accessibility pilot separates recognition, interpretation and assistance",
+      "eventAt": "2026-10-13",
+      "freshness": "seven-day-report-review; date-only, strict 24h boundary unproven",
+      "evidence": "Weekly coverage lookback: Meta posted October14 and modified October15; museum says pilot launched October13, with time unknown at the strict seven-day boundary",
+      "qualifyingReportAt": "2026-10-14",
+      "eventDateNote": "Pilot began Oct 13 (boundary time unknown); selected Oct 14 official report, not a new Oct 14 launch."
+    },
+    {
+      "id": "aimoga-mobo",
+      "zhHeadline": "家庭陪伴机器人开启预热，先核验任务与交付边界",
+      "enHeadline": "Mobo's family-companion announcement leaves task and delivery boundaries to verify",
+      "eventAt": "2026-10-17T10:27:00Z",
+      "freshness": "seven-day-review",
+      "evidence": "Weekly lookback: October17 at10:27Z announcement, outside72hours; October21 unveiling and preorders remain future events",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
+    },
+    {
+      "id": "dream-labs-dream1",
+      "zhHeadline": "返回动作之后，还要确认杯子真的放稳",
+      "enHeadline": "An action response still needs a stable cup",
+      "eventAt": "2026-10-19T17:00:00Z",
+      "freshness": "main-window",
+      "evidence": "Original 24-hour window: October 19 launch announcement; research beta",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
+    },
+    {
+      "id": "standard-bots-ai",
+      "zhHeadline": "iPad建好程序，下一班还要看懂工件状态",
+      "enHeadline": "An iPad routine must leave an intelligible part state",
+      "eventAt": "2026-10-15T16:05:00Z",
+      "freshness": "seven-day-review",
+      "evidence": "Seven-day expansion: October 15 vendor availability announcement, not a new release today",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
+    },
+    {
+      "id": "neura-neuron-ai",
+      "zhHeadline": "听见卡扣之后，机器人应更新可信状态",
+      "enHeadline": "A latch sound should update trustworthy robot state",
+      "eventAt": "2026-10-14",
+      "freshness": "seven-day-review; date-only, strict 24h boundary unproven",
+      "evidence": "Seven-day expansion: October 14 model introduction; October 20–22 demonstration planned",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
+    },
+    {
+      "id": "torchneuron",
+      "zhHeadline": "改一个设备入口，仍要验完整实验和账单",
+      "enHeadline": "One device change still needs workload and cost validation",
+      "eventAt": "2026-10-19T13:00:10Z",
+      "freshness": "near-three-day",
+      "evidence": "Three-day expansion: October 19 announcement; October 20 public beta and open-source release planned",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
+    },
+    {
+      "id": "thought-industries-lens",
+      "zhHeadline": "先审阅冲突，再把一致答案送到客户面前",
+      "enHeadline": "Review conflicts before delivering consistent answers to customers",
+      "eventAt": "2026-10-20T13:00:00Z",
+      "freshness": "main-window",
+      "evidence": {
+        "level": "primary release and product FAQ; no tenant access",
+        "availability": "Beta; Agents Studio coming soon",
+        "notVerified": [
+          "refresh failure behavior",
+          "revoked access behavior",
+          "workflow agent availability",
+          "outcome improvement"
+        ],
+        "factInferencePolicy": "Vendor claims are identified as such; workflow requirements and evaluation plans are editorial analysis, not observed product behavior."
+      },
+      "qualifyingReportAt": null,
+      "eventDateNote": null
+    },
+    {
+      "id": "payani-execution",
+      "zhHeadline": "从回复名单到跟进动作，先让人核对对象",
+      "enHeadline": "Connect campaign replies to follow-ups with reviewable recipients",
+      "eventAt": "2026-10-20T12:01:00Z",
+      "freshness": "main-window",
+      "evidence": {
+        "level": "primary vendor release and FAQ; no live execution",
+        "availability": "Launch announced October 20; existing platform context",
+        "notVerified": [
+          "deduplication",
+          "partial failure recovery",
+          "migration completeness",
+          "image contents"
+        ],
+        "factInferencePolicy": "Vendor claims are identified as such; workflow requirements and evaluation plans are editorial analysis, not observed product behavior."
+      },
+      "qualifyingReportAt": null,
+      "eventDateNote": null
+    },
+    {
+      "id": "cloudflare-clairic",
+      "zhHeadline": "把字段连回原文，再决定哪些结果可自动入库",
+      "enHeadline": "Link fields to source evidence before automating record writes",
+      "eventAt": "2026-10-19",
+      "freshness": "near-three-day; date-only, strict 24h boundary unproven",
+      "evidence": {
+        "level": "primary technical launch article and official API documentation",
+        "availability": "Hosted preview; open weights planned",
+        "strictCutoffEligible": false,
+        "notVerified": [
+          "exact launch hour",
+          "independent accuracy or latency",
+          "weights release",
+          "image pixels"
+        ],
+        "factInferencePolicy": "Vendor claims are identified as such; workflow requirements and evaluation plans are editorial analysis, not observed product behavior."
+      },
+      "qualifyingReportAt": null,
+      "eventDateNote": null
+    },
+    {
+      "id": "conversemr",
+      "zhHeadline": "语音定义跟随规则，手势接回精细控制",
+      "enHeadline": "Speak the following rule, then retain precise manual control",
+      "eventAt": "2026-10-17T11:30:56Z",
+      "freshness": "seven-day-review",
+      "evidence": "Seven-day research context; outside 72 hours",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
+    },
+    {
+      "id": "gazeagent",
+      "zhHeadline": "眼镜移位后，从日常动作补回校准证据",
+      "enHeadline": "Use everyday actions to refresh calibration after glasses shift",
+      "eventAt": "2026-10-17T01:31:47Z",
+      "freshness": "seven-day-review",
+      "evidence": "Seven-day research context; outside 72 hours",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
+    },
+    {
+      "id": "splatxr",
+      "zhHeadline": "给逼真资产补上碰撞结构，仍要验收交互",
+      "enHeadline": "Add collision structure to photorealistic assets, then test interaction",
+      "eventAt": "2026-10-19T13:08:34Z",
+      "freshness": "near-three-day",
+      "evidence": "Three-day research context; outside 24 hours",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
+    },
+    {
+      "id": "interactagent",
+      "zhHeadline": "虚拟人看完动作再改计划，执行器仍决定细节",
+      "enHeadline": "Revise a virtual human plan after observing its motion",
+      "eventAt": "2026-10-19T01:51:14Z",
+      "freshness": "near-three-day",
+      "evidence": "Three-day research context; outside 24 hours",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
+    },
+    {
+      "id": "krea-3",
+      "zhHeadline": "低价快改图之后，真正要管的是保留区和整批返工成本",
+      "enHeadline": "Fast image edits still need preservation checks and batch economics",
+      "eventAt": "2026-10-15",
+      "freshness": "seven-day-review; date-only, strict 24h boundary unproven",
+      "evidence": "Weekly review: October15 model launch; separately documented October19 API opening, exact time unavailable",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
+    },
+    {
+      "id": "wally-by-willow",
+      "zhHeadline": "语音写作从一次转写，变成可持续修订的个人草稿会话",
+      "enHeadline": "Voice writing becomes a continuing draft conversation",
+      "eventAt": "2026-10-19",
+      "freshness": "near-three-day; date-only, strict 24h boundary unproven",
+      "evidence": "Near-three-day observation: October19 Wally announcement; Scribe already existed in May",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
+    },
+    {
+      "id": "kai-resolve",
+      "zhHeadline": "支持 Agent 的升级，是带证据交接，而不是擅自把调查变成修复",
+      "enHeadline": "Support escalation gains value when the evidence travels with it",
+      "eventAt": "2026-10-19",
+      "freshness": "near-three-day; date-only, strict 24h boundary unproven",
+      "evidence": "Near-three-day workflow observation: October19 handoff article and October17 help update; not a verified first release",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
+    },
+    {
+      "id": "different",
+      "zhHeadline": "营销代理的价值不只在产出广告，还在跨渠道失败时有人接手",
+      "enHeadline": "A marketing agent matters when cross-channel failures have an owner",
+      "eventAt": "2026-10-20T10:00:00Z",
+      "freshness": "main-window",
+      "evidence": "Within original cutoff window: public launch and funding announcement",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
+    },
+    {
+      "id": "walkai-talkai",
+      "zhHeadline": "对讲机让编码代理离开屏幕，送达提示却不等于任务成功",
+      "enHeadline": "A walkie-talkie frees the operator from the screen, but delivery is not completion",
+      "eventAt": "2026-10-19",
+      "freshness": "near-three-day; date-only, strict 24h boundary unproven",
+      "evidence": "Three-day lookback: Product Hunt launch observation, not a proven first product release",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
+    },
+    {
+      "id": "beam-win",
+      "zhHeadline": "常驻代理需要的不是第二张桌面，而是能辨认来源的远端窗口",
+      "enHeadline": "Persistent agents need remote windows whose source and state remain clear",
+      "eventAt": "2026-10-19",
+      "freshness": "near-three-day; date-only, strict 24h boundary unproven",
+      "evidence": "Three-day lookback: Product Hunt launch observation, not a proven first product release",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
+    },
+    {
+      "id": "pythia-pocket-agent",
+      "zhHeadline": "按一下保住现场笔记，但发送前的边界仍待公开",
+      "enHeadline": "One button preserves the field note; the sending boundary still needs evidence",
+      "eventAt": "2026-10-19",
+      "freshness": "near-three-day; date-only, strict 24h boundary unproven",
+      "evidence": "Recent prototype observation: project page created October19, time and timezone unknown; not a shipping or open-source release",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
+    },
+    {
+      "id": "figma-specs",
+      "zhHeadline": "把PRD变成画布对象，增量是上下文连接与协作",
+      "enHeadline": "Specs makes the PRD a canvas object with shared context and collaboration",
+      "eventAt": "2026-10-15",
+      "freshness": "seven-day-review; date-only, strict 24h boundary unproven",
+      "evidence": "Weekly lookback: official open-beta launch October15; October19 Product Hunt listing is not the original launch",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
+    },
+    {
+      "id": "spooky-pumpkin",
+      "zhHeadline": "南瓜会看会听，先让访客知道何时开口",
+      "enHeadline": "A seeing, speaking pumpkin needs a trustworthy listening cue",
+      "eventAt": "2026-10-19",
+      "freshness": "near-three-day; date-only, strict 24h boundary unproven",
+      "evidence": "Maker publication within three days; date only, not a precise 24-hour event",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
+    },
+    {
+      "id": "robot-data-diff",
+      "zhHeadline": "先找训练数据改了哪里，摘要相同不等于完整一致",
+      "enHeadline": "Find dataset changes, without mistaking matching summaries for identity",
+      "eventAt": "2026-10-19T21:38:27Z",
+      "freshness": "main-window",
+      "evidence": "Code observed inside the original 24-hour window; October 19 maker introduction, while package 0.1.0 was released October 13",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
+    },
+    {
+      "id": "deepinfer",
+      "zhHeadline": "拿到推理核心，完整服务仍需补齐缓存与路由",
+      "enHeadline": "An inference core still needs cache and service routing",
+      "eventAt": "2026-10-20T11:03:13Z",
+      "freshness": "main-window",
+      "evidence": "Pinned code and documentation within the original 24 hours; root commit at 04:09:42Z, not a formal tagged release",
+      "qualifyingReportAt": null,
+      "eventDateNote": null
     }
   ],
   "laneScans": [
     {
       "lane": "official",
-      "status": "sampled",
-      "zh": "以10月19日至20日AI产品发布及近七日扩展窗口查询厂商公告、开发博客、文档和发行记录，实际读取SpeakON公告与商店描述、镜舟产品与语义文章、Synaptics发布及教程、Google LiteRT博客与仓库。TorchNeuron也取得官方技术说明，但与本期端侧工具链主题重叠，保留观察，不把每个技术模块拆成条目。Boeing Dataliner虽有当日公告与官方图，却缺少足够具体的操作、控制和失败资料，未用长篇推测填充。Axonius命中安全资产清单公告，正文获取不完整，未提升。下一步补读新接口的版本固定文档并核对实际开放账户；此次没有覆盖所有厂商，也未把发布声明当成交付实测。",
-      "en": "Queries targeted AI product announcements dated October 19 and 20, with a seven-day expansion for context. We read SpeakON's announcement and store description, MirrorShip's product and semantic explanations, Synaptics' launch and operational tutorial, and Google's LiteRT post and repository. TorchNeuron also had a substantive official technical account, but was retained on the watchlist rather than adding another developer-tool story to this edition. We did not split hardware, compiler and ecosystem components into separate products. Boeing Dataliner had a dated announcement and official photograph, but the reviewed material did not disclose enough interaction, control or failure detail to support a deep dossier. Axonius appeared in discovery, with incomplete body retrieval, and was not promoted. The next check is version-pinned operational documentation and actual account availability. This is a bounded company-source sample, not a complete vendor census, and announcement statements are not hands-on delivery evidence."
+      "status": "expanded primary-source sample; mixed release stages",
+      "zh": "官方线从原六项扩到产品发布、操作文档和固定代码。实际复读 Mintlify 的 Autopilot、credits 与 GitHub 前提，Exa 的 Lite 参数及缓存限制，BILL 的风险检查与控制中心，Motive 的触发动作与未来外呼时间表；工作场景再追 Harmony、Lens、Payani、Demandbase、Google 政府服务和 Cloudflare。Different 原始新闻稿明确十月二十日十点 UTC，早于截止；Demandbase 在十四点，仍在窗口。Mintlify 和政府版 Gemini 只有当天日期，保留待核时观察，不补造时分。当前文档也可能晚于原截止更新，不能倒推历史功能或套餐。TorchNeuron 已补成独立迁移分析，不再沿用早稿因主题重复而只列观察的决定。这是有界且非穷尽的原始来源样本：公告、Beta、私有预览、计划开放与已交付分别记录，未进入客户账户验证。",
+      "en": "The official-source pass now extends the original six stories with product announcements, operational documentation and pinned code. Actual reads include Mintlify Autopilot setup and credits, Exa Lite parameters and cached retrieval, BILL risk checks and centralized controls, and Motive trigger/action workflows versus its later voice-agent roadmap. Additional workplace dossiers follow Harmony, Lens, Payani, Demandbase, government Gemini and Cloudflare. Different’s original release establishes 10:00 UTC on October 20; Demandbase is recorded at 14:00, still before the 14:08 cutoff. Mintlify and government Gemini have only same-day dates and remain timing-unverified observations. Current documentation is not a historical snapshot of features or entitlements. TorchNeuron now has a distinct migration dossier, superseding the earlier decision to retain it only because its topic overlapped. This is a bounded, non-exhaustive primary-source sample. Announcements, beta access, private preview, planned availability and delivered capability remain separate states, and no customer account was used to verify service behavior.",
+      "sourceUrls": [
+        "https://www.mintlify.com/docs/autopilot",
+        "https://exa.ai/docs/reference/search",
+        "https://www.bill.com/press-release/bill-launches-new-suite-of-ai-capabilities",
+        "https://gomotive.com/blog/motive-launches-ai-agents/",
+        "https://www.different.ai/product"
+      ],
+      "recordInputs": [
+        "edition-base.json",
+        "expanded-software.json",
+        "expanded-workplace.json",
+        "expanded-wild.json",
+        "expanded-robots.json"
+      ],
+      "bounded": true,
+      "lengths": {
+        "zhHanCharacters": 215,
+        "enWords": 153
+      }
     },
     {
       "lane": "reviews",
-      "status": "partial / access gap",
-      "zh": "评测线检索到Reuters、TechCrunch对TorchNeuron的报道，以及VentureBeat对Google与Synaptics芯片的新闻，这些主要核对公告存在，并非独立操作或能耗测试。另追到StorageReview的Open WebUI Desktop Windows上手文章；本次页面提取实际只返回导航和同意管理面板，标题与摘要不能支持正文中的速度比较，因此未把它写成评测结论。VentureBeat发现页的生成式宣传图明确排除，不计真实图证。现阶段本期没有独立硬件或软件上手结果，Hermes只是一条社区观察。下一步应补取合法可读的测试配置、版本、任务、失败步骤和原始结果；缺少正文不能改写成“没有问题”或“评测通过”。",
-      "en": "The review lane surfaced Reuters and TechCrunch coverage of TorchNeuron and a VentureBeat report on Google and Synaptics hardware. These primarily corroborate that announcements occurred; they do not establish independent operation or energy measurements. A further lead was StorageReview's Windows hands-on article about Open WebUI Desktop. The attempted page extraction returned navigation and consent-management content rather than the review body. Its title and description cannot support the advertised speed comparison, so no review conclusion was promoted. A generated promotional image associated with a discovery result was excluded from visual evidence. This edition therefore contains no independent hardware or software hands-on result; the Hermes case remains a community report. The next step is to obtain a legitimately readable account of configuration, version, task, failure conditions and measured output. An unreadable body is an access gap, not evidence of either a clean test or an absence of problems."
+      "status": "partial independent-review access; no reproduced product benchmark",
+      "zh": "评测线实际发现 Reuters、TechCrunch 的 TorchNeuron 报道及 VentureBeat 的芯片报道，主要用于核对公告，不充当独立能耗测试。StorageReview 的 Open WebUI Desktop 页面提取曾只返回导航及同意面板，不能从标题推断速度结果。扩刊读取 Krea 的价格与速度口径、Coralboard 的厂商比较、Dream-1 的研究 Beta 和 Own 1 的厂家跑分说法，但这些仍属于厂商或作者证据；未把新闻转述、客户证言和自己的产品推断叠加成独立复现。已有云端页面与图片验收只验证本刊产物、图像内容及来源，不等于测试被报道产品。公开截图也可能是样例、预览或未来界面：Mintlify 装饰插图与 Motive 未来目标框已被识别，不可作当前操作证明。本线有界、非穷尽，仍缺同版本、同负载、包含失败恢复与完整费用的合法可读独立对照，不能报“评测通过”。",
+      "en": "The review lane found Reuters and TechCrunch coverage of TorchNeuron and VentureBeat coverage of the chip announcements, principally as corroboration of an announcement rather than independent energy tests. The StorageReview Open WebUI Desktop extraction previously returned navigation and consent controls instead of the review body; its title cannot establish a speed result. Expansion added Krea’s price and latency claims, Coralboard’s vendor comparison, Dream-1’s research beta and Own 1’s maker-described benchmarks. These remain vendor or author evidence. News repetition, selected customer testimony and editorial interpretation are not independent reproductions when combined. Cloud browser checks of this publication and pixel inspection of its illustrations validate the publication artifact, not the products being reported. Images can also depict samples or future capabilities: Mintlify’s decorative illustration and Motive’s future goal-entry screen must not demonstrate current workflows. This bounded, non-exhaustive lane still lacks matched-version independent comparisons covering workload, failures, recovery and full cost; no product is described as having passed our benchmark.",
+      "sourceUrls": [
+        "https://www.krea.ai/blog/introducing-krea-3",
+        "https://developer.synaptics.com/blog/coralboard-vs-raspberry-pi-5",
+        "https://dreamlabs.ai/research/dream-1/",
+        "https://checkout.ownx.co/"
+      ],
+      "recordInputs": [
+        "edition-base.json",
+        "expanded-creator.json",
+        "expanded-robots.json",
+        "expanded-wild.json",
+        "expanded-software.json"
+      ],
+      "bounded": true,
+      "lengths": {
+        "zhHanCharacters": 243,
+        "enWords": 157
+      }
     },
     {
       "lane": "community",
-      "status": "one issue / one comment",
-      "zh": "社区线以Hermes桌面冻结、工具执行与近期GitHub问题为查询，完整读取#141485及唯一回复，并用官方Desktop README与v0.22.2发行记录核对背景。创建于10月19日10:01 UTC，早于主窗口起点，按近三日补充；没有把本次重新打开页面算新问题。报告者只有一位，回复关联身份为NONE，不能称维护者确认或独立复现。旧的六月与七月冻结帖子超出窗口，只帮助识别重复主题，不加入本期故障计数。GitHub目录枚举遇429后停止；没有读取私密Discord、Reddit全量或X登录内容。下一步跟踪修复提交进入哪个发行版、报告者是否验证，以及相同版本不同平台是否复现；目前无总体分母，不计算失败率。",
-      "en": "Community queries focused on Hermes desktop freezes, tool execution and recent GitHub issues. We read issue 141485 and its single reply, then checked the official Desktop README and the v0.22.2 release for context. Its creation at 10:01 UTC on October 19 precedes the main window, so it is a three-day supplement. Reopening the page today does not make it a new complaint. There is one reporter, and the reply's association is NONE; neither maintainer confirmation nor independent reproduction is established. June and July freeze reports were excluded from the event count as older context. A GitHub directory request encountered rate limiting and was not retried. Private Discord, a full Reddit sample and login-gated X content were not read. Follow-up should identify a fixing commit, its release inclusion and reporter validation, then examine matched versions on other platforms. With no population denominator, the observation provides no defensible failure-rate estimate."
+      "status": "public issues, maker comments and forum samples; private channels not read",
+      "zh": "社区线完整读取 Hermes 问题及唯一回复，再用官方 README 和发行记录核对：十月十九日十点零一 UTC 的报告属于近三日补充，单个报告者及非维护者回复不能证明普遍故障率。扩刊还读到 Figma Specs 十月十六日用户希望集中目录和悬浮预览的帖子，论坛标记 Solved 只伴随转交团队，不能写成已实现。Product Hunt 的 Beam 和 walkai-talkai 作者评论用于追查重连、音频回传和已知限制；点赞、赞美、作者承诺不等于独立验收。Open Robotics 的 robot-data-diff 作者介绍与 PyPI 首发、固定提交分开记。GitHub 曾遇限流，未据此声称平台不可用。未进入私密 Discord、微信社群或登录后的 X，也没有全量采样 Reddit；公开评论仅为有界非穷尽线索，缺少总体分母、版本对照与后续验证。",
+      "en": "The community lane read the Hermes issue and its single reply, then checked official documentation and release context. The October 19 report at 10:01 UTC is a three-day supplement; one reporter and a non-maintainer reply cannot establish a population failure rate. Expansion also read the October 16 Figma Specs request for centralized navigation and a floating preview. Its Solved label accompanies a support handoff, not evidence that those features shipped. Beam and walkai-talkai maker comments on Product Hunt explain reconnection, radio replies and limitations, but votes, praise and maker assurances are not independent acceptance tests. The robot-data-diff introduction on Open Robotics is dated separately from its PyPI release and pinned commit. A prior GitHub rate-limit encounter is recorded as a request-level gap, not platform unavailability. Private Discord, WeChat groups and login-only X were not entered, and Reddit was not comprehensively sampled. These are bounded public observations without a population denominator, matched-version comparison or confirmed follow-up.",
+      "sourceUrls": [
+        "https://forum.figma.com/suggest-a-feature-11/figma-spec-feature-request-59038",
+        "https://www.producthunt.com/products/beam-win",
+        "https://www.producthunt.com/products/walkai-talkai",
+        "https://discourse.openrobotics.org/t/robot-data-diff-episode-aware-diffs-for-lerobot-datasets/58956"
+      ],
+      "recordInputs": [
+        "edition-base.json",
+        "expanded-prototypes.json",
+        "expanded-wild.json",
+        "expanded-maker.json"
+      ],
+      "bounded": true,
+      "lengths": {
+        "zhHanCharacters": 223,
+        "enWords": 156
+      }
     },
     {
       "lane": "wild",
-      "status": "partial / no promoted startup",
-      "zh": "探索线用当日与前一日AI launch关键词搜寻新创、开发项目及非主流入口，实际命中Town融资报道、Payani AI新闻稿与若干GitHub开发线索。Town的融资不能说明新的产品交互，Payani在已读材料中缺少足够操作与真实UI证据，两者均不提升。SpeakON虽属新硬件入口，报道仍依官方产品与商店证据，不凭奖项、Product Hunt名次或用户赞语推断留存和付费。此次没有完成Product Hunt完整榜单、众筹平台与所有开源发布的系统扫描，保留具体覆盖缺口。下一步应找可操作demo、公开版本或交付记录，并核对等待名单、预览与已发货差别；不能用预约数或营销图补齐产品条数。",
-      "en": "Exploratory queries used AI launch terms for the current and previous day to find startups, developer projects and less familiar entry points. The observed leads included Town funding coverage, a Payani AI release and GitHub development material. Funding alone did not establish a new interaction, while the Payani material lacked sufficient operational detail and real-interface evidence for promotion. SpeakON is an unusual hardware entry point, but its dossier relies on product and store evidence rather than awards, Product Hunt ranking or testimonials as proxies for retention or payment. A complete Product Hunt leaderboard, crowdfunding-platform sweep and systematic review of every open-source release were not performed. Those are explicit coverage gaps. The next useful evidence would be an operable demonstration, a public version or a delivery record that distinguishes a waitlist, preview and shipped product. Reservation counts and marketing illustrations cannot substitute for that distinction or justify adding another story."
+      "status": "expanded Product Hunt, startup and maker sample; mixed maturity",
+      "zh": "探索线实际扫描 Product Hunt 十月十九日可见精选十七项、十月十七日精选和第四十二周榜，再跟到 Beam、walkai-talkai、Own 1 等作者页面。父线程的并行公开扫描成功访问十月二十日榜，补得 bonds、ToDo.is、Jotform 等线索；早先单次失败不能写成该日普遍不可访问。榜单是发现入口，不是首发时间：Figma Specs 追到十五日，Composio Instant 为八日，RunInfra 更早。Hackaday、Hackster、Open Robotics 与仓库补出 Pythia、南瓜、手机 Harness 和数据比较工具；Different 则追到原始发布稿及产品审阅链。Pythia 可写原型，不能称有可复刻源码；Own 1 可写预生产提案，不能称已经交货。本线有界非穷尽，未遍历榜单全部分页、众筹平台或所有仓库；缺完整接口、图证或日期者保留明确原因，不为条数上限删掉已具实质内容的产品。",
+      "en": "The exploratory pass read seventeen visible featured cards from the October 19 Product Hunt archive, the October 17 archive and week 42, then followed maker pages including Beam, walkai-talkai and Own 1. A parallel public scan by the parent also accessed October 20 and surfaced bonds, ToDo.is and Jotform; an earlier individual failure must not become a claim that the day was universally inaccessible. Rankings are discovery surfaces, not first-release evidence: Figma Specs traces to October 15, Composio Instant to October 8, and RunInfra earlier still. Hackaday, Hackster, Open Robotics and repositories added Pythia, the pumpkin, phone Harness and dataset comparison work. Different was followed to its original release and approval workflow. Pythia supports a prototype observation, not a reproducible open-source claim; Own 1 supports a preproduction proposal, not confirmed shipment. This bounded, non-exhaustive scan did not traverse every archive page, crowdfunding platform or repository. Missing interfaces, imagery or dates remain explicit gaps rather than reasons to enforce an arbitrary story quota.",
+      "sourceUrls": [
+        "https://www.producthunt.com/leaderboard/daily/2026/10/19",
+        "https://www.producthunt.com/leaderboard/daily/2026/10/20",
+        "https://www.producthunt.com/leaderboard/daily/2026/10/17",
+        "https://www.producthunt.com/leaderboard/weekly/2026/42",
+        "https://hackaday.io/project/207118-pythia-a-pocket-ai-agent-by-skinformatics",
+        "https://www.different.ai/product"
+      ],
+      "recordInputs": [
+        "research-products.json",
+        "candidate-ledger.json",
+        "expanded-wild.json",
+        "expanded-maker.json",
+        "expanded-prototypes.json",
+        "parent-confirmed parallel public scan"
+      ],
+      "bounded": true,
+      "lengths": {
+        "zhHanCharacters": 223,
+        "enWords": 163
+      }
     },
     {
       "lane": "research",
-      "status": "full paper read / no replication",
-      "zh": "研究线按10月19日arXiv、agent interface和HCI相关词检索，读取VISAGENT v1全文及Annotrace v2正文和版本历史。VISAGENT于10月19日10:59:45 UTC首次提交，采用原论文流程图，按近三日研究补充，不把热线实验当已上市软件能力。Annotrace虽有10月19日v2更新，但未确认相对10月16日初稿的实质差分，未靠更新日期制造事件。WildAWM只读到摘要，SPRA版本差分未评估，均保留观察。此次没有全量遍历arXiv、ACM或所有实验室，也未复现实验。下一步优先核对数据、代码、参与者任务与比较基线，并检查评估是否覆盖异常、人工接管及真实部署约束。 论文作者与平台均不构成独立复现证据。",
-      "en": "Research queries combined October 19 arXiv dates with agent-interface and HCI terms. We read the VISAGENT v1 paper and the Annotrace v2 text and version history. VISAGENT's initial submission was at 10:59:45 UTC on October 19; it is a three-day research supplement, illustrated with its original workflow figure. Results from the hotline setting are not treated as capabilities of a released commercial product. Annotrace had an October 19 v2 update, but the substantive difference from its October 16 first submission was not established, so the date alone did not create a selected event. WildAWM remained abstract-only and SPRA's version change was not assessed. No complete arXiv, ACM or laboratory census and no experiment replication were performed. Follow-up should inspect data, code, participant tasks and comparison baselines, with particular attention to exceptions, human takeover and deployment constraints that may be absent from the reported evaluation."
+      "status": "expanded full-paper and version sample; no experiment replication",
+      "zh": "研究线由 VISAGENT 扩到 Promptile、OpenVLHarness、Cling、ConverseMR、GazeAgent、SplatXR 与 InteractAgent 的原始论文及可访问项目资料。Promptile 和 OpenVLHarness 的十九日下午提交位于主窗口；Cling、SplatXR、InteractAgent 在近三日，十七日上午的两项 XR 研究已超过七十二小时。核对结果保留了有意义的限制：Promptile 少打字却未更快，Cling 使用归档网页和预缓存结构，GazeAgent 仍是离线推理，SplatXR 代码链接返回404，InteractAgent 仓库与论文骨干不一致。原论文图只证明研究设计与作者结果，不代表商用品或独立复现。Annotrace 版本变化未建立实质差分，TapID 的旧会议时间也阻止把新索引当新研究。扫描有界非穷尽，未遍历 ACM、所有实验室或完整 arXiv 列表，未运行模型或实验；评估对象、样本量、配置与许可分别留在各稿。",
+      "en": "The research lane expanded from VISAGENT to original papers and accessible project material for Promptile, OpenVLHarness, Cling, ConverseMR, GazeAgent, SplatXR and InteractAgent. Promptile and OpenVLHarness have afternoon October 19 submissions within the main window. Cling, SplatXR and InteractAgent belong to the nearby-days supplement, while the October 17 morning XR submissions are already beyond seventy-two hours. The review preserves substantive limits: Promptile reduced typing without reducing time; Cling used archived pages and cached structure; GazeAgent inference is offline; SplatXR’s code link returned 404; and InteractAgent’s repository backbone differs from the paper. Original figures document research design and author-reported results, not a commercial release or independent replication. Annotrace’s version update lacked an established substantive difference, and TapID’s older conference date prevents treating a fresh index entry as new research. This was a bounded, non-exhaustive paper sample, not a census of ACM, laboratories or arXiv. No models or experiments were run; evaluation scope, configurations and licensing remain item-specific.",
+      "sourceUrls": [
+        "https://arxiv.org/html/2610.26485v1",
+        "https://arxiv.org/html/2610.26860v1",
+        "https://arxiv.org/html/2610.25879v1",
+        "https://arxiv.org/html/2610.24364v1",
+        "https://arxiv.org/html/2610.26338v1",
+        "https://arxiv.org/html/2610.25649v1"
+      ],
+      "recordInputs": [
+        "edition-base.json",
+        "expanded-hci.json",
+        "expanded-xr.json",
+        "candidate-ledger.json"
+      ],
+      "bounded": true,
+      "lengths": {
+        "zhHanCharacters": 211,
+        "enWords": 155
+      }
     },
     {
       "lane": "patent",
-      "status": "sampled / no current patent promoted",
-      "zh": "专利线查询Google Patents中2026-10-15、artificial intelligence、interface和agent组合，检查命中元数据而非仅看搜索日期。一个Twilio动态上下文窗口专利WO2025221751A1的真实公开日是2025-10-23，优先权为2024-04-15；检索命中的2026-10-15属于预计到期字段，不能当作本周公开。另一近似命中也有同样日期陷阱，均排除。本期没有获得足以提升的当期专利，但这不等于当期没有专利。USPTO、WIPO、EPO与CNIPA原生查询及完整同族归并未完成。下一步须从公开日字段限定窗口，再查看同族、权利要求和原始附图；专利方向也不能直接推断厂商量产或上市计划。 日期核验先于技术方向解读。",
-      "en": "Patent queries combined the date October 15, 2026 with artificial-intelligence, interface and agent terms in Google Patents. We inspected metadata instead of accepting the date displayed in a search match. Twilio's dynamic-context-window record WO2025221751A1 was actually published on October 23, 2025, with priority dated April 15, 2024. The matched October 15, 2026 value belonged to anticipated-expiration metadata, not a current publication. A similar hit had the same freshness problem; both were excluded. No current-window patent was sufficiently verified for promotion, which does not mean that no patent appeared during the period. Native USPTO, WIPO, EPO and CNIPA queries and comprehensive family reconciliation remain unperformed. The next pass should restrict the publication-date field, inspect family relationships, claims and original figures, and maintain the distinction between an invention disclosure and an actual manufacturing or launch commitment. The present sample supports an exclusion decision, not an industry-wide negative finding."
+      "status": "public discovery attempted; no qualified current publication; provider gap",
+      "zh": "专利线确实执行了带日期、智能眼镜、人工智能与用户界面的公开查询，并检查命中字段。Twilio 的动态上下文窗口 WO2025221751A1 与 Samsung 的可穿戴外壳 WO2025220987A1 实际公开于二〇二五年十月二十三日，命中的二〇二六年十月十五日来自预计失效字段，均不能算本周。另有 Samsung US20260319572A1 与 McCreary US20260321263A1 的十五日二手线索，但原始公开、权利要求和同族未取齐，仍不提升为已核实专利。现有专利连接器只读状态显示没有配置数据提供方，Google Patents 原生日期筛选页也读取失败；没有为此创建凭据或改变配置。本线是有界非穷尽的检索和排除记录，不等于全球没有相关专利。USPTO、WIPO、EPO、CNIPA 的完整原生检索与同族归并尚未完成，不能以专利标题推断量产计划，也没有可计入本刊的当期原始专利图。",
+      "en": "Patent work included actual public queries combining dates with smart glasses, artificial intelligence and user interfaces, followed by inspection of the matched metadata. Twilio’s dynamic-context-window record WO2025221751A1 and Samsung’s wearable-housing record WO2025220987A1 were published on October 23, 2025. Their matched October 15, 2026 field concerned anticipated expiry, so neither is current-week evidence. Later discovery included secondary October 15 leads for Samsung US20260319572A1 and McCreary US20260321263A1, but original publications, claims and family relationships remain unverified. Read-only connector status showed no configured patent providers, and the filtered Google Patents results page was inaccessible. No credentials were created or configuration changed. This is a bounded, non-exhaustive search-and-exclusion record, not a statement that no relevant patent exists worldwide. Comprehensive native USPTO, WIPO, EPO and CNIPA searching and family reconciliation were not completed. A patent title cannot establish manufacturing plans, and no verified current-window original patent figure is available for the edition.",
+      "sourceUrls": [
+        "https://patents.google.com/patent/WO2025221751A1/en",
+        "https://patents.google.com/patent/WO2025220987A1/en"
+      ],
+      "recordInputs": [
+        "research-china-patents.json",
+        "candidate-ledger.json"
+      ],
+      "bounded": true,
+      "lengths": {
+        "zhHanCharacters": 247,
+        "enWords": 147
+      }
     },
     {
       "lane": "china",
-      "status": "sampled / regional scope",
-      "zh": "中文线检索10月20日AI产品与智能体发布，并追到镜舟官方MIP产品页、发布会议程、语义技术文章与凤凰网发布报道。官方入口仍是预约演示、文档即将上线，因此不把发布会描述成全量自助开放。ManageEngine卓豪30余款智能体的中国报道已发现，但本地原始活动材料和可用图证未齐，保持观察；美团DeepSkill只见发现入口，未补成规格。Veeva材料实际为九月事件，排除。腾讯TokenHub相关下线通知的生效时刻晚于本期截止，只列未来观察，未写成已经下线。微信私密直播与登录demo没有访问；下一步核对区域授权、开放时间、权限和实际试用入口，而不是把中文报道自动等同国内独立验证。",
-      "en": "Chinese-language queries targeted October 20 AI products and agents, then traced MirrorShip's official MIP product page, launch agenda, semantic technical posts and the Phoenix launch report. The visible entry remains a demonstration request and documentation is labeled forthcoming, so the event is not described as universal self-service access. A China announcement about more than thirty ManageEngine agents was discovered, but the local primary event material and usable imagery were incomplete. It remains on watch. Meituan DeepSkill was a discovery lead, not a verified specification dossier. Veeva material concerned September and was excluded. A Tencent TokenHub shutdown notice takes effect after this edition's cutoff, so it is future watch rather than a completed shutdown. Private WeChat streams and login-gated demonstrations were not accessed. The next check is regional entitlement, opening date, permissions and actual trial entry, without treating Chinese-language coverage as an independent domestic product test."
+      "status": "Chinese-language and China-linked primary sample; regional/private gaps",
+      "zh": "中国相关线先读镜舟 MIP 官方产品、语义文章和发布材料，明确预约演示与文档待上线，不把会议发布当全量自助开放。扩刊继续核对 Unitree UniUni 官方控制入口、AiMOGA Mobo 的原始预告，以及 DeepSeek DeepInfer 截止前固定代码和部署问答。UniUni 来源仍要区分官方演示与十九日二手报道，Mobo 十七日预告的二十一日揭幕尚未发生，DeepInfer 固定提交不是正式发行标签。此前发现的 ManageEngine 中国消息与更早全球发布不合并算新能力；STEPX Neo 仍只有二手首销线索。中国专利原件与微信私密直播、登录 demo、社群讨论没有补齐，不宣称已全面覆盖国内生态。这里是有界非穷尽地域取样：英文发布的中国厂商也在内，中文转载不自动获得独立证据资格。采购地区、许可、实际售价与账户开放仍需逐项核实，不能由全球营销页推断加拿大或中国均可用。",
+      "en": "The China-related lane first read MirrorShip’s official MIP product, semantic explanations and launch material, preserving the distinction between a demo request, forthcoming documentation and universal self-service access. Expansion checked the official Unitree UniUni control entry, AiMOGA Mobo’s original announcement and DeepSeek DeepInfer code and deployment questions pinned before the cutoff. UniUni’s official demonstration is distinguished from October 19 secondary coverage. Mobo’s October 17 announcement schedules an October 21 unveiling that had not occurred. A DeepInfer commit is not a formal tagged release. The earlier ManageEngine China lead is not counted again as a new global capability, and STEPX Neo remains a secondary first-sale lead. Chinese patent originals, private WeChat streams, login-gated demonstrations and closed communities remain gaps. This bounded, non-exhaustive regional sample includes Chinese vendors publishing in English; Chinese-language repetition does not become independent evidence. Procurement region, licensing, actual price and account entitlement require item-specific verification, rather than assuming that a global marketing page proves availability in China or Canada.",
+      "sourceUrls": [
+        "https://www.mirrorship.ai/zh/product",
+        "https://uniuni.unitree.com/",
+        "https://www.globenewswire.com/news-release/2026/10/17/3382868/0/en/aimoga-to-unveil-mobo-its-first-family-companion-robot-on-october-21.html",
+        "https://github.com/deepseek-ai/DeepInfer/blob/774ce244b87cc0eb8d4b94ab9f5de2ab22049f01/doc/inference_deployment_qa.md"
+      ],
+      "recordInputs": [
+        "edition-base.json",
+        "research-china-patents.json",
+        "expanded-hardware.json",
+        "expanded-maker.json",
+        "candidate-ledger.json"
+      ],
+      "bounded": true,
+      "lengths": {
+        "zhHanCharacters": 270,
+        "enWords": 160
+      }
     },
     {
       "lane": "global",
-      "status": "cross-region sample",
-      "zh": "地域比较围绕同任务的真实采用差异：SpeakON公告明确美国可用，不能扩大为加拿大已交付；MIP的中国发布不自动证明全球商业条款；Coralboard SL经DigiKey销售与SR新品亮相分开记。ManageEngine中国消息与更早全球Zia发布交叉检查，发现全球能力在5月已有公告，不能再次算10月20日全球首发。同样，LiteRT接口跨语言描述不证明所有平台、后端与硬件均已验证，正文保留博客与README状态差别。本线是地域标签校验，不给同一厂商材料再增加独立来源票数。未做各国商店、采购与真实账户测试；下一步以目标国家的可购买页、授权文件与版本支持矩阵复核，缺失的地区、费用和放量范围继续标未知。",
-      "en": "Regional comparison focused on adoption boundaries for the same task. SpeakON's announcement states US availability; that does not establish delivery in Canada. MIP's China launch does not prove worldwide commercial terms. Coralboard SL purchasing through DigiKey is recorded separately from the introduction of SR. Comparing the ManageEngine China lead with earlier global Zia coverage showed that the global capabilities had already been announced in May, so the October item cannot be counted again as a worldwide first. Likewise, LiteRT's cross-language interface descriptions do not establish validation on every platform, backend and device; the dossier preserves differences between the launch post and repository status. This lane checks region labels rather than awarding a second independent-source vote to the same company. Country-by-country store, procurement and account tests were not performed. Follow-up should use the target country's purchase entry, entitlements and version-support matrix, retaining unknowns for price, rollout and regional access."
+      "status": "cross-region availability and stage checks; no country-by-country census",
+      "zh": "全球线重点核查同一产品在地区和交付阶段上的差别，而不是把一条厂商稿重复计作多国独立证据。SpeakON 的美国可用性不推出加拿大交付，Bee Frontier 美国销售与 Eclipse 即将推出分开，Surface 的十六日计划可用节点不等于已核实各地库存。Brera 由馆方与 Meta 原始材料交叉说明是八幅作品的无障碍试点，不是所有博物馆覆盖；NEURA 展示日程与桌面研究 Beta 也不写成已普及机器人。软件侧保留 Mintlify Beta、Lens Beta、Google 政府私有预览和 Clairic 托管预览等阶段，当前价目与旧稿冲突不静默覆盖。所有日期仍对原十四点零八 UTC 截止，之后采集只补证据，EarthCam 和 OneDrive 明确晚于截止的事件不纳入新增。本线有界非穷尽，未做各国账号、商店、采购和物流实测；地域、费用、授权与发布时刻未知的地方继续写未知。",
+      "en": "The global lane checks regional and delivery-stage differences rather than counting one company statement as independent evidence from several countries. SpeakON’s US availability does not establish Canadian delivery. Bee Frontier’s US sales are separate from Eclipse’s forthcoming status, and Surface’s planned October 16 availability does not verify local stock. Brera’s museum and Meta sources describe an accessibility pilot around eight works, not coverage of every museum. NEURA demonstration dates and a desktop robotics research beta are likewise not broad deployment evidence. Software stages remain explicit: Mintlify beta, Lens beta, government Gemini private preview and Clairic hosted preview are different commitments. Current pricing or documentation conflicts are not silently projected backward. Every event still faces the original 14:08 UTC cutoff; later collection adds evidence rather than extending the news window. EarthCam and OneDrive events known to occur afterward remain excluded. This is a bounded, non-exhaustive regional check without country-by-country account, storefront, procurement or shipping tests; unknown region, fee, entitlement and publication time remain unknown.",
+      "sourceUrls": [
+        "https://www.aboutamazon.com/news/devices/amazon-personal-ai-bee-frontier-bee-eclipse",
+        "https://blogs.windows.com/devices/2026/10/07/pre-order-our-most-powerful-surface-devices-ever/",
+        "https://pinacotecabrera.org/en/news/sensing-art-capolavori-oltre-lo-sguardo/",
+        "https://cloud.google.com/blog/topics/public-sector/announcements-and-highlights-from-google-public-sector-summit-2026",
+        "https://blog.cloudflare.com/clairic-extraction-model/"
+      ],
+      "recordInputs": [
+        "edition-base.json",
+        "expanded-hardware.json",
+        "expanded-robots.json",
+        "expanded-workplace.json",
+        "candidate-ledger.json"
+      ],
+      "bounded": true,
+      "lengths": {
+        "zhHanCharacters": 251,
+        "enWords": 164
+      }
     }
   ],
   "collection": {
@@ -154,5 +962,13 @@
     "precision": "day",
     "afterEventCutoff": true,
     "note": "Dynamic documentation describes the collected state. Visual timestamps are recorded separately in visuals.json."
+  },
+  "revision": {
+    "label": "editorial-layout-and-coverage",
+    "date": "2026-10-20",
+    "originalCutoffRetained": true,
+    "baselineCommit": "d33193f665845adac6348185e30bb36d15578154",
+    "newIssue": false,
+    "addedObservation": "Expanded bounded research with original cutoff retained; launches, observations and reviews distinguished."
   }
 }
