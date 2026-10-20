@@ -466,8 +466,8 @@
   },
   {
     "path": "2026-10-20/en/index.html",
-    "bytes": 69192,
-    "sha256": "b8635f4cc836545766db9c186cae35d07a21383cd1b1be626711f0a8962d720b"
+    "bytes": 69383,
+    "sha256": "f5a9338fc1cfb6a42323b7c30f10c90f39ec3b88769feddc3e94c43a0f29274c"
   },
   {
     "path": "2026-10-20/manifest.json",
@@ -491,8 +491,8 @@
   },
   {
     "path": "2026-10-20/zh/index.html",
-    "bytes": 57956,
-    "sha256": "2b35b162d6b9f0e8b1c24ec9e5876dc234730a13d0ae77d59358ee345a1a3b4d"
+    "bytes": 58147,
+    "sha256": "80eb53b2ed74b81074f364a874a23eccb962431dacbd8bc11f7ae3b900bf7fdc"
   },
   {
     "path": "assets/acti-agentic-keyboard-2026-07-03.svg",

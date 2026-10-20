@@ -97,7 +97,7 @@ try{
       if(['hidden','clip','scroll','auto'].includes(s.overflowY)&&n.scrollHeight>n.clientHeight+1)clipped.push(n.tagName);
       if(n.tagName==='IMG')images.push({loaded:n.complete&&n.naturalWidth>0,contain:s.objectFit==='contain'});
      }
-     return {id,ratio:r.width/r.height,withinViewport:r.left>=-1&&r.top>=-1&&r.right<=innerWidth+1&&r.bottom<=innerHeight+1,outside,clipped,images,documentOverflow:document.documentElement.scrollWidth>innerWidth+1||document.documentElement.scrollHeight>innerHeight+1};
+     return {id:el.id,ratio:r.width/r.height,withinViewport:r.left>=-1&&r.top>=-1&&r.right<=innerWidth+1&&r.bottom<=innerHeight+1,outside,clipped,images,documentOverflow:document.documentElement.scrollWidth>innerWidth+1||document.documentElement.scrollHeight>innerHeight+1};
     });
     check('slide-bounds',bounds.withinViewport&&Math.abs(bounds.ratio-16/9)<0.001&&bounds.outside.length===0&&bounds.clipped.length===0&&!bounds.documentOverflow&&bounds.images.every(x=>x.loaded&&x.contain),{viewport,...bounds});
     if(viewport.width===1600){
