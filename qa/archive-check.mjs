@@ -43,7 +43,7 @@ export async function checkArchive({browser, url, live, locale, phase, check, sc
     await p.locator('[data-archive-order]').selectOption('oldest');
     const august=allDates.filter(d=>d.startsWith('2026-08')).reverse();
     check('archive-independent-sort',same(await visibleDates(),august)&&await p.locator('[data-archive-month="08"]').getAttribute('aria-pressed')==='true',{viewport});
-    const selectedLink=p.locator(`.lang-switch a[href^="${other}"]`);
+    const selectedLink=p.locator('.lang-switch').getByRole('link',{name:locale==='zh'?'English':'中文',exact:true});
     const target=await selectedLink.getAttribute('href');await selectedLink.click();await ready();
     check('archive-language-state',new URL(p.url()).pathname===new URL(other).pathname&&await p.locator('[data-archive-year]').inputValue()==='2026'&&await p.locator('[data-archive-order]').inputValue()==='oldest'&&same(await visibleDates(),august),{viewport,target});
     await p.goto(home+'?year=2026&month=08&order=oldest',{waitUntil:'domcontentloaded'});await ready();
