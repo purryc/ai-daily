@@ -7,6 +7,8 @@
     <meta name="description" content="AI Daily：面向 HCI、AI 硬件、AI 软件与软硬件系统的产品晨报。" />
     <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2216%22%20fill%3D%22%232f2234%22%2F%3E%3Ctext%20x%3D%2213%22%20y%3D%2242%22%20font-family%3D%22Arial%22%20font-size%3D%2226%22%20font-weight%3D%22900%22%20fill%3D%22%23fff%22%3EAI%3C%2Ftext%3E%3C%2Fsvg%3E" />
     <link rel="stylesheet" href="assets/site.css" />
+    <link rel="stylesheet" href="assets/archive-filter.css" />
+    <script type="module" src="assets/archive-filter.mjs"></script>
   </head>
   <body>
 
@@ -37,8 +39,17 @@
           <p>每天一版：大厂官方、媒体评测、社区摩擦、野生产品、论文、专利、中国与海外信号放在同一张版面里读。</p>
         </header>
 
-        <section class="filter-bar" id="filters" aria-label="Filters">
-          <button class="active" data-time-filter="all">全部时间</button><button class="" data-time-filter="latest">最新</button><button class="" data-time-filter="y-2026">2026</button><button class="" data-time-filter="m-2026-10">2026-10</button>
+        <section class="archive-filters" id="filters" data-archive-filters aria-label="日期与排序">
+          <div class="archive-filter-toolbar">
+            <label for="archive-year">年份<select id="archive-year" data-archive-year><option value="all">全部年份</option></select></label>
+            <label for="archive-order">排序<select id="archive-order" data-archive-order><option value="newest">最新优先</option><option value="oldest">最早优先</option></select></label>
+            <button type="button" data-archive-reset>清除日期筛选</button>
+          </div>
+          <fieldset class="archive-months"><legend>月份</legend><div class="archive-month-grid"><button type="button" data-archive-month="all" aria-pressed="true"><span data-month-name>全部月份</span><span data-month-count>86期</span></button><button type="button" data-archive-month="01" aria-pressed="false"><span data-month-name>1月</span><span data-month-count>0期</span></button><button type="button" data-archive-month="02" aria-pressed="false"><span data-month-name>2月</span><span data-month-count>0期</span></button><button type="button" data-archive-month="03" aria-pressed="false"><span data-month-name>3月</span><span data-month-count>0期</span></button><button type="button" data-archive-month="04" aria-pressed="false"><span data-month-name>4月</span><span data-month-count>0期</span></button><button type="button" data-archive-month="05" aria-pressed="false"><span data-month-name>5月</span><span data-month-count>0期</span></button><button type="button" data-archive-month="06" aria-pressed="false"><span data-month-name>6月</span><span data-month-count>13期</span></button><button type="button" data-archive-month="07" aria-pressed="false"><span data-month-name>7月</span><span data-month-count>18期</span></button><button type="button" data-archive-month="08" aria-pressed="false"><span data-month-name>8月</span><span data-month-count>19期</span></button><button type="button" data-archive-month="09" aria-pressed="false"><span data-month-name>9月</span><span data-month-count>23期</span></button><button type="button" data-archive-month="10" aria-pressed="false"><span data-month-name>10月</span><span data-month-count>13期</span></button><button type="button" data-archive-month="11" aria-pressed="false"><span data-month-name>11月</span><span data-month-count>0期</span></button><button type="button" data-archive-month="12" aria-pressed="false"><span data-month-name>12月</span><span data-month-count>0期</span></button></div></fieldset>
+          <p class="archive-filter-status" role="status" aria-live="polite" aria-atomic="true" data-archive-status>全部年份 · 全部月份 · 共 86 期</p>
+        </section>
+        <section class="archive-empty" data-archive-empty hidden aria-labelledby="archive-empty-title">
+          <h2 id="archive-empty-title">这个月份暂无刊物</h2><p>选择其他月份，或清除日期筛选查看全部已收录刊物。</p><button type="button" data-archive-reset>清除日期筛选</button>
         </section>
 
         <section class="issue-list" id="archive" aria-label="Daily issues">
@@ -1503,17 +1514,6 @@
       </section>
     </main>
     <script>
-      document.querySelectorAll("[data-time-filter]").forEach((button) => {
-        button.addEventListener("click", () => {
-          const filter = button.dataset.timeFilter;
-          document.querySelectorAll("[data-time-filter]").forEach((item) => item.classList.toggle("active", item === button));
-          document.querySelectorAll("[data-time]").forEach((card) => {
-            const tokens = card.dataset.time.split(" ");
-            card.hidden = filter !== "all" && !tokens.includes(filter);
-          });
-        });
-      });
-
       const deck = document.querySelector("[data-deck]");
       if (deck) {
         const slides = Array.from(deck.querySelectorAll("[data-slide]"));

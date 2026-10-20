@@ -1,0 +1,31 @@
+.archive-filters { margin: 0 0 24px; padding: 20px; border: 1px solid var(--line); border-radius: 24px; background: #f5f3f0; }
+.archive-filter-toolbar { display: flex; flex-wrap: wrap; align-items: end; gap: 16px; margin-bottom: 18px; }
+.archive-filter-toolbar label { display: grid; gap: 6px; font-size: 13px; color: #5d5751; }
+.archive-filter-toolbar select { min-height: 44px; min-width: 160px; padding: 8px 38px 8px 12px; border: 1px solid #a29b93; border-radius: 10px; background: #fffdfa; color: var(--ink); font: inherit; font-size: 16px; }
+.archive-filters button, .archive-empty button { min-height: 44px; border: 1px solid #b7afa5; background: #fffdfa; color: #413c36; font: inherit; cursor: pointer; border-radius: 12px; }
+.archive-filter-toolbar button { padding: 10px 14px; margin-left: auto; }
+.archive-months { padding: 0; margin: 0; border: 0; min-width: 0; }
+.archive-months legend { margin-bottom: 10px; font-size: 13px; color: #5d5751; }
+.archive-month-grid { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 8px; }
+.archive-month-grid button { padding: 10px 8px; display: grid; gap: 4px; text-align: left; }
+.archive-month-grid button[data-archive-month="all"] { grid-column: 1 / -1; display: flex; align-items: center; gap: 10px; width: fit-content; min-width: 150px; padding: 10px 14px; margin-bottom: 2px; }
+.archive-month-grid [data-month-name] { font-size: 16px; font-weight: 650; }
+.archive-month-grid [data-month-count] { font-size: 12px; color: #665c50; }
+.archive-month-grid button[aria-pressed="true"] { background: #3c3530; color: #fffdfa; border-color: #3c3530; }
+.archive-month-grid button[aria-pressed="true"] [data-month-count] { color: #f1e6d8; }
+.archive-month-grid button:disabled { cursor: not-allowed; background: #eeeae4; border-style: dashed; color: #756d63; }
+.archive-filters :focus-visible, .archive-empty button:focus-visible { outline: 3px solid #916932; outline-offset: 3px; }
+.archive-filter-status { margin: 14px 0 0; font-size: 14px; color: #5d5751; }
+.archive-empty { padding: 36px 24px; text-align: center; border: 1px solid var(--line); border-radius: 24px; background: #fffdfa; }
+.archive-empty h2 { margin-top: 0; font-size: 24px; }
+.archive-empty p { color: #5d5751; line-height: 1.6; }
+.archive-empty button { padding: 10px 16px; }
+.archive-empty[hidden], .issue-card[hidden] { display: none; }
+@media(max-width:720px) {
+  .archive-filters { padding: 16px; border-radius: 18px; }
+  .archive-filter-toolbar { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .archive-filter-toolbar select { width: 100%; min-width: 0; padding-right: 24px; }
+  .archive-filter-toolbar button { margin: 0; grid-column: 1 / -1; justify-self: start; }
+  .archive-month-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .archive-month-grid button { min-width: 0; }
+}

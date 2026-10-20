@@ -72,7 +72,7 @@ async function staticCheck(){
  return {publicFiles:files.length,slidesPerLocale:metrics.slidesPerLocale,primaryProjectPages:productIds.length,attachedDetails:productIds.length,body:stats,perProduct,primarySummaries:primary,scans,visuals:visuals.length,references:sources.length,products:productIds.length,counting:'Unique full detail paragraphs only; primary summaries, sources, figures and scan prose excluded',bilingualStructureAndSources:true};
 }
 // staticCheck verifies every byte before this read-only candidate fixture starts.
-async function serve(){const types={'.html':'text/html; charset=utf-8','.css':'text/css','.js':'text/javascript','.json':'application/json','.png':'image/png','.webp':'image/webp','.jpg':'image/jpeg','.txt':'text/plain'};const server=http.createServer(async(req,res)=>{try{let p=decodeURIComponent(new URL(req.url,'http://localhost').pathname).replace(/^\/ai-daily\//,'/');if(p.endsWith('/'))p+='index.html';const target=path.resolve(base,'.'+p);assert(target.startsWith(base+'/'),'PATH');const b=await fs.readFile(target);res.writeHead(200,{'Content-Type':types[path.extname(target)]||'application/octet-stream','Cache-Control':'public, max-age=3600'});res.end(b)}catch{res.writeHead(404);res.end()}});await new Promise(r=>server.listen(0,'127.0.0.1',r));return {server,url:`http://127.0.0.1:${server.address().port}/ai-daily/`}}
+async function serve(){const types={'.html':'text/html; charset=utf-8','.css':'text/css','.js':'text/javascript','.mjs':'text/javascript','.json':'application/json','.png':'image/png','.webp':'image/webp','.jpg':'image/jpeg','.txt':'text/plain'};const server=http.createServer(async(req,res)=>{try{let p=decodeURIComponent(new URL(req.url,'http://localhost').pathname).replace(/^\/ai-daily\//,'/');if(p.endsWith('/'))p+='index.html';const target=path.resolve(base,'.'+p);assert(target.startsWith(base+'/'),'PATH');const b=await fs.readFile(target);res.writeHead(200,{'Content-Type':types[path.extname(target)]||'application/octet-stream','Cache-Control':'public, max-age=3600'});res.end(b)}catch{res.writeHead(404);res.end()}});await new Promise(r=>server.listen(0,'127.0.0.1',r));return {server,url:`http://127.0.0.1:${server.address().port}/ai-daily/`}}
 const report={edition:issue,startedAt:new Date().toISOString(),status:'started',completion:'in-progress',publishedCommit:cfg.phase==='live'?cfg.publicCommit:null,baselineCommit:cfg.baselineCommit,workflowBaselineCommit:process.env.QA_PUBLIC_COMMIT||null,mode:cfg.phase,checks:[],failures:[],screenshots:[],checkpoints:[]};
 const out=path.join(process.env.RUNNER_TEMP||'/tmp','daily-qa-'+(process.env.QA_EVIDENCE_LOCALE||'zh'));let browser,server;
 const check=(name,ok,details={})=>{report.checks.push({name,ok,...details});if(!ok)report.failures.push({name,...details})};
@@ -91,7 +91,7 @@ async function checkpoint(phase,details={}){
 }
 report.timings={readyCalls:0,readyMs:0,imageDecodeCalls:0,imagesDecoded:0,imageDecodeMs:0,screenshotMs:0};
 report.imageLog={eligible:[],maxImages:6,maxBase64CharsPerImage:1048576,maxBase64CharsTotal:4194304,encodedChars:0,emitted:[],artifactOnly:[]};
-function previewNames(){return report.locale?[`${report.locale}-toc-1.jpg`,`${report.locale}-event-7-a.jpg`,`${report.locale}-event-14-a.jpg`,`${report.locale}-detail-iphone-agent-harness-top.jpg`,`${report.locale}-mobile-event-7-a.jpg`,`${report.locale}-mobile-detail-iphone-agent-harness.jpg`]:[]}
+function previewNames(){return report.locale?(cfg.archiveRevision?['before','after','09','08','empty','mobile'].map(n=>`${report.locale}-archive-${n}.jpg`):[`${report.locale}-toc-1.jpg`,`${report.locale}-event-7-a.jpg`,`${report.locale}-event-14-a.jpg`,`${report.locale}-detail-iphone-agent-harness-top.jpg`,`${report.locale}-mobile-event-7-a.jpg`,`${report.locale}-mobile-detail-iphone-agent-harness.jpg`]):[]}
 async function emitPreview(name){
  const log=report.imageLog;if(!previewNames().includes(name)||log.emitted.includes(name)||log.artifactOnly.includes(name))return;
  log.eligible.push(name);const data=(await fs.readFile(path.join(out,name))).toString('base64');
@@ -211,7 +211,7 @@ try{
   await checkpoint('sandbox-verified');
   const live=process.env.QA_LIVE_BASE;assert(live==='https://purryc.github.io/ai-daily/','LIVE_TARGET');
   const liveFiles=JSON.parse(await fs.readFile(cfg.phase==='candidate'?'qa/baseline-public-files.json':'qa/public-files.json'));report.liveHashes=[];
-  for(const f of liveFiles.filter(x=>x.path.startsWith(issue+'/')||['index.html','en/index.html','manifest.json'].includes(x.path))){const r=await fetch(new URL(f.path,live),{cache:'no-store'});const match=r.status===200&&digest(Buffer.from(await r.arrayBuffer()))===f.sha256;report.liveHashes.push({path:f.path,status:r.status,match});check(cfg.phase==='candidate'?'baseline-live-byte-match':'live-byte-match',match,{path:f.path})}
+  for(const f of liveFiles.filter(x=>x.path.startsWith(issue+'/')||['index.html','en/index.html','manifest.json','assets/archive-filter.css','assets/archive-filter.mjs'].includes(x.path))){const r=await fetch(new URL(f.path,live),{cache:'no-store'});const match=r.status===200&&digest(Buffer.from(await r.arrayBuffer()))===f.sha256;report.liveHashes.push({path:f.path,status:r.status,match});check(cfg.phase==='candidate'?'baseline-live-byte-match':'live-byte-match',match,{path:f.path})}
   await checkpoint('live-hashes-complete');
   let url=live;if(cfg.phase==='candidate'){const s=await serve();server=s.server;url=s.url}report.browserTarget=cfg.phase==='candidate'?'local public candidate in existing cloud runner':'published Pages revision';
   const locale=process.env.QA_EVIDENCE_LOCALE||'zh';assert(['zh','en'].includes(locale),'LOCALE');report.locale=locale;
@@ -292,8 +292,7 @@ try{
    check('runtime-errors',errors.length===0,{viewport,errors});await context.close();
    await checkpoint('viewport-complete',{viewport});
   }
-  const p=await browser.newPage({viewport:{width:1600,height:900}});const home=new URL(locale==='zh'?'':'en/',url).href;const res=await p.goto(home,{waitUntil:'domcontentloaded'});await ready(p);const latest=p.locator('.issue-card').first();check('overview',res.status()===200&&(await latest.getAttribute('data-time')).includes(issue)&&await latest.locator(`a[href*="/${issue}/${locale}/"]`).count()===1);await latest.locator('img').evaluate(e=>e.decode());await p.locator('[data-time-filter="latest"]').click();check('overview-latest-filter',await latest.isVisible());await screen(p,`${locale}-overview-home.jpg`);
-  await latest.locator(`a[href*="/${issue}/${locale}/"]`).click();await ready(p);check('overview-latest-actual-navigation',new URL(p.url()).pathname===new URL(`${issue}/${locale}/`,url).pathname&&await p.locator('#cover').isVisible());await p.close();
+  const {checkArchive}=await import('./archive-check.mjs');await checkArchive({browser,url,live,locale,phase:cfg.phase,check,screen,issue});
   await checkpoint('all-browser-phases-complete');
  }
 

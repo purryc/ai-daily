@@ -1,7 +1,8 @@
 {
-  "phase": "live",
-  "baselineCommit": "d33193f665845adac6348185e30bb36d15578154",
-  "publicCommit": "9ef1863b41f62e9d1c2c41ca23e1af4db05fa5dc",
-  "note": "Verify the published expanded revision byte-for-byte and in the existing sandboxed browser; frozen baseline retained.",
-  "acquireAssets": false
+  "phase": "candidate",
+  "baselineCommit": "9ef1863b41f62e9d1c2c41ca23e1af4db05fa5dc",
+  "publicCommit": null,
+  "acquireAssets": false,
+  "archiveRevision": true,
+  "note": "Scoped bilingual overview month/year/sort revision; daily output unchanged; existing pipeline."
 }
