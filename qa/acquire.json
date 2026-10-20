@@ -1,116 +1,39 @@
 [
   {
     "kind": "image",
-    "name": "different.jpg",
-    "url": "https://cdn.prod.website-files.com/6aa399e5899bf4175edf7a7c/6ad7077a7354d277cbc924c5_4%20Graphic%20slot.webp",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "walkai-talkai.jpg",
-    "url": "https://walkai-talkai.com/screenshots/station_en-dark.png",
+    "name": "dream-maker-arm-faas.jpg",
+    "url": "https://dreamlabs.ai/research/dream-1/assets/faas/real-makermods-maker-arm-ft.jpg",
     "renderImage": true,
     "locale": "en"
   },
   {
-    "kind": "image",
-    "name": "beam-win.jpg",
-    "url": "https://ph-files.imgix.net/30edef9e-850e-451a-86d4-81f7cf48e1d0.png?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=220&w=368",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "wally-by-willow.jpg",
-    "url": "https://ph-files.imgix.net/f2e648c5-0812-4511-9f96-c783ae1229b1.png",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "kai-resolve.jpg",
-    "url": "https://staticfiles.gleap.io/p613b5dd730aed737108f87ab/AAyibbuyDqcFucI3yz1cdJr6UUOL4lsu2zhccuFXUklrAyKSGeKdXh5taHrRgshKbBHHXGdNzMT.png",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "pythia-pocket-agent.jpg",
-    "url": "https://cdn.hackaday.io/images/4387471792442576339.jpg",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "figma-specs.jpg",
-    "url": "https://cdn.sanity.io/images/599r6htc/regionalized/bbbca76b8e9aa644e38e72e1eb45083513d3e8a4-3840x2160.png",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "spooky-pumpkin.jpg",
-    "url": "https://hackster.imgix.net/uploads/attachments/2010055/_8NpdOrDkDI.blob?auto=compress%2Cformat&fit=min&h=675&w=900",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "html",
-    "name": "robot-data-diff.jpg",
-    "url": "https://raw.githubusercontent.com/yafetashenafi790-lgtm/robot-data-diff/dbc6d4715ded0778187a6c61252ae28da66c479e/diff-demo-report.html",
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "deepinfer.jpg",
-    "url": "https://raw.githubusercontent.com/deepseek-ai/DeepInfer/774ce244b87cc0eb8d4b94ab9f5de2ab22049f01/doc/images/architecture_overview.png",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "mintlify-email.jpg",
-    "url": "https://www.mintlify.com/images/autopilot-reviewer-email.webp",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "bill-static.jpg",
-    "url": "https://cdn.prod.website-files.com/63e56114746188c54e2936e0/6ad2920edc18d12b8e2579b5_Risk%20Intelligence2.webp",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "payani-ui.jpg",
-    "url": "https://www.payanigroup.com/agencies/payani-ai-ask.jpg",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "inventory",
-    "name": "dream-media.json",
-    "url": "https://dreamlabs.ai/research/dream-1/",
-    "locale": "zh"
-  },
-  {
-    "kind": "inventory",
-    "name": "lens-dom.json",
+    "kind": "screenshot",
+    "name": "lens-source-panel.jpg",
     "url": "https://lens.thoughtindustries.com/",
-    "locale": "en"
-  },
-  {
-    "kind": "inventory",
-    "name": "mintlify-dates.json",
-    "url": "https://www.mintlify.com/blog/autopilot",
+    "selector": "input[placeholder='Search sources'] >> xpath=ancestor::*[contains(., 'Help center') and contains(., 'Product documentation')][1]",
     "locale": "zh"
   },
   {
-    "kind": "inventory",
-    "name": "government-dates.json",
-    "url": "https://www.googlecloudpresscorner.com/2026-10-20-Google-Public-Sector-Launches-Gemini-for-Government-Services",
+    "kind": "image",
+    "name": "motive-work-orders.jpg",
+    "url": "https://gomotive.com/wp-content/uploads/2026/08/3-work-orders.webp",
+    "renderImage": true,
     "locale": "en"
+  },
+  {
+    "kind": "image",
+    "name": "torchneuron-terminal.jpg",
+    "url": "https://assets.aboutamazon.com/8a/19/8a5b8b1542a18aea511b89378867/aws-torchneuron-terminal-inline.gif",
+    "renderImage": true,
+    "locale": "zh",
+    "captureDelayMs": 6500
+  },
+  {
+    "kind": "image",
+    "name": "bill-interface.jpg",
+    "url": "https://cdn.prod.website-files.com/63e56114746188c54e2936e0/6ad29245212da42fce14067b_GIF%20-%20Risk%20Intelligence.gif",
+    "renderImage": true,
+    "locale": "zh",
+    "captureDelayMs": 4500
   }
 ]
