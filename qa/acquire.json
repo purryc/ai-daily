@@ -1,29 +1,8 @@
 [
   {
     "kind": "image",
-    "name": "speakon-agent.webp",
-    "url": "https://www.speakon.app/cdn/shop/files/SpeakON_Frame_Agent_Pearl_600x600.webp?v=1792122956"
-  },
-  {
-    "kind": "image",
-    "name": "visagent-workflow.jpg",
-    "url": "https://arxiv.org/html/2610.26168v1/figures/visagent-workflow-hd.png",
+    "name": "coralboard-product.jpg",
+    "url": "https://developer.synaptics.com/coral/Coralboard-sl-box-dev-board.png",
     "renderImage": true
-  },
-  {
-    "kind": "image",
-    "name": "coralboard.png",
-    "url": "https://developer.synaptics.com/img/blog/sl2610-devkits-blog/coralboard_size.png"
-  },
-  {
-    "kind": "screenshot",
-    "name": "mip-official.jpg",
-    "url": "https://www.mirrorship.ai/zh/product",
-    "selector": ".mip-live-composition"
-  },
-  {
-    "kind": "image",
-    "name": "litert-demo.jpg",
-    "url": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/original_videos/wagtailvideo-67risga1_thumb.jpg"
   }
 ]
