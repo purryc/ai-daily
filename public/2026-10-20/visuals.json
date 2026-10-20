@@ -58,5 +58,16 @@
     "sha256": "733d7c115ed022d2fbcceffbc894631cf4ea00204c3a7594e5397ffe6b6df479",
     "captionZh": "VISAGENT原论文完整流程图的缩放截图，研究原型而非商用品界面。",
     "captionEn": "Scaled capture of the complete original VISAGENT workflow figure: research, not a commercial UI."
+  },
+  {
+    "product": "iphone-agent-harness",
+    "path": "assets/harness-conversation-example.jpg",
+    "sourcePage": "https://github.com/cccat6/iphone-agent-harness/blob/9ef87a62c8cb1ea506bd32abc6cb4d8388e6f622/apps/web/media/conversation-example.jpg",
+    "originalUrl": "https://raw.githubusercontent.com/cccat6/iphone-agent-harness/9ef87a62c8cb1ea506bd32abc6cb4d8388e6f622/apps/web/media/conversation-example.jpg",
+    "sha256": "34efbc6d75fa3bdf553c0da93095251c71fa5f743db1eb762d4f91975b675b0f",
+    "acquiredAt": "2026-10-20T15:44:49Z",
+    "captionZh": "作者仓库真实界面／sample content。示例对话，未连接桥接器、未共享屏幕；非实测执行记录。",
+    "captionEn": "Author repository UI / sample content. Example conversation; bridge disconnected and screen sharing off. Not a tested execution log.",
+    "license": "assets/harness-LICENSE.txt"
   }
 ]

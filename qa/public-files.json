@@ -431,8 +431,18 @@
   },
   {
     "path": "2026-10-20/assets/deck.js",
-    "bytes": 1732,
-    "sha256": "cce2666cd304293c9b85efd91db501b7161f22d219e9600cfc1a6eefab0b288e"
+    "bytes": 1830,
+    "sha256": "315ff0b41598e1e57ebb5d173738c59698fddfa23b146c70d343ba233d458612"
+  },
+  {
+    "path": "2026-10-20/assets/harness-LICENSE.txt",
+    "bytes": 1063,
+    "sha256": "f96aec30fd406a7338f7c1b59f701d492428ee23cc7d0389f25116daac1dda2c"
+  },
+  {
+    "path": "2026-10-20/assets/harness-conversation-example.jpg",
+    "bytes": 26702,
+    "sha256": "34efbc6d75fa3bdf553c0da93095251c71fa5f743db1eb762d4f91975b675b0f"
   },
   {
     "path": "2026-10-20/assets/hermes-real.jpg",
@@ -441,8 +451,8 @@
   },
   {
     "path": "2026-10-20/assets/issue.css",
-    "bytes": 3802,
-    "sha256": "ecf502bdcd0a7579d9fa8a2fe518e87be81c9c15d639b4a51da867fd3f312c91"
+    "bytes": 9074,
+    "sha256": "105dab4e4fac7e7026551a82246feded6dc427a84e13587b78f479843804626b"
   },
   {
     "path": "2026-10-20/assets/litert-demo.jpg",
@@ -465,34 +475,114 @@
     "sha256": "733d7c115ed022d2fbcceffbc894631cf4ea00204c3a7594e5397ffe6b6df479"
   },
   {
+    "path": "2026-10-20/en/coverage.html",
+    "bytes": 10389,
+    "sha256": "a053a2b65fb84c3c7472e517760106454ef2706044d276357487146a160b128d"
+  },
+  {
+    "path": "2026-10-20/en/details/coralboard.html",
+    "bytes": 9463,
+    "sha256": "b819b87859398e746cfbebee21d90008c50e398559952d171729747d015a0372"
+  },
+  {
+    "path": "2026-10-20/en/details/hermes-friction.html",
+    "bytes": 8982,
+    "sha256": "ff692d05aef9224c1dd97a377e23264876ba18558ca9521db084816f9ec3c8ce"
+  },
+  {
+    "path": "2026-10-20/en/details/iphone-agent-harness.html",
+    "bytes": 7184,
+    "sha256": "ee724c6b1ef549338a1938182b41cf75d8a6f6d60475e02151cce1a13c5040b3"
+  },
+  {
+    "path": "2026-10-20/en/details/litert-tensor.html",
+    "bytes": 9622,
+    "sha256": "abbb3c884cf13ffbce02b3ae19df00c3940f5c760ca14c6874414f5615e81b6b"
+  },
+  {
+    "path": "2026-10-20/en/details/mirrorship-mip.html",
+    "bytes": 8649,
+    "sha256": "3a2d293a283e7b9b1ae6d4b264d327a37e62fe538cc4079405390eb811d1ef18"
+  },
+  {
+    "path": "2026-10-20/en/details/speakon.html",
+    "bytes": 10269,
+    "sha256": "67558f41b62930080aad7230a824a15fc4c0e080f6ccaea1a274cf2e90fd790b"
+  },
+  {
+    "path": "2026-10-20/en/details/visagent.html",
+    "bytes": 8215,
+    "sha256": "1442e16fc7dca7373216d2daaeff2153cd4d10aba17387878e3fa92820f1ed2a"
+  },
+  {
     "path": "2026-10-20/en/index.html",
-    "bytes": 70302,
-    "sha256": "7e10a10f50da73af94920e1a6f2202f77aedccb0c62f2a0d804cdab803e25959"
+    "bytes": 30046,
+    "sha256": "79fdc06233a2a77c8d1988b16c5dbcf9ab561b8ad6c33fdb8b54fcebcb7adca8"
   },
   {
     "path": "2026-10-20/manifest.json",
-    "bytes": 18326,
-    "sha256": "1a7e5c77066826a902174f77360f3b6e6cd85df7908af9529ab90ee5c6e2f0a9"
+    "bytes": 21704,
+    "sha256": "74d536b66edfb7f5d66aa0a937e62a302243507725d2e7e42aa3d0b2d007c12b"
   },
   {
     "path": "2026-10-20/sources.html",
-    "bytes": 23816,
-    "sha256": "ae15dd750b90ec0de4af1b3c9c0c45c2b798e786a7f08eb8ef4883aaef9c1f7b"
+    "bytes": 10640,
+    "sha256": "6aaa023fbc8d484e020dc52dfe09a213b2142e0f791bcd3279af7f82a5f873ac"
   },
   {
     "path": "2026-10-20/sources.json",
-    "bytes": 7639,
-    "sha256": "6309b1c8d95668787f79839529cdbd3595d3ce9a010d55faf2cc2acdac480395"
+    "bytes": 7832,
+    "sha256": "3837f453645b8b3d446b8d36eddd2495de25c2095a7fa95ea9afae1521c296e4"
   },
   {
     "path": "2026-10-20/visuals.json",
-    "bytes": 3629,
-    "sha256": "77503f664ebf15f88582675e434a992aeb3b08367621dcadf539ae493fe10a0f"
+    "bytes": 4515,
+    "sha256": "02d979a787df5c964be537ac3a015b119cec0d9e2efb44bdff32d58339fd79c2"
+  },
+  {
+    "path": "2026-10-20/zh/coverage.html",
+    "bytes": 8102,
+    "sha256": "c64ed8d92c757d36196c06771cfcc29a59f39459ea84eeb3511798aa2790c814"
+  },
+  {
+    "path": "2026-10-20/zh/details/coralboard.html",
+    "bytes": 7641,
+    "sha256": "40e0528d8e83a83308b418564f1ba5b08f3aa62b6699cc025166230c4df9a4a0"
+  },
+  {
+    "path": "2026-10-20/zh/details/hermes-friction.html",
+    "bytes": 7304,
+    "sha256": "36472a6f53af736d4084c5d637a6df00b9105a5fddc3e915283aa474fb28321a"
+  },
+  {
+    "path": "2026-10-20/zh/details/iphone-agent-harness.html",
+    "bytes": 6199,
+    "sha256": "246fddbefbf04cc23b1af8a147a8030c7bd260b51c9e3a082fb147b0b47a7748"
+  },
+  {
+    "path": "2026-10-20/zh/details/litert-tensor.html",
+    "bytes": 7843,
+    "sha256": "099402b3987c20f5694e88f0a1bbc84c31691c6268740bbe9a126abf812ca003"
+  },
+  {
+    "path": "2026-10-20/zh/details/mirrorship-mip.html",
+    "bytes": 6841,
+    "sha256": "acbc60309c9e4a765668a5aae3e185e083e862bbc8d009aa1435d5fcd77ce038"
+  },
+  {
+    "path": "2026-10-20/zh/details/speakon.html",
+    "bytes": 9711,
+    "sha256": "757f63993c773eeda2283d3675ee629160b8719c315079b7e25304fa9c892463"
+  },
+  {
+    "path": "2026-10-20/zh/details/visagent.html",
+    "bytes": 6946,
+    "sha256": "1361701ccba212f81b1daf0ceb4144e083119b551ed8e829e2c18d3450db0e1c"
   },
   {
     "path": "2026-10-20/zh/index.html",
-    "bytes": 59025,
-    "sha256": "4eb657babb9288db4456dc720c1369f3704f35803937365492260d4f7f372442"
+    "bytes": 28450,
+    "sha256": "24cc9cb16c5c1c46980e7e6ff274328edc7081f949507aecd9b66521f4a23f08"
   },
   {
     "path": "assets/acti-agentic-keyboard-2026-07-03.svg",
@@ -896,17 +986,17 @@
   },
   {
     "path": "en/index.html",
-    "bytes": 151591,
-    "sha256": "93a33f9fa3e5a2f06563a95bd3b107bc5f04ef9a2a9325efb6148cc00d366ff1"
+    "bytes": 151601,
+    "sha256": "9edb9aa932701ab07ed0df48881df09141e0162b7ad0dcc6f9db832c9e737ea9"
   },
   {
     "path": "index.html",
-    "bytes": 145897,
-    "sha256": "1dd4a1a1ff59304d2f3ddac1634aaefbafc99b9b876c5ec03f9888a8b9a0c9c9"
+    "bytes": 145903,
+    "sha256": "d5d8a6504b37509b7fea027674e21ea880c8471bdffbcfd531a2df532a7baedc"
   },
   {
     "path": "manifest.json",
-    "bytes": 727118,
-    "sha256": "215632c16f344ce46ee3a5142e488f1f47b9e49c1fd97b271e04dfe3c3fc4423"
+    "bytes": 727133,
+    "sha256": "a076c8da8aec3b232eacf29860e071bf3ebf47d87a8a36f3f29bf431579ee80e"
   }
 ]

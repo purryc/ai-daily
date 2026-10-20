@@ -6,97 +6,142 @@
   "backfill": false,
   "sourcesPath": "sources.html",
   "metrics": {
-    "date": "2026-10-20",
     "body": {
-      "zhDenseChars": 7042,
-      "enWords": 4774
+      "zhDenseChars": 8178,
+      "enWords": 5548
     },
-    "products": 6,
-    "references": 20,
-    "coreVisuals": 6,
-    "slidesPerLocale": 30,
     "perProduct": {
       "speakon": {
-        "zhDenseChars": 1682,
-        "enWords": 931
+        "zh": 1682,
+        "en": 931
       },
       "mirrorship-mip": {
-        "zhDenseChars": 1084,
-        "enWords": 758
+        "zh": 1084,
+        "en": 758
       },
       "coralboard": {
-        "zhDenseChars": 994,
-        "enWords": 765
+        "zh": 1124,
+        "en": 833
       },
       "litert-tensor": {
-        "zhDenseChars": 1092,
-        "enWords": 764
+        "zh": 1232,
+        "en": 847
       },
       "hermes-friction": {
-        "zhDenseChars": 999,
-        "enWords": 800
+        "zh": 999,
+        "en": 800
       },
       "visagent": {
-        "zhDenseChars": 1191,
-        "enWords": 756
+        "zh": 1191,
+        "en": 756
+      },
+      "iphone-agent-harness": {
+        "zh": 866,
+        "en": 623
       }
-    }
+    },
+    "primarySummaries": {
+      "speakon": {
+        "zh": 177,
+        "en": 106
+      },
+      "mirrorship-mip": {
+        "zh": 192,
+        "en": 112
+      },
+      "coralboard": {
+        "zh": 179,
+        "en": 124
+      },
+      "litert-tensor": {
+        "zh": 198,
+        "en": 120
+      },
+      "hermes-friction": {
+        "zh": 212,
+        "en": 127
+      },
+      "visagent": {
+        "zh": 227,
+        "en": 120
+      },
+      "iphone-agent-harness": {
+        "zh": 198,
+        "en": 138
+      }
+    },
+    "counting": "Only unique full-analysis product paragraphs count toward body gates; summaries, captions, coverage and sources excluded.",
+    "products": 7,
+    "references": 20,
+    "coreVisuals": 7,
+    "slidesPerLocale": 12,
+    "primaryProjectPages": 7,
+    "attachedProjectDetails": 7
   },
   "eventCounts": {
     "sameDayProductAnnouncements": 2,
     "sameDayAnnouncementObservations": 1,
     "threeDaySupplements": 3,
     "uncertain24hBoundaryWithinSupplements": 1,
-    "sevenDayRetrospectives": 0
+    "sevenDayRetrospectives": 0,
+    "sameDayCodeObservations": 1
   },
   "topics": [
     {
       "id": "speakon",
-      "zhHeadline": "SpeakON Agent",
-      "enHeadline": "SpeakON Agent",
+      "zhHeadline": "语音先变成可修改的笔记，再进入外部动作",
+      "enHeadline": "Edit the spoken intent before it becomes an external action",
       "eventAt": "2026-10-20T12:00:00Z",
       "freshness": "announcement-with-earlier-availability",
       "evidence": "confirmed product · vendor announcement, not hands-on"
     },
     {
       "id": "mirrorship-mip",
-      "zhHeadline": "MirrorShip MIP",
-      "enHeadline": "MirrorShip MIP",
+      "zhHeadline": "把业务口径放进查询链，仍要有人对口径负责",
+      "enHeadline": "Shared semantics need an accountable owner, not just a chat box",
       "eventAt": "2026-10-20",
       "freshness": "24h-new-regional-product-launch",
       "evidence": "confirmed product / official demonstration"
     },
     {
       "id": "coralboard",
-      "zhHeadline": "Synaptics Coralboard SL / SR",
-      "enHeadline": "Synaptics Coralboard SL / SR",
+      "zhHeadline": "常开感知应比较整机有效识别能耗，而不只看TOPS",
+      "enHeadline": "For always-on sensing, measure whole-device energy per useful result",
       "eventAt": "2026-10-20",
       "freshness": "dated today; exact publication time not stated; independently surfaced by 05:30 PT media before cutoff",
       "evidence": "confirmed product + developer surface"
     },
     {
       "id": "litert-tensor",
-      "zhHeadline": "LiteRT Tensor API / SAM 2 Web demo",
-      "enHeadline": "LiteRT Tensor API / SAM 2 Web demo",
+      "zhHeadline": "先转换现成模型，只有搬运瓶颈才值得手写图",
+      "enHeadline": "Convert the model first; author a graph for a measured handoff bottleneck",
       "eventAt": "2026-10-19",
       "freshness": "near-three-day supplement; date-only publication cannot establish 24h boundary",
       "evidence": "developer surface; vendor demo; collection-environment failure observation"
     },
     {
       "id": "hermes-friction",
-      "zhHeadline": "Hermes Desktop",
-      "enHeadline": "Hermes Desktop",
+      "zhHeadline": "后台还在运行，不代表用户仍有可用的控制权",
+      "enHeadline": "A live backend does not mean the user still has usable control",
       "eventAt": "2026-10-19T10:01:40Z",
       "freshness": "near-three-day-supplement",
       "evidence": "review/community friction"
     },
     {
       "id": "visagent",
-      "zhHeadline": "VISAGENT",
-      "enHeadline": "VISAGENT",
+      "zhHeadline": "把电话转给正确代理，只完成了服务交接的第一步",
+      "enHeadline": "Routing a call correctly is only the first service handoff",
       "eventAt": "2026-10-19T10:59:45Z",
       "freshness": "near-three-day-supplement",
       "evidence": "research signal"
+    },
+    {
+      "id": "iphone-agent-harness",
+      "zhHeadline": "手机代理无线化之后，仍要证明看见了正确结果",
+      "enHeadline": "A wireless phone agent must still verify the result on screen",
+      "eventAt": "2026-10-20T10:21:22Z",
+      "freshness": "original-window code observation added in revision",
+      "evidence": "Author repository at pinned commit; not independently executed"
     }
   ],
   "laneScans": [
@@ -120,9 +165,9 @@
     },
     {
       "lane": "wild",
-      "status": "partial / no promoted startup",
-      "zh": "探索线用当日与前一日AI launch关键词搜寻新创、开发项目及非主流入口，实际命中Town融资报道、Payani AI新闻稿与若干GitHub开发线索。Town的融资不能说明新的产品交互，Payani在已读材料中缺少足够操作与真实UI证据，两者均不提升。SpeakON虽属新硬件入口，报道仍依官方产品与商店证据，不凭奖项、Product Hunt名次或用户赞语推断留存和付费。此次没有完成Product Hunt完整榜单、众筹平台与所有开源发布的系统扫描，保留具体覆盖缺口。下一步应找可操作demo、公开版本或交付记录，并核对等待名单、预览与已发货差别；不能用预约数或营销图补齐产品条数。",
-      "en": "Exploratory queries used AI launch terms for the current and previous day to find startups, developer projects and less familiar entry points. The observed leads included Town funding coverage, a Payani AI release and GitHub development material. Funding alone did not establish a new interaction, while the Payani material lacked sufficient operational detail and real-interface evidence for promotion. SpeakON is an unusual hardware entry point, but its dossier relies on product and store evidence rather than awards, Product Hunt ranking or testimonials as proxies for retention or payment. A complete Product Hunt leaderboard, crowdfunding-platform sweep and systematic review of every open-source release were not performed. Those are explicit coverage gaps. The next useful evidence would be an operable demonstration, a public version or a delivery record that distinguishes a waitlist, preview and shipped product. Reservation counts and marketing illustrations cannot substitute for that distinction or justify adding another story."
+      "status": "bounded scan; PH date gaps disclosed",
+      "zh": "修订补扫Product Hunt 10/19与10/17每日精选各17项，以及第42周榜单17项；只读可见精选，未遍历All标签或全量评论。10/20和10/18榜单访问失败，不能解释为没有新品。10/19的walkai-talkai把两台电台、Mac本地Whisper、代理目标窗口和回传API连成离开屏幕的语音闭环，官方故障文档明确送达提示音不等于任务完成；日期精度不足以确认严格24小时新增。Own 1规格仍为preliminary，交付依赖生产认证，不提升为已交付硬件；Beam.win与本期监督代理任务重叠，未强行补条目。Hackaday发现10/19创建的Pythia ESP32-C6语音CRM原型，但Files、Components、Logs、Instructions均为空，不称可复刻开源。XGO-Duck为9/25项目、Muse为10/2线索，超窗排除。作者公开仓库的iPhone Agent Harness有截止前固定提交、架构和真实示例界面，故补入本期DIY代码观察；没有把发现时间写成发布日期。后续优先验证无线电的回传与窗口错误恢复，以及Pythia是否提供可运行源码；投票不推留存。",
+      "en": "The revision read the visible featured Product Hunt lists for October 19 and October 17, seventeen cards each, plus seventeen cards in week 42. It did not traverse the All tab or complete comment histories. The October 20 and October 18 archives failed to load; these are access gaps, not no-launch days. The October 19 walkai-talkai listing led to official documentation connecting two radios, local Whisper on a Mac, a target agent window and a reply API. Its delivery beep does not mean task completion. Calendar precision cannot establish a strict rolling-day release. Own 1 retains preliminary specifications and conditional delivery, so it is not treated as shipped hardware. Beam.win overlaps this edition’s agent-supervision task. The Pythia ESP32-C6 voice-to-CRM project was created October 19, but its Files, Components, Logs and Instructions sections are empty; reproducible open source is unproven. XGO-Duck dates to September 25 and Muse to October 2, outside this window. iPhone Agent Harness has a pinned pre-cutoff commit, architecture and an authentic sample interface, supporting a DIY code observation added in this revision. Discovery time is not launch time. Next checks should target radio reply recovery, window-selection errors and whether Pythia publishes runnable code. Votes do not establish retention."
     },
     {
       "lane": "research",
@@ -133,8 +178,8 @@
     {
       "lane": "patent",
       "status": "sampled / no current patent promoted",
-      "zh": "专利线查询Google Patents中2026-10-15、artificial intelligence、interface和agent组合，检查命中元数据而非仅看搜索日期。一个Twilio动态上下文窗口专利WO2025221751A1的真实公开日是2025-10-23，优先权为2024-04-15；检索命中的2026-10-15属于预计到期字段，不能当作本周公开。另一近似命中也有同样日期陷阱，均排除。本期没有获得足以提升的当期专利，但这不等于当期没有专利。USPTO、WIPO、EPO与CNIPA原生查询及完整同族归并未完成。下一步须从公开日字段限定窗口，再查看同族、权利要求和原始附图；专利方向也不能直接推断厂商量产或上市计划。 日期核验先于技术方向解读。",
-      "en": "Patent queries combined the date October 15, 2026 with artificial-intelligence, interface and agent terms in Google Patents. We inspected metadata instead of accepting the date displayed in a search match. Twilio's dynamic-context-window record WO2025221751A1 was actually published on October 23, 2025, with priority dated April 15, 2024. The matched October 15, 2026 value belonged to anticipated-expiration metadata, not a current publication. A similar hit had the same freshness problem; both were excluded. No current-window patent was sufficiently verified for promotion, which does not mean that no patent appeared during the period. Native USPTO, WIPO, EPO and CNIPA queries and comprehensive family reconciliation remain unperformed. The next pass should restrict the publication-date field, inspect family relationships, claims and original figures, and maintain the distinction between an invention disclosure and an actual manufacturing or launch commitment. The present sample supports an exclusion decision, not an industry-wide negative finding."
+      "zh": "专利线查询Google Patents中2026-10-15、artificial intelligence、interface和agent组合，检查命中元数据而非仅看搜索日期。一个Twilio动态上下文窗口专利WO2025221751A1的真实公开日是2025-10-23，优先权为2024-04-15；检索命中的2026-10-15属于预计到期字段，不能当作本周公开。另一近似命中也有同样日期陷阱，均排除。本期没有获得足以提升的当期专利，但这不等于当期没有专利。USPTO、WIPO、EPO与CNIPA原生查询及完整同族归并未完成。下一步须从公开日字段限定窗口，再查看同族、权利要求和原始附图；专利方向也不能直接推断厂商量产或上市计划。 日期核验先于技术方向解读。 修订追加检索10/15与10/20智能眼镜、AI及界面专利，日期字段仍多为到期日碰撞；WO2025220987A1等核实为2025公开，未提升。两条既有专利连接返回configured_providers为0，Google Patents筛选页读取失败；没有新建凭据或据此宣称全球无专利。",
+      "en": "Patent queries combined the date October 15, 2026 with artificial-intelligence, interface and agent terms in Google Patents. We inspected metadata instead of accepting the date displayed in a search match. Twilio's dynamic-context-window record WO2025221751A1 was actually published on October 23, 2025, with priority dated April 15, 2024. The matched October 15, 2026 value belonged to anticipated-expiration metadata, not a current publication. A similar hit had the same freshness problem; both were excluded. No current-window patent was sufficiently verified for promotion, which does not mean that no patent appeared during the period. Native USPTO, WIPO, EPO and CNIPA queries and comprehensive family reconciliation remain unperformed. The next pass should restrict the publication-date field, inspect family relationships, claims and original figures, and maintain the distinction between an invention disclosure and an actual manufacturing or launch commitment. The present sample supports an exclusion decision, not an industry-wide negative finding. Revision searches for October 15 and October 20 smart-glasses, AI and interface patents again encountered expiry-date collisions. WO2025220987A1 resolves to a 2025 publication and was excluded. Both existing patent connections reported zero configured providers, and a filtered Google Patents page failed to load. No credentials were created. These limits do not establish that no relevant patent exists worldwide."
     },
     {
       "lane": "china",
@@ -154,5 +199,13 @@
     "precision": "day",
     "afterEventCutoff": true,
     "note": "Dynamic documentation describes the collected state. Visual timestamps are recorded separately in visuals.json."
+  },
+  "revision": {
+    "label": "editorial-layout-and-coverage",
+    "date": "2026-10-20",
+    "originalCutoffRetained": true,
+    "baselineCommit": "d33193f665845adac6348185e30bb36d15578154",
+    "newIssue": false,
+    "addedObservation": "Pre-cutoff iPhone Agent Harness code observation; not a newly established release date."
   }
 }
