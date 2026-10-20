@@ -466,8 +466,8 @@
   },
   {
     "path": "2026-10-20/assets/deck.js",
-    "bytes": 2537,
-    "sha256": "d30bb66137f39883a9c12222b1c552214ac4e08f490f825c18f73eff93798344"
+    "bytes": 2576,
+    "sha256": "63d13c06452d7405e0b5ed572d8464d802c9e5b8de656b5a94e3527b1730f7b3"
   },
   {
     "path": "2026-10-20/assets/deepinfer-LICENSE.txt",
@@ -526,8 +526,8 @@
   },
   {
     "path": "2026-10-20/assets/issue.css",
-    "bytes": 10152,
-    "sha256": "466f332d45f1d63e3ade7380919549998eadc072c9535ed43a3b74ce97b17493"
+    "bytes": 10285,
+    "sha256": "1e458c07ba855726699c2b9885d466a62a85e04604b22dddcca9a2f3d1ca09e9"
   },
   {
     "path": "2026-10-20/assets/kai-resolve.jpg",
