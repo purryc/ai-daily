@@ -42,6 +42,12 @@ export function monthOptions(dates, year, today) {
     return {value, count, future};
   });
 }
+export function populatedMonths(dates, year) {
+  return monthOptions(dates, year, '9999-12-31').filter(month => month.count > 0);
+}
+export function changeYear(state, year, dates) {
+  return {...state, year, month: state.month === 'all' || populatedMonths(dates, year).some(m => m.value === state.month) ? state.month : 'all'};
+}
 export function writeState(url, state) {
   const next = new URL(url);
   for (const key of ['year', 'month', 'order']) {
@@ -62,7 +68,8 @@ export function mountArchive(doc = document, win = window) {
   const dates = entries.map(entry => entry.date), today = torontoToday();
   const yearControl = root.querySelector('[data-archive-year]');
   const sortControl = root.querySelector('[data-archive-order]');
-  const monthButtons = [...root.querySelectorAll('[data-archive-month]')];
+  const monthGrid = root.querySelector('.archive-month-grid');
+  const monthButtons = new Map([...root.querySelectorAll('[data-archive-month]')].map(button => [button.dataset.archiveMonth, button]));
   const status = root.querySelector('[data-archive-status]');
   const empty = doc.querySelector('[data-archive-empty]');
   const list = doc.querySelector('#archive');
@@ -87,19 +94,39 @@ export function mountArchive(doc = document, win = window) {
       card.hidden = !visibleSet.has(date);
       list.append(card);
     }
-    for (const button of monthButtons) {
-      const value = button.dataset.archiveMonth;
-      const item = months.find(m => m.value === value);
-      const count = item ? item.count : months.reduce((sum, m) => sum + m.count, 0);
-      const title = value === 'all' ? (zh ? '全部月份' : 'All months') :
+    const available = populatedMonths(dates, state.year);
+    const choices = [{value:'all', count:available.reduce((sum, month) => sum + month.count, 0)}, ...available];
+    const values = new Set(choices.map(item => item.value));
+    for (const button of [...monthGrid.children]) {
+      if (!values.has(button.dataset.archiveMonth)) {
+        if (doc.activeElement === button) yearControl.focus();
+        button.remove();
+      }
+    }
+    choices.forEach((item, index) => {
+      const value = item.value, count = item.count;
+      let button = monthButtons.get(value);
+      if (!button) {
+        button = doc.createElement('button');
+        button.type = 'button'; button.dataset.archiveMonth = value;
+        for (const name of ['monthName', 'monthCount']) {
+          const span = doc.createElement('span'); span.dataset[name] = '';
+          if (name === 'monthCount') span.setAttribute('aria-hidden', 'true');
+          button.append(span);
+        }
+        monthButtons.set(value, button);
+      }
+      const title = value === 'all' ? (zh ? '全部' : 'All') :
         (zh ? `${Number(value)}月` : monthNames[Number(value) - 1]);
       button.querySelector('[data-month-name]').textContent = title;
-      button.querySelector('[data-month-count]').textContent = item?.future ?
-        (zh ? '未到月份 · 0' : 'Upcoming · 0') : (zh ? `${count}期` : `${count} issues`);
-      button.disabled = Boolean(item?.future);
+      button.querySelector('[data-month-count]').textContent = String(count);
+      button.disabled = false;
       button.setAttribute('aria-pressed', String(state.month === value));
-      button.setAttribute('aria-label', `${title} · ${count}${zh ? '期' : ' issues'}${item?.future ? (zh ? ' · 未到月份，不可选' : ' · Upcoming, unavailable') : ''}`);
-    }
+      button.setAttribute('aria-label', `${title} · ${count}${zh ? '期' : ' issues'}`);
+      // Preserve the focused chip instead of rebuilding the whole control row.
+      if (monthGrid.children[index] !== button) monthGrid.insertBefore(button, monthGrid.children[index] || null);
+    });
+    root.querySelector('[data-archive-reset]').hidden = state.year === 'all' && state.month === 'all';
     const period = [state.year === 'all' ? (zh ? '全部年份' : 'All years') : state.year,
       state.month === 'all' ? (zh ? '全部月份' : 'All months') :
         (zh ? `${Number(state.month)}月` : monthNames[Number(state.month) - 1])].join(' · ');
@@ -108,8 +135,8 @@ export function mountArchive(doc = document, win = window) {
     if (!empty.hidden) {
       const future = months.find(m => m.value === state.month)?.future;
       empty.querySelector('h2').textContent = future ?
-        (zh ? '这个月份尚未到来' : 'This month is still ahead') :
-        (zh ? '这个月份暂无刊物' : 'No issues for this month');
+        (zh ? `${period}尚未到来` : `${period} is still ahead`) :
+        (zh ? `${period}暂无刊物` : `No issues: ${period}`);
       empty.querySelector('p').textContent = zh ?
         '可以选择其他月份，或清除日期筛选查看全部已收录刊物。' :
         'Choose another month, or clear the date filters to browse all indexed issues.';
@@ -123,18 +150,18 @@ export function mountArchive(doc = document, win = window) {
     root.dataset.ready = 'true';
   }
   yearControl.addEventListener('change', () => {
-    state.year = yearControl.value;
-    if (monthOptions(dates, state.year, today).find(m => m.value === state.month)?.future) state.month = 'all';
+    state = changeYear(state, yearControl.value, dates);
     render();
   });
   sortControl.addEventListener('change', () => {state.order = sortControl.value; render();});
-  for (const button of monthButtons) button.addEventListener('click', () => {
-    state.month = button.dataset.archiveMonth; render();
+  monthGrid.addEventListener('click', event => {
+    const button = event.target.closest('button[data-archive-month]');
+    if (button && monthGrid.contains(button)) {state.month = button.dataset.archiveMonth; render();}
   });
   doc.querySelectorAll('[data-archive-reset]').forEach(button => button.addEventListener('click', () => {
     state.year = 'all'; state.month = 'all'; render();
-    // Empty-state actions disappear; keep the keyboard user on a visible control.
-    if (empty.contains(button)) yearControl.focus();
+    // Both reset buttons disappear; keep the keyboard user on a visible control.
+    yearControl.focus();
   }));
   win.addEventListener('popstate', () => {
     state = normalizeState(new URL(win.location.href).searchParams, dates); render(false);

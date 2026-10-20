@@ -1,31 +1,33 @@
-.archive-filters { margin: 0 0 24px; padding: 20px; border: 1px solid var(--line); border-radius: 24px; background: #f5f3f0; }
-.archive-filter-toolbar { display: flex; flex-wrap: wrap; align-items: end; gap: 16px; margin-bottom: 18px; }
-.archive-filter-toolbar label { display: grid; gap: 6px; font-size: 13px; color: #5d5751; }
-.archive-filter-toolbar select { min-height: 44px; min-width: 160px; padding: 8px 38px 8px 12px; border: 1px solid #a29b93; border-radius: 10px; background: #fffdfa; color: var(--ink); font: inherit; font-size: 16px; }
-.archive-filters button, .archive-empty button { min-height: 44px; border: 1px solid #b7afa5; background: #fffdfa; color: #413c36; font: inherit; cursor: pointer; border-radius: 12px; }
-.archive-filter-toolbar button { padding: 10px 14px; margin-left: auto; }
-.archive-months { padding: 0; margin: 0; border: 0; min-width: 0; }
-.archive-months legend { margin-bottom: 10px; font-size: 13px; color: #5d5751; }
-.archive-month-grid { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 8px; }
-.archive-month-grid button { padding: 10px 8px; display: grid; gap: 4px; text-align: left; }
-.archive-month-grid button[data-archive-month="all"] { grid-column: 1 / -1; display: flex; align-items: center; gap: 10px; width: fit-content; min-width: 150px; padding: 10px 14px; margin-bottom: 2px; }
-.archive-month-grid [data-month-name] { font-size: 16px; font-weight: 650; }
-.archive-month-grid [data-month-count] { font-size: 12px; color: #665c50; }
-.archive-month-grid button[aria-pressed="true"] { background: #3c3530; color: #fffdfa; border-color: #3c3530; }
-.archive-month-grid button[aria-pressed="true"] [data-month-count] { color: #f1e6d8; }
-.archive-month-grid button:disabled { cursor: not-allowed; background: #eeeae4; border-style: dashed; color: #756d63; }
-.archive-filters :focus-visible, .archive-empty button:focus-visible { outline: 3px solid #916932; outline-offset: 3px; }
-.archive-filter-status { margin: 14px 0 0; font-size: 14px; color: #5d5751; }
-.archive-empty { padding: 36px 24px; text-align: center; border: 1px solid var(--line); border-radius: 24px; background: #fffdfa; }
-.archive-empty h2 { margin-top: 0; font-size: 24px; }
-.archive-empty p { color: #5d5751; line-height: 1.6; }
-.archive-empty button { padding: 10px 16px; }
-.archive-empty[hidden], .issue-card[hidden] { display: none; }
+/* A quiet archive toolbar: compact visible pills, 44px keyboard/touch targets. */
+.archive-filters { display:flex; flex-wrap:wrap; align-items:center; gap:4px 18px; margin:0 0 24px; padding:10px 0; border-top:1px solid #e7e0d6; border-bottom:1px solid #e7e0d6; background:transparent; }
+.archive-months { order:1; flex:1 1 370px; min-width:0; border:0; margin:0; padding:0; }
+.archive-months legend,.archive-filter-toolbar label>span,.archive-filter-status { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
+.archive-month-grid { display:flex; flex-wrap:wrap; gap:0 6px; }
+.archive-month-grid button { position:relative; isolation:isolate; display:inline-flex; align-items:center; justify-content:center; gap:6px; min-width:44px; height:44px; padding:0 12px; border:0; border-radius:999px; background:transparent; color:#655d54; font:inherit; cursor:pointer; }
+.archive-month-grid button::before { content:""; position:absolute; z-index:-1; inset:6px 0; border:1px solid #e8e1d7; border-radius:999px; background:#f8f5ef; }
+.archive-month-grid [data-month-name] { font-size:13px; line-height:18px; font-weight:500; white-space:nowrap; }
+.archive-month-grid [data-month-count] { font-size:11px; line-height:16px; color:#84786a; font-variant-numeric:tabular-nums; }
+.archive-month-grid button[aria-pressed="true"] { color:#493b2e; }
+.archive-month-grid button[aria-pressed="true"]::before { background:#eae0d2; border-color:#cbb99f; }
+.archive-month-grid button[aria-pressed="true"] [data-month-name] { font-weight:650; }
+.archive-month-grid button:hover::before { background:#efe7dc; border-color:#cbb99f; }
+.archive-filter-toolbar { order:2; display:flex; flex-wrap:wrap; align-items:center; gap:4px; margin:0 0 0 auto; }
+.archive-filter-toolbar label { display:block; margin:0; }
+.archive-filter-toolbar select { min-height:44px; max-width:140px; padding:8px 4px; border:0; border-radius:7px; background:transparent; color:#70675d; font:inherit; font-size:12px; cursor:pointer; }
+.archive-filter-toolbar select:hover { background:#f4efe7; }
+.archive-filter-toolbar button { min-height:44px; padding:8px; border:0; border-radius:7px; background:transparent; color:#796c5d; font:inherit; font-size:12px; cursor:pointer; }
+.archive-filter-toolbar button:hover { color:#493b2e; text-decoration:underline; }
+.archive-filters :focus-visible,.archive-empty button:focus-visible { outline:2px solid #886541; outline-offset:2px; }
+.archive-empty { padding:28px 20px; text-align:center; border:1px solid #e7e0d6; border-radius:16px; background:#fffdfa; }
+.archive-empty h2 { margin:0 0 8px; font-size:22px; }
+.archive-empty p { color:#70675d; line-height:1.6; }
+.archive-empty button { min-height:44px; padding:8px 16px; border:1px solid #cbb99f; border-radius:999px; background:#f6f0e6; color:#493b2e; font:inherit; cursor:pointer; }
+.archive-empty[hidden],.issue-card[hidden],[data-archive-reset][hidden] { display:none!important; }
 @media(max-width:720px) {
-  .archive-filters { padding: 16px; border-radius: 18px; }
-  .archive-filter-toolbar { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-  .archive-filter-toolbar select { width: 100%; min-width: 0; padding-right: 24px; }
-  .archive-filter-toolbar button { margin: 0; grid-column: 1 / -1; justify-self: start; }
-  .archive-month-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-  .archive-month-grid button { min-width: 0; }
+ .archive-filters { gap:2px; padding:8px 0; margin-bottom:18px; }
+ .archive-months { flex-basis:100%; }
+ .archive-month-grid { gap:0 5px; }
+ .archive-month-grid button { padding:0 10px; }
+ .archive-filter-toolbar { flex-basis:100%; justify-content:flex-start; margin:2px 0 0; gap:4px 10px; }
+ .archive-filter-toolbar select { max-width:130px; }
 }
