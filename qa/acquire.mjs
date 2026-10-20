@@ -30,7 +30,7 @@ for(const item of plan){
 }
 await fs.writeFile(dir+'/acquisition.json',JSON.stringify(report,null,2));
 console.log('ACQUISITION_REPORT '+JSON.stringify(report));
-for(const name of [...report.filter(x=>x.status==='success').map(x=>x.name),'acquisition.json']){
+for(const name of ['acquisition.json']){
  const data=(await fs.readFile(dir+'/'+name)).toString('base64'),count=Math.ceil(data.length/4096);
  for(let i=0;i<count;i++)console.log(`PUBLIC_ASSET ${name} ${i}/${count} ${data.slice(i*4096,(i+1)*4096)}`);
 }

@@ -40,3 +40,9 @@ jobs:
           sudo apt-get install -y --no-install-recommends fonts-noto-cjk
       - name: Acquire public official evidence
         run: node qa/acquire.mjs
+      - name: Preserve public evidence
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: official-evidence-${{ matrix.evidence }}
+          path: ${{ runner.temp }}/daily-acquisition/
+          retention-days: 3
