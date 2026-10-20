@@ -21,6 +21,8 @@ jobs:
     env:
       AI_DAILY_CHROMIUM_PATH: /usr/bin/google-chrome
       QA_EVIDENCE_LOCALE: ${{ matrix.evidence }}
+      QA_LIVE_BASE: https://purryc.github.io/ai-daily/
+      QA_PUBLIC_COMMIT: d33193f665845adac6348185e30bb36d15578154
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:

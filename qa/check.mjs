@@ -57,7 +57,7 @@ async function serve(){
  }catch{res.writeHead(404);res.end();}});
  await new Promise(r=>server.listen(0,'127.0.0.1',r));return {server,url:`http://127.0.0.1:${server.address().port}/ai-daily/`};
 }
-const report={edition:issue,startedAt:new Date().toISOString(),status:'started',mode:process.env.QA_LIVE_BASE?'live':'candidate',checks:[],failures:[],screenshots:[]};
+const report={edition:issue,startedAt:new Date().toISOString(),status:'started',publishedCommit:process.env.QA_PUBLIC_COMMIT||null,mode:process.env.QA_LIVE_BASE?'live':'candidate',checks:[],failures:[],screenshots:[]};
 let browser,server;
 const out=path.join(process.env.RUNNER_TEMP||'/tmp','daily-qa-'+(process.env.QA_EVIDENCE_LOCALE||'zh'));
 const check=(name,ok,details={})=>{report.checks.push({name,ok,...details});if(!ok)report.failures.push({name,...details});};
