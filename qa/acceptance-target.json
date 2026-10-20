@@ -1,8 +1,8 @@
 {
-  "phase": "live",
-  "baselineCommit": "19c3439780fdf5e235da7c77a8b481aefb994e2a",
-  "publicCommit": "6715fe994d4d7040b98cc23a06c7a1bf3a6136f1",
+  "phase": "candidate",
+  "baselineCommit": "6715fe994d4d7040b98cc23a06c7a1bf3a6136f1",
+  "publicCommit": null,
   "acquireAssets": false,
   "archiveRevision": true,
-  "note": "Verify live compact populated-month chips after existing Pages deployment; no infrastructure changes."
+  "note": "Unify existing daily and weekly archives in the compact type/month filter; content and publishing infrastructure unchanged."
 }

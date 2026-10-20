@@ -1,17 +1,17 @@
 /* A quiet archive toolbar: compact visible pills, 44px keyboard/touch targets. */
 .archive-filters { display:flex; flex-wrap:wrap; align-items:center; gap:4px 18px; margin:0 0 24px; padding:10px 0; border-top:1px solid #e7e0d6; border-bottom:1px solid #e7e0d6; background:transparent; }
-.archive-months { order:1; flex:1 1 370px; min-width:0; border:0; margin:0; padding:0; }
-.archive-months legend,.archive-filter-toolbar label>span,.archive-filter-status { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
-.archive-month-grid { display:flex; flex-wrap:wrap; gap:0 6px; }
-.archive-month-grid button { position:relative; isolation:isolate; display:inline-flex; align-items:center; justify-content:center; gap:6px; min-width:44px; height:44px; padding:0 12px; border:0; border-radius:999px; background:transparent; color:#655d54; font:inherit; cursor:pointer; }
-.archive-month-grid button::before { content:""; position:absolute; z-index:-1; inset:6px 0; border:1px solid #e8e1d7; border-radius:999px; background:#f8f5ef; }
-.archive-month-grid [data-month-name] { font-size:13px; line-height:18px; font-weight:500; white-space:nowrap; }
-.archive-month-grid [data-month-count] { font-size:11px; line-height:16px; color:#84786a; font-variant-numeric:tabular-nums; }
-.archive-month-grid button[aria-pressed="true"] { color:#493b2e; }
-.archive-month-grid button[aria-pressed="true"]::before { background:#eae0d2; border-color:#cbb99f; }
-.archive-month-grid button[aria-pressed="true"] [data-month-name] { font-weight:650; }
-.archive-month-grid button:hover::before { background:#efe7dc; border-color:#cbb99f; }
-.archive-filter-toolbar { order:2; display:flex; flex-wrap:wrap; align-items:center; gap:4px; margin:0 0 0 auto; }
+.archive-months { order:2; flex:1 1 370px; min-width:0; border:0; margin:0; padding:0; }
+.archive-months legend,.archive-types legend,.archive-filter-toolbar label>span,.archive-filter-status { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
+:is(.archive-month-grid,.archive-type-grid) { display:flex; flex-wrap:wrap; gap:0 6px; }
+:is(.archive-month-grid,.archive-type-grid) button { position:relative; isolation:isolate; display:inline-flex; align-items:center; justify-content:center; gap:6px; min-width:44px; height:44px; padding:0 12px; border:0; border-radius:999px; background:transparent; color:#655d54; font:inherit; cursor:pointer; }
+:is(.archive-month-grid,.archive-type-grid) button::before { content:""; position:absolute; z-index:-1; inset:6px 0; border:1px solid #e8e1d7; border-radius:999px; background:#f8f5ef; }
+:is(.archive-month-grid,.archive-type-grid) :is([data-month-name],[data-type-name]) { font-size:13px; line-height:18px; font-weight:500; white-space:nowrap; }
+:is(.archive-month-grid,.archive-type-grid) :is([data-month-count],[data-type-count]) { font-size:11px; line-height:16px; color:#84786a; font-variant-numeric:tabular-nums; }
+:is(.archive-month-grid,.archive-type-grid) button[aria-pressed="true"] { color:#493b2e; }
+:is(.archive-month-grid,.archive-type-grid) button[aria-pressed="true"]::before { background:#eae0d2; border-color:#cbb99f; }
+:is(.archive-month-grid,.archive-type-grid) button[aria-pressed="true"] :is([data-month-name],[data-type-name]) { font-weight:650; }
+:is(.archive-month-grid,.archive-type-grid) button:hover::before { background:#efe7dc; border-color:#cbb99f; }
+.archive-filter-toolbar { order:3; display:flex; flex-wrap:wrap; align-items:center; gap:4px; margin:0 0 0 auto; }
 .archive-filter-toolbar label { display:block; margin:0; }
 .archive-filter-toolbar select { min-height:44px; max-width:140px; padding:8px 4px; border:0; border-radius:7px; background:transparent; color:#70675d; font:inherit; font-size:12px; cursor:pointer; }
 .archive-filter-toolbar select:hover { background:#f4efe7; }
@@ -26,8 +26,11 @@
 @media(max-width:720px) {
  .archive-filters { gap:2px; padding:8px 0; margin-bottom:18px; }
  .archive-months { flex-basis:100%; }
- .archive-month-grid { gap:0 5px; }
- .archive-month-grid button { padding:0 10px; }
+ :is(.archive-month-grid,.archive-type-grid) { gap:0 5px; }
+ :is(.archive-month-grid,.archive-type-grid) button { padding:0 10px; }
  .archive-filter-toolbar { flex-basis:100%; justify-content:flex-start; margin:2px 0 0; gap:4px 10px; }
  .archive-filter-toolbar select { max-width:130px; }
 }
+
+.archive-types {order:1; flex:0 0 auto; min-width:0; margin:0; padding:0 16px 0 0; border:0; border-right:1px solid #e7e0d6;}
+@media(max-width:720px){.archive-types{flex-basis:100%;padding:0 0 4px;border-right:0;border-bottom:1px solid #eee7de;margin-bottom:4px;}}

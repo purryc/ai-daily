@@ -1,14 +1,20 @@
 import fs from 'node:fs/promises';
 export async function checkArchive({browser, url, live, locale, phase, check, screen, issue}) {
   const records=JSON.parse(await fs.readFile('public/manifest.json','utf8'));
-  const allDates=records.map(r=>r.date).sort().reverse();
+  const weeks=JSON.parse(await fs.readFile('public/weekly/manifest.json','utf8'));
+  const allDates=[...records.map(r=>r.date),...weeks.map(r=>r.week_start)].sort().reverse();
   const home=new URL(locale==='zh'?'':'en/',url).href;
   const other=new URL(locale==='zh'?'en/':'',url).href;
   const p=await browser.newPage({viewport:{width:1600,height:900}});
   const errors=[];p.on('pageerror',e=>errors.push(e.message));
+  async function capture(name){
+    const image=p.locator('.issue-card:visible img').first();
+    if(await image.count()){await image.evaluate(async img=>{img.loading='eager';await Promise.race([img.decode(),new Promise((_,reject)=>setTimeout(()=>reject(Error('Preview image did not decode')),10000))]);});}
+    await screen(p,name);
+  }
   if(phase==='candidate'){
     await p.goto(new URL(locale==='zh'?'':'en/',live).href,{waitUntil:'networkidle'});
-    await screen(p,`${locale}-archive-before.jpg`);
+    await capture(`${locale}-archive-before.jpg`);
   }
   async function ready(){
     await p.locator('[data-archive-filters][data-ready="true"]').waitFor();
@@ -20,10 +26,11 @@ export async function checkArchive({browser, url, live, locale, phase, check, sc
   check('overview',res.status()===200&&same(await visibleDates(),allDates));
   const populated=[...new Set(allDates.map(d=>d.slice(5,7)))].sort();
   check('archive-populated-months-only',same(await p.locator('[data-archive-month]').evaluateAll(els=>els.map(e=>e.dataset.archiveMonth)),['all',...populated])&&await p.locator('[data-archive-month]:disabled').count()===0);
+  check('archive-types-present',await p.locator('[data-archive-filters] button[data-archive-type]').count()===3&&await p.locator('nav a').filter({hasText:locale==='zh'?/^(日报|周报)$/:/^(Daily|Weekly)$/}).count()===0);
   check('archive-reset-hidden-default',!await p.locator('[data-archive-filters] [data-archive-reset]').isVisible());
   const expectedYears=[...new Set(allDates.map(d=>d.slice(0,4)))].sort().reverse();
   check('archive-years',same(await p.locator('[data-archive-year] option').evaluateAll(els=>els.map(e=>e.value)),['all',...expectedYears]));
-  await screen(p,`${locale}-archive-after.jpg`);
+  await capture(`${locale}-archive-after.jpg`);
   for(const viewport of [{width:1600,height:900},{width:390,height:844}]){
     await p.setViewportSize(viewport);await p.goto(home,{waitUntil:'domcontentloaded'});await ready();
     const geometry=await p.locator('[data-archive-filters]').evaluate(root=>{
@@ -40,8 +47,23 @@ export async function checkArchive({browser, url, live, locale, phase, check, sc
       await button.focus();await p.keyboard.press('Enter');
       const expected=allDates.filter(d=>d.startsWith('2026-'+month));
       check('archive-month-keyboard-filter',same(await visibleDates(),expected)&&await button.getAttribute('aria-pressed')==='true'&&await button.evaluate(e=>document.activeElement===e),{viewport,month,count:expected.length});
-      if(viewport.width===1600)await screen(p,`${locale}-archive-${month}.jpg`);
+
     }
+    await p.locator('button[data-archive-type="daily"]').focus();await p.keyboard.press('Enter');
+    check('archive-daily-august-intersection',(await visibleDates()).length===19&&await p.locator('.issue-card[data-archive-type="weekly"]').isHidden()&&await p.locator('button[data-archive-type="daily"]').evaluate(e=>e===document.activeElement),{viewport});
+    if(viewport.width===1600)await capture(`${locale}-archive-daily.jpg`);
+    await p.locator('button[data-archive-type="weekly"]').focus();await p.keyboard.press('Space');
+    check('archive-type-change-valid-months',same(await visibleDates(),weeks.map(w=>w.week_start))&&same(await p.locator('[data-archive-month]').evaluateAll(els=>els.map(e=>e.dataset.archiveMonth)),['all','10'])&&await p.locator('button[data-archive-type="weekly"]').evaluate(e=>e===document.activeElement)&&!new URL(p.url()).searchParams.has('month'),{viewport});
+    await p.locator('[data-archive-month="10"]').click();
+    check('archive-weekly-october-intersection',same(await visibleDates(),weeks.map(w=>w.week_start))&&await p.locator('.issue-card:visible').getAttribute('data-archive-type')==='weekly',{viewport});
+    if(viewport.width===1600)await capture(`${locale}-archive-weekly.jpg`);
+    await p.locator('.lang-switch').getByRole('link',{name:locale==='zh'?'English':'中文',exact:true}).click();await ready();
+    check('archive-weekly-language-state',new URL(p.url()).searchParams.get('type')==='weekly'&&new URL(p.url()).searchParams.get('month')==='10'&&same(await visibleDates(),weeks.map(w=>w.week_start)),{viewport});
+    await p.goto(home+'?type=weekly&year=2026&month=10',{waitUntil:'domcontentloaded'});await ready();
+    check('archive-weekly-reload',same(await visibleDates(),weeks.map(w=>w.week_start)),{viewport});
+    await p.locator('button[data-archive-type="daily"]').click();
+    check('archive-same-date-types-distinct',(await visibleDates()).length===13&&await p.locator('.issue-card[data-archive-type="weekly"]').isHidden(),{viewport});
+    await p.locator('button[data-archive-type="all"]').click();await p.locator('[data-archive-month="08"]').click();
     await p.locator('[data-archive-order]').selectOption('oldest');
     const august=allDates.filter(d=>d.startsWith('2026-08')).reverse();
     check('archive-independent-sort',same(await visibleDates(),august)&&await p.locator('[data-archive-month="08"]').getAttribute('aria-pressed')==='true',{viewport});
@@ -52,7 +74,7 @@ export async function checkArchive({browser, url, live, locale, phase, check, sc
     check('archive-reload-state',same(await visibleDates(),august),{viewport});
     await p.goto(home+'?year=2026&month=01&order=oldest',{waitUntil:'domcontentloaded'});await ready();
     check('archive-empty-state',(await visibleDates()).length===0&&await p.locator('[data-archive-empty]').isVisible(),{viewport});
-    if(viewport.width===1600){await p.locator('[data-archive-empty]').scrollIntoViewIfNeeded();await screen(p,`${locale}-archive-empty.jpg`);}
+    if(viewport.width===1600){await p.locator('[data-archive-empty]').scrollIntoViewIfNeeded();await capture(`${locale}-archive-empty.jpg`);}
     await p.locator('[data-archive-empty] [data-archive-reset]').click();
     check('archive-empty-reset',same(await visibleDates(),[...allDates].reverse())&&!await p.locator('[data-archive-empty]').isVisible()&&await p.locator('[data-archive-year]').evaluate(e=>e===document.activeElement),{viewport});
     await p.locator('[data-archive-year]').selectOption('2026');
@@ -63,13 +85,18 @@ export async function checkArchive({browser, url, live, locale, phase, check, sc
     }
     await p.locator('[data-archive-month="09"]').click();
     await p.locator('[data-archive-filters]').scrollIntoViewIfNeeded();
-    if(viewport.width===390)await screen(p,`${locale}-archive-mobile.jpg`);
+    if(viewport.width===390)await capture(`${locale}-archive-mobile.jpg`);
     await p.locator('[data-archive-filters] [data-archive-reset]').focus();await p.keyboard.press('Enter');
     check('archive-toolbar-reset-focus',await p.locator('[data-archive-year]').evaluate(e=>e===document.activeElement)&&!await p.locator('[data-archive-filters] [data-archive-reset]').isVisible(),{viewport});
     await p.locator('[data-archive-order]').selectOption('newest');
     check('overview-newest-sort-keeps-all',same(await visibleDates(),allDates),{viewport});
   }
   await p.setViewportSize({width:1600,height:900});await p.goto(home,{waitUntil:'domcontentloaded'});await ready();
+  await p.locator('button[data-archive-type="weekly"]').click();
+  const weeklyLink=p.locator('.issue-card:visible').locator(`a.primary`);
+  await weeklyLink.click();
+  check('archive-weekly-actual-navigation',new URL(p.url()).pathname===new URL(`weekly/2026-10-12/pilot/${locale}/`,url).pathname&&await p.locator('#cover').isVisible());
+  await p.goto(home,{waitUntil:'domcontentloaded'});await ready();
   const latest=p.locator('.issue-card:visible').first();
   await latest.locator(`a[href*="/${issue}/${locale}/"]`).click();
   check('overview-latest-actual-navigation',new URL(p.url()).pathname===new URL(`${issue}/${locale}/`,url).pathname&&await p.locator('#cover').isVisible());

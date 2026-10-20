@@ -1,0 +1,30 @@
+{
+  "issue_type": "weekly-pilot",
+  "revision": 3,
+  "week_start": "2026-10-12",
+  "timezone": "America/Toronto",
+  "cutoff": "2026-10-15T00:10:00Z",
+  "partial_week": true,
+  "revised_at": "2026-10-15",
+  "title": {
+    "zh": "从产品界面到行业生意：AI本周到底能做什么",
+    "en": "From product screens to real operational work"
+  },
+  "counts": {
+    "products": 7,
+    "demand_candidates": 3,
+    "sources": 33,
+    "pages_per_language": 22,
+    "visual_placements_per_language": 8
+  },
+  "format": "16:9 paginated bilingual static publication",
+  "demand_temporality": "Older public requests rechecked October 15, not this week’s launches. Priority interviews / small pilot / process-service watch; not validated businesses.",
+  "sources_path": "sources.md",
+  "zh_path": "zh/",
+  "en_path": "en/",
+  "qa": {
+    "document_render": "44 pages; measured text boundaries pass",
+    "browser": "pending deployment check for revision 3; viewport correction passed on preceding version",
+    "pdf": "not included"
+  }
+}

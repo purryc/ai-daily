@@ -1126,13 +1126,13 @@
   },
   {
     "path": "assets/archive-filter.css",
-    "bytes": 2847,
-    "sha256": "9aee1515585ca4ebed8de700792eb9cc9cb78ab547e5d829ece71de3a9e43bcd"
+    "bytes": 3385,
+    "sha256": "64f38ffe4c65b2ae77f4237e14180e3316323922455a8f90658f5e8c4f946d0b"
   },
   {
     "path": "assets/archive-filter.mjs",
-    "bytes": 7502,
-    "sha256": "bb38ff11790125ac2dcccb326ab1a0bf38f32997ec50d4c4eb0fbaf7ee389cb9"
+    "bytes": 8777,
+    "sha256": "7974fb309d7656bae6046dad5a3236d5d9cd41b4f0afcb85f0342421393e212a"
   },
   {
     "path": "assets/augmental-mouthpad-vox-official-2026-07.png",
@@ -1486,17 +1486,122 @@
   },
   {
     "path": "en/index.html",
-    "bytes": 153958,
-    "sha256": "54760a1bd145b5835a3d65fcb2af734c6f7ba802e03b76601d1e3a482e714cd2"
+    "bytes": 153207,
+    "sha256": "ce11098deddd0427f49bcf57f619667a7faa61e76480b6ac7efa888067d07580"
   },
   {
     "path": "index.html",
-    "bytes": 148255,
-    "sha256": "1f6404749e6a357c8999dd727a407c92cb964b0d22769ef91da1cc7fc5d4e927"
+    "bytes": 147534,
+    "sha256": "ace629807f84069f2b1baf96f96a0e1e66401e2fcace443f6ab6522477389c1e"
   },
   {
     "path": "manifest.json",
     "bytes": 727106,
     "sha256": "0ce91ef9439de2109641b8d047146786d2520552cea21739d848da0d9476bd19"
+  },
+  {
+    "path": "weekly/2026-10-12/pilot/en/index.html",
+    "bytes": 92670,
+    "sha256": "4754d83f922d2e2096da277ec0cb19822f06212c8c6c50f19cc1e2ed0c5da5ef"
+  },
+  {
+    "path": "weekly/2026-10-12/pilot/index.html",
+    "bytes": 1376,
+    "sha256": "571e66dbcecccddbbb168f2afee316e5fd9569aa8c6f2bdd34f51870840faf53"
+  },
+  {
+    "path": "weekly/2026-10-12/pilot/manifest.json",
+    "bytes": 1037,
+    "sha256": "d542ab45c1977000d708b3c205675cffdc08d1ea17c33a36ee9816f16ef1c494"
+  },
+  {
+    "path": "weekly/2026-10-12/pilot/sources.md",
+    "bytes": 3836,
+    "sha256": "45b68a008eb266e1188379c2ad1ebfc4d91630c6d43a2a2a65b02c927e750e17"
+  },
+  {
+    "path": "weekly/2026-10-12/pilot/zh/index.html",
+    "bytes": 89301,
+    "sha256": "d6f5dbee36a05baa10e4accb53fd644a74ffd51ad954c71f7767ef2c7ea23e11"
+  },
+  {
+    "path": "weekly/assets/pilot.css",
+    "bytes": 7365,
+    "sha256": "d3b071073da857700d758dd91cd07d413ae0dc97ec17eed683fbd35c5b08f671"
+  },
+  {
+    "path": "weekly/assets/pilot.js",
+    "bytes": 1717,
+    "sha256": "8204a05063c500576805c92116d1b166e9c258776bd5d91d10ddfdeb8e09a75e"
+  },
+  {
+    "path": "weekly/assets/revision2/apple-homeview-display.webp",
+    "bytes": 24200,
+    "sha256": "c7454568e98b76fc7b3a3cd1f8792b232845bd6eb9f14ff8ef7da57236f1b43c"
+  },
+  {
+    "path": "weekly/assets/revision2/apple-setup-display.webp",
+    "bytes": 24488,
+    "sha256": "b55476f8219d9088a7d39b29cc098fb85051f860388316262f63b64c9b6411e2"
+  },
+  {
+    "path": "weekly/assets/revision2/deep-review-pipeline-display.webp",
+    "bytes": 48656,
+    "sha256": "09dc3c2656750716c12402b1147697d089cb52ec6c55df94a92920bba8c6f593"
+  },
+  {
+    "path": "weekly/assets/revision2/document.css",
+    "bytes": 1774,
+    "sha256": "c3d3934b147239f572c7c3ca3c0cc973e8ccf8a241eb36cdb0122ff6b945ef4c"
+  },
+  {
+    "path": "weekly/assets/revision2/earth-demo-display.webp",
+    "bytes": 407566,
+    "sha256": "34b6c4647eb384e10cbfc71fc29547fed70613dd2761e4c30d8561be27373caa"
+  },
+  {
+    "path": "weekly/assets/revision2/gemini-argon-display.webp",
+    "bytes": 19912,
+    "sha256": "4b4d714d46110ded1b3c99f6ba22c24af69d7b6c38878958044566b468643888"
+  },
+  {
+    "path": "weekly/assets/revision2/jobber-sync-display.webp",
+    "bytes": 37480,
+    "sha256": "7f0b0b615f046ee52e4a6d5fb5d620c7dc4488b846926bfcb5322474e46ea2ec"
+  },
+  {
+    "path": "weekly/assets/revision2/morningai-channels-display.webp",
+    "bytes": 67766,
+    "sha256": "5d1511edfb174ceb75e63abfa238384827537a9a742b38f0e52e2e16c2036733"
+  },
+  {
+    "path": "weekly/assets/revision2/morningai-social-display.webp",
+    "bytes": 107160,
+    "sha256": "7ee3377e346515e747f7544b79686e01ac10f662197fc4f6f2b5b5ad40e9e375"
+  },
+  {
+    "path": "weekly/assets/revision2/morningai-website-display.webp",
+    "bytes": 83560,
+    "sha256": "5c843779f711af8fd43bcf18f145fdc749e5210b6ec6cd669712cf5a4943472e"
+  },
+  {
+    "path": "weekly/assets/revision2/navigation.js",
+    "bytes": 1669,
+    "sha256": "04a704aa8c53355c874a5ea28b60903141a28d15a804c9880b2fe0bed6932e9b"
+  },
+  {
+    "path": "weekly/assets/revision2/od-asap-display.webp",
+    "bytes": 43410,
+    "sha256": "9e16872127c2ea28bc3db76e7f7008e76eb62b21eb6e23ae4d55dbc2c7e1a5f1"
+  },
+  {
+    "path": "weekly/index.html",
+    "bytes": 1404,
+    "sha256": "a50ba670e08ef0c4b7b57563d0929cf523b60637d77dccebd482d61a88d09e24"
+  },
+  {
+    "path": "weekly/manifest.json",
+    "bytes": 186,
+    "sha256": "3a740b99aee2b0f75901c45fc19a22c3a7d5b462d00415082f9a2ee30eaabfe6"
   }
 ]

@@ -21,7 +21,8 @@ export function normalizeState(params, dates) {
   return {
     year: year === 'all' || yearsFor(dates).includes(year) ? year : 'all',
     month: /^(0[1-9]|1[0-2])$/.test(month) ? month : 'all',
-    order: params.get('order') === 'oldest' ? 'oldest' : 'newest'
+    order: params.get('order') === 'oldest' ? 'oldest' : 'newest',
+    type: ['daily', 'weekly'].includes(params.get('type')) ? params.get('type') : 'all'
   };
 }
 export function selectDates(dates, state) {
@@ -48,11 +49,23 @@ export function populatedMonths(dates, year) {
 export function changeYear(state, year, dates) {
   return {...state, year, month: state.month === 'all' || populatedMonths(dates, year).some(m => m.value === state.month) ? state.month : 'all'};
 }
+export function typeDates(entries, type = 'all') {
+  return entries.filter(entry => type === 'all' || entry.type === type).map(entry => entry.date);
+}
+export function selectEntries(entries, state) {
+  return entries.filter(entry => (state.type === 'all' || entry.type === state.type) &&
+    (state.year === 'all' || entry.date.startsWith(state.year + '-')) &&
+    (state.month === 'all' || entry.date.slice(5,7) === state.month))
+    .sort((a,b) => (state.order === 'oldest' ? a.date.localeCompare(b.date) : b.date.localeCompare(a.date)) || a.type.localeCompare(b.type));
+}
+export function changeType(state, type, entries) {
+  return changeYear({...state,type}, state.year, typeDates(entries,type));
+}
 export function writeState(url, state) {
   const next = new URL(url);
-  for (const key of ['year', 'month', 'order']) {
+  for (const key of ['year', 'month', 'order', 'type']) {
     const defaultValue = key === 'order' ? 'newest' : 'all';
-    if (state[key] === defaultValue) next.searchParams.delete(key);
+    if (!state[key] || state[key] === defaultValue) next.searchParams.delete(key);
     else next.searchParams.set(key, state[key]);
   }
   return next;
@@ -63,13 +76,16 @@ export function mountArchive(doc = document, win = window) {
   if (!root) return;
   const zh = doc.documentElement.lang.startsWith('zh');
   const cards = [...doc.querySelectorAll('.issue-card[data-time]')];
-  const entries = cards.map(card => ({card, date: issueDate(card.dataset.time)}));
+  const entries = cards.map(card => ({card, date: issueDate(card.dataset.time), type: card.dataset.archiveType || 'daily'}));
   if (entries.some(entry => !entry.date)) throw Error('Archive contains an invalid issue date');
   const dates = entries.map(entry => entry.date), today = torontoToday();
   const yearControl = root.querySelector('[data-archive-year]');
   const sortControl = root.querySelector('[data-archive-order]');
   const monthGrid = root.querySelector('.archive-month-grid');
   const monthButtons = new Map([...root.querySelectorAll('[data-archive-month]')].map(button => [button.dataset.archiveMonth, button]));
+  const typeGrid = root.querySelector('.archive-type-grid');
+  const typeButtons = [...typeGrid.querySelectorAll('[data-archive-type]')];
+  const typeNames = zh ? {all:'全部类型',daily:'日报',weekly:'周报'} : {all:'All types',daily:'Daily',weekly:'Weekly'};
   const status = root.querySelector('[data-archive-status]');
   const empty = doc.querySelector('[data-archive-empty]');
   const list = doc.querySelector('#archive');
@@ -85,16 +101,24 @@ export function mountArchive(doc = document, win = window) {
   function render(updateUrl = true) {
     yearControl.value = state.year;
     sortControl.value = state.order;
-    const months = monthOptions(dates, state.year, today);
-    const visible = selectDates(dates, state);
+    const scopedDates = typeDates(entries, state.type);
+    const months = monthOptions(scopedDates, state.year, today);
+    const visible = selectEntries(entries, state);
     const visibleSet = new Set(visible);
     const ordered = [...entries].sort((a, b) => state.order === 'oldest' ?
       a.date.localeCompare(b.date) : b.date.localeCompare(a.date));
-    for (const {card, date} of ordered) {
-      card.hidden = !visibleSet.has(date);
-      list.append(card);
+    for (const entry of ordered) {
+      entry.card.hidden = !visibleSet.has(entry);
+      list.append(entry.card);
     }
-    const available = populatedMonths(dates, state.year);
+    for (const button of typeButtons) {
+      const type = button.dataset.archiveType;
+      const count = entries.filter(entry => (type === 'all' || entry.type === type) && (state.year === 'all' || entry.date.startsWith(state.year + '-'))).length;
+      button.querySelector('[data-type-count]').textContent = count;
+      button.setAttribute('aria-pressed',String(type === state.type));
+      button.setAttribute('aria-label', `${typeNames[type]} · ${count}${zh ? '期' : ' issues'}`);
+    }
+    const available = populatedMonths(scopedDates, state.year);
     const choices = [{value:'all', count:available.reduce((sum, month) => sum + month.count, 0)}, ...available];
     const values = new Set(choices.map(item => item.value));
     for (const button of [...monthGrid.children]) {
@@ -126,8 +150,8 @@ export function mountArchive(doc = document, win = window) {
       // Preserve the focused chip instead of rebuilding the whole control row.
       if (monthGrid.children[index] !== button) monthGrid.insertBefore(button, monthGrid.children[index] || null);
     });
-    root.querySelector('[data-archive-reset]').hidden = state.year === 'all' && state.month === 'all';
-    const period = [state.year === 'all' ? (zh ? '全部年份' : 'All years') : state.year,
+    root.querySelector('[data-archive-reset]').hidden = state.year === 'all' && state.month === 'all' && state.type === 'all';
+    const period = [typeNames[state.type], state.year === 'all' ? (zh ? '全部年份' : 'All years') : state.year,
       state.month === 'all' ? (zh ? '全部月份' : 'All months') :
         (zh ? `${Number(state.month)}月` : monthNames[Number(state.month) - 1])].join(' · ');
     status.textContent = zh ? `${period} · 共 ${visible.length} 期` : `${period} · ${visible.length} issues`;
@@ -138,8 +162,8 @@ export function mountArchive(doc = document, win = window) {
         (zh ? `${period}尚未到来` : `${period} is still ahead`) :
         (zh ? `${period}暂无刊物` : `No issues: ${period}`);
       empty.querySelector('p').textContent = zh ?
-        '可以选择其他月份，或清除日期筛选查看全部已收录刊物。' :
-        'Choose another month, or clear the date filters to browse all indexed issues.';
+        '可以切换类型或月份，或清除筛选查看全部已收录刊物。' :
+        'Choose another type or month, or clear the filters to browse all indexed issues.';
     }
     const next = writeState(win.location.href, state);
     if (updateUrl) win.history.replaceState(null, '', next.href);
@@ -150,8 +174,15 @@ export function mountArchive(doc = document, win = window) {
     root.dataset.ready = 'true';
   }
   yearControl.addEventListener('change', () => {
-    state = changeYear(state, yearControl.value, dates);
+    state = changeYear(state, yearControl.value, typeDates(entries,state.type));
     render();
+  });
+  typeGrid.addEventListener('click', event => {
+    const button = event.target.closest('button[data-archive-type]');
+    if (!button || !typeGrid.contains(button)) return;
+    const previousMonth = state.month;
+    state = changeType(state, button.dataset.archiveType, entries); render();
+    if (previousMonth !== state.month) status.textContent += zh ? '；原月份没有该类型刊物，已显示全部月份。' : '; The previous month has no issues of this type; showing all months.';
   });
   sortControl.addEventListener('change', () => {state.order = sortControl.value; render();});
   monthGrid.addEventListener('click', event => {
@@ -159,7 +190,7 @@ export function mountArchive(doc = document, win = window) {
     if (button && monthGrid.contains(button)) {state.month = button.dataset.archiveMonth; render();}
   });
   doc.querySelectorAll('[data-archive-reset]').forEach(button => button.addEventListener('click', () => {
-    state.year = 'all'; state.month = 'all'; render();
+    state.year = 'all'; state.month = 'all'; state.type = 'all'; render();
     // Both reset buttons disappear; keep the keyboard user on a visible control.
     yearControl.focus();
   }));
