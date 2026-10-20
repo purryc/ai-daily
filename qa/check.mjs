@@ -90,8 +90,8 @@ async function checkpoint(phase,details={}){
  console.log('QA_CHECKPOINT '+JSON.stringify(point));
 }
 report.timings={readyCalls:0,readyMs:0,imageDecodeCalls:0,imagesDecoded:0,imageDecodeMs:0,screenshotMs:0};
-report.imageLog={eligible:[],maxImages:4,maxBase64CharsPerImage:524288,maxBase64CharsTotal:2097152,encodedChars:0,emitted:[],artifactOnly:[]};
-function previewNames(){return report.locale?[`${report.locale}-toc-1.jpg`,...(report.representativeProjects||[]).map(id=>`${report.locale}-event-${manifest.topics.findIndex(t=>t.id===id)+1}-a.jpg`)].slice(0,4):[]}
+report.imageLog={eligible:[],maxImages:6,maxBase64CharsPerImage:1048576,maxBase64CharsTotal:4194304,encodedChars:0,emitted:[],artifactOnly:[]};
+function previewNames(){return report.locale?[`${report.locale}-toc-1.jpg`,`${report.locale}-event-7-a.jpg`,`${report.locale}-event-14-a.jpg`,`${report.locale}-detail-iphone-agent-harness-top.jpg`,`${report.locale}-mobile-event-7-a.jpg`,`${report.locale}-mobile-detail-iphone-agent-harness.jpg`]:[]}
 async function emitPreview(name){
  const log=report.imageLog;if(!previewNames().includes(name)||log.emitted.includes(name)||log.artifactOnly.includes(name))return;
  log.eligible.push(name);const data=(await fs.readFile(path.join(out,name))).toString('base64');
