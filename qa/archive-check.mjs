@@ -64,7 +64,8 @@ export async function checkArchive({browser, url, live, locale, phase, check, sc
     await p.locator('[data-archive-month="09"]').click();
     await p.locator('[data-archive-filters]').scrollIntoViewIfNeeded();
     if(viewport.width===390)await screen(p,`${locale}-archive-mobile.jpg`);
-    await p.locator('[data-archive-filters] [data-archive-reset]').click();
+    await p.locator('[data-archive-filters] [data-archive-reset]').focus();await p.keyboard.press('Enter');
+    check('archive-toolbar-reset-focus',await p.locator('[data-archive-year]').evaluate(e=>e===document.activeElement)&&!await p.locator('[data-archive-filters] [data-archive-reset]').isVisible(),{viewport});
     await p.locator('[data-archive-order]').selectOption('newest');
     check('overview-newest-sort-keeps-all',same(await visibleDates(),allDates),{viewport});
   }

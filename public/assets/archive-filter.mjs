@@ -160,8 +160,8 @@ export function mountArchive(doc = document, win = window) {
   });
   doc.querySelectorAll('[data-archive-reset]').forEach(button => button.addEventListener('click', () => {
     state.year = 'all'; state.month = 'all'; render();
-    // Empty-state actions disappear; keep the keyboard user on a visible control.
-    if (empty.contains(button)) yearControl.focus();
+    // Both reset buttons disappear; keep the keyboard user on a visible control.
+    yearControl.focus();
   }));
   win.addEventListener('popstate', () => {
     state = normalizeState(new URL(win.location.href).searchParams, dates); render(false);
