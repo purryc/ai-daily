@@ -1,14 +1,14 @@
 [
   {
     "date": "2026-10-20",
-    "zhTitle": "AI Daily｜2026年10月20日 · 代理越接近行动，越需要可核验的交接",
-    "enTitle": "AI Daily | October 20, 2026 · Verifiable handoffs as agents move closer to action",
-    "zhSummary": "编辑修订：七项目各一张主阅读页，附完整深读；软件、硬件、端侧系统与手机DIY。原截止不变，补入截止前代码观察；20条引用、7份真实图证。",
-    "enSummary": "Editorial revision: seven project overview pages with full attached analysis, spanning software, hardware, edge systems and phone DIY. Original cutoff retained; one pre-cutoff code observation added. Twenty references and seven real visuals.",
+    "zhTitle": "AI Daily｜2026年10月20日 · AI走向行动，控制权必须可见",
+    "enTitle": "AI Daily | October 20, 2026 · Visible control as AI moves into action",
+    "zhSummary": "扩展修订：39项目各一张主阅读页，附完整深读；软件、硬件、软硬结合、DIY、开源与研究。原截止不变，新增和回看逐项标明；103条引用、39份真实图证。",
+    "enSummary": "Expanded revision: 39 project overview pages with full analysis across software, hardware, hybrid systems, DIY, open source and research. Original cutoff retained; event windows labeled. 103 references and 39 real visuals.",
     "tags": [
       "agent workflows",
-      "edge AI",
       "hardware / DIY",
+      "open source",
       "research"
     ],
     "sourceTypes": [

@@ -200,5 +200,793 @@
     "title": "Hackaday · original approach and builder comment",
     "publishedAt": "Article 2026-10-14; builder comment 2026-10-19 (timezone unknown)",
     "number": 20
+  },
+  {
+    "id": "exa-3-1",
+    "url": "https://exa.ai/blog/exa-3",
+    "type": "Official primary source; current page reread after original cutoff, not a historical snapshot",
+    "title": "Official primary source; current page reread after original cutoff, not a historical snapshot",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 21
+  },
+  {
+    "id": "exa-3-2",
+    "url": "https://exa.ai/docs/reference/search",
+    "type": "Official primary source; current page reread after original cutoff, not a historical snapshot",
+    "title": "Official primary source; current page reread after original cutoff, not a historical snapshot",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 22
+  },
+  {
+    "id": "exa-3-3",
+    "url": "https://exa.ai/docs",
+    "type": "Official primary source; current page reread after original cutoff, not a historical snapshot",
+    "title": "Official primary source; current page reread after original cutoff, not a historical snapshot",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 23
+  },
+  {
+    "id": "bill-ai-controls-1",
+    "url": "https://www.bill.com/press-release/bill-launches-new-suite-of-ai-capabilities",
+    "type": "Official primary source; current page reread after original cutoff, not a historical snapshot",
+    "title": "Official primary source; current page reread after original cutoff, not a historical snapshot",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 24
+  },
+  {
+    "id": "bill-ai-controls-2",
+    "url": "https://www.bill.com/blog/new-bill-features-give-finance-teams-confidence-and-control-of-ai",
+    "type": "Official primary source; current page reread after original cutoff, not a historical snapshot",
+    "title": "Official primary source; current page reread after original cutoff, not a historical snapshot",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 25
+  },
+  {
+    "id": "bill-ai-controls-3",
+    "url": "https://www.bill.com/product-updates",
+    "type": "Official primary source; current page reread after original cutoff, not a historical snapshot",
+    "title": "Official primary source; current page reread after original cutoff, not a historical snapshot",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 26
+  },
+  {
+    "id": "motive-agents-1",
+    "url": "https://gomotive.com/motive-launches-agents-ai-that-acts-before-problems-start/",
+    "type": "Official primary source; current page reread after original cutoff, not a historical snapshot",
+    "title": "Official primary source; current page reread after original cutoff, not a historical snapshot",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 27
+  },
+  {
+    "id": "motive-agents-2",
+    "url": "https://gomotive.com/blog/motive-launches-ai-agents/",
+    "type": "Official primary source; current page reread after original cutoff, not a historical snapshot",
+    "title": "Official primary source; current page reread after original cutoff, not a historical snapshot",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 28
+  },
+  {
+    "id": "motive-agents-3",
+    "url": "https://gomotive.com/products/maintenance/",
+    "type": "Official primary source; current page reread after original cutoff, not a historical snapshot",
+    "title": "Official primary source; current page reread after original cutoff, not a historical snapshot",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 29
+  },
+  {
+    "id": "P1",
+    "url": "https://arxiv.org/html/2610.26485v1",
+    "relatedUrls": [
+      "https://arxiv.org/abs/2610.26485v1"
+    ],
+    "type": "Original paper v1; sections4,6,7 and Table3 independently reopened",
+    "title": "Original paper v1; sections4,6,7 and Table3 independently reopened",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 30
+  },
+  {
+    "id": "O1",
+    "url": "https://arxiv.org/html/2610.26860v1",
+    "relatedUrls": [
+      "https://arxiv.org/abs/2610.26860v1"
+    ],
+    "type": "Original paper v1, architecture and failure analysis reopened",
+    "title": "Original paper v1, architecture and failure analysis reopened",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 31
+  },
+  {
+    "id": "O2",
+    "url": "https://github.com/uclanlp/OpenVLHarness/blob/c0f35f5e9989c965a8cc2ee223eec15478c2fe49/README.md",
+    "relatedUrls": [
+      "https://openvlharness.github.io/"
+    ],
+    "type": "Author README pinned at12:45:46Z before cutoff; October15 repository commit also verified",
+    "title": "Author README pinned at12:45:46Z before cutoff; October15 repository commit also verified",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 32
+  },
+  {
+    "id": "C1",
+    "url": "https://arxiv.org/html/2610.25879v1",
+    "relatedUrls": [
+      "https://arxiv.org/abs/2610.25879v1"
+    ],
+    "type": "Original paper v1, interfaces, study conditions and results reopened",
+    "title": "Original paper v1, interfaces, study conditions and results reopened",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 33
+  },
+  {
+    "id": "B1",
+    "url": "https://www.aboutamazon.com/news/devices/amazon-personal-ai-bee-frontier-bee-eclipse",
+    "type": "Amazon launch announcement, October15",
+    "title": "Amazon launch announcement, October15",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 34
+  },
+  {
+    "id": "B2",
+    "url": "https://bee.computer/bee-pro",
+    "type": "Bee official subscription and feature terms, collected after cutoff; date-sensitive values corroborate launch",
+    "title": "Bee official subscription and feature terms, collected after cutoff; date-sensitive values corroborate launch",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 35
+  },
+  {
+    "id": "B3",
+    "url": "https://www.aboutamazon.com/news/devices/bee-private-compute-data-protection",
+    "type": "Amazon explanation of claimed private-compute architecture",
+    "title": "Amazon explanation of claimed private-compute architecture",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 36
+  },
+  {
+    "id": "U1",
+    "url": "https://uniuni.unitree.com/",
+    "type": "Unitree official product and workflow page, search-index text retrieved",
+    "title": "Unitree official product and workflow page, search-index text retrieved",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 37
+  },
+  {
+    "id": "U2",
+    "url": "https://roboticaguide.com/unitree-uniuni-swarm-control-software-h2-g1/",
+    "type": "RoboticaGuide October19 report linking October16 Unitree announcement and demo",
+    "title": "RoboticaGuide October19 report linking October16 Unitree announcement and demo",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 38
+  },
+  {
+    "id": "A1",
+    "url": "https://about.fb.com/news/2026/10/meta-milans-pinacoteca-di-brera-and-essilorluxottica-expand-access-to-art-through-ai-glasses/",
+    "type": "Meta official announcement, October14 with October15 modification",
+    "title": "Meta official announcement, October14 with October15 modification",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 39
+  },
+  {
+    "id": "A2",
+    "url": "https://pinacotecabrera.org/en/news/sensing-art-capolavori-oltre-lo-sguardo/",
+    "type": "Museum primary announcement dated October13, says launching today; no time",
+    "title": "Museum primary announcement dated October13, says launching today; no time",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 40
+  },
+  {
+    "id": "A3",
+    "url": "https://pinacotecabrera.org/educazione/audio-guide/descrivedendo-brera/",
+    "type": "Museum existing DescriVedendo audio programme and eight-work scope",
+    "title": "Museum existing DescriVedendo audio programme and eight-work scope",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 41
+  },
+  {
+    "id": "M1",
+    "url": "https://www.globenewswire.com/news-release/2026/10/17/3382868/0/en/aimoga-to-unveil-mobo-its-first-family-companion-robot-on-october-21.html",
+    "type": "AiMOGA issuer release, October17 at06:27 EDT /10:27Z",
+    "title": "AiMOGA issuer release, October17 at06:27 EDT /10:27Z",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 42
+  },
+  {
+    "id": "M2",
+    "url": "https://news.marketersmedia.com/home-companion-robot-mobo-to-debut-globally-and-open-pre-orders-as-aimoga-showcases-its-robot-family-at-the-2026-exeed-international-user-summit/89206521",
+    "type": "EXEED issuer release, October18; related corporate announcement, not independent confirmation",
+    "title": "EXEED issuer release, October18; related corporate announcement, not independent confirmation",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 43
+  },
+  {
+    "id": "R1",
+    "url": "https://dreamlabs.ai/research/dream-1/",
+    "type": "Official technical launch page, month precision",
+    "title": "Official technical launch page, month precision",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 44
+  },
+  {
+    "id": "R2",
+    "url": "https://www.businesswire.com/news/home/20261019230613/en/Dream-Labs-Raises-$90M-Seed-to-Build-the-Brain-for-Everyday-Robots",
+    "type": "Company announcement distributed by Business Wire, October 19",
+    "title": "Company announcement distributed by Business Wire, October 19",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 45
+  },
+  {
+    "id": "R1",
+    "url": "https://markets.financialcontent.com/dowtheoryletters/article/bizwire-2026-10-15-standard-bots-enables-any-manufacturing-worker-to-be-a-robot-operator-with-new-ai-platform",
+    "type": "Standard Bots press release syndicated from Business Wire; 12:05 EDT",
+    "title": "Standard Bots press release syndicated from Business Wire; 12:05 EDT",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 46
+  },
+  {
+    "id": "R2",
+    "url": "https://standardbots.com/ai",
+    "type": "Official current product page; undated context, not cutoff availability proof",
+    "title": "Official current product page; undated context, not cutoff availability proof",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 47
+  },
+  {
+    "id": "R1",
+    "url": "https://neura-robotics.com/neura-robotics-introduces-neuron-ai/",
+    "type": "Official dated announcement, October 14; day precision",
+    "title": "Official dated announcement, October 14; day precision",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 48
+  },
+  {
+    "id": "R2",
+    "url": "https://neura-robotics.com/neuron-ai/",
+    "type": "Official undated model page, contextual cross-check only",
+    "title": "Official undated model page, contextual cross-check only",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 49
+  },
+  {
+    "id": "R1",
+    "url": "https://blogs.windows.com/devices/2026/10/07/pre-order-our-most-powerful-surface-devices-ever/",
+    "type": "Official October 7 pre-order announcement; planned October 16 availability",
+    "title": "Official October 7 pre-order announcement; planned October 16 availability",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 50
+  },
+  {
+    "id": "R2",
+    "url": "https://www.microsoft.com/en-us/surface/devices/surface-laptop-ultra",
+    "type": "Current official product page; not historical stock evidence",
+    "title": "Current official product page; not historical stock evidence",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 51
+  },
+  {
+    "id": "thought-industries-lens-S1",
+    "url": "https://www.globenewswire.com/news-release/2026/10/20/3384448/0/en/thought-industries-launches-lens-and-unveils-customer-knowledge-ai-platform-breaking-the-knowledge-silos-holding-businesses-and-their-customers-back.html",
+    "title": "Thought Industries launches Lens in Beta",
+    "publishedAt": "2026-10-20T13:00:00Z",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 52
+  },
+  {
+    "id": "thought-industries-lens-S2",
+    "url": "https://lens.thoughtindustries.com/",
+    "title": "Lens product, source controls, plan limits and FAQ",
+    "publishedAt": null,
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 53
+  },
+  {
+    "id": "payani-execution-S1",
+    "url": "https://www.accessnewswire.com/newsroom/en/computers-technology-and-internet/payani-ai-launches-ai-powered-marketing-and-sales-execution-tell-1238684",
+    "title": "Payani conversational execution launch",
+    "publishedAt": "2026-10-20",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 54
+  },
+  {
+    "id": "payani-execution-S2",
+    "url": "https://www.payani.ai/platform/ask-payani",
+    "title": "Ask Payani product and autonomy FAQ",
+    "publishedAt": null,
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 55
+  },
+  {
+    "id": "payani-execution-S3",
+    "url": "https://www.streetinsider.com/ACCESS%2BNewswire/Payani%2BAI%2BLaunches%2BAI-Powered%2BMarketing%2Band%2BSales%2BExecution:%2BTell%2Bthe%2BAI%2BWhat%2BYou%2BWant%2BDone/27206926.html",
+    "title": "Payani launch syndication timestamp",
+    "publishedAt": "2026-10-20T12:01:00Z",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 56
+  },
+  {
+    "id": "cloudflare-clairic-S1",
+    "url": "https://blog.cloudflare.com/clairic-extraction-model/",
+    "title": "Introducing Clairic, a new System One class of extraction models",
+    "publishedAt": "2026-10-19",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 57
+  },
+  {
+    "id": "cloudflare-clairic-S2",
+    "url": "https://developers.cloudflare.com/workers-ai/concepts/extraction-models/",
+    "title": "Workers AI extraction model API concepts",
+    "publishedAt": null,
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 58
+  },
+  {
+    "id": "cloudflare-clairic-S3",
+    "url": "https://developers.cloudflare.com/changelog/product/workers-ai/",
+    "title": "October 19 Clairic preview changelog",
+    "publishedAt": "2026-10-19",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 59
+  },
+  {
+    "id": "cloudflare-clairic-S4",
+    "url": "https://clairic-pipeline-demo.workers-ai-mle.workers.dev/",
+    "title": "Official cascade versus single LLM demo",
+    "publishedAt": null,
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 60
+  },
+  {
+    "id": "CONVERSEMR1",
+    "url": "https://arxiv.org/html/2610.24640v1",
+    "relatedUrls": [
+      "https://arxiv.org/abs/2610.24640"
+    ],
+    "type": "Author preprint v1 and arXiv submission history; independently reread",
+    "title": "Author preprint v1 and arXiv submission history; independently reread",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 61
+  },
+  {
+    "id": "GAZEAGENT1",
+    "url": "https://arxiv.org/html/2610.24364v1",
+    "relatedUrls": [
+      "https://arxiv.org/abs/2610.24364"
+    ],
+    "type": "Author preprint v1 and arXiv submission history; independently reread",
+    "title": "Author preprint v1 and arXiv submission history; independently reread",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 62
+  },
+  {
+    "id": "SPLATXR1",
+    "url": "https://arxiv.org/html/2610.26338v1",
+    "relatedUrls": [
+      "https://arxiv.org/abs/2610.26338"
+    ],
+    "type": "Author preprint v1 and arXiv submission history; independently reread",
+    "title": "Author preprint v1 and arXiv submission history; independently reread",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 63
+  },
+  {
+    "id": "SPLATXR2",
+    "url": "https://splatxr.github.io/",
+    "relatedUrls": [
+      "https://github.com/splatxr/SplatXR"
+    ],
+    "type": "Author project site reread during revision; linked repository returned 404",
+    "title": "Author project site reread during revision; linked repository returned 404",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 64
+  },
+  {
+    "id": "INTERACTAGENT1",
+    "url": "https://arxiv.org/html/2610.25649v1",
+    "relatedUrls": [
+      "https://arxiv.org/abs/2610.25649"
+    ],
+    "type": "Author preprint v1 and arXiv submission history; independently reread",
+    "title": "Author preprint v1 and arXiv submission history; independently reread",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 65
+  },
+  {
+    "id": "INTERACTAGENT2",
+    "url": "https://github.com/AIGeeksGroup/InteractAgent",
+    "type": "Author repository README and file listing reread during revision; current state, not pinned historical release",
+    "title": "Author repository README and file listing reread during revision; current state, not pinned historical release",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 66
+  },
+  {
+    "id": "K1",
+    "url": "https://www.krea.ai/blog/introducing-krea-3",
+    "type": "Official dated launch post; marketing claims, not independent benchmark",
+    "title": "Official dated launch post; marketing claims, not independent benchmark",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 67
+  },
+  {
+    "id": "K2",
+    "url": "https://www.krea.ai/docs/changelog",
+    "relatedUrls": [
+      "https://www.krea.ai/docs/user-guide/features/krea-3",
+      "https://www.krea.ai/docs/developers/krea-3/overview"
+    ],
+    "type": "Official dated change log and live documentation; only entries datedOctober19 or earlier admitted",
+    "title": "Official dated change log and live documentation; only entries datedOctober19 or earlier admitted",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 68
+  },
+  {
+    "id": "K3",
+    "url": "https://www.krea.ai/docs/user-guide/features/krea-image",
+    "type": "Official image-tool documentation with historical generic UI screenshots",
+    "title": "Official image-tool documentation with historical generic UI screenshots",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 69
+  },
+  {
+    "url": "https://www.krea.ai/docs/user-guide/features/krea-3",
+    "title": "Krea 3 · supporting original document",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "revision collection after cutoff",
+    "number": 70
+  },
+  {
+    "url": "https://www.krea.ai/docs/developers/krea-3/overview",
+    "title": "Krea 3 · supporting original document",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "revision collection after cutoff",
+    "number": 71
+  },
+  {
+    "id": "W1",
+    "url": "https://www.producthunt.com/products/willow-voice",
+    "relatedUrls": [
+      "https://www.producthunt.com/products/willow-voice/launches"
+    ],
+    "type": "Product Hunt official maker announcement and exact launch dates; relative comment labels not used as timestamps",
+    "title": "Product Hunt official maker announcement and exact launch dates; relative comment labels not used as timestamps",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 72
+  },
+  {
+    "id": "W2",
+    "url": "https://help.willowvoice.com/en/articles/15043797-introduction-to-scribe-in-willow",
+    "relatedUrls": [
+      "https://willowvoice.com"
+    ],
+    "type": "Official Scribe workflow documentation; background corroboration, not original Wally release proof",
+    "title": "Official Scribe workflow documentation; background corroboration, not original Wally release proof",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 73
+  },
+  {
+    "url": "https://www.producthunt.com/products/willow-voice/launches",
+    "title": "Wally by Willow · supporting original document",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "revision collection after cutoff",
+    "number": 74
+  },
+  {
+    "url": "https://willowvoice.com",
+    "title": "Wally by Willow · supporting original document",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "revision collection after cutoff",
+    "number": 75
+  },
+  {
+    "id": "G1",
+    "url": "https://help.gleap.ai/es/articles/382-kai-resolve-a-second-level-of-support-before-your-team",
+    "type": "Official help article datedOctober17, triggers and human handoff",
+    "title": "Official help article datedOctober17, triggers and human handoff",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 76
+  },
+  {
+    "id": "G2",
+    "url": "https://help.gleap.ai/en/articles/319-how-kai-resolve-and-kai-code-work-together",
+    "type": "Official help article datedOctober19, approval and coding handoff",
+    "title": "Official help article datedOctober19, approval and coding handoff",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 77
+  },
+  {
+    "id": "G3",
+    "url": "https://www.gleap.ai/kai-resolve",
+    "type": "Official live product page, workflow controls corroboration; historical plan information unresolved",
+    "title": "Official live product page, workflow controls corroboration; historical plan information unresolved",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 78
+  },
+  {
+    "id": "different-1",
+    "url": "https://www.prnewswire.com/news-releases/different-emerges-from-stealth-with-48m-for-ai-that-runs-demand-generation-for-lean-b2b-marketing-teams-302913497.html",
+    "type": "Primary official/vendor-authored source; reread after original cutoff",
+    "title": "Primary official/vendor-authored source; reread after original cutoff",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 79
+  },
+  {
+    "id": "different-2",
+    "url": "https://www.different.ai/blog/introducing-different",
+    "type": "Primary official/vendor-authored source; reread after original cutoff",
+    "title": "Primary official/vendor-authored source; reread after original cutoff",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 80
+  },
+  {
+    "id": "different-3",
+    "url": "https://www.different.ai/product",
+    "type": "Primary official/vendor-authored source; reread after original cutoff",
+    "title": "Primary official/vendor-authored source; reread after original cutoff",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 81
+  },
+  {
+    "id": "different-4",
+    "url": "https://www.different.ai/",
+    "type": "Primary official/vendor-authored source; reread after original cutoff",
+    "title": "Primary official/vendor-authored source; reread after original cutoff",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 82
+  },
+  {
+    "id": "walkai-talkai-1",
+    "url": "https://www.producthunt.com/leaderboard/daily/2026/10/19",
+    "type": "Primary official/vendor-authored source; reread after original cutoff",
+    "title": "Primary official/vendor-authored source; reread after original cutoff",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 83
+  },
+  {
+    "id": "walkai-talkai-2",
+    "url": "https://www.producthunt.com/products/walkai-talkai",
+    "type": "Primary official/vendor-authored source; reread after original cutoff",
+    "title": "Primary official/vendor-authored source; reread after original cutoff",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 84
+  },
+  {
+    "id": "walkai-talkai-3",
+    "url": "https://walkai-talkai.com/features",
+    "type": "Primary official/vendor-authored source; reread after original cutoff",
+    "title": "Primary official/vendor-authored source; reread after original cutoff",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 85
+  },
+  {
+    "id": "walkai-talkai-4",
+    "url": "https://walkai-talkai.com/troubleshooting",
+    "type": "Primary official/vendor-authored source; reread after original cutoff",
+    "title": "Primary official/vendor-authored source; reread after original cutoff",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 86
+  },
+  {
+    "id": "beam-win-2",
+    "url": "https://www.producthunt.com/products/beam-win",
+    "type": "Primary official/vendor-authored source; reread after original cutoff",
+    "title": "Primary official/vendor-authored source; reread after original cutoff",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 87
+  },
+  {
+    "id": "beam-win-3",
+    "url": "https://beam.win/",
+    "type": "Primary official/vendor-authored source; reread after original cutoff",
+    "title": "Primary official/vendor-authored source; reread after original cutoff",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 88
+  },
+  {
+    "id": "beam-win-4",
+    "url": "https://beam.win/blog/when-a-shared-mac-window-disappears/",
+    "type": "Primary official/vendor-authored source; reread after original cutoff",
+    "title": "Primary official/vendor-authored source; reread after original cutoff",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 89
+  },
+  {
+    "id": "beam-win-5",
+    "url": "https://beam.win/blog/running-a-headless-mac-mini-from-your-desk/",
+    "type": "Primary official/vendor-authored source; reread after original cutoff",
+    "title": "Primary official/vendor-authored source; reread after original cutoff",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 90
+  },
+  {
+    "id": "P1",
+    "url": "https://hackaday.io/project/207118-pythia-a-pocket-ai-agent-by-skinformatics",
+    "type": "Maker's original project page, date-only creation October19",
+    "title": "Maker's original project page, date-only creation October19",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 91
+  },
+  {
+    "id": "F1",
+    "url": "https://www.figma.com/blog/introducing-figma-specs/",
+    "type": "Dated official launch, October15",
+    "title": "Dated official launch, October15",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 92
+  },
+  {
+    "id": "F2",
+    "url": "https://help.figma.com/hc/en-us/articles/44049066011671-Guide-to-Specs-in-Figma",
+    "type": "Official workflow, access and credit documentation; collected after cutoff",
+    "title": "Official workflow, access and credit documentation; collected after cutoff",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 93
+  },
+  {
+    "id": "F3",
+    "url": "https://forum.figma.com/suggest-a-feature-11/figma-spec-feature-request-59038",
+    "type": "October16 user feature request and same-day Figma support response",
+    "title": "October16 user feature request and same-day Figma support response",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 94
+  },
+  {
+    "id": "PUMPKIN1",
+    "url": "https://www.hackster.io/naveenbskumar/vlm-driven-spooky-sassy-jack-o-lantern-on-arduino-ventuno-q-9e5483",
+    "type": "Maker primary tutorial, embedded Python/Arduino code and author demos; reread in full",
+    "title": "Maker primary tutorial, embedded Python/Arduino code and author demos; reread in full",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 95
+  },
+  {
+    "id": "RDD1",
+    "url": "https://github.com/yafetashenafi790-lgtm/robot-data-diff/blob/dbc6d4715ded0778187a6c61252ae28da66c479e/README.md",
+    "relatedUrls": [
+      "https://github.com/yafetashenafi790-lgtm/robot-data-diff/blob/dbc6d4715ded0778187a6c61252ae28da66c479e/stats.py",
+      "https://github.com/yafetashenafi790-lgtm/robot-data-diff/blob/dbc6d4715ded0778187a6c61252ae28da66c479e/diff-demo-report.html",
+      "https://github.com/yafetashenafi790-lgtm/robot-data-diff/blob/dbc6d4715ded0778187a6c61252ae28da66c479e/LICENSE"
+    ],
+    "type": "Author repository files pinned before cutoff",
+    "title": "Author repository files pinned before cutoff",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 96
+  },
+  {
+    "id": "RDD2",
+    "url": "https://pypi.org/project/robot-data-diff/",
+    "type": "PyPI release date and Python/license metadata",
+    "title": "PyPI release date and Python/license metadata",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 97
+  },
+  {
+    "id": "RDD3",
+    "url": "https://discourse.openrobotics.org/t/robot-data-diff-episode-aware-diffs-for-lerobot-datasets/58956",
+    "type": "Maker introduction dated October 19, 4:16pm; displayed timezone unverified; not independent reproduction evidence",
+    "title": "Maker introduction dated October 19, 4:16pm; displayed timezone unverified; not independent reproduction evidence",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 98
+  },
+  {
+    "url": "https://github.com/yafetashenafi790-lgtm/robot-data-diff/blob/dbc6d4715ded0778187a6c61252ae28da66c479e/stats.py",
+    "title": "robot-data-diff · supporting original document",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "revision collection after cutoff",
+    "number": 99
+  },
+  {
+    "url": "https://github.com/yafetashenafi790-lgtm/robot-data-diff/blob/dbc6d4715ded0778187a6c61252ae28da66c479e/diff-demo-report.html",
+    "title": "robot-data-diff · supporting original document",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "revision collection after cutoff",
+    "number": 100
+  },
+  {
+    "id": "DEEPINFER1",
+    "url": "https://github.com/deepseek-ai/DeepInfer/blob/774ce244b87cc0eb8d4b94ab9f5de2ab22049f01/README.md",
+    "relatedUrls": [
+      "https://github.com/deepseek-ai/DeepInfer/blob/774ce244b87cc0eb8d4b94ab9f5de2ab22049f01/LICENSE",
+      "https://github.com/deepseek-ai/DeepInfer/blob/774ce244b87cc0eb8d4b94ab9f5de2ab22049f01/examples/README.md"
+    ],
+    "type": "Author README and implementation snapshot pinned before cutoff",
+    "title": "Author README and implementation snapshot pinned before cutoff",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 101
+  },
+  {
+    "id": "DEEPINFER2",
+    "url": "https://github.com/deepseek-ai/DeepInfer/blob/774ce244b87cc0eb8d4b94ab9f5de2ab22049f01/doc/inference_deployment_qa.md",
+    "relatedUrls": [
+      "https://github.com/deepseek-ai/DeepInfer/blob/774ce244b87cc0eb8d4b94ab9f5de2ab22049f01/doc/images/architecture_overview.png"
+    ],
+    "type": "Author deployment Q&A at pinned commit; describes wider production system, not all released code",
+    "title": "Author deployment Q&A at pinned commit; describes wider production system, not all released code",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 102
+  },
+  {
+    "id": "DEEPINFER3",
+    "url": "https://github.com/deepseek-ai/DeepInfer/commit/d585e6542c0571176272d703f03c4807ae901284",
+    "relatedUrls": [
+      "https://api.github.com/repos/deepseek-ai/DeepInfer/commits?until=2026-10-20T14:08:00Z&per_page=100",
+      "https://api.github.com/repos/deepseek-ai/DeepInfer/releases"
+    ],
+    "type": "Initial commit and pre-cutoff commit history; releases endpoint returned empty array",
+    "title": "Initial commit and pre-cutoff commit history; releases endpoint returned empty array",
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; revision collection after original cutoff",
+    "number": 103
   }
 ]

@@ -2,6 +2,6 @@
   "phase": "candidate",
   "baselineCommit": "d33193f665845adac6348185e30bb36d15578154",
   "publicCommit": null,
-  "note": "Unchanged workflow; existing acquisition helper retrieves only specified public source images. Candidate tests still run; final publication on hold.",
-  "acquireAssets": true
+  "note": "Expanded editorial candidate; existing frozen workflow and publication hold retained.",
+  "acquireAssets": false
 }

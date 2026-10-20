@@ -11,42 +11,142 @@ const counts=(s,l)=>l==='zh'?(s.match(/[\u3400-\u9fff]/g)||[]).length:(s.match(/
 const decode=s=>s.replace(/&#x27;/g,"'").replace(/&quot;/g,'"').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>');
 const paragraphs=h=>[...h.matchAll(/data-product-unit[^>]*>[\s\S]*?<p>([\s\S]*?)<\/p>/g)].map(x=>decode(x[1]));
 async function filesUnder(dir,prefix=''){const out=[];for(const e of await fs.readdir(dir,{withFileTypes:true})){assert(!e.isSymbolicLink(),'SYMLINK');if(e.isDirectory())out.push(...await filesUnder(path.join(dir,e.name),prefix+e.name+'/'));else{assert(e.isFile(),'NONFILE');out.push(prefix+e.name)}}return out.sort()}
+const attributes=h=>Object.fromEntries([...h.matchAll(/([\w-]+)="([^"]*)"/g)].map(x=>[x[1],decode(x[2])]));
+const referenceRows=h=>[...h.matchAll(/<li\b[^>]*>\s*<b>\s*S(\d+)\s*<\/b>\s*<a\b([^>]*)>/g)].map(x=>({number:+x[1],url:attributes(x[2]).href}));
+const units=h=>[...h.matchAll(/<article\b([^>]*\bdata-product-unit[^>]*)>([\s\S]*?)<\/article>/g)].map(x=>({id:attributes(x[1]).id,paragraphs:[...x[2].matchAll(/<p\b/g)].length,refs:[...x[2].matchAll(/\[S(\d+)\]/g)].map(r=>+r[1])}));
+const hiddenMarkup=h=>[...h.matchAll(/<[a-z][\w:-]*\b([^>]*)>/gi)].some(tag=>[...tag[1].matchAll(/(?:^|\s)([\w:-]+)(?:\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s"'=<>`]+)))?/g)].some(a=>a[1].toLowerCase()==='hidden'||(a[1].toLowerCase()==='style'&&/\bdisplay\s*:\s*none\b|\bvisibility\s*:\s*hidden\b/i.test(a[2]??a[3]??a[4]??''))));
 async function links(h,dir){
  assert(!/\/workspace\/|sk-proj-|PRIVATE_ROOT|TODO|Lorem ipsum/.test(h),'PRIVATE_OR_PLACEHOLDER');
- for(const a of h.matchAll(/(?:src|href)="([^"]+)"/g)){if(a[1].startsWith('#')||/^https?:/.test(a[1]))continue;let rel=a[1].split('#')[0],p=path.resolve(dir,rel);assert(p.startsWith(base+'/')||p===base,'PATH_ESCAPE');if(rel.endsWith('/'))p=path.join(p,'index.html');await fs.access(p)}
+ for(const a of h.matchAll(/(?:src|href)="([^"]+)"/g)){
+  const href=decode(a[1]);if(/^https?:/.test(href))continue;
+  const [resource,fragment]=href.split('#'),rel=resource.split('?')[0];
+  if(!rel){if(fragment)assert([...h.matchAll(/\bid="([^"]+)"/g)].some(x=>x[1]===decodeURIComponent(fragment)),'MISSING_FRAGMENT '+href);continue}
+  let p=path.resolve(dir,rel);
+  assert(p.startsWith(base+'/')||p===base,'PATH_ESCAPE');if(rel.endsWith('/'))p=path.join(p,'index.html');await fs.access(p);
+  if(fragment){const target=await fs.readFile(p,'utf8');assert([...target.matchAll(/\bid="([^"]+)"/g)].some(x=>x[1]===decodeURIComponent(fragment)),'MISSING_FRAGMENT '+href)}
+ }
 }
 let manifest;
 async function staticCheck(){
  const files=JSON.parse(await fs.readFile('qa/public-files.json'));assert(JSON.stringify(await filesUnder(base))===JSON.stringify(files.map(x=>x.path).sort()),'FILE_SET');for(const f of files){const b=await fs.readFile(path.join(base,f.path));assert(digest(b)===f.sha256&&b.length===f.bytes,'HASH '+f.path)}
  const m=manifest=JSON.parse(await fs.readFile(path.join(base,issue,'manifest.json'))),sources=JSON.parse(await fs.readFile(path.join(base,issue,'sources.json'))),visuals=JSON.parse(await fs.readFile(path.join(base,issue,'visuals.json')));
- assert(m.topics.length===7&&sources.length===20&&new Set(sources.map(x=>x.url)).size===20&&visuals.length===7,'COUNTS');assert(m.cutoff==='2026-10-20T14:08:00Z'&&m.timezone==='America/Toronto'&&m.revision.originalCutoffRetained,'TIME');
+ const productIds=m.topics.map(x=>x.id),sourceNumbers=sources.map(x=>x.number),metrics=m.metrics;
+ assert(productIds.length>=5&&new Set(productIds).size===productIds.length,'PRODUCT_MINIMUM_AND_UNIQUENESS');
+ assert(sources.length>=12&&new Set(sources.map(x=>x.url)).size===sources.length&&sources.every(x=>/^https?:\/\//.test(x.url)),'SOURCE_MINIMUM_AND_UNIQUENESS');
+ assert(JSON.stringify(sourceNumbers)===JSON.stringify(sources.map((_,i)=>i+1)),'SOURCE_NUMBERING');
+ assert(visuals.length>=6&&visuals.length===productIds.length&&new Set(visuals.map(x=>x.product)).size===productIds.length&&visuals.every(x=>productIds.includes(x.product))&&new Set(visuals.map(x=>x.path)).size===visuals.length,'ONE_VISUAL_PER_PROJECT');
+ assert(metrics.products===productIds.length&&metrics.references===sources.length&&metrics.coreVisuals===visuals.length&&metrics.primaryProjectPages===productIds.length&&metrics.attachedProjectDetails===productIds.length,'MANIFEST_COUNTS');
+ assert(Number.isInteger(metrics.slidesPerLocale)&&metrics.slidesPerLocale>productIds.length,'SLIDE_METRIC');
+ for(const key of ['perProduct','primarySummaries'])assert(JSON.stringify(Object.keys(metrics[key]).sort())===JSON.stringify([...productIds].sort()),'METRIC_PROJECT_SET '+key);
+ assert(m.cutoff==='2026-10-20T14:08:00Z'&&m.timezone==='America/Toronto'&&m.revision.originalCutoffRetained,'TIME');
  const scans=m.laneScans.map(x=>({lane:x.lane,zh:counts(x.zh,'zh'),en:counts(x.en,'en')}));for(const x of scans)assert(x.zh>=180&&x.en>=140,'SCAN_DENSITY '+JSON.stringify(x));assert(scans.length===8&&new Set(scans.map(x=>x.lane)).size===8,'EIGHT_LANES');
  for(const v of visuals){assert(v.sourcePage&&v.originalUrl&&v.acquiredAt,'VISUAL_PROVENANCE');assert(digest(await fs.readFile(path.join(base,issue,v.path)))===v.sha256,'VISUAL_HASH')}
- const ids=[],stats={},perProduct={},references=[],details=[],primary={};
+ const sourcePage=await fs.readFile(path.join(base,issue,'sources.html'),'utf8');await links(sourcePage,path.join(base,issue));
+ const fullReferences=referenceRows(sourcePage),expectedReferences=sources.map(x=>({number:x.number,url:x.url}));
+ assert(JSON.stringify(fullReferences)===JSON.stringify(expectedReferences)&&new Set(fullReferences.map(x=>x.url)).size===sources.length,'FULL_REFERENCE_LIST');
+ const ids=[],stats={},perProduct={},details=[],primary={},primaryStructures=[],groupLinks=[];
  for(const l of ['zh','en']){
   const dir=path.join(base,issue,l),h=await fs.readFile(path.join(dir,'index.html'),'utf8');await links(h,dir);
-  const si=[...h.matchAll(/<section\b[^>]*id="([^"]+)"[^>]*data-slide/g)].map(x=>x[1]);ids.push(si);assert(si.length===m.metrics.slidesPerLocale&&si.length===12,'SLIDES');assert(si[0]==='cover'&&si[1]==='overview','COVER_THEN_CONTENTS');
-  const projects=[...h.matchAll(/<section id="(event-\d+-a)"([\s\S]*?)<\/section>/g)];assert(projects.length===m.topics.length,'ONE_PRIMARY_PAGE_PER_PROJECT');assert(!/id="event-\d+-[b-z]"/.test(h),'NO_PROJECT_FRAGMENT_SLIDES');assert((h.match(/<u>/g)||[]).length===3,'VISIBLE_KEY_TAKEAWAYS');assert((h.match(/class="action detail-link"/g)||[]).length===7,'DETAIL_ENTRIES');assert(paragraphs(h).length===0,'SUMMARY_EXCLUDED_FROM_BODY_COUNT');
-  const pp={},structure=[],all=[],summaries={};
-  for(let i=0;i<m.topics.length;i++){
+  const si=[...h.matchAll(/<section\b[^>]*id="([^"]+)"[^>]*data-slide/g)].map(x=>x[1]);ids.push(si);assert(si.length===metrics.slidesPerLocale&&new Set(si).size===si.length,'SLIDES');assert(si[0]==='cover'&&si[1]==='overview','COVER_THEN_CONTENTS');
+  for(const id of ['coverage','timing','evidence-1'])assert(si.includes(id),'REQUIRED_SLIDE '+id);
+  const projects=[...h.matchAll(/<section id="(event-\d+-a)"([\s\S]*?)<\/section>/g)];assert(projects.length===productIds.length&&projects.every((x,i)=>x[1]===`event-${i+1}-a`),'ONE_PRIMARY_PAGE_PER_PROJECT');assert(!/id="event-\d+-[b-z]"/.test(h),'NO_PROJECT_FRAGMENT_SLIDES');assert((h.match(/<u>/g)||[]).length===3,'VISIBLE_KEY_TAKEAWAYS');assert((h.match(/class="action detail-link"/g)||[]).length===productIds.length,'DETAIL_ENTRIES');assert(paragraphs(h).length===0,'SUMMARY_EXCLUDED_FROM_BODY_COUNT');
+  const pp={},structure=[],all=[],summaries={},primaryUnits=[];
+  for(let i=0;i<productIds.length;i++){
    const t=m.topics[i],file=path.join(dir,'details',t.id+'.html'),d=await fs.readFile(file,'utf8');await links(d,path.dirname(file));assert(d.includes(`data-project-detail="${t.id}"`),'DETAIL_ID');assert(d.includes(`../#event-${i+1}-a`),'DETAIL_BACKLINK');
-   const paras=paragraphs(d);assert(paras.length>=4,'DEPTH_SECTIONS');assert(!/\bhidden\b|display:\s*none|visibility:\s*hidden/.test(d),'DETAIL_NOT_HIDDEN');all.push(...paras);pp[t.id]=counts(paras.join(' '),l);assert(pp[t.id]>=(l==='zh'?520:380),'PRODUCT_DENSITY '+l+t.id);assert(pp[t.id]===m.metrics.perProduct[t.id][l],'METRIC_PARITY');
-   structure.push({id:t.id,sections:paras.length,refs:[...d.matchAll(/\[S(\d+)\]/g)].map(x=>+x[1])});assert(structure.at(-1).refs.every(n=>n>=1&&n<=20),'REF_RANGE');
-   const primaryHtml=projects[i][2];assert((primaryHtml.match(/<figure>/g)||[]).length===1,'ONE_CORE_IMAGE_PER_PROJECT');assert(primaryHtml.includes(t[l==='zh'?'zhHeadline':'enHeadline'].replaceAll('&','&amp;')),'TAKEAWAY_HEADLINE');summaries[t.id]=m.metrics.primarySummaries[t.id][l];
+   const paras=paragraphs(d);assert(paras.length>=4,'DEPTH_SECTIONS');assert(!hiddenMarkup(d),'DETAIL_NOT_HIDDEN');all.push(...paras);pp[t.id]=counts(paras.join(' '),l);assert(pp[t.id]>=(l==='zh'?520:380),'PRODUCT_DENSITY '+l+t.id);assert(pp[t.id]===metrics.perProduct[t.id][l],'METRIC_PARITY');
+   const detailUnits=units(d);assert(detailUnits.length===paras.length&&detailUnits.every(x=>x.id&&x.paragraphs===1)&&new Set(detailUnits.map(x=>x.id)).size===detailUnits.length,'DETAIL_UNIT_STRUCTURE');
+   const refs=[...d.matchAll(/\[S(\d+)\]/g)].map(x=>+x[1]);assert(refs.length>0&&refs.every(n=>sourceNumbers.includes(n)),'REF_RANGE');structure.push({id:t.id,units:detailUnits,refs});
+   const primaryHtml=projects[i][2],visual=visuals.find(v=>v.product===t.id);assert((primaryHtml.match(/<figure\b/g)||[]).length===1&&(primaryHtml.match(/<img\b/g)||[]).length===1,'ONE_CORE_IMAGE_PER_PROJECT');assert(primaryHtml.includes(`src="../${visual.path}"`),'PROJECT_VISUAL_ID');assert(decode(primaryHtml).includes(t[l==='zh'?'zhHeadline':'enHeadline']),'TAKEAWAY_HEADLINE');
+   const summaryUnits=[...primaryHtml.matchAll(/class="summary-unit"[^>]*>[\s\S]*?<p>([\s\S]*?)<\/p>/g)].map(x=>decode(x[1])),judgment=primaryHtml.match(/class="judgment"[^>]*>[\s\S]*?<p>([\s\S]*?)<\/p>/);
+   assert(summaryUnits.length===4&&judgment,'PRIMARY_UNIT_STRUCTURE');summaries[t.id]=counts(summaryUnits.join('')+decode(judgment[1]),l);assert(summaries[t.id]===metrics.primarySummaries[t.id][l],'PRIMARY_METRIC_PARITY');primaryUnits.push({id:t.id,summaryUnits:summaryUnits.length,judgmentUnits:1,refs:[...primaryHtml.matchAll(/\[S(\d+)\]/g)].map(x=>+x[1])});
+   assert(primaryUnits.at(-1).refs.length>0&&primaryUnits.at(-1).refs.every(n=>sourceNumbers.includes(n)),'PRIMARY_REF_RANGE');
+   assert((d.match(/<figure\b/g)||[]).length===1&&(d.match(/<img\b/g)||[]).length===1&&d.includes(`src="../../${visual.path}"`),'ONE_DETAIL_IMAGE_PER_PROJECT');
   }
-  assert(new Set(all.map(x=>x.trim())).size===all.length,'DUPLICATE_BODY_PARAGRAPHS');stats[l]=counts(all.join(' '),l);assert(stats[l]>=(l==='zh'?6000:4500),'BODY_DENSITY');assert(stats[l]===m.metrics.body[l==='zh'?'zhDenseChars':'enWords'],'BODY_METRIC');perProduct[l]=pp;details.push(structure);primary[l]=summaries;
-  const r=[...h.matchAll(/<li><b>S\d+<\/b> <a href="([^"]+)"/g)].map(x=>x[1]);assert(r.length===20,'REFERENCE_LIST');references.push(r);
+  assert(new Set(all.map(x=>x.trim())).size===all.length,'DUPLICATE_BODY_PARAGRAPHS');stats[l]=counts(all.join(' '),l);assert(stats[l]>=(l==='zh'?6000:4500),'BODY_DENSITY');assert(stats[l]===metrics.body[l==='zh'?'zhDenseChars':'enWords'],'BODY_METRIC');perProduct[l]=pp;details.push(structure);primary[l]=summaries;primaryStructures.push(primaryUnits);
+  const evidence=h.match(/<section id="evidence-1"([\s\S]*?)<\/section>/)?.[1];assert(evidence,'EVIDENCE_SLIDE');
+  const grouped=[...evidence.matchAll(/href="([^"#]*sources\.html#[^"]+)"/g)].map(x=>decode(x[1]));assert(grouped.length===productIds.length&&new Set(grouped).size===productIds.length,'GROUPED_PROJECT_SOURCE_LINKS');groupLinks.push(grouped);
   const coverage=await fs.readFile(path.join(dir,'coverage.html'),'utf8');await links(coverage,dir);assert((coverage.match(/data-lane=/g)||[]).length===8,'REACHABLE_FULL_SCANS');for(const s of m.laneScans)assert(coverage.includes(s[l].slice(0,30)),'SCAN_CONTENT');
  }
- assert(JSON.stringify(ids[0])===JSON.stringify(ids[1]),'BILINGUAL_SLIDE_PARITY');assert(JSON.stringify(references[0])===JSON.stringify(references[1]),'BILINGUAL_SOURCE_PARITY');assert(JSON.stringify(details[0])===JSON.stringify(details[1]),'BILINGUAL_DETAIL_SECTION_AND_SOURCE_PARITY');
+ assert(JSON.stringify(ids[0])===JSON.stringify(ids[1]),'BILINGUAL_SLIDE_PARITY');assert(JSON.stringify(groupLinks[0])===JSON.stringify(groupLinks[1]),'BILINGUAL_SOURCE_PARITY');assert(JSON.stringify(details[0])===JSON.stringify(details[1]),'BILINGUAL_DETAIL_SECTION_AND_SOURCE_PARITY');assert(JSON.stringify(primaryStructures[0])===JSON.stringify(primaryStructures[1]),'BILINGUAL_PRIMARY_UNIT_AND_SOURCE_PARITY');
  const archive=JSON.parse(await fs.readFile(path.join(base,'manifest.json')));assert(archive[0].date===issue&&archive.filter(x=>x.date===issue).length===1,'ARCHIVE');for(const p of ['index.html','en/index.html'])assert((await fs.readFile(path.join(base,p),'utf8')).includes('data-time="latest y-2026 m-2026-10 d-2026-10-20"'),'LATEST');
- return {publicFiles:files.length,slidesPerLocale:12,primaryProjectPages:7,attachedDetails:7,body:stats,perProduct,primarySummaries:primary,scans,visuals:7,references:20,products:7,counting:'Unique full detail paragraphs only; primary summaries, sources, figures and scan prose excluded',bilingualStructureAndSources:true};
+ return {publicFiles:files.length,slidesPerLocale:metrics.slidesPerLocale,primaryProjectPages:productIds.length,attachedDetails:productIds.length,body:stats,perProduct,primarySummaries:primary,scans,visuals:visuals.length,references:sources.length,products:productIds.length,counting:'Unique full detail paragraphs only; primary summaries, sources, figures and scan prose excluded',bilingualStructureAndSources:true};
 }
 async function serve(){const types={'.html':'text/html; charset=utf-8','.css':'text/css','.js':'text/javascript','.json':'application/json','.png':'image/png','.webp':'image/webp','.jpg':'image/jpeg','.txt':'text/plain'};const server=http.createServer(async(req,res)=>{try{let p=decodeURIComponent(new URL(req.url,'http://localhost').pathname).replace(/^\/ai-daily\//,'/');if(p.endsWith('/'))p+='index.html';const target=path.resolve(base,'.'+p);assert(target.startsWith(base+'/'),'PATH');const b=await fs.readFile(target);res.writeHead(200,{'Content-Type':types[path.extname(target)]||'application/octet-stream'});res.end(b)}catch{res.writeHead(404);res.end()}});await new Promise(r=>server.listen(0,'127.0.0.1',r));return {server,url:`http://127.0.0.1:${server.address().port}/ai-daily/`}}
 const report={edition:issue,startedAt:new Date().toISOString(),status:'started',publishedCommit:cfg.phase==='live'?cfg.publicCommit:null,baselineCommit:cfg.baselineCommit,workflowBaselineCommit:process.env.QA_PUBLIC_COMMIT||null,mode:cfg.phase,checks:[],failures:[],screenshots:[]};
 const out=path.join(process.env.RUNNER_TEMP||'/tmp','daily-qa-'+(process.env.QA_EVIDENCE_LOCALE||'zh'));let browser,server;
 const check=(name,ok,details={})=>{report.checks.push({name,ok,...details});if(!ok)report.failures.push({name,...details})};
-async function screen(page,name){await page.screenshot({path:path.join(out,name),type:'jpeg',quality:65});report.screenshots.push(name)}
+async function screen(page,name){await page.screenshot({path:path.join(out,name),type:'jpeg',quality:65,fullPage:name.includes('-mobile-')});report.screenshots.push(name)}
+async function ready(page){
+ await page.waitForLoadState('domcontentloaded');await page.evaluate(()=>document.fonts.ready);
+ await page.locator('img').evaluateAll(els=>Promise.all(els.map(e=>e.decode())));
+}
+async function visibleSlide(page,id){
+ await page.waitForFunction(id=>location.hash==='#'+id&&document.getElementById(id)&&!document.getElementById(id).hidden,id);
+ return page.locator('[data-slide]:visible').count().then(async n=>n===1&&await page.locator('#'+id).isVisible());
+}
+async function gotoSlide(page,id){await page.evaluate(id=>{location.hash=id},id);assert(await visibleSlide(page,id),'ACTIVE_SLIDE '+id)}
+async function clickLocal(page,selector,target){
+ const wanted=new URL(target),links=page.locator(selector),index=await links.evaluateAll((els,wanted)=>els.findIndex(el=>{const u=new URL(el.href);return u.origin===wanted.origin&&u.pathname===wanted.pathname}),{origin:wanted.origin,pathname:wanted.pathname});
+ assert(index>=0,'ACTUAL_LOCAL_LINK '+selector+' '+target);await links.nth(index).click();await ready(page);
+ return page.url();
+}
+async function inspectSlide(page,id,viewport,extra={}){
+ const mobile=viewport.width===390,bounds=await page.locator('#'+id).evaluate((el,mobile)=>{
+  const r=el.getBoundingClientRect(),outside=[],clipped=[],images=[],fonts=[];
+  for(const n of el.querySelectorAll('*')){
+   const b=n.getBoundingClientRect(),s=getComputedStyle(n);if(!b.width||!b.height)continue;
+   if(b.left<r.left-1||b.right>r.right+1||(!mobile&&(b.top<r.top-1||b.bottom>r.bottom+1)))outside.push(n.tagName+':'+n.textContent.slice(0,55));
+   if(['hidden','clip','scroll','auto'].includes(s.overflowY)&&n.scrollHeight>n.clientHeight+1)clipped.push(n.tagName);
+   if(n.tagName==='IMG')images.push({loaded:n.complete&&n.naturalWidth>0,contain:s.objectFit==='contain'});
+   if(n.matches('.summary p,.judgment p,.contents-list strong,.signals p'))fonts.push(parseFloat(s.fontSize)*(mobile?1:r.width/1440));
+  }
+  return {id:el.id,ratio:r.width/r.height,withinViewport:r.left>=-1&&r.right<=innerWidth+1&&(mobile||(r.top>=-1&&r.bottom<=innerHeight+1)),outside,clipped,images,minReadingFont:fonts.length?Math.min(...fonts):null,horizontalOverflow:document.documentElement.scrollWidth>innerWidth+1,verticalOverflow:document.documentElement.scrollHeight>innerHeight+1};
+ },mobile);
+ check(mobile?'mobile-primary-readability':'slide-bounds',bounds.withinViewport&&(mobile||Math.abs(bounds.ratio-16/9)<.001)&&!bounds.outside.length&&!bounds.clipped.length&&!bounds.horizontalOverflow&&(mobile||!bounds.verticalOverflow)&&bounds.images.every(x=>x.loaded&&x.contain)&&(bounds.minReadingFont===null||bounds.minReadingFont>=18),{viewport,...extra,...bounds});
+}
+async function checkToc(page,viewport,locale){
+ await gotoSlide(page,'overview');const tabs=page.locator('#overview button[data-toc-tab]'),panels=page.locator('#overview [data-toc-panel]'),n=await tabs.count();
+ assert(n>0&&await panels.count()===n,'TOC_TABS_AND_PANELS');const targets=[];
+ async function state(index,keyboard=false){
+  const result=await page.locator('#overview').evaluate((el,{index,keyboard})=>{
+   const tabs=[...el.querySelectorAll('button[data-toc-tab]')],panels=[...el.querySelectorAll('[data-toc-panel]')],tab=tabs[index],panel=panels[index];
+   return {selected:tabs.map(t=>t.getAttribute('aria-selected')),hidden:panels.map(p=>p.hidden),linked:tab.getAttribute('aria-controls')?tab.getAttribute('aria-controls')===panel.id:tab.dataset.tocTab===panel.dataset.tocPanel,focused:!keyboard||document.activeElement===tab,hasContents:!!panel.querySelector('.contents-list')};
+  },{index,keyboard});
+  check('toc-tab-state',result.selected.every((v,i)=>v===(i===index?'true':'false'))&&result.hidden.every((v,i)=>v===(i!==index))&&result.linked&&result.focused&&result.hasContents&&await visibleSlide(page,'overview'),{viewport,tab:index,...result});
+ }
+ for(let i=0;i<n;i++){
+  await tabs.nth(i).click();await state(i);await inspectSlide(page,'overview',viewport,{tocTab:i});
+  const prefix=viewport.width===1600?locale:viewport.width===390?`${locale}-mobile`:`${locale}-${viewport.width}`;
+  await screen(page,`${prefix}-toc-${i+1}.jpg`);
+  const links=panels.nth(i).locator('.contents-list a'),tabTargets=await links.evaluateAll(els=>els.map(a=>({id:a.dataset.goSlide,hash:new URL(a.href).hash})));
+  assert(tabTargets.length>0,'EMPTY_TOC_PANEL');for(const x of tabTargets){assert(x.id&&x.hash==='#'+x.id,'TOC_LINK_TARGET');targets.push(x.id)}
+  for(let j=0;j<tabTargets.length;j++){
+   await tabs.nth(i).click();await links.nth(j).click();check('contents-navigation',await visibleSlide(page,tabTargets[j].id),{viewport,tab:i,projectSlide:tabTargets[j].id});await gotoSlide(page,'overview');
+  }
+  await tabs.nth(i).click();await tabs.nth(i).focus();await page.keyboard.press('ArrowRight');await state((i+1)%n,true);
+  await page.keyboard.press('ArrowLeft');await state(i,true);
+  await page.keyboard.press('ArrowLeft');await state((i+n-1)%n,true);
+  await page.keyboard.press('ArrowRight');await state(i,true);
+ }
+ const expected=manifest.topics.map((_,i)=>`event-${i+1}-a`);
+ check('toc-all-projects-exactly-once',JSON.stringify(targets)===JSON.stringify(expected)&&new Set(targets).size===expected.length,{viewport,targets});
+ await page.evaluate(()=>document.activeElement?.blur());
+}
+async function checkNavigation(page,ids,viewport){
+ await gotoSlide(page,ids[0]);check('previous-disabled-at-cover',await page.locator('[data-prev-slide]').isDisabled(),{viewport});
+ for(let i=1;i<ids.length;i++){await page.locator('[data-next-slide]').click();check('next-navigation',await visibleSlide(page,ids[i]),{viewport,id:ids[i]})}
+ check('next-disabled-at-end',await page.locator('[data-next-slide]').isDisabled(),{viewport});
+ for(let i=ids.length-2;i>=0;i--){await page.locator('[data-prev-slide]').click();check('previous-navigation',await visibleSlide(page,ids[i]),{viewport,id:ids[i]})}
+ await page.evaluate(()=>document.activeElement?.blur());
+ for(const key of ['ArrowRight','PageDown']){
+  await page.keyboard.press('Home');check('home-navigation',await visibleSlide(page,ids[0]),{viewport,key});
+  for(let i=1;i<ids.length;i++){await page.keyboard.press(key);check('keyboard-next-navigation',await visibleSlide(page,ids[i]),{viewport,key,id:ids[i]})}
+ }
+ for(const key of ['ArrowLeft','PageUp']){
+  await page.keyboard.press('End');check('end-navigation',await visibleSlide(page,ids.at(-1)),{viewport,key});
+  for(let i=ids.length-2;i>=0;i--){await page.keyboard.press(key);check('keyboard-previous-navigation',await visibleSlide(page,ids[i]),{viewport,key,id:ids[i]})}
+ }
+}
 try{
  report.static=await staticCheck();console.log('STATIC_REPORT '+JSON.stringify(report.static));
  if(!process.argv.includes('--static-only')){
@@ -58,31 +158,78 @@ try{
   for(const f of liveFiles.filter(x=>x.path.startsWith(issue+'/')||['index.html','en/index.html','manifest.json'].includes(x.path))){const r=await fetch(new URL(f.path,live),{cache:'no-store'});const match=r.status===200&&digest(Buffer.from(await r.arrayBuffer()))===f.sha256;report.liveHashes.push({path:f.path,status:r.status,match});check(cfg.phase==='candidate'?'baseline-live-byte-match':'live-byte-match',match,{path:f.path})}
   let url=live;if(cfg.phase==='candidate'){const s=await serve();server=s.server;url=s.url}report.browserTarget=cfg.phase==='candidate'?'local public candidate in existing cloud runner':'published Pages revision';
   const locale=process.env.QA_EVIDENCE_LOCALE||'zh';assert(['zh','en'].includes(locale),'LOCALE');report.locale=locale;
+  const otherLocale=locale==='zh'?'en':'zh',representatives=['speakon','coralboard','iphone-agent-harness'].filter(id=>manifest.topics.some(t=>t.id===id));
+  report.representativeProjects=representatives;
   for(const viewport of [{width:1600,height:900},{width:1920,height:1080},{width:390,height:844}]){
    const mobile=viewport.width===390,context=await browser.newContext({viewport,serviceWorkers:'block'}),page=await context.newPage(),errors=[];
-   page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.status()>=400&&r.url().startsWith(url))errors.push(r.status()+' '+r.url())});const entry=new URL(`${issue}/${locale}/`,url).href;
-   const response=await page.goto(entry,{waitUntil:'networkidle'});check('page-http',response.status()===200,{viewport});await page.evaluate(()=>document.fonts.ready);await page.locator('img').evaluateAll(els=>Promise.all(els.map(e=>e.decode())));
-   const ids=await page.locator('[data-slide]').evaluateAll(els=>els.map(x=>x.id));
-   for(const id of ids){await page.evaluate(id=>{location.hash=id},id);await page.waitForTimeout(50);const bounds=await page.locator('#'+id).evaluate((el,mobile)=>{
-    const r=el.getBoundingClientRect(),outside=[],clipped=[],images=[],fonts=[];for(const n of el.querySelectorAll('*')){const b=n.getBoundingClientRect(),s=getComputedStyle(n);if(!b.width||!b.height)continue;if(b.left<r.left-1||b.right>r.right+1||(!mobile&&(b.top<r.top-1||b.bottom>r.bottom+1)))outside.push(n.tagName+':'+n.textContent.slice(0,55));if(['hidden','clip','scroll','auto'].includes(s.overflowY)&&n.scrollHeight>n.clientHeight+1)clipped.push(n.tagName);if(n.tagName==='IMG')images.push({loaded:n.complete&&n.naturalWidth>0,contain:s.objectFit==='contain'});if(n.matches('.summary p,.judgment p,.contents-list strong,.signals p'))fonts.push(parseFloat(s.fontSize)*(mobile?1:r.width/1440))}return {id:el.id,ratio:r.width/r.height,withinViewport:r.left>=-1&&r.right<=innerWidth+1&&(mobile||(r.top>=-1&&r.bottom<=innerHeight+1)),outside,clipped,images,minReadingFont:fonts.length?Math.min(...fonts):null,horizontalOverflow:document.documentElement.scrollWidth>innerWidth+1,verticalOverflow:document.documentElement.scrollHeight>innerHeight+1}},mobile);
-    check(mobile?'mobile-primary-readability':'slide-bounds',bounds.withinViewport&&(mobile||Math.abs(bounds.ratio-16/9)<.001)&&!bounds.outside.length&&!bounds.clipped.length&&!bounds.horizontalOverflow&&(mobile||!bounds.verticalOverflow)&&bounds.images.every(x=>x.loaded&&x.contain)&&(bounds.minReadingFont===null||bounds.minReadingFont>=18),{viewport,...bounds});
-    if(viewport.width===1600)await screen(page,`${locale}-${id}.jpg`);if(mobile&&['overview','event-7-a'].includes(id))await screen(page,`${locale}-mobile-${id}.jpg`);
+   page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.status()>=400&&r.url().startsWith(url))errors.push(r.status()+' '+r.url())});const entry=new URL(`${issue}/${locale}/`,url).href,otherEntry=new URL(`${issue}/${otherLocale}/`,url).href;
+   const response=await page.goto(entry,{waitUntil:'domcontentloaded'});check('page-http',response.status()===200,{viewport});await ready(page);
+   const ids=await page.locator('[data-slide]').evaluateAll(els=>els.map(x=>x.id));assert(ids.length===manifest.metrics.slidesPerLocale,'BROWSER_SLIDE_COUNT');
+   for(const id of ids){
+    await gotoSlide(page,id);await inspectSlide(page,id,viewport);
+    await screen(page,`${locale}-${mobile?'mobile-':viewport.width===1600?'':viewport.width+'-'}${id}.jpg`);
+    await clickLocal(page,'.reader > header nav a',otherEntry);
+    check('primary-language-preserves-slide',page.url()===otherEntry+'#'+id&&await visibleSlide(page,id),{viewport,id,language:otherLocale});
+    await clickLocal(page,'.reader > header nav a',entry);
+    check('primary-language-return-preserves-slide',page.url()===entry+'#'+id&&await visibleSlide(page,id),{viewport,id,language:locale});
    }
-   await page.keyboard.press('Home');check('home-navigation',await page.locator('#cover').isVisible(),{viewport});await page.locator('[data-next-slide]').click();check('next-navigation',await page.locator('#overview').isVisible(),{viewport});await page.locator('.contents-list a').first().click();check('contents-navigation',await page.locator('#event-1-a').isVisible(),{viewport});await page.locator('#event-1-a .reference-marker').first().click();check('citation-navigation',await page.locator('#evidence-1').isVisible(),{viewport});
-   // Each detail is opened from its actual project link, and returns to that project.
+   await checkToc(page,viewport,locale);await checkNavigation(page,ids,viewport);
+   // Every detail and its bilingual counterpart must remain attached to the same project.
    for(let i=0;i<manifest.topics.length;i++){
-    const t=manifest.topics[i],id=`event-${i+1}-a`;await page.goto(entry+'#'+id,{waitUntil:'networkidle'});const link=page.locator('#'+id+' .detail-link');check('detail-entry-visible',await link.isVisible(),{viewport,project:t.id});await link.click();await page.waitForLoadState('networkidle');await page.locator('img').evaluateAll(els=>Promise.all(els.map(e=>e.decode())));check('detail-navigation',page.url().endsWith(`/details/${t.id}.html`),{viewport,project:t.id});
+    const t=manifest.topics[i],id=`event-${i+1}-a`;await gotoSlide(page,id);
+    await page.locator('#'+id+' .reference-marker').first().click();check('citation-navigation',await visibleSlide(page,'evidence-1'),{viewport,project:t.id});await gotoSlide(page,id);
+    const link=page.locator('#'+id+' .detail-link');check('detail-entry-visible',await link.isVisible(),{viewport,project:t.id});await link.click();await ready(page);check('detail-navigation',page.url()===new URL(`details/${t.id}.html`,entry).href,{viewport,project:t.id});
     const readable=await page.evaluate(()=>{const paras=[...document.querySelectorAll('[data-product-unit] p')],bad=[];for(const p of paras){const r=p.getBoundingClientRect(),s=getComputedStyle(p);if(r.width<250||parseFloat(s.fontSize)<18||parseFloat(s.lineHeight)/parseFloat(s.fontSize)<1.5||s.display==='none'||s.visibility==='hidden')bad.push('unreadable paragraph');for(let n=p;n&&n!==document.body;n=n.parentElement){const cs=getComputedStyle(n);if(['auto','scroll','clip','hidden'].includes(cs.overflowY)&&n.scrollHeight>n.clientHeight+1)bad.push('inner scrolling or clipping')}}return {paragraphs:paras.length,bad,horizontalOverflow:document.documentElement.scrollWidth>innerWidth+1,images:[...document.images].every(x=>x.complete&&x.naturalWidth>0&&getComputedStyle(x).objectFit==='contain'),languageLink:!!document.querySelector('.detail-header a:nth-child(2)'),landmark:!!document.querySelector('main[data-project-detail]')}});
     check('detail-readable',readable.paragraphs>=4&&!readable.bad.length&&!readable.horizontalOverflow&&readable.images&&readable.languageLink&&readable.landmark,{viewport,project:t.id,...readable});
     const last=page.locator('[data-product-unit]').last();await last.scrollIntoViewIfNeeded();check('detail-last-section-reachable',await last.isVisible(),{viewport,project:t.id});
-    if(viewport.width===1600&&[0,6].includes(i)){await screen(page,`${locale}-detail-${i+1}-end.jpg`);await page.evaluate(()=>scrollTo(0,0));await screen(page,`${locale}-detail-${i+1}-top.jpg`)}
-    if(mobile&&i===6){await page.evaluate(()=>scrollTo(0,0));await screen(page,`${locale}-mobile-detail-7.jpg`)}
-    await page.locator('.detail-header .back-link').click();check('detail-return-to-same-project',await page.locator('#'+id).isVisible(),{viewport,project:t.id});
+    if(viewport.width===1600&&representatives.includes(t.id)){await screen(page,`${locale}-detail-${t.id}-end.jpg`);await page.evaluate(()=>scrollTo(0,0));await screen(page,`${locale}-detail-${t.id}-top.jpg`)}
+    if(mobile&&representatives.includes(t.id)){await page.evaluate(()=>scrollTo(0,0));await screen(page,`${locale}-mobile-detail-${t.id}.jpg`)}
+    const otherDetail=new URL(`details/${t.id}.html`,otherEntry).href,currentDetail=new URL(`details/${t.id}.html`,entry).href;
+    await clickLocal(page,'.detail-header a',otherDetail);
+    check('detail-language-same-project',page.url()===otherDetail&&await page.locator(`main[data-project-detail="${t.id}"]`).count()===1,{viewport,project:t.id,language:otherLocale});
+    await clickLocal(page,'.detail-header a',currentDetail);
+    check('detail-language-return-same-project',page.url()===currentDetail&&await page.locator(`main[data-project-detail="${t.id}"]`).count()===1,{viewport,project:t.id,language:locale});
+    await page.locator('.detail-header .back-link').click();await ready(page);check('detail-return-to-same-project',page.url()===entry+'#'+id&&await visibleSlide(page,id),{viewport,project:t.id});
    }
-   await page.goto(entry+'#coverage');await page.locator('#coverage .action').click();check('coverage-detail-navigation',await page.locator('[data-lane]').count()===8,{viewport});check('runtime-errors',errors.length===0,{viewport,errors});await context.close();
+   await gotoSlide(page,'evidence-1');const grouped=await page.locator('#evidence-1 a[href*="sources.html#"]').evaluateAll(els=>els.map(a=>a.href));
+   assert(grouped.length===manifest.metrics.products&&new Set(grouped).size===grouped.length,'BROWSER_GROUPED_SOURCE_LINKS');
+   for(let i=0;i<grouped.length;i++){
+    await page.locator('#evidence-1 a[href*="sources.html#"]').nth(i).click();await ready(page);
+    const target=new URL(grouped[i]),anchor=decodeURIComponent(target.hash.slice(1));
+    check('project-source-navigation',page.url()===target.href&&await page.locator('[id]').evaluateAll((els,id)=>els.some(el=>el.id===id&&el.getBoundingClientRect().height>0),anchor),{viewport,project:manifest.topics[i].id,target:target.href});
+    const sourceCount=await page.locator('li').evaluateAll(els=>els.filter(el=>/^S\d+$/.test(el.querySelector('b')?.textContent?.trim()||'')&&el.querySelector('a')).length);
+    check('full-source-list-reachable',sourceCount===manifest.metrics.references,{viewport,count:sourceCount});
+    await clickLocal(page,'a',entry);check('sources-return-to-edition',new URL(page.url()).pathname===new URL(entry).pathname,{viewport});await gotoSlide(page,'evidence-1');
+   }
+   const fullSources=new URL('../sources.html',entry).href;await clickLocal(page,'#evidence-1 a',fullSources);
+   const home=new URL(locale==='zh'?'':'en/',url).href;
+   // The shared source index links to the root overview; follow the published link itself.
+   await clickLocal(page,'a',url);check('source-overview-navigation',new URL(page.url()).pathname===new URL(url).pathname,{viewport});
+   await page.goto(entry+'#coverage');await page.locator('#coverage .action').click();await ready(page);check('coverage-detail-navigation',await page.locator('[data-lane]').count()===8,{viewport});
+   await page.goto(entry+'#overview');await clickLocal(page,'.reader > header .brand',home);check('edition-overview-navigation',new URL(page.url()).pathname===new URL(home).pathname,{viewport});
+   check('runtime-errors',errors.length===0,{viewport,errors});await context.close();
   }
-  const p=await browser.newPage({viewport:{width:1600,height:900}});const home=new URL(locale==='zh'?'':'en/',url).href;const res=await p.goto(home,{waitUntil:'networkidle'});const latest=p.locator('.issue-card').first();check('overview',res.status()===200&&(await latest.getAttribute('data-time')).includes(issue)&&await latest.locator(`a[href*="/${issue}/${locale}/"]`).count()===1);await latest.locator('img').evaluate(e=>e.decode());await p.locator('[data-time-filter="latest"]').click();check('overview-latest-filter',await latest.isVisible());await screen(p,`${locale}-overview-home.jpg`);await p.close();
+  const p=await browser.newPage({viewport:{width:1600,height:900}});const home=new URL(locale==='zh'?'':'en/',url).href;const res=await p.goto(home,{waitUntil:'domcontentloaded'});const latest=p.locator('.issue-card').first();check('overview',res.status()===200&&(await latest.getAttribute('data-time')).includes(issue)&&await latest.locator(`a[href*="/${issue}/${locale}/"]`).count()===1);await latest.locator('img').evaluate(e=>e.decode());await p.locator('[data-time-filter="latest"]').click();check('overview-latest-filter',await latest.isVisible());await screen(p,`${locale}-overview-home.jpg`);
+  await latest.locator(`a[href*="/${issue}/${locale}/"]`).click();await ready(p);check('overview-latest-actual-navigation',new URL(p.url()).pathname===new URL(`${issue}/${locale}/`,url).pathname&&await p.locator('#cover').isVisible());await p.close();
  }
+
  report.status=report.failures.length?'failed':'passed';
 }catch(e){report.status='failed';report.failures.push({error:e.stack})}
-finally{if(browser)await browser.close();if(server)await new Promise(r=>server.close(r));report.finishedAt=new Date().toISOString();await fs.mkdir(out,{recursive:true});await fs.writeFile(path.join(out,'report.json'),JSON.stringify(report,null,2));console.log('QA_REPORT '+JSON.stringify(report));if(!process.argv.includes('--static-only')){const selected=report.screenshots.filter(x=>report.locale==='zh'?/-(?:overview|event-7-a|detail-7-top|mobile-detail-7)\.jpg$/.test(x):/-(?:event-3-a|event-4-a|detail-1-end|mobile-event-7-a)\.jpg$/.test(x));for(const name of selected){const data=(await fs.readFile(path.join(out,name))).toString('base64'),n=Math.ceil(data.length/4096);for(let i=0;i<n;i++)console.log(`QA_IMAGE ${name} ${i}/${n} ${data.slice(i*4096,(i+1)*4096)}`)}}if(report.status!=='passed')process.exitCode=1}
+finally{
+ if(browser)await browser.close();if(server)await new Promise(r=>server.close(r));
+ report.finishedAt=new Date().toISOString();await fs.mkdir(out,{recursive:true});
+ // All screenshots remain artifacts. Log previews are restricted to the TOC and
+ // one original, hardware and DIY project, with independent per-image/total bounds.
+ const previews=[`${report.locale}-toc-1.jpg`,...(report.representativeProjects||[]).map(id=>`${report.locale}-event-${manifest.topics.findIndex(t=>t.id===id)+1}-a.jpg`)].filter(name=>report.screenshots.includes(name)).slice(0,4);
+ report.imageLog={eligible:previews,maxImages:4,maxBase64CharsPerImage:524288,maxBase64CharsTotal:2097152,emitted:[],artifactOnly:[]};
+ if(!process.argv.includes('--static-only')){
+  let emitted=0;
+  for(const name of previews){
+   const data=(await fs.readFile(path.join(out,name))).toString('base64');
+   if(data.length>report.imageLog.maxBase64CharsPerImage||emitted+data.length>report.imageLog.maxBase64CharsTotal){report.imageLog.artifactOnly.push(name);continue}
+   emitted+=data.length;report.imageLog.emitted.push(name);const n=Math.ceil(data.length/4096);
+   for(let i=0;i<n;i++)console.log(`QA_IMAGE ${name} ${i}/${n} ${data.slice(i*4096,(i+1)*4096)}`);
+  }
+ }
+ await fs.writeFile(path.join(out,'report.json'),JSON.stringify(report,null,2));console.log('QA_REPORT '+JSON.stringify(report));if(report.status!=='passed')process.exitCode=1;
+}

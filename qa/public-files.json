@@ -425,14 +425,79 @@
     "sha256": "30614a5accf321fd3288b93f1aaf49d5b03419db3d983bb42a5deee46e0a6a63"
   },
   {
+    "path": "2026-10-20/assets/beam-interface.jpg",
+    "bytes": 107489,
+    "sha256": "58a8f9ee6a3551313de25555dcc83fc71dedc706b6682e07dd340beefd6f82ce"
+  },
+  {
+    "path": "2026-10-20/assets/bee.jpg",
+    "bytes": 50606,
+    "sha256": "89c550bd30cebb2dc9493acf39f1ea8f8b766bf3a900ed0ad1b882ba9f0d9947"
+  },
+  {
+    "path": "2026-10-20/assets/bill-interface.jpg",
+    "bytes": 28979,
+    "sha256": "10d17df384b0fe00ab38aab186773f89f5f7049bb47ac7c8622a7d6863467bd4"
+  },
+  {
+    "path": "2026-10-20/assets/brera.jpg",
+    "bytes": 190647,
+    "sha256": "138a0bd82cf49d96e3a88a57716b89e277db6178362c7718d1db10eeaa2f4c01"
+  },
+  {
+    "path": "2026-10-20/assets/cling.jpg",
+    "bytes": 168092,
+    "sha256": "120f943a85afb7173ee359dcb1ce12f5c89eade3416f1d7c15acb19819f0f6a1"
+  },
+  {
+    "path": "2026-10-20/assets/cloudflare-clairic.jpg",
+    "bytes": 123869,
+    "sha256": "8597d12200ed63b761df9dfee9d6ef7596660a1b83d301a6e395452b78d5a17f"
+  },
+  {
+    "path": "2026-10-20/assets/conversemr.jpg",
+    "bytes": 127226,
+    "sha256": "24910f0565192dbf3ff54f6a9c272ceb601a4fc7bd5b9b37344963dbc43e4a8d"
+  },
+  {
     "path": "2026-10-20/assets/coralboard-product.jpg",
     "bytes": 48205,
     "sha256": "88583853a81c15d74149140c70bb0d309d9083c087ee95025127130dbadcf179"
   },
   {
     "path": "2026-10-20/assets/deck.js",
-    "bytes": 1830,
-    "sha256": "315ff0b41598e1e57ebb5d173738c59698fddfa23b146c70d343ba233d458612"
+    "bytes": 2537,
+    "sha256": "d30bb66137f39883a9c12222b1c552214ac4e08f490f825c18f73eff93798344"
+  },
+  {
+    "path": "2026-10-20/assets/deepinfer.jpg",
+    "bytes": 107288,
+    "sha256": "fdb4bce74070f4cb4e84dffa7b15ed15a2429b1b60e1e966ae63316f5da53131"
+  },
+  {
+    "path": "2026-10-20/assets/different.jpg",
+    "bytes": 98322,
+    "sha256": "a92ab0009a155f5a7e4d194c21211eccac4b32f2fc031f57d59c0730dda19a17"
+  },
+  {
+    "path": "2026-10-20/assets/dream-maker-arm-faas.jpg",
+    "bytes": 139220,
+    "sha256": "a087f67c6bbed44a4b410c63b8fa6488d2eb1b5416a061fe7ebb721bb9e5e593"
+  },
+  {
+    "path": "2026-10-20/assets/exa.jpg",
+    "bytes": 211505,
+    "sha256": "4c61597a55a4ec588f70b7d94b183074dea75d61321641124d8289b7539e3fe0"
+  },
+  {
+    "path": "2026-10-20/assets/figma-specs.jpg",
+    "bytes": 95774,
+    "sha256": "c6e91084ea6ede7b6982c49188f96fde9bfd1213babd5cd933a73fa726cd9156"
+  },
+  {
+    "path": "2026-10-20/assets/gazeagent.jpg",
+    "bytes": 209890,
+    "sha256": "9534d97aa877ff1ffa2e5e39e480f9f0a5b08179f9db88b3ec4e6aea35ca1007"
   },
   {
     "path": "2026-10-20/assets/harness-LICENSE.txt",
@@ -450,9 +515,29 @@
     "sha256": "84149996f4da7fe4933e2b79235f54cea62d28b6dda15c20fb2375e39cb4bf73"
   },
   {
+    "path": "2026-10-20/assets/interactagent.jpg",
+    "bytes": 144208,
+    "sha256": "72700228ecfed44f562057263b52992894e9e80bce5e95ddfac0029a8d996dc2"
+  },
+  {
     "path": "2026-10-20/assets/issue.css",
-    "bytes": 9074,
-    "sha256": "105dab4e4fac7e7026551a82246feded6dc427a84e13587b78f479843804626b"
+    "bytes": 10152,
+    "sha256": "466f332d45f1d63e3ade7380919549998eadc072c9535ed43a3b74ce97b17493"
+  },
+  {
+    "path": "2026-10-20/assets/kai-resolve.jpg",
+    "bytes": 88585,
+    "sha256": "f23e8243aa5eabe6a49ce6b94848d2232add01ba9b8d16b92f67970b85908676"
+  },
+  {
+    "path": "2026-10-20/assets/krea-api-readable.jpg",
+    "bytes": 172295,
+    "sha256": "16370b34af57dcc76a15b7d5b076b14ebf31ed4dc14bb8f497b9b30c0977f274"
+  },
+  {
+    "path": "2026-10-20/assets/lens-source-panel.jpg",
+    "bytes": 15566,
+    "sha256": "2f87e657d5594d47100cbf83bb292f243dc1460b6468fee51f41cf33d91d1c63"
   },
   {
     "path": "2026-10-20/assets/litert-demo.jpg",
@@ -465,9 +550,74 @@
     "sha256": "168cee67a7c9853ba9a726dcfb83053158812fa2c6f08b158e8d9fd1373a90ef"
   },
   {
+    "path": "2026-10-20/assets/mobo.jpg",
+    "bytes": 222101,
+    "sha256": "137881ac6716cdedc3ebab809d921701152c62ce03c1b92bc0235547a7b4bb23"
+  },
+  {
+    "path": "2026-10-20/assets/motive-work-orders.jpg",
+    "bytes": 69008,
+    "sha256": "95bc12431b50d5ff6fe8028ef369e06b0f86f77287dcf56f628eb5bf21957b45"
+  },
+  {
+    "path": "2026-10-20/assets/neura-neuron-ai.jpg",
+    "bytes": 55970,
+    "sha256": "e92536997ee6dbf0015136d65b3a25675deeb1091d6b2b694cbba5550b13c9ae"
+  },
+  {
+    "path": "2026-10-20/assets/openvlharness.jpg",
+    "bytes": 184117,
+    "sha256": "75691c93998531001dc0e579b6434843dda8696f3805fd773faa7cc2da9c6ca2"
+  },
+  {
+    "path": "2026-10-20/assets/payani-execution.jpg",
+    "bytes": 127841,
+    "sha256": "f7c471700921d447724b6eed1a2467ae22c5ce4f10cdbadb63b41c10239a6f15"
+  },
+  {
+    "path": "2026-10-20/assets/promptile.jpg",
+    "bytes": 133763,
+    "sha256": "4f8bcedb163858070b1eae6a88baa6fa06a050404a9c09a683c6f3a16b28bff9"
+  },
+  {
+    "path": "2026-10-20/assets/pythia-pocket-agent.jpg",
+    "bytes": 209972,
+    "sha256": "15e6c3b1f3bc24638b38be0f1e82161053e63bf6f5b1700348dc7b0a42622199"
+  },
+  {
+    "path": "2026-10-20/assets/robot-data-diff.jpg",
+    "bytes": 131708,
+    "sha256": "033619de31f32537e144b8e9ffe63f1c2d630010707a4e08b24102e6046087e2"
+  },
+  {
     "path": "2026-10-20/assets/speakon-agent.webp",
     "bytes": 183979,
     "sha256": "e9ca7122543f7590aa0df47b54a6c4b65b85334a85e3b1ddca4fa8d87ac44c25"
+  },
+  {
+    "path": "2026-10-20/assets/splatxr.jpg",
+    "bytes": 144332,
+    "sha256": "b29b0b42fdacc7401d1b31654de06ef8e582a55a9eff783c038eead2246ed677"
+  },
+  {
+    "path": "2026-10-20/assets/spooky-pumpkin.jpg",
+    "bytes": 107684,
+    "sha256": "5b99aab7636de543ac4dc697d97926f2b24219b6079217fbb8b87d82c893c63b"
+  },
+  {
+    "path": "2026-10-20/assets/standard-bots-ai.jpg",
+    "bytes": 190236,
+    "sha256": "7a2ad36630f383584383682be1b6632cbc03afb3dd8c0f33846ae4e0eaa0bb93"
+  },
+  {
+    "path": "2026-10-20/assets/surface-laptop-ultra.jpg",
+    "bytes": 55385,
+    "sha256": "82284cf4a5865c582679bacaa3fc00bf14a1ee0a6bef545ca631a4ce857e6307"
+  },
+  {
+    "path": "2026-10-20/assets/uniuni.jpg",
+    "bytes": 90720,
+    "sha256": "e471cfa19b8a258559487e33e1972e1b24de074ac8ccc5389466fe07fc935136"
   },
   {
     "path": "2026-10-20/assets/visagent-workflow.jpg",
@@ -475,114 +625,444 @@
     "sha256": "733d7c115ed022d2fbcceffbc894631cf4ea00204c3a7594e5397ffe6b6df479"
   },
   {
+    "path": "2026-10-20/assets/walkai-talkai.jpg",
+    "bytes": 122708,
+    "sha256": "2b144ee60e53c528f900e3ff807a455cbeb48e2d655c441e497f8a7f44cdd23e"
+  },
+  {
+    "path": "2026-10-20/assets/wally-interface.jpg",
+    "bytes": 142186,
+    "sha256": "08645454bb085d325d7521cd5b68537e652c9e304da9a6cf09432c6e4edf9a68"
+  },
+  {
     "path": "2026-10-20/en/coverage.html",
-    "bytes": 10389,
-    "sha256": "a053a2b65fb84c3c7472e517760106454ef2706044d276357487146a160b128d"
+    "bytes": 11072,
+    "sha256": "d174b8105c4d8e80318339ed22bcb77849f53fcdf6ea3c41e171d60bcc4ad5c0"
+  },
+  {
+    "path": "2026-10-20/en/details/aimoga-mobo.html",
+    "bytes": 6343,
+    "sha256": "e74ff2116222a90d180fbb74f17cd016c6b0ef2f028041f907c815c2855f4ed2"
+  },
+  {
+    "path": "2026-10-20/en/details/beam-win.html",
+    "bytes": 6001,
+    "sha256": "b7e574ea66deab694c3280808e88cc50d61c75bbbed2f45aa345221180aaed69"
+  },
+  {
+    "path": "2026-10-20/en/details/bee-frontier-eclipse.html",
+    "bytes": 6395,
+    "sha256": "09ad58e54ff10ab0a9fac8b67a839254bd9ec8fae9392397cc1276d10fa18d37"
+  },
+  {
+    "path": "2026-10-20/en/details/bill-ai-controls.html",
+    "bytes": 5865,
+    "sha256": "f16644f1d001f381353e79aba88cf65c360ca47a0ea3bbe9168719c8746069a7"
+  },
+  {
+    "path": "2026-10-20/en/details/brera-sensing-art.html",
+    "bytes": 6570,
+    "sha256": "46ca550739a6265abcbf4c128b3b02f9c9fcee67e516da68432d47264007cc42"
+  },
+  {
+    "path": "2026-10-20/en/details/cling.html",
+    "bytes": 5947,
+    "sha256": "0a10e4acc59d918875504a62ff8566f7e80c558c35081d32c2db9604e8edace2"
+  },
+  {
+    "path": "2026-10-20/en/details/cloudflare-clairic.html",
+    "bytes": 6526,
+    "sha256": "33c82e17ac02a0af8a907944b56bc60bbe8877356b04b54a86458262824bfdde"
+  },
+  {
+    "path": "2026-10-20/en/details/conversemr.html",
+    "bytes": 5633,
+    "sha256": "95f6226f992f1aacfced033edb9a66ac477d7ab99202637dc69fb2a9c9899368"
   },
   {
     "path": "2026-10-20/en/details/coralboard.html",
-    "bytes": 9463,
-    "sha256": "b819b87859398e746cfbebee21d90008c50e398559952d171729747d015a0372"
+    "bytes": 9605,
+    "sha256": "4388112dce7decbf716c6ce494bfd0eb681c113fef199c9597afab573c31a636"
+  },
+  {
+    "path": "2026-10-20/en/details/deepinfer.html",
+    "bytes": 6275,
+    "sha256": "42ac175dd694367061ee91fb01b2dad0cac0d77d2035978f644d9dc7849ace7a"
+  },
+  {
+    "path": "2026-10-20/en/details/different.html",
+    "bytes": 5657,
+    "sha256": "9f1cfd7d582ebdde08fee816703d65dd2122ea0817efcfc1e042dc35004632e7"
+  },
+  {
+    "path": "2026-10-20/en/details/dream-labs-dream1.html",
+    "bytes": 5783,
+    "sha256": "75fc1c54de51b40e81f6a69ce052702e15c84048bf5219638508274a7380d6bf"
+  },
+  {
+    "path": "2026-10-20/en/details/exa-3.html",
+    "bytes": 5630,
+    "sha256": "29526a904b5cbe375aa3cc2fc0e6d1cee859a9801b064a72feedde2cf63ccb7d"
+  },
+  {
+    "path": "2026-10-20/en/details/figma-specs.html",
+    "bytes": 6163,
+    "sha256": "e4d2d4cca290e237992c9df4fff32de5a6ea90a8600318a0fb68a10937c7f0f6"
+  },
+  {
+    "path": "2026-10-20/en/details/gazeagent.html",
+    "bytes": 5931,
+    "sha256": "552aac046548f44662b70fd2e180427f28ce72305403409b3506021016a67955"
   },
   {
     "path": "2026-10-20/en/details/hermes-friction.html",
-    "bytes": 8982,
-    "sha256": "ff692d05aef9224c1dd97a377e23264876ba18558ca9521db084816f9ec3c8ce"
+    "bytes": 9057,
+    "sha256": "9903c3d8b006e34be5c55db0ec32446e513f331a1b6e2b06dbe3e27ad9e178ad"
+  },
+  {
+    "path": "2026-10-20/en/details/interactagent.html",
+    "bytes": 6091,
+    "sha256": "10944ec4e80c13fabf969393174546f6160c289e97720b760a440af6058780a4"
   },
   {
     "path": "2026-10-20/en/details/iphone-agent-harness.html",
-    "bytes": 7184,
-    "sha256": "ee724c6b1ef549338a1938182b41cf75d8a6f6d60475e02151cce1a13c5040b3"
+    "bytes": 7284,
+    "sha256": "0a506b4e8a566252a2d95326799e6327371132f289b7eb9a19a32acfa869ee32"
+  },
+  {
+    "path": "2026-10-20/en/details/kai-resolve.html",
+    "bytes": 6499,
+    "sha256": "0cfdd98d1e3d37e12362642ec64711a510ce41115fadbbe38633fd3a73178763"
+  },
+  {
+    "path": "2026-10-20/en/details/krea-3.html",
+    "bytes": 6351,
+    "sha256": "f96bf970280190217a76c32343b94094a9a05794fc14f89dea18b1c062e47df7"
   },
   {
     "path": "2026-10-20/en/details/litert-tensor.html",
-    "bytes": 9622,
-    "sha256": "abbb3c884cf13ffbce02b3ae19df00c3940f5c760ca14c6874414f5615e81b6b"
+    "bytes": 9740,
+    "sha256": "8e75be29bf6bd77e81c3e2480ba0378ed1d6064f6a82b8ae812c1777367db966"
   },
   {
     "path": "2026-10-20/en/details/mirrorship-mip.html",
-    "bytes": 8649,
-    "sha256": "3a2d293a283e7b9b1ae6d4b264d327a37e62fe538cc4079405390eb811d1ef18"
+    "bytes": 8720,
+    "sha256": "7e236972cb2afaebc177075d5caf0859cb7e760b60df9bdefb737020a684c078"
+  },
+  {
+    "path": "2026-10-20/en/details/motive-agents.html",
+    "bytes": 5747,
+    "sha256": "2f642ca46436913cd75e12d7e91d3a0dfdc46d183613c2a35e0746988bb3ee01"
+  },
+  {
+    "path": "2026-10-20/en/details/neura-neuron-ai.html",
+    "bytes": 5712,
+    "sha256": "1a4c253315616e4ddcde64ae3f31ed84ab712a3f78cad48feb5c9f815246c333"
+  },
+  {
+    "path": "2026-10-20/en/details/openvlharness.html",
+    "bytes": 6223,
+    "sha256": "6a03b856681c035b0d8aa291717dfb9926b0b7cdf91b236d087565c9348f6df9"
+  },
+  {
+    "path": "2026-10-20/en/details/payani-execution.html",
+    "bytes": 6567,
+    "sha256": "d6cdd17c7e29594e5a154d11431adcf3b42b4ea308b2cf2b5390f0da8711f97e"
+  },
+  {
+    "path": "2026-10-20/en/details/promptile.html",
+    "bytes": 5869,
+    "sha256": "ae687f2a0056f01f1e58a5dab04ec062962eba5f71d4dcea0a65de5a83f4a410"
+  },
+  {
+    "path": "2026-10-20/en/details/pythia-pocket-agent.html",
+    "bytes": 6234,
+    "sha256": "dd37de66d1d6ff6775906c1968e1b82a2c3b5d89519ebf9e77aedffc24d90fec"
+  },
+  {
+    "path": "2026-10-20/en/details/robot-data-diff.html",
+    "bytes": 6194,
+    "sha256": "b903c75864bf17967812832f4eb41bf1ed147193439920236affa30a2c040734"
   },
   {
     "path": "2026-10-20/en/details/speakon.html",
-    "bytes": 10269,
-    "sha256": "67558f41b62930080aad7230a824a15fc4c0e080f6ccaea1a274cf2e90fd790b"
+    "bytes": 10397,
+    "sha256": "58e129d4742ceb6db3ddb3030bd5aed760ea1c4ae64ad8de4f2c926c237dd0aa"
+  },
+  {
+    "path": "2026-10-20/en/details/splatxr.html",
+    "bytes": 6050,
+    "sha256": "09a3e1ea30419af76330bfca4210cdd6829424edf8f797137785135ea86db643"
+  },
+  {
+    "path": "2026-10-20/en/details/spooky-pumpkin.html",
+    "bytes": 5852,
+    "sha256": "f1fd9f990e1a4761c0e79e38ebc7906448554fcb9da5a03866cd56980a39956a"
+  },
+  {
+    "path": "2026-10-20/en/details/standard-bots-ai.html",
+    "bytes": 5570,
+    "sha256": "ea9e21a11aadb03e6b91be7ce5e37ce578a54a46f82d32f19606b4cda41e97e5"
+  },
+  {
+    "path": "2026-10-20/en/details/surface-laptop-ultra.html",
+    "bytes": 5731,
+    "sha256": "4392300c85324e999fd2e27770555a57c33ee410fc552bff872ecf595c1960d5"
+  },
+  {
+    "path": "2026-10-20/en/details/thought-industries-lens.html",
+    "bytes": 6409,
+    "sha256": "2314d890de97fdfb93866826caeba3d565e14dc7cef5d617c8b85d633c30d479"
+  },
+  {
+    "path": "2026-10-20/en/details/unitree-uniuni.html",
+    "bytes": 6404,
+    "sha256": "5717f130d73b36dbc6fee9bbe6dd7ab9196a23c63819d3512b38959cde87dc44"
   },
   {
     "path": "2026-10-20/en/details/visagent.html",
-    "bytes": 8215,
-    "sha256": "1442e16fc7dca7373216d2daaeff2153cd4d10aba17387878e3fa92820f1ed2a"
+    "bytes": 8290,
+    "sha256": "08ec04a6971cf7355aad2e7d6e3ddd092083efb7026141663481d5b8b810404f"
+  },
+  {
+    "path": "2026-10-20/en/details/walkai-talkai.html",
+    "bytes": 5692,
+    "sha256": "359ef5d7c453a622476f7bf6c34f323d14f9c3f5b1d64ee5258d80d16d241576"
+  },
+  {
+    "path": "2026-10-20/en/details/wally-by-willow.html",
+    "bytes": 6387,
+    "sha256": "6e1f0a8b82f4df3d87d71e40ac0ffd101f84085ce93c132a6573653b4d67aaf9"
   },
   {
     "path": "2026-10-20/en/index.html",
-    "bytes": 30046,
-    "sha256": "79fdc06233a2a77c8d1988b16c5dbcf9ab561b8ad6c33fdb8b54fcebcb7adca8"
+    "bytes": 121118,
+    "sha256": "d33648f3bf9d436c7b2ac857e630f5c44cd593e4a02cde68591f55f8408808f5"
   },
   {
     "path": "2026-10-20/manifest.json",
-    "bytes": 21704,
-    "sha256": "74d536b66edfb7f5d66aa0a937e62a302243507725d2e7e42aa3d0b2d007c12b"
+    "bytes": 47454,
+    "sha256": "ff3344e450dd192c144a87a431919fcb39dd5026c5e3d5e8ebb9518d9f0a8419"
   },
   {
     "path": "2026-10-20/sources.html",
-    "bytes": 10640,
-    "sha256": "6aaa023fbc8d484e020dc52dfe09a213b2142e0f791bcd3279af7f82a5f873ac"
+    "bytes": 75131,
+    "sha256": "ff84005991a480228b473a0eb1b022e6614c055bddd6affb3e19d53316eade45"
   },
   {
     "path": "2026-10-20/sources.json",
-    "bytes": 7832,
-    "sha256": "3837f453645b8b3d446b8d36eddd2495de25c2095a7fa95ea9afae1521c296e4"
+    "bytes": 43245,
+    "sha256": "a7f86154e04923a95e7925f62ed80c67b76b78d390602b0065504894307cdf23"
   },
   {
     "path": "2026-10-20/visuals.json",
-    "bytes": 4515,
-    "sha256": "02d979a787df5c964be537ac3a015b119cec0d9e2efb44bdff32d58339fd79c2"
+    "bytes": 31945,
+    "sha256": "7057cc9e53a4dd9b0aaaa177cc928c27ebd92a81f0180fb73addae564086a7e2"
   },
   {
     "path": "2026-10-20/zh/coverage.html",
-    "bytes": 8102,
-    "sha256": "c64ed8d92c757d36196c06771cfcc29a59f39459ea84eeb3511798aa2790c814"
+    "bytes": 9185,
+    "sha256": "e9568bca64899599b1c778e502fba7a0f1e979591ad72c17276e36674518ca31"
+  },
+  {
+    "path": "2026-10-20/zh/details/aimoga-mobo.html",
+    "bytes": 5620,
+    "sha256": "d541b4b9481afc6fb1e62b37b0e6449249ba9f1dd0c23d07d788969beddcea08"
+  },
+  {
+    "path": "2026-10-20/zh/details/beam-win.html",
+    "bytes": 5271,
+    "sha256": "ebb559bbd70f3821adc59c4f90ff8efad9635a4ed5c42d870aa13409b0b28360"
+  },
+  {
+    "path": "2026-10-20/zh/details/bee-frontier-eclipse.html",
+    "bytes": 5637,
+    "sha256": "f81daca148c0c72ee80de1fc5c986f65c9da6bbd65409bcd0ebbafa1b7513641"
+  },
+  {
+    "path": "2026-10-20/zh/details/bill-ai-controls.html",
+    "bytes": 5047,
+    "sha256": "4e310cd9fe40c23080397772afa4bb9a7b6fbdd3335c7e355d34f5d71ca69727"
+  },
+  {
+    "path": "2026-10-20/zh/details/brera-sensing-art.html",
+    "bytes": 5877,
+    "sha256": "21e557504e171df325da7d26f4524cb60e2f36ed42cf78a0202f1371ad203dcb"
+  },
+  {
+    "path": "2026-10-20/zh/details/cling.html",
+    "bytes": 5554,
+    "sha256": "1a7872ce4dd493dbbf1a050bb315256c3ab545e51ac324f86000210c6c9dc19b"
+  },
+  {
+    "path": "2026-10-20/zh/details/cloudflare-clairic.html",
+    "bytes": 5722,
+    "sha256": "0d52cc5918128f86d2920c9c18fa8da57df3bb7a422eb1b60a11fcfeb0ed5d4a"
+  },
+  {
+    "path": "2026-10-20/zh/details/conversemr.html",
+    "bytes": 5061,
+    "sha256": "ab184b720a522ebcb934d860e9de9db2ad54c44df9da936d564c58f95d08909e"
   },
   {
     "path": "2026-10-20/zh/details/coralboard.html",
-    "bytes": 7641,
-    "sha256": "40e0528d8e83a83308b418564f1ba5b08f3aa62b6699cc025166230c4df9a4a0"
+    "bytes": 7783,
+    "sha256": "82cffaae7f23a12d86bb2e7af6f44a7a8d44845fa90d400d31f5358c7f56fda5"
+  },
+  {
+    "path": "2026-10-20/zh/details/deepinfer.html",
+    "bytes": 5753,
+    "sha256": "b523998a9024f62d0bcdf1ae5c2ac6f12614866deda6943bc9cc98b7ced1e02f"
+  },
+  {
+    "path": "2026-10-20/zh/details/different.html",
+    "bytes": 4955,
+    "sha256": "8e7f85509b02f2f20757792eef0bbd77de02d69a36810c61a621ed595071c67b"
+  },
+  {
+    "path": "2026-10-20/zh/details/dream-labs-dream1.html",
+    "bytes": 5206,
+    "sha256": "648739815633bf409c5d06ca94db204618e305b8cd09004bc3cb3f7047aac8cf"
+  },
+  {
+    "path": "2026-10-20/zh/details/exa-3.html",
+    "bytes": 4742,
+    "sha256": "94bed9d7513808858c0a5694a5f98b9ed33e6ade929137bf5b8b640536234e87"
+  },
+  {
+    "path": "2026-10-20/zh/details/figma-specs.html",
+    "bytes": 5571,
+    "sha256": "51cefcff72f6377703c70a0ab688212448287f476919f0ddeea9cf081c7e39bf"
+  },
+  {
+    "path": "2026-10-20/zh/details/gazeagent.html",
+    "bytes": 5171,
+    "sha256": "77d95664386b9815f4cb9d59870359625012707b4e7622961993121693789f2d"
   },
   {
     "path": "2026-10-20/zh/details/hermes-friction.html",
-    "bytes": 7304,
-    "sha256": "36472a6f53af736d4084c5d637a6df00b9105a5fddc3e915283aa474fb28321a"
+    "bytes": 7379,
+    "sha256": "8e3b31d0e23b465f3d51d18fcdd3be25a9d68a6a84958bc13b5fb4855d582e07"
+  },
+  {
+    "path": "2026-10-20/zh/details/interactagent.html",
+    "bytes": 5534,
+    "sha256": "7e6d748df37d332bf6c6ec5e5b9571470d7bd49adaf7229bbca70d6dbf654f5e"
   },
   {
     "path": "2026-10-20/zh/details/iphone-agent-harness.html",
-    "bytes": 6199,
-    "sha256": "246fddbefbf04cc23b1af8a147a8030c7bd260b51c9e3a082fb147b0b47a7748"
+    "bytes": 6299,
+    "sha256": "cb3e4ed01fa6249987a86be0467c04d8d03134546ad162055a8e99a8380efd3e"
+  },
+  {
+    "path": "2026-10-20/zh/details/kai-resolve.html",
+    "bytes": 6069,
+    "sha256": "cce20c7a8d3298881ae5ec1b893e4ef2d73929fdc0ef0c5631a058dd974b8cd2"
+  },
+  {
+    "path": "2026-10-20/zh/details/krea-3.html",
+    "bytes": 5888,
+    "sha256": "c505672b6c145640796c8d519e83410e0ef80a55bef5263090301011c5efa2fc"
   },
   {
     "path": "2026-10-20/zh/details/litert-tensor.html",
-    "bytes": 7843,
-    "sha256": "099402b3987c20f5694e88f0a1bbc84c31691c6268740bbe9a126abf812ca003"
+    "bytes": 7961,
+    "sha256": "4d2f01f14ada62a9acd6b58544406776bf7e40f670bef1c039e6adaaa4377cb5"
   },
   {
     "path": "2026-10-20/zh/details/mirrorship-mip.html",
-    "bytes": 6841,
-    "sha256": "acbc60309c9e4a765668a5aae3e185e083e862bbc8d009aa1435d5fcd77ce038"
+    "bytes": 6912,
+    "sha256": "43b7486fcd685f231ab7cbed4957e35b02128badca03278051c4c2930aa6fb67"
+  },
+  {
+    "path": "2026-10-20/zh/details/motive-agents.html",
+    "bytes": 5005,
+    "sha256": "8fff0c7a239439062c6d5bf0eed5284ab2e0b68e35cbb81aa37e4431f5baa086"
+  },
+  {
+    "path": "2026-10-20/zh/details/neura-neuron-ai.html",
+    "bytes": 5110,
+    "sha256": "adb4e390dd906eb4b1f0346707ed102cf7bfbe80bddc0d4ea4da4bbd5398bf82"
+  },
+  {
+    "path": "2026-10-20/zh/details/openvlharness.html",
+    "bytes": 5782,
+    "sha256": "b8db2feadacc6fc37b7f172ccaa5be01e85b2e99add755627ee9ec5753d527da"
+  },
+  {
+    "path": "2026-10-20/zh/details/payani-execution.html",
+    "bytes": 5808,
+    "sha256": "c6fd0d259b2942545886fcab6f54f1a5b029918a7cf54dd9c69ef300e990e336"
+  },
+  {
+    "path": "2026-10-20/zh/details/promptile.html",
+    "bytes": 5482,
+    "sha256": "6826f23d0a671277e5b79c3f591a97d5a89c86ddb9037a8470cc7d93b3f8a8f6"
+  },
+  {
+    "path": "2026-10-20/zh/details/pythia-pocket-agent.html",
+    "bytes": 5583,
+    "sha256": "c8f5cdd7a90d2b344d84013a8913f3104bbca6a9d74923398ef7c16675c7f006"
+  },
+  {
+    "path": "2026-10-20/zh/details/robot-data-diff.html",
+    "bytes": 5807,
+    "sha256": "e7f0dc64c386a65113c604d66dff457a7da091c3416d207dbd33e129515e4cba"
   },
   {
     "path": "2026-10-20/zh/details/speakon.html",
-    "bytes": 9711,
-    "sha256": "757f63993c773eeda2283d3675ee629160b8719c315079b7e25304fa9c892463"
+    "bytes": 9799,
+    "sha256": "8e3132005bf15a0e9ee081bae9f25ec22b08a411002600faa85bb0373f503ca9"
+  },
+  {
+    "path": "2026-10-20/zh/details/splatxr.html",
+    "bytes": 5503,
+    "sha256": "90c239d624c7b0ab300f6aee3b5d22a24a776412f543a345ac155b2296eb55bc"
+  },
+  {
+    "path": "2026-10-20/zh/details/spooky-pumpkin.html",
+    "bytes": 5379,
+    "sha256": "19c21cbb7fe47d33b809b0eaa50db15b20587e42d266c24789c80d5233fe0fb5"
+  },
+  {
+    "path": "2026-10-20/zh/details/standard-bots-ai.html",
+    "bytes": 5045,
+    "sha256": "04a91177f6a54e2a407bada5f0b6cd5ee68fab2f7ceeb21277d9982d1a559b1a"
+  },
+  {
+    "path": "2026-10-20/zh/details/surface-laptop-ultra.html",
+    "bytes": 5071,
+    "sha256": "49a0709558252e028933725a77949a98d2c37538f7244964fd001c4874c1d6c3"
+  },
+  {
+    "path": "2026-10-20/zh/details/thought-industries-lens.html",
+    "bytes": 5582,
+    "sha256": "91d69453dc71321df93a5b3a0060fd7928e6eaeb14d68ccd50f15ec26c632859"
+  },
+  {
+    "path": "2026-10-20/zh/details/unitree-uniuni.html",
+    "bytes": 5650,
+    "sha256": "f05bf07fe0a25fecdd50d462679eb94b0ec556bf9a578aa1f5cd276de1eb7045"
   },
   {
     "path": "2026-10-20/zh/details/visagent.html",
-    "bytes": 6946,
-    "sha256": "1361701ccba212f81b1daf0ceb4144e083119b551ed8e829e2c18d3450db0e1c"
+    "bytes": 7021,
+    "sha256": "0482392c615665d62a91cc831bc3f4f7807de6af35a244de05fb0db7207531d3"
+  },
+  {
+    "path": "2026-10-20/zh/details/walkai-talkai.html",
+    "bytes": 4987,
+    "sha256": "71a43098c3ab43bea227ff46b55dab19cdef4e6f1d26fbe014f5e6b41bb83bdf"
+  },
+  {
+    "path": "2026-10-20/zh/details/wally-by-willow.html",
+    "bytes": 5765,
+    "sha256": "71789ab9d440f34467ef0cee5fa77bf9458f4bafc1e973fe358a6e6384dc4269"
   },
   {
     "path": "2026-10-20/zh/index.html",
-    "bytes": 28450,
-    "sha256": "24cc9cb16c5c1c46980e7e6ff274328edc7081f949507aecd9b66521f4a23f08"
+    "bytes": 110205,
+    "sha256": "2c703ed0224a571fb0b8eba69a62d6f00448f10db1dacd4d681f482858fa1b9a"
   },
   {
     "path": "assets/acti-agentic-keyboard-2026-07-03.svg",
@@ -986,17 +1466,17 @@
   },
   {
     "path": "en/index.html",
-    "bytes": 151601,
-    "sha256": "9edb9aa932701ab07ed0df48881df09141e0162b7ad0dcc6f9db832c9e737ea9"
+    "bytes": 151570,
+    "sha256": "bb9a41ba220cd2443add2549ccd7196db7bd5525a671bf98c47772587d86af2a"
   },
   {
     "path": "index.html",
     "bytes": 145903,
-    "sha256": "d5d8a6504b37509b7fea027674e21ea880c8471bdffbcfd531a2df532a7baedc"
+    "sha256": "371a36763dab348d75199c771c77ad9306499bbed0072ee15ee80d5b6579e492"
   },
   {
     "path": "manifest.json",
-    "bytes": 727133,
-    "sha256": "a076c8da8aec3b232eacf29860e071bf3ebf47d87a8a36f3f29bf431579ee80e"
+    "bytes": 727106,
+    "sha256": "0ce91ef9439de2109641b8d047146786d2520552cea21739d848da0d9476bd19"
   }
 ]
