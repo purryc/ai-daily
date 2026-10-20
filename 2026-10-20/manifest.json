@@ -1,0 +1,158 @@
+{
+  "date": "2026-10-20",
+  "timezone": "America/Toronto",
+  "cutoff": "2026-10-20T14:08:00Z",
+  "publicationFormat": "web-only",
+  "backfill": false,
+  "sourcesPath": "sources.html",
+  "metrics": {
+    "date": "2026-10-20",
+    "body": {
+      "zhDenseChars": 7042,
+      "enWords": 4774
+    },
+    "products": 6,
+    "references": 20,
+    "coreVisuals": 6,
+    "slidesPerLocale": 30,
+    "perProduct": {
+      "speakon": {
+        "zhDenseChars": 1682,
+        "enWords": 931
+      },
+      "mirrorship-mip": {
+        "zhDenseChars": 1084,
+        "enWords": 758
+      },
+      "coralboard": {
+        "zhDenseChars": 994,
+        "enWords": 765
+      },
+      "litert-tensor": {
+        "zhDenseChars": 1092,
+        "enWords": 764
+      },
+      "hermes-friction": {
+        "zhDenseChars": 999,
+        "enWords": 800
+      },
+      "visagent": {
+        "zhDenseChars": 1191,
+        "enWords": 756
+      }
+    }
+  },
+  "eventCounts": {
+    "sameDayProductAnnouncements": 2,
+    "sameDayAnnouncementObservations": 1,
+    "threeDaySupplements": 3,
+    "uncertain24hBoundaryWithinSupplements": 1,
+    "sevenDayRetrospectives": 0
+  },
+  "topics": [
+    {
+      "id": "speakon",
+      "zhHeadline": "SpeakON Agent",
+      "enHeadline": "SpeakON Agent",
+      "eventAt": "2026-10-20T12:00:00Z",
+      "freshness": "announcement-with-earlier-availability",
+      "evidence": "confirmed product · vendor announcement, not hands-on"
+    },
+    {
+      "id": "mirrorship-mip",
+      "zhHeadline": "MirrorShip MIP",
+      "enHeadline": "MirrorShip MIP",
+      "eventAt": "2026-10-20",
+      "freshness": "24h-new-regional-product-launch",
+      "evidence": "confirmed product / official demonstration"
+    },
+    {
+      "id": "coralboard",
+      "zhHeadline": "Synaptics Coralboard SL / SR",
+      "enHeadline": "Synaptics Coralboard SL / SR",
+      "eventAt": "2026-10-20",
+      "freshness": "dated today; exact publication time not stated; independently surfaced by 05:30 PT media before cutoff",
+      "evidence": "confirmed product + developer surface"
+    },
+    {
+      "id": "litert-tensor",
+      "zhHeadline": "LiteRT Tensor API / SAM 2 Web demo",
+      "enHeadline": "LiteRT Tensor API / SAM 2 Web demo",
+      "eventAt": "2026-10-19",
+      "freshness": "near-three-day supplement; date-only publication cannot establish 24h boundary",
+      "evidence": "developer surface; vendor demo; collection-environment failure observation"
+    },
+    {
+      "id": "hermes-friction",
+      "zhHeadline": "Hermes Desktop",
+      "enHeadline": "Hermes Desktop",
+      "eventAt": "2026-10-19T10:01:40Z",
+      "freshness": "near-three-day-supplement",
+      "evidence": "review/community friction"
+    },
+    {
+      "id": "visagent",
+      "zhHeadline": "VISAGENT",
+      "enHeadline": "VISAGENT",
+      "eventAt": "2026-10-19T10:59:45Z",
+      "freshness": "near-three-day-supplement",
+      "evidence": "research signal"
+    }
+  ],
+  "laneScans": [
+    {
+      "lane": "official",
+      "status": "sampled",
+      "zh": "以10月19日至20日AI产品发布及近七日扩展窗口查询厂商公告、开发博客、文档和发行记录，实际读取SpeakON公告与商店描述、镜舟产品与语义文章、Synaptics发布及教程、Google LiteRT博客与仓库。TorchNeuron也取得官方技术说明，但与本期端侧工具链主题重叠，保留观察，不把每个技术模块拆成条目。Boeing Dataliner虽有当日公告与官方图，却缺少足够具体的操作、控制和失败资料，未用长篇推测填充。Axonius命中安全资产清单公告，正文获取不完整，未提升。下一步补读新接口的版本固定文档并核对实际开放账户；此次没有覆盖所有厂商，也未把发布声明当成交付实测。",
+      "en": "Queries targeted AI product announcements dated October 19 and 20, with a seven-day expansion for context. We read SpeakON's announcement and store description, MirrorShip's product and semantic explanations, Synaptics' launch and operational tutorial, and Google's LiteRT post and repository. TorchNeuron also had a substantive official technical account, but was retained on the watchlist rather than adding another developer-tool story to this edition. We did not split hardware, compiler and ecosystem components into separate products. Boeing Dataliner had a dated announcement and official photograph, but the reviewed material did not disclose enough interaction, control or failure detail to support a deep dossier. Axonius appeared in discovery, with incomplete body retrieval, and was not promoted. The next check is version-pinned operational documentation and actual account availability. This is a bounded company-source sample, not a complete vendor census, and announcement statements are not hands-on delivery evidence."
+    },
+    {
+      "lane": "reviews",
+      "status": "partial / access gap",
+      "zh": "评测线检索到Reuters、TechCrunch对TorchNeuron的报道，以及VentureBeat对Google与Synaptics芯片的新闻，这些主要核对公告存在，并非独立操作或能耗测试。另追到StorageReview的Open WebUI Desktop Windows上手文章；本次页面提取实际只返回导航和同意管理面板，标题与摘要不能支持正文中的速度比较，因此未把它写成评测结论。VentureBeat发现页的生成式宣传图明确排除，不计真实图证。现阶段本期没有独立硬件或软件上手结果，Hermes只是一条社区观察。下一步应补取合法可读的测试配置、版本、任务、失败步骤和原始结果；缺少正文不能改写成“没有问题”或“评测通过”。",
+      "en": "The review lane surfaced Reuters and TechCrunch coverage of TorchNeuron and a VentureBeat report on Google and Synaptics hardware. These primarily corroborate that announcements occurred; they do not establish independent operation or energy measurements. A further lead was StorageReview's Windows hands-on article about Open WebUI Desktop. The attempted page extraction returned navigation and consent-management content rather than the review body. Its title and description cannot support the advertised speed comparison, so no review conclusion was promoted. A generated promotional image associated with a discovery result was excluded from visual evidence. This edition therefore contains no independent hardware or software hands-on result; the Hermes case remains a community report. The next step is to obtain a legitimately readable account of configuration, version, task, failure conditions and measured output. An unreadable body is an access gap, not evidence of either a clean test or an absence of problems."
+    },
+    {
+      "lane": "community",
+      "status": "one issue / one comment",
+      "zh": "社区线以Hermes桌面冻结、工具执行与近期GitHub问题为查询，完整读取#141485及唯一回复，并用官方Desktop README与v0.22.2发行记录核对背景。创建于10月19日10:01 UTC，早于主窗口起点，按近三日补充；没有把本次重新打开页面算新问题。报告者只有一位，回复关联身份为NONE，不能称维护者确认或独立复现。旧的六月与七月冻结帖子超出窗口，只帮助识别重复主题，不加入本期故障计数。GitHub目录枚举遇429后停止；没有读取私密Discord、Reddit全量或X登录内容。下一步跟踪修复提交进入哪个发行版、报告者是否验证，以及相同版本不同平台是否复现；目前无总体分母，不计算失败率。",
+      "en": "Community queries focused on Hermes desktop freezes, tool execution and recent GitHub issues. We read issue 141485 and its single reply, then checked the official Desktop README and the v0.22.2 release for context. Its creation at 10:01 UTC on October 19 precedes the main window, so it is a three-day supplement. Reopening the page today does not make it a new complaint. There is one reporter, and the reply's association is NONE; neither maintainer confirmation nor independent reproduction is established. June and July freeze reports were excluded from the event count as older context. A GitHub directory request encountered rate limiting and was not retried. Private Discord, a full Reddit sample and login-gated X content were not read. Follow-up should identify a fixing commit, its release inclusion and reporter validation, then examine matched versions on other platforms. With no population denominator, the observation provides no defensible failure-rate estimate."
+    },
+    {
+      "lane": "wild",
+      "status": "partial / no promoted startup",
+      "zh": "探索线用当日与前一日AI launch关键词搜寻新创、开发项目及非主流入口，实际命中Town融资报道、Payani AI新闻稿与若干GitHub开发线索。Town的融资不能说明新的产品交互，Payani在已读材料中缺少足够操作与真实UI证据，两者均不提升。SpeakON虽属新硬件入口，报道仍依官方产品与商店证据，不凭奖项、Product Hunt名次或用户赞语推断留存和付费。此次没有完成Product Hunt完整榜单、众筹平台与所有开源发布的系统扫描，保留具体覆盖缺口。下一步应找可操作demo、公开版本或交付记录，并核对等待名单、预览与已发货差别；不能用预约数或营销图补齐产品条数。",
+      "en": "Exploratory queries used AI launch terms for the current and previous day to find startups, developer projects and less familiar entry points. The observed leads included Town funding coverage, a Payani AI release and GitHub development material. Funding alone did not establish a new interaction, while the Payani material lacked sufficient operational detail and real-interface evidence for promotion. SpeakON is an unusual hardware entry point, but its dossier relies on product and store evidence rather than awards, Product Hunt ranking or testimonials as proxies for retention or payment. A complete Product Hunt leaderboard, crowdfunding-platform sweep and systematic review of every open-source release were not performed. Those are explicit coverage gaps. The next useful evidence would be an operable demonstration, a public version or a delivery record that distinguishes a waitlist, preview and shipped product. Reservation counts and marketing illustrations cannot substitute for that distinction or justify adding another story."
+    },
+    {
+      "lane": "research",
+      "status": "full paper read / no replication",
+      "zh": "研究线按10月19日arXiv、agent interface和HCI相关词检索，读取VISAGENT v1全文及Annotrace v2正文和版本历史。VISAGENT于10月19日10:59:45 UTC首次提交，采用原论文流程图，按近三日研究补充，不把热线实验当已上市软件能力。Annotrace虽有10月19日v2更新，但未确认相对10月16日初稿的实质差分，未靠更新日期制造事件。WildAWM只读到摘要，SPRA版本差分未评估，均保留观察。此次没有全量遍历arXiv、ACM或所有实验室，也未复现实验。下一步优先核对数据、代码、参与者任务与比较基线，并检查评估是否覆盖异常、人工接管及真实部署约束。 论文作者与平台均不构成独立复现证据。",
+      "en": "Research queries combined October 19 arXiv dates with agent-interface and HCI terms. We read the VISAGENT v1 paper and the Annotrace v2 text and version history. VISAGENT's initial submission was at 10:59:45 UTC on October 19; it is a three-day research supplement, illustrated with its original workflow figure. Results from the hotline setting are not treated as capabilities of a released commercial product. Annotrace had an October 19 v2 update, but the substantive difference from its October 16 first submission was not established, so the date alone did not create a selected event. WildAWM remained abstract-only and SPRA's version change was not assessed. No complete arXiv, ACM or laboratory census and no experiment replication were performed. Follow-up should inspect data, code, participant tasks and comparison baselines, with particular attention to exceptions, human takeover and deployment constraints that may be absent from the reported evaluation."
+    },
+    {
+      "lane": "patent",
+      "status": "sampled / no current patent promoted",
+      "zh": "专利线查询Google Patents中2026-10-15、artificial intelligence、interface和agent组合，检查命中元数据而非仅看搜索日期。一个Twilio动态上下文窗口专利WO2025221751A1的真实公开日是2025-10-23，优先权为2024-04-15；检索命中的2026-10-15属于预计到期字段，不能当作本周公开。另一近似命中也有同样日期陷阱，均排除。本期没有获得足以提升的当期专利，但这不等于当期没有专利。USPTO、WIPO、EPO与CNIPA原生查询及完整同族归并未完成。下一步须从公开日字段限定窗口，再查看同族、权利要求和原始附图；专利方向也不能直接推断厂商量产或上市计划。 日期核验先于技术方向解读。",
+      "en": "Patent queries combined the date October 15, 2026 with artificial-intelligence, interface and agent terms in Google Patents. We inspected metadata instead of accepting the date displayed in a search match. Twilio's dynamic-context-window record WO2025221751A1 was actually published on October 23, 2025, with priority dated April 15, 2024. The matched October 15, 2026 value belonged to anticipated-expiration metadata, not a current publication. A similar hit had the same freshness problem; both were excluded. No current-window patent was sufficiently verified for promotion, which does not mean that no patent appeared during the period. Native USPTO, WIPO, EPO and CNIPA queries and comprehensive family reconciliation remain unperformed. The next pass should restrict the publication-date field, inspect family relationships, claims and original figures, and maintain the distinction between an invention disclosure and an actual manufacturing or launch commitment. The present sample supports an exclusion decision, not an industry-wide negative finding."
+    },
+    {
+      "lane": "china",
+      "status": "sampled / regional scope",
+      "zh": "中文线检索10月20日AI产品与智能体发布，并追到镜舟官方MIP产品页、发布会议程、语义技术文章与凤凰网发布报道。官方入口仍是预约演示、文档即将上线，因此不把发布会描述成全量自助开放。ManageEngine卓豪30余款智能体的中国报道已发现，但本地原始活动材料和可用图证未齐，保持观察；美团DeepSkill只见发现入口，未补成规格。Veeva材料实际为九月事件，排除。腾讯TokenHub相关下线通知的生效时刻晚于本期截止，只列未来观察，未写成已经下线。微信私密直播与登录demo没有访问；下一步核对区域授权、开放时间、权限和实际试用入口，而不是把中文报道自动等同国内独立验证。",
+      "en": "Chinese-language queries targeted October 20 AI products and agents, then traced MirrorShip's official MIP product page, launch agenda, semantic technical posts and the Phoenix launch report. The visible entry remains a demonstration request and documentation is labeled forthcoming, so the event is not described as universal self-service access. A China announcement about more than thirty ManageEngine agents was discovered, but the local primary event material and usable imagery were incomplete. It remains on watch. Meituan DeepSkill was a discovery lead, not a verified specification dossier. Veeva material concerned September and was excluded. A Tencent TokenHub shutdown notice takes effect after this edition's cutoff, so it is future watch rather than a completed shutdown. Private WeChat streams and login-gated demonstrations were not accessed. The next check is regional entitlement, opening date, permissions and actual trial entry, without treating Chinese-language coverage as an independent domestic product test."
+    },
+    {
+      "lane": "global",
+      "status": "cross-region sample",
+      "zh": "地域比较围绕同任务的真实采用差异：SpeakON公告明确美国可用，不能扩大为加拿大已交付；MIP的中国发布不自动证明全球商业条款；Coralboard SL经DigiKey销售与SR新品亮相分开记。ManageEngine中国消息与更早全球Zia发布交叉检查，发现全球能力在5月已有公告，不能再次算10月20日全球首发。同样，LiteRT接口跨语言描述不证明所有平台、后端与硬件均已验证，正文保留博客与README状态差别。本线是地域标签校验，不给同一厂商材料再增加独立来源票数。未做各国商店、采购与真实账户测试；下一步以目标国家的可购买页、授权文件与版本支持矩阵复核，缺失的地区、费用和放量范围继续标未知。",
+      "en": "Regional comparison focused on adoption boundaries for the same task. SpeakON's announcement states US availability; that does not establish delivery in Canada. MIP's China launch does not prove worldwide commercial terms. Coralboard SL purchasing through DigiKey is recorded separately from the introduction of SR. Comparing the ManageEngine China lead with earlier global Zia coverage showed that the global capabilities had already been announced in May, so the October item cannot be counted again as a worldwide first. Likewise, LiteRT's cross-language interface descriptions do not establish validation on every platform, backend and device; the dossier preserves differences between the launch post and repository status. This lane checks region labels rather than awarding a second independent-source vote to the same company. Country-by-country store, procurement and account tests were not performed. Follow-up should use the target country's purchase entry, entitlements and version-support matrix, retaining unknowns for price, rollout and regional access."
+    }
+  ],
+  "collection": {
+    "date": "2026-10-20",
+    "precision": "day",
+    "afterEventCutoff": true,
+    "note": "Dynamic documentation describes the collected state. Visual timestamps are recorded separately in visuals.json."
+  }
+}

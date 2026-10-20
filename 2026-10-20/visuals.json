@@ -1,0 +1,62 @@
+[
+  {
+    "product": "speakon",
+    "path": "assets/speakon-agent.webp",
+    "sourcePage": "https://www.speakon.app/",
+    "originalUrl": "https://www.speakon.app/cdn/shop/files/SpeakON_Frame_Agent_Pearl_600x600.webp?v=1792122956",
+    "acquiredAt": "2026-10-20T14:21:41.743Z",
+    "sha256": "e9ca7122543f7590aa0df47b54a6c4b65b85334a85e3b1ddca4fa8d87ac44c25",
+    "captionZh": "厂商产品图：任务与动作界面；不是编辑实测。",
+    "captionEn": "Vendor product image: tasks and actions; not an editorial hands-on test."
+  },
+  {
+    "product": "mirrorship-mip",
+    "path": "assets/mip-official.jpg",
+    "sourcePage": "https://www.mirrorship.ai/zh/product",
+    "originalUrl": "https://www.mirrorship.ai/zh/product",
+    "acquiredAt": "2026-10-20T14:21:51.863Z",
+    "sha256": "168cee67a7c9853ba9a726dcfb83053158812fa2c6f08b158e8d9fd1373a90ef",
+    "captionZh": "MIP官方网页问数演示，示例数据与状态不等于真实客户部署。",
+    "captionEn": "MIP official website demonstration; illustrative data and states, not a customer deployment."
+  },
+  {
+    "product": "coralboard",
+    "path": "assets/coralboard-product.jpg",
+    "sourcePage": "https://developer.synaptics.com/docs/developer-kits/coralboard",
+    "originalUrl": "https://developer.synaptics.com/coral/Coralboard-sl-box-dev-board.png",
+    "acquiredAt": "2026-10-20T14:28:07.413Z",
+    "sha256": "88583853a81c15d74149140c70bb0d309d9083c087ee95025127130dbadcf179",
+    "captionZh": "Synaptics官方SL板卡与包装产品图；未在本次运行硬件。",
+    "captionEn": "Synaptics official SL board and packaging product image; hardware was not run for this edition."
+  },
+  {
+    "product": "litert-tensor",
+    "path": "assets/litert-demo.jpg",
+    "sourcePage": "https://developers.googleblog.com/native-model-authoring-for-edge-with-litert-tensor-api/",
+    "originalUrl": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/original_videos/wagtailvideo-67risga1_thumb.jpg",
+    "acquiredAt": "2026-10-20T14:21:52.075Z",
+    "sha256": "65f89f7ba4a823cc9f9f7b98617b5651706af7ffb6f0fb38ecb422bda840e280",
+    "captionZh": "Google官方Tensor API视频演示帧；本次另行访问在线演示曾初始化失败。",
+    "captionEn": "Google official Tensor API demo frame; a separate access attempt failed to initialize the live demo."
+  },
+  {
+    "product": "hermes-friction",
+    "path": "assets/hermes-real.jpg",
+    "sourcePage": "https://hermes-agent.nousresearch.com/docs/zh-Hans/plugins/session-flow",
+    "originalUrl": "https://raw.githubusercontent.com/agantila/session-flow/359f9afecb5872fe0864eec79867a4dfa4d88d33/docs/marketing/heroes/sf-hero-a9-sidebar-kanban-files-16x9.jpg",
+    "acquiredAt": "2026-10-20",
+    "sha256": "84149996f4da7fe4933e2b79235f54cea62d28b6dda15c20fb2375e39cb4bf73",
+    "captionZh": "AGANTILA / Deniz Yilmaz真实Linux会话截图；并非报道中的Windows故障现场。",
+    "captionEn": "Real Linux-session screenshot by AGANTILA / Deniz Yilmaz; not the reported Windows failure."
+  },
+  {
+    "product": "visagent",
+    "path": "assets/visagent-workflow.jpg",
+    "sourcePage": "https://arxiv.org/html/2610.26168v1",
+    "originalUrl": "https://arxiv.org/html/2610.26168v1/figures/visagent-workflow-hd.png",
+    "acquiredAt": "2026-10-20T14:21:44.576Z",
+    "sha256": "733d7c115ed022d2fbcceffbc894631cf4ea00204c3a7594e5397ffe6b6df479",
+    "captionZh": "VISAGENT原论文完整流程图的缩放截图，研究原型而非商用品界面。",
+    "captionEn": "Scaled capture of the complete original VISAGENT workflow figure: research, not a commercial UI."
+  }
+]
