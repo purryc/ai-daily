@@ -441,8 +441,8 @@
   },
   {
     "path": "2026-10-20/assets/issue.css",
-    "bytes": 3692,
-    "sha256": "b3072c250a92dc9c5d0b1341b4c0b41908ffc47a587ea7a6d856c88c3d0769e4"
+    "bytes": 3802,
+    "sha256": "ecf502bdcd0a7579d9fa8a2fe518e87be81c9c15d639b4a51da867fd3f312c91"
   },
   {
     "path": "2026-10-20/assets/litert-demo.jpg",
@@ -466,23 +466,23 @@
   },
   {
     "path": "2026-10-20/en/index.html",
-    "bytes": 69383,
-    "sha256": "f5a9338fc1cfb6a42323b7c30f10c90f39ec3b88769feddc3e94c43a0f29274c"
+    "bytes": 70302,
+    "sha256": "7e10a10f50da73af94920e1a6f2202f77aedccb0c62f2a0d804cdab803e25959"
   },
   {
     "path": "2026-10-20/manifest.json",
-    "bytes": 18097,
-    "sha256": "21ff3e4a5db94787af5f1f03ae23d8f5f01e8dfdbfa94bfe4731b94ba231a192"
+    "bytes": 18326,
+    "sha256": "1a7e5c77066826a902174f77360f3b6e6cd85df7908af9529ab90ee5c6e2f0a9"
   },
   {
     "path": "2026-10-20/sources.html",
-    "bytes": 23492,
-    "sha256": "fda1f91e772c05ad53b6693dc5ee70e02d9a4081e5e6835941f453de38ba65a6"
+    "bytes": 23816,
+    "sha256": "ae15dd750b90ec0de4af1b3c9c0c45c2b798e786a7f08eb8ef4883aaef9c1f7b"
   },
   {
     "path": "2026-10-20/sources.json",
-    "bytes": 5499,
-    "sha256": "5c5a360f0cb43dded6fade65ccdba83162db9414e310182148cae0930db5bbdc"
+    "bytes": 7639,
+    "sha256": "6309b1c8d95668787f79839529cdbd3595d3ce9a010d55faf2cc2acdac480395"
   },
   {
     "path": "2026-10-20/visuals.json",
@@ -491,8 +491,8 @@
   },
   {
     "path": "2026-10-20/zh/index.html",
-    "bytes": 58147,
-    "sha256": "80eb53b2ed74b81074f364a874a23eccb962431dacbd8bc11f7ae3b900bf7fdc"
+    "bytes": 59025,
+    "sha256": "4eb657babb9288db4456dc720c1369f3704f35803937365492260d4f7f372442"
   },
   {
     "path": "assets/acti-agentic-keyboard-2026-07-03.svg",

@@ -123,7 +123,7 @@ finally{
  console.log('QA_REPORT '+JSON.stringify(report));
  if(!process.argv.includes('--static-only')){
   // Bounded public screenshots for visual review; all pages remain in the artifact.
-  const selected=report.screenshots.filter(x=>/-(?:event-3-a|event-5-b|evidence-1|overview-home)\.jpg$/.test(x));
+  const selected=report.screenshots.filter(x=>report.locale==='en'?/-(?:event-4-d|event-5-c|event-5-d|overview-home)\.jpg$/.test(x):/-(?:event-3-a|event-5-b|evidence-1|overview-home)\.jpg$/.test(x));
   for(const name of selected){const data=(await fs.readFile(path.join(out,name))).toString('base64');const n=Math.ceil(data.length/4096);for(let i=0;i<n;i++)console.log(`QA_IMAGE ${name} ${i}/${n} ${data.slice(i*4096,(i+1)*4096)}`);}
  }
  if(report.status!=='passed')process.exitCode=1;

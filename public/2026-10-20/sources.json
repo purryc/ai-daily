@@ -5,7 +5,9 @@
     "title": "SpeakON Agent announcement",
     "publishedAt": "2026-10-20T12:00:00Z",
     "originGroup": "speakon",
-    "number": 1
+    "number": 1,
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; acquired after the fixed event cutoff"
   },
   {
     "id": "speak-home",
@@ -13,7 +15,9 @@
     "title": "SpeakON official product and pricing",
     "publishedAt": null,
     "originGroup": "speakon",
-    "number": 2
+    "number": 2,
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; acquired after the fixed event cutoff"
   },
   {
     "id": "speak-app",
@@ -21,7 +25,9 @@
     "title": "SpeakON App Store description and version history",
     "publishedAt": null,
     "originGroup": "speakon",
-    "number": 3
+    "number": 3,
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; acquired after the fixed event cutoff"
   },
   {
     "id": "speak-controls",
@@ -29,7 +35,9 @@
     "title": "SpeakON Data Controls",
     "publishedAt": "2026-08-30",
     "originGroup": "speakon",
-    "number": 4
+    "number": 4,
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; acquired after the fixed event cutoff"
   },
   {
     "id": "M1",
@@ -38,7 +46,9 @@
     "publishedAt": "2026-10-15",
     "updatedAt": "2026-10-20",
     "evidence": "Official; planned event 2026-10-20 14:00–15:50 China local time; timezone inferred from Chinese event, not printed in textual extract",
-    "number": 5
+    "number": 5,
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; acquired after the fixed event cutoff"
   },
   {
     "id": "M2",
@@ -46,7 +56,9 @@
     "title": "MIP official product and interactive demonstration",
     "publishedAt": null,
     "evidence": "Official product description; demonstration data are illustrative, not measured results",
-    "number": 6
+    "number": 6,
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; acquired after the fixed event cutoff"
   },
   {
     "id": "M3",
@@ -55,7 +67,9 @@
     "publishedAt": "2026-10-09",
     "updatedAt": "2026-10-16",
     "evidence": "Background architecture, not new 10/20 event",
-    "number": 7
+    "number": 7,
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; acquired after the fixed event cutoff"
   },
   {
     "id": "M4",
@@ -64,7 +78,9 @@
     "publishedAt": "2026-10-10",
     "updatedAt": "2026-10-20",
     "evidence": "Background technical explanation; updated date alone is not an event",
-    "number": 8
+    "number": 8,
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; acquired after the fixed event cutoff"
   },
   {
     "key": "C1",
@@ -72,7 +88,9 @@
     "title": "Synaptics and Google Research Expand the Coralboard Ecosystem",
     "publishedAt": "2026-10-20",
     "evidence": "Vendor launch release",
-    "number": 9
+    "number": 9,
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; acquired after the fixed event cutoff"
   },
   {
     "key": "C3",
@@ -80,7 +98,9 @@
     "title": "Bring Your Own Model",
     "publishedAt": null,
     "evidence": "Official operational documentation, observed Oct 20",
-    "number": 10
+    "number": 10,
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; acquired after the fixed event cutoff"
   },
   {
     "key": "C4",
@@ -88,7 +108,9 @@
     "title": "Coralboard SL vs Raspberry Pi 5",
     "publishedAt": "2026-10-15",
     "evidence": "Vendor comparison used as background, not a new event",
-    "number": 11
+    "number": 11,
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; acquired after the fixed event cutoff"
   },
   {
     "key": "L1",
@@ -96,7 +118,9 @@
     "title": "Native Model Authoring for Edge with LiteRT Tensor API",
     "publishedAt": "2026-10-19",
     "evidence": "Official Google technical launch",
-    "number": 12
+    "number": 12,
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; acquired after the fixed event cutoff"
   },
   {
     "key": "L2",
@@ -104,7 +128,9 @@
     "title": "LiteRT Tensor API README",
     "publishedAt": null,
     "evidence": "Official evolving documentation; last shown commit Oct 14",
-    "number": 13
+    "number": 13,
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; acquired after the fixed event cutoff"
   },
   {
     "id": "H1",
@@ -112,7 +138,9 @@
     "url": "https://github.com/NousResearch/hermes-agent/issues/141485",
     "publishedAt": "2026-10-19T10:01:40Z",
     "type": "community-friction",
-    "number": 14
+    "number": 14,
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; acquired after the fixed event cutoff"
   },
   {
     "id": "H2",
@@ -120,7 +148,9 @@
     "url": "https://github.com/NousResearch/hermes-agent/blob/main/apps/desktop/README.md",
     "publishedAt": null,
     "type": "official-documentation",
-    "number": 15
+    "number": 15,
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; acquired after the fixed event cutoff"
   },
   {
     "id": "H3",
@@ -128,7 +158,9 @@
     "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.2",
     "publishedAt": "2026-10-15T08:21:32Z",
     "type": "official-release",
-    "number": 16
+    "number": 16,
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; acquired after the fixed event cutoff"
   },
   {
     "id": "V1",
@@ -136,7 +168,9 @@
     "title": "VISAGENT arXiv abstract and version history",
     "publishedAt": "2026-10-19T10:59:45Z",
     "evidence": "Research preprint v1; near-three-day supplemental observation",
-    "number": 17
+    "number": 17,
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; acquired after the fixed event cutoff"
   },
   {
     "id": "V2",
@@ -144,7 +178,9 @@
     "title": "VISAGENT full paper",
     "publishedAt": "2026-10-19T10:59:45Z",
     "evidence": "Author-reported system and evaluations; no independent replication",
-    "number": 18
+    "number": 18,
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; acquired after the fixed event cutoff"
   },
   {
     "id": "M5",
@@ -152,12 +188,16 @@
     "title": "镜舟科技发布 MIP 企业级 AI 数据平台",
     "publishedAt": "2026-10-20T17:13:14+08:00",
     "evidence": "Syndicated company announcement; not independent review",
-    "number": 19
+    "number": 19,
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; acquired after the fixed event cutoff"
   },
   {
     "url": "https://patents.google.com/patent/WO2025221751A1/en",
     "title": "WO2025221751A1 · publication and priority metadata",
     "publishedAt": "2025-10-23",
-    "number": 20
+    "number": 20,
+    "collectedOn": "2026-10-20",
+    "collectionPrecision": "date; acquired after the fixed event cutoff"
   }
 ]

@@ -14,7 +14,7 @@
     "products": 6,
     "references": 20,
     "coreVisuals": 6,
-    "slidesPerLocale": 29,
+    "slidesPerLocale": 30,
     "perProduct": {
       "speakon": {
         "zhDenseChars": 1682,
@@ -148,5 +148,11 @@
       "zh": "地域比较围绕同任务的真实采用差异：SpeakON公告明确美国可用，不能扩大为加拿大已交付；MIP的中国发布不自动证明全球商业条款；Coralboard SL经DigiKey销售与SR新品亮相分开记。ManageEngine中国消息与更早全球Zia发布交叉检查，发现全球能力在5月已有公告，不能再次算10月20日全球首发。同样，LiteRT接口跨语言描述不证明所有平台、后端与硬件均已验证，正文保留博客与README状态差别。本线是地域标签校验，不给同一厂商材料再增加独立来源票数。未做各国商店、采购与真实账户测试；下一步以目标国家的可购买页、授权文件与版本支持矩阵复核，缺失的地区、费用和放量范围继续标未知。",
       "en": "Regional comparison focused on adoption boundaries for the same task. SpeakON's announcement states US availability; that does not establish delivery in Canada. MIP's China launch does not prove worldwide commercial terms. Coralboard SL purchasing through DigiKey is recorded separately from the introduction of SR. Comparing the ManageEngine China lead with earlier global Zia coverage showed that the global capabilities had already been announced in May, so the October item cannot be counted again as a worldwide first. Likewise, LiteRT's cross-language interface descriptions do not establish validation on every platform, backend and device; the dossier preserves differences between the launch post and repository status. This lane checks region labels rather than awarding a second independent-source vote to the same company. Country-by-country store, procurement and account tests were not performed. Follow-up should use the target country's purchase entry, entitlements and version-support matrix, retaining unknowns for price, rollout and regional access."
     }
-  ]
+  ],
+  "collection": {
+    "date": "2026-10-20",
+    "precision": "day",
+    "afterEventCutoff": true,
+    "note": "Dynamic documentation describes the collected state. Visual timestamps are recorded separately in visuals.json."
+  }
 }
