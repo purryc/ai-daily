@@ -1,0 +1,163 @@
+[
+  {
+    "id": "speak-launch",
+    "url": "https://www.globenewswire.com/news-release/2026/10/20/3384307/0/en/from-voice-to-action-speakon-introduces-speakon-agent-turning-spoken-intent-into-structured-work.html",
+    "title": "SpeakON Agent announcement",
+    "publishedAt": "2026-10-20T12:00:00Z",
+    "originGroup": "speakon",
+    "number": 1
+  },
+  {
+    "id": "speak-home",
+    "url": "https://www.speakon.app/",
+    "title": "SpeakON official product and pricing",
+    "publishedAt": null,
+    "originGroup": "speakon",
+    "number": 2
+  },
+  {
+    "id": "speak-app",
+    "url": "https://apps.apple.com/us/app/speakon-ai-voice-keyboard/id6757388240",
+    "title": "SpeakON App Store description and version history",
+    "publishedAt": null,
+    "originGroup": "speakon",
+    "number": 3
+  },
+  {
+    "id": "speak-controls",
+    "url": "https://www.speakon.app/pages/data-controls",
+    "title": "SpeakON Data Controls",
+    "publishedAt": "2026-08-30",
+    "originGroup": "speakon",
+    "number": 4
+  },
+  {
+    "id": "M1",
+    "url": "https://www.mirrorship.ai/zh/blog/mip-launch-speakers-agenda",
+    "title": "MIP 发布会议程",
+    "publishedAt": "2026-10-15",
+    "updatedAt": "2026-10-20",
+    "evidence": "Official; planned event 2026-10-20 14:00–15:50 China local time; timezone inferred from Chinese event, not printed in textual extract",
+    "number": 5
+  },
+  {
+    "id": "M2",
+    "url": "https://www.mirrorship.ai/zh/product",
+    "title": "MIP official product and interactive demonstration",
+    "publishedAt": null,
+    "evidence": "Official product description; demonstration data are illustrative, not measured results",
+    "number": 6
+  },
+  {
+    "id": "M3",
+    "url": "https://www.mirrorship.ai/zh/blog/mip-enterprise-ai-context",
+    "title": "从数据到 Context",
+    "publishedAt": "2026-10-09",
+    "updatedAt": "2026-10-16",
+    "evidence": "Background architecture, not new 10/20 event",
+    "number": 7
+  },
+  {
+    "id": "M4",
+    "url": "https://www.mirrorship.ai/zh/blog/semantic-view-in-mip-part-3-managing-semantic-definitions-beyond-sql",
+    "title": "Semantic View 技术解析（三）",
+    "publishedAt": "2026-10-10",
+    "updatedAt": "2026-10-20",
+    "evidence": "Background technical explanation; updated date alone is not an event",
+    "number": 8
+  },
+  {
+    "key": "C1",
+    "url": "https://www.synaptics.com/company/news/synaptics-and-google-research-expand-the-coralboard-ecosystem",
+    "title": "Synaptics and Google Research Expand the Coralboard Ecosystem",
+    "publishedAt": "2026-10-20",
+    "evidence": "Vendor launch release",
+    "number": 9
+  },
+  {
+    "key": "C3",
+    "url": "https://developer.synaptics.com/docs/tutorials/sl/sl2600/advanced/bring-your-own-model",
+    "title": "Bring Your Own Model",
+    "publishedAt": null,
+    "evidence": "Official operational documentation, observed Oct 20",
+    "number": 10
+  },
+  {
+    "key": "C4",
+    "url": "https://developer.synaptics.com/blog/coralboard-vs-raspberry-pi-5",
+    "title": "Coralboard SL vs Raspberry Pi 5",
+    "publishedAt": "2026-10-15",
+    "evidence": "Vendor comparison used as background, not a new event",
+    "number": 11
+  },
+  {
+    "key": "L1",
+    "url": "https://developers.googleblog.com/native-model-authoring-for-edge-with-litert-tensor-api/",
+    "title": "Native Model Authoring for Edge with LiteRT Tensor API",
+    "publishedAt": "2026-10-19",
+    "evidence": "Official Google technical launch",
+    "number": 12
+  },
+  {
+    "key": "L2",
+    "url": "https://github.com/google-ai-edge/LiteRT/blob/main/tensor/README.md",
+    "title": "LiteRT Tensor API README",
+    "publishedAt": null,
+    "evidence": "Official evolving documentation; last shown commit Oct 14",
+    "number": 13
+  },
+  {
+    "id": "H1",
+    "label": "Hermes Windows tool-running freeze report #141485",
+    "url": "https://github.com/NousResearch/hermes-agent/issues/141485",
+    "publishedAt": "2026-10-19T10:01:40Z",
+    "type": "community-friction",
+    "number": 14
+  },
+  {
+    "id": "H2",
+    "label": "Official Hermes Desktop README",
+    "url": "https://github.com/NousResearch/hermes-agent/blob/main/apps/desktop/README.md",
+    "publishedAt": null,
+    "type": "official-documentation",
+    "number": 15
+  },
+  {
+    "id": "H3",
+    "label": "Hermes Agent v0.22.2 release",
+    "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.2",
+    "publishedAt": "2026-10-15T08:21:32Z",
+    "type": "official-release",
+    "number": 16
+  },
+  {
+    "id": "V1",
+    "url": "https://arxiv.org/abs/2610.26168",
+    "title": "VISAGENT arXiv abstract and version history",
+    "publishedAt": "2026-10-19T10:59:45Z",
+    "evidence": "Research preprint v1; near-three-day supplemental observation",
+    "number": 17
+  },
+  {
+    "id": "V2",
+    "url": "https://arxiv.org/html/2610.26168v1",
+    "title": "VISAGENT full paper",
+    "publishedAt": "2026-10-19T10:59:45Z",
+    "evidence": "Author-reported system and evaluations; no independent replication",
+    "number": 18
+  },
+  {
+    "id": "M5",
+    "url": "https://tech.ifeng.com/c/8xNbrzU7ZOy",
+    "title": "镜舟科技发布 MIP 企业级 AI 数据平台",
+    "publishedAt": "2026-10-20T17:13:14+08:00",
+    "evidence": "Syndicated company announcement; not independent review",
+    "number": 19
+  },
+  {
+    "url": "https://patents.google.com/patent/WO2025221751A1/en",
+    "title": "WO2025221751A1 · publication and priority metadata",
+    "publishedAt": "2025-10-23",
+    "number": 20
+  }
+]

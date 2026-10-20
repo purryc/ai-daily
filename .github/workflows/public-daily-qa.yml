@@ -38,11 +38,14 @@ jobs:
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y --no-install-recommends fonts-noto-cjk
-      - name: Acquire public official evidence
-        run: node qa/acquire.mjs
-      - name: Preserve public evidence
+      - name: Validate content, density, image hashes and bilingual structure
+        run: npm run check:static
+      - name: Check every page in a sandboxed real browser
+        run: npm run check:browser
+      - name: Preserve public browser evidence
+        if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
-          name: official-evidence-${{ matrix.evidence }}
-          path: ${{ runner.temp }}/daily-acquisition/
+          name: daily-browser-${{ matrix.evidence }}
+          path: ${{ runner.temp }}/daily-qa-${{ matrix.evidence }}/
           retention-days: 3

@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-10-20",
+    "zhTitle": "AI Daily｜2026年10月20日 · 从语音意图到可检查的执行",
+    "enTitle": "AI Daily | October 20, 2026 · From spoken intent to inspectable execution",
+    "zhSummary": "SpeakON、镜舟 MIP、Coralboard、LiteRT、Hermes 与 VISAGENT。两项当日产品发布、一项公告复核、三项近三日补充；用真实图证细看操作、状态、失败与采用门槛。",
+    "enSummary": "SpeakON, MirrorShip MIP, Coralboard, LiteRT, Hermes and VISAGENT. Two same-day product announcements, one announcement review and three three-day supplements, with real visuals and detailed workflows, failure states and adoption boundaries.",
+    "tags": [
+      "voice workflows",
+      "edge AI",
+      "agent control",
+      "research"
+    ],
+    "sourceTypes": [
+      "official",
+      "community",
+      "research"
+    ],
+    "coverStory": {
+      "topicId": "speakon-2026-10-20",
+      "zhTitle": "SpeakON Agent",
+      "enTitle": "SpeakON Agent",
+      "imagePath": "assets/speakon-agent.webp",
+      "imageSourceUrl": "https://www.speakon.app/",
+      "primarySourceUrl": "https://www.speakon.app/",
+      "evidenceStrength": "official claim; not hands-on"
+    },
+    "zhPath": "./2026-10-20/zh/",
+    "enPath": "./2026-10-20/en/",
+    "sourcesPath": "./2026-10-20/sources.html"
+  },
+  {
     "date": "2026-10-19",
     "zhTitle": "AI Daily｜2026年10月19日 · 从电话销售到本地 AI 工作流",
     "enTitle": "AI Daily | October 19, 2026 · From phone sales to local AI workflows",

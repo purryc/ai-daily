@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" fill="#f8fafc"/>
+  <rect x="44" y="42" width="1112" height="676" rx="28" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="82" y="104" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="800" fill="#0f172a">Wearable agent research and patent watch</text>
+  <text x="84" y="148" font-family="Inter, Arial, sans-serif" font-size="20" fill="#475569">research · patent · weak/unverified</text>
+  <g transform="translate(84 194)">
+    <g transform="translate(0 0)">
+          <rect x="0" y="0" width="1030" height="66" rx="18" fill="#f8fafc" stroke="#e2e8f0"/>
+          <circle cx="36" cy="33" r="14" fill="#0f766e"/>
+          <text x="72" y="27" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#111827">VisionClaw research</text>
+          <text x="72" y="52" font-family="Inter, Arial, sans-serif" font-size="17" fill="#475569">Always-on egocentric perception plus speech-driven agent delegation.</text>
+        </g><g transform="translate(0 90)">
+          <rect x="0" y="0" width="1030" height="66" rx="18" fill="#f8fafc" stroke="#e2e8f0"/>
+          <circle cx="36" cy="33" r="14" fill="#1d4ed8"/>
+          <text x="72" y="27" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#111827">Smart-glasses patents</text>
+          <text x="72" y="52" font-family="Inter, Arial, sans-serif" font-size="17" fill="#475569">IP filings show medical, display and assistant directions, not shipping facts.</text>
+        </g><g transform="translate(0 180)">
+          <rect x="0" y="0" width="1030" height="66" rx="18" fill="#f8fafc" stroke="#e2e8f0"/>
+          <circle cx="36" cy="33" r="14" fill="#7c3aed"/>
+          <text x="72" y="27" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#111827">HCI question</text>
+          <text x="72" y="52" font-family="Inter, Arial, sans-serif" font-size="17" fill="#475569">When the camera watches continuously, feedback and bystander consent become UI.</text>
+        </g><g transform="translate(0 270)">
+          <rect x="0" y="0" width="1030" height="66" rx="18" fill="#f8fafc" stroke="#e2e8f0"/>
+          <circle cx="36" cy="33" r="14" fill="#be123c"/>
+          <text x="72" y="27" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#111827">Downgrade</text>
+          <text x="72" y="52" font-family="Inter, Arial, sans-serif" font-size="17" fill="#475569">Use as watch item only until a product team ships and documents behavior.</text>
+        </g>
+  </g>
+  <text x="84" y="690" font-family="Inter, Arial, sans-serif" font-size="16" fill="#64748b">AI Daily evidence diagram · product facts require cited source support · speculative lanes are downgraded</text>
+</svg>

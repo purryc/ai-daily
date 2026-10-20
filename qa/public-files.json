@@ -1,8 +1,423 @@
 [
   {
-    "path": "2026-10-19/assets/deepseek.webp",
-    "bytes": 14456,
-    "sha256": "6315d5f8f33e93eb02719f32c2b6609b9b484763c5c30f281763b25c16a7b2b4"
+    "path": "2026-06-16/assets/googlebook-hero.png",
+    "bytes": 246641,
+    "sha256": "e142d857bb40da3512c5977a4262d52b0f984cfa339d1d18148b2c6de2435f2a"
+  },
+  {
+    "path": "2026-06-17/assets/googlebook-hero.png",
+    "bytes": 246641,
+    "sha256": "e142d857bb40da3512c5977a4262d52b0f984cfa339d1d18148b2c6de2435f2a"
+  },
+  {
+    "path": "2026-06-19/assets/snap-specs-ar.svg",
+    "bytes": 1904,
+    "sha256": "d9b371a70508c2fbbe0cb6f8edc75e596020a6f3229bde7dd195de2f3fc348b6"
+  },
+  {
+    "path": "2026-06-20/assets/snap-specs-ar.svg",
+    "bytes": 1904,
+    "sha256": "d9b371a70508c2fbbe0cb6f8edc75e596020a6f3229bde7dd195de2f3fc348b6"
+  },
+  {
+    "path": "2026-06-21/assets/snap-specs-ar.svg",
+    "bytes": 1904,
+    "sha256": "d9b371a70508c2fbbe0cb6f8edc75e596020a6f3229bde7dd195de2f3fc348b6"
+  },
+  {
+    "path": "2026-06-22/assets/snap-specs-consumer-ar.svg",
+    "bytes": 3167,
+    "sha256": "91ade8b1b5d57d8fd95060804b31f34b9fd79170a2a8495dfbe1a3ded801db89"
+  },
+  {
+    "path": "2026-06-23/assets/snap-specs-near-eye-os.svg",
+    "bytes": 1871,
+    "sha256": "e440cbcfb446914df6d328c87d8badde18342ada50fad0012defdefca0887e56"
+  },
+  {
+    "path": "2026-06-25/assets/meta-glasses-real.png",
+    "bytes": 674939,
+    "sha256": "68c0f5133f018162663aed8e619d98cf6019ebbffb3957e8eb983f6755c0b321"
+  },
+  {
+    "path": "2026-06-26/assets/pixel-drop-gemini-creator-flow.svg",
+    "bytes": 3145,
+    "sha256": "6f132eecf6416543cd07129393e90f97b4139c14eca6ba05d058e03c9d20ab4c"
+  },
+  {
+    "path": "2026-06-27/assets/pixel-drop-gemini-creator-flow.svg",
+    "bytes": 3145,
+    "sha256": "b487ba0019145f2733d51804ea386823d40efa13130f08acee0cb0bf29e9fc72"
+  },
+  {
+    "path": "2026-06-28/assets/pixel-drop-gemini-creator-flow.svg",
+    "bytes": 3145,
+    "sha256": "448d5fd00526626de5e0df196af994855872f600228b58d0dc32c1310ea91365"
+  },
+  {
+    "path": "2026-06-29/assets/pixel-drop-gemini-creator-flow.svg",
+    "bytes": 3145,
+    "sha256": "8a826508c42400f78a1aac3f78da392e4d51b3769f18eb81b5385bac65d597ed"
+  },
+  {
+    "path": "2026-06-30/assets/pixel-drop-gemini-creator-flow.svg",
+    "bytes": 3145,
+    "sha256": "8a826508c42400f78a1aac3f78da392e4d51b3769f18eb81b5385bac65d597ed"
+  },
+  {
+    "path": "2026-07-01/assets/google-gemini-spark-mac.svg",
+    "bytes": 2546,
+    "sha256": "01a396a191ced4cb380ead26e70a6cf728c83bd99a047bd68e5af962ff4abdb0"
+  },
+  {
+    "path": "2026-07-02/assets/meta-one-conversation-focus.svg",
+    "bytes": 1687,
+    "sha256": "32be930cf3d49359ef7ddbbb2b9b99051f623626dc3bdc202964e03b463be93c"
+  },
+  {
+    "path": "2026-07-03/assets/cloudflare-agent-crawler-controls-2026-07-03.svg",
+    "bytes": 2863,
+    "sha256": "7d2897553eb3e367c6ea95de1e30b9fa9d636908b482a9991cbfe0f31d23f725"
+  },
+  {
+    "path": "2026-07-04/assets/claude-science-workbench-2026-07-04.svg",
+    "bytes": 2855,
+    "sha256": "7c0ec47830797ca010f94c6b982c33e1f9f5c8ab2f1d5161e1b89b8252a1232c"
+  },
+  {
+    "path": "2026-07-05/assets/cloudflare-agent-crawler-controls-2026-07-05.svg",
+    "bytes": 2863,
+    "sha256": "7d2897553eb3e367c6ea95de1e30b9fa9d636908b482a9991cbfe0f31d23f725"
+  },
+  {
+    "path": "2026-07-06/assets/cloudflare-agent-crawler-controls-2026-07-06.svg",
+    "bytes": 2863,
+    "sha256": "7d2897553eb3e367c6ea95de1e30b9fa9d636908b482a9991cbfe0f31d23f725"
+  },
+  {
+    "path": "2026-07-07/assets/solos-airgo-a6-source-2026-07-07.png",
+    "bytes": 183424,
+    "sha256": "bc149cd79f182f6bd652634fa6f0e0ea0bcf9086afcd8830aa9f7e3d6b69141a"
+  },
+  {
+    "path": "2026-07-10/assets/openai-gpt-live-source-2026-07-10.png",
+    "bytes": 13515,
+    "sha256": "1b6ba35a4806e7fb3da76cfb526227352231dfe90e5b501186ebc34389015173"
+  },
+  {
+    "path": "2026-07-11/assets/gemini-spark-mac-source-2026-07-01.jpg",
+    "bytes": 89129,
+    "sha256": "bfa7bf00af3aa8a70be2ce85fa44a09583a72c160c23c8bce9ec7d047b564edc"
+  },
+  {
+    "path": "2026-07-12/assets/openai-gpt-live-source-2026-07-10.png",
+    "bytes": 13515,
+    "sha256": "1b6ba35a4806e7fb3da76cfb526227352231dfe90e5b501186ebc34389015173"
+  },
+  {
+    "path": "2026-07-13/assets/snap-specs-source-2026-06.jpg",
+    "bytes": 1215671,
+    "sha256": "c8241b97fd6b6f4df62e6e468ee775be2f3cf94526c2aa6f02daa15cc807a21b"
+  },
+  {
+    "path": "2026-07-14/assets/meta-ai-glasses-privacy-source-2026-07.png",
+    "bytes": 814244,
+    "sha256": "e4c67a28df6bf736da0ea2371dfc067e5a81b8949eef06b2f41b3f13d155241a"
+  },
+  {
+    "path": "2026-07-15/assets/android-xr-intelligent-eyewear-source-2026-05.png",
+    "bytes": 378122,
+    "sha256": "37c3add58d3a8598fd0fa5a8965ae28ab7b12146dbf875bf08af450bca7a28c0"
+  },
+  {
+    "path": "2026-07-16/assets/rayneo-x3-pro-review-source-2026-07.png",
+    "bytes": 296404,
+    "sha256": "62f451b342404668ac1fae17143932316f91d529da26f605a701ec3420b75ed6"
+  },
+  {
+    "path": "2026-07-20/assets/meta-ai-glasses-privacy-source-2026-07.png",
+    "bytes": 814244,
+    "sha256": "e4c67a28df6bf736da0ea2371dfc067e5a81b8949eef06b2f41b3f13d155241a"
+  },
+  {
+    "path": "2026-07-21/assets/moonix-official-source-2026-07.png",
+    "bytes": 63739,
+    "sha256": "1de9e0e0ac386c4949116166180ef8755b2b4b2d486249ef09269b4b4a6571f3"
+  },
+  {
+    "path": "2026-07-23/assets/samsung-intelligent-eyewear-official-2026-07.jpg",
+    "bytes": 32401,
+    "sha256": "eebbd9d74f4e461db144b812a351aec5120d2793a273ce60b44f46a85dbd3b29"
+  },
+  {
+    "path": "2026-07-24/assets/codex-micro-openai-official-2026-07.png",
+    "bytes": 167875,
+    "sha256": "282d09d8b82e57e1db65cd650c32aec89b8b9e1bb04f0c1c5215a1d8d5a5c36c"
+  },
+  {
+    "path": "2026-08-05/assets/xreal-aura-official-2026-08.png",
+    "bytes": 628027,
+    "sha256": "564a8aa10b74bed953d76338c600fb715d805bd77724043e8d105f25410a27b9"
+  },
+  {
+    "path": "2026-08-06/assets/samsung-intelligent-eyewear-official-2026-07.jpg",
+    "bytes": 32401,
+    "sha256": "eebbd9d74f4e461db144b812a351aec5120d2793a273ce60b44f46a85dbd3b29"
+  },
+  {
+    "path": "2026-08-07/assets/android-xr-developer-preview-4-source-2026-06.png",
+    "bytes": 271878,
+    "sha256": "c55b522b0d3fde0a0b88fd615e46eb678efff80931027374be9493c00ff7e0d8"
+  },
+  {
+    "path": "2026-08-09/assets/samsung-intelligent-eyewear-official-2026-07.jpg",
+    "bytes": 32401,
+    "sha256": "eebbd9d74f4e461db144b812a351aec5120d2793a273ce60b44f46a85dbd3b29"
+  },
+  {
+    "path": "2026-08-10/assets/insta360-go-ultra-ai-assistant-2026-08.png",
+    "bytes": 243293,
+    "sha256": "2c6381472b8ff933eb5dce4a72f3504aed968545c8ea4fba8e74f8747e42ccf1"
+  },
+  {
+    "path": "2026-08-12/assets/gobirding-vision-master-review-2026-08.jpg",
+    "bytes": 6190583,
+    "sha256": "5808d1f65e87a09519440e0220951709b197f9bfb872026d6ca29cbd5d2f3641"
+  },
+  {
+    "path": "2026-08-13/assets/google-pixel-11-official-2026-08.png",
+    "bytes": 864646,
+    "sha256": "79880af7a11e80d9cb827ac0538a650b6a0b623a9baa693e5fe8d1be2e701095"
+  },
+  {
+    "path": "2026-08-18/assets/insta360-go-ultra-ai-assistant-2026-08.png",
+    "bytes": 243293,
+    "sha256": "2c6381472b8ff933eb5dce4a72f3504aed968545c8ea4fba8e74f8747e42ccf1"
+  },
+  {
+    "path": "2026-08-19/assets/insta360-go-ultra-ai-assistant-2026-08.png",
+    "bytes": 243293,
+    "sha256": "2c6381472b8ff933eb5dce4a72f3504aed968545c8ea4fba8e74f8747e42ccf1"
+  },
+  {
+    "path": "2026-08-20/assets/razer-project-motoko-official-2026-08.png",
+    "bytes": 369054,
+    "sha256": "0a3c594a588f5950aa1fb3888cea58380044688d16f9414acd6aea2a1ed374bf"
+  },
+  {
+    "path": "2026-08-21/assets/honor-robot-phone-official-2026-08.png",
+    "bytes": 540608,
+    "sha256": "9f3ffa77c320b5c1aa2e817190c61d9e4bf0ae91798e683986d18f2ce67582ce"
+  },
+  {
+    "path": "2026-08-23/assets/rayneo-io-official-2026-08.png",
+    "bytes": 484105,
+    "sha256": "e0d799f2b37b97143b08f8fb70fe8e789ba460f7a1ac70d12bad9b476815002c"
+  },
+  {
+    "path": "2026-08-24/assets/intel-agentic-ai-hot-chips-2026-08.png",
+    "bytes": 478623,
+    "sha256": "4a87919f4aaa935f440b3826bfa171891e7c5548ca388a5a64bfc61d821008ed"
+  },
+  {
+    "path": "2026-08-25/assets/snap-specs-source-2026-06.jpg",
+    "bytes": 1215671,
+    "sha256": "c8241b97fd6b6f4df62e6e468ee775be2f3cf94526c2aa6f02daa15cc807a21b"
+  },
+  {
+    "path": "2026-08-26/assets/openai-jalapeno-techcrunch-2026-08.png",
+    "bytes": 720177,
+    "sha256": "beb4500d6b84f60b42a452d49a56d5cf323b75b853f55bd26c4617a84e59217d"
+  },
+  {
+    "path": "2026-08-27/assets/google-ddp-official-2026-08.png",
+    "bytes": 387618,
+    "sha256": "0cc252f07769c9f49b188d147b58044daf571f19d613aa2eebea1bf6cece2cae"
+  },
+  {
+    "path": "2026-08-28/assets/anthropic-model-hardware-standard-2026-08.png",
+    "bytes": 42831,
+    "sha256": "448fd9808020204ad241400a2dac161551e9305aedca5bc33d7eb7e5cda2e1a8"
+  },
+  {
+    "path": "2026-08-29/assets/meta-ai-glasses-capture-led-2026-08.png",
+    "bytes": 1373383,
+    "sha256": "dde33d62bdf4f8558add840936299f91704d3d7ef89432ce48b057547d2c0e4d"
+  },
+  {
+    "path": "2026-08-31/assets/meta-glasses-japan-official-2026-08.png",
+    "bytes": 320243,
+    "sha256": "a9e4a3df0d79b56daf765972cc3f5a0510d33cb81b14fb9a20edac28b26d6603"
+  },
+  {
+    "path": "2026-09-01/assets/memomind-one-developer-access-2026-09.jpg",
+    "bytes": 459816,
+    "sha256": "739193c8bb0664e55d61f8ca486bb3b2ea3b862d94395470d7e05aadc0b499e2"
+  },
+  {
+    "path": "2026-09-03/assets/rokid-glasses-official-2026-09.png",
+    "bytes": 237235,
+    "sha256": "2d0a539ec61b1355122dbe3ae9c5f5143349e0980589548c3f62f54106fdf826"
+  },
+  {
+    "path": "2026-09-04/assets/gosight-p1-ifa-official-2026-09.png",
+    "bytes": 110032,
+    "sha256": "367c193981b5ef3bcc4ef39954bb1c4bd011bc94bddb9e1cc4039b7e8bbaaaee"
+  },
+  {
+    "path": "2026-09-05/assets/vive-eagle-official-2026-09.png",
+    "bytes": 333106,
+    "sha256": "ad96be02e58ff924352803483dfcbd7ffd91848b93cca1d320617a298579aea6"
+  },
+  {
+    "path": "2026-09-06/assets/switchbot-ai-mindclip-official-2026-09.jpg",
+    "bytes": 133398,
+    "sha256": "e9d9940c6d9200ec25fb2894a076f02fd80d2d930de1200373e0657a987f0ae4"
+  },
+  {
+    "path": "2026-09-07/assets/violoop-cube-official-2026-09.webp",
+    "bytes": 112736,
+    "sha256": "eefe88ae379689a940c1cdbdbcd56d6f1b66b424ba3b4f44b31e6f90dd58fa63"
+  },
+  {
+    "path": "2026-09-08/assets/arm-ai-portal-mechanism-2026-09.svg",
+    "bytes": 4636,
+    "sha256": "a87f2597cbf76a1e99d8e19675d9a26ada46c70c91bcc9762074ce944bac441b"
+  },
+  {
+    "path": "2026-09-09/assets/meta-muse-official-2026-09.jpg",
+    "bytes": 65421,
+    "sha256": "ce85839735e7bfa0ef1441544d2de86ac34f8efa8c3cf1a927eb077e14fb20da"
+  },
+  {
+    "path": "2026-09-11/assets/openai-agents-api-official-2026-09.png",
+    "bytes": 133860,
+    "sha256": "62a6dd63e058a4c8dedb6bb4aa0cb57d09e6ecae6b13ba0d45a0eb395110fd9d"
+  },
+  {
+    "path": "2026-09-12/assets/meta-ai-glasses-capture-led-2026-08.png",
+    "bytes": 1373383,
+    "sha256": "dde33d62bdf4f8558add840936299f91704d3d7ef89432ce48b057547d2c0e4d"
+  },
+  {
+    "path": "2026-09-14/assets/xpeng-iron-production-line-2026-09.png",
+    "bytes": 1436687,
+    "sha256": "fec6e391d1dbbfc22f54ed2a92912b8c12c2b954729c56ac4afd0e4a9d6c5958"
+  },
+  {
+    "path": "2026-09-15/assets/claude-financial-advisors-2026-09.jpg",
+    "bytes": 45153,
+    "sha256": "6fe4716eb4a647aeff06ab0d887e405317959338834e60c68fa544a3c9e19a66"
+  },
+  {
+    "path": "2026-09-16/assets/fanuc-ai-welding-agent-2026-09.png",
+    "bytes": 161650,
+    "sha256": "4aed8a2ab8958bf72f270ab8989ba40fc98ff47daa735ecad7b0918a7cb53db7"
+  },
+  {
+    "path": "2026-09-17/assets/openai-sponsored-agents-research-2026-09.png",
+    "bytes": 192685,
+    "sha256": "e75c5f283d64da9d3305ffedddc22e0114d95537e5c53a62f1e1647959b14d75"
+  },
+  {
+    "path": "2026-09-18/assets/huawei-cloud-agentic-infra-2026-09.png",
+    "bytes": 166605,
+    "sha256": "9582b99d0ade3252acc5b8cede3a27e5a29c37e064982b1a68f44aed6ac2579d"
+  },
+  {
+    "path": "2026-09-21/assets/horizon-ultra-official-2026-09-21.png",
+    "bytes": 156620,
+    "sha256": "0903ff0e043ab88cf35ec1555fb466fedcf552c33ce724083517e3341cbcd53b"
+  },
+  {
+    "path": "2026-09-22/assets/qwen-n1-ithome-2026-09-22.png",
+    "bytes": 341092,
+    "sha256": "433f261f8da72988fe3be2c66d7092b952b86d28f5955b2602b6a8debe8c6abd"
+  },
+  {
+    "path": "2026-09-23/assets/rabbit-os3-official-2026-09-23.png",
+    "bytes": 235738,
+    "sha256": "689afe71b22c4a19688c424e691579cb48832e44ae338371144121b0e5f371c4"
+  },
+  {
+    "path": "2026-09-24/assets/meta-ray-ban-audio-official-2026-09-24.png",
+    "bytes": 548090,
+    "sha256": "8643001557187ea679ed4716cc3164611f566341eb3723e92778d00d660ea6c9"
+  },
+  {
+    "path": "2026-09-25/assets/meta-muse-charm-official-2026-09-25.png",
+    "bytes": 509710,
+    "sha256": "df519019783b04fe5e1892f74b07790e5bdd2fa7681f94ec14404f1d6cf65749"
+  },
+  {
+    "path": "2026-09-28/assets/honor-magic9-official-launch-2026-09-28.png",
+    "bytes": 492174,
+    "sha256": "48f958adedcd29c4832f332e252f79605c9e30f60e183f7746a1a00c31b2e8f1"
+  },
+  {
+    "path": "2026-09-29/assets/advantech-asr-d501-official-2026-09-29.png",
+    "bytes": 403060,
+    "sha256": "ebe02f85e52f76c29bf5e1a8b1ece00f4e1b378b2d7d55cb2b47a9815c0e8d0e"
+  },
+  {
+    "path": "2026-09-30/assets/openai-dots-devday-media-2026-09-30.png",
+    "bytes": 189579,
+    "sha256": "ef15af66e1637fc5897b7ac7ba3023db871d4924d17f9fed5b0d0c21f0d11882"
+  },
+  {
+    "path": "2026-10-01/assets/snap-specs-first-look-official-2026-10-01.png",
+    "bytes": 141772,
+    "sha256": "67194130e732f4cf7fa7f835013f4965d851541002544be709753421807578e1"
+  },
+  {
+    "path": "2026-10-04/assets/tdk-drp-visual-carwatch-2024.jpg",
+    "bytes": 95376,
+    "sha256": "0608a5863025d99347bd1f76f30512bdb06c4f775fcc8cc16686e5d5c3a41d3b"
+  },
+  {
+    "path": "2026-10-05/assets/googlebook-official-2026-09-22.png",
+    "bytes": 159942,
+    "sha256": "9332713100f3d0cd485184dedb220159f0d3341ba60101eb0a209b3010110c74"
+  },
+  {
+    "path": "2026-10-06/assets/ghost-core-front.png",
+    "bytes": 61733,
+    "sha256": "a0dee115a23311c6a8316820db177d6690f316ef1855a16017753fad478053ba"
+  },
+  {
+    "path": "2026-10-07/assets/atlassian-amp-agentic-multiplayer-2026-10-07.png",
+    "bytes": 162460,
+    "sha256": "251409ab9947ea83a131d62adcff8b25a81010e6bd051e09d68cb86ade70dac0"
+  },
+  {
+    "path": "2026-10-08/assets/google-gemini-agent-2026-10-08.png",
+    "bytes": 157306,
+    "sha256": "4828acff17291a0e100b5f41d40c3454802ca2602bd3fd5c35c5a16cc209f880"
+  },
+  {
+    "path": "2026-10-10/assets/amazon-alexa-tablets-2026-10-10.png",
+    "bytes": 4193413,
+    "sha256": "c3a695504e5d40308f2d10911c13dbb39cf152750e6f0fc3e2bfc8684d529675"
+  },
+  {
+    "path": "2026-10-11/assets/gmktec-evo-x5-pro-2026-10-11.png",
+    "bytes": 545998,
+    "sha256": "3d8be3d32e2ae3f455f7c2428ec4ebe8eee2b182b3b8028f9bbf015cba6e652e"
+  },
+  {
+    "path": "2026-10-12/assets/morningai-website-agent-2026-10-12.png",
+    "bytes": 134423,
+    "sha256": "0be75f52c8686d61d59f2b74df44670eda80646813646ae679c3a2eff7e39c50"
+  },
+  {
+    "path": "2026-10-14/assets/gemini-4-argon-2026-10-13.png",
+    "bytes": 212087,
+    "sha256": "b81fa0d55b9286ac9d1e987309ed922fb5689f51a33dcddd8e78ab800f9ff809"
+  },
+  {
+    "path": "2026-10-15/assets/openai-educators-ptbr-editorial-flow.png",
+    "bytes": 74669,
+    "sha256": "c1597d2d57ca6c77d12c9abd5d0fe78c80229928afa884acb75f48175680091f"
   },
   {
     "path": "2026-10-19/assets/harmony.webp",
@@ -10,54 +425,284 @@
     "sha256": "30614a5accf321fd3288b93f1aaf49d5b03419db3d983bb42a5deee46e0a6a63"
   },
   {
-    "path": "2026-10-19/assets/issue-v2.css",
-    "bytes": 26228,
-    "sha256": "ecc3ffca4f7b70e593e9489c30bfc08c78b8e70daa4e9122f2576cd575937b4a"
+    "path": "2026-10-20/assets/coralboard-product.jpg",
+    "bytes": 48205,
+    "sha256": "88583853a81c15d74149140c70bb0d309d9083c087ee95025127130dbadcf179"
   },
   {
-    "path": "2026-10-19/assets/junie.webp",
-    "bytes": 100558,
-    "sha256": "0bec6f161026cceaa57bfaf5572e844cb3bc6b5f7f1a2d88fafe3bbe1f777259"
+    "path": "2026-10-20/assets/deck.js",
+    "bytes": 1732,
+    "sha256": "cce2666cd304293c9b85efd91db501b7161f22d219e9600cfc1a6eefab0b288e"
   },
   {
-    "path": "2026-10-19/assets/morningai-credits.webp",
-    "bytes": 18768,
-    "sha256": "0a09f2d3e388b25d3a5ec45f092d9e18d0af9cb46694f834926c549876654367"
+    "path": "2026-10-20/assets/hermes-real.jpg",
+    "bytes": 539991,
+    "sha256": "84149996f4da7fe4933e2b79235f54cea62d28b6dda15c20fb2375e39cb4bf73"
   },
   {
-    "path": "2026-10-19/assets/morningai-workflow.webp",
-    "bytes": 29220,
-    "sha256": "c264ff1978c993fc23c8230dbfc540b9d17873156c3ca47104d33b2ece52d122"
+    "path": "2026-10-20/assets/issue.css",
+    "bytes": 3692,
+    "sha256": "b3072c250a92dc9c5d0b1341b4c0b41908ffc47a587ea7a6d856c88c3d0769e4"
   },
   {
-    "path": "2026-10-19/assets/rtx-spark-asus-official.jpg",
-    "bytes": 46674,
-    "sha256": "9147d31c75011e58bf1f46d70eb8a5813677603186a81a5f2dfbaf0f02b4b49a"
+    "path": "2026-10-20/assets/litert-demo.jpg",
+    "bytes": 94499,
+    "sha256": "65f89f7ba4a823cc9f9f7b98617b5651706af7ffb6f0fb38ecb422bda840e280"
   },
   {
-    "path": "2026-10-19/assets/voxel51.webp",
-    "bytes": 58398,
-    "sha256": "2167f0b834dd0ba06457f3fb88a47ed07f59a8ebc47f970fd4d8a80f28056144"
+    "path": "2026-10-20/assets/mip-official.jpg",
+    "bytes": 84479,
+    "sha256": "168cee67a7c9853ba9a726dcfb83053158812fa2c6f08b158e8d9fd1373a90ef"
   },
   {
-    "path": "2026-10-19/en/index.html",
-    "bytes": 122103,
-    "sha256": "02cf362d7a9530bbab6236881a48f5125496d0542d177041f3bcfe1604eaa695"
+    "path": "2026-10-20/assets/speakon-agent.webp",
+    "bytes": 183979,
+    "sha256": "e9ca7122543f7590aa0df47b54a6c4b65b85334a85e3b1ddca4fa8d87ac44c25"
   },
   {
-    "path": "2026-10-19/manifest.json",
-    "bytes": 909,
-    "sha256": "61c1550780bda3530582405251afd2dc59e9dd17528e821547fc11f6c49b07f3"
+    "path": "2026-10-20/assets/visagent-workflow.jpg",
+    "bytes": 135181,
+    "sha256": "733d7c115ed022d2fbcceffbc894631cf4ea00204c3a7594e5397ffe6b6df479"
   },
   {
-    "path": "2026-10-19/sources.html",
-    "bytes": 14447,
-    "sha256": "55d7a45feb894172a406acb894038f07262a5a5d213591732b9a5b1a31d16d45"
+    "path": "2026-10-20/en/index.html",
+    "bytes": 69192,
+    "sha256": "b8635f4cc836545766db9c186cae35d07a21383cd1b1be626711f0a8962d720b"
   },
   {
-    "path": "2026-10-19/zh/index.html",
-    "bytes": 110404,
-    "sha256": "708b8a48ffc50c1d746c61b80caf91e45008ca90efe8253324ac56e65ec11385"
+    "path": "2026-10-20/manifest.json",
+    "bytes": 18097,
+    "sha256": "21ff3e4a5db94787af5f1f03ae23d8f5f01e8dfdbfa94bfe4731b94ba231a192"
+  },
+  {
+    "path": "2026-10-20/sources.html",
+    "bytes": 23492,
+    "sha256": "fda1f91e772c05ad53b6693dc5ee70e02d9a4081e5e6835941f453de38ba65a6"
+  },
+  {
+    "path": "2026-10-20/sources.json",
+    "bytes": 5499,
+    "sha256": "5c5a360f0cb43dded6fade65ccdba83162db9414e310182148cae0930db5bbdc"
+  },
+  {
+    "path": "2026-10-20/visuals.json",
+    "bytes": 3629,
+    "sha256": "77503f664ebf15f88582675e434a992aeb3b08367621dcadf539ae493fe10a0f"
+  },
+  {
+    "path": "2026-10-20/zh/index.html",
+    "bytes": 57956,
+    "sha256": "2b35b162d6b9f0e8b1c24ec9e5876dc234730a13d0ae77d59358ee345a1a3b4d"
+  },
+  {
+    "path": "assets/acti-agentic-keyboard-2026-07-03.svg",
+    "bytes": 2825,
+    "sha256": "84ad9abb0a1191abde62dea383e6e1ed583fc089073d3ccaf91629044501721b"
+  },
+  {
+    "path": "assets/acti-agentic-keyboard-2026-07-05.svg",
+    "bytes": 2825,
+    "sha256": "84ad9abb0a1191abde62dea383e6e1ed583fc089073d3ccaf91629044501721b"
+  },
+  {
+    "path": "assets/acti-agentic-keyboard-2026-07-06.svg",
+    "bytes": 2825,
+    "sha256": "84ad9abb0a1191abde62dea383e6e1ed583fc089073d3ccaf91629044501721b"
+  },
+  {
+    "path": "assets/acti-agentic-keyboard-2026-07-07.svg",
+    "bytes": 2825,
+    "sha256": "84ad9abb0a1191abde62dea383e6e1ed583fc089073d3ccaf91629044501721b"
+  },
+  {
+    "path": "assets/acti-keyboard-appstore-source-2026-07-07.png",
+    "bytes": 428161,
+    "sha256": "8d1b06a621e5ed616644b1fe5c1f9bf5155e5d4ad63d1d620915f7a1c398ffe6"
+  },
+  {
+    "path": "assets/agent-ui-research-scan.svg",
+    "bytes": 1635,
+    "sha256": "d039972d9656e107948a38ba3867dab863af160b002890b17222acafa699c75e"
+  },
+  {
+    "path": "assets/alayaworld-research-2026-07.png",
+    "bytes": 217084,
+    "sha256": "e6714f80cbe9d22160f8676080597173292e3516cbb7ffcc3733479dd55ae979"
+  },
+  {
+    "path": "assets/android-xr-developer-preview-4-source-2026-06.png",
+    "bytes": 271878,
+    "sha256": "c55b522b0d3fde0a0b88fd615e46eb678efff80931027374be9493c00ff7e0d8"
+  },
+  {
+    "path": "assets/android-xr-intelligent-eyewear-source-2026-05.png",
+    "bytes": 378122,
+    "sha256": "37c3add58d3a8598fd0fa5a8965ae28ab7b12146dbf875bf08af450bca7a28c0"
+  },
+  {
+    "path": "assets/aperdata-official-2026-08.png",
+    "bytes": 507395,
+    "sha256": "6616ff7afed0344f192aabdfc4fe1139bfe0d8b579ec27124d93eb887a569260"
+  },
+  {
+    "path": "assets/augmental-mouthpad-vox-official-2026-07.png",
+    "bytes": 246618,
+    "sha256": "b4488e4c3a1059987fc86f06660170272876af812abf30673a68affc150ed0f3"
+  },
+  {
+    "path": "assets/china-ai-glasses-enterprise-agent-scan-2026-07-04.svg",
+    "bytes": 2833,
+    "sha256": "1f78d39a9390362232cd69c936396a2d1fe00bbe6f7749b9d43396d71e0a6ba8"
+  },
+  {
+    "path": "assets/china-ai-glasses-os-scan-2026-07-03.svg",
+    "bytes": 2843,
+    "sha256": "046e226ad12f339f896d5f09ce56d7f616887d42be6c723b720ee8bede3aca52"
+  },
+  {
+    "path": "assets/china-ai-glasses-os-scan-2026-07-05.svg",
+    "bytes": 2843,
+    "sha256": "046e226ad12f339f896d5f09ce56d7f616887d42be6c723b720ee8bede3aca52"
+  },
+  {
+    "path": "assets/china-ai-glasses-os-scan-2026-07-06.svg",
+    "bytes": 2843,
+    "sha256": "046e226ad12f339f896d5f09ce56d7f616887d42be6c723b720ee8bede3aca52"
+  },
+  {
+    "path": "assets/china-ai-glasses-os-scan-2026-07-07.svg",
+    "bytes": 2843,
+    "sha256": "046e226ad12f339f896d5f09ce56d7f616887d42be6c723b720ee8bede3aca52"
+  },
+  {
+    "path": "assets/china-ai-glasses-source-2026-07-07.png",
+    "bytes": 262403,
+    "sha256": "7ff780de7ed79e6a4914e0a3d2c59c3cf48123f537448f20123ccc285f441793"
+  },
+  {
+    "path": "assets/claude-code-enterprise-risk-2026-07-04.svg",
+    "bytes": 2838,
+    "sha256": "6e33372d77448ccab71ad2610751a64115a1a2d9fb078cc21b5d44279c0e7179"
+  },
+  {
+    "path": "assets/claude-science-workbench-2026-07-04.svg",
+    "bytes": 2855,
+    "sha256": "7c0ec47830797ca010f94c6b982c33e1f9f5c8ab2f1d5161e1b89b8252a1232c"
+  },
+  {
+    "path": "assets/claude-sonnet-5-agent-surface-2026-07-03.svg",
+    "bytes": 2860,
+    "sha256": "38b755405fdb43c542fd063b400c6e9101b7377f990653e0a5548da267f14774"
+  },
+  {
+    "path": "assets/claude-sonnet-5-agent-surface-2026-07-05.svg",
+    "bytes": 2860,
+    "sha256": "38b755405fdb43c542fd063b400c6e9101b7377f990653e0a5548da267f14774"
+  },
+  {
+    "path": "assets/claude-sonnet-5-agent-surface-2026-07-06.svg",
+    "bytes": 2860,
+    "sha256": "38b755405fdb43c542fd063b400c6e9101b7377f990653e0a5548da267f14774"
+  },
+  {
+    "path": "assets/claude-sonnet-5-agent-surface-2026-07-07.svg",
+    "bytes": 2860,
+    "sha256": "38b755405fdb43c542fd063b400c6e9101b7377f990653e0a5548da267f14774"
+  },
+  {
+    "path": "assets/claude-sonnet5-source-2026-07-07.png",
+    "bytes": 342630,
+    "sha256": "51c2c0bc0935f19ab31431ffc49700de43aa3f1e2a7e1920127cf2b74cae4f67"
+  },
+  {
+    "path": "assets/claude-tag-slack-agent-2026-07-04.svg",
+    "bytes": 2786,
+    "sha256": "610fdc6ed542c95273a35e3be9ffbb6ab5387c57d365f4846b194b1017f039e3"
+  },
+  {
+    "path": "assets/cloudflare-agent-crawler-controls-2026-07-03.svg",
+    "bytes": 2863,
+    "sha256": "7d2897553eb3e367c6ea95de1e30b9fa9d636908b482a9991cbfe0f31d23f725"
+  },
+  {
+    "path": "assets/cloudflare-agent-crawler-controls-2026-07-05.svg",
+    "bytes": 2863,
+    "sha256": "7d2897553eb3e367c6ea95de1e30b9fa9d636908b482a9991cbfe0f31d23f725"
+  },
+  {
+    "path": "assets/cloudflare-agent-crawler-controls-2026-07-06.svg",
+    "bytes": 2863,
+    "sha256": "7d2897553eb3e367c6ea95de1e30b9fa9d636908b482a9991cbfe0f31d23f725"
+  },
+  {
+    "path": "assets/cloudflare-agent-crawler-controls-2026-07-07.svg",
+    "bytes": 2863,
+    "sha256": "7d2897553eb3e367c6ea95de1e30b9fa9d636908b482a9991cbfe0f31d23f725"
+  },
+  {
+    "path": "assets/cloudflare-ai-controls-source-2026-07-07.png",
+    "bytes": 170436,
+    "sha256": "8868bb9a94ac6b92838e26e4ce0565f7797a5d4c2122687f817d2f47f26ffae1"
+  },
+  {
+    "path": "assets/codex-cli-security-surface.svg",
+    "bytes": 1651,
+    "sha256": "ff7c270af4e94d164da39cb86bebce35dc91d7408ccd4acca56fc70d906c9380"
+  },
+  {
+    "path": "assets/codex-micro-openai-official-2026-07.png",
+    "bytes": 167875,
+    "sha256": "282d09d8b82e57e1db65cd650c32aec89b8b9e1bb04f0c1c5215a1d8d5a5c36c"
+  },
+  {
+    "path": "assets/cursor-agent-web-source-2026-07-07.png",
+    "bytes": 123666,
+    "sha256": "3b8e7c71ad993391c92ba40f9408dda5c3e775cc8dc0799bd49d9cdf5df967b1"
+  },
+  {
+    "path": "assets/cursor-mobile-agent-control-2026-07-03.svg",
+    "bytes": 2859,
+    "sha256": "9562c439d453367a3b962883f4a58753b496bd57fd6757484dd5d6ea896b2faf"
+  },
+  {
+    "path": "assets/cursor-mobile-agent-control-2026-07-05.svg",
+    "bytes": 2859,
+    "sha256": "9562c439d453367a3b962883f4a58753b496bd57fd6757484dd5d6ea896b2faf"
+  },
+  {
+    "path": "assets/cursor-mobile-agent-control-2026-07-06.svg",
+    "bytes": 2859,
+    "sha256": "9562c439d453367a3b962883f4a58753b496bd57fd6757484dd5d6ea896b2faf"
+  },
+  {
+    "path": "assets/cursor-mobile-agent-control-2026-07-07.svg",
+    "bytes": 2859,
+    "sha256": "9562c439d453367a3b962883f4a58753b496bd57fd6757484dd5d6ea896b2faf"
+  },
+  {
+    "path": "assets/gemini-omni-media-stack.svg",
+    "bytes": 1659,
+    "sha256": "6419a51311f6c75435eab4a5195976d26b6f4852c26cdea982095b496828897d"
+  },
+  {
+    "path": "assets/google-workspace-ai-ad-friction-2026-07-04.svg",
+    "bytes": 2859,
+    "sha256": "8e8af26b8510a8c34aa39a6b66db27ec541d43f1719532285b7cc96208d2e87a"
+  },
+  {
+    "path": "assets/halliday-g2-official-2026-07.png",
+    "bytes": 184844,
+    "sha256": "f865f084d067f6f74dce611f3ad0ed7a30dd80cd154f098905654d1610383c5e"
+  },
+  {
+    "path": "assets/intel-agentic-ai-hot-chips-2026-08.png",
+    "bytes": 478623,
+    "sha256": "4a87919f4aaa935f440b3826bfa171891e7c5548ca388a5a64bfc61d821008ed"
+  },
+  {
+    "path": "assets/interactions-api-agent-surface.svg",
+    "bytes": 1655,
+    "sha256": "1fc540d1ee86e71fc518d1c945849c79be891c68efc01160b86ee58c02d5e6d7"
   },
   {
     "path": "assets/issue-v2.css",
@@ -65,23 +710,203 @@
     "sha256": "dabe1339ff5acfc3bbfa94cd587f28f6b2a53cf9cee25989698ab9a675aa95f2"
   },
   {
+    "path": "assets/memomind-one-friction-2026-07-03.svg",
+    "bytes": 2874,
+    "sha256": "90dc7eb1032a7d0327640ec15ef5da6233030e0f6249528d23f9be75ec36ea87"
+  },
+  {
+    "path": "assets/memomind-one-friction-2026-07-05.svg",
+    "bytes": 2874,
+    "sha256": "90dc7eb1032a7d0327640ec15ef5da6233030e0f6249528d23f9be75ec36ea87"
+  },
+  {
+    "path": "assets/memomind-one-friction-2026-07-06.svg",
+    "bytes": 2874,
+    "sha256": "90dc7eb1032a7d0327640ec15ef5da6233030e0f6249528d23f9be75ec36ea87"
+  },
+  {
+    "path": "assets/memomind-one-friction-2026-07-07.svg",
+    "bytes": 2874,
+    "sha256": "90dc7eb1032a7d0327640ec15ef5da6233030e0f6249528d23f9be75ec36ea87"
+  },
+  {
+    "path": "assets/memomind-one-source-2026-07-07.png",
+    "bytes": 690790,
+    "sha256": "7cb7645be58f268cfe3766af670c6b719c90a21ab5aa13ce589dd9864fbe657f"
+  },
+  {
+    "path": "assets/meta-one-conversation-focus.svg",
+    "bytes": 1687,
+    "sha256": "32be930cf3d49359ef7ddbbb2b9b99051f623626dc3bdc202964e03b463be93c"
+  },
+  {
+    "path": "assets/meta-patent-watch-2026-08.png",
+    "bytes": 186782,
+    "sha256": "a0020f105eba7e62e64dbe4a0821fce75937ec02524fabbb2211415073c69ac1"
+  },
+  {
+    "path": "assets/monako-producthunt-source-2026-07.png",
+    "bytes": 41167,
+    "sha256": "b673e54b28929585893269dba333ba56f64caf2ce1b114d89fe7c0d28fc92cc8"
+  },
+  {
+    "path": "assets/moonix-official-source-2026-07.png",
+    "bytes": 63739,
+    "sha256": "1de9e0e0ac386c4949116166180ef8755b2b4b2d486249ef09269b4b4a6571f3"
+  },
+  {
+    "path": "assets/nework-insight-ai-glasses-launch-2026-07.png",
+    "bytes": 421425,
+    "sha256": "c523e7f9d1620da5a5034fc67fbfd235a08245c5947c2b20eadc2ca8cea3b8ab"
+  },
+  {
+    "path": "assets/openai-gpt-live-source-2026-07-10.png",
+    "bytes": 13515,
+    "sha256": "1b6ba35a4806e7fb3da76cfb526227352231dfe90e5b501186ebc34389015173"
+  },
+  {
+    "path": "assets/orbbec-wrc-physical-ai-official-2026-08.png",
+    "bytes": 649227,
+    "sha256": "d7580a4d8c9335e4fbc33fb7c83097b4b96835e93a62b89dfece80094f19e9c7"
+  },
+  {
+    "path": "assets/product-hunt-agent-browser-2026-07-04.svg",
+    "bytes": 2803,
+    "sha256": "eda5e893fe0eb94813889e93c0d59d4d99166b0180fba95ca682826dd74bf8c8"
+  },
+  {
+    "path": "assets/qwen-glasses-china-ecosystem.svg",
+    "bytes": 1646,
+    "sha256": "90ede17f3291d48bc998c0de49e668b7bccbef55778ba116e8ab8acd0c261d51"
+  },
+  {
+    "path": "assets/rayneo-io-official-2026-08.png",
+    "bytes": 484105,
+    "sha256": "e0d799f2b37b97143b08f8fb70fe8e789ba460f7a1ac70d12bad9b476815002c"
+  },
+  {
+    "path": "assets/razer-motoko-official-2026-08.png",
+    "bytes": 475813,
+    "sha256": "2b8838de85d03ca6e555343edb2441283188b8aa70b66c5e5f511f78fb647177"
+  },
+  {
+    "path": "assets/rokid-yodaos-source-2026-07.png",
+    "bytes": 701459,
+    "sha256": "b069d179315246e7d7f9344647e7314f6c625e4f136c81bfc604e5e6042201df"
+  },
+  {
     "path": "assets/site.css",
     "bytes": 32027,
     "sha256": "2fb567cbfd0fcbd4d0e12391142dc61baddd77c2087b91ae1036d0b3d905930c"
   },
   {
+    "path": "assets/smart-glasses-patent-lane-2026-07-04.svg",
+    "bytes": 2795,
+    "sha256": "d007d474163b1844cdc390582fa326cd60876e6b60b5a335434920920f1e2566"
+  },
+  {
+    "path": "assets/smart-glasses-patent-source-2026-07-07.png",
+    "bytes": 110335,
+    "sha256": "994bc296d4630afdf21a037482d122d12d6745c59fd9765ae9445108ac81cf91"
+  },
+  {
+    "path": "assets/smartglasses-patent-watch.svg",
+    "bytes": 1648,
+    "sha256": "01b3c06f2e3e3479386b58af98d06d4ca1b91769512213c867d7b05223c70b2b"
+  },
+  {
+    "path": "assets/solos-airgo-a6-privacy-eyewear-2026-07-07.svg",
+    "bytes": 2879,
+    "sha256": "9e2dcbb5d10bea2d775223de9483f0cadc96d6d80d46573ae3aed4922778dd60"
+  },
+  {
+    "path": "assets/solos-airgo-a6-source-2026-07-07.png",
+    "bytes": 183424,
+    "sha256": "bc149cd79f182f6bd652634fa6f0e0ea0bcf9086afcd8830aa9f7e3d6b69141a"
+  },
+  {
+    "path": "assets/source-radar-2026-07-02.svg",
+    "bytes": 2397,
+    "sha256": "220577a12412321f5249109ab1e5ea0019a06f7280fbbb72abbb6d1c4b5d5962"
+  },
+  {
+    "path": "assets/visionclaw-research-source-2026-07-07.png",
+    "bytes": 230488,
+    "sha256": "a344b797db44ed2b3ecc03a6cdfc9098e9981b013f80a788f5946e47e256a30e"
+  },
+  {
+    "path": "assets/waic-2026-smart-terminals-scan-2026-07.png",
+    "bytes": 416798,
+    "sha256": "c7b381553e2cd3d75257a964e14d24e61234e3093b006b575a9243ad28b4a597"
+  },
+  {
+    "path": "assets/wearable-agent-research-patent-watch-2026-07-03.svg",
+    "bytes": 2880,
+    "sha256": "68ca6c618b511a91f49010b0bfb856baf5891200594b85ef13ca31e4fc23505e"
+  },
+  {
+    "path": "assets/wearable-agent-research-patent-watch-2026-07-05.svg",
+    "bytes": 2880,
+    "sha256": "68ca6c618b511a91f49010b0bfb856baf5891200594b85ef13ca31e4fc23505e"
+  },
+  {
+    "path": "assets/wearable-agent-research-patent-watch-2026-07-06.svg",
+    "bytes": 2880,
+    "sha256": "68ca6c618b511a91f49010b0bfb856baf5891200594b85ef13ca31e4fc23505e"
+  },
+  {
+    "path": "assets/wearable-agent-research-patent-watch-2026-07-07.svg",
+    "bytes": 2880,
+    "sha256": "68ca6c618b511a91f49010b0bfb856baf5891200594b85ef13ca31e4fc23505e"
+  },
+  {
+    "path": "assets/wearable-agent-research-scan-2026-07-04.svg",
+    "bytes": 2823,
+    "sha256": "c636c7e02a8647ffc1e8a81e207f832e797be29ad46513a6895347895116734e"
+  },
+  {
+    "path": "assets/xgimi-memomind-one.svg",
+    "bytes": 1673,
+    "sha256": "844f4ee076557a86cf5de5828aa756846a99d4c0a345dde0c358db97614cf0ae"
+  },
+  {
+    "path": "assets/zai-zcode-glm-coding-harness-2026-07-03.svg",
+    "bytes": 2879,
+    "sha256": "303b336d39c26554a48f30894b16c759ef324be1dd1e56abccb9a8cbccab3a05"
+  },
+  {
+    "path": "assets/zai-zcode-glm-coding-harness-2026-07-05.svg",
+    "bytes": 2879,
+    "sha256": "303b336d39c26554a48f30894b16c759ef324be1dd1e56abccb9a8cbccab3a05"
+  },
+  {
+    "path": "assets/zai-zcode-glm-coding-harness-2026-07-06.svg",
+    "bytes": 2879,
+    "sha256": "303b336d39c26554a48f30894b16c759ef324be1dd1e56abccb9a8cbccab3a05"
+  },
+  {
+    "path": "assets/zai-zcode-glm-coding-harness-2026-07-07.svg",
+    "bytes": 2879,
+    "sha256": "303b336d39c26554a48f30894b16c759ef324be1dd1e56abccb9a8cbccab3a05"
+  },
+  {
+    "path": "assets/zcode-docs-source-2026-07-07.png",
+    "bytes": 338406,
+    "sha256": "db083f06870089db0683d22dd781c8ac1d4a21a062e6fb6f6a3a34b5f9f08247"
+  },
+  {
     "path": "en/index.html",
-    "bytes": 150346,
-    "sha256": "c153a79a121806397e439b4c9e8e62c7e7a186f101ecbc38122e4c49fff9f5f8"
+    "bytes": 151591,
+    "sha256": "93a33f9fa3e5a2f06563a95bd3b107bc5f04ef9a2a9325efb6148cc00d366ff1"
   },
   {
     "path": "index.html",
-    "bytes": 144697,
-    "sha256": "9137821dd7b4dd8febfddbea0d2fca92744b93dd96d8167dd057c4a6810230b9"
+    "bytes": 145897,
+    "sha256": "1dd4a1a1ff59304d2f3ddac1634aaefbafc99b9b876c5ec03f9888a8b9a0c9c9"
   },
   {
     "path": "manifest.json",
-    "bytes": 725774,
-    "sha256": "95ffb55486688da52f38ffadea96b927a43a9cacc3d9cb3b57111140884586ee"
+    "bytes": 727118,
+    "sha256": "215632c16f344ce46ee3a5142e488f1f47b9e49c1fd97b271e04dfe3c3fc4423"
   }
 ]
