@@ -1,8 +1,8 @@
 {
-  "phase": "candidate",
+  "phase": "live",
   "baselineCommit": "6715fe994d4d7040b98cc23a06c7a1bf3a6136f1",
-  "publicCommit": null,
+  "publicCommit": "bc32c8ae81e5c396bdcd5be0374143b5ff8734f8",
   "acquireAssets": false,
   "archiveRevision": true,
-  "note": "Unify existing daily and weekly archives in the compact type/month filter; content and publishing infrastructure unchanged."
+  "note": "Verify deployed daily/weekly/month filter combination, weekly navigation and unchanged issue content."
 }
