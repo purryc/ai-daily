@@ -1,8 +1,8 @@
 {
-  "phase": "candidate",
+  "phase": "live",
   "baselineCommit": "9ef1863b41f62e9d1c2c41ca23e1af4db05fa5dc",
-  "publicCommit": null,
+  "publicCommit": "19c3439780fdf5e235da7c77a8b481aefb994e2a",
   "acquireAssets": false,
   "archiveRevision": true,
-  "note": "Scoped bilingual overview month/year/sort revision; daily output unchanged; existing pipeline."
+  "note": "Live verification of scoped archive year/month/sort revision; daily content and infrastructure unchanged."
 }

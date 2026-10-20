@@ -50,7 +50,7 @@ export async function checkArchive({browser, url, live, locale, phase, check, sc
     check('archive-reload-state',same(await visibleDates(),august),{viewport});
     await p.locator('[data-archive-month="01"]').click();
     check('archive-empty-state',(await visibleDates()).length===0&&await p.locator('[data-archive-empty]').isVisible(),{viewport});
-    if(viewport.width===1600)await screen(p,`${locale}-archive-empty.jpg`);
+    if(viewport.width===1600){await p.locator('[data-archive-empty]').scrollIntoViewIfNeeded();await screen(p,`${locale}-archive-empty.jpg`);}
     await p.locator('[data-archive-empty] [data-archive-reset]').click();
     check('archive-empty-reset',same(await visibleDates(),[...allDates].reverse())&&!await p.locator('[data-archive-empty]').isVisible()&&await p.locator('[data-archive-year]').evaluate(e=>e===document.activeElement),{viewport});
     await p.locator('[data-archive-year]').selectOption('2026');
