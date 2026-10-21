@@ -1271,13 +1271,13 @@
   },
   {
     "path": "2026-10-21/en/details/bear-kino-2.html",
-    "bytes": 7886,
-    "sha256": "254e63adc06805d322d556301a31e6ee7e8f8a9a353a670d57e35d739cf73ed8"
+    "bytes": 7885,
+    "sha256": "c33280cb4d5d269f1add76e9ee0e9957580dcf1d282187a353198459db0d008c"
   },
   {
     "path": "2026-10-21/en/details/canvasobs.html",
-    "bytes": 5674,
-    "sha256": "95cd379b31c73572442a905da2efaaaeb797d0efbfff02f19b3aff75da6a88d8"
+    "bytes": 5673,
+    "sha256": "72720ef0029193436570f169c03ce9df684e6ce0aed203d88734b9337a07b626"
   },
   {
     "path": "2026-10-21/en/details/churnzero-kit.html",
@@ -1326,8 +1326,8 @@
   },
   {
     "path": "2026-10-21/en/details/liveuibench.html",
-    "bytes": 5604,
-    "sha256": "29e20deebf0d92f8d52d9d2a806760742adbb00d22b41b9b2ce48ae0caf429f2"
+    "bytes": 5602,
+    "sha256": "ef951fa6fa950c4c075fa0461ecf69d92c36740c2c6c847457ea3301a95c4e94"
   },
   {
     "path": "2026-10-21/en/details/looks-fine-to-me.html",
@@ -1341,18 +1341,18 @@
   },
   {
     "path": "2026-10-21/en/details/mintlify-autopilot.html",
-    "bytes": 7278,
-    "sha256": "8614b58fc253aaaa4a9928ee1c5b1784ea35db55df1aa78544c3dc850291019d"
+    "bytes": 7277,
+    "sha256": "8560bf319774c96bac3b85881d0f66578f02fba77b4d0d18b81157cdd7837502"
   },
   {
     "path": "2026-10-21/en/details/notion-ai-routing-credits.html",
-    "bytes": 6520,
-    "sha256": "902b9f980b3079fd516a3578b0782c09f1144cdc74a6e10298dc3a3f6d0d9d74"
+    "bytes": 6519,
+    "sha256": "e7957c92ab6724459a9d37ea742105ae6c9830720ac991833cc85866b0e6cba4"
   },
   {
     "path": "2026-10-21/en/details/nvidia-isaac.html",
-    "bytes": 8098,
-    "sha256": "838cfe6cb5bc0451932ffe75b252179319de744c3b064315b855aa4abcc25a5e"
+    "bytes": 8097,
+    "sha256": "681c70bf86b5e12e014d9c8a363bd5cf08e8ec9974c85e6076cb627e628ce260"
   },
   {
     "path": "2026-10-21/en/details/onedrive-copilot.html",
@@ -1427,7 +1427,7 @@
   {
     "path": "2026-10-21/manifest.json",
     "bytes": 42757,
-    "sha256": "dba2239507e3fa2b3ecc1c6bb8891fb945c6c16d77a207d467d244c80ca47cb6"
+    "sha256": "151cdedfda636f6b8eb900cc23d06dc5bbd561a271b847078788e2cf9c8f9004"
   },
   {
     "path": "2026-10-21/sources.html",

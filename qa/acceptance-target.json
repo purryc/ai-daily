@@ -1,7 +1,7 @@
 {
   "phase": "candidate",
-  "baselineCommit": "bc00e62678770e99f71e8c999c37e0be8f3376af",
+  "baselineCommit": "e5f3900bc10c6158e4f1e21bc8d4793b1b25384e",
   "acquireAssets": false,
   "archiveRevision": false,
-  "note": "October 21 new issue; unchanged workflow and dependencies; complete issue and archive acceptance."
+  "note": "Final numeric typography correction; unchanged source values, workflow and requirements."
 }
