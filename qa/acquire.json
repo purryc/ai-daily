@@ -1,253 +1,36 @@
 [
   {
     "kind": "image",
-    "name": "idealworks.jpg",
-    "url": "https://arxiv.org/html/2610.28624v1/images/iw-remember.png",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "mintlify-autopilot.jpg",
-    "url": "https://www.mintlify.com/images/autopilot-reviewer-email.webp",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "churnzero-kit.jpg",
-    "url": "https://churnzero.com/wp-content/cache/flying-press/894a7a7b8feb9fefe0b6768a8fe20998.jpg",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
     "name": "nvidia-isaac.jpg",
-    "url": "https://iprsoftwaremedia.com/219/files/202610/60166df62390290b4e42955e120a2b98/nvidia-isaac-platform.jpeg",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "bear-kino-2.jpg",
-    "url": "https://images.squarespace-cdn.com/content/v1/652cbb3fb1f91809d4610dc0/1792165300872-JICA3KLL0ASDJ2MWUXD4/kinisi_10_Web_Lrg.png",
+    "url": "https://ml.globenewswire.com/Resource/Download/daef9262-990d-4455-b650-dcbe1e2c3cfd?size=3",
     "renderImage": true,
     "locale": "zh"
   },
   {
     "kind": "image",
-    "name": "gripsound-xmini.jpg",
-    "url": "https://ml.globenewswire.com/Resource/Download/eb4f4df1-d995-4622-99df-cb8d5ef253f2/20261012-102655.jpeg",
+    "name": "arda-translation.jpg",
+    "url": "https://framerusercontent.com/images/Owsf7tmn2nVwlrLmHd3jfXnaNo.png?width=711&height=1046",
     "renderImage": true,
     "locale": "en"
   },
   {
     "kind": "image",
-    "name": "agco-digit.jpg",
-    "url": "https://mmx.prnewswire.com/media/MS2016519/AGCO-Agility-Humanoid-Robot.jpg?id=OA3027811",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "jotform-chat-app-builder.jpg",
-    "url": "https://cdn.jotfor.ms/image/r/aHR0cHM6Ly9jZG4uam90Zm9yLm1zL3AvY2hhdGdwdC1hcHAvYXNzZXRzL2ltZy1taW4vaG9tZXBhZ2UvaGVyby1pbWcucG5n/hero-img.png?t=1&w=700",
+    "name": "arda-adaptation.jpg",
+    "url": "https://framerusercontent.com/images/x7dHrSa7p78eijVSwMBg7GKKFho.png?width=2048&height=2048",
     "renderImage": true,
     "locale": "en"
   },
   {
-    "kind": "image",
-    "name": "saviynt-zuma-apps.jpg",
-    "url": "https://saviynt.com/hs-fs/hubfs/zuma-for-apps-launch-image-2.png?width=900",
-    "renderImage": true,
+    "kind": "page",
+    "name": "lovart-arti-public.jpg",
+    "url": "https://www.lovart.ai/arti",
     "locale": "zh"
   },
   {
-    "kind": "image",
-    "name": "roboparty-rp1.jpg",
-    "url": "https://mmx.prnewswire.com/media/MS2013270/20261014090134EDT_image_1.jpg?id=OA3018718&p=medium",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "sereact-ur.jpg",
-    "url": "https://a.storyblok.com/f/169662/3840x2160/f36e551fc0/jpg-version-2-10_2026_sereact_universalrobots_6.jpg",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "copilot-cli.jpg",
-    "url": "https://github.com/user-attachments/assets/f40aa23d-09dd-499e-9457-1d57d3368887",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "isolved-agent-view.jpg",
-    "url": "https://images.ctfassets.net/gpceq9wt9ej4/5gnB5kNhophb0AobxaDX9q/a4f139f1075ae20f879c28fba23b9ab4/agent-view-1.webp",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "notion-ai-routing-credits.jpg",
-    "url": "https://images.ctfassets.net/spoqsaf9291f/4SJJqvlq8CqCAOp7bpRkPB/1c66b5f67dba6c2e405819330c7cc375/Notion_MCP_Memories.png?w=900",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "lovart-arti.jpg",
-    "url": "https://assets-persist.lovart.ai/web/model/28e251feadfb49ba8a81eb86bd81f2e2/c0a7bbac9b50aa6e722a10968eb84425268fc05144d69222af892acb9b1d5932.png",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "arda-manufacturing.jpg",
-    "url": "https://framerusercontent.com/images/92kClgqaHbKoOtCClHlo8DGq3A.png?width=2048&height=2048",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "openshell-reference-architecture.jpg",
-    "url": "https://docs.nvidia.com/enterprise-reference-architectures/secure-agent-workspace-reference-design/latest/_images/secure-agent-workspace-where-everything-fits.png",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "mobo-preorder.jpg",
-    "url": "https://www.aimoga-robot.com/global/images/index/banner2_mobile.webp",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "mitsubishi-humanoid-cnc.jpg",
-    "url": "https://www.mitsubishielectric.com/en/pr/2026/img/1021_rd.jpg",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "react.jpg",
-    "url": "https://arxiv.org/html/2610.28523v1/images/shibata-hug-3times-longhorizon.png",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "gemini-government-services.jpg",
-    "url": "https://www.gstatic.com/bricks/image/324489a7-3183-4d8b-b47a-328e285cce37.png",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "doubleai-maxwell-ltx.jpg",
-    "url": "https://www.doubleai.com/api/media/file/ltx-4k-02-time-breakdown.png",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "asus-enterprise-agentic-ai.jpg",
-    "url": "https://press.asus.com/assets/w_1266,h_629/8a508959-561a-48ab-9b0b-4f34d4f10f82/ASUS%20Unveils%20Enterprise%20Agentic%20AI%20Solution%20at%20NVIDIA%20GTC%20Berlin%202026.jpg",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "servicenow-arc.jpg",
-    "url": "https://s205.q4cdn.com/537566246/files/doc_news/2026/10/21/arc_11_.png",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "liveuibench.jpg",
-    "url": "https://arxiv.org/html/2610.27977v1/revisions/yun/figures/liveuiagent-material-workspace.png",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "canvasobs.jpg",
-    "url": "https://arxiv.org/html/2610.27176v1/casestudy.png",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "firmable-tech-intelligence.jpg",
-    "url": "https://help.firmable.com/hs-fs/hubfs/help-centre/screenshots/what-is-tech-intelligence__01.png?height=408&name=what-is-tech-intelligence__01.png&width=670",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "valiassist.jpg",
-    "url": "https://arxiv.org/html/2610.27248v1/Images/Overview.png",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "fence.jpg",
-    "url": "https://arxiv.org/html/2610.27607v1/figures/design2.png",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "inventory",
-    "name": "antigravity-claude-55-inventory.json",
+    "kind": "page",
+    "name": "antigravity-claude-55.jpg",
     "url": "https://antigravity.google/docs/models/",
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "splashtop-agentic-packr.jpg",
-    "url": "https://images.ctfassets.net/5i1m3im8l2b5/6TIzmGQi0t0TdggtIA1zBx/67b92557c5fdad3c58128dad3bff3bc6/AP_screenshot_4.jpg?w=900&q=75&fm=jpg",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "looks-fine-to-me.jpg",
-    "url": "https://arxiv.org/html/2610.27801v1/Interface.png",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "sidecar.jpg",
-    "url": "https://arxiv.org/html/2610.27170v1/teaser-v7.png",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "wildawm.jpg",
-    "url": "https://arxiv.org/html/2610.26828v1/figures/case_study/obs_product.png",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "rehearsim.jpg",
-    "url": "https://arxiv.org/html/2610.27333v1/dg1-aligned.png",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "onedrive-copilot.jpg",
-    "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTY1OTk1LVdPVXd1Tw?image-dimensions=999x562&revision=6",
-    "renderImage": true,
+    "selector": ".model-selector-wrapper",
     "locale": "en"
   }
 ]
