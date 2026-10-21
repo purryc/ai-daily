@@ -6,7 +6,7 @@
   "metrics": {
     "body": {
       "zhDenseChars": 27079,
-      "enWords": 15980
+      "enWords": 15981
     },
     "perProduct": {
       "idealworks": {
@@ -31,7 +31,7 @@
       },
       "bear-kino-2": {
         "zh": 1049,
-        "en": 632
+        "en": 633
       },
       "agco-digit": {
         "zh": 824,
