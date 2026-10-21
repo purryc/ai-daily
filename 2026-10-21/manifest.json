@@ -1,0 +1,648 @@
+{
+  "date": "2026-10-21",
+  "timezone": "America/Toronto",
+  "cutoff": "2026-10-21T14:00:02Z",
+  "windowStart": "2026-10-20T14:00:02Z",
+  "metrics": {
+    "body": {
+      "zhDenseChars": 27079,
+      "enWords": 15980
+    },
+    "perProduct": {
+      "idealworks": {
+        "zh": 1017,
+        "en": 623
+      },
+      "mintlify-autopilot": {
+        "zh": 915,
+        "en": 519
+      },
+      "onedrive-copilot": {
+        "zh": 879,
+        "en": 498
+      },
+      "churnzero-kit": {
+        "zh": 951,
+        "en": 509
+      },
+      "nvidia-isaac": {
+        "zh": 876,
+        "en": 552
+      },
+      "bear-kino-2": {
+        "zh": 1049,
+        "en": 632
+      },
+      "agco-digit": {
+        "zh": 824,
+        "en": 513
+      },
+      "jotform-chat-app-builder": {
+        "zh": 878,
+        "en": 474
+      },
+      "saviynt-zuma-apps": {
+        "zh": 869,
+        "en": 495
+      },
+      "roboparty-rp1": {
+        "zh": 865,
+        "en": 529
+      },
+      "sereact-ur": {
+        "zh": 908,
+        "en": 495
+      },
+      "copilot-cli": {
+        "zh": 615,
+        "en": 405
+      },
+      "isolved-agent-view": {
+        "zh": 846,
+        "en": 482
+      },
+      "notion-ai-routing-credits": {
+        "zh": 853,
+        "en": 477
+      },
+      "lovart-arti": {
+        "zh": 1138,
+        "en": 639
+      },
+      "openshell-reference-architecture": {
+        "zh": 977,
+        "en": 523
+      },
+      "pydantic-ai": {
+        "zh": 636,
+        "en": 398
+      },
+      "react": {
+        "zh": 640,
+        "en": 398
+      },
+      "gemini-government-services": {
+        "zh": 873,
+        "en": 480
+      },
+      "doubleai-maxwell-ltx": {
+        "zh": 873,
+        "en": 483
+      },
+      "asus-enterprise-agentic-ai": {
+        "zh": 983,
+        "en": 530
+      },
+      "servicenow-arc": {
+        "zh": 930,
+        "en": 521
+      },
+      "liveuibench": {
+        "zh": 642,
+        "en": 413
+      },
+      "canvasobs": {
+        "zh": 655,
+        "en": 419
+      },
+      "firmable-tech-intelligence": {
+        "zh": 898,
+        "en": 498
+      },
+      "valiassist": {
+        "zh": 626,
+        "en": 407
+      },
+      "fence": {
+        "zh": 601,
+        "en": 403
+      },
+      "antigravity-claude-55": {
+        "zh": 892,
+        "en": 510
+      },
+      "splashtop-agentic-packr": {
+        "zh": 899,
+        "en": 517
+      },
+      "looks-fine-to-me": {
+        "zh": 642,
+        "en": 409
+      },
+      "sidecar": {
+        "zh": 607,
+        "en": 412
+      },
+      "wildawm": {
+        "zh": 612,
+        "en": 401
+      },
+      "rehearsim": {
+        "zh": 610,
+        "en": 416
+      }
+    },
+    "primarySummaries": {
+      "idealworks": {
+        "zh": 224,
+        "en": 137
+      },
+      "mintlify-autopilot": {
+        "zh": 141,
+        "en": 101
+      },
+      "onedrive-copilot": {
+        "zh": 155,
+        "en": 102
+      },
+      "churnzero-kit": {
+        "zh": 153,
+        "en": 92
+      },
+      "nvidia-isaac": {
+        "zh": 165,
+        "en": 107
+      },
+      "bear-kino-2": {
+        "zh": 177,
+        "en": 107
+      },
+      "agco-digit": {
+        "zh": 151,
+        "en": 105
+      },
+      "jotform-chat-app-builder": {
+        "zh": 170,
+        "en": 108
+      },
+      "saviynt-zuma-apps": {
+        "zh": 162,
+        "en": 109
+      },
+      "roboparty-rp1": {
+        "zh": 159,
+        "en": 106
+      },
+      "sereact-ur": {
+        "zh": 160,
+        "en": 97
+      },
+      "copilot-cli": {
+        "zh": 169,
+        "en": 108
+      },
+      "isolved-agent-view": {
+        "zh": 166,
+        "en": 110
+      },
+      "notion-ai-routing-credits": {
+        "zh": 167,
+        "en": 110
+      },
+      "lovart-arti": {
+        "zh": 174,
+        "en": 108
+      },
+      "openshell-reference-architecture": {
+        "zh": 199,
+        "en": 115
+      },
+      "pydantic-ai": {
+        "zh": 160,
+        "en": 105
+      },
+      "react": {
+        "zh": 167,
+        "en": 112
+      },
+      "gemini-government-services": {
+        "zh": 169,
+        "en": 109
+      },
+      "doubleai-maxwell-ltx": {
+        "zh": 171,
+        "en": 108
+      },
+      "asus-enterprise-agentic-ai": {
+        "zh": 192,
+        "en": 116
+      },
+      "servicenow-arc": {
+        "zh": 169,
+        "en": 119
+      },
+      "liveuibench": {
+        "zh": 165,
+        "en": 100
+      },
+      "canvasobs": {
+        "zh": 157,
+        "en": 105
+      },
+      "firmable-tech-intelligence": {
+        "zh": 183,
+        "en": 114
+      },
+      "valiassist": {
+        "zh": 163,
+        "en": 112
+      },
+      "fence": {
+        "zh": 184,
+        "en": 104
+      },
+      "antigravity-claude-55": {
+        "zh": 190,
+        "en": 123
+      },
+      "splashtop-agentic-packr": {
+        "zh": 196,
+        "en": 128
+      },
+      "looks-fine-to-me": {
+        "zh": 174,
+        "en": 107
+      },
+      "sidecar": {
+        "zh": 177,
+        "en": 107
+      },
+      "wildawm": {
+        "zh": 167,
+        "en": 106
+      },
+      "rehearsim": {
+        "zh": 169,
+        "en": 108
+      }
+    },
+    "counting": "Only unique full-analysis product paragraphs count toward body gates; summaries, captions, coverage and sources excluded.",
+    "products": 33,
+    "references": 104,
+    "coreVisuals": 33,
+    "slidesPerLocale": 38,
+    "primaryProjectPages": 33,
+    "attachedProjectDetails": 33
+  },
+  "laneScans": [
+    {
+      "lane": "official",
+      "status": "Original sources and supporting documentation; bounded sample",
+      "zh": "官方线以转交的候选清单为边界，复读产品公告、支持页、发布记录和研究者页面，没有把采集时间当作上线时间。Mintlify 与 Jotform 的十月二十日来源只给日历日期，保留近三日补充；Jotform 更早的指南使首次可用日期仍不成立。Packr 原文明确十月十九日 Windows GA，后续转载不重置日期。ServiceNow 的 Arc 正式 GA、Windows 计划和未来 AI Passport 分开记录；Saviynt 私有预览也没有借用既有 Zuma 免费试用权益。NVIDIA、ASUS 与 Sereact 的集成方案分别检查硬件、软件、参考架构与未来交付，不将整份新闻稿中的组件一律标为新品。部分网页直接访问失败后通过原站公开内容再次核验，失败本身不记作无产品。下一步应核对账户权益、实际控制与恢复，这一期没有进行付费账户操作或现场验收。",
+      "en": "The official lane is bounded by the transferred candidate list. Validation revisited announcements, support pages, releases and author sites, keeping collection time separate from availability. Mintlify and Jotform provide October 20 calendar dates without a decisive main-window clock, so they remain supplements. Earlier Jotform guides also prevent calling the announcement first availability. Packr's original explicitly dates Windows general availability to October 19; later distribution does not reset that date. ServiceNow's Arc GA statement, planned Windows version and future AI Passport retain separate delivery labels. Saviynt's private preview does not inherit the existing Zuma free-trial entitlement. NVIDIA, ASUS and Sereact combine hardware, software and integration announcements, requiring component-specific status rather than treating everything in a release as newly shipped. Some direct page opens failed and were checked through accessible original-page content. Those failures are access limitations, not evidence of absence. Account-specific entitlements, actual enforcement, recovery and physical performance remain follow-up work. This issue did not operate paid accounts or perform field acceptance tests."
+    },
+    {
+      "lane": "reviews",
+      "status": "Independent hands-on coverage incomplete",
+      "zh": "评测线没有取得足以独立复现本期主要性能主张的上手材料。Maxwell 的加速数字并非本刊实测：实际保留的是厂商两张 B200、五秒 4K 片段的时间对照，音频位相同与视频相似度分开解释。KINO-2 的仿真抓取、动作块延迟和整单完成不是同一指标；Sereact 的机械臂发运量也不能换算客户站点。地区新闻照片有助于确认展出外观，却不能替代连续班次运行。HD Hyundai 的近照带有明确使用限制，未因已有像素检查而视为获准转载。厂商演示、发行方新闻和媒体转载仍属于相应来源组，没有凑成多份独立确认。本线的缺口是实际任务、设备配置、失败分布和长期维护成本；后续需要相同条件下的独立比较，不能用表演速度或预订量填补。",
+      "en": "This review lane did not obtain independent hands-on material sufficient to reproduce the principal performance claims. The Maxwell case retains the vendor's two-B200, five-second 4K workload and its elapsed-time comparison; bit-identical audio is kept separate from the video similarity measurement. KINO-2's simulated picking result, action-chunk latency and order completion answer different questions. Sereact's robot-arm shipment count cannot become a count of customer sites. Regional exhibition photography can establish the presented appearance, but not continuous operation through a production shift. The inspected HD Hyundai photograph carries explicit usage restrictions and was not treated as cleared merely because its pixels were visible. Vendor demonstrations, issuer releases and syndicated reporting remain within their respective origin groups instead of being counted as independent confirmations. The missing evidence concerns representative tasks, equipment configuration, failure distributions and continuing maintenance cost. A useful follow-up is a controlled comparison under the same acceptance criteria, including interventions and recovery. Demonstration speed, reservation totals and polished imagery cannot substitute for that evidence, and this gap is not a claim that no independent reviewer exists."
+    },
+    {
+      "lane": "community",
+      "status": "Specific maintainer threads; broad user sampling incomplete",
+      "zh": "社区线保留具体故障与维护者响应，未把公共代码仓库当成用户满意度调查。OpenClaw 的历史问题区分 Gateway 重启后工具目录过时与配置重载后完成通知丢失，重开会话只是绕行办法；由于图片操作中止未获解决，该候选不计入已验收项目。Pydantic AI 的合并讨论让语音生成结束与播放结束的差异可检查，旧历史副本不会追溯更新；这仍是维护者实现记录，不是我们重跑的故障率。Copilot CLI 的稳定版与两个预览版按各自发布时间分开，跳过无法认证的 MCP 连接不等于依赖步骤成功。没有新增 Reddit、HN、V2EX 或公开评论的代表性样本，也没有以讨论热度推导付费需求。本线后续应追踪重复报告、配置条件、修复版本与实际副作用，避免把一次修复说明扩大成普遍可靠性结论。",
+      "en": "The community lane retains specific failures and maintainer responses rather than treating a public repository as a satisfaction survey. Historical OpenClaw issues distinguish stale tool discovery after a Gateway restart from completion messages lost around configuration reloads. Starting another session is a workaround, and this candidate remains outside the accepted set because its interrupted image operation was unresolved. Pydantic AI's merged discussion makes the difference between completed generation and completed playback inspectable; previously obtained history snapshots do not update retroactively. This is implementation evidence from maintainers, not an independently rerun failure rate. Copilot CLI's stable release and two previews retain their own timestamps and behavior. Skipping an unauthenticated MCP connection does not complete the step depending on it. No representative new sample of Reddit, Hacker News, V2EX or general public comments was established. Discussion volume is not evidence of willingness to pay. Follow-up should connect repeated reports to configuration, the actual repair version and external side effects. A single release note cannot support a blanket reliability conclusion across every user environment."
+    },
+    {
+      "lane": "wild",
+      "status": "Startup and prototype originals; discovery/comment coverage incomplete",
+      "zh": "新创与非主流入口线从原始候选追到 Lovart、Arda、RoboParty、Mobo、GripSound 与公开代码，保留不同成熟度。Lovart 的公告日期为十九日，采集在本期截止之后，属于延迟发现；其公开未登录入口不能证明付费排程已经运行。Arda 是已有部署背景的公开亮相，不是首个客户使用；RoboParty 是东南亚区域扩展，不是九月全球首发重演。Mobo 的预售状态只在截止后核实，GripSound 的旧公告给出计划上市日，都不能用后来的网页状态倒填截止前事实。研究方报告 Product Hunt 与评论扫描不完整，DIY 线索有旧项目或重复项，因此没有新增获验收的 DIY 产品来填类别。ClicData MCP 同功能已有更早材料，不作为新发布加入。下一步优先补可运行材料、公开交付条款与真实任务证据，而非以榜单位置、候补名单或订金人数推导留存。",
+      "en": "Startup and unconventional-entry validation followed candidate originals for Lovart, Arda, RoboParty, Mobo, GripSound and public code, preserving differences in maturity. Lovart's October 19 announcement was collected after this issue's cutoff and is explicitly a delayed discovery. Its signed-out interface does not establish successful paid scheduling. Arda is a public unveiling with earlier deployment context, not its first customer installation. RoboParty concerns a Southeast Asian route rather than another global debut after September. Mobo's preorder state was verified only after cutoff, while GripSound's older release gave a scheduled launch date. Neither later observation can backfill a pre-cutoff availability fact. The researchers reported incomplete Product Hunt and comment coverage, with old or duplicate DIY leads. No additional accepted DIY item was invented to fill the category. ClicData MCP was investigated but had earlier material describing the same functionality and was not promoted as fresh news. Useful follow-up should obtain reproducible materials, delivery terms and task evidence. Rankings, waitlists and deposits do not establish retention or successful use."
+    },
+    {
+      "lane": "research",
+      "status": "Original papers, histories and reported experiments",
+      "zh": "研究线核对 arXiv 原始摘要与版本历史，把提交时刻与公开公告时刻区分。Idealworks 的两篇车队论文合为一个项目，但记忆问答与导航策略的实验不拼接成已交付闭环。LiveUIBench 用 AppWorld 服务环境核验状态，不代表真实账户；CanvasObs 的目标选择优于完整任务完成，不能只保留改善最大的中间指标。ValiAssist、FENCE、Sidecar 与 Rehearsim 分别涉及规则推广、记忆准入、等待期间思考和访谈排练，研究样本、心理负担、无对照组与合成参与者限制保留。REACT 的作者动作演示不等于日常安全。PhonoBridge 与 PointHand 的旧计数包含主摘要，单独深读不足，并有未完成图像检查，因此没有通过本轮完整验收。论文图、真实界面、生成示意和代码许可分别记录；公开仓库不自动取得完整训练代码或商业使用许可。",
+      "en": "Research validation checked original arXiv abstracts and version histories, separating submission timestamps from unconfirmed public-announcement times. Idealworks' two fleet papers form one project, but memory question answering and navigation experiments are not combined into a delivered autonomous loop. LiveUIBench evaluates state in AppWorld services rather than real customer accounts. CanvasObs improves target selection more than full task completion, so the most favorable intermediate measure is not substituted for the whole editing job. ValiAssist, FENCE, Sidecar and Rehearsim examine rule generalization, memory admission, thinking during waits and interview rehearsal. Sample limitations, mental workload, absence of a control group and synthetic-participant risks remain visible. REACT's author demonstrations do not establish everyday physical safety. Earlier counts for PhonoBridge and PointHand included their summaries; their separate deep reads fall below the retained gate and their image checks remain unresolved. Paper figures, actual interfaces, generated illustrations and software licenses are recorded separately. A public repository does not establish a complete training release or unrestricted commercial rights. No paper was independently replicated in this issue."
+    },
+    {
+      "lane": "patent",
+      "status": "Provider/access gap; no patent promoted",
+      "zh": "专利线仍是明确访问缺口。转交记录报告既有专利提供方不可用，没有交付可核对的本期专利全文、公开日、申请人、同族、权利要求和附图组合。本轮没有创建账户、凭据或新的付费检索通道，也没有把产品新闻中的技术架构当成专利证据。Mitsubishi 的任务库、NVIDIA 的安全工作区和机器人厂商的研发路线都可能值得以后追踪，但当前来源类型仍是公告、文档或论文。不能据此声称不存在相关申请，也不能推导某家公司已经取得专有权或准备量产。下一次补查需要先确认公开文本与同族，排除优先权日、提交日、授权日和失效日混淆，再把相关权利要求与真实交互机制对应。未通过这些检查的线索只留在观察范围，不进入项目或独立事件计数；专利数量也不代表产品成熟度、采用或商业收入。",
+      "en": "The patent lane remains an explicit access gap. The transferred record reports that the existing patent provider was unavailable. It did not supply a current, verifiable combination of publication text, publication date, applicant, family, claims and drawings. This validation created no account, credential or paid search channel, and it did not reclassify a product architecture as patent evidence. Mitsubishi's task library, NVIDIA's secure workspace and robot vendors' development routes may warrant later investigation, but their current sources remain announcements, documentation or papers. The gap does not prove that relevant applications do not exist, establish exclusive rights, or demonstrate a production plan. A subsequent check must first identify the public text and family, separating priority, submission, publication, grant and expiry dates. Relevant claims should then be connected to the actual interaction mechanism. Leads that fail those checks remain observations outside project and independent-event counts. Counting filings would not establish maturity, adoption or revenue. This edition therefore discloses the access limitation instead of supplying an invented patent story to complete a category."
+    },
+    {
+      "lane": "china",
+      "status": "Regional originals; limited independent evidence",
+      "zh": "中国及亚洲相关线索包括 RoboParty 的区域研究平台、AiMOGA 的家庭机器人预订、GripSound 的穿戴扬声器，以及在日本和韩国发布的制造原型。这里的地域标签不增加独立来源数。RoboParty 公告明确区分教育 DIY 的 RPO 与运动研究的 RP1，公开代码入口尚未完成整栈许可和复现审计。Mobo 的九十九美元订金可抵三百九十九美元购机款，两个数字都不是整机价；没有实际发货证据。GripSound 的噪声消除也不能被改写成通用代理助理。HD Hyundai 的力觉、移动与双足方向保留未来时态，近照的使用限制影响本刊图证验收。Mitsubishi 原始页面时刻缺少时区，不由地理印象补造精确时间。本轮未建立中文独立上手和真实买方成交样本，后续需要地区交付、维修、语言交互与账户权益证据，而不是用全球发布标题概括所有市场。",
+      "en": "China and adjacent Asian leads include RoboParty's regional research platform, AiMOGA's household reservation funnel, GripSound's wearable speaker, and manufacturing prototypes announced in Japan and Korea. Regional tags do not add independent sources. RoboParty distinguishes the educational DIY-oriented RPO from the research-oriented RP1, while complete stack licensing and reproduction remain unaudited. Mobo's ninety-nine-dollar deposit creates a three-hundred-ninety-nine-dollar purchase credit; neither number is the robot's total price, and shipment evidence is absent. GripSound's noise suppression must not be rewritten as a general-purpose agent assistant. HD Hyundai's force sensing, mobility and walking directions retain future status, and the photograph's usage restrictions affect visual acceptance. Mitsubishi's source clock lacks a timezone, which is not supplied from geographical assumptions. This issue did not establish a Chinese-language independent hands-on sample or verified buyer transactions. Further checks should address regional delivery, repairs, language interaction and account entitlement. A global announcement heading cannot establish identical access across markets or serve as evidence that regional support is ready."
+    },
+    {
+      "lane": "global",
+      "status": "Cross-region comparison within the recovered sample",
+      "zh": "全球比较围绕相同任务而非公司声量：企业执行比较 Arc 的持续跟进、Zuma 的动作治理与 OpenShell 的部署边界；制造比较 Sereact 的退货工位、Arda 的设计变更传递和研究机器人平台。不同交付形式不合并：私有预览、一般可用、参考架构、早期访问与未来试点分别标注。Gemini 政府任务包针对美国联邦、州和地方机构，不能写成全球政府可用；ASUS 配置与支持仍依地区合同核对。欧洲站点已经运行的事实，与今天新增合作网络或训练架构不是同一事件。原始公告和发行渠道属于同一来源组，多个域名不增加独立确认。历史对照使用可读近八周来源台账与既有刊物目录，无法读到的历史不宣称已查全。本线提出的是当期供给与交互信号，尚没有连续用户、收入或保留率数据支持市场增长结论。",
+      "en": "Global comparison is organized around shared tasks rather than company prominence. Enterprise execution connects Arc's continuing follow-up, Zuma's action governance and OpenShell's deployment boundaries. Manufacturing compares Sereact's returns station, Arda's propagation of design changes and research robot platforms. Private preview, general availability, reference architecture, early access and a future pilot remain distinct delivery forms. Gemini's government package targets United States federal, state and local institutions rather than worldwide governments. ASUS configurations and support still depend on regional contracts. Existing operation at European sites is separate from today's partnership network or training-architecture announcement. Original releases and their distribution channels belong to one origin group; more domains do not create independent confirmation. Historical comparison uses readable source ledgers and published indexes from the preceding eight weeks, without claiming inaccessible history was fully checked. This lane supports bounded supply and interaction signals for the present issue. It lacks continuous user, revenue and retention data needed for a market-growth conclusion. Subsequent comparisons should keep task conditions and commercial availability consistent across regions."
+    }
+  ],
+  "revision": {
+    "label": "delayed-publication",
+    "originalCutoffRetained": true,
+    "newIssue": true,
+    "baselineCommit": "bc00e62678770e99f71e8c999c37e0be8f3376af"
+  },
+  "topics": [
+    {
+      "id": "idealworks",
+      "zhHeadline": "Idealworks把车队记忆与导航分开验证，学习策略尚未超过现有生产栈",
+      "enHeadline": "Idealworks separates fleet memory from navigation; learned policies still trail the production stack",
+      "eventAt": "2026-10-20T17:58:32Z · submission",
+      "freshness": "main",
+      "evidence": "Author research; not independently replicated",
+      "eventDateNote": "Submission, announcement and availability are distinct; see full analysis. Collection followed the fixed cutoff."
+    },
+    {
+      "id": "mintlify-autopilot",
+      "zhHeadline": "Autopilot把文档缺口变成待审PR，价值仍取决于审核负担",
+      "enHeadline": "Autopilot turns documentation gaps into reviewable PRs; reviewer effort still decides its value",
+      "eventAt": "2026-10-20 · date only",
+      "freshness": "near-three-day",
+      "evidence": "Vendor announcement / documentation; not independently tested",
+      "eventDateNote": "Submission, announcement and availability are distinct; see full analysis. Collection followed the fixed cutoff."
+    },
+    {
+      "id": "onedrive-copilot",
+      "zhHeadline": "OneDrive把分析和报告留在文件现场，但首个演示不等于持续可靠",
+      "enHeadline": "OneDrive keeps analysis and reports beside the files; a first demo does not establish repeatability",
+      "eventAt": "2026-10-20T16:00:00Z · event",
+      "freshness": "main",
+      "evidence": "Vendor announcement / documentation; not independently tested",
+      "eventDateNote": "Submission, announcement and availability are distinct; see full analysis. Collection followed the fixed cutoff."
+    },
+    {
+      "id": "churnzero-kit",
+      "zhHeadline": "Kit把客户问题接到扩张动作，前提是上下文和批准都可信",
+      "enHeadline": "Kit connects customer questions to expansion actions, provided context and approvals remain trustworthy",
+      "eventAt": "2026-10-19 / 20 · conflict",
+      "freshness": "near-three-day",
+      "evidence": "Vendor announcement / documentation; not independently tested",
+      "eventDateNote": "Submission, announcement and availability are distinct; see full analysis. Collection followed the fixed cutoff."
+    },
+    {
+      "id": "nvidia-isaac",
+      "zhHeadline": "Isaac把机器人研发接成完整链路，但参考人形机要等到2027年",
+      "enHeadline": "Isaac connects the robotics development loop; its reference humanoid arrives in 2027",
+      "eventAt": "2026-10-21T10:20Z · minute precision",
+      "freshness": "main",
+      "evidence": "Vendor announcement / documentation; not independently tested",
+      "eventDateNote": "Submission, announcement and availability are distinct; see full analysis. Collection followed the fixed cutoff."
+    },
+    {
+      "id": "bear-kino-2",
+      "zhHeadline": "KINO-2把抓取接入仓库任务，但推理加速不等于整单成功",
+      "enHeadline": "KINO-2 connects manipulation to warehouse work; faster inference does not prove completed orders",
+      "eventAt": "2026-10-21T11:30:31Z",
+      "freshness": "main",
+      "evidence": "Vendor announcement / documentation; not independently tested",
+      "eventDateNote": "Submission, announcement and availability are distinct; see full analysis. Collection followed the fixed cutoff."
+    },
+    {
+      "id": "agco-digit",
+      "zhHeadline": "AGCO给Digit明确工序，但2027试点尚未给出产线收益",
+      "enHeadline": "AGCO gives Digit a defined job; the 2027 pilot has yet to establish factory returns",
+      "eventAt": "2026-10-20T12:15:00Z",
+      "freshness": "near-three-day",
+      "evidence": "Vendor announcement / documentation; not independently tested",
+      "eventDateNote": "Submission, announcement and availability are distinct; see full analysis. Collection followed the fixed cutoff."
+    },
+    {
+      "id": "jotform-chat-app-builder",
+      "zhHeadline": "对话能把表单拼成业务入口，但完整外观仍须接受流程验收",
+      "enHeadline": "Conversation can assemble a business front door; a finished appearance still needs workflow validation",
+      "eventAt": "2026-10-20 · timezone unknown",
+      "freshness": "near-three-day",
+      "evidence": "Vendor announcement / documentation; not independently tested",
+      "eventDateNote": "Submission, announcement and availability are distinct; see full analysis. Collection followed the fixed cutoff."
+    },
+    {
+      "id": "saviynt-zuma-apps",
+      "zhHeadline": "Zuma把治理推到交易之前，但绕过网关的路径仍决定边界",
+      "enHeadline": "Zuma moves governance ahead of transactions; paths around the gateway still define its limits",
+      "eventAt": "2026-10-20T14:38:41Z",
+      "freshness": "main",
+      "evidence": "Vendor announcement / documentation; not independently tested",
+      "eventDateNote": "Submission, announcement and availability are distinct; see full analysis. Collection followed the fixed cutoff."
+    },
+    {
+      "id": "roboparty-rp1",
+      "zhHeadline": "RP1扩展东南亚入口，但开放技术栈仍要经过复现检验",
+      "enHeadline": "RP1 expands its Southeast Asian route, but the open-stack claim still needs reproduction",
+      "eventAt": "2026-10-16T02:00:00Z · report",
+      "freshness": "seven-day",
+      "evidence": "Vendor announcement / documentation; not independently tested",
+      "eventDateNote": "Submission, announcement and availability are distinct; see full analysis. Collection followed the fixed cutoff."
+    },
+    {
+      "id": "sereact-ur",
+      "zhHeadline": "退货机器人真正的新进展，是复制部署与有门槛的策略更新",
+      "enHeadline": "The advance in returns robotics is repeatable deployment and gated policy updates",
+      "eventAt": "2026-10-21T11:30Z / 12:26Z",
+      "freshness": "main",
+      "evidence": "Vendor announcement / documentation; not independently tested",
+      "eventDateNote": "Submission, announcement and availability are distinct; see full analysis. Collection followed the fixed cutoff."
+    },
+    {
+      "id": "copilot-cli",
+      "zhHeadline": "Copilot CLI把授权失败变成可处理状态，稳定版与预览版必须分开判断",
+      "enHeadline": "Copilot CLI makes authorization failures actionable, with stable and preview behavior kept separate",
+      "eventAt": "2026-10-20T18:49:53Z · stable",
+      "freshness": "main",
+      "evidence": "Vendor announcement / documentation; not independently tested",
+      "eventDateNote": "Submission, announcement and availability are distinct; see full analysis. Collection followed the fixed cutoff."
+    },
+    {
+      "id": "isolved-agent-view",
+      "zhHeadline": "Agent View让智能体有负责人，但第三方登记不等于实时监控",
+      "enHeadline": "Agent View assigns accountable owners, but third-party registration is not live monitoring",
+      "eventAt": "2026-10-21T12:00:00Z",
+      "freshness": "main",
+      "evidence": "Vendor announcement / documentation; not independently tested",
+      "eventDateNote": "Submission, announcement and availability are distinct; see full analysis. Collection followed the fixed cutoff."
+    },
+    {
+      "id": "notion-ai-routing-credits",
+      "zhHeadline": "Notion替用户选择模型，预算和恢复状态因此更需要解释",
+      "enHeadline": "Notion takes over model selection, making budget and recovery state more important to explain",
+      "eventAt": "2026-10-19 · date only",
+      "freshness": "near-three-day",
+      "evidence": "Vendor announcement / documentation; not independently tested",
+      "eventDateNote": "Submission, announcement and availability are distinct; see full analysis. Collection followed the fixed cutoff."
+    },
+    {
+      "id": "lovart-arti",
+      "zhHeadline": "Arti把重复设计变成可排程任务，但验收仍须由人控制",
+      "enHeadline": "Arti makes recurring design schedulable, while people still own acceptance",
+      "eventAt": "2026-10-19 · date only",
+      "freshness": "near-three-day",
+      "evidence": "Vendor announcement / documentation; not independently tested",
+      "eventDateNote": "Submission, announcement and availability are distinct; see full analysis. Collection followed the fixed cutoff."
+    },
+    {
+      "id": "openshell-reference-architecture",
+      "zhHeadline": "OpenShell新参考架构把治理责任写清，安全仍要逐条验证",
+      "enHeadline": "OpenShell’s new design clarifies control ownership, but deployment still needs proof",
+      "eventAt": "2026-10-21 · public by 11:30Z",
+      "freshness": "main",
+      "evidence": "Vendor announcement / documentation; not independently tested",
+      "eventDateNote": "Submission, announcement and availability are distinct; see full analysis. Collection followed the fixed cutoff."
+    },
+    {
+      "id": "pydantic-ai",
+      "zhHeadline": "Pydantic AI让打断后的语音记住实际听到什么",
+      "enHeadline": "Pydantic AI makes interrupted speech remember what the listener actually heard",
+      "eventAt": "2026-10-21T04:36:13Z",
+      "freshness": "main",
+      "evidence": "Maintainer report; not independently executed",
+      "eventDateNote": "Submission, announcement and availability are distinct; see full analysis. Collection followed the fixed cutoff."
+    },
+    {
+      "id": "react",
+      "zhHeadline": "REACT把接触关系带进人形机器人学习，一次拥抱仍不能证明日常可靠",
+      "enHeadline": "REACT brings contact relationships into humanoid learning, but a successful hug does not establish everyday reliability",
+      "eventAt": "2026-10-20T16:57:52Z · submission",
+      "freshness": "main",
+      "evidence": "Author research; not independently replicated",
+      "eventDateNote": "Submission, announcement and availability are distinct; see full analysis. Collection followed the fixed cutoff."
+    },
+    {
+      "id": "gemini-government-services",
+      "zhHeadline": "政府任务包减少搭建步骤，私有预览仍须逐项验证引用与删改",
+      "enHeadline": "Government task packages reduce setup, but the private preview still needs citation and redaction checks",
+      "eventAt": "2026-10-20T10:00:00Z",
+      "freshness": "near-three-day",
+      "evidence": "Vendor announcement / documentation; not independently tested",
+      "eventDateNote": "Submission, announcement and availability are distinct; see full analysis. Collection followed the fixed cutoff."
+    },
+    {
+      "id": "doubleai-maxwell-ltx",
+      "zhHeadline": "Maxwell把优化放进运行现场，但更快必须与语义和总成本一起验证",
+      "enHeadline": "Maxwell optimizes running workloads, but speed must be checked against semantics and total cost",
+      "eventAt": "2026-10-19 · date only",
+      "freshness": "near-three-day",
+      "evidence": "Vendor announcement / documentation; not independently tested",
+      "eventDateNote": "Submission, announcement and availability are distinct; see full analysis. Collection followed the fixed cutoff."
+    },
+    {
+      "id": "asus-enterprise-agentic-ai",
+      "zhHeadline": "ASUS把代理部署打包销售，采购价值取决于责任是否真正统一",
+      "enHeadline": "ASUS packages agent deployment, but the value depends on who owns the whole system",
+      "eventAt": "2026-10-21T11:30:00Z · issuer",
+      "freshness": "main",
+      "evidence": "Vendor announcement / documentation; not independently tested",
+      "eventDateNote": "Submission, announcement and availability are distinct; see full analysis. Collection followed the fixed cutoff."
+    },
+    {
+      "id": "servicenow-arc",
+      "zhHeadline": "Arc把持续跟进交给代理，企业价值要扣除审批与修复成本",
+      "enHeadline": "Arc’s enterprise value depends on the follow-up work it actually removes",
+      "eventAt": "2026-10-21T11:30:00Z · GA report",
+      "freshness": "main",
+      "evidence": "Vendor announcement / documentation; not independently tested",
+      "eventDateNote": "Submission, announcement and availability are distinct; see full analysis. Collection followed the fixed cutoff."
+    },
+    {
+      "id": "liveuibench",
+      "zhHeadline": "LiveUIBench把验收从打开页面推进到改对同一条记录",
+      "enHeadline": "LiveUIBench moves acceptance from opening an app to correctly revising the same record",
+      "eventAt": "2026-10-20T10:20:00Z · submission",
+      "freshness": "near-three-day",
+      "evidence": "Author research; not independently replicated",
+      "eventDateNote": "Submission, announcement and availability are distinct; see full analysis. Collection followed the fixed cutoff."
+    },
+    {
+      "id": "canvasobs",
+      "zhHeadline": "CanvasObs让代理理解对象关系，选对对象仍不等于完成编辑",
+      "enHeadline": "CanvasObs exposes object relationships, but selecting the right target is not completing the edit",
+      "eventAt": "2026-10-19T19:10:41Z · submission",
+      "freshness": "near-three-day",
+      "evidence": "Author research; not independently replicated",
+      "eventDateNote": "Submission, announcement and availability are distinct; see full analysis. Collection followed the fixed cutoff."
+    },
+    {
+      "id": "firmable-tech-intelligence",
+      "zhHeadline": "Tech Intelligence把技术线索接到找客流程，置信度必须随名单一起走",
+      "enHeadline": "Tech Intelligence connects technology signals to prospecting; confidence must travel with the list",
+      "eventAt": "2026-10-15 · availability",
+      "freshness": "seven-day",
+      "evidence": "Vendor announcement / documentation; not independently tested",
+      "eventDateNote": "Submission, announcement and availability are distinct; see full analysis. Collection followed the fixed cutoff."
+    },
+    {
+      "id": "valiassist",
+      "zhHeadline": "ValiAssist把教师修改变成可审查规则，关键是控制推广范围",
+      "enHeadline": "ValiAssist turns instructor corrections into reviewable rules, with scope as the critical control",
+      "eventAt": "2026-10-19T20:21:00Z · submission",
+      "freshness": "near-three-day",
+      "evidence": "Author research; not independently replicated",
+      "eventDateNote": "Submission, announcement and availability are distinct; see full analysis. Collection followed the fixed cutoff."
+    },
+    {
+      "id": "fence",
+      "zhHeadline": "FENCE把记忆准入变成可见选择，临时回答不再等于长期记住",
+      "enHeadline": "FENCE makes memory admission visible, separating a temporary answer from persistent memory",
+      "eventAt": "2026-10-20T04:12:33Z · submission",
+      "freshness": "near-three-day",
+      "evidence": "Author research; not independently replicated",
+      "eventDateNote": "Submission, announcement and availability are distinct; see full analysis. Collection followed the fixed cutoff."
+    },
+    {
+      "id": "antigravity-claude-55",
+      "zhHeadline": "Antigravity降低换模型的交接成本，却没有消除账单与评审边界",
+      "enHeadline": "Antigravity makes model handoffs easier without removing billing or review boundaries",
+      "eventAt": "2026-10-20T23:00:04Z",
+      "freshness": "main",
+      "evidence": "Vendor announcement / documentation; not independently tested",
+      "eventDateNote": "Submission, announcement and availability are distinct; see full analysis. Collection followed the fixed cutoff."
+    },
+    {
+      "id": "splashtop-agentic-packr",
+      "zhHeadline": "Agentic Packr把打包变成可审查产物，部署权仍在管理员手里",
+      "enHeadline": "Agentic Packr makes packaging reviewable while administrators retain rollout control",
+      "eventAt": "2026-10-19 · GA date",
+      "freshness": "near-three-day",
+      "evidence": "Vendor announcement / documentation; not independently tested",
+      "eventDateNote": "Submission, announcement and availability are distinct; see full analysis. Collection followed the fixed cutoff."
+    },
+    {
+      "id": "looks-fine-to-me",
+      "zhHeadline": "“Looks Fine to Me”揭示监督漏斗，做过检查不等于找到静默缺陷",
+      "enHeadline": "“Looks Fine to Me” exposes the oversight funnel: checking is not the same as detecting silent defects",
+      "eventAt": "2026-10-20T08:00:16Z · submission",
+      "freshness": "near-three-day",
+      "evidence": "Author research; not independently replicated",
+      "eventDateNote": "Submission, announcement and availability are distinct; see full analysis. Collection followed the fixed cutoff."
+    },
+    {
+      "id": "sidecar",
+      "zhHeadline": "Sidecar把等待变成并行思考，但不应暗中改动正在运行的任务",
+      "enHeadline": "Sidecar supports thought during a wait without silently changing the running task",
+      "eventAt": "2026-10-19T19:05:37Z · submission",
+      "freshness": "near-three-day",
+      "evidence": "Author research; not independently replicated",
+      "eventDateNote": "Submission, announcement and availability are distinct; see full analysis. Collection followed the fixed cutoff."
+    },
+    {
+      "id": "wildawm",
+      "zhHeadline": "WildAWM用跨界面状态变化验收代理，合理回答不能代替实际执行",
+      "enHeadline": "WildAWM checks state changes across interfaces; a plausible answer cannot replace execution",
+      "eventAt": "2026-10-19T17:55:35Z · submission",
+      "freshness": "near-three-day",
+      "evidence": "Author research; not independently replicated",
+      "eventDateNote": "Submission, announcement and availability are distinct; see full analysis. Collection followed the fixed cutoff."
+    },
+    {
+      "id": "rehearsim",
+      "zhHeadline": "Rehearsim用模拟访谈暴露问题，合成回答不能变成用户事实",
+      "enHeadline": "Rehearsim uses simulated interviews to expose questions, not manufacture user evidence",
+      "eventAt": "2026-10-19T21:54:45Z · submission",
+      "freshness": "near-three-day",
+      "evidence": "Author research; not independently replicated",
+      "eventDateNote": "Submission, announcement and availability are distinct; see full analysis. Collection followed the fixed cutoff."
+    }
+  ],
+  "eventCounts": {
+    "mainWindowEvents": 14,
+    "nearThreeDayReviews": 17,
+    "sevenDayReviews": 2,
+    "interpretation": "Announcements, submissions, updates and regional reports; not first product launches."
+  }
+}
