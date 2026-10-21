@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-10-21",
+    "zhTitle": "AI Daily｜2026年10月21日 · 持续行动需要真实状态证据",
+    "enTitle": "AI Daily | October 21, 2026 · Evidence for persistent action",
+    "zhSummary": "33个项目，涵盖企业代理、机器人、开发工具、SDK与交互研究。每项附完整深读与图证；104条来源。固定14:00:02Z截止，延迟发布，窗口内事件与回看分别标注。",
+    "enSummary": "33 projects across enterprise agents, robotics, developer tools, an SDK and interaction research. Full analyses, 33 visuals and 104 sources. Fixed 14:00:02Z cutoff; delayed publication with event windows and lookbacks labeled.",
+    "tags": [
+      "agent workflows",
+      "robotics",
+      "developer tools",
+      "research"
+    ],
+    "sourceTypes": [
+      "official",
+      "community",
+      "research"
+    ],
+    "coverStory": {
+      "topicId": "idealworks",
+      "zhTitle": "Idealworks车队记忆",
+      "enTitle": "Idealworks fleet memory",
+      "imagePath": "assets/idealworks.jpg",
+      "imageSourceUrl": "https://arxiv.org/html/2610.28624v1/images/iw-remember.png",
+      "primarySourceUrl": "https://arxiv.org/abs/2610.28624",
+      "evidenceStrength": "author research; not independently tested"
+    },
+    "zhPath": "./2026-10-21/zh/",
+    "enPath": "./2026-10-21/en/",
+    "sourcesPath": "./2026-10-21/sources.html"
+  },
+  {
     "date": "2026-10-20",
     "zhTitle": "AI Daily｜2026年10月20日 · AI走向行动，控制权必须可见",
     "enTitle": "AI Daily | October 20, 2026 · Visible control as AI moves into action",

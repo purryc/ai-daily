@@ -77,7 +77,7 @@ export async function checkArchive({browser, url, live, locale, phase, check, sc
     await p.goto(home+'?type=weekly&year=2026&month=10',{waitUntil:'domcontentloaded'});await ready();
     check('archive-weekly-reload',same(await visibleDates(),weeks.map(w=>w.week_start)),{viewport});
     await p.locator('button[data-archive-type="daily"]').click();
-    check('archive-same-date-types-distinct',(await visibleDates()).length===13&&await p.locator('.issue-card[data-archive-type="weekly"]').isHidden(),{viewport});
+    check('archive-same-date-types-distinct',(await visibleDates()).length===records.filter(r=>r.date.startsWith('2026-10')).length&&await p.locator('.issue-card[data-archive-type="weekly"]').isHidden(),{viewport});
     await p.locator('button[data-archive-type="all"]').click();await p.locator('[data-archive-month="08"]').click();
     await p.locator('[data-archive-order]').selectOption('oldest');
     const august=allDates.filter(d=>d.startsWith('2026-08')).reverse();
