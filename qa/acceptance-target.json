@@ -2,7 +2,7 @@
   "phase": "live",
   "baselineCommit": "bc32c8ae81e5c396bdcd5be0374143b5ff8734f8",
   "publicCommit": "bc00e62678770e99f71e8c999c37e0be8f3376af",
-  "acquireAssets": false,
+  "acquireAssets": true,
   "archiveRevision": true,
-  "note": "Verify live unified title/language header and complete removal of redundant topbar; filters and content unchanged."
+  "note": "Bounded public source image acquisition for October 21; existing October 20 live acceptance remains unchanged."
 }
