@@ -320,7 +320,7 @@
     "products": 38,
     "references": 147,
     "coreVisuals": 38,
-    "slidesPerLocale": 43,
+    "slidesPerLocale": 41,
     "primaryProjectPages": 38,
     "attachedProjectDetails": 38,
     "primaryBody": {
@@ -332,93 +332,6 @@
       "enWords": 21165
     }
   },
-  "laneScans": [
-    {
-      "lane": "OFFICIAL",
-      "status": "Original releases, documentation and implementation checked",
-      "zh": "官方线把发布标题与真正变化逐一拆开。Claude Security的持续复查、修复跟踪与迁移遗漏来自公告和支持文档；ONEKEY首版发布声明与九月路线图、十月十四日既有功能文章并列，避免把同名能力重新首发。Google Agents CLI采用十月二十日的1.11.0发行时间，而不是把次日教程中更早的扩展机制算成新功能。硬件线读取制造原型、车内助手、仓储运行和输入校准资料，明确2030目标、概念演示、区域交付和已经发生的运行案例。Nebius返回物流训练闭环在昨日Sereact深读已出现，故排除重复；联想零售稿也归入旧RTX Spark发布族。无精确时刻的十月二十一日资料保守列补充，不用转载时刻填补原始日期。定价、平台支持与恢复行为有冲突时保留冲突；团队没有登录执行、部署机器人或复现性能，因此厂商资料仍按厂商证据呈现。",
-      "en": "The official lane separated release headlines from actual changes. Claude Security’s continuous checks, fix tracking and migration omissions came from its announcement and support documentation. ONEKEY’s first-version release statement was compared with its September roadmap and October 14 feature article, preventing the same capabilities from being presented as newly disclosed. Google Agents CLI uses the October 20 release time for version1.11.0 rather than treating an older extension mechanism in the next day’s tutorial as new. Hardware sources covered manufacturing prototypes, an in-car assistant, warehouse operation and input calibration, distinguishing a 2030 target, concept demonstrations, regional delivery and reported operating deployments. The Nebius returns-training loop already appeared in yesterday’s Sereact analysis and was excluded; Lenovo retail coverage belonged to the earlier RTX Spark launch family. Date-only October 21 sources were conservatively treated as supplements. Syndication time did not replace original publication time. Pricing, platform-support and recovery conflicts remain visible. The team did not perform authenticated execution, robot deployment or performance replication, so vendor documentation remains attributed evidence rather than an independent product test.",
-      "sourceUrls": [
-        "https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes",
-        "https://www.onekey.com/press-release/onekey-launches-ai-agent-conversational-vulnerability-investigation-sbom-and-component-exploration",
-        "https://github.com/google/agents-cli/releases/tag/v1.11.0",
-        "https://www.mitsubishielectric.com/en/pr/2026/1021_rd/"
-      ]
-    },
-    {
-      "lane": "REVIEWS",
-      "zh": "本轮评测线索优先区分真实操作、技术分析与发布稿转述。LiteLLM十月二十一日事件有维护者时间线，并得到Endor Labs和Chainguard两条外部技术来源支持；后者的检测速度和保护范围属于其商业服务自述，不作为本刊复测。Ofox比较文章交代五个AI辅助任务测试及七个仅文档比较，同时把自己的产品纳入排名，不能当作中立选购结论。手机评测线索交由硬件研究者读取原文，MiniMax模型测试交由中文产品研究者核验。Trail of Bits的修复与回归检查工具则有可固定的代码版本、流程文档和报告规则，但性能数字仍来自作者自身初步评估。此线最终保留可检查的机制与明确证据边界，没有把新闻标题、搜索摘要或供应商宣传改写成独立上手体验。",
-      "en": "The review scan distinguished actual operation, technical investigation, and retelling of announcements. The October 21 LiteLLM incident has a maintainer timeline and two external technical lines from Endor Labs and Chainguard. Chainguard also sells protected images, so its detection speed and customer protection remain attributed commercial claims rather than measurements reproduced here. The Ofox comparison disclosed five AI-assisted task tests and seven documentation-only comparisons, while including its own product. That methodology does not support presenting its ranking as neutral purchasing advice. An original phone-review lead went to the hardware researcher for a full read, and a MiniMax model review went to the China-product researcher for counterchecking. Trail of Bits supplied inspectable versioned code, workflow documentation, and report definitions for its patching and regression tools; its performance figures remain the authors’ preliminary evaluation. The useful outcome is a distinction between claims a reader can inspect and conclusions still requiring independent execution. Search snippets and inaccessible articles were retained as discovery records, without being upgraded into hands-on testing.",
-      "sourceUrls": [
-        "https://www.endorlabs.com/learn/litellm-1-107-0-compromised-python-startup-hooks-steal-cloud-ai-and-proxy-credentials",
-        "https://www.chainguard.dev/unchained/litellm-attacked-again-malicious-1-107-0-wheels-on-pypi-and-docker-hub-october-2026",
-        "https://ofox.ai/blog/ai-agents-late-2026/",
-        "https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/"
-      ],
-      "status": "Actual reports read; limited samples and independent-source boundaries retained"
-    },
-    {
-      "lane": "COMMUNITY",
-      "zh": "社区扫描得到的具体问题集中在执行状态是否与用户理解一致。Collie的一位操作者报告多会话中排队提示与手动发送入口难以理解，另一条pi多行输入记录显示文本进入终端不代表已经提交；相关修复提案仍开放，不能写成稳定版全部解决。稳定版1.23.2确实调整问题卡片和敏感首行的手动提交边界，可与维护者日志交叉核验。OpenAI社区的听写投诉只有一名作者，描述Windows桌面Chrome上句尾延迟与标点问题；官方FAQ确认可编辑后发送的操作链，却未证实统一改版时间。另一条安全审查抱怨的三篇帖子也来自同一人。两者均保留观察，不推断普遍故障。社区材料的价值在于暴露应测试的状态转换，而不是用帖子数量制造缺陷流行率。",
-      "en": "The community scan found concrete mismatches between execution state and what an operator understood. One Collie operator described confusing queue states and a hard-to-find manual-send action across multiple sessions. A separate pi multiline-input report showed why text appearing in a terminal does not prove that it was submitted. Its proposed fix remains open and must not be described as fully shipped. The stable 1.23.2 release does change question cards and manual confirmation for sensitive first lines, which can be checked against maintainer notes. An OpenAI Community dictation complaint came from one author describing delayed sentence endings and punctuation on Windows with Chrome. The official FAQ confirms reviewable text before sending but does not establish a universal redesign date. Three posts about security review and truncation also came from a single author. Both threads remain observations rather than general platform-failure findings. Community evidence is useful for selecting state transitions to test, provided repeated posts are not counted as independent users and one workflow is not converted into a prevalence estimate.",
-      "sourceUrls": [
-        "https://github.com/AltanS/collie/pull/559",
-        "https://github.com/AltanS/collie/issues/553",
-        "https://github.com/AltanS/collie/pull/555",
-        "https://github.com/AltanS/collie/releases/tag/v1.23.2",
-        "https://community.openai.com/t/october-21-dictation-redesign-is-broken/1408594",
-        "https://help.openai.com/en/articles/12168547-voice-dictation-faq"
-      ],
-      "status": "Actual reports read; limited samples and independent-source boundaries retained"
-    },
-    {
-      "lane": "WILD",
-      "status": "Maker launches and releases checked; attention is not launch time",
-      "zh": "新创与开源线读取十月二十一日Product Hunt公开榜单中的十七项，再回到官网、版本历史、代码和许可核验。BAND、Agent Pets、ilha与The Brains呈现不同的跨工具协作入口，具体可用性仍按各自文档处理；ilha与The Brains更早已公开，因此保留一周回看日期。ProjectOps以4.72.0发行记录界定新增，RAGFlow按候选版本说明而不宣称稳定全面交付。SuperCMO此前已经出现，本次只考察0.1.27的安装与执行控制变化。Flagsmith闭测和部分营销产品都有更早材料，不能用再次上榜重置日期。原始画廊逐张检查，文字海报、促销码及只有开场命令的动画帧未作合格主图。代码公开、软件许可、第三方模型费用与实际部署需要分别核实；发现入口不产生销量、留存或付费意愿证据。非AI的关系提醒、付费私信和虚拟机工具保留范围判断，不为覆盖配额增加条目。",
-      "en": "The startup and open-source lane read the seventeen entries on the public October 21 Product Hunt board, then checked websites, version histories, code and licenses. BAND, Agent Pets, ilha and The Brains expose different approaches to working across tools, with availability bounded by their own documentation. Earlier public material for ilha and The Brains is retained as a seven-day lookback. ProjectOps is scoped to its4.72.0 release, while RAGFlow is described as a release candidate rather than an established universal deployment. SuperCMO already existed; only the 0.1.27 installation and execution-control changes qualify as new evidence. Earlier Flagsmith beta and marketing-product material prevent a later listing from resetting launch dates. Original galleries were inspected individually: typography posters, promotional codes and animation frames containing only an unfinished command were not accepted as substantive visuals. Public code, software licensing, external model fees and deployability remain separate questions. A discovery board supplies no sales, retention or willingness-to-pay measurement. Relationship reminders, paid messaging and virtual-machine tools without a verified relevant AI mechanism were retained as scope decisions rather than added to fill a category.",
-      "sourceUrls": [
-        "https://www.producthunt.com/leaderboard/daily/2026/10/21"
-      ]
-    },
-    {
-      "lane": "RESEARCH",
-      "status": "Original papers read",
-      "zh": "本线检查arXiv人机交互和机器人近期列表，并对九篇与具体产品任务相关的论文读取方法、结果、限制和图注，另核作者代码或资料入口。入选候选覆盖协作检索、空间应用验收、隐私偏好、购物授权、机器人遥操作、流程分析、虚拟病人、教学视频理解和眼动认证。日期使用提交历史，不把会议接受或采集时间当成首发。主要变化是从“生成结果合理”转向可检查的动作、状态和恢复依据。所有评估均保留原作者口径，未运行独立复现；代码公开与网页产品可部署分开，真人评价与模型评分分开，短片段与长期使用分开。原始图证由出版线程逐张验收，论文图不冒充商业界面。对只有概念讨论、问卷或纯控制改进而没有明确交互增量的材料，保留扫描记录，不为数量扩写成项目。",
-      "en": "This lane checked recent arXiv human–computer interaction and robotics listings, then read methods, results, limitations and captions for nine papers tied to concrete product tasks. Author repositories and dataset entrances were checked where available. Candidates cover collaborative search, spatial-app acceptance, privacy preferences, purchase permission, robot teleoperation, process analysis, virtual patients, tutoring-video understanding and gaze authentication. Dates refer to submission history, not conference acceptance or collection time. The common shift is from plausible output toward inspectable actions, state and recovery evidence. Results retain the authors’ evaluation units and were not independently reproduced. Public code is distinguished from a deployable web product, human ratings from automated scores, and short controlled tasks from sustained use. The publishing thread separately accepts original visuals; research figures do not become commercial-interface proof. Conceptual discussions, questionnaires and pure control improvements without a clear interaction contribution remain scan findings rather than being expanded into projects merely to increase the count.",
-      "sourceUrls": [
-        "https://arxiv.org/list/cs.HC/recent"
-      ]
-    },
-    {
-      "lane": "PATENT",
-      "status": "Watch; original figure and family gaps",
-      "zh": "专利线以AI界面、智能眼镜及指定日期查询，追查近期报道对应的公布号、申请日、优先权、独立权利要求和附图。Meta自动视频摘要申请US20260321292A1的完整文字可在Justia复刊核对：公布为10月15日，申请为4月2日，并同时主张2025年4月9日与25日两项临时申请优先权；不能沿用二手报道只写较晚日期。文字描述由录制命令启动、按音视频对齐分段、转录并筛选精彩片段，属于申请披露，不证明量产功能。官方PDF读取失败，附图及完整同族未核实，七天窗口边缘的具体公布时刻也未知，故保留待证。另一篇Apple健康传感眼镜新闻只定位到2024年公开文本，缺少新授权号，不能重算新品。搜索中的旧专利预计到期日期同样剔除。",
-      "en": "The patent lane searched AI interfaces, smart glasses and the specified dates, then traced recent reports to publication numbers, filing dates, priority, independent claims and drawings. A complete Justia republication allowed checking the text of Meta application US20260321292A1. It was published on October 15 and filed on April2,2026, claiming two provisional priorities, April9 and April25,2025; the earlier date must not be lost by copying a secondary report. The disclosure starts with a capture command, aligns audio and image segments, transcribes audio and selects highlights. It is an application disclosure, not evidence of a shipped feature. The official PDF was inaccessible, drawings and the complete family remain unverified, and the precise publication time at the seven-day boundary is unknown, so the item stays on watch. A separate Apple health-sensing-eyewear report led only to a 2024 publication without an identified new grant number. Old patents whose anticipated expiration dates matched the search were excluded as false freshness signals.",
-      "sourceUrls": [
-        "https://patents.justia.com/patent/20260321292"
-      ]
-    },
-    {
-      "lane": "CHINA",
-      "status": "Regional scope and original sources checked",
-      "zh": "中国线从36氪、少数派、机器之心与量子位的新闻和产品入口回查原始材料，找到百度搭子的企业流程更新，以及无界动力Phoenix的技术报告和公开预训练实现。搭子的具体控制证据来自官方任务、自动化和账号文档，不能把现场客户节省案例写成独立实测。Phoenix的世界模型、基准和真机演示必须分开理解，完整数据和实时部署分支仍有待交付。腾讯元宝搜索近期报道被官方历史校正：API早已存在，十月九日更名，因此没有仅凭新闻日期新增一条首发。MiniMax M3.1 Flash确认了模型与价格发布，但未证明独立的新交互或接口变更，暂留观察。千诀Polibrain缺少足够可核验的原始日期与真实图证，Motubrain直播也不等于模型已开放。少数派共创入口中的YoooClaw、口袋先知和白描PDF均找到更早背景，不用首页露出来冒充新产品。36氪首页安全检查、机器之心正文登录壳和部分量子位访问失败限制覆盖，不能声称中国市场已被穷尽。",
-      "en": "The China scan followed 36Kr, SSPAI, JiQizhixin and Qbit leads back to original material, identifying Baidu DuMate's enterprise workflow update and Phoenix's technical report with a public pretraining implementation. DuMate's useful control evidence comes from official task, automation and account documentation; customer savings presented at an event are not independent measurements. Phoenix's world model, benchmark tables and physical demonstrations require separate interpretation, and data and real-time deployment components remain forthcoming. Official history corrected recent Yuanbao Search headlines: the API already existed and its rename occurred on October 9, so a newer news date did not justify another first-launch story. MiniMax M3.1 Flash has a verified model and pricing announcement, but no separately established new interaction or API change qualified here. Polibrain lacks sufficient original timing and accepted visual evidence; a Motubrain training livestream does not establish model availability. SSPAI's YoooClaw, Rand/0 and Baimiao PDF storefront entries have older histories. A security check on 36Kr, login-only JiQizhixin article shells and some Qbit retrieval failures limit coverage; this is not an exhaustive account of China's market.",
-      "sourceUrls": [
-        "https://www.oppo.com/en/newsroom/press/oppo-find-x10-series-global-launch/",
-        "https://pytorch.org/blog/introducing-torchtpu/"
-      ]
-    },
-    {
-      "lane": "GLOBAL",
-      "status": "Regional scope and original sources checked",
-      "zh": "全球地区对照以OPPO和TorchTPU为两个具体切面。Find X10全球活动明确落在十月二十一日14:00 UTC，但中国首发、此前预告和Manus合作不能重复计新；英国订金、逐地区上市、账号要求以及印度、印尼、泰国专属Call Guard共同说明，全球名称不代表所有用户得到同一能力包。TorchTPU则改变开发者从PyTorch走向TPU的迁移方式，开源后端、Hugging Face集成与预览中的TPU agent suite构成同一项目的不同交付层。伙伴兼容性测试不能当成独立性能测试，少量代码修改也不能替代数值精度、编译等待和实际算力账单的比较。本线检索八周范围内实际存在的四十一份manifest，并回查前一期候选状态；可用日期并不连续，缺失日期没有被当作已完成去重。媒体转载和不同地区网页仍可能来自同一发行人，来源数量不能伪装成独立确认数量。",
-      "en": "The global comparison uses OPPO and TorchTPU as concrete examples of different adoption boundaries. Find X10's official global event falls at 14:00 UTC on October 21, but the earlier China debut, preview and Manus partnership are background. UK deposit conditions, staggered availability, account requirements and Call Guard's restriction to India, Indonesia and Thailand show why a global name does not provide every buyer with the same capability package. TorchTPU changes the developer route from PyTorch to TPU, with an open backend, Hugging Face integration and a preview TPU agent suite representing different delivery layers of one project. Partner compatibility testing is not independent performance validation, and a small code change does not remove the need to compare numerical precision, compilation delays and actual compute bills. The lane searched 41 available manifests within the requested eight-week interval and checked the prior issue's candidate state. Dates are not continuous, so missing daily records were not treated as completed deduplication. Syndication and regional pages can share one issuer; a larger link count does not establish more independent confirmations.",
-      "sourceUrls": [
-        "https://www.oppo.com/en/newsroom/press/oppo-find-x10-series-global-launch/",
-        "https://pytorch.org/blog/introducing-torchtpu/"
-      ]
-    }
-  ],
   "revision": {
     "label": "morning-edition",
     "originalCutoffRetained": true,
