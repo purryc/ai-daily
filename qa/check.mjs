@@ -39,7 +39,7 @@ async function staticCheck(){
  assert(Number.isInteger(metrics.slidesPerLocale)&&metrics.slidesPerLocale>productIds.length,'SLIDE_METRIC');
  for(const key of ['perProduct','primarySummaries'])assert(JSON.stringify(Object.keys(metrics[key]).sort())===JSON.stringify([...productIds].sort()),'METRIC_PROJECT_SET '+key);
  assert(m.cutoff==='2026-10-22T08:03:02Z'&&m.timezone==='America/Toronto'&&m.revision.originalCutoffRetained,'TIME');
- const scans=m.laneScans.map(x=>({lane:x.lane,zh:counts(x.zh,'zh'),en:counts(x.en,'en')}));for(const x of scans)assert(x.zh>=180&&x.en>=140,'SCAN_DENSITY '+JSON.stringify(x));assert(scans.length===8&&new Set(scans.map(x=>x.lane)).size===8,'EIGHT_LANES');
+ assert(!('laneScans' in m),'METHOD_AUDIT_REMAINS_PRIVATE');
  for(const v of visuals){assert(v.sourcePage&&v.originalUrl&&v.acquiredAt,'VISUAL_PROVENANCE');assert(digest(await fs.readFile(path.join(base,issue,v.path)))===v.sha256,'VISUAL_HASH')}
  const sourcePage=await fs.readFile(path.join(base,issue,'sources.html'),'utf8');await links(sourcePage,path.join(base,issue));
  const fullReferences=referenceRows(sourcePage),expectedReferences=sources.map(x=>({number:x.number,url:x.url}));
@@ -48,7 +48,7 @@ async function staticCheck(){
  for(const l of ['zh','en']){
   const dir=path.join(base,issue,l),h=await fs.readFile(path.join(dir,'index.html'),'utf8');await links(h,dir);
   const si=[...h.matchAll(/<section\b[^>]*id="([^"]+)"[^>]*data-slide/g)].map(x=>x[1]);ids.push(si);assert(si.length===metrics.slidesPerLocale&&new Set(si).size===si.length,'SLIDES');assert(si[0]==='cover'&&si[1]==='overview','COVER_THEN_CONTENTS');
-  for(const id of ['coverage','timing','evidence-1'])assert(si.includes(id),'REQUIRED_SLIDE '+id);
+  assert(si.includes('evidence-1')&&!si.includes('coverage')&&!si.includes('timing')&&si.length===41,'READER_SLIDE_SET');
   const projects=[...h.matchAll(/<section id="(event-\d+-a)"([\s\S]*?)<\/section>/g)];assert(projects.length===productIds.length&&projects.every((x,i)=>x[1]===`event-${i+1}-a`),'ONE_PRIMARY_PAGE_PER_PROJECT');assert(!/id="event-\d+-[b-z]"/.test(h),'NO_PROJECT_FRAGMENT_SLIDES');assert((h.match(/<u>/g)||[]).length===3,'VISIBLE_KEY_TAKEAWAYS');assert((h.match(/class="action detail-link"/g)||[]).length===productIds.length,'DETAIL_ENTRIES');assert(paragraphs(h).length===0,'SUMMARY_EXCLUDED_FROM_BODY_COUNT');
   const pp={},structure=[],all=[],summaries={},primaryUnits=[];
   for(let i=0;i<productIds.length;i++){
@@ -66,18 +66,18 @@ async function staticCheck(){
   assert(new Set(all.map(x=>x.trim())).size===all.length,'DUPLICATE_BODY_PARAGRAPHS');stats[l]=counts(all.join(' '),l);assert(stats[l]>=(l==='zh'?6000:4500),'BODY_DENSITY');assert(stats[l]===metrics.body[l==='zh'?'zhDenseChars':'enWords'],'BODY_METRIC');perProduct[l]=pp;details.push(structure);primary[l]=summaries;primaryStructures.push(primaryUnits);
   const evidence=h.match(/<section id="evidence-1"([\s\S]*?)<\/section>/)?.[1];assert(evidence,'EVIDENCE_SLIDE');
   const grouped=[...evidence.matchAll(/href="([^"#]*sources\.html#[^"]+)"/g)].map(x=>decode(x[1]));assert(grouped.length===productIds.length&&new Set(grouped).size===productIds.length,'GROUPED_PROJECT_SOURCE_LINKS');groupLinks.push(grouped);
-  const coverage=await fs.readFile(path.join(dir,'coverage.html'),'utf8');await links(coverage,dir);assert((coverage.match(/data-lane=/g)||[]).length===8,'REACHABLE_FULL_SCANS');for(const s of m.laneScans)assert(coverage.includes(s[l].slice(0,30)),'SCAN_CONTENT');
+  assert(!h.includes('coverage.html')&&!files.some(f=>f.path===`${issue}/${l}/coverage.html`),'NO_READER_METHOD_PAGES');
  }
  assert(JSON.stringify(ids[0])===JSON.stringify(ids[1]),'BILINGUAL_SLIDE_PARITY');assert(JSON.stringify(groupLinks[0])===JSON.stringify(groupLinks[1]),'BILINGUAL_SOURCE_PARITY');assert(JSON.stringify(details[0])===JSON.stringify(details[1]),'BILINGUAL_DETAIL_SECTION_AND_SOURCE_PARITY');assert(JSON.stringify(primaryStructures[0])===JSON.stringify(primaryStructures[1]),'BILINGUAL_PRIMARY_UNIT_AND_SOURCE_PARITY');
  const archive=JSON.parse(await fs.readFile(path.join(base,'manifest.json')));assert(archive[0].date===issue&&archive.filter(x=>x.date===issue).length===1,'ARCHIVE');for(const p of ['index.html','en/index.html'])assert((await fs.readFile(path.join(base,p),'utf8')).includes('data-time="latest y-2026 m-2026-10 d-2026-10-22"'),'LATEST');
- return {publicFiles:files.length,slidesPerLocale:metrics.slidesPerLocale,primaryProjectPages:productIds.length,attachedDetails:productIds.length,body:stats,perProduct,primarySummaries:primary,scans,visuals:visuals.length,references:sources.length,products:productIds.length,counting:'Unique full detail paragraphs only; primary summaries, sources, figures and scan prose excluded',bilingualStructureAndSources:true};
+ return {publicFiles:files.length,slidesPerLocale:metrics.slidesPerLocale,primaryProjectPages:productIds.length,attachedDetails:productIds.length,body:stats,perProduct,primarySummaries:primary,visuals:visuals.length,references:sources.length,products:productIds.length,counting:'Unique full detail paragraphs only; primary summaries, sources, figures and scan prose excluded',bilingualStructureAndSources:true};
 }
 // staticCheck verifies every byte before this read-only candidate fixture starts.
 async function serve(){const types={'.html':'text/html; charset=utf-8','.css':'text/css','.js':'text/javascript','.mjs':'text/javascript','.json':'application/json','.png':'image/png','.webp':'image/webp','.jpg':'image/jpeg','.txt':'text/plain'};const server=http.createServer(async(req,res)=>{try{let p=decodeURIComponent(new URL(req.url,'http://localhost').pathname).replace(/^\/ai-daily\//,'/');if(p.endsWith('/'))p+='index.html';const target=path.resolve(base,'.'+p);assert(target.startsWith(base+'/'),'PATH');const b=await fs.readFile(target);res.writeHead(200,{'Content-Type':types[path.extname(target)]||'application/octet-stream','Cache-Control':'public, max-age=3600'});res.end(b)}catch{res.writeHead(404);res.end()}});await new Promise(r=>server.listen(0,'127.0.0.1',r));return {server,url:`http://127.0.0.1:${server.address().port}/ai-daily/`}}
 const report={edition:issue,startedAt:new Date().toISOString(),status:'started',completion:'in-progress',publishedCommit:cfg.phase==='live'?cfg.publicCommit:null,baselineCommit:cfg.baselineCommit,workflowBaselineCommit:process.env.QA_PUBLIC_COMMIT||null,mode:cfg.phase,checks:[],failures:[],screenshots:[],checkpoints:[]};
 const out=path.join(process.env.RUNNER_TEMP||'/tmp','daily-qa-'+(process.env.QA_EVIDENCE_LOCALE||'zh'));let browser,server;
 const check=(name,ok,details={})=>{report.checks.push({name,ok,...details});if(!ok)report.failures.push({name,...details})};
-const controlChecks=new Set(['next-navigation','previous-navigation','keyboard-next-navigation','keyboard-previous-navigation','home-navigation','end-navigation','contents-navigation','toc-tab-state','primary-language-preserves-slide','primary-language-return-preserves-slide','citation-navigation','detail-navigation','detail-language-same-project','detail-language-return-same-project','detail-return-to-same-project','project-source-navigation','sources-return-to-edition','source-overview-navigation','coverage-detail-navigation','edition-overview-navigation']);
+const controlChecks=new Set(['next-navigation','previous-navigation','keyboard-next-navigation','keyboard-previous-navigation','home-navigation','end-navigation','contents-navigation','toc-tab-state','primary-language-preserves-slide','primary-language-return-preserves-slide','citation-navigation','detail-navigation','detail-language-same-project','detail-language-return-same-project','detail-return-to-same-project','project-source-navigation','sources-return-to-edition','source-overview-navigation','edition-overview-navigation']);
 function coverage(){
  return [1600,1920,390].map(width=>{
   const checks=report.checks.filter(c=>c.viewport?.width===width),distinct=(name,field)=>new Set(checks.filter(c=>c.name===name&&c.ok).map(c=>c[field])).size;
@@ -279,7 +279,6 @@ try{
    const home=new URL(locale==='zh'?'':'en/',url).href;
    // The shared source index links to the root overview; follow the published link itself.
    await clickLocal(page,'a',url);check('source-overview-navigation',new URL(page.url()).pathname===new URL(url).pathname,{viewport});
-   await page.goto(entry+'#coverage');await page.locator('#coverage .action').click();await ready(page);check('coverage-detail-navigation',await page.locator('[data-lane]').count()===8,{viewport});
    await page.goto(entry+'#overview');await clickLocal(page,'.reader > header .brand',home);check('edition-overview-navigation',new URL(page.url()).pathname===new URL(home).pathname,{viewport});
    }
    await checkpoint('sources-and-overview-complete',{viewport,exercised:fullControls||mobile});
