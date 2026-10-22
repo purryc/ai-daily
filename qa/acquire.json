@@ -1,121 +1,73 @@
 [
   {
     "kind": "image",
-    "name": "kion-physical-ai-operations.jpg",
-    "url": "https://nwr.eqs-cockpit.com/fncls2.ssx?fn=redirect&u=91ffccd7174175a67a1226ea105c3fa0",
+    "name": "corsair-purevector.jpg",
+    "url": "https://d1q3zw97enxzq2.cloudfront.net/images/13_step6-mouselabs-after-calibra.width-1000.format-webp.webp",
     "renderImage": true,
     "locale": "en"
   },
   {
     "kind": "image",
-    "name": "therabody-jason.jpg",
-    "url": "https://www.therabody.com/cdn/shop/files/Ai-Chat-Blog-Post-Hero.webp?v=1792599487&width=1100",
+    "name": "supercmo.jpg",
+    "url": "https://ph-files.imgix.net/2bc1cdb8-1a24-4717-bbfa-9615831156c8.png",
     "renderImage": true,
     "locale": "zh"
   },
   {
     "kind": "image",
-    "name": "iphone-duo-review.jpg",
-    "url": "https://www.apple.com/v/iphone-duo/d/images/overview/highlights/highlights_versatility_endframe__q3r50hxfi1ei_large.jpg",
+    "name": "ragflow-chunks.jpg",
+    "url": "https://raw.githubusercontent.com/infiniflow/ragflow-docs/main/images/file_chunks.jpg",
     "renderImage": true,
     "locale": "en"
   },
   {
     "kind": "image",
-    "name": "trailofbits-patching.jpg",
-    "url": "https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/patching_figure2_hu_ba5a49e1c64e072d.webp",
+    "name": "useit-studio.jpg",
+    "url": "https://ph-files.imgix.net/5f266d51-0e6a-4217-86ce-105e25f53109.png",
     "renderImage": true,
     "locale": "zh"
   },
   {
     "kind": "image",
-    "name": "homebase-assistant.jpg",
-    "url": "https://www.joinhomebase.com/images/assistant/hero-phone.webp",
+    "name": "useit-studio-alt.jpg",
+    "url": "https://ph-files.imgix.net/113f8138-c9b2-40df-a944-5c8515b9adf5.png",
     "renderImage": true,
     "locale": "en"
   },
   {
     "kind": "image",
-    "name": "picsart-marketing.jpg",
-    "url": "https://pcdn.picsart.com/cms-uploads/12dfb2d0-4777-4e1c-9bb6-5d6cf009e2a2.avif",
+    "name": "otterly-brand.jpg",
+    "url": "https://otterly.ai/blog/wp-content/uploads/2026/10/brand-profiling-benchmark-ai-1024x628.png",
     "renderImage": true,
     "locale": "zh"
   },
   {
     "kind": "image",
-    "name": "projectops-cli.jpg",
+    "name": "projectops-cli-later.jpg",
     "url": "https://cassiiopeia.github.io/projectops/assets/cli-wizard.CqWR1Ckd.gif",
     "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "ilha.jpg",
-    "url": "https://ph-files.imgix.net/b0ffbc10-54a9-4bf0-99b3-4c648cc0c352.jpeg",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "the-brains.jpg",
-    "url": "https://ph-files.imgix.net/6c6be4f5-b653-4d77-bec6-2a81077adb22.png",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "torchtpu.jpg",
-    "url": "https://pytorch.org/wp-content/uploads/2026/10/Fig-1-618x1024.png",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "phoenix-mwa.jpg",
-    "url": "https://openphoenix-team.github.io/Phoenix-pages/assets/phoenix-mwa-encoder-b-20261020.webp",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "osce-simbench.jpg",
-    "url": "https://raw.githubusercontent.com/JINAILAB/OSCE-SimBench/main/assets/platform_screens.png",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "traceprism.jpg",
-    "url": "https://arxiv.org/html/2610.28532v1/figs_src/dualdfg_encoding.png",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "vira-bench.jpg",
-    "url": "https://arxiv.org/html/2610.29428v1/pipeline_overview.png",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "querri-library.jpg",
-    "url": "https://querri.com/images/product/library/collections-questions-views.webp",
-    "renderImage": true,
+    "captureDelayMs": 8000,
     "locale": "en"
   },
   {
     "kind": "page",
-    "name": "thinkingstreams.jpg",
-    "url": "https://thinkingstreams.com/platform",
-    "selector": "div[role=\"img\"][aria-label=\"ThinkingStreams product interface: ThinkingStreams, Campaign overview\"]",
+    "name": "privacy-preference-controls.jpg",
+    "url": "https://arxiv.org/html/2610.29929v1#acmlabel1",
+    "selector": "[id=\"acmlabel1\"]",
     "locale": "zh"
   },
   {
     "kind": "page",
-    "name": "claude-duet-morning.jpg",
-    "url": "https://claude.com/product/claude-duet",
-    "selector": "[data-part=\"thread:morning\"] [data-row=\"claude\"]",
+    "name": "preference-not-permission.jpg",
+    "url": "https://arxiv.org/html/2610.29216v1#S4.F2",
+    "selector": "[id=\"S4.F2\"]",
     "locale": "en"
+  },
+  {
+    "kind": "page",
+    "name": "vr-gaze-conversion.jpg",
+    "url": "https://arxiv.org/html/2610.30032v1#S4.F3",
+    "selector": "[id=\"S4.F3\"]",
+    "locale": "zh"
   }
 ]
