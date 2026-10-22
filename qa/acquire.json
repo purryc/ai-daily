@@ -1,64 +1,71 @@
 [
   {
-    "kind": "page",
-    "name": "claude-duet.jpg",
-    "url": "https://claude.com/product/claude-duet",
-    "selector": "div[role=\"img\"][aria-label^=\"Claude Duet on an iPhone\"]",
-    "locale": "zh"
-  },
-  {
     "kind": "image",
-    "name": "claude-security.jpg",
-    "url": "https://assets.claude.com/fe39204ec42e8d48c853bf16bb08bdb19bf99a22.png",
+    "name": "gm-onstar-ai.jpg",
+    "url": "https://news.gm.com/content/Pages/news/us/en/2026/oct/1021-onstar-ai/_jcr_content/boilerplate/image.img.jpg/onstar_assistant.jpg",
     "renderImage": true,
     "locale": "en"
   },
   {
     "kind": "image",
-    "name": "litellm.jpg",
-    "url": "https://docs.litellm.ai/assets/ideal-img/ui_tour_keys.50da351.640.png",
+    "name": "physical-ai-safety-suite.jpg",
+    "url": "https://newsroom.accenture.com/news/2026/media_162e5ddd7445ae96ca33bd639702fdc5ede92782f.png?width=2000&format=png&optimize=medium",
     "renderImage": true,
     "locale": "zh"
   },
   {
     "kind": "image",
-    "name": "collie.jpg",
-    "url": "https://raw.githubusercontent.com/AltanS/collie/v1.23.2/assets/dashboard.png",
+    "name": "physical-ai-safety-suite-alt.jpg",
+    "url": "https://newsroom.accenture.com/news/2026/media_12e23d226087c013bf2acbdf08316bf2fc50d17b3.png?width=2000&format=png&optimize=medium",
     "renderImage": true,
     "locale": "en"
   },
   {
     "kind": "image",
-    "name": "scriptorium.jpg",
-    "url": "https://arxiv.org/html/2610.28929v1/figures/workspace-fig.png",
+    "name": "nebius-physical-ai-workbench.jpg",
+    "url": "https://assets.nebius.com/assets/69ea2ea9-abbb-4df4-a7e3-2ae9eafbed74/figure-1.jpg?cache-buster=2026-06-01T16:37:39.144Z",
     "renderImage": true,
     "locale": "zh"
   },
   {
     "kind": "image",
-    "name": "genxr.jpg",
-    "url": "https://arxiv.org/html/2610.29014v1/grid_final.png",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "warping-workspace.jpg",
-    "url": "https://arxiv.org/html/2610.28712v1/teaser_v4.png",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "baidu-dumate.jpg",
-    "url": "https://now.bdstatic.com/store/v2/d33e0f5/dumate-portal/1295044/static/image/feature_1.4e4bcbf8.png",
+    "name": "baidu-dumate-task.jpg",
+    "url": "https://bce.bdstatic.com/doc/bce-doc/Dumate/image_73fbc47.png",
     "renderImage": true,
     "locale": "zh"
   },
   {
     "kind": "image",
-    "name": "oppo-find-x10.jpg",
-    "url": "https://www.oppo.com/content/dam/oppo_com/en/mkt/newsroom/press/2026/10/oppo-find-x10-series-global-launch/07.webp",
+    "name": "oppo-find-x10-device.jpg",
+    "url": "https://www.oppo.com/content/dam/oppo_com/en/mkt/newsroom/press/2026/10/oppo-find-x10-series-global-launch/header.webp",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "name": "band.jpg",
+    "url": "https://docs.band.ai/_fern-img/980770f14a9d91fced912a0533d95344eb9841c4da727e67268c73b27d318c88.webp",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "name": "agent-pets.jpg",
+    "url": "https://www.getagentpets.com/assets/og.png",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "name": "onekey-agent.jpg",
+    "url": "https://docs.onekey.com/assets/ai-chat.png",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "name": "google-agents-cli.jpg",
+    "url": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/3_1.original.png",
     "renderImage": true,
     "locale": "en"
   }
