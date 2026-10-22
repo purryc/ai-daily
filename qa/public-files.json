@@ -1901,8 +1901,8 @@
   },
   {
     "path": "2026-10-22/en/details/mobo-preorder.html",
-    "bytes": 6696,
-    "sha256": "6ae9839e65d6a59283c292a0101f3dbc6ad08d394288f236e566bfe8195e4f94"
+    "bytes": 6666,
+    "sha256": "e4b825f4dec0e31c1a33af90eb289032c07bf6f487ce0399e50e4356fc184eb3"
   },
   {
     "path": "2026-10-22/en/details/onekey-ai-agent-release.html",
@@ -2016,13 +2016,13 @@
   },
   {
     "path": "2026-10-22/en/index.html",
-    "bytes": 118871,
-    "sha256": "1a57e91ad3d0e0d63ad03b756aeda9a7ce9cd53b725268cee3f89425f3e2b03f"
+    "bytes": 118841,
+    "sha256": "5d17202770d3d0f3c8462810e2fd3dbd46df5632e9c4b3aaf4e2e6e5e59b4389"
   },
   {
     "path": "2026-10-22/manifest.json",
-    "bytes": 63786,
-    "sha256": "b3a2f4f765405c62f2ea37987822032aa295d345b5914a546cc822f60a6e04b1"
+    "bytes": 63771,
+    "sha256": "f19d38f6067cb10390f94f88e9c463bc2d398fe7c17172a69c6b32aac4955cab"
   },
   {
     "path": "2026-10-22/sources.html",
