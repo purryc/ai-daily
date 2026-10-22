@@ -1620,6 +1620,626 @@
     "sha256": "968a936fcba8b89c9e5bec14b580bf581c5943f72a27b3514cf675aee63faca7"
   },
   {
+    "path": "2026-10-22/assets/agent-pets.jpg",
+    "bytes": 101924,
+    "sha256": "a9e37e5d748bba5445144dcd1f2b155bc9b134f4f53e5ceeb1ab4a33c59e0255"
+  },
+  {
+    "path": "2026-10-22/assets/baidu-dumate-task.jpg",
+    "bytes": 121703,
+    "sha256": "32b1f8961111b14266d5049d0c35ce39ce8e0eaafd8d253c3044e5e513a5277a"
+  },
+  {
+    "path": "2026-10-22/assets/band.jpg",
+    "bytes": 130325,
+    "sha256": "66fc46527e358f2500d4a42bf95357d737c1cf3a466c27ed326fc02c69fbf378"
+  },
+  {
+    "path": "2026-10-22/assets/claude-security.jpg",
+    "bytes": 156451,
+    "sha256": "b5ca88f593d79b336a8559f3a00d910a6faedb69cdb1a506e51f21ed296ef37c"
+  },
+  {
+    "path": "2026-10-22/assets/collie.jpg",
+    "bytes": 86094,
+    "sha256": "a87af155a9f81060f598c1b20495c5dd8e5e040e603fba3ab47e6734280d31aa"
+  },
+  {
+    "path": "2026-10-22/assets/corsair-purevector.jpg",
+    "bytes": 57009,
+    "sha256": "41661c9a74c8fdb69ca288580ce9342eebed88b27e87952ed34e9feb2252cf66"
+  },
+  {
+    "path": "2026-10-22/assets/deck.js",
+    "bytes": 2576,
+    "sha256": "63d13c06452d7405e0b5ed572d8464d802c9e5b8de656b5a94e3527b1730f7b3"
+  },
+  {
+    "path": "2026-10-22/assets/genxr.jpg",
+    "bytes": 115232,
+    "sha256": "446e1ac2279a20b301b3b856674fc97335d61db4d7691b79f02c3b0a8f4abc79"
+  },
+  {
+    "path": "2026-10-22/assets/gm-onstar-ai.jpg",
+    "bytes": 59093,
+    "sha256": "ede57e850007fe938fc6af1308007d7b31fdbfb77b06c2d4e3e8f27f72eb1156"
+  },
+  {
+    "path": "2026-10-22/assets/google-agents-cli.jpg",
+    "bytes": 42037,
+    "sha256": "d979f80bc9a8481bfe32367c5ac1e9973c224408c558ddc4fba91e8a612df903"
+  },
+  {
+    "path": "2026-10-22/assets/homebase-assistant.jpg",
+    "bytes": 143847,
+    "sha256": "7f20799f58c74ea46a9ba4b64beee4c35ae69f54a2943ed52b9f0a7c1c586408"
+  },
+  {
+    "path": "2026-10-22/assets/ilha.jpg",
+    "bytes": 100916,
+    "sha256": "12a838124efd40d619f0508b83b8bf5af66858469c92435746e189209a4c0d2e"
+  },
+  {
+    "path": "2026-10-22/assets/iphone-duo-review.jpg",
+    "bytes": 86473,
+    "sha256": "21afe0d7cceb1c26d3e58c72e6bfdaa55ab3a36f3e65ebcc6070244c759e4e0b"
+  },
+  {
+    "path": "2026-10-22/assets/issue.css",
+    "bytes": 10285,
+    "sha256": "1e458c07ba855726699c2b9885d466a62a85e04604b22dddcca9a2f3d1ca09e9"
+  },
+  {
+    "path": "2026-10-22/assets/kion-physical-ai-operations.jpg",
+    "bytes": 364731,
+    "sha256": "2199b7731575b6985134da40d0f4fb19cc9c5cfd59b822c805b95d7e7338837b"
+  },
+  {
+    "path": "2026-10-22/assets/litellm.jpg",
+    "bytes": 34831,
+    "sha256": "efcafb9b4796d26c47108e56a82e58e4cfea22102babfb18fddba788d6117024"
+  },
+  {
+    "path": "2026-10-22/assets/mitsubishi-humanoid-cnc.jpg",
+    "bytes": 232285,
+    "sha256": "b8e97185031d8b79ac485e413fb06a4001110ff872bfb52b662eadca011b42d7"
+  },
+  {
+    "path": "2026-10-22/assets/mobo-preorder.jpg",
+    "bytes": 34611,
+    "sha256": "b05f68b1e5115e484c968002cc00e5372311010860f319c9384827e57b301854"
+  },
+  {
+    "path": "2026-10-22/assets/onekey-agent.jpg",
+    "bytes": 118430,
+    "sha256": "6397418f766eadc59ebe59f18475d9a6e9b201229ae2ebfa19fb3c092e5a383f"
+  },
+  {
+    "path": "2026-10-22/assets/oppo-find-x10-device.jpg",
+    "bytes": 97610,
+    "sha256": "00ba9c57000050eb695dd37ee25c7b87aca5393f1ade7bc809bd29143f7ce3e7"
+  },
+  {
+    "path": "2026-10-22/assets/osce-simbench.jpg",
+    "bytes": 128862,
+    "sha256": "cfa5e293f8b9a9b2dbd25f4892a31e4c145391ceb777b4e97be2a84d2e8d953f"
+  },
+  {
+    "path": "2026-10-22/assets/otterly-brand.jpg",
+    "bytes": 75511,
+    "sha256": "913a77eee3f1138a3c9215775fb98ef4ed040e8a4ba885a475766099bda48515"
+  },
+  {
+    "path": "2026-10-22/assets/phoenix-mwa.jpg",
+    "bytes": 214745,
+    "sha256": "e766b1668a87e2c4697aa4f048c6fd6f8802463c1a4bef8124adcb9e7adeae62"
+  },
+  {
+    "path": "2026-10-22/assets/physical-ai-safety-suite-alt.jpg",
+    "bytes": 148220,
+    "sha256": "bf3bdf464697b872acb1e439230110a1bfa06be98b75b49b2230dd346f7a8fbd"
+  },
+  {
+    "path": "2026-10-22/assets/preference-not-permission.jpg",
+    "bytes": 114993,
+    "sha256": "92034bd2f7f628327b0e9b17be8771b5a1d4e94fbf2a03f383e7afbc20e045a9"
+  },
+  {
+    "path": "2026-10-22/assets/privacy-preference-figure.jpg",
+    "bytes": 65533,
+    "sha256": "e840726c1363cdabc3f677031aaaaed397411e119097dbf0760cb81181f2a570"
+  },
+  {
+    "path": "2026-10-22/assets/projectops-cli-later.jpg",
+    "bytes": 126680,
+    "sha256": "5324a2eebc6d6452aeb1a2ac1ba058fc87c44445ee6286b3127eb877bcae7f0e"
+  },
+  {
+    "path": "2026-10-22/assets/querri-library.jpg",
+    "bytes": 133678,
+    "sha256": "6824edfed19624901f611ff4e6555385a52836433210db3a96697396397e9809"
+  },
+  {
+    "path": "2026-10-22/assets/ragflow-chunks.jpg",
+    "bytes": 113398,
+    "sha256": "aefdc3facea54e7c4a3e863fdc57ce2440580dd1a27aac2ff185cbed58852922"
+  },
+  {
+    "path": "2026-10-22/assets/scriptorium.jpg",
+    "bytes": 158375,
+    "sha256": "24dafabd87393125b3b4a6716e84bb7a1b91ccf2ebde288b8f0093613d6d97eb"
+  },
+  {
+    "path": "2026-10-22/assets/supercmo-source-map.png",
+    "bytes": 90528,
+    "sha256": "cd69dfa1ee96afe2b62f2780951bd8c02c12d21f70af35fe53fa3df8928090bc"
+  },
+  {
+    "path": "2026-10-22/assets/the-brains-demo.jpg",
+    "bytes": 59256,
+    "sha256": "d6756db6fdf5e72045b7768c911dc8e36ef1c4117b16c61469f48dfcf0abdc07"
+  },
+  {
+    "path": "2026-10-22/assets/therabody-jason.jpg",
+    "bytes": 47443,
+    "sha256": "b03ddf82a140bdeadc2caf812455d971e42078a6eac34f136d02b3028c54ad35"
+  },
+  {
+    "path": "2026-10-22/assets/thinkingstreams.jpg",
+    "bytes": 44810,
+    "sha256": "377d5e4a93dc02a31a35398fedbc2a3dd0f1d753a5bc23d3066df0efde2adf9f"
+  },
+  {
+    "path": "2026-10-22/assets/torchtpu.jpg",
+    "bytes": 61452,
+    "sha256": "9729469faaa6e98552230401fb931dd9014ff7d4b789a254d019e8940d3c15a1"
+  },
+  {
+    "path": "2026-10-22/assets/traceprism.jpg",
+    "bytes": 29563,
+    "sha256": "21d534505c003fead4b8f508eabdd3f99a1a9258465956870c3a5f4bcbe3a4a2"
+  },
+  {
+    "path": "2026-10-22/assets/trailofbits-patching.jpg",
+    "bytes": 83276,
+    "sha256": "91d7a5e4a1891f3fae3693e8b79b4edcb3a4af067c3efc8a9da041f8d3f2854f"
+  },
+  {
+    "path": "2026-10-22/assets/vira-bench.jpg",
+    "bytes": 162063,
+    "sha256": "7bf904fa23e18ab12de62c29cd7ebcd5d9a8db5d8129e928d597b641e5c89990"
+  },
+  {
+    "path": "2026-10-22/assets/vr-gaze-conversion.jpg",
+    "bytes": 105817,
+    "sha256": "24bf42b22ba5cc0e994f66254274bb1923cd5803700dd9ade82a09c6966d8764"
+  },
+  {
+    "path": "2026-10-22/assets/warping-workspace.jpg",
+    "bytes": 150128,
+    "sha256": "0c0855ef4ea3cf3d128f54d937ba2627a7be50410ab1107e7cea9a2fcf2b7159"
+  },
+  {
+    "path": "2026-10-22/en/coverage.html",
+    "bytes": 14829,
+    "sha256": "3f76c9d6bd782383dd56111e64e37b7840c4e6cb426f2070d67e8447d2d9eafe"
+  },
+  {
+    "path": "2026-10-22/en/details/agent-pets.html",
+    "bytes": 5805,
+    "sha256": "881801011fe33a6e5a9691fed6261ada3f21909f221090aecd7f84b9d1839b0c"
+  },
+  {
+    "path": "2026-10-22/en/details/baidu-dumate-enterprise.html",
+    "bytes": 6382,
+    "sha256": "e65f05140914c1d36b592c050469a197221277769d06933633edb04992e6979c"
+  },
+  {
+    "path": "2026-10-22/en/details/band-desktop.html",
+    "bytes": 5759,
+    "sha256": "7a1200ca944c6a5c96c6605dc792888c51ba2a8430bd6642aa6ca26a8636d65d"
+  },
+  {
+    "path": "2026-10-22/en/details/claude-security-continuous.html",
+    "bytes": 6064,
+    "sha256": "b0afdbe1fb729bb998150400908ee77ec5c48811ed03e2417110a625dfce9ea8"
+  },
+  {
+    "path": "2026-10-22/en/details/collie-1232-send-controls.html",
+    "bytes": 6934,
+    "sha256": "6624c5b67cb7aeca3451bbb34f1e47257703a3aa2a7b231e4be51825acbb209a"
+  },
+  {
+    "path": "2026-10-22/en/details/corsair-purevector.html",
+    "bytes": 6563,
+    "sha256": "6cd49b8f9179ba5053237027f036b9e83a429eb2d7447fe29f7a5ba43ff9878a"
+  },
+  {
+    "path": "2026-10-22/en/details/genxr-bench.html",
+    "bytes": 5864,
+    "sha256": "8ebbf3a58b6c4c498c9799d1423e47faa1bb0fe2837a4c0addb8a606c17028d9"
+  },
+  {
+    "path": "2026-10-22/en/details/gm-onstar-ai.html",
+    "bytes": 6634,
+    "sha256": "b60d8e270646e4b4a4257cdd70051bf7c0378267d299df9fb71d25f466de5c5d"
+  },
+  {
+    "path": "2026-10-22/en/details/google-agents-cli-111.html",
+    "bytes": 6230,
+    "sha256": "e8c4a99994d033f805ea84f0dfd0f96fcd673bb36e2b5905e8698ffa399368a8"
+  },
+  {
+    "path": "2026-10-22/en/details/homebase-assistant.html",
+    "bytes": 5881,
+    "sha256": "1ae1451314c2b69016ed6ac7d2184cc3842a5b8004c8c6ca706521d600c55529"
+  },
+  {
+    "path": "2026-10-22/en/details/ilha.html",
+    "bytes": 5805,
+    "sha256": "a422b191042422e10124886af301b1327017750376203b59a7a78b3b12f67d85"
+  },
+  {
+    "path": "2026-10-22/en/details/iphone-duo-review.html",
+    "bytes": 6277,
+    "sha256": "4bf33add7cf58bf91fadc34fc33356980237ec852f7944045e3146dac66ed2cc"
+  },
+  {
+    "path": "2026-10-22/en/details/kion-physical-ai-operations.html",
+    "bytes": 6864,
+    "sha256": "fae77dc3a3158b59c6e826404aae6f91adb52e9868e876dcae891c94c1f6451a"
+  },
+  {
+    "path": "2026-10-22/en/details/litellm-11070-incident.html",
+    "bytes": 7104,
+    "sha256": "b9583fcda5ff861a50f5956b3c564b6e38cbfc095fe3588dc53542b8b225cf76"
+  },
+  {
+    "path": "2026-10-22/en/details/mitsubishi-humanoid-cnc.html",
+    "bytes": 7079,
+    "sha256": "2a17ae49d0e9677e5963c0c641fdbf92372842ffbda8e5570dc2336e88b99921"
+  },
+  {
+    "path": "2026-10-22/en/details/mobo-preorder.html",
+    "bytes": 6696,
+    "sha256": "6ae9839e65d6a59283c292a0101f3dbc6ad08d394288f236e566bfe8195e4f94"
+  },
+  {
+    "path": "2026-10-22/en/details/onekey-ai-agent-release.html",
+    "bytes": 6314,
+    "sha256": "5f5d7260327902fe0fa78a317643626240a5e3fcc0cd34d8769b1eeb9a0fff3c"
+  },
+  {
+    "path": "2026-10-22/en/details/oppo-find-x10-global.html",
+    "bytes": 6604,
+    "sha256": "2038f9f1c64fdd649b601cfcf415df05b802457030f83f20ea210770ae4707df"
+  },
+  {
+    "path": "2026-10-22/en/details/osce-simbench.html",
+    "bytes": 6121,
+    "sha256": "e99555f1db1c46ca0944564240489fd9a590862f7ba97f01994ce519800cafb9"
+  },
+  {
+    "path": "2026-10-22/en/details/otterly-brand-profiling.html",
+    "bytes": 6151,
+    "sha256": "073d5fcc05255ac6c84bb82a65d21e77428de572ee0f9a4b8bc8bccd48baa012"
+  },
+  {
+    "path": "2026-10-22/en/details/phoenix-mwa.html",
+    "bytes": 6366,
+    "sha256": "455a61472952fcb2add399d4dcaf8b4b4e670105b3c2af82354700b175483818"
+  },
+  {
+    "path": "2026-10-22/en/details/physical-ai-safety-suite.html",
+    "bytes": 6584,
+    "sha256": "bba68e7d1d97809ea009543f7f1c00cb636d945f1032c3a11abb64645baaaf1b"
+  },
+  {
+    "path": "2026-10-22/en/details/preference-not-permission.html",
+    "bytes": 5886,
+    "sha256": "c70f85ad5a0dfef7a446a4e9397ee7fa38dfec36e7c3ae121005b0871ac68a07"
+  },
+  {
+    "path": "2026-10-22/en/details/privacy-preference-controls.html",
+    "bytes": 6014,
+    "sha256": "630ec17ab5d06fb304313180ca60e84f204d2cf50b41224ebf7dbb952a21603d"
+  },
+  {
+    "path": "2026-10-22/en/details/projectops-4-72.html",
+    "bytes": 5888,
+    "sha256": "10288aff23de6df005ca3f09db7edbe804362a97464569381a30dd57d6124ae6"
+  },
+  {
+    "path": "2026-10-22/en/details/querri-library.html",
+    "bytes": 6329,
+    "sha256": "60feeb0018636200a35f8b976cd45d751a5a0201eac025e96fb5934187ef7835"
+  },
+  {
+    "path": "2026-10-22/en/details/ragflow-1-0-rc2.html",
+    "bytes": 6031,
+    "sha256": "484607650536a358d7a66030215444d6257ffe78b5fa8fbc7b2f2249306649b1"
+  },
+  {
+    "path": "2026-10-22/en/details/scriptorium.html",
+    "bytes": 5843,
+    "sha256": "e1e2da7de82eb6477670a14d22af2162175ec84f36b6f11ad801b9e832e46fec"
+  },
+  {
+    "path": "2026-10-22/en/details/supercmo-0-1-27.html",
+    "bytes": 6272,
+    "sha256": "04b5c9cfa84905029984db527c4a92ea3cd16cfefced25c334bbe5b08fa84504"
+  },
+  {
+    "path": "2026-10-22/en/details/the-brains.html",
+    "bytes": 5907,
+    "sha256": "a3bb38b4f441c5acaf70b1bedb5318a9045256d6c61cb78bb680887c0067fea3"
+  },
+  {
+    "path": "2026-10-22/en/details/therabody-jason.html",
+    "bytes": 6716,
+    "sha256": "e8f67f5496463616cdf6f84b618355087cf5d36a38319abe79d3399fcebfef79"
+  },
+  {
+    "path": "2026-10-22/en/details/thinkingstreams.html",
+    "bytes": 6086,
+    "sha256": "29157181c40b44af264ab2d122f23b4e1508524372f3a8d3da5068b88a4db791"
+  },
+  {
+    "path": "2026-10-22/en/details/torchtpu.html",
+    "bytes": 7417,
+    "sha256": "cf1757fb2d5c9b7bb65936eaad19df8e0a6a246dd0067e2d50fb028927a5dc18"
+  },
+  {
+    "path": "2026-10-22/en/details/traceprism.html",
+    "bytes": 5836,
+    "sha256": "c3457acaa16888192ff28428a3cfabd2ea23318523a981130174308d6d05a227"
+  },
+  {
+    "path": "2026-10-22/en/details/trailofbits-patching-regression.html",
+    "bytes": 7619,
+    "sha256": "0b154a5ffaa11e5391c6d862fc05aab5b1663fb7267fee6bc6ef3b8193dd5dd2"
+  },
+  {
+    "path": "2026-10-22/en/details/vira-bench.html",
+    "bytes": 5918,
+    "sha256": "6a23337dd3ccf8ec75ebfc01e5253e01b1c44535f2464f8465d9a91de88f16e9"
+  },
+  {
+    "path": "2026-10-22/en/details/vr-gaze-conversion.html",
+    "bytes": 6024,
+    "sha256": "cc05ec624fa09798f0844308d3e6c4452bf977dd4d391f373c375dcffd3459d2"
+  },
+  {
+    "path": "2026-10-22/en/details/warping-workspace.html",
+    "bytes": 5770,
+    "sha256": "54f7df3dd871ea2830d3cf6f2f04ec79088db657e8da1834ce1232d23f255cbd"
+  },
+  {
+    "path": "2026-10-22/en/index.html",
+    "bytes": 118871,
+    "sha256": "1a57e91ad3d0e0d63ad03b756aeda9a7ce9cd53b725268cee3f89425f3e2b03f"
+  },
+  {
+    "path": "2026-10-22/manifest.json",
+    "bytes": 63786,
+    "sha256": "b3a2f4f765405c62f2ea37987822032aa295d345b5914a546cc822f60a6e04b1"
+  },
+  {
+    "path": "2026-10-22/sources.html",
+    "bytes": 94420,
+    "sha256": "922cc33603f0f664d0550e423a97a1819532b60a1d6435a29d6774d33820d0b2"
+  },
+  {
+    "path": "2026-10-22/sources.json",
+    "bytes": 66411,
+    "sha256": "99a1962bf4a1fbb2d20e2642df3f8a8dfd5a27e0af20e772dea65f324077f1d9"
+  },
+  {
+    "path": "2026-10-22/visuals.json",
+    "bytes": 29733,
+    "sha256": "05a5f031d9e4373a269c29f21b2c3d8644f2eba9a37646d5ad9b1361108bed17"
+  },
+  {
+    "path": "2026-10-22/zh/coverage.html",
+    "bytes": 12181,
+    "sha256": "0eb505aa05fc3cfc57b0d2365111bf1db7aa3c343ed0b01f5ee6a0b08a67ab8c"
+  },
+  {
+    "path": "2026-10-22/zh/details/agent-pets.html",
+    "bytes": 5242,
+    "sha256": "cd326d16294b2deb3eabc7c626f1e6fd1285c1331eb2f4bcab69860398aff4ff"
+  },
+  {
+    "path": "2026-10-22/zh/details/baidu-dumate-enterprise.html",
+    "bytes": 5775,
+    "sha256": "702e53067ea7712051817d32936c599b327d656d5b120a59df9ca3323876d0bb"
+  },
+  {
+    "path": "2026-10-22/zh/details/band-desktop.html",
+    "bytes": 4910,
+    "sha256": "228d14129747b8a361ff98959b897eee73754ef7954a9da81076a173e6f216ab"
+  },
+  {
+    "path": "2026-10-22/zh/details/claude-security-continuous.html",
+    "bytes": 5413,
+    "sha256": "2a9af6045f7a405c000edf4663bda885148f1ab8a792c6fa7b486e18e8ffc94f"
+  },
+  {
+    "path": "2026-10-22/zh/details/collie-1232-send-controls.html",
+    "bytes": 6500,
+    "sha256": "64eecd671d87976c2f8d98be1a0801f3f1fe6f427a416e236b9cd0ed4461f137"
+  },
+  {
+    "path": "2026-10-22/zh/details/corsair-purevector.html",
+    "bytes": 5854,
+    "sha256": "b7f1d61f260083b3f1f18f72116e07539e9ad6b1a1abaccf411033423573c693"
+  },
+  {
+    "path": "2026-10-22/zh/details/genxr-bench.html",
+    "bytes": 5274,
+    "sha256": "ab3ad6b388bcd8bfce79e32edf6f7ad963a6db67f95506e545eb237aa0286bcd"
+  },
+  {
+    "path": "2026-10-22/zh/details/gm-onstar-ai.html",
+    "bytes": 6017,
+    "sha256": "e26e8d9d34ce22bdffe4c148e351a097ad9bc79e1dacca1be30662ce40fa5aef"
+  },
+  {
+    "path": "2026-10-22/zh/details/google-agents-cli-111.html",
+    "bytes": 5623,
+    "sha256": "a97327d5d5813fac0bb70095c2e584f1e57a1519fdb26f5b7e7768786e8132c4"
+  },
+  {
+    "path": "2026-10-22/zh/details/homebase-assistant.html",
+    "bytes": 5109,
+    "sha256": "7fe1286c090f027bdbcc3ad70231c4217740a5de41e13a1ebc2b6c1bcc72f392"
+  },
+  {
+    "path": "2026-10-22/zh/details/ilha.html",
+    "bytes": 5241,
+    "sha256": "07abb8569a42a7dbe240f721945b31e8edb9a1f99b206d5a4d8ab1a537cfced9"
+  },
+  {
+    "path": "2026-10-22/zh/details/iphone-duo-review.html",
+    "bytes": 5618,
+    "sha256": "249e8b24199dd4ad3ac294caa8456859af1b4f0bf3ca6d6d222915ae84479490"
+  },
+  {
+    "path": "2026-10-22/zh/details/kion-physical-ai-operations.html",
+    "bytes": 5896,
+    "sha256": "825083c617c8def6639001c198a6c2042792bced1ab2e9103c70a28ee71c3b67"
+  },
+  {
+    "path": "2026-10-22/zh/details/litellm-11070-incident.html",
+    "bytes": 6464,
+    "sha256": "6282d4483c652cbe4e97db223f3b37bf4a4419b2912a80ce9ada3b7775c9b00d"
+  },
+  {
+    "path": "2026-10-22/zh/details/mitsubishi-humanoid-cnc.html",
+    "bytes": 6300,
+    "sha256": "d4c5712e60049ffb55c910b16bfbd515104aa24f61d230245639f704ba02446e"
+  },
+  {
+    "path": "2026-10-22/zh/details/mobo-preorder.html",
+    "bytes": 5917,
+    "sha256": "1b645cd36255a362d2f312c72df1200b6a5f0554c467f505ae37ebe5f32ffc77"
+  },
+  {
+    "path": "2026-10-22/zh/details/onekey-ai-agent-release.html",
+    "bytes": 5657,
+    "sha256": "6c1f798fe0cd8a29de0dcbee6cfad0a1137b6c2cd1bae325bd2054baeb1e70cb"
+  },
+  {
+    "path": "2026-10-22/zh/details/oppo-find-x10-global.html",
+    "bytes": 5824,
+    "sha256": "4b3a430ed83cf029621fcf87932ea90349ebb29cb3528e95b38d91aaca264aa8"
+  },
+  {
+    "path": "2026-10-22/zh/details/osce-simbench.html",
+    "bytes": 5359,
+    "sha256": "db4b309b5cd0d81b0b981a30bce08c6546e6443334d243dd235936566c6545de"
+  },
+  {
+    "path": "2026-10-22/zh/details/otterly-brand-profiling.html",
+    "bytes": 5277,
+    "sha256": "8fa1275116de6c53ce798c71cb7b73ba12d2c0668d20a31a400f386fc564de78"
+  },
+  {
+    "path": "2026-10-22/zh/details/phoenix-mwa.html",
+    "bytes": 5752,
+    "sha256": "89efe85a0e330830a7143074496c07d448a2cbaac53f7b0d026b784e45a6ecc4"
+  },
+  {
+    "path": "2026-10-22/zh/details/physical-ai-safety-suite.html",
+    "bytes": 5664,
+    "sha256": "efbfe24f79b9f260c57a13c93ffa673e05aa879230237d31870a600fcdceb8dd"
+  },
+  {
+    "path": "2026-10-22/zh/details/preference-not-permission.html",
+    "bytes": 5186,
+    "sha256": "03e8c18dd9361b8c08fd22afbf7d24a627b8dd8ce464d0dea31049024d682ea1"
+  },
+  {
+    "path": "2026-10-22/zh/details/privacy-preference-controls.html",
+    "bytes": 5411,
+    "sha256": "996a25fe95dad31c42a535b9fb4e8cb8e3665eb786e15b5630c9195757cea1ed"
+  },
+  {
+    "path": "2026-10-22/zh/details/projectops-4-72.html",
+    "bytes": 5277,
+    "sha256": "57d9cc3af8a7d06079aa684620019276c8bf1110c5cd16e8452ba35ecda5c710"
+  },
+  {
+    "path": "2026-10-22/zh/details/querri-library.html",
+    "bytes": 5429,
+    "sha256": "54fcf15fc6dfd7eab57fd0c21f9fc6191238d08367c950310fe59c2a71bb4570"
+  },
+  {
+    "path": "2026-10-22/zh/details/ragflow-1-0-rc2.html",
+    "bytes": 5324,
+    "sha256": "811a15a9a8808ea46cda9489857f31dd1f236ed18734a162138a128c03f9641f"
+  },
+  {
+    "path": "2026-10-22/zh/details/scriptorium.html",
+    "bytes": 5342,
+    "sha256": "078e7efb872bc8a8753c04ba31f902ad72755c388a37e5ecb7926599bad5c72a"
+  },
+  {
+    "path": "2026-10-22/zh/details/supercmo-0-1-27.html",
+    "bytes": 5550,
+    "sha256": "7d7908b21c0a9264c4937bb96ef27fb8858b703615d97f348562378c6e55fcc1"
+  },
+  {
+    "path": "2026-10-22/zh/details/the-brains.html",
+    "bytes": 5238,
+    "sha256": "dbf7232ddaf43ccfefeae610be70b6321da781f10edd7e57dd02ee94049f15d8"
+  },
+  {
+    "path": "2026-10-22/zh/details/therabody-jason.html",
+    "bytes": 5988,
+    "sha256": "0b9f8eac5473e09768402d8d4e1ef137af0866f4234ed2531ee2a1453b1809bc"
+  },
+  {
+    "path": "2026-10-22/zh/details/thinkingstreams.html",
+    "bytes": 5377,
+    "sha256": "ea66b405d3cdecd8bbd2651b14dbce6a11d1937729ac7a0335c18e3a280d3b97"
+  },
+  {
+    "path": "2026-10-22/zh/details/torchtpu.html",
+    "bytes": 6530,
+    "sha256": "2a18a1beba11b964e35485757e0a51ba97ddb0401505bd296214a27a91b34142"
+  },
+  {
+    "path": "2026-10-22/zh/details/traceprism.html",
+    "bytes": 5179,
+    "sha256": "1567ca09b490d0f8d2b259256682762637a095f7d180e1be287a71fa32ea44af"
+  },
+  {
+    "path": "2026-10-22/zh/details/trailofbits-patching-regression.html",
+    "bytes": 6912,
+    "sha256": "62fee30a6b270bf42b67b601c8cb66b1877721fb0044be99755b4ad5a1ac3af4"
+  },
+  {
+    "path": "2026-10-22/zh/details/vira-bench.html",
+    "bytes": 5136,
+    "sha256": "1c19850b73621785063f78c756e6dd59911f71aa33eac7b5aabd7eb16355799d"
+  },
+  {
+    "path": "2026-10-22/zh/details/vr-gaze-conversion.html",
+    "bytes": 5159,
+    "sha256": "6a96d31cb3c7ad510230ccebab64f9b634bde36927dbddf589536997bd24b74a"
+  },
+  {
+    "path": "2026-10-22/zh/details/warping-workspace.html",
+    "bytes": 4991,
+    "sha256": "9a82b0b8db1e8ae6aace2d602a41e64c039aab203f99f5dae1e4ff9fd7aedcde"
+  },
+  {
+    "path": "2026-10-22/zh/index.html",
+    "bytes": 112803,
+    "sha256": "6b324b6658273815af1d3ff047619fb730797e617a04aa8259e7bb56b915c8d6"
+  },
+  {
     "path": "assets/acti-agentic-keyboard-2026-07-03.svg",
     "bytes": 2825,
     "sha256": "84ad9abb0a1191abde62dea383e6e1ed583fc089073d3ccaf91629044501721b"
@@ -2031,18 +2651,18 @@
   },
   {
     "path": "en/index.html",
-    "bytes": 156081,
-    "sha256": "792767da99aa411bb29fa9afe11e9f92e88361e3287a411ab2a8a059a7d7e15d"
+    "bytes": 157455,
+    "sha256": "181e1edbcf6ea8a6a3741abefdeee05a7f238e66dfad5e2e301269f9ef976db3"
   },
   {
     "path": "index.html",
-    "bytes": 150394,
-    "sha256": "fc50ceebc7c2907bd03d2ce035a7e2d84c3c30ad979648a56649a732a4202992"
+    "bytes": 151735,
+    "sha256": "0e5478e4a55dff8dee004da26b918031daf7403c9ac116687cb9771b075d330b"
   },
   {
     "path": "manifest.json",
-    "bytes": 728495,
-    "sha256": "a95dc68ab5d6bcf82498e40fcbeec80867e6c93efd4b4751164f3077a7173038"
+    "bytes": 729993,
+    "sha256": "e36bb90fa0f9b478706fdeb0680f8f7ba711394529dd9ca92836b589a58cf238"
   },
   {
     "path": "weekly/2026-10-12/pilot/en/index.html",

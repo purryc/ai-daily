@@ -1,0 +1,1778 @@
+[
+  {
+    "url": "https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes",
+    "title": "Claude Security now scans continuously and tracks fixes",
+    "publisher": "Anthropic",
+    "publishedAt": "2026-10-21",
+    "observedAt": "2026-10-22T08:16:14.296439+00:00",
+    "evidenceLocator": "Continuous scans, reopened findings, API/MCP",
+    "access": "Read publicly; no authenticated functional test",
+    "number": 1
+  },
+  {
+    "url": "https://support.claude.com/en/articles/14661296-use-claude-security",
+    "title": "Use Claude Security",
+    "publisher": "Claude Help Center",
+    "publishedAt": "Undated; current read",
+    "observedAt": "2026-10-22T08:16:14.296439+00:00",
+    "evidenceLocator": "Migration, stochastic scans, dismissal, promotional conditions",
+    "access": "Read publicly; no authenticated functional test",
+    "number": 2
+  },
+  {
+    "url": "https://academy.claude.com/tutorials/getting-started-with-claude-security",
+    "title": "Getting started with Claude Security",
+    "publisher": "Claude Academy",
+    "publishedAt": "Undated",
+    "observedAt": "2026-10-22T08:16:14.296439+00:00",
+    "evidenceLocator": "Project setup, scope, fix review and access",
+    "access": "Read publicly; no authenticated functional test",
+    "number": 3
+  },
+  {
+    "url": "https://claude.com/product/claude-security",
+    "title": "Claude Security product",
+    "publisher": "Anthropic",
+    "publishedAt": "Undated",
+    "observedAt": "2026-10-22T08:16:14.296439+00:00",
+    "evidenceLocator": "Human-reviewed patches and platform/plugin distinction",
+    "access": "Read publicly; no authenticated functional test",
+    "number": 4
+  },
+  {
+    "url": "https://querri.com/blog/introducing-the-querri-library-and-librarian/",
+    "title": "October19 Library launch",
+    "publisher": "Querri",
+    "publishedAt": "2026-10-19",
+    "observedAt": "2026-10-22T08:42:22.400558+00:00",
+    "evidenceLocator": "October19 Library launch",
+    "access": "Read public page",
+    "number": 5
+  },
+  {
+    "url": "https://querri.com/product/library/",
+    "title": "Questions, KPIs, views and lineage",
+    "publisher": "Querri",
+    "publishedAt": "Undated documentation",
+    "observedAt": "2026-10-22T08:42:22.400558+00:00",
+    "evidenceLocator": "Questions, KPIs, views and lineage",
+    "access": "Read public page",
+    "number": 6
+  },
+  {
+    "url": "https://querri.com/product/views/",
+    "title": "Reusable views",
+    "publisher": "Querri",
+    "publishedAt": "Undated documentation",
+    "observedAt": "2026-10-22T08:42:22.400558+00:00",
+    "evidenceLocator": "Reusable views",
+    "access": "Read public page",
+    "number": 7
+  },
+  {
+    "url": "https://querri.com/product/data-cleaning/",
+    "title": "Data cleaning and approval",
+    "publisher": "Querri",
+    "publishedAt": "Undated documentation",
+    "observedAt": "2026-10-22T08:42:22.400558+00:00",
+    "evidenceLocator": "Data cleaning and approval",
+    "access": "Read public page",
+    "number": 8
+  },
+  {
+    "url": "https://www.prnewswire.com/news-releases/from-brief-to-campaign-thinkingstreams-launches-agentic-marketing-automation-for-b2b-teams-302914951.html",
+    "title": "Launch 08:00 ET October21",
+    "publisher": "Thinking Streams / PR Newswire",
+    "publishedAt": "2026-10-21T12:00:00Z",
+    "observedAt": "2026-10-22T08:27:05.758190+00:00",
+    "evidenceLocator": "Launch 08:00 ET October21",
+    "access": "Read public page",
+    "number": 9
+  },
+  {
+    "url": "https://thinkingstreams.com/platform",
+    "title": "Context, tasks, CRM and public-preview access",
+    "publisher": "ThinkingStreams",
+    "publishedAt": "Undated documentation",
+    "observedAt": "2026-10-22T08:27:05.758190+00:00",
+    "evidenceLocator": "Context, tasks, CRM and public-preview access",
+    "access": "Read public page",
+    "number": 10
+  },
+  {
+    "url": "https://thinkingstreams.com/docs/campaigns/overview",
+    "title": "Campaign workflow and status",
+    "publisher": "ThinkingStreams Docs",
+    "publishedAt": "Undated documentation",
+    "observedAt": "2026-10-22T08:27:05.758190+00:00",
+    "evidenceLocator": "Campaign workflow and status",
+    "access": "Read public page",
+    "number": 11
+  },
+  {
+    "url": "https://thinkingstreams.com/docs/integrations/slack-messaging",
+    "title": "Slack approvals and disconnected-channel behavior",
+    "publisher": "ThinkingStreams Docs",
+    "publishedAt": "Undated documentation",
+    "observedAt": "2026-10-22T08:27:05.758190+00:00",
+    "evidenceLocator": "Slack approvals and disconnected-channel behavior",
+    "access": "Read public page",
+    "number": 12
+  },
+  {
+    "url": "https://www.businesswire.com/news/home/20261020439607/en/Homebase-Launches-Homebase-Assistant-Supercharging-Hourly-Teams-Across-Main-Street-America",
+    "title": "Launch, shift coverage and limited availability",
+    "publisher": "Homebase / Business Wire",
+    "publishedAt": "2026-10-20",
+    "observedAt": "2026-10-22T08:27:05.758190+00:00",
+    "evidenceLocator": "Launch, shift coverage and limited availability",
+    "access": "Read public page",
+    "number": 13
+  },
+  {
+    "url": "https://www.joinhomebase.com/assistant",
+    "title": "Assistant workflow and beta waitlist",
+    "publisher": "Homebase",
+    "publishedAt": "Undated documentation",
+    "observedAt": "2026-10-22T08:27:05.758190+00:00",
+    "evidenceLocator": "Assistant workflow and beta waitlist",
+    "access": "Read public page",
+    "number": 14
+  },
+  {
+    "url": "https://otterly.ai/blog/brand-profiling/",
+    "title": "Brand Profiling launch and source metadata",
+    "publisher": "OtterlyAI",
+    "publishedAt": "2026-10-21T07:39:08Z",
+    "observedAt": "2026-10-22T08:45:14.181463+00:00",
+    "evidenceLocator": "Brand Profiling launch and source metadata",
+    "access": "Read public page",
+    "number": 15
+  },
+  {
+    "url": "https://otterly.ai/blog/better-brand-reporting-otterlyai/",
+    "title": "Existing brand reporting baseline",
+    "publisher": "OtterlyAI",
+    "publishedAt": "Undated documentation",
+    "observedAt": "2026-10-22T08:45:14.181463+00:00",
+    "evidenceLocator": "Existing brand reporting baseline",
+    "access": "Read public page",
+    "number": 16
+  },
+  {
+    "url": "https://otterly.ai/blog/how-to-track-ai-search-engine-citations-sources/",
+    "title": "Citation tracking workflow",
+    "publisher": "OtterlyAI",
+    "publishedAt": "Undated documentation",
+    "observedAt": "2026-10-22T08:45:14.181463+00:00",
+    "evidenceLocator": "Citation tracking workflow",
+    "access": "Read public page",
+    "number": 17
+  },
+  {
+    "url": "https://www.onekey.com/press-release/onekey-launches-ai-agent-conversational-vulnerability-investigation-sbom-and-component-exploration",
+    "title": "ONEKEY AI Agent first-version release",
+    "publisher": "ONEKEY",
+    "publishedAt": "2026-10-21",
+    "observedAt": "2026-10-22T08:21:42.178497+00:00",
+    "evidenceLocator": "First Stage / Evidence First",
+    "claims": "Release statement; six functions; roadmap",
+    "access": "full text read",
+    "number": 18
+  },
+  {
+    "url": "https://www.onekey.com/resource/onekey-ai-agent-get-to-firmware-security-answers-faster",
+    "title": "AI Agent workflow guide",
+    "publisher": "ONEKEY",
+    "publishedAt": "2026-10-14",
+    "observedAt": "2026-10-22T08:21:42.178497+00:00",
+    "evidenceLocator": "OQL / Bring Your Own Model",
+    "claims": "Earlier capability description and BYOM availability caveat",
+    "access": "full text read",
+    "number": 19
+  },
+  {
+    "url": "https://docs.onekey.com/platform-guide/features/ai-agent/",
+    "title": "AI Agent documentation",
+    "publisher": "ONEKEY",
+    "observedAt": "2026-10-22T08:21:42.178497+00:00",
+    "evidenceLocator": "Page context / Conversations / Where your data goes",
+    "claims": "Read-only scope, context, translation, persistence, permissions and data route",
+    "access": "full text read",
+    "number": 20
+  },
+  {
+    "url": "https://www.onekey.com/press-release/onekey-ai-agent-brings-ai-to-firmware-security",
+    "title": "AI Agent roadmap",
+    "publisher": "ONEKEY",
+    "publishedAt": "2026-09-01",
+    "observedAt": "2026-10-22T08:21:42.178497+00:00",
+    "evidenceLocator": "Roadmap",
+    "claims": "Background, not new event",
+    "access": "full text read",
+    "number": 21
+  },
+  {
+    "url": "https://www.21jingji.com/article/20261021/herald/f5e86757f7bc5a1268e5d755a9abe9e4.html",
+    "title": "从办公桌走上生产线，百度搭子升级了",
+    "publisher": "上海证券报 / 21经济网",
+    "publishedAt": "2026-10-21 19:04; timezone unspecified",
+    "observedAt": "2026-10-22T08:20:00Z",
+    "evidenceLocator": "杨烨现场报道：执行、标准、协同、安全四段",
+    "claims": [
+      "October21 Hangzhou product event",
+      "computer/mobile operation and tender suite",
+      "Agent security center and domestic workstation"
+    ],
+    "access": "full text read; primary reporting of vendor presentation",
+    "number": 22
+  },
+  {
+    "url": "https://cloud.baidu.com/doc/Dumate/s/5mqtdo3nt",
+    "title": "新任务",
+    "publisher": "百度智能云",
+    "publishedAt": "2026-10-20 · updated",
+    "observedAt": "2026-10-22T08:24:00Z",
+    "evidenceLocator": "设置工作区、创建任务、回复操作、终止/追加任务",
+    "claims": [
+      "local/cloud execution choice",
+      "task progress/files/capabilities views",
+      "branch task preserves prior conversation",
+      "append new request terminates active task"
+    ],
+    "access": "full original documentation read",
+    "number": 23
+  },
+  {
+    "url": "https://cloud.baidu.com/doc/Dumate/s/6mr4dii1s",
+    "title": "企业版入门指引",
+    "publisher": "百度智能云",
+    "publishedAt": "2026-09-01 · updated; background",
+    "observedAt": "2026-10-22T08:22:00Z",
+    "evidenceLocator": "账号体系及管理员七步初始化",
+    "claims": [
+      "separate admin cloud and employee accounts",
+      "seat required for login",
+      "resource limits and skill distribution"
+    ],
+    "access": "full original documentation read",
+    "number": 24
+  },
+  {
+    "url": "https://cloud.baidu.com/doc/Dumate/s/Mmqubxvob",
+    "title": "自动化",
+    "publisher": "百度智能云",
+    "publishedAt": "2026-10-20 · updated",
+    "observedAt": "2026-10-22T08:24:00Z",
+    "evidenceLocator": "创建、通过对话创建、管理自动化任务",
+    "claims": [
+      "schedule/local-cloud/model/permission configuration",
+      "confirm conversationally generated schedule",
+      "history and immediate run controls"
+    ],
+    "access": "full original documentation read",
+    "number": 25
+  },
+  {
+    "url": "https://cloud.baidu.com/product/dumate.html",
+    "title": "百度搭子DuMate企业版",
+    "publisher": "百度智能云",
+    "observedAt": "2026-10-22T08:18:00Z",
+    "evidenceLocator": "流程打通、共享协作、价格方案",
+    "claims": [
+      "enterprise first purchase CNY132 per seat month promotional vs189",
+      "increment CNY10/1000resourcepoints",
+      "jointseat138 excludesresources"
+    ],
+    "access": "public product page read; price observed after cutoff, checkout not tested",
+    "number": 26
+  },
+  {
+    "url": "https://www.kiongroup.com/en/Press/Press-Releases/Press-Releases-Detail.html?id=312356311",
+    "title": "KION original",
+    "publisher": "KION",
+    "publishedAt": "2026-10-21",
+    "observedAt": "2026-10-22T08:32:47.375137+00:00",
+    "evidenceLocator": "Full original page read; private source snapshot retained",
+    "claims": [],
+    "access": "full text read",
+    "number": 27
+  },
+  {
+    "url": "https://www.tradingview.com/news/eqs:a797d2cc3094b:0-kion-showcases-how-physical-ai-delivers-measurable-customer-value-at-nvidia-gtc-berlin-2026/",
+    "title": "KION / EQS issuer distribution original",
+    "publisher": "KION / EQS issuer distribution",
+    "publishedAt": "2026-10-21T11:41:00Z",
+    "observedAt": "2026-10-22T08:32:47.375137+00:00",
+    "evidenceLocator": "Full original page read; private source snapshot retained",
+    "claims": [],
+    "access": "full text read",
+    "number": 28
+  },
+  {
+    "url": "https://www.eqs-news.com/news/corporate-news/kion-brings-physical-ai-into-live-warehouse-operations-at-gtc-2026-in-san-jose-california/a7cce95a-95c4-4320-a628-aaca0bda40bd",
+    "title": "KION / EQS original",
+    "publisher": "KION / EQS",
+    "publishedAt": "2026-03-16",
+    "observedAt": "2026-10-22T08:32:47.375137+00:00",
+    "evidenceLocator": "Full original page read; private source snapshot retained",
+    "claims": [],
+    "access": "full text read",
+    "number": 29
+  },
+  {
+    "url": "https://news.gm.com/home.detail.html/Pages/news/us/en/2026/oct/1021-onstar-ai.html",
+    "title": "General Motors original",
+    "publisher": "General Motors",
+    "publishedAt": "2026-10-21",
+    "observedAt": "2026-10-22T08:25:12.602233+00:00",
+    "evidenceLocator": "Full original page read; private source snapshot retained",
+    "claims": [],
+    "access": "full text read",
+    "number": 30
+  },
+  {
+    "url": "https://www.onstar.com/features/connected-intelligence",
+    "title": "OnStar original",
+    "publisher": "OnStar",
+    "publishedAt": "undated, observed October22",
+    "observedAt": "2026-10-22T08:25:12.602233+00:00",
+    "evidenceLocator": "Full original page read; private source snapshot retained",
+    "claims": [],
+    "access": "full text read",
+    "number": 31
+  },
+  {
+    "url": "https://news.gm.com/home.detail.html/Pages/topic/us/en/2026/sep/0925-onstar-30.html",
+    "title": "General Motors original",
+    "publisher": "General Motors",
+    "publishedAt": "2026-09-25",
+    "observedAt": "2026-10-22T08:25:12.602233+00:00",
+    "evidenceLocator": "Full original page read; private source snapshot retained",
+    "claims": [],
+    "access": "full text read",
+    "number": 32
+  },
+  {
+    "url": "https://www.oppo.com/en/newsroom/press/oppo-find-x10-series-global-launch/",
+    "title": "OPPO Find X10 Series Global Launch",
+    "publisher": "OPPO",
+    "publishedAt": "2026-10-21",
+    "evidenceLocator": "AgentMode,AIPhotoAgent,Availability and footnotes",
+    "claims": [
+      "lateOctoberavailability",
+      "regionalAIlimitations",
+      "BlackmagicNovember",
+      "batteryregionaldifference"
+    ],
+    "access": "full original read",
+    "number": 33
+  },
+  {
+    "url": "https://www.oppo.com/en/events/find-x10-series-launch/",
+    "title": "Global Launch event",
+    "publisher": "OPPO",
+    "evidenceLocator": "16:00 CEST October21 2026",
+    "claims": [
+      "launchschedule14:00UTC"
+    ],
+    "access": "full original read",
+    "number": 34
+  },
+  {
+    "url": "https://www.oppo.com/en/coloros17/",
+    "title": "ColorOS17",
+    "publisher": "OPPO",
+    "evidenceLocator": "AI MindPilot, AI Mind Space and footnotes",
+    "claims": [
+      "limitedfreeuseandaccountrequirements",
+      "illustrativeUIwarning"
+    ],
+    "access": "full original read",
+    "number": 35
+  },
+  {
+    "url": "https://www.oppo.com/uk/store/events/launch/find-x10-launch-event-early-bird-tc",
+    "title": "FindX10earlybirdterms",
+    "publisher": "OPPO UK",
+    "evidenceLocator": "Deposit and finalpayment terms",
+    "claims": [
+      "GBP49depositnotfullprice",
+      "depositnotstockguarantee"
+    ],
+    "access": "full original terms read; checkout not tested",
+    "number": 36
+  },
+  {
+    "url": "https://www.oppo.com/en/newsroom/press/oppo-findx10series-upcoming-launch/",
+    "title": "Upcoming global launch",
+    "publisher": "OPPO",
+    "publishedAt": "2026-10-08",
+    "evidenceLocator": "camera,AgentMode,launchdate",
+    "claims": [
+      "keycapabilitiespreviouslyannounced"
+    ],
+    "access": "full original read",
+    "number": 37
+  },
+  {
+    "url": "https://www.corsair.com/us/en/explorer/gamer/mice/purevector-the-future-of-aiming/",
+    "title": "CORSAIR original",
+    "publisher": "CORSAIR",
+    "publishedAt": "2026-10-20",
+    "observedAt": "2026-10-22T08:38:04.445559+00:00",
+    "evidenceLocator": "Full original page read; private source snapshot retained",
+    "claims": [],
+    "access": "full text read",
+    "number": 38
+  },
+  {
+    "url": "https://www.corsair.com/us/en/explorer/gamer/mice/how-to-use-purevector/",
+    "title": "CORSAIR original",
+    "publisher": "CORSAIR",
+    "publishedAt": "2026-10-20",
+    "observedAt": "2026-10-22T08:38:04.445559+00:00",
+    "evidenceLocator": "Full original page read; private source snapshot retained",
+    "claims": [],
+    "access": "full text read",
+    "number": 39
+  },
+  {
+    "url": "https://www.businesswire.com/news/home/20261020206235/en/CORSAIR-Unleashes-PureVector-with-Testing-Showing-up-to-a-33-Reduction-in-Aiming-and-Correction-Time",
+    "title": "CORSAIR / Business Wire original",
+    "publisher": "CORSAIR / Business Wire",
+    "publishedAt": "2026-10-20",
+    "observedAt": "2026-10-22T08:38:04.445559+00:00",
+    "evidenceLocator": "Issuer date and availability corroboration; index only",
+    "claims": [],
+    "access": "Indexed issuer release read; direct web retrieval Internal Error. Full official newsroom release retained separately.",
+    "number": 40
+  },
+  {
+    "url": "https://www.corsair.com/us/en/p/gaming-mouse/ch-931g500-ww/sabre-v3-pro-purevector-mg-wireless-gaming-mouse-black",
+    "title": "CORSAIR US Store original",
+    "publisher": "CORSAIR US Store",
+    "publishedAt": "observed October22",
+    "observedAt": "2026-10-22T08:38:04.445559+00:00",
+    "evidenceLocator": "Full original page read; private source snapshot retained",
+    "claims": [],
+    "access": "full text read",
+    "number": 41
+  },
+  {
+    "url": "https://www.theverge.com/tech/1015028/iphone-duo-review",
+    "title": "The Verge / Nilay Patel and Allison Johnson original",
+    "publisher": "The Verge / Nilay Patel and Allison Johnson",
+    "publishedAt": "2026-10-21T12:00:00Z",
+    "observedAt": "2026-10-22T08:34:52.386422+00:00",
+    "evidenceLocator": "Full original page read; private source snapshot retained",
+    "claims": [],
+    "access": "full text read",
+    "number": 42
+  },
+  {
+    "url": "https://www.apple.com/iphone-duo/",
+    "title": "Apple original",
+    "publisher": "Apple",
+    "publishedAt": "current official product page",
+    "observedAt": "2026-10-22T08:34:52.386422+00:00",
+    "evidenceLocator": "Full original page read; private source snapshot retained",
+    "claims": [],
+    "access": "full text read",
+    "number": 43
+  },
+  {
+    "url": "https://www.apple.com/shop/buy-iphone/iphone-duo",
+    "title": "Apple US Store original",
+    "publisher": "Apple US Store",
+    "publishedAt": "observed October22",
+    "observedAt": "2026-10-22T08:34:52.386422+00:00",
+    "evidenceLocator": "Full original page read; private source snapshot retained",
+    "claims": [],
+    "access": "full text read",
+    "number": 44
+  },
+  {
+    "url": "https://www.therabody.com/blogs/news/therabody-launches-ai-shopping-assistant-jason-with-aws-to-deliver-personalized-science-backed-recommendations-for-every-body",
+    "title": "Therabody original",
+    "publisher": "Therabody",
+    "publishedAt": "2026-10-21",
+    "observedAt": "2026-10-22T08:32:47.375137+00:00",
+    "evidenceLocator": "Full original page read; private source snapshot retained",
+    "claims": [],
+    "access": "full text read",
+    "number": 45
+  },
+  {
+    "url": "https://www.prnewswire.com/news-releases/therabody-launches-ai-shopping-assistant-jason-with-aws-to-deliver-personalized-science-backed-recommendations-for-every-body-302915074.html",
+    "title": "Therabody / PRNewswire original",
+    "publisher": "Therabody / PRNewswire",
+    "publishedAt": "2026-10-21T13:00:00Z",
+    "observedAt": "2026-10-22T08:32:47.375137+00:00",
+    "evidenceLocator": "Full original page read; private source snapshot retained",
+    "claims": [],
+    "access": "full text read",
+    "number": 46
+  },
+  {
+    "url": "https://www.therabody.com/",
+    "title": "Therabody original",
+    "publisher": "Therabody",
+    "publishedAt": "current public interface",
+    "observedAt": "2026-10-22T08:32:47.375137+00:00",
+    "evidenceLocator": "Full original page read; private source snapshot retained",
+    "claims": [],
+    "access": "full text read",
+    "number": 47
+  },
+  {
+    "url": "https://www.aimoga-robot.com/global/en/",
+    "title": "AiMOGA original",
+    "publisher": "AiMOGA",
+    "publishedAt": "October21 preorder period; exact publication clock unknown",
+    "observedAt": "2026-10-22T08:28:58.509251+00:00",
+    "evidenceLocator": "Full original page read; private source snapshot retained",
+    "claims": [],
+    "access": "full text read",
+    "number": 48
+  },
+  {
+    "url": "https://www.globenewswire.com/news-release/2026/10/17/3382868/0/en/aimoga-to-unveil-mobo-its-first-family-companion-robot-on-october-21.html",
+    "title": "AiMOGA issuer release original",
+    "publisher": "AiMOGA issuer release",
+    "publishedAt": "2026-10-17T10:27:00Z",
+    "observedAt": "2026-10-22T08:28:58.509251+00:00",
+    "evidenceLocator": "Full original page read; private source snapshot retained",
+    "claims": [],
+    "access": "full text read",
+    "number": 49
+  },
+  {
+    "url": "https://www.mitsubishielectric.com/en/pr/2026/1021_rd/",
+    "title": "Mitsubishi Electric Develops Machining System with Humanoid Robots and CNC",
+    "publisher": "Mitsubishi Electric",
+    "publishedAt": "2026-10-21",
+    "observedAt": "2026-10-22T08:15:00Z",
+    "evidenceLocator": "Release No.3946; system and future JIMTOF demonstration",
+    "claims": [
+      "Prototype; natural-language coordination; JIMTOF demonstration scheduled Oct26"
+    ],
+    "access": "read full original",
+    "number": 50
+  },
+  {
+    "url": "https://www.mitsubishielectric.com/en/pr/2026/pdf/1021_rd.pdf",
+    "title": "Technical release No.3946",
+    "publisher": "Mitsubishi Electric",
+    "publishedAt": "2026-10-21",
+    "observedAt": "2026-10-22T08:15:00Z",
+    "evidenceLocator": "PDF pages2-3: preregistered tasks and commercialization2030",
+    "claims": [
+      "Planner combines preregistered work tasks",
+      "2030 commercialization target"
+    ],
+    "access": "read full three-page PDF",
+    "number": 51
+  },
+  {
+    "url": "https://newsroom.accenture.com/news/2026/tuv-sud-and-accenture-accelerate-certification-of-physical-ai-in-automated-factories-and-warehouses-with-nvidia-technologies-to-drive-manufacturing-productivity",
+    "title": "Accenture / TÜV SÜD original",
+    "publisher": "Accenture / TÜV SÜD",
+    "publishedAt": "2026-10-21; page clock07:29 without timezone",
+    "observedAt": "2026-10-22T08:25:12.602233+00:00",
+    "evidenceLocator": "Full original page read; private source snapshot retained",
+    "claims": [],
+    "access": "full text read",
+    "number": 52
+  },
+  {
+    "url": "https://www.producthunt.com/products/band",
+    "title": "BAND for Developers launch",
+    "publisher": "BAND / Product Hunt",
+    "publishedAt": "2026-10-21",
+    "observedAt": "2026-10-22 08:21:01 UTC",
+    "evidenceLocator": "October 21 launch and maker comment; prior April launch",
+    "claims": [
+      "New developer desktop presentation, shared context and rooms; maker claims rather than measured outcomes"
+    ],
+    "access": "read",
+    "number": 53
+  },
+  {
+    "url": "https://www.band.ai/use-cases/band-desktop",
+    "title": "BAND Desktop",
+    "publisher": "BAND",
+    "observedAt": "2026-10-22 08:21:01 UTC",
+    "evidenceLocator": "Work board, rooms, human approval, local runtime and room messages",
+    "claims": [
+      "Shared work board and room messages; local runtime does not imply all shared messages remain local"
+    ],
+    "access": "read",
+    "number": 54
+  },
+  {
+    "url": "https://docs.band.ai/band-desktop",
+    "title": "BAND Desktop documentation",
+    "publisher": "BAND",
+    "observedAt": "2026-10-22 08:21:01 UTC",
+    "evidenceLocator": "Version 0.4.15; setup, runtime check, owned and attached sessions, work assignment",
+    "claims": [
+      "Uses installed signed-in CLI runtimes; runtime check; assignment creates room/task/request; attached sessions require terminal"
+    ],
+    "access": "read",
+    "number": 55
+  },
+  {
+    "url": "https://www.band.ai/pricing",
+    "title": "BAND pricing",
+    "publisher": "BAND",
+    "observedAt": "2026-10-22 08:21:01 UTC",
+    "evidenceLocator": "Free and Pro cards, retention and use limitations",
+    "claims": [
+      "Free personal noncommercial single-user, 2-week data retention; Pro $17.99 monthly single personal user; enterprise custom"
+    ],
+    "access": "read",
+    "number": 56
+  },
+  {
+    "url": "https://www.producthunt.com/leaderboard/daily/2026/10/21",
+    "title": "October21 daily launch board",
+    "publisher": "Product Hunt",
+    "publishedAt": "2026-10-21",
+    "observedAt": "2026-10-22 08:25:26 UTC",
+    "evidenceLocator": "Agent Pets entry",
+    "claims": [
+      "Launch listing date, not adoption or exact software first release"
+    ],
+    "access": "read",
+    "number": 57
+  },
+  {
+    "url": "https://www.producthunt.com/products/agent-pets",
+    "title": "Agent Pets launch and maker discussion",
+    "publisher": "Agent Pets / Product Hunt",
+    "publishedAt": "2026-10-21",
+    "observedAt": "2026-10-22 08:25:26 UTC",
+    "evidenceLocator": "Maker pinned comment and supported agents discussion",
+    "claims": [
+      "Claude Code, OpenCode and omp sessions shown as browser pets; approval and reply surface; initial launch does not establish Codex support"
+    ],
+    "access": "read",
+    "number": 58
+  },
+  {
+    "url": "https://www.getagentpets.com/",
+    "title": "Agent Pets product and setup",
+    "publisher": "Agent Pets",
+    "observedAt": "2026-10-22 08:25:26 UTC",
+    "evidenceLocator": "Installation, permissions, platform, pricing and FAQ",
+    "claims": [
+      "Chromium extension with local helper and hooks; agent-specific approval limitations; early price; despawning not cancellation"
+    ],
+    "access": "Firecrawl read; cachedAt2026-10-22T07:07:10.342Z reported",
+    "number": 59
+  },
+  {
+    "url": "https://www.getagentpets.com/privacy",
+    "title": "Privacy policy observed after cutoff",
+    "publisher": "Agent Pets",
+    "publishedAt": "2026-10-22",
+    "observedAt": "2026-10-22 08:25:26 UTC",
+    "evidenceLocator": "Local helper, licensing and update calls",
+    "claims": [
+      "Current privacy description separates local work data from license/update network requests; precise pre-cutoff policy availability unverified"
+    ],
+    "access": "Firecrawl read; web retrieval failed",
+    "number": 60
+  },
+  {
+    "url": "https://www.producthunt.com/products/ilha",
+    "title": "ilha maker launch and answers",
+    "publisher": "ilha / Product Hunt",
+    "publishedAt": "2026-10-21 listing",
+    "observedAt": "2026-10-22 08:28:25 UTC",
+    "evidenceLocator": "Maker answers account-switching question",
+    "claims": [
+      "Claude running sessions can follow; Codex sessions need restart after switch"
+    ],
+    "access": "read",
+    "number": 61
+  },
+  {
+    "url": "https://ilha.app/",
+    "title": "ilha product and pricing",
+    "publisher": "ilha",
+    "observedAt": "2026-10-22 08:28:25 UTC",
+    "evidenceLocator": "Quota windows, Insights, free/Pro, telemetry FAQ",
+    "claims": [
+      "macOS15+, quota windows/reset, API-priced estimates not bill; free/trial/pro"
+    ],
+    "access": "read via previously resolved original URL; later direct fetch failed",
+    "number": 62
+  },
+  {
+    "url": "https://ilha.app/privacy",
+    "title": "ilha privacy policy",
+    "publisher": "ilha",
+    "publishedAt": "2026-10-18",
+    "observedAt": "2026-10-22 08:28:25 UTC",
+    "evidenceLocator": "Keychain/security tool; anonymous counts/crashes default on; license requests",
+    "claims": [
+      "Usage/login/logs not sent vendor, but telemetry and license traffic exist; access through security tool has stated caveat"
+    ],
+    "access": "read",
+    "number": 63
+  },
+  {
+    "url": "https://ilha.app/terms",
+    "title": "ilha terms",
+    "publisher": "ilha",
+    "publishedAt": "2026-10-17",
+    "observedAt": "2026-10-22 08:28:25 UTC",
+    "evidenceLocator": "Price, updates, license seats and provider independence",
+    "claims": [
+      "US$20 one Mac, one year updates, old covered versions retain Pro; provider compatibility can change"
+    ],
+    "access": "read",
+    "number": 64
+  },
+  {
+    "url": "https://www.producthunt.com/products/the-brains",
+    "title": "The Brains launch",
+    "publisher": "The Brains / Product Hunt",
+    "publishedAt": "2026-10-21 listing",
+    "observedAt": "2026-10-22 08:32:13 UTC",
+    "evidenceLocator": "Launch description and maker comment",
+    "claims": [
+      "37 curated knowledge profiles advertised; source citations; unofficial"
+    ],
+    "access": "read",
+    "number": 65
+  },
+  {
+    "url": "https://github.com/VicPitic/the-brains",
+    "title": "The Brains repository and README",
+    "publisher": "The Brains",
+    "observedAt": "2026-10-22 08:32:13 UTC",
+    "evidenceLocator": "Tools, pipeline, run yourself, content and takedowns",
+    "claims": [
+      "Search passages/source dates; local open endpoints without database; hosted account; source pipeline"
+    ],
+    "access": "read",
+    "number": 66
+  },
+  {
+    "url": "https://github.com/VicPitic/the-brains/blob/main/docs/brain-runbook.md",
+    "title": "Brain curation runbook",
+    "publisher": "The Brains",
+    "observedAt": "2026-10-22 08:32:13 UTC",
+    "evidenceLocator": "Shortlist rules and quality gates",
+    "claims": [
+      "Original speaker/writer filter; source identifiers and quote checks; sample note review"
+    ],
+    "access": "read",
+    "number": 67
+  },
+  {
+    "url": "https://github.com/VicPitic/the-brains/blob/main/LICENSE",
+    "title": "Code license and content exception",
+    "publisher": "The Brains",
+    "observedAt": "2026-10-22 08:32:13 UTC",
+    "evidenceLocator": "MIT covers code; content belongs authors/publishers",
+    "claims": [
+      "MIT code only, source content not automatically MIT"
+    ],
+    "access": "read",
+    "number": 68
+  },
+  {
+    "url": "https://brains.ceo/privacy",
+    "title": "The Brains privacy",
+    "publisher": "The Brains",
+    "publishedAt": "2026-10-17",
+    "observedAt": "2026-10-22 08:32:13 UTC",
+    "evidenceLocator": "Tool requests, search text, account deletion",
+    "claims": [
+      "Hosted service receives tool calls including search text, not entire client conversation; email sign-in"
+    ],
+    "access": "read",
+    "number": 69
+  },
+  {
+    "url": "https://github.com/SupercmoHQ/superCMO-skills/releases/tag/v0.1.27",
+    "title": "SuperCMO Skills v0.1.27",
+    "publisher": "SuperCMO",
+    "publishedAt": "2026-10-21T12:24:13Z",
+    "observedAt": "2026-10-22 08:37:03 UTC",
+    "evidenceLocator": "Release changes PR55/59/61",
+    "claims": [
+      "Installation and documentation updates, not first product launch"
+    ],
+    "access": "read; exact timestamp GitHub API",
+    "number": 70
+  },
+  {
+    "url": "https://github.com/SupercmoHQ/superCMO-skills/pull/61",
+    "title": "Pin exact versions and clear plugin-directory warnings",
+    "publisher": "SuperCMO",
+    "publishedAt": "2026-10-21",
+    "observedAt": "2026-10-22 08:37:03 UTC",
+    "evidenceLocator": "Merged commit91c9453c and38cda390",
+    "claims": [
+      "Fixed npm/pip versions, installer moved out of plugin bin, dead installer removed; directory acceptance not proven"
+    ],
+    "access": "read release and commit API",
+    "number": 71
+  },
+  {
+    "url": "https://github.com/SupercmoHQ/superCMO-skills/pull/55",
+    "title": "Make dry-run and telemetry text match code",
+    "publisher": "SuperCMO",
+    "publishedAt": "2026-10-20 merge",
+    "observedAt": "2026-10-22 08:37:03 UTC",
+    "evidenceLocator": "dry_run request preview never returned cost; telemetry fields and opt-out",
+    "claims": [
+      "Documentation correction, not new cost-estimator feature or newly enabled telemetry"
+    ],
+    "access": "read release and commit API",
+    "number": 72
+  },
+  {
+    "url": "https://github.com/SupercmoHQ/superCMO-skills",
+    "title": "SuperCMO Skills README",
+    "publisher": "SuperCMO",
+    "observedAt": "2026-10-22 08:37:03 UTC",
+    "evidenceLocator": "Workflow, model keys, approvals and Apache2.0",
+    "claims": [
+      "Brand inputs to campaign generation; BYOK or managed usage; render approval; no measured quality"
+    ],
+    "access": "read",
+    "number": 73
+  },
+  {
+    "url": "https://github.com/SupercmoHQ/superCMO-skills/blob/main/TELEMETRY.md",
+    "title": "Telemetry specification",
+    "publisher": "SuperCMO",
+    "observedAt": "2026-10-22 08:37:03 UTC",
+    "evidenceLocator": "Field table, exclusions and opt-out",
+    "claims": [
+      "Opt-out telemetry includes model/provider/route/errors, excludes prompts/outputs/keys according to maintainer"
+    ],
+    "access": "read",
+    "number": 74
+  },
+  {
+    "url": "https://www.producthunt.com/products/supercmo-ai",
+    "title": "SuperCMO public launch presentation",
+    "publisher": "SuperCMO / Product Hunt",
+    "publishedAt": "2026-10-21",
+    "observedAt": "2026-10-22 08:37:03 UTC",
+    "evidenceLocator": "Maker workflow and pay-per-use description",
+    "claims": [
+      "Creative workflow and controls are vendor claims; listing does not reset old repository"
+    ],
+    "access": "read",
+    "number": 75
+  },
+  {
+    "url": "https://github.com/Cassiiopeia/projectops/releases/tag/v4.72.0",
+    "title": "ProjectOps v4.72.0",
+    "publisher": "ProjectOps",
+    "publishedAt": "2026-10-22T05:47:59Z",
+    "observedAt": "2026-10-22 08:23:35 UTC",
+    "evidenceLocator": "New features and bug fixes",
+    "claims": [
+      "Copilot skills; self-host deploy waits for configuration; signing passwords removed from logs; Flutter setup changes"
+    ],
+    "access": "read",
+    "number": 76
+  },
+  {
+    "url": "https://cassiiopeia.github.io/projectops/cli",
+    "title": "CLI reference",
+    "publisher": "ProjectOps",
+    "observedAt": "2026-10-22 08:23:35 UTC",
+    "evidenceLocator": "Modes, doctor, updating, development branch",
+    "claims": [
+      "Node20.12+; doctor read-only; modified workflows retained and incoming templates provided; optional branch creation pushes remote"
+    ],
+    "access": "read",
+    "number": 77
+  },
+  {
+    "url": "https://github.com/Cassiiopeia/projectops/blob/main/README.md",
+    "title": "ProjectOps README",
+    "publisher": "ProjectOps",
+    "observedAt": "2026-10-22 08:23:35 UTC",
+    "evidenceLocator": "Workflow comparison; version pinning; demos; release PR automatic merge",
+    "claims": [
+      "Agent skills plus Actions broader than version tools; release PR can automerge; demos use sample repository"
+    ],
+    "access": "read",
+    "number": 78
+  },
+  {
+    "url": "https://github.com/Cassiiopeia/projectops/blob/main/LICENSE",
+    "title": "MIT license",
+    "publisher": "ProjectOps",
+    "observedAt": "2026-10-22 08:23:35 UTC",
+    "evidenceLocator": "MIT License header and grant",
+    "claims": [
+      "MIT code license, not free hosting/model use"
+    ],
+    "access": "read",
+    "number": 79
+  },
+  {
+    "url": "https://github.com/infiniflow/ragflow/releases/tag/v1.0.0-rc2",
+    "title": "RAGFlow 1.0.0-rc2",
+    "publisher": "RAGFlow",
+    "publishedAt": "2026-10-16T09:49:48Z",
+    "observedAt": "2026-10-22 08:40:45 UTC",
+    "evidenceLocator": "Highlights and included changes",
+    "claims": [
+      "Agentic mode replaces thinking levels, rc1 data compatibility, Team/Me sharing, twelve parsers unified, arm64 image claim"
+    ],
+    "access": "read; exact timestamp via GitHub API",
+    "number": 80
+  },
+  {
+    "url": "https://github.com/infiniflow/ragflow/pull/20603",
+    "title": "Unify BuiltIn and Pipeline parser selection",
+    "publisher": "RAGFlow maintainers",
+    "publishedAt": "2026-10-09 merge; included rc2",
+    "observedAt": "2026-10-22 08:40:45 UTC",
+    "evidenceLocator": "Summary and mode validation",
+    "claims": [
+      "One dropdown replaces radio/conditional field; required parse_type on create, preserve selection on config-only update"
+    ],
+    "access": "read via GitHub API",
+    "number": 81
+  },
+  {
+    "url": "https://github.com/infiniflow/ragflow/pull/20440",
+    "title": "Preserve parallel item state across resumes",
+    "publisher": "RAGFlow maintainers",
+    "publishedAt": "2026-09-30 merge; included rc2",
+    "observedAt": "2026-10-22 08:40:45 UTC",
+    "evidenceLocator": "PR body",
+    "claims": [
+      "Restore saved item state after repeated pauses without rerunning completed steps; maintainer claim"
+    ],
+    "access": "read via GitHub API",
+    "number": 82
+  },
+  {
+    "url": "https://github.com/infiniflow/ragflow/blob/v1.0.0-rc2/docs/quickstart.mdx",
+    "title": "Versioned quickstart",
+    "publisher": "RAGFlow",
+    "publishedAt": "v1.0.0-rc2 tag",
+    "observedAt": "2026-10-22 08:40:45 UTC",
+    "evidenceLocator": "Prerequisites, dataset/chunk inspection and model configuration",
+    "claims": [
+      "Recommended4CPU/16GB/50GB; model services; runtime migration; chunk inspection; ARM64 unsupported text contradicts release"
+    ],
+    "access": "read via GitHub contents API",
+    "number": 83
+  },
+  {
+    "url": "https://github.com/infiniflow/ragflow/blob/v1.0.0-rc2/docs/guides/chat/using_chat_sessions.md",
+    "title": "Using Chat conversations",
+    "publisher": "RAGFlow",
+    "publishedAt": "v1.0.0-rc2 tag",
+    "observedAt": "2026-10-22 08:40:45 UTC",
+    "evidenceLocator": "Conversations, stopping, uploaded files",
+    "claims": [
+      "Separate conversation context; stop generation; attachments are not automatically permanent knowledge-base entries"
+    ],
+    "access": "read via GitHub API",
+    "number": 84
+  },
+  {
+    "url": "https://github.com/infiniflow/ragflow",
+    "title": "RAGFlow repository",
+    "publisher": "InfiniFlow",
+    "observedAt": "2026-10-22 08:40:45 UTC",
+    "evidenceLocator": "Apache2 license badge; rc1 history and core workflow",
+    "claims": [
+      "Apache2 code; rc1 rewrite predates rc2, no performance reproduction"
+    ],
+    "access": "read",
+    "number": 85
+  },
+  {
+    "url": "https://github.com/google/agents-cli/releases/tag/v1.11.0",
+    "title": "Agents CLI v1.11.0",
+    "publisher": "Google",
+    "publishedAt": "2026-10-20T13:03:57Z",
+    "observedAt": "2026-10-22T08:25:24.662119+00:00",
+    "evidenceLocator": "Release notes",
+    "claims": "Feedback, identity-command restrictions, mirrors and migration",
+    "access": "read",
+    "number": 86
+  },
+  {
+    "url": "https://developers.googleblog.com/powering-the-agent-development-lifecycle-with-any-framework-from-adk-to-langchain-and-beyond/",
+    "title": "Agents CLI extension walkthrough",
+    "publisher": "Google",
+    "publishedAt": "2026-10-21",
+    "observedAt": "2026-10-22T08:25:24.662119+00:00",
+    "evidenceLocator": "LangChain / wrapper example",
+    "claims": "Older mechanism and visible example; not release date",
+    "access": "read",
+    "number": 87
+  },
+  {
+    "url": "https://google.github.io/agents-cli/guide/extensions/using/",
+    "title": "Using Extensions",
+    "publisher": "Google",
+    "observedAt": "2026-10-22T08:25:24.662119+00:00",
+    "evidenceLocator": "Scopes / trust / lifecycle",
+    "claims": "Scope and version pinning",
+    "access": "read",
+    "number": 88
+  },
+  {
+    "url": "https://google.github.io/agents-cli/guide/extensions/authoring/",
+    "title": "Authoring Extensions",
+    "publisher": "Google",
+    "observedAt": "2026-10-22T08:25:24.662119+00:00",
+    "evidenceLocator": "Auto-loaded extensions / rules",
+    "claims": "Trust boundary and execution mechanism",
+    "access": "read",
+    "number": 89
+  },
+  {
+    "url": "https://github.com/google/agents-cli",
+    "title": "google/agents-cli repository",
+    "publisher": "Google",
+    "observedAt": "2026-10-22T08:25:24.662119+00:00",
+    "evidenceLocator": "License",
+    "claims": "Apache-2.0",
+    "access": "read",
+    "number": 90
+  },
+  {
+    "url": "https://github.com/google/agents-cli/releases/tag/v1.8.0",
+    "title": "Google Agents CLI v1.8.0",
+    "publisher": "Google / GitHub",
+    "publishedAt": "2026-09-30T11:25:05Z",
+    "observedAt": "2026-10-22T08:50Z",
+    "evidenceLocator": "published_at and release body",
+    "access": "Original GitHub release metadata read",
+    "number": 91
+  },
+  {
+    "url": "https://pytorch.org/blog/introducing-torchtpu/",
+    "title": "Introducing TorchTPU",
+    "publisher": "PyTorch",
+    "publishedAt": "2026-10-20T16:02:30Z",
+    "evidenceLocator": "Usability, numericalprecision, eagerexecution",
+    "claims": [
+      "nativebackend",
+      "precisiondefault",
+      "executionmodes"
+    ],
+    "access": "full original read",
+    "number": 92
+  },
+  {
+    "url": "https://github.com/google-pytorch/torch_tpu",
+    "title": "TorchTPU repository",
+    "publisher": "Google-PyTorch",
+    "evidenceLocator": "README installation/license/examples",
+    "claims": [
+      "Python3.11",
+      "Apache2.0",
+      "public0.2.0"
+    ],
+    "access": "full README and filetree read; no execution",
+    "number": 93
+  },
+  {
+    "url": "https://huggingface.co/blog/hf-torchtpu",
+    "title": "Hugging Face TorchTPU",
+    "publisher": "Hugging Face",
+    "publishedAt": "2026-10-20",
+    "evidenceLocator": "Transformers,Diffusers,testing",
+    "claims": [
+      "native integration",
+      "96.5percent scoped testpass"
+    ],
+    "access": "full integrationpartneroriginal read",
+    "number": 94
+  },
+  {
+    "url": "https://cloud.google.com/blog/topics/ai-infrastructure/torchtpu-is-now-open-source-run-native-pytorch-on-tpus",
+    "title": "TorchTPU is now open source",
+    "publisher": "Google Cloud",
+    "publishedAt": "2026-10-20",
+    "evidenceLocator": "Open source availability; TPU agent suite early preview",
+    "claims": [
+      "opensourceannouncement",
+      "agentpreview"
+    ],
+    "access": "full original read",
+    "number": 95
+  },
+  {
+    "url": "https://github.com/google-pytorch/tpu-agent-suite",
+    "title": "TPU agent suite",
+    "publisher": "Google-PyTorch",
+    "evidenceLocator": "README architecture,quickstart,supportedharnesses",
+    "claims": [
+      "ClaudeCodeAntigravitycurrent",
+      "CodexCursorfuture",
+      "backendfirstsessionchecks"
+    ],
+    "access": "README read; noinstallation or execution",
+    "number": 96
+  },
+  {
+    "url": "https://docs.litellm.ai/blog/security-incident-oct-21-2026",
+    "title": "Contained: Oct21 LiteLLM release v1.107.0 compromised",
+    "publisher": "LiteLLM",
+    "publishedAt": "2026-10-21",
+    "observedAt": "2026-10-22T08:23:15.583066+00:00",
+    "evidenceLocator": "TLDR; Confirmed affected versions; Who is affected; How this happened",
+    "claims": [
+      "PyPI first publication11:39:51Z; allsevenwheels",
+      "Docker tags affected; privateenterprise registry unaffected issuer claim",
+      "Source Git tag does not carry maliciousfiles"
+    ],
+    "access": "full page read",
+    "number": 97
+  },
+  {
+    "url": "https://www.endorlabs.com/learn/litellm-1-107-0-compromised-python-startup-hooks-steal-cloud-ai-and-proxy-credentials",
+    "title": "LiteLLM1.107.0 Compromised: Python Startup Hooks",
+    "publisher": "Endor Labs",
+    "publishedAt": "2026-10-21",
+    "observedAt": "2026-10-22T08:23:15.583066+00:00",
+    "evidenceLocator": "Technical analysis; Affected artifacts; Timeline",
+    "claims": [
+      "Independent compared sdist/source revisions",
+      "Interpreter startup hook rather than application import",
+      "Gateway database provider credentials targeted"
+    ],
+    "access": "full technical sections read",
+    "number": 98
+  },
+  {
+    "url": "https://www.chainguard.dev/unchained/litellm-attacked-again-malicious-1-107-0-wheels-on-pypi-and-docker-hub-october-2026",
+    "title": "LiteLLM attacked again",
+    "publisher": "Chainguard",
+    "publishedAt": "2026-10-21",
+    "observedAt": "2026-10-22T08:23:15.583066+00:00",
+    "evidenceLocator": "Affected packages; Why Chainguard customers were protected",
+    "claims": [
+      "Own scanning reportedlyblocked after16min",
+      "Own source builds and cooldown as control approaches; vendorinterest"
+    ],
+    "access": "full relevant sections read",
+    "number": 99
+  },
+  {
+    "url": "https://docs.litellm.ai/docs/simple_proxy",
+    "title": "LiteLLM AI Gateway",
+    "publisher": "LiteLLM",
+    "observedAt": "2026-10-22T08:23:15.583066+00:00",
+    "evidenceLocator": "What gatewaydoes; setup; AdminUI",
+    "claims": [
+      "Selfhosted compatibleendpoint, provider routing, virtualkeys and budgets",
+      "UI official screenshots"
+    ],
+    "access": "fullpage",
+    "number": 100
+  },
+  {
+    "url": "https://github.com/BerriAI/litellm/issues/47826",
+    "title": "Security report issue47826",
+    "publisher": "GitHub reporter and maintainers",
+    "publishedAt": "2026-10-21",
+    "observedAt": "2026-10-22T08:23:15.583066+00:00",
+    "evidenceLocator": "Original public incidentreport linked by maintainer",
+    "claims": [
+      "Community report exists; not counted as separate independent incidence"
+    ],
+    "access": "page opened; not all2186renderedlines read",
+    "number": 101
+  },
+  {
+    "url": "https://github.com/AltanS/collie/releases/tag/v1.23.2",
+    "title": "Collie v1.23.2",
+    "publisher": "Collie maintainers",
+    "publishedAt": "2026-10-21T21:18:33Z",
+    "observedAt": "2026-10-22T08:23:15.583066+00:00",
+    "evidenceLocator": "What changed; Packaging; upgrade notes",
+    "claims": [
+      "stable fixes for questioncards/pi extensionboxes/staleDismiss",
+      "Bun1.4.1embedded TLSfix absent"
+    ],
+    "access": "GitHub API fullrelease read",
+    "number": 102
+  },
+  {
+    "url": "https://github.com/AltanS/collie/blob/v1.23.2/CHANGELOG.md",
+    "title": "Collie1.23.2 changelog",
+    "publisher": "Collie maintainers",
+    "publishedAt": "2026-10-21",
+    "observedAt": "2026-10-22T08:23:15.583066+00:00",
+    "evidenceLocator": "1.23.2 Fixed and Packaging",
+    "claims": [
+      "Question parsing,noticekeyfirstline gating,stablechange boundaries"
+    ],
+    "access": "GitHub content full relevant version",
+    "number": 103
+  },
+  {
+    "url": "https://github.com/AltanS/collie/pull/559",
+    "title": "Claude survey and held-card field fixes",
+    "publisher": "Collie contributor",
+    "publishedAt": "2026-10-21T07:48:28Z",
+    "observedAt": "2026-10-22T08:23:15.583066+00:00",
+    "evidenceLocator": "Field report; fixed vs seen notfixed",
+    "claims": [
+      "Oneoperator20sessions report,notpopulation",
+      "Survey blockedphone sends; staleTypedcard; unknownversionQueuedopaque"
+    ],
+    "access": "Publicbody read",
+    "number": 104
+  },
+  {
+    "url": "https://github.com/AltanS/collie/issues/553",
+    "title": "Multiline pi draft misread as menu #553",
+    "publisher": "Collie user/contributor",
+    "publishedAt": "2026-10-21T04:23:32Z",
+    "observedAt": "2026-10-22T08:23:15.583066+00:00",
+    "evidenceLocator": "Steps; expected; environment",
+    "claims": [
+      "Collie1.23.1+pi1.3.0+gentlepi userreport",
+      "ScreenEnter workaround",
+      "Suspecteddoubletext unconfirmed"
+    ],
+    "access": "Publicbody read",
+    "number": 105
+  },
+  {
+    "url": "https://github.com/AltanS/collie/pull/555",
+    "title": "Proposed soft-wrap pi draft fix #555",
+    "publisher": "Collie contributor",
+    "publishedAt": "2026-10-21T04:58:59Z",
+    "observedAt": "2026-10-22T08:23:15.583066+00:00",
+    "evidenceLocator": "OpenPR; known conservativegap; notinPR",
+    "claims": [
+      "Notmerged atcollection",
+      "Manualnewline drafts stillpossiblemenu",
+      "Repeatedtext unexplained"
+    ],
+    "access": "GitHub API fullbody read",
+    "number": 106
+  },
+  {
+    "url": "https://github.com/AltanS/collie/blob/v1.23.2/README.md",
+    "title": "Collie README at1.23.2",
+    "publisher": "Collie",
+    "publishedAt": "2026-10-21 release snapshot",
+    "observedAt": "2026-10-22T08:23:15.583066+00:00",
+    "evidenceLocator": "Demo; whothisfor; architecture; security",
+    "claims": [
+      "MITselfhostedPWA,Herdrprimary,tmux/zellijexperimental",
+      "Tailscaledefault,singleuser,devicepairing,remote terminalpower"
+    ],
+    "access": "Repo README read; versionpinnedimagepending",
+    "number": 107
+  },
+  {
+    "url": "https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/",
+    "title": "Your AI agent fixed the bug, but what else did it change?",
+    "publisher": "Trail of Bits",
+    "publishedAt": "2026-10-21",
+    "observedAt": "2026-10-22T08:23:15.583066+00:00",
+    "evidenceLocator": "Standardizing patching; regression-hunt results; three-armproof",
+    "claims": [
+      "21confirmedregressions from130+mergedPRs",
+      "25%fewerfalsepositivefindings CI14–38%; knownborderline tradeoff",
+      "Two plugins announcement"
+    ],
+    "access": "Full article read",
+    "number": 108
+  },
+  {
+    "url": "https://github.com/trailofbits/skills/blob/a3131740a39291e42fd15b9eac07e0b393ad71b1/plugins/patching-bugs/README.md",
+    "title": "Patching Bugs README",
+    "publisher": "Trail of Bits",
+    "publishedAt": "2026-10-20T20:16:47Z",
+    "observedAt": "2026-10-22T08:23:15.583066+00:00",
+    "evidenceLocator": "Inputs; skills; deterministichelpers; reports",
+    "claims": [
+      "Cleanlocalcheckout; reproduce/validate/implement/prove; no push/PR",
+      "Python3.13+ helpers; runoutside trackedtree"
+    ],
+    "access": "VersionpinnedGitHubAPIread",
+    "number": 109
+  },
+  {
+    "url": "https://github.com/trailofbits/skills/blob/a3131740a39291e42fd15b9eac07e0b393ad71b1/plugins/regression-hunt/README.md",
+    "title": "Regression Hunt README",
+    "publisher": "Trail of Bits",
+    "publishedAt": "2026-10-20T20:16:47Z",
+    "observedAt": "2026-10-22T08:23:15.583066+00:00",
+    "evidenceLocator": "Skills; helpers; capabilities",
+    "claims": [
+      "PR/commitranges; suppliedexecutionlimits; independentfreshagents required",
+      "Host dispatch/auth; no custommodeladapter"
+    ],
+    "access": "Versionpinnedread",
+    "number": 110
+  },
+  {
+    "url": "https://github.com/trailofbits/skills/blob/a3131740a39291e42fd15b9eac07e0b393ad71b1/plugins/regression-hunt/docs/system-flow.md",
+    "title": "Regression Hunt system flow",
+    "publisher": "Trail of Bits",
+    "publishedAt": "2026-10-20T20:16:47Z",
+    "observedAt": "2026-10-22T08:23:15.583066+00:00",
+    "evidenceLocator": "Flow; retry; artifacthash; contextisolation",
+    "claims": [
+      "Distinctreproduce/replay/adjudicationcontexts",
+      "Hashcheckedresume; changesrequire downstreamnewattempts"
+    ],
+    "access": "Versionpinnedread",
+    "number": 111
+  },
+  {
+    "url": "https://github.com/trailofbits/skills/blob/a3131740a39291e42fd15b9eac07e0b393ad71b1/plugins/regression-hunt/docs/report-definitions.md",
+    "title": "Regression Hunt report definitions",
+    "publisher": "Trail of Bits",
+    "publishedAt": "2026-10-20T20:16:47Z",
+    "observedAt": "2026-10-22T08:23:15.583066+00:00",
+    "evidenceLocator": "Outcome table; coverage; humanreview",
+    "claims": [
+      "Unresolvednotrejected; complete notbugfree; hashesnottruth"
+    ],
+    "access": "Versionpinnedread",
+    "number": 112
+  },
+  {
+    "url": "https://github.com/trailofbits/skills/commit/a3131740a39291e42fd15b9eac07e0b393ad71b1",
+    "title": "Add regression-hunt and patching-bugs plugins #471",
+    "publisher": "Trail of Bits GitHub",
+    "publishedAt": "2026-10-20T20:16:47Z",
+    "observedAt": "2026-10-22T08:23:15.583066+00:00",
+    "evidenceLocator": "Commitmetadata",
+    "claims": [
+      "Actualpubliccodecommitdate"
+    ],
+    "access": "GitHubAPI",
+    "number": 113
+  },
+  {
+    "url": "https://github.com/trailofbits/skills/blob/a3131740a39291e42fd15b9eac07e0b393ad71b1/LICENSE",
+    "title": "Repository license",
+    "publisher": "Trail of Bits",
+    "observedAt": "2026-10-22T08:23:15.583066+00:00",
+    "evidenceLocator": "CC BY-SA4.0",
+    "claims": [
+      "Not MIT; publiccode notgenericOSIclaim"
+    ],
+    "access": "Licensecontentsread",
+    "number": 114
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.29929",
+    "title": "Privacy Preference Controls for Agentic Systems — abstract and submission history",
+    "publisher": "arXiv / paper authors",
+    "publishedAt": "2026-10-21T16:03:02Z",
+    "observedAt": "2026-10-22T08:26:11.111607+00:00",
+    "evidenceLocator": "v1 submission history; abstract",
+    "claims": [
+      "Qualifying submission event, not commercial launch or verified announcement clock"
+    ],
+    "access": "read",
+    "number": 115
+  },
+  {
+    "url": "https://arxiv.org/html/2610.29929v1",
+    "title": "Privacy Preference Controls for Agentic Systems — full paper",
+    "publisher": "Paper authors",
+    "publishedAt": "2026-10-21T16:03:02Z",
+    "observedAt": "2026-10-22T08:26:11.111607+00:00",
+    "evidenceLocator": "Methods, implementation, evaluation, limitations, captions",
+    "claims": [
+      "Author-reported research and implementation; no editorial reproduction"
+    ],
+    "access": "read",
+    "number": 116
+  },
+  {
+    "url": "https://github.com/privacy-tech-lab/gpc-ai-agents-prototypes",
+    "title": "Privacy preference controls — eight executable prototypes",
+    "publisher": "Privacy Tech Lab",
+    "observedAt": "2026-10-22T08:26:11.111607+00:00",
+    "evidenceLocator": "README, examples and MIT license",
+    "claims": [
+      "Public experimental implementation; no editorial execution"
+    ],
+    "access": "read",
+    "number": 117
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.29216",
+    "title": "Preference Is Not Permission — abstract and submission history",
+    "publisher": "arXiv / paper authors",
+    "publishedAt": "2026-10-21T05:15:31Z",
+    "observedAt": "2026-10-22T08:26:11.111607+00:00",
+    "evidenceLocator": "v1 submission history; abstract",
+    "claims": [
+      "Qualifying submission event, not commercial launch or verified announcement clock"
+    ],
+    "access": "read",
+    "number": 118
+  },
+  {
+    "url": "https://arxiv.org/html/2610.29216v1",
+    "title": "Preference Is Not Permission — full paper",
+    "publisher": "Paper authors",
+    "publishedAt": "2026-10-21T05:15:31Z",
+    "observedAt": "2026-10-22T08:26:11.111607+00:00",
+    "evidenceLocator": "Methods, implementation, evaluation, limitations, captions",
+    "claims": [
+      "Author-reported research and implementation; no editorial reproduction"
+    ],
+    "access": "read",
+    "number": 119
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.28929",
+    "title": "Scriptorium — abstract and submission history",
+    "publisher": "arXiv / paper authors",
+    "publishedAt": "2026-10-20T21:06:13Z",
+    "observedAt": "2026-10-22T08:18:03.368621+00:00",
+    "evidenceLocator": "v1 submission history; abstract",
+    "claims": [
+      "Qualifying submission event, not commercial launch or verified announcement clock"
+    ],
+    "access": "read",
+    "number": 120
+  },
+  {
+    "url": "https://arxiv.org/html/2610.28929v1",
+    "title": "Scriptorium — full paper",
+    "publisher": "Paper authors",
+    "publishedAt": "2026-10-20T21:06:13Z",
+    "observedAt": "2026-10-22T08:18:03.368621+00:00",
+    "evidenceLocator": "Methods, implementation, evaluation, limitations, captions",
+    "claims": [
+      "Author-reported research and implementation; no editorial reproduction"
+    ],
+    "access": "read",
+    "number": 121
+  },
+  {
+    "url": "https://github.com/abbaspirmoradi/Scriptorium-DL-Interface",
+    "title": "Author-provided repository",
+    "publisher": "Scriptorium authors",
+    "observedAt": "2026-10-22T08:18:03.368621+00:00",
+    "evidenceLocator": "Repository URL from paper section7.6",
+    "claims": [
+      "Paper claims MIT code; current retrieval404"
+    ],
+    "access": "404",
+    "number": 122
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.29014",
+    "title": "GenXR-Bench — abstract and submission history",
+    "publisher": "arXiv / paper authors",
+    "publishedAt": "2026-10-21T00:28:16Z",
+    "observedAt": "2026-10-22T08:18:03.368621+00:00",
+    "evidenceLocator": "v1 submission history; abstract",
+    "claims": [
+      "Qualifying submission event, not commercial launch or verified announcement clock"
+    ],
+    "access": "read",
+    "number": 123
+  },
+  {
+    "url": "https://arxiv.org/html/2610.29014v1",
+    "title": "GenXR-Bench — full paper",
+    "publisher": "Paper authors",
+    "publishedAt": "2026-10-21T00:28:16Z",
+    "observedAt": "2026-10-22T08:18:03.368621+00:00",
+    "evidenceLocator": "Methods, implementation, evaluation, limitations, captions",
+    "claims": [
+      "Author-reported research and implementation; no editorial reproduction"
+    ],
+    "access": "read",
+    "number": 124
+  },
+  {
+    "url": "https://github.com/whuang37/genxr-bench",
+    "title": "Author-provided GenXR-Bench repository",
+    "publisher": "GenXR-Bench authors",
+    "observedAt": "2026-10-22T08:18:03.368621+00:00",
+    "evidenceLocator": "Paper code link",
+    "claims": [
+      "Repository retrieval404; no editorial reproduction"
+    ],
+    "access": "404",
+    "number": 125
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.28712",
+    "title": "Warping the Workspace — abstract and submission history",
+    "publisher": "arXiv / paper authors",
+    "publishedAt": "2026-10-20T17:42:33Z",
+    "observedAt": "2026-10-22T08:26:11.111607+00:00",
+    "evidenceLocator": "v1 submission history; abstract",
+    "claims": [
+      "Qualifying submission event, not commercial launch or verified announcement clock"
+    ],
+    "access": "read",
+    "number": 126
+  },
+  {
+    "url": "https://arxiv.org/html/2610.28712v1",
+    "title": "Warping the Workspace — full paper",
+    "publisher": "Paper authors",
+    "publishedAt": "2026-10-20T17:42:33Z",
+    "observedAt": "2026-10-22T08:26:11.111607+00:00",
+    "evidenceLocator": "Methods, implementation, evaluation, limitations, captions",
+    "claims": [
+      "Author-reported research and implementation; no editorial reproduction"
+    ],
+    "access": "read",
+    "number": 127
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.28532",
+    "title": "TracePrism — abstract and submission history",
+    "publisher": "arXiv / paper authors",
+    "publishedAt": "2026-10-20T17:04:41Z",
+    "observedAt": "2026-10-22T08:33:53.201812+00:00",
+    "evidenceLocator": "v1 submission history; abstract",
+    "claims": [
+      "Qualifying submission event, not commercial launch or verified announcement clock"
+    ],
+    "access": "read",
+    "number": 128
+  },
+  {
+    "url": "https://arxiv.org/html/2610.28532v1",
+    "title": "TracePrism — full paper",
+    "publisher": "Paper authors",
+    "publishedAt": "2026-10-20T17:04:41Z",
+    "observedAt": "2026-10-22T08:33:53.201812+00:00",
+    "evidenceLocator": "Methods, implementation, evaluation, limitations, captions",
+    "claims": [
+      "Author-reported research and implementation; no editorial reproduction"
+    ],
+    "access": "read",
+    "number": 129
+  },
+  {
+    "url": "https://geoanalytics.net/TracePrism/",
+    "title": "TracePrism author supplement",
+    "publisher": "TracePrism authors",
+    "observedAt": "2026-10-22T08:33:53.201812+00:00",
+    "evidenceLocator": "Paper implementation link",
+    "claims": [
+      "Original supplement inaccessible during this check; license not independently confirmed"
+    ],
+    "access": "inaccessible",
+    "number": 130
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.29312",
+    "title": "OSCE-SimBench / Virtual Standardized Patients — abstract and submission history",
+    "publisher": "arXiv / paper authors",
+    "publishedAt": "2026-10-21T07:08:59Z",
+    "observedAt": "2026-10-22T08:33:53.201812+00:00",
+    "evidenceLocator": "v1 submission history; abstract",
+    "claims": [
+      "Qualifying submission event, not commercial launch or verified announcement clock"
+    ],
+    "access": "read",
+    "number": 131
+  },
+  {
+    "url": "https://arxiv.org/html/2610.29312v1",
+    "title": "OSCE-SimBench / Virtual Standardized Patients — full paper",
+    "publisher": "Paper authors",
+    "publishedAt": "2026-10-21T07:08:59Z",
+    "observedAt": "2026-10-22T08:33:53.201812+00:00",
+    "evidenceLocator": "Methods, implementation, evaluation, limitations, captions",
+    "claims": [
+      "Author-reported research and implementation; no editorial reproduction"
+    ],
+    "access": "read",
+    "number": 132
+  },
+  {
+    "url": "https://github.com/JINAILAB/OSCE-SimBench",
+    "title": "OSCE-SimBench code and runtime documentation",
+    "publisher": "JINAILAB",
+    "observedAt": "2026-10-22T08:33:53.201812+00:00",
+    "evidenceLocator": "README Deployed platform, Terminal demo, License",
+    "claims": [
+      "Apache2 pipeline/terminal code; web app explicitly excluded"
+    ],
+    "access": "read",
+    "number": 133
+  },
+  {
+    "url": "https://huggingface.co/datasets/nwirandx/Korean-OSCE-history-taking-dialogues",
+    "title": "Korean OSCE history-taking dialogues",
+    "publisher": "Study authors",
+    "observedAt": "2026-10-22T08:33:53.201812+00:00",
+    "evidenceLocator": "Paper/repository dataset link; direct access failed",
+    "claims": [
+      "Dataset described separately from static rating study"
+    ],
+    "access": "inaccessible",
+    "number": 134
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.29428",
+    "title": "VIRA-Bench — abstract and submission history",
+    "publisher": "arXiv / paper authors",
+    "publishedAt": "2026-10-21T08:52:19Z",
+    "observedAt": "2026-10-22T08:33:53.201812+00:00",
+    "evidenceLocator": "v1 submission history; abstract",
+    "claims": [
+      "Qualifying submission event, not commercial launch or verified announcement clock"
+    ],
+    "access": "read",
+    "number": 135
+  },
+  {
+    "url": "https://arxiv.org/html/2610.29428v1",
+    "title": "VIRA-Bench — full paper",
+    "publisher": "Paper authors",
+    "publishedAt": "2026-10-21T08:52:19Z",
+    "observedAt": "2026-10-22T08:33:53.201812+00:00",
+    "evidenceLocator": "Methods, implementation, evaluation, limitations, captions",
+    "claims": [
+      "Author-reported research and implementation; no editorial reproduction"
+    ],
+    "access": "read",
+    "number": 136
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.30032",
+    "title": "Measurement-Guided VR Gaze Conversion — abstract and submission history",
+    "publisher": "arXiv / paper authors",
+    "publishedAt": "2026-10-21T16:57:01Z",
+    "observedAt": "2026-10-22T08:36:04.474029+00:00",
+    "evidenceLocator": "v1 submission history; abstract",
+    "claims": [
+      "Qualifying submission event, not commercial launch or verified announcement clock"
+    ],
+    "access": "read",
+    "number": 137
+  },
+  {
+    "url": "https://arxiv.org/html/2610.30032v1",
+    "title": "Measurement-Guided VR Gaze Conversion — full paper",
+    "publisher": "Paper authors",
+    "publishedAt": "2026-10-21T16:57:01Z",
+    "observedAt": "2026-10-22T08:36:04.474029+00:00",
+    "evidenceLocator": "Methods, implementation, evaluation, limitations, captions",
+    "claims": [
+      "Author-reported research and implementation; no editorial reproduction"
+    ],
+    "access": "read",
+    "number": 138
+  },
+  {
+    "url": "https://openphoenix-team.github.io/Phoenix-pages/",
+    "title": "Phoenix: Scaling Robotic Manipulation through Visual and Interaction Representations",
+    "publisher": "OpenPhoenix Team",
+    "evidenceLocator": "Method,demonstrations,benchmarktables,contactablation",
+    "claims": [
+      "jointworldaction",
+      "shortprefixreplanning",
+      "benchmarkvalues"
+    ],
+    "access": "full original report read; no demo playback or independent execution",
+    "number": 139
+  },
+  {
+    "url": "https://github.com/OpenPhoenix-Team/Phoenix-MWA",
+    "title": "Phoenix-MWA repository",
+    "publisher": "OpenPhoenix Team",
+    "publishedAt": "2026-10-20 codecommit; publicavailabilityclockunknown",
+    "evidenceLocator": "README mainbranch,comingsoonbranches,trainingandresources",
+    "claims": [
+      "pretrainingcode",
+      "224GPUrecipe",
+      "missingresources"
+    ],
+    "access": "README,filetree,license read",
+    "number": 140
+  },
+  {
+    "url": "https://github.com/OpenPhoenix-Team/Phoenix-MWA/blob/main/LICENSE",
+    "title": "LICENSE",
+    "publisher": "OpenPhoenix Team",
+    "evidenceLocator": "MIT with thirdparty exceptions",
+    "claims": [
+      "MITrepositorycode",
+      "thirdpartyscope"
+    ],
+    "access": "full license read",
+    "number": 141
+  },
+  {
+    "url": "https://finance.sina.com.cn/roll/2026-10-21/doc-inivzivz5308975.shtml",
+    "title": "MWA-Phoenix发布报道转载",
+    "publisher": "机器之心 via 新浪财经",
+    "publishedAt": "2026-10-21T23:43:18+08:00",
+    "evidenceLocator": "bytedance:published_time; separateupdatedtimestampOct22T00:04:23+08",
+    "claims": [
+      "public report beforecutoff"
+    ],
+    "access": "full text metadata read; originalJiQizhixin directarticle returned login-onlyshell",
+    "number": 142
+  },
+  {
+    "url": "https://ofox.ai/blog/ai-agents-late-2026/",
+    "title": "REVIEWS · scan source",
+    "publisher": "ofox.ai",
+    "publishedAt": "See original source; undated where unstated",
+    "observedAt": "2026-10-22; day precision",
+    "number": 143
+  },
+  {
+    "url": "https://community.openai.com/t/october-21-dictation-redesign-is-broken/1408594",
+    "title": "COMMUNITY · scan source",
+    "publisher": "community.openai.com",
+    "publishedAt": "See original source; undated where unstated",
+    "observedAt": "2026-10-22; day precision",
+    "number": 144
+  },
+  {
+    "url": "https://help.openai.com/en/articles/12168547-voice-dictation-faq",
+    "title": "COMMUNITY · scan source",
+    "publisher": "help.openai.com",
+    "publishedAt": "See original source; undated where unstated",
+    "observedAt": "2026-10-22; day precision",
+    "number": 145
+  },
+  {
+    "url": "https://arxiv.org/list/cs.HC/recent",
+    "title": "RESEARCH · scan source",
+    "publisher": "arxiv.org",
+    "publishedAt": "See original source; undated where unstated",
+    "observedAt": "2026-10-22; day precision",
+    "number": 146
+  },
+  {
+    "url": "https://patents.justia.com/patent/20260321292",
+    "title": "PATENT · scan source",
+    "publisher": "patents.justia.com",
+    "publishedAt": "See original source; undated where unstated",
+    "observedAt": "2026-10-22; day precision",
+    "number": 147
+  }
+]

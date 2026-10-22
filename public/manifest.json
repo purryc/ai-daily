@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-10-22",
+    "zhTitle": "AI Daily｜2026年10月22日 · 行动与可追溯状态",
+    "enTitle": "AI Daily | October 22, 2026 · Action and inspectable state",
+    "zhSummary": "38个项目，涵盖持续软件任务、实体交互、开发工具与研究；38项图证、147条来源。固定08:03:02Z截止，主窗口与补充项分别标注，保留每项完整深读。",
+    "enSummary": "38 projects across continuing software tasks, physical interaction, developer tools and research, with 38 visuals and 147 sources. Fixed 08:03:02Z cutoff; main-window events and lookbacks labeled, with full project analyses.",
+    "tags": [
+      "agent workflows",
+      "physical interaction",
+      "developer tools",
+      "research"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "research"
+    ],
+    "coverStory": {
+      "topicId": "claude-security-continuous",
+      "zhTitle": "Claude Security",
+      "enTitle": "Claude Security",
+      "imagePath": "assets/claude-security.jpg",
+      "imageSourceUrl": "https://assets.claude.com/fe39204ec42e8d48c853bf16bb08bdb19bf99a22.png",
+      "primarySourceUrl": "https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes",
+      "evidenceStrength": "Vendor release and documentation; no independent security efficacy test"
+    },
+    "zhPath": "./2026-10-22/zh/",
+    "enPath": "./2026-10-22/en/",
+    "sourcesPath": "./2026-10-22/sources.html"
+  },
+  {
     "date": "2026-10-21",
     "zhTitle": "AI Daily｜2026年10月21日 · 持续行动需要真实状态证据",
     "enTitle": "AI Daily | October 21, 2026 · Evidence for persistent action",
