@@ -1,72 +1,121 @@
 [
   {
     "kind": "image",
-    "name": "gm-onstar-ai.jpg",
-    "url": "https://news.gm.com/content/Pages/news/us/en/2026/oct/1021-onstar-ai/_jcr_content/boilerplate/image.img.jpg/onstar_assistant.jpg",
+    "name": "kion-physical-ai-operations.jpg",
+    "url": "https://nwr.eqs-cockpit.com/fncls2.ssx?fn=redirect&u=91ffccd7174175a67a1226ea105c3fa0",
     "renderImage": true,
     "locale": "en"
   },
   {
     "kind": "image",
-    "name": "physical-ai-safety-suite.jpg",
-    "url": "https://newsroom.accenture.com/news/2026/media_162e5ddd7445ae96ca33bd639702fdc5ede92782f.png?width=2000&format=png&optimize=medium",
+    "name": "therabody-jason.jpg",
+    "url": "https://www.therabody.com/cdn/shop/files/Ai-Chat-Blog-Post-Hero.webp?v=1792599487&width=1100",
     "renderImage": true,
     "locale": "zh"
   },
   {
     "kind": "image",
-    "name": "physical-ai-safety-suite-alt.jpg",
-    "url": "https://newsroom.accenture.com/news/2026/media_12e23d226087c013bf2acbdf08316bf2fc50d17b3.png?width=2000&format=png&optimize=medium",
+    "name": "iphone-duo-review.jpg",
+    "url": "https://www.apple.com/v/iphone-duo/d/images/overview/highlights/highlights_versatility_endframe__q3r50hxfi1ei_large.jpg",
     "renderImage": true,
     "locale": "en"
   },
   {
     "kind": "image",
-    "name": "nebius-physical-ai-workbench.jpg",
-    "url": "https://assets.nebius.com/assets/69ea2ea9-abbb-4df4-a7e3-2ae9eafbed74/figure-1.jpg?cache-buster=2026-06-01T16:37:39.144Z",
+    "name": "trailofbits-patching.jpg",
+    "url": "https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/patching_figure2_hu_ba5a49e1c64e072d.webp",
     "renderImage": true,
     "locale": "zh"
   },
   {
     "kind": "image",
-    "name": "baidu-dumate-task.jpg",
-    "url": "https://bce.bdstatic.com/doc/bce-doc/Dumate/image_73fbc47.png",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "oppo-find-x10-device.jpg",
-    "url": "https://www.oppo.com/content/dam/oppo_com/en/mkt/newsroom/press/2026/10/oppo-find-x10-series-global-launch/header.webp",
+    "name": "homebase-assistant.jpg",
+    "url": "https://www.joinhomebase.com/images/assistant/hero-phone.webp",
     "renderImage": true,
     "locale": "en"
   },
   {
     "kind": "image",
-    "name": "band.jpg",
-    "url": "https://docs.band.ai/_fern-img/980770f14a9d91fced912a0533d95344eb9841c4da727e67268c73b27d318c88.webp",
+    "name": "picsart-marketing.jpg",
+    "url": "https://pcdn.picsart.com/cms-uploads/12dfb2d0-4777-4e1c-9bb6-5d6cf009e2a2.avif",
     "renderImage": true,
     "locale": "zh"
   },
   {
     "kind": "image",
-    "name": "agent-pets.jpg",
-    "url": "https://www.getagentpets.com/assets/og.png",
+    "name": "projectops-cli.jpg",
+    "url": "https://cassiiopeia.github.io/projectops/assets/cli-wizard.CqWR1Ckd.gif",
     "renderImage": true,
     "locale": "en"
   },
   {
     "kind": "image",
-    "name": "onekey-agent.jpg",
-    "url": "https://docs.onekey.com/assets/ai-chat.png",
+    "name": "ilha.jpg",
+    "url": "https://ph-files.imgix.net/b0ffbc10-54a9-4bf0-99b3-4c648cc0c352.jpeg",
     "renderImage": true,
     "locale": "zh"
   },
   {
     "kind": "image",
-    "name": "google-agents-cli.jpg",
-    "url": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/3_1.original.png",
+    "name": "the-brains.jpg",
+    "url": "https://ph-files.imgix.net/6c6be4f5-b653-4d77-bec6-2a81077adb22.png",
     "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "name": "torchtpu.jpg",
+    "url": "https://pytorch.org/wp-content/uploads/2026/10/Fig-1-618x1024.png",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "name": "phoenix-mwa.jpg",
+    "url": "https://openphoenix-team.github.io/Phoenix-pages/assets/phoenix-mwa-encoder-b-20261020.webp",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "name": "osce-simbench.jpg",
+    "url": "https://raw.githubusercontent.com/JINAILAB/OSCE-SimBench/main/assets/platform_screens.png",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "name": "traceprism.jpg",
+    "url": "https://arxiv.org/html/2610.28532v1/figs_src/dualdfg_encoding.png",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "name": "vira-bench.jpg",
+    "url": "https://arxiv.org/html/2610.29428v1/pipeline_overview.png",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "name": "querri-library.jpg",
+    "url": "https://querri.com/images/product/library/collections-questions-views.webp",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "kind": "page",
+    "name": "thinkingstreams.jpg",
+    "url": "https://thinkingstreams.com/platform",
+    "selector": "div[role=\"img\"][aria-label=\"ThinkingStreams product interface: ThinkingStreams, Campaign overview\"]",
+    "locale": "zh"
+  },
+  {
+    "kind": "page",
+    "name": "claude-duet-morning.jpg",
+    "url": "https://claude.com/product/claude-duet",
+    "selector": "[data-part=\"thread:morning\"] [data-row=\"claude\"]",
     "locale": "en"
   }
 ]
