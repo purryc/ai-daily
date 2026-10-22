@@ -1,23 +1,9 @@
 [
   {
     "kind": "page",
-    "name": "devin-review.jpg",
-    "url": "https://docs.devin.ai/work-with-devin/devin-review",
+    "name": "devin-review-frame.jpg",
+    "url": "https://mintcdn.com/cognitionai/cC6Vq_-N6VKy9Mp3/images/work-with-devin/devin-review.mp4#t=30",
     "selector": "video",
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "picsart-workbench.jpg",
-    "url": "https://mms.businesswire.com/media/20261021274792/en/2942110/4/Picsart_Marketing_Studio.jpg",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "picsart-demo.jpg",
-    "url": "https://mms.businesswire.com/media/20261021274792/en/2942108/5/Picsart_Marketing_Studio_-_Video.jpg",
-    "renderImage": true,
     "locale": "en"
   }
 ]
