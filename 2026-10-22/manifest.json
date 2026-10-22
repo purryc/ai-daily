@@ -1,0 +1,968 @@
+{
+  "date": "2026-10-22",
+  "timezone": "America/Toronto",
+  "cutoff": "2026-10-22T08:03:02Z",
+  "windowStart": "2026-10-21T08:03:02Z",
+  "metrics": {
+    "body": {
+      "zhDenseChars": 29883,
+      "enWords": 17496
+    },
+    "perProduct": {
+      "claude-security-continuous": {
+        "zh": 709,
+        "en": 424
+      },
+      "querri-library": {
+        "zh": 722,
+        "en": 433
+      },
+      "thinkingstreams": {
+        "zh": 678,
+        "en": 422
+      },
+      "homebase-assistant": {
+        "zh": 722,
+        "en": 428
+      },
+      "otterly-brand-profiling": {
+        "zh": 729,
+        "en": 432
+      },
+      "onekey-ai-agent-release": {
+        "zh": 813,
+        "en": 456
+      },
+      "baidu-dumate-enterprise": {
+        "zh": 851,
+        "en": 481
+      },
+      "kion-physical-ai-operations": {
+        "zh": 824,
+        "en": 486
+      },
+      "gm-onstar-ai": {
+        "zh": 853,
+        "en": 495
+      },
+      "oppo-find-x10-global": {
+        "zh": 762,
+        "en": 503
+      },
+      "corsair-purevector": {
+        "zh": 813,
+        "en": 483
+      },
+      "iphone-duo-review": {
+        "zh": 797,
+        "en": 483
+      },
+      "therabody-jason": {
+        "zh": 828,
+        "en": 477
+      },
+      "mobo-preorder": {
+        "zh": 894,
+        "en": 511
+      },
+      "mitsubishi-humanoid-cnc": {
+        "zh": 958,
+        "en": 526
+      },
+      "physical-ai-safety-suite": {
+        "zh": 799,
+        "en": 481
+      },
+      "band-desktop": {
+        "zh": 650,
+        "en": 433
+      },
+      "agent-pets": {
+        "zh": 727,
+        "en": 430
+      },
+      "ilha": {
+        "zh": 679,
+        "en": 427
+      },
+      "the-brains": {
+        "zh": 706,
+        "en": 430
+      },
+      "supercmo-0-1-27": {
+        "zh": 754,
+        "en": 459
+      },
+      "projectops-4-72": {
+        "zh": 696,
+        "en": 431
+      },
+      "ragflow-1-0-rc2": {
+        "zh": 681,
+        "en": 430
+      },
+      "google-agents-cli-111": {
+        "zh": 718,
+        "en": 436
+      },
+      "torchtpu": {
+        "zh": 976,
+        "en": 585
+      },
+      "litellm-11070-incident": {
+        "zh": 984,
+        "en": 521
+      },
+      "collie-1232-send-controls": {
+        "zh": 936,
+        "en": 520
+      },
+      "trailofbits-patching-regression": {
+        "zh": 940,
+        "en": 521
+      },
+      "privacy-preference-controls": {
+        "zh": 818,
+        "en": 441
+      },
+      "preference-not-permission": {
+        "zh": 772,
+        "en": 430
+      },
+      "scriptorium": {
+        "zh": 810,
+        "en": 428
+      },
+      "genxr-bench": {
+        "zh": 781,
+        "en": 439
+      },
+      "warping-workspace": {
+        "zh": 669,
+        "en": 433
+      },
+      "traceprism": {
+        "zh": 761,
+        "en": 424
+      },
+      "osce-simbench": {
+        "zh": 786,
+        "en": 453
+      },
+      "vira-bench": {
+        "zh": 752,
+        "en": 431
+      },
+      "vr-gaze-conversion": {
+        "zh": 729,
+        "en": 437
+      },
+      "phoenix-mwa": {
+        "zh": 806,
+        "en": 436
+      }
+    },
+    "primarySummaries": {
+      "claude-security-continuous": {
+        "zh": 152,
+        "en": 83
+      },
+      "querri-library": {
+        "zh": 181,
+        "en": 90
+      },
+      "thinkingstreams": {
+        "zh": 163,
+        "en": 87
+      },
+      "homebase-assistant": {
+        "zh": 162,
+        "en": 89
+      },
+      "otterly-brand-profiling": {
+        "zh": 177,
+        "en": 101
+      },
+      "onekey-ai-agent-release": {
+        "zh": 167,
+        "en": 84
+      },
+      "baidu-dumate-enterprise": {
+        "zh": 179,
+        "en": 97
+      },
+      "kion-physical-ai-operations": {
+        "zh": 194,
+        "en": 102
+      },
+      "gm-onstar-ai": {
+        "zh": 206,
+        "en": 109
+      },
+      "oppo-find-x10-global": {
+        "zh": 151,
+        "en": 91
+      },
+      "corsair-purevector": {
+        "zh": 188,
+        "en": 110
+      },
+      "iphone-duo-review": {
+        "zh": 190,
+        "en": 111
+      },
+      "therabody-jason": {
+        "zh": 209,
+        "en": 101
+      },
+      "mobo-preorder": {
+        "zh": 217,
+        "en": 111
+      },
+      "mitsubishi-humanoid-cnc": {
+        "zh": 216,
+        "en": 113
+      },
+      "physical-ai-safety-suite": {
+        "zh": 205,
+        "en": 102
+      },
+      "band-desktop": {
+        "zh": 196,
+        "en": 101
+      },
+      "agent-pets": {
+        "zh": 182,
+        "en": 102
+      },
+      "ilha": {
+        "zh": 182,
+        "en": 117
+      },
+      "the-brains": {
+        "zh": 180,
+        "en": 109
+      },
+      "supercmo-0-1-27": {
+        "zh": 181,
+        "en": 103
+      },
+      "projectops-4-72": {
+        "zh": 181,
+        "en": 103
+      },
+      "ragflow-1-0-rc2": {
+        "zh": 186,
+        "en": 105
+      },
+      "google-agents-cli-111": {
+        "zh": 131,
+        "en": 84
+      },
+      "torchtpu": {
+        "zh": 159,
+        "en": 91
+      },
+      "litellm-11070-incident": {
+        "zh": 212,
+        "en": 107
+      },
+      "collie-1232-send-controls": {
+        "zh": 201,
+        "en": 116
+      },
+      "trailofbits-patching-regression": {
+        "zh": 213,
+        "en": 110
+      },
+      "privacy-preference-controls": {
+        "zh": 169,
+        "en": 89
+      },
+      "preference-not-permission": {
+        "zh": 174,
+        "en": 78
+      },
+      "scriptorium": {
+        "zh": 171,
+        "en": 89
+      },
+      "genxr-bench": {
+        "zh": 156,
+        "en": 89
+      },
+      "warping-workspace": {
+        "zh": 167,
+        "en": 83
+      },
+      "traceprism": {
+        "zh": 165,
+        "en": 79
+      },
+      "osce-simbench": {
+        "zh": 152,
+        "en": 79
+      },
+      "vira-bench": {
+        "zh": 155,
+        "en": 83
+      },
+      "vr-gaze-conversion": {
+        "zh": 164,
+        "en": 81
+      },
+      "phoenix-mwa": {
+        "zh": 175,
+        "en": 90
+      }
+    },
+    "counting": "Only unique full-analysis product paragraphs count toward body gates; summaries, captions, coverage and sources excluded.",
+    "products": 38,
+    "references": 147,
+    "coreVisuals": 38,
+    "slidesPerLocale": 43,
+    "primaryProjectPages": 38,
+    "attachedProjectDetails": 38,
+    "primaryBody": {
+      "zhDenseChars": 6809,
+      "enWords": 3669
+    },
+    "completeReadingBody": {
+      "zhDenseChars": 36692,
+      "enWords": 21165
+    }
+  },
+  "laneScans": [
+    {
+      "lane": "OFFICIAL",
+      "status": "Original releases, documentation and implementation checked",
+      "zh": "官方线把发布标题与真正变化逐一拆开。Claude Security的持续复查、修复跟踪与迁移遗漏来自公告和支持文档；ONEKEY首版发布声明与九月路线图、十月十四日既有功能文章并列，避免把同名能力重新首发。Google Agents CLI采用十月二十日的1.11.0发行时间，而不是把次日教程中更早的扩展机制算成新功能。硬件线读取制造原型、车内助手、仓储运行和输入校准资料，明确2030目标、概念演示、区域交付和已经发生的运行案例。Nebius返回物流训练闭环在昨日Sereact深读已出现，故排除重复；联想零售稿也归入旧RTX Spark发布族。无精确时刻的十月二十一日资料保守列补充，不用转载时刻填补原始日期。定价、平台支持与恢复行为有冲突时保留冲突；团队没有登录执行、部署机器人或复现性能，因此厂商资料仍按厂商证据呈现。",
+      "en": "The official lane separated release headlines from actual changes. Claude Security’s continuous checks, fix tracking and migration omissions came from its announcement and support documentation. ONEKEY’s first-version release statement was compared with its September roadmap and October 14 feature article, preventing the same capabilities from being presented as newly disclosed. Google Agents CLI uses the October 20 release time for version1.11.0 rather than treating an older extension mechanism in the next day’s tutorial as new. Hardware sources covered manufacturing prototypes, an in-car assistant, warehouse operation and input calibration, distinguishing a 2030 target, concept demonstrations, regional delivery and reported operating deployments. The Nebius returns-training loop already appeared in yesterday’s Sereact analysis and was excluded; Lenovo retail coverage belonged to the earlier RTX Spark launch family. Date-only October 21 sources were conservatively treated as supplements. Syndication time did not replace original publication time. Pricing, platform-support and recovery conflicts remain visible. The team did not perform authenticated execution, robot deployment or performance replication, so vendor documentation remains attributed evidence rather than an independent product test.",
+      "sourceUrls": [
+        "https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes",
+        "https://www.onekey.com/press-release/onekey-launches-ai-agent-conversational-vulnerability-investigation-sbom-and-component-exploration",
+        "https://github.com/google/agents-cli/releases/tag/v1.11.0",
+        "https://www.mitsubishielectric.com/en/pr/2026/1021_rd/"
+      ]
+    },
+    {
+      "lane": "REVIEWS",
+      "zh": "本轮评测线索优先区分真实操作、技术分析与发布稿转述。LiteLLM十月二十一日事件有维护者时间线，并得到Endor Labs和Chainguard两条外部技术来源支持；后者的检测速度和保护范围属于其商业服务自述，不作为本刊复测。Ofox比较文章交代五个AI辅助任务测试及七个仅文档比较，同时把自己的产品纳入排名，不能当作中立选购结论。手机评测线索交由硬件研究者读取原文，MiniMax模型测试交由中文产品研究者核验。Trail of Bits的修复与回归检查工具则有可固定的代码版本、流程文档和报告规则，但性能数字仍来自作者自身初步评估。此线最终保留可检查的机制与明确证据边界，没有把新闻标题、搜索摘要或供应商宣传改写成独立上手体验。",
+      "en": "The review scan distinguished actual operation, technical investigation, and retelling of announcements. The October 21 LiteLLM incident has a maintainer timeline and two external technical lines from Endor Labs and Chainguard. Chainguard also sells protected images, so its detection speed and customer protection remain attributed commercial claims rather than measurements reproduced here. The Ofox comparison disclosed five AI-assisted task tests and seven documentation-only comparisons, while including its own product. That methodology does not support presenting its ranking as neutral purchasing advice. An original phone-review lead went to the hardware researcher for a full read, and a MiniMax model review went to the China-product researcher for counterchecking. Trail of Bits supplied inspectable versioned code, workflow documentation, and report definitions for its patching and regression tools; its performance figures remain the authors’ preliminary evaluation. The useful outcome is a distinction between claims a reader can inspect and conclusions still requiring independent execution. Search snippets and inaccessible articles were retained as discovery records, without being upgraded into hands-on testing.",
+      "sourceUrls": [
+        "https://www.endorlabs.com/learn/litellm-1-107-0-compromised-python-startup-hooks-steal-cloud-ai-and-proxy-credentials",
+        "https://www.chainguard.dev/unchained/litellm-attacked-again-malicious-1-107-0-wheels-on-pypi-and-docker-hub-october-2026",
+        "https://ofox.ai/blog/ai-agents-late-2026/",
+        "https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/"
+      ],
+      "status": "Actual reports read; limited samples and independent-source boundaries retained"
+    },
+    {
+      "lane": "COMMUNITY",
+      "zh": "社区扫描得到的具体问题集中在执行状态是否与用户理解一致。Collie的一位操作者报告多会话中排队提示与手动发送入口难以理解，另一条pi多行输入记录显示文本进入终端不代表已经提交；相关修复提案仍开放，不能写成稳定版全部解决。稳定版1.23.2确实调整问题卡片和敏感首行的手动提交边界，可与维护者日志交叉核验。OpenAI社区的听写投诉只有一名作者，描述Windows桌面Chrome上句尾延迟与标点问题；官方FAQ确认可编辑后发送的操作链，却未证实统一改版时间。另一条安全审查抱怨的三篇帖子也来自同一人。两者均保留观察，不推断普遍故障。社区材料的价值在于暴露应测试的状态转换，而不是用帖子数量制造缺陷流行率。",
+      "en": "The community scan found concrete mismatches between execution state and what an operator understood. One Collie operator described confusing queue states and a hard-to-find manual-send action across multiple sessions. A separate pi multiline-input report showed why text appearing in a terminal does not prove that it was submitted. Its proposed fix remains open and must not be described as fully shipped. The stable 1.23.2 release does change question cards and manual confirmation for sensitive first lines, which can be checked against maintainer notes. An OpenAI Community dictation complaint came from one author describing delayed sentence endings and punctuation on Windows with Chrome. The official FAQ confirms reviewable text before sending but does not establish a universal redesign date. Three posts about security review and truncation also came from a single author. Both threads remain observations rather than general platform-failure findings. Community evidence is useful for selecting state transitions to test, provided repeated posts are not counted as independent users and one workflow is not converted into a prevalence estimate.",
+      "sourceUrls": [
+        "https://github.com/AltanS/collie/pull/559",
+        "https://github.com/AltanS/collie/issues/553",
+        "https://github.com/AltanS/collie/pull/555",
+        "https://github.com/AltanS/collie/releases/tag/v1.23.2",
+        "https://community.openai.com/t/october-21-dictation-redesign-is-broken/1408594",
+        "https://help.openai.com/en/articles/12168547-voice-dictation-faq"
+      ],
+      "status": "Actual reports read; limited samples and independent-source boundaries retained"
+    },
+    {
+      "lane": "WILD",
+      "status": "Maker launches and releases checked; attention is not launch time",
+      "zh": "新创与开源线读取十月二十一日Product Hunt公开榜单中的十七项，再回到官网、版本历史、代码和许可核验。BAND、Agent Pets、ilha与The Brains呈现不同的跨工具协作入口，具体可用性仍按各自文档处理；ilha与The Brains更早已公开，因此保留一周回看日期。ProjectOps以4.72.0发行记录界定新增，RAGFlow按候选版本说明而不宣称稳定全面交付。SuperCMO此前已经出现，本次只考察0.1.27的安装与执行控制变化。Flagsmith闭测和部分营销产品都有更早材料，不能用再次上榜重置日期。原始画廊逐张检查，文字海报、促销码及只有开场命令的动画帧未作合格主图。代码公开、软件许可、第三方模型费用与实际部署需要分别核实；发现入口不产生销量、留存或付费意愿证据。非AI的关系提醒、付费私信和虚拟机工具保留范围判断，不为覆盖配额增加条目。",
+      "en": "The startup and open-source lane read the seventeen entries on the public October 21 Product Hunt board, then checked websites, version histories, code and licenses. BAND, Agent Pets, ilha and The Brains expose different approaches to working across tools, with availability bounded by their own documentation. Earlier public material for ilha and The Brains is retained as a seven-day lookback. ProjectOps is scoped to its4.72.0 release, while RAGFlow is described as a release candidate rather than an established universal deployment. SuperCMO already existed; only the 0.1.27 installation and execution-control changes qualify as new evidence. Earlier Flagsmith beta and marketing-product material prevent a later listing from resetting launch dates. Original galleries were inspected individually: typography posters, promotional codes and animation frames containing only an unfinished command were not accepted as substantive visuals. Public code, software licensing, external model fees and deployability remain separate questions. A discovery board supplies no sales, retention or willingness-to-pay measurement. Relationship reminders, paid messaging and virtual-machine tools without a verified relevant AI mechanism were retained as scope decisions rather than added to fill a category.",
+      "sourceUrls": [
+        "https://www.producthunt.com/leaderboard/daily/2026/10/21"
+      ]
+    },
+    {
+      "lane": "RESEARCH",
+      "status": "Original papers read",
+      "zh": "本线检查arXiv人机交互和机器人近期列表，并对九篇与具体产品任务相关的论文读取方法、结果、限制和图注，另核作者代码或资料入口。入选候选覆盖协作检索、空间应用验收、隐私偏好、购物授权、机器人遥操作、流程分析、虚拟病人、教学视频理解和眼动认证。日期使用提交历史，不把会议接受或采集时间当成首发。主要变化是从“生成结果合理”转向可检查的动作、状态和恢复依据。所有评估均保留原作者口径，未运行独立复现；代码公开与网页产品可部署分开，真人评价与模型评分分开，短片段与长期使用分开。原始图证由出版线程逐张验收，论文图不冒充商业界面。对只有概念讨论、问卷或纯控制改进而没有明确交互增量的材料，保留扫描记录，不为数量扩写成项目。",
+      "en": "This lane checked recent arXiv human–computer interaction and robotics listings, then read methods, results, limitations and captions for nine papers tied to concrete product tasks. Author repositories and dataset entrances were checked where available. Candidates cover collaborative search, spatial-app acceptance, privacy preferences, purchase permission, robot teleoperation, process analysis, virtual patients, tutoring-video understanding and gaze authentication. Dates refer to submission history, not conference acceptance or collection time. The common shift is from plausible output toward inspectable actions, state and recovery evidence. Results retain the authors’ evaluation units and were not independently reproduced. Public code is distinguished from a deployable web product, human ratings from automated scores, and short controlled tasks from sustained use. The publishing thread separately accepts original visuals; research figures do not become commercial-interface proof. Conceptual discussions, questionnaires and pure control improvements without a clear interaction contribution remain scan findings rather than being expanded into projects merely to increase the count.",
+      "sourceUrls": [
+        "https://arxiv.org/list/cs.HC/recent"
+      ]
+    },
+    {
+      "lane": "PATENT",
+      "status": "Watch; original figure and family gaps",
+      "zh": "专利线以AI界面、智能眼镜及指定日期查询，追查近期报道对应的公布号、申请日、优先权、独立权利要求和附图。Meta自动视频摘要申请US20260321292A1的完整文字可在Justia复刊核对：公布为10月15日，申请为4月2日，并同时主张2025年4月9日与25日两项临时申请优先权；不能沿用二手报道只写较晚日期。文字描述由录制命令启动、按音视频对齐分段、转录并筛选精彩片段，属于申请披露，不证明量产功能。官方PDF读取失败，附图及完整同族未核实，七天窗口边缘的具体公布时刻也未知，故保留待证。另一篇Apple健康传感眼镜新闻只定位到2024年公开文本，缺少新授权号，不能重算新品。搜索中的旧专利预计到期日期同样剔除。",
+      "en": "The patent lane searched AI interfaces, smart glasses and the specified dates, then traced recent reports to publication numbers, filing dates, priority, independent claims and drawings. A complete Justia republication allowed checking the text of Meta application US20260321292A1. It was published on October 15 and filed on April2,2026, claiming two provisional priorities, April9 and April25,2025; the earlier date must not be lost by copying a secondary report. The disclosure starts with a capture command, aligns audio and image segments, transcribes audio and selects highlights. It is an application disclosure, not evidence of a shipped feature. The official PDF was inaccessible, drawings and the complete family remain unverified, and the precise publication time at the seven-day boundary is unknown, so the item stays on watch. A separate Apple health-sensing-eyewear report led only to a 2024 publication without an identified new grant number. Old patents whose anticipated expiration dates matched the search were excluded as false freshness signals.",
+      "sourceUrls": [
+        "https://patents.justia.com/patent/20260321292"
+      ]
+    },
+    {
+      "lane": "CHINA",
+      "status": "Regional scope and original sources checked",
+      "zh": "中国线从36氪、少数派、机器之心与量子位的新闻和产品入口回查原始材料，找到百度搭子的企业流程更新，以及无界动力Phoenix的技术报告和公开预训练实现。搭子的具体控制证据来自官方任务、自动化和账号文档，不能把现场客户节省案例写成独立实测。Phoenix的世界模型、基准和真机演示必须分开理解，完整数据和实时部署分支仍有待交付。腾讯元宝搜索近期报道被官方历史校正：API早已存在，十月九日更名，因此没有仅凭新闻日期新增一条首发。MiniMax M3.1 Flash确认了模型与价格发布，但未证明独立的新交互或接口变更，暂留观察。千诀Polibrain缺少足够可核验的原始日期与真实图证，Motubrain直播也不等于模型已开放。少数派共创入口中的YoooClaw、口袋先知和白描PDF均找到更早背景，不用首页露出来冒充新产品。36氪首页安全检查、机器之心正文登录壳和部分量子位访问失败限制覆盖，不能声称中国市场已被穷尽。",
+      "en": "The China scan followed 36Kr, SSPAI, JiQizhixin and Qbit leads back to original material, identifying Baidu DuMate's enterprise workflow update and Phoenix's technical report with a public pretraining implementation. DuMate's useful control evidence comes from official task, automation and account documentation; customer savings presented at an event are not independent measurements. Phoenix's world model, benchmark tables and physical demonstrations require separate interpretation, and data and real-time deployment components remain forthcoming. Official history corrected recent Yuanbao Search headlines: the API already existed and its rename occurred on October 9, so a newer news date did not justify another first-launch story. MiniMax M3.1 Flash has a verified model and pricing announcement, but no separately established new interaction or API change qualified here. Polibrain lacks sufficient original timing and accepted visual evidence; a Motubrain training livestream does not establish model availability. SSPAI's YoooClaw, Rand/0 and Baimiao PDF storefront entries have older histories. A security check on 36Kr, login-only JiQizhixin article shells and some Qbit retrieval failures limit coverage; this is not an exhaustive account of China's market.",
+      "sourceUrls": [
+        "https://www.oppo.com/en/newsroom/press/oppo-find-x10-series-global-launch/",
+        "https://pytorch.org/blog/introducing-torchtpu/"
+      ]
+    },
+    {
+      "lane": "GLOBAL",
+      "status": "Regional scope and original sources checked",
+      "zh": "全球地区对照以OPPO和TorchTPU为两个具体切面。Find X10全球活动明确落在十月二十一日14:00 UTC，但中国首发、此前预告和Manus合作不能重复计新；英国订金、逐地区上市、账号要求以及印度、印尼、泰国专属Call Guard共同说明，全球名称不代表所有用户得到同一能力包。TorchTPU则改变开发者从PyTorch走向TPU的迁移方式，开源后端、Hugging Face集成与预览中的TPU agent suite构成同一项目的不同交付层。伙伴兼容性测试不能当成独立性能测试，少量代码修改也不能替代数值精度、编译等待和实际算力账单的比较。本线检索八周范围内实际存在的四十一份manifest，并回查前一期候选状态；可用日期并不连续，缺失日期没有被当作已完成去重。媒体转载和不同地区网页仍可能来自同一发行人，来源数量不能伪装成独立确认数量。",
+      "en": "The global comparison uses OPPO and TorchTPU as concrete examples of different adoption boundaries. Find X10's official global event falls at 14:00 UTC on October 21, but the earlier China debut, preview and Manus partnership are background. UK deposit conditions, staggered availability, account requirements and Call Guard's restriction to India, Indonesia and Thailand show why a global name does not provide every buyer with the same capability package. TorchTPU changes the developer route from PyTorch to TPU, with an open backend, Hugging Face integration and a preview TPU agent suite representing different delivery layers of one project. Partner compatibility testing is not independent performance validation, and a small code change does not remove the need to compare numerical precision, compilation delays and actual compute bills. The lane searched 41 available manifests within the requested eight-week interval and checked the prior issue's candidate state. Dates are not continuous, so missing daily records were not treated as completed deduplication. Syndication and regional pages can share one issuer; a larger link count does not establish more independent confirmations.",
+      "sourceUrls": [
+        "https://www.oppo.com/en/newsroom/press/oppo-find-x10-series-global-launch/",
+        "https://pytorch.org/blog/introducing-torchtpu/"
+      ]
+    }
+  ],
+  "revision": {
+    "label": "morning-edition",
+    "originalCutoffRetained": true,
+    "newIssue": true,
+    "baselineCommit": "75c63f5d69458c7aead493e217be4fdd600e40ea"
+  },
+  "topics": [
+    {
+      "id": "claude-security-continuous",
+      "zhHeadline": "Claude Security把发现跟到修复，迁移遗漏与误关闭仍需人检查",
+      "enHeadline": "Claude Security follows findings through fixes; migration gaps and mistaken closure still need review",
+      "eventAt": "2026-10-21 · exact clock unknown",
+      "freshness": "near-three-day",
+      "evidence": "Vendor release and documentation; no independent security efficacy test",
+      "eventDateNote": "date-only; main-window lower boundary unverified; event, source publication and collection are distinct. Validation followed the fixed cutoff.",
+      "event_key": "anthropic:claude-security:continuous-tracking-api:2026-10-21",
+      "product_key": "anthropic:claude-security",
+      "publishedAt": "2026-10-21",
+      "observedAt": "2026-10-22T08:16:14.296439+00:00",
+      "delta_since_last_seen": "Continuous change scans, fix tracking, threat-model context and API/MCP; not initial April beta"
+    },
+    {
+      "id": "querri-library",
+      "zhHeadline": "Querri把问题和指标保存成可复用对象，答案仍须回到计算与原始数据",
+      "enHeadline": "Querri makes questions and metrics reusable; answers still need inspectable calculations",
+      "eventAt": "2026-10-19",
+      "freshness": "seven-day",
+      "evidence": "Original issuer announcement and public product documentation; no authenticated execution or independent effectiveness test",
+      "eventDateNote": "See primary source; clock not inferred where absent; event, source publication and collection are distinct. Validation followed the fixed cutoff.",
+      "event_key": "querri-library:launch:2026-10-19",
+      "product_key": "querri-library",
+      "publishedAt": "2026-10-19",
+      "observedAt": "2026-10-22T08:42:22.400558+00:00",
+      "delta_since_last_seen": "New substantive workflow; no matching project/event in available Aug27–Oct21 source ledgers"
+    },
+    {
+      "id": "thinkingstreams",
+      "zhHeadline": "ThinkingStreams让营销简报连到CRM，跳过的步骤也必须算进结果",
+      "enHeadline": "ThinkingStreams connects marketing briefs to CRM; skipped steps still belong in the result",
+      "eventAt": "2026-10-21T12:00:00Z",
+      "freshness": "main",
+      "evidence": "Original issuer announcement and public product documentation; no authenticated execution or independent effectiveness test",
+      "eventDateNote": "See primary source; clock not inferred where absent; event, source publication and collection are distinct. Validation followed the fixed cutoff.",
+      "event_key": "thinkingstreams:launch:2026-10-21T12:00:00Z",
+      "product_key": "thinkingstreams",
+      "publishedAt": "2026-10-21T12:00:00Z",
+      "observedAt": "2026-10-22T08:27:05.758190+00:00",
+      "delta_since_last_seen": "New substantive workflow; no matching project/event in available Aug27–Oct21 source ledgers"
+    },
+    {
+      "id": "homebase-assistant",
+      "zhHeadline": "Homebase把缺班提醒推进到补班，最终排班仍需可核对",
+      "enHeadline": "Homebase moves from warning about uncovered shifts to arranging coverage",
+      "eventAt": "2026-10-20",
+      "freshness": "near-three-day",
+      "evidence": "Original issuer announcement and public product documentation; no authenticated execution or independent effectiveness test",
+      "eventDateNote": "See primary source; clock not inferred where absent; event, source publication and collection are distinct. Validation followed the fixed cutoff.",
+      "event_key": "homebase-assistant:launch:2026-10-20",
+      "product_key": "homebase-assistant",
+      "publishedAt": "2026-10-20",
+      "observedAt": "2026-10-22T08:27:05.758190+00:00",
+      "delta_since_last_seen": "New substantive workflow; no matching project/event in available Aug27–Oct21 source ledgers"
+    },
+    {
+      "id": "otterly-brand-profiling",
+      "zhHeadline": "Otterly从统计提及走向检查品牌叙述，引用关联不是因果证明",
+      "enHeadline": "Otterly moves from counting mentions to inspecting narratives; citations do not establish causation",
+      "eventAt": "2026-10-21T07:39:08Z",
+      "freshness": "near-three-day",
+      "evidence": "Original issuer announcement and public product documentation; no authenticated execution or independent effectiveness test",
+      "eventDateNote": "See primary source; clock not inferred where absent; event, source publication and collection are distinct. Validation followed the fixed cutoff.",
+      "event_key": "otterly-brand-profiling:launch:2026-10-21T07:39:08Z",
+      "product_key": "otterly-brand-profiling",
+      "publishedAt": "2026-10-21T07:39:08Z",
+      "observedAt": "2026-10-22T08:45:14.181463+00:00",
+      "delta_since_last_seen": "New substantive workflow; no matching project/event in available Aug27–Oct21 source ledgers"
+    },
+    {
+      "id": "onekey-ai-agent-release",
+      "zhHeadline": "ONEKEY让固件调查少切页面，但上下文与数据去向必须看得见",
+      "enHeadline": "ONEKEY shortens firmware investigation when context and data routes stay visible",
+      "eventAt": "2026-10-21 · release statement; clock unknown",
+      "freshness": "near-three-day",
+      "evidence": "Vendor release and documentation; no authenticated test",
+      "eventDateNote": "date only; left main-window boundary unresolved; event, source publication and collection are distinct. Validation followed the fixed cutoff.",
+      "event_key": "onekey:ai-agent:first-version-release-confirmation:2026-10-21",
+      "product_key": "onekey-ai-agent",
+      "publishedAt": "2026-10-21",
+      "observedAt": "2026-10-22T08:21:42.178497+00:00",
+      "delta_since_last_seen": "No historical source hit; release statement follows September roadmap and October14 feature description; not first public capability disclosure."
+    },
+    {
+      "id": "baidu-dumate-enterprise",
+      "zhHeadline": "搭子把企业任务接成可追踪流程，追加指令却会结束当前执行",
+      "enHeadline": "DuMate connects enterprise work, but a new instruction ends the active task",
+      "eventAt": "2026-10-21 · date only; exact announcement clock unverified",
+      "freshness": "near-three-day",
+      "evidence": "Vendor documentation and issuer claims reported by a journalist; no authenticated execution test",
+      "eventDateNote": "date; source report clock kept separately; event, source publication and collection are distinct. Validation followed the fixed cutoff.",
+      "event_key": "baidu-dumate:enterprise-computer-mobile-tender-security:2026-10-21",
+      "product_key": "baidu-dumate",
+      "publishedAt": "2026-10-21 19:04 · source displayed time; timezone not stated",
+      "observedAt": "2026-10-22T08:24:00Z",
+      "delta_since_last_seen": "October 21 event reports newly announced computer/mobile operation, tender suite, task-board integration and Agent security center. Existing enterprise accounts, scheduling and skills are background, not relaunches."
+    },
+    {
+      "id": "kion-physical-ai-operations",
+      "zhHeadline": "KION把仓库试点推进日常运行，部署提速必须连同现场恢复核算",
+      "enHeadline": "KION advances warehouse pilots into operations; faster commissioning still needs recovery evidence",
+      "eventAt": "2026-10-21T11:41:00Z",
+      "freshness": "main",
+      "evidence": "Public primary-source claims; no independent execution test",
+      "eventDateNote": "Issuer distribution13:41 CEST =11:41 UTC; event, source publication and collection are distinct. Validation followed the fixed cutoff.",
+      "event_key": "kion:gxo-rocap:operations-update:2026-10-21",
+      "product_key": "kion-physical-ai-operations",
+      "publishedAt": "2026-10-21T11:41:00Z",
+      "observedAt": "2026-10-22T08:32:47.375137+00:00",
+      "delta_since_last_seen": "March pilot already existed; October21 reports fleet regular operations and October RoCaP delivery."
+    },
+    {
+      "id": "gm-onstar-ai",
+      "zhHeadline": "OnStar把车况接入对话，价值取决于从建议到实际操作的交接",
+      "enHeadline": "OnStar brings vehicle state into conversation; the handoff to action remains the test",
+      "eventAt": "2026-10-21; exact clock unverified",
+      "freshness": "near-three-day",
+      "evidence": "Public primary-source claims; no independent execution test",
+      "eventDateNote": "date only; main-window left-boundary unresolved; event, source publication and collection are distinct. Validation followed the fixed cutoff.",
+      "event_key": "gm:onstar-connected-intelligence:vehicle-app-roadmap:2026-10-21",
+      "product_key": "gm-onstar-ai",
+      "publishedAt": "2026-10-21",
+      "observedAt": "2026-10-22T08:25:12.602233+00:00",
+      "delta_since_last_seen": "October21 specifies vehicle/app rollout and contextual interaction after earlier September preview; no repeat of September fleet product."
+    },
+    {
+      "id": "oppo-find-x10-global",
+      "zhHeadline": "Find X10走向全球，手机代理的能力仍由地区与账号决定",
+      "enHeadline": "Find X10 goes global, with agent access still shaped by region and accounts",
+      "eventAt": "2026-10-21T14:00:00Z",
+      "freshness": "main",
+      "evidence": "Official launch, product and UK offer documentation; vendor claims, no independent device test",
+      "eventDateNote": "official event schedule exact; release date only; event, source publication and collection are distinct. Validation followed the fixed cutoff.",
+      "event_key": "oppo-find-x10:global-launch:2026-10-21",
+      "product_key": "oppo-find-x10",
+      "publishedAt": "2026-10-21",
+      "observedAt": "2026-10-22T08:22:59.608Z",
+      "delta_since_last_seen": "Global launch and regional commercialization conditions; earlier China launch, October8 preview and prior Manus partnership are background."
+    },
+    {
+      "id": "corsair-purevector",
+      "zhHeadline": "PureVector把鼠标灵敏度按方向校准，收益必须离开训练任务再验证",
+      "enHeadline": "PureVector calibrates sensitivity by direction; its benefit must survive beyond the training task",
+      "eventAt": "2026-10-20; exact clock not retained",
+      "freshness": "near-three-day",
+      "evidence": "Public primary-source claims; no independent execution test",
+      "eventDateNote": "original date; no verified clock; event, source publication and collection are distinct. Validation followed the fixed cutoff.",
+      "event_key": "corsair:sabre-v3-pro:purevector-calibration:2026-10-20",
+      "product_key": "corsair-purevector",
+      "publishedAt": "2026-10-20",
+      "observedAt": "2026-10-22T08:38:04.445559+00:00",
+      "delta_since_last_seen": "First PureVector calibration capability on SABRE v3 PRO family; no prior match in available historical ledgers."
+    },
+    {
+      "id": "iphone-duo-review",
+      "zhHeadline": "双屏增加操作方式，也增加从一个状态接到另一个状态的成本",
+      "enHeadline": "Two displays add interaction possibilities and a new cost of continuity",
+      "eventAt": "2026-10-21T12:00:00Z",
+      "freshness": "main",
+      "evidence": "The Verge independent observations plus Apple product mechanics; no own device test",
+      "eventDateNote": "Review08:00 EDT =12:00 UTC; event, source publication and collection are distinct. Validation followed the fixed cutoff.",
+      "event_key": "apple:iphone-duo:theverge-independent-review:2026-10-21",
+      "product_key": "iphone-duo-review",
+      "publishedAt": "2026-10-21T12:00:00Z",
+      "observedAt": "2026-10-22T08:34:52.386422+00:00",
+      "delta_since_last_seen": "New October21 independent review, not a new product launch."
+    },
+    {
+      "id": "therabody-jason",
+      "zhHeadline": "Jason把产品证据放进购物对话，推荐质量不能只看转化率",
+      "enHeadline": "Jason brings product evidence into shopping; conversion is not enough to judge its recommendations",
+      "eventAt": "2026-10-21T13:00:00Z",
+      "freshness": "main",
+      "evidence": "Public primary-source claims; no independent execution test",
+      "eventDateNote": "Issuer distribution09:00 ET =13:00 UTC; event, source publication and collection are distinct. Validation followed the fixed cutoff.",
+      "event_key": "therabody:jason:shopping-assistant-launch:2026-10-21",
+      "product_key": "therabody-jason",
+      "publishedAt": "2026-10-21T13:00:00Z",
+      "observedAt": "2026-10-22T08:32:47.375137+00:00",
+      "delta_since_last_seen": "New October21 original disclosure; event not found in available historical ledgers"
+    },
+    {
+      "id": "mobo-preorder",
+      "zhHeadline": "Mobo开放预订联系，整机价格与交付条件仍待核实",
+      "enHeadline": "Mobo opens preorder contact; full price and delivery remain unresolved",
+      "eventAt": "2026-10-21; preorder-state observed about14:25Z",
+      "freshness": "near-three-day",
+      "evidence": "Public primary-source claims; no independent execution test",
+      "eventDateNote": "date-only offer; latest-known existence observation, not launch clock; event, source publication and collection are distinct. Validation followed the fixed cutoff.",
+      "event_key": "aimoga:mobo:preorder-contact-open:2026-10-21",
+      "product_key": "mobo-preorder",
+      "publishedAt": "2026-10-21",
+      "observedAt": "2026-10-22T08:28:58.509251+00:00",
+      "delta_since_last_seen": "First observed open preorder contact route and offer terms; no repeat of October17 capabilities."
+    },
+    {
+      "id": "mitsubishi-humanoid-cnc",
+      "zhHeadline": "自然语言接入任务库，工厂自治仍受已注册动作约束",
+      "enHeadline": "Language reaches the task library while factory autonomy stays bounded",
+      "eventAt": "2026-10-21 · date only",
+      "freshness": "near-three-day",
+      "evidence": "Issuer prototype announcement and architecture; no independent runtime testing",
+      "eventDateNote": "date; timezone/clock unknown; event, source publication and collection are distinct. Validation followed the fixed cutoff.",
+      "event_key": "mitsubishi:humanoid-cnc-prototype:2026-10-21",
+      "product_key": "mitsubishi-humanoid-cnc",
+      "publishedAt": "2026-10-21",
+      "observedAt": "2026-10-22T08:15:01.075498+00:00",
+      "delta_since_last_seen": "Previously held unpublished candidate; source day now entirely before cutoff. Main-window left-boundary uncertain, conservatively near-three-day."
+    },
+    {
+      "id": "physical-ai-safety-suite",
+      "zhHeadline": "把仿真结果变成审查材料，安全套件仍只是认证概念",
+      "enHeadline": "The safety suite organizes simulation evidence; certification remains an independent judgment",
+      "eventAt": "2026-10-21; exact clock unverified",
+      "freshness": "near-three-day",
+      "evidence": "Public primary-source claims; no independent execution test",
+      "eventDateNote": "date only; main-window left-boundary unresolved; event, source publication and collection are distinct. Validation followed the fixed cutoff.",
+      "event_key": "accenture-tuv:physical-ai-safety-suite:concept:2026-10-21",
+      "product_key": "physical-ai-safety-suite",
+      "publishedAt": "2026-10-21",
+      "observedAt": "2026-10-22T08:25:12.602233+00:00",
+      "delta_since_last_seen": "New October21 original disclosure; event not found in available historical ledgers"
+    },
+    {
+      "id": "band-desktop",
+      "zhHeadline": "BAND让代理共享交接记录，保留多久与谁负责仍要说清",
+      "enHeadline": "BAND shares agent handoffs, but retention and ownership still matter",
+      "eventAt": "2026-10-21",
+      "freshness": "near-three-day",
+      "evidence": "startup signal; maker launch, official product, documentation and pricing read; no runtime test",
+      "eventDateNote": "day; Product Hunt launch date, exact clock unknown; event, source publication and collection are distinct. Validation followed the fixed cutoff.",
+      "event_key": "band:desktop-developer-shared-rooms:ph-2026-10-21",
+      "product_key": "band.ai/desktop",
+      "publishedAt": "2026-10-21",
+      "observedAt": "2026-10-22 08:21:01 UTC",
+      "delta_since_last_seen": "Developer desktop presentation connects local coding sessions to shared rooms and work boards; original BAND platform existed April 2026. Not a relaunch of the underlying platform."
+    },
+    {
+      "id": "agent-pets",
+      "zhHeadline": "Agent Pets把等待审批带到浏览器，宠物状态不能代替命令核对",
+      "enHeadline": "Agent Pets brings approvals into the browser; the pet cannot replace checking the command",
+      "eventAt": "2026-10-21",
+      "freshness": "near-three-day",
+      "evidence": "startup signal; maker launch and public product page; no extension/helper installation",
+      "eventDateNote": "day; launch-board date, not exact first availability; event, source publication and collection are distinct. Validation followed the fixed cutoff.",
+      "event_key": "agent-pets:browser-permission-surface:ph-2026-10-21",
+      "product_key": "getagentpets.com",
+      "publishedAt": "2026-10-21",
+      "observedAt": "2026-10-22 08:25:26 UTC",
+      "delta_since_last_seen": "Browser-resident status, approvals and replies for coding-agent sessions, surfaced in October21 launch. Current site has expanded Codex mentions not present in launch copy; excluded from launch-time capability claims."
+    },
+    {
+      "id": "ilha",
+      "zhHeadline": "ilha让额度不足提前可见，自动换号并不等于任务无缝延续",
+      "enHeadline": "ilha exposes approaching limits, but switching accounts is not seamless task continuity",
+      "eventAt": "2026-10-21",
+      "freshness": "seven-day",
+      "evidence": "startup signal; official terms/privacy and maker responses; no installed test",
+      "eventDateNote": "Product Hunt day precision; original first availability unknown; terms already dated October17; event, source publication and collection are distinct. Validation followed the fixed cutoff.",
+      "event_key": "ilha:public-launch-listing:2026-10-21",
+      "product_key": "ilha.app",
+      "publishedAt": "2026-10-21",
+      "observedAt": "2026-10-22 08:28:25 UTC",
+      "delta_since_last_seen": "Delayed discovery of independent Mac quota and account-switching utility; PH listing October21 does not reset pre-existing October17/18 official materials."
+    },
+    {
+      "id": "the-brains",
+      "zhHeadline": "The Brains把名人式回答改成可查来源，引用仍不能替代判断",
+      "enHeadline": "The Brains replaces imagined advice with inspectable sources, not personal endorsement",
+      "eventAt": "2026-10-21",
+      "freshness": "seven-day",
+      "evidence": "developer surface and startup signal; code license and source pipeline read, no authenticated MCP execution",
+      "eventDateNote": "PH launch day; repo created October15 is not proof of public launch time; event, source publication and collection are distinct. Validation followed the fixed cutoff.",
+      "event_key": "the-brains:public-mcp-directory:ph-2026-10-21",
+      "product_key": "github.com/VicPitic/the-brains",
+      "publishedAt": "2026-10-21",
+      "observedAt": "2026-10-22 08:32:13 UTC",
+      "delta_since_last_seen": "Delayed discovery of public curated-source MCP directory; October17 privacy and October15 repository metadata precede October21 listing, which is not treated as first code availability."
+    },
+    {
+      "id": "supercmo-0-1-27",
+      "zhHeadline": "SuperCMO先让安装与费用预期可核对，开放代码不等于免费成片",
+      "enHeadline": "SuperCMO makes installation and spending assumptions inspectable; open code is not free production",
+      "eventAt": "2026-10-21T12:24:13Z",
+      "freshness": "main",
+      "evidence": "developer surface; tagged release, change descriptions and privacy documentation; no installer or rendering test",
+      "eventDateNote": "second; GitHub published_at; event, source publication and collection are distinct. Validation followed the fixed cutoff.",
+      "event_key": "supercmo:release:v0.1.27",
+      "product_key": "github.com/SupercmoHQ/superCMO-skills",
+      "publishedAt": "2026-10-21T12:24:13Z",
+      "observedAt": "2026-10-22 08:37:03 UTC",
+      "delta_since_last_seen": "Version-pinned installation and plugin packaging changes plus corrections to dry-run and telemetry claims. Product/skills existed earlier; PH launch is not first creation."
+    },
+    {
+      "id": "projectops-4-72",
+      "zhHeadline": "ProjectOps先把部署触发边界补齐，再让代理接手交付",
+      "enHeadline": "ProjectOps tightens deployment boundaries before agents take over delivery",
+      "eventAt": "2026-10-22T05:47:59Z",
+      "freshness": "main",
+      "evidence": "developer surface; maintainer release and documentation, MIT license; no installation or runtime test",
+      "eventDateNote": "second; GitHub release published_at; event, source publication and collection are distinct. Validation followed the fixed cutoff.",
+      "event_key": "projectops:release:v4.72.0",
+      "product_key": "github.com/Cassiiopeia/projectops",
+      "publishedAt": "2026-10-22T05:47:59Z",
+      "observedAt": "2026-10-22 08:23:35 UTC",
+      "delta_since_last_seen": "Copilot skills support, configuration-gated self-host deploy, signing-log fixes and mobile setup wizard; same-window 4.71.x notes grouped, no prior ledger match"
+    },
+    {
+      "id": "ragflow-1-0-rc2",
+      "zhHeadline": "RAGFlow把解析选择与中断恢复接起来，升级仍要核对真实数据状态",
+      "enHeadline": "RAGFlow connects parser choices and pause recovery, but upgrades still need state checks",
+      "eventAt": "2026-10-16T09:49:48Z",
+      "freshness": "seven-day",
+      "evidence": "developer surface; tagged release and versioned docs plus included PRs; no deployed test",
+      "eventDateNote": "second; GitHub published_at; event, source publication and collection are distinct. Validation followed the fixed cutoff.",
+      "event_key": "ragflow:release:v1.0.0-rc2",
+      "product_key": "github.com/infiniflow/ragflow",
+      "publishedAt": "2026-10-16T09:49:48Z",
+      "observedAt": "2026-10-22 08:40:45 UTC",
+      "delta_since_last_seen": "Second release candidate exposes Agentic chat mode, unifies parser selection, Team/Me sharing and state-preservation fixes; Go rewrite belonged to prior rc1. No match in 43 source files across 41 available issue directories since August27."
+    },
+    {
+      "id": "google-agents-cli-111",
+      "zhHeadline": "Agents CLI把失败原因带回终端，升级仍要核对扩展与镜像假设",
+      "enHeadline": "Agents CLI exposes failure state, while upgrades still need extension and mirror checks",
+      "eventAt": "2026-10-20T13:03:57Z · release",
+      "freshness": "near-three-day",
+      "evidence": "Maintainer release and documentation; not independently executed",
+      "eventDateNote": "second; event, source publication and collection are distinct. Validation followed the fixed cutoff.",
+      "event_key": "google-agents-cli:release:1.11.0",
+      "product_key": "google-agents-cli",
+      "publishedAt": "2026-10-20T13:03:57Z",
+      "observedAt": "2026-10-22T08:25:24.662119+00:00",
+      "delta_since_last_seen": "No eight-week history match; Oct21 guide covers older extension mechanism, actual new release is1.11.0."
+    },
+    {
+      "id": "torchtpu",
+      "zhHeadline": "TorchTPU降低迁移代码负担，精度与编译成本仍须重新验收",
+      "enHeadline": "TorchTPU reduces porting work, while precision and compilation still need validation",
+      "eventAt": "2026-10-20T16:02:30Z",
+      "freshness": "near-three-day",
+      "evidence": "Maintainer and integration-partner documentation; no editorial runtime test",
+      "eventDateNote": "original article metadata exact; not initial codecommit; event, source publication and collection are distinct. Validation followed the fixed cutoff.",
+      "event_key": "torchtpu:open-source-ecosystem-agent-preview:2026-10-20",
+      "product_key": "torchtpu",
+      "publishedAt": "2026-10-20T16:02:30Z",
+      "observedAt": "2026-10-22T08:30:25.018Z",
+      "delta_since_last_seen": "October20 open-source availability and ecosystem integrations, with TPU agent suite early preview; not first-ever public mention of TorchTPU or new TPU hardware."
+    },
+    {
+      "id": "litellm-11070-incident",
+      "zhHeadline": "LiteLLM事件把网关信任从源代码检查推到发布产物",
+      "enHeadline": "LiteLLM moves gateway trust from reviewed source to the delivered artifact",
+      "eventAt": "2026-10-21T11:39:51Z",
+      "freshness": "main",
+      "evidence": "Maintainer incident report plus independent vendor technical analysis; no editorial execution of affected artifacts.",
+      "eventDateNote": "Package publication second precision; incident article day, update20:30UTC; event, source publication and collection are distinct. Validation followed the fixed cutoff.",
+      "event_key": "litellm:security-incident:1.107.0:2026-10-21",
+      "product_key": "litellm",
+      "publishedAt": "2026-10-21",
+      "observedAt": "2026-10-22T08:23:15.583066+00:00",
+      "delta_since_last_seen": "New October21 malicious artifacts, distinct from March1.82.7/1.82.8 incident; not a new gateway launch."
+    },
+    {
+      "id": "collie-1232-send-controls",
+      "zhHeadline": "Collie把终端问题变成手机按钮，误读状态仍会阻断发送",
+      "enHeadline": "Collie turns terminal questions into phone controls, but misread state can still block sending",
+      "eventAt": "2026-10-21T21:18:33Z",
+      "freshness": "main",
+      "evidence": "Maintainer release claims plus named contributor field reports; no editorial runtime reproduction.",
+      "eventDateNote": "release second precision; supporting reports pre-main-window; event, source publication and collection are distinct. Validation followed the fixed cutoff.",
+      "event_key": "collie:release:1.23.2:mobile-send-controls",
+      "product_key": "github:AltanS/collie",
+      "publishedAt": "2026-10-21T21:18:33Z",
+      "observedAt": "2026-10-22T08:23:15.583066+00:00",
+      "delta_since_last_seen": "New stable1.23.2 control/recognition fixes; underlying public reports Oct20/21 are background, not separate launches."
+    },
+    {
+      "id": "trailofbits-patching-regression",
+      "zhHeadline": "Trail of Bits让补丁交接附带复现证据，少误报仍有漏证代价",
+      "enHeadline": "Trail of Bits attaches reproduction evidence to patches, with a tradeoff behind fewer false alarms",
+      "eventAt": "2026-10-20T20:16:47Z",
+      "freshness": "near-three-day",
+      "evidence": "Author-reported evaluation plus inspected version-pinned workflow documentation; not independently reproduced.",
+      "eventDateNote": "Code commit second precision; announcement day precision; event, source publication and collection are distinct. Validation followed the fixed cutoff.",
+      "event_key": "trailofbits:patching-bugs-regression-hunt:initial-code:a3131740a39291e42fd15b9eac07e0b393ad71b1",
+      "product_key": "trailofbits:skills:patching-regression",
+      "publishedAt": "2026-10-21",
+      "observedAt": "2026-10-22T08:23:15.583066+00:00",
+      "delta_since_last_seen": "Plugins added Oct20, announcedOct21; no matching prior8weekJSONledger. Not first releaseOct21."
+    },
+    {
+      "id": "privacy-preference-controls",
+      "zhHeadline": "隐私控制需要跟随每次调用，阻止记忆写入不等于阻止推断",
+      "enHeadline": "Privacy controls must follow each call; blocking a memory write does not stop inference",
+      "eventAt": "2026-10-21T16:03:02Z",
+      "freshness": "main",
+      "evidence": "Author research; not independently replicated",
+      "eventDateNote": "exact arXiv submission; public announcement clock unverified; event, source publication and collection are distinct. Validation followed the fixed cutoff.",
+      "event_key": "2610.29929:v1",
+      "product_key": "privacy-preference-controls",
+      "publishedAt": null,
+      "observedAt": "2026-10-22T08:26:11.111607+00:00",
+      "delta_since_last_seen": "No match in 89 available daily source/manifest files across 87 issue dates; new research record, not product launch."
+    },
+    {
+      "id": "preference-not-permission",
+      "zhHeadline": "知道用户喜欢什么，不等于知道何时可以代付",
+      "enHeadline": "Knowing what a shopper likes does not establish permission to buy",
+      "eventAt": "2026-10-21T05:15:31Z",
+      "freshness": "near-three-day",
+      "evidence": "Author research; not independently replicated",
+      "eventDateNote": "exact arXiv submission; public announcement clock unverified; event, source publication and collection are distinct. Validation followed the fixed cutoff.",
+      "event_key": "2610.29216:v1",
+      "product_key": "preference-not-permission",
+      "publishedAt": null,
+      "observedAt": "2026-10-22T08:26:11.111607+00:00",
+      "delta_since_last_seen": "No match in 89 available daily source/manifest files across 87 issue dates; new research record, not product launch."
+    },
+    {
+      "id": "scriptorium",
+      "zhHeadline": "Scriptorium把协作检索变成共享证据，透明工作区仍不是生产权限模型",
+      "enHeadline": "Scriptorium makes search activity shared evidence, but transparency is not production access control",
+      "eventAt": "2026-10-20T21:06:13Z",
+      "freshness": "near-three-day",
+      "evidence": "Author research; not independently replicated",
+      "eventDateNote": "exact arXiv submission; public announcement clock unverified; event, source publication and collection are distinct. Validation followed the fixed cutoff.",
+      "event_key": "2610.28929:v1",
+      "product_key": "scriptorium",
+      "publishedAt": null,
+      "observedAt": "2026-10-22T08:18:03.368621+00:00",
+      "delta_since_last_seen": "No match in 89 available daily source/manifest files across 87 issue dates; new research record, not product launch."
+    },
+    {
+      "id": "genxr-bench",
+      "zhHeadline": "GenXR-Bench把验收带到空间交互，能运行的代码不一定能让人操作",
+      "enHeadline": "GenXR-Bench tests spatial interaction, where running code is not yet usable software",
+      "eventAt": "2026-10-21T00:28:16Z",
+      "freshness": "near-three-day",
+      "evidence": "Author research; not independently replicated",
+      "eventDateNote": "exact arXiv submission; public announcement clock unverified; event, source publication and collection are distinct. Validation followed the fixed cutoff.",
+      "event_key": "2610.29014:v1",
+      "product_key": "genxr-bench",
+      "publishedAt": null,
+      "observedAt": "2026-10-22T08:18:03.368621+00:00",
+      "delta_since_last_seen": "No match in 89 available daily source/manifest files across 87 issue dates; new research record, not product launch."
+    },
+    {
+      "id": "warping-workspace",
+      "zhHeadline": "把身后压进视野不等于更好操控，Warping Workspace同时改画面与手腕映射",
+      "enHeadline": "Warping Workspace changes both the view and wrist mapping; wider coverage alone is not easier control",
+      "eventAt": "2026-10-20T17:42:33Z",
+      "freshness": "near-three-day",
+      "evidence": "Author research; not independently replicated",
+      "eventDateNote": "exact arXiv submission; public announcement clock unverified; event, source publication and collection are distinct. Validation followed the fixed cutoff.",
+      "event_key": "2610.28712:v1",
+      "product_key": "warping-workspace",
+      "publishedAt": null,
+      "observedAt": "2026-10-22T08:26:11.111607+00:00",
+      "delta_since_last_seen": "No match in 89 available daily source/manifest files across 87 issue dates; new research record, not product launch."
+    },
+    {
+      "id": "traceprism",
+      "zhHeadline": "TracePrism让分析者重开分组，解释流程的依据也随修改保留",
+      "enHeadline": "TracePrism reopens analytical groups while preserving the decisions behind them",
+      "eventAt": "2026-10-20T17:04:41Z",
+      "freshness": "near-three-day",
+      "evidence": "Author research; not independently replicated",
+      "eventDateNote": "exact arXiv submission; public announcement clock unverified; event, source publication and collection are distinct. Validation followed the fixed cutoff.",
+      "event_key": "2610.28532:v1",
+      "product_key": "traceprism",
+      "publishedAt": null,
+      "observedAt": "2026-10-22T08:33:53.201812+00:00",
+      "delta_since_last_seen": "No match in 89 available daily source/manifest files across 87 issue dates; new research record, not product launch."
+    },
+    {
+      "id": "osce-simbench",
+      "zhHeadline": "OSCE-SimBench把问诊练习接到可检查评分，模拟病人仍不能替代真人考核",
+      "enHeadline": "OSCE-SimBench connects interview practice to inspectable grading without replacing human assessment",
+      "eventAt": "2026-10-21T07:08:59Z",
+      "freshness": "near-three-day",
+      "evidence": "Author research; not independently replicated",
+      "eventDateNote": "exact arXiv submission; public announcement clock unverified; event, source publication and collection are distinct. Validation followed the fixed cutoff.",
+      "event_key": "2610.29312:v1",
+      "product_key": "osce-simbench",
+      "publishedAt": null,
+      "observedAt": "2026-10-22T08:33:53.201812+00:00",
+      "delta_since_last_seen": "No match in 89 available daily source/manifest files across 87 issue dates; new research record, not product launch."
+    },
+    {
+      "id": "vira-bench",
+      "zhHeadline": "VIRA-Bench检验教学回应的先后关系，看见动作还不等于理解为何调整",
+      "enHeadline": "VIRA-Bench tests the sequence behind teaching responses, beyond recognizing an action",
+      "eventAt": "2026-10-21T08:52:19Z",
+      "freshness": "main",
+      "evidence": "Author research; not independently replicated",
+      "eventDateNote": "exact arXiv submission; public announcement clock unverified; event, source publication and collection are distinct. Validation followed the fixed cutoff.",
+      "event_key": "2610.29428:v1",
+      "product_key": "vira-bench",
+      "publishedAt": null,
+      "observedAt": "2026-10-22T08:33:53.201812+00:00",
+      "delta_since_last_seen": "No match in 89 available daily source/manifest files across 87 issue dates; new research record, not product launch."
+    },
+    {
+      "id": "vr-gaze-conversion",
+      "zhHeadline": "把实验室眼动变成头显训练资料，45秒结果还不能证明快速解锁可用",
+      "enHeadline": "Converting lab gaze into headset training data does not yet establish fast, dependable unlocking",
+      "eventAt": "2026-10-21T16:57:01Z",
+      "freshness": "main",
+      "evidence": "Author research; not independently replicated",
+      "eventDateNote": "exact arXiv submission; public announcement clock unverified; event, source publication and collection are distinct. Validation followed the fixed cutoff.",
+      "event_key": "2610.30032:v1",
+      "product_key": "vr-gaze-conversion",
+      "publishedAt": null,
+      "observedAt": "2026-10-22T08:36:04.474029+00:00",
+      "delta_since_last_seen": "No match in 89 available daily source/manifest files across 87 issue dates; new research record, not product launch."
+    },
+    {
+      "id": "phoenix-mwa",
+      "zhHeadline": "Phoenix联合预测世界与动作，开源复现仍需补齐资源和部署环节",
+      "enHeadline": "Phoenix predicts worlds and actions together, with reproduction still requiring resources and deployment work",
+      "eventAt": "2026-10-20/21; original public-release clock unverified",
+      "freshness": "near-three-day",
+      "evidence": "Author technical report, repository and license inspected; author benchmarks only",
+      "eventDateNote": "codecommit date plus exact syndication corroboration; original clock unknown; event, source publication and collection are distinct. Validation followed the fixed cutoff.",
+      "event_key": "phoenix-mwa:technical-release-pretraining:2026-10",
+      "product_key": "phoenix-mwa",
+      "publishedAt": "2026-10-21T15:43:18Z (syndicated report, not author release)",
+      "observedAt": "2026-10-22T08:32:34.109Z",
+      "delta_since_last_seen": "Technical report and public world-action pretraining implementation; release scope excludes forthcoming encoder/data/RTC components."
+    }
+  ],
+  "eventCounts": {
+    "mainWindowEvents": 12,
+    "nearThreeDayReviews": 22,
+    "sevenDayReviews": 4,
+    "interpretation": "Announcements, submissions, updates and regional reports; not first product launches."
+  }
+}
