@@ -1,36 +1,65 @@
 [
   {
-    "kind": "image",
-    "name": "nvidia-isaac.jpg",
-    "url": "https://ml.globenewswire.com/Resource/Download/daef9262-990d-4455-b650-dcbe1e2c3cfd?size=3",
-    "renderImage": true,
+    "kind": "page",
+    "name": "claude-duet.jpg",
+    "url": "https://claude.com/product/claude-duet",
+    "selector": "div[role=\"img\"][aria-label^=\"Claude Duet on an iPhone\"]",
     "locale": "zh"
   },
   {
     "kind": "image",
-    "name": "arda-translation.jpg",
-    "url": "https://framerusercontent.com/images/Owsf7tmn2nVwlrLmHd3jfXnaNo.png?width=711&height=1046",
+    "name": "claude-security.jpg",
+    "url": "https://assets.claude.com/fe39204ec42e8d48c853bf16bb08bdb19bf99a22.png",
     "renderImage": true,
     "locale": "en"
   },
   {
     "kind": "image",
-    "name": "arda-adaptation.jpg",
-    "url": "https://framerusercontent.com/images/x7dHrSa7p78eijVSwMBg7GKKFho.png?width=2048&height=2048",
+    "name": "litellm.jpg",
+    "url": "https://docs.litellm.ai/assets/ideal-img/ui_tour_keys.50da351.640.png",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "name": "collie.jpg",
+    "url": "https://raw.githubusercontent.com/AltanS/collie/v1.23.2/assets/dashboard.png",
     "renderImage": true,
     "locale": "en"
   },
   {
-    "kind": "page",
-    "name": "lovart-arti-public.jpg",
-    "url": "https://www.lovart.ai/arti",
+    "kind": "image",
+    "name": "scriptorium.jpg",
+    "url": "https://arxiv.org/html/2610.28929v1/figures/workspace-fig.png",
+    "renderImage": true,
     "locale": "zh"
   },
   {
-    "kind": "page",
-    "name": "antigravity-claude-55.jpg",
-    "url": "https://antigravity.google/docs/models/",
-    "selector": ".model-selector-wrapper",
+    "kind": "image",
+    "name": "genxr.jpg",
+    "url": "https://arxiv.org/html/2610.29014v1/grid_final.png",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "name": "warping-workspace.jpg",
+    "url": "https://arxiv.org/html/2610.28712v1/teaser_v4.png",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "name": "baidu-dumate.jpg",
+    "url": "https://now.bdstatic.com/store/v2/d33e0f5/dumate-portal/1295044/static/image/feature_1.4e4bcbf8.png",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "name": "oppo-find-x10.jpg",
+    "url": "https://www.oppo.com/content/dam/oppo_com/en/mkt/newsroom/press/2026/10/oppo-find-x10-series-global-launch/07.webp",
+    "renderImage": true,
     "locale": "en"
   }
 ]

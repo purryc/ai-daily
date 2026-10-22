@@ -1,8 +1,8 @@
 {
   "phase": "live",
   "baselineCommit": "e5f3900bc10c6158e4f1e21bc8d4793b1b25384e",
-  "acquireAssets": false,
+  "acquireAssets": true,
   "archiveRevision": false,
-  "note": "Live acceptance of final October 21 typography correction; exact public hashes and complete bilingual browser coverage.",
+  "note": "Acquire seven original public research/product visuals for October 22 editorial validation; existing October 21 live fixture remains unchanged.",
   "publicCommit": "75c63f5d69458c7aead493e217be4fdd600e40ea"
 }
