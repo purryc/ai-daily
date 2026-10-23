@@ -1,50 +1,23 @@
 [
   {
-    "kind": "image",
-    "name": "eiliko-large.jpg",
-    "url": "https://energizelab.com/static/default/mb/assets/jpg/eiliko-detail-main-pc.jpg",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "arc-hero.jpg",
-    "url": "https://arc.net/farewell/assets/arc-hero.webp",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
     "kind": "page",
-    "name": "arc-migration-ui.jpg",
-    "url": "https://arc.net/",
-    "selector": "section:has-text(\"Your Spaces are now Profiles\")",
-    "locale": "en"
-  },
-  {
-    "kind": "page",
-    "name": "cowriter-methodical-figure.jpg",
-    "url": "https://arxiv.org/html/2610.31277v1",
-    "selector": "figure:has-text(\"Figure 5\")",
-    "locale": "zh"
-  },
-  {
-    "kind": "page",
-    "name": "household-memory-figure.jpg",
-    "url": "https://arxiv.org/html/2610.30895v1",
-    "selector": "figure",
-    "locale": "en"
-  },
-  {
-    "kind": "inventory",
-    "name": "google-live-translate-inventory.json",
+    "name": "google-meet-translation-context.jpg",
     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/",
+    "selector": "img[alt=\"Speech translation in Google Meet with Gemini 3.5 Live Translate\"]",
     "locale": "zh"
   },
   {
-    "kind": "image",
-    "name": "workfront-ai-collaborators.jpg",
+    "kind": "page",
+    "name": "workfront-ai-collaborators-browser.jpg",
     "url": "https://business.adobe.com/products/workfront/media_1349bf42121ce6c1dbf684fb5afe7896310286c1e.png?format=png&optimize=medium&width=750",
-    "renderImage": true,
+    "selector": "img",
     "locale": "en"
+  },
+  {
+    "kind": "page",
+    "name": "yelp-product-release-browser.jpg",
+    "url": "https://mms.businesswire.com/media/20261020237779/en/2939415/5/1704_ProductRelease_Fall2026_Sound_1920x1080.jpg",
+    "selector": "img",
+    "locale": "zh"
   }
 ]
