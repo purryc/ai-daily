@@ -1,111 +1,49 @@
 [
   {
     "kind": "image",
-    "name": "canva-craft.jpg",
-    "url": "https://content-management-files.canva.com/b3104183-665b-47ad-8d4e-81bbe27d485d/9.png",
+    "name": "eiliko-large.jpg",
+    "url": "https://energizelab.com/static/default/mb/assets/jpg/eiliko-detail-main-pc.jpg",
     "renderImage": true,
     "locale": "zh"
   },
   {
     "kind": "image",
-    "name": "muse-wardrobe-planning.jpg",
-    "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b2/97/13/b29713f1-fa23-e5ad-e08b-96a0368be490/EN-04__U00b7_Outfit_canvas.png/600x1300bb.webp",
+    "name": "arc-hero.jpg",
+    "url": "https://arc.net/farewell/assets/arc-hero.webp",
     "renderImage": true,
     "locale": "en"
   },
   {
-    "kind": "image",
-    "name": "ecovacs-x12-independent-review.jpg",
-    "url": "https://site-static.ecovacs.com/upload/image/product/2026/03/23/035142_3240%24X12%E6%97%8B%E9%A3%8E%E5%B0%98%E6%A1%B6%E5%9F%BA%E7%AB%991.jpg?x-oss-process=image%2Fformat%2Cwebp",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "nirva-updated-preorder.jpg",
-    "url": "https://images.siliconangle.com/blogs.dir/1/files/2026/10/Collection_Swappable-core-accessories-scaled.jpg",
-    "renderImage": true,
+    "kind": "page",
+    "name": "arc-migration-ui.jpg",
+    "url": "https://arc.net/",
+    "selector": "section:has-text(\"Your Spaces are now Profiles\")",
     "locale": "en"
   },
   {
-    "kind": "image",
-    "name": "antigravity-a1-follow-me.jpg",
-    "url": "https://static.antigravity.tech/assets/b37e563d66a20f839eff468a66dbc962/FollowMe_Small.png",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "google-agent-compute-engine.jpg",
-    "url": "https://storage.googleapis.com/gweb-cloudblog-publish/images/image1_iio6keS.max-1500x1500.png",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "atlas-agent-trajectories.jpg",
-    "url": "https://arxiv.org/html/2610.30548v1/figures/teaser.png",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "abra-agent-bound-ui.jpg",
-    "url": "https://arxiv.org/html/2610.30780v1/fig/system.png",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "counterspeech-cowriting.jpg",
-    "url": "https://arxiv.org/html/2610.31357v1/figures/UI_generator_page.png",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "metacognitive-scaffolds.jpg",
-    "url": "https://arxiv.org/html/2610.30945v1/figure_teaser.png",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "t-dig.jpg",
-    "url": "https://arxiv.org/html/2610.29003v1/framework.png",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "yelp-fall-consumer-actions.jpg",
-    "url": "https://mms.businesswire.com/media/20261020237779/en/2939415/5/1704_ProductRelease_Fall2026_Sound_1920x1080.jpg",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "google-docs-live-workspace.jpg",
-    "url": "https://s.yimg.com/ny/api/res/1.2/iRSCrEJxTHifBHFk.BjO.g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTU0MA--/https%3A/d29szjachogqwa.cloudfront.net/images/user-uploaded/google-i-o-26-keynote-1-14-31-screenshot_5157.png",
-    "renderImage": true,
+    "kind": "page",
+    "name": "cowriter-methodical-figure.jpg",
+    "url": "https://arxiv.org/html/2610.31277v1",
+    "selector": "figure:has-text(\"Figure 5\")",
     "locale": "zh"
   },
   {
     "kind": "page",
-    "name": "deepcell-demo.jpg",
-    "url": "https://deepcell.net/demo",
+    "name": "household-memory-figure.jpg",
+    "url": "https://arxiv.org/html/2610.30895v1",
+    "selector": "figure",
     "locale": "en"
   },
   {
     "kind": "inventory",
-    "name": "grok-bot-inventory.json",
-    "url": "https://x.ai/bot",
+    "name": "google-live-translate-inventory.json",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/",
     "locale": "zh"
   },
   {
     "kind": "image",
-    "name": "adobe-coworker-response.jpg",
-    "url": "https://experienceleague.adobe.com/en/docs/coworker/content/chat/media_111d4bc8c7be7904bbbbbdbb541141b421d2d3b00.png?format=png&optimize=medium&width=750",
+    "name": "workfront-ai-collaborators.jpg",
+    "url": "https://business.adobe.com/products/workfront/media_1349bf42121ce6c1dbf684fb5afe7896310286c1e.png?format=png&optimize=medium&width=750",
     "renderImage": true,
     "locale": "en"
   }
