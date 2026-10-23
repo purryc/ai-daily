@@ -1,23 +1,9 @@
 [
   {
     "kind": "page",
-    "name": "google-meet-translation-context.jpg",
-    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/",
-    "selector": "img[alt=\"Speech translation in Google Meet with Gemini 3.5 Live Translate\"]",
-    "locale": "zh"
-  },
-  {
-    "kind": "page",
-    "name": "workfront-ai-collaborators-browser.jpg",
-    "url": "https://business.adobe.com/products/workfront/media_1349bf42121ce6c1dbf684fb5afe7896310286c1e.png?format=png&optimize=medium&width=750",
-    "selector": "img",
+    "name": "workfront-collaborators-source-page.jpg",
+    "url": "https://business.adobe.com/products/workfront/ai-collaborators.html",
+    "selector": "img[src*=\"media_1349bf42121ce6c1dbf684fb5afe7896310286c1e\"]",
     "locale": "en"
-  },
-  {
-    "kind": "page",
-    "name": "yelp-product-release-browser.jpg",
-    "url": "https://mms.businesswire.com/media/20261020237779/en/2939415/5/1704_ProductRelease_Fall2026_Sound_1920x1080.jpg",
-    "selector": "img",
-    "locale": "zh"
   }
 ]
