@@ -178,10 +178,10 @@ function dossierSlide(issue, topic, locale, index, part, fields) {
   const pageTitle = part === 0 ? title(topic, locale) : `${title(topic, locale)} · ${locale === "zh" ? "续页" : "continued"}`;
   const sourceLinks = (topic.sources ?? []).slice(0, 5).map((source) => referenceMarker(issue, source.url)).join(" ");
   return {
-    id: `event-${index + 1}-${part === 0 ? "a" : "b"}`,
+    id: `event-${index + 1}-${String.fromCharCode(97 + part)}`,
     type: "product",
     topicIds: [topic.id],
-    html: `<section class="report-slide product-slide magazine-slide dossier-slide ${part === 0 ? "dossier-first" : "dossier-second"} ${visualItems.length ? "with-visuals" : "text-story"}" id="event-${index + 1}-${part === 0 ? "a" : "b"}" data-slide data-template="dossier" data-event-id="${esc(topic.id)}" data-dossier-part="${part + 1}">
+    html: `<section class="report-slide product-slide magazine-slide dossier-slide ${part === 0 ? "dossier-first" : "dossier-second"} ${visualItems.length ? "with-visuals" : "text-story"}" id="event-${index + 1}-${String.fromCharCode(97 + part)}" data-slide data-template="dossier" data-event-id="${esc(topic.id)}" data-dossier-part="${part + 1}">
       ${eventMeta(topic, locale)}<h2>${esc(pageTitle)}</h2>
       <div class="dossier-body">${visualItems ? `<div class="story-visuals count-${visuals.length}">${visualItems}</div>` : ""}<div class="dossier-copy"><div class="dossier-grid">${units}</div></div></div>
       <p class="dossier-source-row">${esc(w.evidence)} · ${esc(topic.evidenceLabel)} · ${esc(topic.event?.occurredAt)} ${sourceLinks}</p>
@@ -191,16 +191,18 @@ function dossierSlide(issue, topic, locale, index, part, fields) {
 
 function dossierSlides(issue, topic, locale, index) {
   const allFields = ["productName", "productType", "interactionFlow", "specsOrStack", "useCases", "painPointsSolved", "userVoice", "newTech", "availability", "limitsOrUnknowns", "productVerdict"];
-  return [
-    dossierSlide(issue, topic, locale, index, 0, allFields.slice(0, 6)),
-    dossierSlide(issue, topic, locale, index, 1, allFields.slice(6))
-  ];
+  const pages = topic.dossierPageFields ?? [allFields.slice(0, 6), allFields.slice(6)];
+  if (!Array.isArray(pages) || pages.some(fields => !Array.isArray(fields) || !fields.length) ||
+      pages.flat().length !== allFields.length || new Set(pages.flat()).size !== allFields.length ||
+      pages.flat().some(field => !allFields.includes(field)))
+    throw new Error("Dossier page plan must retain every information field exactly once");
+  return pages.map((fields, part) => dossierSlide(issue, topic, locale, index, part, fields));
 }
 
 function laneScanSlides(issue, locale) {
   const scans = issue.laneScans ?? [];
   const w = words[locale];
-  return [0, 4].map((offset, part) => {
+  return Array.from({ length: Math.ceil(scans.length / 4) }, (_, part) => part * 4).map((offset, part) => {
     const batch = scans.slice(offset, offset + 4);
     return {
       id: `lane-scan-${part + 1}`,
