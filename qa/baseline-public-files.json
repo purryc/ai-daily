@@ -23,35 +23,5 @@
     "path": "assets/archive-filter.mjs",
     "bytes": 11063,
     "sha256": "5761471c04e4fea2f812a7109b76fcf4e5a313b4bbb5705c43d33b3f88b3d793"
-  },
-  {
-    "path": "2026-10-22/en/coverage.html",
-    "bytes": 14829,
-    "sha256": "3f76c9d6bd782383dd56111e64e37b7840c4e6cb426f2070d67e8447d2d9eafe"
-  },
-  {
-    "path": "2026-10-22/en/index.html",
-    "bytes": 118841,
-    "sha256": "5d17202770d3d0f3c8462810e2fd3dbd46df5632e9c4b3aaf4e2e6e5e59b4389"
-  },
-  {
-    "path": "2026-10-22/manifest.json",
-    "bytes": 63771,
-    "sha256": "f19d38f6067cb10390f94f88e9c463bc2d398fe7c17172a69c6b32aac4955cab"
-  },
-  {
-    "path": "2026-10-22/sources.html",
-    "bytes": 94420,
-    "sha256": "922cc33603f0f664d0550e423a97a1819532b60a1d6435a29d6774d33820d0b2"
-  },
-  {
-    "path": "2026-10-22/zh/coverage.html",
-    "bytes": 12181,
-    "sha256": "0eb505aa05fc3cfc57b0d2365111bf1db7aa3c343ed0b01f5ee6a0b08a67ab8c"
-  },
-  {
-    "path": "2026-10-22/zh/index.html",
-    "bytes": 112803,
-    "sha256": "6b324b6658273815af1d3ff047619fb730797e617a04aa8259e7bb56b915c8d6"
   }
 ]

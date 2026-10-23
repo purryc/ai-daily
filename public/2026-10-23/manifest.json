@@ -1,0 +1,767 @@
+{
+  "date": "2026-10-23",
+  "timezone": "America/Toronto",
+  "cutoff": "2026-10-23T08:04:33Z",
+  "windowStart": "2026-10-22T08:04:33Z",
+  "metrics": {
+    "body": {
+      "zhDenseChars": 28145,
+      "enWords": 15798
+    },
+    "perProduct": {
+      "oka-mori-launch": {
+        "zh": 797,
+        "en": 459
+      },
+      "canva-craft": {
+        "zh": 819,
+        "en": 438
+      },
+      "muse-wardrobe-planning": {
+        "zh": 1000,
+        "en": 549
+      },
+      "1password-for-agents": {
+        "zh": 962,
+        "en": 538
+      },
+      "openwhispr-1104-tone": {
+        "zh": 1144,
+        "en": 675
+      },
+      "antigravity-a1-follow-me": {
+        "zh": 804,
+        "en": 450
+      },
+      "google-docs-live-workspace": {
+        "zh": 788,
+        "en": 435
+      },
+      "nirva-updated-preorder": {
+        "zh": 809,
+        "en": 447
+      },
+      "ecovacs-x12-independent-review": {
+        "zh": 787,
+        "en": 455
+      },
+      "huawei-glasses-sp5": {
+        "zh": 810,
+        "en": 477
+      },
+      "even-g2-controls-review": {
+        "zh": 811,
+        "en": 452
+      },
+      "eiliko-security-response": {
+        "zh": 806,
+        "en": 437
+      },
+      "stardrift-tokyo-review": {
+        "zh": 1079,
+        "en": 545
+      },
+      "arc-sunset-migration": {
+        "zh": 966,
+        "en": 534
+      },
+      "by-your-side-preview": {
+        "zh": 845,
+        "en": 468
+      },
+      "mactidy-03": {
+        "zh": 854,
+        "en": 472
+      },
+      "minimax-mini-app-introduction": {
+        "zh": 866,
+        "en": 485
+      },
+      "dongleya-preview": {
+        "zh": 865,
+        "en": 455
+      },
+      "hyperframes-08186-capture": {
+        "zh": 1040,
+        "en": 611
+      },
+      "ovis-0413-handoff": {
+        "zh": 1132,
+        "en": 654
+      },
+      "openai-decisions-ga": {
+        "zh": 776,
+        "en": 429
+      },
+      "claude-google-anthropic-managed-ga": {
+        "zh": 1105,
+        "en": 592
+      },
+      "adobe-trace-journey-profile": {
+        "zh": 972,
+        "en": 506
+      },
+      "nvidia-minerva-launch": {
+        "zh": 692,
+        "en": 411
+      },
+      "google-agent-compute-engine": {
+        "zh": 1039,
+        "en": 573
+      },
+      "household-memory-assistant": {
+        "zh": 783,
+        "en": 444
+      },
+      "abra-agent-bound-ui": {
+        "zh": 823,
+        "en": 463
+      },
+      "atlas-agent-trajectories": {
+        "zh": 798,
+        "en": 472
+      },
+      "cowriter-methodical": {
+        "zh": 795,
+        "en": 471
+      },
+      "metacognitive-scaffolds": {
+        "zh": 763,
+        "en": 472
+      },
+      "counterspeech-cowriting": {
+        "zh": 790,
+        "en": 461
+      },
+      "t-dig": {
+        "zh": 825,
+        "en": 468
+      }
+    },
+    "primarySummaries": {
+      "oka-mori-launch": {
+        "zh": 190,
+        "en": 107
+      },
+      "canva-craft": {
+        "zh": 200,
+        "en": 135
+      },
+      "muse-wardrobe-planning": {
+        "zh": 197,
+        "en": 112
+      },
+      "1password-for-agents": {
+        "zh": 195,
+        "en": 124
+      },
+      "openwhispr-1104-tone": {
+        "zh": 190,
+        "en": 110
+      },
+      "antigravity-a1-follow-me": {
+        "zh": 187,
+        "en": 102
+      },
+      "google-docs-live-workspace": {
+        "zh": 190,
+        "en": 107
+      },
+      "nirva-updated-preorder": {
+        "zh": 188,
+        "en": 109
+      },
+      "ecovacs-x12-independent-review": {
+        "zh": 184,
+        "en": 112
+      },
+      "huawei-glasses-sp5": {
+        "zh": 186,
+        "en": 109
+      },
+      "even-g2-controls-review": {
+        "zh": 193,
+        "en": 113
+      },
+      "eiliko-security-response": {
+        "zh": 192,
+        "en": 107
+      },
+      "stardrift-tokyo-review": {
+        "zh": 198,
+        "en": 106
+      },
+      "arc-sunset-migration": {
+        "zh": 190,
+        "en": 108
+      },
+      "by-your-side-preview": {
+        "zh": 198,
+        "en": 111
+      },
+      "mactidy-03": {
+        "zh": 195,
+        "en": 111
+      },
+      "minimax-mini-app-introduction": {
+        "zh": 186,
+        "en": 108
+      },
+      "dongleya-preview": {
+        "zh": 195,
+        "en": 107
+      },
+      "hyperframes-08186-capture": {
+        "zh": 192,
+        "en": 109
+      },
+      "ovis-0413-handoff": {
+        "zh": 191,
+        "en": 115
+      },
+      "openai-decisions-ga": {
+        "zh": 184,
+        "en": 100
+      },
+      "claude-google-anthropic-managed-ga": {
+        "zh": 219,
+        "en": 113
+      },
+      "adobe-trace-journey-profile": {
+        "zh": 188,
+        "en": 103
+      },
+      "nvidia-minerva-launch": {
+        "zh": 179,
+        "en": 97
+      },
+      "google-agent-compute-engine": {
+        "zh": 187,
+        "en": 106
+      },
+      "household-memory-assistant": {
+        "zh": 189,
+        "en": 103
+      },
+      "abra-agent-bound-ui": {
+        "zh": 198,
+        "en": 108
+      },
+      "atlas-agent-trajectories": {
+        "zh": 204,
+        "en": 116
+      },
+      "cowriter-methodical": {
+        "zh": 202,
+        "en": 110
+      },
+      "metacognitive-scaffolds": {
+        "zh": 200,
+        "en": 113
+      },
+      "counterspeech-cowriting": {
+        "zh": 186,
+        "en": 112
+      },
+      "t-dig": {
+        "zh": 191,
+        "en": 116
+      }
+    },
+    "counting": "Only unique full-analysis product paragraphs count toward body gates; summaries, captions, coverage and sources excluded.",
+    "products": 32,
+    "references": 136,
+    "coreVisuals": 32,
+    "slidesPerLocale": 35,
+    "primaryProjectPages": 32,
+    "attachedProjectDetails": 32,
+    "primaryBody": {
+      "zhDenseChars": 6164,
+      "enWords": 3519
+    },
+    "completeReadingBody": {
+      "zhDenseChars": 34309,
+      "enWords": 19317
+    }
+  },
+  "revision": {
+    "label": "morning-edition",
+    "originalCutoffRetained": true,
+    "newIssue": true,
+    "baselineCommit": "9c6b9141561cb7846eb95d2da3d16a41d001417e"
+  },
+  "topics": [
+    {
+      "id": "oka-mori-launch",
+      "zhHeadline": "Mori用触摸与环境反应提供陪伴，预订权益却需要逐页核对",
+      "enHeadline": "Mori offers companionship through touch and ambient reactions, while preorder terms conflict",
+      "eventAt": "2026-10-22T13:01:00Z",
+      "freshness": "main",
+      "evidence": "confirmed product announcement; startup preorder signal",
+      "eventDateNote": "minute; release 09:01 ET converted using EDT",
+      "event_key": "oka:mori:founder-edition-launch:2026-10-22",
+      "product_key": "oka:mori",
+      "publishedAt": "2026-10-22T13:01:00Z",
+      "observedAt": "2026-10-23T08:27:36.654865+00:00",
+      "delta_since_last_seen": "No Mori / One Kind Artifact product match in available eight-week history index or Oct21 held/selected records. New Founder Edition announcement; preorder, not delivery."
+    },
+    {
+      "id": "canva-craft",
+      "zhHeadline": "Canva Craft先规划画面，再把生成图接回可编辑设计",
+      "enHeadline": "Canva Craft plans the image, then connects it to editable design",
+      "eventAt": "2026-10-22",
+      "freshness": "main",
+      "evidence": "Full official Craft announcement, Research page and Magic Layers guides read. Product mechanics are vendor descriptions; no hands-on model test or independently checked arena ranking.",
+      "eventDateNote": "official date; TechCrunch contemporaneous article Oct22 12:00PDT establishes before cutoff",
+      "event_key": "canva:craft:first-model-dream-lab-api:2026-10-22",
+      "product_key": "canva:craft",
+      "publishedAt": "2026-10-22",
+      "observedAt": "2026-10-23T08:26:40.026225+00:00",
+      "delta_since_last_seen": "First Craft model release into Dream Lab and public API; Magic Layers is existing workflow background, not a second new release. No matching Craft event in available history."
+    },
+    {
+      "id": "muse-wardrobe-planning",
+      "zhHeadline": "MUSE把已有衣服排进日历和行李箱，试穿图仍只是搭配参考",
+      "enHeadline": "MUSE puts the clothes you own onto a calendar and packing list, with previews kept in perspective",
+      "eventAt": "2026-10-21T22:29:41Z",
+      "freshness": "near-three-day",
+      "evidence": {
+        "label": "confirmed product / startup signal",
+        "independence": "App Store description, screenshots, privacy and terms are developer-provided, one origin group. No independent hands-on test or sufficient ratings overview. Parent's Reddit discovery is maker search excerpt only, not read community response.",
+        "launchTimeEvidence": "Parent-read App Store embedded1.0=2026-10-20T15:02:38Z;1.0.1=2026-10-21T22:29:41Z. Rendered page relative2d/1d alone not used to invent time.",
+        "counterevidence": "Try-on explicitly does not establish real sizing, material or fit. Terms now resolve previously unknown credit consumption. No measured wardrobe-recognition accuracy or styling success.",
+        "fixStatus": "1.0.1 release notes claim image/calendar,dictation,city search,refresh-alert and profile-name improvements; no user confirmation or local reproduction."
+      },
+      "eventDateNote": "second; parent verified App Store embedded version timestamps; this lane reread rendered1.0.1 notes and1.0 version listing",
+      "event_key": "muse-wardrobe:ios-1.0.1:2026-10-21T22:29:41Z",
+      "product_key": "app:6813807872:muse-wardrobe",
+      "publishedAt": "2026-10-21T22:29:41Z",
+      "observedAt": "2026-10-23T08:29:02Z",
+      "delta_since_last_seen": "First located iOS launch1.0 timestamp2026-10-20T15:02:38Z and1.0.1 timestamp2026-10-21T22:29:41Z. New1.0.1 improves image loading/calendar previews/dictation/city search. Not an October22 first launch. No match across available eight-week archive and Oct21/22 decisions."
+    },
+    {
+      "id": "1password-for-agents",
+      "zhHeadline": "1Password把代理登录变成本人可选的账号请求",
+      "enHeadline": "1Password turns agent sign-in into an account request you can approve",
+      "eventAt": "2026-10-22",
+      "freshness": "main",
+      "evidence": "Official launch, product FAQ and two partner pages read. Vendor capabilities and rollout statements; no hands-on test.",
+      "eventDateNote": "date; time zone not stated by official announcement; contemporaneous Oct22 19:07Z media report establishes before cutoff",
+      "event_key": "1password:personal-agent-platform:2026-10-22",
+      "product_key": "1password:personal-ai-agent-integrations",
+      "publishedAt": "2026-10-22",
+      "observedAt": "2026-10-23T08:12:55.953212+00:00",
+      "delta_since_last_seen": "New multi-partner consumer platform announcement and staged Muse/Grok Bot integrations; earlier agentic-autofill work is background, not first-ever credential protection. No matching event in available history."
+    },
+    {
+      "id": "openwhispr-1104-tone",
+      "zhHeadline": "OpenWhispr按应用选择听写语气，也保住改写失败前的原话",
+      "enHeadline": "OpenWhispr adapts dictation by app and preserves speech when edits fail",
+      "eventAt": "2026-10-22T08:21:23Z",
+      "freshness": "main",
+      "evidence": "confirmed product / developer surface; downloaded artifacts listed, code and MIT license read; app not executed",
+      "eventDateNote": "second",
+      "event_key": "openwhispr:release:v1.10.4",
+      "product_key": "github.com/OpenWhispr/openwhispr",
+      "publishedAt": "2026-10-22T08:21:23Z",
+      "observedAt": "2026-10-23T08:16:32.247Z",
+      "delta_since_last_seen": "No OpenWhispr product/event found in supplied eight-week history-index, yesterday-projects or Oct21 dispositions. v1.10.4 adds Tone & Style, calendar link and transcript recovery; changelog date Oct21 distinct from release publication Oct22."
+    },
+    {
+      "id": "antigravity-a1-follow-me",
+      "zhHeadline": "A1把拍摄控制移到手腕，自动跟随仍需要清楚的接管路径",
+      "enHeadline": "A1 moves filming controls to the wrist, while automatic following still needs a clear takeover path",
+      "eventAt": "2026-10-20",
+      "freshness": "near-three-day",
+      "evidence": "confirmed product; independent review friction",
+      "eventDateNote": "official event date only; contemporaneous Verge launch review exact13:00Z; TechRadar followup2026-10-21T15:00Z",
+      "event_key": "antigravity-a1:follow-me-watch-ring-kit:2026-10-20",
+      "product_key": "antigravity.tech:a1",
+      "publishedAt": "2026-10-20T13:00:00Z",
+      "observedAt": "2026-10-23T08:27:36.654865+00:00",
+      "delta_since_last_seen": "No A1 drone/Follow Me event in available eight-week history; Google Antigravity software matches are unrelated. New control kit plus Oct20–21 independent tests."
+    },
+    {
+      "id": "google-docs-live-workspace",
+      "zhHeadline": "Docs Live把先谈提纲再写草稿的手机流程开放给Workspace",
+      "enHeadline": "Docs Live brings its spoken plan-to-draft workflow to Workspace",
+      "eventAt": "2026-10-21",
+      "freshness": "near-three-day",
+      "evidence": "October21 availability plus detailed mobile workflow; no hands-on performance claims.",
+      "eventDateNote": "date; timezone unspecified",
+      "event_key": "google:docs-live:workspace-mobile-availability:2026-10-21",
+      "product_key": "google:docs-live",
+      "publishedAt": "2026-10-21",
+      "observedAt": "2026-10-23T08:19:53.684756+00:00",
+      "delta_since_last_seen": "New Workspace availability after September3 consumer Pro/Ultra launch; not first launch. No matching event in available history."
+    },
+    {
+      "id": "nirva-updated-preorder",
+      "zhHeadline": "Nirva把订购计划移到十一月，自动日记仍需区分记录与解释",
+      "enHeadline": "Nirva moves its order plan to November, while automatic journaling must separate records from interpretations",
+      "eventAt": "2026-10-22",
+      "freshness": "main",
+      "evidence": "startup signal; availability roadmap, not shipped device",
+      "eventDateNote": "event day; source update 13:25 EDT; article says announced today",
+      "event_key": "nirva:november-orders-year-end-delivery-plan:2026-10-22",
+      "product_key": "nirva.life:ai-jewelry",
+      "publishedAt": "2026-10-22T17:25:00Z",
+      "observedAt": "2026-10-23T08:27:36.654865+00:00",
+      "delta_since_last_seen": "No product match in available eight-week issue index. Oct22 price/order/shipping plan differs from Jan5 CES announcement promising February preorders and first-half2026 shipping; no verified delivery."
+    },
+    {
+      "id": "ecovacs-x12-independent-review",
+      "zhHeadline": "X12的拖地收益更明确，房间地图与地毯仍需要人接手",
+      "enHeadline": "X12 shows clearer mopping value, while maps and carpets still need human work",
+      "eventAt": "2026-10-22",
+      "freshness": "near-three-day",
+      "evidence": "review/community friction; single household observation",
+      "eventDateNote": "date only; timezone/time not stated; conservatively near-three-day because start boundary cannot be proven",
+      "event_key": "ecovacs:x12-omnicyclone:sfgate-abby-ferguson-review:2026-10-22",
+      "product_key": "ecovacs:deebot-x12-omnicyclone",
+      "publishedAt": "2026-10-22",
+      "observedAt": "2026-10-23T08:27:36.654865+00:00",
+      "delta_since_last_seen": "No X12 or OmniCyclone match in available eight-week history. New household review, not a launch or feature update."
+    },
+    {
+      "id": "huawei-glasses-sp5",
+      "zhHeadline": "点头付款进入华为眼镜，停车缴费也有了专门入口",
+      "enHeadline": "Huawei glasses add nod-to-pay and a dedicated parking workflow",
+      "eventAt": "2026-10-22",
+      "freshness": "near-three-day",
+      "evidence": "confirmed product / documented controls; rollout date supported by press reporting",
+      "eventDateNote": "day; rollout may have begun October21 according to non-independent aggregator",
+      "event_key": "huawei-ai-glasses:6.0.0.159-sp5:head-payment-parking-video",
+      "product_key": "huawei-ai-glasses",
+      "publishedAt": "2026-10-22T15:03:39+08:00",
+      "observedAt": "2026-10-23T08:15:10.337161+00:00",
+      "delta_since_last_seen": "New firmware adds head-gesture payment, parking QR payment and longer continuous video; not an April hardware relaunch."
+    },
+    {
+      "id": "even-g2-controls-review",
+      "zhHeadline": "G2把提示留在视线内，戒指控制却没有消除输入负担",
+      "enHeadline": "G2 keeps prompts in view, but ring control does not remove the input burden",
+      "eventAt": "2026-10-19",
+      "freshness": "seven-day",
+      "evidence": "review/community friction; reviewers differ, not new device launch",
+      "eventDateNote": "source literal timezone retained; classification unambiguously seven-day",
+      "event_key": "even-g2:engadget-controls-review:2026-10-19",
+      "product_key": "evenrealities:even-g2",
+      "publishedAt": "2026-10-19T07:30:00 EST (source literal)",
+      "observedAt": "2026-10-23T08:27:36.654865+00:00",
+      "delta_since_last_seen": "Prior G2 product/TechCrunch July and TechRadar reviews published through Oct5. New Daniel Cooper Engadget Oct19 review supplies independent ring-gesture friction; Indian Express Oct18 review gives qualified counterexample. Neither source URL appears in available history."
+    },
+    {
+      "id": "eiliko-security-response",
+      "zhHeadline": "Eiliko撤下记忆与自定义头像，功能收缩还不能证明访问已封住",
+      "enHeadline": "Eiliko removes memory and custom avatars, without establishing that access is closed",
+      "eventAt": "2026-10-22T11:00:00Z",
+      "freshness": "main",
+      "evidence": "review/community friction; vendor remediation claim contradicted by reporter observation",
+      "eventDateNote": "exact follow-up report timestamp; underlying vendor changes day-only",
+      "event_key": "eiliko:memory-avatar-removal-security-response:2026-10-22",
+      "product_key": "energizelab:eiliko",
+      "publishedAt": "2026-10-22T11:00:00Z",
+      "observedAt": "2026-10-23T08:27:36.654865+00:00",
+      "delta_since_last_seen": "No Eiliko match in eight-week available history. New Oct22 follow-up reports removed features and unresolved access; Oct15 investigation is background only."
+    },
+    {
+      "id": "stardrift-tokyo-review",
+      "zhHeadline": "Stardrift把东京一周排成地图，第一份行程仍漏掉住宿夜数与周日营业边界",
+      "enHeadline": "Stardrift turns a Tokyo week into a map, but the first draft misses nights and Sunday tradeoffs",
+      "eventAt": "2026-10-21",
+      "freshness": "near-three-day",
+      "evidence": {
+        "label": "review/community friction",
+        "independence": "The author founded MonkeyEatingMango, a competing trip planner, explicitly disclosed in the article. Do not label this independent review. Official Stardrift pages and App Store description are one vendor origin group; Tsukiji official guide independently supports the venue-hours caution.",
+        "testScope": "One signed-in desktop-browser run October19 for a couple in Tokyo November16–22, USD1500 excluding flights; screenshot recapture October20. Not an editorial hands-on test; app version and browser version not stated.",
+        "counterevidence": "Stardrift October6 changelog already advertises weather-based suggestions, so missing weather in one generated plan does not establish product-wide lack of weather features. Reviewer also reports competing own product fails Tsukiji timing and lacks budget warning.",
+        "fixStatus": "No vendor reply or fix to this particular review found in read pages; latest visible public changelog October6; cannot infer no private response.",
+        "storeScope": "Read four unique review bodies displayed in US App Store, some repeated by markup: October4, relative6d, October1, April9; no attempt to date relative6d precisely. 4.8/13 ratings observed; review article’s earlier4.8/12 is a separate snapshot. No adoption inference."
+      },
+      "eventDateNote": "date; review publication October21, underlying run October19 and screenshot recapture October20",
+      "event_key": "stardrift:tokyo-first-plan-review:monkeyeatingmango:2026-10-21",
+      "product_key": "app:6760489765:stardrift",
+      "publishedAt": "2026-10-21",
+      "observedAt": "2026-10-23T08:20:52Z",
+      "delta_since_last_seen": "A newly published October21 competitor-authored hands-on observation of an existing trip planner, not a new product launch. No matches in available published archive or Oct21 decisions."
+    },
+    {
+      "id": "arc-sunset-migration",
+      "zhHeadline": "Arc给浏览工作台设下搬家期限，迁往Dia也带不走全部习惯",
+      "enHeadline": "Arc sets a moving deadline, and Dia cannot carry over every part of the workspace",
+      "eventAt": "2026-10-22",
+      "freshness": "near-three-day",
+      "evidence": {
+        "label": "confirmed product; community friction",
+        "independence": "Arc, Dia and support docs form one vendor group. HN comments are self-reported experiences, not verified migration tests.",
+        "communityScope": "Read HN rendered lines 0–137 (first discussion branches); did not read all 224 comments. Header initially showed 263 points and 224 comments; front archive separately showed 264/225. No per-comment scores visible. Targeted Reddit page was removed by moderator; 11 visible comments read, relative timestamps only, no score visible, excluded from article evidence.",
+        "fixStatus": "Official migration instructions documented; no local import executed and no user-confirmed universal fix inferred."
+      },
+      "eventDateNote": "date; HN thread displayed 15 hours ago at 2026-10-23T08:10Z, placing announcement discussion within main window; conservatively supplemental because exact lower-window placement is unproven",
+      "event_key": "the-browser-company:arc:sunset-announcement-2026-10-22",
+      "product_key": "the-browser-company:arc",
+      "publishedAt": "2026-10-22",
+      "observedAt": "2026-10-23T08:20:52Z",
+      "delta_since_last_seen": "New shutdown schedule and migration/export behavior; not a repeat of the earlier Dia pivot or ending active Arc development. No matching Arc event found in all available published files and Oct21 edition/dispositions."
+    },
+    {
+      "id": "by-your-side-preview",
+      "zhHeadline": "浏览器里的助手可以接着当前页面做事，也让你随时拿回操作",
+      "enHeadline": "By Your Side works in the page you already use, with an explicit way to take over",
+      "eventAt": "2026-10-22",
+      "freshness": "near-three-day",
+      "evidence": "startup signal / developer surface; no independent reliability test",
+      "eventDateNote": "day; author article date does not establish within24h",
+      "event_key": "by-your-side:public-developer-introduction:2026-10-22",
+      "product_key": "github:yishu-ziyu/By-Your-Side",
+      "publishedAt": "2026-10-22",
+      "observedAt": "2026-10-23T08:22:17.573397+00:00",
+      "delta_since_last_seen": "First public author introduction of browser extension; not claiming all current repository changes landed in main24h."
+    },
+    {
+      "id": "mactidy-03",
+      "zhHeadline": "旧Mac文件先按来历归架，拿不准的可以冷藏再放回",
+      "enHeadline": "MacTidy sorts inherited files by origin and lets uncertain items go into reversible storage",
+      "eventAt": "2026-10-20T15:05:00",
+      "freshness": "seven-day",
+      "evidence": "confirmed released open-source utility; developer-described behavior",
+      "eventDateNote": "minute; GitHub display has no explicit timezone; if China time then just outside72h",
+      "event_key": "chrions/MacTidy:v0.3:first-public-release",
+      "product_key": "github:chrions/MacTidy",
+      "publishedAt": "2026-10-20T15:05:00",
+      "observedAt": "2026-10-23T08:18:55.050326+00:00",
+      "delta_since_last_seen": "First public release 0.3, discovered through October22 developer article; no matching product in 41-issue history."
+    },
+    {
+      "id": "minimax-mini-app-introduction",
+      "zhHeadline": "把反复修改的AI成果留在活页面里，地图和模型都能接着做",
+      "enHeadline": "Mini Apps keep evolving AI work in a live page, from route planning to 3D edits",
+      "eventAt": "2026-10-22",
+      "freshness": "near-three-day",
+      "evidence": "confirmed product / developer surface; independently tested performance not established",
+      "eventDateNote": "day only; Mini Apps already documented in October17 changelog",
+      "event_key": "minimax-code-miniapp:public-introduction-runtime-creator-marketplace:2026-10-22",
+      "product_key": "minimax-code-miniapp",
+      "publishedAt": "2026-10-22",
+      "observedAt": "2026-10-23T08:24:50.984808+00:00",
+      "delta_since_last_seen": "October22 public introduction of runtime, creator workflow and official/community apps. Changelog confirms pre-existing Mini App capability by October17; no claim of first availability on22."
+    },
+    {
+      "id": "dongleya-preview",
+      "zhHeadline": "把孩子的问题做成能拖动、能试玩的小作品，亲子一起改规则",
+      "enHeadline": "Turn a child’s question into something to move, play and revise together",
+      "eventAt": "2026-10-19T11:12:00+08:00",
+      "freshness": "seven-day",
+      "evidence": "Original reporter generated a playable Gomoku game; editor did not execute product",
+      "eventDateNote": "minute; first observed report, exact beta opening unknown",
+      "event_key": "tencent-dongleya:limited-preview-reported:2026-10-19",
+      "product_key": "tencent-dongleya",
+      "publishedAt": "2026-10-19T11:12:00+08:00",
+      "observedAt": "2026-10-23T08:30:24.985018+00:00",
+      "delta_since_last_seen": "Previously unreported limited preview documented October19; October21 coverage is follow-up, not a new launch"
+    },
+    {
+      "id": "hyperframes-08186-capture",
+      "zhHeadline": "运动模糊随预览能力导出，整段声音变成可读时间线",
+      "enHeadline": "Motion blur follows preview capability into export, while recordings become readable",
+      "eventAt": "2026-10-22T17:28:33Z",
+      "freshness": "main",
+      "evidence": "developer release and implementation; no local execution or independent performance test",
+      "eventDateNote": "second",
+      "event_key": "hyperframes:release:v0.8.186",
+      "product_key": "heygen-hyperframes-studio",
+      "publishedAt": "2026-10-22T17:28:33Z",
+      "observedAt": "2026-10-23T08:30:25Z",
+      "delta_since_last_seen": "Prior October6 v0.8.137 covered preview memory and audio peak hints. v0.8.186 newly delivers capture motion blur across preview/export, whole-recording read-audio and source-shaped init. Existing visual editing workflow is background."
+    },
+    {
+      "id": "ovis-0413-handoff",
+      "zhHeadline": "Ovis让手机聊天接回真实终端，发出命令后也能看见下一步",
+      "enHeadline": "Ovis reconnects phone chat to the terminal and shows what happened after sending",
+      "eventAt": "2026-10-22T11:59:39Z",
+      "freshness": "main",
+      "evidence": "confirmed release / developer surface; primary docs and MIT license read; no installed execution",
+      "eventDateNote": "second",
+      "event_key": "ovis:release:v0.4.13",
+      "product_key": "github.com/devswha/ovis",
+      "publishedAt": "2026-10-22T11:59:39Z",
+      "observedAt": "2026-10-23T08:20:45.717Z",
+      "delta_since_last_seen": "No Ovis/herdr-web-ui product match in 8-week history or Oct21/22 lists. New version adds terminal overlay routing, observed command states, resume and rewind affordances. Distinct from Collie already covered Oct22."
+    },
+    {
+      "id": "openai-decisions-ga",
+      "zhHeadline": "Decisions把小判断移出长回答，让语音产品更快接上下一步",
+      "enHeadline": "Decisions moves small choices out of long answers to keep voice interactions moving",
+      "eventAt": "2026-10-22",
+      "freshness": "near-three-day",
+      "evidence": "Primary announcement and implementation documentation; no independent runtime test",
+      "eventDateNote": "day; exact announcement clock not provided; conservatively supplemental because exact lower-window placement is unproven",
+      "event_key": "openai-decisions-ga:2026-10-22",
+      "product_key": "openai-decisions-ga",
+      "publishedAt": "2026-10-22",
+      "observedAt": "2026-10-23T08:21:34.624780+00:00",
+      "delta_since_last_seen": "GA and voice/caching delta beyond October 7 public beta"
+    },
+    {
+      "id": "claude-google-anthropic-managed-ga",
+      "zhHeadline": "用Google身份与账单接原生Claude，迁移仍需新组织",
+      "enHeadline": "Google identity and billing reach native Claude through a new organization",
+      "eventAt": "2026-10-22",
+      "freshness": "near-three-day",
+      "evidence": "official release and documented behavior; no execution or independent latency test",
+      "eventDateNote": "day; timezone and hour unspecified",
+      "event_key": "claude-google-anthropic-managed:ga:2026-10-22",
+      "product_key": "anthropic:claude-google-cloud:anthropic-managed",
+      "publishedAt": "2026-10-22",
+      "observedAt": "2026-10-23T08:38:27Z",
+      "delta_since_last_seen": "New Anthropic-operated route GA with Google IAM/Marketplace billing and fast Opus5.5, distinct from Google-managed Vertex route and Oct21 Antigravity provider-choice story. No matching event in supplied8weekindex."
+    },
+    {
+      "id": "adobe-trace-journey-profile",
+      "zhHeadline": "Adobe把单个客户的旅程路径带进聊天，能查分支依据但不能改流程",
+      "enHeadline": "Adobe brings individual journey traces into chat, with branch evidence and read-only limits",
+      "eventAt": "2026-10-22",
+      "freshness": "near-three-day",
+      "evidence": "Availability entry and complete Trace scope read; Coworker interface documentation read for actual entry point and controls. No authenticated product trial.",
+      "eventDateNote": "date",
+      "event_key": "adobe:journey-optimizer:trace-journey-profile:available:2026-10-22",
+      "product_key": "adobe:journey-optimizer:trace-journey-profile",
+      "publishedAt": "2026-10-22",
+      "observedAt": "2026-10-23T08:36:42Z",
+      "delta_since_last_seen": "Trace Journey Profile explicitly available October22; Coworker, Journey Analyze, simulation and creation are separate capabilities with earlier or forthcoming dates."
+    },
+    {
+      "id": "nvidia-minerva-launch",
+      "zhHeadline": "Minerva把慢作业连回硬件异常，聊天排错仍受版本边界约束",
+      "enHeadline": "Minerva links slow jobs to hardware symptoms, with version limits behind the conversational interface",
+      "eventAt": "2026-10-22",
+      "freshness": "near-three-day",
+      "evidence": "Primary announcement and implementation documentation; no independent runtime test",
+      "eventDateNote": "day; exact announcement clock not provided; conservatively supplemental because exact lower-window placement is unproven",
+      "event_key": "nvidia-minerva-launch:2026-10-22",
+      "product_key": "nvidia-minerva-launch",
+      "publishedAt": "2026-10-22",
+      "observedAt": "2026-10-23T08:21:34.624780+00:00",
+      "delta_since_last_seen": "Public launch and partner distribution announcement; earlier documentation retained"
+    },
+    {
+      "id": "google-agent-compute-engine",
+      "zhHeadline": "Google让代理的电脑在等待时休眠，ACE公开预览仍要等数月",
+      "enHeadline": "Google puts waiting agent computers to sleep; ACE preview is still months away",
+      "eventAt": "2026-10-22",
+      "freshness": "near-three-day",
+      "evidence": "Original Oct22 announcement, entire technical deep dive, Sept15 Substrate availability and current repository status read.",
+      "eventDateNote": "date",
+      "event_key": "google-cloud:agent-compute-engine:announcement-governance-expansion:2026-10-22",
+      "product_key": "google-cloud:agent-compute-engine",
+      "publishedAt": "2026-10-22",
+      "observedAt": "2026-10-23",
+      "delta_since_last_seen": "Oct22 ACE announcement and expanded governance; Agent Substrate itself was already announced Sept15 and is background, not a new launch. No exact match in available event index."
+    },
+    {
+      "id": "household-memory-assistant",
+      "zhHeadline": "家庭记忆助手让回答回到哪次谈话，清空聊天并不会删除录音记忆",
+      "enHeadline": "A household memory assistant ties answers to selected conversations",
+      "eventAt": "2026-10-22T08:19:07Z",
+      "freshness": "main",
+      "evidence": "Full three-page manuscript read, including architecture Figure 1, §§2–4; no experimental results reported.",
+      "eventDateNote": "second",
+      "event_key": "2610.30895:v1",
+      "product_key": "arxiv:2610.30895",
+      "publishedAt": "2026-10-22T08:19:07Z",
+      "observedAt": "2026-10-23",
+      "delta_since_last_seen": "New v1 paper; no match in available eight-week history, Oct21/22 records or yesterday projects."
+    },
+    {
+      "id": "abra-agent-bound-ui",
+      "zhHeadline": "ABRA让拖动和改表格带着任务含义，点到的动作仍由所属代理解释",
+      "enHeadline": "ABRA gives reusable canvas actions a published task-specific meaning",
+      "eventAt": "2026-10-22T06:01:39Z",
+      "freshness": "near-three-day",
+      "evidence": "Read §§3–6, Table1, limitations and author GitHub README.",
+      "eventDateNote": "second",
+      "event_key": "2610.30780:v1",
+      "product_key": "arxiv:2610.30780",
+      "publishedAt": "2026-10-22T06:01:39Z",
+      "observedAt": "2026-10-23",
+      "delta_since_last_seen": "Newly discovered v1 submitted two hours before main window; no historical match, not a fresh main-window launch."
+    },
+    {
+      "id": "atlas-agent-trajectories",
+      "zhHeadline": "Atlas把代理没走的路也画出来，让一堆产物重新连回问题",
+      "enHeadline": "Atlas shows the paths an agent set aside alongside the outputs it produced",
+      "eventAt": "2026-10-22T00:15:23Z",
+      "freshness": "near-three-day",
+      "evidence": "Read system §5, within-subject study §6, findings §7, original UI and baseline captions, limitations.",
+      "eventDateNote": "second",
+      "event_key": "2610.30548:v1",
+      "product_key": "arxiv:2610.30548",
+      "publishedAt": "2026-10-22T00:15:23Z",
+      "observedAt": "2026-10-23",
+      "delta_since_last_seen": "Delayed discovery of new v1 submitted before main window; no prior publication match."
+    },
+    {
+      "id": "cowriter-methodical",
+      "zhHeadline": "CoWriter用小步邀请把作者留在写作里，更多对话不一定带来更多负担",
+      "enHeadline": "CoWriter keeps authors involved through shorter, purposeful exchanges",
+      "eventAt": "2026-10-22T13:45:47Z",
+      "freshness": "main",
+      "evidence": "Read system architecture, Table1 workflow, study setup/results, Appendix A screenshot caption and concurrency details.",
+      "eventDateNote": "second",
+      "event_key": "2610.31277:v1",
+      "product_key": "arxiv:2610.31277",
+      "publishedAt": "2026-10-22T13:45:47Z",
+      "observedAt": "2026-10-23",
+      "delta_since_last_seen": "New v1 paper, absent from available prior issues."
+    },
+    {
+      "id": "metacognitive-scaffolds",
+      "zhHeadline": "写作前多填两步提高了简报质量，却也让AI显得更费力",
+      "enHeadline": "Planning controls improved briefs while making the AI feel more demanding",
+      "eventAt": "2026-10-22T08:59:24Z",
+      "freshness": "main",
+      "evidence": "Read interface §3.2, randomized design, primary analysis §4.1, Table2 results and judge-calibration/attrition conditions.",
+      "eventDateNote": "second",
+      "event_key": "2610.30945:v1",
+      "product_key": "arxiv:2610.30945",
+      "publishedAt": "2026-10-22T08:59:24Z",
+      "observedAt": "2026-10-23",
+      "delta_since_last_seen": "New original experiment and interface manuscript; no prior issue match."
+    },
+    {
+      "id": "counterspeech-cowriting",
+      "zhHeadline": "浏览器里的反仇恨共写让用户先表态，三份温和建议未必保留原本语气",
+      "enHeadline": "Counterspeech co-writing preserves a user's input but can flatten their voice",
+      "eventAt": "2026-10-22T14:37:33Z",
+      "freshness": "main",
+      "evidence": "Read §3 interface and retrieval, §4 within-subject design/results, Table1 and Appendix A controls/privacy; original blank UI Figure A.1 identified.",
+      "eventDateNote": "second",
+      "event_key": "2610.31357:v1",
+      "product_key": "arxiv:2610.31357",
+      "publishedAt": "2026-10-22T14:37:33Z",
+      "observedAt": "2026-10-23",
+      "delta_since_last_seen": "New original paper, absent from available history and yesterday."
+    },
+    {
+      "id": "t-dig",
+      "zhHeadline": "T-DIG把“再来几张”变成指定差异，镜头与强度仍不完全听指令",
+      "enHeadline": "T-DIG lets creators name what should vary across an image set",
+      "eventAt": "2026-10-21T00:11:32Z",
+      "freshness": "near-three-day",
+      "evidence": "Full-text framework, Table1, human-evaluation setup and §8 limitations read; original Figure2 identified.",
+      "eventDateNote": "second",
+      "event_key": "2610.29003:v1",
+      "product_key": "arxiv:2610.29003",
+      "publishedAt": "2026-10-21T00:11:32Z",
+      "observedAt": "2026-10-23",
+      "delta_since_last_seen": "Delayed discovery of v1, not previously published in available history."
+    }
+  ],
+  "eventCounts": {
+    "mainWindowEvents": 12,
+    "nearThreeDayReviews": 17,
+    "sevenDayReviews": 3,
+    "interpretation": "Announcements, submissions, updates and regional reports; not first product launches."
+  }
+}

@@ -2230,6 +2230,526 @@
     "sha256": "4781e0b232fbc25e54c43467d144c3f8d58ed86a29d37727a2da547c14b68450"
   },
   {
+    "path": "2026-10-23/assets/1password-for-agents.jpg",
+    "bytes": 131363,
+    "sha256": "848247d8f5ac5b5826433c6612035aa1e3987a77451593ca74ed7876a4d5bbd7"
+  },
+  {
+    "path": "2026-10-23/assets/abra-agent-bound-ui.jpg",
+    "bytes": 201212,
+    "sha256": "a4f4655b76588e2813c36c737ffaaad6b24319b8eccd964c7b497b7213f7f353"
+  },
+  {
+    "path": "2026-10-23/assets/adobe-coworker-response.jpg",
+    "bytes": 48540,
+    "sha256": "8282bcc01df1087a446b6d94aa74915f86f6450c5ad21dff22e4b4c28bbf8d39"
+  },
+  {
+    "path": "2026-10-23/assets/antigravity-a1-follow-me.jpg",
+    "bytes": 89682,
+    "sha256": "4bcd364e76a3c64a964caef501f70a4fddb0093c1dca984e51a478e5b3d3118d"
+  },
+  {
+    "path": "2026-10-23/assets/arc-migration-ui.jpg",
+    "bytes": 141483,
+    "sha256": "cce1378ccec619d6215cac94d42c7705a3a3b0707ed74446c437e1559caf2bb1"
+  },
+  {
+    "path": "2026-10-23/assets/atlas-agent-trajectories.jpg",
+    "bytes": 108246,
+    "sha256": "5f95b7204ae554404722fe2db4c75f2077ce031a74cf83b9a45f298e8f247bfc"
+  },
+  {
+    "path": "2026-10-23/assets/canva-craft.jpg",
+    "bytes": 62637,
+    "sha256": "ba6138dc2b756604aa18df140fdba94cc3d48c08e801fdc88940c6223f142403"
+  },
+  {
+    "path": "2026-10-23/assets/china-by-your-side.jpg",
+    "bytes": 455586,
+    "sha256": "b4aa3b92f35ee16109ce6645fd5f2717f1828cde3c4484c94d7408e4e9769c98"
+  },
+  {
+    "path": "2026-10-23/assets/china-mactidy-overview.png",
+    "bytes": 233542,
+    "sha256": "58d50b7e5bad03934b2322179ec293442732d4ab40b5f167f30bd21772b541dc"
+  },
+  {
+    "path": "2026-10-23/assets/china-minimax-cad.jpg",
+    "bytes": 105446,
+    "sha256": "1626b6694f507f1f3d69287e385d2c2356a83df2a7b9bc3f0ee1ef56e47ab9bf"
+  },
+  {
+    "path": "2026-10-23/assets/claude-google-route.png",
+    "bytes": 179353,
+    "sha256": "ec904fa6cd2137086c1ad90c02899983d0caecef3babce19f972c51c3224a9ed"
+  },
+  {
+    "path": "2026-10-23/assets/counterspeech-cowriting.jpg",
+    "bytes": 52622,
+    "sha256": "4365341db8b0ccf19885d9c2ff6e97b06f3b03822bd60446d933a3e2cc439d05"
+  },
+  {
+    "path": "2026-10-23/assets/cowriter-methodical-figure.jpg",
+    "bytes": 98156,
+    "sha256": "58133d035e296b897eef5ccca991995ac30de90600ab1586bcac941d20196530"
+  },
+  {
+    "path": "2026-10-23/assets/deck.js",
+    "bytes": 2576,
+    "sha256": "63d13c06452d7405e0b5ed572d8464d802c9e5b8de656b5a94e3527b1730f7b3"
+  },
+  {
+    "path": "2026-10-23/assets/dongleya.jpg",
+    "bytes": 101624,
+    "sha256": "55140278f92d7b620cccfdd8dd36e9799c5493ed520b1280673f9ab6701ed78f"
+  },
+  {
+    "path": "2026-10-23/assets/ecovacs-x12-independent-review.jpg",
+    "bytes": 81821,
+    "sha256": "b6953c7444caa26a1ffbe55aebc81a6981310d736bdb97752e850a4eab7ad0a1"
+  },
+  {
+    "path": "2026-10-23/assets/eiliko-large.jpg",
+    "bytes": 138831,
+    "sha256": "519c09a71f880b964278e408b552ab1afdaa82fc87cd589d1675e46c5068da96"
+  },
+  {
+    "path": "2026-10-23/assets/even-g2-official.jpg",
+    "bytes": 69779,
+    "sha256": "34766665f673d8c9deb7ca558ebefb096fb56a803621ba9b87be6a8d67415e41"
+  },
+  {
+    "path": "2026-10-23/assets/google-agent-compute-engine.jpg",
+    "bytes": 109016,
+    "sha256": "3d3f4e539830b9ce9e38c3dd995869af174dd6c7152a2db9d127eabbfabe1f86"
+  },
+  {
+    "path": "2026-10-23/assets/google-docs-live-workspace.jpg",
+    "bytes": 43819,
+    "sha256": "8872d220feb2f45f752683e548b0ca9ec6a6978784e0f97d6e74fac4955af520"
+  },
+  {
+    "path": "2026-10-23/assets/household-memory-figure.jpg",
+    "bytes": 69709,
+    "sha256": "53dd36b15cbdac8fca30a1dbdf783595781cfade4dbd9c67b053d1b3de064c39"
+  },
+  {
+    "path": "2026-10-23/assets/huawei-glasses-sp5.jpg",
+    "bytes": 85807,
+    "sha256": "2e8af39540212d5190c0711bf23c519caf53080fcfc3f85cee90f01304123129"
+  },
+  {
+    "path": "2026-10-23/assets/hyperframes-home-context.png",
+    "bytes": 72561,
+    "sha256": "3ccf4a858625d0410034ab44a17e361bec48f815dc66565fc6eb640fb68fff41"
+  },
+  {
+    "path": "2026-10-23/assets/issue.css",
+    "bytes": 10285,
+    "sha256": "1e458c07ba855726699c2b9885d466a62a85e04604b22dddcca9a2f3d1ca09e9"
+  },
+  {
+    "path": "2026-10-23/assets/metacognitive-scaffolds.jpg",
+    "bytes": 149446,
+    "sha256": "bef6458f56a606ca1adeba43cbdae7f1ff816d83ff5d20ca064b0be2b45261ea"
+  },
+  {
+    "path": "2026-10-23/assets/minerva.jpg",
+    "bytes": 127237,
+    "sha256": "652d25990311343143428d62b8fae53492812c038f071c302f11048c322c84af"
+  },
+  {
+    "path": "2026-10-23/assets/muse-wardrobe-planning.jpg",
+    "bytes": 48684,
+    "sha256": "1da43f1dfbb2c11df2977d1cef45a23f21941ee633bba469fa1b43b598f6080d"
+  },
+  {
+    "path": "2026-10-23/assets/nirva-updated-preorder.jpg",
+    "bytes": 207223,
+    "sha256": "d13b29854a8d7c7cec3cb6d8f326036c0b36fe1a2c89ac8a778c8c3786564c98"
+  },
+  {
+    "path": "2026-10-23/assets/oka-mori-launch.jpg",
+    "bytes": 114982,
+    "sha256": "65526456b4cde9f8ad864d9805c7c4eb8d00f5a1cc55605b8812295dbd6b9fe7"
+  },
+  {
+    "path": "2026-10-23/assets/openai-decisions-flow.png",
+    "bytes": 199546,
+    "sha256": "d3f02e76796a206bd9157dd77393cb24a38322a8d0618004f2109e0046a49239"
+  },
+  {
+    "path": "2026-10-23/assets/openwhispr-tone-style.png",
+    "bytes": 165384,
+    "sha256": "d9b60691cbac39adfb7b8250fbd3d0cc99d1aa03e47e0296e194bdb26e6f8367"
+  },
+  {
+    "path": "2026-10-23/assets/ovis-alerts-frame20.png",
+    "bytes": 195006,
+    "sha256": "d00e9630eeaa009c1ce1a0428e304b8e609ef6c3b66b6ef72c0bd53b446072c1"
+  },
+  {
+    "path": "2026-10-23/assets/stardrift.jpg",
+    "bytes": 216643,
+    "sha256": "de7709f970e179bc564a2356fa4e11e8e740d2a835e8e765b52b2def8381f361"
+  },
+  {
+    "path": "2026-10-23/assets/t-dig.jpg",
+    "bytes": 214896,
+    "sha256": "ea6a22af6228c6d33869d4601f4feba6530934aed09effb2a9786e332bcd17cd"
+  },
+  {
+    "path": "2026-10-23/en/details/1password-for-agents.html",
+    "bytes": 6961,
+    "sha256": "320a13fa395387fc0a560085ae6cbf63023c5ccfb3876cdd1200afe521b19fe5"
+  },
+  {
+    "path": "2026-10-23/en/details/abra-agent-bound-ui.html",
+    "bytes": 5875,
+    "sha256": "7bebc5a212be2a0301d99b02fd993c34f290657e03882557ce772f7901fbc9d7"
+  },
+  {
+    "path": "2026-10-23/en/details/adobe-trace-journey-profile.html",
+    "bytes": 6914,
+    "sha256": "c22980a068d70405a01bd353de7d6a8dd923d851936cedfb560a31aa3aad6728"
+  },
+  {
+    "path": "2026-10-23/en/details/antigravity-a1-follow-me.html",
+    "bytes": 6231,
+    "sha256": "4880972782ed08c990c54cda6b21c4eabfc6f857020610049d15dd258bea1202"
+  },
+  {
+    "path": "2026-10-23/en/details/arc-sunset-migration.html",
+    "bytes": 6783,
+    "sha256": "c25352740f02b534fd17f2dcbf64945cbda22821c72476546749c5881c2682b8"
+  },
+  {
+    "path": "2026-10-23/en/details/atlas-agent-trajectories.html",
+    "bytes": 6023,
+    "sha256": "2e784837cf340481559078989e25c0fedbd51c732639d82791e0b2b930875803"
+  },
+  {
+    "path": "2026-10-23/en/details/by-your-side-preview.html",
+    "bytes": 6188,
+    "sha256": "e8b425c844ae3fd0acbe75bae7685b751f12d48d68e4cd5a2083dc6e0758272d"
+  },
+  {
+    "path": "2026-10-23/en/details/canva-craft.html",
+    "bytes": 5619,
+    "sha256": "746f1de7e67ecb65ddd7baabaa72db2c3bdec9d121061e8867e4b46a1593132b"
+  },
+  {
+    "path": "2026-10-23/en/details/claude-google-anthropic-managed-ga.html",
+    "bytes": 8139,
+    "sha256": "90a1330ba07bac0a43e07d0a174735a22833e669114ef452a668c68d02fd6959"
+  },
+  {
+    "path": "2026-10-23/en/details/counterspeech-cowriting.html",
+    "bytes": 5956,
+    "sha256": "46d0140e4916956cac82b74025d7ab1343397905926cfcd5e2b385c3a143768c"
+  },
+  {
+    "path": "2026-10-23/en/details/cowriter-methodical.html",
+    "bytes": 5940,
+    "sha256": "0f7fd3800a1658ebb74c545615c512d3ded333838a611df47eb7feaa52439d96"
+  },
+  {
+    "path": "2026-10-23/en/details/dongleya-preview.html",
+    "bytes": 5867,
+    "sha256": "a4cea05d60aff46a47dd3065105391d68ef521f5a4faf35b1498ae9de0c18722"
+  },
+  {
+    "path": "2026-10-23/en/details/ecovacs-x12-independent-review.html",
+    "bytes": 5912,
+    "sha256": "a670f39b3a5d8f67e00aa00e6be7c94e085059dc873da00de6b7725a355660e1"
+  },
+  {
+    "path": "2026-10-23/en/details/eiliko-security-response.html",
+    "bytes": 5798,
+    "sha256": "082576e6b16f14b0a73c6622856664617210954de9c613bc1e4b496987bcc7c3"
+  },
+  {
+    "path": "2026-10-23/en/details/even-g2-controls-review.html",
+    "bytes": 5972,
+    "sha256": "1922c801b01dbb103b591d47ba219e0406f0323421c501bf33c0970032314d06"
+  },
+  {
+    "path": "2026-10-23/en/details/google-agent-compute-engine.html",
+    "bytes": 7592,
+    "sha256": "1da9446fa0fa8bd9c7ed96ad297103994d9aa192eedffafc125fa06f6355f113"
+  },
+  {
+    "path": "2026-10-23/en/details/google-docs-live-workspace.html",
+    "bytes": 6003,
+    "sha256": "886a9e8bddf31e58dfc53d3c9b9fff93095e86428ab44e7fcf0513acb68c5661"
+  },
+  {
+    "path": "2026-10-23/en/details/household-memory-assistant.html",
+    "bytes": 5978,
+    "sha256": "df729d44bc11d37e16678e9b30a9d95a78de0428b0c3c5fab3798c518ab18008"
+  },
+  {
+    "path": "2026-10-23/en/details/huawei-glasses-sp5.html",
+    "bytes": 5667,
+    "sha256": "b23ce96ec2e7518ee482806be5d8e2388f4db5b46479e9300eb162666588c572"
+  },
+  {
+    "path": "2026-10-23/en/details/hyperframes-08186-capture.html",
+    "bytes": 7676,
+    "sha256": "b52477314a7f95956323cb3ca1d9960578e7436fbe84451d0ce84ae98a38817a"
+  },
+  {
+    "path": "2026-10-23/en/details/mactidy-03.html",
+    "bytes": 6112,
+    "sha256": "47567b49c90cb0b149b6bf76873a31b0ec3e1e339955c1b56dd9137ced1a9a67"
+  },
+  {
+    "path": "2026-10-23/en/details/metacognitive-scaffolds.html",
+    "bytes": 5884,
+    "sha256": "f37a5be70da4bd3b341ce221dc7479e04c295dd875bd682ab6533b550bdb4005"
+  },
+  {
+    "path": "2026-10-23/en/details/minimax-mini-app-introduction.html",
+    "bytes": 6328,
+    "sha256": "29d462b6132c684d76a2dd13162cdeef23cde8d5a05f6baeab93c8e4d4307e42"
+  },
+  {
+    "path": "2026-10-23/en/details/muse-wardrobe-planning.html",
+    "bytes": 6949,
+    "sha256": "7763671800f18b2ed87337df86e023d8138c5bde5ec7d47bd6e03e0e14a3321a"
+  },
+  {
+    "path": "2026-10-23/en/details/nirva-updated-preorder.html",
+    "bytes": 6080,
+    "sha256": "8ba7d8c9a5be08dc79329213187cbce207fb6c2dc8fc6d0390b79624245ba601"
+  },
+  {
+    "path": "2026-10-23/en/details/nvidia-minerva-launch.html",
+    "bytes": 5883,
+    "sha256": "6e8516b30299a6abf46acc430acba0f4c347f037eedaa29407895de2b64b7f69"
+  },
+  {
+    "path": "2026-10-23/en/details/oka-mori-launch.html",
+    "bytes": 5955,
+    "sha256": "f8407adedc6e4a23dfb79bf8e902d62fd7230ae65bd3506746d0f8701d820e10"
+  },
+  {
+    "path": "2026-10-23/en/details/openai-decisions-ga.html",
+    "bytes": 5817,
+    "sha256": "57e6fc58768bc483c66e70b2742d03931e7aed04e1068ff8a20baecd58c25299"
+  },
+  {
+    "path": "2026-10-23/en/details/openwhispr-1104-tone.html",
+    "bytes": 8096,
+    "sha256": "691e98e900b1710151b6767189b00fd1a7cc89a247f0bffe6131bf0d73d8be51"
+  },
+  {
+    "path": "2026-10-23/en/details/ovis-0413-handoff.html",
+    "bytes": 7573,
+    "sha256": "ddbfca8ed559f91488a7f11658bbe7007c78109f0652aae46f01d7b09553e1a0"
+  },
+  {
+    "path": "2026-10-23/en/details/stardrift-tokyo-review.html",
+    "bytes": 6894,
+    "sha256": "3891d32c7d110f149b508741470daf0f8cc445c2f7092c48c5a07be2e20cce23"
+  },
+  {
+    "path": "2026-10-23/en/details/t-dig.html",
+    "bytes": 5868,
+    "sha256": "b5b5d035547d3237ddbc2e0bfd0ec783dd496cca62aa50f8ecc270e050a0c396"
+  },
+  {
+    "path": "2026-10-23/en/index.html",
+    "bytes": 102314,
+    "sha256": "ebf1629bcc71a6dfb277dc935fc0db0f1655dc7e90f5fa99de7c90af86044a8b"
+  },
+  {
+    "path": "2026-10-23/manifest.json",
+    "bytes": 38008,
+    "sha256": "a1cda91021d7f5d70212c5f7eb9f6974d7f83579af5a92f58f570c44f49afec3"
+  },
+  {
+    "path": "2026-10-23/sources.html",
+    "bytes": 83798,
+    "sha256": "7c08efef7491acfd64b8658b7517ead6bf19b3509cd2e0aaad678570438a8950"
+  },
+  {
+    "path": "2026-10-23/sources.json",
+    "bytes": 33940,
+    "sha256": "0008b6c25cc85549ffd6b8a680585310961901ffb34fb4a2d32b30fed36ce0af"
+  },
+  {
+    "path": "2026-10-23/visuals.json",
+    "bytes": 27035,
+    "sha256": "7e1f330ba6a47f7da4b49541304993a53f173d643aacad465debae1081f10894"
+  },
+  {
+    "path": "2026-10-23/zh/details/1password-for-agents.html",
+    "bytes": 6628,
+    "sha256": "984cf22a66e1113ddbf6332b00ce506d1a262cdf51b7e7d090fa611f66dde682"
+  },
+  {
+    "path": "2026-10-23/zh/details/abra-agent-bound-ui.html",
+    "bytes": 5385,
+    "sha256": "574455fc22e6b687d5407260afef38b34c3cbe809250ab6ecc81a36e85a172e7"
+  },
+  {
+    "path": "2026-10-23/zh/details/adobe-trace-journey-profile.html",
+    "bytes": 6516,
+    "sha256": "54fe4c6e7fc72b2403f5e00ff5a43f9ffb01864e9d8c2e2b2c672ff7f382e530"
+  },
+  {
+    "path": "2026-10-23/zh/details/antigravity-a1-follow-me.html",
+    "bytes": 5646,
+    "sha256": "247b4564bae042596cd71d1469e240eacb6fd6002321fc16b1d947d8041ac582"
+  },
+  {
+    "path": "2026-10-23/zh/details/arc-sunset-migration.html",
+    "bytes": 6533,
+    "sha256": "8e44ec3eed954f2021542f9b690f4c185fbec3955e22e3f98f736f641a258b54"
+  },
+  {
+    "path": "2026-10-23/zh/details/atlas-agent-trajectories.html",
+    "bytes": 5252,
+    "sha256": "c71c006ba253899b0f10c09249dc219e2488d1f2442e8ea7795a9113168fc13c"
+  },
+  {
+    "path": "2026-10-23/zh/details/by-your-side-preview.html",
+    "bytes": 5807,
+    "sha256": "b4d5ed4afd26b802de289dfe8fa0208fa1f95c5e5b191de7fcf300ee0f47e812"
+  },
+  {
+    "path": "2026-10-23/zh/details/canva-craft.html",
+    "bytes": 5616,
+    "sha256": "37bab866e14f8d00141a193ff5f0a4f5d15400983bc5788f3e32dc2edc6e5e04"
+  },
+  {
+    "path": "2026-10-23/zh/details/claude-google-anthropic-managed-ga.html",
+    "bytes": 8107,
+    "sha256": "a7740875936650128e2d94aff107b84a894f87dbfe8a7083552d379abfb7ecc1"
+  },
+  {
+    "path": "2026-10-23/zh/details/counterspeech-cowriting.html",
+    "bytes": 5242,
+    "sha256": "0398f1abb0057a5d4294845bf5bf0bb88e21c0b68ed839079f230ba48f4873b3"
+  },
+  {
+    "path": "2026-10-23/zh/details/cowriter-methodical.html",
+    "bytes": 5387,
+    "sha256": "17ea4ff8c62f4594c7755c020584c68d6f00a816014739fd749811510a51da22"
+  },
+  {
+    "path": "2026-10-23/zh/details/dongleya-preview.html",
+    "bytes": 5624,
+    "sha256": "52d56cb6b57462ae8171a1e97d5292abaf8120180c6d8e0546adb4d86f46d2c9"
+  },
+  {
+    "path": "2026-10-23/zh/details/ecovacs-x12-independent-review.html",
+    "bytes": 5430,
+    "sha256": "59795778d5db0354f26d219953b3420cb20602785f99b3ed243b6c31e0cd5e0c"
+  },
+  {
+    "path": "2026-10-23/zh/details/eiliko-security-response.html",
+    "bytes": 5408,
+    "sha256": "daa81a400d66fd2c20ff3615fa389d892339d81b58966ea726a6523a2c27a126"
+  },
+  {
+    "path": "2026-10-23/zh/details/even-g2-controls-review.html",
+    "bytes": 5566,
+    "sha256": "f2470dc17a0223e127504accfa89ef6df5f1a23394cb93cae8d71845e0bb6ac4"
+  },
+  {
+    "path": "2026-10-23/zh/details/google-agent-compute-engine.html",
+    "bytes": 6954,
+    "sha256": "eb752479bc685c2dd4148b462a76715a3a4837dea5fc511edcde4c6c74160385"
+  },
+  {
+    "path": "2026-10-23/zh/details/google-docs-live-workspace.html",
+    "bytes": 5924,
+    "sha256": "e142971042e4f4ab48e03dd8db21729ff6b88128b73e0f9dda95a3649b5875c9"
+  },
+  {
+    "path": "2026-10-23/zh/details/household-memory-assistant.html",
+    "bytes": 5170,
+    "sha256": "f7b8a485ce92d193b767abf090608c90d997e4d64ebf618c889438eb70fb174c"
+  },
+  {
+    "path": "2026-10-23/zh/details/huawei-glasses-sp5.html",
+    "bytes": 5235,
+    "sha256": "36a0e9d027923a5f4d65d9bfc7249b29e6dfd2cf077057cc95f35521777f19b6"
+  },
+  {
+    "path": "2026-10-23/zh/details/hyperframes-08186-capture.html",
+    "bytes": 7174,
+    "sha256": "5026ba4975e05b8303417d80daed585b67f74d7f3b3897ba6fd0888244c8df16"
+  },
+  {
+    "path": "2026-10-23/zh/details/mactidy-03.html",
+    "bytes": 5696,
+    "sha256": "8629f72b8b2754c4b52aacb6a1ad2eca4b645de992a071e41fb013ad3b51394a"
+  },
+  {
+    "path": "2026-10-23/zh/details/metacognitive-scaffolds.html",
+    "bytes": 5189,
+    "sha256": "545be371bb1fb1f022c517ebe5733df307a68ead07fc1b3aadceb91480710dce"
+  },
+  {
+    "path": "2026-10-23/zh/details/minimax-mini-app-introduction.html",
+    "bytes": 6077,
+    "sha256": "625a4b4afe00dc6a8e4bce1d60c029dab39c29d4595b2c6298164b912a08f9a5"
+  },
+  {
+    "path": "2026-10-23/zh/details/muse-wardrobe-planning.html",
+    "bytes": 6514,
+    "sha256": "fab0bb0b897ad9aef01c8c7a615b8012932969b4d0d9f99482a9306c1918dd3b"
+  },
+  {
+    "path": "2026-10-23/zh/details/nirva-updated-preorder.html",
+    "bytes": 5573,
+    "sha256": "bc198c35ca5e102edc9c08431e9df290ddcac10c05a9ac5ab2f300b9744b70f6"
+  },
+  {
+    "path": "2026-10-23/zh/details/nvidia-minerva-launch.html",
+    "bytes": 5245,
+    "sha256": "a82bd6d4ca08408d6af31269ba775c709fb0fb1137b924ac12a44b334579e50e"
+  },
+  {
+    "path": "2026-10-23/zh/details/oka-mori-launch.html",
+    "bytes": 5408,
+    "sha256": "dc6e774fd275dac42f54346a2a7153e7f0099d2ae23037d0fbf3f754bf2845af"
+  },
+  {
+    "path": "2026-10-23/zh/details/openai-decisions-ga.html",
+    "bytes": 5364,
+    "sha256": "ad73af5aab0b807d478dfa3f1c4e1df0107e76a30ef600f9ad74be017602b964"
+  },
+  {
+    "path": "2026-10-23/zh/details/openwhispr-1104-tone.html",
+    "bytes": 7447,
+    "sha256": "acb4dcf2173f54c9bbf6513f8205fc7edb9fc4aacef22753e8f1ae3504422edc"
+  },
+  {
+    "path": "2026-10-23/zh/details/ovis-0413-handoff.html",
+    "bytes": 7178,
+    "sha256": "731b773140adf841fc6c12616b4e51852760eaef58bd4fdd32824555314b4949"
+  },
+  {
+    "path": "2026-10-23/zh/details/stardrift-tokyo-review.html",
+    "bytes": 6839,
+    "sha256": "3365f44507aa3272815b88f9b2db5f88d74293514a7aa23e52e544aa515ffe47"
+  },
+  {
+    "path": "2026-10-23/zh/details/t-dig.html",
+    "bytes": 5203,
+    "sha256": "ceab3bebfc6333a4a49452a87a54296ab5f682da80316240c1c7260a1b5f1139"
+  },
+  {
+    "path": "2026-10-23/zh/index.html",
+    "bytes": 96508,
+    "sha256": "0f4b7142fff174c89b33fe2295e08a2b696c19ed6caa22f6f2745459219323be"
+  },
+  {
     "path": "assets/acti-agentic-keyboard-2026-07-03.svg",
     "bytes": 2825,
     "sha256": "84ad9abb0a1191abde62dea383e6e1ed583fc089073d3ccaf91629044501721b"
@@ -2641,18 +3161,18 @@
   },
   {
     "path": "en/index.html",
-    "bytes": 157455,
-    "sha256": "181e1edbcf6ea8a6a3741abefdeee05a7f238e66dfad5e2e301269f9ef976db3"
+    "bytes": 158599,
+    "sha256": "84588a9540a052632c8f53a844e14d2c7b1e97be9c8a237c861a2ea788d408b2"
   },
   {
     "path": "index.html",
-    "bytes": 151735,
-    "sha256": "0e5478e4a55dff8dee004da26b918031daf7403c9ac116687cb9771b075d330b"
+    "bytes": 152856,
+    "sha256": "2b34d79b20e536fa2acc2b240fff65191d1e674d58031b59a97daf39309f10e9"
   },
   {
     "path": "manifest.json",
-    "bytes": 729993,
-    "sha256": "e36bb90fa0f9b478706fdeb0680f8f7ba711394529dd9ca92836b589a58cf238"
+    "bytes": 731219,
+    "sha256": "7e06ab860553a674c570fa40f1b3d47d90b9d946daaf62b457d6272121695f7a"
   },
   {
     "path": "weekly/2026-10-12/pilot/en/index.html",
