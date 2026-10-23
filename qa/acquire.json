@@ -1,63 +1,112 @@
 [
   {
     "kind": "image",
-    "name": "1password-for-agents.jpg",
-    "url": "https://images.ctfassets.net/2h488pz7kgfv/6X8SUivu9kRlWKdNot5dss/6033fb2b13ee9f5fc278e091a7782b08/02-2x.webp",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "huawei-glasses-sp5.jpg",
-    "url": "https://consumer-tkbdownload.huawei.com/ctkbfm/servlet/download/downloadServlet/H4sIAAAAAAAA_z2QzW7CMBCE38Vnivyzjtc94SRG9FL1QM_IiU2wBAaFhKpUffc6UdS9jfbTzGh-yHgP_f77FsgrYWRF_PUrLVJkeYzn8O4uk3yeXtp0iBfXhQOdj2lEWiCVYn1L3UJ_uOGUac1V0aDiEIoGPBcuNCgFSu5bCHBsM93E55vP6M5sZm9WUNQaVH61fXBDvKZ9nKLzQ4OgQFkOXZF77JIbxn4qBVpIoxXYErWiSvCKg5S2qpWxTKCh2xosrVjJ0RojWWmRs9Jkry2tVI056-HO0X_-rzD0Y5i7LSvsDPn9A12DwV0mAQAA.png",
+    "name": "canva-craft.jpg",
+    "url": "https://content-management-files.canva.com/b3104183-665b-47ad-8d4e-81bbe27d485d/9.png",
     "renderImage": true,
     "locale": "zh"
   },
   {
     "kind": "image",
-    "name": "oka-mori-launch.jpg",
-    "url": "https://oka-oss.onekindartifact.com/website/home/06a048eb-e140-484d-9fc7-77cf1bb82cdd.webp",
+    "name": "muse-wardrobe-planning.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b2/97/13/b29713f1-fa23-e5ad-e08b-96a0368be490/EN-04__U00b7_Outfit_canvas.png/600x1300bb.webp",
     "renderImage": true,
     "locale": "en"
   },
   {
     "kind": "image",
-    "name": "minerva.jpg",
-    "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/networking/products/software/minerva/_jcr_content/root/responsivegrid/section_use_cases/nv_tabs/item_2/nv_image.coreimg.jpeg/1791812470571/minerva-usecase-debugging-ari-1920x1080.jpeg",
+    "name": "ecovacs-x12-independent-review.jpg",
+    "url": "https://site-static.ecovacs.com/upload/image/product/2026/03/23/035142_3240%24X12%E6%97%8B%E9%A3%8E%E5%B0%98%E6%A1%B6%E5%9F%BA%E7%AB%991.jpg?x-oss-process=image%2Fformat%2Cwebp",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "name": "nirva-updated-preorder.jpg",
+    "url": "https://images.siliconangle.com/blogs.dir/1/files/2026/10/Collection_Swappable-core-accessories-scaled.jpg",
     "renderImage": true,
     "locale": "en"
   },
   {
     "kind": "image",
-    "name": "dongleya.jpg",
-    "url": "https://gbres.dfcfw.com/Files/iimage/20261019/74E84B1707C337474DD9AE8E07D88B7D_w1080h615.png",
+    "name": "antigravity-a1-follow-me.jpg",
+    "url": "https://static.antigravity.tech/assets/b37e563d66a20f839eff468a66dbc962/FollowMe_Small.png",
     "renderImage": true,
     "locale": "zh"
   },
   {
     "kind": "image",
-    "name": "eiliko.jpg",
-    "url": "https://file.energizelab.com.cn/web_file/xunruicms/webp/header/header-left-eilikoSeries.webp",
+    "name": "google-agent-compute-engine.jpg",
+    "url": "https://storage.googleapis.com/gweb-cloudblog-publish/images/image1_iio6keS.max-1500x1500.png",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "name": "atlas-agent-trajectories.jpg",
+    "url": "https://arxiv.org/html/2610.30548v1/figures/teaser.png",
     "renderImage": true,
     "locale": "zh"
   },
   {
     "kind": "image",
-    "name": "stardrift.jpg",
-    "url": "https://monkeyeatingmango.com/blog-images/stardrift-review-first-plan.jpg",
+    "name": "abra-agent-bound-ui.jpg",
+    "url": "https://arxiv.org/html/2610.30780v1/fig/system.png",
     "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "name": "counterspeech-cowriting.jpg",
+    "url": "https://arxiv.org/html/2610.31357v1/figures/UI_generator_page.png",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "name": "metacognitive-scaffolds.jpg",
+    "url": "https://arxiv.org/html/2610.30945v1/figure_teaser.png",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "name": "t-dig.jpg",
+    "url": "https://arxiv.org/html/2610.29003v1/framework.png",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "name": "yelp-fall-consumer-actions.jpg",
+    "url": "https://mms.businesswire.com/media/20261020237779/en/2939415/5/1704_ProductRelease_Fall2026_Sound_1920x1080.jpg",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "name": "google-docs-live-workspace.jpg",
+    "url": "https://s.yimg.com/ny/api/res/1.2/iRSCrEJxTHifBHFk.BjO.g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTU0MA--/https%3A/d29szjachogqwa.cloudfront.net/images/user-uploaded/google-i-o-26-keynote-1-14-31-screenshot_5157.png",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "kind": "page",
+    "name": "deepcell-demo.jpg",
+    "url": "https://deepcell.net/demo",
     "locale": "en"
   },
   {
     "kind": "inventory",
-    "name": "arc-inventory.json",
-    "url": "https://arc.net/",
+    "name": "grok-bot-inventory.json",
+    "url": "https://x.ai/bot",
     "locale": "zh"
   },
   {
-    "kind": "inventory",
-    "name": "decisions-inventory.json",
-    "url": "https://openai.com/index/decisions-api/",
+    "kind": "image",
+    "name": "adobe-coworker-response.jpg",
+    "url": "https://experienceleague.adobe.com/en/docs/coworker/content/chat/media_111d4bc8c7be7904bbbbbdbb541141b421d2d3b00.png?format=png&optimize=medium&width=750",
+    "renderImage": true,
     "locale": "en"
   }
 ]
