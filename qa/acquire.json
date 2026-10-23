@@ -1,9 +1,63 @@
 [
   {
-    "kind": "page",
-    "name": "devin-review-frame.jpg",
-    "url": "https://mintcdn.com/cognitionai/cC6Vq_-N6VKy9Mp3/images/work-with-devin/devin-review.mp4#t=30",
-    "selector": "video",
+    "kind": "image",
+    "name": "1password-for-agents.jpg",
+    "url": "https://images.ctfassets.net/2h488pz7kgfv/6X8SUivu9kRlWKdNot5dss/6033fb2b13ee9f5fc278e091a7782b08/02-2x.webp",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "name": "huawei-glasses-sp5.jpg",
+    "url": "https://consumer-tkbdownload.huawei.com/ctkbfm/servlet/download/downloadServlet/H4sIAAAAAAAA_z2QzW7CMBCE38Vnivyzjtc94SRG9FL1QM_IiU2wBAaFhKpUffc6UdS9jfbTzGh-yHgP_f77FsgrYWRF_PUrLVJkeYzn8O4uk3yeXtp0iBfXhQOdj2lEWiCVYn1L3UJ_uOGUac1V0aDiEIoGPBcuNCgFSu5bCHBsM93E55vP6M5sZm9WUNQaVH61fXBDvKZ9nKLzQ4OgQFkOXZF77JIbxn4qBVpIoxXYErWiSvCKg5S2qpWxTKCh2xosrVjJ0RojWWmRs9Jkry2tVI056-HO0X_-rzD0Y5i7LSvsDPn9A12DwV0mAQAA.png",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "name": "oka-mori-launch.jpg",
+    "url": "https://oka-oss.onekindartifact.com/website/home/06a048eb-e140-484d-9fc7-77cf1bb82cdd.webp",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "name": "minerva.jpg",
+    "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/networking/products/software/minerva/_jcr_content/root/responsivegrid/section_use_cases/nv_tabs/item_2/nv_image.coreimg.jpeg/1791812470571/minerva-usecase-debugging-ari-1920x1080.jpeg",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "name": "dongleya.jpg",
+    "url": "https://gbres.dfcfw.com/Files/iimage/20261019/74E84B1707C337474DD9AE8E07D88B7D_w1080h615.png",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "name": "eiliko.jpg",
+    "url": "https://file.energizelab.com.cn/web_file/xunruicms/webp/header/header-left-eilikoSeries.webp",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "name": "stardrift.jpg",
+    "url": "https://monkeyeatingmango.com/blog-images/stardrift-review-first-plan.jpg",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "kind": "inventory",
+    "name": "arc-inventory.json",
+    "url": "https://arc.net/",
+    "locale": "zh"
+  },
+  {
+    "kind": "inventory",
+    "name": "decisions-inventory.json",
+    "url": "https://openai.com/index/decisions-api/",
     "locale": "en"
   }
 ]
