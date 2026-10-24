@@ -1,9 +1,34 @@
 [
   {
+    "kind": "inventory",
+    "name": "teams-video-inventory.json",
+    "url": "https://github.com/orgs/community/discussions/211133",
+    "locale": "zh"
+  },
+  {
     "kind": "page",
-    "name": "decider-docs-source.jpg",
-    "url": "https://docs.perplexity.ai/docs/decisions/decider-for-mac",
-    "selector": "img[alt^=\"Set up Decider window\"]",
+    "name": "teams-video-source.jpg",
+    "url": "https://github.com/orgs/community/discussions/211133",
+    "selector": "video",
+    "locale": "zh"
+  },
+  {
+    "kind": "page",
+    "name": "resend-inboxes-source.jpg",
+    "url": "https://resend.com/products/inboxes",
     "locale": "en"
+  },
+  {
+    "kind": "inventory",
+    "name": "resend-inboxes-inventory.json",
+    "url": "https://resend.com/products/inboxes",
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "name": "openhands-source.jpg",
+    "url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/.screenshots/progress-event-fix.png",
+    "locale": "en",
+    "renderImage": true
   }
 ]
