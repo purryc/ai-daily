@@ -1,24 +1,9 @@
 [
   {
-    "kind": "image",
-    "name": "flexpart-source.jpg",
-    "url": "https://arxiv.org/html/2610.31671v1/more_results.png",
-    "locale": "en",
-    "renderImage": true
-  },
-  {
-    "kind": "image",
-    "name": "decider-demo-source.jpg",
-    "url": "https://us1.discourse-cdn.com/flex001/uploads/sonar1/original/2X/b/b713c4a0d951aafab659b7b77cf35200e9e825dc.gif",
-    "locale": "en",
-    "renderImage": true,
-    "captureDelayMs": 3000
-  },
-  {
-    "kind": "image",
-    "name": "iflytek-store-source.jpg",
-    "url": "https://file.market.xiaomi.com/thumbnail/jpeg/l395/AppStore/09a38cd30b2eb482ebaa8b58433dd5767acf99195",
-    "locale": "zh",
-    "renderImage": true
+    "kind": "page",
+    "name": "decider-docs-source.jpg",
+    "url": "https://docs.perplexity.ai/docs/decisions/decider-for-mac",
+    "selector": "img[alt^=\"Set up Decider window\"]",
+    "locale": "en"
   }
 ]
