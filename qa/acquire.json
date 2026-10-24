@@ -1,71 +1,24 @@
 [
   {
     "kind": "image",
-    "name": "xgimi-g1-source.jpg",
-    "url": "https://img.ithome.com/newsuploadfiles/2026/10/5726c833-bf0c-4ae6-8ba9-c256efa166ed.png?x-bce-process=image/quality,q_75/format,f_webp",
-    "locale": "zh",
-    "renderImage": true
-  },
-  {
-    "kind": "image",
-    "name": "xgimi-l1-source.jpg",
-    "url": "https://img.ithome.com/newsuploadfiles/2026/10/55a4b9c6-af57-4c92-b428-f82a61c156e3.png",
-    "locale": "zh",
-    "renderImage": true
-  },
-  {
-    "kind": "image",
-    "name": "alloop-cube-source.jpg",
-    "url": "https://framerusercontent.com/images/5LT4CXtfjrJDXcU4hlpeXw4tQ.webp",
-    "locale": "zh",
-    "renderImage": true
-  },
-  {
-    "kind": "image",
-    "name": "alloop-app-source.jpg",
-    "url": "https://framerusercontent.com/images/krmXpFEfmuEua8RBSrbUzzu22aw.webp",
-    "locale": "zh",
-    "renderImage": true
-  },
-  {
-    "kind": "image",
-    "name": "alloop-photo-source.jpg",
-    "url": "https://www.techlicious.com/images/health/alloop-trio-components-1600px.jpg",
-    "locale": "zh",
-    "renderImage": true
-  },
-  {
-    "kind": "image",
-    "name": "brickwright-source.jpg",
-    "url": "https://arxiv.org/html/2610.31651v1/teaser.png",
+    "name": "flexpart-source.jpg",
+    "url": "https://arxiv.org/html/2610.31671v1/more_results.png",
     "locale": "en",
     "renderImage": true
   },
   {
     "kind": "image",
-    "name": "anygame-source.jpg",
-    "url": "https://arxiv.org/html/2610.31466v1/teaser_v2.png",
+    "name": "decider-demo-source.jpg",
+    "url": "https://us1.discourse-cdn.com/flex001/uploads/sonar1/original/2X/b/b713c4a0d951aafab659b7b77cf35200e9e825dc.gif",
     "locale": "en",
-    "renderImage": true
+    "renderImage": true,
+    "captureDelayMs": 3000
   },
   {
     "kind": "image",
-    "name": "plango-overview-source.jpg",
-    "url": "https://installplango.com/public/art/shots/overview.webp?v=1",
-    "locale": "en",
+    "name": "iflytek-store-source.jpg",
+    "url": "https://file.market.xiaomi.com/thumbnail/jpeg/l395/AppStore/09a38cd30b2eb482ebaa8b58433dd5767acf99195",
+    "locale": "zh",
     "renderImage": true
-  },
-  {
-    "kind": "image",
-    "name": "huabu-drag-source.jpg",
-    "url": "https://microsoft.github.io/Huabu/docs/work-in-a-space/chat-to-space.svg",
-    "locale": "en",
-    "renderImage": true
-  },
-  {
-    "kind": "page",
-    "name": "monish-page-source.jpg",
-    "url": "https://monish.cc/",
-    "locale": "en"
   }
 ]
