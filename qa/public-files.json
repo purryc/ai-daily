@@ -2956,8 +2956,8 @@
   },
   {
     "path": "2026-10-24/en/details/meta-adventurer-plugin-sale.html",
-    "bytes": 5616,
-    "sha256": "10d162dacbb1385a7a7f6263c58f6362be2979f11a62cde023eb2e8f174323e9"
+    "bytes": 5618,
+    "sha256": "7517e819edaeaaec8f27260de0a47dab9b4e06d33480181d161fc37de6534794"
   },
   {
     "path": "2026-10-24/en/details/monish-lockscreen.html",
@@ -3011,18 +3011,18 @@
   },
   {
     "path": "2026-10-24/en/index.html",
-    "bytes": 80239,
-    "sha256": "9220d4ec112ef0fa8fc3b6a85cd79ca8eca0c7761715b7455ff708ee7bc6c486"
+    "bytes": 80241,
+    "sha256": "dd2b2d914db9623005dadc9659d5528fb1f8ffcd372a78b2f1dcbf9f357ce337"
   },
   {
     "path": "2026-10-24/manifest.json",
     "bytes": 27319,
-    "sha256": "b418908865b64d30d3ec7cf1e1784544aaf8050590eebb679434cb67ab3cac7e"
+    "sha256": "10baabd22b830fa2bbb077ba3616fb9b84dc76dd911e0b72f49e6083201407f5"
   },
   {
     "path": "2026-10-24/sources.html",
-    "bytes": 57644,
-    "sha256": "136bf39519584770bb86170ed4e1af084ca3e1a88dce3558b9acc2f25319693d"
+    "bytes": 57646,
+    "sha256": "8f7acd2b527095037064dff3fa62bf3b063766f9943466c23b612b2bc6eae60d"
   },
   {
     "path": "2026-10-24/sources.json",
@@ -3031,8 +3031,8 @@
   },
   {
     "path": "2026-10-24/visuals.json",
-    "bytes": 18951,
-    "sha256": "f381d70f3b25a668f8dfa5f1f0842445b23a1c338bba7ac2b6b8b9a79b3c7518"
+    "bytes": 18952,
+    "sha256": "8418394466d29496532b16b11167b9a3879e92a961852ec57527d7e63efe767d"
   },
   {
     "path": "2026-10-24/zh/details/alloop-trio-modular.html",
