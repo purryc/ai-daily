@@ -1,90 +1,71 @@
 [
   {
-    "kind": "inventory",
-    "name": "monish-store-inventory.json",
-    "url": "https://apps.apple.com/us/app/monish-ai-agent-notifications/id6822071271",
+    "kind": "image",
+    "name": "xgimi-g1-source.jpg",
+    "url": "https://img.ithome.com/newsuploadfiles/2026/10/5726c833-bf0c-4ae6-8ba9-c256efa166ed.png?x-bce-process=image/quality,q_75/format,f_webp",
+    "locale": "zh",
+    "renderImage": true
+  },
+  {
+    "kind": "image",
+    "name": "xgimi-l1-source.jpg",
+    "url": "https://img.ithome.com/newsuploadfiles/2026/10/55a4b9c6-af57-4c92-b428-f82a61c156e3.png",
+    "locale": "zh",
+    "renderImage": true
+  },
+  {
+    "kind": "image",
+    "name": "alloop-cube-source.jpg",
+    "url": "https://framerusercontent.com/images/5LT4CXtfjrJDXcU4hlpeXw4tQ.webp",
+    "locale": "zh",
+    "renderImage": true
+  },
+  {
+    "kind": "image",
+    "name": "alloop-app-source.jpg",
+    "url": "https://framerusercontent.com/images/krmXpFEfmuEua8RBSrbUzzu22aw.webp",
+    "locale": "zh",
+    "renderImage": true
+  },
+  {
+    "kind": "image",
+    "name": "alloop-photo-source.jpg",
+    "url": "https://www.techlicious.com/images/health/alloop-trio-components-1600px.jpg",
+    "locale": "zh",
+    "renderImage": true
+  },
+  {
+    "kind": "image",
+    "name": "brickwright-source.jpg",
+    "url": "https://arxiv.org/html/2610.31651v1/teaser.png",
+    "locale": "en",
+    "renderImage": true
+  },
+  {
+    "kind": "image",
+    "name": "anygame-source.jpg",
+    "url": "https://arxiv.org/html/2610.31466v1/teaser_v2.png",
+    "locale": "en",
+    "renderImage": true
+  },
+  {
+    "kind": "image",
+    "name": "plango-overview-source.jpg",
+    "url": "https://installplango.com/public/art/shots/overview.webp?v=1",
+    "locale": "en",
+    "renderImage": true
+  },
+  {
+    "kind": "image",
+    "name": "huabu-drag-source.jpg",
+    "url": "https://microsoft.github.io/Huabu/docs/work-in-a-space/chat-to-space.svg",
+    "locale": "en",
+    "renderImage": true
+  },
+  {
+    "kind": "page",
+    "name": "monish-page-source.jpg",
+    "url": "https://monish.cc/",
     "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "instant-ph-source.jpg",
-    "url": "https://ph-files.imgix.net/e015ee6c-e30d-4d16-8af2-725ba16c788b.jpeg?auto=compress%2Cformat&fit=max&w=1600",
-    "locale": "en",
-    "renderImage": true
-  },
-  {
-    "kind": "image",
-    "name": "movo-ph-source.jpg",
-    "url": "https://ph-files.imgix.net/524aafcb-3fe5-4ad7-a78b-2c1d9030d5c5.png?auto=compress%2Cformat&fit=max&w=1600",
-    "locale": "en",
-    "renderImage": true
-  },
-  {
-    "kind": "image",
-    "name": "plango-source.jpg",
-    "url": "https://installplango.com/public/art/feature/ai-agents-lg.png?v=5",
-    "locale": "en",
-    "renderImage": true
-  },
-  {
-    "kind": "image",
-    "name": "cowork-source.jpg",
-    "url": "https://assets.claude.com/e0035a095d8888c9739f8acb305f517b25d469eb.jpg",
-    "locale": "en",
-    "renderImage": true
-  },
-  {
-    "kind": "image",
-    "name": "pointerbench-source.jpg",
-    "url": "https://arxiv.org/html/2610.31274v1/teaserfinal.png",
-    "locale": "en",
-    "renderImage": true
-  },
-  {
-    "kind": "image",
-    "name": "qrevo-threshold-source.jpg",
-    "url": "https://vacuumwars.com/wp-content/uploads/2026/10/Roborock-Qrevo-Edge-3-Pro-Review-threshold-climbing-test.jpg",
-    "locale": "zh",
-    "renderImage": true
-  },
-  {
-    "kind": "image",
-    "name": "meta-gray-source.jpg",
-    "url": "https://lookaside.fbsbx.com/elementpath/media/?media_id=1060719926524915&resize_height=1600&resize_width=1600&transcode_extension=webp&version=1792444211",
-    "locale": "zh",
-    "renderImage": true
-  },
-  {
-    "kind": "image",
-    "name": "gununu-mechanism-source.jpg",
-    "url": "https://i-blog.csdnimg.cn/img_convert/3224b801bc2ba34deb949752c250e4b4.png",
-    "locale": "zh",
-    "renderImage": true
-  },
-  {
-    "kind": "image",
-    "name": "gununu-contflow-source.jpg",
-    "url": "https://i-blog.csdnimg.cn/img_convert/8f605238a08ff87f2e8bb8f4a045bbda.jpeg",
-    "locale": "zh",
-    "renderImage": true
-  },
-  {
-    "kind": "image",
-    "name": "iflytek-demo-source.jpg",
-    "url": "https://n.sinaimg.cn/spider20261023/372/w750h422/20261023/c499-d80e94fd8a1e78ecaf464c9b08648645.jpg",
-    "locale": "zh",
-    "renderImage": true
-  },
-  {
-    "kind": "inventory",
-    "name": "xgimi-g1-inventory.json",
-    "url": "https://www.ithome.com/1/016/723.htm",
-    "locale": "zh"
-  },
-  {
-    "kind": "inventory",
-    "name": "xgimi-l1-inventory.json",
-    "url": "https://www.ithome.com/1/016/753.htm",
-    "locale": "zh"
   }
 ]
