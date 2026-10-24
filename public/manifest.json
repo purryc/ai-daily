@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-10-24",
+    "zhTitle": "AI Daily｜2026年10月24日 · 随身感测、锁屏决定与可编辑创作",
+    "enTitle": "AI Daily | October 24, 2026 · Wearable sensing, lock-screen decisions and editable creation",
+    "zhSummary": "Alloop模块化健康穿戴、Monish锁屏任务、Instant本地搜索；Birdbuddy与扫地机器人评测，再看积木、三维部件和游戏画面研究。",
+    "enSummary": "Alloop’s modular wearable, Monish lock-screen tasks and Instant local search; Birdbuddy, a robot-vacuum review, and research on bricks, 3D parts and game footage.",
+    "tags": [
+      "consumer AI",
+      "creative tools",
+      "physical interaction",
+      "research"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "research"
+    ],
+    "coverStory": {
+      "topicId": "alloop-trio-modular",
+      "zhTitle": "Alloop Trio",
+      "enTitle": "Alloop Trio",
+      "imagePath": "assets/alloop-cube-source.jpg",
+      "imageSourceUrl": "https://framerusercontent.com/images/5LT4CXtfjrJDXcU4hlpeXw4tQ.webp",
+      "primarySourceUrl": "https://alloop.ai/prelaunch?utm_campaign=alloop_trio_pr_202610&utm_content=prelaunch&utm_medium=referral&utm_source=press_release",
+      "evidenceStrength": "issuer launch and official product page; partner article explicitly disclosed; no independent health validation"
+    },
+    "zhPath": "./2026-10-24/zh/",
+    "enPath": "./2026-10-24/en/",
+    "sourcesPath": "./2026-10-24/sources.html"
+  },
+  {
     "date": "2026-10-23",
     "zhTitle": "AI Daily｜2026年10月23日 · AI走进生活的小动作",
     "enTitle": "AI Daily | October 23, 2026 · AI enters everyday routines",

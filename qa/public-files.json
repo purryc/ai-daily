@@ -2750,6 +2750,421 @@
     "sha256": "0f4b7142fff174c89b33fe2295e08a2b696c19ed6caa22f6f2745459219323be"
   },
   {
+    "path": "2026-10-24/assets/alloop-cube-source.jpg",
+    "bytes": 66985,
+    "sha256": "2c982918ef2ca72ca9b46334db4ecbed31317ca16d41b85da53967d989f3ed24"
+  },
+  {
+    "path": "2026-10-24/assets/anygame-source.jpg",
+    "bytes": 261958,
+    "sha256": "b0e721494a7618d8261783abd9970956ac0df68f66755a7aa9e08ab391a28f85"
+  },
+  {
+    "path": "2026-10-24/assets/birdbuddy-nook-source.jpg",
+    "bytes": 84752,
+    "sha256": "55447012162f88bbd4bbe31a337502823b2ef8a2c614240ea39e2323eb49c63e"
+  },
+  {
+    "path": "2026-10-24/assets/brickwright-source.jpg",
+    "bytes": 101738,
+    "sha256": "81538f6987f979421c013faa4712ec76a87607011470efdcb17b0958f0f48de9"
+  },
+  {
+    "path": "2026-10-24/assets/carl-source.jpg",
+    "bytes": 261702,
+    "sha256": "39a1ad91cc90556467aca8243d80933fa551b0348c2949a114cc807977d91545"
+  },
+  {
+    "path": "2026-10-24/assets/cowork-source.jpg",
+    "bytes": 95766,
+    "sha256": "66b04a50073a90d365f0e14feacfb46b973b87d4969d500101ff9e17bf77f117"
+  },
+  {
+    "path": "2026-10-24/assets/deck.js",
+    "bytes": 2576,
+    "sha256": "63d13c06452d7405e0b5ed572d8464d802c9e5b8de656b5a94e3527b1730f7b3"
+  },
+  {
+    "path": "2026-10-24/assets/dexory-source.jpg",
+    "bytes": 117005,
+    "sha256": "2fcc6260a7dd106f255c6b2624a816528fdba4269c024429453db94a05f32776"
+  },
+  {
+    "path": "2026-10-24/assets/duet-tasks-source.jpg",
+    "bytes": 77740,
+    "sha256": "4ba0cf58cac3849647796a0731939b08ba2e2417ad6017c72e3ba91d66cc0dde"
+  },
+  {
+    "path": "2026-10-24/assets/flexpart-source.jpg",
+    "bytes": 162097,
+    "sha256": "46469f1855888544c7f029376b2e30f630fe9bb84948bbf475896c3c7f149503"
+  },
+  {
+    "path": "2026-10-24/assets/huabu-drag-source.jpg",
+    "bytes": 60095,
+    "sha256": "fd67a634e3bd08e99e3b33b273e9d54f60850abcd731a318d689b601cd8db841"
+  },
+  {
+    "path": "2026-10-24/assets/iflytek-input-source.jpg",
+    "bytes": 18213,
+    "sha256": "ab5be7c0ce733f42d426b346c4efc4e6009fc8f0abb65d13c7be8e349612522e"
+  },
+  {
+    "path": "2026-10-24/assets/instant-ph-source.jpg",
+    "bytes": 76450,
+    "sha256": "e2d389cd6959185f6f453dbb3eb3c8ae8b5db7b65216d6876022a70559d636ed"
+  },
+  {
+    "path": "2026-10-24/assets/inyon-source.jpg",
+    "bytes": 116218,
+    "sha256": "b1a1228484257f16a2754915a03cec6d536792eec35e7554e0a1a6a7a576d7b3"
+  },
+  {
+    "path": "2026-10-24/assets/issue.css",
+    "bytes": 10285,
+    "sha256": "1e458c07ba855726699c2b9885d466a62a85e04604b22dddcca9a2f3d1ca09e9"
+  },
+  {
+    "path": "2026-10-24/assets/meta-gray-source.jpg",
+    "bytes": 28669,
+    "sha256": "1b693c472eb52a5b21fc4f7dada8d6c186caf9845f0a200d931affb4a62c8444"
+  },
+  {
+    "path": "2026-10-24/assets/monish-page-source.jpg",
+    "bytes": 168595,
+    "sha256": "4290ce34d8df423976320893f39134a3e755c839eb0db6705bf0ff364b89a904"
+  },
+  {
+    "path": "2026-10-24/assets/openhands-canvas-source.jpg",
+    "bytes": 22945,
+    "sha256": "cdb2bf19420caf065ba210c54e75d1daea29e3d6cf0b4fd312d522a63ae70a24"
+  },
+  {
+    "path": "2026-10-24/assets/paperclip-task-context.png",
+    "bytes": 203420,
+    "sha256": "5805eb7a8107c266ad11c4f68ad4b834076fdc61fae3b11b2657fe1c1fd55dca"
+  },
+  {
+    "path": "2026-10-24/assets/plango-overview-source.jpg",
+    "bytes": 113694,
+    "sha256": "1186d6c26a9d9f9b347c98320a9b99db3abfc07a4e196c20d6b8d329e0824418"
+  },
+  {
+    "path": "2026-10-24/assets/pointerbench-source.jpg",
+    "bytes": 85163,
+    "sha256": "d006028f15e3a5ab643740b9e372bf275a442116f76285b68c8ef06906580192"
+  },
+  {
+    "path": "2026-10-24/assets/promptfoo-evaluation-ui.png",
+    "bytes": 509874,
+    "sha256": "5af53c8c6ea868c788d2721833c71381996e54a0a9b63023615709a2ce833b0a"
+  },
+  {
+    "path": "2026-10-24/assets/qrevo-threshold-source.jpg",
+    "bytes": 54117,
+    "sha256": "428fa905397a0a2e56819368996327285e1294e3220769948f938e4d55fb21a2"
+  },
+  {
+    "path": "2026-10-24/assets/resend-panel-source.jpg",
+    "bytes": 69621,
+    "sha256": "7c090b6f159ef57454dd833b421c211ac98ac7b41e5d5acb212512b766a6c895"
+  },
+  {
+    "path": "2026-10-24/assets/skylos-review-flow.png",
+    "bytes": 188718,
+    "sha256": "884a0c2545a9d9517570868c623e2421196510e38e232220c8d2333ab4333ef3"
+  },
+  {
+    "path": "2026-10-24/assets/teams-video-source.jpg",
+    "bytes": 52790,
+    "sha256": "e6df22670e15ee11e58bbeea80561d7ad303732bd6ff938f49c24c05c9ce75a1"
+  },
+  {
+    "path": "2026-10-24/assets/xgimi-l1-source.jpg",
+    "bytes": 97375,
+    "sha256": "e9a5b5e85d9d6b47c2e5057131419727c796c4b44c25121e1d18c4709cc3a5c6"
+  },
+  {
+    "path": "2026-10-24/en/details/alloop-trio-modular.html",
+    "bytes": 5890,
+    "sha256": "921b43484da6749c0c6035ce78dfc982775aa490ad585720d01f9481e9cc67ac"
+  },
+  {
+    "path": "2026-10-24/en/details/anygamerenderer.html",
+    "bytes": 5749,
+    "sha256": "a17cecc966d515dee95772d52aebc7d02a0ec6bb2a6371b85313f70ceae0b622"
+  },
+  {
+    "path": "2026-10-24/en/details/birdbuddy-nook-home-orders.html",
+    "bytes": 5909,
+    "sha256": "f34098e76c8c81bcb232c52a412f6cb66470f7c717768dd5475bc0e30a4ddf74"
+  },
+  {
+    "path": "2026-10-24/en/details/brickwright.html",
+    "bytes": 6059,
+    "sha256": "5d338ebfea888446243e6b92c935522510b3488f4cab3e76779e38d4ef17fdec"
+  },
+  {
+    "path": "2026-10-24/en/details/carl-rl-codesign.html",
+    "bytes": 5805,
+    "sha256": "a05e61c9290d89109631e98b97f41f452a372868127223ae2afcc5d9c6b8277b"
+  },
+  {
+    "path": "2026-10-24/en/details/claude-duet-control-disclosure.html",
+    "bytes": 5694,
+    "sha256": "f6fb897a0e25e475e6e26ef7ce95ac9683f34ca0806381bff735047c1622ce22"
+  },
+  {
+    "path": "2026-10-24/en/details/claude-enterprise-unified.html",
+    "bytes": 5776,
+    "sha256": "4c28af404844106bef21c1a9a275acee3f92710070dff373e3fea6cd3e2ec048"
+  },
+  {
+    "path": "2026-10-24/en/details/dexory-storage-health-cosmos.html",
+    "bytes": 5698,
+    "sha256": "2910e57faeba75b64f4d58902480eeb63e4445998639328b3130234b63a567f9"
+  },
+  {
+    "path": "2026-10-24/en/details/flexpart.html",
+    "bytes": 5982,
+    "sha256": "c1f628ffc688cce288427a1aa207adaf0cc11a352573a42855a02d789fbcd9f5"
+  },
+  {
+    "path": "2026-10-24/en/details/github-teams-consolidation.html",
+    "bytes": 6765,
+    "sha256": "243a74230d90392071a2c6b01f8cf441f9992b924211c9a57b5f76dd302c4367"
+  },
+  {
+    "path": "2026-10-24/en/details/iflytek-input16-intent.html",
+    "bytes": 5962,
+    "sha256": "c09db1d754863775e6bcba2f9fdf05b44728efda83db675e766aa09794d1fe2c"
+  },
+  {
+    "path": "2026-10-24/en/details/instant-search-local.html",
+    "bytes": 5683,
+    "sha256": "0b274aa11c393dc2ab547560c05c30529b42e3f9512d38b54578c334f41c3003"
+  },
+  {
+    "path": "2026-10-24/en/details/inyon-remote-agent-controls.html",
+    "bytes": 6452,
+    "sha256": "28378092643f514e9610c8fba765160a8cd8bec0ae15217f1399973d0060325f"
+  },
+  {
+    "path": "2026-10-24/en/details/malleablespace-research.html",
+    "bytes": 5736,
+    "sha256": "6cab33b006dcb89470d347f70312932f3751e4578677ecbe63768d42dc643d32"
+  },
+  {
+    "path": "2026-10-24/en/details/meta-adventurer-plugin-sale.html",
+    "bytes": 5616,
+    "sha256": "10d162dacbb1385a7a7f6263c58f6362be2979f11a62cde023eb2e8f174323e9"
+  },
+  {
+    "path": "2026-10-24/en/details/monish-lockscreen.html",
+    "bytes": 5617,
+    "sha256": "ab508bb15ed95774762959db9cc3946b17362098300129a9eb72e1d1751f5c29"
+  },
+  {
+    "path": "2026-10-24/en/details/openhands-1.33.0.html",
+    "bytes": 6607,
+    "sha256": "b98610f2319014da32adc988583d3e238f2c5590ec2152cffe4d559c2d5eece6"
+  },
+  {
+    "path": "2026-10-24/en/details/paperclip-private-tasks.html",
+    "bytes": 6625,
+    "sha256": "0f7abc78598d465e5321dea05ad6a1412f05ec180c704411de7fdc4948c34168"
+  },
+  {
+    "path": "2026-10-24/en/details/plango-agent-guard.html",
+    "bytes": 5929,
+    "sha256": "980cdcb8d10a6884c3e0d8536925d68a1df0622de68f76c543cba1aed1768fe0"
+  },
+  {
+    "path": "2026-10-24/en/details/pointerbench.html",
+    "bytes": 5901,
+    "sha256": "dbe3da88ee30cc661199e891b12948704ef47d8d0885530b9a4acec93dfde783"
+  },
+  {
+    "path": "2026-10-24/en/details/promptfoo-repeat-stability.html",
+    "bytes": 6440,
+    "sha256": "02e198c754c6c62f08bd2c91002e3849fe11d01eb96cda7192573e48686c871e"
+  },
+  {
+    "path": "2026-10-24/en/details/qrevo-edge-3-pro-lab-review.html",
+    "bytes": 5657,
+    "sha256": "6aa34c19a11b833d96c8e4d9bfa33552cd3acdab484c5c5488ada848a9e67d7f"
+  },
+  {
+    "path": "2026-10-24/en/details/resend-inboxes.html",
+    "bytes": 6444,
+    "sha256": "fa05af0fb79073a23f7da2aa5c0594434ee416b51c9dd79cf999b5f8e68545fa"
+  },
+  {
+    "path": "2026-10-24/en/details/skylos-approved-agent-review.html",
+    "bytes": 6538,
+    "sha256": "d2158fbf121feda0c7dfdcad17a58f6ac9dbd71ca563315ed74d9dc7893290e5"
+  },
+  {
+    "path": "2026-10-24/en/details/xgimi-memory-g1-l1.html",
+    "bytes": 5707,
+    "sha256": "09babbb586263922c3f1cf4b7aa18c3e7b3cf96de89691e92dcfdfdd9e490c82"
+  },
+  {
+    "path": "2026-10-24/en/index.html",
+    "bytes": 80239,
+    "sha256": "9220d4ec112ef0fa8fc3b6a85cd79ca8eca0c7761715b7455ff708ee7bc6c486"
+  },
+  {
+    "path": "2026-10-24/manifest.json",
+    "bytes": 27319,
+    "sha256": "b418908865b64d30d3ec7cf1e1784544aaf8050590eebb679434cb67ab3cac7e"
+  },
+  {
+    "path": "2026-10-24/sources.html",
+    "bytes": 57644,
+    "sha256": "136bf39519584770bb86170ed4e1af084ca3e1a88dce3558b9acc2f25319693d"
+  },
+  {
+    "path": "2026-10-24/sources.json",
+    "bytes": 24703,
+    "sha256": "58a3257c0bb1771376e97e54ab52d11609a2933bc49424a00a822b00ab846cff"
+  },
+  {
+    "path": "2026-10-24/visuals.json",
+    "bytes": 18951,
+    "sha256": "f381d70f3b25a668f8dfa5f1f0842445b23a1c338bba7ac2b6b8b9a79b3c7518"
+  },
+  {
+    "path": "2026-10-24/zh/details/alloop-trio-modular.html",
+    "bytes": 5451,
+    "sha256": "1cd8eed4134d9e5cd453265233fe9078512909b4e792b7886752df0a38e12caf"
+  },
+  {
+    "path": "2026-10-24/zh/details/anygamerenderer.html",
+    "bytes": 5451,
+    "sha256": "d33c4a3ddd7dd7b6622abd5887504511d913aff20f4315715eb6874f93be332a"
+  },
+  {
+    "path": "2026-10-24/zh/details/birdbuddy-nook-home-orders.html",
+    "bytes": 5169,
+    "sha256": "fe4813228f33f885b4820084772195308ad145e3e524f6b11a0a0d76858ee1c6"
+  },
+  {
+    "path": "2026-10-24/zh/details/brickwright.html",
+    "bytes": 5463,
+    "sha256": "9174219f148ea3630aa6a668cd7ede28aeb5eb39fb7c9bb75fcf8d983959f041"
+  },
+  {
+    "path": "2026-10-24/zh/details/carl-rl-codesign.html",
+    "bytes": 5263,
+    "sha256": "f02eee597395e83163c355563330ccbe3c948c4018e4eb1660bb61e4961eec97"
+  },
+  {
+    "path": "2026-10-24/zh/details/claude-duet-control-disclosure.html",
+    "bytes": 5250,
+    "sha256": "a087c1e31dcf5b4f3ebf4790395760bf4b37f93e0e1ea15fda04d83c27df22a5"
+  },
+  {
+    "path": "2026-10-24/zh/details/claude-enterprise-unified.html",
+    "bytes": 5302,
+    "sha256": "32ba7233b7534802fe415fbaf17cc22c3ec4d40d9db3575adb80e69a6fec34ac"
+  },
+  {
+    "path": "2026-10-24/zh/details/dexory-storage-health-cosmos.html",
+    "bytes": 5069,
+    "sha256": "ea36fd1eac5ab1dced527d7a9ca4473c5bf60987766c087f094cc12ff1b62100"
+  },
+  {
+    "path": "2026-10-24/zh/details/flexpart.html",
+    "bytes": 5281,
+    "sha256": "7c94e00e704be7776472ef9a391d4d74c0c8718d15fe7801a11f6f53cb330e5d"
+  },
+  {
+    "path": "2026-10-24/zh/details/github-teams-consolidation.html",
+    "bytes": 5942,
+    "sha256": "9d8cb7e24a4cc359200d9ef9999bcedf409b8787cd8c5dc78e4f6823ecc4f42c"
+  },
+  {
+    "path": "2026-10-24/zh/details/iflytek-input16-intent.html",
+    "bytes": 5303,
+    "sha256": "735e3e6ea673b31d12fd69636472634416f1bf3e0dbb21d53e4b8a966d97677a"
+  },
+  {
+    "path": "2026-10-24/zh/details/instant-search-local.html",
+    "bytes": 5207,
+    "sha256": "6aa420788e7cd4f69d6b774acaa045b5fc4ff617e6518c85184b1c27600f74ae"
+  },
+  {
+    "path": "2026-10-24/zh/details/inyon-remote-agent-controls.html",
+    "bytes": 6060,
+    "sha256": "d6e72189df9d4aff04eb013cc2bfd5ea7135576d72cebba1fd345380f2199b6f"
+  },
+  {
+    "path": "2026-10-24/zh/details/malleablespace-research.html",
+    "bytes": 5355,
+    "sha256": "bb7859f1fd7455c146bffaae053f95394a5fc78bce3d6dd8ca708790cb712fbe"
+  },
+  {
+    "path": "2026-10-24/zh/details/meta-adventurer-plugin-sale.html",
+    "bytes": 5013,
+    "sha256": "ce668bad50003fec2abd65da51d04548f8fff17633087994e7e93d672310ef44"
+  },
+  {
+    "path": "2026-10-24/zh/details/monish-lockscreen.html",
+    "bytes": 5245,
+    "sha256": "dd30ca9aadedcca23515d142e5e0b6c60c1b7c3169eb59b8ab456e60ca1f4bef"
+  },
+  {
+    "path": "2026-10-24/zh/details/openhands-1.33.0.html",
+    "bytes": 5993,
+    "sha256": "b81c50a304c2f418b8a060db93561eea30a69021a45649f697b413f47d18af5d"
+  },
+  {
+    "path": "2026-10-24/zh/details/paperclip-private-tasks.html",
+    "bytes": 6160,
+    "sha256": "6a513d2ff954aa6b160862d6485944e0c1f15f0f72d4bcc2a5d10a26ddb6e9cd"
+  },
+  {
+    "path": "2026-10-24/zh/details/plango-agent-guard.html",
+    "bytes": 5412,
+    "sha256": "f3ff109001a14a7b3f6fe4b5477ca74264312bc3ba6a985b217f9605c84685d9"
+  },
+  {
+    "path": "2026-10-24/zh/details/pointerbench.html",
+    "bytes": 5331,
+    "sha256": "b2c83dd78cd6df474ec1b67d7d6612e71201fff02adfc6bf56f24fcc7b73a0cc"
+  },
+  {
+    "path": "2026-10-24/zh/details/promptfoo-repeat-stability.html",
+    "bytes": 5781,
+    "sha256": "1aa326559b14faa7b3c487da6280debcfeed93164abf922f91839bde3455fee2"
+  },
+  {
+    "path": "2026-10-24/zh/details/qrevo-edge-3-pro-lab-review.html",
+    "bytes": 4986,
+    "sha256": "d266ea92009159ca53fa13bda6e313c6ec2f440a7536334f4d68f879ffd8903b"
+  },
+  {
+    "path": "2026-10-24/zh/details/resend-inboxes.html",
+    "bytes": 6014,
+    "sha256": "e75e7688b4277ba8cf096709c53d71837369beac2a006b72612dc54c8b7f76ae"
+  },
+  {
+    "path": "2026-10-24/zh/details/skylos-approved-agent-review.html",
+    "bytes": 5945,
+    "sha256": "01efb678399598f2526eddce38431f1ba1a351595199d1d81275353c731951d2"
+  },
+  {
+    "path": "2026-10-24/zh/details/xgimi-memory-g1-l1.html",
+    "bytes": 5096,
+    "sha256": "1c293bf19060c4cf953263a03a335e5f7c1e7ed5a769bc22971b5f1ec5f27b31"
+  },
+  {
+    "path": "2026-10-24/zh/index.html",
+    "bytes": 77290,
+    "sha256": "ead3db871de7b2077dca53421fb7e531699edfd7060801b7d8e353cf4c2ba138"
+  },
+  {
     "path": "assets/acti-agentic-keyboard-2026-07-03.svg",
     "bytes": 2825,
     "sha256": "84ad9abb0a1191abde62dea383e6e1ed583fc089073d3ccaf91629044501721b"
@@ -3161,18 +3576,18 @@
   },
   {
     "path": "en/index.html",
-    "bytes": 158599,
-    "sha256": "84588a9540a052632c8f53a844e14d2c7b1e97be9c8a237c861a2ea788d408b2"
+    "bytes": 159942,
+    "sha256": "26514f41601dd7b9b6a9672f4b9fe567849067e1f3450aaafce0ecd3ae49eba0"
   },
   {
     "path": "index.html",
-    "bytes": 152856,
-    "sha256": "2b34d79b20e536fa2acc2b240fff65191d1e674d58031b59a97daf39309f10e9"
+    "bytes": 154183,
+    "sha256": "7968f2c9522ec150a27f3a39f821c75c61441b3f2d5b6859f2bae0a08cf9e9a5"
   },
   {
     "path": "manifest.json",
-    "bytes": 731219,
-    "sha256": "7e06ab860553a674c570fa40f1b3d47d90b9d946daaf62b457d6272121695f7a"
+    "bytes": 732731,
+    "sha256": "740f0b78f9cd6bd0e5ae65b91cd3c3d3bbdcc66602564b8da47b01867d301c58"
   },
   {
     "path": "weekly/2026-10-12/pilot/en/index.html",
