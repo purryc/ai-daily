@@ -1,0 +1,595 @@
+{
+  "date": "2026-10-24",
+  "timezone": "America/Toronto",
+  "cutoff": "2026-10-24T08:00:30Z",
+  "windowStart": "2026-10-23T08:00:30Z",
+  "metrics": {
+    "body": {
+      "zhDenseChars": 19081,
+      "enWords": 11517
+    },
+    "perProduct": {
+      "alloop-trio-modular": {
+        "zh": 752,
+        "en": 453
+      },
+      "birdbuddy-nook-home-orders": {
+        "zh": 646,
+        "en": 435
+      },
+      "monish-lockscreen": {
+        "zh": 707,
+        "en": 443
+      },
+      "instant-search-local": {
+        "zh": 706,
+        "en": 432
+      },
+      "qrevo-edge-3-pro-lab-review": {
+        "zh": 662,
+        "en": 439
+      },
+      "xgimi-memory-g1-l1": {
+        "zh": 691,
+        "en": 437
+      },
+      "meta-adventurer-plugin-sale": {
+        "zh": 670,
+        "en": 430
+      },
+      "iflytek-input16-intent": {
+        "zh": 758,
+        "en": 460
+      },
+      "claude-duet-control-disclosure": {
+        "zh": 748,
+        "en": 442
+      },
+      "claude-enterprise-unified": {
+        "zh": 725,
+        "en": 436
+      },
+      "plango-agent-guard": {
+        "zh": 729,
+        "en": 431
+      },
+      "github-teams-consolidation": {
+        "zh": 812,
+        "en": 500
+      },
+      "resend-inboxes": {
+        "zh": 865,
+        "en": 507
+      },
+      "openhands-1.33.0": {
+        "zh": 819,
+        "en": 498
+      },
+      "inyon-remote-agent-controls": {
+        "zh": 848,
+        "en": 502
+      },
+      "paperclip-private-tasks": {
+        "zh": 894,
+        "en": 499
+      },
+      "promptfoo-repeat-stability": {
+        "zh": 821,
+        "en": 485
+      },
+      "skylos-approved-agent-review": {
+        "zh": 854,
+        "en": 506
+      },
+      "dexory-storage-health-cosmos": {
+        "zh": 712,
+        "en": 433
+      },
+      "malleablespace-research": {
+        "zh": 784,
+        "en": 460
+      },
+      "carl-rl-codesign": {
+        "zh": 771,
+        "en": 454
+      },
+      "brickwright": {
+        "zh": 770,
+        "en": 453
+      },
+      "flexpart": {
+        "zh": 775,
+        "en": 469
+      },
+      "anygamerenderer": {
+        "zh": 785,
+        "en": 446
+      },
+      "pointerbench": {
+        "zh": 777,
+        "en": 467
+      }
+    },
+    "primarySummaries": {
+      "alloop-trio-modular": {
+        "zh": 210,
+        "en": 130
+      },
+      "birdbuddy-nook-home-orders": {
+        "zh": 224,
+        "en": 133
+      },
+      "monish-lockscreen": {
+        "zh": 229,
+        "en": 130
+      },
+      "instant-search-local": {
+        "zh": 230,
+        "en": 129
+      },
+      "qrevo-edge-3-pro-lab-review": {
+        "zh": 208,
+        "en": 134
+      },
+      "xgimi-memory-g1-l1": {
+        "zh": 216,
+        "en": 130
+      },
+      "meta-adventurer-plugin-sale": {
+        "zh": 213,
+        "en": 125
+      },
+      "iflytek-input16-intent": {
+        "zh": 207,
+        "en": 132
+      },
+      "claude-duet-control-disclosure": {
+        "zh": 221,
+        "en": 123
+      },
+      "claude-enterprise-unified": {
+        "zh": 214,
+        "en": 124
+      },
+      "plango-agent-guard": {
+        "zh": 225,
+        "en": 127
+      },
+      "github-teams-consolidation": {
+        "zh": 194,
+        "en": 113
+      },
+      "resend-inboxes": {
+        "zh": 184,
+        "en": 103
+      },
+      "openhands-1.33.0": {
+        "zh": 190,
+        "en": 106
+      },
+      "inyon-remote-agent-controls": {
+        "zh": 198,
+        "en": 109
+      },
+      "paperclip-private-tasks": {
+        "zh": 199,
+        "en": 104
+      },
+      "promptfoo-repeat-stability": {
+        "zh": 210,
+        "en": 107
+      },
+      "skylos-approved-agent-review": {
+        "zh": 197,
+        "en": 119
+      },
+      "dexory-storage-health-cosmos": {
+        "zh": 228,
+        "en": 123
+      },
+      "malleablespace-research": {
+        "zh": 205,
+        "en": 113
+      },
+      "carl-rl-codesign": {
+        "zh": 224,
+        "en": 123
+      },
+      "brickwright": {
+        "zh": 236,
+        "en": 124
+      },
+      "flexpart": {
+        "zh": 216,
+        "en": 121
+      },
+      "anygamerenderer": {
+        "zh": 238,
+        "en": 118
+      },
+      "pointerbench": {
+        "zh": 223,
+        "en": 115
+      }
+    },
+    "counting": "Only unique full-analysis product paragraphs count toward body gates; summaries, captions, coverage and sources excluded.",
+    "products": 25,
+    "references": 102,
+    "coreVisuals": 25,
+    "slidesPerLocale": 28,
+    "primaryProjectPages": 25,
+    "attachedProjectDetails": 25,
+    "primaryBody": {
+      "zhDenseChars": 5339,
+      "enWords": 3015
+    },
+    "completeReadingBody": {
+      "zhDenseChars": 24420,
+      "enWords": 14532
+    }
+  },
+  "revision": {
+    "label": "morning-edition",
+    "originalCutoffRetained": true,
+    "newIssue": true,
+    "baselineCommit": "023715e65470cba70617f3c463b6f08941225d03"
+  },
+  "topics": [
+    {
+      "id": "alloop-trio-modular",
+      "zhHeadline": "Alloop让同一枚感测核心换到手环或戒指，语音补上生活记录",
+      "enHeadline": "Alloop moves one sensing core between band and ring",
+      "eventAt": "2026-10-23T13:00:00Z",
+      "freshness": "main",
+      "evidence": "issuer launch and official product page; partner article explicitly disclosed; no independent health validation",
+      "eventDateNote": "issuer publication October23 09:00ET; launch event date is day precision",
+      "event_key": "alloop:trio:ny-unveiling:2026-10-23",
+      "product_key": "alloop:trio",
+      "publishedAt": "2026-10-23T13:00:00Z",
+      "observedAt": "2026-10-24T08:14:45.662830+00:00",
+      "delta_since_last_seen": "Double-tapping records a meal, workout or feeling without a phone form; lights and vibration provide screenless feedback. The app also accepts text and photos and can connect records from compatible health platforms."
+    },
+    {
+      "id": "birdbuddy-nook-home-orders",
+      "zhHeadline": "Birdbuddy把观鸟入口降到99美元，自动认鸟仍是订阅功能",
+      "enHeadline": "Birdbuddy lowers the entry price to $99, with automatic identification behind a subscription",
+      "eventAt": "2026-10-22T13:00:00Z",
+      "freshness": "near-three-day",
+      "evidence": "confirmed product order availability; vendor specifications; dated media launch report",
+      "eventDateNote": "earliest read launch report09:00EDT; source clock not exact manufacturer order-opening clock",
+      "event_key": "birdbuddy:nook-home:orders:2026-10-22",
+      "product_key": "birdbuddy:nook-home",
+      "publishedAt": "2026-10-22T13:00:00Z",
+      "observedAt": "2026-10-24T08:09:28.231416+00:00",
+      "delta_since_last_seen": "Nook is $99, its solar version $159 and Home$219; Home adds capacity and 5 GHz Wi-Fi. Nook holds about 0.9 litres and needs 2.4 GHz; Home holds about 1.4 litres."
+    },
+    {
+      "id": "monish-lockscreen",
+      "zhHeadline": "Monish把代理的等待与批准放上锁屏，离开电脑也能接续任务",
+      "enHeadline": "Monish puts agent progress and decisions on the lock screen",
+      "eventAt": "2026-10-23",
+      "freshness": "near-three-day",
+      "evidence": "startup signal; maker documentation, not independent test",
+      "eventDateNote": "day; October23 PH appearance, exact clock/timezone and firstavailability unconfirmed; lower24h boundary unresolved",
+      "event_key": "appstore:6822071271:ph-debut:2026-10-23",
+      "product_key": "appstore:6822071271",
+      "publishedAt": "2026-10-23",
+      "observedAt": "2026-10-24T08:02:43Z",
+      "delta_since_last_seen": "Long tasks update one Live Activity. Completion gets a notification, and unanswered approval requests expire as a denial. Cards can show steps, countdowns or test counts; typed answers use the app."
+    },
+    {
+      "id": "instant-search-local",
+      "zhHeadline": "Instant按记得的内容找Mac文件，并标出原文",
+      "enHeadline": "Instant finds Mac files from remembered content",
+      "eventAt": "2026-10-23",
+      "freshness": "near-three-day",
+      "evidence": "startup signal; maker documentation, not independent test",
+      "eventDateNote": "day; October23 PH appearance, exact clock/timezone and firstavailability unconfirmed; lower24h boundary unresolved",
+      "event_key": "perillalabs:instant-search:ph-debut:2026-10-23",
+      "product_key": "perillalabs:instant-search",
+      "publishedAt": "2026-10-23",
+      "observedAt": "2026-10-24T08:02:43Z",
+      "delta_since_last_seen": "The maker describes late-interaction embeddings, with support for text, photographs and scans without a text layer. Files stay in chosen folders, with subsequent indexing limited to changed material."
+    },
+    {
+      "id": "qrevo-edge-3-pro-lab-review",
+      "zhHeadline": "Qrevo Edge 3 Pro更擅长跨门槛和清地毯，小杂物仍要先收",
+      "enHeadline": "Qrevo Edge 3 Pro handles thresholds and carpets well, while small objects still need clearing",
+      "eventAt": "2026-10-23",
+      "freshness": "near-three-day",
+      "evidence": "review observation; purchased studio test; vendor specifications distinguished",
+      "eventDateNote": "review date only; exact publication clock not stated; lower main-window boundary unresolved",
+      "event_key": "roborock:qrevo-edge-3-pro:vacuumwars-review:2026-10-23",
+      "product_key": "roborock:qrevo-edge-3-pro",
+      "publishedAt": "2026-10-23",
+      "observedAt": "2026-10-24T08:09:28.231416+00:00",
+      "delta_since_last_seen": "Studio results included 93% embedded-sand pickup and a repeatable 57 mm single-step crossing; a 64 mm success did not repeat for return."
+    },
+    {
+      "id": "xgimi-memory-g1-l1",
+      "zhHeadline": "极米把记事入口放到眼镜和手腕，录下的声音再整理成待办",
+      "enHeadline": "XGIMI puts recording on glasses and the wrist, then organizes speech into reminders",
+      "eventAt": "2026-10-22T16:00:00+08:00",
+      "freshness": "near-three-day",
+      "evidence": "media observation of vendor retail listing; supplier specifications, not independent test",
+      "eventDateNote": "reservation16:00 China local reported by CNMO; listing dateOct22; not verified payment/fulfillment",
+      "event_key": "xgimi:remember:g1-l1:reservation:2026-10-22",
+      "product_key": "xgimi:remember:g1-l1",
+      "publishedAt": "2026-10-22T22:31:13+08:00",
+      "observedAt": "2026-10-24T08:09:31.971116+00:00",
+      "delta_since_last_seen": "G1 uses a 3D-printed titanium structure, advertised as light as 17.9 g; both claim two to five days of mixed use."
+    },
+    {
+      "id": "meta-adventurer-plugin-sale",
+      "zhHeadline": "Adventurer预告249美元插电盒组合，便携补电能力随之取消",
+      "enHeadline": "Adventurer’s announced $249 bundle trades portable charging for a plug-in case",
+      "eventAt": "2026-10-23",
+      "freshness": "near-three-day",
+      "evidence": "confirmed product; vendor availability schedule and current product configuration",
+      "eventDateNote": "day only; September23 announcement schedules October23 sale; exact opening clock unknown; current shop checked after cutoff",
+      "event_key": "meta:adventurer:249-plugin-sale:2026-10-23",
+      "product_key": "meta:adventurer:plugin-case",
+      "publishedAt": "2026-09-23",
+      "observedAt": "2026-10-24T08:09:28.231416+00:00",
+      "delta_since_last_seen": "The announced US $249 configuration retains the 12MP camera and 3K video; checkout availability was not verified. Meta lists roughly 75 minutes to 90 percent; the regular case’s 40 extra hours do not apply."
+    },
+    {
+      "id": "iflytek-input16-intent",
+      "zhHeadline": "先给材料再说要写什么，讯飞把草稿直接放回输入框",
+      "enHeadline": "Give the keyboard the material and the task; iFlytek returns a draft to the text field",
+      "eventAt": "2026-10-22",
+      "freshness": "near-three-day",
+      "evidence": "confirmed developer store release; launch descriptions, not hands-on test",
+      "eventDateNote": "day; launch October22, Mi store16.0.1 update same day, exact clock unknown",
+      "event_key": "iflytek-input:16.0:intent-drafting",
+      "product_key": "android:com.iflytek.inputmethod",
+      "publishedAt": "2026-10-22",
+      "observedAt": "2026-10-24T08:09:31.971116+00:00",
+      "delta_since_last_seen": "Task cards retain context, authorized preferences guide wording, and spoken corrections can revise dictation. Voice input remains on the space bar, with Spark-ASR-2.0 identified as the recognition component."
+    },
+    {
+      "id": "claude-duet-control-disclosure",
+      "zhHeadline": "Duet接手待办前逐项授权，断开应用仍须另清记忆",
+      "enHeadline": "Duet separates task approval from connected memory",
+      "eventAt": "2026-10-23",
+      "freshness": "near-three-day",
+      "evidence": "confirmed product; vendor documentation, not editorial hands-on",
+      "eventDateNote": "day; original publication clock and timezone unstated; lower24h boundary unresolved, conservatively recent supplement",
+      "event_key": "claude-duet-control-disclosure:2026-10-23",
+      "product_key": "claude-duet",
+      "publishedAt": "2026-10-23",
+      "observedAt": "2026-10-24T08:06:55.229030+00:00",
+      "delta_since_last_seen": "The October 23 disclosure details checks on recipients, sensitive content and payments restricted to a merchant and amount."
+    },
+    {
+      "id": "claude-enterprise-unified",
+      "zhHeadline": "企业Claude不再先选聊天或Cowork，长任务接着原对话在云端跑",
+      "enHeadline": "Enterprise Claude keeps questions and cloud work in one conversation",
+      "eventAt": "2026-10-23",
+      "freshness": "near-three-day",
+      "evidence": "confirmed product; vendor documentation, not editorial hands-on",
+      "eventDateNote": "day; original publication clock and timezone unstated; lower24h boundary unresolved, conservatively recent supplement",
+      "event_key": "claude-enterprise-unified:2026-10-23",
+      "product_key": "claude-enterprise",
+      "publishedAt": "2026-10-23",
+      "observedAt": "2026-10-24T08:06:55.229030+00:00",
+      "delta_since_last_seen": "October 23 brings Enterprise availability; the Pro/Max unified experience was announced in September."
+    },
+    {
+      "id": "plango-agent-guard",
+      "zhHeadline": "Plango用Finder标签限制代理，模型只能提高风险等级",
+      "enHeadline": "Plango turns Finder tags into agent access rules",
+      "eventAt": "2026-10-22",
+      "freshness": "near-three-day",
+      "evidence": "startup signal; maker documentation, not independent test",
+      "eventDateNote": "day; exactclock unknown; PH appearance not firstproductavailability",
+      "event_key": "acrebase:plango:2.0.8-control-disclosure:2026-10-22",
+      "product_key": "acrebase:plango",
+      "publishedAt": "2026-10-22",
+      "observedAt": "2026-10-24T08:02:43Z",
+      "delta_since_last_seen": "Finder color tags can express prohibited access, read-only access or prior approval, while secrets can move into Keychain. Fingerprints flag changed tool lists and replaced plugin files."
+    },
+    {
+      "id": "github-teams-consolidation",
+      "zhHeadline": "GitHub把Teams里的缺陷通知接上编码代理，讨论串直接成为修复上下文",
+      "enHeadline": "GitHub turns a Teams notification thread into the context for a proposed fix",
+      "eventAt": "2026-10-23",
+      "freshness": "near-three-day",
+      "evidence": "Original changelog and full official integration documentation; no live Teams execution",
+      "eventDateNote": "day; publication clock and timezone unknown; lower-window boundary unresolved",
+      "event_key": "github-copilot-teams:consolidated-app:2026-10-23",
+      "product_key": "github-copilot-teams",
+      "publishedAt": "2026-10-23",
+      "observedAt": "2026-10-24T08:25:47Z",
+      "delta_since_last_seen": "The same application handles notifications, progress and follow-up instructions. This consolidates existing capabilities rather than launching Teams coding agents for the first time."
+    },
+    {
+      "id": "resend-inboxes",
+      "zhHeadline": "Resend把收件、分派和回复放进同一个邮箱，代理可以先写草稿再交接",
+      "enHeadline": "Resend joins incoming mail, assignments and agent drafts in one inbox",
+      "eventAt": "2026-10-22",
+      "freshness": "near-three-day",
+      "evidence": "Original announcement, product surface and API documentation; no authenticated mailbox test",
+      "eventDateNote": "day; original blog date, first-ever announcement not established",
+      "event_key": "resend-inboxes:announcement:2026-10-22",
+      "product_key": "resend-inboxes",
+      "publishedAt": "2026-10-22",
+      "observedAt": "2026-10-24T08:25:47Z",
+      "delta_since_last_seen": "It adds threads, drafts and handling state beyond a receiving webhook, with separately configured agent actions."
+    },
+    {
+      "id": "openhands-1.33.0",
+      "zhHeadline": "OpenHands补齐重启后的云账号连接，创建代理前先把机器规格说清楚",
+      "enHeadline": "OpenHands keeps web cloud accounts connected and makes the machine choice explicit",
+      "eventAt": "2026-10-23T13:46:20Z",
+      "freshness": "main",
+      "evidence": "Dated maintainer release and full implementation PRs with maintainer screenshots; no editorial cloud launch",
+      "eventDateNote": "second",
+      "event_key": "github:OpenHands/OpenHands:v1.33.0",
+      "product_key": "github:OpenHands/OpenHands",
+      "publishedAt": "2026-10-23T13:46:20Z",
+      "observedAt": "2026-10-24T08:25:47Z",
+      "delta_since_last_seen": "New agents select the smallest available machine size. Automation cards display the backend's current phase, while secret fields mask text by default."
+    },
+    {
+      "id": "inyon-remote-agent-controls",
+      "zhHeadline": "Inyon让手机接着处理电脑上的代理请求，回答按钮不再随新消息跳动",
+      "enHeadline": "Inyon keeps remote agent controls in place while new activity arrives",
+      "eventAt": "2026-10-24T06:16:04Z",
+      "freshness": "main",
+      "evidence": "Official documentation and dated GitHub releases; no hands-on remote session or security audit",
+      "eventDateNote": "second",
+      "event_key": "github:Abhash-Chakraborty/inyon:v0.20.5",
+      "product_key": "github:Abhash-Chakraborty/inyon",
+      "publishedAt": "2026-10-24T06:16:04Z",
+      "observedAt": "2026-10-24T08:12:00Z",
+      "delta_since_last_seen": "Updates keep session cards and answer controls stationary, show device identity before pairing, and add a Windows tray application with explicit quit behavior."
+    },
+    {
+      "id": "paperclip-private-tasks",
+      "zhHeadline": "Paperclip给代理任务加私有成员表，分享子任务不再连带父任务",
+      "enHeadline": "Paperclip adds private task membership without exposing the parent task",
+      "eventAt": "2026-10-24T00:03:59Z",
+      "freshness": "main",
+      "evidence": "Maintainer release and implementation PRs, no independent access-control test",
+      "eventDateNote": "second",
+      "event_key": "github:paperclipai/paperclip:v2026.1023.0",
+      "product_key": "github:paperclipai/paperclip",
+      "publishedAt": "2026-10-24T00:03:59Z",
+      "observedAt": "2026-10-24T08:10:00Z",
+      "delta_since_last_seen": "Access checks cover search, logs, attachments, runs and MCP surfaces. Reusing an agent does not transfer another responsible user's permissions."
+    },
+    {
+      "id": "promptfoo-repeat-stability",
+      "zhHeadline": "Promptfoo把同一道题时对时错的结果单独列出来",
+      "enHeadline": "Promptfoo separates repeat failures from a reassuring average",
+      "eventAt": "2026-10-23T15:32:01Z",
+      "freshness": "main",
+      "evidence": "Maintainer release, implementation PRs and documented behavior; not an independent model evaluation.",
+      "eventDateNote": "second",
+      "event_key": "github:promptfoo/promptfoo:0.125.0",
+      "product_key": "github:promptfoo/promptfoo",
+      "publishedAt": "2026-10-23T15:32:01Z",
+      "observedAt": "2026-10-24T08:08:00Z",
+      "delta_since_last_seen": "The CLI lists up to five unstable groups. Errors stay outside the pass-rate denominator; cached target or grader responses suppress confidence intervals."
+    },
+    {
+      "id": "skylos-approved-agent-review",
+      "zhHeadline": "Skylos把AI代码审查绑到获批的提交，只读有限源码包",
+      "enHeadline": "Skylos binds AI review to approved commits and a bounded source bundle",
+      "eventAt": "2026-10-23T03:55:20Z",
+      "freshness": "near-three-day",
+      "evidence": "Release, maintainer PR and v5.0.0 source code; implementation inspection only",
+      "eventDateNote": "second",
+      "event_key": "github:duriantaco/skylos:v5.0.0",
+      "product_key": "github:duriantaco/skylos",
+      "publishedAt": "2026-10-23T03:55:20Z",
+      "observedAt": "2026-10-24T08:14:00Z",
+      "delta_since_last_seen": "The new command does not execute PR code. It accepts at most 30 files and 512 KiB of source, validating returned structure and locations."
+    },
+    {
+      "id": "dexory-storage-health-cosmos",
+      "zhHeadline": "Dexory给高货架异常标位置，再复核低置信图片",
+      "enHeadline": "Dexory links uncertain rack images to specific exceptions",
+      "eventAt": "2026-10-21",
+      "freshness": "seven-day",
+      "evidence": "confirmed vendor integration; no independent accuracy test",
+      "eventDateNote": "day only; exact release clock unknown; October23 media does not reset launch date",
+      "event_key": "dexory:storage-health:cosmos-reason2:2026-10-21",
+      "product_key": "dexory:storage-health",
+      "publishedAt": "2026-10-21",
+      "observedAt": "2026-10-24T08:09:28.231416+00:00",
+      "delta_since_last_seen": "The October 21 integration adds warehouse-tuned Cosmos Reason 2-2B analysis when existing models return low confidence. The vendor compared 2B and 8B variants and uses existing patrol images for the additional analysis."
+    },
+    {
+      "id": "malleablespace-research",
+      "zhHeadline": "把材料摆成关系，再让代理按这张工作地图接着做",
+      "enHeadline": "MalleableSpace lets the arrangement of your materials guide the next agent task",
+      "eventAt": "2026-10-22T08:12:49Z",
+      "freshness": "near-three-day",
+      "evidence": "research signal; author study and implementation, not independent product test",
+      "eventDateNote": "second; arXiv submission time, public announcement clock unconfirmed",
+      "event_key": "arxiv:2610.30893:v1",
+      "product_key": "malleablespace-/-huabu",
+      "publishedAt": "2026-10-22T08:12:49Z",
+      "observedAt": "2026-10-24T08:06:59.436436+00:00",
+      "delta_since_last_seen": "The new paper follows seven experienced users for three months and links the existing Huabu implementation."
+    },
+    {
+      "id": "carl-rl-codesign",
+      "zhHeadline": "先把奖励与约束问清楚，CARL再生成训练代码",
+      "enHeadline": "CARL asks what the reward should mean before it writes the training pipeline",
+      "eventAt": "2026-10-22T09:48:43Z",
+      "freshness": "near-three-day",
+      "evidence": "research signal; author study and implementation, not independent product test",
+      "eventDateNote": "second; arXiv submission time, public announcement clock unconfirmed",
+      "event_key": "arxiv:2610.31014:v1",
+      "product_key": "carl",
+      "publishedAt": "2026-10-22T09:48:43Z",
+      "observedAt": "2026-10-24T08:06:59.436436+00:00",
+      "delta_since_last_seen": "Step summaries retain decisions; the Trillian assistant proposes answers that the user can revise or reject. Recorded decisions and session artifacts support resuming work or revisiting a particular choice."
+    },
+    {
+      "id": "brickwright",
+      "zhHeadline": "积木模型先查碰撞与连接，再交给人真正搭起来",
+      "enHeadline": "BrickWright checks brick connections before a design reaches the workbench",
+      "eventAt": "2026-10-22T17:57:20Z",
+      "freshness": "near-three-day",
+      "evidence": "research signal; author study and implementation, not independent product test",
+      "eventDateNote": "second; arXiv submission time, public announcement clock unconfirmed",
+      "event_key": "arxiv:2610.31651:v1",
+      "product_key": "brickwright",
+      "publishedAt": "2026-10-22T17:57:20Z",
+      "observedAt": "2026-10-24T08:12:23.997351+00:00",
+      "delta_since_last_seen": "It reduces manual pose calculations and visual collision hunting, with demonstrations of editing and articulated models. Rotating examples expose different views while retaining editable part structure."
+    },
+    {
+      "id": "flexpart",
+      "zhHeadline": "点出一条手臂，必要时再画框：FlexPart让三维拆件少做一层标注",
+      "enHeadline": "FlexPart lets you mark a part with a point, then add detail only where needed",
+      "eventAt": "2026-10-22T17:59:53Z",
+      "freshness": "near-three-day",
+      "evidence": "research signal; author study and implementation, not independent product test",
+      "eventDateNote": "second; arXiv submission time, public announcement clock unconfirmed",
+      "event_key": "arxiv:2610.31671:v1",
+      "product_key": "flexpart",
+      "publishedAt": "2026-10-22T17:59:53Z",
+      "observedAt": "2026-10-24T08:18:00.751401+00:00",
+      "delta_since_last_seen": "Instead of generating one mesh and splitting it afterward, users specify the intended parts at their chosen annotation detail."
+    },
+    {
+      "id": "anygamerenderer",
+      "zhHeadline": "给灰盒游戏换画风，还得记住每个角色何时进场",
+      "enHeadline": "AnyGameRenderer restyles blockout footage while tracking who enters the scene",
+      "eventAt": "2026-10-22T15:58:39Z",
+      "freshness": "near-three-day",
+      "evidence": "research signal; author study and implementation, not independent product test",
+      "eventDateNote": "second; arXiv submission time, public announcement clock unconfirmed",
+      "event_key": "arxiv:2610.31466:v1",
+      "product_key": "anygamerenderer",
+      "publishedAt": "2026-10-22T15:58:39Z",
+      "observedAt": "2026-10-24T08:14:54.041669+00:00",
+      "delta_since_last_seen": "The engine retains rules and positions; a video-model LoRA supplies appearance with entity-correspondence training. Training includes named characters absent from a clip, encouraging the model to check their presence against the recording."
+    },
+    {
+      "id": "pointerbench",
+      "zhHeadline": "找到单元格之后，代理还得点中那条一像素宽的边",
+      "enHeadline": "PointerBench asks whether an agent can hit the divider, not just find the cell",
+      "eventAt": "2026-10-22T13:43:45Z",
+      "freshness": "near-three-day",
+      "evidence": "research signal; author study and implementation, not independent product test",
+      "eventDateNote": "second; arXiv submission time, public announcement clock unconfirmed",
+      "event_key": "arxiv:2610.31274:v1",
+      "product_key": "pointerbench",
+      "publishedAt": "2026-10-22T13:43:45Z",
+      "observedAt": "2026-10-24T08:12:23.997351+00:00",
+      "delta_since_last_seen": "The new paper compares spreadsheets, text and generated professional interfaces at several target sizes. Screenshots are fixed at 1024 by 768; changing display scale changes target geometry, and professional interfaces are generated."
+    }
+  ],
+  "eventCounts": {
+    "mainWindowEvents": 5,
+    "nearThreeDayReviews": 19,
+    "sevenDayReviews": 1,
+    "interpretation": "Announcements, submissions, updates and regional reports; not first product launches."
+  }
+}
