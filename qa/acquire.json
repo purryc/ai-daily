@@ -1,34 +1,23 @@
 [
   {
-    "kind": "inventory",
-    "name": "teams-video-inventory.json",
-    "url": "https://github.com/orgs/community/discussions/211133",
-    "locale": "zh"
-  },
-  {
-    "kind": "page",
-    "name": "teams-video-source.jpg",
-    "url": "https://github.com/orgs/community/discussions/211133",
-    "selector": "video",
-    "locale": "zh"
-  },
-  {
-    "kind": "page",
-    "name": "resend-inboxes-source.jpg",
-    "url": "https://resend.com/products/inboxes",
-    "locale": "en"
-  },
-  {
-    "kind": "inventory",
-    "name": "resend-inboxes-inventory.json",
-    "url": "https://resend.com/products/inboxes",
-    "locale": "en"
-  },
-  {
     "kind": "image",
-    "name": "openhands-source.jpg",
-    "url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/.screenshots/progress-event-fix.png",
-    "locale": "en",
+    "name": "openhands-canvas-source.jpg",
+    "url": "https://raw.githubusercontent.com/OpenHands/OpenHands/438f67d70c694831c8302ac17137625e6776749b/.pr/stay-signed-in/after-restart.png",
+    "locale": "zh",
     "renderImage": true
+  },
+  {
+    "kind": "page",
+    "name": "resend-panel-source.jpg",
+    "url": "https://resend.com/products/inboxes",
+    "selector": "text=Compose >> xpath=ancestor::div[4]",
+    "locale": "en"
+  },
+  {
+    "kind": "page",
+    "name": "resend-panel-wide-source.jpg",
+    "url": "https://resend.com/products/inboxes",
+    "selector": "text=Compose >> xpath=ancestor::div[5]",
+    "locale": "en"
   }
 ]
