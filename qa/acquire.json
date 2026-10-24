@@ -1,98 +1,90 @@
 [
   {
-    "kind": "image",
-    "name": "meta-adventurer-source.jpg",
-    "url": "https://lookaside.fbsbx.com/elementpath/media/?media_id=2382614168896396&resize_height=1600&resize_width=1600&transcode_extension=webp&version=1792444211",
-    "locale": "zh",
-    "renderImage": true
+    "kind": "inventory",
+    "name": "monish-store-inventory.json",
+    "url": "https://apps.apple.com/us/app/monish-ai-agent-notifications/id6822071271",
+    "locale": "en"
   },
   {
     "kind": "image",
-    "name": "birdbuddy-nook-source.jpg",
-    "url": "https://mybirdbuddy.com/wp-content/uploads/2026/09/birdbuddy-nook-hero.webp",
-    "locale": "zh",
-    "renderImage": true
-  },
-  {
-    "kind": "image",
-    "name": "birdbuddy-app-source.jpg",
-    "url": "https://mybirdbuddy.com/wp-content/uploads/2026/10/nook-card-species-4x.webp",
-    "locale": "zh",
-    "renderImage": true
-  },
-  {
-    "kind": "image",
-    "name": "qrevo-review-source.jpg",
-    "url": "https://vacuumwars.com/wp-content/uploads/2026/09/Roborock-Qrevo-Edge-3-Pro-in-studio-150-1.png",
-    "locale": "zh",
-    "renderImage": true
-  },
-  {
-    "kind": "image",
-    "name": "dexory-source.jpg",
-    "url": "https://cdn.prod.website-files.com/672df24a07935ada864724fb/69e62a0a8a4c1be7cb7066b5_Dexory_StorageHealth_02.avif",
-    "locale": "zh",
-    "renderImage": true
-  },
-  {
-    "kind": "image",
-    "name": "iflytek-input-source.jpg",
-    "url": "https://file.market.xiaomi.com/thumbnail/jpeg/l241/http%3A//file.market.xiaomi.com/thumbnail/jpeg/l395/AppStore/09a38cd30b2eb482ebaa8b58433dd5767acf99195",
-    "locale": "zh",
-    "renderImage": true
-  },
-  {
-    "kind": "image",
-    "name": "gununu-source.jpg",
-    "url": "https://i-blog.csdnimg.cn/img_convert/a918a53f96cf66bf7b39627c09f52992.jpeg",
-    "locale": "zh",
-    "renderImage": true
-  },
-  {
-    "kind": "image",
-    "name": "duet-tasks-source.jpg",
-    "url": "https://assets.claude.com/2ea9a7ae6dfe5a96c7e3e0fb759df5a0703704b1.png",
+    "name": "instant-ph-source.jpg",
+    "url": "https://ph-files.imgix.net/e015ee6c-e30d-4d16-8af2-725ba16c788b.jpeg?auto=compress%2Cformat&fit=max&w=1600",
     "locale": "en",
     "renderImage": true
   },
   {
     "kind": "image",
-    "name": "carl-source.jpg",
-    "url": "https://arxiv.org/html/2610.31014v1/redo_carl_screen_step5.jpg.png",
+    "name": "movo-ph-source.jpg",
+    "url": "https://ph-files.imgix.net/524aafcb-3fe5-4ad7-a78b-2c1d9030d5c5.png?auto=compress%2Cformat&fit=max&w=1600",
     "locale": "en",
     "renderImage": true
   },
   {
     "kind": "image",
-    "name": "huabu-source.jpg",
-    "url": "https://microsoft.github.io/Huabu/docs/quick-start/add-content.png",
+    "name": "plango-source.jpg",
+    "url": "https://installplango.com/public/art/feature/ai-agents-lg.png?v=5",
     "locale": "en",
     "renderImage": true
   },
   {
     "kind": "image",
-    "name": "inyon-source.jpg",
-    "url": "https://inyon.tech/img/answer.webp",
+    "name": "cowork-source.jpg",
+    "url": "https://assets.claude.com/e0035a095d8888c9739f8acb305f517b25d469eb.jpg",
     "locale": "en",
     "renderImage": true
   },
   {
     "kind": "image",
-    "name": "movo-source.jpg",
-    "url": "https://movoai.pro/media/images/home/difference/hero-travel-gradient.webp",
+    "name": "pointerbench-source.jpg",
+    "url": "https://arxiv.org/html/2610.31274v1/teaserfinal.png",
     "locale": "en",
+    "renderImage": true
+  },
+  {
+    "kind": "image",
+    "name": "qrevo-threshold-source.jpg",
+    "url": "https://vacuumwars.com/wp-content/uploads/2026/10/Roborock-Qrevo-Edge-3-Pro-Review-threshold-climbing-test.jpg",
+    "locale": "zh",
+    "renderImage": true
+  },
+  {
+    "kind": "image",
+    "name": "meta-gray-source.jpg",
+    "url": "https://lookaside.fbsbx.com/elementpath/media/?media_id=1060719926524915&resize_height=1600&resize_width=1600&transcode_extension=webp&version=1792444211",
+    "locale": "zh",
+    "renderImage": true
+  },
+  {
+    "kind": "image",
+    "name": "gununu-mechanism-source.jpg",
+    "url": "https://i-blog.csdnimg.cn/img_convert/3224b801bc2ba34deb949752c250e4b4.png",
+    "locale": "zh",
+    "renderImage": true
+  },
+  {
+    "kind": "image",
+    "name": "gununu-contflow-source.jpg",
+    "url": "https://i-blog.csdnimg.cn/img_convert/8f605238a08ff87f2e8bb8f4a045bbda.jpeg",
+    "locale": "zh",
+    "renderImage": true
+  },
+  {
+    "kind": "image",
+    "name": "iflytek-demo-source.jpg",
+    "url": "https://n.sinaimg.cn/spider20261023/372/w750h422/20261023/c499-d80e94fd8a1e78ecaf464c9b08648645.jpg",
+    "locale": "zh",
     "renderImage": true
   },
   {
     "kind": "inventory",
-    "name": "monish-inventory.json",
-    "url": "https://monish.cc/",
-    "locale": "en"
+    "name": "xgimi-g1-inventory.json",
+    "url": "https://www.ithome.com/1/016/723.htm",
+    "locale": "zh"
   },
   {
     "kind": "inventory",
-    "name": "instant-inventory.json",
-    "url": "https://useinstantsearch.com/",
-    "locale": "en"
+    "name": "xgimi-l1-inventory.json",
+    "url": "https://www.ithome.com/1/016/753.htm",
+    "locale": "zh"
   }
 ]
