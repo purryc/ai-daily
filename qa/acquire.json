@@ -1,163 +1,50 @@
 [
   {
-    "name": "zcad-gallery.jpg",
-    "url": "https://ph-files.imgix.net/81056b59-8f93-4160-8c7f-50e6cdb5524b.jpeg",
-    "kind": "image",
-    "locale": "zh",
-    "renderImage": true
-  },
-  {
-    "name": "zcad-gallery2.jpg",
-    "url": "https://ph-files.imgix.net/c55184f6-4eae-4864-b120-43909d9c93da.jpeg",
-    "kind": "image",
-    "locale": "en",
-    "renderImage": true
-  },
-  {
-    "name": "agentvalley.jpg",
-    "url": "https://ph-files.imgix.net/538cf649-befa-4006-a144-2a45a51b4056.jpeg",
-    "kind": "image",
-    "locale": "zh",
-    "renderImage": true
-  },
-  {
-    "name": "mypip.jpg",
-    "url": "https://ph-files.imgix.net/f794edd4-be36-4425-b7fd-86aba8427b67.gif",
-    "kind": "image",
-    "locale": "en",
-    "renderImage": true
-  },
-  {
-    "name": "sideos.jpg",
-    "url": "https://ph-files.imgix.net/4687caf8-d0bc-43f3-9b09-c3fec4608618.jpeg",
-    "kind": "image",
-    "locale": "zh",
-    "renderImage": true
-  },
-  {
-    "name": "microduck.jpg",
-    "url": "https://pollen-robotics.com/assets/microduck/press/photos/microduck-kickabout.jpg",
-    "kind": "image",
-    "locale": "en",
-    "renderImage": true
-  },
-  {
-    "name": "digit5.jpg",
-    "url": "https://cdn.prod.website-files.com/68d6ca150ffa11fdc25d7575/6aa6b70027f3ee081dff46df_card-industrial.avif",
-    "kind": "image",
-    "locale": "zh",
-    "renderImage": true
-  },
-  {
-    "name": "axon.jpg",
-    "url": "https://a.storyblok.com/f/198504/3840x2680/90b51a8445/ab5_presskit_no-bg2.webp",
-    "kind": "image",
-    "locale": "en",
-    "renderImage": true
-  },
-  {
-    "name": "redbear.jpg",
-    "url": "https://x0.ifengimg.com/res/2026/21D7B4DA6A6848A52D7D09F091095BA642567E79_size469_w782_h439.png",
-    "kind": "image",
-    "locale": "zh",
-    "renderImage": true
-  },
-  {
-    "name": "redbear2.jpg",
-    "url": "https://x0.ifengimg.com/res/2026/F3773301F801C129894168A958AD9791F29B6BDC_size322_w782_h439.png",
-    "kind": "image",
-    "locale": "en",
-    "renderImage": true
-  },
-  {
-    "name": "dify-routes.jpg",
-    "url": "https://github.com/user-attachments/assets/30480ac3-d53e-4522-b1c5-95eb1d9ac9f2",
-    "kind": "image",
-    "locale": "zh",
-    "renderImage": true
-  },
-  {
-    "name": "worldstream.jpg",
-    "url": "https://arxiv.org/html/2610.28827v1/figures/teaser-worldstream.jpg",
-    "kind": "image",
-    "locale": "en",
-    "renderImage": true
-  },
-  {
-    "name": "himmbo.jpg",
-    "url": "https://arxiv.org/html/2610.30875v1/fig_teaser.png",
-    "kind": "image",
-    "locale": "zh",
-    "renderImage": true
-  },
-  {
-    "name": "gemini-sites.jpg",
-    "url": "https://www.androidauthority.com/wp-content/uploads/2026/10/Export-Gemini-apps-to-Google-Sites-1.jpg",
-    "kind": "image",
-    "locale": "en",
-    "renderImage": true
-  },
-  {
-    "name": "chatgpt-library.jpg",
-    "url": "https://us1.discourse-cdn.com/openai1/original/4X/8/2/a/82a85019e979abf4a5c8442be260060610c239cf.png",
-    "kind": "image",
-    "locale": "zh",
-    "renderImage": true
-  },
-  {
-    "name": "avy.jpg",
-    "url": "https://derivative.ca/sites/default/files/styles/project_teaser_small/public/field/image/thumb_2.png",
-    "kind": "image",
-    "locale": "en",
-    "renderImage": true
-  },
-  {
-    "name": "tutorcasebench.jpg",
-    "url": "https://arxiv.org/html/2610.30828v1/figures/validation_interface.png",
+    "name": "zcad-3.jpg",
+    "url": "https://ph-files.imgix.net/395aaaae-a967-4615-b3e8-b5469ea48753.jpeg",
     "kind": "image",
     "renderImage": true,
     "locale": "zh"
   },
   {
-    "name": "path.jpg",
-    "url": "https://arxiv.org/html/2610.30605v1/figure2_shebei_all.png",
+    "name": "zcad-4.jpg",
+    "url": "https://ph-files.imgix.net/6c690977-6fe7-49fa-ba4c-f1972bfa0738.png",
     "kind": "image",
     "renderImage": true,
     "locale": "en"
   },
   {
-    "name": "bloblings.jpg",
-    "url": "https://bloblings.app/img/themes/night.webp?v=2",
+    "name": "zcad-5.jpg",
+    "url": "https://ph-files.imgix.net/0cc762ac-9d32-4459-9dfd-12f9850407e6.png",
     "kind": "image",
     "renderImage": true,
     "locale": "zh"
   },
   {
-    "name": "homesurvey.jpg",
-    "url": "https://homesurvey.ai/assets/images/iam-2026/dashboard_item-detail_dining-table.webp",
+    "name": "kept.jpg",
+    "url": "https://ph-files.imgix.net/1db6df71-2a8a-4955-ac43-715ebaaef8ca.jpeg",
     "kind": "image",
     "renderImage": true,
     "locale": "en"
   },
   {
-    "name": "ltx-m1.jpg",
-    "url": "https://external-preview.redd.it/ltx-2-5-distilled-22b-quantized-to-q4-running-locally-on-an-v0-OTg2Z2U4NzA5YnhoMYqRbncr2NzWZ8rAWV2BzveQrRx2uNvZutQYRHCSTdxj.png?auto=webp&crop=smart&format=pjpg&s=321d3e7a28f40c50cba060bab698f7fcdbc4f020&width=640",
+    "name": "basedash-instruction.jpg",
+    "url": "https://www.basedash.com/_blog-images/6cdd707ae3169c44/1600.webp",
     "kind": "image",
     "renderImage": true,
     "locale": "zh"
   },
   {
-    "name": "minimax-lora.jpg",
-    "url": "https://external-preview.redd.it/18-clip-reel-of-my-minimax-h3-lora-on-a-3090-v0-N2RvZ3A1aXg0Y3hoMQib4tpy_BH_Ep_MvCW_44-e_tUlybRy8jgS38l23HrK.png?auto=webp&crop=smart&format=pjpg&s=c119a6f526fee1fbb1b1fada32766914cf2caa6f&width=640",
+    "name": "basedash-slack.jpg",
+    "url": "https://www.basedash.com/_blog-images/60b63ad1491afb4b/1600.webp",
     "kind": "image",
     "renderImage": true,
     "locale": "en"
   },
   {
-    "name": "contestable.jpg",
-    "url": "https://arxiv.org/html/2610.31553v1/figures/fig_hvac_workflow.png",
-    "kind": "image",
-    "renderImage": true,
+    "name": "kept-inventory.json",
+    "url": "https://apps.apple.com/us/app/kept-tasks-habits-goals/id6792791422",
+    "kind": "inventory",
     "locale": "en"
   }
 ]
