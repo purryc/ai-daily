@@ -2,40 +2,36 @@
   {
     "kind": "image",
     "renderImage": true,
-    "name": "gala.jpg",
-    "url": "https://xccelephant.github.io/paper/gala/static/images/teaser.jpg",
+    "name": "agentvalley-display.jpg",
+    "url": "https://raw.githubusercontent.com/morsechimwai/agent-valley/main/site/public/display/still.webp",
     "locale": "zh"
   },
   {
     "kind": "image",
     "renderImage": true,
-    "name": "rlmuscle.jpg",
-    "url": "https://chunleili.github.io/project-page-rlmuscle/static/images/teaser.png",
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "kept-capture.jpg",
-    "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/42/50/33/42503311-479e-2944-cbb3-43767722bb0c/02-capture.png/600x1300bb.webp",
+    "name": "agentvalley-asking.jpg",
+    "url": "https://raw.githubusercontent.com/morsechimwai/agent-valley/main/site/public/needs-you/open-asking.webp",
     "locale": "zh"
   },
   {
-    "kind": "inventory",
-    "name": "sideos-inventory.json",
+    "kind": "page",
+    "name": "sideos-demo.jpg",
     "url": "https://sideos.ai/",
+    "selector": "section:has-text(\"Seven things\")",
     "locale": "en"
   },
   {
     "kind": "page",
-    "name": "sideos-page.jpg",
-    "url": "https://sideos.ai/",
+    "name": "zcad-workspace.jpg",
+    "url": "https://zcad.ai/products/online",
+    "selector": "img[src*=\"zcad-online-workspace\"]",
     "locale": "en"
   },
   {
-    "kind": "inventory",
-    "name": "zcad-inventory.json",
-    "url": "https://zcad.ai/products/ai",
+    "kind": "image",
+    "renderImage": true,
+    "name": "gaze-study.jpg",
+    "url": "https://arxiv.org/html/2610.25512v1/study_setting.png",
     "locale": "zh"
   }
 ]
