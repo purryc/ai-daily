@@ -1,0 +1,639 @@
+{
+  "date": "2026-10-25",
+  "timezone": "America/Toronto",
+  "cutoff": "2026-10-25T08:04:45Z",
+  "windowStart": "2026-10-24T08:04:45Z",
+  "metrics": {
+    "body": {
+      "zhDenseChars": 20286,
+      "enWords": 11831
+    },
+    "perProduct": {
+      "kept-capture-daily-plan": {
+        "zh": 767,
+        "en": 488
+      },
+      "mypip-hive-games": {
+        "zh": 777,
+        "en": 459
+      },
+      "sideos-offline-models": {
+        "zh": 756,
+        "en": 453
+      },
+      "bloblings-codex-session-fixes": {
+        "zh": 777,
+        "en": 457
+      },
+      "agentvalley-audio-display": {
+        "zh": 751,
+        "en": 447
+      },
+      "redbear-notebear": {
+        "zh": 814,
+        "en": 453
+      },
+      "homesurvey-glasses-onsite": {
+        "zh": 761,
+        "en": 422
+      },
+      "microduck-room-mapping": {
+        "zh": 741,
+        "en": 424
+      },
+      "axon-body5-near-focus": {
+        "zh": 746,
+        "en": 424
+      },
+      "digit5-compute-safety": {
+        "zh": 739,
+        "en": 423
+      },
+      "gemini-sites-app-export": {
+        "zh": 762,
+        "en": 457
+      },
+      "basedash-scheduled-csv": {
+        "zh": 732,
+        "en": 426
+      },
+      "dify-1.18.0": {
+        "zh": 740,
+        "en": 426
+      },
+      "kimi-k31-pro-api": {
+        "zh": 780,
+        "en": 453
+      },
+      "capy-flash-cache-resume": {
+        "zh": 693,
+        "en": 424
+      },
+      "google-adk-2.13.0": {
+        "zh": 760,
+        "en": 426
+      },
+      "pydantic-ai-2.61-citations": {
+        "zh": 733,
+        "en": 434
+      },
+      "agent-framework-python-1.23": {
+        "zh": 774,
+        "en": 424
+      },
+      "langgraph-priority-beta": {
+        "zh": 732,
+        "en": 424
+      },
+      "vercel-ai-sdk-7.0.153": {
+        "zh": 701,
+        "en": 428
+      },
+      "himmbo": {
+        "zh": 725,
+        "en": 424
+      },
+      "gala-object-arrangement": {
+        "zh": 779,
+        "en": 454
+      },
+      "worldstream": {
+        "zh": 767,
+        "en": 425
+      },
+      "rlmuscle": {
+        "zh": 755,
+        "en": 444
+      },
+      "tutorcasebench": {
+        "zh": 749,
+        "en": 431
+      },
+      "contestable-agents": {
+        "zh": 756,
+        "en": 426
+      },
+      "gaze-persistent-interpretation": {
+        "zh": 719,
+        "en": 455
+      }
+    },
+    "primarySummaries": {
+      "kept-capture-daily-plan": {
+        "zh": 209,
+        "en": 118
+      },
+      "mypip-hive-games": {
+        "zh": 226,
+        "en": 121
+      },
+      "sideos-offline-models": {
+        "zh": 206,
+        "en": 130
+      },
+      "bloblings-codex-session-fixes": {
+        "zh": 211,
+        "en": 122
+      },
+      "agentvalley-audio-display": {
+        "zh": 217,
+        "en": 124
+      },
+      "redbear-notebear": {
+        "zh": 206,
+        "en": 115
+      },
+      "homesurvey-glasses-onsite": {
+        "zh": 207,
+        "en": 115
+      },
+      "microduck-room-mapping": {
+        "zh": 211,
+        "en": 116
+      },
+      "axon-body5-near-focus": {
+        "zh": 205,
+        "en": 125
+      },
+      "digit5-compute-safety": {
+        "zh": 207,
+        "en": 113
+      },
+      "gemini-sites-app-export": {
+        "zh": 205,
+        "en": 112
+      },
+      "basedash-scheduled-csv": {
+        "zh": 213,
+        "en": 122
+      },
+      "dify-1.18.0": {
+        "zh": 205,
+        "en": 118
+      },
+      "kimi-k31-pro-api": {
+        "zh": 200,
+        "en": 113
+      },
+      "capy-flash-cache-resume": {
+        "zh": 200,
+        "en": 122
+      },
+      "google-adk-2.13.0": {
+        "zh": 204,
+        "en": 120
+      },
+      "pydantic-ai-2.61-citations": {
+        "zh": 209,
+        "en": 121
+      },
+      "agent-framework-python-1.23": {
+        "zh": 210,
+        "en": 124
+      },
+      "langgraph-priority-beta": {
+        "zh": 213,
+        "en": 120
+      },
+      "vercel-ai-sdk-7.0.153": {
+        "zh": 201,
+        "en": 119
+      },
+      "himmbo": {
+        "zh": 211,
+        "en": 113
+      },
+      "gala-object-arrangement": {
+        "zh": 209,
+        "en": 116
+      },
+      "worldstream": {
+        "zh": 206,
+        "en": 116
+      },
+      "rlmuscle": {
+        "zh": 216,
+        "en": 115
+      },
+      "tutorcasebench": {
+        "zh": 211,
+        "en": 118
+      },
+      "contestable-agents": {
+        "zh": 209,
+        "en": 111
+      },
+      "gaze-persistent-interpretation": {
+        "zh": 221,
+        "en": 113
+      }
+    },
+    "counting": "Only unique full-analysis product paragraphs count toward body gates; summaries, captions, coverage and sources excluded.",
+    "products": 27,
+    "references": 101,
+    "coreVisuals": 27,
+    "slidesPerLocale": 30,
+    "primaryProjectPages": 27,
+    "attachedProjectDetails": 27,
+    "primaryBody": {
+      "zhDenseChars": 5648,
+      "enWords": 3192
+    },
+    "completeReadingBody": {
+      "zhDenseChars": 25934,
+      "enWords": 15023
+    }
+  },
+  "revision": {
+    "label": "morning-edition",
+    "originalCutoffRetained": true,
+    "newIssue": true,
+    "baselineCommit": "3b0339144040ad29c8dd4b9281ba261b908d65d8"
+  },
+  "topics": [
+    {
+      "id": "kept-capture-daily-plan",
+      "zhHeadline": "Kept先把一句话拆给你看，再安排今天的三件事",
+      "enHeadline": "Kept shows how it parsed a thought before putting it on your day",
+      "eventAt": "2026-10-24",
+      "freshness": "near-three-day",
+      "evidence": "Developer App Store release notes, official product and privacy documentation; no hands-on test",
+      "eventDateNote": "day; App Store datetime verified by existing publisher inventory, exact clock and timezone unknown",
+      "event_key": "kept:1.9.9:parse-preview-note-undo:2026-10-24",
+      "product_key": "kept.do:6792791422",
+      "publishedAt": "2026-10-24",
+      "observedAt": "2026-10-25T08:23:00Z",
+      "delta_since_last_seen": "Version 1.9.9 steadies the daily Top 3, exposes note-filing changes for review and undo, and improves side-by-side planning layouts."
+    },
+    {
+      "id": "mypip-hive-games",
+      "zhHeadline": "myPip让朋友边描述边试玩，同一个游戏也能一起改",
+      "enHeadline": "myPip lets friends build, revise and play the same game together",
+      "eventAt": "2026-10-24",
+      "freshness": "near-three-day",
+      "evidence": "startup signal; official product description and maker demonstration claims, not independent test",
+      "eventDateNote": "day; exact clock/timezone unverified, lower primary-window boundary unresolved",
+      "event_key": "mypip:ph-hive-game-creation:2026-10-24",
+      "product_key": "mypip.dev",
+      "publishedAt": "2026-10-24",
+      "observedAt": "2026-10-25T08:11:51Z",
+      "delta_since_last_seen": "The October 24 PH appearance highlights Hive coding, controller input and scanning people into characters. Individual feature launch times remain unverified."
+    },
+    {
+      "id": "sideos-offline-models",
+      "zhHeadline": "sideOS扩充本地视觉模型，圈住屏幕也能交给离线助手",
+      "enHeadline": "sideOS adds local vision choices for pointing at work on your Mac",
+      "eventAt": "2026-10-24",
+      "freshness": "near-three-day",
+      "evidence": "confirmed product documentation; vendor claims, no editorial runtime test",
+      "eventDateNote": "day; exact clock/timezone unverified, lower primary-window boundary unresolved",
+      "event_key": "sideos:0.9.8:offline-models:2026-10-24",
+      "product_key": "sideos.ai",
+      "publishedAt": "2026-10-24",
+      "observedAt": "2026-10-25T08:11:51Z",
+      "delta_since_last_seen": "Added Gemma and Ministral models accept screenshots and attachments, extending local handling of visual tasks. This is an update to an existing app."
+    },
+    {
+      "id": "bloblings-codex-session-fixes",
+      "zhHeadline": "Bloblings补回遗漏的Codex会话，宠物面板也要认清谁在做事",
+      "enHeadline": "Bloblings restores missing Codex chats and puts child runs under their parent",
+      "eventAt": "2026-10-20",
+      "freshness": "seven-day",
+      "evidence": "confirmed product release notes and maker claims; no editor runtime test",
+      "eventDateNote": "day; official release notes, exact clock/timezone unknown",
+      "event_key": "bloblings:1.0.27:codex-session-subtasks:2026-10-20",
+      "product_key": "bloblings.app",
+      "publishedAt": "2026-10-20",
+      "observedAt": "2026-10-25T08:18:00Z",
+      "delta_since_last_seen": "It also fixes waking an idle thread for a note. The subtask change requires rerunning the Codex setup prompt; the PH appearance is not its release date."
+    },
+    {
+      "id": "agentvalley-audio-display",
+      "zhHeadline": "AgentValley用声音区分代理何时要人，刘海面板也能搬到外屏",
+      "enHeadline": "AgentValley gives waiting agents distinct voices and a choice of display",
+      "eventAt": "2026-10-24",
+      "freshness": "near-three-day",
+      "evidence": "confirmed product documentation; vendor claims, no editorial runtime test",
+      "eventDateNote": "Changelog day precision. GitHub release page displays Oct24 04:17/05:14/08:12/14:25 without explicit timezone in extracted text; no UTC conversion asserted.",
+      "event_key": "agentvalley:0.3.0-0.3.3:audio-display:2026-10-24",
+      "product_key": "github:morsechimwai/agent-valley",
+      "publishedAt": "2026-10-24",
+      "observedAt": "2026-10-25T08:11:51Z",
+      "delta_since_last_seen": "October 24 updates add distinct audible cues for requests and completion, plus a choice of external display. It does not supply a new coding model."
+    },
+    {
+      "id": "redbear-notebear",
+      "zhHeadline": "笔记熊把录音按人和项目关联，下次开会前找回决定与待办",
+      "enHeadline": "NoteBear links recordings to people, projects and earlier decisions",
+      "eventAt": "2026-10-24",
+      "freshness": "near-three-day",
+      "evidence": "Issuer-style launch account plus journalist report; no independent product test",
+      "eventDateNote": "Confirmed event day; prior event invitation scheduled October24 11:00 Beijing (03:00Z), actual on-stage clock not independently verified. Source publication at18:53:48 is not launch time.",
+      "event_key": "redbear:notebear:wtcc-launch:2026-10-24",
+      "product_key": "redbear:notebear",
+      "publishedAt": "2026-10-24T18:53:48+08:00",
+      "observedAt": "2026-10-25T08:11:31Z",
+      "delta_since_last_seen": "A pre-meeting review brings together earlier discussions, changed budgets and unfinished work, reducing the need to reopen separate notes. New information updates earlier conclusions."
+    },
+    {
+      "id": "homesurvey-glasses-onsite",
+      "zhHeadline": "HomeSurvey把眼镜拍到的家具整理成搬家清单，报价前仍能逐件改",
+      "enHeadline": "HomeSurvey turns a glasses walkthrough into an editable moving inventory",
+      "eventAt": "2026-10-21/2026-10-24",
+      "freshness": "seven-day",
+      "evidence": "confirmed product documentation; vendor engineering disclosure, not independent test",
+      "eventDateNote": "Official page says launched at IAM2026 and identifies October21–24 booth dates; exact first-availability clock not stated. Conservative seven-day event interval, not October24 launch.",
+      "event_key": "homesurvey:iam2026-onsite-glasses-workflow",
+      "product_key": "homesurvey:onsite-glasses",
+      "publishedAt": null,
+      "observedAt": "2026-10-25T08:22:00Z",
+      "delta_since_last_seen": "The new capture route reuses the existing phone-video pipeline, rather than measuring rooms live inside the glasses. Recording frees the hands; upload and quote review remain."
+    },
+    {
+      "id": "microduck-room-mapping",
+      "zhHeadline": "Microduck被抱到房间另一边后，用64个测距点重新找位置",
+      "enHeadline": "Microduck uses 64 depth readings to find itself after being carried",
+      "eventAt": "2026-10-23",
+      "freshness": "near-three-day",
+      "evidence": "confirmed product documentation; vendor engineering disclosure, not independent test",
+      "eventDateNote": "day precision; exact publication clock not given",
+      "event_key": "pollen:microduck:contact-odometry-room-slam:2026-10-23",
+      "product_key": "pollen:microduck",
+      "publishedAt": "2026-10-23",
+      "observedAt": "2026-10-25T08:17:34Z",
+      "delta_since_last_seen": "After being carried, it matches nearby obstacles during stops. Mapping runs onboard; the external camera in the demonstration only measures ground truth."
+    },
+    {
+      "id": "axon-body5-near-focus",
+      "zhHeadline": "Axon Body 5 Pro增加近焦镜头，扫描证件后直接在相机看结果",
+      "enHeadline": "Axon Body 5 Pro adds a close-focus camera for document checks",
+      "eventAt": "2026-10-24T17:00:00Z",
+      "freshness": "main",
+      "evidence": "confirmed product announcement; capabilities and performance are vendor claims; not yet general availability",
+      "eventDateNote": "Issuer distribution October24 13:00 ET =17:00Z; original company release day-only.",
+      "event_key": "axon:body5:announcement-nearfocus-guardian:2026-10-24",
+      "product_key": "axon:body5",
+      "publishedAt": "2026-10-24T17:00:00Z",
+      "observedAt": "2026-10-25T08:17:34Z",
+      "delta_since_last_seen": "During recording, Guardian can flag signs of escalation; a human reviews the livestream and decides whether support is needed."
+    },
+    {
+      "id": "digit5-compute-safety",
+      "zhHeadline": "Digit 5把计算与安全监控装进机身，断网也要守住动作边界",
+      "enHeadline": "Digit 5 brings compute and safety monitoring onboard",
+      "eventAt": "2026-10-22T11:00:00Z",
+      "freshness": "near-three-day",
+      "evidence": "confirmed product documentation; vendor engineering disclosure, not independent test",
+      "eventDateNote": "Issuer distribution October22 07:00 ET =11:00Z; October23 AMA recap day-only, questions answered October22.",
+      "event_key": "agility:digit5:igx-thor-safety-compute:2026-10-22",
+      "product_key": "agility:digit5",
+      "publishedAt": "2026-10-22T11:00:00Z",
+      "observedAt": "2026-10-25T08:17:34Z",
+      "delta_since_last_seen": "Agility plans to standardize the general-availability version on NVIDIA IGX Thor and integrate Halos capabilities with its human-detection system."
+    },
+    {
+      "id": "gemini-sites-app-export",
+      "zhHeadline": "Gemini生成的小应用可直接放进Sites，后续更新怎么接仍待说明",
+      "enHeadline": "Gemini apps can become Google Sites drafts; later updates remain an open question",
+      "eventAt": "2026-10-19",
+      "freshness": "seven-day",
+      "evidence": "Official documented workflow; two visible Reddit questions about update behavior, not tested defects or popularity.",
+      "eventDateNote": "day; official announcement has no exact clock or timezone",
+      "event_key": "google:gemini-sites-export:2026-10-19",
+      "product_key": "google:gemini-sites-export",
+      "publishedAt": "2026-10-19",
+      "observedAt": "2026-10-25T08:12:30Z",
+      "delta_since_last_seen": "The October 19 update removes a manual code-transfer step. Later coverage does not make this a new October 23 release."
+    },
+    {
+      "id": "basedash-scheduled-csv",
+      "zhHeadline": "Basedash把报表背后的行数据一并送出，收件人不用再索要导出",
+      "enHeadline": "Basedash sends the underlying rows with its recurring analysis",
+      "eventAt": "2026-10-24",
+      "freshness": "near-three-day",
+      "evidence": "Original maintainer release, implementation and documentation; no editorial runtime test",
+      "eventDateNote": "day; timezone unknown; lower-window boundary unresolved",
+      "event_key": "basedash:scheduled-csv:2026-10-24",
+      "product_key": "basedash",
+      "publishedAt": "2026-10-24",
+      "observedAt": "2026-10-25T08:11:55Z",
+      "delta_since_last_seen": "Slack places the file in the message thread; email and run history provide download links, reducing separate manual exports."
+    },
+    {
+      "id": "dify-1.18.0",
+      "zhHeadline": "Dify让代理直接选分支，迁移应用时把技能和文件一起带走",
+      "enHeadline": "Dify lets agents choose a branch and packages their supporting files",
+      "eventAt": "2026-10-23T06:33:50Z",
+      "freshness": "near-three-day",
+      "evidence": "Original maintainer release, implementation and documentation; no editorial runtime test",
+      "eventDateNote": "second",
+      "event_key": "github:langgenius/dify:1.18.0",
+      "product_key": "github:langgenius/dify",
+      "publishedAt": "2026-10-23T06:33:50Z",
+      "observedAt": "2026-10-25T08:11:55Z",
+      "delta_since_last_seen": "The .ifpkg export moves supported agents, skills and files together, recreating their references in the destination workspace instead of requiring separate transfers. Explicit YAML export remains, and missing resources are reported during import."
+    },
+    {
+      "id": "kimi-k31-pro-api",
+      "zhHeadline": "Kimi K3.1 Pro保留工具调用上下文，长任务接入要改的不只是模型名",
+      "enHeadline": "Kimi K3.1 Pro keeps tool context intact across a long task",
+      "eventAt": "2026-10-23",
+      "freshness": "near-three-day",
+      "evidence": "Official release and implementation documentation; not independent model evaluation",
+      "eventDateNote": "Official forum displayed October23 8:12pm without timezone; do not convert to UTC. Chinese reporting describes October24 early morning. Recent72h supplement.",
+      "event_key": "moonshot:kimi-k31-pro:api-release:2026-10-23",
+      "product_key": "moonshot:kimi-k31-pro",
+      "publishedAt": "2026-10-23T20:12:00",
+      "observedAt": "2026-10-25T08:11:31Z",
+      "delta_since_last_seen": "Reasoning stays enabled, with low, high or max effort. Streaming reasoning and final output are separate, so retaining only visible text loses required state."
+    },
+    {
+      "id": "capy-flash-cache-resume",
+      "zhHeadline": "capy-flash让长对话读回磁盘缓存，重启后少算一遍上下文",
+      "enHeadline": "capy-flash restores longer disk caches after a restart",
+      "eventAt": "2026-10-24T21:25:13Z",
+      "freshness": "main",
+      "evidence": "Original maintainer release, implementation and documentation; no editorial runtime test",
+      "eventDateNote": "second",
+      "event_key": "github:ValerioDolci/capy-flash:v0.7.5",
+      "product_key": "github:ValerioDolci/capy-flash",
+      "publishedAt": "2026-10-24T21:25:13Z",
+      "observedAt": "2026-10-25T08:11:55Z",
+      "delta_since_last_seen": "Version 0.7.4 fixes long-history and single-GPU disk restoration; 0.7.5 adds optional CPU and PCIe calibration for splitting missed experts."
+    },
+    {
+      "id": "google-adk-2.13.0",
+      "zhHeadline": "ADK把语音拆成可替换三段，插话后只保留已播放的话",
+      "enHeadline": "ADK separates speech stages and trims interrupted playback history",
+      "eventAt": "2026-10-23T18:08:23Z",
+      "freshness": "near-three-day",
+      "evidence": "Original maintainer release, implementation and documentation; no editorial runtime test",
+      "eventDateNote": "second",
+      "event_key": "github:google/adk-python:v2.13.0",
+      "product_key": "github:google/adk-python",
+      "publishedAt": "2026-10-23T18:08:23Z",
+      "observedAt": "2026-10-25T08:11:55Z",
+      "delta_since_last_seen": "When the user speaks, the connection cancels reasoning and synthesis, tells the client to stop playback and trims history against the audio timeline."
+    },
+    {
+      "id": "pydantic-ai-2.61-citations",
+      "zhHeadline": "Pydantic AI把引用接到具体文字，换前端后仍能带回来源",
+      "enHeadline": "Pydantic AI attaches citations to answer spans and preserves them through the UI",
+      "eventAt": "2026-10-24T03:13:40Z",
+      "freshness": "near-three-day",
+      "evidence": "Original maintainer release, implementation and documentation; no editorial runtime test",
+      "eventDateNote": "second",
+      "event_key": "github:pydantic/pydantic-ai:v2.61.0",
+      "product_key": "github:pydantic/pydantic-ai",
+      "publishedAt": "2026-10-24T03:13:40Z",
+      "observedAt": "2026-10-25T08:11:55Z",
+      "delta_since_last_seen": "Applications need less provider-specific parsing, although citations can arrive after their text. The completed response is the reliable place to collect them. Original provider fields remain available, and merged text parts require shifted citation anchors."
+    },
+    {
+      "id": "agent-framework-python-1.23",
+      "zhHeadline": "Agent Framework要求先划定会话归属，多次审批的结果也要完整留下",
+      "enHeadline": "Agent Framework makes session ownership explicit and preserves queued approvals",
+      "eventAt": "2026-10-22T17:05:37Z",
+      "freshness": "near-three-day",
+      "evidence": "Original maintainer release, implementation and documentation; no editorial runtime test",
+      "eventDateNote": "second",
+      "event_key": "github:microsoft/agent-framework:python-1.23.0",
+      "product_key": "github:microsoft/agent-framework",
+      "publishedAt": "2026-10-22T17:05:37Z",
+      "observedAt": "2026-10-25T08:11:55Z",
+      "delta_since_last_seen": "Results from separately submitted approvals are retained in persisted snapshots in call order, avoiding incomplete history when the next turn begins."
+    },
+    {
+      "id": "langgraph-priority-beta",
+      "zhHeadline": "LangGraph让应用按线程分配优先级，排队规则不必藏在提示词里",
+      "enHeadline": "LangGraph assigns thread priority through application policy",
+      "eventAt": "2026-10-23T14:19:24Z",
+      "freshness": "near-three-day",
+      "evidence": "Original maintainer release, implementation and documentation; no editorial runtime test",
+      "eventDateNote": "second",
+      "event_key": "github:langchain-ai/langgraph:sdk==0.4.9",
+      "product_key": "github:langchain-ai/langgraph",
+      "publishedAt": "2026-10-23T14:19:24Z",
+      "observedAt": "2026-10-25T08:11:55Z",
+      "delta_since_last_seen": "Later runs reuse those settings. Priority, group and weight can be specified separately, with defaults for omitted fields. New threads can have no identifier yet, so the policy must handle that case."
+    },
+    {
+      "id": "vercel-ai-sdk-7.0.153",
+      "zhHeadline": "Vercel AI SDK只解析最后一份正式JSON，保留此前回答供追踪",
+      "enHeadline": "Vercel AI SDK parses the last final JSON without discarding earlier content",
+      "eventAt": "2026-10-24T17:57:31Z",
+      "freshness": "main",
+      "evidence": "Original maintainer release, implementation and documentation; no editorial runtime test",
+      "eventDateNote": "second",
+      "event_key": "github:vercel/ai:ai@7.0.153",
+      "product_key": "github:vercel/ai",
+      "publishedAt": "2026-10-24T17:57:31Z",
+      "observedAt": "2026-10-25T08:11:55Z",
+      "delta_since_last_seen": "The parsed object supports application work while complete text, annotations, message history and token usage remain available to explain the actual response."
+    },
+    {
+      "id": "himmbo",
+      "zhHeadline": "HimmBO先让人挑图，再调混合比例，减少找画风的生成等待",
+      "enHeadline": "HimmBO screens styles before spending generations on adapter mixtures",
+      "eventAt": "2026-10-22T07:56:10Z",
+      "freshness": "seven-day",
+      "evidence": "research signal; author experiments, no independent reproduction",
+      "eventDateNote": "second precision arXiv submission; public announcement time unconfirmed",
+      "event_key": "arxiv:2610.30875:v1",
+      "product_key": "arxiv:2610.30875",
+      "publishedAt": "2026-10-22T07:56:10Z",
+      "observedAt": "2026-10-25T08:17:57.274617+00:00",
+      "delta_since_last_seen": "Style features transfer feedback to similar candidates. Screening retains several promising directions; refinement searches eight adapters."
+    },
+    {
+      "id": "gala-object-arrangement",
+      "zhHeadline": "GALA看见家具的空隙，再把物体放到指定位置",
+      "enHeadline": "GALA uses object geometry to place things inside and beneath furniture",
+      "eventAt": "2026-10-20T14:32:52Z",
+      "freshness": "seven-day",
+      "evidence": "research signal; author experiments, no independent reproduction",
+      "eventDateNote": "second precision arXiv submission; public announcement time unconfirmed",
+      "event_key": "arxiv:2610.28280:v1",
+      "product_key": "arxiv:2610.28280",
+      "publishedAt": "2026-10-20T14:32:52Z",
+      "observedAt": "2026-10-25T08:27:53.737390+00:00",
+      "delta_since_last_seen": "A 0.7B language model uses point-cloud features. A surrounding agent plans objects, checks collisions, floating and relationships, and retries placements."
+    },
+    {
+      "id": "worldstream",
+      "zhHeadline": "WorldStream边走边建三维世界，回头仍能找到改过的地方",
+      "enHeadline": "WorldStream builds ahead of the player and remembers edited places",
+      "eventAt": "2026-10-20T18:47:26Z",
+      "freshness": "seven-day",
+      "evidence": "research signal; author experiments, no independent reproduction",
+      "eventDateNote": "second precision arXiv submission; public announcement time unconfirmed",
+      "event_key": "arxiv:2610.28827:v1",
+      "product_key": "arxiv:2610.28827",
+      "publishedAt": "2026-10-20T18:47:26Z",
+      "observedAt": "2026-10-25T08:17:57.274617+00:00",
+      "delta_since_last_seen": "Regional and tile planners organize roads and settlements. Retained identities, seeds and edits allow unloaded places to be reconstructed."
+    },
+    {
+      "id": "rlmuscle",
+      "zhHeadline": "RLMuscle从动作片段求肌肉激活，减少逐条手调曲线",
+      "enHeadline": "RLMuscle derives muscle activation from a reference motion clip",
+      "eventAt": "2026-10-21T16:57:34Z",
+      "freshness": "seven-day",
+      "evidence": "research signal; author experiments, no independent reproduction",
+      "eventDateNote": "second precision arXiv submission; public announcement time unconfirmed",
+      "event_key": "arxiv:2610.30033:v1",
+      "product_key": "arxiv:2610.30033",
+      "publishedAt": "2026-10-21T16:57:34Z",
+      "observedAt": "2026-10-25T08:27:53.737390+00:00",
+      "delta_since_last_seen": "A GPU solver combines geometric multigrid, fiber constraints and muscle–bone collision handling. Demonstrations include walking, kicking, swimming and squatting."
+    },
+    {
+      "id": "tutorcasebench",
+      "zhHeadline": "TutorCaseBench检查学生拒绝或走神时，AI到底接了哪一句",
+      "enHeadline": "TutorCaseBench checks how AI responds when students resist or disengage",
+      "eventAt": "2026-10-22T06:58:46Z",
+      "freshness": "seven-day",
+      "evidence": "research signal; author experiments, no independent reproduction",
+      "eventDateNote": "second precision arXiv submission; public announcement time unconfirmed",
+      "event_key": "arxiv:2610.30828:v1",
+      "product_key": "arxiv:2610.30828",
+      "publishedAt": "2026-10-22T06:58:46Z",
+      "observedAt": "2026-10-25T08:17:57.274617+00:00",
+      "delta_since_last_seen": "Across 923 dialogues and eleven models, the best open-ended result is 55.8% meeting at least one case criterion, not classroom success."
+    },
+    {
+      "id": "contestable-agents",
+      "zhHeadline": "Contestable Agents让工程师改具体论据，再决定传感器字段怎么归类",
+      "enHeadline": "Contestable Agents lets engineers challenge evidence before classifying a field",
+      "eventAt": "2026-10-22T16:57:01Z",
+      "freshness": "near-three-day",
+      "evidence": "research signal; author experiments, no independent reproduction",
+      "eventDateNote": "second precision arXiv submission; public announcement time unconfirmed",
+      "event_key": "arxiv:2610.31553:v1",
+      "product_key": "arxiv:2610.31553",
+      "publishedAt": "2026-10-22T16:57:01Z",
+      "observedAt": "2026-10-25T08:17:57.274617+00:00",
+      "delta_since_last_seen": "A synthetic HVAC example corrects a name-based temperature-sensor classification using its documented physical position and records the intervention."
+    },
+    {
+      "id": "gaze-persistent-interpretation",
+      "zhHeadline": "注视助手记住推断后，会把早先的误解带进下一次提醒",
+      "enHeadline": "A gaze-aware assistant can carry an old misinterpretation into its next alert",
+      "eventAt": "2026-10-18T20:01:59Z",
+      "freshness": "seven-day",
+      "evidence": "research signal; author experiments, no independent reproduction",
+      "eventDateNote": "second precision arXiv submission; public announcement time unconfirmed",
+      "event_key": "arxiv:2610.25512:v1",
+      "product_key": "arxiv:2610.25512",
+      "publishedAt": "2026-10-18T20:01:59Z",
+      "observedAt": "2026-10-25T08:32:47.283986+00:00",
+      "delta_since_last_seen": "Fluent interpretation amplifies both correct and incorrect history. Separating evidence status reduces harmful answer changes in the benchmark. The experiment changes stored text, rather than the underlying camera or eye-tracking hardware."
+    }
+  ],
+  "eventCounts": {
+    "mainWindowEvents": 3,
+    "nearThreeDayReviews": 15,
+    "sevenDayReviews": 9,
+    "interpretation": "Announcements, submissions, updates and regional reports; not first product launches."
+  }
+}

@@ -1,0 +1,754 @@
+[
+  {
+    "url": "https://apps.apple.com/us/app/kept-tasks-habits-goals/id6792791422",
+    "title": "Kept App Store and1.9.9 release notes",
+    "publisher": "Thesis Labs LLC",
+    "publishedAt": "2026-10-24",
+    "observedAt": "2026-10-25T08:23:00Z",
+    "number": 1
+  },
+  {
+    "url": "https://kept.do/",
+    "title": "Kept official product page",
+    "publisher": "Kept",
+    "observedAt": "2026-10-25T08:23:00Z",
+    "number": 2
+  },
+  {
+    "url": "https://kept.do/privacy",
+    "title": "Kept privacy documentation",
+    "publisher": "Kept",
+    "observedAt": "2026-10-25T08:23:00Z",
+    "number": 3
+  },
+  {
+    "url": "https://www.producthunt.com/products/kept-7",
+    "title": "Kept PH maker description",
+    "publisher": "Jessie Salas / Product Hunt",
+    "publishedAt": "2026-10-24",
+    "observedAt": "2026-10-25T08:23:00Z",
+    "number": 4
+  },
+  {
+    "url": "https://www.producthunt.com/leaderboard/daily/2026/10/24",
+    "title": "October24 Featured launches",
+    "publisher": "Product Hunt",
+    "publishedAt": "2026-10-24",
+    "observedAt": "2026-10-25T08:11:51Z",
+    "number": 5
+  },
+  {
+    "url": "https://www.producthunt.com/products/mypip-2",
+    "title": "myPip product overview",
+    "publisher": "myPip / Product Hunt",
+    "observedAt": "2026-10-25T08:11:51Z",
+    "number": 6
+  },
+  {
+    "url": "https://www.producthunt.com/p/mypip-2/welcome-2046",
+    "title": "Welcome: myPip maker introduction",
+    "publisher": "Misha Stastna / Product Hunt",
+    "observedAt": "2026-10-25T08:11:51Z",
+    "number": 7
+  },
+  {
+    "url": "https://mypip.dev/",
+    "title": "myPip public homepage shell",
+    "publisher": "myPip",
+    "observedAt": "2026-10-25T08:11:51Z",
+    "number": 8
+  },
+  {
+    "url": "https://mypip.dev/pricing",
+    "title": "myPip pricing route",
+    "publisher": "myPip",
+    "observedAt": "2026-10-25T08:11:51Z",
+    "number": 9
+  },
+  {
+    "url": "https://sideos.ai/changelog",
+    "title": "sideOS release history",
+    "publisher": "sideOS",
+    "publishedAt": "2026-10-24",
+    "observedAt": "2026-10-25T08:11:51Z",
+    "number": 10
+  },
+  {
+    "url": "https://sideos.ai/",
+    "title": "sideOS features and pricing",
+    "publisher": "sideOS",
+    "observedAt": "2026-10-25T08:11:51Z",
+    "number": 11
+  },
+  {
+    "url": "https://sideos.ai/privacy",
+    "title": "sideOS privacy policy",
+    "publisher": "Stockimg AI",
+    "publishedAt": "2026-10-23",
+    "observedAt": "2026-10-25T08:11:51Z",
+    "number": 12
+  },
+  {
+    "url": "https://sideos.ai/terms",
+    "title": "sideOS terms",
+    "publisher": "Stockimg AI",
+    "publishedAt": "2026-10-23",
+    "observedAt": "2026-10-25T08:11:51Z",
+    "number": 13
+  },
+  {
+    "url": "https://www.producthunt.com/products/sideos-ai",
+    "title": "sideOS Product Hunt page",
+    "publisher": "sideOS / Product Hunt",
+    "observedAt": "2026-10-25T08:11:51Z",
+    "number": 14
+  },
+  {
+    "url": "https://bloblings.app/updates",
+    "title": "Bloblings1.0.27 release notes",
+    "publisher": "Bloblings / Nick Pitt",
+    "publishedAt": "2026-10-20",
+    "observedAt": "2026-10-25T08:18:00Z",
+    "number": 15
+  },
+  {
+    "url": "https://bloblings.app/",
+    "title": "Bloblings product and FAQ",
+    "publisher": "Bloblings / Nick Pitt",
+    "observedAt": "2026-10-25T08:18:00Z",
+    "number": 16
+  },
+  {
+    "url": "https://www.producthunt.com/products/bloblings",
+    "title": "Bloblings Product Hunt discussion",
+    "publisher": "Bloblings / Nick Pitt",
+    "observedAt": "2026-10-25T08:18:00Z",
+    "number": 17
+  },
+  {
+    "url": "https://github.com/morsechimwai/agent-valley/blob/main/CHANGELOG.md",
+    "title": "AgentValley changelog",
+    "publisher": "AgentValley",
+    "publishedAt": "2026-10-24",
+    "observedAt": "2026-10-25T08:11:51Z",
+    "number": 18
+  },
+  {
+    "url": "https://github.com/morsechimwai/agent-valley/releases",
+    "title": "AgentValley releases",
+    "publisher": "AgentValley / GitHub",
+    "publishedAt": "2026-10-24",
+    "observedAt": "2026-10-25T08:11:51Z",
+    "number": 19
+  },
+  {
+    "url": "https://github.com/morsechimwai/agent-valley",
+    "title": "AgentValley README and license label",
+    "publisher": "AgentValley",
+    "observedAt": "2026-10-25T08:11:51Z",
+    "number": 20
+  },
+  {
+    "url": "https://www.producthunt.com/products/agentvalley",
+    "title": "AgentValley product discussion",
+    "publisher": "AgentValley / Product Hunt",
+    "observedAt": "2026-10-25T08:11:51Z",
+    "number": 21
+  },
+  {
+    "url": "https://finance.ifeng.com/c/8xULfXo16kF",
+    "title": "红熊AI在WTCC发布笔记熊",
+    "publisher": "环球财经网 / 凤凰网大风号",
+    "publishedAt": "2026-10-24T18:53:48+08:00",
+    "observedAt": "2026-10-25T08:11:31Z",
+    "number": 22
+  },
+  {
+    "url": "https://tidenews.com.cn/news.html?id=3595609",
+    "title": "录音卡也能记住你",
+    "publisher": "潮新闻 / 钱江晚报",
+    "publishedAt": "2026-10-24",
+    "observedAt": "2026-10-25T08:11:31Z",
+    "number": 23
+  },
+  {
+    "url": "https://m.sohu.com/a/1092229976_121627717?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+    "title": "潮新闻原稿转载",
+    "publisher": "钱江晚报 / 搜狐",
+    "publishedAt": "2026-10-24T21:04:00+08:00",
+    "observedAt": "2026-10-25T08:11:31Z",
+    "number": 24
+  },
+  {
+    "url": "https://m.ebrun.com/715222.html",
+    "title": "上海WTCC2026红熊AI与你不见不散",
+    "publisher": "龚作仁 / Laborer / 亿邦动力",
+    "publishedAt": "2026-10-23T09:18:00+08:00",
+    "observedAt": "2026-10-25T08:11:31Z",
+    "number": 25
+  },
+  {
+    "url": "https://movegistics.com/ai-moving-surveys/",
+    "title": "AI Moving Surveys, Hands-Free with AI Glasses",
+    "publisher": "Movegistics",
+    "observedAt": "2026-10-25T08:22:00Z",
+    "number": 26
+  },
+  {
+    "url": "https://homesurvey.ai/how-ai-glasses-work/",
+    "title": "How AI Glasses Work for Onsite Moving Surveys",
+    "publisher": "HelixIQ / HomeSurvey",
+    "observedAt": "2026-10-25T08:22:00Z",
+    "number": 27
+  },
+  {
+    "url": "https://homesurvey.ai/",
+    "title": "HomeSurvey product page",
+    "publisher": "HelixIQ / HomeSurvey",
+    "observedAt": "2026-10-25T08:22:00Z",
+    "number": 28
+  },
+  {
+    "url": "https://homesurvey.ai/privacy-policy/",
+    "title": "HomeSurvey privacy policy",
+    "publisher": "HelixIQ",
+    "publishedAt": "2026-10-19",
+    "observedAt": "2026-10-25T08:22:00Z",
+    "number": 29
+  },
+  {
+    "url": "https://homesurvey.ai/subscription-and-product-use-agreement/",
+    "title": "Subscription and product use agreement",
+    "publisher": "HelixIQ",
+    "publishedAt": "2026-10-19",
+    "observedAt": "2026-10-25T08:22:00Z",
+    "number": 30
+  },
+  {
+    "url": "https://pollen-robotics.com/microduck/blog/microduck-slam/",
+    "title": "SLAM on Microduck with an 8×8 depth sensor",
+    "publisher": "Pollen Robotics",
+    "publishedAt": "2026-10-23",
+    "observedAt": "2026-10-25T08:17:34Z",
+    "number": 31
+  },
+  {
+    "url": "https://pollen-robotics.com/microduck/blog/microduck-odometry/",
+    "title": "Where did the duck go? Odometry from two feet and an IMU",
+    "publisher": "Pollen Robotics",
+    "publishedAt": "2026-10-23",
+    "observedAt": "2026-10-25T08:17:34Z",
+    "number": 32
+  },
+  {
+    "url": "https://pollen-robotics.com/microduck/press-kit/",
+    "title": "Microduck press kit",
+    "publisher": "Pollen Robotics",
+    "observedAt": "2026-10-25T08:17:34Z",
+    "number": 33
+  },
+  {
+    "url": "https://github.com/pollen-robotics/microduck",
+    "title": "Microduck repository README",
+    "publisher": "Pollen Robotics",
+    "observedAt": "2026-10-25T08:17:34Z",
+    "number": 34
+  },
+  {
+    "url": "https://huggingface.co/datasets/pollen-robotics/SLAM_JJ_Salon_with_GT",
+    "title": "SLAM_JJ_Salon_with_GT",
+    "publisher": "Pollen Robotics / Hugging Face",
+    "observedAt": "2026-10-25T08:17:34Z",
+    "number": 35
+  },
+  {
+    "url": "https://www.axon.com/newsroom/press-releases/axon-announces-body-5",
+    "title": "Axon announces Body5",
+    "publisher": "Axon",
+    "publishedAt": "2026-10-24",
+    "observedAt": "2026-10-25T08:17:34Z",
+    "number": 36
+  },
+  {
+    "url": "https://www.prnewswire.com/news-releases/axon-announces-body-5-next-generation-camera-built-for-the-ai-era-302918553.html",
+    "title": "Axon Body5 issuer distribution",
+    "publisher": "Axon / PRNewswire",
+    "publishedAt": "2026-10-24T17:00:00Z",
+    "observedAt": "2026-10-25T08:17:34Z",
+    "number": 37
+  },
+  {
+    "url": "https://www.axon.com/products/axon-body-5-pro",
+    "title": "Axon Body5 Pro product page",
+    "publisher": "Axon",
+    "observedAt": "2026-10-25T08:17:34Z",
+    "number": 38
+  },
+  {
+    "url": "https://www.axon.com/products/axon-ai-era-plan",
+    "title": "AI Era plan",
+    "publisher": "Axon",
+    "observedAt": "2026-10-25T08:17:34Z",
+    "number": 39
+  },
+  {
+    "url": "https://www.agilityrobotics.com/content/agility-robotics-expands-nvidia-collaboration-as-it-prepares-digit-5-for-commercial-scale",
+    "title": "Agility expands NVIDIA collaboration for Digit5",
+    "publisher": "Agility Robotics",
+    "publishedAt": "2026-10-22",
+    "observedAt": "2026-10-25T08:17:34Z",
+    "number": 40
+  },
+  {
+    "url": "https://www.globenewswire.com/news-release/2026/10/22/3386184/0/en/agility-robotics-expands-nvidia-collaboration-as-it-prepares-digit-5-for-commercial-scale.html",
+    "title": "Issuer distribution with release clock",
+    "publisher": "Agility Robotics / GlobeNewswire",
+    "publishedAt": "2026-10-22T11:00:00Z",
+    "observedAt": "2026-10-25T08:17:34Z",
+    "number": 41
+  },
+  {
+    "url": "https://www.agilityrobotics.com/content/jonathan-hurst-answers-your-questions-about-building-digit-5",
+    "title": "Jonathan Hurst answers questions about building Digit5",
+    "publisher": "Agility Robotics",
+    "publishedAt": "2026-10-23",
+    "observedAt": "2026-10-25T08:17:34Z",
+    "number": 42
+  },
+  {
+    "url": "https://www.agilityrobotics.com/solutions/digit-5",
+    "title": "Digit5 product page",
+    "publisher": "Agility Robotics",
+    "observedAt": "2026-10-25T08:17:34Z",
+    "number": 43
+  },
+  {
+    "url": "https://workspaceupdates.googleblog.com/2026/10/publish-interactive-apps-from-gemini-app-to-Google-Sites.html",
+    "title": "Publish interactive apps from the Gemini app to Google Sites",
+    "publisher": "Google",
+    "publishedAt": "2026-10-19",
+    "observedAt": "2026-10-25T08:12:30Z",
+    "number": 44
+  },
+  {
+    "url": "https://support.google.com/sites/answer/6372880?hl=en",
+    "title": "Publish & share your site",
+    "publisher": "Google",
+    "observedAt": "2026-10-25T08:12:30Z",
+    "number": 45
+  },
+  {
+    "url": "https://support.google.com/sites/answer/9652270?hl=en",
+    "title": "Review changes before publishing",
+    "publisher": "Google",
+    "observedAt": "2026-10-25T08:12:30Z",
+    "number": 46
+  },
+  {
+    "url": "https://www.reddit.com/r/Bard/comments/1xe0l8m/publish_interactive_apps_from_the_gemini_app_to/",
+    "title": "Publish interactive apps from Gemini to Google Sites",
+    "publisher": "Reddit r/Bard",
+    "observedAt": "2026-10-25T08:12:30Z",
+    "number": 47
+  },
+  {
+    "url": "https://www.androidauthority.com/gemini-web-apps-google-sites-export-3727259/",
+    "title": "Google just made your Gemini-built web apps easier to share",
+    "publisher": "Android Authority",
+    "publishedAt": "2026-10-23T10:18:00-04:00",
+    "observedAt": "2026-10-25T08:12:30Z",
+    "number": 48
+  },
+  {
+    "url": "https://www.basedash.com/blog/introducing-scheduled-csv-exports",
+    "title": "Scheduled CSV exports launch",
+    "publisher": "Basedash",
+    "publishedAt": "2026-10-24",
+    "observedAt": "2026-10-25T08:11:55Z",
+    "number": 49
+  },
+  {
+    "url": "https://www.basedash.com/docs/features/automations",
+    "title": "Automation documentation",
+    "publisher": "Basedash",
+    "observedAt": "2026-10-25T08:11:55Z",
+    "number": 50
+  },
+  {
+    "url": "https://www.basedash.com/features/automations",
+    "title": "Automations product page",
+    "publisher": "Basedash",
+    "observedAt": "2026-10-25T08:11:55Z",
+    "number": 51
+  },
+  {
+    "url": "https://www.basedash.com/docs/features/accuracy-and-trust",
+    "title": "Accuracy and trust documentation",
+    "publisher": "Basedash",
+    "observedAt": "2026-10-25T08:11:55Z",
+    "number": 52
+  },
+  {
+    "url": "https://github.com/langgenius/dify/releases/tag/1.18.0",
+    "title": "Dify 1.18.0 release",
+    "publisher": "langgenius/dify",
+    "publishedAt": "2026-10-23T06:33:50Z",
+    "observedAt": "2026-10-25T08:11:55Z",
+    "number": 53
+  },
+  {
+    "url": "https://github.com/langgenius/dify/pull/42599",
+    "title": "Agent Output Routes implementation",
+    "publisher": "langgenius/dify",
+    "observedAt": "2026-10-25T08:11:55Z",
+    "number": 54
+  },
+  {
+    "url": "https://github.com/langgenius/dify/pull/42066",
+    "title": "Portable app package implementation",
+    "publisher": "langgenius/dify",
+    "observedAt": "2026-10-25T08:11:55Z",
+    "number": 55
+  },
+  {
+    "url": "https://forum.moonshot.ai/t/kimi-k3-1-pro-has-launched-start-exploring-now/629",
+    "title": "Kimi K3.1 Pro announcement",
+    "publisher": "Moonshot AI",
+    "publishedAt": "2026-10-23",
+    "observedAt": "2026-10-25T08:11:31Z",
+    "number": 56
+  },
+  {
+    "url": "https://platform.kimi.ai/docs/guide/kimi-k3-1-pro-quickstart",
+    "title": "Kimi K3.1 Pro API quickstart",
+    "publisher": "Moonshot AI",
+    "observedAt": "2026-10-25T08:11:31Z",
+    "number": 57
+  },
+  {
+    "url": "https://platform.kimi.ai/docs/guide/use-reasoning-effort",
+    "title": "Reasoning Effort",
+    "publisher": "Moonshot AI",
+    "observedAt": "2026-10-25T08:11:31Z",
+    "number": 58
+  },
+  {
+    "url": "https://platform.kimi.ai/docs/guide/use-kimi-api-to-complete-tool-calls",
+    "title": "Use Kimi API for Tool Calls",
+    "publisher": "Moonshot AI",
+    "observedAt": "2026-10-25T08:11:31Z",
+    "number": 59
+  },
+  {
+    "url": "https://platform.kimi.ai/docs/guide/context-caching",
+    "title": "Best Practices for context caching",
+    "publisher": "Moonshot AI",
+    "observedAt": "2026-10-25T08:11:31Z",
+    "number": 60
+  },
+  {
+    "url": "https://platform.kimi.ai/docs/pricing/chat",
+    "title": "Model Inference Pricing",
+    "publisher": "Moonshot AI",
+    "observedAt": "2026-10-25T08:11:31Z",
+    "number": 61
+  },
+  {
+    "url": "https://github.com/ValerioDolci/capy-flash/releases/tag/v0.7.5",
+    "title": "capy-flash v0.7.5",
+    "publisher": "ValerioDolci/capy-flash",
+    "publishedAt": "2026-10-24T21:25:13Z",
+    "observedAt": "2026-10-25T08:11:55Z",
+    "number": 62
+  },
+  {
+    "url": "https://github.com/ValerioDolci/capy-flash/releases/tag/v0.7.4",
+    "title": "capy-flash v0.7.4",
+    "publisher": "ValerioDolci/capy-flash",
+    "observedAt": "2026-10-25T08:11:55Z",
+    "number": 63
+  },
+  {
+    "url": "https://github.com/ValerioDolci/capy-flash/blob/v0.7.5/docs/serving.md",
+    "title": "Serving documentation at v0.7.5",
+    "publisher": "ValerioDolci/capy-flash",
+    "observedAt": "2026-10-25T08:11:55Z",
+    "number": 64
+  },
+  {
+    "url": "https://github.com/ValerioDolci/capy-flash/blob/v0.7.5/README.md",
+    "title": "README at v0.7.5",
+    "publisher": "ValerioDolci/capy-flash",
+    "observedAt": "2026-10-25T08:11:55Z",
+    "number": 65
+  },
+  {
+    "url": "https://github.com/google/adk-python/releases/tag/v2.13.0",
+    "title": "ADK Python v2.13.0",
+    "publisher": "google/adk-python",
+    "publishedAt": "2026-10-23T18:08:23Z",
+    "observedAt": "2026-10-25T08:11:55Z",
+    "number": 66
+  },
+  {
+    "url": "https://github.com/google/adk-python/blob/v2.13.0/docs/guides/live/cascade_live/index.md",
+    "title": "CascadeLive guide at release tag",
+    "publisher": "google/adk-python",
+    "observedAt": "2026-10-25T08:11:55Z",
+    "number": 67
+  },
+  {
+    "url": "https://github.com/google/adk-python/commit/2e7ef926c953e5daab31cbc7ccb52fc77ebd9ae6",
+    "title": "Barge-in implementation",
+    "publisher": "google/adk-python",
+    "observedAt": "2026-10-25T08:11:55Z",
+    "number": 68
+  },
+  {
+    "url": "https://github.com/google/adk-python/blob/v2.13.0/docs/guides/labs/classifiers/classifier_node/index.md",
+    "title": "ClassifierNode guide at release tag",
+    "publisher": "google/adk-python",
+    "observedAt": "2026-10-25T08:11:55Z",
+    "number": 69
+  },
+  {
+    "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.61.0",
+    "title": "Pydantic AI v2.61.0",
+    "publisher": "pydantic/pydantic-ai",
+    "publishedAt": "2026-10-24T03:13:40Z",
+    "observedAt": "2026-10-25T08:11:55Z",
+    "number": 70
+  },
+  {
+    "url": "https://github.com/pydantic/pydantic-ai/pull/7434",
+    "title": "Structured citations implementation",
+    "publisher": "pydantic/pydantic-ai",
+    "observedAt": "2026-10-25T08:11:55Z",
+    "number": 71
+  },
+  {
+    "url": "https://github.com/pydantic/pydantic-ai/pull/9639",
+    "title": "Vercel adapter citation round trip",
+    "publisher": "pydantic/pydantic-ai",
+    "observedAt": "2026-10-25T08:11:55Z",
+    "number": 72
+  },
+  {
+    "url": "https://github.com/pydantic/pydantic-ai/blob/v2.61.0/docs/citations.md",
+    "title": "Citations release-tag documentation",
+    "publisher": "pydantic/pydantic-ai",
+    "observedAt": "2026-10-25T08:11:55Z",
+    "number": 73
+  },
+  {
+    "url": "https://github.com/microsoft/agent-framework/releases/tag/python-1.23.0",
+    "title": "Agent Framework Python 1.23.0",
+    "publisher": "microsoft/agent-framework",
+    "publishedAt": "2026-10-22T17:05:37Z",
+    "observedAt": "2026-10-25T08:11:55Z",
+    "number": 74
+  },
+  {
+    "url": "https://github.com/microsoft/agent-framework/pull/9413",
+    "title": "Explicit authorization scope",
+    "publisher": "microsoft/agent-framework",
+    "observedAt": "2026-10-25T08:11:55Z",
+    "number": 75
+  },
+  {
+    "url": "https://github.com/microsoft/agent-framework/pull/8851",
+    "title": "Preserve queued approval results",
+    "publisher": "microsoft/agent-framework",
+    "observedAt": "2026-10-25T08:11:55Z",
+    "number": 76
+  },
+  {
+    "url": "https://github.com/microsoft/agent-framework/pull/9583",
+    "title": "Ownership-aware MCP recovery",
+    "publisher": "microsoft/agent-framework",
+    "observedAt": "2026-10-25T08:11:55Z",
+    "number": 77
+  },
+  {
+    "url": "https://github.com/microsoft/agent-framework/pull/9237",
+    "title": "MCP lifecycle design",
+    "publisher": "microsoft/agent-framework",
+    "observedAt": "2026-10-25T08:11:55Z",
+    "number": 78
+  },
+  {
+    "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.9",
+    "title": "LangGraph SDK 0.4.9 release",
+    "publisher": "langchain-ai/langgraph",
+    "observedAt": "2026-10-25T08:11:55Z",
+    "number": 79
+  },
+  {
+    "url": "https://github.com/langchain-ai/langgraph/pull/9392",
+    "title": "Priority beta implementation",
+    "publisher": "langchain-ai/langgraph",
+    "observedAt": "2026-10-25T08:11:55Z",
+    "number": 80
+  },
+  {
+    "url": "https://github.com/langchain-ai/langgraph/pull/9393",
+    "title": "CLI priority configuration",
+    "publisher": "langchain-ai/langgraph",
+    "observedAt": "2026-10-25T08:11:55Z",
+    "number": 81
+  },
+  {
+    "url": "https://github.com/vercel/ai/releases/tag/ai%407.0.153",
+    "title": "AI SDK ai@7.0.153",
+    "publisher": "vercel/ai",
+    "observedAt": "2026-10-25T08:11:55Z",
+    "number": 82
+  },
+  {
+    "url": "https://github.com/vercel/ai/pull/23895",
+    "title": "Parse last final answer PR",
+    "publisher": "vercel/ai",
+    "observedAt": "2026-10-25T08:11:55Z",
+    "number": 83
+  },
+  {
+    "url": "https://github.com/vercel/ai/commit/5475347",
+    "title": "Implementation 5475347",
+    "publisher": "vercel/ai",
+    "observedAt": "2026-10-25T08:11:55Z",
+    "number": 84
+  },
+  {
+    "url": "https://github.com/vercel/ai/blob/5475347/content/providers/01-ai-sdk-providers/03-openai.mdx",
+    "title": "Updated OpenAI provider documentation",
+    "publisher": "vercel/ai",
+    "observedAt": "2026-10-25T08:11:55Z",
+    "number": 85
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.30875",
+    "title": "HimmBO v1 submission history",
+    "publisher": "arXiv",
+    "publishedAt": "2026-10-22T07:56:10Z",
+    "observedAt": "2026-10-25T08:17:57.274617+00:00",
+    "number": 86
+  },
+  {
+    "url": "https://arxiv.org/html/2610.30875v1",
+    "title": "HimmBO full paper",
+    "publisher": "HimmBO authors",
+    "publishedAt": "2026-10-22T07:56:10Z",
+    "observedAt": "2026-10-25T08:17:57.274617+00:00",
+    "number": 87
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.28280",
+    "title": "GALA v1 submission history",
+    "publisher": "arXiv",
+    "publishedAt": "2026-10-20T14:32:52Z",
+    "observedAt": "2026-10-25T08:27:53.737390+00:00",
+    "number": 88
+  },
+  {
+    "url": "https://arxiv.org/html/2610.28280v1",
+    "title": "GALA full paper",
+    "publisher": "GALA authors",
+    "publishedAt": "2026-10-20T14:32:52Z",
+    "observedAt": "2026-10-25T08:27:53.737390+00:00",
+    "number": 89
+  },
+  {
+    "url": "https://xccelephant.github.io/paper/gala/",
+    "title": "GALA official project page",
+    "publisher": "GALA authors",
+    "observedAt": "2026-10-25T08:27:53.737390+00:00",
+    "number": 90
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.28827",
+    "title": "WorldStream v1 submission history",
+    "publisher": "arXiv",
+    "publishedAt": "2026-10-20T18:47:26Z",
+    "observedAt": "2026-10-25T08:17:57.274617+00:00",
+    "number": 91
+  },
+  {
+    "url": "https://arxiv.org/html/2610.28827v1",
+    "title": "WorldStream full paper",
+    "publisher": "WorldStream authors",
+    "publishedAt": "2026-10-20T18:47:26Z",
+    "observedAt": "2026-10-25T08:17:57.274617+00:00",
+    "number": 92
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.30033",
+    "title": "RLMuscle v1 submission history",
+    "publisher": "arXiv",
+    "publishedAt": "2026-10-21T16:57:34Z",
+    "observedAt": "2026-10-25T08:27:53.737390+00:00",
+    "number": 93
+  },
+  {
+    "url": "https://arxiv.org/html/2610.30033v1",
+    "title": "RLMuscle full paper",
+    "publisher": "RLMuscle authors",
+    "publishedAt": "2026-10-21T16:57:34Z",
+    "observedAt": "2026-10-25T08:27:53.737390+00:00",
+    "number": 94
+  },
+  {
+    "url": "https://chunleili.github.io/project-page-rlmuscle/",
+    "title": "RLMuscle official project page",
+    "publisher": "RLMuscle authors",
+    "observedAt": "2026-10-25T08:27:53.737390+00:00",
+    "number": 95
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.30828",
+    "title": "TutorCaseBench v1 submission history",
+    "publisher": "arXiv",
+    "publishedAt": "2026-10-22T06:58:46Z",
+    "observedAt": "2026-10-25T08:17:57.274617+00:00",
+    "number": 96
+  },
+  {
+    "url": "https://arxiv.org/html/2610.30828v1",
+    "title": "TutorCaseBench full paper",
+    "publisher": "TutorCaseBench authors",
+    "publishedAt": "2026-10-22T06:58:46Z",
+    "observedAt": "2026-10-25T08:17:57.274617+00:00",
+    "number": 97
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.31553",
+    "title": "Contestable Agents v1 submission history",
+    "publisher": "arXiv",
+    "publishedAt": "2026-10-22T16:57:01Z",
+    "observedAt": "2026-10-25T08:17:57.274617+00:00",
+    "number": 98
+  },
+  {
+    "url": "https://arxiv.org/html/2610.31553v1",
+    "title": "Contestable Agents full paper",
+    "publisher": "Contestable Agents authors",
+    "publishedAt": "2026-10-22T16:57:01Z",
+    "observedAt": "2026-10-25T08:17:57.274617+00:00",
+    "number": 99
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.25512",
+    "title": "When Interpretations Persist v1 submission history",
+    "publisher": "arXiv",
+    "publishedAt": "2026-10-18T20:01:59Z",
+    "observedAt": "2026-10-25T08:32:47.283986+00:00",
+    "number": 100
+  },
+  {
+    "url": "https://arxiv.org/html/2610.25512v1",
+    "title": "When Interpretations Persist full paper",
+    "publisher": "When Interpretations Persist authors",
+    "publishedAt": "2026-10-18T20:01:59Z",
+    "observedAt": "2026-10-25T08:32:47.283986+00:00",
+    "number": 101
+  }
+]
