@@ -2,36 +2,8 @@
   {
     "kind": "image",
     "renderImage": true,
-    "name": "agentvalley-display.jpg",
-    "url": "https://raw.githubusercontent.com/morsechimwai/agent-valley/main/site/public/display/still.webp",
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "agentvalley-asking.jpg",
-    "url": "https://raw.githubusercontent.com/morsechimwai/agent-valley/main/site/public/needs-you/open-asking.webp",
-    "locale": "zh"
-  },
-  {
-    "kind": "page",
-    "name": "sideos-demo.jpg",
-    "url": "https://sideos.ai/",
-    "selector": "section:has-text(\"Seven things\")",
+    "name": "zcad-editor.jpg",
+    "url": "https://zcad.ai/images/handoff/zcad-online-workspace.webp",
     "locale": "en"
-  },
-  {
-    "kind": "page",
-    "name": "zcad-workspace.jpg",
-    "url": "https://zcad.ai/products/online",
-    "selector": "img[src*=\"zcad-online-workspace\"]",
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "gaze-study.jpg",
-    "url": "https://arxiv.org/html/2610.25512v1/study_setting.png",
-    "locale": "zh"
   }
 ]
