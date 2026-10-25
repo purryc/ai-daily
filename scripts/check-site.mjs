@@ -13,7 +13,7 @@ import { checkPdfPages, validatePdfExportMetadata } from "./lib/pdf-check.mjs";
 import { allIssueTopics } from "./lib/topic-content.mjs";
 import { buildVisualSlides } from "./lib/issue-visuals.mjs";
 import { createStaticServer } from "./lib/static-server.mjs";
-const root = path.resolve(fileURLToPath(new URL("..", import.meta.url)));
+const root = path.resolve(process.env.AI_DAILY_ROOT ?? fileURLToPath(new URL("..", import.meta.url)));
 const issues = await readIssues(root);
 const dates = selectIssueDates(issues, process.env.AI_DAILY_DATES);
 const read = (file) => fs.readFile(path.join(root, file), "utf8");
