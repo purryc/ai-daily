@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-10-25",
+    "zhTitle": "AI Daily｜2026年10月25日 · 任务捕捉、桌面代理与可编辑场景",
+    "enTitle": "AI Daily | October 25, 2026 · Task capture, desktop agents and editable scenes",
+    "zhSummary": "检查一句话识别出的日期，给游戏改玩法，把房间视频变成待审核物品清单；再看小机器人建图与本地模型恢复长对话。",
+    "enSummary": "Check dates extracted from a sentence, revise a game, and turn room videos into reviewable inventories; plus small-robot mapping and local-model conversation recovery.",
+    "tags": [
+      "consumer AI",
+      "creative tools",
+      "physical interaction",
+      "research"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "research"
+    ],
+    "coverStory": {
+      "topicId": "kept-capture-daily-plan",
+      "zhTitle": "Kept 1.9.9",
+      "enTitle": "Kept 1.9.9",
+      "imagePath": "assets/kept-capture.jpg",
+      "imageSourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/42/50/33/42503311-479e-2944-cbb3-43767722bb0c/02-capture.png/600x1300bb.webp",
+      "primarySourceUrl": "https://apps.apple.com/us/app/kept-tasks-habits-goals/id6792791422",
+      "evidenceStrength": "Developer App Store release notes, official product and privacy documentation; no hands-on test"
+    },
+    "zhPath": "./2026-10-25/zh/",
+    "enPath": "./2026-10-25/en/",
+    "sourcesPath": "./2026-10-25/sources.html"
+  },
+  {
     "date": "2026-10-24",
     "zhTitle": "AI Daily｜2026年10月24日 · 随身感测、锁屏决定与可编辑创作",
     "enTitle": "AI Daily | October 24, 2026 · Wearable sensing, lock-screen decisions and editable creation",

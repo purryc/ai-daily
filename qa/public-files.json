@@ -3165,6 +3165,451 @@
     "sha256": "ead3db871de7b2077dca53421fb7e531699edfd7060801b7d8e353cf4c2ba138"
   },
   {
+    "path": "2026-10-25/assets/agent-framework-python-1.23-source-flow.png",
+    "bytes": 65324,
+    "sha256": "4dc6eace6536f5322e9b6c8b538a817614ba3d2ba15d8256ce871726433efe94"
+  },
+  {
+    "path": "2026-10-25/assets/agentvalley-asking.jpg",
+    "bytes": 83387,
+    "sha256": "576d2200f70bd26a763d7329e8327ca7359dc1bd9df536a68413efa039305293"
+  },
+  {
+    "path": "2026-10-25/assets/axon.jpg",
+    "bytes": 99965,
+    "sha256": "1f515d597c8b4eb96e6f4ae23ae8838f7a45d4d851e6f4309b3fdb63899a5d9b"
+  },
+  {
+    "path": "2026-10-25/assets/basedash-slack.jpg",
+    "bytes": 87328,
+    "sha256": "bb59d3fd8db94798316e08f885aa04cb1279d516055a852ec61c191c552c17f3"
+  },
+  {
+    "path": "2026-10-25/assets/bloblings.jpg",
+    "bytes": 62632,
+    "sha256": "db15df92ed50759f4339b4fb1b9818c4f3e91ed775ea4dbe7bae7d9c365d63da"
+  },
+  {
+    "path": "2026-10-25/assets/capy-flash-cache-resume-source-flow.png",
+    "bytes": 63820,
+    "sha256": "dc8921348785cce49c5306dcf5b5eed7a2e3b230d974fde901337d29127950fa"
+  },
+  {
+    "path": "2026-10-25/assets/contestable.jpg",
+    "bytes": 108220,
+    "sha256": "0bd5cab64e11411a678f5cc06ecff8c3a063f66bd243438cd4094e3d5ce6451b"
+  },
+  {
+    "path": "2026-10-25/assets/deck.js",
+    "bytes": 2576,
+    "sha256": "63d13c06452d7405e0b5ed572d8464d802c9e5b8de656b5a94e3527b1730f7b3"
+  },
+  {
+    "path": "2026-10-25/assets/dify-routes.jpg",
+    "bytes": 93302,
+    "sha256": "e377af9cf6210287e1de4745638c752d8bf2690aa82567ecda4ef2c3eb81dd94"
+  },
+  {
+    "path": "2026-10-25/assets/digit5.jpg",
+    "bytes": 115100,
+    "sha256": "f453d5e6e05ba6daacd135566492ba989770dfa435d49f4f82635710d9bfcd0d"
+  },
+  {
+    "path": "2026-10-25/assets/gala.jpg",
+    "bytes": 132386,
+    "sha256": "ed7f109a73f775a23257b2cd8d956f0c500a77b8b5982abb68bbd731a979f6f0"
+  },
+  {
+    "path": "2026-10-25/assets/gaze-study.jpg",
+    "bytes": 89890,
+    "sha256": "ede51e0d13f33f4e3a0dd54e2ba07329e16a9266c9dbfbfd992e723a39b0c8db"
+  },
+  {
+    "path": "2026-10-25/assets/gemini-sites.jpg",
+    "bytes": 45469,
+    "sha256": "4890938cb17df00d3b3c0d9acca0540cafc47cadad63e6b9723120811476aa3e"
+  },
+  {
+    "path": "2026-10-25/assets/google-adk-2.13.0-source-flow.png",
+    "bytes": 61607,
+    "sha256": "58923d460a28a9fc477e6d357d77df3258b3e64ac0c84063f064d4b323e3fb28"
+  },
+  {
+    "path": "2026-10-25/assets/himmbo.jpg",
+    "bytes": 71875,
+    "sha256": "15871749cb07bc97d0e31d6e0262dcd32bf86d43f781067aa7da37d1ec4993f2"
+  },
+  {
+    "path": "2026-10-25/assets/homesurvey.jpg",
+    "bytes": 123214,
+    "sha256": "eb8e5b6cddea56b8391a2de0e9666985994025d73cd8073d159b25a42e83c297"
+  },
+  {
+    "path": "2026-10-25/assets/issue.css",
+    "bytes": 10285,
+    "sha256": "1e458c07ba855726699c2b9885d466a62a85e04604b22dddcca9a2f3d1ca09e9"
+  },
+  {
+    "path": "2026-10-25/assets/kept-capture.jpg",
+    "bytes": 56114,
+    "sha256": "3624d3c7c62136cf3fc474bb0b6a7c6837baef3502a50da179114facd3fc913b"
+  },
+  {
+    "path": "2026-10-25/assets/kimi-k31-pro-api-source-flow.png",
+    "bytes": 64117,
+    "sha256": "a30a3b3507eb92b9afa910020d0c091660c06b000eb29e787186367d0ee9b48a"
+  },
+  {
+    "path": "2026-10-25/assets/langgraph-priority-beta-source-flow.png",
+    "bytes": 62452,
+    "sha256": "37f52614dcff81fafa3b7199f8d3b8c6732bc74f11cd2b6a8a0dda877d130e02"
+  },
+  {
+    "path": "2026-10-25/assets/microduck.jpg",
+    "bytes": 227759,
+    "sha256": "797d386a434415ff67564f87204de212940582b9cdb682e77772605b21e8e0d3"
+  },
+  {
+    "path": "2026-10-25/assets/mypip.jpg",
+    "bytes": 67973,
+    "sha256": "8bf78450598264d1a03ed5e64df0b20fea0732fc07fa2c5ce4e6b3066a7520a6"
+  },
+  {
+    "path": "2026-10-25/assets/pydantic-ai-2.61-citations-source-flow.png",
+    "bytes": 61268,
+    "sha256": "779ab590a7ed2e952f56d03facfa15ebfc9fb8f0882ac40ec001da2db7496626"
+  },
+  {
+    "path": "2026-10-25/assets/redbear2.jpg",
+    "bytes": 48026,
+    "sha256": "52c8cee7981fe982dad604124328b7e571c5923c4e84cbcc7b68b11717a88a4f"
+  },
+  {
+    "path": "2026-10-25/assets/rlmuscle.jpg",
+    "bytes": 119700,
+    "sha256": "80918df366eff3f57ff5390b17551926b940fc2b3b67ea0f275667864788d403"
+  },
+  {
+    "path": "2026-10-25/assets/sideos-demo.jpg",
+    "bytes": 128785,
+    "sha256": "1d675e3bbd5592b3f3cb6a3e99c35082891fa2c36fd6bd307ae351d40b1f471e"
+  },
+  {
+    "path": "2026-10-25/assets/tutorcasebench.jpg",
+    "bytes": 291282,
+    "sha256": "7377393d9ea5b746cba2f5de3af6a2e748f88a7bf64d29865ab47baf46b06aef"
+  },
+  {
+    "path": "2026-10-25/assets/vercel-ai-sdk-7.0.153-source-flow.png",
+    "bytes": 66630,
+    "sha256": "0663d2cc6d141926cc2a0e7a28e6b8c52a9e602442f8ecb4a7982b3de4f728e0"
+  },
+  {
+    "path": "2026-10-25/assets/worldstream.jpg",
+    "bytes": 151001,
+    "sha256": "c11793f1fa4bfc5fa6ea7820a641678a6f781854ab63111b25dd3ca0796f2cad"
+  },
+  {
+    "path": "2026-10-25/en/details/agent-framework-python-1.23.html",
+    "bytes": 6107,
+    "sha256": "a60d72838e71e36ecf71b5ec037132ee673222041b3007c179ea763b4689c3a4"
+  },
+  {
+    "path": "2026-10-25/en/details/agentvalley-audio-display.html",
+    "bytes": 5715,
+    "sha256": "c4b2ac96d88fb6ef2f03469be24dff0bdf7aed1152ccd54a6b8ac3dee557f197"
+  },
+  {
+    "path": "2026-10-25/en/details/axon-body5-near-focus.html",
+    "bytes": 5730,
+    "sha256": "d5b724c805e996e3745fd1489554c0315f5041785643e74ce6f7b4c250fbde7e"
+  },
+  {
+    "path": "2026-10-25/en/details/basedash-scheduled-csv.html",
+    "bytes": 5748,
+    "sha256": "2223ebccc0ba29dab52207e2899375663af75b2bec6a03ec9168ca327d81d366"
+  },
+  {
+    "path": "2026-10-25/en/details/bloblings-codex-session-fixes.html",
+    "bytes": 5812,
+    "sha256": "8b5249e99ff7a54eb5d6e8b17e592c362c581ea0425d9b80a504a45c61fea4c9"
+  },
+  {
+    "path": "2026-10-25/en/details/capy-flash-cache-resume.html",
+    "bytes": 5628,
+    "sha256": "6889006bdcf44a9199db54561cf1d6d96d872adabe22ec2fcf0c6dc804697f1b"
+  },
+  {
+    "path": "2026-10-25/en/details/contestable-agents.html",
+    "bytes": 5566,
+    "sha256": "ccfea4236b96d4f9d04221e123f14e6261c34d8d5df330484b1d4230312a7a99"
+  },
+  {
+    "path": "2026-10-25/en/details/dify-1.18.0.html",
+    "bytes": 5662,
+    "sha256": "bc16e5250e156bc918e7dadac11b4faf9f7048837d0e2ffeaf27ddbf9ea4a32c"
+  },
+  {
+    "path": "2026-10-25/en/details/digit5-compute-safety.html",
+    "bytes": 5672,
+    "sha256": "9f2ddf24dc40aa6a54d0ba32b781c8e0356d23e25ca3f3fd9f8100a76233dcf3"
+  },
+  {
+    "path": "2026-10-25/en/details/gala-object-arrangement.html",
+    "bytes": 5972,
+    "sha256": "dc4ac17b6b47482611c2b923b99aea36eb2dd31f8395c6f22d4ccd4773eb185c"
+  },
+  {
+    "path": "2026-10-25/en/details/gaze-persistent-interpretation.html",
+    "bytes": 5832,
+    "sha256": "00e7dcc517330c3720d4cb5eb8d03fd13f093891ebcd4932b773ffc5e4d58bfa"
+  },
+  {
+    "path": "2026-10-25/en/details/gemini-sites-app-export.html",
+    "bytes": 5815,
+    "sha256": "bab6918de2bac0e15490e8672679934f6e60a3a35b8c847fab83d8129431dd30"
+  },
+  {
+    "path": "2026-10-25/en/details/google-adk-2.13.0.html",
+    "bytes": 5859,
+    "sha256": "77f91d50c0b5c84f61d02dd68c548aafc6d736891cf9f8fe49ec4d779c5be24e"
+  },
+  {
+    "path": "2026-10-25/en/details/himmbo.html",
+    "bytes": 5322,
+    "sha256": "531e33944ad999512c8d458fc96989ee1e21c884279d01bd6e58b03a931040ab"
+  },
+  {
+    "path": "2026-10-25/en/details/homesurvey-glasses-onsite.html",
+    "bytes": 5864,
+    "sha256": "0df95b26b8e7725c55cd2ba77e3d54a1d98706a2ea95a8d3d24abff80f73f349"
+  },
+  {
+    "path": "2026-10-25/en/details/kept-capture-daily-plan.html",
+    "bytes": 5922,
+    "sha256": "147e4ab7175880515d195ecf0bc367b8795d25ea3e24a573cb470d62c186c942"
+  },
+  {
+    "path": "2026-10-25/en/details/kimi-k31-pro-api.html",
+    "bytes": 5930,
+    "sha256": "843ec32407727b9464f9baac3489dfa91f67b49fa54a3cd2c6637fed1be65726"
+  },
+  {
+    "path": "2026-10-25/en/details/langgraph-priority-beta.html",
+    "bytes": 5591,
+    "sha256": "6951f2646588c69313f069ca4377abaf68bc6055cadcdac913986c370ce7167b"
+  },
+  {
+    "path": "2026-10-25/en/details/microduck-room-mapping.html",
+    "bytes": 5723,
+    "sha256": "77b5fd077c2b8370db99329e49f48a0ce9e4892132b868a7697d75b3265c7b14"
+  },
+  {
+    "path": "2026-10-25/en/details/mypip-hive-games.html",
+    "bytes": 5955,
+    "sha256": "90ec10cde51ac74f631ab32a67aa76d1b2762c88f27306a7cc9a7f2b185192fd"
+  },
+  {
+    "path": "2026-10-25/en/details/pydantic-ai-2.61-citations.html",
+    "bytes": 5948,
+    "sha256": "29db94013d3b21c8b195bffb1d854c270dad7bf4754978dd07f9dac3ab381c61"
+  },
+  {
+    "path": "2026-10-25/en/details/redbear-notebear.html",
+    "bytes": 5888,
+    "sha256": "774fc96edaeb87d0b96c0b7f9217a5c66ac122425fbd10298c4104b1d2483704"
+  },
+  {
+    "path": "2026-10-25/en/details/rlmuscle.html",
+    "bytes": 5802,
+    "sha256": "b2091f7793208268e9b547f3fc7f4f49228ba753534e3c44c6c966ae42a3f2e7"
+  },
+  {
+    "path": "2026-10-25/en/details/sideos-offline-models.html",
+    "bytes": 5815,
+    "sha256": "1011b7090b79d77421e5eef4d1ee3d2c0cf2b79579ec4cad3869d9674259b595"
+  },
+  {
+    "path": "2026-10-25/en/details/tutorcasebench.html",
+    "bytes": 5641,
+    "sha256": "b22536ae74694461751141a4723572e90c6260feaffbe3bef954aa1627aba945"
+  },
+  {
+    "path": "2026-10-25/en/details/vercel-ai-sdk-7.0.153.html",
+    "bytes": 6058,
+    "sha256": "0fdb95e4c028289c57a0538232230c495ff80c6f5ce16ea9716d03fd972a7f22"
+  },
+  {
+    "path": "2026-10-25/en/details/worldstream.html",
+    "bytes": 5485,
+    "sha256": "9ca62cebcc3fe947c9a16c7d2510cb7522604b90fa75c0921efe2b2d4fde370a"
+  },
+  {
+    "path": "2026-10-25/en/index.html",
+    "bytes": 83778,
+    "sha256": "c1975b0c8aca5c6395cb9668b0c4f6d4486b9b570820be0c692ce9732a7993b1"
+  },
+  {
+    "path": "2026-10-25/manifest.json",
+    "bytes": 29562,
+    "sha256": "bb181f5c39e85b9583525c4c6e2917af14f36f3dbd73694d295aae636dbf9ae8"
+  },
+  {
+    "path": "2026-10-25/sources.html",
+    "bytes": 57143,
+    "sha256": "478bcfce3b97c25eef22c30e0c4a9052e5cc9f7c7871a24f0b4ae1caa7f2509f"
+  },
+  {
+    "path": "2026-10-25/sources.json",
+    "bytes": 23993,
+    "sha256": "4a810c6219d24ff1985f8ee4b94f562422c62c25ea735659d97216104ad53ea4"
+  },
+  {
+    "path": "2026-10-25/visuals.json",
+    "bytes": 20285,
+    "sha256": "b20e9751b11484aafe44dce5fd2d5caedbf4b02f066e4a3ed0e7b911bc976c37"
+  },
+  {
+    "path": "2026-10-25/zh/details/agent-framework-python-1.23.html",
+    "bytes": 5563,
+    "sha256": "0321253c73026a108fda94338a38dcb76278ce38f50e29a7a049a9ab4d882bd9"
+  },
+  {
+    "path": "2026-10-25/zh/details/agentvalley-audio-display.html",
+    "bytes": 5271,
+    "sha256": "ee61d531162cd1c0a0c09f757677665006755fe35506771a75e655117b06e207"
+  },
+  {
+    "path": "2026-10-25/zh/details/axon-body5-near-focus.html",
+    "bytes": 5240,
+    "sha256": "345efd43adef3d5065d0485669d15aa926a2779318f15aa8bf5a7985caa8498e"
+  },
+  {
+    "path": "2026-10-25/zh/details/basedash-scheduled-csv.html",
+    "bytes": 5303,
+    "sha256": "597081e8467c3866210fcfd57c8e31a728045a8071883b94ef6dad4b6fd3940c"
+  },
+  {
+    "path": "2026-10-25/zh/details/bloblings-codex-session-fixes.html",
+    "bytes": 5492,
+    "sha256": "677a537a581da28aaedab1850e2683bde491b4e7e44fc63ad0a0e37aad5ef92d"
+  },
+  {
+    "path": "2026-10-25/zh/details/capy-flash-cache-resume.html",
+    "bytes": 5155,
+    "sha256": "126ab56ccdd6c4022db742c1cd0f432e1b05c5a6885bda76c701799d204d39e3"
+  },
+  {
+    "path": "2026-10-25/zh/details/contestable-agents.html",
+    "bytes": 5008,
+    "sha256": "97b8215a6d3d001d6d35569c5cfd87004f40ba6a1dc6a93a08a992978bb71167"
+  },
+  {
+    "path": "2026-10-25/zh/details/dify-1.18.0.html",
+    "bytes": 5226,
+    "sha256": "276f908b97d56c5cbb45d7a0fe8744d605a1bdd9aaf46102e4a1f3efba6480aa"
+  },
+  {
+    "path": "2026-10-25/zh/details/digit5-compute-safety.html",
+    "bytes": 5235,
+    "sha256": "cb33be727337bbbbcd213486fe883ad5d7f87c6ef35ece2e6076c8eb5b54d4c9"
+  },
+  {
+    "path": "2026-10-25/zh/details/gala-object-arrangement.html",
+    "bytes": 5205,
+    "sha256": "ecd4dff9d226bc8ee17f447774baf16091572665c630883a521895f02b2ec806"
+  },
+  {
+    "path": "2026-10-25/zh/details/gaze-persistent-interpretation.html",
+    "bytes": 5068,
+    "sha256": "dd28b5734562fd04df7a3df3e2ccf0c7faff46c0e5d9895e781640fe7682c3ca"
+  },
+  {
+    "path": "2026-10-25/zh/details/gemini-sites-app-export.html",
+    "bytes": 5339,
+    "sha256": "de7386f732339a5c765a5c0ef5d9d915823d5b17156b65689e985159152fcadd"
+  },
+  {
+    "path": "2026-10-25/zh/details/google-adk-2.13.0.html",
+    "bytes": 5297,
+    "sha256": "67477338c7778c6e84bff5729f041c676b15fb4d734c389d64f573ff98f337f6"
+  },
+  {
+    "path": "2026-10-25/zh/details/himmbo.html",
+    "bytes": 4737,
+    "sha256": "579973e4788867bfea1a84f8d1bea45f81768be52f302bc751a750a8f99e74da"
+  },
+  {
+    "path": "2026-10-25/zh/details/homesurvey-glasses-onsite.html",
+    "bytes": 5467,
+    "sha256": "b51f2f81fc0ec2a2899067fcc7ecad1bd1b2c70168bbfed0f89594b25d7e06b9"
+  },
+  {
+    "path": "2026-10-25/zh/details/kept-capture-daily-plan.html",
+    "bytes": 5466,
+    "sha256": "ed5f240982edbbbfa71fb7f3705d57216ddffc7c5f73e1f0b9d9ac76d7ba3af3"
+  },
+  {
+    "path": "2026-10-25/zh/details/kimi-k31-pro-api.html",
+    "bytes": 5559,
+    "sha256": "966c026ec29c6738a9e6ff91cb517f55f5132345794ae52aef651131e7967d03"
+  },
+  {
+    "path": "2026-10-25/zh/details/langgraph-priority-beta.html",
+    "bytes": 5266,
+    "sha256": "e9afbb1f31e447b601a1611c467ce071d8e3a8166fda4349e93ecd9838166c88"
+  },
+  {
+    "path": "2026-10-25/zh/details/microduck-room-mapping.html",
+    "bytes": 5200,
+    "sha256": "3e41cd8586cf79a5c26d286de17c8350c666ea5dbb6615cfa1f55dc71580dd02"
+  },
+  {
+    "path": "2026-10-25/zh/details/mypip-hive-games.html",
+    "bytes": 5367,
+    "sha256": "b619ddfed56f0c7f3f46bdb54f884e28ef7b7eb388e894a0ee3d3b59bed5afdd"
+  },
+  {
+    "path": "2026-10-25/zh/details/pydantic-ai-2.61-citations.html",
+    "bytes": 5255,
+    "sha256": "59ba4dac319786f4988b3a5fd27780845b5a75818cd710684f6c8b582e014bbc"
+  },
+  {
+    "path": "2026-10-25/zh/details/redbear-notebear.html",
+    "bytes": 5473,
+    "sha256": "2f196c6994b386a32b0e43456dc24b90bb6afe2fe7134e44364e0a469d4a5356"
+  },
+  {
+    "path": "2026-10-25/zh/details/rlmuscle.html",
+    "bytes": 5115,
+    "sha256": "e78aa40da84544f733da7f55285f234240c109014723ca92b49c6533cee35af0"
+  },
+  {
+    "path": "2026-10-25/zh/details/sideos-offline-models.html",
+    "bytes": 5254,
+    "sha256": "12d23748183544daa16396527d7b74ea38a7b70fdd5091435841aab4aa78fc2f"
+  },
+  {
+    "path": "2026-10-25/zh/details/tutorcasebench.html",
+    "bytes": 4903,
+    "sha256": "34acaa06df214c6234786aace2b9551baf1897f96a577ff33fbb4632ba1a3b8a"
+  },
+  {
+    "path": "2026-10-25/zh/details/vercel-ai-sdk-7.0.153.html",
+    "bytes": 5361,
+    "sha256": "f76b2392b8b30c444dab19c11bdcf43e5eb7f79382c30a72eb110d92b9a93c63"
+  },
+  {
+    "path": "2026-10-25/zh/details/worldstream.html",
+    "bytes": 4917,
+    "sha256": "8072d799a80bf0d3ef480ee1864efaa9406886734114c602449e51a2366fc909"
+  },
+  {
+    "path": "2026-10-25/zh/index.html",
+    "bytes": 79728,
+    "sha256": "a584cd259739572f0be98c71e958715be692c4352c273ea83f80489ad8e9aefb"
+  },
+  {
     "path": "assets/acti-agentic-keyboard-2026-07-03.svg",
     "bytes": 2825,
     "sha256": "84ad9abb0a1191abde62dea383e6e1ed583fc089073d3ccaf91629044501721b"
@@ -3576,18 +4021,18 @@
   },
   {
     "path": "en/index.html",
-    "bytes": 159942,
-    "sha256": "26514f41601dd7b9b6a9672f4b9fe567849067e1f3450aaafce0ecd3ae49eba0"
+    "bytes": 161165,
+    "sha256": "d6f177d9617a9f8dbb849e4a29ce5fdf460204e8e97950dc77a52a2b08e21473"
   },
   {
     "path": "index.html",
-    "bytes": 154183,
-    "sha256": "7968f2c9522ec150a27f3a39f821c75c61441b3f2d5b6859f2bae0a08cf9e9a5"
+    "bytes": 155399,
+    "sha256": "3134ece17d2f932f36f3e3177a5e5a514d28d1d0cb142800ca8f2165e6b14e82"
   },
   {
     "path": "manifest.json",
-    "bytes": 732731,
-    "sha256": "740f0b78f9cd6bd0e5ae65b91cd3c3d3bbdcc66602564b8da47b01867d301c58"
+    "bytes": 734218,
+    "sha256": "cda68cdda03ea8514aa3ddfe7a9fe674742108ac5f1c1282ec8743c758977f74"
   },
   {
     "path": "weekly/2026-10-12/pilot/en/index.html",

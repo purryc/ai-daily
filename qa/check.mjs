@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import http from 'node:http';
 import {createHash} from 'node:crypto';
-const root=process.cwd(),base=path.join(root,'public'),issue='2026-10-24';
+const root=process.cwd(),base=path.join(root,'public'),issue='2026-10-25';
 const digest=b=>createHash('sha256').update(b).digest('hex');
 const assert=(v,m)=>{if(!v)throw Error(m)};
 const cfg=JSON.parse(await fs.readFile('qa/acceptance-target.json'));
@@ -38,7 +38,7 @@ async function staticCheck(){
  assert(metrics.products===productIds.length&&metrics.references===sources.length&&metrics.coreVisuals===visuals.length&&metrics.primaryProjectPages===productIds.length&&metrics.attachedProjectDetails===productIds.length,'MANIFEST_COUNTS');
  assert(Number.isInteger(metrics.slidesPerLocale)&&metrics.slidesPerLocale>productIds.length,'SLIDE_METRIC');
  for(const key of ['perProduct','primarySummaries'])assert(JSON.stringify(Object.keys(metrics[key]).sort())===JSON.stringify([...productIds].sort()),'METRIC_PROJECT_SET '+key);
- assert(m.cutoff==='2026-10-24T08:00:30Z'&&m.timezone==='America/Toronto'&&m.revision.originalCutoffRetained,'TIME');
+ assert(m.cutoff==='2026-10-25T08:04:45Z'&&m.timezone==='America/Toronto'&&m.revision.originalCutoffRetained,'TIME');
  assert(!('laneScans' in m),'METHOD_AUDIT_REMAINS_PRIVATE');
  for(const v of visuals){assert(v.sourcePage&&v.originalUrl&&v.acquiredAt,'VISUAL_PROVENANCE');assert(digest(await fs.readFile(path.join(base,issue,v.path)))===v.sha256,'VISUAL_HASH')}
  const sourcePage=await fs.readFile(path.join(base,issue,'sources.html'),'utf8');await links(sourcePage,path.join(base,issue));
@@ -48,7 +48,7 @@ async function staticCheck(){
  for(const l of ['zh','en']){
   const dir=path.join(base,issue,l),h=await fs.readFile(path.join(dir,'index.html'),'utf8');await links(h,dir);
   const si=[...h.matchAll(/<section\b[^>]*id="([^"]+)"[^>]*data-slide/g)].map(x=>x[1]);ids.push(si);assert(si.length===metrics.slidesPerLocale&&new Set(si).size===si.length,'SLIDES');assert(si[0]==='cover'&&si[1]==='overview','COVER_THEN_CONTENTS');
-  assert(si.includes('evidence-1')&&!si.includes('coverage')&&!si.includes('timing')&&si.length===28,'READER_SLIDE_SET');
+  assert(si.includes('evidence-1')&&!si.includes('coverage')&&!si.includes('timing')&&si.length===30,'READER_SLIDE_SET');
   const projects=[...h.matchAll(/<section id="(event-\d+-a)"([\s\S]*?)<\/section>/g)];assert(projects.length===productIds.length&&projects.every((x,i)=>x[1]===`event-${i+1}-a`),'ONE_PRIMARY_PAGE_PER_PROJECT');assert(!/id="event-\d+-[b-z]"/.test(h),'NO_PROJECT_FRAGMENT_SLIDES');assert((h.match(/<u>/g)||[]).length===3,'VISIBLE_KEY_TAKEAWAYS');assert((h.match(/class="action detail-link"/g)||[]).length===productIds.length,'DETAIL_ENTRIES');assert(paragraphs(h).length===0,'SUMMARY_EXCLUDED_FROM_BODY_COUNT');
   const pp={},structure=[],all=[],summaries={},primaryUnits=[];
   for(let i=0;i<productIds.length;i++){
@@ -69,7 +69,7 @@ async function staticCheck(){
   assert(!h.includes('coverage.html')&&!files.some(f=>f.path===`${issue}/${l}/coverage.html`),'NO_READER_METHOD_PAGES');
  }
  assert(JSON.stringify(ids[0])===JSON.stringify(ids[1]),'BILINGUAL_SLIDE_PARITY');assert(JSON.stringify(groupLinks[0])===JSON.stringify(groupLinks[1]),'BILINGUAL_SOURCE_PARITY');assert(JSON.stringify(details[0])===JSON.stringify(details[1]),'BILINGUAL_DETAIL_SECTION_AND_SOURCE_PARITY');assert(JSON.stringify(primaryStructures[0])===JSON.stringify(primaryStructures[1]),'BILINGUAL_PRIMARY_UNIT_AND_SOURCE_PARITY');
- const archive=JSON.parse(await fs.readFile(path.join(base,'manifest.json')));assert(archive[0].date===issue&&archive.filter(x=>x.date===issue).length===1,'ARCHIVE');for(const p of ['index.html','en/index.html'])assert((await fs.readFile(path.join(base,p),'utf8')).includes('data-time="latest y-2026 m-2026-10 d-2026-10-24"'),'LATEST');
+ const archive=JSON.parse(await fs.readFile(path.join(base,'manifest.json')));assert(archive[0].date===issue&&archive.filter(x=>x.date===issue).length===1,'ARCHIVE');for(const p of ['index.html','en/index.html'])assert((await fs.readFile(path.join(base,p),'utf8')).includes('data-time="latest y-2026 m-2026-10 d-2026-10-25"'),'LATEST');
  return {publicFiles:files.length,slidesPerLocale:metrics.slidesPerLocale,primaryProjectPages:productIds.length,attachedDetails:productIds.length,body:stats,perProduct,primarySummaries:primary,visuals:visuals.length,references:sources.length,products:productIds.length,counting:'Unique full detail paragraphs only; primary summaries, sources, figures and scan prose excluded',bilingualStructureAndSources:true};
 }
 // staticCheck verifies every byte before this read-only candidate fixture starts.
@@ -92,7 +92,7 @@ async function checkpoint(phase,details={}){
 }
 report.timings={readyCalls:0,readyMs:0,imageDecodeCalls:0,imagesDecoded:0,imageDecodeMs:0,screenshotMs:0};
 report.imageLog={eligible:[],maxImages:6,maxBase64CharsPerImage:1048576,maxBase64CharsTotal:4194304,encodedChars:0,emitted:[],artifactOnly:[]};
-function previewNames(){return report.locale?(cfg.archiveRevision?['before','after','weekly','daily','empty','mobile'].map(n=>`${report.locale}-archive-${n}.jpg`):[`${report.locale}-toc-1.jpg`,`${report.locale}-event-7-a.jpg`,`${report.locale}-event-14-a.jpg`,`${report.locale}-detail-monish-lockscreen-top.jpg`,`${report.locale}-mobile-event-7-a.jpg`,`${report.locale}-mobile-detail-monish-lockscreen.jpg`]):[]}
+function previewNames(){return report.locale?(cfg.archiveRevision?['before','after','weekly','daily','empty','mobile'].map(n=>`${report.locale}-archive-${n}.jpg`):[`${report.locale}-toc-1.jpg`,`${report.locale}-event-7-a.jpg`,`${report.locale}-event-14-a.jpg`,`${report.locale}-detail-kept-capture-daily-plan-top.jpg`,`${report.locale}-mobile-event-7-a.jpg`,`${report.locale}-mobile-detail-kept-capture-daily-plan.jpg`]):[]}
 async function emitPreview(name){
  const log=report.imageLog;if(!previewNames().includes(name)||log.emitted.includes(name)||log.artifactOnly.includes(name))return;
  log.eligible.push(name);const data=(await fs.readFile(path.join(out,name))).toString('base64');
@@ -216,7 +216,7 @@ try{
   await checkpoint('live-hashes-complete');
   let url=live;if(cfg.phase==='candidate'){const s=await serve();server=s.server;url=s.url}report.browserTarget=cfg.phase==='candidate'?'local public candidate in existing cloud runner':'published Pages revision';
   const locale=process.env.QA_EVIDENCE_LOCALE||'zh';assert(['zh','en'].includes(locale),'LOCALE');report.locale=locale;
-  const otherLocale=locale==='zh'?'en':'zh',representatives=['alloop-trio-modular','monish-lockscreen','brickwright'].filter(id=>manifest.topics.some(t=>t.id===id));
+  const otherLocale=locale==='zh'?'en':'zh',representatives=['kept-capture-daily-plan','homesurvey-glasses-onsite','gala-object-arrangement'].filter(id=>manifest.topics.some(t=>t.id===id));
   report.representativeProjects=representatives;
   for(const viewport of [{width:1600,height:900},{width:1920,height:1080},{width:390,height:844}]){
    const mobile=viewport.width===390,fullControls=viewport.width===1600,context=await browser.newContext({viewport,serviceWorkers:'block'}),page=await context.newPage(),errors=[];
