@@ -1,1 +1,101 @@
-[]
+[
+  {
+    "name": "zcad-gallery.jpeg",
+    "url": "https://ph-files.imgix.net/81056b59-8f93-4160-8c7f-50e6cdb5524b.jpeg",
+    "kind": "image",
+    "locale": "zh"
+  },
+  {
+    "name": "zcad-gallery2.jpeg",
+    "url": "https://ph-files.imgix.net/c55184f6-4eae-4864-b120-43909d9c93da.jpeg",
+    "kind": "image",
+    "locale": "zh"
+  },
+  {
+    "name": "agentvalley.jpeg",
+    "url": "https://ph-files.imgix.net/538cf649-befa-4006-a144-2a45a51b4056.jpeg",
+    "kind": "image",
+    "locale": "zh"
+  },
+  {
+    "name": "mypip.jpg",
+    "url": "https://ph-files.imgix.net/f794edd4-be36-4425-b7fd-86aba8427b67.gif",
+    "kind": "image",
+    "locale": "zh",
+    "renderImage": true
+  },
+  {
+    "name": "sideos.jpeg",
+    "url": "https://ph-files.imgix.net/4687caf8-d0bc-43f3-9b09-c3fec4608618.jpeg",
+    "kind": "image",
+    "locale": "zh"
+  },
+  {
+    "name": "microduck.jpg",
+    "url": "https://pollen-robotics.com/assets/microduck/press/photos/microduck-kickabout.jpg",
+    "kind": "image",
+    "locale": "zh"
+  },
+  {
+    "name": "digit5.jpg",
+    "url": "https://cdn.prod.website-files.com/68d6ca150ffa11fdc25d7575/6aa6b70027f3ee081dff46df_card-industrial.avif",
+    "kind": "image",
+    "locale": "zh",
+    "renderImage": true
+  },
+  {
+    "name": "axon.webp",
+    "url": "https://a.storyblok.com/f/198504/3840x2680/90b51a8445/ab5_presskit_no-bg2.webp",
+    "kind": "image",
+    "locale": "zh"
+  },
+  {
+    "name": "redbear.png",
+    "url": "https://x0.ifengimg.com/res/2026/21D7B4DA6A6848A52D7D09F091095BA642567E79_size469_w782_h439.png",
+    "kind": "image",
+    "locale": "zh"
+  },
+  {
+    "name": "redbear2.png",
+    "url": "https://x0.ifengimg.com/res/2026/F3773301F801C129894168A958AD9791F29B6BDC_size322_w782_h439.png",
+    "kind": "image",
+    "locale": "zh"
+  },
+  {
+    "name": "dify-routes.jpg",
+    "url": "https://github.com/user-attachments/assets/30480ac3-d53e-4522-b1c5-95eb1d9ac9f2",
+    "kind": "image",
+    "locale": "zh",
+    "renderImage": true
+  },
+  {
+    "name": "worldstream.jpg",
+    "url": "https://arxiv.org/html/2610.28827v1/figures/teaser-worldstream.jpg",
+    "kind": "image",
+    "locale": "zh"
+  },
+  {
+    "name": "himmbo.png",
+    "url": "https://arxiv.org/html/2610.30875v1/fig_teaser.png",
+    "kind": "image",
+    "locale": "zh"
+  },
+  {
+    "name": "gemini-sites.jpg",
+    "url": "https://www.androidauthority.com/wp-content/uploads/2026/10/Export-Gemini-apps-to-Google-Sites-1.jpg",
+    "kind": "image",
+    "locale": "zh"
+  },
+  {
+    "name": "chatgpt-library.png",
+    "url": "https://us1.discourse-cdn.com/openai1/original/4X/8/2/a/82a85019e979abf4a5c8442be260060610c239cf.png",
+    "kind": "image",
+    "locale": "zh"
+  },
+  {
+    "name": "avy.png",
+    "url": "https://derivative.ca/sites/default/files/styles/project_teaser_small/public/field/image/thumb_2.png",
+    "kind": "image",
+    "locale": "zh"
+  }
+]
