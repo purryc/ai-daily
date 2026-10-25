@@ -1,50 +1,41 @@
 [
   {
-    "name": "zcad-3.jpg",
-    "url": "https://ph-files.imgix.net/395aaaae-a967-4615-b3e8-b5469ea48753.jpeg",
     "kind": "image",
     "renderImage": true,
+    "name": "gala.jpg",
+    "url": "https://xccelephant.github.io/paper/gala/static/images/teaser.jpg",
     "locale": "zh"
   },
   {
-    "name": "zcad-4.jpg",
-    "url": "https://ph-files.imgix.net/6c690977-6fe7-49fa-ba4c-f1972bfa0738.png",
     "kind": "image",
     "renderImage": true,
+    "name": "rlmuscle.jpg",
+    "url": "https://chunleili.github.io/project-page-rlmuscle/static/images/teaser.png",
     "locale": "en"
   },
   {
-    "name": "zcad-5.jpg",
-    "url": "https://ph-files.imgix.net/0cc762ac-9d32-4459-9dfd-12f9850407e6.png",
     "kind": "image",
     "renderImage": true,
+    "name": "kept-capture.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/42/50/33/42503311-479e-2944-cbb3-43767722bb0c/02-capture.png/600x1300bb.webp",
     "locale": "zh"
   },
   {
-    "name": "kept.jpg",
-    "url": "https://ph-files.imgix.net/1db6df71-2a8a-4955-ac43-715ebaaef8ca.jpeg",
-    "kind": "image",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "name": "basedash-instruction.jpg",
-    "url": "https://www.basedash.com/_blog-images/6cdd707ae3169c44/1600.webp",
-    "kind": "image",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "name": "basedash-slack.jpg",
-    "url": "https://www.basedash.com/_blog-images/60b63ad1491afb4b/1600.webp",
-    "kind": "image",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "name": "kept-inventory.json",
-    "url": "https://apps.apple.com/us/app/kept-tasks-habits-goals/id6792791422",
     "kind": "inventory",
+    "name": "sideos-inventory.json",
+    "url": "https://sideos.ai/",
     "locale": "en"
+  },
+  {
+    "kind": "page",
+    "name": "sideos-page.jpg",
+    "url": "https://sideos.ai/",
+    "locale": "en"
+  },
+  {
+    "kind": "inventory",
+    "name": "zcad-inventory.json",
+    "url": "https://zcad.ai/products/ai",
+    "locale": "zh"
   }
 ]
