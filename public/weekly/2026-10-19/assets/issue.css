@@ -8,3 +8,5 @@
 @media(max-width:650px){.toc-tabs{flex-wrap:wrap}.project-source-groups{display:block}.project-source-groups li{margin:18px 0}.contents-slide .contents-list strong{font-size:20px}}
 
 @media(min-width:651px){html[lang="en"] .project-grid{grid-template-columns:40% 1fr;height:450px}html[lang="en"] .summary{gap:8px}}
+
+.job-index,.job-sample{list-style:none;margin:0;padding:0}.job-index li{border-top:1px solid #c2d1c4;padding:7px 0;font-size:20px;line-height:1.15}.job-index [data-conditional="true"]{color:#78532c}.job-sample li{border-top:1px solid #c2d1c4;padding:22px 0;font-size:24px;line-height:1.3}.job-original{text-decoration:underline}.deep-unit>small{color:#4b6551;display:block;line-height:1.5}

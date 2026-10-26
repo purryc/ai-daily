@@ -3,8 +3,8 @@
   "issue": "weekly/2026-10-19",
   "metrics": {
     "body": {
-      "zhDenseChars": 8626,
-      "enWords": 5125
+      "zhDenseChars": 9927,
+      "enWords": 5885
     },
     "perProduct": {
       "highlight-consumer-muse": {
@@ -58,6 +58,14 @@
       "opportunity-creative-publisher-acceptance": {
         "zh": 767,
         "en": 470
+      },
+      "jobs-public-listings": {
+        "zh": 603,
+        "en": 380
+      },
+      "jobs-talent-demand": {
+        "zh": 698,
+        "en": 380
       }
     },
     "primarySummaries": {
@@ -112,22 +120,30 @@
       "opportunity-creative-publisher-acceptance": {
         "zh": 130,
         "en": 66
+      },
+      "jobs-public-listings": {
+        "zh": 196,
+        "en": 113
+      },
+      "jobs-talent-demand": {
+        "zh": 197,
+        "en": 105
       }
     },
     "counting": "Only unique full-analysis product paragraphs count toward body gates; summaries, captions, coverage and sources excluded.",
-    "products": 13,
-    "references": 67,
+    "products": 15,
+    "references": 78,
     "coreVisuals": 13,
-    "slidesPerLocale": 16,
-    "primaryProjectPages": 13,
-    "attachedProjectDetails": 13,
+    "slidesPerLocale": 18,
+    "primaryProjectPages": 15,
+    "attachedProjectDetails": 15,
     "primaryBody": {
-      "zhDenseChars": 2222,
-      "enWords": 1324
+      "zhDenseChars": 2615,
+      "enWords": 1542
     },
     "completeReadingBody": {
-      "zhDenseChars": 10848,
-      "enWords": 6449
+      "zhDenseChars": 12542,
+      "enWords": 7427
     }
   },
   "units": [
@@ -182,6 +198,14 @@
     {
       "id": "opportunity-creative-publisher-acceptance",
       "type": "opportunity"
+    },
+    {
+      "id": "jobs-public-listings",
+      "type": "jobs"
+    },
+    {
+      "id": "jobs-talent-demand",
+      "type": "talent"
     }
   ],
   "sections": {
@@ -197,6 +221,121 @@
     "trend-second-edit-state": 4,
     "signal-consumer-wardrobe-memory": 5,
     "opportunity-ops-submittal-date-diff": 6,
-    "opportunity-creative-publisher-acceptance": 6
+    "opportunity-creative-publisher-acceptance": 6,
+    "jobs-public-listings": 11,
+    "jobs-talent-demand": 4
+  },
+  "hiringSupplement": {
+    "observedWindow": [
+      "2026-10-26T15:36:00Z",
+      "2026-10-26T15:38:00Z"
+    ],
+    "roles": [
+      {
+        "id": "housesigma",
+        "company": "HouseSigma",
+        "url": "https://team.housesigma.com/job_posting/senior-product-designer/",
+        "newFound": true,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-10-26"
+      },
+      {
+        "id": "lca",
+        "company": "LCA",
+        "url": "https://www.latecheckout.agency/careers/sr-product-designer",
+        "newFound": true,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-10-26"
+      },
+      {
+        "id": "astell",
+        "company": "Lab24/Astell",
+        "url": "https://astell.ai/en/careers/ui-ux",
+        "newFound": true,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-10-26"
+      },
+      {
+        "id": "life360",
+        "company": "Life360",
+        "url": "https://job-boards.greenhouse.io/life360/jobs/8790900002",
+        "newFound": true,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-10-26"
+      },
+      {
+        "id": "stackadapt",
+        "company": "StackAdapt",
+        "url": "https://job-boards.greenhouse.io/stackadapt/jobs/4410085009",
+        "newFound": false,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-10-26"
+      },
+      {
+        "id": "andgo-lead",
+        "company": "Andgo",
+        "url": "https://job-boards.greenhouse.io/andgosystems/jobs/4456641009",
+        "newFound": false,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-10-26"
+      },
+      {
+        "id": "andgo-contract",
+        "company": "Andgo",
+        "url": "https://job-boards.greenhouse.io/andgosystems/jobs/4456625009",
+        "newFound": false,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-10-26"
+      },
+      {
+        "id": "happyco",
+        "company": "HappyCo",
+        "url": "https://jobs.lever.co/happyco/fa3d0564-46e5-4483-af1f-72e8acdd442e",
+        "newFound": false,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-10-26"
+      },
+      {
+        "id": "alpaca",
+        "company": "Alpaca",
+        "url": "https://job-boards.greenhouse.io/alpaca/jobs/6187326004",
+        "newFound": false,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-10-26"
+      },
+      {
+        "id": "kalepa",
+        "company": "Kalepa",
+        "url": "https://job-boards.greenhouse.io/kalepa/jobs/6227620004",
+        "newFound": true,
+        "conditional": true,
+        "publishedAt": null,
+        "observedAt": "2026-10-26"
+      },
+      {
+        "id": "upgraded",
+        "company": "Upgraded",
+        "url": "https://www.getupgraded.ca/jobs/product-designer",
+        "newFound": true,
+        "conditional": true,
+        "publishedAt": null,
+        "observedAt": "2026-10-26"
+      }
+    ],
+    "main": 9,
+    "conditional": 2,
+    "newFound": 6,
+    "revalidated": 5,
+    "employers": 10,
+    "originalPublicationDatesVerified": 0
   }
 }

@@ -4421,13 +4421,13 @@
   },
   {
     "path": "en/index.html",
-    "bytes": 163567,
-    "sha256": "5b79d4ff6d0fd75436ad1917b74ba98fd920068b63d23d34a3436abe62ef0489"
+    "bytes": 163638,
+    "sha256": "1aed88c50370ee596f813bbf235515a9be4f74929947bcc1c984f64dd66d192d"
   },
   {
     "path": "index.html",
-    "bytes": 157730,
-    "sha256": "ab7096d8d5f4187813e68fb9dae5f6a4366377690598b25041f576b4a9dc51c3"
+    "bytes": 157781,
+    "sha256": "5b37fd52add0f2c2b89177fa532d671b2091fba3d704dd353d09a65dfd72b6a4"
   },
   {
     "path": "manifest.json",
@@ -4501,8 +4501,8 @@
   },
   {
     "path": "weekly/2026-10-19/assets/issue.css",
-    "bytes": 10285,
-    "sha256": "1e458c07ba855726699c2b9885d466a62a85e04604b22dddcca9a2f3d1ca09e9"
+    "bytes": 10676,
+    "sha256": "fb4d85c6225be5ae26e02f4e2ff31330cab77ba8f3c157e65dd2a9af4211bbe7"
   },
   {
     "path": "weekly/2026-10-19/assets/opportunity-creative-publisher-acceptance.png",
@@ -4570,6 +4570,16 @@
     "sha256": "adc29af537c9f6c882f9f29573ba3d4c862fbc0c86020dca351605b1b7f08e79"
   },
   {
+    "path": "weekly/2026-10-19/en/details/jobs-public-listings.html",
+    "bytes": 10414,
+    "sha256": "c475bcc7fccb23267ee0aeffdf4abf2275ee671d50822515979d2e6e726951cf"
+  },
+  {
+    "path": "weekly/2026-10-19/en/details/jobs-talent-demand.html",
+    "bytes": 5712,
+    "sha256": "b654051358f847b27524de1f44598aa4a10a0d1844d3e5359fc8cf97885c3bea"
+  },
+  {
     "path": "weekly/2026-10-19/en/details/opportunity-creative-publisher-acceptance.html",
     "bytes": 6597,
     "sha256": "e8db787faced5a0ad5d3555ab69605828d6f58b5127c51169c5bd456beaae4d4"
@@ -4601,23 +4611,23 @@
   },
   {
     "path": "weekly/2026-10-19/en/index.html",
-    "bytes": 43732,
-    "sha256": "13ab47579da294c877be0d2b8b031477bdf95e930c393119edf4d958de389e89"
+    "bytes": 51754,
+    "sha256": "fb27d156e1df689075c328156bab58cab2ce78376dca5c4d7ec75812e75b8339"
   },
   {
     "path": "weekly/2026-10-19/manifest.json",
-    "bytes": 15307,
-    "sha256": "f75d259d8eced129e985134feb771edcb39589b128ebe96a1f0eb442a9318a2d"
+    "bytes": 20664,
+    "sha256": "fc3401aa8101c729d0183636f32c395cf75198318b13d627bf424e23e2bd2577"
   },
   {
     "path": "weekly/2026-10-19/sources.html",
-    "bytes": 40084,
-    "sha256": "b75fa46c998219ffd377de8f55535ec94f4ccb996f249a929bf9657158dbe37e"
+    "bytes": 45812,
+    "sha256": "fd54084674fa797988c6fee9bda32020a2e7a4e223ac7d3b224966b041b3b2d4"
   },
   {
     "path": "weekly/2026-10-19/sources.json",
-    "bytes": 18022,
-    "sha256": "14efe6fabdb6a8867859f9f3391cb8fe185fd9a74de8780be5c8eb505190c58a"
+    "bytes": 21400,
+    "sha256": "f73d2251b4a053feea6d2c27349a606942405e60ff049c2cfb1540c5850c01ba"
   },
   {
     "path": "weekly/2026-10-19/visuals.json",
@@ -4660,6 +4670,16 @@
     "sha256": "00f425420daa96afd289c3896ca1e6d7385139dcfd989f56bf4414d99c8b2f09"
   },
   {
+    "path": "weekly/2026-10-19/zh/details/jobs-public-listings.html",
+    "bytes": 9944,
+    "sha256": "c20fc00aa809fb682816346b242547c70c6c75483d202e06f3f82cd0f3251ec9"
+  },
+  {
+    "path": "weekly/2026-10-19/zh/details/jobs-talent-demand.html",
+    "bytes": 5246,
+    "sha256": "a966d4c66bee521b13f52f525cecf6d9851853feaa99ecb7d9ebdee6606c175c"
+  },
+  {
     "path": "weekly/2026-10-19/zh/details/opportunity-creative-publisher-acceptance.html",
     "bytes": 5942,
     "sha256": "ddefc53b18b10508375c4e09fba67d3a7b62047d36dcb8bb71a10870a72a4e62"
@@ -4691,8 +4711,8 @@
   },
   {
     "path": "weekly/2026-10-19/zh/index.html",
-    "bytes": 41720,
-    "sha256": "865e47bc1bdc50859746e09bdd3d770f62d41eb3580d8934799cab86a0a72222"
+    "bytes": 49505,
+    "sha256": "3ddc182b6250f68d2e99fb2c631278b10ffe2e0eb07fcbdc3df0da8875bc4916"
   },
   {
     "path": "weekly/assets/pilot.css",
@@ -4766,12 +4786,12 @@
   },
   {
     "path": "weekly/index.html",
-    "bytes": 1324,
-    "sha256": "ed73c8b949d74e88a825a48f804af4dfbbfa5d41719c09488a7f821beb539b43"
+    "bytes": 1375,
+    "sha256": "83d6e4155ee7321e5a78a049c307e357aed37b1b6c146dd0724b2092cd53b3d0"
   },
   {
     "path": "weekly/manifest.json",
     "bytes": 589,
-    "sha256": "75992b8ea6c7ec5af787997575281782b9dccaa1adf47455fd961c0a50300d06"
+    "sha256": "ed082f01c62ae1fadc55f7c310faa3d878f79398a3861cd3799399f1d5f9f9b5"
   }
 ]

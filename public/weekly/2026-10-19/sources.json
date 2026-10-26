@@ -467,5 +467,93 @@
     "publishedAt": null,
     "evidenceType": "Seller listing and five visible reviews; Publisher transaction not established",
     "number": 67
+  },
+  {
+    "url": "https://team.housesigma.com/job_posting/senior-product-designer/",
+    "title": "HouseSigma — Senior Product Designer",
+    "publisher": "HouseSigma",
+    "publishedAt": null,
+    "evidenceType": "Original employer / official ATS listing; publication date unverified",
+    "number": 68
+  },
+  {
+    "url": "https://www.latecheckout.agency/careers/sr-product-designer",
+    "title": "LCA — Sr. Product Designer (Freelance/Part-time)",
+    "publisher": "LCA",
+    "publishedAt": null,
+    "evidenceType": "Original employer / official ATS listing; publication date unverified",
+    "number": 69
+  },
+  {
+    "url": "https://astell.ai/en/careers/ui-ux",
+    "title": "Lab24/Astell — Product Designer (UI/UX)",
+    "publisher": "Lab24/Astell",
+    "publishedAt": null,
+    "evidenceType": "Original employer / official ATS listing; publication date unverified",
+    "number": 70
+  },
+  {
+    "url": "https://job-boards.greenhouse.io/life360/jobs/8790900002",
+    "title": "Life360 — Senior Product Designer II, Revenue Experimentation",
+    "publisher": "Life360",
+    "publishedAt": null,
+    "evidenceType": "Original employer / official ATS listing; publication date unverified",
+    "number": 71
+  },
+  {
+    "url": "https://job-boards.greenhouse.io/stackadapt/jobs/4410085009",
+    "title": "StackAdapt — Staff Product Designer, Ivy AI experience",
+    "publisher": "StackAdapt",
+    "publishedAt": null,
+    "evidenceType": "Original employer / official ATS listing; publication date unverified",
+    "number": 72
+  },
+  {
+    "url": "https://job-boards.greenhouse.io/andgosystems/jobs/4456641009",
+    "title": "Andgo — Senior Product Designer / Design Lead",
+    "publisher": "Andgo",
+    "publishedAt": null,
+    "evidenceType": "Original employer / official ATS listing; publication date unverified",
+    "number": 73
+  },
+  {
+    "url": "https://job-boards.greenhouse.io/andgosystems/jobs/4456625009",
+    "title": "Andgo — Senior Product Designer (Contract)",
+    "publisher": "Andgo",
+    "publishedAt": null,
+    "evidenceType": "Original employer / official ATS listing; publication date unverified",
+    "number": 74
+  },
+  {
+    "url": "https://jobs.lever.co/happyco/fa3d0564-46e5-4483-af1f-72e8acdd442e",
+    "title": "HappyCo — Senior Product Designer",
+    "publisher": "HappyCo",
+    "publishedAt": null,
+    "evidenceType": "Original employer / official ATS listing; publication date unverified",
+    "number": 75
+  },
+  {
+    "url": "https://job-boards.greenhouse.io/alpaca/jobs/6187326004",
+    "title": "Alpaca — Senior Product Designer, Operations Tools",
+    "publisher": "Alpaca",
+    "publishedAt": null,
+    "evidenceType": "Original employer / official ATS listing; publication date unverified",
+    "number": 76
+  },
+  {
+    "url": "https://job-boards.greenhouse.io/kalepa/jobs/6227620004",
+    "title": "Kalepa — Lead Product Designer",
+    "publisher": "Kalepa",
+    "publishedAt": null,
+    "evidenceType": "Original employer / official ATS listing; publication date unverified",
+    "number": 77
+  },
+  {
+    "url": "https://www.getupgraded.ca/jobs/product-designer",
+    "title": "Upgraded — Designer, Product, Software, Marketing & AI",
+    "publisher": "Upgraded",
+    "publishedAt": null,
+    "evidenceType": "Original employer / official ATS listing; publication date unverified",
+    "number": 78
   }
 ]

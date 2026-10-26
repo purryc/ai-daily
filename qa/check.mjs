@@ -31,10 +31,10 @@ async function staticCheck(){
  const files=JSON.parse(await fs.readFile('qa/public-files.json'));assert(JSON.stringify(await filesUnder(base))===JSON.stringify(files.map(x=>x.path).sort()),'FILE_SET');for(const f of files){const b=await fs.readFile(path.join(base,f.path));assert(digest(b)===f.sha256&&b.length===f.bytes,'HASH '+f.path)}
  const m=manifest=JSON.parse(await fs.readFile(path.join(base,issue,'manifest.json'))),sources=JSON.parse(await fs.readFile(path.join(base,issue,'sources.json'))),visuals=JSON.parse(await fs.readFile(path.join(base,issue,'visuals.json')));
  const contract=JSON.parse(await fs.readFile('qa/weekly-content-contract.json'));assert(contract.reviewed===true&&contract.issue===issue&&JSON.stringify(contract.metrics)===JSON.stringify(m.metrics),'REVIEWED_WEEKLY_CONTENT_CONTRACT');assert(JSON.stringify(contract.units)===JSON.stringify(m.topics.map(t=>({id:t.id,type:t.unitType}))),'REVIEWED_WEEKLY_UNIT_SET');const productIds=m.topics.map(x=>x.id),sourceNumbers=sources.map(x=>x.number),metrics=m.metrics;
- assert(productIds.length===13&&new Set(productIds).size===productIds.length,'PRODUCT_MINIMUM_AND_UNIQUENESS');
+ assert(productIds.length===15&&new Set(productIds).size===productIds.length,'PRODUCT_MINIMUM_AND_UNIQUENESS');
  assert(sources.length>=12&&new Set(sources.map(x=>x.url)).size===sources.length&&sources.every(x=>/^https?:\/\//.test(x.url)),'SOURCE_MINIMUM_AND_UNIQUENESS');
  assert(JSON.stringify(sourceNumbers)===JSON.stringify(sources.map((_,i)=>i+1)),'SOURCE_NUMBERING');
- assert(visuals.length>0&&visuals.length===productIds.length&&new Set(visuals.map(x=>x.product)).size===productIds.length&&visuals.every(x=>productIds.includes(x.product))&&new Set(visuals.map(x=>x.path)).size===visuals.length,'ONE_VISUAL_PER_PROJECT');
+ const illustrated=m.topics.filter(t=>!['jobs','talent'].includes(t.unitType)).map(t=>t.id);assert(visuals.length===illustrated.length&&visuals.length===13&&new Set(visuals.map(x=>x.product)).size===illustrated.length&&visuals.every(x=>illustrated.includes(x.product))&&new Set(visuals.map(x=>x.path)).size===visuals.length,'ONE_VISUAL_PER_PRODUCT_OR_EXISTING_ANALYSIS');assert(JSON.stringify(m.hiringSupplement)===JSON.stringify(contract.hiringSupplement)&&m.hiringSupplement.roles.length===11&&m.hiringSupplement.originalPublicationDatesVerified===0,'FROZEN_HIRING_SAMPLE');
  assert(metrics.products===productIds.length&&metrics.references===sources.length&&metrics.coreVisuals===visuals.length&&metrics.primaryProjectPages===productIds.length&&metrics.attachedProjectDetails===productIds.length,'MANIFEST_COUNTS');
  assert(Number.isInteger(metrics.slidesPerLocale)&&metrics.slidesPerLocale>productIds.length,'SLIDE_METRIC');
  for(const key of ['perProduct','primarySummaries'])assert(JSON.stringify(Object.keys(metrics[key]).sort())===JSON.stringify([...productIds].sort()),'METRIC_PROJECT_SET '+key);
@@ -48,7 +48,7 @@ async function staticCheck(){
  for(const l of ['zh','en']){
   const dir=path.join(base,issue,l),h=await fs.readFile(path.join(dir,'index.html'),'utf8');await links(h,dir);
   const si=[...h.matchAll(/<section\b[^>]*id="([^"]+)"[^>]*data-slide/g)].map(x=>x[1]);ids.push(si);assert(si.length===metrics.slidesPerLocale&&new Set(si).size===si.length,'SLIDES');assert(si[0]==='cover'&&si[1]==='overview','COVER_THEN_CONTENTS');
-  assert(si.includes('evidence-1')&&!si.includes('coverage')&&!si.includes('timing')&&si.length===16,'READER_SLIDE_SET');
+  assert(si.includes('evidence-1')&&!si.includes('coverage')&&!si.includes('timing')&&si.length===18,'READER_SLIDE_SET');
   const projects=[...h.matchAll(/<section id="(event-\d+-a)"([\s\S]*?)<\/section>/g)];assert(projects.length===productIds.length&&projects.every((x,i)=>x[1]===`event-${i+1}-a`),'ONE_PRIMARY_PAGE_PER_PROJECT');assert(!/id="event-\d+-[b-z]"/.test(h),'NO_PROJECT_FRAGMENT_SLIDES');assert((h.match(/<u>/g)||[]).length===3,'VISIBLE_KEY_TAKEAWAYS');assert((h.match(/class="action detail-link"/g)||[]).length===productIds.length,'DETAIL_ENTRIES');assert(paragraphs(h).length===0,'SUMMARY_EXCLUDED_FROM_BODY_COUNT');
   const pp={},structure=[],all=[],summaries={},primaryUnits=[];
   for(let i=0;i<productIds.length;i++){
@@ -56,12 +56,12 @@ async function staticCheck(){
    const paras=paragraphs(d);assert(paras.length===contract.sections[t.id]&&paras.length>=4,'REVIEWED_DEPTH_SECTIONS');assert(!hiddenMarkup(d),'DETAIL_NOT_HIDDEN');all.push(...paras);pp[t.id]=counts(paras.join(' '),l);assert(pp[t.id]>0,'SUBSTANTIVE_UNIT '+l+t.id);assert(pp[t.id]===metrics.perProduct[t.id][l],'METRIC_PARITY');
    const detailUnits=units(d);assert(detailUnits.length===paras.length&&detailUnits.every(x=>x.id&&x.paragraphs===1)&&new Set(detailUnits.map(x=>x.id)).size===detailUnits.length,'DETAIL_UNIT_STRUCTURE');
    const refs=[...d.matchAll(/\[S(\d+)\]/g)].map(x=>+x[1]);assert(refs.length>0&&refs.every(n=>sourceNumbers.includes(n)),'REF_RANGE');structure.push({id:t.id,units:detailUnits,refs});
-   const primaryHtml=projects[i][2],visual=visuals.find(v=>v.product===t.id);assert((primaryHtml.match(/<figure\b/g)||[]).length===1&&(primaryHtml.match(/<img\b/g)||[]).length===1,'ONE_CORE_IMAGE_PER_PROJECT');assert(primaryHtml.includes(`src="../${visual.path}"`),'PROJECT_VISUAL_ID');assert(decode(primaryHtml).includes(t[l==='zh'?'zhHeadline':'enHeadline']),'TAKEAWAY_HEADLINE');
+   const primaryHtml=projects[i][2],visual=visuals.find(v=>v.product===t.id);if(visual){assert((primaryHtml.match(/<figure\b/g)||[]).length===1&&(primaryHtml.match(/<img\b/g)||[]).length===1,'ONE_CORE_IMAGE_PER_PROJECT');assert(primaryHtml.includes(`src="../${visual.path}"`),'PROJECT_VISUAL_ID')}else{assert(['jobs','talent'].includes(t.unitType)&&!(primaryHtml.match(/<img\b/g)||[]).length,'TEXT_ONLY_HIRING');}assert(decode(primaryHtml).includes(t[l==='zh'?'zhHeadline':'enHeadline']),'TAKEAWAY_HEADLINE');
    const original=primaryHtml.match(/class="primary-source"[^>]*href="([^"]+)"[^>]*>([^<]+)<\/a>/);assert(original&&/^https?:/.test(decode(original[1]))&&sources.some(s=>s.url===decode(original[1]))&&/20\d{2}(?:-\d{2}){0,2}|Undated/.test(original[2]),'VISIBLE_PRIMARY_SOURCE_DATE_LINK');
    const summaryUnits=[...primaryHtml.matchAll(/class="summary-unit"[^>]*>[\s\S]*?<p>([\s\S]*?)<\/p>/g)].map(x=>decode(x[1])),judgment=primaryHtml.match(/class="judgment"[^>]*>[\s\S]*?<p>([\s\S]*?)<\/p>/);
-   assert(summaryUnits.length===4&&judgment,'PRIMARY_UNIT_STRUCTURE');summaries[t.id]=counts(summaryUnits.join('')+decode(judgment[1]),l);assert(summaries[t.id]===metrics.primarySummaries[t.id][l],'PRIMARY_METRIC_PARITY');primaryUnits.push({id:t.id,summaryUnits:summaryUnits.length,judgmentUnits:1,refs:[...primaryHtml.matchAll(/\[S(\d+)\]/g)].map(x=>+x[1])});
+   assert(summaryUnits.length===4&&judgment,'PRIMARY_UNIT_STRUCTURE');const jobLabels=[...primaryHtml.matchAll(/<span data-job-label>([\s\S]*?)<\/span>/g)].map(x=>decode(x[1]));summaries[t.id]=counts(summaryUnits.join('')+decode(judgment[1])+jobLabels.join(' '),l);assert(summaries[t.id]===metrics.primarySummaries[t.id][l],'PRIMARY_METRIC_PARITY');primaryUnits.push({id:t.id,summaryUnits:summaryUnits.length,judgmentUnits:1,refs:[...primaryHtml.matchAll(/\[S(\d+)\]/g)].map(x=>+x[1])});
    assert(primaryUnits.at(-1).refs.length>0&&primaryUnits.at(-1).refs.every(n=>sourceNumbers.includes(n)),'PRIMARY_REF_RANGE');
-   assert((d.match(/<figure\b/g)||[]).length===1&&(d.match(/<img\b/g)||[]).length===1&&d.includes(`src="../../${visual.path}"`),'ONE_DETAIL_IMAGE_PER_PROJECT');
+   if(visual){assert((d.match(/<figure\b/g)||[]).length===1&&(d.match(/<img\b/g)||[]).length===1&&d.includes(`src="../../${visual.path}"`),'ONE_DETAIL_IMAGE_PER_PROJECT')}else{assert(!(d.match(/<img\b/g)||[]).length,'HIRING_DETAIL_NO_FAKE_IMAGE');}if(t.unitType==='jobs'){const jl=[...primaryHtml.matchAll(/data-job-id="([^"]+)" data-conditional="([^"]+)"/g)].map(z=>({id:z[1],conditional:z[2]==='true'}));assert(JSON.stringify(jl)===JSON.stringify(m.hiringSupplement.roles.map(z=>({id:z.id,conditional:z.conditional}))),'JOB_LIST_MAIN_PARITY');const links=[...d.matchAll(/class="job-original" data-job-id="([^"]+)" href="([^"]+)"/g)].map(z=>({id:z[1],url:decode(z[2])}));assert(JSON.stringify(links)===JSON.stringify(m.hiringSupplement.roles.map(z=>({id:z.id,url:z.url}))),'JOB_DIRECT_ORIGINAL_LINKS');}
   }
   assert(new Set(all.map(x=>x.trim())).size===all.length,'DUPLICATE_BODY_PARAGRAPHS');stats[l]=counts(all.join(' '),l);assert(stats[l]>0,'WEEKLY_BODY_PRESENT');assert(stats[l]===metrics.body[l==='zh'?'zhDenseChars':'enWords'],'BODY_METRIC');perProduct[l]=pp;details.push(structure);primary[l]=summaries;primaryStructures.push(primaryUnits);
   const evidence=h.match(/<section id="evidence-1"([\s\S]*?)<\/section>/)?.[1];assert(evidence,'EVIDENCE_SLIDE');
@@ -92,7 +92,7 @@ async function checkpoint(phase,details={}){
 }
 report.timings={readyCalls:0,readyMs:0,imageDecodeCalls:0,imagesDecoded:0,imageDecodeMs:0,screenshotMs:0};
 report.imageLog={eligible:[],maxImages:6,maxBase64CharsPerImage:1048576,maxBase64CharsTotal:4194304,encodedChars:0,emitted:[],artifactOnly:[]};
-function previewNames(){return report.locale?(cfg.archiveRevision?['before','after','weekly','daily','empty','mobile'].map(n=>`${report.locale}-archive-${n}.jpg`):[`${report.locale}-toc-1.jpg`,`${report.locale}-event-6-a.jpg`,`${report.locale}-event-13-a.jpg`,`${report.locale}-detail-highlight-consumer-muse-top.jpg`,`${report.locale}-mobile-event-6-a.jpg`,`${report.locale}-mobile-detail-highlight-consumer-muse.jpg`]):[]}
+function previewNames(){return report.locale?(cfg.archiveRevision?['before','after','weekly','daily','empty','mobile'].map(n=>`${report.locale}-archive-${n}.jpg`):[`${report.locale}-toc-1.jpg`,`${report.locale}-event-15-a.jpg`,`${report.locale}-event-15-a.jpg`,`${report.locale}-detail-jobs-public-listings-top.jpg`,`${report.locale}-mobile-event-15-a.jpg`,`${report.locale}-mobile-detail-jobs-public-listings.jpg`]):[]}
 async function emitPreview(name){
  const log=report.imageLog;if(!previewNames().includes(name)||log.emitted.includes(name)||log.artifactOnly.includes(name))return;
  log.eligible.push(name);const data=(await fs.readFile(path.join(out,name))).toString('base64');
@@ -132,11 +132,11 @@ async function inspectSlide(page,id,viewport,extra={}){
    if(b.left<r.left-1||b.right>r.right+1||(!mobile&&(b.top<r.top-1||b.bottom>r.bottom+1)))outside.push(n.tagName+':'+n.textContent.slice(0,55));
    if(['hidden','clip','scroll','auto'].includes(s.overflowY)&&n.scrollHeight>n.clientHeight+1)clipped.push(n.tagName);
    if(n.tagName==='IMG')images.push({loaded:n.complete&&n.naturalWidth>0,contain:s.objectFit==='contain'});
-   if(n.matches('.summary p,.judgment p,.contents-list strong,.signals p'))fonts.push(parseFloat(s.fontSize)*(mobile?1:r.width/1440));
+   if(n.matches('.summary p,.judgment p,.contents-list strong,.signals p,[data-job-label]'))fonts.push(parseFloat(s.fontSize)*(mobile?1:r.width/1440));
   }
   let projectLayout=null;
   if(!mobile&&el.classList.contains('product-slide')){
-   const caption=el.querySelector('.project-grid figure figcaption'),summary=el.querySelector('.summary'),judgment=el.querySelector('.judgment'),foot=el.querySelector('.project-foot');
+   const caption=el.querySelector('.project-grid figure figcaption,.project-grid .job-index,.project-grid .job-sample'),summary=el.querySelector('.summary'),judgment=el.querySelector('.judgment'),foot=el.querySelector('.project-foot');
    const contentBottom=node=>Math.max(...[node,...node.querySelectorAll('*')].map(n=>n.getBoundingClientRect()).filter(b=>b.width&&b.height).map(b=>b.bottom));
    if(!caption||!summary||!judgment||!foot)projectLayout={overlaps:['missing project layout region']};
    else{
@@ -216,7 +216,7 @@ try{
   await checkpoint('live-hashes-complete');
   let url=live;if(cfg.phase==='candidate'){const s=await serve();server=s.server;url=s.url}report.browserTarget=cfg.phase==='candidate'?'local public candidate in existing cloud runner':'published Pages revision';
   const locale=process.env.QA_EVIDENCE_LOCALE||'zh';assert(['zh','en'].includes(locale),'LOCALE');report.locale=locale;
-  const otherLocale=locale==='zh'?'en':'zh',representatives=["highlight-consumer-muse", "highlight-hardware-digit5", "opportunity-creative-publisher-acceptance"].filter(id=>manifest.topics.some(t=>t.id===id));
+  const otherLocale=locale==='zh'?'en':'zh',representatives=["highlight-consumer-muse", "jobs-public-listings", "jobs-talent-demand"].filter(id=>manifest.topics.some(t=>t.id===id));
   report.representativeProjects=representatives;
   for(const viewport of [{width:1600,height:900},{width:1920,height:1080},{width:390,height:844}]){
    const mobile=viewport.width===390,fullControls=viewport.width===1600,context=await browser.newContext({viewport,serviceWorkers:'block'}),page=await context.newPage(),errors=[];
