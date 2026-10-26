@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "clips.jpg",
+    "url": "https://plastic.audio/clips/media/clips-lyric-video-maker-mac.b4bfd02a.webp",
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "rainbowsay.jpg",
+    "url": "https://rainbowsay.ai/media/demo/video/listening-wide-poster.jpg?v=83cdb12a48bce72f",
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "meta-audio.jpg",
+    "url": "https://media.wired.com/photos/6adb6674090ff241d65342c3/master/w_1600%2Cc_limit/Ray-Ban%2520Meta%2520Audio%2520-%2520Clubmaster1.jpg",
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "hachimo-device.jpg",
+    "url": "https://image.lceda.cn/oshwhub/pullImage/0187d6df22f74724acda54e111c7c850.png",
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "gelli.jpg",
+    "url": "https://arxiv.org/html/2610.31987v1/figures/interface2.png",
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "present-drawing.jpg",
+    "url": "https://arxiv.org/html/2610.32166v1/process.png",
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "factuality.jpg",
+    "url": "https://arxiv.org/html/2610.32883v1/new_interview_designs.png",
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "cline-git.jpg",
+    "url": "https://cline.bot/assets/images/cline-mac-app/mac-app-workspace-git.jpg",
+    "locale": "en"
+  }
+]
