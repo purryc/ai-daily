@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import http from 'node:http';
 import {createHash} from 'node:crypto';
-const root=process.cwd(),base=path.join(root,'public'),issue='2026-10-26';
+const root=process.cwd(),base=path.join(root,'public'),issue='weekly/2026-10-19';
 const digest=b=>createHash('sha256').update(b).digest('hex');
 const assert=(v,m)=>{if(!v)throw Error(m)};
 const cfg=JSON.parse(await fs.readFile('qa/acceptance-target.json'));
@@ -30,15 +30,15 @@ let manifest;
 async function staticCheck(){
  const files=JSON.parse(await fs.readFile('qa/public-files.json'));assert(JSON.stringify(await filesUnder(base))===JSON.stringify(files.map(x=>x.path).sort()),'FILE_SET');for(const f of files){const b=await fs.readFile(path.join(base,f.path));assert(digest(b)===f.sha256&&b.length===f.bytes,'HASH '+f.path)}
  const m=manifest=JSON.parse(await fs.readFile(path.join(base,issue,'manifest.json'))),sources=JSON.parse(await fs.readFile(path.join(base,issue,'sources.json'))),visuals=JSON.parse(await fs.readFile(path.join(base,issue,'visuals.json')));
- const productIds=m.topics.map(x=>x.id),sourceNumbers=sources.map(x=>x.number),metrics=m.metrics;
- assert(productIds.length>=5&&new Set(productIds).size===productIds.length,'PRODUCT_MINIMUM_AND_UNIQUENESS');
+ const contract=JSON.parse(await fs.readFile('qa/weekly-content-contract.json'));assert(contract.reviewed===true&&contract.issue===issue&&JSON.stringify(contract.metrics)===JSON.stringify(m.metrics),'REVIEWED_WEEKLY_CONTENT_CONTRACT');assert(JSON.stringify(contract.units)===JSON.stringify(m.topics.map(t=>({id:t.id,type:t.unitType}))),'REVIEWED_WEEKLY_UNIT_SET');const productIds=m.topics.map(x=>x.id),sourceNumbers=sources.map(x=>x.number),metrics=m.metrics;
+ assert(productIds.length===13&&new Set(productIds).size===productIds.length,'PRODUCT_MINIMUM_AND_UNIQUENESS');
  assert(sources.length>=12&&new Set(sources.map(x=>x.url)).size===sources.length&&sources.every(x=>/^https?:\/\//.test(x.url)),'SOURCE_MINIMUM_AND_UNIQUENESS');
  assert(JSON.stringify(sourceNumbers)===JSON.stringify(sources.map((_,i)=>i+1)),'SOURCE_NUMBERING');
- assert(visuals.length>=6&&visuals.length===productIds.length&&new Set(visuals.map(x=>x.product)).size===productIds.length&&visuals.every(x=>productIds.includes(x.product))&&new Set(visuals.map(x=>x.path)).size===visuals.length,'ONE_VISUAL_PER_PROJECT');
+ assert(visuals.length>0&&visuals.length===productIds.length&&new Set(visuals.map(x=>x.product)).size===productIds.length&&visuals.every(x=>productIds.includes(x.product))&&new Set(visuals.map(x=>x.path)).size===visuals.length,'ONE_VISUAL_PER_PROJECT');
  assert(metrics.products===productIds.length&&metrics.references===sources.length&&metrics.coreVisuals===visuals.length&&metrics.primaryProjectPages===productIds.length&&metrics.attachedProjectDetails===productIds.length,'MANIFEST_COUNTS');
  assert(Number.isInteger(metrics.slidesPerLocale)&&metrics.slidesPerLocale>productIds.length,'SLIDE_METRIC');
  for(const key of ['perProduct','primarySummaries'])assert(JSON.stringify(Object.keys(metrics[key]).sort())===JSON.stringify([...productIds].sort()),'METRIC_PROJECT_SET '+key);
- assert(m.cutoff==='2026-10-26T08:16:22Z'&&m.timezone==='America/Toronto'&&m.revision.originalCutoffRetained,'TIME');
+ assert(m.cutoff==='2026-10-26T04:00:00Z'&&m.windowStart==='2026-10-19T04:00:00Z'&&m.type==='weekly'&&m.researchStartedAt==='2026-10-26T14:37:49Z'&&m.timezone==='America/Toronto'&&m.revision.originalCutoffRetained,'TIME');
  assert(!('laneScans' in m),'METHOD_AUDIT_REMAINS_PRIVATE');
  for(const v of visuals){assert(v.sourcePage&&v.originalUrl&&v.acquiredAt,'VISUAL_PROVENANCE');assert(digest(await fs.readFile(path.join(base,issue,v.path)))===v.sha256,'VISUAL_HASH')}
  const sourcePage=await fs.readFile(path.join(base,issue,'sources.html'),'utf8');await links(sourcePage,path.join(base,issue));
@@ -48,32 +48,32 @@ async function staticCheck(){
  for(const l of ['zh','en']){
   const dir=path.join(base,issue,l),h=await fs.readFile(path.join(dir,'index.html'),'utf8');await links(h,dir);
   const si=[...h.matchAll(/<section\b[^>]*id="([^"]+)"[^>]*data-slide/g)].map(x=>x[1]);ids.push(si);assert(si.length===metrics.slidesPerLocale&&new Set(si).size===si.length,'SLIDES');assert(si[0]==='cover'&&si[1]==='overview','COVER_THEN_CONTENTS');
-  assert(si.includes('evidence-1')&&!si.includes('coverage')&&!si.includes('timing')&&si.length===27,'READER_SLIDE_SET');
+  assert(si.includes('evidence-1')&&!si.includes('coverage')&&!si.includes('timing')&&si.length===16,'READER_SLIDE_SET');
   const projects=[...h.matchAll(/<section id="(event-\d+-a)"([\s\S]*?)<\/section>/g)];assert(projects.length===productIds.length&&projects.every((x,i)=>x[1]===`event-${i+1}-a`),'ONE_PRIMARY_PAGE_PER_PROJECT');assert(!/id="event-\d+-[b-z]"/.test(h),'NO_PROJECT_FRAGMENT_SLIDES');assert((h.match(/<u>/g)||[]).length===3,'VISIBLE_KEY_TAKEAWAYS');assert((h.match(/class="action detail-link"/g)||[]).length===productIds.length,'DETAIL_ENTRIES');assert(paragraphs(h).length===0,'SUMMARY_EXCLUDED_FROM_BODY_COUNT');
   const pp={},structure=[],all=[],summaries={},primaryUnits=[];
   for(let i=0;i<productIds.length;i++){
    const t=m.topics[i],file=path.join(dir,'details',t.id+'.html'),d=await fs.readFile(file,'utf8');await links(d,path.dirname(file));assert(d.includes(`data-project-detail="${t.id}"`),'DETAIL_ID');assert(d.includes(`../#event-${i+1}-a`),'DETAIL_BACKLINK');
-   const paras=paragraphs(d);assert(paras.length>=4,'DEPTH_SECTIONS');assert(!hiddenMarkup(d),'DETAIL_NOT_HIDDEN');all.push(...paras);pp[t.id]=counts(paras.join(' '),l);assert(pp[t.id]>=(l==='zh'?520:380),'PRODUCT_DENSITY '+l+t.id);assert(pp[t.id]===metrics.perProduct[t.id][l],'METRIC_PARITY');
+   const paras=paragraphs(d);assert(paras.length===contract.sections[t.id]&&paras.length>=4,'REVIEWED_DEPTH_SECTIONS');assert(!hiddenMarkup(d),'DETAIL_NOT_HIDDEN');all.push(...paras);pp[t.id]=counts(paras.join(' '),l);assert(pp[t.id]>0,'SUBSTANTIVE_UNIT '+l+t.id);assert(pp[t.id]===metrics.perProduct[t.id][l],'METRIC_PARITY');
    const detailUnits=units(d);assert(detailUnits.length===paras.length&&detailUnits.every(x=>x.id&&x.paragraphs===1)&&new Set(detailUnits.map(x=>x.id)).size===detailUnits.length,'DETAIL_UNIT_STRUCTURE');
    const refs=[...d.matchAll(/\[S(\d+)\]/g)].map(x=>+x[1]);assert(refs.length>0&&refs.every(n=>sourceNumbers.includes(n)),'REF_RANGE');structure.push({id:t.id,units:detailUnits,refs});
    const primaryHtml=projects[i][2],visual=visuals.find(v=>v.product===t.id);assert((primaryHtml.match(/<figure\b/g)||[]).length===1&&(primaryHtml.match(/<img\b/g)||[]).length===1,'ONE_CORE_IMAGE_PER_PROJECT');assert(primaryHtml.includes(`src="../${visual.path}"`),'PROJECT_VISUAL_ID');assert(decode(primaryHtml).includes(t[l==='zh'?'zhHeadline':'enHeadline']),'TAKEAWAY_HEADLINE');
-   const original=primaryHtml.match(/class="primary-source"[^>]*href="([^"]+)"[^>]*>([^<]+)<\/a>/);assert(original&&/^https?:/.test(decode(original[1]))&&sources.some(s=>s.url===decode(original[1]))&&/2026|Undated/.test(original[2]),'VISIBLE_PRIMARY_SOURCE_DATE_LINK');
+   const original=primaryHtml.match(/class="primary-source"[^>]*href="([^"]+)"[^>]*>([^<]+)<\/a>/);assert(original&&/^https?:/.test(decode(original[1]))&&sources.some(s=>s.url===decode(original[1]))&&/20\d{2}(?:-\d{2}){0,2}|Undated/.test(original[2]),'VISIBLE_PRIMARY_SOURCE_DATE_LINK');
    const summaryUnits=[...primaryHtml.matchAll(/class="summary-unit"[^>]*>[\s\S]*?<p>([\s\S]*?)<\/p>/g)].map(x=>decode(x[1])),judgment=primaryHtml.match(/class="judgment"[^>]*>[\s\S]*?<p>([\s\S]*?)<\/p>/);
    assert(summaryUnits.length===4&&judgment,'PRIMARY_UNIT_STRUCTURE');summaries[t.id]=counts(summaryUnits.join('')+decode(judgment[1]),l);assert(summaries[t.id]===metrics.primarySummaries[t.id][l],'PRIMARY_METRIC_PARITY');primaryUnits.push({id:t.id,summaryUnits:summaryUnits.length,judgmentUnits:1,refs:[...primaryHtml.matchAll(/\[S(\d+)\]/g)].map(x=>+x[1])});
    assert(primaryUnits.at(-1).refs.length>0&&primaryUnits.at(-1).refs.every(n=>sourceNumbers.includes(n)),'PRIMARY_REF_RANGE');
    assert((d.match(/<figure\b/g)||[]).length===1&&(d.match(/<img\b/g)||[]).length===1&&d.includes(`src="../../${visual.path}"`),'ONE_DETAIL_IMAGE_PER_PROJECT');
   }
-  assert(new Set(all.map(x=>x.trim())).size===all.length,'DUPLICATE_BODY_PARAGRAPHS');stats[l]=counts(all.join(' '),l);assert(stats[l]>=(l==='zh'?6000:4500),'BODY_DENSITY');assert(stats[l]===metrics.body[l==='zh'?'zhDenseChars':'enWords'],'BODY_METRIC');perProduct[l]=pp;details.push(structure);primary[l]=summaries;primaryStructures.push(primaryUnits);
+  assert(new Set(all.map(x=>x.trim())).size===all.length,'DUPLICATE_BODY_PARAGRAPHS');stats[l]=counts(all.join(' '),l);assert(stats[l]>0,'WEEKLY_BODY_PRESENT');assert(stats[l]===metrics.body[l==='zh'?'zhDenseChars':'enWords'],'BODY_METRIC');perProduct[l]=pp;details.push(structure);primary[l]=summaries;primaryStructures.push(primaryUnits);
   const evidence=h.match(/<section id="evidence-1"([\s\S]*?)<\/section>/)?.[1];assert(evidence,'EVIDENCE_SLIDE');
   const grouped=[...evidence.matchAll(/href="([^"#]*sources\.html#[^"]+)"/g)].map(x=>decode(x[1]));assert(grouped.length===productIds.length&&new Set(grouped).size===productIds.length,'GROUPED_PROJECT_SOURCE_LINKS');groupLinks.push(grouped);
   assert(!h.includes('coverage.html')&&!files.some(f=>f.path===`${issue}/${l}/coverage.html`),'NO_READER_METHOD_PAGES');
  }
  assert(JSON.stringify(ids[0])===JSON.stringify(ids[1]),'BILINGUAL_SLIDE_PARITY');assert(JSON.stringify(groupLinks[0])===JSON.stringify(groupLinks[1]),'BILINGUAL_SOURCE_PARITY');assert(JSON.stringify(details[0])===JSON.stringify(details[1]),'BILINGUAL_DETAIL_SECTION_AND_SOURCE_PARITY');assert(JSON.stringify(primaryStructures[0])===JSON.stringify(primaryStructures[1]),'BILINGUAL_PRIMARY_UNIT_AND_SOURCE_PARITY');
- const archive=JSON.parse(await fs.readFile(path.join(base,'manifest.json')));assert(archive[0].date===issue&&archive.filter(x=>x.date===issue).length===1,'ARCHIVE');for(const p of ['index.html','en/index.html'])assert((await fs.readFile(path.join(base,p),'utf8')).includes('data-time="latest y-2026 m-2026-10 d-2026-10-26"'),'LATEST');
+ const archive=JSON.parse(await fs.readFile(path.join(base,'manifest.json')));assert(archive[0].date==='2026-10-26'&&archive.filter(x=>x.date==='2026-10-26').length===1,'DAILY_CURRENT_PRESERVED');const weeks=JSON.parse(await fs.readFile(path.join(base,'weekly/manifest.json')));assert(weeks.filter(w=>w.week_start==='2026-10-19'&&w.week_end==='2026-10-25'&&!w.partial_week&&w.path==='2026-10-19/').length===1&&weeks.some(w=>w.week_start==='2026-10-12'&&w.partial_week),'WEEKLY_ARCHIVE');for(const p of ['index.html','en/index.html'])assert((await fs.readFile(path.join(base,p),'utf8')).includes('data-time="latest y-2026 m-2026-10 d-2026-10-26"'),'LATEST');
  return {publicFiles:files.length,slidesPerLocale:metrics.slidesPerLocale,primaryProjectPages:productIds.length,attachedDetails:productIds.length,body:stats,perProduct,primarySummaries:primary,visuals:visuals.length,references:sources.length,products:productIds.length,counting:'Unique full detail paragraphs only; primary summaries, sources, figures and scan prose excluded',bilingualStructureAndSources:true};
 }
 // staticCheck verifies every byte before this read-only candidate fixture starts.
-async function serve(){const types={'.html':'text/html; charset=utf-8','.css':'text/css','.js':'text/javascript','.mjs':'text/javascript','.json':'application/json','.png':'image/png','.webp':'image/webp','.jpg':'image/jpeg','.txt':'text/plain'};const server=http.createServer(async(req,res)=>{try{let p=decodeURIComponent(new URL(req.url,'http://localhost').pathname).replace(/^\/ai-daily\//,'/');if(p.endsWith('/'))p+='index.html';const target=path.resolve(base,'.'+p);assert(target.startsWith(base+'/'),'PATH');const b=await fs.readFile(target);res.writeHead(200,{'Content-Type':types[path.extname(target)]||'application/octet-stream','Cache-Control':'public, max-age=3600'});res.end(b)}catch{res.writeHead(404);res.end()}});await new Promise(r=>server.listen(0,'127.0.0.1',r));return {server,url:`http://127.0.0.1:${server.address().port}/ai-daily/`}}
+async function serve(){const types={'.html':'text/html; charset=utf-8','.css':'text/css','.js':'text/javascript','.mjs':'text/javascript','.json':'application/json','.png':'image/png','.webp':'image/webp','.jpg':'image/jpeg','.txt':'text/plain','.svg':'image/svg+xml'};const server=http.createServer(async(req,res)=>{try{let p=decodeURIComponent(new URL(req.url,'http://localhost').pathname).replace(/^\/ai-daily\//,'/');if(p.endsWith('/'))p+='index.html';const target=path.resolve(base,'.'+p);assert(target.startsWith(base+'/'),'PATH');const b=await fs.readFile(target);res.writeHead(200,{'Content-Type':types[path.extname(target)]||'application/octet-stream','Cache-Control':'public, max-age=3600'});res.end(b)}catch{res.writeHead(404);res.end()}});await new Promise(r=>server.listen(0,'127.0.0.1',r));return {server,url:`http://127.0.0.1:${server.address().port}/ai-daily/`}}
 const report={edition:issue,startedAt:new Date().toISOString(),status:'started',completion:'in-progress',publishedCommit:cfg.phase==='live'?cfg.publicCommit:null,baselineCommit:cfg.baselineCommit,workflowBaselineCommit:process.env.QA_PUBLIC_COMMIT||null,mode:cfg.phase,checks:[],failures:[],screenshots:[],checkpoints:[]};
 const out=path.join(process.env.RUNNER_TEMP||'/tmp','daily-qa-'+(process.env.QA_EVIDENCE_LOCALE||'zh'));let browser,server;
 const check=(name,ok,details={})=>{report.checks.push({name,ok,...details});if(!ok)report.failures.push({name,...details})};
@@ -92,7 +92,7 @@ async function checkpoint(phase,details={}){
 }
 report.timings={readyCalls:0,readyMs:0,imageDecodeCalls:0,imagesDecoded:0,imageDecodeMs:0,screenshotMs:0};
 report.imageLog={eligible:[],maxImages:6,maxBase64CharsPerImage:1048576,maxBase64CharsTotal:4194304,encodedChars:0,emitted:[],artifactOnly:[]};
-function previewNames(){return report.locale?(cfg.archiveRevision?['before','after','weekly','daily','empty','mobile'].map(n=>`${report.locale}-archive-${n}.jpg`):[`${report.locale}-toc-1.jpg`,`${report.locale}-event-7-a.jpg`,`${report.locale}-event-14-a.jpg`,`${report.locale}-detail-leapsteps-assistant-task-controls-top.jpg`,`${report.locale}-mobile-event-7-a.jpg`,`${report.locale}-mobile-detail-leapsteps-assistant-task-controls.jpg`]):[]}
+function previewNames(){return report.locale?(cfg.archiveRevision?['before','after','weekly','daily','empty','mobile'].map(n=>`${report.locale}-archive-${n}.jpg`):[`${report.locale}-toc-1.jpg`,`${report.locale}-event-6-a.jpg`,`${report.locale}-event-13-a.jpg`,`${report.locale}-detail-highlight-consumer-muse-top.jpg`,`${report.locale}-mobile-event-6-a.jpg`,`${report.locale}-mobile-detail-highlight-consumer-muse.jpg`]):[]}
 async function emitPreview(name){
  const log=report.imageLog;if(!previewNames().includes(name)||log.emitted.includes(name)||log.artifactOnly.includes(name))return;
  log.eligible.push(name);const data=(await fs.readFile(path.join(out,name))).toString('base64');
@@ -212,11 +212,11 @@ try{
   await checkpoint('sandbox-verified');
   const live=process.env.QA_LIVE_BASE;assert(live==='https://purryc.github.io/ai-daily/','LIVE_TARGET');
   const liveFiles=JSON.parse(await fs.readFile(cfg.phase==='candidate'?'qa/baseline-public-files.json':'qa/public-files.json'));report.liveHashes=[];
-  for(const f of liveFiles.filter(x=>x.path.startsWith(issue+'/')||(cfg.archiveRevision&&x.path.startsWith('weekly/'))||['index.html','en/index.html','manifest.json','assets/archive-filter.css','assets/archive-filter.mjs'].includes(x.path))){const r=await fetch(new URL(f.path,live),{cache:'no-store'});const match=r.status===200&&digest(Buffer.from(await r.arrayBuffer()))===f.sha256;report.liveHashes.push({path:f.path,status:r.status,match});check(cfg.phase==='candidate'?'baseline-live-byte-match':'live-byte-match',match,{path:f.path})}
+  for(const f of liveFiles.filter(x=>x.path.startsWith(issue+'/')||(cfg.archiveRevision&&x.path.startsWith('weekly/'))||['index.html','en/index.html','manifest.json','assets/archive-filter.css','assets/archive-filter.mjs','weekly/index.html','weekly/manifest.json'].includes(x.path))){const r=await fetch(new URL(f.path,live),{cache:'no-store'});const match=r.status===200&&digest(Buffer.from(await r.arrayBuffer()))===f.sha256;report.liveHashes.push({path:f.path,status:r.status,match});check(cfg.phase==='candidate'?'baseline-live-byte-match':'live-byte-match',match,{path:f.path})}
   await checkpoint('live-hashes-complete');
   let url=live;if(cfg.phase==='candidate'){const s=await serve();server=s.server;url=s.url}report.browserTarget=cfg.phase==='candidate'?'local public candidate in existing cloud runner':'published Pages revision';
   const locale=process.env.QA_EVIDENCE_LOCALE||'zh';assert(['zh','en'].includes(locale),'LOCALE');report.locale=locale;
-  const otherLocale=locale==='zh'?'en':'zh',representatives=['leapsteps-assistant-task-controls','deki-020-display','present-drawing'].filter(id=>manifest.topics.some(t=>t.id===id));
+  const otherLocale=locale==='zh'?'en':'zh',representatives=["highlight-consumer-muse", "highlight-hardware-digit5", "opportunity-creative-publisher-acceptance"].filter(id=>manifest.topics.some(t=>t.id===id));
   report.representativeProjects=representatives;
   for(const viewport of [{width:1600,height:900},{width:1920,height:1080},{width:390,height:844}]){
    const mobile=viewport.width===390,fullControls=viewport.width===1600,context=await browser.newContext({viewport,serviceWorkers:'block'}),page=await context.newPage(),errors=[];

@@ -1,0 +1,353 @@
+{
+  "date": "2026-10-19",
+  "type": "weekly",
+  "route": "weekly/2026-10-19",
+  "weekStart": "2026-10-19",
+  "weekEnd": "2026-10-25",
+  "researchStartedAt": "2026-10-26T14:37:49Z",
+  "timezone": "America/Toronto",
+  "cutoff": "2026-10-26T04:00:00Z",
+  "windowStart": "2026-10-19T04:00:00Z",
+  "metrics": {
+    "body": {
+      "zhDenseChars": 8626,
+      "enWords": 5125
+    },
+    "perProduct": {
+      "highlight-consumer-muse": {
+        "zh": 597,
+        "en": 340
+      },
+      "highlight-consumer-instant": {
+        "zh": 627,
+        "en": 357
+      },
+      "highlight-consumer-canva": {
+        "zh": 600,
+        "en": 360
+      },
+      "highlight-hardware-birdbuddy": {
+        "zh": 612,
+        "en": 382
+      },
+      "highlight-hardware-huawei-payment": {
+        "zh": 656,
+        "en": 361
+      },
+      "highlight-hardware-digit5": {
+        "zh": 626,
+        "en": 374
+      },
+      "highlight-developer-kimi-delegation": {
+        "zh": 687,
+        "en": 414
+      },
+      "trend-action-specific-approval": {
+        "zh": 663,
+        "en": 400
+      },
+      "trend-local-resource-contract": {
+        "zh": 628,
+        "en": 387
+      },
+      "trend-second-edit-state": {
+        "zh": 648,
+        "en": 394
+      },
+      "signal-consumer-wardrobe-memory": {
+        "zh": 667,
+        "en": 391
+      },
+      "opportunity-ops-submittal-date-diff": {
+        "zh": 848,
+        "en": 495
+      },
+      "opportunity-creative-publisher-acceptance": {
+        "zh": 767,
+        "en": 470
+      }
+    },
+    "primarySummaries": {
+      "highlight-consumer-muse": {
+        "zh": 156,
+        "en": 90
+      },
+      "highlight-consumer-instant": {
+        "zh": 145,
+        "en": 87
+      },
+      "highlight-consumer-canva": {
+        "zh": 161,
+        "en": 101
+      },
+      "highlight-hardware-birdbuddy": {
+        "zh": 166,
+        "en": 114
+      },
+      "highlight-hardware-huawei-payment": {
+        "zh": 210,
+        "en": 132
+      },
+      "highlight-hardware-digit5": {
+        "zh": 201,
+        "en": 124
+      },
+      "highlight-developer-kimi-delegation": {
+        "zh": 181,
+        "en": 100
+      },
+      "trend-action-specific-approval": {
+        "zh": 191,
+        "en": 109
+      },
+      "trend-local-resource-contract": {
+        "zh": 204,
+        "en": 124
+      },
+      "trend-second-edit-state": {
+        "zh": 195,
+        "en": 109
+      },
+      "signal-consumer-wardrobe-memory": {
+        "zh": 148,
+        "en": 87
+      },
+      "opportunity-ops-submittal-date-diff": {
+        "zh": 134,
+        "en": 81
+      },
+      "opportunity-creative-publisher-acceptance": {
+        "zh": 130,
+        "en": 66
+      }
+    },
+    "counting": "Only unique full-analysis product paragraphs count toward body gates; summaries, captions, coverage and sources excluded.",
+    "products": 13,
+    "references": 67,
+    "coreVisuals": 13,
+    "slidesPerLocale": 16,
+    "primaryProjectPages": 13,
+    "attachedProjectDetails": 13,
+    "primaryBody": {
+      "zhDenseChars": 2222,
+      "enWords": 1324
+    },
+    "completeReadingBody": {
+      "zhDenseChars": 10848,
+      "enWords": 6449
+    }
+  },
+  "revision": {
+    "label": "complete-week",
+    "originalCutoffRetained": true,
+    "newIssue": true,
+    "baselineCommit": "2d3b476d94838fd81b21cef6d8332891da0b69e4"
+  },
+  "topics": [
+    {
+      "id": "highlight-consumer-muse",
+      "unitType": "highlight",
+      "zhHeadline": "MUSE让衣柜维护成为旅行准备的一部分",
+      "enHeadline": "MUSE makes wardrobe upkeep part of trip preparation",
+      "eventAt": "2026-10-20T15:02:38Z",
+      "freshness": "weekly-event",
+      "evidence": "Original product sources; no independent runtime test",
+      "eventDateNote": "版本1.0：10月20日；1.0.1：10月21日。",
+      "event_key": "muse:ios:1.0-and1.0.1:2026-10-20_21",
+      "product_key": "app:6813807872:muse-wardrobe",
+      "publishedAt": null,
+      "observedAt": "2026-10-26T14:48:39.782378+00:00",
+      "delta_since_last_seen": "Preparation starts in the actual wardrobe: accurate entries and available garments determine whether a plan can be followed."
+    },
+    {
+      "id": "highlight-consumer-instant",
+      "unitType": "highlight",
+      "zhHeadline": "Instant：找回资料以后，还得认出正确版本",
+      "enHeadline": "Instant: finding a file still leaves a version decision",
+      "eventAt": "2026-10-23",
+      "freshness": "weekly-event",
+      "evidence": "Original product sources; no independent runtime test",
+      "eventDateNote": "10月23日为Product Hunt出现日期，未确认首次提供下载的时刻；官网机制为本次复核资料。",
+      "event_key": "perillalabs:instant-search:ph-debut:2026-10-23",
+      "product_key": "perillalabs:instant-search",
+      "publishedAt": null,
+      "observedAt": "2026-10-26T14:48:39.782378+00:00",
+      "delta_since_last_seen": "Its October23 Product Hunt appearance describes bidirectional late-interaction embeddings; listing activity establishes neither first availability nor adoption growth."
+    },
+    {
+      "id": "highlight-consumer-canva",
+      "unitType": "highlight",
+      "zhHeadline": "Canva Craft：初稿之后还有局部改稿",
+      "enHeadline": "Canva Craft: the first draft still needs local revisions",
+      "eventAt": "2026-10-22",
+      "freshness": "weekly-event",
+      "evidence": "Original product sources; no independent runtime test",
+      "eventDateNote": "原始公告：10月22日。",
+      "event_key": "canva:craft:first-model-dream-lab-api:2026-10-22",
+      "product_key": "canva:craft",
+      "publishedAt": null,
+      "observedAt": "2026-10-26T14:48:39.782378+00:00",
+      "delta_since_last_seen": "Generation quality and later editability deserve separate judgments. Text, layout stability and brand details each need a relevant delivery check."
+    },
+    {
+      "id": "highlight-hardware-birdbuddy",
+      "unitType": "highlight",
+      "zhHeadline": "Birdbuddy把窗外来访留成影像，便宜入口仍有照料工作",
+      "enHeadline": "Birdbuddy saves the visitors you miss, with care still part of ownership",
+      "eventAt": "2026-10-22T13:00:00Z",
+      "freshness": "weekly-event",
+      "evidence": "confirmed product order availability; vendor specifications; dated media launch report",
+      "eventDateNote": "10月22日开放订购；早前已展示，官网仍标十一月交付。",
+      "event_key": "birdbuddy:nook-home:orders:2026-10-22",
+      "product_key": "birdbuddy:nook-home",
+      "publishedAt": null,
+      "observedAt": "2026-10-26T14:50:44.456752+00:00",
+      "delta_since_last_seen": "Both models opened for orders this week. US Nook pricing is $99, or $159 with solar; delivery is listed for November."
+    },
+    {
+      "id": "highlight-hardware-huawei-payment",
+      "unitType": "highlight",
+      "zhHeadline": "华为眼镜把付款确认放到头部动作，手机认证仍在背后",
+      "enHeadline": "Huawei puts payment confirmation in a head gesture, backed by the phone",
+      "eventAt": "2026-10-22",
+      "freshness": "weekly-event",
+      "evidence": "confirmed product / documented controls; rollout date supported by press reporting",
+      "eventDateNote": "10月22日固件升级报道；具体开通条件按官方支持页。",
+      "event_key": "huawei-ai-glasses:6.0.0.159-sp5:head-payment-parking-video",
+      "product_key": "huawei-ai-glasses",
+      "publishedAt": null,
+      "observedAt": "2026-10-26T14:50:44.456752+00:00",
+      "delta_since_last_seen": "This is a software change to existing glasses, with no evidence of newly added camera or sensor hardware."
+    },
+    {
+      "id": "highlight-hardware-digit5",
+      "unitType": "highlight",
+      "zhHeadline": "Digit 5把安全停机留在机身，统一算力尚不等于通过认证",
+      "enHeadline": "Digit 5 keeps stopping decisions onboard as it consolidates compute",
+      "eventAt": "2026-10-22T11:00:00Z",
+      "freshness": "weekly-event",
+      "evidence": "confirmed product documentation; vendor engineering disclosure, not independent test",
+      "eventDateNote": "10月22日计算架构公告，23日发布问答；早期访问预计2027年。",
+      "event_key": "agility:digit5:igx-thor-safety-compute:2026-10-22",
+      "product_key": "agility:digit5",
+      "publishedAt": null,
+      "observedAt": "2026-10-26T14:50:44.456752+00:00",
+      "delta_since_last_seen": "Compute will standardize on IGX Thor, with Halos entering human detection and safety. Safety control remains isolated from normal control. Final third-party certification is still ahead; early access is expected in the first half of 2027."
+    },
+    {
+      "id": "highlight-developer-kimi-delegation",
+      "unitType": "highlight",
+      "zhHeadline": "Kimi把并行分派交给用户开关，复杂任务不再自动等于多代理许可",
+      "enHeadline": "Kimi puts parallel delegation behind a user-controlled mode",
+      "eventAt": "2026-10-25T07:59:14Z",
+      "freshness": "weekly-event",
+      "evidence": "Original product sources; no independent runtime test",
+      "eventDateNote": "2.3.2发布于10月25日；10月26日核读保留的版本源文件，未运行产品。",
+      "event_key": "weekly:2026-10-19:highlight-developer-kimi-delegation",
+      "product_key": "highlight-developer-kimi-delegation",
+      "publishedAt": null,
+      "observedAt": "2026-10-26T14:55:13.133914+00:00",
+      "delta_since_last_seen": "Ordinary delegation uses an instruction rule, while AgentSwarm has a runtime check; the two controls have different strength."
+    },
+    {
+      "id": "trend-action-specific-approval",
+      "unitType": "trend",
+      "zhHeadline": "批准哪一个动作，比按钮放在哪里更重要",
+      "enHeadline": "The action behind an approval matters more than the button location",
+      "eventAt": "2026-10-19–25",
+      "freshness": "weekly-synthesis",
+      "evidence": "Editorial synthesis of attributed original sources",
+      "eventDateNote": "本周事件与历史对照分别注明；无同口径连续市场基线。",
+      "event_key": "weekly:2026-10-19:trend-action-specific-approval",
+      "product_key": "trend-action-specific-approval",
+      "publishedAt": null,
+      "observedAt": "2026-10-26T14:50:33.986693+00:00",
+      "delta_since_last_seen": "These controls make an upcoming action visible, but their scopes differ. Login access, a message response and execution permission remain separate decisions."
+    },
+    {
+      "id": "trend-local-resource-contract",
+      "unitType": "trend",
+      "zhHeadline": "本地AI开始交代准备成本，离线仍需逐段确认",
+      "enHeadline": "Local AI exposes setup costs while offline operation still needs checking",
+      "eventAt": "2026-10-19–25",
+      "freshness": "weekly-synthesis",
+      "evidence": "Editorial synthesis of attributed original sources",
+      "eventDateNote": "本周事件与历史对照分别注明；无同口径连续市场基线。",
+      "event_key": "weekly:2026-10-19:trend-local-resource-contract",
+      "product_key": "trend-local-resource-contract",
+      "publishedAt": null,
+      "observedAt": "2026-10-26T14:50:33.986693+00:00",
+      "delta_since_last_seen": "This week’s changes span retrieval, desktop operation and serving. A speed result from one workload cannot be transferred to another."
+    },
+    {
+      "id": "trend-second-edit-state",
+      "unitType": "trend",
+      "zhHeadline": "生成物能否接着改，正在成为产品分水岭",
+      "enHeadline": "The next edit tests whether a generated artifact is usable",
+      "eventAt": "2026-10-19–25",
+      "freshness": "weekly-synthesis",
+      "evidence": "Editorial synthesis of attributed original sources",
+      "eventDateNote": "本周事件与历史对照分别注明；无同口径连续市场基线。",
+      "event_key": "weekly:2026-10-19:trend-second-edit-state",
+      "product_key": "trend-second-edit-state",
+      "publishedAt": null,
+      "observedAt": "2026-10-26T14:50:33.986693+00:00",
+      "delta_since_last_seen": "These independent projects support a continuing-interaction direction in product supply, without establishing reliable generated applications."
+    },
+    {
+      "id": "signal-consumer-wardrobe-memory",
+      "unitType": "signal",
+      "zhHeadline": "想重新穿起已有的衣服，也不想给衣橱做一份全职档案",
+      "enHeadline": "People want to rediscover their clothes without maintaining a second wardrobe",
+      "eventAt": "2026-10-20T15:02:38Z",
+      "freshness": "historical-observation-rechecked",
+      "evidence": "Observed community accounts; not representative demand",
+      "eventDateNote": "MUSE操作见产品亮点；社区材料和8月体验为历史对照，不代表增长。",
+      "event_key": "weekly:2026-10-19:signal-consumer-wardrobe-memory",
+      "product_key": "signal-consumer-wardrobe-memory",
+      "publishedAt": null,
+      "observedAt": "2026-10-26T14:49:26Z",
+      "delta_since_last_seen": "A new application need not reveal a new need. Existing organizing habits and changes attributable to AI suggestions require separate evidence."
+    },
+    {
+      "id": "opportunity-ops-submittal-date-diff",
+      "unitType": "opportunity",
+      "zhHeadline": "施工计划改期后，先找出报审表里没跟着改的日期",
+      "enHeadline": "After a schedule changes, find the submittal dates left behind",
+      "eventAt": "2026-10-21",
+      "freshness": "historical-problem-rechecked",
+      "evidence": "Proposed validation; commercial demand unverified",
+      "eventDateNote": "本周关联事件：10月21日 Groundbreak；用户求助为历史帖，精确日期未确认；官方指南于10月26日回查。",
+      "event_key": "weekly:2026-10-19:opportunity-ops-submittal-date-diff",
+      "product_key": "opportunity-ops-submittal-date-diff",
+      "publishedAt": null,
+      "observedAt": null,
+      "delta_since_last_seen": "Current official guidance still requires manual synchronization after later schedule changes, suggesting a narrow readonly checking service to test."
+    },
+    {
+      "id": "opportunity-creative-publisher-acceptance",
+      "unitType": "opportunity",
+      "zhHeadline": "旧刊物迁移，可能值得付钱的是改完还能印",
+      "enHeadline": "For old publications, the unmet job may be checking the next editable edition",
+      "eventAt": "2026-10-20",
+      "freshness": "historical-problem-rechecked",
+      "evidence": "Proposed validation; commercial demand unverified",
+      "eventDateNote": "本周厂商反馈与10月23日迁移指南更新；用户求助来自4月，非本周新增需求。",
+      "event_key": "weekly:2026-10-19:opportunity-creative-publisher-acceptance",
+      "product_key": "opportunity-creative-publisher-acceptance",
+      "publishedAt": null,
+      "observedAt": "2026-10-26T14:49:26Z",
+      "delta_since_last_seen": "Vendors responded to migration problems this week; demand growth and buyer counts are unestablished."
+    }
+  ],
+  "unitCounts": {
+    "highlight": 7,
+    "trend": 3,
+    "opportunity": 2,
+    "signal": 1
+  },
+  "periodLabel": [
+    "2026年10月19–25日",
+    "October 19–25, 2026"
+  ]
+}

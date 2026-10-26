@@ -4421,13 +4421,13 @@
   },
   {
     "path": "en/index.html",
-    "bytes": 162363,
-    "sha256": "82d4c23643d4de61e197040767a580241e2b50182b164138cc18dba5e2ad999f"
+    "bytes": 163567,
+    "sha256": "5b79d4ff6d0fd75436ad1917b74ba98fd920068b63d23d34a3436abe62ef0489"
   },
   {
     "path": "index.html",
-    "bytes": 156570,
-    "sha256": "d27cd60036f6c5f8e0087167655e26d9698d77b989144ad585e33ebb28452c01"
+    "bytes": 157730,
+    "sha256": "ab7096d8d5f4187813e68fb9dae5f6a4366377690598b25041f576b4a9dc51c3"
   },
   {
     "path": "manifest.json",
@@ -4458,6 +4458,241 @@
     "path": "weekly/2026-10-12/pilot/zh/index.html",
     "bytes": 89301,
     "sha256": "d6f5dbee36a05baa10e4accb53fd644a74ffd51ad954c71f7767ef2c7ea23e11"
+  },
+  {
+    "path": "weekly/2026-10-19/assets/deck.js",
+    "bytes": 2576,
+    "sha256": "63d13c06452d7405e0b5ed572d8464d802c9e5b8de656b5a94e3527b1730f7b3"
+  },
+  {
+    "path": "weekly/2026-10-19/assets/highlight-consumer-canva.jpg",
+    "bytes": 62637,
+    "sha256": "ba6138dc2b756604aa18df140fdba94cc3d48c08e801fdc88940c6223f142403"
+  },
+  {
+    "path": "weekly/2026-10-19/assets/highlight-consumer-instant.jpg",
+    "bytes": 76450,
+    "sha256": "e2d389cd6959185f6f453dbb3eb3c8ae8b5db7b65216d6876022a70559d636ed"
+  },
+  {
+    "path": "weekly/2026-10-19/assets/highlight-consumer-muse.jpg",
+    "bytes": 48684,
+    "sha256": "1da43f1dfbb2c11df2977d1cef45a23f21941ee633bba469fa1b43b598f6080d"
+  },
+  {
+    "path": "weekly/2026-10-19/assets/highlight-developer-kimi-delegation.jpg",
+    "bytes": 66186,
+    "sha256": "9d3d7a1d283ea5b17d783547b50ab2dbd92d5f1e527bc6d0246f63fbca72a535"
+  },
+  {
+    "path": "weekly/2026-10-19/assets/highlight-hardware-birdbuddy.jpg",
+    "bytes": 84752,
+    "sha256": "55447012162f88bbd4bbe31a337502823b2ef8a2c614240ea39e2323eb49c63e"
+  },
+  {
+    "path": "weekly/2026-10-19/assets/highlight-hardware-digit5.jpg",
+    "bytes": 115100,
+    "sha256": "f453d5e6e05ba6daacd135566492ba989770dfa435d49f4f82635710d9bfcd0d"
+  },
+  {
+    "path": "weekly/2026-10-19/assets/highlight-hardware-huawei-payment.jpg",
+    "bytes": 85807,
+    "sha256": "2e8af39540212d5190c0711bf23c519caf53080fcfc3f85cee90f01304123129"
+  },
+  {
+    "path": "weekly/2026-10-19/assets/issue.css",
+    "bytes": 10285,
+    "sha256": "1e458c07ba855726699c2b9885d466a62a85e04604b22dddcca9a2f3d1ca09e9"
+  },
+  {
+    "path": "weekly/2026-10-19/assets/opportunity-creative-publisher-acceptance.png",
+    "bytes": 76886,
+    "sha256": "8e2d29b9c214586b0991c4decc000aa4ed82c7b09c8edc664c8c4bb9627b4127"
+  },
+  {
+    "path": "weekly/2026-10-19/assets/opportunity-ops-submittal-date-diff.png",
+    "bytes": 100008,
+    "sha256": "a4765df8a050525b571b1d458111e58eaa2c514cb4006ab50ef1403578490609"
+  },
+  {
+    "path": "weekly/2026-10-19/assets/signal-consumer-wardrobe-memory.jpg",
+    "bytes": 48684,
+    "sha256": "1da43f1dfbb2c11df2977d1cef45a23f21941ee633bba469fa1b43b598f6080d"
+  },
+  {
+    "path": "weekly/2026-10-19/assets/trend-action-specific-approval.png",
+    "bytes": 87245,
+    "sha256": "b19fc3b2a9c467eb792781853bc2115d02747ec21cf73a6e8f88b54359810ddb"
+  },
+  {
+    "path": "weekly/2026-10-19/assets/trend-local-resource-contract.png",
+    "bytes": 91347,
+    "sha256": "00679964b4a304b629a6fd4edaa52695d36926c644b4290e7ec4adf5ce7fa49f"
+  },
+  {
+    "path": "weekly/2026-10-19/assets/trend-second-edit-state.png",
+    "bytes": 84203,
+    "sha256": "c8b5c2617b9075ba21c82279fbe2986df14005858fd6967db9a2289ec5466776"
+  },
+  {
+    "path": "weekly/2026-10-19/en/details/highlight-consumer-canva.html",
+    "bytes": 4945,
+    "sha256": "f2829803ddc83653dd223db974273b1e536ce5b1c362588d83c53cfb9256fb8a"
+  },
+  {
+    "path": "weekly/2026-10-19/en/details/highlight-consumer-instant.html",
+    "bytes": 4931,
+    "sha256": "0e2cd80ad43b28ca826a24665e3d03f48576c7dfac06c83a6106ae5c07f191e1"
+  },
+  {
+    "path": "weekly/2026-10-19/en/details/highlight-consumer-muse.html",
+    "bytes": 4707,
+    "sha256": "4c1c32dc1861107e9955f828d1c3ee34c8f5b2ffe33d17c2acda643514630b40"
+  },
+  {
+    "path": "weekly/2026-10-19/en/details/highlight-developer-kimi-delegation.html",
+    "bytes": 5825,
+    "sha256": "eb9dbd44d6535faf5b89128de7bf15855f852986750f6d5f9adbb276c7f3f73c"
+  },
+  {
+    "path": "weekly/2026-10-19/en/details/highlight-hardware-birdbuddy.html",
+    "bytes": 5245,
+    "sha256": "1b6721bdc7d64e8d6af900db6177e6539f040ae1a038e7a9953ea3fd23dc1102"
+  },
+  {
+    "path": "weekly/2026-10-19/en/details/highlight-hardware-digit5.html",
+    "bytes": 5414,
+    "sha256": "e2295cdfd52514ca6924d1809e0a8455b02b7d551f50ca6ef446f2e126946615"
+  },
+  {
+    "path": "weekly/2026-10-19/en/details/highlight-hardware-huawei-payment.html",
+    "bytes": 5333,
+    "sha256": "adc29af537c9f6c882f9f29573ba3d4c862fbc0c86020dca351605b1b7f08e79"
+  },
+  {
+    "path": "weekly/2026-10-19/en/details/opportunity-creative-publisher-acceptance.html",
+    "bytes": 6597,
+    "sha256": "e8db787faced5a0ad5d3555ab69605828d6f58b5127c51169c5bd456beaae4d4"
+  },
+  {
+    "path": "weekly/2026-10-19/en/details/opportunity-ops-submittal-date-diff.html",
+    "bytes": 7181,
+    "sha256": "05b87de29b1d7a38d898f449037dac3465e80fa59878c2527300be811e62a107"
+  },
+  {
+    "path": "weekly/2026-10-19/en/details/signal-consumer-wardrobe-memory.html",
+    "bytes": 5698,
+    "sha256": "da119560a4f2b3e884a4350d08618359ba9a7b31948e1b9c8f3dcdd15cb7417f"
+  },
+  {
+    "path": "weekly/2026-10-19/en/details/trend-action-specific-approval.html",
+    "bytes": 6126,
+    "sha256": "4d618c4a52bf40be1836e4862658ef56332941d20def03010d0c0a2ea817e734"
+  },
+  {
+    "path": "weekly/2026-10-19/en/details/trend-local-resource-contract.html",
+    "bytes": 5588,
+    "sha256": "f7a1e99559954c20a7000a460f8a84d9077a20a7e2dbc0730282e5061f954e54"
+  },
+  {
+    "path": "weekly/2026-10-19/en/details/trend-second-edit-state.html",
+    "bytes": 5841,
+    "sha256": "d5a8d23f2c2d293cfe7741dcd6727d6150606ed808dcf79427d69986204bff6c"
+  },
+  {
+    "path": "weekly/2026-10-19/en/index.html",
+    "bytes": 43732,
+    "sha256": "13ab47579da294c877be0d2b8b031477bdf95e930c393119edf4d958de389e89"
+  },
+  {
+    "path": "weekly/2026-10-19/manifest.json",
+    "bytes": 15307,
+    "sha256": "f75d259d8eced129e985134feb771edcb39589b128ebe96a1f0eb442a9318a2d"
+  },
+  {
+    "path": "weekly/2026-10-19/sources.html",
+    "bytes": 40084,
+    "sha256": "b75fa46c998219ffd377de8f55535ec94f4ccb996f249a929bf9657158dbe37e"
+  },
+  {
+    "path": "weekly/2026-10-19/sources.json",
+    "bytes": 18022,
+    "sha256": "14efe6fabdb6a8867859f9f3391cb8fe185fd9a74de8780be5c8eb505190c58a"
+  },
+  {
+    "path": "weekly/2026-10-19/visuals.json",
+    "bytes": 10276,
+    "sha256": "16d607ffae875d2bde6f14771fdfd3455a619d3eeb115f2b99c22c97b5fbeea8"
+  },
+  {
+    "path": "weekly/2026-10-19/zh/details/highlight-consumer-canva.html",
+    "bytes": 4432,
+    "sha256": "6b9b8e57610a7f1f321c6a67bb40395f3433a47ddd8570fe5124a41f764e5f6a"
+  },
+  {
+    "path": "weekly/2026-10-19/zh/details/highlight-consumer-instant.html",
+    "bytes": 4548,
+    "sha256": "c8ac2a47478b5ee51d075d1e281735ad2295ee5bc4dd1d3275665cd98e44eabc"
+  },
+  {
+    "path": "weekly/2026-10-19/zh/details/highlight-consumer-muse.html",
+    "bytes": 4300,
+    "sha256": "5924ffdf15a575378534bfd2216809d239c3fbbe1b875ad0e3eec74cd7bcb138"
+  },
+  {
+    "path": "weekly/2026-10-19/zh/details/highlight-developer-kimi-delegation.html",
+    "bytes": 5362,
+    "sha256": "eedad413f1b59380caeeac1291ab1e44acf1e808799543cfd1db950c64b482df"
+  },
+  {
+    "path": "weekly/2026-10-19/zh/details/highlight-hardware-birdbuddy.html",
+    "bytes": 4764,
+    "sha256": "2247956dca4bde7525d73bff9c8e3cc7e917573ddfc962f7406cf14dbe785bd3"
+  },
+  {
+    "path": "weekly/2026-10-19/zh/details/highlight-hardware-digit5.html",
+    "bytes": 4946,
+    "sha256": "508cfc2bdf15b1d6c75af8e9ead5c457883c4436f98b158c86bae5e4797a2e48"
+  },
+  {
+    "path": "weekly/2026-10-19/zh/details/highlight-hardware-huawei-payment.html",
+    "bytes": 4839,
+    "sha256": "00f425420daa96afd289c3896ca1e6d7385139dcfd989f56bf4414d99c8b2f09"
+  },
+  {
+    "path": "weekly/2026-10-19/zh/details/opportunity-creative-publisher-acceptance.html",
+    "bytes": 5942,
+    "sha256": "ddefc53b18b10508375c4e09fba67d3a7b62047d36dcb8bb71a10870a72a4e62"
+  },
+  {
+    "path": "weekly/2026-10-19/zh/details/opportunity-ops-submittal-date-diff.html",
+    "bytes": 6437,
+    "sha256": "726fcd5d3584af9e1958aeed21e93360a3face03f6130dc10eacfebce388bd85"
+  },
+  {
+    "path": "weekly/2026-10-19/zh/details/signal-consumer-wardrobe-memory.html",
+    "bytes": 5089,
+    "sha256": "1e74422498f59c88e89c88338d84969563f59b310eca92da44f650165bfa7f9c"
+  },
+  {
+    "path": "weekly/2026-10-19/zh/details/trend-action-specific-approval.html",
+    "bytes": 5495,
+    "sha256": "22224360eb24c42350c2052919ffa71111e4ca985205e6f95d856e5787cf393d"
+  },
+  {
+    "path": "weekly/2026-10-19/zh/details/trend-local-resource-contract.html",
+    "bytes": 4941,
+    "sha256": "1d6737b2fc2b64369fb803ef24019922fdce0330692b99cd64cd9cd683e32295"
+  },
+  {
+    "path": "weekly/2026-10-19/zh/details/trend-second-edit-state.html",
+    "bytes": 5079,
+    "sha256": "30c405e9e74bc827997c94feb58d9766f121d9629784f7b8a702c8670e111260"
+  },
+  {
+    "path": "weekly/2026-10-19/zh/index.html",
+    "bytes": 41720,
+    "sha256": "865e47bc1bdc50859746e09bdd3d770f62d41eb3580d8934799cab86a0a72222"
   },
   {
     "path": "weekly/assets/pilot.css",
@@ -4531,12 +4766,12 @@
   },
   {
     "path": "weekly/index.html",
-    "bytes": 1404,
-    "sha256": "a50ba670e08ef0c4b7b57563d0929cf523b60637d77dccebd482d61a88d09e24"
+    "bytes": 1324,
+    "sha256": "ed73c8b949d74e88a825a48f804af4dfbbfa5d41719c09488a7f821beb539b43"
   },
   {
     "path": "weekly/manifest.json",
-    "bytes": 186,
-    "sha256": "3a740b99aee2b0f75901c45fc19a22c3a7d5b462d00415082f9a2ee30eaabfe6"
+    "bytes": 589,
+    "sha256": "75992b8ea6c7ec5af787997575281782b9dccaa1adf47455fd961c0a50300d06"
   }
 ]

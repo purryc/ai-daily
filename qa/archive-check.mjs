@@ -65,19 +65,19 @@ export async function checkArchive({browser, url, live, locale, phase, check, sc
 
     }
     await p.locator('button[data-archive-type="daily"]').focus();await p.keyboard.press('Enter');
-    check('archive-daily-august-intersection',(await visibleDates()).length===19&&await p.locator('.issue-card[data-archive-type="weekly"]').isHidden()&&await p.locator('button[data-archive-type="daily"]').evaluate(e=>e===document.activeElement),{viewport});
+    check('archive-daily-august-intersection',(await visibleDates()).length===19&&await p.locator('.issue-card[data-archive-type="weekly"]:visible').count()===0&&await p.locator('button[data-archive-type="daily"]').evaluate(e=>e===document.activeElement),{viewport});
     if(viewport.width===1600)await capture(`${locale}-archive-daily.jpg`);
     await p.locator('button[data-archive-type="weekly"]').focus();await p.keyboard.press('Space');
     check('archive-type-change-valid-months',same(await visibleDates(),weeks.map(w=>w.week_start))&&same(await p.locator('[data-archive-month]').evaluateAll(els=>els.map(e=>e.dataset.archiveMonth)),['all','10'])&&await p.locator('button[data-archive-type="weekly"]').evaluate(e=>e===document.activeElement)&&!new URL(p.url()).searchParams.has('month'),{viewport});
     await p.locator('[data-archive-month="10"]').click();
-    check('archive-weekly-october-intersection',same(await visibleDates(),weeks.map(w=>w.week_start))&&await p.locator('.issue-card:visible').getAttribute('data-archive-type')==='weekly',{viewport});
+    check('archive-weekly-october-intersection',same(await visibleDates(),weeks.map(w=>w.week_start))&&await p.locator('.issue-card:visible').evaluateAll(els=>els.length>0&&els.every(e=>e.dataset.archiveType==='weekly')),{viewport});
     if(viewport.width===1600)await capture(`${locale}-archive-weekly.jpg`);
     await p.locator('.lang-switch').getByRole('link',{name:locale==='zh'?'English':'中文',exact:true}).click();await ready();
     check('archive-weekly-language-state',new URL(p.url()).searchParams.get('type')==='weekly'&&new URL(p.url()).searchParams.get('month')==='10'&&same(await visibleDates(),weeks.map(w=>w.week_start)),{viewport});
     await p.goto(home+'?type=weekly&year=2026&month=10',{waitUntil:'domcontentloaded'});await ready();
     check('archive-weekly-reload',same(await visibleDates(),weeks.map(w=>w.week_start)),{viewport});
     await p.locator('button[data-archive-type="daily"]').click();
-    check('archive-same-date-types-distinct',(await visibleDates()).length===records.filter(r=>r.date.startsWith('2026-10')).length&&await p.locator('.issue-card[data-archive-type="weekly"]').isHidden(),{viewport});
+    check('archive-same-date-types-distinct',(await visibleDates()).length===records.filter(r=>r.date.startsWith('2026-10')).length&&await p.locator('.issue-card[data-archive-type="weekly"]:visible').count()===0,{viewport});
     await p.locator('button[data-archive-type="all"]').click();await p.locator('[data-archive-month="08"]').click();
     await p.locator('[data-archive-order]').selectOption('oldest');
     const august=allDates.filter(d=>d.startsWith('2026-08')).reverse();
@@ -106,15 +106,24 @@ export async function checkArchive({browser, url, live, locale, phase, check, sc
     await p.locator('[data-archive-order]').selectOption('newest');
     check('overview-newest-sort-keeps-all',same(await visibleDates(),allDates),{viewport});
   }
-  await p.setViewportSize({width:1600,height:900});await p.goto(home,{waitUntil:'domcontentloaded'});await ready();
-  await p.locator('button[data-archive-type="weekly"]').click();
-  const weeklyLink=p.locator('.issue-card:visible').locator(`a.primary`);
-  await weeklyLink.click();
-  check('archive-weekly-actual-navigation',new URL(p.url()).pathname===new URL(`weekly/2026-10-12/pilot/${locale}/`,url).pathname&&await p.locator('#cover').isVisible());
+  await p.setViewportSize({width:1600,height:900});
+  for(const week of weeks){
+    await p.goto(home,{waitUntil:'domcontentloaded'});await ready();
+    await p.locator('button[data-archive-type="weekly"]').click();
+    const target=new URL(`weekly/${week.path}${locale}/`,url);
+    await p.locator(`.issue-card:visible a.primary[href="${target.pathname}"]`).click();
+    await p.locator('#cover').waitFor({state:'visible'});
+    check('archive-weekly-actual-navigation',new URL(p.url()).pathname===target.pathname&&await p.locator('#cover').isVisible(),{week:week.week_start});
+  }
   await p.goto(home,{waitUntil:'domcontentloaded'});await ready();
-  const latest=p.locator('.issue-card:visible').first();
-  await latest.locator(`a[href*="/${issue}/${locale}/"]`).click();
-  check('overview-latest-actual-navigation',new URL(p.url()).pathname===new URL(`${issue}/${locale}/`,url).pathname&&await p.locator('#cover').isVisible());
+  const latestDaily=records[0].date,latest=p.locator('.issue-card:visible').first();
+  await latest.locator(`a[href*="/${latestDaily}/${locale}/"]`).click();
+  await p.locator('#cover').waitFor({state:'visible'});
+  check('overview-latest-actual-navigation',new URL(p.url()).pathname===new URL(`${latestDaily}/${locale}/`,url).pathname&&await p.locator('#cover').isVisible());
+  const weeklyIndex=await p.goto(new URL('weekly/',url),{waitUntil:'domcontentloaded'});
+  check('weekly-index-http',weeklyIndex.status()===200);
+  for(const width of [1600,390]){await p.setViewportSize({width,height:900});const state=await p.evaluate(()=>({overflow:document.documentElement.scrollWidth>innerWidth+1,heading:document.querySelector('h1')?.textContent,links:[...document.querySelectorAll('a')].map(a=>{const r=a.getBoundingClientRect();return r.width>0&&r.height>0})}));check('weekly-index-readable',!state.overflow&&Boolean(state.heading)&&state.links.every(Boolean),{width,...state});}
+  for(const week of weeks){const target=new URL(`weekly/${week.path}${locale}/`,url).href;check('weekly-index-preserves-edition',await p.locator('a').evaluateAll((els,u)=>els.some(a=>a.href===u),target),{week:week.week_start});}
   check('archive-runtime-errors',errors.length===0,{errors});
   await p.close();
 }

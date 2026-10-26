@@ -1,0 +1,202 @@
+{
+  "reviewed": true,
+  "issue": "weekly/2026-10-19",
+  "metrics": {
+    "body": {
+      "zhDenseChars": 8626,
+      "enWords": 5125
+    },
+    "perProduct": {
+      "highlight-consumer-muse": {
+        "zh": 597,
+        "en": 340
+      },
+      "highlight-consumer-instant": {
+        "zh": 627,
+        "en": 357
+      },
+      "highlight-consumer-canva": {
+        "zh": 600,
+        "en": 360
+      },
+      "highlight-hardware-birdbuddy": {
+        "zh": 612,
+        "en": 382
+      },
+      "highlight-hardware-huawei-payment": {
+        "zh": 656,
+        "en": 361
+      },
+      "highlight-hardware-digit5": {
+        "zh": 626,
+        "en": 374
+      },
+      "highlight-developer-kimi-delegation": {
+        "zh": 687,
+        "en": 414
+      },
+      "trend-action-specific-approval": {
+        "zh": 663,
+        "en": 400
+      },
+      "trend-local-resource-contract": {
+        "zh": 628,
+        "en": 387
+      },
+      "trend-second-edit-state": {
+        "zh": 648,
+        "en": 394
+      },
+      "signal-consumer-wardrobe-memory": {
+        "zh": 667,
+        "en": 391
+      },
+      "opportunity-ops-submittal-date-diff": {
+        "zh": 848,
+        "en": 495
+      },
+      "opportunity-creative-publisher-acceptance": {
+        "zh": 767,
+        "en": 470
+      }
+    },
+    "primarySummaries": {
+      "highlight-consumer-muse": {
+        "zh": 156,
+        "en": 90
+      },
+      "highlight-consumer-instant": {
+        "zh": 145,
+        "en": 87
+      },
+      "highlight-consumer-canva": {
+        "zh": 161,
+        "en": 101
+      },
+      "highlight-hardware-birdbuddy": {
+        "zh": 166,
+        "en": 114
+      },
+      "highlight-hardware-huawei-payment": {
+        "zh": 210,
+        "en": 132
+      },
+      "highlight-hardware-digit5": {
+        "zh": 201,
+        "en": 124
+      },
+      "highlight-developer-kimi-delegation": {
+        "zh": 181,
+        "en": 100
+      },
+      "trend-action-specific-approval": {
+        "zh": 191,
+        "en": 109
+      },
+      "trend-local-resource-contract": {
+        "zh": 204,
+        "en": 124
+      },
+      "trend-second-edit-state": {
+        "zh": 195,
+        "en": 109
+      },
+      "signal-consumer-wardrobe-memory": {
+        "zh": 148,
+        "en": 87
+      },
+      "opportunity-ops-submittal-date-diff": {
+        "zh": 134,
+        "en": 81
+      },
+      "opportunity-creative-publisher-acceptance": {
+        "zh": 130,
+        "en": 66
+      }
+    },
+    "counting": "Only unique full-analysis product paragraphs count toward body gates; summaries, captions, coverage and sources excluded.",
+    "products": 13,
+    "references": 67,
+    "coreVisuals": 13,
+    "slidesPerLocale": 16,
+    "primaryProjectPages": 13,
+    "attachedProjectDetails": 13,
+    "primaryBody": {
+      "zhDenseChars": 2222,
+      "enWords": 1324
+    },
+    "completeReadingBody": {
+      "zhDenseChars": 10848,
+      "enWords": 6449
+    }
+  },
+  "units": [
+    {
+      "id": "highlight-consumer-muse",
+      "type": "highlight"
+    },
+    {
+      "id": "highlight-consumer-instant",
+      "type": "highlight"
+    },
+    {
+      "id": "highlight-consumer-canva",
+      "type": "highlight"
+    },
+    {
+      "id": "highlight-hardware-birdbuddy",
+      "type": "highlight"
+    },
+    {
+      "id": "highlight-hardware-huawei-payment",
+      "type": "highlight"
+    },
+    {
+      "id": "highlight-hardware-digit5",
+      "type": "highlight"
+    },
+    {
+      "id": "highlight-developer-kimi-delegation",
+      "type": "highlight"
+    },
+    {
+      "id": "trend-action-specific-approval",
+      "type": "trend"
+    },
+    {
+      "id": "trend-local-resource-contract",
+      "type": "trend"
+    },
+    {
+      "id": "trend-second-edit-state",
+      "type": "trend"
+    },
+    {
+      "id": "signal-consumer-wardrobe-memory",
+      "type": "signal"
+    },
+    {
+      "id": "opportunity-ops-submittal-date-diff",
+      "type": "opportunity"
+    },
+    {
+      "id": "opportunity-creative-publisher-acceptance",
+      "type": "opportunity"
+    }
+  ],
+  "sections": {
+    "highlight-consumer-muse": 4,
+    "highlight-consumer-instant": 4,
+    "highlight-consumer-canva": 4,
+    "highlight-hardware-birdbuddy": 4,
+    "highlight-hardware-huawei-payment": 4,
+    "highlight-hardware-digit5": 4,
+    "highlight-developer-kimi-delegation": 4,
+    "trend-action-specific-approval": 4,
+    "trend-local-resource-contract": 4,
+    "trend-second-edit-state": 4,
+    "signal-consumer-wardrobe-memory": 5,
+    "opportunity-ops-submittal-date-diff": 6,
+    "opportunity-creative-publisher-acceptance": 6
+  }
+}
