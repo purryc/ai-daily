@@ -92,7 +92,7 @@ async function checkpoint(phase,details={}){
 }
 report.timings={readyCalls:0,readyMs:0,imageDecodeCalls:0,imagesDecoded:0,imageDecodeMs:0,screenshotMs:0};
 report.imageLog={eligible:[],maxImages:6,maxBase64CharsPerImage:1048576,maxBase64CharsTotal:4194304,encodedChars:0,emitted:[],artifactOnly:[]};
-function previewNames(){return report.locale?(cfg.archiveRevision?['before','after','weekly','daily','empty','mobile'].map(n=>`${report.locale}-archive-${n}.jpg`):[`${report.locale}-toc-1.jpg`,`${report.locale}-event-15-a.jpg`,`${report.locale}-event-15-a.jpg`,`${report.locale}-detail-jobs-public-listings-top.jpg`,`${report.locale}-mobile-event-15-a.jpg`,`${report.locale}-mobile-detail-jobs-public-listings.jpg`]):[]}
+function previewNames(){return report.locale?(cfg.archiveRevision?['before','after','weekly','daily','empty','mobile'].map(n=>`${report.locale}-archive-${n}.jpg`):[`${report.locale}-toc-1.jpg`,`${report.locale}-event-14-a.jpg`,`${report.locale}-event-15-a.jpg`,`${report.locale}-detail-jobs-public-listings-top.jpg`,`${report.locale}-mobile-event-14-a.jpg`,`${report.locale}-mobile-detail-jobs-public-listings.jpg`]):[]}
 async function emitPreview(name){
  const log=report.imageLog;if(!previewNames().includes(name)||log.emitted.includes(name)||log.artifactOnly.includes(name))return;
  log.eligible.push(name);const data=(await fs.readFile(path.join(out,name))).toString('base64');
