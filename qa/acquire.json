@@ -2,50 +2,49 @@
   {
     "kind": "image",
     "renderImage": true,
-    "name": "deki.jpg",
-    "url": "https://dekiengine.com/img/editor-full.png",
+    "name": "flint.jpg",
+    "url": "https://raw.githubusercontent.com/microsoft/flint-chart/main/docs/figs/flint-mcp-chat.png",
     "locale": "zh"
   },
   {
     "kind": "image",
     "renderImage": true,
-    "name": "vzmore.jpg",
-    "url": "https://cdn.mos.cms.futurecdn.net/9aQoSQq4x2Q6cJrbVXzCMG.jpg",
+    "name": "tv-detox.jpg",
+    "url": "https://raw.githubusercontent.com/Ansub/tv-detox/main/docs/home-screen.png",
     "locale": "zh"
   },
   {
     "kind": "image",
     "renderImage": true,
-    "name": "asus-p16.jpg",
-    "url": "https://cdn.mos.cms.futurecdn.net/y6ou9CfrKJJUfJopNVSmZf-2448-80.jpg",
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "leapsteps.jpg",
-    "url": "https://leapsteps.ai/assets/img/screens/win-home-task-pane-light.webp",
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "moss-edit.jpg",
-    "url": "https://raw.githubusercontent.com/eduardoabreu81/moss-image-forge-neo/main/.github/images/img2img.jpg",
+    "name": "dumbtv.jpg",
+    "url": "https://raw.githubusercontent.com/humblemuzzu/dumbtv/main/docs/assets/screens/home.png",
     "locale": "en"
   },
   {
     "kind": "image",
     "renderImage": true,
-    "name": "papermark.jpg",
-    "url": "https://ph-files.imgix.net/6a3a7cb0-937f-4094-a077-fe66875733ba.jpeg",
+    "name": "cleantv.jpg",
+    "url": "https://raw.githubusercontent.com/Gathin23/cleanyourtv/main/addons/smart-home/screenshot.jpg",
     "locale": "en"
   },
   {
     "kind": "image",
     "renderImage": true,
-    "name": "qwen-go.jpg",
-    "url": "https://imgcdn.yzwb.net/fcapp_4cabbef5-3aca-4406-aaad-cc8ad30b9ee9_1792726176517?imageMogr2%2Fthumbnail%2F1080x%3E%2Fstrip%2Fignore-error%2F1%7Cimageslim=",
+    "name": "moss-layout.jpg",
+    "url": "https://raw.githubusercontent.com/eduardoabreu81/moss-image-forge-neo/main/.github/images/layout.jpg",
     "locale": "en"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "jk-plots.png",
+    "url": "https://arxiv.org/html/2610.31050v1/figs/comparison/cat/pie/ours10.png",
+    "locale": "en"
+  },
+  {
+    "kind": "inventory",
+    "name": "clips-inventory.json",
+    "url": "https://plastic.audio/clips/",
+    "locale": "zh"
   }
 ]
