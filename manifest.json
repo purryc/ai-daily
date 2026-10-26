@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-10-26",
+    "zhTitle": "AI Daily｜2026年10月26日 · 待办助手、电视界面与沉浸练习",
+    "enTitle": "AI Daily | October 26, 2026 · Task assistants, TV interfaces and immersive practice",
+    "zhSummary": "把聊天计划写进待办，恢复电视输入与画质菜单，给本地图片加参考编辑；也看头显语言练习、实体签名与可交互图表。",
+    "enSummary": "Put a chat plan into tasks, restore TV input and picture menus, and edit local images from a reference; plus headset language practice, physical autographs and interactive charts.",
+    "tags": [
+      "consumer AI",
+      "creative tools",
+      "physical interaction",
+      "research"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "research"
+    ],
+    "coverStory": {
+      "topicId": "leapsteps-assistant-task-controls",
+      "zhTitle": "LeapSteps Windows1.0.3",
+      "enTitle": "LeapSteps Windows1.0.3",
+      "imagePath": "assets/leapsteps.jpg",
+      "imageSourceUrl": "https://leapsteps.ai/assets/img/screens/win-home-task-pane-light.webp",
+      "primarySourceUrl": "https://leapsteps.ai/",
+      "evidenceStrength": "Maintainer documentation and release claims; no independent runtime test"
+    },
+    "zhPath": "./2026-10-26/zh/",
+    "enPath": "./2026-10-26/en/",
+    "sourcesPath": "./2026-10-26/sources.html"
+  },
+  {
     "date": "2026-10-25",
     "zhTitle": "AI Daily｜2026年10月25日 · 任务捕捉、桌面代理与可编辑场景",
     "enTitle": "AI Daily | October 25, 2026 · Task capture, desktop agents and editable scenes",

@@ -1,0 +1,970 @@
+[
+  {
+    "url": "https://leapsteps.ai/whats-new",
+    "title": "Windows1.0.3 changelog",
+    "publisher": "ZestRoot / LeapSteps",
+    "publishedAt": "2026-10-25",
+    "observedAt": "2026-10-26T08:43:10.063781+00:00",
+    "number": 1
+  },
+  {
+    "url": "https://leapsteps.ai/ai-assistants",
+    "title": "Connect AI assistants",
+    "publisher": "ZestRoot / LeapSteps",
+    "publishedAt": "2026-10-25",
+    "observedAt": "2026-10-26T08:43:10.063781+00:00",
+    "number": 2
+  },
+  {
+    "url": "https://leapsteps.ai/",
+    "title": "LeapSteps product and FAQ",
+    "publisher": "ZestRoot / LeapSteps",
+    "publishedAt": "2026-10-25",
+    "observedAt": "2026-10-26T08:43:10.063781+00:00",
+    "number": 3
+  },
+  {
+    "url": "https://leapsteps.ai/press",
+    "title": "LeapSteps press kit",
+    "publisher": "ZestRoot / LeapSteps",
+    "publishedAt": "2026-10-23",
+    "observedAt": "2026-10-26T08:43:10.063781+00:00",
+    "number": 4
+  },
+  {
+    "url": "https://leapsteps.ai/windows",
+    "title": "LeapSteps Windows interface",
+    "publisher": "ZestRoot / LeapSteps",
+    "publishedAt": "2026-10-24",
+    "observedAt": "2026-10-26T08:54:37.005267+00:00",
+    "number": 5
+  },
+  {
+    "url": "https://leapsteps.ai/support",
+    "title": "LeapSteps support",
+    "publisher": "ZestRoot / LeapSteps",
+    "observedAt": "2026-10-26T08:54:37.005267+00:00",
+    "number": 6
+  },
+  {
+    "url": "https://github.com/Ansub/tv-detox/releases/tag/v1.5.6",
+    "title": "TV Detox v1.5.6",
+    "publisher": "Ansub / GitHub contributors",
+    "publishedAt": "2026-10-26T05:39:20Z",
+    "observedAt": "2026-10-26T08:41:55.821Z",
+    "number": 7
+  },
+  {
+    "url": "https://github.com/Ansub/tv-detox/releases/tag/v1.5.5",
+    "title": "TV Detox v1.5.5",
+    "publisher": "Ansub / GitHub contributors",
+    "publishedAt": "2026-10-26T03:39:30Z",
+    "observedAt": "2026-10-26T08:41:55.821Z",
+    "number": 8
+  },
+  {
+    "url": "https://github.com/Ansub/tv-detox/releases/tag/v1.5.4",
+    "title": "TV Detox v1.5.4",
+    "publisher": "Ansub / GitHub contributors",
+    "publishedAt": "2026-10-25T08:51:40Z",
+    "observedAt": "2026-10-26T08:41:55.821Z",
+    "number": 9
+  },
+  {
+    "url": "https://github.com/Ansub/tv-detox/pull/82",
+    "title": "TCL HDMI failure and recovery",
+    "publisher": "Ansub / GitHub contributors",
+    "publishedAt": "2026-10-25T21:18:35Z",
+    "observedAt": "2026-10-26T08:41:55.821Z",
+    "number": 10
+  },
+  {
+    "url": "https://github.com/Ansub/tv-detox/pull/78",
+    "title": "Q651G native panel fix",
+    "publisher": "Ansub / GitHub contributors",
+    "publishedAt": "2026-10-25T15:27:51Z",
+    "observedAt": "2026-10-26T08:41:55.821Z",
+    "number": 11
+  },
+  {
+    "url": "https://github.com/Ansub/tv-detox/pull/79",
+    "title": "Two Q651G device notes",
+    "publisher": "Ansub / GitHub contributors",
+    "publishedAt": "2026-10-25T15:27:53Z",
+    "observedAt": "2026-10-26T08:41:55.821Z",
+    "number": 12
+  },
+  {
+    "url": "https://github.com/Ansub/tv-detox",
+    "title": "TV Detox README",
+    "publisher": "Ansub / GitHub contributors",
+    "observedAt": "2026-10-26T08:41:55.821Z",
+    "number": 13
+  },
+  {
+    "url": "https://github.com/humblemuzzu/dumbtv/releases/tag/launcher-v1.5",
+    "title": "dumbTV launcher1.5",
+    "publisher": "humblemuzzu / GitHub contributors",
+    "publishedAt": "2026-10-25T18:48:05Z",
+    "observedAt": "2026-10-26T08:41:55.821Z",
+    "number": 14
+  },
+  {
+    "url": "https://github.com/humblemuzzu/dumbtv/releases/tag/launcher-v1.4",
+    "title": "dumbTV launcher1.4",
+    "publisher": "humblemuzzu / GitHub contributors",
+    "publishedAt": "2026-10-25T18:02:24Z",
+    "observedAt": "2026-10-26T08:41:55.821Z",
+    "number": 15
+  },
+  {
+    "url": "https://github.com/humblemuzzu/dumbtv/pull/102",
+    "title": "Wake guard contributor test",
+    "publisher": "humblemuzzu / GitHub contributors",
+    "publishedAt": "2026-10-25T14:22:56Z",
+    "observedAt": "2026-10-26T08:41:55.821Z",
+    "number": 16
+  },
+  {
+    "url": "https://github.com/humblemuzzu/dumbtv/blob/main/launcher/README.md",
+    "title": "dumbTV launcher README",
+    "publisher": "humblemuzzu / GitHub contributors",
+    "observedAt": "2026-10-26T08:41:55.821Z",
+    "number": 17
+  },
+  {
+    "url": "https://github.com/humblemuzzu/dumbtv",
+    "title": "dumbTV project README",
+    "publisher": "humblemuzzu / GitHub contributors",
+    "observedAt": "2026-10-26T08:41:55.821Z",
+    "number": 18
+  },
+  {
+    "url": "https://github.com/Gathin23/cleanyourtv/releases/tag/v3.0.0",
+    "title": "CleanYourTV v3.0.0",
+    "publisher": "Gathin23 / GitHub contributors",
+    "publishedAt": "2026-10-25T15:53:12Z",
+    "observedAt": "2026-10-26T08:41:55.821Z",
+    "number": 19
+  },
+  {
+    "url": "https://github.com/Gathin23/cleanyourtv/blob/v3.0.0/addons/smart-home/README.md",
+    "title": "Smart Home at v3.0.0",
+    "publisher": "Gathin23 / GitHub contributors",
+    "observedAt": "2026-10-26T08:41:55.821Z",
+    "number": 20
+  },
+  {
+    "url": "https://github.com/Gathin23/cleanyourtv/blob/v3.0.0/addons/ad-blocking/README.md",
+    "title": "Ad Blocking at v3.0.0",
+    "publisher": "Gathin23 / GitHub contributors",
+    "observedAt": "2026-10-26T08:41:55.821Z",
+    "number": 21
+  },
+  {
+    "url": "https://github.com/Gathin23/cleanyourtv/blob/v3.0.0/addons/sources/README.md",
+    "title": "Sources at v3.0.0",
+    "publisher": "Gathin23 / GitHub contributors",
+    "observedAt": "2026-10-26T08:41:55.821Z",
+    "number": 22
+  },
+  {
+    "url": "https://github.com/Gathin23/cleanyourtv/issues/1441",
+    "title": "TCL G10 microphone report",
+    "publisher": "Gathin23 / GitHub contributors",
+    "publishedAt": "2026-10-24T15:00:52Z",
+    "observedAt": "2026-10-26T08:41:55.821Z",
+    "number": 23
+  },
+  {
+    "url": "https://github.com/Gathin23/cleanyourtv/issues/1203",
+    "title": "Sankey list contradiction",
+    "publisher": "Gathin23 / GitHub contributors",
+    "publishedAt": "2026-10-23T14:46:10Z",
+    "observedAt": "2026-10-26T08:41:55.821Z",
+    "number": 24
+  },
+  {
+    "url": "https://github.com/Gathin23/cleanyourtv/blob/main/docs/modules.md",
+    "title": "Module-card contract guide",
+    "publisher": "Gathin23 / GitHub contributors",
+    "observedAt": "2026-10-26T08:41:55.821Z",
+    "number": 25
+  },
+  {
+    "url": "https://github.com/Gathin23/cleanyourtv",
+    "title": "CleanYourTV README",
+    "publisher": "Gathin23 / GitHub contributors",
+    "observedAt": "2026-10-26T08:41:55.821Z",
+    "number": 26
+  },
+  {
+    "url": "https://github.com/ggml-org/Llama-Windows/releases/tag/v0.13.0",
+    "title": "Llama Windows v0.13.0 release",
+    "publisher": "ggml-org",
+    "publishedAt": "2026-10-20",
+    "observedAt": "2026-10-26T08:43:10.063781+00:00",
+    "number": 27
+  },
+  {
+    "url": "https://github.com/ggml-org/Llama-Windows",
+    "title": "Llama Windows README",
+    "publisher": "ggml-org",
+    "observedAt": "2026-10-26T08:43:10.063781+00:00",
+    "number": 28
+  },
+  {
+    "url": "https://llama.app/",
+    "title": "Llama product page",
+    "publisher": "ggml-org",
+    "observedAt": "2026-10-26T08:43:10.063781+00:00",
+    "number": 29
+  },
+  {
+    "url": "https://www.producthunt.com/leaderboard/daily/2026/10/25",
+    "title": "October25 discovery board",
+    "publisher": "Product Hunt",
+    "publishedAt": "2026-10-25",
+    "observedAt": "2026-10-26T08:43:10.063781+00:00",
+    "number": 30
+  },
+  {
+    "url": "https://github.com/eduardoabreu81/moss-image-forge-neo",
+    "title": "MOSS-Image Forge Neo moss-image-forge-neo",
+    "publisher": "eduardoabreu81 / GitHub",
+    "observedAt": "2026-10-26T08:33:35.731846+00:00",
+    "number": 31
+  },
+  {
+    "url": "https://github.com/eduardoabreu81/moss-image-forge-neo/issues/5",
+    "title": "MOSS-Image Forge Neo 5",
+    "publisher": "eduardoabreu81 / GitHub",
+    "publishedAt": "2026-10-24",
+    "observedAt": "2026-10-26T08:33:35.731846+00:00",
+    "number": 32
+  },
+  {
+    "url": "https://github.com/eduardoabreu81/moss-image-forge-neo/commit/028cbe1546c66ffec6bf0473a01fef8ba4e47f49",
+    "title": "MOSS-Image Forge Neo 028cbe1546c66ffec6bf0473a01fef8ba4e47f49",
+    "publisher": "eduardoabreu81 / GitHub",
+    "observedAt": "2026-10-26T08:33:35.731846+00:00",
+    "number": 33
+  },
+  {
+    "url": "https://github.com/eduardoabreu81/moss-image-forge-neo/issues/4",
+    "title": "MOSS-Image Forge Neo 4",
+    "publisher": "eduardoabreu81 / GitHub",
+    "publishedAt": "2026-10-24",
+    "observedAt": "2026-10-26T08:33:35.731846+00:00",
+    "number": 34
+  },
+  {
+    "url": "https://huggingface.co/chinoll/Moss-Image-Edit",
+    "title": "MOSS-Image Forge Neo Moss-Image-Edit",
+    "publisher": "chinoll / Hugging Face",
+    "observedAt": "2026-10-26T08:33:35.731846+00:00",
+    "number": 35
+  },
+  {
+    "url": "https://github.com/eduardoabreu81/moss-image-forge-neo/blob/main/LICENSE",
+    "title": "MOSS-Image Forge Neo LICENSE",
+    "publisher": "eduardoabreu81 / GitHub",
+    "observedAt": "2026-10-26T08:33:35.731846+00:00",
+    "number": 36
+  },
+  {
+    "url": "https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations/",
+    "title": "Flint-interactive announcement",
+    "publisher": "Microsoft / Flint maintainers",
+    "publishedAt": "2026-10-22",
+    "observedAt": "2026-10-26T08:40:48.236609+00:00",
+    "number": 37
+  },
+  {
+    "url": "https://github.com/microsoft/flint-chart/blob/main/README.md",
+    "title": "Flint README",
+    "publisher": "Microsoft / Flint maintainers",
+    "observedAt": "2026-10-26T08:40:48.236609+00:00",
+    "number": 38
+  },
+  {
+    "url": "https://github.com/microsoft/flint-chart/blob/main/CHANGELOG.md",
+    "title": "Flint changelog",
+    "publisher": "Microsoft / Flint maintainers",
+    "publishedAt": "2026-10-21",
+    "observedAt": "2026-10-26T08:40:48.236609+00:00",
+    "number": 39
+  },
+  {
+    "url": "https://github.com/microsoft/flint-chart/blob/main/docs/interaction-api.md",
+    "title": "Flint interaction programming API",
+    "publisher": "Microsoft / Flint maintainers",
+    "observedAt": "2026-10-26T08:40:48.236609+00:00",
+    "number": 40
+  },
+  {
+    "url": "https://github.com/microsoft/flint-chart/blob/main/LICENSE",
+    "title": "MIT License",
+    "publisher": "Microsoft / Flint maintainers",
+    "observedAt": "2026-10-26T08:40:48.236609+00:00",
+    "number": 41
+  },
+  {
+    "url": "https://arxiv.org/html/2610.31987v1",
+    "title": "GELLI full paper v1",
+    "publisher": "Danilo Symonette et al. / arXiv",
+    "publishedAt": "2026-10-22T23:05:32Z",
+    "observedAt": "2026-10-26T08:32:45.624024+00:00",
+    "number": 42
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.31987",
+    "title": "GELLI abstract and submission history",
+    "publisher": "arXiv",
+    "publishedAt": "2026-10-22T23:05:32Z",
+    "observedAt": "2026-10-26T08:32:45.624024+00:00",
+    "number": 43
+  },
+  {
+    "url": "https://arxiv.org/list/cs.HC/new",
+    "title": "New listings for Monday, 26 October 2026",
+    "publisher": "arXiv",
+    "publishedAt": "2026-10-26",
+    "observedAt": "2026-10-26T08:32:45.624024+00:00",
+    "number": 44
+  },
+  {
+    "url": "https://info.arxiv.org/help/availability.html",
+    "title": "Availability of submissions",
+    "publisher": "arXiv",
+    "observedAt": "2026-10-26T08:32:45.624024+00:00",
+    "number": 45
+  },
+  {
+    "url": "https://arxiv.org/html/2610.32166v1",
+    "title": "Present Drawing full paper v1",
+    "publisher": "Kojiro Tanaka, Takuya Iwamoto and Yuki Okafuji / arXiv",
+    "publishedAt": "2026-10-23T04:57:40Z",
+    "observedAt": "2026-10-26T08:32:45.624024+00:00",
+    "number": 46
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.32166",
+    "title": "Present Drawing abstract and submission history",
+    "publisher": "arXiv",
+    "publishedAt": "2026-10-23T04:57:40Z",
+    "observedAt": "2026-10-26T08:32:45.624024+00:00",
+    "number": 47
+  },
+  {
+    "url": "https://www.wired.com/review/ray-ban-meta-audio/",
+    "title": "Review: Ray-Ban Meta Audio",
+    "publisher": "WIRED / Boone Ashworth",
+    "publishedAt": "2026-10-24T05:15:00",
+    "observedAt": "2026-10-26T08:38:55Z",
+    "number": 48
+  },
+  {
+    "url": "https://www.meta.com/ai-glasses/ray-ban-meta-audio/",
+    "title": "Ray-Ban Meta Audio product and FAQ",
+    "publisher": "Meta",
+    "observedAt": "2026-10-26T08:38:55Z",
+    "number": 49
+  },
+  {
+    "url": "https://www.meta.com/blog/ray-ban-meta-audio-our-first-audio-glasses-are-here/",
+    "title": "Ray-Ban Meta Audio, Our First Audio Glasses, Are Here",
+    "publisher": "Meta",
+    "publishedAt": "2026-10-13",
+    "observedAt": "2026-10-26T08:38:55Z",
+    "number": 50
+  },
+  {
+    "url": "https://about.fb.com/news/2026/09/introducing-ray-ban-meta-audio-glasses-new-styles-plus-muse/",
+    "title": "Introducing Ray-Ban Meta Audio and More AI Glasses Styles",
+    "publisher": "Meta",
+    "publishedAt": "2026-09-23",
+    "observedAt": "2026-10-26T08:38:55Z",
+    "number": 51
+  },
+  {
+    "url": "https://dekiengine.com/blog/deki-0-20-smooth-screens/",
+    "title": "Deki 0.20 announcement",
+    "publisher": "Deki / DevKirbyrawr",
+    "publishedAt": "2026-10-24",
+    "observedAt": "2026-10-26T08:38:55Z",
+    "number": 52
+  },
+  {
+    "url": "https://github.com/dekiengine/deki-editor/blob/master/CHANGELOG.md",
+    "title": "Deki Editor changelog",
+    "publisher": "Deki / DevKirbyrawr",
+    "publishedAt": "2026-10-24",
+    "observedAt": "2026-10-26T08:38:55Z",
+    "number": 53
+  },
+  {
+    "url": "https://dekiengine.com/editor/",
+    "title": "Deki Editor documentation",
+    "publisher": "Deki / DevKirbyrawr",
+    "observedAt": "2026-10-26T08:38:55Z",
+    "number": 54
+  },
+  {
+    "url": "https://dekiengine.github.io/docs/guide-performance.html",
+    "title": "Making it fast",
+    "publisher": "Deki / DevKirbyrawr",
+    "observedAt": "2026-10-26T08:38:55Z",
+    "number": 55
+  },
+  {
+    "url": "https://github.com/dekiengine/deki-editor/releases/tag/0.20.3",
+    "title": "Deki Editor0.20.3 release",
+    "publisher": "Deki / DevKirbyrawr",
+    "publishedAt": "2026-10-24",
+    "observedAt": "2026-10-26T08:38:55Z",
+    "number": 56
+  },
+  {
+    "url": "https://github.com/dekiengine/deki-editor/blob/master/LICENSE",
+    "title": "Deki Editor license",
+    "publisher": "Deki / DevKirbyrawr",
+    "observedAt": "2026-10-26T08:38:55Z",
+    "number": 57
+  },
+  {
+    "url": "https://www.techradar.com/pro/vzmore-ax9-max-ai-mini-pc-review",
+    "title": "VZMORE AX9 Max AI mini PC review",
+    "publisher": "TechRadar / Alastair Jennings",
+    "publishedAt": "2026-10-24",
+    "observedAt": "2026-10-26T08:38:55Z",
+    "number": 58
+  },
+  {
+    "url": "https://vzmore.co.uk/products/ax9-max-ai-mini-pc",
+    "title": "AX9 Max AI product specifications",
+    "publisher": "VZMORE",
+    "observedAt": "2026-10-26T08:38:55Z",
+    "number": 59
+  },
+  {
+    "url": "https://www.amd.com/en/products/processors/laptop/ryzen/ai-400-series/amd-ryzen-ai-9-hx-470.html",
+    "title": "Ryzen AI9 HX470 specifications",
+    "publisher": "AMD",
+    "observedAt": "2026-10-26T08:38:55Z",
+    "number": 60
+  },
+  {
+    "url": "https://lmstudio.ai/docs/app/basics",
+    "title": "Get started with LM Studio",
+    "publisher": "LM Studio",
+    "observedAt": "2026-10-26T08:38:55Z",
+    "number": 61
+  },
+  {
+    "url": "https://lmstudio.ai/docs/cli/local-models/load",
+    "title": "lms load",
+    "publisher": "LM Studio",
+    "observedAt": "2026-10-26T08:38:55Z",
+    "number": 62
+  },
+  {
+    "url": "https://www.windowscentral.com/hardware/laptops/asus-proart-p16-rtx-spark-review-2016",
+    "title": "ASUS ProArt P16 RTX Spark review",
+    "publisher": "Windows Central / Daniel Rubino",
+    "publishedAt": "2026-10-24",
+    "observedAt": "2026-10-26T08:38:55Z",
+    "number": 63
+  },
+  {
+    "url": "https://www.asus.com/us/laptops/for-creators/proart/proart-p16-h7607/",
+    "title": "ProArt P16 H7607 product",
+    "publisher": "ASUS",
+    "observedAt": "2026-10-26T08:38:55Z",
+    "number": 64
+  },
+  {
+    "url": "https://www.asus.com/us/laptops/for-creators/proart/proart-p16-h7607/techspec/",
+    "title": "ProArt P16 H7607 technical specifications",
+    "publisher": "ASUS",
+    "observedAt": "2026-10-26T08:38:55Z",
+    "number": 65
+  },
+  {
+    "url": "https://press.asus.com/news/press-releases/asus-proart-p16-p14-gr1x-rtx-spark-ifa-2026/",
+    "title": "ASUS ProArt RTX Spark at IFA2026",
+    "publisher": "ASUS",
+    "publishedAt": "2026-09-02",
+    "observedAt": "2026-10-26T08:38:55Z",
+    "number": 66
+  },
+  {
+    "url": "https://www.asus.com/us/blog/asus-laptops-with-nvidia-rtx-spark-transforming-ai-workflows-for-creators/",
+    "title": "ASUS laptops with NVIDIA RTX Spark",
+    "publisher": "ASUS",
+    "publishedAt": "2026-07-08",
+    "observedAt": "2026-10-26T08:38:55Z",
+    "number": 67
+  },
+  {
+    "url": "https://github.com/Cline/cline/releases/tag/desktop-v0.0.49",
+    "title": "Cline Desktop 0.0.49 release",
+    "publisher": "Cline/cline",
+    "publishedAt": "2026-10-26T04:49:34Z",
+    "observedAt": "2026-10-26T08:33:01.999220+00:00",
+    "number": 68
+  },
+  {
+    "url": "https://github.com/Cline/cline/releases/tag/sdk%2Fsdk%2Fv0.2.0",
+    "title": "Cline SDK 0.2.0 release",
+    "publisher": "Cline/cline",
+    "publishedAt": "2026-10-26T04:49:34Z",
+    "observedAt": "2026-10-26T08:33:01.999220+00:00",
+    "number": 69
+  },
+  {
+    "url": "https://github.com/Cline/cline/blob/desktop-v0.0.49/apps/examples/desktop-app/README.md",
+    "title": "Cline Desktop tagged architecture",
+    "publisher": "Cline/cline",
+    "observedAt": "2026-10-26T08:33:01.999220+00:00",
+    "number": 70
+  },
+  {
+    "url": "https://cline.bot/desktop",
+    "title": "Cline Desktop product page",
+    "publisher": "Cline/cline",
+    "observedAt": "2026-10-26T08:33:01.999220+00:00",
+    "number": 71
+  },
+  {
+    "url": "https://github.com/Cline/cline/blob/desktop-v0.0.49/LICENSE",
+    "title": "Cline license",
+    "publisher": "Cline/cline",
+    "observedAt": "2026-10-26T08:33:01.999220+00:00",
+    "number": 72
+  },
+  {
+    "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai%2Fkimi-code%402.3.2",
+    "title": "Kimi Code CLI2.3.2 release",
+    "publisher": "Moonshot AI",
+    "publishedAt": "2026-10-25T07:59:14Z",
+    "observedAt": "2026-10-26T08:30:00Z",
+    "number": 73
+  },
+  {
+    "url": "https://github.com/MoonshotAI/kimi-code/pull/4386",
+    "title": "Require explicit subagent requests",
+    "publisher": "Moonshot AI",
+    "observedAt": "2026-10-26T08:30:00Z",
+    "number": 74
+  },
+  {
+    "url": "https://github.com/MoonshotAI/kimi-code/pull/4384",
+    "title": "Leave swarm mode to the user",
+    "publisher": "Moonshot AI",
+    "observedAt": "2026-10-26T08:30:00Z",
+    "number": 75
+  },
+  {
+    "url": "https://github.com/MoonshotAI/kimi-code/blob/%40moonshot-ai%2Fkimi-code%402.3.2/docs/en/customization/agents.md",
+    "title": "Tagged agents documentation",
+    "publisher": "Moonshot AI",
+    "observedAt": "2026-10-26T08:30:00Z",
+    "number": 76
+  },
+  {
+    "url": "https://github.com/MoonshotAI/kimi-code/blob/%40moonshot-ai%2Fkimi-code%402.3.2/docs/en/reference/slash-commands.md",
+    "title": "Tagged slash commands",
+    "publisher": "Moonshot AI",
+    "observedAt": "2026-10-26T08:30:00Z",
+    "number": 77
+  },
+  {
+    "url": "https://www.producthunt.com/products/papermark-2",
+    "title": "Papermark Data Rooms PH launch",
+    "publisher": "Papermark",
+    "observedAt": "2026-10-26T08:36:02.221093+00:00",
+    "number": 78
+  },
+  {
+    "url": "https://www.papermark.com/news/introducing-data-rooms-2-0",
+    "title": "Introducing Papermark Data Rooms2.0",
+    "publisher": "Papermark",
+    "publishedAt": "2026-10-25",
+    "observedAt": "2026-10-26T08:36:02.221093+00:00",
+    "number": 79
+  },
+  {
+    "url": "https://www.papermark.com/docs/api",
+    "title": "Papermark API",
+    "publisher": "Papermark",
+    "observedAt": "2026-10-26T08:36:02.221093+00:00",
+    "number": 80
+  },
+  {
+    "url": "https://www.papermark.com/docs/cli/getting-started",
+    "title": "CLI getting started",
+    "publisher": "Papermark",
+    "observedAt": "2026-10-26T08:36:02.221093+00:00",
+    "number": 81
+  },
+  {
+    "url": "https://www.papermark.com/docs/mcp",
+    "title": "Papermark MCP",
+    "publisher": "Papermark",
+    "observedAt": "2026-10-26T08:36:02.221093+00:00",
+    "number": 82
+  },
+  {
+    "url": "https://www.papermark.com/docs/api/scopes",
+    "title": "API scopes",
+    "publisher": "Papermark",
+    "observedAt": "2026-10-26T08:36:02.221093+00:00",
+    "number": 83
+  },
+  {
+    "url": "https://www.papermark.com/docs/authentication",
+    "title": "Authentication",
+    "publisher": "Papermark",
+    "observedAt": "2026-10-26T08:36:02.221093+00:00",
+    "number": 84
+  },
+  {
+    "url": "https://www.papermark.com/docs/guides/brand-a-data-room",
+    "title": "Brand a data room",
+    "publisher": "Papermark",
+    "observedAt": "2026-10-26T08:36:02.221093+00:00",
+    "number": 85
+  },
+  {
+    "url": "https://news.ycombinator.com/item?id=50214373",
+    "title": "Show HN: Corgi",
+    "publisher": "Corgi author and named HN commenters",
+    "publishedAt": "2026-10-23",
+    "observedAt": "2026-10-26T08:47:58.162006+00:00",
+    "number": 86
+  },
+  {
+    "url": "https://github.com/tals/corgi/blob/main/README.md",
+    "title": "Corgi README",
+    "publisher": "Official project",
+    "observedAt": "2026-10-26T08:47:58.162006+00:00",
+    "number": 87
+  },
+  {
+    "url": "https://github.com/tals/corgi/blob/main/docs/reference.md",
+    "title": "Using Corgi",
+    "publisher": "Official project",
+    "observedAt": "2026-10-26T08:47:58.162006+00:00",
+    "number": 88
+  },
+  {
+    "url": "https://corgi.computer/",
+    "title": "Corgi official product demo",
+    "publisher": "Official project",
+    "observedAt": "2026-10-26T08:47:58.162006+00:00",
+    "number": 89
+  },
+  {
+    "url": "https://github.com/tals/corgi/blob/main/site/main.js",
+    "title": "Corgi official demo rendering code",
+    "publisher": "Official project",
+    "observedAt": "2026-10-26T08:47:58.162006+00:00",
+    "number": 90
+  },
+  {
+    "url": "https://dagger.io/blog/dagger-10-beta/",
+    "title": "Dagger 1.0 beta",
+    "publisher": "Dagger",
+    "publishedAt": "2026-10-23",
+    "observedAt": "2026-10-26T08:47:58.162006+00:00",
+    "number": 91
+  },
+  {
+    "url": "https://dagger.io/changelog/workspaces/",
+    "title": "Workspaces",
+    "publisher": "Dagger",
+    "publishedAt": "2026-10-22",
+    "observedAt": "2026-10-26T08:47:58.162006+00:00",
+    "number": 92
+  },
+  {
+    "url": "https://dagger.io/changelog/test-native-ci/",
+    "title": "Test-native CI",
+    "publisher": "Dagger",
+    "publishedAt": "2026-10-22",
+    "observedAt": "2026-10-26T08:47:58.162006+00:00",
+    "number": 93
+  },
+  {
+    "url": "https://dagger.io/changelog/self-orchestrating-tests/",
+    "title": "Self-orchestrating tests",
+    "publisher": "Dagger",
+    "publishedAt": "2026-10-22",
+    "observedAt": "2026-10-26T08:47:58.162006+00:00",
+    "number": 94
+  },
+  {
+    "url": "https://dagger.io/changelog/dev-shells/",
+    "title": "Dev shells",
+    "publisher": "Dagger",
+    "publishedAt": "2026-10-22",
+    "observedAt": "2026-10-26T08:47:58.162006+00:00",
+    "number": 95
+  },
+  {
+    "url": "https://docs.dagger.io/migrate-to-v1/",
+    "title": "Migrate to Dagger 1.0",
+    "publisher": "Official project",
+    "observedAt": "2026-10-26T08:47:58.162006+00:00",
+    "number": 96
+  },
+  {
+    "url": "https://dagger.io/changelog/cloud-checks/",
+    "title": "Cloud Checks",
+    "publisher": "Official project",
+    "observedAt": "2026-10-26T08:47:58.162006+00:00",
+    "number": 97
+  },
+  {
+    "url": "https://dagger.io/pricing/",
+    "title": "Dagger Cloud pricing",
+    "publisher": "Official project",
+    "observedAt": "2026-10-26T08:47:58.162006+00:00",
+    "number": 98
+  },
+  {
+    "url": "https://docs.dagger.io/getting-started/install/",
+    "title": "Install the Dagger CLI",
+    "publisher": "Official project",
+    "observedAt": "2026-10-26T08:47:58.162006+00:00",
+    "number": 99
+  },
+  {
+    "url": "https://github.com/dagger/dagger/blob/main/LICENSE",
+    "title": "Dagger LICENSE",
+    "publisher": "Official project",
+    "observedAt": "2026-10-26T08:47:58.162006+00:00",
+    "number": 100
+  },
+  {
+    "url": "https://github.com/morluto/rea/releases/tag/rea-agents-6.8.0",
+    "title": "REA 6.8.0 release",
+    "publisher": "morluto/rea",
+    "publishedAt": "2026-10-25T08:36:02Z",
+    "observedAt": "2026-10-26T08:33:01.999220+00:00",
+    "number": 101
+  },
+  {
+    "url": "https://github.com/morluto/rea/blob/rea-agents-6.8.0/docs/agent-environments.md",
+    "title": "Agent environments from recorded captures",
+    "publisher": "morluto/rea",
+    "observedAt": "2026-10-26T08:33:01.999220+00:00",
+    "number": 102
+  },
+  {
+    "url": "https://github.com/morluto/rea/blob/rea-agents-6.8.0/README.md",
+    "title": "REA tagged README",
+    "publisher": "morluto/rea",
+    "observedAt": "2026-10-26T08:33:01.999220+00:00",
+    "number": 103
+  },
+  {
+    "url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/v2.4.0",
+    "title": "MCP TypeScript SDK 2.4 release",
+    "publisher": "modelcontextprotocol/typescript-sdk",
+    "publishedAt": "2026-10-23T18:32:25Z",
+    "observedAt": "2026-10-26T08:33:01.999220+00:00",
+    "number": 104
+  },
+  {
+    "url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/v2.4.0/skills/mcp-typescript-sdk-skills/references/client.md",
+    "title": "Use skills from MCP servers",
+    "publisher": "modelcontextprotocol/typescript-sdk",
+    "observedAt": "2026-10-26T08:33:01.999220+00:00",
+    "number": 105
+  },
+  {
+    "url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/v2.4.0/skills/mcp-typescript-sdk-skills/references/server.md",
+    "title": "Serve skills from an MCP server",
+    "publisher": "modelcontextprotocol/typescript-sdk",
+    "observedAt": "2026-10-26T08:33:01.999220+00:00",
+    "number": 106
+  },
+  {
+    "url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/v2.4.0/LICENSE",
+    "title": "MCP licensing transition",
+    "publisher": "modelcontextprotocol/typescript-sdk",
+    "observedAt": "2026-10-26T08:33:01.999220+00:00",
+    "number": 107
+  },
+  {
+    "url": "https://arxiv.org/html/2610.31050v1",
+    "title": "Adaptive Uncertainty Visualization With jk-Plots",
+    "publisher": "Nikolaus Piccolotto et al. / arXiv",
+    "publishedAt": "2026-10-22T10:28:15Z",
+    "observedAt": "2026-10-26T08:43:36.334384+00:00",
+    "number": 108
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.31050",
+    "title": "jk-Plots abstract/history/license",
+    "publisher": "arXiv",
+    "publishedAt": "2026-10-22T10:28:15Z",
+    "observedAt": "2026-10-26T08:43:36.334384+00:00",
+    "number": 109
+  },
+  {
+    "url": "https://arxiv.org/list/cs.HC/recent",
+    "title": "Recent HCI announcements",
+    "publisher": "arXiv",
+    "publishedAt": "2026-10-23",
+    "observedAt": "2026-10-26T08:43:36.334384+00:00",
+    "number": 110
+  },
+  {
+    "url": "https://arxiv.org/html/2610.32883v1",
+    "title": "Chatbot Factuality Indicators full paper v1",
+    "publisher": "Greta Warren et al. / arXiv",
+    "publishedAt": "2026-10-23T16:49:14Z",
+    "observedAt": "2026-10-26T08:32:45.624024+00:00",
+    "number": 111
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.32883",
+    "title": "Chatbot Factuality Indicators abstract and submission history",
+    "publisher": "arXiv",
+    "publishedAt": "2026-10-23T16:49:14Z",
+    "observedAt": "2026-10-26T08:32:45.624024+00:00",
+    "number": 112
+  },
+  {
+    "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11850",
+    "title": "llama.cpp b11850",
+    "publisher": "Project maintainers",
+    "publishedAt": "2026-10-24T05:30:02Z",
+    "observedAt": "2026-10-26T09:01:04.973559+00:00",
+    "number": 113
+  },
+  {
+    "url": "https://github.com/ggml-org/llama.cpp/blob/b11850/tools/tts/README.md",
+    "title": "Tagged TTS guide",
+    "publisher": "Project maintainers",
+    "observedAt": "2026-10-26T09:01:04.973559+00:00",
+    "number": 114
+  },
+  {
+    "url": "https://github.com/ggml-org/llama.cpp/blob/b11850/conversion/soprano.py",
+    "title": "Tagged Soprano conversion source",
+    "publisher": "Project maintainers",
+    "observedAt": "2026-10-26T09:01:04.973559+00:00",
+    "number": 115
+  },
+  {
+    "url": "https://github.com/ggml-org/llama.cpp/blob/b11850/tools/mtmd/models/soprano.cpp",
+    "title": "Tagged Soprano Vocos source",
+    "publisher": "Project maintainers",
+    "observedAt": "2026-10-26T09:01:04.973559+00:00",
+    "number": 116
+  },
+  {
+    "url": "https://huggingface.co/ekwek/Soprano-1.1-80M",
+    "title": "Soprano1.1 model card",
+    "publisher": "Project maintainers",
+    "publishedAt": "2026-01-14",
+    "observedAt": "2026-10-26T09:01:04.973559+00:00",
+    "number": 117
+  },
+  {
+    "url": "https://github.com/ggml-org/llama.cpp/blob/b11850/LICENSE",
+    "title": "llama.cpp MIT license",
+    "publisher": "Project maintainers",
+    "observedAt": "2026-10-26T09:01:04.973559+00:00",
+    "number": 118
+  },
+  {
+    "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.45.0",
+    "title": "n8n2.45.0 prerelease",
+    "publisher": "Project maintainers",
+    "publishedAt": "2026-10-20T09:10:14Z",
+    "observedAt": "2026-10-26T09:01:04.973559+00:00",
+    "number": 119
+  },
+  {
+    "url": "https://github.com/n8n-io/n8n/pull/39878",
+    "title": "MCP tool permissions PR39878",
+    "publisher": "Project maintainers",
+    "observedAt": "2026-10-26T09:01:04.973559+00:00",
+    "number": 120
+  },
+  {
+    "url": "https://github.com/n8n-io/n8n/pull/39996",
+    "title": "Connector approval PR39996",
+    "publisher": "Project maintainers",
+    "observedAt": "2026-10-26T09:01:04.973559+00:00",
+    "number": 121
+  },
+  {
+    "url": "https://github.com/n8n-io/n8n/pull/40884",
+    "title": "Subagent budgets PR40884",
+    "publisher": "Project maintainers",
+    "observedAt": "2026-10-26T09:01:04.973559+00:00",
+    "number": 122
+  },
+  {
+    "url": "https://github.com/n8n-io/n8n/pull/40978",
+    "title": "Public API idempotency PR40978",
+    "publisher": "Project maintainers",
+    "observedAt": "2026-10-26T09:01:04.973559+00:00",
+    "number": 123
+  },
+  {
+    "url": "https://n8n.io/pricing/",
+    "title": "n8n pricing",
+    "publisher": "Project maintainers",
+    "observedAt": "2026-10-26T09:01:04.973559+00:00",
+    "number": 124
+  },
+  {
+    "url": "https://github.com/n8n-io/n8n/blob/n8n%402.45.0/LICENSE.md",
+    "title": "n8n license",
+    "publisher": "Project maintainers",
+    "observedAt": "2026-10-26T09:01:04.973559+00:00",
+    "number": 125
+  },
+  {
+    "url": "https://github.com/n8n-io/n8n/blob/n8n%402.45.0/packages/frontend/editor-ui/src/features/shared/toolsConnection/McpToolPermissionsEditor.vue",
+    "title": "McpToolPermissionsEditor.vue at n8n@2.45.0",
+    "publisher": "n8n maintainers",
+    "observedAt": "2026-10-26T09:01:04.973559+00:00",
+    "number": 126
+  },
+  {
+    "url": "https://github.com/n8n-io/n8n/blob/n8n%402.45.0/packages/frontend/editor-ui/src/features/agents/components/AgentRegistryMcpConfigForm.vue",
+    "title": "AgentRegistryMcpConfigForm.vue at n8n@2.45.0",
+    "publisher": "n8n maintainers",
+    "observedAt": "2026-10-26T09:01:04.973559+00:00",
+    "number": 127
+  },
+  {
+    "url": "https://github.com/n8n-io/n8n/blob/n8n%402.45.0/packages/cli/src/modules/agents/json-config/mcp-client-factory.ts",
+    "title": "mcp-client-factory.ts at n8n@2.45.0",
+    "publisher": "n8n maintainers",
+    "observedAt": "2026-10-26T09:01:04.973559+00:00",
+    "number": 128
+  },
+  {
+    "url": "https://github.com/n8n-io/n8n/blob/n8n%402.45.0/packages/@n8n/db/src/migrations/common/1791809300081-MigrateAgentMcpToolPermissions.ts",
+    "title": "1791809300081-MigrateAgentMcpToolPermissions.ts at n8n@2.45.0",
+    "publisher": "n8n maintainers",
+    "observedAt": "2026-10-26T09:01:04.973559+00:00",
+    "number": 129
+  },
+  {
+    "url": "https://github.com/n8n-io/n8n/blob/n8n%402.45.0/packages/@n8n/api-types/src/agents/inline-agent-config.schema.ts",
+    "title": "inline-agent-config.schema.ts at n8n@2.45.0",
+    "publisher": "n8n maintainers",
+    "observedAt": "2026-10-26T09:01:04.973559+00:00",
+    "number": 130
+  }
+]
