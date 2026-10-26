@@ -3610,6 +3610,406 @@
     "sha256": "a584cd259739572f0be98c71e958715be692c4352c273ea83f80489ad8e9aefb"
   },
   {
+    "path": "2026-10-26/assets/asus-p16.jpg",
+    "bytes": 175912,
+    "sha256": "5fa84bbe9840f40e55b8826aed1ff9dc19877ecc98cc139335ac9ed4c27798ba"
+  },
+  {
+    "path": "2026-10-26/assets/cleantv.jpg",
+    "bytes": 34030,
+    "sha256": "0514ba9fa68d097587804cd97a73de71f3cee22c9ba33069ccac271630114518"
+  },
+  {
+    "path": "2026-10-26/assets/cline-git.jpg",
+    "bytes": 48087,
+    "sha256": "9b6612371e10f136ee705bed4d14cd0667eb5cfa25c49f52555d2e95c6d5e099"
+  },
+  {
+    "path": "2026-10-26/assets/corgi-session.jpg",
+    "bytes": 79101,
+    "sha256": "37f2153ca582e9945ff821b687a65cbf3efe5e1362dec3faf5826bff85ee233f"
+  },
+  {
+    "path": "2026-10-26/assets/dagger-1-beta-source-flow.png",
+    "bytes": 70329,
+    "sha256": "513d3514c42d23cfbc934e5b9ea4f3127ceb079b5d2d3c678a61b842268b95bb"
+  },
+  {
+    "path": "2026-10-26/assets/deck.js",
+    "bytes": 2576,
+    "sha256": "63d13c06452d7405e0b5ed572d8464d802c9e5b8de656b5a94e3527b1730f7b3"
+  },
+  {
+    "path": "2026-10-26/assets/deki.jpg",
+    "bytes": 112324,
+    "sha256": "a796de42818e22f930913f1ffa7256584928fb0a55feca89c694df9259e43087"
+  },
+  {
+    "path": "2026-10-26/assets/dumbtv.jpg",
+    "bytes": 56317,
+    "sha256": "e3c6a17faa51c6b4c8ad01619f4a8cf7bdf21ab5ef57b307733be9a6f57118bd"
+  },
+  {
+    "path": "2026-10-26/assets/factuality.jpg",
+    "bytes": 121165,
+    "sha256": "f93acab4fd5c2a763a4bed3ba1e91f65659ecd7e0ccd8930244f0ca8721fe996"
+  },
+  {
+    "path": "2026-10-26/assets/flint.jpg",
+    "bytes": 75055,
+    "sha256": "1ce3cef28ec21eb62b38db8ded6783049f993352c732937e06ded11ec4a99d4e"
+  },
+  {
+    "path": "2026-10-26/assets/gelli.jpg",
+    "bytes": 125186,
+    "sha256": "3bddcec780d2a4ab2aa1bb64165566ee198d6db8bb0837ba936076400717e007"
+  },
+  {
+    "path": "2026-10-26/assets/issue.css",
+    "bytes": 10285,
+    "sha256": "1e458c07ba855726699c2b9885d466a62a85e04604b22dddcca9a2f3d1ca09e9"
+  },
+  {
+    "path": "2026-10-26/assets/jk-plots.png",
+    "bytes": 266452,
+    "sha256": "7037a195b408e2cd4d9305a074fa4693f6801b3fecde0b376e9472d80c93a4f0"
+  },
+  {
+    "path": "2026-10-26/assets/kimi-task.jpg",
+    "bytes": 66186,
+    "sha256": "9d3d7a1d283ea5b17d783547b50ab2dbd92d5f1e527bc6d0246f63fbca72a535"
+  },
+  {
+    "path": "2026-10-26/assets/leapsteps.jpg",
+    "bytes": 99850,
+    "sha256": "8803879d8edc44cd512836c48d194b5ef8386def10150ba70d549eb6b65caae3"
+  },
+  {
+    "path": "2026-10-26/assets/llama-overlay.png",
+    "bytes": 48626,
+    "sha256": "0d6102148b22ac81f784e28cefa6fe79c988d6796d7f181241d4a1c365a6724a"
+  },
+  {
+    "path": "2026-10-26/assets/llamacpp-soprano-tts-source-flow.png",
+    "bytes": 73004,
+    "sha256": "c5cf05af05fa569c255752140d7ac103de91cb6aae1ec279bd8530725d789519"
+  },
+  {
+    "path": "2026-10-26/assets/mcp-typescript-2-4-skills-source-flow.png",
+    "bytes": 61775,
+    "sha256": "b1ba49d5d13b46a3cb0caced20ea417fa0303c1ef217ac7faef0fedea0ee48d9"
+  },
+  {
+    "path": "2026-10-26/assets/meta-audio.jpg",
+    "bytes": 83365,
+    "sha256": "936bb89be668f82138c7828d07970185f99ab2f9d990914af127cb205228d4b9"
+  },
+  {
+    "path": "2026-10-26/assets/moss-edit.jpg",
+    "bytes": 150411,
+    "sha256": "ca988a8d54b880b66e6cf181320dc7a4105ca623cc36c6f9a79de394a51f321b"
+  },
+  {
+    "path": "2026-10-26/assets/n8n-workflow.jpg",
+    "bytes": 140564,
+    "sha256": "9da9dd2057d609d061f13fb7405666191ac8cafe2a4388e9da8ff5088dc173fb"
+  },
+  {
+    "path": "2026-10-26/assets/papermark-room.jpg",
+    "bytes": 95038,
+    "sha256": "f048cf8685455ef2b4f7b821ff47bcb85b68c42dacba76718a32409a75f78b1d"
+  },
+  {
+    "path": "2026-10-26/assets/present-drawing.jpg",
+    "bytes": 122389,
+    "sha256": "26452d53f211a1b314e42e88a5a55dc933128230943eb392b17a21d994239bcd"
+  },
+  {
+    "path": "2026-10-26/assets/rea-6-8-agent-environments-source-flow.png",
+    "bytes": 60554,
+    "sha256": "f633aa326f67267f74200d1e741a8061d1ec20cee94a8c49c609587aab876372"
+  },
+  {
+    "path": "2026-10-26/assets/tv-detox.jpg",
+    "bytes": 65030,
+    "sha256": "d0ae9ca888c41d2f7e23d0acc02586c65db7021965e6b7b4f12831dceb9679ec"
+  },
+  {
+    "path": "2026-10-26/assets/vzmore.jpg",
+    "bytes": 96900,
+    "sha256": "b048ba4cf927fce68b6de51c0d86d94247dd8a8afdaf3e8d376d5d767acca557"
+  },
+  {
+    "path": "2026-10-26/en/details/chatbot-factuality-indicators.html",
+    "bytes": 5899,
+    "sha256": "53d8fa537e8f1fcb6a1b7618a3c1fc0f92db6c7f47a05cc7463506a171555d99"
+  },
+  {
+    "path": "2026-10-26/en/details/cleanyourtv3-module-cards.html",
+    "bytes": 5973,
+    "sha256": "8561a13e408a4040fe0187963bd93f6c80ae9e2e4fc6b8abc400f953c92b009e"
+  },
+  {
+    "path": "2026-10-26/en/details/cline-desktop-0-0-49.html",
+    "bytes": 5814,
+    "sha256": "e0bdcc64178636266d2ec9b1cc64a7fe6775bb23720e1732e7640be850cc830c"
+  },
+  {
+    "path": "2026-10-26/en/details/corgi-agent-terminal.html",
+    "bytes": 5790,
+    "sha256": "b60ab7d9625fb84c0b629c91409ef648b50305312ce7f240c807d57bed522560"
+  },
+  {
+    "path": "2026-10-26/en/details/dagger-1-beta.html",
+    "bytes": 5944,
+    "sha256": "972396f898ce441afc02095b22534faed4b0ca1769515c622f896c5be1051dd1"
+  },
+  {
+    "path": "2026-10-26/en/details/deki-020-display.html",
+    "bytes": 5744,
+    "sha256": "c7e306bf443fd887744c8a8feceeaf8a1e067a970a073c3c7b3dafd1487a35e9"
+  },
+  {
+    "path": "2026-10-26/en/details/dumbtv-child-lock-wake.html",
+    "bytes": 5803,
+    "sha256": "ea2c360d20b709467718ad5e784c2d34087531f1ea72f45401705a9945de5295"
+  },
+  {
+    "path": "2026-10-26/en/details/flint-interactive.html",
+    "bytes": 5803,
+    "sha256": "9c772455cbc60880d4cecc4a1781e4a1e6bb202db6fdb4a252c578c79054f591"
+  },
+  {
+    "path": "2026-10-26/en/details/gelli-language-worlds.html",
+    "bytes": 5911,
+    "sha256": "ddb07ef2efe9c55f93d504903cd11f67b76c34bd33395dbfe059b52825264fd7"
+  },
+  {
+    "path": "2026-10-26/en/details/jk-plots.html",
+    "bytes": 5818,
+    "sha256": "fae39097b43dcce1a2fdc4d4a52831d3999f99421afa34edb2a779222401e060"
+  },
+  {
+    "path": "2026-10-26/en/details/kimi-code-explicit-delegation.html",
+    "bytes": 5972,
+    "sha256": "5c94a0a5a2f370541f3c5b9597e6b3f753812449ea561fffef2b180734a22596"
+  },
+  {
+    "path": "2026-10-26/en/details/leapsteps-assistant-task-controls.html",
+    "bytes": 5765,
+    "sha256": "112f9abc93b98e158675977ff0882f6c0be9de899fb93b3fa5bb5a9eaaad8cee"
+  },
+  {
+    "path": "2026-10-26/en/details/llama-windows-013-model-fit.html",
+    "bytes": 5918,
+    "sha256": "17efea5f0edac68c8d1694892b4f70bd4735c4c95a7edc27353c93dcaf9999aa"
+  },
+  {
+    "path": "2026-10-26/en/details/llamacpp-soprano-tts.html",
+    "bytes": 6037,
+    "sha256": "b16fc5fa91215d00eff2bdad7a86b44e8a831733a97e661e8ed6714b63654bea"
+  },
+  {
+    "path": "2026-10-26/en/details/mcp-typescript-2-4-skills.html",
+    "bytes": 6016,
+    "sha256": "dca4035670f487e143681aa3752e96fd45613aae2cdae827c5ba636a389d7acf"
+  },
+  {
+    "path": "2026-10-26/en/details/moss-forge-reference-edit.html",
+    "bytes": 5921,
+    "sha256": "b68fc47ab289b2ffaa0b20e11722493753887f0eaf7a946a2e5c6d442127f55d"
+  },
+  {
+    "path": "2026-10-26/en/details/n8n-2-45-agent-controls.html",
+    "bytes": 6290,
+    "sha256": "883c600b48f7d84f52999f485b55afd24a58c47b0e03d3f9d036c75d4e9810f0"
+  },
+  {
+    "path": "2026-10-26/en/details/papermark-data-rooms-2.html",
+    "bytes": 5712,
+    "sha256": "496aab705e11631c99797300e7c7e97edb9ed28ba3524c68dfa072a28bf912ce"
+  },
+  {
+    "path": "2026-10-26/en/details/present-drawing.html",
+    "bytes": 5703,
+    "sha256": "a02cfc2297bf44fa49bc30f4e80388922bed2ef3733bd92bb8fe6665e0f5f624"
+  },
+  {
+    "path": "2026-10-26/en/details/proart-p16-spark-review.html",
+    "bytes": 6026,
+    "sha256": "970694c28a6b7288c879448cab3f76b17c06e6b22460d2a0fed18add0229715b"
+  },
+  {
+    "path": "2026-10-26/en/details/rayban-audio-running-review.html",
+    "bytes": 5819,
+    "sha256": "f9fbc35cf222a1fb7edfac35d2ee26d2d520c23509d0b421264cb9bf037201bb"
+  },
+  {
+    "path": "2026-10-26/en/details/rea-6-8-agent-environments.html",
+    "bytes": 5710,
+    "sha256": "fe3c5ab9607e7704287b8f86d4a67cfa272f5e4b571a87f049287170c19861aa"
+  },
+  {
+    "path": "2026-10-26/en/details/tv-detox-tcl-input-home.html",
+    "bytes": 5732,
+    "sha256": "23af4ba7118e65bb86ddfdcfe163d2b0417640d1b759a7767911cd57b444b8d3"
+  },
+  {
+    "path": "2026-10-26/en/details/vzmore-ax9-local-review.html",
+    "bytes": 5803,
+    "sha256": "e3b69cc818311eb36b8abf0660cdf194141d86b1866bc120d88639b513856dd8"
+  },
+  {
+    "path": "2026-10-26/en/index.html",
+    "bytes": 76948,
+    "sha256": "b8b15d47298c3f77223993d4d9667d1e3316b3d3a1fab7bd45bb58a348fae789"
+  },
+  {
+    "path": "2026-10-26/manifest.json",
+    "bytes": 27776,
+    "sha256": "5c397e221c3d3b68e3552c6be9ec1d5a349cba567ced2b317b929db39a66af2b"
+  },
+  {
+    "path": "2026-10-26/sources.html",
+    "bytes": 65242,
+    "sha256": "82c67a4dc89f39b2d22b6626a06ff2e4f673b4389ccbad7ceedaf96e55add743"
+  },
+  {
+    "path": "2026-10-26/sources.json",
+    "bytes": 32205,
+    "sha256": "3492971cbb7ea5debd735b5b833f9e35fdaed67bdf4088fc0b6f16a615814e9a"
+  },
+  {
+    "path": "2026-10-26/visuals.json",
+    "bytes": 18711,
+    "sha256": "df090997cb1f1297f65bdf012112721c2294515731784e367ca15eaf3f9403da"
+  },
+  {
+    "path": "2026-10-26/zh/details/chatbot-factuality-indicators.html",
+    "bytes": 5484,
+    "sha256": "a71ba6c9e7c0e11be2d73f3c00adf2884a2a1c2790c945a76f3e29762141d9f9"
+  },
+  {
+    "path": "2026-10-26/zh/details/cleanyourtv3-module-cards.html",
+    "bytes": 5805,
+    "sha256": "517f2f0f6e06cfc4eafa00019e95876947deed3ccd84d2b54cb25b0085ef9936"
+  },
+  {
+    "path": "2026-10-26/zh/details/cline-desktop-0-0-49.html",
+    "bytes": 5433,
+    "sha256": "d5564f9bff90aa05990fe51e8ef1928ff859f7509a59448ee0b709bd4475a677"
+  },
+  {
+    "path": "2026-10-26/zh/details/corgi-agent-terminal.html",
+    "bytes": 5178,
+    "sha256": "0df27dfdb4d83444673bc8cb8b8d85fb3bdcca9fcb6fd2e2d7c4631176fece9d"
+  },
+  {
+    "path": "2026-10-26/zh/details/dagger-1-beta.html",
+    "bytes": 5294,
+    "sha256": "0f90105b414149e5c04997482c5b343865c374427b87cdc51c687c55ce7276c6"
+  },
+  {
+    "path": "2026-10-26/zh/details/deki-020-display.html",
+    "bytes": 5379,
+    "sha256": "ad642858e7e46919bc1b4f84066b0c08a28b7d2e6978d8c1b5cc6ec728cf560e"
+  },
+  {
+    "path": "2026-10-26/zh/details/dumbtv-child-lock-wake.html",
+    "bytes": 5487,
+    "sha256": "1835dcdb1a55fca6fcd9661399cfadce10ff92f13e1b1384a75196a3fc10d88e"
+  },
+  {
+    "path": "2026-10-26/zh/details/flint-interactive.html",
+    "bytes": 5409,
+    "sha256": "7f0e9f6a278567e4ba2fb48d42a7c45e3b142e064dc1fedb990341e5fdaaece0"
+  },
+  {
+    "path": "2026-10-26/zh/details/gelli-language-worlds.html",
+    "bytes": 5459,
+    "sha256": "0b04bbd5b4e44acc9131ac4de01cc7c46ed211a265313424f7cd2d4d07355820"
+  },
+  {
+    "path": "2026-10-26/zh/details/jk-plots.html",
+    "bytes": 5346,
+    "sha256": "0bcb4a351bd7dcd436e9cd6e6692d7c0ff69e829d2d3c8d8a968d8662e81c6e4"
+  },
+  {
+    "path": "2026-10-26/zh/details/kimi-code-explicit-delegation.html",
+    "bytes": 5552,
+    "sha256": "cadb58f0fd5c40e11cb26843dd009327dea180641ab8b493155a7f193a2dce6a"
+  },
+  {
+    "path": "2026-10-26/zh/details/leapsteps-assistant-task-controls.html",
+    "bytes": 5378,
+    "sha256": "9fcc1051f113147ebf00bab40f14a49d8a69b139f33066719683e88cd216384b"
+  },
+  {
+    "path": "2026-10-26/zh/details/llama-windows-013-model-fit.html",
+    "bytes": 5451,
+    "sha256": "a87a3f5155d8c12f63a7646fdbe16a595fac52cd5fc0a1175dc9fdef0bc9d354"
+  },
+  {
+    "path": "2026-10-26/zh/details/llamacpp-soprano-tts.html",
+    "bytes": 5371,
+    "sha256": "03176dbc402b80b73b51173f1d8a9760cda35b269db6fdb2efaa7b2da56221ae"
+  },
+  {
+    "path": "2026-10-26/zh/details/mcp-typescript-2-4-skills.html",
+    "bytes": 5422,
+    "sha256": "ce1d8307a90f55831fc324d4fa6dab986c6dae5d761f92cb5cc3f64e3eeacdd7"
+  },
+  {
+    "path": "2026-10-26/zh/details/moss-forge-reference-edit.html",
+    "bytes": 5508,
+    "sha256": "92a1338b8e0ef463948abdc69b92f4802d7291f17a225103846ec581e553d7ab"
+  },
+  {
+    "path": "2026-10-26/zh/details/n8n-2-45-agent-controls.html",
+    "bytes": 5781,
+    "sha256": "dfc4d33177b4a160d3f4efd9b10c7c522ab002e378750feffa1070ea21fedd17"
+  },
+  {
+    "path": "2026-10-26/zh/details/papermark-data-rooms-2.html",
+    "bytes": 5409,
+    "sha256": "3c7aef6e46fc415e9da53e5da9014f7b3c0452da62a9184cb137e1c7dbc54af8"
+  },
+  {
+    "path": "2026-10-26/zh/details/present-drawing.html",
+    "bytes": 5313,
+    "sha256": "d74fd525c109ae2470dbdc74315392bd7672321a3ddbb2637f28c40b473c9610"
+  },
+  {
+    "path": "2026-10-26/zh/details/proart-p16-spark-review.html",
+    "bytes": 5584,
+    "sha256": "1889aa14688959073ec41b802ad451c5302d76b699e107efac17a93ad286e1b5"
+  },
+  {
+    "path": "2026-10-26/zh/details/rayban-audio-running-review.html",
+    "bytes": 5265,
+    "sha256": "559042fa1d24ef7e87d899a68aa97ac497ad0cc3a760ff33bfbdbf88c07793ed"
+  },
+  {
+    "path": "2026-10-26/zh/details/rea-6-8-agent-environments.html",
+    "bytes": 5376,
+    "sha256": "bc3b51dc6e23c37798b665628b056e201eb40c5852bfb158d183e03d8635d623"
+  },
+  {
+    "path": "2026-10-26/zh/details/tv-detox-tcl-input-home.html",
+    "bytes": 5535,
+    "sha256": "9efac2392ebb86ad35e3123af51c627b207c57be76f92cd9e76847c309e34bae"
+  },
+  {
+    "path": "2026-10-26/zh/details/vzmore-ax9-local-review.html",
+    "bytes": 5377,
+    "sha256": "cfb224982a15a548a79f7a48dbb1c367e241065e1b26b13e14972b985f00fd87"
+  },
+  {
+    "path": "2026-10-26/zh/index.html",
+    "bytes": 74393,
+    "sha256": "34caffdd362c52e416f4a9f13a0a2afb09acc52c82cede0fb2a3c5686caf539f"
+  },
+  {
     "path": "assets/acti-agentic-keyboard-2026-07-03.svg",
     "bytes": 2825,
     "sha256": "84ad9abb0a1191abde62dea383e6e1ed583fc089073d3ccaf91629044501721b"
@@ -4021,18 +4421,18 @@
   },
   {
     "path": "en/index.html",
-    "bytes": 161165,
-    "sha256": "d6f177d9617a9f8dbb849e4a29ce5fdf460204e8e97950dc77a52a2b08e21473"
+    "bytes": 162363,
+    "sha256": "82d4c23643d4de61e197040767a580241e2b50182b164138cc18dba5e2ad999f"
   },
   {
     "path": "index.html",
-    "bytes": 155399,
-    "sha256": "3134ece17d2f932f36f3e3177a5e5a514d28d1d0cb142800ca8f2165e6b14e82"
+    "bytes": 156570,
+    "sha256": "d27cd60036f6c5f8e0087167655e26d9698d77b989144ad585e33ebb28452c01"
   },
   {
     "path": "manifest.json",
-    "bytes": 734218,
-    "sha256": "cda68cdda03ea8514aa3ddfe7a9fe674742108ac5f1c1282ec8743c758977f74"
+    "bytes": 735615,
+    "sha256": "fc0df3f539db60d60d19465550b7b1aa9a157c5cad96f6f0548d719a05a7c489"
   },
   {
     "path": "weekly/2026-10-12/pilot/en/index.html",

@@ -1,0 +1,573 @@
+{
+  "date": "2026-10-26",
+  "timezone": "America/Toronto",
+  "cutoff": "2026-10-26T08:16:22Z",
+  "windowStart": "2026-10-25T08:16:22Z",
+  "metrics": {
+    "body": {
+      "zhDenseChars": 18116,
+      "enWords": 10499
+    },
+    "perProduct": {
+      "leapsteps-assistant-task-controls": {
+        "zh": 768,
+        "en": 437
+      },
+      "tv-detox-tcl-input-home": {
+        "zh": 731,
+        "en": 432
+      },
+      "dumbtv-child-lock-wake": {
+        "zh": 746,
+        "en": 430
+      },
+      "cleanyourtv3-module-cards": {
+        "zh": 803,
+        "en": 435
+      },
+      "llama-windows-013-model-fit": {
+        "zh": 763,
+        "en": 445
+      },
+      "moss-forge-reference-edit": {
+        "zh": 757,
+        "en": 437
+      },
+      "flint-interactive": {
+        "zh": 824,
+        "en": 452
+      },
+      "gelli-language-worlds": {
+        "zh": 850,
+        "en": 438
+      },
+      "present-drawing": {
+        "zh": 816,
+        "en": 427
+      },
+      "rayban-audio-running-review": {
+        "zh": 782,
+        "en": 442
+      },
+      "deki-020-display": {
+        "zh": 753,
+        "en": 453
+      },
+      "vzmore-ax9-local-review": {
+        "zh": 742,
+        "en": 440
+      },
+      "proart-p16-spark-review": {
+        "zh": 770,
+        "en": 446
+      },
+      "cline-desktop-0-0-49": {
+        "zh": 721,
+        "en": 440
+      },
+      "kimi-code-explicit-delegation": {
+        "zh": 769,
+        "en": 464
+      },
+      "papermark-data-rooms-2": {
+        "zh": 673,
+        "en": 397
+      },
+      "corgi-agent-terminal": {
+        "zh": 668,
+        "en": 436
+      },
+      "dagger-1-beta": {
+        "zh": 661,
+        "en": 451
+      },
+      "rea-6-8-agent-environments": {
+        "zh": 742,
+        "en": 431
+      },
+      "mcp-typescript-2-4-skills": {
+        "zh": 677,
+        "en": 429
+      },
+      "jk-plots": {
+        "zh": 830,
+        "en": 431
+      },
+      "chatbot-factuality-indicators": {
+        "zh": 832,
+        "en": 430
+      },
+      "llamacpp-soprano-tts": {
+        "zh": 677,
+        "en": 437
+      },
+      "n8n-2-45-agent-controls": {
+        "zh": 761,
+        "en": 439
+      }
+    },
+    "primarySummaries": {
+      "leapsteps-assistant-task-controls": {
+        "zh": 203,
+        "en": 112
+      },
+      "tv-detox-tcl-input-home": {
+        "zh": 218,
+        "en": 122
+      },
+      "dumbtv-child-lock-wake": {
+        "zh": 203,
+        "en": 113
+      },
+      "cleanyourtv3-module-cards": {
+        "zh": 215,
+        "en": 112
+      },
+      "llama-windows-013-model-fit": {
+        "zh": 200,
+        "en": 113
+      },
+      "moss-forge-reference-edit": {
+        "zh": 205,
+        "en": 112
+      },
+      "flint-interactive": {
+        "zh": 218,
+        "en": 115
+      },
+      "gelli-language-worlds": {
+        "zh": 213,
+        "en": 112
+      },
+      "present-drawing": {
+        "zh": 204,
+        "en": 110
+      },
+      "rayban-audio-running-review": {
+        "zh": 208,
+        "en": 115
+      },
+      "deki-020-display": {
+        "zh": 212,
+        "en": 120
+      },
+      "vzmore-ax9-local-review": {
+        "zh": 202,
+        "en": 114
+      },
+      "proart-p16-spark-review": {
+        "zh": 205,
+        "en": 116
+      },
+      "cline-desktop-0-0-49": {
+        "zh": 218,
+        "en": 117
+      },
+      "kimi-code-explicit-delegation": {
+        "zh": 212,
+        "en": 114
+      },
+      "papermark-data-rooms-2": {
+        "zh": 207,
+        "en": 113
+      },
+      "corgi-agent-terminal": {
+        "zh": 211,
+        "en": 110
+      },
+      "dagger-1-beta": {
+        "zh": 205,
+        "en": 115
+      },
+      "rea-6-8-agent-environments": {
+        "zh": 211,
+        "en": 112
+      },
+      "mcp-typescript-2-4-skills": {
+        "zh": 211,
+        "en": 115
+      },
+      "jk-plots": {
+        "zh": 218,
+        "en": 110
+      },
+      "chatbot-factuality-indicators": {
+        "zh": 213,
+        "en": 114
+      },
+      "llamacpp-soprano-tts": {
+        "zh": 210,
+        "en": 120
+      },
+      "n8n-2-45-agent-controls": {
+        "zh": 223,
+        "en": 112
+      }
+    },
+    "counting": "Only unique full-analysis product paragraphs count toward body gates; summaries, captions, coverage and sources excluded.",
+    "products": 24,
+    "references": 130,
+    "coreVisuals": 24,
+    "slidesPerLocale": 27,
+    "primaryProjectPages": 24,
+    "attachedProjectDetails": 24,
+    "primaryBody": {
+      "zhDenseChars": 5045,
+      "enWords": 2738
+    },
+    "completeReadingBody": {
+      "zhDenseChars": 23161,
+      "enWords": 13237
+    }
+  },
+  "revision": {
+    "label": "morning-edition",
+    "originalCutoffRetained": true,
+    "newIssue": true,
+    "baselineCommit": "e299e5acfa71bf8e2c910b815f273ea761ea433e"
+  },
+  "topics": [
+    {
+      "id": "leapsteps-assistant-task-controls",
+      "zhHeadline": "LeapSteps让助手改真实待办，删除前仍在应用里逐项确认",
+      "enHeadline": "LeapSteps lets assistants update real tasks and queues deletion for approval",
+      "eventAt": "2026-10-25",
+      "freshness": "near-three-day",
+      "evidence": "Maintainer documentation and release claims; no independent runtime test",
+      "eventDateNote": "day; October25 Windows1.0.3 changelog; timezone and lower24h boundary unknown",
+      "event_key": "leapsteps:windows:1.0.3",
+      "product_key": "leapsteps.ai",
+      "publishedAt": "2026-10-25",
+      "observedAt": "2026-10-26T08:43:10.063781+00:00",
+      "delta_since_last_seen": "Deletion requires in-app approval; unanswered requests expire after 24 hours. A continuing timer rings only while the app is open."
+    },
+    {
+      "id": "tv-detox-tcl-input-home",
+      "zhHeadline": "TV Detox保住TCL的HDMI画面，让Home键回到简洁桌面",
+      "enHeadline": "TV Detox preserves TCL HDMI playback and improves the Home-button route",
+      "eventAt": "2026-10-26T05:39:20Z",
+      "freshness": "main",
+      "evidence": "AI-assisted setup workflow, not runtime AI; primary releases plus firsthand contributor device reports; no editorial installation",
+      "eventDateNote": "second; GitHub published_at; related releases October25 08:51:40Z and October26 03:39:30Z also within main window",
+      "event_key": "github:Ansub/tv-detox:v1.5.4-v1.5.6",
+      "product_key": "github:Ansub/tv-detox",
+      "publishedAt": "2026-10-26T05:39:20Z",
+      "observedAt": "2026-10-26T08:41:55.821Z",
+      "delta_since_last_seen": "A user found that TCL’s Live TV app also displays HDMI. Cleanup now preserves it, and Q651G shortcuts open TCL’s picture and sound panels."
+    },
+    {
+      "id": "dumbtv-child-lock-wake",
+      "zhHeadline": "dumbTV加上可长按退出的童锁，并修正待机唤醒回错桌面",
+      "enHeadline": "dumbTV adds a remote child lock and corrects the home screen after wake",
+      "eventAt": "2026-10-25T18:48:05Z",
+      "freshness": "main",
+      "evidence": "AI-assisted customization/setup project; release notes and contributor device test, not runtime AI or editorial test",
+      "eventDateNote": "second; GitHub release published_at; v1.4 at18:02:24Z same day also main window",
+      "event_key": "github:humblemuzzu/dumbtv:launcher-v1.4-v1.5",
+      "product_key": "github:humblemuzzu/dumbtv",
+      "publishedAt": "2026-10-25T18:48:05Z",
+      "observedAt": "2026-10-26T08:41:55.821Z",
+      "delta_since_last_seen": "A separate update catches wake-ups that left Amazon’s home visible. An optional memory meter displays pressure without closing apps or freeing memory."
+    },
+    {
+      "id": "cleanyourtv3-module-cards",
+      "zhHeadline": "CleanYourTV 3把灯光、输入与网络拦截做成可选遥控卡片",
+      "enHeadline": "CleanYourTV 3 adds optional remote cards for home controls and inputs",
+      "eventAt": "2026-10-25T15:53:12Z",
+      "freshness": "main",
+      "evidence": "AI-assisted television customization project; primary tagged documentation, author stand-in-server demonstrations, firsthand TCL report; no editorial device test",
+      "eventDateNote": "second; GitHub published_at; addon details pinned to v3.0.0, later main-branch additions excluded",
+      "event_key": "github:Gathin23/cleanyourtv:v3.0.0",
+      "product_key": "github:Gathin23/cleanyourtv",
+      "publishedAt": "2026-10-25T15:53:12Z",
+      "observedAt": "2026-10-26T08:41:55.821Z",
+      "delta_since_last_seen": "Version three adds nine modules and home-screen options, while preserving TCL voice-button services and a Sankey input dependency after reports."
+    },
+    {
+      "id": "llama-windows-013-model-fit",
+      "zhHeadline": "Llama先估模型能否装进内存，再把电脑里的旧模型接进聊天",
+      "enHeadline": "Llama checks model fit and brings existing local files into chat",
+      "eventAt": "2026-10-20T08:13:07Z",
+      "freshness": "seven-day",
+      "evidence": "Maintainer documentation and release claims; no independent runtime test",
+      "eventDateNote": "second; release metadata read through authorized GitHub connector",
+      "event_key": "github:ggml-org/Llama-Windows:v0.13.0",
+      "product_key": "github:ggml-org/Llama-Windows",
+      "publishedAt": "2026-10-20T08:13:07Z",
+      "observedAt": "2026-10-26T08:43:10.063781+00:00",
+      "delta_since_last_seen": "The October 20 update adds fit verdicts, automatic draft-head configuration for compatible models, and Windows sharing of text and images into the composer."
+    },
+    {
+      "id": "moss-forge-reference-edit",
+      "zhHeadline": "MOSS扩展把参考图编辑接进Forge Neo，也补上新版加载冲突",
+      "enHeadline": "MOSS adds reference-image editing in Forge Neo and resolves a loader conflict",
+      "eventAt": "2026-10-24T05:14:25Z",
+      "freshness": "near-three-day",
+      "evidence": "developer surface; dated implementation and maintainer test reports, one user-confirmed earlier workaround; no editorial execution",
+      "eventDateNote": "second for commit; day for maintainer public availability confirmation in issue5; commit is implementation time, not first public announcement",
+      "event_key": "github:eduardoabreu81/moss-image-forge-neo:028cbe1546c66ffec6bf0473a01fef8ba4e47f49",
+      "product_key": "github:eduardoabreu81/moss-image-forge-neo",
+      "publishedAt": "2026-10-24",
+      "observedAt": "2026-10-26T08:33:35.731846+00:00",
+      "delta_since_last_seen": "October 24 brings editing support alongside a maintained fix for the native-loader conflict. Backend selection applies on the next generation."
+    },
+    {
+      "id": "flint-interactive",
+      "zhHeadline": "Flint把图上选中的数据交回对话，也能联动表格与另一张图",
+      "enHeadline": "Flint carries chart selections into chat and connected views",
+      "eventAt": "2026-10-21",
+      "freshness": "seven-day",
+      "evidence": "developer surface; maintainer release, implementation documentation and official demo; no editorial runtime test",
+      "eventDateNote": "Day;1.0 interaction release datedOct19,1.0.1 fixesOct21;Microsoft explanatoryblogOct22,not firstrelease. Oct19 lower7d boundary unresolved;date anchoring uses concreteOct21fix.",
+      "event_key": "github:microsoft/flint-chart:1.0.1-interactive-followup",
+      "product_key": "github:microsoft/flint-chart",
+      "publishedAt": "2026-10-22",
+      "observedAt": "2026-10-26T08:40:48.236609+00:00",
+      "delta_since_last_seen": "A table selection can highlight its matching bubble or link two charts. Version 1.0.1 repairs some chat-card redraws and explicit line interpolation."
+    },
+    {
+      "id": "gelli-language-worlds",
+      "zhHeadline": "GELLI按学习目标生成场景，让日语练习接着上一段对话展开",
+      "enHeadline": "GELLI builds Japanese practice scenes around the learner’s goals",
+      "eventAt": "2026-10-26 (scheduled announcement)",
+      "freshness": "main",
+      "evidence": "research signal; author study, no independent reproduction",
+      "eventDateNote": "Scheduled announcement inference: dated Monday October26 new-list + official Sunday20:00 Eastern schedule implies October26 00:00Z; actual execution clock not observed. publishedAt is submission time, not public release.",
+      "event_key": "arxiv:2610.31987:v1:announcement-2026-10-26",
+      "product_key": "arxiv:2610.31987",
+      "publishedAt": "2026-10-22T23:05:32Z",
+      "observedAt": "2026-10-26T08:32:45.624024+00:00",
+      "delta_since_last_seen": "Reflection and transcript-based feedback precede the next scene, which carries earlier events forward. Suggestions leave learners to construct their own sentences."
+    },
+    {
+      "id": "present-drawing",
+      "zhHeadline": "Present Drawing把虚拟角色的笔迹留在真纸上",
+      "enHeadline": "Present Drawing lets an avatar leave ink on real paper",
+      "eventAt": "2026-10-26 (scheduled announcement)",
+      "freshness": "main",
+      "evidence": "research signal; author study, no independent reproduction",
+      "eventDateNote": "Scheduled announcement inference: dated Monday October26 new-list + official Sunday20:00 Eastern schedule implies October26 00:00Z; actual execution clock not observed. publishedAt is submission time, not public release.",
+      "event_key": "arxiv:2610.32166:v1:announcement-2026-10-26",
+      "product_key": "arxiv:2610.32166",
+      "publishedAt": "2026-10-23T04:57:40Z",
+      "observedAt": "2026-10-26T08:32:45.624024+00:00",
+      "delta_since_last_seen": "Magnetic coupling moves and lifts the marker. During drawing, its reported position drives the avatar timeline to reduce visible hand-marker mismatch."
+    },
+    {
+      "id": "rayban-audio-running-review",
+      "zhHeadline": "无摄像头的Meta Audio能边跑边问路，声音仍会传给旁人",
+      "enHeadline": "Meta Audio gives spoken directions, while open speakers still leak sound",
+      "eventAt": "2026-10-24",
+      "freshness": "near-three-day",
+      "evidence": "WIRED hands-on observation; Meta documentation for mechanics and battery claims; no editorial device test",
+      "eventDateNote": "minute displayed; WIRED timezone unspecified; conservative recent supplement",
+      "event_key": "meta:rayban-audio:wired-running-review:2026-10-24",
+      "product_key": "meta:rayban-audio",
+      "publishedAt": "2026-10-24T05:15:00",
+      "observedAt": "2026-10-26T08:38:55Z",
+      "delta_since_last_seen": "An October 24 review adds a running observation: navigation reached the destination with imperfect directions. This is new testing of an existing device."
+    },
+    {
+      "id": "deki-020-display",
+      "zhHeadline": "Deki让小屏等待刷新再送画面，滑动列表也不再起步跳一下",
+      "enHeadline": "Deki synchronizes small screens and steadies the first swipe",
+      "eventAt": "2026-10-24",
+      "freshness": "near-three-day",
+      "evidence": "Original maintainer release and documentation; author board tests, no independent benchmark",
+      "eventDateNote": "day; original release notes and release page; exact clock/timezone unresolved",
+      "event_key": "deki:0.20.0-0.20.3:display-sync:2026-10-24",
+      "product_key": "github:dekiengine/deki-editor",
+      "publishedAt": "2026-10-24",
+      "observedAt": "2026-10-26T08:38:55Z",
+      "delta_since_last_seen": "Scrolling no longer jumps at the first swipe. Board definitions can supply physical display size so layouts account for small touch targets."
+    },
+    {
+      "id": "vzmore-ax9-local-review",
+      "zhHeadline": "AX9 Max跑得起本地模型，32GB内存却很快挤满",
+      "enHeadline": "AX9 Max runs local models, but its 32 GB configuration runs short of headroom",
+      "eventAt": "2026-10-24",
+      "freshness": "near-three-day",
+      "evidence": "TechRadar hands-on review; manufacturer and AMD specifications plus LM Studio documentation; no editorial test",
+      "eventDateNote": "day; review date; launch not asserted",
+      "event_key": "vzmore:ax9-max-ai:techradar-local-model-review:2026-10-24",
+      "product_key": "vzmore:ax9-max-ai",
+      "publishedAt": "2026-10-24",
+      "observedAt": "2026-10-26T08:38:55Z",
+      "delta_since_last_seen": "An October 24 review found memory pressure during local-model work on the 32 GB configuration, with slower complex tasks."
+    },
+    {
+      "id": "proart-p16-spark-review",
+      "zhHeadline": "ProArt P16让CPU与显卡共用大内存，评测提醒别忽略SSD和屏幕组合",
+      "enHeadline": "ProArt P16 shares memory with the GPU, but storage and screen choices still matter",
+      "eventAt": "2026-10-24",
+      "freshness": "near-three-day",
+      "evidence": "Independent Windows Central review; original ASUS product and technical documentation; no editorial device test",
+      "eventDateNote": "day; source gives review date only",
+      "event_key": "asus:proart-p16-h7607:windowscentral-review:2026-10-24",
+      "product_key": "asus:proart-p16-h7607",
+      "publishedAt": "2026-10-24",
+      "observedAt": "2026-10-26T08:38:55Z",
+      "delta_since_last_seen": "The October 24 independent review adds a storage-performance reservation. The new event is testing of an existing computer."
+    },
+    {
+      "id": "cline-desktop-0-0-49",
+      "zhHeadline": "Cline把修改文件和差异放进会话，换应用也接回同一任务",
+      "enHeadline": "Cline puts file review beside the conversation and reconnects the same running task",
+      "eventAt": "2026-10-26T04:49:34Z",
+      "freshness": "main",
+      "evidence": "Original maintainer release and implementation documentation; no editorial runtime test",
+      "eventDateNote": "second",
+      "event_key": "github:Cline/cline:desktop-v0.0.49",
+      "product_key": "github:Cline/cline",
+      "publishedAt": "2026-10-26T04:49:34Z",
+      "observedAt": "2026-10-26T08:33:01.999220+00:00",
+      "delta_since_last_seen": "A bottom terminal, PR status menu and local-model settings bring command output, failing checks and model information into the app. A completion summary opens the corresponding changes. The tree supports local and SSH workspaces, and startup failures can export diagnostics."
+    },
+    {
+      "id": "kimi-code-explicit-delegation",
+      "zhHeadline": "Kimi Code把分工交回用户，未开群体模式就不启动代理群",
+      "enHeadline": "Kimi Code requires a user choice before starting an agent swarm",
+      "eventAt": "2026-10-25T07:59:14Z",
+      "freshness": "near-three-day",
+      "evidence": "Original release, tagged documentation and merged implementation; not editorial runtime testing",
+      "eventDateNote": "second; maintainer release timestamp; before Oct25 issue cutoff and today main window, late-discovered supplement",
+      "event_key": "github:MoonshotAI/kimi-code:@moonshot-ai/kimi-code@2.3.2",
+      "product_key": "github:MoonshotAI/kimi-code",
+      "publishedAt": "2026-10-25T07:59:14Z",
+      "observedAt": "2026-10-26T08:30:00Z",
+      "delta_since_last_seen": "Swarms have an execution check: the user must enable swarm mode. Turning it off between accepting and executing a call also blocks dispatch."
+    },
+    {
+      "id": "papermark-data-rooms-2",
+      "zhHeadline": "Papermark让代理建资料室，文件、权限与分享链接一起交回",
+      "enHeadline": "Papermark lets agents prepare a data room with files, permissions and a share link",
+      "eventAt": "2026-10-25",
+      "freshness": "near-three-day",
+      "evidence": "Vendor release, maker explanation and official documentation; no independent task or setup-speed test",
+      "eventDateNote": "day; exact announcement timezone unknown; main lower boundary unresolved",
+      "event_key": "papermark:data-rooms:2.0:2026-10-25",
+      "product_key": "papermark:data-rooms",
+      "publishedAt": "2026-10-25",
+      "observedAt": "2026-10-26T08:36:02.221093+00:00",
+      "delta_since_last_seen": "Separate contact links support page-level review. Built-in questions stay beside documents, and room branding can be configured separately."
+    },
+    {
+      "id": "corgi-agent-terminal",
+      "zhHeadline": "Corgi把多代理终端、待处理提示和代码审阅放进同一工作区",
+      "enHeadline": "Corgi brings agent terminals, attention cues and code review into one workspace",
+      "eventAt": "2026-10-23",
+      "freshness": "seven-day",
+      "evidence": "Primary documentation and author announcement; no independent installation or performance test",
+      "eventDateNote": "Show HN day cross-checked with public archive; primary rendered page exposes relative age only; exact timestamp unresolved, conservatively seven-day",
+      "event_key": "corgi-agent-terminal:2026-10-23",
+      "product_key": "corgi",
+      "publishedAt": "2026-10-23",
+      "observedAt": "2026-10-26T08:47:58.162006+00:00",
+      "delta_since_last_seen": "The public introduction combines Claude Code, Codex, Pi and OpenCode with a daemon that keeps processes running after detachment."
+    },
+    {
+      "id": "dagger-1-beta",
+      "zhHeadline": "Dagger 1.0 beta把单项测试、失败现场和推送检查连起来",
+      "enHeadline": "Dagger 1.0 beta connects individual tests, failed environments and push checks",
+      "eventAt": "2026-10-22",
+      "freshness": "seven-day",
+      "evidence": "Primary documentation and author announcement; no independent installation or performance test",
+      "eventDateNote": "day; exact timezone not established",
+      "event_key": "dagger-1-beta:2026-10-22",
+      "product_key": "dagger",
+      "publishedAt": "2026-10-23",
+      "observedAt": "2026-10-26T08:47:58.162006+00:00",
+      "delta_since_last_seen": "Workspace configuration and a lockfile align modules and dependencies, while Cloud Checks returns GitHub statuses after pushes and pull requests."
+    },
+    {
+      "id": "rea-6-8-agent-environments",
+      "zhHeadline": "REA把应用录制变成可反复运行的本地代理环境",
+      "enHeadline": "REA turns recorded application behavior into a local agent environment",
+      "eventAt": "2026-10-25T08:36:02Z",
+      "freshness": "main",
+      "evidence": "Original maintainer release and implementation documentation; no editorial runtime test",
+      "eventDateNote": "second",
+      "event_key": "github:morluto/rea:rea-agents-6.8.0",
+      "product_key": "github:morluto/rea",
+      "publishedAt": "2026-10-25T08:36:02Z",
+      "observedAt": "2026-10-26T08:33:01.999220+00:00",
+      "delta_since_last_seen": "Reads filter, sort and page observed state. Writes require recorded confirmation; conflicting or unconfirmed effects remain unavailable. The coverage report identifies withheld tools and the missing observations developers need to record before serving those writes."
+    },
+    {
+      "id": "mcp-typescript-2-4-skills",
+      "zhHeadline": "MCP把技能目录和文件校验一起交给客户端",
+      "enHeadline": "MCP serves skill catalogs with checks on the files clients load",
+      "eventAt": "2026-10-23T18:32:25Z",
+      "freshness": "near-three-day",
+      "evidence": "Original maintainer release and implementation documentation; no editorial runtime test",
+      "eventDateNote": "second",
+      "event_key": "github:modelcontextprotocol/typescript-sdk:v2.4.0",
+      "product_key": "github:modelcontextprotocol/typescript-sdk",
+      "publishedAt": "2026-10-23T18:32:25Z",
+      "observedAt": "2026-10-26T08:33:01.999220+00:00",
+      "delta_since_last_seen": "Reads check size, SHA-256 and manifest frontmatter. Changed files fail until the server reloads its catalog. Catalog reloads swap metadata together; failed scans retain the old catalog, and request-aware sources can vary available skills by caller."
+    },
+    {
+      "id": "jk-plots",
+      "zhHeadline": "jk-Plots让小样本的图表边界变模糊，提醒估计还不稳定",
+      "enHeadline": "jk-Plots shows how little a small sample can pin down",
+      "eventAt": "2026-10-23 (scheduled announcement)",
+      "freshness": "seven-day",
+      "evidence": "research signal; author study, no independent reproduction",
+      "eventDateNote": "Submitted October 22 at 10:28:15Z. The Friday October 23 recent-list group and official Thursday 20:00 Eastern schedule imply October 23 at 00:00Z; the actual execution time was not observed.",
+      "event_key": "arxiv:2610.31050:v1:announcement-2026-10-23",
+      "product_key": "arxiv:2610.31050",
+      "publishedAt": "2026-10-22T10:28:15Z",
+      "observedAt": "2026-10-26T08:43:36.334384+00:00",
+      "delta_since_last_seen": "Representations tighten as evidence increases. A wrong model still misleads: the paper’s skewed-data example is better represented by an ordinary empirical boxplot."
+    },
+    {
+      "id": "chatbot-factuality-indicators",
+      "zhHeadline": "聊天答案标上高信心后更容易被相信，揭晓对错却会改变判断",
+      "enHeadline": "Confidence labels shape first impressions, until the answer is checked",
+      "eventAt": "2026-10-26 (scheduled announcement)",
+      "freshness": "main",
+      "evidence": "research signal; author study, no independent reproduction",
+      "eventDateNote": "Scheduled announcement inference: dated Monday October26 new-list + official Sunday20:00 Eastern schedule implies October26 00:00Z; actual execution clock not observed. publishedAt is submission time, not public release.",
+      "event_key": "arxiv:2610.32883:v1:announcement-2026-10-26",
+      "product_key": "arxiv:2610.32883",
+      "publishedAt": "2026-10-23T16:49:14Z",
+      "observedAt": "2026-10-26T08:32:45.624024+00:00",
+      "delta_since_last_seen": "High confidence raised initial perceived accuracy, but indicator effects were small. After correctness was revealed, display-type differences in trust and sentiment disappeared."
+    },
+    {
+      "id": "llamacpp-soprano-tts",
+      "zhHeadline": "llama.cpp接入Soprano：用两份GGUF把英文文本生成WAV",
+      "enHeadline": "llama.cpp adds Soprano: two GGUF files turn English text into WAV audio",
+      "eventAt": "2026-10-24T05:30:02Z",
+      "freshness": "near-three-day",
+      "evidence": "Published release and tagged documentation or merged implementation PRs; not independently executed",
+      "eventDateNote": "second; GitHub published_at",
+      "event_key": "llamacpp-soprano-tts:2026-10-24T05:30:02Z",
+      "product_key": "llama.cpp",
+      "publishedAt": "2026-10-24T05:30:02Z",
+      "observedAt": "2026-10-26T09:01:04.973559+00:00",
+      "delta_since_last_seen": "Build b11850 adds support for Soprano and Soprano 1.1. The October 24 change is runtime integration, not the model’s original release."
+    },
+    {
+      "id": "n8n-2-45-agent-controls",
+      "zhHeadline": "n8n 2.45 beta把工具审批、子代理预算和重复请求控制连起来",
+      "enHeadline": "n8n 2.45 beta adds tool approval, subagent budgets and request deduplication",
+      "eventAt": "2026-10-20T09:10:14Z",
+      "freshness": "seven-day",
+      "evidence": "Published release and tagged documentation or merged implementation PRs; not independently executed",
+      "eventDateNote": "second; GitHub published_at",
+      "event_key": "n8n-2-45-agent-controls:2026-10-20T09:10:14Z",
+      "product_key": "n8n",
+      "publishedAt": "2026-10-20T09:10:14Z",
+      "observedAt": "2026-10-26T09:01:04.973559+00:00",
+      "delta_since_last_seen": "Subagent budget stops reach the parent, while idempotency keys prevent repeated API creation requests from producing duplicate workflows."
+    }
+  ],
+  "eventCounts": {
+    "mainWindowEvents": 8,
+    "nearThreeDayReviews": 10,
+    "sevenDayReviews": 6,
+    "interpretation": "Announcements, submissions, updates and regional reports; not first product launches."
+  }
+}
