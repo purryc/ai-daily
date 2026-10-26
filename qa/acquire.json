@@ -1,29 +1,9 @@
 [
   {
-    "kind": "image",
-    "renderImage": true,
-    "name": "papermark-room.jpg",
-    "url": "https://img.papermarkassets.com/upload/file_F3JBF9MYvuYZaA31xtMArJ-CleanShot-2025-10-17-at-14.36.56%402x.png",
-    "locale": "zh"
-  },
-  {
     "kind": "page",
-    "name": "corgi-terminal.jpg",
+    "name": "corgi-session.jpg",
     "url": "https://corgi.computer/",
-    "selector": "#v-sim",
+    "selector": "#v-sim:has-text(\"moonlander\")",
     "locale": "en"
-  },
-  {
-    "kind": "inventory",
-    "name": "dagger-inventory.json",
-    "url": "https://dagger.io/blog/dagger-10-beta/",
-    "locale": "en"
-  },
-  {
-    "kind": "page",
-    "name": "clips-demo.jpg",
-    "url": "https://plastic.audio/clips/",
-    "selector": ".appwin",
-    "locale": "zh"
   }
 ]
