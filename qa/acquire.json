@@ -1,9 +1,9 @@
 [
   {
-    "kind": "page",
-    "name": "corgi-session.jpg",
-    "url": "https://corgi.computer/",
-    "selector": "#v-sim:has-text(\"moonlander\")",
+    "kind": "image",
+    "renderImage": true,
+    "name": "n8n-workflow.jpg",
+    "url": "https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-screenshot-readme.png",
     "locale": "en"
   }
 ]
