@@ -2,49 +2,28 @@
   {
     "kind": "image",
     "renderImage": true,
-    "name": "flint.jpg",
-    "url": "https://raw.githubusercontent.com/microsoft/flint-chart/main/docs/figs/flint-mcp-chat.png",
+    "name": "papermark-room.jpg",
+    "url": "https://img.papermarkassets.com/upload/file_F3JBF9MYvuYZaA31xtMArJ-CleanShot-2025-10-17-at-14.36.56%402x.png",
     "locale": "zh"
   },
   {
-    "kind": "image",
-    "renderImage": true,
-    "name": "tv-detox.jpg",
-    "url": "https://raw.githubusercontent.com/Ansub/tv-detox/main/docs/home-screen.png",
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "dumbtv.jpg",
-    "url": "https://raw.githubusercontent.com/humblemuzzu/dumbtv/main/docs/assets/screens/home.png",
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "cleantv.jpg",
-    "url": "https://raw.githubusercontent.com/Gathin23/cleanyourtv/main/addons/smart-home/screenshot.jpg",
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "moss-layout.jpg",
-    "url": "https://raw.githubusercontent.com/eduardoabreu81/moss-image-forge-neo/main/.github/images/layout.jpg",
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "jk-plots.png",
-    "url": "https://arxiv.org/html/2610.31050v1/figs/comparison/cat/pie/ours10.png",
+    "kind": "page",
+    "name": "corgi-terminal.jpg",
+    "url": "https://corgi.computer/",
+    "selector": "#v-sim",
     "locale": "en"
   },
   {
     "kind": "inventory",
-    "name": "clips-inventory.json",
+    "name": "dagger-inventory.json",
+    "url": "https://dagger.io/blog/dagger-10-beta/",
+    "locale": "en"
+  },
+  {
+    "kind": "page",
+    "name": "clips-demo.jpg",
     "url": "https://plastic.audio/clips/",
+    "selector": ".appwin",
     "locale": "zh"
   }
 ]
