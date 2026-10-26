@@ -120,7 +120,7 @@ export async function checkArchive({browser, url, live, locale, phase, check, sc
   await latest.locator(`a[href*="/${latestDaily}/${locale}/"]`).click();
   await p.locator('#cover').waitFor({state:'visible'});
   check('overview-latest-actual-navigation',new URL(p.url()).pathname===new URL(`${latestDaily}/${locale}/`,url).pathname&&await p.locator('#cover').isVisible());
-  const weeklyIndex=await p.goto(new URL('weekly/',url),{waitUntil:'domcontentloaded'});
+  const weeklyIndex=await p.goto(new URL('weekly/',url).href,{waitUntil:'domcontentloaded'});
   check('weekly-index-http',weeklyIndex.status()===200);
   for(const width of [1600,390]){await p.setViewportSize({width,height:900});const state=await p.evaluate(()=>({overflow:document.documentElement.scrollWidth>innerWidth+1,heading:document.querySelector('h1')?.textContent,links:[...document.querySelectorAll('a')].map(a=>{const r=a.getBoundingClientRect();return r.width>0&&r.height>0})}));check('weekly-index-readable',!state.overflow&&Boolean(state.heading)&&state.links.every(Boolean),{width,...state});}
   for(const week of weeks){const target=new URL(`weekly/${week.path}${locale}/`,url).href;check('weekly-index-preserves-edition',await p.locator('a').evaluateAll((els,u)=>els.some(a=>a.href===u),target),{week:week.week_start});}
