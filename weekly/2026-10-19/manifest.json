@@ -10,8 +10,8 @@
   "windowStart": "2026-10-19T04:00:00Z",
   "metrics": {
     "body": {
-      "zhDenseChars": 8626,
-      "enWords": 5125
+      "zhDenseChars": 9822,
+      "enWords": 5810
     },
     "perProduct": {
       "highlight-consumer-muse": {
@@ -65,6 +65,14 @@
       "opportunity-creative-publisher-acceptance": {
         "zh": 767,
         "en": 470
+      },
+      "jobs-public-listings": {
+        "zh": 603,
+        "en": 380
+      },
+      "jobs-talent-demand": {
+        "zh": 593,
+        "en": 305
       }
     },
     "primarySummaries": {
@@ -119,29 +127,38 @@
       "opportunity-creative-publisher-acceptance": {
         "zh": 130,
         "en": 66
+      },
+      "jobs-public-listings": {
+        "zh": 196,
+        "en": 113
+      },
+      "jobs-talent-demand": {
+        "zh": 187,
+        "en": 108
       }
     },
     "counting": "Only unique full-analysis product paragraphs count toward body gates; summaries, captions, coverage and sources excluded.",
-    "products": 13,
-    "references": 67,
+    "products": 15,
+    "references": 78,
     "coreVisuals": 13,
-    "slidesPerLocale": 16,
-    "primaryProjectPages": 13,
-    "attachedProjectDetails": 13,
+    "slidesPerLocale": 18,
+    "primaryProjectPages": 15,
+    "attachedProjectDetails": 15,
     "primaryBody": {
-      "zhDenseChars": 2222,
-      "enWords": 1324
+      "zhDenseChars": 2605,
+      "enWords": 1545
     },
     "completeReadingBody": {
-      "zhDenseChars": 10848,
-      "enWords": 6449
+      "zhDenseChars": 12427,
+      "enWords": 7355
     }
   },
   "revision": {
-    "label": "complete-week",
+    "label": "complete-week-jobs-supplement",
+    "number": 2,
     "originalCutoffRetained": true,
-    "newIssue": true,
-    "baselineCommit": "2d3b476d94838fd81b21cef6d8332891da0b69e4"
+    "newIssue": false,
+    "baselineCommit": "ec06982abe663c2b7566c013ff99b4ff0dd6b31f"
   },
   "topics": [
     {
@@ -338,13 +355,158 @@
       "publishedAt": null,
       "observedAt": "2026-10-26T14:49:26Z",
       "delta_since_last_seen": "Vendors responded to migration problems this week; demand growth and buyer counts are unestablished."
+    },
+    {
+      "id": "jobs-public-listings",
+      "unitType": "jobs",
+      "zhHeadline": "新工作：9项主列表，另2项先核资格",
+      "enHeadline": "Jobs: nine main listings and two eligibility checks",
+      "eventAt": "2026-10-26",
+      "freshness": "post-window-hiring-observation",
+      "evidence": "Employer descriptions and application routes observed October26; posting dates unknown",
+      "eventDateNote": "10月26日15:36–15:38 UTC补采；发布日期均未核实，不是本周新开岗位。",
+      "event_key": "weekly:2026-10-19:jobs-public-listings",
+      "product_key": "jobs-public-listings",
+      "publishedAt": null,
+      "observedAt": "2026-10-26",
+      "delta_since_last_seen": "Six newly found, five revalidated. Descriptions and application routes were visible; original posting dates were not verified."
+    },
+    {
+      "id": "jobs-talent-demand",
+      "unitType": "talent",
+      "zhHeadline": "人才诉求：能解释AI，也能把方案交到下一环",
+      "enHeadline": "Talent demand: explain AI behavior and carry the work into delivery",
+      "eventAt": "2026-10-26",
+      "freshness": "post-window-hiring-sample-analysis",
+      "evidence": "Editorial interpretation of11 observed roles from10 employers; no growth baseline",
+      "eventDateNote": "10月26日15:36–15:38 UTC补采；发布日期均未核实，不是本周新开岗位。",
+      "event_key": "weekly:2026-10-19:jobs-talent-demand",
+      "product_key": "jobs-talent-demand",
+      "publishedAt": null,
+      "observedAt": "2026-10-26",
+      "delta_since_last_seen": "Life360 asks for experiments and metrics, HouseSigma emphasizes research and process, and HappyCo values shipped experiences."
     }
   ],
   "unitCounts": {
     "highlight": 7,
     "trend": 3,
     "opportunity": 2,
-    "signal": 1
+    "signal": 1,
+    "jobs": 1,
+    "talent": 1
+  },
+  "hiringSupplement": {
+    "observedWindow": [
+      "2026-10-26T15:36:00Z",
+      "2026-10-26T15:38:00Z"
+    ],
+    "roles": [
+      {
+        "id": "housesigma",
+        "company": "HouseSigma",
+        "url": "https://team.housesigma.com/job_posting/senior-product-designer/",
+        "newFound": true,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-10-26"
+      },
+      {
+        "id": "lca",
+        "company": "LCA",
+        "url": "https://www.latecheckout.agency/careers/sr-product-designer",
+        "newFound": true,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-10-26"
+      },
+      {
+        "id": "astell",
+        "company": "Lab24/Astell",
+        "url": "https://astell.ai/en/careers/ui-ux",
+        "newFound": true,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-10-26"
+      },
+      {
+        "id": "life360",
+        "company": "Life360",
+        "url": "https://job-boards.greenhouse.io/life360/jobs/8790900002",
+        "newFound": true,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-10-26"
+      },
+      {
+        "id": "stackadapt",
+        "company": "StackAdapt",
+        "url": "https://job-boards.greenhouse.io/stackadapt/jobs/4410085009",
+        "newFound": false,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-10-26"
+      },
+      {
+        "id": "andgo-lead",
+        "company": "Andgo",
+        "url": "https://job-boards.greenhouse.io/andgosystems/jobs/4456641009",
+        "newFound": false,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-10-26"
+      },
+      {
+        "id": "andgo-contract",
+        "company": "Andgo",
+        "url": "https://job-boards.greenhouse.io/andgosystems/jobs/4456625009",
+        "newFound": false,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-10-26"
+      },
+      {
+        "id": "happyco",
+        "company": "HappyCo",
+        "url": "https://jobs.lever.co/happyco/fa3d0564-46e5-4483-af1f-72e8acdd442e",
+        "newFound": false,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-10-26"
+      },
+      {
+        "id": "alpaca",
+        "company": "Alpaca",
+        "url": "https://job-boards.greenhouse.io/alpaca/jobs/6187326004",
+        "newFound": false,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-10-26"
+      },
+      {
+        "id": "kalepa",
+        "company": "Kalepa",
+        "url": "https://job-boards.greenhouse.io/kalepa/jobs/6227620004",
+        "newFound": true,
+        "conditional": true,
+        "publishedAt": null,
+        "observedAt": "2026-10-26"
+      },
+      {
+        "id": "upgraded",
+        "company": "Upgraded",
+        "url": "https://www.getupgraded.ca/jobs/product-designer",
+        "newFound": true,
+        "conditional": true,
+        "publishedAt": null,
+        "observedAt": "2026-10-26"
+      }
+    ],
+    "main": 9,
+    "conditional": 2,
+    "newFound": 6,
+    "revalidated": 5,
+    "employers": 10,
+    "originalPublicationDatesVerified": 0
   },
   "periodLabel": [
     "2026年10月19–25日",
