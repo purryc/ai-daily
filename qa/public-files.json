@@ -4576,8 +4576,8 @@
   },
   {
     "path": "weekly/2026-10-19/en/details/jobs-talent-demand.html",
-    "bytes": 5712,
-    "sha256": "b654051358f847b27524de1f44598aa4a10a0d1844d3e5359fc8cf97885c3bea"
+    "bytes": 5168,
+    "sha256": "87accac69f062feea480a5046051df882eca5b0e6a28df7d9d30c0d518449966"
   },
   {
     "path": "weekly/2026-10-19/en/details/opportunity-creative-publisher-acceptance.html",
@@ -4611,13 +4611,13 @@
   },
   {
     "path": "weekly/2026-10-19/en/index.html",
-    "bytes": 51754,
-    "sha256": "fb27d156e1df689075c328156bab58cab2ce78376dca5c4d7ec75812e75b8339"
+    "bytes": 51843,
+    "sha256": "0a89397d1a3a511baa473741edf3fbbf28793067a9a1dbbbc4bdff90833af65e"
   },
   {
     "path": "weekly/2026-10-19/manifest.json",
-    "bytes": 20664,
-    "sha256": "fc3401aa8101c729d0183636f32c395cf75198318b13d627bf424e23e2bd2577"
+    "bytes": 20652,
+    "sha256": "a3c73a65f4c8b5cc82c4e24b1c11a240916d31c4307626ee9ca084f1c2fb3a9b"
   },
   {
     "path": "weekly/2026-10-19/sources.html",
@@ -4676,8 +4676,8 @@
   },
   {
     "path": "weekly/2026-10-19/zh/details/jobs-talent-demand.html",
-    "bytes": 5246,
-    "sha256": "a966d4c66bee521b13f52f525cecf6d9851853feaa99ecb7d9ebdee6606c175c"
+    "bytes": 4801,
+    "sha256": "5fc3c179440fa1ddebafbfaa5d638c54b791c7dc2694a02eb415d657fe07200a"
   },
   {
     "path": "weekly/2026-10-19/zh/details/opportunity-creative-publisher-acceptance.html",
@@ -4711,8 +4711,8 @@
   },
   {
     "path": "weekly/2026-10-19/zh/index.html",
-    "bytes": 49505,
-    "sha256": "3ddc182b6250f68d2e99fb2c631278b10ffe2e0eb07fcbdc3df0da8875bc4916"
+    "bytes": 49575,
+    "sha256": "1507fe3233239549486ec396f9d1f556d36742af89650852f344782d11abbf15"
   },
   {
     "path": "weekly/assets/pilot.css",

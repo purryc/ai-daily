@@ -3,8 +3,8 @@
   "issue": "weekly/2026-10-19",
   "metrics": {
     "body": {
-      "zhDenseChars": 9927,
-      "enWords": 5885
+      "zhDenseChars": 9822,
+      "enWords": 5810
     },
     "perProduct": {
       "highlight-consumer-muse": {
@@ -64,8 +64,8 @@
         "en": 380
       },
       "jobs-talent-demand": {
-        "zh": 698,
-        "en": 380
+        "zh": 593,
+        "en": 305
       }
     },
     "primarySummaries": {
@@ -126,8 +126,8 @@
         "en": 113
       },
       "jobs-talent-demand": {
-        "zh": 197,
-        "en": 105
+        "zh": 187,
+        "en": 108
       }
     },
     "counting": "Only unique full-analysis product paragraphs count toward body gates; summaries, captions, coverage and sources excluded.",
@@ -138,12 +138,12 @@
     "primaryProjectPages": 15,
     "attachedProjectDetails": 15,
     "primaryBody": {
-      "zhDenseChars": 2615,
-      "enWords": 1542
+      "zhDenseChars": 2605,
+      "enWords": 1545
     },
     "completeReadingBody": {
-      "zhDenseChars": 12542,
-      "enWords": 7427
+      "zhDenseChars": 12427,
+      "enWords": 7355
     }
   },
   "units": [
