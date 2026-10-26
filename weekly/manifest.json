@@ -1,5 +1,17 @@
 [
   {
+    "week_start": "2026-10-19",
+    "week_end": "2026-10-25",
+    "type": "weekly",
+    "partial_week": false,
+    "path": "2026-10-19/",
+    "cutoff": "2026-10-26T04:00:00Z",
+    "research_started_at": "2026-10-26T14:37:49Z",
+    "revision": 1,
+    "zhTitle": "本周 AI 操作细节：衣橱、文件与现场",
+    "enTitle": "This week’s AI workflows: wardrobes, files and work on site"
+  },
+  {
     "week_start": "2026-10-12",
     "type": "weekly-pilot",
     "partial_week": true,
