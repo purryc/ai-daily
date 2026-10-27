@@ -1,6 +1,6 @@
 {
   "phase": "candidate",
   "baselineCommit": "35d7b4101c870679a901f600fd6a545873e99a13",
-  "acquireAssets": true,
+  "acquireAssets": false,
   "archiveRevision": false
 }

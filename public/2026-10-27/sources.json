@@ -1,0 +1,749 @@
+[
+  {
+    "url": "https://github.com/inikolax/remiqora-video/releases/tag/v0.1.0",
+    "title": "v0.1.0 release",
+    "publisher": "Nikolay Cherkashin / Remiqora",
+    "publishedAt": "2026-10-26T18:33:28Z",
+    "observedAt": "2026-10-27T08:16:40.099861+00:00",
+    "number": 1
+  },
+  {
+    "url": "https://github.com/inikolax/remiqora-video",
+    "title": "README",
+    "publisher": "Nikolay Cherkashin / Remiqora",
+    "observedAt": "2026-10-27T08:16:40.099861+00:00",
+    "number": 2
+  },
+  {
+    "url": "https://www.reddit.com/r/StableDiffusion/comments/1xg8peo/i_built_a_free_opensource_video_studio_that_runs/",
+    "title": "Reddit author introduction",
+    "publisher": "Nikolay Cherkashin / Remiqora",
+    "observedAt": "2026-10-27T08:16:40.099861+00:00",
+    "number": 3
+  },
+  {
+    "url": "https://remiqora.com/video/",
+    "title": "Product site",
+    "publisher": "Nikolay Cherkashin / Remiqora",
+    "observedAt": "2026-10-27T08:16:40.099861+00:00",
+    "number": 4
+  },
+  {
+    "url": "https://github.com/inikolax/remiqora-video/wiki/Cache-and-time",
+    "title": "Cache and time",
+    "publisher": "Nikolay Cherkashin / Remiqora",
+    "publishedAt": "2026-10-26",
+    "observedAt": "2026-10-27T08:16:40.099861+00:00",
+    "number": 5
+  },
+  {
+    "url": "https://github.com/inikolax/remiqora-video/wiki/Fix-one-scene",
+    "title": "Fix one scene",
+    "publisher": "Nikolay Cherkashin / Remiqora",
+    "publishedAt": "2026-10-26",
+    "observedAt": "2026-10-27T08:16:40.099861+00:00",
+    "number": 6
+  },
+  {
+    "url": "https://github.com/inikolax/remiqora-video/wiki/The-check-mark",
+    "title": "The check mark",
+    "publisher": "Nikolay Cherkashin / Remiqora",
+    "publishedAt": "2026-10-26",
+    "observedAt": "2026-10-27T08:16:40.099861+00:00",
+    "number": 7
+  },
+  {
+    "url": "https://github.com/inikolax/remiqora-video/wiki/Montage-and-export-to-DaVinci-Resolve",
+    "title": "Montage and Resolve export",
+    "publisher": "Nikolay Cherkashin / Remiqora",
+    "publishedAt": "2026-10-26",
+    "observedAt": "2026-10-27T08:16:40.099861+00:00",
+    "number": 8
+  },
+  {
+    "url": "https://www.producthunt.com/leaderboard/daily/2026/10/26",
+    "title": "October 26 featured leaderboard",
+    "publisher": "Product Hunt",
+    "publishedAt": "2026-10-26",
+    "observedAt": "2026-10-27T08:12:30Z",
+    "number": 9
+  },
+  {
+    "url": "https://www.producthunt.com/products/loqui-2",
+    "title": "Loqui product description",
+    "publisher": "Loqui / Product Hunt",
+    "observedAt": "2026-10-27T08:12:30Z",
+    "number": 10
+  },
+  {
+    "url": "https://www.producthunt.com/p/loqui-2/loqui-3",
+    "title": "Loqui launch discussion",
+    "publisher": "Maker / Product Hunt",
+    "observedAt": "2026-10-27T08:12:30Z",
+    "number": 11
+  },
+  {
+    "url": "https://www.producthunt.com/products/2g",
+    "title": "2G product description",
+    "publisher": "2G / Product Hunt",
+    "observedAt": "2026-10-27T08:12:30Z",
+    "number": 12
+  },
+  {
+    "url": "https://www.producthunt.com/p/2g/2g",
+    "title": "2G launch discussion",
+    "publisher": "Maker / Product Hunt",
+    "observedAt": "2026-10-27T08:12:30Z",
+    "number": 13
+  },
+  {
+    "url": "https://www.producthunt.com/products/surgepix",
+    "title": "SurgePix product description",
+    "publisher": "SurgePix / Product Hunt",
+    "observedAt": "2026-10-27T08:12:30Z",
+    "number": 14
+  },
+  {
+    "url": "https://www.producthunt.com/p/surgepix/surgepix",
+    "title": "SurgePix launch discussion",
+    "publisher": "Maker / Product Hunt",
+    "observedAt": "2026-10-27T08:12:30Z",
+    "number": 15
+  },
+  {
+    "url": "https://www.producthunt.com/leaderboard/daily/2026/10/26/all",
+    "title": "Dated All view includes JobmateAI; returned slice not exhaustive",
+    "publisher": "Jobmate / Product Hunt",
+    "publishedAt": "2026-10-26",
+    "observedAt": "2026-10-27T08:25:00Z",
+    "number": 16
+  },
+  {
+    "url": "https://www.producthunt.com/products/jobmate-ai-3",
+    "title": "Product overview and visible maker comments",
+    "publisher": "Jobmate / Product Hunt",
+    "observedAt": "2026-10-27T08:25:00Z",
+    "number": 17
+  },
+  {
+    "url": "https://usejobmate.com/",
+    "title": "Profile and application-board demonstrations",
+    "publisher": "Jobmate",
+    "observedAt": "2026-10-27T08:25:00Z",
+    "number": 18
+  },
+  {
+    "url": "https://usejobmate.com/auto-apply",
+    "title": "Default stop; opt-in auto-submit; unknown answers; CAPTCHA/sign-in; tracking",
+    "publisher": "Jobmate",
+    "observedAt": "2026-10-27T08:25:00Z",
+    "number": 19
+  },
+  {
+    "url": "https://usejobmate.com/autofill",
+    "title": "Profile construction, preview/untick, remembered responses",
+    "publisher": "Jobmate",
+    "observedAt": "2026-10-27T08:25:00Z",
+    "number": 20
+  },
+  {
+    "url": "https://usejobmate.com/pricing",
+    "title": "Free ten autofills/two agent runs per month; promotion vs standard prices",
+    "publisher": "Jobmate",
+    "observedAt": "2026-10-27T08:25:00Z",
+    "number": 21
+  },
+  {
+    "url": "https://sspai.com/post/117529",
+    "title": "派评：Controller10 hands-on section",
+    "publisher": "SSPAI",
+    "publishedAt": "2026-10-26",
+    "observedAt": "2026-10-27T08:16:56Z",
+    "number": 22
+  },
+  {
+    "url": "https://controllerforhomekit.com/release-notes/v10-0",
+    "title": "Controller10 release notes",
+    "publisher": "acasa Software",
+    "observedAt": "2026-10-27T08:16:56Z",
+    "number": 23
+  },
+  {
+    "url": "https://controllerforhomekit.com/features/ai",
+    "title": "ControllerAI",
+    "publisher": "acasa Software",
+    "observedAt": "2026-10-27T08:16:56Z",
+    "number": 24
+  },
+  {
+    "url": "https://controllerforhomekit.com/features/dashboards",
+    "title": "Dashboards documentation",
+    "publisher": "acasa Software",
+    "observedAt": "2026-10-27T08:16:56Z",
+    "number": 25
+  },
+  {
+    "url": "https://controllerforhomekit.com/features/home-sharing",
+    "title": "HomeSharing",
+    "publisher": "acasa Software",
+    "observedAt": "2026-10-27T08:16:56Z",
+    "number": 26
+  },
+  {
+    "url": "https://controllerforhomekit.com/pricing",
+    "title": "Plans and pricing",
+    "publisher": "acasa Software",
+    "observedAt": "2026-10-27T08:16:56Z",
+    "number": 27
+  },
+  {
+    "url": "https://www.apple.com/newsroom/2026/10/siri-ai-is-available-in-more-languages-starting-today/",
+    "title": "October26 language expansion and availability",
+    "publisher": "Apple",
+    "publishedAt": "2026-10-26",
+    "observedAt": "2026-10-27T08:16:30Z",
+    "number": 28
+  },
+  {
+    "url": "https://support.apple.com/en-us/149076",
+    "title": "iOS27.2: past interactions, sources, Excluded Apps",
+    "publisher": "Apple Support",
+    "publishedAt": "2026-10-26",
+    "observedAt": "2026-10-27T08:16:30Z",
+    "number": 29
+  },
+  {
+    "url": "https://www.apple.com/os/ios/",
+    "title": "Siri app and personal-context interface illustration",
+    "publisher": "Apple",
+    "observedAt": "2026-10-27T08:16:30Z",
+    "number": 30
+  },
+  {
+    "url": "https://support.apple.com/en-us/148587",
+    "title": "Apple Intelligence usage terms",
+    "publisher": "Apple Support",
+    "observedAt": "2026-10-27T08:16:30Z",
+    "number": 31
+  },
+  {
+    "url": "https://strawberrybrowser.com/updates/strawberry-1-0",
+    "title": "Release 1.0: new companions and Companion Plaza",
+    "publisher": "Strawberry",
+    "publishedAt": "2026-10-26",
+    "observedAt": "2026-10-27T08:16:30Z",
+    "number": 32
+  },
+  {
+    "url": "https://strawberrybrowser.com/updates/feature-update-2026-10-21",
+    "title": "October21: conditional routines, history, WhatsApp",
+    "publisher": "Strawberry",
+    "publishedAt": "2026-10-21",
+    "observedAt": "2026-10-27T08:16:30Z",
+    "number": 33
+  },
+  {
+    "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+    "title": "October26 Polar Peaks and teacher-training timing",
+    "publisher": "Google",
+    "publishedAt": "2026-10-26",
+    "observedAt": "2026-10-27T08:16:30Z",
+    "number": 34
+  },
+  {
+    "url": "https://acceleratelearning.stanford.edu/story/stanford-and-google-develop-ai-educational-game-for-teens/",
+    "title": "AI Quests original learning design and classroom materials",
+    "publisher": "Stanford Accelerator for Learning",
+    "publishedAt": "2025-09-09",
+    "observedAt": "2026-10-27T08:16:30Z",
+    "number": 35
+  },
+  {
+    "url": "https://research.google/ai-quests/intl/en_us",
+    "title": "Official game entry; web reader returns shell only",
+    "publisher": "Google",
+    "observedAt": "2026-10-27T08:16:30Z",
+    "number": 36
+  },
+  {
+    "url": "https://9to5google.com/2026/10/26/google-fitbit-edge-review/",
+    "title": "Fitbit Edge Review: Too much and too little at the same time",
+    "publisher": "Ben Schoon /9to5Google",
+    "publishedAt": "2026-10-26T10:00:00-07:00",
+    "observedAt": "2026-10-27T08:24:43Z",
+    "number": 37
+  },
+  {
+    "url": "https://blog.google/products-and-platforms/devices/fitbit/google-fitbit-edge/",
+    "title": "Google Fitbit Edge announcement",
+    "publisher": "Google",
+    "publishedAt": "2026-10-12",
+    "observedAt": "2026-10-27T08:24:43Z",
+    "number": 38
+  },
+  {
+    "url": "https://blog.google/products-and-platforms/products/google-health/fitbit-google-health-updates/",
+    "title": "Google Health and Fitbit updates",
+    "publisher": "Google",
+    "publishedAt": "2026-10-12",
+    "observedAt": "2026-10-27T08:24:43Z",
+    "number": 39
+  },
+  {
+    "url": "https://9to5google.com/2026/10/23/google-health-5-11-release-notes/",
+    "title": "Google Health5.11 rollout",
+    "publisher": "9to5Google",
+    "publishedAt": "2026-10-23T14:00:00-07:00",
+    "observedAt": "2026-10-27T08:24:43Z",
+    "number": 40
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.33142",
+    "title": "GlanceAR submission history",
+    "publisher": "Authors / arXiv",
+    "publishedAt": "2026-10-23T16:28:43Z",
+    "observedAt": "2026-10-27T08:19:10Z",
+    "number": 41
+  },
+  {
+    "url": "https://arxiv.org/html/2610.33142v1",
+    "title": "GlanceAR full paper",
+    "publisher": "Paper authors",
+    "publishedAt": "2026-10-23T16:28:43Z",
+    "observedAt": "2026-10-27T08:19:10Z",
+    "number": 42
+  },
+  {
+    "url": "https://github.com/BoumedineBillal/esp32-pie-asr/releases/tag/v1.0",
+    "title": "esp32-pie-asr v1.0 first public release",
+    "publisher": "Boumedine Billal / GitHub",
+    "publishedAt": "2026-10-25",
+    "observedAt": "2026-10-27T08:22:54Z",
+    "number": 43
+  },
+  {
+    "url": "https://boumedinebillal.github.io/esp32-pie-asr/",
+    "title": "Browser installer and troubleshooting",
+    "publisher": "Boumedine Billal",
+    "observedAt": "2026-10-27T08:22:54Z",
+    "number": 44
+  },
+  {
+    "url": "https://github.com/BoumedineBillal/esp32-pie-asr/blob/main/docs/design.md",
+    "title": "Engine design",
+    "publisher": "Boumedine Billal",
+    "observedAt": "2026-10-27T08:22:54Z",
+    "number": 45
+  },
+  {
+    "url": "https://github.com/BoumedineBillal/esp32-pie-asr",
+    "title": "Repository README and license",
+    "publisher": "Boumedine Billal",
+    "observedAt": "2026-10-27T08:22:54Z",
+    "number": 46
+  },
+  {
+    "url": "https://huggingface.co/BoumedineBillal/esp32-pie-asr-kroko-en",
+    "title": "Quantized Kroko model card",
+    "publisher": "Boumedine Billal",
+    "publishedAt": "2026-10-09",
+    "observedAt": "2026-10-27T08:22:54Z",
+    "number": 47
+  },
+  {
+    "url": "https://blog.christianperone.com/2026/10/pandora-m1-a-training-monitor-box-64-nodes-x-8-gpus-support/",
+    "title": "Pandora M1, a training monitor box",
+    "publisher": "Christian S. Perone",
+    "publishedAt": "2026-10-26T19:58:58Z",
+    "observedAt": "2026-10-27T08:22:54Z",
+    "number": 48
+  },
+  {
+    "url": "https://www.agibot.com/article/231/detail/130.html",
+    "title": "Genie Studio2.0 English issuer release",
+    "publisher": "AGIBOT",
+    "publishedAt": "2026-10-26",
+    "observedAt": "2026-10-27T08:16:56Z",
+    "number": 49
+  },
+  {
+    "url": "https://genie.agibot.com/geniestudio",
+    "title": "Genie Studio product page",
+    "publisher": "AGIBOT",
+    "observedAt": "2026-10-27T08:16:56Z",
+    "number": 50
+  },
+  {
+    "url": "https://finance.sina.com.cn/roll/2026-10-23/doc-iniweywn8186894.shtml",
+    "title": "Genie Studio2.0 Chinese contemporaneous release report",
+    "publisher": "Shanghai Securities News / Sina",
+    "publishedAt": "2026-10-23",
+    "observedAt": "2026-10-27T08:16:56Z",
+    "number": 51
+  },
+  {
+    "url": "https://manyagents.app/",
+    "title": "ManyAgents features, FAQ and current license",
+    "publisher": "ManyAgents",
+    "observedAt": "2026-10-27T08:16:30Z",
+    "number": 52
+  },
+  {
+    "url": "https://www.producthunt.com/products/manyagents",
+    "title": "Maker explanation and visible first-page comments",
+    "publisher": "Product Hunt",
+    "publishedAt": "2026-10-26",
+    "observedAt": "2026-10-27T08:16:30Z",
+    "number": 53
+  },
+  {
+    "url": "https://tabsh.cc/",
+    "title": "tabsh current interface and explicit shared-checkout tradeoff",
+    "publisher": "tabsh",
+    "observedAt": "2026-10-27T08:16:30Z",
+    "number": 54
+  },
+  {
+    "url": "https://github.com/Blaise1030/tabsh",
+    "title": "README: hooks, loopback token pairing and MIT license",
+    "publisher": "Blaise1030 / GitHub",
+    "observedAt": "2026-10-27T08:16:30Z",
+    "number": 55
+  },
+  {
+    "url": "https://github.com/Blaise1030/tabsh/releases/tag/v1.0.0",
+    "title": "v1.0.0 stable release; displayed25Oct07:12 without timezone",
+    "publisher": "Blaise1030 / GitHub",
+    "publishedAt": "2026-10-25",
+    "observedAt": "2026-10-27T08:16:30Z",
+    "number": 56
+  },
+  {
+    "url": "https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available/",
+    "title": "GA and three client entry points",
+    "publisher": "GitHub",
+    "publishedAt": "2026-10-26",
+    "observedAt": "2026-10-27T08:16:30Z",
+    "number": 57
+  },
+  {
+    "url": "https://docs.github.com/en/copilot/concepts/customizations/allowing-safe-commands",
+    "title": "Request evaluation, interactive and unattended behavior",
+    "publisher": "GitHub Docs",
+    "observedAt": "2026-10-27T08:16:30Z",
+    "number": 58
+  },
+  {
+    "url": "https://docs.github.com/en/enterprise-cloud@latest/copilot/reference/enterprise-administrators/enterprise-managed-settings",
+    "title": "Enterprise permissions controls and default mode",
+    "publisher": "GitHub Docs",
+    "observedAt": "2026-10-27T08:16:30Z",
+    "number": 59
+  },
+  {
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.311",
+    "title": "v2.1.311 release",
+    "publisher": "Anthropic",
+    "publishedAt": "2026-10-26T21:51:23Z",
+    "observedAt": "2026-10-27T08:21:17Z",
+    "number": 60
+  },
+  {
+    "url": "https://code.claude.com/docs/en/context-window",
+    "title": "Context window",
+    "publisher": "Anthropic",
+    "observedAt": "2026-10-27T08:21:17Z",
+    "number": 61
+  },
+  {
+    "url": "https://code.claude.com/docs/en/interactive-mode",
+    "title": "Interactive mode",
+    "publisher": "Anthropic",
+    "observedAt": "2026-10-27T08:21:17Z",
+    "number": 62
+  },
+  {
+    "url": "https://code.claude.com/docs/en/sessions",
+    "title": "Sessions",
+    "publisher": "Anthropic",
+    "observedAt": "2026-10-27T08:21:17Z",
+    "number": 63
+  },
+  {
+    "url": "https://github.com/cline/cline/releases/tag/v4.1.26",
+    "title": "v4.1.26 release",
+    "publisher": "Cline",
+    "publishedAt": "2026-10-26T09:06:50Z",
+    "observedAt": "2026-10-27T08:21:17Z",
+    "number": 64
+  },
+  {
+    "url": "https://docs.cline.bot/usage/cloud-agents",
+    "title": "Cloud agents",
+    "publisher": "Cline",
+    "observedAt": "2026-10-27T08:21:17Z",
+    "number": 65
+  },
+  {
+    "url": "https://docs.cline.bot/usage/ide",
+    "title": "IDE tutorial",
+    "publisher": "Cline",
+    "observedAt": "2026-10-27T08:21:17Z",
+    "number": 66
+  },
+  {
+    "url": "https://docs.cline.bot/getting-started/authorizing-with-cline",
+    "title": "Model setup",
+    "publisher": "Cline",
+    "observedAt": "2026-10-27T08:21:17Z",
+    "number": 67
+  },
+  {
+    "url": "https://github.com/QingYunA/answer-me-with-html",
+    "title": "Answer me with HTML README",
+    "publisher": "QingYunA / GitHub",
+    "observedAt": "2026-10-27T08:14:22.830942+00:00",
+    "number": 68
+  },
+  {
+    "url": "https://github.com/QingYunA/answer-me-with-html/releases/tag/v0.5.10",
+    "title": "v0.5.10 release",
+    "publisher": "QingYunA / GitHub",
+    "publishedAt": "2026-10-26T08:49:52Z",
+    "observedAt": "2026-10-27T08:14:22.830942+00:00",
+    "number": 69
+  },
+  {
+    "url": "https://github.com/QingYunA/answer-me-with-html/releases/tag/v0.5.9",
+    "title": "v0.5.9 release",
+    "publisher": "QingYunA / GitHub",
+    "publishedAt": "2026-10-26T08:10:35Z",
+    "observedAt": "2026-10-27T08:14:22.830942+00:00",
+    "number": 70
+  },
+  {
+    "url": "https://github.com/QingYunA/answer-me-with-html/issues/335",
+    "title": "Issue 335: silent component failure",
+    "publisher": "QingYunA / GitHub",
+    "publishedAt": "2026-10-26",
+    "observedAt": "2026-10-27T08:14:22.830942+00:00",
+    "number": 71
+  },
+  {
+    "url": "https://github.com/QingYunA/answer-me-with-html/issues/340",
+    "title": "Issue 340: accept equivalent syntax",
+    "publisher": "QingYunA / GitHub",
+    "publishedAt": "2026-10-26",
+    "observedAt": "2026-10-27T08:14:22.830942+00:00",
+    "number": 72
+  },
+  {
+    "url": "https://github.com/QingYunA/answer-me-with-html/pull/341",
+    "title": "Merged PR 341",
+    "publisher": "QingYunA / GitHub",
+    "publishedAt": "2026-10-26",
+    "observedAt": "2026-10-27T08:14:22.830942+00:00",
+    "number": 73
+  },
+  {
+    "url": "https://github.com/QingYunA/answer-me-with-html/blob/main/docs/reference.md",
+    "title": "Renderer reference",
+    "publisher": "QingYunA / GitHub",
+    "observedAt": "2026-10-27T08:14:22.830942+00:00",
+    "number": 74
+  },
+  {
+    "url": "https://news.ycombinator.com/item?id=50253981",
+    "title": "Show HN maker introduction",
+    "publisher": "Hacker News / sorlia7z",
+    "observedAt": "2026-10-27T08:14:22.830942+00:00",
+    "number": 75
+  },
+  {
+    "url": "https://github.com/vercel/ai/releases/tag/ai%407.0.154",
+    "title": "Vercel AI SDK 7.0.154 release",
+    "publisher": "Vercel AI SDK 7.0.154 maintainers",
+    "publishedAt": "2026-10-26T18:57:14Z",
+    "observedAt": "2026-10-27T08:20:48.645855+00:00",
+    "number": 76
+  },
+  {
+    "url": "https://github.com/vercel/ai/commit/1cf95c61f7b31b858fa05ffafd3c46ae01effce8",
+    "title": "Vercel AI SDK 7.0.154 implementation and behavior",
+    "publisher": "Vercel AI SDK 7.0.154 maintainers",
+    "observedAt": "2026-10-27T08:20:48.645855+00:00",
+    "number": 77
+  },
+  {
+    "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.62.0",
+    "title": "Pydantic AI v2.62.0 release",
+    "publisher": "Pydantic",
+    "publishedAt": "2026-10-27T02:38:43Z",
+    "observedAt": "2026-10-27T08:24:43.151276+00:00",
+    "number": 78
+  },
+  {
+    "url": "https://github.com/pydantic/pydantic-ai/pull/10893",
+    "title": "SubAgents task control",
+    "publisher": "Pydantic",
+    "publishedAt": "2026-10-26T21:07:56Z",
+    "observedAt": "2026-10-27T08:24:43.151276+00:00",
+    "number": 79
+  },
+  {
+    "url": "https://github.com/pydantic/pydantic-ai/pull/11111",
+    "title": "Mid-conversation model settings",
+    "publisher": "Pydantic",
+    "publishedAt": "2026-10-26T16:58:41Z",
+    "observedAt": "2026-10-27T08:24:43.151276+00:00",
+    "number": 80
+  },
+  {
+    "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.18",
+    "title": "LangGraph 1.2.18 release",
+    "publisher": "LangGraph 1.2.18 maintainers",
+    "publishedAt": "2026-10-26T20:04:45Z",
+    "observedAt": "2026-10-27T08:20:48.645855+00:00",
+    "number": 81
+  },
+  {
+    "url": "https://github.com/langchain-ai/langgraph/pull/9409",
+    "title": "LangGraph 1.2.18 implementation and behavior",
+    "publisher": "LangGraph 1.2.18 maintainers",
+    "observedAt": "2026-10-27T08:20:48.645855+00:00",
+    "number": 82
+  },
+  {
+    "url": "https://github.com/langchain-ai/langgraph/pull/9408",
+    "title": "LangGraph 1.2.18 implementation and behavior",
+    "publisher": "LangGraph 1.2.18 maintainers",
+    "observedAt": "2026-10-27T08:20:48.645855+00:00",
+    "number": 83
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.33876",
+    "title": "FlashScript submission history",
+    "publisher": "Authors / arXiv",
+    "publishedAt": "2026-10-24T19:32:30Z",
+    "observedAt": "2026-10-27T08:19:10Z",
+    "number": 84
+  },
+  {
+    "url": "https://arxiv.org/html/2610.33876v1",
+    "title": "FlashScript full paper",
+    "publisher": "Paper authors",
+    "publishedAt": "2026-10-24T19:32:30Z",
+    "observedAt": "2026-10-27T08:19:10Z",
+    "number": 85
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.34770",
+    "title": "Creact submission history",
+    "publisher": "Authors / arXiv",
+    "publishedAt": "2026-10-26T03:15:20Z",
+    "observedAt": "2026-10-27T08:19:10Z",
+    "number": 86
+  },
+  {
+    "url": "https://arxiv.org/html/2610.34770v1",
+    "title": "Creact full paper",
+    "publisher": "Paper authors",
+    "publishedAt": "2026-10-26T03:15:20Z",
+    "observedAt": "2026-10-27T08:19:10Z",
+    "number": 87
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.35562",
+    "title": "Beyond Being Accurate submission history",
+    "publisher": "Authors / arXiv",
+    "publishedAt": "2026-10-26T15:03:25Z",
+    "observedAt": "2026-10-27T08:19:10Z",
+    "number": 88
+  },
+  {
+    "url": "https://arxiv.org/html/2610.35562v1",
+    "title": "Beyond Being Accurate full paper",
+    "publisher": "Paper authors",
+    "publishedAt": "2026-10-26T15:03:25Z",
+    "observedAt": "2026-10-27T08:19:10Z",
+    "number": 89
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.35757",
+    "title": "EEGaze submission history",
+    "publisher": "Authors / arXiv",
+    "publishedAt": "2026-10-26T17:04:04Z",
+    "observedAt": "2026-10-27T08:23:28Z",
+    "number": 90
+  },
+  {
+    "url": "https://arxiv.org/html/2610.35757v1",
+    "title": "EEGaze full paper",
+    "publisher": "Paper authors",
+    "publishedAt": "2026-10-26T17:04:04Z",
+    "observedAt": "2026-10-27T08:23:28Z",
+    "number": 91
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.33966",
+    "title": "InteractiveWorld submission history",
+    "publisher": "Authors / arXiv",
+    "publishedAt": "2026-10-25T00:44:29Z",
+    "observedAt": "2026-10-27T08:23:28Z",
+    "number": 92
+  },
+  {
+    "url": "https://arxiv.org/html/2610.33966v1",
+    "title": "InteractiveWorld full paper",
+    "publisher": "Paper authors",
+    "publishedAt": "2026-10-25T00:44:29Z",
+    "observedAt": "2026-10-27T08:23:28Z",
+    "number": 93
+  },
+  {
+    "url": "https://github.com/facebookresearch/InteractiveWorld",
+    "title": "InteractiveWorld official repository",
+    "publisher": "Meta research authors",
+    "observedAt": "2026-10-27T08:23:28Z",
+    "number": 94
+  },
+  {
+    "url": "https://github.com/facebookresearch/InteractiveWorld/blob/main/LICENSE",
+    "title": "InteractiveWorld license",
+    "publisher": "Meta research authors",
+    "observedAt": "2026-10-27T08:23:28Z",
+    "number": 95
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.34748",
+    "title": "MANDATE / Babysitting AI Agents submission history",
+    "publisher": "Authors / arXiv",
+    "publishedAt": "2026-10-26T02:49:17Z",
+    "observedAt": "2026-10-27T08:19:10Z",
+    "number": 96
+  },
+  {
+    "url": "https://arxiv.org/html/2610.34748v1",
+    "title": "MANDATE / Babysitting AI Agents full paper",
+    "publisher": "Paper authors",
+    "publishedAt": "2026-10-26T02:49:17Z",
+    "observedAt": "2026-10-27T08:19:10Z",
+    "number": 97
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.33997",
+    "title": "Chart ambiguity profiles submission history",
+    "publisher": "Authors / arXiv",
+    "publishedAt": "2026-10-25T02:16:54Z",
+    "observedAt": "2026-10-27T08:19:10Z",
+    "number": 98
+  },
+  {
+    "url": "https://arxiv.org/html/2610.33997v1",
+    "title": "Chart ambiguity profiles full paper",
+    "publisher": "Paper authors",
+    "publishedAt": "2026-10-25T02:16:54Z",
+    "observedAt": "2026-10-27T08:19:10Z",
+    "number": 99
+  }
+]
