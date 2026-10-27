@@ -1,1 +1,65 @@
-[]
+[
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "2g-neural-sampler-0.jpg",
+    "url": "https://ph-files.imgix.net/2fb3aad4-4114-42fa-9f3a-b2b6c0efe432.jpeg?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=220&w=391",
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "creact-creator-dm-0.jpg",
+    "url": "https://arxiv.org/html/2610.34770v1/fig1.png",
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "glancear-reflector-0.jpg",
+    "url": "https://arxiv.org/html/2610.33142v1/figures/fig1.png",
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "loqui-tone-spaces-0.jpg",
+    "url": "https://ph-files.imgix.net/7afc0fcc-3c3d-445a-b0ac-4d840d331c6c.png?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=220&w=368",
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "geniestudio-monitor.jpg",
+    "url": "https://www.agibot.com/file/ueditor/php/upload/image/20261026/1793011769268117.png",
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "controller-homekit.jpg",
+    "url": "https://controllerforhomekit.com/images/features/dashboards/full-dashboard.webp",
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "zhizi-agent.jpg",
+    "url": "https://hp-static.infinigence-ai.com/uploads/upload/images/20261026/9fa42ea2d34e46fc721b9302e4e71f1f.jpg",
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "strawberry-plaza.jpg",
+    "url": "https://strawberrybrowser.com/_app/immutable/assets/companion-plaza.DL_VdGwW.png",
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "beam-room.jpg",
+    "url": "https://www.gstatic.com/marketing-cms/assets/images/a5/4a/342b699d4fa4be41a65524dd1dd9/homepage-feel-like-you-are-there-1x.webp%3Ds528-fcrop64%3D1%2C00000000ffffffff-rw",
+    "locale": "zh"
+  }
+]
