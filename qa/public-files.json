@@ -4171,158 +4171,158 @@
   },
   {
     "path": "2026-10-27/en/details/2g-neural-sampler.html",
-    "bytes": 6122,
-    "sha256": "140f071927d7b6f850bcb6ae0133ee9aa886ee2bf5d76f3845e6618613d89d5d"
+    "bytes": 6642,
+    "sha256": "2969daed8ca3a2fb74e1aa4ac6c7ef5b385c8b36236727d0fede0810d6ea8285"
   },
   {
     "path": "2026-10-27/en/details/accessible-3d-descriptions.html",
-    "bytes": 5732,
-    "sha256": "a44767b40be3305518eb5a822e21ed71c56014b21acfbf7d0f650df2cd2c5e26"
+    "bytes": 5984,
+    "sha256": "2d9b8c89168503220c9f9b8f5adbb7bc2ba7294bb11e9762edb728ac5fd3cbcd"
   },
   {
     "path": "2026-10-27/en/details/answer-html-colon-components.html",
-    "bytes": 5979,
-    "sha256": "440a25ac90c75db32656fb7910f1708942b5d7aead3acee5bb5fa3baddf80d7c"
+    "bytes": 6679,
+    "sha256": "d1f8ca4e54895cb7cc7c83b96cab774e7b587202baaba7cc6ecedbeb75a1cf5d"
   },
   {
     "path": "2026-10-27/en/details/chart-ambiguity-profiles.html",
-    "bytes": 5688,
-    "sha256": "1ce8218b6bf0ef7eb3a43d09d7127f3ce02727b81951dfe11a8ded6082553129"
+    "bytes": 5940,
+    "sha256": "7fd596a822279bd8326fed33d71ade05fa0c9bb4e9dcff55ce9658d0dc5d4311"
   },
   {
     "path": "2026-10-27/en/details/claude-code-21311-continuity.html",
-    "bytes": 6086,
-    "sha256": "f49414c6445396674b804c0114a30ba67c2a5d9faf30ae39a93c93a1e1cc2ce7"
+    "bytes": 6710,
+    "sha256": "1652ec859d3a9435692b4da10b471c33533a98106090fb7b8fe20457123b5ecc"
   },
   {
     "path": "2026-10-27/en/details/cline-4126-cloud-context.html",
-    "bytes": 5974,
-    "sha256": "87b58393a0cfe61e9f9e0e11638a9ff22ca45aaf4da801b3090ef287068f2520"
+    "bytes": 6577,
+    "sha256": "b4a2d966683a1a9b3d0d98004eb34f774fc395a1a0d1ef4e1ea2907fdc278633"
   },
   {
     "path": "2026-10-27/en/details/controller10-family-dashboard.html",
-    "bytes": 6055,
-    "sha256": "c164316a9633767988b4e0a876c1562e7c112468cf4017809c0b836a3a0b001d"
+    "bytes": 6639,
+    "sha256": "df2b78bef75606119279b396d52c8b790522a72339a5b3f8cb4094463c297c13"
   },
   {
     "path": "2026-10-27/en/details/copilot-assisted-permissions.html",
-    "bytes": 5640,
-    "sha256": "721fbd23a178f2b0b3c4422cd694b613ff4c6bf9aa2724eb3a68ec223c048b53"
+    "bytes": 6517,
+    "sha256": "3a5dbeacb8f5f9bbda94c8a14e44d5884502f10b0de6791e58de30cc63cd243c"
   },
   {
     "path": "2026-10-27/en/details/creact-creator-dm.html",
-    "bytes": 5732,
-    "sha256": "6a75ad2373f738d84e75629d564bdaafd1277b8e442a61882bcdc45283aa9ec5"
+    "bytes": 5984,
+    "sha256": "fa498ecff1435b17c63401a38258dd50168c17a77b21f9a4596422a6cd2cb7a6"
   },
   {
     "path": "2026-10-27/en/details/eegaze-attention-refinement.html",
-    "bytes": 5438,
-    "sha256": "08722a2134ef562f7b983f1ab88a3052db346cac3d7f4366aa4cec5d50318a10"
+    "bytes": 5690,
+    "sha256": "41255dc2c89b49203aae5919b4c289554ba989b17edbcefbb49f3fb4d4314a4f"
   },
   {
     "path": "2026-10-27/en/details/esp32-pie-asr-v1.html",
-    "bytes": 5893,
-    "sha256": "27de51d9ac47d83b6a5f07254f9bc5fb9df41dcfdc196d04017b154032368a7a"
+    "bytes": 6676,
+    "sha256": "04df540996729516e040f50741f34c9ab110aea209f0b87a710e6c1cc1241f0e"
   },
   {
     "path": "2026-10-27/en/details/fitbit-edge-oct26-review.html",
-    "bytes": 5810,
-    "sha256": "da21b69d3d72df74d1a769ce0bb2b8cd4e8d271e3734dd8b482c5e3cd2490a8d"
+    "bytes": 6625,
+    "sha256": "b6e77ee44dfae85f8b534ff1e1c52602ad140ec0f2ab1c62f9141696758ae5bb"
   },
   {
     "path": "2026-10-27/en/details/flashscript-recurring-workflows.html",
-    "bytes": 5571,
-    "sha256": "b157bbd8eba2698d15d32185ecfcbbd14eaf997e7f5fc86433e04f1fe611d2eb"
+    "bytes": 5823,
+    "sha256": "0df15f4207332b33ae6fef618ee099613ebe4063915454cdfe3ddc9bd2a98451"
   },
   {
     "path": "2026-10-27/en/details/genie-studio2-operations.html",
-    "bytes": 5814,
-    "sha256": "3392af52a53bed43ab1731426f40dabf8387b3cc8a6bc1057b4988dde9227b65"
+    "bytes": 6287,
+    "sha256": "fec896095f799eee1cc733c7c833bbede296d557e4ffdf7b3113ee9f751b26b0"
   },
   {
     "path": "2026-10-27/en/details/glancear-reflector.html",
-    "bytes": 5466,
-    "sha256": "9c1d5544dc3b092540a24abb6afd474a079d6bba4e205b238bb1f40fda4e9739"
+    "bytes": 5718,
+    "sha256": "98f0d6a7c992f2c0f819443685c6947c3b2aacd59b49fd2a38081f5a5e011689"
   },
   {
     "path": "2026-10-27/en/details/google-polar-peaks.html",
-    "bytes": 5415,
-    "sha256": "bda821587bc17da98b39b82d18846332e5a04df6da9ab87b30bb65b8880b1d1a"
+    "bytes": 6259,
+    "sha256": "4c86117e3f8a0297f490d7fb46911de462c16c3238723e55f51d3e430542b912"
   },
   {
     "path": "2026-10-27/en/details/interactiveworld-human-assistance.html",
-    "bytes": 5898,
-    "sha256": "4107cea4e6a8510ebd4b5bd43c0fde9b9d9f9f752ea42303f2afdd232a083740"
+    "bytes": 6408,
+    "sha256": "46c4a3d732023f708543e006145ba8c72438a36d8adfccea62704bab5e4f036c"
   },
   {
     "path": "2026-10-27/en/details/jobmate-reviewed-applications.html",
-    "bytes": 5808,
-    "sha256": "205988b2abcb25ccf37dcbfe8f1d8c21a73545e015b3ccdac598093f31216062"
+    "bytes": 6157,
+    "sha256": "c26a46c7ace86830319a6e9304091cb781e3e026ca4c8f526c16816328472a48"
   },
   {
     "path": "2026-10-27/en/details/langgraph-1218-recovery.html",
-    "bytes": 5465,
-    "sha256": "7d4c94205111855601ab5f1ab1e3420ca5c8815ce865d24b7bd2d875864e96cc"
+    "bytes": 5870,
+    "sha256": "34c1af2f5e64de26ef5731b9604526d2d7d41b0e31d786bf4810c90937329438"
   },
   {
     "path": "2026-10-27/en/details/loqui-tone-spaces.html",
-    "bytes": 6045,
-    "sha256": "632cd53046271e75198287da6cfd8c18871d1a7a90dc1fdc2b5b1e43b3d56b5c"
+    "bytes": 6625,
+    "sha256": "deef11f1a48b611e7dfe5c51cf8aa3c9c3cd928af1a2337e3b96aa4543e9807b"
   },
   {
     "path": "2026-10-27/en/details/mandate-delegation-failures.html",
-    "bytes": 5740,
-    "sha256": "063a8ce50a540a78ef93c1ff6c4c8e018e2d90703313962388c3731d309ea4e5"
+    "bytes": 5992,
+    "sha256": "60c4d949ffb2a1ff83df000dc481a01767c9d25690b41142845ddfa8334f7429"
   },
   {
     "path": "2026-10-27/en/details/manyagents-project-review.html",
-    "bytes": 5476,
-    "sha256": "f4c8a69ce75f57fad9d79a694ff7193aca0f813107c6146447d01e0c63fca201"
+    "bytes": 5854,
+    "sha256": "b9fcda3b82efcd572b77b5ad03d22074b02185486f942200e2980db91d3f77ee"
   },
   {
     "path": "2026-10-27/en/details/pandora-m1-panel.html",
-    "bytes": 5572,
-    "sha256": "6678d0662bac33677086f731675db22bc9708dd20573e7de357bc4bacb0b5685"
+    "bytes": 6088,
+    "sha256": "4d671e09c6d92e0fef7b865fb9ae0224690bc1358ca9bae89f27133d62d3502b"
   },
   {
     "path": "2026-10-27/en/details/pydantic-ai-262-task-control.html",
-    "bytes": 6161,
-    "sha256": "d3057153a3aa8718f48832692355ac8db6772b2a0acc452e60cba0095607e62c"
+    "bytes": 6825,
+    "sha256": "5eefc7d827e9299dc3d4c5bc903a6d2b4d19417c99a2c2aa8384f704d0391ae2"
   },
   {
     "path": "2026-10-27/en/details/remiqora-video-scene-repair.html",
-    "bytes": 5757,
-    "sha256": "c6713fc324d7e4bab4615365f65cf735990034a06e338a6f14a7170deecc28a2"
+    "bytes": 6489,
+    "sha256": "0fe137d25fccbc475ce638f125919abb4acf1e309154abd757c6131bdca11039"
   },
   {
     "path": "2026-10-27/en/details/siri-27-2-context.html",
-    "bytes": 5714,
-    "sha256": "88cf51866a4699df43e3ddab71f4648cd8a4dc0b9bb0a12ed31293b51e02954d"
+    "bytes": 6286,
+    "sha256": "8d497bddf3f8c38f7bf53bf555575d6492b15ff63273fc6d38ef9d05c4f49f74"
   },
   {
     "path": "2026-10-27/en/details/strawberry-1-plaza.html",
-    "bytes": 5395,
-    "sha256": "acbacd517006d94577d0eefeb26af34bc72dfe0218f92ac7bda7bbf55818fc96"
+    "bytes": 5817,
+    "sha256": "bb913663347d6471de03777a3e63a561c337c11ebf5651f8b604365f6fafbe3d"
   },
   {
     "path": "2026-10-27/en/details/surgepix-layer-editing.html",
-    "bytes": 6100,
-    "sha256": "16d818d0985b12de5458de404b85fe7bd195e1aa126ebdd4ea46f6ed1f84f1b0"
+    "bytes": 6692,
+    "sha256": "60fe97b3a7b2901789b216848d6d7faab76b3a14c74fe8ce96106a15aedf0fd8"
   },
   {
     "path": "2026-10-27/en/details/tabsh-1-browser-shell.html",
-    "bytes": 5465,
-    "sha256": "2c34a661e6c869131cb945ce66548e1aeebbe3dc9370da5f0cf51b95cf87f81e"
+    "bytes": 5955,
+    "sha256": "a62cf870acd9a22028cd92b1a5ecd0436fc017a577d2f0e26cb7ceb665de3a86"
   },
   {
     "path": "2026-10-27/en/details/vercel-ai-steering.html",
-    "bytes": 5454,
-    "sha256": "8cf4d1b73a3ff9cbb8ed23e4989bc93997b819af287e75f869ffecec0b7e8484"
+    "bytes": 6034,
+    "sha256": "9cc42ecf2ba74ff562478c9fddd3b81b3fa85bd0f859cee633242a0287cc6223"
   },
   {
     "path": "2026-10-27/en/index.html",
-    "bytes": 92223,
-    "sha256": "fde396f08c04f38a11f38b21cf8b6b8911df08e8d4737e8bcc96d9ebc00cec29"
+    "bytes": 97582,
+    "sha256": "69fc22d32b52e9e58f266baa7795bb45a6040a1a631a388769f397a827953db7"
   },
   {
     "path": "2026-10-27/manifest.json",
@@ -4346,158 +4346,158 @@
   },
   {
     "path": "2026-10-27/zh/details/2g-neural-sampler.html",
-    "bytes": 5397,
-    "sha256": "7adb637e926984fed960850146e4406c69a523a08d04afd9da921923cced92a7"
+    "bytes": 5917,
+    "sha256": "96ae22c7493ee7f7d5d4be37e220a9170a98133e38286362624bba198e114b59"
   },
   {
     "path": "2026-10-27/zh/details/accessible-3d-descriptions.html",
-    "bytes": 4999,
-    "sha256": "9f83206e0f9292d5d8c011e16e29136d1588648a84842a6493ae430bab381222"
+    "bytes": 5251,
+    "sha256": "5ef1379a88dd6117fd383ce59e1e5cfa9c910fbdae209940fe791ebf4454091d"
   },
   {
     "path": "2026-10-27/zh/details/answer-html-colon-components.html",
-    "bytes": 5351,
-    "sha256": "a3b0decb0c512c0a033538a0f865d58728f0d48558505e7b4a5f64a3b16dbdb1"
+    "bytes": 6051,
+    "sha256": "57022a5d28e7ff2c5af4ee0ec0ae6ad7b7601b9af48971bde394be44e0afb211"
   },
   {
     "path": "2026-10-27/zh/details/chart-ambiguity-profiles.html",
-    "bytes": 4957,
-    "sha256": "dc84f7880d69d6286df1e724b819efc1dff94fee1b307c157bb792841cc2f894"
+    "bytes": 5209,
+    "sha256": "d8a7361561809bab0a1b2bdf3876b25bdf5b7da0083fc8d984592759c19ba051"
   },
   {
     "path": "2026-10-27/zh/details/claude-code-21311-continuity.html",
-    "bytes": 5444,
-    "sha256": "2287e20adc3302d80bba8a35fa818dc5873ba018848109be255213d21d95cee2"
+    "bytes": 6068,
+    "sha256": "feecedb80c815c74e995d6111ef28f3c0d633c9f52f593c4ce4a60ae146a4415"
   },
   {
     "path": "2026-10-27/zh/details/cline-4126-cloud-context.html",
-    "bytes": 5427,
-    "sha256": "16d293e4f16be023a2125a13b7cef9a2acca58d682955da2be91c8965db1e3c5"
+    "bytes": 6030,
+    "sha256": "4a8ea053c0b7887219f81f17a0c3704be285392214535bf52622402b2e13e6f2"
   },
   {
     "path": "2026-10-27/zh/details/controller10-family-dashboard.html",
-    "bytes": 5376,
-    "sha256": "79092f82d8c68e17a3dd3a0d9479f3e49395eadcce22789cb60644bfee8e302a"
+    "bytes": 5960,
+    "sha256": "0972766f7ae82dfc7c3596167938dd572fcc7700b406df0cb7aec5c06ef1a299"
   },
   {
     "path": "2026-10-27/zh/details/copilot-assisted-permissions.html",
-    "bytes": 5313,
-    "sha256": "0e0b04b7d58525a54c7efbb214d1775744db70531a6037f10df926bc858b0708"
+    "bytes": 6190,
+    "sha256": "da6d193077e1601bde62e59850c2717558edfc06a89e88a6ea0c62ccd5a0d690"
   },
   {
     "path": "2026-10-27/zh/details/creact-creator-dm.html",
-    "bytes": 4914,
-    "sha256": "0d23b497051224731fd2cdaab566c23e29e81f21232807653b374ba0f3d6933d"
+    "bytes": 5166,
+    "sha256": "ee479c3faf8c241a50112664d98c4bb1f17096ae3c43008aa69204795b9a3a07"
   },
   {
     "path": "2026-10-27/zh/details/eegaze-attention-refinement.html",
-    "bytes": 4932,
-    "sha256": "8d108f9646ead14ddf2d7931e02f0efe4acb45379d2985aa72228ac5dea07758"
+    "bytes": 5184,
+    "sha256": "df6923964330d48abbd02326ed5fbbb8d1cd0e4c548acc4a72dfea3f4c956234"
   },
   {
     "path": "2026-10-27/zh/details/esp32-pie-asr-v1.html",
-    "bytes": 5367,
-    "sha256": "097aebe1c31c3297ea7e3c0a9f6e91deee03ec775f9af0b4ba1fd168663a9e36"
+    "bytes": 6150,
+    "sha256": "087d28ca9cc1912b7e9414062919a31d202bf6fc8d6aa11c4a05f3537f17e7f7"
   },
   {
     "path": "2026-10-27/zh/details/fitbit-edge-oct26-review.html",
-    "bytes": 5345,
-    "sha256": "393499b17c0c5e73af04e1644ef3d495172565f6b9f87cb9f0d9259714d0f5cd"
+    "bytes": 6160,
+    "sha256": "d2bda2db142a95881655a6cf8b2db6e27c1460232465885cc0af5860b8e0e1cc"
   },
   {
     "path": "2026-10-27/zh/details/flashscript-recurring-workflows.html",
-    "bytes": 5023,
-    "sha256": "432e543bca8799a3db3410830760f6c5d30afd05ed62aa11ffb375950bca00b2"
+    "bytes": 5275,
+    "sha256": "2072ed5bb30d0338ce8302b2d712ca44636ec33de0e63d9faac52382b7cec462"
   },
   {
     "path": "2026-10-27/zh/details/genie-studio2-operations.html",
-    "bytes": 5153,
-    "sha256": "0f627137c497677d3bf4dfa99fc264e53e85ab68103f4738eeb96b70221778a8"
+    "bytes": 5626,
+    "sha256": "6351a11d5a91314aa8ec1a45eeba964ac951060873adc92a04ab44be1b947056"
   },
   {
     "path": "2026-10-27/zh/details/glancear-reflector.html",
-    "bytes": 4576,
-    "sha256": "9e8b34460d2e1a8f1e7e220bbc45b71b47399b618c011144e533a59be911e01d"
+    "bytes": 4828,
+    "sha256": "e9d4a90990175af37a402602c3a41cee83a8173a748d0036419c0df4513c4f94"
   },
   {
     "path": "2026-10-27/zh/details/google-polar-peaks.html",
-    "bytes": 5094,
-    "sha256": "d9d073a342ddb95e99fdbdb082bdff84baa7a9906978754dcc1289e5d0ef95fa"
+    "bytes": 5938,
+    "sha256": "8556d40c3f917f0f298447d2ab57379a0c75b2d11a88613dd3bb6ea91cfedfe1"
   },
   {
     "path": "2026-10-27/zh/details/interactiveworld-human-assistance.html",
-    "bytes": 5185,
-    "sha256": "28471fc69fdfd0222ba4a397eed0632f5ecaff015d483320db3030ccc6763bd6"
+    "bytes": 5695,
+    "sha256": "e8b06725e6db0870d49fb4fa349d5dd9feceb8c754c9e87e023dd9fc4a74d809"
   },
   {
     "path": "2026-10-27/zh/details/jobmate-reviewed-applications.html",
-    "bytes": 5340,
-    "sha256": "b646ed935662034f1cfadd0405dfb5690e14f8b8300601799f889e7d18cf7bc2"
+    "bytes": 5689,
+    "sha256": "c27f82f9caa80fd7cd2902edf43baa5f70fe3b9bc02f322d47ae1157391c0535"
   },
   {
     "path": "2026-10-27/zh/details/langgraph-1218-recovery.html",
-    "bytes": 5101,
-    "sha256": "34a0a60e60a99ca9878f79169d74554964504bbdd7281967689d03996b82b9e9"
+    "bytes": 5506,
+    "sha256": "07147e8df142cb11903c6d849e0c4bd3fe0bf01250a1c8fd20447b99867fcd63"
   },
   {
     "path": "2026-10-27/zh/details/loqui-tone-spaces.html",
-    "bytes": 5414,
-    "sha256": "4cc1f202ee7b4cc185e3cc29b8c8dbd013c8fa87ea0e12a78f98af3ae9e24ac0"
+    "bytes": 5994,
+    "sha256": "f4ca18522be2ae56e4301f72a7c8f538eb0f6bb062241adec35b2b7ee806a576"
   },
   {
     "path": "2026-10-27/zh/details/mandate-delegation-failures.html",
-    "bytes": 4969,
-    "sha256": "6b11186973ca82b886efd73e558294b0600e54a601ccde1df11c55889d1e2a49"
+    "bytes": 5221,
+    "sha256": "34af7e25622320635c582ba0e516de91bc9465ffee1abd90eab29d88de5b09a6"
   },
   {
     "path": "2026-10-27/zh/details/manyagents-project-review.html",
-    "bytes": 5015,
-    "sha256": "81275e8b8b524d1ed0064d3f30c29ed4f7446b3d9b5b452206ff1ca9023992a9"
+    "bytes": 5393,
+    "sha256": "cb3af60ed8f71facf0c5161597eda43bdbca4b7125d457223738865ca12d41f5"
   },
   {
     "path": "2026-10-27/zh/details/pandora-m1-panel.html",
-    "bytes": 5096,
-    "sha256": "ad4b622f2792dd8432a3df38258d4923edf55a8ba484ded5718ffbd671ac73e0"
+    "bytes": 5612,
+    "sha256": "154302ac8b29e8e4a94bb33540daa2fe39ace633bcf244f6b2e206ecd6f78fc9"
   },
   {
     "path": "2026-10-27/zh/details/pydantic-ai-262-task-control.html",
-    "bytes": 5801,
-    "sha256": "420180c3cb55c6990fd3692361569d0741a6261ffdfb779dc74f41653ad68b6b"
+    "bytes": 6465,
+    "sha256": "8bf4416b072f3cc0994ed5550b471e2da12ec2789267fe9cc1c2efec3f607018"
   },
   {
     "path": "2026-10-27/zh/details/remiqora-video-scene-repair.html",
-    "bytes": 5342,
-    "sha256": "8c9b60080765f90443d9981be14859335f9dc83ca28f59548d44ac7f69e3a519"
+    "bytes": 6074,
+    "sha256": "97dfb9b7d5f0fee43f1a23020ebcb763b08d0de85637b012161d598bacf010a5"
   },
   {
     "path": "2026-10-27/zh/details/siri-27-2-context.html",
-    "bytes": 5129,
-    "sha256": "8f4b65151c1be6de9e5b90b2e58e6c35a7747c8b69c92a983cb3897577e9919f"
+    "bytes": 5701,
+    "sha256": "3cba800e5d452f972c93013fd3a4216cd767b8eefa2b373362e7f4af44a0733a"
   },
   {
     "path": "2026-10-27/zh/details/strawberry-1-plaza.html",
-    "bytes": 5063,
-    "sha256": "4f161dbbb369033d2983920e20f135f673e42507f6654ec69bcd35993935346d"
+    "bytes": 5485,
+    "sha256": "30867dee5154c6c8ddea61bc4e9d7526bafd0b4a00fe2184344228860118fffd"
   },
   {
     "path": "2026-10-27/zh/details/surgepix-layer-editing.html",
-    "bytes": 5512,
-    "sha256": "57ef65a582697072b30cae6b515e6bdb67604da8bc3c2b0f3337f1aad561df49"
+    "bytes": 6104,
+    "sha256": "d2123b0f3c4e4d830ca8a75a2cd484c5f2bcebad167ec9d8832db2a22f72ebcc"
   },
   {
     "path": "2026-10-27/zh/details/tabsh-1-browser-shell.html",
-    "bytes": 5129,
-    "sha256": "6ca3afb2898e9a633149c9ed9aebcadc9ffd429c301780634bf076d2ec89c259"
+    "bytes": 5619,
+    "sha256": "e17576c3cbfaeca86169c4bcb64a1f6a1921f97ad9671f5df5c422ce45af0396"
   },
   {
     "path": "2026-10-27/zh/details/vercel-ai-steering.html",
-    "bytes": 5032,
-    "sha256": "2985d460e16fb8bb1647f2603a558a07cad2156c87128f86b37d16018ed11665"
+    "bytes": 5612,
+    "sha256": "2aba0755c012e2beb2619ba785ae97c05744ab8a3c393fa367228f664754d4de"
   },
   {
     "path": "2026-10-27/zh/index.html",
-    "bytes": 88147,
-    "sha256": "e3e243eabc83a0851287ac0224fe563831657c75f02866701b70fcf48bbc6396"
+    "bytes": 93506,
+    "sha256": "bea961a6283902bb65cc94fd3d5dbdbf299614569deca18212aba36346df64be"
   },
   {
     "path": "assets/acti-agentic-keyboard-2026-07-03.svg",
