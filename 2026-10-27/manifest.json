@@ -1,0 +1,705 @@
+{
+  "date": "2026-10-27",
+  "timezone": "America/Toronto",
+  "cutoff": "2026-10-27T08:00:36Z",
+  "windowStart": "2026-10-26T08:00:36Z",
+  "metrics": {
+    "body": {
+      "zhDenseChars": 22130,
+      "enWords": 13123
+    },
+    "perProduct": {
+      "remiqora-video-scene-repair": {
+        "zh": 725,
+        "en": 433
+      },
+      "loqui-tone-spaces": {
+        "zh": 813,
+        "en": 474
+      },
+      "2g-neural-sampler": {
+        "zh": 796,
+        "en": 488
+      },
+      "surgepix-layer-editing": {
+        "zh": 792,
+        "en": 451
+      },
+      "jobmate-reviewed-applications": {
+        "zh": 790,
+        "en": 454
+      },
+      "controller10-family-dashboard": {
+        "zh": 706,
+        "en": 451
+      },
+      "siri-27-2-context": {
+        "zh": 700,
+        "en": 432
+      },
+      "strawberry-1-plaza": {
+        "zh": 749,
+        "en": 421
+      },
+      "google-polar-peaks": {
+        "zh": 733,
+        "en": 420
+      },
+      "fitbit-edge-oct26-review": {
+        "zh": 775,
+        "en": 423
+      },
+      "glancear-reflector": {
+        "zh": 636,
+        "en": 427
+      },
+      "esp32-pie-asr-v1": {
+        "zh": 742,
+        "en": 432
+      },
+      "pandora-m1-panel": {
+        "zh": 747,
+        "en": 429
+      },
+      "genie-studio2-operations": {
+        "zh": 716,
+        "en": 436
+      },
+      "manyagents-project-review": {
+        "zh": 707,
+        "en": 421
+      },
+      "tabsh-1-browser-shell": {
+        "zh": 732,
+        "en": 420
+      },
+      "copilot-assisted-permissions": {
+        "zh": 747,
+        "en": 434
+      },
+      "claude-code-21311-continuity": {
+        "zh": 752,
+        "en": 452
+      },
+      "cline-4126-cloud-context": {
+        "zh": 728,
+        "en": 454
+      },
+      "answer-html-colon-components": {
+        "zh": 699,
+        "en": 442
+      },
+      "vercel-ai-steering": {
+        "zh": 727,
+        "en": 431
+      },
+      "pydantic-ai-262-task-control": {
+        "zh": 874,
+        "en": 485
+      },
+      "langgraph-1218-recovery": {
+        "zh": 752,
+        "en": 434
+      },
+      "flashscript-recurring-workflows": {
+        "zh": 707,
+        "en": 428
+      },
+      "creact-creator-dm": {
+        "zh": 703,
+        "en": 423
+      },
+      "accessible-3d-descriptions": {
+        "zh": 721,
+        "en": 426
+      },
+      "eegaze-attention-refinement": {
+        "zh": 731,
+        "en": 428
+      },
+      "interactiveworld-human-assistance": {
+        "zh": 708,
+        "en": 428
+      },
+      "mandate-delegation-failures": {
+        "zh": 716,
+        "en": 425
+      },
+      "chart-ambiguity-profiles": {
+        "zh": 706,
+        "en": 421
+      }
+    },
+    "primarySummaries": {
+      "remiqora-video-scene-repair": {
+        "zh": 205,
+        "en": 114
+      },
+      "loqui-tone-spaces": {
+        "zh": 200,
+        "en": 113
+      },
+      "2g-neural-sampler": {
+        "zh": 212,
+        "en": 122
+      },
+      "surgepix-layer-editing": {
+        "zh": 227,
+        "en": 125
+      },
+      "jobmate-reviewed-applications": {
+        "zh": 216,
+        "en": 118
+      },
+      "controller10-family-dashboard": {
+        "zh": 211,
+        "en": 122
+      },
+      "siri-27-2-context": {
+        "zh": 210,
+        "en": 116
+      },
+      "strawberry-1-plaza": {
+        "zh": 210,
+        "en": 119
+      },
+      "google-polar-peaks": {
+        "zh": 207,
+        "en": 116
+      },
+      "fitbit-edge-oct26-review": {
+        "zh": 211,
+        "en": 113
+      },
+      "glancear-reflector": {
+        "zh": 201,
+        "en": 121
+      },
+      "esp32-pie-asr-v1": {
+        "zh": 211,
+        "en": 136
+      },
+      "pandora-m1-panel": {
+        "zh": 229,
+        "en": 122
+      },
+      "genie-studio2-operations": {
+        "zh": 209,
+        "en": 131
+      },
+      "manyagents-project-review": {
+        "zh": 200,
+        "en": 119
+      },
+      "tabsh-1-browser-shell": {
+        "zh": 200,
+        "en": 114
+      },
+      "copilot-assisted-permissions": {
+        "zh": 208,
+        "en": 118
+      },
+      "claude-code-21311-continuity": {
+        "zh": 201,
+        "en": 111
+      },
+      "cline-4126-cloud-context": {
+        "zh": 202,
+        "en": 117
+      },
+      "answer-html-colon-components": {
+        "zh": 200,
+        "en": 117
+      },
+      "vercel-ai-steering": {
+        "zh": 214,
+        "en": 131
+      },
+      "pydantic-ai-262-task-control": {
+        "zh": 209,
+        "en": 117
+      },
+      "langgraph-1218-recovery": {
+        "zh": 201,
+        "en": 121
+      },
+      "flashscript-recurring-workflows": {
+        "zh": 223,
+        "en": 114
+      },
+      "creact-creator-dm": {
+        "zh": 212,
+        "en": 120
+      },
+      "accessible-3d-descriptions": {
+        "zh": 222,
+        "en": 120
+      },
+      "eegaze-attention-refinement": {
+        "zh": 207,
+        "en": 112
+      },
+      "interactiveworld-human-assistance": {
+        "zh": 207,
+        "en": 111
+      },
+      "mandate-delegation-failures": {
+        "zh": 214,
+        "en": 117
+      },
+      "chart-ambiguity-profiles": {
+        "zh": 220,
+        "en": 122
+      }
+    },
+    "counting": "Only unique full-analysis product paragraphs count toward body gates; summaries, captions, coverage and sources excluded.",
+    "products": 30,
+    "references": 99,
+    "coreVisuals": 30,
+    "slidesPerLocale": 33,
+    "primaryProjectPages": 30,
+    "attachedProjectDetails": 30,
+    "primaryBody": {
+      "zhDenseChars": 6299,
+      "enWords": 3569
+    },
+    "completeReadingBody": {
+      "zhDenseChars": 28429,
+      "enWords": 16692
+    }
+  },
+  "revision": {
+    "label": "morning-edition",
+    "originalCutoffRetained": true,
+    "newIssue": true,
+    "baselineCommit": "35d7b4101c870679a901f600fd6a545873e99a13"
+  },
+  "topics": [
+    {
+      "id": "remiqora-video-scene-repair",
+      "zhHeadline": "Remiqora把短视频接成场景链，修一镜时保留其他素材",
+      "enHeadline": "Remiqora links generated scenes and keeps usable footage when a shot changes",
+      "eventAt": "2026-10-26T18:33:28Z",
+      "freshness": "main",
+      "evidence": "Author release, public documentation and maker Reddit post; no independent use verification",
+      "eventDateNote": "second; GitHub release HTML relative-time datetime",
+      "event_key": "github:inikolax/remiqora-video:v0.1.0",
+      "product_key": "github:inikolax/remiqora-video",
+      "publishedAt": "2026-10-26T18:33:28Z",
+      "observedAt": "2026-10-27T08:16:40.099861+00:00",
+      "delta_since_last_seen": "Editable, pinnable scenes and caching preserve unchanged footage. The montage supports transitions and sound, then exports a Resolve timeline."
+    },
+    {
+      "id": "loqui-tone-spaces",
+      "zhHeadline": "Loqui把口述放到光标处，会议决定还能并排核对",
+      "enHeadline": "Loqui puts dictation at the cursor and decisions beside their context",
+      "eventAt": "2026-10-26",
+      "freshness": "near-three-day",
+      "evidence": "Maker product description and public discussion; no independent test",
+      "eventDateNote": "day; PH appearance only; exact clock/timezone and first availability unverified; lower main-window boundary unresolved",
+      "event_key": "loquime.com:ph-appearance:2026-10-26",
+      "product_key": "loquime.com",
+      "publishedAt": "2026-10-26",
+      "observedAt": "2026-10-27T08:12:30Z",
+      "delta_since_last_seen": "The maker describes project Spaces that compare new meeting decisions with active earlier ones and leave conflicts for human resolution."
+    },
+    {
+      "id": "2g-neural-sampler",
+      "zhHeadline": "2G先生成一小段声音，再让你把它当乐器弹",
+      "enHeadline": "2G turns a described sound into something to play",
+      "eventAt": "2026-10-26",
+      "freshness": "near-three-day",
+      "evidence": "Maker product description and public discussion; no independent test",
+      "eventDateNote": "day; PH appearance only; exact clock/timezone and first availability unverified; lower main-window boundary unresolved",
+      "event_key": "scrapbrainaudio.com/2G:ph-appearance:2026-10-26",
+      "product_key": "scrapbrainaudio.com/2G",
+      "publishedAt": "2026-10-26",
+      "observedAt": "2026-10-27T08:12:30Z",
+      "delta_since_last_seen": "The team describes deliberately limited polyphony and a rough speaker character, making restraint part of the instrument rather than a fidelity claim."
+    },
+    {
+      "id": "surgepix-layer-editing",
+      "zhHeadline": "SurgePix让生成图继续改字和局部，不必每次重做整张",
+      "enHeadline": "SurgePix keeps text and regions editable after generation",
+      "eventAt": "2026-10-26",
+      "freshness": "near-three-day",
+      "evidence": "Maker product description and public discussion; no independent test",
+      "eventDateNote": "day; PH appearance only; exact clock/timezone and first availability unverified; lower main-window boundary unresolved",
+      "event_key": "surgepix.ai:ph-appearance:2026-10-26",
+      "product_key": "surgepix.ai",
+      "publishedAt": "2026-10-26",
+      "observedAt": "2026-10-27T08:12:30Z",
+      "delta_since_last_seen": "The maker describes reusable brand assets and agent access. Image generation and reliable editability are separate capabilities, however."
+    },
+    {
+      "id": "jobmate-reviewed-applications",
+      "zhHeadline": "Jobmate把简历填进申请表，默认留在提交按钮前",
+      "enHeadline": "Jobmate fills applications and pauses before submission",
+      "eventAt": "2026-10-26",
+      "freshness": "near-three-day",
+      "evidence": "Maker product description and public discussion; no independent test",
+      "eventDateNote": "day; PH appearance only; exact clock/timezone and first availability unverified; lower main-window boundary unresolved",
+      "event_key": "usejobmate.com:ph-appearance:2026-10-26",
+      "product_key": "usejobmate.com",
+      "publishedAt": "2026-10-26",
+      "observedAt": "2026-10-27T08:25:00Z",
+      "delta_since_last_seen": "The browser agent attaches a resume and drafts answers. It pauses before submission by default, with automatic sending available as a separate setting."
+    },
+    {
+      "id": "controller10-family-dashboard",
+      "zhHeadline": "Controller把AI排好的家居面板交给家人，设备权限仍归Apple家庭",
+      "enHeadline": "Controller shares an AI-arranged home dashboard while Apple Home retains device access",
+      "eventAt": "2026-10-26",
+      "freshness": "near-three-day",
+      "evidence": "Vendor documentation and separately identified reporting; not editorial hands-on verification",
+      "eventDateNote": "Review datedOctober26; homepage displayed18:17 China-local editorial time, timezone not embedded. Product10 first-release time unverified; item is review observation, not first launch.",
+      "event_key": "controller-homekit:10:sspai-review:2026-10-26",
+      "product_key": "appstore:1198176727",
+      "publishedAt": "2026-10-26",
+      "observedAt": "2026-10-27T08:16:56Z",
+      "delta_since_last_seen": "SSPAI’s October 26 review shows AI layout edits, image floor plans and simplified family access. Existing AI automations are separate from this dashboard update."
+    },
+    {
+      "id": "siri-27-2-context",
+      "zhHeadline": "Siri 27.2能接着找上次的回答，也让用户排除不想被读取的应用",
+      "enHeadline": "Siri 27.2 recalls earlier answers and adds a shared control for excluded apps",
+      "eventAt": "2026-10-26",
+      "freshness": "near-three-day",
+      "evidence": "confirmed product / developer surface; vendor documentation, not independent performance testing",
+      "eventDateNote": "day; exact event clock/timezone unverified, primary-window lower-bound uncertainty retained",
+      "event_key": "apple:siri-ai:27.2:context-language-controls",
+      "product_key": "apple:siri-ai",
+      "publishedAt": "2026-10-26",
+      "observedAt": "2026-10-27T08:16:30Z",
+      "delta_since_last_seen": "Excluded Apps puts access choices for Siri, Search and suggestions in one setting. Suggestions in Messages can connect conversation context to Calendar or Reminders, with arrangements still needing review."
+    },
+    {
+      "id": "strawberry-1-plaza",
+      "zhHeadline": "Strawberry给助手一个可认的角色，日常入口也能带点玩心",
+      "enHeadline": "Strawberry gives each assistant a face and a place between tasks",
+      "eventAt": "2026-10-26",
+      "freshness": "near-three-day",
+      "evidence": "confirmed product / developer surface; vendor documentation, not independent performance testing",
+      "eventDateNote": "day; exact event clock/timezone unverified, primary-window lower-bound uncertainty retained",
+      "event_key": "strawberry:1.0:companion-plaza",
+      "product_key": "strawberrybrowser.com",
+      "publishedAt": "2026-10-26",
+      "observedAt": "2026-10-27T08:16:30Z",
+      "delta_since_last_seen": "The new delta is appearance and the plaza. Conditional routines, history filters and WhatsApp connections belong to the October 21 update; the browser already had a public beta."
+    },
+    {
+      "id": "google-polar-peaks",
+      "zhHeadline": "Polar Peaks让学生清理数据、检查模型，亲手完成一段脑图任务",
+      "enHeadline": "Polar Peaks asks students to clean data and check a model while mapping neurons",
+      "eventAt": "2026-10-26",
+      "freshness": "near-three-day",
+      "evidence": "confirmed product / developer surface; vendor documentation, not independent performance testing",
+      "eventDateNote": "day; exact event clock/timezone unverified, primary-window lower-bound uncertainty retained",
+      "event_key": "google:ai-quests:polar-peaks:2026-10-26",
+      "product_key": "google:ai-quests",
+      "publishedAt": "2026-10-26",
+      "observedAt": "2026-10-27T08:16:30Z",
+      "delta_since_last_seen": "It places AI literacy inside choices with feedback. The existing series is a code-free learning game; this is a new lesson."
+    },
+    {
+      "id": "fitbit-edge-oct26-review",
+      "zhHeadline": "Fitbit Edge让运动从手腕开始，通知和表带却暴露日用摩擦",
+      "enHeadline": "Fitbit Edge makes workouts easier to start, while everyday friction remains",
+      "eventAt": "2026-10-26T17:00:00Z",
+      "freshness": "main",
+      "evidence": "Independent reviewer observations plus vendor mechanism documentation; no editor hands-on",
+      "eventDateNote": "Review26October2026 10:00amPT =17:00Z; exactreviewpublication, nothardwarelaunch.",
+      "event_key": "google:fitbit-edge:9to5google-review:2026-10-26",
+      "product_key": "google:fitbit-edge",
+      "publishedAt": "2026-10-26T17:00:00Z",
+      "observedAt": "2026-10-27T08:24:43Z",
+      "delta_since_last_seen": "The new evidence is an October 26 two-week review, distinct from the October 12 announcement. The reviewer valued quick workout starts but encountered unreliable notifications."
+    },
+    {
+      "id": "glancear-reflector",
+      "zhHeadline": "GlanceAR用一面镜子让低头握持的手机看见前方",
+      "enHeadline": "GlanceAR points a tilted phone’s sensors toward the path ahead",
+      "eventAt": "2026-10-23T16:28:43Z",
+      "freshness": "seven-day",
+      "evidence": "research signal; author-reported methods and results, no independent reproduction",
+      "eventDateNote": "Exact arXiv v1 submission clock; public announcement clock unconfirmed. Listed in October27 cs.HC recent batch; submission is not announcement.",
+      "event_key": "arxiv:2610.33142:v1",
+      "product_key": "arxiv:2610.33142",
+      "publishedAt": "2026-10-23T16:28:43Z",
+      "observedAt": "2026-10-27T08:19:10Z",
+      "delta_since_last_seen": "It adds no electronic sensor, but requires a LiDAR-equipped iPhone and correct alignment. The reported attachment material cost is not a device price."
+    },
+    {
+      "id": "esp32-pie-asr-v1",
+      "zhHeadline": "ESP32-P4把说话变成屏幕字幕，声控演示不用云端模型",
+      "enHeadline": "ESP32-P4 turns speech into local captions and rule-based controls",
+      "eventAt": "2026-10-25",
+      "freshness": "near-three-day",
+      "evidence": "developer surface / author demonstration; not independently reproduced",
+      "eventDateNote": "Day precision; exact posting timezone unknown. Conservatively supplemental at main-window boundary.",
+      "event_key": "github:BoumedineBillal/esp32-pie-asr:v1.0",
+      "product_key": "github:BoumedineBillal/esp32-pie-asr",
+      "publishedAt": "2026-10-25",
+      "observedAt": "2026-10-27T08:22:54Z",
+      "delta_since_last_seen": "The October 25 v1.0 release runs compressed Kroko on two RISC-V cores. Six voice-control demos use word rules to operate simulated devices."
+    },
+    {
+      "id": "pandora-m1-panel",
+      "zhHeadline": "Pandora M1让GPU状态留在桌面，转动旋钮查看节点",
+      "enHeadline": "Pandora M1 puts GPU status on a physical desktop panel",
+      "eventAt": "2026-10-26T19:58:58Z",
+      "freshness": "main",
+      "evidence": "developer surface / author demonstration; not independently reproduced",
+      "eventDateNote": "Exact source datePublished offset: 2026-10-26T16:58:58-03:00 = 2026-10-26T19:58:58Z; main-window publication event, not prototype construction time.",
+      "event_key": "christianperone:pandora-m1:prototype-showcase:2026-10-26",
+      "product_key": "christianperone:pandora-m1",
+      "publishedAt": "2026-10-26T19:58:58Z",
+      "observedAt": "2026-10-27T08:22:54Z",
+      "delta_since_last_seen": "The October 26 post shows an initial physical prototype, separating node selection from metric selection."
+    },
+    {
+      "id": "genie-studio2-operations",
+      "zhHeadline": "Genie Studio把机器人技能、工序和故障接到同一作业台",
+      "enHeadline": "Genie Studio connects robot skills, job steps and faults in one operating workspace",
+      "eventAt": "2026-10-23",
+      "freshness": "seven-day",
+      "evidence": "Vendor documentation and separately identified reporting; not editorial hands-on verification",
+      "eventDateNote": "Release October23 confirmed by contemporary Chinese report; English issuer release October26 is later publication, not new launch. Clock not established.",
+      "event_key": "agibot:genie-studio:2.0:2026-10-23",
+      "product_key": "agibot:genie-studio",
+      "publishedAt": "2026-10-26",
+      "observedAt": "2026-10-27T08:16:56Z",
+      "delta_since_last_seen": "Flywheel returns anomalies to training, Agent reuses workflow templates, and Monitor supports remote intervention, reducing fragmented log inspection and repeated integration."
+    },
+    {
+      "id": "manyagents-project-review",
+      "zhHeadline": "ManyAgents把分工、复核和待答问题放进一个Mac窗口",
+      "enHeadline": "ManyAgents keeps delegation, review and unanswered questions in one Mac window",
+      "eventAt": "2026-10-26",
+      "freshness": "near-three-day",
+      "evidence": "confirmed product / developer surface; vendor documentation, not independent performance testing",
+      "eventDateNote": "day; exact event clock/timezone unverified, primary-window lower-bound uncertainty retained",
+      "event_key": "manyagents:ph-discovery:2026-10-26",
+      "product_key": "manyagents.app",
+      "publishedAt": "2026-10-26",
+      "observedAt": "2026-10-27T08:16:30Z",
+      "delta_since_last_seen": "Questions from projects collect in one place with agent recommendations, reducing the need to search terminals for stalled work. Cards retain project, worktree and activity state, with a direct route back to each agent."
+    },
+    {
+      "id": "tabsh-1-browser-shell",
+      "zhHeadline": "tabsh让终端成为一个浏览器标签，也把等人回答的任务排到一起",
+      "enHeadline": "tabsh puts terminals in a browser tab and groups the work waiting for you",
+      "eventAt": "2026-10-25",
+      "freshness": "near-three-day",
+      "evidence": "confirmed product / developer surface; vendor documentation, not independent performance testing",
+      "eventDateNote": "day; exact event clock/timezone unverified, primary-window lower-bound uncertainty retained",
+      "event_key": "github:Blaise1030/tabsh:v1.0.0",
+      "product_key": "github:Blaise1030/tabsh",
+      "publishedAt": "2026-10-25",
+      "observedAt": "2026-10-27T08:16:30Z",
+      "delta_since_last_seen": "Agent hooks update working, permission and completion states; one list groups projects by status. Cards also move manually; the underlying session still establishes what changed and whether it merged."
+    },
+    {
+      "id": "copilot-assisted-permissions",
+      "zhHeadline": "Copilot用模型筛选权限请求，需要人判断的动作仍停下来",
+      "enHeadline": "Copilot uses a model to screen permission requests before asking you",
+      "eventAt": "2026-10-26",
+      "freshness": "near-three-day",
+      "evidence": "confirmed product / developer surface; vendor documentation, not independent performance testing",
+      "eventDateNote": "day; exact event clock/timezone unverified, primary-window lower-bound uncertainty retained",
+      "event_key": "copilot:assisted-permissions:ga:2026-10-26",
+      "product_key": "github:copilot:assisted-permissions",
+      "publishedAt": "2026-10-26",
+      "observedAt": "2026-10-27T08:16:30Z",
+      "delta_since_last_seen": "Select assisted through /permissions in the CLI. Administrators separately control bypass and assisted modes and can choose a default."
+    },
+    {
+      "id": "claude-code-21311-continuity",
+      "zhHeadline": "Claude Code修补长会话中断，压缩后仍要读对项目规则",
+      "enHeadline": "Claude Code repairs long-session interruptions and stale project instructions",
+      "eventAt": "2026-10-26T21:51:23Z",
+      "freshness": "main",
+      "evidence": "Official release and documentation; not an independent runtime test",
+      "eventDateNote": "GitHub release published_at, exact UTC",
+      "event_key": "github:anthropics/claude-code:2026-10-26T21:51:23Z",
+      "product_key": "github:anthropics/claude-code",
+      "publishedAt": "2026-10-26T21:51:23Z",
+      "observedAt": "2026-10-27T08:21:17Z",
+      "delta_since_last_seen": "This release repairs a standard-context overflow error and stale MEMORY.md or CLAUDE.md after compaction, protecting recently edited instructions. It also makes tools from late-connecting MCP servers available to subagents that have already started."
+    },
+    {
+      "id": "cline-4126-cloud-context",
+      "zhHeadline": "Cline把云端模型选择单独保存，也避免新消息答到旧任务",
+      "enHeadline": "Cline separates cloud model settings and keeps replies with the right task",
+      "eventAt": "2026-10-26T09:06:50Z",
+      "freshness": "main",
+      "evidence": "Official release and documentation; not an independent runtime test",
+      "eventDateNote": "GitHub release published_at, exact UTC",
+      "event_key": "github:cline/cline:2026-10-26T09:06:50Z",
+      "product_key": "github:cline/cline",
+      "publishedAt": "2026-10-26T09:06:50Z",
+      "observedAt": "2026-10-27T08:21:17Z",
+      "delta_since_last_seen": "Local selection is kept apart from cloud settings. After cancellation or a task switch, a new message should not answer an old pending question. Starting a command no longer steals chat focus and sends the text being typed into the terminal."
+    },
+    {
+      "id": "answer-html-colon-components",
+      "zhHeadline": "Answer me with HTML接住熟悉的标记语法，少一次渲染返工",
+      "enHeadline": "Answer me with HTML accepts familiar markup without a repair round",
+      "eventAt": "2026-10-26T08:49:52Z",
+      "freshness": "main",
+      "evidence": "Original release, author issues and merged PR; genuine older output screenshot; not an independent usability test",
+      "eventDateNote": "second; GitHub release relative-time datetime attribute",
+      "event_key": "github:QingYunA/answer-me-with-html:v0.5.10",
+      "product_key": "github:QingYunA/answer-me-with-html",
+      "publishedAt": "2026-10-26T08:49:52Z",
+      "observedAt": "2026-10-27T08:14:22.830942+00:00",
+      "delta_since_last_seen": "Version 0.5.10 accepts familiar triple-colon component blocks, removing the extra rewrite required by the preceding release."
+    },
+    {
+      "id": "vercel-ai-steering",
+      "zhHeadline": "AI SDK让追加指令有送达回执，当前工具仍会先做完",
+      "enHeadline": "AI SDK gives mid-run corrections a delivery result",
+      "eventAt": "2026-10-26T18:57:14Z",
+      "freshness": "main",
+      "evidence": "Maintainer release and implementation documentation; not independently executed",
+      "eventDateNote": "Exact GitHub release publication timestamp",
+      "event_key": "github:vercel/ai:ai@7.0.154",
+      "product_key": "github:vercel/ai",
+      "publishedAt": "2026-10-26T18:57:14Z",
+      "observedAt": "2026-10-27T08:20:48.645855+00:00",
+      "delta_since_last_seen": "The result distinguishes delivery into model input from failure to deliver, with reasons such as a stop condition, pending tools or cancellation. Reusing an ID returns its first result."
+    },
+    {
+      "id": "pydantic-ai-262-task-control",
+      "zhHeadline": "Pydantic AI让后台子任务能收新指令、提问和停止",
+      "enHeadline": "Pydantic AI makes background delegations steerable and answerable",
+      "eventAt": "2026-10-27T02:38:43Z",
+      "freshness": "main",
+      "evidence": "Maintainer release and merged PR implementation descriptions; no independent execution",
+      "eventDateNote": "exact UTC release published_at, verified parent-preserved GitHub release response",
+      "event_key": "github:pydantic/pydantic-ai:v2.62.0",
+      "product_key": "github:pydantic/pydantic-ai",
+      "publishedAt": "2026-10-27T02:38:43Z",
+      "observedAt": "2026-10-27T08:24:43.151276+00:00",
+      "delta_since_last_seen": "Typed task events support application status views and policies, while results return as messages; developers still build the interface."
+    },
+    {
+      "id": "langgraph-1218-recovery",
+      "zhHeadline": "LangGraph补上暂停时的最后状态，恢复不再漏看已做完的一步",
+      "enHeadline": "LangGraph exposes the checkpoint where a run actually stopped",
+      "eventAt": "2026-10-26T20:04:45Z",
+      "freshness": "main",
+      "evidence": "Maintainer release and implementation documentation; not independently executed",
+      "eventDateNote": "Exact GitHub release publication timestamp",
+      "event_key": "github:langchain-ai/langgraph:1.2.18",
+      "product_key": "github:langchain-ai/langgraph",
+      "publishedAt": "2026-10-26T20:04:45Z",
+      "observedAt": "2026-10-27T08:20:48.645855+00:00",
+      "delta_since_last_seen": "Previously, resuming from the last checkpoint received could rerun a node that had already completed. Consumers must handle the additional event. Full snapshots now default to every hundred updates rather than every thousand, with a configurable interval."
+    },
+    {
+      "id": "flashscript-recurring-workflows",
+      "zhHeadline": "FlashScript把已调好的代理流程留成脚本，判断才调用模型",
+      "enHeadline": "FlashScript preserves a working agent procedure as reusable code",
+      "eventAt": "2026-10-24T19:32:30Z",
+      "freshness": "near-three-day",
+      "evidence": "research signal; author-reported methods and results, no independent reproduction",
+      "eventDateNote": "Exact arXiv v1 submission clock; public announcement clock unconfirmed. Listed in October27 cs.HC recent batch; submission is not announcement.",
+      "event_key": "arxiv:2610.33876:v1",
+      "product_key": "arxiv:2610.33876",
+      "publishedAt": "2026-10-24T19:32:30Z",
+      "observedAt": "2026-10-27T08:19:10Z",
+      "delta_since_last_seen": "Guarded caches, explicit rules and grouped questions reduce repeated interpretation of a procedure the user has already refined."
+    },
+    {
+      "id": "creact-creator-dm",
+      "zhHeadline": "Creact按私信类型调回复风格，让创作者自己把握亲近程度",
+      "enHeadline": "Creact gives creators different reply settings for different messages",
+      "eventAt": "2026-10-26T03:15:20Z",
+      "freshness": "near-three-day",
+      "evidence": "research signal; author-reported methods and results, no independent reproduction",
+      "eventDateNote": "Exact arXiv v1 submission clock; public announcement clock unconfirmed. Listed in October27 cs.HC recent batch; submission is not announcement.",
+      "event_key": "arxiv:2610.34770:v1",
+      "product_key": "arxiv:2610.34770",
+      "publishedAt": "2026-10-26T03:15:20Z",
+      "observedAt": "2026-10-27T08:19:10Z",
+      "delta_since_last_seen": "Persona and conversation settings remain editable, and creators review the final message before sending instead of copying context into a separate assistant."
+    },
+    {
+      "id": "accessible-3d-descriptions",
+      "zhHeadline": "听懂模型还不够：无障碍3D编辑需要找得到尚未描述的细节",
+      "enHeadline": "Accessible 3D editing needs details the user does not yet know to ask for",
+      "eventAt": "2026-10-26T15:03:25Z",
+      "freshness": "main",
+      "evidence": "research signal; author-reported methods and results, no independent reproduction",
+      "eventDateNote": "Exact arXiv v1 submission clock; public announcement clock unconfirmed. Listed in October27 cs.HC recent batch; submission is not announcement.",
+      "event_key": "arxiv:2610.35562:v1",
+      "product_key": "arxiv:2610.35562",
+      "publishedAt": "2026-10-26T15:03:25Z",
+      "observedAt": "2026-10-27T08:19:10Z",
+      "delta_since_last_seen": "Recognizing an object is insufficient: editing requires dimensions, relationships and existing details to identify what should change."
+    },
+    {
+      "id": "eegaze-attention-refinement",
+      "zhHeadline": "EEGaze用搜索前的脑电修正注意力预测，尚未替用户缩短寻找时间",
+      "enHeadline": "EEGaze uses earlier EEG to refine where a person may look next",
+      "eventAt": "2026-10-26T17:04:04Z",
+      "freshness": "main",
+      "evidence": "research signal; author-reported methods and results, no independent reproduction",
+      "eventDateNote": "Exact arXiv v1 submission clock; public announcement clock unconfirmed. Listed in October27 cs.HC recent batch; submission is not announcement.",
+      "event_key": "arxiv:2610.35757:v1",
+      "product_key": "arxiv:2610.35757",
+      "publishedAt": "2026-10-26T17:04:04Z",
+      "observedAt": "2026-10-27T08:23:28Z",
+      "delta_since_last_seen": "Twenty-channel EEG and a desktop eye tracker recorded 5,040 searches by thirty-six people; this is laboratory sensing, not a new consumer glasses sensor."
+    },
+    {
+      "id": "interactiveworld-human-assistance",
+      "zhHeadline": "InteractiveWorld让助手的每句指导改变场景，再检查任务是否真的完成",
+      "enHeadline": "InteractiveWorld checks what an assistant’s instructions actually change",
+      "eventAt": "2026-10-25T00:44:29Z",
+      "freshness": "near-three-day",
+      "evidence": "research signal; author-reported methods and results, no independent reproduction",
+      "eventDateNote": "Exact arXiv v1 submission clock; public announcement clock unconfirmed. Listed in October27 cs.HC recent batch; submission is not announcement.",
+      "event_key": "arxiv:2610.33966:v1",
+      "product_key": "arxiv:2610.33966",
+      "publishedAt": "2026-10-25T00:44:29Z",
+      "observedAt": "2026-10-27T08:23:28Z",
+      "delta_since_last_seen": "Its 120 tasks span six categories and check environment state instead of accepting a convincing final summary."
+    },
+    {
+      "id": "mandate-delegation-failures",
+      "zhHeadline": "MANDATE把代理失误对照用户委托：做完了，也可能做过界",
+      "enHeadline": "MANDATE checks agent conduct against the task the user actually delegated",
+      "eventAt": "2026-10-26T02:49:17Z",
+      "freshness": "near-three-day",
+      "evidence": "research signal; author-reported methods and results, no independent reproduction",
+      "eventDateNote": "Exact arXiv v1 submission clock; public announcement clock unconfirmed. Listed in October27 cs.HC recent batch; submission is not announcement.",
+      "event_key": "arxiv:2610.34748:v1",
+      "product_key": "arxiv:2610.34748",
+      "publishedAt": "2026-10-26T02:49:17Z",
+      "observedAt": "2026-10-27T08:19:10Z",
+      "delta_since_last_seen": "Its twenty-three categories distinguish an inability to solve a task from unacceptable conduct while carrying it out; this is not a monitoring product."
+    },
+    {
+      "id": "chart-ambiguity-profiles",
+      "zhHeadline": "图表歧义研究让模型给出不同读法，帮作者找出需要解释的范围",
+      "enHeadline": "Chart ambiguity profiles expose competing readings for an author to inspect",
+      "eventAt": "2026-10-25T02:16:54Z",
+      "freshness": "near-three-day",
+      "evidence": "research signal; author-reported methods and results, no independent reproduction",
+      "eventDateNote": "Exact arXiv v1 submission clock; public announcement clock unconfirmed. Listed in October27 cs.HC recent batch; submission is not announcement.",
+      "event_key": "arxiv:2610.33997:v1",
+      "product_key": "arxiv:2610.33997",
+      "publishedAt": "2026-10-25T02:16:54Z",
+      "observedAt": "2026-10-27T08:19:10Z",
+      "delta_since_last_seen": "The output retains statements behind an ambiguity profile, helping decide whether a reference line or annotation needs clarification. It is not an audience poll."
+    }
+  ],
+  "eventCounts": {
+    "mainWindowEvents": 11,
+    "nearThreeDayReviews": 17,
+    "sevenDayReviews": 2,
+    "interpretation": "Announcements, submissions, updates and regional reports; not first product launches."
+  }
+}
