@@ -2,64 +2,92 @@
   {
     "kind": "image",
     "renderImage": true,
-    "name": "2g-neural-sampler-0.jpg",
-    "url": "https://ph-files.imgix.net/2fb3aad4-4114-42fa-9f3a-b2b6c0efe432.jpeg?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=220&w=391",
+    "name": "chart-ambiguity-profiles-0.jpg",
+    "url": "https://arxiv.org/html/2610.33997v1/case_study_v2.png",
     "locale": "zh"
   },
   {
     "kind": "image",
     "renderImage": true,
-    "name": "creact-creator-dm-0.jpg",
-    "url": "https://arxiv.org/html/2610.34770v1/fig1.png",
+    "name": "copilot-assisted-permissions-0.jpg",
+    "url": "https://github.blog/wp-content/uploads/2026/10/682276582-721daad7-9307-4b74-8c93-0280e399cc0b.jpg?resize=2064%2C1096",
     "locale": "en"
   },
   {
     "kind": "image",
     "renderImage": true,
-    "name": "glancear-reflector-0.jpg",
-    "url": "https://arxiv.org/html/2610.33142v1/figures/fig1.png",
+    "name": "genie-studio2-operations-1.jpg",
+    "url": "https://www.agibot.com/file/ueditor/php/upload/image/20261026/1793011725667511.png",
     "locale": "zh"
   },
   {
     "kind": "image",
     "renderImage": true,
-    "name": "loqui-tone-spaces-0.jpg",
-    "url": "https://ph-files.imgix.net/7afc0fcc-3c3d-445a-b0ac-4d840d331c6c.png?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=220&w=368",
+    "name": "jobmate-reviewed-applications-0.jpg",
+    "url": "https://usejobmate.com/_astro/applications-board.DMdyhOCH_ZTDBSt.webp",
     "locale": "en"
   },
   {
     "kind": "image",
     "renderImage": true,
-    "name": "geniestudio-monitor.jpg",
-    "url": "https://www.agibot.com/file/ueditor/php/upload/image/20261026/1793011769268117.png",
+    "name": "kiwi-proactive-pilot-0.jpg",
+    "url": "https://ph-files.imgix.net/a6d22233-7d06-4898-9ce3-572d710ad54a.jpeg?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=220&w=368",
     "locale": "zh"
   },
   {
     "kind": "image",
     "renderImage": true,
-    "name": "controller-homekit.jpg",
-    "url": "https://controllerforhomekit.com/images/features/dashboards/full-dashboard.webp",
+    "name": "mandate-delegation-failures-0.jpg",
+    "url": "https://arxiv.org/html/2610.34748v1/study_panel_ledger.png",
     "locale": "en"
   },
   {
     "kind": "image",
     "renderImage": true,
-    "name": "zhizi-agent.jpg",
-    "url": "https://hp-static.infinigence-ai.com/uploads/upload/images/20261026/9fa42ea2d34e46fc721b9302e4e71f1f.jpg",
+    "name": "manyagents-project-review-0.jpg",
+    "url": "https://manyagents.app/images/web-preview.webp",
     "locale": "zh"
   },
   {
     "kind": "image",
     "renderImage": true,
-    "name": "strawberry-plaza.jpg",
-    "url": "https://strawberrybrowser.com/_app/immutable/assets/companion-plaza.DL_VdGwW.png",
+    "name": "remiqora-video-scene-repair-0.jpg",
+    "url": "https://remiqora.com/video/screenshots/en/02-storyboard.webp",
     "locale": "en"
   },
   {
     "kind": "image",
     "renderImage": true,
-    "name": "beam-room.jpg",
-    "url": "https://www.gstatic.com/marketing-cms/assets/images/a5/4a/342b699d4fa4be41a65524dd1dd9/homepage-feel-like-you-are-there-1x.webp%3Ds528-fcrop64%3D1%2C00000000ffffffff-rw",
+    "name": "remiqora-video-scene-repair-1.jpg",
+    "url": "https://remiqora.com/video/screenshots/en/05-montage.webp",
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "remiqora-video-scene-repair-2.jpg",
+    "url": "https://raw.githubusercontent.com/inikolax/remiqora-video/master/docs/screenshots/en/05-montage.png",
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "siri-27-2-context-0.jpg",
+    "url": "https://www.apple.com/v/os/g/images/ios/siri/siri_app__bf82k75xd8z6_large.jpg",
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "surgepix-layer-editing-0.jpg",
+    "url": "https://ph-files.imgix.net/5fd31ade-324f-4fa3-a076-afdcc6189743.png?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=220&w=367",
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "tabsh-1-browser-shell-0.jpg",
+    "url": "https://tabsh.cc/shots/list-terminal-light.png",
     "locale": "zh"
   }
 ]
