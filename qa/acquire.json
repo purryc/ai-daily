@@ -1,117 +1,128 @@
 [
   {
-    "kind": "inventory",
-    "name": "rokid-color-preview-inventory.json",
-    "url": "https://www.ithome.com/1/018/477.htm",
-    "locale": "zh"
-  },
-  {
-    "kind": "inventory",
-    "name": "rokid-glasses2-inventory.json",
-    "url": "https://www.ithome.com/1/018/475.htm",
-    "locale": "en"
-  },
-  {
-    "kind": "inventory",
-    "name": "pandora-m1-panel-inventory.json",
-    "url": "https://blog.christianperone.com/2026/10/pandora-m1-a-training-monitor-box-64-nodes-x-8-gpus-support/",
-    "locale": "zh"
-  },
-  {
-    "kind": "inventory",
-    "name": "polar-peaks-inventory.json",
-    "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
-    "locale": "en"
-  },
-  {
     "kind": "image",
     "renderImage": true,
-    "name": "esp32-pie-board.jpg",
-    "url": "https://raw.githubusercontent.com/BoumedineBillal/esp32-pie-asr/main/assets/video-thumbnail.png",
+    "name": "kiwi-gallery-hi-1.jpg",
+    "url": "https://ph-files.imgix.net/0a484c68-1dfa-4513-97ec-d0b2c58be6b6.jpeg?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=1000&w=1400",
     "locale": "zh"
   },
   {
     "kind": "image",
     "renderImage": true,
-    "name": "cline-ide.jpg",
+    "name": "kiwi-gallery-hi-2.jpg",
+    "url": "https://ph-files.imgix.net/a5537466-7044-40da-8cf8-84a015247532.jpeg?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=1000&w=1400",
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "kiwi-gallery-hi-3.jpg",
+    "url": "https://ph-files.imgix.net/71a71f16-2a4a-48ee-9d61-d0315aba36be.jpeg?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=1000&w=1400",
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "kiwi-gallery-hi-4.jpg",
+    "url": "https://ph-files.imgix.net/d452307e-f3f9-4d56-a0ae-ab1e4d9d5c6f.jpeg?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=1000&w=1400",
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "surgepix-gallery-hi-1.jpg",
+    "url": "https://ph-files.imgix.net/24cb16a1-5e3e-43c4-b5e1-91c136ff4182.jpeg?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=1000&w=1400",
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "surgepix-gallery-hi-2.jpg",
+    "url": "https://ph-files.imgix.net/e2fa9ceb-a051-4db3-9a2b-5d342a20edf7.png?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=1000&w=1400",
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "surgepix-gallery-hi-3.jpg",
+    "url": "https://ph-files.imgix.net/7c68f59e-afbc-4492-bb9f-b9a583d5ee45.png?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=1000&w=1400",
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "surgepix-gallery-hi-4.jpg",
+    "url": "https://ph-files.imgix.net/9917e2b5-44b3-405f-a62a-8456c23b9215.png?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=1000&w=1400",
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "surgepix-gallery-hi-5.jpg",
+    "url": "https://ph-files.imgix.net/f14ba731-fdee-4966-8b1d-bbc4c2b8fe6f.png?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=1000&w=1400",
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "surgepix-gallery-hi-6.jpg",
+    "url": "https://ph-files.imgix.net/2939b143-cc52-4e12-9cad-f835a4174ebb.png?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=1000&w=1400",
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "2g-gallery-hi-1.jpg",
+    "url": "https://ph-files.imgix.net/2488bdba-22cc-47a9-9b07-49f05a5d62dd.jpeg?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=1000&w=1400",
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "2g-gallery-hi-2.jpg",
+    "url": "https://ph-files.imgix.net/d7f4aa5a-cc66-40fe-8100-08a99da87254.jpeg?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=1000&w=1400",
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "2g-gallery-hi-3.jpg",
+    "url": "https://ph-files.imgix.net/c2592991-50ce-46ea-aec8-f159c44a7bcb.webp?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=1000&w=1400",
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "loqui-real-hi-2.jpg",
+    "url": "https://ph-files.imgix.net/ae7a33bb-2853-4263-8c17-2c5d614fbe93.png?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=1000&w=1400",
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "loqui-real-hi-4.jpg",
+    "url": "https://ph-files.imgix.net/78b1f5ab-1e54-4724-a192-95ea16d7364b.png?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=1000&w=1400",
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "captureDelayMs": 6500,
+    "name": "cline-ide-later.jpg",
     "url": "https://storage.googleapis.com/cline_public_images/vscode_right_view.gif",
     "locale": "en"
   },
   {
-    "kind": "image",
-    "renderImage": true,
-    "name": "fitbit-edge-vendor.jpg",
-    "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Fitbit_Edge_-_light_shot.width-1200.format-webp.webp",
+    "kind": "inventory",
+    "name": "beam-official-inventory.json",
+    "url": "https://beam.google/",
     "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "fitbit-edge-review.jpg",
-    "url": "https://9to5google.com/wp-content/uploads/sites/4/2026/10/fitbit-edge-2_6abcfa.jpg?quality=82&strip=all",
-    "locale": "en"
   },
   {
     "kind": "page",
-    "name": "flashscript-author-figure.jpg",
-    "url": "https://arxiv.org/html/2610.33876v1",
-    "selector": "figure:has-text(\"Compiling the agent\")",
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "loqui-gallery-1.jpg",
-    "url": "https://ph-files.imgix.net/5d97c2cb-f057-4aee-bb26-32a95b1bde1e.png?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=220&w=368",
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "loqui-gallery-2.jpg",
-    "url": "https://ph-files.imgix.net/ae7a33bb-2853-4263-8c17-2c5d614fbe93.png?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=220&w=368",
+    "name": "polar-peaks-gameplay.jpg",
+    "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+    "selector": "video[aria-label^=\"Sample gameplay\"]",
     "locale": "en"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "loqui-gallery-3.jpg",
-    "url": "https://ph-files.imgix.net/38d70beb-79e0-40ed-8979-653168f94a53.png?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=220&w=368",
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "loqui-gallery-4.jpg",
-    "url": "https://ph-files.imgix.net/78b1f5ab-1e54-4724-a192-95ea16d7364b.png?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=220&w=368",
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "loqui-gallery-5.jpg",
-    "url": "https://ph-files.imgix.net/9f7749d5-bf58-4501-a906-1e176d68bf96.png?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=220&w=368",
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "loqui-gallery-6.jpg",
-    "url": "https://ph-files.imgix.net/b605de32-b601-4745-97e8-e40ca834f310.png?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=220&w=368",
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "eegaze-teaser.jpg",
-    "url": "https://arxiv.org/html/2610.35757v1/pic/teaser_final_cr.jpg",
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "interactiveworld-scenes.jpg",
-    "url": "https://arxiv.org/html/2610.33966v1/main_fig1.png",
-    "locale": "zh"
   }
 ]
