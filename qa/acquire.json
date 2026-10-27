@@ -2,22 +2,15 @@
   {
     "kind": "image",
     "renderImage": true,
-    "name": "beam-device.jpg",
-    "url": "https://www.gstatic.com/marketing-cms/assets/images/a5/4a/342b699d4fa4be41a65524dd1dd9/homepage-feel-like-you-are-there-1x.webp=s528-fcrop64=1,00000000ffffffff-rw",
+    "name": "rokid-color-launch.jpg",
+    "url": "https://img.ithome.com/newsuploadfiles/2026/10/f3adf86c-364e-46ce-b83a-32f4cd88b810.jpg?x-bce-process=image/quality,q_75/format,f_webp",
     "locale": "zh"
   },
   {
     "kind": "image",
     "renderImage": true,
-    "name": "pandora-assembled.jpg",
-    "url": "https://blog.christianperone.com/wp-content/uploads/2026/10/DSC09821-699x466.jpg",
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "pandora-finished.jpg",
-    "url": "https://blog.christianperone.com/wp-content/uploads/2026/10/DSC09843-699x466.jpg",
+    "name": "pandora-panel-front.jpg",
+    "url": "https://blog.christianperone.com/wp-content/uploads/2026/10/DSC09814-699x466.jpg",
     "locale": "en"
   }
 ]
