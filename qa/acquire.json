@@ -2,127 +2,22 @@
   {
     "kind": "image",
     "renderImage": true,
-    "name": "kiwi-gallery-hi-1.jpg",
-    "url": "https://ph-files.imgix.net/0a484c68-1dfa-4513-97ec-d0b2c58be6b6.jpeg?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=1000&w=1400",
+    "name": "beam-device.jpg",
+    "url": "https://www.gstatic.com/marketing-cms/assets/images/a5/4a/342b699d4fa4be41a65524dd1dd9/homepage-feel-like-you-are-there-1x.webp=s528-fcrop64=1,00000000ffffffff-rw",
     "locale": "zh"
   },
   {
     "kind": "image",
     "renderImage": true,
-    "name": "kiwi-gallery-hi-2.jpg",
-    "url": "https://ph-files.imgix.net/a5537466-7044-40da-8cf8-84a015247532.jpeg?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=1000&w=1400",
+    "name": "pandora-assembled.jpg",
+    "url": "https://blog.christianperone.com/wp-content/uploads/2026/10/DSC09821-699x466.jpg",
     "locale": "en"
   },
   {
     "kind": "image",
     "renderImage": true,
-    "name": "kiwi-gallery-hi-3.jpg",
-    "url": "https://ph-files.imgix.net/71a71f16-2a4a-48ee-9d61-d0315aba36be.jpeg?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=1000&w=1400",
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "kiwi-gallery-hi-4.jpg",
-    "url": "https://ph-files.imgix.net/d452307e-f3f9-4d56-a0ae-ab1e4d9d5c6f.jpeg?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=1000&w=1400",
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "surgepix-gallery-hi-1.jpg",
-    "url": "https://ph-files.imgix.net/24cb16a1-5e3e-43c4-b5e1-91c136ff4182.jpeg?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=1000&w=1400",
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "surgepix-gallery-hi-2.jpg",
-    "url": "https://ph-files.imgix.net/e2fa9ceb-a051-4db3-9a2b-5d342a20edf7.png?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=1000&w=1400",
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "surgepix-gallery-hi-3.jpg",
-    "url": "https://ph-files.imgix.net/7c68f59e-afbc-4492-bb9f-b9a583d5ee45.png?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=1000&w=1400",
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "surgepix-gallery-hi-4.jpg",
-    "url": "https://ph-files.imgix.net/9917e2b5-44b3-405f-a62a-8456c23b9215.png?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=1000&w=1400",
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "surgepix-gallery-hi-5.jpg",
-    "url": "https://ph-files.imgix.net/f14ba731-fdee-4966-8b1d-bbc4c2b8fe6f.png?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=1000&w=1400",
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "surgepix-gallery-hi-6.jpg",
-    "url": "https://ph-files.imgix.net/2939b143-cc52-4e12-9cad-f835a4174ebb.png?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=1000&w=1400",
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "2g-gallery-hi-1.jpg",
-    "url": "https://ph-files.imgix.net/2488bdba-22cc-47a9-9b07-49f05a5d62dd.jpeg?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=1000&w=1400",
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "2g-gallery-hi-2.jpg",
-    "url": "https://ph-files.imgix.net/d7f4aa5a-cc66-40fe-8100-08a99da87254.jpeg?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=1000&w=1400",
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "2g-gallery-hi-3.jpg",
-    "url": "https://ph-files.imgix.net/c2592991-50ce-46ea-aec8-f159c44a7bcb.webp?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=1000&w=1400",
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "loqui-real-hi-2.jpg",
-    "url": "https://ph-files.imgix.net/ae7a33bb-2853-4263-8c17-2c5d614fbe93.png?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=1000&w=1400",
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "loqui-real-hi-4.jpg",
-    "url": "https://ph-files.imgix.net/78b1f5ab-1e54-4724-a192-95ea16d7364b.png?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=1000&w=1400",
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "captureDelayMs": 6500,
-    "name": "cline-ide-later.jpg",
-    "url": "https://storage.googleapis.com/cline_public_images/vscode_right_view.gif",
-    "locale": "en"
-  },
-  {
-    "kind": "inventory",
-    "name": "beam-official-inventory.json",
-    "url": "https://beam.google/",
-    "locale": "zh"
-  },
-  {
-    "kind": "page",
-    "name": "polar-peaks-gameplay.jpg",
-    "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
-    "selector": "video[aria-label^=\"Sample gameplay\"]",
+    "name": "pandora-finished.jpg",
+    "url": "https://blog.christianperone.com/wp-content/uploads/2026/10/DSC09843-699x466.jpg",
     "locale": "en"
   }
 ]
