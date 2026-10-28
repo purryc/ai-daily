@@ -4500,6 +4500,466 @@
     "sha256": "bea961a6283902bb65cc94fd3d5dbdbf299614569deca18212aba36346df64be"
   },
   {
+    "path": "2026-10-28/assets/agentfabric.jpg",
+    "bytes": 104497,
+    "sha256": "83cc1f2ac1663bd60cd340c64777e7fa4f784112fc53ce2b6454bfcf53d19780"
+  },
+  {
+    "path": "2026-10-28/assets/apple-creator.jpg",
+    "bytes": 73569,
+    "sha256": "bb054fff50c22abe006561c197bbe9b7ad765386e484b2ce41c2d3b59fed95d4"
+  },
+  {
+    "path": "2026-10-28/assets/apple-m6.jpg",
+    "bytes": 75371,
+    "sha256": "0eeee0b5a3b1e5bc04864ad65e866c4086c7e8557bf57e6ebd2b7a5431922163"
+  },
+  {
+    "path": "2026-10-28/assets/botlens.jpg",
+    "bytes": 204230,
+    "sha256": "d59423612865ae2e49d90da81d1d24487d3cb68e78515afcef00a42d78b2f023"
+  },
+  {
+    "path": "2026-10-28/assets/cogarena-source-flow.png",
+    "bytes": 51315,
+    "sha256": "5f7098ab9066e1c7647fec05aa572cc074498cbd0032c49039ebf0251c42b23c"
+  },
+  {
+    "path": "2026-10-28/assets/copilot-organization-identity-source-flow.png",
+    "bytes": 64930,
+    "sha256": "1c15118d9f484974909c259a313f1c87e09c082db20647ec374ca550e9773235"
+  },
+  {
+    "path": "2026-10-28/assets/deck.js",
+    "bytes": 2576,
+    "sha256": "63d13c06452d7405e0b5ed572d8464d802c9e5b8de656b5a94e3527b1730f7b3"
+  },
+  {
+    "path": "2026-10-28/assets/dreame-l40.jpg",
+    "bytes": 14356,
+    "sha256": "1c4397feee66435459621d586728eb896930999b0d4c77d6b8016af1e6d028a1"
+  },
+  {
+    "path": "2026-10-28/assets/emg-control.jpg",
+    "bytes": 96319,
+    "sha256": "0a3bb71ee65d8f5a5f2bd01849e48a7c474da845de69ca2661404c2df6536b8d"
+  },
+  {
+    "path": "2026-10-28/assets/genie4-world.jpg",
+    "bytes": 68207,
+    "sha256": "ae46877736a5d6d3ff6921f0934dfadcf831ad00c923b2aebf9e7b53425d0777"
+  },
+  {
+    "path": "2026-10-28/assets/gpt-61-terra-visual-computer-use-source-flow.png",
+    "bytes": 61840,
+    "sha256": "f36e151513a53e1f5befd214c7618454f004cef7f2ef29711987b5296192c0ea"
+  },
+  {
+    "path": "2026-10-28/assets/harness-image-inputs-source-flow.png",
+    "bytes": 56310,
+    "sha256": "89b5505adc528310f516974729f96cc70e085fcdf66d1cb84c448e8782df7f60"
+  },
+  {
+    "path": "2026-10-28/assets/hi3d-global-comparison-1.jpg",
+    "bytes": 2288952,
+    "sha256": "365f1473e7baa909b1e7b83c03594cffee672320580731bb295c7f81f233f9ab"
+  },
+  {
+    "path": "2026-10-28/assets/hilmarts.jpg",
+    "bytes": 97722,
+    "sha256": "8c6ea7eee939432e515525d0fe5079dd6f195dfa7936f63973bf9b42f558f3db"
+  },
+  {
+    "path": "2026-10-28/assets/ipad-mini.jpg",
+    "bytes": 97701,
+    "sha256": "2249be17446a6651bb83a15db9f6dc1b3fe25696ca848fc73e83b51cb9bef653"
+  },
+  {
+    "path": "2026-10-28/assets/issue.css",
+    "bytes": 10285,
+    "sha256": "1e458c07ba855726699c2b9885d466a62a85e04604b22dddcca9a2f3d1ca09e9"
+  },
+  {
+    "path": "2026-10-28/assets/liquid-lfm3-specialized-local-models-source-flow.png",
+    "bytes": 66954,
+    "sha256": "f863214c9b8a72381d30c30c86406a27ce3d43aa8ca51bd5e79ac41d4dd6cdf0"
+  },
+  {
+    "path": "2026-10-28/assets/nuvio-invoice.jpg",
+    "bytes": 78459,
+    "sha256": "3fb4b4d7777d5bafa940af1aa5b56848a557ed2763dc2690fe380ef37b7c1372"
+  },
+  {
+    "path": "2026-10-28/assets/over-compliant-refactoring-source-flow.png",
+    "bytes": 57446,
+    "sha256": "1bb6c62361ebf068a4286d0f099ead13889b1cb3f4d42b492c99f9a64bfd102e"
+  },
+  {
+    "path": "2026-10-28/assets/overmind-context.jpg",
+    "bytes": 98099,
+    "sha256": "534828474ecc1b318afe71ea2d7f1e4ec7a0365776b3ad98eab12a7afa24376f"
+  },
+  {
+    "path": "2026-10-28/assets/paddock-gallery.jpg",
+    "bytes": 31162,
+    "sha256": "559ae3747af61d5c8994621cd16f3a975bd5f66c77d8814ebbe75c68b78c0410"
+  },
+  {
+    "path": "2026-10-28/assets/pulse-app.jpg",
+    "bytes": 155013,
+    "sha256": "ec0060a2c7371408ca12406ae34aa7b1e7c464e15f4ab2a0a05a3f05b916f169"
+  },
+  {
+    "path": "2026-10-28/assets/pumpkin-models.png",
+    "bytes": 99494,
+    "sha256": "cb8f6784ec9e2fb5d7dbde57e81c526043163f4a6ec7ec831c5b686a3eabf4ac"
+  },
+  {
+    "path": "2026-10-28/assets/runway-appstudio.jpg",
+    "bytes": 117629,
+    "sha256": "e2bb61d8c8ab9acced5c153905dd0ada24743a1578fffa894a6f46dd654c7bbc"
+  },
+  {
+    "path": "2026-10-28/assets/survival-llm.jpg",
+    "bytes": 211918,
+    "sha256": "e8dbadee2023664fee5bcb8f6c5ffe1a4fddd78a4d2dcbb32c69eb96097408ae"
+  },
+  {
+    "path": "2026-10-28/assets/theysaid-3.jpg",
+    "bytes": 103119,
+    "sha256": "04cb2bfe1ece129ff85194d12c8c680d202ad2e5983aa0d8653d0b0e59a86358"
+  },
+  {
+    "path": "2026-10-28/assets/unlimited-ocr2-long-documents-source-flow.png",
+    "bytes": 52227,
+    "sha256": "329bfcb2bd1be9f7b90d4acdd9e92161bd334f8192c59476c59d40d0a75d3d00"
+  },
+  {
+    "path": "2026-10-28/assets/vercel-alert.jpg",
+    "bytes": 113551,
+    "sha256": "d4a40770a1c16533a52f67cb52829d71bc2107b77642cda2020f0628b811b686"
+  },
+  {
+    "path": "2026-10-28/assets/xiaojiao.jpg",
+    "bytes": 97745,
+    "sha256": "b556efce961e0ba02bd95b7781f031c20775c0c5fedd2b4750fda12e17f96274"
+  },
+  {
+    "path": "2026-10-28/assets/zed-box2-store.jpg",
+    "bytes": 196651,
+    "sha256": "2e0b37938af68416f46ad9bcc0907f493f77ebac6fbe60e8e2b0ecd8c7b02844"
+  },
+  {
+    "path": "2026-10-28/en/details/agent-fabric-budget-evals.html",
+    "bytes": 7386,
+    "sha256": "dc061b4b760277a9d79e9f6f398a3637949a24f8f93772381c46138af52b02d9"
+  },
+  {
+    "path": "2026-10-28/en/details/apple-creator-context-editing.html",
+    "bytes": 6984,
+    "sha256": "d8df5e56501d11dc9262e942d7516b61259a4bcbbaf1d9e0293ba627ac05f53d"
+  },
+  {
+    "path": "2026-10-28/en/details/apple-m6-macs-oct27.html",
+    "bytes": 6500,
+    "sha256": "0b1b81c820cc787ecb58dc7475b544539c17c99c491f053ea0156d6c994102d8"
+  },
+  {
+    "path": "2026-10-28/en/details/botlens.html",
+    "bytes": 5804,
+    "sha256": "81abd13691270002f921cbb0abc6b667924bdb1a3a7febfe8d057b33a6942cb4"
+  },
+  {
+    "path": "2026-10-28/en/details/cogarena.html",
+    "bytes": 5936,
+    "sha256": "30e1d224f41c295a72581f37f08e986fd6bfabe03552278d44c05f96dc144fa6"
+  },
+  {
+    "path": "2026-10-28/en/details/copilot-organization-identity.html",
+    "bytes": 6781,
+    "sha256": "107adb5bb1e2e7a3e2ec630fee6633263ad2ae93887fbc5b00aad165040cabd7"
+  },
+  {
+    "path": "2026-10-28/en/details/cross-user-emg.html",
+    "bytes": 6112,
+    "sha256": "364e6735b86beb315ea395b32752aee72f3ad7ff97cb1ba4c2a68ab9c526da80"
+  },
+  {
+    "path": "2026-10-28/en/details/dreame-l40-gen2-lab-review.html",
+    "bytes": 6736,
+    "sha256": "b6af2feceeb094b2d63c24b715ddc4d7e8273b856ae0aa17a423ba4275dc79af"
+  },
+  {
+    "path": "2026-10-28/en/details/genie-4-world-simulation.html",
+    "bytes": 6579,
+    "sha256": "d84d5b235738ea2962271dcf52dbfd4d221eb3c3079bb5ed17c212dcc1bcfc08"
+  },
+  {
+    "path": "2026-10-28/en/details/gpt-61-terra-visual-computer-use.html",
+    "bytes": 6859,
+    "sha256": "586059babe2dbe1816ca3b3d18eadaca61cb1b716f377e7c09dbb3acc75d018c"
+  },
+  {
+    "path": "2026-10-28/en/details/harness-image-inputs.html",
+    "bytes": 6687,
+    "sha256": "c2123bedcbf12d709d2c35132c4c9476901e4360d4aed412961ed29fe2b96387"
+  },
+  {
+    "path": "2026-10-28/en/details/hi3d-v1-geometry.html",
+    "bytes": 6818,
+    "sha256": "61d9cb2aa91f30eba6b49d37367a6215177a96db355edc1177dc28fa7931a4fa"
+  },
+  {
+    "path": "2026-10-28/en/details/hilmarts.html",
+    "bytes": 5947,
+    "sha256": "6473412861751abe2551295c4bc3264295423c4cfe57644de7783eaf159f2487"
+  },
+  {
+    "path": "2026-10-28/en/details/ipad-mini-a20-portable-editing.html",
+    "bytes": 6936,
+    "sha256": "70e00013fc38ca7cd2400c88cae5ed8ee338829839f0abd25c2f2b25814c4c4c"
+  },
+  {
+    "path": "2026-10-28/en/details/liquid-lfm3-specialized-local-models.html",
+    "bytes": 6675,
+    "sha256": "c7d0337611563aa5fbaaf6c78ebeddcdee3c4691afdfefed7014b63e7b59e410"
+  },
+  {
+    "path": "2026-10-28/en/details/nuvio5-actions.html",
+    "bytes": 6247,
+    "sha256": "94316b52dc6a01d86a819a6c376c24b55a2ab740ce69f4f4ed833d70da5306d5"
+  },
+  {
+    "path": "2026-10-28/en/details/over-compliant-refactoring.html",
+    "bytes": 5878,
+    "sha256": "3aea9cc802a71d364b2e0ad5351ce46d493c4efe859dfde7b9de9326ed56a738"
+  },
+  {
+    "path": "2026-10-28/en/details/overmind-trace-evidence.html",
+    "bytes": 6855,
+    "sha256": "7100de1c1da57618fdf922bea9398333656870fe68af68236030502dece0f827"
+  },
+  {
+    "path": "2026-10-28/en/details/paddock-agent-computers.html",
+    "bytes": 6564,
+    "sha256": "4a16231b6491a2fc43d32299708979449100a60672c3b6c41aed0cd1eccc9f36"
+  },
+  {
+    "path": "2026-10-28/en/details/pulsedev-local-ui-fixes.html",
+    "bytes": 6320,
+    "sha256": "7ead8a6778229b7acafca3d4ee7522d99924384fd875b05765e8d5819dbd6957"
+  },
+  {
+    "path": "2026-10-28/en/details/pumpkin-090-engine-rollback.html",
+    "bytes": 6847,
+    "sha256": "3f55e224d91db510281b85fd30c502f9495ac816c96fe1b4a5b33f0c4bd56010"
+  },
+  {
+    "path": "2026-10-28/en/details/runway-app-studio-reusable-tools.html",
+    "bytes": 6864,
+    "sha256": "3bd4c33fe2a4265d2ba5cce6a87f4be6f55dd3fbea3a0d520878dbcbf522f274"
+  },
+  {
+    "path": "2026-10-28/en/details/suishenxing-xiaojiao-ciie.html",
+    "bytes": 6245,
+    "sha256": "f426cc20555ad2203ac25b98903ba602240f0d61104025a55adc3b35a8087dda"
+  },
+  {
+    "path": "2026-10-28/en/details/survival-llm-034.html",
+    "bytes": 6724,
+    "sha256": "097d140aee2bcd423ade1ab1e139676a9da506cb39b675fe8c7ad5d7c3c08502"
+  },
+  {
+    "path": "2026-10-28/en/details/theysaid-4-synthetic-workflow.html",
+    "bytes": 6274,
+    "sha256": "0dbe06b2bf700e6ea647746f8d465a1a79d5cb5328a77547bca8a1da47bae4e0"
+  },
+  {
+    "path": "2026-10-28/en/details/unlimited-ocr2-long-documents.html",
+    "bytes": 6520,
+    "sha256": "353d3eba6ef8d670793395d99e6e54937abb42bcdf96ab175432d9cccc2ecb1a"
+  },
+  {
+    "path": "2026-10-28/en/details/vercel-agent-alert-validation.html",
+    "bytes": 6768,
+    "sha256": "656f669040993c2ef24d5fa53d333a285dff16528811115075b80dcc53bad473"
+  },
+  {
+    "path": "2026-10-28/en/details/zed-box2-multicamera.html",
+    "bytes": 7252,
+    "sha256": "0dd8ce9c11a23235eaadd0652e57f14499965fde929d541dd4fb5204a7b44019"
+  },
+  {
+    "path": "2026-10-28/en/index.html",
+    "bytes": 94081,
+    "sha256": "cbecd35a7c4e5d14770f146d20d14f687f2e4ff6d46b678a2bab4f0fbcde8f7c"
+  },
+  {
+    "path": "2026-10-28/manifest.json",
+    "bytes": 31216,
+    "sha256": "c910809532d4be76428a207a9b3bbe4a3a9116a9c001d55c3ef63b0e851bd313"
+  },
+  {
+    "path": "2026-10-28/sources.html",
+    "bytes": 61583,
+    "sha256": "a1677b66643700dcf67fdd120f81f65ca6110512718c3301bd311a9af9d5b583"
+  },
+  {
+    "path": "2026-10-28/sources.json",
+    "bytes": 26189,
+    "sha256": "4cd9b45b18fc33cc31facdd92b29ce7fc69ee8ee3d101eb464689a5c24125d37"
+  },
+  {
+    "path": "2026-10-28/visuals.json",
+    "bytes": 21939,
+    "sha256": "9eea474c0b355516de51a5215dc7ce2e10deafdcbecf8f2c652f2266e918f510"
+  },
+  {
+    "path": "2026-10-28/zh/details/agent-fabric-budget-evals.html",
+    "bytes": 6654,
+    "sha256": "8ee7dc4d729ea454a76d062af9510358079316519f04afc6e3cc21b53cea5d8c"
+  },
+  {
+    "path": "2026-10-28/zh/details/apple-creator-context-editing.html",
+    "bytes": 6532,
+    "sha256": "127cf1d2da0bf8d3502d022549a09ea2fa4e3b0cba1f9ad518b2088f177c7864"
+  },
+  {
+    "path": "2026-10-28/zh/details/apple-m6-macs-oct27.html",
+    "bytes": 6014,
+    "sha256": "f1c17197ab64059181c0eeb1c755f5a1b688cd6e9e53e801718b0e1913ed7ecb"
+  },
+  {
+    "path": "2026-10-28/zh/details/botlens.html",
+    "bytes": 5188,
+    "sha256": "ce00d2b0be047018bc91bef0e78cb6b4ad65657cc5520183e10802a063d0d321"
+  },
+  {
+    "path": "2026-10-28/zh/details/cogarena.html",
+    "bytes": 5062,
+    "sha256": "e0d1a33153bee0d0fd3943822354e2ec18078bb95714c7183674b0ffb5fc6e63"
+  },
+  {
+    "path": "2026-10-28/zh/details/copilot-organization-identity.html",
+    "bytes": 6055,
+    "sha256": "1ea3edbd0b183fa555981da845073a26f612ead146d82bd5e3fbaffedd7ba1d0"
+  },
+  {
+    "path": "2026-10-28/zh/details/cross-user-emg.html",
+    "bytes": 5125,
+    "sha256": "4b0a9f73bb7914dfa9fcbefddd1582e6b28d94903d8876994d9a2d5a804d5d77"
+  },
+  {
+    "path": "2026-10-28/zh/details/dreame-l40-gen2-lab-review.html",
+    "bytes": 6111,
+    "sha256": "669183c65009ad45ce141d6d873409e9f5599cd8a9b961f933f1dade8b7f783c"
+  },
+  {
+    "path": "2026-10-28/zh/details/genie-4-world-simulation.html",
+    "bytes": 6035,
+    "sha256": "38510a76ec9610cf54504b0ded6e4a1ec62ab61702ecdd05bdce416a7d2f160b"
+  },
+  {
+    "path": "2026-10-28/zh/details/gpt-61-terra-visual-computer-use.html",
+    "bytes": 6513,
+    "sha256": "42ec3b5081a1aa1a75501cc5a366a66ac4ac95592dcc13a05dd48a9967f98640"
+  },
+  {
+    "path": "2026-10-28/zh/details/harness-image-inputs.html",
+    "bytes": 6270,
+    "sha256": "ed7418706a918f7b826b5c8c8cfd34c4258071a6e940a3de538782c3a33c0a39"
+  },
+  {
+    "path": "2026-10-28/zh/details/hi3d-v1-geometry.html",
+    "bytes": 6168,
+    "sha256": "58743b11e292f5e193d79bcebb56d9cf506982dc09bd3582790321d62e774352"
+  },
+  {
+    "path": "2026-10-28/zh/details/hilmarts.html",
+    "bytes": 5105,
+    "sha256": "aff73869284f67dbb750ec0258c22e6e4d553c96f645c746a0456893699446cc"
+  },
+  {
+    "path": "2026-10-28/zh/details/ipad-mini-a20-portable-editing.html",
+    "bytes": 6527,
+    "sha256": "4545f44d5fb90eb4c9f33432f1552c2de82be8ba7baab3803a8e418485ff60d5"
+  },
+  {
+    "path": "2026-10-28/zh/details/liquid-lfm3-specialized-local-models.html",
+    "bytes": 6389,
+    "sha256": "5a591a699ca92911ed3a0f463b42ec5d037d19ea556efc0f046cb4d387ae97e6"
+  },
+  {
+    "path": "2026-10-28/zh/details/nuvio5-actions.html",
+    "bytes": 5544,
+    "sha256": "05f8c4187a2e9748e609fa3a59f9c00d9a853e0c63a43f474f19b188d4a0f9f9"
+  },
+  {
+    "path": "2026-10-28/zh/details/over-compliant-refactoring.html",
+    "bytes": 5207,
+    "sha256": "3bacbf1f0520a99d485b3a9265134bf95f59d13a28f9f1e879312289c0700c9c"
+  },
+  {
+    "path": "2026-10-28/zh/details/overmind-trace-evidence.html",
+    "bytes": 6361,
+    "sha256": "cca8fc7b9d75150f4dda472e6bc1f0a7b54ccca24ea68c2c4bda2cfdad5af3d6"
+  },
+  {
+    "path": "2026-10-28/zh/details/paddock-agent-computers.html",
+    "bytes": 6098,
+    "sha256": "20fef1fabbde5ca4ef267b1c1bff35c8512aa8c40d5a96f6d7407c17c117510d"
+  },
+  {
+    "path": "2026-10-28/zh/details/pulsedev-local-ui-fixes.html",
+    "bytes": 5846,
+    "sha256": "189cbd36034a5d5d131df7e19870d0ab6f427b5fb697207eace3a96e3567e4aa"
+  },
+  {
+    "path": "2026-10-28/zh/details/pumpkin-090-engine-rollback.html",
+    "bytes": 6349,
+    "sha256": "46e914b6643172d50c5fa044875f39df5447befa72ae7cbb92b2527cf6d573c6"
+  },
+  {
+    "path": "2026-10-28/zh/details/runway-app-studio-reusable-tools.html",
+    "bytes": 6512,
+    "sha256": "d98824bbae0c54fcccd3fb7f1067141dc97cf6340e8bebbf38b96b9de7edb818"
+  },
+  {
+    "path": "2026-10-28/zh/details/suishenxing-xiaojiao-ciie.html",
+    "bytes": 5766,
+    "sha256": "267499a7414407da30f063122a41b6fd2b493002051a0ca03842b40fd6a4319e"
+  },
+  {
+    "path": "2026-10-28/zh/details/survival-llm-034.html",
+    "bytes": 6309,
+    "sha256": "eaba07cb073c9c66621561b3a75643b1b0610b57c0bf2fc2d052e47231b20d56"
+  },
+  {
+    "path": "2026-10-28/zh/details/theysaid-4-synthetic-workflow.html",
+    "bytes": 5851,
+    "sha256": "eb1fb41257b4b21e70277a90ea817368b089588e2d080139517938f752124079"
+  },
+  {
+    "path": "2026-10-28/zh/details/unlimited-ocr2-long-documents.html",
+    "bytes": 6035,
+    "sha256": "5f7e2017f3f9d8ca6877e400add999e834845da879eb5a73bac3901bdc8879b4"
+  },
+  {
+    "path": "2026-10-28/zh/details/vercel-agent-alert-validation.html",
+    "bytes": 6132,
+    "sha256": "42feda85b2620d1f55ae8c63fa4e859746ddb356988770ba5f37478837db1866"
+  },
+  {
+    "path": "2026-10-28/zh/details/zed-box2-multicamera.html",
+    "bytes": 6669,
+    "sha256": "001d1bd3e5ba4db911112b4c1d749e728d59d962440e11a5bf255dfda6cc538b"
+  },
+  {
+    "path": "2026-10-28/zh/index.html",
+    "bytes": 91100,
+    "sha256": "950dbca8063ae69b943beb0c4a8d141c14e3855534d466080fee61bc29850c6d"
+  },
+  {
     "path": "assets/acti-agentic-keyboard-2026-07-03.svg",
     "bytes": 2825,
     "sha256": "84ad9abb0a1191abde62dea383e6e1ed583fc089073d3ccaf91629044501721b"
@@ -4911,18 +5371,18 @@
   },
   {
     "path": "en/index.html",
-    "bytes": 164912,
-    "sha256": "4ad8cdbcdb9533ab003f389b5bf47aff298ee0c1980f774d5c33e811bf09d77e"
+    "bytes": 166146,
+    "sha256": "feaf2353bfa2003b5034b393e33fbb859ed1e358369280a92b08a80d5789ca20"
   },
   {
     "path": "index.html",
-    "bytes": 159034,
-    "sha256": "5d51694935b42641faf178237a35040f8678727952e11ac1a26eba7c62f480c5"
+    "bytes": 160240,
+    "sha256": "2a9b721dff4a98a111698900a7f263a889676d701e3880566706b01424f6c87b"
   },
   {
     "path": "manifest.json",
-    "bytes": 737050,
-    "sha256": "254767d4a8f82b942b833ef05d36a1869410d1743d1e4a385be1ee5daec0a80e"
+    "bytes": 738527,
+    "sha256": "366d1ebaf68a0999afa22c00591fa51ad178a20dc2bf7bbdb55466f6e9d44095"
   },
   {
     "path": "weekly/2026-10-12/pilot/en/index.html",

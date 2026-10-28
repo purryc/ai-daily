@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-10-28",
+    "zhTitle": "AI Daily｜2026年10月28日 · 可编辑的生成、本地模型与真实操作",
+    "enTitle": "AI Daily | October 28, 2026 · Editable generation, local models and practical controls",
+    "zhSummary": "Genie 4运行中改场景，Apple计划把生成留在工程里，Runway把流程封装成应用；另看小模型、扫地机器人实测与代理审批。",
+    "enSummary": "Genie 4 changes scenes during a run; Apple plans generation inside creative projects; Runway packages workflows as apps. Plus small models, a robot-vacuum test and agent approvals.",
+    "tags": [
+      "consumer AI",
+      "creative tools",
+      "physical interaction",
+      "research"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "research"
+    ],
+    "coverStory": {
+      "topicId": "genie-4-world-simulation",
+      "zhTitle": "Genie 4",
+      "enTitle": "Genie 4",
+      "imagePath": "assets/genie4-world.jpg",
+      "imageSourceUrl": "https://lh3.googleusercontent.com/HIhV4SA131CUm9YqAEDDL5KusEF40nGILQ147-nj43pBnEhF_UxjDhtFWdbd9qEqjDNAqhXZ4X7Rjmrvv7RvAYUFYun5X4_qpjp72rBaxaSz6VITHA%3Dw1440-rw-lo",
+      "primarySourceUrl": "https://deepmind.google/models/genie/",
+      "evidenceStrength": "vendor capability statements and demonstrations; not independent testing"
+    },
+    "zhPath": "./2026-10-28/zh/",
+    "enPath": "./2026-10-28/en/",
+    "sourcesPath": "./2026-10-28/sources.html"
+  },
+  {
     "date": "2026-10-27",
     "zhTitle": "AI Daily｜2026年10月27日 · 视频分镜、家庭面板与可修改的代理任务",
     "enTitle": "AI Daily | October 27, 2026 · Video scenes, home dashboards and steerable agent tasks",
