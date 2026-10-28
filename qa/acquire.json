@@ -2,67 +2,50 @@
   {
     "kind": "image",
     "renderImage": true,
-    "name": "apple-m6.jpg",
-    "url": "https://www.apple.com/newsroom/images/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/article/Apple-MacBook-Pro-14-in-with-M6-Pixelmator-Pro-261027_big.jpg.large.jpg",
+    "name": "pulse-app.jpg",
+    "url": "https://pulsedev.app/home/app-screen.png",
     "locale": "zh"
   },
   {
     "kind": "image",
     "renderImage": true,
-    "name": "dreame-l40.jpg",
-    "url": "https://vacuumwars.com/wp-content/uploads/2026/10/Dreame-L40-Ultra-Gen-2--Hero-image.jpg",
+    "name": "overmind-context.jpg",
+    "url": "https://www.overmindlab.ai/videos/homepage/launch/context.webp",
     "locale": "en"
   },
   {
     "kind": "image",
     "renderImage": true,
-    "name": "genie4-world.jpg",
-    "url": "https://lh3.googleusercontent.com/HIhV4SA131CUm9YqAEDDL5KusEF40nGILQ147-nj43pBnEhF_UxjDhtFWdbd9qEqjDNAqhXZ4X7Rjmrvv7RvAYUFYun5X4_qpjp72rBaxaSz6VITHA%3Dw1440-rw-lo",
+    "name": "overmind-data.jpg",
+    "url": "https://www.overmindlab.ai/videos/homepage/launch/data-cells.webp",
     "locale": "zh"
   },
   {
     "kind": "image",
     "renderImage": true,
-    "name": "theysaid-gallery.jpg",
-    "url": "https://ph-files.imgix.net/98da82eb-4125-44b2-86d1-2b2cab867ebb.jpeg",
+    "name": "theysaid-3.jpg",
+    "url": "https://ph-files.imgix.net/6e2f3e83-4041-4916-9a24-13b2ad74b247.jpeg",
     "locale": "en"
   },
   {
     "kind": "image",
     "renderImage": true,
-    "name": "overmind-gallery.jpg",
-    "url": "https://ph-files.imgix.net/8089a125-6e9e-4f81-8397-de03cc688bd8.png",
+    "name": "theysaid-4.jpg",
+    "url": "https://ph-files.imgix.net/d4e47799-ecb4-4ef4-ab63-415d10a5f911.jpeg",
     "locale": "zh"
   },
   {
     "kind": "image",
     "renderImage": true,
-    "name": "paddock-gallery.jpg",
-    "url": "https://ph-files.imgix.net/a464c948-78d4-452b-9bfe-22cc47994240.png",
+    "name": "theysaid-5.jpg",
+    "url": "https://ph-files.imgix.net/08acd54f-79cd-4750-9e3d-a665784522aa.jpeg",
     "locale": "en"
   },
   {
-    "kind": "inventory",
-    "name": "pulse-inventory.json",
-    "url": "https://pulsedev.app",
-    "locale": "zh"
-  },
-  {
-    "kind": "inventory",
-    "name": "apple-creator-inventory.json",
-    "url": "https://www.apple.com/newsroom/2026/10/apple-creator-studio-adds-powerful-new-ai-features-and-even-more-creative-tools/",
-    "locale": "en"
-  },
-  {
-    "kind": "inventory",
-    "name": "apple-m6-inventory.json",
-    "url": "https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
-    "locale": "en"
-  },
-  {
-    "kind": "inventory",
-    "name": "vercel-traffic-inventory.json",
-    "url": "https://vercel.com/changelog/ai-traffic-insights-now-available-in-vercel-observability",
+    "kind": "image",
+    "renderImage": true,
+    "name": "theysaid-6.jpg",
+    "url": "https://ph-files.imgix.net/d7f36daf-bde9-4e6a-81c2-61c1dd9f7b23.jpeg",
     "locale": "zh"
   }
 ]
