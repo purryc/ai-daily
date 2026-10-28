@@ -2,50 +2,8 @@
   {
     "kind": "image",
     "renderImage": true,
-    "name": "pulse-app.jpg",
-    "url": "https://pulsedev.app/home/app-screen.png",
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "overmind-context.jpg",
-    "url": "https://www.overmindlab.ai/videos/homepage/launch/context.webp",
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "overmind-data.jpg",
-    "url": "https://www.overmindlab.ai/videos/homepage/launch/data-cells.webp",
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "theysaid-3.jpg",
-    "url": "https://ph-files.imgix.net/6e2f3e83-4041-4916-9a24-13b2ad74b247.jpeg",
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "theysaid-4.jpg",
-    "url": "https://ph-files.imgix.net/d4e47799-ecb4-4ef4-ab63-415d10a5f911.jpeg",
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "theysaid-5.jpg",
-    "url": "https://ph-files.imgix.net/08acd54f-79cd-4750-9e3d-a665784522aa.jpeg",
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "theysaid-6.jpg",
-    "url": "https://ph-files.imgix.net/d7f36daf-bde9-4e6a-81c2-61c1dd9f7b23.jpeg",
+    "name": "zed-box2-store.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0699/6927/files/Stereolabs_ZED_Box_2_for_Robot_Vision.png?crop=center&height=1920&v=1792442968&width=1920",
     "locale": "zh"
   }
 ]
