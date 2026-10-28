@@ -6,7 +6,7 @@
   "metrics": {
     "body": {
       "zhDenseChars": 20505,
-      "enWords": 12253
+      "enWords": 12257
     },
     "perProduct": {
       "genie-4-world-simulation": {
@@ -23,7 +23,7 @@
       },
       "ipad-mini-a20-portable-editing": {
         "zh": 825,
-        "en": 449
+        "en": 451
       },
       "apple-m6-macs-oct27": {
         "zh": 650,
@@ -47,11 +47,11 @@
       },
       "liquid-lfm3-specialized-local-models": {
         "zh": 824,
-        "en": 423
+        "en": 424
       },
       "gpt-61-terra-visual-computer-use": {
         "zh": 786,
-        "en": 429
+        "en": 430
       },
       "hi3d-v1-geometry": {
         "zh": 758,
@@ -249,7 +249,7 @@
     },
     "completeReadingBody": {
       "zhDenseChars": 26298,
-      "enWords": 15482
+      "enWords": 15486
     }
   },
   "revision": {

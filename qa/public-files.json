@@ -4696,8 +4696,8 @@
   },
   {
     "path": "2026-10-28/en/details/gpt-61-terra-visual-computer-use.html",
-    "bytes": 6859,
-    "sha256": "586059babe2dbe1816ca3b3d18eadaca61cb1b716f377e7c09dbb3acc75d018c"
+    "bytes": 6862,
+    "sha256": "161e03123bfe741a4a0f6dbd81f0f81c5f0e5e5b007260f1e206fa4f970c0028"
   },
   {
     "path": "2026-10-28/en/details/harness-image-inputs.html",
@@ -4716,13 +4716,13 @@
   },
   {
     "path": "2026-10-28/en/details/ipad-mini-a20-portable-editing.html",
-    "bytes": 6936,
-    "sha256": "70e00013fc38ca7cd2400c88cae5ed8ee338829839f0abd25c2f2b25814c4c4c"
+    "bytes": 6939,
+    "sha256": "472ea8d38de5b1ead55e137b0b6d5aecf52055af2c3b922baf6979c1d21815f0"
   },
   {
     "path": "2026-10-28/en/details/liquid-lfm3-specialized-local-models.html",
-    "bytes": 6675,
-    "sha256": "c7d0337611563aa5fbaaf6c78ebeddcdee3c4691afdfefed7014b63e7b59e410"
+    "bytes": 6676,
+    "sha256": "f076c6eda7e33f04f06ffe8995b28e979bb1fb55fbeead149f5c89078df19cae"
   },
   {
     "path": "2026-10-28/en/details/nuvio5-actions.html",
@@ -4797,7 +4797,7 @@
   {
     "path": "2026-10-28/manifest.json",
     "bytes": 31216,
-    "sha256": "c910809532d4be76428a207a9b3bbe4a3a9116a9c001d55c3ef63b0e851bd313"
+    "sha256": "275d6da3948ffa3e74d81f05173d908759ee6022fbbb99608a642aedd66140c4"
   },
   {
     "path": "2026-10-28/sources.html",
