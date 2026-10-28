@@ -136,7 +136,7 @@ async function clickOriginalSource(page,viewport,scope,number){
  context.on('request',onRequest);context.on('response',onResponse);
  let popup,loadError=null;
  try{
-  [popup]=await Promise.all([page.waitForEvent('popup',{timeout:10000}),page.locator('.reference-marker').filter({hasText:`[S${String(number).padStart(2,'0')}]`}).first().click()]);
+  [popup]=await Promise.all([page.waitForEvent('popup',{timeout:10000}),page.locator('.reference-marker:visible').filter({hasText:`[S${String(number).padStart(2,'0')}]`}).first().click()]);
   await popup.waitForLoadState('domcontentloaded',{timeout:8000}).catch(e=>{loadError=e.message.split('\n')[0]});
   check('source-chip-real-click-target',requests.includes(expected)&&page.url()===before,{viewport,scope,number,expected,requestedURLs:requests,popupURL:popup.url(),responseStatus,loadError,externalAccess:responseStatus>=200&&responseStatus<400?'HTTP response received; content not independently accepted':responseStatus?'External HTTP '+responseStatus:'External load unconfirmed',readerPreserved:page.url()===before});
  }finally{context.off('request',onRequest);context.off('response',onResponse);if(popup)await popup.close();}
