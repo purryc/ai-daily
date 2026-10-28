@@ -1,0 +1,827 @@
+[
+  {
+    "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+    "title": "Genie4: A new generation of world simulation",
+    "publisher": "Google DeepMind",
+    "publishedAt": "2026-10-27T16:13:00Z",
+    "observedAt": "2026-10-28T08:20:11.918511+00:00",
+    "number": 1
+  },
+  {
+    "url": "https://deepmind.google/models/genie/",
+    "title": "Genie4 model page",
+    "publisher": "Google DeepMind",
+    "publishedAt": "date not stated",
+    "observedAt": "2026-10-28T08:20:11.918511+00:00",
+    "number": 2
+  },
+  {
+    "url": "https://www.apple.com/newsroom/2026/10/apple-creator-studio-adds-powerful-new-ai-features-and-even-more-creative-tools/",
+    "title": "Creator Studio October update announcement",
+    "publisher": "Apple",
+    "publishedAt": "2026-10-27",
+    "observedAt": "2026-10-28T08:16:00Z",
+    "number": 3
+  },
+  {
+    "url": "https://www.apple.com/pixelmator-pro/",
+    "title": "Pixelmator Pro",
+    "publisher": "Apple",
+    "observedAt": "2026-10-28T08:16:00Z",
+    "number": 4
+  },
+  {
+    "url": "https://www.apple.com/final-cut-pro/",
+    "title": "Final Cut Pro",
+    "publisher": "Apple",
+    "observedAt": "2026-10-28T08:16:00Z",
+    "number": 5
+  },
+  {
+    "url": "https://www.apple.com/logic-pro/",
+    "title": "Logic Pro",
+    "publisher": "Apple",
+    "observedAt": "2026-10-28T08:16:00Z",
+    "number": 6
+  },
+  {
+    "url": "https://www.apple.com/apple-creator-studio/",
+    "title": "Apple Creator Studio",
+    "publisher": "Apple",
+    "observedAt": "2026-10-28T08:16:00Z",
+    "number": 7
+  },
+  {
+    "url": "https://runway.com/news/company-news/introducing-runway-app-studio",
+    "title": "Introducing Runway App Studio",
+    "publisher": "Runway",
+    "publishedAt": "2026-10-26",
+    "observedAt": "2026-10-28T08:16:00Z",
+    "number": 8
+  },
+  {
+    "url": "https://runway.com/product/app-studio",
+    "title": "App Studio product",
+    "publisher": "Runway",
+    "observedAt": "2026-10-28T08:16:00Z",
+    "number": 9
+  },
+  {
+    "url": "https://help.runwayml.com/hc/en-us/articles/56447349336467-Building-apps-with-App-Studio",
+    "title": "Building apps with App Studio",
+    "publisher": "Runway",
+    "observedAt": "2026-10-28T08:16:00Z",
+    "number": 10
+  },
+  {
+    "url": "https://help.runwayml.com/hc/en-us/articles/56447820059539-Sharing-apps-from-App-Studio",
+    "title": "Sharing apps from App Studio",
+    "publisher": "Runway",
+    "observedAt": "2026-10-28T08:16:00Z",
+    "number": 11
+  },
+  {
+    "url": "https://runway.com/changelog",
+    "title": "Runway changelog",
+    "publisher": "Runway",
+    "publishedAt": "2026-10-27",
+    "observedAt": "2026-10-28T08:16:00Z",
+    "number": 12
+  },
+  {
+    "url": "https://runway.com/news/company-news/introducing-runway-ads",
+    "title": "Introducing Runway Ads",
+    "publisher": "Runway",
+    "publishedAt": "2026-09-30",
+    "observedAt": "2026-10-28T08:16:00Z",
+    "number": 13
+  },
+  {
+    "url": "https://www.apple.com/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/",
+    "title": "Apple gives iPad mini its biggest update ever",
+    "publisher": "Apple",
+    "publishedAt": "2026-10-26",
+    "observedAt": "2026-10-28T08:16:00Z",
+    "number": 14
+  },
+  {
+    "url": "https://www.apple.com/ipad-mini/specs/",
+    "title": "iPad mini technical specifications",
+    "publisher": "Apple",
+    "observedAt": "2026-10-28T08:16:00Z",
+    "number": 15
+  },
+  {
+    "url": "https://www.apple.com/apple-pencil/",
+    "title": "Apple Pencil",
+    "publisher": "Apple",
+    "observedAt": "2026-10-28T08:16:00Z",
+    "number": 16
+  },
+  {
+    "url": "https://www.apple.com/ipad-mini/",
+    "title": "iPad mini product",
+    "publisher": "Apple",
+    "observedAt": "2026-10-28T08:16:00Z",
+    "number": 17
+  },
+  {
+    "url": "https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
+    "title": "14-inch MacBook Pro with M6 announcement",
+    "publisher": "Apple",
+    "publishedAt": "2026-10-27",
+    "observedAt": "2026-10-28T08:09:08Z",
+    "number": 18
+  },
+  {
+    "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-new-imac-with-m6/",
+    "title": "iMac with M6 announcement",
+    "publisher": "Apple",
+    "publishedAt": "2026-10-27",
+    "observedAt": "2026-10-28T08:09:08Z",
+    "number": 19
+  },
+  {
+    "url": "https://www.apple.com/macbook-pro/specs/",
+    "title": "MacBook Pro technical specifications",
+    "publisher": "Apple",
+    "observedAt": "2026-10-28T08:09:08Z",
+    "number": 20
+  },
+  {
+    "url": "https://www.apple.com/imac/specs/",
+    "title": "iMac technical specifications",
+    "publisher": "Apple",
+    "observedAt": "2026-10-28T08:09:08Z",
+    "number": 21
+  },
+  {
+    "url": "https://vacuumwars.com/dreame-l40-ultra-gen-2-review/",
+    "title": "L40 Ultra Gen 2 independent review",
+    "publisher": "Vacuum Wars",
+    "publishedAt": "2026-10-27",
+    "observedAt": "2026-10-28T08:09:08Z",
+    "number": 22
+  },
+  {
+    "url": "https://www.dreametech.com/products/l40-ultra-gen2-robot-vacuum",
+    "title": "L40 Ultra Gen 2 product listing",
+    "publisher": "Dreame",
+    "observedAt": "2026-10-28T08:09:08Z",
+    "number": 23
+  },
+  {
+    "url": "https://vacuumwars.com/how-vacuum-wars-tests-robot-vacuums/",
+    "title": "How Vacuum Wars tests robot vacuums",
+    "publisher": "Vacuum Wars",
+    "observedAt": "2026-10-28T08:09:08Z",
+    "number": 24
+  },
+  {
+    "url": "https://www.dreametech.com/collections/all-accessories/robot-vacuums-l40-ultra-gen2",
+    "title": "L40 Ultra Gen 2 accessories",
+    "publisher": "Dreame",
+    "observedAt": "2026-10-28T08:09:08Z",
+    "number": 25
+  },
+  {
+    "url": "https://www.ciie.org/zbh/bqgffb/20261027/64906.html",
+    "title": "进博停车预约系统今起开放，出行问题可咨询智能助手“小交”",
+    "publisher": "CIIE / 上海交通",
+    "publishedAt": "2026-10-27",
+    "observedAt": "2026-10-28T08:11:36.320324+00:00",
+    "number": 26
+  },
+  {
+    "url": "https://www.thepaper.cn/newsDetail_forward_34344380",
+    "title": "首次引入AI出行智能体，2026进博交通出行服务专区上线",
+    "publisher": "澎湃新闻 徐亦嘉",
+    "publishedAt": "2026-10-27T20:35:00+08:00",
+    "observedAt": "2026-10-28T08:11:36.320324+00:00",
+    "number": 27
+  },
+  {
+    "url": "https://news.qq.com/rain/a/20261026A0C52R00?ptag=ima",
+    "title": "进博停车预约系统今起开放，出行问题可咨询智能助手“小交”",
+    "publisher": "上海交通 official account",
+    "publishedAt": "2026-10-26T18:45:00+08:00",
+    "observedAt": "2026-10-28T08:11:36.320324+00:00",
+    "number": 28
+  },
+  {
+    "url": "https://github.com/anonnerdfrenzy/survival-llm/releases/tag/v0.3.4",
+    "title": "Version0.3.4 release",
+    "publisher": "Survival LLM",
+    "publishedAt": "2026-10-28T03:53:08Z",
+    "observedAt": "2026-10-28T08:18:00Z",
+    "number": 29
+  },
+  {
+    "url": "https://github.com/anonnerdfrenzy/survival-llm/blob/main/README.md",
+    "title": "Architecture and evaluation",
+    "publisher": "Survival LLM",
+    "observedAt": "2026-10-28T08:18:00Z",
+    "number": 30
+  },
+  {
+    "url": "https://github.com/anonnerdfrenzy/survival-llm/issues/1",
+    "title": "Issue 1",
+    "publisher": "GitHub reporter / maintainer",
+    "publishedAt": "2026-10-25T04:29:18Z",
+    "observedAt": "2026-10-28T08:18:00Z",
+    "number": 31
+  },
+  {
+    "url": "https://github.com/anonnerdfrenzy/survival-llm/issues/2",
+    "title": "Issue 2",
+    "publisher": "GitHub reporter / maintainer",
+    "publishedAt": "2026-10-25T04:30:10Z",
+    "observedAt": "2026-10-28T08:18:00Z",
+    "number": 32
+  },
+  {
+    "url": "https://github.com/anonnerdfrenzy/survival-llm/issues/6",
+    "title": "Issue 6",
+    "publisher": "GitHub reporter / maintainer",
+    "publishedAt": "2026-10-26T13:13:17Z",
+    "observedAt": "2026-10-28T08:18:00Z",
+    "number": 33
+  },
+  {
+    "url": "https://github.com/anonnerdfrenzy/survival-llm/issues/7",
+    "title": "Issue 7",
+    "publisher": "GitHub reporter / maintainer",
+    "publishedAt": "2026-10-26T18:54:30Z",
+    "observedAt": "2026-10-28T08:18:00Z",
+    "number": 34
+  },
+  {
+    "url": "https://www.brangus.io/survival-llm",
+    "title": "Product page and original screenshot",
+    "publisher": "Survival LLM",
+    "observedAt": "2026-10-28T08:18:00Z",
+    "number": 35
+  },
+  {
+    "url": "https://github.com/anonnerdfrenzy/survival-llm/blob/main/LICENSE",
+    "title": "Survival LLM code license",
+    "publisher": "Survival LLM maintainer",
+    "observedAt": "2026-10-28T08:38:26.154154+00:00",
+    "number": 36
+  },
+  {
+    "url": "https://github.com/geobellingham/pumpkin/releases/tag/v0.9.0",
+    "title": "Pumpkin0.9.0",
+    "publisher": "Pumpkin / Georgi",
+    "publishedAt": "2026-10-27T21:13:35Z",
+    "observedAt": "2026-10-28T08:22:00Z",
+    "number": 37
+  },
+  {
+    "url": "https://github.com/geobellingham/pumpkin/releases/tag/v0.8.8",
+    "title": "Pumpkin0.8.8",
+    "publisher": "Pumpkin / Georgi",
+    "publishedAt": "2026-10-27T19:37:34Z",
+    "observedAt": "2026-10-28T08:22:00Z",
+    "number": 38
+  },
+  {
+    "url": "https://github.com/geobellingham/pumpkin/blob/main/README.md",
+    "title": "README platform/interface/security",
+    "publisher": "Pumpkin / Georgi",
+    "observedAt": "2026-10-28T08:22:00Z",
+    "number": 39
+  },
+  {
+    "url": "https://github.com/geobellingham/pumpkin/blob/main/docs/GUIDE.md",
+    "title": "User guide",
+    "publisher": "Pumpkin / Georgi",
+    "observedAt": "2026-10-28T08:22:00Z",
+    "number": 40
+  },
+  {
+    "url": "https://github.com/geobellingham/pumpkin/blob/main/LICENSE",
+    "title": "MIT license",
+    "publisher": "Pumpkin / Georgi",
+    "observedAt": "2026-10-28T08:22:00Z",
+    "number": 41
+  },
+  {
+    "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+    "title": "Build specialized multimodal models with LFM3",
+    "publisher": "Liquid AI",
+    "publishedAt": "2026-10-27",
+    "observedAt": "2026-10-28T08:27:00Z",
+    "number": 42
+  },
+  {
+    "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+    "title": "LFM3-1.7B model card",
+    "publisher": "Liquid AI",
+    "observedAt": "2026-10-28T08:27:00Z",
+    "number": 43
+  },
+  {
+    "url": "https://huggingface.co/LiquidAI/LFM3-VL-2B",
+    "title": "LFM3-VL-2B model card",
+    "publisher": "Liquid AI",
+    "observedAt": "2026-10-28T08:27:00Z",
+    "number": 44
+  },
+  {
+    "url": "https://huggingface.co/LiquidAI/LFM3-Audio-2B",
+    "title": "LFM3-Audio-2B model card",
+    "publisher": "Liquid AI",
+    "observedAt": "2026-10-28T08:27:00Z",
+    "number": 45
+  },
+  {
+    "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+    "title": "Introducing GPT-6.1 Terra",
+    "publisher": "OpenAI",
+    "publishedAt": "2026-10-26",
+    "observedAt": "2026-10-28T08:27:00Z",
+    "number": 46
+  },
+  {
+    "url": "https://developers.openai.com/api/docs/models/gpt-6.1-terra",
+    "title": "GPT-6.1 Terra model documentation",
+    "publisher": "OpenAI",
+    "observedAt": "2026-10-28T08:27:00Z",
+    "number": 47
+  },
+  {
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "title": "OpenAI API changelog",
+    "publisher": "OpenAI",
+    "publishedAt": "2026-10-26",
+    "observedAt": "2026-10-28T08:27:00Z",
+    "number": 48
+  },
+  {
+    "url": "https://deploymentsafety.openai.com/gpt-6-1-terra",
+    "title": "GPT-6.1 Terra system card addendum",
+    "publisher": "OpenAI",
+    "publishedAt": "2026-10-26",
+    "observedAt": "2026-10-28T08:27:00Z",
+    "number": 49
+  },
+  {
+    "url": "https://github.com/hi3d-official/Hi3Dv1.0",
+    "title": "Hi3D v1.0 README",
+    "publisher": "Hi3D / OCEANO HK HOLDING LIMITED",
+    "publishedAt": "2026-10-23",
+    "observedAt": "2026-10-28T08:16:31.683263+00:00",
+    "number": 50
+  },
+  {
+    "url": "https://github.com/hi3d-official/Hi3Dv1.0/blob/main/docs/pipeline.md",
+    "title": "Pipeline documentation",
+    "publisher": "Hi3D / OCEANO HK HOLDING LIMITED",
+    "observedAt": "2026-10-28T08:16:31.683263+00:00",
+    "number": 51
+  },
+  {
+    "url": "https://github.com/hi3d-official/Hi3Dv1.0/blob/main/docs/installation.md",
+    "title": "Installation documentation",
+    "publisher": "Hi3D / OCEANO HK HOLDING LIMITED",
+    "observedAt": "2026-10-28T08:16:31.683263+00:00",
+    "number": 52
+  },
+  {
+    "url": "https://github.com/hi3d-official/Hi3Dv1.0/blob/main/LICENSE",
+    "title": "Hi3D Open License Agreement 1.0",
+    "publisher": "Hi3D / OCEANO HK HOLDING LIMITED",
+    "publishedAt": "2026-10-22",
+    "observedAt": "2026-10-28T08:16:31.683263+00:00",
+    "number": 53
+  },
+  {
+    "url": "https://huggingface.co/hi3d-official/Hi3Dv1.0",
+    "title": "Hi3D model card",
+    "publisher": "Hi3D / OCEANO HK HOLDING LIMITED",
+    "publishedAt": "2026-10-23",
+    "observedAt": "2026-10-28T08:16:31.683263+00:00",
+    "number": 54
+  },
+  {
+    "url": "https://pulsedev.app",
+    "title": "https://pulsedev.app",
+    "publisher": "PulseDev",
+    "observedAt": "2026-10-28T08:30:00Z",
+    "number": 55
+  },
+  {
+    "url": "https://pulsedev.app/docs",
+    "title": "https://pulsedev.app/docs",
+    "publisher": "PulseDev",
+    "observedAt": "2026-10-28T08:30:00Z",
+    "number": 56
+  },
+  {
+    "url": "https://pulsedev.app/changelog",
+    "title": "https://pulsedev.app/changelog",
+    "publisher": "PulseDev",
+    "publishedAt": "2026-10-26",
+    "observedAt": "2026-10-28T08:30:00Z",
+    "number": 57
+  },
+  {
+    "url": "https://pulsedev.app/privacy",
+    "title": "https://pulsedev.app/privacy",
+    "publisher": "PulseDev",
+    "observedAt": "2026-10-28T08:30:00Z",
+    "number": 58
+  },
+  {
+    "url": "https://www.producthunt.com/products/pulsedev",
+    "title": "https://www.producthunt.com/products/pulsedev",
+    "publisher": "Product Hunt / maker",
+    "observedAt": "2026-10-28T08:30:00Z",
+    "number": 59
+  },
+  {
+    "url": "https://www.producthunt.com/leaderboard/daily/2026/10/27",
+    "title": "https://www.producthunt.com/leaderboard/daily/2026/10/27",
+    "publisher": "Product Hunt / maker",
+    "observedAt": "2026-10-28T08:30:00Z",
+    "number": 60
+  },
+  {
+    "url": "https://www.theysaid.io/v4",
+    "title": "https://www.theysaid.io/v4",
+    "publisher": "TheySaid",
+    "observedAt": "2026-10-28T08:35:00Z",
+    "number": 61
+  },
+  {
+    "url": "https://www.theysaid.io/features/synthetic-audiences",
+    "title": "https://www.theysaid.io/features/synthetic-audiences",
+    "publisher": "TheySaid",
+    "observedAt": "2026-10-28T08:35:00Z",
+    "number": 62
+  },
+  {
+    "url": "https://www.theysaid.io/human-vs-synthetic-testers",
+    "title": "https://www.theysaid.io/human-vs-synthetic-testers",
+    "publisher": "TheySaid",
+    "observedAt": "2026-10-28T08:35:00Z",
+    "number": 63
+  },
+  {
+    "url": "https://www.theysaid.io/pricing",
+    "title": "https://www.theysaid.io/pricing",
+    "publisher": "TheySaid",
+    "observedAt": "2026-10-28T08:35:00Z",
+    "number": 64
+  },
+  {
+    "url": "https://www.producthunt.com/products/theysaid",
+    "title": "https://www.producthunt.com/products/theysaid",
+    "publisher": "Product Hunt / TheySaid",
+    "observedAt": "2026-10-28T08:35:00Z",
+    "number": 65
+  },
+  {
+    "url": "https://nuvio.io/releases",
+    "title": "Nuvio5 release notes",
+    "publisher": "Nuvio",
+    "publishedAt": "2026-10-23",
+    "observedAt": "2026-10-28T08:17:38.903629+00:00",
+    "number": 66
+  },
+  {
+    "url": "https://nuvio.io/pricing",
+    "title": "Nuvio pricing and service scope",
+    "publisher": "Nuvio",
+    "observedAt": "2026-10-28T08:17:38.903629+00:00",
+    "number": 67
+  },
+  {
+    "url": "https://nuvio.io/",
+    "title": "Nuvio product workflow",
+    "publisher": "Nuvio",
+    "observedAt": "2026-10-28T08:17:38.903629+00:00",
+    "number": 68
+  },
+  {
+    "url": "https://developers.nuvio.io/",
+    "title": "Nuvio developer API introduction",
+    "publisher": "Nuvio",
+    "observedAt": "2026-10-28T08:17:38.903629+00:00",
+    "number": 69
+  },
+  {
+    "url": "https://github.com/overmind-core/overmind/releases/tag/v0.1.19",
+    "title": "Overmind v0.1.19",
+    "publisher": "Overmind / GitHub",
+    "publishedAt": "2026-10-27",
+    "observedAt": "2026-10-28T08:24:38.553338+00:00",
+    "number": 70
+  },
+  {
+    "url": "https://github.com/overmind-core/overmind/pull/258",
+    "title": "Render Claude/OTel content and OTLP JSON",
+    "publisher": "Overmind / GitHub",
+    "publishedAt": "2026-10-27",
+    "observedAt": "2026-10-28T08:24:38.553338+00:00",
+    "number": 71
+  },
+  {
+    "url": "https://github.com/overmind-core/overmind/pull/257",
+    "title": "Photographed documents and partial batch preservation",
+    "publisher": "Overmind / GitHub",
+    "publishedAt": "2026-10-26",
+    "observedAt": "2026-10-28T08:24:38.553338+00:00",
+    "number": 72
+  },
+  {
+    "url": "https://github.com/overmind-core/overmind",
+    "title": "Overmind repository README",
+    "publisher": "Overmind",
+    "observedAt": "2026-10-28T08:24:38.553338+00:00",
+    "number": 73
+  },
+  {
+    "url": "https://www.overmindlab.ai/",
+    "title": "Overmind product",
+    "publisher": "Overmind",
+    "observedAt": "2026-10-28T08:24:38.553338+00:00",
+    "number": 74
+  },
+  {
+    "url": "https://github.com/tony1908/paddock/blob/main/CHANGELOG.md",
+    "title": "Paddock changelog",
+    "publisher": "Paddock / GitHub",
+    "publishedAt": "2026-10-25",
+    "observedAt": "2026-10-28T08:24:38.553338+00:00",
+    "number": 75
+  },
+  {
+    "url": "https://github.com/tony1908/paddock",
+    "title": "Paddock repository",
+    "publisher": "Paddock / GitHub",
+    "observedAt": "2026-10-28T08:24:38.553338+00:00",
+    "number": 76
+  },
+  {
+    "url": "https://www.producthunt.com/products/paddock-2",
+    "title": "Paddock PH page and visible maker replies",
+    "publisher": "Paddock / Product Hunt",
+    "publishedAt": "2026-10-27",
+    "observedAt": "2026-10-28T08:24:38.553338+00:00",
+    "number": 77
+  },
+  {
+    "url": "https://investors.ouster.com/news-releases/news-release-details/stereolabs-launches-zed-box-2-series-physical-ai-and-vision",
+    "title": "ZED Box 2 launch",
+    "publisher": "Stereolabs / Ouster",
+    "publishedAt": "2026-10-27",
+    "observedAt": "2026-10-28T08:09:08Z",
+    "number": 78
+  },
+  {
+    "url": "https://www.stereolabs.com/store/products/zed-box-2",
+    "title": "ZED Box 2 store",
+    "publisher": "Stereolabs",
+    "observedAt": "2026-10-28T08:09:08Z",
+    "number": 79
+  },
+  {
+    "url": "https://www.stereolabs.com/store/products/zed-box-2-max-t4000",
+    "title": "ZED Box 2 Max T4000 store",
+    "publisher": "Stereolabs",
+    "observedAt": "2026-10-28T08:09:08Z",
+    "number": 80
+  },
+  {
+    "url": "https://www.stereolabs.com/en-jp/series/zed-box-2",
+    "title": "ZED Box 2 series",
+    "publisher": "Stereolabs",
+    "observedAt": "2026-10-28T08:09:08Z",
+    "number": 81
+  },
+  {
+    "url": "https://github.blog/changelog/2026-10-27-github-copilot-supports-server-to-server-authentication/",
+    "title": "GitHub Copilot supports server-to-server authentication",
+    "publisher": "GitHub",
+    "publishedAt": "2026-10-27",
+    "observedAt": "2026-10-28T08:12:26.790897+00:00",
+    "number": 82
+  },
+  {
+    "url": "https://docs.github.com/en/copilot/how-tos/copilot-sdk/auth/server-to-server-tokens",
+    "title": "Server-to-server authentication",
+    "publisher": "GitHub",
+    "observedAt": "2026-10-28T08:12:26.790897+00:00",
+    "number": 83
+  },
+  {
+    "url": "https://docs.github.com/en/copilot/how-tos/administer-copilot/manage-for-organization/manage-app-copilot-access",
+    "title": "Manage GitHub App Copilot access",
+    "publisher": "GitHub",
+    "observedAt": "2026-10-28T08:12:26.790897+00:00",
+    "number": 84
+  },
+  {
+    "url": "https://vercel.com/changelog/harness-agent-image-inputs",
+    "title": "HarnessAgent image inputs",
+    "publisher": "Vercel",
+    "publishedAt": "2026-10-27",
+    "observedAt": "2026-10-28T08:12:26.790897+00:00",
+    "number": 85
+  },
+  {
+    "url": "https://ai-sdk.dev/docs/ai-sdk-harnesses/harness-agent",
+    "title": "HarnessAgent reference",
+    "publisher": "AI SDK",
+    "observedAt": "2026-10-28T08:12:26.790897+00:00",
+    "number": 86
+  },
+  {
+    "url": "https://ai-sdk.dev/docs/ai-sdk-harnesses/harness-adapters",
+    "title": "Harness adapters capability table",
+    "publisher": "AI SDK",
+    "observedAt": "2026-10-28T08:12:26.790897+00:00",
+    "number": 87
+  },
+  {
+    "url": "https://vercel.com/changelog/vercel-agent-sessions-now-cost-67-percent-less",
+    "title": "Vercel Agent sessions now cost 67% less",
+    "publisher": "Vercel",
+    "publishedAt": "2026-10-27",
+    "observedAt": "2026-10-28T08:17:05.353715+00:00",
+    "number": 88
+  },
+  {
+    "url": "https://vercel.com/changelog/vercel-agent-can-now-validate-alerts-before-paging-you",
+    "title": "Agent validates alerts before paging",
+    "publisher": "Vercel",
+    "publishedAt": "2026-10-26",
+    "observedAt": "2026-10-28T08:17:05.353715+00:00",
+    "number": 89
+  },
+  {
+    "url": "https://vercel.com/docs/alerts/configure-alerts",
+    "title": "Configure alerts",
+    "publisher": "Vercel",
+    "observedAt": "2026-10-28T08:17:05.353715+00:00",
+    "number": 90
+  },
+  {
+    "url": "https://vercel.com/docs/agent/pricing",
+    "title": "Agent pricing",
+    "publisher": "Vercel",
+    "observedAt": "2026-10-28T08:17:05.353715+00:00",
+    "number": 91
+  },
+  {
+    "url": "https://www.salesforce.com/news/stories/agent-fabric-catch-failures-control-ai-costs/",
+    "title": "Agent Fabric expands cost controls and evaluations",
+    "publisher": "Salesforce",
+    "publishedAt": "2026-10-27",
+    "observedAt": "2026-10-28T08:17:05.353715+00:00",
+    "number": 92
+  },
+  {
+    "url": "https://www.mulesoft.com/ai/agent-fabric/cost-management",
+    "title": "Agent Fabric cost management",
+    "publisher": "MuleSoft",
+    "observedAt": "2026-10-28T08:17:05.353715+00:00",
+    "number": 93
+  },
+  {
+    "url": "https://www.mulesoft.com/ai/agent-fabric",
+    "title": "Agent Fabric overview",
+    "publisher": "MuleSoft",
+    "observedAt": "2026-10-28T08:17:05.353715+00:00",
+    "number": 94
+  },
+  {
+    "url": "https://blogs.mulesoft.com/news/mulesoft-26-mid-year-release-control-ai-costs/",
+    "title": "Mid-year cost-management release",
+    "publisher": "MuleSoft",
+    "publishedAt": "2026-08-12",
+    "observedAt": "2026-10-28T08:17:05.353715+00:00",
+    "number": 95
+  },
+  {
+    "url": "https://docs.mulesoft.com/general/model-proxy",
+    "title": "Creating and managing model proxies",
+    "publisher": "MuleSoft",
+    "observedAt": "2026-10-28T08:17:05.353715+00:00",
+    "number": 96
+  },
+  {
+    "url": "https://github.com/baidu/Unlimited-OCR",
+    "title": "Unlimited OCR official README",
+    "publisher": "Baidu",
+    "publishedAt": "2026-10-27",
+    "observedAt": "2026-10-28T08:19:25.834824+00:00",
+    "number": 97
+  },
+  {
+    "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
+    "title": "Unlimited OCR2 model card",
+    "publisher": "Baidu",
+    "publishedAt": "2026-10-27",
+    "observedAt": "2026-10-28T08:19:25.834824+00:00",
+    "number": 98
+  },
+  {
+    "url": "https://huggingface.co/datasets/baidu/MarathonDocBench",
+    "title": "MarathonDocBench dataset card",
+    "publisher": "Baidu",
+    "publishedAt": "2026-10-27",
+    "observedAt": "2026-10-28T08:19:25.834824+00:00",
+    "number": 99
+  },
+  {
+    "url": "https://huggingface.co/baidu/Unlimited-OCR-2/commits/main",
+    "title": "Unlimited OCR2 commit history",
+    "publisher": "Baidu",
+    "publishedAt": "2026-10-26",
+    "observedAt": "2026-10-28T08:19:25.834824+00:00",
+    "number": 100
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.37374",
+    "title": "Cross-user myoelectric control — submission history",
+    "publisher": "Paper authors / arXiv",
+    "publishedAt": "2026-10-27T15:05:37Z",
+    "observedAt": "2026-10-28T08:17:22.629210+00:00",
+    "number": 101
+  },
+  {
+    "url": "https://arxiv.org/html/2610.37374v1",
+    "title": "Cross-user myoelectric control — full paper",
+    "publisher": "Paper authors / arXiv",
+    "publishedAt": "2026-10-27T15:05:37Z",
+    "observedAt": "2026-10-28T08:17:22.629210+00:00",
+    "number": 102
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.37271",
+    "title": "HILMARTS — submission history",
+    "publisher": "Paper authors / arXiv",
+    "publishedAt": "2026-10-27T14:02:24Z",
+    "observedAt": "2026-10-28T08:17:22.629210+00:00",
+    "number": 103
+  },
+  {
+    "url": "https://arxiv.org/html/2610.37271v1",
+    "title": "HILMARTS — full paper",
+    "publisher": "Paper authors / arXiv",
+    "publishedAt": "2026-10-27T14:02:24Z",
+    "observedAt": "2026-10-28T08:17:22.629210+00:00",
+    "number": 104
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.36626",
+    "title": "BotLens — submission history",
+    "publisher": "Paper authors / arXiv",
+    "publishedAt": "2026-10-27T04:31:30Z",
+    "observedAt": "2026-10-28T08:17:22.629210+00:00",
+    "number": 105
+  },
+  {
+    "url": "https://arxiv.org/html/2610.36626v1",
+    "title": "BotLens — full paper",
+    "publisher": "Paper authors / arXiv",
+    "publishedAt": "2026-10-27T04:31:30Z",
+    "observedAt": "2026-10-28T08:17:22.629210+00:00",
+    "number": 106
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.36484",
+    "title": "CogArena — submission history",
+    "publisher": "Paper authors / arXiv",
+    "publishedAt": "2026-10-27T01:42:35Z",
+    "observedAt": "2026-10-28T08:17:22.629210+00:00",
+    "number": 107
+  },
+  {
+    "url": "https://arxiv.org/html/2610.36484v1",
+    "title": "CogArena — full paper",
+    "publisher": "Paper authors / arXiv",
+    "publishedAt": "2026-10-27T01:42:35Z",
+    "observedAt": "2026-10-28T08:17:22.629210+00:00",
+    "number": 108
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.36346",
+    "title": "Your Wish Is My Commit — submission history",
+    "publisher": "Paper authors / arXiv",
+    "publishedAt": "2026-10-26T22:12:50Z",
+    "observedAt": "2026-10-28T08:17:22.629210+00:00",
+    "number": 109
+  },
+  {
+    "url": "https://arxiv.org/html/2610.36346v1",
+    "title": "Your Wish Is My Commit — full paper",
+    "publisher": "Paper authors / arXiv",
+    "publishedAt": "2026-10-26T22:12:50Z",
+    "observedAt": "2026-10-28T08:17:22.629210+00:00",
+    "number": 110
+  }
+]

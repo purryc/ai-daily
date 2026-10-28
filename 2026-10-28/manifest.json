@@ -1,0 +1,661 @@
+{
+  "date": "2026-10-28",
+  "timezone": "America/Toronto",
+  "cutoff": "2026-10-28T07:58:50Z",
+  "windowStart": "2026-10-27T07:58:50Z",
+  "metrics": {
+    "body": {
+      "zhDenseChars": 20505,
+      "enWords": 12257
+    },
+    "perProduct": {
+      "genie-4-world-simulation": {
+        "zh": 758,
+        "en": 424
+      },
+      "apple-creator-context-editing": {
+        "zh": 764,
+        "en": 448
+      },
+      "runway-app-studio-reusable-tools": {
+        "zh": 749,
+        "en": 434
+      },
+      "ipad-mini-a20-portable-editing": {
+        "zh": 825,
+        "en": 451
+      },
+      "apple-m6-macs-oct27": {
+        "zh": 650,
+        "en": 427
+      },
+      "dreame-l40-gen2-lab-review": {
+        "zh": 652,
+        "en": 421
+      },
+      "suishenxing-xiaojiao-ciie": {
+        "zh": 743,
+        "en": 442
+      },
+      "survival-llm-034": {
+        "zh": 781,
+        "en": 444
+      },
+      "pumpkin-090-engine-rollback": {
+        "zh": 736,
+        "en": 455
+      },
+      "liquid-lfm3-specialized-local-models": {
+        "zh": 824,
+        "en": 424
+      },
+      "gpt-61-terra-visual-computer-use": {
+        "zh": 786,
+        "en": 430
+      },
+      "hi3d-v1-geometry": {
+        "zh": 758,
+        "en": 456
+      },
+      "pulsedev-local-ui-fixes": {
+        "zh": 700,
+        "en": 446
+      },
+      "theysaid-4-synthetic-workflow": {
+        "zh": 765,
+        "en": 446
+      },
+      "nuvio5-actions": {
+        "zh": 713,
+        "en": 440
+      },
+      "overmind-trace-evidence": {
+        "zh": 748,
+        "en": 438
+      },
+      "paddock-agent-computers": {
+        "zh": 724,
+        "en": 437
+      },
+      "zed-box2-multicamera": {
+        "zh": 689,
+        "en": 430
+      },
+      "copilot-organization-identity": {
+        "zh": 717,
+        "en": 437
+      },
+      "harness-image-inputs": {
+        "zh": 721,
+        "en": 441
+      },
+      "vercel-agent-alert-validation": {
+        "zh": 697,
+        "en": 435
+      },
+      "agent-fabric-budget-evals": {
+        "zh": 711,
+        "en": 448
+      },
+      "unlimited-ocr2-long-documents": {
+        "zh": 774,
+        "en": 447
+      },
+      "cross-user-emg": {
+        "zh": 672,
+        "en": 442
+      },
+      "hilmarts": {
+        "zh": 700,
+        "en": 427
+      },
+      "botlens": {
+        "zh": 730,
+        "en": 428
+      },
+      "cogarena": {
+        "zh": 692,
+        "en": 436
+      },
+      "over-compliant-refactoring": {
+        "zh": 726,
+        "en": 423
+      }
+    },
+    "primarySummaries": {
+      "genie-4-world-simulation": {
+        "zh": 201,
+        "en": 114
+      },
+      "apple-creator-context-editing": {
+        "zh": 209,
+        "en": 118
+      },
+      "runway-app-studio-reusable-tools": {
+        "zh": 204,
+        "en": 116
+      },
+      "ipad-mini-a20-portable-editing": {
+        "zh": 210,
+        "en": 125
+      },
+      "apple-m6-macs-oct27": {
+        "zh": 205,
+        "en": 113
+      },
+      "dreame-l40-gen2-lab-review": {
+        "zh": 204,
+        "en": 111
+      },
+      "suishenxing-xiaojiao-ciie": {
+        "zh": 211,
+        "en": 116
+      },
+      "survival-llm-034": {
+        "zh": 204,
+        "en": 110
+      },
+      "pumpkin-090-engine-rollback": {
+        "zh": 204,
+        "en": 112
+      },
+      "liquid-lfm3-specialized-local-models": {
+        "zh": 209,
+        "en": 116
+      },
+      "gpt-61-terra-visual-computer-use": {
+        "zh": 211,
+        "en": 117
+      },
+      "hi3d-v1-geometry": {
+        "zh": 206,
+        "en": 118
+      },
+      "pulsedev-local-ui-fixes": {
+        "zh": 201,
+        "en": 114
+      },
+      "theysaid-4-synthetic-workflow": {
+        "zh": 205,
+        "en": 111
+      },
+      "nuvio5-actions": {
+        "zh": 198,
+        "en": 108
+      },
+      "overmind-trace-evidence": {
+        "zh": 207,
+        "en": 117
+      },
+      "paddock-agent-computers": {
+        "zh": 204,
+        "en": 115
+      },
+      "zed-box2-multicamera": {
+        "zh": 210,
+        "en": 114
+      },
+      "copilot-organization-identity": {
+        "zh": 214,
+        "en": 113
+      },
+      "harness-image-inputs": {
+        "zh": 224,
+        "en": 111
+      },
+      "vercel-agent-alert-validation": {
+        "zh": 207,
+        "en": 123
+      },
+      "agent-fabric-budget-evals": {
+        "zh": 207,
+        "en": 119
+      },
+      "unlimited-ocr2-long-documents": {
+        "zh": 212,
+        "en": 119
+      },
+      "cross-user-emg": {
+        "zh": 209,
+        "en": 112
+      },
+      "hilmarts": {
+        "zh": 202,
+        "en": 112
+      },
+      "botlens": {
+        "zh": 205,
+        "en": 115
+      },
+      "cogarena": {
+        "zh": 203,
+        "en": 119
+      },
+      "over-compliant-refactoring": {
+        "zh": 207,
+        "en": 121
+      }
+    },
+    "counting": "Only unique full-analysis product paragraphs count toward body gates; summaries, captions, coverage and sources excluded.",
+    "products": 28,
+    "references": 110,
+    "coreVisuals": 28,
+    "slidesPerLocale": 31,
+    "primaryProjectPages": 28,
+    "attachedProjectDetails": 28,
+    "primaryBody": {
+      "zhDenseChars": 5793,
+      "enWords": 3229
+    },
+    "completeReadingBody": {
+      "zhDenseChars": 26298,
+      "enWords": 15486
+    }
+  },
+  "revision": {
+    "label": "morning-edition",
+    "originalCutoffRetained": true,
+    "newIssue": true,
+    "baselineCommit": "1275b7aac25ceafdb80b83347982dc358963cb8c"
+  },
+  "topics": [
+    {
+      "id": "genie-4-world-simulation",
+      "zhHeadline": "Genie 4让场景边走边改，原生声音也参与交互",
+      "enHeadline": "Genie 4 lets a scene change as you explore, with native sound",
+      "eventAt": "2026-10-27T16:13:00Z",
+      "freshness": "main",
+      "evidence": "vendor capability statements and demonstrations; not independent testing",
+      "eventDateNote": "Exact issuer datePublished from root-read official metadata/JSON-LD; modified2026-10-27T17:48:44.831076Z is separate.",
+      "event_key": "google:genie:4:trusted-tester-preview",
+      "product_key": "google:genie",
+      "publishedAt": "2026-10-27T16:13:00Z",
+      "observedAt": "2026-10-28T08:20:11.918511+00:00",
+      "delta_since_last_seen": "Gemini helps plan and check the scene; generated robot actions are not physical execution, and visual plausibility does not prove physical correctness."
+    },
+    {
+      "id": "apple-creator-context-editing",
+      "zhHeadline": "Apple把生成结果留在图层和工程里，创作助手计划十一月加入",
+      "enHeadline": "Apple plans editable AI layers and project-aware assistants for November",
+      "eventAt": "2026-10-27",
+      "freshness": "near-three-day",
+      "evidence": "confirmed product announcement; vendor demonstration, no independent test",
+      "eventDateNote": "day; issuer displayed date without clock/timezone",
+      "event_key": "apple:creator-studio:apple-creator-context-editing:2026-10-27",
+      "product_key": "apple:creator-studio",
+      "publishedAt": "2026-10-27",
+      "observedAt": "2026-10-28T08:16:00Z",
+      "delta_since_last_seen": "Logic and the productivity apps gain contextual assistants; MCP separately exposes editing to external agents on Mac. These are distinct application capabilities."
+    },
+    {
+      "id": "runway-app-studio-reusable-tools",
+      "zhHeadline": "Runway把调好的生成流程做成小应用，让同事只填需要的输入",
+      "enHeadline": "Runway packages a working generation recipe into an app teammates can reuse",
+      "eventAt": "2026-10-26",
+      "freshness": "near-three-day",
+      "evidence": "confirmed product announcement; vendor demonstration, no independent test",
+      "eventDateNote": "day; issuer displayed date without clock/timezone",
+      "event_key": "runway:app-studio:runway-app-studio-reusable-tools:2026-10-26",
+      "product_key": "runway:app-studio",
+      "publishedAt": "2026-10-26",
+      "observedAt": "2026-10-28T08:16:00Z",
+      "delta_since_last_seen": "Point at an element in the preview to request changes, then publish the shared version. App Studio was announced October 26; Ads was already announced in September."
+    },
+    {
+      "id": "ipad-mini-a20-portable-editing",
+      "zhHeadline": "新iPad mini把OLED与本地AI装进小机身，神经引擎要按容量选",
+      "enHeadline": "The new iPad mini combines a compact OLED workspace with configuration-dependent AI hardware",
+      "eventAt": "2026-10-26",
+      "freshness": "near-three-day",
+      "evidence": "confirmed product announcement; vendor demonstration, no independent test",
+      "eventDateNote": "day; issuer displayed date without clock/timezone",
+      "event_key": "apple:ipad-mini:ipad-mini-a20-portable-editing:2026-10-26",
+      "product_key": "apple:ipad-mini",
+      "publishedAt": "2026-10-26",
+      "observedAt": "2026-10-28T08:16:00Z",
+      "delta_since_last_seen": "A20 Pro supports on-device models, but the dual 16-core Neural Engine belongs to the 512 GB configuration, not every capacity."
+    },
+    {
+      "id": "apple-m6-macs-oct27",
+      "zhHeadline": "M6进入MacBook Pro和iMac，本地模型先看内存再看芯片名",
+      "enHeadline": "M6 reaches MacBook Pro and iMac; local models still need enough memory",
+      "eventAt": "2026-10-27",
+      "freshness": "near-three-day",
+      "evidence": "Vendor product documentation and release; no independent performance replication.",
+      "eventDateNote": "day; exact release clock and timezone unverified; lower main-window boundary uncertain",
+      "event_key": "apple-m6-macs-oct27:2026-10-27",
+      "product_key": "apple-m6-macs-oct27",
+      "publishedAt": "2026-10-27",
+      "observedAt": "2026-10-28T08:09:08Z",
+      "delta_since_last_seen": "GPU Neural Accelerators and a Dual 16-core Neural Engine support AI. The M6 laptop tops out at 32 GB unified memory, limiting which models fit."
+    },
+    {
+      "id": "dreame-l40-gen2-lab-review",
+      "zhHeadline": "L40 Ultra Gen 2能擦净污渍，但新评测仍要求先收走电线",
+      "enHeadline": "L40 Ultra Gen 2 cleans stains, but a new test leaves floor preparation to you",
+      "eventAt": "2026-10-27",
+      "freshness": "near-three-day",
+      "evidence": "Vacuum Wars bought and tested the unit; not tested by this publication. Product specifications separately attributed to manufacturer.",
+      "eventDateNote": "day; exact release clock and timezone unverified; lower main-window boundary uncertain",
+      "event_key": "dreame-l40-gen2-lab-review:2026-10-27",
+      "product_key": "dreame-l40-gen2-lab-review",
+      "publishedAt": "2026-10-27",
+      "observedAt": "2026-10-28T08:09:08Z",
+      "delta_since_last_seen": "The October 27 purchased-unit test reports strong mopping but avoidance of only two of 24 obstacles. This is new evidence, not a launch."
+    },
+    {
+      "id": "suishenxing-xiaojiao-ciie",
+      "zhHeadline": "小交把进博停车与步行指引接进对话，预约仍在服务卡片内完成",
+      "enHeadline": "Xiaojiao finds the parking and walking guide behind a travel question",
+      "eventAt": "2026-10-26",
+      "freshness": "near-three-day",
+      "evidence": "Shanghai Transport official guide republished by CIIE; provider screenshots and reporter observation; not independent task testing",
+      "eventDateNote": "Earliest Shanghai Transport official-account search rendering dated Oct26 18:45 Shanghai; direct open failed. CIIE official guide dated Oct27, day precision. Do not reset launch to later syndication.",
+      "event_key": "suishenxing:xiaojiao-ciie:2026-10-26",
+      "product_key": "suishenxing:xiaojiao-ciie",
+      "publishedAt": "2026-10-27",
+      "observedAt": "2026-10-28T08:11:36.320324+00:00",
+      "delta_since_last_seen": "Parking still requires choosing an area, car park and time slot and entering a plate number. Another question retrieves the walking-guide video. A lookup card also retrieves the existing booking so the visitor can check the vehicle and arrival period."
+    },
+    {
+      "id": "survival-llm-034",
+      "zhHeadline": "Survival LLM补上空答案重试，并标清离线回答究竟读了什么",
+      "enHeadline": "Survival LLM retries blank answers and shows what it actually read",
+      "eventAt": "2026-10-28T03:53:08Z",
+      "freshness": "main",
+      "evidence": "GitHub release and issues; author documentation; no independent execution test",
+      "eventDateNote": "GitHub release published_at exact UTC; website labels October27 without timezone",
+      "event_key": "github:anonnerdfrenzy/survival-llm:v0.3.4",
+      "product_key": "github:anonnerdfrenzy/survival-llm",
+      "publishedAt": "2026-10-28T03:53:08Z",
+      "observedAt": "2026-10-28T08:18:00Z",
+      "delta_since_last_seen": "Version 0.3.4 adds reasoning budgets, retries empty responses once with retrieved material, and distinguishes memory, opened articles and search-result-only evidence."
+    },
+    {
+      "id": "pumpkin-090-engine-rollback",
+      "zhHeadline": "Pumpkin替本地模型挑引擎，升级后聊不通还能退回上一版",
+      "enHeadline": "Pumpkin updates local model engines and rolls back broken chat compatibility",
+      "eventAt": "2026-10-27T21:13:35Z",
+      "freshness": "main",
+      "evidence": "Author release notes and documentation; actual repository screenshot inspected; no execution test",
+      "eventDateNote": "GitHub release published_at exact UTC",
+      "event_key": "github:geobellingham/pumpkin:v0.9.0",
+      "product_key": "github:geobellingham/pumpkin",
+      "publishedAt": "2026-10-27T21:13:35Z",
+      "observedAt": "2026-10-28T08:22:00Z",
+      "delta_since_last_seen": "Version 0.9.0 adds engine update choices and a first-run compatibility check that restores the previous build if chat breaks."
+    },
+    {
+      "id": "liquid-lfm3-specialized-local-models",
+      "zhHeadline": "LFM3把文字、视频与语音分成小模型，端侧应用按任务选输入",
+      "enHeadline": "LFM3 gives local applications a choice of small text, vision and voice models",
+      "eventAt": "2026-10-27",
+      "freshness": "near-three-day",
+      "evidence": "confirmed product announcement; vendor demonstration, no independent test",
+      "eventDateNote": "day; issuer displayed date without clock/timezone",
+      "event_key": "liquid:lfm3:liquid-lfm3-specialized-local-models:2026-10-27",
+      "product_key": "liquid:lfm3",
+      "publishedAt": "2026-10-27",
+      "observedAt": "2026-10-28T08:31:15.989657+00:00",
+      "delta_since_last_seen": "A shared backbone combines short convolutions with local and global attention, adding modality-specific encoders. The author provides single-GPU fine-tuning paths; applications execute actions."
+    },
+    {
+      "id": "gpt-61-terra-visual-computer-use",
+      "zhHeadline": "GPT-6.1 Terra降低读图与操作电脑的用量价格，动作仍需应用执行",
+      "enHeadline": "GPT-6.1 Terra lowers the token price of visual and computer-based work",
+      "eventAt": "2026-10-26",
+      "freshness": "near-three-day",
+      "evidence": "confirmed product announcement; vendor demonstration, no independent test",
+      "eventDateNote": "day; issuer displayed date without clock/timezone",
+      "event_key": "openai:gpt-6.1-terra:gpt-61-terra-visual-computer-use:2026-10-26",
+      "product_key": "openai:gpt-6.1-terra",
+      "publishedAt": "2026-10-26",
+      "observedAt": "2026-10-28T08:31:15.989657+00:00",
+      "delta_since_last_seen": "Standard API pricing is $1 per million input tokens and $5 per million output tokens, with cached reads priced separately. Completed-task savings depend on actual use."
+    },
+    {
+      "id": "hi3d-v1-geometry",
+      "zhHeadline": "Hi3D v1.0把粗网格细化成更密的几何，纹理和真实尺寸仍要另做",
+      "enHeadline": "Hi3D v1.0 refines coarse geometry while leaving texture and scale to the workflow",
+      "eventAt": "2026-10-23",
+      "freshness": "seven-day",
+      "evidence": "developer surface; official inference documentation and author comparison figures; custom license, not asserted OSI open source",
+      "eventDateNote": "Official README and model card explicitly released October23, day precision; Oct27 media story is late coverage.",
+      "event_key": "github:hi3d-official/Hi3Dv1.0:release:2026-10-23",
+      "product_key": "github:hi3d-official/Hi3Dv1.0",
+      "publishedAt": "2026-10-23",
+      "observedAt": "2026-10-28T08:16:31.683263+00:00",
+      "delta_since_last_seen": "The 1536³ label describes a sparse extraction grid, not triangle count. Outputs have no textures and do not preserve absolute scale."
+    },
+    {
+      "id": "pulsedev-local-ui-fixes",
+      "zhHeadline": "PulseDev把页面上圈出的错误交给编程代理，连同截图和报错一起传",
+      "enHeadline": "PulseDev sends a selected UI bug to your coding agent with its context",
+      "eventAt": "2026-10-26",
+      "freshness": "near-three-day",
+      "evidence": "Vendor documentation and maker explanation; not independent hands-on",
+      "eventDateNote": "Official changelog day only; no timezone; Oct27 PH appearance is separate discovery; v0.8.5 Oct27 adds release notes.",
+      "event_key": "pulsedev:v0.8.4:bundled-server-context",
+      "product_key": "domain:pulsedev.app",
+      "publishedAt": "2026-10-26",
+      "observedAt": "2026-10-28T08:30:00Z",
+      "delta_since_last_seen": "October 26 version 0.8.4 bundles the server into the Mac app. The October 27 PH appearance and release-note interface are separate events."
+    },
+    {
+      "id": "theysaid-4-synthetic-workflow",
+      "zhHeadline": "TheySaid 4.0把模拟试用接到设计工具和工单，反馈仍需真人核对",
+      "enHeadline": "TheySaid 4.0 brings synthetic tests into design tools and tickets",
+      "eventAt": "2026-10-27",
+      "freshness": "near-three-day",
+      "evidence": "Vendor release and study; no independent validation of simulated behavior",
+      "eventDateNote": "PH dated October27 appearance; exact clock/timezone and individual feature availability unconfirmed; lower24h boundary uncertain",
+      "event_key": "theysaid:v4:ph-2026-10-27",
+      "product_key": "domain:theysaid.io",
+      "publishedAt": "2026-10-27",
+      "observedAt": "2026-10-28T08:35:00Z",
+      "delta_since_last_seen": "MCP connects test creation, clip selection and summaries to clients such as Claude, reducing repeated movement of links and research artifacts."
+    },
+    {
+      "id": "nuvio5-actions",
+      "zhHeadline": "Nuvio把聊天请求写入账目，保存前先展示具体记录",
+      "enHeadline": "Nuvio turns requests into records, showing the entry before saving",
+      "eventAt": "2026-10-23",
+      "freshness": "seven-day",
+      "evidence": "Official release and pricing documentation; not independently tested",
+      "eventDateNote": "Official release day; exact clock/timezone absent. October27 Product Hunt appearance is later discovery.",
+      "event_key": "nuvio:5.0.0:2026-10-23",
+      "product_key": "nuvio",
+      "publishedAt": "2026-10-23",
+      "observedAt": "2026-10-28T08:17:38.903629+00:00",
+      "delta_since_last_seen": "External agents connect to a chosen company under the member’s role. Settings show recent usage and let the user disconnect access for that company."
+    },
+    {
+      "id": "overmind-trace-evidence",
+      "zhHeadline": "Overmind让轨迹里的问题、工具和答案重新可读，训练前少丢一层证据",
+      "enHeadline": "Overmind makes trace inputs, tools and answers readable before training",
+      "eventAt": "2026-10-27",
+      "freshness": "near-three-day",
+      "evidence": "developer surface; vendor documentation, not independent test",
+      "eventDateNote": "day; source does not establish clock or timezone; October27 lower-window boundary unresolved",
+      "event_key": "github:overmind-core/overmind:overmind-trace-evidence:2026-10-27",
+      "product_key": "github:overmind-core/overmind",
+      "publishedAt": "2026-10-27",
+      "observedAt": "2026-10-28T08:24:38.553338+00:00",
+      "delta_since_last_seen": "Batch document ingestion now preserves useful files when one page has no extracted text, recording that page separately."
+    },
+    {
+      "id": "paddock-agent-computers",
+      "zhHeadline": "Paddock给每个代理一台Linux电脑，回滚恢复磁盘而不是运行记忆",
+      "enHeadline": "Paddock gives each agent a Linux box, with disk rollback rather than saved memory",
+      "eventAt": "2026-10-25",
+      "freshness": "seven-day",
+      "evidence": "developer surface; vendor documentation, not independent test",
+      "eventDateNote": "October25 release day, clock/timezone absent; lower72h boundary uncertain. October27 is PH discovery.",
+      "event_key": "github:tony1908/paddock:paddock-agent-computers:2026-10-25",
+      "product_key": "github:tony1908/paddock",
+      "publishedAt": "2026-10-25",
+      "observedAt": "2026-10-28T08:24:38.553338+00:00",
+      "delta_since_last_seen": "The initial single-VPS release is dated October 25; October 27 is its Product Hunt appearance, not a new first launch."
+    },
+    {
+      "id": "zed-box2-multicamera",
+      "zhHeadline": "ZED Box 2把多相机同步和边缘计算装进同一台机器人电脑",
+      "enHeadline": "ZED Box 2 puts camera synchronization beside onboard perception",
+      "eventAt": "2026-10-27",
+      "freshness": "near-three-day",
+      "evidence": "Vendor product documentation and release; no independent performance replication.",
+      "eventDateNote": "day; exact release clock and timezone unverified; lower main-window boundary uncertain",
+      "event_key": "zed-box2-multicamera:2026-10-27",
+      "product_key": "zed-box2-multicamera",
+      "publishedAt": "2026-10-27",
+      "observedAt": "2026-10-28T08:09:08Z",
+      "delta_since_last_seen": "The standard model uses Orin NX; Max adds Jetson Thor and more connectivity while retaining the camera software stack."
+    },
+    {
+      "id": "copilot-organization-identity",
+      "zhHeadline": "Copilot服务能以组织身份运行，但单个应用仍没有独立预算",
+      "enHeadline": "Copilot services get an organization identity, without per-app budgets",
+      "eventAt": "2026-10-27",
+      "freshness": "near-three-day",
+      "evidence": "developer surface; vendor documentation, not independent test",
+      "eventDateNote": "day; source does not establish clock or timezone; October27 lower-window boundary unresolved",
+      "event_key": "github:copilot-sdk:copilot-organization-identity:2026-10-27",
+      "product_key": "github:copilot-sdk",
+      "publishedAt": "2026-10-27",
+      "observedAt": "2026-10-28T08:12:26.790897+00:00",
+      "delta_since_last_seen": "Organization model policies still apply. App identifiers in CSV reports support attribution, which the usage dashboard does not yet expose."
+    },
+    {
+      "id": "harness-image-inputs",
+      "zhHeadline": "HarnessAgent把截图和文字放进同一请求，换代理少改一层输入代码",
+      "enHeadline": "HarnessAgent accepts screenshots and text through one input shape",
+      "eventAt": "2026-10-27",
+      "freshness": "near-three-day",
+      "evidence": "developer surface; vendor documentation, not independent test",
+      "eventDateNote": "day; source does not establish clock or timezone; October27 lower-window boundary unresolved",
+      "event_key": "vercel:ai-sdk-harness:harness-image-inputs:2026-10-27",
+      "product_key": "vercel:ai-sdk-harness",
+      "publishedAt": "2026-10-27",
+      "observedAt": "2026-10-28T08:12:26.790897+00:00",
+      "delta_since_last_seen": "Ten existing adapters are listed, including Claude Code, Codex, Cursor, Copilot and OpenCode. Shared input does not imply identical visual understanding."
+    },
+    {
+      "id": "vercel-agent-alert-validation",
+      "zhHeadline": "Vercel先调查告警再呼叫值班，过滤规则也会增加等待",
+      "enHeadline": "Vercel investigates an alert before paging the on-call engineer",
+      "eventAt": "2026-10-26",
+      "freshness": "near-three-day",
+      "evidence": "developer surface; vendor documentation, not independent test",
+      "eventDateNote": "October26 alert validation and October27 session cost update; day precision, clock/timezone unverified",
+      "event_key": "vercel:agent:alert-validation-2026-10-26:cost-update-2026-10-27",
+      "product_key": "vercel:agent",
+      "publishedAt": "2026-10-27",
+      "observedAt": "2026-10-28T08:17:05.353715+00:00",
+      "delta_since_last_seen": "Validation was announced October 26; October 27 brought context and cache changes. The vendor’s 67% average session saving is not a per-investigation guarantee."
+    },
+    {
+      "id": "agent-fabric-budget-evals",
+      "zhHeadline": "Agent Fabric宣布预算硬上限，评估触发停机仍在后续时间表",
+      "enHeadline": "Agent Fabric announces budget ceilings; evaluation-triggered shutdown comes later",
+      "eventAt": "2026-10-27",
+      "freshness": "near-three-day",
+      "evidence": "developer surface; vendor documentation, not independent test",
+      "eventDateNote": "day; source does not establish clock or timezone; October27 lower-window boundary unresolved",
+      "event_key": "salesforce:agent-fabric:agent-fabric-budget-evals:2026-10-27",
+      "product_key": "salesforce:agent-fabric",
+      "publishedAt": "2026-10-27",
+      "observedAt": "2026-10-28T08:17:05.353715+00:00",
+      "delta_since_last_seen": "Agent Evals and API Evals are scheduled for November beta and January GA; triggered shutdown is also due in January 2027."
+    },
+    {
+      "id": "unlimited-ocr2-long-documents",
+      "zhHeadline": "Unlimited OCR 2连续解析长文档，把拆页与上下文衔接留在服务端",
+      "enHeadline": "Unlimited OCR 2 keeps long-document parsing and page handoffs together",
+      "eventAt": "2026-10-26",
+      "freshness": "near-three-day",
+      "evidence": "developer surface; official MIT repository/model card and author benchmark; no inference reproduced",
+      "eventDateNote": "README release dated Oct27; Hugging Face history shows Upload UnlimitedOCR2 Oct26 without exposed timezone. Earlier artifacts not reset to later announcement;72h supplement.",
+      "event_key": "github:baidu/Unlimited-OCR:v2:2026-10-26-artifacts",
+      "product_key": "github:baidu/Unlimited-OCR",
+      "publishedAt": "2026-10-27",
+      "observedAt": "2026-10-28T08:19:25.834824+00:00",
+      "delta_since_last_seen": "SR-SWA limits each step to a fixed-size reference set instead of revisiting the entire document in every attention calculation."
+    },
+    {
+      "id": "cross-user-emg",
+      "zhHeadline": "肌电手势少做个人校准，但指令仍须等动作分段",
+      "enHeadline": "EMG gestures reduce personal calibration, but still depend on segmentation",
+      "eventAt": "2026-10-27T15:05:37Z",
+      "freshness": "main",
+      "evidence": "research signal; author-reported experiment, no independent reproduction",
+      "eventDateNote": "Exact arXiv v1 submission clock; public announcement clock unconfirmed.",
+      "event_key": "arxiv:2610.37374:v1",
+      "product_key": "arxiv:2610.37374",
+      "publishedAt": "2026-10-27T15:05:37Z",
+      "observedAt": "2026-10-28T08:17:22.629210+00:00",
+      "delta_since_last_seen": "The best configuration reached 96.1% accuracy on fourteen-person continuous data; the reported 700 ms prompt-to-prediction delay includes performing the gesture."
+    },
+    {
+      "id": "hilmarts",
+      "zhHeadline": "HILMARTS用移动平板对齐模型，再提示哪里还没扫全",
+      "enHeadline": "HILMARTS aligns a model by moving the tablet, then shows missing scan coverage",
+      "eventAt": "2026-10-27T14:02:24Z",
+      "freshness": "main",
+      "evidence": "research signal; author-reported experiment, no independent reproduction",
+      "eventDateNote": "Exact arXiv v1 submission clock; public announcement clock unconfirmed.",
+      "event_key": "arxiv:2610.37271:v1",
+      "product_key": "arxiv:2610.37271",
+      "publishedAt": "2026-10-27T14:02:24Z",
+      "observedAt": "2026-10-28T08:17:22.629210+00:00",
+      "delta_since_last_seen": "A surface-coverage score indicates incomplete capture and gates registration, helping operators judge whether more scanning is required before proceeding."
+    },
+    {
+      "id": "botlens",
+      "zhHeadline": "BotLens把机器人评价拆成隐私线索，不用星级代替判断",
+      "enHeadline": "BotLens exposes privacy discussion behind a bot’s star rating",
+      "eventAt": "2026-10-27T04:31:30Z",
+      "freshness": "near-three-day",
+      "evidence": "research signal; author-reported experiment, no independent reproduction",
+      "eventDateNote": "Exact arXiv v1 submission clock; public announcement clock unconfirmed.",
+      "event_key": "arxiv:2610.36626:v1",
+      "product_key": "arxiv:2610.36626",
+      "publishedAt": "2026-10-27T04:31:30Z",
+      "observedAt": "2026-10-28T08:17:22.629210+00:00",
+      "delta_since_last_seen": "The dataset contains over 23,000 bots and 183,000 processed reviews ending in February 2026; the new evidence is the paper and prototype."
+    },
+    {
+      "id": "cogarena",
+      "zhHeadline": "CogArena分开检查代理是否做完、答对与像人",
+      "enHeadline": "CogArena separates finishing, accuracy and humanlike behavior",
+      "eventAt": "2026-10-27T01:42:35Z",
+      "freshness": "near-three-day",
+      "evidence": "research signal; author-reported experiment, no independent reproduction",
+      "eventDateNote": "Exact arXiv v1 submission clock; public announcement clock unconfirmed.",
+      "event_key": "arxiv:2610.36484:v1",
+      "product_key": "arxiv:2610.36484",
+      "publishedAt": "2026-10-27T01:42:35Z",
+      "observedAt": "2026-10-28T08:17:22.629210+00:00",
+      "delta_since_last_seen": "Four economy-tier models ran ten sessions per task: only 167 of 400 sessions passed every completion check in the reported experiment."
+    },
+    {
+      "id": "over-compliant-refactoring",
+      "zhHeadline": "反复重构让代理继续改动已经完成的代码",
+      "enHeadline": "Repeated refactoring requests can keep an agent editing after completion",
+      "eventAt": "2026-10-26T22:12:50Z",
+      "freshness": "near-three-day",
+      "evidence": "research signal; author-reported experiment, no independent reproduction",
+      "eventDateNote": "Exact arXiv v1 submission clock; public announcement clock unconfirmed.",
+      "event_key": "arxiv:2610.36346:v1",
+      "product_key": "arxiv:2610.36346",
+      "publishedAt": "2026-10-26T22:12:50Z",
+      "observedAt": "2026-10-28T08:17:22.629210+00:00",
+      "delta_since_last_seen": "Across sixty Java codebases, five models and 3,000 turns, only 454 turns made no edits. Roughly 31 times describes cumulative churn, not final size."
+    }
+  ],
+  "eventCounts": {
+    "mainWindowEvents": 5,
+    "nearThreeDayReviews": 20,
+    "sevenDayReviews": 3,
+    "interpretation": "Announcements, submissions, updates and regional reports; not first product launches."
+  }
+}
