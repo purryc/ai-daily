@@ -2,15 +2,83 @@
   {
     "kind": "image",
     "renderImage": true,
-    "name": "rokid-color-launch.jpg",
-    "url": "https://img.ithome.com/newsuploadfiles/2026/10/f3adf86c-364e-46ce-b83a-32f4cd88b810.jpg?x-bce-process=image/quality,q_75/format,f_webp",
+    "name": "zed-box2.jpg",
+    "url": "https://mms.businesswire.com/media/20261027977847/en/2947436/4/2_Stereolabs_ZED_Box_2_with_4_ZED_X_stereo_cameras_and_4_ZED_X_One_S_connected.jpg",
     "locale": "zh"
   },
   {
     "kind": "image",
     "renderImage": true,
-    "name": "pandora-panel-front.jpg",
-    "url": "https://blog.christianperone.com/wp-content/uploads/2026/10/DSC09814-699x466.jpg",
+    "name": "anymal-x.jpg",
+    "url": "https://www.anybotics.com/wp-content/uploads/2026/10/ANY_26_10-AMX-Launch-Photography-13-1024x683.jpg",
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "xiaojiao.jpg",
+    "url": "https://imgpai.thepaper.cn/newpai/image/1793102981342_i6m7Re_1793103001908.jpg?x-oss-process=image%2Fresize%2Cw_1024",
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "apple-creator.jpg",
+    "url": "https://www.apple.com/newsroom/images/2026/10/apple-creator-studio-adds-powerful-new-ai-features-and-even-more-creative-tools/article/Apple-Creator-Studio-Pixelmator-Pro-Generate-Fill-261027_big.jpg.large.jpg",
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "ipad-mini.jpg",
+    "url": "https://www.apple.com/newsroom/images/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/article/Apple-iPad-mini-ZBrush-261026_big.jpg.large.jpg",
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "runway-appstudio.jpg",
+    "url": "https://help.runwayml.com/hc/article_attachments/56447626041875",
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "survival-llm.jpg",
+    "url": "https://www.brangus.io/survival-llm/screenshot.png",
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "emg-control.jpg",
+    "url": "https://arxiv.org/html/2610.37374v1/Figures/continuous_stream.png",
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "vercel-alert.jpg",
+    "url": "https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/4EiKFVdXFOOJLczGa0JT7C/54fe141864e199e141c6143fab63ee73/alert-validation-desktop-light.png",
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "renderImage": true,
+    "name": "agentfabric.jpg",
+    "url": "https://www.salesforce.com/news/wp-content/uploads/sites/3/2026/10/Screenshot-2026-10-15-at-4.11.38-PM.png?w=1024",
+    "locale": "en"
+  },
+  {
+    "kind": "inventory",
+    "name": "genie-inventory.json",
+    "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+    "locale": "zh"
+  },
+  {
+    "kind": "inventory",
+    "name": "sap-video-inventory.json",
+    "url": "https://dam.sap.com/mac/app/e/video/embed/RyD1bgK?ltr=a&rc=10&doi=SAP1358589&includeSapBrandedWraper=true",
     "locale": "en"
   }
 ]
