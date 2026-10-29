@@ -2,29 +2,15 @@
   {
     "kind": "image",
     "renderImage": true,
-    "name": "ccore.jpg",
-    "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder/resolve/main/images/roma3.png",
+    "name": "echo-dot.jpg",
+    "url": "https://assets.aboutamazon.com/a0/4c/f00680bf4836ae86af9e709a8bd8/echodot-hero-amazonnews-ck102526.png",
     "locale": "zh"
   },
   {
     "kind": "image",
     "renderImage": true,
-    "name": "peers4u.jpg",
-    "url": "https://arxiv.org/html/2610.37238v1/figures/4-UI.png",
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "copilot-app.jpg",
-    "url": "https://github.blog/wp-content/uploads/2026/11/679056306-3aa8eb70-0db8-486a-8009-572eccef3284.jpg?resize=2064%2C1096",
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "microsoft-ads.jpg",
-    "url": "https://about.ads.microsoft.com/adobe/dynamicmedia/deliver/dm-aid--a3654241-35d9-46c1-8604-d9abc2c9549e/pub-bodyimage-91130-844x693.png?preferwebp=true&quality=85",
+    "name": "echo-studio-liveview.jpg",
+    "url": "https://assets.aboutamazon.com/09/63/3c2c2cb4475990bfa7de22569f15/echostudiowithhomecamera-inline-amazonnews-ck102326.png",
     "locale": "en"
   }
 ]
