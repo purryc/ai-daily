@@ -2,113 +2,29 @@
   {
     "kind": "image",
     "renderImage": true,
-    "name": "bytemail.jpg",
-    "url": "https://bytemailapp.com/img/mcp/approval.png?v=1793232082",
+    "name": "ccore.jpg",
+    "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder/resolve/main/images/roma3.png",
     "locale": "zh"
   },
   {
     "kind": "image",
     "renderImage": true,
-    "name": "hob.jpg",
-    "url": "https://ph-files.imgix.net/d7d23e0a-3d31-455e-bef9-9e8cdab1bed7.png",
+    "name": "peers4u.jpg",
+    "url": "https://arxiv.org/html/2610.37238v1/figures/4-UI.png",
     "locale": "en"
   },
   {
     "kind": "image",
     "renderImage": true,
-    "name": "airposture.jpg",
-    "url": "https://ph-files.imgix.net/67da13b0-d26e-4de2-8b73-4fa6569a3ebc.png",
+    "name": "copilot-app.jpg",
+    "url": "https://github.blog/wp-content/uploads/2026/11/679056306-3aa8eb70-0db8-486a-8009-572eccef3284.jpg?resize=2064%2C1096",
     "locale": "zh"
   },
   {
     "kind": "image",
     "renderImage": true,
-    "name": "appstore-screenshots.jpg",
-    "url": "https://ph-files.imgix.net/ab174cf3-e0f0-4eac-8547-2d6e2e044373.png",
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "show16.jpg",
-    "url": "https://assets.aboutamazon.com/7f/79/f56c293c42fe9d939af99112925a/echoshow16-inline-amazonnews-ck101526.png",
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "homemap.jpg",
-    "url": "https://assets.aboutamazon.com/49/3d/713b95d0491191ee0c3c11120ec2/alexahomemap-hero-amazonnews-ck102626.jpg",
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "echotime.jpg",
-    "url": "https://assets.aboutamazon.com/55/e2/887d99e84bb6b250e22ca74534b1/echotime-lifestyle-hero-amazonnews-ck102526.png",
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "photoframe.jpg",
-    "url": "https://assets.aboutamazon.com/f2/ec/c82431e14b9e8b7a3eb665cedcd7/alexaphotoframe-inline-amazonnews-ck102526.png",
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "echostudio.jpg",
-    "url": "https://assets.aboutamazon.com/ee/39/5710fd5842a99ca69f88eb92d40a/echostudio-hero-amazonnews-ck102326.png",
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "apple-touch.jpg",
-    "url": "https://developer.apple.com/touch-on-mac/images/mbpt-hero_2x.png",
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "agentic-workflows.jpg",
-    "url": "https://github.blog/wp-content/uploads/2026/10/605360150-74ec2653-4565-4c79-b467-a9d296725e8f.jpg?resize=2064%2C1016",
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "fusion.jpg",
-    "url": "https://github.blog/wp-content/uploads/2026/11/683297831-90d4b889-b7d4-4473-93fc-e75bb8595652.png?resize=2064%2C1056",
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "automations.jpg",
-    "url": "https://github.blog/wp-content/uploads/2026/11/679691292-a8f3baf0-700e-442a-9b09-8fa4b1f684e9.jpg?resize=2064%2C1096",
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "secret-push.jpg",
-    "url": "https://github.blog/wp-content/uploads/2026/11/683171547-72fa1d37-5adb-478f-a312-619e4c0da46e.png?resize=2064%2C1084",
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "polygandr.jpg",
-    "url": "https://arxiv.org/html/2610.37446v1/figures/ui-cat.png",
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "roop.jpg",
-    "url": "https://arxiv.org/html/2610.37469v1/teaser-variation-3.png",
+    "name": "microsoft-ads.jpg",
+    "url": "https://about.ads.microsoft.com/adobe/dynamicmedia/deliver/dm-aid--a3654241-35d9-46c1-8604-d9abc2c9549e/pub-bodyimage-91130-844x693.png?preferwebp=true&quality=85",
     "locale": "en"
   }
 ]
