@@ -1,9 +1,1 @@
-[
-  {
-    "kind": "page",
-    "name": "connected-apps-console.jpg",
-    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/connected-apps-one-place/",
-    "selector": "img[src*=\"Applist\"]",
-    "locale": "zh"
-  }
-]
+[]

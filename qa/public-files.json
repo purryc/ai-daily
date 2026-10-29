@@ -4960,6 +4960,406 @@
     "sha256": "950dbca8063ae69b943beb0c4a8d141c14e3855534d466080fee61bc29850c6d"
   },
   {
+    "path": "2026-10-29/assets/agentic-workflows.jpg",
+    "bytes": 74470,
+    "sha256": "ba4b04d42d1bac7e0b390107543c8a4adc40b3e7a10ed7240f9194148fe168e1"
+  },
+  {
+    "path": "2026-10-29/assets/apple-touch.jpg",
+    "bytes": 145767,
+    "sha256": "378258e28b4d48b427ad98892f6a948677bbfe2afc704d0eb2ec1008eb9b3c9b"
+  },
+  {
+    "path": "2026-10-29/assets/automations.jpg",
+    "bytes": 85277,
+    "sha256": "179fb55cdb5138d60c85d45fb58438366eb7e1fd940c882fe7f5540a0e408562"
+  },
+  {
+    "path": "2026-10-29/assets/bytemail.jpg",
+    "bytes": 70455,
+    "sha256": "b3dbc85f08c8202eb95816d7f6b61c46af9a6ac36803b5279c1941e90e4c83d7"
+  },
+  {
+    "path": "2026-10-29/assets/ccore.jpg",
+    "bytes": 139630,
+    "sha256": "4b975d6b1f6a640ab518ef25f2297591d5258cbd91b34ba90cc60538721798fd"
+  },
+  {
+    "path": "2026-10-29/assets/claude-enterprise-surveys.jpg",
+    "bytes": 89542,
+    "sha256": "5d84d8e61a7611d02971c098f91dab3e4cd894f6e76852ead307650073be1fcc"
+  },
+  {
+    "path": "2026-10-29/assets/concordat-source-flow.png",
+    "bytes": 53102,
+    "sha256": "8b6ee534de687cf07d7732e832e1afe1d7de295a7efdd085cb2e86715f4f3828"
+  },
+  {
+    "path": "2026-10-29/assets/connected-apps-console.jpg",
+    "bytes": 38686,
+    "sha256": "001a72028981eac276164e50afe69a0e1cb12f45ad22f915f0f3cd64057bed7b"
+  },
+  {
+    "path": "2026-10-29/assets/copilot-app.jpg",
+    "bytes": 76516,
+    "sha256": "e5ef8bb8bb826726a8d4d2af6561144f8f37224ac65f59e55d7e52d150d3631d"
+  },
+  {
+    "path": "2026-10-29/assets/deck.js",
+    "bytes": 2576,
+    "sha256": "63d13c06452d7405e0b5ed572d8464d802c9e5b8de656b5a94e3527b1730f7b3"
+  },
+  {
+    "path": "2026-10-29/assets/echo-dot.jpg",
+    "bytes": 163217,
+    "sha256": "0d1d4602243ad6066261a4cf0d3c822d3f572debeafc1f633ac4b0cac182c9a8"
+  },
+  {
+    "path": "2026-10-29/assets/echo-studio-liveview.jpg",
+    "bytes": 99933,
+    "sha256": "52efad640fc3700296909fa8831d25cff2a81df906cc63556a173e4ba72c4cbe"
+  },
+  {
+    "path": "2026-10-29/assets/echotime.jpg",
+    "bytes": 233648,
+    "sha256": "b44462035ac57639090d0ff7e4f1dc562791db66c966bdd0aaa8ec29f43ae92d"
+  },
+  {
+    "path": "2026-10-29/assets/fusion.jpg",
+    "bytes": 55428,
+    "sha256": "fe403b054356ea50d91c5197316e0c5f561d822a0fc556b1bad49903b50d247f"
+  },
+  {
+    "path": "2026-10-29/assets/gemini4-carbon-preview-source-flow.png",
+    "bytes": 63981,
+    "sha256": "e1a1dc0457e57b1613cb0892b0aec740bc206534e4c1fd0476776b4e0d25924e"
+  },
+  {
+    "path": "2026-10-29/assets/hob-ui.png",
+    "bytes": 342920,
+    "sha256": "3e1ad650e6dc60d376436e2e1e3246f1af906fc5e5da2bf42ce3c493e51a757d"
+  },
+  {
+    "path": "2026-10-29/assets/homemap.jpg",
+    "bytes": 148036,
+    "sha256": "aa87891555cf189ed68394c21274e460316f5604191418351ec60375ae63f981"
+  },
+  {
+    "path": "2026-10-29/assets/issue.css",
+    "bytes": 10285,
+    "sha256": "1e458c07ba855726699c2b9885d466a62a85e04604b22dddcca9a2f3d1ca09e9"
+  },
+  {
+    "path": "2026-10-29/assets/ling-31-flash-weights-source-flow.png",
+    "bytes": 64121,
+    "sha256": "f18e5a4b585f0b88132231b6d6ddcf65c7c27c6b6dcc8256cb0d5a41df4e9253"
+  },
+  {
+    "path": "2026-10-29/assets/microsoft-ads.jpg",
+    "bytes": 61423,
+    "sha256": "593f72205ed4a6734eec4c2df6fbb0a9d2a55a5617b63be6cecfb520b7e0828a"
+  },
+  {
+    "path": "2026-10-29/assets/peers4u.jpg",
+    "bytes": 239997,
+    "sha256": "3242cdbe9af3d8f59545440b76084061152c7bcca2d889d8a0b74d8423367d8c"
+  },
+  {
+    "path": "2026-10-29/assets/photoframe.jpg",
+    "bytes": 221206,
+    "sha256": "a2577727ea0b08e46bd71b75442b7f3e0b5fe9f8359430899db20f5ac15bae2d"
+  },
+  {
+    "path": "2026-10-29/assets/polygandr.jpg",
+    "bytes": 145942,
+    "sha256": "dda91e01bb73fa5030caec8000bc2702e33b94daee7455abdeaadecb028eaecf"
+  },
+  {
+    "path": "2026-10-29/assets/roop.jpg",
+    "bytes": 161955,
+    "sha256": "cb07ebb27b7643cc22c8e7ecb35231a8f8ebb1cc6097b66a5fdedbc2da7431ee"
+  },
+  {
+    "path": "2026-10-29/assets/secret-push.jpg",
+    "bytes": 76107,
+    "sha256": "a7680021f1ebe9f1b069c5a0f01370d9f96f908974fcf21b03c61e88f18da591"
+  },
+  {
+    "path": "2026-10-29/assets/show16.jpg",
+    "bytes": 78458,
+    "sha256": "bfc14e355a308b850bef214df31b3f6b0fab2125828d94730ae70e2605cf6c20"
+  },
+  {
+    "path": "2026-10-29/en/details/alexa-home-map.html",
+    "bytes": 6091,
+    "sha256": "9eb202d0acde09ec23fe04a26d8ee5f2d34f38fd7207a70eb0a054e1520d784b"
+  },
+  {
+    "path": "2026-10-29/en/details/alexa-photo-frame.html",
+    "bytes": 5955,
+    "sha256": "947c983bfdd3ab311b7251c17ccadd7fbc56af8587adb09ab2d42153ead0a92b"
+  },
+  {
+    "path": "2026-10-29/en/details/apple-touch-on-mac.html",
+    "bytes": 5961,
+    "sha256": "646ef0d0f0aaf2443ec7d3d85047be0738a6e27b0100f308dda84216c4a69e88"
+  },
+  {
+    "path": "2026-10-29/en/details/bytemail-190.html",
+    "bytes": 6271,
+    "sha256": "e64e172f182551494e5b0b11a628eb93593f8a42a568e86d1ccd517ee3b8a9fe"
+  },
+  {
+    "path": "2026-10-29/en/details/ccore-threejs-checkpoint.html",
+    "bytes": 6564,
+    "sha256": "41c9bce8e47dc8081549846be5b592457097a3f318311a0a6f6c40e028a2107f"
+  },
+  {
+    "path": "2026-10-29/en/details/claude-enterprise-reports-budgets.html",
+    "bytes": 6564,
+    "sha256": "8985fc52c2801f6a742db5c9f14da7cd221ac2a2b59b83634339c734786a81cb"
+  },
+  {
+    "path": "2026-10-29/en/details/concordat.html",
+    "bytes": 6131,
+    "sha256": "cf4af6a59e502cbdd2e3346e5b8820e5331b70d79c333d7ec3ce63dfa4783cc4"
+  },
+  {
+    "path": "2026-10-29/en/details/copilot-app-projects-computer-use.html",
+    "bytes": 10113,
+    "sha256": "76a9ad4727ab7d2079a37863a2ca4563dcd05018c8cf49f0063e9b78215a51a1"
+  },
+  {
+    "path": "2026-10-29/en/details/copilot-automations-shared.html",
+    "bytes": 6575,
+    "sha256": "dd0f122e6d83e7d3d350e0d4482ab412e98e04ceae9c25f79f61ecbde30f0c58"
+  },
+  {
+    "path": "2026-10-29/en/details/copilot-fusion-routing.html",
+    "bytes": 6591,
+    "sha256": "c958ec76bac586e4571d5e613fcbf0033fccfd4cff1b92c8d1282b31fbe432d0"
+  },
+  {
+    "path": "2026-10-29/en/details/echo-dot-2026.html",
+    "bytes": 5946,
+    "sha256": "60bf5bf837ab1d6e303f600d32af080ad95e9bcf54a47ecf743d95a1cff6db01"
+  },
+  {
+    "path": "2026-10-29/en/details/echo-show16.html",
+    "bytes": 6055,
+    "sha256": "164f8f421c126166edbb00357c8de44470a58cc190132d58bc6224b59e35e154"
+  },
+  {
+    "path": "2026-10-29/en/details/echo-studio-camera.html",
+    "bytes": 6012,
+    "sha256": "7d1ffc45dcbf746a0fd95cc04e216c2c899c24795c2029eb1e106847f9772bfb"
+  },
+  {
+    "path": "2026-10-29/en/details/echo-time.html",
+    "bytes": 6086,
+    "sha256": "9c6d1a53ff7db3ed4609668c6285033496b85007ade4ff2147c1e10a767debce"
+  },
+  {
+    "path": "2026-10-29/en/details/gemini4-carbon-preview.html",
+    "bytes": 6695,
+    "sha256": "47662d317b60d59ca5ba18781591a106f2813e1bd4c6f395a66b56518843812d"
+  },
+  {
+    "path": "2026-10-29/en/details/github-agentic-workflows-ga.html",
+    "bytes": 6513,
+    "sha256": "1134d788b22d5adf04293ca47bcbbfec6f50152839426e3852a228c4dbb555aa"
+  },
+  {
+    "path": "2026-10-29/en/details/github-ai-secret-push-protection.html",
+    "bytes": 6870,
+    "sha256": "36dd6e560d02c784039763ea80a00c525b838a86619a00a8184a13839607b33e"
+  },
+  {
+    "path": "2026-10-29/en/details/google-connected-apps-platform.html",
+    "bytes": 6901,
+    "sha256": "46f9ce4cf78c6340bfcca5821efe01ac880b235bb40ae9f63338de6f8ce7db74"
+  },
+  {
+    "path": "2026-10-29/en/details/hob-local-desktop.html",
+    "bytes": 6297,
+    "sha256": "400acfd7f5c6af5f8c083748fc1a63c51bd7367c457458e533eaa59e01887f2c"
+  },
+  {
+    "path": "2026-10-29/en/details/ling-31-flash-weights.html",
+    "bytes": 6367,
+    "sha256": "8342155622dfae550e99f6f8206d27fb1d29d1b5e286a6536e66a51c33de3889"
+  },
+  {
+    "path": "2026-10-29/en/details/microsoft-advertising-campaign-controls.html",
+    "bytes": 6793,
+    "sha256": "7efad5989d100dfa986ba6a365b765512fbc6648e932e9328df7b3b473588d2e"
+  },
+  {
+    "path": "2026-10-29/en/details/peers4u.html",
+    "bytes": 5864,
+    "sha256": "55a138ce977973656adf0b9b652e80a171ee528b779bbca19d33b33a6962d63e"
+  },
+  {
+    "path": "2026-10-29/en/details/polygandr.html",
+    "bytes": 5719,
+    "sha256": "69693f81582bdb32181a59326225ecc155c17d4dfb4c4ceb473448aa590abf99"
+  },
+  {
+    "path": "2026-10-29/en/details/roop.html",
+    "bytes": 5716,
+    "sha256": "0c1160dac805c5ec48c71f0095d8a8ff4aef6aff17f25aa555e355078476f6a9"
+  },
+  {
+    "path": "2026-10-29/en/index.html",
+    "bytes": 78275,
+    "sha256": "f4c6c1d8b2333591a571e924ef44e7ad09e984b6f3710370f99d6649bc476916"
+  },
+  {
+    "path": "2026-10-29/manifest.json",
+    "bytes": 26045,
+    "sha256": "13e1a1ebfc2c86a717c883366e4dd0c5d57265a675781a6d0d97bfcf3d5ccd42"
+  },
+  {
+    "path": "2026-10-29/sources.html",
+    "bytes": 48751,
+    "sha256": "22991c5802414707e849346cca4f487dd6f781190b3ae619a96ed82cea6aab8c"
+  },
+  {
+    "path": "2026-10-29/sources.json",
+    "bytes": 17125,
+    "sha256": "cbbeb44ff8b21d04447268b594cfb3d898e0651e7bee79dec127dd256c9f8d60"
+  },
+  {
+    "path": "2026-10-29/visuals.json",
+    "bytes": 19401,
+    "sha256": "5e2d7cc02f3be35cc227b18381ead4a0b55f8e6266775de7400a8214de5af2bf"
+  },
+  {
+    "path": "2026-10-29/zh/details/alexa-home-map.html",
+    "bytes": 5432,
+    "sha256": "a9d1d62706ea739ce2da815d00918f95d1979140a61a23a85ed4bf0fc5537263"
+  },
+  {
+    "path": "2026-10-29/zh/details/alexa-photo-frame.html",
+    "bytes": 5405,
+    "sha256": "4aeb940f249bf650f693178ba51769ac7fc9eaa7e003e57ca13d7310e3d5e8c6"
+  },
+  {
+    "path": "2026-10-29/zh/details/apple-touch-on-mac.html",
+    "bytes": 5528,
+    "sha256": "55002c31e0135def14f41be0c41685117cb2d960c32d7032398b04ee16b7148a"
+  },
+  {
+    "path": "2026-10-29/zh/details/bytemail-190.html",
+    "bytes": 5668,
+    "sha256": "5ea63f0dd1f7742cd5d27f1ae437ad2701e3e0849324651d8d6dc434fec2f9f7"
+  },
+  {
+    "path": "2026-10-29/zh/details/ccore-threejs-checkpoint.html",
+    "bytes": 6171,
+    "sha256": "5b2cf2310f6ddfb0b6088fbce2d942c85045f91de5680b28f7d061f146bdd82f"
+  },
+  {
+    "path": "2026-10-29/zh/details/claude-enterprise-reports-budgets.html",
+    "bytes": 6071,
+    "sha256": "02e5b50f0e2d03318c7e44cdada824f08a5e73108aa4aada9295e3e4eae4df7a"
+  },
+  {
+    "path": "2026-10-29/zh/details/concordat.html",
+    "bytes": 5609,
+    "sha256": "8c2f9af6ce5cc1978d6bc44af5113ff61007643e6a567a4f30b01964fcc784ab"
+  },
+  {
+    "path": "2026-10-29/zh/details/copilot-app-projects-computer-use.html",
+    "bytes": 9259,
+    "sha256": "89b2a0d850700a58003888861b726c44c42906bbd38d54ebe5f30396b5ec3a90"
+  },
+  {
+    "path": "2026-10-29/zh/details/copilot-automations-shared.html",
+    "bytes": 6062,
+    "sha256": "ffad230ef87459fcfc5299ac04137b644e646b1c6a2a9cacd3d07c4def9d968d"
+  },
+  {
+    "path": "2026-10-29/zh/details/copilot-fusion-routing.html",
+    "bytes": 6002,
+    "sha256": "62be06247d754062990976eae24448403d8675b92ec825b72558b972d9300ec2"
+  },
+  {
+    "path": "2026-10-29/zh/details/echo-dot-2026.html",
+    "bytes": 5398,
+    "sha256": "ae6f08d48c8236efaff76c34a3ca4c955fd795bb802db3134f3415ebd2eba6e3"
+  },
+  {
+    "path": "2026-10-29/zh/details/echo-show16.html",
+    "bytes": 5335,
+    "sha256": "4b2623f340b82192c32b4b1d7cf21ca5beed62cbaa4840addf5f796397cc185a"
+  },
+  {
+    "path": "2026-10-29/zh/details/echo-studio-camera.html",
+    "bytes": 5481,
+    "sha256": "4247b2db95bef927e4f29298444ec6741fa49b2b2613fb346a7821c1e147aac1"
+  },
+  {
+    "path": "2026-10-29/zh/details/echo-time.html",
+    "bytes": 5299,
+    "sha256": "f1ca39c0ffe4fcbe8a2c3601d37d91894bdfa66ae1848195f23a17315ea0eb51"
+  },
+  {
+    "path": "2026-10-29/zh/details/gemini4-carbon-preview.html",
+    "bytes": 6088,
+    "sha256": "548e184d030f729812157d6da95158b3d058b9f52f59e5acb2a8bb3375dae949"
+  },
+  {
+    "path": "2026-10-29/zh/details/github-agentic-workflows-ga.html",
+    "bytes": 5815,
+    "sha256": "a824fb120d19e45a5cb9d3bb3a25da7b41d266a62bc2f010ca95897c3685ddee"
+  },
+  {
+    "path": "2026-10-29/zh/details/github-ai-secret-push-protection.html",
+    "bytes": 6279,
+    "sha256": "a1642cd26708e5f730273584d5aa6132da078154bbde93199f66ecb8255e6fb8"
+  },
+  {
+    "path": "2026-10-29/zh/details/google-connected-apps-platform.html",
+    "bytes": 6302,
+    "sha256": "8e990e0c38ff8f0f1479de34ba46fee9457d6495c9be8944ee63dc09ea3e1a38"
+  },
+  {
+    "path": "2026-10-29/zh/details/hob-local-desktop.html",
+    "bytes": 5817,
+    "sha256": "f202deec184e69e9e54651b2ce06017830f1a2cecd9c78e633ef487c04b32c15"
+  },
+  {
+    "path": "2026-10-29/zh/details/ling-31-flash-weights.html",
+    "bytes": 5830,
+    "sha256": "87fafc7a565a8e7569f1b0ed0d8ad1c7d4f2c1f366ecca36dc9a06fa06e3be70"
+  },
+  {
+    "path": "2026-10-29/zh/details/microsoft-advertising-campaign-controls.html",
+    "bytes": 6191,
+    "sha256": "e8a2c63034c055bdb6e6ec77fbe465b4e7914ab54958b2882fa288bb337e6d30"
+  },
+  {
+    "path": "2026-10-29/zh/details/peers4u.html",
+    "bytes": 5219,
+    "sha256": "3c78f029a55edcb97b4acc58316262854c0483dc0ade18419905120b544e812f"
+  },
+  {
+    "path": "2026-10-29/zh/details/polygandr.html",
+    "bytes": 5181,
+    "sha256": "e5f6f0ecc3490c070cd5d698153ffc513db850b74117b6cc70a96f49d9f45217"
+  },
+  {
+    "path": "2026-10-29/zh/details/roop.html",
+    "bytes": 5231,
+    "sha256": "2e394cc99c1c509120acb6e130e8d4ddfd86c25d060919d6cc9df21f186e0920"
+  },
+  {
+    "path": "2026-10-29/zh/index.html",
+    "bytes": 76279,
+    "sha256": "79a1a74458b2116ff34cd52b383c4fd327f0f26f9f0481c72b09283b1de05072"
+  },
+  {
     "path": "assets/acti-agentic-keyboard-2026-07-03.svg",
     "bytes": 2825,
     "sha256": "84ad9abb0a1191abde62dea383e6e1ed583fc089073d3ccaf91629044501721b"
@@ -5371,18 +5771,18 @@
   },
   {
     "path": "en/index.html",
-    "bytes": 166146,
-    "sha256": "feaf2353bfa2003b5034b393e33fbb859ed1e358369280a92b08a80d5789ca20"
+    "bytes": 167396,
+    "sha256": "8dbd8f53638dc3036a1e82f8948181ba580f9a51c3d1aab37662c789184f50b5"
   },
   {
     "path": "index.html",
-    "bytes": 160240,
-    "sha256": "2a9b721dff4a98a111698900a7f263a889676d701e3880566706b01424f6c87b"
+    "bytes": 161465,
+    "sha256": "9b266176b0a0944e209191619d16a049bd2fed33e27069f2d865f99479a4ba03"
   },
   {
     "path": "manifest.json",
-    "bytes": 738527,
-    "sha256": "366d1ebaf68a0999afa22c00591fa51ad178a20dc2bf7bbdb55466f6e9d44095"
+    "bytes": 739869,
+    "sha256": "bc2e7283caab764482f466e90809db4d7cffeae542bd4b97d6d203f22e49c7f5"
   },
   {
     "path": "weekly/2026-10-12/pilot/en/index.html",
