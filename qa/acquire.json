@@ -2,15 +2,15 @@
   {
     "kind": "image",
     "renderImage": true,
-    "name": "echo-dot.jpg",
-    "url": "https://assets.aboutamazon.com/a0/4c/f00680bf4836ae86af9e709a8bd8/echodot-hero-amazonnews-ck102526.png",
+    "name": "connected-apps-console.jpg",
+    "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Applist.width-1200.format-webp.webp",
     "locale": "zh"
   },
   {
     "kind": "image",
     "renderImage": true,
-    "name": "echo-studio-liveview.jpg",
-    "url": "https://assets.aboutamazon.com/09/63/3c2c2cb4475990bfa7de22569f15/echostudiowithhomecamera-inline-amazonnews-ck102326.png",
+    "name": "claude-enterprise-surveys.jpg",
+    "url": "https://assets.claude.com/1ed37b4afed48de6da20d4be0d99e76a98be3c9d.png",
     "locale": "en"
   }
 ]
