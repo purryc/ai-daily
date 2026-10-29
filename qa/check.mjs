@@ -99,7 +99,7 @@ async function checkpoint(phase,details={}){
 }
 report.timings={readyCalls:0,readyMs:0,imageDecodeCalls:0,imagesDecoded:0,imageDecodeMs:0,screenshotMs:0};
 report.imageLog={eligible:[],maxImages:6,maxBase64CharsPerImage:1048576,maxBase64CharsTotal:4194304,encodedChars:0,emitted:[],artifactOnly:[]};
-function previewNames(){return report.locale?(cfg.archiveRevision?['before','after','weekly','daily','empty','mobile'].map(n=>`${report.locale}-archive-${n}.jpg`):[`${report.locale}-toc-1.jpg`,`${report.locale}-event-1-a.jpg`,`${report.locale}-event-4-a.jpg`,`${report.locale}-detail-genie-4-world-simulation-top.jpg`,`${report.locale}-mobile-event-1-a.jpg`,`${report.locale}-mobile-detail-genie-4-world-simulation.jpg`]):[]}
+function previewNames(){return report.locale?(cfg.archiveRevision?['before','after','weekly','daily','empty','mobile'].map(n=>`${report.locale}-archive-${n}.jpg`):[`${report.locale}-toc-1.jpg`,`${report.locale}-event-1-a.jpg`,`${report.locale}-event-4-a.jpg`,`${report.locale}-detail-echo-time-top.jpg`,`${report.locale}-mobile-event-1-a.jpg`,`${report.locale}-mobile-detail-echo-time.jpg`]):[]}
 async function emitPreview(name){
  const log=report.imageLog;if(!previewNames().includes(name)||log.emitted.includes(name)||log.artifactOnly.includes(name))return;
  log.eligible.push(name);const data=(await fs.readFile(path.join(out,name))).toString('base64');
@@ -139,7 +139,7 @@ async function clickOriginalSource(page,viewport,scope,number){
   [popup]=await Promise.all([page.waitForEvent('popup',{timeout:10000}),page.locator('.reference-marker:visible').filter({hasText:`[S${String(number).padStart(2,'0')}]`}).first().click()]);
   await popup.waitForLoadState('domcontentloaded',{timeout:8000}).catch(e=>{loadError=e.message.split('\n')[0]});
   check('source-chip-real-click-target',requests.includes(expected)&&page.url()===before,{viewport,scope,number,expected,requestedURLs:requests,popupURL:popup.url(),responseStatus,loadError,externalAccess:responseStatus>=200&&responseStatus<400?'HTTP response received; content not independently accepted':responseStatus?'External HTTP '+responseStatus:'External load unconfirmed',readerPreserved:page.url()===before});
- }finally{context.off('request',onRequest);context.off('response',onResponse);if(popup)await popup.close();}
+ }finally{console.log('SOURCE_CLICK_DIAGNOSTIC '+JSON.stringify({scope,number,expected,requests,responseStatus,popup:!!popup,pages:context.pages().map(p=>p.url()),readerURL:page.url(),before}));context.off('request',onRequest);context.off('response',onResponse);if(popup)await popup.close();}
 }
 async function clickLocal(page,selector,target){
  const wanted=new URL(target),links=page.locator(selector),index=await links.evaluateAll((els,wanted)=>els.findIndex(el=>{const u=new URL(el.href);return u.origin===wanted.origin&&u.pathname===wanted.pathname}),{origin:wanted.origin,pathname:wanted.pathname});
