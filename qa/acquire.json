@@ -1,16 +1,9 @@
 [
   {
-    "kind": "image",
-    "renderImage": true,
+    "kind": "page",
     "name": "connected-apps-console.jpg",
-    "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Applist.width-1200.format-webp.webp",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/connected-apps-one-place/",
+    "selector": "img[src*=\"Applist\"]",
     "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "renderImage": true,
-    "name": "claude-enterprise-surveys.jpg",
-    "url": "https://assets.claude.com/1ed37b4afed48de6da20d4be0d99e76a98be3c9d.png",
-    "locale": "en"
   }
 ]
