@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-10-29",
+    "zhTitle": "AI Daily｜2026年10月29日 · 床头感测、家庭相册与共享代理",
+    "enTitle": "AI Daily | October 29, 2026 · Bedside sensing, family photos and shared agents",
+    "zhSummary": "新Echo设备、Hob与bytemail、Mac触摸交互、GitHub代理工作流，以及可回看创作过程的研究原型。",
+    "enSummary": "New Echo devices, Hob and bytemail, touch interaction on Mac, GitHub agent workflows and research interfaces for revisiting creative decisions.",
+    "tags": [
+      "consumer AI",
+      "creative tools",
+      "physical interaction",
+      "research"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "research"
+    ],
+    "coverStory": {
+      "topicId": "echo-time",
+      "zhTitle": "Echo Time",
+      "enTitle": "Echo Time",
+      "imagePath": "assets/echotime.jpg",
+      "imageSourceUrl": "https://assets.aboutamazon.com/55/e2/887d99e84bb6b250e22ca74534b1/echotime-lifestyle-hero-amazonnews-ck102526.png",
+      "primarySourceUrl": "https://www.aboutamazon.com/news/devices/echo-time-smart-alarm-clock",
+      "evidenceStrength": "confirmed product; vendor claims, not independent testing"
+    },
+    "zhPath": "./2026-10-29/zh/",
+    "enPath": "./2026-10-29/en/",
+    "sourcesPath": "./2026-10-29/sources.html"
+  },
+  {
     "date": "2026-10-28",
     "zhTitle": "AI Daily｜2026年10月28日 · 可编辑的生成、本地模型与真实操作",
     "enTitle": "AI Daily | October 28, 2026 · Editable generation, local models and practical controls",

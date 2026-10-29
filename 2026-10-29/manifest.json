@@ -1,0 +1,573 @@
+{
+  "date": "2026-10-29",
+  "timezone": "America/Toronto",
+  "cutoff": "2026-10-29T08:05:35Z",
+  "windowStart": "2026-10-28T08:05:35Z",
+  "metrics": {
+    "body": {
+      "zhDenseChars": 18134,
+      "enWords": 10877
+    },
+    "perProduct": {
+      "echo-time": {
+        "zh": 726,
+        "en": 446
+      },
+      "alexa-photo-frame": {
+        "zh": 697,
+        "en": 437
+      },
+      "echo-show16": {
+        "zh": 709,
+        "en": 447
+      },
+      "alexa-home-map": {
+        "zh": 702,
+        "en": 443
+      },
+      "echo-studio-camera": {
+        "zh": 703,
+        "en": 442
+      },
+      "echo-dot-2026": {
+        "zh": 726,
+        "en": 434
+      },
+      "hob-local-desktop": {
+        "zh": 749,
+        "en": 451
+      },
+      "bytemail-190": {
+        "zh": 732,
+        "en": 460
+      },
+      "apple-touch-on-mac": {
+        "zh": 769,
+        "en": 424
+      },
+      "copilot-app-projects-computer-use": {
+        "zh": 1216,
+        "en": 732
+      },
+      "copilot-fusion-routing": {
+        "zh": 705,
+        "en": 439
+      },
+      "copilot-automations-shared": {
+        "zh": 735,
+        "en": 427
+      },
+      "github-agentic-workflows-ga": {
+        "zh": 718,
+        "en": 429
+      },
+      "github-ai-secret-push-protection": {
+        "zh": 713,
+        "en": 425
+      },
+      "microsoft-advertising-campaign-controls": {
+        "zh": 746,
+        "en": 448
+      },
+      "google-connected-apps-platform": {
+        "zh": 708,
+        "en": 449
+      },
+      "claude-enterprise-reports-budgets": {
+        "zh": 719,
+        "en": 429
+      },
+      "gemini4-carbon-preview": {
+        "zh": 763,
+        "en": 449
+      },
+      "ling-31-flash-weights": {
+        "zh": 747,
+        "en": 429
+      },
+      "ccore-threejs-checkpoint": {
+        "zh": 769,
+        "en": 444
+      },
+      "polygandr": {
+        "zh": 761,
+        "en": 456
+      },
+      "roop": {
+        "zh": 781,
+        "en": 446
+      },
+      "peers4u": {
+        "zh": 784,
+        "en": 450
+      },
+      "concordat": {
+        "zh": 756,
+        "en": 441
+      }
+    },
+    "primarySummaries": {
+      "echo-time": {
+        "zh": 220,
+        "en": 125
+      },
+      "alexa-photo-frame": {
+        "zh": 198,
+        "en": 105
+      },
+      "echo-show16": {
+        "zh": 211,
+        "en": 117
+      },
+      "alexa-home-map": {
+        "zh": 220,
+        "en": 123
+      },
+      "echo-studio-camera": {
+        "zh": 214,
+        "en": 129
+      },
+      "echo-dot-2026": {
+        "zh": 183,
+        "en": 105
+      },
+      "hob-local-desktop": {
+        "zh": 198,
+        "en": 121
+      },
+      "bytemail-190": {
+        "zh": 226,
+        "en": 111
+      },
+      "apple-touch-on-mac": {
+        "zh": 200,
+        "en": 93
+      },
+      "copilot-app-projects-computer-use": {
+        "zh": 213,
+        "en": 124
+      },
+      "copilot-fusion-routing": {
+        "zh": 214,
+        "en": 119
+      },
+      "copilot-automations-shared": {
+        "zh": 211,
+        "en": 115
+      },
+      "github-agentic-workflows-ga": {
+        "zh": 200,
+        "en": 117
+      },
+      "github-ai-secret-push-protection": {
+        "zh": 200,
+        "en": 113
+      },
+      "microsoft-advertising-campaign-controls": {
+        "zh": 206,
+        "en": 113
+      },
+      "google-connected-apps-platform": {
+        "zh": 202,
+        "en": 113
+      },
+      "claude-enterprise-reports-budgets": {
+        "zh": 219,
+        "en": 116
+      },
+      "gemini4-carbon-preview": {
+        "zh": 202,
+        "en": 115
+      },
+      "ling-31-flash-weights": {
+        "zh": 180,
+        "en": 99
+      },
+      "ccore-threejs-checkpoint": {
+        "zh": 210,
+        "en": 113
+      },
+      "polygandr": {
+        "zh": 204,
+        "en": 114
+      },
+      "roop": {
+        "zh": 194,
+        "en": 97
+      },
+      "peers4u": {
+        "zh": 230,
+        "en": 121
+      },
+      "concordat": {
+        "zh": 218,
+        "en": 116
+      }
+    },
+    "counting": "Only unique full-analysis product paragraphs count toward body gates; summaries, captions, coverage and sources excluded.",
+    "products": 24,
+    "references": 70,
+    "coreVisuals": 24,
+    "slidesPerLocale": 27,
+    "primaryProjectPages": 24,
+    "attachedProjectDetails": 24,
+    "primaryBody": {
+      "zhDenseChars": 4973,
+      "enWords": 2734
+    },
+    "completeReadingBody": {
+      "zhDenseChars": 23107,
+      "enWords": 13611
+    }
+  },
+  "revision": {
+    "label": "morning-edition",
+    "originalCutoffRetained": true,
+    "newIssue": true,
+    "baselineCommit": "989306e4db9292a2b34bf03117fe5b70fb3c862b"
+  },
+  "topics": [
+    {
+      "id": "echo-time",
+      "zhHeadline": "Echo Time用超声波感测辅助叫醒，床头闹钟不配摄像头",
+      "enHeadline": "Echo Time uses contactless sensing for wake-up routines without a camera",
+      "eventAt": "2026-10-28",
+      "freshness": "near-three-day",
+      "evidence": "confirmed product; vendor claims, not independent testing",
+      "eventDateNote": "day; source timezone/clock not established; main-window lower boundary uncertain",
+      "event_key": "amazon:echo-time:announcement:2026-10-28",
+      "product_key": "amazon:echo-time",
+      "publishedAt": "2026-10-28",
+      "observedAt": "2026-10-29T08:20:05.307372+00:00",
+      "delta_since_last_seen": "Optional sensing combines temperature, presence and ultrasound breathing/proximity information to choose a wake-up point within a selected window."
+    },
+    {
+      "id": "alexa-photo-frame",
+      "zhHeadline": "Alexa Photo Frame按人和场景找照片，让远方家人的相框继续更新",
+      "enHeadline": "Alexa Photo Frame retrieves memories by voice and keeps family albums current",
+      "eventAt": "2026-10-28",
+      "freshness": "near-three-day",
+      "evidence": "confirmed product; vendor claims, not independent testing",
+      "eventDateNote": "day; source timezone/clock not established; main-window lower boundary uncertain",
+      "event_key": "amazon:alexa-photo-frame:announcement:2026-10-28",
+      "product_key": "amazon:alexa-photo-frame",
+      "publishedAt": "2026-10-28",
+      "observedAt": "2026-10-29T08:20:05.307372+00:00",
+      "delta_since_last_seen": "Alexa+ selects and pairs photos using people, time and context, while voice notes preserve the story behind a picture."
+    },
+    {
+      "id": "echo-show16",
+      "zhHeadline": "Echo Show 16把家庭日程与对话结果留在屏幕，预订不等于已经交货",
+      "enHeadline": "Echo Show 16 keeps household plans and conversation results on screen",
+      "eventAt": "2026-10-28",
+      "freshness": "near-three-day",
+      "evidence": "confirmed product; vendor claims, not independent testing",
+      "eventDateNote": "day; source timezone/clock not established; main-window lower boundary uncertain",
+      "event_key": "amazon:echo-show16:announcement:2026-10-28",
+      "product_key": "amazon:echo-show16",
+      "publishedAt": "2026-10-28",
+      "observedAt": "2026-10-29T08:20:05.307372+00:00",
+      "delta_since_last_seen": "A 13MP wide camera adds framing and night vision; temperature and presence sensing inform room responses."
+    },
+    {
+      "id": "alexa-home-map",
+      "zhHeadline": "Alexa Home Map让设备按房间位置可见，预览仍待年内推出",
+      "enHeadline": "Alexa Home Map makes device location a control surface, with preview still ahead",
+      "eventAt": "2026-10-28",
+      "freshness": "near-three-day",
+      "evidence": "confirmed product; vendor claims, not independent testing",
+      "eventDateNote": "day; source timezone/clock not established; main-window lower boundary uncertain",
+      "event_key": "amazon:alexa-home-map:announcement:2026-10-28",
+      "product_key": "amazon:alexa-home-map",
+      "publishedAt": "2026-10-28",
+      "observedAt": "2026-10-29T08:20:05.307372+00:00",
+      "delta_since_last_seen": "The map offers controls, camera previews and a shared 24-hour camera timeline; compatible Ring devices add people and vehicle representations."
+    },
+    {
+      "id": "echo-studio-camera",
+      "zhHeadline": "Echo Studio加上摄像头，拿起盒子就能提问，但视频通话仍是后续功能",
+      "enHeadline": "Echo Studio adds a camera for questions about objects in the room",
+      "eventAt": "2026-10-28",
+      "freshness": "near-three-day",
+      "evidence": "confirmed product; vendor claims, not independent testing",
+      "eventDateNote": "day; source timezone/clock not established; main-window lower boundary uncertain",
+      "event_key": "amazon:echo-studio-camera:announcement:2026-10-28",
+      "product_key": "amazon:echo-studio-camera",
+      "publishedAt": "2026-10-28",
+      "observedAt": "2026-10-29T08:20:05.307372+00:00",
+      "delta_since_last_seen": "Room adaptation adjusts audio playback; the camera addresses a different problem—identifying which physical object the question concerns."
+    },
+    {
+      "id": "echo-dot-2026",
+      "zhHeadline": "新Echo Dot内置家居中枢，买小音箱时也在选择设备连接方式",
+      "enHeadline": "The new Echo Dot adds a home hub to the small speaker",
+      "eventAt": "2026-10-28",
+      "freshness": "near-three-day",
+      "evidence": "confirmed product; vendor claims, not independent testing",
+      "eventDateNote": "day; source timezone/clock not established; main-window lower boundary uncertain",
+      "event_key": "amazon:echo-dot-2026:announcement:2026-10-28",
+      "product_key": "amazon:echo-dot-2026",
+      "publishedAt": "2026-10-28",
+      "observedAt": "2026-10-29T08:20:05.307372+00:00",
+      "delta_since_last_seen": "AZ3 and a fourth microphone support conversational detection and noise handling; Omnisense adds temperature and presence information."
+    },
+    {
+      "id": "hob-local-desktop",
+      "zhHeadline": "Hob把本地模型装成文件助手，先选项目再改文件",
+      "enHeadline": "Hob packages local models as a file assistant with projects and review",
+      "eventAt": "2026-10-28",
+      "freshness": "near-three-day",
+      "evidence": "Original vendor documentation and public release evidence; no independent use test",
+      "eventDateNote": "Day precision; source timezone and exact launch clock not established, so lower 24-hour boundary unresolved",
+      "event_key": "github:FrigadeHQ/hob:ph-and-0.2.x:2026-10-28",
+      "product_key": "github:FrigadeHQ/hob",
+      "publishedAt": "2026-10-28",
+      "observedAt": "2026-10-29T08:17:51Z",
+      "delta_since_last_seen": "An October 28 PH appearance and 0.2.x releases are verifiable. Its existing feature set connects local inference with Python, PDF and file operations."
+    },
+    {
+      "id": "bytemail-190",
+      "zhHeadline": "bytemail把邮件里的请求接到其他应用，改动前仍在邮箱确认",
+      "enHeadline": "bytemail turns email requests into app actions, with approval in the inbox",
+      "eventAt": "2026-10-28",
+      "freshness": "near-three-day",
+      "evidence": "Original vendor documentation and public release evidence; no independent use test",
+      "eventDateNote": "Day precision; source timezone and exact launch clock not established, so lower 24-hour boundary unresolved",
+      "event_key": "bytemailapp.com:1.9.0:2026-10-28",
+      "product_key": "bytemailapp.com",
+      "publishedAt": "2026-10-28",
+      "observedAt": "2026-10-29T08:17:51Z",
+      "delta_since_last_seen": "The update adds the reading-pane assistant and AI Connectors, including follow-up requests referring to the messages just found."
+    },
+    {
+      "id": "apple-touch-on-mac",
+      "zhHeadline": "Mac触控先改命中与手势，悬停菜单也要给手指留入口",
+      "enHeadline": "Touch on Mac changes hit targets and gestures, including access to hover controls",
+      "eventAt": "2026-10-28",
+      "freshness": "near-three-day",
+      "evidence": "developer surface; official examples, not shipped SDK or hands-on hardware test",
+      "eventDateNote": "Official news date only; timezone and publication clock not exposed.",
+      "event_key": "apple:touch-on-mac:developer-preview-2026-10-28",
+      "product_key": "apple:touch-on-mac",
+      "publishedAt": "2026-10-28",
+      "observedAt": "2026-10-29T08:10:00Z",
+      "delta_since_last_seen": "Engineering examples separate touch recognition, hit regions and simultaneous interaction; a 36-point example is not a universal sizing standard."
+    },
+    {
+      "id": "copilot-app-projects-computer-use",
+      "zhHeadline": "Copilot app用项目收拢多条任务，桌面操作和安全修复各有确认点",
+      "enHeadline": "Copilot app groups ongoing work in projects with distinct desktop and security controls",
+      "eventAt": "2026-10-28",
+      "freshness": "near-three-day",
+      "evidence": "Original announcement and documentation; no independent hands-on performance test",
+      "eventDateNote": "day; source clock/timezone unverified; lower main-window boundary unresolved",
+      "event_key": "copilot-app-projects-computer-use:2026-10-28",
+      "product_key": "copilot-app-projects-computer-use",
+      "publishedAt": "2026-10-28",
+      "observedAt": "2026-10-29T08:32:35.821001Z",
+      "delta_since_last_seen": "Computer use arrives on macOS and Windows; a security extension explains alerts, proposes local fixes and reviews current changes."
+    },
+    {
+      "id": "copilot-fusion-routing",
+      "zhHeadline": "Fusion让开发者选投入档位，模型切换和多模型复核在后台完成",
+      "enHeadline": "Fusion asks for an effort level and handles model routing behind it",
+      "eventAt": "2026-10-28",
+      "freshness": "near-three-day",
+      "evidence": "Original announcement and documentation; no independent hands-on performance test",
+      "eventDateNote": "day; source clock/timezone unverified; lower main-window boundary unresolved",
+      "event_key": "copilot-fusion-routing:2026-10-28",
+      "product_key": "copilot-fusion-routing",
+      "publishedAt": "2026-10-28",
+      "observedAt": "2026-10-29T08:32:35.821001Z",
+      "delta_since_last_seen": "The October 28 GA combines automatic selection and Hydra Fusion. Local-model routing is a separate experimental opt-in."
+    },
+    {
+      "id": "copilot-automations-shared",
+      "zhHeadline": "Copilot Automations把重复维护交给共享任务，工具与预算可以逐项限定",
+      "enHeadline": "Copilot Automations gives shared maintenance jobs explicit tools and budgets",
+      "eventAt": "2026-10-28",
+      "freshness": "near-three-day",
+      "evidence": "Original announcement and documentation; no independent hands-on performance test",
+      "eventDateNote": "day; source clock/timezone unverified; lower main-window boundary unresolved",
+      "event_key": "copilot-automations-shared:2026-10-28",
+      "product_key": "copilot-automations-shared",
+      "publishedAt": "2026-10-28",
+      "observedAt": "2026-10-29T08:32:35.821001Z",
+      "delta_since_last_seen": "This update adds external API triggers, more GitHub events, selectable MCP tools and chained automations."
+    },
+    {
+      "id": "github-agentic-workflows-ga",
+      "zhHeadline": "Agentic Workflows把维护说明编进Actions，代理写入另走受控输出",
+      "enHeadline": "Agentic Workflows compiles maintenance instructions into Actions with separate write controls",
+      "eventAt": "2026-10-28",
+      "freshness": "near-three-day",
+      "evidence": "Original announcement and documentation; no independent hands-on performance test",
+      "eventDateNote": "day; source clock/timezone unverified; lower main-window boundary unresolved",
+      "event_key": "github-agentic-workflows-ga:2026-10-28",
+      "product_key": "github-agentic-workflows-ga",
+      "publishedAt": "2026-10-28",
+      "observedAt": "2026-10-29T08:32:35.821001Z",
+      "delta_since_last_seen": "The October 28 GA expands self-hosted execution, model choices and isolation options while using existing runners and organizational policies."
+    },
+    {
+      "id": "github-ai-secret-push-protection",
+      "zhHeadline": "GitHub在推送前识别无固定格式的密钥，阻断信息直接指出位置",
+      "enHeadline": "GitHub flags unstructured secrets before a push and points to the location",
+      "eventAt": "2026-10-28",
+      "freshness": "near-three-day",
+      "evidence": "Original announcement and documentation; no independent hands-on performance test",
+      "eventDateNote": "day; source clock/timezone unverified; lower main-window boundary unresolved",
+      "event_key": "github-ai-secret-push-protection:2026-10-28",
+      "product_key": "github-ai-secret-push-protection",
+      "publishedAt": "2026-10-28",
+      "observedAt": "2026-10-29T08:32:35.821001Z",
+      "delta_since_last_seen": "It supplements predefined patterns across Git pushes, web commits and file uploads rather than replacing existing scanning."
+    },
+    {
+      "id": "microsoft-advertising-campaign-controls",
+      "zhHeadline": "Microsoft Advertising先整理业务资料再起草广告，品牌禁区可单独填写",
+      "enHeadline": "Microsoft Advertising drafts campaigns from business context and gives brand rules their own fields",
+      "eventAt": "2026-10-28",
+      "freshness": "near-three-day",
+      "evidence": "Original announcement and documentation; no independent hands-on performance test",
+      "eventDateNote": "day; source clock/timezone unverified; lower main-window boundary unresolved",
+      "event_key": "microsoft-advertising-campaign-controls:2026-10-28",
+      "product_key": "microsoft-advertising-campaign-controls",
+      "publishedAt": "2026-10-28",
+      "observedAt": "2026-10-29T08:32:35.821001Z",
+      "delta_since_last_seen": "The same update announces general availability of Conversions API for website, app, CRM and offline conversion signals."
+    },
+    {
+      "id": "google-connected-apps-platform",
+      "zhHeadline": "Google给应用一个连接控制台，让同一服务进入Gemini和搜索",
+      "enHeadline": "Google gives apps one console for bringing services into Gemini and Search",
+      "eventAt": "2026-10-28",
+      "freshness": "near-three-day",
+      "evidence": "Original announcement and documentation; no independent hands-on performance test",
+      "eventDateNote": "day; source clock/timezone unverified; lower main-window boundary unresolved",
+      "event_key": "google-connected-apps-platform:2026-10-28",
+      "product_key": "google-connected-apps-platform",
+      "publishedAt": "2026-10-28",
+      "observedAt": "2026-10-29T08:32:35.821001Z",
+      "delta_since_last_seen": "Connected Console manages versions, testers and publishing; live integrations expose traffic, latency and errors while retaining brand and account identity."
+    },
+    {
+      "id": "claude-enterprise-reports-budgets",
+      "zhHeadline": "Claude Enterprise把任务摩擦、员工反馈和团队预算放到管理侧",
+      "enHeadline": "Claude Enterprise connects task friction, user feedback and shared team budgets",
+      "eventAt": "2026-10-28",
+      "freshness": "near-three-day",
+      "evidence": "Original announcement and documentation; no independent hands-on performance test",
+      "eventDateNote": "day; source clock/timezone unverified; lower main-window boundary unresolved",
+      "event_key": "claude-enterprise-reports-budgets:2026-10-28",
+      "product_key": "claude-enterprise-reports-budgets",
+      "publishedAt": "2026-10-28",
+      "observedAt": "2026-10-29T08:32:35.821001Z",
+      "delta_since_last_seen": "A shared monthly pool gives teams flexible usage while individual limits remain; both constraints still apply."
+    },
+    {
+      "id": "gemini4-carbon-preview",
+      "zhHeadline": "Gemini 4 Carbon先向部分防御团队开放，长任务能力还未成为大众入口",
+      "enHeadline": "Gemini 4 Carbon opens first to selected defenders, with broader access still ahead",
+      "eventAt": "2026-10-28",
+      "freshness": "near-three-day",
+      "evidence": "Original announcement and documentation; no independent hands-on performance test",
+      "eventDateNote": "day; source clock/timezone unverified; lower main-window boundary unresolved",
+      "event_key": "gemini4-carbon-preview:2026-10-28",
+      "product_key": "gemini4-carbon-preview",
+      "publishedAt": "2026-10-28",
+      "observedAt": "2026-10-29T08:32:35.821001Z",
+      "delta_since_last_seen": "The vendor describes sustained investigation and patching across large codebases, without a complete independently reproduced long run in this report."
+    },
+    {
+      "id": "ling-31-flash-weights",
+      "zhHeadline": "Ling 3.1开放1019与基础权重，部署和训练各有起点",
+      "enHeadline": "Ling 3.1 exposes separate checkpoints for serving and further training",
+      "eventAt": "2026-10-27",
+      "freshness": "near-three-day",
+      "evidence": "Developer surface; original model cards and repository history; not independent serving evaluation",
+      "eventDateNote": "Repository commits dated October27, displayed clocks have no timezone; exact public release clock unresolved",
+      "event_key": "inclusionai:ling-3.1-flash:ling-31-flash-weights:2026-10-27",
+      "product_key": "inclusionai:ling-3.1-flash",
+      "publishedAt": "2026-10-27",
+      "observedAt": "2026-10-29T08:20:57.713040+00:00",
+      "delta_since_last_seen": "The 560-billion-parameter model activates 25 billion per token, combining KDA and gated MLA attention with sparse experts."
+    },
+    {
+      "id": "ccore-threejs-checkpoint",
+      "zhHeadline": "CCORE用小模型生成可修改的Three.js场景，循环与调试仍要自己处理",
+      "enHeadline": "CCORE generates editable Three.js scenes with a small model, but debugging remains",
+      "eventAt": "2026-10-27",
+      "freshness": "near-three-day",
+      "evidence": "developer surface; author claims and individual user report, not independent benchmark",
+      "eventDateNote": "Day only; author model-card checkpoint date. October29 report update clock unverified and excluded from this event.",
+      "event_key": "ccore:threejs:checkpoint-2026-10-27",
+      "product_key": "hf:ccore/Qwen3.5-4B-3D-Coder",
+      "publishedAt": "2026-10-27",
+      "observedAt": "2026-10-29T08:11:28Z",
+      "delta_since_last_seen": "The October 27 Q4 and Q8 checkpoint refresh includes an earlier layer fix. The author reports improvement without an independent comparable success rate."
+    },
+    {
+      "id": "polygandr",
+      "zhHeadline": "PolyGandr用正反样例拖出变化方向，少写一次模糊提示词",
+      "enHeadline": "PolyGandr steers image variations with contrasting examples",
+      "eventAt": "2026-10-27T15:52:23Z",
+      "freshness": "near-three-day",
+      "evidence": "research signal; author implementation and study, not independent product testing",
+      "eventDateNote": "Exact UTC arXiv submission timestamp; public announcement clock unconfirmed",
+      "event_key": "arxiv:2610.37446:v1",
+      "product_key": "arxiv:2610.37446",
+      "publishedAt": "2026-10-27T15:52:23Z",
+      "observedAt": "2026-10-29T08:12:33Z",
+      "delta_since_last_seen": "The research interface links a navigable map of model outputs to local refinement."
+    },
+    {
+      "id": "roop",
+      "zhHeadline": "Roop把改图来回意见钉在区域上，回看为什么留下这一版",
+      "enHeadline": "Roop attaches editing decisions to the image regions they changed",
+      "eventAt": "2026-10-27T16:03:59Z",
+      "freshness": "near-three-day",
+      "evidence": "research signal; author implementation and study, not independent product testing",
+      "eventDateNote": "Exact UTC arXiv submission timestamp; public announcement clock unconfirmed",
+      "event_key": "arxiv:2610.37469:v1",
+      "product_key": "arxiv:2610.37469",
+      "publishedAt": "2026-10-27T16:03:59Z",
+      "observedAt": "2026-10-29T08:12:33Z",
+      "delta_since_last_seen": "A regional heatmap links back to negotiation history; it is not a legal authorship percentage."
+    },
+    {
+      "id": "peers4u",
+      "zhHeadline": "Peers4U让孩子拿解题过程交流，虚拟同伴不只聊天给答案",
+      "enHeadline": "Peers4U makes worked solutions the subject of peer conversation",
+      "eventAt": "2026-10-27T13:43:18Z",
+      "freshness": "near-three-day",
+      "evidence": "research signal; author implementation and study, not independent product testing",
+      "eventDateNote": "Exact UTC arXiv submission timestamp; public announcement clock unconfirmed",
+      "event_key": "arxiv:2610.37238:v1",
+      "product_key": "arxiv:2610.37238",
+      "publishedAt": "2026-10-27T13:43:18Z",
+      "observedAt": "2026-10-29T08:12:33Z",
+      "delta_since_last_seen": "Peers are configured from the initial work, so discussion can concern a visible method rather than only an answer."
+    },
+    {
+      "id": "concordat",
+      "zhHeadline": "Concordat按流程状态开放工具，把批准留给明确的人工节点",
+      "enHeadline": "Concordat exposes tools only when the workflow permits them",
+      "eventAt": "2026-10-27T16:00:26Z",
+      "freshness": "near-three-day",
+      "evidence": "research signal; developer surface; author benchmark, not independent testing",
+      "eventDateNote": "Exact UTC arXiv submission; initial code publication and public announcement clock unconfirmed",
+      "event_key": "arxiv:2610.37461:v1",
+      "product_key": "github:miladsikaroudi/concordat",
+      "publishedAt": "2026-10-27T16:00:26Z",
+      "observedAt": "2026-10-29T08:21:00Z",
+      "delta_since_last_seen": "Delegated work receives a share of the budget, and subclasses cannot bypass the parent protocol."
+    }
+  ],
+  "eventCounts": {
+    "mainWindowEvents": 0,
+    "nearThreeDayReviews": 24,
+    "sevenDayReviews": 0,
+    "interpretation": "Announcements, submissions, updates and regional reports; not first product launches."
+  }
+}

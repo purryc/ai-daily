@@ -1,0 +1,531 @@
+[
+  {
+    "url": "https://www.aboutamazon.com/news/devices/echo-time-smart-alarm-clock",
+    "title": "Echo Time original announcement",
+    "publisher": "Amazon",
+    "publishedAt": "2026-10-28",
+    "observedAt": "2026-10-29T08:20:05.307372+00:00",
+    "number": 1
+  },
+  {
+    "url": "https://www.aboutamazon.com/news/devices/new-alexa-devices-2026",
+    "title": "New Alexa devices 2026",
+    "publisher": "Amazon",
+    "publishedAt": "2026-10-28",
+    "observedAt": "2026-10-29T08:20:05.307372+00:00",
+    "number": 2
+  },
+  {
+    "url": "https://www.aboutamazon.com/news/devices/amazon-alexa-photo-frame",
+    "title": "Alexa Photo Frame original announcement",
+    "publisher": "Amazon",
+    "publishedAt": "2026-10-28",
+    "observedAt": "2026-10-29T08:20:05.307372+00:00",
+    "number": 3
+  },
+  {
+    "url": "https://www.aboutamazon.com/news/devices/echo-show-16-smart-display",
+    "title": "Echo Show 16 original announcement",
+    "publisher": "Amazon",
+    "publishedAt": "2026-10-28",
+    "observedAt": "2026-10-29T08:20:05.307372+00:00",
+    "number": 4
+  },
+  {
+    "url": "https://www.aboutamazon.com/news/devices/alexa-home-map-3d-smart-home-view",
+    "title": "Alexa Home Map original announcement",
+    "publisher": "Amazon",
+    "publishedAt": "2026-10-28",
+    "observedAt": "2026-10-29T08:20:05.307372+00:00",
+    "number": 5
+  },
+  {
+    "url": "https://www.aboutamazon.com/news/devices/echo-speaker-lineup",
+    "title": "Echo Studio with Home Camera original announcement",
+    "publisher": "Amazon",
+    "publishedAt": "2026-10-28",
+    "observedAt": "2026-10-29T08:20:05.307372+00:00",
+    "number": 6
+  },
+  {
+    "url": "https://github.com/FrigadeHQ/hob",
+    "title": "Hob repository",
+    "publisher": "FrigadeHQ",
+    "observedAt": "2026-10-29T08:17:51Z",
+    "number": 7
+  },
+  {
+    "url": "https://raw.githubusercontent.com/FrigadeHQ/hob/main/docs/README.md",
+    "title": "Hob documentation",
+    "publisher": "FrigadeHQ",
+    "observedAt": "2026-10-29T08:17:51Z",
+    "number": 8
+  },
+  {
+    "url": "https://github.com/FrigadeHQ/hob/releases",
+    "title": "Hob releases",
+    "publisher": "FrigadeHQ",
+    "publishedAt": "2026-10-28",
+    "observedAt": "2026-10-29T08:17:51Z",
+    "number": 9
+  },
+  {
+    "url": "https://www.producthunt.com/products/hob-3",
+    "title": "Hob maker discussion",
+    "publisher": "Product Hunt / FrigadeHQ",
+    "observedAt": "2026-10-29T08:17:51Z",
+    "number": 10
+  },
+  {
+    "url": "https://www.producthunt.com/leaderboard/daily/2026/10/28",
+    "title": "October 28 featured board",
+    "publisher": "Product Hunt",
+    "publishedAt": "2026-10-28",
+    "observedAt": "2026-10-29T08:17:51Z",
+    "number": 11
+  },
+  {
+    "url": "https://bytemailapp.com/changelog",
+    "title": "bytemail changelog",
+    "publisher": "bytemail",
+    "publishedAt": "2026-10-28",
+    "observedAt": "2026-10-29T08:17:51Z",
+    "number": 12
+  },
+  {
+    "url": "https://bytemailapp.com/mcp",
+    "title": "bytemail MCP",
+    "publisher": "bytemail",
+    "observedAt": "2026-10-29T08:17:51Z",
+    "number": 13
+  },
+  {
+    "url": "https://bytemailapp.com/privacy",
+    "title": "bytemail privacy",
+    "publisher": "bytemail",
+    "observedAt": "2026-10-29T08:17:51Z",
+    "number": 14
+  },
+  {
+    "url": "https://bytemailapp.com/",
+    "title": "bytemail product",
+    "publisher": "bytemail",
+    "observedAt": "2026-10-29T08:17:51Z",
+    "number": 15
+  },
+  {
+    "url": "https://www.producthunt.com/products/bytemail",
+    "title": "bytemail maker discussion",
+    "publisher": "Product Hunt / bytemail",
+    "observedAt": "2026-10-29T08:17:51Z",
+    "number": 16
+  },
+  {
+    "url": "https://developer.apple.com/news/?id=i9boeiqc",
+    "title": "Say hello to Touch on Mac",
+    "publisher": "Apple Developer",
+    "publishedAt": "2026-10-28",
+    "observedAt": "2026-10-29T08:10:00Z",
+    "number": 17
+  },
+  {
+    "url": "https://developer.apple.com/touch-on-mac/",
+    "title": "Get ready for Touch on Mac",
+    "publisher": "Apple Developer",
+    "observedAt": "2026-10-29T08:10:00Z",
+    "number": 18
+  },
+  {
+    "url": "https://developer.apple.com/videos/play/tech-talks/111456/",
+    "title": "Design for touch on Mac",
+    "publisher": "Apple Developer",
+    "observedAt": "2026-10-29T08:10:00Z",
+    "number": 19
+  },
+  {
+    "url": "https://developer.apple.com/videos/play/tech-talks/111468/",
+    "title": "Bring Touch to your Mac app",
+    "publisher": "Apple Developer",
+    "observedAt": "2026-10-29T08:10:00Z",
+    "number": 20
+  },
+  {
+    "url": "https://github.blog/changelog/2026-10-28-github-copilot-app-universe-releases/",
+    "title": "Copilot app Universe releases",
+    "publisher": "GitHub",
+    "publishedAt": "2026-10-28",
+    "observedAt": "2026-10-29T08:18:00Z",
+    "number": 21
+  },
+  {
+    "url": "https://docs.github.com/en/copilot/how-tos/github-copilot-app/working-with-projects",
+    "title": "Working with projects",
+    "publisher": "GitHub",
+    "observedAt": "2026-10-29T08:18:00Z",
+    "number": 22
+  },
+  {
+    "url": "https://docs.github.com/en/copilot/how-tos/github-copilot-app/computer-use",
+    "title": "Computer use",
+    "publisher": "GitHub",
+    "observedAt": "2026-10-29T08:18:00Z",
+    "number": 23
+  },
+  {
+    "url": "https://docs.github.com/en/copilot/concepts/agent-capabilities/agent-powered-workflows-and-operations/computer-use",
+    "title": "Computer use concepts",
+    "publisher": "GitHub",
+    "observedAt": "2026-10-29T08:18:00Z",
+    "number": 24
+  },
+  {
+    "url": "https://github.blog/changelog/2026-10-28-security-extension-for-the-github-copilot-app/",
+    "title": "Security extension for Copilot app",
+    "publisher": "GitHub",
+    "publishedAt": "2026-10-28",
+    "observedAt": "2026-10-29T08:18:00Z",
+    "number": 25
+  },
+  {
+    "url": "https://github.blog/changelog/2026-10-28-github-intelligence-puts-your-code-context-and-history-to-work/",
+    "title": "GitHub intelligence",
+    "publisher": "GitHub",
+    "publishedAt": "2026-10-28",
+    "observedAt": "2026-10-29T08:36:09.245939Z",
+    "number": 26
+  },
+  {
+    "url": "https://github.blog/changelog/2026-10-28-github-copilot-in-vs-code-universe-releases/",
+    "title": "Copilot in VS Code Universe releases",
+    "publisher": "GitHub",
+    "publishedAt": "2026-10-28",
+    "observedAt": "2026-10-29T08:36:09.245939Z",
+    "number": 27
+  },
+  {
+    "url": "https://github.blog/changelog/2026-10-28-generate-and-edit-images-directly-in-copilot/",
+    "title": "Generate and edit images in Copilot",
+    "publisher": "GitHub",
+    "publishedAt": "2026-10-28",
+    "observedAt": "2026-10-29T08:36:09.245939Z",
+    "number": 28
+  },
+  {
+    "url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/",
+    "title": "Fusion routing and orchestration GA",
+    "publisher": "GitHub",
+    "publishedAt": "2026-10-28",
+    "observedAt": "2026-10-29T08:18:00Z",
+    "number": 29
+  },
+  {
+    "url": "https://github.blog/changelog/2026-10-28-github-copilot-fusion-now-supports-selection-of-local-models/",
+    "title": "Fusion local model selection",
+    "publisher": "GitHub",
+    "publishedAt": "2026-10-28",
+    "observedAt": "2026-10-29T08:18:00Z",
+    "number": 30
+  },
+  {
+    "url": "https://docs.github.com/en/copilot/concepts/models/copilot-fusion",
+    "title": "Copilot Fusion concepts",
+    "publisher": "GitHub",
+    "observedAt": "2026-10-29T08:18:00Z",
+    "number": 31
+  },
+  {
+    "url": "https://github.blog/changelog/2026-10-28-build-shared-workflows-for-your-team-with-copilot-automations/",
+    "title": "Shared Copilot Automations",
+    "publisher": "GitHub",
+    "publishedAt": "2026-10-28",
+    "observedAt": "2026-10-29T08:18:00Z",
+    "number": 32
+  },
+  {
+    "url": "https://github.blog/changelog/2026-10-28-new-tools-triggers-and-cost-controls-for-copilot-automations/",
+    "title": "Tools, triggers and cost controls",
+    "publisher": "GitHub",
+    "publishedAt": "2026-10-28",
+    "observedAt": "2026-10-29T08:18:00Z",
+    "number": 33
+  },
+  {
+    "url": "https://docs.github.com/en/copilot/concepts/agent-capabilities/agent-powered-workflows-and-operations/about-automations",
+    "title": "About automations",
+    "publisher": "GitHub",
+    "observedAt": "2026-10-29T08:18:00Z",
+    "number": 34
+  },
+  {
+    "url": "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available/",
+    "title": "Agentic Workflows GA",
+    "publisher": "GitHub",
+    "publishedAt": "2026-10-28",
+    "observedAt": "2026-10-29T08:18:00Z",
+    "number": 35
+  },
+  {
+    "url": "https://github.github.com/gh-aw/reference/safe-outputs/",
+    "title": "Safe outputs",
+    "publisher": "GitHub",
+    "observedAt": "2026-10-29T08:18:00Z",
+    "number": 36
+  },
+  {
+    "url": "https://github.github.com/gh-aw/introduction/architecture/",
+    "title": "Architecture",
+    "publisher": "GitHub",
+    "observedAt": "2026-10-29T08:18:00Z",
+    "number": 37
+  },
+  {
+    "url": "https://github.github.com/gh-aw/reference/threat-detection/",
+    "title": "Threat detection",
+    "publisher": "GitHub",
+    "observedAt": "2026-10-29T08:18:00Z",
+    "number": 38
+  },
+  {
+    "url": "https://github.blog/changelog/2026-10-28-push-protection-beyond-predefined-secret-patterns/",
+    "title": "Push protection beyond predefined secret patterns",
+    "publisher": "GitHub",
+    "publishedAt": "2026-10-28",
+    "observedAt": "2026-10-29T08:18:00Z",
+    "number": 39
+  },
+  {
+    "url": "https://docs.github.com/en/code-security/concepts/secret-security/secret-scanning",
+    "title": "Secret scanning concepts",
+    "publisher": "GitHub",
+    "observedAt": "2026-10-29T08:18:00Z",
+    "number": 40
+  },
+  {
+    "url": "https://docs.github.com/en/enterprise-cloud@latest/code-security/concepts/secret-security/push-protection",
+    "title": "Push protection concepts",
+    "publisher": "GitHub",
+    "observedAt": "2026-10-29T08:18:00Z",
+    "number": 41
+  },
+  {
+    "url": "https://about.ads.microsoft.com/en/blog/post/october-2026/build-steer-and-measure-your-campaigns-with-ai-whats-new-in-microsoft-advertising-this-october",
+    "title": "Build, steer and measure campaigns with AI",
+    "publisher": "Microsoft",
+    "publishedAt": "2026-10-28",
+    "observedAt": "2026-10-29T08:18:00Z",
+    "number": 42
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/advertising/guides/uet-conversion-api-integration?view=bingads-13",
+    "title": "UET Conversions API integration",
+    "publisher": "Microsoft",
+    "observedAt": "2026-10-29T08:18:00Z",
+    "number": 43
+  },
+  {
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/connected-apps-one-place/",
+    "title": "Build and manage Connected Apps in one place",
+    "publisher": "Google",
+    "publishedAt": "2026-10-28",
+    "observedAt": "2026-10-29T08:24:00Z",
+    "number": 44
+  },
+  {
+    "url": "https://developers.google.com/connected-apps",
+    "title": "Connected Apps Platform overview",
+    "publisher": "Google",
+    "observedAt": "2026-10-29T08:24:00Z",
+    "number": 45
+  },
+  {
+    "url": "https://developers.google.com/connected-apps/mcp",
+    "title": "MCP server developer guide",
+    "publisher": "Google",
+    "publishedAt": "2026-10-27",
+    "observedAt": "2026-10-29T08:24:00Z",
+    "number": 46
+  },
+  {
+    "url": "https://developers.google.com/connected-apps/gpc",
+    "title": "Connected Console integration",
+    "publisher": "Google",
+    "publishedAt": "2026-10-27",
+    "observedAt": "2026-10-29T08:24:00Z",
+    "number": 47
+  },
+  {
+    "url": "https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets",
+    "title": "Smart reports, surveys and pooled budgets GA",
+    "publisher": "Anthropic",
+    "publishedAt": "2026-10-28",
+    "observedAt": "2026-10-29T08:24:00Z",
+    "number": 48
+  },
+  {
+    "url": "https://support.claude.com/en/articles/16893491-get-started-with-smart-reports",
+    "title": "Get started with smart reports",
+    "publisher": "Anthropic",
+    "observedAt": "2026-10-29T08:24:00Z",
+    "number": 49
+  },
+  {
+    "url": "https://support.claude.com/en/articles/16764057-create-surveys-for-your-organization",
+    "title": "Create surveys for your organization",
+    "publisher": "Anthropic",
+    "observedAt": "2026-10-29T08:24:00Z",
+    "number": 50
+  },
+  {
+    "url": "https://support.claude.com/en/articles/17005973-manage-pooled-group-budgets-on-enterprise-plans",
+    "title": "Manage pooled group budgets",
+    "publisher": "Anthropic",
+    "observedAt": "2026-10-29T08:24:00Z",
+    "number": 51
+  },
+  {
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+    "title": "Introducing Gemini 4 Carbon",
+    "publisher": "Google",
+    "publishedAt": "2026-10-28",
+    "observedAt": "2026-10-29T08:24:00Z",
+    "number": 52
+  },
+  {
+    "url": "https://deepmind.google/fairwind-program/",
+    "title": "Fairwind Program",
+    "publisher": "Google",
+    "observedAt": "2026-10-29T08:24:00Z",
+    "number": 53
+  },
+  {
+    "url": "https://huggingface.co/inclusionAI/Ling-3.1-flash-1019",
+    "title": "Ling-3.1-flash-1019 model card",
+    "publisher": "inclusionAI",
+    "observedAt": "2026-10-29T08:20:57.713040+00:00",
+    "number": 54
+  },
+  {
+    "url": "https://huggingface.co/inclusionAI/Ling-3.1-flash-base",
+    "title": "Ling-3.1-flash-base model card",
+    "publisher": "inclusionAI",
+    "observedAt": "2026-10-29T08:20:57.713040+00:00",
+    "number": 55
+  },
+  {
+    "url": "https://huggingface.co/inclusionAI/Ling-3.1-flash-1019/commits/main",
+    "title": "1019 repository history",
+    "publisher": "inclusionAI / Hugging Face",
+    "publishedAt": "2026-10-27",
+    "observedAt": "2026-10-29T08:20:57.713040+00:00",
+    "number": 56
+  },
+  {
+    "url": "https://www.qbitai.com/2026/10/505928.html",
+    "title": "Ling 3.1 open-weights release report",
+    "publisher": "Ant Group / QbitAI",
+    "publishedAt": "2026-10-28",
+    "observedAt": "2026-10-29T08:20:57.713040+00:00",
+    "number": 57
+  },
+  {
+    "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+    "title": "CCORE model card",
+    "publisher": "CCORE / Hugging Face",
+    "publishedAt": "2026-10-27",
+    "observedAt": "2026-10-29T08:11:28Z",
+    "number": 58
+  },
+  {
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgc7uv/update_my_4b_coding_model_is_getting_better_at/",
+    "title": "Author update and visible Best comments",
+    "publisher": "CCORE / community",
+    "observedAt": "2026-10-29T08:11:28Z",
+    "number": 59
+  },
+  {
+    "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder/commit/b77dc455605e674d2478010dda4188ef5864a4be",
+    "title": "FP16 release commit",
+    "publisher": "CCORE / Hugging Face",
+    "publishedAt": "2026-10-28",
+    "observedAt": "2026-10-29T08:11:28Z",
+    "number": 60
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.37446",
+    "title": "PolyGandr submission history",
+    "publisher": "Authors / arXiv",
+    "publishedAt": "2026-10-27T15:52:23Z",
+    "observedAt": "2026-10-29T08:12:33Z",
+    "number": 61
+  },
+  {
+    "url": "https://arxiv.org/html/2610.37446v1",
+    "title": "PolyGandr full paper",
+    "publisher": "Authors / arXiv",
+    "publishedAt": "2026-10-27T15:52:23Z",
+    "observedAt": "2026-10-29T08:12:33Z",
+    "number": 62
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.37469",
+    "title": "Roop submission history",
+    "publisher": "Authors / arXiv",
+    "publishedAt": "2026-10-27T16:03:59Z",
+    "observedAt": "2026-10-29T08:12:33Z",
+    "number": 63
+  },
+  {
+    "url": "https://arxiv.org/html/2610.37469v1",
+    "title": "Roop full paper",
+    "publisher": "Authors / arXiv",
+    "publishedAt": "2026-10-27T16:03:59Z",
+    "observedAt": "2026-10-29T08:12:33Z",
+    "number": 64
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.37238",
+    "title": "Peers4U submission history",
+    "publisher": "Authors / arXiv",
+    "publishedAt": "2026-10-27T13:43:18Z",
+    "observedAt": "2026-10-29T08:12:33Z",
+    "number": 65
+  },
+  {
+    "url": "https://arxiv.org/html/2610.37238v1",
+    "title": "Peers4U full paper",
+    "publisher": "Authors / arXiv",
+    "publishedAt": "2026-10-27T13:43:18Z",
+    "observedAt": "2026-10-29T08:12:33Z",
+    "number": 66
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.37461",
+    "title": "Concordat submission history",
+    "publisher": "Milad Sikaroudi / arXiv",
+    "publishedAt": "2026-10-27T16:00:26Z",
+    "observedAt": "2026-10-29T08:21:00Z",
+    "number": 67
+  },
+  {
+    "url": "https://arxiv.org/html/2610.37461v1",
+    "title": "Concordat full paper",
+    "publisher": "Milad Sikaroudi",
+    "publishedAt": "2026-10-27T16:00:26Z",
+    "observedAt": "2026-10-29T08:21:00Z",
+    "number": 68
+  },
+  {
+    "url": "https://github.com/miladsikaroudi/concordat",
+    "title": "Concordat repository README",
+    "publisher": "Milad Sikaroudi",
+    "observedAt": "2026-10-29T08:21:00Z",
+    "number": 69
+  },
+  {
+    "url": "https://github.com/miladsikaroudi/concordat/blob/main/LICENSE",
+    "title": "Concordat Apache-2.0 license",
+    "publisher": "Milad Sikaroudi",
+    "observedAt": "2026-10-29T08:21:00Z",
+    "number": 70
+  }
+]
