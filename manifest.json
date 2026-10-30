@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-10-30",
+    "zhTitle": "AI Daily｜2026年10月30日 · 家具制作、训练教练与握物交互",
+    "enTitle": "AI Daily | October 30, 2026 · Furniture making, training coaches and grip interaction",
+    "zhSummary": "Confetti与Fabivo的制作工具、Zwift与智能眼镜、本地剪辑和代理协作，以及握力输入、无障碍测试与共写研究。",
+    "enSummary": "Making tools from Confetti and Fabivo, Zwift and smart glasses, local editing and agent collaboration, plus research on grip input, accessibility testing and co-writing.",
+    "tags": [
+      "consumer AI",
+      "creative tools",
+      "physical interaction",
+      "research"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "research"
+    ],
+    "coverStory": {
+      "topicId": "confetti-hardware-design",
+      "zhTitle": "Confetti",
+      "enTitle": "Confetti",
+      "imagePath": "assets/confetti-b.jpg",
+      "imageSourceUrl": "https://ph-files.imgix.net/2dcc75cc-21c3-40ee-ac9b-169773c89b42.jpeg",
+      "primarySourceUrl": "https://www.producthunt.com/products/confetti-5",
+      "evidenceStrength": "Original vendor documentation and separately identified first-person evidence where stated; no editorial hands-on test"
+    },
+    "zhPath": "./2026-10-30/zh/",
+    "enPath": "./2026-10-30/en/",
+    "sourcesPath": "./2026-10-30/sources.html"
+  },
+  {
     "date": "2026-10-29",
     "zhTitle": "AI Daily｜2026年10月29日 · 床头感测、家庭相册与共享代理",
     "enTitle": "AI Daily | October 29, 2026 · Bedside sensing, family photos and shared agents",
