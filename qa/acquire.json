@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "name": "notch-metrics.jpg",
+    "url": "https://ph-files.imgix.net/887bbd13-a9e1-4bbd-a326-391aaf79aacd.jpeg",
+    "kind": "image",
+    "locale": "zh"
+  },
+  {
+    "name": "jimmy.jpg",
+    "url": "https://ph-files.imgix.net/08ae59fc-38d9-48d4-bf4e-71c63e92d179.jpeg",
+    "kind": "image",
+    "locale": "zh"
+  },
+  {
+    "name": "confetti-a.jpg",
+    "url": "https://ph-files.imgix.net/a99306f9-e5d3-47ab-8a52-41b6d0ba0a82.jpeg",
+    "kind": "image",
+    "locale": "en"
+  },
+  {
+    "name": "confetti-b.jpg",
+    "url": "https://ph-files.imgix.net/2dcc75cc-21c3-40ee-ac9b-169773c89b42.jpeg",
+    "kind": "image",
+    "locale": "en"
+  },
+  {
+    "name": "rokid-glasses2.jpg",
+    "url": "https://media.wareable.com/images/featured-big/2026/10/rokid-glasses-2.jpg",
+    "kind": "image",
+    "locale": "en"
+  }
+]
