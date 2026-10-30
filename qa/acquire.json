@@ -1,14 +1,21 @@
 [
   {
-    "name": "gemini-edit-thumbnail.jpg",
-    "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/fileGen2.0-thumbnail-16x9.width-1000.format-webp.webp",
+    "name": "floot-preview2.jpg",
+    "url": "https://ph-files.imgix.net/5b951486-a972-41d7-82dd-059d2cfa1f92.jpeg",
     "kind": "image",
     "renderImage": true,
     "locale": "zh"
   },
   {
-    "name": "as-if-machine.jpg",
-    "url": "https://arxiv.org/html/2610.33301v1/example_interface.png",
+    "name": "floot-preview3.jpg",
+    "url": "https://ph-files.imgix.net/0929be73-6b4e-4389-aa0c-f1ddc7f341f0.jpeg",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "name": "psychomotor-tutor.jpg",
+    "url": "https://arxiv.org/html/2610.33467v1/Figures/Experiment.png",
     "kind": "image",
     "renderImage": true,
     "locale": "en"
