@@ -1,62 +1,37 @@
 [
   {
-    "name": "jimmy-ui2.png",
-    "url": "https://ph-files.imgix.net/1d13d558-c2b8-4482-9354-60aa592a64b7.png",
-    "kind": "image",
+    "name": "gemini-edit-inventory.json",
+    "url": "https://blog.google/innovation-and-ai/products/gemini-app/edit-files-directly/",
+    "kind": "inventory",
     "locale": "zh"
   },
   {
-    "name": "jimmy-ui3.png",
-    "url": "https://ph-files.imgix.net/d04a7b51-4f71-494e-b796-ba5831d0416f.png",
+    "name": "gemini-notebook.webp",
+    "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Notebook_BTS.width-200.format-webp.webp",
     "kind": "image",
     "locale": "en"
   },
   {
-    "name": "clover-access.png",
-    "url": "https://diffuspace.ai/assets/blog/clover/access.png?v=20261028",
+    "name": "floot-ui.jpg",
+    "url": "https://ph-files.imgix.net/fe3996b7-d350-43cc-add6-813fdb14d07a.jpeg",
     "kind": "image",
     "locale": "zh"
   },
   {
-    "name": "micro-editor.png",
-    "url": "https://arxiv.org/html/2610.40653v1/micro_editor_interface3.png",
+    "name": "intrascope-ui.webp",
+    "url": "https://intrascope.app/images/app/dashboard.webp",
     "kind": "image",
     "locale": "en"
   },
   {
-    "name": "lookover.png",
-    "url": "https://arxiv.org/html/2610.39363v1/teaser3.png",
+    "name": "haidl-x.png",
+    "url": "https://arxiv.org/html/2610.40006v1/figures/interaction_lifecycle.png",
     "kind": "image",
     "locale": "zh"
   },
   {
-    "name": "explainability.png",
-    "url": "https://arxiv.org/html/2610.39634v1/EA_interface_2.png",
-    "kind": "image",
-    "locale": "en"
-  },
-  {
-    "name": "agibot-g2max.jpg",
-    "url": "https://www.agibot.com/file/ueditor/php/upload/image/20261029/1793252586374148.png",
-    "kind": "image",
-    "locale": "zh",
-    "renderImage": true
-  },
-  {
-    "name": "stablegen-ui.webp",
-    "url": "https://raw.githubusercontent.com/sakalond/stablegen-media/main/readme/pipeline-phone-light.webp",
-    "kind": "image",
-    "locale": "en"
-  },
-  {
-    "name": "stablegen-edit.webp",
-    "url": "https://raw.githubusercontent.com/sakalond/stablegen-media/main/readme/edit-phone-light.webp",
-    "kind": "image",
-    "locale": "zh"
-  },
-  {
-    "name": "meta-alerts.jpg",
-    "url": "https://about.fb.com/wp-content/uploads/2026/03/New-Alerts-to-Let-Parents-Know-if-Their-Teen-May-Need-Support_Header.jpg",
+    "name": "matic-service.webp",
+    "url": "https://maticrobots.com/_next/image?q=75&url=%2F_next%2Fstatic%2Fmedia%2Feasy-service-fitted-firstframe.edc357ff.webp&w=3840",
     "kind": "image",
     "locale": "en"
   }
