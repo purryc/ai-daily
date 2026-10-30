@@ -1,31 +1,61 @@
 [
   {
-    "name": "notch-metrics.jpg",
-    "url": "https://ph-files.imgix.net/887bbd13-a9e1-4bbd-a326-391aaf79aacd.jpeg",
+    "name": "ifttt-builder.webp",
+    "url": "https://web-assets.ifttt.com/builds/assets/ai_create-DlbAUJ6u.webp",
     "kind": "image",
     "locale": "zh"
   },
   {
-    "name": "jimmy.jpg",
-    "url": "https://ph-files.imgix.net/08ae59fc-38d9-48d4-bf4e-71c63e92d179.jpeg",
+    "name": "replica-ui.jpg",
+    "url": "https://github.blog/wp-content/uploads/2026/11/681818330-d5913d93-5bf6-49e6-b0d5-cb5e544c5a23.jpg",
+    "kind": "image",
+    "locale": "en"
+  },
+  {
+    "name": "copilot-review.png",
+    "url": "https://github.blog/wp-content/uploads/2026/11/683060765-43cffe61-3c1c-47b7-9067-57635b1b60e4.png",
     "kind": "image",
     "locale": "zh"
   },
   {
-    "name": "confetti-a.jpg",
-    "url": "https://ph-files.imgix.net/a99306f9-e5d3-47ab-8a52-41b6d0ba0a82.jpeg",
+    "name": "xreal-aura.png",
+    "url": "https://us.shop.xreal.com/cdn/shop/files/Main_AURA_Puck.png?v=1791095023&width=416",
     "kind": "image",
     "locale": "en"
   },
   {
-    "name": "confetti-b.jpg",
-    "url": "https://ph-files.imgix.net/2dcc75cc-21c3-40ee-ac9b-169773c89b42.jpeg",
+    "name": "zwift-coach.jpg",
+    "url": "https://images.prismic.io/zwift-web/sFz4GyW0aZLpnSlH_plus-web-info-image2.jpg?auto=format%2Ccompress&w=2880",
+    "kind": "image",
+    "locale": "zh"
+  },
+  {
+    "name": "intera11y.png",
+    "url": "https://arxiv.org/html/2610.39488v1/intera11y-trace-sankey-page-width.png",
     "kind": "image",
     "locale": "en"
   },
   {
-    "name": "rokid-glasses2.jpg",
-    "url": "https://media.wareable.com/images/featured-big/2026/10/rokid-glasses-2.jpg",
+    "name": "grasp-pressure.png",
+    "url": "https://arxiv.org/html/2610.39459v1/applications_1.png",
+    "kind": "image",
+    "locale": "zh"
+  },
+  {
+    "name": "coucou-hub.png",
+    "url": "https://louis-cfm.github.io/coucou/media/hub-dictation.png",
+    "kind": "image",
+    "locale": "en"
+  },
+  {
+    "name": "fabivo-model.webp",
+    "url": "https://www.fabivo.app/showcase/en-2-model.webp",
+    "kind": "image",
+    "locale": "zh"
+  },
+  {
+    "name": "survival-llm.png",
+    "url": "https://www.brangus.io/survival-llm/screenshot.png",
     "kind": "image",
     "locale": "en"
   }
