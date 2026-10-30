@@ -1,0 +1,683 @@
+{
+  "date": "2026-10-30",
+  "timezone": "America/Toronto",
+  "cutoff": "2026-10-30T08:04:32Z",
+  "windowStart": "2026-10-29T08:04:32Z",
+  "metrics": {
+    "body": {
+      "zhDenseChars": 21995,
+      "enWords": 12962
+    },
+    "perProduct": {
+      "confetti-hardware-design": {
+        "zh": 716,
+        "en": 424
+      },
+      "fabivo-photo-cutlist": {
+        "zh": 712,
+        "en": 424
+      },
+      "zwift-plus-adaptive-coach": {
+        "zh": 758,
+        "en": 444
+      },
+      "rokid-glasses2-preview-capture": {
+        "zh": 710,
+        "en": 426
+      },
+      "xreal-aura-open-orders": {
+        "zh": 726,
+        "en": 438
+      },
+      "matic-stable181-maintenance": {
+        "zh": 744,
+        "en": 443
+      },
+      "vclip-local-video-clips": {
+        "zh": 854,
+        "en": 483
+      },
+      "ifttt-ai-agent-credits": {
+        "zh": 714,
+        "en": 458
+      },
+      "stablegen-040": {
+        "zh": 640,
+        "en": 416
+      },
+      "coucou-055": {
+        "zh": 645,
+        "en": 426
+      },
+      "survival-llm-040": {
+        "zh": 697,
+        "en": 426
+      },
+      "gemini-inline-file-editing": {
+        "zh": 748,
+        "en": 438
+      },
+      "floot-chatgpt-native-preview": {
+        "zh": 736,
+        "en": 450
+      },
+      "weknora-090-assistant": {
+        "zh": 906,
+        "en": 485
+      },
+      "github-replica-design-prototypes": {
+        "zh": 693,
+        "en": 445
+      },
+      "copilot-pr-review-agent-merge": {
+        "zh": 712,
+        "en": 460
+      },
+      "intrascope2-shared-agent-controls": {
+        "zh": 776,
+        "en": 439
+      },
+      "radar-119": {
+        "zh": 681,
+        "en": 420
+      },
+      "aws-step-functions-agent-tools": {
+        "zh": 725,
+        "en": 430
+      },
+      "foundry-copilot-harness-preview": {
+        "zh": 737,
+        "en": 441
+      },
+      "mcode-stack-context-audit": {
+        "zh": 846,
+        "en": 475
+      },
+      "clover-block-diffusion": {
+        "zh": 820,
+        "en": 472
+      },
+      "agibot-g2max-linku": {
+        "zh": 742,
+        "en": 436
+      },
+      "grasppressure": {
+        "zh": 776,
+        "en": 471
+      },
+      "intera11y": {
+        "zh": 836,
+        "en": 456
+      },
+      "lookover": {
+        "zh": 819,
+        "en": 464
+      },
+      "haidl-x": {
+        "zh": 877,
+        "en": 465
+      },
+      "as-if-machine": {
+        "zh": 807,
+        "en": 458
+      },
+      "adaptive-psychomotor-tutor": {
+        "zh": 842,
+        "en": 449
+      }
+    },
+    "primarySummaries": {
+      "confetti-hardware-design": {
+        "zh": 218,
+        "en": 114
+      },
+      "fabivo-photo-cutlist": {
+        "zh": 213,
+        "en": 119
+      },
+      "zwift-plus-adaptive-coach": {
+        "zh": 217,
+        "en": 119
+      },
+      "rokid-glasses2-preview-capture": {
+        "zh": 218,
+        "en": 119
+      },
+      "xreal-aura-open-orders": {
+        "zh": 205,
+        "en": 113
+      },
+      "matic-stable181-maintenance": {
+        "zh": 215,
+        "en": 116
+      },
+      "vclip-local-video-clips": {
+        "zh": 202,
+        "en": 111
+      },
+      "ifttt-ai-agent-credits": {
+        "zh": 209,
+        "en": 121
+      },
+      "stablegen-040": {
+        "zh": 200,
+        "en": 114
+      },
+      "coucou-055": {
+        "zh": 202,
+        "en": 133
+      },
+      "survival-llm-040": {
+        "zh": 208,
+        "en": 129
+      },
+      "gemini-inline-file-editing": {
+        "zh": 210,
+        "en": 113
+      },
+      "floot-chatgpt-native-preview": {
+        "zh": 214,
+        "en": 117
+      },
+      "weknora-090-assistant": {
+        "zh": 208,
+        "en": 116
+      },
+      "github-replica-design-prototypes": {
+        "zh": 208,
+        "en": 122
+      },
+      "copilot-pr-review-agent-merge": {
+        "zh": 215,
+        "en": 117
+      },
+      "intrascope2-shared-agent-controls": {
+        "zh": 220,
+        "en": 122
+      },
+      "radar-119": {
+        "zh": 202,
+        "en": 119
+      },
+      "aws-step-functions-agent-tools": {
+        "zh": 149,
+        "en": 108
+      },
+      "foundry-copilot-harness-preview": {
+        "zh": 160,
+        "en": 97
+      },
+      "mcode-stack-context-audit": {
+        "zh": 201,
+        "en": 115
+      },
+      "clover-block-diffusion": {
+        "zh": 202,
+        "en": 117
+      },
+      "agibot-g2max-linku": {
+        "zh": 211,
+        "en": 121
+      },
+      "grasppressure": {
+        "zh": 211,
+        "en": 115
+      },
+      "intera11y": {
+        "zh": 210,
+        "en": 114
+      },
+      "lookover": {
+        "zh": 203,
+        "en": 120
+      },
+      "haidl-x": {
+        "zh": 220,
+        "en": 119
+      },
+      "as-if-machine": {
+        "zh": 209,
+        "en": 116
+      },
+      "adaptive-psychomotor-tutor": {
+        "zh": 218,
+        "en": 113
+      }
+    },
+    "counting": "Only unique full-analysis product paragraphs count toward body gates; summaries, captions, coverage and sources excluded.",
+    "products": 29,
+    "references": 134,
+    "coreVisuals": 29,
+    "slidesPerLocale": 32,
+    "primaryProjectPages": 29,
+    "attachedProjectDetails": 29,
+    "primaryBody": {
+      "zhDenseChars": 5978,
+      "enWords": 3389
+    },
+    "completeReadingBody": {
+      "zhDenseChars": 27973,
+      "enWords": 16351
+    }
+  },
+  "revision": {
+    "label": "morning-edition",
+    "originalCutoffRetained": true,
+    "newIssue": true,
+    "baselineCommit": "924a8a74184bcd9fa517b014240042a28b8e0194"
+  },
+  "topics": [
+    {
+      "id": "confetti-hardware-design",
+      "zhHeadline": "Confetti把外壳、零件与打印报价接在对话里，实物仍要装配验证",
+      "enHeadline": "Confetti connects enclosure design, components and print quotes in one conversation",
+      "eventAt": "2026-10-29",
+      "freshness": "near-three-day",
+      "evidence": "Original vendor documentation and separately identified first-person evidence where stated; no editorial hands-on test",
+      "eventDateNote": "day; exact publication clock and timezone not established; main-window lower boundary unresolved",
+      "event_key": "confetti.build:ph-appearance:2026-10-29",
+      "product_key": "confetti.build",
+      "publishedAt": "2026-10-29",
+      "observedAt": "2026-10-30T08:18:07.136620+00:00",
+      "delta_since_last_seen": "Supported printing jobs can go to print farms after quotation. Community projects offer another starting point for customized parts."
+    },
+    {
+      "id": "fabivo-photo-cutlist",
+      "zhHeadline": "Fabivo把家具照片拆成可改尺寸的板件，再排切割与装配顺序",
+      "enHeadline": "Fabivo turns furniture photos into editable boards and a cutting sequence",
+      "eventAt": "2026-10-26",
+      "freshness": "seven-day",
+      "evidence": "startup signal; maker demonstration and internal comparison, no physical build or independent test",
+      "eventDateNote": "day; benchmark ran October26, benchmark page updated October27; October29 HN appearance is discovery, not first release",
+      "event_key": "fabivo:photo-furniture-benchmark:359e7f2:2026-10-26",
+      "product_key": "github:Superpapotas/Fabivo",
+      "publishedAt": "2026-10-27",
+      "observedAt": "2026-10-30T08:29:43Z",
+      "delta_since_last_seen": "This week’s internal comparison and recorded session show the image-to-model workflow reaching cutting and assembly. The demonstration does not include a physical build."
+    },
+    {
+      "id": "zwift-plus-adaptive-coach",
+      "zhHeadline": "Zwift Plus按训练与空闲时间重排计划，活动选择仍有缺口",
+      "enHeadline": "Zwift Plus reshuffles training around availability, with gaps in activity selection",
+      "eventAt": "2026-10-29",
+      "freshness": "near-three-day",
+      "evidence": "Original vendor documentation and separately identified first-person evidence where stated; no editorial hands-on test",
+      "eventDateNote": "day; exact publication clock and timezone not established; main-window lower boundary unresolved",
+      "event_key": "zwift:plus:launch:2026-10-29",
+      "product_key": "zwift:plus",
+      "publishedAt": "2026-10-29",
+      "observedAt": "2026-10-30T08:18:07.136620+00:00",
+      "delta_since_last_seen": "Plans can change after missed or moved sessions. A language layer explains guidance rather than independently deciding the training load."
+    },
+    {
+      "id": "rokid-glasses2-preview-capture",
+      "zhHeadline": "Rokid Glasses 2先显示取景范围，再把对话整理成记录与待办",
+      "enHeadline": "Rokid Glasses 2 previews the camera frame and turns conversations into notes",
+      "eventAt": "2026-10-27",
+      "freshness": "seven-day",
+      "evidence": "Original vendor documentation and separately identified first-person evidence where stated; no editorial hands-on test",
+      "eventDateNote": "day; exact publication clock and timezone not established; main-window lower boundary unresolved",
+      "event_key": "rokid:glasses2:jungle-launch:2026-10-27",
+      "product_key": "rokid:glasses2",
+      "publishedAt": "2026-10-27",
+      "observedAt": "2026-10-30T08:18:07.136620+00:00",
+      "delta_since_last_seen": "Four omnidirectional microphones and a bone-conduction microphone capture speech. The companion Ring adds sliding, tapping and a configurable finger snap."
+    },
+    {
+      "id": "xreal-aura-open-orders",
+      "zhHeadline": "XREAL AURA开放下单，把电脑窗口和Gemini提示放进透视眼镜",
+      "enHeadline": "XREAL AURA opens orders with laptop windows and Gemini guidance in see-through glasses",
+      "eventAt": "2026-10-28",
+      "freshness": "near-three-day",
+      "evidence": "Original vendor documentation and separately identified first-person evidence where stated; no editorial hands-on test",
+      "eventDateNote": "day; exact publication clock and timezone not established; main-window lower boundary unresolved",
+      "event_key": "xreal:aura:general-orders:2026-10-28",
+      "product_key": "xreal:aura",
+      "publishedAt": "2026-10-28",
+      "observedAt": "2026-10-30T08:18:07.136620+00:00",
+      "delta_since_last_seen": "After view sharing, Gemini can highlight relevant places in the room or on screen. Hardware includes RGB and tracking cameras."
+    },
+    {
+      "id": "matic-stable181-maintenance",
+      "zhHeadline": "Matic把补水、湿袋与卡刷故障变成下一步提示，摄像头异常只自动重启一次",
+      "enHeadline": "Matic turns refill and jam states into next-step guidance, with one camera restart",
+      "eventAt": "2026-10-26",
+      "freshness": "seven-day",
+      "evidence": "Original vendor documentation and separately identified first-person evidence where stated; no editorial hands-on test",
+      "eventDateNote": "day; exact publication clock and timezone not established; main-window lower boundary unresolved",
+      "event_key": "maticrobots:stable181:2026-10-26",
+      "product_key": "maticrobots:software",
+      "publishedAt": "2026-10-26",
+      "observedAt": "2026-10-30T08:26:15.146311+00:00",
+      "delta_since_last_seen": "The changes connect machine states to actions a person can perform. They do not replace consumables automatically; camera startup failure gets one restart."
+    },
+    {
+      "id": "vclip-local-video-clips",
+      "zhHeadline": "VClip把本地视频转成候选切片，再由人调整时间轴",
+      "enHeadline": "VClip turns local videos into candidate clips for timeline review",
+      "eventAt": "2026-10-29",
+      "freshness": "near-three-day",
+      "evidence": "Original source documentation and maker screenshots; no local execution or independently tested throughput",
+      "eventDateNote": "day; original maker post indexed October29 23:33 with timezone not exposed. Repository created October29 14:14:25Z; source documentation commits observed before cutoff, but creation/commit times are not asserted to be exact public launch time. Classified conservatively as near-three-day because the public event has day-only precision and the original maker clock timezone is unconfirmed.",
+      "event_key": "wyfirstname:VClip:v0.3.4:public-source:2026-10-29",
+      "product_key": "github:wyfirstname/videoclip",
+      "publishedAt": "2026-10-29",
+      "observedAt": "2026-10-30T08:25:42.953815+00:00",
+      "delta_since_last_seen": "The public source version offers separate clips, ordered compilations and whole-transcript exports, with independent switches for both video outputs."
+    },
+    {
+      "id": "ifttt-ai-agent-credits",
+      "zhHeadline": "IFTTT让网页变化触发动作，免费也能建复杂规则但按运行扣额度",
+      "enHeadline": "IFTTT turns page changes into actions and meters runs instead of rule complexity",
+      "eventAt": "2026-10-28",
+      "freshness": "near-three-day",
+      "evidence": "confirmed product / startup signal; vendor documentation, not independent hands-on test",
+      "eventDateNote": "day; original source clock/timezone not disclosed; PH October29 is discovery, not first availability; main-window boundary unresolved",
+      "event_key": "ifttt.com:ai-agent-action-assist-credits:2026-10-28",
+      "product_key": "ifttt.com",
+      "publishedAt": "2026-10-28",
+      "observedAt": "2026-10-30T08:14:55.368435+00:00",
+      "delta_since_last_seen": "October 28 introduced AI Agent and Action assist, which rewrites an action’s text from each trigger and can skip irrelevant items."
+    },
+    {
+      "id": "stablegen-040",
+      "zhHeadline": "StableGen在Blender里局部重绘模型，再绑骨骼、烘焙导出",
+      "enHeadline": "StableGen edits selected 3D regions, rigs the mesh and exports baked assets",
+      "eventAt": "2026-10-28",
+      "freshness": "near-three-day",
+      "evidence": "Dated release and official workflow documentation; author Reddit demonstration, not independent test",
+      "eventDateNote": "day; GitHub displays October28 18:08 without explicit timezone",
+      "event_key": "stablegen:release:v0.4.0",
+      "product_key": "github:sakalond/StableGen",
+      "publishedAt": "2026-10-28",
+      "observedAt": "2026-10-30T08:29:43Z",
+      "delta_since_last_seen": "Version 0.4.0 adds masked editing and automatic rigging, with preview, apply or discard controls and retargeting of imported animations."
+    },
+    {
+      "id": "coucou-055",
+      "zhHeadline": "Coucou让同一编辑器的多个代理分别等候回答，并复用Claude订阅聊天",
+      "enHeadline": "Coucou keeps concurrent agents’ questions separate and reuses a Claude plan",
+      "eventAt": "2026-10-29",
+      "freshness": "near-three-day",
+      "evidence": "developer surface; release notes and contributor implementation/testing reports, not independent editorial test",
+      "eventDateNote": "day; release page displays October29 17:29 without explicit timezone; conservative near-three-day classification",
+      "event_key": "coucou:release:v0.5.5",
+      "product_key": "github:Louis-CFM/coucou",
+      "publishedAt": "2026-10-29",
+      "observedAt": "2026-10-30T08:29:43Z",
+      "delta_since_last_seen": "Questions can wait side by side and reach the iPhone separately. Without an API key, chat can use the user’s signed-in Claude Code."
+    },
+    {
+      "id": "survival-llm-040",
+      "zhHeadline": "Survival LLM让离线资料库边用边换，并修复首次打开的空白流程",
+      "enHeadline": "Survival LLM switches libraries without downtime and repairs first-run setup",
+      "eventAt": "2026-10-29",
+      "freshness": "near-three-day",
+      "evidence": "confirmed release / community friction; four individual issue reports and maintainer fixes, not independent retest or medical evaluation",
+      "eventDateNote": "day; release pages show Oct29 21:45 and22:21 without timezone in extracted text; precise clock pending",
+      "event_key": "survival-llm:release:v0.4.0-v0.4.1",
+      "product_key": "github:anonnerdfrenzy/survival-llm",
+      "publishedAt": "2026-10-29",
+      "observedAt": "2026-10-30T08:29:43Z",
+      "delta_since_last_seen": "Version 0.4.0 adds switching and relocation controls and can search files on another drive. Version 0.4.1 installs missing Windows WebView2. Replacement preserves access; external files need no duplicate application copy."
+    },
+    {
+      "id": "gemini-inline-file-editing",
+      "zhHeadline": "Gemini把选段修改留在文件预览里，PDF与其他格式的设备支持不同",
+      "enHeadline": "Gemini keeps selected edits inside file previews, with different support across devices",
+      "eventAt": "2026-10-29T16:15:00Z",
+      "freshness": "main",
+      "evidence": "confirmed product; original vendor announcement and documentation, not independent testing",
+      "eventDateNote": "exact; original article JSON-LD datePublished supplies UTC timestamp",
+      "event_key": "google:gemini-app-files:gemini-inline-file-editing:2026-10-29",
+      "product_key": "google:gemini-app-files",
+      "publishedAt": "2026-10-29T16:15:00Z",
+      "observedAt": "2026-10-30T08:22:27.584806+00:00",
+      "delta_since_last_seen": "October 29 adds preview and editing interactions. Downloadable file generation was already announced in April."
+    },
+    {
+      "id": "floot-chatgpt-native-preview",
+      "zhHeadline": "Floot把应用预览放进ChatGPT，预览与线上仍共用数据库",
+      "enHeadline": "Floot brings app previews into ChatGPT, while preview and live data stay shared",
+      "eventAt": "2026-10-29",
+      "freshness": "near-three-day",
+      "evidence": "confirmed product; original vendor announcement and documentation, not independent testing",
+      "eventDateNote": "day; source clock and timezone not established; October29 lower main-window boundary uncertain",
+      "event_key": "floot.com:floot-chatgpt-native-preview:2026-10-29",
+      "product_key": "floot.com",
+      "publishedAt": "2026-10-29",
+      "observedAt": "2026-10-30T08:18:49.850510+00:00",
+      "delta_since_last_seen": "Select an element or annotate the preview for the assistant. Publishing deploys a version; later code changes remain in preview."
+    },
+    {
+      "id": "weknora-090-assistant",
+      "zhHeadline": "WeKnora新增工作助手，能整理知识库、分派任务并等待批准",
+      "enHeadline": "WeKnora adds a workspace assistant with delegation and approval waits",
+      "eventAt": "2026-10-29T06:59:12Z",
+      "freshness": "near-three-day",
+      "evidence": "Tagged official release and documentation; vendor-authored behavior, not independent hands-on test",
+      "eventDateNote": "second; release HTML relative-time datetime; 65m20s before main window lower boundary",
+      "event_key": "github:Tencent/WeKnora:release:v0.9.0",
+      "product_key": "github:Tencent/WeKnora",
+      "publishedAt": "2026-10-29T06:59:12Z",
+      "observedAt": "2026-10-30T08:12:27.942401+00:00",
+      "delta_since_last_seen": "Version 0.9.0 adds visible subtasks and scheduled runs. Children have independent conversations and need explicit background; attachments are not automatically inherited."
+    },
+    {
+      "id": "github-replica-design-prototypes",
+      "zhHeadline": "Replica让团队用自己的组件试交互，分享原型另需部署Hub",
+      "enHeadline": "Replica builds interactive prototypes with team guidance and a separate sharing hub",
+      "eventAt": "2026-10-28",
+      "freshness": "near-three-day",
+      "evidence": "confirmed product; original vendor announcement and documentation, not independent testing",
+      "eventDateNote": "day; original announcement date only",
+      "event_key": "github:github/replica:github-replica-design-prototypes:2026-10-28",
+      "product_key": "github:github/replica",
+      "publishedAt": "2026-10-28",
+      "observedAt": "2026-10-30T08:15:00.057578+00:00",
+      "delta_since_last_seen": "The October 28 MIT release includes starters, a plugin and an optional Hub, with a path for existing repositories."
+    },
+    {
+      "id": "copilot-pr-review-agent-merge",
+      "zhHeadline": "Copilot把PR审查、批准与故障修复接起来，合并资格分开设置",
+      "enHeadline": "Copilot connects PR review and repair, with separate controls for approval and merging",
+      "eventAt": "2026-10-28",
+      "freshness": "near-three-day",
+      "evidence": "confirmed product; original vendor announcement and documentation, not independent testing",
+      "eventDateNote": "day; original announcement date only",
+      "event_key": "github:copilot-pr-lifecycle:copilot-pr-review-agent-merge:2026-10-28",
+      "product_key": "github:copilot-pr-lifecycle",
+      "publishedAt": "2026-10-28",
+      "observedAt": "2026-10-30T08:15:00.057578+00:00",
+      "delta_since_last_seen": "October 28 adds Max, generally available approvals and browser-side Agent Merge to the previously uncovered PR workflow."
+    },
+    {
+      "id": "intrascope2-shared-agent-controls",
+      "zhHeadline": "Intrascope 2.0把模型、应用和团队预算放进同一工作区",
+      "enHeadline": "Intrascope 2.0 brings model access, connected tools and team budgets into one workspace",
+      "eventAt": "2026-10-29",
+      "freshness": "near-three-day",
+      "evidence": "confirmed product; original vendor announcement and documentation, not independent testing",
+      "eventDateNote": "day; source clock and timezone not established; October29 lower main-window boundary uncertain",
+      "event_key": "intrascope.app:intrascope2-shared-agent-controls:2026-10-29",
+      "product_key": "intrascope.app",
+      "publishedAt": "2026-10-29",
+      "observedAt": "2026-10-30T08:18:49.850510+00:00",
+      "delta_since_last_seen": "Users can retain client context across work and export PDF, DOCX or presentation files without manually copying the conversation."
+    },
+    {
+      "id": "radar-119",
+      "zhHeadline": "Radar让集群排障从一句症状开始，并把结论放回证据旁",
+      "enHeadline": "Radar starts cluster investigations from a symptom and puts the verdict beside evidence",
+      "eventAt": "2026-10-29",
+      "freshness": "near-three-day",
+      "evidence": "Dated release, original PR descriptions and maintainer test reports; no independent cluster execution",
+      "eventDateNote": "day; release displays October29 11:08 without explicit timezone",
+      "event_key": "radar:release:v1.19.0",
+      "product_key": "github:skyhook-io/radar",
+      "publishedAt": "2026-10-29",
+      "observedAt": "2026-10-30T08:29:43Z",
+      "delta_since_last_seen": "It checks supported agents’ sign-in before starting. At capacity, it lists active investigations so one can be stopped and the original question retained."
+    },
+    {
+      "id": "aws-step-functions-agent-tools",
+      "zhHeadline": "Step Functions让代理启动既定流程，审批步骤不会随提示词重排",
+      "enHeadline": "Step Functions lets agents start a defined workflow without rearranging its steps",
+      "eventAt": "2026-10-29",
+      "freshness": "near-three-day",
+      "evidence": "Original vendor documentation; not independently executed",
+      "eventDateNote": "day; issuer clock/timezone not disclosed",
+      "event_key": "aws-step-functions-agent-tools-2026-10-29",
+      "product_key": "aws-step-functions-agent-tools",
+      "publishedAt": "2026-10-29",
+      "observedAt": "2026-10-30T08:15:14.758719+00:00",
+      "delta_since_last_seen": "Gateway generates the MCP tool schemas. The state machine still controls business steps, reducing custom Lambda or MCP wrapping."
+    },
+    {
+      "id": "foundry-copilot-harness-preview",
+      "zhHeadline": "Foundry托管代理执行循环，技能和工具仍由开发团队配置",
+      "enHeadline": "Foundry hosts the agent loop while developers configure skills and tools",
+      "eventAt": "2026-10-28",
+      "freshness": "near-three-day",
+      "evidence": "Original vendor documentation; not independently executed",
+      "eventDateNote": "day; issuer clock/timezone not disclosed",
+      "event_key": "foundry-copilot-harness-preview-2026-10-28",
+      "product_key": "foundry-copilot-harness-preview",
+      "publishedAt": "2026-10-28",
+      "observedAt": "2026-10-30T08:15:14.758719+00:00",
+      "delta_since_last_seen": "The managed loop coordinates calls and a workspace; teams can package business procedures into reusable skills."
+    },
+    {
+      "id": "mcode-stack-context-audit",
+      "zhHeadline": "MCode Stack把时间戳与缓存检查写成技能，输出可核对的修改清单",
+      "enHeadline": "MCode Stack turns prompt-cache checks into an inspectable skill",
+      "eventAt": "2026-10-29T14:24:27Z",
+      "freshness": "main",
+      "evidence": "Maintainer repository and skill contents; procedures documented, no installed or benchmarked result",
+      "eventDateNote": "second; GitHub individual commit embedded authoredDate/committedDate 2026-10-29T22:24:27+08:00; exact firstpublic timestamp not exposed",
+      "event_key": "github:MiniMax-AI/mcode-stack:49a3ff4:ronny0.2.5",
+      "product_key": "github:MiniMax-AI/mcode-stack",
+      "publishedAt": "2026-10-29T14:24:27Z",
+      "observedAt": "2026-10-30T08:17:00.846254+00:00",
+      "delta_since_last_seen": "Version 0.2.5 focuses on timestamps: retain stable information in the prefix, append changing context later, and avoid rewriting stored history."
+    },
+    {
+      "id": "clover-block-diffusion",
+      "zhHeadline": "Clover按块并行生成文本，接入代理仍须核对推理分支",
+      "enHeadline": "Clover generates text in blocks, with backend integration still in progress",
+      "eventAt": "2026-10-28",
+      "freshness": "near-three-day",
+      "evidence": "Original model card, repository and author demos; benchmark numbers are vendor claims",
+      "eventDateNote": "day; original HF repository release commit shown Oct28 03:07, timezone not exposed; no inferred UTC clock",
+      "event_key": "Diffuspace:Clover-35B-A3B-Preview:release:2026-10-28",
+      "product_key": "huggingface:Diffuspace/Clover-35B-A3B-Preview",
+      "publishedAt": "2026-10-28",
+      "observedAt": "2026-10-30T08:19:07.000382+00:00",
+      "delta_since_last_seen": "This release supplies preview weights and adaptation code. Official demos include interactive pages; a dedicated coding client remains in development."
+    },
+    {
+      "id": "agibot-g2max-linku",
+      "zhHeadline": "智元G2 Max与Link-U OS把作业硬件和开发接口一起推进，开源仍待年末",
+      "enHeadline": "AGIBOT pairs G2 Max with Link-U OS partner trials; open source remains a year-end plan",
+      "eventAt": "2026-10-29T09:33:00Z",
+      "freshness": "main",
+      "evidence": "Original vendor documentation and separately identified first-person evidence where stated; no editorial hands-on test",
+      "eventDateNote": "exact issuer-distribution timestamp: October29 05:33ET =09:33Z; on-site Innovation Day event only date-known",
+      "event_key": "agibot:innovation-day:issuer-announcement:2026-10-29T09:33:00Z",
+      "product_key": "agibot:g2max-linku",
+      "publishedAt": "2026-10-29T09:33:00Z",
+      "observedAt": "2026-10-30T08:26:15.146311+00:00",
+      "delta_since_last_seen": "GO-3 Preview demonstrates combined reasoning, prediction and action. Vendor demonstrations and existing G2 deployments do not establish G2 Max field acceptance."
+    },
+    {
+      "id": "grasppressure",
+      "zhHeadline": "GraspPressure让握着物体的手指用压力选档，实验与摄像头演示分开验证",
+      "enHeadline": "GraspPressure studies pressure selection while holding objects",
+      "eventAt": "2026-10-29T06:33:15Z",
+      "freshness": "near-three-day",
+      "evidence": "research signal; author implementation and evaluation, not independent product testing",
+      "eventDateNote": "Exact UTC arXiv submission; Oct30 public listing day observed, exact announcement clock unconfirmed; submission is not public announcement",
+      "event_key": "arxiv:2610.39459:v1",
+      "product_key": "arxiv:2610.39459",
+      "publishedAt": "2026-10-29T06:33:15Z",
+      "observedAt": "2026-10-30T08:14:05.294Z",
+      "delta_since_last_seen": "Two studies each involved twelve participants. Mean selection success was 92.7%; finer scales were slower and less accurate."
+    },
+    {
+      "id": "intera11y",
+      "zhHeadline": "InterA11y先操作网页再判无障碍问题，把焦点和反馈变成证据",
+      "enHeadline": "InterA11y tests page behavior before judging accessibility",
+      "eventAt": "2026-10-29T06:51:21Z",
+      "freshness": "near-three-day",
+      "evidence": "research signal; author implementation and evaluation, not independent product testing",
+      "eventDateNote": "Exact UTC arXiv submission; Oct30 public listing day observed, exact announcement clock unconfirmed; submission is not public announcement",
+      "event_key": "arxiv:2610.39488:v1",
+      "product_key": "arxiv:2610.39488",
+      "publishedAt": "2026-10-29T06:51:21Z",
+      "observedAt": "2026-10-30T08:14:04.972Z",
+      "delta_since_last_seen": "Its 46 tools include interaction and monitoring. Grayscale images, focus appearance and error messages become evidence; conclusive cases use deterministic checks first."
+    },
+    {
+      "id": "lookover",
+      "zhHeadline": "Lookover先把同学批注整理成主题，再用问题帮助接话",
+      "enHeadline": "Lookover groups classmates' annotations and prompts a response",
+      "eventAt": "2026-10-29T04:55:05Z",
+      "freshness": "near-three-day",
+      "evidence": "research signal; author implementation and evaluation, not independent product testing",
+      "eventDateNote": "Exact UTC arXiv submission; Oct30 public listing day observed, exact announcement clock unconfirmed; submission is not public announcement",
+      "event_key": "arxiv:2610.39363:v1",
+      "product_key": "arxiv:2610.39363",
+      "publishedAt": "2026-10-29T04:55:05Z",
+      "observedAt": "2026-10-30T08:17:21.041Z",
+      "delta_since_last_seen": "Opening the editor produces questions about understanding, challenging and connecting ideas, grounded in the passage and nearby comments, without supplying answers."
+    },
+    {
+      "id": "haidl-x",
+      "zhHeadline": "HAIDL-X把求助时的代码、错误和后续反馈存成可查询记录",
+      "enHeadline": "HAIDL-X records the code, errors and feedback around notebook assistance",
+      "eventAt": "2026-10-29T13:23:54Z",
+      "freshness": "near-three-day",
+      "evidence": "research signal; author implementation and evaluation, not independent product testing; developer surface",
+      "eventDateNote": "Exact UTC arXiv submission; Oct30 public listing day observed, exact announcement clock unconfirmed; submission is not public announcement",
+      "event_key": "arxiv:2610.40006:v1",
+      "product_key": "arxiv:2610.40006",
+      "publishedAt": "2026-10-29T13:23:54Z",
+      "observedAt": "2026-10-30T08:20:28.720Z",
+      "delta_since_last_seen": "Records connect by student, assignment and time, showing what happened around help requests rather than merely counting messages. Notebook execution evidence also covers work without assistant requests, preventing analysis from observing only people who actively asked questions."
+    },
+    {
+      "id": "as-if-machine",
+      "zhHeadline": "As-If Machine让人续写假设经历，每次AI补句都可拒绝",
+      "enHeadline": "As-If Machine lets people co-write hypothetical experiences one suggestion at a time",
+      "eventAt": "2026-10-23T21:11:11Z",
+      "freshness": "seven-day",
+      "evidence": "research signal; author implementation and evaluation, not independent product testing",
+      "eventDateNote": "Exact UTC arXiv submission; listed in Oct27 public cs.HC announcement, exact announcement clock unconfirmed; submission is not first release",
+      "event_key": "arxiv:2610.33301:v1",
+      "product_key": "arxiv:2610.33301",
+      "publishedAt": "2026-10-23T21:11:11Z",
+      "observedAt": "2026-10-30T08:23:50.834Z",
+      "delta_since_last_seen": "Four agents handle onset, consequences, plot and completion; instructions constrain the completer from assigning participants thoughts or feelings."
+    },
+    {
+      "id": "adaptive-psychomotor-tutor",
+      "zhHeadline": "着陆训练助手按近期表现调整接管帮助与反馈语气",
+      "enHeadline": "A landing tutor adjusts shared control and feedback using recent practice",
+      "eventAt": "2026-10-24T05:43:40Z",
+      "freshness": "seven-day",
+      "evidence": "research signal; author implementation and evaluation, not independent product testing",
+      "eventDateNote": "Exact UTC arXiv submission; public listing observed within seven-day supplement, exact announcement clock unconfirmed",
+      "event_key": "arxiv:2610.33467:v1",
+      "product_key": "arxiv:2610.33467",
+      "publishedAt": "2026-10-24T05:43:40Z",
+      "observedAt": "2026-10-30T08:29:23.379Z",
+      "delta_since_last_seen": "Priorities cover confidence calibration, workload and skill progression, allowing different learners to receive different policies instead of one fixed objective."
+    }
+  ],
+  "eventCounts": {
+    "mainWindowEvents": 3,
+    "nearThreeDayReviews": 21,
+    "sevenDayReviews": 5,
+    "interpretation": "Announcements, submissions, updates and regional reports; not first product launches."
+  }
+}

@@ -5360,6 +5360,481 @@
     "sha256": "79a1a74458b2116ff34cd52b383c4fd327f0f26f9f0481c72b09283b1de05072"
   },
   {
+    "path": "2026-10-30/assets/agibot-g2max.jpg",
+    "bytes": 186697,
+    "sha256": "758cc670e1b790c01f2415ca1838ba40ee7c5d370b9790d288244a7c9e2d16fb"
+  },
+  {
+    "path": "2026-10-30/assets/as-if-machine.jpg",
+    "bytes": 65558,
+    "sha256": "61566e3e964afc7fdca89f5cfc0c490b7ca3d53760ac6f00ceafd65b90acb231"
+  },
+  {
+    "path": "2026-10-30/assets/aws-step-functions-agent-tools-source-flow.png",
+    "bytes": 75407,
+    "sha256": "672edff9feb314731f34e9918d93f1329914e54bd657835fcd11630d36162efe"
+  },
+  {
+    "path": "2026-10-30/assets/clover-access.png",
+    "bytes": 175015,
+    "sha256": "eedb62c6df3f597a3557e3708d8ba2d069f93cb4cbc99b009f661977eae62975"
+  },
+  {
+    "path": "2026-10-30/assets/confetti-b.jpg",
+    "bytes": 66607,
+    "sha256": "e18b8fe3061d1564811241b94707e5cd6146ee019091d5dd9b2baf57168a0c64"
+  },
+  {
+    "path": "2026-10-30/assets/copilot-review.png",
+    "bytes": 629739,
+    "sha256": "f2f3e02d432e6d4db410f4aba6f4889e77cb1c0099b75185a377a31ee8b12cf2"
+  },
+  {
+    "path": "2026-10-30/assets/coucou-hub.png",
+    "bytes": 411438,
+    "sha256": "944b0cf5dbd6946bb9552e55b70f63bf54ab713d57163ad2041ba7dffa1afd86"
+  },
+  {
+    "path": "2026-10-30/assets/deck.js",
+    "bytes": 2576,
+    "sha256": "63d13c06452d7405e0b5ed572d8464d802c9e5b8de656b5a94e3527b1730f7b3"
+  },
+  {
+    "path": "2026-10-30/assets/fabivo-model.webp",
+    "bytes": 28842,
+    "sha256": "6f61079ae722791161fb4951eceb37e19de422a4f3318243cbe0a9a7bc78608f"
+  },
+  {
+    "path": "2026-10-30/assets/floot-gallery4.jpg",
+    "bytes": 89828,
+    "sha256": "931af3577e0054c970400816db9fde1e535e0f355d6ddf5da316cca208f73e6f"
+  },
+  {
+    "path": "2026-10-30/assets/foundry-copilot-harness-preview-source-flow.png",
+    "bytes": 67762,
+    "sha256": "2c32d2b040d344e342c51382750d71f4d83fc9a44fde10616fdde1b634e891cd"
+  },
+  {
+    "path": "2026-10-30/assets/gemini-inline-source-frame.jpg",
+    "bytes": 41144,
+    "sha256": "3f96500ee5e074868a197fc5f9eb9c304c1ce5555d7556239b78a7923fe76285"
+  },
+  {
+    "path": "2026-10-30/assets/grasp-pressure.png",
+    "bytes": 828579,
+    "sha256": "2c9179c6ff800c9755326105e9b86c2b991ace7a1e083f8d3fa74354c0956041"
+  },
+  {
+    "path": "2026-10-30/assets/haidl-x.png",
+    "bytes": 1594704,
+    "sha256": "a117d331d757cfa693e3dc23dc497585706929af71614d32772ae742aa334e56"
+  },
+  {
+    "path": "2026-10-30/assets/ifttt-builder.webp",
+    "bytes": 16022,
+    "sha256": "bd30bf6ef8c3cd0f53ce2650656973f6caa98d86eeb2f4a13c7f2352d39d270e"
+  },
+  {
+    "path": "2026-10-30/assets/intera11y.png",
+    "bytes": 40251,
+    "sha256": "bbb1b42851e83e92c36463151fbd710e56c3f481fbe6876ec26247f008ccf660"
+  },
+  {
+    "path": "2026-10-30/assets/intrascope-ui.webp",
+    "bytes": 51028,
+    "sha256": "beac0e69431b919974fd47003ecaf6b172c6d507f6a621317e1167189ba3a637"
+  },
+  {
+    "path": "2026-10-30/assets/issue.css",
+    "bytes": 10285,
+    "sha256": "1e458c07ba855726699c2b9885d466a62a85e04604b22dddcca9a2f3d1ca09e9"
+  },
+  {
+    "path": "2026-10-30/assets/lookover.png",
+    "bytes": 439819,
+    "sha256": "a6ea70524cfecce9bc3043dd1bc2483161c92c6b67d6d792be596ebe2ea4d4b2"
+  },
+  {
+    "path": "2026-10-30/assets/matic-service.webp",
+    "bytes": 58466,
+    "sha256": "81726ad28fd52a8b2983adc37a5796edb106bb99e440012a15669207d0b60f99"
+  },
+  {
+    "path": "2026-10-30/assets/mcode-skills-map.png",
+    "bytes": 606392,
+    "sha256": "730b70d5be2310995d07ec5c3fc54a3bfdc9eeca6a4fb11b4b278440abfea10d"
+  },
+  {
+    "path": "2026-10-30/assets/psychomotor-tutor.jpg",
+    "bytes": 180100,
+    "sha256": "4ce0604c4cbe148f6b08197d842554bf918ecdc60a8f3610d78562dd4cdf49e8"
+  },
+  {
+    "path": "2026-10-30/assets/radar-mcp-claude-code.png",
+    "bytes": 80778,
+    "sha256": "8cb6ff95cfe553419c44b9b216ac0d6bb5bebf0bf33b54e70fb8285d0bf6afd7"
+  },
+  {
+    "path": "2026-10-30/assets/replica-ui.jpg",
+    "bytes": 492971,
+    "sha256": "7350991bad5ffe0ac6e39339f1f3c8a6a69505905a02da47c114ee8d171afed4"
+  },
+  {
+    "path": "2026-10-30/assets/rokid-glasses2.jpg",
+    "bytes": 61087,
+    "sha256": "d78490d8e1f38c931f4e597412c1a56eb1fabd82e2b92d04f9fbc944727c307b"
+  },
+  {
+    "path": "2026-10-30/assets/stablegen-edit.webp",
+    "bytes": 4124660,
+    "sha256": "21920e5eabf402f4d1c14b8f1ee6b80247509ba95cf8d9c93e0c57fd379eea21"
+  },
+  {
+    "path": "2026-10-30/assets/survival-llm.png",
+    "bytes": 483445,
+    "sha256": "895b2478284f6e5d004b2fea509e0efbae5ea123fee236b919a27d0d4c683b16"
+  },
+  {
+    "path": "2026-10-30/assets/vclip-02-project.png",
+    "bytes": 415453,
+    "sha256": "16d360597ec198975f21ffe0bfffb23f6ffe379e590551b9d82e41e4c67c797e"
+  },
+  {
+    "path": "2026-10-30/assets/weknora-assistant-overview.png",
+    "bytes": 404727,
+    "sha256": "b0f51eb5261414a21befcd4d65653fadbb571407b65ae59172afc36fa3b6b6cf"
+  },
+  {
+    "path": "2026-10-30/assets/xreal-aura.png",
+    "bytes": 58639,
+    "sha256": "acf11508db340c44ca59be066f4e7331010d33c1e823cd2433f111bae1a5c615"
+  },
+  {
+    "path": "2026-10-30/assets/zwift-coach.jpg",
+    "bytes": 324759,
+    "sha256": "536f3b18fe3c1e3c6eaad550b2a8cae591c99f3096798aff40035c5fadf99c64"
+  },
+  {
+    "path": "2026-10-30/en/details/adaptive-psychomotor-tutor.html",
+    "bytes": 6328,
+    "sha256": "345c5a4790396bd97b2e0e3847971ceecf7f5e654f2511d8009d7c4077406329"
+  },
+  {
+    "path": "2026-10-30/en/details/agibot-g2max-linku.html",
+    "bytes": 7599,
+    "sha256": "14cc699ba683886b26fb451ae4eb6946eaf10c8c0f006d185d2a63ddd0ce16f8"
+  },
+  {
+    "path": "2026-10-30/en/details/as-if-machine.html",
+    "bytes": 6341,
+    "sha256": "6d9be30d4cd4be62499ce8b3d5240b5b2c922b019b88357d1da63656cf7d45ec"
+  },
+  {
+    "path": "2026-10-30/en/details/aws-step-functions-agent-tools.html",
+    "bytes": 6688,
+    "sha256": "035baa0030f6908516490298e0f8e1413b78d4e759d671fc9ee3bd88f897ad23"
+  },
+  {
+    "path": "2026-10-30/en/details/clover-block-diffusion.html",
+    "bytes": 7099,
+    "sha256": "71594c39aa1192140928d7265e820d6b3e546d2108523fcd6e1b218e0805f249"
+  },
+  {
+    "path": "2026-10-30/en/details/confetti-hardware-design.html",
+    "bytes": 6621,
+    "sha256": "673506f7408c82e1d8f0cb8a991bee9931a6766b8dac79191f061fb0e46b9536"
+  },
+  {
+    "path": "2026-10-30/en/details/copilot-pr-review-agent-merge.html",
+    "bytes": 6817,
+    "sha256": "eb01b39102165d935e58e0eddcf892c71576b4653972b3a151b30058a4fe1b40"
+  },
+  {
+    "path": "2026-10-30/en/details/coucou-055.html",
+    "bytes": 5652,
+    "sha256": "b02f51a1d994e51a1069563c40caaed827e4ecfcde8d9bc66d6dc4c4336a20e8"
+  },
+  {
+    "path": "2026-10-30/en/details/fabivo-photo-cutlist.html",
+    "bytes": 6327,
+    "sha256": "c23ac93acd68481ae3f2c7f8a09e6541cc10c1e1f2dbbfae85d12921bd44c19a"
+  },
+  {
+    "path": "2026-10-30/en/details/floot-chatgpt-native-preview.html",
+    "bytes": 6489,
+    "sha256": "958958a9a2bedf9dc078f3e10594715a5e4845a326fe69b4880ee001e4c7851b"
+  },
+  {
+    "path": "2026-10-30/en/details/foundry-copilot-harness-preview.html",
+    "bytes": 6864,
+    "sha256": "da00a9337782f0d53d7086f5733e0eccc621ef7655d7547c263d2e493e9cd90e"
+  },
+  {
+    "path": "2026-10-30/en/details/gemini-inline-file-editing.html",
+    "bytes": 6575,
+    "sha256": "244dd6caed91127f81fe4801c0ba59a505a1b06112ddd2647dc561baa58f5267"
+  },
+  {
+    "path": "2026-10-30/en/details/github-replica-design-prototypes.html",
+    "bytes": 6532,
+    "sha256": "899ecf1353ee5f5eddb2d09def40c84184aa0f65660840f0a79e3a1213c999f1"
+  },
+  {
+    "path": "2026-10-30/en/details/grasppressure.html",
+    "bytes": 6228,
+    "sha256": "23ed54e0e178490aa4f624582e3f72bc20941e9ca0c6e733b1feae1d44f79105"
+  },
+  {
+    "path": "2026-10-30/en/details/haidl-x.html",
+    "bytes": 6331,
+    "sha256": "8f94043c4906581a699cc7972f2a205ee7904120c93ea8984b1a0c8c9106102e"
+  },
+  {
+    "path": "2026-10-30/en/details/ifttt-ai-agent-credits.html",
+    "bytes": 6445,
+    "sha256": "16e9445070d6f77c4200138f16d8988ac849ec533d31bc713f3428525a4b3b8c"
+  },
+  {
+    "path": "2026-10-30/en/details/intera11y.html",
+    "bytes": 6030,
+    "sha256": "c698e1eb8c97de787f2243f577cbcdcdb47d45c230e3156eb51d6052d131bfda"
+  },
+  {
+    "path": "2026-10-30/en/details/intrascope2-shared-agent-controls.html",
+    "bytes": 6880,
+    "sha256": "b0b0603ca3e2d9df93598641752fc003b628f02f61a437a23d5514cd1a4406df"
+  },
+  {
+    "path": "2026-10-30/en/details/lookover.html",
+    "bytes": 6073,
+    "sha256": "8ef5e6afbd28c9a101d7b3775f3958c63a015f172707f986342f66199fd01cce"
+  },
+  {
+    "path": "2026-10-30/en/details/matic-stable181-maintenance.html",
+    "bytes": 6300,
+    "sha256": "72236b1578b40d8969e59e02d45bc3bf90b116e16ebc92bf510a7f352c2f7552"
+  },
+  {
+    "path": "2026-10-30/en/details/mcode-stack-context-audit.html",
+    "bytes": 7185,
+    "sha256": "094f5ced45f2f460d6cbf3656bca3225adbe412ec544077131a3e0a89b450391"
+  },
+  {
+    "path": "2026-10-30/en/details/radar-119.html",
+    "bytes": 6154,
+    "sha256": "f24c78593c1df746631c39c5dbcb8aa36020c356733c0416cb9915ba01b14bb6"
+  },
+  {
+    "path": "2026-10-30/en/details/rokid-glasses2-preview-capture.html",
+    "bytes": 7367,
+    "sha256": "24a729deee770d323981a6b607011d62a7808dbf4c9836b2e41d9bbc0ccf097f"
+  },
+  {
+    "path": "2026-10-30/en/details/stablegen-040.html",
+    "bytes": 6157,
+    "sha256": "426bd68072b6b23464cbfe481f253a7457db7dddf9d35ef65cc7f8be807b3653"
+  },
+  {
+    "path": "2026-10-30/en/details/survival-llm-040.html",
+    "bytes": 6661,
+    "sha256": "b3587e396eba26321e9e0141081692535b87be4e6ac3f60858fbd7e5893c2d3c"
+  },
+  {
+    "path": "2026-10-30/en/details/vclip-local-video-clips.html",
+    "bytes": 7855,
+    "sha256": "46b83349e05971797de649f3885e2573d3d858bab20d90871439f9eaa305c13e"
+  },
+  {
+    "path": "2026-10-30/en/details/weknora-090-assistant.html",
+    "bytes": 6746,
+    "sha256": "a816648f3c3e81da2fe97ba9be8a4c72fada414ea728f23a686f25c34ce210ff"
+  },
+  {
+    "path": "2026-10-30/en/details/xreal-aura-open-orders.html",
+    "bytes": 6619,
+    "sha256": "8aa0e5447a40b81450f1eac497ecffebeaedfbaf5754104e0eaca05f3ed9170e"
+  },
+  {
+    "path": "2026-10-30/en/details/zwift-plus-adaptive-coach.html",
+    "bytes": 7051,
+    "sha256": "63455ec82de50ac64ace34089b57c720f0785c35d748cc8ad308828f63388058"
+  },
+  {
+    "path": "2026-10-30/en/index.html",
+    "bytes": 100702,
+    "sha256": "829dbdafbcec0bf556da899bbaa601a7dc5daf7d84285e118499f0517b3e93cc"
+  },
+  {
+    "path": "2026-10-30/manifest.json",
+    "bytes": 33456,
+    "sha256": "6b2281bddf182492c434c3255ca57b0f72960cbb568234eab2b5aeadeffd9c81"
+  },
+  {
+    "path": "2026-10-30/sources.html",
+    "bytes": 73760,
+    "sha256": "b7d4feed5915d8dc2f455dcbde978e53279fc314be2a456b6cc425f7d150a219"
+  },
+  {
+    "path": "2026-10-30/sources.json",
+    "bytes": 34043,
+    "sha256": "e3a8b85d5c2d5ae1c752cf3907e2db6376eee5c035917e70b0deb04d1a7bd54c"
+  },
+  {
+    "path": "2026-10-30/visuals.json",
+    "bytes": 22581,
+    "sha256": "56afc9ed834241aaeb9a585628fb2c7b5f4152e21cc9f5f529f576524c1445fa"
+  },
+  {
+    "path": "2026-10-30/zh/details/adaptive-psychomotor-tutor.html",
+    "bytes": 5629,
+    "sha256": "2a7f23d4ca299b1b348fd5fd285e871b70797d01e8b5f9141ad3c2ad35b4ec1c"
+  },
+  {
+    "path": "2026-10-30/zh/details/agibot-g2max-linku.html",
+    "bytes": 6974,
+    "sha256": "59df77b94b1e4300689d3e897bdddae4f14eb2d7512f40900706e1fc051f145d"
+  },
+  {
+    "path": "2026-10-30/zh/details/as-if-machine.html",
+    "bytes": 5664,
+    "sha256": "363586bf681ece218c071a1072d4110ebb60d7ef85dedaa48769362a7fb3ac3f"
+  },
+  {
+    "path": "2026-10-30/zh/details/aws-step-functions-agent-tools.html",
+    "bytes": 6122,
+    "sha256": "9596bb3687d51060b216b1c509beef3db2257c8bf91f3aab642ee837723102ae"
+  },
+  {
+    "path": "2026-10-30/zh/details/clover-block-diffusion.html",
+    "bytes": 6582,
+    "sha256": "2e4e8a9d1f0cd8d698408a28be8b2a537ccc51886f4b7d2b2f50e21003c9449c"
+  },
+  {
+    "path": "2026-10-30/zh/details/confetti-hardware-design.html",
+    "bytes": 6094,
+    "sha256": "c4d2eae91e7df88ea4dd61e66a50d604d4a189894509d4ae849342c68fce6019"
+  },
+  {
+    "path": "2026-10-30/zh/details/copilot-pr-review-agent-merge.html",
+    "bytes": 6050,
+    "sha256": "c39fe569b880a5bc00bbf61375489bb484a641c330ffffb803851000e332b519"
+  },
+  {
+    "path": "2026-10-30/zh/details/coucou-055.html",
+    "bytes": 5101,
+    "sha256": "8dacf10f3164f9da684ff086785f68de5eeeb679a70202de5b102b831e9fb752"
+  },
+  {
+    "path": "2026-10-30/zh/details/fabivo-photo-cutlist.html",
+    "bytes": 5879,
+    "sha256": "cfa406e756c8ab666a024ddaa1848935ec136423c749b4d10f18a04d87a120b6"
+  },
+  {
+    "path": "2026-10-30/zh/details/floot-chatgpt-native-preview.html",
+    "bytes": 5891,
+    "sha256": "73fe9a9646cf54edc28bc917ef87cc02db8b2b0215da892fff2fd1769057faff"
+  },
+  {
+    "path": "2026-10-30/zh/details/foundry-copilot-harness-preview.html",
+    "bytes": 6238,
+    "sha256": "576499459ce537ce00521ed8cdf092a210cbe4571b3b924b31f5d4353d84dcee"
+  },
+  {
+    "path": "2026-10-30/zh/details/gemini-inline-file-editing.html",
+    "bytes": 6146,
+    "sha256": "2dbc70cbdccb31aceba5b18f9b90192a331f1fc1a44f2fde089f35f2cc3ff385"
+  },
+  {
+    "path": "2026-10-30/zh/details/github-replica-design-prototypes.html",
+    "bytes": 5907,
+    "sha256": "e9741a18fea342652f4d12d78ee057c4aed5182f07eaeacc13556305ba67105c"
+  },
+  {
+    "path": "2026-10-30/zh/details/grasppressure.html",
+    "bytes": 5622,
+    "sha256": "312c17d425f25979b45c4429b49d29a9a9c1adb1cb1fc9a337d75d19442cc123"
+  },
+  {
+    "path": "2026-10-30/zh/details/haidl-x.html",
+    "bytes": 5837,
+    "sha256": "bea29b15d8f9769b3e5edc7e95458c0a95b4151ca8737c63489034264eeca9a5"
+  },
+  {
+    "path": "2026-10-30/zh/details/ifttt-ai-agent-credits.html",
+    "bytes": 6032,
+    "sha256": "ece9ffd44722f26c5f9a2773123065105e701fc37cc0f5bf062c4f9276d37aad"
+  },
+  {
+    "path": "2026-10-30/zh/details/intera11y.html",
+    "bytes": 5558,
+    "sha256": "e7bb16fdb336e206405416202b348001959c1a783c48aaec7adedb65530cdadb"
+  },
+  {
+    "path": "2026-10-30/zh/details/intrascope2-shared-agent-controls.html",
+    "bytes": 6375,
+    "sha256": "5a8132cf43f81c85c9cb01a3c38e3d350171ea608ed44c263097291699e7a1a4"
+  },
+  {
+    "path": "2026-10-30/zh/details/lookover.html",
+    "bytes": 5617,
+    "sha256": "aea6b18aea91c21e5bcc6364440937f2c5e1420730bf56f888dfaa9422ba7fd6"
+  },
+  {
+    "path": "2026-10-30/zh/details/matic-stable181-maintenance.html",
+    "bytes": 5725,
+    "sha256": "d004216551ed4d84e1b1270c074c5390acfae833d6b33f7231d96d14ef85a17e"
+  },
+  {
+    "path": "2026-10-30/zh/details/mcode-stack-context-audit.html",
+    "bytes": 6792,
+    "sha256": "3528f703dcd73e39a8f5a08e63a7f7c0628f9608d3dfe77db84cf5a2c0f30e1f"
+  },
+  {
+    "path": "2026-10-30/zh/details/radar-119.html",
+    "bytes": 5498,
+    "sha256": "f47c791daca19cd872f61fa46633c19f647b9381d81e8e22ea968d79c6e6b01f"
+  },
+  {
+    "path": "2026-10-30/zh/details/rokid-glasses2-preview-capture.html",
+    "bytes": 6754,
+    "sha256": "b55b04a17da50d8a9522ff55c59da09646271cb27444df3c611ca6dd09cf0f90"
+  },
+  {
+    "path": "2026-10-30/zh/details/stablegen-040.html",
+    "bytes": 5629,
+    "sha256": "e60ef70ef6053a29d84e638f7e9ae22170277f8564108b608d9cd9ec2a04ae1d"
+  },
+  {
+    "path": "2026-10-30/zh/details/survival-llm-040.html",
+    "bytes": 6170,
+    "sha256": "9bdb0dc484688eebad938bcb6a2b2b7c628283785b2c28a9deb8f7736ccc5e92"
+  },
+  {
+    "path": "2026-10-30/zh/details/vclip-local-video-clips.html",
+    "bytes": 7314,
+    "sha256": "43115bce19210e660a03caa1ae395dbc0b2b8def34c403ed3f2f2049fc6cd80f"
+  },
+  {
+    "path": "2026-10-30/zh/details/weknora-090-assistant.html",
+    "bytes": 6241,
+    "sha256": "deed0d589aee2fe3a328e6861aeffb0b0c285fbe8febdfb0c821ba110d61c15f"
+  },
+  {
+    "path": "2026-10-30/zh/details/xreal-aura-open-orders.html",
+    "bytes": 6047,
+    "sha256": "1dd89eb443b348124660f9d3b128c046a1de7c401d5480fdf58df874cb020a46"
+  },
+  {
+    "path": "2026-10-30/zh/details/zwift-plus-adaptive-coach.html",
+    "bytes": 6543,
+    "sha256": "7936ef3b72ff7dd07e5ef1f53a4ee9f59d03da5a9db19265b2690184557c57da"
+  },
+  {
+    "path": "2026-10-30/zh/index.html",
+    "bytes": 96504,
+    "sha256": "0248e2dad9f2c08277a97f3a5a395ce72a8b1f3412ca74f0582f80bf1e17243c"
+  },
+  {
     "path": "assets/acti-agentic-keyboard-2026-07-03.svg",
     "bytes": 2825,
     "sha256": "84ad9abb0a1191abde62dea383e6e1ed583fc089073d3ccaf91629044501721b"
@@ -5771,18 +6246,18 @@
   },
   {
     "path": "en/index.html",
-    "bytes": 167396,
-    "sha256": "8dbd8f53638dc3036a1e82f8948181ba580f9a51c3d1aab37662c789184f50b5"
+    "bytes": 168630,
+    "sha256": "14dce79bf148326e2b4b039487363e3d6404620eabbc336e1935a3cdb1f92bc5"
   },
   {
     "path": "index.html",
-    "bytes": 161465,
-    "sha256": "9b266176b0a0944e209191619d16a049bd2fed33e27069f2d865f99479a4ba03"
+    "bytes": 162663,
+    "sha256": "9db4c05d6bd4145f92cd0d147176c6fecd85da81115aac1722dec1e025b3a03a"
   },
   {
     "path": "manifest.json",
-    "bytes": 739869,
-    "sha256": "bc2e7283caab764482f466e90809db4d7cffeae542bd4b97d6d203f22e49c7f5"
+    "bytes": 741276,
+    "sha256": "cd4d3e37586d73b0bf8600709aa3ef85cd049a534bb172549a6ced72c328c1c9"
   },
   {
     "path": "weekly/2026-10-12/pilot/en/index.html",
