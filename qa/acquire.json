@@ -1,38 +1,16 @@
 [
   {
-    "name": "gemini-edit-inventory.json",
-    "url": "https://blog.google/innovation-and-ai/products/gemini-app/edit-files-directly/",
-    "kind": "inventory",
+    "name": "gemini-edit-thumbnail.jpg",
+    "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/fileGen2.0-thumbnail-16x9.width-1000.format-webp.webp",
+    "kind": "image",
+    "renderImage": true,
     "locale": "zh"
   },
   {
-    "name": "gemini-notebook.webp",
-    "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Notebook_BTS.width-200.format-webp.webp",
+    "name": "as-if-machine.jpg",
+    "url": "https://arxiv.org/html/2610.33301v1/example_interface.png",
     "kind": "image",
-    "locale": "en"
-  },
-  {
-    "name": "floot-ui.jpg",
-    "url": "https://ph-files.imgix.net/fe3996b7-d350-43cc-add6-813fdb14d07a.jpeg",
-    "kind": "image",
-    "locale": "zh"
-  },
-  {
-    "name": "intrascope-ui.webp",
-    "url": "https://intrascope.app/images/app/dashboard.webp",
-    "kind": "image",
-    "locale": "en"
-  },
-  {
-    "name": "haidl-x.png",
-    "url": "https://arxiv.org/html/2610.40006v1/figures/interaction_lifecycle.png",
-    "kind": "image",
-    "locale": "zh"
-  },
-  {
-    "name": "matic-service.webp",
-    "url": "https://maticrobots.com/_next/image?q=75&url=%2F_next%2Fstatic%2Fmedia%2Feasy-service-fitted-firstframe.edc357ff.webp&w=3840",
-    "kind": "image",
+    "renderImage": true,
     "locale": "en"
   }
 ]
