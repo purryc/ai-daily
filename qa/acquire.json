@@ -1,61 +1,62 @@
 [
   {
-    "name": "ifttt-builder.webp",
-    "url": "https://web-assets.ifttt.com/builds/assets/ai_create-DlbAUJ6u.webp",
+    "name": "jimmy-ui2.png",
+    "url": "https://ph-files.imgix.net/1d13d558-c2b8-4482-9354-60aa592a64b7.png",
     "kind": "image",
     "locale": "zh"
   },
   {
-    "name": "replica-ui.jpg",
-    "url": "https://github.blog/wp-content/uploads/2026/11/681818330-d5913d93-5bf6-49e6-b0d5-cb5e544c5a23.jpg",
+    "name": "jimmy-ui3.png",
+    "url": "https://ph-files.imgix.net/d04a7b51-4f71-494e-b796-ba5831d0416f.png",
     "kind": "image",
     "locale": "en"
   },
   {
-    "name": "copilot-review.png",
-    "url": "https://github.blog/wp-content/uploads/2026/11/683060765-43cffe61-3c1c-47b7-9067-57635b1b60e4.png",
+    "name": "clover-access.png",
+    "url": "https://diffuspace.ai/assets/blog/clover/access.png?v=20261028",
     "kind": "image",
     "locale": "zh"
   },
   {
-    "name": "xreal-aura.png",
-    "url": "https://us.shop.xreal.com/cdn/shop/files/Main_AURA_Puck.png?v=1791095023&width=416",
+    "name": "micro-editor.png",
+    "url": "https://arxiv.org/html/2610.40653v1/micro_editor_interface3.png",
     "kind": "image",
     "locale": "en"
   },
   {
-    "name": "zwift-coach.jpg",
-    "url": "https://images.prismic.io/zwift-web/sFz4GyW0aZLpnSlH_plus-web-info-image2.jpg?auto=format%2Ccompress&w=2880",
+    "name": "lookover.png",
+    "url": "https://arxiv.org/html/2610.39363v1/teaser3.png",
     "kind": "image",
     "locale": "zh"
   },
   {
-    "name": "intera11y.png",
-    "url": "https://arxiv.org/html/2610.39488v1/intera11y-trace-sankey-page-width.png",
+    "name": "explainability.png",
+    "url": "https://arxiv.org/html/2610.39634v1/EA_interface_2.png",
     "kind": "image",
     "locale": "en"
   },
   {
-    "name": "grasp-pressure.png",
-    "url": "https://arxiv.org/html/2610.39459v1/applications_1.png",
+    "name": "agibot-g2max.jpg",
+    "url": "https://www.agibot.com/file/ueditor/php/upload/image/20261029/1793252586374148.png",
     "kind": "image",
-    "locale": "zh"
+    "locale": "zh",
+    "renderImage": true
   },
   {
-    "name": "coucou-hub.png",
-    "url": "https://louis-cfm.github.io/coucou/media/hub-dictation.png",
+    "name": "stablegen-ui.webp",
+    "url": "https://raw.githubusercontent.com/sakalond/stablegen-media/main/readme/pipeline-phone-light.webp",
     "kind": "image",
     "locale": "en"
   },
   {
-    "name": "fabivo-model.webp",
-    "url": "https://www.fabivo.app/showcase/en-2-model.webp",
+    "name": "stablegen-edit.webp",
+    "url": "https://raw.githubusercontent.com/sakalond/stablegen-media/main/readme/edit-phone-light.webp",
     "kind": "image",
     "locale": "zh"
   },
   {
-    "name": "survival-llm.png",
-    "url": "https://www.brangus.io/survival-llm/screenshot.png",
+    "name": "meta-alerts.jpg",
+    "url": "https://about.fb.com/wp-content/uploads/2026/03/New-Alerts-to-Let-Parents-Know-if-Their-Teen-May-Need-Support_Header.jpg",
     "kind": "image",
     "locale": "en"
   }
