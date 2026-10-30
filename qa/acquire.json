@@ -1,21 +1,28 @@
 [
   {
-    "name": "floot-preview2.jpg",
-    "url": "https://ph-files.imgix.net/5b951486-a972-41d7-82dd-059d2cfa1f92.jpeg",
-    "kind": "image",
-    "renderImage": true,
+    "name": "gemini-inline-source-frame.jpg",
+    "url": "https://blog.google/innovation-and-ai/products/gemini-app/edit-files-directly/",
+    "kind": "page",
+    "selector": "img[src*=\"fileGen2.0-thumbnail\"]",
     "locale": "zh"
   },
   {
-    "name": "floot-preview3.jpg",
-    "url": "https://ph-files.imgix.net/0929be73-6b4e-4389-aa0c-f1ddc7f341f0.jpeg",
+    "name": "floot-gallery4.jpg",
+    "url": "https://ph-files.imgix.net/722abd08-c835-45a5-a5fd-edfcde2fe726.jpeg",
     "kind": "image",
     "renderImage": true,
     "locale": "en"
   },
   {
-    "name": "psychomotor-tutor.jpg",
-    "url": "https://arxiv.org/html/2610.33467v1/Figures/Experiment.png",
+    "name": "floot-gallery5.jpg",
+    "url": "https://ph-files.imgix.net/c4d6df99-d77e-4850-bb74-3d31130931c1.jpeg",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "name": "floot-gallery6.jpg",
+    "url": "https://ph-files.imgix.net/32087867-75f2-48e5-bcda-8aab6ff7680d.jpeg",
     "kind": "image",
     "renderImage": true,
     "locale": "en"
