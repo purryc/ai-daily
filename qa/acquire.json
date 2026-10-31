@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "kind": "image",
+    "name": "stepgrab-ui.jpg",
+    "url": "https://stepgrab.net/images/app-step-editor.png",
+    "locale": "zh",
+    "renderImage": true
+  },
+  {
+    "kind": "image",
+    "name": "empacer-history.jpg",
+    "url": "https://www.empacer.com/how-it-works/history-tasks.webp",
+    "locale": "zh",
+    "renderImage": true
+  },
+  {
+    "kind": "image",
+    "name": "canva-brush-ui.jpg",
+    "url": "https://content-management-files.canva.com/2b938cd8-6b24-4ceb-b55e-a94afc493b7b/CanvaBrush_Product_UI_Still.png",
+    "locale": "zh",
+    "renderImage": true
+  },
+  {
+    "kind": "image",
+    "name": "mlns-author-figure.jpg",
+    "url": "https://arxiv.org/html/2610.38569v1/images/results/new/fig1.png",
+    "locale": "en",
+    "renderImage": true
+  },
+  {
+    "kind": "image",
+    "name": "stepcontrol-author-figure.jpg",
+    "url": "https://arxiv.org/html/2610.38153v1/teaser.png",
+    "locale": "en",
+    "renderImage": true
+  },
+  {
+    "kind": "image",
+    "name": "axonnic-demo.jpg",
+    "url": "https://ph-files.imgix.net/8d8d84de-dce6-4fde-9d52-8dede1c7c5ae.png",
+    "locale": "en",
+    "renderImage": true
+  }
+]
