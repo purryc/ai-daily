@@ -1,18 +1,20 @@
 [
   {
     "kind": "image",
-    "name": "agentcore-cli-gateway.jpg",
+    "name": "agentcore-gateway-original.gif",
     "url": "https://docs.aws.amazon.com/images/bedrock-agentcore/latest/devguide/images/tui/gateway-list.gif",
-    "locale": "zh",
-    "renderImage": true,
-    "captureDelayMs": 2000
+    "locale": "zh"
   },
   {
     "kind": "image",
-    "name": "agentcore-cli-invoke.jpg",
-    "url": "https://docs.aws.amazon.com/images/bedrock-agentcore/latest/devguide/images/tui/gateway-invoke.gif",
-    "locale": "en",
-    "renderImage": true,
-    "captureDelayMs": 2000
+    "name": "chatgpt-dot-community.jpeg",
+    "url": "https://us1.discourse-cdn.com/openai1/original/4X/2/7/1/27163560208ad3d04621cb4e22c2cd0b2102660c.jpeg",
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "name": "chatgpt-icloud-community.jpeg",
+    "url": "https://us1.discourse-cdn.com/openai1/original/4X/6/a/3/6a3ab22f1f40f6809bfba4e93273045c5ff4bf3f.jpeg",
+    "locale": "en"
   }
 ]
