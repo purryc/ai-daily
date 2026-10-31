@@ -1,23 +1,18 @@
 [
   {
     "kind": "image",
-    "name": "matic-serene-flatlay.jpg",
-    "url": "https://maticrobots.com/_next/image?q=75&url=%2F_next%2Fstatic%2Fmedia%2Fwhats-inside-flatlay.209a61dc.webp&w=3840",
+    "name": "agentcore-cli-gateway.jpg",
+    "url": "https://docs.aws.amazon.com/images/bedrock-agentcore/latest/devguide/images/tui/gateway-list.gif",
     "locale": "zh",
-    "renderImage": true
+    "renderImage": true,
+    "captureDelayMs": 2000
   },
   {
     "kind": "image",
-    "name": "matic-serene-plate.jpg",
-    "url": "https://maticrobots.com/images/blog/engineering-behind-matic-serene/serene-limited-edition-plate.webp",
-    "locale": "zh",
-    "renderImage": true
-  },
-  {
-    "kind": "page",
-    "name": "suncatcher-author-simulation.jpg",
-    "url": "https://research.google/blog/exploring-a-space-based-scalable-ai-infrastructure-system-design/",
-    "selector": "video",
-    "locale": "en"
+    "name": "agentcore-cli-invoke.jpg",
+    "url": "https://docs.aws.amazon.com/images/bedrock-agentcore/latest/devguide/images/tui/gateway-invoke.gif",
+    "locale": "en",
+    "renderImage": true,
+    "captureDelayMs": 2000
   }
 ]
