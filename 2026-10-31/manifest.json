@@ -1,0 +1,661 @@
+{
+  "date": "2026-10-31",
+  "timezone": "America/Toronto",
+  "cutoff": "2026-10-31T07:58:56Z",
+  "windowStart": "2026-10-30T07:58:56Z",
+  "metrics": {
+    "body": {
+      "zhDenseChars": 21975,
+      "enWords": 12718
+    },
+    "perProduct": {
+      "skyrimnet-beta29-dialogue": {
+        "zh": 713,
+        "en": 429
+      },
+      "mika-0118-phone-agent": {
+        "zh": 789,
+        "en": 444
+      },
+      "dshgo-105-observable-actions": {
+        "zh": 787,
+        "en": 440
+      },
+      "nvzhuang-reference-tryon": {
+        "zh": 832,
+        "en": 474
+      },
+      "axonnic-muscle-training": {
+        "zh": 764,
+        "en": 436
+      },
+      "rokid-uk-selfridges": {
+        "zh": 747,
+        "en": 437
+      },
+      "matic-serene-acoustic-stack": {
+        "zh": 755,
+        "en": 431
+      },
+      "canva-brush-editable-design": {
+        "zh": 765,
+        "en": 455
+      },
+      "elevenlabs-sfx-v3": {
+        "zh": 758,
+        "en": 455
+      },
+      "stepgrab-cross-platform-guides": {
+        "zh": 680,
+        "en": 430
+      },
+      "empacer-approved-business-tasks": {
+        "zh": 729,
+        "en": 436
+      },
+      "chatgpt-mobile-account-switching": {
+        "zh": 927,
+        "en": 522
+      },
+      "figma-drive-internal-weave": {
+        "zh": 761,
+        "en": 448
+      },
+      "amp-macos-satellites-visuals": {
+        "zh": 903,
+        "en": 525
+      },
+      "opencode-223-local-picker": {
+        "zh": 753,
+        "en": 436
+      },
+      "claude-unified-usage-cost-analytics": {
+        "zh": 740,
+        "en": 438
+      },
+      "gemini-computer-use-ga": {
+        "zh": 830,
+        "en": 474
+      },
+      "gemini-api-cli-beta": {
+        "zh": 766,
+        "en": 433
+      },
+      "agentcore-cli-v1-resource-workflows": {
+        "zh": 750,
+        "en": 442
+      },
+      "mistral-large4-open-weights": {
+        "zh": 854,
+        "en": 435
+      },
+      "xanylabeling-multipage-ocr": {
+        "zh": 765,
+        "en": 465
+      },
+      "hy-simulmt-streaming-translation": {
+        "zh": 813,
+        "en": 485
+      },
+      "doomformer-071-map-checks": {
+        "zh": 786,
+        "en": 427
+      },
+      "brainchip-pi5-akd1500": {
+        "zh": 727,
+        "en": 437
+      },
+      "suncatcher-orbital-response": {
+        "zh": 761,
+        "en": 436
+      },
+      "mlns-wheelchair": {
+        "zh": 850,
+        "en": 496
+      },
+      "stepcontrol-contact-schedules": {
+        "zh": 809,
+        "en": 475
+      },
+      "preflight-bench": {
+        "zh": 861,
+        "en": 477
+      }
+    },
+    "primarySummaries": {
+      "skyrimnet-beta29-dialogue": {
+        "zh": 213,
+        "en": 115
+      },
+      "mika-0118-phone-agent": {
+        "zh": 218,
+        "en": 111
+      },
+      "dshgo-105-observable-actions": {
+        "zh": 212,
+        "en": 116
+      },
+      "nvzhuang-reference-tryon": {
+        "zh": 206,
+        "en": 111
+      },
+      "axonnic-muscle-training": {
+        "zh": 211,
+        "en": 115
+      },
+      "rokid-uk-selfridges": {
+        "zh": 203,
+        "en": 114
+      },
+      "matic-serene-acoustic-stack": {
+        "zh": 210,
+        "en": 115
+      },
+      "canva-brush-editable-design": {
+        "zh": 213,
+        "en": 115
+      },
+      "elevenlabs-sfx-v3": {
+        "zh": 210,
+        "en": 116
+      },
+      "stepgrab-cross-platform-guides": {
+        "zh": 200,
+        "en": 110
+      },
+      "empacer-approved-business-tasks": {
+        "zh": 205,
+        "en": 113
+      },
+      "chatgpt-mobile-account-switching": {
+        "zh": 231,
+        "en": 115
+      },
+      "figma-drive-internal-weave": {
+        "zh": 219,
+        "en": 115
+      },
+      "amp-macos-satellites-visuals": {
+        "zh": 220,
+        "en": 120
+      },
+      "opencode-223-local-picker": {
+        "zh": 209,
+        "en": 114
+      },
+      "claude-unified-usage-cost-analytics": {
+        "zh": 219,
+        "en": 112
+      },
+      "gemini-computer-use-ga": {
+        "zh": 215,
+        "en": 110
+      },
+      "gemini-api-cli-beta": {
+        "zh": 206,
+        "en": 115
+      },
+      "agentcore-cli-v1-resource-workflows": {
+        "zh": 200,
+        "en": 115
+      },
+      "mistral-large4-open-weights": {
+        "zh": 216,
+        "en": 110
+      },
+      "xanylabeling-multipage-ocr": {
+        "zh": 200,
+        "en": 112
+      },
+      "hy-simulmt-streaming-translation": {
+        "zh": 200,
+        "en": 115
+      },
+      "doomformer-071-map-checks": {
+        "zh": 201,
+        "en": 113
+      },
+      "brainchip-pi5-akd1500": {
+        "zh": 206,
+        "en": 120
+      },
+      "suncatcher-orbital-response": {
+        "zh": 214,
+        "en": 123
+      },
+      "mlns-wheelchair": {
+        "zh": 205,
+        "en": 112
+      },
+      "stepcontrol-contact-schedules": {
+        "zh": 208,
+        "en": 110
+      },
+      "preflight-bench": {
+        "zh": 216,
+        "en": 111
+      }
+    },
+    "counting": "Only unique full-analysis product paragraphs count toward body gates; summaries, captions, coverage and sources excluded.",
+    "products": 28,
+    "references": 133,
+    "coreVisuals": 28,
+    "slidesPerLocale": 31,
+    "primaryProjectPages": 28,
+    "attachedProjectDetails": 28,
+    "primaryBody": {
+      "zhDenseChars": 5886,
+      "enWords": 3193
+    },
+    "completeReadingBody": {
+      "zhDenseChars": 27861,
+      "enWords": 15911
+    }
+  },
+  "revision": {
+    "label": "morning-edition",
+    "originalCutoffRetained": true,
+    "newIssue": true,
+    "baselineCommit": "68c16f431433e8a5e36dd6d36b6239f19ae35903"
+  },
+  "topics": [
+    {
+      "id": "skyrimnet-beta29-dialogue",
+      "zhHeadline": "SkyrimNet直接朗读对话选项，房间名称也能进入NPC记忆",
+      "enHeadline": "SkyrimNet voices dialogue choices and gives NPC memories named rooms",
+      "eventAt": "2026-10-31T01:26:27Z",
+      "freshness": "main",
+      "evidence": "Maintainer release and implementation documentation; author demo, not independent test",
+      "eventDateNote": "second; original GitHub release HTML relative-time datetime UTC",
+      "event_key": "github:MinLL/SkyrimNet-GamePlugin:release:vbeta29",
+      "product_key": "github:MinLL/SkyrimNet-GamePlugin",
+      "publishedAt": "2026-10-31T01:26:27Z",
+      "observedAt": "2026-10-31T08:08:32.597461+00:00",
+      "delta_since_last_seen": "DBVO is no longer required. Named places add room labels to events, prompts and memories."
+    },
+    {
+      "id": "mika-0118-phone-agent",
+      "zhHeadline": "Mika保留插话前已读内容，把电脑任务交到安卓后台执行",
+      "enHeadline": "Mika keeps interrupted text visible and accepts desktop tasks on Android",
+      "eventAt": "2026-10-31T06:39:23Z",
+      "freshness": "main",
+      "evidence": "Maintainer release and implementation documentation; author demo, not independent test",
+      "eventDateNote": "second; original GitHub release HTML relative-time datetime UTC",
+      "event_key": "github:wangzan101/Mika:release:v0.1.18",
+      "product_key": "github:wangzan101/Mika",
+      "publishedAt": "2026-10-31T06:39:23Z",
+      "observedAt": "2026-10-31T08:15:52.636588+00:00",
+      "delta_since_last_seen": "This update sequence also adds desktop MCP access, in-app updating, three interface languages and phone-aligned sandbox time."
+    },
+    {
+      "id": "dshgo-105-observable-actions",
+      "zhHeadline": "DSH Go看不到页面时停止盲点，把动作提交与结果确认分开",
+      "enHeadline": "DSH Go stops blind taps and separates submitted actions from verified results",
+      "eventAt": "2026-10-31T07:11:50Z",
+      "freshness": "main",
+      "evidence": "Maintainer release and implementation documentation; author demo, not independent test",
+      "eventDateNote": "second; original GitHub release HTML relative-time datetime UTC",
+      "event_key": "github:ccch1mneyyy/dsh-go:release:v1.0.5",
+      "product_key": "github:ccch1mneyyy/dsh-go",
+      "publishedAt": "2026-10-31T07:11:50Z",
+      "observedAt": "2026-10-31T08:15:52.636588+00:00",
+      "delta_since_last_seen": "When before-and-after content cannot be compared, it reports submission without verification; keyboard and inset changes count as screen changes."
+    },
+    {
+      "id": "nvzhuang-reference-tryon",
+      "zhHeadline": "拍片哥女装把服装图库接到AI试穿，浏览免费、生成自配模型",
+      "enHeadline": "An open clothing gallery connects outfit references to configurable AI try-on",
+      "eventAt": "2026-10-30",
+      "freshness": "near-three-day",
+      "evidence": "startup / DIY signal; original maker post, repository and author demo screenshot; one readable reply, not independent product test",
+      "eventDateNote": "day; V2EX community appearance. Visible absolute last-reply timestamp2026-10-30T21:54:17+08:00 establishes thread existed before cutoff, not its original publication time. Header relative time not converted. Author audit datedOct29 establishes earlier existence.",
+      "event_key": "paipiange:nvzhuang:community-appearance:V2EX1253249",
+      "product_key": "github:paipiange/nvzhuang",
+      "publishedAt": "2026-10-30",
+      "observedAt": "2026-10-31T08:14:56.305512+00:00",
+      "delta_since_last_seen": "The maker shared it on October 30; documentation already existed on October 29. This is a discovery, not a verified first release."
+    },
+    {
+      "id": "axonnic-muscle-training",
+      "zhHeadline": "Axonnic把前臂肌电与视频对齐，让机器人学习手指背后的用力",
+      "enHeadline": "Axonnic adds forearm muscle signals to robot demonstrations",
+      "eventAt": "2026-10-30",
+      "freshness": "near-three-day",
+      "evidence": "startup signal; maker demonstrations and pilot claims, not independent validation",
+      "eventDateNote": "day; source provides calendar date without established publication clock/timezone; main-window lower boundary uncertain",
+      "event_key": "axonnic:ph-discovery:2026-10-30",
+      "product_key": "axonnic.com",
+      "publishedAt": "2026-10-30",
+      "observedAt": "2026-10-31T08:12:14.058218+00:00",
+      "delta_since_last_seen": "The October 30 PH debut shows finger decoding during visual occlusion and a muscle-driven robot hand, both maker demonstrations."
+    },
+    {
+      "id": "rokid-uk-selfridges",
+      "zhHeadline": "Rokid在伦敦增设常设体验柜台，英国旅行套装仍要核对渠道交付",
+      "enHeadline": "Rokid opens a London counter; UK delivery varies by channel",
+      "eventAt": "2026-10-30T09:00:00Z",
+      "freshness": "main",
+      "evidence": "confirmed vendor retail announcement; no store visit or inventory verification",
+      "eventDateNote": "second; issuer distribution timestamp",
+      "event_key": "rokid:glasses:uk-selfridges-retail:2026-10-30",
+      "product_key": "rokid:glasses:uk",
+      "publishedAt": "2026-10-30T09:00:00Z",
+      "observedAt": "2026-10-31T08:12:14.058218+00:00",
+      "delta_since_last_seen": "The October 30 increment is a UK channel and travel bundle, separate from Glasses2. The bundle adds clip-ons, an audio accessory and travel essentials."
+    },
+    {
+      "id": "matic-serene-acoustic-stack",
+      "zhHeadline": "Matic Serene重做吸尘结构，压低尖锐声调而不只看总分贝",
+      "enHeadline": "Matic Serene changes the vacuum stack to reduce its high-pitched tone",
+      "eventAt": "2026-10-27",
+      "freshness": "seven-day",
+      "evidence": "confirmed vendor product change; acoustic measurements and comfort claims not independently replicated",
+      "eventDateNote": "day; source provides calendar date without established publication clock/timezone; main-window lower boundary uncertain",
+      "event_key": "maticrobots:serene:acoustic-stack:2026-10-27",
+      "product_key": "maticrobots:serene",
+      "publishedAt": "2026-10-27",
+      "observedAt": "2026-10-31T08:18:28.537498+00:00",
+      "delta_since_last_seen": "On October 27, Matic reported 55 to 52 dB overall and a 10–15 dB reduction in the prominent tone, retaining motor and suction."
+    },
+    {
+      "id": "canva-brush-editable-design",
+      "zhHeadline": "Canva Brush直接修改设计元素，复杂版式仍需逐页检查",
+      "enHeadline": "Canva Brush edits design elements while keeping manual revision available",
+      "eventAt": "2026-10-29",
+      "freshness": "near-three-day",
+      "evidence": "confirmed product / developer surface; vendor documentation and demos, not independent testing",
+      "eventDateNote": "day; exact release clock and timezone unestablished; conservative supplement classification",
+      "event_key": "canva:brush:canva-brush-editable-design:2026-10-29",
+      "product_key": "canva:brush",
+      "publishedAt": "2026-10-29",
+      "observedAt": "2026-10-31T08:12:00Z",
+      "delta_since_last_seen": "Its agent loop writes and executes code, then inspects the page. Text, images and layouts remain design objects."
+    },
+    {
+      "id": "elevenlabs-sfx-v3",
+      "zhHeadline": "SFX v3把多个声音写进同一条提示，精确节奏仍要试听返修",
+      "enHeadline": "SFX v3 combines several sounds in one prompt, with timing still requiring review",
+      "eventAt": "2026-10-29",
+      "freshness": "near-three-day",
+      "evidence": "confirmed product / developer surface; vendor documentation and demos, not independent testing",
+      "eventDateNote": "day; exact release clock and timezone unestablished; conservative supplement classification",
+      "event_key": "elevenlabs:sfx:elevenlabs-sfx-v3:2026-10-29",
+      "product_key": "elevenlabs:sfx",
+      "publishedAt": "2026-10-29",
+      "observedAt": "2026-10-31T08:12:00Z",
+      "delta_since_last_seen": "The vendor reports better multi-part prompts, music and vocals, plus fewer high-frequency artifacts; this is not an independent accuracy result."
+    },
+    {
+      "id": "stepgrab-cross-platform-guides",
+      "zhHeadline": "StepGrab让Mac与Windows接力编辑操作指南，分享工程须另存脱敏副本",
+      "enHeadline": "StepGrab shares editable guides across Mac and Windows, with a separate redacted copy",
+      "eventAt": "2026-10-30",
+      "freshness": "near-three-day",
+      "evidence": "confirmed product / startup signal; original maker description and documentation, not independent hands-on testing",
+      "eventDateNote": "day; dated Product Hunt appearance, not first release; exact clock/timezone unknown",
+      "event_key": "stepgrab.net:ph-appearance:2026-10-30",
+      "product_key": "stepgrab.net",
+      "publishedAt": "2026-10-30",
+      "observedAt": "2026-10-31T08:05:49.655563+00:00",
+      "delta_since_last_seen": "The second Product Hunt appearance highlights Windows support and an editor. Projects cross platforms; the direct Mac build can read button names through Accessibility."
+    },
+    {
+      "id": "empacer-approved-business-tasks",
+      "zhHeadline": "Empacer把口述任务变成待批准成果，商家资料可以逐条纠正",
+      "enHeadline": "Empacer turns spoken tasks into approval cards with editable business context",
+      "eventAt": "2026-10-29",
+      "freshness": "near-three-day",
+      "evidence": "confirmed product / startup signal; original maker description and documentation, not independent hands-on testing",
+      "eventDateNote": "day; dated Product Hunt appearance, not first release; exact clock/timezone unknown",
+      "event_key": "empacer.com:ph-appearance:2026-10-29",
+      "product_key": "empacer.com",
+      "publishedAt": "2026-10-29",
+      "observedAt": "2026-10-31T08:05:49.655563+00:00",
+      "delta_since_last_seen": "It requests a connection when a task needs Gmail, Calendar or another tool. Without access, work stays inside for manual sharing."
+    },
+    {
+      "id": "chatgpt-mobile-account-switching",
+      "zhHeadline": "ChatGPT手机端保留两个登录账户，切换后数据和订阅各自独立",
+      "enHeadline": "ChatGPT mobile keeps two accounts signed in with separate data and subscriptions",
+      "eventAt": "2026-10-30",
+      "freshness": "near-three-day",
+      "evidence": "confirmed product / developer surface; vendor documentation and demos, not independent testing",
+      "eventDateNote": "day; exact release clock and timezone unestablished; conservative supplement classification",
+      "event_key": "openai:chatgpt:chatgpt-mobile-account-switching:2026-10-30",
+      "product_key": "openai:chatgpt",
+      "publishedAt": "2026-10-30",
+      "observedAt": "2026-10-31T08:12:00Z",
+      "delta_since_last_seen": "The October 30 change is the mobile rollout. Web switching already exists; this does not merge accounts or create a shared conversation."
+    },
+    {
+      "id": "figma-drive-internal-weave",
+      "zhHeadline": "Figma接入Drive资料，并让团队在内部发布Weave工具",
+      "enHeadline": "Figma brings Drive context into the canvas and adds internal Weave publishing",
+      "eventAt": "2026-10-30",
+      "freshness": "near-three-day",
+      "evidence": "confirmed product / developer surface; vendor documentation and demos, not independent testing",
+      "eventDateNote": "day; exact release clock and timezone unestablished; conservative supplement classification",
+      "event_key": "figma:agent-weave:figma-drive-internal-weave:2026-10-30",
+      "product_key": "figma:agent-weave",
+      "publishedAt": "2026-10-30",
+      "observedAt": "2026-10-31T08:12:00Z",
+      "delta_since_last_seen": "The October 30 release adds Drive and all-plan connectors, including Starter; internal publishing requires Organization or Enterprise."
+    },
+    {
+      "id": "amp-macos-satellites-visuals",
+      "zhHeadline": "Amp为Linux代理按需接上Mac，构建结果和可操作画面回到线程",
+      "enHeadline": "Amp attaches a Mac when a Linux agent needs one and returns builds to the thread",
+      "eventAt": "2026-10-29",
+      "freshness": "near-three-day",
+      "evidence": "confirmed product / developer surface; vendor documentation and demos, not independent testing",
+      "eventDateNote": "day; exact release clock and timezone unestablished; conservative supplement classification",
+      "event_key": "ampcode:amp:amp-macos-satellites-visuals:2026-10-29",
+      "product_key": "ampcode:amp",
+      "publishedAt": "2026-10-29",
+      "observedAt": "2026-10-31T08:12:00Z",
+      "delta_since_last_seen": "A Mac tab allows viewing or takeover; another same-day update adds interactive charts and mockups inside threads."
+    },
+    {
+      "id": "opencode-223-local-picker",
+      "zhHeadline": "OpenCode修复本地模型被日期过滤隐藏，模型能运行却选不到",
+      "enHeadline": "OpenCode fixes local models hidden by a mistaken release date",
+      "eventAt": "2026-10-30T09:55:45Z",
+      "freshness": "main",
+      "evidence": "User report, reporter-confirmed workaround, maintainer PR and original release; no independent execution",
+      "eventDateNote": "second; original GitHub release HTML relative-time datetime UTC",
+      "event_key": "github:anomalyco/opencode:release:v2.2.3:unknown-model-date",
+      "product_key": "github:anomalyco/opencode",
+      "publishedAt": "2026-10-30T09:55:45Z",
+      "observedAt": "2026-10-31T08:12:01.995235+00:00",
+      "delta_since_last_seen": "The October 30 version 2.2.3 release includes the fix; it is no longer merely a development-branch change."
+    },
+    {
+      "id": "claude-unified-usage-cost-analytics",
+      "zhHeadline": "Claude把Console与Enterprise用量归到同一接口，账单分析仍有更新延迟",
+      "enHeadline": "Claude unifies Console and Enterprise usage queries with delayed reporting",
+      "eventAt": "2026-10-29",
+      "freshness": "near-three-day",
+      "evidence": "confirmed product / developer surface; vendor documentation and demos, not independent testing",
+      "eventDateNote": "day; exact release clock and timezone unestablished; conservative supplement classification",
+      "event_key": "anthropic:usage-cost-analytics:claude-unified-usage-cost-analytics:2026-10-29",
+      "product_key": "anthropic:usage-cost-analytics",
+      "publishedAt": "2026-10-29",
+      "observedAt": "2026-10-31T08:12:00Z",
+      "delta_since_last_seen": "A shared row structure serves Console and Enterprise, supporting ranked combinations instead of stitching together separate reports."
+    },
+    {
+      "id": "gemini-computer-use-ga",
+      "zhHeadline": "Gemini Computer Use正式开放，点击与确认仍由应用接住",
+      "enHeadline": "Gemini Computer Use reaches GA while applications still execute and confirm actions",
+      "eventAt": "2026-10-30",
+      "freshness": "near-three-day",
+      "evidence": "developer surface; official documentation, CC BY4.0 licensed text and Apache2.0 code reference; editorial paraphrase and translation, no hands-on testing",
+      "eventDateNote": "day; exact GA announcement clock unestablished, lower main-window boundary unresolved",
+      "event_key": "google:gemini-api-computer-use:ga:2026-10-30",
+      "product_key": "google:gemini-api-computer-use",
+      "publishedAt": "2026-10-30",
+      "observedAt": "2026-10-31T08:15:58.209850+00:00",
+      "delta_since_last_seen": "October 30 GA covers Interactions and GenerateContent; this is an availability change, not the invention of every documented action."
+    },
+    {
+      "id": "gemini-api-cli-beta",
+      "zhHeadline": "Gemini API CLI把生成素材和后台任务接进现有代理",
+      "enHeadline": "Gemini API CLI gives existing agents media files and background jobs",
+      "eventAt": "2026-10-27",
+      "freshness": "seven-day",
+      "evidence": "Official launch, support and source repository read; editorial analysis, no installation or authenticated execution. Gemini guide CC BY4.0 and repositories Apache2.0; paraphrase and translation attributed to listed originals.",
+      "eventDateNote": "day; original clock and timezone unestablished",
+      "event_key": "gemini-api-cli-beta:2026-10-27",
+      "product_key": "gemini-api-cli-beta",
+      "publishedAt": "2026-10-27",
+      "observedAt": "2026-10-31T08:22:28.750433+00:00",
+      "delta_since_last_seen": "The October 27 beta adds offline schema discovery, request previews and structured errors to reduce guessed commands and blocked subprocesses."
+    },
+    {
+      "id": "agentcore-cli-v1-resource-workflows",
+      "zhHeadline": "AgentCore CLI 1.0可直接操作已部署资源，旧工程需要迁移",
+      "enHeadline": "AgentCore CLI 1.0 operates deployed resources directly and requires project migration",
+      "eventAt": "2026-10-28",
+      "freshness": "seven-day",
+      "evidence": "Official launch, documentation and source repository read; editorial analysis, no installation or authenticated execution.",
+      "eventDateNote": "day; original clock and timezone unestablished",
+      "event_key": "agentcore-cli-v1-resource-workflows:2026-10-28",
+      "product_key": "agentcore-cli-v1-resource-workflows",
+      "publishedAt": "2026-10-28",
+      "observedAt": "2026-10-31T08:22:28.750433+00:00",
+      "delta_since_last_seen": "The October 28 release lets resource commands work outside projects, removing setup steps when investigating an existing deployed service."
+    },
+    {
+      "id": "mistral-large4-open-weights",
+      "zhHeadline": "Le Chonk开放权重，把编程代理的模型服务交给团队部署",
+      "enHeadline": "Le Chonk opens its weights for team-hosted coding agents",
+      "eventAt": "2026-10-29",
+      "freshness": "near-three-day",
+      "evidence": "Official release, repository and integration documentation; no hands-on model or agent evaluation",
+      "eventDateNote": "day; official news and Hugging Face blog date October 29; initial release commit shows 14:11 without timezone, not normalized to UTC",
+      "event_key": "mistral:large4:open-weights:2026-10-29",
+      "product_key": "mistral:large4",
+      "publishedAt": "2026-10-29",
+      "observedAt": "2026-10-31T08:20:05Z",
+      "delta_since_last_seen": "The October 29 weight release follows the earlier API preview. It is a distinct update, presented here as a three-day supplement."
+    },
+    {
+      "id": "xanylabeling-multipage-ocr",
+      "zhHeadline": "X-AnyLabeling联读多页PDF，原页与可修改内容并排核对",
+      "enHeadline": "X-AnyLabeling parses connected PDF pages with editable results beside the source",
+      "eventAt": "2026-10-30",
+      "freshness": "near-three-day",
+      "evidence": "developer surface; official implementation/deployment guides and original UI screenshots, not independent execution",
+      "eventDateNote": "day; maintainer What’s New gives October30 without timezone; main-window lower boundary uncertain; commit-history URL restricted and not retried",
+      "event_key": "CVHub520:X-AnyLabeling:Unlimited-OCR-2:integration:2026-10-30",
+      "product_key": "github:CVHub520/X-AnyLabeling",
+      "publishedAt": "2026-10-30",
+      "observedAt": "2026-10-31T08:11:06.431890+00:00",
+      "delta_since_last_seen": "The October 30 integration submits ordered pages together and preserves continuation groups for text and tables, reducing manual reconstruction."
+    },
+    {
+      "id": "hy-simulmt-streaming-translation",
+      "zhHeadline": "Hy-SimulMT边听边翻译中英文，语音输出另接TTS服务",
+      "enHeadline": "Hy-SimulMT streams Chinese-English translation with a separate speech service",
+      "eventAt": "2026-10-26",
+      "freshness": "seven-day",
+      "evidence": "developer surface; original deployment docs and vendor demo/benchmarks, not independent test",
+      "eventDateNote": "day; official release news gives October26 without clock or timezone",
+      "event_key": "Tencent-Hunyuan:Hy-SimulMT:release:2026-10-26",
+      "product_key": "github:Tencent-Hunyuan/Hy-SimulMT",
+      "publishedAt": "2026-10-26",
+      "observedAt": "2026-10-31T08:06:50.470887+00:00",
+      "delta_since_last_seen": "The October 26 release supplies weights and inference and training tools. Voice-preserving speech requires a separate TTS deployment; demos are offline replays."
+    },
+    {
+      "id": "doomformer-071-map-checks",
+      "zhHeadline": "Doomformer用游戏地图计算神经网络，新版补上错误的相等判断",
+      "enHeadline": "Doomformer computes networks in game maps and fixes false equality checks",
+      "eventAt": "2026-10-28T20:13:59Z",
+      "freshness": "near-three-day",
+      "evidence": "Maintainer release and implementation documentation; author demo, not independent test",
+      "eventDateNote": "second; original GitHub release HTML relative-time datetime UTC",
+      "event_key": "github:mottopanikeiku/doomformer:release:v0.7.1",
+      "product_key": "github:mottopanikeiku/doomformer",
+      "publishedAt": "2026-10-28T20:13:59Z",
+      "observedAt": "2026-10-31T08:08:32.597461+00:00",
+      "delta_since_last_seen": "Version 0.7.1 fixes false equality reports by checking trigger flags, teleport destinations, reset scripts and readout pages."
+    },
+    {
+      "id": "brainchip-pi5-akd1500",
+      "zhHeadline": "BrainChip把AKD1500装进树莓派套件，先在本地试推理与增量学习",
+      "enHeadline": "BrainChip packages AKD1500 with Raspberry Pi for local inference and learning",
+      "eventAt": "2026-10-29",
+      "freshness": "near-three-day",
+      "evidence": "confirmed vendor kit announcement; no independent power or learning benchmark",
+      "eventDateNote": "day; source provides calendar date without established publication clock/timezone; main-window lower boundary uncertain",
+      "event_key": "brainchip:akd1500-rpi5:launch:2026-10-29",
+      "product_key": "brainchip:akd1500-rpi5",
+      "publishedAt": "2026-10-29",
+      "observedAt": "2026-10-31T08:15:07.109044+00:00",
+      "delta_since_last_seen": "The October 29 increment is a packaged kit, listed at $1,295 before tax, rather than a new chip architecture."
+    },
+    {
+      "id": "suncatcher-orbital-response",
+      "zhHeadline": "Suncatcher在轨TPU返回首个模型回答，持续负载与星间协作仍待测试",
+      "enHeadline": "Suncatcher returns an orbital model response, with endurance and interconnect tests ahead",
+      "eventAt": "2026-10-30",
+      "freshness": "near-three-day",
+      "evidence": "research signal; Google-reported orbital experiment, not independent replication or commercial compute service",
+      "eventDateNote": "day; October30 report, experiment described only as this week; source clock/timezone unknown",
+      "event_key": "google:suncatcher:first-orbital-response-report:2026-10-30",
+      "product_key": "google:project-suncatcher",
+      "publishedAt": "2026-10-30",
+      "observedAt": "2026-10-31T08:16:24.399313+00:00",
+      "delta_since_last_seen": "The October 30 report adds an inference milestone after the October 1 launch; the test itself is dated only to that week."
+    },
+    {
+      "id": "mlns-wheelchair",
+      "zhHeadline": "MLNS让轮椅从左右指令推断目标，用户仍能改选",
+      "enHeadline": "MLNS turns sparse steering into target guidance while preserving user priority",
+      "eventAt": "2026-10-28T10:04:00Z",
+      "freshness": "near-three-day",
+      "evidence": "research signal; author experiments and implementation, not independent validation or commercial availability",
+      "eventDateNote": "second; arXiv v1 submission timestamp, not public announcement; announcement clock unverified; conservative supplement classification",
+      "event_key": "arxiv:2610.38569:v1",
+      "product_key": "arxiv:2610.38569",
+      "publishedAt": "2026-10-28T10:04:00Z",
+      "observedAt": "2026-10-31T08:07:36.380847+00:00",
+      "delta_since_last_seen": "Ten nondisabled participants attempted 360 laboratory runs: 359 completed, with no collisions. Some conditions randomly reversed twenty percent of commands."
+    },
+    {
+      "id": "stepcontrol-contact-schedules",
+      "zhHeadline": "StepControl用双脚落地时序改动作，节奏更准但脚底仍会滑",
+      "enHeadline": "StepControl edits motion through foot-contact timing, with sliding still unresolved",
+      "eventAt": "2026-10-28T01:39:11Z",
+      "freshness": "seven-day",
+      "evidence": "research signal; author experiments and implementation, not independent validation or commercial availability",
+      "eventDateNote": "second; arXiv v1 submission timestamp, not public announcement; announcement clock unverified; conservative supplement classification",
+      "event_key": "arxiv:2610.38153:v1",
+      "product_key": "arxiv:2610.38153",
+      "publishedAt": "2026-10-28T01:39:11Z",
+      "observedAt": "2026-10-31T08:07:36.380847+00:00",
+      "delta_since_last_seen": "On held-out motion data, twenty-second rollouts improved contact-transition F1 over two adapted baselines. This was not an animator usability study."
+    },
+    {
+      "id": "preflight-bench",
+      "zhHeadline": "Preflight在点击前查目标是否移动，失败后重新看屏幕规划",
+      "enHeadline": "Preflight checks a target before clicking and replans when the screen changes",
+      "eventAt": "2026-10-29T03:33:26Z",
+      "freshness": "near-three-day",
+      "evidence": "research signal; author experiments and implementation, not independent validation or commercial availability",
+      "eventDateNote": "second; arXiv v1 submission timestamp, not public announcement; announcement clock unverified; conservative supplement classification",
+      "event_key": "arxiv:2610.39282:v1",
+      "product_key": "arxiv:2610.39282",
+      "publishedAt": "2026-10-29T03:33:26Z",
+      "observedAt": "2026-10-31T08:09:43.185045+00:00",
+      "delta_since_last_seen": "Across thirty-one public pages, stale targets affected 0.4 percent of planned clicks after loading and seventeen percent within the first second after opening."
+    }
+  ],
+  "eventCounts": {
+    "mainWindowEvents": 5,
+    "nearThreeDayReviews": 18,
+    "sevenDayReviews": 5,
+    "interpretation": "Announcements, submissions, updates and regional reports; not first product launches."
+  }
+}
