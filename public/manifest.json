@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-10-31",
+    "zhTitle": "AI Daily｜2026年10月31日 · 手机代理、游戏对话与可编辑设计",
+    "enTitle": "AI Daily | October 31, 2026 · Phone agents, game dialogue and editable design",
+    "zhSummary": "手机后台任务与接管、SkyrimNet对话、Canva编辑、服装试穿参考、肌电示范、开发工具及交互研究。",
+    "enSummary": "Background phone tasks and handoffs, SkyrimNet dialogue, Canva editing, outfit references, muscle-signal demonstrations, developer tools and interaction research.",
+    "tags": [
+      "consumer AI",
+      "creative tools",
+      "physical interaction",
+      "research"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "research"
+    ],
+    "coverStory": {
+      "topicId": "skyrimnet-beta29-dialogue",
+      "zhTitle": "SkyrimNet Beta29",
+      "enTitle": "SkyrimNet Beta29",
+      "imagePath": "assets/skyrimnet-chat.jpg",
+      "imageSourceUrl": "https://raw.githubusercontent.com/MinLL/SkyrimNet-GamePlugin/main/docs/images/readme-hero.jpg",
+      "primarySourceUrl": "https://github.com/MinLL/SkyrimNet-GamePlugin",
+      "evidenceStrength": "Maintainer release and implementation documentation; author demo, not independent test"
+    },
+    "zhPath": "./2026-10-31/zh/",
+    "enPath": "./2026-10-31/en/",
+    "sourcesPath": "./2026-10-31/sources.html"
+  },
+  {
     "date": "2026-10-30",
     "zhTitle": "AI Daily｜2026年10月30日 · 家具制作、训练教练与握物交互",
     "enTitle": "AI Daily | October 30, 2026 · Furniture making, training coaches and grip interaction",

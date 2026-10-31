@@ -1,0 +1,979 @@
+[
+  {
+    "url": "https://github.com/MinLL/SkyrimNet-GamePlugin/releases/tag/vbeta29",
+    "title": "SkyrimNet Beta29 release",
+    "publisher": "Fateless / MinLL",
+    "publishedAt": "2026-10-31T01:26:27Z",
+    "observedAt": "2026-10-31T08:08:32.597461+00:00",
+    "number": 1
+  },
+  {
+    "url": "https://github.com/MinLL/SkyrimNet-GamePlugin/blob/vbeta29/docs/FEATURES.md",
+    "title": "SkyrimNet features at Beta29",
+    "publisher": "Fateless / MinLL",
+    "observedAt": "2026-10-31T08:08:32.597461+00:00",
+    "number": 2
+  },
+  {
+    "url": "https://github.com/MinLL/SkyrimNet-GamePlugin",
+    "title": "SkyrimNet installation and overview",
+    "publisher": "Fateless / MinLL",
+    "observedAt": "2026-10-31T08:08:32.597461+00:00",
+    "number": 3
+  },
+  {
+    "url": "https://github.com/MinLL/SkyrimNet-GamePlugin/blob/vbeta29/LICENSE",
+    "title": "SkyrimNet Game Plugin License",
+    "publisher": "Fateless",
+    "observedAt": "2026-10-31T08:08:32.597461+00:00",
+    "number": 4
+  },
+  {
+    "url": "https://github.com/wangzan101/Mika/releases/tag/v0.1.18",
+    "title": "Mika v0.1.18",
+    "publisher": "wangzan101 / Mika",
+    "publishedAt": "2026-10-31T06:39:23Z",
+    "observedAt": "2026-10-31T08:15:52.636588+00:00",
+    "number": 5
+  },
+  {
+    "url": "https://github.com/wangzan101/Mika/releases/tag/v0.1.16",
+    "title": "Mika v0.1.16",
+    "publisher": "wangzan101 / Mika",
+    "publishedAt": "2026-10-31T04:51:16Z",
+    "observedAt": "2026-10-31T08:15:52.636588+00:00",
+    "number": 6
+  },
+  {
+    "url": "https://github.com/wangzan101/Mika/releases/tag/v0.1.14",
+    "title": "Mika v0.1.14",
+    "publisher": "wangzan101 / Mika",
+    "publishedAt": "2026-10-31T03:52:25Z",
+    "observedAt": "2026-10-31T08:15:52.636588+00:00",
+    "number": 7
+  },
+  {
+    "url": "https://github.com/wangzan101/Mika",
+    "title": "Mika README and beta limitations",
+    "publisher": "wangzan101 / Mika",
+    "observedAt": "2026-10-31T08:15:52.636588+00:00",
+    "number": 8
+  },
+  {
+    "url": "https://github.com/wangzan101/Mika/blob/main/docs/mcp.md",
+    "title": "Mika computer MCP connection",
+    "publisher": "wangzan101 / Mika",
+    "observedAt": "2026-10-31T08:15:52.636588+00:00",
+    "number": 9
+  },
+  {
+    "url": "https://github.com/ccch1mneyyy/dsh-Go/releases/tag/v1.0.5",
+    "title": "DSH Go v1.0.5",
+    "publisher": "ccch1mneyyy / DSH Go",
+    "publishedAt": "2026-10-31T07:11:50Z",
+    "observedAt": "2026-10-31T08:15:52.636588+00:00",
+    "number": 10
+  },
+  {
+    "url": "https://github.com/ccch1mneyyy/dsh-Go/releases/tag/v1.0.4",
+    "title": "DSH Go v1.0.4",
+    "publisher": "ccch1mneyyy / DSH Go",
+    "publishedAt": "2026-10-30T20:20:50Z",
+    "observedAt": "2026-10-31T08:15:52.636588+00:00",
+    "number": 11
+  },
+  {
+    "url": "https://github.com/ccch1mneyyy/dsh-Go",
+    "title": "DSH Go README",
+    "publisher": "ccch1mneyyy / DSH Go",
+    "observedAt": "2026-10-31T08:15:52.636588+00:00",
+    "number": 12
+  },
+  {
+    "url": "https://github.com/ccch1mneyyy/dsh-go/blob/main/docs/guide/zh/03-engine-hosts.md",
+    "title": "Local engine and remote hosts guide",
+    "publisher": "ccch1mneyyy / DSH Go",
+    "observedAt": "2026-10-31T08:15:52.636588+00:00",
+    "number": 13
+  },
+  {
+    "url": "https://www.v2ex.com/t/1253249",
+    "title": "Maker V2EX share",
+    "publisher": "paipiange",
+    "publishedAt": "2026-10-30",
+    "observedAt": "2026-10-31T08:14:56.305512+00:00",
+    "number": 14
+  },
+  {
+    "url": "https://github.com/paipiange/nvzhuang",
+    "title": "nvzhuang official README",
+    "publisher": "paipiange",
+    "observedAt": "2026-10-31T08:14:56.305512+00:00",
+    "number": 15
+  },
+  {
+    "url": "https://github.com/paipiange/nvzhuang/blob/main/backend/README.MD",
+    "title": "Try-on backend guide",
+    "publisher": "paipiange",
+    "observedAt": "2026-10-31T08:14:56.305512+00:00",
+    "number": 16
+  },
+  {
+    "url": "https://github.com/paipiange/nvzhuang/blob/main/backend/DEPLOY.md",
+    "title": "Backend deployment guide",
+    "publisher": "paipiange",
+    "observedAt": "2026-10-31T08:14:56.305512+00:00",
+    "number": 17
+  },
+  {
+    "url": "https://github.com/paipiange/nvzhuang/blob/main/docs/LINUXDO_RELEASE_AUDIT.md",
+    "title": "Author project audit",
+    "publisher": "paipiange",
+    "publishedAt": "2026-10-29",
+    "observedAt": "2026-10-31T08:14:56.305512+00:00",
+    "number": 18
+  },
+  {
+    "url": "https://www.producthunt.com/leaderboard/daily/2026/10/30",
+    "title": "Best of Product Hunt October 30, 2026",
+    "publisher": "Product Hunt",
+    "publishedAt": "2026-10-30",
+    "observedAt": "2026-10-31T08:12:14.058218+00:00",
+    "number": 19
+  },
+  {
+    "url": "https://www.producthunt.com/products/axonnic",
+    "title": "Axonnic launch and maker discussion",
+    "publisher": "Product Hunt / Maxim Williams",
+    "publishedAt": "2026-10-30",
+    "observedAt": "2026-10-31T08:12:14.058218+00:00",
+    "number": 20
+  },
+  {
+    "url": "https://www.axonnic.com/",
+    "title": "Axonnic product and demonstration documentation",
+    "publisher": "Axonnic",
+    "observedAt": "2026-10-31T08:12:14.058218+00:00",
+    "number": 21
+  },
+  {
+    "url": "https://www.ycombinator.com/companies/axonnic",
+    "title": "Axonnic company profile",
+    "publisher": "Y Combinator",
+    "observedAt": "2026-10-31T08:12:14.058218+00:00",
+    "number": 22
+  },
+  {
+    "url": "https://www.prnewswire.co.uk/news-releases/rokid-glasses-enters-the-uk-market-with-retail-availability-at-selfridges-302924474.html",
+    "title": "Rokid Glasses UK retail availability at Selfridges",
+    "publisher": "Rokid / PR Newswire",
+    "publishedAt": "2026-10-30T09:00:00Z",
+    "observedAt": "2026-10-31T08:12:14.058218+00:00",
+    "number": 23
+  },
+  {
+    "url": "https://gb.rokid.com/pages/travel-set",
+    "title": "UK Travel Set",
+    "publisher": "Rokid UK",
+    "observedAt": "2026-10-31T08:12:14.058218+00:00",
+    "number": 24
+  },
+  {
+    "url": "https://gb.rokid.com/products/rokid-glasses-with-display?variant=54342552224057",
+    "title": "Rokid Glasses with Display UK",
+    "publisher": "Rokid UK",
+    "observedAt": "2026-10-31T08:12:14.058218+00:00",
+    "number": 25
+  },
+  {
+    "url": "https://gb.rokid.com/",
+    "title": "Rokid UK home",
+    "publisher": "Rokid UK",
+    "observedAt": "2026-10-31T08:12:14.058218+00:00",
+    "number": 26
+  },
+  {
+    "url": "https://maticrobots.com/blog/engineering-behind-matic-serene",
+    "title": "Engineering behind Matic Serene",
+    "publisher": "Matic",
+    "publishedAt": "2026-10-27",
+    "observedAt": "2026-10-31T08:18:28.537498+00:00",
+    "number": 27
+  },
+  {
+    "url": "https://maticrobots.com/product",
+    "title": "Matic product configurator and FAQ",
+    "publisher": "Matic",
+    "observedAt": "2026-10-31T08:18:28.537498+00:00",
+    "number": 28
+  },
+  {
+    "url": "https://maticrobots.com/innovation",
+    "title": "Matic innovation",
+    "publisher": "Matic",
+    "observedAt": "2026-10-31T08:18:28.537498+00:00",
+    "number": 29
+  },
+  {
+    "url": "https://maticrobots.com/serene",
+    "title": "Matic Serene product presentation",
+    "publisher": "Matic",
+    "observedAt": "2026-10-31T08:18:28.537498+00:00",
+    "number": 30
+  },
+  {
+    "url": "https://www.canva.com/newsroom/news/canva-brush/",
+    "title": "Introducing Canva Brush",
+    "publisher": "Canva Research",
+    "publishedAt": "2026-10-29",
+    "observedAt": "2026-10-31T08:12:00Z",
+    "number": 31
+  },
+  {
+    "url": "https://www.canva.com/help/canva-design-assistant/",
+    "title": "Refine designs through conversation",
+    "publisher": "Canva",
+    "observedAt": "2026-10-31T08:12:00Z",
+    "number": 32
+  },
+  {
+    "url": "https://www.canva.com/help/new-canva-ai/",
+    "title": "What is new in Canva AI",
+    "publisher": "Canva",
+    "observedAt": "2026-10-31T08:12:00Z",
+    "number": 33
+  },
+  {
+    "url": "https://www.canva.com/help/using-magic-edit/",
+    "title": "Use Magic Edit",
+    "publisher": "Canva",
+    "observedAt": "2026-10-31T08:12:00Z",
+    "number": 34
+  },
+  {
+    "url": "https://www.canva.com/ai-research/",
+    "title": "Canva Research",
+    "publisher": "Canva",
+    "observedAt": "2026-10-31T08:12:00Z",
+    "number": 35
+  },
+  {
+    "url": "https://elevenlabs.io/blog/sound-effects-v3",
+    "title": "Introducing SFX v3 in ElevenCreative and ElevenAPI",
+    "publisher": "ElevenLabs",
+    "publishedAt": "2026-10-29",
+    "observedAt": "2026-10-31T08:12:00Z",
+    "number": 36
+  },
+  {
+    "url": "https://elevenlabs.io/docs/overview/models",
+    "title": "Models: SFX v3",
+    "publisher": "ElevenLabs",
+    "observedAt": "2026-10-31T08:12:00Z",
+    "number": 37
+  },
+  {
+    "url": "https://elevenlabs.io/docs/overview/capabilities/sound-effects",
+    "title": "Sound effects capabilities",
+    "publisher": "ElevenLabs",
+    "observedAt": "2026-10-31T08:12:00Z",
+    "number": 38
+  },
+  {
+    "url": "https://elevenlabs.io/docs/eleven-creative/playground/sound-effects",
+    "title": "Sound effects product guide",
+    "publisher": "ElevenLabs",
+    "observedAt": "2026-10-31T08:12:00Z",
+    "number": 39
+  },
+  {
+    "url": "https://elevenlabs.io/creative-terms",
+    "title": "ElevenCreative terms, Exhibit4",
+    "publisher": "ElevenLabs",
+    "publishedAt": "2026-10-09",
+    "observedAt": "2026-10-31T08:12:00Z",
+    "number": 40
+  },
+  {
+    "url": "https://www.producthunt.com/products/stepgrab",
+    "title": "StepGrab second Product Hunt launch",
+    "publisher": "StepGrab / Product Hunt",
+    "observedAt": "2026-10-31T08:05:49.655563+00:00",
+    "number": 41
+  },
+  {
+    "url": "https://www.producthunt.com/p/stepgrab/stepgrab-1-6-now-on-windows-reads-button-names-on-the-mac-plus-codes-up-to-100-off",
+    "title": "StepGrab 1.6 maker update",
+    "publisher": "Julian Belting / Product Hunt",
+    "observedAt": "2026-10-31T08:05:49.655563+00:00",
+    "number": 42
+  },
+  {
+    "url": "https://stepgrab.net/help.html",
+    "title": "StepGrab Help",
+    "publisher": "StepGrab",
+    "observedAt": "2026-10-31T08:05:49.655563+00:00",
+    "number": 43
+  },
+  {
+    "url": "https://stepgrab.net/",
+    "title": "StepGrab product page",
+    "publisher": "StepGrab",
+    "observedAt": "2026-10-31T08:05:49.655563+00:00",
+    "number": 44
+  },
+  {
+    "url": "https://www.producthunt.com/products/empacer",
+    "title": "Empacer Product Hunt appearance",
+    "publisher": "Empacer / Product Hunt",
+    "observedAt": "2026-10-31T08:05:49.655563+00:00",
+    "number": 45
+  },
+  {
+    "url": "https://www.empacer.com/how-it-works/",
+    "title": "How Empacer works",
+    "publisher": "Empacer",
+    "observedAt": "2026-10-31T08:05:49.655563+00:00",
+    "number": 46
+  },
+  {
+    "url": "https://www.empacer.com/app/",
+    "title": "Empacer app",
+    "publisher": "Empacer",
+    "observedAt": "2026-10-31T08:05:49.655563+00:00",
+    "number": 47
+  },
+  {
+    "url": "https://www.empacer.com/integrations/",
+    "title": "Empacer integrations",
+    "publisher": "Empacer",
+    "observedAt": "2026-10-31T08:05:49.655563+00:00",
+    "number": 48
+  },
+  {
+    "url": "https://www.empacer.com/transparency/",
+    "title": "Empacer transparency",
+    "publisher": "Empacer",
+    "observedAt": "2026-10-31T08:05:49.655563+00:00",
+    "number": 49
+  },
+  {
+    "url": "https://www.empacer.com/security/",
+    "title": "Empacer security",
+    "publisher": "Empacer",
+    "observedAt": "2026-10-31T08:05:49.655563+00:00",
+    "number": 50
+  },
+  {
+    "url": "https://www.producthunt.com/leaderboard/daily/2026/10/29",
+    "title": "October29 featured board",
+    "publisher": "Product Hunt",
+    "publishedAt": "2026-10-29",
+    "observedAt": "2026-10-31T08:05:49.655563+00:00",
+    "number": 51
+  },
+  {
+    "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+    "title": "ChatGPT release notes, October30",
+    "publisher": "OpenAI",
+    "publishedAt": "2026-10-30",
+    "observedAt": "2026-10-31T08:12:00Z",
+    "number": 52
+  },
+  {
+    "url": "https://help.openai.com/en/articles/20001068-using-multiple-chatgpt-accounts-on-web-and-mobile",
+    "title": "Using multiple ChatGPT accounts on web and mobile",
+    "publisher": "OpenAI",
+    "observedAt": "2026-10-31T08:12:00Z",
+    "number": 53
+  },
+  {
+    "url": "https://help.openai.com/en/articles/20001056-troubleshooting-chatgpt-subscription-access-and-account-changes",
+    "title": "Subscription access and account changes",
+    "publisher": "OpenAI",
+    "observedAt": "2026-10-31T08:12:00Z",
+    "number": 54
+  },
+  {
+    "url": "https://help.openai.com/en/articles/20001067-data-access-for-your-managed-chatgpt-account",
+    "title": "Data access for managed ChatGPT accounts",
+    "publisher": "OpenAI",
+    "observedAt": "2026-10-31T08:12:00Z",
+    "number": 55
+  },
+  {
+    "url": "https://help.openai.com/en/articles/9106926-transfer-exported-conversations-between-chatgpt-accounts",
+    "title": "Transfer exported conversations between ChatGPT accounts",
+    "publisher": "OpenAI",
+    "observedAt": "2026-10-31T08:12:00Z",
+    "number": 56
+  },
+  {
+    "url": "https://www.figma.com/release-notes/",
+    "title": "Figma release notes, October30",
+    "publisher": "Figma",
+    "publishedAt": "2026-10-30",
+    "observedAt": "2026-10-31T08:12:00Z",
+    "number": 57
+  },
+  {
+    "url": "https://help.figma.com/hc/en-us/articles/35440096186007-Use-verified-partner-MCP-connectors-with-the-Figma-agent-and-Figma-Make",
+    "title": "Use verified MCP connectors",
+    "publisher": "Figma",
+    "observedAt": "2026-10-31T08:12:00Z",
+    "number": 58
+  },
+  {
+    "url": "https://help.figma.com/hc/en-us/articles/40779260614935-Use-Weave-tools-in-Figma",
+    "title": "Use Weave tools in Figma",
+    "publisher": "Figma",
+    "observedAt": "2026-10-31T08:12:00Z",
+    "number": 59
+  },
+  {
+    "url": "https://help.weavy.ai/en/articles/12267755-tools",
+    "title": "Tools documentation",
+    "publisher": "Figma Weave",
+    "observedAt": "2026-10-31T08:12:00Z",
+    "number": 60
+  },
+  {
+    "url": "https://help.figma.com/hc/en-us/articles/36343926263703-Manage-MCP-connectors-for-the-Figma-agent-and-Figma-Make",
+    "title": "Manage MCP connectors",
+    "publisher": "Figma",
+    "observedAt": "2026-10-31T08:12:00Z",
+    "number": 61
+  },
+  {
+    "url": "https://help.figma.com/hc/en-us/articles/33459875669015-How-Figma-AI-credits-work",
+    "title": "How Figma AI credits work",
+    "publisher": "Figma",
+    "observedAt": "2026-10-31T08:12:00Z",
+    "number": 62
+  },
+  {
+    "url": "https://ampcode.com/news/macos-satellites",
+    "title": "macOS Satellites",
+    "publisher": "Amp",
+    "publishedAt": "2026-10-29",
+    "observedAt": "2026-10-31T08:12:00Z",
+    "number": 63
+  },
+  {
+    "url": "https://ampcode.com/docs/orbs/mac",
+    "title": "macOS Satellites documentation",
+    "publisher": "Amp",
+    "observedAt": "2026-10-31T08:12:00Z",
+    "number": 64
+  },
+  {
+    "url": "https://ampcode.com/news/visualize-this",
+    "title": "Visualize This",
+    "publisher": "Amp",
+    "publishedAt": "2026-10-29",
+    "observedAt": "2026-10-31T08:12:00Z",
+    "number": 65
+  },
+  {
+    "url": "https://ampcode.com/docs/orbs/portals",
+    "title": "Portals and Desktop",
+    "publisher": "Amp",
+    "observedAt": "2026-10-31T08:12:00Z",
+    "number": 66
+  },
+  {
+    "url": "https://ampcode.com/docs/pricing",
+    "title": "Pricing",
+    "publisher": "Amp",
+    "observedAt": "2026-10-31T08:12:00Z",
+    "number": 67
+  },
+  {
+    "url": "https://ampcode.com/news/personal-self-hosted-orbs",
+    "title": "Personal self-hosted Orbs",
+    "publisher": "Amp",
+    "publishedAt": "2026-10-28",
+    "observedAt": "2026-10-31T08:23:30.314822+00:00",
+    "number": 68
+  },
+  {
+    "url": "https://ampcode.com/news/amp-on-android",
+    "title": "Amp on Android",
+    "publisher": "Amp",
+    "publishedAt": "2026-10-27",
+    "observedAt": "2026-10-31T08:23:30.314822+00:00",
+    "number": 69
+  },
+  {
+    "url": "https://github.com/anomalyco/opencode/releases/tag/v2.2.3",
+    "title": "OpenCode v2.2.3 release",
+    "publisher": "Anomaly / OpenCode",
+    "publishedAt": "2026-10-30T09:55:45Z",
+    "observedAt": "2026-10-31T08:12:01.995235+00:00",
+    "number": 70
+  },
+  {
+    "url": "https://github.com/anomalyco/opencode/issues/60672",
+    "title": "Desktop2.2.0 Ollama models absent from picker #60672",
+    "publisher": "alessiosonaglio / OpenCode issue tracker",
+    "publishedAt": "2026-10-30",
+    "observedAt": "2026-10-31T08:12:01.995235+00:00",
+    "number": 71
+  },
+  {
+    "url": "https://github.com/anomalyco/opencode/pull/60496",
+    "title": "Preserve unknown model release dates #60496",
+    "publisher": "joe-ieta / OpenCode",
+    "publishedAt": "2026-10-30",
+    "observedAt": "2026-10-31T08:12:01.995235+00:00",
+    "number": 72
+  },
+  {
+    "url": "https://github.com/anomalyco/opencode/issues/50726",
+    "title": "Custom provider models missing #50726",
+    "publisher": "OpenCode issue tracker",
+    "observedAt": "2026-10-31T08:12:01.995235+00:00",
+    "number": 73
+  },
+  {
+    "url": "https://opencode.ai/docs/models/",
+    "title": "Models configuration documentation",
+    "publisher": "OpenCode",
+    "observedAt": "2026-10-31T08:12:01.995235+00:00",
+    "number": 74
+  },
+  {
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "title": "Claude Platform release notes",
+    "publisher": "Anthropic",
+    "publishedAt": "2026-10-29",
+    "observedAt": "2026-10-31T08:12:00Z",
+    "number": 75
+  },
+  {
+    "url": "https://platform.claude.com/docs/en/manage-claude/usage-cost-analytics-api",
+    "title": "Usage and Cost Analytics API",
+    "publisher": "Anthropic",
+    "observedAt": "2026-10-31T08:12:00Z",
+    "number": 76
+  },
+  {
+    "url": "https://platform.claude.com/docs/en/api/beta/organization/analytics/usage/list",
+    "title": "Get token usage by dimension",
+    "publisher": "Anthropic",
+    "observedAt": "2026-10-31T08:12:00Z",
+    "number": 77
+  },
+  {
+    "url": "https://platform.claude.com/docs/en/api/beta/organization/analytics/cost/list",
+    "title": "Get cost by dimension",
+    "publisher": "Anthropic",
+    "observedAt": "2026-10-31T08:12:00Z",
+    "number": 78
+  },
+  {
+    "url": "https://platform.claude.com/docs/en/manage-claude/usage-cost-api",
+    "title": "Usage and Cost API legacy",
+    "publisher": "Anthropic",
+    "observedAt": "2026-10-31T08:12:00Z",
+    "number": 79
+  },
+  {
+    "url": "https://platform.claude.com/docs/en/manage-claude/admin-api-keys",
+    "title": "Create an Admin API key",
+    "publisher": "Anthropic",
+    "observedAt": "2026-10-31T08:12:00Z",
+    "number": 80
+  },
+  {
+    "url": "https://ai.google.dev/gemini-api/docs/changelog",
+    "title": "Gemini API release notes",
+    "publisher": "Google",
+    "publishedAt": "2026-10-30",
+    "observedAt": "2026-10-31T08:15:58.209850+00:00",
+    "number": 81
+  },
+  {
+    "url": "https://ai.google.dev/gemini-api/docs/computer-use",
+    "title": "Computer use guide",
+    "publisher": "Google",
+    "observedAt": "2026-10-31T08:15:58.209850+00:00",
+    "number": 82
+  },
+  {
+    "url": "https://github.com/google-gemini/computer-use-preview",
+    "title": "Google Computer Use reference implementation",
+    "publisher": "Google",
+    "observedAt": "2026-10-31T08:15:58.209850+00:00",
+    "number": 83
+  },
+  {
+    "url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "title": "Gemini Developer API pricing",
+    "publisher": "Google",
+    "observedAt": "2026-10-31T08:15:58.209850+00:00",
+    "number": 84
+  },
+  {
+    "url": "https://ai.google.dev/gemini-api/docs/interactions-overview",
+    "title": "Interactions overview",
+    "publisher": "Google",
+    "observedAt": "2026-10-31T08:15:58.209850+00:00",
+    "number": 85
+  },
+  {
+    "url": "https://ai.google.dev/gemini-api/docs/cli",
+    "title": "Gemini API CLI guide",
+    "publisher": "Google",
+    "observedAt": "2026-10-31T08:22:28.750433+00:00",
+    "number": 86
+  },
+  {
+    "url": "https://github.com/google-gemini/gemini-api-cli",
+    "title": "gemini-api-cli source",
+    "publisher": "Google",
+    "observedAt": "2026-10-31T08:22:28.750433+00:00",
+    "number": 87
+  },
+  {
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-agentcore-cli-version-1-0-available/",
+    "title": "AgentCore CLI1.0 announcement",
+    "publisher": "AWS",
+    "publishedAt": "2026-10-28",
+    "observedAt": "2026-10-31T08:22:28.750433+00:00",
+    "number": 88
+  },
+  {
+    "url": "https://github.com/aws/agentcore-cli",
+    "title": "AgentCore CLI source",
+    "publisher": "AWS",
+    "observedAt": "2026-10-31T08:22:28.750433+00:00",
+    "number": 89
+  },
+  {
+    "url": "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/agentcore-cli-migration-breaking-changes.html",
+    "title": "CLI v1 breaking changes",
+    "publisher": "AWS",
+    "observedAt": "2026-10-31T08:22:28.750433+00:00",
+    "number": 90
+  },
+  {
+    "url": "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/agentcore-cli-migration.html",
+    "title": "Migrate to v1",
+    "publisher": "AWS",
+    "observedAt": "2026-10-31T08:22:28.750433+00:00",
+    "number": 91
+  },
+  {
+    "url": "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/agentcore-cli-get-started.html",
+    "title": "Build deploy operate tutorial",
+    "publisher": "AWS",
+    "observedAt": "2026-10-31T08:22:28.750433+00:00",
+    "number": 92
+  },
+  {
+    "url": "https://aws.amazon.com/bedrock/agentcore/pricing/",
+    "title": "AgentCore pricing",
+    "publisher": "AWS",
+    "observedAt": "2026-10-31T08:22:28.750433+00:00",
+    "number": 93
+  },
+  {
+    "url": "https://mistral.ai/news/mistral-large-4-oss/",
+    "title": "Built for Coders, Trusted by Defenders",
+    "publisher": "Mistral AI",
+    "publishedAt": "2026-10-29",
+    "observedAt": "2026-10-31T08:20:05Z",
+    "number": 94
+  },
+  {
+    "url": "https://huggingface.co/blog/mistral-large4",
+    "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+    "publisher": "Hugging Face",
+    "publishedAt": "2026-10-29",
+    "observedAt": "2026-10-31T08:20:05Z",
+    "number": 95
+  },
+  {
+    "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
+    "title": "Mistral Large 4 model card",
+    "publisher": "Mistral AI",
+    "observedAt": "2026-10-31T08:20:05Z",
+    "number": 96
+  },
+  {
+    "url": "https://github.com/mistralai/mistral-vibe",
+    "title": "Mistral Vibe README",
+    "publisher": "Mistral AI",
+    "observedAt": "2026-10-31T08:20:05Z",
+    "number": 97
+  },
+  {
+    "url": "https://recipes.vllm.ai/mistralai/Mistral-Large-4-1T-A52B",
+    "title": "Mistral Large 4 serving recipe",
+    "publisher": "vLLM",
+    "observedAt": "2026-10-31T08:20:05Z",
+    "number": 98
+  },
+  {
+    "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B/blob/main/LICENSE",
+    "title": "Mistral Ecosystem Open-Weight License",
+    "publisher": "Mistral AI",
+    "observedAt": "2026-10-31T08:20:05Z",
+    "number": 99
+  },
+  {
+    "url": "https://mistral.ai/news/",
+    "title": "Mistral news index",
+    "publisher": "Mistral AI",
+    "publishedAt": "2026-10-29",
+    "observedAt": "2026-10-31T08:20:05Z",
+    "number": 100
+  },
+  {
+    "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B/commits/main",
+    "title": "Model commit history",
+    "publisher": "Mistral AI / Hugging Face",
+    "publishedAt": "2026-10-29",
+    "observedAt": "2026-10-31T08:20:05Z",
+    "number": 101
+  },
+  {
+    "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B/tree/main",
+    "title": "Model repository files",
+    "publisher": "Mistral AI / Hugging Face",
+    "observedAt": "2026-10-31T08:20:05Z",
+    "number": 102
+  },
+  {
+    "url": "https://docs.mistral.ai/models/mistral-large-4-0",
+    "title": "Mistral Large 4 model documentation",
+    "publisher": "Mistral AI",
+    "observedAt": "2026-10-31T08:20:05Z",
+    "number": 103
+  },
+  {
+    "url": "https://github.com/CVHub520/X-AnyLabeling",
+    "title": "X-AnyLabeling README",
+    "publisher": "CVHub520",
+    "publishedAt": "2026-10-30",
+    "observedAt": "2026-10-31T08:11:06.431890+00:00",
+    "number": 104
+  },
+  {
+    "url": "https://github.com/CVHub520/X-AnyLabeling/blob/main/examples/optical_character_recognition/unlimited_ocr_2/README.md",
+    "title": "Unlimited-OCR-2 integration guide",
+    "publisher": "CVHub520",
+    "observedAt": "2026-10-31T08:11:06.431890+00:00",
+    "number": 105
+  },
+  {
+    "url": "https://github.com/CVHub520/X-AnyLabeling-Server/blob/main/docs/source/en/unlimited_ocr_2.md",
+    "title": "Unlimited-OCR-2 document serving",
+    "publisher": "CVHub520",
+    "observedAt": "2026-10-31T08:11:06.431890+00:00",
+    "number": 106
+  },
+  {
+    "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
+    "title": "Unlimited-OCR-2 model card",
+    "publisher": "Baidu",
+    "observedAt": "2026-10-31T08:11:06.431890+00:00",
+    "number": 107
+  },
+  {
+    "url": "https://github.com/Tencent-Hunyuan/Hy-SimulMT",
+    "title": "Hy-SimulMT official repository",
+    "publisher": "Tencent Hunyuan",
+    "publishedAt": "2026-10-26",
+    "observedAt": "2026-10-31T08:06:50.470887+00:00",
+    "number": 108
+  },
+  {
+    "url": "https://github.com/Tencent-Hunyuan/Hy-SimulMT/blob/main/SimulInfer/README.md",
+    "title": "SimulInfer guide",
+    "publisher": "Tencent Hunyuan",
+    "observedAt": "2026-10-31T08:06:50.470887+00:00",
+    "number": 109
+  },
+  {
+    "url": "https://github.com/Tencent-Hunyuan/Hy-SimulMT/blob/main/SimulInfer/docs/TTS.en.md",
+    "title": "SimulInfer TTS guide",
+    "publisher": "Tencent Hunyuan",
+    "observedAt": "2026-10-31T08:06:50.470887+00:00",
+    "number": 110
+  },
+  {
+    "url": "https://huggingface.co/tencent/Hy-SimulMT-30B-A3B",
+    "title": "Hy-SimulMT official model card",
+    "publisher": "Tencent Hunyuan",
+    "observedAt": "2026-10-31T08:06:50.470887+00:00",
+    "number": 111
+  },
+  {
+    "url": "https://github.com/Tencent-Hunyuan/Hy-SimulMT/blob/main/LICENSE-Hy-SimulMT.txt",
+    "title": "Hy-SimulMT license",
+    "publisher": "Tencent Hunyuan",
+    "observedAt": "2026-10-31T08:06:50.470887+00:00",
+    "number": 112
+  },
+  {
+    "url": "https://github.com/mottopanikeiku/doomformer/releases/tag/v0.7.1",
+    "title": "Doomformer 0.7.1 release",
+    "publisher": "mottopanikeiku",
+    "publishedAt": "2026-10-28T20:13:59Z",
+    "observedAt": "2026-10-31T08:08:32.597461+00:00",
+    "number": 113
+  },
+  {
+    "url": "https://github.com/mottopanikeiku/doomformer/blob/main/docs/drawpad.md",
+    "title": "DrawPad interaction documentation",
+    "publisher": "mottopanikeiku",
+    "observedAt": "2026-10-31T08:08:32.597461+00:00",
+    "number": 114
+  },
+  {
+    "url": "https://github.com/mottopanikeiku/doomformer/blob/main/docs/HOW_IT_WORKS.md",
+    "title": "How DOOM computes",
+    "publisher": "mottopanikeiku",
+    "observedAt": "2026-10-31T08:08:32.597461+00:00",
+    "number": 115
+  },
+  {
+    "url": "https://github.com/mottopanikeiku/doomformer/blob/main/docs/verification.md",
+    "title": "Verification documentation",
+    "publisher": "mottopanikeiku",
+    "observedAt": "2026-10-31T08:08:32.597461+00:00",
+    "number": 116
+  },
+  {
+    "url": "https://github.com/mottopanikeiku/doomformer",
+    "title": "Doomformer repository and demo",
+    "publisher": "mottopanikeiku",
+    "observedAt": "2026-10-31T08:08:32.597461+00:00",
+    "number": 117
+  },
+  {
+    "url": "https://github.com/mottopanikeiku/doomformer/blob/main/CHANGELOG.md",
+    "title": "Doomformer changelog",
+    "publisher": "mottopanikeiku",
+    "observedAt": "2026-10-31T08:08:32.597461+00:00",
+    "number": 118
+  },
+  {
+    "url": "https://investor.brainchip.com/press/brainchip-launches-akd1500-raspberry-pi-5-kit-giving-developers-a-direct-path-from-prototype-to-production/",
+    "title": "AKD1500 Raspberry Pi5 kit launch",
+    "publisher": "BrainChip",
+    "publishedAt": "2026-10-29",
+    "observedAt": "2026-10-31T08:15:07.109044+00:00",
+    "number": 119
+  },
+  {
+    "url": "https://shop.brainchipinc.com/products/akd1500-raspberry-pi-5-dev-kit",
+    "title": "AKD1500 Raspberry Pi5 Dev Kit shop",
+    "publisher": "BrainChip",
+    "observedAt": "2026-10-31T08:15:07.109044+00:00",
+    "number": 120
+  },
+  {
+    "url": "https://doc.brainchipinc.com/index.html",
+    "title": "MetaTF framework overview",
+    "publisher": "BrainChip",
+    "observedAt": "2026-10-31T08:15:07.109044+00:00",
+    "number": 121
+  },
+  {
+    "url": "https://brainchip.com/chips/",
+    "title": "AKD1500 chips and deployment",
+    "publisher": "BrainChip",
+    "observedAt": "2026-10-31T08:15:07.109044+00:00",
+    "number": 122
+  },
+  {
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/",
+    "title": "First response from Suncatcher prototype satellite",
+    "publisher": "Google / Travis Beals",
+    "publishedAt": "2026-10-30",
+    "observedAt": "2026-10-31T08:16:24.399313+00:00",
+    "number": 123
+  },
+  {
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/",
+    "title": "Suncatcher prototype satellite in orbit",
+    "publisher": "Google / Travis Beals",
+    "publishedAt": "2026-10-01",
+    "observedAt": "2026-10-31T08:16:24.399313+00:00",
+    "number": 124
+  },
+  {
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/",
+    "title": "Behind Project Suncatcher",
+    "publisher": "Google / Travis Beals",
+    "publishedAt": "2026-09-24",
+    "observedAt": "2026-10-31T08:16:24.399313+00:00",
+    "number": 125
+  },
+  {
+    "url": "https://research.google/blog/exploring-a-space-based-scalable-ai-infrastructure-system-design/",
+    "title": "Space-based scalable AI infrastructure system design",
+    "publisher": "Google Research / Travis Beals",
+    "publishedAt": "2025-11-04",
+    "observedAt": "2026-10-31T08:16:24.399313+00:00",
+    "number": 126
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.38569",
+    "title": "MLNS smart wheelchair submission record",
+    "publisher": "Authors / arXiv",
+    "publishedAt": "2026-10-28T10:04:00Z",
+    "observedAt": "2026-10-31T08:07:36.380847+00:00",
+    "number": 127
+  },
+  {
+    "url": "https://arxiv.org/html/2610.38569v1",
+    "title": "MLNS smart wheelchair full paper",
+    "publisher": "Piero Simonetto et al. / arXiv",
+    "publishedAt": "2026-10-28T10:04:00Z",
+    "observedAt": "2026-10-31T08:07:36.380847+00:00",
+    "number": 128
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.38153",
+    "title": "StepControl submission record",
+    "publisher": "Authors / arXiv",
+    "publishedAt": "2026-10-28T01:39:11Z",
+    "observedAt": "2026-10-31T08:07:36.380847+00:00",
+    "number": 129
+  },
+  {
+    "url": "https://arxiv.org/html/2610.38153v1",
+    "title": "StepControl full paper",
+    "publisher": "Hojun Jang et al. / arXiv",
+    "publishedAt": "2026-10-28T01:39:11Z",
+    "observedAt": "2026-10-31T08:07:36.380847+00:00",
+    "number": 130
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.39282",
+    "title": "Preflight Bench submission record",
+    "publisher": "Authors / arXiv",
+    "publishedAt": "2026-10-29T03:33:26Z",
+    "observedAt": "2026-10-31T08:09:43.185045+00:00",
+    "number": 131
+  },
+  {
+    "url": "https://arxiv.org/html/2610.39282v1",
+    "title": "Preflight Bench full paper",
+    "publisher": "Vasundra Srinivasan / arXiv",
+    "publishedAt": "2026-10-29T03:33:26Z",
+    "observedAt": "2026-10-31T08:09:43.185045+00:00",
+    "number": 132
+  },
+  {
+    "url": "https://github.com/multimodal-ai-engineering/preflight-bench",
+    "title": "Preflight Bench code and data",
+    "publisher": "Vasundra Srinivasan",
+    "observedAt": "2026-10-31T08:09:43.185045+00:00",
+    "number": 133
+  }
+]

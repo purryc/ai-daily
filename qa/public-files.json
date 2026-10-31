@@ -5835,6 +5835,466 @@
     "sha256": "0248e2dad9f2c08277a97f3a5a395ce72a8b1f3412ca74f0582f80bf1e17243c"
   },
   {
+    "path": "2026-10-31/assets/agentcore-frame-234.jpg",
+    "bytes": 93441,
+    "sha256": "403ff665b12b932598ee8b37959af32961f177d83f4c03b7b46353ce4aba27b0"
+  },
+  {
+    "path": "2026-10-31/assets/amp-satellite-ui.jpg",
+    "bytes": 134227,
+    "sha256": "95a3604b4931fc3c7f1cf6430ee89ed90b7e2001d95fca54ef5055f44935c919"
+  },
+  {
+    "path": "2026-10-31/assets/axonnic-demo.jpg",
+    "bytes": 182844,
+    "sha256": "684eb2d3ad9081e930208314b3bc6e0c75c73a79171fd9aa8d0731cc77e7a454"
+  },
+  {
+    "path": "2026-10-31/assets/brainchip-akd1500.jpg",
+    "bytes": 20639,
+    "sha256": "bfff72c2f3ae77d772bb90cae242fbe5faebd05b3b6a1cd70231f33c4938661a"
+  },
+  {
+    "path": "2026-10-31/assets/canva-brush-ui.jpg",
+    "bytes": 126478,
+    "sha256": "94e0d7a59b166da8b6b2d2e91749a45073b3b44b776b4ee1274784426e3eec4a"
+  },
+  {
+    "path": "2026-10-31/assets/chatgpt-account-switch.jpg",
+    "bytes": 64449,
+    "sha256": "3840c3765867ec54573053e9fa4e44a877ebe31ce9c8045eaa5fe32c24957b95"
+  },
+  {
+    "path": "2026-10-31/assets/claude-unified-usage-cost-analytics-source-flow.png",
+    "bytes": 62299,
+    "sha256": "179d1e1f4a5da14ace9a5ae6124ffb368be077a79b7b469f76f330313fee163b"
+  },
+  {
+    "path": "2026-10-31/assets/deck.js",
+    "bytes": 2576,
+    "sha256": "63d13c06452d7405e0b5ed572d8464d802c9e5b8de656b5a94e3527b1730f7b3"
+  },
+  {
+    "path": "2026-10-31/assets/doomformer-drawpad-inspect.png",
+    "bytes": 150665,
+    "sha256": "bfe5c5867c8b27c43461964623431af5355a8bcbc91dbb7f940ef03282e39d09"
+  },
+  {
+    "path": "2026-10-31/assets/dshgo-phone-control.webp",
+    "bytes": 96362,
+    "sha256": "df0aae3517c3777dffdda1bff0b156caf340dedafebd6cb78aff4b4a94ebcc62"
+  },
+  {
+    "path": "2026-10-31/assets/elevenlabs-settings.jpg",
+    "bytes": 90710,
+    "sha256": "1a0add29ba8dbc8322223a7b9eac4a706bf270a1c4a7a906afa2d9ff64d2a71c"
+  },
+  {
+    "path": "2026-10-31/assets/empacer-history.jpg",
+    "bytes": 23783,
+    "sha256": "d7420be078cb38aa685ea14e9b9d524e66001bc400e325e02f0ad0d1e7101277"
+  },
+  {
+    "path": "2026-10-31/assets/figma-weave-tools.jpg",
+    "bytes": 114773,
+    "sha256": "692717356e48ca533b506ab34acb9a7e641e74a9dfe81c1867305217cf742302"
+  },
+  {
+    "path": "2026-10-31/assets/gemini-api-cli-beta-source-flow.png",
+    "bytes": 53292,
+    "sha256": "37ab000900368d35904bdcc54e88aadc624cee0ce22c3744e30687496c851077"
+  },
+  {
+    "path": "2026-10-31/assets/gemini-computer-use-ga-source-flow.png",
+    "bytes": 57581,
+    "sha256": "753b22799f3fcb02f5dc53f53975f5aefda3998d01bfe2164e68d4dc88d892a4"
+  },
+  {
+    "path": "2026-10-31/assets/hy-simulmt-demo-frame.jpg",
+    "bytes": 104778,
+    "sha256": "9ae3c67d498ac90a4c4225e7ecbb9700861e754e95410f071a02b80b07699e3c"
+  },
+  {
+    "path": "2026-10-31/assets/issue.css",
+    "bytes": 10285,
+    "sha256": "1e458c07ba855726699c2b9885d466a62a85e04604b22dddcca9a2f3d1ca09e9"
+  },
+  {
+    "path": "2026-10-31/assets/matic-serene-flatlay.jpg",
+    "bytes": 73261,
+    "sha256": "c6c4ec497f55bb9a4ed775f93f512a91d4d159f70848531ba4d3588a4c462ca7"
+  },
+  {
+    "path": "2026-10-31/assets/mika-food-order.jpg",
+    "bytes": 88860,
+    "sha256": "27ffa8764ed7dae5a7c8f7f91872ab87383ae8453aaf1232d4048a61ee6e260b"
+  },
+  {
+    "path": "2026-10-31/assets/mistral-large4-open-weights-source-flow.png",
+    "bytes": 62329,
+    "sha256": "79046757c63ef88a3ce50ea6eb3c5208ad2bffdb94da711f325ce4135502a659"
+  },
+  {
+    "path": "2026-10-31/assets/mlns-author-figure.jpg",
+    "bytes": 100351,
+    "sha256": "a5e50f2d11a7b0fc8a88a47a21668910e48cf20d6b09563e4c5022ecd7a84290"
+  },
+  {
+    "path": "2026-10-31/assets/nvzhuang-ui.png",
+    "bytes": 524474,
+    "sha256": "4a274590cef9e397da0c427cb8e9c71933ce6f5ffe52857a2fd779bfb7fe8cef"
+  },
+  {
+    "path": "2026-10-31/assets/opencode-terminal-official.png",
+    "bytes": 470646,
+    "sha256": "14b01372a2589a120ab0d6a0510868e71bceadcbd1f1278fb099d700a03912cb"
+  },
+  {
+    "path": "2026-10-31/assets/preflight-author-figure.jpg",
+    "bytes": 47833,
+    "sha256": "75b1dea4a29686ba0919d474bd18bc7c6b6c685ed53de80288b17b0316473b5f"
+  },
+  {
+    "path": "2026-10-31/assets/rokid-travel-set.jpg",
+    "bytes": 94308,
+    "sha256": "36cff5cefdf70e5b022988445e057228b8089ad64e0499d35ce2cf2633323632"
+  },
+  {
+    "path": "2026-10-31/assets/skyrimnet-chat.jpg",
+    "bytes": 716894,
+    "sha256": "514209879d8bcd343c6724ee4034a626dd237bfbf466e50ac3849154e9d1beae"
+  },
+  {
+    "path": "2026-10-31/assets/stepcontrol-author-figure.jpg",
+    "bytes": 177096,
+    "sha256": "636c718cb30d81665c1ccb6c01cec3be0ad213a88c2d76c9a4f132931bf098bb"
+  },
+  {
+    "path": "2026-10-31/assets/stepgrab-ui.jpg",
+    "bytes": 109380,
+    "sha256": "7375cd8531373cd245fba08fa096efa0150f8b955adad3cacf24c9d6851bf6cb"
+  },
+  {
+    "path": "2026-10-31/assets/suncatcher-author-simulation.jpg",
+    "bytes": 36596,
+    "sha256": "a38c1f8a70129e23cfd18688216083929fd25a5440deb791c54b4dbdd5d0b5fd"
+  },
+  {
+    "path": "2026-10-31/assets/xany-document.jpg",
+    "bytes": 273013,
+    "sha256": "0e04a127aa683a0fe85afa021e097342ccfda947c76c797287754f8061b32557"
+  },
+  {
+    "path": "2026-10-31/en/details/agentcore-cli-v1-resource-workflows.html",
+    "bytes": 6961,
+    "sha256": "6ccaea218d20aa18f4dbf975126ae226d627bc30f17705ec560bc3d8f7ea9b15"
+  },
+  {
+    "path": "2026-10-31/en/details/amp-macos-satellites-visuals.html",
+    "bytes": 7134,
+    "sha256": "a393f5ddee4b5a83b5625a1f168f7a2eba04e2bca1a35542869223d088d6eb98"
+  },
+  {
+    "path": "2026-10-31/en/details/axonnic-muscle-training.html",
+    "bytes": 6420,
+    "sha256": "484ac14072d7c9eb555b17d40f6960d9ada4e5b5ddc5bd43bca0512e5b6abc26"
+  },
+  {
+    "path": "2026-10-31/en/details/brainchip-pi5-akd1500.html",
+    "bytes": 7157,
+    "sha256": "428a64ed745d5dae029db157a8ae901fc2e1862528ab1d31f460307198153a0e"
+  },
+  {
+    "path": "2026-10-31/en/details/canva-brush-editable-design.html",
+    "bytes": 6220,
+    "sha256": "2252349b9ef884cc005584382dfe210ae79db76d1e70306083fcb92c38cf3b8a"
+  },
+  {
+    "path": "2026-10-31/en/details/chatgpt-mobile-account-switching.html",
+    "bytes": 7805,
+    "sha256": "fe9d31404db7d38a28f513e3ed802fc063560cef1322ec74266614eaf6b385fb"
+  },
+  {
+    "path": "2026-10-31/en/details/claude-unified-usage-cost-analytics.html",
+    "bytes": 6407,
+    "sha256": "5208e1368c8a1266cbb3b494f90915622326e67ded312fe02db5bdc4bc221639"
+  },
+  {
+    "path": "2026-10-31/en/details/doomformer-071-map-checks.html",
+    "bytes": 6339,
+    "sha256": "9de8dab913ef4928288d8cded67548d498341b581706724f1ccad80c54bbfedc"
+  },
+  {
+    "path": "2026-10-31/en/details/dshgo-105-observable-actions.html",
+    "bytes": 6290,
+    "sha256": "9aa6c1ea8a6028cec05aba73599b022ad205bff8c6d6157a878d53860321797d"
+  },
+  {
+    "path": "2026-10-31/en/details/elevenlabs-sfx-v3.html",
+    "bytes": 6344,
+    "sha256": "0c05cbcff6a0266882c2c92858953c0942fe4769c9b15a93d24a061f6bc46b37"
+  },
+  {
+    "path": "2026-10-31/en/details/empacer-approved-business-tasks.html",
+    "bytes": 6068,
+    "sha256": "389d170914172b8d468392cff99258bdd5dc95b29b4c942a10ed21db496db96a"
+  },
+  {
+    "path": "2026-10-31/en/details/figma-drive-internal-weave.html",
+    "bytes": 6747,
+    "sha256": "c953805d8c2b5ac862dd36cdab6d45de45f2e9515d6e0460a554356c8cf8211b"
+  },
+  {
+    "path": "2026-10-31/en/details/gemini-api-cli-beta.html",
+    "bytes": 6520,
+    "sha256": "3675a6ab46bc40092f91c387c3a991c03abf21a13ed80f51aa8a2cb240f28d19"
+  },
+  {
+    "path": "2026-10-31/en/details/gemini-computer-use-ga.html",
+    "bytes": 6534,
+    "sha256": "4ba76584bf028c9003595c04e8cb09690b94ba55ec1acb72cef5a96725a022ea"
+  },
+  {
+    "path": "2026-10-31/en/details/hy-simulmt-streaming-translation.html",
+    "bytes": 7386,
+    "sha256": "3d872e873e7ebef2187c7b12c642260277f9355c420ff7262a1b3c0629cdd508"
+  },
+  {
+    "path": "2026-10-31/en/details/matic-serene-acoustic-stack.html",
+    "bytes": 6407,
+    "sha256": "16ed429c57fbd2d9b4059807359cf770a7cfd4803f652e3cc8f26c5330d5ae29"
+  },
+  {
+    "path": "2026-10-31/en/details/mika-0118-phone-agent.html",
+    "bytes": 6341,
+    "sha256": "d1fe3985b4d154471e8863d8128be9f1e36694655f4ccc0c7adfda515ac9c0d3"
+  },
+  {
+    "path": "2026-10-31/en/details/mistral-large4-open-weights.html",
+    "bytes": 6296,
+    "sha256": "4d154a1536d4e40d894474bc73a4419f28e4b0bca24b1aaa220f1ff8106260d8"
+  },
+  {
+    "path": "2026-10-31/en/details/mlns-wheelchair.html",
+    "bytes": 6101,
+    "sha256": "ff25eed1fcd568fb99365ffc1c772e8b9aafc49a0fc2d4acea50460fb3fb6078"
+  },
+  {
+    "path": "2026-10-31/en/details/nvzhuang-reference-tryon.html",
+    "bytes": 7216,
+    "sha256": "1b7076cbab3f16249a7ccabe16e60f02434da86166762e0ebc3db3ba24ad396f"
+  },
+  {
+    "path": "2026-10-31/en/details/opencode-223-local-picker.html",
+    "bytes": 6143,
+    "sha256": "99d3e0add1a61d467c57969c06d61dcf214f5e08e553696938a1f7198430f2a5"
+  },
+  {
+    "path": "2026-10-31/en/details/preflight-bench.html",
+    "bytes": 6266,
+    "sha256": "790fb4f37ccc0b0623b1a5e2bd5fe30d3d71c8a6a5e1e42850137164afe6a770"
+  },
+  {
+    "path": "2026-10-31/en/details/rokid-uk-selfridges.html",
+    "bytes": 7212,
+    "sha256": "313e73d73d65e8d88380e01142c212512a600c024d321f5aa77a28e32f69c5a3"
+  },
+  {
+    "path": "2026-10-31/en/details/skyrimnet-beta29-dialogue.html",
+    "bytes": 6341,
+    "sha256": "5cc43cfee5e6db7d1e4bcd49626439bdafa594270d76e794ba58071e5f1399a3"
+  },
+  {
+    "path": "2026-10-31/en/details/stepcontrol-contact-schedules.html",
+    "bytes": 6164,
+    "sha256": "e8bc347214c96c8cacb5c7da714eaa8579fd1cf9620d4ef709a38884070c522c"
+  },
+  {
+    "path": "2026-10-31/en/details/stepgrab-cross-platform-guides.html",
+    "bytes": 5805,
+    "sha256": "59d9796c838fe66408492e5d3c8b759e909d90a88963c6de22ac2e038763facb"
+  },
+  {
+    "path": "2026-10-31/en/details/suncatcher-orbital-response.html",
+    "bytes": 7362,
+    "sha256": "4eade8862bdd7bb0abc77a5c5d8353f778161985823314ebeb6a6cb128204c41"
+  },
+  {
+    "path": "2026-10-31/en/details/xanylabeling-multipage-ocr.html",
+    "bytes": 7562,
+    "sha256": "7a63b6611beef9b40b87538aca5673b61da9fbfab2e7ef3d551f55541d013651"
+  },
+  {
+    "path": "2026-10-31/en/index.html",
+    "bytes": 98345,
+    "sha256": "2f2fda0e1fdaa236a80684a48bcf6d651eba664b40d4b6a3783f6cace785c7a5"
+  },
+  {
+    "path": "2026-10-31/manifest.json",
+    "bytes": 32223,
+    "sha256": "36c8bb459eeb66d060f1dafb7fdab38354caabb687259451579e0b5594eb335e"
+  },
+  {
+    "path": "2026-10-31/sources.html",
+    "bytes": 73316,
+    "sha256": "b3cee61644bc60a7af7aff5fe5217f08d7d1f02267b56de61aa3112b246ca153"
+  },
+  {
+    "path": "2026-10-31/sources.json",
+    "bytes": 31663,
+    "sha256": "1edf82cdab6f59af03d6257579b7c30ebcbd727efe069b0df14ef7c1e8730512"
+  },
+  {
+    "path": "2026-10-31/visuals.json",
+    "bytes": 23163,
+    "sha256": "01e97863ab41c130670c5904f888d65b9ce2445b82cb08f4f48b18127d982981"
+  },
+  {
+    "path": "2026-10-31/zh/details/agentcore-cli-v1-resource-workflows.html",
+    "bytes": 6266,
+    "sha256": "4d9995a5b955345f44bcb8296b0d2edd832d87790ee1479785d25e2c22b9dfff"
+  },
+  {
+    "path": "2026-10-31/zh/details/amp-macos-satellites-visuals.html",
+    "bytes": 6808,
+    "sha256": "ac12cee362df9035595e047d9a2171c3af269296436bd50080b93d34f8d0d329"
+  },
+  {
+    "path": "2026-10-31/zh/details/axonnic-muscle-training.html",
+    "bytes": 6019,
+    "sha256": "a95fa5dc5905da196f1e4aac76354d9185740dd9f6d75d208d1dea663726b433"
+  },
+  {
+    "path": "2026-10-31/zh/details/brainchip-pi5-akd1500.html",
+    "bytes": 6590,
+    "sha256": "76652b2bd3b6d6aa7f0fec670993ec9c295536ff0b42a8f3bce1c0c3ffe7adc9"
+  },
+  {
+    "path": "2026-10-31/zh/details/canva-brush-editable-design.html",
+    "bytes": 5753,
+    "sha256": "50c2e6b97c67d3a3b0ff5c8613ab360698a41e3b6a9836d774e502425b59d302"
+  },
+  {
+    "path": "2026-10-31/zh/details/chatgpt-mobile-account-switching.html",
+    "bytes": 7299,
+    "sha256": "81955b4cf5e98ab73d56c4672ef340c258a2a953351cb75ff8dc24ce9123b3a5"
+  },
+  {
+    "path": "2026-10-31/zh/details/claude-unified-usage-cost-analytics.html",
+    "bytes": 5979,
+    "sha256": "73c265c7db2dc4754e6580c9ba9dc2706149843f42c7909b1419103d0242b7ff"
+  },
+  {
+    "path": "2026-10-31/zh/details/doomformer-071-map-checks.html",
+    "bytes": 5934,
+    "sha256": "f4b9f3b4cf9d3b71e5bd34b19b7bf67f482047ce2261ea3e0151e0289895349c"
+  },
+  {
+    "path": "2026-10-31/zh/details/dshgo-105-observable-actions.html",
+    "bytes": 5927,
+    "sha256": "b18eef90b4f8b41c0ad200861a3540db4304d6b8e6118ff8e0496ba889e5e05e"
+  },
+  {
+    "path": "2026-10-31/zh/details/elevenlabs-sfx-v3.html",
+    "bytes": 5725,
+    "sha256": "d1bba4430278190d22fa390c7d0e34f92b9d5b5984760bd401f9cbb83937abc0"
+  },
+  {
+    "path": "2026-10-31/zh/details/empacer-approved-business-tasks.html",
+    "bytes": 5664,
+    "sha256": "8f692477d1d3ef12016d4f1354954f5457652fe9c575b37b6164b5907edeb567"
+  },
+  {
+    "path": "2026-10-31/zh/details/figma-drive-internal-weave.html",
+    "bytes": 6294,
+    "sha256": "510011d7d97dc5725d57b7ee6d1aea9921d66e7a1628d97ab247a7233dde348b"
+  },
+  {
+    "path": "2026-10-31/zh/details/gemini-api-cli-beta.html",
+    "bytes": 6040,
+    "sha256": "c9daf9684f3f72aa37a365caf2c8568c219c2c8e510bf35e12d509561f432a8f"
+  },
+  {
+    "path": "2026-10-31/zh/details/gemini-computer-use-ga.html",
+    "bytes": 6148,
+    "sha256": "358cf7abf0f70ca036e836bfd889497eed1118740851411107ef4b567c3829af"
+  },
+  {
+    "path": "2026-10-31/zh/details/hy-simulmt-streaming-translation.html",
+    "bytes": 6538,
+    "sha256": "a724aae0266c6aafcf832ff4037c147eeee32bf0abddbf82d527bcdac0ff52cb"
+  },
+  {
+    "path": "2026-10-31/zh/details/matic-serene-acoustic-stack.html",
+    "bytes": 5858,
+    "sha256": "ad45a5bc0d72e5208170a6d46f33753baf4774e9bbef69c0076ae0c56f1d3ab9"
+  },
+  {
+    "path": "2026-10-31/zh/details/mika-0118-phone-agent.html",
+    "bytes": 5962,
+    "sha256": "10882a34c7af08e49a7fdf507e3853aa4fa273da852a7fccf92caa41ebdbc38f"
+  },
+  {
+    "path": "2026-10-31/zh/details/mistral-large4-open-weights.html",
+    "bytes": 6074,
+    "sha256": "f8f7b7b34903f9e4dcaa6716d9f4329d012e0bbadde2fdd51864ee1b6c147a9f"
+  },
+  {
+    "path": "2026-10-31/zh/details/mlns-wheelchair.html",
+    "bytes": 5570,
+    "sha256": "c3e48b9989357a3ab76a976d945084c7ef304e7f6a024b9b6052279eb36faf2d"
+  },
+  {
+    "path": "2026-10-31/zh/details/nvzhuang-reference-tryon.html",
+    "bytes": 6656,
+    "sha256": "f915da4d6eee0cd9e1a917c03d7566a8be36f2e1b7ece5fa4dfe62e360f3add0"
+  },
+  {
+    "path": "2026-10-31/zh/details/opencode-223-local-picker.html",
+    "bytes": 5883,
+    "sha256": "6cdac83227e4fd988cf835ba4b5ae83d21e50678145010dd2df92a552c0d3ad8"
+  },
+  {
+    "path": "2026-10-31/zh/details/preflight-bench.html",
+    "bytes": 5761,
+    "sha256": "1b17bcc2e8bd6e13a7884198f67b1a6e4916c504cc6d589d95fc8f3d9d6de948"
+  },
+  {
+    "path": "2026-10-31/zh/details/rokid-uk-selfridges.html",
+    "bytes": 6759,
+    "sha256": "224f4d1fbae5f56d7b4f2e04f70fc236bb6785450155a7bcae58a07f10230757"
+  },
+  {
+    "path": "2026-10-31/zh/details/skyrimnet-beta29-dialogue.html",
+    "bytes": 5881,
+    "sha256": "9d94328078e529b2f730a8c5d68ea7d3a7a6787f521990df4919daa43e6971c3"
+  },
+  {
+    "path": "2026-10-31/zh/details/stepcontrol-contact-schedules.html",
+    "bytes": 5518,
+    "sha256": "9822222db6fbe4fac4adba0c737b7a73abbef898c3eb827e7825d83255f6a57d"
+  },
+  {
+    "path": "2026-10-31/zh/details/stepgrab-cross-platform-guides.html",
+    "bytes": 5147,
+    "sha256": "5fc6ecb621cd44be8632783dd88ca5a79ec033babe872b28d3fcdefea95c0851"
+  },
+  {
+    "path": "2026-10-31/zh/details/suncatcher-orbital-response.html",
+    "bytes": 6742,
+    "sha256": "9d7ec71cf8886a5ccf36c8cc77864656fc39142a4954c3448b528360d0d6c8bc"
+  },
+  {
+    "path": "2026-10-31/zh/details/xanylabeling-multipage-ocr.html",
+    "bytes": 6877,
+    "sha256": "ad200cee72ef5d81ff21e5330c1e0d98acc0ccb39f6f62ef500084e7d9ab30e9"
+  },
+  {
+    "path": "2026-10-31/zh/index.html",
+    "bytes": 95113,
+    "sha256": "0e34eacdf28ef12f89ffca97714e657753e90f112f10c0b277d3575892958b13"
+  },
+  {
     "path": "assets/acti-agentic-keyboard-2026-07-03.svg",
     "bytes": 2825,
     "sha256": "84ad9abb0a1191abde62dea383e6e1ed583fc089073d3ccaf91629044501721b"
@@ -6246,18 +6706,18 @@
   },
   {
     "path": "en/index.html",
-    "bytes": 168630,
-    "sha256": "14dce79bf148326e2b4b039487363e3d6404620eabbc336e1935a3cdb1f92bc5"
+    "bytes": 169872,
+    "sha256": "10a9389a038056e3bcb5278c02ea204058c0bd02c98bbc9dfe6bd7bf09690a8a"
   },
   {
     "path": "index.html",
-    "bytes": 162663,
-    "sha256": "9db4c05d6bd4145f92cd0d147176c6fecd85da81115aac1722dec1e025b3a03a"
+    "bytes": 163873,
+    "sha256": "41c91c51b96ebe8c4e654c7e32784571df095512c02cd284fa3d9212d26e01f8"
   },
   {
     "path": "manifest.json",
-    "bytes": 741276,
-    "sha256": "cd4d3e37586d73b0bf8600709aa3ef85cd049a534bb172549a6ced72c328c1c9"
+    "bytes": 742669,
+    "sha256": "7e6e18319652524e09d08ec96370a3eacf5f47d8491bf852ad236454b8756ed0"
   },
   {
     "path": "weekly/2026-10-12/pilot/en/index.html",

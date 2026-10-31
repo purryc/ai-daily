@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import http from 'node:http';
 import {createHash} from 'node:crypto';
-const root=process.cwd(),base=path.join(root,'public'),issue='2026-10-30';
+const root=process.cwd(),base=path.join(root,'public'),issue='2026-10-31';
 const digest=b=>createHash('sha256').update(b).digest('hex');
 const assert=(v,m)=>{if(!v)throw Error(m)};
 const cfg=JSON.parse(await fs.readFile('qa/acceptance-target.json'));
@@ -45,7 +45,7 @@ async function staticCheck(){
  assert(metrics.products===productIds.length&&metrics.references===sources.length&&metrics.coreVisuals===visuals.length&&metrics.primaryProjectPages===productIds.length&&metrics.attachedProjectDetails===productIds.length,'MANIFEST_COUNTS');
  assert(Number.isInteger(metrics.slidesPerLocale)&&metrics.slidesPerLocale>productIds.length,'SLIDE_METRIC');
  for(const key of ['perProduct','primarySummaries'])assert(JSON.stringify(Object.keys(metrics[key]).sort())===JSON.stringify([...productIds].sort()),'METRIC_PROJECT_SET '+key);
- assert(m.cutoff==='2026-10-30T08:04:32Z'&&m.timezone==='America/Toronto'&&m.revision.originalCutoffRetained,'TIME');
+ assert(m.cutoff==='2026-10-31T07:58:56Z'&&m.timezone==='America/Toronto'&&m.revision.originalCutoffRetained,'TIME');
  assert(!('laneScans' in m),'METHOD_AUDIT_REMAINS_PRIVATE');
  for(const v of visuals){assert(v.sourcePage&&v.originalUrl&&v.acquiredAt,'VISUAL_PROVENANCE');assert(digest(await fs.readFile(path.join(base,issue,v.path)))===v.sha256,'VISUAL_HASH')}
  const sourcePage=await fs.readFile(path.join(base,issue,'sources.html'),'utf8');await links(sourcePage,path.join(base,issue));
@@ -55,7 +55,7 @@ async function staticCheck(){
  for(const l of ['zh','en']){
   const dir=path.join(base,issue,l),h=await fs.readFile(path.join(dir,'index.html'),'utf8');await links(h,dir);assertDirectSourceMarkers(h,l+'/index');
   const si=[...h.matchAll(/<section\b[^>]*id="([^"]+)"[^>]*data-slide/g)].map(x=>x[1]);ids.push(si);assert(si.length===metrics.slidesPerLocale&&new Set(si).size===si.length,'SLIDES');assert(si[0]==='cover'&&si[1]==='overview','COVER_THEN_CONTENTS');
-  assert(si.includes('evidence-1')&&!si.includes('coverage')&&!si.includes('timing')&&si.length===32,'READER_SLIDE_SET');
+  assert(si.includes('evidence-1')&&!si.includes('coverage')&&!si.includes('timing')&&si.length===31,'READER_SLIDE_SET');
   const projects=[...h.matchAll(/<section id="(event-\d+-a)"([\s\S]*?)<\/section>/g)];assert(projects.length===productIds.length&&projects.every((x,i)=>x[1]===`event-${i+1}-a`),'ONE_PRIMARY_PAGE_PER_PROJECT');assert(!/id="event-\d+-[b-z]"/.test(h),'NO_PROJECT_FRAGMENT_SLIDES');assert((h.match(/<u>/g)||[]).length===3,'VISIBLE_KEY_TAKEAWAYS');assert((h.match(/class="action detail-link"/g)||[]).length===productIds.length,'DETAIL_ENTRIES');assert(paragraphs(h).length===0,'SUMMARY_EXCLUDED_FROM_BODY_COUNT');
   const pp={},structure=[],all=[],summaries={},primaryUnits=[];
   for(let i=0;i<productIds.length;i++){
@@ -76,7 +76,7 @@ async function staticCheck(){
   assert(!h.includes('coverage.html')&&!files.some(f=>f.path===`${issue}/${l}/coverage.html`),'NO_READER_METHOD_PAGES');
  }
  assert(JSON.stringify(ids[0])===JSON.stringify(ids[1]),'BILINGUAL_SLIDE_PARITY');assert(JSON.stringify(groupLinks[0])===JSON.stringify(groupLinks[1]),'BILINGUAL_SOURCE_PARITY');assert(JSON.stringify(details[0])===JSON.stringify(details[1]),'BILINGUAL_DETAIL_SECTION_AND_SOURCE_PARITY');assert(JSON.stringify(primaryStructures[0])===JSON.stringify(primaryStructures[1]),'BILINGUAL_PRIMARY_UNIT_AND_SOURCE_PARITY');
- const archive=JSON.parse(await fs.readFile(path.join(base,'manifest.json')));assert(archive[0].date===issue&&archive.filter(x=>x.date===issue).length===1,'ARCHIVE');for(const p of ['index.html','en/index.html'])assert((await fs.readFile(path.join(base,p),'utf8')).includes('data-time="latest y-2026 m-2026-10 d-2026-10-30"'),'LATEST');
+ const archive=JSON.parse(await fs.readFile(path.join(base,'manifest.json')));assert(archive[0].date===issue&&archive.filter(x=>x.date===issue).length===1,'ARCHIVE');for(const p of ['index.html','en/index.html'])assert((await fs.readFile(path.join(base,p),'utf8')).includes('data-time="latest y-2026 m-2026-10 d-2026-10-31"'),'LATEST');
  return {publicFiles:files.length,slidesPerLocale:metrics.slidesPerLocale,primaryProjectPages:productIds.length,attachedDetails:productIds.length,body:stats,perProduct,primarySummaries:primary,visuals:visuals.length,references:sources.length,products:productIds.length,counting:'Unique full detail paragraphs only; primary summaries, sources, figures and scan prose excluded',bilingualStructureAndSources:true};
 }
 // staticCheck verifies every byte before this read-only candidate fixture starts.
@@ -99,7 +99,7 @@ async function checkpoint(phase,details={}){
 }
 report.timings={readyCalls:0,readyMs:0,imageDecodeCalls:0,imagesDecoded:0,imageDecodeMs:0,screenshotMs:0};
 report.imageLog={eligible:[],maxImages:6,maxBase64CharsPerImage:1048576,maxBase64CharsTotal:4194304,encodedChars:0,emitted:[],artifactOnly:[]};
-function previewNames(){return report.locale?(cfg.archiveRevision?['before','after','weekly','daily','empty','mobile'].map(n=>`${report.locale}-archive-${n}.jpg`):[`${report.locale}-toc-1.jpg`,`${report.locale}-event-1-a.jpg`,`${report.locale}-event-4-a.jpg`,`${report.locale}-detail-confetti-hardware-design-top.jpg`,`${report.locale}-mobile-event-1-a.jpg`,`${report.locale}-mobile-detail-confetti-hardware-design.jpg`]):[]}
+function previewNames(){return report.locale?(cfg.archiveRevision?['before','after','weekly','daily','empty','mobile'].map(n=>`${report.locale}-archive-${n}.jpg`):[`${report.locale}-toc-1.jpg`,`${report.locale}-event-1-a.jpg`,`${report.locale}-event-4-a.jpg`,`${report.locale}-detail-skyrimnet-beta29-dialogue-top.jpg`,`${report.locale}-mobile-event-1-a.jpg`,`${report.locale}-mobile-detail-skyrimnet-beta29-dialogue.jpg`]):[]}
 async function emitPreview(name){
  const log=report.imageLog;if(!previewNames().includes(name)||log.emitted.includes(name)||log.artifactOnly.includes(name))return;
  log.eligible.push(name);const data=(await fs.readFile(path.join(out,name))).toString('base64');
@@ -239,7 +239,7 @@ try{
   await checkpoint('live-hashes-complete');
   let url=live;if(cfg.phase==='candidate'){const s=await serve();server=s.server;url=s.url}report.browserTarget=cfg.phase==='candidate'?'local public candidate in existing cloud runner':'published Pages revision';
   const locale=process.env.QA_EVIDENCE_LOCALE||'zh';assert(['zh','en'].includes(locale),'LOCALE');report.locale=locale;
-  const otherLocale=locale==='zh'?'en':'zh',representatives=['confetti-hardware-design','weknora-090-assistant','grasppressure','radar-119'].filter(id=>manifest.topics.some(t=>t.id===id));
+  const otherLocale=locale==='zh'?'en':'zh',representatives=['skyrimnet-beta29-dialogue','mika-0118-phone-agent','axonnic-muscle-training','preflight-bench'].filter(id=>manifest.topics.some(t=>t.id===id));
   report.representativeProjects=representatives;
   for(const viewport of [{width:1600,height:900},{width:1920,height:1080},{width:390,height:844}]){
    const mobile=viewport.width===390,fullControls=viewport.width===1600,context=await browser.newContext({viewport,serviceWorkers:'block'}),page=await context.newPage(),errors=[];
@@ -266,12 +266,12 @@ try{
     const t=manifest.topics[i],id=`event-${i+1}-a`,exerciseControls=fullControls||mobile&&representatives.includes(t.id),currentDetail=new URL(`details/${t.id}.html`,entry).href;
     if(exerciseControls){
      if(new URL(page.url()).pathname!==new URL(entry).pathname){await page.goto(entry,{waitUntil:'domcontentloaded'});await ready(page)}
-     await gotoSlide(page,id);const marker=page.locator('#'+id+' .reference-marker').first(),number=Number((await marker.innerText()).match(/S(\d+)/)[1]);check('citation-navigation',await marker.getAttribute('href')===sourceURLs.get(number),{viewport,project:t.id,target:sourceURLs.get(number)});if(t.id==='weknora-090-assistant'){for(const n of [76,77])await clickOriginalSource(page,viewport,'WeKnora primary',n);}
+     await gotoSlide(page,id);const marker=page.locator('#'+id+' .reference-marker').first(),number=Number((await marker.innerText()).match(/S(\d+)/)[1]);check('citation-navigation',await marker.getAttribute('href')===sourceURLs.get(number),{viewport,project:t.id,target:sourceURLs.get(number)});if(t.id==='skyrimnet-beta29-dialogue'){for(const n of [1,2])await clickOriginalSource(page,viewport,'SkyrimNet primary',n);}
      const link=page.locator('#'+id+' .detail-link');check('detail-entry-visible',await link.isVisible(),{viewport,project:t.id});await link.click();await ready(page);check('detail-navigation',page.url()===currentDetail,{viewport,project:t.id});
     }else{await page.goto(currentDetail,{waitUntil:'domcontentloaded'});await ready(page)}
     const readable=await page.evaluate(()=>{const paras=[...document.querySelectorAll('[data-product-unit] p')],bad=[];for(const p of paras){const r=p.getBoundingClientRect(),s=getComputedStyle(p);if(r.width<250||parseFloat(s.fontSize)<18||parseFloat(s.lineHeight)/parseFloat(s.fontSize)<1.5||s.display==='none'||s.visibility==='hidden')bad.push('unreadable paragraph');for(let n=p;n&&n!==document.body;n=n.parentElement){const cs=getComputedStyle(n);if(['auto','scroll','clip','hidden'].includes(cs.overflowY)&&n.scrollHeight>n.clientHeight+1)bad.push('inner scrolling or clipping')}}return {paragraphs:paras.length,bad,horizontalOverflow:document.documentElement.scrollWidth>innerWidth+1,images:[...document.images].every(x=>x.complete&&x.naturalWidth>0&&getComputedStyle(x).objectFit==='contain'),languageLink:!!document.querySelector('.detail-header a:nth-child(2)'),landmark:!!document.querySelector('main[data-project-detail]')}});
     check('detail-readable',readable.paragraphs>=4&&!readable.bad.length&&!readable.horizontalOverflow&&readable.images&&readable.languageLink&&readable.landmark,{viewport,project:t.id,...readable});
-    await inspectSourceMarkers(page,viewport,'detail:'+t.id);if(exerciseControls&&t.id==='weknora-090-assistant'){for(const n of [76,77])await clickOriginalSource(page,viewport,'WeKnora detail',n);}
+    await inspectSourceMarkers(page,viewport,'detail:'+t.id);if(exerciseControls&&t.id==='skyrimnet-beta29-dialogue'){for(const n of [1,2])await clickOriginalSource(page,viewport,'SkyrimNet detail',n);}
     const last=page.locator('[data-product-unit]').last();await last.scrollIntoViewIfNeeded();check('detail-last-section-reachable',await last.isVisible(),{viewport,project:t.id});
     if(viewport.width===1600&&representatives.includes(t.id)){await screen(page,`${locale}-detail-${t.id}-end.jpg`);await page.evaluate(()=>scrollTo(0,0));await screen(page,`${locale}-detail-${t.id}-top.jpg`)}
     if(mobile&&representatives.includes(t.id)){await page.evaluate(()=>scrollTo(0,0));await screen(page,`${locale}-mobile-detail-${t.id}.jpg`)}
