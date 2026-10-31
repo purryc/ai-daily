@@ -1,28 +1,22 @@
 [
   {
     "kind": "image",
-    "name": "figma-weave-tools.jpg",
-    "url": "https://help.figma.com/hc/article_attachments/41648211793559",
+    "name": "amp-satellite-ui.jpg",
+    "url": "https://static.ampcode.com/news/orbs-now-have-a-mac-port-to-iphone-duo-poster.avif",
     "locale": "zh",
     "renderImage": true
   },
   {
     "kind": "image",
-    "name": "rokid-travel-set.jpg",
-    "url": "https://gb.rokid.com/cdn/shop/files/main.png?v=1789908272&width=2400",
+    "name": "brainchip-akd1500.jpg",
+    "url": "https://shop.brainchipinc.com/cdn/shop/files/sFC9KW10eY8Lry4lQDyD96SvoRoE0thULVEFTnb4YsO32B0atVrcMHVJhVkR_c7fba211-d0f2-49bc-b97d-33395a01a831.webp?v=1769563448&width=800",
     "locale": "zh",
     "renderImage": true
   },
   {
-    "kind": "page",
-    "name": "amp-interactive-output.jpg",
-    "url": "https://ampcode.com/news/views/diff-stat-variations",
-    "locale": "en"
-  },
-  {
     "kind": "inventory",
-    "name": "amp-satellites-inventory.json",
-    "url": "https://ampcode.com/news/macos-satellites",
+    "name": "suncatcher-author-inventory.json",
+    "url": "https://research.google/blog/exploring-a-space-based-scalable-ai-infrastructure-system-design/",
     "locale": "en"
   }
 ]
