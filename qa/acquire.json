@@ -1,37 +1,28 @@
 [
   {
     "kind": "image",
-    "name": "elevenlabs-settings.jpg",
-    "url": "https://elevenlabs.io/docs/_fern-files/elevenlabs.docs.buildwithfern.com/3b14346a7ee375acc01d11b4ebb0ec0127a4a65bfab8e708d77ae5e639e64f38/assets/images/product-guides/sound-effects/sound-effects-settings.webp",
+    "name": "figma-weave-tools.jpg",
+    "url": "https://help.figma.com/hc/article_attachments/41648211793559",
     "locale": "zh",
     "renderImage": true
   },
   {
     "kind": "image",
-    "name": "chatgpt-account-switch.jpg",
-    "url": "https://images.ctfassets.net/j22is2dtoxu1/lbas_img_lHDWx_3YDFu6Zs55Z-JvAOYqHqMoCoG9l1jVX2xMplw/b4587a0e0956cccd31a9a1897b65d1a5/lbas_img_lHDWx_3YDFu6Zs55Z-JvAOYqHqMoCoG9l1jVX2xMplw.png?fm=webp&q=80&w=1206",
+    "name": "rokid-travel-set.jpg",
+    "url": "https://gb.rokid.com/cdn/shop/files/main.png?v=1789908272&width=2400",
     "locale": "zh",
     "renderImage": true
   },
   {
-    "kind": "image",
-    "name": "stereolift-ui.jpg",
-    "url": "https://ph-files.imgix.net/ef077b41-97ba-47e3-aeeb-16dc23759256.jpeg",
-    "locale": "zh",
-    "renderImage": true
+    "kind": "page",
+    "name": "amp-interactive-output.jpg",
+    "url": "https://ampcode.com/news/views/diff-stat-variations",
+    "locale": "en"
   },
   {
-    "kind": "image",
-    "name": "touchbridge-author-figure.jpg",
-    "url": "https://arxiv.org/html/2610.40349v1/teaser_new.png",
-    "locale": "en",
-    "renderImage": true
-  },
-  {
-    "kind": "image",
-    "name": "preflight-author-figure.jpg",
-    "url": "https://arxiv.org/html/2610.39282v1/fig_page.png",
-    "locale": "en",
-    "renderImage": true
+    "kind": "inventory",
+    "name": "amp-satellites-inventory.json",
+    "url": "https://ampcode.com/news/macos-satellites",
+    "locale": "en"
   }
 ]
