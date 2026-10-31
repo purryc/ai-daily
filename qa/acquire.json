@@ -1,22 +1,23 @@
 [
   {
     "kind": "image",
-    "name": "amp-satellite-ui.jpg",
-    "url": "https://static.ampcode.com/news/orbs-now-have-a-mac-port-to-iphone-duo-poster.avif",
+    "name": "matic-serene-flatlay.jpg",
+    "url": "https://maticrobots.com/_next/image?q=75&url=%2F_next%2Fstatic%2Fmedia%2Fwhats-inside-flatlay.209a61dc.webp&w=3840",
     "locale": "zh",
     "renderImage": true
   },
   {
     "kind": "image",
-    "name": "brainchip-akd1500.jpg",
-    "url": "https://shop.brainchipinc.com/cdn/shop/files/sFC9KW10eY8Lry4lQDyD96SvoRoE0thULVEFTnb4YsO32B0atVrcMHVJhVkR_c7fba211-d0f2-49bc-b97d-33395a01a831.webp?v=1769563448&width=800",
+    "name": "matic-serene-plate.jpg",
+    "url": "https://maticrobots.com/images/blog/engineering-behind-matic-serene/serene-limited-edition-plate.webp",
     "locale": "zh",
     "renderImage": true
   },
   {
-    "kind": "inventory",
-    "name": "suncatcher-author-inventory.json",
+    "kind": "page",
+    "name": "suncatcher-author-simulation.jpg",
     "url": "https://research.google/blog/exploring-a-space-based-scalable-ai-infrastructure-system-design/",
+    "selector": "video",
     "locale": "en"
   }
 ]
