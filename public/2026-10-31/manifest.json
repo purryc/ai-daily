@@ -145,7 +145,7 @@
       },
       "rokid-uk-selfridges": {
         "zh": 203,
-        "en": 128
+        "en": 114
       },
       "matic-serene-acoustic-stack": {
         "zh": 210,
@@ -245,11 +245,11 @@
     "attachedProjectDetails": 28,
     "primaryBody": {
       "zhDenseChars": 5886,
-      "enWords": 3207
+      "enWords": 3193
     },
     "completeReadingBody": {
       "zhDenseChars": 27861,
-      "enWords": 15925
+      "enWords": 15911
     }
   },
   "revision": {
@@ -332,7 +332,7 @@
     {
       "id": "rokid-uk-selfridges",
       "zhHeadline": "Rokid在伦敦增设常设体验柜台，英国旅行套装仍要核对渠道交付",
-      "enHeadline": "Rokid adds a London demonstration counter, with UK delivery terms varying by channel",
+      "enHeadline": "Rokid opens a London counter; UK delivery varies by channel",
       "eventAt": "2026-10-30T09:00:00Z",
       "freshness": "main",
       "evidence": "confirmed vendor retail announcement; no store visit or inventory verification",

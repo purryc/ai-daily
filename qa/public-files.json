@@ -6096,8 +6096,8 @@
   },
   {
     "path": "2026-10-31/en/details/rokid-uk-selfridges.html",
-    "bytes": 7212,
-    "sha256": "313e73d73d65e8d88380e01142c212512a600c024d321f5aa77a28e32f69c5a3"
+    "bytes": 7162,
+    "sha256": "335edff5899abbe336054b9d8da46e4d3edce0ccab9614583ce2cf55834b7f6a"
   },
   {
     "path": "2026-10-31/en/details/skyrimnet-beta29-dialogue.html",
@@ -6126,13 +6126,13 @@
   },
   {
     "path": "2026-10-31/en/index.html",
-    "bytes": 98345,
-    "sha256": "2f2fda0e1fdaa236a80684a48bcf6d651eba664b40d4b6a3783f6cace785c7a5"
+    "bytes": 98203,
+    "sha256": "9359455f7b0f1014b5fd8cbe1020c94e19aca832c6a307e7e2fef69c9bf6dacd"
   },
   {
     "path": "2026-10-31/manifest.json",
-    "bytes": 32223,
-    "sha256": "36c8bb459eeb66d060f1dafb7fdab38354caabb687259451579e0b5594eb335e"
+    "bytes": 32198,
+    "sha256": "a925ae8e5c8fc236f03ef449c9387267ddcc0fde072f0cecfec9226972e25797"
   },
   {
     "path": "2026-10-31/sources.html",
