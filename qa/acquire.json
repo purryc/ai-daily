@@ -1,44 +1,9 @@
 [
   {
     "kind": "image",
-    "name": "nemini.jpg",
-    "url": "https://nemini.ai/home/desk-real.webp",
+    "name": "wowoker.jpg",
+    "url": "https://www.deepblueai.com/storage/uploads/20261027/ade125ee5df829bba2cd3300e563fddb.png",
     "renderImage": true,
     "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "sr18.jpg",
-    "url": "https://en.benewake.com/uploadfiles/2026/10/20261022134312698.jpg",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "ski-gallery-0.jpg",
-    "url": "https://ph-files.imgix.net/bbfe818d-19f2-4340-bd06-ec46d7abcd48.png",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "ski-gallery-1.jpg",
-    "url": "https://ph-files.imgix.net/9c7afbb6-b133-49e9-942e-8c58d08d464f.png",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "ski-gallery-2.jpg",
-    "url": "https://ph-files.imgix.net/81a8705e-fe96-4c06-a748-85fdd8cdf6f9.png",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "ski-gallery-3.jpg",
-    "url": "https://ph-files.imgix.net/0fc0589c-4fa7-4348-b89d-3ff38d8d80e4.png",
-    "renderImage": true,
-    "locale": "en"
   }
 ]
