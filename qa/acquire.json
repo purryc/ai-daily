@@ -1,51 +1,22 @@
 [
   {
     "kind": "image",
-    "name": "knucklebop-ui.jpg",
-    "url": "https://ph-files.imgix.net/291cc01a-9064-4a83-a319-1c10cad54c35.png",
+    "name": "askstream.jpg",
+    "url": "https://arxiv.org/html/2610.38678v1/f3.png",
     "renderImage": true,
     "locale": "zh"
   },
   {
     "kind": "image",
-    "name": "secret-key-ui.jpg",
-    "url": "https://ph-files.imgix.net/84fb1ee3-38e6-4881-9c77-9254594b9d63.png",
+    "name": "google-home.jpg",
+    "url": "https://lh3.googleusercontent.com/LnEbVI0RwCZ51y_RYSS_9XoFNmtV5TsJjl2xFW5BNbOocFcxUVikcM_kwm9RIextQ7w0VQs2hjas5Pz_QMgji0AU9XgMzOmlFZAvDLFOcm8VLukdZw%3Dw1440-v1",
     "renderImage": true,
     "locale": "en"
   },
   {
-    "kind": "image",
-    "name": "godwit-ui.jpg",
-    "url": "https://ph-files.imgix.net/bfce59f7-5327-4b53-8b90-1b237028ab5f.png",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "movemate.jpg",
-    "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e1/b3/5d/e1b35de6-1365-4e03-247f-486669770abf/02-checklist-plan.png/600x1300bb.webp",
-    "renderImage": true,
+    "kind": "inventory",
+    "name": "nemini-inventory.json",
+    "url": "https://nemini.ai/l/en-US/features",
     "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "papilot.jpg",
-    "url": "https://cdn.jsdelivr.net/gh/PapilotAI/papilot%4081cce5f/docs/assets/readme-review.zh-CN.jpg",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "ski-ui.jpg",
-    "url": "https://ph-files.imgix.net/1362d9fa-f0bc-4cd1-9611-f3dc56d4d7ff.png",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "backenly-ui.jpg",
-    "url": "https://ph-files.imgix.net/ab312cae-cd41-473b-9f1a-75cd922a78f5.png",
-    "renderImage": true,
-    "locale": "zh"
   }
 ]
