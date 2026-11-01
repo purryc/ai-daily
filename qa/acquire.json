@@ -1,15 +1,15 @@
 [
   {
     "kind": "image",
-    "name": "desk365.jpg",
-    "url": "https://www.desk365.io/wp-content/uploads/2026/10/desk365-teams-ai-agent-creating-a-ticket-1024x938.png",
+    "name": "dotverse-crew.jpg",
+    "url": "https://ph-files.imgix.net/b62a61a3-82ba-417c-b9e4-e78a49b2612c.png",
     "renderImage": true,
     "locale": "zh"
   },
   {
     "kind": "image",
-    "name": "dotverse.jpg",
-    "url": "https://ph-files.imgix.net/9c13b7ca-d80e-4aa7-a4a6-b9c045a58468.jpeg",
+    "name": "dotverse-tasks.jpg",
+    "url": "https://ph-files.imgix.net/0978711f-43ac-4050-ad15-3107ed7cad2d.png",
     "renderImage": true,
     "locale": "en"
   }
