@@ -1,9 +1,16 @@
 [
   {
     "kind": "image",
-    "name": "wowoker.jpg",
-    "url": "https://www.deepblueai.com/storage/uploads/20261027/ade125ee5df829bba2cd3300e563fddb.png",
+    "name": "desk365.jpg",
+    "url": "https://www.desk365.io/wp-content/uploads/2026/10/desk365-teams-ai-agent-creating-a-ticket-1024x938.png",
     "renderImage": true,
     "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "name": "dotverse.jpg",
+    "url": "https://ph-files.imgix.net/9c13b7ca-d80e-4aa7-a4a6-b9c045a58468.jpeg",
+    "renderImage": true,
+    "locale": "en"
   }
 ]
