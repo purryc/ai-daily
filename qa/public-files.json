@@ -6295,6 +6295,481 @@
     "sha256": "0e34eacdf28ef12f89ffca97714e657753e90f112f10c0b277d3575892958b13"
   },
   {
+    "path": "2026-11-01/assets/agentdock.png",
+    "bytes": 163666,
+    "sha256": "b047541025e18263169b1ee1de711346bed566990ba3f0ced590302dcd7aaad9"
+  },
+  {
+    "path": "2026-11-01/assets/apple-cn.jpg",
+    "bytes": 70253,
+    "sha256": "a18e07aa540c5da7e200d26b36d9eb78909a6fe6ff5b56106b4ef8d15beddc8c"
+  },
+  {
+    "path": "2026-11-01/assets/askstream.jpg",
+    "bytes": 469892,
+    "sha256": "4b56d0562dca32ade18d954ce2ec1a070fc78a8e00ad2f7361cbd97bcabef4b5"
+  },
+  {
+    "path": "2026-11-01/assets/bedrock-govcloud-openai-runtime-source-flow.png",
+    "bytes": 65222,
+    "sha256": "6dd3761857f9b080d82aad8409d753b96a3434007d1e2ecaed3041938296c832"
+  },
+  {
+    "path": "2026-11-01/assets/claude-code-21316-group-budgets-source-flow.png",
+    "bytes": 60930,
+    "sha256": "999566b120f940def6d5ad1987b026fe9de40d86396983a754825fcf971e6f76"
+  },
+  {
+    "path": "2026-11-01/assets/deck.js",
+    "bytes": 2576,
+    "sha256": "63d13c06452d7405e0b5ed572d8464d802c9e5b8de656b5a94e3527b1730f7b3"
+  },
+  {
+    "path": "2026-11-01/assets/deepseek-superagent-prototype-source-flow.png",
+    "bytes": 58360,
+    "sha256": "c641b108b27e91a71d8f6a145839609260924b90de531e639eb1815bbf71bfae"
+  },
+  {
+    "path": "2026-11-01/assets/desk365.jpg",
+    "bytes": 93636,
+    "sha256": "d1e4d230cdc7235a02a9ea31a41626d34eb254c59bd8abc92334e848fd899bbd"
+  },
+  {
+    "path": "2026-11-01/assets/dotverse-crew.jpg",
+    "bytes": 58833,
+    "sha256": "ab3bfa692ff79aeb2a7b2abafff41ec1c2125598103a91014e845c76d13c3ff3"
+  },
+  {
+    "path": "2026-11-01/assets/egocontact.jpg",
+    "bytes": 153631,
+    "sha256": "62f958bf233ed2cf3bf2f56882e5efea47cdcde3462cf910c737c3a9ce1a775c"
+  },
+  {
+    "path": "2026-11-01/assets/factory-droid-script-harness-source-flow.png",
+    "bytes": 55786,
+    "sha256": "649f95fd5424096d7a4b2eb0ce0e2b146df9929557f5e21215e1c0dea9456f6c"
+  },
+  {
+    "path": "2026-11-01/assets/godwit-ui.jpg",
+    "bytes": 155516,
+    "sha256": "85df51454d1d709df001ac2eb75622b51a0aa4736090521643418dd2fa5a95e9"
+  },
+  {
+    "path": "2026-11-01/assets/google-home.jpg",
+    "bytes": 55276,
+    "sha256": "340263b8dd5b62cd75b6ab667774121918f0e9217983682e66c91b5df10aee50"
+  },
+  {
+    "path": "2026-11-01/assets/gpt6-rosalind-research-access-source-flow.png",
+    "bytes": 60692,
+    "sha256": "dca6b3271e62b5932fb11ef64f0bfd4580745ca32fd5949b33ae9f94d83df2d8"
+  },
+  {
+    "path": "2026-11-01/assets/gufo-0281-draft-gating-source-flow.png",
+    "bytes": 86934,
+    "sha256": "335904725142d819ad1ffc3c48c33c6f0592d79562d4c91ed6caf35722c3387c"
+  },
+  {
+    "path": "2026-11-01/assets/gym-anything.jpg",
+    "bytes": 161074,
+    "sha256": "cbc6fa1dc3afae571d60e844b42a5b854b891a39e7d610a7ebb39ad1f5c9ef96"
+  },
+  {
+    "path": "2026-11-01/assets/issue.css",
+    "bytes": 10285,
+    "sha256": "1e458c07ba855726699c2b9885d466a62a85e04604b22dddcca9a2f3d1ca09e9"
+  },
+  {
+    "path": "2026-11-01/assets/knucklebop-ui.jpg",
+    "bytes": 49037,
+    "sha256": "c126d38cb5fe4f23ca02e899f7b2e68b98292d1bdcf901a97752b5a809b03ac9"
+  },
+  {
+    "path": "2026-11-01/assets/kobold.jpg",
+    "bytes": 26439,
+    "sha256": "373925e06d46f11f19f069409502309774286e3f3c69705a8b3c2ec3879db35d"
+  },
+  {
+    "path": "2026-11-01/assets/ludi.jpg",
+    "bytes": 153092,
+    "sha256": "4816c3af3b1d07a48dc7a149980acde316fe48851f63aa6c57d98f4736502db9"
+  },
+  {
+    "path": "2026-11-01/assets/luxonis-ffc.jpg",
+    "bytes": 135766,
+    "sha256": "e43b9e1cfa2e97ddf7682165ca41e2c35447ba24e12d7a24a32e3fd21bb3e819"
+  },
+  {
+    "path": "2026-11-01/assets/mo.jpg",
+    "bytes": 111912,
+    "sha256": "3c58eae0fd7272110cfa63ce76c4ab9d12aa6b82d1c31db89c039198bd164834"
+  },
+  {
+    "path": "2026-11-01/assets/movemate.jpg",
+    "bytes": 88569,
+    "sha256": "c0f7410a6032e7fca6be272d8c0b9007e08bdfa53f8deec2b9381c2da827bce8"
+  },
+  {
+    "path": "2026-11-01/assets/nemini.jpg",
+    "bytes": 156114,
+    "sha256": "2800dda45db0e4b2e9b8041451f76964bd552418f0d60ed0b109412e01f6990e"
+  },
+  {
+    "path": "2026-11-01/assets/obol-success-cost-harness-source-flow.png",
+    "bytes": 87380,
+    "sha256": "86c9e2f8361a07ab6e673d7d26f10995f9f696897180a74497591e4ff2a4dae9"
+  },
+  {
+    "path": "2026-11-01/assets/papilot-v070.jpg",
+    "bytes": 150090,
+    "sha256": "b7af5274d50428ad05d2159d04a3102bbb32d9640d6ec4fe57a0bd8eb3b5ad31"
+  },
+  {
+    "path": "2026-11-01/assets/pokebot.jpg",
+    "bytes": 104074,
+    "sha256": "4008b90f0c9aa2ea5423524f23b2ca90de21313a21e9892dbe94835c3a95a624"
+  },
+  {
+    "path": "2026-11-01/assets/schedulegen.jpg",
+    "bytes": 70652,
+    "sha256": "6f0f482ac2163d780d7c81c14e116e0c696b89616210cf447c37314927de48be"
+  },
+  {
+    "path": "2026-11-01/assets/sr18.jpg",
+    "bytes": 27690,
+    "sha256": "d66d3935444b6550ec583a7eebc2edff0838469692b1ca5a88f537a413eda49e"
+  },
+  {
+    "path": "2026-11-01/assets/superproductivity.jpg",
+    "bytes": 64354,
+    "sha256": "7b6fe30016558c4cc41395468b0ade189f5e7f021c77cc53267d9cc85e72d2ba"
+  },
+  {
+    "path": "2026-11-01/assets/telemetry.jpg",
+    "bytes": 121610,
+    "sha256": "10998222bb2886dc8e011e6498d096f316055822b26d3d7321c6232b6ddd46ab"
+  },
+  {
+    "path": "2026-11-01/en/details/apple-intelligence-china-beta-plan.html",
+    "bytes": 6660,
+    "sha256": "cf6ea23b525d8fdc8f716c5af6343f257bdb83586590611bbec53f734dec3329"
+  },
+  {
+    "path": "2026-11-01/en/details/askstream-ask-before-answer.html",
+    "bytes": 6321,
+    "sha256": "5a039c6fe69ba9887b69891fba070b437fcece3f8c888137c4d827f3f12f4340"
+  },
+  {
+    "path": "2026-11-01/en/details/bedrock-govcloud-openai-runtime.html",
+    "bytes": 7652,
+    "sha256": "a9125b4f730ad56b9067f5e4a5e7bde6aadec845e8aea12bb0e3f688273b0246"
+  },
+  {
+    "path": "2026-11-01/en/details/benewake-sr18-lidar-production.html",
+    "bytes": 6670,
+    "sha256": "c9017e93958c17cf219f11f900d855903dcf43c9471e8f291049ad263e0ddf24"
+  },
+  {
+    "path": "2026-11-01/en/details/claude-code-21316-group-budgets.html",
+    "bytes": 7254,
+    "sha256": "615a0415b4104b92eecade71cceb70fa94ab680dd71eb03c52c37e824103fcba"
+  },
+  {
+    "path": "2026-11-01/en/details/deepseek-superagent-prototype.html",
+    "bytes": 6735,
+    "sha256": "b81a38672c2fb0761785983864dc1976b50ff346de4683c28c54974dbfc8bc7f"
+  },
+  {
+    "path": "2026-11-01/en/details/desk365-teams-reviewed-tickets.html",
+    "bytes": 6988,
+    "sha256": "b5e90a646a9e312906a492d08d680252e0a83fdbba8ab5b4da0855c02906745d"
+  },
+  {
+    "path": "2026-11-01/en/details/dotverse-021-reply-recovery.html",
+    "bytes": 6432,
+    "sha256": "9391eb74835276f0a5e687c0a133fc41b00ddb96bcf231d9a777725609aba5f7"
+  },
+  {
+    "path": "2026-11-01/en/details/egocontact-contact-benchmark.html",
+    "bytes": 6104,
+    "sha256": "2ebb74c26a1fc33f32a582e3670e52dcd6916939c9fd7d8702d0ab2e4996a0be"
+  },
+  {
+    "path": "2026-11-01/en/details/factory-droid-script-harness.html",
+    "bytes": 6254,
+    "sha256": "148320035c9a8bf2e216a25a9bb6de27c38c620da1de2d15c7751f6d0cce7528"
+  },
+  {
+    "path": "2026-11-01/en/details/godwit-123-account-rewrites.html",
+    "bytes": 6293,
+    "sha256": "6992e3382c2b7b8683745a596832f04ffdd3d074b7d6cf1b7795ae807f0a4605"
+  },
+  {
+    "path": "2026-11-01/en/details/google-home-oct29-target-timer-fixes.html",
+    "bytes": 7079,
+    "sha256": "94add76f3d9062d687a96574a5f0cc2961799df932458da1bd683b34c189c887"
+  },
+  {
+    "path": "2026-11-01/en/details/gpt6-rosalind-research-access.html",
+    "bytes": 7138,
+    "sha256": "86b0201f57948c7ea7bd033f384ec259e2bc72bc0997e64ee98eafad90dabf3b"
+  },
+  {
+    "path": "2026-11-01/en/details/gufo-0281-draft-gating.html",
+    "bytes": 6753,
+    "sha256": "2e81e721aaf9217096a0e893651b893dd458e441fbd7ad7510da19fbceb398a5"
+  },
+  {
+    "path": "2026-11-01/en/details/knucklebop-motion-taps.html",
+    "bytes": 6421,
+    "sha256": "69e78d488863bd8594ebe6542a71468832626cac62a9e328c463d6ca2edfd095"
+  },
+  {
+    "path": "2026-11-01/en/details/koboldcpp-1124-music-transcription.html",
+    "bytes": 7232,
+    "sha256": "17008a8141591e66106920f5bb2cef819b28793a70814354605e73eae812ce18"
+  },
+  {
+    "path": "2026-11-01/en/details/ludi02-social-corrections.html",
+    "bytes": 7014,
+    "sha256": "6e17b5bbb62815c97207f1943bc0840763437d2f312a6c503ef2439c6fb1bf88"
+  },
+  {
+    "path": "2026-11-01/en/details/mo-preview-action-cards.html",
+    "bytes": 5988,
+    "sha256": "6ea6505be8c64382eef6d354599eb42cdc19a451bf91c6fcce29221009cd26a8"
+  },
+  {
+    "path": "2026-11-01/en/details/movemate-occasional-use-pricing.html",
+    "bytes": 6606,
+    "sha256": "9ce6f525faa68aa8c2b39a75c151b2cc096bfe3c0a6177ff1269c91b73637cba"
+  },
+  {
+    "path": "2026-11-01/en/details/nemini-032-chat-tools.html",
+    "bytes": 6079,
+    "sha256": "b421732f551d7bf04f3159a753874b5cd360413d214bdb173d86e17e8f7b52df"
+  },
+  {
+    "path": "2026-11-01/en/details/nexusdock-shared-device-entry.html",
+    "bytes": 7366,
+    "sha256": "7c182c48271a971e9e05c1825e485ab964aa7336097e42af1560e090fcd9b171"
+  },
+  {
+    "path": "2026-11-01/en/details/oak4-ffc-modular-vision.html",
+    "bytes": 6936,
+    "sha256": "e18d3cba94b5b96b146c0ad1cd77bc2855664439197a6378789c24ea2d5b177d"
+  },
+  {
+    "path": "2026-11-01/en/details/obol-success-cost-harness.html",
+    "bytes": 6597,
+    "sha256": "60c6317e29ffc4bd74dd9a0952b42d0717ffb7a5bcd2c4bdb4b2621bae2bd99b"
+  },
+  {
+    "path": "2026-11-01/en/details/papilot-070-reviewed-delivery.html",
+    "bytes": 6862,
+    "sha256": "a2af45612a06518fb7bbe3e935d4533fe5d1c0131f1ffe2e72af7900ad224100"
+  },
+  {
+    "path": "2026-11-01/en/details/pokebot-roboapi-preview.html",
+    "bytes": 7187,
+    "sha256": "e8763f6bf84b6ec3455c9766c281c7ebad434f3dd8bc85abd61265b869977058"
+  },
+  {
+    "path": "2026-11-01/en/details/roboworld-generated-simulations.html",
+    "bytes": 6210,
+    "sha256": "215519c4d415c8834bb77b99dfb1d546819a5937efb30966f8e30e59ad1d7976"
+  },
+  {
+    "path": "2026-11-01/en/details/schedulegen-multiarm.html",
+    "bytes": 6297,
+    "sha256": "222f1e75c1dc4bef1884595dc1e1f1866f4566aeb5b87dd473519f90bfe74f40"
+  },
+  {
+    "path": "2026-11-01/en/details/superproductivity-plugin-hints.html",
+    "bytes": 6690,
+    "sha256": "c5d373f50122b9ed7c8e491575d6f91704c32a34c3e5bdd2f631080b9f4e075d"
+  },
+  {
+    "path": "2026-11-01/en/details/telemetry-prompts-evals-traces.html",
+    "bytes": 6124,
+    "sha256": "1f4fe913e29837d4b4148cfc68fd9bfa5c4116668af0c029525646c99e6fefa3"
+  },
+  {
+    "path": "2026-11-01/en/index.html",
+    "bytes": 102469,
+    "sha256": "c316165fe5fd118c8ee0c1eecaeb901bedf29daa452e99c143192676709dbd92"
+  },
+  {
+    "path": "2026-11-01/manifest.json",
+    "bytes": 33562,
+    "sha256": "9de4831b45d7f6b0c902b8efa0432d6587628ac953b1bd378e4f98c5b607100e"
+  },
+  {
+    "path": "2026-11-01/sources.html",
+    "bytes": 74757,
+    "sha256": "5ee77356ee901430facf540f08bc7842398cf2e42c4df87f8ff104114ff1d56d"
+  },
+  {
+    "path": "2026-11-01/sources.json",
+    "bytes": 34191,
+    "sha256": "e7ebfcc2b379a66fc062311bc3793fa9f12bee23fea0cbdbc54fa3b5d49127f0"
+  },
+  {
+    "path": "2026-11-01/visuals.json",
+    "bytes": 22903,
+    "sha256": "4d1c2a75df62ddafd7b6804b91539943858d0cef8cc1a7e7302cfbd73d954c70"
+  },
+  {
+    "path": "2026-11-01/zh/details/apple-intelligence-china-beta-plan.html",
+    "bytes": 6185,
+    "sha256": "aa31a4b22b77000e79ce6260d7b27438f26a1018f09ac0955670e32ab3779f06"
+  },
+  {
+    "path": "2026-11-01/zh/details/askstream-ask-before-answer.html",
+    "bytes": 5841,
+    "sha256": "e31f2f1da44e6912b556f3fe9ed7f55a8e432f592f7f4d0c350861aa99f4e561"
+  },
+  {
+    "path": "2026-11-01/zh/details/bedrock-govcloud-openai-runtime.html",
+    "bytes": 6934,
+    "sha256": "7559b7736c4064dcaea5456f8444f6341d585a228a16fa60b0e7bb1e9447fbf5"
+  },
+  {
+    "path": "2026-11-01/zh/details/benewake-sr18-lidar-production.html",
+    "bytes": 6306,
+    "sha256": "cb97965ea7c5826df10ec45740b24494aadf05104c795dd9b57cc07737bd432a"
+  },
+  {
+    "path": "2026-11-01/zh/details/claude-code-21316-group-budgets.html",
+    "bytes": 6530,
+    "sha256": "56a1456a06ca09bd9dee8f6d3cad62d92ee1f9abeb298faad9952848baaca43e"
+  },
+  {
+    "path": "2026-11-01/zh/details/deepseek-superagent-prototype.html",
+    "bytes": 6384,
+    "sha256": "11458204df5a905b605ff11e0fffbb43d7eee8c8ec0edcec9b5d3b3eadf65604"
+  },
+  {
+    "path": "2026-11-01/zh/details/desk365-teams-reviewed-tickets.html",
+    "bytes": 6323,
+    "sha256": "00bd0463b316e650657ad98b98cfcf7fbb0e2d77a1c059542caadff460f696f8"
+  },
+  {
+    "path": "2026-11-01/zh/details/dotverse-021-reply-recovery.html",
+    "bytes": 6062,
+    "sha256": "882c586d03795e38f830277dec735fa754babe18fc5d05bb38f297593212c862"
+  },
+  {
+    "path": "2026-11-01/zh/details/egocontact-contact-benchmark.html",
+    "bytes": 5881,
+    "sha256": "0bd11b9a1cd7c50eaeec446fd0ce27a053bba5a169407131a1c99682b23e2da9"
+  },
+  {
+    "path": "2026-11-01/zh/details/factory-droid-script-harness.html",
+    "bytes": 5764,
+    "sha256": "5e18eb40984a76f17278de20fd9561c4c1d2d85d82b9f19ccc7840527830d4ca"
+  },
+  {
+    "path": "2026-11-01/zh/details/godwit-123-account-rewrites.html",
+    "bytes": 5842,
+    "sha256": "310e5460e53794a59874b67704db97e4da846cb5d54e061d0b5aa0dffe87a28c"
+  },
+  {
+    "path": "2026-11-01/zh/details/google-home-oct29-target-timer-fixes.html",
+    "bytes": 6820,
+    "sha256": "5daa4b7fe276010dfafd2b74152f6c8b5725b72e3402a13acd4366bba842f038"
+  },
+  {
+    "path": "2026-11-01/zh/details/gpt6-rosalind-research-access.html",
+    "bytes": 6560,
+    "sha256": "fa39af2c08183c58fd6f2a148c6c997729ee7d5cd7897a502b1e33f2896eb685"
+  },
+  {
+    "path": "2026-11-01/zh/details/gufo-0281-draft-gating.html",
+    "bytes": 6119,
+    "sha256": "f7fbb4ba5faf5173590aa4ad3dd71acefb2096a41c87c4bf0bee3dd83af82637"
+  },
+  {
+    "path": "2026-11-01/zh/details/knucklebop-motion-taps.html",
+    "bytes": 6051,
+    "sha256": "e83a2428ebc5e6673f606fd294ad02158c4407a59357262909def481ffbaee1b"
+  },
+  {
+    "path": "2026-11-01/zh/details/koboldcpp-1124-music-transcription.html",
+    "bytes": 6677,
+    "sha256": "a61df5567f259304298f25258f32a5c1392bdc49b7ad25af5a9b8cd6994f743c"
+  },
+  {
+    "path": "2026-11-01/zh/details/ludi02-social-corrections.html",
+    "bytes": 6644,
+    "sha256": "4933ba780f3a5fe662d1131f20c89d7967aafae9b0181275c28713f8d60a257b"
+  },
+  {
+    "path": "2026-11-01/zh/details/mo-preview-action-cards.html",
+    "bytes": 5603,
+    "sha256": "3bc8a42fb909c11eeb012aeee1a46b856a3db9721e68f7227c089fa82ea7aa46"
+  },
+  {
+    "path": "2026-11-01/zh/details/movemate-occasional-use-pricing.html",
+    "bytes": 6104,
+    "sha256": "237b7c0cc914ffc760b59b39dba67cb5f317622ac06108a9172cfcccc3a28824"
+  },
+  {
+    "path": "2026-11-01/zh/details/nemini-032-chat-tools.html",
+    "bytes": 5698,
+    "sha256": "bbfd6da9a1be746d499eef969b1ab2cfe3bbfef1720f058c0d03c9a6b843d577"
+  },
+  {
+    "path": "2026-11-01/zh/details/nexusdock-shared-device-entry.html",
+    "bytes": 6913,
+    "sha256": "46b141d847dad85516faca4fa8d4efa912bc0f081d7e836e3dd18542df0bfc88"
+  },
+  {
+    "path": "2026-11-01/zh/details/oak4-ffc-modular-vision.html",
+    "bytes": 6499,
+    "sha256": "8c0e35e1de7c89aad4bbf094d7963fbb8f4738059f15dee35ab22501449cd997"
+  },
+  {
+    "path": "2026-11-01/zh/details/obol-success-cost-harness.html",
+    "bytes": 6109,
+    "sha256": "58b7f6c39e5c4e174ce1cc7a2924bebd015f6101c9456a63945171e06e75883e"
+  },
+  {
+    "path": "2026-11-01/zh/details/papilot-070-reviewed-delivery.html",
+    "bytes": 6425,
+    "sha256": "1bab2a220d08a8c540806919f25633b513c3ac78e4a4740ea99ec068f67b6253"
+  },
+  {
+    "path": "2026-11-01/zh/details/pokebot-roboapi-preview.html",
+    "bytes": 6702,
+    "sha256": "6d38633afad6bfdfcfa513458f37a13475bc020802c5bdef8abc763c94c5f408"
+  },
+  {
+    "path": "2026-11-01/zh/details/roboworld-generated-simulations.html",
+    "bytes": 5802,
+    "sha256": "9f6bb661353832a343f40bc4557708d03010e5a3e1a70391b9ae3995d167df0e"
+  },
+  {
+    "path": "2026-11-01/zh/details/schedulegen-multiarm.html",
+    "bytes": 5669,
+    "sha256": "72a90bedc5a98402054530ca8ce7793aec8e21789fd01c579d41d20453726902"
+  },
+  {
+    "path": "2026-11-01/zh/details/superproductivity-plugin-hints.html",
+    "bytes": 6201,
+    "sha256": "51639e418de046a2b29285b31a73f84cce9e87bb778c00b6db0d2f5a1c17dd3e"
+  },
+  {
+    "path": "2026-11-01/zh/details/telemetry-prompts-evals-traces.html",
+    "bytes": 5603,
+    "sha256": "c250e5baeab872dc51b771e241ba030465429daf430457303ce2cd0a31a344dc"
+  },
+  {
+    "path": "2026-11-01/zh/index.html",
+    "bytes": 98459,
+    "sha256": "cbd171505ffabd8f7bdf99f57cc2108ac091542c289bf76deb88a5944d3af60c"
+  },
+  {
     "path": "assets/acti-agentic-keyboard-2026-07-03.svg",
     "bytes": 2825,
     "sha256": "84ad9abb0a1191abde62dea383e6e1ed583fc089073d3ccaf91629044501721b"
@@ -6706,18 +7181,18 @@
   },
   {
     "path": "en/index.html",
-    "bytes": 169872,
-    "sha256": "10a9389a038056e3bcb5278c02ea204058c0bd02c98bbc9dfe6bd7bf09690a8a"
+    "bytes": 171131,
+    "sha256": "df6a90ff196b163bc748ea5b03faf967e78f3f94ea613adaadfd0ff85bb797a4"
   },
   {
     "path": "index.html",
-    "bytes": 163873,
-    "sha256": "41c91c51b96ebe8c4e654c7e32784571df095512c02cd284fa3d9212d26e01f8"
+    "bytes": 165133,
+    "sha256": "56366e955e7ff1250493755a5430264e378fefd5d133bd6f4688a15af8fc3795"
   },
   {
     "path": "manifest.json",
-    "bytes": 742669,
-    "sha256": "7e6e18319652524e09d08ec96370a3eacf5f47d8491bf852ad236454b8756ed0"
+    "bytes": 743888,
+    "sha256": "dfaffe3c2412bca5cf2f1221060265672b55f34210985a1d51e8e19cbca70e02"
   },
   {
     "path": "weekly/2026-10-12/pilot/en/index.html",

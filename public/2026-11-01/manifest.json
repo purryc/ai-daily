@@ -1,0 +1,683 @@
+{
+  "date": "2026-11-01",
+  "timezone": "America/Toronto",
+  "cutoff": "2026-11-01T09:04:23Z",
+  "windowStart": "2026-10-31T09:04:23Z",
+  "metrics": {
+    "body": {
+      "zhDenseChars": 22706,
+      "enWords": 12958
+    },
+    "perProduct": {
+      "mo-preview-action-cards": {
+        "zh": 749,
+        "en": 437
+      },
+      "godwit-123-account-rewrites": {
+        "zh": 726,
+        "en": 433
+      },
+      "papilot-070-reviewed-delivery": {
+        "zh": 762,
+        "en": 451
+      },
+      "knucklebop-motion-taps": {
+        "zh": 723,
+        "en": 424
+      },
+      "nemini-032-chat-tools": {
+        "zh": 788,
+        "en": 443
+      },
+      "dotverse-021-reply-recovery": {
+        "zh": 763,
+        "en": 428
+      },
+      "movemate-occasional-use-pricing": {
+        "zh": 792,
+        "en": 458
+      },
+      "apple-intelligence-china-beta-plan": {
+        "zh": 798,
+        "en": 451
+      },
+      "google-home-oct29-target-timer-fixes": {
+        "zh": 866,
+        "en": 464
+      },
+      "nexusdock-shared-device-entry": {
+        "zh": 779,
+        "en": 438
+      },
+      "desk365-teams-reviewed-tickets": {
+        "zh": 752,
+        "en": 445
+      },
+      "oak4-ffc-modular-vision": {
+        "zh": 852,
+        "en": 461
+      },
+      "ludi02-social-corrections": {
+        "zh": 855,
+        "en": 470
+      },
+      "pokebot-roboapi-preview": {
+        "zh": 873,
+        "en": 463
+      },
+      "benewake-sr18-lidar-production": {
+        "zh": 822,
+        "en": 440
+      },
+      "telemetry-prompts-evals-traces": {
+        "zh": 746,
+        "en": 452
+      },
+      "superproductivity-plugin-hints": {
+        "zh": 720,
+        "en": 442
+      },
+      "gufo-0281-draft-gating": {
+        "zh": 765,
+        "en": 454
+      },
+      "koboldcpp-1124-music-transcription": {
+        "zh": 783,
+        "en": 452
+      },
+      "obol-success-cost-harness": {
+        "zh": 802,
+        "en": 470
+      },
+      "factory-droid-script-harness": {
+        "zh": 754,
+        "en": 443
+      },
+      "claude-code-21316-group-budgets": {
+        "zh": 798,
+        "en": 472
+      },
+      "deepseek-superagent-prototype": {
+        "zh": 848,
+        "en": 460
+      },
+      "bedrock-govcloud-openai-runtime": {
+        "zh": 721,
+        "en": 434
+      },
+      "gpt6-rosalind-research-access": {
+        "zh": 750,
+        "en": 439
+      },
+      "schedulegen-multiarm": {
+        "zh": 787,
+        "en": 431
+      },
+      "roboworld-generated-simulations": {
+        "zh": 795,
+        "en": 427
+      },
+      "egocontact-contact-benchmark": {
+        "zh": 759,
+        "en": 435
+      },
+      "askstream-ask-before-answer": {
+        "zh": 778,
+        "en": 441
+      }
+    },
+    "primarySummaries": {
+      "mo-preview-action-cards": {
+        "zh": 202,
+        "en": 116
+      },
+      "godwit-123-account-rewrites": {
+        "zh": 211,
+        "en": 117
+      },
+      "papilot-070-reviewed-delivery": {
+        "zh": 209,
+        "en": 115
+      },
+      "knucklebop-motion-taps": {
+        "zh": 205,
+        "en": 122
+      },
+      "nemini-032-chat-tools": {
+        "zh": 222,
+        "en": 126
+      },
+      "dotverse-021-reply-recovery": {
+        "zh": 204,
+        "en": 116
+      },
+      "movemate-occasional-use-pricing": {
+        "zh": 201,
+        "en": 114
+      },
+      "apple-intelligence-china-beta-plan": {
+        "zh": 204,
+        "en": 121
+      },
+      "google-home-oct29-target-timer-fixes": {
+        "zh": 211,
+        "en": 113
+      },
+      "nexusdock-shared-device-entry": {
+        "zh": 202,
+        "en": 115
+      },
+      "desk365-teams-reviewed-tickets": {
+        "zh": 215,
+        "en": 113
+      },
+      "oak4-ffc-modular-vision": {
+        "zh": 201,
+        "en": 115
+      },
+      "ludi02-social-corrections": {
+        "zh": 212,
+        "en": 118
+      },
+      "pokebot-roboapi-preview": {
+        "zh": 221,
+        "en": 113
+      },
+      "benewake-sr18-lidar-production": {
+        "zh": 202,
+        "en": 118
+      },
+      "telemetry-prompts-evals-traces": {
+        "zh": 203,
+        "en": 114
+      },
+      "superproductivity-plugin-hints": {
+        "zh": 209,
+        "en": 114
+      },
+      "gufo-0281-draft-gating": {
+        "zh": 202,
+        "en": 112
+      },
+      "koboldcpp-1124-music-transcription": {
+        "zh": 207,
+        "en": 119
+      },
+      "obol-success-cost-harness": {
+        "zh": 201,
+        "en": 113
+      },
+      "factory-droid-script-harness": {
+        "zh": 219,
+        "en": 117
+      },
+      "claude-code-21316-group-budgets": {
+        "zh": 218,
+        "en": 117
+      },
+      "deepseek-superagent-prototype": {
+        "zh": 210,
+        "en": 111
+      },
+      "bedrock-govcloud-openai-runtime": {
+        "zh": 210,
+        "en": 117
+      },
+      "gpt6-rosalind-research-access": {
+        "zh": 207,
+        "en": 119
+      },
+      "schedulegen-multiarm": {
+        "zh": 207,
+        "en": 111
+      },
+      "roboworld-generated-simulations": {
+        "zh": 207,
+        "en": 113
+      },
+      "egocontact-contact-benchmark": {
+        "zh": 208,
+        "en": 112
+      },
+      "askstream-ask-before-answer": {
+        "zh": 202,
+        "en": 114
+      }
+    },
+    "counting": "Only unique full-analysis product paragraphs count toward body gates; summaries, captions, coverage and sources excluded.",
+    "products": 29,
+    "references": 144,
+    "coreVisuals": 29,
+    "slidesPerLocale": 32,
+    "primaryProjectPages": 29,
+    "attachedProjectDetails": 29,
+    "primaryBody": {
+      "zhDenseChars": 6032,
+      "enWords": 3355
+    },
+    "completeReadingBody": {
+      "zhDenseChars": 28738,
+      "enWords": 16313
+    }
+  },
+  "revision": {
+    "label": "morning-edition",
+    "originalCutoffRetained": true,
+    "newIssue": true,
+    "baselineCommit": "f666e1ea5b737e63095ebb30f3ad778deaffd878"
+  },
+  "topics": [
+    {
+      "id": "mo-preview-action-cards",
+      "zhHeadline": "Mo先展示文件移动方案，把口述任务变成可批准的卡片",
+      "enHeadline": "Mo turns spoken Mac tasks into preview cards before making changes",
+      "eventAt": "2026-10-29",
+      "freshness": "seven-day",
+      "evidence": "startup signal; original maker documentation and demos, not independent hands-on testing",
+      "eventDateNote": "day; official first release and1.0.1 October29, no clock/timezone; lower72h boundary uncertain; October31PH separate",
+      "event_key": "appsbymo.app:mo:first-release:1.0.0-1.0.1:2026-10-29",
+      "product_key": "appsbymo.app:mo",
+      "publishedAt": "2026-10-29",
+      "observedAt": "2026-11-01T09:21:38.662931+00:00",
+      "delta_since_last_seen": "Natural-language routines can run on schedules, unlock, folder changes or incoming mail, after review before saving."
+    },
+    {
+      "id": "godwit-123-account-rewrites",
+      "zhHeadline": "Godwit让改写跟随发件账户，中文标点也不再拖进链接",
+      "enHeadline": "Godwit keeps rewrites with the sending account and fixes links beside Chinese punctuation",
+      "eventAt": "2026-11-01T07:34:22Z",
+      "freshness": "main",
+      "evidence": "startup signal; original maker documentation and demos, not independent hands-on testing",
+      "eventDateNote": "second; root verified GitHub API published_at 2026-11-01T07:34:22Z",
+      "event_key": "github:godwit-email/godwit:release:v1.23.0",
+      "product_key": "github:godwit-email/godwit",
+      "publishedAt": "2026-11-01T07:34:22Z",
+      "observedAt": "2026-11-01T09:21:38.662931+00:00",
+      "delta_since_last_seen": "The rewrite request wins over conflicting style defaults. Bare links stop at Chinese punctuation, and attachments gain system file-type icons."
+    },
+    {
+      "id": "papilot-070-reviewed-delivery",
+      "zhHeadline": "Papilot让人在PDF上批注，审完改动再选写回原稿或独立分支",
+      "enHeadline": "Papilot lets readers mark up PDFs and choose where reviewed edits go",
+      "eventAt": "2026-10-31T03:11:00Z",
+      "freshness": "near-three-day",
+      "evidence": "Original maintainer release, MIT documentation and maker screenshot; no independent installation",
+      "eventDateNote": "second; original GitHub release HTML relative-time datetime; release precedes main window and gap",
+      "event_key": "github:PapilotAI/papilot:release:v0.7.0",
+      "product_key": "github:PapilotAI/papilot",
+      "publishedAt": "2026-10-31T03:11:00Z",
+      "observedAt": "2026-11-01T09:20:27.734470Z",
+      "delta_since_last_seen": "Version 0.7 groups notes by color. Accepted edits in new tasks remain isolated until review finishes, then go to the working directory or a separate branch."
+    },
+    {
+      "id": "knucklebop-motion-taps",
+      "zhHeadline": "Knucklebop用MacBook运动传感器识别敲击，按当前应用执行快捷动作",
+      "enHeadline": "Knucklebop turns MacBook motion-sensor taps into app-specific actions",
+      "eventAt": "2026-10-27",
+      "freshness": "seven-day",
+      "evidence": "startup signal; original maker documentation and demos, not independent hands-on testing",
+      "eventDateNote": "day; official1.0.0 first releaseOctober27; October31PH appearance is separate discovery",
+      "event_key": "knucklebop.com:first-release:1.0.0:2026-10-27",
+      "product_key": "knucklebop.com",
+      "publishedAt": "2026-10-27",
+      "observedAt": "2026-11-01T09:21:38.662931+00:00",
+      "delta_since_last_seen": "It uses acceleration and rotation signals rather than microphone audio. Test mode shows the action that would run without executing it."
+    },
+    {
+      "id": "nemini-032-chat-tools",
+      "zhHeadline": "Nemini把小应用和待检查清单放进聊天，测验先藏住答案",
+      "enHeadline": "Nemini brings persistent mini-apps and reviewable tasks into companion chat",
+      "eventAt": "2026-10-31",
+      "freshness": "near-three-day",
+      "evidence": "startup signal; original maker documentation and demos, not independent hands-on testing",
+      "eventDateNote": "day; official changelogOctober31 without publication clock/timezone; lower main-window boundary unresolved",
+      "event_key": "nemini.ai:release:v0.3.2",
+      "product_key": "nemini.ai",
+      "publishedAt": "2026-10-31",
+      "observedAt": "2026-11-01T09:21:38.662931+00:00",
+      "delta_since_last_seen": "Completed shared tasks return for review. Habits, spending and mood can become charts, and memory-based quizzes hide answers until the user responds."
+    },
+    {
+      "id": "dotverse-021-reply-recovery",
+      "zhHeadline": "Dotverse修复角色间回复归属，让恢复消息保留人工分配",
+      "enHeadline": "Dotverse keeps recovered replies with the intended persona",
+      "eventAt": "2026-10-29",
+      "freshness": "seven-day",
+      "evidence": "Original maker release notes, product page, privacy notice and maker discussion; no independent hands-on testing",
+      "eventDateNote": "day; official release page dated October 29; no clock or timezone",
+      "event_key": "dotverse.app:release:0.2.1",
+      "product_key": "dotverse.app",
+      "publishedAt": "2026-10-29",
+      "observedAt": "2026-11-01T09:28:27.678408+00:00",
+      "delta_since_last_seen": "Manual assignments survive, moved replies keep their original position, and stale thinking or pending indicators are cleared."
+    },
+    {
+      "id": "movemate-occasional-use-pricing",
+      "zhHeadline": "MoveMate为低频搬家任务调整付费，AI清单仍需人工核对",
+      "enHeadline": "MoveMate changes pricing for occasional moves while AI checklists still need review",
+      "eventAt": "2026-10-31",
+      "freshness": "near-three-day",
+      "evidence": "Maker pricing announcement and public product documentation; one independent reply read, no adoption claim",
+      "eventDateNote": "day; exact launch clock/timezone unresolved",
+      "event_key": "appstore:6774324802:movemate-occasional-use-pricing:2026-10-31",
+      "product_key": "appstore:6774324802",
+      "publishedAt": "2026-10-30T12:58:40Z",
+      "observedAt": "2026-11-01T09:18:01.670125Z",
+      "delta_since_last_seen": "The maker announced lower Premium pricing from October 31 after questioning subscriptions for a task people perform only occasionally."
+    },
+    {
+      "id": "apple-intelligence-china-beta-plan",
+      "zhHeadline": "国行Apple智能公布测试日期，千问接入仍由用户选择",
+      "enHeadline": "Apple sets a China beta date with optional Qwen access",
+      "eventAt": "2026-10-31",
+      "freshness": "near-three-day",
+      "evidence": "Original vendor announcement and documentation; no independent hands-on test",
+      "eventDateNote": "day; announcement clock/timezone unestablished; conservative supplement because main lower boundary unresolved",
+      "event_key": "apple:intelligence:china:announcement:2026-10-31",
+      "product_key": "apple:intelligence:china",
+      "publishedAt": "2026-10-31",
+      "observedAt": "2026-11-01T09:15:52.958616Z",
+      "delta_since_last_seen": "The October 31 announcement schedules developer testing for November 4 and a December iOS 27.3 rollout; availability remains planned."
+    },
+    {
+      "id": "google-home-oct29-target-timer-fixes",
+      "zhHeadline": "Google Home修正错房间音量与静音计时器，把设备用电读数放回控制页",
+      "enHeadline": "Google Home fixes wrong-room volume and silent timers, and adds device energy readings",
+      "eventAt": "2026-10-29",
+      "freshness": "seven-day",
+      "evidence": "Original vendor announcement and technical documentation; vendor demonstrations and claims, not independent product testing",
+      "eventDateNote": "day; source clock/timezone not supplied",
+      "event_key": "google:home:google-home-oct29-target-timer-fixes:2026-10-29",
+      "product_key": "google:home",
+      "publishedAt": "2026-10-29",
+      "observedAt": "2026-11-01T09:26:06Z",
+      "delta_since_last_seen": "A specific zero-volume alarm and timer bug now recovers to device volume. Media sleep timers are distinguished more reliably from ordinary timers."
+    },
+    {
+      "id": "nexusdock-shared-device-entry",
+      "zhHeadline": "NexusDock把多台设备接到一个MCP入口，记忆共享不等于任务自动迁移",
+      "enHeadline": "NexusDock shares one device entry point, while task state stays local",
+      "eventAt": "2026-10-31",
+      "freshness": "near-three-day",
+      "evidence": "Original maker post, Apache-2.0 device-runtime documentation and maker screenshot; not independent device operation",
+      "eventDateNote": "day; original maker post markedOct31; latest-reply timestamp2026-10-31T16:06:03+08:00 proves thread existed by08:06:03Z, not original publication time; no exact main/gap assignment",
+      "event_key": "nexusdock.co:community-appearance:v2ex1253390",
+      "product_key": "nexusdock.co",
+      "publishedAt": "2026-10-31",
+      "observedAt": "2026-11-01T09:20:27.734470Z",
+      "delta_since_last_seen": "The maker’s October 31 community post highlights shared devices, memory and workflows. It is a discovery of an existing product."
+    },
+    {
+      "id": "desk365-teams-reviewed-tickets",
+      "zhHeadline": "Desk365把Teams提问接到可修改工单，提交前由员工确认",
+      "enHeadline": "Desk365 turns Teams questions into tickets people can review",
+      "eventAt": "2026-10-31",
+      "freshness": "near-three-day",
+      "evidence": "Original maker announcement and technical documentation; vendor claims, no independent hands-on test",
+      "eventDateNote": "day; exact public release clock and timezone unestablished; conservative supplement classification",
+      "event_key": "desk365:teams-ai-agent:desk365-teams-reviewed-tickets:2026-10-31",
+      "product_key": "desk365:teams-ai-agent",
+      "publishedAt": "2026-10-31",
+      "observedAt": "2026-11-01T09:29:24.208699+00:00",
+      "delta_since_last_seen": "The October 31 release adds Teams deployment and channel-specific forms, with replies, status, approvals and satisfaction surveys staying in the conversation."
+    },
+    {
+      "id": "oak4-ffc-modular-vision",
+      "zhHeadline": "OAK 4 FFC让机器人自己安排五个视角，深度计算留在板上",
+      "enHeadline": "OAK 4 FFC lets robot builders position five cameras and process depth on board",
+      "eventAt": "2026-10-27",
+      "freshness": "seven-day",
+      "evidence": "Original vendor announcement and technical documentation; vendor demonstrations and claims, not independent product testing",
+      "eventDateNote": "day; displayed forum clock lacks timezone",
+      "event_key": "luxonis:oak4-ffc:oak4-ffc-modular-vision:2026-10-27",
+      "product_key": "luxonis:oak4-ffc",
+      "publishedAt": "2026-10-27",
+      "observedAt": "2026-11-01T09:26:06Z",
+      "delta_since_last_seen": "Onboard models and vision pipelines can send detections to a host. Cameras share capacity, so resolution and frame rate require a combined budget."
+    },
+    {
+      "id": "ludi02-social-corrections",
+      "zhHeadline": "Ludi 0.2改进手势与中途纠正，机器人动作仍依赖专门工具",
+      "enHeadline": "Ludi 0.2 targets gestures and mid-task corrections while specialized tools handle motion",
+      "eventAt": "2026-10-30",
+      "freshness": "near-three-day",
+      "evidence": "Original vendor announcement and technical documentation; vendor demonstrations and claims, not independent product testing",
+      "eventDateNote": "event day; release timestamp minute precision (14:00 ET = 18:00 UTC)",
+      "event_key": "ludo:ludi:ludi02-social-corrections:2026-10-30",
+      "product_key": "ludo:ludi",
+      "publishedAt": "2026-10-30T18:00:00Z",
+      "observedAt": "2026-11-01T09:26:06Z",
+      "delta_since_last_seen": "The update claims better gestures, memory, social cues and tool coordination, without new success-rate or latency results."
+    },
+    {
+      "id": "pokebot-roboapi-preview",
+      "zhHeadline": "RoboAPI把腕部画面变成动作序列，机械臂接入仍要校准和验证",
+      "enHeadline": "RoboAPI turns wrist-camera observations into actions, with calibration and control still required",
+      "eventAt": "2026-10-30",
+      "freshness": "near-three-day",
+      "evidence": "Original vendor announcement and technical documentation; vendor demonstrations and claims, not independent product testing",
+      "eventDateNote": "registration day (Beijing); announcement minute precision",
+      "event_key": "pokebot:roboapi:pokebot-roboapi-preview:2026-10-30",
+      "product_key": "pokebot:roboapi",
+      "publishedAt": "2026-10-29T20:39:00Z",
+      "observedAt": "2026-11-01T09:26:06Z",
+      "delta_since_last_seen": "The reference setup uses fisheye action cameras and end-effector pose control. Transfer across different arms remains a claim for external evaluation."
+    },
+    {
+      "id": "benewake-sr18-lidar-production",
+      "zhHeadline": "SR18把向下测距装进小型机器人，十一月底才开始供货",
+      "enHeadline": "SR18 brings downward ranging to small robots, with supply planned for late November",
+      "eventAt": "2026-10-30",
+      "freshness": "near-three-day",
+      "evidence": "Original vendor announcement and technical documentation; vendor demonstrations and claims, not independent product testing",
+      "eventDateNote": "event day; release timestamp exact GMT",
+      "event_key": "benewake:sr18:benewake-sr18-lidar-production:2026-10-30",
+      "product_key": "benewake:sr18",
+      "publishedAt": "2026-10-30T04:00:00Z",
+      "observedAt": "2026-11-01T09:26:06Z",
+      "delta_since_last_seen": "Each emitter has a dedicated detector to reduce interference between channels in reflective scenes, according to Benewake. It does not plan the robot’s route."
+    },
+    {
+      "id": "telemetry-prompts-evals-traces",
+      "zhHeadline": "telemetry.dev把提示版本与评测接回同一条代理轨迹",
+      "enHeadline": "telemetry.dev ties prompt versions and evaluations to agent traces",
+      "eventAt": "2026-10-31",
+      "freshness": "near-three-day",
+      "evidence": "Original maker announcement and technical documentation; vendor claims, no independent hands-on test",
+      "eventDateNote": "day; exact public release clock and timezone unestablished; conservative supplement classification",
+      "event_key": "telemetry.dev:telemetry-prompts-evals-traces:2026-10-31",
+      "product_key": "telemetry.dev",
+      "publishedAt": "2026-10-31",
+      "observedAt": "2026-11-01T09:19:42.345346+00:00",
+      "delta_since_last_seen": "This launch adds prompt management, evaluations, alerts, a CLI and read-only MCP access. Prompt versions can roll out gradually without deploying the app."
+    },
+    {
+      "id": "superproductivity-plugin-hints",
+      "zhHeadline": "Super Productivity为AI编写的插件指出真实接口",
+      "enHeadline": "Super Productivity points AI-written plugins toward real APIs",
+      "eventAt": "2026-10-31T19:19:52Z",
+      "freshness": "main",
+      "evidence": "Original maintainer evidence; not independently tested",
+      "eventDateNote": "second UTC",
+      "event_key": "github:super-productivity/super-productivity:superproductivity-plugin-hints:2026-10-31T19:19:52Z",
+      "product_key": "github:super-productivity/super-productivity",
+      "publishedAt": "2026-10-31T19:19:52Z",
+      "observedAt": "2026-11-01T09:18:01.670125Z",
+      "delta_since_last_seen": "Hints cover host plugins and embedded pages, distinguish host-only methods, and accompany corrected action-event types and examples."
+    },
+    {
+      "id": "gufo-0281-draft-gating",
+      "zhHeadline": "Gufo缩短低把握的预测链，并修正分段读入的一致性",
+      "enHeadline": "Gufo stops uncertain draft chains and repairs split-prompt consistency",
+      "eventAt": "2026-10-31T13:44:28Z",
+      "freshness": "main",
+      "evidence": "Original maintainer evidence; not independently tested",
+      "eventDateNote": "second UTC",
+      "event_key": "github:gufo-org/gufo:gufo-0281-draft-gating:2026-10-31T13:44:28Z",
+      "product_key": "github:gufo-org/gufo",
+      "publishedAt": "2026-10-31T13:44:28Z",
+      "observedAt": "2026-11-01T09:18:01.670125Z",
+      "delta_since_last_seen": "A second fix aligns relevant accumulation order when prompts arrive as one wide pass or short tails after cache restoration."
+    },
+    {
+      "id": "koboldcpp-1124-music-transcription",
+      "zhHeadline": "KoboldCpp把音乐、声音参考转写和更多语音模型放进本地界面",
+      "enHeadline": "KoboldCpp brings music, reference transcription and more voices into its local UI",
+      "eventAt": "2026-10-31",
+      "freshness": "near-three-day",
+      "evidence": "Original maintainer evidence; not independently tested",
+      "eventDateNote": "day; exact launch clock/timezone unresolved",
+      "event_key": "github:LostRuins/koboldcpp:koboldcpp-1124-music-transcription:2026-10-31",
+      "product_key": "github:LostRuins/koboldcpp",
+      "publishedAt": "2026-10-31",
+      "observedAt": "2026-11-01T09:18:01.670125Z",
+      "delta_since_last_seen": "A Whisper transcription tab helps prepare reference text for speech models. Voice cloning and instruction support still vary by model."
+    },
+    {
+      "id": "obol-success-cost-harness",
+      "zhHeadline": "Obol把代理费用按答对任务计算，暴露静默失败的升级盲点",
+      "enHeadline": "Obol measures cost per successful task and exposes silent escalation failures",
+      "eventAt": "2026-10-30T12:59:57Z",
+      "freshness": "near-three-day",
+      "evidence": "Maker experiment, two small local models and hypothetical prices; not an independent benchmark",
+      "eventDateNote": "second UTC",
+      "event_key": "github:Aparajith24/obol:obol-success-cost-harness:2026-10-30T12:59:57Z",
+      "product_key": "github:Aparajith24/obol",
+      "publishedAt": "2026-10-30T12:59:57Z",
+      "observedAt": "2026-11-01T09:20:04.652622Z",
+      "delta_since_last_seen": "The maker’s community post highlights plans that run without errors yet return wrong answers, and trace checks that failed to transfer between worlds."
+    },
+    {
+      "id": "factory-droid-script-harness",
+      "zhHeadline": "Droid把多次工具调用写成程序，只把需要的结果交回模型",
+      "enHeadline": "Droid turns tool workflows into programs and returns selected results",
+      "eventAt": "2026-10-29",
+      "freshness": "seven-day",
+      "evidence": "Original maker announcement and technical documentation; vendor claims, no independent hands-on test",
+      "eventDateNote": "day; exact public release clock and timezone unestablished; conservative supplement classification",
+      "event_key": "factory:droid:factory-droid-script-harness:2026-10-29",
+      "product_key": "factory:droid",
+      "publishedAt": "2026-10-29",
+      "observedAt": "2026-11-01T09:19:42.345346+00:00",
+      "delta_since_last_seen": "The October 29 release makes programmatic calling the default for listed models and runs independent calls concurrently within the workflow."
+    },
+    {
+      "id": "claude-code-21316-group-budgets",
+      "zhHeadline": "Claude Code为团队加共享月预算，子代理可单设推理力度",
+      "enHeadline": "Claude Code adds pooled team budgets and a subagent effort default",
+      "eventAt": "2026-10-31T01:01:35Z",
+      "freshness": "near-three-day",
+      "evidence": "Original maker announcement and technical documentation; vendor claims, no independent hands-on test",
+      "eventDateNote": "second; GitHub published_at verified by root API read, created_at 2026-10-31T01:01:10Z",
+      "event_key": "github:anthropics/claude-code:release:v2.1.316",
+      "product_key": "anthropic:claude-code",
+      "publishedAt": "2026-10-31T01:01:35Z",
+      "observedAt": "2026-11-01T09:24:54.482648+00:00",
+      "delta_since_last_seen": "The release adds pooled_budget, a default effort override for subagents and an option to merge all matching managed policies."
+    },
+    {
+      "id": "deepseek-superagent-prototype",
+      "zhHeadline": "DeepSeek把仓库事件分派为独立任务，补充消息不会自动扩大权限",
+      "enHeadline": "DeepSeek routes repository events into scoped, independent tasks",
+      "eventAt": "2026-10-31",
+      "freshness": "near-three-day",
+      "evidence": "Original MIT-licensed implementation documentation; research prototype, not official supported product or independently tested deployment",
+      "eventDateNote": "day; initial commit authored/committed2026-10-31T20:05:39+08:00 (12:05:39Z), not asserted as exact public availability; Oct31 contemporary publication corroboration; day-only public release conservative supplement",
+      "event_key": "github:deepseek-ai/dsh-superagent-prototype:initial-publication:2026-10-31",
+      "product_key": "github:deepseek-ai/dsh-superagent-prototype",
+      "publishedAt": "2026-10-31",
+      "observedAt": "2026-11-01T09:15:52.958616Z",
+      "delta_since_last_seen": "The October 31 prototype separates triggers, decisions, tickets and execution records so concurrent requests need not share one conversation context."
+    },
+    {
+      "id": "bedrock-govcloud-openai-runtime",
+      "zhHeadline": "Bedrock宣布GovCloud扩展OpenAI接口，把路由与日志接回现有控制",
+      "enHeadline": "Bedrock announces GovCloud OpenAI APIs with routing and logging controls",
+      "eventAt": "2026-10-30",
+      "freshness": "near-three-day",
+      "evidence": "Original maker announcement and technical documentation; vendor claims, no independent hands-on test",
+      "eventDateNote": "day; exact public release clock and timezone unestablished; conservative supplement classification",
+      "event_key": "aws:bedrock:openai-runtime-govcloud:bedrock-govcloud-openai-runtime:2026-10-30",
+      "product_key": "aws:bedrock:openai-runtime-govcloud",
+      "publishedAt": "2026-10-30",
+      "observedAt": "2026-11-01T09:30:52.115565+00:00",
+      "delta_since_last_seen": "The October 30 increment concerns APIs, regional routing and account-level records; these models launched in July and are not new weights."
+    },
+    {
+      "id": "gpt6-rosalind-research-access",
+      "zhHeadline": "GPT-6 Rosalind把Astra接入获批生命科学工作，研究权限单独审核",
+      "enHeadline": "GPT-6 Rosalind brings Astra to approved life-sciences workflows",
+      "eventAt": "2026-10-30",
+      "freshness": "near-three-day",
+      "evidence": "Original maker announcement and technical documentation; vendor claims, no independent hands-on test",
+      "eventDateNote": "day; exact public release clock and timezone unestablished; conservative supplement classification",
+      "event_key": "openai:rosalind:gpt6-rosalind-research-access:2026-10-30",
+      "product_key": "openai:rosalind",
+      "publishedAt": "2026-10-30",
+      "observedAt": "2026-11-01T09:19:42.345346+00:00",
+      "delta_since_last_seen": "The October 30 release uses the same weights as GPT-6 Astra, with no additional training or post-training for this configuration."
+    },
+    {
+      "id": "schedulegen-multiarm",
+      "zhHeadline": "ScheduleGen让多臂示范先避让再并行，少量动作扩成训练数据",
+      "enHeadline": "ScheduleGen schedules multi-arm demonstrations around collisions",
+      "eventAt": "2026-10-30",
+      "freshness": "near-three-day",
+      "evidence": "research signal; primary author experiments, not independent replication or commercial availability",
+      "eventDateNote": "day; October30 arXiv recent-list group establishes public listing date; exact announcement clock unverified. publishedAt is v1 submission time, not announcement.",
+      "event_key": "arxiv:2610.39429:v1:listed-2026-10-30",
+      "product_key": "arxiv:2610.39429",
+      "publishedAt": "2026-10-29T06:07:04Z",
+      "observedAt": "2026-11-01T09:15:48.820872+00:00",
+      "delta_since_last_seen": "Joint scheduling checks collisions involving arms and held objects, retaining successful replays. Policies averaged 65.5% success across 28 simulated variants. Generated demonstrations and learned-policy success are measured separately, with human annotation still required."
+    },
+    {
+      "id": "roboworld-generated-simulations",
+      "zhHeadline": "RoboWorld让代理在仿真里焊接、倒液体，二十五项测试均未完成",
+      "enHeadline": "RoboWorld tests agents on generated simulations of physical work",
+      "eventAt": "2026-10-30",
+      "freshness": "near-three-day",
+      "evidence": "research signal; primary author experiments, not independent replication or commercial availability",
+      "eventDateNote": "day; October30 arXiv recent-list group establishes public listing date; exact announcement clock unverified. publishedAt is v1 submission time, not announcement.",
+      "event_key": "arxiv:2610.40565:v1:listed-2026-10-30",
+      "product_key": "arxiv:2610.40565",
+      "publishedAt": "2026-10-29T17:42:32Z",
+      "observedAt": "2026-11-01T09:15:48.820872+00:00",
+      "delta_since_last_seen": "With instructions, camera views and robot feedback, three evaluated models completed none of twenty-five test tasks under three-hour attempts."
+    },
+    {
+      "id": "egocontact-contact-benchmark",
+      "zhHeadline": "EgoContact问模型该碰物体哪里，真人接触点帮助机器人挑抓取",
+      "enHeadline": "EgoContact tests where to touch an object before grasping",
+      "eventAt": "2026-10-30",
+      "freshness": "near-three-day",
+      "evidence": "research signal; primary author experiments, not independent replication or commercial availability",
+      "eventDateNote": "day; October30 arXiv recent-list group establishes public listing date; exact announcement clock unverified. publishedAt is v1 submission time, not announcement.",
+      "event_key": "arxiv:2610.39167:v1:listed-2026-10-30",
+      "product_key": "arxiv:2610.39167",
+      "publishedAt": "2026-10-29T01:57:52Z",
+      "observedAt": "2026-11-01T09:17:22.845855+00:00",
+      "delta_since_last_seen": "Around 22,500 manually verified events separate finding the target object from placing a precise contact on it."
+    },
+    {
+      "id": "askstream-ask-before-answer",
+      "zhHeadline": "AskStream测试视频助手何时该追问，不能一直等或直接猜",
+      "enHeadline": "AskStream tests when a video assistant should ask for missing information",
+      "eventAt": "2026-10-30",
+      "freshness": "near-three-day",
+      "evidence": "research signal; primary author experiments, not independent replication or commercial availability",
+      "eventDateNote": "day; October30 arXiv recent-list group establishes public listing date; exact announcement clock unverified. publishedAt is v1 submission time, not announcement.",
+      "event_key": "arxiv:2610.38678:v1:listed-2026-10-30",
+      "product_key": "arxiv:2610.38678",
+      "publishedAt": "2026-10-28T18:54:27Z",
+      "observedAt": "2026-11-01T09:20:08.222752+00:00",
+      "delta_since_last_seen": "The benchmark contains 438 videos and 1,401 questions. Ask-F1 combines content and timing for both asking and answering, penalizing premature questions."
+    }
+  ],
+  "eventCounts": {
+    "mainWindowEvents": 3,
+    "nearThreeDayReviews": 20,
+    "sevenDayReviews": 6,
+    "interpretation": "Announcements, submissions, updates and regional reports; not first product launches."
+  }
+}

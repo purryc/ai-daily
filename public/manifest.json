@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-11-01",
+    "zhTitle": "AI Daily｜2026年11月1日 · 邮件改写、论文审阅与机器人交互",
+    "enTitle": "AI Daily | November 1, 2026 · Mail rewrites, paper review and robot interaction",
+    "zhSummary": "Godwit、Papilot、Mo与新研究：从输入、确认到实际结果，保留能检查的操作步骤。",
+    "enSummary": "Godwit, Papilot, Mo and new research: inspect the steps between a request, confirmation and its result.",
+    "tags": [
+      "consumer AI",
+      "creative tools",
+      "physical interaction",
+      "research"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "research"
+    ],
+    "coverStory": {
+      "topicId": "mo-preview-action-cards",
+      "zhTitle": "Mo",
+      "enTitle": "Mo",
+      "imagePath": "assets/mo.jpg",
+      "imageSourceUrl": "https://appsbymo.app/assets/screenshots/mo/02-asks-first.webp",
+      "primarySourceUrl": "https://appsbymo.app/mo/",
+      "evidenceStrength": "startup signal; original maker documentation and demos, not independent hands-on testing"
+    },
+    "zhPath": "./2026-11-01/zh/",
+    "enPath": "./2026-11-01/en/",
+    "sourcesPath": "./2026-11-01/sources.html"
+  },
+  {
     "date": "2026-10-31",
     "zhTitle": "AI Daily｜2026年10月31日 · 手机代理、游戏对话与可编辑设计",
     "enTitle": "AI Daily | October 31, 2026 · Phone agents, game dialogue and editable design",
