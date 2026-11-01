@@ -1,72 +1,104 @@
 [
   {
     "kind": "image",
-    "name": "mo.jpg",
-    "url": "https://appsbymo.app/assets/screenshots/mo/02-asks-first.webp",
+    "name": "egocontact.jpg",
+    "url": "https://egocontact.github.io/images/egocontact-teaser.webp",
     "renderImage": true,
-    "locale": "zh"
+    "locale": "zh",
+    "captureDelayMs": 0
   },
   {
     "kind": "image",
-    "name": "lumafold.jpg",
-    "url": "https://ph-files.imgix.net/a8f88e83-f408-4d2c-8a10-2779ed5f51b1.jpeg",
+    "name": "swapbot.jpg",
+    "url": "https://personalrobotics.cs.washington.edu/SwapBot/assets/media/swapbot/figs/fig2_setup.jpg",
     "renderImage": true,
-    "locale": "en"
+    "locale": "en",
+    "captureDelayMs": 0
   },
   {
     "kind": "image",
-    "name": "secret-key.jpg",
-    "url": "https://ph-files.imgix.net/d6cd6592-d80a-453b-a829-f182e810cc4b.png",
+    "name": "inkitiate.jpg",
+    "url": "https://arxiv.org/html/2610.39905v1/figures/00-teaser.jpg",
     "renderImage": true,
-    "locale": "zh"
+    "locale": "zh",
+    "captureDelayMs": 0
   },
   {
     "kind": "image",
-    "name": "knucklebop.jpg",
-    "url": "https://ph-files.imgix.net/3e1757df-6aa4-4f19-88e9-ba3c037b51be.png",
+    "name": "schedulegen.jpg",
+    "url": "https://arxiv.org/html/2610.39429v1/intro_figure.png",
     "renderImage": true,
-    "locale": "en"
+    "locale": "en",
+    "captureDelayMs": 0
   },
   {
     "kind": "image",
-    "name": "basetab.jpg",
-    "url": "https://ph-files.imgix.net/3c435dd8-7138-4282-9cff-ecc38d90808d.jpeg",
+    "name": "gym-anything.jpg",
+    "url": "https://arxiv.org/html/2610.40565v1/figures/teaser_sewing.jpg",
     "renderImage": true,
-    "locale": "zh"
+    "locale": "zh",
+    "captureDelayMs": 0
   },
   {
     "kind": "image",
-    "name": "hemmed.jpg",
-    "url": "https://ph-files.imgix.net/f4a9731f-053d-4bae-92ea-67b6d66307e3.png",
+    "name": "ludi.jpg",
+    "url": "https://arxiv.org/html/2608.22035v1/storyboard-white.png",
     "renderImage": true,
-    "locale": "en"
+    "locale": "en",
+    "captureDelayMs": 0
   },
   {
     "kind": "image",
-    "name": "godwit.jpg",
-    "url": "https://ph-files.imgix.net/4750d61a-b1f7-47a0-bd61-1b20b6217006.png",
+    "name": "ski.jpg",
+    "url": "https://ph-files.imgix.net/9cbc7a28-bd42-4a93-bb1c-32cbecaf5167.png",
     "renderImage": true,
-    "locale": "zh"
+    "locale": "zh",
+    "captureDelayMs": 0
   },
   {
     "kind": "image",
-    "name": "apple-cn.jpg",
-    "url": "https://www.apple.com.cn/newsroom/images/2026/10/apple-intelligence-features-are-coming-to-users-in-china/article/Apple-Intelligence-Live-Translation-Messages-CN_inline.jpg.large.jpg",
+    "name": "telemetry.jpg",
+    "url": "https://ph-files.imgix.net/c5926b7d-23ef-4243-b157-fcd1d9e35494.png",
     "renderImage": true,
-    "locale": "en"
+    "locale": "en",
+    "captureDelayMs": 0
   },
   {
     "kind": "image",
-    "name": "luxonis-ffc.jpg",
-    "url": "https://www.luxonis.com/assets/oak4-ffc/oak-4-ffc-devkit-black-front-angle.webp",
+    "name": "backenly.jpg",
+    "url": "https://ph-files.imgix.net/d8c5e11a-e42c-4763-b423-9f62bcc5d2e0.png",
     "renderImage": true,
-    "locale": "zh"
+    "locale": "zh",
+    "captureDelayMs": 0
   },
   {
     "kind": "image",
-    "name": "specsight.jpg",
-    "url": "https://specsight.app/images/landing/hero-dashboard.png",
+    "name": "pokebot.jpg",
+    "url": "https://pokebot.com/_next/image?q=75&url=%2Fimages%2Fai%2Froboapi-launch-film-poster-en.webp&w=3840",
     "renderImage": true,
+    "locale": "en",
+    "captureDelayMs": 0
+  },
+  {
+    "kind": "image",
+    "name": "kobold.jpg",
+    "url": "https://raw.githubusercontent.com/LostRuins/koboldcpp/concedo/media/preview3.png",
+    "renderImage": true,
+    "locale": "zh",
+    "captureDelayMs": 0
+  },
+  {
+    "kind": "image",
+    "name": "superproductivity.jpg",
+    "url": "https://raw.githubusercontent.com/super-productivity/super-productivity/master/docs/screens/reel.gif",
+    "renderImage": true,
+    "locale": "en",
+    "captureDelayMs": 2000
+  },
+  {
+    "kind": "inventory",
+    "name": "movemate-inventory.json",
+    "url": "https://apps.apple.com/us/app/movemate-ai-moving-planner/id6774324802",
     "locale": "en"
   }
 ]
