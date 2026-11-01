@@ -1,0 +1,1075 @@
+[
+  {
+    "url": "https://appsbymo.app/mo/",
+    "title": "Mo features and version history",
+    "publisher": "Apps by Mo",
+    "publishedAt": "2026-10-29",
+    "observedAt": "2026-11-01T09:21:38.662931+00:00",
+    "number": 1
+  },
+  {
+    "url": "https://appsbymo.app/mo/privacy/",
+    "title": "Mo privacy policy",
+    "publisher": "Apps by Mo",
+    "publishedAt": "2026-10-28",
+    "observedAt": "2026-11-01T09:21:38.662931+00:00",
+    "number": 2
+  },
+  {
+    "url": "https://www.producthunt.com/products/mo-5",
+    "title": "Mo maker launch",
+    "publisher": "Product Hunt",
+    "publishedAt": "2026-10-31",
+    "observedAt": "2026-11-01T09:21:38.662931+00:00",
+    "number": 3
+  },
+  {
+    "url": "https://www.producthunt.com/leaderboard/daily/2026/10/31",
+    "title": "October31 featured launches",
+    "publisher": "Product Hunt",
+    "publishedAt": "2026-10-31",
+    "observedAt": "2026-11-01T09:21:38.662931+00:00",
+    "number": 4
+  },
+  {
+    "url": "https://godwit.email/",
+    "title": "Godwit product and data flow",
+    "publisher": "Godwit",
+    "observedAt": "2026-11-01T09:21:38.662931+00:00",
+    "number": 5
+  },
+  {
+    "url": "https://github.com/godwit-email/godwit/releases/tag/v1.23.0",
+    "title": "Godwit v1.23.0",
+    "publisher": "Godwit maintainers",
+    "publishedAt": "2026-11-01T07:34:22Z",
+    "observedAt": "2026-11-01T09:21:38.662931+00:00",
+    "number": 6
+  },
+  {
+    "url": "https://github.com/godwit-email/godwit/pull/400",
+    "title": "Rewrite sender context fix",
+    "publisher": "Godwit maintainers",
+    "publishedAt": "2026-11-01",
+    "observedAt": "2026-11-01T09:21:38.662931+00:00",
+    "number": 7
+  },
+  {
+    "url": "https://github.com/godwit-email/godwit/pull/403",
+    "title": "Bare link punctuation fix",
+    "publisher": "Godwit maintainers",
+    "publishedAt": "2026-11-01",
+    "observedAt": "2026-11-01T09:21:38.662931+00:00",
+    "number": 8
+  },
+  {
+    "url": "https://github.com/godwit-email/godwit/pull/405",
+    "title": "Attachment system icons",
+    "publisher": "Godwit maintainers",
+    "publishedAt": "2026-11-01",
+    "observedAt": "2026-11-01T09:21:38.662931+00:00",
+    "number": 9
+  },
+  {
+    "url": "https://godwit.email/en/privacy/",
+    "title": "Godwit privacy",
+    "publisher": "Godwit",
+    "observedAt": "2026-11-01T09:21:38.662931+00:00",
+    "number": 10
+  },
+  {
+    "url": "https://github.com/PapilotAI/papilot/releases/tag/v0.7.0",
+    "title": "Papilot0.7.0 release",
+    "publisher": "Cui Chen / PapilotAI",
+    "publishedAt": "2026-10-31T03:11:00Z",
+    "observedAt": "2026-11-01T09:20:27.734470Z",
+    "number": 11
+  },
+  {
+    "url": "https://github.com/PapilotAI/papilot/blob/v0.7.0/README.zh-CN.md",
+    "title": "Papilot0.7.0 Chinese README",
+    "publisher": "Cui Chen / PapilotAI",
+    "observedAt": "2026-11-01T09:20:27.734470Z",
+    "number": 12
+  },
+  {
+    "url": "https://github.com/PapilotAI/papilot/blob/v0.7.0/docs/guide.md",
+    "title": "Papilot0.7.0 guide",
+    "publisher": "Cui Chen / PapilotAI",
+    "observedAt": "2026-11-01T09:20:27.734470Z",
+    "number": 13
+  },
+  {
+    "url": "https://github.com/PapilotAI/papilot/blob/main/LICENSE",
+    "title": "MIT License",
+    "publisher": "Cui Chen",
+    "observedAt": "2026-11-01T09:20:27.734470Z",
+    "number": 14
+  },
+  {
+    "url": "https://www.v2ex.com/t/1253422",
+    "title": "作者分享：在PDF上批注并审阅AI修改",
+    "publisher": "cuichen / V2EX",
+    "publishedAt": "2026-10-31",
+    "observedAt": "2026-11-01T09:20:27.734470Z",
+    "number": 15
+  },
+  {
+    "url": "https://knucklebop.com/",
+    "title": "Knucklebop interaction and FAQ",
+    "publisher": "Aayush Kedawat",
+    "observedAt": "2026-11-01T09:21:38.662931+00:00",
+    "number": 16
+  },
+  {
+    "url": "https://knucklebop.com/privacy",
+    "title": "Knucklebop privacy",
+    "publisher": "Aayush Kedawat",
+    "publishedAt": "2026-10-27",
+    "observedAt": "2026-11-01T09:21:38.662931+00:00",
+    "number": 17
+  },
+  {
+    "url": "https://knucklebop.com/changelog",
+    "title": "Knucklebop1.0.0 changelog",
+    "publisher": "Aayush Kedawat",
+    "publishedAt": "2026-10-27",
+    "observedAt": "2026-11-01T09:21:38.662931+00:00",
+    "number": 18
+  },
+  {
+    "url": "https://www.producthunt.com/products/knucklebop",
+    "title": "Knucklebop launch",
+    "publisher": "Product Hunt",
+    "publishedAt": "2026-10-31",
+    "observedAt": "2026-11-01T09:21:38.662931+00:00",
+    "number": 19
+  },
+  {
+    "url": "https://nemini.ai/l/en-US/",
+    "title": "Nemini service and availability",
+    "publisher": "Pixilab",
+    "observedAt": "2026-11-01T09:21:38.662931+00:00",
+    "number": 20
+  },
+  {
+    "url": "https://nemini.ai/l/en-US/changelog",
+    "title": "Nemini0.3.2 and0.3.1 changelog",
+    "publisher": "Pixilab",
+    "publishedAt": "2026-10-31",
+    "observedAt": "2026-11-01T09:21:38.662931+00:00",
+    "number": 21
+  },
+  {
+    "url": "https://nemini.ai/l/en-US/features",
+    "title": "Nemini features",
+    "publisher": "Pixilab",
+    "observedAt": "2026-11-01T09:21:38.662931+00:00",
+    "number": 22
+  },
+  {
+    "url": "https://nemini.ai/l/en-US/privacy",
+    "title": "Nemini privacy",
+    "publisher": "Pixilab",
+    "publishedAt": "2026-10-05",
+    "observedAt": "2026-11-01T09:21:38.662931+00:00",
+    "number": 23
+  },
+  {
+    "url": "https://www.dotverse.app/releases.html",
+    "title": "Dotverse 0.2.1 release notes",
+    "publisher": "Dotverse",
+    "publishedAt": "2026-10-29",
+    "observedAt": "2026-11-01T09:28:27.678408+00:00",
+    "number": 24
+  },
+  {
+    "url": "https://www.dotverse.app/",
+    "title": "Dotverse product page",
+    "publisher": "Dotverse",
+    "observedAt": "2026-11-01T09:28:27.678408+00:00",
+    "number": 25
+  },
+  {
+    "url": "https://www.dotverse.app/privacy.html",
+    "title": "Dotverse privacy",
+    "publisher": "Dotverse",
+    "publishedAt": "2026-10-24",
+    "observedAt": "2026-11-01T09:28:27.678408+00:00",
+    "number": 26
+  },
+  {
+    "url": "https://www.producthunt.com/products/dotverse",
+    "title": "Dotverse maker discussion",
+    "publisher": "Product Hunt",
+    "observedAt": "2026-11-01T09:28:27.678408+00:00",
+    "number": 27
+  },
+  {
+    "url": "https://www.reddit.com/r/SideProject/comments/1xjeot5/trying_my_luck_again_didnt_get_good_response_last/",
+    "title": "Maker announces lower Premium pricing",
+    "publisher": "MoveMate maker on r/SideProject",
+    "publishedAt": "2026-10-30T12:58:40Z",
+    "observedAt": "2026-11-01T09:18:01.670125Z",
+    "number": 28
+  },
+  {
+    "url": "https://movemate.help/",
+    "title": "MoveMate product and pricing",
+    "publisher": "MoveMate",
+    "observedAt": "2026-11-01T09:18:01.670125Z",
+    "number": 29
+  },
+  {
+    "url": "https://apps.apple.com/us/app/movemate-ai-moving-planner/id6774324802",
+    "title": "MoveMate App Store listing",
+    "publisher": "MoveMate / Apple",
+    "observedAt": "2026-11-01T09:18:01.670125Z",
+    "number": 30
+  },
+  {
+    "url": "https://play.google.com/store/apps/details?id=com.movemate.help",
+    "title": "MoveMate Google Play listing",
+    "publisher": "MoveMate / Google",
+    "observedAt": "2026-11-01T09:18:01.670125Z",
+    "number": 31
+  },
+  {
+    "url": "https://movemate.help/privacy-policy.html",
+    "title": "MoveMate privacy policy",
+    "publisher": "MoveMate",
+    "publishedAt": "2026-10-28",
+    "observedAt": "2026-11-01T09:18:01.670125Z",
+    "number": 32
+  },
+  {
+    "url": "https://www.apple.com.cn/newsroom/2026/10/apple-intelligence-features-are-coming-to-users-in-china/",
+    "title": "Apple 智能即将登陆中国",
+    "publisher": "Apple",
+    "publishedAt": "2026-10-31",
+    "observedAt": "2026-11-01T09:15:52.958616Z",
+    "number": 33
+  },
+  {
+    "url": "https://www.apple.com.cn/apple-intelligence/",
+    "title": "Apple 智能",
+    "publisher": "Apple",
+    "observedAt": "2026-11-01T09:15:52.958616Z",
+    "number": 34
+  },
+  {
+    "url": "https://support.apple.com/zh-cn/guide/mac-help/mchl46b3ab20/mac",
+    "title": "在Mac上配合Apple智能使用千问",
+    "publisher": "Apple Support",
+    "observedAt": "2026-11-01T09:15:52.958616Z",
+    "number": 35
+  },
+  {
+    "url": "https://terms.alicdn.com/legal-agreement/terms/privacy_policy_full/20231011201849846/20231011201849846.html?hideTitle=1&openNewPage=false",
+    "title": "千问产品隐私政策",
+    "publisher": "Shanghai Zhixin Puhui Technology",
+    "publishedAt": "2026-09-30",
+    "observedAt": "2026-11-01T09:15:52.958616Z",
+    "number": 36
+  },
+  {
+    "url": "https://apps.apple.com/cn/app/千问-阿里ai助手/id6466733523",
+    "title": "千问－阿里AI助手",
+    "publisher": "Developer / Apple App Store",
+    "observedAt": "2026-11-01T09:15:52.958616Z",
+    "number": 37
+  },
+  {
+    "url": "https://support.google.com/googlehome/answer/15962877",
+    "title": "What is new in Google Home: October29 release notes",
+    "publisher": "Google",
+    "publishedAt": "2026-10-29",
+    "observedAt": "2026-11-01T09:17:00Z",
+    "number": 38
+  },
+  {
+    "url": "https://support.google.com/googlehome/answer/10012636?hl=en",
+    "title": "Play media on multiple Google devices",
+    "publisher": "Google",
+    "observedAt": "2026-11-01T09:17:00Z",
+    "number": 39
+  },
+  {
+    "url": "https://support.google.com/googlehome/answer/7071598?hl=en",
+    "title": "Set and manage alarms",
+    "publisher": "Google",
+    "observedAt": "2026-11-01T09:17:00Z",
+    "number": 40
+  },
+  {
+    "url": "https://support.google.com/googlehome/answer/7072489?hl=en",
+    "title": "Control speaker and display volume",
+    "publisher": "Google",
+    "observedAt": "2026-11-01T09:17:00Z",
+    "number": 41
+  },
+  {
+    "url": "https://home.google.com/about-google-home/",
+    "title": "Google Home app overview",
+    "publisher": "Google",
+    "observedAt": "2026-11-01T09:17:00Z",
+    "number": 42
+  },
+  {
+    "url": "https://home.google.com/gemini-for-home-voice-assistant/",
+    "title": "Gemini for Home voice assistant",
+    "publisher": "Google",
+    "observedAt": "2026-11-01T09:17:00Z",
+    "number": 43
+  },
+  {
+    "url": "https://www.v2ex.com/t/1253390",
+    "title": "作者介绍NexusDock统一设备入口",
+    "publisher": "Stimulant / V2EX",
+    "publishedAt": "2026-10-31",
+    "observedAt": "2026-11-01T09:20:27.734470Z",
+    "number": 44
+  },
+  {
+    "url": "https://github.com/uvwt/agentdock",
+    "title": "AgentDock README",
+    "publisher": "AgentDock contributors",
+    "observedAt": "2026-11-01T09:20:27.734470Z",
+    "number": 45
+  },
+  {
+    "url": "https://docs.nexusdock.co/agentdock/docs/concepts/nexusdock",
+    "title": "What is NexusDock?",
+    "publisher": "AgentDock",
+    "observedAt": "2026-11-01T09:20:27.734470Z",
+    "number": 46
+  },
+  {
+    "url": "https://docs.nexusdock.co/agentdock/docs/operations/nexusdock-connect",
+    "title": "Connect AgentDock",
+    "publisher": "AgentDock",
+    "observedAt": "2026-11-01T09:20:27.734470Z",
+    "number": 47
+  },
+  {
+    "url": "https://docs.nexusdock.co/agentdock/docs/concepts/recalldock",
+    "title": "Recall memory",
+    "publisher": "AgentDock",
+    "observedAt": "2026-11-01T09:20:27.734470Z",
+    "number": 48
+  },
+  {
+    "url": "https://docs.nexusdock.co/agentdock/docs/concepts/workflow",
+    "title": "Workflow",
+    "publisher": "AgentDock",
+    "observedAt": "2026-11-01T09:20:27.734470Z",
+    "number": 49
+  },
+  {
+    "url": "https://docs.nexusdock.co/agentdock/docs/concepts/tasks",
+    "title": "Tasks and progress",
+    "publisher": "AgentDock",
+    "observedAt": "2026-11-01T09:20:27.734470Z",
+    "number": 50
+  },
+  {
+    "url": "https://www.nexusdock.co/",
+    "title": "NexusDock website",
+    "publisher": "NexusDock",
+    "observedAt": "2026-11-01T09:20:27.734470Z",
+    "number": 51
+  },
+  {
+    "url": "https://docs.nexusdock.co/agentdock/docs/operations/nexusdock",
+    "title": "Install and maintain",
+    "publisher": "AgentDock",
+    "observedAt": "2026-11-01T09:20:27.734470Z",
+    "number": 52
+  },
+  {
+    "url": "https://github.com/uvwt/agentdock/blob/main/LICENSE",
+    "title": "Apache License2.0",
+    "publisher": "AgentDock contributors",
+    "observedAt": "2026-11-01T09:20:27.734470Z",
+    "number": 53
+  },
+  {
+    "url": "https://www.desk365.io/blog/introducing-the-desk365-ai-agent-for-microsoft-teams",
+    "title": "Teams AI Agent launch",
+    "publisher": "Desk365",
+    "publishedAt": "2026-10-31",
+    "observedAt": "2026-11-01T09:29:24.208699+00:00",
+    "number": 54
+  },
+  {
+    "url": "https://www.desk365.io/blog/desk365-product-updates-october-2026/",
+    "title": "October product updates",
+    "publisher": "Desk365",
+    "publishedAt": "2026-10-31",
+    "observedAt": "2026-11-01T09:29:24.208699+00:00",
+    "number": 55
+  },
+  {
+    "url": "https://help.desk365.io/en/articles/ai-agent-setup-guide/",
+    "title": "AI setup, forms, analytics and credits",
+    "publisher": "Desk365",
+    "observedAt": "2026-11-01T09:29:24.208699+00:00",
+    "number": 56
+  },
+  {
+    "url": "https://help.desk365.io/en/articles/microsoft-teams-ai-agent-setup-guide/",
+    "title": "Teams deployment and access",
+    "publisher": "Desk365",
+    "observedAt": "2026-11-01T09:29:24.208699+00:00",
+    "number": 57
+  },
+  {
+    "url": "https://help.desk365.io/en/articles/creating-custom-ticket-forms-in-desk365/",
+    "title": "Custom ticket forms",
+    "publisher": "Desk365",
+    "observedAt": "2026-11-01T09:29:24.208699+00:00",
+    "number": 58
+  },
+  {
+    "url": "https://discuss.luxonis.com/d/7072-introducing-oak-4-ffc-build-the-vision-system-your-robot-actually-needs",
+    "title": "Introducing OAK 4 FFC",
+    "publisher": "Luxonis",
+    "publishedAt": "2026-10-27",
+    "observedAt": "2026-11-01T09:17:00Z",
+    "number": 59
+  },
+  {
+    "url": "https://www.luxonis.com/oak4-ffc",
+    "title": "OAK 4 FFC product overview",
+    "publisher": "Luxonis",
+    "observedAt": "2026-11-01T09:17:00Z",
+    "number": 60
+  },
+  {
+    "url": "https://shop.luxonis.com/products/oak-4-ffc",
+    "title": "OAK 4 FFC store",
+    "publisher": "Luxonis",
+    "observedAt": "2026-11-01T09:17:00Z",
+    "number": 61
+  },
+  {
+    "url": "https://www.luxonis.com/assets/oak4-ffc/oak-4-ffc-datasheet.pdf",
+    "title": "OAK 4 FFC datasheet Rev.2026-10",
+    "publisher": "Luxonis",
+    "publishedAt": "2026-10",
+    "observedAt": "2026-11-01T09:17:00Z",
+    "number": 62
+  },
+  {
+    "url": "https://www.prnewswire.com/news-releases/krafton-develops-socially-intelligent-ai-that-helps-robots-better-understand-people-302923488.html",
+    "title": "KRAFTON develops socially intelligent AI",
+    "publisher": "KRAFTON",
+    "publishedAt": "2026-10-30T18:00:00Z",
+    "observedAt": "2026-11-01T09:17:00Z",
+    "number": 63
+  },
+  {
+    "url": "https://arxiv.org/html/2608.22035v1",
+    "title": "Ludi0.1: An Agentic System for Socially Intelligent Robots",
+    "publisher": "Ludo Robotics",
+    "publishedAt": "2026-08-22",
+    "observedAt": "2026-11-01T09:17:00Z",
+    "number": 64
+  },
+  {
+    "url": "https://www.ludorobotics.ai/research/ludi-0-1",
+    "title": "Ludi0.1 research overview",
+    "publisher": "Ludo Robotics",
+    "publishedAt": "2026-08-19",
+    "observedAt": "2026-11-01T09:17:00Z",
+    "number": 65
+  },
+  {
+    "url": "https://www.ludorobotics.ai/",
+    "title": "Ludo Robotics",
+    "publisher": "Ludo Robotics",
+    "observedAt": "2026-11-01T09:17:00Z",
+    "number": 66
+  },
+  {
+    "url": "https://www.globenewswire.com/news-release/2026/10/29/3391894/0/en/pokebot-launches-roboapi-for-real-world-testing-of-its-poke-aurora-world-action-model.html",
+    "title": "PokeBot launches RoboAPI",
+    "publisher": "PokeBot",
+    "publishedAt": "2026-10-29T20:39:00Z",
+    "observedAt": "2026-11-01T09:17:00Z",
+    "number": 67
+  },
+  {
+    "url": "https://pokebot.com/ai",
+    "title": "RoboAPI: Zero-Shot Generalization",
+    "publisher": "PokeBot",
+    "publishedAt": "2026-10-30",
+    "observedAt": "2026-11-01T09:17:00Z",
+    "number": 68
+  },
+  {
+    "url": "https://developers.pokebot.com/docs/roboapi/latest/hardware",
+    "title": "RoboAPI hardware setup",
+    "publisher": "PokeBot",
+    "observedAt": "2026-11-01T09:17:00Z",
+    "number": 69
+  },
+  {
+    "url": "https://developers.pokebot.com/docs/roboapi/latest/cloud-quickstart",
+    "title": "Your first API call",
+    "publisher": "PokeBot",
+    "observedAt": "2026-11-01T09:17:00Z",
+    "number": 70
+  },
+  {
+    "url": "https://developers.pokebot.com/docs/roboapi/latest",
+    "title": "RoboAPI get started",
+    "publisher": "PokeBot",
+    "observedAt": "2026-11-01T09:17:00Z",
+    "number": 71
+  },
+  {
+    "url": "https://developers.pokebot.com/docs/roboapi/latest/software",
+    "title": "Install RoboAPI",
+    "publisher": "PokeBot",
+    "observedAt": "2026-11-01T09:17:00Z",
+    "number": 72
+  },
+  {
+    "url": "https://developers.pokebot.com/docs/roboapi/latest/hardware-adapters",
+    "title": "Hardware adapter interfaces",
+    "publisher": "PokeBot",
+    "observedAt": "2026-11-01T09:17:00Z",
+    "number": 73
+  },
+  {
+    "url": "https://en.benewake.com/NewsUpdates/info_itemid_6194.html",
+    "title": "SR Series announcement",
+    "publisher": "Benewake",
+    "publishedAt": "2026-10-30",
+    "observedAt": "2026-11-01T09:17:00Z",
+    "number": 74
+  },
+  {
+    "url": "https://www.prnewswire.co.uk/news-releases/benewake-introduces-compact-power-efficient-sr-series-360-3d-lidars-for-mobile-robots-sr18-enters-mass-production-302923278.html",
+    "title": "SR18 enters mass production",
+    "publisher": "Benewake via PR Newswire",
+    "publishedAt": "2026-10-30T04:00:00Z",
+    "observedAt": "2026-11-01T09:17:00Z",
+    "number": 75
+  },
+  {
+    "url": "https://en.benewake.com/SR18/index.html",
+    "title": "SR18 product specification",
+    "publisher": "Benewake",
+    "observedAt": "2026-11-01T09:17:00Z",
+    "number": 76
+  },
+  {
+    "url": "https://en.benewake.com/DataDownload/index_pid_3104_lcid_3105.html",
+    "title": "SR18 documents download",
+    "publisher": "Benewake",
+    "observedAt": "2026-11-01T09:17:00Z",
+    "number": 77
+  },
+  {
+    "url": "https://www.producthunt.com/products/telemetry-dev",
+    "title": "Launch and maker discussion",
+    "publisher": "telemetry.dev / Product Hunt",
+    "publishedAt": "2026-10-31",
+    "observedAt": "2026-11-01T09:19:42.345346+00:00",
+    "number": 78
+  },
+  {
+    "url": "https://telemetry.dev/",
+    "title": "Product overview",
+    "publisher": "telemetry.dev",
+    "observedAt": "2026-11-01T09:19:42.345346+00:00",
+    "number": 79
+  },
+  {
+    "url": "https://telemetry.dev/features/prompts",
+    "title": "Prompt versions and rollouts",
+    "publisher": "telemetry.dev",
+    "observedAt": "2026-11-01T09:19:42.345346+00:00",
+    "number": 80
+  },
+  {
+    "url": "https://telemetry.dev/features/evals",
+    "title": "Evaluation traces",
+    "publisher": "telemetry.dev",
+    "observedAt": "2026-11-01T09:19:42.345346+00:00",
+    "number": 81
+  },
+  {
+    "url": "https://telemetry.dev/features/mcp",
+    "title": "MCP instrumentation",
+    "publisher": "telemetry.dev",
+    "observedAt": "2026-11-01T09:19:42.345346+00:00",
+    "number": 82
+  },
+  {
+    "url": "https://github.com/super-productivity/super-productivity/pull/11366",
+    "title": "Merged plugin diagnostics change",
+    "publisher": "Super Productivity",
+    "publishedAt": "2026-10-31T19:19:52Z",
+    "observedAt": "2026-11-01T09:18:01.670125Z",
+    "number": 83
+  },
+  {
+    "url": "https://github.com/super-productivity/super-productivity/blob/master/docs/plugin-development.md",
+    "title": "Plugin development guide",
+    "publisher": "Super Productivity",
+    "observedAt": "2026-11-01T09:18:01.670125Z",
+    "number": 84
+  },
+  {
+    "url": "https://github.com/super-productivity/super-productivity/issues/7173",
+    "title": "User report: showIframe is not a function",
+    "publisher": "GitHub user hiJanes",
+    "publishedAt": "2026-04-07",
+    "observedAt": "2026-11-01T09:18:01.670125Z",
+    "number": 85
+  },
+  {
+    "url": "https://github.com/super-productivity/super-productivity",
+    "title": "Super Productivity repository",
+    "publisher": "Super Productivity",
+    "observedAt": "2026-11-01T09:18:01.670125Z",
+    "number": 86
+  },
+  {
+    "url": "https://github.com/gufo-org/gufo/releases/tag/v0.28.1",
+    "title": "Gufo 0.28.1 release",
+    "publisher": "Gufo",
+    "publishedAt": "2026-10-31T13:44:28Z",
+    "observedAt": "2026-11-01T09:18:01.670125Z",
+    "number": 87
+  },
+  {
+    "url": "https://github.com/gufo-org/gufo/pull/875",
+    "title": "Prompt-pass consistency repair",
+    "publisher": "Gufo",
+    "publishedAt": "2026-10-30",
+    "observedAt": "2026-11-01T09:18:01.670125Z",
+    "number": 88
+  },
+  {
+    "url": "https://github.com/gufo-org/gufo/pull/882",
+    "title": "MTP confidence gate",
+    "publisher": "Gufo",
+    "publishedAt": "2026-10-30",
+    "observedAt": "2026-11-01T09:18:01.670125Z",
+    "number": 89
+  },
+  {
+    "url": "https://github.com/gufo-org/gufo",
+    "title": "Gufo README and license",
+    "publisher": "Gufo",
+    "observedAt": "2026-11-01T09:18:01.670125Z",
+    "number": 90
+  },
+  {
+    "url": "https://github.com/gufo-org/gufo/blob/main/docs/models/qwen3.8-flash-next/README.md",
+    "title": "Flash-Next runtime documentation",
+    "publisher": "Gufo",
+    "observedAt": "2026-11-01T09:18:01.670125Z",
+    "number": 91
+  },
+  {
+    "url": "https://github.com/LostRuins/koboldcpp/releases/tag/v1.124",
+    "title": "KoboldCpp 1.124 release notes",
+    "publisher": "LostRuins",
+    "publishedAt": "2026-10-31",
+    "observedAt": "2026-11-01T09:18:01.670125Z",
+    "number": 92
+  },
+  {
+    "url": "https://github.com/LostRuins/koboldcpp",
+    "title": "KoboldCpp README",
+    "publisher": "LostRuins",
+    "observedAt": "2026-11-01T09:18:01.670125Z",
+    "number": 93
+  },
+  {
+    "url": "https://github.com/LostRuins/koboldcpp/wiki",
+    "title": "KoboldCpp wiki",
+    "publisher": "LostRuins",
+    "observedAt": "2026-11-01T09:18:01.670125Z",
+    "number": 94
+  },
+  {
+    "url": "https://github.com/LostRuins/koboldcpp/releases/expanded_assets/v1.124",
+    "title": "Version1.124 downloadable assets",
+    "publisher": "LostRuins",
+    "publishedAt": "2026-10-31",
+    "observedAt": "2026-11-01T09:18:01.670125Z",
+    "number": 95
+  },
+  {
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xk1vyk/koboldcpp_v1124_released/",
+    "title": "KoboldCpp1.124 community thread",
+    "publisher": "r/LocalLLaMA",
+    "observedAt": "2026-11-01T09:18:01.670125Z",
+    "number": 96
+  },
+  {
+    "url": "https://www.reddit.com/r/SideProject/comments/1xjepv5/i_was_building_agentic_workflows_at_work_and_got/",
+    "title": "Obol maker project post",
+    "publisher": "Aparajith24 on r/SideProject",
+    "publishedAt": "2026-10-30T12:59:57Z",
+    "observedAt": "2026-11-01T09:20:04.652622Z",
+    "number": 97
+  },
+  {
+    "url": "https://github.com/Aparajith24/obol",
+    "title": "Obol README and MIT license",
+    "publisher": "Aparajith24",
+    "observedAt": "2026-11-01T09:20:04.652622Z",
+    "number": 98
+  },
+  {
+    "url": "https://github.com/Aparajith24/obol/blob/main/EXPERIMENTS.md",
+    "title": "Obol complete experiment log",
+    "publisher": "Aparajith24",
+    "observedAt": "2026-11-01T09:20:04.652622Z",
+    "number": 99
+  },
+  {
+    "url": "https://factory.com/news/frontier-harness",
+    "title": "Droid1.0 frontier harness",
+    "publisher": "Factory Research",
+    "publishedAt": "2026-10-29",
+    "observedAt": "2026-11-01T09:19:42.345346+00:00",
+    "number": 100
+  },
+  {
+    "url": "https://docs.factory.com/sdk/typescript",
+    "title": "TypeScript SDK",
+    "publisher": "Factory",
+    "observedAt": "2026-11-01T09:19:42.345346+00:00",
+    "number": 101
+  },
+  {
+    "url": "https://docs.factory.com/droid-exec/overview",
+    "title": "Headless execution",
+    "publisher": "Factory",
+    "observedAt": "2026-11-01T09:19:42.345346+00:00",
+    "number": 102
+  },
+  {
+    "url": "https://docs.factory.com/enterprise/llm-safety-and-agent-controls",
+    "title": "Agent controls",
+    "publisher": "Factory",
+    "observedAt": "2026-11-01T09:19:42.345346+00:00",
+    "number": 103
+  },
+  {
+    "url": "https://docs.factory.com/changelog/release-notes",
+    "title": "October29–30 releases",
+    "publisher": "Factory",
+    "publishedAt": "2026-10-30",
+    "observedAt": "2026-11-01T09:19:42.345346+00:00",
+    "number": 104
+  },
+  {
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
+    "title": "Version 2.1.316 release",
+    "publisher": "Anthropic",
+    "publishedAt": "2026-10-31T01:01:35Z",
+    "observedAt": "2026-11-01T09:24:54.482648+00:00",
+    "number": 105
+  },
+  {
+    "url": "https://code.claude.com/docs/en/claude-apps-gateway",
+    "title": "Gateway deployment and identity",
+    "publisher": "Anthropic",
+    "observedAt": "2026-11-01T09:24:54.482648+00:00",
+    "number": 106
+  },
+  {
+    "url": "https://code.claude.com/docs/en/claude-apps-gateway-spend-limits",
+    "title": "Spend-limit semantics and operation",
+    "publisher": "Anthropic",
+    "observedAt": "2026-11-01T09:24:54.482648+00:00",
+    "number": 107
+  },
+  {
+    "url": "https://code.claude.com/docs/en/sub-agents",
+    "title": "Subagent configuration",
+    "publisher": "Anthropic",
+    "observedAt": "2026-11-01T09:24:54.482648+00:00",
+    "number": 108
+  },
+  {
+    "url": "https://code.claude.com/docs/en/settings",
+    "title": "Settings scopes and precedence",
+    "publisher": "Anthropic",
+    "observedAt": "2026-11-01T09:24:54.482648+00:00",
+    "number": 109
+  },
+  {
+    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+    "title": "dsh-superagent README",
+    "publisher": "DeepSeek Harness Team",
+    "publishedAt": "2026-10-31",
+    "observedAt": "2026-11-01T09:15:52.958616Z",
+    "number": 110
+  },
+  {
+    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/001-domain.md",
+    "title": "001 Domain model",
+    "publisher": "DeepSeek Harness Team",
+    "observedAt": "2026-11-01T09:15:52.958616Z",
+    "number": 111
+  },
+  {
+    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/002-authorization.md",
+    "title": "002 Authorization",
+    "publisher": "DeepSeek Harness Team",
+    "observedAt": "2026-11-01T09:15:52.958616Z",
+    "number": 112
+  },
+  {
+    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/005-panel.md",
+    "title": "005 Panel",
+    "publisher": "DeepSeek Harness Team",
+    "observedAt": "2026-11-01T09:15:52.958616Z",
+    "number": 113
+  },
+  {
+    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/SETUP.md",
+    "title": "SETUP",
+    "publisher": "DeepSeek Harness Team",
+    "observedAt": "2026-11-01T09:15:52.958616Z",
+    "number": 114
+  },
+  {
+    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/6337fc823ce20251c8de8085948165c81aaa701e",
+    "title": "Initial prototype commit",
+    "publisher": "DeepSeek Harness Team",
+    "publishedAt": "2026-10-31T12:05:39Z",
+    "observedAt": "2026-11-01T09:15:52.958616Z",
+    "number": 115
+  },
+  {
+    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/LICENSE",
+    "title": "MIT License",
+    "publisher": "DeepSeek Harness Team",
+    "observedAt": "2026-11-01T09:15:52.958616Z",
+    "number": 116
+  },
+  {
+    "url": "https://m.ithome.com/html/1020615.htm",
+    "title": "DeepSeek提出Super-agent架构设计",
+    "publisher": "IT之家",
+    "publishedAt": "2026-10-31",
+    "observedAt": "2026-11-01T09:15:52.958616Z",
+    "number": 117
+  },
+  {
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-openai-runtime-govcloud/",
+    "title": "GovCloud runtime and cross-region announcement",
+    "publisher": "AWS",
+    "publishedAt": "2026-10-30",
+    "observedAt": "2026-11-01T09:30:52.115565+00:00",
+    "number": 118
+  },
+  {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-56-terra.html",
+    "title": "GPT5.6 Terra model card",
+    "publisher": "AWS",
+    "observedAt": "2026-11-01T09:30:52.115565+00:00",
+    "number": 119
+  },
+  {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-56-luna.html",
+    "title": "GPT5.6 Luna model card",
+    "publisher": "AWS",
+    "observedAt": "2026-11-01T09:30:52.115565+00:00",
+    "number": 120
+  },
+  {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/cross-region-inference.html",
+    "title": "Cross-region routing principles",
+    "publisher": "AWS",
+    "observedAt": "2026-11-01T09:30:52.115565+00:00",
+    "number": 121
+  },
+  {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/inference-profiles.html",
+    "title": "Inference profiles",
+    "publisher": "AWS",
+    "observedAt": "2026-11-01T09:30:52.115565+00:00",
+    "number": 122
+  },
+  {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-invocation-logging.html",
+    "title": "Invocation logging controls",
+    "publisher": "AWS",
+    "observedAt": "2026-11-01T09:30:52.115565+00:00",
+    "number": 123
+  },
+  {
+    "url": "https://help.openai.com/en/articles/9624314-model-release-notes",
+    "title": "Model release notes",
+    "publisher": "OpenAI",
+    "publishedAt": "2026-10-30",
+    "observedAt": "2026-11-01T09:19:42.345346+00:00",
+    "number": 124
+  },
+  {
+    "url": "https://help.openai.com/en/articles/20001193-gpt-rosalind-for-life-sciences-research",
+    "title": "Rosalind research setup and data workflow",
+    "publisher": "OpenAI",
+    "observedAt": "2026-11-01T09:19:42.345346+00:00",
+    "number": 125
+  },
+  {
+    "url": "https://deploymentsafety.openai.com/gpt-rosalind-6",
+    "title": "System Card Addendum",
+    "publisher": "OpenAI",
+    "publishedAt": "2026-10-30",
+    "observedAt": "2026-11-01T09:19:42.345346+00:00",
+    "number": 126
+  },
+  {
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "title": "API release changelog",
+    "publisher": "OpenAI",
+    "publishedAt": "2026-10-30",
+    "observedAt": "2026-11-01T09:19:42.345346+00:00",
+    "number": 127
+  },
+  {
+    "url": "https://help.openai.com/en/articles/10128477-chatgpt-enterprise-and-edu-release-notes",
+    "title": "Enterprise release notes",
+    "publisher": "OpenAI",
+    "publishedAt": "2026-10-30",
+    "observedAt": "2026-11-01T09:19:42.345346+00:00",
+    "number": 128
+  },
+  {
+    "url": "https://developers.openai.com/api/docs/pricing",
+    "title": "API pricing and access",
+    "publisher": "OpenAI",
+    "observedAt": "2026-11-01T09:19:42.345346+00:00",
+    "number": 129
+  },
+  {
+    "url": "https://arxiv.org/html/2610.39429v1",
+    "title": "ScheduleGen full paper",
+    "publisher": "Neel Jawale and coauthors / arXiv",
+    "publishedAt": "2026-10-29",
+    "observedAt": "2026-11-01T09:15:48.820872+00:00",
+    "number": 130
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.39429",
+    "title": "ScheduleGen submission history",
+    "publisher": "arXiv",
+    "publishedAt": "2026-10-29T06:07:04Z",
+    "observedAt": "2026-11-01T09:15:48.820872+00:00",
+    "number": 131
+  },
+  {
+    "url": "https://arxiv.org/list/cs.RO/recent",
+    "title": "Robotics recent listings",
+    "publisher": "arXiv",
+    "publishedAt": "2026-10-30",
+    "observedAt": "2026-11-01T09:15:48.820872+00:00",
+    "number": 132
+  },
+  {
+    "url": "https://schedulegen.github.io/",
+    "title": "ScheduleGen project page",
+    "publisher": "ScheduleGen authors",
+    "observedAt": "2026-11-01T09:15:48.820872+00:00",
+    "number": 133
+  },
+  {
+    "url": "https://arxiv.org/html/2610.40565v1",
+    "title": "Gym-Anything for Robotics full paper",
+    "publisher": "Pranjal Aggarwal and Sean Welleck / arXiv",
+    "publishedAt": "2026-10-29",
+    "observedAt": "2026-11-01T09:15:48.820872+00:00",
+    "number": 134
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.40565",
+    "title": "Gym-Anything submission history",
+    "publisher": "arXiv",
+    "publishedAt": "2026-10-29T17:42:32Z",
+    "observedAt": "2026-11-01T09:15:48.820872+00:00",
+    "number": 135
+  },
+  {
+    "url": "https://egocontact.github.io/",
+    "title": "EgoContact author project, examples and results",
+    "publisher": "Adam Deryło and coauthors",
+    "observedAt": "2026-11-01T09:17:22.845855+00:00",
+    "number": 136
+  },
+  {
+    "url": "https://arxiv.org/html/2610.39167v1",
+    "title": "EgoContact full paper",
+    "publisher": "Adam Deryło and coauthors / arXiv",
+    "publishedAt": "2026-10-29",
+    "observedAt": "2026-11-01T09:17:22.845855+00:00",
+    "number": 137
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.39167",
+    "title": "EgoContact submission history",
+    "publisher": "arXiv",
+    "publishedAt": "2026-10-29T01:57:52Z",
+    "observedAt": "2026-11-01T09:17:22.845855+00:00",
+    "number": 138
+  },
+  {
+    "url": "https://arxiv.org/list/cs.RO/recent?skip=50&show=50",
+    "title": "Robotics October30 recent-list continuation",
+    "publisher": "arXiv",
+    "publishedAt": "2026-10-30",
+    "observedAt": "2026-11-01T09:17:22.845855+00:00",
+    "number": 139
+  },
+  {
+    "url": "https://arxiv.org/html/2610.38678v1",
+    "title": "AskStream full paper",
+    "publisher": "Lu Wang and coauthors / arXiv",
+    "publishedAt": "2026-10-28",
+    "observedAt": "2026-11-01T09:20:08.222752+00:00",
+    "number": 140
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.38678",
+    "title": "AskStream submission history",
+    "publisher": "arXiv",
+    "publishedAt": "2026-10-28T18:54:27Z",
+    "observedAt": "2026-11-01T09:20:08.222752+00:00",
+    "number": 141
+  },
+  {
+    "url": "https://arxiv.org/list/cs.CV/recent?show=25&skip=119",
+    "title": "Computer Vision recent list continuation",
+    "publisher": "arXiv",
+    "publishedAt": "2026-10-30",
+    "observedAt": "2026-11-01T09:20:08.222752+00:00",
+    "number": 142
+  },
+  {
+    "url": "https://github.com/wanglu-cs/AskStream",
+    "title": "AskStream official repository",
+    "publisher": "Lu Wang / AskStream authors",
+    "observedAt": "2026-11-01T09:20:08.222752+00:00",
+    "number": 143
+  },
+  {
+    "url": "https://huggingface.co/datasets/wanglucs/AskStream",
+    "title": "AskStream dataset card",
+    "publisher": "AskStream authors / Hugging Face",
+    "observedAt": "2026-11-01T09:20:08.222752+00:00",
+    "number": 144
+  }
+]
