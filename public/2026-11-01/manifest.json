@@ -177,7 +177,7 @@
       },
       "ludi02-social-corrections": {
         "zh": 212,
-        "en": 118
+        "en": 107
       },
       "pokebot-roboapi-preview": {
         "zh": 221,
@@ -253,11 +253,11 @@
     "attachedProjectDetails": 29,
     "primaryBody": {
       "zhDenseChars": 6032,
-      "enWords": 3355
+      "enWords": 3344
     },
     "completeReadingBody": {
       "zhDenseChars": 28738,
-      "enWords": 16313
+      "enWords": 16302
     }
   },
   "revision": {
