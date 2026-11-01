@@ -1,1 +1,72 @@
-[]
+[
+  {
+    "kind": "image",
+    "name": "mo.jpg",
+    "url": "https://appsbymo.app/assets/screenshots/mo/02-asks-first.webp",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "name": "lumafold.jpg",
+    "url": "https://ph-files.imgix.net/a8f88e83-f408-4d2c-8a10-2779ed5f51b1.jpeg",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "name": "secret-key.jpg",
+    "url": "https://ph-files.imgix.net/d6cd6592-d80a-453b-a829-f182e810cc4b.png",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "name": "knucklebop.jpg",
+    "url": "https://ph-files.imgix.net/3e1757df-6aa4-4f19-88e9-ba3c037b51be.png",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "name": "basetab.jpg",
+    "url": "https://ph-files.imgix.net/3c435dd8-7138-4282-9cff-ecc38d90808d.jpeg",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "name": "hemmed.jpg",
+    "url": "https://ph-files.imgix.net/f4a9731f-053d-4bae-92ea-67b6d66307e3.png",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "name": "godwit.jpg",
+    "url": "https://ph-files.imgix.net/4750d61a-b1f7-47a0-bd61-1b20b6217006.png",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "name": "apple-cn.jpg",
+    "url": "https://www.apple.com.cn/newsroom/images/2026/10/apple-intelligence-features-are-coming-to-users-in-china/article/Apple-Intelligence-Live-Translation-Messages-CN_inline.jpg.large.jpg",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "kind": "image",
+    "name": "luxonis-ffc.jpg",
+    "url": "https://www.luxonis.com/assets/oak4-ffc/oak-4-ffc-devkit-black-front-angle.webp",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "kind": "image",
+    "name": "specsight.jpg",
+    "url": "https://specsight.app/images/landing/hero-dashboard.png",
+    "renderImage": true,
+    "locale": "en"
+  }
+]
