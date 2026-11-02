@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-11-02",
+    "zhTitle": "AI Daily｜2026年11月2日 · 文件归档、局部编辑与触觉交互",
+    "enTitle": "AI Daily | November 2, 2026 · File organization, local edits and tactile interaction",
+    "zhSummary": "Zush、Ideogram、Riverside与新研究：少重复整理和编辑，把修改范围与后续操作看清楚。",
+    "enSummary": "Zush, Ideogram, Riverside and new research: reduce repeated preparation and inspect the scope of an edit or action.",
+    "tags": [
+      "consumer AI",
+      "creative tools",
+      "physical interaction",
+      "research"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "research"
+    ],
+    "coverStory": {
+      "topicId": "zush-nested-sort-322",
+      "zhTitle": "Zush",
+      "enTitle": "Zush",
+      "imagePath": "assets/zush-folder-sorting.webp",
+      "imageSourceUrl": "https://zushapp.com/images/showcase/macos/folder-sorting-light-640.webp",
+      "primarySourceUrl": "https://zushapp.com/",
+      "evidenceStrength": "Vendor-documented release and interaction; no independent product trial"
+    },
+    "zhPath": "./2026-11-02/zh/",
+    "enPath": "./2026-11-02/en/",
+    "sourcesPath": "./2026-11-02/sources.html"
+  },
+  {
     "date": "2026-11-01",
     "zhTitle": "AI Daily｜2026年11月1日 · 邮件改写、论文审阅与机器人交互",
     "enTitle": "AI Daily | November 1, 2026 · Mail rewrites, paper review and robot interaction",
