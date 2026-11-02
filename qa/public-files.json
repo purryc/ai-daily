@@ -7181,13 +7181,13 @@
   },
   {
     "path": "en/index.html",
-    "bytes": 171131,
-    "sha256": "df6a90ff196b163bc748ea5b03faf967e78f3f94ea613adaadfd0ff85bb797a4"
+    "bytes": 172370,
+    "sha256": "c4884da42b6e693aa19c92b0fb4ef24f826cfa73c408f6a1353f96c5d7a13ea0"
   },
   {
     "path": "index.html",
-    "bytes": 165133,
-    "sha256": "56366e955e7ff1250493755a5430264e378fefd5d133bd6f4688a15af8fc3795"
+    "bytes": 166298,
+    "sha256": "0ff1bcffe7b09fb27e1a52b9d2e21abf634ca724a7dd96f9e47917a6815345dd"
   },
   {
     "path": "manifest.json",
@@ -7475,6 +7475,256 @@
     "sha256": "1507fe3233239549486ec396f9d1f556d36742af89650852f344782d11abbf15"
   },
   {
+    "path": "weekly/2026-10-26/assets/deck.js",
+    "bytes": 2576,
+    "sha256": "63d13c06452d7405e0b5ed572d8464d802c9e5b8de656b5a94e3527b1730f7b3"
+  },
+  {
+    "path": "weekly/2026-10-26/assets/highlight-hardware-apple-touch.jpg",
+    "bytes": 145767,
+    "sha256": "378258e28b4d48b427ad98892f6a948677bbfe2afc704d0eb2ec1008eb9b3c9b"
+  },
+  {
+    "path": "weekly/2026-10-26/assets/highlight-hardware-matic-serene.jpg",
+    "bytes": 73261,
+    "sha256": "c6c4ec497f55bb9a4ed775f93f512a91d4d159f70848531ba4d3588a4c462ca7"
+  },
+  {
+    "path": "weekly/2026-10-26/assets/highlight-hardware-oak4-ffc.jpg",
+    "bytes": 135766,
+    "sha256": "e43b9e1cfa2e97ddf7682165ca41e2c35447ba24e12d7a24a32e3fd21bb3e819"
+  },
+  {
+    "path": "weekly/2026-10-26/assets/highlight-software-canva-brush.jpg",
+    "bytes": 126478,
+    "sha256": "94e0d7a59b166da8b6b2d2e91749a45073b3b44b776b4ee1274784426e3eec4a"
+  },
+  {
+    "path": "weekly/2026-10-26/assets/highlight-software-papilot.jpg",
+    "bytes": 150090,
+    "sha256": "b7af5274d50428ad05d2159d04a3102bbb32d9640d6ec4fe57a0bd8eb3b5ad31"
+  },
+  {
+    "path": "weekly/2026-10-26/assets/highlight-software-skyrimnet.jpg",
+    "bytes": 716894,
+    "sha256": "514209879d8bcd343c6724ee4034a626dd237bfbf466e50ac3849154e9d1beae"
+  },
+  {
+    "path": "weekly/2026-10-26/assets/highlight-software-vclip.png",
+    "bytes": 415453,
+    "sha256": "16d360597ec198975f21ffe0bfffb23f6ffe379e590551b9d82e41e4c67c797e"
+  },
+  {
+    "path": "weekly/2026-10-26/assets/issue.css",
+    "bytes": 10676,
+    "sha256": "fb4d85c6225be5ae26e02f4e2ff31330cab77ba8f3c157e65dd2a9af4211bbe7"
+  },
+  {
+    "path": "weekly/2026-10-26/assets/opportunity-document-acceptance.png",
+    "bytes": 80837,
+    "sha256": "eb0092d08e773c7c71673acef51bc01f36021d3d4826a471388fdb1bf947206a"
+  },
+  {
+    "path": "weekly/2026-10-26/assets/opportunity-state-aware-controller.png",
+    "bytes": 80317,
+    "sha256": "ece2daf43563983947625cab81c31ca62854798a2860b74acb6756bbcb041dcd"
+  },
+  {
+    "path": "weekly/2026-10-26/assets/signal-consumer-roleplay-continuity.jpg",
+    "bytes": 716894,
+    "sha256": "514209879d8bcd343c6724ee4034a626dd237bfbf466e50ac3849154e9d1beae"
+  },
+  {
+    "path": "weekly/2026-10-26/assets/trend-action-target-delivery.png",
+    "bytes": 87886,
+    "sha256": "85ff59e0d9f57c54c3040ad263793c535aad6df15468ff38bf000cab69dea25a"
+  },
+  {
+    "path": "weekly/2026-10-26/assets/trend-budget-success-accounting.png",
+    "bytes": 86966,
+    "sha256": "ac116977838a0725ead77142f55fac4e46c6a8c3e97891a841c1fb810861074a"
+  },
+  {
+    "path": "weekly/2026-10-26/en/details/highlight-hardware-apple-touch.html",
+    "bytes": 6205,
+    "sha256": "f9161996fbce85b41e6db84cf989652265fc997026f30f3bb70ab93d11195545"
+  },
+  {
+    "path": "weekly/2026-10-26/en/details/highlight-hardware-matic-serene.html",
+    "bytes": 6368,
+    "sha256": "0579c2588cc9127e8862e3b070feaff79fd33c3d1345e48a3ab50b71974b4efc"
+  },
+  {
+    "path": "weekly/2026-10-26/en/details/highlight-hardware-oak4-ffc.html",
+    "bytes": 6986,
+    "sha256": "2f0c3f79e98300bb2259a8c41c1275603c8af98e377aa129afa72f069531376b"
+  },
+  {
+    "path": "weekly/2026-10-26/en/details/highlight-software-canva-brush.html",
+    "bytes": 6193,
+    "sha256": "57f8a75bed3f804ed847239a8a1037a53f2c3442dc25da1c6ad3c8b40d8cfce6"
+  },
+  {
+    "path": "weekly/2026-10-26/en/details/highlight-software-papilot.html",
+    "bytes": 6332,
+    "sha256": "2a837534789953e0fc9755444e7e80d118a772aa2e5c2a216737efa1e1cdd29d"
+  },
+  {
+    "path": "weekly/2026-10-26/en/details/highlight-software-skyrimnet.html",
+    "bytes": 6322,
+    "sha256": "84961ea3079e4a54ad46786b5eec85cd336eecbcf79c11fa19d7fc39114c7e58"
+  },
+  {
+    "path": "weekly/2026-10-26/en/details/highlight-software-vclip.html",
+    "bytes": 6584,
+    "sha256": "0f7b7f25f86c2a3e8c36b31d1eaa79ad1c369be0e54ba6494b1cf7bbf1dd9438"
+  },
+  {
+    "path": "weekly/2026-10-26/en/details/hiring-contract-part-time.html",
+    "bytes": 8022,
+    "sha256": "afe1c82c8b5a7005e977c46e093e7d83416ede06c7f88c1e8365a8f110782173"
+  },
+  {
+    "path": "weekly/2026-10-26/en/details/hiring-remote-employees.html",
+    "bytes": 6937,
+    "sha256": "8dfdbc2b86e3a0b5653fa16a3cc3928af6cf927daed897e020afdebd2cdf1438"
+  },
+  {
+    "path": "weekly/2026-10-26/en/details/hiring-talent-demand.html",
+    "bytes": 6643,
+    "sha256": "41cd77e343df59ce13e15f0a1d5571e802d2d8695bbc8f30a39b5e522d9ea1f1"
+  },
+  {
+    "path": "weekly/2026-10-26/en/details/opportunity-document-acceptance.html",
+    "bytes": 7620,
+    "sha256": "8a35e69616fe8c0a46ec537f92afb27783866ffbb2c4319e1f0a59c335a91d8a"
+  },
+  {
+    "path": "weekly/2026-10-26/en/details/opportunity-state-aware-controller.html",
+    "bytes": 7651,
+    "sha256": "dc4ed2a56cdc58db6f99ff1c37296fb8214129e4d41d671a0bd8b50712c22b1b"
+  },
+  {
+    "path": "weekly/2026-10-26/en/details/signal-consumer-roleplay-continuity.html",
+    "bytes": 6774,
+    "sha256": "163754dd73bae1c2b06d115dd6eb4d88485c85178e3844ab984664c8f7e8b219"
+  },
+  {
+    "path": "weekly/2026-10-26/en/details/trend-action-target-delivery.html",
+    "bytes": 7632,
+    "sha256": "cb134d890d2277fcc64747a2a61e0d02ae17ec8bc6a83b6baa0913fe4f89c33e"
+  },
+  {
+    "path": "weekly/2026-10-26/en/details/trend-budget-success-accounting.html",
+    "bytes": 7708,
+    "sha256": "a7d93ca9e70a2cb03817d618156b8d19824b1b7c6718fbc6d478779aef0025e2"
+  },
+  {
+    "path": "weekly/2026-10-26/en/index.html",
+    "bytes": 58749,
+    "sha256": "8a6bc6946bdb523af9d1a22c88d3769d31c44f0f0507e06fbeb0d64e0b0e0cef"
+  },
+  {
+    "path": "weekly/2026-10-26/manifest.json",
+    "bytes": 22259,
+    "sha256": "93bd48b960454d891f7a1d903fcf963338a546d60b76c3c515b1ebcf29ed0e36"
+  },
+  {
+    "path": "weekly/2026-10-26/sources.html",
+    "bytes": 40274,
+    "sha256": "f0bbd52b363b65965eb973b463fc308c6dcf6c5f4cc9ef6db962b1405a9158f7"
+  },
+  {
+    "path": "weekly/2026-10-26/sources.json",
+    "bytes": 19101,
+    "sha256": "186756140ff4b7212ae6ff0b277f33d0171e6897646b48126e50305510eef1ee"
+  },
+  {
+    "path": "weekly/2026-10-26/visuals.json",
+    "bytes": 9736,
+    "sha256": "deb12337f0338b6e152a5ae02f3e603f9da619db2802275576ceb68820ef3b7c"
+  },
+  {
+    "path": "weekly/2026-10-26/zh/details/highlight-hardware-apple-touch.html",
+    "bytes": 5599,
+    "sha256": "f90b90b11db4e2780287f0ad633784b8d17ed3774b14b871a88b4cd3e58a6a08"
+  },
+  {
+    "path": "weekly/2026-10-26/zh/details/highlight-hardware-matic-serene.html",
+    "bytes": 5649,
+    "sha256": "c069e4501bb5eba3f04ecb59d420d9a126ab6c0284865811bac5b7b04ab8f351"
+  },
+  {
+    "path": "weekly/2026-10-26/zh/details/highlight-hardware-oak4-ffc.html",
+    "bytes": 6273,
+    "sha256": "ecac1cd00e07d3c1cb38fb06b9a9d939fc835b8272b010abb0d9116ae05adddf"
+  },
+  {
+    "path": "weekly/2026-10-26/zh/details/highlight-software-canva-brush.html",
+    "bytes": 5712,
+    "sha256": "ddbe672858fff178388987a3c725a233247f27e2cd46ab0398621386b95df901"
+  },
+  {
+    "path": "weekly/2026-10-26/zh/details/highlight-software-papilot.html",
+    "bytes": 5887,
+    "sha256": "7538502747e41821678512048fffb7a44fba8b01dd037f5deb1837cfafdf6daa"
+  },
+  {
+    "path": "weekly/2026-10-26/zh/details/highlight-software-skyrimnet.html",
+    "bytes": 5865,
+    "sha256": "5be1dac2ef3e10b392411620993759623eac70ce317b3757366facef89103766"
+  },
+  {
+    "path": "weekly/2026-10-26/zh/details/highlight-software-vclip.html",
+    "bytes": 5993,
+    "sha256": "f26c8b200e1c71a112b78b63eff4a16751eaadf67c0297df41f7634087a3a14a"
+  },
+  {
+    "path": "weekly/2026-10-26/zh/details/hiring-contract-part-time.html",
+    "bytes": 7697,
+    "sha256": "3fc963981e43bb01af3c95d915be759d179f654ade29f5fa2ed3bc9d3c302a1a"
+  },
+  {
+    "path": "weekly/2026-10-26/zh/details/hiring-remote-employees.html",
+    "bytes": 6668,
+    "sha256": "d4c2f704bdd3cba4d388743c29babac613cab3ddda7981565279751f728d856a"
+  },
+  {
+    "path": "weekly/2026-10-26/zh/details/hiring-talent-demand.html",
+    "bytes": 6277,
+    "sha256": "a937bd5343a78f91aff89ab20ad9e6b283234a20428a344d17d778a17b2039d7"
+  },
+  {
+    "path": "weekly/2026-10-26/zh/details/opportunity-document-acceptance.html",
+    "bytes": 7098,
+    "sha256": "d8e09a4f365cba7de8018effab8927326a5eecfa62560e0b674b711a32778624"
+  },
+  {
+    "path": "weekly/2026-10-26/zh/details/opportunity-state-aware-controller.html",
+    "bytes": 7122,
+    "sha256": "209ee9e1dc5558e11e70306ca163781dfd3ef5a08488fa519f94a22117c6a950"
+  },
+  {
+    "path": "weekly/2026-10-26/zh/details/signal-consumer-roleplay-continuity.html",
+    "bytes": 6219,
+    "sha256": "e92eb65024202fca2ad34d921dc0a6abd2e4be31e08e641cd1f65af1080ea1ea"
+  },
+  {
+    "path": "weekly/2026-10-26/zh/details/trend-action-target-delivery.html",
+    "bytes": 7057,
+    "sha256": "18ea00ed78bc43a4ab2373a0a53b5f2ed4b2226a65e5d878ae2e8e8b156199b7"
+  },
+  {
+    "path": "weekly/2026-10-26/zh/details/trend-budget-success-accounting.html",
+    "bytes": 7183,
+    "sha256": "f948219869e74b449bf51c55161c3fa93ab637bd15c92cb7a877d98ad35a86e5"
+  },
+  {
+    "path": "weekly/2026-10-26/zh/index.html",
+    "bytes": 56510,
+    "sha256": "bdcd1c7f0bbf2c6ee6226ef663bbe58f33e34efc5b8078b448466d1702e162c5"
+  },
+  {
     "path": "weekly/assets/pilot.css",
     "bytes": 7365,
     "sha256": "d3b071073da857700d758dd91cd07d413ae0dc97ec17eed683fbd35c5b08f671"
@@ -7546,12 +7796,12 @@
   },
   {
     "path": "weekly/index.html",
-    "bytes": 1375,
-    "sha256": "83d6e4155ee7321e5a78a049c307e357aed37b1b6c146dd0724b2092cd53b3d0"
+    "bytes": 1392,
+    "sha256": "e0c4b25d9fae094d9b9c675b05ec8960bf4fe3e37cd2c2738b0f8ca4e434d99c"
   },
   {
     "path": "weekly/manifest.json",
-    "bytes": 589,
-    "sha256": "ed082f01c62ae1fadc55f7c310faa3d878f79398a3861cd3799399f1d5f9f9b5"
+    "bytes": 936,
+    "sha256": "ea82e78dc8598d04bac5d1f0c27da125e39b02e417fafd0f1aa88ddc14439673"
   }
 ]

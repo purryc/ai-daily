@@ -1,0 +1,531 @@
+{
+  "date": "2026-10-26",
+  "type": "weekly",
+  "route": "weekly/2026-10-26",
+  "weekStart": "2026-10-26",
+  "weekEnd": "2026-11-01",
+  "researchStartedAt": "2026-11-02T05:33:21Z",
+  "timezone": "America/Toronto",
+  "cutoff": "2026-11-02T05:00:00Z",
+  "windowStart": "2026-10-26T04:00:00Z",
+  "metrics": {
+    "body": {
+      "zhDenseChars": 10360,
+      "enWords": 6069
+    },
+    "perProduct": {
+      "highlight-software-canva-brush": {
+        "zh": 654,
+        "en": 390
+      },
+      "highlight-hardware-apple-touch": {
+        "zh": 666,
+        "en": 405
+      },
+      "highlight-software-papilot": {
+        "zh": 683,
+        "en": 385
+      },
+      "highlight-software-skyrimnet": {
+        "zh": 697,
+        "en": 393
+      },
+      "highlight-hardware-matic-serene": {
+        "zh": 662,
+        "en": 419
+      },
+      "highlight-software-vclip": {
+        "zh": 649,
+        "en": 396
+      },
+      "highlight-hardware-oak4-ffc": {
+        "zh": 671,
+        "en": 417
+      },
+      "trend-action-target-delivery": {
+        "zh": 791,
+        "en": 452
+      },
+      "trend-budget-success-accounting": {
+        "zh": 780,
+        "en": 430
+      },
+      "signal-consumer-roleplay-continuity": {
+        "zh": 626,
+        "en": 367
+      },
+      "opportunity-document-acceptance": {
+        "zh": 855,
+        "en": 472
+      },
+      "opportunity-state-aware-controller": {
+        "zh": 813,
+        "en": 473
+      },
+      "hiring-remote-employees": {
+        "zh": 504,
+        "en": 326
+      },
+      "hiring-contract-part-time": {
+        "zh": 602,
+        "en": 363
+      },
+      "hiring-talent-demand": {
+        "zh": 707,
+        "en": 381
+      }
+    },
+    "primarySummaries": {
+      "highlight-software-canva-brush": {
+        "zh": 178,
+        "en": 98
+      },
+      "highlight-hardware-apple-touch": {
+        "zh": 161,
+        "en": 100
+      },
+      "highlight-software-papilot": {
+        "zh": 173,
+        "en": 106
+      },
+      "highlight-software-skyrimnet": {
+        "zh": 164,
+        "en": 102
+      },
+      "highlight-hardware-matic-serene": {
+        "zh": 154,
+        "en": 101
+      },
+      "highlight-software-vclip": {
+        "zh": 169,
+        "en": 101
+      },
+      "highlight-hardware-oak4-ffc": {
+        "zh": 171,
+        "en": 102
+      },
+      "trend-action-target-delivery": {
+        "zh": 177,
+        "en": 102
+      },
+      "trend-budget-success-accounting": {
+        "zh": 179,
+        "en": 99
+      },
+      "signal-consumer-roleplay-continuity": {
+        "zh": 189,
+        "en": 100
+      },
+      "opportunity-document-acceptance": {
+        "zh": 148,
+        "en": 84
+      },
+      "opportunity-state-aware-controller": {
+        "zh": 133,
+        "en": 85
+      },
+      "hiring-remote-employees": {
+        "zh": 178,
+        "en": 122
+      },
+      "hiring-contract-part-time": {
+        "zh": 182,
+        "en": 127
+      },
+      "hiring-talent-demand": {
+        "zh": 192,
+        "en": 106
+      }
+    },
+    "counting": "Only unique full-analysis product paragraphs count toward body gates; summaries, captions, coverage and sources excluded.",
+    "products": 15,
+    "references": 67,
+    "coreVisuals": 12,
+    "slidesPerLocale": 18,
+    "primaryProjectPages": 15,
+    "attachedProjectDetails": 15,
+    "primaryBody": {
+      "zhDenseChars": 2548,
+      "enWords": 1535
+    },
+    "completeReadingBody": {
+      "zhDenseChars": 12908,
+      "enWords": 7604
+    }
+  },
+  "revision": {
+    "label": "complete-week",
+    "number": 1,
+    "originalCutoffRetained": true,
+    "newIssue": true,
+    "baselineCommit": "de59df0d5f91511392e7db6eefdf60ed822534f4"
+  },
+  "topics": [
+    {
+      "id": "highlight-software-canva-brush",
+      "unitType": "highlight",
+      "zhHeadline": "Canva Brush改整套设计，也保留逐个对象返修的出口",
+      "enHeadline": "Canva Brush revises a whole design while leaving individual objects editable",
+      "eventAt": "2026-10-29",
+      "freshness": "weekly-event",
+      "evidence": "confirmed product / developer surface; vendor documentation and demos, not independent testing",
+      "eventDateNote": "新闻索引标10月29日，研究页标10月30日；两者均在本周，精确发布时刻未知。11月2日复核。",
+      "event_key": "canva:brush:canva-brush-editable-design:2026-10-29",
+      "product_key": "canva:brush",
+      "publishedAt": "2026-10-29",
+      "observedAt": "2026-11-02T05:44:21.099460+00:00",
+      "delta_since_last_seen": "This week adds a model that executes editing code and inspects the page; the previous week’s Craft focused on image generation."
+    },
+    {
+      "id": "highlight-hardware-apple-touch",
+      "unitType": "highlight",
+      "zhHeadline": "Mac触控适配先要补齐手指找不到的悬停操作",
+      "enHeadline": "Touch on Mac exposes the controls that a finger cannot find",
+      "eventAt": "2026-10-28",
+      "freshness": "weekly-event",
+      "evidence": "developer surface; official examples, not shipped SDK or hands-on hardware test",
+      "eventDateNote": "10月28日开发者材料；11月2日复核工具页仍标Xcode 27.3 beta即将推出。未实测硬件。",
+      "event_key": "apple:touch-on-mac:developer-preview-2026-10-28",
+      "product_key": "apple:touch-on-mac",
+      "publishedAt": "2026-10-28",
+      "observedAt": "2026-11-02T05:43:41.477070+00:00",
+      "delta_since_last_seen": "Code examples separate gesture phases and enlarge touch hit regions. The 36-point value belongs to one example."
+    },
+    {
+      "id": "highlight-software-papilot",
+      "unitType": "highlight",
+      "zhHeadline": "Papilot把PDF上的意见连到源码，审完再选择保存去向",
+      "enHeadline": "Papilot connects PDF feedback to source edits and delays delivery until review",
+      "eventAt": "2026-10-31T03:11:00Z",
+      "freshness": "weekly-event",
+      "evidence": "Original maintainer release, MIT documentation and maker screenshot; no independent installation",
+      "eventDateNote": "本周产品事件；11月2日补读原文，未做产品实测。",
+      "event_key": "github:PapilotAI/papilot:release:v0.7.0",
+      "product_key": "github:PapilotAI/papilot",
+      "publishedAt": "2026-10-31T03:11:00Z",
+      "observedAt": "2026-11-02T05:44:21.099460+00:00",
+      "delta_since_last_seen": "Version 0.7 groups notes by color and holds accepted edits in new tasks until the user chooses a working directory or task branch."
+    },
+    {
+      "id": "highlight-software-skyrimnet",
+      "unitType": "highlight",
+      "zhHeadline": "SkyrimNet让选项也有角色声音，NPC记忆能记住具体房间",
+      "enHeadline": "SkyrimNet joins menu choices to spoken role-play and room-level memory",
+      "eventAt": "2026-10-31T01:26:27Z",
+      "freshness": "weekly-event",
+      "evidence": "Maintainer release and implementation documentation; author demo, not independent test",
+      "eventDateNote": "本周产品事件；11月2日补读原文，未做产品实测。",
+      "event_key": "github:MinLL/SkyrimNet-GamePlugin:release:vbeta29",
+      "product_key": "github:MinLL/SkyrimNet-GamePlugin",
+      "publishedAt": "2026-10-31T01:26:27Z",
+      "observedAt": "2026-11-02T05:44:21.099460+00:00",
+      "delta_since_last_seen": "Internal voicing removes the DBVO dependency for that feature. Players can label rooms so events and memories carry a more specific location."
+    },
+    {
+      "id": "highlight-hardware-matic-serene",
+      "unitType": "highlight",
+      "zhHeadline": "Matic Serene重做真空结构，清扫声调成为升级重点",
+      "enHeadline": "Matic Serene redesigns its vacuum stack to target a prominent tone",
+      "eventAt": "2026-10-27",
+      "freshness": "weekly-event",
+      "evidence": "confirmed vendor product change; acoustic measurements and comfort claims not independently replicated",
+      "eventDateNote": "10月27日硬件声学改版；11月2日复核选购器，Serene仍标11月15日开始发货。",
+      "event_key": "maticrobots:serene:acoustic-stack:2026-10-27",
+      "product_key": "maticrobots:serene",
+      "publishedAt": "2026-10-27",
+      "observedAt": "2026-11-02T05:43:41.477070+00:00",
+      "delta_since_last_seen": "Matic reports 55 to 52 dB overall and 10–15 dB less of the prominent tone; these are different measures."
+    },
+    {
+      "id": "highlight-software-vclip",
+      "unitType": "highlight",
+      "zhHeadline": "VClip按字幕推荐切片，精确切点与字幕交付仍有取舍",
+      "enHeadline": "VClip proposes clips from transcripts, with an explicit export tradeoff",
+      "eventAt": "2026-10-29",
+      "freshness": "weekly-event",
+      "evidence": "Original source documentation and maker screenshots; no local execution or independently tested throughput",
+      "eventDateNote": "10月29日首个公开源码版本；精确公开时刻和时区未确认。11月2日复核固定提交文档。",
+      "event_key": "wyfirstname:VClip:v0.3.4:public-source:2026-10-29",
+      "product_key": "github:wyfirstname/videoclip",
+      "publishedAt": "2026-10-29",
+      "observedAt": "2026-11-02T05:44:21.099460+00:00",
+      "delta_since_last_seen": "Version 0.3.4 is the first public source release, connecting selection and output controls in one workspace."
+    },
+    {
+      "id": "highlight-hardware-oak4-ffc",
+      "unitType": "highlight",
+      "zhHeadline": "OAK 4 FFC让机器人自己排相机，五路视野仍需几何与算力预算",
+      "enHeadline": "OAK 4 FFC lets robot builders arrange five cameras",
+      "eventAt": "2026-10-27",
+      "freshness": "weekly-event",
+      "evidence": "Original vendor announcement and technical documentation; vendor demonstrations and claims, not independent product testing",
+      "eventDateNote": "保留10月27日原始公告日期；11月2日页面现称套件可发货，生效时刻未知，不倒填上周交付。",
+      "event_key": "luxonis:oak4-ffc:oak4-ffc-modular-vision:2026-10-27",
+      "product_key": "luxonis:oak4-ffc",
+      "publishedAt": "2026-10-27",
+      "observedAt": "2026-11-02T05:43:41.477070+00:00",
+      "delta_since_last_seen": "The arrangement reduces separate integration work, but streams share compute and do not automatically produce 360-degree depth or a fused point cloud."
+    },
+    {
+      "id": "trend-action-target-delivery",
+      "unitType": "trend",
+      "zhHeadline": "代理会继续执行，批准对象和交付位置需要单独说清",
+      "enHeadline": "Continuing agents need clear approval scopes and delivery targets",
+      "eventAt": "2026-10-28–31",
+      "freshness": "weekly-synthesis",
+      "evidence": "Editorial synthesis of attributed original sources",
+      "eventDateNote": "本周事件与历史背景分别注明；11月2日补采不算上周新事件。",
+      "event_key": "weekly:2026-10-26:trend-action-target-delivery",
+      "product_key": "trend-action-target-delivery",
+      "publishedAt": null,
+      "observedAt": "2026-11-02T05:45:02.690118+00:00",
+      "delta_since_last_seen": "Google Home fixes a fallback that altered the nearby device when the intended speaker was missing, exposing a separate targeting failure."
+    },
+    {
+      "id": "trend-budget-success-accounting",
+      "unitType": "trend",
+      "zhHeadline": "共享额度让代理更容易开工，账单仍需要连到完成结果",
+      "enHeadline": "Shared budgets make agents easier to start; spending still needs a verified outcome",
+      "eventAt": "2026-10-28–30",
+      "freshness": "weekly-synthesis",
+      "evidence": "Editorial synthesis of attributed original sources",
+      "eventDateNote": "本周事件与历史背景分别注明；11月2日补采不算上周新事件。",
+      "event_key": "weekly:2026-10-26:trend-budget-success-accounting",
+      "product_key": "trend-budget-success-accounting",
+      "publishedAt": null,
+      "observedAt": "2026-11-02T05:45:02.690118+00:00",
+      "delta_since_last_seen": "The week brings three different increments: budget management, broader feature access and evidence of silent failures that escape escalation."
+    },
+    {
+      "id": "signal-consumer-roleplay-continuity",
+      "unitType": "signal",
+      "zhHeadline": "玩家想让角色记得自己，也希望随时关掉不合口味的声音",
+      "enHeadline": "Players want characters to remember them—and a way to silence voices that do not fit",
+      "eventAt": "2026-10-31",
+      "freshness": "historical-observation-rechecked",
+      "evidence": "Observed community accounts; not representative demand",
+      "eventDateNote": "本周事件与历史背景分别注明；11月2日补采不算上周新事件。",
+      "event_key": "weekly:2026-10-26:signal-consumer-roleplay-continuity",
+      "product_key": "signal-consumer-roleplay-continuity",
+      "publishedAt": null,
+      "observedAt": "2026-11-02T05:45:02.690118+00:00",
+      "delta_since_last_seen": "Community requests seek remembered actions and spontaneous responses. Another discussion contains enjoyment of absurd voices alongside selective acceptance and rejection."
+    },
+    {
+      "id": "opportunity-document-acceptance",
+      "unitType": "opportunity",
+      "zhHeadline": "材料已经上传，仍要有人判断是不是要的那一份",
+      "enHeadline": "An uploaded file still needs to be the right document",
+      "eventAt": "2026-11-02",
+      "freshness": "historical-problem-rechecked",
+      "evidence": "Proposed validation; commercial demand unverified",
+      "eventDateNote": "本周新增对标研究，11月2日补采复核；社区帖为历史材料，精确原始日期未核。不计本周新品。",
+      "event_key": "weekly:2026-10-26:opportunity-document-acceptance",
+      "product_key": "opportunity-document-acceptance",
+      "publishedAt": null,
+      "observedAt": "2026-11-02T05:44:44Z",
+      "delta_since_last_seen": "Content Snare already has reminders, format rules and item-level rejection; Docparser sells per-layout configuration. Another portal needs stronger justification."
+    },
+    {
+      "id": "opportunity-state-aware-controller",
+      "unitType": "opportunity",
+      "zhHeadline": "控制面板的付费理由，是少配置和状态可靠，不是按键更多",
+      "enHeadline": "A control panel has to save setup and report state reliably",
+      "eventAt": "2026-10-28",
+      "freshness": "historical-problem-rechecked",
+      "evidence": "Proposed validation; commercial demand unverified",
+      "eventDateNote": "10月28日新发现对标；最新可核版本1.0.10为10月19日，早于本周。11月2日补采，历史社区日期未精确核实。",
+      "event_key": "weekly:2026-10-26:opportunity-state-aware-controller",
+      "product_key": "opportunity-state-aware-controller",
+      "publishedAt": null,
+      "observedAt": "2026-11-02T05:44:44Z",
+      "delta_since_last_seen": "DeckBridge lists GBP54.99; its fixes expose the continuing maintenance required after software changes."
+    },
+    {
+      "id": "hiring-remote-employees",
+      "unitType": "jobs",
+      "zhHeadline": "招聘：实体运营、AI交互与订阅实验需要不同设计责任",
+      "enHeadline": "Hiring: physical operations, AI interaction and subscriptions need different design work",
+      "eventAt": "2026-11-02",
+      "freshness": "post-window-hiring-observation",
+      "evidence": "Employer descriptions and visible application routes; status observation, not completed hiring",
+      "eventDateNote": "覆盖周10月26日–11月1日；岗位状态于11月2日补查。除APF外发布日期未核实；没有一项称本周新发布。",
+      "event_key": "weekly:2026-10-26:hiring-remote-employees",
+      "product_key": "hiring-remote-employees",
+      "publishedAt": null,
+      "observedAt": "2026-11-02T05:40:41Z",
+      "delta_since_last_seen": "Samsara covers IoT operations; StackAdapt specifies AI confidence, recovery and evals; Life360 concentrates on subscription experiments."
+    },
+    {
+      "id": "hiring-contract-part-time",
+      "unitType": "jobs",
+      "zhHeadline": "合作岗位：每周四五天的合同，与按交付验收的顾问项目",
+      "enHeadline": "Contract work: distinguish a four-day week from a deliverable-based engagement",
+      "eventAt": "2026-11-02",
+      "freshness": "post-window-hiring-observation",
+      "evidence": "Employer descriptions and visible application routes; status observation, not completed hiring",
+      "eventDateNote": "覆盖周10月26日–11月1日；岗位状态于11月2日补查。除APF外发布日期未核实；没有一项称本周新发布。",
+      "event_key": "weekly:2026-10-26:hiring-contract-part-time",
+      "product_key": "hiring-contract-part-time",
+      "publishedAt": null,
+      "observedAt": "2026-11-02T05:40:41Z",
+      "delta_since_last_seen": "HouseSigma lists CAD 50–100/hour; most other roles omit pay, capacity or time-zone requirements."
+    },
+    {
+      "id": "hiring-talent-demand",
+      "unitType": "talent",
+      "zhHeadline": "人才诉求：AI判断、设计系统和生产责任开始写进同一岗位",
+      "enHeadline": "Talent demand: AI judgment, design systems and production responsibility share a role",
+      "eventAt": "2026-11-02",
+      "freshness": "post-window-hiring-sample-analysis",
+      "evidence": "Employer descriptions and visible application routes; status observation, not completed hiring",
+      "eventDateNote": "覆盖周10月26日–11月1日；岗位状态于11月2日补查。除APF外发布日期未核实；没有一项称本周新发布。",
+      "event_key": "weekly:2026-10-26:hiring-talent-demand",
+      "product_key": "hiring-talent-demand",
+      "publishedAt": null,
+      "observedAt": "2026-11-02T05:40:41Z",
+      "delta_since_last_seen": "The former involves confidence, approval and recovery. The latter spans runnable prototypes, engineering handoff and production code."
+    }
+  ],
+  "unitCounts": {
+    "highlight": 7,
+    "trend": 2,
+    "opportunity": 2,
+    "signal": 1,
+    "jobs": 2,
+    "talent": 1
+  },
+  "windowHours": 169,
+  "hiringSupplement": {
+    "roles": [
+      {
+        "id": "samsara",
+        "company": "Samsara",
+        "url": "https://www.samsara.com/company/careers/roles/8275253?gh_jid=8275253",
+        "newFound": true,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-11-02T05:40:41Z"
+      },
+      {
+        "id": "andgo-lead",
+        "company": "Andgo",
+        "url": "https://job-boards.greenhouse.io/andgosystems/jobs/4456641009",
+        "newFound": false,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-11-02T05:40:41Z"
+      },
+      {
+        "id": "stackadapt",
+        "company": "StackAdapt",
+        "url": "https://job-boards.greenhouse.io/stackadapt/jobs/4410085009",
+        "newFound": false,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-11-02T05:40:41Z"
+      },
+      {
+        "id": "life360",
+        "company": "Life360",
+        "url": "https://job-boards.greenhouse.io/life360/jobs/8790900002",
+        "newFound": false,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-11-02T05:40:41Z"
+      },
+      {
+        "id": "astell",
+        "company": "Lab24 / Astell",
+        "url": "https://astell.ai/en/careers/ui-ux",
+        "newFound": false,
+        "conditional": true,
+        "publishedAt": null,
+        "observedAt": "2026-11-02T05:40:41Z"
+      },
+      {
+        "id": "harvey",
+        "company": "Harvey",
+        "url": "https://www.harvey.ai/company/careers/7325a214-908d-48a4-bbc2-f5c3a6c9ed00",
+        "newFound": true,
+        "conditional": true,
+        "publishedAt": null,
+        "observedAt": "2026-11-02T05:40:41Z"
+      },
+      {
+        "id": "andgo-contract",
+        "company": "Andgo",
+        "url": "https://job-boards.greenhouse.io/andgosystems/jobs/4456625009",
+        "newFound": false,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-11-02T05:40:41Z"
+      },
+      {
+        "id": "alpaca",
+        "company": "Alpaca",
+        "url": "https://job-boards.greenhouse.io/alpaca/jobs/6187326004",
+        "newFound": false,
+        "conditional": true,
+        "publishedAt": null,
+        "observedAt": "2026-11-02T05:40:41Z"
+      },
+      {
+        "id": "lca",
+        "company": "LCA",
+        "url": "https://www.latecheckout.agency/careers/sr-product-designer",
+        "newFound": false,
+        "conditional": true,
+        "publishedAt": null,
+        "observedAt": "2026-11-02T05:40:41Z"
+      },
+      {
+        "id": "housesigma",
+        "company": "HouseSigma",
+        "url": "https://team.housesigma.com/job_posting/senior-product-designer/",
+        "newFound": false,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-11-02T05:40:41Z"
+      },
+      {
+        "id": "raisedesk",
+        "company": "RaiseDesk",
+        "url": "https://raisedesk.io/careers/senior-product-designer-agentic-ux-ui",
+        "newFound": true,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-11-02T05:40:41Z"
+      },
+      {
+        "id": "upgraded",
+        "company": "Upgraded",
+        "url": "https://www.getupgraded.ca/jobs/product-designer",
+        "newFound": false,
+        "conditional": true,
+        "publishedAt": null,
+        "observedAt": "2026-11-02T05:40:41Z"
+      },
+      {
+        "id": "apf-ux",
+        "company": "APF Canada",
+        "url": "https://www.asiapacific.ca/about-us/employment-opportunities",
+        "newFound": true,
+        "conditional": true,
+        "publishedAt": "2026-10-22",
+        "observedAt": "2026-11-02T05:40:41Z"
+      }
+    ],
+    "main": 7,
+    "conditional": 6,
+    "newFound": 4,
+    "revalidated": 9,
+    "employers": 12,
+    "originalPublicationDatesVerified": 1,
+    "observationNote": "Rechecked November 2; original dates retained; not all newly posted in the covered week."
+  },
+  "periodLabel": [
+    "2026年10月26日–11月1日",
+    "October 26–November 1, 2026"
+  ]
+}

@@ -1,0 +1,513 @@
+[
+  {
+    "url": "https://www.canva.com/ai-research/",
+    "title": "Canva Research",
+    "publisher": "Canva",
+    "publishedAt": null,
+    "evidenceType": "Original product documentation; vendor or maintainer claims, not an independent performance test",
+    "number": 1
+  },
+  {
+    "url": "https://www.canva.com/help/canva-design-assistant/",
+    "title": "Refine designs through conversation",
+    "publisher": "Canva",
+    "publishedAt": null,
+    "evidenceType": "Original product documentation; vendor or maintainer claims, not an independent performance test",
+    "number": 2
+  },
+  {
+    "url": "https://www.canva.com/help/using-magic-edit/",
+    "title": "Use Magic Edit",
+    "publisher": "Canva",
+    "publishedAt": null,
+    "evidenceType": "Original product documentation; vendor or maintainer claims, not an independent performance test",
+    "number": 3
+  },
+  {
+    "url": "https://www.canva.com/newsroom/news/canva-brush/",
+    "title": "Introducing Canva Brush",
+    "publisher": "Canva Research",
+    "publishedAt": "2026-10-29",
+    "evidenceType": "Original product documentation; vendor or maintainer claims, not an independent performance test",
+    "number": 4
+  },
+  {
+    "url": "https://www.canva.com/newsroom/news/canva-craft/",
+    "title": "Introducing Canva Craft",
+    "publisher": "Canva Research",
+    "publishedAt": "2026-10-22 (news index); 2026-10-23 (research index)",
+    "evidenceType": "Original product documentation; vendor or maintainer claims, not an independent performance test",
+    "number": 5
+  },
+  {
+    "url": "https://developer.apple.com/news/?id=i9boeiqc",
+    "title": "Say hello to Touch on Mac",
+    "publisher": "Apple Developer",
+    "publishedAt": "2026-10-28",
+    "evidenceType": "Original vendor documentation; not independently tested",
+    "number": 6
+  },
+  {
+    "url": "https://developer.apple.com/touch-on-mac/",
+    "title": "Get ready for Touch on Mac",
+    "publisher": "Apple Developer",
+    "publishedAt": null,
+    "evidenceType": "Original vendor documentation; not independently tested",
+    "number": 7
+  },
+  {
+    "url": "https://developer.apple.com/videos/play/tech-talks/111456/",
+    "title": "Design for touch on Mac",
+    "publisher": "Apple Developer",
+    "publishedAt": null,
+    "evidenceType": "Original vendor documentation; not independently tested",
+    "number": 8
+  },
+  {
+    "url": "https://developer.apple.com/videos/play/tech-talks/111468/",
+    "title": "Bring Touch to your Mac app",
+    "publisher": "Apple Developer",
+    "publishedAt": null,
+    "evidenceType": "Original vendor documentation; not independently tested",
+    "number": 9
+  },
+  {
+    "url": "https://github.com/PapilotAI/papilot/blob/v0.7.0/README.zh-CN.md",
+    "title": "Papilot0.7.0 Chinese README",
+    "publisher": "Cui Chen / PapilotAI",
+    "publishedAt": null,
+    "evidenceType": "Original product documentation; vendor or maintainer claims, not an independent performance test",
+    "number": 10
+  },
+  {
+    "url": "https://github.com/PapilotAI/papilot/blob/v0.7.0/docs/guide.md",
+    "title": "Papilot0.7.0 guide",
+    "publisher": "Cui Chen / PapilotAI",
+    "publishedAt": null,
+    "evidenceType": "Original product documentation; vendor or maintainer claims, not an independent performance test",
+    "number": 11
+  },
+  {
+    "url": "https://github.com/PapilotAI/papilot/releases/tag/v0.7.0",
+    "title": "Papilot0.7.0 release",
+    "publisher": "Cui Chen / PapilotAI",
+    "publishedAt": "2026-10-31T03:11:00Z",
+    "evidenceType": "Original product documentation; vendor or maintainer claims, not an independent performance test",
+    "number": 12
+  },
+  {
+    "url": "https://github.com/MinLL/SkyrimNet-GamePlugin/blob/vbeta29/LICENSE",
+    "title": "SkyrimNet Game Plugin License",
+    "publisher": "Fateless",
+    "publishedAt": null,
+    "evidenceType": "Original product documentation; vendor or maintainer claims, not an independent performance test",
+    "number": 13
+  },
+  {
+    "url": "https://github.com/MinLL/SkyrimNet-GamePlugin/blob/vbeta29/README.md",
+    "title": "SkyrimNet Beta29 README",
+    "publisher": "Fateless / MinLL",
+    "publishedAt": null,
+    "evidenceType": "Original product documentation; vendor or maintainer claims, not an independent performance test",
+    "number": 14
+  },
+  {
+    "url": "https://github.com/MinLL/SkyrimNet-GamePlugin/blob/vbeta29/docs/FEATURES.md",
+    "title": "SkyrimNet features at Beta29",
+    "publisher": "Fateless / MinLL",
+    "publishedAt": null,
+    "evidenceType": "Original product documentation; vendor or maintainer claims, not an independent performance test",
+    "number": 15
+  },
+  {
+    "url": "https://github.com/MinLL/SkyrimNet-GamePlugin/releases/tag/vbeta29",
+    "title": "SkyrimNet Beta29 release",
+    "publisher": "Fateless / MinLL",
+    "publishedAt": "2026-10-31T01:26:27Z",
+    "evidenceType": "Original product documentation; vendor or maintainer claims, not an independent performance test",
+    "number": 16
+  },
+  {
+    "url": "https://maticrobots.com/blog/engineering-behind-matic-serene",
+    "title": "The engineering behind Matic Serene’s smoother sound",
+    "publisher": "Matic",
+    "publishedAt": "2026-10-27",
+    "evidenceType": "Original vendor documentation; not independently tested",
+    "number": 17
+  },
+  {
+    "url": "https://maticrobots.com/product",
+    "title": "Matic configurator",
+    "publisher": "Matic",
+    "publishedAt": null,
+    "evidenceType": "Original vendor documentation; not independently tested",
+    "number": 18
+  },
+  {
+    "url": "https://maticrobots.com/innovation",
+    "title": "How Matic sees, navigates and cleans",
+    "publisher": "Matic",
+    "publishedAt": null,
+    "evidenceType": "Original vendor documentation; not independently tested",
+    "number": 19
+  },
+  {
+    "url": "https://maticrobots.com/serene",
+    "title": "Matic Serene",
+    "publisher": "Matic",
+    "publishedAt": null,
+    "evidenceType": "Original vendor documentation; not independently tested",
+    "number": 20
+  },
+  {
+    "url": "https://www.theverge.com/tech/1019298/matic-serene-robot-vacuum-price-specs-release-date",
+    "title": "My favorite robot vacuum just got quieter, and more expensive",
+    "publisher": "The Verge",
+    "publishedAt": "2026-10-27",
+    "evidenceType": "Original vendor documentation; not independently tested",
+    "number": 21
+  },
+  {
+    "url": "https://github.com/wyfirstname/videoclip/blob/9b0397caad6ea675f5dc885766de753de3e3a141/CHANGELOG.md",
+    "title": "VClip changelog",
+    "publisher": "wyfirstname / VClip",
+    "publishedAt": "2026-10-29",
+    "evidenceType": "Original product documentation; vendor or maintainer claims, not an independent performance test",
+    "number": 22
+  },
+  {
+    "url": "https://github.com/wyfirstname/videoclip/blob/9b0397caad6ea675f5dc885766de753de3e3a141/README.md",
+    "title": "VClip README",
+    "publisher": "wyfirstname / VClip",
+    "publishedAt": null,
+    "evidenceType": "Original product documentation; vendor or maintainer claims, not an independent performance test",
+    "number": 23
+  },
+  {
+    "url": "https://github.com/wyfirstname/videoclip/blob/9b0397caad6ea675f5dc885766de753de3e3a141/docs/BLOG.md",
+    "title": "VClip maker technical article in repository",
+    "publisher": "wyfirstname / VClip",
+    "publishedAt": null,
+    "evidenceType": "Original product documentation; vendor or maintainer claims, not an independent performance test",
+    "number": 24
+  },
+  {
+    "url": "https://github.com/wyfirstname/videoclip/blob/9b0397caad6ea675f5dc885766de753de3e3a141/docs/INSTALL.md",
+    "title": "VClip installation guide",
+    "publisher": "wyfirstname / VClip",
+    "publishedAt": null,
+    "evidenceType": "Original product documentation; vendor or maintainer claims, not an independent performance test",
+    "number": 25
+  },
+  {
+    "url": "https://discuss.luxonis.com/d/7072-introducing-oak-4-ffc-build-the-vision-system-your-robot-actually-needs",
+    "title": "Introducing OAK 4 FFC",
+    "publisher": "Luxonis",
+    "publishedAt": "2026-10-27",
+    "evidenceType": "Original vendor documentation; not independently tested",
+    "number": 26
+  },
+  {
+    "url": "https://www.luxonis.com/oak4-ffc",
+    "title": "OAK 4 FFC product overview",
+    "publisher": "Luxonis",
+    "publishedAt": null,
+    "evidenceType": "Original vendor documentation; not independently tested",
+    "number": 27
+  },
+  {
+    "url": "https://www.luxonis.com/assets/oak4-ffc/oak-4-ffc-datasheet.pdf",
+    "title": "OAK 4 FFC datasheet, Rev.2026-10",
+    "publisher": "Luxonis",
+    "publishedAt": "2026-10",
+    "evidenceType": "Original vendor documentation; not independently tested",
+    "number": 28
+  },
+  {
+    "url": "https://shop.luxonis.com/products/oak-4-ffc",
+    "title": "OAK 4 FFC store",
+    "publisher": "Luxonis",
+    "publishedAt": null,
+    "evidenceType": "Original vendor documentation; not independently tested",
+    "number": 29
+  },
+  {
+    "url": "https://github.blog/changelog/2026-10-28-agent-merge-watches-and-fixes-pull-requests-in-the-cloud/",
+    "title": "Agent Merge announcement",
+    "publishedAt": "2026-10-28",
+    "evidenceType": "Original product documentation",
+    "number": 30
+  },
+  {
+    "url": "https://docs.github.com/en/copilot/how-tos/copilot-on-github/use-copilot-agents/watch-and-fix-pull-requests",
+    "title": "Agent Merge guide",
+    "publishedAt": null,
+    "evidenceType": "Original product documentation",
+    "number": 31
+  },
+  {
+    "url": "https://support.google.com/googlehome/answer/15962877",
+    "title": "Google Home October 29 release notes",
+    "publishedAt": "2026-10-29",
+    "evidenceType": "Original product documentation",
+    "number": 32
+  },
+  {
+    "url": "https://1password.com/blog/1password-for-ai-agents",
+    "title": "1Password for Agents prior-week baseline",
+    "publishedAt": "2026-10-22",
+    "evidenceType": "Original product documentation",
+    "number": 33
+  },
+  {
+    "url": "https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets",
+    "title": "Claude Enterprise reports and pooled budgets",
+    "publishedAt": "2026-10-28",
+    "evidenceType": "Original product documentation",
+    "number": 34
+  },
+  {
+    "url": "https://ifttt.com/plans",
+    "title": "IFTTT current plans",
+    "publishedAt": null,
+    "evidenceType": "Original product documentation",
+    "number": 35
+  },
+  {
+    "url": "https://ifttt.com/explore/ai-agent-ai-action-assist",
+    "title": "IFTTT AI Agent introduction",
+    "publishedAt": "2026-10-28",
+    "evidenceType": "Original product documentation",
+    "number": 36
+  },
+  {
+    "url": "https://github.com/Aparajith24/obol/blob/main/EXPERIMENTS.md",
+    "title": "Obol experimental record",
+    "publishedAt": null,
+    "evidenceType": "Maker experiment with hypothetical prices",
+    "number": 37
+  },
+  {
+    "url": "https://www.reddit.com/r/SideProject/comments/1xjepv5/i_was_building_agentic_workflows_at_work_and_got/",
+    "title": "Obol original maker announcement",
+    "publishedAt": "2026-10-30T12:59:57Z",
+    "evidenceType": "Community maker report",
+    "number": 38
+  },
+  {
+    "url": "https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli/",
+    "title": "Copilot CLI local-model selection baseline",
+    "publishedAt": "2026-10-07",
+    "evidenceType": "Original product documentation",
+    "number": 39
+  },
+  {
+    "url": "https://www.reddit.com/r/skyrimmods/comments/1wwxxvf/looking_for_modlist_advice_ai_npcs_emergent/",
+    "title": "Player request for persistent NPC interactions",
+    "publishedAt": null,
+    "evidenceType": "Historical community request; body only",
+    "number": 40
+  },
+  {
+    "url": "https://www.reddit.com/r/skyrimmods/comments/1xepvjm/are_there_any_ai_mods_that_youve_found_that_are/",
+    "title": "Player discussion of useful AI mods",
+    "publishedAt": null,
+    "evidenceType": "Community discussion; 16 visible nondeleted comments under Best",
+    "number": 41
+  },
+  {
+    "url": "https://www.reddit.com/r/Accounting/comments/1ux76ju/how_do_you_deal_with_clients_who_send_the_wrong/",
+    "title": "Accounting: repeated wrong documents",
+    "publishedAt": null,
+    "evidenceType": "Historical user report; visible Best comments",
+    "number": 42
+  },
+  {
+    "url": "https://www.reddit.com/r/Accounting/comments/1wuwsnf/comment/pd6rk1y/",
+    "title": "Accounting: documents clients send late or incorrectly",
+    "publishedAt": null,
+    "evidenceType": "User reports; relative dates inconsistent",
+    "number": 43
+  },
+  {
+    "url": "https://www.reddit.com/r/Bookkeeping/comments/1d57dru/bank_statements/",
+    "title": "Bookkeeping: bank statement retrieval",
+    "publishedAt": null,
+    "evidenceType": "Historical discussion and alternative workflows",
+    "number": 44
+  },
+  {
+    "url": "https://contentsnare.com/tour/",
+    "title": "Content Snare product tour",
+    "publishedAt": null,
+    "evidenceType": "Official product documentation",
+    "number": 45
+  },
+  {
+    "url": "https://contentsnare.com/features/approve-reject/",
+    "title": "Content Snare approve and reject",
+    "publishedAt": null,
+    "evidenceType": "Official product documentation",
+    "number": 46
+  },
+  {
+    "url": "https://contentsnare.com/pricing/",
+    "title": "Content Snare pricing",
+    "publishedAt": null,
+    "evidenceType": "Official product documentation",
+    "number": 47
+  },
+  {
+    "url": "https://docparser.com/pricing/",
+    "title": "Docparser pricing and per-layout setup",
+    "publishedAt": null,
+    "evidenceType": "Official product documentation",
+    "number": 48
+  },
+  {
+    "url": "https://www.reddit.com/r/elgato/comments/1u2oip6/how_can_i_map_stream_deck_plus_dials_to_slider/",
+    "title": "Elgato user: mapping dials to Resolve controls",
+    "publishedAt": null,
+    "evidenceType": "Historical user report; visible Best comments",
+    "number": 49
+  },
+  {
+    "url": "https://deckbridge.io/resolve/",
+    "title": "DeckBridge for DaVinci Resolve",
+    "publishedAt": null,
+    "evidenceType": "Official product documentation",
+    "number": 50
+  },
+  {
+    "url": "https://marketplace.elgato.com/product/deckbridge-for-davinci-resolve-24b32087-68e6-4b63-af69-f817ea6d3645",
+    "title": "DeckBridge v1.0.10 on Elgato Marketplace",
+    "publishedAt": "2026-10-19",
+    "evidenceType": "Vendor listing and release notes",
+    "number": 51
+  },
+  {
+    "url": "https://deckbridge.io/resolve/setup/",
+    "title": "DeckBridge setup and diagnostic states",
+    "publishedAt": null,
+    "evidenceType": "Official product documentation",
+    "number": 52
+  },
+  {
+    "url": "https://www.reddit.com/r/colorists/comments/uv7m93/stream_deck_xl_davinci_resolve_profiles/",
+    "title": "Colorists: Resolve Stream Deck profiles",
+    "publishedAt": null,
+    "evidenceType": "Historical purchase self-reports and counterexamples",
+    "number": 53
+  },
+  {
+    "url": "https://www.reddit.com/r/elgato/comments/1wgqj9m/i_built_deckbridge_for_davinci_resolve_live/",
+    "title": "DeckBridge maker introduction",
+    "publishedAt": null,
+    "evidenceType": "Maker self-report; not independent customer evidence",
+    "number": 54
+  },
+  {
+    "url": "https://www.samsara.com/company/careers/roles/8275253?gh_jid=8275253",
+    "title": "Samsara — Staff Product Designer",
+    "publisher": "Samsara",
+    "publishedAt": null,
+    "evidenceType": "Employer vacancy / procurement notice; rechecked Nov 2",
+    "number": 55
+  },
+  {
+    "url": "https://job-boards.greenhouse.io/andgosystems/jobs/4456641009",
+    "title": "Andgo — Senior Product Designer / Design Lead",
+    "publisher": "Andgo",
+    "publishedAt": null,
+    "evidenceType": "Employer vacancy / procurement notice; rechecked Nov 2",
+    "number": 56
+  },
+  {
+    "url": "https://job-boards.greenhouse.io/stackadapt/jobs/4410085009",
+    "title": "StackAdapt — Staff Product Designer — Ivy AI experience",
+    "publisher": "StackAdapt",
+    "publishedAt": null,
+    "evidenceType": "Employer vacancy / procurement notice; rechecked Nov 2",
+    "number": 57
+  },
+  {
+    "url": "https://job-boards.greenhouse.io/life360/jobs/8790900002",
+    "title": "Life360 — Senior Product Designer II, Revenue Experimentation",
+    "publisher": "Life360",
+    "publishedAt": null,
+    "evidenceType": "Employer vacancy / procurement notice; rechecked Nov 2",
+    "number": 58
+  },
+  {
+    "url": "https://astell.ai/en/careers/ui-ux",
+    "title": "Lab24 / Astell — Product Designer (UI/UX)",
+    "publisher": "Lab24 / Astell",
+    "publishedAt": null,
+    "evidenceType": "Employer vacancy / procurement notice; rechecked Nov 2",
+    "number": 59
+  },
+  {
+    "url": "https://www.harvey.ai/company/careers/7325a214-908d-48a4-bbc2-f5c3a6c9ed00",
+    "title": "Harvey — Staff Product Designer",
+    "publisher": "Harvey",
+    "publishedAt": null,
+    "evidenceType": "Employer vacancy / procurement notice; rechecked Nov 2",
+    "number": 60
+  },
+  {
+    "url": "https://job-boards.greenhouse.io/andgosystems/jobs/4456625009",
+    "title": "Andgo — Senior Product Designer (Contract)",
+    "publisher": "Andgo",
+    "publishedAt": null,
+    "evidenceType": "Employer vacancy / procurement notice; rechecked Nov 2",
+    "number": 61
+  },
+  {
+    "url": "https://job-boards.greenhouse.io/alpaca/jobs/6187326004",
+    "title": "Alpaca — Senior Product Designer, Operations Tools",
+    "publisher": "Alpaca",
+    "publishedAt": null,
+    "evidenceType": "Employer vacancy / procurement notice; rechecked Nov 2",
+    "number": 62
+  },
+  {
+    "url": "https://www.latecheckout.agency/careers/sr-product-designer",
+    "title": "LCA — Sr. Product Designer (Freelance/Part-time)",
+    "publisher": "LCA",
+    "publishedAt": null,
+    "evidenceType": "Employer vacancy / procurement notice; rechecked Nov 2",
+    "number": 63
+  },
+  {
+    "url": "https://team.housesigma.com/job_posting/senior-product-designer/",
+    "title": "HouseSigma — Senior Product Designer (Part-Time Role)",
+    "publisher": "HouseSigma",
+    "publishedAt": null,
+    "evidenceType": "Employer vacancy / procurement notice; rechecked Nov 2",
+    "number": 64
+  },
+  {
+    "url": "https://raisedesk.io/careers/senior-product-designer-agentic-ux-ui",
+    "title": "RaiseDesk — Senior Product Designer, Agentic UX/UI",
+    "publisher": "RaiseDesk",
+    "publishedAt": null,
+    "evidenceType": "Employer vacancy / procurement notice; rechecked Nov 2",
+    "number": 65
+  },
+  {
+    "url": "https://www.getupgraded.ca/jobs/product-designer",
+    "title": "Upgraded — Designer – Product, Software, Marketing & AI",
+    "publisher": "Upgraded",
+    "publishedAt": null,
+    "evidenceType": "Employer vacancy / procurement notice; rechecked Nov 2",
+    "number": 66
+  },
+  {
+    "url": "https://www.asiapacific.ca/about-us/employment-opportunities",
+    "title": "APF Canada — APFC-2026-UX-01 — UX review and redesign recommendations",
+    "publisher": "APF Canada",
+    "publishedAt": "2026-10-22",
+    "evidenceType": "Employer vacancy / procurement notice; rechecked Nov 2",
+    "number": 67
+  }
+]

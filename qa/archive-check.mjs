@@ -57,7 +57,7 @@ export async function checkArchive({browser, url, live, locale, phase, check, sc
     await p.locator('[data-archive-year]').selectOption('2026');
     const counts=await p.locator('[data-archive-month]').evaluateAll(els=>els.map(e=>({value:e.dataset.archiveMonth,label:e.getAttribute('aria-label')})));
     check('archive-real-month-counts',counts.every(x=>x.label.includes(String(x.value==='all'?allDates.filter(d=>d.startsWith('2026')).length:allDates.filter(d=>d.startsWith(`2026-${x.value}`)).length))),{viewport});
-    for(const month of [...new Set([issue.slice(5,7),'09','08'])]){
+    for(const month of [...new Set([issue.split('/').at(-1).slice(5,7),'11','09','08'])]){
       const button=p.locator(`[data-archive-month="${month}"]`);
       await button.focus();await p.keyboard.press('Enter');
       const expected=allDates.filter(d=>d.startsWith('2026-'+month));

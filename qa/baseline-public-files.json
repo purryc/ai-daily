@@ -1,18 +1,18 @@
 [
   {
     "path": "index.html",
-    "bytes": 163873,
-    "sha256": "41c91c51b96ebe8c4e654c7e32784571df095512c02cd284fa3d9212d26e01f8"
+    "bytes": 165133,
+    "sha256": "56366e955e7ff1250493755a5430264e378fefd5d133bd6f4688a15af8fc3795"
   },
   {
     "path": "en/index.html",
-    "bytes": 169872,
-    "sha256": "10a9389a038056e3bcb5278c02ea204058c0bd02c98bbc9dfe6bd7bf09690a8a"
+    "bytes": 171131,
+    "sha256": "df6a90ff196b163bc748ea5b03faf967e78f3f94ea613adaadfd0ff85bb797a4"
   },
   {
     "path": "manifest.json",
-    "bytes": 742669,
-    "sha256": "7e6e18319652524e09d08ec96370a3eacf5f47d8491bf852ad236454b8756ed0"
+    "bytes": 743888,
+    "sha256": "dfaffe3c2412bca5cf2f1221060265672b55f34210985a1d51e8e19cbca70e02"
   },
   {
     "path": "assets/archive-filter.css",
@@ -23,5 +23,15 @@
     "path": "assets/archive-filter.mjs",
     "bytes": 11063,
     "sha256": "5761471c04e4fea2f812a7109b76fcf4e5a313b4bbb5705c43d33b3f88b3d793"
+  },
+  {
+    "path": "weekly/index.html",
+    "bytes": 1375,
+    "sha256": "83d6e4155ee7321e5a78a049c307e357aed37b1b6c146dd0724b2092cd53b3d0"
+  },
+  {
+    "path": "weekly/manifest.json",
+    "bytes": 589,
+    "sha256": "ed082f01c62ae1fadc55f7c310faa3d878f79398a3861cd3799399f1d5f9f9b5"
   }
 ]
