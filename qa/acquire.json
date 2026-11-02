@@ -1,20 +1,8 @@
 [
   {
     "kind": "image",
-    "locale": "zh",
-    "name": "streamstudio-interface.png",
-    "url": "https://arxiv.org/html/2610.38467v1/figures/Interface.png"
-  },
-  {
-    "kind": "image",
     "locale": "en",
-    "name": "tapcraft-editor-gallery.jpeg",
-    "url": "https://ph-files.imgix.net/1a0d21c0-02ec-482c-9579-348e37c698ca.jpeg"
-  },
-  {
-    "kind": "image",
-    "locale": "en",
-    "name": "tapcraft-store-assets.jpg",
-    "url": "https://www.tapcraft.app/features/store-assets.jpg"
+    "name": "ultrahuman-ring-pro-official.png",
+    "url": "https://cdn.speedsize.com/3f711f28-1488-44dc-b013-5e43284ac4b0/https%3A//public-web-assets.uh-static.com/web_v2/ring-pro/landing-page/hero/desktop-v2.png/w_2048"
   }
 ]
