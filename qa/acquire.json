@@ -28,5 +28,17 @@
     "locale": "en",
     "name": "tapcraft-editor.png",
     "url": "https://ph-files.imgix.net/a477c673-47ca-421d-8789-9a73b42703c2.png"
+  },
+  {
+    "kind": "image",
+    "locale": "en",
+    "name": "riverside-agent-editor.png",
+    "url": "https://cdn.prod.website-files.com/685be7dcd32275d3830651d3/6ad5dffc01dc21185b3316d7_Group%201851041549%20%282%29.png"
+  },
+  {
+    "kind": "image",
+    "locale": "zh",
+    "name": "homepod-mini2-mac.jpg",
+    "url": "https://www.apple.com/newsroom/images/2026/10/apple-announces-the-next-generation-of-homepod-mini/article/Apple-HomePod-mini-2-with-Mac-261013_big.jpg.large.jpg"
   }
 ]
