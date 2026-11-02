@@ -1,5 +1,6 @@
 [
- {"kind":"image","locale":"zh","name":"ideogram-context-gallery.png","url":"https://ph-files.imgix.net/2ee332f6-b861-43db-9b90-1b377682da9e.png?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=1200&w=1600"},
- {"kind":"image","locale":"en","name":"winbot-w3-review.webp","url":"https://appliancenews.com.au/wp-content/uploads/2026/11/Ecovacs-Winbot-4-1024x691.webp"},
- {"kind":"image","locale":"zh","name":"inkitiate-teaser.jpg","url":"https://arxiv.org/html/2610.39905v1/figures/00-teaser.jpg"}
+ {"kind":"image","locale":"zh","name":"zush-folder-sorting.webp","url":"https://zushapp.com/images/showcase/macos/folder-sorting-light-640.webp"},
+ {"kind":"image","locale":"en","name":"airjelly-proactive-work.png","url":"https://www.airjelly.ai/help-center/images/proactive-work-en.png"},
+ {"kind":"inventory","locale":"zh","name":"winbot-review-inventory.json","url":"https://www.channelnews.com.au/review-ecovacs-winbot-w3-omni-the-robot-that-fired-my-window-cleaner/"},
+ {"kind":"inventory","locale":"en","name":"agentmash-inventory.json","url":"https://agentmash.dev/"}
 ]
