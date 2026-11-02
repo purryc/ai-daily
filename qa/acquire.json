@@ -1,5 +1,32 @@
 [
- {"kind":"image","locale":"zh","name":"logictree-interface.png","url":"https://arxiv.org/html/2610.38136v1/interface_screenshot_fig.png"},
- {"kind":"image","locale":"en","name":"proart-p16-official.jpg","url":"https://dlcdnwebimgs.asus.com/files/media/237e90cb-2051-4ac0-9c1d-ae686b7f7f9f/v4/features/images/large/1x/kv.avif","renderImage":true},
- {"kind":"image","locale":"zh","name":"usage-quota-codex.webp","url":"https://amirhayek.dev/ClaudeUsage/Assets/v4/mac-popover-stack-codex.webp"}
+  {
+    "kind": "image",
+    "locale": "zh",
+    "name": "touchbridge-teaser.png",
+    "url": "https://arxiv.org/html/2610.40349v1/teaser_new.png"
+  },
+  {
+    "kind": "image",
+    "locale": "en",
+    "name": "swapbot-system.jpg",
+    "url": "https://arxiv.org/html/2610.40646v1/figures/System.jpg"
+  },
+  {
+    "kind": "image",
+    "locale": "zh",
+    "name": "ultrahuman-ring-pro-jade.jpg",
+    "url": "https://blog.bestbuy.ca/wp-content/uploads/2026/10/ultrahuman-ring-pro-jade-ai.jpg"
+  },
+  {
+    "kind": "image",
+    "locale": "en",
+    "name": "muse-waveshare-hardware.webp",
+    "url": "https://docs.waveshare.com/assets/images/muse-gadgets-waveshare-esp32-s3-175c-317c741884dd8ba853794f57baf31c35.webp"
+  },
+  {
+    "kind": "image",
+    "locale": "en",
+    "name": "tapcraft-editor.png",
+    "url": "https://ph-files.imgix.net/a477c673-47ca-421d-8789-9a73b42703c2.png"
+  }
 ]
