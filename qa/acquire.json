@@ -1,1 +1,5 @@
-[]
+[
+ {"kind":"image","locale":"zh","name":"ideogram-context-gallery.png","url":"https://ph-files.imgix.net/2ee332f6-b861-43db-9b90-1b377682da9e.png?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=1200&w=1600"},
+ {"kind":"image","locale":"en","name":"winbot-w3-review.webp","url":"https://appliancenews.com.au/wp-content/uploads/2026/11/Ecovacs-Winbot-4-1024x691.webp"},
+ {"kind":"image","locale":"zh","name":"inkitiate-teaser.jpg","url":"https://arxiv.org/html/2610.39905v1/figures/00-teaser.jpg"}
+]
