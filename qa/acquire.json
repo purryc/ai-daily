@@ -1,6 +1,5 @@
 [
- {"kind":"image","locale":"zh","name":"zush-folder-sorting.webp","url":"https://zushapp.com/images/showcase/macos/folder-sorting-light-640.webp"},
- {"kind":"image","locale":"en","name":"airjelly-proactive-work.png","url":"https://www.airjelly.ai/help-center/images/proactive-work-en.png"},
- {"kind":"inventory","locale":"zh","name":"winbot-review-inventory.json","url":"https://www.channelnews.com.au/review-ecovacs-winbot-w3-omni-the-robot-that-fired-my-window-cleaner/"},
- {"kind":"inventory","locale":"en","name":"agentmash-inventory.json","url":"https://agentmash.dev/"}
+ {"kind":"image","locale":"zh","name":"logictree-interface.png","url":"https://arxiv.org/html/2610.38136v1/interface_screenshot_fig.png"},
+ {"kind":"image","locale":"en","name":"proart-p16-official.jpg","url":"https://dlcdnwebimgs.asus.com/files/media/237e90cb-2051-4ac0-9c1d-ae686b7f7f9f/v4/features/images/large/1x/kv.avif","renderImage":true},
+ {"kind":"image","locale":"zh","name":"usage-quota-codex.webp","url":"https://amirhayek.dev/ClaudeUsage/Assets/v4/mac-popover-stack-codex.webp"}
 ]
