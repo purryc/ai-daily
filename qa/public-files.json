@@ -7591,8 +7591,8 @@
   },
   {
     "path": "weekly/2026-10-26/en/details/hiring-talent-demand.html",
-    "bytes": 6643,
-    "sha256": "41cd77e343df59ce13e15f0a1d5571e802d2d8695bbc8f30a39b5e522d9ea1f1"
+    "bytes": 6577,
+    "sha256": "f9fde475e31900f8cb30ca7dc8dba1ba5291cf1e729933beb83ac27716b16e39"
   },
   {
     "path": "weekly/2026-10-26/en/details/opportunity-document-acceptance.html",
@@ -7621,13 +7621,13 @@
   },
   {
     "path": "weekly/2026-10-26/en/index.html",
-    "bytes": 58749,
-    "sha256": "8a6bc6946bdb523af9d1a22c88d3769d31c44f0f0507e06fbeb0d64e0b0e0cef"
+    "bytes": 58683,
+    "sha256": "d71b4dcdd59a58467d81d9ef469f41b4f0495ab378d43904790d8158f7d52908"
   },
   {
     "path": "weekly/2026-10-26/manifest.json",
-    "bytes": 22259,
-    "sha256": "93bd48b960454d891f7a1d903fcf963338a546d60b76c3c515b1ebcf29ed0e36"
+    "bytes": 22226,
+    "sha256": "65bb7033121d3eb7477483d0ac0afd04efe1ef705404d01188ae97f753b760cb"
   },
   {
     "path": "weekly/2026-10-26/sources.html",
