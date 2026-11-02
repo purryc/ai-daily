@@ -1,0 +1,529 @@
+{
+  "date": "2026-11-02",
+  "timezone": "America/Toronto",
+  "cutoff": "2026-11-02T09:03:24Z",
+  "windowStart": "2026-11-01T09:03:24Z",
+  "metrics": {
+    "body": {
+      "zhDenseChars": 15676,
+      "enWords": 9421
+    },
+    "perProduct": {
+      "zush-nested-sort-322": {
+        "zh": 686,
+        "en": 424
+      },
+      "ideogram-context-window": {
+        "zh": 699,
+        "en": 409
+      },
+      "airjelly-screen-queue-2016": {
+        "zh": 755,
+        "en": 438
+      },
+      "tapcraft-scrolling-masks-251": {
+        "zh": 707,
+        "en": 425
+      },
+      "usage-claude-chatgpt-v4": {
+        "zh": 735,
+        "en": 437
+      },
+      "homepod-mini2-mac-airplay-review": {
+        "zh": 677,
+        "en": 424
+      },
+      "ultrahuman-ring-pro-fit-jade-review": {
+        "zh": 730,
+        "en": 438
+      },
+      "muse-gadgets-waveshare-diy-review": {
+        "zh": 690,
+        "en": 432
+      },
+      "proart-p16-bolt-workload-review": {
+        "zh": 739,
+        "en": 442
+      },
+      "riverside-clips-from-edits": {
+        "zh": 663,
+        "en": 417
+      },
+      "magpie-context-calendar": {
+        "zh": 806,
+        "en": 441
+      },
+      "agent-zero-release-v215": {
+        "zh": 706,
+        "en": 417
+      },
+      "codex-cli-release-0166": {
+        "zh": 679,
+        "en": 421
+      },
+      "playwright-mcp-release-0084": {
+        "zh": 688,
+        "en": 418
+      },
+      "vercel-fx-host-sandbox": {
+        "zh": 672,
+        "en": 413
+      },
+      "nesformer-compiled-nes-weights": {
+        "zh": 719,
+        "en": 426
+      },
+      "inkitiate-ink-agent-workspace": {
+        "zh": 719,
+        "en": 441
+      },
+      "logictree-structured-authoring": {
+        "zh": 695,
+        "en": 432
+      },
+      "streamstudio-branching-video": {
+        "zh": 699,
+        "en": 422
+      },
+      "touchbridge-tactile-demonstrations": {
+        "zh": 716,
+        "en": 431
+      },
+      "swapbot-instrumented-tools": {
+        "zh": 717,
+        "en": 431
+      },
+      "sensenova-loop-9b-preview": {
+        "zh": 779,
+        "en": 442
+      }
+    },
+    "primarySummaries": {
+      "zush-nested-sort-322": {
+        "zh": 206,
+        "en": 117
+      },
+      "ideogram-context-window": {
+        "zh": 210,
+        "en": 135
+      },
+      "airjelly-screen-queue-2016": {
+        "zh": 199,
+        "en": 128
+      },
+      "tapcraft-scrolling-masks-251": {
+        "zh": 203,
+        "en": 114
+      },
+      "usage-claude-chatgpt-v4": {
+        "zh": 203,
+        "en": 125
+      },
+      "homepod-mini2-mac-airplay-review": {
+        "zh": 206,
+        "en": 123
+      },
+      "ultrahuman-ring-pro-fit-jade-review": {
+        "zh": 212,
+        "en": 122
+      },
+      "muse-gadgets-waveshare-diy-review": {
+        "zh": 204,
+        "en": 120
+      },
+      "proart-p16-bolt-workload-review": {
+        "zh": 208,
+        "en": 118
+      },
+      "riverside-clips-from-edits": {
+        "zh": 218,
+        "en": 130
+      },
+      "magpie-context-calendar": {
+        "zh": 214,
+        "en": 112
+      },
+      "agent-zero-release-v215": {
+        "zh": 215,
+        "en": 123
+      },
+      "codex-cli-release-0166": {
+        "zh": 209,
+        "en": 118
+      },
+      "playwright-mcp-release-0084": {
+        "zh": 204,
+        "en": 124
+      },
+      "vercel-fx-host-sandbox": {
+        "zh": 206,
+        "en": 133
+      },
+      "nesformer-compiled-nes-weights": {
+        "zh": 201,
+        "en": 121
+      },
+      "inkitiate-ink-agent-workspace": {
+        "zh": 208,
+        "en": 120
+      },
+      "logictree-structured-authoring": {
+        "zh": 205,
+        "en": 123
+      },
+      "streamstudio-branching-video": {
+        "zh": 202,
+        "en": 118
+      },
+      "touchbridge-tactile-demonstrations": {
+        "zh": 214,
+        "en": 126
+      },
+      "swapbot-instrumented-tools": {
+        "zh": 217,
+        "en": 118
+      },
+      "sensenova-loop-9b-preview": {
+        "zh": 196,
+        "en": 108
+      }
+    },
+    "counting": "Only unique full-analysis product paragraphs count toward body gates; summaries, captions, coverage and sources excluded.",
+    "products": 22,
+    "references": 77,
+    "coreVisuals": 22,
+    "slidesPerLocale": 25,
+    "primaryProjectPages": 22,
+    "attachedProjectDetails": 22,
+    "primaryBody": {
+      "zhDenseChars": 4560,
+      "enWords": 2676
+    },
+    "completeReadingBody": {
+      "zhDenseChars": 20236,
+      "enWords": 12097
+    }
+  },
+  "revision": {
+    "label": "morning-edition",
+    "originalCutoffRetained": true,
+    "newIssue": true,
+    "baselineCommit": "e541cd11da2f84378266b3102f136034393c7388"
+  },
+  "topics": [
+    {
+      "id": "zush-nested-sort-322",
+      "zhHeadline": "Zush把文件归档到多层目录，先列出改名与移动方案",
+      "enHeadline": "Zush follows nested filing rules and previews names and destinations",
+      "eventAt": "2026-10-31",
+      "freshness": "near-three-day",
+      "evidence": "Vendor-documented release and interaction; no independent product trial",
+      "eventDateNote": "day; exact clock and timezone not disclosed",
+      "event_key": "zush-nested-sort-322:2026-10-31",
+      "product_key": "zush",
+      "publishedAt": "2026-10-31",
+      "observedAt": "2026-11-02T09:15:28.021279+00:00",
+      "delta_since_last_seen": "The October 31 Mac 3.22 update improves nested folder rules, preserves specified folder names and waits for images to finish saving before renaming."
+    },
+    {
+      "id": "ideogram-context-window",
+      "zhHeadline": "Ideogram限定局部编辑窗口，让大图不用整张缩小",
+      "enHeadline": "Ideogram confines edits to a window without shrinking the whole image",
+      "eventAt": "2026-11-01",
+      "freshness": "near-three-day",
+      "evidence": "Vendor documentation and dated PH presentation; no independent image-editing test",
+      "eventDateNote": "PH appearance date only; upgrade first-availability time and timezone unverified",
+      "event_key": "ideogram:precise-edit:context-window:ph-2026-11-01",
+      "product_key": "ideogram:precise-edit",
+      "publishedAt": "2026-11-01",
+      "observedAt": "2026-11-02T09:12:37.716392+00:00",
+      "delta_since_last_seen": "Recoloring, object removal and label repair can avoid a separate crop-and-paste workflow. The vendor says pixels outside the window remain unchanged."
+    },
+    {
+      "id": "airjelly-screen-queue-2016",
+      "zhHeadline": "AirJelly能接着看屏幕回答，插话可排队或立即改变方向",
+      "enHeadline": "AirJelly adds requested screen context and a choice to queue or interrupt",
+      "eventAt": "2026-10-30",
+      "freshness": "seven-day",
+      "evidence": "Vendor-documented release and interaction; no independent product trial",
+      "eventDateNote": "day; October30 exact time unknown, lower72h boundary uncertain, classified seven-day conservatively; November2 v2.0.17 first observed after cutoff and excluded",
+      "event_key": "airjelly-screen-queue-2016:2026-10-30",
+      "product_key": "airjelly",
+      "publishedAt": "2026-10-30",
+      "observedAt": "2026-11-02T09:15:28.021279+00:00",
+      "delta_since_last_seen": "This removes some screenshot, paste and waiting steps, while making the difference between a draft and an immediate request important."
+    },
+    {
+      "id": "tapcraft-scrolling-masks-251",
+      "zhHeadline": "TapCraft让遮罩跟着滚动文字移动，发布前仍需检查漏掉的画面",
+      "enHeadline": "TapCraft follows scrolling text with masks, while final footage still needs review",
+      "eventAt": "2026-10-30",
+      "freshness": "seven-day",
+      "evidence": "Vendor release/help documentation; no export or redaction test",
+      "eventDateNote": "day; exact clock/timezone unknown; lower72h boundary uncertain, seven-day conservatively",
+      "event_key": "tapcraft.app:2.5.1:2026-10-30",
+      "product_key": "tapcraft.app",
+      "publishedAt": "2026-10-30",
+      "observedAt": "2026-11-02T09:23:44.647423+00:00",
+      "delta_since_last_seen": "This avoids drawing repeated masks for one scrolling email, but model details and missed-detection rates were not disclosed."
+    },
+    {
+      "id": "usage-claude-chatgpt-v4",
+      "zhHeadline": "Usage把Claude与Codex余量放在一起，提醒规则可先看再保存",
+      "enHeadline": "Usage puts Claude and Codex limits together with reviewable alert rules",
+      "eventAt": "2026-10-29",
+      "freshness": "seven-day",
+      "evidence": "Maker documentation, developer App Store listing and PH launch; no independent account test",
+      "eventDateNote": "day; maker blog index October29, App Store relative3d not used as exact date; November1PH separate appearance",
+      "event_key": "amirhayek.dev:claudeusage:4.0:2026-10-29",
+      "product_key": "amirhayek.dev:claudeusage",
+      "publishedAt": "2026-10-29",
+      "observedAt": "2026-11-02T09:18:25.932528+00:00",
+      "delta_since_last_seen": "It reduces trips to separate settings pages. It does not increase an allowance or guarantee that the next task will avoid a limit."
+    },
+    {
+      "id": "homepod-mini2-mac-airplay-review",
+      "zhHeadline": "HomePod mini 2想兼任Mac音箱，连接兑现与Siri AI交付要分开看",
+      "enHeadline": "HomePod mini 2 targets the Mac desk while Siri AI remains a later update",
+      "eventAt": "2026-11-01T14:00:00Z",
+      "freshness": "main",
+      "evidence": "Independent two-day review and original Apple feature/availability documentation; no editorial device test; single-setup failure not universal incidence",
+      "eventDateNote": "minute; original rendered date SundayNovember1 09:00UTC-05:00",
+      "event_key": "apple:homepod-mini-2:verge-mac-airplay-hands-on:2026-11-01",
+      "product_key": "apple:homepod-mini-2",
+      "publishedAt": "2026-11-01T14:00:00Z",
+      "observedAt": "2026-11-02T09:29:35.513274+00:00",
+      "delta_since_last_seen": "A November 1 hands-on found faster basic Siri responses but could not make persistent Mac AirPlay work on the reviewer’s setup; this is one configuration."
+    },
+    {
+      "id": "ultrahuman-ring-pro-fit-jade-review",
+      "zhHeadline": "Ring PRO把佩戴数据接到Jade问答，尺寸和可用额度先要弄清",
+      "enHeadline": "Ring PRO connects worn data to Jade questions, with fit and usage limits to check",
+      "eventAt": "2026-10-30",
+      "freshness": "seven-day",
+      "evidence": "Retailer-hosted month-long reviewer experience plus manufacturer specifications and current US commercial terms; no editorial wear test or clinical validation",
+      "eventDateNote": "day; reviewer publication clock unknown; conservatively seven-day because October30 overlaps lower72h boundary",
+      "event_key": "ultrahuman:ring-pro:bestbuy-month-review:2026-10-30",
+      "product_key": "ultrahuman:ring-pro",
+      "publishedAt": "2026-10-30",
+      "observedAt": "2026-11-02T09:29:35.513274+00:00",
+      "delta_since_last_seen": "An October 30 wear review adds fit and interface experience. The product already existed, so this is a review follow-up."
+    },
+    {
+      "id": "muse-gadgets-waveshare-diy-review",
+      "zhHeadline": "Muse开发板能改对话入口，口袋助手的可读性要自己补齐",
+      "enHeadline": "A Muse development board lets owners change how a pocket assistant answers",
+      "eventAt": "2026-10-31T16:05:00Z",
+      "freshness": "near-three-day",
+      "evidence": "Author-made device and personal report plus official SDK/boarddocumentation; no independent codeaudit or retailCharm test",
+      "eventDateNote": "minute; original source explicitly October31 4:05PM UTC",
+      "event_key": "muse-gadgets:waveshare-175c:sean-hollister-build-review:2026-10-31",
+      "product_key": "muse-gadgets:waveshare-esp32-s3-175c",
+      "publishedAt": "2026-10-31T16:05:00Z",
+      "observedAt": "2026-11-02T09:29:35.513274+00:00",
+      "delta_since_last_seen": "An October 31 DIY report adds evidence of custom conversation-history and spoken-output features; it is not the retail Muse Charm launch."
+    },
+    {
+      "id": "proart-p16-bolt-workload-review",
+      "zhHeadline": "ProArt P16跑本地资料提取，任务包的范围比漂亮表格更重要",
+      "enHeadline": "ProArt P16 runs local extraction, but a tidy table still needs a bounded task",
+      "eventAt": "2026-11-01",
+      "freshness": "near-three-day",
+      "evidence": "Independent single-laptop workload report, official hardware and model documentation; no editorial execution or replication",
+      "eventDateNote": "day; review publication clock unknown; tests performed October28; conservatively near-three-day, not proven inside main24h",
+      "event_key": "asus:proart-p16-h7607:gadgeteer-local-workload-review:2026-11-01",
+      "product_key": "asus:proart-p16-h7607",
+      "publishedAt": "2026-11-01",
+      "observedAt": "2026-11-02T09:29:35.513274+00:00",
+      "delta_since_last_seen": "This is a workload-review follow-up for an existing laptop: tests occurred October 28 and the article appeared November 1, rather than a new hardware release."
+    },
+    {
+      "id": "riverside-clips-from-edits",
+      "zhHeadline": "Riverside从已经剪好的版本抽短片，删掉的内容不用再删一次",
+      "enHeadline": "Riverside makes short clips from the edit you already approved",
+      "eventAt": "2026-10-28",
+      "freshness": "seven-day",
+      "evidence": "Original maintainer release and documentation; no independent execution or outcome test",
+      "eventDateNote": "Official day-only October28 update, clock/timezone unknown; firmly within seven-day supplement",
+      "event_key": "riverside-clips-from-edits:2026-10-28",
+      "product_key": "riverside-clips-from-edits",
+      "publishedAt": "2026-10-28",
+      "observedAt": "2026-11-02T09:21:43.385966+00:00",
+      "delta_since_last_seen": "Existing cuts carry into the source for clipping, reducing rework when a raw-recording clip would revive a passage already removed."
+    },
+    {
+      "id": "magpie-context-calendar",
+      "zhHeadline": "拾趣把选中文字填进日历，日期范围和原文链接一起带过去",
+      "enHeadline": "Magpie turns selected text into a calendar draft with dates and source links",
+      "eventAt": "2026-10-28T00:52:55Z",
+      "freshness": "seven-day",
+      "evidence": "Original MIT repository, version-pinned documentation and timestamped GitHub releases; not hands-on tested",
+      "eventDateNote": "Exact GitHub release published_at; November 1 v0.1.19 is a separate hover-highlight fix",
+      "event_key": "github:demo007x/Magpie:v0.1.18:context-calendar",
+      "product_key": "github:demo007x/Magpie",
+      "publishedAt": "2026-10-28T00:52:55Z",
+      "observedAt": "2026-11-02T09:16:31.568159+00:00",
+      "delta_since_last_seen": "Built-in recognition is the fallback. Extraction can be disabled and its prompt edited. November 1 only repairs button highlighting."
+    },
+    {
+      "id": "agent-zero-release-v215",
+      "zhHeadline": "Agent Zero把读写权限拆开，配置审查能看到具体动作",
+      "enHeadline": "Agent Zero separates read and write permissions into reviewable actions",
+      "eventAt": "2026-11-01T23:52:00Z",
+      "freshness": "main",
+      "evidence": "Original maintainer release and documentation; no independent execution or outcome test",
+      "eventDateNote": "Exact UTC from original GitHub release API",
+      "event_key": "agent-zero-release-v215:2026-11-01T23:52:00Z",
+      "product_key": "agent-zero",
+      "publishedAt": "2026-11-01T23:52:00Z",
+      "observedAt": "2026-11-02T09:19:32.275525+00:00",
+      "delta_since_last_seen": "On, Default and Off distinguish explicit overrides from inheritance. Users review actual configuration changes before Save; Save & Test opens a fresh conversation."
+    },
+    {
+      "id": "codex-cli-release-0166",
+      "zhHeadline": "Codex补上终端历史选择和队列恢复，少丢一次中断前的工作",
+      "enHeadline": "Codex adds transcript selection and queued-thread recovery",
+      "eventAt": "2026-10-29T19:47:53Z",
+      "freshness": "seven-day",
+      "evidence": "Original maintainer release and documentation; no independent execution or outcome test",
+      "eventDateNote": "Exact UTC from original GitHub release API",
+      "event_key": "codex-cli-release-0166:2026-10-29T19:47:53Z",
+      "product_key": "codex-cli",
+      "publishedAt": "2026-10-29T19:47:53Z",
+      "observedAt": "2026-11-02T09:19:32.275525+00:00",
+      "delta_since_last_seen": "Queue --resume can revive an unloaded thread after adding a message, while doctor --network-only focuses on connection diagnostics. Unarchiving a parent also restores descendants. Before retrying interrupted work, developers still need to inspect the actual files and execution state."
+    },
+    {
+      "id": "playwright-mcp-release-0084",
+      "zhHeadline": "Playwright MCP让多账号分开保存会话，找元素时少塞无关结果",
+      "enHeadline": "Playwright MCP separates account sessions and bounds element-search results",
+      "eventAt": "2026-10-31T15:20:06Z",
+      "freshness": "near-three-day",
+      "evidence": "Original maintainer release and documentation; no independent execution or outcome test",
+      "eventDateNote": "Exact UTC from original GitHub release API",
+      "event_key": "playwright-mcp-release-0084:2026-10-31T15:20:06Z",
+      "product_key": "playwright-mcp",
+      "publishedAt": "2026-10-31T15:20:06Z",
+      "observedAt": "2026-11-02T09:19:32.275525+00:00",
+      "delta_since_last_seen": "Element finding can limit returned matches while reporting the total; network inspection can retain a bounded history across navigations."
+    },
+    {
+      "id": "vercel-fx-host-sandbox",
+      "zhHeadline": "fx把模型调用留在宿主，沙箱只负责文件和命令",
+      "enHeadline": "fx keeps model calls on the host and file operations in the sandbox",
+      "eventAt": "2026-10-29",
+      "freshness": "seven-day",
+      "evidence": "Original maintainer release and documentation; no independent execution or outcome test",
+      "eventDateNote": "Official day-only October29, clock/timezone unknown; within seven-day supplement",
+      "event_key": "vercel-fx-host-sandbox:2026-10-29",
+      "product_key": "vercel-fx-host-sandbox",
+      "publishedAt": "2026-10-29",
+      "observedAt": "2026-11-02T09:24:25.536910+00:00",
+      "delta_since_last_seen": "It removes the need to install fx, run a bridge or expose a connection port inside the sandbox; model credentials stay on the host."
+    },
+    {
+      "id": "nesformer-compiled-nes-weights",
+      "zhHeadline": "Nesformer把NES处理器写进模型权重，按键脚本慢慢生成游戏画面",
+      "enHeadline": "Nesformer runs scripted NES games through compiled model weights",
+      "eventAt": "2026-10-30",
+      "freshness": "seven-day",
+      "evidence": "Original MIT repository and maker explanation; execution and performance not independently tested here",
+      "eventDateNote": "Public observation day from original link-blog; 21:59 shown without timezone; first-release clock not confirmed",
+      "event_key": "github:dbreunig/nesformer:first-public-observation:2026-10-30",
+      "product_key": "github:dbreunig/nesformer",
+      "publishedAt": "2026-10-30",
+      "observedAt": "2026-11-02T09:11:52.962018+00:00",
+      "delta_since_last_seen": "It does not train a model to guess game pictures. The same weights load different NROM games and support stepwise reference comparisons. The output is a traceable instruction sequence, not an agent learning to win."
+    },
+    {
+      "id": "inkitiate-ink-agent-workspace",
+      "zhHeadline": "Inkitiate把手写问题和圈选材料一起交给代理，结果留在原画布",
+      "enHeadline": "Inkitiate sends handwriting and selected materials to an agent, keeping results on the canvas",
+      "eventAt": "2026-10-29T12:16:16Z",
+      "freshness": "seven-day",
+      "evidence": "Author paper and research figures; no independent product trial.",
+      "eventDateNote": "Exact arXiv submission October29; October30 dated listing; public announcement clock unconfirmed. Conservative seven-day backfill.",
+      "event_key": "arxiv:2610.39905:v1:2026-10-29",
+      "product_key": "arxiv:2610.39905",
+      "publishedAt": "2026-10-30",
+      "observedAt": "2026-11-02T09:14:00Z",
+      "delta_since_last_seen": "A nearby task card exposes the interpreted request, activity and Stop control, reducing the need to reconstruct context in a separate chat."
+    },
+    {
+      "id": "logictree-structured-authoring",
+      "zhHeadline": "LogicTree让AI改论点树，接受修改后再写进结构",
+      "enHeadline": "LogicTree makes AI revisions inspectable inside an argument tree",
+      "eventAt": "2026-10-28T01:16:35Z",
+      "freshness": "seven-day",
+      "evidence": "Original authors' controlled study and prototype figure, not independent hands-on use.",
+      "eventDateNote": "Exact submission timestamp; public announcement clock unconfirmed; seven-day backfill, not main-window launch",
+      "event_key": "arxiv:2610.38136:v1:2026-10-28",
+      "product_key": "arxiv:2610.38136",
+      "publishedAt": "2026-10-28",
+      "observedAt": "2026-11-02T09:17:00Z",
+      "delta_since_last_seen": "This gives revisions a stable target, reducing repeated explanations of which passage to change. Arbitrary prose edits do not automatically synchronize back into the tree."
+    },
+    {
+      "id": "streamstudio-branching-video",
+      "zhHeadline": "StreamStudio从视频中途分叉续拍，保留已经满意的开头",
+      "enHeadline": "StreamStudio branches a video continuation while keeping the accepted opening",
+      "eventAt": "2026-10-28T08:43:34Z",
+      "freshness": "seven-day",
+      "evidence": "Authors' system description and genuine interface figure; no user-study or independent speed measurements reported.",
+      "eventDateNote": "Exact arXiv submission, not public announcement clock; seven-day research backfill",
+      "event_key": "arxiv:2610.38467:v1:2026-10-28",
+      "product_key": "arxiv:2610.38467",
+      "publishedAt": "2026-10-28",
+      "observedAt": "2026-11-02T09:24:00Z",
+      "delta_since_last_seen": "Stored inference state supports branching from existing context, reducing the need to regenerate an accepted opening."
+    },
+    {
+      "id": "touchbridge-tactile-demonstrations",
+      "zhHeadline": "TouchBridge记录指尖接触位置，让人的演示更适合机器人学",
+      "enHeadline": "TouchBridge records fingertip contact to make human demonstrations usable by robots",
+      "eventAt": "2026-10-29T16:06:36Z",
+      "freshness": "seven-day",
+      "evidence": "Authors' four-task real-robot evaluation and hardware figures; not independent replication.",
+      "eventDateNote": "Exact arXiv submission; public announcement clock unconfirmed. Conservative seven-day research backfill. Original dated Robotics list confirms October30 public listing; exact clock unconfirmed.",
+      "event_key": "arxiv:2610.40349:v1:2026-10-29",
+      "product_key": "arxiv:2610.40349",
+      "publishedAt": "2026-10-30",
+      "observedAt": "2026-11-02T09:21:00Z",
+      "delta_since_last_seen": "The transfer aligns contact patches and relationships between fingers, rather than matching pose alone. Conversion does not require an object mesh or physical simulation."
+    },
+    {
+      "id": "swapbot-instrumented-tools",
+      "zhHeadline": "SwapBot给厨房工具加触觉适配器，机器人自己换刀、刷子和夹子",
+      "enHeadline": "SwapBot adds tactile adapters so a robot can exchange knives, brushes and tongs",
+      "eventAt": "2026-10-29T17:59:20Z",
+      "freshness": "seven-day",
+      "evidence": "Original hardware design and author laboratory evaluations, no independent replication.",
+      "eventDateNote": "Exact arXiv submission timestamp; public announcement clock unconfirmed; seven-day research backfill Original dated Robotics list confirms October30 public listing; exact clock unconfirmed.",
+      "event_key": "arxiv:2610.40646:v1:2026-10-29",
+      "product_key": "arxiv:2610.40646",
+      "publishedAt": "2026-10-30",
+      "observedAt": "2026-11-02T09:23:00Z",
+      "delta_since_last_seen": "Electromagnetic coupling enables exchange, while piezoresistive sensing adds contact information. Thin tools may sense only at the handle, rather than directly at the tip."
+    },
+    {
+      "id": "sensenova-loop-9b-preview",
+      "zhHeadline": "SenseNova-Loop复用同一组层处理图文，部署要匹配循环执行顺序",
+      "enHeadline": "SenseNova-Loop reuses decoder layers for image-and-text tasks",
+      "eventAt": "2026-10-30",
+      "freshness": "seven-day",
+      "evidence": "Original repository and model card; model architecture diagram inspected, no editor benchmark or deployment",
+      "eventDateNote": "Original README release day only; exact launch time and timezone unconfirmed",
+      "event_key": "opensensenova:sensenova-loop-9b-preview:release:2026-10-30",
+      "product_key": "opensensenova:sensenova-loop",
+      "publishedAt": "2026-10-30",
+      "observedAt": "2026-11-02T09:16:31.568159+00:00",
+      "delta_since_last_seen": "The October 30 release includes inference and serving instructions under Apache 2.0; its exact launch clock is unverified."
+    }
+  ],
+  "eventCounts": {
+    "mainWindowEvents": 2,
+    "nearThreeDayReviews": 5,
+    "sevenDayReviews": 15,
+    "interpretation": "Announcements, submissions, updates and regional reports; not first product launches."
+  }
+}

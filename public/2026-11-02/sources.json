@@ -1,0 +1,593 @@
+[
+  {
+    "url": "https://zushapp.com/changelog",
+    "title": "Mac release history",
+    "publisher": "Zush",
+    "publishedAt": "2026-10-31",
+    "observedAt": "2026-11-02T09:15:28.021279+00:00",
+    "number": 1
+  },
+  {
+    "url": "https://zushapp.com/ai-file-sorter",
+    "title": "AI file sorting workflow",
+    "publisher": "Zush",
+    "observedAt": "2026-11-02T09:15:28.021279+00:00",
+    "number": 2
+  },
+  {
+    "url": "https://zushapp.com/privacy-policy",
+    "title": "Privacy Policy",
+    "publisher": "Zush",
+    "publishedAt": "2026-10-18",
+    "observedAt": "2026-11-02T09:15:28.021279+00:00",
+    "number": 3
+  },
+  {
+    "url": "https://zushapp.com/pricing",
+    "title": "Pricing",
+    "publisher": "Zush",
+    "observedAt": "2026-11-02T09:15:28.021279+00:00",
+    "number": 4
+  },
+  {
+    "url": "https://zushapp.com/",
+    "title": "Product overview and interface gallery",
+    "publisher": "Zush",
+    "observedAt": "2026-11-02T09:15:28.021279+00:00",
+    "number": 5
+  },
+  {
+    "url": "https://www.producthunt.com/products/ideogram",
+    "title": "Precise Edit context-window PH presentation",
+    "publisher": "Product Hunt",
+    "publishedAt": "2026-11-01",
+    "observedAt": "2026-11-02T09:12:37.716392+00:00",
+    "number": 6
+  },
+  {
+    "url": "https://developer.ideogram.ai/api-reference/images/precise-edit/ideogram-4-5",
+    "title": "Precise Edit API parameters",
+    "publisher": "Ideogram",
+    "observedAt": "2026-11-02T09:12:37.716392+00:00",
+    "number": 7
+  },
+  {
+    "url": "https://ideogram.ai/tools/precise-edit/",
+    "title": "Context-window editing examples",
+    "publisher": "Ideogram",
+    "observedAt": "2026-11-02T09:12:37.716392+00:00",
+    "number": 8
+  },
+  {
+    "url": "https://www.airjelly.ai/en/changelog",
+    "title": "Release notes 2.0.16 and preceding behavior",
+    "publisher": "AirJelly",
+    "publishedAt": "2026-10-30",
+    "observedAt": "2026-11-02T09:15:28.021279+00:00",
+    "number": 9
+  },
+  {
+    "url": "https://www.airjelly.ai/en/help-center/understand-context",
+    "title": "Understand Context",
+    "publisher": "AirJelly",
+    "observedAt": "2026-11-02T09:15:28.021279+00:00",
+    "number": 10
+  },
+  {
+    "url": "https://www.airjelly.ai/en/privacy",
+    "title": "Privacy and Security",
+    "publisher": "AirJelly",
+    "observedAt": "2026-11-02T09:15:28.021279+00:00",
+    "number": 11
+  },
+  {
+    "url": "https://www.airjelly.ai/en/help-center/understand-proactive",
+    "title": "Understand Proactive",
+    "publisher": "AirJelly",
+    "observedAt": "2026-11-02T09:15:28.021279+00:00",
+    "number": 12
+  },
+  {
+    "url": "https://www.airjelly.ai/en/help-center/account-billing-and-settings",
+    "title": "Account Billing Settings",
+    "publisher": "AirJelly",
+    "observedAt": "2026-11-02T09:15:28.021279+00:00",
+    "number": 13
+  },
+  {
+    "url": "https://www.tapcraft.app/changelog",
+    "title": "Release history",
+    "publisher": "TapCraft",
+    "publishedAt": "2026-10-30",
+    "observedAt": "2026-11-02T09:23:44.647423+00:00",
+    "number": 14
+  },
+  {
+    "url": "https://www.tapcraft.app/faq",
+    "title": "FAQ",
+    "publisher": "TapCraft",
+    "publishedAt": "2026-09",
+    "observedAt": "2026-11-02T09:23:44.647423+00:00",
+    "number": 15
+  },
+  {
+    "url": "https://www.tapcraft.app/",
+    "title": "Product overview",
+    "publisher": "TapCraft",
+    "observedAt": "2026-11-02T09:23:44.647423+00:00",
+    "number": 16
+  },
+  {
+    "url": "https://www.tapcraft.app/privacy",
+    "title": "Privacy policy",
+    "publisher": "TapCraft",
+    "publishedAt": "2026-08",
+    "observedAt": "2026-11-02T09:23:44.647423+00:00",
+    "number": 17
+  },
+  {
+    "url": "https://www.tapcraft.app/pricing",
+    "title": "Pricing",
+    "publisher": "TapCraft",
+    "observedAt": "2026-11-02T09:23:44.647423+00:00",
+    "number": 18
+  },
+  {
+    "url": "https://www.producthunt.com/products/tapcraft-launch-videos-for-mobile-devs",
+    "title": "PH2.0 promotion",
+    "publisher": "Product Hunt",
+    "observedAt": "2026-11-02T09:23:44.647423+00:00",
+    "number": 19
+  },
+  {
+    "url": "https://amirhayek.dev/ClaudeUsage/",
+    "title": "Product and dated blog index",
+    "publisher": "Amir Hayek",
+    "publishedAt": "2026-10-29",
+    "observedAt": "2026-11-02T09:18:25.932528+00:00",
+    "number": 20
+  },
+  {
+    "url": "https://amirhayek.dev/ClaudeUsage/whats-new.html",
+    "title": "What is new in version4",
+    "publisher": "Amir Hayek",
+    "observedAt": "2026-11-02T09:18:25.932528+00:00",
+    "number": 21
+  },
+  {
+    "url": "https://amirhayek.dev/ClaudeUsage/privacy/",
+    "title": "Privacy policy",
+    "publisher": "Amir Hayek",
+    "publishedAt": "2026-10-16",
+    "observedAt": "2026-11-02T09:18:25.932528+00:00",
+    "number": 22
+  },
+  {
+    "url": "https://apps.apple.com/us/app/usage-for-claude-chatgpt/id6755173244",
+    "title": "App Store listing and version history",
+    "publisher": "Apple / developer",
+    "observedAt": "2026-11-02T09:18:25.932528+00:00",
+    "number": 23
+  },
+  {
+    "url": "https://www.producthunt.com/products/usage-for-claude",
+    "title": "Version4 maker launch",
+    "publisher": "Product Hunt",
+    "publishedAt": "2026-11-01",
+    "observedAt": "2026-11-02T09:18:25.932528+00:00",
+    "number": 24
+  },
+  {
+    "url": "https://www.producthunt.com/leaderboard/daily/2026/11/1",
+    "title": "November1 daily board",
+    "publisher": "Product Hunt",
+    "publishedAt": "2026-11-01",
+    "observedAt": "2026-11-02T09:18:25.932528+00:00",
+    "number": 25
+  },
+  {
+    "url": "https://www.theverge.com/tech/1024108/homepod-mini-2-hands-on-siri-smart-home-mac-speaker",
+    "title": "HomePod Mini2 first look: Three things I love and one disappointment",
+    "publisher": "The Verge / Jennifer Pattison Tuohy",
+    "publishedAt": "2026-11-01T14:00:00Z",
+    "observedAt": "2026-11-02T09:29:35.513274+00:00",
+    "number": 26
+  },
+  {
+    "url": "https://www.apple.com/newsroom/2026/10/apple-announces-the-next-generation-of-homepod-mini/",
+    "title": "Apple announces next-generation HomePod mini",
+    "publisher": "Apple",
+    "publishedAt": "2026-10-13",
+    "observedAt": "2026-11-02T09:29:35.513274+00:00",
+    "number": 27
+  },
+  {
+    "url": "https://www.apple.com/homepod-mini/",
+    "title": "HomePod mini2 current product page",
+    "publisher": "Apple",
+    "observedAt": "2026-11-02T09:29:35.513274+00:00",
+    "number": 28
+  },
+  {
+    "url": "https://blog.bestbuy.ca/wearable-technology/smart-rings/ultrahuman-ring-pro-review",
+    "title": "Ultrahuman Ring PRO month-long review",
+    "publisher": "Best Buy Canada",
+    "publishedAt": "2026-10-30",
+    "observedAt": "2026-11-02T09:29:35.513274+00:00",
+    "number": 29
+  },
+  {
+    "url": "https://cyborg.ultrahuman.com/press-releases/ultrahuman-unveils-ring-pro-with-category-defining-15-day-battery-and-jade-worlds-first-real-time-biointelligence-ai",
+    "title": "RingPRO and Jade original announcement",
+    "publisher": "Ultrahuman",
+    "publishedAt": "2026-02-27",
+    "observedAt": "2026-11-02T09:29:35.513274+00:00",
+    "number": 30
+  },
+  {
+    "url": "https://www.ultrahuman.com/us/ring-pro/buy/",
+    "title": "Current US RingPRO buying page and FAQ",
+    "publisher": "Ultrahuman",
+    "observedAt": "2026-11-02T09:29:35.513274+00:00",
+    "number": 31
+  },
+  {
+    "url": "https://www.ultrahuman.com/us/ring-pro/",
+    "title": "RingPRO official product page and images",
+    "publisher": "Ultrahuman",
+    "observedAt": "2026-11-02T09:29:35.513274+00:00",
+    "number": 32
+  },
+  {
+    "url": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
+    "title": "I built an AI Tamagotchi before Meta could",
+    "publisher": "The Verge / Sean Hollister",
+    "publishedAt": "2026-10-31T16:05:00Z",
+    "observedAt": "2026-11-02T09:29:35.513274+00:00",
+    "number": 33
+  },
+  {
+    "url": "https://docs.waveshare.com/ESP32-S3-Touch-AMOLED-1.75C/Resources-And-Documents",
+    "title": "Waveshare1.75C Muse community showcase",
+    "publisher": "Waveshare",
+    "observedAt": "2026-11-02T09:29:35.513274+00:00",
+    "number": 34
+  },
+  {
+    "url": "https://github.com/facebookincubator/muse-gadget-sdk/blob/main/esp32/devices/README.md",
+    "title": "Muse ESP32 device guide",
+    "publisher": "facebookincubator / MuseGadgets",
+    "observedAt": "2026-11-02T09:29:35.513274+00:00",
+    "number": 35
+  },
+  {
+    "url": "https://gadgets.muse.ai/",
+    "title": "Muse Gadgets SDK and firmware overview",
+    "publisher": "MuseGadgets",
+    "observedAt": "2026-11-02T09:29:35.513274+00:00",
+    "number": 36
+  },
+  {
+    "url": "https://the-gadgeteer.com/2026/11/01/local-ai-on-the-asus-proart-p16-gets-useful-when-the-job-is-specific/",
+    "title": "Local AI on the ASUS ProArt P16 gets useful when the job is specific",
+    "publisher": "The Gadgeteer",
+    "publishedAt": "2026-11-01",
+    "observedAt": "2026-11-02T09:29:35.513274+00:00",
+    "number": 37
+  },
+  {
+    "url": "https://www.asus.com/us/laptops/for-creators/proart/proart-p16-h7607/",
+    "title": "ProArt P16 H7607 official product",
+    "publisher": "ASUS",
+    "observedAt": "2026-11-02T09:29:35.513274+00:00",
+    "number": 38
+  },
+  {
+    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
+    "title": "Nemotron3.5 Bolt74B-A9B24GB model card",
+    "publisher": "NVIDIA",
+    "publishedAt": "2026-10-15",
+    "observedAt": "2026-11-02T09:29:35.513274+00:00",
+    "number": 39
+  },
+  {
+    "url": "https://research.nvidia.com/labs/nemotron/Nemotron-3.5-Bolt-24GB/",
+    "title": "Nemotron3.5 Bolt technical overview",
+    "publisher": "NVIDIA",
+    "publishedAt": "2026-10-15",
+    "observedAt": "2026-11-02T09:29:35.513274+00:00",
+    "number": 40
+  },
+  {
+    "url": "https://riverside.com/university-videos/generate-magic-clips-from-edits",
+    "title": "Generate Magic Clips from edits",
+    "publisher": "Riverside",
+    "publishedAt": "2026-10-28",
+    "observedAt": "2026-11-02T09:21:43.385966+00:00",
+    "number": 41
+  },
+  {
+    "url": "https://riverside.com/agents",
+    "title": "Riverside Agents",
+    "publisher": "Riverside",
+    "observedAt": "2026-11-02T09:21:43.385966+00:00",
+    "number": 42
+  },
+  {
+    "url": "https://riverside.com/university/product-updates",
+    "title": "Product updates",
+    "publisher": "Riverside",
+    "publishedAt": "2026-10-28",
+    "observedAt": "2026-11-02T09:21:43.385966+00:00",
+    "number": 43
+  },
+  {
+    "url": "https://github.com/demo007x/Magpie/releases/tag/v0.1.18",
+    "title": "v0.1.18: context-aware smart extraction and calendar fields",
+    "publisher": "Magpie",
+    "publishedAt": "2026-10-28T00:52:55Z",
+    "observedAt": "2026-11-02T09:16:31.568159+00:00",
+    "number": 44
+  },
+  {
+    "url": "https://github.com/demo007x/Magpie/releases/tag/v0.1.19",
+    "title": "v0.1.19: floating-action highlight repair",
+    "publisher": "Magpie",
+    "publishedAt": "2026-11-01T10:58:14Z",
+    "observedAt": "2026-11-02T09:16:31.568159+00:00",
+    "number": 45
+  },
+  {
+    "url": "https://github.com/demo007x/Magpie/blob/v0.1.19/README.zh-CN.md",
+    "title": "Version-pinned Chinese README: operation, architecture and privacy",
+    "publisher": "Magpie",
+    "publishedAt": "v0.1.19",
+    "observedAt": "2026-11-02T09:16:31.568159+00:00",
+    "number": 46
+  },
+  {
+    "url": "https://github.com/agent0ai/agent-zero/releases/tag/v2.15",
+    "title": "Agent Zero v2.15 release",
+    "publisher": "Agent Zero",
+    "publishedAt": "2026-11-01T23:52:00Z",
+    "observedAt": "2026-11-02T09:19:32.275525+00:00",
+    "number": 47
+  },
+  {
+    "url": "https://raw.githubusercontent.com/agent0ai/agent-zero/v2.15/docs/guides/agent-profiles.md",
+    "title": "Agent profiles and editor",
+    "publisher": "Agent Zero",
+    "publishedAt": "v2.15",
+    "observedAt": "2026-11-02T09:19:32.275525+00:00",
+    "number": 48
+  },
+  {
+    "url": "https://raw.githubusercontent.com/agent0ai/agent-zero/v2.15/README.md",
+    "title": "Agent Zero README",
+    "publisher": "Agent Zero",
+    "publishedAt": "v2.15",
+    "observedAt": "2026-11-02T09:19:32.275525+00:00",
+    "number": 49
+  },
+  {
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0",
+    "title": "Codex CLI 0.166 release",
+    "publisher": "OpenAI",
+    "publishedAt": "2026-10-29T19:47:53Z",
+    "observedAt": "2026-11-02T09:19:32.275525+00:00",
+    "number": 50
+  },
+  {
+    "url": "https://raw.githubusercontent.com/openai/codex/rust-v0.166.0/README.md",
+    "title": "Codex CLI README at 0.166",
+    "publisher": "OpenAI",
+    "publishedAt": "rust-v0.166.0",
+    "observedAt": "2026-11-02T09:19:32.275525+00:00",
+    "number": 51
+  },
+  {
+    "url": "https://github.com/microsoft/playwright-mcp/releases/tag/v0.0.84",
+    "title": "Playwright MCP 0.0.84",
+    "publisher": "Microsoft",
+    "publishedAt": "2026-10-31T15:20:06Z",
+    "observedAt": "2026-11-02T09:19:32.275525+00:00",
+    "number": 52
+  },
+  {
+    "url": "https://raw.githubusercontent.com/microsoft/playwright-mcp/v0.0.84/README.md",
+    "title": "Playwright MCP README at 0.0.84",
+    "publisher": "Microsoft",
+    "publishedAt": "v0.0.84",
+    "observedAt": "2026-11-02T09:19:32.275525+00:00",
+    "number": 53
+  },
+  {
+    "url": "https://vercel.com/changelog/fx-harness-adapter-now-separates-host-and-sandbox",
+    "title": "The fx adapter now runs the harness on the host",
+    "publisher": "Vercel",
+    "publishedAt": "2026-10-29",
+    "observedAt": "2026-11-02T09:24:25.536910+00:00",
+    "number": 54
+  },
+  {
+    "url": "https://ai-sdk.dev/providers/ai-sdk-harnesses/fx",
+    "title": "AI SDK fx harness documentation",
+    "publisher": "Vercel",
+    "observedAt": "2026-11-02T09:24:25.536910+00:00",
+    "number": 55
+  },
+  {
+    "url": "https://raw.githubusercontent.com/dbreunig/nesformer/main/README.md",
+    "title": "Nesformer README: commands, architecture, tests and limits",
+    "publisher": "Drew Breunig",
+    "publishedAt": "date not stated in source body",
+    "observedAt": "2026-11-02T09:11:52.962018+00:00",
+    "number": 56
+  },
+  {
+    "url": "https://github.com/dbreunig/nesformer",
+    "title": "Nesformer public repository",
+    "publisher": "Drew Breunig",
+    "publishedAt": "date not stated in source body",
+    "observedAt": "2026-11-02T09:11:52.962018+00:00",
+    "number": 57
+  },
+  {
+    "url": "https://news.ycombinator.com/item?id=50306442",
+    "title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
+    "publisher": "Hacker News / maker and commenters",
+    "publishedAt": "date not stated in source body",
+    "observedAt": "2026-11-02T09:11:52.962018+00:00",
+    "number": 58
+  },
+  {
+    "url": "https://simonwillison.net/2026/Oct/30/nesformer/",
+    "title": "Nesformer link-blog dated October 30",
+    "publisher": "Simon Willison",
+    "publishedAt": "2026-10-30",
+    "observedAt": "2026-11-02T09:11:52.962018+00:00",
+    "number": 59
+  },
+  {
+    "url": "https://raw.githubusercontent.com/dbreunig/nesformer/main/LICENSE",
+    "title": "Nesformer MIT license",
+    "publisher": "Drew Breunig",
+    "publishedAt": "date not stated in source body",
+    "observedAt": "2026-11-02T09:11:52.962018+00:00",
+    "number": 60
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.39905",
+    "title": "Inkitiate paper and submission history",
+    "publisher": "Inkitiate authors / arXiv",
+    "publishedAt": "2026-10-29T12:16:16Z",
+    "observedAt": "2026-11-02T09:14:00Z",
+    "number": 61
+  },
+  {
+    "url": "https://arxiv.org/html/2610.39905v1",
+    "title": "Inkitiate full paper",
+    "publisher": "Inkitiate authors",
+    "publishedAt": "2026-10-29",
+    "observedAt": "2026-11-02T09:14:00Z",
+    "number": 62
+  },
+  {
+    "url": "https://arxiv.org/list/cs.HC/recent?show=100",
+    "title": "Human-Computer Interaction recent listing",
+    "publisher": "arXiv",
+    "publishedAt": "2026-10-30",
+    "observedAt": "2026-11-02T09:09:00Z",
+    "number": 63
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.38136",
+    "title": "LogicTree abstract and history",
+    "publisher": "LogicTree authors / arXiv",
+    "publishedAt": "2026-10-28T01:16:35Z",
+    "observedAt": "2026-11-02T09:17:00Z",
+    "number": 64
+  },
+  {
+    "url": "https://arxiv.org/html/2610.38136v1",
+    "title": "LogicTree full paper",
+    "publisher": "LogicTree authors",
+    "publishedAt": "2026-10-28",
+    "observedAt": "2026-11-02T09:17:00Z",
+    "number": 65
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.38467",
+    "title": "StreamStudio abstract and submission history",
+    "publisher": "StreamStudio authors / arXiv",
+    "publishedAt": "2026-10-28T08:43:34Z",
+    "observedAt": "2026-11-02T09:24:00Z",
+    "number": 66
+  },
+  {
+    "url": "https://arxiv.org/html/2610.38467v1",
+    "title": "StreamStudio full paper",
+    "publisher": "Adobe Research / HKUST authors",
+    "publishedAt": "2026-10-28",
+    "observedAt": "2026-11-02T09:24:00Z",
+    "number": 67
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.40349",
+    "title": "TouchBridge paper and v1 history",
+    "publisher": "TouchBridge authors / arXiv",
+    "publishedAt": "2026-10-29T16:06:36Z",
+    "observedAt": "2026-11-02T09:21:00Z",
+    "number": 68
+  },
+  {
+    "url": "https://arxiv.org/html/2610.40349v1",
+    "title": "TouchBridge full paper",
+    "publisher": "TouchBridge authors",
+    "publishedAt": "2026-10-29",
+    "observedAt": "2026-11-02T09:21:00Z",
+    "number": 69
+  },
+  {
+    "url": "https://touchbridge2026.github.io/",
+    "title": "TouchBridge official research project",
+    "publisher": "TouchBridge authors",
+    "observedAt": "2026-11-02T09:21:00Z",
+    "number": 70
+  },
+  {
+    "url": "https://arxiv.org/list/cs.RO/recent?show=100",
+    "title": "Robotics dated recent announcements",
+    "publisher": "arXiv",
+    "publishedAt": "2026-10-30",
+    "observedAt": "2026-11-02T09:23:00Z",
+    "number": 71
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.40646",
+    "title": "SwapBot paper and submission history",
+    "publisher": "SwapBot authors / arXiv",
+    "publishedAt": "2026-10-29T17:59:20Z",
+    "observedAt": "2026-11-02T09:23:00Z",
+    "number": 72
+  },
+  {
+    "url": "https://arxiv.org/html/2610.40646v1",
+    "title": "SwapBot full paper",
+    "publisher": "University of Washington authors",
+    "publishedAt": "2026-10-29",
+    "observedAt": "2026-11-02T09:23:00Z",
+    "number": 73
+  },
+  {
+    "url": "https://personalrobotics.cs.washington.edu/SwapBot/",
+    "title": "SwapBot official project",
+    "publisher": "University of Washington Personal Robotics",
+    "observedAt": "2026-11-02T09:23:00Z",
+    "number": 74
+  },
+  {
+    "url": "https://github.com/OpenSenseNova/SenseNova-Loop/blob/7104f13c1cedd5759c8fe1a5d4960313be9d5e44/README.md",
+    "title": "Pinned README: release, architecture, deployment and development status",
+    "publisher": "OpenSenseNova",
+    "publishedAt": "2026-10-30 release day; pinned documentation commit 2026-11-02T06:39:49Z",
+    "observedAt": "2026-11-02T09:16:31.568159+00:00",
+    "number": 75
+  },
+  {
+    "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B-Preview",
+    "title": "SenseNova-Loop-9B-Preview original model card and weights",
+    "publisher": "SenseNova",
+    "publishedAt": "2026-10-30 release day",
+    "observedAt": "2026-11-02T09:16:31.568159+00:00",
+    "number": 76
+  },
+  {
+    "url": "https://github.com/OpenSenseNova/SenseNova-Loop/blob/7104f13c1cedd5759c8fe1a5d4960313be9d5e44/LICENSE",
+    "title": "Apache 2.0 license",
+    "publisher": "OpenSenseNova",
+    "publishedAt": "repository license",
+    "observedAt": "2026-11-02T09:16:31.568159+00:00",
+    "number": 77
+  }
+]

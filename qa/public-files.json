@@ -6770,6 +6770,376 @@
     "sha256": "6f5e823e8e4f7c1d8dbb710f627763ddf0cc55ed25726247ee356b0514f89ae3"
   },
   {
+    "path": "2026-11-02/assets/agentzero-v215-permissions.png",
+    "bytes": 13441,
+    "sha256": "8efbfa19d93108a6cef1cdebddebd5e9837a4f120c1404b3456eea6e50c78bf8"
+  },
+  {
+    "path": "2026-11-02/assets/airjelly-proactive-work.png",
+    "bytes": 895022,
+    "sha256": "71d0e6fb0f0ce5fa398fd7348e50f8309d6283e376ff307019082d6246bcdb3a"
+  },
+  {
+    "path": "2026-11-02/assets/codex-general-terminal.png",
+    "bytes": 838131,
+    "sha256": "15b86fa9c0790a779ecdd84f1e7dee029ab79bfb093bd3c4876998696925b013"
+  },
+  {
+    "path": "2026-11-02/assets/deck.js",
+    "bytes": 2576,
+    "sha256": "63d13c06452d7405e0b5ed572d8464d802c9e5b8de656b5a94e3527b1730f7b3"
+  },
+  {
+    "path": "2026-11-02/assets/fx-host-sandbox-editorial.png",
+    "bytes": 96650,
+    "sha256": "a050cc243dcf5750c978f33c539b11ca47fd7ae983bf9b8b85671e74df7f2f64"
+  },
+  {
+    "path": "2026-11-02/assets/homepod-mini2-mac.jpg",
+    "bytes": 33004,
+    "sha256": "3f9626aa52d7eab6e5da88884cafa95b5ab0d200690ccca4fa5490c15326641a"
+  },
+  {
+    "path": "2026-11-02/assets/ideogram-context-gallery.png",
+    "bytes": 135173,
+    "sha256": "a7316afb4b85f16b961a0986d4d31745bf2653c6a4c6bb08803c5e55f6dcd383"
+  },
+  {
+    "path": "2026-11-02/assets/inkitiate-teaser.jpg",
+    "bytes": 2626104,
+    "sha256": "f68345b2a05838bfb284820e79a4207738285153e814a2c053c6317098c0adf4"
+  },
+  {
+    "path": "2026-11-02/assets/issue.css",
+    "bytes": 10285,
+    "sha256": "1e458c07ba855726699c2b9885d466a62a85e04604b22dddcca9a2f3d1ca09e9"
+  },
+  {
+    "path": "2026-11-02/assets/logictree-interface.png",
+    "bytes": 880953,
+    "sha256": "5e97a61a821172c4a2658dcd39761296326e941644f5d81b91e2a5411b1d5b3f"
+  },
+  {
+    "path": "2026-11-02/assets/magpie-0119-hero.png",
+    "bytes": 258094,
+    "sha256": "315433e72a58bd9ec98f81bb70907f0d56a0a2433e51ff2b32978971c6503e31"
+  },
+  {
+    "path": "2026-11-02/assets/muse-waveshare-hardware.webp",
+    "bytes": 505800,
+    "sha256": "f82a0eb8fe65e0c8ec392c5e36fedab31124495ac931153efc25fcfc3e2d18a9"
+  },
+  {
+    "path": "2026-11-02/assets/nesformer-full-game.png",
+    "bytes": 3899,
+    "sha256": "f6e4b439f2f700d19a603fb1af8ae0eb7d633312d94ef8a27873e5a5720076f2"
+  },
+  {
+    "path": "2026-11-02/assets/playwright-contexts-editorial.png",
+    "bytes": 71940,
+    "sha256": "42873376183a6fa523c5c4dd04098f1f46a017a6ef61410f23bd80cc412a6a76"
+  },
+  {
+    "path": "2026-11-02/assets/proart-p16-official.jpg",
+    "bytes": 44131,
+    "sha256": "d1e67aa40c0354de64c849ecc4a19568f3885a37a0df54aa8980de30c1dbc99c"
+  },
+  {
+    "path": "2026-11-02/assets/riverside-agent-editor.png",
+    "bytes": 949820,
+    "sha256": "a909e12368ffb4962fa823640a6754242f249421e1dae2cff1b6853edcf22bf4"
+  },
+  {
+    "path": "2026-11-02/assets/sensenova-loop-architecture.jpg",
+    "bytes": 1079478,
+    "sha256": "68b3be47c9c61daea73c48dd1b4796a6072be0269614ad4124d23b2ec7af2b3c"
+  },
+  {
+    "path": "2026-11-02/assets/streamstudio-interface.png",
+    "bytes": 2767905,
+    "sha256": "183c19d17ec453646d74d3b457daadfaefbaf60f1fb2c1c3e10c0a2703f72353"
+  },
+  {
+    "path": "2026-11-02/assets/swapbot-system.jpg",
+    "bytes": 2290174,
+    "sha256": "dfcb9d187f33108df3029e4bb50784b125e689078ef9bd28f5b2521515085950"
+  },
+  {
+    "path": "2026-11-02/assets/tapcraft-public-studio.jpg",
+    "bytes": 76431,
+    "sha256": "0c588ab0d5138c048983f4c5a5bfbb832c711552ed19b5c185d5e8a55bba2aa7"
+  },
+  {
+    "path": "2026-11-02/assets/touchbridge-teaser.png",
+    "bytes": 515722,
+    "sha256": "389d3ae347f06f21d57b15b52eba2385bf7386adb0f20c87692942c04ce45d44"
+  },
+  {
+    "path": "2026-11-02/assets/ultrahuman-ring-pro-rendered.jpg",
+    "bytes": 77713,
+    "sha256": "c1807c2c9e9248ca8654cceb016634fc1d6846a76c4f03ddd6791dfa102e99cb"
+  },
+  {
+    "path": "2026-11-02/assets/usage-quota-codex.webp",
+    "bytes": 27720,
+    "sha256": "61c29b9461e80504cf71cf16be36384fde4ed7163b966de7ac0f986c51190d0b"
+  },
+  {
+    "path": "2026-11-02/assets/zush-folder-sorting.webp",
+    "bytes": 14656,
+    "sha256": "3bd5f760244f55119ecf6580a11153033a8a18a1b1009ec65137258e988474d8"
+  },
+  {
+    "path": "2026-11-02/en/details/agent-zero-release-v215.html",
+    "bytes": 6314,
+    "sha256": "acfa77efd4c0c63dd0c51c33e69be9dde04cd0a77a3fb9abe54c5f194aae66d5"
+  },
+  {
+    "path": "2026-11-02/en/details/airjelly-screen-queue-2016.html",
+    "bytes": 6194,
+    "sha256": "7a6e4b3b29c52aeb9436b97387d39415cbe2703dc61614a300b559b3385791d3"
+  },
+  {
+    "path": "2026-11-02/en/details/codex-cli-release-0166.html",
+    "bytes": 5980,
+    "sha256": "572aecd2b4f26c5d5d338bc9a5c24b32862e1ee29d271389138ef91e0775c4cd"
+  },
+  {
+    "path": "2026-11-02/en/details/homepod-mini2-mac-airplay-review.html",
+    "bytes": 6219,
+    "sha256": "bb1c1e87cd1ce854486f9c57589ce246b2949f816be92ebbb996be7aea4e6752"
+  },
+  {
+    "path": "2026-11-02/en/details/ideogram-context-window.html",
+    "bytes": 6100,
+    "sha256": "edf694799fd66218764ac9a6178e3e532643aadd65165221258b94293feb80be"
+  },
+  {
+    "path": "2026-11-02/en/details/inkitiate-ink-agent-workspace.html",
+    "bytes": 6023,
+    "sha256": "9b7f4d6cc829fd4dad0da258de074733610f158bb326af3ae489a6d64353536d"
+  },
+  {
+    "path": "2026-11-02/en/details/logictree-structured-authoring.html",
+    "bytes": 5966,
+    "sha256": "c3e2d15c61c722d204779e5a58499a18c00ee8a40fadf389c16d97f9fe11f8e8"
+  },
+  {
+    "path": "2026-11-02/en/details/magpie-context-calendar.html",
+    "bytes": 6774,
+    "sha256": "25d4610920a89b1dbb950040f4da1a1300f729922cf99d6e403e8de65ab4ff45"
+  },
+  {
+    "path": "2026-11-02/en/details/muse-gadgets-waveshare-diy-review.html",
+    "bytes": 6236,
+    "sha256": "108ffcd3c1246220cd956b74f3e17655f4f54815dc8c83c09c83fc97c7a3138c"
+  },
+  {
+    "path": "2026-11-02/en/details/nesformer-compiled-nes-weights.html",
+    "bytes": 6290,
+    "sha256": "91ee63cc9d26fa2083d49dc7b51fbd45c6ddec89f74ee9a69809000ccf9b7e33"
+  },
+  {
+    "path": "2026-11-02/en/details/playwright-mcp-release-0084.html",
+    "bytes": 6039,
+    "sha256": "e3b397fa0dc28e01563ecd08ed96b833d131d931ac3bc0109da11056098b7339"
+  },
+  {
+    "path": "2026-11-02/en/details/proart-p16-bolt-workload-review.html",
+    "bytes": 6475,
+    "sha256": "77a0976b3a4fc91caa2268213295b2eb3280d44bcdbe36ba7674dca5f2e81c28"
+  },
+  {
+    "path": "2026-11-02/en/details/riverside-clips-from-edits.html",
+    "bytes": 6242,
+    "sha256": "9430192badf56b869a5a79618f9c15a0d9855ba540ecbd891364bf04ee8c2869"
+  },
+  {
+    "path": "2026-11-02/en/details/sensenova-loop-9b-preview.html",
+    "bytes": 6902,
+    "sha256": "d4ecae1ff5f8848dc9763b91c3cab4a960ac4c9a912505f1056769e52757265c"
+  },
+  {
+    "path": "2026-11-02/en/details/streamstudio-branching-video.html",
+    "bytes": 6183,
+    "sha256": "74c4d34754c8e79477a7434443c8b00cc3c966630f5667e6d4356106a3bca128"
+  },
+  {
+    "path": "2026-11-02/en/details/swapbot-instrumented-tools.html",
+    "bytes": 6485,
+    "sha256": "733cf2ae8a079eccd63f55929c670db4575821980ca9bde9788efd3b1a1bb5e7"
+  },
+  {
+    "path": "2026-11-02/en/details/tapcraft-scrolling-masks-251.html",
+    "bytes": 6090,
+    "sha256": "22fdd3147c33287221026c06e5a9521fbd4701a49bc051db86f1ff4f4a375d94"
+  },
+  {
+    "path": "2026-11-02/en/details/touchbridge-tactile-demonstrations.html",
+    "bytes": 6533,
+    "sha256": "7dad3171c14d5a3ebdb354558ae47933fd797b9f7c35eff33d249fd3de566cff"
+  },
+  {
+    "path": "2026-11-02/en/details/ultrahuman-ring-pro-fit-jade-review.html",
+    "bytes": 6557,
+    "sha256": "8af7e342c09144e2a3c74531e5e6d06fa28f13e61eaf75bff6ed8dd7bf13f4e8"
+  },
+  {
+    "path": "2026-11-02/en/details/usage-claude-chatgpt-v4.html",
+    "bytes": 5941,
+    "sha256": "88d6300cf5f79f3f1fae4673098d64452349c7e191ee10d86ee39997d1d887c7"
+  },
+  {
+    "path": "2026-11-02/en/details/vercel-fx-host-sandbox.html",
+    "bytes": 6528,
+    "sha256": "0a1a53d80260d6dcfac653f5e41e515c1efe442ccd25ddd968f4959bce08b419"
+  },
+  {
+    "path": "2026-11-02/en/details/zush-nested-sort-322.html",
+    "bytes": 5726,
+    "sha256": "4353c4a147218ab2e5fbda6528359fbc491d20f79f71f839ad800a62f937a68f"
+  },
+  {
+    "path": "2026-11-02/en/index.html",
+    "bytes": 74714,
+    "sha256": "4ada29ce9e934600391c5ef92f5b88661af2963d00f687f2ee65cee00caf3ba8"
+  },
+  {
+    "path": "2026-11-02/manifest.json",
+    "bytes": 25719,
+    "sha256": "6ba2610510a75c8f2072d410d74e94a24bd1b5a3478f71cbf50e4e0983179e3a"
+  },
+  {
+    "path": "2026-11-02/sources.html",
+    "bytes": 46986,
+    "sha256": "71c81f7fe681ea56a34f14c4559c46a7101d3adeb71887f1a43ed934ec8db216"
+  },
+  {
+    "path": "2026-11-02/sources.json",
+    "bytes": 19568,
+    "sha256": "356fc89a44f2ba66384119619983d757f8979205f88b739ac2dc5109f8f62436"
+  },
+  {
+    "path": "2026-11-02/visuals.json",
+    "bytes": 17274,
+    "sha256": "8efbbb8459afe57d216526100cda2d1dde4aedeec0856cbc0303f9ab66eee000"
+  },
+  {
+    "path": "2026-11-02/zh/details/agent-zero-release-v215.html",
+    "bytes": 5736,
+    "sha256": "20bec3d448104f16ee3a765357d3a609e663a6c90b963e7ed37549ebeef4d57b"
+  },
+  {
+    "path": "2026-11-02/zh/details/airjelly-screen-queue-2016.html",
+    "bytes": 5645,
+    "sha256": "cb5dcbca4d1d95afb31d7f0bbde91981f8d51965783845425116dd17aa40743e"
+  },
+  {
+    "path": "2026-11-02/zh/details/codex-cli-release-0166.html",
+    "bytes": 5370,
+    "sha256": "35320a71303e5187fa2677d92e38017fad2976a323971fa2cb5d9722ea612151"
+  },
+  {
+    "path": "2026-11-02/zh/details/homepod-mini2-mac-airplay-review.html",
+    "bytes": 5595,
+    "sha256": "b71a8c68ca4475cae44b93ef62bae8c5bf162541fc83ce9e2731c580e69a49b8"
+  },
+  {
+    "path": "2026-11-02/zh/details/ideogram-context-window.html",
+    "bytes": 5590,
+    "sha256": "a47796c4c9da141c487e36682ee4dd9eeb7a5a00366956c73438ca3a91a51131"
+  },
+  {
+    "path": "2026-11-02/zh/details/inkitiate-ink-agent-workspace.html",
+    "bytes": 5400,
+    "sha256": "307ad0673b709932089a2d89855321eac962b6efa9d95f2cfff104413533597b"
+  },
+  {
+    "path": "2026-11-02/zh/details/logictree-structured-authoring.html",
+    "bytes": 5239,
+    "sha256": "3df5b01881495e8276d953fbe6f2ceb2ea8b2b29873a113b59b904cc44fed021"
+  },
+  {
+    "path": "2026-11-02/zh/details/magpie-context-calendar.html",
+    "bytes": 6278,
+    "sha256": "e55f47a65cfe0867614d0ac6d8df36bdf36d68b186a82180897811321c266fa7"
+  },
+  {
+    "path": "2026-11-02/zh/details/muse-gadgets-waveshare-diy-review.html",
+    "bytes": 5803,
+    "sha256": "5e676e9de11045f51065ec852fffe5ce9625cbd2efd6c013731498cc35606d0b"
+  },
+  {
+    "path": "2026-11-02/zh/details/nesformer-compiled-nes-weights.html",
+    "bytes": 5931,
+    "sha256": "3ba6ef9cb5b96a93ec9e576f2919f84041446b09ad1b97e0aebea50efc2960ae"
+  },
+  {
+    "path": "2026-11-02/zh/details/playwright-mcp-release-0084.html",
+    "bytes": 5702,
+    "sha256": "118cc72ef3e68d6c73fc5d37f334dfe827e48918f2348cb3fa6f4f4240f42c9d"
+  },
+  {
+    "path": "2026-11-02/zh/details/proart-p16-bolt-workload-review.html",
+    "bytes": 5901,
+    "sha256": "7d4b6aed04530c38e3882c6b85a7cc18b1d4d06f7ab1fb107093dc661cab2ae2"
+  },
+  {
+    "path": "2026-11-02/zh/details/riverside-clips-from-edits.html",
+    "bytes": 5692,
+    "sha256": "83a756e661a3cae38d5a21de751bff7fc3dac1e7e6b925361eaa59859343f1b7"
+  },
+  {
+    "path": "2026-11-02/zh/details/sensenova-loop-9b-preview.html",
+    "bytes": 6443,
+    "sha256": "2655d5749d07a23be7e066ea461a08eb42b27e74e249f11234216a9c72df0e7b"
+  },
+  {
+    "path": "2026-11-02/zh/details/streamstudio-branching-video.html",
+    "bytes": 5481,
+    "sha256": "b67b751a9d458aa31f4752875c42e9dfad34cdd2836d2163aaf773500b2b4ff5"
+  },
+  {
+    "path": "2026-11-02/zh/details/swapbot-instrumented-tools.html",
+    "bytes": 5792,
+    "sha256": "e23b26abdfe96ea41d87f58973d52da426db0dee69ece50150e1d76b387ceb74"
+  },
+  {
+    "path": "2026-11-02/zh/details/tapcraft-scrolling-masks-251.html",
+    "bytes": 5601,
+    "sha256": "050e7712dd29b5460778b8afa15760637b2a2f02012b23a7d736c7d088ac5ca4"
+  },
+  {
+    "path": "2026-11-02/zh/details/touchbridge-tactile-demonstrations.html",
+    "bytes": 5699,
+    "sha256": "ccf4b3b27b828f689416ad6e08e2c3b01aa6a629b2f42b2c4e2f17109000ab45"
+  },
+  {
+    "path": "2026-11-02/zh/details/ultrahuman-ring-pro-fit-jade-review.html",
+    "bytes": 5995,
+    "sha256": "101bd72a95d12cd9f8daeb4dd2addaf7bcb0b7f40644cba7a57a1535fe27a94a"
+  },
+  {
+    "path": "2026-11-02/zh/details/usage-claude-chatgpt-v4.html",
+    "bytes": 5476,
+    "sha256": "be3e5063cb044e744f0b91bcabe538d1d8afb813600b5c5b8d9859f1b7f6d7b4"
+  },
+  {
+    "path": "2026-11-02/zh/details/vercel-fx-host-sandbox.html",
+    "bytes": 5873,
+    "sha256": "789365e0aee6d1ceaa4d93e701378693ddeeb5026c1dfa1f1b898f20376e5c66"
+  },
+  {
+    "path": "2026-11-02/zh/details/zush-nested-sort-322.html",
+    "bytes": 5112,
+    "sha256": "bad4405d313b06ab05abe04af5ea376875c37f2f0d853e73378de5e45044bbc6"
+  },
+  {
+    "path": "2026-11-02/zh/index.html",
+    "bytes": 71586,
+    "sha256": "48451d1d3ab6375f59203a604c6cb02a35136576b4ffc9913fa73550c71a6486"
+  },
+  {
     "path": "assets/acti-agentic-keyboard-2026-07-03.svg",
     "bytes": 2825,
     "sha256": "84ad9abb0a1191abde62dea383e6e1ed583fc089073d3ccaf91629044501721b"
@@ -7181,18 +7551,18 @@
   },
   {
     "path": "en/index.html",
-    "bytes": 172370,
-    "sha256": "c4884da42b6e693aa19c92b0fb4ef24f826cfa73c408f6a1353f96c5d7a13ea0"
+    "bytes": 173515,
+    "sha256": "fa63460d65ccb2df8000871ba6973a3b9ef06fdc1caebb0e4e9c812571c06bdb"
   },
   {
     "path": "index.html",
-    "bytes": 166298,
-    "sha256": "0ff1bcffe7b09fb27e1a52b9d2e21abf634ca724a7dd96f9e47917a6815345dd"
+    "bytes": 167430,
+    "sha256": "70a3271d98d836a3649abf9f670e616388a753270da37c2ffdc0d7869f2040ae"
   },
   {
     "path": "manifest.json",
-    "bytes": 743888,
-    "sha256": "dfaffe3c2412bca5cf2f1221060265672b55f34210985a1d51e8e19cbca70e02"
+    "bytes": 745135,
+    "sha256": "ded2999666839c9e46d6641d610e1b82800881db53f70064079278e442cdc703"
   },
   {
     "path": "weekly/2026-10-12/pilot/en/index.html",
