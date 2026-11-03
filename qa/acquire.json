@@ -2,63 +2,43 @@
   {
     "kind": "image",
     "locale": "zh",
-    "name": "clayzo-ui1.jpg",
-    "url": "https://ph-files.imgix.net/29541ce1-c937-46af-8137-69b6a546d2fa.png",
+    "name": "longcat25-tokenization.png",
+    "url": "https://s3.meituan.net/static-prod01/com.sankuai.friday.longcat.next2p/assets/visual-tokenization-BRhrbOE4.png",
     "renderImage": true
   },
   {
     "kind": "image",
     "locale": "en",
-    "name": "clayzo-ui2.jpg",
-    "url": "https://ph-files.imgix.net/5e78c101-2830-41fb-9325-d1dce207758a.png",
+    "name": "dreambeans-ui1.jpg",
+    "url": "https://play-lh.googleusercontent.com/kViChk4mIp12uwx_BDmKf0n_uWxObTB-650ubLhnVi6cUK0edmtlsmTd9ejXtNR5nowEBXLDNsY06aB6nv9TrQ=w526-h296",
     "renderImage": true
   },
   {
     "kind": "image",
     "locale": "zh",
-    "name": "clayzo-ui3.jpg",
-    "url": "https://ph-files.imgix.net/09e1f26e-007b-46d6-91b9-3e5eb1a389ee.png",
+    "name": "dreambeans-ui2.jpg",
+    "url": "https://play-lh.googleusercontent.com/P-qbVjOgjYAxUmjj7Z3JsyEZwp96k9IIo04U3pq9J_KWk1HoogPf9GZw5zANS-eiIAEagTlyH8_MhModo3hMuy0=w526-h296",
     "renderImage": true
   },
   {
     "kind": "image",
     "locale": "en",
-    "name": "xmind-ui1.jpg",
-    "url": "https://ph-files.imgix.net/b32c2bf3-32d1-4567-b12d-8847cbf29858.png",
+    "name": "pixel-watch5-review.jpg",
+    "url": "https://media.wareable.com/images/1024w/2026/10/google-pixel-watch-5-touching-watch-face.jpg",
     "renderImage": true
   },
   {
     "kind": "image",
     "locale": "zh",
-    "name": "xmind-ui2.jpg",
-    "url": "https://ph-files.imgix.net/4b66e406-fdc4-46fa-abb4-0bffcd26e640.png",
-    "renderImage": true
-  },
-  {
-    "kind": "inventory",
-    "locale": "en",
-    "name": "vids-page-inventory.json",
-    "url": "https://workspaceupdates.googleblog.com/2026/11/create-a-custom-avatar-google-vids.html"
-  },
-  {
-    "kind": "image",
-    "locale": "zh",
-    "name": "tancky-upload.jpg",
-    "url": "https://tancky.io/images/put-two-people-together-in-a-photo/step-upload.webp",
+    "name": "pebble-qore-vox.jpg",
+    "url": "https://www.pebblecart.com/cdn/shop/files/1_0ed8d562-3427-4ac2-a91c-7a0d4fc1edf8.jpg?v=1792988849&width=673",
     "renderImage": true
   },
   {
     "kind": "image",
     "locale": "en",
-    "name": "beacon-ui1.jpg",
-    "url": "https://ph-files.imgix.net/9fbd8c98-c5aa-4e40-88c2-58905005594a.png",
-    "renderImage": true
-  },
-  {
-    "kind": "image",
-    "locale": "zh",
-    "name": "beacon-ui2.jpg",
-    "url": "https://ph-files.imgix.net/8f036004-a4ac-4bf3-ad8f-a8661b51bbad.png",
+    "name": "vids-avatar.jpg",
+    "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEio_sv79pGzEOJDOmwSvt_CLa28jNqqNwHeLLPsxA34y3eEdxxW0szqkBBNdp3wTvvIFoK8Fh47yGiAwfOVARJ6qvOf47cNBIxfGPd_qQ1VumoOFx5yzE_BmY8BWtYyoFYhAsyzSOHs8znR-ngq2ISAZGWY7r6tV2mCeo_iPqoEB1V2dKLxhwSmnkGNwMs/s1600/custom%20avatar%20in%20Google%20vids.png",
     "renderImage": true
   }
 ]
