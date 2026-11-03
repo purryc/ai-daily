@@ -1,0 +1,595 @@
+{
+  "date": "2026-11-03",
+  "timezone": "America/Toronto",
+  "cutoff": "2026-11-03T09:02:43Z",
+  "windowStart": "2026-11-02T09:02:43Z",
+  "metrics": {
+    "body": {
+      "zhDenseChars": 17353,
+      "enWords": 10648
+    },
+    "perProduct": {
+      "tancky-two-person-portraits": {
+        "zh": 665,
+        "en": 430
+      },
+      "hera-creative-canvas": {
+        "zh": 647,
+        "en": 423
+      },
+      "dreambeans-india-expansion": {
+        "zh": 705,
+        "en": 438
+      },
+      "pebble-qore-vox-recording": {
+        "zh": 749,
+        "en": 428
+      },
+      "mova-v70-vacuumwars-review": {
+        "zh": 721,
+        "en": 436
+      },
+      "pixel-watch5-wareable-review": {
+        "zh": 744,
+        "en": 440
+      },
+      "xreal-aura-docomo-japan": {
+        "zh": 703,
+        "en": 429
+      },
+      "google-vids-image-avatar": {
+        "zh": 659,
+        "en": 427
+      },
+      "figma-shaders-code-layers-4096": {
+        "zh": 691,
+        "en": 398
+      },
+      "xmind-desktop-agent-2701": {
+        "zh": 659,
+        "en": 435
+      },
+      "finetuning-music-mcp": {
+        "zh": 651,
+        "en": 434
+      },
+      "clayzo-agent-animation": {
+        "zh": 698,
+        "en": 431
+      },
+      "trae-bao-personal-assistant": {
+        "zh": 714,
+        "en": 432
+      },
+      "longcat-25-native-multimodal": {
+        "zh": 719,
+        "en": 442
+      },
+      "berth-nov2-lease-window": {
+        "zh": 718,
+        "en": 423
+      },
+      "claude-code-21317-hook-failure": {
+        "zh": 666,
+        "en": 406
+      },
+      "beacon-1352-telemetry-forward": {
+        "zh": 652,
+        "en": 409
+      },
+      "video-studio-skill-nov2-101": {
+        "zh": 710,
+        "en": 420
+      },
+      "nvidia-recovery-attribution": {
+        "zh": 641,
+        "en": 403
+      },
+      "aisin-mram-instant-on-soc": {
+        "zh": 732,
+        "en": 427
+      },
+      "weight-space-programming": {
+        "zh": 737,
+        "en": 433
+      },
+      "materialvellum": {
+        "zh": 706,
+        "en": 430
+      },
+      "gazetags": {
+        "zh": 699,
+        "en": 430
+      },
+      "hipaper": {
+        "zh": 690,
+        "en": 422
+      },
+      "interface-quilt": {
+        "zh": 677,
+        "en": 422
+      }
+    },
+    "primarySummaries": {
+      "tancky-two-person-portraits": {
+        "zh": 209,
+        "en": 133
+      },
+      "hera-creative-canvas": {
+        "zh": 204,
+        "en": 125
+      },
+      "dreambeans-india-expansion": {
+        "zh": 208,
+        "en": 117
+      },
+      "pebble-qore-vox-recording": {
+        "zh": 213,
+        "en": 117
+      },
+      "mova-v70-vacuumwars-review": {
+        "zh": 202,
+        "en": 117
+      },
+      "pixel-watch5-wareable-review": {
+        "zh": 217,
+        "en": 117
+      },
+      "xreal-aura-docomo-japan": {
+        "zh": 202,
+        "en": 116
+      },
+      "google-vids-image-avatar": {
+        "zh": 189,
+        "en": 116
+      },
+      "figma-shaders-code-layers-4096": {
+        "zh": 208,
+        "en": 115
+      },
+      "xmind-desktop-agent-2701": {
+        "zh": 214,
+        "en": 129
+      },
+      "finetuning-music-mcp": {
+        "zh": 204,
+        "en": 131
+      },
+      "clayzo-agent-animation": {
+        "zh": 214,
+        "en": 127
+      },
+      "trae-bao-personal-assistant": {
+        "zh": 201,
+        "en": 115
+      },
+      "longcat-25-native-multimodal": {
+        "zh": 207,
+        "en": 119
+      },
+      "berth-nov2-lease-window": {
+        "zh": 208,
+        "en": 125
+      },
+      "claude-code-21317-hook-failure": {
+        "zh": 210,
+        "en": 126
+      },
+      "beacon-1352-telemetry-forward": {
+        "zh": 206,
+        "en": 116
+      },
+      "video-studio-skill-nov2-101": {
+        "zh": 206,
+        "en": 119
+      },
+      "nvidia-recovery-attribution": {
+        "zh": 202,
+        "en": 117
+      },
+      "aisin-mram-instant-on-soc": {
+        "zh": 209,
+        "en": 112
+      },
+      "weight-space-programming": {
+        "zh": 205,
+        "en": 113
+      },
+      "materialvellum": {
+        "zh": 217,
+        "en": 114
+      },
+      "gazetags": {
+        "zh": 215,
+        "en": 118
+      },
+      "hipaper": {
+        "zh": 206,
+        "en": 115
+      },
+      "interface-quilt": {
+        "zh": 216,
+        "en": 123
+      }
+    },
+    "counting": "Only unique full-analysis product paragraphs count toward body gates; summaries, captions, coverage and sources excluded.",
+    "products": 25,
+    "references": 87,
+    "coreVisuals": 25,
+    "slidesPerLocale": 28,
+    "primaryProjectPages": 25,
+    "attachedProjectDetails": 25,
+    "primaryBody": {
+      "zhDenseChars": 5192,
+      "enWords": 2992
+    },
+    "completeReadingBody": {
+      "zhDenseChars": 22545,
+      "enWords": 13640
+    }
+  },
+  "revision": {
+    "label": "morning-edition",
+    "originalCutoffRetained": true,
+    "newIssue": true,
+    "baselineCommit": "463203e0b5a771db8eb2c242d8f8c010ef98d1db"
+  },
+  "topics": [
+    {
+      "id": "tancky-two-person-portraits",
+      "zhHeadline": "Tancky用两张独照生成合影，人物输入分开但细节仍会重画",
+      "enHeadline": "Tancky separates two portrait inputs before generating a new shared scene",
+      "eventAt": "2026-11-02",
+      "freshness": "near-three-day",
+      "evidence": "Documented workflow; maker statements and original documentation, not independent hands-on results",
+      "eventDateNote": "day; official Nov2 release log, exact clock/timezone unconfirmed; conservative boundary-uncertain supplement",
+      "event_key": "tancky-two-person-portraits:2026-11-02",
+      "product_key": "tancky",
+      "publishedAt": "2026-11-02",
+      "observedAt": "2026-11-03T09:18:17.076309+00:00",
+      "delta_since_last_seen": "The official November 2 log also records clearer example prompts and sign-in that preserves entered material. Its exact timezone is undisclosed."
+    },
+    {
+      "id": "hera-creative-canvas",
+      "zhHeadline": "Hera把广告草稿保留成图层，改标题不必重新生成整张",
+      "enHeadline": "Hera keeps ad drafts in layers so a headline can change on its own",
+      "eventAt": "2026-11-02",
+      "freshness": "near-three-day",
+      "evidence": "Documented workflow; maker statements and original documentation, not independent hands-on results",
+      "eventDateNote": "day; exact event clock/timezone unconfirmed; PH appearance is not proof of first availability",
+      "event_key": "hera-creative-canvas:2026-11-02",
+      "product_key": "hera",
+      "publishedAt": "2026-11-02",
+      "observedAt": "2026-11-03T09:13:00.630841+00:00",
+      "delta_since_last_seen": "Its November 2 Product Hunt appearance presents the new creative canvas, not Hera’s first release; the exact availability clock remains unconfirmed."
+    },
+    {
+      "id": "dreambeans-india-expansion",
+      "zhHeadline": "Dreambeans在印度开放，把已连接的个人资料编成每日故事卡",
+      "enHeadline": "Dreambeans opens in India with daily story cards drawn from connected apps",
+      "eventAt": "2026-11-03",
+      "freshness": "main",
+      "evidence": "Original India announcement, product FAQ and store listings; no authenticated India installation or independent retention measurement",
+      "eventDateNote": "Original Google India blog day only; contemporaneous reporting updated Nov3 09:08 IST (03:38Z) establishes announcement existed before fixed09:02:43Z cutoff, not exact launch clock.",
+      "event_key": "google-dreambeans:india-expansion:2026-11-03",
+      "product_key": "google-dreambeans",
+      "publishedAt": "2026-11-03",
+      "observedAt": "2026-11-03T09:19:38.473171+00:00",
+      "delta_since_last_seen": "The November 3 announcement opens Android and iOS access in India to adults, with English and thirteen local languages."
+    },
+    {
+      "id": "pebble-qore-vox-recording",
+      "zhHeadline": "Qore Vox双击手环录音，回手机整理文字，不再多带一枚录音器",
+      "enHeadline": "Qore Vox records from a wrist button and sends the note-taking work back to the phone",
+      "eventAt": "2026-11-02",
+      "freshness": "near-three-day",
+      "evidence": "Original manufacturer workflow/specification pages and dated news; no independent recording or health validation",
+      "eventDateNote": "Earliest verified news timestamp Nov2 13:39:42 IST, before main-window lower bound; official page undated and possible earlier listing, not proven first availability",
+      "event_key": "pebble-qore-vox-india-announcement:2026-11-02",
+      "product_key": "pebble-qore-vox",
+      "publishedAt": "2026-11-02T08:09:42Z",
+      "observedAt": "2026-11-03T09:19:26Z",
+      "delta_since_last_seen": "November 2 coverage predates this issue's main window. The physical shortcut saves unlocking a phone, while reviewing content still needs that phone."
+    },
+    {
+      "id": "mova-v70-vacuumwars-review",
+      "zhHeadline": "MOVA伸长拖布去够椅腿，避障出色仍要检查出水和清扫时间",
+      "enHeadline": "MOVA reaches around chair legs, but obstacle avoidance does not settle water control or cleaning time",
+      "eventAt": "2026-11-02",
+      "freshness": "near-three-day",
+      "evidence": "Vacuum Wars purchased-unit testing, manufacturer specifications and an older contrary TechRadar review; no editorial hands-on test",
+      "eventDateNote": "Review day only; exact clock and timezone unknown; not a hardware launch date",
+      "event_key": "mova-v70-vacuumwars-review:2026-11-02",
+      "product_key": "mova-v70-ultra-complete",
+      "publishedAt": "2026-11-02",
+      "observedAt": "2026-11-03T09:19:26Z",
+      "delta_since_last_seen": "A November 2 review cleared 23 of 24 obstacle tests but found inconsistent water settings and slower navigation."
+    },
+    {
+      "id": "pixel-watch5-wareable-review",
+      "zhHeadline": "Pixel Watch 5离线能执行小指令，跑步路线修正却要等同步之后",
+      "enHeadline": "Pixel Watch 5 handles small offline commands, while route corrections arrive after syncing",
+      "eventAt": "2026-11-02",
+      "freshness": "near-three-day",
+      "evidence": "New independent review checked against original Google product and GPS engineering disclosures; no editorial hands-on test",
+      "eventDateNote": "Review day only, exact time/timezone unverified; original product launch August 2026",
+      "event_key": "pixel-watch5-wareable-review:2026-11-02",
+      "product_key": "pixel-watch-5",
+      "publishedAt": "2026-11-02",
+      "observedAt": "2026-11-03T09:19:26Z",
+      "delta_since_last_seen": "The reviewer found no clear route advantage on a tree-covered run; later cloud corrections cannot improve pace already shown during exercise."
+    },
+    {
+      "id": "xreal-aura-docomo-japan",
+      "zhHeadline": "AURA补齐日本购买与试戴路径，先选瞳距再考虑空间工作台",
+      "enHeadline": "AURA adds a Japanese purchase and fitting route, with eye spacing part of the decision",
+      "eventAt": "2026-11-02",
+      "freshness": "near-three-day",
+      "evidence": "Original DOCOMO regional announcement with Google architecture background; no new hardware generation or hands-on verification",
+      "eventDateNote": "Original Japanese announcement day only; scheduled online availability Nov27 and shops in December; not original global hardware launch",
+      "event_key": "xreal-aura-docomo-japan-channel:2026-11-02",
+      "product_key": "xreal-aura",
+      "publishedAt": "2026-11-02",
+      "observedAt": "2026-11-03T09:19:26Z",
+      "delta_since_last_seen": "Two memory configurations and M/L eye-spacing ranges are listed. The under-95-gram glasses figure excludes the wired compute pack."
+    },
+    {
+      "id": "google-vids-image-avatar",
+      "zhHeadline": "Google Vids用一张照片定人物外观，脚本修改后仍要重新生成",
+      "enHeadline": "Google Vids starts an avatar from a photo, with script changes requiring regeneration",
+      "eventAt": "2026-10-30",
+      "freshness": "seven-day",
+      "evidence": "Documented workflow; maker statements and original documentation, not independent hands-on results",
+      "eventDateNote": "Rollout start date; exact clock not exposed",
+      "event_key": "google-vids:image-upload-avatar:2026-10-30",
+      "product_key": "google-vids",
+      "publishedAt": "2026-11-02",
+      "observedAt": "2026-11-03T09:17:00.024247+00:00",
+      "delta_since_last_seen": "Rapid Release began gradually on October 30; the November 2 announcement does not mean simultaneous access for every account."
+    },
+    {
+      "id": "figma-shaders-code-layers-4096",
+      "zhHeadline": "Figma让生成的着色器进入可运行原型，导出上限提高到4096像素",
+      "enHeadline": "Figma brings generated shaders into running prototypes and 4096-pixel exports",
+      "eventAt": "2026-11-02",
+      "freshness": "near-three-day",
+      "evidence": "Original vendor release, documentation and source; independent execution not performed",
+      "eventDateNote": "day; publication clock and timezone unavailable; primary-window lower boundary uncertain",
+      "event_key": "figma:shaders:4096-code-layers:2026-11-02",
+      "product_key": "figma:shaders",
+      "publishedAt": "2026-11-02",
+      "observedAt": "2026-11-03T09:20:29.981589+00:00",
+      "delta_since_last_seen": "Shaders are generally available to all users, while code-layer support has browser requirements."
+    },
+    {
+      "id": "xmind-desktop-agent-2701",
+      "zhHeadline": "Xmind桌面版可引用分支和附件改图，外部代理只连接指定工作区",
+      "enHeadline": "Xmind brings contextual map edits to desktop and scopes connected agents",
+      "eventAt": "2026-10-28",
+      "freshness": "seven-day",
+      "evidence": "Documented workflow; maker statements and original documentation, not independent hands-on results",
+      "eventDateNote": "day; official desktop changelog, clock/timezone unconfirmed",
+      "event_key": "xmind-desktop-agent-2701:2026-10-28",
+      "product_key": "xmind",
+      "publishedAt": "2026-10-28",
+      "observedAt": "2026-11-03T09:15:10.278256+00:00",
+      "delta_since_last_seen": "Desktop version 27.01.05086 was dated October 28; its November 2 Product Hunt presentation does not reset the release date."
+    },
+    {
+      "id": "finetuning-music-mcp",
+      "zhHeadline": "Finetuning把配乐生成接进助手，先报成本再返回可试听结果",
+      "enHeadline": "Finetuning connects music generation to assistants with a cost check before creation",
+      "eventAt": "2026-11-02",
+      "freshness": "near-three-day",
+      "evidence": "Documented workflow; maker statements and original documentation, not independent hands-on results",
+      "eventDateNote": "day; official Nov2 release log, exact clock/timezone unconfirmed; conservative boundary-uncertain supplement",
+      "event_key": "finetuning-music-mcp:2026-11-02",
+      "product_key": "finetuning",
+      "publishedAt": "2026-11-02",
+      "observedAt": "2026-11-03T09:18:17.076309+00:00",
+      "delta_since_last_seen": "The November 2 update also brings API access to Plus. It is an integration update, not a new music model announcement."
+    },
+    {
+      "id": "clayzo-agent-animation",
+      "zhHeadline": "Clayzo让编程代理写可复用动画，再检查画面和导出",
+      "enHeadline": "Clayzo gives coding agents a reusable animation document and frame review",
+      "eventAt": "2026-11-02",
+      "freshness": "near-three-day",
+      "evidence": "Documented workflow; maker statements and original documentation, not independent hands-on results",
+      "eventDateNote": "day; exact event clock/timezone unconfirmed; PH appearance is not proof of first availability",
+      "event_key": "clayzo-agent-animation:2026-11-02",
+      "product_key": "clayzo",
+      "publishedAt": "2026-11-02",
+      "observedAt": "2026-11-03T09:13:00.630841+00:00",
+      "delta_since_last_seen": "The November 2 Product Hunt presentation concerns an animation engine, distinct from its March prototyping product; the first-availability clock remains unconfirmed."
+    },
+    {
+      "id": "trae-bao-personal-assistant",
+      "zhHeadline": "TRAE 宝分开管理跨项目背景与当前任务，并行开发仍要看清改动范围",
+      "enHeadline": "TRAE Bao separates shared project history from current tasks, with scope still worth checking",
+      "eventAt": "2026-10-29",
+      "freshness": "seven-day",
+      "evidence": "Vendor-described workflow; selected incentivized community replies, not representative testing",
+      "eventDateNote": "Initial launch day corroborated by dated reporting; November 2 official promotion displays 07:12 without timezone, so no exact main-window assignment",
+      "event_key": "trae-bao-launch:2026-10-29",
+      "product_key": "trae-bao",
+      "publishedAt": "2026-10-29",
+      "observedAt": "2026-11-03T09:14:27.866119+00:00",
+      "delta_since_last_seen": "The assistant launched October 29. A November 2 notice adds a temporary no-credit promotion through November 8, not permanent free access."
+    },
+    {
+      "id": "longcat-25-native-multimodal",
+      "zhHeadline": "LongCat 2.5接收图像和视频，再由现有编程工具完成长任务",
+      "enHeadline": "LongCat 2.5 accepts images and video inside longer tool-based workflows",
+      "eventAt": "2026-11-01",
+      "freshness": "near-three-day",
+      "evidence": "Original technical report and integration documentation; vendor demonstrations and evaluations, no independent trial",
+      "eventDateNote": "Official English blog day only, clock/timezone undisclosed; Chinese blog dated Nov2; preview listing chronology not independently resolved",
+      "event_key": "longcat-25-formal-release:2026-11-01",
+      "product_key": "longcat-25",
+      "publishedAt": "2026-11-01",
+      "observedAt": "2026-11-03T09:14:27.866119+00:00",
+      "delta_since_last_seen": "The November 1 English release describes native visual tokenization and long-trajectory training. A November 2 Chinese article does not reset that release date."
+    },
+    {
+      "id": "berth-nov2-lease-window",
+      "zhHeadline": "Berth让本地AI任务错峰占用显卡，夜间队列知道何时该让位",
+      "enHeadline": "Berth schedules local AI jobs around shared GPU use and overnight windows",
+      "eventAt": "2026-11-02T15:13:29Z",
+      "freshness": "main",
+      "evidence": "Original repository, release and community evidence; no independent execution test",
+      "eventDateNote": "second; UTC verified in original GitHub HTML",
+      "event_key": "berth-nov2-lease-window:2026-11-02T15:13:29Z",
+      "product_key": "berth",
+      "publishedAt": "2026-11-02T15:13:29Z",
+      "observedAt": "2026-11-03T09:14:08.472624+00:00",
+      "delta_since_last_seen": "A November 2 development-branch change adds time windows: batch work waits for night hours and drains at a task boundary when they end."
+    },
+    {
+      "id": "claude-code-21317-hook-failure",
+      "zhHeadline": "Claude Code让失败的SDK检查拦住动作，也补上权限提示",
+      "enHeadline": "Claude Code can stop an action when its SDK check fails",
+      "eventAt": "2026-11-03T01:25:46Z",
+      "freshness": "main",
+      "evidence": "Original vendor release, documentation and source; independent execution not performed",
+      "eventDateNote": "second; UTC release HTML datetime",
+      "event_key": "anthropic:claude-code:2026-11-03T01:25:46Z",
+      "product_key": "anthropic:claude-code",
+      "publishedAt": "2026-11-03T01:25:46Z",
+      "observedAt": "2026-11-03T09:13:46.155272+00:00",
+      "delta_since_last_seen": "New cloud schedules warn about unrequested connectors and explain removal; transmitting an account email triggers a question."
+    },
+    {
+      "id": "beacon-1352-telemetry-forward",
+      "zhHeadline": "Beacon保留代理记忆，也把用量记录送回原有平台",
+      "enHeadline": "Beacon keeps agent memory without cutting off existing telemetry",
+      "eventAt": "2026-11-01T21:11:30Z",
+      "freshness": "near-three-day",
+      "evidence": "Original vendor release, documentation and source; independent execution not performed",
+      "eventDateNote": "second; UTC release HTML datetime",
+      "event_key": "github:asymptote-labs/agent-beacon:release:v1.3.52",
+      "product_key": "github:asymptote-labs/agent-beacon",
+      "publishedAt": "2026-11-01T21:11:30Z",
+      "observedAt": "2026-11-03T09:18:08.725455+00:00",
+      "delta_since_last_seen": "Forwarding filters harnesses, applies redaction and bounds its queue. This is a November 1 update, not a new November 2 memory-layer launch."
+    },
+    {
+      "id": "video-studio-skill-nov2-101",
+      "zhHeadline": "Video Studio Skill修复新项目合成，把真实操作录像接到成片流程",
+      "enHeadline": "Video Studio Skill repairs fresh-project composition for real product walkthroughs",
+      "eventAt": "2026-11-02T18:11:11Z",
+      "freshness": "main",
+      "evidence": "Original repository, release and community evidence; no independent execution test",
+      "eventDateNote": "second; UTC verified in original GitHub HTML",
+      "event_key": "video-studio-skill-nov2-101:2026-11-02T18:11:11Z",
+      "product_key": "video-studio-skill",
+      "publishedAt": "2026-11-02T18:11:11Z",
+      "observedAt": "2026-11-03T09:14:08.472624+00:00",
+      "delta_since_last_seen": "Version 1.0.1, released November 2, repairs composition in an existing capture folder and a missing audio dependency in the silent example."
+    },
+    {
+      "id": "nvidia-recovery-attribution",
+      "zhHeadline": "NVIDIA Recovery先给出重启建议，再按策略恢复训练",
+      "enHeadline": "NVIDIA Recovery separates a restart recommendation from its execution",
+      "eventAt": "2026-11-02",
+      "freshness": "near-three-day",
+      "evidence": "Original vendor release, documentation and source; independent execution not performed",
+      "eventDateNote": "day; publication clock and timezone unavailable; primary-window lower boundary uncertain",
+      "event_key": "nvidia:recovery-attribution:2026-11-02",
+      "product_key": "nvidia:recovery-attribution",
+      "publishedAt": "2026-11-02",
+      "observedAt": "2026-11-03T09:13:46.155272+00:00",
+      "delta_since_last_seen": "The November 2 introduction details Attribution-assisted diagnosis and a monitor-first deployment that recommends without changing the scheduler."
+    },
+    {
+      "id": "aisin-mram-instant-on-soc",
+      "zhHeadline": "AISIN把启动数据留在芯片内，省掉视觉设备醒来时的搬运等待",
+      "enHeadline": "AISIN keeps boot data on the chip to shorten the wait before edge vision can start",
+      "eventAt": "2026-11-02",
+      "freshness": "near-three-day",
+      "evidence": "AISIN/Tohoku joint release and prototype evaluation diagrams; author-reported measurements, not independent replication or commercial availability",
+      "eventDateNote": "AISIN date November 2; Tohoku joint HTML shows November 2 11:00 without an explicit timezone. Kept as near-three-day rather than assigning an invented UTC clock.",
+      "event_key": "aisin-tohoku-mram-ai-soc:2026-11-02",
+      "product_key": "aisin-tohoku-mram-ai-soc",
+      "publishedAt": "2026-11-02",
+      "observedAt": "2026-11-03T09:25:02Z",
+      "delta_since_last_seen": "The November 2 announcement reports 65.7-millisecond kernel startup, with detection processing separate. That is not total application response time."
+    },
+    {
+      "id": "weight-space-programming",
+      "zhHeadline": "权重编程让代理直接修模型参数，Qwen的收益主要来自减少思考循环",
+      "enHeadline": "Weight-space programming edits model parameters to reduce Qwen’s reasoning loops",
+      "eventAt": "2026-11-02",
+      "freshness": "near-three-day",
+      "evidence": "Author research blog and repository README read; not peer-reviewed product evidence or independent model execution.",
+      "eventDateNote": "Original blog publication date only; exact time and timezone undisclosed. Day overlaps lower main-window boundary; conservatively supplemental.",
+      "event_key": "weight-space-programming:2026-11-02:research-blog",
+      "product_key": "weight-space-programming",
+      "publishedAt": "2026-11-02",
+      "observedAt": "2026-11-03T09:19:08Z",
+      "delta_since_last_seen": "The authors report fewer reasoning loops and improved math scores, while some answers still reach the token limit."
+    },
+    {
+      "id": "materialvellum",
+      "zhHeadline": "MaterialVellum让手指拉动生成约束，界面里的材料各有不同作用",
+      "enHeadline": "MaterialVellum lets fingers reshape constraints for generated designs",
+      "eventAt": "2026-11-01T11:09:16Z",
+      "freshness": "near-three-day",
+      "evidence": "Original full paper and arXiv submission history read; author-reported prototype and evaluation, not editorial hands-on testing.",
+      "eventDateNote": "Exact arXiv submission UTC; public announcement clock unconfirmed. November 3 recent-list appearance is date-only, not an exact publication time.",
+      "event_key": "materialvellum:2611.01800:v1",
+      "product_key": "materialvellum",
+      "publishedAt": "2026-11-01T11:09:16Z",
+      "observedAt": "2026-11-03T09:09:42Z",
+      "delta_since_last_seen": "The prototype combines multitouch, physics simulation and diffusion models; the materials are simulated, not new physical sensors."
+    },
+    {
+      "id": "gazetags",
+      "zhHeadline": "GazeTags用红外识别头部朝向的物体，房间需要先贴标签",
+      "enHeadline": "GazeTags identifies tagged objects in front of your head without a camera",
+      "eventAt": "2026-11-02T06:24:37Z",
+      "freshness": "near-three-day",
+      "evidence": "Original full paper and arXiv submission history read; author-reported prototype and evaluation, not editorial hands-on testing.",
+      "eventDateNote": "Exact arXiv submission UTC; public announcement clock unconfirmed. November 3 recent-list appearance is date-only, not an exact publication time.",
+      "event_key": "gazetags:2611.02599:v1",
+      "product_key": "gazetags",
+      "publishedAt": "2026-11-02T06:24:37Z",
+      "observedAt": "2026-11-03T09:09:42Z",
+      "delta_since_last_seen": "It uses head direction rather than eye tracking and does not recognize arbitrary untagged objects."
+    },
+    {
+      "id": "hipaper",
+      "zhHeadline": "HiPaper先让研究者挑定论文，再围绕这个集合追问",
+      "enHeadline": "HiPaper lets researchers curate a paper set before asking for synthesis",
+      "eventAt": "2026-10-31T09:18:06Z",
+      "freshness": "near-three-day",
+      "evidence": "Original full paper and arXiv submission history read; author-reported prototype and evaluation, not editorial hands-on testing.",
+      "eventDateNote": "Exact arXiv submission UTC; public announcement clock unconfirmed. November 3 recent-list appearance is date-only, not an exact publication time.",
+      "event_key": "hipaper:2611.00762:v1",
+      "product_key": "hipaper",
+      "publishedAt": "2026-10-31T09:18:06Z",
+      "observedAt": "2026-11-03T09:09:42Z",
+      "delta_since_last_seen": "Intermediate results remain editable and reusable, with linked excerpts; the prototype’s literature content is primarily abstract-level."
+    },
+    {
+      "id": "interface-quilt",
+      "zhHeadline": "Interface Quilt给旧软件加新控件，动作仍要回到原界面执行",
+      "enHeadline": "Interface Quilt adds controls over existing apps and operates their original interfaces",
+      "eventAt": "2026-11-01T13:34:04Z",
+      "freshness": "near-three-day",
+      "evidence": "Original full paper and arXiv submission history read; author-reported prototype and evaluation, not editorial hands-on testing.",
+      "eventDateNote": "Exact arXiv submission UTC; public announcement clock unconfirmed. November 3 recent-list appearance is date-only, not an exact publication time.",
+      "event_key": "interface-quilt:2611.01891:v1",
+      "product_key": "interface-quilt",
+      "publishedAt": "2026-11-01T13:34:04Z",
+      "observedAt": "2026-11-03T09:09:42Z",
+      "delta_since_last_seen": "Demonstrations include menus and cross-application image editing without application source code, APIs or accessibility data."
+    }
+  ],
+  "eventCounts": {
+    "mainWindowEvents": 4,
+    "nearThreeDayReviews": 18,
+    "sevenDayReviews": 3,
+    "interpretation": "Announcements, submissions, updates and regional reports; not first product launches."
+  }
+}

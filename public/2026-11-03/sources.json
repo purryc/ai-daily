@@ -1,0 +1,656 @@
+[
+  {
+    "url": "https://tancky.io/updates",
+    "title": "November 2 release entry",
+    "publisher": "Tancky AI",
+    "publishedAt": "2026-11-02",
+    "observedAt": "2026-11-03T09:18:17.076309+00:00",
+    "number": 1
+  },
+  {
+    "url": "https://tancky.io/put-two-people-together-in-a-photo",
+    "title": "Two-person tool and FAQ",
+    "publisher": "Tancky AI",
+    "observedAt": "2026-11-03T09:18:17.076309+00:00",
+    "number": 2
+  },
+  {
+    "url": "https://tancky.io/pricing",
+    "title": "Plans and credits",
+    "publisher": "Tancky AI",
+    "observedAt": "2026-11-03T09:18:17.076309+00:00",
+    "number": 3
+  },
+  {
+    "url": "https://tancky.io/privacy-policy",
+    "title": "Privacy Policy",
+    "publisher": "Tancky AI",
+    "publishedAt": "2026-09-10",
+    "observedAt": "2026-11-03T09:18:17.076309+00:00",
+    "number": 4
+  },
+  {
+    "url": "https://www.producthunt.com/products/hera-6",
+    "title": "Creative Canvas launch and maker answers",
+    "publisher": "Product Hunt / Hera",
+    "publishedAt": "2026-11-02",
+    "observedAt": "2026-11-03T09:13:00.630841+00:00",
+    "number": 5
+  },
+  {
+    "url": "https://hera.video/",
+    "title": "AI Creative Canvas",
+    "publisher": "Hera",
+    "observedAt": "2026-11-03T09:13:00.630841+00:00",
+    "number": 6
+  },
+  {
+    "url": "https://hera.video/terms",
+    "title": "Terms of Service",
+    "publisher": "Hera",
+    "publishedAt": "2026-05-14",
+    "observedAt": "2026-11-03T09:13:00.630841+00:00",
+    "number": 7
+  },
+  {
+    "url": "https://www.producthunt.com/leaderboard/daily/2026/11/2",
+    "title": "November 2 daily Featured launches",
+    "publisher": "Product Hunt",
+    "publishedAt": "2026-11-02",
+    "observedAt": "2026-11-03T09:13:00.630841+00:00",
+    "number": 8
+  },
+  {
+    "url": "https://blog.google/intl/en-in/products/dreambeans-is-now-available-to-everyone-in-india/",
+    "title": "Dreambeans is now available to everyone in India",
+    "publisher": "Google India",
+    "publishedAt": "2026-11-03",
+    "observedAt": "2026-11-03T09:19:38.473171+00:00",
+    "number": 9
+  },
+  {
+    "url": "https://labs.google/dreambeans",
+    "title": "Dreambeans product and FAQ",
+    "publisher": "Google Labs",
+    "observedAt": "2026-11-03T09:19:38.473171+00:00",
+    "number": 10
+  },
+  {
+    "url": "https://apps.apple.com/us/app/dreambeans/id6748778630",
+    "title": "Dreambeans App Store listing",
+    "publisher": "Google",
+    "observedAt": "2026-11-03T09:19:38.473171+00:00",
+    "number": 11
+  },
+  {
+    "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.labs.lotus",
+    "title": "Dreambeans Google Play listing",
+    "publisher": "Google Labs",
+    "publishedAt": "2026-11-02",
+    "observedAt": "2026-11-03T09:19:38.473171+00:00",
+    "number": 12
+  },
+  {
+    "url": "https://support.google.com/labs/answer/17070161?co=GENIE.Platform%3DiOS&hl=en",
+    "title": "Get started with Dreambeans",
+    "publisher": "Google",
+    "observedAt": "2026-11-03T09:19:38.473171+00:00",
+    "number": 13
+  },
+  {
+    "url": "https://www.gadgets360.com/apps/news/google-dreambeans-app-india-launch-ai-powered-personalised-stories-features-12274407",
+    "title": "Google Dreambeans App Launched in India",
+    "publisher": "Gadgets360",
+    "publishedAt": "2026-11-03T09:08:00+05:30",
+    "observedAt": "2026-11-03T09:19:38.473171+00:00",
+    "number": 14
+  },
+  {
+    "url": "https://www.pebblecart.com/pages/qore-vox",
+    "title": "Qore Vox voice and health workflow",
+    "publisher": "Pebble India",
+    "observedAt": "2026-11-03T09:19:26Z",
+    "number": 15
+  },
+  {
+    "url": "https://www.pebblecart.com/products/qore-vox",
+    "title": "Qore Vox product listing and specifications",
+    "publisher": "Pebble India",
+    "observedAt": "2026-11-03T09:19:26Z",
+    "number": 16
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/technology/wearables/pebble-launches-qore-vox-wellness-band-at-an-introductory-price-of-rs-5799/articleshow/135451080.cms",
+    "title": "Pebble launches Qore Vox wellness band at an introductory price of Rs 5,799",
+    "publisher": "Times of India",
+    "publishedAt": "2026-11-02T08:09:42Z",
+    "observedAt": "2026-11-03T09:19:26Z",
+    "number": 17
+  },
+  {
+    "url": "https://vacuumwars.com/mova-v70-ultra-complete-review/",
+    "title": "MOVA V70 Ultra Complete Review",
+    "publisher": "Vacuum Wars",
+    "publishedAt": "2026-11-02",
+    "observedAt": "2026-11-03T09:19:26Z",
+    "number": 18
+  },
+  {
+    "url": "https://us.mova.tech/products/mova-v70-ultra-complete-robot-vacuum",
+    "title": "V70 Ultra Complete product specifications",
+    "publisher": "MOVA",
+    "observedAt": "2026-11-03T09:19:26Z",
+    "number": 19
+  },
+  {
+    "url": "https://www.techradar.com/home/robot-vacuums/mova-v70-ultra-complete-robot-vacuum-review",
+    "title": "Mova V70 Ultra Complete review",
+    "publisher": "TechRadar / Sharmishta Sarkar",
+    "publishedAt": "2026-10-16",
+    "observedAt": "2026-11-03T09:19:26Z",
+    "number": 20
+  },
+  {
+    "url": "https://www.wareable.com/smartwatches/google-pixel-watch-5-review",
+    "title": "Google Pixel Watch 5 review: Smarter inside, familiar outside",
+    "publisher": "Wareable / Conor Allison",
+    "publishedAt": "2026-11-02",
+    "observedAt": "2026-11-03T09:19:26Z",
+    "number": 21
+  },
+  {
+    "url": "https://blog.google/products-and-platforms/devices/pixel/pixel-watch-5/",
+    "title": "Pixel Watch 5: Proactive assistance and advanced health tracking",
+    "publisher": "Google",
+    "publishedAt": "2026-08-12",
+    "observedAt": "2026-11-03T09:19:26Z",
+    "number": 22
+  },
+  {
+    "url": "https://blog.google/products-and-platforms/devices/pixel/pixel-watch-5-gps/",
+    "title": "How we built the new GPS on Pixel Watch 5",
+    "publisher": "Google",
+    "observedAt": "2026-11-03T09:19:26Z",
+    "number": 23
+  },
+  {
+    "url": "https://www.docomo.ne.jp/info/news_release/2026/11/02_00.html",
+    "title": "DOCOMO to release Android XR glasses XREAL AURA",
+    "publisher": "NTT DOCOMO",
+    "publishedAt": "2026-11-02",
+    "observedAt": "2026-11-03T09:19:26Z",
+    "number": 24
+  },
+  {
+    "url": "https://blog.google/products-and-platforms/platforms/android/xreal-aura/",
+    "title": "XREAL AURA: Wired XR glasses to watch, work, and play",
+    "publisher": "Google",
+    "publishedAt": "2026-10-28",
+    "observedAt": "2026-11-03T09:19:26Z",
+    "number": 25
+  },
+  {
+    "url": "https://workspaceupdates.googleblog.com/2026/11/create-a-custom-avatar-google-vids.html",
+    "title": "Upload an image to create a custom avatar in Google Vids",
+    "publisher": "Google",
+    "publishedAt": "2026-11-02",
+    "observedAt": "2026-11-03T09:17:00.024247+00:00",
+    "number": 26
+  },
+  {
+    "url": "https://support.google.com/docs/answer/16334946?hl=en",
+    "title": "Use AI avatars in Google Vids",
+    "publisher": "Google",
+    "observedAt": "2026-11-03T09:17:00.024247+00:00",
+    "number": 27
+  },
+  {
+    "url": "https://support.google.com/docs/answer/15609411",
+    "title": "Availability of Gemini features in Google Vids",
+    "publisher": "Google",
+    "observedAt": "2026-11-03T09:17:00.024247+00:00",
+    "number": 28
+  },
+  {
+    "url": "https://www.figma.com/release-notes/",
+    "title": "Figma release notes",
+    "publisher": "Figma",
+    "publishedAt": "2026-11-02",
+    "observedAt": "2026-11-03T09:20:29.981589+00:00",
+    "number": 29
+  },
+  {
+    "url": "https://help.figma.com/hc/en-us/articles/41147702210071-Create-shaders-with-the-Figma-agent",
+    "title": "Create shaders with the Figma agent",
+    "publisher": "Figma",
+    "observedAt": "2026-11-03T09:20:29.981589+00:00",
+    "number": 30
+  },
+  {
+    "url": "https://help.figma.com/hc/en-us/articles/44193259600535-Code-layers-in-Figma-Design",
+    "title": "Code layers in Figma Design",
+    "publisher": "Figma",
+    "observedAt": "2026-11-03T09:20:29.981589+00:00",
+    "number": 31
+  },
+  {
+    "url": "https://help.figma.com/hc/en-us/articles/43029079744151-Manage-shaders-as-a-creator",
+    "title": "Manage shaders as a creator",
+    "publisher": "Figma",
+    "observedAt": "2026-11-03T09:20:29.981589+00:00",
+    "number": 32
+  },
+  {
+    "url": "https://xmind.com/changelog",
+    "title": "Desktop 27.01.05086 changelog",
+    "publisher": "Xmind",
+    "publishedAt": "2026-10-28",
+    "observedAt": "2026-11-03T09:15:10.278256+00:00",
+    "number": 33
+  },
+  {
+    "url": "https://xmind.com/whats-new",
+    "title": "What is new",
+    "publisher": "Xmind",
+    "publishedAt": "2026-06-11",
+    "observedAt": "2026-11-03T09:15:10.278256+00:00",
+    "number": 34
+  },
+  {
+    "url": "https://xmind.com/integration",
+    "title": "Integrations",
+    "publisher": "Xmind",
+    "observedAt": "2026-11-03T09:15:10.278256+00:00",
+    "number": 35
+  },
+  {
+    "url": "https://xmind.com/ai",
+    "title": "Xmind AI",
+    "publisher": "Xmind",
+    "observedAt": "2026-11-03T09:15:10.278256+00:00",
+    "number": 36
+  },
+  {
+    "url": "https://xmind.com/pricing",
+    "title": "Individual plans",
+    "publisher": "Xmind",
+    "observedAt": "2026-11-03T09:15:10.278256+00:00",
+    "number": 37
+  },
+  {
+    "url": "https://www.producthunt.com/products/xmind",
+    "title": "Xmind 2027 presentation",
+    "publisher": "Product Hunt / Xmind",
+    "publishedAt": "2026-11-02",
+    "observedAt": "2026-11-03T09:15:10.278256+00:00",
+    "number": 38
+  },
+  {
+    "url": "https://roadmap.finetuning.ai/release-notes",
+    "title": "November 2 MCP and Plus API release",
+    "publisher": "Finetuning",
+    "publishedAt": "2026-11-02",
+    "observedAt": "2026-11-03T09:18:17.076309+00:00",
+    "number": 39
+  },
+  {
+    "url": "https://docs.finetuning.ai/docs/mcp",
+    "title": "MCP server",
+    "publisher": "Finetuning",
+    "observedAt": "2026-11-03T09:18:17.076309+00:00",
+    "number": 40
+  },
+  {
+    "url": "https://docs.finetuning.ai/docs/mcp/tools",
+    "title": "MCP tool reference",
+    "publisher": "Finetuning",
+    "observedAt": "2026-11-03T09:18:17.076309+00:00",
+    "number": 41
+  },
+  {
+    "url": "https://docs.finetuning.ai/docs/platform/licensing",
+    "title": "Licensing",
+    "publisher": "Finetuning",
+    "observedAt": "2026-11-03T09:18:17.076309+00:00",
+    "number": 42
+  },
+  {
+    "url": "https://docs.finetuning.ai/docs/platform/creating-music",
+    "title": "Creating Music",
+    "publisher": "Finetuning",
+    "observedAt": "2026-11-03T09:18:17.076309+00:00",
+    "number": 43
+  },
+  {
+    "url": "https://www.producthunt.com/products/clayzo",
+    "title": "Animation engine launch and maker discussion",
+    "publisher": "Product Hunt / Clayzo",
+    "publishedAt": "2026-11-02",
+    "observedAt": "2026-11-03T09:13:00.630841+00:00",
+    "number": 44
+  },
+  {
+    "url": "https://docs.clayzo.com/",
+    "title": "Clayzo documentation",
+    "publisher": "Clayzo",
+    "observedAt": "2026-11-03T09:13:00.630841+00:00",
+    "number": 45
+  },
+  {
+    "url": "https://github.com/Clayzo/agent-skills",
+    "title": "Official agent skills",
+    "publisher": "Clayzo",
+    "observedAt": "2026-11-03T09:13:00.630841+00:00",
+    "number": 46
+  },
+  {
+    "url": "https://www.clayzo.com/",
+    "title": "Animation engine overview",
+    "publisher": "Clayzo",
+    "observedAt": "2026-11-03T09:13:00.630841+00:00",
+    "number": 47
+  },
+  {
+    "url": "https://forum.trae.cn/t/topic/464459",
+    "title": "TRAE 宝限免公告及首批可见回复",
+    "publisher": "TRAE 官方中文社区",
+    "publishedAt": "2026-11-02",
+    "observedAt": "2026-11-03T09:14:27.866119+00:00",
+    "number": 48
+  },
+  {
+    "url": "https://docs.trae.cn/ide_use-trae-bao-for-free-with-no-credits-required",
+    "title": "TRAE 宝免费体验与使用说明",
+    "publisher": "TRAE",
+    "observedAt": "2026-11-03T09:14:27.866119+00:00",
+    "number": 49
+  },
+  {
+    "url": "https://finance.sina.com.cn/stock/t/2026-10-29/doc-iniwwpnz5265848.shtml",
+    "title": "TRAE上线开发者个人助理TRAE宝",
+    "publisher": "新浪转载雷峰网",
+    "publishedAt": "2026-10-29",
+    "observedAt": "2026-11-03T09:14:27.866119+00:00",
+    "number": 50
+  },
+  {
+    "url": "https://longcat.ai/blog/longcat-2.5",
+    "title": "LongCat 2.5 technical release",
+    "publisher": "Meituan LongCat",
+    "publishedAt": "2026-11-01",
+    "observedAt": "2026-11-03T09:14:27.866119+00:00",
+    "number": 51
+  },
+  {
+    "url": "https://tech.meituan.com/2026/11/02/Meituan-LongCat-2.5.html",
+    "title": "LongCat 2.5 中文技术发布",
+    "publisher": "美团技术团队",
+    "publishedAt": "2026-11-02",
+    "observedAt": "2026-11-03T09:14:27.866119+00:00",
+    "number": 52
+  },
+  {
+    "url": "https://longcat.ai/platform/docs/image-video-understanding",
+    "title": "Visual Understanding",
+    "publisher": "LongCat",
+    "observedAt": "2026-11-03T09:14:27.866119+00:00",
+    "number": 53
+  },
+  {
+    "url": "https://longcat.ai/platform/docs/api/chat",
+    "title": "Chat Completions",
+    "publisher": "LongCat",
+    "observedAt": "2026-11-03T09:14:27.866119+00:00",
+    "number": 54
+  },
+  {
+    "url": "https://longcat.ai/platform/docs/open-code",
+    "title": "OpenCode integration",
+    "publisher": "LongCat",
+    "observedAt": "2026-11-03T09:14:27.866119+00:00",
+    "number": 55
+  },
+  {
+    "url": "https://longcat.ai/platform/docs/pricing/longcat-2.5",
+    "title": "LongCat 2.5 pricing",
+    "publisher": "LongCat",
+    "observedAt": "2026-11-03T09:14:27.866119+00:00",
+    "number": 56
+  },
+  {
+    "url": "https://github.com/T-Crypt/berth/pull/290",
+    "title": "Lease window PR290",
+    "publisher": "T-Crypt",
+    "publishedAt": "2026-11-02T15:13:29Z",
+    "observedAt": "2026-11-03T09:14:08.472624+00:00",
+    "number": 57
+  },
+  {
+    "url": "https://github.com/T-Crypt/berth",
+    "title": "Berth README",
+    "publisher": "T-Crypt",
+    "observedAt": "2026-11-03T09:14:08.472624+00:00",
+    "number": 58
+  },
+  {
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlmu81/liveswap_cuda_workloads_llamacpp_comfyui_strata/",
+    "title": "Live-swap CUDA workloads",
+    "publisher": "r/LocalLLaMA",
+    "observedAt": "2026-11-03T09:14:08.472624+00:00",
+    "number": 59
+  },
+  {
+    "url": "https://github.com/T-Crypt/berth/blob/main/docs/harbor.md",
+    "title": "Harbor and telemetry",
+    "publisher": "T-Crypt",
+    "observedAt": "2026-11-03T09:14:08.472624+00:00",
+    "number": 60
+  },
+  {
+    "url": "https://github.com/T-Crypt/berth/blob/main/docs/prerelease.md",
+    "title": "Testing a prerelease",
+    "publisher": "T-Crypt",
+    "observedAt": "2026-11-03T09:14:08.472624+00:00",
+    "number": 61
+  },
+  {
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317",
+    "title": "Claude Code v2.1.317",
+    "publisher": "Anthropic",
+    "publishedAt": "2026-11-03T01:25:46Z",
+    "observedAt": "2026-11-03T09:13:46.155272+00:00",
+    "number": 62
+  },
+  {
+    "url": "https://code.claude.com/docs/en/hooks",
+    "title": "Hooks reference",
+    "publisher": "Anthropic",
+    "observedAt": "2026-11-03T09:13:46.155272+00:00",
+    "number": 63
+  },
+  {
+    "url": "https://github.com/Asymptote-Labs/agent-beacon/releases/tag/v1.3.52",
+    "title": "Beacon v1.3.52",
+    "publisher": "Asymptote Labs",
+    "publishedAt": "2026-11-01T21:11:30Z",
+    "observedAt": "2026-11-03T09:18:08.725455+00:00",
+    "number": 64
+  },
+  {
+    "url": "https://github.com/Asymptote-Labs/agent-beacon/pull/1156",
+    "title": "Forward OTLP to a second backend — merged PR1156",
+    "publisher": "Asymptote Labs",
+    "publishedAt": "2026-11-01",
+    "observedAt": "2026-11-03T09:18:08.725455+00:00",
+    "number": 65
+  },
+  {
+    "url": "https://github.com/Asymptote-Labs/agent-beacon",
+    "title": "Beacon README",
+    "publisher": "Asymptote Labs",
+    "observedAt": "2026-11-03T09:18:08.725455+00:00",
+    "number": 66
+  },
+  {
+    "url": "https://beacon.sh/",
+    "title": "Beacon product page",
+    "publisher": "Asymptote Labs",
+    "observedAt": "2026-11-03T09:18:08.725455+00:00",
+    "number": 67
+  },
+  {
+    "url": "https://github.com/aaitor/skill-video-studio/releases/tag/v1.0.1",
+    "title": "v1.0.1 release",
+    "publisher": "aaitor",
+    "publishedAt": "2026-11-02T18:11:11Z",
+    "observedAt": "2026-11-03T09:14:08.472624+00:00",
+    "number": 68
+  },
+  {
+    "url": "https://github.com/aaitor/skill-video-studio",
+    "title": "Video Studio Skill README",
+    "publisher": "aaitor",
+    "observedAt": "2026-11-03T09:14:08.472624+00:00",
+    "number": 69
+  },
+  {
+    "url": "https://github.com/aaitor/skill-video-studio/blob/main/docs/workflow.md",
+    "title": "Workflow",
+    "publisher": "aaitor",
+    "observedAt": "2026-11-03T09:14:08.472624+00:00",
+    "number": 70
+  },
+  {
+    "url": "https://github.com/aaitor/skill-video-studio/blob/main/examples/README.md",
+    "title": "Examples README",
+    "publisher": "aaitor",
+    "observedAt": "2026-11-03T09:14:08.472624+00:00",
+    "number": 71
+  },
+  {
+    "url": "https://developer.nvidia.com/blog/keep-distributed-training-running-with-automated-workload-recovery",
+    "title": "Keep Distributed Training Running with Automated Workload Recovery",
+    "publisher": "NVIDIA",
+    "publishedAt": "2026-11-02",
+    "observedAt": "2026-11-03T09:13:46.155272+00:00",
+    "number": 72
+  },
+  {
+    "url": "https://developer.nvidia.com/blog/diagnose-distributed-ai-workload-failures-with-nvidia-attribution",
+    "title": "Diagnose Distributed AI Workload Failures with NVIDIA Attribution",
+    "publisher": "NVIDIA",
+    "publishedAt": "2026-11-02",
+    "observedAt": "2026-11-03T09:13:46.155272+00:00",
+    "number": 73
+  },
+  {
+    "url": "https://github.com/dsx-ai-factory/NVIDIA-Recovery",
+    "title": "NVIDIA Recovery README",
+    "publisher": "NVIDIA",
+    "observedAt": "2026-11-03T09:13:46.155272+00:00",
+    "number": 74
+  },
+  {
+    "url": "https://www.aisin.com/jp/news/2026/010739.html",
+    "title": "STT-MRAM embedded 16nm AI SoC joint research announcement",
+    "publisher": "AISIN / Tohoku University",
+    "publishedAt": "2026-11-02",
+    "observedAt": "2026-11-03T09:23:00Z",
+    "number": 75
+  },
+  {
+    "url": "https://www.aisin.com/jp/news/uploads/20261102_1.pdf",
+    "title": "Joint technical release: instant-on STT-MRAM AI SoC",
+    "publisher": "AISIN / Tohoku University",
+    "publishedAt": "2026-11-02",
+    "observedAt": "2026-11-03T09:23:00Z",
+    "number": 76
+  },
+  {
+    "url": "https://www.tohoku.ac.jp/japanese/2026/11/press20261102-03-emram.html",
+    "title": "Instant-on embedded STT-MRAM AI SoC joint announcement",
+    "publisher": "Tohoku University / AISIN",
+    "publishedAt": "2026-11-02",
+    "observedAt": "2026-11-03T09:25:02Z",
+    "number": 77
+  },
+  {
+    "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+    "title": "Sparks of Weight-Space Programming",
+    "publisher": "Rikiya Takehi et al. / MIT CSAIL affiliation",
+    "publishedAt": "2026-11-02",
+    "observedAt": "2026-11-03T09:19:08Z",
+    "number": 78
+  },
+  {
+    "url": "https://github.com/RikiyaT/lm_understand-logs",
+    "title": "lm_understand-logs README",
+    "publisher": "RikiyaT",
+    "observedAt": "2026-11-03T09:19:08Z",
+    "number": 79
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.01800",
+    "title": "MaterialVellum — submission history",
+    "publisher": "arXiv",
+    "publishedAt": "2026-11-01T11:09:16Z",
+    "observedAt": "2026-11-03T09:09:42Z",
+    "number": 80
+  },
+  {
+    "url": "https://arxiv.org/html/2611.01800v1",
+    "title": "MaterialVellum — full paper",
+    "publisher": "MaterialVellum authors",
+    "publishedAt": "2026-11-01",
+    "observedAt": "2026-11-03T09:09:42Z",
+    "number": 81
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.02599",
+    "title": "GazeTags — submission history",
+    "publisher": "arXiv",
+    "publishedAt": "2026-11-02T06:24:37Z",
+    "observedAt": "2026-11-03T09:09:42Z",
+    "number": 82
+  },
+  {
+    "url": "https://arxiv.org/html/2611.02599v1",
+    "title": "GazeTags — full paper",
+    "publisher": "GazeTags authors",
+    "publishedAt": "2026-11-02",
+    "observedAt": "2026-11-03T09:09:42Z",
+    "number": 83
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.00762",
+    "title": "HiPaper — submission history",
+    "publisher": "arXiv",
+    "publishedAt": "2026-10-31T09:18:06Z",
+    "observedAt": "2026-11-03T09:09:42Z",
+    "number": 84
+  },
+  {
+    "url": "https://arxiv.org/html/2611.00762v1",
+    "title": "HiPaper — full paper",
+    "publisher": "HiPaper authors",
+    "publishedAt": "2026-10-31",
+    "observedAt": "2026-11-03T09:09:42Z",
+    "number": 85
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.01891",
+    "title": "Interface Quilt — submission history",
+    "publisher": "arXiv",
+    "publishedAt": "2026-11-01T13:34:04Z",
+    "observedAt": "2026-11-03T09:09:42Z",
+    "number": 86
+  },
+  {
+    "url": "https://arxiv.org/html/2611.01891v1",
+    "title": "Interface Quilt — full paper",
+    "publisher": "Interface Quilt authors",
+    "publishedAt": "2026-11-01",
+    "observedAt": "2026-11-03T09:09:42Z",
+    "number": 87
+  }
+]
