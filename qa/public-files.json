@@ -7276,48 +7276,48 @@
   },
   {
     "path": "2026-11-03/en/details/aisin-mram-instant-on-soc.html",
-    "bytes": 6111,
-    "sha256": "5549dab8acd876c69298041d35d0a1c1dd7e946fd3eeec78c59ee8999dc85ccc"
+    "bytes": 6218,
+    "sha256": "74abef8bfbb7f2343fe8ca84f56349ccdaa84289453fe154e7aa6bc529ba2c45"
   },
   {
     "path": "2026-11-03/en/details/beacon-1352-telemetry-forward.html",
-    "bytes": 6284,
-    "sha256": "dd094266ac4cd8f16081b0f3af470d23352fe28174d8ba3e183409fe32e6a1da"
+    "bytes": 6383,
+    "sha256": "2a66be6569c425d8cb34c2a57c79097913068e18a8b48871609a4e228148d027"
   },
   {
     "path": "2026-11-03/en/details/berth-nov2-lease-window.html",
-    "bytes": 5984,
-    "sha256": "655c314ab0da1a5d935c64aae5d374a30f4b6ab799ef10a3b6f130c37c96f167"
+    "bytes": 6054,
+    "sha256": "486712db14720282efb8c2a686981820c6ceb48520279cd7f17ec9bec1bd8130"
   },
   {
     "path": "2026-11-03/en/details/claude-code-21317-hook-failure.html",
-    "bytes": 5784,
-    "sha256": "4ee1540d94a09be789366ec9ce74c0277f1590e15e12845b74db20b8664505d1"
+    "bytes": 5827,
+    "sha256": "1dfb0d4414e4b25129ea6199b12f0dec3d195f180c47da5fde9d98d254d2f114"
   },
   {
     "path": "2026-11-03/en/details/clayzo-agent-animation.html",
-    "bytes": 6051,
-    "sha256": "664542fd34efddccb3d9248a2d20b966c50233a571e6d9d878444951dbfb69d5"
+    "bytes": 6131,
+    "sha256": "e863d0747b5d46185a6aacd8c8ba87d0731ad2821325923f1779353710852677"
   },
   {
     "path": "2026-11-03/en/details/dreambeans-india-expansion.html",
-    "bytes": 6618,
-    "sha256": "48a4025cd23833e4ef84aef6db07eced1acfc8cf96ded28839445ac3f718dd80"
+    "bytes": 6723,
+    "sha256": "852cc82294ab4b0e07494f5054f56e51857414652798ec2cc67246d91e36f615"
   },
   {
     "path": "2026-11-03/en/details/figma-shaders-code-layers-4096.html",
-    "bytes": 6398,
-    "sha256": "3a30ca1b924e9181a7854e741d85b213cc7a6594d5728c1b98db15ce22bb27ba"
+    "bytes": 6472,
+    "sha256": "78421e6af084775c9e56f731b1437eed6d814c20ff09f9851e038b19bf77b2ea"
   },
   {
     "path": "2026-11-03/en/details/finetuning-music-mcp.html",
-    "bytes": 6167,
-    "sha256": "50a067baef372d2097d50100c0f7d2d0155af5702eb6d02ebbc07cbb55d89929"
+    "bytes": 6268,
+    "sha256": "0779fc1ce9f972e2c5a644d958a0ef0678b22554037d7ec38e5b0415336dcb3f"
   },
   {
     "path": "2026-11-03/en/details/gazetags.html",
-    "bytes": 5723,
-    "sha256": "149dce337298de0919dd807c99308d391a1c80c20021951370cbfe28be9ab1ce"
+    "bytes": 5798,
+    "sha256": "52581fd22844ccff6f6e4de7d6c3f94294836c99ab04d9d0797d558280b3c1d0"
   },
   {
     "path": "2026-11-03/en/details/google-vids-image-avatar.html",
@@ -7326,78 +7326,78 @@
   },
   {
     "path": "2026-11-03/en/details/hera-creative-canvas.html",
-    "bytes": 5786,
-    "sha256": "2c78b639e4610e3ec685bc9cb3847862dde861aa08ae4f7cf469bab418c09c53"
+    "bytes": 5886,
+    "sha256": "d3babf19cc8d8cc4414f46a928c984f49a04b355ce8c75c564e194f673d6ab38"
   },
   {
     "path": "2026-11-03/en/details/hipaper.html",
-    "bytes": 5773,
-    "sha256": "be2fca0ec41f5c81d460dfcc9ce4e2557c5980cb0836b0187149ab322949a3b9"
+    "bytes": 5848,
+    "sha256": "ee6b48fd7fdd725650be1878ef7f109c980480f505c704ac8feb8ed1e92e42e3"
   },
   {
     "path": "2026-11-03/en/details/interface-quilt.html",
-    "bytes": 5828,
-    "sha256": "7293ad3f77934cf1faae55367483a81cb20c03af5b65f2a3577e35ef3b86c9b5"
+    "bytes": 5903,
+    "sha256": "baa49abbbaae11a947499d4145b8a0e408451148655c461effc39101dcc8613e"
   },
   {
     "path": "2026-11-03/en/details/longcat-25-native-multimodal.html",
-    "bytes": 6136,
-    "sha256": "57c01f5894e431709668736ebdfbb98458ee99655ec0283a4dd6b7585b5522d9"
+    "bytes": 6248,
+    "sha256": "0e6d49253c900e1fd779bb8203bfc1312eaaea4af7042386ba9b8a8a420ef111"
   },
   {
     "path": "2026-11-03/en/details/materialvellum.html",
-    "bytes": 5748,
-    "sha256": "d56180fb6a63d6f6536c716b9b3d952e443f795d3fd818c8b8ce3a6b87455802"
+    "bytes": 5823,
+    "sha256": "3f2868e5e462ed6599cf7683b3463812504621903c29b3c60240fa402fc72f9d"
   },
   {
     "path": "2026-11-03/en/details/mova-v70-vacuumwars-review.html",
-    "bytes": 5996,
-    "sha256": "95330206e91498e2eab311cabfaa85df16627f4785c3a8cd93b79ef38b9ff58c"
+    "bytes": 6092,
+    "sha256": "f2137d2cac8c201061e5fee9be8823afefcfad176cf6e652ce93391393447150"
   },
   {
     "path": "2026-11-03/en/details/nvidia-recovery-attribution.html",
-    "bytes": 6378,
-    "sha256": "86d94807b821a715b607cf23e1aaa7d47acf1d1411011807ec9adedb1445b79c"
+    "bytes": 6461,
+    "sha256": "712f4c8287aafc089dcc2636119c04abf5f7a3626985aad9558ac6c629495849"
   },
   {
     "path": "2026-11-03/en/details/pebble-qore-vox-recording.html",
-    "bytes": 6480,
-    "sha256": "cd883d5b69eff4b6dbdbfa3419dedaa06384b70803e2cc435bc08aae51fb2d5b"
+    "bytes": 6580,
+    "sha256": "56410ab65f9bd62af59cd430363a987b2f10e5efea424c6989b40bc1b888e131"
   },
   {
     "path": "2026-11-03/en/details/pixel-watch5-wareable-review.html",
-    "bytes": 6560,
-    "sha256": "82b26bde1406910b4970213e25ac62bd2a4c64d96830d755d0e551cf216120e9"
+    "bytes": 6669,
+    "sha256": "a9c3d01ea0c1cc80ababd16dc735d10ccf7df5e34f61c3dbc1f5ebada85cc901"
   },
   {
     "path": "2026-11-03/en/details/tancky-two-person-portraits.html",
-    "bytes": 5953,
-    "sha256": "f04311d68bdb59aa03b0c2f6c0e77b71ef6c8910f7875399a28e0ea24f9dbb10"
+    "bytes": 6034,
+    "sha256": "2356adfad95b555581151dee1528cf8126300cfcd5cf839476e53e8c185f247e"
   },
   {
     "path": "2026-11-03/en/details/trae-bao-personal-assistant.html",
-    "bytes": 6045,
-    "sha256": "8fd133581e18c1449e6466a8624b9684b03da7ffb87c7dc88892b9607b220e3c"
+    "bytes": 6129,
+    "sha256": "cf72f7f624f03da5c2b36699266a9fa9b3db4de400aacd36ac04bf815fde46aa"
   },
   {
     "path": "2026-11-03/en/details/video-studio-skill-nov2-101.html",
-    "bytes": 6258,
-    "sha256": "d6d408a8bfb6bc0ced77aa5224a4ebac7bdfa18d7afc8455cf1b5547ba614cf8"
+    "bytes": 6299,
+    "sha256": "070a0f578ef12493bc927b0749d3582ebbb115691f3a0774012ebdadfe89175e"
   },
   {
     "path": "2026-11-03/en/details/weight-space-programming.html",
-    "bytes": 6244,
-    "sha256": "06eefda7ffdd88c84439d2aa03491d6fef8564b09dc0d065cfea071d150ac8c7"
+    "bytes": 6324,
+    "sha256": "0669914f8c8355888deab0772ac7c6f0c441f17ed1e543d5eb40fb1d04d95b3b"
   },
   {
     "path": "2026-11-03/en/details/xmind-desktop-agent-2701.html",
-    "bytes": 5890,
-    "sha256": "76d8d6a4159bed09468503fedfaa903a5a2f18a30c03f64188d82e36b82a68d6"
+    "bytes": 5993,
+    "sha256": "1ce2e39189bf66bcebbf2feb3152747107724337df1a1c45eaabe9fbc20d51a4"
   },
   {
     "path": "2026-11-03/en/details/xreal-aura-docomo-japan.html",
-    "bytes": 6451,
-    "sha256": "9353ec1dbc03c3cbf850df2ed4c530d442d1937776b049b1c7ce34b9d4988ae4"
+    "bytes": 6559,
+    "sha256": "40c9cc90762417847d282b79682a64e22ab33fc8433b26c69c097b488773d81d"
   },
   {
     "path": "2026-11-03/en/index.html",
@@ -7426,48 +7426,48 @@
   },
   {
     "path": "2026-11-03/zh/details/aisin-mram-instant-on-soc.html",
-    "bytes": 5537,
-    "sha256": "cadf70f2c681c3f76b344e187c63b16b89fa66f32b23785c690ef3a9f6c11474"
+    "bytes": 5623,
+    "sha256": "8472cbc1fdd10d3bc8866792b332f6dad30483a220e20a597f6e9233ca5b2c15"
   },
   {
     "path": "2026-11-03/zh/details/beacon-1352-telemetry-forward.html",
-    "bytes": 5622,
-    "sha256": "98c91018f242912ac11bf55122336775d25d9d046aaef31e936a713456c30ef7"
+    "bytes": 5701,
+    "sha256": "8cb55efb32319ff2e73ece32d548956d5ff9f2507793bcf7c365ac59d79e56a7"
   },
   {
     "path": "2026-11-03/zh/details/berth-nov2-lease-window.html",
-    "bytes": 5623,
-    "sha256": "672ab195ce976c714ce66c95b7212fab0fdcc86f863cd0224468ccb64b092c07"
+    "bytes": 5687,
+    "sha256": "d45a44266f1395c738ba9fe1380c29d55ba2a402131b62b9357c904e655fd59b"
   },
   {
     "path": "2026-11-03/zh/details/claude-code-21317-hook-failure.html",
-    "bytes": 5250,
-    "sha256": "0ab046ae46c92114911c6d59a5287bfbf0019efaf32fcb61bda3b343a4c51196"
+    "bytes": 5288,
+    "sha256": "fcd59fd8cf7c403fafadf4c7f4952f6c234e435c7bb24e0474c057b3337c7168"
   },
   {
     "path": "2026-11-03/zh/details/clayzo-agent-animation.html",
-    "bytes": 5442,
-    "sha256": "e9a6a827c0c1d0a3b07d3e335cda2d8ce353c87184959bac5935163aef0950d5"
+    "bytes": 5511,
+    "sha256": "dce42e30d977fa9ea7b6b97ed53935108528db888ad1c7cdaeb7bfe3cd27cd57"
   },
   {
     "path": "2026-11-03/zh/details/dreambeans-india-expansion.html",
-    "bytes": 5966,
-    "sha256": "04809d37d0405e6353d4a4fcecdfe45e35f6a4f2e99da1ce3be1eb7398e0c5d5"
+    "bytes": 6065,
+    "sha256": "77a950c13101bc3f4d57c0b9fed41e5ab81bb3813750f1b2db5245d8e073a8a9"
   },
   {
     "path": "2026-11-03/zh/details/figma-shaders-code-layers-4096.html",
-    "bytes": 5967,
-    "sha256": "3d30a5164a345454a718616977577c5325025df3edafd46c12da784ec929c7da"
+    "bytes": 6030,
+    "sha256": "0710293bda50aa8032a063cf2fe05dae48581b09a271a656010ef92d99a8409d"
   },
   {
     "path": "2026-11-03/zh/details/finetuning-music-mcp.html",
-    "bytes": 5373,
-    "sha256": "f3e5d1e9cd0fefbe985726df377a7f8502bf68191879bfb57d45fdf072f25c22"
+    "bytes": 5451,
+    "sha256": "4682c06c4d449df97cd0e6e8cb178083570fa2660d91eb0f9c53d4ee1ff1c20b"
   },
   {
     "path": "2026-11-03/zh/details/gazetags.html",
-    "bytes": 4953,
-    "sha256": "628d38ade9dc96ebd67e4c2f6c86177aa68fd1a8b9dd11fbb4a01b4170bd0e8c"
+    "bytes": 5018,
+    "sha256": "54d9de44049493e8beef4824fa72a964858023cbf9e44d9fa10fa583147684f4"
   },
   {
     "path": "2026-11-03/zh/details/google-vids-image-avatar.html",
@@ -7476,78 +7476,78 @@
   },
   {
     "path": "2026-11-03/zh/details/hera-creative-canvas.html",
-    "bytes": 5040,
-    "sha256": "ce690c35943c977fcaa82478eb21066170a02fcd8d5ab97d2fdc5d4f78a2e553"
+    "bytes": 5133,
+    "sha256": "5f98f6c5995e585a40cb80490b7c677c1f692ccde6ad565d62636e499dede435"
   },
   {
     "path": "2026-11-03/zh/details/hipaper.html",
-    "bytes": 4960,
-    "sha256": "99492b567ccd32d526829ccb8c494c9f774719e8e7dc693da2563ce223d340ea"
+    "bytes": 5025,
+    "sha256": "6213240f884f4347061a5eb913ce1e094775c3e2f8cd8553ac104505a6d6f330"
   },
   {
     "path": "2026-11-03/zh/details/interface-quilt.html",
-    "bytes": 4980,
-    "sha256": "8d50c2e8764c2105baaccf6380e01b8ca58662a807dbf4e513a4122b2d2a6eab"
+    "bytes": 5045,
+    "sha256": "1e681a3bcdc0d37f37e7c25f8ec12b85b3e99ab4c95e0f2715019a5984de3b78"
   },
   {
     "path": "2026-11-03/zh/details/longcat-25-native-multimodal.html",
-    "bytes": 5421,
-    "sha256": "d2a5cc823a5b7a1107e803e70fd77dc6dcbbcdf1472bd304c09f37c19d2794ea"
+    "bytes": 5505,
+    "sha256": "26c1208bfa89ddc22b3a3925c4feeb7afff183866bdf143ba32bd5dd7f3c5e6f"
   },
   {
     "path": "2026-11-03/zh/details/materialvellum.html",
-    "bytes": 5095,
-    "sha256": "9c2d064e7610245b0394dc8a234d02b06d00c8a32d9793f7dca0a1e096b3845b"
+    "bytes": 5160,
+    "sha256": "37a736ddce7f1ae704621b60cc8fae1d71fc08e45f64d2092f2fa385b8c6a64b"
   },
   {
     "path": "2026-11-03/zh/details/mova-v70-vacuumwars-review.html",
-    "bytes": 5340,
-    "sha256": "b2df64b0c8f01e4f825fc40a3f548686b34a9d4c501bb7519be15ae12ef6723a"
+    "bytes": 5415,
+    "sha256": "079e1422d60f8f85e532510235560fd56099e322a7ee38754d2c8d8c1769e012"
   },
   {
     "path": "2026-11-03/zh/details/nvidia-recovery-attribution.html",
-    "bytes": 5622,
-    "sha256": "ebcb80cef8666deb6c2dd6f73c44b063884b6ad19b106955b83c1199f145cc2a"
+    "bytes": 5679,
+    "sha256": "811f4110cd5f5d3f2af0f92835bc4881ba07a1a5860546eca2fd4bab451c6722"
   },
   {
     "path": "2026-11-03/zh/details/pebble-qore-vox-recording.html",
-    "bytes": 5931,
-    "sha256": "eb0c2a572fa989d547b1a2d3508ecb344d0a1e8dc6dff1c1116e3fa590b57dae"
+    "bytes": 6026,
+    "sha256": "d8aceedffb7ef4958321812a628b94cc60cf4cc3b4e58c682259f2fb47879946"
   },
   {
     "path": "2026-11-03/zh/details/pixel-watch5-wareable-review.html",
-    "bytes": 5771,
-    "sha256": "3237bd35ae8c487a70e59abc2f38ffc387ac136283f6f942d569d002088cf45c"
+    "bytes": 5846,
+    "sha256": "151d43f479f1e5cf5b8872178f9b6230cc5bb42e16034ab527f2962cc44141ef"
   },
   {
     "path": "2026-11-03/zh/details/tancky-two-person-portraits.html",
-    "bytes": 5201,
-    "sha256": "8b2e0b3f64201f96c96afa8f41d5d883d5cc578cc0e34cf6ba671132fd6562d0"
+    "bytes": 5270,
+    "sha256": "53b048dbe66905a93dde49c4c5a7aebdd79030ed9fd5ea26bfa7b9badd5050c0"
   },
   {
     "path": "2026-11-03/zh/details/trae-bao-personal-assistant.html",
-    "bytes": 5306,
-    "sha256": "8390e9d6ef46cd60a673e5a55763d7ec444d56d7c6a87556cb005f7ff1e815a8"
+    "bytes": 5373,
+    "sha256": "1c8a600bbdaa3ff5eaa99f8bfab7cc11a35242c3c2472f7eacd8c3f851c52df6"
   },
   {
     "path": "2026-11-03/zh/details/video-studio-skill-nov2-101.html",
-    "bytes": 5697,
-    "sha256": "7ea42acacbde6e1f55f2ca17e6b2cb44fbe9751b6bbfa9c36d796fdb7ad3e3c3"
+    "bytes": 5733,
+    "sha256": "4152b093a2b4d892dfcd735bc1535243af0d344ee100115ded69e10d54fb3c7f"
   },
   {
     "path": "2026-11-03/zh/details/weight-space-programming.html",
-    "bytes": 5631,
-    "sha256": "7e8a1dc891d7d357348fa51da5aef861acbc4d4171a82d15a52d970eaecb8094"
+    "bytes": 5700,
+    "sha256": "5cef90312ef859386d28623605e3fea271f99bfc5dd2a111ce543b87f3b49954"
   },
   {
     "path": "2026-11-03/zh/details/xmind-desktop-agent-2701.html",
-    "bytes": 5239,
-    "sha256": "b604c07eeef5f833ac934a740d3b90a2f143726039893bc04efa8f681679ac0a"
+    "bytes": 5312,
+    "sha256": "4d89fd57aeb931e52cb238a934b482c03ac8b424df01239fed25e1934e638d25"
   },
   {
     "path": "2026-11-03/zh/details/xreal-aura-docomo-japan.html",
-    "bytes": 5620,
-    "sha256": "9090b780f61c2c5510150e07f4edc958734284ec7d7e8a08146b57f66c910f85"
+    "bytes": 5705,
+    "sha256": "75831e0fc03e8db193ff4fec20081f7817515869023b8eb43457a8059018bdfc"
   },
   {
     "path": "2026-11-03/zh/index.html",
