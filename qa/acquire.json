@@ -1,22 +1,16 @@
 [
   {
     "kind": "image",
-    "locale": "zh",
-    "name": "figma-shader-detail.jpg",
-    "url": "https://help.figma.com/hc/article_attachments/41750812661527",
+    "locale": "en",
+    "name": "dreambeans-ui1-large.jpg",
+    "url": "https://play-lh.googleusercontent.com/kViChk4mIp12uwx_BDmKf0n_uWxObTB-650ubLhnVi6cUK0edmtlsmTd9ejXtNR5nowEBXLDNsY06aB6nv9TrQ=w1200-h2400",
     "renderImage": true
   },
   {
     "kind": "image",
-    "locale": "en",
-    "name": "figma-shader-controls.jpg",
-    "url": "https://help.figma.com/hc/article_attachments/44715909627927",
-    "renderImage": true
-  },
-  {
-    "kind": "page",
     "locale": "zh",
-    "name": "tancky-public-tool.jpg",
-    "url": "https://tancky.io/put-two-people-together-in-a-photo"
+    "name": "dreambeans-ui2-large.jpg",
+    "url": "https://play-lh.googleusercontent.com/P-qbVjOgjYAxUmjj7Z3JsyEZwp96k9IIo04U3pq9J_KWk1HoogPf9GZw5zANS-eiIAEagTlyH8_MhModo3hMuy0=w1200-h2400",
+    "renderImage": true
   }
 ]
