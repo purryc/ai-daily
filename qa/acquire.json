@@ -18,20 +18,20 @@
     "kind": "capture",
     "url": "https://jobs.ashbyhq.com/Ashby/f40ef345-82a8-4956-9150-193b4fdf8183",
     "selector": "body",
-    "locale": "zh"
+    "locale": "en"
   },
   {
     "name": "voldex.jpg",
     "kind": "capture",
     "url": "https://jobs.ashbyhq.com/voldex/75e0ff31-86e9-4403-b915-73ee2ac3442a",
     "selector": "body",
-    "locale": "zh"
+    "locale": "en"
   },
   {
     "name": "babylist.jpg",
     "kind": "capture",
     "url": "https://job-boards.greenhouse.io/babylist/jobs/6104998004",
     "selector": "body",
-    "locale": "zh"
+    "locale": "en"
   }
 ]
