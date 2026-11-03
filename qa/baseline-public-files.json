@@ -1,18 +1,18 @@
 [
   {
     "path": "index.html",
-    "bytes": 167430,
-    "sha256": "70a3271d98d836a3649abf9f670e616388a753270da37c2ffdc0d7869f2040ae"
+    "bytes": 168659,
+    "sha256": "2736b90efe7fd915aef8e561ce24e816d9c3d66709d7ef730a52273b1bc48be8"
   },
   {
     "path": "en/index.html",
-    "bytes": 173515,
-    "sha256": "fa63460d65ccb2df8000871ba6973a3b9ef06fdc1caebb0e4e9c812571c06bdb"
+    "bytes": 174778,
+    "sha256": "4aa130acd7a153e0072a2c9d4b0def88dce77c59ad097653e861d8d8562879ae"
   },
   {
     "path": "manifest.json",
-    "bytes": 745135,
-    "sha256": "ded2999666839c9e46d6641d610e1b82800881db53f70064079278e442cdc703"
+    "bytes": 746494,
+    "sha256": "b9ad8b81aa500049ff706e1783e51fc21e8bc4791ec5094142db1096ce3bff16"
   },
   {
     "path": "assets/archive-filter.css",

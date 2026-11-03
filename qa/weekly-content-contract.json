@@ -3,8 +3,8 @@
   "issue": "weekly/2026-10-26",
   "metrics": {
     "body": {
-      "zhDenseChars": 10360,
-      "enWords": 6069
+      "zhDenseChars": 11310,
+      "enWords": 6657
     },
     "perProduct": {
       "highlight-software-canva-brush": {
@@ -56,16 +56,20 @@
         "en": 473
       },
       "hiring-remote-employees": {
-        "zh": 504,
+        "zh": 505,
         "en": 326
       },
       "hiring-contract-part-time": {
-        "zh": 602,
-        "en": 363
+        "zh": 609,
+        "en": 369
       },
       "hiring-talent-demand": {
-        "zh": 707,
-        "en": 381
+        "zh": 893,
+        "en": 481
+      },
+      "hiring-nov3-supplement": {
+        "zh": 756,
+        "en": 482
       }
     },
     "primarySummaries": {
@@ -118,32 +122,36 @@
         "en": 85
       },
       "hiring-remote-employees": {
-        "zh": 178,
-        "en": 122
+        "zh": 173,
+        "en": 120
       },
       "hiring-contract-part-time": {
         "zh": 182,
         "en": 127
       },
       "hiring-talent-demand": {
-        "zh": 192,
-        "en": 106
+        "zh": 193,
+        "en": 108
+      },
+      "hiring-nov3-supplement": {
+        "zh": 177,
+        "en": 136
       }
     },
     "counting": "Only unique full-analysis product paragraphs count toward body gates; summaries, captions, coverage and sources excluded.",
-    "products": 15,
-    "references": 67,
+    "products": 16,
+    "references": 74,
     "coreVisuals": 12,
-    "slidesPerLocale": 18,
-    "primaryProjectPages": 15,
-    "attachedProjectDetails": 15,
+    "slidesPerLocale": 19,
+    "primaryProjectPages": 16,
+    "attachedProjectDetails": 16,
     "primaryBody": {
-      "zhDenseChars": 2548,
-      "enWords": 1535
+      "zhDenseChars": 2721,
+      "enWords": 1671
     },
     "completeReadingBody": {
-      "zhDenseChars": 12908,
-      "enWords": 7604
+      "zhDenseChars": 14031,
+      "enWords": 8328
     }
   },
   "units": [
@@ -206,6 +214,10 @@
     {
       "id": "hiring-talent-demand",
       "type": "talent"
+    },
+    {
+      "id": "hiring-nov3-supplement",
+      "type": "jobs"
     }
   ],
   "sections": {
@@ -223,7 +235,8 @@
     "opportunity-state-aware-controller": 6,
     "hiring-remote-employees": 6,
     "hiring-contract-part-time": 7,
-    "hiring-talent-demand": 4
+    "hiring-talent-demand": 5,
+    "hiring-nov3-supplement": 7
   },
   "hiringSupplement": {
     "roles": [
@@ -243,7 +256,7 @@
         "newFound": false,
         "conditional": false,
         "publishedAt": null,
-        "observedAt": "2026-11-02T05:40:41Z"
+        "observedAt": "2026-11-03T17:15:52Z"
       },
       {
         "id": "stackadapt",
@@ -288,7 +301,7 @@
         "newFound": false,
         "conditional": false,
         "publishedAt": null,
-        "observedAt": "2026-11-02T05:40:41Z"
+        "observedAt": "2026-11-03T17:15:52Z"
       },
       {
         "id": "alpaca",
@@ -315,7 +328,7 @@
         "newFound": false,
         "conditional": false,
         "publishedAt": null,
-        "observedAt": "2026-11-02T05:40:41Z"
+        "observedAt": "2026-11-03T17:15:52Z"
       },
       {
         "id": "raisedesk",
@@ -343,15 +356,101 @@
         "conditional": true,
         "publishedAt": "2026-10-22",
         "observedAt": "2026-11-02T05:40:41Z"
+      },
+      {
+        "id": "webflow-agentic-cms",
+        "company": "Webflow",
+        "url": "https://jobs.ashbyhq.com/webflow/4e640a4d-ee08-4297-a479-43b9a0c55819",
+        "newFound": true,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-11-03T17:21:56.964Z"
+      },
+      {
+        "id": "ashby-staff",
+        "company": "Ashby",
+        "url": "https://jobs.ashbyhq.com/Ashby/2373fcd5-144b-4d66-a98b-dd0efb4eb9d1",
+        "newFound": true,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-11-03T17:21:59.058Z"
+      },
+      {
+        "id": "ashby-senior",
+        "company": "Ashby",
+        "url": "https://jobs.ashbyhq.com/Ashby/f40ef345-82a8-4956-9150-193b4fdf8183",
+        "newFound": true,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-11-03T17:22:11.125Z"
+      },
+      {
+        "id": "babylist-ai-builder",
+        "company": "Babylist",
+        "url": "https://job-boards.greenhouse.io/babylist/jobs/6104998004",
+        "newFound": true,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-11-03T17:22:15.269Z"
+      },
+      {
+        "id": "tailscale-growth",
+        "company": "Tailscale",
+        "url": "https://job-boards.greenhouse.io/tailscale/jobs/4726042005",
+        "newFound": true,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-11-03T17:15:52Z"
+      },
+      {
+        "id": "voldex-brookhaven",
+        "company": "Voldex",
+        "url": "https://jobs.ashbyhq.com/voldex/75e0ff31-86e9-4403-b915-73ee2ac3442a",
+        "newFound": true,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-11-03T17:22:12.955Z"
+      },
+      {
+        "id": "flex-contract",
+        "company": "Flex",
+        "url": "https://job-boards.greenhouse.io/flex/jobs/4722531005",
+        "newFound": true,
+        "conditional": true,
+        "publishedAt": null,
+        "observedAt": "2026-11-03T17:15:52Z"
       }
     ],
-    "main": 7,
-    "conditional": 6,
-    "newFound": 4,
+    "main": 13,
+    "conditional": 7,
+    "newFound": 11,
     "revalidated": 9,
-    "employers": 12,
+    "employers": 18,
     "originalPublicationDatesVerified": 1,
-    "observationNote": "Rechecked November 2; original dates retained; not all newly posted in the covered week."
+    "observationNote": "November 3 supplement: seven roles added and HouseSigma/Andgo rechecked. Other original records retain November 2 observations. Posting dates unknown except APF; unchanged complete-week window.",
+    "supplementDate": "2026-11-03",
+    "addedRoleIds": [
+      "webflow-agentic-cms",
+      "ashby-staff",
+      "ashby-senior",
+      "babylist-ai-builder",
+      "tailscale-growth",
+      "voldex-brookhaven",
+      "flex-contract"
+    ],
+    "recheckedRoleIds": [
+      "andgo-lead",
+      "andgo-contract",
+      "housesigma",
+      "webflow-agentic-cms",
+      "ashby-staff",
+      "ashby-senior",
+      "babylist-ai-builder",
+      "tailscale-growth",
+      "voldex-brookhaven",
+      "flex-contract"
+    ],
+    "supplementObservationAt": "2026-11-03T17:22:15.269Z"
   },
   "jobsByUnit": {
     "hiring-remote-employees": [
@@ -420,6 +519,43 @@
       {
         "id": "apf-ux",
         "url": "https://www.asiapacific.ca/about-us/employment-opportunities",
+        "conditional": true
+      }
+    ],
+    "hiring-nov3-supplement": [
+      {
+        "id": "webflow-agentic-cms",
+        "url": "https://jobs.ashbyhq.com/webflow/4e640a4d-ee08-4297-a479-43b9a0c55819",
+        "conditional": false
+      },
+      {
+        "id": "ashby-staff",
+        "url": "https://jobs.ashbyhq.com/Ashby/2373fcd5-144b-4d66-a98b-dd0efb4eb9d1",
+        "conditional": false
+      },
+      {
+        "id": "ashby-senior",
+        "url": "https://jobs.ashbyhq.com/Ashby/f40ef345-82a8-4956-9150-193b4fdf8183",
+        "conditional": false
+      },
+      {
+        "id": "babylist-ai-builder",
+        "url": "https://job-boards.greenhouse.io/babylist/jobs/6104998004",
+        "conditional": false
+      },
+      {
+        "id": "tailscale-growth",
+        "url": "https://job-boards.greenhouse.io/tailscale/jobs/4726042005",
+        "conditional": false
+      },
+      {
+        "id": "voldex-brookhaven",
+        "url": "https://jobs.ashbyhq.com/voldex/75e0ff31-86e9-4403-b915-73ee2ac3442a",
+        "conditional": false
+      },
+      {
+        "id": "flex-contract",
+        "url": "https://job-boards.greenhouse.io/flex/jobs/4722531005",
         "conditional": true
       }
     ]

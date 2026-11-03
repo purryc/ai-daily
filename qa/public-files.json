@@ -7966,13 +7966,13 @@
   },
   {
     "path": "en/index.html",
-    "bytes": 174778,
-    "sha256": "4aa130acd7a153e0072a2c9d4b0def88dce77c59ad097653e861d8d8562879ae"
+    "bytes": 174801,
+    "sha256": "75cc4a03425f508449755bc9114cc8006feedbea2b7d89585ccd0a59b5b27ec5"
   },
   {
     "path": "index.html",
-    "bytes": 168659,
-    "sha256": "2736b90efe7fd915aef8e561ce24e816d9c3d66709d7ef730a52273b1bc48be8"
+    "bytes": 168679,
+    "sha256": "07ff89137c1ad19b05ee1fc0c357589eb5f9a8c87fb4a26074652f78cb7cb5ee"
   },
   {
     "path": "manifest.json",
@@ -8366,18 +8366,23 @@
   },
   {
     "path": "weekly/2026-10-26/en/details/hiring-contract-part-time.html",
-    "bytes": 8022,
-    "sha256": "afe1c82c8b5a7005e977c46e093e7d83416ede06c7f88c1e8365a8f110782173"
+    "bytes": 8134,
+    "sha256": "42ea0feaeb2b9e7d7db6da267285c094462e385235d6a968c51a6ebee78eee1c"
+  },
+  {
+    "path": "weekly/2026-10-26/en/details/hiring-nov3-supplement.html",
+    "bytes": 8697,
+    "sha256": "92f64c5a56e11b0f4610d3be7ee5e5a3b36c07b65b3248a21c5733d52808d152"
   },
   {
     "path": "weekly/2026-10-26/en/details/hiring-remote-employees.html",
-    "bytes": 6937,
-    "sha256": "8dfdbc2b86e3a0b5653fa16a3cc3928af6cf927daed897e020afdebd2cdf1438"
+    "bytes": 7010,
+    "sha256": "3405fb9a35b7eefcd026ada29ac44160b8826fcf36d1ff9fbc977301aeab0e20"
   },
   {
     "path": "weekly/2026-10-26/en/details/hiring-talent-demand.html",
-    "bytes": 6577,
-    "sha256": "f9fde475e31900f8cb30ca7dc8dba1ba5291cf1e729933beb83ac27716b16e39"
+    "bytes": 7864,
+    "sha256": "e06dbeb523d138aaa5cfee7d42f44bffa1ab38b002dbfeeb681aa5cc214dae3b"
   },
   {
     "path": "weekly/2026-10-26/en/details/opportunity-document-acceptance.html",
@@ -8406,23 +8411,23 @@
   },
   {
     "path": "weekly/2026-10-26/en/index.html",
-    "bytes": 58683,
-    "sha256": "d71b4dcdd59a58467d81d9ef469f41b4f0495ab378d43904790d8158f7d52908"
+    "bytes": 63673,
+    "sha256": "d5aee120cd858a40cc7513595cf28f83b45a87d58b08b362846895875ab660bc"
   },
   {
     "path": "weekly/2026-10-26/manifest.json",
-    "bytes": 22226,
-    "sha256": "65bb7033121d3eb7477483d0ac0afd04efe1ef705404d01188ae97f753b760cb"
+    "bytes": 26114,
+    "sha256": "7781df10d67a806604b5a8851fdc91285baccb8a7f0b4ced9c127b273137cf8c"
   },
   {
     "path": "weekly/2026-10-26/sources.html",
-    "bytes": 40274,
-    "sha256": "f0bbd52b363b65965eb973b463fc308c6dcf6c5f4cc9ef6db962b1405a9158f7"
+    "bytes": 43394,
+    "sha256": "da92e6f6a589bafff25659f7763255c7d1873f6650bd6179eb633616e9783bda"
   },
   {
     "path": "weekly/2026-10-26/sources.json",
-    "bytes": 19101,
-    "sha256": "186756140ff4b7212ae6ff0b277f33d0171e6897646b48126e50305510eef1ee"
+    "bytes": 21163,
+    "sha256": "04d7b7bb2bcd918f39347e91f4ca9599d3d38fbf63ceaa1aa3b3999294920566"
   },
   {
     "path": "weekly/2026-10-26/visuals.json",
@@ -8466,18 +8471,23 @@
   },
   {
     "path": "weekly/2026-10-26/zh/details/hiring-contract-part-time.html",
-    "bytes": 7697,
-    "sha256": "3fc963981e43bb01af3c95d915be759d179f654ade29f5fa2ed3bc9d3c302a1a"
+    "bytes": 7754,
+    "sha256": "debdace29a004504cdc2b73d0f3c3b3b3538c22849bba36e7ce8257e30ad4d8e"
+  },
+  {
+    "path": "weekly/2026-10-26/zh/details/hiring-nov3-supplement.html",
+    "bytes": 8211,
+    "sha256": "c0edeab3d459fa53c190afec298e68091b37cbf0907e860ae18849038fa2060a"
   },
   {
     "path": "weekly/2026-10-26/zh/details/hiring-remote-employees.html",
-    "bytes": 6668,
-    "sha256": "d4c2f704bdd3cba4d388743c29babac613cab3ddda7981565279751f728d856a"
+    "bytes": 6704,
+    "sha256": "932a1e3b634f6274f36dbeb8733d748003a9f266381dd93a3bd9f5b5b253c98d"
   },
   {
     "path": "weekly/2026-10-26/zh/details/hiring-talent-demand.html",
-    "bytes": 6277,
-    "sha256": "a937bd5343a78f91aff89ab20ad9e6b283234a20428a344d17d778a17b2039d7"
+    "bytes": 7384,
+    "sha256": "81bdfb6ffc6732c47c6a223621fbdd31cfe6da1e9bb4d3afe201420c81b27595"
   },
   {
     "path": "weekly/2026-10-26/zh/details/opportunity-document-acceptance.html",
@@ -8506,8 +8516,8 @@
   },
   {
     "path": "weekly/2026-10-26/zh/index.html",
-    "bytes": 56510,
-    "sha256": "bdcd1c7f0bbf2c6ee6226ef663bbe58f33e34efc5b8078b448466d1702e162c5"
+    "bytes": 61283,
+    "sha256": "860ed7b69190f6180c87b7a8622c4c785d705828e737bcda21767982f310186d"
   },
   {
     "path": "weekly/assets/pilot.css",
@@ -8581,12 +8591,12 @@
   },
   {
     "path": "weekly/index.html",
-    "bytes": 1392,
-    "sha256": "e0c4b25d9fae094d9b9c675b05ec8960bf4fe3e37cd2c2738b0f8ca4e434d99c"
+    "bytes": 1412,
+    "sha256": "2673b977366bffd016a6bd470e0c42c92d08ad064fa403d9760d8d388a2fd2cd"
   },
   {
     "path": "weekly/manifest.json",
-    "bytes": 936,
-    "sha256": "ea82e78dc8598d04bac5d1f0c27da125e39b02e417fafd0f1aa88ddc14439673"
+    "bytes": 1006,
+    "sha256": "ce7f6140f092485248baa440c3d4192b0b2283de860811efa363dca91e56cb46"
   }
 ]
