@@ -123,11 +123,11 @@
       },
       "hiring-remote-employees": {
         "zh": 173,
-        "en": 120
+        "en": 147
       },
       "hiring-contract-part-time": {
         "zh": 182,
-        "en": 127
+        "en": 163
       },
       "hiring-talent-demand": {
         "zh": 193,
@@ -135,7 +135,7 @@
       },
       "hiring-nov3-supplement": {
         "zh": 177,
-        "en": 136
+        "en": 164
       }
     },
     "counting": "Only unique full-analysis product paragraphs count toward body gates; summaries, captions, coverage and sources excluded.",
@@ -147,11 +147,11 @@
     "attachedProjectDetails": 16,
     "primaryBody": {
       "zhDenseChars": 2721,
-      "enWords": 1671
+      "enWords": 1762
     },
     "completeReadingBody": {
       "zhDenseChars": 14031,
-      "enWords": 8328
+      "enWords": 8419
     }
   },
   "units": [
@@ -457,106 +457,186 @@
       {
         "id": "samsara",
         "url": "https://www.samsara.com/company/careers/roles/8275253?gh_jid=8275253",
-        "conditional": false
+        "conditional": false,
+        "title": "Staff Product Designer",
+        "company": "Samsara",
+        "typeZh": "全职／加拿大远程",
+        "typeEn": "Full-time / Canada remote"
       },
       {
         "id": "andgo-lead",
         "url": "https://job-boards.greenhouse.io/andgosystems/jobs/4456641009",
-        "conditional": false
+        "conditional": false,
+        "title": "Senior Product Designer / Design Lead",
+        "company": "Andgo",
+        "typeZh": "长期全职／加拿大远程",
+        "typeEn": "Permanent full-time / Canada remote"
       },
       {
         "id": "stackadapt",
         "url": "https://job-boards.greenhouse.io/stackadapt/jobs/4410085009",
-        "conditional": false
+        "conditional": false,
+        "title": "Staff Product Designer — Ivy AI experience",
+        "company": "StackAdapt",
+        "typeZh": "雇佣类型未明／美加remote-first",
+        "typeEn": "Type unspecified / US–Canada remote-first"
       },
       {
         "id": "life360",
         "url": "https://job-boards.greenhouse.io/life360/jobs/8790900002",
-        "conditional": false
+        "conditional": false,
+        "title": "Senior Product Designer II, Revenue Experimentation",
+        "company": "Life360",
+        "typeZh": "雇员／美加远程；全职标签未明",
+        "typeEn": "Employee / US–Canada remote; full-time label unstated"
       },
       {
         "id": "astell",
         "url": "https://astell.ai/en/careers/ui-ux",
-        "conditional": true
+        "conditional": true,
+        "title": "Product Designer (UI/UX)",
+        "company": "Lab24 / Astell",
+        "typeZh": "全职，可考虑兼职／全球远程",
+        "typeEn": "Full-time; part-time considered / global remote"
       },
       {
         "id": "harvey",
         "url": "https://www.harvey.ai/company/careers/7325a214-908d-48a4-bbc2-f5c3a6c9ed00",
-        "conditional": true
+        "conditional": true,
+        "title": "Staff Product Designer",
+        "company": "Harvey",
+        "typeZh": "全职／Toronto混合办公",
+        "typeEn": "Full-time / Toronto hybrid"
       }
     ],
     "hiring-contract-part-time": [
       {
         "id": "andgo-contract",
         "url": "https://job-boards.greenhouse.io/andgosystems/jobs/4456625009",
-        "conditional": false
+        "conditional": false,
+        "title": "Senior Product Designer (Contract)",
+        "company": "Andgo",
+        "typeZh": "独立合同／加拿大远程",
+        "typeEn": "Independent contract / Canada remote"
       },
       {
         "id": "alpaca",
         "url": "https://job-boards.greenhouse.io/alpaca/jobs/6187326004",
-        "conditional": true
+        "conditional": true,
+        "title": "Senior Product Designer, Operations Tools",
+        "company": "Alpaca",
+        "typeZh": "12个月合同／北美远程",
+        "typeEn": "12-month contract / North America remote"
       },
       {
         "id": "lca",
         "url": "https://www.latecheckout.agency/careers/sr-product-designer",
-        "conditional": true
+        "conditional": true,
+        "title": "Sr. Product Designer (Freelance/Part-time)",
+        "company": "LCA",
+        "typeZh": "自由合同／兼职；全球远程",
+        "typeEn": "Freelance / part-time; global remote"
       },
       {
         "id": "housesigma",
         "url": "https://team.housesigma.com/job_posting/senior-product-designer/",
-        "conditional": false
+        "conditional": false,
+        "title": "Senior Product Designer (Part-Time Role)",
+        "company": "HouseSigma",
+        "typeZh": "兼职／加拿大境内远程",
+        "typeEn": "Part-time / Canada-wide remote"
       },
       {
         "id": "raisedesk",
         "url": "https://raisedesk.io/careers/senior-product-designer-agentic-ux-ui",
-        "conditional": false
+        "conditional": false,
+        "title": "Senior Product Designer, Agentic UX/UI",
+        "company": "RaiseDesk",
+        "typeZh": "初期兼职／加拿大境内远程",
+        "typeEn": "Initially part-time / within Canada"
       },
       {
         "id": "upgraded",
         "url": "https://www.getupgraded.ca/jobs/product-designer",
-        "conditional": true
+        "conditional": true,
+        "title": "Designer – Product, Software, Marketing & AI",
+        "company": "Upgraded",
+        "typeZh": "兼职／Vancouver remote-friendly",
+        "typeEn": "Part-time / Vancouver remote-friendly"
       },
       {
         "id": "apf-ux",
         "url": "https://www.asiapacific.ca/about-us/employment-opportunities",
-        "conditional": true
+        "conditional": true,
+        "title": "APFC-2026-UX-01 — UX review and redesign recommendations",
+        "company": "APF Canada",
+        "typeZh": "独立顾问／机构RFP，非雇员职位",
+        "typeEn": "Independent consultant / firm RFP, not employment"
       }
     ],
     "hiring-nov3-supplement": [
       {
         "id": "webflow-agentic-cms",
         "url": "https://jobs.ashbyhq.com/webflow/4e640a4d-ee08-4297-a479-43b9a0c55819",
-        "conditional": false
+        "conditional": false,
+        "title": "Staff Product Designer, Agentic CMS",
+        "company": "Webflow",
+        "typeZh": "长期全职／美、加BC/ON远程",
+        "typeEn": "Permanent / US and BC–ON remote"
       },
       {
         "id": "ashby-staff",
         "url": "https://jobs.ashbyhq.com/Ashby/2373fcd5-144b-4d66-a98b-dd0efb4eb9d1",
-        "conditional": false
+        "conditional": false,
+        "title": "Staff Product Designer",
+        "company": "Ashby",
+        "typeZh": "Staff全职／美加远程",
+        "typeEn": "Staff full-time / US–Canada remote"
       },
       {
         "id": "ashby-senior",
         "url": "https://jobs.ashbyhq.com/Ashby/f40ef345-82a8-4956-9150-193b4fdf8183",
-        "conditional": false
+        "conditional": false,
+        "title": "Senior Product Designer",
+        "company": "Ashby",
+        "typeZh": "Senior全职／美加远程",
+        "typeEn": "Senior full-time / US–Canada remote"
       },
       {
         "id": "babylist-ai-builder",
         "url": "https://job-boards.greenhouse.io/babylist/jobs/6104998004",
-        "conditional": false
+        "conditional": false,
+        "title": "Staff Product Designer (AI Builder)",
+        "company": "Babylist",
+        "typeZh": "雇员／加拿大remote-first",
+        "typeEn": "Employee / Canada remote-first"
       },
       {
         "id": "tailscale-growth",
         "url": "https://job-boards.greenhouse.io/tailscale/jobs/4726042005",
-        "conditional": false
+        "conditional": false,
+        "title": "Product Designer (Growth)",
+        "company": "Tailscale",
+        "typeZh": "雇员／加拿大远程",
+        "typeEn": "Employee / Canada remote"
       },
       {
         "id": "voldex-brookhaven",
         "url": "https://jobs.ashbyhq.com/voldex/75e0ff31-86e9-4403-b915-73ee2ac3442a",
-        "conditional": false
+        "conditional": false,
+        "title": "Sr UX/UI Designer — Brookhaven",
+        "company": "Voldex",
+        "typeZh": "6个月合同／加、巴、英远程",
+        "typeEn": "6-month contract / CA–BR–UK remote"
       },
       {
         "id": "flex-contract",
         "url": "https://job-boards.greenhouse.io/flex/jobs/4722531005",
-        "conditional": true
+        "conditional": true,
+        "title": "Staff Product Designer (Contract)",
+        "company": "Flex",
+        "typeZh": "合同／地域条件冲突",
+        "typeEn": "Contract / location conflict"
       }
     ]
   }

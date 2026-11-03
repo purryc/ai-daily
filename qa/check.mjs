@@ -68,7 +68,7 @@ async function staticCheck(){
    const summaryUnits=[...primaryHtml.matchAll(/class="summary-unit"[^>]*>[\s\S]*?<p>([\s\S]*?)<\/p>/g)].map(x=>decode(x[1])),judgment=primaryHtml.match(/class="judgment"[^>]*>[\s\S]*?<p>([\s\S]*?)<\/p>/);
    assert(summaryUnits.length===4&&judgment,'PRIMARY_UNIT_STRUCTURE');const jobLabels=[...primaryHtml.matchAll(/<span data-job-label>([\s\S]*?)<\/span>/g)].map(x=>decode(x[1]));summaries[t.id]=counts(summaryUnits.join('')+decode(judgment[1])+jobLabels.join(' '),l);assert(summaries[t.id]===metrics.primarySummaries[t.id][l],'PRIMARY_METRIC_PARITY');primaryUnits.push({id:t.id,summaryUnits:summaryUnits.length,judgmentUnits:1,refs:[...primaryHtml.matchAll(/\[S(\d+)\]/g)].map(x=>+x[1])});
    assert(primaryUnits.at(-1).refs.length>0&&primaryUnits.at(-1).refs.every(n=>sourceNumbers.includes(n)),'PRIMARY_REF_RANGE');
-   if(visual){assert((d.match(/<figure\b/g)||[]).length===1&&(d.match(/<img\b/g)||[]).length===1&&d.includes(`src="../../${visual.path}"`),'ONE_DETAIL_IMAGE_PER_PROJECT')}else{assert(!(d.match(/<img\b/g)||[]).length,'HIRING_DETAIL_NO_FAKE_IMAGE');}if(t.unitType==='jobs'){const expectedJobs=contract.jobsByUnit[t.id],jl=[...primaryHtml.matchAll(/data-job-id="([^"]+)" data-conditional="([^"]+)"/g)].map(z=>({id:z[1],conditional:z[2]==='true'}));assert(JSON.stringify(jl)===JSON.stringify(expectedJobs.map(z=>({id:z.id,conditional:z.conditional}))),'JOB_LIST_MAIN_PARITY');const links=[...d.matchAll(/class="job-original" data-job-id="([^"]+)" href="([^"]+)"/g)].map(z=>({id:z[1],url:decode(z[2])}));assert(JSON.stringify(links)===JSON.stringify(expectedJobs.map(z=>({id:z.id,url:z.url}))),'JOB_DIRECT_ORIGINAL_LINKS');}
+   if(visual){assert((d.match(/<figure\b/g)||[]).length===1&&(d.match(/<img\b/g)||[]).length===1&&d.includes(`src="../../${visual.path}"`),'ONE_DETAIL_IMAGE_PER_PROJECT')}else{assert(!(d.match(/<img\b/g)||[]).length,'HIRING_DETAIL_NO_FAKE_IMAGE');}if(t.unitType==='jobs'){const expectedJobs=contract.jobsByUnit[t.id],jl=[...primaryHtml.matchAll(/data-job-id="([^"]+)" data-conditional="([^"]+)"/g)].map(z=>({id:z[1],conditional:z[2]==='true'}));assert(JSON.stringify(jl)===JSON.stringify(expectedJobs.map(z=>({id:z.id,conditional:z.conditional}))),'JOB_LIST_MAIN_PARITY');assert(JSON.stringify(jobLabels)===JSON.stringify(expectedJobs.map(j=>j.company+' · '+j.title+' · '+j[l==='zh'?'typeZh':'typeEn'])),'VISIBLE_EXACT_ROLE_TITLE_WITH_TERMS');const links=[...d.matchAll(/class="job-original" data-job-id="([^"]+)" href="([^"]+)"/g)].map(z=>({id:z[1],url:decode(z[2])}));assert(JSON.stringify(links)===JSON.stringify(expectedJobs.map(z=>({id:z.id,url:z.url}))),'JOB_DIRECT_ORIGINAL_LINKS');}
   }
   assert(new Set(all.map(x=>x.trim())).size===all.length,'DUPLICATE_BODY_PARAGRAPHS');stats[l]=counts(all.join(' '),l);assert(stats[l]>0,'WEEKLY_BODY_PRESENT');assert(stats[l]===metrics.body[l==='zh'?'zhDenseChars':'enWords'],'BODY_METRIC');perProduct[l]=pp;details.push(structure);primary[l]=summaries;primaryStructures.push(primaryUnits);
   const evidence=h.match(/<section id="evidence-1"([\s\S]*?)<\/section>/)?.[1];assert(evidence,'EVIDENCE_SLIDE');
@@ -99,7 +99,7 @@ async function checkpoint(phase,details={}){
 }
 report.timings={readyCalls:0,readyMs:0,imageDecodeCalls:0,imagesDecoded:0,imageDecodeMs:0,screenshotMs:0};
 report.imageLog={eligible:[],maxImages:6,maxBase64CharsPerImage:1048576,maxBase64CharsTotal:4194304,encodedChars:0,emitted:[],artifactOnly:[]};
-function previewNames(){return report.locale?(cfg.archiveRevision?['before','after','weekly','daily','empty','mobile'].map(n=>`${report.locale}-archive-${n}.jpg`):[`${report.locale}-toc-1.jpg`,`${report.locale}-event-1-a.jpg`,`${report.locale}-event-16-a.jpg`,`${report.locale}-detail-hiring-nov3-supplement-top.jpg`,`${report.locale}-mobile-event-1-a.jpg`,`${report.locale}-mobile-detail-hiring-nov3-supplement.jpg`]):[]}
+function previewNames(){return report.locale?(cfg.archiveRevision?['before','after','weekly','daily','empty','mobile'].map(n=>`${report.locale}-archive-${n}.jpg`):[13,14,16].flatMap(i=>[`${report.locale}-event-${i}-a.jpg`,`${report.locale}-mobile-event-${i}-a.jpg`])):[]}
 async function emitPreview(name){
  const log=report.imageLog;if(!previewNames().includes(name)||log.emitted.includes(name)||log.artifactOnly.includes(name))return;
  log.eligible.push(name);const data=(await fs.readFile(path.join(out,name))).toString('base64');
@@ -173,6 +173,14 @@ async function inspectSlide(page,id,viewport,extra={}){
  },mobile);
  check(mobile?'mobile-primary-readability':'slide-bounds',bounds.withinViewport&&(mobile||Math.abs(bounds.ratio-16/9)<.001)&&!bounds.outside.length&&!bounds.clipped.length&&!bounds.horizontalOverflow&&(mobile||!bounds.verticalOverflow)&&bounds.images.every(x=>x.loaded&&x.contain)&&(bounds.minReadingFont===null||bounds.minReadingFont>=18),{viewport,...extra,...bounds});
  if(bounds.projectLayout)check('project-internal-no-overlap',bounds.projectLayout.overlaps.length===0,{viewport,id,...bounds.projectLayout});
+ const list=page.locator('#'+id+' .job-index');
+ if(await list.count()){
+  const contract=JSON.parse(await fs.readFile('qa/weekly-content-contract.json')),topic=manifest.topics[Number(id.match(/event-(\d+)-a/)[1])-1],expected=contract.jobsByUnit[topic.id];
+  const actual=await list.locator('li').evaluateAll(els=>els.map(li=>{const a=li.querySelector('a'),label=li.querySelector('[data-job-label]'),style=getComputedStyle(label),range=document.createRange();range.selectNodeContents(label);const bounds=li.getBoundingClientRect(),rects=[...range.getClientRects()];return {id:li.dataset.jobId,label:label.textContent,href:a.getAttribute('href'),fullyVisible:rects.every(r=>r.left>=bounds.left-1&&r.right<=bounds.right+1&&r.top>=bounds.top-1&&r.bottom<=bounds.bottom+1)&&style.textOverflow!=='ellipsis'&&style.webkitLineClamp==='none'};}));
+  const locale=await page.locator('html').getAttribute('lang');
+  check('career-list-exact-visible-titles',actual.length===expected.length&&actual.every((a,i)=>a.id===expected[i].id&&a.label===expected[i].company+' · '+expected[i].title+' · '+expected[i][locale==='zh'?'typeZh':'typeEn']&&a.fullyVisible&&a.href==='details/'+topic.id+'.html#part-'+(i+1)),{viewport,id,roles:actual});
+ }
+
 }
 async function checkToc(page,viewport,locale,fullControls){
  await gotoSlide(page,'overview');const tabs=page.locator('#overview button[data-toc-tab]'),panels=page.locator('#overview [data-toc-panel]'),n=await tabs.count();

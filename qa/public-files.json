@@ -8301,8 +8301,8 @@
   },
   {
     "path": "weekly/2026-10-26/assets/issue.css",
-    "bytes": 10676,
-    "sha256": "fb4d85c6225be5ae26e02f4e2ff31330cab77ba8f3c157e65dd2a9af4211bbe7"
+    "bytes": 11010,
+    "sha256": "8263ea05ff25691f6e5239d52025373430df9c848b5065307a1ced6d6b9e5b02"
   },
   {
     "path": "weekly/2026-10-26/assets/opportunity-document-acceptance.png",
@@ -8411,13 +8411,13 @@
   },
   {
     "path": "weekly/2026-10-26/en/index.html",
-    "bytes": 63673,
-    "sha256": "d5aee120cd858a40cc7513595cf28f83b45a87d58b08b362846895875ab660bc"
+    "bytes": 64515,
+    "sha256": "c207fc74328502bf28c751be745f0c0b76e2a696b20114079a5f767385afbbad"
   },
   {
     "path": "weekly/2026-10-26/manifest.json",
     "bytes": 26114,
-    "sha256": "7781df10d67a806604b5a8851fdc91285baccb8a7f0b4ced9c127b273137cf8c"
+    "sha256": "e553bcb7017b52e92df6ab1834c2726b985d5378410a6d8aeab989deeca9b888"
   },
   {
     "path": "weekly/2026-10-26/sources.html",
@@ -8516,8 +8516,8 @@
   },
   {
     "path": "weekly/2026-10-26/zh/index.html",
-    "bytes": 61283,
-    "sha256": "860ed7b69190f6180c87b7a8622c4c785d705828e737bcda21767982f310186d"
+    "bytes": 62125,
+    "sha256": "6e665fe7a8f9ae4df5d101057c2000fa13e430121d61c76f475da90c42a32b23"
   },
   {
     "path": "weekly/assets/pilot.css",
