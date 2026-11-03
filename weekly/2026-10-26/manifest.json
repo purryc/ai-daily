@@ -130,11 +130,11 @@
       },
       "hiring-remote-employees": {
         "zh": 173,
-        "en": 120
+        "en": 147
       },
       "hiring-contract-part-time": {
         "zh": 182,
-        "en": 127
+        "en": 163
       },
       "hiring-talent-demand": {
         "zh": 193,
@@ -142,7 +142,7 @@
       },
       "hiring-nov3-supplement": {
         "zh": 177,
-        "en": 136
+        "en": 164
       }
     },
     "counting": "Only unique full-analysis product paragraphs count toward body gates; summaries, captions, coverage and sources excluded.",
@@ -154,11 +154,11 @@
     "attachedProjectDetails": 16,
     "primaryBody": {
       "zhDenseChars": 2721,
-      "enWords": 1671
+      "enWords": 1762
     },
     "completeReadingBody": {
       "zhDenseChars": 14031,
-      "enWords": 8328
+      "enWords": 8419
     }
   },
   "revision": {
