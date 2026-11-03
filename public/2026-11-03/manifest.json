@@ -336,7 +336,7 @@
     {
       "id": "google-vids-image-avatar",
       "zhHeadline": "Google Vids用一张照片定人物外观，脚本修改后仍要重新生成",
-      "enHeadline": "Google Vids starts an avatar from a photo, with script changes requiring regeneration",
+      "enHeadline": "Google Vids turns a photo into a reusable talking avatar",
       "eventAt": "2026-10-30",
       "freshness": "seven-day",
       "evidence": "Documented workflow; maker statements and original documentation, not independent hands-on results",
@@ -378,7 +378,7 @@
     {
       "id": "finetuning-music-mcp",
       "zhHeadline": "Finetuning把配乐生成接进助手，先报成本再返回可试听结果",
-      "enHeadline": "Finetuning connects music generation to assistants with a cost check before creation",
+      "enHeadline": "Finetuning checks music-generation costs inside an assistant",
       "eventAt": "2026-11-02",
       "freshness": "near-three-day",
       "evidence": "Documented workflow; maker statements and original documentation, not independent hands-on results",
@@ -476,7 +476,7 @@
     {
       "id": "video-studio-skill-nov2-101",
       "zhHeadline": "Video Studio Skill修复新项目合成，把真实操作录像接到成片流程",
-      "enHeadline": "Video Studio Skill repairs fresh-project composition for real product walkthroughs",
+      "enHeadline": "Video Studio Skill fixes first-run walkthrough generation",
       "eventAt": "2026-11-02T18:11:11Z",
       "freshness": "main",
       "evidence": "Original repository, release and community evidence; no independent execution test",
@@ -518,7 +518,7 @@
     {
       "id": "weight-space-programming",
       "zhHeadline": "权重编程让代理直接修模型参数，Qwen的收益主要来自减少思考循环",
-      "enHeadline": "Weight-space programming edits model parameters to reduce Qwen’s reasoning loops",
+      "enHeadline": "Weight-space programming shortens Qwen’s reasoning loops",
       "eventAt": "2026-11-02",
       "freshness": "near-three-day",
       "evidence": "Author research blog and repository README read; not peer-reviewed product evidence or independent model execution.",
@@ -574,7 +574,7 @@
     {
       "id": "interface-quilt",
       "zhHeadline": "Interface Quilt给旧软件加新控件，动作仍要回到原界面执行",
-      "enHeadline": "Interface Quilt adds controls over existing apps and operates their original interfaces",
+      "enHeadline": "Interface Quilt adds controls to existing desktop apps",
       "eventAt": "2026-11-01T13:34:04Z",
       "freshness": "near-three-day",
       "evidence": "Original full paper and arXiv submission history read; author-reported prototype and evaluation, not editorial hands-on testing.",

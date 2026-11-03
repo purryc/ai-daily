@@ -7311,8 +7311,8 @@
   },
   {
     "path": "2026-11-03/en/details/finetuning-music-mcp.html",
-    "bytes": 6215,
-    "sha256": "4ab08424b28e8df326eba65ea7cee8d40a78d125083930f752d54bf4059ae60f"
+    "bytes": 6167,
+    "sha256": "50a067baef372d2097d50100c0f7d2d0155af5702eb6d02ebbc07cbb55d89929"
   },
   {
     "path": "2026-11-03/en/details/gazetags.html",
@@ -7321,8 +7321,8 @@
   },
   {
     "path": "2026-11-03/en/details/google-vids-image-avatar.html",
-    "bytes": 6250,
-    "sha256": "b87799cf747386b73198af43ac38d12ef6c3936a7d3b3682adf5d556f7598a78"
+    "bytes": 6192,
+    "sha256": "bb509fe31a5d77da1e9387f84654197fbfb017cc6de921b5ac6896335a83051c"
   },
   {
     "path": "2026-11-03/en/details/hera-creative-canvas.html",
@@ -7336,8 +7336,8 @@
   },
   {
     "path": "2026-11-03/en/details/interface-quilt.html",
-    "bytes": 5894,
-    "sha256": "81f96f462f2370750c4e3520ccd16152becb3d5060fe3029434c79090d649e7d"
+    "bytes": 5828,
+    "sha256": "7293ad3f77934cf1faae55367483a81cb20c03af5b65f2a3577e35ef3b86c9b5"
   },
   {
     "path": "2026-11-03/en/details/longcat-25-native-multimodal.html",
@@ -7381,13 +7381,13 @@
   },
   {
     "path": "2026-11-03/en/details/video-studio-skill-nov2-101.html",
-    "bytes": 6308,
-    "sha256": "56d78ec0709a1856d887b1b1f774df30d0bd66bece80db1d31f585acf509b641"
+    "bytes": 6258,
+    "sha256": "d6d408a8bfb6bc0ced77aa5224a4ebac7bdfa18d7afc8455cf1b5547ba614cf8"
   },
   {
     "path": "2026-11-03/en/details/weight-space-programming.html",
-    "bytes": 6292,
-    "sha256": "31e88ccfa0972be432cd6c616d313a0b7b5113684021ae026ff64932b686ce71"
+    "bytes": 6244,
+    "sha256": "06eefda7ffdd88c84439d2aa03491d6fef8564b09dc0d065cfea071d150ac8c7"
   },
   {
     "path": "2026-11-03/en/details/xmind-desktop-agent-2701.html",
@@ -7401,13 +7401,13 @@
   },
   {
     "path": "2026-11-03/en/index.html",
-    "bytes": 84501,
-    "sha256": "1d71a62399f73893a9435cc01cce08882324fb279f532c5791c8e685afdc941c"
+    "bytes": 84231,
+    "sha256": "ccb44e97096cc57b506ea771926d4e110f4c828000672bf585dc2d3559963dfb"
   },
   {
     "path": "2026-11-03/manifest.json",
-    "bytes": 28725,
-    "sha256": "d43fb89f7fcf65ff926b25a61f5728d3d49e20198e62cd2e7d7773b6683a70b4"
+    "bytes": 28590,
+    "sha256": "4e964d79359335afe9ac0ee00c098fb7f345c9a1f401e056116ecbd9890df89d"
   },
   {
     "path": "2026-11-03/sources.html",
