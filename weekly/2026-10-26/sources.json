@@ -419,7 +419,7 @@
     "title": "Andgo — Senior Product Designer / Design Lead",
     "publisher": "Andgo",
     "publishedAt": null,
-    "evidenceType": "Employer vacancy / procurement notice; rechecked Nov 2",
+    "evidenceType": "Employer original listing; rechecked November 3",
     "number": 56
   },
   {
@@ -459,7 +459,7 @@
     "title": "Andgo — Senior Product Designer (Contract)",
     "publisher": "Andgo",
     "publishedAt": null,
-    "evidenceType": "Employer vacancy / procurement notice; rechecked Nov 2",
+    "evidenceType": "Employer original listing; rechecked November 3",
     "number": 61
   },
   {
@@ -483,7 +483,7 @@
     "title": "HouseSigma — Senior Product Designer (Part-Time Role)",
     "publisher": "HouseSigma",
     "publishedAt": null,
-    "evidenceType": "Employer vacancy / procurement notice; rechecked Nov 2",
+    "evidenceType": "Employer original listing; rechecked November 3",
     "number": 64
   },
   {
@@ -509,5 +509,61 @@
     "publishedAt": "2026-10-22",
     "evidenceType": "Employer vacancy / procurement notice; rechecked Nov 2",
     "number": 67
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/webflow/4e640a4d-ee08-4297-a479-43b9a0c55819",
+    "title": "Webflow — Staff Product Designer, Agentic CMS",
+    "publisher": "Webflow",
+    "publishedAt": null,
+    "evidenceType": "Employer original job listing; November 3 supplement/recheck",
+    "number": 68
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/Ashby/2373fcd5-144b-4d66-a98b-dd0efb4eb9d1",
+    "title": "Ashby — Staff Product Designer",
+    "publisher": "Ashby",
+    "publishedAt": null,
+    "evidenceType": "Employer original job listing; November 3 supplement/recheck",
+    "number": 69
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/Ashby/f40ef345-82a8-4956-9150-193b4fdf8183",
+    "title": "Ashby — Senior Product Designer",
+    "publisher": "Ashby",
+    "publishedAt": null,
+    "evidenceType": "Employer original job listing; November 3 supplement/recheck",
+    "number": 70
+  },
+  {
+    "url": "https://job-boards.greenhouse.io/babylist/jobs/6104998004",
+    "title": "Babylist — Staff Product Designer (AI Builder)",
+    "publisher": "Babylist",
+    "publishedAt": null,
+    "evidenceType": "Employer original job listing; November 3 supplement/recheck",
+    "number": 71
+  },
+  {
+    "url": "https://job-boards.greenhouse.io/tailscale/jobs/4726042005",
+    "title": "Tailscale — Product Designer (Growth)",
+    "publisher": "Tailscale",
+    "publishedAt": null,
+    "evidenceType": "Employer original job listing; November 3 supplement/recheck",
+    "number": 72
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/voldex/75e0ff31-86e9-4403-b915-73ee2ac3442a",
+    "title": "Voldex — Sr UX/UI Designer — Brookhaven",
+    "publisher": "Voldex",
+    "publishedAt": null,
+    "evidenceType": "Employer original job listing; November 3 supplement/recheck",
+    "number": 73
+  },
+  {
+    "url": "https://job-boards.greenhouse.io/flex/jobs/4722531005",
+    "title": "Flex — Staff Product Designer (Contract)",
+    "publisher": "Flex",
+    "publishedAt": null,
+    "evidenceType": "Employer original job listing; November 3 supplement/recheck",
+    "number": 74
   }
 ]
