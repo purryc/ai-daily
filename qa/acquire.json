@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "name": "webflow.jpg",
+    "kind": "capture",
+    "url": "https://jobs.ashbyhq.com/webflow/4e640a4d-ee08-4297-a479-43b9a0c55819",
+    "selector": "body",
+    "locale": "zh"
+  },
+  {
+    "name": "ashby-staff.jpg",
+    "kind": "capture",
+    "url": "https://jobs.ashbyhq.com/Ashby/2373fcd5-144b-4d66-a98b-dd0efb4eb9d1",
+    "selector": "body",
+    "locale": "zh"
+  },
+  {
+    "name": "ashby-senior.jpg",
+    "kind": "capture",
+    "url": "https://jobs.ashbyhq.com/Ashby/f40ef345-82a8-4956-9150-193b4fdf8183",
+    "selector": "body",
+    "locale": "zh"
+  },
+  {
+    "name": "voldex.jpg",
+    "kind": "capture",
+    "url": "https://jobs.ashbyhq.com/voldex/75e0ff31-86e9-4403-b915-73ee2ac3442a",
+    "selector": "body",
+    "locale": "zh"
+  },
+  {
+    "name": "babylist.jpg",
+    "kind": "capture",
+    "url": "https://job-boards.greenhouse.io/babylist/jobs/6104998004",
+    "selector": "body",
+    "locale": "zh"
+  }
+]
