@@ -179,6 +179,16 @@ async function inspectSlide(page,id,viewport,extra={}){
   const actual=await list.locator('li').evaluateAll(els=>els.map(li=>{const a=li.querySelector('a'),label=li.querySelector('[data-job-label]'),style=getComputedStyle(label),range=document.createRange();range.selectNodeContents(label);const bounds=li.getBoundingClientRect(),rects=[...range.getClientRects()];return {id:li.dataset.jobId,label:label.textContent,href:a.getAttribute('href'),fullyVisible:rects.every(r=>r.left>=bounds.left-1&&r.right<=bounds.right+1&&r.top>=bounds.top-1&&r.bottom<=bounds.bottom+1)&&style.textOverflow!=='ellipsis'&&style.webkitLineClamp==='none'};}));
   const locale=await page.locator('html').getAttribute('lang');
   check('career-list-exact-visible-titles',actual.length===expected.length&&actual.every((a,i)=>a.id===expected[i].id&&a.label===expected[i].company+' · '+expected[i].title+' · '+expected[i][locale==='zh'?'typeZh':'typeEn']&&a.fullyVisible&&a.href==='details/'+topic.id+'.html#part-'+(i+1)),{viewport,id,roles:actual});
+  if(mobile){
+   const position=await page.evaluate(()=>scrollY);
+   for(const j of expected){
+    const link=list.locator('li[data-job-id="'+j.id+'"] a');await link.evaluate(a=>a.scrollIntoView({block:'center',behavior:'instant'}));
+    const visible=await link.evaluate(a=>{const r=a.getBoundingClientRect(),footer=document.querySelector('.reader>footer').getBoundingClientRect(),range=document.createRange();range.selectNodeContents(a);const rects=[...range.getClientRects()].filter(x=>x.width&&x.height),x=(r.left+r.right)/2,y=(r.top+r.bottom)/2,hit=document.elementFromPoint(x,y);return {titleInViewport:rects.every(b=>b.top>=0&&b.bottom<=innerHeight&&b.left>=0&&b.right<=innerWidth),notUnderFooter:rects.every(b=>b.bottom<=footer.top||b.top>=footer.bottom),clickable:hit===a||a.contains(hit)};});
+    check('career-mobile-title-readable-on-scroll',visible.titleInViewport&&visible.notUnderFooter&&visible.clickable,{viewport,id,jobId:j.id,...visible});
+   }
+   await page.evaluate(y=>scrollTo(0,y),position);
+  }
+
  }
 
 }
