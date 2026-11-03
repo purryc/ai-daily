@@ -1,16 +1,9 @@
 [
   {
     "kind": "image",
-    "locale": "en",
-    "name": "dreambeans-ui1-large.jpg",
-    "url": "https://play-lh.googleusercontent.com/kViChk4mIp12uwx_BDmKf0n_uWxObTB-650ubLhnVi6cUK0edmtlsmTd9ejXtNR5nowEBXLDNsY06aB6nv9TrQ=w1200-h2400",
-    "renderImage": true
-  },
-  {
-    "kind": "image",
     "locale": "zh",
-    "name": "dreambeans-ui2-large.jpg",
-    "url": "https://play-lh.googleusercontent.com/P-qbVjOgjYAxUmjj7Z3JsyEZwp96k9IIo04U3pq9J_KWk1HoogPf9GZw5zANS-eiIAEagTlyH8_MhModo3hMuy0=w1200-h2400",
+    "name": "aisin-die-demo.jpg",
+    "url": "https://www.tohoku.ac.jp/japanese/newimg/pressimg/item20261102_03_emram.jpg",
     "renderImage": true
   }
 ]
