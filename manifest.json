@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-11-03",
+    "zhTitle": "AI Daily｜2026年11月3日 · 合影、动效与腕上记录",
+    "enTitle": "AI Daily | November 3, 2026 · Portraits, motion and wrist notes",
+    "zhSummary": "消费创作、腕带记录与家务机器人，连同图层编辑、本地代理和交互研究；逐项保留新增、评测与回看日期。",
+    "enSummary": "Consumer creation, wrist notes and household robots alongside editable layers, local agents and interaction research, with updates, reviews and retrospective dates distinguished.",
+    "tags": [
+      "consumer AI",
+      "creative tools",
+      "physical interaction",
+      "research"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "research"
+    ],
+    "coverStory": {
+      "topicId": "tancky-two-person-portraits",
+      "zhTitle": "Tancky",
+      "enTitle": "Tancky",
+      "imagePath": "assets/tancky-public-tool.jpg",
+      "imageSourceUrl": "https://tancky.io/put-two-people-together-in-a-photo",
+      "primarySourceUrl": "https://tancky.io/put-two-people-together-in-a-photo",
+      "evidenceStrength": "Documented workflow; maker statements and original documentation, not independent hands-on results"
+    },
+    "zhPath": "./2026-11-03/zh/",
+    "enPath": "./2026-11-03/en/",
+    "sourcesPath": "./2026-11-03/sources.html"
+  },
+  {
     "date": "2026-11-02",
     "zhTitle": "AI Daily｜2026年11月2日 · 文件归档、局部编辑与触觉交互",
     "enTitle": "AI Daily | November 2, 2026 · File organization, local edits and tactile interaction",
