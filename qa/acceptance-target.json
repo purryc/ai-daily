@@ -1,7 +1,6 @@
 {
-  "phase": "live",
-  "baselineCommit": "e541cd11da2f84378266b3102f136034393c7388",
-  "acquireAssets": false,
-  "archiveRevision": false,
-  "publicCommit": "463203e0b5a771db8eb2c242d8f8c010ef98d1db"
+  "phase": "candidate",
+  "baselineCommit": "463203e0b5a771db8eb2c242d8f8c010ef98d1db",
+  "acquireAssets": true,
+  "archiveRevision": false
 }

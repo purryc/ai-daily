@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "kind": "image",
+    "locale": "zh",
+    "name": "widgeteer-editor.webp",
+    "url": "https://widgeteer.ai/images/editor-panel.webp"
+  },
+  {
+    "kind": "image",
+    "locale": "en",
+    "name": "xmind2027-gallery.png",
+    "url": "https://ph-files.imgix.net/83293104-0a90-419f-8aaf-d14a04436bae.png?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=1200&w=1600"
+  },
+  {
+    "kind": "image",
+    "locale": "zh",
+    "name": "clayzo-gallery.png",
+    "url": "https://ph-files.imgix.net/96dbb70d-157c-4dbc-8ec1-e4e5dd0c496b.png?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=1200&w=1600"
+  },
+  {
+    "kind": "image",
+    "locale": "en",
+    "name": "hera-canvas.png",
+    "url": "https://ph-files.imgix.net/ba7d992a-d17f-490c-8c45-89c168d78a16.png?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=1200&w=1600"
+  },
+  {
+    "kind": "image",
+    "locale": "zh",
+    "name": "mova-v70-review.jpg",
+    "url": "https://vacuumwars.com/wp-content/uploads/2026/10/MOVA-V70-Ultra-Complete-Review-overview-1.jpg"
+  },
+  {
+    "kind": "image",
+    "locale": "en",
+    "name": "materialvellum-teaser.png",
+    "url": "https://arxiv.org/html/2611.01800v1/figure-teaser.png"
+  },
+  {
+    "kind": "image",
+    "locale": "zh",
+    "name": "gazetags-devices.png",
+    "url": "https://arxiv.org/html/2611.02599v1/head-worn_devices.png"
+  },
+  {
+    "kind": "image",
+    "locale": "en",
+    "name": "hipaper-interface.png",
+    "url": "https://arxiv.org/html/2611.00762v1/UI_Function_Exploration_Stage.png"
+  },
+  {
+    "kind": "image",
+    "locale": "zh",
+    "name": "interface-quilt-demo.png",
+    "url": "https://arxiv.org/html/2611.01891v1/figures/demo-roundtrip.png"
+  }
+]
