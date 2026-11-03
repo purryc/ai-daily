@@ -2,37 +2,63 @@
   {
     "kind": "image",
     "locale": "zh",
-    "name": "trae-bao-ui.jpeg",
-    "url": "https://trae-forum-cdn.trae.com.cn/prod/original/4X/0/8/4/084b60a7be1a07f5d00634ea1250e7e8ebfc8373.jpeg"
+    "name": "clayzo-ui1.jpg",
+    "url": "https://ph-files.imgix.net/29541ce1-c937-46af-8137-69b6a546d2fa.png",
+    "renderImage": true
   },
   {
     "kind": "image",
     "locale": "en",
-    "name": "longcat-opencode.png",
-    "url": "https://s3plus.meituan.com/aigc-public-resources/Longcat-image/b90e575ca00eeb524e685bd54de9aaa5.png"
+    "name": "clayzo-ui2.jpg",
+    "url": "https://ph-files.imgix.net/5e78c101-2830-41fb-9325-d1dce207758a.png",
+    "renderImage": true
   },
   {
     "kind": "image",
     "locale": "zh",
-    "name": "nvidia-dsx-recovery.webp",
-    "url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/11/image5.webp"
+    "name": "clayzo-ui3.jpg",
+    "url": "https://ph-files.imgix.net/09e1f26e-007b-46d6-91b9-3e5eb1a389ee.png",
+    "renderImage": true
   },
   {
     "kind": "image",
     "locale": "en",
-    "name": "berth-harbor.png",
-    "url": "https://raw.githubusercontent.com/T-Crypt/berth/main/assets/preview-harbor.png"
+    "name": "xmind-ui1.jpg",
+    "url": "https://ph-files.imgix.net/b32c2bf3-32d1-4567-b12d-8847cbf29858.png",
+    "renderImage": true
   },
   {
     "kind": "image",
     "locale": "zh",
-    "name": "docomo-aura.png",
-    "url": "https://www.docomo.ne.jp/info/news_release/2026/11/images/02_00-1_pc.png?ver=1793595612"
+    "name": "xmind-ui2.jpg",
+    "url": "https://ph-files.imgix.net/4b66e406-fdc4-46fa-abb4-0bffcd26e640.png",
+    "renderImage": true
+  },
+  {
+    "kind": "inventory",
+    "locale": "en",
+    "name": "vids-page-inventory.json",
+    "url": "https://workspaceupdates.googleblog.com/2026/11/create-a-custom-avatar-google-vids.html"
+  },
+  {
+    "kind": "image",
+    "locale": "zh",
+    "name": "tancky-upload.jpg",
+    "url": "https://tancky.io/images/put-two-people-together-in-a-photo/step-upload.webp",
+    "renderImage": true
   },
   {
     "kind": "image",
     "locale": "en",
-    "name": "berth-mobile.png",
-    "url": "https://raw.githubusercontent.com/T-Crypt/berth/main/assets/preview-mobile.png"
+    "name": "beacon-ui1.jpg",
+    "url": "https://ph-files.imgix.net/9fbd8c98-c5aa-4e40-88c2-58905005594a.png",
+    "renderImage": true
+  },
+  {
+    "kind": "image",
+    "locale": "zh",
+    "name": "beacon-ui2.jpg",
+    "url": "https://ph-files.imgix.net/8f036004-a4ac-4bf3-ad8f-a8661b51bbad.png",
+    "renderImage": true
   }
 ]
