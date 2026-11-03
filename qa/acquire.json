@@ -2,43 +2,21 @@
   {
     "kind": "image",
     "locale": "zh",
-    "name": "longcat25-tokenization.png",
-    "url": "https://s3.meituan.net/static-prod01/com.sankuai.friday.longcat.next2p/assets/visual-tokenization-BRhrbOE4.png",
+    "name": "figma-shader-detail.jpg",
+    "url": "https://help.figma.com/hc/article_attachments/41750812661527",
     "renderImage": true
   },
   {
     "kind": "image",
     "locale": "en",
-    "name": "dreambeans-ui1.jpg",
-    "url": "https://play-lh.googleusercontent.com/kViChk4mIp12uwx_BDmKf0n_uWxObTB-650ubLhnVi6cUK0edmtlsmTd9ejXtNR5nowEBXLDNsY06aB6nv9TrQ=w526-h296",
+    "name": "figma-shader-controls.jpg",
+    "url": "https://help.figma.com/hc/article_attachments/44715909627927",
     "renderImage": true
   },
   {
-    "kind": "image",
+    "kind": "page",
     "locale": "zh",
-    "name": "dreambeans-ui2.jpg",
-    "url": "https://play-lh.googleusercontent.com/P-qbVjOgjYAxUmjj7Z3JsyEZwp96k9IIo04U3pq9J_KWk1HoogPf9GZw5zANS-eiIAEagTlyH8_MhModo3hMuy0=w526-h296",
-    "renderImage": true
-  },
-  {
-    "kind": "image",
-    "locale": "en",
-    "name": "pixel-watch5-review.jpg",
-    "url": "https://media.wareable.com/images/1024w/2026/10/google-pixel-watch-5-touching-watch-face.jpg",
-    "renderImage": true
-  },
-  {
-    "kind": "image",
-    "locale": "zh",
-    "name": "pebble-qore-vox.jpg",
-    "url": "https://www.pebblecart.com/cdn/shop/files/1_0ed8d562-3427-4ac2-a91c-7a0d4fc1edf8.jpg?v=1792988849&width=673",
-    "renderImage": true
-  },
-  {
-    "kind": "image",
-    "locale": "en",
-    "name": "vids-avatar.jpg",
-    "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEio_sv79pGzEOJDOmwSvt_CLa28jNqqNwHeLLPsxA34y3eEdxxW0szqkBBNdp3wTvvIFoK8Fh47yGiAwfOVARJ6qvOf47cNBIxfGPd_qQ1VumoOFx5yzE_BmY8BWtYyoFYhAsyzSOHs8znR-ngq2ISAZGWY7r6tV2mCeo_iPqoEB1V2dKLxhwSmnkGNwMs/s1600/custom%20avatar%20in%20Google%20vids.png",
-    "renderImage": true
+    "name": "tancky-public-tool.jpg",
+    "url": "https://tancky.io/put-two-people-together-in-a-photo"
   }
 ]
