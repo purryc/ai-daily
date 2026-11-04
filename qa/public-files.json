@@ -7736,8 +7736,8 @@
   },
   {
     "path": "2026-11-04/en/details/bystander-aware-robot-tutor.html",
-    "bytes": 6001,
-    "sha256": "f45187d41ff064fdfa6466ccf08c7f45f39f666a90d4309f6402cb5193004f35"
+    "bytes": 5963,
+    "sha256": "b39624fca8b4ca0ed806ee6ca3711f2644f5e7a4ed63bab7efffe50d0a432e87"
   },
   {
     "path": "2026-11-04/en/details/calendarly-154-tasks-events.html",
@@ -7766,13 +7766,13 @@
   },
   {
     "path": "2026-11-04/en/details/googlebook-phone-continuity-friction.html",
-    "bytes": 6960,
-    "sha256": "5dcff51fe28d535800fa5479aca7defc5c7b660cd1d4fb90361d644ac102141a"
+    "bytes": 6928,
+    "sha256": "303ef4493350ca440ec8bf1242c5010a876426c0860de819c39ef368b7998784"
   },
   {
     "path": "2026-11-04/en/details/honeycomb-team-agents-early-access.html",
-    "bytes": 6301,
-    "sha256": "756328f6f970df7fe5a75d4b878b7f7abe53d4e7ac4a8b0366e6846d53c69ba5"
+    "bytes": 6345,
+    "sha256": "49bfc56a7ee2ed872db6a4496466896ab763fc0ef00f163de194f32fa8d02385"
   },
   {
     "path": "2026-11-04/en/details/magicalcore-201-validation.html",
@@ -7866,18 +7866,18 @@
   },
   {
     "path": "2026-11-04/en/index.html",
-    "bytes": 104911,
-    "sha256": "ad7ce9259ec3fa5ce726f61f358fedaab21849a9fe7f7273ef46ceaabe8a457b"
+    "bytes": 104718,
+    "sha256": "2c41517c5473efc0cfdb9c6040c255c72e1c2d58c5a85c890efbfa6e3be26156"
   },
   {
     "path": "2026-11-04/manifest.json",
-    "bytes": 35175,
-    "sha256": "e69f874dcc658047dd0194fe778eb8c6f5b4c6a06f0f2d9c899c927c3360d661"
+    "bytes": 35155,
+    "sha256": "5aabf0c58694d6bc68ee73c945b90e7577c0c7b30b89ab864ec1930d2faaf0bf"
   },
   {
     "path": "2026-11-04/sources.html",
     "bytes": 73520,
-    "sha256": "48fc317b6dcf5ec19eeb251b9a25cbb7c68e36a904cbe47c682e14c9a7136444"
+    "sha256": "7d796e36244b51292381706283002fd8bfd1c4f34053c9fbd5b121f555d437d2"
   },
   {
     "path": "2026-11-04/sources.json",
@@ -7886,8 +7886,8 @@
   },
   {
     "path": "2026-11-04/visuals.json",
-    "bytes": 24020,
-    "sha256": "f5b5d98c990b1d4a32b6f4523b007990d8ba0fef125ccd7210cf6f6200bb82a2"
+    "bytes": 24019,
+    "sha256": "ef8d361e53ab2f56d026ddd046b2a834b258dd292d8078b35d61145e2fa9efd5"
   },
   {
     "path": "2026-11-04/zh/details/affinity-ipad-unified-studios.html",
@@ -7941,13 +7941,13 @@
   },
   {
     "path": "2026-11-04/zh/details/googlebook-phone-continuity-friction.html",
-    "bytes": 6490,
-    "sha256": "9571b7c55268fb867d011d0af23c1ba2b6d2b9d7acdd5e9f7810f0e2eaf9c742"
+    "bytes": 6472,
+    "sha256": "f235d41363f4c6c75f1e3eff74537dc94480844e477f961a1100a9ee2224f596"
   },
   {
     "path": "2026-11-04/zh/details/honeycomb-team-agents-early-access.html",
-    "bytes": 5511,
-    "sha256": "4185487e56de4ab0da5ca80b1c94069c87a235f109138fcc0f365d7267ce7a65"
+    "bytes": 5505,
+    "sha256": "a854a39d7b8107d0e68d202f8040db1eab6cca9cd2ec22f548780b5cd8b1a709"
   },
   {
     "path": "2026-11-04/zh/details/magicalcore-201-validation.html",
@@ -8041,8 +8041,8 @@
   },
   {
     "path": "2026-11-04/zh/index.html",
-    "bytes": 100403,
-    "sha256": "88005381ce2ef027876d878f3b3512584340f000890277433db55a52865bd998"
+    "bytes": 100379,
+    "sha256": "79b0c8d7d7d2384d7d57e01a7538bbafc67e0f29519a195b31fa269996c3859b"
   },
   {
     "path": "assets/acti-agentic-keyboard-2026-07-03.svg",

@@ -241,7 +241,7 @@
       },
       "bystander-aware-robot-tutor": {
         "zh": 220,
-        "en": 117
+        "en": 93
       },
       "discreet-earable-channel": {
         "zh": 202,
@@ -261,11 +261,11 @@
     "attachedProjectDetails": 30,
     "primaryBody": {
       "zhDenseChars": 6281,
-      "enWords": 3480
+      "enWords": 3456
     },
     "completeReadingBody": {
       "zhDenseChars": 27636,
-      "enWords": 16158
+      "enWords": 16134
     }
   },
   "revision": {
@@ -656,7 +656,7 @@
     {
       "id": "bystander-aware-robot-tutor",
       "zhHeadline": "机器人先看看谁在旁边，再把批评从语音改到朝向学生的屏幕",
-      "enHeadline": "A robot checks who is nearby before moving feedback from speech to a turned display",
+      "enHeadline": "Robot tutoring changes feedback channels when a bystander enters",
       "eventAt": "2026-11-03T14:51:43Z",
       "freshness": "main",
       "evidence": "Original abstract, submission history, system mechanisms, evaluation conditions and limitations read. Author-reported evidence, no independent implementation test.",
