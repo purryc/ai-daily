@@ -7555,6 +7555,496 @@
     "sha256": "e5abb16305fe605576c51bf06067429357a49af5dcd410ce1edcece24da6cc8a"
   },
   {
+    "path": "2026-11-04/assets/affinity-ipad.jpg",
+    "bytes": 119831,
+    "sha256": "71e4a842d9d5ddddd822c0dd1083fb247e7cc694416dfaa0677e9f9aed5ceaca"
+  },
+  {
+    "path": "2026-11-04/assets/agentic-path-maps.jpg",
+    "bytes": 168837,
+    "sha256": "5f55fd4b81279e6211ae8741d8a4a9adf6e0bd042cb346d3cfde6bcd9a5e333d"
+  },
+  {
+    "path": "2026-11-04/assets/apple-china-translation.jpg",
+    "bytes": 70253,
+    "sha256": "a18e07aa540c5da7e200d26b36d9eb78909a6fe6ff5b56106b4ef8d15beddc8c"
+  },
+  {
+    "path": "2026-11-04/assets/brink-gallery5.jpg",
+    "bytes": 84015,
+    "sha256": "9126952f9a393a9ec7bd7d8a22c48fd27450681803067541117f09553831eabb"
+  },
+  {
+    "path": "2026-11-04/assets/calendarly-lockscreen.jpg",
+    "bytes": 66584,
+    "sha256": "22e12983cc0d362c2c32cd82b2e601eb022296b14fa22fb397961ba162be8e33"
+  },
+  {
+    "path": "2026-11-04/assets/claude-message-threads-beta-flow.png",
+    "bytes": 102421,
+    "sha256": "e288898ca7719822e1fd923ad84c35813da22dd2ac10c5578c4f1158fc813e17"
+  },
+  {
+    "path": "2026-11-04/assets/deck.js",
+    "bytes": 2576,
+    "sha256": "63d13c06452d7405e0b5ed572d8464d802c9e5b8de656b5a94e3527b1730f7b3"
+  },
+  {
+    "path": "2026-11-04/assets/earable-study.jpg",
+    "bytes": 81425,
+    "sha256": "b3e28f723b43c6c01dec6ddec4685ebd4b12c64b9ec865cacf94b7dd64b39fc7"
+  },
+  {
+    "path": "2026-11-04/assets/flockbay-editor.jpg",
+    "bytes": 214505,
+    "sha256": "335a444e31f37bf9957ef59e23a10e67ca7eb47fd4d9d6874b3e3fa423087298"
+  },
+  {
+    "path": "2026-11-04/assets/googlebook-review.jpg",
+    "bytes": 25572,
+    "sha256": "b41845b707baa10802176741a2b237ab79f80f933e4b89fdb6469d8c2f8bae12"
+  },
+  {
+    "path": "2026-11-04/assets/honeycomb-goal.jpg",
+    "bytes": 82584,
+    "sha256": "43111a5e8a6b2d855886eaa062d4d2392d83c4d3ef072500a175c55a759e6795"
+  },
+  {
+    "path": "2026-11-04/assets/hy4-diagram.jpg",
+    "bytes": 88591,
+    "sha256": "6296d8dee968b37266615c87ff1422576a07daf76cdfb845ea4707d0e3bc055e"
+  },
+  {
+    "path": "2026-11-04/assets/issue.css",
+    "bytes": 10285,
+    "sha256": "1e458c07ba855726699c2b9885d466a62a85e04604b22dddcca9a2f3d1ca09e9"
+  },
+  {
+    "path": "2026-11-04/assets/magicalcore-training.jpg",
+    "bytes": 132327,
+    "sha256": "c2bac3f355af647f58a21cc304ca9f47972d2a4ee1599ac1b97843f995c78903"
+  },
+  {
+    "path": "2026-11-04/assets/maxiq-ui.jpg",
+    "bytes": 97560,
+    "sha256": "870939c0a762eb099c883647f3d4e2ec72c2dd6a8e06c8ffcaf93a25146522b6"
+  },
+  {
+    "path": "2026-11-04/assets/notion-agent-api-ga-personal-flow.png",
+    "bytes": 109342,
+    "sha256": "c67f107112a30aa978fac232fb78c1a008b7f1cfb4e59624af67a8cfc3f25fa6"
+  },
+  {
+    "path": "2026-11-04/assets/notion-mcp-restore-version-flow.png",
+    "bytes": 109095,
+    "sha256": "4cd876933c4e7e3688b27feeb8e176819759bb05c77526baa7bdc28c6582598a"
+  },
+  {
+    "path": "2026-11-04/assets/ollama-04014-routing-sampler-flow.png",
+    "bytes": 109807,
+    "sha256": "5fff9c158c5d4522bfc4b4945946750b4b0a94a05a0335b8e16b2512eae7ebb7"
+  },
+  {
+    "path": "2026-11-04/assets/omniscribble-ui.jpg",
+    "bytes": 165895,
+    "sha256": "05373b307c1a9ce7437e1036eeb54a275251a44a5b3758b4208242a60bd42a3f"
+  },
+  {
+    "path": "2026-11-04/assets/openai-agents-alpha6-turn-control-flow.png",
+    "bytes": 114851,
+    "sha256": "37890493c1e926ed2cddff0e5918a1819e9723e5eb356ffee24e6417c5cadb4e"
+  },
+  {
+    "path": "2026-11-04/assets/openbot-slack.jpg",
+    "bytes": 91935,
+    "sha256": "654e1bcb178f7c1d9aca35a3886bb3ad886bf40c8936a91bd61fe93228b3a1b9"
+  },
+  {
+    "path": "2026-11-04/assets/openhands-test-ui.jpg",
+    "bytes": 28821,
+    "sha256": "218916d3f660954dd1debb23959b6bfe588abcbdaec6ab7ea322a17478a2d8fa"
+  },
+  {
+    "path": "2026-11-04/assets/peji-gallery.jpg",
+    "bytes": 132158,
+    "sha256": "3810ec822f786caf506bcc226caedb285915d7be0f6b3344ab0fdd989c9b0c27"
+  },
+  {
+    "path": "2026-11-04/assets/pudu-mowing-planner.jpg",
+    "bytes": 191292,
+    "sha256": "f638e5411d1c5e602eadfd56f5e56ec930c74770f8a169a638171e32e05d0ddf"
+  },
+  {
+    "path": "2026-11-04/assets/qwen-channel-timeline.jpg",
+    "bytes": 134387,
+    "sha256": "70bc7eacd898a74eed09662ad8597f82b6ee7d8c9f11d38f2c303a94f9fd5d57"
+  },
+  {
+    "path": "2026-11-04/assets/robot-tutor-study.jpg",
+    "bytes": 215969,
+    "sha256": "d7f3abfb4c49c99f664d8a19a0225027009ec38ed097ac63b4c4096c8dce44cf"
+  },
+  {
+    "path": "2026-11-04/assets/samsung-ring-fit.jpg",
+    "bytes": 27785,
+    "sha256": "8bf410f0334b501460c9b6a370e694b50d410126158dd75d2088c350225c3dcf"
+  },
+  {
+    "path": "2026-11-04/assets/seam-data-figure.jpg",
+    "bytes": 51271,
+    "sha256": "9504550566deb5c4857e24eb30e574b7cb8beab6f0c6a493db32d285164b5b6f"
+  },
+  {
+    "path": "2026-11-04/assets/stretch-gen2.jpg",
+    "bytes": 44277,
+    "sha256": "36c13ac38c0dba4c4d4c97e98796a9c4baaec56bc76c870579c3bd3b0ec84653"
+  },
+  {
+    "path": "2026-11-04/assets/sun-web-ui.jpg",
+    "bytes": 59576,
+    "sha256": "13dab3d8e165f89a378840c7ac93f135dda177a1bfd2f66880a0808863b1753a"
+  },
+  {
+    "path": "2026-11-04/assets/umless-history.jpg",
+    "bytes": 114298,
+    "sha256": "2b09ebb16c0854a7b391af810ac4755424082764f7985c0228e2a9b330a5b549"
+  },
+  {
+    "path": "2026-11-04/assets/vibetrace-ui.jpg",
+    "bytes": 126731,
+    "sha256": "80ac0bd41d9ff81836cefc6503a86112d9d69153ec7fb698a79ee5582e80cdc6"
+  },
+  {
+    "path": "2026-11-04/en/details/affinity-ipad-unified-studios.html",
+    "bytes": 6419,
+    "sha256": "c6b8561852effceff613f1412391fe96b937ac68a1b2a50e70a0863696f748aa"
+  },
+  {
+    "path": "2026-11-04/en/details/agentic-path-maps.html",
+    "bytes": 5728,
+    "sha256": "ade6448126ce93472b1ec6960c64ec243b1e1306a0b44a46f125411e1adfc7fc"
+  },
+  {
+    "path": "2026-11-04/en/details/apple-intelligence-china-beta-available.html",
+    "bytes": 6965,
+    "sha256": "fc3b5a53d269c29ecb62d1bc5001b9783ffed024227fc622e6942cdf280e1094"
+  },
+  {
+    "path": "2026-11-04/en/details/brink-trackpad-edge-controls.html",
+    "bytes": 6270,
+    "sha256": "91a22a0e0b322b03e4a0e4e5f982a0aa81b61085230823543d6ffed69afb69a4"
+  },
+  {
+    "path": "2026-11-04/en/details/bystander-aware-robot-tutor.html",
+    "bytes": 6001,
+    "sha256": "f45187d41ff064fdfa6466ccf08c7f45f39f666a90d4309f6402cb5193004f35"
+  },
+  {
+    "path": "2026-11-04/en/details/calendarly-154-tasks-events.html",
+    "bytes": 6187,
+    "sha256": "ea367e9b0a8b254c1af6f9e1b19619d2428ffa689e8dd3816ea5cc030c38303a"
+  },
+  {
+    "path": "2026-11-04/en/details/claude-message-threads-beta.html",
+    "bytes": 6492,
+    "sha256": "7376cca2a44c1682d5afbcaca26e159bbb9c26e421b71a9b3c14b30b81e264ae"
+  },
+  {
+    "path": "2026-11-04/en/details/discreet-earable-channel.html",
+    "bytes": 5769,
+    "sha256": "eda662b2a5c0b8e2eb9f6b93f9d6577018abca6753445a97e3c667762b635fb3"
+  },
+  {
+    "path": "2026-11-04/en/details/flockbay-maker-visual-defaults.html",
+    "bytes": 6480,
+    "sha256": "84815522f3193f79f66aed81f1ec3a36e7d604909f595456c65a1b2502c10f7f"
+  },
+  {
+    "path": "2026-11-04/en/details/galaxy-ring-apnea-screening.html",
+    "bytes": 7199,
+    "sha256": "a2d68f48bdec42136dd71afd07af17d9239e5a193b20a3aaa2d547d77ee03606"
+  },
+  {
+    "path": "2026-11-04/en/details/googlebook-phone-continuity-friction.html",
+    "bytes": 6960,
+    "sha256": "5dcff51fe28d535800fa5479aca7defc5c7b660cd1d4fb90361d644ac102141a"
+  },
+  {
+    "path": "2026-11-04/en/details/honeycomb-team-agents-early-access.html",
+    "bytes": 6301,
+    "sha256": "756328f6f970df7fe5a75d4b878b7f7abe53d4e7ac4a8b0366e6846d53c69ba5"
+  },
+  {
+    "path": "2026-11-04/en/details/magicalcore-201-validation.html",
+    "bytes": 6250,
+    "sha256": "358379dee38daddc5251bfc6f2da9ace26ca2ca52852d23ab24de6ad8748a8d7"
+  },
+  {
+    "path": "2026-11-04/en/details/maximo-4-task-service.html",
+    "bytes": 6864,
+    "sha256": "fd888cde9d88da6f75aaf031cd0ebd72a19772fa385cfacb3142055b5b9f8766"
+  },
+  {
+    "path": "2026-11-04/en/details/notion-agent-api-ga-personal.html",
+    "bytes": 7052,
+    "sha256": "e785f13360e42c8146d07e7271493abbcc2f88edc148ecc8a7b2e62d677d8c3a"
+  },
+  {
+    "path": "2026-11-04/en/details/notion-mcp-restore-version.html",
+    "bytes": 6415,
+    "sha256": "caec169b359a050b9fb2ea009473ec6f7e4fa10325f0710b0d045143f792b049"
+  },
+  {
+    "path": "2026-11-04/en/details/ollama-04014-routing-sampler.html",
+    "bytes": 6484,
+    "sha256": "3a8087aebbe41ddce8a42342d9ba9d401fa2b962f91d5bc5575bca43f7f4e3c9"
+  },
+  {
+    "path": "2026-11-04/en/details/omniscribble.html",
+    "bytes": 5777,
+    "sha256": "c6e3b4afaf52af7ee5a64401832fe41d3bcbc9b45ccfaa95a1b586807a4296e1"
+  },
+  {
+    "path": "2026-11-04/en/details/openai-agents-alpha6-turn-control.html",
+    "bytes": 6691,
+    "sha256": "c1b1344c5e2c80d07f3cfc4085174f35a36339b2936c3e7c95e7d28d6f3e9cfd"
+  },
+  {
+    "path": "2026-11-04/en/details/openbot-060-slack-telegram-workflows.html",
+    "bytes": 6579,
+    "sha256": "e5dd6f62deb80d42218c9ea37f7c3d0f538a2294ffb1b297219145f9298b68ba"
+  },
+  {
+    "path": "2026-11-04/en/details/openhands-135-startup-status.html",
+    "bytes": 6364,
+    "sha256": "6e848a819397fbc91c8f812475808835f931ad12f18b39e0a8cef8bd606f8f7d"
+  },
+  {
+    "path": "2026-11-04/en/details/peji-14-tabs-consent.html",
+    "bytes": 6301,
+    "sha256": "f690a4e61ff3f028b2ed10e50e67dfe7121f17e038053ff5ab52deb65a2d6224"
+  },
+  {
+    "path": "2026-11-04/en/details/pudu-tomo-self-sharpening.html",
+    "bytes": 6414,
+    "sha256": "a5edd90a23bdf7254fe01c6082e48d49a533fb8bc1278743c696b83632e2fa68"
+  },
+  {
+    "path": "2026-11-04/en/details/qwen-0267-channel-events.html",
+    "bytes": 6434,
+    "sha256": "c39d93f64664a4273f2b8fb391bc8e9dcd2e936f67bd02c33b2b67fe4b89edbf"
+  },
+  {
+    "path": "2026-11-04/en/details/seam-community-memory.html",
+    "bytes": 5813,
+    "sha256": "9d6f246a45f7c3551402c0463c398b07740a6647f38ed92f6e4caa00b441bef6"
+  },
+  {
+    "path": "2026-11-04/en/details/stretch-gen2-serviceability.html",
+    "bytes": 6793,
+    "sha256": "bd8b38fd3aa52df0dbb24cddf6fd6da86d9a59530261a364ebc8f39957ad706b"
+  },
+  {
+    "path": "2026-11-04/en/details/sun-web-api-audio.html",
+    "bytes": 6318,
+    "sha256": "026aa7357be89931a9b22bee1ee876dde2e3efdb8133972a1f08c110d87b5b40"
+  },
+  {
+    "path": "2026-11-04/en/details/tencent-hy4-visual-tools.html",
+    "bytes": 6443,
+    "sha256": "84d878e638d1385a76e8f89a7108e33c5122327a63738ee09916aaea58fa0e13"
+  },
+  {
+    "path": "2026-11-04/en/details/umless-expression-coach.html",
+    "bytes": 6530,
+    "sha256": "9fd98b22a1e3119bc6e7f1c71e74e89f9e62e30ee80d1fce70b8c56479ef16fb"
+  },
+  {
+    "path": "2026-11-04/en/details/vibetrace.html",
+    "bytes": 6315,
+    "sha256": "b4faf7f095a6779e9f31bc8f3bc7fc0aeac68c14b2f10c649382008ef792af2d"
+  },
+  {
+    "path": "2026-11-04/en/index.html",
+    "bytes": 104911,
+    "sha256": "ad7ce9259ec3fa5ce726f61f358fedaab21849a9fe7f7273ef46ceaabe8a457b"
+  },
+  {
+    "path": "2026-11-04/manifest.json",
+    "bytes": 35175,
+    "sha256": "e69f874dcc658047dd0194fe778eb8c6f5b4c6a06f0f2d9c899c927c3360d661"
+  },
+  {
+    "path": "2026-11-04/sources.html",
+    "bytes": 73520,
+    "sha256": "48fc317b6dcf5ec19eeb251b9a25cbb7c68e36a904cbe47c682e14c9a7136444"
+  },
+  {
+    "path": "2026-11-04/sources.json",
+    "bytes": 31716,
+    "sha256": "5d85d161687e07a9a6e06aa8667499237948cf456c11e27a0ba177d85f52d4b1"
+  },
+  {
+    "path": "2026-11-04/visuals.json",
+    "bytes": 24020,
+    "sha256": "f5b5d98c990b1d4a32b6f4523b007990d8ba0fef125ccd7210cf6f6200bb82a2"
+  },
+  {
+    "path": "2026-11-04/zh/details/affinity-ipad-unified-studios.html",
+    "bytes": 5705,
+    "sha256": "d3b2e8a3338e636a7c5aa34e92751eabba05a8aa5c9d59dfd18f6a6fa7b97401"
+  },
+  {
+    "path": "2026-11-04/zh/details/agentic-path-maps.html",
+    "bytes": 5319,
+    "sha256": "01f8328bcdf6adbf8fdab1020a29cab69f6dd525cbb224248cbe312b52d9b68c"
+  },
+  {
+    "path": "2026-11-04/zh/details/apple-intelligence-china-beta-available.html",
+    "bytes": 6373,
+    "sha256": "2452c0c76b60d79624e338a0c684a3863e637ad83b90168f9f31ba31b909b1fb"
+  },
+  {
+    "path": "2026-11-04/zh/details/brink-trackpad-edge-controls.html",
+    "bytes": 5607,
+    "sha256": "206a9ec2a00dd3011f8b57da10aba61d2d803bd65ab0a0805c3824c8d6ed92d5"
+  },
+  {
+    "path": "2026-11-04/zh/details/bystander-aware-robot-tutor.html",
+    "bytes": 5367,
+    "sha256": "792644d06ac79465d0c0253bb4b77d94d2644053a011648735ca10b6a46f4afb"
+  },
+  {
+    "path": "2026-11-04/zh/details/calendarly-154-tasks-events.html",
+    "bytes": 5758,
+    "sha256": "a80cfa78a6f800af18ae881a1e90bde7436c3bb02f9dca210921ae61eeb7bbd1"
+  },
+  {
+    "path": "2026-11-04/zh/details/claude-message-threads-beta.html",
+    "bytes": 5753,
+    "sha256": "ccb32865bd0df6ffcf90c4b2a7f0e58664590918b07e1d4886cfe6f2758fc535"
+  },
+  {
+    "path": "2026-11-04/zh/details/discreet-earable-channel.html",
+    "bytes": 5191,
+    "sha256": "e2ec6c8a79b061642ffa05f82aac903306f8bb53ab370176ea96d7c3edd68698"
+  },
+  {
+    "path": "2026-11-04/zh/details/flockbay-maker-visual-defaults.html",
+    "bytes": 5823,
+    "sha256": "c7134a69f20a864a9cb52afc06891ef9d81cae2eb7e2ebfba35a27cb6d68e065"
+  },
+  {
+    "path": "2026-11-04/zh/details/galaxy-ring-apnea-screening.html",
+    "bytes": 6456,
+    "sha256": "405645e019f5b966440eba38415f05aea2c9eb5bf9d345554f6ce6474806137c"
+  },
+  {
+    "path": "2026-11-04/zh/details/googlebook-phone-continuity-friction.html",
+    "bytes": 6490,
+    "sha256": "9571b7c55268fb867d011d0af23c1ba2b6d2b9d7acdd5e9f7810f0e2eaf9c742"
+  },
+  {
+    "path": "2026-11-04/zh/details/honeycomb-team-agents-early-access.html",
+    "bytes": 5511,
+    "sha256": "4185487e56de4ab0da5ca80b1c94069c87a235f109138fcc0f365d7267ce7a65"
+  },
+  {
+    "path": "2026-11-04/zh/details/magicalcore-201-validation.html",
+    "bytes": 5601,
+    "sha256": "700483230df350ca6171db9ea44a22a0ff3a35d61483a190a7ad764f8987238e"
+  },
+  {
+    "path": "2026-11-04/zh/details/maximo-4-task-service.html",
+    "bytes": 6437,
+    "sha256": "18a93a52b67cddf155aecfa1f6b80c7323696bdc17c55cafb5786856ea50973c"
+  },
+  {
+    "path": "2026-11-04/zh/details/notion-agent-api-ga-personal.html",
+    "bytes": 6481,
+    "sha256": "cadb58c2633669401c22f6dd879a6aa0aef97ed5576a2be01cc77f360ce0e749"
+  },
+  {
+    "path": "2026-11-04/zh/details/notion-mcp-restore-version.html",
+    "bytes": 5971,
+    "sha256": "aed8dda90db7cbfd9ce8fd58bd04543c5cd92e606be91ca7823a4ef8ab5c95b4"
+  },
+  {
+    "path": "2026-11-04/zh/details/ollama-04014-routing-sampler.html",
+    "bytes": 5829,
+    "sha256": "2d73e23a92ccda7170601b33d8dfcbf78aa079a2ee46dab16dd5d643bbc4f11b"
+  },
+  {
+    "path": "2026-11-04/zh/details/omniscribble.html",
+    "bytes": 5228,
+    "sha256": "e23aa96d9576414298eecdc052fbcc32b444fb8729396e9927e8b230a4911a48"
+  },
+  {
+    "path": "2026-11-04/zh/details/openai-agents-alpha6-turn-control.html",
+    "bytes": 6095,
+    "sha256": "7772c24f45eefda6c19667d7607e15fabf30d4ed454b1740e64894e5306327a8"
+  },
+  {
+    "path": "2026-11-04/zh/details/openbot-060-slack-telegram-workflows.html",
+    "bytes": 5999,
+    "sha256": "a3e3d603dc9453052400b6c8284c4c2635bb2605fb6e4e6e78b8044287a8e9dd"
+  },
+  {
+    "path": "2026-11-04/zh/details/openhands-135-startup-status.html",
+    "bytes": 5636,
+    "sha256": "c71e4319879010ccca132e17bf74269f6df5dcb155ff1f65385e21b6f86a201a"
+  },
+  {
+    "path": "2026-11-04/zh/details/peji-14-tabs-consent.html",
+    "bytes": 5650,
+    "sha256": "e283bf1aa2c79df9943261e8c098b88f2157bc89a9a97eea27a4e75477459a32"
+  },
+  {
+    "path": "2026-11-04/zh/details/pudu-tomo-self-sharpening.html",
+    "bytes": 5956,
+    "sha256": "6de7294ac64f228398611946ada5552f6dcea4e304c2824dc67e80861825b811"
+  },
+  {
+    "path": "2026-11-04/zh/details/qwen-0267-channel-events.html",
+    "bytes": 5831,
+    "sha256": "fb33b06cf42357c4d2a5385d08e5d4cbebc355d3895f7170ccb4a23328a04872"
+  },
+  {
+    "path": "2026-11-04/zh/details/seam-community-memory.html",
+    "bytes": 5411,
+    "sha256": "bf4258f670f06590d80e22545b8035206f2e3f0e998dcf099f7720695f6fd9f4"
+  },
+  {
+    "path": "2026-11-04/zh/details/stretch-gen2-serviceability.html",
+    "bytes": 6307,
+    "sha256": "5e505b075ed9948c2a15bc0e7a80d717810eda623e94e871c4b10b3a62b6c4a2"
+  },
+  {
+    "path": "2026-11-04/zh/details/sun-web-api-audio.html",
+    "bytes": 5595,
+    "sha256": "3baf3e8f69205d2208a720b4fdbc2c6a3020160e3b240849431ffac61fe333f3"
+  },
+  {
+    "path": "2026-11-04/zh/details/tencent-hy4-visual-tools.html",
+    "bytes": 6130,
+    "sha256": "ec7d0e5e95b4ec54d5365634395082f1536833eb6227fa26336e67ef36625940"
+  },
+  {
+    "path": "2026-11-04/zh/details/umless-expression-coach.html",
+    "bytes": 5791,
+    "sha256": "c0ef095794df4584f8d51213c49bb0db6278c5fb5cc266ed953a874ce349ed5c"
+  },
+  {
+    "path": "2026-11-04/zh/details/vibetrace.html",
+    "bytes": 5740,
+    "sha256": "9818304aa6f205bd0312347d3538ecbab82b8f24d6f95e0614fcc99de001a57a"
+  },
+  {
+    "path": "2026-11-04/zh/index.html",
+    "bytes": 100403,
+    "sha256": "88005381ce2ef027876d878f3b3512584340f000890277433db55a52865bd998"
+  },
+  {
     "path": "assets/acti-agentic-keyboard-2026-07-03.svg",
     "bytes": 2825,
     "sha256": "84ad9abb0a1191abde62dea383e6e1ed583fc089073d3ccaf91629044501721b"
@@ -7966,18 +8456,18 @@
   },
   {
     "path": "en/index.html",
-    "bytes": 174801,
-    "sha256": "75cc4a03425f508449755bc9114cc8006feedbea2b7d89585ccd0a59b5b27ec5"
+    "bytes": 176092,
+    "sha256": "5796d558971e7110485ff5877a3a6faa11b1f2e84f953f3976c6e15ffb864775"
   },
   {
     "path": "index.html",
-    "bytes": 168679,
-    "sha256": "07ff89137c1ad19b05ee1fc0c357589eb5f9a8c87fb4a26074652f78cb7cb5ee"
+    "bytes": 169958,
+    "sha256": "d83623230c4d0fce6b481295e15c218dfb122f426ed9b65b3f070ed0fa07fc90"
   },
   {
     "path": "manifest.json",
-    "bytes": 746494,
-    "sha256": "b9ad8b81aa500049ff706e1783e51fc21e8bc4791ec5094142db1096ce3bff16"
+    "bytes": 747939,
+    "sha256": "196797350e62c5ab1ade2305f77c788d500d53f81025613352ae6f311f0a710c"
   },
   {
     "path": "weekly/2026-10-12/pilot/en/index.html",

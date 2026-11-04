@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-11-04",
+    "zhTitle": "AI Daily｜2026年11月4日 · iPad创作、手机代理与设备新动作",
+    "enTitle": "AI Daily | November 4, 2026 · iPad creation, phone agents and device interactions",
+    "zhSummary": "Affinity把草图、照片和版面放进同一文件；Peji与Qwen暴露代理操作细节；TOMO、Galaxy Ring和交互研究讨论维护、佩戴与旁人。",
+    "enSummary": "Affinity unifies drawing, photos and layout. Peji and Qwen expose agent actions. TOMO, Galaxy Ring and interaction studies examine maintenance, wearing and bystanders.",
+    "tags": [
+      "consumer AI",
+      "creative tools",
+      "physical interaction",
+      "research"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "research"
+    ],
+    "coverStory": {
+      "topicId": "affinity-ipad-unified-studios",
+      "zhTitle": "Affinity for iPad",
+      "enTitle": "Affinity for iPad",
+      "imagePath": "assets/affinity-ipad.jpg",
+      "imageSourceUrl": "https://content-management-files.canva.com/ff17adf1-828d-4b50-aa88-d09baed419e4/18.png",
+      "primarySourceUrl": "https://www.canva.com/newsroom/news/affinity-for-ipad/",
+      "evidenceStrength": "Original source bodies read; editorial implications identified as judgments; no hands-on test"
+    },
+    "zhPath": "./2026-11-04/zh/",
+    "enPath": "./2026-11-04/en/",
+    "sourcesPath": "./2026-11-04/sources.html"
+  },
+  {
     "date": "2026-11-03",
     "zhTitle": "AI Daily｜2026年11月3日 · 合影、动效与腕上记录",
     "enTitle": "AI Daily | November 3, 2026 · Portraits, motion and wrist notes",

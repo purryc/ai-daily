@@ -1,0 +1,943 @@
+[
+  {
+    "url": "https://www.canva.com/newsroom/news/affinity-for-ipad/",
+    "title": "Affinity for iPad: sketch, vector, photo and layout in one app",
+    "publisher": "Canva",
+    "publishedAt": "2026-11-03",
+    "observedAt": "2026-11-04T09:18:15.565387Z",
+    "number": 1
+  },
+  {
+    "url": "https://www.affinity.studio/ipad-app",
+    "title": "Affinity for iPad",
+    "publisher": "Affinity",
+    "observedAt": "2026-11-04T09:18:15.565387Z",
+    "number": 2
+  },
+  {
+    "url": "https://www.macrumors.com/2026/11/02/canva-free-affinity-app-ipad/",
+    "title": "Canva Brings Free All-in-One Affinity App to iPad",
+    "publisher": "MacRumors",
+    "publishedAt": "2026-11-02T06:00:00-08:00",
+    "observedAt": "2026-11-04T09:18:15.565387Z",
+    "number": 3
+  },
+  {
+    "url": "https://www.affinity.studio/canva-integrations",
+    "title": "Canva Integrations",
+    "publisher": "Affinity",
+    "observedAt": "2026-11-04T09:18:15.565387Z",
+    "number": 4
+  },
+  {
+    "url": "https://www.reddit.com/r/peji/comments/1xmyszj/peji_14_is_out_a_sign_in_screen_and_more_tabs/",
+    "title": "Peji1.4 is out: a sign in screen, and more tabs stay open",
+    "publisher": "u/tapeo / r/peji",
+    "publishedAt": "16h ago at observation",
+    "observedAt": "2026-11-04T09:11:00Z",
+    "number": 5
+  },
+  {
+    "url": "https://www.reddit.com/r/IMadeThis/comments/1xmp0xl/i_built_an_ai_chat_that_can_actually_use_the/",
+    "title": "I built an AI chat that can actually use the browser on your iPhone",
+    "publisher": "u/tapeo / r/IMadeThis",
+    "publishedAt": "23h ago at observation",
+    "observedAt": "2026-11-04T09:11:00Z",
+    "number": 6
+  },
+  {
+    "url": "https://apps.apple.com/us/app/peji/id6825426370",
+    "title": "Peji App Store listing and version history",
+    "publisher": "Matteo Ricupero via Apple",
+    "publishedAt": "1.4.1 8h ago;1.4.0 1d ago",
+    "observedAt": "2026-11-04T09:11:00Z",
+    "number": 7
+  },
+  {
+    "url": "https://www.producthunt.com/products/peji",
+    "title": "Peji Product Hunt maker introduction",
+    "publisher": "Matteo Ricupero / Product Hunt",
+    "publishedAt": "Maker comment2d ago",
+    "observedAt": "2026-11-04T09:11:00Z",
+    "number": 8
+  },
+  {
+    "url": "https://developer.apple.com/cn/news/?id=6gpufove",
+    "title": "使用最新 Beta 版本，做好充足准备",
+    "publisher": "Apple Developer",
+    "publishedAt": "2026-11-03",
+    "observedAt": "2026-11-04T09:09:41.014279+00:00",
+    "number": 9
+  },
+  {
+    "url": "https://www.apple.com.cn/newsroom/2026/10/apple-intelligence-features-are-coming-to-users-in-china/",
+    "title": "Apple 智能即将登陆中国",
+    "publisher": "Apple",
+    "publishedAt": "2026-10-31",
+    "observedAt": "2026-11-04T09:09:41.014279+00:00",
+    "number": 10
+  },
+  {
+    "url": "https://www.ithome.com/1/021/867.htm",
+    "title": "国行 Apple 智能首批上线核心功能汇总",
+    "publisher": "IT之家",
+    "publishedAt": "2026-11-04T04:31:34+08:00",
+    "observedAt": "2026-11-04T09:09:41.014279+00:00",
+    "number": 11
+  },
+  {
+    "url": "https://www.ithome.com/1/021/861.htm",
+    "title": "国行Apple智能与Siri如约而至",
+    "publisher": "IT之家",
+    "publishedAt": "2026-11-04T03:08:12+08:00",
+    "observedAt": "2026-11-04T09:09:41.014279+00:00",
+    "number": 12
+  },
+  {
+    "url": "https://www.prnewswire.com/news-releases/pudu-robotics-unveils-pudu-tomo-s-series-extending-lawn-care-automation-to-blade-sharpening-302927013.html",
+    "title": "Pudu Robotics Unveils PUDU TOMO S Series: Extending Lawn Care Automation to Blade Sharpening",
+    "publisher": "Pudu Robotics / PR Newswire",
+    "publishedAt": "2026-11-03T09:30:00Z",
+    "observedAt": "2026-11-04T09:15:35.798572+00:00",
+    "number": 13
+  },
+  {
+    "url": "https://www.puduhome.com/?utm_campaign=prelaunch&utm_medium=pr&utm_source=prnewswire",
+    "title": "PUDU TOMO S Series Robot Lawn Mower",
+    "publisher": "PUDU HOME",
+    "observedAt": "2026-11-04T09:15:35.798572+00:00",
+    "number": 14
+  },
+  {
+    "url": "https://news.samsung.com/us/samsung-upgraded-sleep-apnea-feature-now-available-u-s-galaxy-ring-regulatory-approvals-korea/",
+    "title": "Upgraded Sleep Apnea Feature Now Available in the U.S. on Galaxy Ring",
+    "publisher": "Samsung Electronics America",
+    "publishedAt": "2026-11-03",
+    "observedAt": "2026-11-04T09:17:49.009475+00:00",
+    "number": 15
+  },
+  {
+    "url": "https://news.samsung.com/global/upgraded-sleep-apnea-feature-now-available-on-galaxy-ring-following-regulatory-approvals-from-us-fda-and-korea-mfds",
+    "title": "Upgraded Sleep Apnea Feature Now Available on Galaxy Ring Following Regulatory Approvals",
+    "publisher": "Samsung Global Newsroom",
+    "publishedAt": "2026-11-03",
+    "observedAt": "2026-11-04T09:17:49.009475+00:00",
+    "number": 16
+  },
+  {
+    "url": "https://www.samsung.com/us/support/answer/ANS10013576/",
+    "title": "Use the sleep apnea monitoring feature with a Galaxy Watch or Ring",
+    "publisher": "Samsung US Support",
+    "observedAt": "2026-11-04T09:17:49.009475+00:00",
+    "number": 17
+  },
+  {
+    "url": "https://news.samsung.com/za/samsung-galaxy-ring-where-fashion-meets-technology-for-a-healthier-you",
+    "title": "Samsung Galaxy Ring: Where Fashion Meets Technology for a Healthier You",
+    "publisher": "Samsung South Africa",
+    "publishedAt": "2025-04-09",
+    "observedAt": "2026-11-04T09:17:49.009475+00:00",
+    "number": 18
+  },
+  {
+    "url": "https://www.reddit.com/r/ClaudeAI/comments/1xm8etd/opus_55_built_4_games_from_oneline_prompts_all_4/",
+    "title": "Opus5.5 built4 games from one-line prompts. All4 look the same",
+    "publisher": "u/flockbaygames / r/ClaudeAI",
+    "publishedAt": "3h ago at observation",
+    "observedAt": "2026-11-04T09:12:00Z",
+    "number": 19
+  },
+  {
+    "url": "https://www.producthunt.com/products/flockbay",
+    "title": "Flockbay maker launch discussion",
+    "publisher": "Eduardo Orellana / Product Hunt",
+    "publishedAt": "Maker comment1d ago",
+    "observedAt": "2026-11-04T09:12:00Z",
+    "number": 20
+  },
+  {
+    "url": "https://flockbay.com/",
+    "title": "Free AI game maker built on Godot",
+    "publisher": "Flockbay",
+    "observedAt": "2026-11-04T09:12:00Z",
+    "number": 21
+  },
+  {
+    "url": "https://flockbay.com/security/",
+    "title": "Security: where your project lives and what leaves your machine",
+    "publisher": "Eduardo Orellana / Flockbay",
+    "publishedAt": "2026-11-01",
+    "observedAt": "2026-11-04T09:12:00Z",
+    "number": 22
+  },
+  {
+    "url": "https://flockbay.com/press/",
+    "title": "Flockbay press kit",
+    "publisher": "Flockbay",
+    "observedAt": "2026-11-04T09:12:00Z",
+    "number": 23
+  },
+  {
+    "url": "https://www.producthunt.com/products/sun-ai",
+    "title": "SUN Web & API maker announcement",
+    "publisher": "Artin Bogdanov / Product Hunt",
+    "publishedAt": "1d ago at observation",
+    "observedAt": "2026-11-04T09:15:00Z",
+    "number": 24
+  },
+  {
+    "url": "https://sunapp.ai/",
+    "title": "SUN public audio composer",
+    "publisher": "SUN",
+    "observedAt": "2026-11-04T09:15:00Z",
+    "number": 25
+  },
+  {
+    "url": "https://sunapp.ai/pdf-to-podcast",
+    "title": "PDF to Podcast",
+    "publisher": "SUN",
+    "observedAt": "2026-11-04T09:15:00Z",
+    "number": 26
+  },
+  {
+    "url": "https://sunapp.ai/faq",
+    "title": "Frequently asked questions",
+    "publisher": "SUN",
+    "observedAt": "2026-11-04T09:15:00Z",
+    "number": 27
+  },
+  {
+    "url": "https://sunapp.ai/plans",
+    "title": "Plans",
+    "publisher": "SUN",
+    "observedAt": "2026-11-04T09:15:00Z",
+    "number": 28
+  },
+  {
+    "url": "https://sunapp.ai/developers",
+    "title": "SUN developer entry",
+    "publisher": "SUN",
+    "observedAt": "2026-11-04T09:15:00Z",
+    "number": 29
+  },
+  {
+    "url": "https://github.com/despriber/Umless/releases/tag/v0.3.0",
+    "title": "Umless 0.3.0 first public release",
+    "publisher": "despriber",
+    "publishedAt": "2026-11-01",
+    "observedAt": "2026-11-04T09:12:38.882707+00:00",
+    "number": 30
+  },
+  {
+    "url": "https://github.com/despriber/Umless",
+    "title": "Umless README",
+    "publisher": "despriber",
+    "observedAt": "2026-11-04T09:12:38.882707+00:00",
+    "number": 31
+  },
+  {
+    "url": "https://github.com/despriber/Umless/blob/main/docs/usage.md",
+    "title": "使用与配置（桌面端）",
+    "publisher": "despriber",
+    "observedAt": "2026-11-04T09:12:38.882707+00:00",
+    "number": 32
+  },
+  {
+    "url": "https://github.com/despriber/Umless/blob/main/spec/metrics.md",
+    "title": "规则指标与评分规范",
+    "publisher": "despriber",
+    "observedAt": "2026-11-04T09:12:38.882707+00:00",
+    "number": 33
+  },
+  {
+    "url": "https://api.github.com/repos/despriber/Umless/releases/tags/v0.3.0",
+    "title": "Umless v0.3.0 release API",
+    "publisher": "GitHub / despriber",
+    "publishedAt": "2026-11-01T16:45:50Z",
+    "observedAt": "2026-11-04T09:16:30.563248+00:00",
+    "number": 34
+  },
+  {
+    "url": "https://www.magicalcoreapp.com/whats-new",
+    "title": "What’s new: 2.0.1",
+    "publisher": "MagicaLCore",
+    "publishedAt": "2026-10-30",
+    "observedAt": "2026-11-04T09:08:34Z",
+    "number": 35
+  },
+  {
+    "url": "https://apps.apple.com/us/app/magicalcore/id6466442942",
+    "title": "MagicaLCore App Store listing",
+    "publisher": "Developer via Apple App Store",
+    "observedAt": "2026-11-04T09:08:34Z",
+    "number": 36
+  },
+  {
+    "url": "https://www.magicalcoreapp.com/",
+    "title": "Train machine learning models on iPad",
+    "publisher": "MagicaLCore",
+    "observedAt": "2026-11-04T09:08:34Z",
+    "number": 37
+  },
+  {
+    "url": "https://www.magicalcoreapp.com/faq",
+    "title": "Questions and answers",
+    "publisher": "MagicaLCore",
+    "observedAt": "2026-11-04T09:08:34Z",
+    "number": 38
+  },
+  {
+    "url": "https://www.magicalcoreapp.com/privacy",
+    "title": "Privacy Policy",
+    "publisher": "MagicaLCore",
+    "publishedAt": "2026-10",
+    "observedAt": "2026-11-04T09:08:34Z",
+    "number": 39
+  },
+  {
+    "url": "https://www.producthunt.com/products/magical-core-image-classifier",
+    "title": "MagicaLCore Product Hunt page",
+    "publisher": "Product Hunt / maker Damy",
+    "observedAt": "2026-11-04T09:08:34Z",
+    "number": 40
+  },
+  {
+    "url": "https://apps.apple.com/us/app/calendarly-lockscreen-calendar/id6758898739",
+    "title": "Calendarly version1.5.4",
+    "publisher": "Apple App Store / Dmytro Katyukha",
+    "publishedAt": "14h ago",
+    "observedAt": "2026-11-04T09:21:44Z",
+    "number": 41
+  },
+  {
+    "url": "https://getcalendarly.com/setup",
+    "title": "Automatic wallpaper setup",
+    "publisher": "Calendarly",
+    "observedAt": "2026-11-04T09:21:44Z",
+    "number": 42
+  },
+  {
+    "url": "https://www.producthunt.com/products/calendarly-calendar-on-lock-screen",
+    "title": "Calendarly secondlaunch",
+    "publisher": "Dmytro Katyukha / Product Hunt",
+    "publishedAt": "1d ago",
+    "observedAt": "2026-11-04T09:21:44Z",
+    "number": 43
+  },
+  {
+    "url": "https://getcalendarly.com/",
+    "title": "Product homepage",
+    "publisher": "Calendarly",
+    "observedAt": "2026-11-04T09:21:44Z",
+    "number": 44
+  },
+  {
+    "url": "https://github.com/MuhammadaliMS/brink-releases/releases/tag/v1.0.0",
+    "title": "Brink1.0.0 release",
+    "publisher": "Ali MS / GitHub",
+    "publishedAt": "2026-11-02 18:17",
+    "observedAt": "2026-11-04T09:21:44Z",
+    "number": 45
+  },
+  {
+    "url": "https://www.producthunt.com/products/brink-2",
+    "title": "Brink maker announcement",
+    "publisher": "Ali MS / Product Hunt",
+    "publishedAt": "1d ago",
+    "observedAt": "2026-11-04T09:21:44Z",
+    "number": 46
+  },
+  {
+    "url": "https://dev.to/ali_ms_a400956ccbe447a39e/i-built-a-mac-app-in-rust-that-turns-the-edges-of-the-trackpad-into-controls-18bh",
+    "title": "How Brink recognizes trackpad edges",
+    "publisher": "Ali MS / DEV Community",
+    "publishedAt": "2026-11-03",
+    "observedAt": "2026-11-04T09:21:44Z",
+    "number": 47
+  },
+  {
+    "url": "https://bostondynamics.com/news/boston-dynamics-launches-next-generation-stretch-robot",
+    "title": "Boston Dynamics Launches Next Generation Stretch Robot",
+    "publisher": "Boston Dynamics",
+    "publishedAt": "2026-11-03T16:55:00Z",
+    "observedAt": "2026-11-04T09:27:15.678522+00:00",
+    "number": 48
+  },
+  {
+    "url": "https://bostondynamics.com/solutions/warehouse-automation/trailer-unloading/",
+    "title": "Automated Trailer Unloading",
+    "publisher": "Boston Dynamics",
+    "observedAt": "2026-11-04T09:27:15.678522+00:00",
+    "number": 49
+  },
+  {
+    "url": "https://bostondynamics.com/products/stretch/",
+    "title": "Stretch - Mobile Warehouse Robots",
+    "publisher": "Boston Dynamics",
+    "observedAt": "2026-11-04T09:27:15.678522+00:00",
+    "number": 50
+  },
+  {
+    "url": "https://bostondynamics.com/customer-success/stretch-care",
+    "title": "Stretch Care",
+    "publisher": "Boston Dynamics",
+    "observedAt": "2026-11-04T09:27:15.678522+00:00",
+    "number": 51
+  },
+  {
+    "url": "https://www.prnewswire.com/news-releases/maximo-robotics-surpasses-300-000-construction-tasks-with-physical-ai-in-utility-scale-solar-302922781.html",
+    "title": "Maximo Robotics Surpasses 300,000 Construction Tasks with Physical-AI in Utility-Scale Solar",
+    "publisher": "Maximo Robotics / PR Newswire",
+    "publishedAt": "2026-10-29T12:00:00Z",
+    "observedAt": "2026-11-04T09:15:35.798572+00:00",
+    "number": 52
+  },
+  {
+    "url": "https://maxrobotics.ai/",
+    "title": "Construction robotics and physical AI platform",
+    "publisher": "Maximo Robotics",
+    "observedAt": "2026-11-04T09:15:35.798572+00:00",
+    "number": 53
+  },
+  {
+    "url": "https://www.prnewswire.com/news-releases/maximo-completes-100-mw-of-robotic-solar-installation-302723835.html",
+    "title": "Maximo Completes 100 MW of Robotic Solar Installation",
+    "publisher": "Maximo / PR Newswire",
+    "publishedAt": "2026-03-25T11:00:00Z",
+    "observedAt": "2026-11-04T09:15:35.798572+00:00",
+    "number": 54
+  },
+  {
+    "url": "https://www.aboutamazon.com/news/sustainability/ai-powered-robot-amazon-solar-farms",
+    "title": "Meet the AI-powered robot helping build Amazon-backed solar farms",
+    "publisher": "Amazon",
+    "observedAt": "2026-11-04T09:15:35.798572+00:00",
+    "number": 55
+  },
+  {
+    "url": "https://chromeunboxed.com/my-brutally-honest-thoughts-on-googlebook-after-one-month-video/",
+    "title": "My brutally honest thoughts on Googlebook after one month",
+    "publisher": "Chrome Unboxed / Robby Payne",
+    "publishedAt": "2026-11-02",
+    "observedAt": "2026-11-04T09:15:35.798572+00:00",
+    "number": 56
+  },
+  {
+    "url": "https://chromeunboxed.com/if-your-dell-xps-googlebook-volume-is-fluctuating-on-its-own-you-arent-crazy/",
+    "title": "If your Dell XPS Googlebook volume is fluctuating on its own, you aren’t crazy",
+    "publisher": "Chrome Unboxed / Robby Payne",
+    "publishedAt": "2026-11-03",
+    "observedAt": "2026-11-04T09:15:35.798572+00:00",
+    "number": 57
+  },
+  {
+    "url": "https://www.dell.com/support/kbdoc/en-us/000526370/xps-googlebook-dx13267-laptop-volume-intermittently-goes-up-or-down",
+    "title": "XPS Googlebook DX13267 Laptop Volume Intermittently Goes Up or Down",
+    "publisher": "Dell",
+    "publishedAt": "2026-10-28",
+    "observedAt": "2026-11-04T09:15:35.798572+00:00",
+    "number": 58
+  },
+  {
+    "url": "https://blog.google/products-and-platforms/devices/googlebook/pre-order-googlebook/",
+    "title": "Googlebook: The laptop your Android phone has been waiting for",
+    "publisher": "Google",
+    "publishedAt": "2026-09-21",
+    "observedAt": "2026-11-04T09:15:35.798572+00:00",
+    "number": 59
+  },
+  {
+    "url": "https://blog.google/products-and-platforms/devices/googlebook/googlebook-built-in-intelligence/",
+    "title": "Googlebook and on-device Gemini introduce a new way to work",
+    "publisher": "Google",
+    "publishedAt": "2026-09-21",
+    "observedAt": "2026-11-04T09:15:35.798572+00:00",
+    "number": 60
+  },
+  {
+    "url": "https://developers.notion.com/page/changelog",
+    "title": "Changelog",
+    "publisher": "Notion",
+    "publishedAt": "2026-11-03",
+    "observedAt": "2026-11-04T09:18:15.565387Z",
+    "number": 61
+  },
+  {
+    "url": "https://developers.notion.com/guides/mcp/tools-comments-reference",
+    "title": "Comments and change history tools in Notion MCP",
+    "publisher": "Notion",
+    "observedAt": "2026-11-04T09:18:15.565387Z",
+    "number": 62
+  },
+  {
+    "url": "https://developers.notion.com/guides/mcp/tools-comments",
+    "title": "Work together in Notion",
+    "publisher": "Notion",
+    "observedAt": "2026-11-04T09:18:15.565387Z",
+    "number": 63
+  },
+  {
+    "url": "https://www.notion.com/help/duplicate-delete-and-restore-content",
+    "title": "Delete & restore content",
+    "publisher": "Notion",
+    "observedAt": "2026-11-04T09:18:15.565387Z",
+    "number": 64
+  },
+  {
+    "url": "https://developers.notion.com/guides/mcp/overview",
+    "title": "Notion MCP overview",
+    "publisher": "Notion",
+    "observedAt": "2026-11-04T09:18:15.565387Z",
+    "number": 65
+  },
+  {
+    "url": "https://developers.notion.com/guides/notion-agent-apis/overview",
+    "title": "Notion Agent APIs overview",
+    "publisher": "Notion",
+    "observedAt": "2026-11-04T09:21:10Z",
+    "number": 66
+  },
+  {
+    "url": "https://developers.notion.com/guides/notion-agent-apis/quickstart",
+    "title": "Quickstart",
+    "publisher": "Notion",
+    "observedAt": "2026-11-04T09:21:10Z",
+    "number": 67
+  },
+  {
+    "url": "https://developers.notion.com/guides/notion-agent-apis/upgrading-to-public-beta",
+    "title": "Upgrading from the alpha routes",
+    "publisher": "Notion",
+    "observedAt": "2026-11-04T09:21:10Z",
+    "number": 68
+  },
+  {
+    "url": "https://developers.notion.com/reference/notion-agent-apis/update-session",
+    "title": "Create or update a session",
+    "publisher": "Notion",
+    "observedAt": "2026-11-04T09:21:10Z",
+    "number": 69
+  },
+  {
+    "url": "https://developers.notion.com/reference/notion-agent-apis/retrieve-agent-insights",
+    "title": "Retrieve agent insights",
+    "publisher": "Notion",
+    "observedAt": "2026-11-04T09:21:10Z",
+    "number": 70
+  },
+  {
+    "url": "https://developers.notion.com/reference/notion-agent-apis/update-agent",
+    "title": "Update an agent",
+    "publisher": "Notion",
+    "observedAt": "2026-11-04T09:21:10Z",
+    "number": 71
+  },
+  {
+    "url": "https://www.honeycomb.io/blog/honeycomb-introduces-ai-sre-agents",
+    "title": "Honeycomb Introduces AI SRE Agents That Go Beyond Incident Chasing",
+    "publisher": "Honeycomb",
+    "publishedAt": "2026-11-03",
+    "observedAt": "2026-11-04T09:08:11Z",
+    "number": 72
+  },
+  {
+    "url": "https://www.honeycomb.io/platform/team-agents",
+    "title": "Team Agents from Honeycomb",
+    "publisher": "Honeycomb",
+    "observedAt": "2026-11-04T09:08:11Z",
+    "number": 73
+  },
+  {
+    "url": "https://www.honeycomb.io/blog/honeycomb-team-agents-ai-sre-done-right",
+    "title": "Honeycomb Team Agents: AI SRE Done Right",
+    "publisher": "Honeycomb",
+    "observedAt": "2026-11-04T09:08:11Z",
+    "number": 74
+  },
+  {
+    "url": "https://docs.honeycomb.io/investigate/canvas/connectors",
+    "title": "Canvas Connectors",
+    "publisher": "Honeycomb",
+    "observedAt": "2026-11-04T09:08:11Z",
+    "number": 75
+  },
+  {
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.7",
+    "title": "Qwen Code v0.26.7 release",
+    "publisher": "Qwen Code maintainers",
+    "publishedAt": "2026-11-04T04:03:01Z",
+    "observedAt": "2026-11-04T09:17:32Z",
+    "number": 76
+  },
+  {
+    "url": "https://github.com/QwenLM/qwen-code/pull/16106",
+    "title": "Channel event timeline — merged PR #16106",
+    "publisher": "Qwen Code maintainers",
+    "observedAt": "2026-11-04T09:17:32Z",
+    "number": 77
+  },
+  {
+    "url": "https://raw.githubusercontent.com/QwenLM/qwen-code/v0.26.7/docs/design/2026-11-02-channel-events-timeline.md",
+    "title": "Channel event timeline design",
+    "publisher": "Qwen Code maintainers",
+    "observedAt": "2026-11-04T09:17:32Z",
+    "number": 78
+  },
+  {
+    "url": "https://github.com/QwenLM/qwen-code/pull/16149",
+    "title": "GitHub repository settings in the channel editor — PR #16149",
+    "publisher": "Qwen Code maintainers",
+    "observedAt": "2026-11-04T09:17:32Z",
+    "number": 79
+  },
+  {
+    "url": "https://github.com/QwenLM/qwen-code/pull/16182",
+    "title": "Explicit trust for project frontmatter and LSP — PR #16182",
+    "publisher": "Qwen Code maintainers",
+    "observedAt": "2026-11-04T09:17:32Z",
+    "number": 80
+  },
+  {
+    "url": "https://api.github.com/repos/QwenLM/qwen-code/releases/tags/v0.26.7",
+    "title": "Qwen Code v0.26.7 release API metadata",
+    "publisher": "Qwen Code maintainers",
+    "publishedAt": "2026-11-04T04:03:01Z",
+    "observedAt": "2026-11-04T09:17:32Z",
+    "number": 81
+  },
+  {
+    "url": "https://github.com/nightly-labs/openbot/releases/tag/v0.60.0",
+    "title": "OpenBot v0.60.0 release",
+    "publisher": "OpenBot maintainers",
+    "publishedAt": "2026-11-03T19:19:20Z",
+    "observedAt": "2026-11-04T09:17:32Z",
+    "number": 82
+  },
+  {
+    "url": "https://openbot.run/changelog",
+    "title": "OpenBot changelog",
+    "publisher": "OpenBot maintainers",
+    "observedAt": "2026-11-04T09:17:32Z",
+    "number": 83
+  },
+  {
+    "url": "https://github.com/nightly-labs/openbot/pull/4747",
+    "title": "Slack workflow triggers and outputs — PR #4747",
+    "publisher": "OpenBot maintainers",
+    "observedAt": "2026-11-04T09:17:32Z",
+    "number": 84
+  },
+  {
+    "url": "https://github.com/nightly-labs/openbot/pull/4743",
+    "title": "Telegram workflow triggers and outputs — PR #4743",
+    "publisher": "OpenBot maintainers",
+    "observedAt": "2026-11-04T09:17:32Z",
+    "number": 85
+  },
+  {
+    "url": "https://api.github.com/repos/nightly-labs/openbot/releases/tags/v0.60.0",
+    "title": "OpenBot v0.60.0 release API metadata",
+    "publisher": "OpenBot maintainers",
+    "publishedAt": "2026-11-03T19:19:20Z",
+    "observedAt": "2026-11-04T09:17:32Z",
+    "number": 86
+  },
+  {
+    "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.35.0",
+    "title": "OpenHands v1.35.0 release",
+    "publisher": "OpenHands maintainers",
+    "publishedAt": "2026-11-03T18:47:18Z",
+    "observedAt": "2026-11-04T09:17:32Z",
+    "number": 87
+  },
+  {
+    "url": "https://github.com/OpenHands/OpenHands/pull/19155",
+    "title": "Immediate conversation startup progress — PR #19155",
+    "publisher": "OpenHands maintainers",
+    "observedAt": "2026-11-04T09:17:32Z",
+    "number": 88
+  },
+  {
+    "url": "https://github.com/OpenHands/OpenHands/pull/19130",
+    "title": "Live agent status in chat — PR #19130",
+    "publisher": "OpenHands maintainers",
+    "observedAt": "2026-11-04T09:17:32Z",
+    "number": 89
+  },
+  {
+    "url": "https://github.com/OpenHands/OpenHands/pull/19053",
+    "title": "Remember and clear cloud repository selection — PR #19053",
+    "publisher": "OpenHands maintainers",
+    "observedAt": "2026-11-04T09:17:32Z",
+    "number": 90
+  },
+  {
+    "url": "https://github.com/OpenHands/OpenHands/pull/18697",
+    "title": "Server-side pin and archive tags — PR #18697",
+    "publisher": "OpenHands maintainers",
+    "observedAt": "2026-11-04T09:17:32Z",
+    "number": 91
+  },
+  {
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/releases/tags/v1.35.0",
+    "title": "OpenHands v1.35.0 release API metadata",
+    "publisher": "OpenHands maintainers",
+    "publishedAt": "2026-11-03T18:47:18Z",
+    "observedAt": "2026-11-04T09:17:32Z",
+    "number": 92
+  },
+  {
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "title": "Claude Platform release notes",
+    "publisher": "Anthropic",
+    "publishedAt": "2026-11-02",
+    "observedAt": "2026-11-04T09:08:11Z",
+    "number": 93
+  },
+  {
+    "url": "https://platform.claude.com/docs/en/build-with-claude/message-threads",
+    "title": "Message threads",
+    "publisher": "Anthropic",
+    "observedAt": "2026-11-04T09:08:11Z",
+    "number": 94
+  },
+  {
+    "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching",
+    "title": "Prompt caching",
+    "publisher": "Anthropic",
+    "observedAt": "2026-11-04T09:08:11Z",
+    "number": 95
+  },
+  {
+    "url": "https://platform.claude.com/docs/en/build-with-claude/working-with-messages",
+    "title": "Using the Messages API",
+    "publisher": "Anthropic",
+    "observedAt": "2026-11-04T09:08:11Z",
+    "number": 96
+  },
+  {
+    "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.24.0-alpha.6",
+    "title": "Agents SDK v0.24.0-alpha.6 release",
+    "publisher": "OpenAI",
+    "publishedAt": "2026-11-03T16:44:27Z",
+    "observedAt": "2026-11-04T09:08:11Z",
+    "number": 97
+  },
+  {
+    "url": "https://raw.githubusercontent.com/openai/openai-agents-python/v0.24.0-alpha.6/README.md",
+    "title": "OpenAI Agents SDK README at v0.24.0-alpha.6",
+    "publisher": "OpenAI",
+    "observedAt": "2026-11-04T09:08:11Z",
+    "number": 98
+  },
+  {
+    "url": "https://raw.githubusercontent.com/openai/openai-agents-python/v0.24.0-alpha.6/docs/sdk/sessions.md",
+    "title": "Conversations, events and state",
+    "publisher": "OpenAI",
+    "observedAt": "2026-11-04T09:08:11Z",
+    "number": 99
+  },
+  {
+    "url": "https://raw.githubusercontent.com/openai/openai-agents-python/v0.24.0-alpha.6/docs/sdk/tools.md",
+    "title": "Tools — Agents SDK preview",
+    "publisher": "OpenAI",
+    "observedAt": "2026-11-04T09:08:11Z",
+    "number": 100
+  },
+  {
+    "url": "https://api.github.com/repos/openai/openai-agents-python/releases/tags/v0.24.0-alpha.6",
+    "title": "OpenAI Agents SDK alpha.6 release API metadata",
+    "publisher": "OpenAI",
+    "publishedAt": "2026-11-03T16:44:27Z",
+    "observedAt": "2026-11-04T09:08:11Z",
+    "number": 101
+  },
+  {
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.40.14",
+    "title": "Ollama v0.40.14 release",
+    "publisher": "Ollama",
+    "publishedAt": "2026-11-03T01:40:40Z",
+    "observedAt": "2026-11-04T09:08:11Z",
+    "number": 102
+  },
+  {
+    "url": "https://docs.ollama.com/integrations/claude-code",
+    "title": "Claude Code integration",
+    "publisher": "Ollama",
+    "observedAt": "2026-11-04T09:08:11Z",
+    "number": 103
+  },
+  {
+    "url": "https://docs.ollama.com/integrations/codex",
+    "title": "Codex CLI integration",
+    "publisher": "Ollama",
+    "observedAt": "2026-11-04T09:08:11Z",
+    "number": 104
+  },
+  {
+    "url": "https://docs.ollama.com/api/openai-compatibility",
+    "title": "OpenAI compatibility",
+    "publisher": "Ollama",
+    "observedAt": "2026-11-04T09:08:11Z",
+    "number": 105
+  },
+  {
+    "url": "https://api.github.com/repos/ollama/ollama/releases/tags/v0.40.14",
+    "title": "Ollama 0.40.14 release API metadata",
+    "publisher": "Ollama",
+    "publishedAt": "2026-11-03T01:40:40Z",
+    "observedAt": "2026-11-04T09:08:11Z",
+    "number": 106
+  },
+  {
+    "url": "https://cloud.tencent.com/document/product/1823/132252",
+    "title": "混元调用指南",
+    "publisher": "Tencent Cloud",
+    "publishedAt": "2026-11-04",
+    "observedAt": "2026-11-04T09:14:32.025224+00:00",
+    "number": 107
+  },
+  {
+    "url": "https://cloud.tencent.com/document/product/1823/136956",
+    "title": "图片理解",
+    "publisher": "Tencent Cloud",
+    "publishedAt": "2026-11-04",
+    "observedAt": "2026-11-04T09:14:32.025224+00:00",
+    "number": 108
+  },
+  {
+    "url": "https://cloud.tencent.com/document/product/1823/130930",
+    "title": "交错式思考模式",
+    "publisher": "Tencent Cloud",
+    "publishedAt": "2026-11-04",
+    "observedAt": "2026-11-04T09:14:32.025224+00:00",
+    "number": 109
+  },
+  {
+    "url": "https://cloud.tencent.com/document/product/1823/130078",
+    "title": "API使用说明",
+    "publisher": "Tencent Cloud",
+    "publishedAt": "2026-11-04",
+    "observedAt": "2026-11-04T09:14:32.025224+00:00",
+    "number": 110
+  },
+  {
+    "url": "https://cloud.tencent.com/document/product/1823/130055",
+    "title": "模型价格",
+    "publisher": "Tencent Cloud",
+    "publishedAt": "2026-11-04",
+    "observedAt": "2026-11-04T09:14:32.025224+00:00",
+    "number": 111
+  },
+  {
+    "url": "https://www.ithome.com/1/022/035.htm",
+    "title": "腾讯混元Hy4正式版发布",
+    "publisher": "IT之家",
+    "publishedAt": "2026-11-04T12:59:42+08:00",
+    "observedAt": "2026-11-04T09:14:32.025224+00:00",
+    "number": 112
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.04284",
+    "title": "OmniScribble — submission history",
+    "publisher": "arXiv",
+    "publishedAt": "2026-11-03T04:13:11Z",
+    "observedAt": "2026-11-04T09:20:08Z",
+    "number": 113
+  },
+  {
+    "url": "https://arxiv.org/html/2611.04284v1",
+    "title": "OmniScribble — original paper",
+    "publisher": "OmniScribble authors",
+    "publishedAt": "2026-11-03",
+    "observedAt": "2026-11-04T09:20:08Z",
+    "number": 114
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.04466",
+    "title": "VibeTrace — submission history",
+    "publisher": "arXiv",
+    "publishedAt": "2026-11-03T07:56:06Z",
+    "observedAt": "2026-11-04T09:20:08Z",
+    "number": 115
+  },
+  {
+    "url": "https://arxiv.org/html/2611.04466v1",
+    "title": "VibeTrace — original paper",
+    "publisher": "VibeTrace authors",
+    "publishedAt": "2026-11-03",
+    "observedAt": "2026-11-04T09:20:08Z",
+    "number": 116
+  },
+  {
+    "url": "https://github.com/idvxlab/VibeTrace",
+    "title": "VibeTrace source and installation",
+    "publisher": "idvxlab",
+    "observedAt": "2026-11-04T09:20:08Z",
+    "number": 117
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.04183",
+    "title": "Agentic Path Maps — submission history",
+    "publisher": "arXiv",
+    "publishedAt": "2026-11-03T02:20:22Z",
+    "observedAt": "2026-11-04T09:20:08Z",
+    "number": 118
+  },
+  {
+    "url": "https://arxiv.org/html/2611.04183v1",
+    "title": "Agentic Path Maps — original paper",
+    "publisher": "Agentic Path Maps authors",
+    "publishedAt": "2026-11-03",
+    "observedAt": "2026-11-04T09:20:08Z",
+    "number": 119
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.05001",
+    "title": "Bystander-aware robot tutor — submission history",
+    "publisher": "arXiv",
+    "publishedAt": "2026-11-03T14:51:43Z",
+    "observedAt": "2026-11-04T09:20:08Z",
+    "number": 120
+  },
+  {
+    "url": "https://arxiv.org/html/2611.05001v1",
+    "title": "For You, Not for Everyone — original paper",
+    "publisher": "Nilgar, Dietrich and Van Laerhoven",
+    "publishedAt": "2026-11-03",
+    "observedAt": "2026-11-04T09:20:08Z",
+    "number": 121
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.04692",
+    "title": "Just Between Us? — submission history",
+    "publisher": "arXiv",
+    "publishedAt": "2026-11-03T11:17:45Z",
+    "observedAt": "2026-11-04T09:20:08Z",
+    "number": 122
+  },
+  {
+    "url": "https://arxiv.org/html/2611.04692v1",
+    "title": "Just Between Us? — full paper",
+    "publisher": "Just Between Us? authors",
+    "publishedAt": "2026-11-03",
+    "observedAt": "2026-11-04T09:20:08Z",
+    "number": 123
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.04296",
+    "title": "SEAM — submission history",
+    "publisher": "arXiv",
+    "publishedAt": "2026-11-03T04:24:20Z",
+    "observedAt": "2026-11-04T09:20:08Z",
+    "number": 124
+  },
+  {
+    "url": "https://arxiv.org/html/2611.04296v1",
+    "title": "SEAM — original paper",
+    "publisher": "SEAM authors",
+    "publishedAt": "2026-11-03",
+    "observedAt": "2026-11-04T09:20:08Z",
+    "number": 125
+  }
+]
