@@ -2,57 +2,42 @@
   {
     "kind": "image",
     "locale": "zh",
-    "name": "holdtalk-settings.jpg",
-    "url": "https://ph-files.imgix.net/5d1e1583-74ee-401a-be44-bc8f6b9ee8fb.png",
+    "name": "seam-data-figure.jpg",
+    "url": "https://arxiv.org/html/2611.04296v1/figures/post-modes.png",
     "renderImage": true
   },
   {
     "kind": "image",
     "locale": "en",
-    "name": "holdtalk-controls.jpg",
-    "url": "https://ph-files.imgix.net/fd111ea3-2dbb-492b-9c74-d331127fc5f7.png",
+    "name": "robot-tutor-study.jpg",
+    "url": "https://arxiv.org/html/2611.05001v1/figures/real_scene_adaptive_new.png",
     "renderImage": true
   },
   {
     "kind": "image",
     "locale": "zh",
-    "name": "samsung-ring-apnea.jpg",
-    "url": "https://img.global.news.samsung.com/global/wp-content/uploads/2026/11/02162459/Samsung-Mobile-Sleep-Apnea-Feature-Galaxy-Ring_Main1.gif",
+    "name": "samsung-ring-fit.jpg",
+    "url": "https://image-us.samsung.com/SamsungUS/support/solutions/mobile/wearables/MOB_WRBLS_How-to-wear-your-watch-or-ring-during-sleep_How-to-wear-your-ring-during-sleep.jpg",
     "renderImage": true
   },
   {
     "kind": "image",
     "locale": "en",
-    "name": "pudu-mowing-planner.jpg",
-    "url": "https://www.puduhome.com/cdn/shop/files/pudu-tomo-s-ai-mowing-planner-v2.png?v=1793695131&width=3000",
+    "name": "brink-interface.jpg",
+    "url": "https://ph-files.imgix.net/09877e2a-b364-4f8a-8639-bfbbfb7eb9c7.png",
     "renderImage": true
   },
   {
     "kind": "image",
     "locale": "zh",
-    "name": "qwen-channel-timeline.jpg",
-    "url": "https://raw.githubusercontent.com/wenshao/qwen-code/assets/channel-events/channel-events/real-01-en-timeline.png",
+    "name": "calendarly-lockscreen.jpg",
+    "url": "https://getcalendarly.com/wallpapers/calendarly-lock-screen-flare.webp",
     "renderImage": true
   },
   {
-    "kind": "image",
+    "kind": "inventory",
     "locale": "en",
-    "name": "openbot-slack.jpg",
-    "url": "https://github.com/user-attachments/assets/4b48a306-f1bd-4685-8511-202ecfc4763a",
-    "renderImage": true
-  },
-  {
-    "kind": "image",
-    "locale": "zh",
-    "name": "openhands-test-ui.jpg",
-    "url": "https://github.com/user-attachments/assets/d4edeae3-607c-4050-bcf0-19e48127b678",
-    "renderImage": true
-  },
-  {
-    "kind": "image",
-    "locale": "en",
-    "name": "umless-history.jpg",
-    "url": "https://raw.githubusercontent.com/despriber/Umless/main/docs/assets/readme/history.png",
-    "renderImage": true
+    "name": "stretch-gen2-inventory.json",
+    "url": "https://bostondynamics.com/news/boston-dynamics-launches-next-generation-stretch-robot"
   }
 ]
