@@ -1,0 +1,705 @@
+{
+  "date": "2026-11-04",
+  "timezone": "America/Toronto",
+  "cutoff": "2026-11-04T09:04:17Z",
+  "windowStart": "2026-11-03T09:04:17Z",
+  "metrics": {
+    "body": {
+      "zhDenseChars": 21355,
+      "enWords": 12678
+    },
+    "perProduct": {
+      "affinity-ipad-unified-studios": {
+        "zh": 676,
+        "en": 425
+      },
+      "peji-14-tabs-consent": {
+        "zh": 714,
+        "en": 448
+      },
+      "apple-intelligence-china-beta-available": {
+        "zh": 719,
+        "en": 428
+      },
+      "pudu-tomo-self-sharpening": {
+        "zh": 758,
+        "en": 426
+      },
+      "galaxy-ring-apnea-screening": {
+        "zh": 735,
+        "en": 445
+      },
+      "flockbay-maker-visual-defaults": {
+        "zh": 702,
+        "en": 446
+      },
+      "sun-web-api-audio": {
+        "zh": 692,
+        "en": 455
+      },
+      "umless-expression-coach": {
+        "zh": 710,
+        "en": 429
+      },
+      "magicalcore-201-validation": {
+        "zh": 656,
+        "en": 427
+      },
+      "calendarly-154-tasks-events": {
+        "zh": 713,
+        "en": 426
+      },
+      "brink-trackpad-edge-controls": {
+        "zh": 682,
+        "en": 410
+      },
+      "stretch-gen2-serviceability": {
+        "zh": 801,
+        "en": 432
+      },
+      "maximo-4-task-service": {
+        "zh": 763,
+        "en": 433
+      },
+      "googlebook-phone-continuity-friction": {
+        "zh": 726,
+        "en": 432
+      },
+      "notion-mcp-restore-version": {
+        "zh": 721,
+        "en": 413
+      },
+      "notion-agent-api-ga-personal": {
+        "zh": 752,
+        "en": 419
+      },
+      "honeycomb-team-agents-early-access": {
+        "zh": 683,
+        "en": 414
+      },
+      "qwen-0267-channel-events": {
+        "zh": 696,
+        "en": 405
+      },
+      "openbot-060-slack-telegram-workflows": {
+        "zh": 667,
+        "en": 405
+      },
+      "openhands-135-startup-status": {
+        "zh": 677,
+        "en": 415
+      },
+      "claude-message-threads-beta": {
+        "zh": 668,
+        "en": 415
+      },
+      "openai-agents-alpha6-turn-control": {
+        "zh": 679,
+        "en": 423
+      },
+      "ollama-04014-routing-sampler": {
+        "zh": 647,
+        "en": 407
+      },
+      "tencent-hy4-visual-tools": {
+        "zh": 767,
+        "en": 424
+      },
+      "omniscribble": {
+        "zh": 707,
+        "en": 417
+      },
+      "vibetrace": {
+        "zh": 708,
+        "en": 422
+      },
+      "agentic-path-maps": {
+        "zh": 743,
+        "en": 414
+      },
+      "bystander-aware-robot-tutor": {
+        "zh": 737,
+        "en": 411
+      },
+      "discreet-earable-channel": {
+        "zh": 714,
+        "en": 408
+      },
+      "seam-community-memory": {
+        "zh": 742,
+        "en": 404
+      }
+    },
+    "primarySummaries": {
+      "affinity-ipad-unified-studios": {
+        "zh": 204,
+        "en": 123
+      },
+      "peji-14-tabs-consent": {
+        "zh": 211,
+        "en": 115
+      },
+      "apple-intelligence-china-beta-available": {
+        "zh": 202,
+        "en": 120
+      },
+      "pudu-tomo-self-sharpening": {
+        "zh": 213,
+        "en": 115
+      },
+      "galaxy-ring-apnea-screening": {
+        "zh": 205,
+        "en": 115
+      },
+      "flockbay-maker-visual-defaults": {
+        "zh": 207,
+        "en": 128
+      },
+      "sun-web-api-audio": {
+        "zh": 207,
+        "en": 123
+      },
+      "umless-expression-coach": {
+        "zh": 200,
+        "en": 117
+      },
+      "magicalcore-201-validation": {
+        "zh": 206,
+        "en": 111
+      },
+      "calendarly-154-tasks-events": {
+        "zh": 201,
+        "en": 115
+      },
+      "brink-trackpad-edge-controls": {
+        "zh": 202,
+        "en": 112
+      },
+      "stretch-gen2-serviceability": {
+        "zh": 200,
+        "en": 113
+      },
+      "maximo-4-task-service": {
+        "zh": 205,
+        "en": 114
+      },
+      "googlebook-phone-continuity-friction": {
+        "zh": 215,
+        "en": 112
+      },
+      "notion-mcp-restore-version": {
+        "zh": 208,
+        "en": 113
+      },
+      "notion-agent-api-ga-personal": {
+        "zh": 209,
+        "en": 119
+      },
+      "honeycomb-team-agents-early-access": {
+        "zh": 215,
+        "en": 117
+      },
+      "qwen-0267-channel-events": {
+        "zh": 202,
+        "en": 110
+      },
+      "openbot-060-slack-telegram-workflows": {
+        "zh": 211,
+        "en": 117
+      },
+      "openhands-135-startup-status": {
+        "zh": 212,
+        "en": 113
+      },
+      "claude-message-threads-beta": {
+        "zh": 214,
+        "en": 115
+      },
+      "openai-agents-alpha6-turn-control": {
+        "zh": 212,
+        "en": 113
+      },
+      "ollama-04014-routing-sampler": {
+        "zh": 202,
+        "en": 115
+      },
+      "tencent-hy4-visual-tools": {
+        "zh": 205,
+        "en": 112
+      },
+      "omniscribble": {
+        "zh": 215,
+        "en": 111
+      },
+      "vibetrace": {
+        "zh": 207,
+        "en": 116
+      },
+      "agentic-path-maps": {
+        "zh": 231,
+        "en": 116
+      },
+      "bystander-aware-robot-tutor": {
+        "zh": 220,
+        "en": 93
+      },
+      "discreet-earable-channel": {
+        "zh": 202,
+        "en": 122
+      },
+      "seam-community-memory": {
+        "zh": 238,
+        "en": 121
+      }
+    },
+    "counting": "Only unique full-analysis product paragraphs count toward body gates; summaries, captions, coverage and sources excluded.",
+    "products": 30,
+    "references": 125,
+    "coreVisuals": 30,
+    "slidesPerLocale": 33,
+    "primaryProjectPages": 30,
+    "attachedProjectDetails": 30,
+    "primaryBody": {
+      "zhDenseChars": 6281,
+      "enWords": 3456
+    },
+    "completeReadingBody": {
+      "zhDenseChars": 27636,
+      "enWords": 16134
+    }
+  },
+  "revision": {
+    "label": "morning-edition",
+    "originalCutoffRetained": true,
+    "newIssue": true,
+    "baselineCommit": "b5a2407f153cdab6269d2ae5e6ac935cc9031e6d"
+  },
+  "topics": [
+    {
+      "id": "affinity-ipad-unified-studios",
+      "zhHeadline": "Affinity把草图、照片和版面放进同一个iPad文件",
+      "enHeadline": "Affinity keeps sketches, photos and page layouts in one iPad file",
+      "eventAt": "2026-11-02",
+      "freshness": "near-three-day",
+      "evidence": "Original source bodies read; editorial implications identified as judgments; no hands-on test",
+      "eventDateNote": "Date-only event bounded by contemporaneous Nov2 reporting; Canva newsroom index displays Nov3. Do not count as first released Nov3 or invent precise launch time.",
+      "event_key": "affinity:ipad:affinity-ipad-unified-studios:2026-11-02",
+      "product_key": "affinity:ipad",
+      "publishedAt": "2026-11-03",
+      "observedAt": "2026-11-04T09:18:15.565387Z",
+      "delta_since_last_seen": "The unified app was reported available on November 2. Its AI workspace can expand images, reduce noise and decompose flattened artwork."
+    },
+    {
+      "id": "peji-14-tabs-consent",
+      "zhHeadline": "Peji减少多标签内存重复，授权页面仍暴露代理停手边界",
+      "enHeadline": "Peji reduces tab overhead while its maker confronts a consent-screen gap",
+      "eventAt": "2026-11-03; maker update displayed 16h ago at observation",
+      "freshness": "main",
+      "evidence": "Original maker release and four-comment exchange read; vendor claims, no independent app or permission test",
+      "eventDateNote": "relative hours: original release post16h ago and consent discussion23h/22h/21h ago; current App Store1.4.1 8h ago. All precede fixed cutoff, exact clocks unconfirmed",
+      "event_key": "peji:1.4:shared-tab-rules-consent-discussion:2026-11-03",
+      "product_key": "app:6825426370:peji",
+      "publishedAt": "2026-11-03; relative-hour evidence",
+      "observedAt": "2026-11-04T09:11:00Z",
+      "delta_since_last_seen": "Version 1.4 shares ad-blocking rules across tabs and revises sign-in. The maker explicitly describes it as a reliability update."
+    },
+    {
+      "id": "apple-intelligence-china-beta-available",
+      "zhHeadline": "国行Apple智能进入开发者测试，千问从系统文本框接过创作请求",
+      "enHeadline": "Apple Intelligence reaches China developer beta, with Qwen inside system writing tools",
+      "eventAt": "2026-11-04",
+      "freshness": "main",
+      "evidence": "Official beta release and China feature scope; IT Home hands-on observations, not independently tested here.",
+      "eventDateNote": "Apple developer notice is date-only Nov3; China availability corroborated by IT Home firsthand reports Nov4 03:08 and 04:31 China local time, within main window; exact release time not asserted.",
+      "event_key": "apple-intelligence-china:ios27.3-beta-available:2026-11-04",
+      "product_key": "apple-intelligence-china",
+      "publishedAt": "2026-11-03",
+      "observedAt": "2026-11-04T09:09:41.014279+00:00",
+      "delta_since_last_seen": "A firsthand report documents composition inside text fields and a first-use cleanup download. The public release remains planned for December."
+    },
+    {
+      "id": "pudu-tomo-self-sharpening",
+      "zhHeadline": "TOMO回充时自动磨刀，把割草后的刀片维护也纳入流程",
+      "enHeadline": "TOMO sharpens its blades at the dock, extending automation beyond mowing",
+      "eventAt": "2026-11-03T09:30:00Z",
+      "freshness": "main",
+      "evidence": "Original dated vendor release and product body; no independent mower testing",
+      "eventDateNote": "PRNewswire November3 04:30 ET, EST UTC-5; within fixed main window",
+      "event_key": "pudu:tomo-s:announcement:2026-11-03",
+      "product_key": "pudu:tomo-s",
+      "publishedAt": "2026-11-03T09:30:00Z",
+      "observedAt": "2026-11-04T09:15:35.798572+00:00",
+      "delta_since_last_seen": "An offset deck and side sensing target edges. Wire-free setup still needs boundary inspection around roots, narrow passages and wet grass."
+    },
+    {
+      "id": "galaxy-ring-apnea-screening",
+      "zhHeadline": "Galaxy Ring加入两晚睡眠呼吸筛查，手机呈现每小时中断估计",
+      "enHeadline": "Galaxy Ring adds two-night sleep screening with estimated breathing disruptions per hour",
+      "eventAt": "2026-11-03",
+      "freshness": "near-three-day",
+      "evidence": "Original US/global release and current US support body; FDA/MFDS status attributed to Samsung, no independent clinical test or regulatory-filing review",
+      "eventDateNote": "US and global announcement have date only; exact main-window boundary unverified, conservatively near-three-day",
+      "event_key": "samsung:galaxy-ring:sleep-apnea-us-update:2026-11-03",
+      "product_key": "samsung:galaxy-ring:sleep-apnea",
+      "publishedAt": "2026-11-03",
+      "observedAt": "2026-11-04T09:17:49.009475+00:00",
+      "delta_since_last_seen": "The ring offers another wearing option, but this is on-demand screening. It switches off after a result or the monitoring window; fit and synchronization still matter."
+    },
+    {
+      "id": "flockbay-maker-visual-defaults",
+      "zhHeadline": "Flockbay的四款游戏试做暴露AI美术默认值，能运行仍需人定风格",
+      "enHeadline": "A Flockbay maker experiment finds repeated visual defaults across four games",
+      "eventAt": "2026-11-04; original maker post displayed3h ago at observation",
+      "freshness": "main",
+      "evidence": "Original maker Reddit post and2 comments plus product documentation; four self-reported game builds, no independent reproduction",
+      "eventDateNote": "relative-hour original Reddit timestamp, exact clock not inferred; older official playtest measurements datedOct25 are background",
+      "event_key": "flockbay:maker-four-game-visual-defaults:reddit-1xm8etd",
+      "product_key": "flockbay.com",
+      "publishedAt": "2026-11-04; relative3h",
+      "observedAt": "2026-11-04T09:12:00Z",
+      "delta_since_last_seen": "In a new maker report, four one-sentence game requests produced similar visual defaults; adding art still led to repeated warm palettes and sunsets."
+    },
+    {
+      "id": "sun-web-api-audio",
+      "zhHeadline": "SUN把文档转音频放进网页，另提供课程生成API",
+      "enHeadline": "SUN adds a web audio composer and an API for generated courses",
+      "eventAt": "2026-11-03; maker launch comment displayed1d ago",
+      "freshness": "near-three-day",
+      "evidence": "Original maker announcement, public composer, FAQ and PDF workflow read; generation and API not independently exercised",
+      "eventDateNote": "relative1d original maker comment, exact date/clock not fixed by page; conservatively near-three-day rather than main. Discovery aggregators assignNov3 but are not primary date evidence",
+      "event_key": "sun:web-api:maker-launch:2026-11-03",
+      "product_key": "sunapp.ai",
+      "publishedAt": "2026-11-03; relative-day evidence",
+      "observedAt": "2026-11-04T09:15:00Z",
+      "delta_since_last_seen": "The change is web creation and an API, distinct from the existing mobile app and earlier ChatGPT listing."
+    },
+    {
+      "id": "umless-expression-coach",
+      "zhHeadline": "Umless保留口述原文，用删改差异提醒哪些口头禅又出现了",
+      "enHeadline": "Umless keeps the raw dictation and uses edits to show recurring speaking habits",
+      "eventAt": "2026-11-01T16:45:50Z",
+      "freshness": "near-three-day",
+      "evidence": "Author-documented implementation and release; no independent speech-quality or habit-improvement trial",
+      "eventDateNote": "Exact UTC published_at 2026-11-01T16:45:50Z and created_at 2026-11-01T16:43:09Z verified by root from original GitHub release API.",
+      "event_key": "umless:first-public-v0.3.0:2026-11-01",
+      "product_key": "github:despriber/umless",
+      "publishedAt": "2026-11-01T16:45:50Z",
+      "observedAt": "2026-11-04T09:12:38.882707+00:00",
+      "delta_since_last_seen": "The November 1 public release adds an installer, configurable hotkeys and history recovery after failed pastes; later community discovery does not reset its date."
+    },
+    {
+      "id": "magicalcore-201-validation",
+      "zhHeadline": "MagicaLCore保留最佳训练结果，让iPad上的暂停与导出更可靠",
+      "enHeadline": "MagicaLCore preserves the best training result through an iPad workflow",
+      "eventAt": "2026-10-30",
+      "freshness": "seven-day",
+      "evidence": "Original vendor release notes, App Store developer copy and product documentation; no independent training run",
+      "eventDateNote": "day; official changelog date; App Store separately shows 4d ago at observation, not converted to an invented release clock",
+      "event_key": "magicalcore:2.0.1:validation-best-checkpoint:2026-10-30",
+      "product_key": "app:6466442942:magicalcore",
+      "publishedAt": "2026-10-30",
+      "observedAt": "2026-11-04T09:08:34Z",
+      "delta_since_last_seen": "The October 30 update improves large imports, validation, memory reporting and best-iteration saving; six model types came with the earlier 2.0 release."
+    },
+    {
+      "id": "calendarly-154-tasks-events",
+      "zhHeadline": "Calendarly让Todoist任务并入锁屏日程，增加实时活动筛选",
+      "enHeadline": "Calendarly brings Todoist tasks into event layouts and adds Live Activity filters",
+      "eventAt": "1.5.4 displayed14h ago at Nov4 observation",
+      "freshness": "main",
+      "evidence": "Original release and maker material read; no hands-on test.",
+      "eventDateNote": "Original relative release time retained; no invented midnight. Supplement used when exact main-window boundary cannot be resolved.",
+      "event_key": "calendarly-154-tasks-events:2026-11",
+      "product_key": "calendarly",
+      "publishedAt": "1.5.4 displayed14h ago at Nov4 observation",
+      "observedAt": "2026-11-04T09:21:44Z",
+      "delta_since_last_seen": "Version 1.5.4 adds Todoist tasks among events and filters which reminder lists and date types appear in the Tasks Live Activity."
+    },
+    {
+      "id": "brink-trackpad-edge-controls",
+      "zhHeadline": "Brink把触控板边缘变成音量与亮度控制条",
+      "enHeadline": "Brink turns trackpad edges into volume and brightness controls",
+      "eventAt": "2026-11-02 18:17 displayed by GitHub; timezone not exposed",
+      "freshness": "near-three-day",
+      "evidence": "Original release and maker material read; no hands-on test.",
+      "eventDateNote": "Original relative release time retained; no invented midnight. Supplement used when exact main-window boundary cannot be resolved.",
+      "event_key": "brink-trackpad-edge-controls:2026-11",
+      "product_key": "brink",
+      "publishedAt": "2026-11-02 18:17 displayed by GitHub; timezone not exposed",
+      "observedAt": "2026-11-04T09:21:44Z",
+      "delta_since_last_seen": "The first release appeared on November 2; a subsequent maker article explains how raw contacts become edge gestures."
+    },
+    {
+      "id": "stretch-gen2-serviceability",
+      "zhHeadline": "Stretch第二代少用线缆、方便换件，让卸货机器人更快回到月台",
+      "enHeadline": "Stretch Gen 2 cuts cabling and simplifies repairs to keep unloading work moving",
+      "eventAt": "2026-11-03",
+      "freshness": "main",
+      "evidence": "Original Gen2 release, existing task and service documentation; reliability and throughput are manufacturer claims, not independent measurements",
+      "eventDateNote": "Event date in original body; original JSON-LD datePublished16:55UTC verified in publisher browser inventory, modification22:17:23UTC; announcement publication inside main window.",
+      "event_key": "boston-dynamics:stretch:gen2-announcement:2026-11-03",
+      "product_key": "boston-dynamics:stretch",
+      "publishedAt": "2026-11-03T16:55:00Z",
+      "observedAt": "2026-11-04T09:27:15.678522+00:00",
+      "delta_since_last_seen": "The vendor reports 81 percent less internal cabling and an approximately one-hour swerve-drive swap, down from a day—not every repair."
+    },
+    {
+      "id": "maximo-4-task-service",
+      "zhHeadline": "Maximo按放好一块组件计任务，Max 4.0把机器人接入施工班组",
+      "enHeadline": "Maximo sells completed placement tasks as Max 4.0 joins solar construction crews",
+      "eventAt": "2026-10-29T12:00:00Z",
+      "freshness": "seven-day",
+      "evidence": "Original October29 release, current vendor platform page and earlier deployment background; performance figures are vendor claims, not independent measurements",
+      "eventDateNote": "Original release October29 08:00 ET, converted using EDT UTC-4; Nov3 coverage is rediscovery, not a new event.",
+      "event_key": "maximo:max4:300000-task-release:2026-10-29",
+      "product_key": "maximo:max4",
+      "publishedAt": "2026-10-29T12:00:00Z",
+      "observedAt": "2026-11-04T09:15:35.798572+00:00",
+      "delta_since_last_seen": "The vendor reports over 300,000 completed tasks and 2.5 times manual crew productivity per person per shift hour, without a published matched baseline."
+    },
+    {
+      "id": "googlebook-phone-continuity-friction",
+      "zhHeadline": "Googlebook评测发现桌面整理受限，戴尔音量波动仍待调校",
+      "enHeadline": "Googlebook reviews expose desktop limits and a Dell volume fix still pending",
+      "eventAt": "2026-11-03",
+      "freshness": "near-three-day",
+      "evidence": "Original reviewer descriptions and Dell support documentation; independent use belongs to the named reviewer, not this publication",
+      "eventDateNote": "Date only for independent follow-up; Nov3 main-window boundary uncertain, conservatively near-three-day. Nov2 month review is supporting evidence; Dell support updated Oct28.",
+      "event_key": "googlebook:chromeunboxed-month-review-speaker-followup:2026-11-03",
+      "product_key": "google:googlebook",
+      "publishedAt": "2026-11-03",
+      "observedAt": "2026-11-04T09:15:35.798572+00:00",
+      "delta_since_last_seen": "The reviewer values phone integration but reports basic virtual desks. Dell confirms an audio-tuning issue behind fluctuating built-in speaker volume."
+    },
+    {
+      "id": "notion-mcp-restore-version",
+      "zhHeadline": "Notion让助手先列回退影响，再恢复历史页面",
+      "enHeadline": "Notion previews what a restore will undo before an assistant applies it",
+      "eventAt": "2026-11-03",
+      "freshness": "near-three-day",
+      "evidence": "Original source bodies read; editorial implications identified as judgments; no hands-on test",
+      "eventDateNote": "Date only; timezone unspecified; Nov3 date-only events have uncertain main-window boundary",
+      "event_key": "notion:mcp:notion-mcp-restore-version:2026-11-03",
+      "product_key": "notion:mcp",
+      "publishedAt": "2026-11-03",
+      "observedAt": "2026-11-04T09:18:15.565387Z",
+      "delta_since_last_seen": "The November 3 MCP tool joins diagnosis to repair, but later edits and comments from collaborators are also affected."
+    },
+    {
+      "id": "notion-agent-api-ga-personal",
+      "zhHeadline": "Notion把个人助手接到外部应用，会话仍跟随创建者",
+      "enHeadline": "Notion opens its personal agent to external apps, with sessions tied to their creator",
+      "eventAt": "2026-11-02",
+      "freshness": "near-three-day",
+      "evidence": "Original changelog, guide, migration and endpoint bodies read; no API execution",
+      "eventDateNote": "Date only, original changelog; no exact time inferred",
+      "event_key": "notion:agent-api:ga-personal-agent:2026-11-02",
+      "product_key": "notion:agent-api",
+      "publishedAt": "2026-11-02",
+      "observedAt": "2026-11-04T09:21:10Z",
+      "delta_since_last_seen": "The November 2 general release adds personal-agent access. Sessions created with a personal token can continue in Notion."
+    },
+    {
+      "id": "honeycomb-team-agents-early-access",
+      "zhHeadline": "Honeycomb让团队代理持续检查上线结果，发现可回到具体追踪",
+      "enHeadline": "Honeycomb team agents keep checking releases and link findings to traces",
+      "eventAt": "2026-11-03",
+      "freshness": "near-three-day",
+      "evidence": "Original release and documentation read; no independent product execution",
+      "eventDateNote": "Original source date only; no timezone or midnight invented",
+      "event_key": "honeycomb-team-agents-early-access:2026-11-03",
+      "product_key": "honeycomb:team-agents",
+      "publishedAt": "2026-11-03",
+      "observedAt": "2026-11-04T09:08:11Z",
+      "delta_since_last_seen": "Shared memory carries findings into later investigations, while connectors can turn them into tickets, pages or proposed fixes."
+    },
+    {
+      "id": "qwen-0267-channel-events",
+      "zhHeadline": "Qwen Code把频道为什么没回复写进时间线，先分清过滤和失败",
+      "enHeadline": "Qwen Code explains missing channel replies through an event timeline",
+      "eventAt": "2026-11-04T04:03:01Z",
+      "freshness": "main",
+      "evidence": "Original release and documentation read; no independent product execution",
+      "eventDateNote": "Exact original GitHub API published_at",
+      "event_key": "qwen-0267-channel-events:2026-11-04T04:03:01Z",
+      "product_key": "github:QwenLM/qwen-code",
+      "publishedAt": "2026-11-04T04:03:01Z",
+      "observedAt": "2026-11-04T09:17:32Z",
+      "delta_since_last_seen": "Skip reasons, deduplication, failures and poll results share one timeline, reducing the need to inspect daemon logs."
+    },
+    {
+      "id": "openbot-060-slack-telegram-workflows",
+      "zhHeadline": "OpenBot把Slack与Telegram提及接进流程，回复位置由输出步骤决定",
+      "enHeadline": "OpenBot connects Slack and Telegram mentions to explicit workflow outputs",
+      "eventAt": "2026-11-03T19:19:20Z",
+      "freshness": "main",
+      "evidence": "Original release and documentation read; no independent product execution",
+      "eventDateNote": "Exact original GitHub API published_at",
+      "event_key": "openbot-060-slack-telegram-workflows:2026-11-03T19:19:20Z",
+      "product_key": "github:nightly-labs/openbot",
+      "publishedAt": "2026-11-03T19:19:20Z",
+      "observedAt": "2026-11-04T09:17:32Z",
+      "delta_since_last_seen": "The incoming message and output destination share a canvas, reducing manual forwarding and copying answers back."
+    },
+    {
+      "id": "openhands-135-startup-status",
+      "zhHeadline": "OpenHands先显示已提交的任务，把启动进度放回聊天里",
+      "enHeadline": "OpenHands shows the submitted task while startup continues inside chat",
+      "eventAt": "2026-11-03T18:47:18Z",
+      "freshness": "main",
+      "evidence": "Original release and documentation read; no independent product execution",
+      "eventDateNote": "Exact original GitHub API published_at",
+      "event_key": "openhands-135-startup-status:2026-11-03T18:47:18Z",
+      "product_key": "github:OpenHands/OpenHands",
+      "publishedAt": "2026-11-03T18:47:18Z",
+      "observedAt": "2026-11-04T09:17:32Z",
+      "delta_since_last_seen": "Live steps appear at the end of chat and settle into summaries; repository selection is remembered or cleared, and pins and archives move server-side."
+    },
+    {
+      "id": "claude-message-threads-beta",
+      "zhHeadline": "Claude让长对话只上传新消息，过期后仍要从应用重放",
+      "enHeadline": "Claude threads send only new messages, with replay still owned by the app",
+      "eventAt": "2026-11-02",
+      "freshness": "near-three-day",
+      "evidence": "Original release and documentation read; no independent product execution",
+      "eventDateNote": "Original source date only; no timezone or midnight invented",
+      "event_key": "claude-message-threads-beta:2026-11-02",
+      "product_key": "anthropic:message-threads",
+      "publishedAt": "2026-11-02",
+      "observedAt": "2026-11-04T09:08:11Z",
+      "delta_since_last_seen": "Server reconstruction reduces repeated upload and processing. Threads expire five minutes after the last request and are deleted within one hour of last use."
+    },
+    {
+      "id": "openai-agents-alpha6-turn-control",
+      "zhHeadline": "OpenAI代理SDK把每轮任务变成独立句柄，排队、转向与恢复更清楚",
+      "enHeadline": "OpenAI's SDK gives each turn a handle for queueing, steering and recovery",
+      "eventAt": "2026-11-03T16:44:27Z",
+      "freshness": "main",
+      "evidence": "Original release and documentation read; no independent product execution",
+      "eventDateNote": "Exact original GitHub release API published_at verified by root",
+      "event_key": "openai-agents-alpha6-turn-control:2026-11-03T16:44:27Z",
+      "product_key": "openai:agents-python",
+      "publishedAt": "2026-11-03T16:44:27Z",
+      "observedAt": "2026-11-04T09:08:11Z",
+      "delta_since_last_seen": "The release expands local conversation reopening, portable recovery and tool policies; the storage modes are not interchangeable."
+    },
+    {
+      "id": "ollama-04014-routing-sampler",
+      "zhHeadline": "Ollama保留模型自己的采样默认值，接编程代理前先检查路由",
+      "enHeadline": "Ollama preserves model sampling defaults and checks coding-agent routes",
+      "eventAt": "2026-11-03T01:40:40Z",
+      "freshness": "near-three-day",
+      "evidence": "Original release and documentation read; no independent product execution",
+      "eventDateNote": "Exact original GitHub release API published_at verified by root",
+      "event_key": "ollama-04014-routing-sampler:2026-11-03T01:40:40Z",
+      "product_key": "ollama",
+      "publishedAt": "2026-11-03T01:40:40Z",
+      "observedAt": "2026-11-04T09:08:11Z",
+      "delta_since_last_seen": "Version 0.40.14 preserves packaged sampling defaults when clients omit parameters and keeps readable content in Responses inputs."
+    },
+    {
+      "id": "tencent-hy4-visual-tools",
+      "zhHeadline": "Hy4把图片接进工具调用，应用仍需执行动作并回传结果",
+      "enHeadline": "Hy4 brings images into tool workflows, while the application still executes actions",
+      "eventAt": "2026-11-04",
+      "freshness": "main",
+      "evidence": "Documented hosted API and integration contract; vendor capability claims, no executed model test",
+      "eventDateNote": "Official China documentation updated Nov4 12:13 local display; Nov4 12:59:42 China media announcement corroborates release before 09:04:17Z cutoff. Exact first availability not asserted.",
+      "event_key": "tencent-hy4:formal-visual-api:2026-11-04",
+      "product_key": "tencent-hy4",
+      "publishedAt": "2026-11-04",
+      "observedAt": "2026-11-04T09:14:32.025224+00:00",
+      "delta_since_last_seen": "November 4 documentation lists visual inputs, three compatible protocols and pricing. A weight release is still described as forthcoming."
+    },
+    {
+      "id": "omniscribble",
+      "zhHeadline": "OmniScribble先拆对象再画运动路径，让动画提案可以局部修补",
+      "enHeadline": "OmniScribble makes object grouping and motion paths editable before animation",
+      "eventAt": "2026-11-03T04:13:11Z",
+      "freshness": "near-three-day",
+      "evidence": "Original abstract, submission history, system mechanisms, evaluation conditions and limitations read. Author-reported evidence, no independent implementation test.",
+      "eventDateNote": "Exact arXiv v1 submission UTC; public announcement clock unconfirmed. Recent-list date is not an exact publication clock.",
+      "event_key": "omniscribble:2611.04284:v1",
+      "product_key": "omniscribble",
+      "publishedAt": "2026-11-03T04:13:11Z",
+      "observedAt": "2026-11-04T09:20:08Z",
+      "delta_since_last_seen": "An eight-person preliminary study reports a 71.4% median within-person reduction in authoring time, excluding rendering."
+    },
+    {
+      "id": "vibetrace",
+      "zhHeadline": "VibeTrace把代理动作画成分支，从出错步骤继续修正",
+      "enHeadline": "VibeTrace turns coding-agent actions into branches you can inspect and redirect",
+      "eventAt": "2026-11-03T07:56:06Z",
+      "freshness": "near-three-day",
+      "evidence": "Original abstract, submission history, system mechanisms, evaluation conditions and limitations read. Author-reported evidence, no independent implementation test.",
+      "eventDateNote": "Exact arXiv v1 submission UTC; public announcement clock unconfirmed. Recent-list date is not an exact publication clock.",
+      "event_key": "vibetrace:2611.04466:v1",
+      "product_key": "vibetrace",
+      "publishedAt": "2026-11-03T07:56:06Z",
+      "observedAt": "2026-11-04T09:20:08Z",
+      "delta_since_last_seen": "Completed traces and feedback can become local skill files; the underlying model weights remain unchanged."
+    },
+    {
+      "id": "agentic-path-maps",
+      "zhHeadline": "Agentic Path Maps把未选择的分析路径也摆出来，让结论的前提可比较",
+      "enHeadline": "Agentic Path Maps shows alternative analyses alongside the result",
+      "eventAt": "2026-11-03T02:20:22Z",
+      "freshness": "near-three-day",
+      "evidence": "Original abstract, submission history, system mechanisms, evaluation conditions and limitations read. Author-reported evidence, no independent implementation test.",
+      "eventDateNote": "Exact arXiv v1 submission UTC; public announcement clock unconfirmed. Recent-list date is not an exact publication clock.",
+      "event_key": "agentic-path-maps:2611.04183:v1",
+      "product_key": "agentic-path-maps",
+      "publishedAt": "2026-11-03T02:20:22Z",
+      "observedAt": "2026-11-04T09:20:08Z",
+      "delta_since_last_seen": "In a 48-person analysis study, alternatives reduced reliance on extreme results while increasing reading time and load."
+    },
+    {
+      "id": "bystander-aware-robot-tutor",
+      "zhHeadline": "机器人先看看谁在旁边，再把批评从语音改到朝向学生的屏幕",
+      "enHeadline": "Robot tutoring changes feedback channels when a bystander enters",
+      "eventAt": "2026-11-03T14:51:43Z",
+      "freshness": "main",
+      "evidence": "Original abstract, submission history, system mechanisms, evaluation conditions and limitations read. Author-reported evidence, no independent implementation test.",
+      "eventDateNote": "Exact arXiv v1 submission UTC; public announcement clock unconfirmed. Recent-list date is not an exact publication clock.",
+      "event_key": "bystander-aware-robot-tutor:2611.05001:v1",
+      "product_key": "bystander-aware-robot-tutor",
+      "publishedAt": "2026-11-03T14:51:43Z",
+      "observedAt": "2026-11-04T09:20:08Z",
+      "delta_since_last_seen": "In a forty-person study, adaptive delivery improved perceived privacy awareness and social competence; reduced embarrassment remained inconclusive."
+    },
+    {
+      "id": "discreet-earable-channel",
+      "zhHeadline": "耳机把消息只说给一人听，歪头回应仍要区分拒绝与漏检",
+      "enHeadline": "An earable delivers a private cue, but a missing head tilt is ambiguous",
+      "eventAt": "2026-11-03T11:17:45Z",
+      "freshness": "main",
+      "evidence": "Original abstract, submission history, system mechanisms, evaluation conditions and limitations read. Author-reported evidence, no independent implementation test.",
+      "eventDateNote": "Exact arXiv v1 submission UTC; public announcement clock unconfirmed. Recent-list date is not an exact publication clock.",
+      "event_key": "discreet-earable-channel:2611.04692:v1",
+      "product_key": "discreet-earable-channel",
+      "publishedAt": "2026-11-03T11:17:45Z",
+      "observedAt": "2026-11-04T09:20:08Z",
+      "delta_since_last_seen": "Twenty pairs took part; 39 of 40 channel-mediated turns followed the intended protocol."
+    },
+    {
+      "id": "seam-community-memory",
+      "zhHeadline": "SEAM把社区帖子变成可追溯记忆，也暴露了谁能替别人写规则的问题",
+      "enHeadline": "SEAM turns community posts into shared memory and executable rules",
+      "eventAt": "2026-11-03T04:24:20Z",
+      "freshness": "near-three-day",
+      "evidence": "Original abstract, submission history, system mechanisms, evaluation conditions and limitations read. Author-reported evidence, no independent implementation test.",
+      "eventDateNote": "Exact arXiv v1 submission UTC; public announcement clock unconfirmed. Recent-list date is not an exact publication clock.",
+      "event_key": "seam:2611.04296:v1",
+      "product_key": "seam-community-memory",
+      "publishedAt": "2026-11-03T04:24:20Z",
+      "observedAt": "2026-11-04T09:20:08Z",
+      "delta_since_last_seen": "A two-week deployment with 46 people provides field observations, without measured memory accuracy or a search-tool comparison."
+    }
+  ],
+  "eventCounts": {
+    "mainWindowEvents": 13,
+    "nearThreeDayReviews": 15,
+    "sevenDayReviews": 2,
+    "interpretation": "Announcements, submissions, updates and regional reports; not first product launches."
+  }
+}
