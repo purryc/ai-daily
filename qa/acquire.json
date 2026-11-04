@@ -2,42 +2,50 @@
   {
     "kind": "image",
     "locale": "zh",
-    "name": "seam-data-figure.jpg",
-    "url": "https://arxiv.org/html/2611.04296v1/figures/post-modes.png",
+    "name": "stretch-gen2.jpg",
+    "url": "https://bostondynamics.com/wp-content/uploads/2026/11/stretch-gen2-render.png",
     "renderImage": true
   },
   {
     "kind": "image",
     "locale": "en",
-    "name": "robot-tutor-study.jpg",
-    "url": "https://arxiv.org/html/2611.05001v1/figures/real_scene_adaptive_new.png",
+    "name": "brink-gallery2.jpg",
+    "url": "https://ph-files.imgix.net/9fa4c478-9fb5-4aef-8282-e0a0c73f5a1c.png",
     "renderImage": true
   },
   {
     "kind": "image",
     "locale": "zh",
-    "name": "samsung-ring-fit.jpg",
-    "url": "https://image-us.samsung.com/SamsungUS/support/solutions/mobile/wearables/MOB_WRBLS_How-to-wear-your-watch-or-ring-during-sleep_How-to-wear-your-ring-during-sleep.jpg",
+    "name": "brink-gallery3.jpg",
+    "url": "https://ph-files.imgix.net/2a9751f7-1637-411d-95ea-cb81085059b2.png",
     "renderImage": true
   },
   {
     "kind": "image",
     "locale": "en",
-    "name": "brink-interface.jpg",
-    "url": "https://ph-files.imgix.net/09877e2a-b364-4f8a-8639-bfbbfb7eb9c7.png",
+    "name": "brink-gallery4.jpg",
+    "url": "https://ph-files.imgix.net/7438eed1-f962-42de-876c-0a5d232e4669.png",
     "renderImage": true
   },
   {
     "kind": "image",
     "locale": "zh",
-    "name": "calendarly-lockscreen.jpg",
-    "url": "https://getcalendarly.com/wallpapers/calendarly-lock-screen-flare.webp",
+    "name": "brink-gallery5.jpg",
+    "url": "https://ph-files.imgix.net/735eb360-03cc-44a8-9436-566e85ef2af9.png",
     "renderImage": true
   },
   {
-    "kind": "inventory",
+    "kind": "image",
     "locale": "en",
-    "name": "stretch-gen2-inventory.json",
-    "url": "https://bostondynamics.com/news/boston-dynamics-launches-next-generation-stretch-robot"
+    "name": "brink-gallery6.jpg",
+    "url": "https://ph-files.imgix.net/556ad720-49cd-4810-ad0c-cd6657bb64bf.png",
+    "renderImage": true
+  },
+  {
+    "kind": "image",
+    "locale": "zh",
+    "name": "brink-gallery7.jpg",
+    "url": "https://ph-files.imgix.net/9961ee2f-a74f-4f76-9c35-9b6d5477b4b4.png",
+    "renderImage": true
   }
 ]
