@@ -1,37 +1,58 @@
 [
   {
-    "name": "webflow.jpg",
-    "kind": "capture",
-    "url": "https://jobs.ashbyhq.com/webflow/4e640a4d-ee08-4297-a479-43b9a0c55819",
-    "selector": "body",
-    "locale": "zh"
+    "kind": "image",
+    "locale": "zh",
+    "name": "honeycomb-goal.jpg",
+    "url": "https://cdn.sanity.io/images/927dxq0h/production/f9f35dd3289ce3180d5cff5551282ebc93a229fc-1092x1092.png",
+    "renderImage": true
   },
   {
-    "name": "ashby-staff.jpg",
-    "kind": "capture",
-    "url": "https://jobs.ashbyhq.com/Ashby/2373fcd5-144b-4d66-a98b-dd0efb4eb9d1",
-    "selector": "body",
-    "locale": "zh"
+    "kind": "image",
+    "locale": "en",
+    "name": "apple-china-translation.jpg",
+    "url": "https://www.apple.com.cn/newsroom/images/2026/10/apple-intelligence-features-are-coming-to-users-in-china/article/Apple-Intelligence-Live-Translation-Messages-CN_inline.jpg.large.jpg",
+    "renderImage": true
   },
   {
-    "name": "ashby-senior.jpg",
-    "kind": "capture",
-    "url": "https://jobs.ashbyhq.com/Ashby/f40ef345-82a8-4956-9150-193b4fdf8183",
-    "selector": "body",
-    "locale": "en"
+    "kind": "image",
+    "locale": "zh",
+    "name": "vibetrace-ui.jpg",
+    "url": "https://arxiv.org/html/2611.04466v1/figures/ui.png",
+    "renderImage": true
   },
   {
-    "name": "voldex.jpg",
-    "kind": "capture",
-    "url": "https://jobs.ashbyhq.com/voldex/75e0ff31-86e9-4403-b915-73ee2ac3442a",
-    "selector": "body",
-    "locale": "en"
+    "kind": "image",
+    "locale": "en",
+    "name": "omniscribble-ui.jpg",
+    "url": "https://arxiv.org/html/2611.04284v1/interface2.png",
+    "renderImage": true
   },
   {
-    "name": "babylist.jpg",
-    "kind": "capture",
-    "url": "https://job-boards.greenhouse.io/babylist/jobs/6104998004",
-    "selector": "body",
-    "locale": "en"
+    "kind": "image",
+    "locale": "zh",
+    "name": "agentic-path-maps.jpg",
+    "url": "https://arxiv.org/html/2611.04183v1/treatment.png",
+    "renderImage": true
+  },
+  {
+    "kind": "image",
+    "locale": "en",
+    "name": "earable-study.jpg",
+    "url": "https://arxiv.org/html/2611.04692v1/Player_setup.png",
+    "renderImage": true
+  },
+  {
+    "kind": "image",
+    "locale": "zh",
+    "name": "holdtalk-gallery.jpg",
+    "url": "https://ph-files.imgix.net/78604b96-aaf1-42c6-a088-72d169b3e950.jpeg",
+    "renderImage": true
+  },
+  {
+    "kind": "image",
+    "locale": "en",
+    "name": "peji-gallery.jpg",
+    "url": "https://ph-files.imgix.net/6c2a5e41-6293-47f6-bf99-3ab4721c0f38.png",
+    "renderImage": true
   }
 ]
