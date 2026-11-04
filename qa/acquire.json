@@ -2,62 +2,57 @@
   {
     "kind": "image",
     "locale": "zh",
-    "name": "magicalcore-training.jpg",
-    "url": "https://www.magicalcoreapp.com/_astro/03-entrenamiento.CbNo7dZu_ZArcv3.webp",
+    "name": "holdtalk-settings.jpg",
+    "url": "https://ph-files.imgix.net/5d1e1583-74ee-401a-be44-bc8f6b9ee8fb.png",
     "renderImage": true
   },
   {
     "kind": "image",
     "locale": "en",
-    "name": "sun-web-ui.jpg",
-    "url": "https://ph-files.imgix.net/47eeb375-c8bc-4ddc-896a-83f758589c2a.jpeg",
+    "name": "holdtalk-controls.jpg",
+    "url": "https://ph-files.imgix.net/fd111ea3-2dbb-492b-9c74-d331127fc5f7.png",
     "renderImage": true
   },
   {
     "kind": "image",
     "locale": "zh",
-    "name": "flockbay-editor.jpg",
-    "url": "https://flockbay.com/press-kit/flockbay-editor-chat-and-game.png",
+    "name": "samsung-ring-apnea.jpg",
+    "url": "https://img.global.news.samsung.com/global/wp-content/uploads/2026/11/02162459/Samsung-Mobile-Sleep-Apnea-Feature-Galaxy-Ring_Main1.gif",
     "renderImage": true
   },
   {
     "kind": "image",
     "locale": "en",
-    "name": "googlebook-review.jpg",
-    "url": "https://chromeunboxed.com/wp-content/uploads/2026/11/DellXPSGooglebookVolumeFluctuations-750x420.webp",
-    "renderImage": true
-  },
-  {
-    "kind": "image",
-    "locale": "zh",
-    "name": "maxiq-ui.jpg",
-    "url": "https://maxrobotics.ai/__l5e/assets-v1/965635fd-c70c-4f0c-8ab3-e7185eb0d0ab/maxiq-3.jpg",
-    "renderImage": true
-  },
-  {
-    "kind": "image",
-    "locale": "en",
-    "name": "hy4-diagram.jpg",
-    "url": "https://qcloudimg.tencent-cloud.cn/image/document/7e33917ba81871a7cb0192b2bdba480b.png",
+    "name": "pudu-mowing-planner.jpg",
+    "url": "https://www.puduhome.com/cdn/shop/files/pudu-tomo-s-ai-mowing-planner-v2.png?v=1793695131&width=3000",
     "renderImage": true
   },
   {
     "kind": "image",
     "locale": "zh",
-    "name": "affinity-ipad.jpg",
-    "url": "https://content-management-files.canva.com/ff17adf1-828d-4b50-aa88-d09baed419e4/18.png",
+    "name": "qwen-channel-timeline.jpg",
+    "url": "https://raw.githubusercontent.com/wenshao/qwen-code/assets/channel-events/channel-events/real-01-en-timeline.png",
     "renderImage": true
   },
   {
-    "kind": "inventory",
+    "kind": "image",
     "locale": "en",
-    "name": "peji-store.json",
-    "url": "https://apps.apple.com/us/app/peji/id6825426370"
+    "name": "openbot-slack.jpg",
+    "url": "https://github.com/user-attachments/assets/4b48a306-f1bd-4685-8511-202ecfc4763a",
+    "renderImage": true
   },
   {
-    "kind": "inventory",
+    "kind": "image",
+    "locale": "zh",
+    "name": "openhands-test-ui.jpg",
+    "url": "https://github.com/user-attachments/assets/d4edeae3-607c-4050-bcf0-19e48127b678",
+    "renderImage": true
+  },
+  {
+    "kind": "image",
     "locale": "en",
-    "name": "ph-nov3.json",
-    "url": "https://www.producthunt.com/leaderboard/daily/2026/11/3"
+    "name": "umless-history.jpg",
+    "url": "https://raw.githubusercontent.com/despriber/Umless/main/docs/assets/readme/history.png",
+    "renderImage": true
   }
 ]
