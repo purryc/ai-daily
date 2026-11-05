@@ -205,7 +205,7 @@
       },
       "daybreak-red-govcloud-east": {
         "zh": 212,
-        "en": 115
+        "en": 101
       },
       "fluidic-body": {
         "zh": 213,
@@ -245,11 +245,11 @@
     "attachedProjectDetails": 28,
     "primaryBody": {
       "zhDenseChars": 5915,
-      "enWords": 3261
+      "enWords": 3247
     },
     "completeReadingBody": {
       "zhDenseChars": 25006,
-      "enWords": 14692
+      "enWords": 14678
     }
   },
   "revision": {
