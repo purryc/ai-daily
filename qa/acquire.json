@@ -1,64 +1,72 @@
 [
   {
-    "name": "wanaka.jpg",
-    "url": "https://wanaka.app/home-v3/redesign/feature-playable-projects.webp",
+    "name": "floot.jpg",
+    "url": "https://floot.com/_cdn/blog-images/8ffe7b11bf80080cd7f5a8dd33710312c0036cb5/w1600.webp",
     "kind": "image",
     "renderImage": true,
     "locale": "zh"
   },
   {
-    "name": "prelulu.jpg",
-    "url": "https://ph-files.imgix.net/87774ea9-578b-4986-b849-d0f677c38ac4.png",
+    "name": "images26.jpg",
+    "url": "https://developers.openai.com/images/platform/guides/image-prompting/paper-cut-football-effort-medium-gpt-image-2-6-sunburst.webp",
     "kind": "image",
     "renderImage": true,
     "locale": "zh"
   },
   {
-    "name": "fluidic.jpg",
-    "url": "https://arxiv.org/html/2611.06068v1/ISS_teaser.png",
+    "name": "netflix.jpg",
+    "url": "https://images.ctfassets.net/4cd45et68cgf/4sev3PTKFV9Pf9S9qLijE4/f55e962bb248247c5ec5a3467a13dbf6/AIDiscover-Hero-1440x810.gif?w=2000",
     "kind": "image",
     "renderImage": true,
     "locale": "zh"
   },
   {
-    "name": "bleequp.jpg",
-    "url": "https://gadgetsandwearables.com/wp-content/uploads/2026/10/BleeqUp-Rover-review_1-1-1024x577.jpg",
+    "name": "wanaka-editor.jpg",
+    "url": "https://ph-files.imgix.net/e183366b-c3b1-4ce9-a7d6-24eee37c7943.png",
     "kind": "image",
     "renderImage": true,
     "locale": "zh"
   },
   {
-    "name": "clarity.jpg",
-    "url": "https://clarity.microsoft.com/blog/wp-content/uploads/2026/11/Agentic-Analytics-dash-1024x859.png",
+    "name": "xcode.jpg",
+    "url": "https://developer.apple.com/xcode/images/h-xcc27-agents-light_2x.png",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "name": "vscode.jpg",
+    "url": "https://code.visualstudio.com/assets/updates/1_145/remote-browser.webp",
     "kind": "image",
     "renderImage": true,
     "locale": "en"
   },
   {
-    "name": "forrester.jpg",
-    "url": "https://go.forrester.com/wp-content/uploads/2026/09/SlackImages_1-2.webp",
+    "name": "bobflow.jpg",
+    "url": "https://arxiv.org/html/2611.05761v1/bobflow_abstractions.png",
     "kind": "image",
     "renderImage": true,
     "locale": "en"
   },
   {
-    "name": "vr-hiit.jpg",
-    "url": "https://arxiv.org/html/2611.06734v1/gameplay.jpg",
+    "name": "program.jpg",
+    "url": "https://arxiv.org/html/2611.06188v1/figs/teaser.png",
     "kind": "image",
     "renderImage": true,
     "locale": "en"
   },
   {
-    "name": "serenibrain.jpg",
-    "url": "https://serenibrain.com/cdn/shop/files/serenibrain-how-it-works-04-session-report.webp?v=1787830381&width=1600",
+    "name": "alite.jpg",
+    "url": "https://storage.googleapis.com/mmstudio-images/gallery/QMDU0YjNqlfOqfBZnztCFUnAgIL2/89208136-1793621585-1.jpg",
     "kind": "image",
     "renderImage": true,
     "locale": "en"
   },
   {
-    "name": "images26-inventory.json",
-    "url": "https://openai.com/index/introducing-images-2-6/",
-    "kind": "inventory",
+    "name": "ernie.jpg",
+    "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Base/resolve/main/assets/ernie55flash_architecture.png",
+    "kind": "image",
+    "renderImage": true,
     "locale": "en"
   }
 ]
