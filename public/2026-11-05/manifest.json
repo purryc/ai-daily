@@ -1,0 +1,718 @@
+{
+  "date": "2026-11-05",
+  "timezone": "America/Toronto",
+  "cutoff": "2026-11-05T09:08:06Z",
+  "windowStart": "2026-11-04T09:08:06Z",
+  "metrics": {
+    "body": {
+      "zhDenseChars": 19091,
+      "enWords": 11431
+    },
+    "perProduct": {
+      "images-26-markup-complexity": {
+        "zh": 680,
+        "en": 413
+      },
+      "wanaka-editable-3d-studio": {
+        "zh": 695,
+        "en": 416
+      },
+      "meshy-n1-native-texturing": {
+        "zh": 673,
+        "en": 393
+      },
+      "floot-payments-shipping": {
+        "zh": 672,
+        "en": 403
+      },
+      "pruna-p-h3-image": {
+        "zh": 721,
+        "en": 422
+      },
+      "oho-alite-audio-glasses": {
+        "zh": 733,
+        "en": 398
+      },
+      "bleequp-rover-review": {
+        "zh": 671,
+        "en": 392
+      },
+      "serenibrain-review": {
+        "zh": 731,
+        "en": 404
+      },
+      "moworld-20": {
+        "zh": 732,
+        "en": 420
+      },
+      "clarity-agent-activity-booking": {
+        "zh": 667,
+        "en": 403
+      },
+      "forrester-ai-slack": {
+        "zh": 710,
+        "en": 408
+      },
+      "superhuman-docs-windows-beta": {
+        "zh": 722,
+        "en": 406
+      },
+      "copilot-xcode-native-preview": {
+        "zh": 708,
+        "en": 430
+      },
+      "vscode-1145-remote-review": {
+        "zh": 720,
+        "en": 433
+      },
+      "gemini-cli-067-container-ide": {
+        "zh": 711,
+        "en": 425
+      },
+      "claude-318-auth-queue-recovery": {
+        "zh": 659,
+        "en": 420
+      },
+      "strands-tools-090-migration": {
+        "zh": 712,
+        "en": 431
+      },
+      "llamacpp-090-local-audio": {
+        "zh": 748,
+        "en": 419
+      },
+      "ernie-55-flash-base": {
+        "zh": 828,
+        "en": 447
+      },
+      "kimi-k31-pro-weights": {
+        "zh": 717,
+        "en": 422
+      },
+      "daybreak-red-govcloud-east": {
+        "zh": 720,
+        "en": 382
+      },
+      "fluidic-body": {
+        "zh": 577,
+        "en": 387
+      },
+      "smartphone-vr-hiit": {
+        "zh": 578,
+        "en": 394
+      },
+      "rov-haptic-cognitive-load": {
+        "zh": 571,
+        "en": 390
+      },
+      "bobflow": {
+        "zh": 636,
+        "en": 397
+      },
+      "cat-fetal-annotation": {
+        "zh": 593,
+        "en": 390
+      },
+      "gpumap": {
+        "zh": 606,
+        "en": 399
+      },
+      "tact-qualitative-council": {
+        "zh": 600,
+        "en": 387
+      }
+    },
+    "primarySummaries": {
+      "images-26-markup-complexity": {
+        "zh": 205,
+        "en": 119
+      },
+      "wanaka-editable-3d-studio": {
+        "zh": 222,
+        "en": 114
+      },
+      "meshy-n1-native-texturing": {
+        "zh": 216,
+        "en": 114
+      },
+      "floot-payments-shipping": {
+        "zh": 204,
+        "en": 115
+      },
+      "pruna-p-h3-image": {
+        "zh": 210,
+        "en": 113
+      },
+      "oho-alite-audio-glasses": {
+        "zh": 211,
+        "en": 115
+      },
+      "bleequp-rover-review": {
+        "zh": 208,
+        "en": 118
+      },
+      "serenibrain-review": {
+        "zh": 201,
+        "en": 114
+      },
+      "moworld-20": {
+        "zh": 218,
+        "en": 118
+      },
+      "clarity-agent-activity-booking": {
+        "zh": 197,
+        "en": 119
+      },
+      "forrester-ai-slack": {
+        "zh": 199,
+        "en": 113
+      },
+      "superhuman-docs-windows-beta": {
+        "zh": 200,
+        "en": 116
+      },
+      "copilot-xcode-native-preview": {
+        "zh": 204,
+        "en": 121
+      },
+      "vscode-1145-remote-review": {
+        "zh": 215,
+        "en": 121
+      },
+      "gemini-cli-067-container-ide": {
+        "zh": 213,
+        "en": 123
+      },
+      "claude-318-auth-queue-recovery": {
+        "zh": 215,
+        "en": 121
+      },
+      "strands-tools-090-migration": {
+        "zh": 207,
+        "en": 112
+      },
+      "llamacpp-090-local-audio": {
+        "zh": 215,
+        "en": 117
+      },
+      "ernie-55-flash-base": {
+        "zh": 211,
+        "en": 117
+      },
+      "kimi-k31-pro-weights": {
+        "zh": 211,
+        "en": 106
+      },
+      "daybreak-red-govcloud-east": {
+        "zh": 212,
+        "en": 115
+      },
+      "fluidic-body": {
+        "zh": 213,
+        "en": 114
+      },
+      "smartphone-vr-hiit": {
+        "zh": 228,
+        "en": 116
+      },
+      "rov-haptic-cognitive-load": {
+        "zh": 218,
+        "en": 120
+      },
+      "bobflow": {
+        "zh": 208,
+        "en": 113
+      },
+      "cat-fetal-annotation": {
+        "zh": 219,
+        "en": 119
+      },
+      "gpumap": {
+        "zh": 217,
+        "en": 117
+      },
+      "tact-qualitative-council": {
+        "zh": 218,
+        "en": 121
+      }
+    },
+    "counting": "Only unique full-analysis product paragraphs count toward body gates; summaries, captions, coverage and sources excluded.",
+    "products": 28,
+    "references": 98,
+    "coreVisuals": 28,
+    "slidesPerLocale": 31,
+    "primaryProjectPages": 28,
+    "attachedProjectDetails": 28,
+    "primaryBody": {
+      "zhDenseChars": 5915,
+      "enWords": 3261
+    },
+    "completeReadingBody": {
+      "zhDenseChars": 25006,
+      "enWords": 14692
+    }
+  },
+  "revision": {
+    "label": "morning-edition",
+    "originalCutoffRetained": true,
+    "newIssue": true,
+    "baselineCommit": "83cf02c02236600a47c1f7ceb8c4f92b67fce922"
+  },
+  "topics": [
+    {
+      "id": "images-26-markup-complexity",
+      "zhHeadline": "Images 2.6把局部标注和规划强度交给创作者，修图不必每次重新构思",
+      "enHeadline": "Images 2.6 exposes markup and planning effort for more targeted image revisions",
+      "eventAt": "2026-11-04",
+      "freshness": "near-three-day",
+      "evidence": "Original bodies read; manufacturer statements and editorial judgments distinguished; no independent hands-on testing",
+      "eventDateNote": "Date only; original source clock and timezone unconfirmed. November 4 overlaps the lower main-window boundary, so conservatively retained as a 72-hour supplement.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "openai:images:images-26-markup-complexity:2026-11-04",
+      "product_key": "openai:images",
+      "publishedAt": "2026-11-04",
+      "observedAt": "2026-11-05T09:22:51.411769Z",
+      "delta_since_last_seen": "Flare targets fast iteration and Sunburst detailed work. The new complexity setting controls planning before rendering, separately from quality."
+    },
+    {
+      "id": "wanaka-editable-3d-studio",
+      "zhHeadline": "Wanaka让一句游戏想法落进可以手动编辑的三维场景",
+      "enHeadline": "Wanaka turns a game idea into a 3D scene you can still edit by hand",
+      "eventAt": "2026-11-02",
+      "freshness": "seven-day",
+      "evidence": "Original bodies read; manufacturer statements and editorial judgments distinguished; no independent hands-on testing",
+      "eventDateNote": "Earlier November2 1.0 announcement reported in read secondary release index citing officialX; officialX returned403 so its exact clock was not independently verified. November4 is verified PH appearance, not firstavailability; conservatively seven-day retrospective.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "wanaka.app:wanaka-editable-3d-studio:2026-11-02",
+      "product_key": "wanaka.app",
+      "publishedAt": "2026-11-04",
+      "observedAt": "2026-11-05T09:18:55.918620Z",
+      "delta_since_last_seen": "A contemporary index dates version 1.0 to November 2, followed by Product Hunt on November 4; the original social announcement was inaccessible."
+    },
+    {
+      "id": "meshy-n1-native-texturing",
+      "zhHeadline": "Meshy N1直接在三维表面着色，先处理转动模型才看见的接缝",
+      "enHeadline": "Meshy N1 textures in 3D to target seams exposed when a model turns",
+      "eventAt": "2026-10-31",
+      "freshness": "seven-day",
+      "evidence": "Original bodies read; manufacturer statements and editorial judgments distinguished; no independent hands-on testing",
+      "eventDateNote": "Official availability section says gradual rollout starts October31; article publishedNovember3. Clock/timezone unknown. Do not reset availability to the later article date.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "meshy:n1:meshy-n1-native-texturing:2026-10-31",
+      "product_key": "meshy:n1",
+      "publishedAt": "2026-11-03",
+      "observedAt": "2026-11-05T09:32:13.653310Z",
+      "delta_since_last_seen": "Gradual availability began October 31; the November 3 technical article does not reset that date. This is a one-week retrospective."
+    },
+    {
+      "id": "floot-payments-shipping",
+      "zhHeadline": "Floot把收款与发货接到生成应用，预览交易和真钱交易分开",
+      "enHeadline": "Floot adds payments and shipping to generated apps, with a distinct live-money boundary",
+      "eventAt": "2026-11-04",
+      "freshness": "near-three-day",
+      "evidence": "Original bodies read; manufacturer statements and editorial judgments distinguished; no independent hands-on testing",
+      "eventDateNote": "Date only; original source clock and timezone unconfirmed. November 4 overlaps the lower main-window boundary, so conservatively retained as a 72-hour supplement.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "floot.com:floot-payments-shipping:2026-11-04",
+      "product_key": "floot.com",
+      "publishedAt": "2026-11-04",
+      "observedAt": "2026-11-05T09:18:55.918620Z",
+      "delta_since_last_seen": "This November 4 payment release differs from the previously covered in-chat preview. Sample labels cannot ship parcels, and test payments move no real money."
+    },
+    {
+      "id": "pruna-p-h3-image",
+      "zhHeadline": "P-H3-Image用参考图指导局部修改，低显存版本仍有配置和许可门槛",
+      "enHeadline": "P-H3-Image guides edits with reference pictures, with configuration and licensing limits",
+      "eventAt": "2026-11-03",
+      "freshness": "near-three-day",
+      "evidence": "Original launch, two model cards and actual bundled LICENSE read; no model execution or independent benchmark.",
+      "eventDateNote": "Original launch date only; exact public time and timezone unconfirmed. Entire date inside 72-hour supplement.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "pruna:p-h3-image:release:2026-11-03",
+      "product_key": "pruna:p-h3-image",
+      "publishedAt": "2026-11-03",
+      "observedAt": "2026-11-05T09:35:51.909587+00:00",
+      "delta_since_last_seen": "Released November 3, the still-image adaptation includes quantized files and ComfyUI workflows, rather than video output."
+    },
+    {
+      "id": "oho-alite-audio-glasses",
+      "zhHeadline": "Alite把翻译和问答放到二十八克音频眼镜里，手机仍是功能入口",
+      "enHeadline": "Alite puts translation and questions into 28-gram audio glasses, with the phone still handling smart features",
+      "eventAt": "2026-11-04",
+      "freshness": "main",
+      "evidence": "Vendor-described functionality and storefront only; no independent fit/audio/translation/battery test.",
+      "eventDateNote": "AnnouncementdateNov4; syndicatedvendorrelease explicitly12:00PMEST=17:00Z",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "oho-alite-launch-announcement-2026-11-04",
+      "product_key": "oho-alite",
+      "publishedAt": "2026-11-04T17:00:00Z",
+      "observedAt": "2026-11-05T09:19:00Z",
+      "delta_since_last_seen": "The November 4 announcement specifies 28 grams with standard lenses and a November global launch plan, rather than verified delivery in every market."
+    },
+    {
+      "id": "bleequp-rover-review",
+      "zhHeadline": "Rover用可调镜头拍骑行，再把选片与运动数据交给手机",
+      "enHeadline": "Rover captures the ride through a tilting camera, then moves selection and sports data to the phone",
+      "eventAt": "2026-11-02",
+      "freshness": "seven-day",
+      "evidence": "One reviewer used Rover for running/cycling. Affiliate disclosure. No editor hands-on or measured safety/AI benchmark.",
+      "eventDateNote": "date; timezone unknown; original URL Nov1, visible review Nov2; conservatively seven-day",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "bleequp-rover-gadgets-wearables-review-2026-11-02",
+      "product_key": "bleequp-rover",
+      "publishedAt": "2026-11-02",
+      "observedAt": "2026-11-05T09:14:01Z",
+      "delta_since_last_seen": "This is a recent review, not a new launch; the reviewer found running overlays and FIT import incomplete."
+    },
+    {
+      "id": "serenibrain-review",
+      "zhHeadline": "SereniBrain把额头脑电变成练习提示，也让用户导出原始记录",
+      "enHeadline": "SereniBrain turns forehead EEG into practice cues and lets users export the underlying record",
+      "eventAt": "2026-11-03",
+      "freshness": "near-three-day",
+      "evidence": "ConsumerEEG neurofeedback, not a demonstratedAI model or medicaldevice. Reviewerhands-on, noeditoruse.",
+      "eventDateNote": "date; timezone unknown; independentreviewdate notproductlaunch",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "serenibrain-gadgets-wearables-review-2026-11-03",
+      "product_key": "serenibrain",
+      "publishedAt": "2026-11-03",
+      "observedAt": "2026-11-05T09:14:01Z",
+      "delta_since_last_seen": "The November 3 review examines fit, feedback and export; it is neither a new launch nor evidence of a particular AI model."
+    },
+    {
+      "id": "moworld-20",
+      "zhHeadline": "MoWorld 2.0把生成场景交成可复用资产，物理反馈仍待实际任务检验",
+      "enHeadline": "MoWorld 2.0 proposes reusable scene assets, with physical responses still to test",
+      "eventAt": "2026-11-04",
+      "freshness": "near-three-day",
+      "evidence": "Announcement material read on36Kr;datedYicairelay;olderofficialprojectforbackground. No hands-on physics, renderer or assetexporttest.",
+      "eventDateNote": "Date-level launch; earliest read report14:57CST precedesmainwindow; noexacteventclock",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "moxin:moworld:2.0:2026-11-04",
+      "product_key": "moxin:moworld",
+      "publishedAt": "2026-11-04T06:57:00Z",
+      "observedAt": "2026-11-05T09:27:30Z",
+      "delta_since_last_seen": "The announced update emphasizes physical responses and asset reuse. Inference speed and rendering an existing asset measure different stages."
+    },
+    {
+      "id": "clarity-agent-activity-booking",
+      "zhHeadline": "Clarity让商家检查代理卡在哪一步，并把服务咨询接到预约",
+      "enHeadline": "Clarity shows where visiting agents get stuck and connects service questions to bookings",
+      "eventAt": "2026-11-04",
+      "freshness": "near-three-day",
+      "evidence": "Original vendor documentation and product page; no independent workflow test",
+      "eventDateNote": "Date only; source clock/timezone unconfirmed; conservative near-three-day supplement rather than certain 24-hour event",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "clarity-agent-activity-booking:2026-11-04",
+      "product_key": "clarity-agent-activity-booking",
+      "publishedAt": "2026-11-04",
+      "observedAt": "2026-11-05T09:16:00Z",
+      "delta_since_last_seen": "The November 4 update adds agent diagnostics and local-service booking; a successful simulation is not evidence of a sale."
+    },
+    {
+      "id": "forrester-ai-slack",
+      "zhHeadline": "Forrester把研究回答放进Slack讨论，团队可沿引用继续查证",
+      "enHeadline": "Forrester brings research answers into Slack discussions with sources teammates can follow",
+      "eventAt": "2026-11-04",
+      "freshness": "near-three-day",
+      "evidence": "Original vendor documentation and product page; no independent workflow test",
+      "eventDateNote": "Date only; source clock/timezone unconfirmed; conservative near-three-day supplement rather than certain 24-hour event",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "forrester-ai-slack:2026-11-04",
+      "product_key": "forrester-ai-slack",
+      "publishedAt": "2026-11-04",
+      "observedAt": "2026-11-05T09:16:00Z",
+      "delta_since_last_seen": "The November 4 Slack launch removes the separate report-search-and-paste handoff during a team conversation."
+    },
+    {
+      "id": "superhuman-docs-windows-beta",
+      "zhHeadline": "Superhuman Docs把文档工作台带到Windows，浏览器插件仍影响取舍",
+      "enHeadline": "Superhuman Docs brings its workspace to Windows, while browser extensions remain a tradeoff",
+      "eventAt": "2026-11-02",
+      "freshness": "seven-day",
+      "evidence": "Original announcement and help bodies read; first five replies read; user reports not independent Windows testing",
+      "eventDateNote": "Original forum displays November2 7:32pm without timezone; conservative seven-day placement because 72-hour lower boundary intersects date.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "superhuman:docs:windows-desktop-beta:2026-11-02",
+      "product_key": "superhuman:docs",
+      "publishedAt": "2026-11-02",
+      "observedAt": "2026-11-05T09:21:00Z",
+      "delta_since_last_seen": "The November 2 batch-access beta moves existing collaboration and Docs AI into a separate window; it does not announce a new model or local inference."
+    },
+    {
+      "id": "copilot-xcode-native-preview",
+      "zhHeadline": "Copilot 进入 Xcode 原生助手，Apple 开发者多一个就地协作入口",
+      "enHeadline": "Copilot joins Xcode’s native assistant for work inside the Apple development environment",
+      "eventAt": "2026-11-04",
+      "freshness": "near-three-day",
+      "evidence": "GitHub original announcement and Apple Xcode product overview; setup and beta documentation JS bodies not fully retrieved.",
+      "eventDateNote": "day; announcement clock/time zone unknown, lower-window boundary uncertain",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "copilot:xcode-27.3:native-assistant-preview",
+      "product_key": "github-copilot-xcode",
+      "publishedAt": "2026-11-04",
+      "observedAt": "2026-11-05T09:26:07Z",
+      "delta_since_last_seen": "This is a new public-preview entry point. The existing Copilot for Xcode extension remains separate, with no claim of identical features."
+    },
+    {
+      "id": "vscode-1145-remote-review",
+      "zhHeadline": "VS Code 在远程代理旁打开应用预览，同组对话可选不同代理",
+      "enHeadline": "VS Code brings remote app previews and different agents into the same workspace view",
+      "eventAt": "2026-11-04",
+      "freshness": "near-three-day",
+      "evidence": "Microsoft release notes and official documentation; no independent runtime evaluation.",
+      "eventDateNote": "day; release clock/time zone not established, boundary uncertainty",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "vscode:1.145:remote-browser-mixed-harness",
+      "product_key": "visual-studio-code",
+      "publishedAt": "2026-11-04",
+      "observedAt": "2026-11-05T09:20:00Z",
+      "delta_since_last_seen": "Version 1.145 previews reduce separate browser setup. Nested chats can also choose different available harnesses, including Copilot, Claude and Codex."
+    },
+    {
+      "id": "gemini-cli-067-container-ide",
+      "zhHeadline": "Gemini CLI 在容器里改代码，也能回到宿主编辑器审阅差异",
+      "enHeadline": "Gemini CLI keeps editor diff review available from a container sandbox",
+      "eventAt": "2026-11-04T20:27:11Z",
+      "freshness": "main",
+      "evidence": "Release metadata, merged PR and pinned version documentation; author validation only, no independent runtime test.",
+      "eventDateNote": "second; GitHub release published_at; underlying PR merged October21, stable release November4",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "gemini-cli:v0.67.0:container-ide-bridge",
+      "product_key": "gemini-cli",
+      "publishedAt": "2026-11-04T20:27:11Z",
+      "observedAt": "2026-11-05T09:23:19Z",
+      "delta_since_last_seen": "Stable release 0.67.0 includes this bridge without relying on container-to-host networking or forwarding the editor authentication token."
+    },
+    {
+      "id": "claude-318-auth-queue-recovery",
+      "zhHeadline": "Claude Code 把登录到期和排队取消状态交给自动任务",
+      "enHeadline": "Claude Code exposes login expiry and makes queued cancellation explicit",
+      "eventAt": "2026-11-04T00:01:03Z",
+      "freshness": "near-three-day",
+      "evidence": "Anthropic release notes and reference documentation; fixes not independently reproduced.",
+      "eventDateNote": "second; SDK released 2026-11-04T00:00:55Z, CLI 8 seconds later",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "claude-code:2.1.318:auth-expiry-queued-cancellation",
+      "product_key": "claude-code",
+      "publishedAt": "2026-11-04T00:01:03Z",
+      "observedAt": "2026-11-05T09:20:00Z",
+      "delta_since_last_seen": "Code 2.1.318 and SDK 0.3.318 align. Text-mode scripts receive an expiry warning on stderr starting ten days beforehand. Other fixes preserve the approved shell directory after restart and prevent a failed headless run from reporting success."
+    },
+    {
+      "id": "strands-tools-090-migration",
+      "zhHeadline": "Strands 停用独立工具包，迁移必须重查编辑和执行边界",
+      "enHeadline": "Strands retires its tools package; editing and execution need a migration review",
+      "eventAt": "2026-11-04T17:20:16Z",
+      "freshness": "main",
+      "evidence": "Maintainer release and migration documentation; not independently executed.",
+      "eventDateNote": "second; GitHub release published_at",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "strands-agents-tools:v0.9.0:deprecation-import-errors",
+      "product_key": "strands-agents-tools",
+      "publishedAt": "2026-11-04T17:20:16Z",
+      "observedAt": "2026-11-05T09:16:43Z",
+      "delta_since_last_seen": "Version 0.9.0 raises errors instead of warnings. Older versions remain usable without future updates; editing separates read, write and exact replacement."
+    },
+    {
+      "id": "llamacpp-090-local-audio",
+      "zhHeadline": "llama.cpp 接入离线多人转写，预设声音也不必先录克隆样本",
+      "enHeadline": "llama.cpp adds offline speaker-attributed transcription and preset voices",
+      "eventAt": "2026-11-04T13:08:06Z",
+      "freshness": "main",
+      "evidence": "Official release and merged PR descriptions; author tests, not independent verification.",
+      "eventDateNote": "second; GitHub release published_at; earlier merges Nov2–3 retained",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "llama.cpp:v0.9.0:audio-runtime",
+      "product_key": "llama.cpp",
+      "publishedAt": "2026-11-04T13:08:06Z",
+      "observedAt": "2026-11-05T09:34:00Z",
+      "delta_since_last_seen": "Stable release 0.9.0 also includes Pocket TTS preset voices and Chatterbox support; presets remove the need to supply a cloning sample."
+    },
+    {
+      "id": "ernie-55-flash-base",
+      "zhHeadline": "ERNIE 5.5 Flash Base开放训练起点，领域行为仍要自己教",
+      "enHeadline": "ERNIE 5.5 Flash Base supplies a training starting point, with task behavior still to build",
+      "eventAt": "2026-11-03",
+      "freshness": "near-three-day",
+      "evidence": "Official model card, technical blog, repository history and custom licence read; no model execution or independent benchmark reproduction.",
+      "eventDateNote": "Official repository shows weight uploads November 2–3 and documentation November 4–5; displayed commit clocks have no timezone. November 5 16:21:01 CST media report corroborates formal announcement before cutoff. Treat as 72-hour completion/documentation supplement, not first-ever weight availability on November 5.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "baidu-ernie-55-flash-base:weights-and-documentation:2026-11-03",
+      "product_key": "baidu-ernie-55-flash-base",
+      "publishedAt": "2026-11-05",
+      "observedAt": "2026-11-05T09:15:59Z",
+      "delta_since_last_seen": "Its 280B total parameters include 14B active per token. Compressed attention targets long-context overhead. Weight uploads preceded the November 5 announcement."
+    },
+    {
+      "id": "kimi-k31-pro-weights",
+      "zhHeadline": "Kimi K3.1 Pro权重可下载，自建服务要同时接管算力和会话状态",
+      "enHeadline": "Kimi K3.1 Pro weights are downloadable; self-hosting includes the compute and conversation state",
+      "eventAt": "2026-11-02",
+      "freshness": "seven-day",
+      "evidence": "Official model card, main-branch file listing and history, custom license and engine recipe read. No model execution, benchmark replication, or complete weight download.",
+      "eventDateNote": "Initial commit displays Nov2 04:13 without timezone; public opening reported Nov5 07:34:37 CST. Public visibility start unverified.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "moonshot:kimi-k31-pro:weight-release:2026-11",
+      "product_key": "moonshot:kimi-k31-pro",
+      "publishedAt": "2026-11-04T23:34:37Z",
+      "observedAt": "2026-11-05T09:26:03Z",
+      "delta_since_last_seen": "Downloadable weights follow October’s API launch: 2.8T total and 104B active parameters, about 1.56 TB of files, and an eight-way tensor-parallel deployment reference."
+    },
+    {
+      "id": "daybreak-red-govcloud-east",
+      "zhHeadline": "Daybreak Red进入GovCloud东区，模型批准与AWS开通仍是两道手续",
+      "enHeadline": "Daybreak Red reaches GovCloud East, with separate model approval and AWS provisioning",
+      "eventAt": "2026-10-30",
+      "freshness": "seven-day",
+      "evidence": "AWSOct30 andOpenAINov4originalannouncements; no authenticated provisioning/test or benchmark.",
+      "eventDateNote": "AWSdateonlyOct30; OpenAINov4laterannouncement doesnotresetavailability",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "daybreak-red-gpt56cyber-govcloud-east-2026-10-30",
+      "product_key": "daybreak-red-govcloud-east",
+      "publishedAt": "2026-10-30",
+      "observedAt": "2026-11-05T09:22:00Z",
+      "delta_since_last_seen": "The availability event is AWS’s October 30 notice; OpenAI’s November 4 article does not announce a new model."
+    },
+    {
+      "id": "fluidic-body",
+      "zhHeadline": "Fluidic Body用张手和握拳改变机器人群的软硬，绕障与推物共用一套动作",
+      "enHeadline": "Fluidic Body changes a robot swarm’s flexibility with an open hand or fist",
+      "eventAt": "2026-11-04T07:13:34Z",
+      "freshness": "near-three-day",
+      "evidence": "Original paper; author-reported evaluation; no independent implementation test",
+      "eventDateNote": "second; arXiv submission, public announcement clock unconfirmed",
+      "gapBackfill": false,
+      "eventTimeKind": "arxiv-submission",
+      "event_key": "fluidic-body-arxiv-v1",
+      "product_key": "fluidic-body",
+      "publishedAt": "2026-11-04T07:13:34Z",
+      "observedAt": "2026-11-05T09:23:30.543500+00:00",
+      "delta_since_last_seen": "Hand tracking, projector-based localization and an object-tracking camera support the physical prototype. The fluid is a computational layer between hand and robots; it does not physically change the material of each machine."
+    },
+    {
+      "id": "smartphone-vr-hiit",
+      "zhHeadline": "手机相机给VR训练补上全身动作反馈，运动报告不等于伤害风险诊断",
+      "enHeadline": "A phone camera adds full-body feedback to VR exercise, without validating injury-risk diagnosis",
+      "eventAt": "2026-11-04T16:18:35Z",
+      "freshness": "main",
+      "evidence": "Original paper; author-reported evaluation; no independent implementation test",
+      "eventDateNote": "second; arXiv submission, public announcement clock unconfirmed",
+      "gapBackfill": false,
+      "eventTimeKind": "arxiv-submission",
+      "event_key": "smartphone-vr-hiit-arxiv-v1",
+      "product_key": "smartphone-vr-hiit",
+      "publishedAt": "2026-11-04T16:18:35Z",
+      "observedAt": "2026-11-05T09:23:30.543500+00:00",
+      "delta_since_last_seen": "MediaPipe and reference-pose distance matrices support movement classification; the language model explains structured metrics afterward. Separating classification from reporting makes the proposed mechanism inspectable, but the connected camera does not add heart-rate or other physiological measurements."
+    },
+    {
+      "id": "rov-haptic-cognitive-load",
+      "zhHeadline": "软触板用震动提示水流方向，操作更快也可能更费脑",
+      "enHeadline": "A soft touchpad signals cross-currents, with faster steering and greater mental demand",
+      "eventAt": "2026-11-04T15:55:47Z",
+      "freshness": "main",
+      "evidence": "Original paper; author-reported evaluation; no independent implementation test",
+      "eventDateNote": "second; arXiv submission, public announcement clock unconfirmed",
+      "gapBackfill": false,
+      "eventTimeKind": "arxiv-submission",
+      "event_key": "rov-haptic-cognitive-load-arxiv-v1",
+      "product_key": "rov-haptic-cognitive-load",
+      "publishedAt": "2026-11-04T15:55:47Z",
+      "observedAt": "2026-11-05T09:29:36.888956+00:00",
+      "delta_since_last_seen": "The same contact surface carries commands and feedback, avoiding another visual gauge while requiring users to learn both tactile mappings. The cue communicates information and leaves the actual avoidance decision with the human operator."
+    },
+    {
+      "id": "bobflow",
+      "zhHeadline": "BobFlow把代理分析展开成可改的数据流，出错时能回到同一份上下文",
+      "enHeadline": "BobFlow exposes editable dataflows and restores the matching context when an analysis branches",
+      "eventAt": "2026-11-04T00:02:41Z",
+      "freshness": "near-three-day",
+      "evidence": "Original paper; author-reported evaluation; no independent implementation test",
+      "eventDateNote": "second; arXiv submission, public announcement clock unconfirmed",
+      "gapBackfill": false,
+      "eventTimeKind": "arxiv-submission",
+      "event_key": "bobflow-arxiv-v1",
+      "product_key": "bobflow",
+      "publishedAt": "2026-11-04T00:02:41Z",
+      "observedAt": "2026-11-05T09:23:30.543500+00:00",
+      "delta_since_last_seen": "The shared graph exposes dependencies and execution results, making a specific repair easier to discuss. Intermediate tables give the reviewer a place to check missing values and joins, while the intended business definition remains a human responsibility."
+    },
+    {
+      "id": "cat-fetal-annotation",
+      "zhHeadline": "CAT直接在超声帧上记切面和质量，省掉手抄帧范围的错误",
+      "enHeadline": "CAT labels ultrasound frames directly, removing manually entered frame ranges",
+      "eventAt": "2026-11-04T17:07:12Z",
+      "freshness": "main",
+      "evidence": "Original paper; author-reported evaluation; no independent implementation test",
+      "eventDateNote": "second; arXiv submission, public announcement clock unconfirmed",
+      "gapBackfill": false,
+      "eventTimeKind": "arxiv-submission",
+      "event_key": "cat-fetal-annotation-arxiv-v1",
+      "product_key": "cat-fetal-annotation",
+      "publishedAt": "2026-11-04T17:07:12Z",
+      "observedAt": "2026-11-05T09:29:36.888956+00:00",
+      "delta_since_last_seen": "Labels continue between change points, removing manual start/end entry and preventing overlapping or out-of-range frame intervals. Keyboard shortcuts reduce entry work while leaving view-recognition training and agreement about image-quality grades with the annotation team."
+    },
+    {
+      "id": "gpumap",
+      "zhHeadline": "GPUMAP先返回逐步成形的数据投影，等待更短不等于全部计算更快",
+      "enHeadline": "GPUMAP shows an evolving projection before completion, trading earlier feedback against total runtime",
+      "eventAt": "2026-11-04T09:05:00Z",
+      "freshness": "near-three-day",
+      "evidence": "Original paper; author-reported evaluation; no independent implementation test",
+      "eventDateNote": "second; arXiv submission, public announcement clock unconfirmed",
+      "gapBackfill": true,
+      "eventTimeKind": "arxiv-submission",
+      "event_key": "gpumap-arxiv-v1",
+      "product_key": "gpumap",
+      "publishedAt": "2026-11-04T09:05:00Z",
+      "observedAt": "2026-11-05T09:29:36.888956+00:00",
+      "delta_since_last_seen": "CUDA batches accelerate these steps, exposing intermediate results instead of returning only a finished map. The integrator still needs a visualization client: returning coordinates does not itself deliver a complete interactive application."
+    },
+    {
+      "id": "tact-qualitative-council",
+      "zhHeadline": "TACT让多模型编码带上原句证据，研究者先盲读再审查主题",
+      "enHeadline": "TACT attaches source evidence to multi-model coding and puts human reading before theme review",
+      "eventAt": "2026-11-03T22:30:18Z",
+      "freshness": "near-three-day",
+      "evidence": "Original paper; author-reported evaluation; no independent implementation test",
+      "eventDateNote": "second; arXiv submission, public announcement clock unconfirmed",
+      "gapBackfill": false,
+      "eventTimeKind": "arxiv-submission",
+      "event_key": "tact-qualitative-council-arxiv-v1",
+      "product_key": "tact-qualitative-council",
+      "publishedAt": "2026-11-03T22:30:18Z",
+      "observedAt": "2026-11-05T09:23:30.543500+00:00",
+      "delta_since_last_seen": "Subsequent coding retains rationales and provenance; the Full variant adds critiques and uncertainty screening."
+    }
+  ],
+  "eventCounts": {
+    "mainWindowEvents": 7,
+    "nearThreeDayReviews": 15,
+    "sevenDayReviews": 6,
+    "gapBackfillEvents": 1,
+    "interpretation": "Announcements, submissions, updates and regional reports; not first product launches."
+  }
+}

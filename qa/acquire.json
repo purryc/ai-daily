@@ -1,16 +1,1 @@
-[
-  {
-    "name": "meshy.jpg",
-    "url": "https://cdn.meshy.ai/ti_w%3A3840%2Cq%3A75/landing-assets/blog/meshy-n1-texture/meshy-n1-texture-06.webp",
-    "kind": "image",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "name": "pruna.jpg",
-    "url": "https://framerusercontent.com/images/7FcrdALpGNDI1J2kKBSfmzDL4.png?height=2177&width=2400",
-    "kind": "image",
-    "renderImage": true,
-    "locale": "en"
-  }
-]
+[]

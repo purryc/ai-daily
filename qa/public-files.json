@@ -8045,6 +8045,466 @@
     "sha256": "79b0c8d7d7d2384d7d57e01a7538bbafc67e0f29519a195b31fa269996c3859b"
   },
   {
+    "path": "2026-11-05/assets/alite.jpg",
+    "bytes": 47179,
+    "sha256": "157b3707ec4b88fbed157fa361397114115fd154a06aadc4f3a0df7f660ac8d3"
+  },
+  {
+    "path": "2026-11-05/assets/bleequp.jpg",
+    "bytes": 135364,
+    "sha256": "d8f375a42937caa0827f31898ed6df6801d6af9f30b0c15611b048706d48ba85"
+  },
+  {
+    "path": "2026-11-05/assets/bobflow.jpg",
+    "bytes": 167142,
+    "sha256": "b84c9739cd7b6415dcba1b056fab70bf2161ab274d1096a8141090bebed096ac"
+  },
+  {
+    "path": "2026-11-05/assets/cat.jpg",
+    "bytes": 73956,
+    "sha256": "752a2d7ab36bd72ab3a4ca707ce89dd564a84b9d987f85ee2f556f7e7d20fb7e"
+  },
+  {
+    "path": "2026-11-05/assets/clarity.jpg",
+    "bytes": 90188,
+    "sha256": "ee5b1261b7e53ffeb265d70500c466becf382d3caef7e16ab6db45ee4df5d08c"
+  },
+  {
+    "path": "2026-11-05/assets/claude-318-auth-queue-recovery-flow.png",
+    "bytes": 120917,
+    "sha256": "ed212bcf969d4070bbd231909f9dcc0a189115271a6ea9f7fe293bf6340a096d"
+  },
+  {
+    "path": "2026-11-05/assets/daybreak-red-govcloud-east-flow.png",
+    "bytes": 120608,
+    "sha256": "0ab3eaba21dc0f6572d9215e514c284aff6458e5be8cb13a3bd55d402588b3dc"
+  },
+  {
+    "path": "2026-11-05/assets/deck.js",
+    "bytes": 2576,
+    "sha256": "63d13c06452d7405e0b5ed572d8464d802c9e5b8de656b5a94e3527b1730f7b3"
+  },
+  {
+    "path": "2026-11-05/assets/ernie.jpg",
+    "bytes": 163379,
+    "sha256": "142ec7bf650bd88b5fbc3074b4165167ec555c9100e9f9c6b33b74407044cc9c"
+  },
+  {
+    "path": "2026-11-05/assets/floot.jpg",
+    "bytes": 55741,
+    "sha256": "168a87e0a3b9ed88e63083e9ee501e8b047626d3c7999b2523aab801a597c1a3"
+  },
+  {
+    "path": "2026-11-05/assets/fluidic.jpg",
+    "bytes": 144759,
+    "sha256": "2795786e17466f18e04f5685e033e5b7e44689951ff1a329f8e7fcb6f0870526"
+  },
+  {
+    "path": "2026-11-05/assets/forrester.jpg",
+    "bytes": 118395,
+    "sha256": "6f5b66e286370d6cc3f3003c9c1aafe4cd419b908b97d48d3c28f3140a0e5282"
+  },
+  {
+    "path": "2026-11-05/assets/gemini-cli-067-container-ide-flow.png",
+    "bytes": 106694,
+    "sha256": "30b6784dfe192335de8c2603649a066a5cd7d4cc17b579fdbef5adf9b8d1bc2a"
+  },
+  {
+    "path": "2026-11-05/assets/gpumap.jpg",
+    "bytes": 82669,
+    "sha256": "a5fc3fdff676eed762ef1704e1c1ef1cb5345661ef39fbe1428bd2c2025243c7"
+  },
+  {
+    "path": "2026-11-05/assets/images26.jpg",
+    "bytes": 293888,
+    "sha256": "e6e40fac08522fc0b2f112a8e426d9d4f4cc44135f4957179da8ba08af8131d9"
+  },
+  {
+    "path": "2026-11-05/assets/issue.css",
+    "bytes": 10285,
+    "sha256": "1e458c07ba855726699c2b9885d466a62a85e04604b22dddcca9a2f3d1ca09e9"
+  },
+  {
+    "path": "2026-11-05/assets/kimi-k31-pro-weights-flow.png",
+    "bytes": 118091,
+    "sha256": "f6499954aa112834bc4df33f54445e4a41e12eebc9ad2970d819a500c49b5119"
+  },
+  {
+    "path": "2026-11-05/assets/llamacpp-090-local-audio-flow.png",
+    "bytes": 114305,
+    "sha256": "93f97887bdccd95b7b3e3e139a1e9ff100b357ee7817a24944a573bb250ea2e2"
+  },
+  {
+    "path": "2026-11-05/assets/meshy.jpg",
+    "bytes": 216583,
+    "sha256": "946299dd3b2521f58e9bcb93a002f0d78f20e90a5f8bb6df04d6d1331cdf55df"
+  },
+  {
+    "path": "2026-11-05/assets/moworld.jpg",
+    "bytes": 210529,
+    "sha256": "51d9ec14742290702599d59213292e84f04546f61243a422c6a394c7b0f6b3a4"
+  },
+  {
+    "path": "2026-11-05/assets/pruna.jpg",
+    "bytes": 403047,
+    "sha256": "ce4427d54e7400335c71427c972fce97eff88a582341426c13aa6b9151828c68"
+  },
+  {
+    "path": "2026-11-05/assets/rov.jpg",
+    "bytes": 207865,
+    "sha256": "92c4c641eeafc65424f0d7bdf738ece6ec839dcb84e5e99d3f40704ca1c54cba"
+  },
+  {
+    "path": "2026-11-05/assets/serenibrain.jpg",
+    "bytes": 124926,
+    "sha256": "457987560d18529758d5eafb18c35dab3a02785ba6b6284f893355f316492c9b"
+  },
+  {
+    "path": "2026-11-05/assets/strands-tools-090-migration-flow.png",
+    "bytes": 112006,
+    "sha256": "fdc64388da857aecf2e2250bd9f03593417cbc091c99452177c4d9e8156617f0"
+  },
+  {
+    "path": "2026-11-05/assets/superhuman.jpg",
+    "bytes": 168570,
+    "sha256": "2d9db6d4b47105c747cbf0aa662a68942cb0ccfc6799f6f5f2739beb154407c6"
+  },
+  {
+    "path": "2026-11-05/assets/tact-qualitative-council-flow.png",
+    "bytes": 117293,
+    "sha256": "b11beb2ba5d9077f5d20c85744ee722a4d8d9f01cc426e2a32dffcfc89fbb5d6"
+  },
+  {
+    "path": "2026-11-05/assets/vr-hiit.jpg",
+    "bytes": 112265,
+    "sha256": "f8156e6f20ba96680584ae4bed2a4b1c7b1e675e344611ce54babfccee90b5d6"
+  },
+  {
+    "path": "2026-11-05/assets/vscode.jpg",
+    "bytes": 8906,
+    "sha256": "baf20b94bc021c1bb9c8f06a326a35c90b256e95c6ad7a56cab2899a7beca608"
+  },
+  {
+    "path": "2026-11-05/assets/wanaka-editor.jpg",
+    "bytes": 169021,
+    "sha256": "71f246bd355f33d6574391c7cfef4794c3262c0ef16e81d4e84749f9dcb8ca26"
+  },
+  {
+    "path": "2026-11-05/assets/xcode.jpg",
+    "bytes": 199724,
+    "sha256": "01ef79e59a04daa6a5343c69d331f802f5a210e7aef02ebdfbe61167810f67d0"
+  },
+  {
+    "path": "2026-11-05/en/details/bleequp-rover-review.html",
+    "bytes": 6082,
+    "sha256": "bdd360741f422b9caccf3ad1173db3761b107c97067d2de66ec987e2d02ce9f7"
+  },
+  {
+    "path": "2026-11-05/en/details/bobflow.html",
+    "bytes": 6132,
+    "sha256": "10ccf7b346da547fab9b9804f696fe1752831203d954128ec83a6bdb08ae81c6"
+  },
+  {
+    "path": "2026-11-05/en/details/cat-fetal-annotation.html",
+    "bytes": 6060,
+    "sha256": "a8c3b195b0bbd025628bf3430a9d296fe5acd6bd43dd6400f95c353c4cf8faef"
+  },
+  {
+    "path": "2026-11-05/en/details/clarity-agent-activity-booking.html",
+    "bytes": 5987,
+    "sha256": "25c7389c7e9253b3116ecb4b54034c4fcb25edaa17a88f49c3830db3914f9109"
+  },
+  {
+    "path": "2026-11-05/en/details/claude-318-auth-queue-recovery.html",
+    "bytes": 6608,
+    "sha256": "0473caccc536981d155ddfe439c89f44b6aec89a89074f7f4cceb6535966ebad"
+  },
+  {
+    "path": "2026-11-05/en/details/copilot-xcode-native-preview.html",
+    "bytes": 6466,
+    "sha256": "8e5643207792dd9ee26234453ddfd5eacf5d7a11cc4323366de1a0f0ab6a6105"
+  },
+  {
+    "path": "2026-11-05/en/details/daybreak-red-govcloud-east.html",
+    "bytes": 6444,
+    "sha256": "a34f6d79703140d3b9ef98c38bdac754ea9f94f6484cb9e3bb79e118cf7e0819"
+  },
+  {
+    "path": "2026-11-05/en/details/ernie-55-flash-base.html",
+    "bytes": 6409,
+    "sha256": "42888d37116de59ac1084e22350bac00d2bdf47b42f9f628efaa9a8250ea6ac7"
+  },
+  {
+    "path": "2026-11-05/en/details/floot-payments-shipping.html",
+    "bytes": 5836,
+    "sha256": "0aec50e36564560e7bf532f3bbab9cfa365638020f52dc1b321cffa725a0387f"
+  },
+  {
+    "path": "2026-11-05/en/details/fluidic-body.html",
+    "bytes": 5981,
+    "sha256": "3f6802740e05a9450481522ee9275ebdbecb7e550c7b5c2de0243e4d7089a8ef"
+  },
+  {
+    "path": "2026-11-05/en/details/forrester-ai-slack.html",
+    "bytes": 6029,
+    "sha256": "202c42696bf3b28a20e3a79f15a835612e73ba6b4c412ace4b946633975d3d00"
+  },
+  {
+    "path": "2026-11-05/en/details/gemini-cli-067-container-ide.html",
+    "bytes": 7069,
+    "sha256": "5b2273381a4285205ce64fa0532d21f91dfca1a0fac90ca5c1fb9ad20792070f"
+  },
+  {
+    "path": "2026-11-05/en/details/gpumap.html",
+    "bytes": 6184,
+    "sha256": "b288e8775f214534dc028afe3d3e25feb5567b2c57bc8aea019043da0aad7c46"
+  },
+  {
+    "path": "2026-11-05/en/details/images-26-markup-complexity.html",
+    "bytes": 6028,
+    "sha256": "3030515affa44c367f43dfe9b3d6848b4dbd35eb33b529338a6490071ee6d9d9"
+  },
+  {
+    "path": "2026-11-05/en/details/kimi-k31-pro-weights.html",
+    "bytes": 7163,
+    "sha256": "d9f776d13422650ea1a5bcf75fe4003bd5c7b99850dfc9e82d0e2d6f0a90a3ba"
+  },
+  {
+    "path": "2026-11-05/en/details/llamacpp-090-local-audio.html",
+    "bytes": 6648,
+    "sha256": "52abc2d1e6588b05431e1d79ac08e1b882635a7fd8ebc4210b81290603b31bd6"
+  },
+  {
+    "path": "2026-11-05/en/details/meshy-n1-native-texturing.html",
+    "bytes": 5562,
+    "sha256": "e4840f2af1de74b39e9b7980a3708149b24fcda0b8dab5c338faf1051ea5809e"
+  },
+  {
+    "path": "2026-11-05/en/details/moworld-20.html",
+    "bytes": 6370,
+    "sha256": "2f016dd0dd5d87aaf06b33fe824439b4fe21c408c18c5368898239f14d933c99"
+  },
+  {
+    "path": "2026-11-05/en/details/oho-alite-audio-glasses.html",
+    "bytes": 6571,
+    "sha256": "fe1348d2a2cc93f4a2f84d7a2360e991ec3c5f3a1af5b047fbc7e89c1a7883aa"
+  },
+  {
+    "path": "2026-11-05/en/details/pruna-p-h3-image.html",
+    "bytes": 6486,
+    "sha256": "8046b46cb2e9de57332ff3d3a2f3f77fc383bb44f9c1e96f5b7427f842c82133"
+  },
+  {
+    "path": "2026-11-05/en/details/rov-haptic-cognitive-load.html",
+    "bytes": 6041,
+    "sha256": "b9cf13c834d3f5d3e20fd62ee2ada5274c14234e5ba0c7e9f269c0fea75fcb23"
+  },
+  {
+    "path": "2026-11-05/en/details/serenibrain-review.html",
+    "bytes": 6003,
+    "sha256": "408b26f8fac8cda215616bf75e6d502cbf40aff17b9327f697fe86adc0de4a5b"
+  },
+  {
+    "path": "2026-11-05/en/details/smartphone-vr-hiit.html",
+    "bytes": 6185,
+    "sha256": "34c7447941d6d0a00a7ba128ff2e41daa1a44c6574606cd18280ea012124fda9"
+  },
+  {
+    "path": "2026-11-05/en/details/strands-tools-090-migration.html",
+    "bytes": 6428,
+    "sha256": "be6fea882c4f2c96fce44d757cd40d8fcc0cbbc9e6424d539fd0a5be840976a5"
+  },
+  {
+    "path": "2026-11-05/en/details/superhuman-docs-windows-beta.html",
+    "bytes": 6022,
+    "sha256": "75093ed757c4f3c6b447cd09fed4456f72d3eb8fe1258c6f90140473bd9b2cf5"
+  },
+  {
+    "path": "2026-11-05/en/details/tact-qualitative-council.html",
+    "bytes": 6113,
+    "sha256": "dc6da62bad284251c7645164999144554da9c8038d9b065ff7cfebe5e4970b68"
+  },
+  {
+    "path": "2026-11-05/en/details/vscode-1145-remote-review.html",
+    "bytes": 6694,
+    "sha256": "d0549c01f621db5d512f8f6eacfbb975ceb417d1e5ea41ea7bae9e10bb92048b"
+  },
+  {
+    "path": "2026-11-05/en/details/wanaka-editable-3d-studio.html",
+    "bytes": 5681,
+    "sha256": "4bf66d1d37cfb5ea947fa9171ffa652ccf4c981a8d46a0e597da9fd6a6f8e04d"
+  },
+  {
+    "path": "2026-11-05/en/index.html",
+    "bytes": 94331,
+    "sha256": "829f68e55f4054aa22df3e2306c9823a537b10a882514ff65b08d12a0bc8081c"
+  },
+  {
+    "path": "2026-11-05/manifest.json",
+    "bytes": 35028,
+    "sha256": "b59eb11946e3850800b212e088f90c25fc8d2a00c0b5f352409e45ea17e3592f"
+  },
+  {
+    "path": "2026-11-05/sources.html",
+    "bytes": 58687,
+    "sha256": "8641cebc5ccca61904ced6bbabc480adf746e2dbd16c428868d0ef8ab871eefd"
+  },
+  {
+    "path": "2026-11-05/sources.json",
+    "bytes": 23871,
+    "sha256": "c5e895887a80b3b85d7e911991b70fa4a1b3d107ba5eca3b3e8a4a697dc5192a"
+  },
+  {
+    "path": "2026-11-05/visuals.json",
+    "bytes": 21143,
+    "sha256": "c4cc2d7135e7bb8c8015002dfc94835f4ba0cd4ef271d8ffeb9b4e5c710ccc4b"
+  },
+  {
+    "path": "2026-11-05/zh/details/bleequp-rover-review.html",
+    "bytes": 5424,
+    "sha256": "d62ae933822b53827c693c83079016951bd7db050a2ddbeee2eb5d8e1b41acf8"
+  },
+  {
+    "path": "2026-11-05/zh/details/bobflow.html",
+    "bytes": 5347,
+    "sha256": "76ac307e5ede1e92c7091848d8b4bbfa7e84c84addaf907509f674e5dab482da"
+  },
+  {
+    "path": "2026-11-05/zh/details/cat-fetal-annotation.html",
+    "bytes": 5217,
+    "sha256": "f29cd57949d569d389851cc0f72afbe22dd0ce3721abb7ed175cafc4378c6044"
+  },
+  {
+    "path": "2026-11-05/zh/details/clarity-agent-activity-booking.html",
+    "bytes": 5340,
+    "sha256": "b19bb65a7d07887a730b3f947ae4bff438b33e1f4e8be2e43d14b277e0517b92"
+  },
+  {
+    "path": "2026-11-05/zh/details/claude-318-auth-queue-recovery.html",
+    "bytes": 6245,
+    "sha256": "4307fadbae698cc88849911b871851335e43705a808d14a44f70291f523ace05"
+  },
+  {
+    "path": "2026-11-05/zh/details/copilot-xcode-native-preview.html",
+    "bytes": 5879,
+    "sha256": "7f933a73bc34a87925cb9e472a4540815273d02758e162f4a2ef0fd725f27819"
+  },
+  {
+    "path": "2026-11-05/zh/details/daybreak-red-govcloud-east.html",
+    "bytes": 6009,
+    "sha256": "952fa970a2d7f35d5db48bae864c9761485000af64cb8d69e83a44ce33b3cfc8"
+  },
+  {
+    "path": "2026-11-05/zh/details/ernie-55-flash-base.html",
+    "bytes": 5885,
+    "sha256": "7785dfd38b2f17063f693cca6a0f712004f516880812ba202665c9b2f2a57df3"
+  },
+  {
+    "path": "2026-11-05/zh/details/floot-payments-shipping.html",
+    "bytes": 5277,
+    "sha256": "5823961f90e873d7db0a6a0d0d1479f68d4ad7d6ed218baff4f920bd412e7e66"
+  },
+  {
+    "path": "2026-11-05/zh/details/fluidic-body.html",
+    "bytes": 5178,
+    "sha256": "6cdaa22a992a999b8bc971ab7ff8f34135d02485b4738191214801c94bd88e5c"
+  },
+  {
+    "path": "2026-11-05/zh/details/forrester-ai-slack.html",
+    "bytes": 5463,
+    "sha256": "cbf7650710b8437545323d36cd13120907b2dc2154f683142c87f6098c8b1ce9"
+  },
+  {
+    "path": "2026-11-05/zh/details/gemini-cli-067-container-ide.html",
+    "bytes": 6669,
+    "sha256": "90d7ec6172783e50b21bede047758c6457449907cec83e5e9a877d2cb742e082"
+  },
+  {
+    "path": "2026-11-05/zh/details/gpumap.html",
+    "bytes": 5312,
+    "sha256": "e3bcc8a9c4cd35b605abf3b352233d0049908ad2f8d7571e59318aaaa2ae485d"
+  },
+  {
+    "path": "2026-11-05/zh/details/images-26-markup-complexity.html",
+    "bytes": 5555,
+    "sha256": "e5c9d19b940c4075b66d140671329b00fea90f8d02e7948276eeeec02afff539"
+  },
+  {
+    "path": "2026-11-05/zh/details/kimi-k31-pro-weights.html",
+    "bytes": 6316,
+    "sha256": "8af088263a4d14541ce5ec0717e96573db5048eaadc71fb7b29ef3fa92629f82"
+  },
+  {
+    "path": "2026-11-05/zh/details/llamacpp-090-local-audio.html",
+    "bytes": 6072,
+    "sha256": "a63a76f3ddde938060228297f329376f4214afa5181f305fcdbe9e28ceb3c15a"
+  },
+  {
+    "path": "2026-11-05/zh/details/meshy-n1-native-texturing.html",
+    "bytes": 5132,
+    "sha256": "20cd52fe272aaeed03e2a9774484548289b5b2f11063d48226b897db6363bf71"
+  },
+  {
+    "path": "2026-11-05/zh/details/moworld-20.html",
+    "bytes": 5696,
+    "sha256": "d0d85f80e659731e00b0379088e9c616d918a46a102bc980f744a9fe7cb131b5"
+  },
+  {
+    "path": "2026-11-05/zh/details/oho-alite-audio-glasses.html",
+    "bytes": 6039,
+    "sha256": "8f74064a1d0d92d34ab89fc4fb330cd34cfcc9c6541570cb724c01afebfde878"
+  },
+  {
+    "path": "2026-11-05/zh/details/pruna-p-h3-image.html",
+    "bytes": 5838,
+    "sha256": "be3924f1a1090f4ee0fbfc945164682f26e105016ceb3fa9bc6fb19a273977ca"
+  },
+  {
+    "path": "2026-11-05/zh/details/rov-haptic-cognitive-load.html",
+    "bytes": 5065,
+    "sha256": "7dd7062b36ceb766e1fc0258653e650ed482f41f870616812693407e9d631a51"
+  },
+  {
+    "path": "2026-11-05/zh/details/serenibrain-review.html",
+    "bytes": 5556,
+    "sha256": "930d22dce50993c6a2dc9b009330364d074016899d2df06fac245ae9da8ea203"
+  },
+  {
+    "path": "2026-11-05/zh/details/smartphone-vr-hiit.html",
+    "bytes": 5203,
+    "sha256": "c485ae7197d60dbf280bc97287aa73ea094b1c0507ab8d738b0b095cc3d49243"
+  },
+  {
+    "path": "2026-11-05/zh/details/strands-tools-090-migration.html",
+    "bytes": 5817,
+    "sha256": "bd68c9d804fbf41f7317fe0122c0b7a28af4890af3c68651cddc3259a159105d"
+  },
+  {
+    "path": "2026-11-05/zh/details/superhuman-docs-windows-beta.html",
+    "bytes": 5705,
+    "sha256": "fa7c93eeb2c678c94855e9c273546c2f7640755ff9945ef70f4fd648fc4849b7"
+  },
+  {
+    "path": "2026-11-05/zh/details/tact-qualitative-council.html",
+    "bytes": 5221,
+    "sha256": "ee684669467fd1fdbaf8f3d81e7441b668b2e2870a7eb811ce95efe10b722ec5"
+  },
+  {
+    "path": "2026-11-05/zh/details/vscode-1145-remote-review.html",
+    "bytes": 6147,
+    "sha256": "d776442a2efc5624f49cd77005b3358cdad0450b9e0be9d0177cba98a72e2ac6"
+  },
+  {
+    "path": "2026-11-05/zh/details/wanaka-editable-3d-studio.html",
+    "bytes": 5177,
+    "sha256": "17a5b9ea54b977e893dab57cf2958b543069eb63a621bbd264da3625b0eb9e04"
+  },
+  {
+    "path": "2026-11-05/zh/index.html",
+    "bytes": 89860,
+    "sha256": "53e9bc83580a711395db2c4860e10fb51bcde972ab640c5dd3fd42b73fea83ad"
+  },
+  {
     "path": "assets/acti-agentic-keyboard-2026-07-03.svg",
     "bytes": 2825,
     "sha256": "84ad9abb0a1191abde62dea383e6e1ed583fc089073d3ccaf91629044501721b"
@@ -8456,18 +8916,18 @@
   },
   {
     "path": "en/index.html",
-    "bytes": 176092,
-    "sha256": "5796d558971e7110485ff5877a3a6faa11b1f2e84f953f3976c6e15ffb864775"
+    "bytes": 177336,
+    "sha256": "56b2fbcf41d5d1bbe5f18b4f57ae4c20ef541cf1ba2d843c08460ae758bb51da"
   },
   {
     "path": "index.html",
-    "bytes": 169958,
-    "sha256": "d83623230c4d0fce6b481295e15c218dfb122f426ed9b65b3f070ed0fa07fc90"
+    "bytes": 171178,
+    "sha256": "6a8d684ca2034012597575af9303a64c50d75b9a31cbb61cea73164af9b703cd"
   },
   {
     "path": "manifest.json",
-    "bytes": 747939,
-    "sha256": "196797350e62c5ab1ade2305f77c788d500d53f81025613352ae6f311f0a710c"
+    "bytes": 749457,
+    "sha256": "94934453c2991f9db2f035ae699fc736ff0ccc688e706ef319eab83c3fe5594d"
   },
   {
     "path": "weekly/2026-10-12/pilot/en/index.html",

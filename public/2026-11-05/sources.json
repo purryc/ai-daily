@@ -1,0 +1,744 @@
+[
+  {
+    "url": "https://openai.com/index/introducing-images-2-6/",
+    "title": "Introducing Images 2.6",
+    "publisher": "OpenAI",
+    "publishedAt": "2026-11-04",
+    "observedAt": "2026-11-05T09:22:51.411769Z",
+    "number": 1
+  },
+  {
+    "url": "https://developers.openai.com/api/docs/guides/image-generation",
+    "title": "Image generation guide",
+    "publisher": "OpenAI",
+    "observedAt": "2026-11-05T09:22:51.411769Z",
+    "number": 2
+  },
+  {
+    "url": "https://deploymentsafety.openai.com/chatgpt-images-2-6",
+    "title": "Images 2.6 system card",
+    "publisher": "OpenAI",
+    "publishedAt": "2026-11-04",
+    "observedAt": "2026-11-05T09:22:51.411769Z",
+    "number": 3
+  },
+  {
+    "url": "https://developers.openai.com/api/docs/pricing",
+    "title": "API pricing",
+    "publisher": "OpenAI",
+    "observedAt": "2026-11-05T09:22:51.411769Z",
+    "number": 4
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1xo3oir/introducing_images_26/",
+    "title": "Introducing Images 2.6 community discussion",
+    "publisher": "Reddit / r/ChatGPT",
+    "observedAt": "2026-11-05T09:28:07.881261Z",
+    "number": 5
+  },
+  {
+    "url": "https://www.producthunt.com/products/wanaka-studio",
+    "title": "Wanaka Studio launch and visible maker discussion",
+    "publisher": "Product Hunt / Wanaka",
+    "publishedAt": "2026-11-04",
+    "observedAt": "2026-11-05T09:18:55.918620Z",
+    "number": 6
+  },
+  {
+    "url": "https://wanaka.app/",
+    "title": "Wanaka official product",
+    "publisher": "Wanaka",
+    "observedAt": "2026-11-05T09:18:55.918620Z",
+    "number": 7
+  },
+  {
+    "url": "https://vibestack.tools/releases/",
+    "title": "Release index: Wanaka Studio 1.0",
+    "publisher": "VibeStack",
+    "publishedAt": "2026-11-02",
+    "observedAt": "2026-11-05T09:33:30.933570Z",
+    "number": 8
+  },
+  {
+    "url": "https://www.meshy.ai/blog/meshy-n1-texture",
+    "title": "Meshy N1 native texturing release and evaluation",
+    "publisher": "Meshy",
+    "publishedAt": "2026-11-03",
+    "observedAt": "2026-11-05T09:32:13.653310Z",
+    "number": 9
+  },
+  {
+    "url": "https://www.meshy.ai/features/ai-texture-generator",
+    "title": "AI texture generator general workflow",
+    "publisher": "Meshy",
+    "observedAt": "2026-11-05T09:32:13.653310Z",
+    "number": 10
+  },
+  {
+    "url": "https://www.producthunt.com/products/floot",
+    "title": "Floot Payments launch",
+    "publisher": "Product Hunt / Floot",
+    "publishedAt": "2026-11-04",
+    "observedAt": "2026-11-05T09:18:55.918620Z",
+    "number": 11
+  },
+  {
+    "url": "https://floot.com/docs/integrations/payments",
+    "title": "Payments documentation",
+    "publisher": "Floot",
+    "observedAt": "2026-11-05T09:18:55.918620Z",
+    "number": 12
+  },
+  {
+    "url": "https://floot.com/docs/integrations/shipping",
+    "title": "Shipping documentation",
+    "publisher": "Floot",
+    "observedAt": "2026-11-05T09:18:55.918620Z",
+    "number": 13
+  },
+  {
+    "url": "https://floot.com/",
+    "title": "Floot product",
+    "publisher": "Floot",
+    "observedAt": "2026-11-05T09:18:55.918620Z",
+    "number": 14
+  },
+  {
+    "url": "https://www.pruna.ai/blog/oss-p-h3-image-launch",
+    "title": "P-H3-Image launch",
+    "publisher": "Pruna AI",
+    "publishedAt": "2026-11-03",
+    "observedAt": "2026-11-05T09:35:51.909587+00:00",
+    "number": 15
+  },
+  {
+    "url": "https://huggingface.co/PrunaAI/P-H3-Image",
+    "title": "P-H3-Image Diffusers model card",
+    "publisher": "Pruna AI",
+    "observedAt": "2026-11-05T09:35:51.909587+00:00",
+    "number": 16
+  },
+  {
+    "url": "https://huggingface.co/PrunaAI/P-H3-Image-Comfy",
+    "title": "P-H3-Image ComfyUI model card",
+    "publisher": "Pruna AI",
+    "observedAt": "2026-11-05T09:35:51.909587+00:00",
+    "number": 17
+  },
+  {
+    "url": "https://huggingface.co/PrunaAI/P-H3-Image-Comfy/blob/main/LICENSE",
+    "title": "MiniMax H3 Community License bundled with P-H3-Image",
+    "publisher": "Pruna AI / MiniMax",
+    "observedAt": "2026-11-05T09:35:51.909587+00:00",
+    "number": 18
+  },
+  {
+    "url": "https://www.financialcontent.com/article/marketersmedia-2026-11-4-oho-sunshine-introduces-alite-smart-glasses-a-28g-ultra-lightweight-design-built-for-everyday-comfort",
+    "title": "OHO SUNSHINE Introduces Alite Smart Glasses",
+    "publisher": "OHO SUNSHINE via MarketersMEDIA / FinancialContent",
+    "publishedAt": "2026-11-04T17:00:00Z",
+    "observedAt": "2026-11-05T09:19:00Z",
+    "number": 19
+  },
+  {
+    "url": "https://ohosunshine.com/products/alite-ai-glasses",
+    "title": "Alite Smart Glasses with Open Ear Audio & AI Translation",
+    "publisher": "OHO SUNSHINE",
+    "observedAt": "2026-11-05T09:19:00Z",
+    "number": 20
+  },
+  {
+    "url": "https://gadgetsandwearables.com/2026/11/01/bleequp-rover-review/",
+    "title": "BleeqUp Rover review: A clever alternative to an action camera",
+    "publisher": "Gadgets & Wearables",
+    "publishedAt": "2026-11-02",
+    "observedAt": "2026-11-05T09:14:01Z",
+    "number": 21
+  },
+  {
+    "url": "https://www.bleequp.com/products/bleequp-rover-ai-sports-glasses",
+    "title": "BleeqUp Rover AI Sports Glasses",
+    "publisher": "BleeqUp",
+    "observedAt": "2026-11-05T09:14:01Z",
+    "number": 22
+  },
+  {
+    "url": "https://www.bleequp.com/pages/compatible-devices",
+    "title": "Compatible Phone Models for Rover",
+    "publisher": "BleeqUp",
+    "observedAt": "2026-11-05T09:14:01Z",
+    "number": 23
+  },
+  {
+    "url": "https://www.bleequp.com/pages/features-upgrade",
+    "title": "BleeqUp Features Upgrade | App & Firmware",
+    "publisher": "BleeqUp",
+    "observedAt": "2026-11-05T09:14:01Z",
+    "number": 24
+  },
+  {
+    "url": "https://gadgetsandwearables.com/2026/11/03/serenibrain-review/",
+    "title": "SereniBrain review: The rare EEG headband that does not hide the data",
+    "publisher": "Gadgets & Wearables",
+    "publishedAt": "2026-11-03",
+    "observedAt": "2026-11-05T09:14:01Z",
+    "number": 25
+  },
+  {
+    "url": "https://serenibrain.com/",
+    "title": "SereniBrain EEG Neurofeedback Headband",
+    "publisher": "SereniBrain",
+    "observedAt": "2026-11-05T09:14:01Z",
+    "number": 26
+  },
+  {
+    "url": "https://serenibrain.com/pages/how-it-works",
+    "title": "How SereniBrain works",
+    "publisher": "SereniBrain",
+    "observedAt": "2026-11-05T09:14:01Z",
+    "number": 27
+  },
+  {
+    "url": "https://serenibrain.com/pages/privacy-and-data",
+    "title": "Privacy and Data",
+    "publisher": "SereniBrain",
+    "publishedAt": "2026-08-29",
+    "observedAt": "2026-11-05T09:14:01Z",
+    "number": 28
+  },
+  {
+    "url": "https://www.36kr.com/p/4055132476232838",
+    "title": "MoWorld2.0乌镇首发",
+    "publisher": "时氪分享 / 36氪",
+    "publishedAt": "2026-11-04T07:34:00Z",
+    "observedAt": "2026-11-05T09:27:30Z",
+    "number": 29
+  },
+  {
+    "url": "https://www.yicai.com/brief/103425442.html",
+    "title": "魔芯科技发布MoWorld2.0",
+    "publisher": "第一财经（引证券时报）",
+    "publishedAt": "2026-11-04T06:57:00Z",
+    "observedAt": "2026-11-05T09:27:30Z",
+    "number": 30
+  },
+  {
+    "url": "https://moxin-tech.github.io/moworld/",
+    "title": "MoWorld项目",
+    "publisher": "魔芯科技",
+    "observedAt": "2026-11-05T09:27:30Z",
+    "number": 31
+  },
+  {
+    "url": "https://clarity.microsoft.com/blog/clarity-connects-agents-llms-people/",
+    "title": "Agents act, LLMs recommend, and people browse",
+    "publisher": "Microsoft Clarity",
+    "publishedAt": "2026-11-04",
+    "observedAt": "2026-11-05T09:16:00Z",
+    "number": 32
+  },
+  {
+    "url": "https://clarity.microsoft.com/blog/agentic-analytics-what-agents-do-on-websites/",
+    "title": "What AI Agents Do on Websites",
+    "publisher": "Microsoft Clarity",
+    "publishedAt": "2026-10-29",
+    "observedAt": "2026-11-05T09:16:00Z",
+    "number": 33
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-data",
+    "title": "Clarity Data Collection",
+    "publisher": "Microsoft Learn",
+    "publishedAt": "2025-12-01",
+    "observedAt": "2026-11-05T09:16:00Z",
+    "number": 34
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/clarity/setup-and-installation/about-clarity",
+    "title": "Clarity Overview",
+    "publisher": "Microsoft Learn",
+    "publishedAt": "2026-10-06",
+    "observedAt": "2026-11-05T09:16:00Z",
+    "number": 35
+  },
+  {
+    "url": "https://investor.forrester.com/news-releases/news-release-details/forrester-unveils-new-integration-slack-its-technology",
+    "title": "Forrester Unveils New Integration With Slack",
+    "publisher": "Forrester",
+    "publishedAt": "2026-11-04",
+    "observedAt": "2026-11-05T09:16:00Z",
+    "number": 36
+  },
+  {
+    "url": "https://www.forrester.com/research/ai-where-you-work/slack/",
+    "title": "Forrester AI for Slack",
+    "publisher": "Forrester",
+    "observedAt": "2026-11-05T09:16:00Z",
+    "number": 37
+  },
+  {
+    "url": "https://slack.com/marketplace/A0C2YD6HE9J-forrester-ai",
+    "title": "Forrester AI marketplace listing",
+    "publisher": "Slack Marketplace / Forrester",
+    "observedAt": "2026-11-05T09:16:00Z",
+    "number": 38
+  },
+  {
+    "url": "https://connect.superhuman.com/t/docs-windows-desktop-app-beta/61964",
+    "title": "Docs Windows Desktop App Beta",
+    "publisher": "Superhuman",
+    "publishedAt": "2026-11-02",
+    "observedAt": "2026-11-05T09:21:00Z",
+    "number": 39
+  },
+  {
+    "url": "https://help.superhuman.com/hc/en-us/articles/46875595711117-Superhuman-Docs-desktop-app",
+    "title": "Superhuman Docs desktop app",
+    "publisher": "Superhuman",
+    "observedAt": "2026-11-05T09:21:00Z",
+    "number": 40
+  },
+  {
+    "url": "https://help.superhuman.com/hc/en-us/articles/46210093285773-What-s-changing-Coda-becomes-Superhuman-Docs",
+    "title": "What is changing: Coda becomes Superhuman Docs",
+    "publisher": "Superhuman",
+    "observedAt": "2026-11-05T09:21:00Z",
+    "number": 41
+  },
+  {
+    "url": "https://superhuman.com/docs",
+    "title": "Superhuman Docs product",
+    "publisher": "Superhuman",
+    "observedAt": "2026-11-05T09:21:00Z",
+    "number": 42
+  },
+  {
+    "url": "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant/",
+    "title": "GitHub Copilot is now available in Xcode’s coding assistant",
+    "publisher": "GitHub",
+    "publishedAt": "2026-11-04",
+    "observedAt": "2026-11-05T09:26:07Z",
+    "number": 43
+  },
+  {
+    "url": "https://developer.apple.com/xcode/",
+    "title": "Xcode",
+    "publisher": "Apple",
+    "observedAt": "2026-11-05T09:26:07Z",
+    "number": 44
+  },
+  {
+    "url": "https://developer.apple.com/documentation/xcode/setting-up-coding-intelligence",
+    "title": "Setting up coding intelligence",
+    "publisher": "Apple",
+    "observedAt": "2026-11-05T09:26:07Z",
+    "number": 45
+  },
+  {
+    "url": "https://developer.apple.com/documentation/xcode-release-notes/xcode-27_3-release-notes",
+    "title": "Xcode 27.3 beta release notes",
+    "publisher": "Apple",
+    "observedAt": "2026-11-05T09:26:07Z",
+    "number": 46
+  },
+  {
+    "url": "https://code.visualstudio.com/updates/v1_145",
+    "title": "Visual Studio Code 1.145",
+    "publisher": "Microsoft",
+    "publishedAt": "2026-11-04",
+    "observedAt": "2026-11-05T09:20:00Z",
+    "number": 47
+  },
+  {
+    "url": "https://code.visualstudio.com/docs/agents/run/remote-agent-sessions",
+    "title": "Run and manage remote agent sessions",
+    "publisher": "Microsoft",
+    "observedAt": "2026-11-05T09:20:00Z",
+    "number": 48
+  },
+  {
+    "url": "https://code.visualstudio.com/docs/agents/run/sessions/manage-sessions",
+    "title": "Manage agent sessions",
+    "publisher": "Microsoft",
+    "observedAt": "2026-11-05T09:20:00Z",
+    "number": 49
+  },
+  {
+    "url": "https://code.visualstudio.com/docs/agents/run/automations",
+    "title": "Create and manage agent automations",
+    "publisher": "Microsoft",
+    "observedAt": "2026-11-05T09:20:00Z",
+    "number": 50
+  },
+  {
+    "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0",
+    "title": "Gemini CLI v0.67.0",
+    "publisher": "Google Gemini",
+    "publishedAt": "2026-11-04T20:27:11Z",
+    "observedAt": "2026-11-05T09:23:19Z",
+    "number": 51
+  },
+  {
+    "url": "https://github.com/google-gemini/gemini-cli/pull/29858",
+    "title": "Bridge IDE companion into container sandboxes",
+    "publisher": "Google Gemini contributors",
+    "publishedAt": "2026-10-21",
+    "observedAt": "2026-11-05T09:23:19Z",
+    "number": 52
+  },
+  {
+    "url": "https://github.com/google-gemini/gemini-cli/blob/v0.67.0/docs/ide-integration/index.md",
+    "title": "IDE Integration at v0.67.0",
+    "publisher": "Google Gemini",
+    "publishedAt": "2026-10-21",
+    "observedAt": "2026-11-05T09:23:19Z",
+    "number": 53
+  },
+  {
+    "url": "https://marketplace.visualstudio.com/items?itemName=google.gemini-cli-vscode-ide-companion",
+    "title": "Gemini CLI Companion",
+    "publisher": "Google",
+    "observedAt": "2026-11-05T09:23:19Z",
+    "number": 54
+  },
+  {
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318",
+    "title": "Claude Code v2.1.318",
+    "publisher": "Anthropic",
+    "publishedAt": "2026-11-04T00:01:03Z",
+    "observedAt": "2026-11-05T09:20:00Z",
+    "number": 55
+  },
+  {
+    "url": "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.318",
+    "title": "Claude Agent SDK TypeScript v0.3.318",
+    "publisher": "Anthropic",
+    "publishedAt": "2026-11-04T00:00:55Z",
+    "observedAt": "2026-11-05T09:20:00Z",
+    "number": 56
+  },
+  {
+    "url": "https://code.claude.com/docs/en/plugins/mods/overview",
+    "title": "Mods overview",
+    "publisher": "Anthropic",
+    "observedAt": "2026-11-05T09:20:00Z",
+    "number": 57
+  },
+  {
+    "url": "https://code.claude.com/docs/en/cli-reference",
+    "title": "CLI reference",
+    "publisher": "Anthropic",
+    "observedAt": "2026-11-05T09:20:00Z",
+    "number": 58
+  },
+  {
+    "url": "https://code.claude.com/docs/en/authentication",
+    "title": "Authentication",
+    "publisher": "Anthropic",
+    "observedAt": "2026-11-05T09:20:00Z",
+    "number": 59
+  },
+  {
+    "url": "https://github.com/strands-agents/tools/releases/tag/v0.9.0",
+    "title": "Strands tools v0.9.0",
+    "publisher": "Strands Agents",
+    "publishedAt": "2026-11-04T17:20:16Z",
+    "observedAt": "2026-11-05T09:16:43Z",
+    "number": 60
+  },
+  {
+    "url": "https://strandsagents.com/docs/user-guide/migrate/strands-agents-tools/",
+    "title": "Migrate from the community tools package",
+    "publisher": "Strands Agents",
+    "observedAt": "2026-11-05T09:16:43Z",
+    "number": 61
+  },
+  {
+    "url": "https://strandsagents.com/docs/user-guide/sdk/tools/vended-tools/edit/",
+    "title": "Edit",
+    "publisher": "Strands Agents",
+    "publishedAt": "2026-10-29",
+    "observedAt": "2026-11-05T09:16:43Z",
+    "number": 62
+  },
+  {
+    "url": "https://strandsagents.com/docs/user-guide/sdk/sandbox/",
+    "title": "Sandbox",
+    "publisher": "Strands Agents",
+    "publishedAt": "2026-10-29",
+    "observedAt": "2026-11-05T09:16:43Z",
+    "number": 63
+  },
+  {
+    "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.9.0",
+    "title": "llama.cpp v0.9.0",
+    "publisher": "ggml-org",
+    "publishedAt": "2026-11-04T13:08:06Z",
+    "observedAt": "2026-11-05T09:34:00Z",
+    "number": 64
+  },
+  {
+    "url": "https://github.com/ggml-org/llama.cpp/pull/31471",
+    "title": "Add Nemotron 3.5 Transcribe support",
+    "publisher": "llama.cpp contributors",
+    "publishedAt": "2026-11-03T13:27:06Z",
+    "observedAt": "2026-11-05T09:34:00Z",
+    "number": 65
+  },
+  {
+    "url": "https://github.com/ggml-org/llama.cpp/pull/31429",
+    "title": "Pocket voices without voice cloning",
+    "publisher": "llama.cpp contributors",
+    "publishedAt": "2026-11-02T17:39:52Z",
+    "observedAt": "2026-11-05T09:34:00Z",
+    "number": 66
+  },
+  {
+    "url": "https://github.com/ggml-org/llama.cpp/pull/30993",
+    "title": "Chatterbox TTS support",
+    "publisher": "llama.cpp contributors",
+    "publishedAt": "2026-11-03T22:47:12Z",
+    "observedAt": "2026-11-05T09:34:00Z",
+    "number": 67
+  },
+  {
+    "url": "https://ernie.baidu.com/zh/release/ernie-5-5-flash-base/",
+    "title": "ERNIE 5.5 Flash Base technical release",
+    "publisher": "Baidu",
+    "publishedAt": "2026-11-05",
+    "observedAt": "2026-11-05T09:15:59Z",
+    "number": 68
+  },
+  {
+    "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Base",
+    "title": "ERNIE 5.5 Flash Base model card",
+    "publisher": "Baidu on Hugging Face",
+    "observedAt": "2026-11-05T09:15:59Z",
+    "number": 69
+  },
+  {
+    "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Base/commits/main",
+    "title": "Model repository history",
+    "publisher": "Baidu on Hugging Face",
+    "publishedAt": "2026-11-02/05",
+    "observedAt": "2026-11-05T09:15:59Z",
+    "number": 70
+  },
+  {
+    "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Base/blob/main/LICENSE",
+    "title": "ERNIE 5.5 Flash Base Model License Agreement v1.0",
+    "publisher": "Baidu",
+    "observedAt": "2026-11-05T09:15:59Z",
+    "number": 71
+  },
+  {
+    "url": "https://www.ithome.com/1/022/785.htm",
+    "title": "百度文心发布ERNIE5.5FlashBase",
+    "publisher": "IT之家",
+    "publishedAt": "2026-11-05T08:21:01Z",
+    "observedAt": "2026-11-05T09:15:59Z",
+    "number": 72
+  },
+  {
+    "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+    "title": "Kimi K3.1 Pro model card",
+    "publisher": "Moonshot AI",
+    "observedAt": "2026-11-05T09:26:03Z",
+    "number": 73
+  },
+  {
+    "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro/tree/main",
+    "title": "Kimi K3.1 Pro main files",
+    "publisher": "Moonshot AI / Hugging Face",
+    "observedAt": "2026-11-05T09:26:03Z",
+    "number": 74
+  },
+  {
+    "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro/commits/main",
+    "title": "Kimi K3.1 Pro commit history",
+    "publisher": "Moonshot AI / Hugging Face",
+    "publishedAt": "2026-11-02",
+    "observedAt": "2026-11-05T09:26:03Z",
+    "number": 75
+  },
+  {
+    "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+    "title": "Introducing Kimi K3.1 Pro",
+    "publisher": "Moonshot AI",
+    "publishedAt": "2026-10-23",
+    "observedAt": "2026-11-05T09:26:03Z",
+    "number": 76
+  },
+  {
+    "url": "https://recipes.vllm.ai/moonshotai/Kimi-K3.1-Pro",
+    "title": "Kimi K3.1 Pro deployment recipe",
+    "publisher": "vLLM",
+    "observedAt": "2026-11-05T09:26:03Z",
+    "number": 77
+  },
+  {
+    "url": "https://platform.kimi.ai/docs/guide/kimi-k3-1-pro-quickstart",
+    "title": "Kimi K3.1 Pro quickstart",
+    "publisher": "Moonshot AI",
+    "observedAt": "2026-11-05T09:26:03Z",
+    "number": 78
+  },
+  {
+    "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro/blob/main/LICENSE",
+    "title": "Kimi K3.1-Pro License",
+    "publisher": "Moonshot AI",
+    "publishedAt": "2026-11-02",
+    "observedAt": "2026-11-05T09:26:03Z",
+    "number": 79
+  },
+  {
+    "url": "https://original.ifeng.com/c/8xnSmAvsf1e",
+    "title": "月之暗面开放KimiK3.1Pro权重",
+    "publisher": "凤凰网科技",
+    "publishedAt": "2026-11-04T23:34:37Z",
+    "observedAt": "2026-11-05T09:26:03Z",
+    "number": 80
+  },
+  {
+    "url": "https://openai.com/index/daybreak-red-aws-govcloud/",
+    "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+    "publisher": "OpenAI",
+    "publishedAt": "2026-11-04",
+    "observedAt": "2026-11-05T09:22:00Z",
+    "number": 81
+  },
+  {
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-daybreak-red-govcloud-east/",
+    "title": "Daybreak Red from OpenAI now available to eligible customers on Amazon Bedrock in AWS GovCloud (US-East)",
+    "publisher": "AWS",
+    "publishedAt": "2026-10-30",
+    "observedAt": "2026-11-05T09:22:00Z",
+    "number": 82
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.06068",
+    "title": "Fluidic Body — submission history",
+    "publisher": "arXiv",
+    "publishedAt": "2026-11-04T07:13:34Z",
+    "observedAt": "2026-11-05T09:23:30.543500+00:00",
+    "number": 83
+  },
+  {
+    "url": "https://arxiv.org/html/2611.06068v1",
+    "title": "Fluidic Body — full paper",
+    "publisher": "Authors via arXiv",
+    "publishedAt": "2026-11-04T07:13:34Z",
+    "observedAt": "2026-11-05T09:23:30.543500+00:00",
+    "number": 84
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.06734",
+    "title": "Smartphone-Aided VR Exergames for HIIT — submission history",
+    "publisher": "arXiv",
+    "publishedAt": "2026-11-04T16:18:35Z",
+    "observedAt": "2026-11-05T09:23:30.543500+00:00",
+    "number": 85
+  },
+  {
+    "url": "https://arxiv.org/html/2611.06734v1",
+    "title": "Smartphone-Aided VR Exergames for HIIT — full paper",
+    "publisher": "Authors via arXiv",
+    "publishedAt": "2026-11-04T16:18:35Z",
+    "observedAt": "2026-11-05T09:23:30.543500+00:00",
+    "number": 86
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.06689",
+    "title": "ROV haptic feedback study — submission history",
+    "publisher": "arXiv",
+    "publishedAt": "2026-11-04T15:55:47Z",
+    "observedAt": "2026-11-05T09:29:36.888956+00:00",
+    "number": 87
+  },
+  {
+    "url": "https://arxiv.org/html/2611.06689v1",
+    "title": "ROV haptic feedback study — full paper",
+    "publisher": "Authors via arXiv",
+    "publishedAt": "2026-11-04T15:55:47Z",
+    "observedAt": "2026-11-05T09:29:36.888956+00:00",
+    "number": 88
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.05761",
+    "title": "BobFlow — submission history",
+    "publisher": "arXiv",
+    "publishedAt": "2026-11-04T00:02:41Z",
+    "observedAt": "2026-11-05T09:23:30.543500+00:00",
+    "number": 89
+  },
+  {
+    "url": "https://arxiv.org/html/2611.05761v1",
+    "title": "BobFlow — full paper",
+    "publisher": "Authors via arXiv",
+    "publishedAt": "2026-11-04T00:02:41Z",
+    "observedAt": "2026-11-05T09:23:30.543500+00:00",
+    "number": 90
+  },
+  {
+    "url": "https://github.com/Texera/bobflow",
+    "title": "BobFlow repository and setup",
+    "publisher": "Texera",
+    "observedAt": "2026-11-05T09:23:30.543500+00:00",
+    "number": 91
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.06791",
+    "title": "Cardiologist Annotation Tool (CAT) — submission history",
+    "publisher": "arXiv",
+    "publishedAt": "2026-11-04T17:07:12Z",
+    "observedAt": "2026-11-05T09:29:36.888956+00:00",
+    "number": 92
+  },
+  {
+    "url": "https://arxiv.org/html/2611.06791v1",
+    "title": "Cardiologist Annotation Tool (CAT) — full paper",
+    "publisher": "Authors via arXiv",
+    "publishedAt": "2026-11-04T17:07:12Z",
+    "observedAt": "2026-11-05T09:29:36.888956+00:00",
+    "number": 93
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.06191",
+    "title": "GPUMAP — submission history",
+    "publisher": "arXiv",
+    "publishedAt": "2026-11-04T09:05:00Z",
+    "observedAt": "2026-11-05T09:29:36.888956+00:00",
+    "number": 94
+  },
+  {
+    "url": "https://arxiv.org/html/2611.06191v1",
+    "title": "GPUMAP — full paper",
+    "publisher": "Authors via arXiv",
+    "publishedAt": "2026-11-04T09:05:00Z",
+    "observedAt": "2026-11-05T09:29:36.888956+00:00",
+    "number": 95
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.05702",
+    "title": "TACT — submission history",
+    "publisher": "arXiv",
+    "publishedAt": "2026-11-03T22:30:18Z",
+    "observedAt": "2026-11-05T09:23:30.543500+00:00",
+    "number": 96
+  },
+  {
+    "url": "https://arxiv.org/html/2611.05702v1",
+    "title": "TACT — full paper",
+    "publisher": "Authors via arXiv",
+    "publishedAt": "2026-11-03T22:30:18Z",
+    "observedAt": "2026-11-05T09:23:30.543500+00:00",
+    "number": 97
+  },
+  {
+    "url": "https://github.com/rudrajit1729/TACT",
+    "title": "TACT replication package",
+    "publisher": "TACT authors",
+    "observedAt": "2026-11-05T09:23:30.543500+00:00",
+    "number": 98
+  }
+]
