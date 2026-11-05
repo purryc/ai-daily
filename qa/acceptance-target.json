@@ -1,7 +1,7 @@
 {
   "phase": "live",
   "baselineCommit": "b5a2407f153cdab6269d2ae5e6ac935cc9031e6d",
-  "acquireAssets": false,
+  "acquireAssets": true,
   "archiveRevision": false,
   "publicCommit": "83cf02c02236600a47c1f7ceb8c4f92b67fce922"
 }

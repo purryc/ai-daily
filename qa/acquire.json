@@ -1,1 +1,64 @@
-[]
+[
+  {
+    "name": "wanaka.jpg",
+    "url": "https://wanaka.app/home-v3/redesign/feature-playable-projects.webp",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "name": "prelulu.jpg",
+    "url": "https://ph-files.imgix.net/87774ea9-578b-4986-b849-d0f677c38ac4.png",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "name": "fluidic.jpg",
+    "url": "https://arxiv.org/html/2611.06068v1/ISS_teaser.png",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "name": "bleequp.jpg",
+    "url": "https://gadgetsandwearables.com/wp-content/uploads/2026/10/BleeqUp-Rover-review_1-1-1024x577.jpg",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "name": "clarity.jpg",
+    "url": "https://clarity.microsoft.com/blog/wp-content/uploads/2026/11/Agentic-Analytics-dash-1024x859.png",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "name": "forrester.jpg",
+    "url": "https://go.forrester.com/wp-content/uploads/2026/09/SlackImages_1-2.webp",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "name": "vr-hiit.jpg",
+    "url": "https://arxiv.org/html/2611.06734v1/gameplay.jpg",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "name": "serenibrain.jpg",
+    "url": "https://serenibrain.com/cdn/shop/files/serenibrain-how-it-works-04-session-report.webp?v=1787830381&width=1600",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "name": "images26-inventory.json",
+    "url": "https://openai.com/index/introducing-images-2-6/",
+    "kind": "inventory",
+    "locale": "en"
+  }
+]
