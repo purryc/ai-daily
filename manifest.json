@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-11-05",
+    "zhTitle": "AI Daily｜2026年11月5日 · 局部改图、3D 纹理与设备反馈",
+    "enTitle": "AI Daily | November 5, 2026 · Image edits, 3D textures and device feedback",
+    "zhSummary": "Images 2.6、Wanaka 与 Meshy 处理后续编辑；Alite、Rover 和交互研究展示声音、拍摄与身体反馈；开发工具明确执行和恢复边界。",
+    "enSummary": "Images 2.6, Wanaka and Meshy support further edits. Alite, Rover and interaction research explore audio, capture and physical feedback. Developer tools clarify execution and recovery.",
+    "tags": [
+      "consumer AI",
+      "creative tools",
+      "physical interaction",
+      "research"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "research"
+    ],
+    "coverStory": {
+      "topicId": "images-26-markup-complexity",
+      "zhTitle": "OpenAI Images 2.6",
+      "enTitle": "OpenAI Images 2.6",
+      "imagePath": "assets/images26.jpg",
+      "imageSourceUrl": "https://developers.openai.com/images/platform/guides/image-prompting/paper-cut-football-effort-medium-gpt-image-2-6-sunburst.webp",
+      "primarySourceUrl": "https://developers.openai.com/api/docs/guides/image-generation",
+      "evidenceStrength": "Original bodies read; manufacturer statements and editorial judgments distinguished; no independent hands-on testing"
+    },
+    "zhPath": "./2026-11-05/zh/",
+    "enPath": "./2026-11-05/en/",
+    "sourcesPath": "./2026-11-05/sources.html"
+  },
+  {
     "date": "2026-11-04",
     "zhTitle": "AI Daily｜2026年11月4日 · iPad创作、手机代理与设备新动作",
     "enTitle": "AI Daily | November 4, 2026 · iPad creation, phone agents and device interactions",
