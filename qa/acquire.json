@@ -1,58 +1,14 @@
 [
   {
-    "name": "netflix-ui.jpg",
-    "url": "https://images.ctfassets.net/4cd45et68cgf/4sev3PTKFV9Pf9S9qLijE4/f55e962bb248247c5ec5a3467a13dbf6/AIDiscover-Hero-1440x810.gif?w=2000",
-    "kind": "image",
-    "renderImage": true,
-    "locale": "zh",
-    "captureDelayMs": 5000
-  },
-  {
-    "name": "superhuman.jpg",
-    "url": "https://global.discourse-cdn.com/coda1/original/3X/1/3/138d83be50acbd4c0479674643009a1f164a3d13.jpeg",
+    "name": "meshy.jpg",
+    "url": "https://cdn.meshy.ai/ti_w%3A3840%2Cq%3A75/landing-assets/blog/meshy-n1-texture/meshy-n1-texture-06.webp",
     "kind": "image",
     "renderImage": true,
     "locale": "zh"
   },
   {
-    "name": "flowgen.jpg",
-    "url": "https://preview.redd.it/e68hbqaz31zh1.jpg?s=6171164f2b33a0221c58df38b10c387e539f0acd&vthumb=1",
-    "kind": "image",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "name": "claude-demo.jpg",
-    "url": "https://raw.githubusercontent.com/anthropics/claude-code/main/demo.gif",
-    "kind": "image",
-    "renderImage": true,
-    "locale": "zh",
-    "captureDelayMs": 3500
-  },
-  {
-    "name": "moworld.jpg",
-    "url": "https://img.36krcdn.com/hsossms/20261104/v2_64b3c779f40f44e9b40ac2640ba0c50f%4039566_oswg1138490oswg1269oswg686_img_png?x-oss-process=image%2Fquality%2Cq_90%2Fformat%2Cjpg%2Finterlace%2C1",
-    "kind": "image",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "name": "cat.jpg",
-    "url": "https://arxiv.org/html/2611.06791v1/Figure_2.png",
-    "kind": "image",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "name": "rov.jpg",
-    "url": "https://arxiv.org/html/2611.06689v1/interface-labelled-ietp.png",
-    "kind": "image",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "name": "gpumap.jpg",
-    "url": "https://arxiv.org/html/2611.06191v1/Figures/5M.png",
+    "name": "pruna.jpg",
+    "url": "https://framerusercontent.com/images/7FcrdALpGNDI1J2kKBSfmzDL4.png?height=2177&width=2400",
     "kind": "image",
     "renderImage": true,
     "locale": "en"
