@@ -1,70 +1,58 @@
 [
   {
-    "name": "floot.jpg",
-    "url": "https://floot.com/_cdn/blog-images/8ffe7b11bf80080cd7f5a8dd33710312c0036cb5/w1600.webp",
-    "kind": "image",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "name": "images26.jpg",
-    "url": "https://developers.openai.com/images/platform/guides/image-prompting/paper-cut-football-effort-medium-gpt-image-2-6-sunburst.webp",
-    "kind": "image",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "name": "netflix.jpg",
+    "name": "netflix-ui.jpg",
     "url": "https://images.ctfassets.net/4cd45et68cgf/4sev3PTKFV9Pf9S9qLijE4/f55e962bb248247c5ec5a3467a13dbf6/AIDiscover-Hero-1440x810.gif?w=2000",
     "kind": "image",
     "renderImage": true,
-    "locale": "zh"
+    "locale": "zh",
+    "captureDelayMs": 5000
   },
   {
-    "name": "wanaka-editor.jpg",
-    "url": "https://ph-files.imgix.net/e183366b-c3b1-4ce9-a7d6-24eee37c7943.png",
+    "name": "superhuman.jpg",
+    "url": "https://global.discourse-cdn.com/coda1/original/3X/1/3/138d83be50acbd4c0479674643009a1f164a3d13.jpeg",
     "kind": "image",
     "renderImage": true,
     "locale": "zh"
   },
   {
-    "name": "xcode.jpg",
-    "url": "https://developer.apple.com/xcode/images/h-xcc27-agents-light_2x.png",
+    "name": "flowgen.jpg",
+    "url": "https://preview.redd.it/e68hbqaz31zh1.jpg?s=6171164f2b33a0221c58df38b10c387e539f0acd&vthumb=1",
     "kind": "image",
     "renderImage": true,
     "locale": "zh"
   },
   {
-    "name": "vscode.jpg",
-    "url": "https://code.visualstudio.com/assets/updates/1_145/remote-browser.webp",
+    "name": "claude-demo.jpg",
+    "url": "https://raw.githubusercontent.com/anthropics/claude-code/main/demo.gif",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "zh",
+    "captureDelayMs": 3500
+  },
+  {
+    "name": "moworld.jpg",
+    "url": "https://img.36krcdn.com/hsossms/20261104/v2_64b3c779f40f44e9b40ac2640ba0c50f%4039566_oswg1138490oswg1269oswg686_img_png?x-oss-process=image%2Fquality%2Cq_90%2Fformat%2Cjpg%2Finterlace%2C1",
     "kind": "image",
     "renderImage": true,
     "locale": "en"
   },
   {
-    "name": "bobflow.jpg",
-    "url": "https://arxiv.org/html/2611.05761v1/bobflow_abstractions.png",
+    "name": "cat.jpg",
+    "url": "https://arxiv.org/html/2611.06791v1/Figure_2.png",
     "kind": "image",
     "renderImage": true,
     "locale": "en"
   },
   {
-    "name": "program.jpg",
-    "url": "https://arxiv.org/html/2611.06188v1/figs/teaser.png",
+    "name": "rov.jpg",
+    "url": "https://arxiv.org/html/2611.06689v1/interface-labelled-ietp.png",
     "kind": "image",
     "renderImage": true,
     "locale": "en"
   },
   {
-    "name": "alite.jpg",
-    "url": "https://storage.googleapis.com/mmstudio-images/gallery/QMDU0YjNqlfOqfBZnztCFUnAgIL2/89208136-1793621585-1.jpg",
-    "kind": "image",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "name": "ernie.jpg",
-    "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Base/resolve/main/assets/ernie55flash_architecture.png",
+    "name": "gpumap.jpg",
+    "url": "https://arxiv.org/html/2611.06191v1/Figures/5M.png",
     "kind": "image",
     "renderImage": true,
     "locale": "en"
