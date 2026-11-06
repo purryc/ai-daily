@@ -1,1 +1,71 @@
-[]
+[
+  {
+    "name": "claude-finance.jpg",
+    "url": "https://assets.claude.com/bc5343b7f36d1704f728e53c69f672ae05c576e1.png",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "name": "claude-enterprise.jpg",
+    "url": "https://assets.claude.com/893acaa9f8b564cda630ed280d69e5c7d2bca5f7.png",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "name": "edits-mac.jpg",
+    "url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/edits-mac.jpg?quality=82&strip=all",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "name": "moto.jpg",
+    "url": "https://media.motorolanews.fiestic.com/2026/11/04192341/New_CMFs_together-scaled.png",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "name": "pdd.jpg",
+    "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/fig02-decision-both-ways_NEW_PDD-Kit.png",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "name": "langfuse.jpg",
+    "url": "https://langfuse.com/images/docs/ai-gateway/analytics.png",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "name": "wuu.jpg",
+    "url": "https://raw.githubusercontent.com/blueberrycongee/wuu/v2026.11.5/landing/assets/readme/hero-light-en.jpg",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "name": "box-architect.jpg",
+    "url": "https://assets.box.com/sites/default/files/styles/3600xauto_50perc/public/2026-11/1-hero_architect_.png?itok=KIUkodS4",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "name": "pushary.jpg",
+    "url": "https://ph-files.imgix.net/1cd76568-850f-4fe9-883d-b6fd2757b8a6.jpeg",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "name": "forms-inventory.json",
+    "url": "https://workspaceupdates.googleblog.com/2026/11/get-actionable-insights-with-gemini-in-Google-Forms.html",
+    "kind": "inventory",
+    "locale": "en"
+  }
+]
