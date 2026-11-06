@@ -1,38 +1,30 @@
 [
   {
-    "name": "forms.jpg",
-    "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5oZq_dQ6m7aenaZI7dMVEJjQddhuKTMFH4Rsk3ExgKyCKgZkwM2T4WuwiKHaFA2B_NoK5D7hAGWZLY4C3v8PW2_xKE65-0aR59FqLSCrb8wHg7ip3eSpIqUAR6mkVLsWbZd4iwiYACId6wxB66BTtxcTVH8QSUziFMiS8DARWNdN7asHus8ZGy4s_sGU/s1600/Get%20actionable%20insights%20with%20Gemini%20in%20Google%20Forms%20-%206786.gif",
+    "name": "rerun-workspace.jpg",
+    "url": "https://ph-files.imgix.net/e4ce7eda-dc11-4489-b5e1-76dabf4cc96d.jpeg",
     "kind": "image",
     "renderImage": true,
-    "captureDelayMs": 5000,
     "locale": "zh"
   },
   {
-    "name": "vocabulary-scene.jpg",
-    "url": "https://arxiv.org/html/2611.07798v1/Figures/demo_teaser_v4.jpg",
+    "name": "rerun-workflow.jpg",
+    "url": "https://ph-files.imgix.net/dbaf8f84-438c-4ae0-b618-64af705539c9.jpeg",
     "kind": "image",
     "renderImage": true,
     "locale": "en"
   },
   {
-    "name": "glasshand-ui.jpg",
-    "url": "https://ph-files.imgix.net/d1521ed7-dd5e-42c0-abb5-c93d03cd95c8.png",
+    "name": "pixel-robot.jpg",
+    "url": "https://arxiv.org/html/2611.03648v1/fig_system_overview.png",
     "kind": "image",
     "renderImage": true,
     "locale": "zh"
   },
   {
-    "name": "warby.jpg",
-    "url": "https://img.warbyparker.com/AIR_ASSETS/dd4c346613db6baf1dfad48ca8e0cc0eb95c72726dd20dbbe07490d9cadac007.png?originHeight=600&originWidth=750&quality=80&width=750",
+    "name": "mabel-robot.jpg",
+    "url": "https://arxiv.org/html/2611.04083v1/Figures/hero_photo/cover_photo.jpg",
     "kind": "image",
     "renderImage": true,
     "locale": "en"
-  },
-  {
-    "name": "dji5t.jpg",
-    "url": "https://www-cdn.djiits.com/cms/uploads/4aaa433703b0418683ceaa1d5db14092.jpg",
-    "kind": "image",
-    "renderImage": true,
-    "locale": "zh"
   }
 ]
