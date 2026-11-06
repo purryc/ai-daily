@@ -1,43 +1,38 @@
 [
   {
-    "name": "rerun.jpg",
-    "url": "https://ph-files.imgix.net/0cb6c50c-7dbb-4b41-9d6e-e3aa1fce28ae.jpeg?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=220&w=368",
+    "name": "forms.jpg",
+    "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5oZq_dQ6m7aenaZI7dMVEJjQddhuKTMFH4Rsk3ExgKyCKgZkwM2T4WuwiKHaFA2B_NoK5D7hAGWZLY4C3v8PW2_xKE65-0aR59FqLSCrb8wHg7ip3eSpIqUAR6mkVLsWbZd4iwiYACId6wxB66BTtxcTVH8QSUziFMiS8DARWNdN7asHus8ZGy4s_sGU/s1600/Get%20actionable%20insights%20with%20Gemini%20in%20Google%20Forms%20-%206786.gif",
     "kind": "image",
     "renderImage": true,
+    "captureDelayMs": 5000,
     "locale": "zh"
   },
   {
-    "name": "glasshand.jpg",
-    "url": "https://ph-files.imgix.net/1bb914f9-fc0f-48dd-97a1-036322f4641d.png",
+    "name": "vocabulary-scene.jpg",
+    "url": "https://arxiv.org/html/2611.07798v1/Figures/demo_teaser_v4.jpg",
     "kind": "image",
     "renderImage": true,
     "locale": "en"
   },
   {
-    "name": "clocknext.jpg",
-    "url": "https://ph-files.imgix.net/66f78526-f3da-4a5f-8e8f-0ffbdb1cbffe.png",
+    "name": "glasshand-ui.jpg",
+    "url": "https://ph-files.imgix.net/d1521ed7-dd5e-42c0-abb5-c93d03cd95c8.png",
     "kind": "image",
     "renderImage": true,
     "locale": "zh"
   },
   {
-    "name": "protocall.jpg",
-    "url": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/2026-11/factory.JPG.webp?itok=Z2Q82URG",
+    "name": "warby.jpg",
+    "url": "https://img.warbyparker.com/AIR_ASSETS/dd4c346613db6baf1dfad48ca8e0cc0eb95c72726dd20dbbe07490d9cadac007.png?originHeight=600&originWidth=750&quality=80&width=750",
     "kind": "image",
     "renderImage": true,
     "locale": "en"
   },
   {
-    "name": "lumi.jpg",
-    "url": "https://lumiring.xyz/assets/1db5072b9f5fe1833f91cbd4.png",
+    "name": "dji5t.jpg",
+    "url": "https://www-cdn.djiits.com/cms/uploads/4aaa433703b0418683ceaa1d5db14092.jpg",
     "kind": "image",
     "renderImage": true,
     "locale": "zh"
-  },
-  {
-    "name": "vids-inventory.json",
-    "url": "https://workspaceupdates.googleblog.com/2026/11/gemini-omni-12-flash-now-in-vids-with-15second-generations-and-improved-quality.html",
-    "kind": "inventory",
-    "locale": "en"
   }
 ]
