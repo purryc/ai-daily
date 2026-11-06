@@ -161,51 +161,51 @@
       },
       "dji-matrice-5t-sensor-inspection": {
         "zh": 214,
-        "en": 120
+        "en": 106
       },
       "souffleur": {
         "zh": 215,
-        "en": 123
+        "en": 103
       },
       "tasteply": {
         "zh": 214,
-        "en": 117
+        "en": 99
       },
       "intentweaver": {
         "zh": 215,
-        "en": 119
+        "en": 98
       },
       "maike": {
         "zh": 210,
-        "en": 125
+        "en": 105
       },
       "vocabulary-2": {
         "zh": 210,
-        "en": 123
+        "en": 112
       },
       "protocall-preemptive-feedback": {
         "zh": 219,
-        "en": 130
+        "en": 110
       },
       "slide-to-report": {
         "zh": 212,
-        "en": 119
+        "en": 105
       },
       "controlanything": {
         "zh": 210,
-        "en": 115
+        "en": 101
       },
       "vrego": {
         "zh": 215,
-        "en": 121
+        "en": 100
       },
       "pixel-robot": {
         "zh": 224,
-        "en": 117
+        "en": 98
       },
       "mabel-robot": {
         "zh": 218,
-        "en": 121
+        "en": 108
       },
       "serve-physical-ai-services": {
         "zh": 211,
@@ -213,19 +213,19 @@
       },
       "bridge-agent-meetings": {
         "zh": 225,
-        "en": 121
+        "en": 102
       },
       "pushary-team-routing": {
         "zh": 221,
-        "en": 127
+        "en": 107
       },
       "box-architect-workflows": {
         "zh": 222,
-        "en": 118
+        "en": 100
       },
       "claude-enterprise-security-controls": {
         "zh": 212,
-        "en": 118
+        "en": 101
       },
       "google-forms-actionable-insights": {
         "zh": 209,
@@ -237,7 +237,7 @@
       },
       "wuu-review-auth-recovery": {
         "zh": 221,
-        "en": 122
+        "en": 109
       },
       "pdd-kit-intent-proof": {
         "zh": 226,
@@ -253,7 +253,7 @@
       },
       "tinker-038-future-api": {
         "zh": 215,
-        "en": 123
+        "en": 107
       },
       "gpt6-cyber-scoped-research": {
         "zh": 190,
@@ -269,11 +269,11 @@
     "attachedProjectDetails": 31,
     "primaryBody": {
       "zhDenseChars": 6660,
-      "enWords": 3731
+      "enWords": 3423
     },
     "completeReadingBody": {
       "zhDenseChars": 28099,
-      "enWords": 16393
+      "enWords": 16085
     }
   },
   "revision": {

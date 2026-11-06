@@ -8826,13 +8826,13 @@
   },
   {
     "path": "2026-11-06/en/index.html",
-    "bytes": 103029,
-    "sha256": "ed6d6c479e7f00c147b7bf0482268ab6b531ebcd32f5076cbe1881623062cf10"
+    "bytes": 100902,
+    "sha256": "3f9879fd8b37c34b5fc9d6a1f08857bf3f476da67bddc750ffd6f4a770a7af04"
   },
   {
     "path": "2026-11-06/manifest.json",
-    "bytes": 37031,
-    "sha256": "e93beb37e86b1d0368b2095c8fdcfe3919e07c40b08e57cc781c18c0b0d92710"
+    "bytes": 37028,
+    "sha256": "5ecaec5b8d869e87273b89c51a75eed71f0a98ee1ff9e96cdbb7bcaeb68e08ac"
   },
   {
     "path": "2026-11-06/sources.html",
