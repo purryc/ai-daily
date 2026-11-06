@@ -5,7 +5,7 @@ import { renderVisualIssue, visualIssueCss } from "./lib/issue-visuals.mjs";
 import { selectIssueDates, assertCloudOutput, validatePageCount, validateIllustratedIssue } from "./lib/issue-policy.mjs";
 import path from "node:path";
 
-const root = path.resolve(new URL("..", import.meta.url).pathname);
+const root = path.resolve(process.env.AI_DAILY_ROOT ?? new URL("..", import.meta.url).pathname);
 const siteBase = "/ai-daily";
 
 const issues = await readIssues(root);
@@ -556,6 +556,7 @@ function homepage(locale) {
           <div class="search-pill">${isZh ? "按日期翻日报" : "Browse issues by date"}</div>
           <div class="nav-links">
             <a href="#archive">${isZh ? "日报" : "Archive"}</a>
+            <a href="${siteBase}/weekly/">${isZh ? "周报" : "Weekly"}</a>
             <a href="#filters">${isZh ? "时间筛选" : "Time filter"}</a>
             <a href="${latest.sourcesPath}">${isZh ? "来源" : "Sources"}</a>
           </div>

@@ -338,9 +338,9 @@ export function validateIssue(issue, archive = []) {
     issue.lookbackDays !== undefined &&
     (!Number.isInteger(issue.lookbackDays) ||
       issue.lookbackDays < 1 ||
-      issue.lookbackDays > 3)
+      issue.lookbackDays > (issue.cloudEditorialContract === "dense-v1" ? 7 : 3))
   )
-    throw new Error("lookbackDays must be between 1 and 3");
+    throw new Error("lookbackDays must be between 1 and 3 (up to 7 for reviewed dense-v1 cloud backfill)");
   try {
     new Intl.DateTimeFormat("en", { timeZone: issue.timezone }).format();
   } catch {

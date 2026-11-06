@@ -3,6 +3,8 @@ import http from "node:http";
 import path from "node:path";
 const types = new Map([
   [".css", "text/css"],
+  [".js", "text/javascript"],
+  [".mjs", "text/javascript"],
   [".html", "text/html"],
   [".json", "application/json"],
   [".png", "image/png"],

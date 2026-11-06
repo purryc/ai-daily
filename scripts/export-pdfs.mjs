@@ -11,7 +11,7 @@ import {
 } from "./lib/issue-policy.mjs";
 import { createStaticServer } from "./lib/static-server.mjs";
 import { checkPdfPages } from "./lib/pdf-check.mjs";
-const root = path.resolve(fileURLToPath(new URL("..", import.meta.url)));
+const root = path.resolve(process.env.AI_DAILY_ROOT ?? fileURLToPath(new URL("..", import.meta.url)));
 const issues = await readIssues(root);
 const dates = selectIssueDates(issues, process.env.AI_DAILY_DATES);
 const { server, origin } = await createStaticServer(root);

@@ -24,6 +24,23 @@ test("selected visual renderer module exists", async () => {
   await assert.doesNotReject(import(modulePath));
 });
 
+test("explicit dense dossier pagination retains fields once with unique accessible page IDs", async () => {
+  const { buildVisualSlides } = await import(modulePath);
+  const issue = structuredClone(fixture);
+  issue.date = "2026-10-19";
+  const fields = ["productName","productType","interactionFlow","specsOrStack","useCases","painPointsSolved","userVoice","newTech","availability","limitsOrUnknowns","productVerdict"];
+  issue.topics = [issue.topics[0]];
+  issue.topics[0].dossier = { zh: Object.fromEntries(fields.map(f => [f, "中文-" + f])), en: Object.fromEntries(fields.map(f => [f, "English-" + f])) };
+  issue.topics[0].dossierPageFields = [fields.slice(0,3), fields.slice(3,6), fields.slice(6,9), fields.slice(9)];
+  for (const locale of ["zh", "en"]) {
+    const pages = buildVisualSlides(issue,locale);
+    assert.deepEqual(pages.filter(p=>p.type==="product").map(p=>p.id),["event-1-a","event-1-b","event-1-c","event-1-d"]);
+    for (const f of fields) assert.equal(pages.filter(p=>p.html.includes(issue.topics[0].dossier[locale][f])).length,1);
+  }
+  issue.topics[0].dossierPageFields.push(["productName"]);
+  assert.throws(()=>buildVisualSlides(issue,"en"),/exactly once/);
+});
+
 test("visual issue renders each event once and keeps multi-figure provenance", async () => {
   const { renderVisualIssue } = await import(modulePath);
   const output = renderVisualIssue(fixture, "zh");

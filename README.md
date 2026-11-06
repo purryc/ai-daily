@@ -5,13 +5,20 @@ https://purryc.github.io/ai-daily/
 
 ## Editorial contract
 
+New cloud runs follow [CLOUD_RUNBOOK.md](CLOUD_RUNBOOK.md) and the authorized private
+Library methods. The dense daily contract (Chinese >=6,000 characters, English
+>=4,500 words; full bilingual dossiers, provenance and eight-lane scans) supersedes
+the older concise/no-quota guidance below for new cloud publication. Weekly has a
+separate complete-week evidence contract and never replaces daily current.
+Historic artifacts and their original concise validator remain preserved.
+
 - Report real, dated product advances. A source's retrieval time is not its publication date
 - Deduplicate by product, event/version, normalized source URL and source date, within an issue and against the archive
 - A same-product follow-up needs a substantive Chinese/English delta and new evidence. Link its previous issue
 - Legacy records lack structured event dates. A new event on an already-used stable legacy URL is conservatively quarantined until its old coverage can be reviewed and migrated; a newly dated secondary recap cannot override that protection
-- Use four clear introduction units in both languages: what it is, what changed, how to use it, and limits. Integrate essential sourced explanations, figures and demo controls on one readable page per story. Aim for about 15 minutes of useful reading and viewing; there are no artificial word/story quotas
+- Preserve what it is, what changed, how to use it, and limits in both languages, alongside the full product dossier. Split dense content into complete 16:9 pages. New cloud daily runs enforce the formal density/source/visual contract; estimates describe actual reading assumptions
 - Prefer several informative factual product, UI and interaction figures, each with source, caption, alt text and role. Explain unavailable imagery explicitly. Never manufacture a product visual
-- One contents page, normally one substantial illustrated page per story, and one references page with all provenance links. The full source ledger stays outside the main reading route
+- One contents page, complete illustrated product pages (dense dossiers may continue), and references with all provenance links. The full source ledger stays outside the main reading route
 - Maximum 50 printed pages per language, checked against both HTML and the actual PDF. An honest no-news issue is valid
 - Research, build and verify in the cloud. Do not write daily copies into a Mac folder
 - Preserve the historical archive and assets. Update only this existing Pages site
