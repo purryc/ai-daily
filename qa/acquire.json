@@ -1,28 +1,14 @@
 [
   {
-    "name": "rerun-workspace.jpg",
-    "url": "https://ph-files.imgix.net/e4ce7eda-dc11-4489-b5e1-76dabf4cc96d.jpeg",
+    "name": "rerun-detail1.jpg",
+    "url": "https://ph-files.imgix.net/5b57362a-ca5a-4a61-a1d9-2c7a925cf5bd.jpeg",
     "kind": "image",
     "renderImage": true,
     "locale": "zh"
   },
   {
-    "name": "rerun-workflow.jpg",
-    "url": "https://ph-files.imgix.net/dbaf8f84-438c-4ae0-b618-64af705539c9.jpeg",
-    "kind": "image",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "name": "pixel-robot.jpg",
-    "url": "https://arxiv.org/html/2611.03648v1/fig_system_overview.png",
-    "kind": "image",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "name": "mabel-robot.jpg",
-    "url": "https://arxiv.org/html/2611.04083v1/Figures/hero_photo/cover_photo.jpg",
+    "name": "rerun-detail2.jpg",
+    "url": "https://ph-files.imgix.net/d7cc31d5-76c0-4f2f-9a5c-9275290bdbcd.jpeg",
     "kind": "image",
     "renderImage": true,
     "locale": "en"
