@@ -1,0 +1,790 @@
+{
+  "date": "2026-11-06",
+  "timezone": "America/Toronto",
+  "cutoff": "2026-11-06T08:58:34Z",
+  "windowStart": "2026-11-05T08:58:34Z",
+  "metrics": {
+    "body": {
+      "zhDenseChars": 21439,
+      "enWords": 12662
+    },
+    "perProduct": {
+      "instagram-edits-mac-mcp": {
+        "zh": 717,
+        "en": 421
+      },
+      "claude-personal-finance-beta": {
+        "zh": 743,
+        "en": 424
+      },
+      "aina-ring-approval": {
+        "zh": 699,
+        "en": 432
+      },
+      "moto-buds-ultra-27": {
+        "zh": 684,
+        "en": 432
+      },
+      "motorola-signature27-evs": {
+        "zh": 717,
+        "en": 429
+      },
+      "warby-intelligent-eyewear-preorder-date": {
+        "zh": 675,
+        "en": 422
+      },
+      "dji-matrice-5t-sensor-inspection": {
+        "zh": 737,
+        "en": 424
+      },
+      "souffleur": {
+        "zh": 638,
+        "en": 397
+      },
+      "tasteply": {
+        "zh": 633,
+        "en": 392
+      },
+      "intentweaver": {
+        "zh": 617,
+        "en": 393
+      },
+      "maike": {
+        "zh": 621,
+        "en": 391
+      },
+      "vocabulary-2": {
+        "zh": 633,
+        "en": 399
+      },
+      "protocall-preemptive-feedback": {
+        "zh": 718,
+        "en": 429
+      },
+      "slide-to-report": {
+        "zh": 613,
+        "en": 385
+      },
+      "controlanything": {
+        "zh": 630,
+        "en": 395
+      },
+      "vrego": {
+        "zh": 609,
+        "en": 386
+      },
+      "pixel-robot": {
+        "zh": 617,
+        "en": 391
+      },
+      "mabel-robot": {
+        "zh": 616,
+        "en": 396
+      },
+      "serve-physical-ai-services": {
+        "zh": 696,
+        "en": 418
+      },
+      "bridge-agent-meetings": {
+        "zh": 761,
+        "en": 414
+      },
+      "pushary-team-routing": {
+        "zh": 767,
+        "en": 409
+      },
+      "box-architect-workflows": {
+        "zh": 731,
+        "en": 411
+      },
+      "claude-enterprise-security-controls": {
+        "zh": 795,
+        "en": 407
+      },
+      "google-forms-actionable-insights": {
+        "zh": 720,
+        "en": 411
+      },
+      "codex-0167-recovery": {
+        "zh": 750,
+        "en": 414
+      },
+      "wuu-review-auth-recovery": {
+        "zh": 699,
+        "en": 402
+      },
+      "pdd-kit-intent-proof": {
+        "zh": 717,
+        "en": 403
+      },
+      "langfuse-gateway-beta": {
+        "zh": 741,
+        "en": 396
+      },
+      "mnn-pocket-local-decisions": {
+        "zh": 739,
+        "en": 422
+      },
+      "tinker-038-future-api": {
+        "zh": 720,
+        "en": 397
+      },
+      "gpt6-cyber-scoped-research": {
+        "zh": 686,
+        "en": 420
+      }
+    },
+    "primarySummaries": {
+      "instagram-edits-mac-mcp": {
+        "zh": 209,
+        "en": 122
+      },
+      "claude-personal-finance-beta": {
+        "zh": 217,
+        "en": 119
+      },
+      "aina-ring-approval": {
+        "zh": 207,
+        "en": 134
+      },
+      "moto-buds-ultra-27": {
+        "zh": 206,
+        "en": 123
+      },
+      "motorola-signature27-evs": {
+        "zh": 214,
+        "en": 122
+      },
+      "warby-intelligent-eyewear-preorder-date": {
+        "zh": 218,
+        "en": 121
+      },
+      "dji-matrice-5t-sensor-inspection": {
+        "zh": 214,
+        "en": 106
+      },
+      "souffleur": {
+        "zh": 215,
+        "en": 103
+      },
+      "tasteply": {
+        "zh": 214,
+        "en": 99
+      },
+      "intentweaver": {
+        "zh": 215,
+        "en": 98
+      },
+      "maike": {
+        "zh": 210,
+        "en": 105
+      },
+      "vocabulary-2": {
+        "zh": 210,
+        "en": 112
+      },
+      "protocall-preemptive-feedback": {
+        "zh": 219,
+        "en": 110
+      },
+      "slide-to-report": {
+        "zh": 212,
+        "en": 105
+      },
+      "controlanything": {
+        "zh": 210,
+        "en": 101
+      },
+      "vrego": {
+        "zh": 215,
+        "en": 100
+      },
+      "pixel-robot": {
+        "zh": 224,
+        "en": 98
+      },
+      "mabel-robot": {
+        "zh": 218,
+        "en": 108
+      },
+      "serve-physical-ai-services": {
+        "zh": 211,
+        "en": 120
+      },
+      "bridge-agent-meetings": {
+        "zh": 225,
+        "en": 102
+      },
+      "pushary-team-routing": {
+        "zh": 221,
+        "en": 107
+      },
+      "box-architect-workflows": {
+        "zh": 222,
+        "en": 100
+      },
+      "claude-enterprise-security-controls": {
+        "zh": 212,
+        "en": 101
+      },
+      "google-forms-actionable-insights": {
+        "zh": 209,
+        "en": 124
+      },
+      "codex-0167-recovery": {
+        "zh": 232,
+        "en": 117
+      },
+      "wuu-review-auth-recovery": {
+        "zh": 221,
+        "en": 109
+      },
+      "pdd-kit-intent-proof": {
+        "zh": 226,
+        "en": 121
+      },
+      "langfuse-gateway-beta": {
+        "zh": 220,
+        "en": 121
+      },
+      "mnn-pocket-local-decisions": {
+        "zh": 209,
+        "en": 115
+      },
+      "tinker-038-future-api": {
+        "zh": 215,
+        "en": 107
+      },
+      "gpt6-cyber-scoped-research": {
+        "zh": 190,
+        "en": 93
+      }
+    },
+    "counting": "Only unique full-analysis product paragraphs count toward body gates; summaries, captions, coverage and sources excluded.",
+    "products": 31,
+    "references": 93,
+    "coreVisuals": 31,
+    "slidesPerLocale": 34,
+    "primaryProjectPages": 31,
+    "attachedProjectDetails": 31,
+    "primaryBody": {
+      "zhDenseChars": 6660,
+      "enWords": 3423
+    },
+    "completeReadingBody": {
+      "zhDenseChars": 28099,
+      "enWords": 16085
+    }
+  },
+  "revision": {
+    "label": "morning-edition",
+    "originalCutoffRetained": true,
+    "newIssue": true,
+    "baselineCommit": "3a61ca5120577a78aaaca0161a86de6b0bb297ea"
+  },
+  "topics": [
+    {
+      "id": "instagram-edits-mac-mcp",
+      "zhHeadline": "Edits在Mac上让代理先做粗剪，创作者再回时间线改镜头",
+      "enHeadline": "Edits brings agent rough cuts and manual timeline editing together on Mac",
+      "eventAt": "2026-11-05T15:00:00Z",
+      "freshness": "main",
+      "evidence": "Original source bodies read; vendor claims separated from editorial analysis. No authenticated or hands-on product testing.",
+      "eventDateNote": "Exact publication timestamp; launch date independently stated",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "instagram-edits:instagram-edits-mac-mcp:2026-11-05",
+      "product_key": "instagram-edits",
+      "publishedAt": "2026-11-05T15:00:00Z",
+      "observedAt": "2026-11-06T09:14:54Z",
+      "delta_since_last_seen": "Tracks, keyframes, waveforms and shortcuts support precise edits. Users can publish to Instagram or export watermark-free 4K video for other destinations."
+    },
+    {
+      "id": "claude-personal-finance-beta",
+      "zhHeadline": "Claude把多个账户放进同一问答，余额延迟与缺失账户仍要自己核对",
+      "enHeadline": "Claude joins account data in one conversation, with stale balances still visible risks",
+      "eventAt": "2026-11-05",
+      "freshness": "near-three-day",
+      "evidence": "Original source bodies read; vendor claims separated from editorial analysis. No authenticated or hands-on product testing.",
+      "eventDateNote": "Official November 5 date only; clock/timezone unverified, conservative 72-hour supplement because day overlaps main-window boundary",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "claude-personal-finance:claude-personal-finance-beta:2026-11-05",
+      "product_key": "claude-personal-finance",
+      "publishedAt": "2026-11-05",
+      "observedAt": "2026-11-06T09:14:54Z",
+      "delta_since_last_seen": "It reduces manual copying between banking apps, while leaving money movement, investment decisions and account management outside the feature."
+    },
+    {
+      "id": "aina-ring-approval",
+      "zhHeadline": "Aina把代理下一步放到戒指屏幕，用拇指确认",
+      "enHeadline": "Aina puts the next agent action on a ring for a thumb approval",
+      "eventAt": "2026-11-05",
+      "freshness": "near-three-day",
+      "evidence": "Original public pages read; vendor claims attributed. No device use or independent performance test.",
+      "eventDateNote": "Date only; exact announcement clock/timezone unconfirmed. Boundary conservatively supplemental.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "aina-ring-approval:2026-11-05",
+      "product_key": "aina-ring-approval",
+      "publishedAt": "2026-11-05",
+      "observedAt": "2026-11-06T09:13:05.728011+00:00",
+      "delta_since_last_seen": "Seven gestures cover music, calls and Mac controls, aiming to remove the phone retrieval needed for a small confirmation."
+    },
+    {
+      "id": "moto-buds-ultra-27",
+      "zhHeadline": "Moto Buds Ultra 27把翻译和点头接听放到耳边，仍依赖配套手机",
+      "enHeadline": "Moto Buds Ultra 27 adds translation and head gestures through a paired phone",
+      "eventAt": "2026-11-05T13:00:00Z",
+      "freshness": "main",
+      "evidence": "Original public pages read; vendor claims attributed. No device use or independent performance test.",
+      "eventDateNote": "Explicit original release clock and offset.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "moto-buds-ultra-27:2026-11-05T13:00:00Z",
+      "product_key": "moto-buds-ultra-27",
+      "publishedAt": "2026-11-05T13:00:00Z",
+      "observedAt": "2026-11-06T09:13:05.728011+00:00",
+      "delta_since_last_seen": "These controls can reduce phone handling, but the earbuds are not a standalone translator; language, region, account and network conditions still apply."
+    },
+    {
+      "id": "motorola-signature27-evs",
+      "zhHeadline": "Signature 27用独立动作传感器辅助抓拍，代理功能分批到来",
+      "enHeadline": "Signature 27 adds a dedicated motion sensor while agent features arrive in stages",
+      "eventAt": "2026-11-05T14:00:00Z",
+      "freshness": "main",
+      "evidence": "Original public pages read; vendor claims attributed. No device use or independent performance test.",
+      "eventDateNote": "Explicit original release clock and offset.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "motorola-signature27-evs:2026-11-05T14:00:00Z",
+      "product_key": "motorola-signature27-evs",
+      "publishedAt": "2026-11-05T14:00:00Z",
+      "observedAt": "2026-11-06T09:17:39.026917+00:00",
+      "delta_since_last_seen": "This launch adds US pricing of $1,599.99, November 19 preorders and November 26 sales after the September unveiling."
+    },
+    {
+      "id": "warby-intelligent-eyewear-preorder-date",
+      "zhHeadline": "Warby Parker把智能眼镜预购定在11月12日，先到店试清控制方式",
+      "enHeadline": "Warby Parker dates eyewear preorders for November 12, with store demos for the controls",
+      "eventAt": "2026-11-05",
+      "freshness": "near-three-day",
+      "evidence": "Original public pages read; vendor claims attributed. No device use or independent performance test.",
+      "eventDateNote": "Date only; exact announcement clock/timezone unconfirmed. Boundary conservatively supplemental.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "warby-intelligent-eyewear-preorder-date:2026-11-05",
+      "product_key": "warby-intelligent-eyewear-preorder-date",
+      "publishedAt": "2026-11-05",
+      "observedAt": "2026-11-06T09:21:18.894254+00:00",
+      "delta_since_last_seen": "A store-demo entry covers controls, voice and real scenarios, giving prospective users a way to check fit and interaction beyond launch videos."
+    },
+    {
+      "id": "dji-matrice-5t-sensor-inspection",
+      "zhHeadline": "Matrice 5T用雷达和热成像辅助巡检，机载AI接上目标搜索与航线",
+      "enHeadline": "Matrice 5T combines radar and thermal inspection with AI target search and routes",
+      "eventAt": "2026-11-05",
+      "freshness": "near-three-day",
+      "evidence": "Original DJI launch announcement, product page, specs and FAQ read; manufacturer tests only, no flight or hardware inspection.",
+      "eventDateNote": "day; original announcement has no clock/timezone; date straddles main lower boundary, conservatively supplemental",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "dji:matrice-5t:launch:2026-11-05",
+      "product_key": "dji:matrice-5t",
+      "publishedAt": "2026-11-05",
+      "observedAt": "2026-11-06T09:22:06.406180+00:00",
+      "delta_since_last_seen": "This November 5 release is the 5T, distinct from the earlier dock-based 5TD. Its date-only announcement is conservatively supplemental."
+    },
+    {
+      "id": "souffleur",
+      "zhHeadline": "Souffleur把语音聊天收成主题卡，短对话里尚未比逐字稿更好接续",
+      "enHeadline": "Souffleur turns voice chats into topic cards, without a demonstrated short-chat advantage",
+      "eventAt": "2026-11-05T18:36:18Z",
+      "freshness": "main",
+      "evidence": "Original paper and author-reported evaluation; no independent hands-on or replication",
+      "eventDateNote": "second; arXiv submission, public announcement clock unconfirmed",
+      "gapBackfill": false,
+      "eventTimeKind": "arxiv-submission",
+      "event_key": "souffleur-arxiv-v1",
+      "product_key": "souffleur",
+      "publishedAt": "2026-11-05T18:36:18Z",
+      "observedAt": "2026-11-06T09:08:10Z",
+      "delta_since_last_seen": "Stable positions and speaker provenance help users inspect where a conclusion came from without reading every earlier turn. A returning topic leaves a gap instead of rearranging all the remaining cards."
+    },
+    {
+      "id": "tasteply",
+      "zhHeadline": "Tasteply让信息流的兴趣配比可拖动，临时好奇不必改成永久偏好",
+      "enHeadline": "Tasteply makes feed preferences blendable without treating every browsing mood as permanent taste",
+      "eventAt": "2026-11-05T11:30:27Z",
+      "freshness": "main",
+      "evidence": "Original paper and author-reported evaluation; no independent hands-on or replication",
+      "eventDateNote": "second; arXiv submission, public announcement clock unconfirmed",
+      "gapBackfill": false,
+      "eventTimeKind": "arxiv-submission",
+      "event_key": "tasteply-arxiv-v1",
+      "product_key": "tasteply",
+      "publishedAt": "2026-11-05T11:30:27Z",
+      "observedAt": "2026-11-06T09:08:10Z",
+      "delta_since_last_seen": "Distance changes local weights while a separate control adjusts persistent general taste. This lets a browsing session depart from the usual profile without manually rewriting every preference."
+    },
+    {
+      "id": "intentweaver",
+      "zhHeadline": "IntentWeaver把写作意图放到文字旁，改语气时能看见目标冲突",
+      "enHeadline": "IntentWeaver places writing goals beside the draft so revisions can expose conflicting intentions",
+      "eventAt": "2026-11-05T16:03:41Z",
+      "freshness": "main",
+      "evidence": "Original paper and author-reported evaluation; no independent hands-on or replication",
+      "eventDateNote": "second; arXiv submission, public announcement clock unconfirmed",
+      "gapBackfill": false,
+      "eventTimeKind": "arxiv-submission",
+      "event_key": "intentweaver-arxiv-v1",
+      "product_key": "intentweaver",
+      "publishedAt": "2026-11-05T16:03:41Z",
+      "observedAt": "2026-11-06T09:08:10Z",
+      "delta_since_last_seen": "This provides a visible place to examine how a local wording change affects a broader purpose instead of repeatedly expanding a long prompt."
+    },
+    {
+      "id": "maike",
+      "zhHeadline": "MAIKE先追问论点再让学生改文，聊天更深入尚未带来明确作文优势",
+      "enHeadline": "MAIKE questions an argument before students revise it, without a clear essay-quality advantage",
+      "eventAt": "2026-11-05T10:32:51Z",
+      "freshness": "main",
+      "evidence": "Original paper and author-reported evaluation; no independent hands-on or replication",
+      "eventDateNote": "second; arXiv submission, public announcement clock unconfirmed",
+      "gapBackfill": false,
+      "eventTimeKind": "arxiv-submission",
+      "event_key": "maike-arxiv-v1",
+      "product_key": "maike",
+      "publishedAt": "2026-11-05T10:32:51Z",
+      "observedAt": "2026-11-06T09:08:10Z",
+      "delta_since_last_seen": "The tutor does not supply essay sentences or display its internal diagnostic labels as grades."
+    },
+    {
+      "id": "vocabulary-2",
+      "zhHeadline": "VocabulARy 2.0把身边物件变成立体助记，生成等待仍打断学习",
+      "enHeadline": "VocabulARy 2.0 turns nearby objects into 3D memory cues, with generation delays still interrupting study",
+      "eventAt": "2026-11-05T10:39:26Z",
+      "freshness": "main",
+      "evidence": "Original paper and author-reported evaluation; no independent hands-on or replication",
+      "eventDateNote": "second; arXiv submission, public announcement clock unconfirmed",
+      "gapBackfill": false,
+      "eventTimeKind": "arxiv-submission",
+      "event_key": "vocabulary-2-arxiv-v1",
+      "product_key": "vocabulary-2",
+      "publishedAt": "2026-11-05T10:39:26Z",
+      "observedAt": "2026-11-06T09:08:10Z",
+      "delta_since_last_seen": "This replaces prepared assets with cues based on the learner’s own surroundings, although descriptions still use a virtual keyboard."
+    },
+    {
+      "id": "protocall-preemptive-feedback",
+      "zhHeadline": "ProtoCall在伸手拿错之前轻拉手臂，训练仍要看脱离辅助后的表现",
+      "enHeadline": "ProtoCall nudges an arm before a wrong reach, with learning judged after assistance",
+      "eventAt": "2026-11-04",
+      "freshness": "near-three-day",
+      "evidence": "Original public pages read; vendor claims attributed. No device use or independent performance test.",
+      "eventDateNote": "Date only; exact announcement clock/timezone unconfirmed. Boundary conservatively supplemental.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "protocall-preemptive-feedback:2026-11-04",
+      "product_key": "protocall-preemptive-feedback",
+      "publishedAt": "2026-11-04",
+      "observedAt": "2026-11-06T09:17:39.026917+00:00",
+      "delta_since_last_seen": "A November 4 university report describes UIST research and demonstrations comparing feedback forms in a small task study; this is not a released training device."
+    },
+    {
+      "id": "slide-to-report",
+      "zhHeadline": "Slide to Report让VR不适分项滑动上报，测量训练比多装两个滑块更关键",
+      "enHeadline": "Slide to Report separates VR symptoms with physical sliders, making reporting training part of the interface",
+      "eventAt": "2026-11-05T02:34:14Z",
+      "freshness": "near-three-day",
+      "evidence": "Original paper and author-reported evaluation; no independent hands-on or replication",
+      "eventDateNote": "second; arXiv submission, public announcement clock unconfirmed",
+      "gapBackfill": false,
+      "eventTimeKind": "arxiv-submission",
+      "event_key": "slide-to-report-arxiv-v1",
+      "product_key": "slide-to-report",
+      "publishedAt": "2026-11-05T02:34:14Z",
+      "observedAt": "2026-11-06T09:08:10Z",
+      "delta_since_last_seen": "Those sensors do not replace self-report with an automatic diagnosis, and the apparatus is not a treatment product."
+    },
+    {
+      "id": "controlanything",
+      "zhHeadline": "ControlAnything现场生成设备控制面板，但连通确认还不是动作成功",
+      "enHeadline": "ControlAnything generates device controls on demand; a connection acknowledgement is not physical success",
+      "eventAt": "2026-11-05T17:18:13Z",
+      "freshness": "main",
+      "evidence": "Original paper and author-reported evaluation; no independent hands-on or replication",
+      "eventDateNote": "second; arXiv submission, public announcement clock unconfirmed",
+      "gapBackfill": false,
+      "eventTimeKind": "arxiv-submission",
+      "event_key": "controlanything-arxiv-v1",
+      "product_key": "controlanything",
+      "publishedAt": "2026-11-05T17:18:13Z",
+      "observedAt": "2026-11-06T09:08:10Z",
+      "delta_since_last_seen": "The mapping then runs per frame without another model call. Demonstrated targets include instruments, a gimbal and computer interactions rather than arbitrary household devices."
+    },
+    {
+      "id": "vrego",
+      "zhHeadline": "VREgo用消费头显采机器人示范，手抓得成不代表夹爪照做也成",
+      "enHeadline": "VREgo captures robot demonstrations with a consumer headset, exposing the gap between hands and grippers",
+      "eventAt": "2026-11-05T00:46:43Z",
+      "freshness": "near-three-day",
+      "evidence": "Original paper and author-reported evaluation; no independent hands-on or replication",
+      "eventDateNote": "second; arXiv submission, public announcement clock unconfirmed",
+      "gapBackfill": false,
+      "eventTimeKind": "arxiv-submission",
+      "event_key": "vrego-arxiv-v1",
+      "product_key": "vrego",
+      "publishedAt": "2026-11-05T00:46:43Z",
+      "observedAt": "2026-11-06T09:08:10Z",
+      "delta_since_last_seen": "This lowers the need for specialist capture equipment, but human approach paths, release timing and gripper geometry still require correction."
+    },
+    {
+      "id": "pixel-robot",
+      "zhHeadline": "Pixel把示范工具与机器人一起设计，动作数据少一次硬拼适配",
+      "enHeadline": "Pixel designs demonstrations and robot hardware together to reduce motion-transfer mismatches",
+      "eventAt": "2026-11-02T18:59:32Z",
+      "freshness": "seven-day",
+      "evidence": "Original paper and author-reported evaluation; no independent hands-on or replication",
+      "eventDateNote": "second; arXiv submission, public announcement clock unconfirmed",
+      "gapBackfill": false,
+      "eventTimeKind": "arxiv-submission",
+      "event_key": "pixel-robot-arxiv-v1",
+      "product_key": "pixel-robot",
+      "publishedAt": "2026-11-02T18:59:32Z",
+      "observedAt": "2026-11-06T09:23:00Z",
+      "delta_since_last_seen": "Aligned viewpoints, gripper geometry and action representations reduce the integration work between independently designed components."
+    },
+    {
+      "id": "mabel-robot",
+      "zhHeadline": "MABEL把头手动作接到双臂全身控制，八千美元只是零件小计",
+      "enHeadline": "MABEL maps head and hand movement to a mobile dual-arm body; $8,056 is a parts subtotal",
+      "eventAt": "2026-11-02T23:47:53Z",
+      "freshness": "seven-day",
+      "evidence": "Original paper and author-reported evaluation; no independent hands-on or replication",
+      "eventDateNote": "second; arXiv submission, public announcement clock unconfirmed",
+      "gapBackfill": false,
+      "eventTimeKind": "arxiv-submission",
+      "event_key": "mabel-robot-arxiv-v1",
+      "product_key": "mabel-robot",
+      "publishedAt": "2026-11-02T23:47:53Z",
+      "observedAt": "2026-11-06T09:23:00Z",
+      "delta_since_last_seen": "Controller-free operation still requires calibration; on-screen sticks can move the base and lift when the operator has little room."
+    },
+    {
+      "id": "serve-physical-ai-services",
+      "zhHeadline": "Serve把车队连接和稀有片段筛选开放给其他机器人团队",
+      "enHeadline": "Serve opens fleet connectivity and rare-event curation to other robot teams",
+      "eventAt": "2026-11-05",
+      "freshness": "near-three-day",
+      "evidence": "Original public pages read; vendor claims attributed. No device use or independent performance test.",
+      "eventDateNote": "Date only; exact announcement clock/timezone unconfirmed. Boundary conservatively supplemental.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "serve-physical-ai-services:2026-11-05",
+      "product_key": "serve-physical-ai-services",
+      "publishedAt": "2026-11-05",
+      "observedAt": "2026-11-06T09:13:05.728011+00:00",
+      "delta_since_last_seen": "Launch customer Bedrock connects construction equipment over several network types. The new event is external service access, not a new robot."
+    },
+    {
+      "id": "bridge-agent-meetings",
+      "zhHeadline": "Bridge让代理带着权限加入会议，纪要之外还要管住现场动作",
+      "enHeadline": "Bridge gives meeting agents identities and permissions, making live actions part of the meeting design",
+      "eventAt": "2026-11-05",
+      "freshness": "near-three-day",
+      "evidence": "Original vendor documentation and dated release material; no authenticated hands-on test",
+      "eventDateNote": "Date only; no verified clock/time zone; conservative 72-hour supplement",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "bridge-agent-meetings-2026-11-05",
+      "product_key": "bridge-agent-meetings",
+      "publishedAt": "2026-11-05",
+      "observedAt": "2026-11-06T09:13:00Z",
+      "delta_since_last_seen": "The November 5 PH launch emphasizes conferencing with custom agents; earlier Simplora notetaking is not new."
+    },
+    {
+      "id": "pushary-team-routing",
+      "zhHeadline": "Pushary把代理问题送给指定同事，手机批准与审计都有边界",
+      "enHeadline": "Pushary routes agent questions to named teammates, with limits on phone approvals and audit coverage",
+      "eventAt": "2026-11-04",
+      "freshness": "near-three-day",
+      "evidence": "Original vendor documentation and dated release material; no authenticated hands-on test",
+      "eventDateNote": "Date only; no verified clock/time zone; conservative 72-hour supplement",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "pushary-team-routing-2026-11-04",
+      "product_key": "pushary-team-routing",
+      "publishedAt": "2026-11-04",
+      "observedAt": "2026-11-06T09:07:00Z",
+      "delta_since_last_seen": "Teams shipped October 29 and changed through November 4; its November 5 PH appearance is not the first release."
+    },
+    {
+      "id": "box-architect-workflows",
+      "zhHeadline": "Box Architect准备把业务目标组装成流程，测试版与现成功能要分开看",
+      "enHeadline": "Box Architect proposes complete workflows from business goals, with a staged release still ahead",
+      "eventAt": "2026-11-05",
+      "freshness": "near-three-day",
+      "evidence": "Original vendor documentation and dated release material; no authenticated hands-on test",
+      "eventDateNote": "Date only; no verified clock/time zone; conservative 72-hour supplement",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "box-architect-workflows-2026-11-05",
+      "product_key": "box-architect-workflows",
+      "publishedAt": "2026-11-05",
+      "observedAt": "2026-11-06T09:13:00Z",
+      "delta_since_last_seen": "Announced November 5, the Enterprise Advanced beta is planned for Q4; the product page still says coming soon."
+    },
+    {
+      "id": "claude-enterprise-security-controls",
+      "zhHeadline": "Claude把配置检查与运行拦截放在一起，默认放行仍要管理员看清",
+      "enHeadline": "Claude combines configuration review with runtime checks; administrators still need to inspect the defaults",
+      "eventAt": "2026-11-05",
+      "freshness": "near-three-day",
+      "evidence": "Original vendor documentation and dated release material; no authenticated hands-on test",
+      "eventDateNote": "Date only; no verified clock/time zone; conservative 72-hour supplement",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "claude-enterprise-security-controls-2026-11-05",
+      "product_key": "claude-enterprise",
+      "publishedAt": "2026-11-05",
+      "observedAt": "2026-11-06T09:07:00Z",
+      "delta_since_last_seen": "The November 5 announcement makes inference hooks generally available while the security center and centralized management remain beta."
+    },
+    {
+      "id": "google-forms-actionable-insights",
+      "zhHeadline": "Google Forms把多题回答一起分析，建议仍要回到样本核对",
+      "enHeadline": "Google Forms analyzes answers across questions, with recommendations to check against the sample",
+      "eventAt": "2026-11-02",
+      "freshness": "seven-day",
+      "evidence": "Official Workspace announcement body returned by web search and current original help read. Direct announcement open failed internally; no signed-in product test.",
+      "eventDateNote": "day; Rapid Release rollout start Nov2, official article Nov5; exact clock/timezone unavailable",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "google-forms:actionable-insights:rapid-release:2026-11-02",
+      "product_key": "google:forms:actionable-insights",
+      "publishedAt": "2026-11-05",
+      "observedAt": "2026-11-06T09:16:24.584721+00:00",
+      "delta_since_last_seen": "The addition analyzes the whole form rather than only summarizing individual text questions. Rapid Release began gradually on November 2; this is a weekly retrospective. Scheduled Release starts November 19, so current availability must be checked for the actual account."
+    },
+    {
+      "id": "codex-0167-recovery",
+      "zhHeadline": "Codex保留换提供方后的旧会话，失败时先读记录再准备续写",
+      "enHeadline": "Codex keeps earlier chats accessible when provider changes interrupt continuation",
+      "eventAt": "2026-11-06T01:40:00Z",
+      "freshness": "main",
+      "evidence": "Original sources read; claims attributed to authors; no independent hands-on or performance validation.",
+      "eventDateNote": "Exact original release API UTC time",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "codex-0167-recovery",
+      "product_key": "codex-0167-recovery",
+      "publishedAt": "2026-11-06T01:40:00Z",
+      "observedAt": "2026-11-06T09:18:23.865878+00:00",
+      "delta_since_last_seen": "The stable release also adds an embedded agent center and local-image thumbnails on supported terminals, helping users inspect materials before sending instructions."
+    },
+    {
+      "id": "wuu-review-auth-recovery",
+      "zhHeadline": "Wuu把代码差异放进可伸缩审阅区，连接失败不用重做已完成授权",
+      "enHeadline": "Wuu improves diff review and preserves completed authorization when a connector fails",
+      "eventAt": "2026-11-05T10:28:09Z",
+      "freshness": "main",
+      "evidence": "Original sources read; claims attributed to authors; no independent hands-on or performance validation.",
+      "eventDateNote": "Exact original release API UTC time",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "wuu-review-auth-recovery",
+      "product_key": "wuu-review-auth-recovery",
+      "publishedAt": "2026-11-05T10:28:09Z",
+      "observedAt": "2026-11-06T09:18:23.865878+00:00",
+      "delta_since_last_seen": "The November 5 release introduces virtualized diffs and preserves a completed authorization grant when the subsequent MCP connection fails."
+    },
+    {
+      "id": "pdd-kit-intent-proof",
+      "zhHeadline": "PDD Kit先问清登录规则，再证明代码满足哪一部分",
+      "enHeadline": "PDD Kit clarifies login rules before proving which parts the code satisfies",
+      "eventAt": "2026-11-05",
+      "freshness": "near-three-day",
+      "evidence": "Original sources read; claims attributed to authors; no independent hands-on or performance validation.",
+      "eventDateNote": "Original date only; clock/timezone unknown. Conservatively supplemental because main-window boundary is unresolved.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "pdd-kit-intent-proof",
+      "product_key": "pdd-kit-intent-proof",
+      "publishedAt": "2026-11-05",
+      "observedAt": "2026-11-06T09:18:23.865878+00:00",
+      "delta_since_last_seen": "The team approves the specification and trusted boundary in Chopin. The verifier checks login logic while external-library and database assumptions receive separate tests."
+    },
+    {
+      "id": "langfuse-gateway-beta",
+      "zhHeadline": "Langfuse给团队分发网关密钥，费用看板仍有明确统计边界",
+      "enHeadline": "Langfuse issues team gateway keys with explicit limits on what cost charts measure",
+      "eventAt": "2026-11-04",
+      "freshness": "near-three-day",
+      "evidence": "Original sources read; claims attributed to authors; no independent hands-on or performance validation.",
+      "eventDateNote": "Original date only; clock/timezone unknown. Conservatively supplemental because main-window boundary is unresolved.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "langfuse-gateway-beta",
+      "product_key": "langfuse-gateway-beta",
+      "publishedAt": "2026-11-04",
+      "observedAt": "2026-11-06T09:18:23.865878+00:00",
+      "delta_since_last_seen": "It supports native OpenAI and Anthropic APIs, with full-content or usage-only recording. Gateway keys cannot access unrelated Langfuse data."
+    },
+    {
+      "id": "mnn-pocket-local-decisions",
+      "zhHeadline": "MNN-Pocket把短文本任务留在手机，生成回答与选择候选各有入口",
+      "enHeadline": "MNN-Pocket keeps short text tasks on device, with separate generation and decision paths",
+      "eventAt": "2026-11-04",
+      "freshness": "near-three-day",
+      "evidence": "Original Alibaba repository and four model cards read; vendor measurements, no independent execution.",
+      "eventDateNote": "day; original README release date, clock/timezone unestablished",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "mnn-pocket:weights-code:2026-11-04",
+      "product_key": "alibaba:mnn-pocket",
+      "publishedAt": "2026-11-04",
+      "observedAt": "2026-11-06T09:11:00Z",
+      "delta_since_last_seen": "The repository dates release to November 4, making this a three-day supplement. The approximately 300M-parameter INT4 deployment package is 173 MB, under Apache 2.0."
+    },
+    {
+      "id": "tinker-038-future-api",
+      "zhHeadline": "Tinker统一异步返回值，训练脚本迁移要分清提交与等待",
+      "enHeadline": "Tinker unifies asynchronous results while migration must preserve submission order",
+      "eventAt": "2026-11-05",
+      "freshness": "near-three-day",
+      "evidence": "Original sources read; claims attributed to authors; no independent hands-on or performance validation.",
+      "eventDateNote": "Original date only; clock/timezone unknown. Conservatively supplemental because main-window boundary is unresolved.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "tinker-038-future-api",
+      "product_key": "tinker-038-future-api",
+      "publishedAt": "2026-11-05",
+      "observedAt": "2026-11-06T09:18:23.865878+00:00",
+      "delta_since_last_seen": "Older async-suffixed methods temporarily work with warnings and are planned for removal. This is an interface migration, not a new model or compute release."
+    },
+    {
+      "id": "gpt6-cyber-scoped-research",
+      "zhHeadline": "GPT-6 Cyber让安全研究接着验证和修复，授权范围仍需逐次落实",
+      "enHeadline": "GPT-6 Cyber connects findings to validation and repair within an explicit scope",
+      "eventAt": "2026-11-05",
+      "freshness": "near-three-day",
+      "evidence": "Original launch, system card and access help read; vendor evaluations attributed, no independent model execution.",
+      "eventDateNote": "Original launch article date only; clock/timezone unconfirmed. November5 straddles lower main-window boundary, conservatively supplemental.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "openai:gpt6-cyber:launch:2026-11-05",
+      "product_key": "openai:gpt6-cyber",
+      "publishedAt": "2026-11-05",
+      "observedAt": "2026-11-06T09:06:19.067044+00:00",
+      "delta_since_last_seen": "This November 5 model release is distinct from the earlier GovCloud expansion. Access is limited to separately approved Daybreak Red customers."
+    }
+  ],
+  "eventCounts": {
+    "mainWindowEvents": 11,
+    "nearThreeDayReviews": 17,
+    "sevenDayReviews": 3,
+    "gapBackfillEvents": 0,
+    "interpretation": "Announcements, submissions, updates and regional reports; not first product launches."
+  }
+}
