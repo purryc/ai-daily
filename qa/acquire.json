@@ -1,86 +1,43 @@
 [
   {
-    "name": "souffleur.jpg",
-    "url": "https://arxiv.org/html/2611.08443v1/teaser.png",
+    "name": "rerun.jpg",
+    "url": "https://ph-files.imgix.net/0cb6c50c-7dbb-4b41-9d6e-e3aa1fce28ae.jpeg?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=220&w=368",
     "kind": "image",
     "renderImage": true,
     "locale": "zh"
   },
   {
-    "name": "controlanything.jpg",
-    "url": "https://arxiv.org/html/2611.08321v1/figures/teaser-e-op1.jpg",
+    "name": "glasshand.jpg",
+    "url": "https://ph-files.imgix.net/1bb914f9-fc0f-48dd-97a1-036322f4641d.png",
     "kind": "image",
     "renderImage": true,
     "locale": "en"
   },
   {
-    "name": "intentweaver.jpg",
-    "url": "https://arxiv.org/html/2611.08214v1/images/fig3a-interface.png",
+    "name": "clocknext.jpg",
+    "url": "https://ph-files.imgix.net/66f78526-f3da-4a5f-8e8f-0ffbdb1cbffe.png",
     "kind": "image",
     "renderImage": true,
     "locale": "zh"
   },
   {
-    "name": "tasteply.jpg",
-    "url": "https://arxiv.org/html/2611.07851v1/teaser_figure.png",
+    "name": "protocall.jpg",
+    "url": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/2026-11/factory.JPG.webp?itok=Z2Q82URG",
     "kind": "image",
     "renderImage": true,
     "locale": "en"
   },
   {
-    "name": "vocabulary-2.jpg",
-    "url": "https://arxiv.org/html/2611.07798v1/controller5.png",
+    "name": "lumi.jpg",
+    "url": "https://lumiring.xyz/assets/1db5072b9f5fe1833f91cbd4.png",
     "kind": "image",
     "renderImage": true,
     "locale": "zh"
   },
   {
-    "name": "maike.jpg",
-    "url": "https://arxiv.org/html/2611.07792v1/interf-para.png",
-    "kind": "image",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "name": "slide-to-report.jpg",
-    "url": "https://arxiv.org/html/2611.07345v1/Figures/slider_setup_figure.png",
-    "kind": "image",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "name": "vrego.jpg",
-    "url": "https://arxiv.org/html/2611.07272v1/teaser.png",
-    "kind": "image",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "name": "aina.jpg",
-    "url": "https://www.aina.com/_next/image?q=75&url=%2F_next%2Fstatic%2Fimmutable%2Fmedia%2Fexploded.1j6apvyfa5erm.webp&w=3840",
-    "kind": "image",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "name": "serve.jpg",
-    "url": "https://cdn.sanity.io/images/dh33lj7y/production/59ea8422d26f96faa9cfe43f591e8645e70c6f92-8192x5464.jpg",
-    "kind": "image",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "name": "bridge.jpg",
-    "url": "https://ph-files.imgix.net/efabcc09-9c33-4470-903f-023b13444278.png",
-    "kind": "image",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "name": "signature27.jpg",
-    "url": "https://media.motorolanews.fiestic.com/2026/11/04151018/29260918_MOTOROLA_SIGNATURE_1047-1366x2048.png",
-    "kind": "image",
-    "renderImage": true,
+    "name": "vids-inventory.json",
+    "url": "https://workspaceupdates.googleblog.com/2026/11/gemini-omni-12-flash-now-in-vids-with-15second-generations-and-improved-quality.html",
+    "kind": "inventory",
     "locale": "en"
   }
 ]
