@@ -1,0 +1,710 @@
+[
+  {
+    "url": "https://www.theverge.com/tech/1027444/instagram-edits-desktop-ai-agents-muse-mcp",
+    "title": "You can edit your videos with AI on Instagram’s new desktop Edits app",
+    "publisher": "The Verge",
+    "publishedAt": "2026-11-05T15:00:00Z",
+    "observedAt": "2026-11-06T09:14:54Z",
+    "number": 1
+  },
+  {
+    "url": "https://9to5mac.com/2026/11/05/instagram-launches-edits-for-mac-with-multi-track-video-editing-and-4k-exports/",
+    "title": "Instagram launches Edits for Mac with multi-track video editing and 4K exports",
+    "publisher": "9to5Mac",
+    "publishedAt": "2026-11-05T15:00:00Z",
+    "observedAt": "2026-11-06T09:14:54Z",
+    "number": 2
+  },
+  {
+    "url": "https://tech.yahoo.com/social-media/articles/edits-launches-macos-192419293.html",
+    "title": "Edits launches for MacOS",
+    "publisher": "Social Media Today via Yahoo",
+    "publishedAt": "2026-11-05T19:24:19Z",
+    "observedAt": "2026-11-06T09:14:54Z",
+    "number": 3
+  },
+  {
+    "url": "https://claude.com/resources/articles/introducing-personal-finance-in-claude",
+    "title": "Introducing Personal Finance in Claude",
+    "publisher": "Anthropic",
+    "publishedAt": "2026-11-05",
+    "observedAt": "2026-11-06T09:14:54Z",
+    "number": 4
+  },
+  {
+    "url": "https://support.claude.com/en/articles/18185620-use-personal-finance-in-claude",
+    "title": "Use Personal Finance in Claude",
+    "publisher": "Anthropic",
+    "observedAt": "2026-11-06T09:14:54Z",
+    "number": 5
+  },
+  {
+    "url": "https://support.claude.com/en/articles/12138966-release-notes",
+    "title": "Claude release notes: November 5",
+    "publisher": "Anthropic",
+    "publishedAt": "2026-11-05",
+    "observedAt": "2026-11-06T09:14:54Z",
+    "number": 6
+  },
+  {
+    "url": "https://www.macrumors.com/2026/11/05/claude-personal-finance/",
+    "title": "Claude Gets Personal Finance Feature With Bank Account Linking",
+    "publisher": "MacRumors",
+    "publishedAt": "2026-11-05T22:47:00Z",
+    "observedAt": "2026-11-06T09:14:54Z",
+    "number": 7
+  },
+  {
+    "url": "https://www.aina.com/",
+    "title": "Aina Ring",
+    "publisher": "Aina",
+    "observedAt": "2026-11-06T09:13:05.728011+00:00",
+    "number": 8
+  },
+  {
+    "url": "https://www.aina.com/how-it-works",
+    "title": "How it works",
+    "publisher": "Aina",
+    "observedAt": "2026-11-06T09:13:05.728011+00:00",
+    "number": 9
+  },
+  {
+    "url": "https://www.aina.com/faq",
+    "title": "FAQ",
+    "publisher": "Aina",
+    "observedAt": "2026-11-06T09:13:05.728011+00:00",
+    "number": 10
+  },
+  {
+    "url": "https://www.aina.com/privacy",
+    "title": "Privacy policy",
+    "publisher": "Aina",
+    "publishedAt": "2026-05-15",
+    "observedAt": "2026-11-06T09:13:05.728011+00:00",
+    "number": 11
+  },
+  {
+    "url": "https://www.wired.com/story/aina-smart-ring/",
+    "title": "Aina smart ring announcement",
+    "publisher": "WIRED",
+    "publishedAt": "2026-11-05",
+    "observedAt": "2026-11-06T09:13:05.728011+00:00",
+    "number": 12
+  },
+  {
+    "url": "https://motorolanews.com/the-new-moto-buds-2-ultra-moto-buds-ultra-27-take-audio-up-a-notch-with-sound-by-bose-technology-and-bring-ai-live-translation-to-consumers/",
+    "title": "moto buds 2 ultra / ultra 27 official introduction",
+    "publisher": "Motorola",
+    "publishedAt": "2026-11-05",
+    "observedAt": "2026-11-06T09:13:05.728011+00:00",
+    "number": 13
+  },
+  {
+    "url": "https://www.prnewswire.com/news-releases/the-new-moto-buds-ultra-27-take-audio-up-a-notch-with-sound-by-bose-technology-and-bring-ai-live-translation-to-consumers-302929760.html",
+    "title": "moto buds ultra 27 announcement",
+    "publisher": "Motorola / PR Newswire",
+    "publishedAt": "2026-11-05T13:00:00Z",
+    "observedAt": "2026-11-06T09:13:05.728011+00:00",
+    "number": 14
+  },
+  {
+    "url": "https://motorolanews.com/motorola-signature-27-2/",
+    "title": "Signature 27 global detailed launch",
+    "publisher": "Motorola",
+    "publishedAt": "2026-11-05",
+    "observedAt": "2026-11-06T09:17:39.026917+00:00",
+    "number": 15
+  },
+  {
+    "url": "https://www.prnewswire.com/news-releases/motorola-sets-a-new-flagship-standard-with-motorola-signature-27-featuring-its-most-advanced-camera-system-next-generation-agentic-ai-and-the-brightest-display-available-in-a-smartphone-18-302930839.html",
+    "title": "Signature 27 US launch",
+    "publisher": "Motorola / PR Newswire",
+    "publishedAt": "2026-11-05T14:00:00Z",
+    "observedAt": "2026-11-06T09:17:39.026917+00:00",
+    "number": 16
+  },
+  {
+    "url": "https://www.sony-semicon.com/en/technology/industry/evs.html",
+    "title": "EVS technology background",
+    "publisher": "Sony Semiconductor Solutions",
+    "observedAt": "2026-11-06T09:17:39.026917+00:00",
+    "number": 17
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1504776/000150477626000022/warbyparkerincearningsrele.htm",
+    "title": "Warby Parker announces third quarter 2026 results",
+    "publisher": "Warby Parker / SEC",
+    "publishedAt": "2026-11-05",
+    "observedAt": "2026-11-06T09:21:18.894254+00:00",
+    "number": 18
+  },
+  {
+    "url": "https://www.warbyparker.com/intelligent-eyewear",
+    "title": "Intelligent Eyewear",
+    "publisher": "Warby Parker",
+    "observedAt": "2026-11-06T09:21:18.894254+00:00",
+    "number": 19
+  },
+  {
+    "url": "https://www.warbyparker.com/reservations/demo/book",
+    "title": "Book an Intelligent Eyewear demo",
+    "publisher": "Warby Parker",
+    "observedAt": "2026-11-06T09:21:18.894254+00:00",
+    "number": 20
+  },
+  {
+    "url": "https://www.dji.com/media-center/announcements/dji-release-matrice-5t",
+    "title": "Matrice5T launch",
+    "publisher": "DJI",
+    "publishedAt": "2026-11-05",
+    "observedAt": "2026-11-06T09:22:06.406180+00:00",
+    "number": 21
+  },
+  {
+    "url": "https://enterprise.dji.com/matrice-5t/specs",
+    "title": "Matrice5T specifications",
+    "publisher": "DJI",
+    "observedAt": "2026-11-06T09:22:06.406180+00:00",
+    "number": 22
+  },
+  {
+    "url": "https://enterprise.dji.com/matrice-5t/faq",
+    "title": "Matrice5T FAQ",
+    "publisher": "DJI",
+    "observedAt": "2026-11-06T09:22:06.406180+00:00",
+    "number": 23
+  },
+  {
+    "url": "https://enterprise.dji.com/matrice-5t",
+    "title": "Matrice5T product overview",
+    "publisher": "DJI",
+    "observedAt": "2026-11-06T09:22:06.406180+00:00",
+    "number": 24
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.08443",
+    "title": "Souffleur — submission history",
+    "publisher": "arXiv",
+    "publishedAt": "2026-11-05T18:36:18Z",
+    "observedAt": "2026-11-06T09:08:10Z",
+    "number": 25
+  },
+  {
+    "url": "https://arxiv.org/html/2611.08443v1",
+    "title": "Souffleur — full paper",
+    "publisher": "Authors via arXiv",
+    "publishedAt": "2026-11-05T18:36:18Z",
+    "observedAt": "2026-11-06T09:08:10Z",
+    "number": 26
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.07851",
+    "title": "Tasteply — submission history",
+    "publisher": "arXiv",
+    "publishedAt": "2026-11-05T11:30:27Z",
+    "observedAt": "2026-11-06T09:08:10Z",
+    "number": 27
+  },
+  {
+    "url": "https://arxiv.org/html/2611.07851v1",
+    "title": "Tasteply — full paper",
+    "publisher": "Authors via arXiv",
+    "publishedAt": "2026-11-05T11:30:27Z",
+    "observedAt": "2026-11-06T09:08:10Z",
+    "number": 28
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.08214",
+    "title": "IntentWeaver — submission history",
+    "publisher": "arXiv",
+    "publishedAt": "2026-11-05T16:03:41Z",
+    "observedAt": "2026-11-06T09:08:10Z",
+    "number": 29
+  },
+  {
+    "url": "https://arxiv.org/html/2611.08214v1",
+    "title": "IntentWeaver — full paper",
+    "publisher": "Authors via arXiv",
+    "publishedAt": "2026-11-05T16:03:41Z",
+    "observedAt": "2026-11-06T09:08:10Z",
+    "number": 30
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.07792",
+    "title": "MAIKE / Thinking Is Not Writing — submission history",
+    "publisher": "arXiv",
+    "publishedAt": "2026-11-05T10:32:51Z",
+    "observedAt": "2026-11-06T09:08:10Z",
+    "number": 31
+  },
+  {
+    "url": "https://arxiv.org/html/2611.07792v1",
+    "title": "MAIKE / Thinking Is Not Writing — full paper",
+    "publisher": "Authors via arXiv",
+    "publishedAt": "2026-11-05T10:32:51Z",
+    "observedAt": "2026-11-06T09:08:10Z",
+    "number": 32
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.07798",
+    "title": "VocabulARy 2.0 — submission history",
+    "publisher": "arXiv",
+    "publishedAt": "2026-11-05T10:39:26Z",
+    "observedAt": "2026-11-06T09:08:10Z",
+    "number": 33
+  },
+  {
+    "url": "https://arxiv.org/html/2611.07798v1",
+    "title": "VocabulARy 2.0 — full paper",
+    "publisher": "Authors via arXiv",
+    "publishedAt": "2026-11-05T10:39:26Z",
+    "observedAt": "2026-11-06T09:08:10Z",
+    "number": 34
+  },
+  {
+    "url": "https://www.umiacs.umd.edu/news-events/news/applying-ai-human-skill-learning-through-embodied-human-ai-collaboration",
+    "title": "Applying AI to Human Skill Learning Through Embodied Human-AI Collaboration",
+    "publisher": "UMIACS",
+    "publishedAt": "2026-11-04",
+    "observedAt": "2026-11-06T09:17:39.026917+00:00",
+    "number": 35
+  },
+  {
+    "url": "https://kylee.vercel.app/",
+    "title": "Kyungyeon Lee selected publications",
+    "publisher": "Kyungyeon Lee",
+    "observedAt": "2026-11-06T09:17:39.026917+00:00",
+    "number": 36
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.07345",
+    "title": "Slide to Report — submission history",
+    "publisher": "arXiv",
+    "publishedAt": "2026-11-05T02:34:14Z",
+    "observedAt": "2026-11-06T09:08:10Z",
+    "number": 37
+  },
+  {
+    "url": "https://arxiv.org/html/2611.07345v1",
+    "title": "Slide to Report — full paper",
+    "publisher": "Authors via arXiv",
+    "publishedAt": "2026-11-05T02:34:14Z",
+    "observedAt": "2026-11-06T09:08:10Z",
+    "number": 38
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.08321",
+    "title": "ControlAnything — submission history",
+    "publisher": "arXiv",
+    "publishedAt": "2026-11-05T17:18:13Z",
+    "observedAt": "2026-11-06T09:08:10Z",
+    "number": 39
+  },
+  {
+    "url": "https://arxiv.org/html/2611.08321v1",
+    "title": "ControlAnything — full paper",
+    "publisher": "Authors via arXiv",
+    "publishedAt": "2026-11-05T17:18:13Z",
+    "observedAt": "2026-11-06T09:08:10Z",
+    "number": 40
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.07272",
+    "title": "VREgo — submission history",
+    "publisher": "arXiv",
+    "publishedAt": "2026-11-05T00:46:43Z",
+    "observedAt": "2026-11-06T09:08:10Z",
+    "number": 41
+  },
+  {
+    "url": "https://arxiv.org/html/2611.07272v1",
+    "title": "VREgo — full paper",
+    "publisher": "Authors via arXiv",
+    "publishedAt": "2026-11-05T00:46:43Z",
+    "observedAt": "2026-11-06T09:08:10Z",
+    "number": 42
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.03648",
+    "title": "Pixel robot — submission history",
+    "publisher": "arXiv",
+    "publishedAt": "2026-11-02T18:59:32Z",
+    "observedAt": "2026-11-06T09:23:00Z",
+    "number": 43
+  },
+  {
+    "url": "https://arxiv.org/html/2611.03648v1",
+    "title": "Pixel robot — full paper",
+    "publisher": "Authors via arXiv",
+    "publishedAt": "2026-11-02T18:59:32Z",
+    "observedAt": "2026-11-06T09:23:00Z",
+    "number": 44
+  },
+  {
+    "url": "https://pixel-robot.com/pixel/",
+    "title": "Pixel original project page",
+    "publisher": "Pixel authors / Carnegie Mellon University",
+    "observedAt": "2026-11-06T09:23:00Z",
+    "number": 45
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.04083",
+    "title": "MABEL — submission history",
+    "publisher": "arXiv",
+    "publishedAt": "2026-11-02T23:47:53Z",
+    "observedAt": "2026-11-06T09:23:00Z",
+    "number": 46
+  },
+  {
+    "url": "https://arxiv.org/html/2611.04083v1",
+    "title": "MABEL — full paper",
+    "publisher": "Authors via arXiv",
+    "publishedAt": "2026-11-02T23:47:53Z",
+    "observedAt": "2026-11-06T09:23:00Z",
+    "number": 47
+  },
+  {
+    "url": "https://investors.serverobotics.com/news-releases/news-release-details/serve-robotics-launches-physical-ai-services-opening-technology",
+    "title": "Serve Robotics launches Physical AI Services",
+    "publisher": "Serve Robotics",
+    "publishedAt": "2026-11-05",
+    "observedAt": "2026-11-06T09:13:05.728011+00:00",
+    "number": 48
+  },
+  {
+    "url": "https://www.serverobotics.com/software/index.html",
+    "title": "Software platform",
+    "publisher": "Serve Robotics",
+    "observedAt": "2026-11-06T09:13:05.728011+00:00",
+    "number": 49
+  },
+  {
+    "url": "https://www.serverobotics.com/data/index.html",
+    "title": "Data platform",
+    "publisher": "Serve Robotics",
+    "observedAt": "2026-11-06T09:13:05.728011+00:00",
+    "number": 50
+  },
+  {
+    "url": "https://www.producthunt.com/leaderboard/daily/2026/11/5",
+    "title": "Best of Product Hunt November 5, 2026",
+    "publisher": "Product Hunt",
+    "publishedAt": "2026-11-05",
+    "observedAt": "2026-11-06T09:13:00Z",
+    "number": 51
+  },
+  {
+    "url": "https://www.producthunt.com/products/meetonbridge",
+    "title": "Bridge launch overview and maker explanation",
+    "publisher": "Product Hunt",
+    "publishedAt": "2026-11-05",
+    "observedAt": "2026-11-06T09:13:00Z",
+    "number": 52
+  },
+  {
+    "url": "https://meetonbridge.com/agents",
+    "title": "Bridge Agents",
+    "publisher": "Bridge",
+    "observedAt": "2026-11-06T09:13:00Z",
+    "number": 53
+  },
+  {
+    "url": "https://meetonbridge.com/",
+    "title": "Bridge product home",
+    "publisher": "Bridge",
+    "observedAt": "2026-11-06T09:13:00Z",
+    "number": 54
+  },
+  {
+    "url": "https://meetonbridge.com/pricing",
+    "title": "Bridge Pricing",
+    "publisher": "Bridge",
+    "observedAt": "2026-11-06T09:13:00Z",
+    "number": 55
+  },
+  {
+    "url": "https://pushary.com/docs/changelog",
+    "title": "Changelog — Pushary for Teams, November 4, 2026",
+    "publisher": "Pushary",
+    "publishedAt": "2026-11-04",
+    "observedAt": "2026-11-06T09:07:00Z",
+    "number": 56
+  },
+  {
+    "url": "https://pushary.com/docs/agents/team",
+    "title": "Pushary Team",
+    "publisher": "Pushary",
+    "publishedAt": "2026-11-04",
+    "observedAt": "2026-11-06T09:07:00Z",
+    "number": 57
+  },
+  {
+    "url": "https://pushary.com/docs/agents/guides/windsurf-other",
+    "title": "Windsurf and other MCP agents",
+    "publisher": "Pushary",
+    "publishedAt": "2026-10-24",
+    "observedAt": "2026-11-06T09:07:00Z",
+    "number": 58
+  },
+  {
+    "url": "https://pushary.com/docs/agents/audit-log",
+    "title": "Audit trail and export",
+    "publisher": "Pushary",
+    "publishedAt": "2026-11-05",
+    "observedAt": "2026-11-06T09:07:00Z",
+    "number": 59
+  },
+  {
+    "url": "https://www.producthunt.com/products/pushary",
+    "title": "Pushary for Teams launch listing",
+    "publisher": "Product Hunt",
+    "publishedAt": "2026-11-05",
+    "observedAt": "2026-11-06T09:07:00Z",
+    "number": 60
+  },
+  {
+    "url": "https://blog.box.com/box-unveils-architect-reimagine-content-workflows-frontier-ai",
+    "title": "Box unveils Architect to reimagine content workflows with frontier AI",
+    "publisher": "Box",
+    "publishedAt": "2026-11-05",
+    "observedAt": "2026-11-06T09:13:00Z",
+    "number": 61
+  },
+  {
+    "url": "https://www.box.com/architect",
+    "title": "Box Architect",
+    "publisher": "Box",
+    "observedAt": "2026-11-06T09:13:00Z",
+    "number": 62
+  },
+  {
+    "url": "https://blog.box.com/box-unveils-next-generation-enterprise-ai-new-agentic-workflow-automation-and-advanced-threat",
+    "title": "Box Unveils the Next Generation of Enterprise AI",
+    "publisher": "Box",
+    "publishedAt": "2026-11-05",
+    "observedAt": "2026-11-06T09:13:00Z",
+    "number": 63
+  },
+  {
+    "url": "https://blog.box.com/box-partners-nvidia-deliver-trusted-content-layer-enterprise-ai",
+    "title": "Box Partners With NVIDIA to Deliver the Trusted Content Layer for Enterprise AI",
+    "publisher": "Box",
+    "publishedAt": "2026-11-05",
+    "observedAt": "2026-11-06T09:13:00Z",
+    "number": 64
+  },
+  {
+    "url": "https://www.box.com/ai/contextretrieval",
+    "title": "Box Context Retrieval",
+    "publisher": "Box",
+    "observedAt": "2026-11-06T09:13:00Z",
+    "number": 65
+  },
+  {
+    "url": "https://claude.com/resources/articles/claude-enterprise-security-updates",
+    "title": "More visibility and control over Claude Enterprise for security teams",
+    "publisher": "Anthropic",
+    "publishedAt": "2026-11-05",
+    "observedAt": "2026-11-06T09:07:00Z",
+    "number": 66
+  },
+  {
+    "url": "https://platform.claude.com/docs/en/manage-claude/inference-hooks",
+    "title": "Inference hooks",
+    "publisher": "Anthropic",
+    "observedAt": "2026-11-06T09:07:00Z",
+    "number": 67
+  },
+  {
+    "url": "https://platform.claude.com/docs/en/manage-claude/inference-hooks-configuration",
+    "title": "Configure Inference hooks",
+    "publisher": "Anthropic",
+    "observedAt": "2026-11-06T09:07:00Z",
+    "number": 68
+  },
+  {
+    "url": "https://workspaceupdates.googleblog.com/2026/11/get-actionable-insights-with-gemini-in-Google-Forms.html?m=1",
+    "title": "Get actionable insights with Gemini in Google Forms",
+    "publisher": "Google Workspace Updates",
+    "publishedAt": "2026-11-05",
+    "observedAt": "2026-11-06T09:16:24.584721+00:00",
+    "number": 69
+  },
+  {
+    "url": "https://support.google.com/docs/answer/16231981?hl=en",
+    "title": "Summarize & analyze responses with Gemini in Google Forms",
+    "publisher": "Google Docs Editors Help",
+    "observedAt": "2026-11-06T09:16:24.584721+00:00",
+    "number": 70
+  },
+  {
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0",
+    "title": "Codex 0.167.0 release",
+    "publisher": "OpenAI",
+    "publishedAt": "2026-11-06T01:40:00Z",
+    "observedAt": "2026-11-06T09:18:23.865878+00:00",
+    "number": 71
+  },
+  {
+    "url": "https://github.com/openai/codex/pull/58202",
+    "title": "Keep chats accessible across provider changes",
+    "publisher": "OpenAI",
+    "observedAt": "2026-11-06T09:18:23.865878+00:00",
+    "number": 72
+  },
+  {
+    "url": "https://github.com/openai/codex/pull/58261",
+    "title": "Composer image thumbnails",
+    "publisher": "OpenAI",
+    "observedAt": "2026-11-06T09:18:23.865878+00:00",
+    "number": 73
+  },
+  {
+    "url": "https://github.com/blueberrycongee/wuu/releases/tag/v2026.11.5",
+    "title": "Wuu v2026.11.5",
+    "publisher": "Wuu maintainers",
+    "publishedAt": "2026-11-05T10:28:09Z",
+    "observedAt": "2026-11-06T09:18:23.865878+00:00",
+    "number": 74
+  },
+  {
+    "url": "https://raw.githubusercontent.com/blueberrycongee/wuu/main/README.md",
+    "title": "Wuu README",
+    "publisher": "Wuu maintainers",
+    "observedAt": "2026-11-06T09:18:23.865878+00:00",
+    "number": 75
+  },
+  {
+    "url": "https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit/",
+    "title": "Formally verifying agent-written full-stack web apps with PDD Kit",
+    "publisher": "Microsoft Research",
+    "publishedAt": "2026-11-05",
+    "observedAt": "2026-11-06T09:18:23.865878+00:00",
+    "number": 76
+  },
+  {
+    "url": "https://github.com/verus-lang/verus",
+    "title": "Verus repository",
+    "publisher": "Verus contributors",
+    "observedAt": "2026-11-06T09:18:23.865878+00:00",
+    "number": 77
+  },
+  {
+    "url": "https://githubnext.com/projects/chopin/",
+    "title": "Chopin project",
+    "publisher": "GitHub Next",
+    "observedAt": "2026-11-06T09:18:23.865878+00:00",
+    "number": 78
+  },
+  {
+    "url": "https://langfuse.com/changelog/2026-11-04-ai-gateway-public-beta",
+    "title": "AI Gateway public beta",
+    "publisher": "Langfuse",
+    "publishedAt": "2026-11-04",
+    "observedAt": "2026-11-06T09:18:23.865878+00:00",
+    "number": 79
+  },
+  {
+    "url": "https://langfuse.com/integrations/developer-tools/codex-gateway",
+    "title": "Codex through the AI Gateway",
+    "publisher": "Langfuse",
+    "observedAt": "2026-11-06T09:18:23.865878+00:00",
+    "number": 80
+  },
+  {
+    "url": "https://langfuse.com/docs/gateway/features/analytics",
+    "title": "Gateway analytics",
+    "publisher": "Langfuse",
+    "observedAt": "2026-11-06T09:18:23.865878+00:00",
+    "number": 81
+  },
+  {
+    "url": "https://github.com/alibaba/MNN",
+    "title": "README News explicitly2026/11/04; model scope, license and release",
+    "publisher": "Alibaba / Taobao MNN team",
+    "publishedAt": "2026-11-04",
+    "observedAt": "2026-11-06T09:11:00Z",
+    "number": 82
+  },
+  {
+    "url": "https://huggingface.co/taobao-mnn/MNN-Pocket-0.3B",
+    "title": "Model details, inference, intended uses and limitations",
+    "publisher": "Alibaba / Taobao MNN team",
+    "observedAt": "2026-11-06T09:11:00Z",
+    "number": 83
+  },
+  {
+    "url": "https://huggingface.co/taobao-mnn/MNN-Pocket-0.3B-MNN",
+    "title": "Files, runtime compatibility, backend and memory distinctions",
+    "publisher": "Alibaba / Taobao MNN team",
+    "observedAt": "2026-11-06T09:11:00Z",
+    "number": 84
+  },
+  {
+    "url": "https://huggingface.co/taobao-mnn/MNN-Pocket-0.3B-GGUF",
+    "title": "File selection defaults and GGUF formats",
+    "publisher": "Alibaba / Taobao MNN team",
+    "observedAt": "2026-11-06T09:11:00Z",
+    "number": 85
+  },
+  {
+    "url": "https://huggingface.co/taobao-mnn/MNN-Pocket-0.3B-Dec",
+    "title": "Decision inputs, outputs and validation",
+    "publisher": "Alibaba / Taobao MNN team",
+    "observedAt": "2026-11-06T09:11:00Z",
+    "number": 86
+  },
+  {
+    "url": "https://github.com/alibaba/MNN/blob/master/transformers/README.md",
+    "title": "Model export and model inference separation",
+    "publisher": "Alibaba / Taobao MNN team",
+    "observedAt": "2026-11-06T09:11:00Z",
+    "number": 87
+  },
+  {
+    "url": "https://tinker-docs.thinkingmachines.ai/changelog/",
+    "title": "Tinker changelog: SDK 0.38.0",
+    "publisher": "Thinking Machines Lab",
+    "publishedAt": "2026-11-05",
+    "observedAt": "2026-11-06T09:18:23.865878+00:00",
+    "number": 88
+  },
+  {
+    "url": "https://tinker-docs.thinkingmachines.ai/tinker/howto/concurrency_async/",
+    "title": "Concurrency and Async migration guide",
+    "publisher": "Thinking Machines Lab",
+    "observedAt": "2026-11-06T09:18:23.865878+00:00",
+    "number": 89
+  },
+  {
+    "url": "https://pypi.org/project/tinker/0.38.0/",
+    "title": "Tinker 0.38.0 distribution metadata",
+    "publisher": "PyPI / Tinker maintainers",
+    "publishedAt": "2026-11-05",
+    "observedAt": "2026-11-06T09:18:23.865878+00:00",
+    "number": 90
+  },
+  {
+    "url": "https://openai.com/index/introducing-gpt-6-cyber/",
+    "title": "GPT-6 Cyber launch",
+    "publisher": "OpenAI",
+    "publishedAt": "2026-11-05",
+    "observedAt": "2026-11-06T09:06:19.067044+00:00",
+    "number": 91
+  },
+  {
+    "url": "https://deploymentsafety.openai.com/gpt-6-cyber",
+    "title": "GPT-6 Cyber system card",
+    "publisher": "OpenAI",
+    "publishedAt": "2026-11-05",
+    "observedAt": "2026-11-06T09:06:19.067044+00:00",
+    "number": 92
+  },
+  {
+    "url": "https://help.openai.com/en/articles/20001258-openai-daybreak-trusted-access-for-cyber-overview",
+    "title": "Daybreak access overview",
+    "publisher": "OpenAI",
+    "observedAt": "2026-11-06T09:06:19.067044+00:00",
+    "number": 93
+  }
+]

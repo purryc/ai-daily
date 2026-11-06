@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-11-06",
+    "zhTitle": "AI Daily｜2026年11月6日 · 代理剪辑、戒指确认与巡检传感器",
+    "enTitle": "AI Daily | November 6, 2026 · Agent editing, ring approvals and inspection sensors",
+    "zhSummary": "Edits把代理接入Mac时间线；Claude汇集只读财务数据；Aina、Moto与DJI展示不同设备入口，交互研究让写作目标、学习材料和反馈更具体。",
+    "enSummary": "Edits connects agents to a Mac timeline, Claude joins read-only financial data, and Aina, Moto and DJI offer different device controls. Research explores writing goals, learning materials and feedback.",
+    "tags": [
+      "consumer AI",
+      "creative tools",
+      "physical interaction",
+      "research"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "research"
+    ],
+    "coverStory": {
+      "topicId": "instagram-edits-mac-mcp",
+      "zhTitle": "Instagram Edits for Mac",
+      "enTitle": "Instagram Edits for Mac",
+      "imagePath": "assets/edits-mac.jpg",
+      "imageSourceUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/edits-mac.jpg?quality=82&strip=all",
+      "primarySourceUrl": "https://9to5mac.com/2026/11/05/instagram-launches-edits-for-mac-with-multi-track-video-editing-and-4k-exports/",
+      "evidenceStrength": "Original source bodies read; vendor claims separated from editorial analysis. No authenticated or hands-on product testing."
+    },
+    "zhPath": "./2026-11-06/zh/",
+    "enPath": "./2026-11-06/en/",
+    "sourcesPath": "./2026-11-06/sources.html"
+  },
+  {
     "date": "2026-11-05",
     "zhTitle": "AI Daily｜2026年11月5日 · 局部改图、3D 纹理与设备反馈",
     "enTitle": "AI Daily | November 5, 2026 · Image edits, 3D textures and device feedback",

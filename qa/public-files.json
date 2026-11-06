@@ -8505,6 +8505,511 @@
     "sha256": "53e9bc83580a711395db2c4860e10fb51bcde972ab640c5dd3fd42b73fea83ad"
   },
   {
+    "path": "2026-11-06/assets/aina.jpg",
+    "bytes": 47946,
+    "sha256": "3bc0c40a1baae2bbcd665de309a39874ba82fbf267c060182cd9cd3811fc77ad"
+  },
+  {
+    "path": "2026-11-06/assets/box-architect.jpg",
+    "bytes": 52472,
+    "sha256": "a5b8e6cb52d80ce38c99a0e40c5fcc1d7a0c95af272a888584b7691bd2119b71"
+  },
+  {
+    "path": "2026-11-06/assets/bridge.jpg",
+    "bytes": 192513,
+    "sha256": "9dc55c9856e68e613ba61d77cd9d1988bca3e8db3f42308e4684134d4826113d"
+  },
+  {
+    "path": "2026-11-06/assets/claude-enterprise.jpg",
+    "bytes": 75123,
+    "sha256": "aacd7ca39c4355d215f8693f2b987ba8872f9e0d5c0cee3692ef250c251ca858"
+  },
+  {
+    "path": "2026-11-06/assets/claude-finance.jpg",
+    "bytes": 35159,
+    "sha256": "98471bf8371e12d88a2596937795450995ab41c6285437c1eafbbcbe4f2ee0b3"
+  },
+  {
+    "path": "2026-11-06/assets/codex-0167-recovery-flow.png",
+    "bytes": 116333,
+    "sha256": "951b3c5d43a2fab84c2b454856c3ff39566dd7c9761a727233707e5f7e52ce17"
+  },
+  {
+    "path": "2026-11-06/assets/controlanything.jpg",
+    "bytes": 120600,
+    "sha256": "8ac9fec9c8bd37dfd28e12bb9abf82d2ff3c04fd0a095259faff92aedf12e6e8"
+  },
+  {
+    "path": "2026-11-06/assets/deck.js",
+    "bytes": 2576,
+    "sha256": "63d13c06452d7405e0b5ed572d8464d802c9e5b8de656b5a94e3527b1730f7b3"
+  },
+  {
+    "path": "2026-11-06/assets/dji5t.jpg",
+    "bytes": 72226,
+    "sha256": "dd233aa7e2c3dedbeb9050f710dc71d8886c9b650d48c858d37e6865903bbd32"
+  },
+  {
+    "path": "2026-11-06/assets/edits-mac.jpg",
+    "bytes": 182988,
+    "sha256": "af22afb0cdbd1d05bffd40488e95738b94bd3dd95e516b95144fa9b4cc1f036d"
+  },
+  {
+    "path": "2026-11-06/assets/forms.jpg",
+    "bytes": 205798,
+    "sha256": "3fecf80fcfa62c5a2d63bf400ef1bc0110a92e45d13e14475b28c4edb9c2f938"
+  },
+  {
+    "path": "2026-11-06/assets/gpt6-cyber-scoped-research-flow.png",
+    "bytes": 113347,
+    "sha256": "492282bb9fe2435bc54e364a6bb4bcd6ebe65e38e4a7ea51cc608c062b2fe7bc"
+  },
+  {
+    "path": "2026-11-06/assets/intentweaver.jpg",
+    "bytes": 328868,
+    "sha256": "ef5cfff462ee186cb35ba0a84a70811a2abac563a555fea4ffca5f1dcdf47f27"
+  },
+  {
+    "path": "2026-11-06/assets/issue.css",
+    "bytes": 10285,
+    "sha256": "1e458c07ba855726699c2b9885d466a62a85e04604b22dddcca9a2f3d1ca09e9"
+  },
+  {
+    "path": "2026-11-06/assets/langfuse.jpg",
+    "bytes": 99876,
+    "sha256": "d3c13a562290239339b803773ce5d333bbff99e7b85f422fd17aa992968bc490"
+  },
+  {
+    "path": "2026-11-06/assets/mabel-robot.jpg",
+    "bytes": 226235,
+    "sha256": "b715f26da2cedfa2943dcf728fc0e192d31534937e5d5b3740ed356b3ec96ab1"
+  },
+  {
+    "path": "2026-11-06/assets/maike.jpg",
+    "bytes": 340986,
+    "sha256": "c547bcf8d87286fe6b6f7d4d465688535d7af4a70b3bb6dc4bfc0f6c4475f237"
+  },
+  {
+    "path": "2026-11-06/assets/mnn-pocket-local-decisions-flow.png",
+    "bytes": 115269,
+    "sha256": "b250af95e9e91953c9e15d7dc4450a07a11531aff2cfe8f33c8ac22cb18a7936"
+  },
+  {
+    "path": "2026-11-06/assets/moto.jpg",
+    "bytes": 65572,
+    "sha256": "54a53b26c29383ae89b4c5301b8db76b3f278046cb0363b8fbef3a6705fcd2c7"
+  },
+  {
+    "path": "2026-11-06/assets/pdd.jpg",
+    "bytes": 102151,
+    "sha256": "e82b0d563ef5fb46b6d5e4a2fb37d6af8fb9b6cac12016e5dfe2b94feddbd826"
+  },
+  {
+    "path": "2026-11-06/assets/pixel-robot.jpg",
+    "bytes": 193006,
+    "sha256": "d9649413dc735074c437047adc08b26a2a8f7c672a09cda830b7956ad89b7fe4"
+  },
+  {
+    "path": "2026-11-06/assets/protocall.jpg",
+    "bytes": 218384,
+    "sha256": "015d6cdf0e94d7de1e8b230b3ac058cbd778c3b9a0929ec2ea9378cb45359303"
+  },
+  {
+    "path": "2026-11-06/assets/pushary.jpg",
+    "bytes": 67603,
+    "sha256": "26bfd287c0d39db46884953b4fd6b45ac071f08ae52c0169732517501752049f"
+  },
+  {
+    "path": "2026-11-06/assets/serve.jpg",
+    "bytes": 190092,
+    "sha256": "6e49f3b54ebd8b145e66f211428d59c83736bab64dda83f7f84ce6a4018357bd"
+  },
+  {
+    "path": "2026-11-06/assets/signature27.jpg",
+    "bytes": 188303,
+    "sha256": "612cfaa5ef7aa2bef7e15762a9db7a422edc82759eb4266ff52612c89669c178"
+  },
+  {
+    "path": "2026-11-06/assets/slide-to-report.jpg",
+    "bytes": 143641,
+    "sha256": "bfef5833a031a42e3757bc7581b8b65f4b22a99d87619ca5ac1467cfbe5cb35b"
+  },
+  {
+    "path": "2026-11-06/assets/souffleur.jpg",
+    "bytes": 120149,
+    "sha256": "fcbd8bceada7cb3110a21dd5f471b9c38806a889655c66133b12e892f8b637f3"
+  },
+  {
+    "path": "2026-11-06/assets/tasteply.jpg",
+    "bytes": 86839,
+    "sha256": "81eb384a1133a565d99f0065864c4c52e0f0524b9f4a8237c28f4ea8f6a2f0ce"
+  },
+  {
+    "path": "2026-11-06/assets/tinker-038-future-api-flow.png",
+    "bytes": 121057,
+    "sha256": "d2a4d817f83dbee6d59d8b62ed7bf18511ff5d6b4f970f2c202cf490e19beaea"
+  },
+  {
+    "path": "2026-11-06/assets/vocabulary-scene.jpg",
+    "bytes": 79067,
+    "sha256": "618b6b80e2f5db6d6b64e14581165e57a83654d605d06069e4239f57b277913a"
+  },
+  {
+    "path": "2026-11-06/assets/vrego.jpg",
+    "bytes": 40481,
+    "sha256": "e34fab749aa76db903f0a11f43057ad33741e6c169eda81b3e729c33b1ddc4ab"
+  },
+  {
+    "path": "2026-11-06/assets/warby.jpg",
+    "bytes": 63685,
+    "sha256": "9a0718dc6812a6fd9dc7151e48b6988ffb5ef1b140619d4d65d1ea45ad99be25"
+  },
+  {
+    "path": "2026-11-06/assets/wuu.jpg",
+    "bytes": 158457,
+    "sha256": "03cb56bc2bc628be7e462b688b61929cd19b01c7e90ab1b1a4ca25dd72058529"
+  },
+  {
+    "path": "2026-11-06/en/details/aina-ring-approval.html",
+    "bytes": 5756,
+    "sha256": "e026285fe765313539efe490410a5f15a46834647743ca0d4d202b69d0cacaf1"
+  },
+  {
+    "path": "2026-11-06/en/details/box-architect-workflows.html",
+    "bytes": 6447,
+    "sha256": "5a3cc5e600a1ba4b0e00d317880a9df6bee8172dcf294064e1204958d87d0699"
+  },
+  {
+    "path": "2026-11-06/en/details/bridge-agent-meetings.html",
+    "bytes": 6051,
+    "sha256": "5cbad33825d031b2d10dc0ae7064c3ed5129f31324e674ebdc9f332badcb02bc"
+  },
+  {
+    "path": "2026-11-06/en/details/claude-enterprise-security-controls.html",
+    "bytes": 6177,
+    "sha256": "2e25f162cc864a23d211ddb068ad9208e166bbda2119fbd552fc9085d5e72d88"
+  },
+  {
+    "path": "2026-11-06/en/details/claude-personal-finance-beta.html",
+    "bytes": 6678,
+    "sha256": "056541d742889c2ceab5fd7735a92088704eed4b78bcc6597c791d3d2034baee"
+  },
+  {
+    "path": "2026-11-06/en/details/codex-0167-recovery.html",
+    "bytes": 6036,
+    "sha256": "7a3486b79744a82dc7dd52c8c79d065f2e5fa327f4c4f6c66fba211d8613575d"
+  },
+  {
+    "path": "2026-11-06/en/details/controlanything.html",
+    "bytes": 6118,
+    "sha256": "c94b4e1df553ef93a57ce4a71f29423b8eec61dff3006c044f1b51f5a7785c4e"
+  },
+  {
+    "path": "2026-11-06/en/details/dji-matrice-5t-sensor-inspection.html",
+    "bytes": 6322,
+    "sha256": "87a8c8ab8dff77fef82e25225b0ccf724afa9250e786aa6d542caf4bf77dd8ef"
+  },
+  {
+    "path": "2026-11-06/en/details/google-forms-actionable-insights.html",
+    "bytes": 6225,
+    "sha256": "4df641c3f414beeb8fee32d0c9cbb8093813100b5539c93f6f5733d30125fbcc"
+  },
+  {
+    "path": "2026-11-06/en/details/gpt6-cyber-scoped-research.html",
+    "bytes": 6261,
+    "sha256": "a2022efec44da70a6f35686b16d0f2832ff1a7a429dce54c8229bf413444439c"
+  },
+  {
+    "path": "2026-11-06/en/details/instagram-edits-mac-mcp.html",
+    "bytes": 6540,
+    "sha256": "2e0bd567107a6205ee8554b3d83618f91dbadd54457b663515c5361317615514"
+  },
+  {
+    "path": "2026-11-06/en/details/intentweaver.html",
+    "bytes": 6098,
+    "sha256": "ba1351233fd0250b5718a81a7dfbfecf1a21be7cff92cd8e40c6ee0e49cdf178"
+  },
+  {
+    "path": "2026-11-06/en/details/langfuse-gateway-beta.html",
+    "bytes": 6129,
+    "sha256": "ccef04ca645b0e4dfdffbbed921e2c1b096f01d6569d70fa2d2f2ecc61ed2aa5"
+  },
+  {
+    "path": "2026-11-06/en/details/mabel-robot.html",
+    "bytes": 6070,
+    "sha256": "2d320d45ae6754ca90125d538d4d7cbfad399d0bd5f0a10a4cf296b58e232511"
+  },
+  {
+    "path": "2026-11-06/en/details/maike.html",
+    "bytes": 6119,
+    "sha256": "045596530370cd7639e5f3f7e3a655305d4d8552a5f37c430a2431e1394c57cd"
+  },
+  {
+    "path": "2026-11-06/en/details/mnn-pocket-local-decisions.html",
+    "bytes": 6017,
+    "sha256": "23b5de67940f8abf6c3bfc820ebf9bcdc94e96c8abae4a1da53735110ee2e5cd"
+  },
+  {
+    "path": "2026-11-06/en/details/moto-buds-ultra-27.html",
+    "bytes": 6873,
+    "sha256": "07e357747d29024dd2061bc44ed673054370e3dc408836572cdede2224870e55"
+  },
+  {
+    "path": "2026-11-06/en/details/motorola-signature27-evs.html",
+    "bytes": 6510,
+    "sha256": "059c521309ea0692bf6f3f06edf25d362668adf36ce81343b90f3b3703db13bc"
+  },
+  {
+    "path": "2026-11-06/en/details/pdd-kit-intent-proof.html",
+    "bytes": 6280,
+    "sha256": "37db822d42cd26df552a5364393d8d63aabbfcf1b0b18e4eef5a90a8e9b92630"
+  },
+  {
+    "path": "2026-11-06/en/details/pixel-robot.html",
+    "bytes": 6223,
+    "sha256": "66a95e47d9da2937905dd3ba494985dbbe373993e9c29810a2e896830fad26f1"
+  },
+  {
+    "path": "2026-11-06/en/details/protocall-preemptive-feedback.html",
+    "bytes": 6522,
+    "sha256": "0e0a527d48da2e4929fdebf838c08fb40fd619dcefa82de7e4bb80d0dfb2446f"
+  },
+  {
+    "path": "2026-11-06/en/details/pushary-team-routing.html",
+    "bytes": 6312,
+    "sha256": "23891fd60d825001bd8984c0445eb9b89339dd8259fb822080e0e75446944789"
+  },
+  {
+    "path": "2026-11-06/en/details/serve-physical-ai-services.html",
+    "bytes": 6510,
+    "sha256": "06bbbb82efe47bb1f41f84d7c851df813c30538c9fad4042b9d88e1661d645c8"
+  },
+  {
+    "path": "2026-11-06/en/details/slide-to-report.html",
+    "bytes": 6169,
+    "sha256": "8c51b01e95910da51130a85efdcf13777be760f3a0e84fe930ec043fd2b97534"
+  },
+  {
+    "path": "2026-11-06/en/details/souffleur.html",
+    "bytes": 6045,
+    "sha256": "3cedb7da48d8af0334e98bae8174813e027f571b2b372a67d9dbddf99b21579a"
+  },
+  {
+    "path": "2026-11-06/en/details/tasteply.html",
+    "bytes": 6195,
+    "sha256": "bda48bfdd6fcda995bdb61bd03e009a1e406e02a6e28b001f48a840f84e2f445"
+  },
+  {
+    "path": "2026-11-06/en/details/tinker-038-future-api.html",
+    "bytes": 6239,
+    "sha256": "32f08bac0a7ec11c62a257a424cfcba95e304ab06ae5c67c11a86c2f466f054f"
+  },
+  {
+    "path": "2026-11-06/en/details/vocabulary-2.html",
+    "bytes": 6384,
+    "sha256": "52fa05c6ab140dff67e165ecd9c1ee1116f8a1f716b1fad00856c4d26f7feb75"
+  },
+  {
+    "path": "2026-11-06/en/details/vrego.html",
+    "bytes": 6107,
+    "sha256": "b2a0e32bf872a4904e29dcea88459f360a7da854cea3d6a4b7ee90856088c724"
+  },
+  {
+    "path": "2026-11-06/en/details/warby-intelligent-eyewear-preorder-date.html",
+    "bytes": 5948,
+    "sha256": "5f2c70a816c780474ef4e0ed208a10e2fe174731c897d7a1fd7b12af0f8ab4ef"
+  },
+  {
+    "path": "2026-11-06/en/details/wuu-review-auth-recovery.html",
+    "bytes": 6059,
+    "sha256": "16704901313cd7a650b07081ff83decb79a8969e2b6479418d240e0b4e3d2d36"
+  },
+  {
+    "path": "2026-11-06/en/index.html",
+    "bytes": 103029,
+    "sha256": "ed6d6c479e7f00c147b7bf0482268ab6b531ebcd32f5076cbe1881623062cf10"
+  },
+  {
+    "path": "2026-11-06/manifest.json",
+    "bytes": 37031,
+    "sha256": "e93beb37e86b1d0368b2095c8fdcfe3919e07c40b08e57cc781c18c0b0d92710"
+  },
+  {
+    "path": "2026-11-06/sources.html",
+    "bytes": 59729,
+    "sha256": "5d3b0c09a3ad58c4d80cba43561536a4b454619433fa5583e5b45c63d9ff5fa3"
+  },
+  {
+    "path": "2026-11-06/sources.json",
+    "bytes": 23300,
+    "sha256": "75f0446a54d1242d68342dfd8238967dab90cca450d5ea88c16a977f93b3dfe2"
+  },
+  {
+    "path": "2026-11-06/visuals.json",
+    "bytes": 22201,
+    "sha256": "197b7dfb2c9d418d0b4d0c9013115359715af59a43ce3b4d5dbcc48c1455e59e"
+  },
+  {
+    "path": "2026-11-06/zh/details/aina-ring-approval.html",
+    "bytes": 5228,
+    "sha256": "38c929003b59a79f7bc54c65e906a5b2a40ac95b4927a165ae58a8b955d02351"
+  },
+  {
+    "path": "2026-11-06/zh/details/box-architect-workflows.html",
+    "bytes": 5978,
+    "sha256": "f3bbe390232da4764b604e0bb164fd38a97d355145f61a0ea40396217a17f2dd"
+  },
+  {
+    "path": "2026-11-06/zh/details/bridge-agent-meetings.html",
+    "bytes": 5544,
+    "sha256": "f94f808ac806ee78ffadeea4966eb493923821deb7789984c19cf1451eecc535"
+  },
+  {
+    "path": "2026-11-06/zh/details/claude-enterprise-security-controls.html",
+    "bytes": 5796,
+    "sha256": "0e07f8feb556a7e340d0c3814b58b97fde826d7ef5c4fa3b36d3ae966c858bf3"
+  },
+  {
+    "path": "2026-11-06/zh/details/claude-personal-finance-beta.html",
+    "bytes": 6181,
+    "sha256": "084a668d4425d62e46e0f88c9c1339f9635e0d2d8c8c24ec20eddbf777a0f6f8"
+  },
+  {
+    "path": "2026-11-06/zh/details/codex-0167-recovery.html",
+    "bytes": 5597,
+    "sha256": "ab5b7793dd96cc78a88c7c827c2a39a315bd9f82c67682d5a43979581b211c28"
+  },
+  {
+    "path": "2026-11-06/zh/details/controlanything.html",
+    "bytes": 5387,
+    "sha256": "2900b6b1dd8c007fb956f9b6c3473fc7f31bb7e068f177b659a80943ba36c412"
+  },
+  {
+    "path": "2026-11-06/zh/details/dji-matrice-5t-sensor-inspection.html",
+    "bytes": 5763,
+    "sha256": "ee9f9276662d6a766e0130c8ba9b7a2e7bc92dc21f3bba250c871914b97ace14"
+  },
+  {
+    "path": "2026-11-06/zh/details/google-forms-actionable-insights.html",
+    "bytes": 5751,
+    "sha256": "a3ef5ebad212b735bc41afa2621621c581b56e2c4f26533d96338bca53775d4d"
+  },
+  {
+    "path": "2026-11-06/zh/details/gpt6-cyber-scoped-research.html",
+    "bytes": 5572,
+    "sha256": "ecdfcdfc3fdf12797d02438a104088cb3b9da18f474ab17141e6e996d03cca43"
+  },
+  {
+    "path": "2026-11-06/zh/details/instagram-edits-mac-mcp.html",
+    "bytes": 6082,
+    "sha256": "a8285e11cd96c2838651fd046de0adfe128a599cd35e225be175b2223a67f1ff"
+  },
+  {
+    "path": "2026-11-06/zh/details/intentweaver.html",
+    "bytes": 5296,
+    "sha256": "7c697803d50d8309a3155f5a4b9a4883cef15132831181daa7c3255645e900b6"
+  },
+  {
+    "path": "2026-11-06/zh/details/langfuse-gateway-beta.html",
+    "bytes": 5713,
+    "sha256": "8debdf475101d620712639be0c598dea62668010946466b2413422d20487417a"
+  },
+  {
+    "path": "2026-11-06/zh/details/mabel-robot.html",
+    "bytes": 5276,
+    "sha256": "11d7233c9a13a84c52c62fd76921364ef2c42156730f22c898f18f59a2023974"
+  },
+  {
+    "path": "2026-11-06/zh/details/maike.html",
+    "bytes": 5289,
+    "sha256": "9fe16dec14f9c91eb76db4f408aaeeb16e85e74883b8e806c52ce8aafb8a883a"
+  },
+  {
+    "path": "2026-11-06/zh/details/mnn-pocket-local-decisions.html",
+    "bytes": 5575,
+    "sha256": "c85b18ec93efa2a7e3929f02123ab0e1a1e827170e663ec411eac295f45e15a3"
+  },
+  {
+    "path": "2026-11-06/zh/details/moto-buds-ultra-27.html",
+    "bytes": 6169,
+    "sha256": "dab14771a940f05a03dd5fd27c72e16eb5f68feb48133e4967ecbe1bc692468b"
+  },
+  {
+    "path": "2026-11-06/zh/details/motorola-signature27-evs.html",
+    "bytes": 5930,
+    "sha256": "1e013103ddb0468c9efd4d4765d941f0694dbde1d6b1e9006af6d954709d0c7a"
+  },
+  {
+    "path": "2026-11-06/zh/details/pdd-kit-intent-proof.html",
+    "bytes": 5855,
+    "sha256": "cd5b6df840dc6e59cdab74d31beab171f9b09deba3b9344b9096535c5e5a4982"
+  },
+  {
+    "path": "2026-11-06/zh/details/pixel-robot.html",
+    "bytes": 5416,
+    "sha256": "3b33fa9ee144f5172575ca1ae217f8a53350ef150c1dbf23d740816f02c37b92"
+  },
+  {
+    "path": "2026-11-06/zh/details/protocall-preemptive-feedback.html",
+    "bytes": 5769,
+    "sha256": "72b3b34ccbbb03b12a4958e286fd0cb25322083f360a8b2558ea7c01d9872297"
+  },
+  {
+    "path": "2026-11-06/zh/details/pushary-team-routing.html",
+    "bytes": 5972,
+    "sha256": "e7039bcec5b952b24539d8bd101f9a4111de1450e6fc453f7452a9027dc62da1"
+  },
+  {
+    "path": "2026-11-06/zh/details/serve-physical-ai-services.html",
+    "bytes": 5856,
+    "sha256": "b82f19deecaae63d24687a15891fd64aa36ae8b7921a4bdb1d0f095e039eb3b5"
+  },
+  {
+    "path": "2026-11-06/zh/details/slide-to-report.html",
+    "bytes": 5259,
+    "sha256": "efa3d697abb41460b8e5954743f14b5d64ecbce4f60438a8f9b8415cd939ed6f"
+  },
+  {
+    "path": "2026-11-06/zh/details/souffleur.html",
+    "bytes": 5294,
+    "sha256": "8fe674042511a96a8adc7842348ed83070f785281923d9c7f8ccd33843482011"
+  },
+  {
+    "path": "2026-11-06/zh/details/tasteply.html",
+    "bytes": 5265,
+    "sha256": "9b15250869c53cd6d43909912d8fb9d88d81bb173113917f0f840ef20d4e5138"
+  },
+  {
+    "path": "2026-11-06/zh/details/tinker-038-future-api.html",
+    "bytes": 5886,
+    "sha256": "0123a31dfe8a7205a44f49719e1581a4927d76edd5980daaf0945f00c18c4152"
+  },
+  {
+    "path": "2026-11-06/zh/details/vocabulary-2.html",
+    "bytes": 5457,
+    "sha256": "96c30c7530fb607a2f381e3317ec21032764b60a5e1072439a1cdc815ff3c290"
+  },
+  {
+    "path": "2026-11-06/zh/details/vrego.html",
+    "bytes": 5276,
+    "sha256": "c91824de62e7228d1d18d097298bac7a94877f9b789a23e14cfc5fdc835793d5"
+  },
+  {
+    "path": "2026-11-06/zh/details/warby-intelligent-eyewear-preorder-date.html",
+    "bytes": 5364,
+    "sha256": "93868c1ab2d08af31ec9a1d0e9c780203e7acb57d924154735a72707164f4d96"
+  },
+  {
+    "path": "2026-11-06/zh/details/wuu-review-auth-recovery.html",
+    "bytes": 5539,
+    "sha256": "0e0fb77bf33a5e90384739021e15df03ea33760fa861aed91c8d9370491e631f"
+  },
+  {
+    "path": "2026-11-06/zh/index.html",
+    "bytes": 97454,
+    "sha256": "03a1959af3b03522fe30818894089931c8a88a231441ba14b3f3f582165217df"
+  },
+  {
     "path": "assets/acti-agentic-keyboard-2026-07-03.svg",
     "bytes": 2825,
     "sha256": "84ad9abb0a1191abde62dea383e6e1ed583fc089073d3ccaf91629044501721b"
@@ -8916,18 +9421,18 @@
   },
   {
     "path": "en/index.html",
-    "bytes": 177336,
-    "sha256": "56b2fbcf41d5d1bbe5f18b4f57ae4c20ef541cf1ba2d843c08460ae758bb51da"
+    "bytes": 178666,
+    "sha256": "08af1552f5c0fac092af606d9a1b7eab89174d5b7ca20d861586900dd6f1e431"
   },
   {
     "path": "index.html",
-    "bytes": 171178,
-    "sha256": "6a8d684ca2034012597575af9303a64c50d75b9a31cbb61cea73164af9b703cd"
+    "bytes": 172478,
+    "sha256": "2325fba51358658b82f8b7fa95f9eda0bb9b285103ffee0abaac73e453f6d92c"
   },
   {
     "path": "manifest.json",
-    "bytes": 749457,
-    "sha256": "94934453c2991f9db2f035ae699fc736ff0ccc688e706ef319eab83c3fe5594d"
+    "bytes": 751045,
+    "sha256": "c63db0114e4cd671126711ac8864dcc0d3cb3e1f9336d29f3083411ad0d4c35b"
   },
   {
     "path": "weekly/2026-10-12/pilot/en/index.html",

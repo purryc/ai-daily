@@ -1,16 +1,1 @@
-[
-  {
-    "name": "rerun-detail1.jpg",
-    "url": "https://ph-files.imgix.net/5b57362a-ca5a-4a61-a1d9-2c7a925cf5bd.jpeg",
-    "kind": "image",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "name": "rerun-detail2.jpg",
-    "url": "https://ph-files.imgix.net/d7cc31d5-76c0-4f2f-9a5c-9275290bdbcd.jpeg",
-    "kind": "image",
-    "renderImage": true,
-    "locale": "en"
-  }
-]
+[]
