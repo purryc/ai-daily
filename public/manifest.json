@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-11-07",
+    "zhTitle": "AI Daily｜2026年11月7日 · 自制应用与可接续的代理任务",
+    "enTitle": "AI Daily | November 7, 2026 · Homemade apps and continuing agent work",
+    "zhSummary": "消费应用、代理工具与机器人研究，追踪具体操作、评测结果和仍需人工处理的部分。",
+    "enSummary": "Consumer apps, agent tools and robotics research, with concrete interactions, review findings and remaining human work.",
+    "tags": [
+      "consumer AI",
+      "creative tools",
+      "physical interaction",
+      "research"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "research"
+    ],
+    "coverStory": {
+      "topicId": "playful-homemade-apps",
+      "zhTitle": "Playful",
+      "enTitle": "Playful",
+      "imagePath": "assets/playful-gallery.jpg",
+      "imageSourceUrl": "https://playful.app/assets/gallery-1.Cq1kDcP8.webp",
+      "primarySourceUrl": "https://playful.app/",
+      "evidenceStrength": "Vendor documentation and dated source; no independent hands-on test"
+    },
+    "zhPath": "./2026-11-07/zh/",
+    "enPath": "./2026-11-07/en/",
+    "sourcesPath": "./2026-11-07/sources.html"
+  },
+  {
     "date": "2026-11-06",
     "zhTitle": "AI Daily｜2026年11月6日 · 代理剪辑、戒指确认与巡检传感器",
     "enTitle": "AI Daily | November 6, 2026 · Agent editing, ring approvals and inspection sensors",

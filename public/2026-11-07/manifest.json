@@ -1,0 +1,742 @@
+{
+  "date": "2026-11-07",
+  "timezone": "America/Toronto",
+  "cutoff": "2026-11-07T08:58:54Z",
+  "windowStart": "2026-11-06T08:58:54Z",
+  "metrics": {
+    "body": {
+      "zhDenseChars": 20140,
+      "enWords": 12164
+    },
+    "perProduct": {
+      "playful-homemade-apps": {
+        "zh": 792,
+        "en": 439
+      },
+      "pauta-local-conversation-memory": {
+        "zh": 765,
+        "en": 440
+      },
+      "wisp-desktop-voice": {
+        "zh": 789,
+        "en": 452
+      },
+      "kodivo-learning-cards": {
+        "zh": 781,
+        "en": 444
+      },
+      "gentle-monster-preorder-nov12": {
+        "zh": 697,
+        "en": 418
+      },
+      "inmo-future-spatial-reservation": {
+        "zh": 798,
+        "en": 427
+      },
+      "macbook-proled-touch-review": {
+        "zh": 704,
+        "en": 415
+      },
+      "dyson-r2-independent-review": {
+        "zh": 683,
+        "en": 398
+      },
+      "uninell-ur3-independent-review": {
+        "zh": 708,
+        "en": 406
+      },
+      "mova-v70-recommendation-withdrawal": {
+        "zh": 728,
+        "en": 406
+      },
+      "amp-spaces-website-feedback": {
+        "zh": 610,
+        "en": 409
+      },
+      "github-slack-teams-ga": {
+        "zh": 688,
+        "en": 429
+      },
+      "openhands-137-automation-diagrams": {
+        "zh": 614,
+        "en": 413
+      },
+      "paperclip-1106-native-runner": {
+        "zh": 609,
+        "en": 427
+      },
+      "crystl-persistent-cards-rollback": {
+        "zh": 614,
+        "en": 410
+      },
+      "unsloth-0916-chat-browser": {
+        "zh": 614,
+        "en": 424
+      },
+      "claude-sdk-0319-mcp-background": {
+        "zh": 596,
+        "en": 421
+      },
+      "langgraph-sdk-0414-strict-resume": {
+        "zh": 603,
+        "en": 409
+      },
+      "datastripes-data-stories": {
+        "zh": 703,
+        "en": 437
+      },
+      "rankfender-v3": {
+        "zh": 738,
+        "en": 442
+      },
+      "tobira-site-agent": {
+        "zh": 725,
+        "en": 439
+      },
+      "zeiss-talos-cad-inspection": {
+        "zh": 706,
+        "en": 406
+      },
+      "agibot-g2-retail-trial": {
+        "zh": 803,
+        "en": 420
+      },
+      "astra-orbital-third-bay": {
+        "zh": 723,
+        "en": 411
+      },
+      "airoa-zero-yubi": {
+        "zh": 639,
+        "en": 406
+      },
+      "halo-perceptive-humanoid": {
+        "zh": 668,
+        "en": 397
+      },
+      "phil-proactive-robot-correction": {
+        "zh": 681,
+        "en": 412
+      },
+      "program-progressive-pipelines": {
+        "zh": 675,
+        "en": 400
+      },
+      "schoolhouse-tutor-feedback-rct": {
+        "zh": 686,
+        "en": 407
+      }
+    },
+    "primarySummaries": {
+      "playful-homemade-apps": {
+        "zh": 206,
+        "en": 114
+      },
+      "pauta-local-conversation-memory": {
+        "zh": 218,
+        "en": 118
+      },
+      "wisp-desktop-voice": {
+        "zh": 199,
+        "en": 116
+      },
+      "kodivo-learning-cards": {
+        "zh": 201,
+        "en": 120
+      },
+      "gentle-monster-preorder-nov12": {
+        "zh": 200,
+        "en": 106
+      },
+      "inmo-future-spatial-reservation": {
+        "zh": 205,
+        "en": 120
+      },
+      "macbook-proled-touch-review": {
+        "zh": 206,
+        "en": 91
+      },
+      "dyson-r2-independent-review": {
+        "zh": 209,
+        "en": 109
+      },
+      "uninell-ur3-independent-review": {
+        "zh": 210,
+        "en": 110
+      },
+      "mova-v70-recommendation-withdrawal": {
+        "zh": 238,
+        "en": 118
+      },
+      "amp-spaces-website-feedback": {
+        "zh": 200,
+        "en": 123
+      },
+      "github-slack-teams-ga": {
+        "zh": 204,
+        "en": 119
+      },
+      "openhands-137-automation-diagrams": {
+        "zh": 213,
+        "en": 110
+      },
+      "paperclip-1106-native-runner": {
+        "zh": 206,
+        "en": 119
+      },
+      "crystl-persistent-cards-rollback": {
+        "zh": 214,
+        "en": 112
+      },
+      "unsloth-0916-chat-browser": {
+        "zh": 222,
+        "en": 110
+      },
+      "claude-sdk-0319-mcp-background": {
+        "zh": 201,
+        "en": 112
+      },
+      "langgraph-sdk-0414-strict-resume": {
+        "zh": 214,
+        "en": 116
+      },
+      "datastripes-data-stories": {
+        "zh": 221,
+        "en": 119
+      },
+      "rankfender-v3": {
+        "zh": 220,
+        "en": 117
+      },
+      "tobira-site-agent": {
+        "zh": 226,
+        "en": 125
+      },
+      "zeiss-talos-cad-inspection": {
+        "zh": 199,
+        "en": 99
+      },
+      "agibot-g2-retail-trial": {
+        "zh": 219,
+        "en": 120
+      },
+      "astra-orbital-third-bay": {
+        "zh": 202,
+        "en": 105
+      },
+      "airoa-zero-yubi": {
+        "zh": 218,
+        "en": 116
+      },
+      "halo-perceptive-humanoid": {
+        "zh": 224,
+        "en": 119
+      },
+      "phil-proactive-robot-correction": {
+        "zh": 209,
+        "en": 124
+      },
+      "program-progressive-pipelines": {
+        "zh": 219,
+        "en": 125
+      },
+      "schoolhouse-tutor-feedback-rct": {
+        "zh": 210,
+        "en": 123
+      }
+    },
+    "counting": "Only unique full-analysis product paragraphs count toward body gates; summaries, captions, coverage and sources excluded.",
+    "products": 29,
+    "references": 85,
+    "coreVisuals": 29,
+    "slidesPerLocale": 32,
+    "primaryProjectPages": 29,
+    "attachedProjectDetails": 29,
+    "primaryBody": {
+      "zhDenseChars": 6133,
+      "enWords": 3335
+    },
+    "completeReadingBody": {
+      "zhDenseChars": 26273,
+      "enWords": 15499
+    }
+  },
+  "revision": {
+    "label": "morning-edition",
+    "originalCutoffRetained": true,
+    "newIssue": true,
+    "baselineCommit": "3a61ca5120577a78aaaca0161a86de6b0bb297ea"
+  },
+  "topics": [
+    {
+      "id": "playful-homemade-apps",
+      "zhHeadline": "Playful把家庭点子做成共享应用，维护仍归创建者",
+      "enHeadline": "Playful turns family ideas into apps the maker must maintain",
+      "eventAt": "2026-11-05T13:25:00Z",
+      "freshness": "near-three-day",
+      "evidence": "Vendor documentation and dated source; no independent hands-on test",
+      "eventDateNote": "minute; source ET converted using EST",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "playful-homemade-apps-2026-11-05",
+      "product_key": "playful-homemade-apps",
+      "publishedAt": "2026-11-05T13:25:00Z",
+      "observedAt": "2026-11-07T09:14:09.005947Z",
+      "delta_since_last_seen": "Trial apps remain active for 30 days. A $10 monthly membership keeps them available and replenishes the maker’s editing allowance."
+    },
+    {
+      "id": "pauta-local-conversation-memory",
+      "zhHeadline": "Pauta把录音整理为本地可回查的记录，外部AI是另一个选择",
+      "enHeadline": "Pauta keeps conversation records local, with external AI an optional choice",
+      "eventAt": "2026-11-06",
+      "freshness": "near-three-day",
+      "evidence": "Maker statements and visible community questions; local processing not independently audited",
+      "eventDateNote": "date-only; exact clock and timezone unverified",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "pauta-local-conversation-memory-2026-11-06",
+      "product_key": "pauta-local-conversation-memory",
+      "publishedAt": "2026-11-06",
+      "observedAt": "2026-11-07T09:14:09.005947Z",
+      "delta_since_last_seen": "Asked whether project-level questions still send data out, the maker said they continue using local models, extending the claim beyond audio storage alone."
+    },
+    {
+      "id": "wisp-desktop-voice",
+      "zhHeadline": "Wisp把语音助手放到桌面光标旁，能否稳定接管操作比角色外观更重要",
+      "enHeadline": "Wisp puts voice control beside the cursor, with desktop reliability still to establish",
+      "eventAt": "2026-11-06",
+      "freshness": "near-three-day",
+      "evidence": "Maker claims plus one user-reported Mac crash and an unverified maker fix response; no hands-on",
+      "eventDateNote": "date-only; exact clock and timezone unverified",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "wisp-desktop-voice-2026-11-06",
+      "product_key": "wisp-desktop-voice",
+      "publishedAt": "2026-11-06",
+      "observedAt": "2026-11-07T09:14:09.005947Z",
+      "delta_since_last_seen": "It can read the screen and advertises email and calendar connections; these are vendor claims rather than individually tested capabilities."
+    },
+    {
+      "id": "kodivo-learning-cards",
+      "zhHeadline": "Kodivo把代码学习拆成可练习的短卡片，进度可交给自己的助手继续",
+      "enHeadline": "Kodivo pairs short coding lessons with practice and carries progress into an agent",
+      "eventAt": "2026-11-06",
+      "freshness": "near-three-day",
+      "evidence": "Vendor documentation and dated source; no independent hands-on test",
+      "eventDateNote": "date-only; exact clock and timezone unverified",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "kodivo-learning-cards-2026-11-06",
+      "product_key": "kodivo-learning-cards",
+      "publishedAt": "2026-11-06",
+      "observedAt": "2026-11-07T09:14:09.005947Z",
+      "delta_since_last_seen": "An MCP connection lets Codex or Claude Code read lessons and saved progress, reducing the need to explain where a learner stopped."
+    },
+    {
+      "id": "gentle-monster-preorder-nov12",
+      "zhHeadline": "Gentle Monster定下预购日，价格与交付仍待明确",
+      "enHeadline": "Gentle Monster dates preorders; delivery details remain open",
+      "eventAt": "2026-11-06T14:00:00Z",
+      "freshness": "main",
+      "evidence": "Original sources read; vendor/research claims and independent review observations explicitly attributed; no editorial hands-on.",
+      "eventDateNote": "Exact offset converted to UTC",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "gentle-monster-preorder-nov12:2026-11-06T14:00:00Z",
+      "product_key": "gentle-monster-preorder",
+      "publishedAt": "2026-11-06T14:00:00Z",
+      "observedAt": "2026-11-07T09:10:12.759405+00:00",
+      "delta_since_last_seen": "The new information is the preorder and preview schedule, not a relaunch of May’s partnership. Some features require setup or subscriptions."
+    },
+    {
+      "id": "inmo-future-spatial-reservation",
+      "zhHeadline": "INMO Future把空间桌面装进眼镜，30美元目前只买预约资格",
+      "enHeadline": "INMO Future puts a spatial desktop in the glasses; $30 reserves eligibility",
+      "eventAt": "2026-11-04",
+      "freshness": "seven-day",
+      "evidence": "Original reservation page plus Shanghai Jing’an municipal launch report based on vendor material; specifications are reported claims, no independent use.",
+      "eventDateNote": "Launch day only; November4 may straddle72h lower boundary. Conservatively seven-day, not main-window launch.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "inmo:future:announcement:2026-11-04",
+      "product_key": "inmo:future",
+      "publishedAt": "2026-11-05 16:19 (Shanghai municipal page; local clock, offset not printed)",
+      "observedAt": "2026-11-07T09:06:56.921151+00:00",
+      "delta_since_last_seen": "Announced November 4, this is a conservative seven-day lookback. A refundable $30 deposit offers eligibility for a $799 Kickstarter VIP price."
+    },
+    {
+      "id": "macbook-proled-touch-review",
+      "zhHeadline": "MacBook触屏评测：点选更直接，持续抬手编辑仍会累",
+      "enHeadline": "MacBook touch review: direct selection helps, sustained reaching still tires",
+      "eventAt": "2026-11-05",
+      "freshness": "near-three-day",
+      "evidence": "Original sources read; vendor/research claims and independent review observations explicitly attributed; no editorial hands-on.",
+      "eventDateNote": "Day only; original clock and timezone undisclosed",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "macbook-proled-touch-review:2026-11-05",
+      "product_key": "macbook-proled-touch-review",
+      "publishedAt": "2026-11-05",
+      "observedAt": "2026-11-07T09:10:12.759405+00:00",
+      "delta_since_last_seen": "The November 5 review adds observations about useful direct manipulation and arm fatigue, rather than another launch announcement."
+    },
+    {
+      "id": "dyson-r2-independent-review",
+      "zhHeadline": "Dyson R2少缠头发，却仍要先收电线和补吸宠物毛",
+      "enHeadline": "Dyson R2 resists hair tangles, but clutter and pet hair still need attention",
+      "eventAt": "2026-11-06",
+      "freshness": "near-three-day",
+      "evidence": "Original sources read; vendor/research claims and independent review observations explicitly attributed; no editorial hands-on.",
+      "eventDateNote": "Day only; original clock and timezone undisclosed",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "dyson-r2-independent-review:2026-11-06",
+      "product_key": "dyson-r2-independent-review",
+      "publishedAt": "2026-11-06",
+      "observedAt": "2026-11-07T09:16:30.630475+00:00",
+      "delta_since_last_seen": "The November 6 test found no long-hair tangling, but 64% flattened pet-hair pickup and only 5/24 avoided objects. These are separate tasks."
+    },
+    {
+      "id": "uninell-ur3-independent-review",
+      "zhHeadline": "Uninell UR3省去倒尘，补水、洗拖布和收电线仍要自己做",
+      "enHeadline": "Uninell UR3 automates emptying while refills, pad washing and cable pickup remain",
+      "eventAt": "2026-11-05",
+      "freshness": "near-three-day",
+      "evidence": "Original sources read; vendor/research claims and independent review observations explicitly attributed; no editorial hands-on.",
+      "eventDateNote": "Day only; original clock and timezone undisclosed",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "uninell-ur3-independent-review:2026-11-05",
+      "product_key": "uninell-ur3-independent-review",
+      "publishedAt": "2026-11-05",
+      "observedAt": "2026-11-07T09:16:30.630475+00:00",
+      "delta_since_last_seen": "Testing found efficient routes and low tangling alongside weak pet-hair pickup and dried-stain removal. Mapping does not mean small-object avoidance."
+    },
+    {
+      "id": "mova-v70-recommendation-withdrawal",
+      "zhHeadline": "MOVA V70评测者撤回榜首推荐，旧成绩与日常可靠性要一起看",
+      "enHeadline": "MOVA V70 reviewer withdraws its top recommendation while retaining the earlier tests",
+      "eventAt": "2026-11-04",
+      "freshness": "seven-day",
+      "evidence": "Original sources read; vendor/research claims and independent review observations explicitly attributed; no editorial hands-on.",
+      "eventDateNote": "Day only; original clock and timezone undisclosed",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "mova-v70-recommendation-withdrawal:2026-11-04",
+      "product_key": "mova-v70-ultra-complete",
+      "publishedAt": "2026-11-04",
+      "observedAt": "2026-11-07T09:18:04.177068+00:00",
+      "delta_since_last_seen": "The November 4 note cites recurring mopping reports, negative feedback and retail availability while retaining the original test findings."
+    },
+    {
+      "id": "amp-spaces-website-feedback",
+      "zhHeadline": "Amp把团队请求分成可追踪线程，网页批注直接带着元素交给代理",
+      "enHeadline": "Amp turns shared requests and website annotations into traceable agent threads",
+      "eventAt": "2026-11-06",
+      "freshness": "near-three-day",
+      "evidence": "Official bodies read; vendor-described behavior, no hands-on test or independent performance evidence.",
+      "eventDateNote": "Official date only; exact time/timezone unknown, conservative supplement as date overlaps main boundary",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "amp:nov6-2026",
+      "product_key": "amp",
+      "publishedAt": "2026-11-06",
+      "observedAt": "2026-11-07T09:13:19Z",
+      "delta_since_last_seen": "Human comments remain discussion until someone mentions @amp; teammates can open an individual thread to inspect and continue the work."
+    },
+    {
+      "id": "github-slack-teams-ga",
+      "zhHeadline": "GitHub把计划与代码放到群聊旁，合并仍看权限",
+      "enHeadline": "GitHub puts plans and code beside the team conversation",
+      "eventAt": "2026-11-06",
+      "freshness": "near-three-day",
+      "evidence": "Original vendor and maker documentation; no account-based hands-on test or independent performance validation",
+      "eventDateNote": "Official November 6 changelog date only; event clock and timezone unknown; conservative 72-hour supplement",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "github-slack-teams-ga-2026-11-06",
+      "product_key": "github-slack-teams-ga",
+      "publishedAt": "2026-11-06",
+      "observedAt": "2026-11-07T09:10:20.676323Z",
+      "delta_since_last_seen": "The November 6 general-availability update adds Teams Canvas and improves repository selection, follow-ups and attribution to the originating conversation."
+    },
+    {
+      "id": "openhands-137-automation-diagrams",
+      "zhHeadline": "OpenHands把自动化的触发和动作画出来，先看流程再读脚本",
+      "enHeadline": "OpenHands shows what starts an automation and what it will do",
+      "eventAt": "2026-11-06T12:54:14Z",
+      "freshness": "main",
+      "evidence": "Original release and implementation evidence read; no independent execution or benchmark.",
+      "eventDateNote": "GitHub release API published_at, UTC seconds",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "OpenHands/OpenHands:v1.37.0",
+      "product_key": "OpenHands/OpenHands",
+      "publishedAt": "2026-11-06T12:54:14Z",
+      "observedAt": "2026-11-07T09:13:19Z",
+      "delta_since_last_seen": "The shared Markdown renderer displays Mermaid and falls back to code for invalid input. The same rendering also works in chat replies."
+    },
+    {
+      "id": "paperclip-1106-native-runner",
+      "zhHeadline": "Paperclip默认使用新Runner，升级时暴露不兼容设置",
+      "enHeadline": "Paperclip upgrades agent runners with explicit compatibility checks",
+      "eventAt": "2026-11-06T22:31:53Z",
+      "freshness": "main",
+      "evidence": "Original release and implementation evidence read; no independent execution or benchmark.",
+      "eventDateNote": "GitHub release API published_at, UTC seconds",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "paperclipai/paperclip:v2026.1106.0",
+      "product_key": "paperclipai/paperclip",
+      "publishedAt": "2026-11-06T22:31:53Z",
+      "observedAt": "2026-11-07T09:13:19Z",
+      "delta_since_last_seen": "Successful conversion starts a fresh session while preserving run history. Repository skill sources can pin the versions a run starts with."
+    },
+    {
+      "id": "crystl-persistent-cards-rollback",
+      "zhHeadline": "crystl把代理通知留到人来处理，更新也能退回上一版",
+      "enHeadline": "crystl keeps agent messages visible and offers an update rollback",
+      "eventAt": "2026-11-06",
+      "freshness": "near-three-day",
+      "evidence": "Official bodies read; vendor-described behavior, no hands-on test or independent performance evidence.",
+      "eventDateNote": "Official date only; exact time/timezone unknown, conservative supplement as date overlaps main boundary",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "crystl:nov6-2026",
+      "product_key": "crystl",
+      "publishedAt": "2026-11-06",
+      "observedAt": "2026-11-07T09:13:19Z",
+      "delta_since_last_seen": "The same day's updates add rollback to a retained installation and improve custom Claude wrapper commands and model context-window settings."
+    },
+    {
+      "id": "unsloth-0916-chat-browser",
+      "zhHeadline": "Unsloth为每个聊天保留独立浏览器，浮窗位置不再串到别的任务",
+      "enHeadline": "Unsloth keeps a separate browser layout for each chat",
+      "eventAt": "2026-11-06T14:43:33Z",
+      "freshness": "main",
+      "evidence": "Original release and implementation evidence read; no independent execution or benchmark.",
+      "eventDateNote": "GitHub release API published_at, UTC seconds",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "unslothai/unsloth:v0.1.916-beta",
+      "product_key": "unslothai/unsloth",
+      "publishedAt": "2026-11-06T14:43:33Z",
+      "observedAt": "2026-11-07T09:13:19Z",
+      "delta_since_last_seen": "The release also addresses long-chat typing, search and first-use audio stalls, with two-card execution paths for selected image and video models."
+    },
+    {
+      "id": "claude-sdk-0319-mcp-background",
+      "zhHeadline": "Claude SDK把MCP任务放到后台，结果仍须追踪",
+      "enHeadline": "Claude SDK moves MCP work into background tasks",
+      "eventAt": "2026-11-06T17:03:50Z",
+      "freshness": "main",
+      "evidence": "Original release and implementation evidence read; no independent execution or benchmark.",
+      "eventDateNote": "GitHub release API published_at, UTC seconds",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "anthropics/claude-agent-sdk-typescript:v0.3.319",
+      "product_key": "anthropics/claude-agent-sdk-typescript",
+      "publishedAt": "2026-11-06T17:03:50Z",
+      "observedAt": "2026-11-07T09:13:19Z",
+      "delta_since_last_seen": "The release also corrects prewarmed session counting, transcript identifiers after clearing a resumed session, and errors when session deletion is incomplete."
+    },
+    {
+      "id": "langgraph-sdk-0414-strict-resume",
+      "zhHeadline": "LangGraph拒绝过时的恢复指令，避免第二个标签页批准错任务",
+      "enHeadline": "LangGraph can reject stale resume commands from a second tab",
+      "eventAt": "2026-11-06T03:03:34Z",
+      "freshness": "near-three-day",
+      "evidence": "Original release and implementation evidence read; no independent execution or benchmark.",
+      "eventDateNote": "GitHub release API published_at, UTC seconds",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "langchain-ai/langgraph:sdk==0.4.14",
+      "product_key": "langchain-ai/langgraph",
+      "publishedAt": "2026-11-06T03:03:34Z",
+      "observedAt": "2026-11-07T09:13:19Z",
+      "delta_since_last_seen": "Developers can enable it on create, stream and wait, with the parameter available in both asynchronous and synchronous clients."
+    },
+    {
+      "id": "datastripes-data-stories",
+      "zhHeadline": "Datastripes让表格生成可编辑的数据故事",
+      "enHeadline": "Datastripes turns spreadsheets into editable data stories",
+      "eventAt": "2026-11-06",
+      "freshness": "near-three-day",
+      "evidence": "Original vendor and maker documentation; no account-based hands-on test or independent performance validation",
+      "eventDateNote": "PH launch day only; original release clock and timezone unknown; conservative 72-hour supplement",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "datastripes-data-stories-ph-2026-11-06",
+      "product_key": "datastripes-data-stories",
+      "publishedAt": "2026-11-06",
+      "observedAt": "2026-11-07T09:10:20.676323Z",
+      "delta_since_last_seen": "The November 6 Data Stories launch adds narrative output and checks supporting chapters against a proposed conclusion. Readers can switch into dashboard exploration."
+    },
+    {
+      "id": "rankfender-v3",
+      "zhHeadline": "Rankfender把搜索与AI提及连到任务，检查次数和发布权分开管理",
+      "enHeadline": "Rankfender connects search and AI mentions to tasks while separating checks from publishing",
+      "eventAt": "2026-11-06",
+      "freshness": "near-three-day",
+      "evidence": "Original vendor and maker documentation; no account-based hands-on test or independent performance validation",
+      "eventDateNote": "PH launch day only; original release clock and timezone unknown; conservative 72-hour supplement",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "rankfender-v3-ph-2026-11-06",
+      "product_key": "rankfender-v3",
+      "publishedAt": "2026-11-06",
+      "observedAt": "2026-11-07T09:10:20.676323Z",
+      "delta_since_last_seen": "Version 3 adds keyword and domain research plus AI Overview records. Connected assistants can inspect projects and propose work."
+    },
+    {
+      "id": "tobira-site-agent",
+      "zhHeadline": "Tobira让网站接待买方代理，预约仍需确认",
+      "enHeadline": "Tobira lets websites answer buyers’ agents",
+      "eventAt": "2026-11-06",
+      "freshness": "near-three-day",
+      "evidence": "Original vendor and maker documentation; no account-based hands-on test or independent performance validation",
+      "eventDateNote": "PH launch day only; original release clock and timezone unknown; conservative 72-hour supplement",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "tobira-site-agent-ph-2026-11-06",
+      "product_key": "tobira-site-agent",
+      "publishedAt": "2026-11-06",
+      "observedAt": "2026-11-07T09:10:20.676323Z",
+      "delta_since_last_seen": "The Site Agent launch adds website reception to the existing agent network, passing leads and a conversation summary to the team."
+    },
+    {
+      "id": "zeiss-talos-cad-inspection",
+      "zhHeadline": "TALOS按CAD规划测量路径，同一蓝光传感器检查表面和孔边",
+      "enHeadline": "TALOS plans inspection from CAD and measures surfaces and features together",
+      "eventAt": "2026-11-05",
+      "freshness": "near-three-day",
+      "evidence": "Original sources read; vendor/research claims and independent review observations explicitly attributed; no editorial hands-on.",
+      "eventDateNote": "Day only; original clock and timezone undisclosed",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "zeiss-talos-cad-inspection:2026-11-05",
+      "product_key": "zeiss-talos-cad-inspection",
+      "publishedAt": "2026-11-05",
+      "observedAt": "2026-11-07T09:10:12.759405+00:00",
+      "delta_since_last_seen": "The November 5 release combines surface and feature inspection without external tracking or reference markers. It is industrial metrology, not a general AI robot."
+    },
+    {
+      "id": "agibot-g2-retail-trial",
+      "zhHeadline": "六台G2在便利店分担取货、补货与清洁，四台通过厂商考核",
+      "enHeadline": "Six G2 robots split store work; four passed the vendor’s assessment",
+      "eventAt": "2026-11-02 10:00 to 2026-11-03 10:00 Shanghai local (UTC+08:00)",
+      "freshness": "seven-day",
+      "evidence": "Original AGIBOT report and product page. Aggregate results are vendor-reported, not independent validation or commercial labor replacement.",
+      "eventDateNote": "Trial local start/end stated; homepage dates reportNov6 withoutclock. Event is seven-day, not newNov6robotlaunch.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "agibot:g2:shanghai-retail-trial:2026-11-02:2026-11-03",
+      "product_key": "agibot:g2",
+      "publishedAt": "2026-11-06",
+      "observedAt": "2026-11-07T09:06:56.921151+00:00",
+      "delta_since_last_seen": "The trial occurred November 2–3; the November 6 recap claims 1,730 completed tasks and four of six robots passing final assessment."
+    },
+    {
+      "id": "astra-orbital-third-bay",
+      "zhHeadline": "ASTRA在轨接出第三节桁架，地面备份硬件承担故障恢复",
+      "enHeadline": "ASTRA builds a third truss bay in orbit, with a ground spare supporting recovery",
+      "eventAt": "2026-11-05",
+      "freshness": "near-three-day",
+      "evidence": "Original sources read; vendor/research claims and independent review observations explicitly attributed; no editorial hands-on.",
+      "eventDateNote": "Day only; original clock and timezone undisclosed",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "astra-orbital-third-bay:2026-11-05",
+      "product_key": "astra-orbital-third-bay",
+      "publishedAt": "2026-11-05",
+      "observedAt": "2026-11-07T09:10:12.759405+00:00",
+      "delta_since_last_seen": "The November 5 original report confirms construction of a third bay beyond two prebuilt sections, not completion of the eleven-bay goal."
+    },
+    {
+      "id": "airoa-zero-yubi",
+      "zhHeadline": "AIRoA-0用手持夹具采集双手任务，不占用机器人",
+      "enHeadline": "AIRoA-0 learns bimanual tasks from handheld demonstrations",
+      "eventAt": "2026-11-06T06:15:00Z",
+      "freshness": "near-three-day",
+      "evidence": "Original author-reported evidence; no independent replication or hands-on test",
+      "eventDateNote": "second; original issuer release in JST converted to UTC",
+      "gapBackfill": false,
+      "eventTimeKind": "issuer-release",
+      "event_key": "airoa-zero-yubi:2026-11-06",
+      "product_key": "airoa-zero-yubi",
+      "publishedAt": "2026-11-06T06:15:00Z",
+      "observedAt": "2026-11-07T09:11:41Z",
+      "delta_since_last_seen": "The November 6 release announces post-training code and model resources; the dataset remains planned. This is a recent supplement."
+    },
+    {
+      "id": "halo-perceptive-humanoid",
+      "zhHeadline": "HALO先看房间再规划全身动作，连续任务仍比单项动作更难",
+      "enHeadline": "HALO plans whole-body motion from the room it sees; chained tasks remain harder",
+      "eventAt": "2026-11-04T18:55:33Z",
+      "freshness": "near-three-day",
+      "evidence": "Original author-reported evidence; no independent replication or hands-on test",
+      "eventDateNote": "second; arXiv submission, not confirmed announcement",
+      "gapBackfill": false,
+      "eventTimeKind": "arxiv-submission",
+      "event_key": "halo-perceptive-humanoid:2026-11-04",
+      "product_key": "halo-perceptive-humanoid",
+      "publishedAt": "2026-11-04T18:55:33Z",
+      "observedAt": "2026-11-07T09:11:41Z",
+      "delta_since_last_seen": "Training uses a thousand synthetic homes. The physical platform is a modified G1 with cameras and backpack compute, not a released Apple robot."
+    },
+    {
+      "id": "phil-proactive-robot-correction",
+      "zhHeadline": "PHIL把机器人下一步画在现场，操作者可在出错前接手",
+      "enHeadline": "PHIL previews a robot’s next motion so operators can take over before an error",
+      "eventAt": "2026-11-03T21:54:27Z",
+      "freshness": "seven-day",
+      "evidence": "Original author-reported evidence; no independent replication or hands-on test",
+      "eventDateNote": "second; arXiv submission, not confirmed announcement",
+      "gapBackfill": false,
+      "eventTimeKind": "arxiv-submission",
+      "event_key": "phil-proactive-robot-correction:2026-11-03",
+      "product_key": "phil-proactive-robot-correction",
+      "publishedAt": "2026-11-03T21:54:27Z",
+      "observedAt": "2026-11-07T09:11:41Z",
+      "delta_since_last_seen": "Rejected predictions and executed corrections from the same state and horizon become preference pairs for post-training."
+    },
+    {
+      "id": "program-progressive-pipelines",
+      "zhHeadline": "ProGram让分析图边算边更新，关联视图可同步进度",
+      "enHeadline": "ProGram updates charts during computation and keeps linked views in step",
+      "eventAt": "2026-11-04T09:02:32Z",
+      "freshness": "near-three-day",
+      "evidence": "Original author-reported evidence; no independent replication or hands-on test",
+      "eventDateNote": "second; arXiv submission, not confirmed announcement",
+      "gapBackfill": false,
+      "eventTimeKind": "arxiv-submission",
+      "event_key": "program-progressive-pipelines:2026-11-04",
+      "product_key": "program-progressive-pipelines",
+      "publishedAt": "2026-11-04T09:02:32Z",
+      "observedAt": "2026-11-07T09:11:41Z",
+      "delta_since_last_seen": "Two reproduced analytics systems and eleven examples demonstrate expressiveness, not measured improvements in user decisions."
+    },
+    {
+      "id": "schoolhouse-tutor-feedback-rct",
+      "zhHeadline": "课后AI反馈改变导师追问，未改变谁占据谈话",
+      "enHeadline": "AI feedback changes tutor prompts, but not talk balance",
+      "eventAt": "2026-11-04T19:29:43Z",
+      "freshness": "near-three-day",
+      "evidence": "Original author-reported evidence; no independent replication or hands-on test",
+      "eventDateNote": "second; arXiv submission, not confirmed announcement",
+      "gapBackfill": false,
+      "eventTimeKind": "arxiv-submission",
+      "event_key": "schoolhouse-tutor-feedback-rct:2026-11-04",
+      "product_key": "schoolhouse-tutor-feedback-rct",
+      "publishedAt": "2026-11-04T19:29:43Z",
+      "observedAt": "2026-11-07T09:11:41Z",
+      "delta_since_last_seen": "The paper was submitted November 4 and reports two 2024 bootcamps, making it a recent research supplement rather than newly deployed software."
+    }
+  ],
+  "eventCounts": {
+    "mainWindowEvents": 5,
+    "nearThreeDayReviews": 20,
+    "sevenDayReviews": 4,
+    "gapBackfillEvents": 0,
+    "interpretation": "Announcements, submissions, updates and regional reports; not first product launches."
+  }
+}

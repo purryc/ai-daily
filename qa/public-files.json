@@ -9010,6 +9010,481 @@
     "sha256": "03a1959af3b03522fe30818894089931c8a88a231441ba14b3f3f582165217df"
   },
   {
+    "path": "2026-11-07/assets/agibot-trial.jpg",
+    "bytes": 103158,
+    "sha256": "a199a5ee53eb41564017b4a5b266094156850831eecb13dd795d414215df08c8"
+  },
+  {
+    "path": "2026-11-07/assets/airoa-franka.jpg",
+    "bytes": 75936,
+    "sha256": "2fce79c320c2ca04729bcee0d91295e99efc3c667d25898439fc3fba403badee"
+  },
+  {
+    "path": "2026-11-07/assets/amp-spaces.jpg",
+    "bytes": 216381,
+    "sha256": "7ca67915ce39ada28c3b7493a61fa3507b57586509feda27c837d3a47734d08c"
+  },
+  {
+    "path": "2026-11-07/assets/astra-orbital.jpg",
+    "bytes": 213600,
+    "sha256": "f42f20ee53e474dbafbb377154b08f7f27c3340e876da15adf268c19ec4b2e7b"
+  },
+  {
+    "path": "2026-11-07/assets/claude-sdk-0319-mcp-background-flow.png",
+    "bytes": 125203,
+    "sha256": "d5811759b844e4ed436a719ca3e6e5e5cb9a56191f6c6c4ad9a633461031bf01"
+  },
+  {
+    "path": "2026-11-07/assets/crystl-gallery.jpg",
+    "bytes": 104168,
+    "sha256": "762ab85251b58d6c8a9d982dfb0446ee6a5a806e950740d693cdf9cadf816b84"
+  },
+  {
+    "path": "2026-11-07/assets/datastripes-alt.jpg",
+    "bytes": 114382,
+    "sha256": "fb1d4c8a1e815b023d4d17a018803d78363b5a51996d9575f148ef34937c6067"
+  },
+  {
+    "path": "2026-11-07/assets/deck.js",
+    "bytes": 2576,
+    "sha256": "63d13c06452d7405e0b5ed572d8464d802c9e5b8de656b5a94e3527b1730f7b3"
+  },
+  {
+    "path": "2026-11-07/assets/dyson-r2.jpg",
+    "bytes": 130200,
+    "sha256": "a341e7fe96b486164a8e8e22f36d0c4783262c25eb22595d2c2ed1bbe064f547"
+  },
+  {
+    "path": "2026-11-07/assets/gentle-monster-ai.jpg",
+    "bytes": 129789,
+    "sha256": "433e6d5dabe77d02eb11d8a5a9a5571fd3a182f17c94faa87f8ebe8209b2e63e"
+  },
+  {
+    "path": "2026-11-07/assets/github-teams-canvas.jpg",
+    "bytes": 177655,
+    "sha256": "193e838cfc3a269c7dfe7745113a473069c63daff36bb257c23327bca2443567"
+  },
+  {
+    "path": "2026-11-07/assets/halo-teaser.jpg",
+    "bytes": 290118,
+    "sha256": "14b80f9f8103daf0d801cf1bd9086d147bf31023f700141a6d49b21a361072c3"
+  },
+  {
+    "path": "2026-11-07/assets/inmo-future.jpg",
+    "bytes": 201430,
+    "sha256": "1e9b2d7b71110dade9ea690e0daca5257bc8b0e1b81c243d005112fdb1e3dcd0"
+  },
+  {
+    "path": "2026-11-07/assets/issue.css",
+    "bytes": 10285,
+    "sha256": "1e458c07ba855726699c2b9885d466a62a85e04604b22dddcca9a2f3d1ca09e9"
+  },
+  {
+    "path": "2026-11-07/assets/kodivo.jpg",
+    "bytes": 132526,
+    "sha256": "6e10d063743c75f7fd4751eb5aab90229119f5c09f5fef85e7be46859778a76b"
+  },
+  {
+    "path": "2026-11-07/assets/langgraph-sdk-0414-strict-resume-flow.png",
+    "bytes": 120513,
+    "sha256": "35bd253c368dab187c815c39263dff20db0b3a9a337693b999e30e122363b6cb"
+  },
+  {
+    "path": "2026-11-07/assets/mova-v70-prior-review.jpg",
+    "bytes": 66525,
+    "sha256": "3e1f1719002b88e7236fff1521163cb9da2d452a8f4a097c4ae30b273b482eba"
+  },
+  {
+    "path": "2026-11-07/assets/openhands-generated.png",
+    "bytes": 30171,
+    "sha256": "ba4be583b12e8b027f17bf9c9ef4d84e45137cb1d7eb08a07a0e6d3233a6e405"
+  },
+  {
+    "path": "2026-11-07/assets/paperclip-fixture.jpg",
+    "bytes": 78321,
+    "sha256": "f303faeca2a00b2887d54f39d1a70271d5d12d270b2663713c844bc46dfadcf0"
+  },
+  {
+    "path": "2026-11-07/assets/pauta.jpg",
+    "bytes": 77008,
+    "sha256": "aae4487ab60e53519fe7db6b9c0f778d5f3bdf176bc0691c27f7ff7dc240c5e8"
+  },
+  {
+    "path": "2026-11-07/assets/phil-teaser.jpg",
+    "bytes": 174470,
+    "sha256": "887b4803199e39f5509a3d201aa2e888da21f3fca95c07099f9f7fee8c37fa09"
+  },
+  {
+    "path": "2026-11-07/assets/playful-gallery.jpg",
+    "bytes": 121221,
+    "sha256": "49d271d0f2354b8e7390ceb60f95ba84666b3808dc73991ab1cc91b3e03e38ee"
+  },
+  {
+    "path": "2026-11-07/assets/program-teaser.jpg",
+    "bytes": 195276,
+    "sha256": "8307334e24d3ab19bce1fb351ed8e896fdbf27baa363d6f7c726c9f69bf63956"
+  },
+  {
+    "path": "2026-11-07/assets/proled-device.jpg",
+    "bytes": 208998,
+    "sha256": "eafec64605f3bb02f1396e55ed781032e8520da5a3d068043b25f24d7259a55d"
+  },
+  {
+    "path": "2026-11-07/assets/rankfender.jpg",
+    "bytes": 167758,
+    "sha256": "32f614be1b9452a95550304fdd184578d530e0217698379da348d42901d951d5"
+  },
+  {
+    "path": "2026-11-07/assets/schoolhouse-mockup.jpg",
+    "bytes": 179813,
+    "sha256": "00bfe63b4025bef64c2dfbc479f373f24ef5c051b3ce55c143ce8556cb1eedf7"
+  },
+  {
+    "path": "2026-11-07/assets/talos.jpg",
+    "bytes": 157059,
+    "sha256": "314ac4a541adc4f51acc780ec481f812ce9766ab080c23c081fae4a601a8eaed"
+  },
+  {
+    "path": "2026-11-07/assets/tobira-gallery4.jpg",
+    "bytes": 113348,
+    "sha256": "bc4a867df5091cf66c0d537bcca2364f2b278cf0ca43f37a1e790929c5b01b34"
+  },
+  {
+    "path": "2026-11-07/assets/uninell-ur3.jpg",
+    "bytes": 106787,
+    "sha256": "18fb8552727965c1aa8a349ba73a12aeb81ae20dba134301a369e674070efdb2"
+  },
+  {
+    "path": "2026-11-07/assets/unsloth-studio.jpg",
+    "bytes": 70659,
+    "sha256": "b30cf439b66bd5663d144f44e322df128c8f54c54ebc91a565180d3367740858"
+  },
+  {
+    "path": "2026-11-07/assets/wisp.jpg",
+    "bytes": 79131,
+    "sha256": "12552681e7a0534bbd02f7a810665f0b7ec0d1e4b13542f9a4ee1685c1a428ac"
+  },
+  {
+    "path": "2026-11-07/en/details/agibot-g2-retail-trial.html",
+    "bytes": 5927,
+    "sha256": "a5683863a624a92956e4675f87f0e21727639f5047d2ca24fe1ba76b09562241"
+  },
+  {
+    "path": "2026-11-07/en/details/airoa-zero-yubi.html",
+    "bytes": 6094,
+    "sha256": "494d9e4e4fa4fe5097582cf5f0ed58f15368ac52dca51ffd403a17a98288a3bd"
+  },
+  {
+    "path": "2026-11-07/en/details/amp-spaces-website-feedback.html",
+    "bytes": 7360,
+    "sha256": "677800f8368faea00f123cb67ad2d429a2332373f932b43cf72ef940ec71944b"
+  },
+  {
+    "path": "2026-11-07/en/details/astra-orbital-third-bay.html",
+    "bytes": 7042,
+    "sha256": "0cf63fc67f69bf1e95282d0f5fdfc8fcb092a13309ea03064bc95171c595d282"
+  },
+  {
+    "path": "2026-11-07/en/details/claude-sdk-0319-mcp-background.html",
+    "bytes": 6565,
+    "sha256": "d4fc282243d49ef825b90cab79d5dc9c432ec3b42dd202db40543a9371ac931c"
+  },
+  {
+    "path": "2026-11-07/en/details/crystl-persistent-cards-rollback.html",
+    "bytes": 7162,
+    "sha256": "42cc3d254df26405672ec288139726c7bbae2260609e9e8a2e17570d593791f3"
+  },
+  {
+    "path": "2026-11-07/en/details/datastripes-data-stories.html",
+    "bytes": 5963,
+    "sha256": "58a9bf8677a341702cf8f8e62a452e396fcc96aa365ed915dabbb4621e598c47"
+  },
+  {
+    "path": "2026-11-07/en/details/dyson-r2-independent-review.html",
+    "bytes": 5984,
+    "sha256": "c7957f6df505f44464990bdd68f41f697a657edb6a21db630c4f59a38157036e"
+  },
+  {
+    "path": "2026-11-07/en/details/gentle-monster-preorder-nov12.html",
+    "bytes": 6488,
+    "sha256": "7c81b4d21b47a7079554e6f9475759046f2cd0f73c1d3062415748fac2eb29f2"
+  },
+  {
+    "path": "2026-11-07/en/details/github-slack-teams-ga.html",
+    "bytes": 5846,
+    "sha256": "824c9bcae1ef3837614340701b532e1091562d8173b0638805e2a77eb500b03c"
+  },
+  {
+    "path": "2026-11-07/en/details/halo-perceptive-humanoid.html",
+    "bytes": 6134,
+    "sha256": "9f72e953808e63b30ef3af5e9beaee4fecc6c4c96aee6efd9c0229c03bc0aab1"
+  },
+  {
+    "path": "2026-11-07/en/details/inmo-future-spatial-reservation.html",
+    "bytes": 6181,
+    "sha256": "321bed76c2af3201ff98d886a81c57ee492284d541973e371d7930edc904cd17"
+  },
+  {
+    "path": "2026-11-07/en/details/kodivo-learning-cards.html",
+    "bytes": 6064,
+    "sha256": "3c60cd357b97d7f30722592c01097e73b657d64c073a7bdb5d536a01062371f2"
+  },
+  {
+    "path": "2026-11-07/en/details/langgraph-sdk-0414-strict-resume.html",
+    "bytes": 7362,
+    "sha256": "28edc0f11802298a3003b7bc13151795bace6c24f34ae9639f9bfd1492518731"
+  },
+  {
+    "path": "2026-11-07/en/details/macbook-proled-touch-review.html",
+    "bytes": 6539,
+    "sha256": "da2d0f339fb53bdb59192b9debaf188f65e692ca735275d4c6d7d190e3c3505f"
+  },
+  {
+    "path": "2026-11-07/en/details/mova-v70-recommendation-withdrawal.html",
+    "bytes": 6096,
+    "sha256": "9aaf21c9d20dbbdcec2b74558f34c257a02ea2dcb04a6083e9ba1fbe92553f8e"
+  },
+  {
+    "path": "2026-11-07/en/details/openhands-137-automation-diagrams.html",
+    "bytes": 6147,
+    "sha256": "4aae530e0de0084d4e83df85bfc6c117a991f9f1f9bf9ad9e59ef9765b6f5dfe"
+  },
+  {
+    "path": "2026-11-07/en/details/paperclip-1106-native-runner.html",
+    "bytes": 7085,
+    "sha256": "6fcf489978ae441ff2f7f3d50b197f2b4bc1d2804b36504b16c886427ddfeaeb"
+  },
+  {
+    "path": "2026-11-07/en/details/pauta-local-conversation-memory.html",
+    "bytes": 5837,
+    "sha256": "f6fe3f0c650af917e8092cade2bf953c1928e4c6417edf9bcd0f05c954511d69"
+  },
+  {
+    "path": "2026-11-07/en/details/phil-proactive-robot-correction.html",
+    "bytes": 6444,
+    "sha256": "1bb58bfc9630443e4b9c29c78125d4da7846d8139a71d2eeced6eaeb9c75b92f"
+  },
+  {
+    "path": "2026-11-07/en/details/playful-homemade-apps.html",
+    "bytes": 5952,
+    "sha256": "77dea31b7b48ad5b11d1a8814d0fa4cfb4aff05470d4261ffda64ccb2e76e047"
+  },
+  {
+    "path": "2026-11-07/en/details/program-progressive-pipelines.html",
+    "bytes": 5841,
+    "sha256": "394348ebf2cc5447411c2874ff20eb1b0fbaf9c3c6cf445b6dafe4d61b44cc7d"
+  },
+  {
+    "path": "2026-11-07/en/details/rankfender-v3.html",
+    "bytes": 6084,
+    "sha256": "350f99ca18e55fc9ab17df4e82ac6888a7aadcf80f3e4e58db06906c6c592b12"
+  },
+  {
+    "path": "2026-11-07/en/details/schoolhouse-tutor-feedback-rct.html",
+    "bytes": 5822,
+    "sha256": "b84ee2736a3a7e884a9dacb13dc8b7c9daf329cc31116915f0abca3409045228"
+  },
+  {
+    "path": "2026-11-07/en/details/tobira-site-agent.html",
+    "bytes": 5812,
+    "sha256": "61af3958f4cf710a57e393f3c69b3b93e6874ee53b1e6bacfe0599f16e8b8cdc"
+  },
+  {
+    "path": "2026-11-07/en/details/uninell-ur3-independent-review.html",
+    "bytes": 5720,
+    "sha256": "ae3fd28ada711bb4725380ff99a6e17d179aae0a4d37adee2fe1772e65d2182e"
+  },
+  {
+    "path": "2026-11-07/en/details/unsloth-0916-chat-browser.html",
+    "bytes": 6843,
+    "sha256": "94391991625cba2abe65cb2a723514919ca5f2dc718dc8e7c6f06d994b184dde"
+  },
+  {
+    "path": "2026-11-07/en/details/wisp-desktop-voice.html",
+    "bytes": 6040,
+    "sha256": "5f91e3fd867cc7ee4037c276712460b7b580ea1946c1382de51fabf5def9aa41"
+  },
+  {
+    "path": "2026-11-07/en/details/zeiss-talos-cad-inspection.html",
+    "bytes": 6793,
+    "sha256": "9b6dd785ae9fdaf64d8330455f0900a3edaac7a4b53ec55983706a5e52311b77"
+  },
+  {
+    "path": "2026-11-07/en/index.html",
+    "bytes": 91608,
+    "sha256": "566c6f393d89e1de0f0f672f1a17a608af6f9f5873596a025a11556419236078"
+  },
+  {
+    "path": "2026-11-07/manifest.json",
+    "bytes": 34225,
+    "sha256": "28cac4f744d852bbe110102d1b1933b61cdb1f9574edda345b1995fb79d67594"
+  },
+  {
+    "path": "2026-11-07/sources.html",
+    "bytes": 53257,
+    "sha256": "1a37079a25982d3dffde9143f430650a4b0aab95f989eb0b6377cc0543004402"
+  },
+  {
+    "path": "2026-11-07/sources.json",
+    "bytes": 20587,
+    "sha256": "1d3ea32d1a310b8842012310b9964b3a93ae75491be92d5a1d1fbaf913ba7c1e"
+  },
+  {
+    "path": "2026-11-07/visuals.json",
+    "bytes": 20097,
+    "sha256": "42d227210abc16b5d62ec82907cac93d13375a66f02b57c36444f23b94d2758a"
+  },
+  {
+    "path": "2026-11-07/zh/details/agibot-g2-retail-trial.html",
+    "bytes": 5695,
+    "sha256": "a93b08c77c7766c8044a2eeb015c3d9297be75e7357f367139e2138b970af58c"
+  },
+  {
+    "path": "2026-11-07/zh/details/airoa-zero-yubi.html",
+    "bytes": 5331,
+    "sha256": "5db1d6d665485592a9ae45755d089a2f72e44fe56bcfc38a44830727b6efab40"
+  },
+  {
+    "path": "2026-11-07/zh/details/amp-spaces-website-feedback.html",
+    "bytes": 6731,
+    "sha256": "41b466be0f40647e8303a34690dd6fd8bc98d16195393c532af6e7fef695b9b1"
+  },
+  {
+    "path": "2026-11-07/zh/details/astra-orbital-third-bay.html",
+    "bytes": 6221,
+    "sha256": "644d0f6db3f6c9325ec30f54e1738f59b9093ff75a587b851d444fb7c86dc0f2"
+  },
+  {
+    "path": "2026-11-07/zh/details/claude-sdk-0319-mcp-background.html",
+    "bytes": 5726,
+    "sha256": "662d27f34783b8ca105e10331b65704c78e89bb3351b23c6aa42d15e784ad738"
+  },
+  {
+    "path": "2026-11-07/zh/details/crystl-persistent-cards-rollback.html",
+    "bytes": 6345,
+    "sha256": "c8b4c40beb8f46fd75341b2148b016d7b3c83065a10866ed8c66415d81d1554c"
+  },
+  {
+    "path": "2026-11-07/zh/details/datastripes-data-stories.html",
+    "bytes": 5356,
+    "sha256": "d7f7811b26abd8d5dcdca5418e6813c223696433f17d11144809b6228e17ab17"
+  },
+  {
+    "path": "2026-11-07/zh/details/dyson-r2-independent-review.html",
+    "bytes": 5469,
+    "sha256": "02a1af7fa451f7467195ed3e157838298a867bb1942c7a0de4568d3fd21c9807"
+  },
+  {
+    "path": "2026-11-07/zh/details/gentle-monster-preorder-nov12.html",
+    "bytes": 5849,
+    "sha256": "2e6e5be6f8ad2be4e02643debea1f87c38c216015f94df777b5ea2eb44e371ac"
+  },
+  {
+    "path": "2026-11-07/zh/details/github-slack-teams-ga.html",
+    "bytes": 5118,
+    "sha256": "bfbd9c56ef443b03942b4b923a3a19bb80d101b6c97cf31afc67b55dfdcf804a"
+  },
+  {
+    "path": "2026-11-07/zh/details/halo-perceptive-humanoid.html",
+    "bytes": 5486,
+    "sha256": "6891f84eb57573f26e9482a6d1c3f26ffa247d686b91269e032e55e5c3041c2d"
+  },
+  {
+    "path": "2026-11-07/zh/details/inmo-future-spatial-reservation.html",
+    "bytes": 5832,
+    "sha256": "c328b6e39f8c20335627dd41acd2991e827ca39f62a5f6fd2ec8ce3c31d142c7"
+  },
+  {
+    "path": "2026-11-07/zh/details/kodivo-learning-cards.html",
+    "bytes": 5684,
+    "sha256": "32d9d02b3af6c706094e6b871f3dee02776be894d4598e1b17873d65537ed2ca"
+  },
+  {
+    "path": "2026-11-07/zh/details/langgraph-sdk-0414-strict-resume.html",
+    "bytes": 6725,
+    "sha256": "08ada909d0493aebbada5fce7cf8c07ad95b445db152192c3f15e0427800f290"
+  },
+  {
+    "path": "2026-11-07/zh/details/macbook-proled-touch-review.html",
+    "bytes": 5799,
+    "sha256": "7ffdf0cf7c145bc6de90eb543729029867dc0c761007e12203ed7f0eaa50e1a5"
+  },
+  {
+    "path": "2026-11-07/zh/details/mova-v70-recommendation-withdrawal.html",
+    "bytes": 5610,
+    "sha256": "e86091c7a95dd09c44dd04fe6e4a1d8d156a51e4c45e09323d6ae6f0aafb50c2"
+  },
+  {
+    "path": "2026-11-07/zh/details/openhands-137-automation-diagrams.html",
+    "bytes": 5477,
+    "sha256": "5e8ad0539a78ebf42e9edf832edf624f3647c4377fe1122578ff3b5554cf2c39"
+  },
+  {
+    "path": "2026-11-07/zh/details/paperclip-1106-native-runner.html",
+    "bytes": 6132,
+    "sha256": "3a2f1ff2a06a6571659f85e16aeb0170c39b1bcfe684a9e4a461e3d9a4f92a44"
+  },
+  {
+    "path": "2026-11-07/zh/details/pauta-local-conversation-memory.html",
+    "bytes": 5423,
+    "sha256": "607b9678f9f8b75f8f392a44c8ec46f0d50be12e02e2cf5504e7afc0850cb4e4"
+  },
+  {
+    "path": "2026-11-07/zh/details/phil-proactive-robot-correction.html",
+    "bytes": 5542,
+    "sha256": "e113ecd320ff120c607a7994d3e9c48d5a577bb658c06e5ce8c097a1fcd6c994"
+  },
+  {
+    "path": "2026-11-07/zh/details/playful-homemade-apps.html",
+    "bytes": 5599,
+    "sha256": "cb44a3babdf6dac63826a7df1b595f9af16c8c94621cacfd1359d0a315ccb30c"
+  },
+  {
+    "path": "2026-11-07/zh/details/program-progressive-pipelines.html",
+    "bytes": 5024,
+    "sha256": "de35581d6243bbf3de9a1b5f687ddd7202895b28a9b8bd862c1adbff367523ad"
+  },
+  {
+    "path": "2026-11-07/zh/details/rankfender-v3.html",
+    "bytes": 5607,
+    "sha256": "c984fbbb0e0bc8a63aa5bf0588030448213a94eca70b4b1abc248d30c1f848bd"
+  },
+  {
+    "path": "2026-11-07/zh/details/schoolhouse-tutor-feedback-rct.html",
+    "bytes": 5120,
+    "sha256": "8d37c583ff18a6c8ced79bad9cb467e6f8b63492725c899836a24bd164217a85"
+  },
+  {
+    "path": "2026-11-07/zh/details/tobira-site-agent.html",
+    "bytes": 5245,
+    "sha256": "ce75cf98b35b73e0b1a226a5f5cbd5bab0d4d6a90a48e7e69710144dbdc8f7d1"
+  },
+  {
+    "path": "2026-11-07/zh/details/uninell-ur3-independent-review.html",
+    "bytes": 5297,
+    "sha256": "b92e0fb7d7c7d3ff762304b2d1bfb337cf9c248c1a6bc14a4d60a3c99808d846"
+  },
+  {
+    "path": "2026-11-07/zh/details/unsloth-0916-chat-browser.html",
+    "bytes": 6165,
+    "sha256": "ccd9220c6f9b3f187b16d8cd141e65a2920b25f96e17e3e335dcdb6b9695c288"
+  },
+  {
+    "path": "2026-11-07/zh/details/wisp-desktop-voice.html",
+    "bytes": 5580,
+    "sha256": "2533af4d46dccf0a0e385dd5a1fadfc6e4eaae9eee63b4cd08c5c99bff0bd931"
+  },
+  {
+    "path": "2026-11-07/zh/details/zeiss-talos-cad-inspection.html",
+    "bytes": 6041,
+    "sha256": "1fb1f5637e15c894a0a495db08773c468faa4048cc7f88a2e96c50d2a7a7630b"
+  },
+  {
+    "path": "2026-11-07/zh/index.html",
+    "bytes": 88307,
+    "sha256": "cd8853ec6d2755e3dad0544bc6756bd33f61b01a16aef01f7f6106c08074c134"
+  },
+  {
     "path": "assets/acti-agentic-keyboard-2026-07-03.svg",
     "bytes": 2825,
     "sha256": "84ad9abb0a1191abde62dea383e6e1ed583fc089073d3ccaf91629044501721b"
@@ -9421,18 +9896,18 @@
   },
   {
     "path": "en/index.html",
-    "bytes": 178666,
-    "sha256": "08af1552f5c0fac092af606d9a1b7eab89174d5b7ca20d861586900dd6f1e431"
+    "bytes": 179770,
+    "sha256": "f19134ee2de5f17a01cfe85dc7def929ff6e30dc9d15a1255b0920e023be15ac"
   },
   {
     "path": "index.html",
-    "bytes": 172478,
-    "sha256": "2325fba51358658b82f8b7fa95f9eda0bb9b285103ffee0abaac73e453f6d92c"
+    "bytes": 173580,
+    "sha256": "69a51d6b64f19768b6921832c28429ef192fb4bf9dbc3a5d8619c0994b6743c8"
   },
   {
     "path": "manifest.json",
-    "bytes": 751045,
-    "sha256": "c63db0114e4cd671126711ac8864dcc0d3cb3e1f9336d29f3083411ad0d4c35b"
+    "bytes": 752258,
+    "sha256": "a078ccef4d47a5f40088a16d297db4daf0eb1fe2c788fea5715e0e21f2695ad9"
   },
   {
     "path": "weekly/2026-10-12/pilot/en/index.html",
