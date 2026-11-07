@@ -1,71 +1,58 @@
 [
   {
-    "name": "amp-spaces.jpg",
-    "url": "https://static.ampcode.com/news/spaces-v1-space-light.avif",
+    "name": "pauta.jpg",
+    "url": "https://ph-files.imgix.net/68610c67-5ee0-4e17-a522-5f9095fe999a.png",
     "kind": "image",
     "renderImage": true,
     "locale": "en"
   },
   {
-    "name": "amp-feedback.jpg",
-    "url": "https://static.ampcode.com/news/close-the-loop-comments.avif",
+    "name": "datastripes-alt.jpg",
+    "url": "https://ph-files.imgix.net/6fd77686-c1fd-4856-810f-02b8647a1a4c.png",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "name": "datastripes-alt2.jpg",
+    "url": "https://ph-files.imgix.net/c488b83d-c3ab-46fe-bf7c-70ec7bfa1843.png",
     "kind": "image",
     "renderImage": true,
     "locale": "en"
   },
   {
-    "name": "paperclip-fixture.jpg",
-    "url": "https://storybook.paperclip.page/storybook/branches/codex~2Fagent-runner-upgrade/?path=/story/agents-runner-upgrade--legacy-codex",
-    "kind": "page",
-    "selector": "#storybook-preview-iframe",
-    "locale": "zh"
-  },
-  {
-    "name": "crystl-track-demo.jpg",
-    "url": "https://crystl.dev/demo/track/",
-    "kind": "page",
-    "locale": "en"
-  },
-  {
-    "name": "github-teams-canvas.jpg",
-    "url": "https://teams.github.com/static/img/teams-landing/teams-canvas.png",
+    "name": "unsloth-studio.jpg",
+    "url": "https://unsloth.ai/cgi/image/unsloth_qwen3.8_final_ut2eqWnYJ-SLmu0s7x522.png?format=raw",
     "kind": "image",
     "renderImage": true,
     "locale": "zh"
   },
   {
-    "name": "tobira-agent.jpg",
-    "url": "https://ph-files.imgix.net/28da0fe7-0365-47c8-954f-b19877f46d44.jpeg",
-    "kind": "image",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "name": "program-teaser.jpg",
-    "url": "https://arxiv.org/html/2611.06188v1/figs/teaser.png",
-    "kind": "image",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "name": "schoolhouse-mockup.jpg",
-    "url": "https://arxiv.org/html/2611.07072v1/fig_interface_tutor.png",
+    "name": "dyson-r2.jpg",
+    "url": "https://vacuumwars.com/wp-content/uploads/2026/11/clipboard-4.png",
     "kind": "image",
     "renderImage": true,
     "locale": "en"
   },
   {
-    "name": "astra-orbital.jpg",
-    "url": "https://caltech-prod.resources.caltech.edu/main/images/Bay3_top_camera.a3914f5d.original.png?download=true",
+    "name": "uninell-ur3.jpg",
+    "url": "https://vacuumwars.com/wp-content/uploads/2026/11/clipboard-7.jpeg",
     "kind": "image",
     "renderImage": true,
     "locale": "zh"
   },
   {
-    "name": "proled-device.jpg",
-    "url": "https://cdn.mos.cms.futurecdn.net/LbMhawpHCpsfZcmbETFvA4.jpg",
+    "name": "crystl-gallery.jpg",
+    "url": "https://ph-files.imgix.net/a41bf32c-588f-4b99-a007-3f3472cbb5b1.png",
     "kind": "image",
     "renderImage": true,
     "locale": "en"
+  },
+  {
+    "name": "crystl-gallery2.jpg",
+    "url": "https://ph-files.imgix.net/28f077c3-62d3-44d6-9367-00b68fc70462.png",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "zh"
   }
 ]
