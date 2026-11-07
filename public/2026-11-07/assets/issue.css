@@ -8,3 +8,5 @@
 @media(max-width:650px){.toc-tabs{flex-wrap:wrap}.project-source-groups{display:block}.project-source-groups li{margin:18px 0}.contents-slide .contents-list strong{font-size:20px}}
 
 @media(min-width:651px){html[lang="en"] .project-grid{grid-template-columns:40% 1fr;height:450px}html[lang="en"] .summary{gap:8px}}
+
+.deep-unit p{overflow-wrap:anywhere}
