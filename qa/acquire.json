@@ -1,58 +1,52 @@
 [
   {
-    "name": "pauta.jpg",
-    "url": "https://ph-files.imgix.net/68610c67-5ee0-4e17-a522-5f9095fe999a.png",
-    "kind": "image",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "name": "datastripes-alt.jpg",
-    "url": "https://ph-files.imgix.net/6fd77686-c1fd-4856-810f-02b8647a1a4c.png",
+    "name": "mova-review.jpg",
+    "url": "https://vacuumwars.com/wp-content/uploads/2026/09/Mova-V70-Ultra-Complete-in-studio-150.png",
     "kind": "image",
     "renderImage": true,
     "locale": "zh"
   },
   {
-    "name": "datastripes-alt2.jpg",
-    "url": "https://ph-files.imgix.net/c488b83d-c3ab-46fe-bf7c-70ec7bfa1843.png",
+    "name": "tobira-gallery2.jpg",
+    "url": "https://ph-files.imgix.net/ad87ff8a-b8ae-4d59-99b5-11cdf7461d06.jpeg",
     "kind": "image",
     "renderImage": true,
     "locale": "en"
   },
   {
-    "name": "unsloth-studio.jpg",
-    "url": "https://unsloth.ai/cgi/image/unsloth_qwen3.8_final_ut2eqWnYJ-SLmu0s7x522.png?format=raw",
+    "name": "tobira-gallery3.jpg",
+    "url": "https://ph-files.imgix.net/6d69f59a-b335-4c93-81f0-428946ab8248.jpeg",
     "kind": "image",
     "renderImage": true,
     "locale": "zh"
   },
   {
-    "name": "dyson-r2.jpg",
-    "url": "https://vacuumwars.com/wp-content/uploads/2026/11/clipboard-4.png",
+    "name": "tobira-gallery4.jpg",
+    "url": "https://ph-files.imgix.net/6d774512-e974-4bea-ad0f-e63e201d59d1.gif",
     "kind": "image",
     "renderImage": true,
+    "captureDelayMs": 2200,
     "locale": "en"
   },
   {
-    "name": "uninell-ur3.jpg",
-    "url": "https://vacuumwars.com/wp-content/uploads/2026/11/clipboard-7.jpeg",
+    "name": "tobira-gallery5.jpg",
+    "url": "https://ph-files.imgix.net/7db303c8-f392-4d7a-8f3f-1e0fb5a138ca.jpeg",
     "kind": "image",
     "renderImage": true,
     "locale": "zh"
   },
   {
-    "name": "crystl-gallery.jpg",
-    "url": "https://ph-files.imgix.net/a41bf32c-588f-4b99-a007-3f3472cbb5b1.png",
+    "name": "tobira-gallery6.jpg",
+    "url": "https://ph-files.imgix.net/8d4eb5cb-87aa-4334-9b3b-19581dd1c113.jpeg",
     "kind": "image",
     "renderImage": true,
     "locale": "en"
   },
   {
-    "name": "crystl-gallery2.jpg",
-    "url": "https://ph-files.imgix.net/28f077c3-62d3-44d6-9367-00b68fc70462.png",
-    "kind": "image",
-    "renderImage": true,
+    "name": "muse-spaces-frame.jpg",
+    "url": "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/",
+    "kind": "page",
+    "selector": "video",
     "locale": "zh"
   }
 ]
