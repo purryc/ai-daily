@@ -1,1 +1,101 @@
-[]
+[
+  {
+    "name": "playful-gallery.jpg",
+    "url": "https://playful.app/assets/gallery-1.Cq1kDcP8.webp",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "name": "gentle-monster-ai.jpg",
+    "url": "https://gm-prd-resource.gentlemonster.com/assets/ai-eyewear/product_01.jpg",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "name": "talos.jpg",
+    "url": "https://www.zeiss.com/content/dam/newsroom/pressphotos/products/industrial-metrology/2026/zeiss-talos-product_prev.jpg/_jcr_content/renditions/original.image_file.1920.1080.0,101,1920,1181.file/zeiss-talos-product_prev.jpg",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "name": "proled-review.jpg",
+    "url": "https://cdn.mos.cms.futurecdn.net/DvcVRFs3zBWpu87BxUvt8H.png",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "name": "inmo-future.jpg",
+    "url": "https://www.inmo.com/cdn/shop/files/v1.jpg?v=1793086793&width=1200",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "name": "airoa-franka.jpg",
+    "url": "https://a-0.airoa.io/img/robots/franka.jpg",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "name": "halo-teaser.jpg",
+    "url": "https://arxiv.org/html/2611.06908v1/figures/teaser.jpg",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "name": "phil-teaser.jpg",
+    "url": "https://arxiv.org/html/2611.05667v1/image/teaser4.png",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "name": "agibot-trial.jpg",
+    "url": "https://www.agibot.com/file/ueditor/php/upload/image/20261106/1793933273128852.gif",
+    "kind": "image",
+    "renderImage": true,
+    "captureDelayMs": 2200,
+    "locale": "en"
+  },
+  {
+    "name": "datastripes.jpg",
+    "url": "https://ph-files.imgix.net/cd402bc7-6073-43f1-95f7-0e1bf7be4580.png",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "name": "turnstone.jpg",
+    "url": "https://ph-files.imgix.net/e4441222-9fa5-4339-ab37-3837cc27a1dc.png",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "name": "rankfender.jpg",
+    "url": "https://ph-files.imgix.net/060c1003-6b67-427e-a87c-cf7774c465fe.png",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "name": "kodivo.jpg",
+    "url": "https://ph-files.imgix.net/24f158de-4e06-4d78-a2b0-d6d729e6ba81.png",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "name": "wisp.jpg",
+    "url": "https://ph-files.imgix.net/37d762b3-ead3-4803-a718-ffe39adf00ba.jpeg",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "zh"
+  }
+]
