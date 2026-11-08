@@ -1,49 +1,61 @@
 [
   {
-    "name": "alexa-sms.jpg",
-    "url": "https://assets.aboutamazon.com/af/97/71602a7c4a258ba4c9f7656fb1a5/about-amazon-inline-alexa-text-to-shop-amazon-news-wl-20261104.jpg",
+    "name": "stm32-devboard.jpg",
+    "url": "https://blog.st.com/wp-content/uploads/2026/10/9858280_STM32H7P5I-DK-top-view-edited-290x300.jpg",
     "kind": "image",
     "renderImage": true,
     "locale": "zh"
   },
   {
-    "name": "suno-midi.jpg",
-    "url": "https://cdn.sanity.io/images/cl7b1q1i/production/a5da456a682e0f8821e74530c8c95c868685394c-1920x1080.jpg",
+    "name": "perplexity-roles.jpg",
+    "url": "https://cdn.sanity.io/images/aqo64vfr/production/8dc0b8e153551fd3dddffd0dd26967685b6db435-3400x1912.png?auto=format&fit=max&q=80&w=2640",
     "kind": "image",
     "renderImage": true,
     "locale": "en"
   },
   {
-    "name": "oopsie-teaser.jpg",
-    "url": "https://arxiv.org/html/2611.08462v1/teaser.png",
+    "name": "pyrua-tasks.jpg",
+    "url": "https://arxiv.org/html/2611.06768v1/real_world_tasks.png",
     "kind": "image",
     "renderImage": true,
     "locale": "zh"
   },
   {
-    "name": "lumitac-control.jpg",
-    "url": "https://arxiv.org/html/2611.05936v1/assets/Robotic_Control.png",
-    "kind": "image",
-    "renderImage": true,
+    "name": "mistral-workflow-inventory.json",
+    "url": "https://docs.mistral.ai/studio/workflows/building-workflows/visualize-your-workflow",
+    "kind": "inventory",
     "locale": "en"
   },
   {
-    "name": "cybersickness.jpg",
-    "url": "https://arxiv.org/html/2611.07386v1/teaseree.png",
+    "name": "mistral-traces-inventory.json",
+    "url": "https://docs.mistral.ai/studio/observability/traces/explorer",
+    "kind": "inventory",
+    "locale": "zh"
+  },
+  {
+    "name": "classroom-inventory.json",
+    "url": "https://workspaceupdates.googleblog.com/2026/11/educators-can-now-add-guided-learning-to-assignments-in-Google-Classroom-to-help-students-get-extra-support.html",
+    "kind": "inventory",
+    "locale": "en"
+  },
+  {
+    "name": "mistral-process.jpg",
+    "url": "https://mistral.ai/_astro/business-process_ZmGxpx.webp?dpl=6af0392e33523efc6b3b55cd",
     "kind": "image",
     "renderImage": true,
     "locale": "zh"
   },
   {
-    "name": "reviewmap.jpg",
-    "url": "https://arxiv.org/html/2611.07489v1/figures/Fig1_ecosystem_original.png",
+    "name": "atom-tianqiao.jpg",
+    "url": "https://www.atomrobot.com/filespath/images/20261105170315.gif",
     "kind": "image",
     "renderImage": true,
+    "captureDelayMs": 2200,
     "locale": "en"
   },
   {
-    "name": "semg-setup.jpg",
-    "url": "https://arxiv.org/html/2611.08295v1/expsetup.png",
+    "name": "turnstone-ui.jpg",
+    "url": "https://myturnstone.ai/images/home/hero-app/desk-light.png",
     "kind": "image",
     "renderImage": true,
     "locale": "zh"
