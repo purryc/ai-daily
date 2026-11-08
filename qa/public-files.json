@@ -9485,6 +9485,421 @@
     "sha256": "cd8853ec6d2755e3dad0544bc6756bd33f61b01a16aef01f7f6106c08074c134"
   },
   {
+    "path": "2026-11-08/assets/after-effects-assistant.jpg",
+    "bytes": 168039,
+    "sha256": "7a954565f1e9efdf43efa912705b3a2cad80b2848632ed6e9943ac6c12a343c9"
+  },
+  {
+    "path": "2026-11-08/assets/alexa-sms.jpg",
+    "bytes": 143466,
+    "sha256": "c8705c651f250a5b11bfc0a8113511c62a3a010a70ead76ef3eb1847bdfc43ce"
+  },
+  {
+    "path": "2026-11-08/assets/arduino-router.jpg",
+    "bytes": 63056,
+    "sha256": "d08c028c0d64c3715fa1ab4391613ea6905863d37559d7f1665995f4d2d9d32c"
+  },
+  {
+    "path": "2026-11-08/assets/atom-tianqiao.jpg",
+    "bytes": 11326,
+    "sha256": "d81a93cdc9f080ec64bb90f924885dc18d5ae8319c50f7907a177cdfbc9d37b7"
+  },
+  {
+    "path": "2026-11-08/assets/browser-control-mcp-beta23-flow.png",
+    "bytes": 106304,
+    "sha256": "8796a01ef628af67616868f2ae39350bcb768296a93bddaeb4398c745d013586"
+  },
+  {
+    "path": "2026-11-08/assets/cybersickness.jpg",
+    "bytes": 106493,
+    "sha256": "d5e6c354fb1e650ee41a963ad34c5f5fe180d06e94aeb7fc4d0e7a2e0b05653f"
+  },
+  {
+    "path": "2026-11-08/assets/deck.js",
+    "bytes": 2576,
+    "sha256": "63d13c06452d7405e0b5ed572d8464d802c9e5b8de656b5a94e3527b1730f7b3"
+  },
+  {
+    "path": "2026-11-08/assets/deepagents-0-7-34-flow.png",
+    "bytes": 109371,
+    "sha256": "c34e1bc45dc2af535b7e15115c2442e5ff23198896041277b55f7ac012d7b85e"
+  },
+  {
+    "path": "2026-11-08/assets/illustrator-icons.jpg",
+    "bytes": 120388,
+    "sha256": "9d0d945c2754742fb86a2fb982ff1542e6e4247c5ed4670004a33db85bc59f9d"
+  },
+  {
+    "path": "2026-11-08/assets/issue.css",
+    "bytes": 10323,
+    "sha256": "e2aad62eb7ee51f4ad64545f610e505d499f1c365784cf1b19baf9d593ba4c1a"
+  },
+  {
+    "path": "2026-11-08/assets/kicad-dashboard.png",
+    "bytes": 38761,
+    "sha256": "170362ba7903e0d8d3b3f28117e95a04f6f1915dcc65f6a978c63931ed63fdd2"
+  },
+  {
+    "path": "2026-11-08/assets/labos-lab.jpg",
+    "bytes": 136579,
+    "sha256": "ad881e1eebf4bc5961c0cd5959fb5339a82e3a8c2d1665633b3f7f2850432c35"
+  },
+  {
+    "path": "2026-11-08/assets/lumitac-control.jpg",
+    "bytes": 312173,
+    "sha256": "b3ebee6d35457b751a434963447803d7e4aedd252dc9e1afde10328f948be3e6"
+  },
+  {
+    "path": "2026-11-08/assets/oopsie-teaser.jpg",
+    "bytes": 50966,
+    "sha256": "fefa0547685452aecb666e368298eccb6484a300b09b64b83c9248ab3c5d5710"
+  },
+  {
+    "path": "2026-11-08/assets/perplexity-roles.jpg",
+    "bytes": 94506,
+    "sha256": "9337ae9f4c5af6d0e05518912a949b4d2d7a926cb86cf9fd52b5118ec7d906fc"
+  },
+  {
+    "path": "2026-11-08/assets/premiere-credits.jpg",
+    "bytes": 94041,
+    "sha256": "b7555d8fd78f5aea19c4bc7880ccfe986c1d684d1b6c155a2d7c7bced4eac6db"
+  },
+  {
+    "path": "2026-11-08/assets/pyrua-tasks.jpg",
+    "bytes": 154173,
+    "sha256": "5fabc87d89c932b0e77864d66be7c35ed61f7b09c90dafcc8586e68e35187154"
+  },
+  {
+    "path": "2026-11-08/assets/reviewmap.jpg",
+    "bytes": 139218,
+    "sha256": "49b863be88d07a58efe2424cc2422d038dd4538ef3999f351acce7b8a5f31b40"
+  },
+  {
+    "path": "2026-11-08/assets/semg-setup.jpg",
+    "bytes": 190414,
+    "sha256": "f9ede368c3af36fb4c9557ad503f164920efff4b3e9284a270002b7173aa0166"
+  },
+  {
+    "path": "2026-11-08/assets/snap-device.jpg",
+    "bytes": 296637,
+    "sha256": "0191128b05e4942c15e702d8caf1d5cb0325eb92fe82495f974c0a9b5bf73071"
+  },
+  {
+    "path": "2026-11-08/assets/sogni-intelligence-4-25-6-flow.png",
+    "bytes": 110174,
+    "sha256": "cc8f1b2e05b9651e7818d6b87eba2dc502907571494099748daca231f07619e8"
+  },
+  {
+    "path": "2026-11-08/assets/stm32-devboard.jpg",
+    "bytes": 36861,
+    "sha256": "911c31a75f53fe1dfb266dc03806d55695537a2931389bd20998bde4d37a4082"
+  },
+  {
+    "path": "2026-11-08/assets/three-live-hero.gif",
+    "bytes": 757967,
+    "sha256": "5a2e6be0c232588c8454d6474e6eff0e2ab5949b570f693d77fb91c169574ce3"
+  },
+  {
+    "path": "2026-11-08/assets/turnstone-ui.jpg",
+    "bytes": 43889,
+    "sha256": "889ee3fe438579e34849a472e355aaabc2926ace6211fb2fe4f55d032f40357c"
+  },
+  {
+    "path": "2026-11-08/assets/unity-game-developer.png",
+    "bytes": 339910,
+    "sha256": "a8fa22e3afc15864f86ecc86ebe29b36130712f7306f9ab6e80d820cb76af72d"
+  },
+  {
+    "path": "2026-11-08/assets/vive-app.jpg",
+    "bytes": 86893,
+    "sha256": "2307d7baa3afe06e689ed69a00cccbd3d30ddaee36f3f494cf807ee587f76ce0"
+  },
+  {
+    "path": "2026-11-08/assets/zella-editor.jpg",
+    "bytes": 150701,
+    "sha256": "215faa8953c1dc03523ec830a677aa32bb85b07d6e319e6ca731432725e29cb4"
+  },
+  {
+    "path": "2026-11-08/en/details/after-effects-27-assistant-rollout.html",
+    "bytes": 6585,
+    "sha256": "7e7deca707c3f2dfbc719f8c430617e9ae76a1ee0c95b263091fea0f5d5bb832"
+  },
+  {
+    "path": "2026-11-08/en/details/alexa-shopping-text.html",
+    "bytes": 6535,
+    "sha256": "3cc54b54708c01afb1c1c4d68c83c540d39502f137dc0b14184ea8d4000f74ee"
+  },
+  {
+    "path": "2026-11-08/en/details/arduino-routerbridge-ros-ventuno.html",
+    "bytes": 6609,
+    "sha256": "ea4f40e34cb5f9148a66052834eb6e6538880fc5f01cfb9852deb363dcbd6407"
+  },
+  {
+    "path": "2026-11-08/en/details/atomrobot-tianqiao-one.html",
+    "bytes": 5833,
+    "sha256": "b26e33799cabe589bc5231146cfd06272ee882d7bf886aa4ecc398b303a97c4a"
+  },
+  {
+    "path": "2026-11-08/en/details/browser-control-mcp-beta23.html",
+    "bytes": 6475,
+    "sha256": "dd407e794b866fb711480da248436f16c34f82e90f2b1161e20c0c8582e3e7b3"
+  },
+  {
+    "path": "2026-11-08/en/details/cybersickness-missing-modalities.html",
+    "bytes": 5937,
+    "sha256": "8b4915de263c8aaa6f16c714fa0376dbfb35479ac9867344f90472ea40ee4a89"
+  },
+  {
+    "path": "2026-11-08/en/details/deepagents-0-7-34.html",
+    "bytes": 7742,
+    "sha256": "41745b6ced35d893af7d0a25d0f168e8cbcd64cb8e31551f284aa2e635bbeac6"
+  },
+  {
+    "path": "2026-11-08/en/details/htc-vive-eagle-review-charging.html",
+    "bytes": 6254,
+    "sha256": "4d8a389dd452f567928e65245cf38c55973214ac4111bd492b05e2c5b976e13d"
+  },
+  {
+    "path": "2026-11-08/en/details/illustrator-icon-sheets.html",
+    "bytes": 6566,
+    "sha256": "a4eb874ea4ea23d65e8c0ef9853db91910b4575c7ef9b7360bf1ed2177d4b048"
+  },
+  {
+    "path": "2026-11-08/en/details/kicad-mcp-pro-4-9.html",
+    "bytes": 7537,
+    "sha256": "72c483800e960f2d6f5f423b9b545d81e7b57d823f9061a9f853d84d39f6da54"
+  },
+  {
+    "path": "2026-11-08/en/details/lumitac-six-axis-optical.html",
+    "bytes": 5804,
+    "sha256": "bae55313ce1894e7190bc9a1ee43b2f08e5de7cc1a12001cdf028d22f7e1eb5d"
+  },
+  {
+    "path": "2026-11-08/en/details/oopsierecover-semantic-corrections.html",
+    "bytes": 6048,
+    "sha256": "5b06fb0fbc390d3b9fb77f8091bb2cc4a155e0928121eafa976edc6e6eb1256a"
+  },
+  {
+    "path": "2026-11-08/en/details/perplexity-computer-nov6.html",
+    "bytes": 6073,
+    "sha256": "1f49e705811cf5feaff8242c5eeb2550dbccbc27135663fa71cb0891fd7dc635"
+  },
+  {
+    "path": "2026-11-08/en/details/premiere-remove-credit-update.html",
+    "bytes": 6728,
+    "sha256": "574000ffa1b507961f5f071b5cb3ed2ab9a1f690a2aea07325939db7f00467fd"
+  },
+  {
+    "path": "2026-11-08/en/details/pyrua-real-reusable-robot-programs.html",
+    "bytes": 6154,
+    "sha256": "81fc38712ea10e9072635920032090355e83704d63a2857d316426f26acd62a5"
+  },
+  {
+    "path": "2026-11-08/en/details/reviewmap-evaluative-acts.html",
+    "bytes": 5922,
+    "sha256": "f010cbfdcadfa08e4efafc4cb8c452932ce96812e6a501a7a3b40b257a3ce59f"
+  },
+  {
+    "path": "2026-11-08/en/details/sage-labos-lnp-workflow.html",
+    "bytes": 6155,
+    "sha256": "43504c013d70ba3e422be250a1c083dd32a3e55d15320842a44c0f2f2db8c35c"
+  },
+  {
+    "path": "2026-11-08/en/details/semg-trajectory-prescription.html",
+    "bytes": 5987,
+    "sha256": "2f01ef1841457c2c26f65666279b7e5bfe2f84d85e7341e859d3568ab596e7d4"
+  },
+  {
+    "path": "2026-11-08/en/details/snap-specs-workplace-hands-on.html",
+    "bytes": 5775,
+    "sha256": "5910082c5c8787b2e7966650045acc5daf71f62a32bd92057ca37275c5ad3f80"
+  },
+  {
+    "path": "2026-11-08/en/details/sogni-intelligence-4-25-6.html",
+    "bytes": 9459,
+    "sha256": "ae36cb592a9ffde953bff6be2fa31962fc6ba7ffb12154d728461fe2ad7f30cb"
+  },
+  {
+    "path": "2026-11-08/en/details/stm32h7p-local-control-npu.html",
+    "bytes": 6773,
+    "sha256": "dc312d7caf6abed161ed37fcb73592d19e601b4cda807d38b085609e15d5389d"
+  },
+  {
+    "path": "2026-11-08/en/details/three-live-1-3-2.html",
+    "bytes": 6130,
+    "sha256": "7a8d19c8dcffc29a7c2cfacd8981bae7d81cd7ca31c2fc530f120d971ac0eef1"
+  },
+  {
+    "path": "2026-11-08/en/details/turnstone-fallback-priority.html",
+    "bytes": 6515,
+    "sha256": "fb59229d48163f71611e0f93cbdf03d79c3402ac5ed4308e26ec212e0f42d0f2"
+  },
+  {
+    "path": "2026-11-08/en/details/unity-mcp-1-8.html",
+    "bytes": 7939,
+    "sha256": "a562851a96f7c3c0b8447122c4effba92a82a441d0fab8336937aa236fc92676"
+  },
+  {
+    "path": "2026-11-08/en/details/zella-export-recovery.html",
+    "bytes": 5547,
+    "sha256": "914fb6c98bee30612ad2b10e22862e5c4f8ff1c2748f204d4166af0383d7a7e2"
+  },
+  {
+    "path": "2026-11-08/en/index.html",
+    "bytes": 77341,
+    "sha256": "8cc0d5aff5f4f50f0e0e3999081a4c97a112278017163e56e562cbd6c82dc53b"
+  },
+  {
+    "path": "2026-11-08/manifest.json",
+    "bytes": 29105,
+    "sha256": "bbb973e2bb1249837cf1cc04e3012dcfc285642b318fc4c2fe223d52a5dd2bb4"
+  },
+  {
+    "path": "2026-11-08/sources.html",
+    "bytes": 50763,
+    "sha256": "edd09a37c3e9ff0b2ee66c243c30194a635c963367a240a610dce96e21ee6bba"
+  },
+  {
+    "path": "2026-11-08/sources.json",
+    "bytes": 21387,
+    "sha256": "23ee06b1980d56644747ec1cc7a6122d04c29fa3ff9d44833dae553bea7e79fb"
+  },
+  {
+    "path": "2026-11-08/visuals.json",
+    "bytes": 18467,
+    "sha256": "0d7c66b40d002676e5217bff15da3f87589b0c018f76bb7a7519fb540c5638cd"
+  },
+  {
+    "path": "2026-11-08/zh/details/after-effects-27-assistant-rollout.html",
+    "bytes": 6059,
+    "sha256": "8bbe7a0064b2a4ecb6920ce958a34e7f4e4074b0820d271389c00cf1adef95ef"
+  },
+  {
+    "path": "2026-11-08/zh/details/alexa-shopping-text.html",
+    "bytes": 5991,
+    "sha256": "52976a8e4058a02959e7a84bf0dd3a765293d80ce391ec0e0276a28205f984e7"
+  },
+  {
+    "path": "2026-11-08/zh/details/arduino-routerbridge-ros-ventuno.html",
+    "bytes": 6151,
+    "sha256": "bab988ae0aed7fec2d18040cf2a9f5be5a3e1b08682c5ecf5ff5e0a894bdff31"
+  },
+  {
+    "path": "2026-11-08/zh/details/atomrobot-tianqiao-one.html",
+    "bytes": 5332,
+    "sha256": "4289b2aef7e563d7fcbace819f33502bdfe5f805616428cd027813abfe4d8733"
+  },
+  {
+    "path": "2026-11-08/zh/details/browser-control-mcp-beta23.html",
+    "bytes": 5986,
+    "sha256": "4611d7060bf2c4f50994264a229a5d71ec1af4f57fcf5c9fbcf7bf46b060bb40"
+  },
+  {
+    "path": "2026-11-08/zh/details/cybersickness-missing-modalities.html",
+    "bytes": 5051,
+    "sha256": "4715d4a6f08a0406d0de0208c0edac4383dc7cb854d995b43fca58cf7c8319e7"
+  },
+  {
+    "path": "2026-11-08/zh/details/deepagents-0-7-34.html",
+    "bytes": 7233,
+    "sha256": "5c6a996aa7c0d6b8080f3447534ed8acdf8770bdfcdfe42b4a0eac5844467740"
+  },
+  {
+    "path": "2026-11-08/zh/details/htc-vive-eagle-review-charging.html",
+    "bytes": 5855,
+    "sha256": "75c8ba5268d4f168abd62f49e533f2f59992a65d507a18ce451c0bd70502c65f"
+  },
+  {
+    "path": "2026-11-08/zh/details/illustrator-icon-sheets.html",
+    "bytes": 6130,
+    "sha256": "4f6ab66f032cadf8c7e724e4e8d06af0429a8193f331b1e16355a7036ec6444a"
+  },
+  {
+    "path": "2026-11-08/zh/details/kicad-mcp-pro-4-9.html",
+    "bytes": 6943,
+    "sha256": "a9f7bc2dcc4c324202d58206632e91ae4fade9068fa079bd5a757671926b38fc"
+  },
+  {
+    "path": "2026-11-08/zh/details/lumitac-six-axis-optical.html",
+    "bytes": 5045,
+    "sha256": "e7f47bb110634087020f11d3c3eb69a9dc7ca5faa8354bce9f0780a3cba72eda"
+  },
+  {
+    "path": "2026-11-08/zh/details/oopsierecover-semantic-corrections.html",
+    "bytes": 5298,
+    "sha256": "6cdfdea6736e03aa34ff644699545ec72988efe6c1281147b27064eb8700d5bf"
+  },
+  {
+    "path": "2026-11-08/zh/details/perplexity-computer-nov6.html",
+    "bytes": 5674,
+    "sha256": "a60cc95e51cb7add0bde5181d0bbfa673e9d33bf0699dada8376a0a5b520a109"
+  },
+  {
+    "path": "2026-11-08/zh/details/premiere-remove-credit-update.html",
+    "bytes": 6270,
+    "sha256": "67f1c037d6656631282e69c88a5076809e999130883c289065201cdf7a3790e9"
+  },
+  {
+    "path": "2026-11-08/zh/details/pyrua-real-reusable-robot-programs.html",
+    "bytes": 5466,
+    "sha256": "a09059ab3ff83d443ae6430f0a6cfd1f1a488dde544d3e06850cbaadc44fbb62"
+  },
+  {
+    "path": "2026-11-08/zh/details/reviewmap-evaluative-acts.html",
+    "bytes": 5132,
+    "sha256": "24382e514b1f780f1b4a265e004347c9330d6be15dc79e8138b462bbd7bf2af6"
+  },
+  {
+    "path": "2026-11-08/zh/details/sage-labos-lnp-workflow.html",
+    "bytes": 5522,
+    "sha256": "2cd7085c73fbff669eef03b6b007779a6945995796a5535aff39ed70a47940e1"
+  },
+  {
+    "path": "2026-11-08/zh/details/semg-trajectory-prescription.html",
+    "bytes": 5189,
+    "sha256": "fe90883e02db03e4bf2dfbfc96223e068ce2b70bb64236bdbf6e0a78b3d75f62"
+  },
+  {
+    "path": "2026-11-08/zh/details/snap-specs-workplace-hands-on.html",
+    "bytes": 5335,
+    "sha256": "8f879f049ab67afe8172f6351399a3a91d5fa29bc78c722652cb517e50ae1092"
+  },
+  {
+    "path": "2026-11-08/zh/details/sogni-intelligence-4-25-6.html",
+    "bytes": 8906,
+    "sha256": "e90fd6f74238ef487d716d4a9051402b34c8998d0c0dd54974da6c0d7be3ab6e"
+  },
+  {
+    "path": "2026-11-08/zh/details/stm32h7p-local-control-npu.html",
+    "bytes": 6405,
+    "sha256": "44aac69da30b2b2a53ac41d8e0fee0ca47aab07d4a2639acc18b3acffab13421"
+  },
+  {
+    "path": "2026-11-08/zh/details/three-live-1-3-2.html",
+    "bytes": 5736,
+    "sha256": "ac6a01921f152cc6010249cf3aa2b6f50e26af2f8e4aab249ed8de603057c622"
+  },
+  {
+    "path": "2026-11-08/zh/details/turnstone-fallback-priority.html",
+    "bytes": 5814,
+    "sha256": "6e7cb106235c90279033b3440c7ccd2ea87a196240637e2d7131b067ac30695f"
+  },
+  {
+    "path": "2026-11-08/zh/details/unity-mcp-1-8.html",
+    "bytes": 7462,
+    "sha256": "92c0d569a2913db0b1fd34271fa70f916fa827fcef7e264161d60232a8bac83f"
+  },
+  {
+    "path": "2026-11-08/zh/details/zella-export-recovery.html",
+    "bytes": 5063,
+    "sha256": "87c56a42e5aa9bd27ab30d9e6cbd1eb847fc1606aca2a9b0e46cde39cb5808c2"
+  },
+  {
+    "path": "2026-11-08/zh/index.html",
+    "bytes": 74199,
+    "sha256": "096b43105688cb16c1326ebfad004d7ca661dc14cafc46cc249dfc9f2828f5a9"
+  },
+  {
     "path": "assets/acti-agentic-keyboard-2026-07-03.svg",
     "bytes": 2825,
     "sha256": "84ad9abb0a1191abde62dea383e6e1ed583fc089073d3ccaf91629044501721b"
@@ -9896,18 +10311,18 @@
   },
   {
     "path": "en/index.html",
-    "bytes": 179770,
-    "sha256": "f19134ee2de5f17a01cfe85dc7def929ff6e30dc9d15a1255b0920e023be15ac"
+    "bytes": 180921,
+    "sha256": "2ad1752b047331b34b04f06f4cafa8c1928f2f39706a25813f09fdcfe788d02d"
   },
   {
     "path": "index.html",
-    "bytes": 173580,
-    "sha256": "69a51d6b64f19768b6921832c28429ef192fb4bf9dbc3a5d8619c0994b6743c8"
+    "bytes": 174706,
+    "sha256": "45ccc6c56752b0d0b3d1d470552689b6b2d8eee699bd7b8bdc992c39ce6318ce"
   },
   {
     "path": "manifest.json",
-    "bytes": 752258,
-    "sha256": "a078ccef4d47a5f40088a16d297db4daf0eb1fe2c788fea5715e0e21f2695ad9"
+    "bytes": 753480,
+    "sha256": "d2a76d3faac33a76d7d225327b7657328aad8c5ffb4074ee4939b5889d0887b1"
   },
   {
     "path": "weekly/2026-10-12/pilot/en/index.html",

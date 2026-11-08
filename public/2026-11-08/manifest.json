@@ -1,0 +1,646 @@
+{
+  "date": "2026-11-08",
+  "timezone": "America/Toronto",
+  "cutoff": "2026-11-08T09:06:48Z",
+  "windowStart": "2026-11-07T09:06:48Z",
+  "metrics": {
+    "body": {
+      "zhDenseChars": 17821,
+      "enWords": 10541
+    },
+    "perProduct": {
+      "zella-export-recovery": {
+        "zh": 650,
+        "en": 426
+      },
+      "alexa-shopping-text": {
+        "zh": 704,
+        "en": 431
+      },
+      "htc-vive-eagle-review-charging": {
+        "zh": 753,
+        "en": 420
+      },
+      "snap-specs-workplace-hands-on": {
+        "zh": 738,
+        "en": 417
+      },
+      "turnstone-fallback-priority": {
+        "zh": 701,
+        "en": 425
+      },
+      "after-effects-27-assistant-rollout": {
+        "zh": 742,
+        "en": 420
+      },
+      "premiere-remove-credit-update": {
+        "zh": 707,
+        "en": 421
+      },
+      "illustrator-icon-sheets": {
+        "zh": 734,
+        "en": 433
+      },
+      "three-live-1-3-2": {
+        "zh": 676,
+        "en": 420
+      },
+      "kicad-mcp-pro-4-9": {
+        "zh": 683,
+        "en": 417
+      },
+      "unity-mcp-1-8": {
+        "zh": 684,
+        "en": 421
+      },
+      "sogni-intelligence-4-25-6": {
+        "zh": 699,
+        "en": 431
+      },
+      "browser-control-mcp-beta23": {
+        "zh": 714,
+        "en": 420
+      },
+      "deepagents-0-7-34": {
+        "zh": 733,
+        "en": 435
+      },
+      "perplexity-computer-nov6": {
+        "zh": 727,
+        "en": 420
+      },
+      "arduino-routerbridge-ros-ventuno": {
+        "zh": 691,
+        "en": 412
+      },
+      "stm32h7p-local-control-npu": {
+        "zh": 753,
+        "en": 402
+      },
+      "atomrobot-tianqiao-one": {
+        "zh": 761,
+        "en": 414
+      },
+      "sage-labos-lnp-workflow": {
+        "zh": 716,
+        "en": 403
+      },
+      "pyrua-real-reusable-robot-programs": {
+        "zh": 720,
+        "en": 410
+      },
+      "oopsierecover-semantic-corrections": {
+        "zh": 720,
+        "en": 425
+      },
+      "lumitac-six-axis-optical": {
+        "zh": 687,
+        "en": 428
+      },
+      "semg-trajectory-prescription": {
+        "zh": 714,
+        "en": 426
+      },
+      "cybersickness-missing-modalities": {
+        "zh": 704,
+        "en": 437
+      },
+      "reviewmap-evaluative-acts": {
+        "zh": 710,
+        "en": 427
+      }
+    },
+    "primarySummaries": {
+      "zella-export-recovery": {
+        "zh": 130,
+        "en": 89
+      },
+      "alexa-shopping-text": {
+        "zh": 165,
+        "en": 98
+      },
+      "htc-vive-eagle-review-charging": {
+        "zh": 156,
+        "en": 85
+      },
+      "snap-specs-workplace-hands-on": {
+        "zh": 155,
+        "en": 87
+      },
+      "turnstone-fallback-priority": {
+        "zh": 157,
+        "en": 87
+      },
+      "after-effects-27-assistant-rollout": {
+        "zh": 135,
+        "en": 83
+      },
+      "premiere-remove-credit-update": {
+        "zh": 116,
+        "en": 84
+      },
+      "illustrator-icon-sheets": {
+        "zh": 124,
+        "en": 83
+      },
+      "three-live-1-3-2": {
+        "zh": 126,
+        "en": 92
+      },
+      "kicad-mcp-pro-4-9": {
+        "zh": 133,
+        "en": 89
+      },
+      "unity-mcp-1-8": {
+        "zh": 134,
+        "en": 84
+      },
+      "sogni-intelligence-4-25-6": {
+        "zh": 125,
+        "en": 90
+      },
+      "browser-control-mcp-beta23": {
+        "zh": 131,
+        "en": 80
+      },
+      "deepagents-0-7-34": {
+        "zh": 151,
+        "en": 91
+      },
+      "perplexity-computer-nov6": {
+        "zh": 142,
+        "en": 85
+      },
+      "arduino-routerbridge-ros-ventuno": {
+        "zh": 139,
+        "en": 86
+      },
+      "stm32h7p-local-control-npu": {
+        "zh": 170,
+        "en": 95
+      },
+      "atomrobot-tianqiao-one": {
+        "zh": 155,
+        "en": 85
+      },
+      "sage-labos-lnp-workflow": {
+        "zh": 135,
+        "en": 74
+      },
+      "pyrua-real-reusable-robot-programs": {
+        "zh": 172,
+        "en": 84
+      },
+      "oopsierecover-semantic-corrections": {
+        "zh": 190,
+        "en": 93
+      },
+      "lumitac-six-axis-optical": {
+        "zh": 158,
+        "en": 84
+      },
+      "semg-trajectory-prescription": {
+        "zh": 162,
+        "en": 89
+      },
+      "cybersickness-missing-modalities": {
+        "zh": 157,
+        "en": 73
+      },
+      "reviewmap-evaluative-acts": {
+        "zh": 152,
+        "en": 76
+      }
+    },
+    "counting": "Only unique full-analysis product paragraphs count toward body gates; summaries, captions, coverage and sources excluded.",
+    "products": 25,
+    "references": 78,
+    "coreVisuals": 25,
+    "slidesPerLocale": 28,
+    "primaryProjectPages": 25,
+    "attachedProjectDetails": 25,
+    "primaryBody": {
+      "zhDenseChars": 3670,
+      "enWords": 2146
+    },
+    "completeReadingBody": {
+      "zhDenseChars": 21491,
+      "enWords": 12687
+    }
+  },
+  "revision": {
+    "label": "morning-edition",
+    "originalCutoffRetained": true,
+    "newIssue": true,
+    "baselineCommit": "3a61ca5120577a78aaaca0161a86de6b0bb297ea"
+  },
+  "topics": [
+    {
+      "id": "zella-export-recovery",
+      "zhHeadline": "Zella修复变速片段导出卡死，剪完的视频更容易真正交付",
+      "enHeadline": "Zella fixes exports stalled by sped-up clips and makes lack of progress visible",
+      "eventAt": "2026-11-07",
+      "freshness": "near-three-day",
+      "evidence": "Vendor documentation; no independent hands-on",
+      "eventDateNote": "date only; clock/timezone not exposed; conservative supplemental classification",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "zella-export-recovery-2026-11-07",
+      "product_key": "zella-export-recovery",
+      "publishedAt": "2026-11-07",
+      "observedAt": "2026-11-08T09:16:35.611741Z",
+      "delta_since_last_seen": "Mac 1.0.11, dated November 7, fixes stalled exports involving sped-up sections and reports when progress stops."
+    },
+    {
+      "id": "alexa-shopping-text",
+      "zhHeadline": "Alexa把补货和选礼物接进短信，先从美国受邀用户开放",
+      "enHeadline": "Alexa brings restocking and gift shopping into texts for invited US customers",
+      "eventAt": "2026-11-06",
+      "freshness": "near-three-day",
+      "evidence": "Vendor documentation; no independent hands-on",
+      "eventDateNote": "date only; clock/timezone not exposed; conservative supplemental classification",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "alexa-shopping-text-2026-11-06",
+      "product_key": "alexa-shopping-text",
+      "publishedAt": "2026-11-06",
+      "observedAt": "2026-11-08T09:16:35.611741Z",
+      "delta_since_last_seen": "The November 6 invitation rollout adds a texting surface to existing shopping capabilities, with broader access planned over coming weeks."
+    },
+    {
+      "id": "htc-vive-eagle-review-charging",
+      "zhHeadline": "VIVE Eagle把AI入口放在镜腿，收进眼镜盒却不会顺便充电",
+      "enHeadline": "VIVE Eagle makes AI easy to reach, but putting it away does not recharge it",
+      "eventAt": "2026-11-06",
+      "freshness": "near-three-day",
+      "evidence": "Original source bodies read; independent reviewer observations attributed; no editor hands-on",
+      "eventDateNote": "Source calendar date only; exact clock and timezone unconfirmed",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "htc-vive-eagle-review-charging-2026-11-06",
+      "product_key": "htc-vive-eagle-review-charging",
+      "publishedAt": "2026-11-06",
+      "observedAt": "2026-11-08T09:14:00Z",
+      "delta_since_last_seen": "The reviewer liked responsive controls but repeatedly forgot the magnetic cable; the ordinary case does not charge."
+    },
+    {
+      "id": "snap-specs-workplace-hands-on",
+      "zhHeadline": "Snap Specs把文档键盘放进视野，长时间办公是否舒服仍待验证",
+      "enHeadline": "Snap Specs puts a document keyboard in view; sustained work remains unproven",
+      "eventAt": "2026-11-07",
+      "freshness": "near-three-day",
+      "evidence": "Original source bodies read; independent reviewer observations attributed; no editor hands-on",
+      "eventDateNote": "Source calendar date only; exact clock and timezone unconfirmed",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "snap-specs-workplace-hands-on-2026-11-07",
+      "product_key": "snap-specs-workplace-hands-on",
+      "publishedAt": "2026-11-07",
+      "observedAt": "2026-11-08T09:14:00Z",
+      "delta_since_last_seen": "The official page lists a 51-degree field of view and dual chips; the $2,195 product remains on preorder, with cellular-case options extra."
+    },
+    {
+      "id": "turnstone-fallback-priority",
+      "zhHeadline": "Turnstone让用户决定模型接替顺序，额度耗尽后不用重建对话",
+      "enHeadline": "Turnstone lets users choose which model takes over when an AI connection becomes unavailable",
+      "eventAt": "2026-11-07",
+      "freshness": "near-three-day",
+      "evidence": "Vendor documentation; no independent hands-on",
+      "eventDateNote": "date only; clock/timezone not exposed; conservative supplemental classification",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "turnstone-fallback-priority-2026-11-07",
+      "product_key": "turnstone-fallback-priority",
+      "publishedAt": "2026-11-07",
+      "observedAt": "2026-11-08T09:18:36.494766Z",
+      "delta_since_last_seen": "Version 0.8.7, dated November 7, adds fallback priorities, expandable tables and direct editing of working rules."
+    },
+    {
+      "id": "after-effects-27-assistant-rollout",
+      "zhHeadline": "After Effects 27开始推出，助手能整理工程和修表达式，撤销仍按步骤进行",
+      "enHeadline": "After Effects 27 rolls out with an assistant for project cleanup and expressions",
+      "eventAt": "2026-11-07T05:15:00Z",
+      "freshness": "near-three-day",
+      "evidence": "Official release and documentation; no hands-on testing",
+      "eventDateNote": "minute; original Adobe community timestamp explicitly UTC",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "after-effects-27-assistant-rollout-2026-11-07T05:15:00Z",
+      "product_key": "after-effects-27-assistant-rollout",
+      "publishedAt": "2026-11-07T05:15:00Z",
+      "observedAt": "2026-11-08T09:22:06.436115+00:00",
+      "delta_since_last_seen": "Staged rollout began November 7. The assistant previously existed in beta; full release materials are promised for November 10."
+    },
+    {
+      "id": "premiere-remove-credit-update",
+      "zhHeadline": "Premiere移除杂物前能看积分，助手的整段请求却要运行后才知道用量",
+      "enHeadline": "Premiere shows removal cost upfront, while assistant requests are metered afterward",
+      "eventAt": "2026-11-06T09:21:00Z",
+      "freshness": "near-three-day",
+      "evidence": "Official release and documentation; no hands-on testing",
+      "eventDateNote": "minute; Adobe community timestamps explicitly UTC",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "premiere-remove-credit-update-2026-11-06T09:21:00Z",
+      "product_key": "premiere-remove-credit-update",
+      "publishedAt": "2026-11-06T09:21:00Z",
+      "observedAt": "2026-11-08T09:22:06.436115+00:00",
+      "delta_since_last_seen": "From November 6, the assistant replaces free daily and weekly limits with plan-based Firefly credits."
+    },
+    {
+      "id": "illustrator-icon-sheets",
+      "zhHeadline": "Illustrator把一组图标生成成可改矢量，风格一致之外还要检查识别度",
+      "enHeadline": "Illustrator generates editable icon families, with recognition still left to the designer",
+      "eventAt": "2026-11-04T04:44:00Z",
+      "freshness": "seven-day",
+      "evidence": "Official release and documentation; no hands-on testing",
+      "eventDateNote": "minute; official Adobe community timestamp explicitly UTC",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "illustrator-icon-sheets-2026-11-04T04:44:00Z",
+      "product_key": "illustrator-icon-sheets",
+      "publishedAt": "2026-11-04T04:44:00Z",
+      "observedAt": "2026-11-08T09:23:24.563620+00:00",
+      "delta_since_last_seen": "Added November 4 in Illustrator beta 31.1.49, it currently requires the English beta."
+    },
+    {
+      "id": "three-live-1-3-2",
+      "zhHeadline": "Three-Live把3D场景塞进分享链接，手机扫码后再检查原生输出",
+      "enHeadline": "Three-Live puts a 3D scene in a share link, with native outputs ready to inspect",
+      "eventAt": "2026-11-08T02:24:37Z",
+      "freshness": "main",
+      "evidence": "Original release, repository documentation and linked implementation discussion; no independent execution test",
+      "eventDateNote": "second; GitHub release published_at UTC",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "three-live-1-3-2-2026-11-08",
+      "product_key": "three-live-1-3-2",
+      "publishedAt": "2026-11-08T02:24:37Z",
+      "observedAt": "2026-11-08T09:14:00Z",
+      "delta_since_last_seen": "Native Outputs lists mesh counts, GLB/USDZ sizes and Android, iOS and web integration snippets."
+    },
+    {
+      "id": "kicad-mcp-pro-4-9",
+      "zhHeadline": "KiCad MCP Pro让新旧本地服务并行，升级时不用先杀掉旧进程",
+      "enHeadline": "KiCad MCP Pro can start the matching backend without killing an older service",
+      "eventAt": "2026-11-07T14:37:41Z",
+      "freshness": "main",
+      "evidence": "Original release, repository documentation and linked implementation discussion; no independent execution test",
+      "eventDateNote": "second; GitHub release published_at UTC",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "kicad-mcp-pro-4-9-2026-11-07",
+      "product_key": "kicad-mcp-pro-4-9",
+      "publishedAt": "2026-11-07T14:37:41Z",
+      "observedAt": "2026-11-08T09:14:00Z",
+      "delta_since_last_seen": "The dashboard address and diagnostic command follow that selection. An occupied fallback port produces an explicit failure."
+    },
+    {
+      "id": "unity-mcp-1-8",
+      "zhHeadline": "Unity MCP把Cloud与本地模式说清楚，避免守着错误地址等连接",
+      "enHeadline": "Unity MCP explains Cloud versus local mode before a connection times out",
+      "eventAt": "2026-11-08T04:39:13Z",
+      "freshness": "main",
+      "evidence": "Original release, repository documentation and linked implementation discussion; no independent execution test",
+      "eventDateNote": "second; GitHub release published_at UTC",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "unity-mcp-1-8-2026-11-08",
+      "product_key": "unity-mcp-1-8",
+      "publishedAt": "2026-11-08T04:39:13Z",
+      "observedAt": "2026-11-08T09:14:00Z",
+      "delta_since_last_seen": "It addresses a reported case where a localhost configuration still connected to Cloud and timed out."
+    },
+    {
+      "id": "sogni-intelligence-4-25-6",
+      "zhHeadline": "Sogni修正视频选区的尺寸传递，遮罩不再套用生成视频的缩放规则",
+      "enHeadline": "Sogni keeps selection masks aligned with the source video’s geometry",
+      "eventAt": "2026-11-08T00:02:53Z",
+      "freshness": "main",
+      "evidence": "Original release, repository documentation and linked implementation discussion; no independent execution test",
+      "eventDateNote": "second; GitHub release published_at UTC",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "sogni-intelligence-4-25-6-2026-11-08",
+      "product_key": "sogni-intelligence-4-25-6",
+      "publishedAt": "2026-11-08T00:02:53Z",
+      "observedAt": "2026-11-08T09:20:00Z",
+      "delta_since_last_seen": "Version 4.25.5 separates selection geometry from generation sizing; 4.25.6 carries ordered GIF references through its dependency."
+    },
+    {
+      "id": "browser-control-mcp-beta23",
+      "zhHeadline": "browser-control-mcp录下标签页操作，也让浏览器连接对象更明确",
+      "enHeadline": "browser-control-mcp records a tab while making browser ownership explicit",
+      "eventAt": "2026-11-07T19:32:18Z",
+      "freshness": "main",
+      "evidence": "Original release, repository documentation and linked implementation discussion; no independent execution test",
+      "eventDateNote": "second; GitHub release published_at UTC",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "browser-control-mcp-beta23-2026-11-07",
+      "product_key": "browser-control-mcp-beta23",
+      "publishedAt": "2026-11-07T19:32:18Z",
+      "observedAt": "2026-11-08T09:14:00Z",
+      "delta_since_last_seen": "Without a port it launches its own Chrome; an explicit port selects an attachment path."
+    },
+    {
+      "id": "deepagents-0-7-34",
+      "zhHeadline": "DeepAgents把模型拒绝与任务成功分开，压缩边界也不再只靠位置",
+      "enHeadline": "DeepAgents separates model refusal from success and anchors compaction to a message",
+      "eventAt": "2026-11-05T21:15:33Z",
+      "freshness": "near-three-day",
+      "evidence": "Original release, repository documentation and linked implementation discussion; no independent execution test",
+      "eventDateNote": "second; GitHub release published_at UTC",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "deepagents-0-7-34-2026-11-05",
+      "product_key": "deepagents-0-7-34",
+      "publishedAt": "2026-11-05T21:15:33Z",
+      "observedAt": "2026-11-08T09:14:00Z",
+      "delta_since_last_seen": "Version 0.7.34 anchors the retained-history boundary to a message ID, reducing positional drift after earlier edits."
+    },
+    {
+      "id": "perplexity-computer-nov6",
+      "zhHeadline": "Perplexity给长期任务配队友，排队指令与角色额度决定怎样接手",
+      "enHeadline": "Perplexity adds standing teammates, queued instructions and role-level controls",
+      "eventAt": "2026-11-06",
+      "freshness": "near-three-day",
+      "evidence": "Official release and documentation; no hands-on testing",
+      "eventDateNote": "day; timezone and original announcement clock unverified",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "perplexity-computer-nov6-2026-11-06",
+      "product_key": "perplexity-computer-nov6",
+      "publishedAt": "2026-11-06",
+      "observedAt": "2026-11-08T09:16:53.799738+00:00",
+      "delta_since_last_seen": "Follow-up messages can wait until the current turn finishes, with edit, delete and send-now controls."
+    },
+    {
+      "id": "arduino-routerbridge-ros-ventuno",
+      "zhHeadline": "Arduino把传感器接进ROS话题，Linux代理节点仍要运行",
+      "enHeadline": "Arduino connects sensor readings to ROS topics, with a Linux proxy still required",
+      "eventAt": "2026-11-06",
+      "freshness": "near-three-day",
+      "evidence": "Original source bodies read; independent reviewer observations attributed; no editor hands-on",
+      "eventDateNote": "Source calendar date only; exact clock and timezone unconfirmed",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "arduino-routerbridge-ros-ventuno-2026-11-06",
+      "product_key": "arduino-routerbridge-ros-ventuno",
+      "publishedAt": "2026-11-06",
+      "observedAt": "2026-11-08T09:14:00Z",
+      "delta_since_last_seen": "Examples include IMU data and motion commands. This is interface software, not a new sensor or autonomous-driving capability."
+    },
+    {
+      "id": "stm32h7p-local-control-npu",
+      "zhHeadline": "STM32H7P把信号处理和小模型留在控制板上，开发板仍待交付",
+      "enHeadline": "STM32H7P adds signal processing and small-model inference to control boards; kits are still forthcoming",
+      "eventAt": "2026-11-03",
+      "freshness": "seven-day",
+      "evidence": "Original source bodies read; independent reviewer observations attributed; no editor hands-on",
+      "eventDateNote": "Source calendar date only; exact clock and timezone unconfirmed",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "stm32h7p-local-control-npu-2026-11-03",
+      "product_key": "stm32h7p-local-control-npu",
+      "publishedAt": "2026-11-03",
+      "observedAt": "2026-11-08T09:14:00Z",
+      "delta_since_last_seen": "It expands computation on a control board, not a general AI computer or a demonstrated new consumer device."
+    },
+    {
+      "id": "atomrobot-tianqiao-one",
+      "zhHeadline": "天巧一号用七自由度与六处触觉感知，把对捏和力控交给整机开发者",
+      "enHeadline": "Tianqiao One combines seven degrees of freedom with six touch sensors for robot integrators",
+      "eventAt": "2026-11-05",
+      "freshness": "seven-day",
+      "evidence": "Original author/vendor sources; no independent hands-on replication",
+      "eventDateNote": "date only; publication timezone unknown",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "atomrobot-tianqiao-one-2026-11-05",
+      "product_key": "atomrobot-tianqiao-one",
+      "publishedAt": "2026-11-05",
+      "observedAt": "2026-11-08T09:17:50.138679+00:00",
+      "delta_since_last_seen": "The hand ships with its control framework and position/compliant-force modes; seven degrees of freedom do not mean independently driven joints throughout."
+    },
+    {
+      "id": "sage-labos-lnp-workflow",
+      "zhHeadline": "天枢把实验任务接到仪器与转运机器人，结果按样品送回下一轮",
+      "enHeadline": "Sage LabOS connects instruments and sample handling, returning results to the next experiment",
+      "eventAt": "2026-11-06",
+      "freshness": "near-three-day",
+      "evidence": "Original author/vendor sources; no independent hands-on replication",
+      "eventDateNote": "date only; publication timezone unknown",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "sage-labos-lnp-workflow-2026-11-06",
+      "product_key": "sage-labos-lnp-workflow",
+      "publishedAt": "2026-11-06",
+      "observedAt": "2026-11-08T09:13:29.511228+00:00",
+      "delta_since_last_seen": "The Lingang collaboration reports five rounds and 335 LNP formulations, with encapsulation increasing from 67% to 98%."
+    },
+    {
+      "id": "pyrua-real-reusable-robot-programs",
+      "zhHeadline": "PyRUA-REAL把现场试错留下为程序，插网线仍需要在线代理介入",
+      "enHeadline": "PyRUA-REAL retains physical trials as programs, while cable insertion still needs online help",
+      "eventAt": "2026-11-04T16:46:03Z",
+      "freshness": "seven-day",
+      "evidence": "Original author/vendor sources; no independent hands-on replication",
+      "eventDateNote": "UTC arXiv submission, public announcement clock unverified",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "pyrua-real-reusable-robot-programs-2026-11-04",
+      "product_key": "pyrua-real-reusable-robot-programs",
+      "publishedAt": "2026-11-04T16:46:03Z",
+      "observedAt": "2026-11-08T09:13:29.511228+00:00",
+      "delta_since_last_seen": "Eight physical tasks study development; the reported 91.1% across revisions is not the reliability of one final program."
+    },
+    {
+      "id": "oopsierecover-semantic-corrections",
+      "zhHeadline": "OopsieRecover把人接管机器人的理由留下来，下一次遇到相似错误再调用",
+      "enHeadline": "OopsieRecover retains the reason for a robot correction and applies it when the same problem returns",
+      "eventAt": "2026-11-05T18:53:16Z",
+      "freshness": "near-three-day",
+      "evidence": "Author research and reported experiments; no independent replication or shipped-product claim",
+      "eventDateNote": "second; arXiv submission timestamp, not verified public-announcement clock",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "oopsierecover-semantic-corrections-2026-11-05",
+      "product_key": "oopsierecover-semantic-corrections",
+      "publishedAt": "2026-11-05T18:53:16Z",
+      "observedAt": "2026-11-08T09:13:03Z",
+      "delta_since_last_seen": "The base VLA remains frozen. Real-robot tasks use three to six semantic interventions, with tests across changed positions and scenes."
+    },
+    {
+      "id": "lumitac-six-axis-optical",
+      "zhHeadline": "LumiTac用彩色光读出推压和扭转，把小触点变成六轴机器人输入",
+      "enHeadline": "LumiTac reads pushes and twists through light, giving a small contact surface six-axis input",
+      "eventAt": "2026-11-04T04:24:45Z",
+      "freshness": "seven-day",
+      "evidence": "Author research and reported experiments; no independent replication or shipped-product claim",
+      "eventDateNote": "second; arXiv submission timestamp, not verified public-announcement clock",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "lumitac-six-axis-optical-2026-11-04",
+      "product_key": "lumitac-six-axis-optical",
+      "publishedAt": "2026-11-04T04:24:45Z",
+      "observedAt": "2026-11-08T09:13:03Z",
+      "delta_since_last_seen": "It is camera-free, 4.75 mm thick and under 2 g. About $7 refers to estimated components only."
+    },
+    {
+      "id": "semg-trajectory-prescription",
+      "zhHeadline": "肌电目标先给定，模型再生成机器人练习中的施力轨迹",
+      "enHeadline": "Specify a muscle-activation target, then generate the force-tracking exercise",
+      "eventAt": "2026-11-05T16:55:55Z",
+      "freshness": "near-three-day",
+      "evidence": "Author research and reported experiments; no independent replication or shipped-product claim",
+      "eventDateNote": "second; arXiv submission timestamp, not verified public-announcement clock",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "semg-trajectory-prescription-2026-11-05",
+      "product_key": "semg-trajectory-prescription",
+      "publishedAt": "2026-11-05T16:55:55Z",
+      "observedAt": "2026-11-08T09:13:03Z",
+      "delta_since_last_seen": "Sixteen healthy participants supply training and evaluation data; five people take part in live prescription tests."
+    },
+    {
+      "id": "cybersickness-missing-modalities",
+      "zhHeadline": "这套VR不适预测模型允许整路传感缺席，但还没有实时预警验证",
+      "enHeadline": "This VR discomfort model can work without an entire sensor stream, but real-time warning remains untested",
+      "eventAt": "2026-11-05T03:36:10Z",
+      "freshness": "seven-day",
+      "evidence": "Author research and reported experiments; no independent replication or shipped-product claim",
+      "eventDateNote": "second; arXiv submission timestamp, not verified public-announcement clock",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "cybersickness-missing-modalities-2026-11-05",
+      "product_key": "cybersickness-missing-modalities",
+      "publishedAt": "2026-11-05T03:36:10Z",
+      "observedAt": "2026-11-08T09:13:03Z",
+      "delta_since_last_seen": "Three existing datasets support offline evaluation, with representations aligned across modalities."
+    },
+    {
+      "id": "reviewmap-evaluative-acts",
+      "zhHeadline": "ReviewMap先分清审稿人在质疑证据还是贡献，再让人决定如何回应",
+      "enHeadline": "ReviewMap separates questions about evidence from judgments of contribution before people respond",
+      "eventAt": "2026-11-05T05:49:01Z",
+      "freshness": "seven-day",
+      "evidence": "Author research and reported experiments; no independent replication or shipped-product claim",
+      "eventDateNote": "second; arXiv submission timestamp, not verified public-announcement clock",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "reviewmap-evaluative-acts-2026-11-05",
+      "product_key": "reviewmap-evaluative-acts",
+      "publishedAt": "2026-11-05T05:49:01Z",
+      "observedAt": "2026-11-08T09:13:03Z",
+      "delta_since_last_seen": "The corpus contains 500 ICLR papers and 17,654 comments, with five-human annotation of 470 development comments."
+    }
+  ],
+  "eventCounts": {
+    "mainWindowEvents": 5,
+    "nearThreeDayReviews": 13,
+    "sevenDayReviews": 7,
+    "gapBackfillEvents": 0,
+    "interpretation": "Announcements, submissions, updates and regional reports; not first product launches."
+  }
+}

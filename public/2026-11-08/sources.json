@@ -1,0 +1,594 @@
+[
+  {
+    "url": "https://zellahq.com/changelog/",
+    "title": "Zella changelog",
+    "publisher": "Zella",
+    "publishedAt": "2026-11-07",
+    "observedAt": "2026-11-08T09:16:35.611741Z",
+    "number": 1
+  },
+  {
+    "url": "https://zellahq.com/",
+    "title": "Zella product and FAQ",
+    "publisher": "Zella",
+    "observedAt": "2026-11-08T09:16:35.611741Z",
+    "number": 2
+  },
+  {
+    "url": "https://zellahq.com/pricing/",
+    "title": "Zella pricing",
+    "publisher": "Zella",
+    "observedAt": "2026-11-08T09:16:35.611741Z",
+    "number": 3
+  },
+  {
+    "url": "https://www.aboutamazon.com/news/retail/alexa-for-shopping-text-to-shop",
+    "title": "Text, shop, done: Alexa for Shopping is now just a text away",
+    "publisher": "Amazon",
+    "publishedAt": "2026-11-06",
+    "observedAt": "2026-11-08T09:16:35.611741Z",
+    "number": 4
+  },
+  {
+    "url": "https://www.aboutamazon.com/news/retail/how-to-use-amazon-shopping-ai-assistant",
+    "title": "How to use Alexa for Shopping",
+    "publisher": "Amazon",
+    "publishedAt": "2026-10-29",
+    "observedAt": "2026-11-08T09:16:35.611741Z",
+    "number": 5
+  },
+  {
+    "url": "https://www.aboutamazon.com/news/company-news/amazon-news-today-top-stories-company",
+    "title": "What you need to know about Amazon today: November6,2026",
+    "publisher": "Amazon",
+    "publishedAt": "2026-11-06",
+    "observedAt": "2026-11-08T09:16:35.611741Z",
+    "number": 6
+  },
+  {
+    "url": "https://www.aboutamazon.com/news",
+    "title": "Amazon News index",
+    "publisher": "Amazon",
+    "observedAt": "2026-11-08T09:16:35.611741Z",
+    "number": 7
+  },
+  {
+    "url": "https://www.wareable.com/wearable-tech/htc-vive-eagle-review",
+    "title": "HTC VIVE Eagle review",
+    "publisher": "Wareable",
+    "publishedAt": "2026-11-06",
+    "observedAt": "2026-11-08T09:14:00Z",
+    "number": 8
+  },
+  {
+    "url": "https://www.vive.com/us/product/vive-eagle/overview/",
+    "title": "VIVE Eagle overview and FAQ",
+    "publisher": "HTC",
+    "observedAt": "2026-11-08T09:14:00Z",
+    "number": 9
+  },
+  {
+    "url": "https://www.vive.com/us/product/vive-eagle/spec/",
+    "title": "VIVE Eagle specifications",
+    "publisher": "HTC",
+    "observedAt": "2026-11-08T09:14:00Z",
+    "number": 10
+  },
+  {
+    "url": "https://www.techradar.com/pro/i-went-hands-on-with-the-new-snap-specs-and-found-out-why-they-could-soon-be-a-useful-workplace-tool",
+    "title": "Snap Specs hands-on for workplace tasks",
+    "publisher": "TechRadar / Mike Moore",
+    "publishedAt": "2026-11-07",
+    "observedAt": "2026-11-08T09:14:00Z",
+    "number": 11
+  },
+  {
+    "url": "https://www.specs.com/smart-glasses/specs-27?view=customize",
+    "title": "Specs product and preorder",
+    "publisher": "Specs",
+    "observedAt": "2026-11-08T09:14:00Z",
+    "number": 12
+  },
+  {
+    "url": "https://www.specs.com/privacy",
+    "title": "Specs privacy",
+    "publisher": "Specs",
+    "observedAt": "2026-11-08T09:14:00Z",
+    "number": 13
+  },
+  {
+    "url": "https://tech.yahoo.com/wearables/articles/went-hands-snap-specs-found-130000938.html",
+    "title": "Syndicated TechRadar hands-on",
+    "publisher": "Yahoo / TechRadar",
+    "publishedAt": "2026-11-07T13:00:00Z",
+    "observedAt": "2026-11-08T09:14:00Z",
+    "number": 14
+  },
+  {
+    "url": "https://myturnstone.ai/changelog/0.8.7",
+    "title": "Turnstone0.8.7:More control over your AI",
+    "publisher": "Turnstone",
+    "publishedAt": "2026-11-07",
+    "observedAt": "2026-11-08T09:18:36.494766Z",
+    "number": 15
+  },
+  {
+    "url": "https://myturnstone.ai/changelog/all",
+    "title": "Every Turnstone update",
+    "publisher": "Turnstone",
+    "observedAt": "2026-11-08T09:18:36.494766Z",
+    "number": 16
+  },
+  {
+    "url": "https://myturnstone.ai/",
+    "title": "Turnstone product",
+    "publisher": "Turnstone",
+    "observedAt": "2026-11-08T09:18:36.494766Z",
+    "number": 17
+  },
+  {
+    "url": "https://myturnstone.ai/privacy",
+    "title": "Turnstone privacy policy",
+    "publisher": "Turnstone",
+    "publishedAt": "2026-09-04",
+    "observedAt": "2026-11-08T09:18:36.494766Z",
+    "number": 18
+  },
+  {
+    "url": "https://myturnstone.ai/facts",
+    "title": "Turnstone facts",
+    "publisher": "Turnstone",
+    "publishedAt": "2026-10-28",
+    "observedAt": "2026-11-08T09:18:36.494766Z",
+    "number": 19
+  },
+  {
+    "url": "https://community.adobe.com/announcements-527/after-effects-2027-27-0-is-on-its-way-1654670",
+    "title": "After Effects 2027 (27.0) is on its way!",
+    "publisher": "Adobe Community",
+    "publishedAt": "2026-11-07T05:15:00Z",
+    "observedAt": "2026-11-08T09:22:06.436115+00:00",
+    "number": 20
+  },
+  {
+    "url": "https://helpx.adobe.com/after-effects/desktop/work-with-after-effects-ai-assistant/use-after-effects-ai-assistant.html",
+    "title": "Use After Effects AI Assistant",
+    "publisher": "Adobe Help",
+    "publishedAt": "2026-08-11",
+    "observedAt": "2026-11-08T09:22:06.436115+00:00",
+    "number": 21
+  },
+  {
+    "url": "https://helpx.adobe.com/after-effects/desktop/work-with-after-effects-ai-assistant/ai-assistant-faq.html",
+    "title": "After Effects AI Assistant FAQ",
+    "publisher": "Adobe Help",
+    "publishedAt": "2026-10-23",
+    "observedAt": "2026-11-08T09:22:06.436115+00:00",
+    "number": 22
+  },
+  {
+    "url": "https://helpx.adobe.com/after-effects/desktop/work-with-after-effects-ai-assistant/create-a-custom-skill.html",
+    "title": "Create a custom skill",
+    "publisher": "Adobe Help",
+    "publishedAt": "2026-10-16",
+    "observedAt": "2026-11-08T09:22:06.436115+00:00",
+    "number": 23
+  },
+  {
+    "url": "https://community.adobe.com/announcements-732/premiere-ai-assistant-now-uses-firefly-credits-from-your-plan-1654584",
+    "title": "Premiere AI Assistant now uses Firefly credits",
+    "publisher": "Adobe Community",
+    "publishedAt": "2026-11-06T09:21:00Z",
+    "observedAt": "2026-11-08T09:22:06.436115+00:00",
+    "number": 24
+  },
+  {
+    "url": "https://community.adobe.com/announcements-732/now-in-beta-generative-remove-in-premiere-1654360",
+    "title": "Generative Remove beta announcement",
+    "publisher": "Adobe Community",
+    "publishedAt": "2026-11-04T19:40:00Z",
+    "observedAt": "2026-11-08T09:22:06.436115+00:00",
+    "number": 25
+  },
+  {
+    "url": "https://helpx.adobe.com/premiere/desktop/edit-projects/edit-with-generative-ai/generative-remove.html",
+    "title": "Remove unwanted objects from videos",
+    "publisher": "Adobe Help",
+    "publishedAt": "2026-11-05",
+    "observedAt": "2026-11-08T09:22:06.436115+00:00",
+    "number": 26
+  },
+  {
+    "url": "https://community.adobe.com/announcements-654/beta-build-31-1-49-release-notes-1654265",
+    "title": "Illustrator beta31.1.49 release notes",
+    "publisher": "Adobe Community",
+    "publishedAt": "2026-11-04T04:44:00Z",
+    "observedAt": "2026-11-08T09:23:24.563620+00:00",
+    "number": 27
+  },
+  {
+    "url": "https://helpx.adobe.com/illustrator/desktop/use-generative-ai/generate-and-refine-icon-sets-using-icon-sheets.html",
+    "title": "Generate and refine icon sets using Icon Sheets",
+    "publisher": "Adobe Help",
+    "publishedAt": "2026-11-04",
+    "observedAt": "2026-11-08T09:23:24.563620+00:00",
+    "number": 28
+  },
+  {
+    "url": "https://github.com/google/three-live/releases/tag/v1.3.2",
+    "title": "Three-Live 1.3.2 release",
+    "publisher": "Three-Live 1.3.2 maintainers / original issue author",
+    "publishedAt": "2026-11-08T02:24:37Z",
+    "observedAt": "2026-11-08T09:14:00Z",
+    "number": 29
+  },
+  {
+    "url": "https://github.com/google/three-live",
+    "title": "Three-Live 1.3.2 original documentation / issue",
+    "publisher": "Three-Live 1.3.2 maintainers / original issue author",
+    "observedAt": "2026-11-08T09:14:00Z",
+    "number": 30
+  },
+  {
+    "url": "https://github.com/oaslananka/kicad-mcp-pro/releases/tag/mcp-server-v4.9.0",
+    "title": "KiCad MCP Pro 4.9 release",
+    "publisher": "KiCad MCP Pro 4.9 maintainers / original issue author",
+    "publishedAt": "2026-11-07T14:37:41Z",
+    "observedAt": "2026-11-08T09:14:00Z",
+    "number": 31
+  },
+  {
+    "url": "https://github.com/oaslananka/kicad-mcp-pro",
+    "title": "KiCad MCP Pro 4.9 original documentation / issue",
+    "publisher": "KiCad MCP Pro 4.9 maintainers / original issue author",
+    "observedAt": "2026-11-08T09:14:00Z",
+    "number": 32
+  },
+  {
+    "url": "https://github.com/oaslananka/kicad-mcp-pro/pull/1657",
+    "title": "KiCad MCP Pro 4.9 original documentation / issue",
+    "publisher": "KiCad MCP Pro 4.9 maintainers / original issue author",
+    "observedAt": "2026-11-08T09:14:00Z",
+    "number": 33
+  },
+  {
+    "url": "https://github.com/oaslananka/kicad-mcp-pro/pull/1658",
+    "title": "KiCad MCP Pro 4.9 original documentation / issue",
+    "publisher": "KiCad MCP Pro 4.9 maintainers / original issue author",
+    "observedAt": "2026-11-08T09:14:00Z",
+    "number": 34
+  },
+  {
+    "url": "https://github.com/IvanMurzak/Unity-MCP/releases/tag/1.8.0",
+    "title": "Unity MCP / AI Game Developer 1.8 release",
+    "publisher": "Unity MCP / AI Game Developer 1.8 maintainers / original issue author",
+    "publishedAt": "2026-11-08T04:39:13Z",
+    "observedAt": "2026-11-08T09:14:00Z",
+    "number": 35
+  },
+  {
+    "url": "https://github.com/IvanMurzak/Unity-MCP",
+    "title": "Unity MCP / AI Game Developer 1.8 original documentation / issue",
+    "publisher": "Unity MCP / AI Game Developer 1.8 maintainers / original issue author",
+    "observedAt": "2026-11-08T09:14:00Z",
+    "number": 36
+  },
+  {
+    "url": "https://github.com/IvanMurzak/Unity-MCP/issues/1129",
+    "title": "Unity MCP / AI Game Developer 1.8 original documentation / issue",
+    "publisher": "Unity MCP / AI Game Developer 1.8 maintainers / original issue author",
+    "observedAt": "2026-11-08T09:14:00Z",
+    "number": 37
+  },
+  {
+    "url": "https://github.com/IvanMurzak/Unity-MCP/pull/1139",
+    "title": "Unity MCP / AI Game Developer 1.8 original documentation / issue",
+    "publisher": "Unity MCP / AI Game Developer 1.8 maintainers / original issue author",
+    "observedAt": "2026-11-08T09:14:00Z",
+    "number": 38
+  },
+  {
+    "url": "https://github.com/IvanMurzak/Unity-MCP/pull/1137",
+    "title": "Unity MCP / AI Game Developer 1.8 original documentation / issue",
+    "publisher": "Unity MCP / AI Game Developer 1.8 maintainers / original issue author",
+    "observedAt": "2026-11-08T09:14:00Z",
+    "number": 39
+  },
+  {
+    "url": "https://github.com/Sogni-AI/sogni-intelligence-client/releases/tag/v4.25.6",
+    "title": "Sogni Intelligence Client 4.25.5–4.25.6 release",
+    "publisher": "Sogni Intelligence Client 4.25.5–4.25.6 maintainers / original issue author",
+    "publishedAt": "2026-11-08T00:02:53Z",
+    "observedAt": "2026-11-08T09:20:00Z",
+    "number": 40
+  },
+  {
+    "url": "https://github.com/Sogni-AI/sogni-intelligence-client/releases/tag/v4.25.5",
+    "title": "Sogni Intelligence Client 4.25.5–4.25.6 original documentation / issue",
+    "publisher": "Sogni Intelligence Client 4.25.5–4.25.6 maintainers / original issue author",
+    "observedAt": "2026-11-08T09:20:00Z",
+    "number": 41
+  },
+  {
+    "url": "https://github.com/Sogni-AI/sogni-intelligence-client",
+    "title": "Sogni Intelligence Client 4.25.5–4.25.6 original documentation / issue",
+    "publisher": "Sogni Intelligence Client 4.25.5–4.25.6 maintainers / original issue author",
+    "observedAt": "2026-11-08T09:20:00Z",
+    "number": 42
+  },
+  {
+    "url": "https://github.com/Sogni-AI/sogni-intelligence-client/commit/dfc75696b2f17e9b92725497a0fb25bd58fedb32",
+    "title": "Sogni Intelligence Client 4.25.5–4.25.6 original documentation / issue",
+    "publisher": "Sogni Intelligence Client 4.25.5–4.25.6 maintainers / original issue author",
+    "observedAt": "2026-11-08T09:20:00Z",
+    "number": 43
+  },
+  {
+    "url": "https://github.com/Sogni-AI/sogni-intelligence-client/commit/0218522f049f2e7f24e25ddd1d7bdb8bc840387c",
+    "title": "Sogni Intelligence Client 4.25.5–4.25.6 original documentation / issue",
+    "publisher": "Sogni Intelligence Client 4.25.5–4.25.6 maintainers / original issue author",
+    "observedAt": "2026-11-08T09:20:00Z",
+    "number": 44
+  },
+  {
+    "url": "https://github.com/Sogni-AI/sogni-intelligence-client/commit/4d64d65574d234f0bf535041eb6e41841afbbe5f",
+    "title": "Sogni Intelligence Client 4.25.5–4.25.6 original documentation / issue",
+    "publisher": "Sogni Intelligence Client 4.25.5–4.25.6 maintainers / original issue author",
+    "observedAt": "2026-11-08T09:20:00Z",
+    "number": 45
+  },
+  {
+    "url": "https://github.com/raultov/browser-control-mcp/releases/tag/v0.13.0-beta.23",
+    "title": "browser-control-mcp 0.13 beta.23 release",
+    "publisher": "browser-control-mcp 0.13 beta.23 maintainers / original issue author",
+    "publishedAt": "2026-11-07T19:32:18Z",
+    "observedAt": "2026-11-08T09:14:00Z",
+    "number": 46
+  },
+  {
+    "url": "https://github.com/raultov/browser-control-mcp",
+    "title": "browser-control-mcp 0.13 beta.23 original documentation / issue",
+    "publisher": "browser-control-mcp 0.13 beta.23 maintainers / original issue author",
+    "observedAt": "2026-11-08T09:14:00Z",
+    "number": 47
+  },
+  {
+    "url": "https://github.com/langchain-ai/deepagents/releases/tag/deepagents%3D%3D0.7.34",
+    "title": "DeepAgents 0.7.33–0.7.34 release",
+    "publisher": "DeepAgents 0.7.33–0.7.34 maintainers / original issue author",
+    "publishedAt": "2026-11-05T21:15:33Z",
+    "observedAt": "2026-11-08T09:14:00Z",
+    "number": 48
+  },
+  {
+    "url": "https://github.com/langchain-ai/deepagents/releases/tag/deepagents%3D%3D0.7.33",
+    "title": "DeepAgents 0.7.33–0.7.34 original documentation / issue",
+    "publisher": "DeepAgents 0.7.33–0.7.34 maintainers / original issue author",
+    "observedAt": "2026-11-08T09:14:00Z",
+    "number": 49
+  },
+  {
+    "url": "https://github.com/langchain-ai/deepagents/pull/7512",
+    "title": "DeepAgents 0.7.33–0.7.34 original documentation / issue",
+    "publisher": "DeepAgents 0.7.33–0.7.34 maintainers / original issue author",
+    "observedAt": "2026-11-08T09:14:00Z",
+    "number": 50
+  },
+  {
+    "url": "https://github.com/langchain-ai/deepagents/pull/7567",
+    "title": "DeepAgents 0.7.33–0.7.34 original documentation / issue",
+    "publisher": "DeepAgents 0.7.33–0.7.34 maintainers / original issue author",
+    "observedAt": "2026-11-08T09:14:00Z",
+    "number": 51
+  },
+  {
+    "url": "https://www.perplexity.ai/changelog/teammates-fully-local-computer-on-mac-and-voice-mode",
+    "title": "November 6 Computer update",
+    "publisher": "Perplexity",
+    "publishedAt": "2026-11-06",
+    "observedAt": "2026-11-08T09:16:53.799738+00:00",
+    "number": 52
+  },
+  {
+    "url": "https://www.perplexity.ai/help-center/en/articles/2026102601-perplexity-teammates",
+    "title": "Perplexity Teammates",
+    "publisher": "Perplexity",
+    "publishedAt": "2026-11-05",
+    "observedAt": "2026-11-08T09:16:53.799738+00:00",
+    "number": 53
+  },
+  {
+    "url": "https://www.perplexity.ai/help-center/en/articles/11187754-enterprise-roles-and-permissions",
+    "title": "Enterprise roles and permissions",
+    "publisher": "Perplexity",
+    "publishedAt": "2026-11-06",
+    "observedAt": "2026-11-08T09:16:53.799738+00:00",
+    "number": 54
+  },
+  {
+    "url": "https://blog.arduino.cc/2026/11/06/unveiled-at-roscon-the-easiest-way-to-bring-arduino-i-o-into-ros-2/",
+    "title": "Arduino I/O into ROS 2",
+    "publisher": "Arduino",
+    "publishedAt": "2026-11-06",
+    "observedAt": "2026-11-08T09:14:00Z",
+    "number": 55
+  },
+  {
+    "url": "https://github.com/arduino-libraries/Arduino_RouterBridge_ROS",
+    "title": "Arduino RouterBridge ROS README",
+    "publisher": "Arduino",
+    "observedAt": "2026-11-08T09:14:00Z",
+    "number": 56
+  },
+  {
+    "url": "https://github.com/arduino/arduino_router_ros",
+    "title": "Arduino router ROS companion README",
+    "publisher": "Arduino",
+    "observedAt": "2026-11-08T09:14:00Z",
+    "number": 57
+  },
+  {
+    "url": "https://blog.st.com/stm32h7p/",
+    "title": "STM32H7P architecture explanation",
+    "publisher": "STMicroelectronics",
+    "publishedAt": "2026-11-03",
+    "observedAt": "2026-11-08T09:14:00Z",
+    "number": 58
+  },
+  {
+    "url": "https://newsroom.st.com/media-center/press-item.html/stmicroelectronics-stm32h7p-mcus-embed-digital-signal-processing-edge-ai-and-real-time-control-for-demanding-industrial-applications-n4798.html",
+    "title": "STM32H7P official press release",
+    "publisher": "STMicroelectronics",
+    "publishedAt": "2026-11-04",
+    "observedAt": "2026-11-08T09:14:00Z",
+    "number": 59
+  },
+  {
+    "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32h7-series.html",
+    "title": "STM32H7 series",
+    "publisher": "STMicroelectronics",
+    "observedAt": "2026-11-08T09:14:00Z",
+    "number": 60
+  },
+  {
+    "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32h7p5vg.html",
+    "title": "STM32H7P5VG part page",
+    "publisher": "STMicroelectronics",
+    "observedAt": "2026-11-08T09:14:00Z",
+    "number": 61
+  },
+  {
+    "url": "https://www.atomrobot.com/detail/16/1933",
+    "title": "Tianqiao One official launch",
+    "publisher": "Atomrobot",
+    "publishedAt": "2026-11-05",
+    "observedAt": "2026-11-08T09:17:50.138679+00:00",
+    "number": 62
+  },
+  {
+    "url": "https://www.shlab.org.cn/news/5444314",
+    "title": "Sage LabOS announcement",
+    "publisher": "Shanghai AI Laboratory",
+    "publishedAt": "2026-11-06",
+    "observedAt": "2026-11-08T09:13:29.511228+00:00",
+    "number": 63
+  },
+  {
+    "url": "https://www.shlab.org.cn/news/5444305",
+    "title": "SCP-Lab capability and safety architecture",
+    "publisher": "Shanghai AI Laboratory",
+    "publishedAt": "2026-10-12",
+    "observedAt": "2026-11-08T09:13:29.511228+00:00",
+    "number": 64
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.06768",
+    "title": "PyRUA-REAL paper and submission history",
+    "publisher": "Paper authors / arXiv",
+    "publishedAt": "2026-11-04T16:46:03Z",
+    "observedAt": "2026-11-08T09:13:29.511228+00:00",
+    "number": 65
+  },
+  {
+    "url": "https://arxiv.org/html/2611.06768v1",
+    "title": "PyRUA-REAL full paper",
+    "publisher": "Paper authors",
+    "publishedAt": "2026-11-04",
+    "observedAt": "2026-11-08T09:13:29.511228+00:00",
+    "number": 66
+  },
+  {
+    "url": "https://dagroup-pku.github.io/PyRUA-Lean/real/",
+    "title": "PyRUA-REAL project",
+    "publisher": "Paper authors",
+    "observedAt": "2026-11-08T09:13:29.511228+00:00",
+    "number": 67
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.08462",
+    "title": "OopsieRecover — submission history",
+    "publisher": "Paper authors / arXiv",
+    "publishedAt": "2026-11-05T18:53:16Z",
+    "observedAt": "2026-11-08T09:13:03Z",
+    "number": 68
+  },
+  {
+    "url": "https://arxiv.org/html/2611.08462v1",
+    "title": "OopsieRecover — full paper",
+    "publisher": "Paper authors / arXiv",
+    "publishedAt": "2026-11-05T18:53:16Z",
+    "observedAt": "2026-11-08T09:13:03Z",
+    "number": 69
+  },
+  {
+    "url": "https://robin-lab.cs.utexas.edu/oopsierecover/",
+    "title": "OopsieRecover author project",
+    "publisher": "ROBIN Lab / paper authors",
+    "observedAt": "2026-11-08T09:13:03Z",
+    "number": 70
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.05936",
+    "title": "LumiTac — submission history",
+    "publisher": "Paper authors / arXiv",
+    "publishedAt": "2026-11-04T04:24:45Z",
+    "observedAt": "2026-11-08T09:13:03Z",
+    "number": 71
+  },
+  {
+    "url": "https://arxiv.org/html/2611.05936v1",
+    "title": "LumiTac — full paper",
+    "publisher": "Paper authors / arXiv",
+    "publishedAt": "2026-11-04T04:24:45Z",
+    "observedAt": "2026-11-08T09:13:03Z",
+    "number": 72
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.08295",
+    "title": "sEMG trajectory prescription — submission history",
+    "publisher": "Paper authors / arXiv",
+    "publishedAt": "2026-11-05T16:55:55Z",
+    "observedAt": "2026-11-08T09:13:03Z",
+    "number": 73
+  },
+  {
+    "url": "https://arxiv.org/html/2611.08295v1",
+    "title": "sEMG trajectory prescription — full paper",
+    "publisher": "Paper authors / arXiv",
+    "publishedAt": "2026-11-05T16:55:55Z",
+    "observedAt": "2026-11-08T09:13:03Z",
+    "number": 74
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.07386",
+    "title": "Breaking the Modality Barrier — submission history",
+    "publisher": "Paper authors / arXiv",
+    "publishedAt": "2026-11-05T03:36:10Z",
+    "observedAt": "2026-11-08T09:13:03Z",
+    "number": 75
+  },
+  {
+    "url": "https://arxiv.org/html/2611.07386v1",
+    "title": "Breaking the Modality Barrier — full paper",
+    "publisher": "Paper authors / arXiv",
+    "publishedAt": "2026-11-05T03:36:10Z",
+    "observedAt": "2026-11-08T09:13:03Z",
+    "number": 76
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.07489",
+    "title": "ReviewMap — submission history",
+    "publisher": "Paper authors / arXiv",
+    "publishedAt": "2026-11-05T05:49:01Z",
+    "observedAt": "2026-11-08T09:13:03Z",
+    "number": 77
+  },
+  {
+    "url": "https://arxiv.org/html/2611.07489v1",
+    "title": "ReviewMap — full paper",
+    "publisher": "Paper authors / arXiv",
+    "publishedAt": "2026-11-05T05:49:01Z",
+    "observedAt": "2026-11-08T09:13:03Z",
+    "number": 78
+  }
+]

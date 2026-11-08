@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-11-08",
+    "zhTitle": "AI Daily｜2026年11月8日 · 创作修补、代理记录与物理交互",
+    "enTitle": "AI Daily | November 8, 2026 · Creative fixes, agent traces and physical interaction",
+    "zhSummary": "聚焦导出修复、可编辑创作、代理诊断与机器人实验；区分窗口内更新和近期回看。",
+    "enSummary": "Export fixes, editable creation, agent diagnostics and robotics experiments, with current updates separated from recent reviews.",
+    "tags": [
+      "consumer AI",
+      "creative tools",
+      "physical interaction",
+      "research"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "research"
+    ],
+    "coverStory": {
+      "topicId": "zella-export-recovery",
+      "zhTitle": "Zella Mac 1.0.11",
+      "enTitle": "Zella Mac 1.0.11",
+      "imagePath": "assets/zella-editor.jpg",
+      "imageSourceUrl": "https://zellahq.com/screens/mac-editor.webp",
+      "primarySourceUrl": "https://zellahq.com/",
+      "evidenceStrength": "Vendor documentation; no independent hands-on"
+    },
+    "zhPath": "./2026-11-08/zh/",
+    "enPath": "./2026-11-08/en/",
+    "sourcesPath": "./2026-11-08/sources.html"
+  },
+  {
     "date": "2026-11-07",
     "zhTitle": "AI Daily｜2026年11月7日 · 自制应用与可接续的代理任务",
     "enTitle": "AI Daily | November 7, 2026 · Homemade apps and continuing agent work",
