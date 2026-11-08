@@ -1,63 +1,49 @@
 [
   {
-    "name": "zella-editor.jpg",
-    "url": "https://zellahq.com/screens/mac-editor.webp",
+    "name": "alexa-sms.jpg",
+    "url": "https://assets.aboutamazon.com/af/97/71602a7c4a258ba4c9f7656fb1a5/about-amazon-inline-alexa-text-to-shop-amazon-news-wl-20261104.jpg",
     "kind": "image",
     "renderImage": true,
     "locale": "zh"
   },
   {
-    "name": "vive-app.jpg",
-    "url": "https://media.wareable.com/images/1024w/2026/11/vive-connect-app.jpg",
+    "name": "suno-midi.jpg",
+    "url": "https://cdn.sanity.io/images/cl7b1q1i/production/a5da456a682e0f8821e74530c8c95c868685394c-1920x1080.jpg",
     "kind": "image",
     "renderImage": true,
     "locale": "en"
   },
   {
-    "name": "vive-charge.jpg",
-    "url": "https://media.wareable.com/images/1024w/2026/11/htc-vive-eagle-glasses-on-charge.jpg",
+    "name": "oopsie-teaser.jpg",
+    "url": "https://arxiv.org/html/2611.08462v1/teaser.png",
     "kind": "image",
     "renderImage": true,
     "locale": "zh"
   },
   {
-    "name": "snap-review.jpg",
-    "url": "https://cdn.mos.cms.futurecdn.net/Azv3TgGUqcELXYvsSeg4Hj.jpg",
+    "name": "lumitac-control.jpg",
+    "url": "https://arxiv.org/html/2611.05936v1/assets/Robotic_Control.png",
     "kind": "image",
     "renderImage": true,
     "locale": "en"
   },
   {
-    "name": "snap-device.jpg",
-    "url": "https://cdn.mos.cms.futurecdn.net/3rD3RDGiN3836nBAJhDuDC.jpg",
+    "name": "cybersickness.jpg",
+    "url": "https://arxiv.org/html/2611.07386v1/teaseree.png",
     "kind": "image",
     "renderImage": true,
     "locale": "zh"
   },
   {
-    "name": "stm32.jpg",
-    "url": "https://newsroom.st.com/wp-content/uploads/2026/11/PR2610STM32H7P-s.jpg",
+    "name": "reviewmap.jpg",
+    "url": "https://arxiv.org/html/2611.07489v1/figures/Fig1_ecosystem_original.png",
     "kind": "image",
     "renderImage": true,
     "locale": "en"
   },
   {
-    "name": "arduino-router.jpg",
-    "url": "https://blog.arduino.cc/wp-content/uploads/2026/11/Example-Arduino_RouterBridge-1024x396.png",
-    "kind": "image",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "name": "labos-original.jpg",
-    "url": "https://img.shlab.org.cn/pjlab/images/2026/11/639295715838030000.png",
-    "kind": "image",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "name": "labos-lab.jpg",
-    "url": "https://img.shlab.org.cn/pjlab/images/2026/11/639295718224570000.png",
+    "name": "semg-setup.jpg",
+    "url": "https://arxiv.org/html/2611.08295v1/expsetup.png",
     "kind": "image",
     "renderImage": true,
     "locale": "zh"
