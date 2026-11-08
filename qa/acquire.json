@@ -1,1 +1,65 @@
-[]
+[
+  {
+    "name": "zella-editor.jpg",
+    "url": "https://zellahq.com/screens/mac-editor.webp",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "name": "vive-app.jpg",
+    "url": "https://media.wareable.com/images/1024w/2026/11/vive-connect-app.jpg",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "name": "vive-charge.jpg",
+    "url": "https://media.wareable.com/images/1024w/2026/11/htc-vive-eagle-glasses-on-charge.jpg",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "name": "snap-review.jpg",
+    "url": "https://cdn.mos.cms.futurecdn.net/Azv3TgGUqcELXYvsSeg4Hj.jpg",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "name": "snap-device.jpg",
+    "url": "https://cdn.mos.cms.futurecdn.net/3rD3RDGiN3836nBAJhDuDC.jpg",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "name": "stm32.jpg",
+    "url": "https://newsroom.st.com/wp-content/uploads/2026/11/PR2610STM32H7P-s.jpg",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "name": "arduino-router.jpg",
+    "url": "https://blog.arduino.cc/wp-content/uploads/2026/11/Example-Arduino_RouterBridge-1024x396.png",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "name": "labos-original.jpg",
+    "url": "https://img.shlab.org.cn/pjlab/images/2026/11/639295715838030000.png",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "en"
+  },
+  {
+    "name": "labos-lab.jpg",
+    "url": "https://img.shlab.org.cn/pjlab/images/2026/11/639295718224570000.png",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "zh"
+  }
+]
