@@ -337,20 +337,12 @@
     "number": 45
   },
   {
-    "url": "https://job-boards.greenhouse.io/babylist/jobs/6104998004",
-    "title": "Babylist — Staff Product Designer (AI Builder)",
-    "publisher": "Babylist",
-    "publishedAt": null,
-    "evidenceType": "Original employer body read in indexed rendering; direct open failed. Application text visible in rendering, current form submission not tested.",
-    "number": 46
-  },
-  {
     "url": "https://job-boards.greenhouse.io/tailscale/jobs/4726042005",
     "title": "Tailscale — Product Designer (Growth)",
     "publisher": "Tailscale",
     "publishedAt": null,
     "evidenceType": "Original employer page body and application/proposal route read; no application or contact",
-    "number": 47
+    "number": 46
   },
   {
     "url": "https://job-boards.greenhouse.io/andgosystems/jobs/4456625009",
@@ -358,7 +350,7 @@
     "publisher": "Andgo",
     "publishedAt": null,
     "evidenceType": "Original employer page body and application/proposal route read; no application or contact",
-    "number": 48
+    "number": 47
   },
   {
     "url": "https://job-boards.greenhouse.io/alpaca/jobs/6187326004",
@@ -366,7 +358,7 @@
     "publisher": "Alpaca",
     "publishedAt": null,
     "evidenceType": "Original employer page body and application/proposal route read; no application or contact",
-    "number": 49
+    "number": 48
   },
   {
     "url": "https://www.latecheckout.agency/careers/sr-product-designer",
@@ -374,7 +366,7 @@
     "publisher": "LCA",
     "publishedAt": null,
     "evidenceType": "Original employer page body and application/proposal route read; no application or contact",
-    "number": 50
+    "number": 49
   },
   {
     "url": "https://team.housesigma.com/job_posting/senior-product-designer/",
@@ -382,15 +374,7 @@
     "publisher": "HouseSigma",
     "publishedAt": null,
     "evidenceType": "Original employer page body and application/proposal route read; no application or contact",
-    "number": 51
-  },
-  {
-    "url": "https://www.getupgraded.ca/jobs/product-designer",
-    "title": "Upgraded — Designer – Product, Software, Marketing & AI",
-    "publisher": "Upgraded",
-    "publishedAt": null,
-    "evidenceType": "Original employer page body and application/proposal route read; no application or contact",
-    "number": 52
+    "number": 50
   },
   {
     "url": "https://www.hellorobo.co/careers/senior-product-designer",
@@ -398,6 +382,22 @@
     "publisher": "Hello Robo",
     "publishedAt": null,
     "evidenceType": "Official role and careers index read; email instructions visible; no message sent",
+    "number": 51
+  },
+  {
+    "url": "https://job-boards.greenhouse.io/babylist/jobs/6104998004",
+    "title": "Babylist — Staff Product Designer (AI Builder)",
+    "publisher": "Babylist",
+    "publishedAt": null,
+    "evidenceType": "Current open state UNVERIFIED. Original employer indexed body readable; direct opening failed; cached application text is not current-open evidence.",
+    "number": 52
+  },
+  {
+    "url": "https://www.getupgraded.ca/jobs/product-designer",
+    "title": "Upgraded — Designer – Product, Software, Marketing & AI",
+    "publisher": "Upgraded",
+    "publishedAt": null,
+    "evidenceType": "Original employer description and email application instructions read; Vancouver remote-friendly only; cross-region eligibility unconfirmed.",
     "number": 53
   },
   {

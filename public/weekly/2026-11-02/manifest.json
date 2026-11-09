@@ -10,8 +10,8 @@
   "windowStart": "2026-11-02T05:00:00Z",
   "metrics": {
     "body": {
-      "zhDenseChars": 7666,
-      "enWords": 4661
+      "zhDenseChars": 7743,
+      "enWords": 4700
     },
     "perProduct": {
       "highlight-affinity-ipad-unified-studios": {
@@ -71,28 +71,28 @@
         "en": 219
       },
       "career-employee-a": {
-        "zh": 321,
-        "en": 209
+        "zh": 233,
+        "en": 149
       },
       "career-employee-b": {
-        "zh": 332,
-        "en": 191
+        "zh": 282,
+        "en": 169
       },
       "career-contract-a": {
-        "zh": 233,
-        "en": 137
+        "zh": 445,
+        "en": 273
       },
       "career-contract-b": {
-        "zh": 286,
-        "en": 181
+        "zh": 255,
+        "en": 145
       },
       "career-conditions": {
         "zh": 402,
         "en": 265
       },
       "talent-demand": {
-        "zh": 451,
-        "en": 269
+        "zh": 485,
+        "en": 290
       }
     },
     "primarySummaries": {
@@ -153,28 +153,28 @@
         "en": 69
       },
       "career-employee-a": {
-        "zh": 146,
-        "en": 113
+        "zh": 151,
+        "en": 97
       },
       "career-employee-b": {
-        "zh": 147,
-        "en": 99
+        "zh": 148,
+        "en": 98
       },
       "career-contract-a": {
-        "zh": 133,
-        "en": 102
+        "zh": 156,
+        "en": 130
       },
       "career-contract-b": {
-        "zh": 117,
-        "en": 106
+        "zh": 146,
+        "en": 101
       },
       "career-conditions": {
         "zh": 149,
         "en": 132
       },
       "talent-demand": {
-        "zh": 156,
-        "en": 91
+        "zh": 151,
+        "en": 90
       }
     },
     "counting": "Only unique full-analysis product paragraphs count toward body gates; summaries, captions, coverage and sources excluded.",
@@ -185,12 +185,12 @@
     "primaryProjectPages": 20,
     "attachedProjectDetails": 20,
     "primaryBody": {
-      "zhDenseChars": 2669,
-      "enWords": 1677
+      "zhDenseChars": 2722,
+      "enWords": 1682
     },
     "completeReadingBody": {
-      "zhDenseChars": 10335,
-      "enWords": 6338
+      "zhDenseChars": 10465,
+      "enWords": 6382
     }
   },
   "revision": {
@@ -312,13 +312,13 @@
       "zhHeadline": "恢复按钮开始交代恢复什么，旧批准也需要被拒绝",
       "enHeadline": "Recovery controls need a scope, and stale approvals need a rejection",
       "eventAt": "2026-11-02–08",
-      "freshness": "historical-observation-rechecked",
+      "freshness": "weekly-synthesis",
       "evidence": "Observed community accounts; not representative demand",
       "eventDateNote": "11月9日补采复核；历史案例不标成本周新事件。",
       "event_key": "weekly:2026-11-02:signal-recovery-boundaries",
       "product_key": "signal-recovery-boundaries",
       "publishedAt": null,
-      "observedAt": "2026-11-09T05:55:00Z",
+      "observedAt": "2026-11-09",
       "delta_since_last_seen": "Distinct changes on November 3, 5 and 6 form an emerging signal, without a comparable multiweek growth baseline."
     },
     {
@@ -327,13 +327,13 @@
       "zhHeadline": "生成之后留下工程，修改成本才有机会下降",
       "enHeadline": "An editable project can reduce the cost of the second pass",
       "eventAt": "2026-11-02–08",
-      "freshness": "historical-observation-rechecked",
+      "freshness": "weekly-synthesis",
       "evidence": "Observed community accounts; not representative demand",
       "eventDateNote": "11月9日补采复核；历史案例不标成本周新事件。",
       "event_key": "weekly:2026-11-02:signal-editable-handoffs",
       "product_key": "signal-editable-handoffs",
       "publishedAt": null,
-      "observedAt": "2026-11-09T05:55:00Z",
+      "observedAt": "2026-11-09",
       "delta_since_last_seen": "Three organizations show related handoffs on November 2, 4 and 5; user migration is unmeasured."
     },
     {
@@ -342,13 +342,13 @@
       "zhHeadline": "自动化还要计算谁来清理、换件和恢复",
       "enHeadline": "Automation still needs someone to clean, replace and recover",
       "eventAt": "2026-11-02–08",
-      "freshness": "historical-observation-rechecked",
+      "freshness": "weekly-synthesis",
       "evidence": "Observed community accounts; not representative demand",
       "eventDateNote": "11月9日补采复核；历史案例不标成本周新事件。",
       "event_key": "weekly:2026-11-02:signal-maintenance-in-the-loop",
       "product_key": "signal-maintenance-in-the-loop",
       "publishedAt": null,
-      "observedAt": "2026-11-09T05:55:00Z",
+      "observedAt": "2026-11-09",
       "delta_since_last_seen": "This week’s home and warehouse cases support ownership-cost comparison, not a shared failure rate."
     },
     {
@@ -356,14 +356,14 @@
       "unitType": "signal",
       "zhHeadline": "买到自动清洁之后，用户还在互相教怎样让它正常工作",
       "enHeadline": "After buying automatic cleaning, owners still teach each other how to make it work",
-      "eventAt": "2026-11-02–08",
+      "eventAt": "Historical posts / original dates unverified",
       "freshness": "historical-observation-rechecked",
       "evidence": "Observed community accounts; not representative demand",
       "eventDateNote": "11月9日补采复核；历史案例不标成本周新事件。",
       "event_key": "weekly:2026-11-02:signal-owners-as-troubleshooters",
       "product_key": "signal-owners-as-troubleshooters",
       "publishedAt": null,
-      "observedAt": "2026-11-09T05:55:00Z",
+      "observedAt": "2026-11-09",
       "delta_since_last_seen": "Historical threads rechecked November 9; relative dates do not establish new complaints this week."
     },
     {
@@ -371,14 +371,14 @@
       "unitType": "opportunity",
       "zhHeadline": "售后交接可先试一份故障证据包，别急着做新客服平台",
       "enHeadline": "Test a support evidence packet before building another support platform",
-      "eventAt": "2026-11-02–08",
+      "eventAt": "Historical posts / original dates unverified",
       "freshness": "historical-problem-rechecked",
       "evidence": "Proposed validation; commercial demand unverified",
       "eventDateNote": "11月9日补采复核；历史案例不标成本周新事件。",
       "event_key": "weekly:2026-11-02:opportunity-support-evidence-packet",
       "product_key": "opportunity-support-evidence-packet",
       "publishedAt": null,
-      "observedAt": "2026-11-09T05:55:00Z",
+      "observedAt": "2026-11-09",
       "delta_since_last_seen": "Threads show handoff work; no buyer budget, paid pilot or repeat purchase is verified."
     },
     {
@@ -386,14 +386,14 @@
       "unitType": "opportunity",
       "zhHeadline": "APF的采购题目是找到旧内容，先诊断导航再谈AI搜索",
       "enHeadline": "APF’s procurement asks people to find content; diagnose navigation before proposing AI search",
-      "eventAt": "2026-11-02–08",
+      "eventAt": "2026-10-22 RFP / November 9 recheck",
       "freshness": "historical-problem-rechecked",
       "evidence": "Proposed validation; commercial demand unverified",
       "eventDateNote": "11月9日补采复核；历史案例不标成本周新事件。",
       "event_key": "weekly:2026-11-02:opportunity-content-discovery-audit",
       "product_key": "opportunity-content-discovery-audit",
       "publishedAt": null,
-      "observedAt": "2026-11-09T05:55:00Z",
+      "observedAt": "2026-11-09",
       "delta_since_last_seen": "Issued October 22, rechecked November 9; proposals close November 23 at 17:00 PT, after the question deadline."
     },
     {
@@ -401,14 +401,14 @@
       "unitType": "opportunity",
       "zhHeadline": "设计服务卖交付责任，资料门户卖流程：不要把两种价格当利润",
       "enHeadline": "A design service sells delivery responsibility; an intake portal sells workflow",
-      "eventAt": "2026-11-02–08",
+      "eventAt": "Undated offers / November 9 observation",
       "freshness": "historical-problem-rechecked",
       "evidence": "Proposed validation; commercial demand unverified",
       "eventDateNote": "11月9日补采复核；历史案例不标成本周新事件。",
       "event_key": "weekly:2026-11-02:opportunity-service-comparators",
       "product_key": "opportunity-service-comparators",
       "publishedAt": null,
-      "observedAt": "2026-11-09T05:55:00Z",
+      "observedAt": "2026-11-09",
       "delta_since_last_seen": "Seller pages rechecked November 9; testimonials and prices do not establish revenue or retention."
     },
     {
@@ -424,7 +424,7 @@
       "product_key": "career-employee-a",
       "publishedAt": null,
       "observedAt": "2026-11-09T05:57:00Z",
-      "delta_since_last_seen": "Samsara lists annual Canadian base CAD 161,600–222,200; other bands and periods are detailed by role."
+      "delta_since_last_seen": "Samsara lists annual Canadian base CAD 161,600–222,200; StackAdapt’s band has no separately stated period."
     },
     {
       "id": "career-employee-b",
@@ -439,13 +439,13 @@
       "product_key": "career-employee-b",
       "publishedAt": null,
       "observedAt": "2026-11-09T05:57:00Z",
-      "delta_since_last_seen": "Tailscale lists a CAD 163,480–245,220 base band without a stated period; the other amounts are undisclosed."
+      "delta_since_last_seen": "Tailscale lists CAD 163,480–245,220 base, period unstated; Astell does not disclose an amount."
     },
     {
       "id": "career-contract-a",
       "unitType": "jobs",
-      "zhHeadline": "合同与兼职：设计也可能要求生产代码",
-      "enHeadline": "Contract and part-time: design may include production code",
+      "zhHeadline": "合同与兼职：先算容量，再比较报价",
+      "enHeadline": "Contract and part-time: compare capacity before price",
       "eventAt": "2026-11-09 supplementary check",
       "freshness": "post-window-hiring-observation",
       "evidence": "Employer descriptions and application routes rechecked November 9; original posting dates retained where verified",
@@ -454,13 +454,13 @@
       "product_key": "career-contract-a",
       "publishedAt": null,
       "observedAt": "2026-11-09T05:57:00Z",
-      "delta_since_last_seen": "Alpaca includes production frontend, testing and deployment; LCA emphasizes research, prototypes and client communication."
+      "delta_since_last_seen": "HouseSigma lists CAD 50–100/hour; the other four do not disclose an amount."
     },
     {
       "id": "career-contract-b",
       "unitType": "jobs",
-      "zhHeadline": "合同与兼职：先看工时和时区",
-      "enHeadline": "Contract and part-time: check capacity and time zones",
+      "zhHeadline": "待核条件：开放状态与跨地域资格",
+      "enHeadline": "Conditional listings: opening status and location eligibility",
       "eventAt": "2026-11-09 supplementary check",
       "freshness": "post-window-hiring-observation",
       "evidence": "Employer descriptions and application routes rechecked November 9; original posting dates retained where verified",
@@ -469,7 +469,7 @@
       "product_key": "career-contract-b",
       "publishedAt": null,
       "observedAt": "2026-11-09T05:57:00Z",
-      "delta_since_last_seen": "Hello Robo covers robotics, AI and aviation interfaces, requiring 4–7 years of complex-app design."
+      "delta_since_last_seen": "Cached application text is not evidence that the opening remains available; confirm its current employer status."
     },
     {
       "id": "career-conditions",
@@ -516,159 +516,193 @@
       {
         "id": "samsara",
         "company": "Samsara",
+        "title": "Staff Product Designer",
         "url": "https://www.samsara.com/company/careers/roles/8275253?gh_jid=8275253",
         "newFound": false,
         "conditional": false,
+        "currentOpenVerified": true,
         "publishedAt": null,
         "observedAt": "2026-11-09T05:50:00Z"
       },
       {
         "id": "andgo-lead",
         "company": "Andgo",
+        "title": "Senior Product Designer / Design Lead",
         "url": "https://job-boards.greenhouse.io/andgosystems/jobs/4456641009",
         "newFound": false,
         "conditional": false,
+        "currentOpenVerified": true,
         "publishedAt": null,
         "observedAt": "2026-11-09T05:50:00Z"
       },
       {
         "id": "stackadapt",
         "company": "StackAdapt",
+        "title": "Staff Product Designer",
         "url": "https://job-boards.greenhouse.io/stackadapt/jobs/4410085009",
         "newFound": false,
         "conditional": false,
+        "currentOpenVerified": true,
         "publishedAt": null,
         "observedAt": "2026-11-09T05:50:00Z"
       },
       {
         "id": "life360",
         "company": "Life360",
+        "title": "Senior Product Designer II, Revenue Experimentation",
         "url": "https://job-boards.greenhouse.io/life360/jobs/8790900002",
         "newFound": false,
         "conditional": false,
+        "currentOpenVerified": true,
         "publishedAt": null,
         "observedAt": "2026-11-09T05:50:00Z"
       },
       {
         "id": "astell",
         "company": "Lab24 / Astell",
+        "title": "Product Designer (UI/UX)",
         "url": "https://astell.ai/en/careers/ui-ux",
         "newFound": false,
         "conditional": false,
-        "publishedAt": null,
-        "observedAt": "2026-11-09T05:50:00Z"
-      },
-      {
-        "id": "babylist-ai-builder",
-        "company": "Babylist",
-        "url": "https://job-boards.greenhouse.io/babylist/jobs/6104998004",
-        "newFound": false,
-        "conditional": false,
+        "currentOpenVerified": true,
         "publishedAt": null,
         "observedAt": "2026-11-09T05:50:00Z"
       },
       {
         "id": "tailscale-growth",
         "company": "Tailscale",
+        "title": "Product Designer (Growth)",
         "url": "https://job-boards.greenhouse.io/tailscale/jobs/4726042005",
         "newFound": false,
         "conditional": false,
+        "currentOpenVerified": true,
         "publishedAt": null,
         "observedAt": "2026-11-09T05:50:00Z"
       },
       {
         "id": "andgo-contract",
         "company": "Andgo",
+        "title": "Senior Product Designer (Contract)",
         "url": "https://job-boards.greenhouse.io/andgosystems/jobs/4456625009",
         "newFound": false,
         "conditional": false,
+        "currentOpenVerified": true,
         "publishedAt": null,
         "observedAt": "2026-11-09T05:50:00Z"
       },
       {
         "id": "alpaca",
         "company": "Alpaca",
+        "title": "Senior Product Designer, Operations Tools",
         "url": "https://job-boards.greenhouse.io/alpaca/jobs/6187326004",
         "newFound": false,
         "conditional": false,
+        "currentOpenVerified": true,
         "publishedAt": null,
         "observedAt": "2026-11-09T05:50:00Z"
       },
       {
         "id": "lca",
         "company": "LCA",
+        "title": "Sr. Product Designer (Freelance/Part-time)",
         "url": "https://www.latecheckout.agency/careers/sr-product-designer",
         "newFound": false,
         "conditional": false,
+        "currentOpenVerified": true,
         "publishedAt": null,
         "observedAt": "2026-11-09T05:50:00Z"
       },
       {
         "id": "housesigma",
         "company": "HouseSigma",
+        "title": "Senior Product Designer (Part-Time Role)",
         "url": "https://team.housesigma.com/job_posting/senior-product-designer/",
         "newFound": false,
         "conditional": false,
-        "publishedAt": null,
-        "observedAt": "2026-11-09T05:50:00Z"
-      },
-      {
-        "id": "upgraded",
-        "company": "Upgraded",
-        "url": "https://www.getupgraded.ca/jobs/product-designer",
-        "newFound": false,
-        "conditional": false,
+        "currentOpenVerified": true,
         "publishedAt": null,
         "observedAt": "2026-11-09T05:50:00Z"
       },
       {
         "id": "hello-robo",
         "company": "Hello Robo",
+        "title": "Senior product designer",
         "url": "https://www.hellorobo.co/careers/senior-product-designer",
         "newFound": true,
         "conditional": false,
+        "currentOpenVerified": true,
         "publishedAt": null,
         "observedAt": "2026-11-09T05:45:14Z"
       },
       {
+        "id": "babylist-ai-builder",
+        "company": "Babylist",
+        "title": "Staff Product Designer (AI Builder)",
+        "url": "https://job-boards.greenhouse.io/babylist/jobs/6104998004",
+        "newFound": false,
+        "conditional": true,
+        "currentOpenVerified": false,
+        "publishedAt": null,
+        "observedAt": "2026-11-09T05:50:00Z"
+      },
+      {
+        "id": "upgraded",
+        "company": "Upgraded",
+        "title": "Designer – Product, Software, Marketing & AI",
+        "url": "https://www.getupgraded.ca/jobs/product-designer",
+        "newFound": false,
+        "conditional": true,
+        "currentOpenVerified": true,
+        "publishedAt": null,
+        "observedAt": "2026-11-09T05:50:00Z"
+      },
+      {
         "id": "harvey",
         "company": "Harvey",
+        "title": "Staff Product Designer",
         "url": "https://www.harvey.ai/company/careers/7325a214-908d-48a4-bbc2-f5c3a6c9ed00",
         "newFound": false,
         "conditional": true,
+        "currentOpenVerified": true,
         "publishedAt": null,
         "observedAt": "2026-11-09T05:50:00Z"
       },
       {
         "id": "flex-contract",
         "company": "Flex",
+        "title": "Staff Product Designer (Contract)",
         "url": "https://job-boards.greenhouse.io/flex/jobs/4722531005",
         "newFound": false,
         "conditional": true,
+        "currentOpenVerified": true,
         "publishedAt": null,
         "observedAt": "2026-11-09T05:50:00Z"
       },
       {
         "id": "defcon-contract",
         "company": "DEFCON AI",
+        "title": "Product Designer (1099 Contract) | Active Secret Clearance Required",
         "url": "https://job-boards.greenhouse.io/defcon/jobs/5287684007",
         "newFound": true,
         "conditional": true,
+        "currentOpenVerified": true,
         "publishedAt": null,
         "observedAt": "2026-11-09T05:57:00Z"
       },
       {
         "id": "apf-ux",
         "company": "APF Canada",
+        "title": "APFC-2026-UX-01 — UX review and redesign recommendations",
         "url": "https://www.asiapacific.ca/about-us/employment-opportunities",
         "newFound": false,
         "conditional": true,
+        "currentOpenVerified": true,
         "publishedAt": "2026-10-22",
         "observedAt": "2026-11-09T05:50:00Z"
       }
     ],
-    "main": 13,
-    "conditional": 4,
+    "main": 11,
+    "conditional": 6,
     "newFound": 2,
     "revalidated": 15,
     "employers": 16,

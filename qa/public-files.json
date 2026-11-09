@@ -10951,23 +10951,23 @@
   },
   {
     "path": "weekly/2026-11-02/en/details/career-contract-a.html",
-    "bytes": 3890,
-    "sha256": "406796718c6459d0ed44609621d4d3cc049e3c52fada2b7445b8ab368dce1e16"
+    "bytes": 5940,
+    "sha256": "78c3af6c9388f2a26bc81ff80b8febf03164a73379d991782dae72659ee1ccb0"
   },
   {
     "path": "weekly/2026-11-02/en/details/career-contract-b.html",
-    "bytes": 4130,
-    "sha256": "55a3885fa56f31e0f1283a86c172b7fdd2063c891911c78e3b6b140ab2ebfc20"
+    "bytes": 3453,
+    "sha256": "b5064c149d273744b599cb4e6ec70d17eaf6b6c12a4cb9db4ec19debbf5de744"
   },
   {
     "path": "weekly/2026-11-02/en/details/career-employee-a.html",
-    "bytes": 4863,
-    "sha256": "14db36d335ec69edc5447dc0b97e26d9aa000ac4314a2129e9e6c9dca5a2cdc1"
+    "bytes": 3847,
+    "sha256": "caceb932f18d75544343506b2029a48c08383202714c7e3bab61ba739bd5cc0b"
   },
   {
     "path": "weekly/2026-11-02/en/details/career-employee-b.html",
-    "bytes": 4193,
-    "sha256": "ff9689512d005fbdeee30f0c81388722b37678f5159170fc3db161e7c2efb9e0"
+    "bytes": 4002,
+    "sha256": "c9a46cc1bdcd150889ddb71c0754964c3c629d34263c573f5ef976a68c0e5125"
   },
   {
     "path": "weekly/2026-11-02/en/details/highlight-affinity-ipad-unified-studios.html",
@@ -11006,68 +11006,68 @@
   },
   {
     "path": "weekly/2026-11-02/en/details/opportunity-content-discovery-audit.html",
-    "bytes": 4171,
-    "sha256": "0a8551efd7a8fb4ff64d64e2c2e26bf5b26195745aa1f55b475e4a563dedd9dc"
+    "bytes": 4184,
+    "sha256": "9e4b0902ec5574b995a6efbf5b3e6c537db2c3f6ce2070a0844d4c0e0c39c041"
   },
   {
     "path": "weekly/2026-11-02/en/details/opportunity-service-comparators.html",
-    "bytes": 4509,
-    "sha256": "a86066cefb168b70ed871abf11dfcce58f1bfab9f43f1ec9f5b2e991554ffb79"
+    "bytes": 4526,
+    "sha256": "570a16262f0f0f4782b623e215a9e84036123410326d65ca05a10492293b4d4d"
   },
   {
     "path": "weekly/2026-11-02/en/details/opportunity-support-evidence-packet.html",
-    "bytes": 4806,
-    "sha256": "fa7c9c6c56f052f8c6c051b4a0804923f028ce7c174bf19a9a1cd37d2e1edfb1"
+    "bytes": 4828,
+    "sha256": "ce4146d8a59f93745ac6ca96a441bb21f93f1347b018954b034a6b9a02486db0"
   },
   {
     "path": "weekly/2026-11-02/en/details/signal-editable-handoffs.html",
-    "bytes": 5485,
-    "sha256": "ac670dc89c17341d557481196b4e04a59764dce4d52a8eeef6c937d80d77e92d"
+    "bytes": 5478,
+    "sha256": "554cebf3e6ef9db4caf2bc16eefc5031954908ffdcb91fda91422b5b521774ab"
   },
   {
     "path": "weekly/2026-11-02/en/details/signal-maintenance-in-the-loop.html",
-    "bytes": 5316,
-    "sha256": "3cfc983a9cd507ea78093301725db8efdb038b3a54e5d29340745736ab553be3"
+    "bytes": 5309,
+    "sha256": "db505dfc44ec9d8dc4a63740aa9d9e760f63419009690574bbdadd84a9a0ec3b"
   },
   {
     "path": "weekly/2026-11-02/en/details/signal-owners-as-troubleshooters.html",
-    "bytes": 4828,
-    "sha256": "67c2e45f65eb6c1d4035b4a23d85c8509375ad2cdbc178121d68dc64cb79a585"
+    "bytes": 4850,
+    "sha256": "024e9244ea82db20947f317af3cd101149190e13fe8bedbf91853ed214352e9b"
   },
   {
     "path": "weekly/2026-11-02/en/details/signal-recovery-boundaries.html",
-    "bytes": 5112,
-    "sha256": "7cda73f94111149a5b1aefcced9d44be1c75fc38fcf37f537309ce8a897d43ab"
+    "bytes": 5105,
+    "sha256": "c521ee74500d0c4891df710a6b00cf89262105598b9dc923a7a31b9282e547c6"
   },
   {
     "path": "weekly/2026-11-02/en/details/talent-demand.html",
-    "bytes": 6204,
-    "sha256": "a865a5bd1c3aa5b2b3a9b7f6009aff0c9ec598773da4fd2e489abef95114f0ea"
+    "bytes": 6363,
+    "sha256": "28972fa552284d87a9b22fb6ca3c1f57e90a9237bd63afda32f3430686e47720"
   },
   {
     "path": "weekly/2026-11-02/en/index.html",
-    "bytes": 64307,
-    "sha256": "dda265a9134e79acd0f505023f856f6063402c74decb0725e69a7a0a1bd32130"
+    "bytes": 64378,
+    "sha256": "247f116de853a0e41b81355987de3cdd04ded3d708a3883cca05b90f92912804"
   },
   {
     "path": "weekly/2026-11-02/manifest.json",
-    "bytes": 27143,
-    "sha256": "736558b946f6f37b15bbb382907dfce558d6b560d6bf5f4104b0b48c933cd725"
+    "bytes": 28700,
+    "sha256": "ff3b931d44247ff0bed1e84299c10a084a49402d5f05b111da81e80bcacca1de"
   },
   {
     "path": "weekly/2026-11-02/sources.html",
-    "bytes": 37929,
-    "sha256": "a60d872aeeb302f8af53390412f6e0136b1e0bc99eee735a407864988cb1d5b5"
+    "bytes": 37983,
+    "sha256": "4f4fdaa41dc25b147f82494d72d26eb5ea44714c9166009759d72a7de5b75bd3"
   },
   {
     "path": "weekly/2026-11-02/sources.json",
-    "bytes": 15179,
-    "sha256": "5b50fb365a3c9263b144964144f63bba720f243761dc330a683c91eabe733e2a"
+    "bytes": 15233,
+    "sha256": "682000c9205b22d1058740acc2bd84d04e7b8921e0d26b0a8ed6371ab6ff76a9"
   },
   {
     "path": "weekly/2026-11-02/visuals.json",
-    "bytes": 10641,
-    "sha256": "46d1450704afc143e2bb72bd9956f9d9b88cb531decd9fa9862d0866f1bebda9"
+    "bytes": 10725,
+    "sha256": "63d08620544d016c70dc1cec80c6ec54995214f9132a3fa609909f2121ed58b2"
   },
   {
     "path": "weekly/2026-11-02/zh/details/career-conditions.html",
@@ -11076,23 +11076,23 @@
   },
   {
     "path": "weekly/2026-11-02/zh/details/career-contract-a.html",
-    "bytes": 3714,
-    "sha256": "2f08fb53cb596b1274c40f681bb050355e7638630ac9bb0edefe83470f6128ad"
+    "bytes": 5658,
+    "sha256": "43457ae14afb9f33b71eb416cfe4dd01c568075eee3586123803fba645d8a991"
   },
   {
     "path": "weekly/2026-11-02/zh/details/career-contract-b.html",
-    "bytes": 3935,
-    "sha256": "2e07a13b97e69b954d24bc59e611ea2fba8c9aa9725f47c21927b3b0c39a31f7"
+    "bytes": 3215,
+    "sha256": "d9777aca9a23b3a51087814dedb0697cca118e2e7a283a8877b706838c5cb3d1"
   },
   {
     "path": "weekly/2026-11-02/zh/details/career-employee-a.html",
-    "bytes": 4665,
-    "sha256": "9cf807e9b93ba95909a74370a4ebf1ae2f8528e1277e1da6ebe3ce20d4d23710"
+    "bytes": 3706,
+    "sha256": "bcfd342a536d7fa7c672f1e9ca44a828412022a2cec0d167ab18eab4d3fc2e13"
   },
   {
     "path": "weekly/2026-11-02/zh/details/career-employee-b.html",
-    "bytes": 3952,
-    "sha256": "d75cab133f890f97820729a6a5da49d2b23e78f3aa38655922669c7cff6c3259"
+    "bytes": 3834,
+    "sha256": "bbe00855747fec93d566757b93e8c70e1112133304e3bd07ec6b2b8d024e415a"
   },
   {
     "path": "weekly/2026-11-02/zh/details/highlight-affinity-ipad-unified-studios.html",
@@ -11131,48 +11131,48 @@
   },
   {
     "path": "weekly/2026-11-02/zh/details/opportunity-content-discovery-audit.html",
-    "bytes": 3950,
-    "sha256": "465bfde9dc9d53826b625f502577c24cf3e565717954472f9068b486a78d715f"
+    "bytes": 3963,
+    "sha256": "838de6bc903a83ff87ba7e3711e4f3b2f27fd2a3d59b5d5931c0dbd077c9c40f"
   },
   {
     "path": "weekly/2026-11-02/zh/details/opportunity-service-comparators.html",
-    "bytes": 4234,
-    "sha256": "6ad61bc4c6e86e6515fd5051c46e842fe6d175868cd165b8d411fad7180b6e64"
+    "bytes": 4251,
+    "sha256": "ed7ccd112002bfdb1212253933f54bdea1a1cd4a160ea87c372637593b6c980b"
   },
   {
     "path": "weekly/2026-11-02/zh/details/opportunity-support-evidence-packet.html",
-    "bytes": 4595,
-    "sha256": "f0d6e6c57f8abb62ee814ddb6af1014546902d2fb7c37d0335bcfa0e3b6b6057"
+    "bytes": 4617,
+    "sha256": "654b37f4dec8f15faeb22735eb1ec51926427cd6170cd45d22b3ef052509d8c4"
   },
   {
     "path": "weekly/2026-11-02/zh/details/signal-editable-handoffs.html",
-    "bytes": 5226,
-    "sha256": "e332117409f9a06d565ef50c07a8d10c64fd7e1b0c71eb3ea0b5b61a1e2cf186"
+    "bytes": 5219,
+    "sha256": "bb4f370b7d85473d3c2c9ebb684a3cfad842bfea8ecb764a6712ea809a2de912"
   },
   {
     "path": "weekly/2026-11-02/zh/details/signal-maintenance-in-the-loop.html",
-    "bytes": 5025,
-    "sha256": "1fdba5654c6b3fb97fde15ca816d1402a0fcbcc5a882ac15b6c9e9cffbbc9998"
+    "bytes": 5018,
+    "sha256": "eb8cc4d43fefac4f650807f73670fba3cd1f1d6263a1849ec81b3ee34eb4b92c"
   },
   {
     "path": "weekly/2026-11-02/zh/details/signal-owners-as-troubleshooters.html",
-    "bytes": 4494,
-    "sha256": "d980669abbe14f1399e9da359fa6d1e210d93cbfb080c7bacbf0f42af737ec7b"
+    "bytes": 4516,
+    "sha256": "45bc815e53c30f45b04705d7c6508e77627fd71ad00c8962f22dc783d32274bd"
   },
   {
     "path": "weekly/2026-11-02/zh/details/signal-recovery-boundaries.html",
-    "bytes": 4865,
-    "sha256": "686b64db5effa66d4a0bef12b3b62c7759e887a2d72f9acdae7122872a540571"
+    "bytes": 4858,
+    "sha256": "72d867f78f25122d76abb749d440d49c5630c431ea26684fd98b7812786edbd4"
   },
   {
     "path": "weekly/2026-11-02/zh/details/talent-demand.html",
-    "bytes": 5823,
-    "sha256": "ac5e19e7465d25c2a7a119ba52a765f3d884874cb45e3c706ff0b08b080c731c"
+    "bytes": 5954,
+    "sha256": "bafc3af34066d93221d3352c0408c4d77c616b73496bb3172c18658b9c0551cb"
   },
   {
     "path": "weekly/2026-11-02/zh/index.html",
-    "bytes": 62532,
-    "sha256": "4d41a90c9d893da8042f655fb3ad2e77bc89b6d5e3dddd2a80654b4914532a13"
+    "bytes": 62556,
+    "sha256": "3d24a1a8e03caa1f80cb388737358f371c5d1a3e57324207df32ad192436304e"
   },
   {
     "path": "weekly/assets/pilot.css",

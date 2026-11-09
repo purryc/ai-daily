@@ -3,8 +3,8 @@
   "issue": "weekly/2026-11-02",
   "metrics": {
     "body": {
-      "zhDenseChars": 7666,
-      "enWords": 4661
+      "zhDenseChars": 7743,
+      "enWords": 4700
     },
     "perProduct": {
       "highlight-affinity-ipad-unified-studios": {
@@ -64,28 +64,28 @@
         "en": 219
       },
       "career-employee-a": {
-        "zh": 321,
-        "en": 209
+        "zh": 233,
+        "en": 149
       },
       "career-employee-b": {
-        "zh": 332,
-        "en": 191
+        "zh": 282,
+        "en": 169
       },
       "career-contract-a": {
-        "zh": 233,
-        "en": 137
+        "zh": 445,
+        "en": 273
       },
       "career-contract-b": {
-        "zh": 286,
-        "en": 181
+        "zh": 255,
+        "en": 145
       },
       "career-conditions": {
         "zh": 402,
         "en": 265
       },
       "talent-demand": {
-        "zh": 451,
-        "en": 269
+        "zh": 485,
+        "en": 290
       }
     },
     "primarySummaries": {
@@ -146,28 +146,28 @@
         "en": 69
       },
       "career-employee-a": {
-        "zh": 146,
-        "en": 113
+        "zh": 151,
+        "en": 97
       },
       "career-employee-b": {
-        "zh": 147,
-        "en": 99
+        "zh": 148,
+        "en": 98
       },
       "career-contract-a": {
-        "zh": 133,
-        "en": 102
+        "zh": 156,
+        "en": 130
       },
       "career-contract-b": {
-        "zh": 117,
-        "en": 106
+        "zh": 146,
+        "en": 101
       },
       "career-conditions": {
         "zh": 149,
         "en": 132
       },
       "talent-demand": {
-        "zh": 156,
-        "en": 91
+        "zh": 151,
+        "en": 90
       }
     },
     "counting": "Only unique full-analysis product paragraphs count toward body gates; summaries, captions, coverage and sources excluded.",
@@ -178,12 +178,12 @@
     "primaryProjectPages": 20,
     "attachedProjectDetails": 20,
     "primaryBody": {
-      "zhDenseChars": 2669,
-      "enWords": 1677
+      "zhDenseChars": 2722,
+      "enWords": 1682
     },
     "completeReadingBody": {
-      "zhDenseChars": 10335,
-      "enWords": 6338
+      "zhDenseChars": 10465,
+      "enWords": 6382
     }
   },
   "units": [
@@ -283,10 +283,10 @@
     "opportunity-support-evidence-packet": 3,
     "opportunity-content-discovery-audit": 3,
     "opportunity-service-comparators": 3,
-    "career-employee-a": 4,
+    "career-employee-a": 3,
     "career-employee-b": 3,
-    "career-contract-a": 3,
-    "career-contract-b": 3,
+    "career-contract-a": 5,
+    "career-contract-b": 2,
     "career-conditions": 4,
     "talent-demand": 4
   },
@@ -295,159 +295,193 @@
       {
         "id": "samsara",
         "company": "Samsara",
+        "title": "Staff Product Designer",
         "url": "https://www.samsara.com/company/careers/roles/8275253?gh_jid=8275253",
         "newFound": false,
         "conditional": false,
+        "currentOpenVerified": true,
         "publishedAt": null,
         "observedAt": "2026-11-09T05:50:00Z"
       },
       {
         "id": "andgo-lead",
         "company": "Andgo",
+        "title": "Senior Product Designer / Design Lead",
         "url": "https://job-boards.greenhouse.io/andgosystems/jobs/4456641009",
         "newFound": false,
         "conditional": false,
+        "currentOpenVerified": true,
         "publishedAt": null,
         "observedAt": "2026-11-09T05:50:00Z"
       },
       {
         "id": "stackadapt",
         "company": "StackAdapt",
+        "title": "Staff Product Designer",
         "url": "https://job-boards.greenhouse.io/stackadapt/jobs/4410085009",
         "newFound": false,
         "conditional": false,
+        "currentOpenVerified": true,
         "publishedAt": null,
         "observedAt": "2026-11-09T05:50:00Z"
       },
       {
         "id": "life360",
         "company": "Life360",
+        "title": "Senior Product Designer II, Revenue Experimentation",
         "url": "https://job-boards.greenhouse.io/life360/jobs/8790900002",
         "newFound": false,
         "conditional": false,
+        "currentOpenVerified": true,
         "publishedAt": null,
         "observedAt": "2026-11-09T05:50:00Z"
       },
       {
         "id": "astell",
         "company": "Lab24 / Astell",
+        "title": "Product Designer (UI/UX)",
         "url": "https://astell.ai/en/careers/ui-ux",
         "newFound": false,
         "conditional": false,
-        "publishedAt": null,
-        "observedAt": "2026-11-09T05:50:00Z"
-      },
-      {
-        "id": "babylist-ai-builder",
-        "company": "Babylist",
-        "url": "https://job-boards.greenhouse.io/babylist/jobs/6104998004",
-        "newFound": false,
-        "conditional": false,
+        "currentOpenVerified": true,
         "publishedAt": null,
         "observedAt": "2026-11-09T05:50:00Z"
       },
       {
         "id": "tailscale-growth",
         "company": "Tailscale",
+        "title": "Product Designer (Growth)",
         "url": "https://job-boards.greenhouse.io/tailscale/jobs/4726042005",
         "newFound": false,
         "conditional": false,
+        "currentOpenVerified": true,
         "publishedAt": null,
         "observedAt": "2026-11-09T05:50:00Z"
       },
       {
         "id": "andgo-contract",
         "company": "Andgo",
+        "title": "Senior Product Designer (Contract)",
         "url": "https://job-boards.greenhouse.io/andgosystems/jobs/4456625009",
         "newFound": false,
         "conditional": false,
+        "currentOpenVerified": true,
         "publishedAt": null,
         "observedAt": "2026-11-09T05:50:00Z"
       },
       {
         "id": "alpaca",
         "company": "Alpaca",
+        "title": "Senior Product Designer, Operations Tools",
         "url": "https://job-boards.greenhouse.io/alpaca/jobs/6187326004",
         "newFound": false,
         "conditional": false,
+        "currentOpenVerified": true,
         "publishedAt": null,
         "observedAt": "2026-11-09T05:50:00Z"
       },
       {
         "id": "lca",
         "company": "LCA",
+        "title": "Sr. Product Designer (Freelance/Part-time)",
         "url": "https://www.latecheckout.agency/careers/sr-product-designer",
         "newFound": false,
         "conditional": false,
+        "currentOpenVerified": true,
         "publishedAt": null,
         "observedAt": "2026-11-09T05:50:00Z"
       },
       {
         "id": "housesigma",
         "company": "HouseSigma",
+        "title": "Senior Product Designer (Part-Time Role)",
         "url": "https://team.housesigma.com/job_posting/senior-product-designer/",
         "newFound": false,
         "conditional": false,
-        "publishedAt": null,
-        "observedAt": "2026-11-09T05:50:00Z"
-      },
-      {
-        "id": "upgraded",
-        "company": "Upgraded",
-        "url": "https://www.getupgraded.ca/jobs/product-designer",
-        "newFound": false,
-        "conditional": false,
+        "currentOpenVerified": true,
         "publishedAt": null,
         "observedAt": "2026-11-09T05:50:00Z"
       },
       {
         "id": "hello-robo",
         "company": "Hello Robo",
+        "title": "Senior product designer",
         "url": "https://www.hellorobo.co/careers/senior-product-designer",
         "newFound": true,
         "conditional": false,
+        "currentOpenVerified": true,
         "publishedAt": null,
         "observedAt": "2026-11-09T05:45:14Z"
       },
       {
+        "id": "babylist-ai-builder",
+        "company": "Babylist",
+        "title": "Staff Product Designer (AI Builder)",
+        "url": "https://job-boards.greenhouse.io/babylist/jobs/6104998004",
+        "newFound": false,
+        "conditional": true,
+        "currentOpenVerified": false,
+        "publishedAt": null,
+        "observedAt": "2026-11-09T05:50:00Z"
+      },
+      {
+        "id": "upgraded",
+        "company": "Upgraded",
+        "title": "Designer – Product, Software, Marketing & AI",
+        "url": "https://www.getupgraded.ca/jobs/product-designer",
+        "newFound": false,
+        "conditional": true,
+        "currentOpenVerified": true,
+        "publishedAt": null,
+        "observedAt": "2026-11-09T05:50:00Z"
+      },
+      {
         "id": "harvey",
         "company": "Harvey",
+        "title": "Staff Product Designer",
         "url": "https://www.harvey.ai/company/careers/7325a214-908d-48a4-bbc2-f5c3a6c9ed00",
         "newFound": false,
         "conditional": true,
+        "currentOpenVerified": true,
         "publishedAt": null,
         "observedAt": "2026-11-09T05:50:00Z"
       },
       {
         "id": "flex-contract",
         "company": "Flex",
+        "title": "Staff Product Designer (Contract)",
         "url": "https://job-boards.greenhouse.io/flex/jobs/4722531005",
         "newFound": false,
         "conditional": true,
+        "currentOpenVerified": true,
         "publishedAt": null,
         "observedAt": "2026-11-09T05:50:00Z"
       },
       {
         "id": "defcon-contract",
         "company": "DEFCON AI",
+        "title": "Product Designer (1099 Contract) | Active Secret Clearance Required",
         "url": "https://job-boards.greenhouse.io/defcon/jobs/5287684007",
         "newFound": true,
         "conditional": true,
+        "currentOpenVerified": true,
         "publishedAt": null,
         "observedAt": "2026-11-09T05:57:00Z"
       },
       {
         "id": "apf-ux",
         "company": "APF Canada",
+        "title": "APFC-2026-UX-01 — UX review and redesign recommendations",
         "url": "https://www.asiapacific.ca/about-us/employment-opportunities",
         "newFound": false,
         "conditional": true,
+        "currentOpenVerified": true,
         "publishedAt": "2026-10-22",
         "observedAt": "2026-11-09T05:50:00Z"
       }
     ],
-    "main": 13,
-    "conditional": 4,
+    "main": 11,
+    "conditional": 6,
     "newFound": 2,
     "revalidated": 15,
     "employers": 16,
@@ -482,7 +516,9 @@
         "company": "StackAdapt",
         "typeZh": "雇佣类型未明／美加remote-first",
         "typeEn": "Type unspecified / US–Canada remote-first"
-      },
+      }
+    ],
+    "career-employee-b": [
       {
         "id": "life360",
         "url": "https://job-boards.greenhouse.io/life360/jobs/8790900002",
@@ -491,9 +527,7 @@
         "company": "Life360",
         "typeZh": "雇员／美加远程；全职标签未明",
         "typeEn": "Employee / US–Canada remote; full-time label unstated"
-      }
-    ],
-    "career-employee-b": [
+      },
       {
         "id": "astell",
         "url": "https://astell.ai/en/careers/ui-ux",
@@ -502,15 +536,6 @@
         "company": "Lab24 / Astell",
         "typeZh": "全职，可考虑兼职／全球远程",
         "typeEn": "Full-time; part-time considered / global remote"
-      },
-      {
-        "id": "babylist-ai-builder",
-        "url": "https://job-boards.greenhouse.io/babylist/jobs/6104998004",
-        "conditional": false,
-        "title": "Staff Product Designer (AI Builder)",
-        "company": "Babylist",
-        "typeZh": "雇员／加拿大remote-first",
-        "typeEn": "Employee / Canada remote-first"
       },
       {
         "id": "tailscale-growth",
@@ -549,9 +574,7 @@
         "company": "LCA",
         "typeZh": "自由合同／兼职；全球远程",
         "typeEn": "Freelance / part-time; global remote"
-      }
-    ],
-    "career-contract-b": [
+      },
       {
         "id": "housesigma",
         "url": "https://team.housesigma.com/job_posting/senior-product-designer/",
@@ -562,15 +585,6 @@
         "typeEn": "Part-time / Canada-wide remote"
       },
       {
-        "id": "upgraded",
-        "url": "https://www.getupgraded.ca/jobs/product-designer",
-        "conditional": false,
-        "title": "Designer – Product, Software, Marketing & AI",
-        "company": "Upgraded",
-        "typeZh": "兼职／Vancouver remote-friendly",
-        "typeEn": "Part-time / Vancouver remote-friendly"
-      },
-      {
         "id": "hello-robo",
         "url": "https://www.hellorobo.co/careers/senior-product-designer",
         "conditional": false,
@@ -578,6 +592,26 @@
         "company": "Hello Robo",
         "typeZh": "合同／远程，US-friendly时区",
         "typeEn": "Contract / remote, US-friendly time zones"
+      }
+    ],
+    "career-contract-b": [
+      {
+        "id": "babylist-ai-builder",
+        "url": "https://job-boards.greenhouse.io/babylist/jobs/6104998004",
+        "conditional": true,
+        "title": "Staff Product Designer (AI Builder)",
+        "company": "Babylist",
+        "typeZh": "雇员／加拿大remote-first线索；当前开放状态未核实",
+        "typeEn": "Employee / Canada remote-first lead; current opening unverified"
+      },
+      {
+        "id": "upgraded",
+        "url": "https://www.getupgraded.ca/jobs/product-designer",
+        "conditional": true,
+        "title": "Designer – Product, Software, Marketing & AI",
+        "company": "Upgraded",
+        "typeZh": "兼职／温哥华remote-friendly；跨地域资格未确认",
+        "typeEn": "Part-time / Vancouver remote-friendly; cross-region eligibility unconfirmed"
       }
     ],
     "career-conditions": [
