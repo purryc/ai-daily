@@ -1,29 +1,58 @@
 [
   {
-    "name": "groundwork-teaser.jpg",
+    "name": "frameboy-gallery.jpg",
     "kind": "image",
-    "url": "https://arxiv.org/html/2611.09840v1/teaser.png",
+    "url": "https://ph-files.imgix.net/8a2eac91-2133-4725-9bc3-ba88f1162e95.jpeg",
     "locale": "zh",
     "renderImage": true
   },
   {
-    "name": "deepradio-ui.jpg",
+    "name": "air-01.jpg",
     "kind": "image",
-    "url": "https://arxiv.org/html/2611.09418v1/ui.png",
+    "url": "https://cdn.prod.website-files.com/69712af878a1e6ee369f3425/6a7491169362d9d6cb5b0593_air-01-v4.avif",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "name": "fin-releases.jpg",
+    "kind": "screenshot",
+    "url": "https://www.intercom.com/changes/en/162600-make-changes-to-fin-with-confidence-using-releases",
+    "selector": "img[src*=\"2789173151\"]",
+    "locale": "zh"
+  },
+  {
+    "name": "fin-evals.jpg",
+    "kind": "screenshot",
+    "url": "https://www.intercom.com/changes/en/162626-fin-evals-test-every-change-to-fin-before-it-reaches-customers",
+    "selector": "img[src*=\"2787950796\"]",
+    "locale": "zh"
+  },
+  {
+    "name": "observer-phone-local-monitoring-demo.jpg",
+    "url": "https://external-preview.redd.it/use-your-phone-to-monitor-anything-with-local-models-demo-v0-N3A5dXo2ZmhjODBpMW_apGTg9Ajdcbh1unJZegYd2EArLZ3JBPqZMQBJz8t3.png?auto=webp&crop=smart&format=pjpg&s=18e0f9f32ffefdb97f5d6d09e9aafe56e78d7cc3&width=640",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "name": "nyt-cooking-custom-version.jpg",
+    "url": "https://media.wired.com/photos/6aee769fab6d5186f7a7c106/master/w_1600,c_limit/nyt-cooking-ai-2.png",
+    "kind": "image",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "name": "noitom-itw-ego-plus.jpg",
+    "url": "https://ml.globenewswire.com/Resource/Download/388f3774-730e-49a9-a36a-cc90353fab9d?size=3",
+    "kind": "image",
     "locale": "zh",
     "renderImage": true
   },
   {
-    "name": "lea-overleaf.jpg",
+    "name": "openwebui-core.jpg",
     "kind": "image",
-    "url": "https://arxiv.org/html/2611.08849v1/figures/lea_overleaf.png",
-    "locale": "zh",
-    "renderImage": true
-  },
-  {
-    "name": "motiondecipher-workflow.jpg",
-    "kind": "image",
-    "url": "https://arxiv.org/html/2611.08795v1/Introduction_Figure_Revised.png",
+    "url": "https://cdn.openwebui.com/open-webui-demo.gif",
+    "captureDelayMs": 4000,
     "locale": "zh",
     "renderImage": true
   }
