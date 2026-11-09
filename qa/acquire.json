@@ -1,1 +1,53 @@
-[]
+[
+  {
+    "name": "groundwork-teaser.png",
+    "kind": "image",
+    "url": "https://arxiv.org/html/2611.09840v1/teaser.png",
+    "locale": "zh"
+  },
+  {
+    "name": "deepradio-ui.png",
+    "kind": "image",
+    "url": "https://arxiv.org/html/2611.09418v1/ui.png",
+    "locale": "zh"
+  },
+  {
+    "name": "lea-overleaf.png",
+    "kind": "image",
+    "url": "https://arxiv.org/html/2611.08849v1/figures/lea_overleaf.png",
+    "locale": "zh"
+  },
+  {
+    "name": "motiondecipher-workflow.png",
+    "kind": "image",
+    "url": "https://arxiv.org/html/2611.08795v1/Introduction_Figure_Revised.png",
+    "locale": "zh"
+  },
+  {
+    "name": "frameboy-gallery.jpg",
+    "kind": "image",
+    "url": "https://ph-files.imgix.net/8a2eac91-2133-4725-9bc3-ba88f1162e95.jpeg",
+    "locale": "zh"
+  },
+  {
+    "name": "air-01.jpg",
+    "kind": "image",
+    "url": "https://cdn.prod.website-files.com/69712af878a1e6ee369f3425/6a7491169362d9d6cb5b0593_air-01-v4.avif",
+    "renderImage": true,
+    "locale": "zh"
+  },
+  {
+    "name": "fin-releases.jpg",
+    "kind": "screenshot",
+    "url": "https://www.intercom.com/changes/en/162600-make-changes-to-fin-with-confidence-using-releases",
+    "selector": "img[src*=\"2789173151\"]",
+    "locale": "zh"
+  },
+  {
+    "name": "fin-evals.jpg",
+    "kind": "screenshot",
+    "url": "https://www.intercom.com/changes/en/162626-fin-evals-test-every-change-to-fin-before-it-reaches-customers",
+    "selector": "img[src*=\"2787950796\"]",
+    "locale": "zh"
+  }
+]
