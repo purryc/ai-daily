@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-11-09",
+    "zhTitle": "AI Daily｜2026年11月9日 · 改动留下痕迹，动作有据可查",
+    "enTitle": "AI Daily | November 9, 2026 · Edits leave traces; actions need evidence",
+    "zhSummary": "NYT食谱改写、Frameboy交互世界、开发工具连接与机器人数据；14项产品及研究，按真实事件日期补充回看。",
+    "enSummary": "Recipe customization, interactive worlds, tool connections and robot data:14 products and research projects, with explicit event dates and supplements.",
+    "tags": [
+      "consumer AI",
+      "creative tools",
+      "physical interaction",
+      "research"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "research"
+    ],
+    "coverStory": {
+      "topicId": "nyt-cooking-customization-review",
+      "zhTitle": "NYT Cooking recipe customization",
+      "enTitle": "NYT Cooking recipe customization",
+      "imagePath": "assets/nyt-cooking-custom-version.jpg",
+      "imageSourceUrl": "https://media.wired.com/photos/6aee769fab6d5186f7a7c106/master/w_1600,c_limit/nyt-cooking-ai-2.png",
+      "primarySourceUrl": "https://www.wired.com/story/nyt-cooking-new-ai-powered-recipe-modifier-is-pretty-good/",
+      "evidenceStrength": "WIRED reviewer cooking observations plus original NYT help; no editor hands-on"
+    },
+    "zhPath": "./2026-11-09/zh/",
+    "enPath": "./2026-11-09/en/",
+    "sourcesPath": "./2026-11-09/sources.html"
+  },
+  {
     "date": "2026-11-08",
     "zhTitle": "AI Daily｜2026年11月8日 · 创作修补、代理记录与物理交互",
     "enTitle": "AI Daily | November 8, 2026 · Creative fixes, agent traces and physical interaction",

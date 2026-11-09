@@ -1,0 +1,382 @@
+{
+  "date": "2026-11-09",
+  "timezone": "America/Toronto",
+  "cutoff": "2026-11-09T09:10:54Z",
+  "windowStart": "2026-11-08T09:10:54Z",
+  "metrics": {
+    "body": {
+      "zhDenseChars": 10053,
+      "enWords": 5760
+    },
+    "perProduct": {
+      "nyt-cooking-customization-review": {
+        "zh": 717,
+        "en": 412
+      },
+      "frameboy-atlas-interactive-preview": {
+        "zh": 742,
+        "en": 407
+      },
+      "openwebui-tether-013": {
+        "zh": 686,
+        "en": 422
+      },
+      "activepieces-093-mcp-oauth": {
+        "zh": 737,
+        "en": 433
+      },
+      "fin-releases-evals-nov5": {
+        "zh": 777,
+        "en": 428
+      },
+      "embodied-air-tendon-learning": {
+        "zh": 768,
+        "en": 409
+      },
+      "topstar-star-industrial-biped": {
+        "zh": 767,
+        "en": 417
+      },
+      "noitom-itw-ego-plus": {
+        "zh": 749,
+        "en": 405
+      },
+      "groundwork-editable-arguments": {
+        "zh": 654,
+        "en": 380
+      },
+      "lea-overleaf-formalization": {
+        "zh": 677,
+        "en": 392
+      },
+      "deepradio-physical-control": {
+        "zh": 613,
+        "en": 384
+      },
+      "motiondecipher-gait-description": {
+        "zh": 663,
+        "en": 400
+      },
+      "crewai-11538-row-input-eval": {
+        "zh": 759,
+        "en": 436
+      },
+      "agentframework-125-mcp-discovery": {
+        "zh": 744,
+        "en": 435
+      }
+    },
+    "primarySummaries": {
+      "nyt-cooking-customization-review": {
+        "zh": 154,
+        "en": 71
+      },
+      "frameboy-atlas-interactive-preview": {
+        "zh": 141,
+        "en": 85
+      },
+      "openwebui-tether-013": {
+        "zh": 102,
+        "en": 58
+      },
+      "activepieces-093-mcp-oauth": {
+        "zh": 95,
+        "en": 60
+      },
+      "fin-releases-evals-nov5": {
+        "zh": 134,
+        "en": 74
+      },
+      "embodied-air-tendon-learning": {
+        "zh": 154,
+        "en": 84
+      },
+      "topstar-star-industrial-biped": {
+        "zh": 137,
+        "en": 77
+      },
+      "noitom-itw-ego-plus": {
+        "zh": 162,
+        "en": 83
+      },
+      "groundwork-editable-arguments": {
+        "zh": 116,
+        "en": 47
+      },
+      "lea-overleaf-formalization": {
+        "zh": 112,
+        "en": 57
+      },
+      "deepradio-physical-control": {
+        "zh": 106,
+        "en": 55
+      },
+      "motiondecipher-gait-description": {
+        "zh": 113,
+        "en": 61
+      },
+      "crewai-11538-row-input-eval": {
+        "zh": 107,
+        "en": 57
+      },
+      "agentframework-125-mcp-discovery": {
+        "zh": 92,
+        "en": 56
+      }
+    },
+    "counting": "Only unique full-analysis product paragraphs count toward body gates; summaries, captions, coverage and sources excluded.",
+    "products": 14,
+    "references": 45,
+    "coreVisuals": 14,
+    "slidesPerLocale": 17,
+    "primaryProjectPages": 14,
+    "attachedProjectDetails": 14,
+    "primaryBody": {
+      "zhDenseChars": 1725,
+      "enWords": 925
+    },
+    "completeReadingBody": {
+      "zhDenseChars": 11778,
+      "enWords": 6685
+    }
+  },
+  "revision": {
+    "label": "morning-edition",
+    "originalCutoffRetained": true,
+    "newIssue": true,
+    "baselineCommit": "3a61ca5120577a78aaaca0161a86de6b0bb297ea"
+  },
+  "topics": [
+    {
+      "id": "nyt-cooking-customization-review",
+      "zhHeadline": "NYT Cooking把替换直接写回菜谱，改过食材仍要检查后续火候",
+      "enHeadline": "NYT Cooking writes substitutions into the recipe; later cooking steps still need checking",
+      "eventAt": "2026-11-08",
+      "freshness": "near-three-day",
+      "evidence": "WIRED reviewer cooking observations plus original NYT help; no editor hands-on",
+      "eventDateNote": "WIRED displays November8 07:00; timezone unconfirmed, cannot prove main-window membership",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "nyt-cooking-wired-review-2026-11-08",
+      "product_key": "nyt-cooking-customization",
+      "publishedAt": "2026-11-08",
+      "observedAt": "2026-11-09T09:20:19.495836Z",
+      "delta_since_last_seen": "A November 8 cooking review finds useful changes alongside a missed downstream step."
+    },
+    {
+      "id": "frameboy-atlas-interactive-preview",
+      "zhHeadline": "Frameboy让相机边走边生成，自己的场景仍要等Viewfinder资格",
+      "enHeadline": "Frameboy generates as the camera moves; custom scenes still need Viewfinder access",
+      "eventAt": "2026-11-05",
+      "freshness": "seven-day",
+      "evidence": "Original public sources read; no hands-on test by this publication",
+      "eventDateNote": "Official calendar date; exact announcement clock not independently verified",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "frameboy-atlas-interactive-preview-2026-11-05",
+      "product_key": "frameboy-atlas-interactive-preview",
+      "publishedAt": "2026-11-05",
+      "observedAt": "2026-11-09T09:17:59.367983Z",
+      "delta_since_last_seen": "The November 5 change is interactive exploration; its November 8 PH appearance is not another model launch."
+    },
+    {
+      "id": "openwebui-tether-013",
+      "zhHeadline": "Open WebUI把电脑接进聊天，Tether让手机也能回到同一工作现场",
+      "enHeadline": "Open WebUI connects a computer to chat; Tether lets a phone reach the same workspace",
+      "eventAt": "2026-11-08T11:07:53Z",
+      "freshness": "main",
+      "evidence": "Original release and supporting product documentation read; not installed or independently tested",
+      "eventDateNote": "Exact published_at UTC from original GitHub release API, independently read by sole publisher",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "openwebui-tether-013-2026-11-08",
+      "product_key": "openwebui-tether-013",
+      "publishedAt": "2026-11-08T11:07:53Z",
+      "observedAt": "2026-11-09T09:19:58.049222Z",
+      "delta_since_last_seen": "Approvals stay in chat; each conversation uses one agent."
+    },
+    {
+      "id": "activepieces-093-mcp-oauth",
+      "zhHeadline": "Activepieces补上MCP OAuth连接，生成流程后仍能逐步检查再发布",
+      "enHeadline": "Activepieces adds MCP OAuth connections while keeping flows inspectable before publication",
+      "eventAt": "2026-11-08T14:30:22Z",
+      "freshness": "main",
+      "evidence": "Original release and supporting product documentation read; not installed or independently tested",
+      "eventDateNote": "Exact published_at UTC from original GitHub release API, independently read by sole publisher",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "activepieces-093-mcp-oauth-2026-11-08",
+      "product_key": "activepieces-093-mcp-oauth",
+      "publishedAt": "2026-11-08T14:30:22Z",
+      "observedAt": "2026-11-09T09:19:58.049222Z",
+      "delta_since_last_seen": "Version 0.93.0 adds client OAuth2; server tools have separate project scope."
+    },
+    {
+      "id": "fin-releases-evals-nov5",
+      "zhHeadline": "Fin把客服规则改动先放进待发布版本，再用模拟对话检查",
+      "enHeadline": "Fin stages support changes in a release before testing them with simulated conversations",
+      "eventAt": "2026-11-05",
+      "freshness": "seven-day",
+      "evidence": "Official changelog and documentation read; vendor-described operation, not editor hands-on",
+      "eventDateNote": "Official changelog calendar date; exact publication clock and timezone unconfirmed",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "fin-releases-evals-ga-2026-11-05",
+      "product_key": "fin-releases-evals",
+      "publishedAt": "2026-11-05",
+      "observedAt": "2026-11-09T09:16:37.122527Z",
+      "delta_since_last_seen": "Results belong to a version and become stale after edits; a rollout can start with limited traffic."
+    },
+    {
+      "id": "embodied-air-tendon-learning",
+      "zhHeadline": "AIR把重电机收进躯干，现场操作员先教会柔顺双臂做事",
+      "enHeadline": "AIR moves heavy motors into its torso and starts factory work with a human operator",
+      "eventAt": "2026-11-06",
+      "freshness": "seven-day",
+      "evidence": "Original vendor documentation and publisher-distributed announcement; no editor hands-on",
+      "eventDateNote": "Date only: syndicated release renders Nov6 03:00 AM but timezone not retained in current evidence; planned 16:00 CET demonstration not independently witnessed. Conservatively week-retrospective, 72h boundary uncertain.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "embodied-air-tendon-learning-2026-11-06",
+      "product_key": "embodied-air-tendon-learning",
+      "publishedAt": "2026-11-06",
+      "observedAt": "2026-11-09T09:17:46.163744Z",
+      "delta_since_last_seen": "Motors and transmissions sit in the torso; tendons move the arms to reduce moving inertia."
+    },
+    {
+      "id": "topstar-star-industrial-biped",
+      "zhHeadline": "Star用双足跨工位搬料，整班产能还要把充电和接管算进去",
+      "enHeadline": "Star walks materials between workstations; shift capacity still depends on charging and intervention",
+      "eventAt": "2026-11-07",
+      "freshness": "72-hour-supplement",
+      "evidence": "Original Shanghai Securities News reporting by He Zhimin carried by Sina; product performance attributed to vendor, no editor trial",
+      "eventDateNote": "Event date Nov7 explicitly in original reporter body; report displays Nov8 21:15, timezone not explicit so no invented UTC clock. 72h supplement.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "topstar-star-industrial-biped-2026-11-07",
+      "product_key": "topstar-star-industrial-biped",
+      "publishedAt": "2026-11-08",
+      "observedAt": "2026-11-09T09:23:55.138262Z",
+      "delta_since_last_seen": "The vendor lists a ten-kilogram two-arm payload and more than four hours of endurance, not ten kilograms per arm."
+    },
+    {
+      "id": "noitom-itw-ego-plus",
+      "zhHeadline": "ITW-Ego Plus把第一视角视频与全身动作配在一起，机器人才能知道人如何完成任务",
+      "enHeadline": "ITW-Ego Plus pairs the wearer’s view with body motion to explain how a task was done",
+      "eventAt": "2026-11-05T13:34:00Z",
+      "freshness": "seven-day",
+      "evidence": "Original vendor documentation and publisher-distributed announcement; no editor hands-on",
+      "eventDateNote": "Announcement time; later event/display and delivery are not independently witnessed",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "noitom-itw-ego-plus-2026-11-05",
+      "product_key": "noitom-itw-ego-plus",
+      "publishedAt": "2026-11-05T13:34:00Z",
+      "observedAt": "2026-11-09T09:17:46.163744Z",
+      "delta_since_last_seen": "The paired output adds the timing of stance, reaching and body movement to what the camera saw."
+    },
+    {
+      "id": "groundwork-editable-arguments",
+      "zhHeadline": "GroundWork把主张与反证放进可编辑图，引用并不替你判断证据",
+      "enHeadline": "GroundWork makes claims and objections editable without judging the evidence for you",
+      "eventAt": "2026-11-06T18:25:43Z",
+      "freshness": "near-three-day",
+      "evidence": "Original abstract/history and full HTML paper read; author-reported research, not independent reproduction",
+      "eventDateNote": "Exact arXiv submission timestamp; public announcement clock unconfirmed; listed in Nov9 recent announcements. Submission is not claimed as release clock.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "groundwork-editable-arguments-2026-11-06",
+      "product_key": "groundwork-editable-arguments",
+      "publishedAt": "2026-11-06T18:25:43Z",
+      "observedAt": "2026-11-09T09:20:10Z",
+      "delta_since_last_seen": "Source passages remain attached to argument components."
+    },
+    {
+      "id": "lea-overleaf-formalization",
+      "zhHeadline": "Lea把论文标注接到Lean证明，机器通过后仍留人工语义审阅",
+      "enHeadline": "Lea connects paper annotations to Lean proofs while reserving semantic review for people",
+      "eventAt": "2026-11-06T01:14:20Z",
+      "freshness": "seven-day",
+      "evidence": "Original abstract/history and full HTML paper read; author-reported research, not independent reproduction",
+      "eventDateNote": "Exact arXiv submission timestamp; public announcement clock unconfirmed; listed in Nov9 recent announcements. Submission is not claimed as release clock.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "lea-overleaf-formalization-2026-11-06",
+      "product_key": "lea-overleaf-formalization",
+      "publishedAt": "2026-11-06T01:14:20Z",
+      "observedAt": "2026-11-09T09:20:10Z",
+      "delta_since_last_seen": "Formalized, verified and human-audited states remain distinct; relevant edits invalidate results."
+    },
+    {
+      "id": "deepradio-physical-control",
+      "zhHeadline": "DeepRadio让无线电代理先说明参数与证据，再请求发射",
+      "enHeadline": "DeepRadio exposes radio assumptions and evidence before asking to transmit",
+      "eventAt": "2026-11-06T12:49:10Z",
+      "freshness": "near-three-day",
+      "evidence": "Original abstract/history and full HTML paper read; author-reported research, not independent reproduction",
+      "eventDateNote": "Exact arXiv submission timestamp; public announcement clock unconfirmed; listed in Nov9 recent announcements. Submission is not claimed as release clock.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "deepradio-physical-control-2026-11-06",
+      "product_key": "deepradio-physical-control",
+      "publishedAt": "2026-11-06T12:49:10Z",
+      "observedAt": "2026-11-09T09:20:10Z",
+      "delta_since_last_seen": "A running process or visible spectrum does not establish successful reception."
+    },
+    {
+      "id": "motiondecipher-gait-description",
+      "zhHeadline": "MotionDecipher先整理步态波形再写描述，尚不能给治疗建议",
+      "enHeadline": "MotionDecipher structures gait waveforms before drafting descriptions, without prescribing treatment",
+      "eventAt": "2026-11-05T23:37:02Z",
+      "freshness": "seven-day",
+      "evidence": "Original abstract/history and full HTML paper read; author-reported research, not independent reproduction",
+      "eventDateNote": "Exact arXiv submission timestamp; public announcement clock unconfirmed; listed in Nov9 recent announcements. Submission is not claimed as release clock.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "motiondecipher-gait-description-2026-11-05",
+      "product_key": "motiondecipher-gait-description",
+      "publishedAt": "2026-11-05T23:37:02Z",
+      "observedAt": "2026-11-09T09:20:10Z",
+      "delta_since_last_seen": "Validation used laboratory motion capture and force plates, not a phone-ready service."
+    },
+    {
+      "id": "crewai-11538-row-input-eval",
+      "zhHeadline": "CrewAI让表格链接进入逐行工具处理，评估失败也必须留下失败状态",
+      "enHeadline": "CrewAI routes spreadsheet inputs through row tools and records evaluation failures explicitly",
+      "eventAt": "2026-11-08T19:39:30Z",
+      "freshness": "main",
+      "evidence": "Original release and supporting product documentation read; not installed or independently tested",
+      "eventDateNote": "Exact published_at UTC from original GitHub release API, independently read by sole publisher",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "crewai-11538-row-input-eval-2026-11-08",
+      "product_key": "crewai-11538-row-input-eval",
+      "publishedAt": "2026-11-08T19:39:30Z",
+      "observedAt": "2026-11-09T09:19:58.049222Z",
+      "delta_since_last_seen": "Adds row-oriented input while correcting evaluation and script-failure reporting."
+    },
+    {
+      "id": "agentframework-125-mcp-discovery",
+      "zhHeadline": "Agent Framework限制工具发现规模，目录刷新失败时保留完整旧快照",
+      "enHeadline": "Agent Framework bounds tool discovery and keeps a complete catalog when refresh fails",
+      "eventAt": "2026-11-07",
+      "freshness": "near-three-day",
+      "evidence": "Original release and supporting product documentation read; not installed or independently tested",
+      "eventDateNote": "Original release page gives calendar date and displayed clock; UTC offset not exposed. No exact UTC event time asserted.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "agentframework-125-mcp-discovery-2026-11-07",
+      "product_key": "agentframework-125-mcp-discovery",
+      "publishedAt": "2026-11-07",
+      "observedAt": "2026-11-09T09:19:58.049222Z",
+      "delta_since_last_seen": "Bounds catalog size and preserves a complete snapshot when refresh fails."
+    }
+  ],
+  "eventCounts": {
+    "mainWindowEvents": 3,
+    "nearThreeDayReviews": 4,
+    "sevenDayReviews": 6,
+    "gapBackfillEvents": 0,
+    "interpretation": "Announcements, submissions, updates and regional reports; not first product launches."
+  }
+}

@@ -9900,6 +9900,256 @@
     "sha256": "282086fc2fadbdfd8a1818fbbe35040c822819bed1f2916fb50b0501d086e4e4"
   },
   {
+    "path": "2026-11-09/assets/activepieces-templates.gif",
+    "bytes": 2776730,
+    "sha256": "74324fae38cf70f8e7481a4bd5d783467ce275d579982d2da3f6aff32cac73f5"
+  },
+  {
+    "path": "2026-11-09/assets/agentframework-125-mcp-discovery.png",
+    "bytes": 44990,
+    "sha256": "72b2a40c9ca7374f8d454feee011e78235f50f93561b9f253fd5070f6f5e7dc0"
+  },
+  {
+    "path": "2026-11-09/assets/air-01.jpg",
+    "bytes": 28442,
+    "sha256": "176874e594a4dbd86d95b6a3175b61db27a751e2f0113403d02c012177de8b0d"
+  },
+  {
+    "path": "2026-11-09/assets/crewai-11538-row-input-eval.png",
+    "bytes": 38612,
+    "sha256": "69a86d3e8a03206b52fc6aaa86c41f9bdee0585dec9105a7265eb1580ec2bd3f"
+  },
+  {
+    "path": "2026-11-09/assets/deck.js",
+    "bytes": 2576,
+    "sha256": "63d13c06452d7405e0b5ed572d8464d802c9e5b8de656b5a94e3527b1730f7b3"
+  },
+  {
+    "path": "2026-11-09/assets/deepradio-ui.jpg",
+    "bytes": 156325,
+    "sha256": "57213e8536674b15f8adc29df6583cabf156fa26fe87fc7ddafcad8130fdb83f"
+  },
+  {
+    "path": "2026-11-09/assets/fin-releases.jpg",
+    "bytes": 86078,
+    "sha256": "58316fc4b87e75539564aa6d35dafa4d13526ed1b5018f3641ba2e094dcbde2d"
+  },
+  {
+    "path": "2026-11-09/assets/frameboy-gallery.jpg",
+    "bytes": 79351,
+    "sha256": "6f24c5e89924d93585bec715f4ac6d228e36c5939c43bd6e64b750cb107689e2"
+  },
+  {
+    "path": "2026-11-09/assets/groundwork-teaser.jpg",
+    "bytes": 204375,
+    "sha256": "ba70b918fe59dd2439b0b4b5c16e3de211da9028d129776ef8dba80f7f431be6"
+  },
+  {
+    "path": "2026-11-09/assets/issue.css",
+    "bytes": 10323,
+    "sha256": "e2aad62eb7ee51f4ad64545f610e505d499f1c365784cf1b19baf9d593ba4c1a"
+  },
+  {
+    "path": "2026-11-09/assets/lea-overleaf.jpg",
+    "bytes": 305982,
+    "sha256": "071835741efa276746e110e1b9daf44b16538c44aab5e91dc94aff3f87a33815"
+  },
+  {
+    "path": "2026-11-09/assets/motiondecipher-workflow.jpg",
+    "bytes": 163247,
+    "sha256": "b2b89ba6542bc35ac2c8244c2bdf9e4f8422b1c75e805a4a8599f28e2592346d"
+  },
+  {
+    "path": "2026-11-09/assets/noitom-itw-ego-plus.jpg",
+    "bytes": 60703,
+    "sha256": "eb138f814d6433a9d8ed8e21731315436623dfe4395eec0f1dfb1ebd2f4cd6a9"
+  },
+  {
+    "path": "2026-11-09/assets/nyt-cooking-custom-version.jpg",
+    "bytes": 105708,
+    "sha256": "01fbd5da4017ed4563503677b1db2d6787a70b4cd72fc576661f0b80c9e13659"
+  },
+  {
+    "path": "2026-11-09/assets/openwebui-core.jpg",
+    "bytes": 33766,
+    "sha256": "0b8a42bb1ccbd9a9d9677be8c1aeea8ee0bc8dbf9e14ae5561dd4232ce3f8fbe"
+  },
+  {
+    "path": "2026-11-09/assets/topstar-star-industrial-biped.jpg",
+    "bytes": 274954,
+    "sha256": "0b0976f8a2c88cb4564c5e6a4e62bf94d45cf960149965eb967ee40a74104559"
+  },
+  {
+    "path": "2026-11-09/en/details/activepieces-093-mcp-oauth.html",
+    "bytes": 6315,
+    "sha256": "e07282bc2e617a569654b54e34bdf96af9876c33cdf22a90fd35e2fb1e33cc5e"
+  },
+  {
+    "path": "2026-11-09/en/details/agentframework-125-mcp-discovery.html",
+    "bytes": 6242,
+    "sha256": "6e8751b945793c268972dd7699d23dfd6166e27dbc3100ead26779f62b2af9ef"
+  },
+  {
+    "path": "2026-11-09/en/details/crewai-11538-row-input-eval.html",
+    "bytes": 6250,
+    "sha256": "524622ec5b57625c8b0a0f7c4d21adcb002936d4d2be6509b92ba70faedec67c"
+  },
+  {
+    "path": "2026-11-09/en/details/deepradio-physical-control.html",
+    "bytes": 5759,
+    "sha256": "6f07b94544292a518207fd09765d221d36aff0eb609d2a6156a2d6b2bf0dbcda"
+  },
+  {
+    "path": "2026-11-09/en/details/embodied-air-tendon-learning.html",
+    "bytes": 6460,
+    "sha256": "ff9e458900818e1efde96e945ad88f3979a6325c2162ab51b24bf373a1f9959f"
+  },
+  {
+    "path": "2026-11-09/en/details/fin-releases-evals-nov5.html",
+    "bytes": 6584,
+    "sha256": "62f08acebed43721ec3171739482bb5caccc49941c3b4a1981d5d4889048eb5a"
+  },
+  {
+    "path": "2026-11-09/en/details/frameboy-atlas-interactive-preview.html",
+    "bytes": 6336,
+    "sha256": "373fd618e765bfb71ac0b89fd980297f5c27163a6083e40e4f29d2bbbdff0e0c"
+  },
+  {
+    "path": "2026-11-09/en/details/groundwork-editable-arguments.html",
+    "bytes": 5659,
+    "sha256": "8baa7d18fcee8f4eff7b87cc9454c71b3b00b49eaf25fc87e981d0ba6c05d5e2"
+  },
+  {
+    "path": "2026-11-09/en/details/lea-overleaf-formalization.html",
+    "bytes": 5794,
+    "sha256": "5925780fa92c017a979f536d6726e6332036c49e8d5e10584d8939584b396f98"
+  },
+  {
+    "path": "2026-11-09/en/details/motiondecipher-gait-description.html",
+    "bytes": 5963,
+    "sha256": "591470c5b61cb1b25de3c41b517fefa8948c57d295064baeaa38081678a425bc"
+  },
+  {
+    "path": "2026-11-09/en/details/noitom-itw-ego-plus.html",
+    "bytes": 7106,
+    "sha256": "51117d332f1509199f55f8459461130b96f67a7c7780af9ef7cd1572c4bace5e"
+  },
+  {
+    "path": "2026-11-09/en/details/nyt-cooking-customization-review.html",
+    "bytes": 6439,
+    "sha256": "3538c0c2aec4a76a8e7db3ab3626dfdea66c510bb3e7983b321c5b4989c90dee"
+  },
+  {
+    "path": "2026-11-09/en/details/openwebui-tether-013.html",
+    "bytes": 6083,
+    "sha256": "dbd39283d4801306bf290ee39435dbcb63a130d7515867d2d1cf8ab83a5ce288"
+  },
+  {
+    "path": "2026-11-09/en/details/topstar-star-industrial-biped.html",
+    "bytes": 6358,
+    "sha256": "802b8c3900e6dc36db4955fe576058ccf5322709f38db969f3547825197ac9bc"
+  },
+  {
+    "path": "2026-11-09/en/index.html",
+    "bytes": 44117,
+    "sha256": "008325083d615aeddbf7155b53b6c2a8b338fda8d93404430029ae69ce34aa67"
+  },
+  {
+    "path": "2026-11-09/manifest.json",
+    "bytes": 17624,
+    "sha256": "ef7eed82b9aea4704244f160233159767c36fbebf14d03a03be3431495d0a260"
+  },
+  {
+    "path": "2026-11-09/sources.html",
+    "bytes": 28270,
+    "sha256": "aa95373ee314d4c4397e93c69a8a5e8bef28859e730db63a649bb793e7860fd8"
+  },
+  {
+    "path": "2026-11-09/sources.json",
+    "bytes": 11408,
+    "sha256": "fa3991efce5108528ac35d5249990df824bd3574d7cf9a13f01652f1905532aa"
+  },
+  {
+    "path": "2026-11-09/visuals.json",
+    "bytes": 10492,
+    "sha256": "015993642b0d8094167ba8ed76d84c72d4076a556cc882a0f5aea3b108ee6e21"
+  },
+  {
+    "path": "2026-11-09/zh/details/activepieces-093-mcp-oauth.html",
+    "bytes": 5816,
+    "sha256": "558bd169caef7af4b4ec31350debea62bc8b6f4fa5e9e9bbdf1f5097e601b27e"
+  },
+  {
+    "path": "2026-11-09/zh/details/agentframework-125-mcp-discovery.html",
+    "bytes": 5765,
+    "sha256": "0f27f0d63cbc118436556e79a5f33be9c5995c8f8ada2111f06761594db8fbf2"
+  },
+  {
+    "path": "2026-11-09/zh/details/crewai-11538-row-input-eval.html",
+    "bytes": 5782,
+    "sha256": "88674011bf4d46c2ba3e58fb1f428dc9b48b9a89ed98fd2e61034769ebcbd368"
+  },
+  {
+    "path": "2026-11-09/zh/details/deepradio-physical-control.html",
+    "bytes": 4945,
+    "sha256": "9a715804a46b34cee3240315eafcfc151f61369c72e845742a2b64d1186a5f16"
+  },
+  {
+    "path": "2026-11-09/zh/details/embodied-air-tendon-learning.html",
+    "bytes": 6001,
+    "sha256": "47f7a784fbf3440f8a14ad3db281a191eada8c0f0d70f926f584eaed23455bd1"
+  },
+  {
+    "path": "2026-11-09/zh/details/fin-releases-evals-nov5.html",
+    "bytes": 6240,
+    "sha256": "1f8f439c540db220bd9469235334f59a29da9336ba9db9994170f3c3b0a3e3f5"
+  },
+  {
+    "path": "2026-11-09/zh/details/frameboy-atlas-interactive-preview.html",
+    "bytes": 5941,
+    "sha256": "1877bdc4f6732ec6d9ce256000f38706ffd55cec8ad1235b6cd72f7a11ec871b"
+  },
+  {
+    "path": "2026-11-09/zh/details/groundwork-editable-arguments.html",
+    "bytes": 5051,
+    "sha256": "cf0eca388f8d086fcdcf673d2780daaa33a9feaa9f3b4cf4e9e61bb457d402bb"
+  },
+  {
+    "path": "2026-11-09/zh/details/lea-overleaf-formalization.html",
+    "bytes": 5191,
+    "sha256": "968ff685489079df7f47bafab4770b0211b81ff1c73ddbbedda5d6f5723e58ad"
+  },
+  {
+    "path": "2026-11-09/zh/details/motiondecipher-gait-description.html",
+    "bytes": 5103,
+    "sha256": "9d87199f0e971d438edf64441601eaa0e3fd5c505cb6f77eab5c777e0786c115"
+  },
+  {
+    "path": "2026-11-09/zh/details/noitom-itw-ego-plus.html",
+    "bytes": 6560,
+    "sha256": "3a09cec819727a8704b1d87ac9dec098ec4b5e009949142a51964ba8b04afadf"
+  },
+  {
+    "path": "2026-11-09/zh/details/nyt-cooking-customization-review.html",
+    "bytes": 6040,
+    "sha256": "25febff6201511ac80d5eada1089f77856aa61d66380c4436e7b34830de6d25b"
+  },
+  {
+    "path": "2026-11-09/zh/details/openwebui-tether-013.html",
+    "bytes": 5493,
+    "sha256": "c7b3c08519a7b38c4c1e256061d89f68a9eee3a668b2cc0568789c55873641a1"
+  },
+  {
+    "path": "2026-11-09/zh/details/topstar-star-industrial-biped.html",
+    "bytes": 5759,
+    "sha256": "6a2f90d66d351dfdf22333fc2c8a8c7f2e06999960e13ae68f1802644050a1ea"
+  },
+  {
+    "path": "2026-11-09/zh/index.html",
+    "bytes": 42626,
+    "sha256": "c9001f00d72fc1473f310f71c7dc84c4ab788ded161a118cf180bbf6c735b572"
+  },
+  {
     "path": "assets/acti-agentic-keyboard-2026-07-03.svg",
     "bytes": 2825,
     "sha256": "84ad9abb0a1191abde62dea383e6e1ed583fc089073d3ccaf91629044501721b"
@@ -10311,18 +10561,18 @@
   },
   {
     "path": "en/index.html",
-    "bytes": 182248,
-    "sha256": "fef52f1ae428198b4ce41b174f220c18e0b770ed68ca43e582849247b85eeeed"
+    "bytes": 183536,
+    "sha256": "26b5ac876643c4fb0fb19c0da727a133628e2070371c41eabb087513c1ee67e0"
   },
   {
     "path": "index.html",
-    "bytes": 175963,
-    "sha256": "57656c5dda18b165ec82a8b6e2737617f00bacd0c3fb74dd31922121526c4f6e"
+    "bytes": 177240,
+    "sha256": "714e4e1c05a2dd05186f9a822997425d9fcbab08905db8019c367fcde152c4fe"
   },
   {
     "path": "manifest.json",
-    "bytes": 753480,
-    "sha256": "d2a76d3faac33a76d7d225327b7657328aad8c5ffb4074ee4939b5889d0887b1"
+    "bytes": 754949,
+    "sha256": "0e3d14dfda88c4eba33e8f0ca1c64c0e2eb3ceed3a7cd074dd5e192af4279372"
   },
   {
     "path": "weekly/2026-10-12/pilot/en/index.html",
