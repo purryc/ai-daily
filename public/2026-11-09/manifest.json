@@ -248,7 +248,7 @@
       "zhHeadline": "Star用双足跨工位搬料，整班产能还要把充电和接管算进去",
       "enHeadline": "Star walks materials between workstations; shift capacity still depends on charging and intervention",
       "eventAt": "2026-11-07",
-      "freshness": "72-hour-supplement",
+      "freshness": "near-three-day",
       "evidence": "Original Shanghai Securities News reporting by He Zhimin carried by Sina; product performance attributed to vendor, no editor trial",
       "eventDateNote": "Event date Nov7 explicitly in original reporter body; report displays Nov8 21:15, timezone not explicit so no invented UTC clock. 72h supplement.",
       "gapBackfill": false,
@@ -374,7 +374,7 @@
   ],
   "eventCounts": {
     "mainWindowEvents": 3,
-    "nearThreeDayReviews": 4,
+    "nearThreeDayReviews": 5,
     "sevenDayReviews": 6,
     "gapBackfillEvents": 0,
     "interpretation": "Announcements, submissions, updates and regional reports; not first product launches."
