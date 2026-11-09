@@ -11046,13 +11046,13 @@
   },
   {
     "path": "weekly/2026-11-02/en/index.html",
-    "bytes": 64036,
-    "sha256": "1b81b6e40bec52415eb62f65006d56c1e35a3e90ce47d2166ef4a55a33ca7ee3"
+    "bytes": 64307,
+    "sha256": "dda265a9134e79acd0f505023f856f6063402c74decb0725e69a7a0a1bd32130"
   },
   {
     "path": "weekly/2026-11-02/manifest.json",
-    "bytes": 27022,
-    "sha256": "84becd62c5e5a6066686c9eda57ce41adcff849cfd09b69e6878ac5f2a736b6e"
+    "bytes": 27143,
+    "sha256": "736558b946f6f37b15bbb382907dfce558d6b560d6bf5f4104b0b48c933cd725"
   },
   {
     "path": "weekly/2026-11-02/sources.html",
@@ -11171,8 +11171,8 @@
   },
   {
     "path": "weekly/2026-11-02/zh/index.html",
-    "bytes": 62262,
-    "sha256": "95e171dbabc37a5f4e0b9f25a75157a6ac26b5832868bdb7d5b242af46cdbe56"
+    "bytes": 62532,
+    "sha256": "4d41a90c9d893da8042f655fb3ad2e77bc89b6d5e3dddd2a80654b4914532a13"
   },
   {
     "path": "weekly/assets/pilot.css",

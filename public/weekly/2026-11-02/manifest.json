@@ -153,24 +153,24 @@
         "en": 69
       },
       "career-employee-a": {
-        "zh": 156,
-        "en": 108
+        "zh": 146,
+        "en": 113
       },
       "career-employee-b": {
-        "zh": 143,
-        "en": 95
+        "zh": 147,
+        "en": 99
       },
       "career-contract-a": {
-        "zh": 147,
-        "en": 98
+        "zh": 133,
+        "en": 102
       },
       "career-contract-b": {
-        "zh": 137,
-        "en": 96
+        "zh": 117,
+        "en": 106
       },
       "career-conditions": {
-        "zh": 160,
-        "en": 117
+        "zh": 149,
+        "en": 132
       },
       "talent-demand": {
         "zh": 156,
@@ -185,12 +185,12 @@
     "primaryProjectPages": 20,
     "attachedProjectDetails": 20,
     "primaryBody": {
-      "zhDenseChars": 2720,
-      "enWords": 1639
+      "zhDenseChars": 2669,
+      "enWords": 1677
     },
     "completeReadingBody": {
-      "zhDenseChars": 10386,
-      "enWords": 6300
+      "zhDenseChars": 10335,
+      "enWords": 6338
     }
   },
   "revision": {
@@ -424,7 +424,7 @@
       "product_key": "career-employee-a",
       "publishedAt": null,
       "observedAt": "2026-11-09T05:57:00Z",
-      "delta_since_last_seen": "Supplement collected and rechecked November 9; discovery is not a new posting date."
+      "delta_since_last_seen": "Samsara lists annual Canadian base CAD 161,600–222,200; other bands and periods are detailed by role."
     },
     {
       "id": "career-employee-b",
@@ -439,7 +439,7 @@
       "product_key": "career-employee-b",
       "publishedAt": null,
       "observedAt": "2026-11-09T05:57:00Z",
-      "delta_since_last_seen": "Supplement collected and rechecked November 9; discovery is not a new posting date."
+      "delta_since_last_seen": "Tailscale lists a CAD 163,480–245,220 base band without a stated period; the other amounts are undisclosed."
     },
     {
       "id": "career-contract-a",
@@ -454,7 +454,7 @@
       "product_key": "career-contract-a",
       "publishedAt": null,
       "observedAt": "2026-11-09T05:57:00Z",
-      "delta_since_last_seen": "Supplement collected and rechecked November 9; discovery is not a new posting date."
+      "delta_since_last_seen": "Alpaca includes production frontend, testing and deployment; LCA emphasizes research, prototypes and client communication."
     },
     {
       "id": "career-contract-b",
@@ -469,7 +469,7 @@
       "product_key": "career-contract-b",
       "publishedAt": null,
       "observedAt": "2026-11-09T05:57:00Z",
-      "delta_since_last_seen": "Supplement collected and rechecked November 9; discovery is not a new posting date."
+      "delta_since_last_seen": "Hello Robo covers robotics, AI and aviation interfaces, requiring 4–7 years of complex-app design."
     },
     {
       "id": "career-conditions",
@@ -484,7 +484,7 @@
       "product_key": "career-conditions",
       "publishedAt": null,
       "observedAt": "2026-11-09T05:57:00Z",
-      "delta_since_last_seen": "Supplement collected and rechecked November 9; discovery is not a new posting date."
+      "delta_since_last_seen": "DEFCON is a US 1099 contract, 40 hours weekly, requiring US citizenship and active Secret clearance."
     },
     {
       "id": "talent-demand",
