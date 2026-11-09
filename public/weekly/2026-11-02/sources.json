@@ -1,0 +1,427 @@
+[
+  {
+    "url": "https://www.canva.com/newsroom/news/affinity-for-ipad/",
+    "title": "Affinity for iPad: sketch, vector, photo and layout in one app",
+    "publisher": "Canva",
+    "publishedAt": "2026-11-03",
+    "number": 1
+  },
+  {
+    "url": "https://www.affinity.studio/ipad-app",
+    "title": "Affinity for iPad",
+    "publisher": "Affinity",
+    "publishedAt": null,
+    "number": 2
+  },
+  {
+    "url": "https://www.macrumors.com/2026/11/02/canva-free-affinity-app-ipad/",
+    "title": "Canva Brings Free All-in-One Affinity App to iPad",
+    "publisher": "MacRumors",
+    "publishedAt": "2026-11-02T06:00:00-08:00",
+    "number": 3
+  },
+  {
+    "url": "https://www.affinity.studio/canva-integrations",
+    "title": "Canva Integrations",
+    "publisher": "Affinity",
+    "publishedAt": null,
+    "number": 4
+  },
+  {
+    "url": "https://www.affinity.studio/blog/affinity-update-ipad-2026",
+    "title": "Affinity launch blog",
+    "publisher": "Affinity launch blog",
+    "publishedAt": "2026-11-02",
+    "evidenceType": "Public original source; specific claims attributed",
+    "number": 5
+  },
+  {
+    "url": "https://www.aina.com/",
+    "title": "Aina Ring",
+    "publisher": "Aina",
+    "publishedAt": null,
+    "number": 6
+  },
+  {
+    "url": "https://www.aina.com/how-it-works",
+    "title": "How it works",
+    "publisher": "Aina",
+    "publishedAt": null,
+    "number": 7
+  },
+  {
+    "url": "https://www.aina.com/faq",
+    "title": "FAQ",
+    "publisher": "Aina",
+    "publishedAt": null,
+    "number": 8
+  },
+  {
+    "url": "https://www.aina.com/privacy",
+    "title": "Privacy policy",
+    "publisher": "Aina",
+    "publishedAt": "2026-05-15",
+    "number": 9
+  },
+  {
+    "url": "https://www.wired.com/story/aina-smart-ring/",
+    "title": "Aina smart ring announcement",
+    "publisher": "WIRED",
+    "publishedAt": "2026-11-05",
+    "number": 10
+  },
+  {
+    "url": "https://www.prnewswire.com/news-releases/pudu-robotics-unveils-pudu-tomo-s-series-extending-lawn-care-automation-to-blade-sharpening-302927013.html",
+    "title": "Pudu Robotics Unveils PUDU TOMO S Series: Extending Lawn Care Automation to Blade Sharpening",
+    "publisher": "Pudu Robotics / PR Newswire",
+    "publishedAt": "2026-11-03T09:30:00Z",
+    "number": 11
+  },
+  {
+    "url": "https://www.puduhome.com/?utm_campaign=prelaunch&utm_medium=pr&utm_source=prnewswire",
+    "title": "PUDU TOMO S Series Robot Lawn Mower",
+    "publisher": "PUDU HOME",
+    "publishedAt": "2026-11-03",
+    "number": 12
+  },
+  {
+    "url": "https://vacuumwars.com/mova-v70-ranking/",
+    "title": "Vacuum Wars editorial update",
+    "publisher": "Vacuum Wars editorial update",
+    "publishedAt": "2026-11-04",
+    "evidenceType": "Public original source; specific claims attributed",
+    "number": 13
+  },
+  {
+    "url": "https://www.prnewswire.com/news-releases/playful-launches-a-new-way-to-make-the-apps-you-wish-existed-302930440.html",
+    "title": "Playful Launches a New Way to Make the Apps You Wish Existed",
+    "publisher": "Playful / PR Newswire",
+    "publishedAt": "2026-11-05T13:25:00Z",
+    "number": 14
+  },
+  {
+    "url": "https://playful.app/",
+    "title": "Playful product and FAQ",
+    "publisher": "Playful",
+    "publishedAt": null,
+    "number": 15
+  },
+  {
+    "url": "https://www.fastcompany.com/91633279/playful-wants-the-masses-to-start-vibe-coding?partner=rss",
+    "title": "Fast Company hands-on account",
+    "publisher": "Fast Company hands-on account",
+    "publishedAt": "2026-11-05",
+    "evidenceType": "Public original source; specific claims attributed",
+    "number": 16
+  },
+  {
+    "url": "https://www.techradar.com/pro/i-went-hands-on-with-the-new-snap-specs-and-found-out-why-they-could-soon-be-a-useful-workplace-tool",
+    "title": "Snap Specs hands-on for workplace tasks",
+    "publisher": "TechRadar / Mike Moore",
+    "publishedAt": "2026-11-07",
+    "number": 17
+  },
+  {
+    "url": "https://www.specs.com/smart-glasses/specs-27?view=customize",
+    "title": "Specs product and preorder",
+    "publisher": "Specs",
+    "publishedAt": null,
+    "number": 18
+  },
+  {
+    "url": "https://www.specs.com/privacy",
+    "title": "Specs privacy",
+    "publisher": "Specs",
+    "publishedAt": null,
+    "number": 19
+  },
+  {
+    "url": "https://tech.yahoo.com/wearables/articles/went-hands-snap-specs-found-130000938.html",
+    "title": "Syndicated TechRadar hands-on",
+    "publisher": "Yahoo / TechRadar",
+    "publishedAt": "2026-11-07T13:00:00Z",
+    "number": 20
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.06768",
+    "title": "PyRUA-REAL paper and submission history",
+    "publisher": "Paper authors / arXiv",
+    "publishedAt": "2026-11-04T16:46:03Z",
+    "number": 21
+  },
+  {
+    "url": "https://arxiv.org/html/2611.06768v1",
+    "title": "PyRUA-REAL full paper",
+    "publisher": "Paper authors",
+    "publishedAt": "2026-11-04",
+    "number": 22
+  },
+  {
+    "url": "https://dagroup-pku.github.io/PyRUA-Lean/real/",
+    "title": "PyRUA-REAL project",
+    "publisher": "Paper authors",
+    "publishedAt": null,
+    "number": 23
+  },
+  {
+    "url": "https://www.perplexity.ai/changelog/teammates-fully-local-computer-on-mac-and-voice-mode",
+    "title": "November 6 Computer update",
+    "publisher": "Perplexity",
+    "publishedAt": "2026-11-06",
+    "number": 24
+  },
+  {
+    "url": "https://www.perplexity.ai/help-center/en/articles/2026102601-perplexity-teammates",
+    "title": "Perplexity Teammates",
+    "publisher": "Perplexity",
+    "publishedAt": "2026-11-05",
+    "number": 25
+  },
+  {
+    "url": "https://www.perplexity.ai/help-center/en/articles/11187754-enterprise-roles-and-permissions",
+    "title": "Enterprise roles and permissions",
+    "publisher": "Perplexity",
+    "publishedAt": "2026-11-06",
+    "number": 26
+  },
+  {
+    "url": "https://developers.notion.com/guides/mcp/tools-comments-reference",
+    "title": "Notion MCP reference",
+    "publisher": "Notion MCP reference",
+    "publishedAt": null,
+    "evidenceType": "Public original source; specific claims attributed",
+    "number": 27
+  },
+  {
+    "url": "https://developers.notion.com/page/changelog",
+    "title": "Notion changelog",
+    "publisher": "Notion changelog",
+    "publishedAt": "2026-11-03",
+    "evidenceType": "Public original source; specific claims attributed",
+    "number": 28
+  },
+  {
+    "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.14",
+    "title": "LangGraph release",
+    "publisher": "LangGraph release",
+    "publishedAt": "2026-11-06",
+    "evidenceType": "Public original source; specific claims attributed",
+    "number": 29
+  },
+  {
+    "url": "https://github.com/langchain-ai/deepagents/releases/tag/deepagents%3D%3D0.7.34",
+    "title": "DeepAgents release",
+    "publisher": "DeepAgents release",
+    "publishedAt": "2026-11-05",
+    "evidenceType": "Public original source; specific claims attributed",
+    "number": 30
+  },
+  {
+    "url": "https://www.theverge.com/tech/1027444/instagram-edits-desktop-ai-agents-muse-mcp",
+    "title": "The Verge product interview",
+    "publisher": "The Verge product interview",
+    "publishedAt": "2026-11-05",
+    "evidenceType": "Public original source; specific claims attributed",
+    "number": 31
+  },
+  {
+    "url": "https://community.adobe.com/announcements-654/beta-build-31-1-49-release-notes-1654265",
+    "title": "Adobe beta release",
+    "publisher": "Adobe beta release",
+    "publishedAt": "2026-11-04",
+    "evidenceType": "Public original source; specific claims attributed",
+    "number": 32
+  },
+  {
+    "url": "https://helpx.adobe.com/illustrator/desktop/use-generative-ai/generate-and-refine-icon-sets-using-icon-sheets.html",
+    "title": "Adobe documentation",
+    "publisher": "Adobe documentation",
+    "publishedAt": null,
+    "evidenceType": "Public original source; specific claims attributed",
+    "number": 33
+  },
+  {
+    "url": "https://www.canva.com/newsroom/news/canva-brush/",
+    "title": "Canva Brush original announcement",
+    "publisher": "Canva",
+    "publishedAt": "2026-10-29",
+    "evidenceType": "Prior-week official baseline; vendor claims",
+    "number": 34
+  },
+  {
+    "url": "https://bostondynamics.com/news/boston-dynamics-launches-next-generation-stretch-robot",
+    "title": "Boston Dynamics launch",
+    "publisher": "Boston Dynamics launch",
+    "publishedAt": "2026-11-03",
+    "evidenceType": "Public original source; specific claims attributed",
+    "number": 35
+  },
+  {
+    "url": "https://www.reddit.com/r/MOVA_robotvacuum/comments/1ws2e2s/v70_mopping_disappointment/",
+    "title": "Reddit owner discussion",
+    "publisher": "Reddit owner discussion",
+    "publishedAt": null,
+    "evidenceType": "Public original source; specific claims attributed",
+    "number": 36
+  },
+  {
+    "url": "https://www.reddit.com/r/MOVA_robotvacuum/comments/1wiqh7h/mova_v70_review/",
+    "title": "Reddit owner review",
+    "publisher": "Reddit owner review",
+    "publishedAt": null,
+    "evidenceType": "Public original source; specific claims attributed",
+    "number": 37
+  },
+  {
+    "url": "https://www.asiapacific.ca/about-us/employment-opportunities",
+    "title": "APF Canada procurement",
+    "publisher": "APF Canada procurement",
+    "publishedAt": "2026-10-22",
+    "evidenceType": "Public original source; specific claims attributed",
+    "number": 38
+  },
+  {
+    "url": "https://designpixil.com/",
+    "title": "Designpixil current offer",
+    "publisher": "Designpixil current offer",
+    "publishedAt": null,
+    "evidenceType": "Public original source; specific claims attributed",
+    "number": 39
+  },
+  {
+    "url": "https://contentsnare.com/pricing/",
+    "title": "Content Snare current pricing",
+    "publisher": "Content Snare current pricing",
+    "publishedAt": null,
+    "evidenceType": "Public original source; specific claims attributed",
+    "number": 40
+  },
+  {
+    "url": "https://www.samsara.com/company/careers/roles/8275253?gh_jid=8275253",
+    "title": "Samsara — Staff Product Designer",
+    "publisher": "Samsara",
+    "publishedAt": null,
+    "evidenceType": "Original employer page body and application/proposal route read; no application or contact",
+    "number": 41
+  },
+  {
+    "url": "https://job-boards.greenhouse.io/andgosystems/jobs/4456641009",
+    "title": "Andgo — Senior Product Designer / Design Lead",
+    "publisher": "Andgo",
+    "publishedAt": null,
+    "evidenceType": "Original employer page body and application/proposal route read; no application or contact",
+    "number": 42
+  },
+  {
+    "url": "https://job-boards.greenhouse.io/stackadapt/jobs/4410085009",
+    "title": "StackAdapt — Staff Product Designer",
+    "publisher": "StackAdapt",
+    "publishedAt": null,
+    "evidenceType": "Original employer page body and application/proposal route read; no application or contact",
+    "number": 43
+  },
+  {
+    "url": "https://job-boards.greenhouse.io/life360/jobs/8790900002",
+    "title": "Life360 — Senior Product Designer II, Revenue Experimentation",
+    "publisher": "Life360",
+    "publishedAt": null,
+    "evidenceType": "Original employer page body and application/proposal route read; no application or contact",
+    "number": 44
+  },
+  {
+    "url": "https://astell.ai/en/careers/ui-ux",
+    "title": "Lab24 / Astell — Product Designer (UI/UX)",
+    "publisher": "Lab24 / Astell",
+    "publishedAt": null,
+    "evidenceType": "Original employer page body and application/proposal route read; no application or contact",
+    "number": 45
+  },
+  {
+    "url": "https://job-boards.greenhouse.io/babylist/jobs/6104998004",
+    "title": "Babylist — Staff Product Designer (AI Builder)",
+    "publisher": "Babylist",
+    "publishedAt": null,
+    "evidenceType": "Original employer body read in indexed rendering; direct open failed. Application text visible in rendering, current form submission not tested.",
+    "number": 46
+  },
+  {
+    "url": "https://job-boards.greenhouse.io/tailscale/jobs/4726042005",
+    "title": "Tailscale — Product Designer (Growth)",
+    "publisher": "Tailscale",
+    "publishedAt": null,
+    "evidenceType": "Original employer page body and application/proposal route read; no application or contact",
+    "number": 47
+  },
+  {
+    "url": "https://job-boards.greenhouse.io/andgosystems/jobs/4456625009",
+    "title": "Andgo — Senior Product Designer (Contract)",
+    "publisher": "Andgo",
+    "publishedAt": null,
+    "evidenceType": "Original employer page body and application/proposal route read; no application or contact",
+    "number": 48
+  },
+  {
+    "url": "https://job-boards.greenhouse.io/alpaca/jobs/6187326004",
+    "title": "Alpaca — Senior Product Designer, Operations Tools",
+    "publisher": "Alpaca",
+    "publishedAt": null,
+    "evidenceType": "Original employer page body and application/proposal route read; no application or contact",
+    "number": 49
+  },
+  {
+    "url": "https://www.latecheckout.agency/careers/sr-product-designer",
+    "title": "LCA — Sr. Product Designer (Freelance/Part-time)",
+    "publisher": "LCA",
+    "publishedAt": null,
+    "evidenceType": "Original employer page body and application/proposal route read; no application or contact",
+    "number": 50
+  },
+  {
+    "url": "https://team.housesigma.com/job_posting/senior-product-designer/",
+    "title": "HouseSigma — Senior Product Designer (Part-Time Role)",
+    "publisher": "HouseSigma",
+    "publishedAt": null,
+    "evidenceType": "Original employer page body and application/proposal route read; no application or contact",
+    "number": 51
+  },
+  {
+    "url": "https://www.getupgraded.ca/jobs/product-designer",
+    "title": "Upgraded — Designer – Product, Software, Marketing & AI",
+    "publisher": "Upgraded",
+    "publishedAt": null,
+    "evidenceType": "Original employer page body and application/proposal route read; no application or contact",
+    "number": 52
+  },
+  {
+    "url": "https://www.hellorobo.co/careers/senior-product-designer",
+    "title": "Hello Robo — Senior product designer",
+    "publisher": "Hello Robo",
+    "publishedAt": null,
+    "evidenceType": "Official role and careers index read; email instructions visible; no message sent",
+    "number": 53
+  },
+  {
+    "url": "https://www.harvey.ai/company/careers/7325a214-908d-48a4-bbc2-f5c3a6c9ed00",
+    "title": "Harvey — Staff Product Designer",
+    "publisher": "Harvey",
+    "publishedAt": null,
+    "evidenceType": "Original employer page body and application/proposal route read; no application or contact",
+    "number": 54
+  },
+  {
+    "url": "https://job-boards.greenhouse.io/flex/jobs/4722531005",
+    "title": "Flex — Staff Product Designer (Contract)",
+    "publisher": "Flex",
+    "publishedAt": null,
+    "evidenceType": "Original employer page body and application/proposal route read; no application or contact",
+    "number": 55
+  },
+  {
+    "url": "https://job-boards.greenhouse.io/defcon/jobs/5287684007",
+    "title": "DEFCON AI — Product Designer (1099 Contract) | Active Secret Clearance Required",
+    "publisher": "DEFCON AI",
+    "publishedAt": null,
+    "evidenceType": "Official employer description and Apply entry visible; no application",
+    "number": 56
+  }
+]

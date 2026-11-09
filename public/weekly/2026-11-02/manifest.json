@@ -1,0 +1,682 @@
+{
+  "date": "2026-11-02",
+  "type": "weekly",
+  "route": "weekly/2026-11-02",
+  "weekStart": "2026-11-02",
+  "weekEnd": "2026-11-08",
+  "researchStartedAt": "2026-11-09T05:39:20Z",
+  "timezone": "America/Toronto",
+  "cutoff": "2026-11-09T05:00:00Z",
+  "windowStart": "2026-11-02T05:00:00Z",
+  "metrics": {
+    "body": {
+      "zhDenseChars": 7666,
+      "enWords": 4661
+    },
+    "perProduct": {
+      "highlight-affinity-ipad-unified-studios": {
+        "zh": 438,
+        "en": 296
+      },
+      "highlight-aina-ring-approval": {
+        "zh": 425,
+        "en": 287
+      },
+      "highlight-pudu-tomo-self-sharpening": {
+        "zh": 437,
+        "en": 286
+      },
+      "highlight-playful-homemade-apps": {
+        "zh": 461,
+        "en": 285
+      },
+      "highlight-snap-specs-workplace-hands-on": {
+        "zh": 442,
+        "en": 273
+      },
+      "highlight-pyrua-real-reusable-robot-programs": {
+        "zh": 427,
+        "en": 265
+      },
+      "highlight-perplexity-computer-nov6": {
+        "zh": 378,
+        "en": 270
+      },
+      "signal-recovery-boundaries": {
+        "zh": 363,
+        "en": 199
+      },
+      "signal-editable-handoffs": {
+        "zh": 393,
+        "en": 236
+      },
+      "signal-maintenance-in-the-loop": {
+        "zh": 349,
+        "en": 188
+      },
+      "signal-owners-as-troubleshooters": {
+        "zh": 374,
+        "en": 197
+      },
+      "opportunity-support-evidence-packet": {
+        "zh": 396,
+        "en": 209
+      },
+      "opportunity-content-discovery-audit": {
+        "zh": 376,
+        "en": 199
+      },
+      "opportunity-service-comparators": {
+        "zh": 382,
+        "en": 219
+      },
+      "career-employee-a": {
+        "zh": 321,
+        "en": 209
+      },
+      "career-employee-b": {
+        "zh": 332,
+        "en": 191
+      },
+      "career-contract-a": {
+        "zh": 233,
+        "en": 137
+      },
+      "career-contract-b": {
+        "zh": 286,
+        "en": 181
+      },
+      "career-conditions": {
+        "zh": 402,
+        "en": 265
+      },
+      "talent-demand": {
+        "zh": 451,
+        "en": 269
+      }
+    },
+    "primarySummaries": {
+      "highlight-affinity-ipad-unified-studios": {
+        "zh": 144,
+        "en": 90
+      },
+      "highlight-aina-ring-approval": {
+        "zh": 125,
+        "en": 86
+      },
+      "highlight-pudu-tomo-self-sharpening": {
+        "zh": 115,
+        "en": 70
+      },
+      "highlight-playful-homemade-apps": {
+        "zh": 144,
+        "en": 78
+      },
+      "highlight-snap-specs-workplace-hands-on": {
+        "zh": 138,
+        "en": 75
+      },
+      "highlight-pyrua-real-reusable-robot-programs": {
+        "zh": 136,
+        "en": 76
+      },
+      "highlight-perplexity-computer-nov6": {
+        "zh": 131,
+        "en": 77
+      },
+      "signal-recovery-boundaries": {
+        "zh": 132,
+        "en": 69
+      },
+      "signal-editable-handoffs": {
+        "zh": 122,
+        "en": 66
+      },
+      "signal-maintenance-in-the-loop": {
+        "zh": 129,
+        "en": 63
+      },
+      "signal-owners-as-troubleshooters": {
+        "zh": 130,
+        "en": 67
+      },
+      "opportunity-support-evidence-packet": {
+        "zh": 138,
+        "en": 72
+      },
+      "opportunity-content-discovery-audit": {
+        "zh": 124,
+        "en": 76
+      },
+      "opportunity-service-comparators": {
+        "zh": 113,
+        "en": 69
+      },
+      "career-employee-a": {
+        "zh": 156,
+        "en": 108
+      },
+      "career-employee-b": {
+        "zh": 143,
+        "en": 95
+      },
+      "career-contract-a": {
+        "zh": 147,
+        "en": 98
+      },
+      "career-contract-b": {
+        "zh": 137,
+        "en": 96
+      },
+      "career-conditions": {
+        "zh": 160,
+        "en": 117
+      },
+      "talent-demand": {
+        "zh": 156,
+        "en": 91
+      }
+    },
+    "counting": "Only unique full-analysis product paragraphs count toward body gates; summaries, captions, coverage and sources excluded.",
+    "products": 20,
+    "references": 56,
+    "coreVisuals": 14,
+    "slidesPerLocale": 23,
+    "primaryProjectPages": 20,
+    "attachedProjectDetails": 20,
+    "primaryBody": {
+      "zhDenseChars": 2720,
+      "enWords": 1639
+    },
+    "completeReadingBody": {
+      "zhDenseChars": 10386,
+      "enWords": 6300
+    }
+  },
+  "revision": {
+    "label": "complete-week",
+    "number": 1,
+    "originalCutoffRetained": true,
+    "newIssue": true,
+    "baselineCommit": "3c7ec879ad14854b1e38dddf13ca2799966c9f05"
+  },
+  "topics": [
+    {
+      "id": "highlight-affinity-ipad-unified-studios",
+      "unitType": "highlight",
+      "zhHeadline": "Affinity把草图、照片与排版留在同一文件，AI修图也要能继续手改",
+      "enHeadline": "Affinity keeps the sketch, image and layout in one editable file",
+      "eventAt": "2026-11-02",
+      "freshness": "weekly-event",
+      "evidence": "Original product sources; no independent runtime test",
+      "eventDateNote": "本周事件；来源原始日期及后续复核分开保留。",
+      "event_key": "affinity:ipad:affinity-ipad-unified-studios:2026-11-02",
+      "product_key": "affinity:ipad",
+      "publishedAt": "2026-11-03",
+      "observedAt": "2026-11-04T09:18:15.565387Z",
+      "delta_since_last_seen": "The November 2 release brings the unified document to touch editing. Local corrections can remain separate from regeneration."
+    },
+    {
+      "id": "highlight-aina-ring-approval",
+      "unitType": "highlight",
+      "zhHeadline": "Aina用拇指批准下一步，屏幕必须先讲清这一步是什么",
+      "enHeadline": "Aina makes approval a thumb gesture; the pending action still needs context",
+      "eventAt": "2026-11-05",
+      "freshness": "weekly-event",
+      "evidence": "Original product sources; no independent runtime test",
+      "eventDateNote": "本周事件；来源原始日期及后续复核分开保留。",
+      "event_key": "aina-ring-approval:2026-11-05",
+      "product_key": "aina-ring-approval",
+      "publishedAt": "2026-11-05",
+      "observedAt": "2026-11-06T09:13:05.728011+00:00",
+      "delta_since_last_seen": "The November 5 introduction proposes a dedicated approval surface; delivery is described as early 2027."
+    },
+    {
+      "id": "highlight-pudu-tomo-self-sharpening",
+      "unitType": "highlight",
+      "zhHeadline": "TOMO把磨刀并入回充，割草自动化开始计算维护工作",
+      "enHeadline": "TOMO adds sharpening to docking, making maintenance part of the mowing task",
+      "eventAt": "2026-11-03T09:30:00Z",
+      "freshness": "weekly-event",
+      "evidence": "Original product sources; no independent runtime test",
+      "eventDateNote": "本周事件；来源原始日期及后续复核分开保留。",
+      "event_key": "pudu:tomo-s:announcement:2026-11-03",
+      "product_key": "pudu:tomo-s",
+      "publishedAt": "2026-11-03T09:30:00Z",
+      "observedAt": "2026-11-04T09:15:35.798572+00:00",
+      "delta_since_last_seen": "The November 3 announcement adds SharpLoop maintenance, with sales planned for early spring 2027."
+    },
+    {
+      "id": "highlight-playful-homemade-apps",
+      "unitType": "highlight",
+      "zhHeadline": "Playful让家庭点子变成可分享小应用，后续修改仍需要一个主人",
+      "enHeadline": "Playful makes small personal apps shareable, with someone still responsible for upkeep",
+      "eventAt": "2026-11-05T13:25:00Z",
+      "freshness": "weekly-event",
+      "evidence": "Original product sources; no independent runtime test",
+      "eventDateNote": "本周事件；来源原始日期及后续复核分开保留。",
+      "event_key": "playful-homemade-apps-2026-11-05",
+      "product_key": "playful-homemade-apps",
+      "publishedAt": "2026-11-05T13:25:00Z",
+      "observedAt": "2026-11-07T09:14:09.005947Z",
+      "delta_since_last_seen": "The November 5 launch bundles hosting and storage into a creation flow intended for non-programmers."
+    },
+    {
+      "id": "highlight-snap-specs-workplace-hands-on",
+      "unitType": "highlight",
+      "zhHeadline": "Snap Specs把文档键盘放到视野里，短时演示还不能回答全天办公",
+      "enHeadline": "Snap Specs puts a document keyboard in view; a demo does not settle a working day",
+      "eventAt": "2026-11-07",
+      "freshness": "weekly-event",
+      "evidence": "Original product sources; no independent runtime test",
+      "eventDateNote": "本周事件；来源原始日期及后续复核分开保留。",
+      "event_key": "snap-specs-workplace-hands-on-2026-11-07",
+      "product_key": "snap-specs-workplace-hands-on",
+      "publishedAt": "2026-11-07",
+      "observedAt": "2026-11-08T09:14:00Z",
+      "delta_since_last_seen": "The new evidence is a workplace-oriented trial, not a first launch or enterprise deployment result."
+    },
+    {
+      "id": "highlight-pyrua-real-reusable-robot-programs",
+      "unitType": "highlight",
+      "zhHeadline": "PyRUA-REAL把试错留成程序，精细接触仍会要求在线介入",
+      "enHeadline": "PyRUA-REAL saves physical trials as programs, with contact-rich work still needing help",
+      "eventAt": "2026-11-04T16:46:03Z",
+      "freshness": "weekly-event",
+      "evidence": "Original product sources; no independent runtime test",
+      "eventDateNote": "本周事件；来源原始日期及后续复核分开保留。",
+      "event_key": "pyrua-real-reusable-robot-programs-2026-11-04",
+      "product_key": "pyrua-real-reusable-robot-programs",
+      "publishedAt": "2026-11-04T16:46:03Z",
+      "observedAt": "2026-11-08T09:13:29.511228+00:00",
+      "delta_since_last_seen": "The November 4 paper studies eight physical and 42 simulated tasks; their results are distinct."
+    },
+    {
+      "id": "highlight-perplexity-computer-nov6",
+      "unitType": "highlight",
+      "zhHeadline": "Perplexity把长期职责与待办队列分开，用户仍要决定何时执行",
+      "enHeadline": "Perplexity separates standing work from queued instructions",
+      "eventAt": "2026-11-06",
+      "freshness": "weekly-event",
+      "evidence": "Original product sources; no independent runtime test",
+      "eventDateNote": "本周事件；来源原始日期及后续复核分开保留。",
+      "event_key": "perplexity-computer-nov6-2026-11-06",
+      "product_key": "perplexity-computer-nov6",
+      "publishedAt": "2026-11-06",
+      "observedAt": "2026-11-08T09:16:53.799738+00:00",
+      "delta_since_last_seen": "The November 6 release also adds local Mac execution, a distinct mode from cloud Teammates."
+    },
+    {
+      "id": "signal-recovery-boundaries",
+      "unitType": "signal",
+      "zhHeadline": "恢复按钮开始交代恢复什么，旧批准也需要被拒绝",
+      "enHeadline": "Recovery controls need a scope, and stale approvals need a rejection",
+      "eventAt": "2026-11-02–08",
+      "freshness": "historical-observation-rechecked",
+      "evidence": "Observed community accounts; not representative demand",
+      "eventDateNote": "11月9日补采复核；历史案例不标成本周新事件。",
+      "event_key": "weekly:2026-11-02:signal-recovery-boundaries",
+      "product_key": "signal-recovery-boundaries",
+      "publishedAt": null,
+      "observedAt": "2026-11-09T05:55:00Z",
+      "delta_since_last_seen": "Distinct changes on November 3, 5 and 6 form an emerging signal, without a comparable multiweek growth baseline."
+    },
+    {
+      "id": "signal-editable-handoffs",
+      "unitType": "signal",
+      "zhHeadline": "生成之后留下工程，修改成本才有机会下降",
+      "enHeadline": "An editable project can reduce the cost of the second pass",
+      "eventAt": "2026-11-02–08",
+      "freshness": "historical-observation-rechecked",
+      "evidence": "Observed community accounts; not representative demand",
+      "eventDateNote": "11月9日补采复核；历史案例不标成本周新事件。",
+      "event_key": "weekly:2026-11-02:signal-editable-handoffs",
+      "product_key": "signal-editable-handoffs",
+      "publishedAt": null,
+      "observedAt": "2026-11-09T05:55:00Z",
+      "delta_since_last_seen": "Three organizations show related handoffs on November 2, 4 and 5; user migration is unmeasured."
+    },
+    {
+      "id": "signal-maintenance-in-the-loop",
+      "unitType": "signal",
+      "zhHeadline": "自动化还要计算谁来清理、换件和恢复",
+      "enHeadline": "Automation still needs someone to clean, replace and recover",
+      "eventAt": "2026-11-02–08",
+      "freshness": "historical-observation-rechecked",
+      "evidence": "Observed community accounts; not representative demand",
+      "eventDateNote": "11月9日补采复核；历史案例不标成本周新事件。",
+      "event_key": "weekly:2026-11-02:signal-maintenance-in-the-loop",
+      "product_key": "signal-maintenance-in-the-loop",
+      "publishedAt": null,
+      "observedAt": "2026-11-09T05:55:00Z",
+      "delta_since_last_seen": "This week’s home and warehouse cases support ownership-cost comparison, not a shared failure rate."
+    },
+    {
+      "id": "signal-owners-as-troubleshooters",
+      "unitType": "signal",
+      "zhHeadline": "买到自动清洁之后，用户还在互相教怎样让它正常工作",
+      "enHeadline": "After buying automatic cleaning, owners still teach each other how to make it work",
+      "eventAt": "2026-11-02–08",
+      "freshness": "historical-observation-rechecked",
+      "evidence": "Observed community accounts; not representative demand",
+      "eventDateNote": "11月9日补采复核；历史案例不标成本周新事件。",
+      "event_key": "weekly:2026-11-02:signal-owners-as-troubleshooters",
+      "product_key": "signal-owners-as-troubleshooters",
+      "publishedAt": null,
+      "observedAt": "2026-11-09T05:55:00Z",
+      "delta_since_last_seen": "Historical threads rechecked November 9; relative dates do not establish new complaints this week."
+    },
+    {
+      "id": "opportunity-support-evidence-packet",
+      "unitType": "opportunity",
+      "zhHeadline": "售后交接可先试一份故障证据包，别急着做新客服平台",
+      "enHeadline": "Test a support evidence packet before building another support platform",
+      "eventAt": "2026-11-02–08",
+      "freshness": "historical-problem-rechecked",
+      "evidence": "Proposed validation; commercial demand unverified",
+      "eventDateNote": "11月9日补采复核；历史案例不标成本周新事件。",
+      "event_key": "weekly:2026-11-02:opportunity-support-evidence-packet",
+      "product_key": "opportunity-support-evidence-packet",
+      "publishedAt": null,
+      "observedAt": "2026-11-09T05:55:00Z",
+      "delta_since_last_seen": "Threads show handoff work; no buyer budget, paid pilot or repeat purchase is verified."
+    },
+    {
+      "id": "opportunity-content-discovery-audit",
+      "unitType": "opportunity",
+      "zhHeadline": "APF的采购题目是找到旧内容，先诊断导航再谈AI搜索",
+      "enHeadline": "APF’s procurement asks people to find content; diagnose navigation before proposing AI search",
+      "eventAt": "2026-11-02–08",
+      "freshness": "historical-problem-rechecked",
+      "evidence": "Proposed validation; commercial demand unverified",
+      "eventDateNote": "11月9日补采复核；历史案例不标成本周新事件。",
+      "event_key": "weekly:2026-11-02:opportunity-content-discovery-audit",
+      "product_key": "opportunity-content-discovery-audit",
+      "publishedAt": null,
+      "observedAt": "2026-11-09T05:55:00Z",
+      "delta_since_last_seen": "Issued October 22, rechecked November 9; proposals close November 23 at 17:00 PT, after the question deadline."
+    },
+    {
+      "id": "opportunity-service-comparators",
+      "unitType": "opportunity",
+      "zhHeadline": "设计服务卖交付责任，资料门户卖流程：不要把两种价格当利润",
+      "enHeadline": "A design service sells delivery responsibility; an intake portal sells workflow",
+      "eventAt": "2026-11-02–08",
+      "freshness": "historical-problem-rechecked",
+      "evidence": "Proposed validation; commercial demand unverified",
+      "eventDateNote": "11月9日补采复核；历史案例不标成本周新事件。",
+      "event_key": "weekly:2026-11-02:opportunity-service-comparators",
+      "product_key": "opportunity-service-comparators",
+      "publishedAt": null,
+      "observedAt": "2026-11-09T05:55:00Z",
+      "delta_since_last_seen": "Seller pages rechecked November 9; testimonials and prices do not establish revenue or retention."
+    },
+    {
+      "id": "career-employee-a",
+      "unitType": "jobs",
+      "zhHeadline": "远程雇员：实体运营、AI与实验",
+      "enHeadline": "Remote employment: operations, AI and experiments",
+      "eventAt": "2026-11-09 supplementary check",
+      "freshness": "post-window-hiring-observation",
+      "evidence": "Employer descriptions and application routes rechecked November 9; original posting dates retained where verified",
+      "eventDateNote": "周一新增发现或复核；除APF原始日期外，发布日期未核实。",
+      "event_key": "weekly:2026-11-02:career-employee-a",
+      "product_key": "career-employee-a",
+      "publishedAt": null,
+      "observedAt": "2026-11-09T05:57:00Z",
+      "delta_since_last_seen": "Supplement collected and rechecked November 9; discovery is not a new posting date."
+    },
+    {
+      "id": "career-employee-b",
+      "unitType": "jobs",
+      "zhHeadline": "远程雇员：产品交付与增长",
+      "enHeadline": "Remote employment: product delivery and growth",
+      "eventAt": "2026-11-09 supplementary check",
+      "freshness": "post-window-hiring-observation",
+      "evidence": "Employer descriptions and application routes rechecked November 9; original posting dates retained where verified",
+      "eventDateNote": "周一新增发现或复核；除APF原始日期外，发布日期未核实。",
+      "event_key": "weekly:2026-11-02:career-employee-b",
+      "product_key": "career-employee-b",
+      "publishedAt": null,
+      "observedAt": "2026-11-09T05:57:00Z",
+      "delta_since_last_seen": "Supplement collected and rechecked November 9; discovery is not a new posting date."
+    },
+    {
+      "id": "career-contract-a",
+      "unitType": "jobs",
+      "zhHeadline": "合同与兼职：设计也可能要求生产代码",
+      "enHeadline": "Contract and part-time: design may include production code",
+      "eventAt": "2026-11-09 supplementary check",
+      "freshness": "post-window-hiring-observation",
+      "evidence": "Employer descriptions and application routes rechecked November 9; original posting dates retained where verified",
+      "eventDateNote": "周一新增发现或复核；除APF原始日期外，发布日期未核实。",
+      "event_key": "weekly:2026-11-02:career-contract-a",
+      "product_key": "career-contract-a",
+      "publishedAt": null,
+      "observedAt": "2026-11-09T05:57:00Z",
+      "delta_since_last_seen": "Supplement collected and rechecked November 9; discovery is not a new posting date."
+    },
+    {
+      "id": "career-contract-b",
+      "unitType": "jobs",
+      "zhHeadline": "合同与兼职：先看工时和时区",
+      "enHeadline": "Contract and part-time: check capacity and time zones",
+      "eventAt": "2026-11-09 supplementary check",
+      "freshness": "post-window-hiring-observation",
+      "evidence": "Employer descriptions and application routes rechecked November 9; original posting dates retained where verified",
+      "eventDateNote": "周一新增发现或复核；除APF原始日期外，发布日期未核实。",
+      "event_key": "weekly:2026-11-02:career-contract-b",
+      "product_key": "career-contract-b",
+      "publishedAt": null,
+      "observedAt": "2026-11-09T05:57:00Z",
+      "delta_since_last_seen": "Supplement collected and rechecked November 9; discovery is not a new posting date."
+    },
+    {
+      "id": "career-conditions",
+      "unitType": "jobs",
+      "zhHeadline": "混合办公、资格限制与咨询采购",
+      "enHeadline": "Hybrid work, eligibility limits and a consulting RFP",
+      "eventAt": "2026-11-09 supplementary check",
+      "freshness": "post-window-hiring-observation",
+      "evidence": "Employer descriptions and application routes rechecked November 9; original posting dates retained where verified",
+      "eventDateNote": "周一新增发现或复核；除APF原始日期外，发布日期未核实。",
+      "event_key": "weekly:2026-11-02:career-conditions",
+      "product_key": "career-conditions",
+      "publishedAt": null,
+      "observedAt": "2026-11-09T05:57:00Z",
+      "delta_since_last_seen": "Supplement collected and rechecked November 9; discovery is not a new posting date."
+    },
+    {
+      "id": "talent-demand",
+      "unitType": "talent",
+      "zhHeadline": "招聘里的AI字样之外，更要看清交付责任",
+      "enHeadline": "Read the delivery responsibility behind the AI label",
+      "eventAt": "2026-11-09 sample",
+      "freshness": "post-window-hiring-sample-analysis",
+      "evidence": "Editorial interpretation of the verified role sample; no comparable growth baseline",
+      "eventDateNote": "11月9日补采样本；没有市场增长基线。",
+      "event_key": "weekly:2026-11-02:talent-demand",
+      "product_key": "talent-demand",
+      "publishedAt": null,
+      "observedAt": "2026-11-09T05:57:00Z",
+      "delta_since_last_seen": "15 existing records rechecked and 2 newly discovered for this issue, not 17 new postings this week."
+    }
+  ],
+  "unitCounts": {
+    "highlight": 7,
+    "trend": 0,
+    "opportunity": 3,
+    "signal": 4,
+    "jobs": 5,
+    "talent": 1
+  },
+  "windowHours": 168,
+  "hiringSupplement": {
+    "roles": [
+      {
+        "id": "samsara",
+        "company": "Samsara",
+        "url": "https://www.samsara.com/company/careers/roles/8275253?gh_jid=8275253",
+        "newFound": false,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-11-09T05:50:00Z"
+      },
+      {
+        "id": "andgo-lead",
+        "company": "Andgo",
+        "url": "https://job-boards.greenhouse.io/andgosystems/jobs/4456641009",
+        "newFound": false,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-11-09T05:50:00Z"
+      },
+      {
+        "id": "stackadapt",
+        "company": "StackAdapt",
+        "url": "https://job-boards.greenhouse.io/stackadapt/jobs/4410085009",
+        "newFound": false,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-11-09T05:50:00Z"
+      },
+      {
+        "id": "life360",
+        "company": "Life360",
+        "url": "https://job-boards.greenhouse.io/life360/jobs/8790900002",
+        "newFound": false,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-11-09T05:50:00Z"
+      },
+      {
+        "id": "astell",
+        "company": "Lab24 / Astell",
+        "url": "https://astell.ai/en/careers/ui-ux",
+        "newFound": false,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-11-09T05:50:00Z"
+      },
+      {
+        "id": "babylist-ai-builder",
+        "company": "Babylist",
+        "url": "https://job-boards.greenhouse.io/babylist/jobs/6104998004",
+        "newFound": false,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-11-09T05:50:00Z"
+      },
+      {
+        "id": "tailscale-growth",
+        "company": "Tailscale",
+        "url": "https://job-boards.greenhouse.io/tailscale/jobs/4726042005",
+        "newFound": false,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-11-09T05:50:00Z"
+      },
+      {
+        "id": "andgo-contract",
+        "company": "Andgo",
+        "url": "https://job-boards.greenhouse.io/andgosystems/jobs/4456625009",
+        "newFound": false,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-11-09T05:50:00Z"
+      },
+      {
+        "id": "alpaca",
+        "company": "Alpaca",
+        "url": "https://job-boards.greenhouse.io/alpaca/jobs/6187326004",
+        "newFound": false,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-11-09T05:50:00Z"
+      },
+      {
+        "id": "lca",
+        "company": "LCA",
+        "url": "https://www.latecheckout.agency/careers/sr-product-designer",
+        "newFound": false,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-11-09T05:50:00Z"
+      },
+      {
+        "id": "housesigma",
+        "company": "HouseSigma",
+        "url": "https://team.housesigma.com/job_posting/senior-product-designer/",
+        "newFound": false,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-11-09T05:50:00Z"
+      },
+      {
+        "id": "upgraded",
+        "company": "Upgraded",
+        "url": "https://www.getupgraded.ca/jobs/product-designer",
+        "newFound": false,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-11-09T05:50:00Z"
+      },
+      {
+        "id": "hello-robo",
+        "company": "Hello Robo",
+        "url": "https://www.hellorobo.co/careers/senior-product-designer",
+        "newFound": true,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-11-09T05:45:14Z"
+      },
+      {
+        "id": "harvey",
+        "company": "Harvey",
+        "url": "https://www.harvey.ai/company/careers/7325a214-908d-48a4-bbc2-f5c3a6c9ed00",
+        "newFound": false,
+        "conditional": true,
+        "publishedAt": null,
+        "observedAt": "2026-11-09T05:50:00Z"
+      },
+      {
+        "id": "flex-contract",
+        "company": "Flex",
+        "url": "https://job-boards.greenhouse.io/flex/jobs/4722531005",
+        "newFound": false,
+        "conditional": true,
+        "publishedAt": null,
+        "observedAt": "2026-11-09T05:50:00Z"
+      },
+      {
+        "id": "defcon-contract",
+        "company": "DEFCON AI",
+        "url": "https://job-boards.greenhouse.io/defcon/jobs/5287684007",
+        "newFound": true,
+        "conditional": true,
+        "publishedAt": null,
+        "observedAt": "2026-11-09T05:57:00Z"
+      },
+      {
+        "id": "apf-ux",
+        "company": "APF Canada",
+        "url": "https://www.asiapacific.ca/about-us/employment-opportunities",
+        "newFound": false,
+        "conditional": true,
+        "publishedAt": "2026-10-22",
+        "observedAt": "2026-11-09T05:50:00Z"
+      }
+    ],
+    "main": 13,
+    "conditional": 4,
+    "newFound": 2,
+    "revalidated": 15,
+    "employers": 16,
+    "originalPublicationDatesVerified": 1,
+    "observationNote": "Rechecked November 9; original dates retained; not all newly posted in the covered week."
+  },
+  "periodLabel": [
+    "2026年11月2日–11月8日",
+    "November 2–8, 2026"
+  ]
+}

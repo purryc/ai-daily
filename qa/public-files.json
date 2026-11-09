@@ -10311,13 +10311,13 @@
   },
   {
     "path": "en/index.html",
-    "bytes": 180921,
-    "sha256": "2ad1752b047331b34b04f06f4cafa8c1928f2f39706a25813f09fdcfe788d02d"
+    "bytes": 182248,
+    "sha256": "fef52f1ae428198b4ce41b174f220c18e0b770ed68ca43e582849247b85eeeed"
   },
   {
     "path": "index.html",
-    "bytes": 174706,
-    "sha256": "45ccc6c56752b0d0b3d1d470552689b6b2d8eee699bd7b8bdc992c39ce6318ce"
+    "bytes": 175963,
+    "sha256": "57656c5dda18b165ec82a8b6e2737617f00bacd0c3fb74dd31922121526c4f6e"
   },
   {
     "path": "manifest.json",
@@ -10865,6 +10865,316 @@
     "sha256": "6e665fe7a8f9ae4df5d101057c2000fa13e430121d61c76f475da90c42a32b23"
   },
   {
+    "path": "weekly/2026-11-02/assets/deck.js",
+    "bytes": 2576,
+    "sha256": "63d13c06452d7405e0b5ed572d8464d802c9e5b8de656b5a94e3527b1730f7b3"
+  },
+  {
+    "path": "weekly/2026-11-02/assets/highlight-affinity-ipad-unified-studios.jpg",
+    "bytes": 119831,
+    "sha256": "71e4a842d9d5ddddd822c0dd1083fb247e7cc694416dfaa0677e9f9aed5ceaca"
+  },
+  {
+    "path": "weekly/2026-11-02/assets/highlight-aina-ring-approval.jpg",
+    "bytes": 47946,
+    "sha256": "3bc0c40a1baae2bbcd665de309a39874ba82fbf267c060182cd9cd3811fc77ad"
+  },
+  {
+    "path": "weekly/2026-11-02/assets/highlight-perplexity-computer-nov6.jpg",
+    "bytes": 94506,
+    "sha256": "9337ae9f4c5af6d0e05518912a949b4d2d7a926cb86cf9fd52b5118ec7d906fc"
+  },
+  {
+    "path": "weekly/2026-11-02/assets/highlight-playful-homemade-apps.jpg",
+    "bytes": 121221,
+    "sha256": "49d271d0f2354b8e7390ceb60f95ba84666b3808dc73991ab1cc91b3e03e38ee"
+  },
+  {
+    "path": "weekly/2026-11-02/assets/highlight-pudu-tomo-self-sharpening.jpg",
+    "bytes": 191292,
+    "sha256": "f638e5411d1c5e602eadfd56f5e56ec930c74770f8a169a638171e32e05d0ddf"
+  },
+  {
+    "path": "weekly/2026-11-02/assets/highlight-pyrua-real-reusable-robot-programs.jpg",
+    "bytes": 154173,
+    "sha256": "5fabc87d89c932b0e77864d66be7c35ed61f7b09c90dafcc8586e68e35187154"
+  },
+  {
+    "path": "weekly/2026-11-02/assets/highlight-snap-specs-workplace-hands-on.jpg",
+    "bytes": 296637,
+    "sha256": "0191128b05e4942c15e702d8caf1d5cb0325eb92fe82495f974c0a9b5bf73071"
+  },
+  {
+    "path": "weekly/2026-11-02/assets/issue.css",
+    "bytes": 10936,
+    "sha256": "1983f6c663cea7a612491b30e413ee39d2eedc3170a433752462ce37e272cbee"
+  },
+  {
+    "path": "weekly/2026-11-02/assets/opportunity-content-discovery-audit.png",
+    "bytes": 78517,
+    "sha256": "3161fecc99e945c7c0734e30428935eed3fcdc9620f6450040f6dca56c4c3e16"
+  },
+  {
+    "path": "weekly/2026-11-02/assets/opportunity-service-comparators.png",
+    "bytes": 78434,
+    "sha256": "525de56bb75590ccfeaed6f1411f8eec54a0c3262563da0ad6ca72af3af23e3e"
+  },
+  {
+    "path": "weekly/2026-11-02/assets/opportunity-support-evidence-packet.png",
+    "bytes": 80325,
+    "sha256": "6dec4bcf2f423ebdb2fa20aa2a1b46c8042c3fb4835f72eb7cf1750e78116a2a"
+  },
+  {
+    "path": "weekly/2026-11-02/assets/signal-editable-handoffs.png",
+    "bytes": 76988,
+    "sha256": "9bb7b2809916f1f813cad8dcd29ac706dcef35ee90968102a6f8289fbeca0bbc"
+  },
+  {
+    "path": "weekly/2026-11-02/assets/signal-maintenance-in-the-loop.png",
+    "bytes": 73325,
+    "sha256": "9a5859114e99f60f4bb2fc16f9bb3570bdb4015a9d6182315d2c8c6ac8577190"
+  },
+  {
+    "path": "weekly/2026-11-02/assets/signal-owners-as-troubleshooters.png",
+    "bytes": 73194,
+    "sha256": "7a6e0d8e9da22be10436434e66f5f59d73537c9e10467c706dda1d08fd29f915"
+  },
+  {
+    "path": "weekly/2026-11-02/assets/signal-recovery-boundaries.png",
+    "bytes": 77679,
+    "sha256": "80ce11167d1f6dc6e80a389378cddd959d2b78f3da1ada9956e89d865bce0d4d"
+  },
+  {
+    "path": "weekly/2026-11-02/en/details/career-conditions.html",
+    "bytes": 5306,
+    "sha256": "1ad489b4920cd48e5e7183b93c84a33925ebb539c993df8ded84d38daa989c86"
+  },
+  {
+    "path": "weekly/2026-11-02/en/details/career-contract-a.html",
+    "bytes": 3890,
+    "sha256": "406796718c6459d0ed44609621d4d3cc049e3c52fada2b7445b8ab368dce1e16"
+  },
+  {
+    "path": "weekly/2026-11-02/en/details/career-contract-b.html",
+    "bytes": 4130,
+    "sha256": "55a3885fa56f31e0f1283a86c172b7fdd2063c891911c78e3b6b140ab2ebfc20"
+  },
+  {
+    "path": "weekly/2026-11-02/en/details/career-employee-a.html",
+    "bytes": 4863,
+    "sha256": "14db36d335ec69edc5447dc0b97e26d9aa000ac4314a2129e9e6c9dca5a2cdc1"
+  },
+  {
+    "path": "weekly/2026-11-02/en/details/career-employee-b.html",
+    "bytes": 4193,
+    "sha256": "ff9689512d005fbdeee30f0c81388722b37678f5159170fc3db161e7c2efb9e0"
+  },
+  {
+    "path": "weekly/2026-11-02/en/details/highlight-affinity-ipad-unified-studios.html",
+    "bytes": 4836,
+    "sha256": "94341eb9fbac5fbf3dc919ef9f5fa663a6d9fee970a23e4b580fb68230c29f81"
+  },
+  {
+    "path": "weekly/2026-11-02/en/details/highlight-aina-ring-approval.html",
+    "bytes": 4594,
+    "sha256": "65ccaad0b42e46da6317c92de7fe8fabb2f16fd718193f4206654f864b70afd0"
+  },
+  {
+    "path": "weekly/2026-11-02/en/details/highlight-perplexity-computer-nov6.html",
+    "bytes": 5044,
+    "sha256": "991e1de525b34edcd49612bff9f2929bcce15fd78e108faed2632e37f69f75cb"
+  },
+  {
+    "path": "weekly/2026-11-02/en/details/highlight-playful-homemade-apps.html",
+    "bytes": 4822,
+    "sha256": "9ca8308d8cae3b6737d3cf856151dbb29a75f20d138e518e6b2ff19217534ada"
+  },
+  {
+    "path": "weekly/2026-11-02/en/details/highlight-pudu-tomo-self-sharpening.html",
+    "bytes": 5165,
+    "sha256": "75e610027a34f7d6ec227179a902ef1ab7c9e0fa988d32c2c5a72b95d060db6b"
+  },
+  {
+    "path": "weekly/2026-11-02/en/details/highlight-pyrua-real-reusable-robot-programs.html",
+    "bytes": 4851,
+    "sha256": "bb177ee21294f115b6a6d00b8633b9f022e783fa9e791098e684a77d7d629ab8"
+  },
+  {
+    "path": "weekly/2026-11-02/en/details/highlight-snap-specs-workplace-hands-on.html",
+    "bytes": 5217,
+    "sha256": "7d4a046044fda088d94bc29bfe23e44c23b6ce6e74c8704af05e736e8593d4b8"
+  },
+  {
+    "path": "weekly/2026-11-02/en/details/opportunity-content-discovery-audit.html",
+    "bytes": 4171,
+    "sha256": "0a8551efd7a8fb4ff64d64e2c2e26bf5b26195745aa1f55b475e4a563dedd9dc"
+  },
+  {
+    "path": "weekly/2026-11-02/en/details/opportunity-service-comparators.html",
+    "bytes": 4509,
+    "sha256": "a86066cefb168b70ed871abf11dfcce58f1bfab9f43f1ec9f5b2e991554ffb79"
+  },
+  {
+    "path": "weekly/2026-11-02/en/details/opportunity-support-evidence-packet.html",
+    "bytes": 4806,
+    "sha256": "fa7c9c6c56f052f8c6c051b4a0804923f028ce7c174bf19a9a1cd37d2e1edfb1"
+  },
+  {
+    "path": "weekly/2026-11-02/en/details/signal-editable-handoffs.html",
+    "bytes": 5485,
+    "sha256": "ac670dc89c17341d557481196b4e04a59764dce4d52a8eeef6c937d80d77e92d"
+  },
+  {
+    "path": "weekly/2026-11-02/en/details/signal-maintenance-in-the-loop.html",
+    "bytes": 5316,
+    "sha256": "3cfc983a9cd507ea78093301725db8efdb038b3a54e5d29340745736ab553be3"
+  },
+  {
+    "path": "weekly/2026-11-02/en/details/signal-owners-as-troubleshooters.html",
+    "bytes": 4828,
+    "sha256": "67c2e45f65eb6c1d4035b4a23d85c8509375ad2cdbc178121d68dc64cb79a585"
+  },
+  {
+    "path": "weekly/2026-11-02/en/details/signal-recovery-boundaries.html",
+    "bytes": 5112,
+    "sha256": "7cda73f94111149a5b1aefcced9d44be1c75fc38fcf37f537309ce8a897d43ab"
+  },
+  {
+    "path": "weekly/2026-11-02/en/details/talent-demand.html",
+    "bytes": 6204,
+    "sha256": "a865a5bd1c3aa5b2b3a9b7f6009aff0c9ec598773da4fd2e489abef95114f0ea"
+  },
+  {
+    "path": "weekly/2026-11-02/en/index.html",
+    "bytes": 64036,
+    "sha256": "1b81b6e40bec52415eb62f65006d56c1e35a3e90ce47d2166ef4a55a33ca7ee3"
+  },
+  {
+    "path": "weekly/2026-11-02/manifest.json",
+    "bytes": 27022,
+    "sha256": "84becd62c5e5a6066686c9eda57ce41adcff849cfd09b69e6878ac5f2a736b6e"
+  },
+  {
+    "path": "weekly/2026-11-02/sources.html",
+    "bytes": 37929,
+    "sha256": "a60d872aeeb302f8af53390412f6e0136b1e0bc99eee735a407864988cb1d5b5"
+  },
+  {
+    "path": "weekly/2026-11-02/sources.json",
+    "bytes": 15179,
+    "sha256": "5b50fb365a3c9263b144964144f63bba720f243761dc330a683c91eabe733e2a"
+  },
+  {
+    "path": "weekly/2026-11-02/visuals.json",
+    "bytes": 10641,
+    "sha256": "46d1450704afc143e2bb72bd9956f9d9b88cb531decd9fa9862d0866f1bebda9"
+  },
+  {
+    "path": "weekly/2026-11-02/zh/details/career-conditions.html",
+    "bytes": 5048,
+    "sha256": "0e31c203602d5d37473fd6f0438488dc9074bd37e9b42d6d31341f365e10ed03"
+  },
+  {
+    "path": "weekly/2026-11-02/zh/details/career-contract-a.html",
+    "bytes": 3714,
+    "sha256": "2f08fb53cb596b1274c40f681bb050355e7638630ac9bb0edefe83470f6128ad"
+  },
+  {
+    "path": "weekly/2026-11-02/zh/details/career-contract-b.html",
+    "bytes": 3935,
+    "sha256": "2e07a13b97e69b954d24bc59e611ea2fba8c9aa9725f47c21927b3b0c39a31f7"
+  },
+  {
+    "path": "weekly/2026-11-02/zh/details/career-employee-a.html",
+    "bytes": 4665,
+    "sha256": "9cf807e9b93ba95909a74370a4ebf1ae2f8528e1277e1da6ebe3ce20d4d23710"
+  },
+  {
+    "path": "weekly/2026-11-02/zh/details/career-employee-b.html",
+    "bytes": 3952,
+    "sha256": "d75cab133f890f97820729a6a5da49d2b23e78f3aa38655922669c7cff6c3259"
+  },
+  {
+    "path": "weekly/2026-11-02/zh/details/highlight-affinity-ipad-unified-studios.html",
+    "bytes": 4432,
+    "sha256": "ef68e3c436fc69a0df380d89d0a3447507d8a26107c2141958f8c78379477663"
+  },
+  {
+    "path": "weekly/2026-11-02/zh/details/highlight-aina-ring-approval.html",
+    "bytes": 4050,
+    "sha256": "7cd1ad697412bbad27cf8002ac246ad1ea50334d2e47bd8b6c11342831e043ea"
+  },
+  {
+    "path": "weekly/2026-11-02/zh/details/highlight-perplexity-computer-nov6.html",
+    "bytes": 4424,
+    "sha256": "746b33507b683c619eb34bbfcef45a5cd4abfae3dc70f567049d9a5283299d49"
+  },
+  {
+    "path": "weekly/2026-11-02/zh/details/highlight-playful-homemade-apps.html",
+    "bytes": 4445,
+    "sha256": "4a85cf8662079a4347c4d2b4d7de93cef4efcf6738e13eec6ec783fd8736061a"
+  },
+  {
+    "path": "weekly/2026-11-02/zh/details/highlight-pudu-tomo-self-sharpening.html",
+    "bytes": 4565,
+    "sha256": "af5410fe5ee999d0d0b1467a40e896b7151d6495b9b3d71e7c702df8454ca308"
+  },
+  {
+    "path": "weekly/2026-11-02/zh/details/highlight-pyrua-real-reusable-robot-programs.html",
+    "bytes": 4289,
+    "sha256": "d48658808cb7fc97139d79e6cb4f909c2a20bd509f426b2df81e5964e2bac7a9"
+  },
+  {
+    "path": "weekly/2026-11-02/zh/details/highlight-snap-specs-workplace-hands-on.html",
+    "bytes": 4687,
+    "sha256": "919afaec9ef3edbfb657d7a9236eca454ceb1682e5f5cb6ded0a471e591f5001"
+  },
+  {
+    "path": "weekly/2026-11-02/zh/details/opportunity-content-discovery-audit.html",
+    "bytes": 3950,
+    "sha256": "465bfde9dc9d53826b625f502577c24cf3e565717954472f9068b486a78d715f"
+  },
+  {
+    "path": "weekly/2026-11-02/zh/details/opportunity-service-comparators.html",
+    "bytes": 4234,
+    "sha256": "6ad61bc4c6e86e6515fd5051c46e842fe6d175868cd165b8d411fad7180b6e64"
+  },
+  {
+    "path": "weekly/2026-11-02/zh/details/opportunity-support-evidence-packet.html",
+    "bytes": 4595,
+    "sha256": "f0d6e6c57f8abb62ee814ddb6af1014546902d2fb7c37d0335bcfa0e3b6b6057"
+  },
+  {
+    "path": "weekly/2026-11-02/zh/details/signal-editable-handoffs.html",
+    "bytes": 5226,
+    "sha256": "e332117409f9a06d565ef50c07a8d10c64fd7e1b0c71eb3ea0b5b61a1e2cf186"
+  },
+  {
+    "path": "weekly/2026-11-02/zh/details/signal-maintenance-in-the-loop.html",
+    "bytes": 5025,
+    "sha256": "1fdba5654c6b3fb97fde15ca816d1402a0fcbcc5a882ac15b6c9e9cffbbc9998"
+  },
+  {
+    "path": "weekly/2026-11-02/zh/details/signal-owners-as-troubleshooters.html",
+    "bytes": 4494,
+    "sha256": "d980669abbe14f1399e9da359fa6d1e210d93cbfb080c7bacbf0f42af737ec7b"
+  },
+  {
+    "path": "weekly/2026-11-02/zh/details/signal-recovery-boundaries.html",
+    "bytes": 4865,
+    "sha256": "686b64db5effa66d4a0bef12b3b62c7759e887a2d72f9acdae7122872a540571"
+  },
+  {
+    "path": "weekly/2026-11-02/zh/details/talent-demand.html",
+    "bytes": 5823,
+    "sha256": "ac5e19e7465d25c2a7a119ba52a765f3d884874cb45e3c706ff0b08b080c731c"
+  },
+  {
+    "path": "weekly/2026-11-02/zh/index.html",
+    "bytes": 62262,
+    "sha256": "95e171dbabc37a5f4e0b9f25a75157a6ac26b5832868bdb7d5b242af46cdbe56"
+  },
+  {
     "path": "weekly/assets/pilot.css",
     "bytes": 7365,
     "sha256": "d3b071073da857700d758dd91cd07d413ae0dc97ec17eed683fbd35c5b08f671"
@@ -10936,12 +11246,12 @@
   },
   {
     "path": "weekly/index.html",
-    "bytes": 1412,
-    "sha256": "2673b977366bffd016a6bd470e0c42c92d08ad064fa403d9760d8d388a2fd2cd"
+    "bytes": 1492,
+    "sha256": "c4ee9d11645dfe245da3ff9eaeeef12f6c01856aef41402e7f0db30080c52df8"
   },
   {
     "path": "weekly/manifest.json",
-    "bytes": 1006,
-    "sha256": "ce7f6140f092485248baa440c3d4192b0b2283de860811efa363dca91e56cb46"
+    "bytes": 1358,
+    "sha256": "c7b82affbdc6b46a1b01230b01060dc93ef955d975ed3cd18964ca5c32e12211"
   }
 ]

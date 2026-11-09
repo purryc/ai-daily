@@ -1,242 +1,294 @@
 {
   "reviewed": true,
-  "issue": "weekly/2026-10-26",
+  "issue": "weekly/2026-11-02",
   "metrics": {
     "body": {
-      "zhDenseChars": 11310,
-      "enWords": 6657
+      "zhDenseChars": 7666,
+      "enWords": 4661
     },
     "perProduct": {
-      "highlight-software-canva-brush": {
-        "zh": 654,
-        "en": 390
+      "highlight-affinity-ipad-unified-studios": {
+        "zh": 438,
+        "en": 296
       },
-      "highlight-hardware-apple-touch": {
-        "zh": 666,
-        "en": 405
+      "highlight-aina-ring-approval": {
+        "zh": 425,
+        "en": 287
       },
-      "highlight-software-papilot": {
-        "zh": 683,
-        "en": 385
+      "highlight-pudu-tomo-self-sharpening": {
+        "zh": 437,
+        "en": 286
       },
-      "highlight-software-skyrimnet": {
-        "zh": 697,
-        "en": 393
+      "highlight-playful-homemade-apps": {
+        "zh": 461,
+        "en": 285
       },
-      "highlight-hardware-matic-serene": {
-        "zh": 662,
-        "en": 419
+      "highlight-snap-specs-workplace-hands-on": {
+        "zh": 442,
+        "en": 273
       },
-      "highlight-software-vclip": {
-        "zh": 649,
-        "en": 396
+      "highlight-pyrua-real-reusable-robot-programs": {
+        "zh": 427,
+        "en": 265
       },
-      "highlight-hardware-oak4-ffc": {
-        "zh": 671,
-        "en": 417
+      "highlight-perplexity-computer-nov6": {
+        "zh": 378,
+        "en": 270
       },
-      "trend-action-target-delivery": {
-        "zh": 791,
-        "en": 452
+      "signal-recovery-boundaries": {
+        "zh": 363,
+        "en": 199
       },
-      "trend-budget-success-accounting": {
-        "zh": 780,
-        "en": 430
+      "signal-editable-handoffs": {
+        "zh": 393,
+        "en": 236
       },
-      "signal-consumer-roleplay-continuity": {
-        "zh": 626,
-        "en": 367
+      "signal-maintenance-in-the-loop": {
+        "zh": 349,
+        "en": 188
       },
-      "opportunity-document-acceptance": {
-        "zh": 855,
-        "en": 472
+      "signal-owners-as-troubleshooters": {
+        "zh": 374,
+        "en": 197
       },
-      "opportunity-state-aware-controller": {
-        "zh": 813,
-        "en": 473
+      "opportunity-support-evidence-packet": {
+        "zh": 396,
+        "en": 209
       },
-      "hiring-remote-employees": {
-        "zh": 505,
-        "en": 326
+      "opportunity-content-discovery-audit": {
+        "zh": 376,
+        "en": 199
       },
-      "hiring-contract-part-time": {
-        "zh": 609,
-        "en": 369
+      "opportunity-service-comparators": {
+        "zh": 382,
+        "en": 219
       },
-      "hiring-talent-demand": {
-        "zh": 893,
-        "en": 481
+      "career-employee-a": {
+        "zh": 321,
+        "en": 209
       },
-      "hiring-nov3-supplement": {
-        "zh": 756,
-        "en": 482
+      "career-employee-b": {
+        "zh": 332,
+        "en": 191
+      },
+      "career-contract-a": {
+        "zh": 233,
+        "en": 137
+      },
+      "career-contract-b": {
+        "zh": 286,
+        "en": 181
+      },
+      "career-conditions": {
+        "zh": 402,
+        "en": 265
+      },
+      "talent-demand": {
+        "zh": 451,
+        "en": 269
       }
     },
     "primarySummaries": {
-      "highlight-software-canva-brush": {
-        "zh": 178,
-        "en": 98
+      "highlight-affinity-ipad-unified-studios": {
+        "zh": 144,
+        "en": 90
       },
-      "highlight-hardware-apple-touch": {
-        "zh": 161,
-        "en": 100
+      "highlight-aina-ring-approval": {
+        "zh": 125,
+        "en": 86
       },
-      "highlight-software-papilot": {
-        "zh": 173,
-        "en": 106
+      "highlight-pudu-tomo-self-sharpening": {
+        "zh": 115,
+        "en": 70
       },
-      "highlight-software-skyrimnet": {
-        "zh": 164,
-        "en": 102
+      "highlight-playful-homemade-apps": {
+        "zh": 144,
+        "en": 78
       },
-      "highlight-hardware-matic-serene": {
-        "zh": 154,
-        "en": 101
+      "highlight-snap-specs-workplace-hands-on": {
+        "zh": 138,
+        "en": 75
       },
-      "highlight-software-vclip": {
-        "zh": 169,
-        "en": 101
+      "highlight-pyrua-real-reusable-robot-programs": {
+        "zh": 136,
+        "en": 76
       },
-      "highlight-hardware-oak4-ffc": {
-        "zh": 171,
-        "en": 102
+      "highlight-perplexity-computer-nov6": {
+        "zh": 131,
+        "en": 77
       },
-      "trend-action-target-delivery": {
-        "zh": 177,
-        "en": 102
+      "signal-recovery-boundaries": {
+        "zh": 132,
+        "en": 69
       },
-      "trend-budget-success-accounting": {
-        "zh": 179,
-        "en": 99
+      "signal-editable-handoffs": {
+        "zh": 122,
+        "en": 66
       },
-      "signal-consumer-roleplay-continuity": {
-        "zh": 189,
-        "en": 100
+      "signal-maintenance-in-the-loop": {
+        "zh": 129,
+        "en": 63
       },
-      "opportunity-document-acceptance": {
-        "zh": 148,
-        "en": 84
+      "signal-owners-as-troubleshooters": {
+        "zh": 130,
+        "en": 67
       },
-      "opportunity-state-aware-controller": {
-        "zh": 133,
-        "en": 85
+      "opportunity-support-evidence-packet": {
+        "zh": 138,
+        "en": 72
       },
-      "hiring-remote-employees": {
-        "zh": 173,
-        "en": 147
+      "opportunity-content-discovery-audit": {
+        "zh": 124,
+        "en": 76
       },
-      "hiring-contract-part-time": {
-        "zh": 182,
-        "en": 163
+      "opportunity-service-comparators": {
+        "zh": 113,
+        "en": 69
       },
-      "hiring-talent-demand": {
-        "zh": 193,
+      "career-employee-a": {
+        "zh": 156,
         "en": 108
       },
-      "hiring-nov3-supplement": {
-        "zh": 177,
-        "en": 164
+      "career-employee-b": {
+        "zh": 143,
+        "en": 95
+      },
+      "career-contract-a": {
+        "zh": 147,
+        "en": 98
+      },
+      "career-contract-b": {
+        "zh": 137,
+        "en": 96
+      },
+      "career-conditions": {
+        "zh": 160,
+        "en": 117
+      },
+      "talent-demand": {
+        "zh": 156,
+        "en": 91
       }
     },
     "counting": "Only unique full-analysis product paragraphs count toward body gates; summaries, captions, coverage and sources excluded.",
-    "products": 16,
-    "references": 74,
-    "coreVisuals": 12,
-    "slidesPerLocale": 19,
-    "primaryProjectPages": 16,
-    "attachedProjectDetails": 16,
+    "products": 20,
+    "references": 56,
+    "coreVisuals": 14,
+    "slidesPerLocale": 23,
+    "primaryProjectPages": 20,
+    "attachedProjectDetails": 20,
     "primaryBody": {
-      "zhDenseChars": 2721,
-      "enWords": 1762
+      "zhDenseChars": 2720,
+      "enWords": 1639
     },
     "completeReadingBody": {
-      "zhDenseChars": 14031,
-      "enWords": 8419
+      "zhDenseChars": 10386,
+      "enWords": 6300
     }
   },
   "units": [
     {
-      "id": "highlight-software-canva-brush",
+      "id": "highlight-affinity-ipad-unified-studios",
       "type": "highlight"
     },
     {
-      "id": "highlight-hardware-apple-touch",
+      "id": "highlight-aina-ring-approval",
       "type": "highlight"
     },
     {
-      "id": "highlight-software-papilot",
+      "id": "highlight-pudu-tomo-self-sharpening",
       "type": "highlight"
     },
     {
-      "id": "highlight-software-skyrimnet",
+      "id": "highlight-playful-homemade-apps",
       "type": "highlight"
     },
     {
-      "id": "highlight-hardware-matic-serene",
+      "id": "highlight-snap-specs-workplace-hands-on",
       "type": "highlight"
     },
     {
-      "id": "highlight-software-vclip",
+      "id": "highlight-pyrua-real-reusable-robot-programs",
       "type": "highlight"
     },
     {
-      "id": "highlight-hardware-oak4-ffc",
+      "id": "highlight-perplexity-computer-nov6",
       "type": "highlight"
     },
     {
-      "id": "trend-action-target-delivery",
-      "type": "trend"
-    },
-    {
-      "id": "trend-budget-success-accounting",
-      "type": "trend"
-    },
-    {
-      "id": "signal-consumer-roleplay-continuity",
+      "id": "signal-recovery-boundaries",
       "type": "signal"
     },
     {
-      "id": "opportunity-document-acceptance",
+      "id": "signal-editable-handoffs",
+      "type": "signal"
+    },
+    {
+      "id": "signal-maintenance-in-the-loop",
+      "type": "signal"
+    },
+    {
+      "id": "signal-owners-as-troubleshooters",
+      "type": "signal"
+    },
+    {
+      "id": "opportunity-support-evidence-packet",
       "type": "opportunity"
     },
     {
-      "id": "opportunity-state-aware-controller",
+      "id": "opportunity-content-discovery-audit",
       "type": "opportunity"
     },
     {
-      "id": "hiring-remote-employees",
+      "id": "opportunity-service-comparators",
+      "type": "opportunity"
+    },
+    {
+      "id": "career-employee-a",
       "type": "jobs"
     },
     {
-      "id": "hiring-contract-part-time",
+      "id": "career-employee-b",
       "type": "jobs"
     },
     {
-      "id": "hiring-talent-demand",
+      "id": "career-contract-a",
+      "type": "jobs"
+    },
+    {
+      "id": "career-contract-b",
+      "type": "jobs"
+    },
+    {
+      "id": "career-conditions",
+      "type": "jobs"
+    },
+    {
+      "id": "talent-demand",
       "type": "talent"
-    },
-    {
-      "id": "hiring-nov3-supplement",
-      "type": "jobs"
     }
   ],
   "sections": {
-    "highlight-software-canva-brush": 4,
-    "highlight-hardware-apple-touch": 4,
-    "highlight-software-papilot": 4,
-    "highlight-software-skyrimnet": 4,
-    "highlight-hardware-matic-serene": 4,
-    "highlight-software-vclip": 4,
-    "highlight-hardware-oak4-ffc": 4,
-    "trend-action-target-delivery": 5,
-    "trend-budget-success-accounting": 5,
-    "signal-consumer-roleplay-continuity": 4,
-    "opportunity-document-acceptance": 6,
-    "opportunity-state-aware-controller": 6,
-    "hiring-remote-employees": 6,
-    "hiring-contract-part-time": 7,
-    "hiring-talent-demand": 5,
-    "hiring-nov3-supplement": 7
+    "highlight-affinity-ipad-unified-studios": 3,
+    "highlight-aina-ring-approval": 3,
+    "highlight-pudu-tomo-self-sharpening": 3,
+    "highlight-playful-homemade-apps": 3,
+    "highlight-snap-specs-workplace-hands-on": 3,
+    "highlight-pyrua-real-reusable-robot-programs": 3,
+    "highlight-perplexity-computer-nov6": 3,
+    "signal-recovery-boundaries": 3,
+    "signal-editable-handoffs": 3,
+    "signal-maintenance-in-the-loop": 3,
+    "signal-owners-as-troubleshooters": 3,
+    "opportunity-support-evidence-packet": 3,
+    "opportunity-content-discovery-audit": 3,
+    "opportunity-service-comparators": 3,
+    "career-employee-a": 4,
+    "career-employee-b": 3,
+    "career-contract-a": 3,
+    "career-contract-b": 3,
+    "career-conditions": 4,
+    "talent-demand": 4
   },
   "hiringSupplement": {
     "roles": [
@@ -244,10 +296,10 @@
         "id": "samsara",
         "company": "Samsara",
         "url": "https://www.samsara.com/company/careers/roles/8275253?gh_jid=8275253",
-        "newFound": true,
+        "newFound": false,
         "conditional": false,
         "publishedAt": null,
-        "observedAt": "2026-11-02T05:40:41Z"
+        "observedAt": "2026-11-09T05:50:00Z"
       },
       {
         "id": "andgo-lead",
@@ -256,7 +308,7 @@
         "newFound": false,
         "conditional": false,
         "publishedAt": null,
-        "observedAt": "2026-11-03T17:15:52Z"
+        "observedAt": "2026-11-09T05:50:00Z"
       },
       {
         "id": "stackadapt",
@@ -265,7 +317,7 @@
         "newFound": false,
         "conditional": false,
         "publishedAt": null,
-        "observedAt": "2026-11-02T05:40:41Z"
+        "observedAt": "2026-11-09T05:50:00Z"
       },
       {
         "id": "life360",
@@ -274,25 +326,34 @@
         "newFound": false,
         "conditional": false,
         "publishedAt": null,
-        "observedAt": "2026-11-02T05:40:41Z"
+        "observedAt": "2026-11-09T05:50:00Z"
       },
       {
         "id": "astell",
         "company": "Lab24 / Astell",
         "url": "https://astell.ai/en/careers/ui-ux",
         "newFound": false,
-        "conditional": true,
+        "conditional": false,
         "publishedAt": null,
-        "observedAt": "2026-11-02T05:40:41Z"
+        "observedAt": "2026-11-09T05:50:00Z"
       },
       {
-        "id": "harvey",
-        "company": "Harvey",
-        "url": "https://www.harvey.ai/company/careers/7325a214-908d-48a4-bbc2-f5c3a6c9ed00",
-        "newFound": true,
-        "conditional": true,
+        "id": "babylist-ai-builder",
+        "company": "Babylist",
+        "url": "https://job-boards.greenhouse.io/babylist/jobs/6104998004",
+        "newFound": false,
+        "conditional": false,
         "publishedAt": null,
-        "observedAt": "2026-11-02T05:40:41Z"
+        "observedAt": "2026-11-09T05:50:00Z"
+      },
+      {
+        "id": "tailscale-growth",
+        "company": "Tailscale",
+        "url": "https://job-boards.greenhouse.io/tailscale/jobs/4726042005",
+        "newFound": false,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-11-09T05:50:00Z"
       },
       {
         "id": "andgo-contract",
@@ -301,25 +362,25 @@
         "newFound": false,
         "conditional": false,
         "publishedAt": null,
-        "observedAt": "2026-11-03T17:15:52Z"
+        "observedAt": "2026-11-09T05:50:00Z"
       },
       {
         "id": "alpaca",
         "company": "Alpaca",
         "url": "https://job-boards.greenhouse.io/alpaca/jobs/6187326004",
         "newFound": false,
-        "conditional": true,
+        "conditional": false,
         "publishedAt": null,
-        "observedAt": "2026-11-02T05:40:41Z"
+        "observedAt": "2026-11-09T05:50:00Z"
       },
       {
         "id": "lca",
         "company": "LCA",
         "url": "https://www.latecheckout.agency/careers/sr-product-designer",
         "newFound": false,
-        "conditional": true,
+        "conditional": false,
         "publishedAt": null,
-        "observedAt": "2026-11-02T05:40:41Z"
+        "observedAt": "2026-11-09T05:50:00Z"
       },
       {
         "id": "housesigma",
@@ -328,132 +389,73 @@
         "newFound": false,
         "conditional": false,
         "publishedAt": null,
-        "observedAt": "2026-11-03T17:15:52Z"
-      },
-      {
-        "id": "raisedesk",
-        "company": "RaiseDesk",
-        "url": "https://raisedesk.io/careers/senior-product-designer-agentic-ux-ui",
-        "newFound": true,
-        "conditional": false,
-        "publishedAt": null,
-        "observedAt": "2026-11-02T05:40:41Z"
+        "observedAt": "2026-11-09T05:50:00Z"
       },
       {
         "id": "upgraded",
         "company": "Upgraded",
         "url": "https://www.getupgraded.ca/jobs/product-designer",
         "newFound": false,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-11-09T05:50:00Z"
+      },
+      {
+        "id": "hello-robo",
+        "company": "Hello Robo",
+        "url": "https://www.hellorobo.co/careers/senior-product-designer",
+        "newFound": true,
+        "conditional": false,
+        "publishedAt": null,
+        "observedAt": "2026-11-09T05:45:14Z"
+      },
+      {
+        "id": "harvey",
+        "company": "Harvey",
+        "url": "https://www.harvey.ai/company/careers/7325a214-908d-48a4-bbc2-f5c3a6c9ed00",
+        "newFound": false,
         "conditional": true,
         "publishedAt": null,
-        "observedAt": "2026-11-02T05:40:41Z"
-      },
-      {
-        "id": "apf-ux",
-        "company": "APF Canada",
-        "url": "https://www.asiapacific.ca/about-us/employment-opportunities",
-        "newFound": true,
-        "conditional": true,
-        "publishedAt": "2026-10-22",
-        "observedAt": "2026-11-02T05:40:41Z"
-      },
-      {
-        "id": "webflow-agentic-cms",
-        "company": "Webflow",
-        "url": "https://jobs.ashbyhq.com/webflow/4e640a4d-ee08-4297-a479-43b9a0c55819",
-        "newFound": true,
-        "conditional": false,
-        "publishedAt": null,
-        "observedAt": "2026-11-03T17:21:56.964Z"
-      },
-      {
-        "id": "ashby-staff",
-        "company": "Ashby",
-        "url": "https://jobs.ashbyhq.com/Ashby/2373fcd5-144b-4d66-a98b-dd0efb4eb9d1",
-        "newFound": true,
-        "conditional": false,
-        "publishedAt": null,
-        "observedAt": "2026-11-03T17:21:59.058Z"
-      },
-      {
-        "id": "ashby-senior",
-        "company": "Ashby",
-        "url": "https://jobs.ashbyhq.com/Ashby/f40ef345-82a8-4956-9150-193b4fdf8183",
-        "newFound": true,
-        "conditional": false,
-        "publishedAt": null,
-        "observedAt": "2026-11-03T17:22:11.125Z"
-      },
-      {
-        "id": "babylist-ai-builder",
-        "company": "Babylist",
-        "url": "https://job-boards.greenhouse.io/babylist/jobs/6104998004",
-        "newFound": true,
-        "conditional": false,
-        "publishedAt": null,
-        "observedAt": "2026-11-03T17:22:15.269Z"
-      },
-      {
-        "id": "tailscale-growth",
-        "company": "Tailscale",
-        "url": "https://job-boards.greenhouse.io/tailscale/jobs/4726042005",
-        "newFound": true,
-        "conditional": false,
-        "publishedAt": null,
-        "observedAt": "2026-11-03T17:15:52Z"
-      },
-      {
-        "id": "voldex-brookhaven",
-        "company": "Voldex",
-        "url": "https://jobs.ashbyhq.com/voldex/75e0ff31-86e9-4403-b915-73ee2ac3442a",
-        "newFound": true,
-        "conditional": false,
-        "publishedAt": null,
-        "observedAt": "2026-11-03T17:22:12.955Z"
+        "observedAt": "2026-11-09T05:50:00Z"
       },
       {
         "id": "flex-contract",
         "company": "Flex",
         "url": "https://job-boards.greenhouse.io/flex/jobs/4722531005",
+        "newFound": false,
+        "conditional": true,
+        "publishedAt": null,
+        "observedAt": "2026-11-09T05:50:00Z"
+      },
+      {
+        "id": "defcon-contract",
+        "company": "DEFCON AI",
+        "url": "https://job-boards.greenhouse.io/defcon/jobs/5287684007",
         "newFound": true,
         "conditional": true,
         "publishedAt": null,
-        "observedAt": "2026-11-03T17:15:52Z"
+        "observedAt": "2026-11-09T05:57:00Z"
+      },
+      {
+        "id": "apf-ux",
+        "company": "APF Canada",
+        "url": "https://www.asiapacific.ca/about-us/employment-opportunities",
+        "newFound": false,
+        "conditional": true,
+        "publishedAt": "2026-10-22",
+        "observedAt": "2026-11-09T05:50:00Z"
       }
     ],
     "main": 13,
-    "conditional": 7,
-    "newFound": 11,
-    "revalidated": 9,
-    "employers": 18,
+    "conditional": 4,
+    "newFound": 2,
+    "revalidated": 15,
+    "employers": 16,
     "originalPublicationDatesVerified": 1,
-    "observationNote": "November 3 supplement: seven roles added and HouseSigma/Andgo rechecked. Other original records retain November 2 observations. Posting dates unknown except APF; unchanged complete-week window.",
-    "supplementDate": "2026-11-03",
-    "addedRoleIds": [
-      "webflow-agentic-cms",
-      "ashby-staff",
-      "ashby-senior",
-      "babylist-ai-builder",
-      "tailscale-growth",
-      "voldex-brookhaven",
-      "flex-contract"
-    ],
-    "recheckedRoleIds": [
-      "andgo-lead",
-      "andgo-contract",
-      "housesigma",
-      "webflow-agentic-cms",
-      "ashby-staff",
-      "ashby-senior",
-      "babylist-ai-builder",
-      "tailscale-growth",
-      "voldex-brookhaven",
-      "flex-contract"
-    ],
-    "supplementObservationAt": "2026-11-03T17:22:15.269Z"
+    "observationNote": "Rechecked November 9; original dates retained; not all newly posted in the covered week."
   },
   "jobsByUnit": {
-    "hiring-remote-employees": [
+    "career-employee-a": [
       {
         "id": "samsara",
         "url": "https://www.samsara.com/company/careers/roles/8275253?gh_jid=8275253",
@@ -476,7 +478,7 @@
         "id": "stackadapt",
         "url": "https://job-boards.greenhouse.io/stackadapt/jobs/4410085009",
         "conditional": false,
-        "title": "Staff Product Designer — Ivy AI experience",
+        "title": "Staff Product Designer",
         "company": "StackAdapt",
         "typeZh": "雇佣类型未明／美加remote-first",
         "typeEn": "Type unspecified / US–Canada remote-first"
@@ -489,118 +491,17 @@
         "company": "Life360",
         "typeZh": "雇员／美加远程；全职标签未明",
         "typeEn": "Employee / US–Canada remote; full-time label unstated"
-      },
+      }
+    ],
+    "career-employee-b": [
       {
         "id": "astell",
         "url": "https://astell.ai/en/careers/ui-ux",
-        "conditional": true,
+        "conditional": false,
         "title": "Product Designer (UI/UX)",
         "company": "Lab24 / Astell",
         "typeZh": "全职，可考虑兼职／全球远程",
         "typeEn": "Full-time; part-time considered / global remote"
-      },
-      {
-        "id": "harvey",
-        "url": "https://www.harvey.ai/company/careers/7325a214-908d-48a4-bbc2-f5c3a6c9ed00",
-        "conditional": true,
-        "title": "Staff Product Designer",
-        "company": "Harvey",
-        "typeZh": "全职／Toronto混合办公",
-        "typeEn": "Full-time / Toronto hybrid"
-      }
-    ],
-    "hiring-contract-part-time": [
-      {
-        "id": "andgo-contract",
-        "url": "https://job-boards.greenhouse.io/andgosystems/jobs/4456625009",
-        "conditional": false,
-        "title": "Senior Product Designer (Contract)",
-        "company": "Andgo",
-        "typeZh": "独立合同／加拿大远程",
-        "typeEn": "Independent contract / Canada remote"
-      },
-      {
-        "id": "alpaca",
-        "url": "https://job-boards.greenhouse.io/alpaca/jobs/6187326004",
-        "conditional": true,
-        "title": "Senior Product Designer, Operations Tools",
-        "company": "Alpaca",
-        "typeZh": "12个月合同／北美远程",
-        "typeEn": "12-month contract / North America remote"
-      },
-      {
-        "id": "lca",
-        "url": "https://www.latecheckout.agency/careers/sr-product-designer",
-        "conditional": true,
-        "title": "Sr. Product Designer (Freelance/Part-time)",
-        "company": "LCA",
-        "typeZh": "自由合同／兼职；全球远程",
-        "typeEn": "Freelance / part-time; global remote"
-      },
-      {
-        "id": "housesigma",
-        "url": "https://team.housesigma.com/job_posting/senior-product-designer/",
-        "conditional": false,
-        "title": "Senior Product Designer (Part-Time Role)",
-        "company": "HouseSigma",
-        "typeZh": "兼职／加拿大境内远程",
-        "typeEn": "Part-time / Canada-wide remote"
-      },
-      {
-        "id": "raisedesk",
-        "url": "https://raisedesk.io/careers/senior-product-designer-agentic-ux-ui",
-        "conditional": false,
-        "title": "Senior Product Designer, Agentic UX/UI",
-        "company": "RaiseDesk",
-        "typeZh": "初期兼职／加拿大境内远程",
-        "typeEn": "Initially part-time / within Canada"
-      },
-      {
-        "id": "upgraded",
-        "url": "https://www.getupgraded.ca/jobs/product-designer",
-        "conditional": true,
-        "title": "Designer – Product, Software, Marketing & AI",
-        "company": "Upgraded",
-        "typeZh": "兼职／Vancouver remote-friendly",
-        "typeEn": "Part-time / Vancouver remote-friendly"
-      },
-      {
-        "id": "apf-ux",
-        "url": "https://www.asiapacific.ca/about-us/employment-opportunities",
-        "conditional": true,
-        "title": "APFC-2026-UX-01 — UX review and redesign recommendations",
-        "company": "APF Canada",
-        "typeZh": "独立顾问／机构RFP，非雇员职位",
-        "typeEn": "Independent consultant / firm RFP, not employment"
-      }
-    ],
-    "hiring-nov3-supplement": [
-      {
-        "id": "webflow-agentic-cms",
-        "url": "https://jobs.ashbyhq.com/webflow/4e640a4d-ee08-4297-a479-43b9a0c55819",
-        "conditional": false,
-        "title": "Staff Product Designer, Agentic CMS",
-        "company": "Webflow",
-        "typeZh": "长期全职／美、加BC/ON远程",
-        "typeEn": "Permanent / US and BC–ON remote"
-      },
-      {
-        "id": "ashby-staff",
-        "url": "https://jobs.ashbyhq.com/Ashby/2373fcd5-144b-4d66-a98b-dd0efb4eb9d1",
-        "conditional": false,
-        "title": "Staff Product Designer",
-        "company": "Ashby",
-        "typeZh": "Staff全职／美加远程",
-        "typeEn": "Staff full-time / US–Canada remote"
-      },
-      {
-        "id": "ashby-senior",
-        "url": "https://jobs.ashbyhq.com/Ashby/f40ef345-82a8-4956-9150-193b4fdf8183",
-        "conditional": false,
-        "title": "Senior Product Designer",
-        "company": "Ashby",
-        "typeZh": "Senior全职／美加远程",
-        "typeEn": "Senior full-time / US–Canada remote"
       },
       {
         "id": "babylist-ai-builder",
@@ -619,15 +520,75 @@
         "company": "Tailscale",
         "typeZh": "雇员／加拿大远程",
         "typeEn": "Employee / Canada remote"
+      }
+    ],
+    "career-contract-a": [
+      {
+        "id": "andgo-contract",
+        "url": "https://job-boards.greenhouse.io/andgosystems/jobs/4456625009",
+        "conditional": false,
+        "title": "Senior Product Designer (Contract)",
+        "company": "Andgo",
+        "typeZh": "独立合同／加拿大远程",
+        "typeEn": "Independent contract / Canada remote"
       },
       {
-        "id": "voldex-brookhaven",
-        "url": "https://jobs.ashbyhq.com/voldex/75e0ff31-86e9-4403-b915-73ee2ac3442a",
+        "id": "alpaca",
+        "url": "https://job-boards.greenhouse.io/alpaca/jobs/6187326004",
         "conditional": false,
-        "title": "Sr UX/UI Designer — Brookhaven",
-        "company": "Voldex",
-        "typeZh": "6个月合同／加、巴、英远程",
-        "typeEn": "6-month contract / CA–BR–UK remote"
+        "title": "Senior Product Designer, Operations Tools",
+        "company": "Alpaca",
+        "typeZh": "12个月合同／北美远程",
+        "typeEn": "12-month contract / North America remote"
+      },
+      {
+        "id": "lca",
+        "url": "https://www.latecheckout.agency/careers/sr-product-designer",
+        "conditional": false,
+        "title": "Sr. Product Designer (Freelance/Part-time)",
+        "company": "LCA",
+        "typeZh": "自由合同／兼职；全球远程",
+        "typeEn": "Freelance / part-time; global remote"
+      }
+    ],
+    "career-contract-b": [
+      {
+        "id": "housesigma",
+        "url": "https://team.housesigma.com/job_posting/senior-product-designer/",
+        "conditional": false,
+        "title": "Senior Product Designer (Part-Time Role)",
+        "company": "HouseSigma",
+        "typeZh": "兼职／加拿大境内远程",
+        "typeEn": "Part-time / Canada-wide remote"
+      },
+      {
+        "id": "upgraded",
+        "url": "https://www.getupgraded.ca/jobs/product-designer",
+        "conditional": false,
+        "title": "Designer – Product, Software, Marketing & AI",
+        "company": "Upgraded",
+        "typeZh": "兼职／Vancouver remote-friendly",
+        "typeEn": "Part-time / Vancouver remote-friendly"
+      },
+      {
+        "id": "hello-robo",
+        "url": "https://www.hellorobo.co/careers/senior-product-designer",
+        "conditional": false,
+        "title": "Senior product designer",
+        "company": "Hello Robo",
+        "typeZh": "合同／远程，US-friendly时区",
+        "typeEn": "Contract / remote, US-friendly time zones"
+      }
+    ],
+    "career-conditions": [
+      {
+        "id": "harvey",
+        "url": "https://www.harvey.ai/company/careers/7325a214-908d-48a4-bbc2-f5c3a6c9ed00",
+        "conditional": true,
+        "title": "Staff Product Designer",
+        "company": "Harvey",
+        "typeZh": "全职／Toronto混合办公",
+        "typeEn": "Full-time / Toronto hybrid"
       },
       {
         "id": "flex-contract",
@@ -637,6 +598,24 @@
         "company": "Flex",
         "typeZh": "合同／地域条件冲突",
         "typeEn": "Contract / location conflict"
+      },
+      {
+        "id": "defcon-contract",
+        "url": "https://job-boards.greenhouse.io/defcon/jobs/5287684007",
+        "conditional": true,
+        "title": "Product Designer (1099 Contract) | Active Secret Clearance Required",
+        "company": "DEFCON AI",
+        "typeZh": "1099合同／美国远程；美国公民及有效Secret许可",
+        "typeEn": "1099 contract / US remote; US citizenship and active Secret clearance"
+      },
+      {
+        "id": "apf-ux",
+        "url": "https://www.asiapacific.ca/about-us/employment-opportunities",
+        "conditional": true,
+        "title": "APFC-2026-UX-01 — UX review and redesign recommendations",
+        "company": "APF Canada",
+        "typeZh": "独立顾问／机构RFP，非雇员职位",
+        "typeEn": "Independent consultant / firm RFP, not employment"
       }
     ]
   }
