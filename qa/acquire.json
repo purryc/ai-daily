@@ -1,50 +1,36 @@
 [
   {
     "kind": "image",
-    "name": "skuttr-ui.jpg",
-    "url": "https://ph-files.imgix.net/6eec4695-45dc-4b4c-b260-351b47097e7f.png?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=220&w=368",
+    "name": "skuttr-gallery-1.jpg",
+    "url": "https://ph-files.imgix.net/90c1649a-57a5-479c-a3e0-1ed592a7ea9b.jpeg?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=220&w=391",
     "renderImage": true,
     "locale": "zh"
   },
   {
     "kind": "image",
-    "name": "ph-mcp.jpg",
-    "url": "https://ph-files.imgix.net/launch-image-uploads/7e8c0c91-51aa-4441-bcaa-dfad34787fb1/9dbc04d19f5195be11f9818e9d068cbcb267b7aae9854024ac330e8c57b70251.png?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=220&w=368",
+    "name": "skuttr-gallery-3.jpg",
+    "url": "https://ph-files.imgix.net/eadae711-ab0b-4a54-b6d7-f4ff66263ccb.png?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=220&w=368",
     "renderImage": true,
     "locale": "en"
   },
   {
     "kind": "image",
-    "name": "eureka-photo.jpg",
-    "url": "https://img.ien.com/mindful/im/workspaces/default/uploads/2026/11/impossible-metal-frames04-03-02-03still050.fFV8QKRjOk.jpg?ar=16x9&auto=format%2Ccompress&crop=focalpoint&fit=crop&fp-x=0.43&fp-y=0.39&q=70&w=400",
+    "name": "skuttr-gallery-4.jpg",
+    "url": "https://ph-files.imgix.net/e7369f6d-9ee0-431f-b65a-24fdc669e196.png?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=220&w=368",
     "renderImage": true,
     "locale": "zh"
   },
   {
     "kind": "image",
-    "name": "seedream-output.jpg",
-    "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mw8m2wk9.png",
+    "name": "skuttr-gallery-5.jpg",
+    "url": "https://ph-files.imgix.net/6f8e92a4-ce23-4dfe-beca-58cd0b278156.png?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=220&w=368",
     "renderImage": true,
     "locale": "en"
   },
   {
     "kind": "image",
-    "name": "flic-gallery-1.jpg",
-    "url": "https://ph-files.imgix.net/24f5445d-dfec-4fb0-9f8a-35d2a585f1de.jpeg?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=220&w=391",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "flic-gallery-2.jpg",
-    "url": "https://ph-files.imgix.net/b739f79a-23bc-4e9c-809b-c8f78131ea3f.jpeg?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=220&w=391",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "flic-gallery-3.jpg",
-    "url": "https://ph-files.imgix.net/b8f62830-6b4b-48a9-9b36-db7c188dd7ca.jpeg?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=220&w=368",
+    "name": "skuttr-gallery-6.jpg",
+    "url": "https://ph-files.imgix.net/95781cec-ba6a-4f91-a480-6df05cd20e6e.png?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=220&w=368",
     "renderImage": true,
     "locale": "zh"
   }
