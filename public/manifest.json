@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-11-10",
+    "zhTitle": "AI Daily｜2026年11月10日 · 创作可修改，动作可复查",
+    "enTitle": "AI Daily | November 10, 2026 · Editable creation and inspectable actions",
+    "zhSummary": "电子样机、视频剪辑、图像编辑、语音按钮、机器人与开发工具；原始事件日期和回看范围逐项标注。",
+    "enSummary": "Electronic prototypes, video editing, image control, voice buttons, robotics and developer tools, with explicit event dates and review windows.",
+    "tags": [
+      "consumer AI",
+      "creative tools",
+      "physical interaction",
+      "research"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "research"
+    ],
+    "coverStory": {
+      "topicId": "claude-fable52-hardware-prototypes",
+      "zhTitle": "Claude Fable 5.2",
+      "enTitle": "Claude Fable 5.2",
+      "imagePath": "assets/fable-prototypes.jpg",
+      "imageSourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/1a999b9164b6d23ac7b94c2dcdf4c9230e26e940-1920x1280.png",
+      "primarySourceUrl": "https://www.anthropic.com/research/claude-electronics-design",
+      "evidenceStrength": "Original vendor disclosure and supporting documentation; not independently tested"
+    },
+    "zhPath": "./2026-11-10/zh/",
+    "enPath": "./2026-11-10/en/",
+    "sourcesPath": "./2026-11-10/sources.html"
+  },
+  {
     "date": "2026-11-09",
     "zhTitle": "AI Daily｜2026年11月9日 · 改动留下痕迹，动作有据可查",
     "enTitle": "AI Daily | November 9, 2026 · Edits leave traces; actions need evidence",

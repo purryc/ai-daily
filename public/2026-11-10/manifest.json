@@ -1,0 +1,550 @@
+{
+  "date": "2026-11-10",
+  "timezone": "America/Toronto",
+  "cutoff": "2026-11-10T09:06:06Z",
+  "windowStart": "2026-11-09T09:06:06Z",
+  "metrics": {
+    "body": {
+      "zhDenseChars": 15413,
+      "enWords": 9131
+    },
+    "perProduct": {
+      "claude-fable52-hardware-prototypes": {
+        "zh": 759,
+        "en": 426
+      },
+      "clipspal-120-library-control": {
+        "zh": 711,
+        "en": 439
+      },
+      "skuttr-sentence-camera-roll": {
+        "zh": 725,
+        "en": 442
+      },
+      "flic-cue-voice-gesture-crowdfunding": {
+        "zh": 695,
+        "en": 432
+      },
+      "seedream-55-native-alpha-editing": {
+        "zh": 770,
+        "en": 429
+      },
+      "recomposer-editable-plan": {
+        "zh": 690,
+        "en": 424
+      },
+      "videomaker-seed-intent": {
+        "zh": 689,
+        "en": 434
+      },
+      "qwenwork-20-shared-event-tasks": {
+        "zh": 777,
+        "en": 428
+      },
+      "planera-constructability-agent": {
+        "zh": 712,
+        "en": 433
+      },
+      "timescroll-230-capture-deletion": {
+        "zh": 884,
+        "en": 468
+      },
+      "blank-151-terminal-handoff": {
+        "zh": 824,
+        "en": 463
+      },
+      "producthunt-official-mcp": {
+        "zh": 723,
+        "en": 439
+      },
+      "atlas-wheels-control-testbed": {
+        "zh": 720,
+        "en": 433
+      },
+      "eureka-selective-deepsea-disclosure": {
+        "zh": 709,
+        "en": 415
+      },
+      "ros2mr-trajectory-playback": {
+        "zh": 663,
+        "en": 430
+      },
+      "dashboard-remixing-goals": {
+        "zh": 704,
+        "en": 421
+      },
+      "excritique-explanation-audit": {
+        "zh": 692,
+        "en": 432
+      },
+      "egoveil-preference-privacy": {
+        "zh": 691,
+        "en": 429
+      },
+      "capy-flash-010-structured-output": {
+        "zh": 746,
+        "en": 449
+      },
+      "gh-aw-121-durable": {
+        "zh": 753,
+        "en": 431
+      },
+      "openai-control-room-inference-stop": {
+        "zh": 776,
+        "en": 434
+      }
+    },
+    "primarySummaries": {
+      "claude-fable52-hardware-prototypes": {
+        "zh": 115,
+        "en": 63
+      },
+      "clipspal-120-library-control": {
+        "zh": 93,
+        "en": 67
+      },
+      "skuttr-sentence-camera-roll": {
+        "zh": 92,
+        "en": 71
+      },
+      "flic-cue-voice-gesture-crowdfunding": {
+        "zh": 85,
+        "en": 63
+      },
+      "seedream-55-native-alpha-editing": {
+        "zh": 122,
+        "en": 65
+      },
+      "recomposer-editable-plan": {
+        "zh": 96,
+        "en": 50
+      },
+      "videomaker-seed-intent": {
+        "zh": 92,
+        "en": 55
+      },
+      "qwenwork-20-shared-event-tasks": {
+        "zh": 118,
+        "en": 67
+      },
+      "planera-constructability-agent": {
+        "zh": 107,
+        "en": 48
+      },
+      "timescroll-230-capture-deletion": {
+        "zh": 97,
+        "en": 58
+      },
+      "blank-151-terminal-handoff": {
+        "zh": 102,
+        "en": 62
+      },
+      "producthunt-official-mcp": {
+        "zh": 87,
+        "en": 62
+      },
+      "atlas-wheels-control-testbed": {
+        "zh": 100,
+        "en": 59
+      },
+      "eureka-selective-deepsea-disclosure": {
+        "zh": 96,
+        "en": 58
+      },
+      "ros2mr-trajectory-playback": {
+        "zh": 74,
+        "en": 59
+      },
+      "dashboard-remixing-goals": {
+        "zh": 94,
+        "en": 50
+      },
+      "excritique-explanation-audit": {
+        "zh": 95,
+        "en": 47
+      },
+      "egoveil-preference-privacy": {
+        "zh": 92,
+        "en": 49
+      },
+      "capy-flash-010-structured-output": {
+        "zh": 100,
+        "en": 60
+      },
+      "gh-aw-121-durable": {
+        "zh": 98,
+        "en": 51
+      },
+      "openai-control-room-inference-stop": {
+        "zh": 111,
+        "en": 57
+      }
+    },
+    "counting": "Only unique full-analysis product paragraphs count toward body gates; summaries, captions, coverage and sources excluded.",
+    "products": 21,
+    "references": 82,
+    "coreVisuals": 21,
+    "slidesPerLocale": 24,
+    "primaryProjectPages": 21,
+    "attachedProjectDetails": 21,
+    "primaryBody": {
+      "zhDenseChars": 2066,
+      "enWords": 1221
+    },
+    "completeReadingBody": {
+      "zhDenseChars": 17479,
+      "enWords": 10352
+    }
+  },
+  "revision": {
+    "label": "morning-edition",
+    "originalCutoffRetained": true,
+    "newIssue": true,
+    "baselineCommit": "3a61ca5120577a78aaaca0161a86de6b0bb297ea"
+  },
+  "topics": [
+    {
+      "id": "claude-fable52-hardware-prototypes",
+      "zhHeadline": "Fable 5.2把电路、外壳与固件一起迭代，样机仍由工程师制造",
+      "enHeadline": "Fable 5.2 iterates circuits, enclosures and firmware; engineers still build the prototypes",
+      "eventAt": "2026-11-09",
+      "freshness": "near-three-day",
+      "evidence": "Original vendor disclosure and supporting documentation; not independently tested",
+      "eventDateNote": "Original source date only; publication time and timezone not exposed. Main-window lower-bound uncertain.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "claude-fable52-hardware-prototypes-2026-11-09",
+      "product_key": "claude-fable52-hardware-prototypes",
+      "publishedAt": "2026-11-09",
+      "observedAt": "2026-11-10T09:13:24.851036+00:00",
+      "delta_since_last_seen": "Version 5.2 adds lower listed pricing and an optional fast mode, alongside constraint-aware design examples."
+    },
+    {
+      "id": "clipspal-120-library-control",
+      "zhHeadline": "ClipsPal把自动剪辑留在可撤销时间线，新版也让素材库搬到别的磁盘",
+      "enHeadline": "ClipsPal keeps automatic cuts editable and adds control over where the video library lives",
+      "eventAt": "2026-11-08T15:10:36Z",
+      "freshness": "near-three-day",
+      "evidence": "Official product documentation and maker claims; no editor hands-on test",
+      "eventDateNote": "Exact original GitHub release API published_at UTC, independently checked by publisher",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "clipspal-120-library-control-2026-11-08",
+      "product_key": "clipspal-120-library-control",
+      "publishedAt": "2026-11-08T15:10:36Z",
+      "observedAt": "2026-11-10T09:14:41Z",
+      "delta_since_last_seen": "Version 1.20.0 adds library relocation, per-video folders, moved-media recovery and Chinese recognition fixes."
+    },
+    {
+      "id": "skuttr-sentence-camera-roll",
+      "zhHeadline": "skuttr按一句话在相册里选片，首版不让用户逐个替换镜头",
+      "enHeadline": "skuttr selects camera-roll footage from a sentence, with no shot-by-shot replacement in version one",
+      "eventAt": "2026-11-09",
+      "freshness": "near-three-day",
+      "evidence": "Official product documentation and maker claims; no editor hands-on test",
+      "eventDateNote": "PH indexed scheduled date November9 00:01PST precedes main lower bound; first AppStore availability unverified",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "skuttr-sentence-camera-roll-2026-11-09",
+      "product_key": "skuttr-sentence-camera-roll",
+      "publishedAt": "2026-11-09",
+      "observedAt": "2026-11-10T09:14:41Z",
+      "delta_since_last_seen": "November 9 Product Hunt discovery; the first App Store release date remains unverified."
+    },
+    {
+      "id": "flic-cue-voice-gesture-crowdfunding",
+      "zhHeadline": "Flic Cue用按住说话与手势分流指令，但摇动撤销仍要讲清边界",
+      "enHeadline": "Flic Cue routes speech with buttons and gestures, while undo still needs a clear boundary",
+      "eventAt": "2026-11-05T14:00:00Z",
+      "freshness": "seven-day",
+      "evidence": "Vendor source and supporting original documentation; no editor hands-on",
+      "eventDateNote": "Week review; November 5 crowdfunding opening, rediscovered on PH November 9",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "flic-cue-voice-gesture-crowdfunding:2026-11-05T14:00:00Z",
+      "product_key": "flic-cue-voice-gesture-crowdfunding",
+      "publishedAt": "2026-11-04",
+      "observedAt": "2026-11-10T09:14:17.058153+00:00",
+      "delta_since_last_seen": "Two buttons, a microphone and accelerometer combine; desktop features remain experimental."
+    },
+    {
+      "id": "seedream-55-native-alpha-editing",
+      "zhHeadline": "Seedream 5.5直接生成透明素材，多轮局部修改仍需逐步检查未改区域",
+      "enHeadline": "Seedream 5.5 generates transparent assets directly; repeated local edits still need preservation checks",
+      "eventAt": "2026-11-09",
+      "freshness": "near-three-day",
+      "evidence": "Original official documentation read; vendor claims, no hands-on execution",
+      "eventDateNote": "Original source gives calendar date only, no timezone or exact launch clock; 24-hour lower-bound classification uncertain. Conservatively a 72-hour supplement.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "seedream-55-native-alpha-editing-2026-11-09",
+      "product_key": "seedream-55-native-alpha-editing",
+      "publishedAt": "2026-11-09",
+      "observedAt": "2026-11-10T09:14:56.090238Z",
+      "delta_since_last_seen": "The vendor emphasizes hundred-round editing and native alpha, not an independently measured success rate."
+    },
+    {
+      "id": "recomposer-editable-plan",
+      "zhHeadline": "reComposer先拆开主体、构图和配色，再让用户决定哪些必须保留",
+      "enHeadline": "reComposer exposes subject, composition and palette before generating the final image",
+      "eventAt": "2026-11-09T16:49:45Z",
+      "freshness": "main",
+      "evidence": "Original abstract/history and targeted paper system, study and limitations sections read; author-reported research, not editor reproduction.",
+      "eventDateNote": "Exact arXiv submission UTC; public announcement clock unconfirmed. Submission is not a commercial release date.",
+      "gapBackfill": false,
+      "eventTimeKind": "arXiv submission timestamp; public announcement time not established",
+      "event_key": "recomposer-editable-plan:2611.12687:v1",
+      "product_key": "recomposer-editable-plan",
+      "publishedAt": "2026-11-09T16:49:45Z",
+      "observedAt": "2026-11-10T09:19:26Z",
+      "delta_since_last_seen": "Nodes represent design decisions rather than a technical workflow graph."
+    },
+    {
+      "id": "videomaker-seed-intent",
+      "zhHeadline": "VideoMaker把已确认的创作意图留在种子面板，跨分镜继续修改",
+      "enHeadline": "VideoMaker carries confirmed creative intent across stages in an editable Seed Panel",
+      "eventAt": "2026-11-09T15:48:17Z",
+      "freshness": "main",
+      "evidence": "Original abstract/history and targeted paper system, study and limitations sections read; author-reported research, not editor reproduction.",
+      "eventDateNote": "Exact arXiv submission UTC; public announcement clock unconfirmed. Submission is not a commercial release date.",
+      "gapBackfill": false,
+      "eventTimeKind": "arXiv submission timestamp; public announcement time not established",
+      "event_key": "videomaker-seed-intent:2611.12605:v1",
+      "product_key": "videomaker-seed-intent",
+      "publishedAt": "2026-11-09T15:48:17Z",
+      "observedAt": "2026-11-10T09:19:26Z",
+      "delta_since_last_seen": "A shared agent uses narrative and cinematic knowledge to elaborate the plan."
+    },
+    {
+      "id": "qwenwork-20-shared-event-tasks",
+      "zhHeadline": "千问办公把群聊资料接到团队任务，手机接续仍要选对执行电脑",
+      "enHeadline": "QwenWork connects shared context to event tasks; mobile continuation still needs the right execution computer",
+      "eventAt": "2026-11-09",
+      "freshness": "near-three-day",
+      "evidence": "Original official documentation read; vendor claims, no hands-on execution",
+      "eventDateNote": "Original source gives calendar date only, no timezone or exact launch clock; 24-hour lower-bound classification uncertain. Conservatively a 72-hour supplement.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "qwenwork-20-shared-event-tasks-2026-11-09",
+      "product_key": "qwenwork-20-shared-event-tasks",
+      "publishedAt": "2026-11-09",
+      "observedAt": "2026-11-10T09:14:56.090238Z",
+      "delta_since_last_seen": "Mobile continuation still requires an online, authorized computer for locally executed tasks."
+    },
+    {
+      "id": "planera-constructability-agent",
+      "zhHeadline": "Planera把施工顺序检查放进排程：先找不可施工的先后关系，再决定如何改",
+      "enHeadline": "Planera checks whether a schedule can actually be built before planners change it",
+      "eventAt": "2026-11-09",
+      "freshness": "near-three-day",
+      "evidence": "Original vendor documentation read; not installed or independently tested",
+      "eventDateNote": "Original date only; time and timezone unknown",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "planera-constructability-agent-2026-11-09",
+      "product_key": "planera-constructability-agent",
+      "publishedAt": "2026-11-09",
+      "observedAt": "2026-11-10T09:13:38Z",
+      "delta_since_last_seen": "Constructability review is rolling out; Summary Schedule is still forthcoming."
+    },
+    {
+      "id": "timescroll-230-capture-deletion",
+      "zhHeadline": "TimeScroll删除屏幕历史时同步清除摘要，采集开关也能接入系统快捷指令",
+      "enHeadline": "TimeScroll deletes derived summaries with screen history and exposes capture controls to Shortcuts",
+      "eventAt": "2026-11-09T03:24:03Z",
+      "freshness": "near-three-day",
+      "evidence": "Maintainer release and official documentation; no editor hands-on. Community discovery is not independent product validation.",
+      "eventDateNote": "Exact original GitHub release API published_at UTC",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "github:XInTheDark/TimeScrollApp:v2.3.0",
+      "product_key": "github:XInTheDark/TimeScrollApp",
+      "publishedAt": "2026-11-09T03:24:03Z",
+      "observedAt": "2026-11-10T09:11:11.297276+00:00",
+      "delta_since_last_seen": "Deleting a period also removes derived summaries; three capture actions join Shortcuts."
+    },
+    {
+      "id": "blank-151-terminal-handoff",
+      "zhHeadline": "blank让桌面任务接续到全屏终端，自定义模型报错也能查到请求字段",
+      "enHeadline": "blank carries desktop sessions into a full-screen terminal and exposes request fields behind model errors",
+      "eventAt": "2026-11-08T07:34:43Z",
+      "freshness": "near-three-day",
+      "evidence": "Original tagged README, commit comparison and release metadata; maker post; no hands-on or independent adoption verification",
+      "eventDateNote": "Exact GitHub release API UTC; v1.5.0 at2026-11-08T04:43:21Z",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "github:purplemacaron/blank:v1.5.0-v1.5.1",
+      "product_key": "github:purplemacaron/blank",
+      "publishedAt": "2026-11-08T07:34:43Z",
+      "observedAt": "2026-11-10T09:14:00.729298+00:00",
+      "delta_since_last_seen": "Version 1.5 adds a full-screen TUI; 1.5.1 removes a guessed custom-endpoint parameter."
+    },
+    {
+      "id": "producthunt-official-mcp",
+      "zhHeadline": "Product Hunt把产品查找和发布草稿接进聊天，提交前先显示具体改动",
+      "enHeadline": "Product Hunt brings discovery and launch drafts into chat, with a preview before submission",
+      "eventAt": "2026-11-09",
+      "freshness": "near-three-day",
+      "evidence": "Official product documentation and maker claims; no editor hands-on test",
+      "eventDateNote": "Date only; exact clock/timezone not verified",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "producthunt-official-mcp-2026-11-09",
+      "product_key": "producthunt-official-mcp",
+      "publishedAt": "2026-11-09",
+      "observedAt": "2026-11-10T09:14:41Z",
+      "delta_since_last_seen": "The November 9 announcement connects platform workflows to compatible assistants."
+    },
+    {
+      "id": "atlas-wheels-control-testbed",
+      "zhHeadline": "Atlas把脚换成轮子，用同一副机身检验电机模型和全身控制",
+      "enHeadline": "Atlas swaps feet for wheels to test motor models and whole-body control",
+      "eventAt": "2026-11-09",
+      "freshness": "near-three-day",
+      "evidence": "Vendor source and supporting original documentation; no editor hands-on",
+      "eventDateNote": "November 9 publication date corroborated by coverage; original retrieved blog body lacked date/timezone; conservative recent supplement pending original metadata.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "atlas-wheels-control-testbed:2026-11-09",
+      "product_key": "atlas-wheels-control-testbed",
+      "publishedAt": "2026-11-09",
+      "observedAt": "2026-11-10T09:14:17.058153+00:00",
+      "delta_since_last_seen": "Scooter rims attach to existing ankle actuators; this wheeled build is not a product."
+    },
+    {
+      "id": "eureka-selective-deepsea-disclosure",
+      "zhHeadline": "Eureka逐颗选择海底结核，把感知、机械抓取和浮力回收接成一次任务",
+      "enHeadline": "Eureka joins nodule selection, robotic collection and buoyant recovery into one mission",
+      "eventAt": "2026-11-09T14:00:00Z",
+      "freshness": "main",
+      "evidence": "Vendor source and supporting original documentation; no editor hands-on",
+      "eventDateNote": "Main-window announcement; the scientific dive occurred in September, not November 9",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "eureka-selective-deepsea-disclosure:2026-11-09T14:00:00Z",
+      "product_key": "eureka-selective-deepsea-disclosure",
+      "publishedAt": "2026-11-09T14:00:00Z",
+      "observedAt": "2026-11-10T09:14:17.058153+00:00",
+      "delta_since_last_seen": "A new disclosure reports research sampling below 4,000 metres; 450 grams is not production throughput."
+    },
+    {
+      "id": "ros2mr-trajectory-playback",
+      "zhHeadline": "ROS2MR把机器人轨迹变成头显里的回放，仍不等于真实执行",
+      "enHeadline": "ROS2MR converts robot trajectories into headset playback without validating physical execution",
+      "eventAt": "2026-11-09T03:48:12Z",
+      "freshness": "near-three-day",
+      "evidence": "Original abstract/history and targeted paper system, study and limitations sections read; author-reported research, not editor reproduction.",
+      "eventDateNote": "Exact arXiv submission UTC; public announcement clock unconfirmed. Submission is not a commercial release date.",
+      "gapBackfill": false,
+      "eventTimeKind": "arXiv submission timestamp; public announcement time not established",
+      "event_key": "ros2mr-trajectory-playback:2611.11830:v1",
+      "product_key": "ros2mr-trajectory-playback",
+      "publishedAt": "2026-11-09T03:48:12Z",
+      "observedAt": "2026-11-10T09:19:26Z",
+      "delta_since_last_seen": "Adds a ROS 2 pathway and adapts the application for Apple Vision Pro."
+    },
+    {
+      "id": "dashboard-remixing-goals",
+      "zhHeadline": "Dashboard Remixing按分析目标重组已有图表，结论仍要回到数据",
+      "enHeadline": "Dashboard Remixing reorganizes existing charts around analytical goals while keeping claims inspectable",
+      "eventAt": "2026-11-08T18:29:51Z",
+      "freshness": "near-three-day",
+      "evidence": "Original abstract/history and targeted paper system, study and limitations sections read; author-reported research, not editor reproduction.",
+      "eventDateNote": "Exact arXiv submission UTC; public announcement clock unconfirmed. Submission is not a commercial release date.",
+      "gapBackfill": false,
+      "eventTimeKind": "arXiv submission timestamp; public announcement time not established",
+      "event_key": "dashboard-remixing-goals:2611.11542:v1",
+      "product_key": "dashboard-remixing-goals",
+      "publishedAt": "2026-11-08T18:29:51Z",
+      "observedAt": "2026-11-10T09:19:26Z",
+      "delta_since_last_seen": "Rules and optimization form the core; LLMs are optional enhancements."
+    },
+    {
+      "id": "excritique-explanation-audit",
+      "zhHeadline": "ExCritique把解释评分摊开给人检查，高分也可能支持错误答案",
+      "enHeadline": "ExCritique exposes the evidence behind explanation scores, including confident mistakes",
+      "eventAt": "2026-11-09T05:59:13Z",
+      "freshness": "near-three-day",
+      "evidence": "Original abstract/history and targeted paper system, study and limitations sections read; author-reported research, not editor reproduction.",
+      "eventDateNote": "Exact arXiv submission UTC; public announcement clock unconfirmed. Submission is not a commercial release date.",
+      "gapBackfill": false,
+      "eventTimeKind": "arXiv submission timestamp; public announcement time not established",
+      "event_key": "excritique-explanation-audit:2611.11932:v1",
+      "product_key": "excritique-explanation-audit",
+      "publishedAt": "2026-11-09T05:59:13Z",
+      "observedAt": "2026-11-10T09:19:26Z",
+      "delta_since_last_seen": "Linked distributions and a sample map reveal evidence behind the scores."
+    },
+    {
+      "id": "egoveil-preference-privacy",
+      "zhHeadline": "EgoVeil把眼镜画面分区，再用个人偏好决定保留、询问或遮挡",
+      "enHeadline": "EgoVeil combines scene regions with personal preferences to keep, ask or mask",
+      "eventAt": "2026-11-07T08:35:58Z",
+      "freshness": "seven-day",
+      "evidence": "Original abstract/history and targeted paper system, study and limitations sections read; author-reported research, not editor reproduction.",
+      "eventDateNote": "Exact arXiv submission UTC; public announcement clock unconfirmed. Submission is not a commercial release date.",
+      "gapBackfill": false,
+      "eventTimeKind": "arXiv submission timestamp; public announcement time not established",
+      "event_key": "egoveil-preference-privacy:2611.10578:v1",
+      "product_key": "egoveil-preference-privacy",
+      "publishedAt": "2026-11-07T08:35:58Z",
+      "observedAt": "2026-11-10T09:19:26Z",
+      "delta_since_last_seen": "Uncertain regions ask the wearer; feedback updates later preference memory."
+    },
+    {
+      "id": "capy-flash-010-structured-output",
+      "zhHeadline": "capy-flash在生成时限制JSON格式，并隔离复杂约束的资源开销",
+      "enHeadline": "capy-flash constrains JSON during generation and bounds expensive format matching",
+      "eventAt": "2026-11-09T06:30:24Z",
+      "freshness": "near-three-day",
+      "evidence": "Maintainer release, versioned documentation and author measurements; no editor installation or benchmark",
+      "eventDateNote": "Exact original GitHub release API UTC",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "github:ValerioDolci/capy-flash:v0.10.0",
+      "product_key": "github:ValerioDolci/capy-flash",
+      "publishedAt": "2026-11-09T06:30:24Z",
+      "observedAt": "2026-11-10T09:15:50.650084+00:00",
+      "delta_since_last_seen": "Version 0.10 adds structured output, resource budgets and explicit failure events."
+    },
+    {
+      "id": "gh-aw-121-durable",
+      "zhHeadline": "gh-aw把代理会话存成可校验工件，下一轮接续时重新加载当期权限",
+      "enHeadline": "gh-aw carries a validated session artifact into the next run with fresh permissions",
+      "eventAt": "2026-11-06T20:14:55Z",
+      "freshness": "seven-day",
+      "evidence": "Original vendor documentation read; not installed or independently tested",
+      "eventDateNote": "Exact UTC release metadata",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "gh-aw-121-durable-2026-11-06",
+      "product_key": "gh-aw-121-durable",
+      "publishedAt": "2026-11-06T20:14:55Z",
+      "observedAt": "2026-11-10T09:13:38Z",
+      "delta_since_last_seen": "The November 6 prerelease adds experimental durable continuation."
+    },
+    {
+      "id": "openai-control-room-inference-stop",
+      "zhHeadline": "Control Room把停止指令放到推理层，任务还在也不能继续取模型输出",
+      "enHeadline": "Control Room enforces a stop at inference even while the job remains alive",
+      "eventAt": "2026-11-09",
+      "freshness": "near-three-day",
+      "evidence": "Original vendor disclosure and supporting documentation; not independently tested",
+      "eventDateNote": "Original source date only; publication time and timezone not exposed. Main-window lower-bound uncertain.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "openai-control-room-inference-stop-2026-11-09",
+      "product_key": "openai-control-room-inference-stop",
+      "publishedAt": "2026-11-09",
+      "observedAt": "2026-11-10T09:13:24.851036+00:00",
+      "delta_since_last_seen": "Stop status spans engines; the stated maximum authorization-cache delay is 35 seconds."
+    }
+  ],
+  "eventCounts": {
+    "mainWindowEvents": 3,
+    "nearThreeDayReviews": 15,
+    "sevenDayReviews": 3,
+    "gapBackfillEvents": 0,
+    "interpretation": "Announcements, submissions, updates and regional reports; not first product launches."
+  }
+}

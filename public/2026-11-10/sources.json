@@ -1,0 +1,620 @@
+[
+  {
+    "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "title": "Fable 5.2 and Mythos 5.2 announcement",
+    "publisher": "Anthropic",
+    "publishedAt": "2026-11-09",
+    "observedAt": "2026-11-10T09:13:24.851036+00:00",
+    "number": 1
+  },
+  {
+    "url": "https://www.anthropic.com/research/claude-electronics-design",
+    "title": "Testing Claude on real-world electronics design",
+    "publisher": "Anthropic",
+    "publishedAt": "2026-11-09",
+    "observedAt": "2026-11-10T09:13:24.851036+00:00",
+    "number": 2
+  },
+  {
+    "url": "https://www.anthropic.com/claude/fable",
+    "title": "Claude Fable model page",
+    "publisher": "Anthropic",
+    "observedAt": "2026-11-10T09:13:24.851036+00:00",
+    "number": 3
+  },
+  {
+    "url": "https://docs.anthropic.com/en/docs/about-claude/models/overview",
+    "title": "Models overview",
+    "publisher": "Anthropic",
+    "observedAt": "2026-11-10T09:13:24.851036+00:00",
+    "number": 4
+  },
+  {
+    "url": "https://github.com/Kronop/clipspal-releases/releases/tag/v1.20.0",
+    "title": "ClipsPal 1.20.0 release",
+    "publisher": "ClipsPal / GitHub",
+    "publishedAt": "2026-11-08",
+    "observedAt": "2026-11-10T09:14:41Z",
+    "number": 5
+  },
+  {
+    "url": "https://www.clipspal.com/docs",
+    "title": "ClipsPal user guide",
+    "publisher": "ClipsPal",
+    "observedAt": "2026-11-10T09:14:41Z",
+    "number": 6
+  },
+  {
+    "url": "https://www.clipspal.com/claude-code-video-editing",
+    "title": "Claude Code editing and data handling",
+    "publisher": "ClipsPal",
+    "observedAt": "2026-11-10T09:14:41Z",
+    "number": 7
+  },
+  {
+    "url": "https://www.clipspal.com/download",
+    "title": "Current desktop downloads",
+    "publisher": "ClipsPal",
+    "observedAt": "2026-11-10T09:14:41Z",
+    "number": 8
+  },
+  {
+    "url": "https://www.clipspal.com/docs/mcp",
+    "title": "MCP guide and availability notice",
+    "publisher": "ClipsPal",
+    "observedAt": "2026-11-10T09:14:41Z",
+    "number": 9
+  },
+  {
+    "url": "https://www.clipspal.com/",
+    "title": "Desktop editing overview and current offer",
+    "publisher": "ClipsPal",
+    "observedAt": "2026-11-10T09:14:41Z",
+    "number": 10
+  },
+  {
+    "url": "https://www.clipspal.com/privacy-policy",
+    "title": "Privacy policy",
+    "publisher": "ClipsPal",
+    "publishedAt": "2026-10-07",
+    "observedAt": "2026-11-10T09:14:41Z",
+    "number": 11
+  },
+  {
+    "url": "https://www.producthunt.com/products/skuttr?launch=skuttr",
+    "title": "skuttr maker description and visible shot-replacement question",
+    "publisher": "Product Hunt / maker",
+    "publishedAt": "2026-11-09",
+    "observedAt": "2026-11-10T09:14:41Z",
+    "number": 12
+  },
+  {
+    "url": "https://www.producthunt.com/newsletters/archive/57917-your-camera-roll-finally-edited",
+    "title": "November 9 newsletter",
+    "publisher": "Product Hunt",
+    "publishedAt": "2026-11-09",
+    "observedAt": "2026-11-10T09:14:41Z",
+    "number": 13
+  },
+  {
+    "url": "https://skuttr.com/",
+    "title": "skuttr workflow, free allowance and US plans",
+    "publisher": "skuttr",
+    "observedAt": "2026-11-10T09:14:41Z",
+    "number": 14
+  },
+  {
+    "url": "https://skuttr.com/privacy",
+    "title": "skuttr privacy and local/remote data flow",
+    "publisher": "skuttr",
+    "publishedAt": "2026-11-01",
+    "observedAt": "2026-11-10T09:14:41Z",
+    "number": 15
+  },
+  {
+    "url": "https://www.producthunt.com/products/skuttr/built-with",
+    "title": "Maker-described product stack",
+    "publisher": "Product Hunt / maker",
+    "observedAt": "2026-11-10T09:14:41Z",
+    "number": 16
+  },
+  {
+    "url": "https://flic.io/blog/flic-cue-on-the-desktop-talk-shake-turn",
+    "title": "Flic Cue desktop interaction demonstration",
+    "publisher": "Flic / Oskar Öberg",
+    "publishedAt": "2026-11-04",
+    "observedAt": "2026-11-10T09:14:17.058153+00:00",
+    "number": 17
+  },
+  {
+    "url": "https://www.shortcutlabs.com/news/flic-cue-reaches-its-kickstarter-goal-in-four-minutes",
+    "title": "Flic Cue crowdfunding and delivery schedule",
+    "publisher": "Shortcut Labs",
+    "publishedAt": "2026-11-06",
+    "observedAt": "2026-11-10T09:14:17.058153+00:00",
+    "number": 18
+  },
+  {
+    "url": "https://www.producthunt.com/products/flic-cue?launch=flic-cue",
+    "title": "Flic Cue maker explanation and visible comments",
+    "publisher": "Product Hunt / maker and commenters",
+    "observedAt": "2026-11-10T09:14:17.058153+00:00",
+    "number": 19
+  },
+  {
+    "url": "https://seed.bytedance.com/en/blog/more-realistic-images-more-stable-editing-across-100-rounds-introducing-seedream-5-5",
+    "title": "Seedream 5.5 official introduction",
+    "publisher": "ByteDance Seed",
+    "publishedAt": "2026-11-09",
+    "observedAt": "2026-11-10T09:14:56.090238Z",
+    "number": 20
+  },
+  {
+    "url": "https://seed.bytedance.com/en/seedream5_5",
+    "title": "Seedream 5.5 product examples",
+    "publisher": "ByteDance Seed",
+    "observedAt": "2026-11-10T09:14:56.090238Z",
+    "number": 21
+  },
+  {
+    "url": "https://seed.bytedance.com/en/blog/beyond-generation-it-understands-design-introducing-seedream-5-0-pro",
+    "title": "Seedream 5.0 Pro original introduction",
+    "publisher": "ByteDance Seed",
+    "publishedAt": "2026-07-08",
+    "observedAt": "2026-11-10T09:14:56.090238Z",
+    "number": 22
+  },
+  {
+    "url": "https://ai.byteplus.com/lumina/en/resource/seedream-5-5-release-date",
+    "title": "Seedream 5.5 release-date reference",
+    "publisher": "BytePlus Lumina",
+    "observedAt": "2026-11-10T09:14:56.090238Z",
+    "number": 23
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.12687",
+    "title": "reComposer original abstract and submission history",
+    "publisher": "reComposer authors / arXiv",
+    "publishedAt": "2026-11-09T16:49:45Z",
+    "observedAt": "2026-11-10T09:19:26Z",
+    "number": 24
+  },
+  {
+    "url": "https://arxiv.org/html/2611.12687v1",
+    "title": "reComposer full paper: system and evaluation",
+    "publisher": "reComposer authors / arXiv",
+    "publishedAt": "2026-11-09T16:49:45Z",
+    "observedAt": "2026-11-10T09:19:26Z",
+    "number": 25
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.12605",
+    "title": "VideoMaker original abstract and submission history",
+    "publisher": "VideoMaker authors / arXiv",
+    "publishedAt": "2026-11-09T15:48:17Z",
+    "observedAt": "2026-11-10T09:19:26Z",
+    "number": 26
+  },
+  {
+    "url": "https://arxiv.org/html/2611.12605v1",
+    "title": "VideoMaker full paper: system and evaluation",
+    "publisher": "VideoMaker authors / arXiv",
+    "publishedAt": "2026-11-09T15:48:17Z",
+    "observedAt": "2026-11-10T09:19:26Z",
+    "number": 27
+  },
+  {
+    "url": "https://docs.qwenwork.cn/release-notes/desktop",
+    "title": "Desktop 2.0.0 release notes",
+    "publisher": "Alibaba QwenWork",
+    "publishedAt": "2026-11-09",
+    "observedAt": "2026-11-10T09:14:56.090238Z",
+    "number": 28
+  },
+  {
+    "url": "https://docs.qwenwork.cn/web/collaboration",
+    "title": "Collaboration spaces",
+    "publisher": "Alibaba QwenWork",
+    "observedAt": "2026-11-10T09:14:56.090238Z",
+    "number": 29
+  },
+  {
+    "url": "https://docs.qwenwork.cn/web/scheduled-tasks",
+    "title": "Automatic tasks",
+    "publisher": "Alibaba QwenWork",
+    "observedAt": "2026-11-10T09:14:56.090238Z",
+    "number": 30
+  },
+  {
+    "url": "https://docs.qwenwork.cn/web/co-editing",
+    "title": "Co-editing",
+    "publisher": "Alibaba QwenWork",
+    "observedAt": "2026-11-10T09:14:56.090238Z",
+    "number": 31
+  },
+  {
+    "url": "https://docs.qwenwork.cn/web/remote-control",
+    "title": "Remote control",
+    "publisher": "Alibaba QwenWork",
+    "observedAt": "2026-11-10T09:14:56.090238Z",
+    "number": 32
+  },
+  {
+    "url": "https://qwenwork.cn/pricing",
+    "title": "China personal recurring pricing",
+    "publisher": "Alibaba QwenWork",
+    "observedAt": "2026-11-10T09:14:56.090238Z",
+    "number": 33
+  },
+  {
+    "url": "https://help.aliyun.com/zh/qwenwork/qwenwork-web-usage",
+    "title": "Web usage and login",
+    "publisher": "Alibaba Cloud",
+    "observedAt": "2026-11-10T09:14:56.090238Z",
+    "number": 34
+  },
+  {
+    "url": "https://www.planera.io/post/whats-new-in-planera-november-2026",
+    "title": "November product update",
+    "publisher": "Planera",
+    "publishedAt": "2026-11-09",
+    "observedAt": "2026-11-10T09:13:38Z",
+    "number": 35
+  },
+  {
+    "url": "https://www.planera.io/post/procore-rfi-schedule-risk-scanner",
+    "title": "RFI scanner, October 21 announcement",
+    "publisher": "Planera",
+    "observedAt": "2026-11-10T09:13:38Z",
+    "number": 36
+  },
+  {
+    "url": "https://www.planera.io/integrations/mcp",
+    "title": "MCP scope and permissions",
+    "publisher": "Planera",
+    "observedAt": "2026-11-10T09:13:38Z",
+    "number": 37
+  },
+  {
+    "url": "https://www.planera.io/pricing",
+    "title": "Custom pricing",
+    "publisher": "Planera",
+    "observedAt": "2026-11-10T09:13:38Z",
+    "number": 38
+  },
+  {
+    "url": "https://github.com/XInTheDark/TimeScrollApp/releases/tag/v2.3.0",
+    "title": "TimeScroll v2.3.0 release",
+    "publisher": "XInTheDark",
+    "publishedAt": "2026-11-09T03:24:03Z",
+    "observedAt": "2026-11-10T09:11:11.297276+00:00",
+    "number": 39
+  },
+  {
+    "url": "https://api.github.com/repos/XInTheDark/TimeScrollApp/releases/tags/v2.3.0",
+    "title": "Original release timestamp and body",
+    "publisher": "GitHub / maintainer",
+    "publishedAt": "2026-11-09T03:24:03Z",
+    "observedAt": "2026-11-10T09:11:11.297276+00:00",
+    "number": 40
+  },
+  {
+    "url": "https://timescroll.muzhen.org/",
+    "title": "TimeScroll features and original interface visuals",
+    "publisher": "TimeScroll",
+    "observedAt": "2026-11-10T09:11:11.297276+00:00",
+    "number": 41
+  },
+  {
+    "url": "https://timescroll.muzhen.org/faqs/",
+    "title": "TimeScroll FAQ",
+    "publisher": "TimeScroll",
+    "observedAt": "2026-11-10T09:11:11.297276+00:00",
+    "number": 42
+  },
+  {
+    "url": "https://timescroll.muzhen.org/privacy/",
+    "title": "TimeScroll privacy policy",
+    "publisher": "TimeScroll",
+    "observedAt": "2026-11-10T09:11:11.297276+00:00",
+    "number": 43
+  },
+  {
+    "url": "https://github.com/XInTheDark/TimeScrollApp",
+    "title": "TimeScroll source and GPL-3.0 license",
+    "publisher": "XInTheDark",
+    "observedAt": "2026-11-10T09:11:11.297276+00:00",
+    "number": 44
+  },
+  {
+    "url": "https://www.reddit.com/r/macapps/comments/1xnq0qa/os_timescroll_v22_summarize_any_part_of_your/",
+    "title": "TimeScroll v2.2 maker post and visible user questions",
+    "publisher": "r/macapps / maker and commenters",
+    "observedAt": "2026-11-10T09:12:27.874287+00:00",
+    "number": 45
+  },
+  {
+    "url": "https://github.com/purplemacaron/blank/releases/tag/v1.5.1",
+    "title": "blank1.5.1 release",
+    "publisher": "blank maintainer / GitHub",
+    "publishedAt": "2026-11-08T07:34:43Z",
+    "observedAt": "2026-11-10T09:14:00.729298+00:00",
+    "number": 46
+  },
+  {
+    "url": "https://github.com/purplemacaron/blank/releases/tag/v1.5.0",
+    "title": "blank1.5.0 release",
+    "publisher": "blank maintainer / GitHub",
+    "publishedAt": "2026-11-08T04:43:21Z",
+    "observedAt": "2026-11-10T09:14:00.729298+00:00",
+    "number": 47
+  },
+  {
+    "url": "https://github.com/purplemacaron/blank/compare/v1.4.0...v1.5.1",
+    "title": "Versioned commit comparison and actual changes",
+    "publisher": "blank maintainer / GitHub",
+    "observedAt": "2026-11-10T09:14:00.729298+00:00",
+    "number": 48
+  },
+  {
+    "url": "https://github.com/purplemacaron/blank/blob/v1.5.1/README.md",
+    "title": "Tagged1.5.1 README",
+    "publisher": "blank maintainer / GitHub",
+    "observedAt": "2026-11-10T09:14:00.729298+00:00",
+    "number": 49
+  },
+  {
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqv1d1/i_built_blank_an_opensource_localfirst_desktop/",
+    "title": "Maker showcase and two visible comments",
+    "publisher": "r/LocalLLaMA",
+    "observedAt": "2026-11-10T09:14:00.729298+00:00",
+    "number": 50
+  },
+  {
+    "url": "https://www.producthunt.com/products/producthunt",
+    "title": "Product Hunt MCP product listing",
+    "publisher": "Product Hunt",
+    "publishedAt": "2026-11-09",
+    "observedAt": "2026-11-10T09:14:41Z",
+    "number": 51
+  },
+  {
+    "url": "https://www.producthunt.com/mcp/install",
+    "title": "Official MCP install and scope guide",
+    "publisher": "Product Hunt",
+    "observedAt": "2026-11-10T09:14:41Z",
+    "number": 52
+  },
+  {
+    "url": "https://www.producthunt.com/products/producthunt/awards",
+    "title": "Absolute launch-day record",
+    "publisher": "Product Hunt",
+    "publishedAt": "2026-11-09",
+    "observedAt": "2026-11-10T09:14:41Z",
+    "number": 53
+  },
+  {
+    "url": "https://www.producthunt.com/changes?ref=header_nav",
+    "title": "Historical drafts and point-definition context",
+    "publisher": "Product Hunt",
+    "observedAt": "2026-11-10T09:14:41Z",
+    "number": 54
+  },
+  {
+    "url": "https://bostondynamics.com/blog/atlas-on-a-roll/",
+    "title": "Atlas On a Roll",
+    "publisher": "Boston Dynamics",
+    "publishedAt": "2026-11-09",
+    "observedAt": "2026-11-10T09:14:17.058153+00:00",
+    "number": 55
+  },
+  {
+    "url": "https://bostondynamics.com/blog/training-a-humanoid-robot-for-hard-work/",
+    "title": "Training a Humanoid Robot for Hard Work",
+    "publisher": "Boston Dynamics",
+    "observedAt": "2026-11-10T09:14:17.058153+00:00",
+    "number": 56
+  },
+  {
+    "url": "https://bostondynamics.com/products/atlas/",
+    "title": "Atlas product and integration information",
+    "publisher": "Boston Dynamics",
+    "observedAt": "2026-11-10T09:14:17.058153+00:00",
+    "number": 57
+  },
+  {
+    "url": "https://interestingengineering.com/ai-robotics/boston-dynamics-atlas-wheeled-robot",
+    "title": "Dated reporting of Atlas wheel experiment",
+    "publisher": "Interesting Engineering",
+    "publishedAt": "2026-11-10T01:44:00Z",
+    "observedAt": "2026-11-10T09:14:17.058153+00:00",
+    "number": 58
+  },
+  {
+    "url": "https://www.businesswire.com/news/home/20261109383890/en/Impossible-Metals-Autonomous-Robot-Selectively-Harvests-Deep-Sea-Nodules-2.5-Miles-Down",
+    "title": "Eureka selective deep-sea collection announcement",
+    "publisher": "Impossible Metals / Business Wire",
+    "publishedAt": "2026-11-09T14:00:00Z",
+    "observedAt": "2026-11-10T09:14:17.058153+00:00",
+    "number": 59
+  },
+  {
+    "url": "https://impossiblemetals.com/eureka/",
+    "title": "Eureka operating cycle",
+    "publisher": "Impossible Metals",
+    "observedAt": "2026-11-10T09:14:17.058153+00:00",
+    "number": 60
+  },
+  {
+    "url": "https://www.businesswire.com/news/home/20260824977054/en/Impossible-Metals-Eureka-II-Recovers-Itself-From-the-Ocean-Fully-Autonomously",
+    "title": "Eureka II autonomous recovery demonstration",
+    "publisher": "Impossible Metals / Business Wire",
+    "publishedAt": "2026-08-24",
+    "observedAt": "2026-11-10T09:14:17.058153+00:00",
+    "number": 61
+  },
+  {
+    "url": "https://www.reuters.com/technology/impossible-metals-says-it-has-successfully-tested-ai-seabed-mining-robot-2026-11-09/",
+    "title": "Impossible Metals reports September scientific test",
+    "publisher": "Reuters",
+    "publishedAt": "2026-11-09",
+    "observedAt": "2026-11-10T09:14:17.058153+00:00",
+    "number": 62
+  },
+  {
+    "url": "https://www.streetinsider.com/Business%2BWire/Impossible%2BMetals%E2%80%99%2BAutonomous%2BRobot%2BSelectively%2BHarvests%2BDeep-Sea%2BNodules%2B2.5%2BMiles%2BDown/27312425.html",
+    "title": "Issuer release syndication with 09:00 AM EST timestamp",
+    "publisher": "Impossible Metals / Business Wire via StreetInsider",
+    "publishedAt": "2026-11-09T14:00:00Z",
+    "observedAt": "2026-11-10T09:14:17.058153+00:00",
+    "number": 63
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.11830",
+    "title": "ROS2MR original abstract and submission history",
+    "publisher": "ROS2MR authors / arXiv",
+    "publishedAt": "2026-11-09T03:48:12Z",
+    "observedAt": "2026-11-10T09:19:26Z",
+    "number": 64
+  },
+  {
+    "url": "https://arxiv.org/html/2611.11830v1",
+    "title": "ROS2MR full paper: system and evaluation",
+    "publisher": "ROS2MR authors / arXiv",
+    "publishedAt": "2026-11-09T03:48:12Z",
+    "observedAt": "2026-11-10T09:19:26Z",
+    "number": 65
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.11542",
+    "title": "Dashboard Remixing original abstract and submission history",
+    "publisher": "Dashboard Remixing authors / arXiv",
+    "publishedAt": "2026-11-08T18:29:51Z",
+    "observedAt": "2026-11-10T09:19:26Z",
+    "number": 66
+  },
+  {
+    "url": "https://arxiv.org/html/2611.11542v1",
+    "title": "Dashboard Remixing full paper: system and evaluation",
+    "publisher": "Dashboard Remixing authors / arXiv",
+    "publishedAt": "2026-11-08T18:29:51Z",
+    "observedAt": "2026-11-10T09:19:26Z",
+    "number": 67
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.11932",
+    "title": "ExCritique original abstract and submission history",
+    "publisher": "ExCritique authors / arXiv",
+    "publishedAt": "2026-11-09T05:59:13Z",
+    "observedAt": "2026-11-10T09:19:26Z",
+    "number": 68
+  },
+  {
+    "url": "https://arxiv.org/html/2611.11932v1",
+    "title": "ExCritique full paper: system and evaluation",
+    "publisher": "ExCritique authors / arXiv",
+    "publishedAt": "2026-11-09T05:59:13Z",
+    "observedAt": "2026-11-10T09:19:26Z",
+    "number": 69
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.10578",
+    "title": "EgoVeil original abstract and submission history",
+    "publisher": "EgoVeil authors / arXiv",
+    "publishedAt": "2026-11-07T08:35:58Z",
+    "observedAt": "2026-11-10T09:19:26Z",
+    "number": 70
+  },
+  {
+    "url": "https://arxiv.org/html/2611.10578v1",
+    "title": "EgoVeil full paper: system and evaluation",
+    "publisher": "EgoVeil authors / arXiv",
+    "publishedAt": "2026-11-07T08:35:58Z",
+    "observedAt": "2026-11-10T09:19:26Z",
+    "number": 71
+  },
+  {
+    "url": "https://github.com/ValerioDolci/capy-flash/releases/tag/v0.10.0",
+    "title": "capy-flash0.10.0 release",
+    "publisher": "capy-flash maintainer / GitHub",
+    "publishedAt": "2026-11-09T06:30:24Z",
+    "observedAt": "2026-11-10T09:15:50.650084+00:00",
+    "number": 72
+  },
+  {
+    "url": "https://github.com/ValerioDolci/capy-flash/blob/v0.10.0/docs/serving.md",
+    "title": "Versioned serving reference: structured output and profiles",
+    "publisher": "capy-flash maintainer / GitHub",
+    "observedAt": "2026-11-10T09:15:50.650084+00:00",
+    "number": 73
+  },
+  {
+    "url": "https://github.com/ValerioDolci/capy-flash/releases/tag/v0.9.0",
+    "title": "capy-flash0.9.0 prior concurrency update",
+    "publisher": "capy-flash maintainer / GitHub",
+    "publishedAt": "2026-11-08T08:36:40Z",
+    "observedAt": "2026-11-10T09:15:50.650084+00:00",
+    "number": 74
+  },
+  {
+    "url": "https://api.github.com/repos/ValerioDolci/capy-flash/releases?per_page=3",
+    "title": "Original release timestamps and bodies",
+    "publisher": "capy-flash maintainer / GitHub",
+    "observedAt": "2026-11-10T09:15:50.650084+00:00",
+    "number": 75
+  },
+  {
+    "url": "https://github.com/github/gh-aw/releases/tag/v1.2.1",
+    "title": "v1.2.1 prerelease",
+    "publisher": "GitHub",
+    "publishedAt": "2026-11-06T20:14:55Z",
+    "observedAt": "2026-11-10T09:13:38Z",
+    "number": 76
+  },
+  {
+    "url": "https://raw.githubusercontent.com/github/gh-aw/v1.2.1/docs/src/content/docs/reference/engines.md",
+    "title": "Pinned durable engine contract",
+    "publisher": "GitHub",
+    "observedAt": "2026-11-10T09:13:38Z",
+    "number": 77
+  },
+  {
+    "url": "https://github.com/github/gh-aw/pull/75097",
+    "title": "Durable continuation implementation",
+    "publisher": "GitHub",
+    "observedAt": "2026-11-10T09:13:38Z",
+    "number": 78
+  },
+  {
+    "url": "https://api.github.com/repos/github/gh-aw/releases/tags/v1.2.1",
+    "title": "Exact original release metadata",
+    "publisher": "GitHub",
+    "publishedAt": "2026-11-06T20:14:55Z",
+    "observedAt": "2026-11-10T09:13:38Z",
+    "number": 79
+  },
+  {
+    "url": "https://openai.com/index/control-room/",
+    "title": "Control Room",
+    "publisher": "OpenAI",
+    "publishedAt": "2026-11-09",
+    "observedAt": "2026-11-10T09:13:24.851036+00:00",
+    "number": 80
+  },
+  {
+    "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment/",
+    "title": "How we detect frontier model misalignment",
+    "publisher": "OpenAI",
+    "publishedAt": "2026-10-29",
+    "observedAt": "2026-11-10T09:13:24.851036+00:00",
+    "number": 81
+  },
+  {
+    "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training/",
+    "title": "Towards safety cases for frontier AI training",
+    "publisher": "OpenAI",
+    "publishedAt": "2026-09-28",
+    "observedAt": "2026-11-10T09:13:24.851036+00:00",
+    "number": 82
+  }
+]

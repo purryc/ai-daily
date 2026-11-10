@@ -10150,6 +10150,361 @@
     "sha256": "4c3f560373c85f425bba7bf2fdc8c55e49644cc125b7e3214c2c3a1b684ed1d9"
   },
   {
+    "path": "2026-11-10/assets/atlas-wheels.jpg",
+    "bytes": 75993,
+    "sha256": "359d4ac87cc801d5853301c7f640670973dabbf41ac9d768dbbc1bcbdd2a5ea1"
+  },
+  {
+    "path": "2026-11-10/assets/blank-workbench.jpg",
+    "bytes": 98699,
+    "sha256": "c34b04d9f85c7ac562da38b65db8042d8ed14dee2cafe2baab860af9846dca58"
+  },
+  {
+    "path": "2026-11-10/assets/capy-flash-010-structured-output.png",
+    "bytes": 53197,
+    "sha256": "6c675ad8fa3fffb47c1d9ee11a866276d22ece81602bfa1f8af069063817a308"
+  },
+  {
+    "path": "2026-11-10/assets/clipspal-editor.jpg",
+    "bytes": 194469,
+    "sha256": "668743449c4fa782d81e8d360f2c9b762d371a11057012072e846db9172a47f6"
+  },
+  {
+    "path": "2026-11-10/assets/control-room-events.png",
+    "bytes": 63533,
+    "sha256": "5432ded747f56f1dffcf5ed0452436ea581e2f9ab45f8b63cca446744ebb139d"
+  },
+  {
+    "path": "2026-11-10/assets/dashboard-remixing.jpg",
+    "bytes": 101358,
+    "sha256": "993e2b5aa348874b564fb22a2340a5002a99a9388d028b76ccf1d85e7edcd449"
+  },
+  {
+    "path": "2026-11-10/assets/deck.js",
+    "bytes": 2576,
+    "sha256": "63d13c06452d7405e0b5ed572d8464d802c9e5b8de656b5a94e3527b1730f7b3"
+  },
+  {
+    "path": "2026-11-10/assets/egoveil.jpg",
+    "bytes": 217659,
+    "sha256": "ae6afb763089de1889747b98f025a308aad47a069bd5181ab005def9b09662e1"
+  },
+  {
+    "path": "2026-11-10/assets/eureka-photo.jpg",
+    "bytes": 20988,
+    "sha256": "c1757b439237ca88ced01b5e04a62fc21b1ce9999e5549de104a37aa7addc718"
+  },
+  {
+    "path": "2026-11-10/assets/excritique.jpg",
+    "bytes": 165180,
+    "sha256": "4925513624b3a55b5dc5e5223dc7ab21c9e3f38e7a68a0b2e7ade223a9aa3aaa"
+  },
+  {
+    "path": "2026-11-10/assets/fable-prototypes.jpg",
+    "bytes": 153041,
+    "sha256": "055d15d77da09f412f1d584eb6d22c85129e377c2b8167ba6eeb7479cf2230d8"
+  },
+  {
+    "path": "2026-11-10/assets/flic-gallery-1.jpg",
+    "bytes": 13568,
+    "sha256": "e0eb614b90f131bd37118b5a63fd9efc647366b54c067ae578e71ad785ed0433"
+  },
+  {
+    "path": "2026-11-10/assets/gh-aw-121-durable.png",
+    "bytes": 72175,
+    "sha256": "8e5a29f7602ada6c8f5ca83d60fc96433968c3f4f737118ed2baae528077be57"
+  },
+  {
+    "path": "2026-11-10/assets/issue.css",
+    "bytes": 10323,
+    "sha256": "e2aad62eb7ee51f4ad64545f610e505d499f1c365784cf1b19baf9d593ba4c1a"
+  },
+  {
+    "path": "2026-11-10/assets/ph-mcp.jpg",
+    "bytes": 10571,
+    "sha256": "fd85b0e01fb1c239e12d5a644f635b4c5e385e0008cb1f477772bb30e767d624"
+  },
+  {
+    "path": "2026-11-10/assets/planera-mcp.jpg",
+    "bytes": 172064,
+    "sha256": "5c4386fd4e26e0a9de7fea878c374f77640e496f5c6b4dd21dca83cfc8a47f6e"
+  },
+  {
+    "path": "2026-11-10/assets/qwenwork-collaboration.jpg",
+    "bytes": 151423,
+    "sha256": "894bce07ee71664922321c378f0ff04380861d3dcb5dea2eeb489b8e4d2bd2b8"
+  },
+  {
+    "path": "2026-11-10/assets/recomposer.jpg",
+    "bytes": 140006,
+    "sha256": "0c299babfd9b4721bb69bc90cc710d34f946a8e8fa33da3ced17922b9f77b11b"
+  },
+  {
+    "path": "2026-11-10/assets/ros2mr.jpg",
+    "bytes": 108733,
+    "sha256": "2719dfbf3e7ab3fc0bba6f2441431488b8f20d75de698cb619afa7a44640933d"
+  },
+  {
+    "path": "2026-11-10/assets/seedream-output.jpg",
+    "bytes": 589220,
+    "sha256": "adcd0612c370afa2d1ee41210c988b0dc77d18dfd7dfcba560e679e176c79758"
+  },
+  {
+    "path": "2026-11-10/assets/skuttr-gallery-3.jpg",
+    "bytes": 14953,
+    "sha256": "1f84e2c68c9a5998d9121a99f2aa67ff92448ae73eb66224efbc696b8d34b459"
+  },
+  {
+    "path": "2026-11-10/assets/timescroll-summary.jpg",
+    "bytes": 150656,
+    "sha256": "90c76a85b886471070ab3399baaabd860951e3a7f80b9aabd6942c0db6ed7e24"
+  },
+  {
+    "path": "2026-11-10/assets/videomaker.jpg",
+    "bytes": 141225,
+    "sha256": "943948e3faf4a1957e4e9edeaadf4d35edb8650d36cff6e7044d0a38d2e4167a"
+  },
+  {
+    "path": "2026-11-10/en/details/atlas-wheels-control-testbed.html",
+    "bytes": 6280,
+    "sha256": "575b78d01939723f51713b564ef173e56279a9ffda04b77cc526979e86f77d46"
+  },
+  {
+    "path": "2026-11-10/en/details/blank-151-terminal-handoff.html",
+    "bytes": 6872,
+    "sha256": "bc4c30b17f4d86b0acc77d75ca0d57669098a1277a76101c237ae92436db5e4a"
+  },
+  {
+    "path": "2026-11-10/en/details/capy-flash-010-structured-output.html",
+    "bytes": 7021,
+    "sha256": "1ef16f945c76b131f8eecc8a1b5d3e2824e639724b734471ddf64d0fae927602"
+  },
+  {
+    "path": "2026-11-10/en/details/claude-fable52-hardware-prototypes.html",
+    "bytes": 6405,
+    "sha256": "d541c949501082dcd0a1f57929698720c5f71452f5f41b9300fdaa93bc548900"
+  },
+  {
+    "path": "2026-11-10/en/details/clipspal-120-library-control.html",
+    "bytes": 6648,
+    "sha256": "7ee48361b05faf26458a007c8c45490fc28aac6a94477a4544282b7c45ab99cb"
+  },
+  {
+    "path": "2026-11-10/en/details/dashboard-remixing-goals.html",
+    "bytes": 6375,
+    "sha256": "1114f35fc1e0bf5d00d2dcab75cea829ad8057152e3c1c77bcd9e35434e45f7b"
+  },
+  {
+    "path": "2026-11-10/en/details/egoveil-preference-privacy.html",
+    "bytes": 6335,
+    "sha256": "a0931a5508c30e6628a310453ee69948bb0f4bdb962a39777f672c5dfc4f23d1"
+  },
+  {
+    "path": "2026-11-10/en/details/eureka-selective-deepsea-disclosure.html",
+    "bytes": 6653,
+    "sha256": "a60f7f9757388f40b4adbe5bc181015f8c767a9f7539d032aa4637ecf8e1078a"
+  },
+  {
+    "path": "2026-11-10/en/details/excritique-explanation-audit.html",
+    "bytes": 6446,
+    "sha256": "1fca7e544bbefb5d45ec4891cf1e1b5025d5a3388ad0391d8f240f2d691315de"
+  },
+  {
+    "path": "2026-11-10/en/details/flic-cue-voice-gesture-crowdfunding.html",
+    "bytes": 6209,
+    "sha256": "15f1a602671e4bb126a8bc253ed026e5f7b0d9432d947b0401782cf66119f0dd"
+  },
+  {
+    "path": "2026-11-10/en/details/gh-aw-121-durable.html",
+    "bytes": 6340,
+    "sha256": "b82b425a6e30d8fea5b985e86a4db788beb8ade20eddad03a0a46cbe2541e892"
+  },
+  {
+    "path": "2026-11-10/en/details/openai-control-room-inference-stop.html",
+    "bytes": 6335,
+    "sha256": "adf70756cce59ea360bd5879694e7676935b0164fbe8055e23f6eb105378634c"
+  },
+  {
+    "path": "2026-11-10/en/details/planera-constructability-agent.html",
+    "bytes": 6197,
+    "sha256": "bebee472024610d8f79728a5e837370428c94403f46267bb842360d4a7026b14"
+  },
+  {
+    "path": "2026-11-10/en/details/producthunt-official-mcp.html",
+    "bytes": 6737,
+    "sha256": "2bfad9382d6fcd662e96a324004a8f8a3c094d991b6693d690e336ec619bbdcf"
+  },
+  {
+    "path": "2026-11-10/en/details/qwenwork-20-shared-event-tasks.html",
+    "bytes": 6309,
+    "sha256": "98dee355d5a5f105dfce60c33fc413b6d8844a68d9dddda20e338257550cc0ba"
+  },
+  {
+    "path": "2026-11-10/en/details/recomposer-editable-plan.html",
+    "bytes": 6366,
+    "sha256": "ee8a0161d9b0b374d3bfacbbe72fa57555afafcb6d76cdbd823da9b552831b7f"
+  },
+  {
+    "path": "2026-11-10/en/details/ros2mr-trajectory-playback.html",
+    "bytes": 6329,
+    "sha256": "ef090f03ac926c0e18b82d3339b17a795bbc4191333f17eabb2f3307eb2a14d8"
+  },
+  {
+    "path": "2026-11-10/en/details/seedream-55-native-alpha-editing.html",
+    "bytes": 6487,
+    "sha256": "100425c8657cdebdcc3425b4b1c5180391bdec38e88e65a5754ce2852dee07a3"
+  },
+  {
+    "path": "2026-11-10/en/details/skuttr-sentence-camera-roll.html",
+    "bytes": 6292,
+    "sha256": "b573a54270886b5d485c445770090c80a0cf83c0101a22e727865edf0cfea7fd"
+  },
+  {
+    "path": "2026-11-10/en/details/timescroll-230-capture-deletion.html",
+    "bytes": 6779,
+    "sha256": "1dbd1d88b7e5c4b790c8f5d33b9e8524ebbfbce7c2a59a9f76ccfd4a7b204e54"
+  },
+  {
+    "path": "2026-11-10/en/details/videomaker-seed-intent.html",
+    "bytes": 6337,
+    "sha256": "55856df4e4e82f0807946df5eb38e8582c6b440490afaaeaf3e48db75b374c82"
+  },
+  {
+    "path": "2026-11-10/en/index.html",
+    "bytes": 64867,
+    "sha256": "2390093768f081a5a216ab06392b911dbe5d543cfe1860e05883935e5ce1d761"
+  },
+  {
+    "path": "2026-11-10/manifest.json",
+    "bytes": 25921,
+    "sha256": "99714e55179b6f9b541a8c480a394e5f5c64ee1e97e04676d720061946c8b5bd"
+  },
+  {
+    "path": "2026-11-10/sources.html",
+    "bytes": 47490,
+    "sha256": "f7016c0a13d795566ad3e597f25e4f9787e4cdee5adf8ef9762559f2db44f5bc"
+  },
+  {
+    "path": "2026-11-10/sources.json",
+    "bytes": 20911,
+    "sha256": "301d3b70e1fd819ffb57007dde75fa87f829238b2170a49588b4d40cdc062841"
+  },
+  {
+    "path": "2026-11-10/visuals.json",
+    "bytes": 15829,
+    "sha256": "ac258ac6bacb9fab13c7454481696a60e6c858bc5c97b65088ec9bef071fb3b8"
+  },
+  {
+    "path": "2026-11-10/zh/details/atlas-wheels-control-testbed.html",
+    "bytes": 5591,
+    "sha256": "091bd73a19b15abd28f931c595b225380b1511152b5cbc29a5aa4cf4beb7de27"
+  },
+  {
+    "path": "2026-11-10/zh/details/blank-151-terminal-handoff.html",
+    "bytes": 6384,
+    "sha256": "111c9db6fec55068459385e67f5a552685eb481fc5b5e5b9481f640dd3509fc7"
+  },
+  {
+    "path": "2026-11-10/zh/details/capy-flash-010-structured-output.html",
+    "bytes": 6581,
+    "sha256": "9348f82cc9075e8ad3c9f18430efb715581a66c287fe6fb33ec1fe891e1b0502"
+  },
+  {
+    "path": "2026-11-10/zh/details/claude-fable52-hardware-prototypes.html",
+    "bytes": 5997,
+    "sha256": "5a77aba6c6c042d6f1258972dcf4810c3679b0c09c2d405066eb9285cbfd7ed9"
+  },
+  {
+    "path": "2026-11-10/zh/details/clipspal-120-library-control.html",
+    "bytes": 6195,
+    "sha256": "23162b09f982afdf0a80f667655e9187a85f5f5af735302b79646e55512f7424"
+  },
+  {
+    "path": "2026-11-10/zh/details/dashboard-remixing-goals.html",
+    "bytes": 5671,
+    "sha256": "ef3ac69fa0c017e418a275f0008fd1e0c8c6f794189d161bbe8db6e3f7a6143b"
+  },
+  {
+    "path": "2026-11-10/zh/details/egoveil-preference-privacy.html",
+    "bytes": 5605,
+    "sha256": "1f674c7d07f8f0e6ec71d78041410a1520caae9961fa2c7e6403014ac551811b"
+  },
+  {
+    "path": "2026-11-10/zh/details/eureka-selective-deepsea-disclosure.html",
+    "bytes": 6113,
+    "sha256": "92fbf097b705c48654c3e9b014512ef271358c1998fb10a098b7f5daa20f6fb7"
+  },
+  {
+    "path": "2026-11-10/zh/details/excritique-explanation-audit.html",
+    "bytes": 5581,
+    "sha256": "369a88fa1b5ed0a36ab1227c56783062f58a16501e998ce33fc505465f35e1a1"
+  },
+  {
+    "path": "2026-11-10/zh/details/flic-cue-voice-gesture-crowdfunding.html",
+    "bytes": 5684,
+    "sha256": "9658e577d79eda68d026dccb6512b59b78ff129390e3edb81b22cecb34613ae0"
+  },
+  {
+    "path": "2026-11-10/zh/details/gh-aw-121-durable.html",
+    "bytes": 5856,
+    "sha256": "ad7b1616bf1a99c597df6c9c433d37f8877a65ca085b2e4c89d6ece456b40e36"
+  },
+  {
+    "path": "2026-11-10/zh/details/openai-control-room-inference-stop.html",
+    "bytes": 5765,
+    "sha256": "576eaea57f4f4fedf0d04c2ee593c34df9352c7022ef583ea95f0165f7b1fea2"
+  },
+  {
+    "path": "2026-11-10/zh/details/planera-constructability-agent.html",
+    "bytes": 5627,
+    "sha256": "88eb988da2daf8894418ef6086c21b290ca633496d6c2b216d0ca96e1be5318f"
+  },
+  {
+    "path": "2026-11-10/zh/details/producthunt-official-mcp.html",
+    "bytes": 6118,
+    "sha256": "ddc29eb289b0e4d54e409b652f296e081666cec8407f98d5ddb74a7aca97096c"
+  },
+  {
+    "path": "2026-11-10/zh/details/qwenwork-20-shared-event-tasks.html",
+    "bytes": 5924,
+    "sha256": "073c8065394261d29fb3c464154363794339908bc0cd384b70cf4861d0893cee"
+  },
+  {
+    "path": "2026-11-10/zh/details/recomposer-editable-plan.html",
+    "bytes": 5609,
+    "sha256": "41404fae7d519108064258e3230b93533c3539d49002ecaede495ea733306413"
+  },
+  {
+    "path": "2026-11-10/zh/details/ros2mr-trajectory-playback.html",
+    "bytes": 5578,
+    "sha256": "672f14a57b0f79c62bcd4bc9bdb7ef35ddc186e1c3eccde783968e609c0851b7"
+  },
+  {
+    "path": "2026-11-10/zh/details/seedream-55-native-alpha-editing.html",
+    "bytes": 6130,
+    "sha256": "2b8e93ce4c13e39bb6e93c34fadd51f2dc83ce1d92530a314e15365528226b71"
+  },
+  {
+    "path": "2026-11-10/zh/details/skuttr-sentence-camera-roll.html",
+    "bytes": 5774,
+    "sha256": "949e3aa5ed3f20363fd3aabbcfc8f363056d3d157640458598b2029c5fc083c2"
+  },
+  {
+    "path": "2026-11-10/zh/details/timescroll-230-capture-deletion.html",
+    "bytes": 6695,
+    "sha256": "3b8c3721eedbdd385e320e513c31549d89dacbd4834643cfe70b349741bbef80"
+  },
+  {
+    "path": "2026-11-10/zh/details/videomaker-seed-intent.html",
+    "bytes": 5569,
+    "sha256": "5f7b1f90d224f353d5a77983a61a2f024e8bd6ea4822f3d022bb813be682eb77"
+  },
+  {
+    "path": "2026-11-10/zh/index.html",
+    "bytes": 61838,
+    "sha256": "02a19cacacca373b1a279f5fc62703d516feede7c7542ccaf7854697eb746630"
+  },
+  {
     "path": "assets/acti-agentic-keyboard-2026-07-03.svg",
     "bytes": 2825,
     "sha256": "84ad9abb0a1191abde62dea383e6e1ed583fc089073d3ccaf91629044501721b"
@@ -10561,18 +10916,18 @@
   },
   {
     "path": "en/index.html",
-    "bytes": 183536,
-    "sha256": "26b5ac876643c4fb0fb19c0da727a133628e2070371c41eabb087513c1ee67e0"
+    "bytes": 184762,
+    "sha256": "e8b03cd7bffc59e120db1b1543ab8e9bd57ee96c1b0a3d575d42c2cff6dd0c09"
   },
   {
     "path": "index.html",
-    "bytes": 177240,
-    "sha256": "714e4e1c05a2dd05186f9a822997425d9fcbab08905db8019c367fcde152c4fe"
+    "bytes": 178453,
+    "sha256": "55c4c88841769dd9b29cfb89fb0d4759d4d071d5372585377a6fb84fb989a49b"
   },
   {
     "path": "manifest.json",
-    "bytes": 754949,
-    "sha256": "0e3d14dfda88c4eba33e8f0ca1c64c0e2eb3ceed3a7cd074dd5e192af4279372"
+    "bytes": 756349,
+    "sha256": "f03fee745e2ecbb4cb0264597398bda72ac752fa3dc1452bd8f9568fe570a58b"
   },
   {
     "path": "weekly/2026-10-12/pilot/en/index.html",
