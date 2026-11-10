@@ -10311,8 +10311,8 @@
   },
   {
     "path": "2026-11-10/en/details/flic-cue-voice-gesture-crowdfunding.html",
-    "bytes": 6209,
-    "sha256": "15f1a602671e4bb126a8bc253ed026e5f7b0d9432d947b0401782cf66119f0dd"
+    "bytes": 6213,
+    "sha256": "f97f67effc9990e34c997b0ec46f8de13c477823a856278b24c07ad5d30d1dda"
   },
   {
     "path": "2026-11-10/en/details/gh-aw-121-durable.html",
@@ -10371,8 +10371,8 @@
   },
   {
     "path": "2026-11-10/en/index.html",
-    "bytes": 64867,
-    "sha256": "2390093768f081a5a216ab06392b911dbe5d543cfe1860e05883935e5ce1d761"
+    "bytes": 64871,
+    "sha256": "439eade250483b0b562aedce6a79043c1af1b22898fce9352d030b708c6a8629"
   },
   {
     "path": "2026-11-10/manifest.json",
@@ -10381,8 +10381,8 @@
   },
   {
     "path": "2026-11-10/sources.html",
-    "bytes": 47490,
-    "sha256": "f7016c0a13d795566ad3e597f25e4f9787e4cdee5adf8ef9762559f2db44f5bc"
+    "bytes": 47494,
+    "sha256": "cc6fba807c23368b012d05e91981900d25be3460703e25e82262946751a8abae"
   },
   {
     "path": "2026-11-10/sources.json",
@@ -10391,8 +10391,8 @@
   },
   {
     "path": "2026-11-10/visuals.json",
-    "bytes": 15829,
-    "sha256": "ac258ac6bacb9fab13c7454481696a60e6c858bc5c97b65088ec9bef071fb3b8"
+    "bytes": 15833,
+    "sha256": "53a269e3031859691ce72d1e922f0ba7cf0c4c4b574d5a5a8c6220ff77851816"
   },
   {
     "path": "2026-11-10/zh/details/atlas-wheels-control-testbed.html",
@@ -10441,8 +10441,8 @@
   },
   {
     "path": "2026-11-10/zh/details/flic-cue-voice-gesture-crowdfunding.html",
-    "bytes": 5684,
-    "sha256": "9658e577d79eda68d026dccb6512b59b78ff129390e3edb81b22cecb34613ae0"
+    "bytes": 5688,
+    "sha256": "07e9d7ce7a86ec6bfb2fdf591fa94324de99f52442fe9c716e02946c15cbc36d"
   },
   {
     "path": "2026-11-10/zh/details/gh-aw-121-durable.html",
@@ -10501,8 +10501,8 @@
   },
   {
     "path": "2026-11-10/zh/index.html",
-    "bytes": 61838,
-    "sha256": "02a19cacacca373b1a279f5fc62703d516feede7c7542ccaf7854697eb746630"
+    "bytes": 61842,
+    "sha256": "a1a054309356a33a67a25a71dad05ce6fdfabbf056915622ac857bef603ff141"
   },
   {
     "path": "assets/acti-agentic-keyboard-2026-07-03.svg",
