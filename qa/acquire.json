@@ -1,114 +1,51 @@
 [
   {
     "kind": "image",
-    "name": "fable-prototypes.jpg",
-    "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/1a999b9164b6d23ac7b94c2dcdf4c9230e26e940-1920x1280.png",
+    "name": "skuttr-ui.jpg",
+    "url": "https://ph-files.imgix.net/6eec4695-45dc-4b4c-b260-351b47097e7f.png?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=220&w=368",
     "renderImage": true,
     "locale": "zh"
   },
   {
     "kind": "image",
-    "name": "qwenwork-collaboration.jpg",
-    "url": "https://g-adoc.alcasset.com/sync/maas_docs/qwenwork-cn/master/cn/media/zh/images/release-20261109-collaboration-d3b9b5f5937c2f65_4d2751a634b2.png",
+    "name": "ph-mcp.jpg",
+    "url": "https://ph-files.imgix.net/launch-image-uploads/7e8c0c91-51aa-4441-bcaa-dfad34787fb1/9dbc04d19f5195be11f9818e9d068cbcb267b7aae9854024ac330e8c57b70251.png?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=220&w=368",
     "renderImage": true,
     "locale": "en"
   },
   {
     "kind": "image",
-    "name": "yuanqi-export.jpg",
-    "url": "https://imgdoc.yuanqi.tencent.com/tRpcWrite/100044667171/f78268a5cee311f19093525400380f7d.png",
+    "name": "eureka-photo.jpg",
+    "url": "https://img.ien.com/mindful/im/workspaces/default/uploads/2026/11/impossible-metal-frames04-03-02-03still050.fFV8QKRjOk.jpg?ar=16x9&auto=format%2Ccompress&crop=focalpoint&fit=crop&fp-x=0.43&fp-y=0.39&q=70&w=400",
     "renderImage": true,
     "locale": "zh"
   },
   {
     "kind": "image",
-    "name": "timescroll-summary.jpg",
-    "url": "https://timescroll.muzhen.org/_astro/summary.DoFM_YJT_ZYs0fa.webp",
+    "name": "seedream-output.jpg",
+    "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mw8m2wk9.png",
     "renderImage": true,
     "locale": "en"
   },
   {
     "kind": "image",
-    "name": "timescroll-privacy.jpg",
-    "url": "https://timescroll.muzhen.org/_astro/privacy.B9Hf_DYi_Z1LxbQf.webp",
+    "name": "flic-gallery-1.jpg",
+    "url": "https://ph-files.imgix.net/24f5445d-dfec-4fb0-9f8a-35d2a585f1de.jpeg?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=220&w=391",
     "renderImage": true,
     "locale": "zh"
   },
   {
     "kind": "image",
-    "name": "clipspal-editor.jpg",
-    "url": "https://www.clipspal.com/_next/static/media/editor.549795c9.jpg",
+    "name": "flic-gallery-2.jpg",
+    "url": "https://ph-files.imgix.net/b739f79a-23bc-4e9c-809b-c8f78131ea3f.jpeg?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=220&w=391",
     "renderImage": true,
     "locale": "en"
   },
   {
     "kind": "image",
-    "name": "atlas-wheels.jpg",
-    "url": "https://bostondynamics.com/wp-content/uploads/2026/11/atlas-wheels-rl-split-screen-1024x576.jpg",
+    "name": "flic-gallery-3.jpg",
+    "url": "https://ph-files.imgix.net/b8f62830-6b4b-48a9-9b36-db7c188dd7ca.jpeg?auto=compress%2Cformat&codec=mozjpeg&cs=strip&fit=max&frame=1&h=220&w=368",
     "renderImage": true,
     "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "flic-cue.jpg",
-    "url": "https://static2.shortcutlabs.com/wp-content/uploads/2026/11/01-demo-decoded-1024x489.png",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "recomposer.jpg",
-    "url": "https://arxiv.org/html/2611.12687v1/figures/recomposer-teaser.png",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "videomaker.jpg",
-    "url": "https://arxiv.org/html/2611.12605v1/figures/figure1.png",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "excritique.jpg",
-    "url": "https://arxiv.org/html/2611.11932v1/eXCritique_Interface_overview.png",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "ros2mr.jpg",
-    "url": "https://arxiv.org/html/2611.11830v1/figures/WebOverview.png",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "dashboard-remixing.jpg",
-    "url": "https://arxiv.org/html/2611.11542v1/trend.png",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "egoveil.jpg",
-    "url": "https://arxiv.org/html/2611.10578v1/figures/teaser_figure.png",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "planera-mcp.jpg",
-    "url": "https://cdn.prod.website-files.com/66fb77e4b8cc2aa008dc8873/6ae156958c8a931b08352c81_mcp-why-it-matters.webp",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "blank-workbench.jpg",
-    "url": "https://purplemacaron.github.io/blank/media/workbench-terminal.webp",
-    "renderImage": true,
-    "locale": "en"
   }
 ]
