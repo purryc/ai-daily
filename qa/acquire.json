@@ -1,41 +1,30 @@
 [
   {
     "kind": "image",
-    "name": "claude-workspace.jpg",
-    "url": "https://i.ytimg.com/vi/YewAJPawE7I/maxresdefault.jpg",
+    "name": "pixel-core.jpg",
+    "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Pixel_10_Pro_Gemini_Intelligence.width-1200.format-webp.webp",
     "renderImage": true,
     "locale": "zh"
   },
   {
     "kind": "image",
-    "name": "claude-connectors.jpg",
-    "url": "https://i.ytimg.com/vi/Gy1jSeSzAhk/maxresdefault.jpg",
+    "name": "groot2-core.jpg",
+    "url": "https://research.nvidia.com/labs/gear/gr00t-2/assets/img/xa_human_robot.jpg",
     "renderImage": true,
     "locale": "en"
   },
   {
-    "kind": "inventory",
-    "name": "pixel-inventory.json",
-    "url": "https://blog.google/products-and-platforms/devices/pixel/november-2026-pixel-drop/",
+    "kind": "image",
+    "name": "claude-frame1.jpg",
+    "url": "https://i.ytimg.com/vi/YewAJPawE7I/hq1.jpg",
+    "renderImage": true,
     "locale": "zh"
   },
   {
-    "kind": "inventory",
-    "name": "mka-inventory.json",
-    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark/",
-    "locale": "en"
-  },
-  {
-    "kind": "page",
-    "name": "groot2-demo.jpg",
-    "url": "https://research.nvidia.com/labs/gear/gr00t-2/",
-    "selector": "video",
-    "locale": "zh"
-  },
-  {
-    "kind": "inventory",
-    "name": "groot2-inventory.json",
-    "url": "https://research.nvidia.com/labs/gear/gr00t-2/",
+    "kind": "image",
+    "name": "claude-frame2.jpg",
+    "url": "https://i.ytimg.com/vi/YewAJPawE7I/hq2.jpg",
+    "renderImage": true,
     "locale": "en"
   }
 ]
