@@ -1,0 +1,756 @@
+[
+  {
+    "url": "https://www.producthunt.com/newsletters/archive/57950-let-claude-wake-you-up",
+    "title": "Nov10 consumer product discovery",
+    "publisher": "Product Hunt",
+    "publishedAt": "2026-11-10",
+    "observedAt": "2026-11-11T09:16:55.793174Z",
+    "number": 1
+  },
+  {
+    "url": "https://www.producthunt.com/products/clive?launch=clive",
+    "title": "Launch and maker explanation",
+    "publisher": "Product Hunt",
+    "observedAt": "2026-11-11T09:16:55.793174Z",
+    "number": 2
+  },
+  {
+    "url": "https://clive.bytortoise.com/",
+    "title": "Pairing and alarm interface",
+    "publisher": "Tortoise",
+    "observedAt": "2026-11-11T09:16:55.793174Z",
+    "number": 3
+  },
+  {
+    "url": "https://clive.bytortoise.com/help",
+    "title": "Status protocol, limits and troubleshooting",
+    "publisher": "Tortoise",
+    "observedAt": "2026-11-11T09:16:55.793174Z",
+    "number": 4
+  },
+  {
+    "url": "https://apps.apple.com/us/app/clive-alarms-your-ai-sets/id6827766252",
+    "title": "US app listing and version1.0.1",
+    "publisher": "Apple / Tortoise",
+    "observedAt": "2026-11-11T09:16:55.793174Z",
+    "number": 5
+  },
+  {
+    "url": "https://clive.bytortoise.com/privacy",
+    "title": "Privacy and regional availability",
+    "publisher": "Tortoise",
+    "publishedAt": "2026-11-09",
+    "observedAt": "2026-11-11T09:16:55.793174Z",
+    "number": 6
+  },
+  {
+    "url": "https://www.producthunt.com/leaderboard/daily/2026/11/10",
+    "title": "November10 launch archive",
+    "publisher": "Product Hunt",
+    "publishedAt": "2026-11-10",
+    "observedAt": "2026-11-11T09:16:55.793174Z",
+    "number": 7
+  },
+  {
+    "url": "https://www.producthunt.com/products/chromeping?launch=chromeping",
+    "title": "ChromePing launch and visible maker discussion",
+    "publisher": "Product Hunt",
+    "observedAt": "2026-11-11T09:16:55.793174Z",
+    "number": 8
+  },
+  {
+    "url": "https://chromeping.com/",
+    "title": "Product workflow and staged demo",
+    "publisher": "ChromePing",
+    "observedAt": "2026-11-11T09:16:55.793174Z",
+    "number": 9
+  },
+  {
+    "url": "https://chromeping.com/pricing",
+    "title": "Monthly pricing and usage allowances",
+    "publisher": "ChromePing",
+    "observedAt": "2026-11-11T09:16:55.793174Z",
+    "number": 10
+  },
+  {
+    "url": "https://chromeping.com/privacy-policy",
+    "title": "Privacy policy",
+    "publisher": "ChromePing",
+    "publishedAt": "2026-10-04",
+    "observedAt": "2026-11-11T09:16:55.793174Z",
+    "number": 11
+  },
+  {
+    "url": "https://medium.com/blog/tk-a-new-private-notebook-app-from-medium-13d3d6efdce1",
+    "title": "TK product announcement",
+    "publisher": "Medium",
+    "publishedAt": "2026-11-09",
+    "observedAt": "2026-11-11T09:16:55.793174Z",
+    "number": 12
+  },
+  {
+    "url": "https://www.producthunt.com/products/medium",
+    "title": "TK launch and maker plan details",
+    "publisher": "Product Hunt",
+    "publishedAt": "2026-11-10",
+    "observedAt": "2026-11-11T09:16:55.793174Z",
+    "number": 13
+  },
+  {
+    "url": "https://github.com/Medium/tk-daily-note-plugin",
+    "title": "Daily Note plugin README",
+    "publisher": "Medium / GitHub",
+    "observedAt": "2026-11-11T09:16:55.793174Z",
+    "number": 14
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/",
+    "title": "Publication-date corroboration only; 25-word source cap respected",
+    "publisher": "TechCrunch",
+    "publishedAt": "2026-11-09",
+    "observedAt": "2026-11-11T09:16:55.793174Z",
+    "number": 15
+  },
+  {
+    "url": "https://lottiefiles.com/blog/working-with-lottie-animations/what-is-lottie-ai",
+    "title": "Standalone Lottie AI introduction",
+    "publisher": "LottieFiles",
+    "publishedAt": "2026-11-09",
+    "observedAt": "2026-11-11T09:16:55.793174Z",
+    "number": 16
+  },
+  {
+    "url": "https://help.lottiefiles.com/create-an-animation-with-lottie-ai",
+    "title": "Creation workflow",
+    "publisher": "LottieFiles",
+    "publishedAt": "2026-11-10",
+    "observedAt": "2026-11-11T09:16:55.793174Z",
+    "number": 17
+  },
+  {
+    "url": "https://www.producthunt.com/products/lottiefiles",
+    "title": "Lottie AI PH appearance",
+    "publisher": "Product Hunt",
+    "publishedAt": "2026-11-10",
+    "observedAt": "2026-11-11T09:16:55.793174Z",
+    "number": 18
+  },
+  {
+    "url": "https://help.lottiefiles.com/lottie-ai-plans-and-credits",
+    "title": "Credit allowances and consumption",
+    "publisher": "LottieFiles",
+    "observedAt": "2026-11-11T09:16:55.793174Z",
+    "number": 19
+  },
+  {
+    "url": "https://help.lottiefiles.com/lottie-ai-faq-pricing-and-credits",
+    "title": "Pricing FAQ and mode cost",
+    "publisher": "LottieFiles",
+    "observedAt": "2026-11-11T09:16:55.793174Z",
+    "number": 20
+  },
+  {
+    "url": "https://lottiefiles.com/page/lottie-ai-terms",
+    "title": "Lottie AI specific terms",
+    "publisher": "LottieFiles",
+    "publishedAt": "2026-11-10",
+    "observedAt": "2026-11-11T09:16:55.793174Z",
+    "number": 21
+  },
+  {
+    "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+    "title": "Sheets, Whiteboards and Data",
+    "publisher": "Anthropic",
+    "publishedAt": "2026-11-10",
+    "observedAt": "2026-11-11T09:19:03.298614+00:00",
+    "number": 22
+  },
+  {
+    "url": "https://claude.com/resources/articles/interactive-connectors-full-tool",
+    "title": "Interactive connectors full tools",
+    "publisher": "Anthropic",
+    "publishedAt": "2026-11-10",
+    "observedAt": "2026-11-11T09:19:03.298614+00:00",
+    "number": 23
+  },
+  {
+    "url": "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors",
+    "title": "More ways to work with Claude",
+    "publisher": "Anthropic",
+    "publishedAt": "2026-11-10",
+    "observedAt": "2026-11-11T09:19:03.298614+00:00",
+    "number": 24
+  },
+  {
+    "url": "https://support.claude.com/en/articles/13454812-use-interactive-connectors-in-claude",
+    "title": "Use interactive connectors",
+    "publisher": "Anthropic Help",
+    "observedAt": "2026-11-11T09:19:03.298614+00:00",
+    "number": 25
+  },
+  {
+    "url": "https://support.claude.com/en/articles/18324319-get-started-with-claude-whiteboards",
+    "title": "Whiteboards help",
+    "publisher": "Anthropic Help",
+    "observedAt": "2026-11-11T09:19:53.486650+00:00",
+    "number": 26
+  },
+  {
+    "url": "https://support.claude.com/en/articles/18324300-get-started-with-claude-sheets",
+    "title": "Sheets help",
+    "publisher": "Anthropic Help",
+    "observedAt": "2026-11-11T09:19:53.486659+00:00",
+    "number": 27
+  },
+  {
+    "url": "https://blog.adobe.com/en/publish/2026/11/10/adobe-firefly-premiere-mobile-ways-create-videos-edit-content-perfect-soundtrack-stories",
+    "title": "Firefly new creative studio and agent capabilities",
+    "publisher": "Adobe",
+    "publishedAt": "2026-11-10",
+    "observedAt": "2026-11-11T09:19:03.298614+00:00",
+    "number": 28
+  },
+  {
+    "url": "https://news.adobe.com/news/2026/11/adobe-powers-new-era-of-creativity",
+    "title": "New era of creativity",
+    "publisher": "Adobe Newsroom",
+    "publishedAt": "2026-11-10",
+    "observedAt": "2026-11-11T09:19:03.298614+00:00",
+    "number": 29
+  },
+  {
+    "url": "https://helpx.adobe.com/photoshop/desktop/whats-new/whats-new-in-adobe-photoshop-on-desktop.html",
+    "title": "November28.0 release",
+    "publisher": "Adobe",
+    "publishedAt": "2026-11-10",
+    "observedAt": "2026-11-11T09:16:34.042051+00:00",
+    "number": 30
+  },
+  {
+    "url": "https://helpx.adobe.com/photoshop/desktop/repair-retouch/clean-restore-images/relight-images-with-interactive-lighting-controls.html",
+    "title": "Relight operation and30credits",
+    "publisher": "Adobe",
+    "publishedAt": "2026-11-10",
+    "observedAt": "2026-11-11T09:16:34.042051+00:00",
+    "number": 31
+  },
+  {
+    "url": "https://helpx.adobe.com/photoshop/desktop/create-open-import-images/create-images/fine-tune-image-attributes-with-generative-restyle.html",
+    "title": "Restyle workflow and80credits",
+    "publisher": "Adobe",
+    "publishedAt": "2026-11-10",
+    "observedAt": "2026-11-11T09:16:34.042051+00:00",
+    "number": 32
+  },
+  {
+    "url": "https://helpx.adobe.com/photoshop/desktop/get-started/learn-the-basics/compare-edits-with-quick-compare.html",
+    "title": "QuickCompare modes",
+    "publisher": "Adobe",
+    "publishedAt": "2026-11-10",
+    "observedAt": "2026-11-11T09:16:34.042051+00:00",
+    "number": 33
+  },
+  {
+    "url": "https://blog.adobe.com/en/publish/2026/11/10/explore-new-ways-create-across-creative-cloud-adobe-firefly-while-advancing-craft-precision-choice-control",
+    "title": "MAX product availability distinctions",
+    "publisher": "Adobe",
+    "publishedAt": "2026-11-10",
+    "observedAt": "2026-11-11T09:16:34.042051+00:00",
+    "number": 34
+  },
+  {
+    "url": "https://helpx.adobe.com/premiere/desktop/whats-new/release-notes.html",
+    "title": "Premiere27.0 release notes",
+    "publisher": "Adobe",
+    "publishedAt": "2026-11-10",
+    "observedAt": "2026-11-11T09:16:34.042051+00:00",
+    "number": 35
+  },
+  {
+    "url": "https://helpx.adobe.com/premiere/desktop/edit-projects/edit-with-generative-ai/generative-media-tool-faq.html",
+    "title": "GenerativeMedia workflow cloud credits and eligibility",
+    "publisher": "Adobe",
+    "publishedAt": "2026-11-10",
+    "observedAt": "2026-11-11T09:16:34.042051+00:00",
+    "number": 36
+  },
+  {
+    "url": "https://helpx.adobe.com/premiere/desktop/edit-projects/edit-with-generative-ai/add-generated-soundscape-to-your-timeline.html",
+    "title": "Soundscape four-track operation",
+    "publisher": "Adobe",
+    "publishedAt": "2026-11-10",
+    "observedAt": "2026-11-11T09:16:34.042051+00:00",
+    "number": 37
+  },
+  {
+    "url": "https://helpx.adobe.com/premiere/desktop/add-audio-effects/basic-audio-editing/separate-overlapping-speakers.html",
+    "title": "Crosstalk operation and credits",
+    "publisher": "Adobe",
+    "publishedAt": "2026-11-10",
+    "observedAt": "2026-11-11T09:16:34.042051+00:00",
+    "number": 38
+  },
+  {
+    "url": "https://helpx.adobe.com/premiere/desktop/correct-color/color-mode-fundamentals/lumetri-color.html",
+    "title": "Lumetri compatibility migration",
+    "publisher": "Adobe",
+    "publishedAt": "2026-11-10",
+    "observedAt": "2026-11-11T09:16:34.042051+00:00",
+    "number": 39
+  },
+  {
+    "url": "https://helpx.adobe.com/premiere/desktop/edit-projects/edit-with-generative-ai/generate-media-with-generative-media-tool.html",
+    "title": "Generation input range and reference workflow",
+    "publisher": "Adobe",
+    "publishedAt": "2026-11-10",
+    "observedAt": "2026-11-11T09:17:40.109239+00:00",
+    "number": 40
+  },
+  {
+    "url": "https://helpx.adobe.com/premiere/desktop/edit-projects/edit-with-generative-ai/about-cloud-based-ai-voice-features.html",
+    "title": "Cloud voice processing boundaries",
+    "publisher": "Adobe",
+    "publishedAt": "2026-09-24",
+    "observedAt": "2026-11-11T09:17:40.109260+00:00",
+    "number": 41
+  },
+  {
+    "url": "https://getsnipkit.com/changelog",
+    "title": "0.4.16 dated change log",
+    "publisher": "Snipkit",
+    "publishedAt": "2026-11-08",
+    "observedAt": "2026-11-11T09:11:07Z",
+    "number": 42
+  },
+  {
+    "url": "https://getsnipkit.com/",
+    "title": "Product workflow and US-dollar pricing",
+    "publisher": "Snipkit",
+    "observedAt": "2026-11-11T09:11:07Z",
+    "number": 43
+  },
+  {
+    "url": "https://getsnipkit.com/download",
+    "title": "Compatibility and setup",
+    "publisher": "Snipkit",
+    "observedAt": "2026-11-11T09:11:07Z",
+    "number": 44
+  },
+  {
+    "url": "https://getsnipkit.com/privacy",
+    "title": "Local processing and optional share boundaries",
+    "publisher": "Snipkit",
+    "publishedAt": "2026-10-03",
+    "observedAt": "2026-11-11T09:11:07Z",
+    "number": 45
+  },
+  {
+    "url": "https://www.reddit.com/r/macapps/comments/1xpqxim/snipkit_update_the_screenshot_manager_you_can/",
+    "title": "Maker post and visible user friction",
+    "publisher": "Reddit r/macapps",
+    "observedAt": "2026-11-11T09:11:07Z",
+    "number": 46
+  },
+  {
+    "url": "https://blog.google/products-and-platforms/devices/pixel/november-2026-pixel-drop/",
+    "title": "November Pixel Drop",
+    "publisher": "Google",
+    "publishedAt": "2026-11-10",
+    "observedAt": "2026-11-11T09:15:50.795540+00:00",
+    "number": 47
+  },
+  {
+    "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+    "title": "Gemini Intelligence: New features, on more devices",
+    "publisher": "Google Android",
+    "publishedAt": "2026-11-10",
+    "observedAt": "2026-11-11T09:15:50.795540+00:00",
+    "number": 48
+  },
+  {
+    "url": "https://m.sohu.com/a/1099734247_161795",
+    "title": "Stock sales announcement",
+    "publisher": "Southern Metropolis Daily via Sohu",
+    "publishedAt": "2026-11-10",
+    "observedAt": "2026-11-11T09:10:59.085150+00:00",
+    "number": 49
+  },
+  {
+    "url": "https://www.mondorobotics.com/products/beni-camera-robot",
+    "title": "Beni official store and specifications",
+    "publisher": "Mondo Robotics",
+    "observedAt": "2026-11-11T09:10:59.085150+00:00",
+    "number": 50
+  },
+  {
+    "url": "https://www.mondorobotics.com/zh/pages/support/product-tutorials",
+    "title": "Product tutorials and FAQs",
+    "publisher": "Mondo Robotics",
+    "observedAt": "2026-11-11T09:10:59.085150+00:00",
+    "number": 51
+  },
+  {
+    "url": "https://www.mondorobotics.com/zh/pages/support",
+    "title": "Support center",
+    "publisher": "Mondo Robotics",
+    "observedAt": "2026-11-11T09:10:59.085150+00:00",
+    "number": 52
+  },
+  {
+    "url": "https://www.mondorobotics.com/",
+    "title": "Beni homepage",
+    "publisher": "Mondo Robotics",
+    "observedAt": "2026-11-11T09:10:59.085150+00:00",
+    "number": 53
+  },
+  {
+    "url": "https://www.globenewswire.com/news-release/2026/11/10/3399804/0/en/aroti-introduces-27-gram-r1-ai-ar-glasses-ahead-of-november-16-kickstarter-launch.html",
+    "title": "AROTI Introduces 27-Gram R1 AI+AR Glasses",
+    "publisher": "AROTI / GlobeNewswire",
+    "publishedAt": "2026-11-10T15:00:00Z",
+    "observedAt": "2026-11-11T09:15:50.795540+00:00",
+    "number": 54
+  },
+  {
+    "url": "https://www.aboutamazon.com/news/devices/ring-drone-cam-rover-cam-security-robot",
+    "title": "Ring announces Ring Robotics",
+    "publisher": "Amazon",
+    "publishedAt": "2026-11-10",
+    "observedAt": "2026-11-11T09:15:50.795540+00:00",
+    "number": 55
+  },
+  {
+    "url": "https://ring.com/products/rover-cam",
+    "title": "Rover Cam product specifications",
+    "publisher": "Ring",
+    "observedAt": "2026-11-11T09:15:50.795540+00:00",
+    "number": 56
+  },
+  {
+    "url": "https://www.theverge.com/tech/1030601/ring-drone-cam-hands-on-price-release-date-ai-pilot",
+    "title": "Hands-on with Ring new AI drone camera",
+    "publisher": "The Verge",
+    "publishedAt": "2026-11-10",
+    "observedAt": "2026-11-11T09:15:50.795540+00:00",
+    "number": 57
+  },
+  {
+    "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+    "title": "Practice Makes Precise: CoRL robotics updates",
+    "publisher": "NVIDIA",
+    "publishedAt": "2026-11-09",
+    "observedAt": "2026-11-11T09:15:50.795540+00:00",
+    "number": 58
+  },
+  {
+    "url": "https://research.nvidia.com/labs/gear/gr00t-2/",
+    "title": "GR00T 2 research page",
+    "publisher": "NVIDIA Research",
+    "publishedAt": "2026-11",
+    "observedAt": "2026-11-11T09:15:50.795540+00:00",
+    "number": 59
+  },
+  {
+    "url": "https://antigravity.google/blog/gemini-4-carbon-in-google-antigravity/",
+    "title": "Gemini 4 Carbon and /swarm",
+    "publisher": "Google",
+    "publishedAt": "2026-11-10T08:00:00Z",
+    "observedAt": "2026-11-11T09:14:00Z",
+    "number": 60
+  },
+  {
+    "url": "https://antigravity.google/docs/swarm",
+    "title": "Swarm documentation",
+    "publisher": "Google",
+    "publishedAt": "2026-11-10",
+    "observedAt": "2026-11-11T09:14:00Z",
+    "number": 61
+  },
+  {
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+    "title": "Gemini 4 Carbon is now available",
+    "publisher": "Google",
+    "publishedAt": "2026-11-10",
+    "observedAt": "2026-11-11T09:14:00Z",
+    "number": 62
+  },
+  {
+    "url": "https://docs.cloud.google.com/release-notes",
+    "title": "November 10 Agent Platform Workbench release notes",
+    "publisher": "Google Cloud",
+    "publishedAt": "2026-11-10",
+    "observedAt": "2026-11-11T09:18:00Z",
+    "number": 63
+  },
+  {
+    "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.38.0",
+    "title": "v1.38.0 release",
+    "publisher": "OpenHands",
+    "publishedAt": "2026-11-10T04:59:49Z",
+    "observedAt": "2026-11-11T09:09:30Z",
+    "number": 64
+  },
+  {
+    "url": "https://github.com/OpenHands/OpenHands/pull/19421",
+    "title": "Agent profile capability and selection",
+    "publisher": "OpenHands",
+    "observedAt": "2026-11-11T09:09:30Z",
+    "number": 65
+  },
+  {
+    "url": "https://github.com/OpenHands/OpenHands/pull/19453",
+    "title": "Executable plugin configuration editor",
+    "publisher": "OpenHands",
+    "observedAt": "2026-11-11T09:09:30Z",
+    "number": 66
+  },
+  {
+    "url": "https://github.com/OpenHands/OpenHands/pull/18533",
+    "title": "Conversation budget display and limitations",
+    "publisher": "OpenHands",
+    "observedAt": "2026-11-11T09:09:30Z",
+    "number": 67
+  },
+  {
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/releases/tags/v1.38.0",
+    "title": "Original release timestamp metadata",
+    "publisher": "GitHub / project maintainer",
+    "publishedAt": "2026-11-10T04:59:49Z",
+    "observedAt": "2026-11-11T09:06:00Z",
+    "number": 68
+  },
+  {
+    "url": "https://github.com/aaif-goose/goose/releases/tag/v1.59.0",
+    "title": "v1.59.0 release",
+    "publisher": "goose",
+    "publishedAt": "2026-11-10T17:17:02Z",
+    "observedAt": "2026-11-11T09:09:30Z",
+    "number": 69
+  },
+  {
+    "url": "https://github.com/aaif-goose/goose/pull/13169",
+    "title": "Reusable hook and approval operations",
+    "publisher": "goose",
+    "observedAt": "2026-11-11T09:09:30Z",
+    "number": 70
+  },
+  {
+    "url": "https://raw.githubusercontent.com/aaif-goose/goose/v1.59.0/crates/goose-agent/README.md",
+    "title": "Pinned GDK state machine contract",
+    "publisher": "goose",
+    "observedAt": "2026-11-11T09:09:30Z",
+    "number": 71
+  },
+  {
+    "url": "https://github.com/aaif-goose/goose/pull/13106",
+    "title": "Resume completed delegates",
+    "publisher": "goose",
+    "observedAt": "2026-11-11T09:09:30Z",
+    "number": 72
+  },
+  {
+    "url": "https://api.github.com/repos/aaif-goose/goose/releases/tags/v1.59.0",
+    "title": "Original release timestamp metadata",
+    "publisher": "GitHub / project maintainer",
+    "publishedAt": "2026-11-10T17:17:02Z",
+    "observedAt": "2026-11-11T09:06:00Z",
+    "number": 73
+  },
+  {
+    "url": "https://docs.uipath.com/pt-BR/agents/automation-cloud/latest/release-notes/november-2026",
+    "title": "November10 GA announcement",
+    "publisher": "UiPath",
+    "publishedAt": "2026-11-10",
+    "observedAt": "2026-11-11T09:09:30Z",
+    "number": 74
+  },
+  {
+    "url": "https://docs.uipath.com/pt-BR/agents/automation-cloud/latest/user-guide/conversational-agents-chat",
+    "title": "Chat build paths",
+    "publisher": "UiPath",
+    "observedAt": "2026-11-11T09:09:30Z",
+    "number": 75
+  },
+  {
+    "url": "https://docs.uipath.com/pt-BR/maestro/automation-cloud/latest/user-guide/build-a-chat-agent-workflow",
+    "title": "Build and debug a chat flow",
+    "publisher": "UiPath",
+    "observedAt": "2026-11-11T09:09:30Z",
+    "number": 76
+  },
+  {
+    "url": "https://docs.uipath.com/pt-BR/maestro/automation-cloud/latest/user-guide/conversational-chat",
+    "title": "Chat nodes and channels",
+    "publisher": "UiPath",
+    "observedAt": "2026-11-11T09:09:30Z",
+    "number": 77
+  },
+  {
+    "url": "https://docs.uipath.com/pt-BR/agents/automation-cloud/latest/user-guide/conversational-agents-licensing",
+    "title": "Licensing and consumption",
+    "publisher": "UiPath",
+    "observedAt": "2026-11-11T09:09:30Z",
+    "number": 78
+  },
+  {
+    "url": "https://developer.chrome.com/blog/modern-web-guidance-v1",
+    "title": "Stable 1.0 announcement",
+    "publisher": "Google Chrome",
+    "publishedAt": "2026-11-10",
+    "observedAt": "2026-11-11T09:09:30Z",
+    "number": 79
+  },
+  {
+    "url": "https://developer.chrome.com/docs/modern-web-guidance/modernization-workflow",
+    "title": "Modernization workflow and limitations",
+    "publisher": "Google Chrome",
+    "observedAt": "2026-11-11T09:09:30Z",
+    "number": 80
+  },
+  {
+    "url": "https://developer.chrome.com/docs/modern-web-guidance",
+    "title": "Product and integration overview",
+    "publisher": "Google Chrome",
+    "observedAt": "2026-11-11T09:09:30Z",
+    "number": 81
+  },
+  {
+    "url": "https://ernie.baidu.com/zh/research/posts/ernie-evolve/",
+    "title": "ERNIE Evolve research disclosure",
+    "publisher": "Baidu ERNIE",
+    "publishedAt": "2026-11-09",
+    "observedAt": "2026-11-11T09:13:35.558440+00:00",
+    "number": 82
+  },
+  {
+    "url": "https://github.com/ernie-research/ERNIE-Evolve-Results",
+    "title": "ERNIE Evolve Results repository",
+    "publisher": "Baidu ernie-research",
+    "observedAt": "2026-11-11T09:13:35.558440+00:00",
+    "number": 83
+  },
+  {
+    "url": "https://ernie.baidu.com/research/",
+    "title": "Research index",
+    "publisher": "Baidu ERNIE",
+    "observedAt": "2026-11-11T09:13:35.558440+00:00",
+    "number": 84
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.13640",
+    "title": "EyeQ original abstract and submission history",
+    "publisher": "EyeQ authors / arXiv",
+    "publishedAt": "2026-11-10T06:34:37Z",
+    "observedAt": "2026-11-11T09:10:00Z",
+    "number": 85
+  },
+  {
+    "url": "https://arxiv.org/html/2611.13640v1",
+    "title": "EyeQ full paper: system and evaluation",
+    "publisher": "EyeQ authors / arXiv",
+    "publishedAt": "2026-11-10T06:34:37Z",
+    "observedAt": "2026-11-11T09:10:00Z",
+    "number": 86
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.14260",
+    "title": "Lilo original abstract and submission history",
+    "publisher": "Lilo authors / arXiv",
+    "publishedAt": "2026-11-10T16:07:13Z",
+    "observedAt": "2026-11-11T09:10:00Z",
+    "number": 87
+  },
+  {
+    "url": "https://arxiv.org/html/2611.14260v1",
+    "title": "Lilo full paper: system and evaluation",
+    "publisher": "Lilo authors / arXiv",
+    "publishedAt": "2026-11-10T16:07:13Z",
+    "observedAt": "2026-11-11T09:10:00Z",
+    "number": 88
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.13287",
+    "title": "Project Progress Desk original abstract and submission history",
+    "publisher": "Project Progress Desk authors / arXiv",
+    "publishedAt": "2026-11-09T21:53:26Z",
+    "observedAt": "2026-11-11T09:10:00Z",
+    "number": 89
+  },
+  {
+    "url": "https://arxiv.org/html/2611.13287v1",
+    "title": "Project Progress Desk full paper: system and evaluation",
+    "publisher": "Project Progress Desk authors / arXiv",
+    "publishedAt": "2026-11-09T21:53:26Z",
+    "observedAt": "2026-11-11T09:10:00Z",
+    "number": 90
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.13178",
+    "title": "Scene by Scene / Ad Review and Edit original abstract and submission history",
+    "publisher": "Scene by Scene / Ad Review and Edit authors / arXiv",
+    "publishedAt": "2026-11-09T20:00:23Z",
+    "observedAt": "2026-11-11T09:10:00Z",
+    "number": 91
+  },
+  {
+    "url": "https://arxiv.org/html/2611.13178v1",
+    "title": "Scene by Scene / Ad Review and Edit full paper: system and evaluation",
+    "publisher": "Scene by Scene / Ad Review and Edit authors / arXiv",
+    "publishedAt": "2026-11-09T20:00:23Z",
+    "observedAt": "2026-11-11T09:10:00Z",
+    "number": 92
+  },
+  {
+    "url": "https://github.com/anoubhav/ad-review-and-edit",
+    "title": "Original author public review template and data repository",
+    "publisher": "Anoubhav Agarwaal / Anoki authors",
+    "observedAt": "2026-11-11T09:08:35Z",
+    "number": 93
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.13386",
+    "title": "AI Sandbox / mlguide original abstract and submission history",
+    "publisher": "AI Sandbox / mlguide authors / arXiv",
+    "publishedAt": "2026-11-10T00:02:31Z",
+    "observedAt": "2026-11-11T09:10:00Z",
+    "number": 94
+  },
+  {
+    "url": "https://arxiv.org/html/2611.13386v1",
+    "title": "AI Sandbox / mlguide full paper: system and evaluation",
+    "publisher": "AI Sandbox / mlguide authors / arXiv",
+    "publishedAt": "2026-11-10T00:02:31Z",
+    "observedAt": "2026-11-11T09:10:00Z",
+    "number": 95
+  },
+  {
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark/",
+    "title": "Introducing the Multimodal Knowledge Agent benchmark",
+    "publisher": "Google DeepMind",
+    "publishedAt": "2026-11-10",
+    "observedAt": "2026-11-11T09:17:59Z",
+    "number": 96
+  },
+  {
+    "url": "https://storage.googleapis.com/deepmind-media/papers/mka_tech_paper.pdf",
+    "title": "MKA: Evaluating Multimodal Knowledge Agents on end-to-end professional tasks",
+    "publisher": "Google DeepMind authors",
+    "publishedAt": "2026-11-10",
+    "observedAt": "2026-11-11T09:17:59Z",
+    "number": 97
+  },
+  {
+    "url": "https://huggingface.co/datasets/google/multimodal-knowledge-agent",
+    "title": "MKA — 10 Showcase Examples dataset card",
+    "publisher": "Google / Hugging Face",
+    "observedAt": "2026-11-11T09:17:59Z",
+    "number": 98
+  },
+  {
+    "url": "https://artificialanalysis.ai/evaluations/mka",
+    "title": "Multimodal Knowledge Agent benchmark evaluation",
+    "publisher": "Artificial Analysis",
+    "observedAt": "2026-11-11T09:17:59Z",
+    "number": 99
+  }
+]

@@ -10505,6 +10505,436 @@
     "sha256": "a1a054309356a33a67a25a71dad05ce6fdfabbf056915622ac857bef603ff141"
   },
   {
+    "path": "2026-11-11/assets/ai-sandbox.jpg",
+    "bytes": 46841,
+    "sha256": "6c8500e790da7d632b5529851ee36e26bcda953996e308312d3be4443ea89542"
+  },
+  {
+    "path": "2026-11-11/assets/antigravity.jpg",
+    "bytes": 169907,
+    "sha256": "c40dca1168a55b9fc7baad9f1a1b6c66263c5ef8b36da3fe4baa39dd892d0bf3"
+  },
+  {
+    "path": "2026-11-11/assets/aroti.jpg",
+    "bytes": 87589,
+    "sha256": "fcdd288bfcc8a49c1db42e29167b678d257336abbf133fbbe64d09f981440d36"
+  },
+  {
+    "path": "2026-11-11/assets/beni.jpg",
+    "bytes": 198631,
+    "sha256": "8c77132b9ce80883c3ad954235bbf83460909944d4733b3499dd74d2f2d4c097"
+  },
+  {
+    "path": "2026-11-11/assets/chromeping-detail-0.jpg",
+    "bytes": 105338,
+    "sha256": "a98c24a9808a19aac6231f8c0d8b52b6af8a19587a675f6f2e9f0708360c309b"
+  },
+  {
+    "path": "2026-11-11/assets/claude-frame2.jpg",
+    "bytes": 12400,
+    "sha256": "04eeeeb9fa20765cffb73de6ba5778db1cc013476a68d95fadb95e03ca9aedf0"
+  },
+  {
+    "path": "2026-11-11/assets/clive-detail-1.jpg",
+    "bytes": 55709,
+    "sha256": "cda5293fe27cd444c27957d2b96ce922226392dab9fb52f17c405075e0d2318a"
+  },
+  {
+    "path": "2026-11-11/assets/deck.js",
+    "bytes": 2576,
+    "sha256": "63d13c06452d7405e0b5ed572d8464d802c9e5b8de656b5a94e3527b1730f7b3"
+  },
+  {
+    "path": "2026-11-11/assets/ernie-evolve.jpg",
+    "bytes": 126943,
+    "sha256": "b4cb3fae95f26913ac8cdd52c081ea8e28847055b1e5a48391833c4620cfc147"
+  },
+  {
+    "path": "2026-11-11/assets/eyeq.jpg",
+    "bytes": 115343,
+    "sha256": "53b339f4bd865467267813758959c9c3abe0e816e7287d3d89abb52b88aff658"
+  },
+  {
+    "path": "2026-11-11/assets/firefly-design.jpg",
+    "bytes": 87391,
+    "sha256": "93d58ff584b0db05068cf9b63fa3d892f4d05e889c6b689d751eb9881e0e574b"
+  },
+  {
+    "path": "2026-11-11/assets/goose-159-hooks-resume.png",
+    "bytes": 56316,
+    "sha256": "2b6ffb877bb286dbf9958685c0cd605172227a83a8df3c4ba108ecf5987121b6"
+  },
+  {
+    "path": "2026-11-11/assets/groot2-core.jpg",
+    "bytes": 46102,
+    "sha256": "1e83822556330bb640260fff9f2547d4f72df07a83a42e88f324fc2e42b00a98"
+  },
+  {
+    "path": "2026-11-11/assets/issue.css",
+    "bytes": 10323,
+    "sha256": "e2aad62eb7ee51f4ad64545f610e505d499f1c365784cf1b19baf9d593ba4c1a"
+  },
+  {
+    "path": "2026-11-11/assets/lilo.jpg",
+    "bytes": 164948,
+    "sha256": "937de9e2773909045b4b140fb286ea5815a5941f1fd0c6f1f7d7a137564a57a0"
+  },
+  {
+    "path": "2026-11-11/assets/lottie-detail-0.jpg",
+    "bytes": 116244,
+    "sha256": "318ce8f7bba9d52830ab7b5aa24202d7aa6a3a5afd36ed1a3df1d9cb7325896c"
+  },
+  {
+    "path": "2026-11-11/assets/mka-scope.jpg",
+    "bytes": 73707,
+    "sha256": "d71bc80120df45ad2f7e4fb556045fab8aa17595b5d2a1d8349eafa9cf0b3fef"
+  },
+  {
+    "path": "2026-11-11/assets/modern-web-guidance-10.png",
+    "bytes": 59540,
+    "sha256": "5db198161d2a2294ce3cbc7a9e702dae3b95a944f2ca49f540d6b5800d9699d3"
+  },
+  {
+    "path": "2026-11-11/assets/openhands-budget.png",
+    "bytes": 102241,
+    "sha256": "435f9853c56f805e80b4d1c1d1443126d6c2fb38dd38d9d2de41e2bfa5711eca"
+  },
+  {
+    "path": "2026-11-11/assets/photoshop-restyle.jpg",
+    "bytes": 107521,
+    "sha256": "f26d1acd8ffc76c731c11f117872688ed57deb484a7e41f7ee5cc697e69462b8"
+  },
+  {
+    "path": "2026-11-11/assets/pixel-screen.jpg",
+    "bytes": 48476,
+    "sha256": "6a8f4e2b6c3e5d5e5b9a16d9f8400cab3cea6e054a75bf5af8263497f5d00801"
+  },
+  {
+    "path": "2026-11-11/assets/premiere-crosstalk.jpg",
+    "bytes": 66644,
+    "sha256": "39d0f6ed404bd4011776de45e48e185a43ea09a323226656fe9c75ee2d2308d1"
+  },
+  {
+    "path": "2026-11-11/assets/progress-desk.jpg",
+    "bytes": 47067,
+    "sha256": "100c12a29022f2b716ce263bba8f964031677204f0d17cc2e62d5ed1423ce075"
+  },
+  {
+    "path": "2026-11-11/assets/ring-drone.jpg",
+    "bytes": 101312,
+    "sha256": "f1fb6f5eb67fd81bf3fd4382144154ead449a9b16d1177efa31af47d1101b289"
+  },
+  {
+    "path": "2026-11-11/assets/snipkit.jpg",
+    "bytes": 220870,
+    "sha256": "d41288b4c3e288f34da581890285f7d3f95c4e0e3ee94ce43f9ed348ac125114"
+  },
+  {
+    "path": "2026-11-11/assets/tk.jpg",
+    "bytes": 170809,
+    "sha256": "e7a95cdc46761592fe7605be74b1d704177e289a952e535bc431c7e67e93ba20"
+  },
+  {
+    "path": "2026-11-11/assets/uipath.jpg",
+    "bytes": 141646,
+    "sha256": "5e84a95e0f8f3d1e87813a08f70429f13e89c28f54f8f75956d35320382de1b6"
+  },
+  {
+    "path": "2026-11-11/assets/video-ad-review.jpg",
+    "bytes": 56268,
+    "sha256": "83a6e543376af6bae36a48a8c5fe04ca940716416cce548fabfb1db3f83bb6d5"
+  },
+  {
+    "path": "2026-11-11/en/details/ad-review-scene-repair.html",
+    "bytes": 6413,
+    "sha256": "5459b9527f8ba5b18a8c1a0bc5d5aded435f3f855f4a8d31ab33335d2f660123"
+  },
+  {
+    "path": "2026-11-11/en/details/antigravity-carbon-swarm.html",
+    "bytes": 7189,
+    "sha256": "806926c06966f47f98cfaf943caf1ca2cce402ab34a8666b49457478a87d751a"
+  },
+  {
+    "path": "2026-11-11/en/details/aroti-r1-camera-free-preview.html",
+    "bytes": 6342,
+    "sha256": "3d791057670ef2ff05822cb24fc6b5ab5d32e52f17c5b46d850195adf085b8c5"
+  },
+  {
+    "path": "2026-11-11/en/details/beni-availability-stock-sale.html",
+    "bytes": 6482,
+    "sha256": "a4fc2ef0086c6c91e013c54d39974807544993bc6ea92d6bc6e35188bb1955ef"
+  },
+  {
+    "path": "2026-11-11/en/details/chromeping-translated-phone-calls.html",
+    "bytes": 6207,
+    "sha256": "3a6689798680c38d7235c12a93c9dd08b6b9f30ce57ddb82213ce30fc4f5a237"
+  },
+  {
+    "path": "2026-11-11/en/details/claude-shared-workspace-artifacts.html",
+    "bytes": 7582,
+    "sha256": "3e65e759e8594df0e5c26d5b15f766df50b9b1adc23f78fd8341e7651961183d"
+  },
+  {
+    "path": "2026-11-11/en/details/clive-confirmed-iphone-alarms.html",
+    "bytes": 6409,
+    "sha256": "4cbd7ff62cbdb196f359422ed6b202faeb4f5ed6a954fa43d8ebcbad1401cbce"
+  },
+  {
+    "path": "2026-11-11/en/details/ernie-evolve-research-results.html",
+    "bytes": 6557,
+    "sha256": "2339dbcd18ab4cf22149cade5f42d2412c73addac2e53f28c4d2817ba604f09a"
+  },
+  {
+    "path": "2026-11-11/en/details/eyeq-corneal-context.html",
+    "bytes": 6375,
+    "sha256": "9498569ed89bd79305ac7e9c3455f36cc9e6367e852aaeec146dd8f4964035b5"
+  },
+  {
+    "path": "2026-11-11/en/details/firefly-creative-studio-plan-mode.html",
+    "bytes": 7314,
+    "sha256": "dd23ca977e5724e29e1b0676224017027c68f6abe27ac7685e16700e5202b9bc"
+  },
+  {
+    "path": "2026-11-11/en/details/goose-159-hooks-resume.html",
+    "bytes": 6242,
+    "sha256": "02a5f5203a7adaa9720ff28b1544b13bc5c01ad547bc45ae6bc8649a5539121e"
+  },
+  {
+    "path": "2026-11-11/en/details/groot2-world-action-corl.html",
+    "bytes": 6492,
+    "sha256": "578c77b7bce554e948797afb8e4ecb094c4879f08e92db18d97431cb6722ee2a"
+  },
+  {
+    "path": "2026-11-11/en/details/lilo-peer-conflict-rehearsal.html",
+    "bytes": 6333,
+    "sha256": "217820f666787531a8b85aa7dae45818e052e22384a1f6bcb0566e210514d5d2"
+  },
+  {
+    "path": "2026-11-11/en/details/lottie-ai-editable-motion.html",
+    "bytes": 6432,
+    "sha256": "9138ddf1255240a8c490e2b4a50a2adb39d331cc68db2f6be2bbf9c91aae5a5e"
+  },
+  {
+    "path": "2026-11-11/en/details/medium-tk-inline-notebook.html",
+    "bytes": 6570,
+    "sha256": "770ddb1e526db57d738767c1860dce2a1f97aa1a74a57dc7501e45553881c5c5"
+  },
+  {
+    "path": "2026-11-11/en/details/mka-visual-knowledge-benchmark.html",
+    "bytes": 6729,
+    "sha256": "38e252b8cf10827aedf52dc7eace7d1dadbc76adbf837556afc0defd358435aa"
+  },
+  {
+    "path": "2026-11-11/en/details/mlguide-sandbox-workflow.html",
+    "bytes": 6383,
+    "sha256": "3c35e519fb9e3945712ce327613a0dd64c10c193bf352729bc0260377723ad80"
+  },
+  {
+    "path": "2026-11-11/en/details/modern-web-guidance-10.html",
+    "bytes": 6464,
+    "sha256": "77536763d1da9333def5ae24358af739093aa4d83a4ee3fb5f3d227a37f0f507"
+  },
+  {
+    "path": "2026-11-11/en/details/openhands-138-profile-budget.html",
+    "bytes": 5978,
+    "sha256": "15bd5c98563075b8ec375174a9506a987747f4c6ada4bf96e8cb0d43b1c912db"
+  },
+  {
+    "path": "2026-11-11/en/details/photoshop-280-relight-restyle.html",
+    "bytes": 6971,
+    "sha256": "057b912f0b668d9e26e2619377699e0025aeb9210ce796b9fb13f38add335be1"
+  },
+  {
+    "path": "2026-11-11/en/details/pixel-november-drop-2026.html",
+    "bytes": 6414,
+    "sha256": "73f424381ad1fba2932c845e5aeb838274d7f5c2d520abc4441f458bcd41ca62"
+  },
+  {
+    "path": "2026-11-11/en/details/premiere-270-timeline-audio.html",
+    "bytes": 8646,
+    "sha256": "521c9417a30648ff9ed3d2027a94b8dc226cee16a9e1081c8172d1cafc623ee9"
+  },
+  {
+    "path": "2026-11-11/en/details/project-progress-desk-receipts.html",
+    "bytes": 6295,
+    "sha256": "3f043ca8e1cd3f743aafa9ebd674f83fccb8b4b35babc56a47a909f4f7096871"
+  },
+  {
+    "path": "2026-11-11/en/details/ring-robotics-drone-rover-announcement.html",
+    "bytes": 6257,
+    "sha256": "0048638c70ed52a6b7cff733315cab6648925883ef4652190a095ce6e38539dc"
+  },
+  {
+    "path": "2026-11-11/en/details/snipkit-0416-import-shortcuts.html",
+    "bytes": 6596,
+    "sha256": "b3e439d18897c31c24f8d501ff8f15b41544087c977c67d7419d1d2dd22e4374"
+  },
+  {
+    "path": "2026-11-11/en/details/uipath-flow-chat-ga.html",
+    "bytes": 6762,
+    "sha256": "3edb4f83672a1c49c5ef227c4c2c3a30b986f061da2a4f1e8ef287e48176f7c5"
+  },
+  {
+    "path": "2026-11-11/en/index.html",
+    "bytes": 79829,
+    "sha256": "2ac7903d517699c59a89d2b62fdbf0f50c3ef7857e3a71b52cc38850f425e2d6"
+  },
+  {
+    "path": "2026-11-11/manifest.json",
+    "bytes": 30841,
+    "sha256": "a9ad6685682fd0fb8ad98c68074a57cd5dec891853d2939ee04c2457259819fb"
+  },
+  {
+    "path": "2026-11-11/sources.html",
+    "bytes": 60956,
+    "sha256": "66284c90ede2ba5185172eeb72be4cd52a7430ca9e7bbe61e14563f55941c8d2"
+  },
+  {
+    "path": "2026-11-11/sources.json",
+    "bytes": 25970,
+    "sha256": "e0d31d181eda679ff7c582af7f61b548065743f05ad5df68e7c547719b4070d3"
+  },
+  {
+    "path": "2026-11-11/visuals.json",
+    "bytes": 19531,
+    "sha256": "d8d2b29c16d612b4feb70bc7b95a862f738d878c4ad10095d439a08d56829f1a"
+  },
+  {
+    "path": "2026-11-11/zh/details/ad-review-scene-repair.html",
+    "bytes": 5878,
+    "sha256": "78c41c5176d6c056af3515d573ebd12998607b221772c7fd9a9049ad8a53b842"
+  },
+  {
+    "path": "2026-11-11/zh/details/antigravity-carbon-swarm.html",
+    "bytes": 7041,
+    "sha256": "7721966628597312c415fa2bbdc6df2ca96a832c0514f93fce43d29a472eb84c"
+  },
+  {
+    "path": "2026-11-11/zh/details/aroti-r1-camera-free-preview.html",
+    "bytes": 5738,
+    "sha256": "6c02cb3094ec20a7c93ed0beca6eb0913668634b8d96af3effe10a018a1c3b3d"
+  },
+  {
+    "path": "2026-11-11/zh/details/beni-availability-stock-sale.html",
+    "bytes": 6101,
+    "sha256": "c3f189451547d25a6fc6b7d4ba9510773435aa0df4ffaf24fea7633bd2008862"
+  },
+  {
+    "path": "2026-11-11/zh/details/chromeping-translated-phone-calls.html",
+    "bytes": 5679,
+    "sha256": "cc3567b081c80ca69ad80a7ebd1451dbad2f5cf85812f7080c6691c03976e55d"
+  },
+  {
+    "path": "2026-11-11/zh/details/claude-shared-workspace-artifacts.html",
+    "bytes": 7133,
+    "sha256": "05775638422a715c1bca48d479f2ab6b3f8a2146e3d24427cf0bb2968770e515"
+  },
+  {
+    "path": "2026-11-11/zh/details/clive-confirmed-iphone-alarms.html",
+    "bytes": 5836,
+    "sha256": "2d4fd6f4eb3774828d34b0fd27d7f4d47dc8d61ecd370f1c3b2673fca320df86"
+  },
+  {
+    "path": "2026-11-11/zh/details/ernie-evolve-research-results.html",
+    "bytes": 5874,
+    "sha256": "1c14bc02286effbda7a52052600d88cb92cc5213edd1503e6bdd90a509a46a8e"
+  },
+  {
+    "path": "2026-11-11/zh/details/eyeq-corneal-context.html",
+    "bytes": 5806,
+    "sha256": "26519ec9cabd9763b08c809f1131848bd91fd66c2bbd99dbfeef4d713a3a87a9"
+  },
+  {
+    "path": "2026-11-11/zh/details/firefly-creative-studio-plan-mode.html",
+    "bytes": 6712,
+    "sha256": "c6489dd317524b97aa8a09923830bb3a41434bec6e4bdec194046d7eeaa8113e"
+  },
+  {
+    "path": "2026-11-11/zh/details/goose-159-hooks-resume.html",
+    "bytes": 5931,
+    "sha256": "887c62c66d8a13adc35c6988ab74afe5f850a4de574eddb8012fbd2519282128"
+  },
+  {
+    "path": "2026-11-11/zh/details/groot2-world-action-corl.html",
+    "bytes": 6052,
+    "sha256": "889a4abd1a5e73919b654b5807a47e049d44b8f35dddf76042bc5681661337f5"
+  },
+  {
+    "path": "2026-11-11/zh/details/lilo-peer-conflict-rehearsal.html",
+    "bytes": 5851,
+    "sha256": "91db4d4c07d406134a1bdc075471d852a7468d514ccdf9e7f03fd4504b609d32"
+  },
+  {
+    "path": "2026-11-11/zh/details/lottie-ai-editable-motion.html",
+    "bytes": 5847,
+    "sha256": "4f26daa01861512ff64db58709f762bc2f839c02cc5a03c4aec673e0de9e75f5"
+  },
+  {
+    "path": "2026-11-11/zh/details/medium-tk-inline-notebook.html",
+    "bytes": 6033,
+    "sha256": "40d2b5d986c6ce61ffc65d72c58c7353bd3dfc78c9110842586917d67c9d4b99"
+  },
+  {
+    "path": "2026-11-11/zh/details/mka-visual-knowledge-benchmark.html",
+    "bytes": 6429,
+    "sha256": "012c6da9234a061a28dd01a0d61ad4488c554100630035ada8438ea74d49a693"
+  },
+  {
+    "path": "2026-11-11/zh/details/mlguide-sandbox-workflow.html",
+    "bytes": 5806,
+    "sha256": "72ca9132f175fbeafa30698f6a9a2bb44868448e4714fdedbd3ff5b65a12c33d"
+  },
+  {
+    "path": "2026-11-11/zh/details/modern-web-guidance-10.html",
+    "bytes": 5904,
+    "sha256": "60f3cdc9f49634a5dff7f45e3d943a27c878e2543b825cca46e623d6b02efcdc"
+  },
+  {
+    "path": "2026-11-11/zh/details/openhands-138-profile-budget.html",
+    "bytes": 5613,
+    "sha256": "e947a06049c86ce9d34f0a01d9b3cb91daef36e782103fcb9bec2e7eaf3ab41e"
+  },
+  {
+    "path": "2026-11-11/zh/details/photoshop-280-relight-restyle.html",
+    "bytes": 6902,
+    "sha256": "d6f29a1b929c30d2ac0afdc7b205654d4e6a30af142da9687344670feab691ee"
+  },
+  {
+    "path": "2026-11-11/zh/details/pixel-november-drop-2026.html",
+    "bytes": 6010,
+    "sha256": "2401fdeeded2cbfd3fc948f02673b266dbcea00ce10747b30570c741b693d8dc"
+  },
+  {
+    "path": "2026-11-11/zh/details/premiere-270-timeline-audio.html",
+    "bytes": 8316,
+    "sha256": "c99cc19e709beb9b7b97cef6ea7b848aec649d871443377dd6829bc9bc6ceefa"
+  },
+  {
+    "path": "2026-11-11/zh/details/project-progress-desk-receipts.html",
+    "bytes": 5799,
+    "sha256": "10abf4d9d982e9428d60f26b5e5f69e16a38ee45ddf5fb438d262ecf012fb2b9"
+  },
+  {
+    "path": "2026-11-11/zh/details/ring-robotics-drone-rover-announcement.html",
+    "bytes": 5813,
+    "sha256": "782c92c5955629d17ca129d3a5aa704aa2f7dbe8dcdf6ecdeefef953707fcf27"
+  },
+  {
+    "path": "2026-11-11/zh/details/snipkit-0416-import-shortcuts.html",
+    "bytes": 6317,
+    "sha256": "c29813b53ea7065ca997f523237e43be2ac9bd308984fcff233b23096389c2f2"
+  },
+  {
+    "path": "2026-11-11/zh/details/uipath-flow-chat-ga.html",
+    "bytes": 6246,
+    "sha256": "c2930e9a35d7a2318eef8bffd57bd3379e53bc20d3a26de34bb61722a0226673"
+  },
+  {
+    "path": "2026-11-11/zh/index.html",
+    "bytes": 77155,
+    "sha256": "3f4461fea11177a2aee434a1ab3462ad9bbafed8684a44f264be785125b5fdb4"
+  },
+  {
     "path": "assets/acti-agentic-keyboard-2026-07-03.svg",
     "bytes": 2825,
     "sha256": "84ad9abb0a1191abde62dea383e6e1ed583fc089073d3ccaf91629044501721b"
@@ -10916,18 +11346,18 @@
   },
   {
     "path": "en/index.html",
-    "bytes": 184762,
-    "sha256": "e8b03cd7bffc59e120db1b1543ab8e9bd57ee96c1b0a3d575d42c2cff6dd0c09"
+    "bytes": 185920,
+    "sha256": "e80af6fba05a185b9e17fcf0b7b9e18b9debaf3f1f13fbd60f56e3280ecbfa09"
   },
   {
     "path": "index.html",
-    "bytes": 178453,
-    "sha256": "55c4c88841769dd9b29cfb89fb0d4759d4d071d5372585377a6fb84fb989a49b"
+    "bytes": 179589,
+    "sha256": "d05a0d5a0ed7221ac7a9e55dd61263a7d0fd868338c1f40f706f9b2989536d0c"
   },
   {
     "path": "manifest.json",
-    "bytes": 756349,
-    "sha256": "f03fee745e2ecbb4cb0264597398bda72ac752fa3dc1452bd8f9568fe570a58b"
+    "bytes": 757628,
+    "sha256": "9fab530983bded1394f7ec9471bf90f87682abd244e69aea8f3996766d770394"
   },
   {
     "path": "weekly/2026-10-12/pilot/en/index.html",

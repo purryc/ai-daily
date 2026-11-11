@@ -1,16 +1,1 @@
-[
-  {
-    "kind": "page",
-    "name": "pixel-screen.jpg",
-    "url": "https://blog.google/products-and-platforms/devices/pixel/november-2026-pixel-drop/",
-    "selector": "img[alt^=\"The Rambler feature\"]",
-    "locale": "zh"
-  },
-  {
-    "kind": "page",
-    "name": "mka-scope.jpg",
-    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark/",
-    "selector": "img[alt^=\"10 verticals\"]",
-    "locale": "en"
-  }
-]
+[]

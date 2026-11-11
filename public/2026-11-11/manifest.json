@@ -1,0 +1,670 @@
+{
+  "date": "2026-11-11",
+  "timezone": "America/Toronto",
+  "cutoff": "2026-11-11T09:03:21Z",
+  "windowStart": "2026-11-10T09:03:21Z",
+  "metrics": {
+    "body": {
+      "zhDenseChars": 19823,
+      "enWords": 11448
+    },
+    "perProduct": {
+      "clive-confirmed-iphone-alarms": {
+        "zh": 716,
+        "en": 451
+      },
+      "chromeping-translated-phone-calls": {
+        "zh": 715,
+        "en": 429
+      },
+      "medium-tk-inline-notebook": {
+        "zh": 709,
+        "en": 420
+      },
+      "lottie-ai-editable-motion": {
+        "zh": 708,
+        "en": 419
+      },
+      "claude-shared-workspace-artifacts": {
+        "zh": 862,
+        "en": 484
+      },
+      "firefly-creative-studio-plan-mode": {
+        "zh": 768,
+        "en": 447
+      },
+      "photoshop-280-relight-restyle": {
+        "zh": 912,
+        "en": 482
+      },
+      "premiere-270-timeline-audio": {
+        "zh": 993,
+        "en": 535
+      },
+      "snipkit-0416-import-shortcuts": {
+        "zh": 840,
+        "en": 474
+      },
+      "pixel-november-drop-2026": {
+        "zh": 705,
+        "en": 450
+      },
+      "beni-availability-stock-sale": {
+        "zh": 769,
+        "en": 433
+      },
+      "aroti-r1-camera-free-preview": {
+        "zh": 710,
+        "en": 433
+      },
+      "ring-robotics-drone-rover-announcement": {
+        "zh": 667,
+        "en": 430
+      },
+      "groot2-world-action-corl": {
+        "zh": 764,
+        "en": 430
+      },
+      "antigravity-carbon-swarm": {
+        "zh": 850,
+        "en": 489
+      },
+      "openhands-138-profile-budget": {
+        "zh": 733,
+        "en": 424
+      },
+      "goose-159-hooks-resume": {
+        "zh": 757,
+        "en": 424
+      },
+      "uipath-flow-chat-ga": {
+        "zh": 708,
+        "en": 418
+      },
+      "modern-web-guidance-10": {
+        "zh": 721,
+        "en": 422
+      },
+      "ernie-evolve-research-results": {
+        "zh": 788,
+        "en": 442
+      },
+      "eyeq-corneal-context": {
+        "zh": 735,
+        "en": 422
+      },
+      "lilo-peer-conflict-rehearsal": {
+        "zh": 756,
+        "en": 417
+      },
+      "project-progress-desk-receipts": {
+        "zh": 729,
+        "en": 420
+      },
+      "ad-review-scene-repair": {
+        "zh": 718,
+        "en": 425
+      },
+      "mlguide-sandbox-workflow": {
+        "zh": 718,
+        "en": 408
+      },
+      "mka-visual-knowledge-benchmark": {
+        "zh": 772,
+        "en": 420
+      }
+    },
+    "primarySummaries": {
+      "clive-confirmed-iphone-alarms": {
+        "zh": 85,
+        "en": 69
+      },
+      "chromeping-translated-phone-calls": {
+        "zh": 91,
+        "en": 64
+      },
+      "medium-tk-inline-notebook": {
+        "zh": 90,
+        "en": 69
+      },
+      "lottie-ai-editable-motion": {
+        "zh": 109,
+        "en": 70
+      },
+      "claude-shared-workspace-artifacts": {
+        "zh": 113,
+        "en": 63
+      },
+      "firefly-creative-studio-plan-mode": {
+        "zh": 108,
+        "en": 64
+      },
+      "photoshop-280-relight-restyle": {
+        "zh": 85,
+        "en": 54
+      },
+      "premiere-270-timeline-audio": {
+        "zh": 92,
+        "en": 58
+      },
+      "snipkit-0416-import-shortcuts": {
+        "zh": 91,
+        "en": 53
+      },
+      "pixel-november-drop-2026": {
+        "zh": 93,
+        "en": 52
+      },
+      "beni-availability-stock-sale": {
+        "zh": 108,
+        "en": 63
+      },
+      "aroti-r1-camera-free-preview": {
+        "zh": 87,
+        "en": 47
+      },
+      "ring-robotics-drone-rover-announcement": {
+        "zh": 77,
+        "en": 47
+      },
+      "groot2-world-action-corl": {
+        "zh": 78,
+        "en": 43
+      },
+      "antigravity-carbon-swarm": {
+        "zh": 80,
+        "en": 47
+      },
+      "openhands-138-profile-budget": {
+        "zh": 91,
+        "en": 54
+      },
+      "goose-159-hooks-resume": {
+        "zh": 99,
+        "en": 53
+      },
+      "uipath-flow-chat-ga": {
+        "zh": 103,
+        "en": 51
+      },
+      "modern-web-guidance-10": {
+        "zh": 103,
+        "en": 50
+      },
+      "ernie-evolve-research-results": {
+        "zh": 125,
+        "en": 64
+      },
+      "eyeq-corneal-context": {
+        "zh": 100,
+        "en": 56
+      },
+      "lilo-peer-conflict-rehearsal": {
+        "zh": 102,
+        "en": 54
+      },
+      "project-progress-desk-receipts": {
+        "zh": 102,
+        "en": 54
+      },
+      "ad-review-scene-repair": {
+        "zh": 107,
+        "en": 56
+      },
+      "mlguide-sandbox-workflow": {
+        "zh": 94,
+        "en": 54
+      },
+      "mka-visual-knowledge-benchmark": {
+        "zh": 92,
+        "en": 53
+      }
+    },
+    "counting": "Only unique full-analysis product paragraphs count toward body gates; summaries, captions, coverage and sources excluded.",
+    "products": 26,
+    "references": 99,
+    "coreVisuals": 26,
+    "slidesPerLocale": 29,
+    "primaryProjectPages": 26,
+    "attachedProjectDetails": 26,
+    "primaryBody": {
+      "zhDenseChars": 2505,
+      "enWords": 1462
+    },
+    "completeReadingBody": {
+      "zhDenseChars": 22328,
+      "enWords": 12910
+    }
+  },
+  "revision": {
+    "label": "morning-edition",
+    "originalCutoffRetained": true,
+    "newIssue": true,
+    "baselineCommit": "3a61ca5120577a78aaaca0161a86de6b0bb297ea"
+  },
+  "topics": [
+    {
+      "id": "clive-confirmed-iphone-alarms",
+      "zhHeadline": "Clive等iPhone确认闹钟设好，才让AI说“已设置”",
+      "enHeadline": "Clive waits for the iPhone before telling an assistant that an alarm is set",
+      "eventAt": "2026-11-10",
+      "freshness": "near-three-day",
+      "evidence": "Original product pages, documentation and maker statements; no editor-run product test",
+      "eventDateNote": "Date-only original PH appearance or original announcement; exact time/timezone not established",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "clive-confirmed-iphone-alarms-2026-11-10",
+      "product_key": "clive-confirmed-iphone-alarms",
+      "publishedAt": "2026-11-10",
+      "observedAt": "2026-11-11T09:16:55.793174Z",
+      "delta_since_last_seen": "November 10 discovery; the store also lists a simplified connector flow in version 1.0.1."
+    },
+    {
+      "id": "chromeping-translated-phone-calls",
+      "zhHeadline": "ChromePing让普通电话两端各说各话，代拨代理会在语音菜单前停下",
+      "enHeadline": "ChromePing translates ordinary phone calls and stops its agent at automated menus",
+      "eventAt": "2026-11-10",
+      "freshness": "near-three-day",
+      "evidence": "Original product pages, documentation and maker statements; no editor-run product test",
+      "eventDateNote": "Date-only original PH appearance or original announcement; exact time/timezone not established",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "chromeping-translated-phone-calls-2026-11-10",
+      "product_key": "chromeping-translated-phone-calls",
+      "publishedAt": "2026-11-10",
+      "observedAt": "2026-11-11T09:16:55.793174Z",
+      "delta_since_last_seen": "A November 10 Product Hunt appearance brings the service into this supplementary selection."
+    },
+    {
+      "id": "medium-tk-inline-notebook",
+      "zhHeadline": "TK把找旧笔记和改稿意见放进正在写的段落，外部代理也能接回同一本",
+      "enHeadline": "TK brings old notes and editorial feedback into the draft already being written",
+      "eventAt": "2026-11-09",
+      "freshness": "near-three-day",
+      "evidence": "Original product pages, documentation and maker statements; no editor-run product test",
+      "eventDateNote": "Date-only original PH appearance or original announcement; exact time/timezone not established",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "medium-tk-inline-notebook-2026-11-09",
+      "product_key": "medium-tk-inline-notebook",
+      "publishedAt": "2026-11-09",
+      "observedAt": "2026-11-11T09:16:55.793174Z",
+      "delta_since_last_seen": "The November 9 opening and November 10 appearance are a recent supplement, not today’s launch."
+    },
+    {
+      "id": "lottie-ai-editable-motion",
+      "zhHeadline": "Lottie AI生成后还能逐层改动，调颜色与速度不用重跑整段动画",
+      "enHeadline": "Lottie AI keeps generated motion editable without rerunning every color or timing change",
+      "eventAt": "2026-11-09",
+      "freshness": "near-three-day",
+      "evidence": "Original product pages, documentation and maker statements; no editor-run product test",
+      "eventDateNote": "Date-only original PH appearance or original announcement; exact time/timezone not established",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "lottie-ai-editable-motion-2026-11-09",
+      "product_key": "lottie-ai-editable-motion",
+      "publishedAt": "2026-11-09",
+      "observedAt": "2026-11-11T09:16:55.793174Z",
+      "delta_since_last_seen": "A November 9 introduction describes a standalone generator, distinct from the existing full editor."
+    },
+    {
+      "id": "claude-shared-workspace-artifacts",
+      "zhHeadline": "Claude把白板、表格和数据留在同一协作现场，连接工具仍有各自权限",
+      "enHeadline": "Claude keeps boards, sheets and data together while connected tools retain their permissions",
+      "eventAt": "2026-11-10",
+      "freshness": "near-three-day",
+      "evidence": "Original vendor documentation and announcement, no independent hands-on test",
+      "eventDateNote": "November10 calendar date only; exact launch clock unspecified. Conservative72h supplement, no inferred UTC time.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "claude-shared-workspace-artifacts:2026-11-10",
+      "product_key": "claude-shared-workspace-artifacts",
+      "publishedAt": "2026-11-10",
+      "observedAt": "2026-11-11T09:19:03.298614+00:00",
+      "delta_since_last_seen": "Sheets and Whiteboards are beta; Data is generally available with some beta features."
+    },
+    {
+      "id": "firefly-creative-studio-plan-mode",
+      "zhHeadline": "Firefly把素材、生成模型与编辑计划放进同一工作区，常驻Agent还要等",
+      "enHeadline": "Firefly brings assets, models and editable plans together; always-on agents remain future work",
+      "eventAt": "2026-11-10",
+      "freshness": "near-three-day",
+      "evidence": "Original vendor documentation and announcement, no independent hands-on test",
+      "eventDateNote": "November10 date; newsroom09:00AM timezone unspecified, not converted. Conservative72h supplement.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "firefly-creative-studio-plan-mode:2026-11-10",
+      "product_key": "firefly-creative-studio-plan-mode",
+      "publishedAt": "2026-11-10",
+      "observedAt": "2026-11-11T09:19:03.298614+00:00",
+      "delta_since_last_seen": "Quick Actions is generally available; the new studio tools and assistant capabilities are beta."
+    },
+    {
+      "id": "photoshop-280-relight-restyle",
+      "zhHeadline": "Photoshop把生成后的强弱做成滑块，补光也能回到图层继续调",
+      "enHeadline": "Photoshop turns generated edits into adjustable layers and lighting controls",
+      "eventAt": "2026-11-10",
+      "freshness": "near-three-day",
+      "evidence": "Original vendor documentation; community reports attributed; no hands-on product test.",
+      "eventDateNote": "Official November 10 date only. Later contemporary coverage does not establish the exact first event time; conservative boundary supplement.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "photoshop-280-relight-restyle",
+      "product_key": "adobe:photoshop",
+      "publishedAt": "2026-11-10",
+      "observedAt": "2026-11-11T09:16:34.042051+00:00",
+      "delta_since_last_seen": "Version 28.0 brings lighting and generated-effect refinement onto the canvas."
+    },
+    {
+      "id": "premiere-270-timeline-audio",
+      "zhHeadline": "Premiere把缺少的音画直接补进时间线，重叠说话也能拆轨再混",
+      "enHeadline": "Premiere generates missing media inside the edit and separates overlapping speakers",
+      "eventAt": "2026-11-10",
+      "freshness": "near-three-day",
+      "evidence": "Original vendor documentation; community reports attributed; no hands-on product test.",
+      "eventDateNote": "Official November 10 date only. Later contemporary coverage does not establish the exact first event time; conservative boundary supplement.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "premiere-270-timeline-audio",
+      "product_key": "adobe:premiere",
+      "publishedAt": "2026-11-10",
+      "observedAt": "2026-11-11T09:16:34.042051+00:00",
+      "delta_since_last_seen": "Version 27.0 releases ColorMode and expands timeline generation and audio tools."
+    },
+    {
+      "id": "snipkit-0416-import-shortcuts",
+      "zhHeadline": "Snipkit先把旧截图带进图库，再让语音编辑和键盘操作接得上",
+      "enHeadline": "Snipkit imports the old screenshot folder before asking users to adopt voice editing",
+      "eventAt": "2026-11-08",
+      "freshness": "seven-day",
+      "evidence": "Original vendor documentation; community reports attributed; no hands-on product test.",
+      "eventDateNote": "Original vendor date only; exact time and timezone not disclosed",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "snipkit-0416-import-shortcuts",
+      "product_key": "getsnipkit.com",
+      "publishedAt": "2026-11-08",
+      "observedAt": "2026-11-11T09:11:07Z",
+      "delta_since_last_seen": "Version 0.4.16 adds screenshot import and shortcut selection to onboarding."
+    },
+    {
+      "id": "pixel-november-drop-2026",
+      "zhHeadline": "Pixel10手机接入Gemini Intelligence：说话成文、描述生成组件，重要短信用背灯提醒",
+      "enHeadline": "Pixel 10 gains Gemini Intelligence while prompted widgets and rear-light message alerts expand",
+      "eventAt": "2026-11-10",
+      "freshness": "near-three-day",
+      "evidence": "Original vendor publication; no editor hands-on",
+      "eventDateNote": "Official November 10 date only. Later contemporary coverage does not establish the exact first event time; conservative boundary supplement.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "pixel-november-drop-2026:2026-11-10",
+      "product_key": "pixel-november-drop-2026",
+      "publishedAt": "2026-11-10",
+      "observedAt": "2026-11-11T09:15:50.795540+00:00",
+      "delta_since_last_seen": "Phased rollout starts November 10; this is not a phone launch."
+    },
+    {
+      "id": "beni-availability-stock-sale",
+      "zhHeadline": "Beni现货开售，让拍摄者走进镜头，路面与看护工作仍要自己选",
+      "enHeadline": "Beni enters stock sale so the camera operator can join the frame",
+      "eventAt": "2026-11-10",
+      "freshness": "near-three-day",
+      "evidence": "Original vendor documentation and announcement, no independent hands-on test",
+      "eventDateNote": "Underlying November10 availability gives no exact time; news observation is not launch clock. Conservative 72-hour supplement; July launch is baseline.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "beni-availability-stock-sale:2026-11-10",
+      "product_key": "beni",
+      "publishedAt": "2026-11-10",
+      "observedAt": "2026-11-11T09:10:59.085150+00:00",
+      "delta_since_last_seen": "The new event is stock-sale availability, following an earlier crowdfunding launch."
+    },
+    {
+      "id": "aroti-r1-camera-free-preview",
+      "zhHeadline": "AROTI R1把翻译和讲稿放进右眼，27克方案舍去相机与扬声器",
+      "enHeadline": "AROTI R1 puts translation and speaking notes in one eye, without a camera or speaker",
+      "eventAt": "2026-11-10T15:00:00Z",
+      "freshness": "main",
+      "evidence": "Original vendor publication; no editor hands-on",
+      "eventDateNote": "11月10日10:00 ET公告（15:00Z）；11月16日众筹计划，不是交付",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "aroti-r1-camera-free-preview:2026-11-10T15:00:00Z",
+      "product_key": "aroti-r1-camera-free-preview",
+      "publishedAt": "2026-11-10T15:00:00Z",
+      "observedAt": "2026-11-11T09:15:50.795540+00:00",
+      "delta_since_last_seen": "Announced November 10; crowdfunding begins November 16."
+    },
+    {
+      "id": "ring-robotics-drone-rover-announcement",
+      "zhHeadline": "Ring把摄像头带到报警地点：家庭用飞行机，商店用带升降镜头的巡逻车",
+      "enHeadline": "Ring sends cameras to alerts: a flying home camera and a wheeled business patrol robot",
+      "eventAt": "2026-11-10",
+      "freshness": "near-three-day",
+      "evidence": "Original vendor publication; no editor hands-on",
+      "eventDateNote": "Official November 10 date only. Later contemporary coverage does not establish the exact first event time; conservative boundary supplement.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "ring-robotics-drone-rover-announcement:2026-11-10",
+      "product_key": "ring-robotics-drone-rover-announcement",
+      "publishedAt": "2026-11-10",
+      "observedAt": "2026-11-11T09:15:50.795540+00:00",
+      "delta_since_last_seen": "Drone and Rover share AI Pilot but serve different spaces."
+    },
+    {
+      "id": "groot2-world-action-corl",
+      "zhHeadline": "GR00T 2一起预测动作和下一段画面，用少量示范适配新的机器人任务",
+      "enHeadline": "GR00T 2 predicts actions and future video together, then adapts with a few demonstrations",
+      "eventAt": "2026-11-09",
+      "freshness": "near-three-day",
+      "evidence": "Original vendor publication; no editor hands-on",
+      "eventDateNote": "近三日补充：11月9日CoRL公告，原始页只给日期，无精确时区",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "groot2-world-action-corl:2026-11-09",
+      "product_key": "groot2-world-action-corl",
+      "publishedAt": "2026-11-09",
+      "observedAt": "2026-11-11T09:15:50.795540+00:00",
+      "delta_since_last_seen": "Disclosed at CoRL November 9; code planned for December."
+    },
+    {
+      "id": "antigravity-carbon-swarm",
+      "zhHeadline": "Antigravity把多代理讨论、修改和复核放进可追踪的共享看板",
+      "enHeadline": "Antigravity /swarm exposes the discussion behind parallel code changes",
+      "eventAt": "2026-11-10",
+      "freshness": "near-three-day",
+      "evidence": "Official product documentation and announcement; no hands-on validation.",
+      "eventDateNote": "Official article JSON-LD datePublished 2026-11-10T08:00:00Z, before the main-window lower bound; rollout timing per user remains unspecified.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "antigravity-carbon-swarm-2026-11-10",
+      "product_key": "antigravity-carbon-swarm",
+      "publishedAt": "2026-11-10T08:00:00Z",
+      "observedAt": "2026-11-11T09:14:00Z",
+      "delta_since_last_seen": "Board, member states and replay expose coordination while work continues."
+    },
+    {
+      "id": "openhands-138-profile-budget",
+      "zhHeadline": "OpenHands让自动化沿用指定代理配置，并把真实花费和预算上限放在一起",
+      "enHeadline": "OpenHands ties automations to agent profiles and displays spending beside its cap",
+      "eventAt": "2026-11-10T04:59:49Z",
+      "freshness": "near-three-day",
+      "evidence": "Original vendor documentation read; not installed or independently tested",
+      "eventDateNote": "Exact UTC release metadata",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "openhands-138-profile-budget-2026-11-10",
+      "product_key": "github:OpenHands/OpenHands",
+      "publishedAt": "2026-11-10T04:59:49Z",
+      "observedAt": "2026-11-11T09:09:30Z",
+      "delta_since_last_seen": "Version 1.38 adds profile selection and budget display, subject to backend support."
+    },
+    {
+      "id": "goose-159-hooks-resume",
+      "zhHeadline": "goose把批准、工具前后检查和结束判断拆开，也允许追问已完成的子任务",
+      "enHeadline": "goose separates approval, tool hooks and completion checks while reopening finished delegates",
+      "eventAt": "2026-11-10T17:17:02Z",
+      "freshness": "main",
+      "evidence": "Original vendor documentation read; not installed or independently tested",
+      "eventDateNote": "Exact UTC release metadata",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "goose-159-hooks-resume-2026-11-10",
+      "product_key": "goose-159-hooks-resume",
+      "publishedAt": "2026-11-10T17:17:02Z",
+      "observedAt": "2026-11-11T09:09:30Z",
+      "delta_since_last_seen": "Version 1.59 adds reusable control steps and follow-ups to completed delegates."
+    },
+    {
+      "id": "uipath-flow-chat-ga",
+      "zhHeadline": "UiPath把聊天交接画成流程：固定提示不必调用模型，后台审批可以并行",
+      "enHeadline": "UiPath models chat handoffs as a flow with fixed messages and parallel approvals",
+      "eventAt": "2026-11-10",
+      "freshness": "near-three-day",
+      "evidence": "Original vendor documentation read; not installed or independently tested",
+      "eventDateNote": "Original date only; time and timezone unknown",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "uipath-flow-chat-ga-2026-11-10",
+      "product_key": "uipath-flow-chat-ga",
+      "publishedAt": "2026-11-10",
+      "observedAt": "2026-11-11T09:09:30Z",
+      "delta_since_last_seen": "Flow-based chat agents became GA November 10; voice remains preview."
+    },
+    {
+      "id": "modern-web-guidance-10",
+      "zhHeadline": "Modern Web Guidance先找旧网页代码模式，再让代理核对上下文后改写",
+      "enHeadline": "Modern Web Guidance finds legacy patterns before an agent verifies and rewrites them",
+      "eventAt": "2026-11-10",
+      "freshness": "near-three-day",
+      "evidence": "Original vendor documentation read; not installed or independently tested",
+      "eventDateNote": "Original date only; time and timezone unknown",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "modern-web-guidance-10-2026-11-10",
+      "product_key": "modern-web-guidance-10",
+      "publishedAt": "2026-11-10",
+      "observedAt": "2026-11-11T09:09:30Z",
+      "delta_since_last_seen": "Stable 1.0 adds a deliberately scoped legacy-code scanner."
+    },
+    {
+      "id": "ernie-evolve-research-results",
+      "zhHeadline": "ERNIE Evolve把优化假设留在实验树里，公开的是结果代码而非研究Agent",
+      "enHeadline": "ERNIE Evolve retains experimental branches; the public release contains results, not the research agent",
+      "eventAt": "2026-11-09",
+      "freshness": "near-three-day",
+      "evidence": "Original research report and repository root; author results, no independent reproduction",
+      "eventDateNote": "November9 date-only original research disclosure, within72h; no public service release asserted.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "ernie-evolve-research-results:2026-11-09",
+      "product_key": "ernie-evolve-research-results",
+      "publishedAt": "2026-11-09",
+      "observedAt": "2026-11-11T09:13:35.558440+00:00",
+      "delta_since_last_seen": "November 9 disclosed the system and result repository, not a commercial service."
+    },
+    {
+      "id": "eyeq-corneal-context",
+      "zhHeadline": "EyeQ从眼球反光读取周围环境，但还不是手机前摄的现成功能",
+      "enHeadline": "EyeQ reads surroundings from eye reflections, with rear-camera optics and server processing",
+      "eventAt": "2026-11-10T06:34:37Z",
+      "freshness": "near-three-day",
+      "evidence": "Original abstract/history and targeted paper system, study and limitations sections read; author-reported research, not editor reproduction.",
+      "eventDateNote": "Exact arXiv submission UTC; public announcement clock unconfirmed. Submission is not a commercial release date.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "eyeq-corneal-context:2611.13640:v1",
+      "product_key": "eyeq-corneal-context",
+      "publishedAt": "2026-11-10T06:34:37Z",
+      "observedAt": "2026-11-11T09:10:00Z",
+      "delta_since_last_seen": "The prototype uses an iPhone 16 Pro rear camera and mirrored preview."
+    },
+    {
+      "id": "lilo-peer-conflict-rehearsal",
+      "zhHeadline": "Lilo让儿童在模拟群聊里练习冲突回应，导师只在需要时介入",
+      "enHeadline": "Lilo lets children rehearse difficult group chats with contextual mentor interventions",
+      "eventAt": "2026-11-10T16:07:13Z",
+      "freshness": "main",
+      "evidence": "Original abstract/history and targeted paper system, study and limitations sections read; author-reported research, not editor reproduction.",
+      "eventDateNote": "Exact arXiv submission UTC; public announcement clock unconfirmed. Submission is not a commercial release date.",
+      "gapBackfill": false,
+      "eventTimeKind": "arXiv submission; public announcement time unconfirmed",
+      "event_key": "lilo-peer-conflict-rehearsal:2611.14260:v1",
+      "product_key": "lilo-peer-conflict-rehearsal",
+      "publishedAt": "2026-11-10T16:07:13Z",
+      "observedAt": "2026-11-11T09:10:00Z",
+      "delta_since_last_seen": "An orchestrator selects speakers, guidance and difficulty from the current exchange."
+    },
+    {
+      "id": "project-progress-desk-receipts",
+      "zhHeadline": "Project Progress Desk把代理完成记录接到项目清单，分开展示证据与估计",
+      "enHeadline": "Project Progress Desk ties agent receipts to checklists and separates evidence from estimates",
+      "eventAt": "2026-11-09T21:53:26Z",
+      "freshness": "near-three-day",
+      "evidence": "Original abstract/history and targeted paper system, study and limitations sections read; author-reported research, not editor reproduction.",
+      "eventDateNote": "Exact arXiv submission UTC; public announcement clock unconfirmed. Submission is not a commercial release date.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "project-progress-desk-receipts:2611.13287:v1",
+      "product_key": "project-progress-desk-receipts",
+      "publishedAt": "2026-11-09T21:53:26Z",
+      "observedAt": "2026-11-11T09:10:00Z",
+      "delta_since_last_seen": "Dark progress is receipt-supported; pale portions retain dated estimates."
+    },
+    {
+      "id": "ad-review-scene-repair",
+      "zhHeadline": "广告视频复核把每个问题连到局部修复，避免一处错误重做整条片",
+      "enHeadline": "Scene-by-scene ad review routes each confirmed defect to a targeted edit",
+      "eventAt": "2026-11-09T20:00:23Z",
+      "freshness": "near-three-day",
+      "evidence": "Original abstract/history and targeted paper system, study and limitations sections read; author-reported research, not editor reproduction.",
+      "eventDateNote": "Exact arXiv submission UTC; public announcement clock unconfirmed. Submission is not a commercial release date.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "ad-review-scene-repair:2611.13178:v1",
+      "product_key": "ad-review-scene-repair",
+      "publishedAt": "2026-11-09T20:00:23Z",
+      "observedAt": "2026-11-11T09:10:00Z",
+      "delta_since_last_seen": "Catalog photos and listing facts anchor review beyond visual attractiveness."
+    },
+    {
+      "id": "mlguide-sandbox-workflow",
+      "zhHeadline": "AI Sandbox把数据准备和实验配置连起来，图形流程仍不能替代方法判断",
+      "enHeadline": "AI Sandbox connects data preparation to experiments while methodological judgment remains separate",
+      "eventAt": "2026-11-10T00:02:31Z",
+      "freshness": "near-three-day",
+      "evidence": "Original abstract/history and targeted paper system, study and limitations sections read; author-reported research, not editor reproduction.",
+      "eventDateNote": "Exact arXiv submission UTC; public announcement clock unconfirmed. Submission is not a commercial release date.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "mlguide-sandbox-workflow:2611.13386:v1",
+      "product_key": "mlguide-sandbox-workflow",
+      "publishedAt": "2026-11-10T00:02:31Z",
+      "observedAt": "2026-11-11T09:10:00Z",
+      "delta_since_last_seen": "mlguide adds method guidance while the workflow exposes split and preprocessing order."
+    },
+    {
+      "id": "mka-visual-knowledge-benchmark",
+      "zhHeadline": "MKA要求代理跨图纸、表格和文档交付成品，得分仍不等于整项工作通过",
+      "enHeadline": "MKA evaluates cross-file visual work, but a rubric score is not whole-task completion",
+      "eventAt": "2026-11-10",
+      "freshness": "near-three-day",
+      "evidence": "Google original announcement, 25-page technical report targeted methodology/results/limitations, Artificial Analysis evaluation page and Hugging Face dataset card read. No benchmark executed.",
+      "eventDateNote": "Official announcement and technical report have November 10 date only; clock/timezone unverified. Date overlaps primary-window boundary; conservative near-three-day classification.",
+      "gapBackfill": false,
+      "eventTimeKind": "source-reported event",
+      "event_key": "mka:benchmark-release:2026-11-10",
+      "product_key": "mka-visual-knowledge-benchmark",
+      "publishedAt": "2026-11-10",
+      "observedAt": "2026-11-11T09:17:59Z",
+      "delta_since_last_seen": "Two hundred private tasks and ten separate public examples cover 83 occupations."
+    }
+  ],
+  "eventCounts": {
+    "mainWindowEvents": 3,
+    "nearThreeDayReviews": 22,
+    "sevenDayReviews": 1,
+    "gapBackfillEvents": 0,
+    "interpretation": "Announcements, submissions, updates and regional reports; not first product launches."
+  }
+}

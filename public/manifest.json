@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-11-11",
+    "zhTitle": "AI Daily｜2026年11月11日 · 确认动作，保留修改入口",
+    "enTitle": "AI Daily | November 11, 2026 · Confirm actions and retain edit controls",
+    "zhSummary": "闹钟、通话、创作工具、穿戴与机器人；逐项区分正式功能、研究原型和预告。",
+    "enSummary": "Alarms, calls, creative tools, wearables and robotics, distinguishing available features, research prototypes and previews.",
+    "tags": [
+      "consumer AI",
+      "creative tools",
+      "physical interaction",
+      "research"
+    ],
+    "sourceTypes": [
+      "official",
+      "reviews",
+      "community",
+      "research"
+    ],
+    "coverStory": {
+      "topicId": "clive-confirmed-iphone-alarms",
+      "zhTitle": "Clive",
+      "enTitle": "Clive",
+      "imagePath": "assets/clive-detail-1.jpg",
+      "imageSourceUrl": "https://ph-files.imgix.net/d94fff58-2aab-4169-8cde-7ea1d4a7878d.png",
+      "primarySourceUrl": "https://www.producthunt.com/products/clive?launch=clive",
+      "evidenceStrength": "Original product pages, documentation and maker statements; no editor-run product test"
+    },
+    "zhPath": "./2026-11-11/zh/",
+    "enPath": "./2026-11-11/en/",
+    "sourcesPath": "./2026-11-11/sources.html"
+  },
+  {
     "date": "2026-11-10",
     "zhTitle": "AI Daily｜2026年11月10日 · 创作可修改，动作可复查",
     "enTitle": "AI Daily | November 10, 2026 · Editable creation and inspectable actions",
