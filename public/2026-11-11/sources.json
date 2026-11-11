@@ -1,45 +1,45 @@
 [
   {
-    "url": "https://www.producthunt.com/newsletters/archive/57950-let-claude-wake-you-up",
-    "title": "Nov10 consumer product discovery",
-    "publisher": "Product Hunt",
-    "publishedAt": "2026-11-10",
-    "observedAt": "2026-11-11T09:16:55.793174Z",
-    "number": 1
-  },
-  {
-    "url": "https://www.producthunt.com/products/clive?launch=clive",
-    "title": "Launch and maker explanation",
-    "publisher": "Product Hunt",
-    "observedAt": "2026-11-11T09:16:55.793174Z",
-    "number": 2
-  },
-  {
     "url": "https://clive.bytortoise.com/",
     "title": "Pairing and alarm interface",
     "publisher": "Tortoise",
     "observedAt": "2026-11-11T09:16:55.793174Z",
-    "number": 3
-  },
-  {
-    "url": "https://clive.bytortoise.com/help",
-    "title": "Status protocol, limits and troubleshooting",
-    "publisher": "Tortoise",
-    "observedAt": "2026-11-11T09:16:55.793174Z",
-    "number": 4
+    "number": 1
   },
   {
     "url": "https://apps.apple.com/us/app/clive-alarms-your-ai-sets/id6827766252",
     "title": "US app listing and version1.0.1",
     "publisher": "Apple / Tortoise",
     "observedAt": "2026-11-11T09:16:55.793174Z",
-    "number": 5
+    "number": 2
+  },
+  {
+    "url": "https://clive.bytortoise.com/help",
+    "title": "Status protocol, limits and troubleshooting",
+    "publisher": "Tortoise",
+    "observedAt": "2026-11-11T09:16:55.793174Z",
+    "number": 3
   },
   {
     "url": "https://clive.bytortoise.com/privacy",
     "title": "Privacy and regional availability",
     "publisher": "Tortoise",
     "publishedAt": "2026-11-09",
+    "observedAt": "2026-11-11T09:16:55.793174Z",
+    "number": 4
+  },
+  {
+    "url": "https://www.producthunt.com/newsletters/archive/57950-let-claude-wake-you-up",
+    "title": "Nov10 consumer product discovery",
+    "publisher": "Product Hunt",
+    "publishedAt": "2026-11-10",
+    "observedAt": "2026-11-11T09:16:55.793174Z",
+    "number": 5
+  },
+  {
+    "url": "https://www.producthunt.com/products/clive?launch=clive",
+    "title": "Launch and maker explanation",
+    "publisher": "Product Hunt",
     "observedAt": "2026-11-11T09:16:55.793174Z",
     "number": 6
   },

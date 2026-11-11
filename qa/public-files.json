@@ -10677,7 +10677,7 @@
   {
     "path": "2026-11-11/en/details/clive-confirmed-iphone-alarms.html",
     "bytes": 6409,
-    "sha256": "4cbd7ff62cbdb196f359422ed6b202faeb4f5ed6a954fa43d8ebcbad1401cbce"
+    "sha256": "521265cb201a02f46e1e5eb8f0ab9481d7a94adf1bbd03b6c9a1c87e31381e28"
   },
   {
     "path": "2026-11-11/en/details/ernie-evolve-research-results.html",
@@ -10777,7 +10777,7 @@
   {
     "path": "2026-11-11/en/index.html",
     "bytes": 79829,
-    "sha256": "2ac7903d517699c59a89d2b62fdbf0f50c3ef7857e3a71b52cc38850f425e2d6"
+    "sha256": "9df1aa1472d112ba801835dc2c363094feed32884b28f24ccd5a34d7fc944091"
   },
   {
     "path": "2026-11-11/manifest.json",
@@ -10787,12 +10787,12 @@
   {
     "path": "2026-11-11/sources.html",
     "bytes": 60956,
-    "sha256": "66284c90ede2ba5185172eeb72be4cd52a7430ca9e7bbe61e14563f55941c8d2"
+    "sha256": "10da8b9b221bd4620625fbf1245623c39eb4ee9bb053094618a1e4d37708f87a"
   },
   {
     "path": "2026-11-11/sources.json",
     "bytes": 25970,
-    "sha256": "e0d31d181eda679ff7c582af7f61b548065743f05ad5df68e7c547719b4070d3"
+    "sha256": "fcecdccacf45858318069656f7bbe97b0e94db7bae312c24439e0fab057f474f"
   },
   {
     "path": "2026-11-11/visuals.json",
@@ -10832,7 +10832,7 @@
   {
     "path": "2026-11-11/zh/details/clive-confirmed-iphone-alarms.html",
     "bytes": 5836,
-    "sha256": "2d4fd6f4eb3774828d34b0fd27d7f4d47dc8d61ecd370f1c3b2673fca320df86"
+    "sha256": "bcf43efa87e043c86e274ed9298191230c301d7ea6955a8730cbeb16d7f90692"
   },
   {
     "path": "2026-11-11/zh/details/ernie-evolve-research-results.html",
@@ -10932,7 +10932,7 @@
   {
     "path": "2026-11-11/zh/index.html",
     "bytes": 77155,
-    "sha256": "3f4461fea11177a2aee434a1ab3462ad9bbafed8684a44f264be785125b5fdb4"
+    "sha256": "def21a30558a81d783d3b51b5382c2874ba5f217a0073e3071239f29e81a9ff6"
   },
   {
     "path": "assets/acti-agentic-keyboard-2026-07-03.svg",
