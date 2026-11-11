@@ -1,9 +1,16 @@
 [
   {
-    "kind": "image",
-    "name": "mka-sectors.jpg",
-    "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/02_Inline_Multimodal.width-1200.format-webp.webp",
-    "renderImage": true,
+    "kind": "page",
+    "name": "pixel-screen.jpg",
+    "url": "https://blog.google/products-and-platforms/devices/pixel/november-2026-pixel-drop/",
+    "selector": "img[alt^=\"The Rambler feature\"]",
     "locale": "zh"
+  },
+  {
+    "kind": "page",
+    "name": "mka-scope.jpg",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark/",
+    "selector": "img[alt^=\"10 verticals\"]",
+    "locale": "en"
   }
 ]
