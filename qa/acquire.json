@@ -1,135 +1,41 @@
 [
   {
     "kind": "image",
-    "name": "chromeping-detail-0.jpg",
-    "url": "https://ph-files.imgix.net/055a4287-0f35-4db1-a1a8-90655ea72c40.jpeg",
+    "name": "claude-workspace.jpg",
+    "url": "https://i.ytimg.com/vi/YewAJPawE7I/maxresdefault.jpg",
     "renderImage": true,
     "locale": "zh"
   },
   {
     "kind": "image",
-    "name": "chromeping-detail-1.jpg",
-    "url": "https://ph-files.imgix.net/2a87539d-aacf-4f6f-bd68-4f4cfa2769db.jpeg",
+    "name": "claude-connectors.jpg",
+    "url": "https://i.ytimg.com/vi/Gy1jSeSzAhk/maxresdefault.jpg",
     "renderImage": true,
     "locale": "en"
   },
   {
-    "kind": "image",
-    "name": "clive-detail-0.jpg",
-    "url": "https://ph-files.imgix.net/5d80780a-e751-497c-bfbe-ca7c8b2df56e.png",
-    "renderImage": true,
+    "kind": "inventory",
+    "name": "pixel-inventory.json",
+    "url": "https://blog.google/products-and-platforms/devices/pixel/november-2026-pixel-drop/",
     "locale": "zh"
   },
   {
-    "kind": "image",
-    "name": "clive-detail-1.jpg",
-    "url": "https://ph-files.imgix.net/d94fff58-2aab-4169-8cde-7ea1d4a7878d.png",
-    "renderImage": true,
+    "kind": "inventory",
+    "name": "mka-inventory.json",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark/",
     "locale": "en"
   },
   {
-    "kind": "image",
-    "name": "clive-detail-2.jpg",
-    "url": "https://ph-files.imgix.net/a67f24a5-df01-4802-aa08-fcf905cf0297.png",
-    "renderImage": true,
+    "kind": "page",
+    "name": "groot2-demo.jpg",
+    "url": "https://research.nvidia.com/labs/gear/gr00t-2/",
+    "selector": "video",
     "locale": "zh"
   },
   {
-    "kind": "image",
-    "name": "kettle-detail-0.jpg",
-    "url": "https://ph-files.imgix.net/launch-image-uploads/63d8dab2-7e10-4de6-baf1-97e899085c6e/3036052da95d709ec6c933d53bf08828664c32dd32c747fee6eced7b413f935a.png",
-    "renderImage": true,
+    "kind": "inventory",
+    "name": "groot2-inventory.json",
+    "url": "https://research.nvidia.com/labs/gear/gr00t-2/",
     "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "kettle-detail-1.jpg",
-    "url": "https://ph-files.imgix.net/launch-image-uploads/89c5fd92-bd77-4935-8678-11a04e1a6a55/28106893c9b969626a9e283972c8a02387bc595a7491bf68b293f6fb965a64d0.png",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "lottie-detail-0.jpg",
-    "url": "https://ph-files.imgix.net/38fd4f5a-b5dd-4464-bc82-fc82ace373cf.png",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "openai-business.jpg",
-    "url": "https://images.ctfassets.net/kftzwdyauwt9/business-agents-bb09e0ba0cc3878b49/80f034d267933994ef8635ec8fb64fe5/business-agents-light-sky.webp",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "antigravity.jpg",
-    "url": "https://antigravity.google/assets/image/docs/swarm/swarm-app-board-v4.png",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "ernie-evolve.jpg",
-    "url": "https://ernie.baidu.com/research-assets/ernie-evolve/architecture-20261109.png",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "photoshop-restyle.jpg",
-    "url": "https://helpx-prod.scene7.com/is/image/HelpxProdLoc/ps-gen-restyle-2?%24pjpeg%24=&jpegSize=200&wid=1200",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "premiere-crosstalk.jpg",
-    "url": "https://helpx-prod.scene7.com/is/image/HelpxProdLoc/separate-overlapping-speakers-01-pr?%24pjpeg%24=&jpegSize=300&wid=1500",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "pixel-widget.jpg",
-    "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Pixel_11_Pro_Create_My_Widget_re.width-1200.format-webp.webp",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "groot2.jpg",
-    "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/corl-corp-blog-promo-pack-1920x1080-1-1280x720.png",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "mka-tasks.jpg",
-    "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/03_Inline_MKA_Example_Tasks_2592.width-1200.format-webp.webp",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "firefly-studio.jpg",
-    "url": "https://blog.adobe.com/en/publish/2026/11/10/media_1e5e896fbf7640d537f9ba4bcc2a534a6a8c4a791.jpg?width=2000&format=webply&optimize=medium",
-    "renderImage": true,
-    "locale": "zh"
-  },
-  {
-    "kind": "image",
-    "name": "firefly-assistant.jpg",
-    "url": "https://blog.adobe.com/en/publish/2026/11/10/media_1fee39381a5c3b8ebb875051b9f74af46b84f64d3.jpg?width=750&format=jpg&optimize=medium",
-    "renderImage": true,
-    "locale": "en"
-  },
-  {
-    "kind": "image",
-    "name": "firefly-design.jpg",
-    "url": "https://blog.adobe.com/en/publish/2026/11/10/media_11ce0a23abeaa195987b40e8432b7ea4fe1534c6a.jpg?width=750&format=jpg&optimize=medium",
-    "renderImage": true,
-    "locale": "zh"
   }
 ]
